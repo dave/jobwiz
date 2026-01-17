@@ -1,5 +1,7 @@
 # Issue #21: Implement auth (Supabase Auth)
 
+**Prerequisite:** #55 (Supabase project setup) - Stage 1
+
 ## Acceptance Criteria
 
 ### Auth Methods
@@ -76,7 +78,6 @@ npm test -- --testPathPattern=auth
 
 ## Sub-issues
 
-- [ ] #55 - Supabase project setup
 - [ ] #56 - Auth UI components
 - [ ] #57 - Protected route middleware
 - [ ] #58 - User profile table schema
