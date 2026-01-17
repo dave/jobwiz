@@ -126,6 +126,49 @@ test('tracks CTA click', async () => {
 })
 ```
 
+### AB Variant Selection Tests
+
+```typescript
+describe('Paywall AB variants', () => {
+  test('reads variant from AB context/provider', () => {
+    render(
+      <ABTestProvider experiments={{ paywall: 'soft' }}>
+        <PaywallGate />
+      </ABTestProvider>
+    )
+    // Soft variant shows blurred preview
+    expect(screen.getByTestId('blurred-preview')).toBeVisible()
+  })
+
+  test('defaults to hard gate when no AB variant set', () => {
+    render(<PaywallGate />)
+    // Hard variant completely blocks
+    expect(screen.queryByTestId('blurred-preview')).not.toBeInTheDocument()
+  })
+
+  test('variant is consistent for same user across sessions', () => {
+    // Variant assignment should be deterministic based on user ID
+    const getVariant = (userId: string) => assignVariant('paywall', userId)
+    expect(getVariant('user-123')).toBe(getVariant('user-123'))
+  })
+
+  test('tracks variant in analytics events', () => {
+    const trackEvent = jest.fn()
+    render(
+      <ABTestProvider experiments={{ paywall: 'teaser' }}>
+        <PaywallGate onTrack={trackEvent} />
+      </ABTestProvider>
+    )
+    expect(trackEvent).toHaveBeenCalledWith('paywall_impression', {
+      variant: 'teaser',
+      // ...other properties
+    })
+  })
+})
+```
+
+> **Note:** Depends on #24 (AB Testing Framework) for `ABTestProvider` and `assignVariant`.
+
 ---
 
 ## Definition of Done

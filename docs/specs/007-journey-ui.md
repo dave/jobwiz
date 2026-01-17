@@ -107,6 +107,28 @@ test('persists state to localStorage', async () => {
 })
 ```
 
+### Keyboard Navigation Tests
+
+```typescript
+describe('Keyboard navigation', () => {
+  test('Enter key advances to next step')
+  test('Escape key returns to previous step')
+  test('Escape on first step does nothing')
+  test('Enter on incomplete required step does nothing')
+})
+```
+
+### Supabase Sync Tests
+
+```typescript
+describe('State sync for logged-in users', () => {
+  test('saves progress to Supabase when authenticated')
+  test('loads progress from Supabase on mount')
+  test('falls back to localStorage when unauthenticated')
+  test('handles Supabase errors gracefully (continues with localStorage)')
+})
+```
+
 ### Accessibility Tests
 
 ```bash

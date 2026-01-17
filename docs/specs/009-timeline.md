@@ -98,16 +98,38 @@ test('renders all visual states', () => {
 ### Responsive Test
 
 ```typescript
-test('renders vertical on mobile viewport', async () => {
-  // Set viewport to mobile
-  await page.setViewportSize({ width: 375, height: 667 })
-  render(<Timeline steps={steps} ... />)
+// Use matchMedia mock for responsive testing in jsdom
+describe('Responsive layout', () => {
+  test('renders vertical on mobile viewport', () => {
+    // Mock mobile viewport via matchMedia
+    window.matchMedia = jest.fn().mockImplementation(query => ({
+      matches: query === '(max-width: 768px)',
+      media: query,
+      addEventListener: jest.fn(),
+      removeEventListener: jest.fn(),
+    }))
 
-  // Check layout is vertical
-  const list = screen.getByRole('list')
-  expect(list).toHaveClass('timeline--vertical')
+    render(<Timeline steps={steps} />)
+    const list = screen.getByRole('list')
+    expect(list).toHaveClass('timeline--vertical')
+  })
+
+  test('renders horizontal on desktop viewport', () => {
+    window.matchMedia = jest.fn().mockImplementation(query => ({
+      matches: query === '(min-width: 769px)',
+      media: query,
+      addEventListener: jest.fn(),
+      removeEventListener: jest.fn(),
+    }))
+
+    render(<Timeline steps={steps} orientation="horizontal" />)
+    const list = screen.getByRole('list')
+    expect(list).toHaveClass('timeline--horizontal')
+  })
 })
 ```
+
+> **Note:** For true visual responsive testing, use Storybook + Chromatic or Playwright E2E tests separately.
 
 ---
 

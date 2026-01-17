@@ -82,6 +82,46 @@ describe('ChecklistBlock', () => {
   test('persists to localStorage')
   test('calls onComplete when all required checked')
 })
+
+describe('VideoBlock', () => {
+  // Mock HTMLMediaElement for jsdom
+  beforeEach(() => {
+    window.HTMLMediaElement.prototype.play = jest.fn()
+    window.HTMLMediaElement.prototype.pause = jest.fn()
+  })
+
+  test('renders YouTube embed with correct src')
+  test('renders Vimeo embed with correct src')
+  test('calls onComplete when timeupdate reaches 80%')
+  test('handles invalid video URL gracefully')
+})
+
+describe('AudioBlock', () => {
+  // Mock HTMLAudioElement
+  beforeEach(() => {
+    jest.spyOn(window.HTMLMediaElement.prototype, 'play').mockImplementation(() => Promise.resolve())
+  })
+
+  test('play/pause toggles audio state')
+  test('seek bar updates on timeupdate')
+  test('playback speed changes work (0.5x, 1x, 1.5x, 2x)')
+  test('calls onComplete when progress reaches 90%')
+})
+
+describe('InfographicBlock', () => {
+  test('renders image with alt text')
+  test('click opens zoom modal')
+  test('escape closes zoom modal')
+  test('pinch-to-zoom works on touch devices')
+})
+
+describe('AnimationBlock', () => {
+  // Mock lottie-react
+  test('loads Lottie JSON animation')
+  test('plays animation on mount')
+  test('respects loop property')
+  test('calls onComplete when animation finishes (if not looping)')
+})
 ```
 
 ```bash
@@ -139,6 +179,13 @@ npm run storybook
 
 ---
 
+## Dependencies
+
+- Depends on #6 (Module Schema) for `ContentBlockType` enum alignment
+- Block component names must match schema types: `video`, `audio`, `text`, `infographic`, `animation`, `quiz`, `checklist`
+
+---
+
 ## Definition of Done
 
 1. All block components render without errors
@@ -147,3 +194,4 @@ npm run storybook
 4. Interactive blocks call onComplete
 5. Accessibility tests pass
 6. Storybook stories exist for all variants
+7. Component types align with ContentBlockType enum from #6
