@@ -16,3 +16,7 @@ See GitHub issue #2 for the full plan: Research/Infrastructure → Content Frame
 - At the end of each plan, give me a list of unresolved questions to answer, if any.
 - Make sure each stage of the plan is separated, so we can run them stage by stage in separate contexts.
 - When the plan is accepted, make a GitHub issue with the plan so we can load it later when we need to run stages. 
+
+## Implementation
+
+Use Context7 to check up-to-date docs when needed for implementing new libraries or frameworks, or adding features using them.
