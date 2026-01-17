@@ -1,33 +1,40 @@
 # Issue #22: Stripe payment integration
 
+**Dependencies:** #21 (Auth) - user must be logged in to purchase, #10 (PaywallGate) - triggers checkout
+
 ## Acceptance Criteria
 
-### Checkout Flow
-- [ ] "Buy" button creates Stripe Checkout session
-- [ ] Redirects to Stripe-hosted checkout
-- [ ] Success redirect unlocks content
-- [ ] Cancel redirect returns to page
+### Checkout Flow (#37)
+- [ ] PaywallGate "Buy" button creates Stripe Checkout session
+- [ ] Checkout session includes: company, role, user_id in metadata
+- [ ] Redirects to Stripe-hosted checkout (~$200 one-time payment)
+- [ ] Success redirect returns to journey + unlocks content
+- [ ] Cancel redirect returns to paywall step
 
-### Webhook Handling
+### Webhook Handling (#38)
 - [ ] `checkout.session.completed` processed
-- [ ] Webhook signature verified
-- [ ] Idempotent (handles duplicate events)
-- [ ] Errors logged
+- [ ] Webhook signature verified (Stripe signing secret)
+- [ ] Idempotent (duplicate events don't create duplicate records)
+- [ ] Errors logged with context (session_id, user_id)
 
-### Purchase Records
-- [ ] `purchases` table stores completed purchases
-- [ ] `access_grants` table stores content access
-- [ ] Access checked via RLS
+### Purchase Records (#40)
+- [ ] `purchases` table: id, user_id, stripe_session_id, amount, company, role, created_at
+- [ ] `access_grants` table: id, user_id, company, role, granted_at
+- [ ] Access checked via RLS (user can only see own grants)
+- [ ] PaywallGate checks access_grants to show/hide content
 
-### Pricing Structure
-- [ ] Supports single company/role purchase
-- [ ] Supports bundles (for AB testing)
-- [ ] Product metadata maps to access scope
+### Pricing Structure (#39)
+- [ ] Single Stripe product: "Interview Prep - {Company} {Role}"
+- [ ] Price: ~$200 (configurable via env var for AB testing)
+- [ ] Product metadata: company_slug, role_slug
+
+> **Note:** Bundles deferred to post-MVP. Keep pricing simple.
 
 ### Mock Mode
-- [ ] Works without real Stripe in development
-- [ ] Mock purchase triggers same unlock flow
-- [ ] Easy toggle between mock and real
+- [ ] `STRIPE_MOCK_MODE=true` env var enables mock
+- [ ] Mock purchase: skips Stripe, creates access_grant directly
+- [ ] Mock checkout button shows "(Test Mode)" indicator
+- [ ] Same unlock flow as real payments
 
 ---
 
@@ -38,9 +45,10 @@
 ```typescript
 describe('Stripe Checkout', () => {
   test('creates checkout session with correct product')
-  test('includes company/role in metadata')
+  test('includes company/role/user_id in metadata')
   test('success redirect includes session_id')
-  test('cancel redirect returns to landing page')
+  test('cancel redirect returns to paywall step')
+  test('requires authenticated user to create session')
 })
 ```
 
@@ -85,8 +93,8 @@ stripe trigger checkout.session.completed
 
 ## Definition of Done
 
-1. Checkout flow works end-to-end
-2. Webhooks process successfully
-3. Purchase unlocks content
+1. Checkout flow works end-to-end (paywall → auth → Stripe → unlock)
+2. Webhooks process successfully and create access_grants
+3. PaywallGate checks access_grants and shows content when purchased
 4. Mock mode works for development
 5. All sub-issues completed

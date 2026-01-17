@@ -1,35 +1,44 @@
 # Issue #20: Build dynamic landing page template
 
+**Dependencies:** #7 (Journey UI) for preview component, #12 (marketing copy)
+
 ## Acceptance Criteria
 
-### Dynamic Routing
+### Dynamic Routing (#33)
 - [ ] `/[company]/[role]` renders landing page
-- [ ] `/[company]` lists available roles
+- [ ] `/[company]` lists available roles for that company
 - [ ] 404 for invalid company/role combinations
-- [ ] Case-insensitive URL handling
+- [ ] Case-insensitive URL handling (Google = google = GOOGLE)
 
-### Content Display
-- [ ] Company logo displayed
+### Content Display (#34)
+- [ ] Company logo displayed (or placeholder if missing)
 - [ ] Role-specific headline
 - [ ] Generated marketing copy (from #12)
-- [ ] Journey preview/teaser content
-- [ ] Clear CTA above fold
+- [ ] Journey preview: first 2-3 steps visible as teaser
+- [ ] Clear CTA above fold: "Start Your Prep" or similar
+- [ ] Trust signals area (placeholder for testimonial/stats)
+
+### Company Theming (#36)
+- [ ] Company brand color applied to accents/CTA
+- [ ] Fallback theme for companies without custom colors
+- [ ] Company logo displayed with proper sizing
 
 ### Performance
-- [ ] SSG for top 100 company/role combos
-- [ ] ISR for long-tail pages
-- [ ] Lighthouse score > 90
+- [ ] SSG for companies in `companies` table (from #4 scraper)
+- [ ] ISR with 24h revalidation for all pages
+- [ ] Lighthouse score > 90 (Performance, Accessibility, SEO)
 
-### SEO
+### SEO (#35)
 - [ ] Dynamic title: "{Company} {Role} Interview Prep | JobWiz"
-- [ ] Dynamic meta description
-- [ ] Open Graph tags
-- [ ] JSON-LD structured data
-- [ ] Auto-generated sitemap.xml
+- [ ] Dynamic meta description referencing company/role
+- [ ] Open Graph tags (title, description, image)
+- [ ] JSON-LD structured data (Course schema)
+- [ ] Auto-generated sitemap.xml from companies table
 
 ### Mobile
-- [ ] Responsive design
+- [ ] Responsive design (mobile-first)
 - [ ] Touch-friendly CTA buttons (44px min)
+- [ ] Hero fits above fold on mobile
 
 ---
 
@@ -55,6 +64,17 @@ describe('Landing page content', () => {
   test('displays role in headline')
   test('displays marketing copy')
   test('CTA button visible above fold')
+  test('displays journey preview (first 2-3 steps)')
+})
+```
+
+### Theming Tests
+
+```typescript
+describe('Company theming', () => {
+  test('applies company brand color to CTA')
+  test('falls back to default theme when no company colors')
+  test('company logo displays with proper aspect ratio')
 })
 ```
 

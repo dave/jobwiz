@@ -4,8 +4,12 @@
 
 ⚠️ **Operational / Non-code task**
 - Requires marketing budget allocation (TBD)
-- Needs conversion tracking from #24 to be effective
 - Will be configured after launch prerequisites complete
+
+**Dependencies:**
+- #20 (Landing pages) - ads link to landing pages
+- #24 (AB testing) - for conversion tracking integration
+- #25 (Analytics) - for UTM parameter capture
 
 ---
 
