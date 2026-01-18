@@ -2,11 +2,11 @@
 
 ## Current Status
 **Last Updated:** 2026-01-18
-**Tasks Completed:** 24
+**Tasks Completed:** 25
 **Stage 1:** COMPLETE (All 4 issues closed)
 **Stage 2:** COMPLETE (All 4 issues closed: #7, #8, #9, #10)
 **Stage 3:** COMPLETE (All 3 issues closed: #4, #5, #19)
-**Stage 4:** IN PROGRESS (Issues closed: #14, #11, #12, #13, #26)
+**Stage 4:** IN PROGRESS (Issues closed: #14, #11, #12, #13, #26, #27, #28)
 **Current Task:** None
 
 ---
@@ -753,6 +753,54 @@ All Stage 3 (Data Collection) issues are now closed:
 - `npm run check-readability -- --input=samples/good-readability.json` - Exit 0 (PASS, score 78.5)
 - `npm run check-readability -- --input=samples/complex.json` - Exit 1 (FAIL - too complex)
 - `npm run check-readability -- --input=samples/simple.json` - Exit 1 (FAIL - too simple)
+
+### 2026-01-18 - Issue #28: Company fact verification checklist
+
+**Completed:**
+- Created fact verification script `scripts/quality/check-facts.ts`:
+  - Extracts factual claims about companies from content
+  - Identifies fact types: founding year, founders, HQ, employee count, mission, CEO, interview process, culture claims, products, acquisitions, revenue
+  - Handles markdown formatting (e.g., `**CEO:**` bold format)
+  - Tracks fact location (module, section, block)
+  - Generates markdown checklist with verification sources
+  - Calculates confidence score based on verifiability
+  - Supports deduplication across blocks
+- Created CLI script: `npm run check-facts -- --input=file.json`
+- Created sample test files:
+  - `scripts/quality/samples/with-facts.json` - module with many facts
+  - `scripts/quality/samples/minimal-facts.json` - module with minimal facts
+- Generated sample output: `output/facts-checklist-google.md`
+
+**Fact Types Supported:**
+- Founding Year - extracted from "founded in YYYY" patterns
+- Founders - extracted from "by Name and Name" patterns
+- Headquarters - extracted from "headquartered in City" patterns
+- Employee Count - extracted from "X,XXX employees" patterns
+- Mission - extracted from quoted mission statements
+- CEO - extracted from "CEO: Name" or "CEO is Name" patterns
+- Interview Process - extracted from round counts and timeline mentions
+- Culture Claims - extracted from "values X" or "looks for Y" patterns
+- Products - extracted from product listings
+- Acquisitions - extracted from acquisition mentions
+- Revenue - extracted from revenue figures
+
+**Tests Added:**
+- 38 new tests covering:
+  - Fact extraction for all types
+  - Location tracking
+  - Verification source suggestions
+  - Confidence score calculation
+  - Markdown checklist generation
+  - Content block type handling (text, tip, header, quiz, checklist)
+  - Edge cases (empty modules, special characters, numeric variations)
+  - Real sample file validation
+
+**Verification:**
+- `npm run lint` - passes with no errors
+- `npm run type-check` - passes with no errors
+- `npm run build` - successful production build
+- `npm test` - 614 passed, 2 todo (38 new tests)
+- `npm run check-facts -- --input=output/company-google-preview.json` - extracts 8 facts with 95% confidence
 
 ---
 

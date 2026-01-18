@@ -1,0 +1,43 @@
+{
+  "id": "role-pm",
+  "slug": "role-pm",
+  "type": "role",
+  "title": "Product Manager Interview Prep",
+  "description": "Role-specific interview preparation for Product Managers",
+  "isPremium": false,
+  "order": 1,
+  "sections": [
+    {
+      "id": "skills-section",
+      "title": "Key Skills",
+      "blocks": [
+        {
+          "id": "skills-text",
+          "type": "text",
+          "content": "Product managers need strong communication skills, analytical thinking, and the ability to work cross-functionally."
+        },
+        {
+          "id": "skills-tip",
+          "type": "tip",
+          "content": "Practice explaining technical concepts to non-technical stakeholders."
+        }
+      ]
+    },
+    {
+      "id": "prep-section",
+      "title": "Preparation Tips",
+      "blocks": [
+        {
+          "id": "prep-checklist",
+          "type": "checklist",
+          "title": "PM Interview Prep",
+          "items": [
+            { "id": "item-1", "text": "Practice product design questions", "required": true },
+            { "id": "item-2", "text": "Review metrics frameworks", "required": true },
+            { "id": "item-3", "text": "Prepare portfolio examples", "required": false }
+          ]
+        }
+      ]
+    }
+  ]
+}

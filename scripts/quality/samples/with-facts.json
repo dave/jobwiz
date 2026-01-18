@@ -1,0 +1,55 @@
+{
+  "id": "company-techcorp",
+  "slug": "company-techcorp",
+  "type": "company",
+  "title": "TechCorp Interview Prep",
+  "description": "Company-specific interview preparation for TechCorp",
+  "companySlug": "techcorp",
+  "isPremium": true,
+  "order": 1,
+  "sections": [
+    {
+      "id": "company-overview",
+      "title": "Company Overview",
+      "blocks": [
+        {
+          "id": "overview-text",
+          "type": "text",
+          "content": "TechCorp was founded in 2005 by Jane Smith and John Doe. The company is headquartered in San Francisco, California. Their mission is \"To empower developers with cutting-edge tools.\" The company has grown to over 50,000 employees globally. Current CEO is Sarah Johnson."
+        },
+        {
+          "id": "overview-facts",
+          "type": "text",
+          "content": "TechCorp acquired DataFlow in 2020 for $2.5B. Their annual revenue is approximately $15 billion. Key products include TechCloud, TechML, and TechDB."
+        }
+      ]
+    },
+    {
+      "id": "interview-process",
+      "title": "Interview Process",
+      "blocks": [
+        {
+          "id": "process-text",
+          "type": "text",
+          "content": "The interview process consists of 5 rounds. Timeline is typically 3-4 weeks. Expect a phone screen, technical assessment, and on-site interviews."
+        },
+        {
+          "id": "process-tip",
+          "type": "tip",
+          "content": "TechCorp values collaborative problem-solving. They look for candidates who can articulate their thought process clearly."
+        }
+      ]
+    },
+    {
+      "id": "culture-section",
+      "title": "Company Culture",
+      "blocks": [
+        {
+          "id": "culture-text",
+          "type": "text",
+          "content": "The company culture rewards innovation and calculated risk-taking. They prioritize work-life balance and continuous learning."
+        }
+      ]
+    }
+  ]
+}
