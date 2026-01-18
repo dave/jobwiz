@@ -2,13 +2,13 @@
 
 ## Current Status
 **Last Updated:** 2026-01-18
-**Tasks Completed:** 37
+**Tasks Completed:** 38
 **Stage 1:** COMPLETE (All 4 issues closed)
 **Stage 2:** COMPLETE (All 4 issues closed: #7, #8, #9, #10)
 **Stage 3:** COMPLETE (All 3 issues closed: #4, #5, #19)
 **Stage 4:** COMPLETE (All issues closed: #14, #11, #12, #13, #15, #16, #18)
-**Stage 5:** IN PROGRESS (#20 closed, #21 closed, #22 in progress - sub-issues #37, #38, #39 complete)
-**Current Task:** #39 Flexible pricing structure - COMPLETE
+**Stage 5:** IN PROGRESS (#20 closed, #21 closed, #22 closed, #24 in progress - sub-issue #41 complete)
+**Current Task:** #41 User bucketing system - COMPLETE
 
 ---
 
@@ -1808,3 +1808,71 @@ All Stage 1 (Foundation) issues are now closed:
 - `npm run lint` - passes with no errors
 - `npm run build` - successful production build
 - `npm test` - 1492 passed, 2 todo (52 new tests)
+
+### 2026-01-18 - Issue #41: User bucketing system
+
+**Completed:**
+- Created AB testing module `src/lib/ab-testing/`:
+  - `types.ts` - Type definitions for user IDs, buckets, variants, experiments
+  - `bucketing.ts` - Deterministic bucketing using MD5 hash
+  - `user-id.ts` - User ID generation (anonymous UUID or auth user ID)
+  - `sticky-bucketing.ts` - localStorage persistence for consistent variants
+  - `index.ts` - Re-exports all functions and types
+- Implemented user ID generation:
+  - Anonymous users: UUID v4 stored in cookie (`jw_uid`)
+  - Logged in users: Supabase user ID
+  - Cookie expiry: 1 year (365 days)
+- Implemented deterministic bucketing:
+  - Hash: MD5(userId + experimentName)
+  - Bucket: hash % 100 (0-99 range)
+  - Pure JS MD5 implementation (works in browser and server)
+- Implemented sticky bucketing:
+  - Variant persists to localStorage per experiment
+  - Once assigned, variant never changes
+  - Survives traffic split changes
+- Created distribution test script:
+  - `scripts/ab-testing/test-distribution.ts`
+  - `npm run test:bucket-distribution` - verifies uniform distribution
+- Fixed pre-existing type error in `src/lib/access/storage.ts`
+
+**Files Created:**
+- `src/lib/ab-testing/types.ts`
+- `src/lib/ab-testing/bucketing.ts`
+- `src/lib/ab-testing/user-id.ts`
+- `src/lib/ab-testing/sticky-bucketing.ts`
+- `src/lib/ab-testing/index.ts`
+- `src/lib/ab-testing/__tests__/bucketing.test.ts`
+- `src/lib/ab-testing/__tests__/user-id.test.ts`
+- `src/lib/ab-testing/__tests__/sticky-bucketing.test.ts`
+- `scripts/ab-testing/test-distribution.ts`
+
+**Tests:**
+- 84 unit tests covering:
+  - MD5 hash correctness (5 tests)
+  - Bucket calculation and determinism (10 tests)
+  - Bucket distribution uniformity (4 tests)
+  - UUID generation and validation (12 tests)
+  - Cookie parsing and formatting (9 tests)
+  - User ID retrieval from auth and cookies (7 tests)
+  - Sticky bucketing storage and retrieval (15 tests)
+  - Variant assignment and persistence (14 tests)
+  - Custom variant assigners (8 tests)
+
+**Verification:**
+- `npm run lint` - passes with no errors
+- `npm run build` - successful production build
+- `npm test` - 1611 passed, 2 todo (84 new tests)
+- `npm run test:bucket-distribution` - PASS (uniform distribution verified)
+- All acceptance criteria verified:
+  - Anonymous: generate UUID, store in cookie ✓
+  - Logged in: use Supabase user_id ✓
+  - Cookie name: `jw_uid` ✓
+  - Cookie expiry: 1 year ✓
+  - Hash: md5(user_id + experiment_name) ✓
+  - Bucket: hash % 100 ✓
+  - Deterministic: same input = same output ✓
+  - Sticky: variant persists across sessions ✓
+  - Client-side: no API call required ✓
+
+**Screenshot:**
+- `screenshots/41-user-bucketing-paywall-demo.png` - Paywall demo showing variant system

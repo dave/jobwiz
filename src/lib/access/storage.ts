@@ -29,7 +29,7 @@ export async function grantAccess(
   roleSlug: string | null,
   options: {
     purchaseId?: string;
-    source?: 'purchase' | 'admin' | 'promo';
+    source?: 'purchase' | 'admin' | 'promo' | 'refund_revoke';
     expiresAt?: string;
   } = {}
 ): Promise<AccessGrant> {

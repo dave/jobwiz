@@ -25,7 +25,8 @@
     "queue:status": "TS_NODE_COMPILER_OPTIONS='{\"module\":\"CommonJS\"}' ts-node scripts/queue/status.ts",
     "orchestrate": "ts-node scripts/orchestrate/orchestrate.ts",
     "generate-questions": "ts-node scripts/questions/generate-questions.ts",
-    "query-questions": "ts-node scripts/questions/query-questions.ts"
+    "query-questions": "ts-node scripts/questions/query-questions.ts",
+    "test:bucket-distribution": "TS_NODE_COMPILER_OPTIONS='{\"module\":\"CommonJS\"}' ts-node scripts/ab-testing/test-distribution.ts"
   },
   "dependencies": {
     "@supabase/ssr": "^0.8.0",
