@@ -21,6 +21,8 @@ export function CheckoutSuccessContent() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [accessGranted, setAccessGranted] = useState(false);
+  const [userEmail, setUserEmail] = useState<string | null>(null);
+  const [isNewUser, setIsNewUser] = useState(false);
 
   useEffect(() => {
     if (!sessionId) {
@@ -43,7 +45,7 @@ export function CheckoutSuccessContent() {
         const sessionData = data as SessionResponse;
         setSession(sessionData.session);
 
-        // If payment is complete, grant access
+        // If payment is complete, grant access and create user if needed
         if (sessionData.session.payment_status === 'paid') {
           try {
             const grantResponse = await fetch('/api/access/grant', {
@@ -54,6 +56,8 @@ export function CheckoutSuccessContent() {
             const grantData = await grantResponse.json();
             if (grantData.success) {
               setAccessGranted(true);
+              setUserEmail(grantData.email || null);
+              setIsNewUser(grantData.is_new_user || false);
             }
           } catch (grantErr) {
             // Log but don't fail - webhook might handle it
@@ -168,18 +172,31 @@ export function CheckoutSuccessContent() {
               </div>
             )}
 
-            {session.customer_email && (
+            {isNewUser && userEmail ? (
+              <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 mb-6">
+                <p className="text-sm text-blue-800 mb-2">
+                  <span className="font-semibold">Account created!</span> Sign in with:
+                </p>
+                <p className="text-sm font-medium text-blue-900 mb-3">{userEmail}</p>
+                <Link
+                  href={`/login?email=${encodeURIComponent(userEmail)}&redirectTo=${encodeURIComponent(journeyUrl)}`}
+                  className="inline-block bg-blue-600 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-blue-700 transition-colors"
+                >
+                  Sign In to Access Content
+                </Link>
+              </div>
+            ) : session.customer_email ? (
               <p className="text-sm text-gray-500 mb-6">
                 A confirmation email has been sent to{' '}
                 <span className="font-medium">{session.customer_email}</span>
               </p>
-            )}
+            ) : null}
 
             <Link
-              href={journeyUrl}
+              href={isNewUser ? `/login?email=${encodeURIComponent(userEmail || '')}&redirectTo=${encodeURIComponent(journeyUrl)}` : journeyUrl}
               className="inline-block w-full bg-blue-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-blue-700 transition-colors"
             >
-              Start Your Interview Prep
+              {isNewUser ? 'Sign In to Start' : 'Start Your Interview Prep'}
             </Link>
 
             <p className="text-sm text-gray-400 mt-4">
