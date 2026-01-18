@@ -1,11 +1,100 @@
 /**
- * Types for Stripe checkout integration
+ * Types for Stripe checkout and webhook integration
  */
 
 /**
  * Access type for purchased content
  */
 export type AccessType = 'single' | 'company_bundle' | 'role_bundle' | 'full';
+
+/**
+ * Webhook event types we handle
+ */
+export type WebhookEventType =
+  | 'checkout.session.completed'
+  | 'charge.refunded'
+  | 'payment_intent.succeeded'
+  | 'payment_intent.payment_failed';
+
+/**
+ * Processed webhook event result
+ */
+export interface WebhookEventResult {
+  success: boolean;
+  event_type: string;
+  event_id: string;
+  message: string;
+  purchase_id?: string;
+  access_grant_id?: string;
+}
+
+/**
+ * Webhook error response
+ */
+export interface WebhookErrorResponse {
+  error: string;
+  event_id?: string;
+  event_type?: string;
+}
+
+/**
+ * Purchase record stored in database
+ */
+export interface PurchaseRecord {
+  id: string;
+  user_id: string;
+  stripe_session_id: string;
+  stripe_payment_intent_id: string | null;
+  amount: number;
+  currency: string;
+  company_slug: string;
+  role_slug: string;
+  status: 'pending' | 'completed' | 'refunded' | 'failed';
+  metadata: Record<string, unknown>;
+  created_at: string;
+  updated_at: string;
+}
+
+/**
+ * Access grant record stored in database
+ */
+export interface AccessGrantRecord {
+  id: string;
+  user_id: string;
+  company_slug: string | null;
+  role_slug: string | null;
+  granted_at: string;
+  expires_at: string;
+  purchase_id: string | null;
+  source: 'purchase' | 'admin' | 'promo' | 'refund_revoke';
+  created_at: string;
+}
+
+/**
+ * Input for creating a purchase record
+ */
+export interface CreatePurchaseInput {
+  user_id: string;
+  stripe_session_id: string;
+  stripe_payment_intent_id?: string;
+  amount: number;
+  currency: string;
+  company_slug: string;
+  role_slug: string;
+  metadata?: Record<string, unknown>;
+}
+
+/**
+ * Input for creating an access grant
+ */
+export interface CreateAccessGrantInput {
+  user_id: string;
+  company_slug: string;
+  role_slug: string;
+  purchase_id?: string;
+  source?: 'purchase' | 'admin' | 'promo';
+  expires_at?: string;
+}
 
 /**
  * Product metadata stored in Stripe

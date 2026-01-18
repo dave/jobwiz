@@ -2,13 +2,13 @@
 
 ## Current Status
 **Last Updated:** 2026-01-18
-**Tasks Completed:** 35
+**Tasks Completed:** 36
 **Stage 1:** COMPLETE (All 4 issues closed)
 **Stage 2:** COMPLETE (All 4 issues closed: #7, #8, #9, #10)
 **Stage 3:** COMPLETE (All 3 issues closed: #4, #5, #19)
 **Stage 4:** COMPLETE (All issues closed: #14, #11, #12, #13, #15, #16, #18)
-**Stage 5:** IN PROGRESS (#20 closed, #21 closed, #22 in progress - sub-issue #37 complete)
-**Current Task:** #37 Stripe Checkout implementation - COMPLETE
+**Stage 5:** IN PROGRESS (#20 closed, #21 closed, #22 in progress - sub-issues #37, #38 complete)
+**Current Task:** #38 Stripe webhook handlers - COMPLETE
 
 ---
 
@@ -1681,3 +1681,76 @@ All Stage 1 (Foundation) issues are now closed:
   - Cancel URL: back to landing page
   - GET /checkout/success retrieves session, shows confirmation
   - GET /checkout/cancel shows "cancelled" message
+
+### 2026-01-18 - Issue #38: Stripe webhook handlers
+
+**Completed:**
+- Created Supabase migration for payment tables:
+  - `supabase/migrations/20260118000007_create_payment_tables.sql`
+  - `purchases` table: id, user_id, stripe_session_id, amount, company_slug, role_slug, status
+  - `access_grants` table: id, user_id, company_slug, role_slug, expires_at, purchase_id, source
+  - RLS policies for user access and service role
+  - Unique constraints for idempotency
+- Extended Stripe types in `src/lib/stripe/types.ts`:
+  - WebhookEventType, WebhookEventResult, WebhookErrorResponse
+  - PurchaseRecord, AccessGrantRecord types
+  - CreatePurchaseInput, CreateAccessGrantInput types
+- Created webhook utilities `src/lib/stripe/webhooks.ts`:
+  - `verifyWebhookSignature()` - Stripe signature verification
+  - `purchaseExists()` - Idempotency check
+  - `createPurchase()` - Creates purchase record
+  - `createAccessGrant()` - Creates access grant
+  - `revokeAccessGrant()` - Revokes access on refund
+  - `updatePurchaseStatus()` - Updates purchase status
+  - `extractSessionMetadata()` - Extracts user_id, company_slug, role_slug
+  - `processCheckoutCompleted()` - Handles checkout.session.completed
+  - `processChargeRefunded()` - Handles charge.refunded
+  - `processWebhookEvent()` - Event router
+- Created POST /api/webhooks/stripe endpoint:
+  - Receives Stripe webhook events
+  - Verifies signature using raw body
+  - Returns 200 on success, 400 on invalid signature
+  - Returns 500 for processing errors (triggers Stripe retry)
+  - Logs unhandled event types without failing
+
+**Files Created:**
+- `supabase/migrations/20260118000007_create_payment_tables.sql`
+- `src/lib/stripe/webhooks.ts`
+- `src/app/api/webhooks/stripe/route.ts`
+- `src/lib/stripe/__tests__/webhooks.test.ts`
+- `src/app/api/webhooks/stripe/__tests__/route.test.ts`
+
+**Tests:**
+- 49 new tests covering:
+  - Metadata extraction (4 tests)
+  - Purchase existence check (3 tests)
+  - Purchase creation (3 tests)
+  - Access grant creation (3 tests)
+  - Access grant revocation (2 tests)
+  - Purchase status update (2 tests)
+  - Checkout completed processing (7 tests)
+  - Charge refunded processing (3 tests)
+  - Webhook event routing (3 tests)
+  - Webhook secret configuration (2 tests)
+  - Route behavior and security (17 tests)
+
+**Verification:**
+- `npm run lint` - passes with no errors
+- `npm run build` - successful production build
+- `npm test` - 1440 passed, 2 todo (49 new tests)
+- All acceptance criteria verified:
+  - POST /api/webhooks/stripe receives events
+  - Verifies Stripe signature (stripe-signature header)
+  - Returns 200 on success, 400 on failure
+  - checkout.session.completed creates purchase record
+  - charge.refunded revokes access
+  - Idempotent (checks if purchase already exists)
+  - Extracts metadata (company, role, user_id)
+  - Creates access grants (unlock flow)
+  - Logs errors for failed events
+  - Webhook signing secret configured
+  - Raw body used for signature verification
+  - Rejects invalid signatures
+
+**Screenshot:**
+- `screenshots/38-webhook-cancel-page.png` - Site working after webhook implementation

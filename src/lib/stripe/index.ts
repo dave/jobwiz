@@ -29,3 +29,28 @@ export {
   isValidProductMetadata,
   parseProductMetadata,
 } from './types';
+
+export type {
+  AccessGrantRecord,
+  CreateAccessGrantInput,
+  CreatePurchaseInput,
+  PurchaseRecord,
+  WebhookErrorResponse,
+  WebhookEventResult,
+  WebhookEventType,
+} from './types';
+
+export {
+  createAccessGrant,
+  createPurchase,
+  extractSessionMetadata,
+  getPurchaseBySessionId,
+  getWebhookSecret,
+  processCheckoutCompleted,
+  processChargeRefunded,
+  processWebhookEvent,
+  purchaseExists,
+  revokeAccessGrant,
+  updatePurchaseStatus,
+  verifyWebhookSignature,
+} from './webhooks';
