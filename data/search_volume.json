@@ -1,48 +1,6312 @@
 {
-  "generated_at": "2026-01-17T17:10:00Z",
+  "generated_at": "2026-01-18T16:00:00Z",
   "geography": "US",
   "status": "complete",
+  "role_types": [
+    {
+      "name": "Software Engineer",
+      "slug": "software-engineer"
+    },
+    {
+      "name": "Product Manager",
+      "slug": "product-manager"
+    },
+    {
+      "name": "Data Scientist",
+      "slug": "data-scientist"
+    },
+    {
+      "name": "Product Designer",
+      "slug": "product-designer"
+    },
+    {
+      "name": "Engineering Manager",
+      "slug": "engineering-manager"
+    },
+    {
+      "name": "Technical Program Manager",
+      "slug": "technical-program-manager"
+    },
+    {
+      "name": "DevOps Engineer",
+      "slug": "devops-engineer"
+    },
+    {
+      "name": "Frontend Engineer",
+      "slug": "frontend-engineer"
+    },
+    {
+      "name": "Backend Engineer",
+      "slug": "backend-engineer"
+    },
+    {
+      "name": "Mobile Engineer",
+      "slug": "mobile-engineer"
+    },
+    {
+      "name": "Data Engineer",
+      "slug": "data-engineer"
+    },
+    {
+      "name": "Machine Learning Engineer",
+      "slug": "machine-learning-engineer"
+    },
+    {
+      "name": "Solutions Architect",
+      "slug": "solutions-architect"
+    },
+    {
+      "name": "Sales Engineer",
+      "slug": "sales-engineer"
+    },
+    {
+      "name": "Marketing Manager",
+      "slug": "marketing-manager"
+    },
+    {
+      "name": "Business Analyst",
+      "slug": "business-analyst"
+    },
+    {
+      "name": "UX Researcher",
+      "slug": "ux-researcher"
+    },
+    {
+      "name": "QA Engineer",
+      "slug": "qa-engineer"
+    },
+    {
+      "name": "Security Engineer",
+      "slug": "security-engineer"
+    },
+    {
+      "name": "Financial Analyst",
+      "slug": "financial-analyst"
+    },
+    {
+      "name": "Management Consultant",
+      "slug": "management-consultant"
+    },
+    {
+      "name": "Account Executive",
+      "slug": "account-executive"
+    }
+  ],
   "companies": [
     {
       "name": "Google",
       "slug": "google",
       "category": "Big Tech",
-      "interview_volume": 85,
+      "interview_volume": 95,
       "roles": [
-        {"name": "Software Engineer", "slug": "software-engineer", "volume": 72},
-        {"name": "Product Manager", "slug": "product-manager", "volume": 65}
+        "software-engineer",
+        "product-manager",
+        "data-scientist",
+        "product-designer",
+        "engineering-manager",
+        "technical-program-manager",
+        "devops-engineer",
+        "frontend-engineer",
+        "backend-engineer",
+        "mobile-engineer",
+        "data-engineer",
+        "machine-learning-engineer",
+        "solutions-architect",
+        "ux-researcher",
+        "security-engineer"
+      ]
+    },
+    {
+      "name": "Meta",
+      "slug": "meta",
+      "category": "Big Tech",
+      "interview_volume": 90,
+      "roles": [
+        "software-engineer",
+        "product-manager",
+        "data-scientist",
+        "product-designer",
+        "engineering-manager",
+        "technical-program-manager",
+        "devops-engineer",
+        "frontend-engineer",
+        "backend-engineer",
+        "mobile-engineer",
+        "data-engineer",
+        "machine-learning-engineer",
+        "ux-researcher",
+        "security-engineer"
+      ]
+    },
+    {
+      "name": "Amazon",
+      "slug": "amazon",
+      "category": "Big Tech",
+      "interview_volume": 92,
+      "roles": [
+        "software-engineer",
+        "product-manager",
+        "data-scientist",
+        "product-designer",
+        "engineering-manager",
+        "technical-program-manager",
+        "devops-engineer",
+        "frontend-engineer",
+        "backend-engineer",
+        "data-engineer",
+        "machine-learning-engineer",
+        "solutions-architect",
+        "business-analyst",
+        "security-engineer"
       ]
     },
     {
       "name": "Apple",
       "slug": "apple",
       "category": "Big Tech",
-      "interview_volume": 78,
+      "interview_volume": 88,
       "roles": [
-        {"name": "Software Engineer", "slug": "software-engineer", "volume": 68},
-        {"name": "Product Manager", "slug": "product-manager", "volume": 55}
+        "software-engineer",
+        "product-manager",
+        "data-scientist",
+        "product-designer",
+        "engineering-manager",
+        "technical-program-manager",
+        "frontend-engineer",
+        "backend-engineer",
+        "mobile-engineer",
+        "machine-learning-engineer",
+        "ux-researcher",
+        "qa-engineer",
+        "security-engineer"
       ]
     },
     {
       "name": "Microsoft",
       "slug": "microsoft",
       "category": "Big Tech",
+      "interview_volume": 87,
+      "roles": [
+        "software-engineer",
+        "product-manager",
+        "data-scientist",
+        "product-designer",
+        "engineering-manager",
+        "technical-program-manager",
+        "devops-engineer",
+        "frontend-engineer",
+        "backend-engineer",
+        "data-engineer",
+        "machine-learning-engineer",
+        "solutions-architect",
+        "security-engineer"
+      ]
+    },
+    {
+      "name": "Netflix",
+      "slug": "netflix",
+      "category": "Big Tech",
+      "interview_volume": 75,
+      "roles": [
+        "software-engineer",
+        "product-manager",
+        "data-scientist",
+        "product-designer",
+        "engineering-manager",
+        "devops-engineer",
+        "frontend-engineer",
+        "backend-engineer",
+        "data-engineer",
+        "machine-learning-engineer",
+        "security-engineer"
+      ]
+    },
+    {
+      "name": "Nvidia",
+      "slug": "nvidia",
+      "category": "Big Tech",
+      "interview_volume": 78,
+      "roles": [
+        "software-engineer",
+        "product-manager",
+        "data-scientist",
+        "engineering-manager",
+        "devops-engineer",
+        "backend-engineer",
+        "data-engineer",
+        "machine-learning-engineer",
+        "solutions-architect",
+        "security-engineer"
+      ]
+    },
+    {
+      "name": "Intel",
+      "slug": "intel",
+      "category": "Big Tech",
+      "interview_volume": 65,
+      "roles": [
+        "software-engineer",
+        "product-manager",
+        "data-scientist",
+        "engineering-manager",
+        "devops-engineer",
+        "backend-engineer",
+        "data-engineer",
+        "machine-learning-engineer",
+        "qa-engineer",
+        "security-engineer"
+      ]
+    },
+    {
+      "name": "AMD",
+      "slug": "amd",
+      "category": "Big Tech",
+      "interview_volume": 58,
+      "roles": [
+        "software-engineer",
+        "product-manager",
+        "data-scientist",
+        "engineering-manager",
+        "backend-engineer",
+        "data-engineer",
+        "machine-learning-engineer",
+        "qa-engineer"
+      ]
+    },
+    {
+      "name": "Cisco",
+      "slug": "cisco",
+      "category": "Big Tech",
+      "interview_volume": 55,
+      "roles": [
+        "software-engineer",
+        "product-manager",
+        "engineering-manager",
+        "devops-engineer",
+        "backend-engineer",
+        "solutions-architect",
+        "sales-engineer",
+        "security-engineer"
+      ]
+    },
+    {
+      "name": "Stripe",
+      "slug": "stripe",
+      "category": "High-growth Startups",
+      "interview_volume": 82,
+      "roles": [
+        "software-engineer",
+        "product-manager",
+        "data-scientist",
+        "product-designer",
+        "engineering-manager",
+        "devops-engineer",
+        "frontend-engineer",
+        "backend-engineer",
+        "data-engineer",
+        "security-engineer"
+      ]
+    },
+    {
+      "name": "Figma",
+      "slug": "figma",
+      "category": "High-growth Startups",
       "interview_volume": 70,
       "roles": [
-        {"name": "Software Engineer", "slug": "software-engineer", "volume": 62},
-        {"name": "Product Manager", "slug": "product-manager", "volume": 48}
+        "software-engineer",
+        "product-manager",
+        "product-designer",
+        "engineering-manager",
+        "frontend-engineer",
+        "backend-engineer",
+        "ux-researcher"
+      ]
+    },
+    {
+      "name": "Notion",
+      "slug": "notion",
+      "category": "High-growth Startups",
+      "interview_volume": 68,
+      "roles": [
+        "software-engineer",
+        "product-manager",
+        "product-designer",
+        "engineering-manager",
+        "frontend-engineer",
+        "backend-engineer",
+        "ux-researcher"
+      ]
+    },
+    {
+      "name": "Vercel",
+      "slug": "vercel",
+      "category": "High-growth Startups",
+      "interview_volume": 62,
+      "roles": [
+        "software-engineer",
+        "product-manager",
+        "product-designer",
+        "engineering-manager",
+        "devops-engineer",
+        "frontend-engineer",
+        "backend-engineer"
+      ]
+    },
+    {
+      "name": "Databricks",
+      "slug": "databricks",
+      "category": "High-growth Startups",
+      "interview_volume": 72,
+      "roles": [
+        "software-engineer",
+        "product-manager",
+        "data-scientist",
+        "engineering-manager",
+        "devops-engineer",
+        "backend-engineer",
+        "data-engineer",
+        "machine-learning-engineer",
+        "solutions-architect"
+      ]
+    },
+    {
+      "name": "Snowflake",
+      "slug": "snowflake",
+      "category": "High-growth Startups",
+      "interview_volume": 70,
+      "roles": [
+        "software-engineer",
+        "product-manager",
+        "data-scientist",
+        "engineering-manager",
+        "devops-engineer",
+        "backend-engineer",
+        "data-engineer",
+        "solutions-architect",
+        "sales-engineer"
+      ]
+    },
+    {
+      "name": "Airbnb",
+      "slug": "airbnb",
+      "category": "High-growth Startups",
+      "interview_volume": 78,
+      "roles": [
+        "software-engineer",
+        "product-manager",
+        "data-scientist",
+        "product-designer",
+        "engineering-manager",
+        "frontend-engineer",
+        "backend-engineer",
+        "mobile-engineer",
+        "data-engineer",
+        "ux-researcher"
+      ]
+    },
+    {
+      "name": "Uber",
+      "slug": "uber",
+      "category": "High-growth Startups",
+      "interview_volume": 76,
+      "roles": [
+        "software-engineer",
+        "product-manager",
+        "data-scientist",
+        "product-designer",
+        "engineering-manager",
+        "devops-engineer",
+        "backend-engineer",
+        "mobile-engineer",
+        "data-engineer",
+        "machine-learning-engineer"
+      ]
+    },
+    {
+      "name": "Lyft",
+      "slug": "lyft",
+      "category": "High-growth Startups",
+      "interview_volume": 65,
+      "roles": [
+        "software-engineer",
+        "product-manager",
+        "data-scientist",
+        "product-designer",
+        "engineering-manager",
+        "backend-engineer",
+        "mobile-engineer",
+        "data-engineer",
+        "machine-learning-engineer"
+      ]
+    },
+    {
+      "name": "DoorDash",
+      "slug": "doordash",
+      "category": "High-growth Startups",
+      "interview_volume": 68,
+      "roles": [
+        "software-engineer",
+        "product-manager",
+        "data-scientist",
+        "product-designer",
+        "engineering-manager",
+        "backend-engineer",
+        "mobile-engineer",
+        "data-engineer",
+        "machine-learning-engineer"
+      ]
+    },
+    {
+      "name": "Instacart",
+      "slug": "instacart",
+      "category": "High-growth Startups",
+      "interview_volume": 60,
+      "roles": [
+        "software-engineer",
+        "product-manager",
+        "data-scientist",
+        "product-designer",
+        "engineering-manager",
+        "backend-engineer",
+        "mobile-engineer",
+        "data-engineer"
+      ]
+    },
+    {
+      "name": "Coinbase",
+      "slug": "coinbase",
+      "category": "High-growth Startups",
+      "interview_volume": 72,
+      "roles": [
+        "software-engineer",
+        "product-manager",
+        "data-scientist",
+        "product-designer",
+        "engineering-manager",
+        "devops-engineer",
+        "backend-engineer",
+        "security-engineer"
+      ]
+    },
+    {
+      "name": "Robinhood",
+      "slug": "robinhood",
+      "category": "High-growth Startups",
+      "interview_volume": 65,
+      "roles": [
+        "software-engineer",
+        "product-manager",
+        "data-scientist",
+        "product-designer",
+        "engineering-manager",
+        "backend-engineer",
+        "mobile-engineer",
+        "security-engineer"
+      ]
+    },
+    {
+      "name": "Plaid",
+      "slug": "plaid",
+      "category": "High-growth Startups",
+      "interview_volume": 62,
+      "roles": [
+        "software-engineer",
+        "product-manager",
+        "data-scientist",
+        "engineering-manager",
+        "devops-engineer",
+        "backend-engineer",
+        "security-engineer"
+      ]
+    },
+    {
+      "name": "Goldman Sachs",
+      "slug": "goldman-sachs",
+      "category": "Finance",
+      "interview_volume": 85,
+      "roles": [
+        "software-engineer",
+        "product-manager",
+        "data-scientist",
+        "engineering-manager",
+        "backend-engineer",
+        "data-engineer",
+        "business-analyst",
+        "financial-analyst",
+        "security-engineer"
+      ]
+    },
+    {
+      "name": "JPMorgan Chase",
+      "slug": "jpmorgan",
+      "category": "Finance",
+      "interview_volume": 82,
+      "roles": [
+        "software-engineer",
+        "product-manager",
+        "data-scientist",
+        "engineering-manager",
+        "backend-engineer",
+        "data-engineer",
+        "business-analyst",
+        "financial-analyst",
+        "security-engineer"
+      ]
+    },
+    {
+      "name": "Morgan Stanley",
+      "slug": "morgan-stanley",
+      "category": "Finance",
+      "interview_volume": 75,
+      "roles": [
+        "software-engineer",
+        "product-manager",
+        "data-scientist",
+        "engineering-manager",
+        "backend-engineer",
+        "data-engineer",
+        "business-analyst",
+        "financial-analyst"
+      ]
+    },
+    {
+      "name": "Bank of America",
+      "slug": "bank-of-america",
+      "category": "Finance",
+      "interview_volume": 70,
+      "roles": [
+        "software-engineer",
+        "product-manager",
+        "data-scientist",
+        "engineering-manager",
+        "backend-engineer",
+        "data-engineer",
+        "business-analyst",
+        "financial-analyst"
+      ]
+    },
+    {
+      "name": "Citadel",
+      "slug": "citadel",
+      "category": "Finance",
+      "interview_volume": 78,
+      "roles": [
+        "software-engineer",
+        "data-scientist",
+        "backend-engineer",
+        "data-engineer",
+        "machine-learning-engineer",
+        "financial-analyst"
+      ]
+    },
+    {
+      "name": "Two Sigma",
+      "slug": "two-sigma",
+      "category": "Finance",
+      "interview_volume": 72,
+      "roles": [
+        "software-engineer",
+        "data-scientist",
+        "backend-engineer",
+        "data-engineer",
+        "machine-learning-engineer",
+        "financial-analyst"
+      ]
+    },
+    {
+      "name": "Jane Street",
+      "slug": "jane-street",
+      "category": "Finance",
+      "interview_volume": 70,
+      "roles": [
+        "software-engineer",
+        "data-scientist",
+        "backend-engineer",
+        "data-engineer",
+        "financial-analyst"
+      ]
+    },
+    {
+      "name": "BlackRock",
+      "slug": "blackrock",
+      "category": "Finance",
+      "interview_volume": 68,
+      "roles": [
+        "software-engineer",
+        "product-manager",
+        "data-scientist",
+        "engineering-manager",
+        "backend-engineer",
+        "data-engineer",
+        "business-analyst",
+        "financial-analyst"
+      ]
+    },
+    {
+      "name": "Fidelity",
+      "slug": "fidelity",
+      "category": "Finance",
+      "interview_volume": 62,
+      "roles": [
+        "software-engineer",
+        "product-manager",
+        "data-scientist",
+        "engineering-manager",
+        "backend-engineer",
+        "data-engineer",
+        "business-analyst",
+        "financial-analyst"
+      ]
+    },
+    {
+      "name": "Charles Schwab",
+      "slug": "charles-schwab",
+      "category": "Finance",
+      "interview_volume": 55,
+      "roles": [
+        "software-engineer",
+        "product-manager",
+        "data-scientist",
+        "backend-engineer",
+        "data-engineer",
+        "business-analyst",
+        "financial-analyst"
+      ]
+    },
+    {
+      "name": "Visa",
+      "slug": "visa",
+      "category": "Finance",
+      "interview_volume": 65,
+      "roles": [
+        "software-engineer",
+        "product-manager",
+        "data-scientist",
+        "engineering-manager",
+        "backend-engineer",
+        "data-engineer",
+        "security-engineer"
+      ]
+    },
+    {
+      "name": "Mastercard",
+      "slug": "mastercard",
+      "category": "Finance",
+      "interview_volume": 62,
+      "roles": [
+        "software-engineer",
+        "product-manager",
+        "data-scientist",
+        "engineering-manager",
+        "backend-engineer",
+        "data-engineer",
+        "security-engineer"
+      ]
+    },
+    {
+      "name": "PayPal",
+      "slug": "paypal",
+      "category": "Finance",
+      "interview_volume": 68,
+      "roles": [
+        "software-engineer",
+        "product-manager",
+        "data-scientist",
+        "product-designer",
+        "engineering-manager",
+        "backend-engineer",
+        "mobile-engineer",
+        "data-engineer",
+        "security-engineer"
+      ]
+    },
+    {
+      "name": "Block",
+      "slug": "block",
+      "category": "Finance",
+      "interview_volume": 70,
+      "roles": [
+        "software-engineer",
+        "product-manager",
+        "data-scientist",
+        "product-designer",
+        "engineering-manager",
+        "backend-engineer",
+        "mobile-engineer",
+        "data-engineer",
+        "security-engineer"
+      ]
+    },
+    {
+      "name": "McKinsey & Company",
+      "slug": "mckinsey",
+      "category": "Consulting",
+      "interview_volume": 88,
+      "roles": [
+        "management-consultant",
+        "data-scientist",
+        "business-analyst",
+        "product-manager",
+        "software-engineer"
+      ]
+    },
+    {
+      "name": "Boston Consulting Group",
+      "slug": "bcg",
+      "category": "Consulting",
+      "interview_volume": 82,
+      "roles": [
+        "management-consultant",
+        "data-scientist",
+        "business-analyst",
+        "product-manager",
+        "software-engineer"
+      ]
+    },
+    {
+      "name": "Bain & Company",
+      "slug": "bain",
+      "category": "Consulting",
+      "interview_volume": 80,
+      "roles": [
+        "management-consultant",
+        "data-scientist",
+        "business-analyst",
+        "product-manager"
+      ]
+    },
+    {
+      "name": "Deloitte",
+      "slug": "deloitte",
+      "category": "Consulting",
+      "interview_volume": 75,
+      "roles": [
+        "management-consultant",
+        "data-scientist",
+        "business-analyst",
+        "software-engineer",
+        "financial-analyst"
+      ]
+    },
+    {
+      "name": "Accenture",
+      "slug": "accenture",
+      "category": "Consulting",
+      "interview_volume": 72,
+      "roles": [
+        "management-consultant",
+        "data-scientist",
+        "business-analyst",
+        "software-engineer",
+        "product-manager"
+      ]
+    },
+    {
+      "name": "PwC",
+      "slug": "pwc",
+      "category": "Consulting",
+      "interview_volume": 68,
+      "roles": [
+        "management-consultant",
+        "data-scientist",
+        "business-analyst",
+        "software-engineer",
+        "financial-analyst"
+      ]
+    },
+    {
+      "name": "EY",
+      "slug": "ey",
+      "category": "Consulting",
+      "interview_volume": 65,
+      "roles": [
+        "management-consultant",
+        "data-scientist",
+        "business-analyst",
+        "software-engineer",
+        "financial-analyst"
+      ]
+    },
+    {
+      "name": "KPMG",
+      "slug": "kpmg",
+      "category": "Consulting",
+      "interview_volume": 62,
+      "roles": [
+        "management-consultant",
+        "data-scientist",
+        "business-analyst",
+        "software-engineer",
+        "financial-analyst"
+      ]
+    },
+    {
+      "name": "Capgemini",
+      "slug": "capgemini",
+      "category": "Consulting",
+      "interview_volume": 55,
+      "roles": [
+        "management-consultant",
+        "data-scientist",
+        "business-analyst",
+        "software-engineer"
+      ]
+    },
+    {
+      "name": "Booz Allen Hamilton",
+      "slug": "booz-allen",
+      "category": "Consulting",
+      "interview_volume": 58,
+      "roles": [
+        "management-consultant",
+        "data-scientist",
+        "business-analyst",
+        "software-engineer",
+        "security-engineer"
+      ]
+    },
+    {
+      "name": "Shopify",
+      "slug": "shopify",
+      "category": "E-commerce/Retail",
+      "interview_volume": 75,
+      "roles": [
+        "software-engineer",
+        "product-manager",
+        "data-scientist",
+        "product-designer",
+        "engineering-manager",
+        "frontend-engineer",
+        "backend-engineer",
+        "data-engineer",
+        "ux-researcher"
+      ]
+    },
+    {
+      "name": "Etsy",
+      "slug": "etsy",
+      "category": "E-commerce/Retail",
+      "interview_volume": 58,
+      "roles": [
+        "software-engineer",
+        "product-manager",
+        "data-scientist",
+        "product-designer",
+        "engineering-manager",
+        "frontend-engineer",
+        "backend-engineer",
+        "data-engineer"
+      ]
+    },
+    {
+      "name": "Wayfair",
+      "slug": "wayfair",
+      "category": "E-commerce/Retail",
+      "interview_volume": 55,
+      "roles": [
+        "software-engineer",
+        "product-manager",
+        "data-scientist",
+        "product-designer",
+        "engineering-manager",
+        "frontend-engineer",
+        "backend-engineer",
+        "data-engineer"
+      ]
+    },
+    {
+      "name": "Chewy",
+      "slug": "chewy",
+      "category": "E-commerce/Retail",
+      "interview_volume": 52,
+      "roles": [
+        "software-engineer",
+        "product-manager",
+        "data-scientist",
+        "product-designer",
+        "engineering-manager",
+        "backend-engineer",
+        "data-engineer"
+      ]
+    },
+    {
+      "name": "Target",
+      "slug": "target",
+      "category": "E-commerce/Retail",
+      "interview_volume": 60,
+      "roles": [
+        "software-engineer",
+        "product-manager",
+        "data-scientist",
+        "engineering-manager",
+        "backend-engineer",
+        "data-engineer",
+        "business-analyst"
+      ]
+    },
+    {
+      "name": "Walmart",
+      "slug": "walmart",
+      "category": "E-commerce/Retail",
+      "interview_volume": 65,
+      "roles": [
+        "software-engineer",
+        "product-manager",
+        "data-scientist",
+        "engineering-manager",
+        "backend-engineer",
+        "data-engineer",
+        "business-analyst"
+      ]
+    },
+    {
+      "name": "Costco",
+      "slug": "costco",
+      "category": "E-commerce/Retail",
+      "interview_volume": 48,
+      "roles": [
+        "software-engineer",
+        "product-manager",
+        "data-scientist",
+        "engineering-manager",
+        "backend-engineer",
+        "data-engineer",
+        "business-analyst"
+      ]
+    },
+    {
+      "name": "Home Depot",
+      "slug": "home-depot",
+      "category": "E-commerce/Retail",
+      "interview_volume": 52,
+      "roles": [
+        "software-engineer",
+        "product-manager",
+        "data-scientist",
+        "engineering-manager",
+        "backend-engineer",
+        "data-engineer",
+        "business-analyst"
+      ]
+    },
+    {
+      "name": "Best Buy",
+      "slug": "best-buy",
+      "category": "E-commerce/Retail",
+      "interview_volume": 50,
+      "roles": [
+        "software-engineer",
+        "product-manager",
+        "data-scientist",
+        "engineering-manager",
+        "backend-engineer",
+        "data-engineer"
+      ]
+    },
+    {
+      "name": "Nike",
+      "slug": "nike",
+      "category": "E-commerce/Retail",
+      "interview_volume": 62,
+      "roles": [
+        "software-engineer",
+        "product-manager",
+        "data-scientist",
+        "product-designer",
+        "engineering-manager",
+        "frontend-engineer",
+        "backend-engineer",
+        "mobile-engineer",
+        "marketing-manager"
+      ]
+    },
+    {
+      "name": "Lululemon",
+      "slug": "lululemon",
+      "category": "E-commerce/Retail",
+      "interview_volume": 48,
+      "roles": [
+        "software-engineer",
+        "product-manager",
+        "data-scientist",
+        "product-designer",
+        "frontend-engineer",
+        "backend-engineer",
+        "marketing-manager"
+      ]
+    },
+    {
+      "name": "Epic Systems",
+      "slug": "epic",
+      "category": "Healthcare/Biotech",
+      "interview_volume": 70,
+      "roles": [
+        "software-engineer",
+        "product-manager",
+        "engineering-manager",
+        "qa-engineer",
+        "technical-program-manager"
+      ]
+    },
+    {
+      "name": "Cerner",
+      "slug": "cerner",
+      "category": "Healthcare/Biotech",
+      "interview_volume": 58,
+      "roles": [
+        "software-engineer",
+        "product-manager",
+        "engineering-manager",
+        "qa-engineer",
+        "technical-program-manager"
+      ]
+    },
+    {
+      "name": "Optum",
+      "slug": "optum",
+      "category": "Healthcare/Biotech",
+      "interview_volume": 62,
+      "roles": [
+        "software-engineer",
+        "product-manager",
+        "data-scientist",
+        "engineering-manager",
+        "backend-engineer",
+        "data-engineer",
+        "business-analyst"
+      ]
+    },
+    {
+      "name": "UnitedHealth Group",
+      "slug": "unitedhealth",
+      "category": "Healthcare/Biotech",
+      "interview_volume": 60,
+      "roles": [
+        "software-engineer",
+        "product-manager",
+        "data-scientist",
+        "engineering-manager",
+        "backend-engineer",
+        "data-engineer",
+        "business-analyst"
+      ]
+    },
+    {
+      "name": "CVS Health",
+      "slug": "cvs-health",
+      "category": "Healthcare/Biotech",
+      "interview_volume": 55,
+      "roles": [
+        "software-engineer",
+        "product-manager",
+        "data-scientist",
+        "engineering-manager",
+        "backend-engineer",
+        "data-engineer",
+        "business-analyst"
+      ]
+    },
+    {
+      "name": "Johnson & Johnson",
+      "slug": "jnj",
+      "category": "Healthcare/Biotech",
+      "interview_volume": 58,
+      "roles": [
+        "software-engineer",
+        "product-manager",
+        "data-scientist",
+        "engineering-manager",
+        "data-engineer",
+        "business-analyst"
+      ]
+    },
+    {
+      "name": "Pfizer",
+      "slug": "pfizer",
+      "category": "Healthcare/Biotech",
+      "interview_volume": 60,
+      "roles": [
+        "software-engineer",
+        "product-manager",
+        "data-scientist",
+        "engineering-manager",
+        "data-engineer",
+        "machine-learning-engineer"
+      ]
+    },
+    {
+      "name": "Moderna",
+      "slug": "moderna",
+      "category": "Healthcare/Biotech",
+      "interview_volume": 55,
+      "roles": [
+        "software-engineer",
+        "data-scientist",
+        "engineering-manager",
+        "data-engineer",
+        "machine-learning-engineer"
+      ]
+    },
+    {
+      "name": "Illumina",
+      "slug": "illumina",
+      "category": "Healthcare/Biotech",
+      "interview_volume": 52,
+      "roles": [
+        "software-engineer",
+        "data-scientist",
+        "engineering-manager",
+        "data-engineer",
+        "machine-learning-engineer"
+      ]
+    },
+    {
+      "name": "Genentech",
+      "slug": "genentech",
+      "category": "Healthcare/Biotech",
+      "interview_volume": 58,
+      "roles": [
+        "software-engineer",
+        "data-scientist",
+        "engineering-manager",
+        "data-engineer",
+        "machine-learning-engineer"
+      ]
+    },
+    {
+      "name": "Salesforce",
+      "slug": "salesforce",
+      "category": "Enterprise SaaS",
+      "interview_volume": 80,
+      "roles": [
+        "software-engineer",
+        "product-manager",
+        "data-scientist",
+        "product-designer",
+        "engineering-manager",
+        "devops-engineer",
+        "frontend-engineer",
+        "backend-engineer",
+        "solutions-architect",
+        "sales-engineer",
+        "account-executive"
+      ]
+    },
+    {
+      "name": "Oracle",
+      "slug": "oracle",
+      "category": "Enterprise SaaS",
+      "interview_volume": 72,
+      "roles": [
+        "software-engineer",
+        "product-manager",
+        "data-scientist",
+        "engineering-manager",
+        "devops-engineer",
+        "backend-engineer",
+        "data-engineer",
+        "solutions-architect",
+        "sales-engineer"
+      ]
+    },
+    {
+      "name": "SAP",
+      "slug": "sap",
+      "category": "Enterprise SaaS",
+      "interview_volume": 65,
+      "roles": [
+        "software-engineer",
+        "product-manager",
+        "data-scientist",
+        "engineering-manager",
+        "backend-engineer",
+        "solutions-architect",
+        "sales-engineer"
+      ]
+    },
+    {
+      "name": "Workday",
+      "slug": "workday",
+      "category": "Enterprise SaaS",
+      "interview_volume": 68,
+      "roles": [
+        "software-engineer",
+        "product-manager",
+        "data-scientist",
+        "product-designer",
+        "engineering-manager",
+        "backend-engineer",
+        "solutions-architect"
+      ]
+    },
+    {
+      "name": "ServiceNow",
+      "slug": "servicenow",
+      "category": "Enterprise SaaS",
+      "interview_volume": 70,
+      "roles": [
+        "software-engineer",
+        "product-manager",
+        "data-scientist",
+        "engineering-manager",
+        "devops-engineer",
+        "backend-engineer",
+        "solutions-architect",
+        "sales-engineer"
+      ]
+    },
+    {
+      "name": "Atlassian",
+      "slug": "atlassian",
+      "category": "Enterprise SaaS",
+      "interview_volume": 72,
+      "roles": [
+        "software-engineer",
+        "product-manager",
+        "data-scientist",
+        "product-designer",
+        "engineering-manager",
+        "frontend-engineer",
+        "backend-engineer",
+        "ux-researcher"
+      ]
+    },
+    {
+      "name": "Splunk",
+      "slug": "splunk",
+      "category": "Enterprise SaaS",
+      "interview_volume": 60,
+      "roles": [
+        "software-engineer",
+        "product-manager",
+        "data-scientist",
+        "engineering-manager",
+        "devops-engineer",
+        "backend-engineer",
+        "solutions-architect",
+        "sales-engineer"
+      ]
+    },
+    {
+      "name": "Twilio",
+      "slug": "twilio",
+      "category": "Enterprise SaaS",
+      "interview_volume": 62,
+      "roles": [
+        "software-engineer",
+        "product-manager",
+        "product-designer",
+        "engineering-manager",
+        "devops-engineer",
+        "backend-engineer",
+        "solutions-architect"
+      ]
+    },
+    {
+      "name": "HubSpot",
+      "slug": "hubspot",
+      "category": "Enterprise SaaS",
+      "interview_volume": 65,
+      "roles": [
+        "software-engineer",
+        "product-manager",
+        "data-scientist",
+        "product-designer",
+        "engineering-manager",
+        "frontend-engineer",
+        "backend-engineer",
+        "marketing-manager",
+        "account-executive"
+      ]
+    },
+    {
+      "name": "Zendesk",
+      "slug": "zendesk",
+      "category": "Enterprise SaaS",
+      "interview_volume": 55,
+      "roles": [
+        "software-engineer",
+        "product-manager",
+        "product-designer",
+        "engineering-manager",
+        "frontend-engineer",
+        "backend-engineer"
+      ]
+    },
+    {
+      "name": "Okta",
+      "slug": "okta",
+      "category": "Enterprise SaaS",
+      "interview_volume": 62,
+      "roles": [
+        "software-engineer",
+        "product-manager",
+        "engineering-manager",
+        "devops-engineer",
+        "backend-engineer",
+        "security-engineer",
+        "solutions-architect"
+      ]
+    },
+    {
+      "name": "Cloudflare",
+      "slug": "cloudflare",
+      "category": "Enterprise SaaS",
+      "interview_volume": 68,
+      "roles": [
+        "software-engineer",
+        "product-manager",
+        "engineering-manager",
+        "devops-engineer",
+        "backend-engineer",
+        "security-engineer",
+        "solutions-architect"
+      ]
+    },
+    {
+      "name": "MongoDB",
+      "slug": "mongodb",
+      "category": "Enterprise SaaS",
+      "interview_volume": 65,
+      "roles": [
+        "software-engineer",
+        "product-manager",
+        "engineering-manager",
+        "devops-engineer",
+        "backend-engineer",
+        "solutions-architect",
+        "sales-engineer"
+      ]
+    },
+    {
+      "name": "Elastic",
+      "slug": "elastic",
+      "category": "Enterprise SaaS",
+      "interview_volume": 58,
+      "roles": [
+        "software-engineer",
+        "product-manager",
+        "engineering-manager",
+        "devops-engineer",
+        "backend-engineer",
+        "solutions-architect"
+      ]
+    },
+    {
+      "name": "Disney",
+      "slug": "disney",
+      "category": "Media/Entertainment",
+      "interview_volume": 72,
+      "roles": [
+        "software-engineer",
+        "product-manager",
+        "data-scientist",
+        "product-designer",
+        "engineering-manager",
+        "frontend-engineer",
+        "backend-engineer",
+        "mobile-engineer",
+        "data-engineer"
+      ]
+    },
+    {
+      "name": "Warner Bros Discovery",
+      "slug": "wbd",
+      "category": "Media/Entertainment",
+      "interview_volume": 55,
+      "roles": [
+        "software-engineer",
+        "product-manager",
+        "data-scientist",
+        "product-designer",
+        "engineering-manager",
+        "frontend-engineer",
+        "backend-engineer"
+      ]
+    },
+    {
+      "name": "Spotify",
+      "slug": "spotify",
+      "category": "Media/Entertainment",
+      "interview_volume": 78,
+      "roles": [
+        "software-engineer",
+        "product-manager",
+        "data-scientist",
+        "product-designer",
+        "engineering-manager",
+        "frontend-engineer",
+        "backend-engineer",
+        "mobile-engineer",
+        "data-engineer",
+        "machine-learning-engineer",
+        "ux-researcher"
+      ]
+    },
+    {
+      "name": "TikTok",
+      "slug": "tiktok",
+      "category": "Media/Entertainment",
+      "interview_volume": 80,
+      "roles": [
+        "software-engineer",
+        "product-manager",
+        "data-scientist",
+        "product-designer",
+        "engineering-manager",
+        "frontend-engineer",
+        "backend-engineer",
+        "mobile-engineer",
+        "machine-learning-engineer"
+      ]
+    },
+    {
+      "name": "Snap",
+      "slug": "snap",
+      "category": "Media/Entertainment",
+      "interview_volume": 65,
+      "roles": [
+        "software-engineer",
+        "product-manager",
+        "data-scientist",
+        "product-designer",
+        "engineering-manager",
+        "frontend-engineer",
+        "backend-engineer",
+        "mobile-engineer",
+        "machine-learning-engineer"
+      ]
+    },
+    {
+      "name": "Pinterest",
+      "slug": "pinterest",
+      "category": "Media/Entertainment",
+      "interview_volume": 62,
+      "roles": [
+        "software-engineer",
+        "product-manager",
+        "data-scientist",
+        "product-designer",
+        "engineering-manager",
+        "frontend-engineer",
+        "backend-engineer",
+        "mobile-engineer",
+        "machine-learning-engineer"
+      ]
+    },
+    {
+      "name": "Reddit",
+      "slug": "reddit",
+      "category": "Media/Entertainment",
+      "interview_volume": 68,
+      "roles": [
+        "software-engineer",
+        "product-manager",
+        "data-scientist",
+        "product-designer",
+        "engineering-manager",
+        "frontend-engineer",
+        "backend-engineer",
+        "mobile-engineer",
+        "data-engineer"
+      ]
+    },
+    {
+      "name": "LinkedIn",
+      "slug": "linkedin",
+      "category": "Media/Entertainment",
+      "interview_volume": 75,
+      "roles": [
+        "software-engineer",
+        "product-manager",
+        "data-scientist",
+        "product-designer",
+        "engineering-manager",
+        "frontend-engineer",
+        "backend-engineer",
+        "mobile-engineer",
+        "data-engineer",
+        "machine-learning-engineer"
+      ]
+    },
+    {
+      "name": "X",
+      "slug": "x",
+      "category": "Media/Entertainment",
+      "interview_volume": 60,
+      "roles": [
+        "software-engineer",
+        "product-manager",
+        "data-scientist",
+        "product-designer",
+        "engineering-manager",
+        "frontend-engineer",
+        "backend-engineer",
+        "mobile-engineer"
+      ]
+    },
+    {
+      "name": "Electronic Arts",
+      "slug": "ea",
+      "category": "Media/Entertainment",
+      "interview_volume": 58,
+      "roles": [
+        "software-engineer",
+        "product-manager",
+        "data-scientist",
+        "product-designer",
+        "engineering-manager",
+        "frontend-engineer",
+        "backend-engineer",
+        "mobile-engineer",
+        "qa-engineer"
+      ]
+    },
+    {
+      "name": "Activision Blizzard",
+      "slug": "activision-blizzard",
+      "category": "Media/Entertainment",
+      "interview_volume": 55,
+      "roles": [
+        "software-engineer",
+        "product-manager",
+        "data-scientist",
+        "product-designer",
+        "engineering-manager",
+        "backend-engineer",
+        "qa-engineer"
+      ]
+    },
+    {
+      "name": "Tesla",
+      "slug": "tesla",
+      "category": "Big Tech",
+      "interview_volume": 82,
+      "roles": [
+        "software-engineer",
+        "product-manager",
+        "data-scientist",
+        "engineering-manager",
+        "devops-engineer",
+        "backend-engineer",
+        "mobile-engineer",
+        "data-engineer",
+        "machine-learning-engineer",
+        "security-engineer"
+      ]
+    },
+    {
+      "name": "Adobe",
+      "slug": "adobe",
+      "category": "Big Tech",
+      "interview_volume": 72,
+      "roles": [
+        "software-engineer",
+        "product-manager",
+        "data-scientist",
+        "product-designer",
+        "engineering-manager",
+        "frontend-engineer",
+        "backend-engineer",
+        "ux-researcher"
+      ]
+    },
+    {
+      "name": "IBM",
+      "slug": "ibm",
+      "category": "Enterprise SaaS",
+      "interview_volume": 62,
+      "roles": [
+        "software-engineer",
+        "product-manager",
+        "data-scientist",
+        "engineering-manager",
+        "backend-engineer",
+        "data-engineer",
+        "solutions-architect"
+      ]
+    },
+    {
+      "name": "VMware",
+      "slug": "vmware",
+      "category": "Enterprise SaaS",
+      "interview_volume": 58,
+      "roles": [
+        "software-engineer",
+        "product-manager",
+        "engineering-manager",
+        "devops-engineer",
+        "backend-engineer",
+        "solutions-architect"
+      ]
+    },
+    {
+      "name": "Palantir",
+      "slug": "palantir",
+      "category": "High-growth Startups",
+      "interview_volume": 75,
+      "roles": [
+        "software-engineer",
+        "product-manager",
+        "data-scientist",
+        "engineering-manager",
+        "backend-engineer",
+        "data-engineer",
+        "solutions-architect"
+      ]
+    },
+    {
+      "name": "Dropbox",
+      "slug": "dropbox",
+      "category": "High-growth Startups",
+      "interview_volume": 60,
+      "roles": [
+        "software-engineer",
+        "product-manager",
+        "data-scientist",
+        "product-designer",
+        "engineering-manager",
+        "frontend-engineer",
+        "backend-engineer"
+      ]
+    },
+    {
+      "name": "Slack",
+      "slug": "slack",
+      "category": "Enterprise SaaS",
+      "interview_volume": 65,
+      "roles": [
+        "software-engineer",
+        "product-manager",
+        "product-designer",
+        "engineering-manager",
+        "frontend-engineer",
+        "backend-engineer",
+        "ux-researcher"
+      ]
+    },
+    {
+      "name": "Zoom",
+      "slug": "zoom",
+      "category": "Enterprise SaaS",
+      "interview_volume": 62,
+      "roles": [
+        "software-engineer",
+        "product-manager",
+        "engineering-manager",
+        "devops-engineer",
+        "backend-engineer",
+        "security-engineer"
+      ]
+    },
+    {
+      "name": "DocuSign",
+      "slug": "docusign",
+      "category": "Enterprise SaaS",
+      "interview_volume": 55,
+      "roles": [
+        "software-engineer",
+        "product-manager",
+        "product-designer",
+        "engineering-manager",
+        "backend-engineer"
+      ]
+    },
+    {
+      "name": "Asana",
+      "slug": "asana",
+      "category": "High-growth Startups",
+      "interview_volume": 58,
+      "roles": [
+        "software-engineer",
+        "product-manager",
+        "product-designer",
+        "engineering-manager",
+        "frontend-engineer",
+        "backend-engineer"
+      ]
+    },
+    {
+      "name": "Roblox",
+      "slug": "roblox",
+      "category": "Media/Entertainment",
+      "interview_volume": 65,
+      "roles": [
+        "software-engineer",
+        "product-manager",
+        "data-scientist",
+        "product-designer",
+        "engineering-manager",
+        "backend-engineer",
+        "mobile-engineer"
       ]
     }
   ],
   "priority_list": [
-    {"company": "google", "role": null, "score": 85},
-    {"company": "apple", "role": null, "score": 78},
-    {"company": "google", "role": "software-engineer", "score": 72},
-    {"company": "microsoft", "role": null, "score": 70},
-    {"company": "apple", "role": "software-engineer", "score": 68},
-    {"company": "google", "role": "product-manager", "score": 65},
-    {"company": "microsoft", "role": "software-engineer", "score": 62},
-    {"company": "apple", "role": "product-manager", "score": 55},
-    {"company": "microsoft", "role": "product-manager", "score": 48}
+    {
+      "company": "google",
+      "role": null,
+      "score": 95
+    },
+    {
+      "company": "amazon",
+      "role": null,
+      "score": 92
+    },
+    {
+      "company": "meta",
+      "role": null,
+      "score": 90
+    },
+    {
+      "company": "google",
+      "role": "product-designer",
+      "score": 89
+    },
+    {
+      "company": "apple",
+      "role": null,
+      "score": 88
+    },
+    {
+      "company": "mckinsey",
+      "role": null,
+      "score": 88
+    },
+    {
+      "company": "google",
+      "role": "software-engineer",
+      "score": 87
+    },
+    {
+      "company": "amazon",
+      "role": "technical-program-manager",
+      "score": 87
+    },
+    {
+      "company": "amazon",
+      "role": "backend-engineer",
+      "score": 87
+    },
+    {
+      "company": "microsoft",
+      "role": null,
+      "score": 87
+    },
+    {
+      "company": "google",
+      "role": "mobile-engineer",
+      "score": 85
+    },
+    {
+      "company": "meta",
+      "role": "machine-learning-engineer",
+      "score": 85
+    },
+    {
+      "company": "amazon",
+      "role": "frontend-engineer",
+      "score": 85
+    },
+    {
+      "company": "goldman-sachs",
+      "role": null,
+      "score": 85
+    },
+    {
+      "company": "amazon",
+      "role": "product-designer",
+      "score": 84
+    },
+    {
+      "company": "amazon",
+      "role": "solutions-architect",
+      "score": 84
+    },
+    {
+      "company": "google",
+      "role": "data-scientist",
+      "score": 83
+    },
+    {
+      "company": "google",
+      "role": "ux-researcher",
+      "score": 83
+    },
+    {
+      "company": "apple",
+      "role": "machine-learning-engineer",
+      "score": 83
+    },
+    {
+      "company": "google",
+      "role": "devops-engineer",
+      "score": 82
+    },
+    {
+      "company": "meta",
+      "role": "software-engineer",
+      "score": 82
+    },
+    {
+      "company": "amazon",
+      "role": "data-engineer",
+      "score": 82
+    },
+    {
+      "company": "stripe",
+      "role": null,
+      "score": 82
+    },
+    {
+      "company": "jpmorgan",
+      "role": null,
+      "score": 82
+    },
+    {
+      "company": "bcg",
+      "role": null,
+      "score": 82
+    },
+    {
+      "company": "tesla",
+      "role": null,
+      "score": 82
+    },
+    {
+      "company": "amazon",
+      "role": "business-analyst",
+      "score": 81
+    },
+    {
+      "company": "mckinsey",
+      "role": "product-manager",
+      "score": 81
+    },
+    {
+      "company": "google",
+      "role": "frontend-engineer",
+      "score": 80
+    },
+    {
+      "company": "google",
+      "role": "data-engineer",
+      "score": 80
+    },
+    {
+      "company": "amazon",
+      "role": "software-engineer",
+      "score": 80
+    },
+    {
+      "company": "apple",
+      "role": "software-engineer",
+      "score": 80
+    },
+    {
+      "company": "mckinsey",
+      "role": "management-consultant",
+      "score": 80
+    },
+    {
+      "company": "bain",
+      "role": null,
+      "score": 80
+    },
+    {
+      "company": "salesforce",
+      "role": null,
+      "score": 80
+    },
+    {
+      "company": "tiktok",
+      "role": null,
+      "score": 80
+    },
+    {
+      "company": "microsoft",
+      "role": "product-manager",
+      "score": 79
+    },
+    {
+      "company": "google",
+      "role": "solutions-architect",
+      "score": 78
+    },
+    {
+      "company": "amazon",
+      "role": "security-engineer",
+      "score": 78
+    },
+    {
+      "company": "apple",
+      "role": "ux-researcher",
+      "score": 78
+    },
+    {
+      "company": "nvidia",
+      "role": null,
+      "score": 78
+    },
+    {
+      "company": "airbnb",
+      "role": null,
+      "score": 78
+    },
+    {
+      "company": "goldman-sachs",
+      "role": "software-engineer",
+      "score": 78
+    },
+    {
+      "company": "goldman-sachs",
+      "role": "data-scientist",
+      "score": 78
+    },
+    {
+      "company": "citadel",
+      "role": null,
+      "score": 78
+    },
+    {
+      "company": "spotify",
+      "role": null,
+      "score": 78
+    },
+    {
+      "company": "meta",
+      "role": "frontend-engineer",
+      "score": 77
+    },
+    {
+      "company": "meta",
+      "role": "security-engineer",
+      "score": 77
+    },
+    {
+      "company": "amazon",
+      "role": "data-scientist",
+      "score": 77
+    },
+    {
+      "company": "amazon",
+      "role": "engineering-manager",
+      "score": 77
+    },
+    {
+      "company": "apple",
+      "role": "qa-engineer",
+      "score": 77
+    },
+    {
+      "company": "microsoft",
+      "role": "devops-engineer",
+      "score": 77
+    },
+    {
+      "company": "mckinsey",
+      "role": "business-analyst",
+      "score": 77
+    },
+    {
+      "company": "tesla",
+      "role": "machine-learning-engineer",
+      "score": 77
+    },
+    {
+      "company": "meta",
+      "role": "product-designer",
+      "score": 76
+    },
+    {
+      "company": "meta",
+      "role": "technical-program-manager",
+      "score": 76
+    },
+    {
+      "company": "meta",
+      "role": "ux-researcher",
+      "score": 76
+    },
+    {
+      "company": "apple",
+      "role": "engineering-manager",
+      "score": 76
+    },
+    {
+      "company": "uber",
+      "role": null,
+      "score": 76
+    },
+    {
+      "company": "bcg",
+      "role": "product-manager",
+      "score": 76
+    },
+    {
+      "company": "salesforce",
+      "role": "sales-engineer",
+      "score": 76
+    },
+    {
+      "company": "tesla",
+      "role": "devops-engineer",
+      "score": 76
+    },
+    {
+      "company": "apple",
+      "role": "technical-program-manager",
+      "score": 75
+    },
+    {
+      "company": "apple",
+      "role": "frontend-engineer",
+      "score": 75
+    },
+    {
+      "company": "netflix",
+      "role": null,
+      "score": 75
+    },
+    {
+      "company": "stripe",
+      "role": "product-manager",
+      "score": 75
+    },
+    {
+      "company": "morgan-stanley",
+      "role": null,
+      "score": 75
+    },
+    {
+      "company": "deloitte",
+      "role": null,
+      "score": 75
+    },
+    {
+      "company": "shopify",
+      "role": null,
+      "score": 75
+    },
+    {
+      "company": "linkedin",
+      "role": null,
+      "score": 75
+    },
+    {
+      "company": "tesla",
+      "role": "engineering-manager",
+      "score": 75
+    },
+    {
+      "company": "palantir",
+      "role": null,
+      "score": 75
+    },
+    {
+      "company": "google",
+      "role": "engineering-manager",
+      "score": 74
+    },
+    {
+      "company": "google",
+      "role": "machine-learning-engineer",
+      "score": 74
+    },
+    {
+      "company": "meta",
+      "role": "engineering-manager",
+      "score": 74
+    },
+    {
+      "company": "apple",
+      "role": "mobile-engineer",
+      "score": 74
+    },
+    {
+      "company": "salesforce",
+      "role": "data-scientist",
+      "score": 74
+    },
+    {
+      "company": "google",
+      "role": "technical-program-manager",
+      "score": 73
+    },
+    {
+      "company": "amazon",
+      "role": "machine-learning-engineer",
+      "score": 73
+    },
+    {
+      "company": "microsoft",
+      "role": "product-designer",
+      "score": 73
+    },
+    {
+      "company": "microsoft",
+      "role": "security-engineer",
+      "score": 73
+    },
+    {
+      "company": "airbnb",
+      "role": "frontend-engineer",
+      "score": 73
+    },
+    {
+      "company": "goldman-sachs",
+      "role": "security-engineer",
+      "score": 73
+    },
+    {
+      "company": "citadel",
+      "role": "data-scientist",
+      "score": 73
+    },
+    {
+      "company": "mckinsey",
+      "role": "software-engineer",
+      "score": 73
+    },
+    {
+      "company": "bcg",
+      "role": "software-engineer",
+      "score": 73
+    },
+    {
+      "company": "salesforce",
+      "role": "backend-engineer",
+      "score": 73
+    },
+    {
+      "company": "spotify",
+      "role": "data-scientist",
+      "score": 73
+    },
+    {
+      "company": "tiktok",
+      "role": "product-manager",
+      "score": 73
+    },
+    {
+      "company": "meta",
+      "role": "backend-engineer",
+      "score": 72
+    },
+    {
+      "company": "meta",
+      "role": "data-engineer",
+      "score": 72
+    },
+    {
+      "company": "microsoft",
+      "role": "data-scientist",
+      "score": 72
+    },
+    {
+      "company": "microsoft",
+      "role": "frontend-engineer",
+      "score": 72
+    },
+    {
+      "company": "microsoft",
+      "role": "data-engineer",
+      "score": 72
+    },
+    {
+      "company": "stripe",
+      "role": "product-designer",
+      "score": 72
+    },
+    {
+      "company": "databricks",
+      "role": null,
+      "score": 72
+    },
+    {
+      "company": "airbnb",
+      "role": "mobile-engineer",
+      "score": 72
+    },
+    {
+      "company": "coinbase",
+      "role": null,
+      "score": 72
+    },
+    {
+      "company": "two-sigma",
+      "role": null,
+      "score": 72
+    },
+    {
+      "company": "accenture",
+      "role": null,
+      "score": 72
+    },
+    {
+      "company": "oracle",
+      "role": null,
+      "score": 72
+    },
+    {
+      "company": "atlassian",
+      "role": null,
+      "score": 72
+    },
+    {
+      "company": "disney",
+      "role": null,
+      "score": 72
+    },
+    {
+      "company": "spotify",
+      "role": "data-engineer",
+      "score": 72
+    },
+    {
+      "company": "adobe",
+      "role": null,
+      "score": 72
+    },
+    {
+      "company": "amazon",
+      "role": "devops-engineer",
+      "score": 71
+    },
+    {
+      "company": "microsoft",
+      "role": "solutions-architect",
+      "score": 71
+    },
+    {
+      "company": "stripe",
+      "role": "software-engineer",
+      "score": 71
+    },
+    {
+      "company": "goldman-sachs",
+      "role": "financial-analyst",
+      "score": 71
+    },
+    {
+      "company": "bain",
+      "role": "business-analyst",
+      "score": 71
+    },
+    {
+      "company": "shopify",
+      "role": "software-engineer",
+      "score": 71
+    },
+    {
+      "company": "spotify",
+      "role": "frontend-engineer",
+      "score": 71
+    },
+    {
+      "company": "google",
+      "role": "product-manager",
+      "score": 70
+    },
+    {
+      "company": "apple",
+      "role": "data-scientist",
+      "score": 70
+    },
+    {
+      "company": "apple",
+      "role": "product-designer",
+      "score": 70
+    },
+    {
+      "company": "apple",
+      "role": "security-engineer",
+      "score": 70
+    },
+    {
+      "company": "microsoft",
+      "role": "machine-learning-engineer",
+      "score": 70
+    },
+    {
+      "company": "figma",
+      "role": null,
+      "score": 70
+    },
+    {
+      "company": "snowflake",
+      "role": null,
+      "score": 70
+    },
+    {
+      "company": "airbnb",
+      "role": "software-engineer",
+      "score": 70
+    },
+    {
+      "company": "goldman-sachs",
+      "role": "product-manager",
+      "score": 70
+    },
+    {
+      "company": "goldman-sachs",
+      "role": "data-engineer",
+      "score": 70
+    },
+    {
+      "company": "bank-of-america",
+      "role": null,
+      "score": 70
+    },
+    {
+      "company": "jane-street",
+      "role": null,
+      "score": 70
+    },
+    {
+      "company": "block",
+      "role": null,
+      "score": 70
+    },
+    {
+      "company": "epic",
+      "role": null,
+      "score": 70
+    },
+    {
+      "company": "servicenow",
+      "role": null,
+      "score": 70
+    },
+    {
+      "company": "spotify",
+      "role": "software-engineer",
+      "score": 70
+    },
+    {
+      "company": "spotify",
+      "role": "machine-learning-engineer",
+      "score": 70
+    },
+    {
+      "company": "tiktok",
+      "role": "mobile-engineer",
+      "score": 70
+    },
+    {
+      "company": "linkedin",
+      "role": "software-engineer",
+      "score": 70
+    },
+    {
+      "company": "linkedin",
+      "role": "mobile-engineer",
+      "score": 70
+    },
+    {
+      "company": "palantir",
+      "role": "engineering-manager",
+      "score": 70
+    },
+    {
+      "company": "microsoft",
+      "role": "software-engineer",
+      "score": 69
+    },
+    {
+      "company": "microsoft",
+      "role": "engineering-manager",
+      "score": 69
+    },
+    {
+      "company": "netflix",
+      "role": "machine-learning-engineer",
+      "score": 69
+    },
+    {
+      "company": "stripe",
+      "role": "engineering-manager",
+      "score": 69
+    },
+    {
+      "company": "uber",
+      "role": "backend-engineer",
+      "score": 69
+    },
+    {
+      "company": "jpmorgan",
+      "role": "product-manager",
+      "score": 69
+    },
+    {
+      "company": "jpmorgan",
+      "role": "data-engineer",
+      "score": 69
+    },
+    {
+      "company": "morgan-stanley",
+      "role": "business-analyst",
+      "score": 69
+    },
+    {
+      "company": "mckinsey",
+      "role": "data-scientist",
+      "score": 69
+    },
+    {
+      "company": "bcg",
+      "role": "business-analyst",
+      "score": 69
+    },
+    {
+      "company": "shopify",
+      "role": "product-designer",
+      "score": 69
+    },
+    {
+      "company": "spotify",
+      "role": "backend-engineer",
+      "score": 69
+    },
+    {
+      "company": "palantir",
+      "role": "software-engineer",
+      "score": 69
+    },
+    {
+      "company": "google",
+      "role": "security-engineer",
+      "score": 68
+    },
+    {
+      "company": "meta",
+      "role": "mobile-engineer",
+      "score": 68
+    },
+    {
+      "company": "microsoft",
+      "role": "technical-program-manager",
+      "score": 68
+    },
+    {
+      "company": "nvidia",
+      "role": "data-scientist",
+      "score": 68
+    },
+    {
+      "company": "nvidia",
+      "role": "security-engineer",
+      "score": 68
+    },
+    {
+      "company": "notion",
+      "role": null,
+      "score": 68
+    },
+    {
+      "company": "databricks",
+      "role": "solutions-architect",
+      "score": 68
+    },
+    {
+      "company": "uber",
+      "role": "machine-learning-engineer",
+      "score": 68
+    },
+    {
+      "company": "doordash",
+      "role": null,
+      "score": 68
+    },
+    {
+      "company": "citadel",
+      "role": "machine-learning-engineer",
+      "score": 68
+    },
+    {
+      "company": "two-sigma",
+      "role": "backend-engineer",
+      "score": 68
+    },
+    {
+      "company": "blackrock",
+      "role": null,
+      "score": 68
+    },
+    {
+      "company": "paypal",
+      "role": null,
+      "score": 68
+    },
+    {
+      "company": "deloitte",
+      "role": "software-engineer",
+      "score": 68
+    },
+    {
+      "company": "accenture",
+      "role": "management-consultant",
+      "score": 68
+    },
+    {
+      "company": "pwc",
+      "role": null,
+      "score": 68
+    },
+    {
+      "company": "shopify",
+      "role": "backend-engineer",
+      "score": 68
+    },
+    {
+      "company": "salesforce",
+      "role": "devops-engineer",
+      "score": 68
+    },
+    {
+      "company": "oracle",
+      "role": "sales-engineer",
+      "score": 68
+    },
+    {
+      "company": "workday",
+      "role": null,
+      "score": 68
+    },
+    {
+      "company": "cloudflare",
+      "role": null,
+      "score": 68
+    },
+    {
+      "company": "disney",
+      "role": "engineering-manager",
+      "score": 68
+    },
+    {
+      "company": "reddit",
+      "role": null,
+      "score": 68
+    },
+    {
+      "company": "google",
+      "role": "backend-engineer",
+      "score": 67
+    },
+    {
+      "company": "meta",
+      "role": "product-manager",
+      "score": 67
+    },
+    {
+      "company": "meta",
+      "role": "devops-engineer",
+      "score": 67
+    },
+    {
+      "company": "netflix",
+      "role": "data-engineer",
+      "score": 67
+    },
+    {
+      "company": "nvidia",
+      "role": "product-manager",
+      "score": 67
+    },
+    {
+      "company": "nvidia",
+      "role": "data-engineer",
+      "score": 67
+    },
+    {
+      "company": "airbnb",
+      "role": "data-scientist",
+      "score": 67
+    },
+    {
+      "company": "uber",
+      "role": "product-designer",
+      "score": 67
+    },
+    {
+      "company": "uber",
+      "role": "devops-engineer",
+      "score": 67
+    },
+    {
+      "company": "coinbase",
+      "role": "devops-engineer",
+      "score": 67
+    },
+    {
+      "company": "coinbase",
+      "role": "security-engineer",
+      "score": 67
+    },
+    {
+      "company": "goldman-sachs",
+      "role": "backend-engineer",
+      "score": 67
+    },
+    {
+      "company": "jpmorgan",
+      "role": "data-scientist",
+      "score": 67
+    },
+    {
+      "company": "jpmorgan",
+      "role": "engineering-manager",
+      "score": 67
+    },
+    {
+      "company": "jpmorgan",
+      "role": "financial-analyst",
+      "score": 67
+    },
+    {
+      "company": "morgan-stanley",
+      "role": "software-engineer",
+      "score": 67
+    },
+    {
+      "company": "morgan-stanley",
+      "role": "engineering-manager",
+      "score": 67
+    },
+    {
+      "company": "citadel",
+      "role": "financial-analyst",
+      "score": 67
+    },
+    {
+      "company": "two-sigma",
+      "role": "machine-learning-engineer",
+      "score": 67
+    },
+    {
+      "company": "accenture",
+      "role": "business-analyst",
+      "score": 67
+    },
+    {
+      "company": "shopify",
+      "role": "frontend-engineer",
+      "score": 67
+    },
+    {
+      "company": "oracle",
+      "role": "engineering-manager",
+      "score": 67
+    },
+    {
+      "company": "atlassian",
+      "role": "data-scientist",
+      "score": 67
+    },
+    {
+      "company": "tiktok",
+      "role": "engineering-manager",
+      "score": 67
+    },
+    {
+      "company": "amazon",
+      "role": "product-manager",
+      "score": 66
+    },
+    {
+      "company": "stripe",
+      "role": "frontend-engineer",
+      "score": 66
+    },
+    {
+      "company": "databricks",
+      "role": "data-engineer",
+      "score": 66
+    },
+    {
+      "company": "airbnb",
+      "role": "product-manager",
+      "score": 66
+    },
+    {
+      "company": "coinbase",
+      "role": "product-manager",
+      "score": 66
+    },
+    {
+      "company": "coinbase",
+      "role": "backend-engineer",
+      "score": 66
+    },
+    {
+      "company": "two-sigma",
+      "role": "software-engineer",
+      "score": 66
+    },
+    {
+      "company": "block",
+      "role": "data-engineer",
+      "score": 66
+    },
+    {
+      "company": "servicenow",
+      "role": "engineering-manager",
+      "score": 66
+    },
+    {
+      "company": "tiktok",
+      "role": "software-engineer",
+      "score": 66
+    },
+    {
+      "company": "tesla",
+      "role": "data-engineer",
+      "score": 66
+    },
+    {
+      "company": "tesla",
+      "role": "security-engineer",
+      "score": 66
+    },
+    {
+      "company": "netflix",
+      "role": "software-engineer",
+      "score": 65
+    },
+    {
+      "company": "intel",
+      "role": null,
+      "score": 65
+    },
+    {
+      "company": "stripe",
+      "role": "devops-engineer",
+      "score": 65
+    },
+    {
+      "company": "snowflake",
+      "role": "product-manager",
+      "score": 65
+    },
+    {
+      "company": "airbnb",
+      "role": "backend-engineer",
+      "score": 65
+    },
+    {
+      "company": "lyft",
+      "role": null,
+      "score": 65
+    },
+    {
+      "company": "robinhood",
+      "role": null,
+      "score": 65
+    },
+    {
+      "company": "goldman-sachs",
+      "role": "engineering-manager",
+      "score": 65
+    },
+    {
+      "company": "jane-street",
+      "role": "software-engineer",
+      "score": 65
+    },
+    {
+      "company": "visa",
+      "role": null,
+      "score": 65
+    },
+    {
+      "company": "block",
+      "role": "software-engineer",
+      "score": 65
+    },
+    {
+      "company": "block",
+      "role": "data-scientist",
+      "score": 65
+    },
+    {
+      "company": "ey",
+      "role": null,
+      "score": 65
+    },
+    {
+      "company": "walmart",
+      "role": null,
+      "score": 65
+    },
+    {
+      "company": "sap",
+      "role": null,
+      "score": 65
+    },
+    {
+      "company": "servicenow",
+      "role": "devops-engineer",
+      "score": 65
+    },
+    {
+      "company": "hubspot",
+      "role": null,
+      "score": 65
+    },
+    {
+      "company": "mongodb",
+      "role": null,
+      "score": 65
+    },
+    {
+      "company": "snap",
+      "role": null,
+      "score": 65
+    },
+    {
+      "company": "linkedin",
+      "role": "frontend-engineer",
+      "score": 65
+    },
+    {
+      "company": "slack",
+      "role": null,
+      "score": 65
+    },
+    {
+      "company": "roblox",
+      "role": null,
+      "score": 65
+    },
+    {
+      "company": "meta",
+      "role": "data-scientist",
+      "score": 64
+    },
+    {
+      "company": "microsoft",
+      "role": "backend-engineer",
+      "score": 64
+    },
+    {
+      "company": "netflix",
+      "role": "product-manager",
+      "score": 64
+    },
+    {
+      "company": "figma",
+      "role": "product-designer",
+      "score": 64
+    },
+    {
+      "company": "figma",
+      "role": "frontend-engineer",
+      "score": 64
+    },
+    {
+      "company": "snowflake",
+      "role": "data-scientist",
+      "score": 64
+    },
+    {
+      "company": "jpmorgan",
+      "role": "business-analyst",
+      "score": 64
+    },
+    {
+      "company": "bank-of-america",
+      "role": "financial-analyst",
+      "score": 64
+    },
+    {
+      "company": "shopify",
+      "role": "engineering-manager",
+      "score": 64
+    },
+    {
+      "company": "salesforce",
+      "role": "software-engineer",
+      "score": 64
+    },
+    {
+      "company": "workday",
+      "role": "backend-engineer",
+      "score": 64
+    },
+    {
+      "company": "servicenow",
+      "role": "data-scientist",
+      "score": 64
+    },
+    {
+      "company": "atlassian",
+      "role": "product-manager",
+      "score": 64
+    },
+    {
+      "company": "disney",
+      "role": "data-scientist",
+      "score": 64
+    },
+    {
+      "company": "tiktok",
+      "role": "backend-engineer",
+      "score": 64
+    },
+    {
+      "company": "apple",
+      "role": "backend-engineer",
+      "score": 63
+    },
+    {
+      "company": "netflix",
+      "role": "backend-engineer",
+      "score": 63
+    },
+    {
+      "company": "notion",
+      "role": "ux-researcher",
+      "score": 63
+    },
+    {
+      "company": "airbnb",
+      "role": "data-engineer",
+      "score": 63
+    },
+    {
+      "company": "paypal",
+      "role": "backend-engineer",
+      "score": 63
+    },
+    {
+      "company": "block",
+      "role": "product-manager",
+      "score": 63
+    },
+    {
+      "company": "block",
+      "role": "security-engineer",
+      "score": 63
+    },
+    {
+      "company": "bcg",
+      "role": "management-consultant",
+      "score": 63
+    },
+    {
+      "company": "bcg",
+      "role": "data-scientist",
+      "score": 63
+    },
+    {
+      "company": "bain",
+      "role": "management-consultant",
+      "score": 63
+    },
+    {
+      "company": "deloitte",
+      "role": "financial-analyst",
+      "score": 63
+    },
+    {
+      "company": "epic",
+      "role": "software-engineer",
+      "score": 63
+    },
+    {
+      "company": "salesforce",
+      "role": "product-designer",
+      "score": 63
+    },
+    {
+      "company": "atlassian",
+      "role": "product-designer",
+      "score": 63
+    },
+    {
+      "company": "tiktok",
+      "role": "data-scientist",
+      "score": 63
+    },
+    {
+      "company": "linkedin",
+      "role": "engineering-manager",
+      "score": 63
+    },
+    {
+      "company": "tesla",
+      "role": "data-scientist",
+      "score": 63
+    },
+    {
+      "company": "adobe",
+      "role": "engineering-manager",
+      "score": 63
+    },
+    {
+      "company": "palantir",
+      "role": "data-scientist",
+      "score": 63
+    },
+    {
+      "company": "apple",
+      "role": "product-manager",
+      "score": 62
+    },
+    {
+      "company": "nvidia",
+      "role": "engineering-manager",
+      "score": 62
+    },
+    {
+      "company": "figma",
+      "role": "engineering-manager",
+      "score": 62
+    },
+    {
+      "company": "vercel",
+      "role": null,
+      "score": 62
+    },
+    {
+      "company": "databricks",
+      "role": "data-scientist",
+      "score": 62
+    },
+    {
+      "company": "databricks",
+      "role": "devops-engineer",
+      "score": 62
+    },
+    {
+      "company": "snowflake",
+      "role": "devops-engineer",
+      "score": 62
+    },
+    {
+      "company": "snowflake",
+      "role": "data-engineer",
+      "score": 62
+    },
+    {
+      "company": "airbnb",
+      "role": "ux-researcher",
+      "score": 62
+    },
+    {
+      "company": "uber",
+      "role": "software-engineer",
+      "score": 62
+    },
+    {
+      "company": "doordash",
+      "role": "software-engineer",
+      "score": 62
+    },
+    {
+      "company": "robinhood",
+      "role": "data-scientist",
+      "score": 62
+    },
+    {
+      "company": "plaid",
+      "role": null,
+      "score": 62
+    },
+    {
+      "company": "goldman-sachs",
+      "role": "business-analyst",
+      "score": 62
+    },
+    {
+      "company": "bank-of-america",
+      "role": "business-analyst",
+      "score": 62
+    },
+    {
+      "company": "citadel",
+      "role": "software-engineer",
+      "score": 62
+    },
+    {
+      "company": "blackrock",
+      "role": "product-manager",
+      "score": 62
+    },
+    {
+      "company": "fidelity",
+      "role": null,
+      "score": 62
+    },
+    {
+      "company": "mastercard",
+      "role": null,
+      "score": 62
+    },
+    {
+      "company": "pwc",
+      "role": "management-consultant",
+      "score": 62
+    },
+    {
+      "company": "kpmg",
+      "role": null,
+      "score": 62
+    },
+    {
+      "company": "shopify",
+      "role": "ux-researcher",
+      "score": 62
+    },
+    {
+      "company": "nike",
+      "role": null,
+      "score": 62
+    },
+    {
+      "company": "optum",
+      "role": null,
+      "score": 62
+    },
+    {
+      "company": "salesforce",
+      "role": "engineering-manager",
+      "score": 62
+    },
+    {
+      "company": "salesforce",
+      "role": "frontend-engineer",
+      "score": 62
+    },
+    {
+      "company": "oracle",
+      "role": "product-manager",
+      "score": 62
+    },
+    {
+      "company": "servicenow",
+      "role": "software-engineer",
+      "score": 62
+    },
+    {
+      "company": "servicenow",
+      "role": "sales-engineer",
+      "score": 62
+    },
+    {
+      "company": "atlassian",
+      "role": "engineering-manager",
+      "score": 62
+    },
+    {
+      "company": "atlassian",
+      "role": "ux-researcher",
+      "score": 62
+    },
+    {
+      "company": "twilio",
+      "role": null,
+      "score": 62
+    },
+    {
+      "company": "okta",
+      "role": null,
+      "score": 62
+    },
+    {
+      "company": "pinterest",
+      "role": null,
+      "score": 62
+    },
+    {
+      "company": "reddit",
+      "role": "data-scientist",
+      "score": 62
+    },
+    {
+      "company": "tesla",
+      "role": "product-manager",
+      "score": 62
+    },
+    {
+      "company": "tesla",
+      "role": "mobile-engineer",
+      "score": 62
+    },
+    {
+      "company": "adobe",
+      "role": "backend-engineer",
+      "score": 62
+    },
+    {
+      "company": "ibm",
+      "role": null,
+      "score": 62
+    },
+    {
+      "company": "palantir",
+      "role": "solutions-architect",
+      "score": 62
+    },
+    {
+      "company": "zoom",
+      "role": null,
+      "score": 62
+    },
+    {
+      "company": "netflix",
+      "role": "frontend-engineer",
+      "score": 61
+    },
+    {
+      "company": "intel",
+      "role": "data-scientist",
+      "score": 61
+    },
+    {
+      "company": "intel",
+      "role": "security-engineer",
+      "score": 61
+    },
+    {
+      "company": "stripe",
+      "role": "data-scientist",
+      "score": 61
+    },
+    {
+      "company": "stripe",
+      "role": "data-engineer",
+      "score": 61
+    },
+    {
+      "company": "notion",
+      "role": "engineering-manager",
+      "score": 61
+    },
+    {
+      "company": "snowflake",
+      "role": "solutions-architect",
+      "score": 61
+    },
+    {
+      "company": "coinbase",
+      "role": "engineering-manager",
+      "score": 61
+    },
+    {
+      "company": "robinhood",
+      "role": "software-engineer",
+      "score": 61
+    },
+    {
+      "company": "jpmorgan",
+      "role": "software-engineer",
+      "score": 61
+    },
+    {
+      "company": "jpmorgan",
+      "role": "security-engineer",
+      "score": 61
+    },
+    {
+      "company": "jane-street",
+      "role": "financial-analyst",
+      "score": 61
+    },
+    {
+      "company": "visa",
+      "role": "product-manager",
+      "score": 61
+    },
+    {
+      "company": "visa",
+      "role": "data-scientist",
+      "score": 61
+    },
+    {
+      "company": "visa",
+      "role": "backend-engineer",
+      "score": 61
+    },
+    {
+      "company": "shopify",
+      "role": "data-scientist",
+      "score": 61
+    },
+    {
+      "company": "shopify",
+      "role": "data-engineer",
+      "score": 61
+    },
+    {
+      "company": "walmart",
+      "role": "engineering-manager",
+      "score": 61
+    },
+    {
+      "company": "workday",
+      "role": "solutions-architect",
+      "score": 61
+    },
+    {
+      "company": "cloudflare",
+      "role": "product-manager",
+      "score": 61
+    },
+    {
+      "company": "mongodb",
+      "role": "sales-engineer",
+      "score": 61
+    },
+    {
+      "company": "spotify",
+      "role": "product-designer",
+      "score": 61
+    },
+    {
+      "company": "spotify",
+      "role": "mobile-engineer",
+      "score": 61
+    },
+    {
+      "company": "snap",
+      "role": "mobile-engineer",
+      "score": 61
+    },
+    {
+      "company": "reddit",
+      "role": "mobile-engineer",
+      "score": 61
+    },
+    {
+      "company": "palantir",
+      "role": "data-engineer",
+      "score": 61
+    },
+    {
+      "company": "roblox",
+      "role": "data-scientist",
+      "score": 61
+    },
+    {
+      "company": "netflix",
+      "role": "data-scientist",
+      "score": 60
+    },
+    {
+      "company": "netflix",
+      "role": "product-designer",
+      "score": 60
+    },
+    {
+      "company": "nvidia",
+      "role": "devops-engineer",
+      "score": 60
+    },
+    {
+      "company": "nvidia",
+      "role": "backend-engineer",
+      "score": 60
+    },
+    {
+      "company": "notion",
+      "role": "product-designer",
+      "score": 60
+    },
+    {
+      "company": "airbnb",
+      "role": "product-designer",
+      "score": 60
+    },
+    {
+      "company": "uber",
+      "role": "engineering-manager",
+      "score": 60
+    },
+    {
+      "company": "doordash",
+      "role": "data-scientist",
+      "score": 60
+    },
+    {
+      "company": "instacart",
+      "role": null,
+      "score": 60
+    },
+    {
+      "company": "morgan-stanley",
+      "role": "data-scientist",
+      "score": 60
+    },
+    {
+      "company": "citadel",
+      "role": "backend-engineer",
+      "score": 60
+    },
+    {
+      "company": "paypal",
+      "role": "product-designer",
+      "score": 60
+    },
+    {
+      "company": "target",
+      "role": null,
+      "score": 60
+    },
+    {
+      "company": "epic",
+      "role": "technical-program-manager",
+      "score": 60
+    },
+    {
+      "company": "unitedhealth",
+      "role": null,
+      "score": 60
+    },
+    {
+      "company": "pfizer",
+      "role": null,
+      "score": 60
+    },
+    {
+      "company": "salesforce",
+      "role": "product-manager",
+      "score": 60
+    },
+    {
+      "company": "salesforce",
+      "role": "solutions-architect",
+      "score": 60
+    },
+    {
+      "company": "servicenow",
+      "role": "product-manager",
+      "score": 60
+    },
+    {
+      "company": "splunk",
+      "role": null,
+      "score": 60
+    },
+    {
+      "company": "reddit",
+      "role": "software-engineer",
+      "score": 60
+    },
+    {
+      "company": "x",
+      "role": null,
+      "score": 60
+    },
+    {
+      "company": "dropbox",
+      "role": null,
+      "score": 60
+    },
+    {
+      "company": "slack",
+      "role": "product-manager",
+      "score": 60
+    },
+    {
+      "company": "roblox",
+      "role": "backend-engineer",
+      "score": 60
+    },
+    {
+      "company": "stripe",
+      "role": "security-engineer",
+      "score": 59
+    },
+    {
+      "company": "databricks",
+      "role": "backend-engineer",
+      "score": 59
+    },
+    {
+      "company": "snowflake",
+      "role": "software-engineer",
+      "score": 59
+    },
+    {
+      "company": "uber",
+      "role": "mobile-engineer",
+      "score": 59
+    },
+    {
+      "company": "doordash",
+      "role": "product-designer",
+      "score": 59
+    },
+    {
+      "company": "coinbase",
+      "role": "software-engineer",
+      "score": 59
+    },
+    {
+      "company": "coinbase",
+      "role": "data-scientist",
+      "score": 59
+    },
+    {
+      "company": "morgan-stanley",
+      "role": "backend-engineer",
+      "score": 59
+    },
+    {
+      "company": "bank-of-america",
+      "role": "backend-engineer",
+      "score": 59
+    },
+    {
+      "company": "bain",
+      "role": "data-scientist",
+      "score": 59
+    },
+    {
+      "company": "deloitte",
+      "role": "management-consultant",
+      "score": 59
+    },
+    {
+      "company": "deloitte",
+      "role": "data-scientist",
+      "score": 59
+    },
+    {
+      "company": "pwc",
+      "role": "financial-analyst",
+      "score": 59
+    },
+    {
+      "company": "walmart",
+      "role": "product-manager",
+      "score": 59
+    },
+    {
+      "company": "sap",
+      "role": "backend-engineer",
+      "score": 59
+    },
+    {
+      "company": "workday",
+      "role": "software-engineer",
+      "score": 59
+    },
+    {
+      "company": "servicenow",
+      "role": "backend-engineer",
+      "score": 59
+    },
+    {
+      "company": "atlassian",
+      "role": "backend-engineer",
+      "score": 59
+    },
+    {
+      "company": "hubspot",
+      "role": "product-manager",
+      "score": 59
+    },
+    {
+      "company": "disney",
+      "role": "data-engineer",
+      "score": 59
+    },
+    {
+      "company": "spotify",
+      "role": "product-manager",
+      "score": 59
+    },
+    {
+      "company": "spotify",
+      "role": "ux-researcher",
+      "score": 59
+    },
+    {
+      "company": "tiktok",
+      "role": "product-designer",
+      "score": 59
+    },
+    {
+      "company": "snap",
+      "role": "software-engineer",
+      "score": 59
+    },
+    {
+      "company": "reddit",
+      "role": "product-manager",
+      "score": 59
+    },
+    {
+      "company": "linkedin",
+      "role": "data-scientist",
+      "score": 59
+    },
+    {
+      "company": "tesla",
+      "role": "software-engineer",
+      "score": 59
+    },
+    {
+      "company": "tesla",
+      "role": "backend-engineer",
+      "score": 59
+    },
+    {
+      "company": "adobe",
+      "role": "product-designer",
+      "score": 59
+    },
+    {
+      "company": "ibm",
+      "role": "software-engineer",
+      "score": 59
+    },
+    {
+      "company": "roblox",
+      "role": "product-manager",
+      "score": 59
+    },
+    {
+      "company": "nvidia",
+      "role": "software-engineer",
+      "score": 58
+    },
+    {
+      "company": "intel",
+      "role": "data-engineer",
+      "score": 58
+    },
+    {
+      "company": "amd",
+      "role": null,
+      "score": 58
+    },
+    {
+      "company": "stripe",
+      "role": "backend-engineer",
+      "score": 58
+    },
+    {
+      "company": "databricks",
+      "role": "engineering-manager",
+      "score": 58
+    },
+    {
+      "company": "snowflake",
+      "role": "sales-engineer",
+      "score": 58
+    },
+    {
+      "company": "airbnb",
+      "role": "engineering-manager",
+      "score": 58
+    },
+    {
+      "company": "uber",
+      "role": "data-engineer",
+      "score": 58
+    },
+    {
+      "company": "lyft",
+      "role": "product-manager",
+      "score": 58
+    },
+    {
+      "company": "lyft",
+      "role": "product-designer",
+      "score": 58
+    },
+    {
+      "company": "lyft",
+      "role": "backend-engineer",
+      "score": 58
+    },
+    {
+      "company": "coinbase",
+      "role": "product-designer",
+      "score": 58
+    },
+    {
+      "company": "plaid",
+      "role": "devops-engineer",
+      "score": 58
+    },
+    {
+      "company": "jpmorgan",
+      "role": "backend-engineer",
+      "score": 58
+    },
+    {
+      "company": "morgan-stanley",
+      "role": "financial-analyst",
+      "score": 58
+    },
+    {
+      "company": "bank-of-america",
+      "role": "product-manager",
+      "score": 58
+    },
+    {
+      "company": "citadel",
+      "role": "data-engineer",
+      "score": 58
+    },
+    {
+      "company": "mastercard",
+      "role": "software-engineer",
+      "score": 58
+    },
+    {
+      "company": "block",
+      "role": "backend-engineer",
+      "score": 58
+    },
+    {
+      "company": "ey",
+      "role": "business-analyst",
+      "score": 58
+    },
+    {
+      "company": "booz-allen",
+      "role": null,
+      "score": 58
+    },
+    {
+      "company": "etsy",
+      "role": null,
+      "score": 58
+    },
+    {
+      "company": "cerner",
+      "role": null,
+      "score": 58
+    },
+    {
+      "company": "jnj",
+      "role": null,
+      "score": 58
+    },
+    {
+      "company": "genentech",
+      "role": null,
+      "score": 58
+    },
+    {
+      "company": "oracle",
+      "role": "data-engineer",
+      "score": 58
+    },
+    {
+      "company": "sap",
+      "role": "software-engineer",
+      "score": 58
+    },
+    {
+      "company": "sap",
+      "role": "product-manager",
+      "score": 58
+    },
+    {
+      "company": "hubspot",
+      "role": "frontend-engineer",
+      "score": 58
+    },
+    {
+      "company": "okta",
+      "role": "security-engineer",
+      "score": 58
+    },
+    {
+      "company": "cloudflare",
+      "role": "backend-engineer",
+      "score": 58
+    },
+    {
+      "company": "elastic",
+      "role": null,
+      "score": 58
+    },
+    {
+      "company": "disney",
+      "role": "product-designer",
+      "score": 58
+    },
+    {
+      "company": "tiktok",
+      "role": "frontend-engineer",
+      "score": 58
+    },
+    {
+      "company": "snap",
+      "role": "data-scientist",
+      "score": 58
+    },
+    {
+      "company": "pinterest",
+      "role": "backend-engineer",
+      "score": 58
+    },
+    {
+      "company": "reddit",
+      "role": "engineering-manager",
+      "score": 58
+    },
+    {
+      "company": "linkedin",
+      "role": "data-engineer",
+      "score": 58
+    },
+    {
+      "company": "ea",
+      "role": null,
+      "score": 58
+    },
+    {
+      "company": "vmware",
+      "role": null,
+      "score": 58
+    },
+    {
+      "company": "palantir",
+      "role": "backend-engineer",
+      "score": 58
+    },
+    {
+      "company": "slack",
+      "role": "software-engineer",
+      "score": 58
+    },
+    {
+      "company": "slack",
+      "role": "product-designer",
+      "score": 58
+    },
+    {
+      "company": "asana",
+      "role": null,
+      "score": 58
+    },
+    {
+      "company": "nvidia",
+      "role": "machine-learning-engineer",
+      "score": 57
+    },
+    {
+      "company": "databricks",
+      "role": "software-engineer",
+      "score": 57
+    },
+    {
+      "company": "doordash",
+      "role": "engineering-manager",
+      "score": 57
+    },
+    {
+      "company": "plaid",
+      "role": "product-manager",
+      "score": 57
+    },
+    {
+      "company": "fidelity",
+      "role": "data-scientist",
+      "score": 57
+    },
+    {
+      "company": "visa",
+      "role": "security-engineer",
+      "score": 57
+    },
+    {
+      "company": "mastercard",
+      "role": "product-manager",
+      "score": 57
+    },
+    {
+      "company": "paypal",
+      "role": "software-engineer",
+      "score": 57
+    },
+    {
+      "company": "paypal",
+      "role": "product-manager",
+      "score": 57
+    },
+    {
+      "company": "bain",
+      "role": "product-manager",
+      "score": 57
+    },
+    {
+      "company": "accenture",
+      "role": "software-engineer",
+      "score": 57
+    },
+    {
+      "company": "ey",
+      "role": "management-consultant",
+      "score": 57
+    },
+    {
+      "company": "kpmg",
+      "role": "financial-analyst",
+      "score": 57
+    },
+    {
+      "company": "nike",
+      "role": "backend-engineer",
+      "score": 57
+    },
+    {
+      "company": "servicenow",
+      "role": "solutions-architect",
+      "score": 57
+    },
+    {
+      "company": "twilio",
+      "role": "devops-engineer",
+      "score": 57
+    },
+    {
+      "company": "twilio",
+      "role": "backend-engineer",
+      "score": 57
+    },
+    {
+      "company": "disney",
+      "role": "product-manager",
+      "score": 57
+    },
+    {
+      "company": "tiktok",
+      "role": "machine-learning-engineer",
+      "score": 57
+    },
+    {
+      "company": "pinterest",
+      "role": "data-scientist",
+      "score": 57
+    },
+    {
+      "company": "netflix",
+      "role": "devops-engineer",
+      "score": 56
+    },
+    {
+      "company": "intel",
+      "role": "engineering-manager",
+      "score": 56
+    },
+    {
+      "company": "figma",
+      "role": "software-engineer",
+      "score": 56
+    },
+    {
+      "company": "figma",
+      "role": "backend-engineer",
+      "score": 56
+    },
+    {
+      "company": "notion",
+      "role": "software-engineer",
+      "score": 56
+    },
+    {
+      "company": "vercel",
+      "role": "engineering-manager",
+      "score": 56
+    },
+    {
+      "company": "snowflake",
+      "role": "engineering-manager",
+      "score": 56
+    },
+    {
+      "company": "snowflake",
+      "role": "backend-engineer",
+      "score": 56
+    },
+    {
+      "company": "doordash",
+      "role": "product-manager",
+      "score": 56
+    },
+    {
+      "company": "doordash",
+      "role": "backend-engineer",
+      "score": 56
+    },
+    {
+      "company": "robinhood",
+      "role": "product-designer",
+      "score": 56
+    },
+    {
+      "company": "robinhood",
+      "role": "engineering-manager",
+      "score": 56
+    },
+    {
+      "company": "plaid",
+      "role": "software-engineer",
+      "score": 56
+    },
+    {
+      "company": "plaid",
+      "role": "engineering-manager",
+      "score": 56
+    },
+    {
+      "company": "morgan-stanley",
+      "role": "product-manager",
+      "score": 56
+    },
+    {
+      "company": "morgan-stanley",
+      "role": "data-engineer",
+      "score": 56
+    },
+    {
+      "company": "bank-of-america",
+      "role": "data-scientist",
+      "score": 56
+    },
+    {
+      "company": "two-sigma",
+      "role": "data-engineer",
+      "score": 56
+    },
+    {
+      "company": "jane-street",
+      "role": "backend-engineer",
+      "score": 56
+    },
+    {
+      "company": "fidelity",
+      "role": "backend-engineer",
+      "score": 56
+    },
+    {
+      "company": "nike",
+      "role": "data-scientist",
+      "score": 56
+    },
+    {
+      "company": "nike",
+      "role": "product-designer",
+      "score": 56
+    },
+    {
+      "company": "pfizer",
+      "role": "data-scientist",
+      "score": 56
+    },
+    {
+      "company": "pfizer",
+      "role": "machine-learning-engineer",
+      "score": 56
+    },
+    {
+      "company": "salesforce",
+      "role": "account-executive",
+      "score": 56
+    },
+    {
+      "company": "oracle",
+      "role": "devops-engineer",
+      "score": 56
+    },
+    {
+      "company": "workday",
+      "role": "data-scientist",
+      "score": 56
+    },
+    {
+      "company": "splunk",
+      "role": "engineering-manager",
+      "score": 56
+    },
+    {
+      "company": "cloudflare",
+      "role": "software-engineer",
+      "score": 56
+    },
+    {
+      "company": "cloudflare",
+      "role": "devops-engineer",
+      "score": 56
+    },
+    {
+      "company": "cloudflare",
+      "role": "solutions-architect",
+      "score": 56
+    },
+    {
+      "company": "pinterest",
+      "role": "product-manager",
+      "score": 56
+    },
+    {
+      "company": "reddit",
+      "role": "frontend-engineer",
+      "score": 56
+    },
+    {
+      "company": "x",
+      "role": "engineering-manager",
+      "score": 56
+    },
+    {
+      "company": "x",
+      "role": "backend-engineer",
+      "score": 56
+    },
+    {
+      "company": "adobe",
+      "role": "software-engineer",
+      "score": 56
+    },
+    {
+      "company": "ibm",
+      "role": "data-scientist",
+      "score": 56
+    },
+    {
+      "company": "roblox",
+      "role": "engineering-manager",
+      "score": 56
+    },
+    {
+      "company": "netflix",
+      "role": "engineering-manager",
+      "score": 55
+    },
+    {
+      "company": "nvidia",
+      "role": "solutions-architect",
+      "score": 55
+    },
+    {
+      "company": "intel",
+      "role": "software-engineer",
+      "score": 55
+    },
+    {
+      "company": "cisco",
+      "role": null,
+      "score": 55
+    },
+    {
+      "company": "notion",
+      "role": "frontend-engineer",
+      "score": 55
+    },
+    {
+      "company": "databricks",
+      "role": "product-manager",
+      "score": 55
+    },
+    {
+      "company": "uber",
+      "role": "data-scientist",
+      "score": 55
+    },
+    {
+      "company": "blackrock",
+      "role": "data-scientist",
+      "score": 55
+    },
+    {
+      "company": "blackrock",
+      "role": "financial-analyst",
+      "score": 55
+    },
+    {
+      "company": "fidelity",
+      "role": "product-manager",
+      "score": 55
+    },
+    {
+      "company": "charles-schwab",
+      "role": null,
+      "score": 55
+    },
+    {
+      "company": "mastercard",
+      "role": "security-engineer",
+      "score": 55
+    },
+    {
+      "company": "paypal",
+      "role": "data-engineer",
+      "score": 55
+    },
+    {
+      "company": "accenture",
+      "role": "data-scientist",
+      "score": 55
+    },
+    {
+      "company": "pwc",
+      "role": "software-engineer",
+      "score": 55
+    },
+    {
+      "company": "capgemini",
+      "role": null,
+      "score": 55
+    },
+    {
+      "company": "shopify",
+      "role": "product-manager",
+      "score": 55
+    },
+    {
+      "company": "etsy",
+      "role": "engineering-manager",
+      "score": 55
+    },
+    {
+      "company": "wayfair",
+      "role": null,
+      "score": 55
+    },
+    {
+      "company": "target",
+      "role": "software-engineer",
+      "score": 55
+    },
+    {
+      "company": "target",
+      "role": "engineering-manager",
+      "score": 55
+    },
+    {
+      "company": "target",
+      "role": "backend-engineer",
+      "score": 55
+    },
+    {
+      "company": "walmart",
+      "role": "data-scientist",
+      "score": 55
+    },
+    {
+      "company": "nike",
+      "role": "engineering-manager",
+      "score": 55
+    },
+    {
+      "company": "cvs-health",
+      "role": null,
+      "score": 55
+    },
+    {
+      "company": "moderna",
+      "role": null,
+      "score": 55
+    },
+    {
+      "company": "oracle",
+      "role": "software-engineer",
+      "score": 55
+    },
+    {
+      "company": "oracle",
+      "role": "backend-engineer",
+      "score": 55
+    },
+    {
+      "company": "workday",
+      "role": "engineering-manager",
+      "score": 55
+    },
+    {
+      "company": "atlassian",
+      "role": "software-engineer",
+      "score": 55
+    },
+    {
+      "company": "atlassian",
+      "role": "frontend-engineer",
+      "score": 55
+    },
+    {
+      "company": "zendesk",
+      "role": null,
+      "score": 55
+    },
+    {
+      "company": "mongodb",
+      "role": "software-engineer",
+      "score": 55
+    },
+    {
+      "company": "disney",
+      "role": "software-engineer",
+      "score": 55
+    },
+    {
+      "company": "disney",
+      "role": "frontend-engineer",
+      "score": 55
+    },
+    {
+      "company": "wbd",
+      "role": null,
+      "score": 55
+    },
+    {
+      "company": "spotify",
+      "role": "engineering-manager",
+      "score": 55
+    },
+    {
+      "company": "pinterest",
+      "role": "engineering-manager",
+      "score": 55
+    },
+    {
+      "company": "activision-blizzard",
+      "role": null,
+      "score": 55
+    },
+    {
+      "company": "slack",
+      "role": "frontend-engineer",
+      "score": 55
+    },
+    {
+      "company": "docusign",
+      "role": null,
+      "score": 55
+    },
+    {
+      "company": "asana",
+      "role": "engineering-manager",
+      "score": 55
+    },
+    {
+      "company": "roblox",
+      "role": "mobile-engineer",
+      "score": 55
+    },
+    {
+      "company": "intel",
+      "role": "machine-learning-engineer",
+      "score": 54
+    },
+    {
+      "company": "amd",
+      "role": "data-scientist",
+      "score": 54
+    },
+    {
+      "company": "uber",
+      "role": "product-manager",
+      "score": 54
+    },
+    {
+      "company": "doordash",
+      "role": "mobile-engineer",
+      "score": 54
+    },
+    {
+      "company": "bank-of-america",
+      "role": "engineering-manager",
+      "score": 54
+    },
+    {
+      "company": "fidelity",
+      "role": "software-engineer",
+      "score": 54
+    },
+    {
+      "company": "fidelity",
+      "role": "financial-analyst",
+      "score": 54
+    },
+    {
+      "company": "paypal",
+      "role": "data-scientist",
+      "score": 54
+    },
+    {
+      "company": "block",
+      "role": "mobile-engineer",
+      "score": 54
+    },
+    {
+      "company": "deloitte",
+      "role": "business-analyst",
+      "score": 54
+    },
+    {
+      "company": "pwc",
+      "role": "business-analyst",
+      "score": 54
+    },
+    {
+      "company": "kpmg",
+      "role": "data-scientist",
+      "score": 54
+    },
+    {
+      "company": "nike",
+      "role": "product-manager",
+      "score": 54
+    },
+    {
+      "company": "optum",
+      "role": "engineering-manager",
+      "score": 54
+    },
+    {
+      "company": "unitedhealth",
+      "role": "software-engineer",
+      "score": 54
+    },
+    {
+      "company": "sap",
+      "role": "data-scientist",
+      "score": 54
+    },
+    {
+      "company": "splunk",
+      "role": "devops-engineer",
+      "score": 54
+    },
+    {
+      "company": "hubspot",
+      "role": "data-scientist",
+      "score": 54
+    },
+    {
+      "company": "okta",
+      "role": "devops-engineer",
+      "score": 54
+    },
+    {
+      "company": "mongodb",
+      "role": "devops-engineer",
+      "score": 54
+    },
+    {
+      "company": "elastic",
+      "role": "software-engineer",
+      "score": 54
+    },
+    {
+      "company": "elastic",
+      "role": "backend-engineer",
+      "score": 54
+    },
+    {
+      "company": "disney",
+      "role": "backend-engineer",
+      "score": 54
+    },
+    {
+      "company": "snap",
+      "role": "backend-engineer",
+      "score": 54
+    },
+    {
+      "company": "linkedin",
+      "role": "product-manager",
+      "score": 54
+    },
+    {
+      "company": "linkedin",
+      "role": "product-designer",
+      "score": 54
+    },
+    {
+      "company": "linkedin",
+      "role": "backend-engineer",
+      "score": 54
+    },
+    {
+      "company": "x",
+      "role": "frontend-engineer",
+      "score": 54
+    },
+    {
+      "company": "ea",
+      "role": "data-scientist",
+      "score": 54
+    },
+    {
+      "company": "ea",
+      "role": "frontend-engineer",
+      "score": 54
+    },
+    {
+      "company": "ibm",
+      "role": "backend-engineer",
+      "score": 54
+    },
+    {
+      "company": "palantir",
+      "role": "product-manager",
+      "score": 54
+    },
+    {
+      "company": "asana",
+      "role": "software-engineer",
+      "score": 54
+    },
+    {
+      "company": "netflix",
+      "role": "security-engineer",
+      "score": 53
+    },
+    {
+      "company": "figma",
+      "role": "ux-researcher",
+      "score": 53
+    },
+    {
+      "company": "notion",
+      "role": "product-manager",
+      "score": 53
+    },
+    {
+      "company": "instacart",
+      "role": "data-engineer",
+      "score": 53
+    },
+    {
+      "company": "robinhood",
+      "role": "product-manager",
+      "score": 53
+    },
+    {
+      "company": "accenture",
+      "role": "product-manager",
+      "score": 53
+    },
+    {
+      "company": "ey",
+      "role": "software-engineer",
+      "score": 53
+    },
+    {
+      "company": "etsy",
+      "role": "backend-engineer",
+      "score": 53
+    },
+    {
+      "company": "epic",
+      "role": "engineering-manager",
+      "score": 53
+    },
+    {
+      "company": "cerner",
+      "role": "engineering-manager",
+      "score": 53
+    },
+    {
+      "company": "pfizer",
+      "role": "software-engineer",
+      "score": 53
+    },
+    {
+      "company": "sap",
+      "role": "sales-engineer",
+      "score": 53
+    },
+    {
+      "company": "splunk",
+      "role": "data-scientist",
+      "score": 53
+    },
+    {
+      "company": "splunk",
+      "role": "solutions-architect",
+      "score": 53
+    },
+    {
+      "company": "splunk",
+      "role": "sales-engineer",
+      "score": 53
+    },
+    {
+      "company": "hubspot",
+      "role": "product-designer",
+      "score": 53
+    },
+    {
+      "company": "hubspot",
+      "role": "backend-engineer",
+      "score": 53
+    },
+    {
+      "company": "hubspot",
+      "role": "account-executive",
+      "score": 53
+    },
+    {
+      "company": "cloudflare",
+      "role": "engineering-manager",
+      "score": 53
+    },
+    {
+      "company": "disney",
+      "role": "mobile-engineer",
+      "score": 53
+    },
+    {
+      "company": "linkedin",
+      "role": "machine-learning-engineer",
+      "score": 53
+    },
+    {
+      "company": "ea",
+      "role": "engineering-manager",
+      "score": 53
+    },
+    {
+      "company": "ea",
+      "role": "mobile-engineer",
+      "score": 53
+    },
+    {
+      "company": "adobe",
+      "role": "product-manager",
+      "score": 53
+    },
+    {
+      "company": "vmware",
+      "role": "software-engineer",
+      "score": 53
+    },
+    {
+      "company": "dropbox",
+      "role": "software-engineer",
+      "score": 53
+    },
+    {
+      "company": "amd",
+      "role": "data-engineer",
+      "score": 52
+    },
+    {
+      "company": "amd",
+      "role": "machine-learning-engineer",
+      "score": 52
+    },
+    {
+      "company": "cisco",
+      "role": "product-manager",
+      "score": 52
+    },
+    {
+      "company": "cisco",
+      "role": "solutions-architect",
+      "score": 52
+    },
+    {
+      "company": "instacart",
+      "role": "backend-engineer",
+      "score": 52
+    },
+    {
+      "company": "bank-of-america",
+      "role": "software-engineer",
+      "score": 52
+    },
+    {
+      "company": "bank-of-america",
+      "role": "data-engineer",
+      "score": 52
+    },
+    {
+      "company": "two-sigma",
+      "role": "financial-analyst",
+      "score": 52
+    },
+    {
+      "company": "jane-street",
+      "role": "data-scientist",
+      "score": 52
+    },
+    {
+      "company": "blackrock",
+      "role": "engineering-manager",
+      "score": 52
+    },
+    {
+      "company": "fidelity",
+      "role": "data-engineer",
+      "score": 52
+    },
+    {
+      "company": "visa",
+      "role": "engineering-manager",
+      "score": 52
+    },
+    {
+      "company": "mastercard",
+      "role": "backend-engineer",
+      "score": 52
+    },
+    {
+      "company": "paypal",
+      "role": "mobile-engineer",
+      "score": 52
+    },
+    {
+      "company": "paypal",
+      "role": "security-engineer",
+      "score": 52
+    },
+    {
+      "company": "booz-allen",
+      "role": "software-engineer",
+      "score": 52
+    },
+    {
+      "company": "chewy",
+      "role": null,
+      "score": 52
+    },
+    {
+      "company": "home-depot",
+      "role": null,
+      "score": 52
+    },
+    {
+      "company": "cerner",
+      "role": "product-manager",
+      "score": 52
+    },
+    {
+      "company": "unitedhealth",
+      "role": "product-manager",
+      "score": 52
+    },
+    {
+      "company": "cvs-health",
+      "role": "engineering-manager",
+      "score": 52
+    },
+    {
+      "company": "jnj",
+      "role": "data-scientist",
+      "score": 52
+    },
+    {
+      "company": "illumina",
+      "role": null,
+      "score": 52
+    },
+    {
+      "company": "genentech",
+      "role": "software-engineer",
+      "score": 52
+    },
+    {
+      "company": "oracle",
+      "role": "solutions-architect",
+      "score": 52
+    },
+    {
+      "company": "sap",
+      "role": "engineering-manager",
+      "score": 52
+    },
+    {
+      "company": "sap",
+      "role": "solutions-architect",
+      "score": 52
+    },
+    {
+      "company": "workday",
+      "role": "product-designer",
+      "score": 52
+    },
+    {
+      "company": "twilio",
+      "role": "solutions-architect",
+      "score": 52
+    },
+    {
+      "company": "hubspot",
+      "role": "software-engineer",
+      "score": 52
+    },
+    {
+      "company": "hubspot",
+      "role": "marketing-manager",
+      "score": 52
+    },
+    {
+      "company": "cloudflare",
+      "role": "security-engineer",
+      "score": 52
+    },
+    {
+      "company": "snap",
+      "role": "engineering-manager",
+      "score": 52
+    },
+    {
+      "company": "pinterest",
+      "role": "mobile-engineer",
+      "score": 52
+    },
+    {
+      "company": "reddit",
+      "role": "data-engineer",
+      "score": 52
+    },
+    {
+      "company": "ibm",
+      "role": "engineering-manager",
+      "score": 52
+    },
+    {
+      "company": "dropbox",
+      "role": "backend-engineer",
+      "score": 52
+    },
+    {
+      "company": "zoom",
+      "role": "software-engineer",
+      "score": 52
+    },
+    {
+      "company": "zoom",
+      "role": "engineering-manager",
+      "score": 52
+    },
+    {
+      "company": "zoom",
+      "role": "devops-engineer",
+      "score": 52
+    },
+    {
+      "company": "zoom",
+      "role": "backend-engineer",
+      "score": 52
+    },
+    {
+      "company": "asana",
+      "role": "frontend-engineer",
+      "score": 52
+    },
+    {
+      "company": "amd",
+      "role": "software-engineer",
+      "score": 51
+    },
+    {
+      "company": "amd",
+      "role": "qa-engineer",
+      "score": 51
+    },
+    {
+      "company": "figma",
+      "role": "product-manager",
+      "score": 51
+    },
+    {
+      "company": "notion",
+      "role": "backend-engineer",
+      "score": 51
+    },
+    {
+      "company": "databricks",
+      "role": "machine-learning-engineer",
+      "score": 51
+    },
+    {
+      "company": "doordash",
+      "role": "machine-learning-engineer",
+      "score": 51
+    },
+    {
+      "company": "two-sigma",
+      "role": "data-scientist",
+      "score": 51
+    },
+    {
+      "company": "blackrock",
+      "role": "software-engineer",
+      "score": 51
+    },
+    {
+      "company": "blackrock",
+      "role": "data-engineer",
+      "score": 51
+    },
+    {
+      "company": "charles-schwab",
+      "role": "data-scientist",
+      "score": 51
+    },
+    {
+      "company": "visa",
+      "role": "software-engineer",
+      "score": 51
+    },
+    {
+      "company": "mastercard",
+      "role": "engineering-manager",
+      "score": 51
+    },
+    {
+      "company": "paypal",
+      "role": "engineering-manager",
+      "score": 51
+    },
+    {
+      "company": "ey",
+      "role": "data-scientist",
+      "score": 51
+    },
+    {
+      "company": "etsy",
+      "role": "data-scientist",
+      "score": 51
+    },
+    {
+      "company": "etsy",
+      "role": "data-engineer",
+      "score": 51
+    },
+    {
+      "company": "wayfair",
+      "role": "data-engineer",
+      "score": 51
+    },
+    {
+      "company": "epic",
+      "role": "product-manager",
+      "score": 51
+    },
+    {
+      "company": "optum",
+      "role": "product-manager",
+      "score": 51
+    },
+    {
+      "company": "unitedhealth",
+      "role": "engineering-manager",
+      "score": 51
+    },
+    {
+      "company": "cvs-health",
+      "role": "software-engineer",
+      "score": 51
+    },
+    {
+      "company": "pfizer",
+      "role": "product-manager",
+      "score": 51
+    },
+    {
+      "company": "pfizer",
+      "role": "data-engineer",
+      "score": 51
+    },
+    {
+      "company": "oracle",
+      "role": "data-scientist",
+      "score": 51
+    },
+    {
+      "company": "twilio",
+      "role": "product-manager",
+      "score": 51
+    },
+    {
+      "company": "elastic",
+      "role": "engineering-manager",
+      "score": 51
+    },
+    {
+      "company": "snap",
+      "role": "product-designer",
+      "score": 51
+    },
+    {
+      "company": "snap",
+      "role": "frontend-engineer",
+      "score": 51
+    },
+    {
+      "company": "reddit",
+      "role": "backend-engineer",
+      "score": 51
+    },
+    {
+      "company": "ea",
+      "role": "qa-engineer",
+      "score": 51
+    },
+    {
+      "company": "adobe",
+      "role": "data-scientist",
+      "score": 51
+    },
+    {
+      "company": "adobe",
+      "role": "frontend-engineer",
+      "score": 51
+    },
+    {
+      "company": "adobe",
+      "role": "ux-researcher",
+      "score": 51
+    },
+    {
+      "company": "vmware",
+      "role": "solutions-architect",
+      "score": 51
+    },
+    {
+      "company": "roblox",
+      "role": "software-engineer",
+      "score": 51
+    },
+    {
+      "company": "intel",
+      "role": "devops-engineer",
+      "score": 50
+    },
+    {
+      "company": "vercel",
+      "role": "frontend-engineer",
+      "score": 50
+    },
+    {
+      "company": "lyft",
+      "role": "software-engineer",
+      "score": 50
+    },
+    {
+      "company": "lyft",
+      "role": "engineering-manager",
+      "score": 50
+    },
+    {
+      "company": "instacart",
+      "role": "software-engineer",
+      "score": 50
+    },
+    {
+      "company": "instacart",
+      "role": "mobile-engineer",
+      "score": 50
+    },
+    {
+      "company": "robinhood",
+      "role": "security-engineer",
+      "score": 50
+    },
+    {
+      "company": "jane-street",
+      "role": "data-engineer",
+      "score": 50
+    },
+    {
+      "company": "blackrock",
+      "role": "business-analyst",
+      "score": 50
+    },
+    {
+      "company": "capgemini",
+      "role": "data-scientist",
+      "score": 50
+    },
+    {
+      "company": "capgemini",
+      "role": "software-engineer",
+      "score": 50
+    },
+    {
+      "company": "booz-allen",
+      "role": "data-scientist",
+      "score": 50
+    },
+    {
+      "company": "etsy",
+      "role": "product-designer",
+      "score": 50
+    },
+    {
+      "company": "walmart",
+      "role": "software-engineer",
+      "score": 50
+    },
+    {
+      "company": "best-buy",
+      "role": null,
+      "score": 50
+    },
+    {
+      "company": "epic",
+      "role": "qa-engineer",
+      "score": 50
+    },
+    {
+      "company": "mongodb",
+      "role": "solutions-architect",
+      "score": 50
+    },
+    {
+      "company": "x",
+      "role": "data-scientist",
+      "score": 50
+    },
+    {
+      "company": "activision-blizzard",
+      "role": "backend-engineer",
+      "score": 50
+    },
+    {
+      "company": "zoom",
+      "role": "product-manager",
+      "score": 50
+    },
+    {
+      "company": "zoom",
+      "role": "security-engineer",
+      "score": 50
+    },
+    {
+      "company": "docusign",
+      "role": "product-designer",
+      "score": 50
+    },
+    {
+      "company": "lyft",
+      "role": "data-scientist",
+      "score": 49
+    },
+    {
+      "company": "lyft",
+      "role": "mobile-engineer",
+      "score": 49
+    },
+    {
+      "company": "lyft",
+      "role": "data-engineer",
+      "score": 49
+    },
+    {
+      "company": "lyft",
+      "role": "machine-learning-engineer",
+      "score": 49
+    },
+    {
+      "company": "blackrock",
+      "role": "backend-engineer",
+      "score": 49
+    },
+    {
+      "company": "block",
+      "role": "product-designer",
+      "score": 49
+    },
+    {
+      "company": "block",
+      "role": "engineering-manager",
+      "score": 49
+    },
+    {
+      "company": "ey",
+      "role": "financial-analyst",
+      "score": 49
+    },
+    {
+      "company": "capgemini",
+      "role": "management-consultant",
+      "score": 49
+    },
+    {
+      "company": "wayfair",
+      "role": "backend-engineer",
+      "score": 49
+    },
+    {
+      "company": "walmart",
+      "role": "business-analyst",
+      "score": 49
+    },
+    {
+      "company": "cvs-health",
+      "role": "business-analyst",
+      "score": 49
+    },
+    {
+      "company": "jnj",
+      "role": "data-engineer",
+      "score": 49
+    },
+    {
+      "company": "jnj",
+      "role": "business-analyst",
+      "score": 49
+    },
+    {
+      "company": "illumina",
+      "role": "data-scientist",
+      "score": 49
+    },
+    {
+      "company": "workday",
+      "role": "product-manager",
+      "score": 49
+    },
+    {
+      "company": "splunk",
+      "role": "software-engineer",
+      "score": 49
+    },
+    {
+      "company": "twilio",
+      "role": "product-designer",
+      "score": 49
+    },
+    {
+      "company": "okta",
+      "role": "solutions-architect",
+      "score": 49
+    },
+    {
+      "company": "pinterest",
+      "role": "product-designer",
+      "score": 49
+    },
+    {
+      "company": "pinterest",
+      "role": "machine-learning-engineer",
+      "score": 49
+    },
+    {
+      "company": "reddit",
+      "role": "product-designer",
+      "score": 49
+    },
+    {
+      "company": "ibm",
+      "role": "product-manager",
+      "score": 49
+    },
+    {
+      "company": "slack",
+      "role": "backend-engineer",
+      "score": 49
+    },
+    {
+      "company": "docusign",
+      "role": "engineering-manager",
+      "score": 49
+    },
+    {
+      "company": "asana",
+      "role": "product-designer",
+      "score": 49
+    },
+    {
+      "company": "intel",
+      "role": "product-manager",
+      "score": 48
+    },
+    {
+      "company": "intel",
+      "role": "backend-engineer",
+      "score": 48
+    },
+    {
+      "company": "intel",
+      "role": "qa-engineer",
+      "score": 48
+    },
+    {
+      "company": "amd",
+      "role": "engineering-manager",
+      "score": 48
+    },
+    {
+      "company": "vercel",
+      "role": "product-manager",
+      "score": 48
+    },
+    {
+      "company": "doordash",
+      "role": "data-engineer",
+      "score": 48
+    },
+    {
+      "company": "instacart",
+      "role": "data-scientist",
+      "score": 48
+    },
+    {
+      "company": "instacart",
+      "role": "product-designer",
+      "score": 48
+    },
+    {
+      "company": "fidelity",
+      "role": "business-analyst",
+      "score": 48
+    },
+    {
+      "company": "pwc",
+      "role": "data-scientist",
+      "score": 48
+    },
+    {
+      "company": "kpmg",
+      "role": "business-analyst",
+      "score": 48
+    },
+    {
+      "company": "kpmg",
+      "role": "software-engineer",
+      "score": 48
+    },
+    {
+      "company": "chewy",
+      "role": "engineering-manager",
+      "score": 48
+    },
+    {
+      "company": "costco",
+      "role": null,
+      "score": 48
+    },
+    {
+      "company": "home-depot",
+      "role": "data-scientist",
+      "score": 48
+    },
+    {
+      "company": "lululemon",
+      "role": null,
+      "score": 48
+    },
+    {
+      "company": "optum",
+      "role": "business-analyst",
+      "score": 48
+    },
+    {
+      "company": "cvs-health",
+      "role": "product-manager",
+      "score": 48
+    },
+    {
+      "company": "cvs-health",
+      "role": "data-scientist",
+      "score": 48
+    },
+    {
+      "company": "illumina",
+      "role": "engineering-manager",
+      "score": 48
+    },
+    {
+      "company": "genentech",
+      "role": "data-scientist",
+      "score": 48
+    },
+    {
+      "company": "genentech",
+      "role": "engineering-manager",
+      "score": 48
+    },
+    {
+      "company": "splunk",
+      "role": "product-manager",
+      "score": 48
+    },
+    {
+      "company": "splunk",
+      "role": "backend-engineer",
+      "score": 48
+    },
+    {
+      "company": "hubspot",
+      "role": "engineering-manager",
+      "score": 48
+    },
+    {
+      "company": "elastic",
+      "role": "devops-engineer",
+      "score": 48
+    },
+    {
+      "company": "wbd",
+      "role": "software-engineer",
+      "score": 48
+    },
+    {
+      "company": "pinterest",
+      "role": "software-engineer",
+      "score": 48
+    },
+    {
+      "company": "pinterest",
+      "role": "frontend-engineer",
+      "score": 48
+    },
+    {
+      "company": "slack",
+      "role": "engineering-manager",
+      "score": 48
+    },
+    {
+      "company": "cisco",
+      "role": "software-engineer",
+      "score": 47
+    },
+    {
+      "company": "cisco",
+      "role": "devops-engineer",
+      "score": 47
+    },
+    {
+      "company": "vercel",
+      "role": "software-engineer",
+      "score": 47
+    },
+    {
+      "company": "vercel",
+      "role": "backend-engineer",
+      "score": 47
+    },
+    {
+      "company": "robinhood",
+      "role": "backend-engineer",
+      "score": 47
+    },
+    {
+      "company": "plaid",
+      "role": "security-engineer",
+      "score": 47
+    },
+    {
+      "company": "fidelity",
+      "role": "engineering-manager",
+      "score": 47
+    },
+    {
+      "company": "capgemini",
+      "role": "business-analyst",
+      "score": 47
+    },
+    {
+      "company": "booz-allen",
+      "role": "management-consultant",
+      "score": 47
+    },
+    {
+      "company": "etsy",
+      "role": "software-engineer",
+      "score": 47
+    },
+    {
+      "company": "walmart",
+      "role": "backend-engineer",
+      "score": 47
+    },
+    {
+      "company": "nike",
+      "role": "marketing-manager",
+      "score": 47
+    },
+    {
+      "company": "jnj",
+      "role": "software-engineer",
+      "score": 47
+    },
+    {
+      "company": "zendesk",
+      "role": "frontend-engineer",
+      "score": 47
+    },
+    {
+      "company": "okta",
+      "role": "software-engineer",
+      "score": 47
+    },
+    {
+      "company": "mongodb",
+      "role": "backend-engineer",
+      "score": 47
+    },
+    {
+      "company": "elastic",
+      "role": "product-manager",
+      "score": 47
+    },
+    {
+      "company": "elastic",
+      "role": "solutions-architect",
+      "score": 47
+    },
+    {
+      "company": "wbd",
+      "role": "product-manager",
+      "score": 47
+    },
+    {
+      "company": "snap",
+      "role": "machine-learning-engineer",
+      "score": 47
+    },
+    {
+      "company": "x",
+      "role": "software-engineer",
+      "score": 47
+    },
+    {
+      "company": "x",
+      "role": "mobile-engineer",
+      "score": 47
+    },
+    {
+      "company": "ea",
+      "role": "software-engineer",
+      "score": 47
+    },
+    {
+      "company": "activision-blizzard",
+      "role": "product-manager",
+      "score": 47
+    },
+    {
+      "company": "ibm",
+      "role": "solutions-architect",
+      "score": 47
+    },
+    {
+      "company": "vmware",
+      "role": "product-manager",
+      "score": 47
+    },
+    {
+      "company": "roblox",
+      "role": "product-designer",
+      "score": 47
+    },
+    {
+      "company": "cisco",
+      "role": "sales-engineer",
+      "score": 46
+    },
+    {
+      "company": "vercel",
+      "role": "product-designer",
+      "score": 46
+    },
+    {
+      "company": "instacart",
+      "role": "product-manager",
+      "score": 46
+    },
+    {
+      "company": "robinhood",
+      "role": "mobile-engineer",
+      "score": 46
+    },
+    {
+      "company": "plaid",
+      "role": "backend-engineer",
+      "score": 46
+    },
+    {
+      "company": "charles-schwab",
+      "role": "financial-analyst",
+      "score": 46
+    },
+    {
+      "company": "visa",
+      "role": "data-engineer",
+      "score": 46
+    },
+    {
+      "company": "etsy",
+      "role": "frontend-engineer",
+      "score": 46
+    },
+    {
+      "company": "wayfair",
+      "role": "product-designer",
+      "score": 46
+    },
+    {
+      "company": "wayfair",
+      "role": "engineering-manager",
+      "score": 46
+    },
+    {
+      "company": "walmart",
+      "role": "data-engineer",
+      "score": 46
+    },
+    {
+      "company": "home-depot",
+      "role": "business-analyst",
+      "score": 46
+    },
+    {
+      "company": "optum",
+      "role": "backend-engineer",
+      "score": 46
+    },
+    {
+      "company": "jnj",
+      "role": "engineering-manager",
+      "score": 46
+    },
+    {
+      "company": "pfizer",
+      "role": "engineering-manager",
+      "score": 46
+    },
+    {
+      "company": "illumina",
+      "role": "data-engineer",
+      "score": 46
+    },
+    {
+      "company": "mongodb",
+      "role": "product-manager",
+      "score": 46
+    },
+    {
+      "company": "mongodb",
+      "role": "engineering-manager",
+      "score": 46
+    },
+    {
+      "company": "snap",
+      "role": "product-manager",
+      "score": 46
+    },
+    {
+      "company": "x",
+      "role": "product-manager",
+      "score": 46
+    },
+    {
+      "company": "vmware",
+      "role": "devops-engineer",
+      "score": 46
+    },
+    {
+      "company": "dropbox",
+      "role": "product-manager",
+      "score": 46
+    },
+    {
+      "company": "slack",
+      "role": "ux-researcher",
+      "score": 46
+    },
+    {
+      "company": "docusign",
+      "role": "product-manager",
+      "score": 46
+    },
+    {
+      "company": "cisco",
+      "role": "security-engineer",
+      "score": 45
+    },
+    {
+      "company": "instacart",
+      "role": "engineering-manager",
+      "score": 45
+    },
+    {
+      "company": "plaid",
+      "role": "data-scientist",
+      "score": 45
+    },
+    {
+      "company": "charles-schwab",
+      "role": "software-engineer",
+      "score": 45
+    },
+    {
+      "company": "mastercard",
+      "role": "data-scientist",
+      "score": 45
+    },
+    {
+      "company": "mastercard",
+      "role": "data-engineer",
+      "score": 45
+    },
+    {
+      "company": "booz-allen",
+      "role": "business-analyst",
+      "score": 45
+    },
+    {
+      "company": "chewy",
+      "role": "data-engineer",
+      "score": 45
+    },
+    {
+      "company": "target",
+      "role": "product-manager",
+      "score": 45
+    },
+    {
+      "company": "target",
+      "role": "data-scientist",
+      "score": 45
+    },
+    {
+      "company": "home-depot",
+      "role": "engineering-manager",
+      "score": 45
+    },
+    {
+      "company": "home-depot",
+      "role": "data-engineer",
+      "score": 45
+    },
+    {
+      "company": "best-buy",
+      "role": "engineering-manager",
+      "score": 45
+    },
+    {
+      "company": "best-buy",
+      "role": "data-engineer",
+      "score": 45
+    },
+    {
+      "company": "nike",
+      "role": "software-engineer",
+      "score": 45
+    },
+    {
+      "company": "nike",
+      "role": "mobile-engineer",
+      "score": 45
+    },
+    {
+      "company": "lululemon",
+      "role": "product-manager",
+      "score": 45
+    },
+    {
+      "company": "optum",
+      "role": "software-engineer",
+      "score": 45
+    },
+    {
+      "company": "optum",
+      "role": "data-engineer",
+      "score": 45
+    },
+    {
+      "company": "unitedhealth",
+      "role": "backend-engineer",
+      "score": 45
+    },
+    {
+      "company": "unitedhealth",
+      "role": "data-engineer",
+      "score": 45
+    },
+    {
+      "company": "moderna",
+      "role": "machine-learning-engineer",
+      "score": 45
+    },
+    {
+      "company": "zendesk",
+      "role": "software-engineer",
+      "score": 45
+    },
+    {
+      "company": "ea",
+      "role": "backend-engineer",
+      "score": 45
+    },
+    {
+      "company": "charles-schwab",
+      "role": "business-analyst",
+      "score": 44
+    },
+    {
+      "company": "kpmg",
+      "role": "management-consultant",
+      "score": 44
+    },
+    {
+      "company": "etsy",
+      "role": "product-manager",
+      "score": 44
+    },
+    {
+      "company": "wayfair",
+      "role": "software-engineer",
+      "score": 44
+    },
+    {
+      "company": "wayfair",
+      "role": "product-manager",
+      "score": 44
+    },
+    {
+      "company": "wayfair",
+      "role": "data-scientist",
+      "score": 44
+    },
+    {
+      "company": "best-buy",
+      "role": "product-manager",
+      "score": 44
+    },
+    {
+      "company": "nike",
+      "role": "frontend-engineer",
+      "score": 44
+    },
+    {
+      "company": "optum",
+      "role": "data-scientist",
+      "score": 44
+    },
+    {
+      "company": "unitedhealth",
+      "role": "data-scientist",
+      "score": 44
+    },
+    {
+      "company": "unitedhealth",
+      "role": "business-analyst",
+      "score": 44
+    },
+    {
+      "company": "genentech",
+      "role": "data-engineer",
+      "score": 44
+    },
+    {
+      "company": "genentech",
+      "role": "machine-learning-engineer",
+      "score": 44
+    },
+    {
+      "company": "twilio",
+      "role": "software-engineer",
+      "score": 44
+    },
+    {
+      "company": "twilio",
+      "role": "engineering-manager",
+      "score": 44
+    },
+    {
+      "company": "zendesk",
+      "role": "product-manager",
+      "score": 44
+    },
+    {
+      "company": "okta",
+      "role": "product-manager",
+      "score": 44
+    },
+    {
+      "company": "okta",
+      "role": "engineering-manager",
+      "score": 44
+    },
+    {
+      "company": "okta",
+      "role": "backend-engineer",
+      "score": 44
+    },
+    {
+      "company": "wbd",
+      "role": "data-scientist",
+      "score": 44
+    },
+    {
+      "company": "wbd",
+      "role": "product-designer",
+      "score": 44
+    },
+    {
+      "company": "x",
+      "role": "product-designer",
+      "score": 44
+    },
+    {
+      "company": "activision-blizzard",
+      "role": "software-engineer",
+      "score": 44
+    },
+    {
+      "company": "ibm",
+      "role": "data-engineer",
+      "score": 44
+    },
+    {
+      "company": "vmware",
+      "role": "backend-engineer",
+      "score": 44
+    },
+    {
+      "company": "cisco",
+      "role": "backend-engineer",
+      "score": 43
+    },
+    {
+      "company": "vercel",
+      "role": "devops-engineer",
+      "score": 43
+    },
+    {
+      "company": "charles-schwab",
+      "role": "data-engineer",
+      "score": 43
+    },
+    {
+      "company": "wayfair",
+      "role": "frontend-engineer",
+      "score": 43
+    },
+    {
+      "company": "chewy",
+      "role": "product-manager",
+      "score": 43
+    },
+    {
+      "company": "chewy",
+      "role": "product-designer",
+      "score": 43
+    },
+    {
+      "company": "target",
+      "role": "data-engineer",
+      "score": 43
+    },
+    {
+      "company": "target",
+      "role": "business-analyst",
+      "score": 43
+    },
+    {
+      "company": "cerner",
+      "role": "technical-program-manager",
+      "score": 43
+    },
+    {
+      "company": "jnj",
+      "role": "product-manager",
+      "score": 43
+    },
+    {
+      "company": "zendesk",
+      "role": "product-designer",
+      "score": 43
+    },
+    {
+      "company": "ea",
+      "role": "product-designer",
+      "score": 43
+    },
+    {
+      "company": "dropbox",
+      "role": "data-scientist",
+      "score": 43
+    },
+    {
+      "company": "dropbox",
+      "role": "product-designer",
+      "score": 43
+    },
+    {
+      "company": "dropbox",
+      "role": "engineering-manager",
+      "score": 43
+    },
+    {
+      "company": "dropbox",
+      "role": "frontend-engineer",
+      "score": 43
+    },
+    {
+      "company": "docusign",
+      "role": "software-engineer",
+      "score": 43
+    },
+    {
+      "company": "asana",
+      "role": "backend-engineer",
+      "score": 43
+    },
+    {
+      "company": "amd",
+      "role": "product-manager",
+      "score": 42
+    },
+    {
+      "company": "amd",
+      "role": "backend-engineer",
+      "score": 42
+    },
+    {
+      "company": "booz-allen",
+      "role": "security-engineer",
+      "score": 42
+    },
+    {
+      "company": "chewy",
+      "role": "backend-engineer",
+      "score": 42
+    },
+    {
+      "company": "costco",
+      "role": "data-engineer",
+      "score": 42
+    },
+    {
+      "company": "home-depot",
+      "role": "backend-engineer",
+      "score": 42
+    },
+    {
+      "company": "best-buy",
+      "role": "backend-engineer",
+      "score": 42
+    },
+    {
+      "company": "cvs-health",
+      "role": "backend-engineer",
+      "score": 42
+    },
+    {
+      "company": "zendesk",
+      "role": "engineering-manager",
+      "score": 42
+    },
+    {
+      "company": "activision-blizzard",
+      "role": "product-designer",
+      "score": 42
+    },
+    {
+      "company": "vmware",
+      "role": "engineering-manager",
+      "score": 42
+    },
+    {
+      "company": "costco",
+      "role": "software-engineer",
+      "score": 41
+    },
+    {
+      "company": "costco",
+      "role": "backend-engineer",
+      "score": 41
+    },
+    {
+      "company": "lululemon",
+      "role": "product-designer",
+      "score": 41
+    },
+    {
+      "company": "cerner",
+      "role": "software-engineer",
+      "score": 41
+    },
+    {
+      "company": "cerner",
+      "role": "qa-engineer",
+      "score": 41
+    },
+    {
+      "company": "illumina",
+      "role": "machine-learning-engineer",
+      "score": 41
+    },
+    {
+      "company": "wbd",
+      "role": "frontend-engineer",
+      "score": 41
+    },
+    {
+      "company": "ea",
+      "role": "product-manager",
+      "score": 41
+    },
+    {
+      "company": "activision-blizzard",
+      "role": "engineering-manager",
+      "score": 41
+    },
+    {
+      "company": "asana",
+      "role": "product-manager",
+      "score": 41
+    },
+    {
+      "company": "cisco",
+      "role": "engineering-manager",
+      "score": 40
+    },
+    {
+      "company": "charles-schwab",
+      "role": "backend-engineer",
+      "score": 40
+    },
+    {
+      "company": "lululemon",
+      "role": "frontend-engineer",
+      "score": 40
+    },
+    {
+      "company": "moderna",
+      "role": "software-engineer",
+      "score": 40
+    },
+    {
+      "company": "moderna",
+      "role": "engineering-manager",
+      "score": 40
+    },
+    {
+      "company": "moderna",
+      "role": "data-engineer",
+      "score": 40
+    },
+    {
+      "company": "zendesk",
+      "role": "backend-engineer",
+      "score": 40
+    },
+    {
+      "company": "wbd",
+      "role": "backend-engineer",
+      "score": 40
+    },
+    {
+      "company": "activision-blizzard",
+      "role": "data-scientist",
+      "score": 40
+    },
+    {
+      "company": "docusign",
+      "role": "backend-engineer",
+      "score": 40
+    },
+    {
+      "company": "charles-schwab",
+      "role": "product-manager",
+      "score": 39
+    },
+    {
+      "company": "chewy",
+      "role": "software-engineer",
+      "score": 39
+    },
+    {
+      "company": "costco",
+      "role": "data-scientist",
+      "score": 39
+    },
+    {
+      "company": "costco",
+      "role": "engineering-manager",
+      "score": 39
+    },
+    {
+      "company": "lululemon",
+      "role": "data-scientist",
+      "score": 39
+    },
+    {
+      "company": "cvs-health",
+      "role": "data-engineer",
+      "score": 39
+    },
+    {
+      "company": "moderna",
+      "role": "data-scientist",
+      "score": 39
+    },
+    {
+      "company": "illumina",
+      "role": "software-engineer",
+      "score": 39
+    },
+    {
+      "company": "wbd",
+      "role": "engineering-manager",
+      "score": 39
+    },
+    {
+      "company": "activision-blizzard",
+      "role": "qa-engineer",
+      "score": 39
+    },
+    {
+      "company": "chewy",
+      "role": "data-scientist",
+      "score": 38
+    },
+    {
+      "company": "home-depot",
+      "role": "product-manager",
+      "score": 38
+    },
+    {
+      "company": "home-depot",
+      "role": "software-engineer",
+      "score": 37
+    },
+    {
+      "company": "best-buy",
+      "role": "software-engineer",
+      "score": 37
+    },
+    {
+      "company": "lululemon",
+      "role": "marketing-manager",
+      "score": 37
+    },
+    {
+      "company": "costco",
+      "role": "product-manager",
+      "score": 36
+    },
+    {
+      "company": "best-buy",
+      "role": "data-scientist",
+      "score": 36
+    },
+    {
+      "company": "lululemon",
+      "role": "software-engineer",
+      "score": 36
+    },
+    {
+      "company": "costco",
+      "role": "business-analyst",
+      "score": 34
+    },
+    {
+      "company": "lululemon",
+      "role": "backend-engineer",
+      "score": 34
+    }
   ]
 }
