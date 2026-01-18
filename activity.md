@@ -2,12 +2,13 @@
 
 ## Current Status
 **Last Updated:** 2026-01-18
-**Tasks Completed:** 30
+**Tasks Completed:** 31
 **Stage 1:** COMPLETE (All 4 issues closed)
 **Stage 2:** COMPLETE (All 4 issues closed: #7, #8, #9, #10)
 **Stage 3:** COMPLETE (All 3 issues closed: #4, #5, #19)
 **Stage 4:** COMPLETE (All issues closed: #14, #11, #12, #13, #15, #16, #18)
-**Current Task:** Stage 5 - Issue #33 Dynamic routing [company]/[role]
+**Stage 5:** IN PROGRESS (1 of 6 parent issues, sub-issues #33 and #34 complete)
+**Current Task:** None - Ready for next Stage 5 sub-issue
 
 ---
 
@@ -1214,6 +1215,67 @@ All Stage 4 (Content Generation) issues are now closed:
 - `screenshots/33-company-page-google.png` - Company page with roles
 - `screenshots/33-company-role-page.png` - Landing page for Google SWE
 - `screenshots/33-mobile-view.png` - Mobile responsive view
+
+### 2026-01-18 - Issue #34: Content Fetching Layer
+
+**Completed:**
+- Created content fetching library `src/lib/content-fetching/`:
+  - `types.ts` - Type definitions for content fetching
+  - `queries.ts` - Query functions for Supabase
+  - `cache.ts` - In-memory caching with TTL
+  - `index.ts` - Re-exports
+- Implemented all required queries:
+  - `getCompanyBySlug(slug)` - Returns company from search_volume.json
+  - `getRoleBySlug(companySlug, roleSlug)` - Returns role for company
+  - `getModulesForPosition(supabase, company, role)` - Returns ordered modules
+  - `getPreviewContent(supabase, company, role)` - Free content with truncated sections
+  - `getFullContent(supabase, company, role, userId)` - Premium content with access check
+  - `checkUserAccess(supabase, userId, company, role)` - Access grant verification
+- Implemented caching system:
+  - In-memory cache with configurable TTL
+  - `withCache()` wrapper for async operations
+  - `invalidatePosition()` for targeted cache invalidation
+  - `invalidateAll()` for full cache clear
+  - `REVALIDATE_INTERVAL` constant (1 hour) for ISR
+- Integrated with company/role landing page:
+  - Server-side content fetching with Supabase client
+  - Graceful fallback to placeholder when no content available
+  - Shows module cards when content exists
+  - Premium content teaser section
+  - Truncated sections indicator
+- Security:
+  - RLS enforced via Supabase policies (from #31)
+  - Preview excludes premium modules/blocks
+  - Full content requires valid access grant
+
+**Tests Added:**
+- 57 unit tests covering:
+  - `getCompanyBySlug` - valid slug, invalid slug, case-insensitive
+  - `getRoleBySlug` - valid company/role, invalid, case-insensitive
+  - `getModulesForPosition` - returns modules, filters by type, respects order
+  - `getPreviewContent` - excludes premium, tracks truncated sections
+  - `getFullContent` - requires access, returns all content
+  - `checkUserAccess` - no access, valid grant, database error
+  - Module filtering by type (universal, company, company-role)
+  - Content transformation (blocks to sections)
+  - Cache utilities (set, get, invalidate, withCache)
+
+**Verification:**
+- `npm run lint` - passes with no errors
+- `npm run type-check` - passes with no errors
+- `npm run build` - successful production build
+- `npm test` - 979 tests pass (57 new content-fetching tests)
+- All acceptance criteria verified:
+  - All query functions implemented and tested
+  - Server-side fetching via Server Components
+  - Supabase client configured
+  - Error handling for missing data (graceful fallback)
+  - Caching with invalidation
+  - RLS enforced for premium content
+  - Preview vs full content logic working
+
+**Screenshot:**
+- `screenshots/34-content-fetching-layer.png` - Landing page with content fetching
 
 ---
 

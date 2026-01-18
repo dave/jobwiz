@@ -5,6 +5,12 @@ import {
   validateCompanyRoleRoute,
   getTopCompanyRoleCombos,
 } from "@/lib/routing";
+import { createServerClient } from "@/lib/supabase/server";
+import {
+  getPreviewContent,
+  type PreviewContent,
+  REVALIDATE_INTERVAL,
+} from "@/lib/content-fetching";
 
 interface CompanyRolePageProps {
   params: Promise<{
@@ -72,6 +78,19 @@ export default async function CompanyRolePage({ params }: CompanyRolePageProps) 
 
   const { company, role } = result;
 
+  // Fetch preview content from Supabase (if available)
+  let previewContent: PreviewContent | null = null;
+  try {
+    const supabase = await createServerClient();
+    previewContent = await getPreviewContent(supabase, company.slug, role.slug);
+  } catch {
+    // Content may not be generated yet - continue with placeholder
+    console.log(`No content yet for ${company.slug}/${role.slug}`);
+  }
+
+  // Determine if we have real content or should show placeholder
+  const hasContent = previewContent && previewContent.modules.length > 0;
+
   return (
     <main className="min-h-screen bg-gray-50">
       {/* Hero Section */}
@@ -98,79 +117,131 @@ export default async function CompanyRolePage({ params }: CompanyRolePageProps) 
         </div>
       </section>
 
-      {/* Content Preview Section - Placeholder for #34 */}
+      {/* Content Preview Section - Uses content fetching layer */}
       <section className="max-w-4xl mx-auto px-4 py-12">
         <h2 className="text-xl font-semibold text-gray-900 mb-6">
           What You&apos;ll Learn
         </h2>
-        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          <div className="p-6 bg-white rounded-lg border border-gray-200">
-            <div className="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
-              <svg
-                className="w-5 h-5 text-blue-600"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                />
-              </svg>
+
+        {/* Show real content if available from Supabase */}
+        {hasContent && previewContent ? (
+          <div className="space-y-6">
+            {/* Module list from content fetching */}
+            <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+              {previewContent.modules.map((mod) => (
+                <div
+                  key={mod.id}
+                  className="p-6 bg-white rounded-lg border border-gray-200"
+                >
+                  <h3 className="font-medium text-gray-900 mb-2">
+                    {mod.title}
+                  </h3>
+                  {mod.description && (
+                    <p className="text-sm text-gray-500">{mod.description}</p>
+                  )}
+                  <p className="text-xs text-gray-400 mt-2">
+                    {mod.sections.length} section
+                    {mod.sections.length !== 1 ? "s" : ""}
+                  </p>
+                </div>
+              ))}
             </div>
-            <h3 className="font-medium text-gray-900 mb-2">Company Culture</h3>
-            <p className="text-sm text-gray-500">
-              Learn what {company.name} looks for in candidates and how to
-              demonstrate cultural fit.
-            </p>
+
+            {/* Premium content teaser */}
+            {previewContent.premiumModuleCount > 0 && (
+              <div className="p-4 bg-amber-50 border border-amber-200 rounded-lg">
+                <p className="text-sm text-amber-800">
+                  <span className="font-medium">
+                    {previewContent.premiumModuleCount} premium module
+                    {previewContent.premiumModuleCount !== 1 ? "s" : ""}
+                  </span>{" "}
+                  available with full access
+                </p>
+              </div>
+            )}
+
+            {/* Truncated sections indicator */}
+            {previewContent.truncatedSections.length > 0 && (
+              <p className="text-xs text-gray-400">
+                {previewContent.truncatedSections.reduce(
+                  (sum, s) => sum + s.hiddenBlockCount,
+                  0
+                )}{" "}
+                premium content blocks available with purchase
+              </p>
+            )}
           </div>
-          <div className="p-6 bg-white rounded-lg border border-gray-200">
-            <div className="w-10 h-10 bg-green-100 rounded-lg flex items-center justify-center mb-4">
-              <svg
-                className="w-5 h-5 text-green-600"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-                />
-              </svg>
+        ) : (
+          /* Placeholder content when no modules in Supabase yet */
+          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            <div className="p-6 bg-white rounded-lg border border-gray-200">
+              <div className="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
+                <svg
+                  className="w-5 h-5 text-blue-600"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+                  />
+                </svg>
+              </div>
+              <h3 className="font-medium text-gray-900 mb-2">Company Culture</h3>
+              <p className="text-sm text-gray-500">
+                Learn what {company.name} looks for in candidates and how to
+                demonstrate cultural fit.
+              </p>
             </div>
-            <h3 className="font-medium text-gray-900 mb-2">Practice Questions</h3>
-            <p className="text-sm text-gray-500">
-              Real interview questions from {role.name} interviews at{" "}
-              {company.name}.
-            </p>
-          </div>
-          <div className="p-6 bg-white rounded-lg border border-gray-200">
-            <div className="w-10 h-10 bg-purple-100 rounded-lg flex items-center justify-center mb-4">
-              <svg
-                className="w-5 h-5 text-purple-600"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M13 10V3L4 14h7v7l9-11h-7z"
-                />
-              </svg>
+            <div className="p-6 bg-white rounded-lg border border-gray-200">
+              <div className="w-10 h-10 bg-green-100 rounded-lg flex items-center justify-center mb-4">
+                <svg
+                  className="w-5 h-5 text-green-600"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                  />
+                </svg>
+              </div>
+              <h3 className="font-medium text-gray-900 mb-2">Practice Questions</h3>
+              <p className="text-sm text-gray-500">
+                Real interview questions from {role.name} interviews at{" "}
+                {company.name}.
+              </p>
             </div>
-            <h3 className="font-medium text-gray-900 mb-2">Insider Tips</h3>
-            <p className="text-sm text-gray-500">
-              Proven strategies and tips from successful {company.name}{" "}
-              candidates.
-            </p>
+            <div className="p-6 bg-white rounded-lg border border-gray-200">
+              <div className="w-10 h-10 bg-purple-100 rounded-lg flex items-center justify-center mb-4">
+                <svg
+                  className="w-5 h-5 text-purple-600"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M13 10V3L4 14h7v7l9-11h-7z"
+                  />
+                </svg>
+              </div>
+              <h3 className="font-medium text-gray-900 mb-2">Insider Tips</h3>
+              <p className="text-sm text-gray-500">
+                Proven strategies and tips from successful {company.name}{" "}
+                candidates.
+              </p>
+            </div>
           </div>
-        </div>
+        )}
       </section>
 
       {/* Navigation */}
@@ -194,8 +265,8 @@ export default async function CompanyRolePage({ params }: CompanyRolePageProps) 
   );
 }
 
-// ISR configuration: revalidate every hour
-export const revalidate = 3600;
+// ISR configuration: revalidate every hour (use centralized constant)
+export const revalidate = REVALIDATE_INTERVAL;
 
 // Use blocking fallback for new pages not in static params
 export const dynamicParams = true;
