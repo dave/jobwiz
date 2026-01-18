@@ -2,10 +2,10 @@
 
 ## Current Status
 **Last Updated:** 2026-01-18
-**Tasks Completed:** 18
+**Tasks Completed:** 19
 **Stage 1:** COMPLETE (All 4 issues closed)
 **Stage 2:** COMPLETE (All 4 issues closed: #7, #8, #9, #10)
-**Stage 3:** IN PROGRESS (2/3 issues complete: #5, #4)
+**Stage 3:** COMPLETE (All 3 issues closed: #4, #5, #19)
 **Current Task:** None
 
 ---
@@ -400,6 +400,73 @@ All Stage 2 (Content Framework) issues are now closed:
 
 **Screenshot:**
 - `screenshots/4-scraper-demo-page.png` - Site still working after changes
+
+### 2026-01-18 - Issue #19: Generate company trivia content
+
+**Completed:**
+- Created `scripts/trivia/` directory structure with Python trivia package
+- Implemented Wikipedia fetcher for company facts:
+  - Searches Wikipedia API for company pages
+  - Parses infobox data for founding date, founders, HQ, industry, products, CEO
+  - Cleans wiki markup, extracts structured data
+- Implemented Google News RSS fetcher:
+  - Fetches recent news for company
+  - Extracts title, link, source, publication date
+  - Specialized methods for acquisition and executive news
+- Implemented AI quiz generator using OpenAI:
+  - Generates quiz, flashcard, and factoid formats
+  - Creates multiple choice with 3 plausible wrong options
+  - Uses structured prompts for quality distractors
+  - Mock mode for testing without API calls
+- Implemented Supabase storage layer:
+  - Stores trivia items with deduplication via unique question constraint
+  - Logs generation runs with metrics
+  - Retrieval methods by company and format
+- Created CLI script `generate.py` with options:
+  - `--company=<slug>` (required)
+  - `--limit=<n>` (default 15)
+  - `--dry-run` (generate without storing)
+  - `--mock` (use mock generator, no OpenAI calls)
+- Created Supabase migration for `company_trivia` table
+
+**Files Created:**
+- `scripts/trivia/requirements.txt` - Python dependencies
+- `scripts/trivia/generate.py` - Main CLI script
+- `scripts/trivia/pytest.ini` - Test configuration
+- `scripts/trivia/trivia/__init__.py` - Package exports
+- `scripts/trivia/trivia/wikipedia.py` - Wikipedia API fetcher
+- `scripts/trivia/trivia/news.py` - Google News RSS fetcher
+- `scripts/trivia/trivia/generator.py` - AI quiz generator
+- `scripts/trivia/trivia/storage.py` - Supabase storage layer
+- `scripts/trivia/tests/test_wikipedia.py` - 12 Wikipedia fetcher tests
+- `scripts/trivia/tests/test_news.py` - 12 news fetcher tests
+- `scripts/trivia/tests/test_generator.py` - 19 generator tests
+- `scripts/trivia/tests/test_storage.py` - 14 storage tests
+- `supabase/migrations/20260118000001_create_company_trivia_table.sql` - DB schema
+
+**Tests:**
+- 57 unit tests (all mocked, no external calls)
+- All tests pass
+
+**Verification:**
+- `npm run lint` - passes with no errors
+- `npm run type-check` - passes with no errors
+- `npm run build` - successful production build
+- `npm test` - 333 passed, 2 todo
+- Python tests: 57 passed
+- Site health check returns OK
+
+**Screenshot:**
+- `screenshots/19-trivia-site-working.png` - Site still working after changes
+
+---
+
+## Stage 3 Complete
+
+All Stage 3 (Data Collection) issues are now closed:
+- #4 - Build scraper for Reddit interview data
+- #5 - Google Trends API for search volume by company/role
+- #19 - Generate company trivia content
 
 ---
 
