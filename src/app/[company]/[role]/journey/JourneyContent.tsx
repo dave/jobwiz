@@ -181,24 +181,16 @@ export function JourneyContent({
           </div>
         </div>
 
-        {/* Premium Content Section - Behind Paywall */}
-        <PaywallGate
-          journeyId={`${companySlug}-${roleSlug}`}
-          price={199}
-          variant="hard"
-          mockMode={false}
-          onPurchase={handlePurchase}
-          heading={`Unlock ${companyName} ${roleName} Prep`}
-          description={`Get full access to company-specific strategies, insider tips, and practice questions tailored for ${companyName} ${roleName} interviews.`}
-          ctaText="Get Full Access"
-        >
+        {/* Premium Content Section - Behind Paywall (unless user has access) */}
+        {hasAccess ? (
+          // User has purchased - show premium content directly
           <div className="bg-white shadow rounded-lg p-6">
             <div className="flex items-center gap-2 mb-6">
               <h2 className="text-lg font-semibold text-gray-900">
                 {companyName}-Specific Preparation
               </h2>
-              <span className="px-2 py-0.5 bg-blue-100 text-blue-800 text-xs font-medium rounded">
-                PREMIUM
+              <span className="px-2 py-0.5 bg-green-100 text-green-800 text-xs font-medium rounded">
+                UNLOCKED
               </span>
             </div>
 
@@ -207,31 +199,76 @@ export function JourneyContent({
                 number={3}
                 title={`${companyName} Culture & Values`}
                 description={`Deep dive into ${companyName}'s leadership principles, culture, and what they truly value.`}
-                status={hasAccess ? "upcoming" : "locked"}
+                status="upcoming"
               />
               <JourneyStep
                 number={4}
                 title={`${roleName} Interview Questions`}
                 description={`Practice real interview questions specific to ${roleName} roles at ${companyName}.`}
-                status={hasAccess ? "upcoming" : "locked"}
+                status="upcoming"
               />
               <JourneyStep
                 number={5}
                 title="Mock Interview & Final Prep"
                 description={`Put it all together with a simulated ${companyName} interview experience.`}
-                status={hasAccess ? "upcoming" : "locked"}
+                status="upcoming"
               />
             </div>
 
-            {hasAccess && (
-              <div className="mt-6">
-                <button className="bg-blue-600 text-white px-6 py-2 rounded-lg font-medium hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">
-                  Continue to Premium Content
-                </button>
-              </div>
-            )}
+            <div className="mt-6">
+              <Link
+                href={`/${companySlug}/${roleSlug}/journey/learn`}
+                className="inline-block bg-blue-600 text-white px-6 py-2 rounded-lg font-medium hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+              >
+                Continue to Premium Content
+              </Link>
+            </div>
           </div>
-        </PaywallGate>
+        ) : (
+          // User hasn't purchased - show paywall
+          <PaywallGate
+            journeyId={`${companySlug}-${roleSlug}`}
+            price={199}
+            variant="hard"
+            mockMode={false}
+            onPurchase={handlePurchase}
+            heading={`Unlock ${companyName} ${roleName} Prep`}
+            description={`Get full access to company-specific strategies, insider tips, and practice questions tailored for ${companyName} ${roleName} interviews.`}
+            ctaText="Get Full Access"
+          >
+            <div className="bg-white shadow rounded-lg p-6">
+              <div className="flex items-center gap-2 mb-6">
+                <h2 className="text-lg font-semibold text-gray-900">
+                  {companyName}-Specific Preparation
+                </h2>
+                <span className="px-2 py-0.5 bg-blue-100 text-blue-800 text-xs font-medium rounded">
+                  PREMIUM
+                </span>
+              </div>
+
+              <div className="space-y-4">
+                <JourneyStep
+                  number={3}
+                  title={`${companyName} Culture & Values`}
+                  description={`Deep dive into ${companyName}'s leadership principles, culture, and what they truly value.`}
+                  status="locked"
+                />
+                <JourneyStep
+                  number={4}
+                  title={`${roleName} Interview Questions`}
+                  description={`Practice real interview questions specific to ${roleName} roles at ${companyName}.`}
+                  status="locked"
+                />
+                <JourneyStep
+                  number={5}
+                  title="Mock Interview & Final Prep"
+                  description={`Put it all together with a simulated ${companyName} interview experience.`}
+                  status="locked"
+                />
+              </div>
+            </div>
+          </PaywallGate>
+        )}
       </main>
     </div>
   );
