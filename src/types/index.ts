@@ -34,3 +34,16 @@ export type {
   Role,
   Position,
 } from "./position";
+
+// Journey UI types
+export type {
+  JourneyStepType,
+  JourneyStep,
+  PaywallConfig,
+  JourneyConfig,
+  StepStatus,
+  JourneyAnswer,
+  JourneyState,
+  JourneyActions,
+  JourneyContextValue,
+} from "./journey";

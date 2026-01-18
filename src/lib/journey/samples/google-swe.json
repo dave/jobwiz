@@ -1,0 +1,63 @@
+{
+  "id": "journey-google-swe",
+  "companySlug": "google",
+  "roleSlug": "software-engineer",
+  "steps": [
+    {
+      "id": "step-1-mindset",
+      "title": "The Right Mindset",
+      "type": "content",
+      "moduleId": "universal-interview-basics",
+      "sectionId": "section-mindset",
+      "required": true,
+      "estimatedMinutes": 5
+    },
+    {
+      "id": "step-2-prep-checklist",
+      "title": "Preparation Checklist",
+      "type": "checklist",
+      "moduleId": "universal-interview-basics",
+      "sectionId": "section-preparation",
+      "required": true,
+      "estimatedMinutes": 10
+    },
+    {
+      "id": "step-3-tech-industry",
+      "title": "Tech Industry Insights",
+      "type": "content",
+      "moduleId": "industry-tech",
+      "required": false,
+      "estimatedMinutes": 8
+    },
+    {
+      "id": "step-4-swe-skills",
+      "title": "Software Engineer Skills",
+      "type": "content",
+      "moduleId": "role-software-engineer",
+      "required": true,
+      "estimatedMinutes": 15
+    },
+    {
+      "id": "step-5-google-culture",
+      "title": "Google Culture & Values",
+      "type": "content",
+      "moduleId": "company-google",
+      "required": true,
+      "estimatedMinutes": 12
+    },
+    {
+      "id": "step-6-google-swe-interview",
+      "title": "Google SWE Interview Process",
+      "type": "video",
+      "moduleId": "company-google",
+      "sectionId": "section-interview-process",
+      "required": true,
+      "estimatedMinutes": 20
+    }
+  ],
+  "paywallConfig": {
+    "position": 3,
+    "value": "Unlock premium content including Google-specific interview strategies and insider tips",
+    "variant": "soft"
+  }
+}

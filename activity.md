@@ -2,8 +2,8 @@
 
 ## Current Status
 **Last Updated:** 2026-01-17
-**Tasks Completed:** 2
-**Current Task:** None (Issue #6 complete)
+**Tasks Completed:** 3
+**Current Task:** None (Issue #47 complete)
 
 ---
 
@@ -65,3 +65,30 @@
 - `npm test` - 25 tests pass (matrix.test.ts + samples.test.ts)
 - All sample JSON files valid and conform to Module type
 - Matrix functions correctly filter and order modules by position
+
+### 2026-01-17 - Issue #47: Journey Config Schema
+
+**Completed:**
+- Enhanced journey type definitions:
+  - Added `JourneyStepType` type (`content`, `video`, `audio`, `quiz`, `checklist`)
+  - Added `type` field to `JourneyStep` interface
+  - Updated `src/types/index.ts` to export new type
+- Created journey config loader:
+  - `src/lib/journey/config.ts` - main loader with validation
+  - `src/lib/journey/index.ts` - re-exports
+  - Functions: `loadJourneyConfig`, `parseJourneyConfig`, `validateJourneyConfig`
+  - Utility functions: `calculateJourneyDuration`, `countRequiredSteps`, `splitStepsByPaywall`
+  - Custom errors: `JourneyConfigNotFoundError`, `JourneyConfigValidationError`
+- Created sample journey config:
+  - `src/lib/journey/samples/google-swe.json` - Google SWE journey with 6 steps, paywall at step 3
+- Fixed JourneyContext type error (undefined step handling)
+
+**Verification:**
+- `npm run lint` - passes with no errors
+- `npm run type-check` - passes with no errors
+- `npm run build` - successful production build
+- `npm test` - 154 tests pass (added 30 journey config tests)
+- Sample config validates and loads correctly
+
+**Screenshots:**
+- `screenshots/journey-config-schema.png` - Demo page showing journey components
