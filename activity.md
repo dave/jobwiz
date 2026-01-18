@@ -2,13 +2,13 @@
 
 ## Current Status
 **Last Updated:** 2026-01-18
-**Tasks Completed:** 40
+**Tasks Completed:** 41
 **Stage 1:** COMPLETE (All 4 issues closed)
 **Stage 2:** COMPLETE (All 4 issues closed: #7, #8, #9, #10)
 **Stage 3:** COMPLETE (All 3 issues closed: #4, #5, #19)
 **Stage 4:** COMPLETE (All issues closed: #14, #11, #12, #13, #15, #16, #18)
-**Stage 5:** IN PROGRESS (#20 closed, #21 closed, #22 closed, #24 in progress - sub-issues #41, #42, #43 complete)
-**Current Task:** #43 Conversion tracking events - COMPLETE
+**Stage 5:** IN PROGRESS (#20 closed, #21 closed, #22 closed, #24 in progress - sub-issues #41, #42, #43, #44 complete)
+**Current Task:** #44 AB test dashboard - COMPLETE
 
 ---
 
@@ -2046,3 +2046,79 @@ All Stage 1 (Foundation) issues are now closed:
   - Client-side: PostHog JS SDK ✓
   - Server-side: PostHog HTTP API ✓
   - trackEvent wrapper adds variant automatically ✓
+
+### 2026-01-18 - Issue #44: AB test dashboard
+
+**Completed:**
+- Created AB testing dashboard at `/admin/ab-testing`:
+  - `src/lib/ab-testing/dashboard-types.ts` - Type definitions for metrics and statistics
+  - `src/lib/ab-testing/statistics.ts` - Statistical significance calculation (chi-square test)
+  - `src/lib/ab-testing/dashboard.ts` - Data fetching and aggregation
+  - `src/app/admin/ab-testing/page.tsx` - Dashboard page
+  - `src/app/admin/ab-testing/ABTestDashboard.tsx` - Dashboard component
+- Implemented statistical significance calculation:
+  - Chi-square test for independence
+  - P-value calculation using gamma function approximation
+  - Confidence level display (e.g., 95%)
+  - Winning variant detection
+  - Minimum sample size recommendation
+- Implemented dashboard UI features:
+  - Experiment selector dropdown
+  - Date range filter with presets (7/14/30/90 days, all time)
+  - Variant metrics table (visitors, conversions, rate, revenue, RPV)
+  - Summary cards (total visitors, conversions, conversion rate, revenue)
+  - Statistical significance panel with interpretation guide
+  - Auto-refresh toggle (30 second interval)
+  - CSV export functionality
+- Updated `src/lib/ab-testing/index.ts` to export new functions
+
+**Metrics Displayed:**
+- Visitors per variant
+- Conversions (purchases) per variant
+- Conversion rate per variant
+- Revenue per visitor per variant
+- Statistical significance indicator with confidence level
+
+**Files Created:**
+- `src/lib/ab-testing/dashboard-types.ts`
+- `src/lib/ab-testing/statistics.ts`
+- `src/lib/ab-testing/dashboard.ts`
+- `src/app/admin/ab-testing/page.tsx`
+- `src/app/admin/ab-testing/ABTestDashboard.tsx`
+- `src/lib/ab-testing/__tests__/statistics.test.ts`
+- `src/lib/ab-testing/__tests__/dashboard.test.ts`
+- `src/app/admin/ab-testing/__tests__/ABTestDashboard.test.tsx`
+
+**Tests:**
+- 85 new tests covering:
+  - Chi-square calculation (10 tests)
+  - P-value and confidence level (8 tests)
+  - Statistical significance detection (6 tests)
+  - Minimum sample size calculation (4 tests)
+  - Winning variant identification (4 tests)
+  - Complete significance analysis (6 tests)
+  - Date range utilities (15 tests)
+  - Variant metrics calculation (8 tests)
+  - CSV export formatting (6 tests)
+  - Currency and percentage formatting (5 tests)
+  - Dashboard component rendering (13 tests)
+
+**Verification:**
+- `npm run lint` - passes with no errors
+- `npm run build` - successful production build
+- `npm test` - 1852 passed, 2 todo (85 new dashboard tests)
+- All acceptance criteria verified:
+  - Visitors per variant ✓
+  - Conversions per variant ✓
+  - Conversion rate per variant ✓
+  - Revenue per visitor per variant ✓
+  - Statistical significance indicator ✓
+  - Date range filter ✓
+  - Auto-refresh (optional) ✓
+  - Export data (CSV) ✓
+  - Chi-square test ✓
+  - Confidence level display ✓
+  - Significance flag when reached ✓
+
+**Screenshot:**
+- `screenshots/44-ab-dashboard-loading.png` - AB test dashboard UI

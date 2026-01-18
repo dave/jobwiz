@@ -130,3 +130,47 @@ export type {
   GetVariantOptions,
   UnifiedVariantResult,
 } from "./variant-provider";
+
+// #44: Dashboard Types
+export type {
+  VariantMetrics,
+  SignificanceResult,
+  ExperimentMetrics,
+  DateRange,
+  DashboardQueryOptions,
+  ExportData,
+  ConversionData,
+  PurchaseData,
+  AssignmentWithPurchase,
+} from "./dashboard-types";
+
+// #44: Statistics
+export {
+  calculateChiSquare,
+  calculateDegreesOfFreedom,
+  calculatePValue,
+  pValueToConfidenceLevel,
+  isStatisticallySignificant,
+  calculateMinimumSampleSize,
+  findWinningVariant,
+  calculateSignificance,
+  formatConfidenceLevel,
+  getSignificanceStatus,
+} from "./statistics";
+
+// #44: Dashboard Data
+export {
+  getDefaultDateRange,
+  getAssignmentsInRange,
+  getPurchasesInRange,
+  calculateVariantMetrics,
+  getExperimentMetrics,
+  getAllExperimentMetrics,
+  prepareExportData,
+  metricsToCSV,
+  formatCurrency,
+  formatPercentage,
+  formatDateRange,
+  parseDateRange,
+  getPresetDateRanges,
+} from "./dashboard";
