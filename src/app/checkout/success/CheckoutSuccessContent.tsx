@@ -20,6 +20,7 @@ export function CheckoutSuccessContent() {
   const [session, setSession] = useState<CheckoutSessionData | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const [accessGranted, setAccessGranted] = useState(false);
 
   useEffect(() => {
     if (!sessionId) {
@@ -28,8 +29,9 @@ export function CheckoutSuccessContent() {
       return;
     }
 
-    async function fetchSession() {
+    async function fetchSessionAndGrantAccess() {
       try {
+        // Fetch session details
         const response = await fetch(`/api/checkout/session?session_id=${sessionId}`);
         const data: SessionResponse | ErrorResponse = await response.json();
 
@@ -40,6 +42,24 @@ export function CheckoutSuccessContent() {
 
         const sessionData = data as SessionResponse;
         setSession(sessionData.session);
+
+        // If payment is complete, grant access
+        if (sessionData.session.payment_status === 'paid') {
+          try {
+            const grantResponse = await fetch('/api/access/grant', {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({ session_id: sessionId }),
+            });
+            const grantData = await grantResponse.json();
+            if (grantData.success) {
+              setAccessGranted(true);
+            }
+          } catch (grantErr) {
+            // Log but don't fail - webhook might handle it
+            console.error('Failed to grant access:', grantErr);
+          }
+        }
       } catch (err) {
         setError(err instanceof Error ? err.message : 'An error occurred');
       } finally {
@@ -47,7 +67,7 @@ export function CheckoutSuccessContent() {
       }
     }
 
-    fetchSession();
+    fetchSessionAndGrantAccess();
   }, [sessionId]);
 
   if (loading) {
