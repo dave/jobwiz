@@ -21,7 +21,7 @@ import {
   generateCompanyRoleBreadcrumbs,
 } from "@/lib/seo";
 import { JsonLd } from "@/components/seo";
-import { ThemeProvider, CompanyLogo, ThemedButton } from "@/components/theme";
+import { ThemeProvider, CompanyLogo } from "@/components/theme";
 import { getResolvedTheme, type ResolvedTheme, resolveTheme } from "@/lib/theme";
 
 interface CompanyRolePageProps {
@@ -141,10 +141,11 @@ export default async function CompanyRolePage({ params }: CompanyRolePageProps) 
               </p>
 
               {/* Themed CTA button - links to journey */}
-              <Link href={`/${company.slug}/${role.slug}/journey`}>
-                <ThemedButton variant="primary" size="medium">
-                  Start Your Prep
-                </ThemedButton>
+              <Link
+                href={`/${company.slug}/${role.slug}/journey`}
+                className="inline-flex items-center justify-center px-6 py-3 text-base font-medium rounded-lg min-h-[44px] min-w-[44px] bg-[var(--theme-primary,#2563eb)] text-[var(--theme-text-on-primary,#ffffff)] hover:bg-[var(--theme-primary-hover,#1d4ed8)] transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[var(--theme-primary,#2563eb)]"
+              >
+                Start Your Prep
               </Link>
             </div>
           </div>
