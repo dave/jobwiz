@@ -1,0 +1,64 @@
+{
+  "id": "sample-complex",
+  "slug": "sample-complex",
+  "type": "company",
+  "title": "Sample Complex Module",
+  "description": "Test module with overly complex, academic-style content",
+  "isPremium": false,
+  "order": 1,
+  "sections": [
+    {
+      "id": "section-1",
+      "title": "Organizational Paradigm",
+      "blocks": [
+        {
+          "id": "block-1",
+          "type": "text",
+          "content": "The organizational infrastructure demonstrates a quintessential manifestation of contemporary technological entrepreneurship, characterized by decentralized decision-making architectures and horizontally-integrated operational methodologies that facilitate unprecedented innovation velocity."
+        },
+        {
+          "id": "block-2",
+          "type": "text",
+          "content": "Prospective candidates must demonstrate comprehensive understanding of multidisciplinary computational paradigms, including but not limited to distributed systems architecture, algorithmic optimization methodologies, and enterprise-scale infrastructure orchestration."
+        }
+      ]
+    },
+    {
+      "id": "section-2",
+      "title": "Competency Assessment Methodology",
+      "blocks": [
+        {
+          "id": "block-3",
+          "type": "text",
+          "content": "The evaluation methodology encompasses a multifaceted examination of technical proficiencies, interpersonal communication capabilities, and metacognitive problem-solving competencies through systematic behavioral interrogation techniques."
+        },
+        {
+          "id": "block-4",
+          "type": "text",
+          "content": "Interviewers utilize sophisticated psychometric instrumentation to ascertain candidates' predisposition toward collaborative endeavors, their propensity for autonomous decision-making, and their susceptibility to constructive criticism within hierarchical organizational frameworks."
+        }
+      ]
+    },
+    {
+      "id": "section-3",
+      "title": "Prerequisite Qualifications",
+      "blocks": [
+        {
+          "id": "block-5",
+          "type": "text",
+          "content": "Successful navigation of the comprehensive interview protocol necessitates demonstrable expertise in asymptotic computational complexity analysis, familiarity with polylogarithmic algorithmic optimizations, and proficiency in implementing concurrent data structures with linearizability guarantees."
+        },
+        {
+          "id": "block-6",
+          "type": "checklist",
+          "title": "Preparatory Requirements",
+          "items": [
+            { "id": "item-1", "text": "Familiarization with organizational documentation and intellectual property portfolio", "required": true },
+            { "id": "item-2", "text": "Comprehensive review of computational complexity theory and algorithmic optimization", "required": true },
+            { "id": "item-3", "text": "Preparation of substantive interrogatives for interlocutors", "required": false }
+          ]
+        }
+      ]
+    }
+  ]
+}

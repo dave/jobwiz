@@ -711,6 +711,49 @@ All Stage 3 (Data Collection) issues are now closed:
 - `npm run check-repetition -- --input=samples/with-repetition.json` - fails with detailed output
 - `npm run check-repetition -- --input=samples/clean.json` - passes
 
+### 2026-01-18 - Issue #27: Readability scoring system
+
+**Completed:**
+- Created readability scoring script `scripts/quality/check-readability.ts`:
+  - Implements Flesch-Kincaid Reading Ease formula
+  - Score range: 0-100 (higher = easier to read)
+  - Target range: 60-70 (8th-9th grade level)
+- Configurable thresholds:
+  - Default: fail if score below 50 (too complex) or above 80 (too simple)
+  - CLI flags: `--min=<n>` and `--max=<n>`
+- Per-section breakdown:
+  - Optional `--per-section` flag for detailed analysis
+  - Reports status per section (pass/too_complex/too_simple)
+- Utility functions exported for programmatic use:
+  - `countSyllables()` - syllable counting with silent-e handling
+  - `countSentences()` - sentence detection
+  - `countWords()` - word counting
+  - `calculateFleschKincaid()` - core formula
+  - `analyzeReadability()` - full analysis function
+- Created sample test files:
+  - `samples/good-readability.json` - balanced content (score ~78, PASS)
+  - `samples/complex.json` - academic language (score 0, FAIL - too complex)
+  - `samples/simple.json` - very simple language (score 100, FAIL - too simple)
+- Added npm script: `npm run check-readability`
+
+**Tests Added:**
+- 38 tests covering:
+  - Syllable counting (single, multi-syllable, silent-e, edge cases)
+  - Sentence counting (single, multiple, no punctuation)
+  - Word counting
+  - Flesch-Kincaid calculation (simple, complex, clamping)
+  - Full analysis (pass/fail, thresholds, per-section, block types)
+  - Integration with sample files
+
+**Verification:**
+- `npm run lint` - passes with no errors
+- `npm run type-check` - passes with no errors
+- `npm run build` - successful production build
+- `npm test` - 576 passed, 2 todo (38 new tests)
+- `npm run check-readability -- --input=samples/good-readability.json` - Exit 0 (PASS, score 78.5)
+- `npm run check-readability -- --input=samples/complex.json` - Exit 1 (FAIL - too complex)
+- `npm run check-readability -- --input=samples/simple.json` - Exit 1 (FAIL - too simple)
+
 ---
 
 ## Stage 1 Complete

@@ -1,0 +1,64 @@
+{
+  "id": "sample-good-readability",
+  "slug": "sample-good-readability",
+  "type": "company",
+  "title": "Sample Good Readability Module",
+  "description": "Test module with clear, readable content at 8th-9th grade level",
+  "isPremium": false,
+  "order": 1,
+  "sections": [
+    {
+      "id": "section-1",
+      "title": "Company Overview",
+      "blocks": [
+        {
+          "id": "block-1",
+          "type": "text",
+          "content": "This company started in 2010 and has grown into a major player in the tech world. They focus on building tools that help people work better and faster. Their products are used by millions of people around the globe."
+        },
+        {
+          "id": "block-2",
+          "type": "text",
+          "content": "People who succeed here are curious and willing to learn new things. The company values those who ask good questions and think about problems in new ways. They want team members who can adapt quickly."
+        }
+      ]
+    },
+    {
+      "id": "section-2",
+      "title": "Interview Tips",
+      "blocks": [
+        {
+          "id": "block-3",
+          "type": "tip",
+          "content": "Before your interview, read up on their recent product launches and company news. Knowing what they sell and who buys it will help you make a good impression."
+        },
+        {
+          "id": "block-4",
+          "type": "text",
+          "content": "The technical part of the interview includes coding problems and system design talks. You will write code on a whiteboard or shared screen. Then you will discuss how to build large scale systems. Plan to spend about four hours at the office for on-site interviews."
+        }
+      ]
+    },
+    {
+      "id": "section-3",
+      "title": "What They Want to See",
+      "blocks": [
+        {
+          "id": "block-5",
+          "type": "text",
+          "content": "They want to see how you think through problems. Speak out loud as you work so they can follow your thinking. Ask questions when you need more details. Show that you can break down complex issues into smaller parts."
+        },
+        {
+          "id": "block-6",
+          "type": "checklist",
+          "title": "Before Your Interview",
+          "items": [
+            { "id": "item-1", "text": "Read about the company and its recent news", "required": true },
+            { "id": "item-2", "text": "Practice coding problems for at least two weeks", "required": true },
+            { "id": "item-3", "text": "Write down questions to ask the team", "required": false }
+          ]
+        }
+      ]
+    }
+  ]
+}

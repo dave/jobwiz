@@ -1,0 +1,43 @@
+{
+  "id": "sample-simple",
+  "slug": "sample-simple",
+  "type": "company",
+  "title": "Sample Simple Module",
+  "description": "Test module with overly simple content",
+  "isPremium": false,
+  "order": 1,
+  "sections": [
+    {
+      "id": "section-1",
+      "title": "The Job",
+      "blocks": [
+        {
+          "id": "block-1",
+          "type": "text",
+          "content": "It is fun. You can do it. Go in. Say hi. Be nice. Smile. Sit up. Look up. Act cool."
+        },
+        {
+          "id": "block-2",
+          "type": "text",
+          "content": "Do good. Be smart. Try hard. Win. Get it. Yes. You can. Go go go."
+        }
+      ]
+    },
+    {
+      "id": "section-2",
+      "title": "Tips",
+      "blocks": [
+        {
+          "id": "block-3",
+          "type": "tip",
+          "content": "Be on time. Say yes. Nod. Smile a lot."
+        },
+        {
+          "id": "block-4",
+          "type": "text",
+          "content": "Do it now. Go for it. Try it out. Have fun. Win big."
+        }
+      ]
+    }
+  ]
+}
