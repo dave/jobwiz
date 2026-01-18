@@ -2,9 +2,9 @@
 
 ## Current Status
 **Last Updated:** 2026-01-17
-**Tasks Completed:** 5
+**Tasks Completed:** 6
 **Stage 1:** COMPLETE (All 4 issues closed)
-**Stage 2:** IN PROGRESS (1 of 4 sub-issues complete)
+**Stage 2:** IN PROGRESS (2 of 4 sub-issues complete for #7)
 **Current Task:** None
 
 ---
@@ -150,6 +150,40 @@
 
 **Screenshot:**
 - `screenshots/journey-state-management.png` - Demo page
+
+### 2026-01-17 - Issue #46: Step Navigation Logic
+
+**Completed:**
+- Verified existing `StepNavigation` component at `src/components/journey/StepNavigation.tsx`
+- All acceptance criteria already implemented:
+  - Next button advances to next step via `nextStep()`
+  - Back button returns to previous step via `prevStep()`
+  - First step: back button hidden (`!isFirstStep` condition)
+  - Last step: shows "Complete" instead of "Continue" (`isLastStep` condition)
+  - Required steps block advancement (`canAdvance` checks `currentStep.required`)
+  - Keyboard navigation: Enter = next, Escape = back
+- Created comprehensive test suite: `src/components/journey/__tests__/StepNavigation.test.tsx`
+- Added journey demo page: `src/app/journey-demo/page.tsx`
+
+**Tests Added:**
+- 22 new tests for StepNavigation component covering:
+  - Next/back button callbacks and navigation
+  - Back hidden on first step
+  - Complete button on last step
+  - Disabled state when required step incomplete
+  - Keyboard navigation (Enter/Escape)
+  - Accessibility (aria-labels, touch targets)
+
+**Verification:**
+- `npm run lint` - passes with no errors
+- `npm run type-check` - passes with no errors
+- `npm run build` - successful production build
+- `npm test` - 229 tests pass (added 22 new tests)
+
+**Screenshots:**
+- `screenshots/46-step-navigation-first.png` - First step, back button hidden
+- `screenshots/46-step-navigation-second-disabled.png` - Required step, continue disabled
+- `screenshots/46-step-navigation-last-complete.png` - Last step with Complete button
 
 ---
 
