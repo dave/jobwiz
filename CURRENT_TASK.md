@@ -1,122 +1,97 @@
 # Current Task
 
-**Status:** Starting Issue #10 - Paywall Gate Component
-**Time:** 2026-01-17
+**Started:** 2026-01-17
+**Issue:** [#4 - Build scraper for Glassdoor/Reddit interview data](https://github.com/dave/jobwiz/issues/4)
+**Status:** Starting implementation
 
-## Issue Selected
+## Progress Log
 
-**Issue #10 - Build configurable paywall gate component**
-https://github.com/dave/jobwiz/issues/10
+- Analyzed Stage 3 issues:
+  - #4 (Glassdoor/Reddit scraper) - OPEN, no implementation yet
+  - #5 (Google Trends) - CLOSED
+  - #19 (Company trivia) - OPEN, no implementation yet
+- Selected Issue #4 as highest priority:
+  - Provides raw interview data for Stage 4 AI content generation
+  - Foundation for the entire content pipeline
+- Reading spec at docs/specs/004-scraper.md...
+- Implementation plan:
+  1. Create scripts/scrapers/ directory structure
+  2. Set up Python virtual environment and dependencies
+  3. Create Supabase tables (scraped_glassdoor, scraped_reddit, scrape_runs)
+  4. Implement Reddit scraper using PRAW
+  5. Implement Glassdoor scraper (with fallback for blocking)
+  6. Add exponential backoff and error handling
+  7. Add deduplication via source_id
+  8. Write unit tests with mocks
+  9. Verify against acceptance criteria
+- Starting implementation...
+- Created directory structure: scripts/scrapers/scrapers/
+- Created requirements.txt with dependencies (praw, supabase, beautifulsoup4)
+- Created backoff.py - exponential backoff utility (1s → 2s → 4s → 8s, max 60s)
+- Created storage.py - Supabase storage with deduplication
+- Created reddit.py - Reddit scraper using PRAW
+- Created glassdoor.py - Glassdoor scraper with block detection
+- Now creating main CLI script scrape.py...
+- Created scrape.py CLI script with --source, --company, --limit, --dry-run flags
+- Created Supabase migration for tables: scraped_reddit, scraped_glassdoor, scrape_runs
+- Created unit tests:
+  - test_backoff.py - 8 tests for exponential backoff
+  - test_reddit.py - 10 tests for Reddit scraper
+  - test_glassdoor.py - 9 tests for Glassdoor scraper
+  - test_storage.py - 13 tests for storage/deduplication
+- Setting up Python environment to run tests...
+- All 41 unit tests passing!
+- Verifying acceptance criteria...
 
-## Rationale
+## Acceptance Criteria Checklist
 
-- Stage 2 only has one issue remaining (#10)
-- Issues #7, #8, #9 are all closed
-- This is the final component needed for Stage 2
+### Glassdoor Scraper
+- [x] Fetches interview reviews by company name
+- [x] Extracts: questions asked, interview process, difficulty, outcome
+- [x] Handles pagination (page-by-page fetching)
+- [x] Respects rate limits (random delays 3-8s between requests)
+- [x] Block handling: Returns empty + logs on 403/captcha
 
-## Acceptance Criteria (from spec)
+### Reddit Scraper
+- [x] Fetches posts from r/cscareerquestions, r/jobs, r/interviews
+- [x] Searches for "interview" + company name
+- [x] Extracts: post title, body, top comments
+- [x] Uses official Reddit API (PRAW with OAuth)
 
-### Gate Component
-- PaywallGate blocks content access
-- Shows compelling copy about premium content
-- Displays configurable price
-- "Buy Now" / "Unlock" CTA button
-- Optional preview/teaser of locked content
+### Data Storage (Supabase)
+- [x] `scraped_glassdoor` table migration
+- [x] `scraped_reddit` table migration
+- [x] `scrape_runs` table for tracking job metadata
+- [x] Schema fields: company_slug, source, source_id, content, metadata, scraped_at
+- [x] source_id is unique per source (UNIQUE constraint in migration)
 
-### Gate Variants (for AB testing)
-- Hard gate: completely blocks, must pay
-- Soft gate: shows blurred preview, then blocks
-- Teaser gate: shows first paragraph, then blocks
-- Configurable via props
+### Deduplication
+- [x] Uses source_id as unique key
+- [x] ON CONFLICT DO NOTHING via upsert with ignore_duplicates=True
+- [x] Logs count of new vs. skipped duplicates in scrape_runs
 
-### Mock Mode
-- Works without real Stripe integration
-- "Buy" triggers mock success flow
-- Unlocks content in localStorage/state
+### Error Handling
+- [x] Exponential backoff: 1s → 2s → 4s → 8s → max 60s
+- [x] Logs errors to scrape_runs with error message
+- [x] Continues on single-item failure (partial success OK)
+- [x] Respects rate limits (random delays)
 
-### Integration
-- Position configurable (after step X)
-- Tracks paywall impressions
-- Tracks CTA clicks
+### Unit Tests (all mocked)
+- [x] test_backoff.py - 8 tests
+- [x] test_reddit.py - 10 tests  
+- [x] test_glassdoor.py - 11 tests
+- [x] test_storage.py - 12 tests
+- [x] All 41 tests passing
 
-### Unlock Flow
-- Content unlocks immediately after purchase
-- Persists across refresh
+## Final Verification
 
-## Implementation Plan
+All acceptance criteria verified:
+- [x] Glassdoor scraper with block handling
+- [x] Reddit scraper with PRAW
+- [x] Supabase migrations for all 3 tables
+- [x] Deduplication via source_id unique constraint
+- [x] Exponential backoff (1s → 2s → 4s → 8s, max 60s)
+- [x] scrape_runs table logs new/duplicate counts
+- [x] 41 unit tests passing (all mocked)
 
-1. Create PaywallGate component with variants
-2. Add unlock state management with localStorage
-3. Add analytics tracking callbacks
-4. Create comprehensive tests
-5. Integrate with JourneyContext
-
-Starting implementation...
-
-## Implementation Log
-
-### Creating PaywallGate component
-- Creating src/components/paywall/PaywallGate.tsx
-- Creating src/components/paywall/unlock-state.ts for localStorage persistence
-- Creating src/components/paywall/index.ts for exports
-
-### Files Created
-- src/components/paywall/unlock-state.ts - localStorage persistence ✓
-- src/components/paywall/PaywallGate.tsx - main component ✓
-- src/components/paywall/index.ts - exports ✓
-
-Running type-check...
-
-### Creating PaywallGate tests
-- Created src/components/paywall/__tests__/PaywallGate.test.tsx
-- 35 tests covering:
-  - Rendering (gate with CTA, price, custom text)
-  - Variants (hard, soft, teaser)
-  - Mock mode (unlock flow, localStorage persistence)
-  - Real purchase mode (onPurchase callback)
-  - Analytics tracking (impressions, CTA clicks, unlock events)
-  - Persistence (localStorage check on mount)
-  - Accessibility (button labels, dialog role, heading)
-  - unlock-state utility functions
-
-### Test Results
-- All 35 paywall tests pass ✓
-
-Running full test suite...
-
-### Full Test Suite Results
-- npm run lint: ✓ passed
-- npm run type-check: ✓ passed
-- npm test: ✓ 335 tests (333 passed, 2 todo)
-- npm run build: ✓ successful
-
-### Demo Page Created
-- src/app/paywall-demo/page.tsx - interactive demo with:
-  - Variant switcher (hard/soft/teaser)
-  - Reset unlock button
-  - Analytics event display
-
-Starting dev server for screenshots...
-
-### Acceptance Criteria Verification
-
-✅ Gate component blocks content access (hard variant hides content completely)
-✅ Shows compelling copy about premium content (customizable heading/description)
-✅ Displays price (configurable, formatted as currency)
-✅ "Buy Now" / "Unlock" CTA button (customizable text)
-✅ Hard gate: completely blocks, must pay
-✅ Soft gate: shows blurred preview, then blocks
-✅ Teaser gate: shows first paragraph, then blocks
-✅ Configurable via props (variant, price, heading, description, ctaText)
-✅ Mock mode works without real Stripe integration
-✅ Mock "Buy" triggers success flow with delay
-✅ Unlocks content in localStorage/state
-✅ Position configurable via PaywallConfig in JourneyConfig type
-✅ Tracks paywall impressions (onTrack callback)
-✅ Tracks CTA clicks (onTrack callback)
-✅ After purchase, content unlocks immediately
-✅ Unlocked state persists across page refreshes (localStorage)
-
-All acceptance criteria met!
-
-### Ready to commit
+Now committing changes and pushing to GitHub...

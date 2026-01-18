@@ -33,3 +33,5 @@ coverage/
 # Vercel
 .vercel
 tsconfig.tsbuildinfo
+scripts/scrapers/**/__pycache__/
+scripts/scrapers/venv/

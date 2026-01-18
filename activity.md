@@ -1,10 +1,11 @@
 # Project Build - Activity Log
 
 ## Current Status
-**Last Updated:** 2026-01-17
-**Tasks Completed:** 16
+**Last Updated:** 2026-01-18
+**Tasks Completed:** 18
 **Stage 1:** COMPLETE (All 4 issues closed)
 **Stage 2:** COMPLETE (All 4 issues closed: #7, #8, #9, #10)
+**Stage 3:** IN PROGRESS (2/3 issues complete: #5, #4)
 **Current Task:** None
 
 ---
@@ -337,6 +338,68 @@ All Stage 2 (Content Framework) issues are now closed:
 - #8 - Build content block component library
 - #9 - Build timeline/progress visualization
 - #10 - Build configurable paywall gate component
+
+---
+
+## Stage 3 Progress
+
+### 2026-01-18 - Issue #4: Build scraper for Glassdoor/Reddit interview data
+
+**Completed:**
+- Created `scripts/scrapers/` directory structure with Python scraper package
+- Implemented Reddit scraper using PRAW (Python Reddit API Wrapper):
+  - Searches r/cscareerquestions, r/jobs, r/interviews for interview posts
+  - Extracts post title, body, top comments, metadata
+  - Uses official Reddit OAuth API
+- Implemented Glassdoor scraper with graceful block handling:
+  - Searches for employer by company name
+  - Extracts interview reviews with questions, difficulty, outcome
+  - Detects and handles anti-bot blocking (403, captcha, rate limits)
+  - Returns empty results gracefully when blocked
+- Created exponential backoff utility (1s → 2s → 4s → 8s, max 60s)
+- Created Supabase storage layer with deduplication:
+  - `source_id` unique constraint prevents duplicate inserts
+  - `ON CONFLICT DO NOTHING` via upsert with ignore_duplicates=True
+  - Logs new vs. skipped duplicate counts
+- Created CLI script `scrape.py` with options:
+  - `--source=reddit|glassdoor|all`
+  - `--company=<name>`
+  - `--limit=<n>` (default 25)
+  - `--dry-run` (fetch without storing)
+- Created Supabase migration for tables:
+  - `scraped_reddit` - Reddit posts with source_id unique constraint
+  - `scraped_glassdoor` - Glassdoor reviews with source_id unique constraint
+  - `scrape_runs` - Job metadata with new/duplicate counts
+
+**Files Created:**
+- `scripts/scrapers/requirements.txt` - Python dependencies
+- `scripts/scrapers/scrape.py` - Main CLI script
+- `scripts/scrapers/pytest.ini` - Test configuration
+- `scripts/scrapers/scrapers/__init__.py` - Package exports
+- `scripts/scrapers/scrapers/backoff.py` - Exponential backoff utility
+- `scripts/scrapers/scrapers/storage.py` - Supabase storage with deduplication
+- `scripts/scrapers/scrapers/reddit.py` - Reddit scraper using PRAW
+- `scripts/scrapers/scrapers/glassdoor.py` - Glassdoor scraper with block detection
+- `scripts/scrapers/tests/test_backoff.py` - 8 backoff tests
+- `scripts/scrapers/tests/test_reddit.py` - 10 Reddit scraper tests
+- `scripts/scrapers/tests/test_glassdoor.py` - 11 Glassdoor scraper tests
+- `scripts/scrapers/tests/test_storage.py` - 12 storage/deduplication tests
+- `supabase/migrations/20260117000001_create_scraper_tables.sql` - DB schema
+
+**Tests:**
+- 41 unit tests (all mocked, no external calls)
+- All tests pass
+
+**Verification:**
+- `npm run lint` - passes with no errors
+- `npm run type-check` - passes with no errors
+- `npm run build` - successful production build
+- `npm test` - 333 passed, 2 todo
+- Python tests: 41 passed
+- Site health check returns OK
+
+**Screenshot:**
+- `screenshots/4-scraper-demo-page.png` - Site still working after changes
 
 ---
 

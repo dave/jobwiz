@@ -1,0 +1,19 @@
+# Reddit API client
+praw>=7.7.1
+
+# Supabase Python client
+supabase>=2.0.0
+
+# HTTP requests
+requests>=2.31.0
+
+# HTML parsing (for Glassdoor)
+beautifulsoup4>=4.12.0
+lxml>=5.0.0
+
+# Testing
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+
+# Type hints
+python-dotenv>=1.0.0
