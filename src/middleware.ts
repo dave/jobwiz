@@ -62,6 +62,11 @@ function isPublicRoute(path: string): boolean {
     return true;
   }
 
+  // Journey learn page: /[company]/[role]/journey/learn (four segments)
+  if (segments.length === 4 && segments[2] === "journey" && segments[3] === "learn") {
+    return true;
+  }
+
   return false;
 }
 
