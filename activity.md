@@ -7,8 +7,8 @@
 **Stage 2:** COMPLETE (All 4 issues closed: #7, #8, #9, #10)
 **Stage 3:** COMPLETE (All 3 issues closed: #4, #5, #19)
 **Stage 4:** COMPLETE (All issues closed: #14, #11, #12, #13, #15, #16, #18)
-**Stage 5:** IN PROGRESS (#20 closed, #21 in progress - sub-issues #56, #58 complete)
-**Current Task:** #56 Auth UI components - COMPLETE
+**Stage 5:** IN PROGRESS (#20 closed, #21 in progress - sub-issues #56, #57, #58 complete)
+**Current Task:** #57 Protected route middleware - COMPLETE
 
 ---
 
@@ -1536,3 +1536,71 @@ All Stage 1 (Foundation) issues are now closed:
 - #6 - Module schema + position matrix
 - #47 - Journey config schema
 - #55 - Supabase project setup
+
+### 2026-01-18 - Issue #57: Protected route middleware
+
+**Completed:**
+- Created auth context and provider `src/lib/auth/`:
+  - `types.ts` - AuthUser, AuthState, AccessState, RouteConfig types
+  - `context.tsx` - AuthProvider with session management, signOut, refreshSession
+  - `hooks.ts` - useAuth, useAccess, useRequireAuth, useRequireAccess hooks
+  - `index.ts` - Re-exports
+- Created Next.js middleware `src/middleware.ts`:
+  - Route protection for authenticated routes (/dashboard, /profile)
+  - Route protection for purchased routes (/[company]/[role]/journey)
+  - Public routes (/, /login, /signup, /forgot-password, /auth/callback)
+  - Company/role landing pages are public
+  - Redirect to /login with returnTo parameter
+  - Check access_grants table for purchase verification
+- Created protected pages:
+  - `/dashboard` - Authenticated users only
+  - `/profile` - User profile page with sign out
+  - `/[company]/[role]/journey` - Purchase-protected journey page
+- Created client providers wrapper `src/app/providers.tsx`
+- Updated root layout to include AuthProvider
+
+**Files Created:**
+- `src/lib/auth/types.ts`
+- `src/lib/auth/context.tsx`
+- `src/lib/auth/hooks.ts`
+- `src/lib/auth/index.ts`
+- `src/middleware.ts`
+- `src/app/providers.tsx`
+- `src/app/dashboard/page.tsx`
+- `src/app/dashboard/DashboardContent.tsx`
+- `src/app/profile/page.tsx`
+- `src/app/profile/ProfileContent.tsx`
+- `src/app/[company]/[role]/journey/page.tsx`
+- `src/app/[company]/[role]/journey/JourneyContent.tsx`
+- `src/lib/auth/__tests__/types.test.ts`
+- `src/lib/auth/__tests__/context.test.tsx`
+- `src/lib/auth/__tests__/hooks.test.tsx`
+- `src/__tests__/middleware.test.ts`
+
+**Tests:**
+- 57 test suites pass, 1318 tests pass (2 todo)
+- Tests cover:
+  - transformUser function (5 tests)
+  - AuthProvider context (10 tests)
+  - useAuth, useAccess, useRequireAuth hooks (16 tests)
+  - Route pattern matching (26 tests)
+
+**Verification:**
+- `npm run lint` - passes with no errors
+- `npm run type-check` - passes with no errors
+- `npm run build` - successful production build
+- `npm test` - 1318 passed, 2 todo
+- All acceptance criteria verified:
+  - Middleware checks auth for protected routes
+  - Unauthenticated users redirect to /login
+  - Unauthorized users redirect to paywall (landing page)
+  - Route levels: public, authenticated, purchased all working
+  - useAuth() returns {user, session, loading, error}
+  - useAccess(company, role) returns {hasAccess, loading, error}
+  - useRequireAuth() redirects if not logged in
+  - Session refresh on page load
+  - Redirect back to original page after login (via redirectTo param)
+
+**Screenshots:**
+- `screenshots/login-redirect-from-dashboard.png` - Login redirect with returnTo param
+- `screenshots/public-landing-page.png` - Public landing page accessible
