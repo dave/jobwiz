@@ -1,12 +1,14 @@
 /**
  * AB Testing Module
  * Issue: #41 - User bucketing system
+ * Issue: #42 - Variant assignment + storage
  *
  * Provides user bucketing for AB tests with:
  * - Deterministic bucketing using MD5 hash
  * - Anonymous user ID via cookies
  * - Logged in user ID from Supabase
  * - Sticky bucketing via localStorage
+ * - Supabase persistence for experiments and assignments
  */
 
 // Types
@@ -21,6 +23,17 @@ export type {
   StoredVariant,
   UserIdSource,
   UserIdResult,
+  // #42 Types
+  ExperimentStatus,
+  TrafficSplit,
+  Experiment,
+  ExperimentRow,
+  AssignmentSource,
+  VariantAssignmentRecord,
+  VariantAssignmentRow,
+  CreateExperimentInput,
+  CreateVariantAssignmentInput,
+  GetVariantResult,
 } from "./types";
 
 export {
@@ -72,3 +85,48 @@ export {
 export type { VariantAssigner } from "./sticky-bucketing";
 
 export type { CookieOptions } from "./user-id";
+
+// #42: Experiments Storage
+export {
+  transformExperimentRow,
+  validateTrafficSplit,
+  validateVariantsMatchSplit,
+  getExperiment,
+  getExperimentById,
+  getAllExperiments,
+  getRunningExperiments,
+  createExperiment,
+  updateExperimentStatus,
+  updateExperimentTrafficSplit,
+  deleteExperiment,
+  experimentExists,
+} from "./experiments";
+
+// #42: Variant Assignments Storage
+export {
+  transformAssignmentRow,
+  getAssignment,
+  getAssignmentByName,
+  getUserAssignments,
+  createAssignment,
+  upsertAssignment,
+  deleteAssignment,
+  getVariantForUser,
+  forceAssignVariant as forceAssignVariantDB,
+  syncLocalAssignment,
+  getExperimentStats,
+} from "./assignments";
+
+// #42: Unified Variant Provider
+export {
+  getUnifiedVariant,
+  getVariantForAnonymous,
+  syncAllVariantsToSupabase,
+  getVariantWithSplit,
+  preloadExperiment,
+} from "./variant-provider";
+
+export type {
+  GetVariantOptions,
+  UnifiedVariantResult,
+} from "./variant-provider";

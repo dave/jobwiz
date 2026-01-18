@@ -2,13 +2,13 @@
 
 ## Current Status
 **Last Updated:** 2026-01-18
-**Tasks Completed:** 38
+**Tasks Completed:** 39
 **Stage 1:** COMPLETE (All 4 issues closed)
 **Stage 2:** COMPLETE (All 4 issues closed: #7, #8, #9, #10)
 **Stage 3:** COMPLETE (All 3 issues closed: #4, #5, #19)
 **Stage 4:** COMPLETE (All issues closed: #14, #11, #12, #13, #15, #16, #18)
-**Stage 5:** IN PROGRESS (#20 closed, #21 closed, #22 closed, #24 in progress - sub-issue #41 complete)
-**Current Task:** #41 User bucketing system - COMPLETE
+**Stage 5:** IN PROGRESS (#20 closed, #21 closed, #22 closed, #24 in progress - sub-issues #41, #42 complete)
+**Current Task:** #42 Variant assignment + storage - COMPLETE
 
 ---
 
@@ -1876,3 +1876,92 @@ All Stage 1 (Foundation) issues are now closed:
 
 **Screenshot:**
 - `screenshots/41-user-bucketing-paywall-demo.png` - Paywall demo showing variant system
+
+### 2026-01-18 - Issue #42: Variant assignment + storage
+
+**Completed:**
+- Created Supabase migration for AB testing tables:
+  - `supabase/migrations/20260118000009_create_ab_testing_tables.sql`
+  - `experiments` table with id, name, variants (jsonb), traffic_split (jsonb), status, timestamps
+  - `variant_assignments` table with user_id, experiment_id, variant, bucket, source
+  - RLS policies for user and admin access
+  - Seed data for default paywall_test experiment
+- Created TypeScript types in `src/lib/ab-testing/types.ts`:
+  - `ExperimentStatus` - draft, running, concluded
+  - `TrafficSplit` - Record<VariantName, number>
+  - `Experiment`, `ExperimentRow` - experiment configuration
+  - `VariantAssignmentRecord`, `VariantAssignmentRow` - assignment data
+  - `CreateExperimentInput`, `CreateVariantAssignmentInput` - input types
+  - `GetVariantResult` - unified result type
+- Created experiments storage module `src/lib/ab-testing/experiments.ts`:
+  - `getExperiment(name)` - returns experiment config
+  - `getExperimentById(id)` - returns experiment by ID
+  - `getAllExperiments()` - returns all experiments with optional status filter
+  - `getRunningExperiments()` - returns active experiments
+  - `createExperiment()` - creates new experiment with validation
+  - `updateExperimentStatus()` - updates experiment status
+  - `updateExperimentTrafficSplit()` - updates traffic allocation
+  - `deleteExperiment()` - removes experiment
+  - `experimentExists()` - checks existence
+  - `validateTrafficSplit()` - validates split sums to 100
+  - `validateVariantsMatchSplit()` - validates variants match split keys
+- Created assignments storage module `src/lib/ab-testing/assignments.ts`:
+  - `getAssignment()` - gets assignment by user and experiment ID
+  - `getAssignmentByName()` - gets assignment by experiment name
+  - `getUserAssignments()` - gets all assignments for user
+  - `createAssignment()` - creates new assignment
+  - `upsertAssignment()` - creates or updates assignment
+  - `deleteAssignment()` - removes assignment
+  - `getVariantForUser()` - main function with status handling
+  - `forceAssignVariant()` - admin override
+  - `syncLocalAssignment()` - syncs localStorage to Supabase
+  - `getExperimentStats()` - returns variant counts
+- Created variant provider module `src/lib/ab-testing/variant-provider.ts`:
+  - `getUnifiedVariant()` - combines localStorage + Supabase
+  - `getVariantForAnonymous()` - local-only variant assignment
+  - `syncAllVariantsToSupabase()` - bulk sync on login
+  - `getVariantWithSplit()` - custom traffic splits
+  - `preloadExperiment()` - preload experiment config
+- Updated index.ts to export all new functions and types
+
+**Experiment Status Handling:**
+- `draft`: Returns null, no assignments allowed
+- `running`: Returns existing or creates new assignment
+- `concluded`: Returns existing assignment only, no new assignments
+
+**Files Created:**
+- `supabase/migrations/20260118000009_create_ab_testing_tables.sql`
+- `src/lib/ab-testing/experiments.ts`
+- `src/lib/ab-testing/assignments.ts`
+- `src/lib/ab-testing/variant-provider.ts`
+- `src/lib/ab-testing/__tests__/experiments.test.ts`
+- `src/lib/ab-testing/__tests__/assignments.test.ts`
+- `src/lib/ab-testing/__tests__/variant-provider.test.ts`
+
+**Tests:**
+- 60 new tests covering:
+  - Experiment CRUD operations (25 tests)
+  - Assignment CRUD operations (24 tests)
+  - Variant provider unified interface (27 tests)
+  - Status-based behavior (draft, running, concluded)
+  - Traffic split validation
+  - Local sync to Supabase
+  - Force assignment
+
+**Verification:**
+- `npm run lint` - passes with no errors
+- `npm run build` - successful production build
+- `npm test` - 1671 passed, 2 todo (60 new tests)
+- All acceptance criteria verified:
+  - experiments table created ✓
+  - variant_assignments table created ✓
+  - getExperiment(name) returns config ✓
+  - getVariantForUser(userId, experimentName) returns variant ✓
+  - assignVariant via createAssignment ✓
+  - Respects traffic split percentages ✓
+  - draft: no assignments ✓
+  - running: assigns variants ✓
+  - concluded: returns existing only ✓
+
+**Screenshot:**
+- `screenshots/42-variant-assignment-paywall-demo.png` - Paywall demo showing variant system

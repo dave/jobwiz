@@ -109,3 +109,136 @@ export interface UserIdResult {
   /** Source of the user ID */
   source: UserIdSource;
 }
+
+// =====================================================
+// Issue #42: Experiment and Variant Storage Types
+// =====================================================
+
+/**
+ * Experiment status
+ * - draft: not active, no assignments allowed
+ * - running: active, assigns variants
+ * - concluded: no new assignments, keep existing
+ */
+export type ExperimentStatus = "draft" | "running" | "concluded";
+
+/**
+ * Traffic split configuration - maps variant names to percentages
+ */
+export type TrafficSplit = Record<VariantName, number>;
+
+/**
+ * Experiment configuration stored in Supabase
+ */
+export interface Experiment {
+  /** Unique identifier */
+  id: string;
+  /** Experiment name (unique key for lookups) */
+  name: ExperimentName;
+  /** Description of the experiment */
+  description: string | null;
+  /** Array of variant names */
+  variants: VariantName[];
+  /** Traffic allocation percentages */
+  trafficSplit: TrafficSplit;
+  /** Current status */
+  status: ExperimentStatus;
+  /** Creation timestamp */
+  createdAt: string;
+  /** Last update timestamp */
+  updatedAt: string;
+}
+
+/**
+ * Database row for experiment (snake_case)
+ */
+export interface ExperimentRow {
+  id: string;
+  name: string;
+  description: string | null;
+  variants: string[];
+  traffic_split: Record<string, number>;
+  status: string;
+  created_at: string;
+  updated_at: string;
+}
+
+/**
+ * Source of variant assignment
+ */
+export type AssignmentSource = "calculated" | "forced" | "localStorage";
+
+/**
+ * Variant assignment stored in Supabase
+ */
+export interface VariantAssignmentRecord {
+  /** Unique identifier */
+  id: string;
+  /** User ID (anonymous or auth) */
+  userId: UserId;
+  /** Experiment ID (foreign key) */
+  experimentId: string;
+  /** Experiment name (denormalized) */
+  experimentName: ExperimentName;
+  /** Assigned variant */
+  variant: VariantName;
+  /** Bucket number used for assignment (-1 for forced) */
+  bucket: BucketNumber;
+  /** How the assignment was made */
+  source: AssignmentSource;
+  /** Assignment timestamp */
+  assignedAt: string;
+}
+
+/**
+ * Database row for variant assignment (snake_case)
+ */
+export interface VariantAssignmentRow {
+  id: string;
+  user_id: string;
+  experiment_id: string;
+  experiment_name: string;
+  variant: string;
+  bucket: number;
+  source: string;
+  assigned_at: string;
+}
+
+/**
+ * Input for creating a new experiment
+ */
+export interface CreateExperimentInput {
+  name: ExperimentName;
+  description?: string;
+  variants: VariantName[];
+  trafficSplit: TrafficSplit;
+  status?: ExperimentStatus;
+}
+
+/**
+ * Input for creating a variant assignment
+ */
+export interface CreateVariantAssignmentInput {
+  userId: UserId;
+  experimentId: string;
+  experimentName: ExperimentName;
+  variant: VariantName;
+  bucket: BucketNumber;
+  source?: AssignmentSource;
+}
+
+/**
+ * Result of getting variant for user
+ */
+export interface GetVariantResult {
+  /** Assigned variant (null if experiment not running or no assignment for concluded) */
+  variant: VariantName | null;
+  /** Full assignment record (null if no assignment) */
+  assignment: VariantAssignmentRecord | null;
+  /** Experiment configuration */
+  experiment: Experiment | null;
+  /** Whether this is a new assignment */
+  isNew: boolean;
+  /** Error if any occurred */
+  error?: string;
+}
