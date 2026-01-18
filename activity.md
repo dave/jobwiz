@@ -1,10 +1,10 @@
 # Project Build - Activity Log
 
 ## Current Status
-**Last Updated:** 2026-01-17
-**Tasks Completed:** 6
+**Last Updated:** 2026-01-18
+**Tasks Completed:** 7
 **Stage 1:** COMPLETE (All 4 issues closed)
-**Stage 2:** IN PROGRESS (2 of 4 sub-issues complete for #7)
+**Stage 2:** IN PROGRESS (3 of 4 sub-issues complete for #7)
 **Current Task:** None
 
 ---
@@ -184,6 +184,44 @@
 - `screenshots/46-step-navigation-first.png` - First step, back button hidden
 - `screenshots/46-step-navigation-second-disabled.png` - Required step, continue disabled
 - `screenshots/46-step-navigation-last-complete.png` - Last step with Complete button
+
+### 2026-01-18 - Issue #48: Journey Mobile Responsive Layout
+
+**Completed:**
+- Enhanced `JourneyContainer` with responsive layouts:
+  - Mobile (<640px): full-screen steps, bottom navigation
+  - Tablet (640-1024px): similar to mobile layout
+  - Desktop (>1024px): sidebar with Timeline component
+  - Added `showSidebar` prop (default: true)
+- Added Tailwind animations:
+  - `slideInRight` and `slideInLeft` for directional transitions
+  - Explicit screen breakpoints (sm, md, lg, xl)
+- Added reduced motion support:
+  - CSS `prefers-reduced-motion` media query in globals.css
+  - `motion-safe:` prefix on animation classes
+  - `safe-area-inset-bottom` support for notched devices
+- Created comprehensive test suite: `src/components/journey/__tests__/JourneyContainer.test.tsx`
+
+**Tests Added:**
+- 22 new tests for JourneyContainer covering:
+  - Rendering (header, progress bar, navigation, children)
+  - Sidebar behavior (show/hide, timeline in sidebar)
+  - Accessibility (aria-labels, roles, aria-current)
+  - Touch targets (44px minimum verified)
+  - Responsive classes (flex direction, padding, hidden states)
+  - Animations (motion-safe classes)
+  - onComplete callback
+
+**Verification:**
+- `npm run lint` - passes with no errors
+- `npm run type-check` - passes with no errors
+- `npm run build` - successful production build
+- `npm test` - 251 tests pass (added 22 new tests)
+
+**Screenshots:**
+- `screenshots/48-responsive-desktop.png` - Desktop with sidebar timeline
+- `screenshots/48-responsive-tablet.png` - Tablet layout (similar to mobile)
+- `screenshots/48-responsive-mobile.png` - Mobile full-screen layout
 
 ---
 
