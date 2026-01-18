@@ -1,0 +1,102 @@
+{
+  "slug": "industry-consulting",
+  "type": "industry",
+  "title": "Consulting Industry Interview Guide",
+  "description": "Master the case interview and demonstrate the structured thinking consultants prize.",
+  "industry": "consulting",
+  "is_premium": false,
+  "display_order": 3,
+  "sections": [
+    {
+      "id": "culture",
+      "title": "Consulting Culture & Mindset",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {"text": "Consulting firms sell expertise and problem-solving. Every interview assesses whether you can think on your feet, structure ambiguous problems, and communicate with executive presence."}
+        },
+        {
+          "type": "text",
+          "content": {"text": "**Core consulting values:**\n\n- **Structured thinking** - Break complex problems into components\n- **Hypothesis-driven** - Form a view early, then test it\n- **Client-first** - Everything serves the client's interests\n- **Up-or-out mentality** - Continuous growth is mandatory\n- **Polished communication** - Clear, confident, executive-ready"}
+        },
+        {
+          "type": "tip",
+          "content": {"text": "Consulting interviewers often have 10+ interviews per day during recruiting season. Make your answers crisp and memorable. Rambling is a red flag."}
+        }
+      ]
+    },
+    {
+      "id": "case-interview",
+      "title": "The Case Interview",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {"text": "Case interviews are the cornerstone of consulting recruiting. You'll analyze a business problem in real-time while the interviewer observes your thinking process."}
+        },
+        {
+          "type": "checklist",
+          "content": {
+            "title": "Case Interview Framework",
+            "items": [
+              {"id": "c1", "text": "Listen carefully and take notes on the prompt", "required": true},
+              {"id": "c2", "text": "Ask 2-3 clarifying questions", "required": true},
+              {"id": "c3", "text": "Take a moment to structure your approach", "required": true},
+              {"id": "c4", "text": "Present your framework clearly (use paper)", "required": true},
+              {"id": "c5", "text": "Drive the case forward with hypotheses", "required": true},
+              {"id": "c6", "text": "Synthesize findings into a recommendation", "required": true}
+            ]
+          }
+        },
+        {
+          "type": "warning",
+          "content": {"text": "Don't memorize frameworks. Interviewers can tell when you're forcing a pre-built structure onto a problem. Build custom frameworks based on the specific situation."}
+        }
+      ]
+    },
+    {
+      "id": "fit-interview",
+      "title": "Fit/Behavioral Interview",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {"text": "The 'fit' portion assesses whether you'd be someone clients trust and colleagues enjoy working with. It's often weighted equally with case performance."}
+        },
+        {
+          "type": "text",
+          "content": {"text": "**Common fit questions:**\n\n- Why consulting? Why this firm?\n- Tell me about a time you led a team\n- Describe a conflict and how you resolved it\n- What's your greatest accomplishment?\n- Tell me about yourself (2-minute pitch)"}
+        },
+        {
+          "type": "quiz",
+          "content": {
+            "question": "In consulting interviews, how should you answer 'Why this firm specifically?'",
+            "options": [
+              {"id": "a", "text": "Focus on prestige and ranking", "isCorrect": false},
+              {"id": "b", "text": "Mention specific people you've met, cases you've read, or firm values that resonate", "isCorrect": true},
+              {"id": "c", "text": "Emphasize compensation and exit opportunities", "isCorrect": false},
+              {"id": "d", "text": "Give a generic answer about wanting to solve problems", "isCorrect": false}
+            ],
+            "explanation": "Specificity shows genuine interest. Reference actual conversations with consultants, specific practice areas, or firm initiatives that align with your interests."
+          }
+        }
+      ]
+    },
+    {
+      "id": "math",
+      "title": "Mental Math & Estimation",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {"text": "Cases often include math. You won't have a calculator, and interviewers watch how you handle numbers under pressure."}
+        },
+        {
+          "type": "tip",
+          "content": {"text": "Round numbers aggressively to make mental math easier. $4.7M × 23 is hard. $5M × 20 = $100M is a perfectly acceptable estimate in a case."}
+        },
+        {
+          "type": "text",
+          "content": {"text": "**Market sizing tips:**\n\n- Start with population and work down (US = ~330M)\n- Use logical segmentation (households, age groups, etc.)\n- State assumptions clearly\n- Sanity-check your final answer"}
+        }
+      ]
+    }
+  ]
+}

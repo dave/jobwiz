@@ -1,0 +1,98 @@
+{
+  "slug": "industry-enterprise",
+  "type": "industry",
+  "title": "Enterprise Software Interview Guide",
+  "description": "Navigate B2B software interviews and demonstrate understanding of enterprise sales cycles.",
+  "industry": "enterprise",
+  "is_premium": false,
+  "display_order": 6,
+  "sections": [
+    {
+      "id": "culture",
+      "title": "Enterprise Software Culture",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {"text": "Enterprise software serves businesses, not consumers. This fundamentally changes how products are built, sold, and supported. Long sales cycles, complex implementations, and relationship-driven deals define the landscape."}
+        },
+        {
+          "type": "text",
+          "content": {"text": "**Core enterprise values:**\n\n- **Customer success** - Retention drives growth (land and expand)\n- **Reliability** - Downtime costs customers millions\n- **Security & compliance** - Enterprises won't risk their data\n- **Scalability** - Solutions must work for 10 users or 10,000\n- **Partnership mentality** - Long-term relationships over quick wins"}
+        },
+        {
+          "type": "tip",
+          "content": {"text": "Enterprise companies think in terms of ARR (Annual Recurring Revenue), NRR (Net Revenue Retention), and CAC payback periods. Familiarize yourself with SaaS metrics."}
+        }
+      ]
+    },
+    {
+      "id": "sales-cycle",
+      "title": "Understanding the Enterprise Sale",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {"text": "Even if you're not in sales, understanding how enterprise deals work helps you contribute more effectively to the business."}
+        },
+        {
+          "type": "text",
+          "content": {"text": "**Typical enterprise sales cycle:**\n\n1. **Lead generation** - Marketing, SDRs, referrals\n2. **Discovery** - Understanding customer pain points\n3. **Demo/POC** - Proving value with the product\n4. **Procurement** - Legal, security, compliance reviews\n5. **Negotiation** - Contract terms, pricing\n6. **Implementation** - Onboarding and deployment\n7. **Adoption** - Driving usage and value realization\n8. **Renewal/Expansion** - Growing the account"}
+        },
+        {
+          "type": "warning",
+          "content": {"text": "Enterprise sales cycles often take 6-18 months. Patience and persistence are virtues. Quick-win thinking doesn't translate well from consumer products."}
+        }
+      ]
+    },
+    {
+      "id": "stakeholders",
+      "title": "Navigating Stakeholders",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {"text": "Enterprise decisions involve multiple stakeholders with different priorities. Understanding this complexity shows business maturity."}
+        },
+        {
+          "type": "text",
+          "content": {"text": "**Key buyer personas:**\n\n- **Economic buyer** - Controls budget, cares about ROI\n- **Technical buyer** - Evaluates if it actually works\n- **User buyer** - Will use the product daily\n- **Champion** - Internal advocate who drives the deal\n- **Blocker** - May have competing priorities or solutions"}
+        },
+        {
+          "type": "quiz",
+          "content": {
+            "question": "When prioritizing features for an enterprise product, whose input matters most?",
+            "options": [
+              {"id": "a", "text": "The largest customer by revenue", "isCorrect": false},
+              {"id": "b", "text": "The customer who complains the loudest", "isCorrect": false},
+              {"id": "c", "text": "A balance of input from multiple customers representing different segments", "isCorrect": true},
+              {"id": "d", "text": "Internal stakeholders who understand the product vision", "isCorrect": false}
+            ],
+            "explanation": "Building for one customer creates a services business, not a product. Good enterprise PMs triangulate feedback across customer segments to build scalable solutions."
+          }
+        }
+      ]
+    },
+    {
+      "id": "metrics",
+      "title": "SaaS Metrics That Matter",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {"text": "Enterprise SaaS companies obsess over specific metrics. Know these and how your work connects to them."}
+        },
+        {
+          "type": "checklist",
+          "content": {
+            "title": "Key SaaS Metrics",
+            "items": [
+              {"id": "s1", "text": "ARR/MRR - Annual/Monthly Recurring Revenue", "required": true},
+              {"id": "s2", "text": "NRR - Net Revenue Retention (>100% is great)", "required": true},
+              {"id": "s3", "text": "CAC - Customer Acquisition Cost", "required": true},
+              {"id": "s4", "text": "LTV:CAC ratio - Should be >3:1", "required": true},
+              {"id": "s5", "text": "Churn rate - Percentage of customers who leave", "required": true},
+              {"id": "s6", "text": "Magic Number - Sales efficiency metric", "required": false}
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

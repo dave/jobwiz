@@ -1,0 +1,94 @@
+{
+  "slug": "industry-retail",
+  "type": "industry",
+  "title": "Retail & E-commerce Interview Guide",
+  "description": "Understand the fast-paced, customer-obsessed world of retail and e-commerce.",
+  "industry": "retail",
+  "is_premium": false,
+  "display_order": 5,
+  "sections": [
+    {
+      "id": "culture",
+      "title": "Retail Culture & Values",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {"text": "Retail operates on thin margins with fierce competition. Speed, customer obsession, and operational excellence separate winners from losers. Companies want people who thrive in this intensity."}
+        },
+        {
+          "type": "text",
+          "content": {"text": "**Core retail values:**\n\n- **Customer obsession** - Start with the customer, work backwards\n- **Speed to market** - First-mover advantage matters\n- **Data-driven merchandising** - Decisions backed by sales data\n- **Omnichannel thinking** - Seamless online + offline experience\n- **Cost consciousness** - Every penny of margin counts"}
+        },
+        {
+          "type": "quote",
+          "content": {"text": "There's only one boss: the customer. And they can fire everybody in the company from the chairman on down, simply by spending their money somewhere else.", "author": "Sam Walton, Walmart Founder"}
+        }
+      ]
+    },
+    {
+      "id": "metrics",
+      "title": "Retail Metrics to Know",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {"text": "Retail has its own language of KPIs. Familiarity with these metrics shows you understand how the business operates."}
+        },
+        {
+          "type": "checklist",
+          "content": {
+            "title": "Key Retail Metrics",
+            "items": [
+              {"id": "r1", "text": "Same-store sales (comp sales) - Growth in existing locations", "required": true},
+              {"id": "r2", "text": "Gross margin - Revenue minus cost of goods sold", "required": true},
+              {"id": "r3", "text": "Inventory turnover - How fast products sell", "required": true},
+              {"id": "r4", "text": "Customer acquisition cost (CAC) - Cost to gain a customer", "required": true},
+              {"id": "r5", "text": "Lifetime value (LTV) - Total customer relationship value", "required": true},
+              {"id": "r6", "text": "Conversion rate - Visitors who become buyers", "required": true}
+            ]
+          }
+        },
+        {
+          "type": "tip",
+          "content": {"text": "For e-commerce roles, also know: cart abandonment rate, average order value (AOV), return rate, and fulfillment cost per order."}
+        }
+      ]
+    },
+    {
+      "id": "customer-experience",
+      "title": "Customer Experience Focus",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {"text": "Every retail interview will touch on customer experience. Prepare examples of how you've improved customer outcomes or designed with customers in mind."}
+        },
+        {
+          "type": "quiz",
+          "content": {
+            "question": "A customer complains about a policy that's clearly stated on your website. What's the best approach?",
+            "options": [
+              {"id": "a", "text": "Point them to where the policy is documented", "isCorrect": false},
+              {"id": "b", "text": "Enforce the policy consistently to be fair to other customers", "isCorrect": false},
+              {"id": "c", "text": "Empathize first, then find a solution that keeps them as a customer", "isCorrect": true},
+              {"id": "d", "text": "Escalate to a manager to avoid making a wrong decision", "isCorrect": false}
+            ],
+            "explanation": "Customer-obsessed companies empower employees to solve problems. Leading with empathy and finding creative solutions shows the customer-first mindset retailers prize."
+          }
+        }
+      ]
+    },
+    {
+      "id": "trends",
+      "title": "Industry Trends",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {"text": "Retail is evolving rapidly. Show you understand where the industry is heading, not just where it's been."}
+        },
+        {
+          "type": "text",
+          "content": {"text": "**Current trends:**\n\n- **Unified commerce** - Seamless integration across all channels\n- **Social commerce** - Shopping directly through social platforms\n- **Sustainability** - Consumer demand for ethical, eco-friendly options\n- **Personalization** - AI-driven product recommendations\n- **Last-mile innovation** - Same-day delivery, BOPIS, curbside pickup\n- **Subscription models** - Recurring revenue through memberships"}
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "slug": "industry-tech",
+  "type": "industry",
+  "title": "Tech Industry Interview Guide",
+  "description": "Understand what tech companies look for and how to stand out in a competitive landscape.",
+  "industry": "tech",
+  "is_premium": false,
+  "display_order": 1,
+  "sections": [
+    {
+      "id": "culture",
+      "title": "Tech Culture Decoded",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {"text": "Tech companies share common cultural DNA despite their differences. Understanding these patterns helps you speak their language and demonstrate cultural fit."}
+        },
+        {
+          "type": "text",
+          "content": {"text": "**Core tech values:**\n\n- **Bias for action** - Ship fast, iterate, learn from mistakes\n- **Data-driven decisions** - Back opinions with metrics\n- **Customer obsession** - Everything traces back to user value\n- **Ownership mentality** - Take initiative beyond your job description\n- **Intellectual curiosity** - Continuous learning is expected"}
+        },
+        {
+          "type": "tip",
+          "content": {"text": "When sharing examples, emphasize how you measured success, iterated based on feedback, and took ownership of outcomes—both good and bad."}
+        }
+      ]
+    },
+    {
+      "id": "interview-types",
+      "title": "Common Interview Formats",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {"text": "Tech interviews typically combine multiple formats to assess different skills. Understanding each type helps you prepare appropriately."}
+        },
+        {
+          "type": "text",
+          "content": {"text": "**Typical interview loop:**\n\n1. **Recruiter screen** (30 min) - Basic fit, salary expectations\n2. **Hiring manager screen** (45-60 min) - Role fit, behavioral questions\n3. **Technical interviews** (varies) - Coding, system design, or domain expertise\n4. **Behavioral rounds** (45-60 min each) - Leadership principles, cultural fit\n5. **Team matching** (some companies) - Find the right team placement"}
+        },
+        {
+          "type": "warning",
+          "content": {"text": "Many tech companies use calibration meetings where all interviewers discuss candidates. One weak interview can sink an otherwise strong performance. Treat every conversation as critical."}
+        }
+      ]
+    },
+    {
+      "id": "metrics",
+      "title": "Speaking in Metrics",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {"text": "Tech companies are obsessed with measurement. Vague answers like 'I improved the process' won't cut it. You need numbers."}
+        },
+        {
+          "type": "checklist",
+          "content": {
+            "title": "Metrics to Prepare",
+            "items": [
+              {"id": "m1", "text": "Revenue or cost impact of your projects", "required": true},
+              {"id": "m2", "text": "Percentage improvements (speed, efficiency, conversion)", "required": true},
+              {"id": "m3", "text": "Scale numbers (users affected, data volume, requests/second)", "required": false},
+              {"id": "m4", "text": "Team size and scope of influence", "required": true},
+              {"id": "m5", "text": "Time savings or deadline improvements", "required": false}
+            ]
+          }
+        },
+        {
+          "type": "tip",
+          "content": {"text": "If you don't have exact numbers, reasonable estimates are fine. 'I reduced page load time by approximately 40%' is much stronger than 'I made it faster.'"}
+        }
+      ]
+    },
+    {
+      "id": "growth",
+      "title": "Demonstrating Growth Mindset",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {"text": "Tech moves fast. Companies need people who can adapt, learn, and grow. Your ability to handle ambiguity and learn from failure matters as much as your current skills."}
+        },
+        {
+          "type": "quiz",
+          "content": {
+            "question": "How should you answer 'Tell me about a time you failed'?",
+            "options": [
+              {"id": "a", "text": "Describe a minor setback that wasn't really your fault", "isCorrect": false},
+              {"id": "b", "text": "Share a real failure, what you learned, and how you applied that learning", "isCorrect": true},
+              {"id": "c", "text": "Explain that you rarely fail because you plan carefully", "isCorrect": false},
+              {"id": "d", "text": "Turn a weakness into a strength (e.g., 'I work too hard')", "isCorrect": false}
+            ],
+            "explanation": "Interviewers want to see self-awareness and growth. A genuine failure with clear learnings demonstrates maturity and resilience—qualities essential for fast-paced tech environments."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "slug": "industry-finance",
+  "type": "industry",
+  "title": "Finance Industry Interview Guide",
+  "description": "Navigate the unique expectations and culture of financial services interviews.",
+  "industry": "finance",
+  "is_premium": false,
+  "display_order": 2,
+  "sections": [
+    {
+      "id": "culture",
+      "title": "Finance Culture & Values",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {"text": "Financial services operate under intense scrutiny with high stakes. The culture reflects this reality—precision, professionalism, and risk awareness are paramount."}
+        },
+        {
+          "type": "text",
+          "content": {"text": "**Core finance values:**\n\n- **Attention to detail** - Small errors have massive consequences\n- **Risk management** - Always consider downside scenarios\n- **Client trust** - Relationships are everything\n- **Intellectual rigor** - Back everything with analysis\n- **Composure under pressure** - Markets don't wait for you to feel ready"}
+        },
+        {
+          "type": "warning",
+          "content": {"text": "Finance interviews often test how you handle pressure. Expect rapid-fire questions, mental math, and scenarios designed to see how you react when challenged."}
+        }
+      ]
+    },
+    {
+      "id": "interview-types",
+      "title": "Finance Interview Formats",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {"text": "Finance interviews are notoriously rigorous. Depending on the role, you may face technical assessments, case studies, and 'Superday' interview marathons."}
+        },
+        {
+          "type": "text",
+          "content": {"text": "**Common formats by role:**\n\n- **Investment Banking**: Technical questions, deal experience, fit interviews, often multiple rounds in one day\n- **Trading**: Mental math, market scenarios, brain teasers, risk questions\n- **Asset Management**: Stock pitches, portfolio discussion, market views\n- **Fintech**: Mix of tech and finance, product sense, technical skills"}
+        },
+        {
+          "type": "tip",
+          "content": {"text": "For traditional finance roles, dress conservatively (suit and tie). Fintech is more relaxed, but when in doubt, err on the side of formality."}
+        }
+      ]
+    },
+    {
+      "id": "market-knowledge",
+      "title": "Market Awareness",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {"text": "You'll be expected to discuss current market conditions intelligently. This doesn't mean predicting the future—it means showing you follow markets and can think critically."}
+        },
+        {
+          "type": "checklist",
+          "content": {
+            "title": "Before Your Interview",
+            "items": [
+              {"id": "f1", "text": "Check major indices (S&P 500, Dow, NASDAQ, relevant international)", "required": true},
+              {"id": "f2", "text": "Know key interest rates (Fed funds rate, 10-year Treasury)", "required": true},
+              {"id": "f3", "text": "Read top stories from WSJ/Bloomberg/FT", "required": true},
+              {"id": "f4", "text": "Understand recent Fed/central bank actions", "required": true},
+              {"id": "f5", "text": "Be ready to discuss 2-3 stocks or market trends", "required": false}
+            ]
+          }
+        },
+        {
+          "type": "quote",
+          "content": {"text": "I don't care if you're bullish or bearish. I care if you can defend your view with logic and data.", "author": "Portfolio Manager, Major Asset Manager"}
+        }
+      ]
+    },
+    {
+      "id": "technical-prep",
+      "title": "Technical Preparation",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {"text": "Technical knowledge expectations vary by role, but some fundamentals apply broadly across finance."}
+        },
+        {
+          "type": "checklist",
+          "content": {
+            "title": "Technical Topics to Review",
+            "items": [
+              {"id": "t1", "text": "Financial statements (income statement, balance sheet, cash flow)", "required": true},
+              {"id": "t2", "text": "Valuation methods (DCF, comparables, precedent transactions)", "required": true},
+              {"id": "t3", "text": "Time value of money concepts", "required": true},
+              {"id": "t4", "text": "Basic accounting principles", "required": true},
+              {"id": "t5", "text": "Role-specific technical knowledge", "required": true}
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

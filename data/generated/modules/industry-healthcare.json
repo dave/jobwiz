@@ -1,0 +1,97 @@
+{
+  "slug": "industry-healthcare",
+  "type": "industry",
+  "title": "Healthcare Industry Interview Guide",
+  "description": "Navigate healthcare's unique regulatory landscape and mission-driven culture.",
+  "industry": "healthcare",
+  "is_premium": false,
+  "display_order": 4,
+  "sections": [
+    {
+      "id": "culture",
+      "title": "Healthcare Culture & Values",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {"text": "Healthcare is a mission-driven industry. Whether you're in health tech, pharma, hospitals, or insurance, the work ultimately impacts patient lives. Companies want people who understand this responsibility."}
+        },
+        {
+          "type": "text",
+          "content": {"text": "**Core healthcare values:**\n\n- **Patient-centricity** - Everything serves patient outcomes\n- **Compliance & ethics** - Regulatory adherence is non-negotiable\n- **Evidence-based** - Data and clinical evidence drive decisions\n- **Collaboration** - Complex problems require interdisciplinary teams\n- **Quality & safety** - Zero tolerance for preventable harm"}
+        },
+        {
+          "type": "tip",
+          "content": {"text": "Connect your experience to patient impact, even if your role is technical or operational. Healthcare employers want to see you understand the 'why' behind the work."}
+        }
+      ]
+    },
+    {
+      "id": "regulatory",
+      "title": "Regulatory Landscape",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {"text": "Healthcare is heavily regulated. Showing awareness of key regulations demonstrates industry understanding and readiness."}
+        },
+        {
+          "type": "checklist",
+          "content": {
+            "title": "Key Regulations to Know",
+            "items": [
+              {"id": "h1", "text": "HIPAA - Patient data privacy (know the basics)", "required": true},
+              {"id": "h2", "text": "FDA - Drug/device approval processes", "required": false},
+              {"id": "h3", "text": "CMS - Medicare/Medicaid reimbursement", "required": false},
+              {"id": "h4", "text": "HITECH - Health IT standards and incentives", "required": false},
+              {"id": "h5", "text": "State-level regulations for your target company's markets", "required": false}
+            ]
+          }
+        },
+        {
+          "type": "warning",
+          "content": {"text": "Never suggest cutting corners on compliance, even hypothetically. Healthcare companies have seen too many costly violations to tolerate cavalier attitudes about regulations."}
+        }
+      ]
+    },
+    {
+      "id": "stakeholders",
+      "title": "Understanding Stakeholders",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {"text": "Healthcare has uniquely complex stakeholder dynamics. Patients, providers, payers, and regulators often have competing interests."}
+        },
+        {
+          "type": "text",
+          "content": {"text": "**Key stakeholders:**\n\n- **Patients** - End users of care, increasingly empowered consumers\n- **Providers** - Physicians, nurses, hospitals (often resistant to change)\n- **Payers** - Insurance companies, employers, government\n- **Pharma/Device** - Drug and medical device manufacturers\n- **Regulators** - FDA, CMS, state health departments"}
+        },
+        {
+          "type": "quiz",
+          "content": {
+            "question": "When discussing a healthcare product or initiative, who should typically be considered first?",
+            "options": [
+              {"id": "a", "text": "Shareholders and investors", "isCorrect": false},
+              {"id": "b", "text": "The healthcare providers using it", "isCorrect": false},
+              {"id": "c", "text": "The patients ultimately affected", "isCorrect": true},
+              {"id": "d", "text": "The regulatory bodies overseeing it", "isCorrect": false}
+            ],
+            "explanation": "Patient-centricity is healthcare's North Star. Even in B2B healthcare, the patient should be the ultimate beneficiary. Frame your answers around patient impact."
+          }
+        }
+      ]
+    },
+    {
+      "id": "trends",
+      "title": "Industry Trends to Know",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {"text": "Healthcare is undergoing massive transformation. Showing awareness of these trends demonstrates industry engagement."}
+        },
+        {
+          "type": "text",
+          "content": {"text": "**Current trends:**\n\n- **Value-based care** - Shift from fee-for-service to outcomes-based payment\n- **Digital health** - Telehealth, remote monitoring, digital therapeutics\n- **AI/ML in healthcare** - Diagnostics, drug discovery, operational efficiency\n- **Interoperability** - Breaking down data silos between systems\n- **Health equity** - Addressing disparities in care access and outcomes"}
+        }
+      ]
+    }
+  ]
+}
