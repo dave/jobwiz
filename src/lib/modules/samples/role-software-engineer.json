@@ -1,0 +1,85 @@
+{
+  "id": "role-software-engineer",
+  "slug": "software-engineer",
+  "type": "role",
+  "title": "Software Engineer Interview Guide",
+  "description": "Technical and behavioral preparation for SWE roles",
+  "isPremium": true,
+  "order": 1,
+  "roleCategory": "engineering",
+  "sections": [
+    {
+      "id": "section-technical",
+      "title": "Technical Interview Prep",
+      "blocks": [
+        {
+          "id": "block-1",
+          "type": "header",
+          "content": "Coding Interview Fundamentals",
+          "level": 2
+        },
+        {
+          "id": "block-2",
+          "type": "text",
+          "content": "Technical interviews test your ability to:\n- **Understand** the problem completely\n- **Communicate** your approach clearly\n- **Code** a working solution\n- **Optimize** for time and space complexity"
+        },
+        {
+          "id": "block-3",
+          "type": "tip",
+          "content": "Always clarify requirements before coding. Ask about edge cases, input constraints, and expected output format."
+        },
+        {
+          "id": "block-4",
+          "type": "warning",
+          "content": "Jumping straight to code without discussing your approach is a red flag. Interviewers want to see your thinking process."
+        }
+      ]
+    },
+    {
+      "id": "section-system-design",
+      "title": "System Design",
+      "blocks": [
+        {
+          "id": "block-5",
+          "type": "header",
+          "content": "Approaching System Design Questions",
+          "level": 2
+        },
+        {
+          "id": "block-6",
+          "type": "text",
+          "content": "System design interviews assess your ability to build scalable systems. Follow this framework:\n1. **Clarify requirements** - functional and non-functional\n2. **Estimate scale** - users, data, requests per second\n3. **Design high-level** - major components and data flow\n4. **Deep dive** - pick 1-2 components to detail\n5. **Address trade-offs** - explain your choices"
+        },
+        {
+          "id": "block-7",
+          "type": "quiz",
+          "question": "What should you do first in a system design interview?",
+          "options": [
+            {
+              "id": "opt-1",
+              "text": "Start drawing boxes and arrows immediately",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-2",
+              "text": "Clarify requirements and constraints",
+              "isCorrect": true
+            },
+            {
+              "id": "opt-3",
+              "text": "Ask which database to use",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-4",
+              "text": "List all the technologies you know",
+              "isCorrect": false
+            }
+          ],
+          "multiSelect": false,
+          "explanation": "Always start by understanding what you're building. Requirements drive all design decisions."
+        }
+      ]
+    }
+  ]
+}

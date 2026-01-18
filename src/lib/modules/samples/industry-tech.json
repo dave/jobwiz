@@ -1,0 +1,85 @@
+{
+  "id": "industry-tech",
+  "slug": "tech-industry",
+  "type": "industry",
+  "title": "Tech Industry Interview Guide",
+  "description": "What makes tech interviews different from other industries",
+  "isPremium": false,
+  "order": 1,
+  "industry": "tech",
+  "sections": [
+    {
+      "id": "section-culture",
+      "title": "Tech Culture 101",
+      "blocks": [
+        {
+          "id": "block-1",
+          "type": "header",
+          "content": "The Tech Interview Difference",
+          "level": 2
+        },
+        {
+          "id": "block-2",
+          "type": "text",
+          "content": "Tech companies prioritize **problem-solving ability** and **growth mindset** over perfect answers. They want to see how you think through challenges."
+        },
+        {
+          "id": "block-3",
+          "type": "tip",
+          "content": "In tech, admitting you don't know something but explaining how you'd figure it out is often better than pretending to know."
+        },
+        {
+          "id": "block-4",
+          "type": "quiz",
+          "question": "What do tech interviewers value most?",
+          "options": [
+            {
+              "id": "opt-1",
+              "text": "Perfect, memorized answers",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-2",
+              "text": "Your thought process and how you approach problems",
+              "isCorrect": true
+            },
+            {
+              "id": "opt-3",
+              "text": "Years of experience in the exact same role",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-4",
+              "text": "Advanced degrees from top schools",
+              "isCorrect": false
+            }
+          ],
+          "multiSelect": false,
+          "explanation": "Tech companies focus on problem-solving ability. They'd rather see how you think through a novel problem than hear a rehearsed answer."
+        }
+      ]
+    },
+    {
+      "id": "section-common-formats",
+      "title": "Common Interview Formats",
+      "blocks": [
+        {
+          "id": "block-5",
+          "type": "header",
+          "content": "What to Expect",
+          "level": 2
+        },
+        {
+          "id": "block-6",
+          "type": "text",
+          "content": "Tech interviews typically include:\n- **Phone screen** with recruiter or hiring manager\n- **Technical assessment** (coding, design, or case study)\n- **On-site/virtual loop** with 4-6 interviews\n- **Behavioral interviews** focusing on past experiences"
+        },
+        {
+          "id": "block-7",
+          "type": "quote",
+          "content": "Every interview is a two-way street. You're evaluating them as much as they're evaluating you."
+        }
+      ]
+    }
+  ]
+}

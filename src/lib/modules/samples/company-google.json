@@ -1,0 +1,91 @@
+{
+  "id": "company-google",
+  "slug": "google",
+  "type": "company",
+  "title": "Google Interview Guide",
+  "description": "Google-specific interview preparation and culture insights",
+  "isPremium": true,
+  "order": 1,
+  "companySlug": "google",
+  "sections": [
+    {
+      "id": "section-culture",
+      "title": "Google's Culture",
+      "blocks": [
+        {
+          "id": "block-1",
+          "type": "header",
+          "content": "What Google Looks For",
+          "level": 2
+        },
+        {
+          "id": "block-2",
+          "type": "text",
+          "content": "Google evaluates candidates on four key dimensions:\n- **General Cognitive Ability** - how you solve problems\n- **Role-Related Knowledge** - technical skills for the job\n- **Leadership** - how you take initiative and guide others\n- **Googleyness** - cultural fit and working style"
+        },
+        {
+          "id": "block-3",
+          "type": "quote",
+          "content": "We look for people who are smart and get things done, but also collaborate well and bring out the best in others.",
+          "author": "Former Google Recruiter"
+        },
+        {
+          "id": "block-4",
+          "type": "tip",
+          "content": "Google values 'emergent leadership' - leading without formal authority. Share examples of when you influenced without being in charge."
+        }
+      ]
+    },
+    {
+      "id": "section-process",
+      "title": "The Google Interview Process",
+      "blocks": [
+        {
+          "id": "block-5",
+          "type": "header",
+          "content": "What to Expect",
+          "level": 2
+        },
+        {
+          "id": "block-6",
+          "type": "text",
+          "content": "Google's interview process typically includes:\n1. **Recruiter screen** (30 min) - background and interest\n2. **Phone/video technical** (45-60 min) - coding or role-specific\n3. **On-site loop** (4-5 interviews) - technical + behavioral\n4. **Hiring committee review** - independent of interviewers\n5. **Team matching** - find the right role"
+        },
+        {
+          "id": "block-7",
+          "type": "warning",
+          "content": "Google's hiring committee reviews your packet independently. Strong performance across ALL interviews matters - one great interview won't compensate for a poor one."
+        },
+        {
+          "id": "block-8",
+          "type": "quiz",
+          "question": "What is 'Googleyness'?",
+          "options": [
+            {
+              "id": "opt-1",
+              "text": "Knowing all Google products by heart",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-2",
+              "text": "Cultural fit - collaboration, humility, and comfort with ambiguity",
+              "isCorrect": true
+            },
+            {
+              "id": "opt-3",
+              "text": "Having a PhD or advanced degree",
+              "isCorrect": false
+            },
+            {
+              "id": "opt-4",
+              "text": "Previous experience at other FAANG companies",
+              "isCorrect": false
+            }
+          ],
+          "multiSelect": false,
+          "explanation": "Googleyness refers to traits like collaboration, humility, being comfortable with ambiguity, and having a bias toward action."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "id": "universal-interview-basics",
+  "slug": "interview-basics",
+  "type": "universal",
+  "title": "Interview Fundamentals",
+  "description": "Core skills every interviewee needs, regardless of company or role",
+  "isPremium": false,
+  "order": 1,
+  "sections": [
+    {
+      "id": "section-mindset",
+      "title": "The Right Mindset",
+      "blocks": [
+        {
+          "id": "block-1",
+          "type": "header",
+          "content": "What Interviewers Really Want",
+          "level": 2
+        },
+        {
+          "id": "block-2",
+          "type": "text",
+          "content": "Interviewers aren't trying to trick you. They're trying to answer one question: **Will this person make my team better?** Everything else flows from this."
+        },
+        {
+          "id": "block-3",
+          "type": "quote",
+          "content": "The best interview answers show how you think, not just what you know.",
+          "author": "Former Google Hiring Manager"
+        },
+        {
+          "id": "block-4",
+          "type": "tip",
+          "content": "Treat the interview as a conversation, not an interrogation. Interviewers want you to succeed."
+        }
+      ]
+    },
+    {
+      "id": "section-preparation",
+      "title": "Preparation Checklist",
+      "blocks": [
+        {
+          "id": "block-5",
+          "type": "header",
+          "content": "Before Your Interview",
+          "level": 2
+        },
+        {
+          "id": "block-6",
+          "type": "checklist",
+          "title": "Pre-Interview Checklist",
+          "items": [
+            {
+              "id": "check-1",
+              "text": "Research the company's recent news and products",
+              "required": true
+            },
+            {
+              "id": "check-2",
+              "text": "Prepare 3-5 stories using the STAR method",
+              "required": true
+            },
+            {
+              "id": "check-3",
+              "text": "Review the job description and match your experience",
+              "required": true
+            },
+            {
+              "id": "check-4",
+              "text": "Prepare thoughtful questions to ask",
+              "required": false
+            }
+          ]
+        },
+        {
+          "id": "block-7",
+          "type": "warning",
+          "content": "Never say you have no questions. It signals lack of interest."
+        }
+      ]
+    }
+  ]
+}
