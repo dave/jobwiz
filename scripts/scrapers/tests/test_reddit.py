@@ -1,203 +1,230 @@
-"""Tests for Reddit scraper."""
+"""Tests for Reddit scraper (JSON endpoint version)."""
 
 import pytest
-from unittest.mock import Mock, patch, MagicMock
+from unittest.mock import patch, MagicMock
 
 from scrapers.reddit import RedditScraper, scrape_reddit, RedditConfig
 
 
-class MockSubmission:
-    """Mock PRAW Submission object."""
-
-    def __init__(
-        self,
-        id: str = "abc123",
-        title: str = "Google interview experience",
-        selftext: str = "My interview experience...",
-        score: int = 100,
-        num_comments: int = 10,
-        created_utc: float = 1700000000.0,
-        permalink: str = "/r/cscareerquestions/comments/abc123/",
-        author: str = "testuser",
-    ):
-        self.id = id
-        self.title = title
-        self.selftext = selftext
-        self.score = score
-        self.num_comments = num_comments
-        self.created_utc = created_utc
-        self.permalink = permalink
-        self.author = Mock(__str__=Mock(return_value=author))
-
-        # Mock comments
-        self.comments = MockCommentForest()
+def make_post_response(posts):
+    """Create a mock Reddit search response."""
+    return {
+        "data": {
+            "children": [
+                {"kind": "t3", "data": post} for post in posts
+            ]
+        }
+    }
 
 
-class MockComment:
-    """Mock PRAW Comment object."""
+def make_comments_response(comments):
+    """Create a mock Reddit comments response."""
+    return [
+        {"data": {}},  # First element is the post
+        {
+            "data": {
+                "children": [
+                    {"kind": "t1", "data": comment} for comment in comments
+                ]
+            }
+        },
+    ]
 
-    def __init__(self, id: str, body: str, score: int = 10, author: str = "commenter"):
-        self.id = id
-        self.body = body
-        self.score = score
-        self.author = Mock(__str__=Mock(return_value=author))
 
+SAMPLE_POST = {
+    "id": "abc123",
+    "title": "Google interview experience",
+    "selftext": "My interview experience...",
+    "score": 100,
+    "num_comments": 10,
+    "created_utc": 1700000000.0,
+    "permalink": "/r/cscareerquestions/comments/abc123/",
+    "author": "testuser",
+}
 
-class MockCommentForest:
-    """Mock PRAW CommentForest object."""
-
-    def __init__(self):
-        self._comments = [
-            MockComment("c1", "Great experience!", 50),
-            MockComment("c2", "Thanks for sharing", 30),
-        ]
-
-    def replace_more(self, limit=0):
-        pass
-
-    def __iter__(self):
-        return iter(self._comments)
-
-    def __getitem__(self, key):
-        return self._comments[key]
+SAMPLE_COMMENTS = [
+    {"id": "c1", "body": "Great experience!", "score": 50, "author": "commenter1"},
+    {"id": "c2", "body": "Thanks for sharing", "score": 30, "author": "commenter2"},
+]
 
 
 class TestRedditScraper:
-    @patch("scrapers.reddit.praw.Reddit")
-    def test_parses_valid_response(self, mock_reddit):
-        """Should parse mocked Reddit API response correctly."""
-        # Setup mock
-        mock_subreddit = MagicMock()
-        mock_subreddit.search.return_value = [
-            MockSubmission(id="abc123", title="Google interview", selftext="My experience...")
-        ]
-        mock_reddit.return_value.subreddit.return_value = mock_subreddit
+    @patch("scrapers.reddit.requests.Session")
+    def test_parses_valid_response(self, mock_session_class):
+        """Should parse mocked Reddit JSON response correctly."""
+        mock_session = MagicMock()
+        mock_session_class.return_value = mock_session
 
-        config = RedditConfig(
-            client_id="test_id", client_secret="test_secret", subreddits=["cscareerquestions"]
-        )
-        result = scrape_reddit("google", limit=1, config=config)
+        # Mock search response
+        mock_response = MagicMock()
+        mock_response.json.return_value = make_post_response([SAMPLE_POST])
+        mock_response.raise_for_status = MagicMock()
+        mock_session.get.return_value = mock_response
+
+        config = RedditConfig(subreddits=["cscareerquestions"])
+        result = scrape_reddit("google", limit=1, config=config, fetch_comments=False)
 
         assert len(result) == 1
         assert result[0].source_id == "abc123"
         assert result[0].source == "reddit"
         assert result[0].company_slug == "google"
 
-    @patch("scrapers.reddit.praw.Reddit")
-    def test_handles_empty_results(self, mock_reddit):
+    @patch("scrapers.reddit.requests.Session")
+    def test_handles_empty_results(self, mock_session_class):
         """Should return empty list for no matches."""
-        mock_subreddit = MagicMock()
-        mock_subreddit.search.return_value = []
-        mock_reddit.return_value.subreddit.return_value = mock_subreddit
+        mock_session = MagicMock()
+        mock_session_class.return_value = mock_session
 
-        config = RedditConfig(
-            client_id="test_id", client_secret="test_secret", subreddits=["cscareerquestions"]
-        )
+        mock_response = MagicMock()
+        mock_response.json.return_value = make_post_response([])
+        mock_response.raise_for_status = MagicMock()
+        mock_session.get.return_value = mock_response
+
+        config = RedditConfig(subreddits=["cscareerquestions"])
         result = scrape_reddit("unknowncompany12345", limit=10, config=config)
 
         assert result == []
 
-    @patch("scrapers.reddit.praw.Reddit")
-    def test_extracts_comments(self, mock_reddit):
-        """Should include top comments in parsed results."""
-        mock_subreddit = MagicMock()
-        mock_subreddit.search.return_value = [MockSubmission()]
-        mock_reddit.return_value.subreddit.return_value = mock_subreddit
+    @patch("scrapers.reddit.requests.Session")
+    def test_fetches_comments(self, mock_session_class):
+        """Should fetch and include comments when enabled."""
+        mock_session = MagicMock()
+        mock_session_class.return_value = mock_session
 
-        config = RedditConfig(
-            client_id="test_id", client_secret="test_secret", subreddits=["cscareerquestions"]
-        )
-        result = scrape_reddit("google", limit=1, config=config)
+        # First call: search, second call: comments
+        search_response = MagicMock()
+        search_response.json.return_value = make_post_response([SAMPLE_POST])
+        search_response.raise_for_status = MagicMock()
+
+        comments_response = MagicMock()
+        comments_response.json.return_value = make_comments_response(SAMPLE_COMMENTS)
+        comments_response.raise_for_status = MagicMock()
+
+        mock_session.get.side_effect = [search_response, comments_response]
+
+        config = RedditConfig(subreddits=["cscareerquestions"], request_delay=0)
+        result = scrape_reddit("google", limit=1, config=config, fetch_comments=True)
 
         assert len(result) == 1
         assert "comments" in result[0].metadata
         assert len(result[0].metadata["comments"]) == 2
         assert result[0].metadata["comments"][0]["body"] == "Great experience!"
 
-    @patch("scrapers.reddit.praw.Reddit")
-    def test_builds_correct_search_query(self, mock_reddit):
+    @patch("scrapers.reddit.requests.Session")
+    def test_skips_comments_when_disabled(self, mock_session_class):
+        """Should not fetch comments when fetch_comments=False."""
+        mock_session = MagicMock()
+        mock_session_class.return_value = mock_session
+
+        mock_response = MagicMock()
+        mock_response.json.return_value = make_post_response([SAMPLE_POST])
+        mock_response.raise_for_status = MagicMock()
+        mock_session.get.return_value = mock_response
+
+        config = RedditConfig(subreddits=["cscareerquestions"])
+        result = scrape_reddit("google", limit=1, config=config, fetch_comments=False)
+
+        # Should only make one request (search), not two (search + comments)
+        assert mock_session.get.call_count == 1
+        assert result[0].metadata["comments"] == []
+
+    def test_builds_correct_search_query(self):
         """Should search for 'interview {company}'."""
-        mock_subreddit = MagicMock()
-        mock_subreddit.search.return_value = []
-        mock_reddit.return_value.subreddit.return_value = mock_subreddit
-
-        config = RedditConfig(
-            client_id="test_id", client_secret="test_secret", subreddits=["cscareerquestions"]
-        )
-        scraper = RedditScraper(config)
-
+        scraper = RedditScraper()
         query = scraper.build_search_query("google")
         assert query == "interview google"
 
-    @patch("scrapers.reddit.praw.Reddit")
-    def test_searches_multiple_subreddits(self, mock_reddit):
+    @patch("scrapers.reddit.requests.Session")
+    def test_searches_multiple_subreddits(self, mock_session_class):
         """Should search across all configured subreddits."""
-        mock_subreddit = MagicMock()
-        mock_subreddit.search.return_value = [MockSubmission()]
-        mock_reddit.return_value.subreddit.return_value = mock_subreddit
+        mock_session = MagicMock()
+        mock_session_class.return_value = mock_session
+
+        mock_response = MagicMock()
+        mock_response.json.return_value = make_post_response([SAMPLE_POST])
+        mock_response.raise_for_status = MagicMock()
+        mock_session.get.return_value = mock_response
 
         config = RedditConfig(
-            client_id="test_id",
-            client_secret="test_secret",
             subreddits=["cscareerquestions", "jobs", "interviews"],
+            request_delay=0,
         )
-        result = scrape_reddit("google", limit=1, config=config)
+        result = scrape_reddit("google", limit=1, config=config, fetch_comments=False)
 
-        # Should have called subreddit() 3 times
-        assert mock_reddit.return_value.subreddit.call_count == 3
+        # Should have called get() 3 times (once per subreddit)
+        assert mock_session.get.call_count == 3
+        # Should have 3 results (one per subreddit)
+        assert len(result) == 3
 
-    @patch("scrapers.reddit.praw.Reddit")
-    def test_normalizes_company_slug(self, mock_reddit):
+    @patch("scrapers.reddit.requests.Session")
+    def test_normalizes_company_slug(self, mock_session_class):
         """Should lowercase and hyphenate company names."""
-        mock_subreddit = MagicMock()
-        mock_subreddit.search.return_value = [MockSubmission()]
-        mock_reddit.return_value.subreddit.return_value = mock_subreddit
+        mock_session = MagicMock()
+        mock_session_class.return_value = mock_session
 
-        config = RedditConfig(
-            client_id="test_id", client_secret="test_secret", subreddits=["cscareerquestions"]
-        )
-        result = scrape_reddit("Goldman Sachs", limit=1, config=config)
+        mock_response = MagicMock()
+        mock_response.json.return_value = make_post_response([SAMPLE_POST])
+        mock_response.raise_for_status = MagicMock()
+        mock_session.get.return_value = mock_response
+
+        config = RedditConfig(subreddits=["cscareerquestions"])
+        result = scrape_reddit("Goldman Sachs", limit=1, config=config, fetch_comments=False)
 
         assert result[0].company_slug == "goldman-sachs"
 
-    @patch("scrapers.reddit.praw.Reddit")
-    def test_handles_deleted_author(self, mock_reddit):
+    @patch("scrapers.reddit.requests.Session")
+    def test_handles_deleted_author(self, mock_session_class):
         """Should handle posts with deleted authors."""
-        submission = MockSubmission()
-        submission.author = None
+        mock_session = MagicMock()
+        mock_session_class.return_value = mock_session
 
-        mock_subreddit = MagicMock()
-        mock_subreddit.search.return_value = [submission]
-        mock_reddit.return_value.subreddit.return_value = mock_subreddit
+        post_with_deleted_author = {**SAMPLE_POST, "author": "[deleted]"}
+        mock_response = MagicMock()
+        mock_response.json.return_value = make_post_response([post_with_deleted_author])
+        mock_response.raise_for_status = MagicMock()
+        mock_session.get.return_value = mock_response
 
-        config = RedditConfig(
-            client_id="test_id", client_secret="test_secret", subreddits=["cscareerquestions"]
-        )
-        result = scrape_reddit("google", limit=1, config=config)
+        config = RedditConfig(subreddits=["cscareerquestions"])
+        result = scrape_reddit("google", limit=1, config=config, fetch_comments=False)
 
         assert result[0].metadata["author"] == "[deleted]"
 
+    @patch("scrapers.reddit.requests.Session")
+    def test_handles_request_error(self, mock_session_class):
+        """Should handle request errors gracefully."""
+        mock_session = MagicMock()
+        mock_session_class.return_value = mock_session
+
+        mock_response = MagicMock()
+        mock_response.raise_for_status.side_effect = Exception("Connection error")
+        mock_session.get.return_value = mock_response
+
+        config = RedditConfig(subreddits=["cscareerquestions"], request_delay=0)
+        result = scrape_reddit("google", limit=1, config=config)
+
+        # Should return empty list on error, not crash
+        assert result == []
+
 
 class TestRedditConfig:
-    def test_uses_environment_variables(self):
-        """Should fall back to environment variables."""
-        with patch.dict(
-            "os.environ",
-            {"REDDIT_CLIENT_ID": "env_id", "REDDIT_CLIENT_SECRET": "env_secret"},
-        ):
-            config = RedditConfig()
-            assert config.client_id == "env_id"
-            assert config.client_secret == "env_secret"
-
-    def test_explicit_values_override_env(self):
-        """Explicit values should override environment."""
-        config = RedditConfig(client_id="explicit_id", client_secret="explicit_secret")
-        assert config.client_id == "explicit_id"
-        assert config.client_secret == "explicit_secret"
-
     def test_default_subreddits(self):
         """Should have default subreddits configured."""
-        config = RedditConfig(client_id="test", client_secret="test")
+        config = RedditConfig()
         assert "cscareerquestions" in config.subreddits
         assert "jobs" in config.subreddits
         assert "interviews" in config.subreddits
+
+    def test_default_user_agent(self):
+        """Should have a default user agent."""
+        config = RedditConfig()
+        assert "JobWiz" in config.user_agent
+
+    def test_custom_subreddits(self):
+        """Should allow custom subreddits."""
+        config = RedditConfig(subreddits=["customsub"])
+        assert config.subreddits == ["customsub"]
+
+    def test_custom_request_delay(self):
+        """Should allow custom request delay."""
+        config = RedditConfig(request_delay=2.0)
+        assert config.request_delay == 2.0

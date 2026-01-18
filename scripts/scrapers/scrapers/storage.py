@@ -39,13 +39,21 @@ class ScraperStorage:
 
     def __init__(self, supabase_url: Optional[str] = None, supabase_key: Optional[str] = None):
         """Initialize with Supabase credentials."""
-        url = supabase_url or os.environ.get("SUPABASE_URL")
-        key = supabase_key or os.environ.get("SUPABASE_ANON_KEY")
+        url = (
+            supabase_url
+            or os.environ.get("SUPABASE_URL")
+            or os.environ.get("NEXT_PUBLIC_SUPABASE_URL")
+        )
+        key = (
+            supabase_key
+            or os.environ.get("SUPABASE_ANON_KEY")
+            or os.environ.get("NEXT_PUBLIC_SUPABASE_ANON_KEY")
+        )
 
         if not url or not key:
             raise ValueError(
-                "Supabase credentials required. Set SUPABASE_URL and SUPABASE_ANON_KEY "
-                "environment variables or pass them directly."
+                "Supabase credentials required. Set SUPABASE_URL/NEXT_PUBLIC_SUPABASE_URL "
+                "and SUPABASE_ANON_KEY/NEXT_PUBLIC_SUPABASE_ANON_KEY environment variables."
             )
 
         self.client: Client = create_client(url, key)
