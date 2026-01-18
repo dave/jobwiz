@@ -19,7 +19,10 @@
     "check-readability": "ts-node scripts/quality/check-readability.ts",
     "check-facts": "ts-node scripts/quality/check-facts.ts",
     "sample-for-review": "ts-node scripts/quality/sample-for-review.ts",
-    "quality-check": "ts-node scripts/quality/quality-check.ts"
+    "quality-check": "ts-node scripts/quality/quality-check.ts",
+    "queue:add": "TS_NODE_COMPILER_OPTIONS='{\"module\":\"CommonJS\"}' ts-node scripts/queue/add.ts",
+    "queue:next": "TS_NODE_COMPILER_OPTIONS='{\"module\":\"CommonJS\"}' ts-node scripts/queue/next.ts",
+    "queue:status": "TS_NODE_COMPILER_OPTIONS='{\"module\":\"CommonJS\"}' ts-node scripts/queue/status.ts"
   },
   "dependencies": {
     "@supabase/ssr": "^0.8.0",

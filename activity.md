@@ -6,7 +6,7 @@
 **Stage 1:** COMPLETE (All 4 issues closed)
 **Stage 2:** COMPLETE (All 4 issues closed: #7, #8, #9, #10)
 **Stage 3:** COMPLETE (All 3 issues closed: #4, #5, #19)
-**Stage 4:** IN PROGRESS (Issues closed: #14, #11, #12, #13, #26, #27, #28, #29, #15, #31)
+**Stage 4:** IN PROGRESS (Issues closed: #14, #11, #12, #13, #26, #27, #28, #29, #15, #31, #32)
 **Current Task:** None
 
 ---
@@ -965,6 +965,44 @@ All Stage 3 (Data Collection) issues are now closed:
 - `npm run build` - successful production build
 - `npm test` - 740 passed, 2 todo
 - CLI script works: `python generate.py --company=google --mock --dry-run`
+
+### 2026-01-18 - Issue #32: Generation priority queue system
+
+**Completed:**
+- Created Supabase migration `20260118000003_create_generation_queue_table.sql`:
+  - `generation_queue` table with `company_slug`, `role_slug`, `priority_score`, `status`
+  - Status check constraint: pending | in_progress | completed | failed
+  - Unique constraint on company_slug/role_slug
+  - Indexes for priority lookup and status filtering
+  - RLS policies for admin and read-only access
+- Created TypeScript queue library `src/lib/queue/`:
+  - `types.ts` - Queue types matching schema
+  - `storage.ts` - Supabase CRUD operations (add, claim, complete, fail)
+  - `priority.ts` - Priority calculation from search_volume.json
+  - `index.ts` - Re-exports
+- Created CLI scripts `scripts/queue/`:
+  - `add.ts` - `npm run queue:add -- --company=google --roles=swe,pm`
+  - `next.ts` - `npm run queue:next` (claim next item by priority)
+  - `status.ts` - `npm run queue:status` (view queue summary)
+- Priority calculation uses `data/search_volume.json` scores
+- Higher volume = higher priority, configurable minimum threshold
+- Dry-run mode works without Supabase credentials
+- Fixed ESM/CommonJS compatibility with ts-node
+
+**Tests:**
+- 46 unit tests covering:
+  - Queue storage operations (add, batch, claim, complete, fail)
+  - Priority calculation from search volume
+  - Slug validation
+  - Queue status and item retrieval
+  - Threshold filtering
+
+**Verification:**
+- `npm run lint` - passes with no errors
+- `npm run type-check` - passes with no errors
+- `npm run build` - successful production build
+- `npm test` - 786 passed, 2 todo (46 queue tests)
+- `npm run queue:add -- --company=google --roles=software-engineer --dry-run` - works correctly
 
 ---
 
