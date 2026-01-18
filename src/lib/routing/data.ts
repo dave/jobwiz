@@ -5,12 +5,41 @@
 import searchVolumeData from "../../../data/search_volume.json";
 import type {
   SearchVolumeData,
+  RawSearchVolumeData,
   CompanyData,
   CompanyRole,
   RouteValidationResult,
 } from "./types";
 
-const data = searchVolumeData as SearchVolumeData;
+/**
+ * Transform raw JSON data into the expected format
+ */
+function transformData(raw: RawSearchVolumeData): SearchVolumeData {
+  // Create a map of role slugs to role names for lookup
+  const roleMap = new Map(raw.role_types.map((r) => [r.slug, r.name]));
+
+  const companies: CompanyData[] = raw.companies.map((company) => ({
+    name: company.name,
+    slug: company.slug,
+    category: company.category,
+    interview_volume: company.interview_volume,
+    roles: company.roles.map((roleSlug) => ({
+      name: roleMap.get(roleSlug) || roleSlug,
+      slug: roleSlug,
+      volume: company.interview_volume, // Use company volume as default
+    })),
+  }));
+
+  return {
+    generated_at: raw.generated_at,
+    geography: raw.geography,
+    status: raw.status,
+    companies,
+    priority_list: raw.priority_list,
+  };
+}
+
+const data = transformData(searchVolumeData as RawSearchVolumeData);
 
 /**
  * Get all companies
