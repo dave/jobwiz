@@ -2,13 +2,13 @@
 
 ## Current Status
 **Last Updated:** 2026-01-18
-**Tasks Completed:** 36
+**Tasks Completed:** 37
 **Stage 1:** COMPLETE (All 4 issues closed)
 **Stage 2:** COMPLETE (All 4 issues closed: #7, #8, #9, #10)
 **Stage 3:** COMPLETE (All 3 issues closed: #4, #5, #19)
 **Stage 4:** COMPLETE (All issues closed: #14, #11, #12, #13, #15, #16, #18)
-**Stage 5:** IN PROGRESS (#20 closed, #21 closed, #22 in progress - sub-issues #37, #38 complete)
-**Current Task:** #38 Stripe webhook handlers - COMPLETE
+**Stage 5:** IN PROGRESS (#20 closed, #21 closed, #22 in progress - sub-issues #37, #38, #39 complete)
+**Current Task:** #39 Flexible pricing structure - COMPLETE
 
 ---
 
@@ -1754,3 +1754,57 @@ All Stage 1 (Foundation) issues are now closed:
 
 **Screenshot:**
 - `screenshots/38-webhook-cancel-page.png` - Site working after webhook implementation
+
+### 2026-01-18 - Issue #39: Flexible pricing structure
+
+**Completed:**
+- Created product configuration system `src/lib/stripe/products.ts`:
+  - `DEFAULT_SINGLE_PRICE` - Default price of $200 for single company/role access
+  - `TEST_SINGLE_PRICE` - Test mode price of $5 for development
+  - `BUNDLE_DISCOUNTS` - Discount multipliers (30% company, 40% role, 50% full)
+  - `STRIPE_PRODUCTS` - Product/price ID configuration from environment
+  - `isTestMode()` - Detects test environment (NODE_ENV, STRIPE_TEST_MODE, or sk_test_ key)
+  - `getSinglePrice()` - Returns appropriate price based on mode and env override
+  - `calculateBundlePrice()` - Calculates bundle pricing with discounts
+  - `getProductForPosition()` - Returns product config for company/role combination
+  - `getCompanyBundleProduct()` - Returns company bundle product config
+  - `getRoleBundleProduct()` - Returns role bundle product config
+  - `getFullAccessProduct()` - Returns full access product config
+  - `getPriceByPosition()` - Price lookup by company/role slugs
+  - `formatPrice()` - Formats cents to currency string (e.g., "$200.00")
+  - `parseAccessScope()` - Parses product metadata to determine access scope
+  - `buildProductMetadata()` - Builds metadata for Stripe session
+  - `getProductsForCompany()` - Returns all products for a company (singles + bundle)
+- Updated `src/lib/stripe/index.ts` to export all new product functions
+- Comprehensive test suite with 52 tests covering all functions
+
+**Metadata Schema:**
+```json
+{
+  "access_type": "single" | "company_bundle" | "role_bundle" | "full",
+  "company_slug": "google" | null,
+  "role_slug": "software-engineer" | null
+}
+```
+
+**Files Created:**
+- `src/lib/stripe/products.ts` - Product configuration and pricing logic
+- `src/lib/stripe/__tests__/products.test.ts` - 52 unit tests
+
+**Tests:**
+- 52 unit tests covering:
+  - Price constants and defaults
+  - Test mode detection
+  - Price calculation with env overrides
+  - Bundle pricing with discounts
+  - Product config generation for all access types
+  - Price formatting
+  - Access scope parsing
+  - Metadata building
+  - Company products listing
+  - Pricing integration (bundle always cheaper than singles)
+
+**Verification:**
+- `npm run lint` - passes with no errors
+- `npm run build` - successful production build
+- `npm test` - 1492 passed, 2 todo (52 new tests)
