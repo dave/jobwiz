@@ -7,7 +7,7 @@
 **Stage 2:** COMPLETE (All 4 issues closed: #7, #8, #9, #10)
 **Stage 3:** COMPLETE (All 3 issues closed: #4, #5, #19)
 **Stage 4:** COMPLETE (All issues closed: #14, #11, #12, #13, #15, #16, #18)
-**Current Task:** None - Ready for Stage 5
+**Current Task:** Stage 5 - Issue #33 Dynamic routing [company]/[role]
 
 ---
 
@@ -1142,6 +1142,78 @@ All Stage 4 (Content Generation) issues are now closed:
   - #31 - Supabase content storage schema
   - #32 - Generation priority queue system
 - #18 - Build question bank per position
+
+---
+
+## Stage 5 Progress
+
+### 2026-01-18 - Issue #33: Dynamic routing [company]/[role]
+
+**Completed:**
+- Created routing library `src/lib/routing/`:
+  - `types.ts` - Type definitions for company data, route validation
+  - `data.ts` - Data loading and validation functions from search_volume.json
+  - `index.ts` - Re-exports
+- Implemented `/[company]` route:
+  - Displays company overview with available roles
+  - Shows company category and description
+  - Role cards link to company/role pages
+- Implemented `/[company]/[role]` route:
+  - Landing page with hero section, CTA button
+  - "What You'll Learn" preview section
+  - Breadcrumb navigation
+- Added case-insensitive URL handling:
+  - `/Google/Software-Engineer` redirects to `/google/software-engineer`
+  - Canonical URLs in meta tags
+- Configured SSG for top company/role combos:
+  - `generateStaticParams()` returns all combos from priority list
+  - Pre-renders company and role pages at build time
+- Configured ISR:
+  - `revalidate = 3600` (1 hour) for both routes
+  - `dynamicParams = true` for blocking fallback on new pages
+- Returns 404 for invalid company/role combinations
+- Added comprehensive metadata:
+  - Dynamic titles: `{Company} {Role} Interview Prep | JobWiz`
+  - Dynamic descriptions
+  - OpenGraph tags
+  - Canonical URLs
+
+**Tests Added:**
+- 39 unit tests for routing functions covering:
+  - Company/role retrieval by slug
+  - Case-insensitive matching
+  - Route validation
+  - Redirect detection
+  - SSG params generation
+  - Integration validation
+
+**Files Created:**
+- `src/lib/routing/types.ts`
+- `src/lib/routing/data.ts`
+- `src/lib/routing/index.ts`
+- `src/lib/routing/__tests__/data.test.ts`
+
+**Files Modified:**
+- `src/app/[company]/page.tsx` - Full company page with roles list
+- `src/app/[company]/[role]/page.tsx` - Full landing page
+
+**Verification:**
+- `npm run lint` - passes with no errors
+- `npm run type-check` - passes with no errors
+- `npm run build` - successful, SSG pages pre-rendered
+- `npm test` - 922 tests pass (39 new routing tests)
+- All acceptance criteria verified:
+  - /google/software-engineer returns 200
+  - /google returns 200 with role list
+  - /invalid-company returns 404
+  - /google/invalid-role returns 404
+  - /Google/Software-Engineer redirects to /google/software-engineer
+  - Canonical URL in meta tags
+
+**Screenshots:**
+- `screenshots/33-company-page-google.png` - Company page with roles
+- `screenshots/33-company-role-page.png` - Landing page for Google SWE
+- `screenshots/33-mobile-view.png` - Mobile responsive view
 
 ---
 
