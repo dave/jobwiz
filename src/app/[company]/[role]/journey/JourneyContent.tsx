@@ -76,8 +76,10 @@ export function JourneyContent({
 
       const data = await res.json();
       if (data.url) {
+        // Redirect to Stripe - return false so PaywallGate doesn't mark as unlocked
+        // The actual unlock happens on checkout success page after payment completes
         window.location.href = data.url;
-        return true;
+        return false;
       }
 
       console.error("No checkout URL returned");
