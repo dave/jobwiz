@@ -162,9 +162,12 @@ export function JourneyContent({
           </div>
 
           <div className="mt-6">
-            <button className="bg-blue-600 text-white px-6 py-2 rounded-lg font-medium hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">
+            <Link
+              href="/demo"
+              className="inline-block bg-blue-600 text-white px-6 py-2 rounded-lg font-medium hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+            >
               Start Free Content
-            </button>
+            </Link>
           </div>
         </div>
 
@@ -177,7 +180,7 @@ export function JourneyContent({
           onPurchase={handlePurchase}
           heading={`Unlock ${companyName} ${roleName} Prep`}
           description={`Get full access to company-specific strategies, insider tips, and practice questions tailored for ${companyName} ${roleName} interviews.`}
-          ctaText="Get Full Access - $199"
+          ctaText="Get Full Access"
         >
           <div className="bg-white shadow rounded-lg p-6">
             <div className="flex items-center gap-2 mb-6">
