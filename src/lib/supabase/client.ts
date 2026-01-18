@@ -1,9 +1,13 @@
 /**
  * Browser-side Supabase client
- * Stub implementation - actual implementation in #55
+ * Uses @supabase/ssr for cookie-based auth management
  */
 
+import { createBrowserClient as createClient } from "@supabase/ssr";
+
 export function createBrowserClient() {
-  // Stub: will be implemented in #55 (Supabase setup)
-  throw new Error("Supabase client not yet implemented - see issue #55");
+  return createClient(
+    process.env.NEXT_PUBLIC_SUPABASE_URL!,
+    process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!
+  );
 }
