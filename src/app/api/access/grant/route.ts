@@ -13,6 +13,7 @@ export const dynamic = 'force-dynamic';
 
 interface GrantRequest {
   session_id: string;
+  redirect_to?: string;
 }
 
 interface GrantResponse {
@@ -22,6 +23,7 @@ interface GrantResponse {
   user_id?: string;
   email?: string;
   is_new_user?: boolean;
+  magic_link?: string;
 }
 
 /**
@@ -48,7 +50,7 @@ export async function POST(
 ): Promise<NextResponse<GrantResponse>> {
   try {
     const body: GrantRequest = await request.json();
-    const { session_id } = body;
+    const { session_id, redirect_to } = body;
 
     if (!session_id || !session_id.startsWith('cs_')) {
       return NextResponse.json(
@@ -167,6 +169,30 @@ export async function POST(
       );
     }
 
+    // Generate magic link for auto-sign-in
+    let magicLink: string | undefined;
+    const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || process.env.VERCEL_URL
+      ? `https://${process.env.VERCEL_URL}`
+      : 'http://localhost:3000';
+    const finalRedirect = redirect_to || `/${companySlug}/${roleSlug}/journey`;
+
+    try {
+      const { data: linkData, error: linkError } = await supabase.auth.admin.generateLink({
+        type: 'magiclink',
+        email: customerEmail,
+        options: {
+          redirectTo: `${baseUrl}${finalRedirect}`,
+        },
+      });
+
+      if (!linkError && linkData?.properties?.action_link) {
+        magicLink = linkData.properties.action_link;
+      }
+    } catch (linkErr) {
+      console.error('Failed to generate magic link:', linkErr);
+      // Continue without magic link - user can still sign in manually
+    }
+
     return NextResponse.json({
       success: true,
       message: isNewUser ? 'Account created and access granted' : 'Access granted successfully',
@@ -174,6 +200,7 @@ export async function POST(
       user_id: userId,
       email: customerEmail,
       is_new_user: isNewUser,
+      magic_link: magicLink,
     });
   } catch (error) {
     console.error('Grant access error:', error);

@@ -48,16 +48,26 @@ export function CheckoutSuccessContent() {
         // If payment is complete, grant access and create user if needed
         if (sessionData.session.payment_status === 'paid') {
           try {
+            const redirectTo = sessionData.session.company_slug && sessionData.session.role_slug
+              ? `/${sessionData.session.company_slug}/${sessionData.session.role_slug}/journey`
+              : '/dashboard';
+
             const grantResponse = await fetch('/api/access/grant', {
               method: 'POST',
               headers: { 'Content-Type': 'application/json' },
-              body: JSON.stringify({ session_id: sessionId }),
+              body: JSON.stringify({ session_id: sessionId, redirect_to: redirectTo }),
             });
             const grantData = await grantResponse.json();
             if (grantData.success) {
               setAccessGranted(true);
               setUserEmail(grantData.email || null);
               setIsNewUser(grantData.is_new_user || false);
+
+              // Auto-redirect with magic link if available
+              if (grantData.magic_link) {
+                window.location.href = grantData.magic_link;
+                return; // Stop further processing
+              }
             }
           } catch (grantErr) {
             // Log but don't fail - webhook might handle it
