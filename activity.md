@@ -2,8 +2,9 @@
 
 ## Current Status
 **Last Updated:** 2026-01-17
-**Tasks Completed:** 4
+**Tasks Completed:** 5
 **Stage 1:** COMPLETE (All 4 issues closed)
+**Stage 2:** IN PROGRESS (1 of 4 sub-issues complete)
 **Current Task:** None
 
 ---
@@ -113,6 +114,42 @@
 - Connection tests verify client initialization
 
 **Note:** Manual dashboard configuration (creating Supabase projects, enabling auth providers, setting real credentials) is outside the scope of code automation.
+
+---
+
+## Stage 2 Progress
+
+### 2026-01-17 - Issue #45: Journey State Management
+
+**Completed:**
+- Added Supabase sync for logged-in users to existing JourneyContext:
+  - `src/lib/journey/supabase-sync.ts` - new file with sync functions:
+    - `loadFromSupabase()` - loads journey progress from Supabase
+    - `saveToSupabase()` - saves journey progress to Supabase
+    - `JourneyProgressRow` type for Supabase table schema
+  - Updated `src/components/journey/JourneyContext.tsx`:
+    - Added `enableSupabaseSync` prop (default: true)
+    - Load from Supabase on mount (if remote state is newer)
+    - Save to Supabase on state changes (debounced 1 second)
+  - Updated `src/lib/journey/index.ts` - exports new sync functions
+- All other acceptance criteria were already implemented:
+  - `JourneyProvider` context component
+  - `useJourney()` hook returns: currentStepIndex, completedSteps, answers, progress
+  - Actions: goToStep(), nextStep(), prevStep(), markComplete(), setAnswer()
+  - State persists to localStorage (key: `journey-{journeyId}`)
+
+**Tests Added:**
+- `src/lib/journey/__tests__/supabase-sync.test.ts` - 10 tests for sync functions
+- Added 3 Supabase integration tests to JourneyContext.test.tsx
+
+**Verification:**
+- `npm run lint` - passes with no errors
+- `npm run type-check` - passes with no errors
+- `npm run build` - successful production build
+- `npm test` - 205 tests pass (added 13 new tests)
+
+**Screenshot:**
+- `screenshots/journey-state-management.png` - Demo page
 
 ---
 

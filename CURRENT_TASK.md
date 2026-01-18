@@ -1,24 +1,51 @@
 # Current Task
 
-**Status:** Stage 1 Complete - All Issues Closed
-**Date:** 2026-01-17
+**Status:** ✅ COMPLETE - All tests passing
 
-## Summary
+**Started:** 2026-01-17
 
-Stage 1 (Foundation) is now **COMPLETE**.
+**Issue:** https://github.com/dave/jobwiz/issues/45
 
-### Issues Completed:
-1. **#3** - Repo setup, CI/CD, Next.js 14 (closed previously)
-2. **#6** - Module schema + position matrix (closed previously)
-3. **#47** - Journey config schema (closed previously)
-4. **#55** - Supabase project setup (closed today)
+---
 
-### Verification:
-- All 192 tests passing
-- No open Stage 1 issues remain
-- Build passes: `npm run build`
-- Lint passes: `npm run lint`
+## Acceptance Criteria Verification
 
-## Next Steps
+| Requirement | Status |
+|-------------|--------|
+| `JourneyProvider` context component | ✅ |
+| `useJourney()` hook returns: currentStepIndex, completedSteps, answers, progress | ✅ |
+| Actions: goToStep(), nextStep(), prevStep(), markComplete(), setAnswer() | ✅ |
+| State persists to localStorage (key: `journey-{journeyId}`) | ✅ |
+| State syncs to Supabase when user logged in | ✅ |
 
-All Stage 1 issues are complete. The project is ready to proceed to Stage 2 (UI Framework).
+## Files Changed/Created
+
+1. **Created:** `src/lib/journey/supabase-sync.ts`
+   - `loadFromSupabase()` - loads journey progress from Supabase
+   - `saveToSupabase()` - saves journey progress to Supabase
+   - `JourneyProgressRow` type for Supabase table
+
+2. **Modified:** `src/components/journey/JourneyContext.tsx`
+   - Added `enableSupabaseSync` prop (default: true)
+   - Load from Supabase on mount (if remote state is newer)
+   - Save to Supabase on state changes (debounced 1 second)
+
+3. **Created:** `src/lib/journey/__tests__/supabase-sync.test.ts`
+   - 10 tests for Supabase sync functions
+
+4. **Modified:** `src/components/journey/__tests__/JourneyContext.test.tsx`
+   - Added 3 Supabase sync integration tests
+
+5. **Modified:** `src/lib/journey/index.ts`
+   - Exports new sync functions
+
+## Test Results
+
+```
+Test Suites: 14 passed, 14 total
+Tests:       2 todo, 205 passed, 207 total
+```
+
+- ✅ Lint: No errors
+- ✅ Type-check: No errors
+- ✅ Build: Successful

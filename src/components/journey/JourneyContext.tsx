@@ -6,6 +6,7 @@ import {
   useContext,
   useEffect,
   useMemo,
+  useRef,
   useState,
   type ReactNode,
 } from "react";
@@ -15,6 +16,10 @@ import type {
   JourneyAnswer,
   JourneyState,
 } from "@/types";
+import {
+  loadFromSupabase,
+  saveToSupabase,
+} from "@/lib/journey/supabase-sync";
 
 const JourneyContext = createContext<JourneyContextValue | null>(null);
 
@@ -54,13 +59,21 @@ interface JourneyProviderProps {
   children: ReactNode;
   /** Initial step index (useful for testing) */
   initialStepIndex?: number;
+  /** Enable Supabase sync for logged-in users (default: true) */
+  enableSupabaseSync?: boolean;
 }
 
 export function JourneyProvider({
   config,
   children,
   initialStepIndex = 0,
+  enableSupabaseSync = true,
 }: JourneyProviderProps) {
+  // Track if Supabase state has been loaded
+  const supabaseLoadedRef = useRef(false);
+  const saveTimeoutRef = useRef<NodeJS.Timeout | null>(null);
+  const lastSavedRef = useRef<string>("");
+
   // Load persisted state or use defaults
   const [currentStepIndex, setCurrentStepIndex] = useState(() => {
     const persisted = loadPersistedState(config.id);
@@ -106,6 +119,78 @@ export function JourneyProvider({
 
     persistState(state);
   }, [config.id, currentStepIndex, completedSteps, answers]);
+
+  // Supabase sync: Load from Supabase on mount (once)
+  useEffect(() => {
+    if (!enableSupabaseSync || supabaseLoadedRef.current) return;
+    supabaseLoadedRef.current = true;
+
+    const localState = loadPersistedState(config.id);
+    const localTimestamp = localState?.lastUpdated ?? 0;
+
+    loadFromSupabase(config.id).then((remoteState) => {
+      if (remoteState && remoteState.lastUpdated > localTimestamp) {
+        // Remote state is newer, apply it
+        setCurrentStepIndex(remoteState.currentStepIndex);
+        setCompletedSteps(new Set(remoteState.completedSteps));
+        const answerMap = new Map<string, unknown>();
+        for (const answer of remoteState.answers) {
+          answerMap.set(answer.questionId, answer.answer);
+        }
+        setAnswers(answerMap);
+      }
+    });
+  }, [config.id, enableSupabaseSync]);
+
+  // Supabase sync: Save to Supabase on state changes (debounced)
+  useEffect(() => {
+    if (!enableSupabaseSync) return;
+
+    const stateKey = JSON.stringify({
+      currentStepIndex,
+      completedSteps: Array.from(completedSteps),
+      answers: Array.from(answers.entries()),
+    });
+
+    // Skip if state hasn't changed
+    if (stateKey === lastSavedRef.current) return;
+
+    // Clear previous timeout
+    if (saveTimeoutRef.current) {
+      clearTimeout(saveTimeoutRef.current);
+    }
+
+    // Debounce save by 1 second
+    saveTimeoutRef.current = setTimeout(() => {
+      const answersArray: JourneyAnswer[] = Array.from(answers.entries()).map(
+        ([questionId, answer]) => ({
+          questionId,
+          answer,
+          timestamp: Date.now(),
+        })
+      );
+
+      const state: JourneyState = {
+        journeyId: config.id,
+        currentStepIndex,
+        completedSteps: Array.from(completedSteps),
+        answers: answersArray,
+        lastUpdated: Date.now(),
+      };
+
+      saveToSupabase(state).then((success) => {
+        if (success) {
+          lastSavedRef.current = stateKey;
+        }
+      });
+    }, 1000);
+
+    return () => {
+      if (saveTimeoutRef.current) {
+        clearTimeout(saveTimeoutRef.current);
+      }
+    };
+  }, [config.id, currentStepIndex, completedSteps, answers, enableSupabaseSync]);
 
   // Calculate derived values
   // Ensure we have a valid step index

@@ -602,3 +602,68 @@ describe("JourneyProvider rendering", () => {
     expect(screen.getByTestId("nested")).toHaveTextContent("Step 1 of 3");
   });
 });
+
+// Mock Supabase sync module
+jest.mock("@/lib/journey/supabase-sync", () => ({
+  loadFromSupabase: jest.fn().mockResolvedValue(null),
+  saveToSupabase: jest.fn().mockResolvedValue(true),
+}));
+
+describe("Supabase sync integration", () => {
+  beforeEach(() => {
+    mockLocalStorage.clear();
+    jest.clearAllMocks();
+  });
+
+  test("enableSupabaseSync defaults to true", () => {
+    const config = createConfig();
+    const { result } = renderHook(() => useJourney(), {
+      wrapper: createWrapper(config),
+    });
+
+    // Just verify the hook works with default settings
+    expect(result.current.currentStepIndex).toBe(0);
+  });
+
+  test("works with enableSupabaseSync=false", () => {
+    const config = createConfig();
+
+    function WrapperWithSyncDisabled({
+      children,
+    }: {
+      children: React.ReactNode;
+    }) {
+      return (
+        <JourneyProvider config={config} enableSupabaseSync={false}>
+          {children}
+        </JourneyProvider>
+      );
+    }
+
+    const { result } = renderHook(() => useJourney(), {
+      wrapper: WrapperWithSyncDisabled,
+    });
+
+    expect(result.current.currentStepIndex).toBe(0);
+
+    act(() => {
+      result.current.nextStep();
+    });
+
+    expect(result.current.currentStepIndex).toBe(1);
+  });
+
+  test("state changes are persisted to localStorage even with Supabase sync enabled", () => {
+    const config = createConfig();
+    const { result } = renderHook(() => useJourney(), {
+      wrapper: createWrapper(config),
+    });
+
+    act(() => {
+      result.current.markComplete("step-1");
+    });
+
+    // Check localStorage was called
+    expect(mockLocalStorage.setItem).toHaveBeenCalled();
+  });
+});

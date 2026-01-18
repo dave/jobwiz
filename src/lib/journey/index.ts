@@ -13,3 +13,9 @@ export {
   JourneyConfigNotFoundError,
   JourneyConfigValidationError,
 } from "./config";
+
+export {
+  loadFromSupabase,
+  saveToSupabase,
+  type JourneyProgressRow,
+} from "./supabase-sync";
