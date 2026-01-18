@@ -2,11 +2,11 @@
 
 ## Current Status
 **Last Updated:** 2026-01-18
-**Tasks Completed:** 27
+**Tasks Completed:** 28
 **Stage 1:** COMPLETE (All 4 issues closed)
 **Stage 2:** COMPLETE (All 4 issues closed: #7, #8, #9, #10)
 **Stage 3:** COMPLETE (All 3 issues closed: #4, #5, #19)
-**Stage 4:** IN PROGRESS (Issues closed: #14, #11, #12, #13, #26, #27, #28, #29, #15)
+**Stage 4:** IN PROGRESS (Issues closed: #14, #11, #12, #13, #26, #27, #28, #29, #15, #31)
 **Current Task:** None
 
 ---
@@ -893,6 +893,50 @@ All Stage 3 (Data Collection) issues are now closed:
 - `npm run build` - successful production build
 - `npm test` - 685 passed, 2 todo (28 new tests)
 - `npm run quality-check -- --input=output/company-google-preview.json` - works correctly
+
+### 2026-01-18 - Issue #31: Supabase content storage schema
+
+**Completed:**
+- Created Supabase migration for content storage tables: `supabase/migrations/20260118000002_create_content_storage_tables.sql`
+- Implemented three tables:
+  - `modules` - content modules with type, company_slug, role_slug, status, versioning
+  - `content_blocks` - individual content pieces with JSONB content storage
+  - `generation_runs` - tracking generation history with cost/token tracking
+- Added full-text search:
+  - tsvector column with weighted search (title=A, description=B, slugs=C)
+  - GIN index for fast full-text search
+  - Auto-update trigger on insert/update
+- Added Row-Level Security policies:
+  - Free users can read published non-premium modules
+  - Authenticated users can read premium content
+  - Service role has full access
+- Created TypeScript storage library `src/lib/content/`:
+  - `types.ts` - Database types matching schema
+  - `storage.ts` - CRUD operations for modules, blocks, generation runs
+  - `index.ts` - Re-exports
+- All fields use `company_slug`/`role_slug` strings (consistent with #4, #19)
+
+**Files Created:**
+- `supabase/migrations/20260118000002_create_content_storage_tables.sql`
+- `src/lib/content/types.ts`
+- `src/lib/content/storage.ts`
+- `src/lib/content/index.ts`
+- `src/lib/content/__tests__/storage.test.ts` - 55 tests
+
+**Tests:**
+- 55 unit tests covering:
+  - Module CRUD operations
+  - Content block creation and retrieval
+  - Generation run tracking
+  - Full-text search functionality
+  - Slug format validation
+  - Content block JSONB structure
+
+**Verification:**
+- `npm run lint` - passes with no errors
+- `npm run type-check` - passes with no errors
+- `npm run build` - successful production build
+- `npm test` - 740 passed, 2 todo (55 new tests)
 
 ---
 
