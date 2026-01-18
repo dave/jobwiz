@@ -2,13 +2,13 @@
 
 ## Current Status
 **Last Updated:** 2026-01-18
-**Tasks Completed:** 39
+**Tasks Completed:** 40
 **Stage 1:** COMPLETE (All 4 issues closed)
 **Stage 2:** COMPLETE (All 4 issues closed: #7, #8, #9, #10)
 **Stage 3:** COMPLETE (All 3 issues closed: #4, #5, #19)
 **Stage 4:** COMPLETE (All issues closed: #14, #11, #12, #13, #15, #16, #18)
-**Stage 5:** IN PROGRESS (#20 closed, #21 closed, #22 closed, #24 in progress - sub-issues #41, #42 complete)
-**Current Task:** #42 Variant assignment + storage - COMPLETE
+**Stage 5:** IN PROGRESS (#20 closed, #21 closed, #22 closed, #24 in progress - sub-issues #41, #42, #43 complete)
+**Current Task:** #43 Conversion tracking events - COMPLETE
 
 ---
 
@@ -1965,3 +1965,84 @@ All Stage 1 (Foundation) issues are now closed:
 
 **Screenshot:**
 - `screenshots/42-variant-assignment-paywall-demo.png` - Paywall demo showing variant system
+
+### 2026-01-18 - Issue #43: Conversion tracking events
+
+**Completed:**
+- Created analytics module `src/lib/analytics/`:
+  - `types.ts` - Type definitions for events (page_view, cta_click, checkout_started, purchase_completed, etc.)
+  - `client.ts` - PostHog client initialization with singleton pattern
+  - `tracking.ts` - Event tracking with automatic variant injection
+  - `server.ts` - Server-side event tracking via PostHog HTTP API
+  - `paywall.ts` - PaywallGate integration for paywall events
+  - `provider.tsx` - AnalyticsProvider React component with page view tracking
+  - `index.ts` - Re-exports all functions
+- Implemented client-side tracking:
+  - PostHog JS SDK integration (posthog-js)
+  - `trackEvent(eventName, properties)` - wrapper that auto-adds variant
+  - `setExperimentContext(experiment, variant)` - sets current experiment context
+  - `setPositionContext(company, role)` - sets current position context
+  - Automatic enrichment of all events with experiment/variant/position
+  - `$set: { paywall_variant }` for PostHog user properties
+- Implemented server-side tracking:
+  - PostHog HTTP API integration for server components/webhooks
+  - `captureServerEvent()` - sends events to PostHog capture endpoint
+  - `trackServerPurchaseCompleted()` - for Stripe webhook integration
+  - `identifyServer()` and `aliasServer()` - user identification
+- Implemented tracking functions:
+  - `trackPageView()` - page view with path
+  - `trackCTAClick()` - button clicks with location
+  - `trackCheckoutStarted()` - checkout initiation with product details
+  - `trackPurchaseCompleted()` - purchase completion with amount/session
+  - `trackPaywallImpression()` - paywall shown
+  - `trackPaywallCTAClick()` - paywall CTA clicked
+  - `trackPaywallUnlock()` - content unlocked
+  - `trackJourneyStepComplete()` - journey step completion
+  - `trackAuthStarted()` and `trackAuthComplete()` - auth tracking
+- Created AnalyticsProvider component:
+  - Initializes PostHog on mount
+  - Captures UTM parameters
+  - Tracks page views on route change
+  - Provides useAnalytics() hook for components
+- Integrated with app providers (src/app/providers.tsx)
+- Added PostHog environment variables to .env.example
+
+**Files Created:**
+- `src/lib/analytics/types.ts`
+- `src/lib/analytics/client.ts`
+- `src/lib/analytics/tracking.ts`
+- `src/lib/analytics/server.ts`
+- `src/lib/analytics/paywall.ts`
+- `src/lib/analytics/provider.tsx`
+- `src/lib/analytics/index.ts`
+- `src/lib/analytics/__tests__/types.test.ts`
+- `src/lib/analytics/__tests__/client.test.ts`
+- `src/lib/analytics/__tests__/tracking.test.ts`
+- `src/lib/analytics/__tests__/server.test.ts`
+- `src/lib/analytics/__tests__/paywall.test.ts`
+- `src/lib/analytics/__tests__/provider.test.tsx`
+
+**Tests:**
+- 96 unit tests covering:
+  - Type definitions and event properties
+  - PostHog client initialization
+  - Event tracking with variant injection
+  - Server-side event capture
+  - Paywall event tracking
+  - Provider lifecycle and hooks
+  - UTM parameter capture
+  - Experiment/position context management
+
+**Verification:**
+- `npm run lint` - passes with no errors
+- `npm run type-check` - passes with no errors
+- `npm run build` - successful production build
+- `npm test` - 1767 passed, 2 todo (96 new analytics tests)
+- All acceptance criteria verified:
+  - page_view includes variant ✓
+  - cta_click includes variant ✓
+  - checkout_started includes variant and product ✓
+  - purchase_completed includes variant, product, amount ✓
+  - Client-side: PostHog JS SDK ✓
+  - Server-side: PostHog HTTP API ✓
+  - trackEvent wrapper adds variant automatically ✓
