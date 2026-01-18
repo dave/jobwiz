@@ -1,0 +1,54 @@
+{
+  "roles": [
+    {
+      "name": "Software Engineer",
+      "slug": "software-engineer",
+      "aliases": ["SWE", "Developer", "Programmer"]
+    },
+    {
+      "name": "Product Manager",
+      "slug": "product-manager",
+      "aliases": ["PM", "Product Owner"]
+    },
+    {
+      "name": "Data Scientist",
+      "slug": "data-scientist",
+      "aliases": ["ML Engineer", "Machine Learning Engineer"]
+    },
+    {
+      "name": "Data Analyst",
+      "slug": "data-analyst",
+      "aliases": ["Business Analyst", "Analytics"]
+    },
+    {
+      "name": "UX Designer",
+      "slug": "ux-designer",
+      "aliases": ["Product Designer", "UI Designer"]
+    },
+    {
+      "name": "DevOps Engineer",
+      "slug": "devops-engineer",
+      "aliases": ["SRE", "Site Reliability Engineer", "Platform Engineer"]
+    },
+    {
+      "name": "Engineering Manager",
+      "slug": "engineering-manager",
+      "aliases": ["Tech Lead", "Technical Manager"]
+    },
+    {
+      "name": "Business Analyst",
+      "slug": "business-analyst",
+      "aliases": ["BA", "Systems Analyst"]
+    },
+    {
+      "name": "Solutions Architect",
+      "slug": "solutions-architect",
+      "aliases": ["Technical Architect", "Cloud Architect"]
+    },
+    {
+      "name": "Consultant",
+      "slug": "consultant",
+      "aliases": ["Management Consultant", "Strategy Consultant"]
+    }
+  ]
+}

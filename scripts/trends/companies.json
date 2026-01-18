@@ -1,0 +1,154 @@
+{
+  "categories": [
+    {
+      "name": "Big Tech",
+      "companies": [
+        {"name": "Google", "slug": "google"},
+        {"name": "Apple", "slug": "apple"},
+        {"name": "Microsoft", "slug": "microsoft"},
+        {"name": "Amazon", "slug": "amazon"},
+        {"name": "Meta", "slug": "meta"},
+        {"name": "Netflix", "slug": "netflix"},
+        {"name": "Tesla", "slug": "tesla"},
+        {"name": "NVIDIA", "slug": "nvidia"},
+        {"name": "Adobe", "slug": "adobe"},
+        {"name": "Salesforce", "slug": "salesforce"},
+        {"name": "Oracle", "slug": "oracle"},
+        {"name": "IBM", "slug": "ibm"},
+        {"name": "Intel", "slug": "intel"},
+        {"name": "Cisco", "slug": "cisco"},
+        {"name": "Uber", "slug": "uber"},
+        {"name": "Lyft", "slug": "lyft"},
+        {"name": "Airbnb", "slug": "airbnb"},
+        {"name": "Twitter", "slug": "twitter"},
+        {"name": "LinkedIn", "slug": "linkedin"},
+        {"name": "Snap", "slug": "snap"}
+      ]
+    },
+    {
+      "name": "Finance",
+      "companies": [
+        {"name": "Goldman Sachs", "slug": "goldman-sachs"},
+        {"name": "JPMorgan Chase", "slug": "jpmorgan"},
+        {"name": "Morgan Stanley", "slug": "morgan-stanley"},
+        {"name": "Bank of America", "slug": "bank-of-america"},
+        {"name": "Citigroup", "slug": "citigroup"},
+        {"name": "Wells Fargo", "slug": "wells-fargo"},
+        {"name": "Blackrock", "slug": "blackrock"},
+        {"name": "Fidelity", "slug": "fidelity"},
+        {"name": "Charles Schwab", "slug": "charles-schwab"},
+        {"name": "American Express", "slug": "american-express"},
+        {"name": "Capital One", "slug": "capital-one"},
+        {"name": "Visa", "slug": "visa"},
+        {"name": "Mastercard", "slug": "mastercard"},
+        {"name": "PayPal", "slug": "paypal"},
+        {"name": "Square", "slug": "square"},
+        {"name": "Stripe", "slug": "stripe"},
+        {"name": "Robinhood", "slug": "robinhood"},
+        {"name": "Coinbase", "slug": "coinbase"},
+        {"name": "Bloomberg", "slug": "bloomberg"},
+        {"name": "Citadel", "slug": "citadel"}
+      ]
+    },
+    {
+      "name": "Consulting",
+      "companies": [
+        {"name": "McKinsey", "slug": "mckinsey"},
+        {"name": "Boston Consulting Group", "slug": "bcg"},
+        {"name": "Bain & Company", "slug": "bain"},
+        {"name": "Deloitte", "slug": "deloitte"},
+        {"name": "PwC", "slug": "pwc"},
+        {"name": "EY", "slug": "ey"},
+        {"name": "KPMG", "slug": "kpmg"},
+        {"name": "Accenture", "slug": "accenture"},
+        {"name": "Booz Allen Hamilton", "slug": "booz-allen"},
+        {"name": "Oliver Wyman", "slug": "oliver-wyman"},
+        {"name": "A.T. Kearney", "slug": "at-kearney"},
+        {"name": "Roland Berger", "slug": "roland-berger"},
+        {"name": "Strategy&", "slug": "strategy-and"},
+        {"name": "LEK Consulting", "slug": "lek-consulting"},
+        {"name": "ZS Associates", "slug": "zs-associates"}
+      ]
+    },
+    {
+      "name": "Healthcare & Pharma",
+      "companies": [
+        {"name": "Johnson & Johnson", "slug": "johnson-and-johnson"},
+        {"name": "Pfizer", "slug": "pfizer"},
+        {"name": "UnitedHealth", "slug": "unitedhealth"},
+        {"name": "CVS Health", "slug": "cvs-health"},
+        {"name": "Merck", "slug": "merck"},
+        {"name": "AbbVie", "slug": "abbvie"},
+        {"name": "Bristol-Myers Squibb", "slug": "bristol-myers-squibb"},
+        {"name": "Eli Lilly", "slug": "eli-lilly"},
+        {"name": "Amgen", "slug": "amgen"},
+        {"name": "Gilead Sciences", "slug": "gilead"},
+        {"name": "Moderna", "slug": "moderna"},
+        {"name": "Regeneron", "slug": "regeneron"},
+        {"name": "Biogen", "slug": "biogen"},
+        {"name": "Anthem", "slug": "anthem"},
+        {"name": "Humana", "slug": "humana"}
+      ]
+    },
+    {
+      "name": "Retail & Consumer",
+      "companies": [
+        {"name": "Walmart", "slug": "walmart"},
+        {"name": "Target", "slug": "target"},
+        {"name": "Costco", "slug": "costco"},
+        {"name": "Home Depot", "slug": "home-depot"},
+        {"name": "Lowe's", "slug": "lowes"},
+        {"name": "Nike", "slug": "nike"},
+        {"name": "Starbucks", "slug": "starbucks"},
+        {"name": "McDonald's", "slug": "mcdonalds"},
+        {"name": "Coca-Cola", "slug": "coca-cola"},
+        {"name": "PepsiCo", "slug": "pepsico"},
+        {"name": "Procter & Gamble", "slug": "procter-and-gamble"},
+        {"name": "Unilever", "slug": "unilever"},
+        {"name": "Nestle", "slug": "nestle"},
+        {"name": "Disney", "slug": "disney"},
+        {"name": "Comcast", "slug": "comcast"}
+      ]
+    },
+    {
+      "name": "Tech Startups & Scale-ups",
+      "companies": [
+        {"name": "Databricks", "slug": "databricks"},
+        {"name": "Snowflake", "slug": "snowflake"},
+        {"name": "Palantir", "slug": "palantir"},
+        {"name": "Datadog", "slug": "datadog"},
+        {"name": "Cloudflare", "slug": "cloudflare"},
+        {"name": "MongoDB", "slug": "mongodb"},
+        {"name": "Twilio", "slug": "twilio"},
+        {"name": "Okta", "slug": "okta"},
+        {"name": "Splunk", "slug": "splunk"},
+        {"name": "ServiceNow", "slug": "servicenow"},
+        {"name": "Workday", "slug": "workday"},
+        {"name": "Zoom", "slug": "zoom"},
+        {"name": "Slack", "slug": "slack"},
+        {"name": "Atlassian", "slug": "atlassian"},
+        {"name": "HubSpot", "slug": "hubspot"},
+        {"name": "Shopify", "slug": "shopify"},
+        {"name": "DoorDash", "slug": "doordash"},
+        {"name": "Instacart", "slug": "instacart"},
+        {"name": "Figma", "slug": "figma"},
+        {"name": "Notion", "slug": "notion"}
+      ]
+    },
+    {
+      "name": "Aerospace & Defense",
+      "companies": [
+        {"name": "Boeing", "slug": "boeing"},
+        {"name": "Lockheed Martin", "slug": "lockheed-martin"},
+        {"name": "Raytheon", "slug": "raytheon"},
+        {"name": "Northrop Grumman", "slug": "northrop-grumman"},
+        {"name": "General Dynamics", "slug": "general-dynamics"},
+        {"name": "SpaceX", "slug": "spacex"},
+        {"name": "Blue Origin", "slug": "blue-origin"},
+        {"name": "Honeywell", "slug": "honeywell"},
+        {"name": "General Electric", "slug": "general-electric"},
+        {"name": "3M", "slug": "3m"}
+      ]
+    }
+  ]
+}

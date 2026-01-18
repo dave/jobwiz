@@ -1,0 +1,48 @@
+{
+  "generated_at": "2026-01-17T17:10:00Z",
+  "geography": "US",
+  "status": "complete",
+  "companies": [
+    {
+      "name": "Google",
+      "slug": "google",
+      "category": "Big Tech",
+      "interview_volume": 85,
+      "roles": [
+        {"name": "Software Engineer", "slug": "software-engineer", "volume": 72},
+        {"name": "Product Manager", "slug": "product-manager", "volume": 65}
+      ]
+    },
+    {
+      "name": "Apple",
+      "slug": "apple",
+      "category": "Big Tech",
+      "interview_volume": 78,
+      "roles": [
+        {"name": "Software Engineer", "slug": "software-engineer", "volume": 68},
+        {"name": "Product Manager", "slug": "product-manager", "volume": 55}
+      ]
+    },
+    {
+      "name": "Microsoft",
+      "slug": "microsoft",
+      "category": "Big Tech",
+      "interview_volume": 70,
+      "roles": [
+        {"name": "Software Engineer", "slug": "software-engineer", "volume": 62},
+        {"name": "Product Manager", "slug": "product-manager", "volume": 48}
+      ]
+    }
+  ],
+  "priority_list": [
+    {"company": "google", "role": null, "score": 85},
+    {"company": "apple", "role": null, "score": 78},
+    {"company": "google", "role": "software-engineer", "score": 72},
+    {"company": "microsoft", "role": null, "score": 70},
+    {"company": "apple", "role": "software-engineer", "score": 68},
+    {"company": "google", "role": "product-manager", "score": 65},
+    {"company": "microsoft", "role": "software-engineer", "score": 62},
+    {"company": "apple", "role": "product-manager", "score": 55},
+    {"company": "microsoft", "role": "product-manager", "score": 48}
+  ]
+}
