@@ -20,6 +20,8 @@ import {
   generateCompanyRoleBreadcrumbs,
 } from "@/lib/seo";
 import { JsonLd } from "@/components/seo";
+import { ThemeProvider, CompanyLogo, ThemedButton } from "@/components/theme";
+import { getResolvedTheme, type ResolvedTheme, resolveTheme } from "@/lib/theme";
 
 interface CompanyRolePageProps {
   params: Promise<{
@@ -74,14 +76,23 @@ export default async function CompanyRolePage({ params }: CompanyRolePageProps) 
 
   const { company, role, canonicalPath } = result;
 
-  // Fetch preview content from Supabase (if available)
+  // Fetch preview content and theme from Supabase
   let previewContent: PreviewContent | null = null;
+  let theme: ResolvedTheme;
+
   try {
     const supabase = await createServerClient();
-    previewContent = await getPreviewContent(supabase, company.slug, role.slug);
+    const [contentResult, themeResult] = await Promise.all([
+      getPreviewContent(supabase, company.slug, role.slug).catch(() => null),
+      getResolvedTheme(supabase, company.slug),
+    ]);
+    previewContent = contentResult;
+    theme = themeResult;
   } catch {
-    // Content may not be generated yet - continue with placeholder
-    console.log(`No content yet for ${company.slug}/${role.slug}`);
+    // Fallback to default theme if Supabase unavailable
+    previewContent = null;
+    theme = resolveTheme(company.slug, null);
+    console.log(`No content/theme yet for ${company.slug}/${role.slug}`);
   }
 
   // Determine if we have real content or should show placeholder
@@ -94,7 +105,7 @@ export default async function CompanyRolePage({ params }: CompanyRolePageProps) 
   const breadcrumbSchema = generateCompanyRoleBreadcrumbs(company, role);
 
   return (
-    <>
+    <ThemeProvider theme={theme} as="div">
       {/* JSON-LD Structured Data */}
       <JsonLd data={courseSchema} />
       <JsonLd data={organizationSchema} />
@@ -106,9 +117,20 @@ export default async function CompanyRolePage({ params }: CompanyRolePageProps) 
         <section className="bg-white border-b border-gray-200">
           <div className="max-w-4xl mx-auto px-4 py-12 sm:py-16">
             <div className="text-center">
-              <span className="inline-block px-3 py-1 text-xs font-medium text-blue-700 bg-blue-100 rounded-full mb-4">
+              {/* Company Logo */}
+              <div className="flex justify-center mb-6">
+                <CompanyLogo
+                  logoUrl={theme.logoUrl}
+                  companyName={company.name}
+                  size="large"
+                />
+              </div>
+
+              {/* Category badge - uses theme colors */}
+              <span className="inline-block px-3 py-1 text-xs font-medium text-[var(--theme-primary,#2563eb)] bg-[var(--theme-primary-light,#dbeafe)] rounded-full mb-4">
                 {company.category}
               </span>
+
               <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
                 {company.name} {role.name} Interview Prep
               </h1>
@@ -116,17 +138,16 @@ export default async function CompanyRolePage({ params }: CompanyRolePageProps) 
                 Get ready to ace your {company.name} {role.name} interview with
                 our comprehensive preparation guide.
               </p>
-              <button
-                type="button"
-                className="inline-flex items-center justify-center px-6 py-3 text-base font-medium text-white bg-blue-600 hover:bg-blue-700 rounded-lg transition-colors min-h-[44px] min-w-[44px]"
-              >
+
+              {/* Themed CTA button */}
+              <ThemedButton variant="primary" size="medium">
                 Start Your Prep
-              </button>
+              </ThemedButton>
             </div>
           </div>
         </section>
 
-        {/* Content Preview Section - Uses content fetching layer */}
+        {/* Content Preview Section */}
         <section className="max-w-4xl mx-auto px-4 py-12">
           <h2 className="text-xl font-semibold text-gray-900 mb-6">
             What You&apos;ll Learn
@@ -140,7 +161,7 @@ export default async function CompanyRolePage({ params }: CompanyRolePageProps) 
                 {previewContent.modules.map((mod) => (
                   <div
                     key={mod.id}
-                    className="p-6 bg-white rounded-lg border border-gray-200"
+                    className="p-6 bg-white rounded-lg border border-gray-200 hover:border-[var(--theme-primary,#2563eb)] transition-colors"
                   >
                     <h3 className="font-medium text-gray-900 mb-2">
                       {mod.title}
@@ -183,10 +204,10 @@ export default async function CompanyRolePage({ params }: CompanyRolePageProps) 
           ) : (
             /* Placeholder content when no modules in Supabase yet */
             <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-              <div className="p-6 bg-white rounded-lg border border-gray-200">
-                <div className="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
+              <div className="p-6 bg-white rounded-lg border border-gray-200 hover:border-[var(--theme-primary,#2563eb)] transition-colors">
+                <div className="w-10 h-10 bg-[var(--theme-primary-light,#dbeafe)] rounded-lg flex items-center justify-center mb-4">
                   <svg
-                    className="w-5 h-5 text-blue-600"
+                    className="w-5 h-5 text-[var(--theme-primary,#2563eb)]"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -205,10 +226,10 @@ export default async function CompanyRolePage({ params }: CompanyRolePageProps) 
                   demonstrate cultural fit.
                 </p>
               </div>
-              <div className="p-6 bg-white rounded-lg border border-gray-200">
-                <div className="w-10 h-10 bg-green-100 rounded-lg flex items-center justify-center mb-4">
+              <div className="p-6 bg-white rounded-lg border border-gray-200 hover:border-[var(--theme-primary,#2563eb)] transition-colors">
+                <div className="w-10 h-10 bg-[var(--theme-secondary-light,#f1f5f9)] rounded-lg flex items-center justify-center mb-4">
                   <svg
-                    className="w-5 h-5 text-green-600"
+                    className="w-5 h-5 text-[var(--theme-secondary,#64748b)]"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -227,10 +248,10 @@ export default async function CompanyRolePage({ params }: CompanyRolePageProps) 
                   {company.name}.
                 </p>
               </div>
-              <div className="p-6 bg-white rounded-lg border border-gray-200">
-                <div className="w-10 h-10 bg-purple-100 rounded-lg flex items-center justify-center mb-4">
+              <div className="p-6 bg-white rounded-lg border border-gray-200 hover:border-[var(--theme-primary,#2563eb)] transition-colors">
+                <div className="w-10 h-10 bg-[var(--theme-primary-light,#dbeafe)] rounded-lg flex items-center justify-center mb-4">
                   <svg
-                    className="w-5 h-5 text-purple-600"
+                    className="w-5 h-5 text-[var(--theme-primary,#2563eb)]"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -258,7 +279,7 @@ export default async function CompanyRolePage({ params }: CompanyRolePageProps) 
           <nav aria-label="Breadcrumb">
             <ol className="flex items-center gap-2 text-sm text-gray-500">
               <li>
-                <Link href="/" className="hover:text-gray-700 transition-colors">
+                <Link href="/" className="hover:text-[var(--theme-primary,#2563eb)] transition-colors">
                   Home
                 </Link>
               </li>
@@ -266,7 +287,7 @@ export default async function CompanyRolePage({ params }: CompanyRolePageProps) 
               <li>
                 <Link
                   href={`/${company.slug}`}
-                  className="hover:text-gray-700 transition-colors"
+                  className="hover:text-[var(--theme-primary,#2563eb)] transition-colors"
                 >
                   {company.name}
                 </Link>
@@ -279,7 +300,7 @@ export default async function CompanyRolePage({ params }: CompanyRolePageProps) 
           </nav>
         </section>
       </main>
-    </>
+    </ThemeProvider>
   );
 }
 

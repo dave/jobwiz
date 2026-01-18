@@ -2,13 +2,13 @@
 
 ## Current Status
 **Last Updated:** 2026-01-18
-**Tasks Completed:** 31
+**Tasks Completed:** 32
 **Stage 1:** COMPLETE (All 4 issues closed)
 **Stage 2:** COMPLETE (All 4 issues closed: #7, #8, #9, #10)
 **Stage 3:** COMPLETE (All 3 issues closed: #4, #5, #19)
 **Stage 4:** COMPLETE (All issues closed: #14, #11, #12, #13, #15, #16, #18)
-**Stage 5:** IN PROGRESS (1 of 6 parent issues, sub-issues #33, #34, and #35 complete)
-**Current Task:** None - Ready for next Stage 5 sub-issue
+**Stage 5:** IN PROGRESS (1 of 6 parent issues, sub-issues #33, #34, #35, #36 complete - #20 ready to close)
+**Current Task:** None - Ready to close #20 and continue Stage 5
 
 ---
 
@@ -1350,6 +1350,64 @@ All Stage 4 (Content Generation) issues are now closed:
 **Screenshots:**
 - `screenshots/35-seo-company-role-page.png` - Landing page with SEO
 - `screenshots/35-sitemap-xml.png` - Auto-generated sitemap
+
+### 2026-01-18 - Issue #36: Company theming system
+
+**Completed:**
+- Created Supabase migration for `company_themes` table:
+  - `supabase/migrations/20260118000005_create_company_themes_table.sql`
+  - Fields: id, company_slug, logo_url, primary_color, secondary_color, industry_category
+  - RLS policies for read-only public access, admin updates
+  - Sample data for Google (#4285f4), Apple (#000000), Microsoft (#0078d4)
+- Created theme types library `src/lib/theme/`:
+  - `types.ts` - CompanyTheme, ResolvedTheme, ThemeCSSVariables types
+  - `contrast.ts` - WCAG color contrast utilities (hexToRgb, getContrastRatio, meetsWCAGAA, etc.)
+  - `storage.ts` - Supabase CRUD operations and resolveTheme function
+  - `css-variables.ts` - CSS variable generation (generateCSSVariables, generateThemeStyle)
+  - `index.ts` - Re-exports
+- Created theme components `src/components/theme/`:
+  - `ThemeProvider.tsx` - Wraps children with CSS custom properties
+  - `CompanyLogo.tsx` - Logo image or initials placeholder fallback
+  - `ThemedButton.tsx` - Button using CSS variables for colors
+  - `index.ts` - Re-exports
+- Integrated theming with landing pages:
+  - `/[company]/page.tsx` - Theme provider, company logo, themed category badge
+  - `/[company]/[role]/page.tsx` - Theme provider, logo, themed CTA button
+  - CSS variables used throughout: `var(--theme-primary)`, `var(--theme-secondary)`, etc.
+  - Fallback to default theme when Supabase unavailable
+- WCAG color contrast compliance:
+  - `getTextColorForBackground()` - Returns black or white based on luminance
+  - `meetsWCAGAA()` and `meetsWCAGAAA()` - Contrast ratio checks
+  - Text on primary/secondary backgrounds auto-calculated
+
+**Theme CSS Variables Generated:**
+- `--theme-primary` - Primary brand color
+- `--theme-secondary` - Secondary/accent color
+- `--theme-primary-hover` - Darkened primary for hover states
+- `--theme-primary-light` - Lightened primary for backgrounds
+- `--theme-secondary-light` - Lightened secondary for accents
+- `--theme-text-on-primary` - Text color (black/white) for primary backgrounds
+- `--theme-text-on-secondary` - Text color for secondary backgrounds
+
+**Tests Added:**
+- 109 new tests across 6 test files:
+  - `contrast.test.ts` - 50 tests for color utilities
+  - `storage.test.ts` - 12 tests for theme storage
+  - `css-variables.test.ts` - 16 tests for CSS generation
+  - `ThemeProvider.test.tsx` - 11 tests for provider component
+  - `CompanyLogo.test.tsx` - 11 tests for logo component
+  - `ThemedButton.test.tsx` - 21 tests for button component
+
+**Verification:**
+- `npm run lint` - passes with no errors
+- `npm run type-check` - passes with no errors
+- `npm run build` - successful production build
+- `npm test` - 1153 passed, 2 todo (109 new theme tests)
+
+**Screenshots:**
+- `screenshots/36-google-software-engineer-theme.png` - Google SWE page with theming
+- `screenshots/36-google-company-page-theme.png` - Google company page with theming
+- `screenshots/36-apple-software-engineer-theme.png` - Apple SWE page with theming
 
 ---
 

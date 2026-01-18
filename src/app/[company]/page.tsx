@@ -13,6 +13,9 @@ import {
   generateCompanyBreadcrumbs,
 } from "@/lib/seo";
 import { JsonLd } from "@/components/seo";
+import { ThemeProvider, CompanyLogo } from "@/components/theme";
+import { getResolvedTheme, type ResolvedTheme, resolveTheme } from "@/lib/theme";
+import { createServerClient } from "@/lib/supabase/server";
 
 interface CompanyPageProps {
   params: Promise<{
@@ -55,13 +58,13 @@ function RoleCard({
   return (
     <Link
       href={`/${company.slug}/${role.slug}`}
-      className="block p-6 bg-white rounded-lg border border-gray-200 hover:border-blue-500 hover:shadow-md transition-all"
+      className="block p-6 bg-white rounded-lg border border-gray-200 hover:border-[var(--theme-primary,#2563eb)] hover:shadow-md transition-all"
     >
       <h3 className="text-lg font-semibold text-gray-900">{role.name}</h3>
       <p className="text-sm text-gray-500 mt-1">
         Interview prep for {company.name} {role.name}
       </p>
-      <span className="inline-block mt-3 text-sm text-blue-600 font-medium">
+      <span className="inline-block mt-3 text-sm text-[var(--theme-primary,#2563eb)] font-medium">
         Start Prep &rarr;
       </span>
     </Link>
@@ -84,12 +87,22 @@ export default async function CompanyPage({ params }: CompanyPageProps) {
 
   const company = result.company;
 
+  // Fetch theme from Supabase
+  let theme: ResolvedTheme;
+  try {
+    const supabase = await createServerClient();
+    theme = await getResolvedTheme(supabase, company.slug);
+  } catch {
+    // Fallback to default theme if Supabase unavailable
+    theme = resolveTheme(company.slug, null);
+  }
+
   // Generate structured data
   const organizationSchema = generateOrganizationSchema();
   const breadcrumbSchema = generateCompanyBreadcrumbs(company);
 
   return (
-    <>
+    <ThemeProvider theme={theme} as="div">
       {/* JSON-LD Structured Data */}
       <JsonLd data={organizationSchema} />
       <JsonLd data={breadcrumbSchema} />
@@ -99,9 +112,20 @@ export default async function CompanyPage({ params }: CompanyPageProps) {
         <section className="bg-white border-b border-gray-200">
           <div className="max-w-4xl mx-auto px-4 py-12 sm:py-16">
             <div className="text-center">
-              <span className="inline-block px-3 py-1 text-xs font-medium text-blue-700 bg-blue-100 rounded-full mb-4">
+              {/* Company Logo */}
+              <div className="flex justify-center mb-6">
+                <CompanyLogo
+                  logoUrl={theme.logoUrl}
+                  companyName={company.name}
+                  size="large"
+                />
+              </div>
+
+              {/* Category badge - uses theme colors */}
+              <span className="inline-block px-3 py-1 text-xs font-medium text-[var(--theme-primary,#2563eb)] bg-[var(--theme-primary-light,#dbeafe)] rounded-full mb-4">
                 {company.category}
               </span>
+
               <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
                 {company.name} Interview Prep
               </h1>
@@ -136,7 +160,7 @@ export default async function CompanyPage({ params }: CompanyPageProps) {
           <nav aria-label="Breadcrumb">
             <ol className="flex items-center gap-2 text-sm text-gray-500">
               <li>
-                <Link href="/" className="hover:text-gray-700 transition-colors">
+                <Link href="/" className="hover:text-[var(--theme-primary,#2563eb)] transition-colors">
                   Home
                 </Link>
               </li>
@@ -148,7 +172,7 @@ export default async function CompanyPage({ params }: CompanyPageProps) {
           </nav>
         </section>
       </main>
-    </>
+    </ThemeProvider>
   );
 }
 
