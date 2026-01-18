@@ -1,5 +1,6 @@
 import { notFound, redirect } from "next/navigation";
 import Link from "next/link";
+import type { ReactNode } from "react";
 import { Metadata } from "next";
 import {
   validateCompanyRoleRoute,
@@ -139,10 +140,12 @@ export default async function CompanyRolePage({ params }: CompanyRolePageProps) 
                 our comprehensive preparation guide.
               </p>
 
-              {/* Themed CTA button */}
-              <ThemedButton variant="primary" size="medium">
-                Start Your Prep
-              </ThemedButton>
+              {/* Themed CTA button - links to journey */}
+              <Link href={`/${company.slug}/${role.slug}/journey`}>
+                <ThemedButton variant="primary" size="medium">
+                  Start Your Prep
+                </ThemedButton>
+              </Link>
             </div>
           </div>
         </section>

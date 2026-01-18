@@ -2,14 +2,16 @@
 
 /**
  * Journey Content
- * Issue: #57 - Protected route middleware
+ * Issue: #117 - Freemium model with paywall
  *
  * Client component that displays the interview prep journey
- * Protected by middleware - requires authentication AND purchase
+ * Free modules shown to all, premium modules behind paywall
  */
 
-import { useRequireAccess } from "@/lib/auth";
+import { useState, useEffect } from "react";
 import Link from "next/link";
+import { PaywallGate } from "@/components/paywall";
+import { useAuth } from "@/lib/auth";
 
 interface JourneyContentProps {
   companySlug: string;
@@ -24,60 +26,61 @@ export function JourneyContent({
   companyName,
   roleName,
 }: JourneyContentProps) {
-  const { hasAccess, loading, error, authLoading } = useRequireAccess(
-    companySlug,
-    roleSlug
-  );
+  const { user } = useAuth();
+  const [hasAccess, setHasAccess] = useState(false);
+  const [checkingAccess, setCheckingAccess] = useState(true);
 
-  if (loading || authLoading) {
-    return (
-      <div className="min-h-screen flex items-center justify-center">
-        <div className="text-center">
-          <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-blue-600 mx-auto" />
-          <p className="mt-4 text-gray-600">Loading your journey...</p>
-        </div>
-      </div>
-    );
-  }
+  // Check if user has purchased access
+  useEffect(() => {
+    async function checkAccess() {
+      if (!user) {
+        setHasAccess(false);
+        setCheckingAccess(false);
+        return;
+      }
 
-  if (error) {
-    return (
-      <div className="min-h-screen flex items-center justify-center">
-        <div className="text-center">
-          <p className="text-red-600">Error loading journey: {error.message}</p>
-          <Link
-            href={`/${companySlug}/${roleSlug}`}
-            className="text-blue-600 hover:underline mt-4 inline-block"
-          >
-            Return to landing page
-          </Link>
-        </div>
-      </div>
-    );
-  }
+      try {
+        const res = await fetch(`/api/access?company=${companySlug}&role=${roleSlug}`);
+        if (res.ok) {
+          const data = await res.json();
+          setHasAccess(data.hasAccess);
+        }
+      } catch {
+        // Fail open - show paywall
+        setHasAccess(false);
+      }
+      setCheckingAccess(false);
+    }
+    checkAccess();
+  }, [user, companySlug, roleSlug]);
 
-  // If no access, middleware should have redirected,
-  // but we'll handle it gracefully just in case
-  if (!hasAccess) {
-    return (
-      <div className="min-h-screen flex items-center justify-center">
-        <div className="text-center">
-          <h2 className="text-xl font-bold text-gray-900 mb-2">
-            Premium Content Required
-          </h2>
-          <p className="text-gray-600 mb-4">
-            You need to purchase access to view this journey.
-          </p>
-          <Link
-            href={`/${companySlug}/${roleSlug}`}
-            className="bg-blue-600 text-white px-6 py-2 rounded-md hover:bg-blue-700 inline-block"
-          >
-            View Pricing
-          </Link>
-        </div>
-      </div>
-    );
-  }
+  // Handle purchase - redirect to Stripe checkout
+  const handlePurchase = async (): Promise<boolean> => {
+    try {
+      const res = await fetch("/api/checkout", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          company_slug: companySlug,
+          role_slug: roleSlug,
+        }),
+      });
+
+      if (!res.ok) {
+        throw new Error("Failed to create checkout session");
+      }
+
+      const { url } = await res.json();
+      if (url) {
+        window.location.href = url;
+        return true;
+      }
+      return false;
+    } catch (error) {
+      console.error("Checkout error:", error);
+      return false;
+    }
+  };
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -132,53 +135,90 @@ export function JourneyContent({
           </div>
         </div>
 
-        {/* Journey Steps */}
-        <div className="bg-white shadow rounded-lg p-6">
-          <h2 className="text-lg font-semibold text-gray-900 mb-6">
-            Interview Prep Steps
-          </h2>
+        {/* Free Content Section */}
+        <div className="bg-white shadow rounded-lg p-6 mb-6">
+          <div className="flex items-center gap-2 mb-6">
+            <h2 className="text-lg font-semibold text-gray-900">
+              Getting Started
+            </h2>
+            <span className="px-2 py-0.5 bg-green-100 text-green-800 text-xs font-medium rounded">
+              FREE
+            </span>
+          </div>
 
           <div className="space-y-4">
-            {/* Sample steps - these would be loaded from the journey config */}
             <JourneyStep
               number={1}
-              title="Company Overview"
-              description={`Learn about ${companyName}'s culture, values, and interview process.`}
+              title="Interview Fundamentals"
+              description="Learn the core principles that apply to any interview, including STAR method and communication tips."
               status="current"
             />
             <JourneyStep
               number={2}
-              title="Role Deep Dive"
-              description={`Understand what ${companyName} looks for in a ${roleName}.`}
+              title="Industry Overview"
+              description={`Understand the ${companyName} industry landscape and what companies look for.`}
               status="upcoming"
             />
-            <JourneyStep
-              number={3}
-              title="Behavioral Questions"
-              description="Practice answering common behavioral questions using the STAR method."
-              status="upcoming"
-            />
-            <JourneyStep
-              number={4}
-              title="Technical Preparation"
-              description="Review technical concepts and practice problem-solving."
-              status="upcoming"
-            />
-            <JourneyStep
-              number={5}
-              title="Mock Interview"
-              description="Put it all together with a simulated interview experience."
-              status="locked"
-            />
+          </div>
+
+          <div className="mt-6">
+            <button className="bg-blue-600 text-white px-6 py-2 rounded-lg font-medium hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">
+              Start Free Content
+            </button>
           </div>
         </div>
 
-        {/* Start Button */}
-        <div className="mt-6 text-center">
-          <button className="bg-blue-600 text-white px-8 py-3 rounded-lg font-medium hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">
-            Start Step 1: Company Overview
-          </button>
-        </div>
+        {/* Premium Content Section - Behind Paywall */}
+        <PaywallGate
+          journeyId={`${companySlug}-${roleSlug}`}
+          price={199}
+          variant="hard"
+          mockMode={false}
+          onPurchase={handlePurchase}
+          heading={`Unlock ${companyName} ${roleName} Prep`}
+          description={`Get full access to company-specific strategies, insider tips, and practice questions tailored for ${companyName} ${roleName} interviews.`}
+          ctaText="Get Full Access - $199"
+        >
+          <div className="bg-white shadow rounded-lg p-6">
+            <div className="flex items-center gap-2 mb-6">
+              <h2 className="text-lg font-semibold text-gray-900">
+                {companyName}-Specific Preparation
+              </h2>
+              <span className="px-2 py-0.5 bg-blue-100 text-blue-800 text-xs font-medium rounded">
+                PREMIUM
+              </span>
+            </div>
+
+            <div className="space-y-4">
+              <JourneyStep
+                number={3}
+                title={`${companyName} Culture & Values`}
+                description={`Deep dive into ${companyName}'s leadership principles, culture, and what they truly value.`}
+                status={hasAccess ? "upcoming" : "locked"}
+              />
+              <JourneyStep
+                number={4}
+                title={`${roleName} Interview Questions`}
+                description={`Practice real interview questions specific to ${roleName} roles at ${companyName}.`}
+                status={hasAccess ? "upcoming" : "locked"}
+              />
+              <JourneyStep
+                number={5}
+                title="Mock Interview & Final Prep"
+                description={`Put it all together with a simulated ${companyName} interview experience.`}
+                status={hasAccess ? "upcoming" : "locked"}
+              />
+            </div>
+
+            {hasAccess && (
+              <div className="mt-6">
+                <button className="bg-blue-600 text-white px-6 py-2 rounded-lg font-medium hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">
+                  Continue to Premium Content
+                </button>
+              </div>
+            )}
+          </div>
+        </PaywallGate>
       </main>
     </div>
   );
