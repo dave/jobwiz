@@ -17,7 +17,8 @@
     "generate-qa": "ts-node scripts/prompts/generate-qa.ts",
     "check-repetition": "ts-node scripts/quality/check-repetition.ts",
     "check-readability": "ts-node scripts/quality/check-readability.ts",
-    "check-facts": "ts-node scripts/quality/check-facts.ts"
+    "check-facts": "ts-node scripts/quality/check-facts.ts",
+    "sample-for-review": "ts-node scripts/quality/sample-for-review.ts"
   },
   "dependencies": {
     "@supabase/ssr": "^0.8.0",

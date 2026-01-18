@@ -2,11 +2,11 @@
 
 ## Current Status
 **Last Updated:** 2026-01-18
-**Tasks Completed:** 25
+**Tasks Completed:** 26
 **Stage 1:** COMPLETE (All 4 issues closed)
 **Stage 2:** COMPLETE (All 4 issues closed: #7, #8, #9, #10)
 **Stage 3:** COMPLETE (All 3 issues closed: #4, #5, #19)
-**Stage 4:** IN PROGRESS (Issues closed: #14, #11, #12, #13, #26, #27, #28)
+**Stage 4:** IN PROGRESS (Issues closed: #14, #11, #12, #13, #26, #27, #28, #29)
 **Current Task:** None
 
 ---
@@ -801,6 +801,60 @@ All Stage 3 (Data Collection) issues are now closed:
 - `npm run build` - successful production build
 - `npm test` - 614 passed, 2 todo (38 new tests)
 - `npm run check-facts -- --input=output/company-google-preview.json` - extracts 8 facts with 95% confidence
+
+### 2026-01-18 - Issue #29: Human review sampling workflow
+
+**Completed:**
+- Created review checklist document `docs/review-checklist.md`:
+  - Tone & Voice criteria
+  - Accuracy verification
+  - Specificity checks
+  - Structure & Flow review
+  - Psychology & Depth evaluation
+  - Pass/fail criteria defined
+  - Flagging format documented
+- Implemented sampling strategy with prioritization:
+  - Configurable percentage (default 10%)
+  - High priority: flagged content (AI phrases, readability issues)
+  - Medium priority: new companies (not previously reviewed)
+  - Low priority: random sample
+- Created CLI script `scripts/quality/sample-for-review.ts`:
+  - Usage: `npm run sample-for-review -- --dir=output/ --percent=10`
+  - Prioritization modes: all, flagged, new, random
+  - Output formats: markdown (default) and JSON
+  - Previous results tracking via `--results=` flag
+- Added review result recording functionality:
+  - `recordReviewResult()` - saves results to JSON file
+  - `loadReviewResults()` - loads previous results
+  - `getReviewedCompanies()` - extracts reviewed companies for tracking
+- Inline quality checks (no external imports for CLI compatibility):
+  - AI phrase detection (30+ common AI phrases)
+  - Readability scoring (Flesch-Kincaid)
+  - Text extraction from all content block types
+
+**Files Created:**
+- `docs/review-checklist.md` - Human review checklist document
+- `scripts/quality/sample-for-review.ts` - Sampling CLI script
+- `scripts/quality/__tests__/sample-for-review.test.ts` - 43 tests
+
+**Tests:**
+- 43 unit tests covering:
+  - Company extraction from files/slugs
+  - Quality checks and flagging
+  - Priority determination
+  - Stratified sampling selection
+  - Review queue generation
+  - Markdown and JSON output formatting
+  - Review result recording and loading
+  - Reviewed companies tracking
+  - Integration tests for full workflow
+
+**Verification:**
+- `npm run lint` - passes with no errors
+- `npm run type-check` - passes with no errors
+- `npm run build` - successful production build
+- `npm test` - 657 passed, 2 todo (43 new tests)
+- `npm run sample-for-review -- --dir=scripts/quality/samples --percent=50` - works correctly
 
 ---
 
