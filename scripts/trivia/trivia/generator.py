@@ -7,7 +7,7 @@ from dataclasses import dataclass, field
 from datetime import date
 from typing import List, Optional, Dict, Any, Literal
 
-from openai import OpenAI
+import anthropic
 
 from .wikipedia import CompanyFacts
 from .news import NewsItem
@@ -46,14 +46,14 @@ class TriviaItem:
 
 
 class QuizGenerator:
-    """Generates trivia content using OpenAI."""
+    """Generates trivia content using Claude."""
 
     def __init__(self, api_key: Optional[str] = None):
-        """Initialize with OpenAI API key."""
-        self.api_key = api_key or os.environ.get("OPENAI_API_KEY")
+        """Initialize with Anthropic API key."""
+        self.api_key = api_key or os.environ.get("ANTHROPIC_API_KEY")
         if not self.api_key:
-            raise ValueError("OpenAI API key required. Set OPENAI_API_KEY environment variable.")
-        self.client = OpenAI(api_key=self.api_key)
+            raise ValueError("Anthropic API key required. Set ANTHROPIC_API_KEY environment variable.")
+        self.client = anthropic.Anthropic(api_key=self.api_key)
 
     def generate_from_facts(
         self,
@@ -112,7 +112,7 @@ class QuizGenerator:
 
         # Founding date quiz
         if facts.founding_date:
-            quiz_data = self._call_openai_for_quiz(
+            quiz_data = self._call_claude_for_quiz(
                 f"{company_name} was founded in {facts.founding_date}.",
                 "founding year/date",
                 company_name,
@@ -154,7 +154,7 @@ class QuizGenerator:
         # Founders quiz
         if facts.founders:
             founders_str = ", ".join(facts.founders[:3])
-            quiz_data = self._call_openai_for_quiz(
+            quiz_data = self._call_claude_for_quiz(
                 f"{company_name} was founded by {founders_str}.",
                 "founder(s)",
                 company_name,
@@ -181,7 +181,7 @@ class QuizGenerator:
         source_url = facts.wikipedia_url
         source_date = date.today()
 
-        quiz_data = self._call_openai_for_quiz(
+        quiz_data = self._call_claude_for_quiz(
             f"{company_name}'s headquarters is located in {facts.headquarters}.",
             "headquarters location",
             company_name,
@@ -232,7 +232,7 @@ class QuizGenerator:
             return items
 
         products_str = ", ".join(facts.products[:5])
-        quiz_data = self._call_openai_for_quiz(
+        quiz_data = self._call_claude_for_quiz(
             f"{company_name}'s key products/services include: {products_str}.",
             "products or services",
             company_name,
@@ -272,7 +272,7 @@ class QuizGenerator:
         if not facts.ceo:
             return items
 
-        quiz_data = self._call_openai_for_quiz(
+        quiz_data = self._call_claude_for_quiz(
             f"The CEO of {company_name} is {facts.ceo}.",
             "CEO",
             company_name,
@@ -323,11 +323,11 @@ class QuizGenerator:
 
         return items
 
-    def _call_openai_for_quiz(
+    def _call_claude_for_quiz(
         self, fact: str, fact_type: str, company_name: str
     ) -> Optional[Dict[str, Any]]:
         """
-        Call OpenAI to generate a quiz question with distractors.
+        Call Claude to generate a quiz question with distractors.
 
         Args:
             fact: The factual statement
@@ -358,17 +358,15 @@ Return JSON in this exact format:
 Return ONLY the JSON, no other text."""
 
         try:
-            response = self.client.chat.completions.create(
-                model="gpt-3.5-turbo",
+            response = self.client.messages.create(
+                model="claude-sonnet-4-20250514",
+                max_tokens=200,
                 messages=[
-                    {"role": "system", "content": "You are a quiz generator. Return only valid JSON."},
                     {"role": "user", "content": prompt}
                 ],
-                temperature=0.7,
-                max_tokens=200,
             )
 
-            content = response.choices[0].message.content
+            content = response.content[0].text if response.content else None
             if not content:
                 return None
 
@@ -387,10 +385,10 @@ Return ONLY the JSON, no other text."""
             return result
 
         except json.JSONDecodeError as e:
-            logger.warning(f"Failed to parse OpenAI response as JSON: {e}")
+            logger.warning(f"Failed to parse Claude response as JSON: {e}")
             return None
         except Exception as e:
-            logger.error(f"OpenAI API call failed: {e}")
+            logger.error(f"Claude API call failed: {e}")
             return None
 
     def generate_mock_trivia(

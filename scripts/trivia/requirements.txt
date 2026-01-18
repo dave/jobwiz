@@ -4,8 +4,8 @@ supabase>=2.0.0
 # HTTP requests
 requests>=2.31.0
 
-# OpenAI for quiz generation
-openai>=1.0.0
+# Anthropic for quiz generation
+anthropic>=0.40.0
 
 # XML parsing for RSS feeds
 feedparser>=6.0.0

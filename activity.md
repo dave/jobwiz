@@ -938,6 +938,34 @@ All Stage 3 (Data Collection) issues are now closed:
 - `npm run build` - successful production build
 - `npm test` - 740 passed, 2 todo (55 new tests)
 
+### 2026-01-18 - Issue #19: Fix trivia generator tests
+
+**Problem:**
+- Tests were written for OpenAI API but code was migrated to Anthropic
+- Wikipedia infobox parser failed on single-line pipe-separated format
+- CEO extraction failed for "Name CEO" format (without parentheses)
+
+**Fixed:**
+- Updated `test_generator.py` to mock `anthropic.Anthropic` instead of `OpenAI`
+- Changed API key environment variable from `OPENAI_API_KEY` to `ANTHROPIC_API_KEY`
+- Updated method calls from `_call_openai_for_quiz` to `_call_claude_for_quiz`
+- Fixed mock response structure to match Anthropic API (`content[0].text` vs `choices[0].message.content`)
+- Fixed Wikipedia infobox brace counting (start at 1, not 2)
+- Added support for single-line pipe-separated infobox format
+- Added regex pattern for "Name CEO" format in `_extract_ceo`
+
+**Files Changed:**
+- `scripts/trivia/tests/test_generator.py` - Updated all mocks for Anthropic API
+- `scripts/trivia/trivia/wikipedia.py` - Fixed infobox parsing and CEO extraction
+
+**Verification:**
+- Python tests: 57 passed
+- `npm run lint` - passes with no errors
+- `npm run type-check` - passes with no errors
+- `npm run build` - successful production build
+- `npm test` - 740 passed, 2 todo
+- CLI script works: `python generate.py --company=google --mock --dry-run`
+
 ---
 
 ## Stage 1 Complete

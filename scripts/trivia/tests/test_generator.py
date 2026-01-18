@@ -54,44 +54,42 @@ class TestTriviaItem:
 class TestQuizGenerator:
     """Tests for QuizGenerator class."""
 
-    @patch.dict("os.environ", {"OPENAI_API_KEY": "test-key"})
+    @patch.dict("os.environ", {"ANTHROPIC_API_KEY": "test-key"})
     def test_init_with_env_var(self):
         """Should initialize with API key from env."""
-        with patch("trivia.generator.OpenAI"):
+        with patch("trivia.generator.anthropic.Anthropic"):
             generator = QuizGenerator()
             assert generator.api_key == "test-key"
 
     def test_init_with_explicit_key(self):
         """Should accept explicit API key."""
-        with patch("trivia.generator.OpenAI"):
+        with patch("trivia.generator.anthropic.Anthropic"):
             generator = QuizGenerator(api_key="my-explicit-key")
             assert generator.api_key == "my-explicit-key"
 
     @patch.dict("os.environ", {}, clear=True)
     def test_init_raises_without_key(self):
         """Should raise if no API key provided."""
-        # Clear any existing OPENAI_API_KEY
+        # Clear any existing ANTHROPIC_API_KEY
         import os
-        if "OPENAI_API_KEY" in os.environ:
-            del os.environ["OPENAI_API_KEY"]
+        if "ANTHROPIC_API_KEY" in os.environ:
+            del os.environ["ANTHROPIC_API_KEY"]
 
-        with pytest.raises(ValueError, match="OpenAI API key required"):
+        with pytest.raises(ValueError, match="Anthropic API key required"):
             QuizGenerator()
 
-    @patch("trivia.generator.OpenAI")
-    def test_generates_quiz_format(self, mock_openai_class):
+    @patch("trivia.generator.anthropic.Anthropic")
+    def test_generates_quiz_format(self, mock_anthropic_class):
         """Should produce question with 4 options (1 correct + 3 wrong)."""
         mock_client = MagicMock()
-        mock_openai_class.return_value = mock_client
+        mock_anthropic_class.return_value = mock_client
 
         mock_response = MagicMock()
-        mock_response.choices = [
-            MagicMock(message=MagicMock(content='{"question": "When was Google founded?", "answer": "1998", "options": ["1995", "2000", "2004"]}'))
-        ]
-        mock_client.chat.completions.create.return_value = mock_response
+        mock_response.content = [MagicMock(text='{"question": "When was Google founded?", "answer": "1998", "options": ["1995", "2000", "2004"]}')]
+        mock_client.messages.create.return_value = mock_response
 
         generator = QuizGenerator(api_key="test-key")
-        result = generator._call_openai_for_quiz(
+        result = generator._call_claude_for_quiz(
             "Google was founded in 1998.",
             "founding year",
             "Google"
@@ -102,98 +100,88 @@ class TestQuizGenerator:
         assert result["answer"] == "1998"
         assert len(result["options"]) == 3
 
-    @patch("trivia.generator.OpenAI")
-    def test_quiz_has_one_correct_answer(self, mock_openai_class):
+    @patch("trivia.generator.anthropic.Anthropic")
+    def test_quiz_has_one_correct_answer(self, mock_anthropic_class):
         """Correct answer should be separate from wrong options."""
         mock_client = MagicMock()
-        mock_openai_class.return_value = mock_client
+        mock_anthropic_class.return_value = mock_client
 
         mock_response = MagicMock()
-        mock_response.choices = [
-            MagicMock(message=MagicMock(content='{"question": "Q?", "answer": "A", "options": ["B", "C", "D"]}'))
-        ]
-        mock_client.chat.completions.create.return_value = mock_response
+        mock_response.content = [MagicMock(text='{"question": "Q?", "answer": "A", "options": ["B", "C", "D"]}')]
+        mock_client.messages.create.return_value = mock_response
 
         generator = QuizGenerator(api_key="test-key")
-        result = generator._call_openai_for_quiz("Fact", "type", "Company")
+        result = generator._call_claude_for_quiz("Fact", "type", "Company")
 
         assert result is not None
         assert result["answer"] not in result["options"]
 
-    @patch("trivia.generator.OpenAI")
-    def test_handles_invalid_json_response(self, mock_openai_class):
+    @patch("trivia.generator.anthropic.Anthropic")
+    def test_handles_invalid_json_response(self, mock_anthropic_class):
         """Should return None for invalid JSON."""
         mock_client = MagicMock()
-        mock_openai_class.return_value = mock_client
+        mock_anthropic_class.return_value = mock_client
 
         mock_response = MagicMock()
-        mock_response.choices = [
-            MagicMock(message=MagicMock(content="This is not JSON"))
-        ]
-        mock_client.chat.completions.create.return_value = mock_response
+        mock_response.content = [MagicMock(text="This is not JSON")]
+        mock_client.messages.create.return_value = mock_response
 
         generator = QuizGenerator(api_key="test-key")
-        result = generator._call_openai_for_quiz("Fact", "type", "Company")
+        result = generator._call_claude_for_quiz("Fact", "type", "Company")
 
         assert result is None
 
-    @patch("trivia.generator.OpenAI")
-    def test_handles_missing_fields_in_response(self, mock_openai_class):
+    @patch("trivia.generator.anthropic.Anthropic")
+    def test_handles_missing_fields_in_response(self, mock_anthropic_class):
         """Should return None if response missing required fields."""
         mock_client = MagicMock()
-        mock_openai_class.return_value = mock_client
+        mock_anthropic_class.return_value = mock_client
 
         mock_response = MagicMock()
-        mock_response.choices = [
-            MagicMock(message=MagicMock(content='{"question": "Q?"}'))  # Missing answer and options
-        ]
-        mock_client.chat.completions.create.return_value = mock_response
+        mock_response.content = [MagicMock(text='{"question": "Q?"}')]  # Missing answer and options
+        mock_client.messages.create.return_value = mock_response
 
         generator = QuizGenerator(api_key="test-key")
-        result = generator._call_openai_for_quiz("Fact", "type", "Company")
+        result = generator._call_claude_for_quiz("Fact", "type", "Company")
 
         assert result is None
 
-    @patch("trivia.generator.OpenAI")
-    def test_handles_wrong_number_of_options(self, mock_openai_class):
+    @patch("trivia.generator.anthropic.Anthropic")
+    def test_handles_wrong_number_of_options(self, mock_anthropic_class):
         """Should return None if not exactly 3 options."""
         mock_client = MagicMock()
-        mock_openai_class.return_value = mock_client
+        mock_anthropic_class.return_value = mock_client
 
         mock_response = MagicMock()
-        mock_response.choices = [
-            MagicMock(message=MagicMock(content='{"question": "Q?", "answer": "A", "options": ["B", "C"]}'))  # Only 2 options
-        ]
-        mock_client.chat.completions.create.return_value = mock_response
+        mock_response.content = [MagicMock(text='{"question": "Q?", "answer": "A", "options": ["B", "C"]}')]  # Only 2 options
+        mock_client.messages.create.return_value = mock_response
 
         generator = QuizGenerator(api_key="test-key")
-        result = generator._call_openai_for_quiz("Fact", "type", "Company")
+        result = generator._call_claude_for_quiz("Fact", "type", "Company")
 
         assert result is None
 
-    @patch("trivia.generator.OpenAI")
-    def test_handles_api_error(self, mock_openai_class):
+    @patch("trivia.generator.anthropic.Anthropic")
+    def test_handles_api_error(self, mock_anthropic_class):
         """Should return None on API error."""
         mock_client = MagicMock()
-        mock_openai_class.return_value = mock_client
-        mock_client.chat.completions.create.side_effect = Exception("API Error")
+        mock_anthropic_class.return_value = mock_client
+        mock_client.messages.create.side_effect = Exception("API Error")
 
         generator = QuizGenerator(api_key="test-key")
-        result = generator._call_openai_for_quiz("Fact", "type", "Company")
+        result = generator._call_claude_for_quiz("Fact", "type", "Company")
 
         assert result is None
 
-    @patch("trivia.generator.OpenAI")
-    def test_generate_from_facts_creates_founding_trivia(self, mock_openai_class):
+    @patch("trivia.generator.anthropic.Anthropic")
+    def test_generate_from_facts_creates_founding_trivia(self, mock_anthropic_class):
         """Should generate founding trivia from facts."""
         mock_client = MagicMock()
-        mock_openai_class.return_value = mock_client
+        mock_anthropic_class.return_value = mock_client
 
         mock_response = MagicMock()
-        mock_response.choices = [
-            MagicMock(message=MagicMock(content='{"question": "When was Google founded?", "answer": "1998", "options": ["1995", "2000", "2004"]}'))
-        ]
-        mock_client.chat.completions.create.return_value = mock_response
+        mock_response.content = [MagicMock(text='{"question": "When was Google founded?", "answer": "1998", "options": ["1995", "2000", "2004"]}')]
+        mock_client.messages.create.return_value = mock_response
 
         facts = CompanyFacts(
             company_name="Google",
@@ -219,17 +207,15 @@ class TestQuizGenerator:
         formats = {i.format for i in founding_items}
         assert "flashcard" in formats or "factoid" in formats
 
-    @patch("trivia.generator.OpenAI")
-    def test_generate_from_facts_creates_hq_trivia(self, mock_openai_class):
+    @patch("trivia.generator.anthropic.Anthropic")
+    def test_generate_from_facts_creates_hq_trivia(self, mock_anthropic_class):
         """Should generate HQ trivia from facts."""
         mock_client = MagicMock()
-        mock_openai_class.return_value = mock_client
+        mock_anthropic_class.return_value = mock_client
 
         mock_response = MagicMock()
-        mock_response.choices = [
-            MagicMock(message=MagicMock(content='{"question": "Where is Google HQ?", "answer": "Mountain View", "options": ["SF", "NYC", "Seattle"]}'))
-        ]
-        mock_client.chat.completions.create.return_value = mock_response
+        mock_response.content = [MagicMock(text='{"question": "Where is Google HQ?", "answer": "Mountain View", "options": ["SF", "NYC", "Seattle"]}')]
+        mock_client.messages.create.return_value = mock_response
 
         facts = CompanyFacts(
             company_name="Google",
@@ -249,11 +235,11 @@ class TestQuizGenerator:
         hq_items = [i for i in items if i.fact_type == "hq"]
         assert len(hq_items) > 0
 
-    @patch("trivia.generator.OpenAI")
-    def test_generate_from_facts_creates_news_trivia(self, mock_openai_class):
+    @patch("trivia.generator.anthropic.Anthropic")
+    def test_generate_from_facts_creates_news_trivia(self, mock_anthropic_class):
         """Should generate news trivia from news items."""
         mock_client = MagicMock()
-        mock_openai_class.return_value = mock_client
+        mock_anthropic_class.return_value = mock_client
 
         facts = CompanyFacts(company_name="Google")
         news_items = [
@@ -277,17 +263,15 @@ class TestQuizGenerator:
         news_items_result = [i for i in items if i.fact_type == "news"]
         assert len(news_items_result) > 0
 
-    @patch("trivia.generator.OpenAI")
-    def test_generate_from_facts_respects_limit(self, mock_openai_class):
+    @patch("trivia.generator.anthropic.Anthropic")
+    def test_generate_from_facts_respects_limit(self, mock_anthropic_class):
         """Should respect the limit parameter."""
         mock_client = MagicMock()
-        mock_openai_class.return_value = mock_client
+        mock_anthropic_class.return_value = mock_client
 
         mock_response = MagicMock()
-        mock_response.choices = [
-            MagicMock(message=MagicMock(content='{"question": "Q?", "answer": "A", "options": ["B", "C", "D"]}'))
-        ]
-        mock_client.chat.completions.create.return_value = mock_response
+        mock_response.content = [MagicMock(text='{"question": "Q?", "answer": "A", "options": ["B", "C", "D"]}')]
+        mock_client.messages.create.return_value = mock_response
 
         facts = CompanyFacts(
             company_name="Google",
@@ -312,7 +296,7 @@ class TestQuizGenerator:
 
     def test_generate_mock_trivia(self):
         """Should generate mock trivia without API calls."""
-        with patch("trivia.generator.OpenAI"):
+        with patch("trivia.generator.anthropic.Anthropic"):
             generator = QuizGenerator(api_key="test-key")
             items = generator.generate_mock_trivia("google", "Google", limit=5)
 

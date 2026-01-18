@@ -95,7 +95,6 @@ def run_generator(
         logger.info("Using mock trivia generator (no OpenAI calls)")
         generator = None
         # Create mock trivia without API
-        from trivia.generator import QuizGenerator
         # Create a generator instance just for mock method
         class MockGenerator:
             def generate_mock_trivia(self, slug, name, limit):
