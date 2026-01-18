@@ -23,7 +23,9 @@
     "queue:add": "TS_NODE_COMPILER_OPTIONS='{\"module\":\"CommonJS\"}' ts-node scripts/queue/add.ts",
     "queue:next": "TS_NODE_COMPILER_OPTIONS='{\"module\":\"CommonJS\"}' ts-node scripts/queue/next.ts",
     "queue:status": "TS_NODE_COMPILER_OPTIONS='{\"module\":\"CommonJS\"}' ts-node scripts/queue/status.ts",
-    "orchestrate": "ts-node scripts/orchestrate/orchestrate.ts"
+    "orchestrate": "ts-node scripts/orchestrate/orchestrate.ts",
+    "generate-questions": "ts-node scripts/questions/generate-questions.ts",
+    "query-questions": "ts-node scripts/questions/query-questions.ts"
   },
   "dependencies": {
     "@supabase/ssr": "^0.8.0",

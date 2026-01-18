@@ -2,12 +2,12 @@
 
 ## Current Status
 **Last Updated:** 2026-01-18
-**Tasks Completed:** 29
+**Tasks Completed:** 30
 **Stage 1:** COMPLETE (All 4 issues closed)
 **Stage 2:** COMPLETE (All 4 issues closed: #7, #8, #9, #10)
 **Stage 3:** COMPLETE (All 3 issues closed: #4, #5, #19)
-**Stage 4:** IN PROGRESS (Issues closed: #14, #11, #12, #13, #26, #27, #28, #29, #15, #31, #32, #30)
-**Current Task:** None
+**Stage 4:** COMPLETE (All issues closed: #14, #11, #12, #13, #15, #16, #18)
+**Current Task:** None - Ready for Stage 5
 
 ---
 
@@ -1055,6 +1055,93 @@ All Stage 3 (Data Collection) issues are now closed:
 
 **Screenshot:**
 - `screenshots/30-orchestrate-site-working.png` - Site still working after changes
+
+### 2026-01-18 - Issue #18: Build question bank per position
+
+**Completed:**
+- Created Supabase migration for `questions` table: `supabase/migrations/20260118000004_create_questions_table.sql`
+- Implemented comprehensive questions schema:
+  - `company_slug`, `role_slug` (string slugs matching search_volume.json)
+  - `question_text`, `category`, `difficulty`
+  - `interviewer_intent` - psychology explanations from #13
+  - `good_answer_traits`, `common_mistakes` - arrays
+  - `answer_framework` - JSONB for flexible structure
+  - `tags` - array for filtering
+  - `question_type` - for curveball questions
+  - `target_value` - for culture questions
+  - `is_premium` - premium gating
+  - `original_id` - for deduplication
+- Added full-text search with weighted tsvector (question_text=A, intent=B, slugs=C, tags=D)
+- Added Row-Level Security policies for premium content gating
+- Created `question_runs` table for tracking generation batches
+- Created TypeScript storage library `src/lib/questions/`:
+  - `types.ts` - Database and input types
+  - `storage.ts` - CRUD operations (createQuestion, getQuestions, searchQuestions, etc.)
+  - `index.ts` - Re-exports
+- Created CLI scripts `scripts/questions/`:
+  - `generate-questions.ts` - Generates questions for company/role
+  - `query-questions.ts` - Queries/filters generated questions
+- Added npm scripts: `generate-questions`, `query-questions`
+- Generated sample questions for 5 company/role combinations:
+  - `output/questions-google-software-engineer.json` (19 questions)
+  - `output/questions-amazon-product-manager.json` (19 questions)
+  - `output/questions-meta-product-manager.json` (19 questions)
+  - `output/questions-apple-data-scientist.json` (19 questions)
+  - `output/questions-microsoft-software-engineer.json` (19 questions)
+
+**Question Categories Covered:**
+- Behavioral/STAR questions (5 per position)
+- Role-specific technical questions (5 per position, varies by role)
+- Company culture fit questions (5 per position)
+- Curveball questions (4 per position)
+
+**Each Question Includes:**
+- `interviewer_intent` - 50-500 char psychology explanation
+- `good_answer_traits` - 3-5 traits a good answer demonstrates
+- `common_mistakes` - 3-4 mistakes to avoid
+- `answer_framework` - structure, key_elements, timing/approach
+- `difficulty` - easy, medium, or hard
+- `tags` - topic categorization
+
+**Tests Added:**
+- 71 unit tests covering:
+  - Slug validation (lowercase, hyphenated)
+  - Question CRUD operations
+  - Batch creation and upsert
+  - Filtering by category, difficulty, tags, premium
+  - Full-text search
+  - Question run tracking
+  - Generation output structure
+  - Category and difficulty coverage
+  - Premium flagging logic
+
+**Verification:**
+- `npm run lint` - passes with no errors
+- `npm run type-check` - passes with no errors
+- `npm run build` - successful production build
+- `npm test` - 881 passed, 2 todo (71 question tests)
+- `npm run generate-questions -- --company=google --role=swe --count=25` - works correctly
+- `npm run query-questions -- --company=google --role=swe --category=behavioral` - works correctly
+
+---
+
+## Stage 4 Complete
+
+All Stage 4 (Content Generation) issues are now closed:
+- #14 - AI-assisted module structure design
+- #11 - Prompts for company module generation
+- #12 - Prompts for marketing landing page copy
+- #13 - Prompts for Q&A with psychology
+- #15 - Content quality control pipeline
+  - #26 - Repetition detection automation
+  - #27 - Readability scoring system
+  - #28 - Company fact verification checklist
+  - #29 - Human review sampling workflow
+- #16 - Batch generate modules
+  - #30 - Content orchestration script
+  - #31 - Supabase content storage schema
+  - #32 - Generation priority queue system
+- #18 - Build question bank per position
 
 ---
 
