@@ -2,13 +2,13 @@
 
 ## Current Status
 **Last Updated:** 2026-01-18
-**Tasks Completed:** 34
+**Tasks Completed:** 35
 **Stage 1:** COMPLETE (All 4 issues closed)
 **Stage 2:** COMPLETE (All 4 issues closed: #7, #8, #9, #10)
 **Stage 3:** COMPLETE (All 3 issues closed: #4, #5, #19)
 **Stage 4:** COMPLETE (All issues closed: #14, #11, #12, #13, #15, #16, #18)
-**Stage 5:** IN PROGRESS (#20 closed, #21 in progress - sub-issues #56, #57, #58 complete)
-**Current Task:** #57 Protected route middleware - COMPLETE
+**Stage 5:** IN PROGRESS (#20 closed, #21 closed, #22 in progress - sub-issue #37 complete)
+**Current Task:** #37 Stripe Checkout implementation - COMPLETE
 
 ---
 
@@ -1604,3 +1604,80 @@ All Stage 1 (Foundation) issues are now closed:
 **Screenshots:**
 - `screenshots/login-redirect-from-dashboard.png` - Login redirect with returnTo param
 - `screenshots/public-landing-page.png` - Public landing page accessible
+
+### 2026-01-18 - Issue #37: Stripe Checkout implementation
+
+**Completed:**
+- Created Stripe library `src/lib/stripe/`:
+  - `types.ts` - Type definitions for checkout, products, access types
+  - `client.ts` - Stripe client configuration and initialization
+  - `checkout.ts` - Checkout session creation and validation
+  - `index.ts` - Re-exports
+- Implemented POST /api/checkout:
+  - Creates Stripe Checkout session for company/role
+  - Accepts product_id, company_slug, role_slug
+  - Returns session URL for redirect
+  - Validates request body (slug format, required fields)
+  - Includes metadata (company, role, user_id if authenticated)
+- Implemented GET /api/checkout/session:
+  - Retrieves session data by session_id
+  - Validates session_id format (must start with cs_)
+  - Returns payment status, amount, customer email
+- Created checkout success page `/checkout/success`:
+  - Shows purchase confirmation for paid sessions
+  - Displays amount paid and customer email
+  - Links to journey page after purchase
+  - Shows pending state for unpaid sessions
+  - Error handling for invalid sessions
+- Created checkout cancel page `/checkout/cancel`:
+  - Clean cancellation message
+  - No payment made confirmation
+  - Link back to browse interview prep
+- Updated .env.example with Stripe environment variables:
+  - STRIPE_SECRET_KEY
+  - NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY
+  - STRIPE_WEBHOOK_SECRET
+  - NEXT_PUBLIC_BASE_URL
+- Default pricing: $200 for single company/role access
+
+**Files Created:**
+- `src/lib/stripe/types.ts`
+- `src/lib/stripe/client.ts`
+- `src/lib/stripe/checkout.ts`
+- `src/lib/stripe/index.ts`
+- `src/app/api/checkout/route.ts`
+- `src/app/api/checkout/session/route.ts`
+- `src/app/checkout/success/page.tsx`
+- `src/app/checkout/success/CheckoutSuccessContent.tsx`
+- `src/app/checkout/cancel/page.tsx`
+- `src/lib/stripe/__tests__/types.test.ts`
+- `src/lib/stripe/__tests__/checkout.test.ts`
+- `src/app/api/checkout/__tests__/route.test.ts`
+- `src/app/api/checkout/session/__tests__/route.test.ts`
+- `src/app/checkout/__tests__/success.test.tsx`
+- `src/app/checkout/__tests__/cancel.test.tsx`
+
+**Tests:**
+- 73 new tests covering:
+  - Product metadata validation
+  - Checkout request validation (slugs, required fields)
+  - Session ID format validation
+  - Stripe client configuration
+  - Success page rendering (paid, pending, error states)
+  - Cancel page rendering
+  - API route behavior
+
+**Verification:**
+- `npm run lint` - passes with no errors
+- `npm run build` - successful production build
+- `npm test` - 1391 passed, 2 todo (73 new tests)
+- All acceptance criteria verified:
+  - POST /api/checkout creates Stripe Checkout session
+  - Returns session URL for redirect
+  - Accepts product_id, company_slug, role_slug
+  - Mode: payment (one-time)
+  - Metadata includes company, role, user_id
+  - Success URL: /checkout/success?session_id={CHECKOUT_SESSION_ID}
+  - Cancel URL: back to landing page
+  - GET /checkout/success retrieves session, shows confirmation
+  - GET /checkout/cancel shows "cancelled" message
