@@ -58,6 +58,8 @@ export function CheckoutSuccessContent() {
               body: JSON.stringify({ session_id: sessionId, redirect_to: redirectTo }),
             });
             const grantData = await grantResponse.json();
+            console.log('Grant response:', grantData);
+
             if (grantData.success) {
               setAccessGranted(true);
               setUserEmail(grantData.email || null);
@@ -65,9 +67,14 @@ export function CheckoutSuccessContent() {
 
               // Auto-redirect with magic link if available
               if (grantData.magic_link) {
+                console.log('Redirecting to magic link...');
                 window.location.href = grantData.magic_link;
                 return; // Stop further processing
+              } else {
+                console.log('No magic link in response');
               }
+            } else {
+              console.error('Grant failed:', grantData.message);
             }
           } catch (grantErr) {
             // Log but don't fail - webhook might handle it

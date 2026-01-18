@@ -1,0 +1,292 @@
+{
+  "company": "okta",
+  "post_count": 15,
+  "exported_at": "2026-01-18T17:44:53.296Z",
+  "posts": [
+    {
+      "title": "Okta Internship",
+      "body": "I just got an internship offer for next summer with Okta. Does anyone have experience working for them in the past? What are your thoughts?",
+      "subreddit": "cscareerquestions",
+      "score": 19,
+      "url": "https://reddit.com/r/cscareerquestions/comments/9pew54/okta_internship/",
+      "comments": [
+        {
+          "body": "Excellent company in the Bay area.\n\nVery good reputation and will look amazing in your resume. \n\nI work at a similar company. Don't turn it down. ",
+          "score": 12
+        },
+        {
+          "body": "[removed]",
+          "score": 3
+        },
+        {
+          "body": "Congratulations. What was the interview process, interview questions like please?\n",
+          "score": 3
+        },
+        {
+          "body": "[deleted]",
+          "score": 4
+        }
+      ]
+    },
+    {
+      "title": "On Naming and Shaming",
+      "body": "I've noticed a lot of \"Name and Shame\" posts recently.  I read them, and most of them are not about what it is like to work at a company, but instead about an interview process that felt unfair to the applicant.\n\nI'm not here to trivialize what it feels like to be on the receiving end of those interviews.  What I would like to say is that if you decide to not apply to a company because of interview experiences, you are not doing yourself any favors.  Pretty much all the companies I've worked for have failed to meet the expectations of the ideal interview process for some candidate.  And in fact, the most common thread in these posts is a problem I have seen many times, which is the lack of communication from the company during the interview process.\n\nIt's unfortunate, and I personally do what I can to prevent these gaps in communication at the companies I have worked at.  But, I am just one interviewer, and I am not responsible for scheduling further interviews or providing direct feedback to you.  I have nagged people within my orgs to respond to candidates when I realize someone has dropped the ball.  I know someone who got favorable reviews, but a manager wasn't sure (I think the person had no college education), and so we didn't tell them yes or no for 2 months.  I bugged them about this person a few times, until after two months I declared how ridiculous it was no response was given.  At that point, they said - well would YOU hire him CodeIt?  I responded \"hell yes\", and they hired him.  No one else even remembered the interview at that point.  And then I had to convince the person they should take the job, because of how slighted they felt!  Lucky for them, they did take the job - Okta went public and that person is retired now.  Also he was great at the job.\n\nSimilar stories have happened at other companies I worked at.  Maybe even all of them.  You've heard of these companies, and they are good places to work at.  One thing I have heard is there is no one who works at Google who would always pass the interview.  There is always some interviewer at a company of sufficient size who might not like you, and usually it only takes one veto.  If you are not being recommended by someone inside the company and have no experience, you are just not top priority to them.  Sorry.  It sucks.  There should always be communication, I'm not excusing that.\n\nBut, when you are not a priority, it is easy to fall by the wayside when something in the interview funnel does not fall into a clean bucket (Maybe we like you, but want to see more candidates first.  Or maybe, as in the case the of the IBM post, a recruiter quit their job.) I am sorry this happens.\n\nBut to me, this is a different thing than taking a job with a company, and then finding out the workplace is filled will awful people and processes.  Those places should be shamed.  Go ahead and share you interview stories as well if you want, but I'm surprised at the amount of upvoting and agreement with some of these posts.  We are only seeing one side of the story here, and if you were to get a job with one of these companies, the interview process is the least important thing about how you will feel about your job after a month of being there.  If you looked for these kinds of stories, maybe on glassdoor.com, you would probably decide 90% of companies are bad. I don't think it's a useful signal to consider when you decide where to apply.",
+      "subreddit": "cscareerquestions",
+      "score": 1091,
+      "url": "https://reddit.com/r/cscareerquestions/comments/elqsrm/on_naming_and_shaming/",
+      "comments": [
+        {
+          "body": "I personally don't like the name and shame posts. When they started out they were about really shitty experiences with companies doing really unethical or even illegal stuff. Now they mostly boil down to \"I didn't like that I got ghosted\".\n\nSure it's not nice, but there's a lot of people working at these companies and people make mistakes all the time. It doesn't say anything about a company because it happens at almost all of them.\n\nI personally don't really read them anymore. They're basically just rants that try to attract karma and really don't add anything.",
+          "score": 678
+        },
+        {
+          "body": "I agree with everything you say. Another aspect is that it's \"Name and Shame *COMPANY*\" when, in fact, in most cases, the problems that the OP experienced were due to local issues within that particular position's hiring process: an individual HR person who is bad at their job, unbeknownst to the candidate, the company's priorities changed in some way in the middle of the process, etc. In the case of some very small companies, the problem might be systemic, but at any company of any size, the interview experience is very likely to be very different in each individual opening. And who wants to do a name-and-shame for some tiny company that nobody else has heard of?\n\nAs you say, the candidate still had a shitty experience and there's no good justification for that, and the candidate's feelings about the experience are legitimate. I'm just concerned that people who read these posts might erroneously think that they will have the same experience if they apply to the same company when, in fact, it's highly likely that their experience will be different.",
+          "score": 121
+        }
+      ]
+    },
+    {
+      "title": "How's the engineering and work culture at Okta like",
+      "body": "Hey all,\n\nI have an interview with Okta coming up and was wondering what the engineering and work culture is like. Is wlb good there?\n\nThank you",
+      "subreddit": "cscareerquestions",
+      "score": 2,
+      "url": "https://reddit.com/r/cscareerquestions/comments/14iqo4f/hows_the_engineering_and_work_culture_at_okta_like/",
+      "comments": [
+        {
+          "body": "A recent Reddit policy change threatens to kill many beloved third-party mobile apps, making a great many quality-of-life features not seen in the official mobile app **permanently inaccessible** to users.\n\nOn May 31, 2023, Reddit announced they were raising the price to make calls to their API from being free to a level that will kill every third party app on Reddit, from [Apollo](https://www.reddit.com/r/apolloapp/comments/13ws4w3/had_a_call_with_reddit_to_discuss_pricing_bad/) to [Reddit is Fun](https://www.reddit.com/r/redditisfun/comments/13wxepd/rif_dev_here_reddits_api_changes_will_likely_kill/) to [Narwhal](https://www.reddit.com/r/getnarwhal/comments/13wv038/reddit_have_quoted_the_apollo_devs_a_ridiculous/jmdqtyt/) to [BaconReader](https://www.reddit.com/r/baconreader/comments/13wveb2/reddit_api_changes_and_baconreader/).\n\nEven if you're not a mobile user and don't use any of those apps, this is a step toward killing other ways of customizing Reddit, such as Reddit Enhancement Suite or the use of the old.reddit.com desktop interface .\n\nThis isn't only a problem on the user level: many subreddit moderators depend on tools only available outside the official app to keep their communities on-topic and spam-free.\n\n&amp;#x200B;\n\nWhat can *you* do?\n\n1. **Complain.** Message the mods of r/reddit.com, who are the admins of the site: message [/u/reddit](https://www.reddit.com/u/reddit/): submit a [support request](https://support.reddithelp.com/hc/en-us/requests/new): comment in relevant threads on [r/reddit](https://www.reddit.com/r/reddit/), such as [this one](https://www.reddit.com/r/reddit/comments/12qwagm/an_update_regarding_reddits_api/), leave a negative review on their official iOS or Android app- and sign your username in support to this post.\n2. **Spread the word.** Rabble-rouse on related subreddits. Meme it up, make it spicy. Bitch about it to your cat. Suggest anyone you know who moderates a subreddit join us at our sister sub at [r/ModCoord](https://www.reddit.com/r/ModCoord/) \\- but please don't pester mods you *don't* know by simply spamming their modmail.\n3. **Boycott** ***and*** **spread the word...to Reddit's competition!** Stay off Reddit as much as you can, instead, take to your favorite *non*\\-Reddit platform of choice and make some noise in support! \n\nhttps://discord.gg/cscareerhub\n\nhttps://programming.dev\n\n4. **Don't be a jerk.** As upsetting this may be, threats, profanity and vandalism will be worse than useless in getting people on our side. Please make every effort to be as restrained, polite, reasonable and law-abiding as possible.\n\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/cscareerquestions) if you have any questions or concerns.*",
+          "score": 1
+        },
+        {
+          "body": "My friend works there, so it's second-hand information. But she enjoys it, wlb is good. They do get paged quite a bit during oncall rotations, but it's nothing too egregious.",
+          "score": 3
+        },
+        {
+          "body": "[deleted]",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "cant be a Jr SysAdmin yet?",
+      "body": "I been targeting and getting interviewed for Jr Sysadmin roles, at least I am getting looked at apparently. A week ago I got interviewed and although I think I didn't do horrible I started feeling I am lacking a lot of things for this role. For example they asked me about scripting and I said I didn't do it on daily basics since my current role doesn't require it but if there is a project where the sysadmins will do scripting I shadow them and I keep practicing on my own environment, they asked me about my experience with OKTA and I told them I manage accounts and applications, to the question if I deployed packages on it I said I didn't but I was part of some of the processes. Course I didn't get that job but I am currently employed so not a big issue besides my confidence being hurt. Today I have another Jr SysAdmin interview and I know I shouldn't be stressing about it I am kind of doing it, the meeting is for 1 hour and is making me anxious what they expecting me to know to prove in 1 hour.",
+      "subreddit": "cscareerquestions",
+      "score": 4,
+      "url": "https://reddit.com/r/cscareerquestions/comments/rm6g81/cant_be_a_jr_sysadmin_yet/",
+      "comments": [
+        {
+          "body": "You'll probably have more luck on on /r/itcareerquestions, just FYI. That's where all the more senior sysadmins are gonna be hanging around and giving advice.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Anyone going Okta for summer 2019?",
+      "body": "Just wondering how Okta (Toronto) is for summer interns. Have final round coming up this week, any interview tips? Hows the work environment, office, compensation?",
+      "subreddit": "cscareerquestions",
+      "score": 5,
+      "url": "https://reddit.com/r/cscareerquestions/comments/anlyx9/anyone_going_okta_for_summer_2019/",
+      "comments": [
+        {
+          "body": "[deleted]",
+          "score": 5
+        },
+        {
+          "body": "Just curious, how many rounds did you already have?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Just received this offer for a position i applied months ago. Is it legit?? Should I accept and give all my info?",
+      "body": "So i applied to this job through the website and had an AI based first round interview/screening. Never had anyone reach out to me until today. I received the offer and an hour later someone called me to inform that i have an offer and want me to accept the offer and submit all the docs, so they can start with the onboarding. I mean, no further interviews? And $60/hr?? Sounds too good to be true. \nPlease help! ",
+      "subreddit": "jobs",
+      "score": 0,
+      "url": "https://reddit.com/r/jobs/comments/1p9b96p/just_received_this_offer_for_a_position_i_applied/",
+      "comments": [
+        {
+          "body": "Talk to a Human. Did you interview? One thing to always remember is the interview works both ways, you can ask questions to see if the job is what you're looking for.",
+          "score": 22
+        },
+        {
+          "body": "No.",
+          "score": 16
+        },
+        {
+          "body": "When it’s too good to be true, it’s too good to be true. 😁",
+          "score": 17
+        },
+        {
+          "body": "Do you have the education listed? Mph, etc",
+          "score": 10
+        },
+        {
+          "body": "So W-9 is not used for employees. It is used to get information when you are acontractor.",
+          "score": 6
+        },
+        {
+          "body": "I’d bet it’s a scam. Someone tried that with me too. Text based interview. Then they wanted to mail me a check to cover buying my equipment. An Stripe? That’s like saying they want to pay you viaCashApp",
+          "score": 7
+        },
+        {
+          "body": "That’s a contractor tour and it states it’s not the job you applied for.  Find who actual employer is.  Mercor is a matching service, not employer.",
+          "score": 4
+        },
+        {
+          "body": "The job is 10 hours per week? How many shifts is that?",
+          "score": 2
+        },
+        {
+          "body": "This sounds like a pill mill.",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Should I mention the Job Corps Program in applications (Also Resume critique please?)",
+      "body": "Hi r/Jobs! SO I'm a Culinary Arts graduate from the Job Corps program. I finished the program just under a year ago and I'm still unemployed. I've been fervently searching for jobs, Putting in applications and going to interviews but nothing seems to work. I remember hearing from a friend of mine that she had the same issue but when she took Job Corps off her resume she finally started getting some callbacks.\n\nSo my question to you is: Is Job Corps looked down on by employers, and if so should I scratch Job Corps off my resume?\n\nPS: [Here's my resume](http://pastebin.com/7Fkn2LK6) if anyone wanted to give me some pointers ",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/39bhu7/should_i_mention_the_job_corps_program_in/",
+      "comments": []
+    },
+    {
+      "title": "Product manager interview at OKTA",
+      "body": "Hi, any help with product manager interview at OKTA for access management would be appreciated ",
+      "subreddit": "interviews",
+      "score": 3,
+      "url": "https://reddit.com/r/interviews/comments/1gunut2/product_manager_interview_at_okta/",
+      "comments": [
+        {
+          "body": "Okta was one of the WORST interview experiences of my life.  After meeting with 10-12 \"stakeholders\" and the CEO, I was given a homework assignment.  I spent 20 hours on it and then they ghosted me for two months.  Granted this was ten years ago so YMMV.  I hope it does.",
+          "score": 6
+        },
+        {
+          "body": "[removed]",
+          "score": 2
+        },
+        {
+          "body": "For a product manager interview at OKTA focusing on access management, you'll want to showcase your understanding of identity and access management (IAM) concepts, as well as your ability to drive product strategy in this space. Be prepared to discuss topics like single sign-on, multi-factor authentication, and user provisioning. You should also demonstrate your knowledge of OKTA's competitors and the overall IAM market landscape.\n\nDuring the interview, expect questions about your experience with product roadmapping, stakeholder management, and cross-functional collaboration. They'll likely ask about how you prioritize features, handle customer feedback, and measure product success. Don't forget to highlight any relevant experience you have with enterprise software or B2B products. If you're worried about tackling these topics, you might find [AI for job interviews](http://interviews.chat) helpful. I'm on the team that created it, and it's designed to help you navigate tricky interview questions like these and boost your confidence for job interviews.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Interviewing for Customer Support Strategy &amp; Operations Manager role at Okta",
+      "body": "Hi everyone! I'm about to start interviewing for the Customer Support Strategy &amp; Operations- Manager role at Okta and was wondering if anyone had insight on the interview process and/or the role itself?\n\nWhat's the interview process like? Is it super long with multiple assessments? I just had an interview process like that recently but was cut halfway through after 2 interviews and 2 assessments (one written and one technical interview), and there would've been at least 3 or 4 more interviews so I was kind of relieved. Hoping this one isn't quite is lengthy. But then again I need a better, more stable job (just working part time right now) and this would be great as it's remote and pays well... sooo I guess I need to jump through the hoops and try to get it. \n\nWhat about the team? Is the role super demanding? Any info would be appreciated! Thanks!",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1fqoarq/interviewing_for_customer_support_strategy/",
+      "comments": [
+        {
+          "body": "The interview process for a Customer Support Strategy &amp; Operations Manager role at Okta is likely to be thorough, but not excessively lengthy. You can expect a mix of behavioral and technical questions, focusing on your experience with customer support strategies, operational improvements, and team management. There might be a case study or a presentation component to assess your problem-solving skills and ability to communicate complex ideas.\n\nAs for the role itself, it's probably quite demanding given the nature of the position. You'll be responsible for developing and implementing strategies to improve customer support operations, which requires a keen analytical mind and strong leadership skills. The team at Okta is known for being innovative and fast-paced, so be prepared for a dynamic work environment. If you're feeling unsure about the process, you might want to check out this [interview AI tool](http://interviews.chat) I'm on the team that created it, and it's designed to help job seekers navigate tricky interview questions and boost their confidence during the job search process.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Preparing Okta Software Engineer New Grad interview",
+      "body": "I just finished a call with an Okta HR. If everything goes well, I will have a technical interview for one hour before having another one hour technical interview and a 30 minutes BQ.\nCan someone with experience let me know what should I expect in the technical interview from Okta? If it’s LC, what kind of difficulty or type of questions should I get prepared?",
+      "subreddit": "interviews",
+      "score": 2,
+      "url": "https://reddit.com/r/interviews/comments/11wv46x/preparing_okta_software_engineer_new_grad/",
+      "comments": [
+        {
+          "body": "how was it?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Qualtrics vs. Okta SWE Intern",
+      "body": "I know these two companies are specific, but anyone have any past internship experience with interning at either of them and possibly how they compare with each other? I have an offer from Qualtrics atm and am going into final rounds with Okta. I am wondering whether Okta is worth continuing interviewing with at this point.",
+      "subreddit": "cscareerquestions",
+      "score": 1,
+      "url": "https://reddit.com/r/cscareerquestions/comments/dmcu4c/qualtrics_vs_okta_swe_intern/",
+      "comments": [
+        {
+          "body": "How was your qualtrics final round with the HR manager? I have one coming up this Friday...\n\n&amp;#x200B;\n\nTo answer your question, if you're not interviewing anywhere else then you might as well interview with Okta just for the interviewing practice (and pick the better offer if you get in).",
+          "score": 4
+        },
+        {
+          "body": "I interned at Okta this past summer and really liked it. The culture and product are great plus they go out of their way to try to get you an interesting project. I don’t know much about Qualtrics but Okta is def worth considering",
+          "score": 2
+        },
+        {
+          "body": "How was Okta's final round structured? Mine's coming up in a few days.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "CS major looking to switch from IT job to SE job",
+      "body": "As for a bit of background, I graduated with my Master's in CS in 2015. As I was closing in on graduation, I was worried I might not enjoy being a developer, spending 40-50 hours a week coding. So I ended up applying to a wider field of jobs and landed a job at a MSP. Initially, I was excited to be working on something new and learning on the job, but that feeling did not last that long. I was assigned to a client working on a mix of support and sysadmin work. The work consisted of Office 365 and Windows Server support, Exchange Migrations and Server Upgrades/Decommissions. This was okay for a while, but I really dislike any aspect of IT dealing with support work.  Despite this, I decided to stick with it as the workload was easy and there was the promise I would get moved to more interesting project based work. Here I am 3 years later,  closing in on 4 years at a job far too centered around support work and minimal project work.  I'm unhappy with my role, career progression, and salary.  \n\nHighlighting what I've learned working in IT: \n\n* Well versed in PowerShell Scripting\n* Office 365 and Exchange\n* Identity - Duo, Okta, Azure AD\n* 3 MCSE certifications (Company I worked for was a Microsoft partner )   \n\nI'm currently age 26 and looking for some advice to transition away from IT to SE.  I wish I had gone into a software engineering position right out of college and I'm concerned my work experience in IT is going to impact my job search for a programming role.  It also does not help I've done minimal programming since graduating. I'm working to brush up on my C/C++ and practicing with Python as well. What advice would you give to help me move into a software engineering role in the next 6 months? How should I explain the career jump during interviews?  Would it beneficial to get a certification in AWS or Azure?  \n\nTLDR; I've been working as an IT consultant for the last 3-4 years focused on Office 365/Exchange/Windows Server.  I got too complacent at my current position and I am worried about my career trajectory.  I would like advice on switching from IT to SE.",
+      "subreddit": "cscareerquestions",
+      "score": 2,
+      "url": "https://reddit.com/r/cscareerquestions/comments/aidh65/cs_major_looking_to_switch_from_it_job_to_se_job/",
+      "comments": [
+        {
+          "body": "Start slowly and get your skills back up and running. The FAQ has numerous links you can use. ",
+          "score": 2
+        },
+        {
+          "body": "Have you considered roles other than software engineering? There are pre-sales roles like sales engineering at technical companies like Okta/Duo where you definitely need to know how to write code and be technical. It's super fast paced environment. Might be a good path in between. Good luck! ",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Okta Interview process",
+      "body": "Does anyone know what the interview process for okta is? I applied for an IT Support Engineer role and got an email for an initial screening call. \nIf anyone has interviewed or works for okta, any advice would be appreciated, I wanna be prepared. ",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1o37172/okta_interview_process/",
+      "comments": [
+        {
+          "body": "C’mon someone has to have experience here to help out. The job market is tough!",
+          "score": 1
+        },
+        {
+          "body": "Hi did you do the screening? I have a phone interview this upcoming Monday and looking to get some info?! Thanks! ",
+          "score": 1
+        },
+        {
+          "body": "Hi! How were you able to get a screening call? Did you have a referral?",
+          "score": 1
+        },
+        {
+          "body": "Hi OP! how’s your interview?",
+          "score": 1
+        },
+        {
+          "body": "If anyone is reading this thread later - had an awful experience with them. After two interviews they asked me to do a 15 hour take home that involved solving a problem I know for a fact they are actually working on. \n\nI told them I wasnt going to do it and they ghosted. Lol.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Okta Interview for Project/Program launch manager",
+      "body": "Does anyone have any idea on Okta interview process? How many round they have, what is the difficulty level? I am done with recruiter and hiring manager round today. Waiting for feedback but would love to get any insights on the rest of the rounds if result came out to be positive. ",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1imppu1/okta_interview_for_projectprogram_launch_manager/",
+      "comments": []
+    },
+    {
+      "title": "Okta Interview",
+      "body": "Im not sure if this is the right place to ask, but does anyone know how is Okta Interview's first technical session would go for a software engineer (mid-senior level )? I have the first round( live code challenge)  in a couple of days.",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/14f9g49/okta_interview/",
+      "comments": [
+        {
+          "body": "Best bet is glassdoor or finding ex employees on LinkedIn. Reddit is still too niche for mainstream society.",
+          "score": 1
+        },
+        {
+          "body": "Are you interviewing for the Toronto office?",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

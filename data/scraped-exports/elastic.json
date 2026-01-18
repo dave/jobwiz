@@ -1,0 +1,507 @@
+{
+  "company": "elastic",
+  "post_count": 26,
+  "exported_at": "2026-01-18T17:44:53.274Z",
+  "posts": [
+    {
+      "title": "I feel lost and barely moving, how to move to either business or architectural deep level that has longer time span projects",
+      "body": "I have mostly worked at startups in past in India. \n\nMy tech stack has revolved around javascript, typescript, react, next.js, nest.js, SQL (mysql, postgres), NoSQL(Mongo, DynamoDB, ElasticSearch), node, express, and essentially microservices.\n\nI have learnt to even do freelancing on side and that has given me a taste of good money. Especially when there would a full-time job and this part-time freelancing. Now that this is habitual I can not seem to feel satisfied whenever there is no freelancing on-going. \n\n---\n\nPreviously I was working at a famous startup.\n\nI am currently working at a BIG company, that is famous in our computer science software world. \n  - This feels good from outsider's perspective, but it is all about agree-ing to the leadership at one point or the other. There are lot of other restrictions too, like we can not even contribute to open source.\n  - plus this is not a remote job, which is just plain sad.\n\nI had this side freelance work too where only thing required was speed and code can be as shitty as it can be, \n  - which has demotivated me a lot when they let me go .\n\n---\n\n## I feel lost\n- Whenever I focus on the full-time job and work the team mates and some times the managers gets so toxic, with their Indian mindset trying to crawl into how a particular line was wrote, timing and then unrealistic expectations. \n  - This can not be resolved even after working late night pretty much everyday.\n\n- Whenever I focus on the part-time freelance work more, the work also always requires speed and mindless coding, like creating components on frontend and attaching them that is it.\n\n---\n\nThis has built a mental model of different ranges of income that can come probably 100k USD, but that is not sustainable as I need to create a framework or infrastructure to delegate and focus on process building\n\n---\n## I want to . . .\n- create a company of my own, maybe in the software field itself. I have figured out while working closely with the product managers, and some business folks that domain knowledge for the business is of much importance. \n**So how can/to achieve this domain knowledge and build something out of it?**\n\n- move abroad, maybe to Canada or Europe or even USA. Purely because at least there would be work-life balance, and people would not do much of the politics inter and/or intra teams. \n   -  this involves a lot of other aspects too. E.g., better life quality, better options to buy so many cars, tech products, etc. Better health care hospitals and insurance and options, away from all the toxic relatives too who just thinking that we software engineers are minting money and ours is the only job left in the world.\n\n---\n\n## Current ideas . . .\n- I have few ideas about creating few tools like data migration or database query translations (from older SQLs to current MySQL or so).\n- and then create a library of tools probably and sell them as and when required. \n\nThis can help establish the business in some way or the other. \n\n- Other idea is to just focus deeper on learning, as I feel good with system design and architecture, I want to grow deeper and not just rot learn the DS&amp;A to crack a fancy company interview yet again. (My interview count has reached 253+ in past 8 years, cracked a lot, been ghosted a lot, and got rejected a lot).\n\n- and sometimes I feel to dive deep into systems low level language like RUST, and maybe refresh from my college and touch upon computer architecture and grow in that direction.\n\n---\n\n## what I lack\n- patience\n- a subtle pocker face feeling to not react to anything that managers or team mates says\n- BIG-money, (salaries are good already)\n- a beautiful relationship with opposite gender human\n\n---\n\nSo need some help to iron out, as I really want to grow in big in business or at least in life, where the business is setup. I can move onto a investor like journey where I can understand and invest in multiple businesses and live life by travelling, reading and learning. I just do not want to get caged to the software engineering world that is bound by various heirarchical levels ICs and Managers (m1, m2, etc.)\n\n---\nEDIT-1 \nI constantly try to look at such big open source projects to contribute too. I even start it, but it is not continuously doable as there is no straight forward money incoming with it. \n- So need some push, motivation there, does it really help getting recruiters from western countries to reach out to an individual and getting hired overseas?",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1dfvsp2/i_feel_lost_and_barely_moving_how_to_move_to/",
+      "comments": [
+        {
+          "body": "Lost and barely moving? That could be signs of brain damage. Did you hit your head lately?",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Personal project with Spring Boot/ Docker/ AWS - what complexity can I add to showcase my skills? Anybody is welcome to join me in this project!!",
+      "body": "I've been working on a simple Online Shop application - a micro version of Amazon. The backend is Spring Boot RESTful api's connected to MySQL. I'm deploying this app as a containerized docker app to AWS ElasticBeanStalk. Planning to add frond-end in Angular. This app is basically to learn new tech stacks as I work on Java EE at work. and build my GitHub profile.\n\nWill this kind of app a good showcase for showing coding/ design skills to prospective employers (tech firms). What do you guys think can I add to make it a bit more complex - technology wise ? Would appreciate any suggestions!\n\nAnybody is welcome to join me in this project!! Please PM me if you want to..",
+      "subreddit": "cscareerquestions",
+      "score": 17,
+      "url": "https://reddit.com/r/cscareerquestions/comments/bc1975/personal_project_with_spring_boot_docker_aws_what/",
+      "comments": [
+        {
+          "body": "- Testing, test coverage setup: the more complex your business logic is, the more you have to pay attention to the design patterns, how to make your project SOLID, which will then be reflected via unit test and integration test. **I cannot stress enough how important testing is when you use Spring Java**\n\n- Show case of understanding how the software can progressively change overtime. Apply good practice such as DB migration schema management, api versioning is quite important.\n\n- If you were to involve frontend, I suggest start with basic thymeleaf first. Applied template management best practices(fragment, dialect etc...). Then try folding Angular/ReactJS into the Thymeleaf. This is because almost zero piece of enterprise software start out with a complex requirement set: it often comes with a simple feature set at first and progressively get harder over time.\n\n- Show some understanding related to DB layer: index management, simplify queries, monitoring, metrics, circruit breaker...\n\nYou are building a resume/CV with java, you are targeting SWE position at a big enterprise firm. It's more important that you understand the cost/benefit of having a maintainable, extendable application over a long period of time rather than being able to apply flashy new tech into your project.",
+          "score": 11
+        },
+        {
+          "body": "This is a good idea. Building a complex app is the best way to gain in depth knowledge of a tech stack imo. The knowledge will help you a lot during interviews with most companies that use this stack and could help you get the job. However you appear to be targeting tech firms which nowadays rely mostly on leetcode and system design questions and they most likely will not ask you many questions related to the stack so you may want to also focus on that stuff as well. If you are open to large non tech companies the knowledge you gain from building the app will be golden.",
+          "score": 5
+        },
+        {
+          "body": "&gt;What do you guys think can I add to make it a bit more complex - technology wise ?\n\nThis is just my 2 cents, but I think this is a bad question to ask.\n\nOne part of side projects is looking at how the person designed the system. *Why* they chose one technology, what feature drove the need to select that, why they didn't go with Technology B instead of Technology A. This is what makes side projects interesting.\n\nIf you're adding complex technology just for the sake of it being complex, you're not doing a good job of system design. You're over-engineering. This is seen as a negative trait.\n\nIf I ask you why you chose MySQL do you have an answer? How about why you picked EBS? Why Angular instead of React? Or Vue? Why is the backend Sprint Boot on EBS instead of Python in Lambda?\n\nAnyone can learn technologies, and languages... the value of side projects and portfolios is to see how you develop *an application*. If your answer to why you chose Angular is \"I wanted to learn Angular\"... well... that tells me nothing about you.",
+          "score": 10
+        },
+        {
+          "body": "[deleted]",
+          "score": 1
+        },
+        {
+          "body": "Can I get in some of this action? Looking to do a project in Spring Boot.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Practical vs Theoretical",
+      "body": "For context I have just over 2 years of full time experience. 99% of my experience has been related to the backend in C#/.NET and vb.Net relational databases, consuming API’s, some (very little) Golang and NoSQL (elastic). \n\nIn my own time I’ve been studying Python through various resources. \n\nI have a CS degree, but I haven’t had to use ANY front end technologies such as JS/React/CSS in any of my work since graduating college. \n\nConsidering a majority of jobs are in web development would it benefit me to study some frontend stuff and commit ~50-60 hours on a course to fill in those gaps? I’m conflicted between learning the practical or grinding leetcode to get past the tech screenings/majority of tech interviews and would like some guidance.",
+      "subreddit": "cscareerquestions",
+      "score": 2,
+      "url": "https://reddit.com/r/cscareerquestions/comments/xphrpy/practical_vs_theoretical/",
+      "comments": [
+        {
+          "body": "I would say that it entirely depends on what you want to do.   \nIf you are interested in frontend and would like to get a frontend/fullstack job then obviously getting some experience with those tools would be beneficial, but if you're only interested in backend (or non-frontend fields), then it doesn't seem very useful to spend time on it. Especially since knowledge without practice tends to fade",
+          "score": 1
+        },
+        {
+          "body": "are you trying to get a job in webdev?\n\ni'm in the us with no degree and a 7+ long year career of avidly refusing to do anything frontend. i don't do any webdev either but am not opposed to it. unless you're interested in webdev i don't think you're hindering yourself at all. you can always pick up another backend language to make yourself more desirable as you're doing now",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "5 months into first Backend Dev / Data Engineering job - How useful is my experience?",
+      "body": "Some background: I graduated in 2016 with an EE degree. Fast forward to late 2021, I hated all my positions as an electrical engineer, the work was boring and pay was not amazing. I started learning python on my own and in Mar 2022 I landed an entry level python dev/data engineering position. Surprisingly there was no LC in the interview and thankfully so as I absolutely hated it.\n\n&amp;#x200B;\n\nAnyways I am now about 5 months into my positions and I really like it. Work is sometimes challenging but I am always able to overcome obstacles either on my own or with some help of teammates.\n\n&amp;#x200B;\n\nFirst month was just onboarding and some simple tasks. Afterwards I was given a lot of tasks, ranging from small bugs to mini projects. Majority of my work is developing API's with the Python FastAPI framework and respectively creating and managing the database. Below is a list of some tasks I have completed so far.  \n\n\n• Created Python scripts to load the data from different data sources such as SQL Server/Oracle to Oracle/Elastic/MemSQL/MongoDB  \n• Designed databases in MemSQL/MongoDB to support multiple applications.  \n• Created Tables, Views and Procedures in MemSQL.  \n• Worked on python scripts to load the data from Oracle to MemSQL, Oracle to MongoDB and vice versa.  \n• Documented API Definition based on user requirements in Swagger.  \n• Used FastAPI framework in Python for Microservices.  \n• Built and deployed Docker images to Kubernetes.  \n• Created a Githubactions CI/CD pipeline to deploy the microservices in Kubernetes from GIT.  \n• Created and modified Database and Database Objects such as Tables, Packages, Procedures, Views, Triggers, and functions in Oracle (PL/SQL).   \n• Performed tuning of the code to improve the overall performance of the applications.  \n• Answered technical support queries and implements fixes for application problems.  \n• To address support issues, proactively worked with cross-functional teams.  \n• Monitored Jobs and troubleshoot them if/any errors.  \n• Automated Jobs using Airflow.\n\n• Created and managed RESTFUL API's for new and old applications.\n\n• Created API to take user coordinates and return all coordinates from DB within a certain radius forming a 2d sphere\n\n&amp;#x200B;\n\n&amp;#x200B;\n\nHow is my progress 5 months in? Have I been doing any meaningful tasks. Am I behind or ahead of other devs in a similar situation? On average I am actually working 5hours out of the 8. Sometimes more, sometimes less depending on requests. I have not been really doing any LC during my free time. I absolute hate it and can only do up to the easy problems. Just curious to know where I stand among other early career devs. Thanks!",
+      "subreddit": "cscareerquestions",
+      "score": 1,
+      "url": "https://reddit.com/r/cscareerquestions/comments/wwplyh/5_months_into_first_backend_dev_data_engineering/",
+      "comments": []
+    },
+    {
+      "title": "So...I accepted and started a new job...but 1.5 weeks later I hear back with an even better offer from a larger company I applied to 4 months ago.",
+      "body": "Both places are F500s.\n\nCompany B's (the one whose offer I just got) increase is approximately in the tune of 20k more for the base and I think the benefits are pretty level with each other. I had originally assumed Company B had ghosted me after the onsite interview that they did, but apparently, not.\n\nGlassdoor reviews for both are pretty fair for both of them and employees have said the work-life balance is good at both; the learning and grow opportunities look good at both as well.\n\nI really have no preference where I work or do not work; they're equidistant from the place I've settled in (okay Company B is 3 miles more of a drive...but who's really counting that lol)\n\nI like the technology (working with ElasticSearch) here, and the space is fine too (Retailer Procurement Services space vs Insurance)\n\nAlso, both are SWE positions.\n\nAny way I can handle this?",
+      "subreddit": "cscareerquestions",
+      "score": 239,
+      "url": "https://reddit.com/r/cscareerquestions/comments/8c8orz/soi_accepted_and_started_a_new_jobbut_15_weeks/",
+      "comments": [
+        {
+          "body": "Make sure you have everything locked down with the new company like background checks. Even if you know you are in the clear, weird stuff does pop up that may not be accurate. Explain to the other company that you were not looking but recieved a better offer from a company you are interested in. They most likely will match it. If not, be prepared to leave and let the current company know as soon as possible. \n\nI would be wary of the new company ghosting you for 4 months. That is usually not a good sign. They most likely continued to interview or they hired someone that did not work out and you are a plan b or c for them.",
+          "score": 368
+        },
+        {
+          "body": "Handle it with the most dignity you can, in the manner that benefits you the most.  You will probably burn a bridge, but $20k/year can buy new bridges!\n\nI had this exact scenario out of college and I just politely explained in a call, and that was that.\n\nPlease don't take the lessor offer out of principle.  Please!",
+          "score": 419
+        },
+        {
+          "body": "If you received any signing bonus or relocation money make sure you can pay it all back right away. If you've only been there 1.5 weeks you probably didn't receive it yet, but just wanted to throw that out there just in case",
+          "score": 24
+        },
+        {
+          "body": "[removed]",
+          "score": 82
+        }
+      ]
+    },
+    {
+      "title": "Advice required for a 9+ years experienced dev",
+      "body": "I have a total of 9+ experience in Java/Python related technology but currently stuck in Iaac support project which includes legacy tech stack such as Chef , Ansible and  all. Recently gave an interview where he asked me to optimize a search feature in e commerce platform which ofcourse I bomabrded it, he was expecting something on the lines of elastic search and all. \n\nCan someone please advice what should I do to progress ahead? What technologies can I upskill myself into?",
+      "subreddit": "cscareerquestions",
+      "score": 1,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1iwdzsz/advice_required_for_a_9_years_experienced_dev/",
+      "comments": [
+        {
+          "body": "At that YOE, I’d say you should at least know what popular technologies do at a high level so you can tie them into a system design diagram in interviews\n\nReading “Designing Data Intensive Applications” or other similar resources is also often recommended for improving system design skills",
+          "score": 1
+        },
+        {
+          "body": "Bombardment?  That's a bit of an overreaction, no?\n\nWhat was their feedback when you cratered their offices?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Is this not absolutely ridiculous?",
+      "body": " FingerprintJS offers highly accurate fraud prevention solutions and is used by over 12,000 websites. It can verify legitimate users and block fraudsters even if they use VPNs, private browsing, clear cookies, or other methods to hide. FingerprintJS helps websites and mobile apps secure their login, checkout and other pages from fraudulent login attempts, credit card fraud, cheating on online platforms and more by uniquely identifying every browser that connects to your website.\nFingerprintJS is a company with an engineering culture and strong open source emphasis. This is an overview of our technical interview process.\nCommon guidelines:\n1. During the entire process you meet and talk with at least three people: recruitment manager, one engineer, and the CTO. You may be asked to meet with additional people.\n2. You should expect to complete a take-home assignment. The tasks vary by position but generally should not take more than 5 hours to complete. We may ask you to implement an algorithmic challenge, you can use any language for it. Our preference is Golang, TypeScript or JavaScript.\n3. There is usually one Zoom/Google Meet call per interviewer, but sometimes an interviewer may ask you to schedule another call with them if there is something left to discuss.\n4. All interviews are in English, but sometimes we switch to other languages for convenience.\n5. Technical Interviews: (more details below)\na. Software Engineers: During the technical interviews be prepared to do light\ncoding with your screen shared.\nb. DevOps: Please have your public SSH key and a terminal application ready\n(iTerm/Terminal/PuTTY/etc), as you may be asked to log into a linux-based\nmachine during the interview.\n6. We value your feedback and support transparency throughout the process.\nPlease think carefully about your strong skills before the interview. Your answers will affect the interviewing stages. We would like to ask technical questions that correlate with your experience.\n\n We use Golang and TypeScript for our projects. There are different teams depending on the project. You will be offered to join a specific team in the final stage.\nOur Tech Stack:\n1. Front-end: TypeScript, React, react-query, SCSS, Jest, Storybook, Cypress\n2. Back-end (JavaScript): TypeScript, Express, TypeORM, PostgreSQL, Jest\n3. Back-end (Golang): DynamoDB, Elastic Beanstalk\n4. CI/CD: AWS, Github Actions, Netlify\n5. Other: Grafana, CloudWatch, X-Ray, Prometheus\nTechnical Interview Guidelines:\n1. Technical calls are usually 60-90 min long.\n2. Our goal is to evaluate your current level of skill so any explanation of your thought\nprocess or the things that you do know is helpful even if you don’t know the exact\nanswer to a specific question.\n3. We don't expect you to know the answer to everything perfectly but how you answer and\nwhat you do know is correlated with your experience and skill level. If you have any difficulties with questions, the most important thing is that you communicate with the interviewer.\n4. Software Engineers: There are live-coding sections with 3-5 questions per interview. Please prepare for them carefully.\na. We usually ask questions about the language or platform you are working with in a framework-agnostic way, but some framework questions are possible.\nb. We expect you to write clean, readable and understandable code. Consider using platforms such as LeetCode for preparation.",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/14g1z63/is_this_not_absolutely_ridiculous/",
+      "comments": [
+        {
+          "body": "A recent Reddit policy change threatens to kill many beloved third-party mobile apps, making a great many quality-of-life features not seen in the official mobile app **permanently inaccessible** to users.\n\nOn May 31, 2023, Reddit announced they were raising the price to make calls to their API from being free to a level that will kill every third party app on Reddit, from [Apollo](https://www.reddit.com/r/apolloapp/comments/13ws4w3/had_a_call_with_reddit_to_discuss_pricing_bad/) to [Reddit is Fun](https://www.reddit.com/r/redditisfun/comments/13wxepd/rif_dev_here_reddits_api_changes_will_likely_kill/) to [Narwhal](https://www.reddit.com/r/getnarwhal/comments/13wv038/reddit_have_quoted_the_apollo_devs_a_ridiculous/jmdqtyt/) to [BaconReader](https://www.reddit.com/r/baconreader/comments/13wveb2/reddit_api_changes_and_baconreader/).\n\nEven if you're not a mobile user and don't use any of those apps, this is a step toward killing other ways of customizing Reddit, such as Reddit Enhancement Suite or the use of the old.reddit.com desktop interface .\n\nThis isn't only a problem on the user level: many subreddit moderators depend on tools only available outside the official app to keep their communities on-topic and spam-free.\n\n&amp;#x200B;\n\nWhat can *you* do?\n\n1. **Complain.** Message the mods of r/reddit.com, who are the admins of the site: message [/u/reddit](https://www.reddit.com/u/reddit/): submit a [support request](https://support.reddithelp.com/hc/en-us/requests/new): comment in relevant threads on [r/reddit](https://www.reddit.com/r/reddit/), such as [this one](https://www.reddit.com/r/reddit/comments/12qwagm/an_update_regarding_reddits_api/), leave a negative review on their official iOS or Android app- and sign your username in support to this post.\n2. **Spread the word.** Rabble-rouse on related subreddits. Meme it up, make it spicy. Bitch about it to your cat. Suggest anyone you know who moderates a subreddit join us at our sister sub at [r/ModCoord](https://www.reddit.com/r/ModCoord/) \\- but please don't pester mods you *don't* know by simply spamming their modmail.\n3. **Boycott** ***and*** **spread the word...to Reddit's competition!** Stay off Reddit as much as you can, instead, take to your favorite *non*\\-Reddit platform of choice and make some noise in support! \n\nhttps://discord.gg/cscareerhub\n\nhttps://programming.dev\n\n4. **Don't be a jerk.** As upsetting this may be, threats, profanity and vandalism will be worse than useless in getting people on our side. Please make every effort to be as restrained, polite, reasonable and law-abiding as possible.\n\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/cscareerquestions) if you have any questions or concerns.*",
+          "score": 1
+        },
+        {
+          "body": "If I was the interviewer, you already lost the job for your poor communication skills.\n\n1. Explain what you think is ridiculous.\n2. Provide a TL;DR\n3. Use formatting for readability. If you're employable, you should know Markdown.\n4. Give context that you just pasted a full job description. I started reading this in your voice and got confused. You lack empathy for your reader. I'd hate to have to review your code.",
+          "score": 21
+        },
+        {
+          "body": "&gt; Is this not absolutely ridiculous?\n\nNot really. Why?",
+          "score": 12
+        },
+        {
+          "body": "Seems pretty standard, if somewhat pretentious. Their tech stack description doesn’t mean you need to know all of it - you’d just need to know the skills for whatever area you’re working in. A take-home and 2 technicals is honestly less than the average interview load, from my experience",
+          "score": 5
+        },
+        {
+          "body": "okay, what's so ridiculous about it?",
+          "score": 4
+        },
+        {
+          "body": "They have plenty of applicants, so why not up the requirements?",
+          "score": 3
+        },
+        {
+          "body": "Only thing I might consider ridiculous off this whole posting is the 5 hour take home assignment, but I don't think I'm qualified to say if that's normal or not.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Moving from EU to US as Senior Software Engineer",
+      "body": "My father is an American who moved from the US to Germany 30 years ago. He trained as a software engineer and has 21 years of experience. Currently he works as a freelancer; for his last project he worked 200 days per year and charged 85€/hour, which means that he earned about 140000€ last year. \n\nNow he thinks about moving back to the US. What are his job options in his home country? Do you have to be a LeetCode pro to earn a similar amount of money than what he earned in Germany? \n\nHe is a really passionate and ambitious engineer. Everything he does he does 120% and in very little time. But there is just no way he would pass a LeetCode interview for Senior Engineers with Leetcode hards. \n\nHis tech stack: \n\nLanguages: VB6, C#, JavaScript, C/C++, Basics in Java and Go, SQL, TSQL, XSLT\n\nFrameworks: .NET, Angular, NUnit\n\nDBMS: SQL Server, MySQL, SQLite, ElasticSearch\n\nCertificates: Professional Scrum Master 1\n\nOther: Git, Unix, Windows Server, HTML, CSS, Bash, Power BI, WCF, XML",
+      "subreddit": "cscareerquestions",
+      "score": 15,
+      "url": "https://reddit.com/r/cscareerquestions/comments/mao0eb/moving_from_eu_to_us_as_senior_software_engineer/",
+      "comments": [
+        {
+          "body": "&gt; Do you have to be a LeetCode pro to earn a similar amount of money than what he earned in Germany?\n\nNo, although the highest-paying jobs often do require that type of preparation. There are many companies that don't take that approach to hiring, however, he should just keep that in mind when applying.\n\nAssuming he has no eligibility issues to working in the US, he should be fine. .NET, JS and Java all are in high demand. His current salary translates to roughly $167K, which is still very attainable in the US. Keep in mind that taxes are much, much lower in the US compared to Germany, so even if he gets an offer that's a little lower, he'll likely end up with more discretionary income anyway (depending on where in the US he lands). Ageism is real too, just to keep that in mind.",
+          "score": 23
+        },
+        {
+          "body": "99% of SWE's cannot pass LC Hard's. They're called hard for a reason.\n\nSome basic prep shouldn't hurt, and I would be willing to bet that while the LeetCode format might feel alien to your father, he'll probably have a better grasp of basic DSA fundamentals than he thinks.\n\nI'm from the UK, so I don't know what hiring is like in the US, but I would like to think that he'd be able to find a role with his experience that doesn't necessarily rely on DSA knowledge.",
+          "score": 5
+        },
+        {
+          "body": "Take a look at \".NET Developer\" positions in the US, basically lines up with your dads skills. Very common at non-tech companies, pay can be quite good, and no they generally don't give Leetcode interviews. $140k/year is a pretty average salary for a senior .NET Developer, around $200k/year is not particularly rare though. Also there are plenty of hourly jobs paying $80-100/hour for very experienced developers\n\nThe one short coming I think he would have is the lack of cloud experience. Generally they are looking for someone with experience in Azure or AWS; may be worth looking at a basic certification for these, it doesn't take very long but also would not be required, it might just help",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "title": "Should I pursue site reliability engineering/devops or software development path?",
+      "body": "Hi Reddit community,  \nI'm a foreign national currently wrapping up my Ph.D. in Computer Science, set to graduate in spring or summer 2024. Prior to my Ph.D., I spent 2.5 years working in backend engineering, automation, scripting, and REST API development in my home country.\n\n  \nDuring my Ph.D., I've focused on optimizing resources for microservice applications in Kubernetes and explored converged computing by running high-performance computing in the cloud for enhanced elasticity. My tech stack includes Kubernetes, Python, Bash scripting, monitoring tools like Prometheus and Grafana, Ansible, GitLab CI/CD, AWS, Terraform, AWS CloudFormation, and more.\n\n  \nAs I gear up for the industry transition, I'm facing a dilemma. While my experience seems to align well with Site Reliability Engineering (SRE), Platform Engineering, and DevOps roles, there's also the option to apply for general software engineering positions. However, the latter might require strong coding skills, something I'm not expert (can solve mediums in 30-40 minutes as of now).\n\n  \nI'm curious about the expectations for SRE/DevOps roles – do they typically require a Ph.D., and what are the odds of landing interview calls? Any insights or advice on choosing the right career path and navigating this transition would be immensely helpful.  \nThanks a bunch in advance!",
+      "subreddit": "cscareerquestions",
+      "score": 2,
+      "url": "https://reddit.com/r/cscareerquestions/comments/195iavj/should_i_pursue_site_reliability/",
+      "comments": [
+        {
+          "body": "I don’t know what others will say but applying for devops with a PhD might be unusual. Site reliability engineer and platform engineer probably less so. \n\nYou don’t have to go for a job that is in those fields though. Devops and platform engineering skills are still very useful as a software engineer.\n\nWhat interests you?",
+          "score": 6
+        },
+        {
+          "body": "A real SRE is a strong coder. SRE is basically an SWE, just with a different focus in the product and/or infrastructure. \n\nYou shouldn’t need a PhD for either an SRE or SWE, lol.",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Funny story about hiring",
+      "body": "A while back, at Yahoo, we were looking for React frontend engineers for Mail.\n\nI knew a React frontend guy from my previous company.  I reached out to him on LinkedIn and he was still at my previous company.  I talked up Yahoo to him: I knew what they paid at the previous company so I knew he’d make a lot more at Yahoo, like 50% more.  Yeah, he was interested.  So, I told him to send me a resume.\n\nHe sends me a resume and, along with it, he writes: “React is fun to play with but it’s too easy.  I don’t waste my time on the easy stuff.  Now, I’m doing backend with ElasticSearch, scaling, Akka.” I reply: “Well, the job is React.  Are you still interested?”  He replies: “Yeah, I’m interested.”\n\nI talk to my boss and he says, “His resume has some backend.”  I say: “Back when I worked with him, he was a full time React dev.  He was actually the guy who pushed to get the company to adopt React.”  Later, my boss said, “I thought about it and I guess that there will some advantage to him knowing React but knowing some backend, too.”\n\nThey did the interview and I heard later that the guy didn’t get the job.\n\nWhy?\n\nNobody cared that he dis’d React.  Fine, React is easy.  Even if React sucks, that’s what we use, that’s what the job is about and that’s what we’re looking for.  He tried to impress us with how smart he is, how he does complicated stuff in backend tech, how React would be “no problem”.  Fine, it’s nice that he is smart.  But then we talked to him about HTML, CSS, JavaScript and React, he kind of flubbed it.  I knew that he knew React and had done it before but even on easy questions about CSS or JavaScript, he fell apart.\n\nThe moral of the story is, I guess, for 99% of employers, we are hiring you to employ a specific skill and do a specific job.  If it’s a React job, we want to be reassured that you can come in and, in a month or two, create some minor React PRs.  It’s fine if you’ve got a PhD in ML.  It’s fine if you won the Nobel Prize in Physics.  It’s fine if you are crazy smart.  It’s fine if you have a bunch of prestigious employers on your resume.  But, in the end, we hire you because we need our damn React PRs.  We may be impressed but, if we doubt your ability to do React PRs, we are going to be concerned about giving you the job.\n\nFAANG has so many teams and does everything under the sun so they can hire smart people and then assign them to a team that can use their skills.  FAANG can hire a PhD in ML and then later match that PhD to team that needs PhDs in ML.  But 99% of employers can’t do that.  They’ve got to hire people with specific skills to perform specific jobs.  Because 99% don’t have a ton of teams, don’t do everything under the sun and don’t have a job for every skill.\n\nThat’s why FAANG cares so much about “being smart” and LC and 99% of employers don’t care that much.",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/114ygdm/funny_story_about_hiring/",
+      "comments": [
+        {
+          "body": "[deleted]",
+          "score": 70
+        },
+        {
+          "body": "What's this story trying to tell me?",
+          "score": 15
+        },
+        {
+          "body": "In my world smart people can learn html and css very fast.",
+          "score": 9
+        },
+        {
+          "body": "You're confusing \"being smart\" with \"talking big\".",
+          "score": 9
+        },
+        {
+          "body": "Ummm, okay? What’s the point of the story?",
+          "score": 3
+        },
+        {
+          "body": "If he was smart, he would have prepared for the interview. End of story.",
+          "score": 4
+        },
+        {
+          "body": "So this is the fault of the interviewers?",
+          "score": 3
+        },
+        {
+          "body": "99% of employers also don't pay FAANG salaries to such large numbers of people.",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "title": "What kind of profile makes your profile appeal to high-growth startups?",
+      "body": "I recently interviewed at a startup (Imagine an early Tesla) and despite completing a take-home assessment correctly and live coding in the interview I received a rejection.\n\nLooking at their product and what's coming their way in terms of software engineering they would absolutely want engineers from the likes of Tesla, Uber, and maybe Meta where they are experienced with complex rapidly scalable backends and high-ingress data streams.\n\nNow my 2.5 YOE only includes CRUD development and managing a little bit of AWS infrastructure (imagine 2 elastic beanstalk) so I get why they won't go forward with my application.\n\nBut this is the kind of impactful work I want to do and if I cannot add a similar company/exp to my profile, how am I ever gonna make it into the disruptive kind of software engineering?",
+      "subreddit": "cscareerquestions",
+      "score": 1,
+      "url": "https://reddit.com/r/cscareerquestions/comments/13yurnq/what_kind_of_profile_makes_your_profile_appeal_to/",
+      "comments": [
+        {
+          "body": "Target series B to C companies. \n\nSeed and series A tend to want experienced, specialized labor or cheap support labor. They often hire through word of mouth. You can connect with VCs or attend startup industry to meet founders if you want to join at this stage, but they're very unstable and may never find product market fit.\n\nLate C and later stage companies start hiring ex-FAANG because they can afford to do so by dangling IPO or acquisition like a carrot on a stick.\n\nSeries B to C is the sweet spot where they want to scale up and they have decent funding. Look at your interviewer's backgrounds and verify that they previously worked at notable companies. If the startup fails they can probably connect you with their ex-colleagues.",
+          "score": 2
+        },
+        {
+          "body": "If you got an interview it is unlikely that your profile is the issue.\n\nUsually there is something that didn't click right in the interview. Could be your technical or behavior part, but it could also just be the rapport(or lack there of) with the interviewer that kept you from getting the position.",
+          "score": 2
+        },
+        {
+          "body": "What do you mean by CRUD development?  CRUD is the acronym for the operations needed to run anysort of application that has persistent storage, which is almost everything.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "What was it like at your first Software Engineer job?",
+      "body": "After grinding Leetcode for months, I landed my first Software Engineering job 3 months ago at a company in El Segundo about 3 months ago (all remote due to COVID 19). I'm wondering what your jobs were like when you first began.\n\nFor me, I'm 3 months in, and I still don't know a lot about how things are done at the company. It's my first time doing anything that has involved Docker, Kubernetes, Spinnaker, Log Stash, Elastic Search, CI/CD, version control, etc. in a legit environment. It's really overwhelming, and I feel like the material that I've prepared for during the interview process has no correlation to what's actually done on a daily basis.\n\nIt's as if I'm dropped into the company without anyone showing me the ropes. There's no guidance on what api's/repositories do what, I'm given a lot of freedom (they seem lazy to do code reviews since they think I should be able to do it myself), and no one seems to be willing to help. I constantly slack team members to ask for their help, and I feel like I'm beginning to annoy my coworkers. It seems like I don't really have a team to back me up when I get stuck, since this is my first time doing everything, and I'm not in an environment where I feel like I can openly ask for help to actually learn without fear of looking stupid. It's kind of assumed that I already know all of these things whenever work is given to me.\n\nOn top of that, there's a strong language barrier between my co-workers and I. Most of my co-workers speak Korean and English isn't their native language, which makes communicating difficult concepts with them even harder. Additionally, I have to work with services created by teams over-seas, and communicating with them takes forever, leading to longer times to finish sprint tickets.\n\nAll of this, combined with imposter syndrome, has made me feel really overwhelmed, and I'm contemplating if I should just go back to consulting. I love the work that I do as a developer, and the work is definitely fulfilling. However, there's so much to learn and I feel like as an entry-level Software Engineer, I haven't really worked long enough to picked up on everything yet. I just wish I had less freedom and had more of a helping-hand, not just thrown into the water and expected to swim.\n\nAre these signs that I should quit? What was your experience like working as an entry-level Software Engineer for other companies? Were your co-workers generally helpful? Do they show you the ropes, tell you which repositories do what, and are willing to help, or were you just expected to know everything?",
+      "subreddit": "cscareerquestions",
+      "score": 17,
+      "url": "https://reddit.com/r/cscareerquestions/comments/hz9lwk/what_was_it_like_at_your_first_software_engineer/",
+      "comments": [
+        {
+          "body": "Everything you described sounds completely normal.",
+          "score": 25
+        },
+        {
+          "body": "I was super lucky for my first job. I had an assigned mentor, who is still the best engineer I’ve ever worked with. He was incredibly smart, and could explain anything in the simplest terms. He never held my hand through anything, but was always there when I needed guidance. He taught me what a tech lead looks and acts like. The agile workflow was actually implemented well. As engineers we had a lot of input into the product. There were high engineering standards for the code. Our front end was strongly typed, and we had nearly 100% test coverage on our code. Every PR required two code reviews, and then rigorous QA testing. Despite the rigorous process, new code was deployed multiple times a day. Our teams were cross functional so we had close interactions with all aspects of the business.\n\nI’m now at a much more prestigious company. It’s a big step up for my career in terms of name recognition, compensation, responsibilities, and the variety of technology I work with. I’ve learned more here than I thought possible given the time frame. The engineering standards and processes are just not there though. I fear that I will spend my entire career trying to find another job that captures the same engineering precision that we attained at my first job. If this was my first job....it would be rough.\n\nUnfortunately, your experience is much too common. Every company does things differently so a new employee, junior or long time veteran, is always lost initially. Some places are really good at onboarding. Most are not. From the way you talk about your job and the shortcomings you see, makes me believe you’re likely doing a more than adequate job. In tech, most jobs are a stepping stone, I would try to view it that way. It might be worthwhile to ask your manager for a mentor. It doesn’t have to be a very formal relationship, just someone that can be your go to person for advice. Ideally, someone wants that role since it’s usually viewed as part of the process towards becoming a tech lead. Another important thing to learn, don’t be afraid to ask questions. Expecting you to know everything already is ridiculous.",
+          "score": 7
+        },
+        {
+          "body": "This happens everywhere. This is practically why everybody wants an Entry-Level Engineer with 5 Years of industry experience, because nobody has got the time, or money, or effort, or anything for that matter, to \"teach you your job on a day-to-day basis\". This is practically the reason the entire software industry complains that even University / College education isn't preparing Engineers for the real-world, real-jobs out there. This is also the reason everybody on this sub keep pushing for \"Internships\", and real-work experience, and personal portfolio projects etc etc, it's all about the ability to individually and independently handle large enterprise projects as soon as you enter the work-force. Other people are \"busy\" just keeping their jobs safe, they don't want a \"low-pay\" fresher to gain the ability to take over the job, because it is cost-effective for the company too. If you intend to continue working in this industry, you have to work for yourself, learn how to handle the ropes.\n\n1. Communication is the key - 95% of your job is all about speaking and collaborating with people. if you are an interesting, likeable, personable, jolly-good fellow, throw-in that extra chip of stress-free humor into your greetings with people, and then get to collaborative work. even if you are not so much likeable, just keep in mind, work is boring, but not too much, so a touch of non-work, non-sense is always enjoyed by everybody.\n2. you have to have a vision, goals and agenda. vision is to keep this job for the foreseeable future possibly, 2 years, may be even 5 years, due to maybe other personal reasons - closer to home, commute is easy, pay is decent, dating somebody etc etc. goals are practically a success-streak - completing assigned tasks, efficiency, possible promotions. also bear in mind, failure is not an option in software engineering, so irrespective of how catastrophic the initiative you were involved in has been in a larger enterprise software context, always claim success. agenda is a plan-of-action, and this is where all the magic happens.\n3. Enterprise Software is not the same as leetcode or school projects, and that's the first challenge to learn as a fresh entry-level engineer into the work-force. Enterprise Software relies heavily on domain specific practices, and System Engineering integration, that are Senior and above level responsibility really, but your ability to wade through enterprise software systems comfortably is of utmost value. This is where Agenda comes into the picture.\n4. Never hesitate to communicate the right thing. Wrong things, well, they are typically never spoken aloud, like actually discussing with HR, your list of problematic observations over code-base or process during an exit-interview, no good to anyone.\n\nreach out to your current Manager, and politely demand for a Mentor, and a bi-weekly one-on-one with the Manager about the progress of your training under the tutelage of this mentor. This mentor is supposed to analyze your ability, give you work, train you how to do your work, monitor your progress and performance, for the first few weeks, up to a full-quarter, as in, 12 weeks. the manager should be open to receive feedback from either of you independently and judge whether hiring you as a fresher was even a good choice or not.",
+          "score": 5
+        },
+        {
+          "body": "I know the feeling of getting thrown into the job with 100 different things to learn. Docker, jenkins, ansbile, Java8+, Spring, REST, GraphQL, Kafka, AWS, NoSQL, enormous SQL queries you never saw in university, RabbitMQ, data dog, grafana, futures, the list goes on and on.\n\n1 year later I am so happy that I got this job, I have learned so much from the whole experience and I believe I have become a better engineer than I could ever have imagined.\n\nI was really lucky with having the perfect team though. All older guys who are **really** smart and everyone of them are helpful and are willing to pair up at any time or explaining concepts. When I started I got to do mob programming with 2 seniors who whiteboarded for me and taught me how to be an engineer. They are so relaxed, half of them got families and we work max 8h a day.\n\nMy boss is really amazing because he comes from a software engineering background so he understands our work well. He told me immediately \"don't worry if you don't understand, hopefully you will be able to pick things up in a years time\". Even he sometimes held some whiteboarding sessions for me.",
+          "score": 4
+        },
+        {
+          "body": "Sounds like my situation except on top of that I'm underpaid.",
+          "score": 3
+        },
+        {
+          "body": "I had a pretty unique path, starting out. It was the early 00's; I was 19 with no degree and self-taught. Bootcamps did not exist. My first job was at a small local newspaper making $7/hr working part-time building an ad sales management tool in PHP. I was totally out of my depth, the owner (naturally) had no idea how to run a software project or manage a developer, and the result was a hot mess that I essentially ran away from. But that experience led to the next, and so on, and these days I'm doing quite well and really love my career.\n\nLearn from the bad experiences; they help refine your vision of what a good job is like, and what to look for. You'll get much better at all of this over time. In my experience, onboarding at a new job is almost always painful to some degree. There's a huge amount of information you need to learn to be successful at a given company, and that takes significant time, measured in months and years. Meanwhile, you don't feel super productive because you're stumbling all the time. That will ease up. Then again, sometimes a company just isn't a good fit, and that's okay too. Don't be afraid to recognize that and find something more suitable. Life's too short to commit yourself to something that isn't good for you.",
+          "score": 2
+        },
+        {
+          "body": "I'm 4 months into my first software engineer job.  I feel you on the first half of what you said, there's A LOT to take in and I'm just kind of learning as I go, but it's definitely overwhelming.  I'm only JUST starting to feel like I'm contributing a little bit.\n\nBut I guess I'm lucky that my team is pretty casual and friendly, and there's always someone willing to help.  \n\nMy only complaint is they have other juniors guiding other juniors (people with &lt; 1 year exp) in terms of onboarding and learning the ropes of the company/projects.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Moving to USA. How do I land a job?",
+      "body": "So I'm a developer from Bengaluru, India and I work as a Full Stack Developer in a established start-up company and earn decent amount of money but a month ago we got the news that the citizenship we applied to United States 15 years ago has been accepted (interview is next month) and my father has made up his mind about moving there, so given the opportunity while being in the early 20s I'm also willing to move but I'm a little hesitant about how will I land a job there because even though I do my job with my full heart but I'm skeptical about like how should I start applying to companies and start ups there because I'm under the impression that HRs might reject me in screening round only because my location right now but yes I'm willing to move to any city in the US. A little background about my skills:\n\n1. Frontend: React.js, Angular2, Redux, jQuery\n2. Backend: Node.js, Django, REST, GraphQL, ElasticSearch\n3. Databases: MongoDB, Firebase, MySQL\n\n* Tbh my **strongest** suite is **React** I can almost do literally anything in it be it using hooks or using Redux or CSS in JS (styled components) or Spring/Framer Motion etc.\n* I can integrate **REST** as well **GraphQL** queries and Mutations in frontend quite easily\n* I have good knowlege about **CSS** like **flexbox**, grid system, implementing protoypes to actual code etc.\n* I can write CRUD APIs on **Node.js** as well, connect them to databases as well and\n* write good DB queries on Unstructured Databases\n* I know how to maintain a **ElasticSearch** Server and write queries for it as well\n* I have one year of experience working in the companies. I passed out from a normal college.\n\nI just want to know what should be my strategy to start applying to jobs and at what time should I start it and I really don't have any high expectation like working for big Company I will be happy to be a part of a established start up like my present company only. And in the beginning I'm happy to earn the avg. salary of a web dev. in US. Its just I don't want to be jobless by the time I reach there. Please guys help me out here.\n\nTL:DR Developer moving from India to US in 6 months what should be the startegy to get shortlisted for start-ups/companies until I'm not moving, so that I have a job by the time I reach there.",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/jairpy/moving_to_usa_how_do_i_land_a_job/",
+      "comments": [
+        {
+          "body": "Welcome to the US and glad to have you here!\n\nIt's going to be tough now because of Covid-19.  Ironically, some of the companies that are always hiring are...Indian consulting companies.  But that should be a last resort.\n\nReact is in-demand.  Bay Area is easy to find an okay job (&lt; $100K), but expensive.  But the beauty is, it's really easy to move up.  Do you have someone you know you can say lives in the Bay Area and use their address?  If not, you can pay for a virtual address (I don't know how much it costs).  \n\nNot having visa issues is a huge plus for you in the Bay Area.  And places like Sunnyvale have a large South Indian community.  I think that would be a good place to start.  With interviews virtual, it really doesn't matter whether you are here or not - most jobs are starting virtual anyway.",
+          "score": 4
+        },
+        {
+          "body": "Talk to an immigration lawyer.  Make sure you have the right visa or have the proper work visa in progress.\n\nWill you be getting an H1-B visa? That (if I understand the process properly) requires a job before the application of the visa.\n\nWill you be getting an H4 visa?  That may be harder to justify moving to another city as it implies that you're a dependent of the visa holder.\n\nWhatever the case - talk to an immigration lawyer first about the different paths to employment from the different visa options open to you.",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Reactivestax Technologies",
+      "body": "Anyone hear about Reactivestax Technologies?\nThey reached out with below message:\n\nHi, we are ReactiveStax Technologies (https://ReactiveStax.io). We are a consulting company based in Toronto and have a big team of consultants working various banking and insurance clients across GTA. We have been around in the IT market for last 17 years. We are solution integration partners with companies like Redhat, IBM, VMWare, ElasticSearch, Confluent Kafka.\nWe have two offers for you -\n\nwe have client requirements from the big banks (like RBC, CitiBank, ScotiaBank) for expert Java Developers with Cloud skills - if you are good with that stack, we can do two interviews (one technical screening by ReactiveStax Sr Solution Architects and second one by the client themselves) if you clear them you get hired at 90k a year with our clients.\n\nOr the second offer is for us to interview you on Node/Python stack or whatever stack you are comfortable with, if we think you are good with that stack we can hire you as an intern and pay you 1500/mth for next 6-8 months. During that time we will train you in the Java/Cloud stack and then place you on the client site where you will make the 90k / year money. When you start working with us, you are our resource and accountable for your time to us. We take care of your career growth and all other related aspects.\nLet us know which option you prefer to work with. We can schedule the interview in next couple of days accordingly.",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/nvcqva/reactivestax_technologies/",
+      "comments": [
+        {
+          "body": "I also got a call today offering 30K a year for 6-8 months where i will be trained and later once I get on to client side I will get 80-90k a year and the contract is of 3 years\n\nThe catch here I feel is that it should be written in the contract that I will get 90k not in verbal because working as a intern for just 1500 a month/30k a year is very(low base salary)\n\nOnly issue is very long contract\n\nWhat you think",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "How to answer system design questions in internship lnterviews?",
+      "body": "How do I answer system design questions in an internship position interview? Suppose I was asked a question: \"How would you design an eCommerce store?\". I know that first I need to ask the interviewer a lot of questions like: How many products will be there? What is the location of the operation? Do we need an internal application to see orders or will the order information be sent to the admin's email account?  etc and try to design the structure of the app.\n\nThe problem is, my only design experience is a full-stack web app with MongoDB, nodeJS, reactJS. I know that if its scalable I need to use some cloud infrastructure. I could also tell that the internal application will fetch from the database to display the orders and I could say a thing or two about database design theory. However, I saw that many system design examples for the eCommerce app on the interview involves explaining distributed queue, load balancer, elastic search, spark, and things that had never heard of in school. How would I answer these kinds of questions as an intern without embarrassing myself? Thank you!",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/sj2x9f/how_to_answer_system_design_questions_in/",
+      "comments": [
+        {
+          "body": "I would be surprised if people who ask design questions expect those kind of answers form interns. I would never expect people with no real world experience to design a fault-tolerant, scalable, distributed, multi-cloud, blah-blah-blah system. Are you sure the examples that you've seen are not from mid/senior level interviews?\n\nHowever if you want to learn more about that then you should try some courses about distributed systems, cloud computing, etc. Search internet for articles from big companies where they describe their architecture and problems they are solving. There are a number of books on the subject that can help you too. My favourite is \"Designing Data Intensive Applications\" https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Getting a job in SF/silicon valley as a fullstack/backend engineer",
+      "body": "Background:\n\n* Fresh grad from top 30 college (not famous for CS).\n* &lt; 1 YOE.\n* Interned at three different companies as SWE (Swift, C# and Java).\n* Played around with GoLang, Django, node, react, angular for past projects.\n* 400 LC.\n* East coast.\n\nI started working as a new grad software engineer at a networking company few months ago. I enjoyed my networking class and thought it would be cool to be working in that domain. Currently working with C++ and Python mostly.\n\nI enjoy the work I do so intend to stay for at least a year. But pay is kinda nuts, plus I do eventually want to go to SF. I am trying to prep in advance so that I am in a good shape for my next job search cycle.\n\nQuestions:\n\n1. People tell me I messed up going into a niche field where there are only 4-5 big players. Did I actually?\n2. FWIK, fullstack/backend is hot in SF. Is it possible to make a transition from C++ to fullstack/backend, ie will recruiters ignore my resume because I have “networking” in my cv?\n3. Will I need to bootcamp, if so how do I utilize it?\n4. Will I need to know how to use aws, docker, kubernetes, GraphQL, elasticSearch, and all these backend jargons to get an interview?\n\nThanks in advance.",
+      "subreddit": "cscareerquestions",
+      "score": 2,
+      "url": "https://reddit.com/r/cscareerquestions/comments/k0p2g2/getting_a_job_in_sfsilicon_valley_as_a/",
+      "comments": [
+        {
+          "body": "Companies won't care about any of that.\n\nWait until 1yoe then get a referral, grind LC, pass the interviews, get an offer.\n\nYou can message me if you need help, formerly worked at FANG.",
+          "score": 3
+        },
+        {
+          "body": "1. No. A few months of experience is nice if you want your next role to be in networking. But you can also be a generalist too if you want. Besides, most of the big tech companies are big enough to need in-house network developers.\n\n\n2. No, recruiters will not ignore you. Yes, you can transition. C++ is a language. Full stack or backend development are fields, I guess. You can write a backend in C++ if you want. Or use another one of the languages you know. It doesn't matter that you didn't use them for work.\n\n\n3. No. You have a relevant degree and work experience. A bootcamp will do nothing for you other than forcing you to learn a web stack, but it looks like you already know one.\n\n\n4. No.",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "title": "Where and what should I start with these(MVC5,ASP.NET, WEB API, ELASTIC SEARCH, ANGULAR 5, ANGULAR JS)",
+      "body": " \n\nHey guys, I'm an undergraduate in Electronics Engineering background, however planning to change my field to software engineering. \n\nNow I've managed to get a job at a reputable company. I have quite extensive knowledge in Java, with good knowledge of OOP which helped me clear their interview.\n\nNow, as I went through the jobs and technology that they use, I came across these sets of languages (MVC5,[ASP.NET](https://asp.net/), ELASTIC SEARCH, ANGULAR 5, ANGULAR JS). I've no clue how any of these works, and browsing the net for answers has only confused me! (What's the difference between .NET and .NET CORE? are they related?)\n\nI've no clue what frameworks are and how they work.\n\nSo any suggestions as to what language I should start with, and if there are any online resources available for the same, it would be great!",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/fpd94y/where_and_what_should_i_start_with/",
+      "comments": [
+        {
+          "body": "[deleted]",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Leaving internship early on for another job opportunity - how bad will it look on CV?",
+      "body": "So, I've been looking for a job / internship opportunity for the last ~2 months and I managed to get into internship in a little startup. \nThe thing is that I received positive feedback from another companies about my resume and interview performance since I was hired as an intern there. They are all offering me a elastic, part-time jobs (CS student here) in technology stack that I am fluent with, full employee benefits, career advancement perspectives, nice salary and no-intern bullshit. I am crazy about those offers. One of them is my kinda dream company to work, actually. \n\nThis would be a nice change of pace, because right now, my boss is a major douche, we have no real benefits, shitty salary, undocumented overtime hours, major delays in payments, no personal equipment (I am carrying my personal macbook to work every day) and so on.\n\nI would accept those offers right away, but I have internship agreement signed for the next 2 months still. How bad will it look on my resume if I would resign / leave early right now? \nI was a summer intern in major banking corporation year ago and everything was nice and clean, and now I am quitting the internship in a little over a month of work? Will I be frowned upon by recruiters in the future?\n\nThanks for the answers, really need advice!",
+      "subreddit": "cscareerquestions",
+      "score": 3,
+      "url": "https://reddit.com/r/cscareerquestions/comments/4ezjey/leaving_internship_early_on_for_another_job/",
+      "comments": [
+        {
+          "body": "Just don't put it on your resume. The better position will look better anyways.",
+          "score": 4
+        }
+      ]
+    },
+    {
+      "title": "How do I move forward from an unsuccessful internship?",
+      "body": "As a new-grad, I'd like to think I look pretty good on paper.  I have had 3 internships lasting continuously since January 2014.  I have a personal website alongside a Github.\n\nMy latest position has been at a well-known fortune 500 software company for a year and a half.  To be frank, my tenure as an intern has not been successful.  I have a number of small contributions, and one large web tool that I built (Angular SPA front-end backed by NodeJS app utilizing ElasticSearch).\n\nOn paper, I can spin these projects as being interesting and useful.  However, these contributions were in a lot of cases 'intern' tasks that were delegated to me for learning purposes (as opposed to solving business problems/adding measurable value to the team).  As time has passed, it has been difficult to get any work assigned to me (this is a heavily Ops-focused team in a very high-scale environment).\n\nSince the end of this past summer, I stopped making an effort to work in the face of school in addition to growing apathy with the team/company.  As expected, I am not receiving a full time offer.  My internship ends soon and I am facing the dilemma of how to move forward.\n\nMy issue here is how to rebuild my credibility and put my career on an upward trajectory again?  I don't think I would get a strong reference (if any) from any of my supervisors at my current position.  This scares me because this position is longest and most substantial in my employment history.\n\nI'm in the interview process with several companies.  I am not worried about getting to the final stages.  I'm pretty good at wooing recruiters/HR people and I'm working to hit algos/ds problems hard for the technical portion of things.\n\nHowever, if and when I get to the offer stage.  It's going to be difficult to get references to back up the things I've done at my current internship.  Is this going to be a huge roadblock moving forward?\n\nShould I focus on building credibility in other areas (e.g. open source projects) to draw attention somewhat away from my current position?\n\n",
+      "subreddit": "cscareerquestions",
+      "score": 1,
+      "url": "https://reddit.com/r/cscareerquestions/comments/657kdj/how_do_i_move_forward_from_an_unsuccessful/",
+      "comments": [
+        {
+          "body": "Don't you have other internships? Can't you use them for recommendations instead? Doesn't sound like you *have* to get recommendations from your current employer ",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "title": "Suggestions needed for Open Ended Design type questions.",
+      "body": "I was asked this in an interview.\n\n**Given an application like Microsoft Outlook mail client which runs on Web, Android and iOS, describe how would you manage a user's session.**\n\n&amp;#x200B;\n\nI am a Front-End developer, and I was totally surprised by this question.\n\nI said something about maintaining the session where the app was hosted, since I reasoned that having heterogenous clients for an app might dictate that you have a common middleware, hosted on a PaaS runtime say Google App Engine, AWS Elastic Beanstalk or likewise. ( an assumption )\n\nI also though that since all requests go through the same middleware it would be best if we maintain a session against each user there in.\n\nBut then I thought - What happens if the app is behind a load balancer, or still better, distributed across multiple clusters or hosted inside containers with some kind of Orchestration ? How would the session replication happen ?\n\nI then recalled something about sticky sessions and session replication ( not sure if those are the right terms ). So I suggested that whenever a cluster spins up ( or new containers instances are created during scale up ) we might copy the same session to every node.  \nOR,\n\nMaintain the session on the Load balancer instance itself since every requests lands in there anyway.\n\nI talked through all these solutions, but I didn't think that the interviewer was convinced.\n\nLater I came to know that the interview feedback comment was \"Wasn't able to handle session appropriately\".\n\nAdmittedly I do not know in depth about the topic, so any help on **how to answer such questions or suggested reading material would be great help !**\n\nThanks in Advance.\n\n&amp;#x200B;",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/awwgf2/suggestions_needed_for_open_ended_design_type/",
+      "comments": []
+    },
+    {
+      "title": "What (entry-level) jobs do I even qualify for with my mish-mash of software and analysis experience?",
+      "body": "I'm a recent graduate from a CS program in Canada looking to land my first full-time job in software development. My problem mainly stems from the fact that I feel that I don't really have the skills that most companies are looking for due to some off-kilter experience.\n\nAs for why that is: I actually did a dual degree in Computer Science and Engineering Physics (EP first, then started CS in 3rd year). This was partially because EP has few job prospects unless you're going into research or are gung-ho about space (which I am not), and partially because I wanted to get an internship through the CS department's internship program (which worked out, thankfully). Throughout these degrees, my accumulated experience amounts to 3 summers of research writing data analysis code for radar and satellite data (with 2 papers published with co-author credits) and a 16-month internship writing image analysis code for a university group that was half research group and half startup company (its weird). As for projects, I was focused on my classes, so my projects mainly stem from them: a Python simulator to recreate the results of a networking paper, a mechanical device for rotating tiny samples in a vacuum chamber (for the EP degree's final-year project), and other small things that recruiters likely wouldn't care about like a dead-simple stepper motor driver.\n\nAs a result, I don't seem to mesh well with most entry-level software development positions. I don't have any web-dev experience, whether front, back, or full-stack (despite the image analysis code being made for a web-app; I just didn't write much non-analysis stuff for the backend codebase, which was mostly Python, Django, and an abuse of ElasticSearch as a database). Embedded and IOT stuff seem interesting to me, but they seem to require hardcore C/C++ experience that I don't have plus a bunch of other weird skills that I've not have encountered before. Cloud and database stuff is also interesting, but they similarly have high requirements that I can't really meet. It seems that all I could really do is data analysis, but I'd much rather be a software developer and not be pigeonholed into just analysis, even with substantial coding involved.\n\nAnd so, I haven't applied to as many places as I should have so far. I've gotten 1 interview, but only because a friend of a friend (/my supervisor for my internship) gave me a referral to a popular local company with Master's level AI people also applying to it. I just don't know what positions I qualify for or should apply to. I don't know how I can convince recruiters and companies that I could easily learn and do embedded, or cloud, or web development with what is largely analysis experience. I don't know how I can spin my mish-mash of experience into a full-time software development position.\n\n(And, for posterity, [my current resume](https://imgur.com/a/TSLvJWt), though critiques are not the point of this post compared to the worries I mentioned above.)",
+      "subreddit": "cscareerquestions",
+      "score": 3,
+      "url": "https://reddit.com/r/cscareerquestions/comments/n5nu1o/what_entrylevel_jobs_do_i_even_qualify_for_with/",
+      "comments": [
+        {
+          "body": "You have basically identified the weaknesses of your resume/skill set. I would recommend you branch out into areas that are in demand in your area: usually seems to be mobile or web dev. \n\nThankfully, there is not a big ask to prove your proficiency as a new grad in industry skills and the initiative to make small projects in a similar stack and discuss them is usually more than enough.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Motivation for finding work. Imposter syndrome and No work experience.",
+      "body": "I'm from the UK and in my early 30's, my friends suspect I have high functioning ASD even though I'm offically undiagnosed. I got my degree in CS 2 years ago and then tryed an AI MSc but failed due to not really having much for college/high school education in Math or statistical analysis. I have had a brief stint of work as Assistant system admin 12 years ago before the Recession hit, which i was made redundant and no one was hiring at the time, especcially someone with no qulifications. This made me depressed I became alcaholic and drug addict, I couldn't see anyway out apart from death for 5 years untill I applied to Uni and got in after speaking to some of the Lecturers during an open day.\n\n&amp;#x200B;\n\nThe past 2 years I have been working on my own projects big ones that I hardly finish mainly using Python and learning as much about the libraries as possible Pandas, Keras, SQLAlchemy, MySQL, Postgress, ElasticSearch, Scikitlearn and learning Django, PostGIS and GeoAlchemy ATM While I knew C/PHP before I went to University I still learnt some C/C++, Java and few other languages. I have recently ordered some university math books as I like studying towards a Math degree at the OpenUniversity,  to help me understand ideas, concepts and how to solve problems better with code.\n\n&amp;#x200B;\n\nWhile spending last year in my own flat, which i think I went to 2 interviews total. I found that I don't have any honest motivation to apply for jobs. So I decided to look into why I'm getting this feeling, I came to the conclusion I don't feel that I'm good enough for any programming role because I have a huge confidence lack in most aspects of my life. It's now getting to the point were my saving are getting low and while I can proably afford a cheap room for another year I still feel as if I would rather be jobless and in a homless shelter than find a job. The only thing that is stopping me from going down that route is how will I power my laptop and how will i get a steady interenet connection.\n\n&amp;#x200B;\n\nWhat I'm having trouble with is building a portfolio I don't know what to put online, should I put things online? I'm learning Django ATM to help me build a website that I can upload blogs to but I have no idea what else to do.  Maybe I add more to my GitHub or share my StackOverflow account in my CV? I'm over seas ATM but when I go back to the UK in March I intend to get an assesment for ASD maybe that would help explain my situation a bit bitter to myself. I just feel that my hobby I fell in love with at 9 is just that, a hobby and I might aswell work behind a till serving customers at my local supermarket which I hate the idea of racking up over £100k in debt to only work at a super market.\n\n&amp;#x200B;\n\nI just want to write code. And get paid enough to afford a warm room and some food. How can someone who isnt that experienced look more attractive to an employer?\n\n&amp;#x200B;\n\nP.S Sorry about the grammer/spelling I'm dyslexic.",
+      "subreddit": "cscareerquestions",
+      "score": 3,
+      "url": "https://reddit.com/r/cscareerquestions/comments/emttnu/motivation_for_finding_work_imposter_syndrome_and/",
+      "comments": [
+        {
+          "body": "If you find yourself in a difficult place in your life, we urge you to reach out to friends, family, and mental health professionals. Please check out the resources over at /r/depression, /r/anxiety, and /r/suicidewatch. Feel free to [contact the /r/cscareerquestions mods](https://www.reddit.com/message/compose?to=%2Fr%2Fcscareerquestions&amp;subject=&amp;message=) for more information or help.\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/cscareerquestions) if you have any questions or concerns.*",
+          "score": 1
+        },
+        {
+          "body": "Disclaimer: not that similarities indicate *anything*, but I'm also dyslexic and struggle/have struggled my fair share with Imposter syndrome in CS! Perhaps we truly *are* in the same boat! ;) In the end, although we might be wildly different people,  as software developers in the same market, I'd wager we're pretty similar.\n\nI think you might benefit from thinking about just how \"fake\" people are / can be, especially in the software development industry! If I had to take a reasonable guess at where I am on the skill range, I would have a hard time justifying anything other than \"average\", since that's where most people are.\n\nThere is close to no correlation between skill &amp; pay (It's kind of a meme at this point, and the statement although a *bit* tongue-in-cheek; has truth to it. Barring maybe your skill in self-marketing &amp; being your own hype-man, there's not much a skill will do for you.... time however *will* matter, and connections). Getting the job you want is almost 90% about having a foot in the door / knowing the right people. Having somebody referring you is essentially a golden ticket compared to coming in cold... yet you could be equally skilled in every other aspect. (Essentially, human's can't avoid nepotism, and it's prevalent in the software industry / hiring process too). A minimum of skill is required to manage to get by &amp; to improve of course, but beyond that, more skill != more pay.\n\nIf you can make the present comfortable / livable, experience will build itself, at least in the eyes of others. more time == more experience == more pay.\n\nPotential employers can be a bit catch-22'like at times too, since they'll often want you to *have* experience before they hire you, but if you have no experience to begin with, how do you get in anywhere? (it's also kind of a meme). The people that do hiring &amp; write the job announcements are often not coders themselves, and will often have *bizarre* requirements like 5+ years for a technology that might have been in *development* for more than 5 years according to the Wikipedia entry, but was officially released less that 5 years ago...\n\nHumans are very *relativistic*. I can even confirm this with a personal anecdote: when I compare my salary to those *not* in IT, I feel *terrible* (is what I'm doing by slapping fingers on a keyboard really that much more *valuable* to society than what they're doing?! There's *no way* that's right!). On the flip side, when I talk to other friends who *do* work in IT / Software Dev, I start feeling the small competitive sting (which was a motivating factor in me switching jobs, and consequently going up in pay. (by a large amount too... which also points at how the industry values 'years of experience' as a proxy for 'proven experience' when it comes to salaries...). This relativism is very short sighted if you leave it unchecked. Who are the people you *know* anything about? Those are the only ones you possibly *could* compare yourself too! Bubble-breaking is a *very* healthy activity, not only to avoid echo chambers, but also the 'relativism trap' of trying to compete with your neighbors, or having it go the other way with imposter syndrome \"why am I earning so much compared to my neighbors?\".\n\nI do realize that personal anecdotes fall for the 'statistics of small numbers' fallacy, but I hope there's something to be gleaned from my experiences... if not, they'll add to the pool of experiences out there!\n\nI'm not saying this to be overly pessimistic (although I have a penchant for thinking that way), the truth is that the *industry* simply doesn't *care* about individuals... only skills... and those are governed by the market aka. supply and demand... that's it, and in some ways that's a blessing! The market is booming for tech workers, and you have every right to reap the benefits of that as any other tech worker (at least convince yourself to reap *average* benefits, since that's where you're probably at ;) )",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "1 year after graduation and I'm in quite the unhappy bind.",
+      "body": "Summaries have been bolded for your pleasure.\n\nI graduated in Spring 2011 with a dual major in Computer Science and Computer Engineering from University of South Florida at a 3.77 GPA. I've worked in Java, C#, and C++ with free time spent on client side web development (JS,jQuery,CSS,HTML) and some basic Python. **Essentially, I love exploring, learning, and exercising all the technologies I touch.**\n\nI already had a job lined up for late June as an Integration Specialist which is categorized as Software Developer here (flight simulator company). I soon found out there was very little development and the job was mostly high level testing (flipping switches and illuminating lights powered by very basic in-house scripts), documentation (dummies guide on how to X the systems), and general PC troubleshooting. This applies about 0% of what I learned in university and offers nothing I could carry over into a development role, much less one outside of the simulation industry (it's a lot of special purpose hardware and software).The pay is good (maybe? 54K for a new grad in Tampa) and offers quite a bit of fun travel (per diem, flights, hotels, rental cars and I get to keep the hotel/airline points for personal use... a year in Hawaii starting fall 2013 if I'm still here...), but the work is simply not what I want to be doing in the slightest. **I've spent more time with a screw driver in my hand than production level developing.**\n\nIn August 2011, I started the Couch to 5k running regime and wasn't really satisfied with the free apps on the Android Market so I decided to write my own. It has most of the bells and whistles I want (chimes, timer+distance transitioning, real-time Google Maps location, history using SQLite) but it looks pretty bland. I haven't put it on the Market or github since development stalled while I was traveling (Jan-April) and using my company's laptop. The past few weeks I've been experimenting in C#, .NET, Javascript+jQuery, CSS and HTML on Elastic Beanstalk for fun. I know all of the client side stuff from years on userscripts and userstyles, and the C# and .NET from university. **I enjoy developing in pretty much everything I've looked at.**\n\nThis is where it gets good! I've been trying to apply to jobs in Seattle and San Francisco on and off since August and it's been pretty grim. At first I had my Dice profile with my real Tampa address and genertaed hits from all over the US *except* the West Coast. After talking to dozens of recruiters, one suggested changing my dice address to somewhere in Seattle. I did that, and it worked! (Note: I only changed my Dice address, my resume address was still Tampa). So lately I've been getting Seattle hits but every time my location comes up, they other side goes cold. A \"Director of Development\" from a startup-ish company contacted me over email and we really hit it off until he reread my location. I offered to fly myself out and stay a week on my own money (points accumulated from my current job) for the interview process and he STILL turned me down. I made the same offer to a consulting company who was greatly interested but they were said no, too. There have been plenty more but these two were reallythe most recent and most promising (like \"can you come in for an interview tomorrow?\"). **Seattle has been impregnable from Tampa so far. Need more tactics.**\n\nI interviewed for two separate Amazon positions and got denied after the second phone interview on both occasions. For the second process I was caught with my pants down during travel and no computer of my own... I froze up and botched coding over the phone while sitting in my car at my work's parking lot. **Botched Amazon interviews. I think I'm out of their \"new grad\" classification now. Still trying.**\n\nI'm pretty sure my resume can't handle another year at my current job and still appeal to development roles... So worst case is I pick up and move to Seattle close to the end of August. I'm about to completely pay of my new car, after that I can devote a **very** large portion of my paycheck to saving for the move and living expenses for a few months. I'm terrified of moving out there without a job lined up. **Moving with no leads seems crazy but doable.**\n\nSo yeah, any advice on how to land jobs across the country? Know any Seattle based companies willing to hiring non-local applicants (especially if the applicant pays his own interview fly outs and relocation?!)? Anyone been through something similar? **Any questions or advice will be greatly appreciated!**\n\nOh, I should also mention I've been to Vancouver CA for the past 3 years with progressively longer stays and even with the rain and overcast, I'd give up Florida's outdoors for the Northwest's in a heartbeat. **Weather is not an issue.**\n\n**tl;dr Graduated Sping 2011. Loves all the CS things. 1 year not doing any of the CS things at job. Need to get out. Hoping hard for Seattle. Any advice?**",
+      "subreddit": "cscareerquestions",
+      "score": 11,
+      "url": "https://reddit.com/r/cscareerquestions/comments/txs1v/1_year_after_graduation_and_im_in_quite_the/",
+      "comments": [
+        {
+          "body": "&gt; I interviewed for two separate Amazon positions and got denied after the second phone interview on both occasions.\n\nI had to think about this comment for a while.  I used to give those interviews, and if you failed the 2nd screening twice in a row, then the reading is probably accurate: you're probably not ready for Amazon / Microsoft / Google yet.\n\nHowever, that's not a reason to despair, because the key word is \"yet.\"  I used to bounce off those high-level screenings myself, and it took many years of practice and study (most in the form of learning new languages and tools on-the-job, at less-than-stellar jobs) to earn my way up to the level when I was passing them with ease.\n\nFor instance, Lockheed Martin is a big employer in my area.  I used to bounce off their req's like a superball.  But I kept trying, about twice a year while working other jobs, and when I finally made it in, it was fantastic.  Then I was able to hop to other defense contractors with relative ease.  It just took about 5 years of trying (also networking — I finally got in through a professor I met while working towards a never-completed Master's degree.)\n\nLikewise, I remember an early interview with Anderson Consulting (now Accenture).  I was told not only that I had failed the interview, but (and this stung, a bit) to never apply with them again.  Fifteen years later, they offered me Chief Architect on a $67M project.\n\nThe point is, hang in there.  A fantastic 30-year CompSci career typically doesn't begin by landing a great job right out of college.  I spent my first year staring at agonizingly stupid COBOL, and actually considered it an improvement to spend my second year throwing network cable through ceilings.  20 years later, I have more great stories than you'd believe.  And I still order about one tech book a month from Amazon, because you can never stop.\n\nAnyway, no specific advice, other than to hang in there, and don't give up: not after the second rejection, not after the twelveth.  Figure out what you're not good at, and find jobs that offer the opportunity to sharpen those bits.  Identify your fears, then face into them.  And in probably the best workplace advice I've ever received (from my manager at Subway), \"If you don't have anything better to do, grab a rag and clean something\" :-)",
+          "score": 9
+        },
+        {
+          "body": "No offense, you are probably getting hang-ups from recruiters because they feel like you lied to them. \"Hey this guy is from Seattle, let's call him\" \"Yea, I'm actually in Tampa\" \"Hmm, what else is this guy lying about?\" *Click*\n\nI know you aren't intentionally lying to them but it would feel that way to me if you listed yourself as Seattle no matter what address was in your resume.\n\nI suppose my first question is: Why Seattle? I mean, it's a nice city and all, but if you got a nice offer in Austin, or Atlanta, or Boston, would you turn it down? It can be expensive to fly someone in for an interview, and developers are a dime a dozen on the west coast, so I could see everyone but the big guys not bothering. \n\nWhich brings up my next question: Have you tried with the big boys? Google, Microsoft, Amazon, Facebook: they will all pay you relocation if you're good, and you could try applying to them directly if you are as good as you say you are.\n\nYou don't seem to have trouble getting interviews, just getting interviews in Seattle. Which brings me to my third question: Are you turning down interviews just because they're not in Seattle? If you really want out, it might be worthwhile taking a real development job anywhere and then springboarding from there. ",
+          "score": 15
+        },
+        {
+          "body": "First, ditch Dice. It's full of seedy recruiters and trash you don't want to be dealing with. You won't find anything good there.\n\nSecond, fuck recruiters. Most of them are scum. Don't read into anything they say or assume they're ever telling you the truth. Seriously, fuck those guys.\n\nI would look for software development companies who are hiring directly, then contact them and say that you're going to be moving to Seattle soon and you're looking at potential employers.\n\nI would also expand your search to other major cities and take whatever you can get. It's easier to move across the country with more experience.",
+          "score": 3
+        },
+        {
+          "body": "You're right, it's possible that your biggest obstacle for some work right now is going to be that you're not a new grad -- I know when I applied to Microsoft (as a new grad) somebody remarked later that grads got a slightly different interview process because they were looking for your ability to grow, not necessarily your specific skill set.  That being said, if there's a job posting you want to apply for, you will probably have a few weeks between application and the in-depth technical interview, so that's plenty of time to get your study on and try to pick up a little of what they might quiz you on.\n\nYou could also try to make your way to a career fair at USF or whatever schools are local to you and get your resume into a recruiter's hands that way -- that's probably always better than just applying online -- but that has the downside of there probably aren't many job fairs until, say, September or October.  \n\nIf you have friends from USF who may have talked to Microsoft, Amazon, Google, etc recruiters, see if you can get names of your regional recruiter from them and maybe try emailing them?  A cold email might not be guaranteed to work, but I expect a good \"cover letter\" email and resume will at least not black ball you from future applications.",
+          "score": 2
+        },
+        {
+          "body": "Just caught this post and my job hunt experience is exactly the same as yours, except I have over 12 years experience as a software engineer, including project management, process improvement and leading teams. I've worked on everything from large scale web applications to game engine based simulations. So I'm on the opposite end as you - I'm management level with tons of experience. \n\nBut I LOVE Seattle and have been trying to move there for a year now. I had an interview with Amazon (which I also failed on the 2nd phone screen - which I think are worthless by the way). Nobody else has gotten back to me, I'm guessing, because I'm all the way across the country. And, like you, I'm willing to accept the costs of relocation, fly myself out for interviews, etc. I put this information on every position I apply for. \n\nEveryone always says \"If you don't like where you live, just move.\". Well, it's not that simple. I'd guess a lot of us are just stuck in places we don't want to be.",
+          "score": 2
+        },
+        {
+          "body": "Have you tried applying to smaller companies? They might have less stringent divisions between \"new grads\" and non-new grads than companies like Microsoft and Amazon.\n\nAs for location, all I can suggest is to make it clear that you're planning to relocate. People who relocate do manage to find jobs before they actually move, so it should be doable. Using a Seattle address when you're actually in Tampa might come across as deceptive or confusing at best.\n\nI'm in a similar bind with respect to job function, except that I've already been in my job for 5 years. It started as a combination of sysadmin and developer, and I still do a bit of development, but it's gradually become a sysadmin job. The sysadmin tasks took so much time that they hired other developers, and now it seems that people are forgetting that I can do development at all. I don't really like system administration that much, especially the hardware part. In fact, I'm very bad at anything mechanical, so working with hardware stresses me out.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Best way to prepare for first engineering job - Tech Stack (Scala, Spark, Akka, AWS)",
+      "body": "I have around a month before I start. I have basic Scala and Spark skills enough to pass a take home interview assignment.\n\nI know the companies stack which is Scala, Spark (Spark Streaming) , Akka, AWS (Redshift, Elastic MapReduce). The main function of the role will be developing real time data processing and analytics systems.\n\nThey are also very keen on high quality coding and testing practices. They do code reviews, pair programming, TDD.\n\nOther things include infrastructure automation, agile practices such as continuous integration, automated testing and deployment.\n\nI think I'm just a bit anxious, should I just focus on becoming a better Scala programmer ?\nShall I focus on fundamentals of distributed systems ? \nOr good software engineering practices like Clean Code, TDD ?\n\nAny advise is appreciated. ",
+      "subreddit": "cscareerquestions",
+      "score": 3,
+      "url": "https://reddit.com/r/cscareerquestions/comments/6kfy2u/best_way_to_prepare_for_first_engineering_job/",
+      "comments": [
+        {
+          "body": "Maybe find a github project with a similar tech stack and contribute. You'll learn a lot that way. If not, maybe try building something with Scala, Spark, and Akka. Deploying to AWS is kind of expensive solo, but you could probably look into that if you wanted - otherwise, there are some really good AWS tutorials online. \n\nDon't worry too much, they know it's your first job, just ask a lot of questions and write stuff down that seems important. Most companies have an on boarding process to get you up to speed with their system. ",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Working for Elastic?",
+      "body": "Recently had an interview for customer/solutions architect position for Endgame (a wholly owned Elastic subsidiary). Interview went well and the position seemed interesting. Would be government facing contracts working for various DoD customers solving technical problems and tailoring tooling to specific use cases. Job is fully remote with travel to customer sites.\n\nWas wondering if anyone had experience working for Elastic and what your thoughts were. Thanks!",
+      "subreddit": "jobs",
+      "score": 0,
+      "url": "https://reddit.com/r/jobs/comments/1m43beg/working_for_elastic/",
+      "comments": [
+        {
+          "body": "That sounds interesting. Did you continue the application?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "New trends in recruiting/hiring?",
+      "body": "I had a contract that ended last November. I took the month of December off and didn't start putting my resume out until January. My father fell ill and I had to put my search off for a couple of weeks to travel. I had a few interviews in February that didn't go well. Now it's March and I have \"a gap\" in employment history.\n\nI'm a full stack web developer, focused on back and front end javascript development. Some of these job reqs were a laundry list of skills that run the gamut from UX design to scaling backends for millions of users. While I've had exposure along these lines my core skills are MVC, MVVM, etc.\n\nOn a few interviews I've been grilled on areas that I am not strong. I was asked very specific CSS questions for a role I thought was primarily JavaScript. While I work with CSS all of the time, I do not talk about it enough to be able to articulate specific details. My memory is reserved for other things and I always use a reference.\n\nOn another interview, I was grilled on ElasticSearch. I understand ES from a developers perspective, I know what it's for, how to query it, but when I was asked, \"what particularly challenges have you had with ES?\" I couldn't answer the question. On my last job, we had a guy who specialized in dealing with those challenges.\n\nOn both interviews, the recruiter was just as surprised as I was. I know, recruiters aren't the most technically savvy people, but in these instances I felt something different was going on.\n\nI brought this up to one recruiter and she explained they were checking for resume accuracy. My resume is accurate. I don't misrepresent myself and I don't include anything that I haven't done. I am at the top of my game as far as skills go, yet I'm finding it harder to find a job more than ever, despite constantly hearing that \"my skills are in demand\"?\n\nAny thoughts?",
+      "subreddit": "jobs",
+      "score": 9,
+      "url": "https://reddit.com/r/jobs/comments/5zk4ay/new_trends_in_recruitinghiring/",
+      "comments": [
+        {
+          "body": "Your gap isn't that bad relative to the economy.  The average job search is at least six months right now IMO. ",
+          "score": 8
+        },
+        {
+          "body": "This is a flaw that most employers don't realize, not a standard of the industry.\n\nThere can always be criterion deficiency with hiring, especially with external recruiters. They say they want a set of requirements, but their interviews aren't targeted to evaluate for those. and chances are, what they want aren't actually what they need in the first place. This happens a lot, and results in you being grilled about things that aren't related to what you came to discuss. It's unfortunate that employers are always trying to blame job seekers for this.\n\n",
+          "score": 3
+        },
+        {
+          "body": "I've experienced the same. Haven't been able to find anything for 22 months since graduation. One of my recent interviews was for a C# role. During the interview they told me there would be very little C#. They grilled me entirely on SQL. ",
+          "score": 2
+        }
+      ]
+    }
+  ]
+}

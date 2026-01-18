@@ -1,0 +1,58 @@
+{
+  "company": "intel",
+  "common_questions": [
+    "As an HVAC technician, what are the best IT projects that will be attractive to prospective employers?",
+    "As a Fitness Club Operator, what are the best IT projects that will be attractive to prospective employers?",
+    "Which programming languages will be required for the interview?",
+    "Do you think my resume could get me to the interview stage?",
+    "Do you have any advice on how I could improve it?",
+    "What are some challenges of developing for Android you don't find in other development environments?",
+    "In Android, what does the AsyncTask class do?",
+    "because of XYZ, I would like an offer closer to $100k if that is something you can help me with?",
+    "why did you leave your job?",
+    "why did you get laid off?",
+    "do you have any questions for us?",
+    "Are you here for the interview?",
+    "Should I just wait here?",
+    "Alright, we're going to be doing a coding test. Do you prefer the whiteboard or a sheet of paper?",
+    "Can I use my laptop?"
+  ],
+  "themes": [
+    "System design emphasis",
+    "Heavy focus on coding",
+    "Behavioral interviews important",
+    "Culture fit matters",
+    "Multiple interview rounds",
+    "Take-home assignment",
+    "Whiteboard coding",
+    "Virtual interviews"
+  ],
+  "interview_tips": [
+    "is this: don't treat your interview as an interrogation",
+    "earlier while I was a sophomore I would be in a way better position now but what’s done is done",
+    "as an unemployed May 2023 grad wanting a career in data science and software engineering",
+    "is to just keep leetcoding, keep building projects, keep updating your resume, keep using your university’s career services (they tend to remain open",
+    "on how I could improve it?\"",
+    "your resume (1 page only) shows what you're interested in and knowledgeable about within 5 second of looking at it",
+    "you quoted above is really geared toward people choosing what field to study in college",
+    "definitely includes finishing up your degree",
+    "reading 48 Days to the Work You Love by Dan Miller",
+    "in there about how to job hunt"
+  ],
+  "red_flags": [
+    "treat your interview as an interrogation",
+    "assume they're trying to catch you out",
+    "we do something together?",
+    "know that much, unfortunately for me I don't know much web dev stuff  nor the myriad technologies listed on any given job posting, my experience is mo",
+    "think you are or are worried about your coding/algorithm/interviewing skills; why don't we teach each other?",
+    "know what the form of it would be, at this point I am just proposing a discussion, but eventually I think we need a community for not just asking ques",
+    "want to try to claim ownership, however if there is no overwhelming consensus soon I will probably make a Slack channel and try to start a Discord ser",
+    "ask these questions, but it should not be a big question mark where a company stands with these aspects when hiring, specifically given this org’s mis"
+  ],
+  "process_insights": {
+    "typical_rounds": "4 rounds typical",
+    "timeline": "2-4 weeks",
+    "format": "Mix of phone screen, technical, behavioral, on-site, virtual"
+  },
+  "source_count": 62
+}

@@ -1,0 +1,1167 @@
+{
+  "company": "nvidia",
+  "post_count": 54,
+  "exported_at": "2026-01-18T17:44:53.295Z",
+  "posts": [
+    {
+      "title": "nvidia: no idea about what to expect in the process",
+      "body": "I’m having an interview with nvidia. I started the process with HM and got moved forward and expecting to have 2 interviews soon. I have tried reaching out to the recruiter asking what to expect. I haven’t had any reply.\n\nIt feels like I’m just walking to an unknown path in a jungle and follow what they want me to do. I have no idea what to expect, how many rounds I need to pass before onsite. \n\nSorry it’s just a rant. Anyone has interviewed with nvidia and what’s your experiences?",
+      "subreddit": "cscareerquestions",
+      "score": 2,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1hy0e7p/nvidia_no_idea_about_what_to_expect_in_the_process/",
+      "comments": [
+        {
+          "body": "Nvidia typically has multiple rounds of interviews, including technical assessments and behavioral questions. The exact number can vary, but it's common to have 2-3 rounds before an onsite interview.\n\nYour best bet is to prepare thoroughly for both technical and non-technical aspects. Focus on your core skills, brush up on computer architecture and GPU-related concepts, and be ready to discuss your past projects in detail. Even without specific information, you can still put your best foot forward by being well-prepared. If you're looking for a way to practice tricky interview questions and boost your confidence, you might want to check out this [AI interview](http://interviews.chat) app. I'm on the team that created it, and it's designed to help candidates navigate uncertain interview processes like the one you're experiencing with Nvidia.",
+          "score": 3
+        },
+        {
+          "body": "Did they send you follow up questions after submitting your resume?",
+          "score": 1
+        },
+        {
+          "body": "try doing questions on [www.pastinterviews.com](http://www.pastinterviews.com)",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Is software engineering really as saturated as people say?",
+      "body": "So I clearly do not work in tech. I am a employee at Starbucks. I've started learning programming to give me something to do but I've found it exciting and easy to learn. Of course, like everyone it seems, I've thought \"why not do this as a career?\"\n\n**I present the essay of my reasoning XD**\n\nI've seen the hundreds of posts on various subreddits talking about how saturated the computer science industry is and that is nearly impossible to obtain your first job. Many posts talk about how there is hundreds of applications for each job listing.\n\nNow, at Starbucks (least here in Canada), it's the same. When a store posts an opening, we average about 250-300 applications in 48 hours. The managers have been known to \"lotto pick\" applications since there is no real requirements to work at Starbucks. So, a low-level entry job at Starbucks that pays $0.75 over minimum wage is having roughly the same number of applicants as entry level computer science jobs that pay 80k+.\n\nOn top of this, how many are actually meeting requirements? I seen a post on reddit that stated his company would receive about 300 applications. Out of those, 250 of them only had minor certifications or nothing at all. Of those 50, only about 20 could actually show pseudocode abilities.\n\nI have only been doing programming as a hobby for 6 weeks. In that 6 weeks I've finished all the JS, HTML, CSS courses on Mosh, Scrimba, and Codebootcamp with all 3 giving various certificates with the total cost coming to $40. So $40, 6 weeks, and I've got 7 certificates that say I am ready for a web developer job. I'm not delusional. I know I am not ready. But it makes me think, how many of these hundreds of applicants for a job possess certificates from resources that are free and take a week to finish? Is the market saturated with people who went for degrees or is it saturated with free certificate holders? (I'm not saying the free certificates don't hold any value. However, it is obvious when someone with a few free certificates goes up against someone with a bachelor in CS, the bachelor prob going to win.)\n\nAre the hundreds of posts saying it is impossible to obtain a job coming from people who spent a few months on these free programs/youtube videos and then tried to enter the industry? Or is the industry really that saturated that having a bachelor in CS means nothing?\n\nIf the industry is truly saturated and level of education doesn't matter, is there ways to set you apart? I think it'd be cool to enter the field (it's a wicked job that fits my way of thinking). If I designed and solo-programmed an online multiplayer website (I know, highly unlikely), and walked up to a job and said, \"I have barely any education but look at this functional project I solo built \\*does mic drop\\*,\" would that warrant any traction?\n\nWith AI booming and tech companies like Nvidia soaring, is there going to be a bump in jobs for the coming years?\n\nLike a lot of people, I'm looking for a change. I'm coming close to being 30, wanting an actual career, and trying to narrow my choices for uni. I don't have my sights strictly on CS for a career but it is the only option I'm considering that I've thoroughly enjoyed. So, I'm trying to get as much info as possible to see if a degree in CS is actually worth the resources or if I'm going to end up jumping from interview to interview desperate to find a job in the field.\n\n  \n**EDIT:** Wow, this post got a lot of attention. Just a quick thank you to everyone who has provided useful information! I appreciate it. ",
+      "subreddit": "cscareerquestions",
+      "score": 557,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1dixv5z/is_software_engineering_really_as_saturated_as/",
+      "comments": [
+        {
+          "body": "very saturated at the low level. jobs that need skills you can learn from a couple videos on youtube (jr level full stack) are very saturated. jobs that require experience working with actual system infrastructure are statistically easier to get, but ofc have a much higher barrier to entry.",
+          "score": 894
+        },
+        {
+          "body": "You're a bit naive in assuming that because there are more junior candidates than junior positions \"level of education doesn't matter.\"\n\nBecause there are so many more junior candidates than there are jobs for junior engineers, it's very easy for employers to draw arbitrary lines and say \"I'm not going to consider anyone who doesn't meet this.\"\n\nThink of it as buying a house. If there are WAY more houses available than there are buyers, then to reduce how many houses you're looking at, you're going to say things like \"if it doesn't have 2 bathrooms, don't even show it to me. If the kitchen and the bathrooms aren't new, don't even show it to me.\"\n\nThere are so many candidates that employers are looking for ways to eliminate candidates, not expand the list to include less qualified people.",
+          "score": 81
+        },
+        {
+          "body": "[removed]",
+          "score": 357
+        },
+        {
+          "body": "We are currently in a do more with less market. At my company everybody who does know what they are doing is spread thin, although all my friends in the industry are in pretty relaxed roles, at the same rate + completely remote, from an outside perspective it seems really great. Can’t tell if it’s a grass is greener situation tho. \n\nI find the younger crowd at my company is more of a “tell me what to do” group. Pretty hard to work around because by the time I have the problem sorted out I may as well have just written the code.",
+          "score": 215
+        },
+        {
+          "body": "It seems like a lot of jobs are saturated at the moment.\n\nI’m just going to say what others have said elsewhere.\n\nUnless you are a kick ass cider and have an amazing portfolio (good luck getting hiring managers and recruitment to look at it)\n\nBootcamp and courses are going to get you diddly squat. \n\nMaybe somebody else can advise who is more in the know, but your gonna need a qualification at degree level at least.",
+          "score": 250
+        },
+        {
+          "body": "As someone who did self-learning certifications for a few years first (to test if I liked it, essentially) and then went to college. Now, having worked in the industry. Those bootcamps, online certs, whatever even college really don't touch what an actual software job is like.\n\nI think in some way, people like to think  \"oh this is so easy look I can do bootcamps\", where yes, it's a base, it's good. But, honest to goodness there is so much to the job. And, a junior with the experience of boot camps and certs and a college or even uni is **essentially** useless, will make mistakes all the time because they have no concept of the sheer scope of software and it's just really really tough and annoying to bring on juniors with no experience. So, it's saturated with juniors. And if someone wants in, they either a) get lucky, or b) you have to dive deep into concepts on your own.   \n  \nWhat IS an API? Why do companies have them? What pain points do they have? What would you do if you were given a report that is taking 8s to deliver data and it's your job to improve it? Do you know about open source software dependencies, how to manage them, and the importance of security in managing them? Do you know how to manage integrations which send keys for authorization, with specific payloads you need to then store/proceess? Do you know how or what tools to use to test APIs? Can you spin up a local docker instance and dump and restore a database for local use? This is just brushing the surface of what is an absolute basic on the day-to-day for a basic web job..",
+          "score": 90
+        }
+      ]
+    },
+    {
+      "title": "$200k+ TC offer | What I did to prepare",
+      "body": "I recently landed two offers from two Silicon Valley-based tech companies. One offer was from a medium-sized company just over $100k while the other offer was from a large company that was worth over $200k in total compensation. Both offers were to work in North Carolina. These were the only two companies I interviewed for.\n\nI am writing this post to document the things I did to prepare for interviews and answer questions I had throughout the process in the hopes it might help someone in the future. I want to stress that what I write here shouldn't be taken as gospel; this is simply my experience. Please make sure you draw from a wide variety of sources and hear others' testimonials when planning for interviews. Feel free to ask in the comments anything I haven't addressed.\n\n# Technical Preparation\n\n**How many LeetCode questions did you do?**\n\n* 106 completed (\\~120 attempted)\n   * 36 Easy\n   * 66 Medium\n   * 4 Hard\n\n**How did you decide which LeetCode questions to do?**\n\n1. I had LeetCode Premium and went straight for the questions asked by the companies I was applying to\n2. For any questions I struggled with, I added two of the 'Similar Questions' or two questions from 'Related Topics' to my favorites and solved them later\n3. I then went through [this list of 75 questions](https://leetcode.com/discuss/general-discussion/460599/blind-75-leetcode-questions) and solved any I hadn't solved yet\n4. Finally, I sorted all the questions by frequency and went down the list, prioritizing medium-difficulty questions\n\n**How much time did you spend on each question?**\n\nAbout an hour, sometimes less and sometimes more. If I couldn't come up with an algorithm within an hour and a half, I would look at the solution, save the problem for later, and move on to the next one.\n\n**Is there a point where you begin recognizing patterns?**\n\nIt was a real struggle when I first started out. I was able to solve most easy questions but was pretty clueless on most medium questions. Things started to come together after I solved about 100 problems, but there were still a lot of problems I glanced at afterwards that I was unable to solve. If I got to do 150-200 problems (before landing an offer), I feel like I would've been in a really good position.\n\n**Tips for solving these questions?**\n\n* *Understand every possible method of solving each question you do.* In every one of my interviews, I was asked to solve each question at least two different ways. Be sure to find multiple solutions to each problem by either going through the problem's 'Discussion' section or, if you have LC Premium, the 'Solution' article\n* *Don't just come up with the algorithm. Implement the solution and pass every test case.* A lot of times, implementation is the most difficult aspect of a problem. Also, in the process of implementing your solution, you might realize your algorithm is incorrect or doesn't address every edge case. Struggling through the implementation will ingrain the solution much more deeply in your mind\n* *Review old questions*. This is self explanatory. Don't do too many problems without making sure you remember how to do ones you did a while back.\n* *Depth over breadth.* 150-200 problems should be all it takes to cover everything you need to know. If you have done this many and are still struggling, you probably don't truly understand the problems you've done and rather are simply memorizing the solutions.\n\n**Is LeetCode Premium worth it?**\n\nI felt so, and here's why:\n\n* Having access to the company-specific problems was *invaluable*. If there is one reason to subscribe, it is this\n* Some of the questions locked for free users are questions that build the foundation for understanding how to solve many other questions\n* The solution articles are often really detailed and well-written. They'll cover almost every way to solve each problem — something that you won't get from every Discussion post\n\nMy only warning is to not rely on the debugger they give you. You're not going to get a debugger in an interview. Get used to debugging by printing stuff to the console.\n\nA Leetcode Premium subscription definitely isn't necessary if you can't afford it.\n\n***Cracking the Coding Interview*** **or LeetCode?**\n\nI did both. I started off going through Cracking the Coding Interview. I only went through the chapters on Strings, Arrays, Linked Lists, Dynamic Programming &amp; Recursion, Trees, Greedy, and System Design. The introductory segment for each chapter is really great as it covers a lot of the basic concepts you need to solve a wide variety of problems in each category. See if you can't get a used copy of the book for cheap.\n\n# Background &amp; Other Preparation\n\n**What other preparation did you do besides LeetCode?** Before each of my first several rounds of interviews, I went through a list of common questions I might be asked about each project I listed on my resume, rehearsing my answers out loud. I made sure I could summarize what I am currently doing in under 30 seconds.\n\nOne thing I want to warn you of is that you'll want to make sure you're prepared for *system design* questions (e.g. design TinyURL). LeetCode does not have any practice problems for this, so just be aware that these problems exist.\n\nI'd also recommend reading *Clean Code* by Robert Cecil Martin. I got asked a lot how I would change my code for a production environment, and reading this gave me a lot of material to work with. It will also just make you a better software developer in general.\n\n**What's your background?** I am 24 years old and have a little under two years of experience as a software consultant for an investment bank. My main skill is Java/Spring Boot but I also know a little bit of React.js and Vue.js. My resume really isn't that impressive, so don't let a weak resume stop you from shooting your shot.\n\n**How long before you got an offer?** 2.5 months since I sent out my first application. This is also about how much time I spent grinding LeetCode. I got both of my offers in the same week.\n\n**Where did you find jobs to apply for?** LinkedIn. Nowhere else.\n\n# Thoughts on the Tech Interview Process\n\nI hate it. I think it's really stupid. Some of the questions I came across on LeetCode had me thinking, \"They can't seriously expect a human being to solve this in under 45 minutes.\" Some questions are just glorified IQ tests that prove nothing about your ability as a software developer. Some questions are so ridiculously mundane I wonder why they get asked at all. If these are your thoughts, just know you are not alone.\n\nUnfortunately, tech companies do not care about your feelings. If you refuse to prepare for these questions out of spite, someone else who wants it more will step up to the plate and happily take those offers from you. Figure out what it's worth to you. Good luck\n\n# Edits\n\nI'll address some other things here based on questions I'm frequently getting asked.\n\n**Which companies gave you an offer? Are there really companies in NC that pay that much?** I'm not at liberty to say which companies gave me an offer. What I will say is there are a ton of tech companies with offices in the RTP area that extend offers making mine look like a government welfare check. Google, Nvidia, and SAS are just a few examples. There are some other really solid companies here too, like IBM and RBC.\n\n**How did you find those opportunities?** Set your location preferences in LinkedIn to 'North Carolina' and you'll see all the available jobs in the area.\n\n**What did the rest of your resume look like?** I had a summer internship at a tiny company where I wrote maybe 100 lines of code. I had a research assistant position where I basically just put together datasets for my supervisor to use in her research. I also volunteered as a web developer for a hospital my senior year. I listed any technologies and languages I had ever touched but left out anything I couldn't talk about at a high level. My resume really isn't that impressive and I never got asked about these trivial roles.\n\n**What is your comp package?** 138k base + 14k bonus target + 50k equity over 3 years (edit: 150k equity total). There's also 401k matching and a discounted stock purchase plan but I haven't calculated what those are worth.\n\n**Are you getting paid by LeetCode?** No. I am just documenting my experience here. I am well aware that you can get a job without ever touching LeetCode or a similar site. However, landing a job without any practice is extremely unrealistic for the large majority of people, myself included. Feel free to use HackerRank or whatever else is out there. Or trust your smarts and go into your interviews blind.",
+      "subreddit": "cscareerquestions",
+      "score": 1494,
+      "url": "https://reddit.com/r/cscareerquestions/comments/mxl911/200k_tc_offer_what_i_did_to_prepare/",
+      "comments": [
+        {
+          "body": "Jesus 200 in NC must be crazy",
+          "score": 380
+        },
+        {
+          "body": "I’m guessing Credit Karma?",
+          "score": 80
+        },
+        {
+          "body": "&gt; 150-200 problems should be all it takes\n\nThat's it?! /s\n\nCongratulations though.",
+          "score": 167
+        },
+        {
+          "body": "Congratulations brother!",
+          "score": 107
+        },
+        {
+          "body": "Did you come from a top uni, what was your GPA (does that matter?), and how many internships/previous jobs have you had? I worry that in spite of leetcoding all day long I would still not get anything.",
+          "score": 69
+        }
+      ]
+    },
+    {
+      "title": "Phone Interview with NVIDIA Software GPU/Web Intern team for an internship. What kind of questions can I expect?",
+      "body": "Would love some example questions so I know what I'm getting into ",
+      "subreddit": "cscareerquestions",
+      "score": 1,
+      "url": "https://reddit.com/r/cscareerquestions/comments/31fgru/phone_interview_with_nvidia_software_gpuweb/",
+      "comments": [
+        {
+          "body": "They asked me a lot of low level questions even though it was for Web internship such as how would you implement database and what data structure would you use. Also they asked alot of low level networking question. It depends purely on the team though. ",
+          "score": 1
+        },
+        {
+          "body": "I work for NVIDIA.\n\nIt totally depends on the team. Within my org we have discussed how to interview, but I'm not sure how much other orgs cover it. For internships, we cover a mix of technical and nontechnical, plus a couple coding questions.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "NVIDIA Internship Phone Interview. What to expect?",
+      "body": "Hello everyone. \n\nI would like to know in general, what I should focus on to prepare for a phone interview for an internship at NVIDIA. This is for a software engineering role in the GRID team. I am really excited about this opportunity as I feel that I will learn a lot from it! \n\nHas anyone been interviewed for a similar role? Could you share your experiences and how I could prepare for it? \n\nThanks!",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/3s7ie5/nvidia_internship_phone_interview_what_to_expect/",
+      "comments": [
+        {
+          "body": "While I havent had any experience interviewing with Nvidia, the test packet they gave out at my schools career fair had a lot of lower level stuff on it.\n\nStuff like OS and device drivers and stuff like synchronization. ",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Tips for internship searches",
+      "body": "**How to go about an internship search- General Advice**\n\n* Can go through 2 paths in my opinion... regular Big Tech applications (where networking won't really help) (and other non-tech big companies like Walmart, GM etc.) and startups / smaller businesses.\n* Do apply to any and all big companies. This includes Big Tech (tech companies such as Google, Datadog, OpenAI, FAANG etc.) but also includes big non-tech companies (think Walmart, Target, Ford, Epic to a certain extent). However, be prepared to never get responses from these. The conversion rate of responses from these is a lot lower than other companies. This is due to both the amount of people applying, you applying later than other people (they may just only look at the first X number of applications), but also the amount of company leadership, direction, and planning changes that are typical with these big companies (these are expected). You may not get a response and that may mean nothing with your resume or applications. Which leads us to...\n* Apply to startups and / or small businesses. There are a lot of startups out there that may benefit from your specific experience or skills. Where do you find these though? ycombinator.com, workatastartup.com, builtinnyc.com, wellfound.com are good places to start. More than applying, here is where you might need to \"network\". Look at the founders, look at the people working there. Referrals here are a lot more helpful than in Big Tech companies, because things at smaller companies are a lot more personal and less automated. This is how I found my early-stage startup job. So you might want to look at founders / early employees; see if you have any connections on LinkedIn or went to the same school. See if you have any secondary connections. Reach out to people. Even if not, you can cold message on LinkedIn. You may not get a lot of responses. That's ok / expected.\n\n\n\n* Internships in the Summer after Junior Year can be crucial because you could get a return offer to come after graduation, so pick companies you might really want to work for beyond college (some Big Tech companies' New Grad classes might be 90%+ of previous interns).\n* As a student, something that could be really good (but harder to find) if you have the time is part-time work or consultancy work for startups, tech etc.\n\n**For Big Tech Applications:**\n\n* In general, you may just want to apply to bigger companies through their job postings website online, for summer internships. Some (example: NVIDIA) or others will also take off-cycle interns like in the Fall, and these may be slightly less competitive and could be good if your school allows it.\n\n  \n**For Startup Applications:**\n\n* For startups etc. - First you can start with informational, PERSONAL interviews. Reach out to people on LinkedIn. Find SOME connection—college, employer, hobby, secondary connection (can filter by this on LinkedIn), even city, high school etc. And don't ask for a job, resume review etc. People want to help you, but they want a genuine connection too. Think of your network as in between acquaintances and friends—not completely your friends, but people you would help and that would help you. A good way to do this is to say something like - \"hey, noticed we both went to university X, I'm going through a job search right now and (would love any tips on how to succeed) OR (applying to various companies and curious about what you like / dislike at company Y!\n* A lot of startups, especially earlier ones, may not want interns... but the ones that do, you will very likely benefit from having a personal connection. At my early stage startup, I had an intern under me that came in as a friend of a friend of the founders, and some other interns that came in through general applications came later... However, a lot less startups want interns than bigger companies.\n* I went to a T10 Engineering School (University of Michigan) and I didn't find the career fairs to be THAT helpful because they would just tell you to apply online anyways. But it was helpful to meet some smaller companies / startups where I would talk to people in a more personal way.\n* In school, if you meet some startup connections, they may really want to hire you when you graduate... so the earlier you form connections, the better. I saw this at my startup from the other side, trying to form connections with students very early.",
+      "subreddit": "cscareerquestions",
+      "score": 1,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1qfngw9/tips_for_internship_searches/",
+      "comments": [
+        {
+          "body": "I'm posting advice / answering people's questions on my discord if anyone wants to join: https://discord.gg/axCSNXcN, feel free to join if you want more personalized help!",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Nvidia job suggestions",
+      "body": "Hi everyone,\n\nI’ve got an upcoming interview with NVIDIA, and while it’s in a field I know very well, something I’ve worked on professionally and feel confident about, I can’t help but feel nervous. It’s one of those moments where you know you have the skills, yet the stakes make it hard to stay completely calm.\n\nI’ve been preparing methodically: reviewing core concepts, practicing system design and algorithm questions, and brushing up on the specifics of my past projects that align with NVIDIA’s work. Still, I’d really appreciate any general advice from people who’ve been through similar high-pressure interviews, where the technical bar and expectations are high.\n\nHow did you manage your nerves? Any suggestions for mental framing or preparation that helped you feel composed and perform your best when it mattered most?\n\nI’m aiming to stay confident and I’d love to hear what worked for others in keeping that balance between professionalism and authenticity.\n\nThanks in advance to everyone willing to share some wisdom.\n\nAlso I wonder acceptance rate of Hiring Manager interviews, do anyone has information about it? according to glassdoor its 5%",
+      "subreddit": "cscareerquestions",
+      "score": 3,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1oth0ba/nvidia_job_suggestions/",
+      "comments": [
+        {
+          "body": "On the nerves piece and staying composed at NVIDIA, what helped me was building a tiny pre-brief: 3 bullets on my core strengths, 3 tradeoffs I’ve made, and one crisp story per competency using STAR, then keeping each answer around 90 seconds. I also did a 10 minute warmup problem before the call and narrated out loud to get the voice flowing. I ran two timed mocks using Beyz coding assistant with prompts pulled from the IQB interview question bank, which kept me from rambling and tightened my reasoning. On acceptance rates, I haven’t seen a reliable number. It varies a lot by team and role, so I wouldn’t anchor on Glassdoor. You sound well prepared, focus on clarity and pacing.",
+          "score": 2
+        },
+        {
+          "body": "Just chill man, it’s just a job and we’re floating on a rock going 1000 mph through the universe. NVIDIA and us won’t exist 100 yrs from now. Get in there and get your bag",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "title": "Does it look bad to recruiters if you apply to a lot of positions at their company?",
+      "body": "For example at a large company like Apple, Nvidia, etc. where they have a large number of jobs being posted that require similar skillsets is it ok to apply to a lot of them over and over to get an interview or would it look bad to recruiters? Like they think “why cant this dude get a job or why is he applying to so many positions he wont get”",
+      "subreddit": "cscareerquestions",
+      "score": 13,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1jk8d13/does_it_look_bad_to_recruiters_if_you_apply_to_a/",
+      "comments": [
+        {
+          "body": "Nope, you’re just another number. Send as many as you can, but remember… failing one of the OA/interviews will put you on cooldown.",
+          "score": 18
+        },
+        {
+          "body": "Depends on the company and maybe how you're doing in the interviews. Last time I was on the market I applied to many roles at a large cable/media company. I told the recruiters I was interviewing for multiple roles thinking it might be a conflict of interest if I got offers .....and they didn't care. I actually turned down one offer while I was a final candidate for another position. You'd think they'd maybe take that into consideration but they didn't. I eventually turned down the other offer too fwiw",
+          "score": 2
+        },
+        {
+          "body": "Anecdotally for places like nvidia msft and apple applying to multiple positions hasn’t been a problem for getting to interviews, including for internships. But for any of these I’d see if you can find the recruiter for your school—asking them this question in a way that emphasizes how excited you are about working there could help get the interview. ",
+          "score": 2
+        },
+        {
+          "body": "I doubt they even remember",
+          "score": 2
+        },
+        {
+          "body": "!remindme 3 days",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "is being data anytics worth it? is ML engineer the same field but just using ML models?",
+      "body": "im in a interview process for data scientist but the work is little bit of creating ur data pipeline to ingest and transform the data but a lot more focus on generating new table with SQL and extract insight to help the company make their business decision. So im just gonna SQL all the day, plot my tables with looker or tableau and present it to the business group\n\nhaving studied and developed tech stuff i started to wonder, why people in CS pursuing this job career? this is more a degree in statistics/economics university. \n\nis it worth it doing this job after studied a lot to be a developer?\n\n  \ni studied ML in my master and ive seen job posting about ML engineering that is basically the same as data analyst. the only difference, is that they will use ML models to make business decisions and insight from the data.\n\nis that it all? the only cool stuff with AI/ML is done just by NVIDIA while other companies just uses ML to generate insight from data?",
+      "subreddit": "cscareerquestions",
+      "score": 1,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1jlghur/is_being_data_anytics_worth_it_is_ml_engineer_the/",
+      "comments": [
+        {
+          "body": "There’s no law that any title mean anything specific so who knows what’s going on with your company, but usually data analyst and MLE are very different roles.",
+          "score": 2
+        },
+        {
+          "body": "I would say that to be a good mle you need to be able to be a good data analyst, software engineer, ml scientist depending on how your company splits things up.\n\nI work at a fintech unicorn up and have had several colleagues leave for big tech. One is an ML scientist where he just builds models, one is a swe at reality labs but works only on ml projects, one seems like he’s just taking models that data scientists make and productionizing them and is constantly talking about how bad big tech data scientists are. \n\nI can’t compare my exp to anyone else’s because this is the only place I’ve ever worked, but my team of 5 tries to do “full stack ml”, so if you choose to do something, you should be able to one man it through the entire org. Im still technically a junior, but currently I’m working on a new data vendor implementation, which will start with me implementing the api calls, all the way to building new feature stores and models and deploying challenger models and running them silently and making sure all the numbers look good. Further, my team manages all of our own eks clusters because we are responsible for keeping production going, the ci/cd pipeline, document and feature stores, any audits that we face as a fintech org, all while also being responsible for our multibillion dollar portfolio.\n\nWe have a couple dozen analysts that support us and they all try and work on our team and no one has ever passed the conversion interview. I would say that if you took a good data analyst who has a strong stats/ml background, you only need to add another skill set of being a competent software engineer.\n\nI have a feeling that this is the exception, not the norm, but all of my colleagues who have left seem to all be thriving in big tech with the breadth of experience they gained from wearing so many hats on my team",
+          "score": 2
+        },
+        {
+          "body": "No, that'd be a big step back in my opinion. I was a data analyst for years and pivoted to software then ML engineering. I would never go back. There's way more money in engineering too.",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "NVIDIA Cloud Infrastructure Development Internship Inter-view - What to expect how to prepare?",
+      "body": "Hey everyone, an NVIDIA recruiter reached out to me and offered an interview for a Cloud dev internship, i legitimately could not want this role more. My question to anyone who knows is - what should I prepare for other than LC, and how far out is it typical to schedule an interview? They're completely booked out two weeks from now, and I don't necessarily want to book an interview three weeks out. Is a week and a half enough time to prepare for an interview there?\n\nAlso - is there any advice anyone has on what I'll be asked? I have a lot of experience working in Cloud, so I feel very confident/excited for these topics.",
+      "subreddit": "cscareerquestions",
+      "score": 3,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1gqo092/nvidia_cloud_infrastructure_development/",
+      "comments": [
+        {
+          "body": "I interviewed for a lot of their Cloud infra intern stuff like 3 years ago. Back then it was very trivia/knowledge based like asking you to explain different technologies and concepts, with some relatively easy LC questions as well.",
+          "score": 3
+        },
+        {
+          "body": "[removed]",
+          "score": 1
+        },
+        {
+          "body": "[removed]",
+          "score": 1
+        },
+        {
+          "body": "[removed]",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "I am losing hope and feel useless trying to find a job.",
+      "body": "I graduated December 2022. I can't find a single job whatsoever. I used to have recruiters on LinkedIn message me at least once a week, nvidia/meta/pinterest/etc. A good handful of my peers already have their careers started, and here I am doing nothing. I work on my projects and leetcode but nope, nothing.\n\nI don't know how many applications I have sent out, maybe 700+. I don't think I am a terrible candidate either. I had an internship at AWS, am familiar with a good variety of things from machine learning, web development, embedded, and more. I think i show drive and adaptability. While this experience is going the be the same as many other applicants I am competing with, I honestly am having a hard time standing out. I have gotten about 4 interviews and 2 declined offers. One was about 3 months ago, and I regret it. Another I declined because the team said I was not going to be programming (with a software engineer title).\n\nI have done so many revisions to my [resume](https://imgur.com/a/Yytsa8G), I don't think it is terrible either? I have had it reviewed by about 3 of my peers already.\n\nI am frustrated and feel like a failure, I do not want to give up though. Fortunately I do not need a job to survive at the moment, but I want to start my career already.\n\nEdit:  \nI forgot to mention I am going to a career fair soon and hopefully something comes of it. ",
+      "subreddit": "cscareerquestions",
+      "score": 139,
+      "url": "https://reddit.com/r/cscareerquestions/comments/178reiq/i_am_losing_hope_and_feel_useless_trying_to_find/",
+      "comments": [
+        {
+          "body": "You had 4 interviews and 2 offers that you declined.\n\nYou were given ample opportunities, way more than others that have not been to single interview.\n\nFor whatever reason, you threw them away.\n\nThere's not much you can complain about.",
+          "score": 446
+        },
+        {
+          "body": "What was wrong with the other offer?",
+          "score": 60
+        },
+        {
+          "body": "This is pretty good",
+          "score": 35
+        },
+        {
+          "body": "When you get in touch with a recruiter, even knowing they'd likely reject you in the end, try to ask how they think of your resume and how you can improve it. \n\nI find it more fitting to practical appeal than just hiring someone from fiverr to do it.\n\n\nI was where you were (Graduated June 2023) and was feeling extremely hopeless and prepared to be a jobless NEET.\n\nNow I am in a MNC of fair size and it's dedicated to doing IT for a non-tech company, which is very rare.\n\nI was trying FAANGs, got close to an offer got rejected for headcount reasons. \nI also tried some big non-tech companies and banks but with no luck or they simply aren't CS/tech enough in the roles offered.\nI did WITCH as well and got an offer early on before I graduated but I decided to look for more options first. The competition within the WITCH hiring seemed more intense this year.\n\nI got covid with strong symptoms in trying some dream jobs causing big delays in recruitment process and likely harmed my chances.\n\nI switched from a desperate brainless mass-applying, to a tailor-made application approach for each company, then to a hybrid approach of tailoring (more emphasis) and mass-applying (for less interested companies).\n\nHave easily editable resume and cover letter templates made by you (not copied from websites) ready. \nHave resumes for different tech roles, one for general, one for systems design, one for backend/frontend, one for certain very specific programming languages (if you're going for C++ dev don't bother mentioning css html or even Python, make it sound like C++ is your life), one for very specific fields like R&amp;D, banking.\nGenerative AI is useful for cover letter writing, but I'd only use it for less important companies to me. For interested companies I would very manually write it and reference some AI if needed.\n\n\nTreat all these like part of a regular process. No emotion put in. You're just part of this process. You do it and leave, repeat the next day.\n\nExercise and socialize regularly, helps a lot in dealing with the growing stress.\n\nI'd also recommend trying to get into some Open Source communities, contributing and developing as a hobby. There are remote companies like Canonical that value this a lot.\nYou'd also find it fun while being able to enhance your projects section. It's not easy to get renowned in Open Source, maybe you can start small with some projects you're passionate about first.\n\nFor LC, yes keep grinding them to maintain your DSA sharpness. Your current 1 per day is enough. Anything more can severely reduce your time in doing job seeking preparatory work and other life activities. \n\n\nKeep trying and don't lose hope.",
+          "score": 36
+        },
+        {
+          "body": "Find a par time or a full time job. Don’t kill yourself. I’m in the same situation bro. Don’t lose your mental health for this shit bruh , but keep going and you’ll get lucky 🍀",
+          "score": 14
+        }
+      ]
+    },
+    {
+      "title": "ML Engineering: Am I chasing some white whale or can I get the type of work i care about by looking around?",
+      "body": "I have been working as an ML Engineer in a scale up for \\~1.5 years now. I've got into the role wanting to work on training code, model implementations, parallelization, performance optimizations, etc. In practice most of my work is on ML Ops topics, dealing with K8s stuff, CI pipelines, Python environments, etc.\n\n  \nIs this just the reality of ML Engineering? That this lower level performance oriented work is    \nis rare, maybe done by a few at Nvidia, Meta, Google for their frameworks, etc.? Or is there a good chance that I'll find work that is at least in part closer to what I'm looking for by starting somewhere else?\n\nI am at various stages in a few interview processes and so far it seems like the work there might improve on this, but I would be curious how the reality looks like for other ML Engineering (or adjacent) practitioners. ",
+      "subreddit": "cscareerquestions",
+      "score": 2,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1otbsy6/ml_engineering_am_i_chasing_some_white_whale_or/",
+      "comments": [
+        {
+          "body": "Yeah I'm currently searching and I can tell you the ML Engineer role is highly diffuse now. If you're designing and training models you are in a very lucky position right now, then another 20 to 30% could be more like what you are describing which can be interesting in its own right but is more like a software engineering position, oriented around ML; high overlap with ML Ops. The latest twist is that I'm finding that on LinkedIn about 70 to 80% of job postings for \"ML Engineer\" or \"AI Engineer\" is to write LLM agents using LangChain, which is also more like software engineering in a specific domain.\n\nAgain, it can be interesting in its own right, but is just like a completely different job again, so all these 3 things are mixed around and hanging under the ML/AI Engineer roles right now.\n\nWhat is kind of funny/frustrating is that I'm finding that due to this switcharoo of the meaning of the job title, suddenly I'm *not qualified* to be an ML Engineer for most of the jobs being listed, despite spending the last several years writing PyTorch code. They all want concrete projects to show you know LangChain!  Which, let's be honest, is not rocket science, but the only way forward is to be more selective, or to do some personal projects to add to the CV. (I'm doing the latter right now.) The \"funny\" part is just that this agent/LLM thing has existed for what, like.. 3 years? And they all want to see \"experience\".. hilarious.\n\nBut to answer your question: it's sad, but as I'm seeing the trends, it's just less and less ROI for companies to train their own models. I think unless you restrict your applications to some big players or some very well-hidden underdogs, it's going to be very hard to be able to keep working on your own models. Possibly there's more in computer vision, but even that will be going away as VLMs get better. I wouldn't quite your job right now, unless you find something better.",
+          "score": 7
+        },
+        {
+          "body": "You can get the work you're looking for, it's just the problem of the market that AI/ML is the buzzword now so everyone puts it there and everyone is an ML engineer\n\nI'd look for roles marketed as research computational scientist, R&amp;D ML Engineer and the likes. What's called ML Engineering on linkedin usually isn't",
+          "score": 3
+        },
+        {
+          "body": "&gt;In practice most of my work is on ML Ops topics, dealing with K8s stuff, CI pipelines, Python environments, etc.\n\nSounds like ML Engineering to me. ML engineering was always primarily an engineering role (it's in the job title after all). \n\n&gt;That this lower level performance oriented work \n\nI think you might be looking at ML Systems engineering, or maybe ML Infrastructure engineering? They are a bit niche so there aren't that many.",
+          "score": 2
+        },
+        {
+          "body": "Company size and speciality dictates what an ML engineer does. At most companies an ML engineer does exactly that. \n\nOnly a few types of companies such as AI startups or big tech would need something lower level. It may also be called something similar (ML Research Engineer, AI Research Engineer, etc).",
+          "score": 1
+        },
+        {
+          "body": "“ML engineer” is a somewhat overloaded term. People use it to mean both what you wanted to do and what you’re doing. Sometimes in the same job, sometimes in separate jobs.\n\nNext time on interviews ask the hiring manager what the job duties actually entail.",
+          "score": 1
+        },
+        {
+          "body": "Yes, when people say AI/ML engineer, 95% of the time they really mean MLOps. Very few people are actually building models and most of those people have PhDs/research experience. It’s way cheaper for a company to just make requests to already tuned models than to build stuff in-house. \n\n\nThat being said, it’s easy to bleed into the optimization parts once you build out your systems. For example if you’re building a system to parallelize LLM calls, you could spend some time looking into the LLM configs to see if they can be tweaked to boost performance or something, or do some prompt optimization when given the chance, but yeah most of it is plugging data pipelines together.",
+          "score": 1
+        },
+        {
+          "body": "That does seem to be data engineering yes, you would need to find a data science/research position specifically if you want to work more in that branch of ML.",
+          "score": 0
+        },
+        {
+          "body": "Tell me one good reason why I would give you, a junior, dozen thousands of dollars of budget to burn on model training.\n\n\nAppart in ads/retargeting, fraud detection and mayyyybe SaaS recommandation engines (where boring old archs do just well), nobody RoIs on ML. A few lucky folks get to burn American pension funds on GPUs to inflate the bubble, but really, I'm not even sure that's to be envied.\n\n\nSource : teams I worked at burnt millions because investor drank the snake oil and engineers wanted \"to model and optimize\"\n\n\n\n\nLearn C++ and contribute to the pytorch project. There you'll actually be useful while enjoying it. I mean, not 100k-a-year useful, but useful. ",
+          "score": -1
+        }
+      ]
+    },
+    {
+      "title": "Nvidia SRE vs IBM SDE for junior Java Developer",
+      "body": "I am a Java developer with some dev ops experience as well. I am primarily a backend developer since college. \n\nVia some referrals, I got the opportunity to interview for both IBM and Nvidia for backend developer and SRE respectively and I’ve cleared both. \n\nI know picking Nvidia over IBM is a no brainier but picking Nvidia would mean a change of what I’ve been doing for so long for so many years(from backend developer to SRE/DevOps). \n\nIs picking Nvidia worth change of stack? \n\nI am well versed with DevOps concepts and I had to being myself up to speed conceptually to clear the interviews but I have not worked as an SRE in practice.     \nWould I find it hard?     \nAnd how does the future hold for an SRE vs SDE?    \nIs Nvidia worth the switch in stack or should I stick to SDE?     \nComing from a developer background, would it be too hard for me to adopt to an SRE role and start from scratch or would the transition be not that hard?",
+      "subreddit": "cscareerquestions",
+      "score": 22,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1h4kmsb/nvidia_sre_vs_ibm_sde_for_junior_java_developer/",
+      "comments": [
+        {
+          "body": "man listen to me, NVIDIA, NVIDIA, NVIDIA, I'm a former IBMer, please Go to NVIDIA !!",
+          "score": 113
+        },
+        {
+          "body": "Everyone I know who has gone through the doors of IBM, have left being like \"Yep, they are basically as antiquated as you'd expect\".",
+          "score": 22
+        },
+        {
+          "body": "What is nvidia tech stack looking like for sre? Go/python/terraform/shell?",
+          "score": 19
+        },
+        {
+          "body": "Bro Nvidia is the correct answer",
+          "score": 17
+        },
+        {
+          "body": "Nvda is the GOLD standard rn. Also I read they have a two year look back period for stock purchase plan, is that still true? Like literally free 200k",
+          "score": 13
+        },
+        {
+          "body": "Why even bother! Nvidia has so much more potential and SRE will open so many more doors that the other",
+          "score": 7
+        },
+        {
+          "body": "IBM is a corpse and a dinosaur company",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "title": "Cannot decide which company to choose",
+      "body": "So I recently interviewed for two different companies (BlackBerry QNX and 1Password) and ended up getting offers from both.\n\nInitially I didn’t expect BlackBerry to get back since the timeline they gave me had already passed but I guess they made their decision late. 1Password also recently gave me the offer and I have extensions to make a decision for both roles.\n\nNow there’s a few different factors making things complicated for me to decide which to take. At BlackBerry, the role is more about embedded systems and developing drivers in C/C++ to add support for cameras and sensors used in self driving cars, whereas 1Password is developing tools in TypeScript and Rust that other developers would use.\n\nI know for a fact that I would enjoy BlackBerry significantly more because I have worked with embedded systems in personal projects previously. However, the pay is much higher for 1Password. Also for BlackBerry, I would have to relocate to a city with a much better tech market, but I am also in the process of moving between apartments in my current city and that complicates things because of leasing agreements. 1Password on the other hand is fully remote which I am not sure I would enjoy since I get really bored working from home at my current internship.\n\nAnother factor I have been considering is what each of these experiences opens up for me in the future. I am already interning currently at a company where I am getting a lot of Cloud exposure (AWS). Going for BlackBerry would let me generalize my resume a bit more and possibly allow me to break into embedded companies like Nvidia, Qualcomm, etc. Taking 1Password would effectively have me double down on the Cloud side of things since that’s what most of their work revolves around.\n\nSo far, most people I have talked to have all recommended going for BlackBerry but there’s still doubt in my mind and I cannot decide which one to take. If anyone here can offer some advice I would highly appreciate it.",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1m0qbxj/cannot_decide_which_company_to_choose/",
+      "comments": [
+        {
+          "body": "QNX is an easy first choice for me, but 1Password paying double? I think I'd go with the money.",
+          "score": 2
+        },
+        {
+          "body": "Money. Always money.\n\nAnd WFH on top, that's the easiest and most obvious choice ever.",
+          "score": 1
+        },
+        {
+          "body": "I personally wouldn’t worry a ton about pay right now as long as it is a livable amount. Worry more about what path you would rather go down.  If you think you will like the low level work for your career I would do that\n\nNeither company is a huge name at least not anymore so I wouldn’t worry about being being stuck in cloud just because of the name.\n\nSeems like you are more into the blackberry job and that type of career path I promise you you probably won’t regret taking it.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "nvidia systems design round (junior role) - what to expect?",
+      "body": "have a panel interview (5x 1hr interviews) coming up soon for a systems/driver level role, and one of the interviews is system design - any tips on what to expect? \n\nalso, other topics include C, rtos, os, concurrency - would really appreciate any other tips!",
+      "subreddit": "cscareerquestions",
+      "score": 11,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1gj1395/nvidia_systems_design_round_junior_role_what_to/",
+      "comments": [
+        {
+          "body": "Nvidia has no standard loop. It’s entirely up to the team, so you’re not likely to find people online that can offer valuable insights. \n\nThat aside, I’ve done several loops in the last 2 years for embedded/systems (most recently NVIDIA, multiple FAANGs before that). \n\nIn general people seem really big on asking questions around thread safety and memory safety. Ie,\nHere is a piece of code that has a deadlock/race condition in it. Can fix it by moving the mutex locks around?\n\nMake sure you know first principles around mutexes/critical sections in general. Be comfortable manipulating pointers. Ie, you better be able to write a memory safety queue implementation in your sleep.\n\nEdit: understand the tradeoffs between user and kernel level drivers. If the role has any networking component, be able to explain what happens when a host tries to send a udp packet to another host on the other side of a switch. \n\nAlso my NV loops for this type of role also included a couple LC type questions (graph traversal). \n\nTake all this with a grain of salt as I was interviewing for senior roles and as I said it’s completely up to each team.\n\nEdit2: understanding the fundamentals around handling interrupts. Ie your interrupt handler needs to be a short and fast as possible. What happens if you’re in interrupt context and another interrupt occurs.",
+          "score": 19
+        },
+        {
+          "body": "Do come back with ur experience with the loops, invaluable for this subreddit",
+          "score": 4
+        },
+        {
+          "body": "For a junior role expect questions that focus on fundamental concepts rather than overly complex architectures. They might ask you to design a simple system related to graphics processing or driver functionality. Be prepared to discuss trade-offs between different design choices, explain your thought process clearly, and consider scalability and performance implications.\n\nAs for the other topics, brush up on your C programming skills, particularly memory management and pointer manipulation. For RTOS and OS concepts, understand scheduling algorithms, interrupt handling, and basic kernel operations. Concurrency is crucial, so be ready to discuss synchronization primitives, deadlock prevention, and parallel processing techniques. If you're worried about tackling tricky interview questions, you might want to check out this [interview copilot AI](http://interviews.chat). I'm on the team that created it, and it's designed to help people navigate challenging interview scenarios.",
+          "score": 1
+        },
+        {
+          "body": "[removed]",
+          "score": 1
+        },
+        {
+          "body": "[removed]",
+          "score": 1
+        },
+        {
+          "body": "[removed]",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Are you happy at your daily job? should we focus on career and money or focus on what we enjoy or made for?",
+      "body": "Since october i've been in job hunting and failing constantly. During my job search i felt many different feelings while reading the job post. I have a master in computer engineering and, even tho it's interesting, i don't find joy in reading and studying and understanding those stuff. It's more a struggle than a joy. \n\nWhile searching for a job i encounter job for a development of a quantum computer by nvidia or work in a finance field in optiver as software engineer or work in telecommunications. Reading those job posts means that, if they hire you, you need to learn again all the background knowledge, the ground knowledge of quantum computing, reading scientific papers and understand it to reach the same level of knowledge of researcher in the state of the art. Or if i would work for optiver, i dont anything about finance. probably for new grads they will train you and you need to learn everything about the finance world. Or in the telecommunication company you will need to learn everything about how computer communicates in the network and how the package is transmitted. For example i've read that spotify manages to stream with no lag the music because, in telecommunication if some package is lost, the computer will ask the sender to send again the package because the package received didnt match the standard. Thats okay if you want to send some files and obviously you dont want to lose information or that file will be broken. But in music, even if you lose some information, for our ears is still ok. so they allow some lost of information in the package and made the communication faster.\n\nThis means, everyday study study study study, reading reading reading papers, stay updated to the state of the art of your job. If, it's something im interested of ok. im happy. but if i struggled a lot in university and i hated to study and reading those stuff, i don't think i want to do it for the next 10-20 years of my life.\n\nPeople says a lot that in gaming you are paid less and you should focus on a \"serious\" job where you will work less with higher pay. But is it worth it to work less but on something that you don't have any interest in?\n\nA friend of mine work in a telecommunication company that works on 5G, cloud services, B2B company. He is bored daily. The time he clocks off he went to do anything else\n\nanother friend of mine loves works on photoshop and editing videos. and he loves football (soccer). His work is interviewing all those players, editing videos and managing the company youtube channel and socials. he loves what he does daily. he loved editing videos and football since when he was a child. outside the work he still editing videos for his side projects and talk about football\n\n  \nso i want to ask. is it worth it to enter in a field where is well paid, but on something that probably will bore you daily and the moment you clock off you dont want to hear it until the next day?\n\nBecause before i was willingly ready to work hard. but seeing how the market sucks, and how i hard i tried to enter the market unsuccesfully, i want to give up. i learned unity3D as a hobby because i love creating videogames. maybe i should just focus on what i love even tho i will be underpaid. but at least i can see the fruit of my works and play on the game i developed. i don't know. I'm tired to try hard.",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1i1y2g8/are_you_happy_at_your_daily_job_should_we_focus/",
+      "comments": [
+        {
+          "body": "I'm fucking miserable because I feel like I have to do everything. When I have clear requirements and know how to accomplish something I love my job and time flies. Unfortunately the team dynamics have shifted and that now accounts for like 10% of my day. I'm so sick of, now I need to talk to this person but they are in a meeting. I could start this but I'll have a question for XYZ and they're out today, well what about this task? Sure I can dive in and put into a word document but the complexity means I'll essentially have to redo it after getting the answer I was waiting for for task 1. I simply can't do requirements gatherings and development at the same time, especially for two unrelated and very technical aspects.\n\nNotice how no one wants JRs anymore? This is also the reason for that. You can't expect a jr to do both so they have no value until the business figures out how to do requirements again",
+          "score": 4
+        },
+        {
+          "body": "You are fresh out of college. At this stage of your career you will be expected to have the ability and willingness to learn above anything else. I wouldn't worry about \"trying hard\" or initial salary or happiness at work. Choose not by what will make you happy or how much it pays but where you can learn the most from a field that interests you.",
+          "score": 2
+        },
+        {
+          "body": "[removed]",
+          "score": 1
+        },
+        {
+          "body": "It's not that black and white, and it's ultimately an extremely personal decision.\n\nFor most people it's a tradeoff between having the money to afford the things you want to do in your free time vs. getting to do things you like at work.\n\nIf you can find a job doing something you love that pays you enough to afford a quality of life you're ok with? You should do that.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "People who got interviewed by \"big\" companies, what did your resume look like.",
+      "body": "I want to get an internship at a big company next year, companies like Nvidia, Dropbox, Palantir, Qualcomm, big four, etc. \n\nI want to know what I should try to do this summer to put my resume and get to the interview stage. It'd be helpful if people show me what kind of resumes they got interviews with.\n\nThis is what my resume looks like now: [Resume]\n(https://www.dropbox.com/s/vtz37d7opzcxm9f/Anoymized%20Resume.pdf?dl=0)\n\nI'll remove the subreddit wallpaper thing soon when I have better projects and add an internship that I'm doing this summer to it.\n\nI've got an 11 week internship  lined up that starts the day after my last final until fall semester begins. Due to the commute it will eat up ~12 hours of my day. It pays $545/month ($3.4/hour) and I'm not looking forward to it anymore... My duties will be:\n\n* Technical Support and Queries for [company product] devices and problem solving \n* Third Party Integration of Devices into [company product] suite.\n\nNot sure what that means but I was told in the interview that I'd work mainly with PHP and MYSQL. Is my time better spent on other things?\n\nI live in UAE (I don't need a visa since I'm a US citizen) so obviously I'll have a harder time getting interviews.\n\n**Edit:** Thanks for all the responses so far! I'm still undecided on whether or not to take this internship.",
+      "subreddit": "cscareerquestions",
+      "score": 112,
+      "url": "https://reddit.com/r/cscareerquestions/comments/388q5m/people_who_got_interviewed_by_big_companies_what/",
+      "comments": [
+        {
+          "body": "Google contacted me a few hours after I submitted this resume: http://i.imgur.com/MDuyL9Q.png",
+          "score": 59
+        },
+        {
+          "body": "https://www.quora.com/What-does-the-resume-of-someone-who-got-an-internship-or-a-full-time-job-at-Facebook-Dropbox-or-Quora-look-like?share=1\n\nThe second resume is mine (Ryan Cheu).\n\nI was contacted by multiple big companies after doing well in programming competitions (and the school probably doesn't hurt either).",
+          "score": 13
+        },
+        {
+          "body": "I got contacted by facebook, my resume wasn't really anything special but I got contacted via linked in. It's getting more and more relevant lately.\n\nAlso you might want to have things expressed as actions for example.\n\n* Developing software for a finance professor that will simulate a financial market and will later be used in open outcry competitions\n\n\nShould read\n\n* Develop software for professor that simulates financial markets to open outcry competitions. \n\nThere is no need for the fluff words. Your resume should be bullet points.\n\n",
+          "score": 24
+        },
+        {
+          "body": "Couple things. \n\n1. Interesting choices for \"big\" companies. I've never heard people aspire for Nvidia on this sub. Also, I think you mean prestigious, not big. Palantir is a medium sized startup, for example. This isn't a criticism, more just a point of interest. \n\n2. As long as you're a USA citizen, interviews shouldn't be that big of a deal. \n\n3. Your resume needs serious work. Get a better template. Yours looks empty and thrown together. Add company names to your employers. Talk in more depth about your projects. You should say what they do and the technical work you did on them. At the moment, your projects don't SOUND impressive. This can be fixed easily on your resume. ",
+          "score": 22
+        },
+        {
+          "body": "So far I've had interview requests from :     \n\nTwitter.  \nDropbox.  \nGoogle.   \nMicrosoft.   \n\nProbably a couple other \"Big\" companies, though they were too slow so I ended up taking a job at a big Canadian social media company. I have a total of 6 co-op opportunities, so I can work for big companies when its convenient, as I've only completed 2.\n\nSorry in advance, had to obfuscate it on my phone.\n\nhttps://www.dropbox.com/s/zkakoiqd8zbzzn8/MyResume.pdf?dl=0\n\nEDIT: Holy shit what? You're working for 3$ an hour and commenting 4h for a IT job? Ohh my god, apply to 100 companies in the States right now if you're a US citizen! Do not take that job!\n\nEDIT2 : PHP and MySQL too? I wouldn't take that job if it paid 10x that.",
+          "score": 16
+        }
+      ]
+    },
+    {
+      "title": "Any advice for Nvidia DGX Cloud team for the Technical Marketing Engineer Intern Role?",
+      "body": "I applied as SWE but got Technical Marketing Engineering role. Makes bit sense since Ive done SWE + Marketing work for 2 summers at Amazon. Im just nervous that I'll fumble the interview. Requested for Fall Term",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1hh0ndp/any_advice_for_nvidia_dgx_cloud_team_for_the/",
+      "comments": [
+        {
+          "body": "[removed]",
+          "score": 1
+        },
+        {
+          "body": "[removed]",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Nvidia loop - systems engg intern 2025",
+      "body": "Looking for experiences and tips with the interview! Would be of great help to know what to expect in the interviews.",
+      "subreddit": "cscareerquestions",
+      "score": 5,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1gkes6q/nvidia_loop_systems_engg_intern_2025/",
+      "comments": [
+        {
+          "body": "Nvidia is so hype yet it’s quiet in this sub, def let us know what they asked and how was your experience here",
+          "score": 1
+        },
+        {
+          "body": "Good luck! I didn't interview for systems, but I did interview for a software role this year. Expect the process to take a long time. Sometimes taking up to a full month to get feedback from your last interview. I'm sure there are people who had better experiences than me, but it was honestly a massive red flag for me that it took 6 months for them to reject me.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Leetcode vs CTCI",
+      "body": "So I've scored a few technical phone interviews from big tech companies (like NVIDIA) but struggle with the Leetcode style programming problems under pressure. \n\nI've heard CTCI is a great resource, but I'm not sure if I should sacrifice leetcode practice time on it as of now since I'm only starting interview prep -- what do y'all think? Just leetcode for now since im just starting, or a 50:50 combination, or something else?\n\nAny ideas will be much appreciated, thanks in advance!",
+      "subreddit": "cscareerquestions",
+      "score": 44,
+      "url": "https://reddit.com/r/cscareerquestions/comments/9n3rv1/leetcode_vs_ctci/",
+      "comments": [
+        {
+          "body": "CTCI offers more of an explanation of how to arrive at the answer / algorithm whereas leetcode has a long more problems to apply your knowledge. I would also recommend EPI (elements of programming interviews) if you have the spare funds / time. Its like CTCI but better answers IMO",
+          "score": 50
+        },
+        {
+          "body": "I vote less reddit time and just do both, whatever you feel like at the time. ",
+          "score": 43
+        },
+        {
+          "body": "If you just started interview prep, CTCI is a decent resource. But if your are already starting to interview with companies, then leetcode's company tagged questions will help you more. ",
+          "score": 17
+        },
+        {
+          "body": "I would read CTCI first so you can see the explanations behind the answers. This is necessary in order to understand how the question is actually solved. Then Leetcode can be used for further practicing the skills you've learned. Being able to detect reasoning behind answers will help you to solve more Leetcode problems. Best of luck.",
+          "score": 7
+        },
+        {
+          "body": "If you're semi solid and just need practice - leetcode only\n\nif you need to read about how hash maps work etc before diving in - ctci first\n\n&amp;#x200B;\n\nedit: just wanted to add I could talk about both of these at length. But the main goal is to PRACTICE, not weigh out which material to use to practice. So I'm keeping it simple.",
+          "score": 5
+        },
+        {
+          "body": "You're not sacrificing anything by studying CTCI over leetcode. It's basically the same thing but with additional interview information that might come in handy. Leetcode alone is too narrowly focused -- you need to research the entire interview process. CTCI is a good balance. ",
+          "score": 7
+        },
+        {
+          "body": "Ive only used Leetcode and so far pretty much every question ive done for interviews are exactly from there or uses same underlying idea. I havent missed a single technical question yet just by doing 2 leetcode a day",
+          "score": 5
+        },
+        {
+          "body": "EPI better than both ",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "title": "NVIDIA Interview Process?",
+      "body": "I am gearing up to job search. I have been tech adjacent for the last 8 years in a niche industry. Our current competitor is on a hiring freeze but I am not sure I can last much longer in my current role. A few positions at NVIDIA caught my eye and I am going to apply. Has anyone gone through the interview process with NVIDIA that can share what to expect?  Interviewing with private companies terrifies me (especially since I haven’t had to do it in such a long time and I have heard horror stories). Obviously my resume may not make it past the bots but I’d appreciate any insight on the off-chance it does.",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/1foqq6a/nvidia_interview_process/",
+      "comments": [
+        {
+          "body": "[removed]",
+          "score": 2
+        },
+        {
+          "body": "www.glassdoor.com",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Look at these wild headlines on AI Bust, AI Bubble. Is anyone surprised?",
+      "body": "For those that have been searching for jobs for a while, and those in the hiring seat, take notice. The hiring market is going to start to shift in 2026...slowly but surely.\n\nI recently sat for an interview to lead AI initiative, but the company had no idea what they want to initiate or its long-term plans. I still maintain that AI is not going to replace roles; we are not even close to realizing its benefits and when it does become mature, there will be more jobs created to refine artificial intelligence. \n\nI strongly believe that everyone should upskill in their respective fields, but it does not look all gloom and doom. I think hiring is going to rebound as more and more companies start to realize that the investment they are making on AI is not going to be all that great on ROI. \n\n\n\nhttps://preview.redd.it/hyj66y1bwe7g1.png?width=672&amp;format=png&amp;auto=webp&amp;s=507ccfe36c5c8f7f4f6765f440780ef692112498\n\n  \n",
+      "subreddit": "jobs",
+      "score": 0,
+      "url": "https://reddit.com/r/jobs/comments/1pnfawt/look_at_these_wild_headlines_on_ai_bust_ai_bubble/",
+      "comments": [
+        {
+          "body": "The bubble is going to pop at some point.\n\nIt's very uncommon when year 1 has low unemployment and a big economic bubble for year 2 where the bubble pops to have better employment outcomes.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Probably-not-new trick to using scripted responses in one-way interviews",
+      "body": "Have an upcoming one-way interview and an RTX graphics card? OBS Studio + NVIDIA Broadcast + NVIDIA Eye Contact AI. Investigate the questions and read your scripted responses like the exceptionally prepared professional you are.\n\n&amp;#x200B;",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/15l043o/probablynotnew_trick_to_using_scripted_responses/",
+      "comments": []
+    },
+    {
+      "title": "OK, now I am at the end of my wits for 2017 summer internships. 100+ apps, 10+ explicit rejections, no interviews",
+      "body": "Currently I am really at the end of my wits with regard as to why I am not getting any interviews and a whole lot of rejections. I am seriously expecting that my current resume looks to be something that is good and can land me interviews at top companies... however, that doesn't look to be the case.\n\nThe reason I am aiming at top companies is that I consider my previous internship to be a top one, and I fear if I were to take one that is well obviously lower, it would be considered as regression of sorts in my career which will be set backs.\n\nMy current approach is really apply to companies through online only (I am currently in an unique situation where I do not have access to my school's job board). I do have leveraged referrals to some companies.\n\nThe reasons on why as to I believe I should at least get interviews from top companies are:\n\n* I have a 3.51 gpa\n* I go to a what I presume at least a tier 2 target school (Waterloo)\n* My previous internship is at what I considered to be a top location (Nvidia)\n* My previous internship has involved me in top quality work (Application architecture and design)\n* I have personal projects that does show some type of brilliance or achievements\n\nReflecting back on it though, there are might possibly be reasons as to why I am not getting such interviews even\n\n* Maybe my resume isn't as good as I think (achievement wise and/or design wise)\n* Companies maybe want US citizens (I require work authorization)\n* I actually do not fit the roles?\n* Maybe I am using the wrong channels... applying online has way too high rejection or ignore rates\n\nBy also analyzing some of the rejection letters I did get, a few do say they explicitly want 2018 graduates. Many says there is not a good fit or openings that match my skill set (assumed to be standard rejection).\n\nMy resume is available to be viewed [here](http://imgur.com/a/GOb0U).\n\nAre there maybe any suggestions or insights? I am truly at my wits end because I feel like I have played my trump card but I guess it's not as powerful.",
+      "subreddit": "cscareerquestions",
+      "score": 75,
+      "url": "https://reddit.com/r/cscareerquestions/comments/550vpu/ok_now_i_am_at_the_end_of_my_wits_for_2017_summer/",
+      "comments": [
+        {
+          "body": "&gt;Companies maybe want US citizens (I require work authorization)\n\nThis is a huge barrier. \n\nAlso, raw applications aren't worth much. A recruiter or referral are worth far more.",
+          "score": 124
+        },
+        {
+          "body": "Waterloo grad here (comp eng as well), whats your situation? Why are you looking for 2017 Summer co-op placements now? Why aren't you using JobMine in the winter term?",
+          "score": 21
+        },
+        {
+          "body": "[deleted]",
+          "score": 11
+        },
+        {
+          "body": "Your resume looks good. Couple things. It's tough to get those placements in first or second year, much easier in later years. I wouldn't consider it a regression to take a more local job.\n\nSecond, I've interviewed UW CS coops before. Is it possible that one of your previous placements put a bad review / rating in? Maybe not applicable because you're applying on your own but this would also hurt. It would be less important when you have more experiebnce.\n\nWhy are you not using the job board anyway?",
+          "score": 8
+        },
+        {
+          "body": "It's this:\n&gt;Companies maybe want US citizens (I require work authorization)\n\nI am in the same boat as you regarding this and only got like 3 interviews last year.\n\nIt puts you also quite into disadvantage compared to all the US citizens who do not have this barrier. This is a problem since internships are quite competitive.\n\nOne of the reasons I will probably not bother staying in the US after I am done with school.",
+          "score": 8
+        },
+        {
+          "body": "&gt; I have personal projects that does show some type of brilliance\n\nYeah, I wouldn't use that kind of language around a recruiter. This is giving off a kind of arrogant and/or entitled vibe.",
+          "score": 8
+        },
+        {
+          "body": "There are a lot of tech companies in Waterloo, right?  Look for Meetup events related to topics that interest you and go to those and introduce yourself to people there.\n\nI am 26 and doing a master's degree (non-CS undergrad) and have never gotten as far as an in-person interview from a blind online application.  I'm juggling four in-person leads for a spring semester capstone internship (one offer from my current internship, three still pre-onsite) and two full-time leads (a promised offer from my current internship and pre-onsite with another company).\n\nThere's absolutely no substitute for networking in-person!",
+          "score": 6
+        }
+      ]
+    },
+    {
+      "title": "Preparation Materials to get into Nvidia",
+      "body": "I'm trying to **get into Nvidia** as a **Senior Software Engineer** and wanted some tips on how to prepare for the interview other than using LeetCode. What **resources have you found to help ace the interview?** Thanks!",
+      "subreddit": "cscareerquestions",
+      "score": 1,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1eiv25k/preparation_materials_to_get_into_nvidia/",
+      "comments": [
+        {
+          "body": "Did you get the interview yet?",
+          "score": 3
+        },
+        {
+          "body": "Cracking Nvidia's Senior Software Engineer interview does go beyond just LeetCode. You'll need a deep understanding of systems programming, especially graphics APIs (think OpenGL, Vulkan) and parallel computing (CUDA). Brush up on your operating systems knowledge, dive into architecture-specific optimization techniques, and be ready to discuss complex system design scenarios. By the way, I built [interviews.chat](http://interviews.chat) to help people get hired, so it might be useful to you.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "what to expect for nvidia new grad systems engineer 1st round",
+      "body": "asked recruiter on what to expect, he said questions related to \"embedded, c, and os fundamentals\" + topics related to the job posting (which mentions device drivers and c++ apart from the above). \n\n  \nmy only source of confusion is all the posts ive seen online saying new grads are often asked leetcode - just want to get a better idea, is there a higher chance of getting asked leetcode, or more specific fundamental stuff? \n\nFor reference, duration is 1hr. Also open to any other tips for nvidia interviews - much appreciated!",
+      "subreddit": "cscareerquestions",
+      "score": 12,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1fko8cw/what_to_expect_for_nvidia_new_grad_systems/",
+      "comments": [
+        {
+          "body": "Probably what the recruiter said: questions on your knowledge of process scheduling, handling interrupts, device I/O &amp; register config, spin-wait vs mutex, etc. subsequent rounds are most likely to have lc once they’ve verified that you actually have some domain knowledge.",
+          "score": 12
+        },
+        {
+          "body": "Refresh your OS fundamentals—boot flow, memory management, process and thread handling, concurrency (locks, mutexes, semaphores), scheduling, and IPC. For coding, focus on linked list problems if you’re short on time, be confident with C pointers, and know how to explain the function stack. It’s also worth reviewing circular queues and the producer-consumer problem.",
+          "score": 6
+        },
+        {
+          "body": "\"Embedded, C, OS principles\" and \"LeetCode\" aren't mutually exclusive",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Interview Advice - Nvidia Senior Data Engineer",
+      "body": "Anyone been through DE interview process at Nvidia? Any advice for prep in general? Do they ask Leetcode questions? Thank you for any suggestions! \n\nOne resource I found online - https://www.interviewquery.com/interview-guides/nvidia-data-engineer",
+      "subreddit": "jobs",
+      "score": 0,
+      "url": "https://reddit.com/r/jobs/comments/1lrhuyv/interview_advice_nvidia_senior_data_engineer/",
+      "comments": []
+    },
+    {
+      "title": "Reid Hoffman says your degree doesn’t matter as much anymore, AI skills and adaptability do. Do you see that in today’s job market?",
+      "body": "Reid Hoffman (LinkedIn cofounder) recently said that what you studied in college isn’t the main factor in landing a job anymore. He argued that employers care more about whether you can adapt quickly, pick up new tools (especially AI), and build strong connections.\n\nNvidia’s Jensen Huang's famous line also stuck with me: *“You won’t lose your job to an AI, but to someone who uses AI.”*\n\nCurious how this lines up with what people here are experiencing:\n\n* Have employers cared much about your major or specific degree?\n* Are you seeing more emphasis on showing adaptability or AI tool use in applications/interviews?\n* If you’ve landed a role recently, what mattered more: your formal education, or your ability to show you can learn fast?\n\nWould love to hear what’s actually happening on the ground.",
+      "subreddit": "jobs",
+      "score": 72,
+      "url": "https://reddit.com/r/jobs/comments/1n7f59k/reid_hoffman_says_your_degree_doesnt_matter_as/",
+      "comments": [
+        {
+          "body": "The co-founder of LinkedIn can talk all he wants, but I promise that Carol in HR's resume parsing software is set to degree specific key words. ",
+          "score": 162
+        },
+        {
+          "body": "Just wait a bit and a different sentiment will be put forward. The AI bandwagon is so full, without much to substantiate the hype.",
+          "score": 37
+        },
+        {
+          "body": "Formal education will always be important in my field. Formal education does not mean someone can't learn and use AI, so why are they trying to pit the two against each other?\n\nBecause someone does not want you to get an education. And you should question why they don't want you educated.",
+          "score": 19
+        },
+        {
+          "body": "He can say whatever the f he wants. Recruiters and HR disagree, and it’s their opinions that matter.",
+          "score": 12
+        },
+        {
+          "body": "\"Your degree doesn't matter anymore! what's *trendy* does though!\"\n\nPaired with\n\n\"It's *different* this time guys I promise!\"",
+          "score": 18
+        }
+      ]
+    },
+    {
+      "title": "What’s the best tech company to work for right now?",
+      "body": "I work at one of the tech giants. I see all these companies laid off or laying off their employees. What would be a comparatively good company to be at right now? ",
+      "subreddit": "jobs",
+      "score": 8,
+      "url": "https://reddit.com/r/jobs/comments/1e12e46/whats_the_best_tech_company_to_work_for_right_now/",
+      "comments": [
+        {
+          "body": "I don’t need a tech giant salary so I work for a very boring insurance company. It’s very stable with excellent work life balance and I’m still making 6 figures in a low cost of living area.",
+          "score": 13
+        },
+        {
+          "body": "I interviewed with Anthropic and they made a good impression.",
+          "score": 2
+        },
+        {
+          "body": "NVIDIA",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "title": "Job interview",
+      "body": "So I have this job interview soon and it’s a help desk interview and they mostly use Linux, I have read so much and I don’t even know what to cover anymore, it’s just too wide, please do anyhow have any suggestions like questions that might be asked…I know they use Ubuntu a lot, they also use Nvidia",
+      "subreddit": "jobs",
+      "score": 2,
+      "url": "https://reddit.com/r/jobs/comments/q20xm0/job_interview/",
+      "comments": [
+        {
+          "body": "Hello, thank you for posting to r/Jobs! \n\nWe just wanted to let you know that we have a new [discord server, come join the chat!](https://discord.gg/TY6ErXV)\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/jobs) if you have any questions or concerns.*",
+          "score": 1
+        },
+        {
+          "body": "I would expect questions like why you're interested in this role, your strengths, weakness, how you prioritize, why you're leaving your current role, etc... maybe asking how you receive feedback or criticism best,",
+          "score": 4
+        },
+        {
+          "body": "They might ask you to describe Linux.\n\nI would watch this video [https://www.youtube.com/watch?v=I8ik8pDTgJE](https://www.youtube.com/watch?v=I8ik8pDTgJE) and be able to describe Linux like the person in the video.",
+          "score": 3
+        },
+        {
+          "body": "Ubuntu is just a distribution of Linux and Nvidia is a supplier of graphics.  Do you actually have the job description? I mean Linux is not something you can learn overnight.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "NVIDIA Interview Result",
+      "body": "Hi! I had a panel interview with five people mid-December but haven’t heard back from the recruiter or the hiring manager yet. I followed up earlier this week but still haven’t received a response. How long does NVIDIA usually take after the panel to provide a decision? Out of the six total interviews, five went amazingly well, and one was average.",
+      "subreddit": "interviews",
+      "score": 2,
+      "url": "https://reddit.com/r/interviews/comments/1hwx1wy/nvidia_interview_result/",
+      "comments": [
+        {
+          "body": "I've been in similar situations before and I can totally understand your anxiety. NVIDIA's interview process can be quite competitive, but it's not uncommon for them to take their time to deliberate on candidates.\n\n Generally, NVIDIA's hiring timeline can vary depending on the role and team, but from what I've observed, panel interviews usually get back to you within 2-4 weeks after the meeting. However, this timeframe can stretch up to 6 weeks or even longer in some cases. It's possible that they're still reviewing your performance and comparing it with other candidates.\n\nOne thing that helped me when I was in a similar spot was using an AI tool that listens to interview questions and provides suggested responses in real time. If you're interested, I can share it with you. Don't worry if this process takes longer than expected - stay positive and keep working on your skills. You got this!",
+          "score": 2
+        },
+        {
+          "body": "try doing questions on [www.pastinterviews.com](http://www.pastinterviews.com)",
+          "score": 2
+        },
+        {
+          "body": "Hey OP, did you hear back from Nvidia? I am also in similar boat.",
+          "score": 1
+        },
+        {
+          "body": "Hey there , how long did it take for them to send out rejection?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "nvidia virtual interview ...",
+      "body": "I had a virtual interview with NVIDIA spread over two days, on October 1st and 2nd. The recruiter told me she would get back to me in two days, but it’s been more than six business days now and I haven’t heard back. Should I still keep my hopes up, or just move on?\n\nThe hiring manager did mention that there was 1 more candidate left to be interviewed, and that they would make a decision after that — so I’m not sure what’s going on. My Workday status still says “In Progress.”\n\nUpdate : Got the reply from recruiter that it was very positive and the delay was because the hiring manager was ooo.  will have a call for comp expectations.. ",
+      "subreddit": "interviews",
+      "score": 2,
+      "url": "https://reddit.com/r/interviews/comments/1o3o4j5/nvidia_virtual_interview/",
+      "comments": [
+        {
+          "body": "Always move on and keep applying. It stings when you feel like the opportunity is so close and you're left hanging.",
+          "score": 1
+        },
+        {
+          "body": "Which position is it? Is it based in the UK?",
+          "score": 1
+        },
+        {
+          "body": "It was new college grade role?",
+          "score": 1
+        },
+        {
+          "body": "Which position is it? What was the interview structure like?",
+          "score": 1
+        },
+        {
+          "body": "Hey op , thanks for posting .. \nhow was the technical round structured can you go over that please ?",
+          "score": 1
+        },
+        {
+          "body": "I aslo have interview for infra role. Can i know tour update now",
+          "score": 1
+        },
+        {
+          "body": "Any news?\nRole infrastructure architect/cloud/AI Agents?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "NVIDIA field application engineer interview-CONFUSED what to prep",
+      "body": "What the title says, recruiter told me to prep my own projects I did in past and brush up on JD fundamentals, but would help if the broader community can chime in, the JD below:\n\nHi I am trying to prep for an interview in the upcoming weeks, any advice would be helpful,\n\nHere's the rough JD:\n\nEngage customers and develop a keen understanding of their system architectures, challenges, objectives, and technical needs – and help to define highly valued solutions that meet these needs\n\nBe the trusted advisor for our customers, help them with our Jetson SDK and edge AI inference supporting our sales partners and customers\n\nWork closely with the NVIDIA applications and engineering team to ensure customers are successful in developing their embedded systems, answer their questions directly, via email, and on the NVIDIA developer forum\n\nProvide technical and sales training to ecosystem and channel partners\n\nEstablish trusted relationships and communication channels with internal teams",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1p9xdb6/nvidia_field_application_engineer/",
+      "comments": [
+        {
+          "body": "Sorry, your submission has been automatically removed for botlike behavior.\n\nPlease contact the moderators if you think this is a mistake.\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/interviews) if you have any questions or concerns.*",
+          "score": 1
+        },
+        {
+          "body": "[removed]",
+          "score": 1
+        },
+        {
+          "body": "you can try past interview questions on - [www.pastinterviews.com](http://www.pastinterviews.com)",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "NVIDIA firmware intern interview tips",
+      "body": "Hey folks!\n\nI’ve got an interview coming up with NVIDIA for a Firmware/System Software role. They sent me a HackerRank link for the technical phone screen plus another 60-min technical round.\n\nAnyone here who’s interviewed for these roles - what was the process like? Mostly C/C++? Embedded/RTOS stuff? Bit manipulation? Or more general DSA?\n\nAny tips would really help. Thanks!!",
+      "subreddit": "interviews",
+      "score": 2,
+      "url": "https://reddit.com/r/interviews/comments/1p1tqot/nvidia_firmware_intern_interview_tips/",
+      "comments": [
+        {
+          "body": "For the NVIDIA firmware intern screen, expect C or C++ heavy questions with bit ops, pointers, arrays/strings, and a couple medium DSA problems, then a deeper round on embedded basics like interrupts, endianness, memory alignment, simple RTOS concepts, and debugging small C snippets. I got hit with bit masks, pointer arithmetic, and a quick bug hunt in C. What helped me: I drilled bit manipulation and wrote a tiny circular buffer and ISR style callback on paper, then practiced explaining mutex vs spinlock at a high level. I ran timed mocks with Beyz coding assistant using prompts from IQB interview question bank, and kept answers to about 90 seconds so I didn’t ramble. Good luck, you’re on the right track.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Nvidia interview experience",
+      "body": "Hey folks, I’ve got an interview coming up with Nvidia’s networking software team in California in a couple of weeks. I’ve been in the networking/embedded domain for over 15 years, mostly working in C, and honestly, I haven’t done many interviews in my career, just two companies so far, and both were very domain focused with minimal algorithmic stuff.\n\nThis time around, I’m trying to get a better sense of what to expect. I’ve heard Nvidia interviews can be more structured, and I’m brushing up on problem-solving with things like the NeetCode 75. But I’d love to hear from anyone who’s recently interviewed with their networking or embedded teams, what kind of questions came up? Was it heavy on LeetCode style problems, or more systems and low-level programming?\n\nAny tips, prep ideas, or just general insights would be super helpful. Thanks in advance!",
+      "subreddit": "interviews",
+      "score": 3,
+      "url": "https://reddit.com/r/interviews/comments/1ogcys8/nvidia_interview_experience/",
+      "comments": [
+        {
+          "body": "On your question about what to expect, my Nvidia screen for a networking team was a mix of 1 or 2 medium algo questions and a lot of C systems depth. I got pointers and memory layout, cache effects, endianness, bit ops, thread safety, producer consumer, TCP vs UDP tradeoffs, and a quick walk through of a packet path. What helped me was coding C in a plain editor and implementing a ring buffer and a simple allocator, then doing timed mocks with Beyz coding assistant using prompts from the IQB interview question bank. Keep behavioral answers around 90 seconds with STAR. You’ll be fine if you show solid reasoning and careful C.",
+          "score": 3
+        },
+        {
+          "body": "Any updates after the screening?",
+          "score": 1
+        },
+        {
+          "body": "you can try past interview questions on - [www.pastinterviews.com](http://www.pastinterviews.com)",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Has anyone done the 6-hour virtual interview at NVIDIA",
+      "body": "I was recently asked to schedule a 6-hour interview window after my Second technical round \nDoes anyone know:\nHow that 6-hour session is structured (e.g., multiple 45–60 min rounds with breaks)?\n\nHow technical or team-focused each round gets?\nAny prep tips or recent experiences that could help?",
+      "subreddit": "interviews",
+      "score": 5,
+      "url": "https://reddit.com/r/interviews/comments/1nz57zn/has_anyone_done_the_6hour_virtual_interview_at/",
+      "comments": [
+        {
+          "body": "They are super picky now , be prepared to perform 110% to be selected",
+          "score": 1
+        },
+        {
+          "body": "I did it in January, it was over 2 days and only 2 interviews were consecutive. They all went really smoothly, felt like 99.5% I got the job. I didn’t get an offer. Just set your expectations, especially with level of competition these days.",
+          "score": 1
+        },
+        {
+          "body": "For which role.?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "What’s asked in NVIDIA Senior Automation Engineer interviews? Looking for recent experiences",
+      "body": "Hi everyone,  \nI’m preparing for interviews for a **Senior Automation Engineer** role at **NVIDIA** (infrastructure/network automation side), and I’m trying to understand what the current interview process looks like.\n\nIf you’ve interviewed for (or know someone who interviewed for) roles like:\n\n* **Senior Automation Engineer**\n* **Infrastructure Engineer**\n* **Network Automation Engineer**\n* **DevOps/SRE (Infra heavy)**\n* **Platform Automation**\n\n…I’d really appreciate any insights.\n\n# I’m trying to find out:\n\n* What the **coding round** looks like (Python? APIs? multithreading? parsing tasks?)\n* Whether they actually ask **LeetCode-style DSA** or more real-world automation problems\n* What the **infra/system design** round focuses on\n* Any **networking questions** \n* Tools they expect (Terraform, Ansible, Jenkins, Kubernetes, CI/CD, monitoring, etc.)\n* Difficulty level of the **on-site/panel**\n* What the **behavioral round** emphasizes at the senior level",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1p6vxqt/whats_asked_in_nvidia_senior_automation_engineer/",
+      "comments": [
+        {
+          "body": "[deleted]",
+          "score": 1
+        },
+        {
+          "body": "you can try past interview questions on - [www.pastinterviews.com](http://www.pastinterviews.com)",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "NVIDIA software engineer interview",
+      "body": "Has anyone been or is currently in process with NVIDIA NVLINK team for software engineer role?\n\nI have an interview scheduled but the recruiter is not helpful or responsive at all. I am looking for some pointers on what to expect.\n\nAny general pointers on interview process with NVIDIA are also appreciated.\n\n  \nThanks!",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1ox2rzn/nvidia_software_engineer_interview/",
+      "comments": [
+        {
+          "body": "you can try past interview questions on - [www.pastinterviews.com](http://www.pastinterviews.com)",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Nvidia cloud engineer interview",
+      "body": "I have nvidia cloud software engineer coding interview scheduled next week. Does anyone know if it will be a leetcode style question or real time use case situation?",
+      "subreddit": "interviews",
+      "score": 0,
+      "url": "https://reddit.com/r/interviews/comments/1o9jxir/nvidia_cloud_engineer_interview/",
+      "comments": [
+        {
+          "body": "From what I've seen with nvidia cloud roles, they tend to mix leetcode with system design components - not pure leetcode like other companies. Had a friend go through it last year and they got asked to implement a distributed cache with specific performance requirements. I work at prepfully and we've had a few nvidia engineers come through as coaches. They all mention the emphasis on parallel computing concepts and GPU optimization knowledge during their interviews, even for cloud positions. Might be worth brushing up on cuda basics if you haven't already.",
+          "score": 2
+        },
+        {
+          "body": "I have an interview coming up for the same role. What kind of questions did they ask? Could you please share that? Thank you :) u/Shailly8787 u/Independent_Echo6597",
+          "score": 1
+        },
+        {
+          "body": "I applied for intern in cloud security at nvidia. Would love to chat on the interview prep",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "NVIDIA Compiler Engineer Interview Help",
+      "body": "I had my first round with NVIDIA for a FT compiler engineer position with an engineer and I moved on to the next round. I've asked my recruiter what to expect in the future rounds but they just seem to send a copy-paste email saying they don't know but just be ready to talk about your experience and stuff. I never had a recruiter round so I'm not really sure what the process is like.\n\nAny tips on how I should spend my time preparing for the next rounds? How many rounds does NVIDIA typically have? In terms of coding, should I spend more time doing LC problems or more compiler-related problems with graphs? Thanks!",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1o44hgi/nvidia_compiler_engineer_interview_help/",
+      "comments": [
+        {
+          "body": "I don't know about Nvidia in particular. But recruiters are usually just gathering your work history and aptitude to relay to the hiring manager and to better coordinate your next round.",
+          "score": 1
+        },
+        {
+          "body": "you can try past interview questions on - [www.pastinterviews.com](http://www.pastinterviews.com)",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "NVIDIA interview FT role tips",
+      "body": "Have an Nvidia interview for Full time role\n\nC++ for 2 hours\n\n2 questions\n\nCan someone please walk me through what I can expect?\n\nIt's a 2 hr interview in c++.   \n\n This is the JD:\nWhat you’ll be doing:\n\nDesign, develop and maintain our GPU &amp; SOC Performance profiling SDK.\n\nDevelop, validate and debug power measurement features from emulation to silicon.\nWork closely with QA to develop automated tests, ensuring the quality of the product.\nHelp internal and external customers build their performance and power profiling tools using our SDK.\n\nWhat we need to see:\n\n\nStrong programming and debugging ability in C and C++.\nSolid understanding of hardware pipeline concepts\n\n",
+      "subreddit": "interviews",
+      "score": 2,
+      "url": "https://reddit.com/r/interviews/comments/1ooltde/nvidia_interview_ft_role_tips/",
+      "comments": [
+        {
+          "body": "This sounds like silicon validation/emulation engineer type of interview\n\nCheck hardware-interview.com since they got some good nvidia interview questions posted",
+          "score": 1
+        },
+        {
+          "body": "you can try past interview questions on - [www.pastinterviews.com](http://www.pastinterviews.com)",
+          "score": 1
+        },
+        {
+          "body": "You’ll likely see one C++ DS algo question and one low level debugging or performance scenario in a 2 hr slot. In mine, they cared about pointer safety, const correctness, RAII, move semantics, plus reasoning about caches, pipelines, atomics and profiling counters. Expect to write clean code, add a couple tests, then discuss bottlenecks and tradeoffs. What helped me was practicing narrating while coding and doing a quick pass to add asserts and simple benchmarks. I used timed mocks in Beyz coding assistant with prompts from the IQB interview question bank, which forced me to optimize and explain. Imo review bit ops, memory layout, and race conditions. Good luck!",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "title": "What should I expect of Object Oriented Programming interview at Nvidia?",
+      "body": "Would methods of classes need to do something about dsa/leetcode kind of ?",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1ofwtww/what_should_i_expect_of_object_oriented/",
+      "comments": [
+        {
+          "body": "This is not the sub to post this question. I suggest you google research Object Oriented Programming Nvidia or go to r/leetcode and r/DSALeetCode\n\nYou won't get your coding questions here as none of us will be able to provide you with accurate info.",
+          "score": 1
+        },
+        {
+          "body": "you can try past interview questions on - [www.pastinterviews.com](http://www.pastinterviews.com)",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "NVIDIA - Sr AI Infra Engineer Interview",
+      "body": "Hi, I have an interview coming up for Sr AI infra engineer for NVIDIA. Did anyone interviewed for such positions recently in NVIDIA? If so, how was your experience and what type of questions they got?\n\nTIA",
+      "subreddit": "interviews",
+      "score": 0,
+      "url": "https://reddit.com/r/interviews/comments/1nl9m9u/nvidia_sr_ai_infra_engineer_interview/",
+      "comments": [
+        {
+          "body": "You'll face deep dives into distributed systems, GPU architecture, containerization with Docker/Kubernetes, and AI/ML pipeline optimization. Expect questions about CUDA programming, memory management, network topology for multi-GPU setups, and how you'd design scalable training infrastructure for large language models. They love asking about real-world scenarios like debugging performance bottlenecks in distributed training or optimizing data throughput across clusters.\n\nThe behavioral portion focuses heavily on your experience with complex technical projects and how you've solved infrastructure challenges at scale. They want to hear specific examples of times you've improved system performance, dealt with hardware failures during critical training runs, or collaborated with research teams to deploy models efficiently. The interviewers are sharp and will probe deeply into your technical decisions, so be ready to defend your architectural choices and discuss trade-offs you've made in previous roles. I'm on the team behind [interviews.chat](http://interviews.chat), which can help you practice articulating these complex technical concepts clearly and handle the pressure of explaining your thought process in real-time during challenging infrastructure design questions.",
+          "score": 2
+        },
+        {
+          "body": "How was your experience? Did you pass?",
+          "score": 1
+        },
+        {
+          "body": "Hey curious how your experience was",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Nvidia interview guide",
+      "body": "Hello All,\n\nI have 13yr exp in embedded sw role and looking at nvidia for similar role.\n\nCould anyone provide resourw, stacks, etc which I can start prep for embedded or firmware role.\n\n",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1nwpjjx/nvidia_interview_guide/",
+      "comments": [
+        {
+          "body": "you can try past interview questions on - [www.pastinterviews.com](http://www.pastinterviews.com)",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "What to expect in NVIDIA's 2-hour User Space Engineering Interview? Any tips or preparation advice?",
+      "body": "Hi everyone,\n\nI recently passed the take-home assignment for the S**enior Software Engineer, User Space** role at NVIDIA and have a **2-hour interview scheduled** soon. I’m trying to get a better understanding of what to expect during this interview and how best to prepare.\n\nThe role involves DPDK PMD drivers and DOCA flow development and while I have solid backend and C systems knowledge, I’d really appreciate hearing from anyone who has gone through this interview loop.\n\n* What topics did they focus on during the interview (e.g., C/C++, memory management, multithreading, kernel/user space interaction, networking)?\n* Was it more system design, coding, or low-level debugging?\n* Any specific areas you'd recommend brushing up on?\n* What's the overall process like after the technical interview?\n\nWould love to hear your experience or any pointers. thanks in advance!",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1mhgx62/what_to_expect_in_nvidias_2hour_user_space/",
+      "comments": [
+        {
+          "body": "I was an engineer at NVIDIA prior.\n\nFor a Senior Software Engineer role focused on DPDK PMD drivers and DOCA flow, expect a mix of deep systems questions and coding challenges. They're likely to emphasize C and C++ proficiency, memory management (pointers, buffer handling), multithreading (race conditions, synchronization), and kernel vs user space concepts — especially since you're working close to hardware. Networking fundamentals in packet processing contexts might come up too.\n\nThe interview probably balances system design with low-level debugging, so brush up on your approach to troubleshooting drivers or performance issues. Practice explaining your thought process clearly.\n\nSpecific prep tips: review lock mechanisms, ring buffer design, zero-copy techniques, and relevant debugging tools (like gdb, perf). Also, prepare to discuss past projects involving high-performance network processing.\n\nAfter the technical round, typically there’s a feedback phase followed by HR or culture fit interviews.\n\nFor focused practice, consider tools that simulate technical interviews with customized question sets and mock sessions adapting to your skill level—helps create a strategic game plan for such layered interviews.",
+          "score": 2
+        },
+        {
+          "body": "[removed]",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "NVIDIA interview timeline",
+      "body": "Posting for a friend. Does anyone have experience with the company’s interview process? It seems that some folks got offers within 3 days and others waited a month. My friends been waiting for 2.5 weeks now and is interviewing for a different role. 1. The first role says in progress and is an open req and 2. For the second role do managers know what role candidates are in the running for and does that change the process a bit? Any input appreciated ",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1n8s6zn/nvidia_interview_timeline/",
+      "comments": [
+        {
+          "body": "you can try past interview questions on - [www.pastinterviews.com](http://www.pastinterviews.com)",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Requests for interview tips on nvidia senior software engineer",
+      "body": "Hi, I'm here to ask some advices on nvidia senior software engineer position interview.\n\nTo introduce myself, I'm a ph.d student who is about to graduate in the university outside US (which means I do not have a eligible visa to work on US). \n\nBut I wanna work on the US, so was actively applying U.S. tech companies, but find that most of company does not want to proceed my case.. Maybe because of the visa issues.\n\nFortunately, nvidia mailed me to proceed the interview as a senior software engineer position. While the job description seems to fit with my research during ph.d, but I'm worrying about leetcode test and technical questions since I've never prepared such kinds of interview before. \n\n  \nSo here's my questions:\n\n1) How does the interview proceed? If the interview takes 1 hours, can I use time to introduce my research works or projects? or just answering the pre-decided questions like leetcode?\n\n2) Since this seems really big chance for me, I wanna try my best. I have about a week to prepare, so are there good tips to prepare the interviews for the remaining times? \n\n  \nThanks in advance!\n\n",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1lw66sz/requests_for_interview_tips_on_nvidia_senior/",
+      "comments": [
+        {
+          "body": "Wow, i have no advice on the interview there but i do wish you all the best in getting it. Would be huge for your career if you did",
+          "score": 1
+        },
+        {
+          "body": "A week isn't much time to master leetcode if you've never done it before, but your PhD research experience is actually your strongest asset here. Nvidia interviews typically follow a structured format: expect 1-2 rounds of technical coding questions (medium to hard leetcode problems), followed by deep dives into your research and projects. The coding portion will likely take up the first 30-45 minutes, so you need to nail at least one problem to get to showcase your research work.\n\nFocus your preparation on medium-level dynamic programming, graph algorithms, and system design basics since those align well with GPU computing concepts. More importantly, prepare to articulate how your PhD research translates to real-world engineering problems at Nvidia - they care more about your problem-solving approach and domain expertise than perfect coding syntax. Practice explaining your research in simple terms and connecting it to Nvidia's business areas like AI, graphics, or autonomous vehicles. The visa sponsorship conversation will come up, so be ready to demonstrate why you're worth the investment by showing deep technical knowledge that's hard to find elsewhere.\n\nI'm on the team that built [interview copilot](http://interviews.chat), and it's designed exactly for situations like this where you need to navigate complex technical questions and present your background effectively under pressure.",
+          "score": 1
+        },
+        {
+          "body": "Hey can you please give us an update on? \nHow did the interview go ?",
+          "score": 1
+        },
+        {
+          "body": "you can try past interview questions on - [www.pastinterviews.com](http://www.pastinterviews.com)",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "NVIDIA Developer Technology Engineer Interview",
+      "body": "I have an interview for the **Developer Technology Engineer (Public Sector)** role at NVIDIA next week.\n\nFor those who’ve been through it or know about it — what should I expect and focus on? **Please help me with this!!**\n\n* What topics to prepare? CUDA, C++, performance tuning, math?\n* Is it coding-heavy or more project/conceptual?\n* Any specific areas they tend to ask about?\n\nWould really appreciate any tips on how to prep smart. Thanks in advance!",
+      "subreddit": "interviews",
+      "score": 2,
+      "url": "https://reddit.com/r/interviews/comments/1jkf90h/nvidia_developer_technology_engineer_interview/",
+      "comments": [
+        {
+          "body": "From the sound of it, it seems like a role that enables developers. Have you asked the recruiter or checked out the JD in detail?",
+          "score": 1
+        },
+        {
+          "body": "having worked with folks interviewing for nvidia tech roles before, here's what i know about the dev tech engineer position:\n\ntechnical focus areas usually include:\n\n* strong emphasis on cuda programming n optimization\n* c++ fundamentals esp memory mgmt n threading\n* performance analysis n profiling tools\n* graphics pipeline knowledge (not super deep but good to know)\n\ninterview style tends to be mixed:\n\n* usually 1-2 coding rounds (more practical than leetcode style)\n* system design/architecture discussion\n* lots of focus on perf optimization scenarios\n* behavioral stuff around working w/ engineers n customers\n\ntypical questions might include:\n\n* debugging parallel processing bottlenecks\n* optimizing gpu memory usage\n* cuda kernel optimization scenarios\n* practical troubleshooting cases\n\npro tips:\n\n* brush up on latest cuda features n best practices\n* review common gpu perf optimization techniques\n* be ready to explain past projects w/ technical depth\n* practice explaining complex concepts clearly\n\npublic sector focus might mean extra emphasis on govt/regulated environments but core technical expectations stay similar\n\nhope this helps u prep!",
+          "score": 1
+        },
+        {
+          "body": "You'll want to focus heavily on CUDA, C++, and performance optimization techniques. These are core competencies for the role. The interview will likely be a mix of coding challenges and conceptual questions, with an emphasis on how you'd approach real-world problems in GPU computing. Expect deep dives into parallel programming concepts, memory management, and algorithm optimization for GPU architectures.\n\nBe prepared to discuss specific projects you've worked on that demonstrate your expertise in these areas. They may present you with scenarios where you need to explain how you'd optimize a particular algorithm for GPU execution or troubleshoot performance bottlenecks. Don't be surprised if they ask about your experience with other GPU frameworks or APIs beyond CUDA, as well as your familiarity with different NVIDIA hardware platforms. If you're feeling unsure about any of these topics, you might want to check out [AI interview](http://interviews.chat) copilot. I'm on the team that created it, and it's designed to help you navigate tricky interview questions like these and ace your job interviews.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "First NVIDIA Interview - ML Platform Engineer (60-Min) Prep Advice Needed",
+      "body": "Hi everyone,\n\nI have a 60-minute first interview next week for an ML Platform Engineer role at NVIDIA, but I haven’t received any details about the format yet.\n\nThe role focuses on building and scaling ML infrastructure—distributed GPU clusters, orchestration, automation, and performance tuning for large training and inference workloads.\n\nFor context, I have 3+ years of experience in ML engineering and distributed systems.\n\nFor anyone who’s been through their process or has insight into the role:\n\n* Is the interview more coding-heavy, systems design, or conceptual discussions?\n* How deep should I go into CUDA, distributed training (NCCL, Horovod, data/model parallelism), and performance tuning?\n* Should I spend extra prep time on Kubernetes, Slurm, Kubeflow, Ray, or Terraform?\n* Any common questions or topics NVIDIA tends to emphasize?\n\nAny tips or pointers on how to prep smart for this round would be hugely appreciated. Thanks in advance!",
+      "subreddit": "interviews",
+      "score": 3,
+      "url": "https://reddit.com/r/interviews/comments/1n1zzfj/first_nvidia_interview_ml_platform_engineer_60min/",
+      "comments": [
+        {
+          "body": "The interviews typically blend systems design with deep technical discussions rather than heavy coding challenges. You'll likely face questions about scaling distributed training workloads, handling GPU resource allocation, and designing fault-tolerant ML pipelines. They love diving into the nitty-gritty of how you'd architect systems to handle massive model training across hundreds of GPUs, so be ready to discuss trade-offs between different parallelization strategies and how you'd debug performance bottlenecks in distributed environments.\n\nFocus your prep on CUDA fundamentals and distributed training concepts like gradient synchronization and memory optimization - these are bread and butter topics they'll expect you to know cold. Kubernetes and container orchestration will definitely come up since that's how most ML platforms manage resources at scale. The interviewers will probably throw scenarios at you about handling node failures during long training runs or optimizing data loading pipelines, so think through real-world problems you've solved and be specific about the tools and techniques you used. I work on [interview AI](http://interviews.chat), which can help you practice articulating these complex technical concepts clearly and handle those curveball questions about edge cases in distributed systems.",
+          "score": 2
+        },
+        {
+          "body": "I interviewed with NVIDIA (different team, but still infra-focused) and can share what I ran into + what friends told me. First round was a mix: ~30 mins technical, ~20 mins systems/infra discussion, ~10 mins behavioral. They want to see if you can not only code but also think like someone who builds reliable, scalable infra for ML teams.  \n\nWhat to brush up on:  \n- Core coding: Python + DS/Algo level at “LeetCode mediums,” but framed around infra (e.g. scheduling, resource allocation).  \n- Systems design: how you’d build/scale GPU clusters, handle distributed training bottlenecks, data pipeline throughput. Kubernetes &amp; Slurm came up for me.  \n- Performance tuning: know common GPU/CPU bottlenecks, basics of CUDA memory vs compute trade-offs. Don’t stress about writing CUDA kernels unless your JD explicitly says it, but be able to talk about NCCL, Horovod, data parallelism at a conceptual level.  \n- Infra as code: Terraform/Kubeflow/Ray—have a high-level story on when/why you’d use them.  \n\nAnd don’t sleep on behavioral. I used Beyz coding helper to run mock “tell me about a time…” sessions so I didn’t ramble when asked about stakeholder conflict or cross-team work. Honestly, sounding clear and structured helped as much as nailing the tech.  \n\nTL;DR: Expect a blend. Prep coding, infra concepts, and case-style “how would you build X” scenarios. Then practice articulating your thought process out loud—you’ll look a lot sharper when you’re walking them through it.",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Anyone experienced with Senior Deep Learning interview at Nvidia?",
+      "body": "Someone fered me in nvidia and they auto applied to a role and put me an interview next week. The interview is for a Senior Deep Learning role, mosttly for inference.\n\nThe recruiter didn't tell me if it was going to be leetcode exercises similar to leetcode. Or more related to deep learning.\n\nI saw in the recruites linkedin profile: ﻿﻿Conducting algorithmic and problem solving pre-screening interviews for engineering position\n\nSo I don't know what to prepare",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1nqzdx6/anyone_experienced_with_senior_deep_learning/",
+      "comments": [
+        {
+          "body": "you can try past interview questions on - [www.pastinterviews.com](http://www.pastinterviews.com)",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Nvidia Interview Help",
+      "body": "I’m interviewing next week for the Senior Deep Learning Algorithms Engineer role.  \nBrief background: 5 years in DL; Target (real-time inference with TensorRT &amp; Triton, vLLM), previously Amazon Search relevance (S-BERT/LLMs). I’m strengthening GPU architecture (modal glossary), CUDA (from my git repo have some basic CUDA concepts and kernels), and TensorRT-LLM (going through examples from github) prep.\n\nIf you have a moment, could you share:\n\n1. How the rounds are usually structured (coding, CUDA/perf tuning, system design)?\n2. Topics that get the most depth (e.g., memory hierarchy, occupancy, kernel optimization, Tensor Cores)?\n3. Any do’s/don’ts you wish candidates knew?\n4. What topics to revise quickly in DSA?",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1naki27/nvidia_interview_help/",
+      "comments": [
+        {
+          "body": "Expect multiple rounds including coding challenges that focus heavily on CUDA kernel optimization, memory coalescing, and shared memory usage patterns. They'll likely give you a kernel to optimize and ask you to walk through your thought process step by step. System design rounds often center around distributed training architectures, model serving pipelines, and how to handle memory constraints with large models. The depth they go into on memory hierarchy is intense - know your L1/L2 cache behaviors, global memory access patterns, and how different memory types affect occupancy.\n\nFor the technical deep dives, they love asking about Tensor Core utilization, mixed precision training implications, and how to debug performance bottlenecks in real deployment scenarios. Your TensorRT and Triton experience will definitely come up, so be ready to discuss specific optimization techniques you've used and their trade-offs. On the algorithms side, expect questions about transformer architectures, attention mechanisms, and how different model architectures map to GPU compute patterns. For DSA, focus on parallel algorithms, reduction operations, and anything related to tree structures since they often appear in GPU algorithm design. The interviewers are genuinely brilliant and will catch any hand-waving, so make sure you can explain the \"why\" behind every optimization choice.\n\nI'm actually on the team behind [interviews.chat](http://interviews.chat), which helps candidates practice these kinds of technical deep-dives and provides real-time guidance for handling complex technical questions during interviews.",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "title": "Interview with hiring manager at NVIDIA Next week - Looking for insights from folks who have been through it!",
+      "body": "Hello Everyone! I got an email from a recruiter for the Customer Success Program Manager Automotive role, and she directly scheduled a 30-minute interview with the hiring manager early next week. I am hoping to get some insights from anyone who's interviewed with them recently or has experience in a similar position. \n\nHere is the job description:\n\nDefine program schedules, achievements and work based on the customer roadmap and requirements\n\nManage the progress of the defined program landmarks and define the countermeasures to keep them in case of deviations\n\nTranslate customer requirements into specific tasks for all functional areas and actively collect, track and drive all issues to closure\n\nCommunicate the issue status to the customer and internal teams located on different geographical zones\n\nIdentify and accurately represent the priority of issues and raise them appropriately\n\nWork closely with the engineering, quality, logistics and the Sales team to resolve technical and logistic issues\n\nRegularly communicate the program status and key issues to customer and Nvidia management\n\nDrive and manage on time execution of the programs\n\nDevelop a close working relationship with the customers’ development teams and be the first point of contact for major program issues",
+      "subreddit": "interviews",
+      "score": 2,
+      "url": "https://reddit.com/r/interviews/comments/1lvmkxf/interview_with_hiring_manager_at_nvidia_next_week/",
+      "comments": [
+        {
+          "body": "treat this like a technical-relationship hybrid role  \nthey’re not just hiring a project scheduler  \nthey want someone who can herd engineers, calm clients, and still speak fluent tech\n\nwhat you need to prep:\n\n1. **a clean, structured example** of a messy cross-functional project you drove focus on conflict, shifting priorities, and how you kept momentum\n2. **how you handle customer freakouts** show empathy without being a pushover talk through how you manage expectations when engineering slips or specs change\n3. **your framework for managing ambiguity** they want someone who doesn’t wait for answers, but creates structure fast\n4. **basic NVIDIA homework** know their current automotive partnerships (think Mercedes, Hyundai, etc), any big DRIVE platform updates and *why* you're excited about this specific corner of the company—not just “AI is cool”\n\n30 min = chemistry test  \nbe confident, clear, and low-maintenance  \nthey’ll assume your execution chops based on how you *communicate*\n\n[**NoFluffWisdom Newsletter**](https://NoFluffWisdom.com/Subscribe) has some strong takes on crushing hybrid roles like this—tight systems, real clarity under pressure, worth a skim",
+          "score": 1
+        },
+        {
+          "body": "The hiring manager will likely focus heavily on your ability to handle complex, multi-stakeholder situations since you'll be the bridge between customers and internal teams across different time zones. Expect scenario-based questions about managing conflicting priorities, dealing with technical issues you don't fully understand, and communicating bad news to high-stakes automotive clients. They'll want to see that you can stay calm under pressure and translate between technical teams and business stakeholders without losing critical details.\n\nThe automotive industry moves fast and has zero tolerance for delays, so they'll probably ask about times you've had to recover from project setbacks or manage aggressive timelines. Be ready to discuss specific examples of cross-functional collaboration, especially situations where you had to get engineering teams to prioritize your customer's issues over other work. NVIDIA values people who can think on their feet and aren't intimidated by technical complexity, even if they're not engineers themselves. The fact that they scheduled you directly with the hiring manager suggests they're moving quickly, which is typical for roles supporting major automotive partnerships.\n\nI'm on the team that built [interview prep AI](http://interviews.chat), and it's designed exactly for situations like this where you need to practice handling complex scenario questions and technical discussions that might come up in program management interviews.",
+          "score": 1
+        },
+        {
+          "body": "How did it go?",
+          "score": 1
+        },
+        {
+          "body": "Any update?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Interview Process for Sr Software Engineer - Software Networking - Nvidia",
+      "body": "Hi All, Anyone recently given an interview at NVIDIA for Sr Software Engineer position for Software networking. Please guide me on how to prepare for that.",
+      "subreddit": "interviews",
+      "score": 3,
+      "url": "https://reddit.com/r/interviews/comments/1mirtrp/interview_process_for_sr_software_engineer/",
+      "comments": [
+        {
+          "body": "nvidia interviews are deep tech with a side of problem solving under pressure  \nexpect heavy algo and system design questions  \nthey want you thinking fast, owning the problem, and explaining clearly\n\nfocus prep on:\n\n* data structures and algorithms on steroids\n* networking protocols and architecture basics\n* real-world system design scenarios (think scaling, fault tolerance)\n* behavioral stories that prove you *deliver* under fire\n\npractice whiteboarding or online code interviews  \ndon’t just memorize, drill explaining your thinking out loud\n\n[**NoFluffWisdom Newsletter**](https://NoFluffWisdom.com/Subscribe) has sharp breakdowns on technical prep and owning high-pressure interviews  \nworth a look if you want an edge",
+          "score": 1
+        },
+        {
+          "body": "You'll face multiple rounds including coding challenges focused on network protocols, distributed systems, and low-level programming concepts like memory management and performance optimization. They love asking about TCP/IP stack implementation, network driver development, and how you'd handle high-throughput data processing scenarios. The behavioral rounds will dig into your experience with complex technical projects and how you've solved challenging networking problems in production environments.\n\nThe key is demonstrating not just theoretical knowledge but practical experience with network programming, kernel-level development, and understanding of hardware-software interfaces since NVIDIA operates at that intersection. They'll expect you to articulate trade-offs in network architecture decisions and show familiarity with technologies like RDMA, InfiniBand, or GPU-accelerated networking if relevant to the role. Practice explaining complex technical concepts clearly since communication skills matter as much as technical depth at the senior level.\n\nI'm part of the team behind [interviews.chat](http://interviews.chat), which can help you practice articulating these complex networking concepts and prepare responses for the challenging technical questions NVIDIA is known for asking.",
+          "score": 1
+        },
+        {
+          "body": "you can try past interview questions on - [www.pastinterviews.com](http://www.pastinterviews.com)",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Interview Advice - Nvidia Senior Data Engineer",
+      "body": "Anyone been through DE interview process at Nvidia? Any advice for prep in general? Do they ask Leetcode questions? Thank you for any suggestions! \n\nOne resource I found online - https://www.interviewquery.com/interview-guides/nvidia-data-engineer",
+      "subreddit": "interviews",
+      "score": 2,
+      "url": "https://reddit.com/r/interviews/comments/1lrhvol/interview_advice_nvidia_senior_data_engineer/",
+      "comments": [
+        {
+          "body": "you can try past interview questions on - [www.pastinterviews.com](http://www.pastinterviews.com)",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

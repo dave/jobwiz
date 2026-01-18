@@ -1,0 +1,797 @@
+{
+  "company": "vmware",
+  "post_count": 38,
+  "exported_at": "2026-01-18T17:44:53.314Z",
+  "posts": [
+    {
+      "title": "Has anyone applied to any VMWare job postings and gotten an interview in the past year?",
+      "body": "I've been applying to a few jobs that VMWare keeps posting that I think I'm very qualified for and interested in, but I keep getting automated emails that my resume is no longer being considered for the role. I'm wondering if it's me or if they're not actually trying to fill these roles and just leaving them posted. Especially since I've landed lots of interviews for similar roles at other places and even switched roles recently.",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/q28evv/has_anyone_applied_to_any_vmware_job_postings_and/",
+      "comments": [
+        {
+          "body": "Try to get a referral. That's the only was I have been able to get some interviews at companies I like.",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Should I stay in remote cloud migrations role with high workload or take in person university cloud admin job that is more stable?",
+      "body": "I’m currently in a fully remote cloud migrations role making about $100k, juggling 2–8 client-facing migration projects at a time plus added goals like certifications, 80 hours of linkedinlearning video courses, scripting, support tickets, and presentations, all while the company has had layoffs for three consecutive years and a shrinking team. One coworker recently left to go to another internal department. They're not rehiring for the role, which idk if that is a red flag or not either? So, we're only down to 3 people to work on projects, so I'm guessing the goals and workload will be even more intense this year.\n\nMy manager recently said that a goal that I may have to do for this year that just for 1 goal I would have to these meetings on \"updates\" which would be a 30 minute meeting on Monday and Friday from 4 to 4:30 and a meeting on Friday from 1000 to 11:15. I would also have to do extra data engineering tickets in addition to the cloud migration projects, and get a Google Cloud Data Engineering cert.\n\nDo you think these goals are red flags or am I overreacting?\n\nI’m interviewing for a university cloud engineer role paying $80k–$100k that’s more internally focused on Microsoft 365, Azure AD, VMware, automation, and scripting, with fixed PTO and a more predictable workload. The other role is working in Google which is more niche. However, I'd have to go back in person 5 days a week and it's a 30 minute commute. I'm trying to decide whether it’s better to stay in a slightly higher paying, fully remote role with increasing workload and uncertainty, or move to a lower-paying, in-person role that may offer better long-term stability and work-life balance. \n\nIt's not guaranteed that the workload will be better with the university, but I doubt any role even in the private sector would require as much extra goals as my current job. With that said idk if it's worth giving up working remote?",
+      "subreddit": "cscareerquestions",
+      "score": 1,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1q7jswg/should_i_stay_in_remote_cloud_migrations_role/",
+      "comments": []
+    },
+    {
+      "title": "Daily Chat Thread - March 24, 2019",
+      "body": "Please use this thread to chat, have casual discussions, and ask casual questions. Moderation will be light, but don't be a jerk.\n\nThis thread is posted **every day at midnight PST**. Previous Daily Chat Threads can be found [here](https://www.reddit.com/r/cscareerquestions/search?q=Daily+Chat+Thread&amp;restrict_sr=on&amp;sort=new&amp;t=all).\n",
+      "subreddit": "cscareerquestions",
+      "score": 8,
+      "url": "https://reddit.com/r/cscareerquestions/comments/b4tl34/daily_chat_thread_march_24_2019/",
+      "comments": [
+        {
+          "body": "[deleted]",
+          "score": 3
+        },
+        {
+          "body": "Hi Reddit Friends! I made this site: [http://www.perks.guide/](http://www.perks.guide/) to compare big tech benefits. Wanted to share it and hopefully some people find it useful. Good luck job hunting :)",
+          "score": 6
+        }
+      ]
+    },
+    {
+      "title": "How to Get Interviews?",
+      "body": "Hello Reddit!\n\nHere's my situation. I'd like to get an internship with a decently sized company this summer.\n\nI went to my school's career fair and met with the Big 4, gave the recruiters my resumes, chatted and whatnot. I was told to apply online, but most of them did end up taking my resume as well (to \"put in the applicant pile\").\n\nI ended up getting interviews from two of the big four. Though I sadly didn't get an offer from either (need some improvement there, I guess :) ), I'm encouraged by the fact that they even decided to interview me at all after looking at my resume.\n\nNow, I also talked to some of the larger companies at the career fair that weren't Big 4, but still well known. Intel, IBM, Oracle, and the like. These companies all asked me to apply online, which I promptly did. That was back in September, and I really haven't heard back from most of them. Logging into IBM, for example, I can see that all of my applications are \"pending\". The same with HP, Motorola, and everything else. I've maybe gotten one or two rejections out of the dozens of companies I've applied online to, but I seem to be stuck in application limbo for the rest.\n\nHere's the thing - I know that it's quite common for applications to be ignored in the CS field. Last year, I might've just chalked it up to none of them wanting me as an intern and me not being good enough. But this year, that theory just doesn't seem to make as much sense. Companies from the Big 4, known to be highly competitive for CS, are giving me interviews, and even spending thousands on airplane tickets for my on-sites, and yet I don't receive so much as an email from literally anyone else? I feel more like I'm stuck in application limbo from my online apps than I am being purposely ignored.\n\nIs it possible that the Big 4 will give me interviews, while I get ignored by pretty much every other large company out there (Epic, IBM, VMware, Motorola, Lockheed Martin, etc...)? Was it because the recruiters for the Big 4 companies actually took my resume, while all the others told me to apply online? How can I get myself \"unstuck\" from limbo?\n\nI'm not trying to humblebrag or anything, but I'm fairly confident that if I can get to the final round of Big 4 interviews, I should be able to secure an offer from a large company that has a lower hiring bar. It just feels like I'm not getting noticed by them, which is really confusing for me.\n\nAny tips to get out of this hole? ",
+      "subreddit": "cscareerquestions",
+      "score": 2,
+      "url": "https://reddit.com/r/cscareerquestions/comments/3w13ls/how_to_get_interviews/",
+      "comments": [
+        {
+          "body": "Generally speaking, having your resume in the hands of a recruiter is preferable to submitting something online. Those online postings get hundreds and hundreds of replies, so it may simply take time to get to you, or you may have just gotten lost in the pile and not seriously considered. Who knows at a big company like that.\n\nWhat's drawing you to all these big companies? I have a feeling you'd have a lot more luck at a smaller company, where you could learn a lot more and have a much bigger impact. You're not going to learn much maintaining a 15 year old internal web application for Lockheed Martin.",
+          "score": 3
+        },
+        {
+          "body": "Do you remotely have any idea of the industries you want to get into, or the level/languages you want to do? Do you like programming microcontrollers and drivers? Or do you want to do full stack web development? Are you trying to get into the networking/IoT/security industry? Or into data science and SQL and machine learning? Working at Intel (a semiconductor company, mostly) is going to be way different than working at a pure software company like Twitter. Different industries, different research, different career opportunities. IBM probably is going to be a lot focused on consulting, data science, and that sort.  VMWare is going to be either heavy on distributed systems (their cloud services vSphere), kernel/OS fundamentals, or networking (they develop a lot of networking protocols and software switches). Cisco is going to have ton of opportunites for networking. ",
+          "score": 1
+        },
+        {
+          "body": "You could get unstuck by applying to start-ups or banks.",
+          "score": 1
+        },
+        {
+          "body": "Not sure why you are considering Amazon as a Big 4 - their work culture sucks, I heard! Well, I guess it makes sense if you are looking at pay. Honestly, Oracle doesn't really have an active undergrad internship program. Try for companies you have a good shot at. Here's a list of companies you can target:\nhttp://www.businessinsider.com/13-best-tech-companies-for-interns-2014-2?op=1\n\nAlso, why do you keep saying Lockheed, IBM? lol Those companies are really down now. If you are getting interviews from Big 4 you should be aiming for better companies. Try shooting for Intel, Qualcomm, Cisco, Yahoo etc. They are excellent back ups to the Big 4. I know several people who interned at these places, had a blast, and ended up with the Big 4! \n\nOh yeah and as far as seeking out internships, you just have to be really active. Shoot an e-mail to recruiters or ask your friends to refer you. It's a crap shoot otherwise. Good luck!",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Am I being stupid for continuing to work for this company?",
+      "body": "[x-post from /r/ITCareerQuestions](https://www.reddit.com/r/ITCareerQuestions/comments/4o8qxu/am_i_being_stupid_for_continuing_to_work_for_this/)\n\nBackground: IT Technician at 37K, MCP, MCSA: Server 2012, MS: Hyper-V and SCCM 2012, B.S. in Computer Science from Wayne State University (2014), Detroit, MI, 5 years of IT experience\n\nI accidentally submitted my resume to a position at my current company. HR informed my manager, and my manager ended up meeting with me to discuss the issues I was having that led up to me applying for other jobs. I told him I wanted extra responsibility (especially after receiving a good performance review and establishing a stable and well-functioning WDS Server), and I wanted to get paid more (currently at 37K, wanted to get 45K). \n\nAfter talking to his boss, he told me that they couldn't do anything for me; there are no open roles for advancement (team of 3 IT guys, all positions filled) and they couldn't get anywhere near the number I wanted. My position was an extremely basic position (think fresh-out-of-high-school IT guy). My manager didn't say this next part, but my co-worker's job description is a carbon copy of mine with the additional responsibility of swapping backup tapes (I know this because our job descriptions were listed on the budget presentations my manager makes each year, and he's the 'sysadmin' -_-). They were not expecting the kind of performance they received from me nor did they expect me to stay longer than a year. I asked if there's anything I can improve on my performance, and my manager said I'm pretty much performing at the highest level I can in my role. My manager is letting me swap backup tapes and learn a bit about VMWare, so at least I was able to get something out of this.\n\nI re-iterated to my manager that I liked working for the company and I was just testing the waters in regards to compensation; they were very understanding about this and aren't looking to get rid of me. I gave him a year timeline, in which I will be preparing to leave the company. I want to leave sooner than that though.\n\nI still feel pissed though. 45K is a reasonable number for the value I've provided them, and they're telling me I can't expect much more than what I make now. I've gained plenty of skills and education while working for my current company; my managers are fully aware of this. I've went on interviews and been a good candidate for jobs paying 60K and above as a Sysadmin; while I haven't gotten any offers yet, the fact that I've been able to get interviews when I ask for that salary range means to me that I'm worth at least that much on the market currently.\n\nWhen I talked to my friend about it, she was suggesting that I talk to other companies and she was trying to get me to talk to a guy who runs an IT consulting business. I mentioned to her that I told my manager I'd be there for at least a year, and she was like \"Oh.\" That statement right there made me question the entire choice I had made to tell my manager I'd stay for another year.\n\nWhat I want to do is be the top candidate for sysadmin interviews and beat out everyone else; so far, I've had somewhat lukewarm and borderline insulting interviews, and the additional experience my manager will give me will help with that. I still feel like I'm gonna stagnate if I don't get out sooner than a year though. So far, what I've thought about doing is documenting my organization's full IT infrastructure and getting my CCNA so I can have something to add to my portfolio and resume. I have little motivation to do that though; I don't feel appreciated or utilized enough to make those projects worth more to me than a time-consuming pat on the back.\n\nWhat do you guys think?\n\n**EDIT: I'm moving on. I guess they decided in the back end that they don't wanna give me that extra responsibility; I don't want to talk to them about this anymore. Please provide suggestions on how high I should aim.**",
+      "subreddit": "cscareerquestions",
+      "score": 6,
+      "url": "https://reddit.com/r/cscareerquestions/comments/4o9005/am_i_being_stupid_for_continuing_to_work_for_this/",
+      "comments": [
+        {
+          "body": "[deleted]",
+          "score": 9
+        },
+        {
+          "body": "You received no offers, the market rate for you is currently 0. Getting an interview is not the same thing.  If you have outgrown the role and there is no upward mobility then why would you stay?  Sounds like you're just tentative about moving on.  Don't be.",
+          "score": 6
+        },
+        {
+          "body": "You may have better luck in the IT career questions subreddit.",
+          "score": 2
+        },
+        {
+          "body": "Why in the world are you working as an IT Tech with a degree in CS? No offense, but that position should be far under your skills. Unfortunately, you've now been in a low paying IT roles for so long that moving to a better position more relevant to your degree will probably be difficult. Difficult, but doable.",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "What is my role?",
+      "body": " \n\nHi guys. I will start my first job in a few months. I will graduate this December. My role title is Infrastructure Engineer.\n\nI will be responsible for things like automation of repetitive tasks, testing of software, create and expand on the existing Infrastructure, Monitor the Network, Make sure there is no downtime.\n\nBased on the Interview they expect me to know Python, Shell Scripting, Unix admin things, TCP/IP, distributed systems, cloud, Docker (they dont use docker, but use something similar). I have basic understanding of all these things and did well in the interviews (i was offered the entry level job).\n\nI graduated with a degree in CS so my education was more geared towards software development. I only took 2 electives in Database management and Comp Networking (which helped me land this job)\n\nSo here's the thing, I decided to do research online about role (Infra Engineer), and every answer I get is so different from the previous one.\n\nI keep seeing Key words like Kubernetes, Ansible, Terraform, Docker, VMWare. I want to dedicate these next 3 months to learning tools and technologies that will propel me in my career, but I do not know what to learn. Based on my interview though I will be doing automation and self service solutioning, among other things like being on call for the data center (once every 3 months).\n\nSo can anyone help me and tell me what I'm supposed to learn, I'm new at this, I was a Software Engineer intern before this role, so I do not have lots of work exp.\n\nAlso can someone explain my role to me, this is much broader than a software engineer. Haha.",
+      "subreddit": "cscareerquestions",
+      "score": 1,
+      "url": "https://reddit.com/r/cscareerquestions/comments/jn1zvn/what_is_my_role/",
+      "comments": [
+        {
+          "body": "[deleted]",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Telephonic Interview with vmware",
+      "body": "Hi, I am having telephonic interview with vmware day after tomorrow for software engineering intern position. What kind of questions can i expect from the interviewers? \n\nEDIT: this is for Software Engineer Internship",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/2upf2i/telephonic_interview_with_vmware/",
+      "comments": [
+        {
+          "body": "I know for full time (from 4-5 years ago) that they asked a lot of OS stuff.  Things about system calls, context switching, and other goodies like that.\n\nHighly dependent on the team I would imagine.",
+          "score": 1
+        },
+        {
+          "body": "Is this for an internship, full time, or what?\n\nThey're probably going to ask you about Virtual Machines.",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "title": "What affect will the CS job market tightening have on the \"average\" hired Software Engineer",
+      "body": "Even before 2023, Memes about companies wanting entire IT departments as Engineers were pretty common and fairly heavily backed by taking a look at job postings. But it did seem like if you had all the things in the Job Description you would at least get considered and get a first interview. I assume with the tightening job market in Software and IT companies can really get away with only considering applicants that are this meme.\n\nI've mostly applied to web-related roles and some systems administration roles. I assume with every position getting tons of applicants, at the bare minimum companies won't have to settle with someone who doesn't have Frontend + Backend + Database + DevOps experience in the industry. They can probably get away with saying you need experience in some proprietary or more niche technologies that match their stack more than they had in the past.\n\nFor systems administration roles, they can probably get away with throwing away all applicants that don't have industrial experience in the technologies they are currently using or are planning on using. For example, the exact VMware products, Windows Products, Kubernetes Environment, etc. that they happen to be using on hand.\n\n\n\n",
+      "subreddit": "cscareerquestions",
+      "score": 39,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1j6oam5/what_affect_will_the_cs_job_market_tightening/",
+      "comments": [
+        {
+          "body": "[deleted]",
+          "score": 86
+        },
+        {
+          "body": "*effect \n\nImo- every dev needs to know some testing and some infra. Front and Back end are still commonly separated, but test / CICD engineering is blurred.",
+          "score": 22
+        },
+        {
+          "body": "They have too many applicants now, they can't interview them all so they gotta filter them out somehow. I think companies will start increasing role expectations and requiring hackerrank screenings.",
+          "score": 7
+        },
+        {
+          "body": "Being about to do more tasks required. Now a SWE needs to design the solution , maybe work with client engs if it’s an app or something, code out the solution, right unit tests, deploy it to Prod, and then monitor the changes via a dashboard like new relic. Oh and also on call. It’s more tasks that one needs to have the exp or ability to do.",
+          "score": 10
+        }
+      ]
+    },
+    {
+      "title": "Daily Chat Thread - March 11, 2019",
+      "body": "Please use this thread to chat, have casual discussions, and ask casual questions. Moderation will be light, but don't be a jerk.\n\nThis thread is posted **every day at midnight PST**. Previous Daily Chat Threads can be found [here](https://www.reddit.com/r/cscareerquestions/search?q=Daily+Chat+Thread&amp;restrict_sr=on&amp;sort=new&amp;t=all).\n",
+      "subreddit": "cscareerquestions",
+      "score": 10,
+      "url": "https://reddit.com/r/cscareerquestions/comments/azqbsk/daily_chat_thread_march_11_2019/",
+      "comments": [
+        {
+          "body": "What field would be best to focus in? I am about to get my undergrad in CS this summer, and I am trying to focus on a subject for when I graduate. What field has a lot of opening for an undergrad and pays well? I would like to deal with java so I am thinking android dev. ",
+          "score": 2
+        },
+        {
+          "body": "Guys I was doing a warmup question and just spent 20 minutes debugging why my code wasn't working. I think it's time to pack up and give up...\n\n     public static boolean isPalindrome(String str) {\n          // Write your code here.\n\t\tif (str == null || str.length() == 1)\n\t\t\treturn true;\n\n\t\tint length = str.length();\n\n\t\tfor (int i = 0; i &lt;= length / 2; i++)\n\t\t{\n\t\t\tif (str.charAt(i) != str.charAt(length - 1 - i));\n\t\t\t\treturn false;\n\t\t}\n\t\t\t\t\t\n\t\treturn true;\n     }\n\nI work with C# and started looking up != to see why it doesn't work for characters in Java... Jesus christ",
+          "score": 4
+        },
+        {
+          "body": "Going to give my 2 weeks notice tomorrow. How do i do this without sounding so arrogant?",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Application rejection: Are there different types of canned responses?",
+      "body": "When you apply for a company and they reject your resume before you can even get a phone screen, they usually either don't respond or they (rarely) give you a canned response in email. Do these canned responses mean much? Are there different types of canned responses?\n\nExample one I got from VMware this morning:\n\n&gt;  Thank you for your interest in joining the VMware team. We wanted to let you know that although your resume was very competitive, our hiring team reviewed your application and did not select it for further consideration.\"\n\nDo they actually mean \"very competitive,\" or are they just trying not to make you feel bad? They said they'd keep my resume on file for future consideration. Now, I had applied to Amazon once and my application was rejected before a phone screen, but they contacted me 4 months later for an interview for a different job, which I unfortunately had to reject because I found another job during that time period.",
+      "subreddit": "cscareerquestions",
+      "score": 69,
+      "url": "https://reddit.com/r/cscareerquestions/comments/j5hta3/application_rejection_are_there_different_types/",
+      "comments": [
+        {
+          "body": "&gt;Do these canned responses mean much?\n\nNo, they are just legally approved messages that go out either after someone reviews your resume or when they close the position.",
+          "score": 111
+        },
+        {
+          "body": "In my experience i've never seen multiple canned messages. They're usually just standard management approved stuff.",
+          "score": 28
+        },
+        {
+          "body": "All of them are pretty much the same. It's like breaking up without being rude, \"It's not you, it's me\", \"I'm not ready for a relationship\", \"Your LeetCode was absolute shit\" ect.",
+          "score": 24
+        },
+        {
+          "body": "When its from a no-replay@xxx.yyy\n\nor it says \"we regret to inform you\"\n\n  \nI just stop reading and delete.",
+          "score": 8
+        },
+        {
+          "body": "Send them a blank resume and see if you get the same canned “competitive” response.",
+          "score": 5
+        },
+        {
+          "body": "Some companies will use unique templates for each disposition reason.   Usually the difference is fairly minor, but might soften the tone or more gently encourage future applications. \n\nExample:  \nIf I’m outright rejecting someone on qualifications: standard template.\nIf I like someone’s resume or think I they could fit another role soon I will use a “future interest” styled rejection template.  \n\nIn any case I wouldn’t think too much about it.  Big companies especially are dealing with 100’s of applicants per job - the decisions are made pretty fast.",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "title": "How is VMWare as a company?",
+      "body": "I am expecting a full time offer from them. The interview process was good, some non-trivial interviews but thought it was fair. It seemed to have good work culture and a pretty cool campus. \n\n\nI was curious about the work culture and how 'prestigious' it is. How would it compare to companies like Amazon, A9, Nutanix?\n\nThank you!",
+      "subreddit": "cscareerquestions",
+      "score": 27,
+      "url": "https://reddit.com/r/cscareerquestions/comments/5q9xwa/how_is_vmware_as_a_company/",
+      "comments": [
+        {
+          "body": "Talked to someone who interned there and he liked it because:\n-good pay + housing + food\n-really smart guys there\n-his project got used into production\n\nOverall, congrats!",
+          "score": 20
+        },
+        {
+          "body": "Lot of people throwing speculationd around here. But I'll throw in a fact:\nThe interview process and hiring bar is much tougher/higher at VMware. Others at other prestigious companies will know this.",
+          "score": 13
+        }
+      ]
+    },
+    {
+      "title": "Rant | How are people able to get a job or internship if they wrote their first line of code a couple of months ago?",
+      "body": "So every now and then I come across posts like 6 months ago they hadn't written a single line of code, or they were a noob, or one not even understand a leetcode question. But today they have an offer from one of the FAANGs or some similar company.   \nHow is it possible or is it even possible? Are these stories correct?  \n\n\n I have a bachelor's degree in CS, working as a backend developer for the last 2 years, ACM-ICPC participant, have a good hold over Algo &amp; DS, regularly practices on leetcode. I have applied to 200+ companies since the start of the year. No one even calls for an interview. I have been ghosted after hackerrank tests from Expedia, VMWare, Cisco, Flipkart, Shopee (there is no way I can fail in these rounds. Almost all the questions I get are the ones I have solved earlier and my program passes for all the test cases). I have been to one on-site only (of Amazon).  \n\n\nIf possible I ask for the referral from my LinkedIn connections. And they refer me as well. But post that either I don't hear from anyone and then receive an email (months later) that that position has been filled or my skills were competent but they found someone else who was more closer fit.  \n\n\nHow do these people get the job at those places? What's in their resume? How do they apply? And in my little experience interviews were not just about they gave me a leetcode question and I had to write code for that. I have gone into long discussions about the REST, general stuff about the computers, CDN, how computers could generate random numbers, integer overflowing problems, databases, transactions, bash, and tons of things for which I have taken like 4+2 years to know. I have read books, coded, read medium articles, StackOverflow, asked friends to know all the stuff.  Do these people learn all that really quickly on their own? If yes then how? Or are they just lucky people born in the right places, meeting the right people? \n\n  \nI am from India (and applying to jobs in India or southeast Asia only). Can that be a reason? Is the market already saturated with similar level developers? Or am I ignored because I am not from any prestigious college or because I am working at a lower-tier company?   \n\n\nI have followed lots of advice available on the internet, from how to make resumes to how to approach recruiters, HMs on LinkedIn. I always write a cover letter while applying. Even in online tests, I make sure I am using proper variable names, adding comments if doing something tricky, creates function if required. \n\nYet I can't get a job and these people post on LinkedIn, about their journey from a zero to FAANG in 3 months :)",
+      "subreddit": "cscareerquestions",
+      "score": 4,
+      "url": "https://reddit.com/r/cscareerquestions/comments/gwzjpw/rant_how_are_people_able_to_get_a_job_or/",
+      "comments": [
+        {
+          "body": "Most of those people that get FAANG offers very fast are math majors that drilled algorithms ultra hard after a coding bootcamp. They aren't just total noobs",
+          "score": 28
+        },
+        {
+          "body": "&gt; and these people post on LinkedIn, about their journey from a zero to FAANG in 3 months\n\nYou have to remember that when it comes to CS forums on the Internet, you're getting a very skewed perspective, be it JumpStart, /r/cscareerquestions, or even LinkedIn. Most people just use LinkedIn as a way to find new job postings, and sometimes as a networking tool. But the people who actually post about their successes at all are a very small subset of people, and it's almost guaranteed that they've stretched the story in some way to make themselves look good. It might seem like everyone and their dog is easily catching FAANG offers with no experience *if all you're looking at is LinkedIn gloat posts*, but that is simply not indicative of reality. At the scale these companies are hiring, i.e. an exchange of hundreds and thousands of employees each year, of course there are bound to be a few anomalies here and there when it comes to the hiring process. It simply isn't useful to try and emulate or compare yourself to those individuals on face value, because statistically, you're not going to come out on top. Rather, try to focus on yourself as a candidate and where you might be going wrong. \n\n&gt;  I have been ghosted after hackerrank tests from Expedia, VMWare, Cisco, Flipkart, Shopee (there is no way I can fail in these rounds. Almost all the questions I get are the ones I have solved earlier and my program passes for all the test cases)\n\nWell, ghosting sucks and is an unfortunate reality of this industry. There's honestly no good explanation for ghosting; companies ghost people all the time for no reason. You just have to keep at it. At the very least, you *are* being sent coding challenges, so you're probably doing something right.\n\n&gt; I am from India (and applying to jobs in India or southeast Asia only). Can that be a reason? \n\nThis explains a lot, actually. It's hard for someone like me to gauge the job market in Asia because I'm in America, like most of the people on this subreddit. It could be that FAANG companies simply don't hire at the same rate in Asia as they do in America. The job market over there may very well be saturated with engineers looking for work, and with the COVID situation rocking the job market all across the world, things are just gonna be difficult for now.\n\n&gt; How do these people get the job at those places? What's in their resume? How do they apply? And in my little experience interviews were not just about they gave me a leetcode question and I had to write code for that. I have gone into long discussions about the REST, general stuff about the computers, CDN, how computers could generate random numbers, integer overflowing problems, databases, transactions, bash, and tons of things for which I have taken like 4+2 years to know.\n\nThings might be different over in India/SEA, but in my personal experience, I've never heard of interviews actually going as deep as you describe except for senior level engineering and management. Are the posts you see from America or your area? Because at least for entry level positions, it's pretty unrealistic to expect a candidate to know about REST and databases. If you're not looking for entry level work, this could explain the disconnect between you and the people you read about. \n\nIn any case, a 6-month turnaround doesn't actually sound all that ridiculous to me. If someone took a coding bootcamp or studied how to code for a few months, at least enough to become competent in their programming language of choice, and then another 2-3 months intensely and strategically studying data structures and algorithms, then landing an offer is not out of the question. Learning DS&amp;A is a long term process, but becoming good enough for technical interviews doesn't have to take very long if you're smart with how you study.\n\n&gt; Or am I ignored because I am not from any prestigious college or because I am working at a lower-tier company?\n\nWell, the fact that you already have work, period, is a big point in your favor. I think you just need to stop looking at LinkedIn posts, lmao. You're not an entry level worker, yet those LinkedIn posts are most likely from entry level people. So why even bother? It sounds like you're mostly competent as a candidate, so the most I can suggest is maybe try applying to American positions? Otherwise, coming here and complaining about people on LinkedIn isn't very useful at all.",
+          "score": 8
+        },
+        {
+          "body": "Well people would never lie on the internet now would they?",
+          "score": 6
+        },
+        {
+          "body": "I really have never seen a post of someone writing first lines of code 6months ago and the hired. Where’s the time for learning? What projects will the talk about? Time for leetcoding and applications. Seems unrealistic to me. Unless they studied some form of math or engineering related course and did bootcamp s or something. Still, very unlikely",
+          "score": 3
+        },
+        {
+          "body": "In the 200 applications you applied to, did you adjust your resume for most of them? If not, then your resume sucks such that it's not passing filter.\n\nWhen you get to phone screen or technical, and you can get the optimized solution, if you don't get positive feedback, maybe your communication needs work. Remember, interviewers are looking for applicants they want to work with. So despite your 2 years experience, you may not be signalling enough qualifiers about your ability to work on a team. Mock interviews help here.\n\nBut most of all, you are applying in India which is a very competitive market. It also seems you are so focused on FAANG and similar unicorn companies as a way of measuring your self worth. You are not a lesser person just because you are not working at FAANG. You dedication to seek out resources to fix your problems shows determination. What you might want at this point is to form  relationships with possible mentors and referrers. Ask them for advice. Tell them what you've been trying and what your goals are. Look for people with over 10 years experience. If you trust your tech lead, you should ask them.\n\nDon't even bother looking at LinkedIn feed. It's like Facebook but filled with so much HR soapboxing corporate BS. Watching people get promoted just ends up hurting your ego and is ultimately a distraction from your journey of becoming a better developer and person.",
+          "score": 3
+        },
+        {
+          "body": "The short answer is that it's a mixture of numbers and luck. The numbers part is easy - they've just applied for hundreds of roles.\n\nThe luck part is a bit trickier. These people need luck on all of the following parts:\n\n* Obviously, ensuring that someone finds their application and decides that they make it to the first step of the process.\n* Being lucky enough to have covered the questions asked in a coding challenge/phone interview\n* Being a part of a relatively kind interview process that doesn't subject them to half a dozen rounds of interviewing for a bog-standard role.\n\nAll of the above is definitely luck. You can be a SWE with years of experience and be tripped up by something you've not touched for years. My key example from the last few weeks is missing out on a full-stack role because I struggled to show a code example of a mutex in Java - something I hadn't covered since my second year of university, and something that ended the process for me after four previous rounds of interviews. Inversely, I'm midway through an interview process with a larger company and I've been lucky enough to cover DSA questions that I can answer, and React questions that I've covered recently.\n\nDespite all of the above, it's worth bearing in mind that the interview is the easy part. Interviews aren't perfect, and the push to standardise them around the DSA/multiple round process has made them easier to game. The result of this is that you get people that study for a test, but struggle to do the work once they join the company. It's surprisingly common to see someone burn themselves out on the interview process, only to get the job and then spiral out of control once said company gives them a baptism of fire by throwing them right into productive work.\n\nThere are, of course, people that will swim instead of sink - and those people are usually the ones posting about how they make $500k a year in the Bay working as a L9 for BigCorp. My only response to those people is that it's a marathon, not a sprint. They've done brilliantly to make solid money in a high COL area, but you want a sustainable salary that will grow and last over time.",
+          "score": 2
+        },
+        {
+          "body": "Internship interviews at these companies are like 1-2 rounds at most, so if you have LC down you can score an internship much prior experience.  Most know how to code at some level. I haven't heard of anyone getting a FAANG FT job without knowing how to code lol so I don't know what you are talking about.",
+          "score": 1
+        },
+        {
+          "body": "They are just smart and grinded leetcode hard.\n\nAt entry-level, companies basically just want to know how smart you are because they equate this with potential. So they will take the Ivy League grad who majored in English and grinded leetcode for a few months over the CS major from an average school who has been programming for years",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Victim of bad recruiters",
+      "body": "Where do I start with this one. Left a comfortable contract role to pursue full time positions. I had really great interviews with hiring managers and then poof, bad recruiters hit me like a fucking train. \n\nI interviewed with vmware and during the interview, hiring manager mentioned that he wanted me onsite to meet the team and further interview and that I should coordinate with the recruiter to schedule sometime. \n\nThis was in November 2018.  \n\nThe fucking recruiter never responds, left him voicemails, ton of emails, fucker sees my linkedin messages but doesn’t respond. Fuck you J*****. \n\n\nThen I had a interviewed with a really good startup in SF and my onsite interview was interrupted when the CEO decided to call for an emergency meeting. Recruiter says she will reschedule and this was in December 2018. Never responds and just skips weeks altogether to schedule something only never to respond again.\n\nThe other company gives me a verbal offer and poof nothing, after giving them &gt;10 required references (which they never checked) no response. No written offer no update on anything. \n\nIs this how the recruiters are now?. Should I just accept this fact and move on?. It sucks to give up on really good companies. ",
+      "subreddit": "cscareerquestions",
+      "score": 17,
+      "url": "https://reddit.com/r/cscareerquestions/comments/agowh9/victim_of_bad_recruiters/",
+      "comments": [
+        {
+          "body": "I feel your pain, I worked with a bunch of recruiters who would ghost or just handle scheduling really badly; one of them actually had the gall to email me back 4 months after I responded to their intro email!\n\nBut I also think you may have just run into a few bad eggs because they're all not like this. That onsite interview experience is sad and embarrassing for that company. The best you can do now is leave a Glassdoor review highlighting your experience with the recruiter and hope that the business doesn't allow this to happen in the future.\n\nIf you're dealing with agency recruiters, they tend to be the flakiest imo. Since they're not directly affiliated with the companies they work with, they can end up not relaying any concrete information back to you (like whether or not you actually got the job) and move on to trying to pitch you other roles because that's in their best interest.\n\n&amp;#x200B;\n\n&amp;#x200B;",
+          "score": 9
+        },
+        {
+          "body": "Honestly it's not the recruiters. Keep in mind that recruiters have Quotas to hit - they need to get X many people hired through their pipeline per year. They don't ghost you for fun. They know you're contacting but they don't have any updates to give.\n\n&gt; I interviewed with vmware and during the interview, hiring manager mentioned that he wanted me onsite to meet the team and further interview and that I should coordinate with the recruiter to schedule sometime.\n\n&gt; The fucking recruiter never responds, left him voicemails, ton of emails, fucker sees my linkedin messages but doesn’t respond. Fuck you J*****.\n\nWhich means that they found another candidate they liked better, or one they had given an offer to decided to accept before they could schedule you on-site. \n\n&gt; Then I had a interviewed with a really good startup in SF and my onsite interview was interrupted when the CEO decided to call for an emergency meeting. Recruiter says she will reschedule and this was in December 2018. Never responds and just skips weeks altogether to schedule something only never to respond again.\n\nThe recruiter is at the mercy of interviewers being out of office during the break. It's also likely that your feedback on the on-site wasn't good and the comment was made before interviewers had a chance to put in their feedback.\n\n&gt; The other company gives me a verbal offer and poof nothing, after giving them &gt;10 required references (which they never checked) no response. No written offer no update on anything.\n\nIt sucks, but again this is dependent on the hiring manager and anyone who has to sign off on giving an offer. The recruiter is only a proxy. A lot of companies have a hiring manager or VP needing to sign each offer letter. Even if the hiring manager wants to hire you, the VP can block it or not agree to a certain comp, which means the recruiter can't send you an offer.\n\n&gt; Is this how the recruiters are now?. Should I just accept this fact and move on?. It sucks to give up on really good companies.\n\nTo me this sounds more like the companies you're interviewing with have policies where they tell the recruiters to ghost (for liability reasons) if there's any bad news. Or they give conflicting information to the recruiter and put them in an awkward spot w.r.t. the candidates.",
+          "score": 11
+        },
+        {
+          "body": "Not all recruiters are like this but it’s severe how many of them are. Like I don’t think it’s the majority but it’s certainly a shared common experience we all have ",
+          "score": 2
+        },
+        {
+          "body": "&gt; Left a comfortable contract role to pursue full time positions.\n\nMaybe this is why you don't do that.",
+          "score": 2
+        },
+        {
+          "body": "Yea it's pretty much how they are now. Your best bet is to talk to friends/ previous co-workers and see if you can get on with an existing team from people you know.\n\n&amp;#x200B;\n\nAlso it's not uncommon to see hiring managers/CEOs/CTOs act like that. They are very busy, but there are actually a handful who are genuinely not good people and probably got the position based on sucking up to higher-ups.",
+          "score": 2
+        },
+        {
+          "body": "\\&gt;my onsite interview was interrupted when the CEO decided to call for an emergency meeting. \n\n&amp;#x200B;\n\njust curious, were you already physically in the building when the CEO called for the emergency meeting? if so, i would be pissed and demand reimbursement for gas or etc\n\nif they cancelled the day before or a few hours before, i would be more chill but not as upset. \n\nanyway, just curious, about when you got interrupted ",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "VMWare new grad offer 2021",
+      "body": "Hi, I just received a new grad 2021 offer from vmware. The problem is that I interviewed for new grad software engineering, cloud infrastructure but this offer is for member of technical staff. From my research and what I've seen the salary they're offering me is not different than a software engineer so I just wanted to know if this is a big deal and if someone's experienced that before. I have emailed my recruiter and she has assured me that I will still do \"software engineering\" and that's just a title but this just seems weird to me.\n\nI don't want to make a big deal out of this and reject the offer since the interview was rough and I had to go through multiple rounds with different people and honestly I've done the Amazon interview and that was easier than this so after working so hard I don't want to reject the offer but I just don't know why it's \"member of technical staff\" instead of what I submitted an application for. \n\nHas anyone experienced this? \nShould I insist on getting the correct title? \nIf yes to previous question, how do I go about it? Because I've already tried it once and all they told me was don't worry it's just a title.",
+      "subreddit": "cscareerquestions",
+      "score": 3,
+      "url": "https://reddit.com/r/cscareerquestions/comments/jfs8pb/vmware_new_grad_offer_2021/",
+      "comments": [
+        {
+          "body": "Their software engineers are called Members of Technical Staff. This is a common title. Ebay's software engineers are called Members of Technical Staff. Salesforce's new grad posting is AMTS (associate member of technical staff). It's just how they decide their payscale. You'd be MTS I at VMware. It doesn't matter what you list on your resume. You could list MTS or Software Engineer. You will be a software engineer.",
+          "score": 14
+        },
+        {
+          "body": "**Internal job titles often mean nothing to outsiders of the company.** When I accepted my internship offer last year, the job title was \"Security Consulting Engineer Intern\". I was actually a software engineer intern and that job title was actually reused for 4 separate intern positions. The internal job title was even crazier INTERN.CROSSFUCNTIONAL.TECH. If they say you're doing software engineering, then you can trust them that you will be doing so. I had the same concern when I learned about my internship position in the past.\n\nAlthough, you can definitely double check with your recruiter. I agree with u/Drauren, the job title doesn't matter. If you're worried about your resume, you can just put software engineer on your resume. Companies have many different job titles for essentially the same positions. Being consistent in your job titles on your resume helps a lot.",
+          "score": 6
+        },
+        {
+          "body": "VMWare? yeah they call all of their SWEs as MTS\n  \nnot a big deal, you can still call yourself SWE on your resume or linkedin",
+          "score": 6
+        },
+        {
+          "body": "You could just email them and ask why the offer is different and what would it mean in terms of your duties.\n\nIf they say it's just a title, I wouldn't worry about it. I have like three different titles at work. They don't mean much in this field.",
+          "score": 4
+        },
+        {
+          "body": "Hi, congrats on the offer, can you share the questions/kind of questions you were asked during your final interviews? \n\nThanks!",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Why is VMware so selective?",
+      "body": "Can anyone clarify why VMware is so selective with their interviewing/hiring? I get that they are a big company but they seem to be more selective than big n companies and even notoriously bad ones like palantir. They just don't seem to be big enough or pay well enough to warrant their rigorous recruitment",
+      "subreddit": "cscareerquestions",
+      "score": 2,
+      "url": "https://reddit.com/r/cscareerquestions/comments/67tkjl/why_is_vmware_so_selective/",
+      "comments": [
+        {
+          "body": "&gt; They just don't seem to be big enough or pay well enough to warrant their rigorous recruitment\n\nThey have one of two real viable purely commercial virtualization platforms (along with MSFT Hyper-V), which means some real difficult work in the kernel and a ton of important userland tools that interact with all of that virtualization/orchestration code. \n\nThis isn't building shitty websites or adding fun new widgets to youtube's UI, this is enterprise software used by companies like banks and hospitals. They get to be picky.",
+          "score": 13
+        },
+        {
+          "body": "Because they want to be, and they can.\n\n&gt; I get that they are a big company\n\nThat has nothing to do with it. Walmart is a big company too.\n\nIf anything, from a pure numbers perspective, big companies should on average be **less** selective, since they have to hire a larger chunk of the population. Though there are more factors at play; for example Google is a pretty big company, but is able to maintain a pretty high bar, because they get a **lot** of applications. A slightly smaller but much less known company would not be able to maintain such a high bar at hire at the same rate relative to company size.",
+          "score": 2
+        },
+        {
+          "body": "It's just supply and demand. Maybe they don't hire a lot of people so they can be more selective with the applicants.",
+          "score": 1
+        },
+        {
+          "body": "&gt; They just don't seem to be big enough or pay well enough to warrant their rigorous recruitment\n\nAnd yet they'll find good talent who will pass their interviews and work there. Fair play to them in understanding the supply of engineers in the market, even though it hurts us a bit.",
+          "score": 1
+        },
+        {
+          "body": "Pay is more relevant to the company's financials than how hard thhe problems are or how big the company is. You're a number in a highly tuned math equation. Mind you the product is old and complex. Are you really more likely to generate significant revenue for VMware vs a company experiencing massive growth or adoption? Probably not, so pay reflects that",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Technical interview next week using VMWare and a SAN",
+      "body": "I have a second, technical interview  next week for a sysadmin position and I'm looking for some input on what might be covered in the interview. I'll be working from a computer and will need to solve problems related to VMWare and SAN interaction specifically. I have experience with both, but I could use some refreshing. Are there any good resources or hot topics that might be touched on in a troubleshooting session like this?",
+      "subreddit": "jobs",
+      "score": 0,
+      "url": "https://reddit.com/r/jobs/comments/hcy5l/technical_interview_next_week_using_vmware_and_a/",
+      "comments": [
+        {
+          "body": "reading through http://www.vmware.com/pdf/vsphere4/r40/vsp_40_iscsi_san_cfg.pdf is a good way to get a lot quickly.",
+          "score": 2
+        },
+        {
+          "body": "be prepared to talk about:\n\n- fc zoning (if the environment is fibre channel)\n\n- iscsi (if in use)\n \n- zoning by port/wwn \n\n- creating volumes.   snapshots.\n\n- multipathing\n\n- vsphere?\n\n- creating vms, installing operating systems. \n",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Stick with Tech/Cloud Administration or change careers to Accounting?",
+      "body": "I've been working in tech for almost 6 years. I've worked a wide variety of roles from help desk, Windows System Admin, Linux, Azure, and now Google Cloud Migrations. I have 10 certifications including Comptia trio, 4 Azure certs, CCNA, and 2 Google cloud certs.\n\nI'm worried about the current state of the tech market. It seems like I have to apply for 50 to 100 jobs just to get 1 or 2 interviews. If I do get an interview usually it's for a suspect smaller startup that got bought out by a private equity firm. It feels like it's harder to get an interview now than 3 years ago when I had even less experience. \n\nIf I want to move up into higher paying roles, the interviews feel like SAT tests where they grill you on nonstop technical questions or stacks. You never know what you'll get asked about in the interview, so I've had to prepare myself for anything from powershell scripting, vmware, Azure devops, Windows Servers, Python, Kubernetes, Docker, Active Directory, MDM etc. \n\nAccounting also has some of the same negatives as tech with AI fears and offshoring. But, I've never heard of accountants having to do whiteboard interviews or get grilled on 20 what script would you use questions in interviews, and it seems like the interviews would be more straightforward. I'm also worried about the constant layoffs and the feeling of having to do the role of 2 to 3 people in tech.\n\nI thought of switching to Accounting because I thought it would be easier and quicker to get an interview, and that the interviews would feel less like constant grilling SAT test sessions. Is Accounting just as hard to get an interview for and are the interviews just as hard? Or am I just thinking that the grass is greener on the other side? Because I'm also worried about starting all over and potentially lowering my pay to work as a bookkeeper or payroll analyst.\n\nI'm worried about the time and cost of schooling as well and if it's worth it? I'm currently making around 100k, but worried about my current company because they've been having 1 round of layoffs every year for the past few years. I've been offered everything from 55 to 120k over the years, so idk how accounting would compare to that. I'd have to give up all of that time and money that I spent on certs as well. But, if it's easier to get a job and less bs when it comes to interviews it may be worth it. Should I stay in tech or switch to Accounting?",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/1ptb85v/stick_with_techcloud_administration_or_change/",
+      "comments": [
+        {
+          "body": "Have you considered being a platform admin? Salesforce, ServiceNow, SAP etc.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Job Hunt feels like an endless sprint uphill lately.",
+      "body": "What does someone have to do to get an interview anywhere these days? Two months ago, in the beginning of August, I lost my job. I was let go due to what I consider to be politics, but management chalked it up to a “rule violation”. I filed for unemployment, was granted unemployment, company appealed the decision, went to arbitration, won the appeal, and am still receiving unemployment benefits, but I don’t want to spend 6 whole months doing nothing but collect $400/week and barely be able to afford my bills for the month. In the last 60 days I have submitted 100+ applications. I like to think I have a very good resume - I’ve worked in Tech for almost 7 years now, I have experience with DevOps, neteng, data centers, VMWare, and even some things that have fallen into more of a “niche” category these days. I have 6 years of high level telephony experience, building and deploying CCaaS systems almost single handedly. All of this is on my resume. I have several employers with concise, but detailed skills, certs, the whole nine yards on it. I write cover letters too. I worked for one of the big tech giants as a DC Tech III from 2022-2024 before resigning and moving to be closer to my family. I feel like I have the credentials to at least warrant a preliminary interview, maybe just a recruiter pre-screening me, but nothing. Out of 100+ applications, I have not received one call, one email, one iota of interest back. It’s really starting to wear me down. It feels like I’m never going to find a decent job again. I’ve tried indeed, LinkedIn, Glassdoor, and I’ve even paid for some services to automatically submit some applications for me, and those aren’t even included in the 100 I mentioned submitting. Nothing is working. Does anyone have any kind of advice? Anyone else in tech have a good experience with some other kind of platform to find a position? What am I missing here? I’m not applying for Senior level positions. \n\nTL;DR: The job market is awful and I’m ready to put my head through a wall please give me advice. ",
+      "subreddit": "jobs",
+      "score": 9,
+      "url": "https://reddit.com/r/jobs/comments/1oa15xq/job_hunt_feels_like_an_endless_sprint_uphill/",
+      "comments": [
+        {
+          "body": "right i’ve created like 10 different resumes in two months",
+          "score": 2
+        },
+        {
+          "body": "It’s tough out there. Spend an hour on Reddit and you’ll read 100 stories like yours.\n\nThe one thing most people don’t do is network. They don’t contact friends, family, past co-workers, etc. to see who knows who and who could get you an interview. That seems like the only thing you’ve left out too.\n\nIn addition, while you’re looking for a job you want to have, you may need to take any job until you can find the right one. Do you have any other skills or experience in doing anything else?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Weirdest interview experience in the history or r/jobs",
+      "body": "I have the weirdest no show experience in history. Back in November I did an interview with this one IT company for a help desk role and the first dude grilled with with like 12 questions on vmware, aws, what are the 3 private addresses, mxrecord, subnetting, powershell, etc, all for an entry level help desk job. T\n\nhen the next interview with the IT director all he asked about was \"hobbies\" things I like to do in my free time, fav games, music, etc. I was like wtf just happened. Waited a week and didn't hear nothing. Then emailed the recruiter and she said they preferred to hire someone \"a little more senior.\" \n\nThen in mid January that recruiter reached out again for the same job, so I'm guessing the person they hired left within a month and a half lol. We set up a teams interview. Which, idk why they needed to do another interview in the first place when they already interviewed me before. Both of them didn't show up HOW DO YOU NOT SHOW UP TO A TEAMS INTERVIEW WTF. I emailed the recruiter, and I thought it was weird that she responded 1 minute later and said they had \"technical difficulties.\" wtf\n\nSo, she said she would reschedule it the next day or day after that. It got to 500 the next day and I still didn't even receive an email. So, I emailed the recruiter and she said they were \"swamped\" that day and would reschedule it for Friday. I got to Friday, and she didn't email me that day either.",
+      "subreddit": "jobs",
+      "score": 3,
+      "url": "https://reddit.com/r/jobs/comments/m70vq7/weirdest_interview_experience_in_the_history_or/",
+      "comments": [
+        {
+          "body": "Hello, thank you for posting to r/Jobs! \n\nWe just wanted to let you know that we have a new [discord server, come join the chat!](https://discord.gg/TY6ErXV)\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/jobs) if you have any questions or concerns.*",
+          "score": 1
+        },
+        {
+          "body": "Sounds like you shouldn’t want to work for that company or they really need an IT guy😅",
+          "score": 3
+        },
+        {
+          "body": "It doesn't really feel that strange for things in the past year to be disorganized or have weird staffing coordination issues.",
+          "score": 2
+        },
+        {
+          "body": "Would you really wanna deal with people that dont have their shit together that bad, every day?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Bad Recruiter/Job Interview Experience",
+      "body": "Originially, I was contacted by this recruiter for a IT help desk job in the middle of November. Did the 1st interview through teams with the local manager and he asked me 10 questions on everything from VMWare, to private Ips, to powershell commands, mxrecord, dns, AWS, and some routing questions. Around 10-15 questions in 1 30 minute interview, thought it was extra for an L1 job, but overall went good. Second interview was with IT director, and the whole interview he only asked about favorite hobbies, said what he did with his family, games he liked, etc. I thought it was weird. He said he would call the next day if following up and I didn't hear anything for a week. Then I emailed the recruiter and she said they \"preferred someone a little more senior.\"\n\nFast forward to the middle of January, and she emailed me asking if I was interested for a position in my city. I asked who for and she said the same company, I asked if the position was the same and she said it was as well. She said they originally hired for a higher role. Idk if that means they hired someone for 1 and a half months and it was so bad they left, or if this is a new position? Either way it still sounds kinda suspect, but I went through with it. I said I was reviewing other offers though. Then the recruiter responded in a few messages by saying, \"Do you like the offers/companies, do you have any offers in hand, are they full time?\" I thought that was really nosy and unnecessary for a recruiter, or is it just me? But, it gets worse.\n\nI had an interview that next week. However, I waited 20 minutes for the same 2 interviewers to show up to a group interview and they never even joined the interview. I messaged the recruiter, and she said it was technical difficulties and replied immediately, which I thought was weird. It's almost like the recruiter was in on it idk. However, when I asked when it will be rescheduled she didn't respond for 3 and a half hours later and said tomorrow or the day after. \n\nThe next day, I finished my day at work and didn't receive an email from her or anything. So, I emailed her and she said she would catch up with the manager on Thursday and set an email for Friday because they were \"swamped.\" Went the whole day Thursday without receiving an email confirmation for interview and same thing so far today.\n\nI looked on Glassdoor/Indeed and the company only has a 3.0 rating. The salary was higher than my current job, so that was the only reason I was really considering it. I had a few other offers too, and they were bsing with recruiters being slow to get back to me, but this one really takes the cake for weirdest experience. It sounds as if the recruiter was colluding with the people at the company as a joke almost or something. The recruiter is in a different city from the company, but it really does sound like this whole thing was set up. Is there some way I could get her fired or something? \n\nThe whole situation sounds set up and very weird. Also, what do you all make of this situation/ the recruiter/ the company and the people I interviewed with? With the one interview how you gonna be a director and only ask about hobbies makes no sense? And, why would the recruiter even message back, if her and the company are just gonna bs and not even interview? How would you have technical difficulties for a teams interview, at an IT company where you have backup servers etc? So, much stuff that doesn't make any sense.",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/l8228n/bad_recruiterjob_interview_experience/",
+      "comments": [
+        {
+          "body": "Hello, thank you for posting to r/Jobs! \n\nWe just wanted to let you know that we have a new [discord server, come join the chat!](https://discord.gg/TY6ErXV)\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/jobs) if you have any questions or concerns.*",
+          "score": 1
+        },
+        {
+          "body": "Do you overanalyze every aspect of your life like this? It sounds like it was a legitimate opportunity. The company obviously liked you enough to reach out about a different opportunity. That said, first impressions are everything and it’s understandable that the interview/chaos trying to reschedule left a poor taste in your mouth. Things like technology problems, people missing interviews and reschedules happen sometimes, so you also need to keep a certain level of open mindedness. It sounds like overall this company is unorganized. For that reason, I’d say it’s probably not worth the risk right now... but I wouldn’t totally write off if you are genuinely interested in the role. Definitely not grounds for getting someone fired either...",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "What companies you know use Phone Calls to reject people?",
+      "body": "I know Googe and Amazon often uses calls to reject people after interviews. What others do you know or happened to you?\n\nI interviewed with VMware and got HR requesting a 15min call via Calendly. I feel I did horrible in the onsite for Launch ...\n\nDoes VMware do so?",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/ix7xlb/what_companies_you_know_use_phone_calls_to_reject/",
+      "comments": [
+        {
+          "body": "Quit worrying about what-ifs and feeling horrible.\n\nOne of the most important skills to have when applying for jobs is a short memory.  \n\nGo in assuming you didn't pass and keep on applying.  Don't get hung up on anything.  The simple fact you asked this question means you are hung up.",
+          "score": 3
+        },
+        {
+          "body": "Quite a few",
+          "score": 2
+        },
+        {
+          "body": "Huh?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "VMware Carbon Black solutions engineer",
+      "body": " \n\nHey, so i am interviewing for the solutions engineer position in carbon black and i just wanted to see if anyone who works there or Vmware could give me some tips on interview questions, the role, day to day as well as salary expectations. The role will be entry level as well and i have about 4 years of experience in sales as well as a degree in MIS.",
+      "subreddit": "cscareerquestions",
+      "score": 1,
+      "url": "https://reddit.com/r/cscareerquestions/comments/jmzelo/vmware_carbon_black_solutions_engineer/",
+      "comments": [
+        {
+          "body": "How did it go?",
+          "score": 1
+        },
+        {
+          "body": "How’d it go I’m interviewing for a similar position but as an intern.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "$100k Remote Cloud Job With Heavy Workload or $80k–$100k University in person Cloud Role?",
+      "body": "I’m currently in a fully remote cloud migrations role making around $100k, where I manage 2–8 migration projects at a time involving frequent client meetings, troubleshooting, and implementations. On top of that, my manager has added several yearly performance goals such as certifications, 80 hours of LinkedIn Learning, scripting, migration improvements, support tickets, and presentations. The company has also had layoffs in each of the past three years, and with a teammate recently leaving, the workload may increase further, making the role feel increasingly overwhelming despite the strong pay and remote flexibility.\n\nI’ve been interviewing for a cloud engineer role at a university that pays between $80k–$100k (likely closer to $85k) and would require a 30-minute commute each way. The work is more internally focused and centers on Microsoft 365, Azure AD, Active Directory, VMware, automation, and scripting rather than large client-facing migrations. The role offers fixed PTO instead of “unlimited” PTO and seems to provide a more predictable workload, but it would mean giving up full remote work and possibly taking a pay cut.\n\nI’m struggling to decide which option makes more sense long term. I worry about giving up remote work and whether any future remote roles I interview for, if I even get an offer, might pay significantly less, but I also worry about burnout or layoffs if I stay. Is it better to remain in a higher-paying, fully remote role with heavier workloads and uncertainty, or move to a lower-paying, in-person university role that may offer better work-life balance and stability? My main concern is if the better workload is worth giving up the benefits and scheduling ease of working remote?",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/1q5wwba/100k_remote_cloud_job_with_heavy_workload_or/",
+      "comments": [
+        {
+          "body": "Honestly do not add 30 min commute each way every day. Thats not only like working an extra 5 hours a week but also you cant do laundry during the day or make luch at home and eat real food, those hours and moneys you spend for work add up. Calculate everything you will not be able to do during your workday and add those hours on top of the five extra hours of commute. Calculate all the money you will spend to commute either by public transit or by car there are costs associated with this but also parking if you have a car, then lunches, coffee from outside your home, etc..",
+          "score": 1
+        },
+        {
+          "body": "Basically just keep your job sounds great",
+          "score": 1
+        },
+        {
+          "body": "[deleted]",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "IT vs. Accounting vs. Electrician: should I stay in tech or change careers?",
+      "body": "I've been in IT for 5 years now after changing careers from firefighting. My first degree was in kinesiology. I've debated going back for a 2nd bachelors in IT, MS IT or changing careers to accounting or a trade like Electrician. I have Azure, comptia trio, CCNA, and GCP certs. Even then I get no interviews. I have a good remote job now, but the workload is heavy, I don't trust it long term, and I'm not getting no responses for jobs that I apply to. I'm not sure whether to stay in tech or change careers?\n\nI've been working in IT for a few years, mainly on the infrastructure side—dealing with servers, Azure, cloud administration,, Active Directory, VMware, etc. While it's been a solid path, lately I've been questioning it long term with AI, offshoring, and my troubles finding even an interview when I apply. I wonder if Accounting will have the same issues? I feel like the interviews may be easier in Accounting than tech, where interviews feel like very specific SAT tests, where the interviews grill you with a bunch of random questions on the tech stack or products they use. Whereas, with Accounting the rules and procedures are the same everywhere and you don't have to know 10 different software products or mutliple scripting command examples that interviewers may ask about.\n\nHowever, with both Accounting and Electrician careers, I'm worried about starting all over for less pay. I went to an electrician apprenticeship info session 7 years ago, and the pay was only 11.50 an hour in my area. Electrical work may have a different vibe in the workers compared to working in tech as well. I used to be a firefighter and sometimes I miss working outside, and I am healthy to do the work. Now that I'm older though, I don't know how it would be on my body as I age. Sometimes I think it may be better than random bs slack or teams meetings, maybe I'm just thinking the grass is greener on the other side?\n\nI'm in mid 30s, does it make sense to give up the work I put into tech to change careers? My other option is to get a MS IT or a second bachelors in IT/CS, but idk if having a specific degree would help either at this point? Or if changing careers would be better?",
+      "subreddit": "jobs",
+      "score": 2,
+      "url": "https://reddit.com/r/jobs/comments/1kzmznl/it_vs_accounting_vs_electrician_should_i_stay_in/",
+      "comments": [
+        {
+          "body": "At the current job market electricians are getting hired in my area. (I’m in a factory hotspot) not accounting for",
+          "score": 1
+        },
+        {
+          "body": "[deleted]",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "IT Job Hunting 101",
+      "body": "As I've been recently asked more than a few times here (and elsewhere) how I've managed to get laid off 4 times and never out of work longer than a month.  In fact, every time I've really set myself to finding a new job it's never taken longer than a month.  I've helped at least a couple dozen people in my field find new jobs using this method...so I thought I may post something that may be of help.  Even if you're not in IT, some of these tips may help you.  \n\nDisclaimer:  You may agree or disagree with what I've posted.  I'm not saying it's gospel, it's just what has worked for me and others that I've helped along the way.\n\n# IT Job Hunting 101 \n\n### I.  Resume\nFirst thing to do is take a look at your resume and understand there are 2 audiences that will review your resume.  The first is recruiters (either contract houses or internal recruiters).  They don't care about what you've accomplished as much as they're for keywords.  They don't understand the technical terminology (most of them), they just know what they need to find.  The second audience would be hiring managers and technical staff.  They want to know your responsibilities in your previous jobs and what you've accomplished.  I've refined my resume over years of asking recruiters, managers and technical staff if my resume was easy to read and understand.  Ignore the rule about the 2 page resume...it's crap.  \n\nOne thing about lying on your resume.  It's one thing to stretch the truth, it's another thing to lie...there's a difference.  If you lie, odds are you'll be caught and excluded.  But saying you can do something that you CAN do (even if it wasn't in production) isn't really lying as much as stretching the truth.\n\n\nAnyway, on to the resume format.  This format has had good success with the people I've helped to revamp their resumes\n\n\n\n    Date               Company                                City, State\n    Job Title (in BOLD)\n    1.  I start by listing responsibilities in a couple of bullet points\n    2.  Then I add accomplishments\n    3.  Typically, I end up with 7-8 bullet points\n    4.  Use terms like built, created, designed, deployed, implemented and managed.  Don't reuse terms if you can avoid it.  \n    5.  The last item is my technical environment which is not a bullet point but an entry under the last bullet point (and it lines up with the rest of the text).  Example\n    Technical Environment: Windows 2003/2008/2008R2,2012R2, Active Directory, ESXi Server 4.1/5.0/5.1/5.5, vCenter 5.0/5.1/ 5.5, WSUS 3.0.\n\nI always have a friend with decent English and IT skills proofread my resume before I submit it anywhere.\n\n### II.  Organizing your job search.\nI start with an excel spreadsheet with the following columns:  \n\n1.  Recruiter\n2.  Recruiter contact #\n3.  Recruiter e-mail\n4.  Position interested in/submitted for (this is important, many companies will exclude you if you've been submitted for the same position by multiple firms).\n5.  Last contact date.  It's important to maintain contact with your recruiter weekly (no more than that).\n6.  Step in the process (submitted, interview (list date), background check, offer, etc)\n\n### III.  The Search\nI really don't have any earth-shattering tips to share here...it's really a numbers game.  The more jobs you're submitted to, the more interviews you'll have.  The more interviews you have, the more comfortable you'll be with interviewing (and the better you'll perform).  If you don't have an established list of recruiters and contacts, you'll have to troll around Dice and other job boards looking for positions with your skill set.  Apply to those positions directly, speak with the recruiters.  Talk to friends in the field (and LinkedIn can help here).  Contact recruiters you've spoken to in the past about other jobs.  Be aggressive.  When I've been laid off, my full-time job was finding a job.  I'd be on the phone and searching every morning from 8-noon. \n\nBefore I hit a senior level in terms of skills, I'd message ALL of my LinkedIn recruiting contacts stating that I was actively pursuing new opportunities.   I'd also message the recruiters I've worked with in previously telling them the same.\n\n### IV.  Recruiters\nFirst thing is to be up front with what your salary requirements are and what type of position you're looking for.  If you're out of work, you can't afford to be as picky.\n\nI contact recruiters I've had contact with weekly (a week apart) and tell them that I'm sorry if I'm being annoying, but I'm really interested in XYZ position at company ABC and I want to know where we are in the process.  If you've interviewed, ask the recruiter if they've heard any feedback.  Most contract house recruiters get paid a salary and commission for placements...so understand that they really don't care about YOU per se, they just want to get the job filled. However, if you can build a bit of a personal relationship with them, it DOES help that they remember you.  I've gotten a few positions with recruiters I've maintained contact with over a course of years.  Many times they've thought I may be a good fit for a position and I was their only submission.   \n\nDepending upon your level of desperation, you should ignore recruiters that only e-mail you or only contact you via LinkedIn Mail (especially recruiters that are outsourced recruiting).  If a recruiter calls you, by all means pick up the phone and talk to them.  Good recruiters will call you and maintain occasional contact with you (at the point where you have a good relationship, e-mail is perfectly acceptable).  \n\nAfter you get a position, maintain contact with the GOOD recruiters on the list, give them leads on people you know that may be looking.  Keep this list and use it for the next time.  \n\n### V.  Interviews\nI can tell you that I've gotten most of the positions I've interviewed for...and that over 20 years and countless interviews, I've only really blown 2 interviews.  The first was early on in my career and there was a pen on the table and I started fidgeting with the pen.  I caught myself half way through the group interview, but the damage was done.  The second was a techical interview for one of the top companies in the field.  I was nervous about the position going in (because of the company AND the position was different than I was used to).  About a quarter way through the interview, I was asked to whiteboard the architecture I came up with (something I wasn't prepared to do) and I experienced total vapor-lock.  I forgot everything and fumbled around trying to draw it on the whiteboard.  Afterwards, I called a buddy of mine and gave him the lead on the position as well as the hiring manager I interviewed with and told him, \"Look, I know I blew the interview but I'm not calling you for that.  I do have someone that would be a good fit for the position.  Turns out my buddy did interview and did get the job.  The bottom line is that I've learned from my mistakes.  \n\nThe interview is where you set yourself apart not just technically, but personally.  They're not just interviewing people they want to do a job, but people they can work with.  \n\n1.  Prepare for your interview.  Know what the position is and what it entitles.  Know about the company (what do they do).  Try to find out if they have any other offices.  Find out how many employees they have.\n2.  Review your resume and recall the things mentioned on your resume as you'll likely be asked to explain those items in greater detail.\n3.  If you've been laid off, do NOT show up down for an interview.  If I can get away with it, I try not to let them know I'm already laid off (because you're subject to being low-balled if you get an offer).  But if you can't get away with it, it's best just to be honest and say that it's just business and it happens and smile when you say it.  Your mental state when interviewing after being laid off says a lot about you to your potential employers about how you'll deal with stress on the job.  If you maintain a positive attitude despite being laid off, most interviewers will be impressed.  How do I know this?  I've asked the hiring managers after I started the new job what set me apart (aside from my technical ability).  They've said my attitude was positive in spite of being laid off.  \n4.  Sit straight, hands in your lap or lightly clasped in front of you (no white knuckles..LOL).  Be relaxed.  Smile.\n5.  Ask them questions about the team, working environment, and technical environment.  You should be interviewing them as much as they're interviewing you.  Believe it or not, this does set people apart when they make a decision.\n6.  Bring examples of your work.  NOBODY does this.  I've brought examples of documentation I've written for environments I've architected.  I've also brought examples of code I've written.  I never provide the ENTIRE document or code (if they want that kind of thing, they can hire me). \n7.  Do NOT bring up salary requirements at your interview unless they ask...this is usually taken care of BEFORE the interview by the recruiter.\n8.  At the end of the interview, ask how you did in the interview and if there's anything more they'd like to know or things you could improve on in the interview process.  Again, this says something about you wanting to constantly improve.  \n\n### VI.  Social Media\n1.  LinkedIn - Use it.  Don't add everyone, add only recruiters you've spoken with (otherwise you'll get crap leads).  For every job you have you should get at least 1 recommendation (I usually shoot for 2...one from a peer and and another from a manager).  Tailor your skills and endorsements for your needs (remove things you don't like or don't want to do) \n2.  Facebook - Do NOT have your profile set to public and have pictures of you looking like a douchebag available for anyone to view.  That's the same with any other social media site you belong to...employers can and will look you up (even if it's unofficially).  \n\n### VII.  After getting the job\nGo get drunk.  Just kidding.  Hell you may want to, just don't drive.  Anyway, there's some follow-up stuff I do after I get a job (not immediately after...maybe 30 days after).  \n\n1.  I contact the recruiter and ask them for feedback on my resume.\n2.  I ask the people I interviewed with what set me apart from other candidates (so I can remember these things).  \n\n### VIII.  After NOT getting the job\nGo get drunk.  No really, go get drunk.  Not really.  Get your chin up and say, \"Next!\"\n\n1.  Find out why you didn't get the job from the recruiter the hiring manager or both.  Ask what they were looking for and what you could improve upon to get the position if it should open up in the future.    \n\n### IX.  Career-Building\nAs someone with 20 years in the field, I can tell you that until I reached a senior level position, my main goal when changing jobs was to do something a little bit different.  Early on, I was only doing Windows...but when I had the opportunity to work at a place that would cross-train me in linux, I took it.  That led me into doing work with VMware When I had the opportunity to do storage in addition to virtualization, I took it.  Stretch yourself...you should look at a job as a resume builder.  \n\nExperience &gt; $$$  Until you get experience, money should be a secondary concern.  I've had 2 occasions that I took pay cuts ($5k) just to have an opportunity to do something I knew would pay off (it did).\n\nAdmittedly, I have a somewhat mercenary approach my career.   Part of that is because I've been the high-priced (at least from what they're paying the contract house) contractor guy and the first to feel the axe when cuts are made.  Because of that, I've come to the conclusion the only loyalty I owe any company is my time and quality of work.  Beyond that, I don't owe them a thing.\n\nOne thing I forgot to mention...and this is also important.  I know the rule is don't talk salary with other people.  While you should NEVER discuss salary with co-workers...that rule doesn't apply to *former* co-workers.  Once you've left you can ask people in a similar position what they're making.  I know what my job pays for my area...both at the top and the bottom of the scale.  Why?  Because sharing information helps everyone out as it's easier to know your worth in the marketplace if you have those discussions with people you've worked with (NOT currently working with).  \n\n### X.  Giving Back\nI've done a few free seminars on this stuff.  I've been very fortunate in my career and I wouldn't be where I am without the help of others.  I've always tried to help people I know with their careers...finding new jobs, feedback on their resume, lists of recruiters, whatever.  I'm fortunate in that I love my career...I want other people to be happy in their careers as well.\n\n#### Special note for those unemployed workers out of work for more than 60 days\nI'm going to suggest you do the following.  That if you have a gap in your resume that you fill it with something stating you're self-employed IT.  You were doing independent contract work (using your skills) for small businesses or freelance work.  There's a stigma against having large gaps...because wonder if you're so good, why are you out of work?  Yes, I'm telling you to lie on your resume to get past the ridiculous stigma people have against people out of work.  When asked on an interview state that you've been doing whatever independent work but you wanted a more consistent level of work (pay).\n\nEDIT:  Added a bit about sharing salary info.",
+      "subreddit": "jobs",
+      "score": 142,
+      "url": "https://reddit.com/r/jobs/comments/5ps226/it_job_hunting_101/",
+      "comments": [
+        {
+          "body": "Thanks for the post. Any advice for someone fresh out of college and with minimal/no experience?",
+          "score": 5
+        },
+        {
+          "body": "Thanks for the writeup. \n\nWhen you are contacted by a recruiter/headhunter about a potential job how can you politely ask what salary they expect to pay. Last time I went to the interview, was offered the job, but it was a few more hours, a lot longer commute and then only a 10% increase in pre tax salary. Now I'm still getting offers but I don't really want to research companies, research commutes, prepare for interviews, take a day out of schedule to go interview only to get an offer that I won't take anyways.\n\nI'm thinking of something along:\n\n&gt;Thanks for the interest. Not to be blunt but I just went with another recruiter 5 weeks ago and went to an interview only to find that the position would be working more hours and with a longer commute.\n\n&gt;I am not disinterested in new opportunities but unless the salary is significantly higher or the commute is significantly shorter (\\[From hometown]) it seems futile to leave a company where I enjoy being and feel like I contribute a lot.\n\n&gt;So if you could comment a bit on location and a salary range that would be great.\n\nWould that do?",
+          "score": 3
+        },
+        {
+          "body": "As someone that is about to live and work in the US in about 3 months this post is pure gold.\n\nThanks",
+          "score": 2
+        },
+        {
+          "body": "Thanks for putting all this together. ",
+          "score": 2
+        },
+        {
+          "body": "Hi, what is your view (or others) about what level of career/job detail should be on Linkedin versus your CV?  I see some very detailed - do they copy their CV?   Others, most others, very light on detail.  What do potential employers and recruiters want to see?",
+          "score": 2
+        },
+        {
+          "body": "Hi, I've been looking for a job since September, and have yet to find one. I've got semi good companies on my resume, but have yet to hear back from a company. Would you mind taking a look at my resume?",
+          "score": 2
+        },
+        {
+          "body": "This is a beautiful post. Good work OP!",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Should I stay in IT or switch to Accounting?",
+      "body": "I've been working in help desk support roles for a year and a half now after changing fields from healthcare. Have 3 CompTIA certs, and 2 Microsoft Admin certs, and am studying for Linux/CCNA certs currently. I've debated going back to school at WGU for the Network Operations course, but I'm between that and completely switching to Accounting. \n\nMainly because I've noticed most accounting jobs only asking for 0-2 years experience and the degree. Whereas tech jobs want you to have 3 to 5 years exp each in Vmware, windows admin, linux, telephone t1 troubleshooting, powershell, bash, tech support, logistics, etc. It just seems like the list goes on and on and there's no standard to getting a job because each place is different. Some want 10 years experience just to work on help desk, it makes no sense.\n\nHowever, I could just be overly bitter from some jobs I've interviewed at too. But, the accounting job posts did not seem near as picky. Is this true, and is it as easy as I'm making it seem to find a job in accounting, or does that field have more credentials, skills, and years of experience that are required to get hired as well?\n\nLastly, I also feel the Accounting degree would take longer at WGU, because at least with the Network Operations one with my certs it would mark out half the classes. I'd also be starting fresh, so I feel it would be harder to find a job with no experience. Then again though Accounting doesn't seem as picky in regards to experience as IT is, but is this true or are they just as picky?\n\nAnd with that said would it be better based on my circumstances to stay in IT or switch to Accounting?",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/pthvbq/should_i_stay_in_it_or_switch_to_accounting/",
+      "comments": [
+        {
+          "body": "Hello, thank you for posting to r/Jobs! \n\nWe just wanted to let you know that we have a new [discord server, come join the chat!](https://discord.gg/TY6ErXV)\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/jobs) if you have any questions or concerns.*",
+          "score": 1
+        },
+        {
+          "body": "I wouldn’t blame you switching to accounting. Tech is a never ending list of new technologies you need to learn. Accounting does require a lot too, but, it doesn’t seem as needy as tech. I have CompTia trifecta and CCNA, and I still couldn’t land a job because of lack of experience. Had to jump back into Satcom.",
+          "score": 2
+        },
+        {
+          "body": "Despite listing lengthy tech stacks, employers rarely expect you to have experience in all of it. In my experience, knowing 50% of the listed technologies is enough to get considered as a candidate.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Kinda Nervous about an Interview and need advice on this situation",
+      "body": "So I applied at a position that has the following requirements:\n\n**1+ years of relevant experience with a demonstrated knowledge of server hardware troubleshooting, VMWare ESXi and vCenter administration, and Linux command line structure.**\n\n**Excellent understanding of VMWare vSAN technology, in-depth knowledge of enterprise storage topology, virtual switch administration, and virtual machine provisioning.**\n\n**Candidate must have a strong customer orientation, excellent phone etiquette and an excellent work ethic to meet staffing attendance requirements**\n\n**Candidate should also possess excellent communications skills and be in position to work under pressure with calmness and composure**\n\n\nThey say you shouldn't apply unless you have 50% of the job posting. The latter two I posses in spades as I've worked in Tech support for 5 years and customer service for 8. The first two though, I have very little experience with those specific technologies. My extent of my experience is using VMware player for test environments on the systems management platform I managed. While I'm not completely ignorant on the topic, I didn't troubleshoot it in depth.  In that place I worked there almost two years. I put VMWare only as a bulletpoint on my resume but nothing in my job direct job experience that would lead them to believe I directly troubleshot it extensively. It was really meant as more of a \"I'm familiar with it\" as in \"I can spin virtual machines up when needed to build test environments and perhaps perform very basic troubleshooting\". In the same way an office or HR worker would put powerpoint or excel on their resume. I worry they will expect that I directly troubleshot it for a year or so. However, on the other side of the coin, I don't feel I said anything directly to mislead them and they decided to contact me regardless. My areas of more knowledge are Windows,SAAS,Networking, and Triage/Workflow Management. I am taking a course on Udemy to learn as much as I can on Hypervisors like ESXi. Do you think they will feel that I'm just wasting their time or are they cognizant they contacted me with only a bulletpoint on my resume and see me as possibly teachable?",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/opl49v/kinda_nervous_about_an_interview_and_need_advice/",
+      "comments": [
+        {
+          "body": "Hello, thank you for posting to r/Jobs! \n\nWe just wanted to let you know that we have a new [discord server, come join the chat!](https://discord.gg/TY6ErXV)\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/jobs) if you have any questions or concerns.*",
+          "score": 1
+        },
+        {
+          "body": "Be confident but honest about your abilities when asked. You can always add that you’re a quick learner and willing to put in the work to become an expert. You definitely stand a chance of getting the role!",
+          "score": 1
+        },
+        {
+          "body": "VSAN product team here….\n\n1. Go do the free hands on labs for it.\n2. Here’s a E-Book.  https://blogs.vmware.com/customer-experience-and-success/files/2019/01/Operationalizing-VMware-vSAN.pdf\n3. Got further questions. Ping me and we can do a zoom on it.\n\nI’m the author of the vSAN design and sizing guide.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "My boss quit and now I'm acting as director. I already thought my job kinda sucked and it was time to start looking for other opportunities but now I'm not sure what to do.",
+      "body": "I will apologize in advance if some of this becomes a rant but I have had, in my mind, a few things happen over the course of my employment with this company that I think is kind shitty and I am over worked as well as underpaid (I'm sure most people feel the same)\n\nI currently work as Interim IT Director\\\\PACS Administrator (my original title is Systems Analyst\\\\PACS Admin) for a medium sized hospital that is owned by a large corporation. I have been with the company for over two years and I have enjoyed most of it. Now mind you, I have been looking at other opportunities for at least 6-9 months but nothing in my area seems to be what I want or meets the pay that I would like to receive. I've also looked within the company or corporation rather, but haven't found a position that I like.\n\nSo to give the obligatory background of my experiences for reference in this post, I will try my best to give a short, but comprehensive, look into why I have come to think that it is time to start really digging in and seriously entertaining other job opportunities. \n\n**A brief(ish) history....**\n\nI came into this job with minimum experience, especially with it being a healthcare facility. I don't have a degree in the field or any certifications and I had only worked as an Assistant IT Administrator for a year before this and there was a 5 year gap between me working at my previous IT job and coming into this position. I didn't get the pay that I really wanted but after 5 years of working dead end jobs to make ends meet, I was hungry for any opportunity in the career field that I felt was a good fit for me. I also view this job as more of a classroom or a hands on learning experience then anything else. I came into this position fully expecting to be thrown to the wolves and having to fight, claw, and scratch my way out of issues to make myself better from these experiences so that I would have the additional knowledge to help me be better suited for the next challenge I might encounter. Anyways, to start, my original job was only for a Systems Analyst position working part time. My boss was awesome enough to work me 40 hrs a week instead and eventually they had no choice but to move me into a full time position (my FTE status was well beyond what was required to be considered a full-time employee so HR had to do this). \n\nThis is the beginning of the many slights (I will try my best to narrow these down) I have had while working here. When the full time Systems Analyst position was \"created\", I had to apply for this \"created\" full time Systems Analyst position. Which was cool, I'm sure there is a process that they have to follow. Sooooo I applied with the expectations that I would be offered the job and would have the ability to re-negotiate my pay. This was a mistake. After applying for the job I received no communication from HR and was moved into the full time position. This took me from an hourly employee (in a 24/7 operation where you are on call, this can really make a difference) to a salaried employee with exactly the same pay, but I did get better benefits so I guess that is one plus. The only way I found out about this was from HR calling me one day to tell me to stop clocking in, that was it. Needless to say I was a little perturbed by this but I kept my mouth shut and moved forward.\n\nAs time went on we had an employee that was working in our department as a Systems Analyst\\\\PACS administrator that was fired (I won't go into details). This opened up the PACS administrator position. For those who don't know exactly what that is, it stands for Photo Archiving and Communication Systems, but for the sake of over simplifying, just think of the role as someone who supports the various imaging systems for the Radiology department of a hospital. This job can be very lucrative, especially if you have experience but most of the time this role is held by someone who's a certified Radiology Technologist and moves over into the more IT related parts of these systems. At first I was hesitant to even think about wanting to take on or apply for the position as I would literally become the main point of contact for the whole department, regardless if it was a PACS based issues or just a PC\\\\application\\\\network issue. The job was posted and stayed open for a looongggg time, like 6-8 months. My assumption is they didn't want to truly pay what a PACS admin would typically make and the Director of that department loves to insist that it is really only a 20hr\\\\week job which I now realize is total BS. Well after some time I thought to myself \"it's another opportunity to learn a new set of skills and I can increase my knowledge of another set of systems\" and I applied for the job. After going through the interview process, which involved my Director, the Radiology Director, and a few of the hospital executives, they decided to allow me to fill the role but with the understanding that I would be more of the technical support for these systems and would help assist the PACS Specialist (people with in the Radiology department that have worked with the system for some time and have a pretty good understanding of the systems) while also being sent to our vendors training facility to receive training to be a PACS administrator. I wouldn't have to take call for this role, would have help with doing the job and would get to have some additional training for the job. DUDE this will be awesome!!! WRONG! Pretty much none of this happened: I didn't get the training as promised, the so-called \"PACS Specialist\" are truly just a couple of people trying to get a pay raise with out doing any of the work that comes along with that role and try to take every opportunity to skirt out of those responsibilities, and it never fails that when a pretty significant problem occurs then I'm usually the first one to be called. Plus if there is any project even remotely related to the Radiology department it becomes mine, and only mine, to own and see it through. Now this would entail a significant raise right? Well after a lot of back and forth with the HR department on pay, which they would only communicate through my director to me and not have a face to face discussion about, I did manage to get a great pay increase but it still comes in under what even a starting PACS admin would make. I consider this my second slight by my company. I would love nothing more to remove myself from position and our department (IT) and have it be solely allocated as a resource in Radiology (I have had discussions about this but they have fallen on deaf ears). That way they have a dedicated resource to handle issues. The job is easily a 35hr/wk job and if someone with experience came in they would have no problem finding the work that needs to be done.\n\nThe third slight comes almost immediately after I took the PACS admin position. As we are the IT department for a 24/7 facility we have to take call to be available for any issues that may come up. Well our facility executives decided that we shouldn't receive on call pay. My director didn't agree with this and argued that if our on call pay is to be taken from us, then the difference of pay should at least be averaged up across a year and we should all see get a pay increase to make up for it. Well I didn't get the pay increase because I had \"technically\" just got a raise.\n\nSince I look at this job opportunity as my chance to get first hand experience and knowledge on as many different technologies as possible, I have just been craming in as much info about everything I possible can or fight with our corporate teams to give me access to systems so that I can learn other systems too.\n\nIn a condensed version with the Systems Analyst role I have learned to:\n\n\\- use VMWare to monitor, troubleshoot, and build virtual servers\n\n\\- networking - plan, design, implement, and troubleshoot routers, switches, access points. \n\n\\- phone systems - plan, design, implement and troubleshoot NEC phone systems and vendor hosted phone systems\n\n\\-active directory\\\\GPO - provisioning user access, manage system access, build policies for our facilities computer systems\n\n\\-HL7 interfaces - plan, design, implement interfaces between systems and troubleshoot issues \n\n&amp;#x200B;\n\nIn a condensed version with the PACS admin role I have learned to:\n\n\\-monitor and troubleshoot the physical servers that support these systems\n\n\\-configure the back end of the PACS system to implement new or moved imaging devices so that they can communicate with our PACS\n\n\\-troubleshoot the various applications our PACS vendor has - voice recognition for dictation of reports, viewing application, image sharing between PACS systems, image storage\n\n\\-implement new applications for the radiology dept - this would include building servers, HL7 interfaces, active directory\\\\GPO and networking needs\n\nand there are several other areas that I have worked on but in an attempt to shorten this post I'm going to leave these off.\n\n&amp;#x200B;\n\nNow with all this new found knowledge I have been the go to person for some time for almost every project that comes through our department, and mind you I'm not even considered the Lead Systems Analyst, that title is held by another semi-useful individual in our department that makes more than me. So recently we have had another change in our department and my director has left to take another job as a project manager for another company. On the recommendation of him and our Market CIO they have made me the Interim Director for our department. This has come with a temp pay bump but it has also comes with several additional headaches. Where as before I was able to put more focus on troubleshooting or working on the implementation of things I have been thrusted into \"the shaking hand and kissing babies\" of the business. Now I don't really mind dealing with this portion of it but to have it added on top of doing my regular duties has been almost impossible. A big portion of this headache really starts right inside of my own department. We have a Lead Systems Analyst who is coming up on retirement that is basically only capable of imaging PCs and doing some other mundane task with a slight sprinkle of doing more complicated task but consistently is unable to handle bigger problems or creates another issue in the process of performing a \"fix\". We also have a new hire that is trying his best to get up to speed but he has a long way to go and then there is a what we call a clinical informaticist in our department which is really a glorified nurse that pulls reports from our electronic medical record and trains staff, but really isn't what I would consider a true IT person. Don't get me wrong the guy is helpful but is only going to do so much and loves to state that he is \"a nurse, not an IT person\". So why he is in our department is really a mystery to me, well I know why (politics) but I'm just going to leave it at that.\n\n**In conclusion**\n\nSo now comes the BIG looming question. With the IT Director position now open, do I apply????\n\nBut in addition to that comes another list of questions. Can I turn the department around? Will the facility and the powers that be actually work with me to accomplish this?? Are the people we currently have willing or able to step up and take on new responsibilities??? Do I even want to accept the responsibility of pulling this all together??\n\nAlso, do I wait and hope that whoever they decide to hire as the director is capable of jumping right in and handling all of the intricacies of our department? I'm worried the next person to come in this position will have a big learning curve and I'll have to help them get up to speed or basically have to teach them the role and end up doing the job anyway while remaining at my current position thus getting shit on even more.\n\nOR is it time to really get down and start trying to find a new job? \n\n&amp;#x200B;\n\nAny opinions, insight, or similar life experience is more that welcome. I would be more than grateful to hear any thoughts on this!\n\n&amp;#x200B;\n\n**TL;DR**\n\nI've have been with this company for a while and my boss just quit, so now I am the acting director of our department but I'm not sure if I would like to apply to the job or jump ship to another job.",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/msxj7i/my_boss_quit_and_now_im_acting_as_director_i/",
+      "comments": [
+        {
+          "body": "Hello, thank you for posting to r/Jobs! \n\nWe just wanted to let you know that we have a new [discord server, come join the chat!](https://discord.gg/TY6ErXV)\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/jobs) if you have any questions or concerns.*",
+          "score": 1
+        },
+        {
+          "body": "Money talks, bullshit walks. Tell them what you expect. If they refuse or stall decide if the job is worth it. I sounds like they will be really screwed if you leave. PS: DO NOT train your replacement.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Deciding between job offers?",
+      "body": "Currently making 14 an hour at help desk L1 position work from home. Full time with benefits and 401k.\n\n1st offer is from a small business, starting as work from home then gradually working to in office. L1 call center role again for 40k a year commute is 15 minutes or so. The interview did as a lot about vmware and other questions which I thought was extra for an L1 role. 40 hours a week full time, benefits after 1 month, 401k after 3 months.\n\n2nd is from a recruiter who offered an L2 field tech role at my current employer for $18.57 an hour, driving to different places maintaining computers etc and its all onsite, and I wouldn't be doing call center work. Benefits offered through the recruiting service where they pay 50% on insurance. The role is a contract role which gets extended based on performance which worries me somewhat, and the wear and tear on my car too they said it would be around 200 miles a week but they would reimburse travel expenses. The role sounds good plus they offer dell certs with the role.\n\n3rd is from another recruiter for an L2 role at a manufacturing company. Commute is 45 mins away. Full time, Contractor role again, 40k, benefits offered through the staffing service. This one is all onsite maintaining routers and servers on computers, no call center work. No driving or field tech work, but the commute is a long way and my parents said this job sounded like it would be too intense, and thought the contractor role sounded less stable and unpredictable.\n\nWhich one do you all think sounds best?",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/jxuegx/deciding_between_job_offers/",
+      "comments": [
+        {
+          "body": "Hello, thank you for posting to r/Jobs! \n\nWe just wanted to let you know that we have a new [discord server, come join the chat!](https://discord.gg/TY6ErXV)\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/jobs) if you have any questions or concerns.*",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Tech Job Offer Contingent on Essay",
+      "body": "I had my third interview with Company A over Skype, for an IT Engineer position; of which the CTO, managing director, team lead, and Software Engineering manager were a part of. The interview was slated for an hour but went over, and one of the interviewers realized he was a half hour late to another meeting because our conversation was going so well. Overall, I think I made a great impression with the panel through my technical and non-technical skillset. \n\nToday, the recruiter reached out to me and said the panel liked me but want me to write up a document on a project I've worked on or a topic of their choosing (all topics were IT-related, think VMware, MS Server 2016, etc.) The reason is because the nature of the interview, being over Skype versus on-site, was \"not a good way to vet a candidate.\"\n\nI'm currently moving across country as I have another offer with another company, Company B, in the same area. I would like to work with Company A as Company B had many red flags with management surface during the interview.  I do not have the time to create a technical paper for this company that I think would be satisfactory of employment. How should I approach the recruiter with this?",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/8voxhh/tech_job_offer_contingent_on_essay/",
+      "comments": [
+        {
+          "body": "Explain your circumstances and ask if they would be willing to wait a week for you to complete the document. Don’t feel bad, I had to build an entire project from the ground up in two days. It’s stressful, but worth doing. ",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Career Crisis? Why is the job hiring process so broken?",
+      "body": "I recently switched careers from firefighting to Information Technology. I got 5 certs and work at a help desk job for 14 an hour that I had to interview twice for. Whereas, most of the people in there don't even have any certs. I also have a degree, but it's in a separate field. In the fire department I was doing 48 to sometimes 70 hours a week because we had mandatory 48 hour shifts at times. My parents still said I shouldn't have quit, so it weighs on me mentally at times. The environment was really toxic though, could only get promoted every 3 years at minimum usually took longer, and we had to do constant overtime and layovers which added to the hours.\n\nI also recently had an interview for a similar role that actually paid more for an L1 help desk job, but they were asking AWS, Cisco routing questions, and all these VMWARE questions for a level 1 help desk job. Then got to the second interview and all he did was ask about hobbies, thought it was weird. But, he mentioned why did you move around different a few places in a 4 years. And I was like because I'm changing careers? Then I looked at his linkedin and he lived in literally the same town his whole life, and stayed at one job for 10 years and another for 5, I'm almost thinking it was the same company that got renamed lol.\n\nLooked on indeed and glassdoor and the company had a 3.0 rating, that said they were laying off people when coronavirus happened, but then they hired more right after. Constantly imposing new demands on people etc. It was funny tho because I had more certs than the \"IT Director\" and he kept suggesting get an MCSA, but I was tempted to say they don't even have the mcsa anymore it got phased out lol. They ended up ghosting me, and after a week and a half  I sent an email and it said that they preferred to hire someone \"a little more senior.\" I did good on the first technical interview. I don't see how the second interviewer had anything to go off of though, it was the weirdest informal interview and all he asked about was hobbies, travel, things you like to do etc.\n\nI want out of my current 14 an hour job though. Our manager sends out emails 2 to 3 times a week threatening to fire us if we don't pick up enough tickets along with doing calls, chats, and email tickets, along with training programs and responding to emails everyday. Also, since the new year we're receiving 50 to 60 calls a day per person. Idk what else to do. Technically I was making about the same at the fire department though, just the salary increased to around 40k total because I doing 60 hours a week average sometimes more. Should I have stayed in firefighting or did I make a good decision to leave?\n\nI don't know whether to move countries, is it just in the US that the application system is broke and you have to fill out 1000 applications to do 2 interviews where they ask you unrelated hobby questions and then ghost you? Are these companies even interviewing or are they just wasting peoples time? I also feel like it's such a waste of time to fill out these applications when I could be learning skills. But, then you go into the interviews and it demoralizes you. They end up saying something like oh you're studying that, but you should also know this, this, and this for 15 an hour.",
+      "subreddit": "jobs",
+      "score": 3,
+      "url": "https://reddit.com/r/jobs/comments/kz0qxs/career_crisis_why_is_the_job_hiring_process_so/",
+      "comments": [
+        {
+          "body": "Hello, thank you for posting to r/Jobs! \n\nWe just wanted to let you know that we have a new [discord server, come join the chat!](https://discord.gg/TY6ErXV)\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/jobs) if you have any questions or concerns.*",
+          "score": 1
+        },
+        {
+          "body": "It takes a little time to move up in IT. You’re just paying your dues right now.  Certs  matter but experience matters more. Just stick with it. Firefightering is good if you last until you get a pension, but if it was toxic the odds that you’d have lasted that long we’re close to 0.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "[IT Field] My career journey - Call Centers to 100k+",
+      "body": "WARNING!!!! THIS IS A LONG POST.  IF YOU DON'T WANT TO READ IT OR DON'T NEED ANY IDEAS ON CAREER PROGRESSION THEN WHY THE FUCK ARE YOU HERE?\n\n\nI have seen many of you ask how to break into certain fields, how to progress from the low end of the totem pole to the well paid positions once you do break into said fields.  After lurking for so long I've decided I want to post my personal journey in the IT industry.  Specifically starting down at the totem pole as a Call Center agent, up to my current position as a Systems Engineer at a large organization.  Keep in mind this is MY journey, and MY choices that I made due to MY circumstances, they might now apply to you on a 1:1 scenario, but maybe it can give you some ideas on what to do when you are stuck. \n\nLet me preface by saying that I have am lucky to have supportive parents, wife and coworkers, so my journey has not been a painful one, but rather a progressive and knowledge increasing one.  Let's begin at the beginning when I was a fat fuck after high school\n\n- - - - - - Begin dream sequence - - - -\n\n**College - 2007-2013**\n\nI sucked at college, I hated it.  I graduated 2 years late but thankfully with 2 useless degrees (Economics, Mathematics) rather than just one.  I didn't work in college and just partied, and gamed.\n\n&amp;nbsp;\n\n\n**2013 June - 1st job** \n\n**Call Center Drone at a Benefits Company - Contracted through 'Bobert Ralf' - 15$/hour**\n\n\nWow where to begin.  I dreaded going to work every morning to listen to old men complain about their benefits.  Was hired with a group of 7 at this company where all they do is cycle through contractors in their call center, never providing anyone a permanent position.  I knew what I was signing up for, but I needed money.\n\n&amp;nbsp;\n\nI had no idea what I wanted to do with my life so I made friends with lots of people in different areas of the company and constantly pester them about open positions in their team, be it billing, auditing, marketing, and IT.  Everyone gave the same response \"Will let you know if there is an opening\" but I never heard anything back other than that.  The benefits company finally sacked the old Director of the CC and appointed a new one who wanted to get rid of contractors and replace them with permanent employees.....from her old workplace (fuck her).\n\n&amp;nbsp;\n\nObviously I was let go here in May 2014 and I had no idea what I wanted to do.  Little did I know this would be the best thing to ever happen to me.\n\n&amp;nbsp;\n\n&amp;nbsp;\n\n**2013 July - 2nd job**\n\n**IT department of large car sales company - Contracted through 'Bobert Ralf' - 16$/hour**\n\nI got a call from the recruiter at 'Bobert Ralf Technology' who saw that I had listed 'Office 2007 and Office 2010' on my resume.  He wanted me to take a 3 month contract at this company because they had just migrated from 2007 to 2010 and needed  an \"expert\" to answer some dumb questions on the phone when customers called.  I sat around for a week and saw that not any calls were coming in regarding Office and I was getting bored.  I looked at the other people around me and saw people with the title of \"Helpdesk Analysts\" doing things on SERVERS and things called ACTIVE DIRECTORY that I though was SUPER COOL.  I wanted to do that, I wanted to learn that stuff so I asked the director of IT if I could do helpdesk here since there were no calls specifically for Office.\n\n&amp;nbsp;\n\nShe liked my go-getednessism (i think thats a word, whatever) and had her helpdesk lead train me to image computers, and create new users and take basic phone calls from employees about random nonsense that i knew nothing about.  But hey, the part where I was imaging computers and creating accounts was a great eye opener for me.  I wanted to do more, see the server room here and find out what this group policy dealio was that a guy titled \"Systems Administrator\" (or as I liked to call him \"guy who never has to deal with people on the phone and just keeps making changes\") kept complaining about.\n\nAfter the 3 months were up I had hoped my go-gotednessismitis would have secured my position there as a helpdesk guy.  But shit man I was naive back then.\n\n&amp;nbsp;\n\n&amp;nbsp;\n\n**2013 November - 3rd job** \n\n**IT department of real estate company - Contracted through 'Bobert Ralf' - 16$/hour**\n\nNow see, I liked IT so much and wanted to work in the industry so much that I decided to do something about it.  What did I do?  Did I study meticulously and take tons of certifications and learn all I can?  \n\n***FUCK NO!***\n\n***I LIED TO BOBERT RALF AND TOLD HIM I FORGOT TO PUT DOWN A HELPDESK ROLE ON MY RESUME I HAD DONE FOR 2 YEARS IN COLLEGE!***\n\n*Oh really son?  Well that just opened up a whole new can of low paying Helpdesk roles for you! GRATS!*\n\n&amp;nbsp;\n\nRalf got me an interview with the company and I came out to them as probably a bumbling idiot with no IT experience.  I did make one thing perfectly clear though, that if they chose me, they will get a person who will constantly ask questions about IT, will want to do more things than assigned, and learn really fast, beacuse IT was something I was geniunely interested in.  They liked my gusto!  And i got the job.\n\n&amp;nbsp;\n\nNow what was happening at this place was that there was a Sys Admin here currently, and a Desktop admin.  The Desktop guy was leaving and the sysadmin guy did not want to do helpdesk anymore (who does?).  So he pestered management to hire TWO helpdesk people to take the load off.\n\n&amp;nbsp;\n\nI was hired along with another helpdesk coworker at the same time and started to do real IT stuff that helpdesk/desktop admins usually do.  I quickly befriended our Infrastructure manager as he saw that I enjoyed doing these things more than my coworker (more on him later).  I guess it's because IT was new to me and I was just finding it's magic.  During my second month here the sysadmin got sacked for uhm... diddling the receptionist and we had noone to take care of any of the systems.\n\n&amp;nbsp;\n\nI had a heart to heart with my manager at this point and explained to him my career goal, and if I could shadow him whenever he touched the infrastructure just so I can learn.  He really liked that and he became my first ever mentor in IT.  He taught me so much shit that my newly IT initiated head thought I wouldnt be able to retain all of this.  I was wrong, I remembered.  He taught me once about systems, then he allowed me to do what he used to do, and I would sometimes fuck it up, and sometimes ask good questions and do the jobs given to me no problems.  I asked for more and more of these, and my manager gave me free reign on the IMAGING SERVER that sat in the closet.  Told me to get it working.\n\n&amp;nbsp;\n\nIt was an MDT server that was started and left alone a year ago and never touched.  I googled, watched videos, learned everything I could about MDT and WDS and got the server working and began managing the image deployments.  I asked for more after this, got access to AWS to mange VMS there, got access to Azure, to zscaler and on and on.\n\n&amp;nbsp;\n\nWhile I was asking for more and learning more and more I saw my coworker doing the same shit day in and day out, answering calls and doing bullshit chores.  I learned more about him at this point, and learned he had been in IT for 10 years doing the same shit each time.  Each time he would just move laterally and not vertically and end up doing the same shit each time, all the while complaining that he can't ever break into anything higher than helpdesk.\n\n\n&amp;nbsp;\n\n&amp;nbsp;\n\n**2014 March - 3rd (.5?) Job**\n \n**Permanent Salaried Position at IT dept. of real estate company - $46,000 a year**\n\nMy manager had the budged to make 1 individual a salaried employee of the company, and guess who he chose.  He chose NOT THE GUY WHO HAD BEEN STAGNATING FOR 10 YEARS IN IT.  \n\n&amp;nbsp;\n\nI expressed my interest at the open Sysadmin position but my manager was honest with me, I was not ready for that role, but he wanted to hire someone to that role who would be another mentor to me.  I was hired permanently into an IT Engineer role doing everything from AWS vm management down to helpdesk.  We hired a 3rd helpdesk only individual at this point.  \n\n&amp;nbsp;\n\nIn July 2014 we hired the new Sysadmin and we hit it off right off the bat.  He realized how much I wanted to do what he was doing, how much I would bug him to let me see what he was doing and let me do some of it under supervision.  He taught me a bunch, and in my career I can say that he has given me the most TECHNICAL knowledge for my growth.\n\n&amp;nbsp;\n\nNow let's go back to the coworker who had been hired along with me.  This dude got jealous and started complaining that I was getting preferential treatment, I was hired on even though he had more IT experience, and generally being a pest for both HR and our manager.  He started interviewing around and made ANOTHER FUCKING LATERAL MOVE as an IT field technician in November 2014.  (I look him up on LinkedIN still, he tries to sign people up for gas rewards now)\n\n&amp;nbsp;\n\nI wanted to move to be closer to my sibling, so in september 2015 i put out feelers in another city/state and got an interview.  I talked to my manager and sysadmin and explained my situation of moving and they were supportive and agreed to be my references (they gave me mind blowing recommendations to the new company) and blessed my career growth and future.  I asked them if it would be ok if I listed my title at this company as a 'Systems Administrator' and not IT Engineer, since titles actually fucking matter.  They said 'shit son, i dont care'.\n\n&amp;nbsp;\n\n&amp;nbsp;\n\n**2015 November - 4th job** \n\n**Systems Administrator at 'Lobbying group for blue collar workers who can't do anything else other than assemble shit' - $81,000 a year**\n\nCame in as the only systems administrator in a small to medium non profit.  I got my first taste of enterprise grade technology here, physical servers, vmware esxi clusters, asa configs, switch configs and all that jazz.\n\nI did not know any of this shit coming in, but I had learned one thing that I believe is the most important thing for a person to succeed in IT.  Cue Keeanu Reeves the MATRIX - - - I know Google-fu.\n\n&amp;nbsp;\n\nI could learn absolutely anything you want regarding your environment and how to fix shit from Google, and that is how i learned in any case.  I know there are plenty more people out there in IT that are much smarter than me and have solutions to problems I am having.  These people already went throug all of it and wrote down their fixes.  Now coming here I knew a little bit about sys adminning already since I psuedo maintained an environment by myself before the sysadmin was hired, and even then he included me in projects.\n\n&amp;nbsp;\n\nI worked here and learned a fuck ton of things relating to network security, web servers all the things i didnt have a chance to learn previously.  And guess what, I set up an MDT server here too to fix their shitty Acronis solution.  A year later I had learned all there was to this environment, and wanted to move up to a bigger environment that used the same products I was familiar with.  ESXI, cisco gear all that. So in October of 2016 I once again started job hunting and got a very good offer from a small telecom support company that I couldnt refuse.\n\n&amp;nbsp;\n\n&amp;nbsp;\n\n**2016 November - 5th job** \n\n**Systems Engineer at 'We're not really a phone company, but we look like one' - $116,000 a year**\n\nWell here I am currently.  The new stuff that drew me here was that their environment consisted of Linux as well as windows, and I wanted to learn Linux for my future career prospects as well. \n\n&amp;nbsp;\n\n&amp;nbsp;\n\n\nWhat I learned throughout my journey are some simple points\n\n* Lie, cheat, steal, do whatever you have to do to work in a field you enjoy\n* Once you're in the field, give it your best efforts, it will come naturally if it REALLY is what you want to do\n* Always tell prospective employers that your salary was much higher than what it really was (when I was paid 81k, I told them I was paid 95k and it would take me at least 110k to accept an offer)\n* Learn by doing, ask for more work, fuck up what you work on, apologize and fix it, then ask for more\n\n\n",
+      "subreddit": "jobs",
+      "score": 2,
+      "url": "https://reddit.com/r/jobs/comments/7rctqs/it_field_my_career_journey_call_centers_to_100k/",
+      "comments": [
+        {
+          "body": "Give it up for *The Scarface* of IT",
+          "score": 3
+        },
+        {
+          "body": "Where the hell you live that you can find a call center job for $15/hr?",
+          "score": 2
+        },
+        {
+          "body": "That’s awesome bud, congrats! ",
+          "score": 1
+        },
+        {
+          "body": "way to go!",
+          "score": 1
+        },
+        {
+          "body": "I'm surprised you couldn't at least get into underwriting or data analysis with a math degree? ",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Technical interview Application Support Specialist",
+      "body": "I had today the pre-interview with the HR manager and they scheduled me for a technical interview next Wednesday midday with the infrastructure engineer and team leader.\n\nMost of the questions will be LINUX related and about my background. The company is an online investment platform that only deals with stockbroker services, so I am guessing the questions will be pretty brutal because of the importance of their uptime and service.\n\n&amp;#x200B;\n\n**Essential skills and experience:**\n\nGood Linux system administration experience. (CentOS/RHEL)\n\nStrong IT skills, including desktop support and knowledge of Microsoft Office.\n\nEvidence of implementing Service improvement initiatives.\n\nExperience with Windows Server administration.\n\nExcellent communication skills, both verbal and written.\n\nA good understanding of LAN/WAN networks, TCP/IP protocols and network technologies.\n\n&amp;#x200B;\n\n**Desirable:**\n\nKnowledge of the IBM I platform\n\nTechnical IT certification\n\nSQL experience - preferably on a DB2 database. (Writing SELECT queries and UPDATE\n\nstatements).\n\nAn understanding of the JHC Figaro application.\n\nApple Mac desktop support experience.\n\nKnowledge of VMware VSphere.\n\nExperience of using code and scripting languages (Bash, Python, Windows PowerShell/batch files\n\netc.) to automate time-consuming tasks.\n\nGood knowledge of the financial services industry\n\n&amp;#x200B;\n\nAnyone else has some pointers? Some skill/s that they brushed off and worked? Something I should expect?\n\n&amp;#x200B;\n\nI am pretty scared because it's been two years since I worked in a technical support position but I have constantly read and improved my knowledge but for a company it's not the same, a gap is a gap.",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/c6jkgn/technical_interview_application_support_specialist/",
+      "comments": []
+    },
+    {
+      "title": "Is formal education absolutely necessary to get introduced into IT?",
+      "body": "Long story short, i cannot afford formal education (im a dependant of people who make too much money for loans and they are cutting me off due to divorce among other issues)\n\nI have about 2-3 years of assisting some local government in network design, user support, troubleshooting, etc.\n\nI also have public facing servers (where i run VMWare, W2k8, etc) and a bunch of other stuff to demonstrate i'm not an idiot.\n\nBut how does this look on paper and whatnot? I have a lot of experience in IT and i feel as if the stuff i was being taught at the college (i dropped out second semester) was stuff i've been doing since grade 6 (no joke).\n\nI'm not looking to become IT Supervisor at a Level3 NOC, but I just want to get into the field. (I don't apply to jobs I don't think i can' do or can't google).\n\nSo far, I passed a phone interview for a place called Computer Visionaries in PA and i have a phone interview tomorrow for www.support.com\n4:09AM and sleep deprived, rip at me if you can (so I know what to prepare for)",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/1zm43f/is_formal_education_absolutely_necessary_to_get/",
+      "comments": [
+        {
+          "body": "I have been working in IT for 3 years now. I have studied Communications and PR, and got my in through front line helpdesk (good with people). From there, people who want to stay in the field (most of my colleagues) study on there own and get specific certifications, and on the job experience. Personally I am not happy in IT, and plan to change fields soon. ",
+          "score": 2
+        },
+        {
+          "body": "Sounds like you should be able to get an IT Support job - and move up from there.  Experience or education. (Preferably both, but experience is sometimes enough.)",
+          "score": 2
+        },
+        {
+          "body": "If you can't get some paperwork behind you (because yeah, it really does get you in the door at big agencies and gov/state/academic jobs where HR has to pass you through), then I'd focus HEAVILY on a portfolio of your work. If it's web-based, link to apps you've made. If you do behind-the-scenes work (as you mentioned), maybe write up some case studies of problems you've solved for people and significant projects you've worked on? \n\nI have an MIS now, which admittedly got me my current job (since about 2.5 years now), but the job I had before that was for about 4 years, and I got into it about 3 years before I finished the MIS part-time (at a university, so I just took part-time classes while working the job)... so it's definitely possible to get tech jobs without IT credentials. You just really need to be able to demonstrate your actual ability in lieu of having the piece of paper, and then you want to be able to apply through the right channels so that your application isn't dismissed out-of-hand.\n\nGood luck!",
+          "score": 2
+        },
+        {
+          "body": "Edward Snowden! ",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Been searching almost 3 months...what (if anything) am I doing wrong?",
+      "body": "I've been job searching since early June, while still working but knowing the ax is coming, and I've been really hoping to avoid any employment gap. Today I got the word that I'll probably be let go within a week or two. It's been frustrating and stressful for the most part, and I'm looking for advice on anything I can change up.\n\nMy background: I started my current job 9 years ago as an A/R bookkeeper. I'm very good at the technical aspects of the job, passable at collections, but I've only ever had to collect from government agencies, so I had to use a tender hand. As other people left I had to take on more responsibility, so I wound up doing all the reconciliations, some light A/P, and audit liaising. I think I'm qualified as an Accounting Manager or such, although my degree is in actuarial science and I don't have a CPA.\n\nTwo years ago, my company's IT staff left and they decided to hire an outside consulting firm. But soon they realized that they needed someone on site, and I was doing most of that anyway, so I was given the title of Systems Administrator and my pay increased to $48,000. I have no education in computers, but I know how to fix PCs and run the Active Directory on our servers. I don't know VMware, but I'm trying to read about it, and I don't know Linux. I think I could do the job full-time, but I'd have to learn some stuff on the job and I might be ignorant of some things.\n\nSix months after that, the new CEO took a liking to me and made me his assistant, another title. I did budgets and plans, and also helped present to the Board. That should have been another salary bump, but the company hit hard times and is now closing.\n\nSince I've been living where I am--out in the boondocks--for a while, I'm probably going to have to move and the place I go to will be more expensive, so I've been looking for jobs in the $50,000 range.\n\nI spent some money and had a professional write my resume for financial jobs, and then tweaked it myself to emphasize the IT over the finance.\n\nIn early June I started searching in earnest, mostly on Career Builder and Monster. Jobs that fit are continually posted, and I hit them all. I worry that I don't tweak my cover letter enough, but I usually try to quote the best matching function in the posting back to them to show that I've read it.\n\nTo date I've submitted 170 applications. I got a few callbacks, some of which were under the salary I'm looking for (Frustration #1: why are there so few postings with salaries?! If it's a $35,000 job, why waste each other's time?).\n\nI've had four interviews from this. Which means that, at a ballpark figure, 150 of the applications I've sent have merited no response at all. I don't know if this is de rigueur or if I'm presenting myself badly on the applications. I have a LinkedIn profile and my Google and Facebook searches turn up nothing. \n\nAll of the interviews have been in the IT field. I've had nothing from finance. Three were at IT consulting firms; one was at a bank. The bank and one firm brought me back for second interviews, but the bank sent me a snail mail saying they had gone with someone else, and all of the consulting firms, including the one that brought me back, have been mum.\n\n(Frustration #2: They say they will get back and don't! I had an interview two weeks ago, they said by the end of the week I'd know, and I followed up last week and got the boss's out-of-office response. Is it too much to just dash off an e-mail saying, 'Not you'?)\n\nI know I'm in a much better situation than many people, but I'm still being stressed, and I need to know how to finish off this job search and wind up where I want. I'm visiting my local Labor Department career center where I'll ask much the same as I am here, but I want to get as many views as possible, and also organize my thoughts.\n\nThank you for reading, sorry for the length, and thanks for anything you care to post in response.",
+      "subreddit": "jobs",
+      "score": 3,
+      "url": "https://reddit.com/r/jobs/comments/1l4cs7/been_searching_almost_3_monthswhat_if_anything_am/",
+      "comments": [
+        {
+          "body": "It seems your roles have changed throughout your time with this company, it can appear that you are very eager to learn and adapt very well to change. It could also appear as you never really had consistency or focus in one specific area. That is just my opinion. \n\n\nAs someone from the IT field, I say that IT is def a role that is very heavily based on certifications. Certifications like ccna and mcp often expire and require renewals due to the constant change of technology. I feel a good selling point for you is to state that in IT, technology and infrastructure change every day and that you need some one dynamic who can adapt to change.",
+          "score": 1
+        },
+        {
+          "body": "Does your cover letter acknowledge all the changes in roles? If not, it may be something to work on. I think your resume may seem to lack focus, but providing context may help.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Question about interview /IT",
+      "body": "Im going to interview and I want to be prepared as much as I can. I applied at junior engineer and there is some Job Requirements\n\n\n\nGeneral skills\n- High motivation for self-development\n- Proactive attitude\n- Ability to work well as a team member\n- Good communication skills\n- Ability to take initiatives and decision-making\n- Ability to work in a multicultural environment\nLanguages\n- English spoken and written on upper-intermediate level\n- French/German spoken and written on intermediate level will be an advantage\nSkills and competencies \n- Problem solving capabilities\n- Methodical and disciplined approach to work\n- Ability to deal with multi-task issues and to prioritize tasks\n- Ability to work under time pressure\n \nAdditional Advantages\n- Knowledge of IT systems quality assurance, best practices and methodologies (ITIL)\n- Experience in similar position\n- Knowledge of Microsoft Windows /VMware Servers\n- Unix/Linux systems background\n- Familiarity with LAN/WAN and TCP/IP technologies and protocols, ability to diagnose and locate network issues\n- Familiarity with databases (MS SQL/Oracle/MySQL/PostgreSQL)\n- Knowledge of Active Directory Windows 2003/2008\n- SharePoint, Livelink, OCS, Lync basis\n- Middleware applications knowledge, ex. WebSphere, WebLogic, JBoss, Tomcat\n\nWhere can I chceck my skills? How that interview looks like?\n ",
+      "subreddit": "jobs",
+      "score": 3,
+      "url": "https://reddit.com/r/jobs/comments/3qfc08/question_about_interview_it/",
+      "comments": []
+    },
+    {
+      "title": "Bad interview because interviewer did something I've never encountered before",
+      "body": "I had an interview for a VMWare Engineering position yesterday and after reflection on it, I think I did a horrible job in it, but I don't think it was my fault: I think it was entirely the interviewer's.\n\nIt was divided into two parts: the first part was me explaining a project that I did that aligns with his project (I already knew some of the skill requirements and scope of it), which I think I did pretty good on.\n\nThe second part was him explaining his project. Well, this is where things went sideways. He was consistently using incorrect terms and explaining technology incorrectly.\n\nI am NOT one to correct people to their in a position of high power such as someone interviewing me. They have all the power and I'm just there to answer their questions about me. If he wanted me to correct him, there's zero chance of that happening. I just kept mentally correcting him and went along with what he said. I did send a follow up email to him about his incorrect idea about VMWare EVC modes, and he did respond positively, but that's where it ended.\n\nIn retrospect, I consider his interview style to be absolutely disingenuous because of the major power disparity during an interview. No one with even an ounce of respect would conduct an interview like he did. If he was expecting me to correct him on the fly, there's no way in hell I was about to. I have too many years of work and interview experience and know you don't correct an interviewer unless they prompt you (which he didn't).\n\nHas anyone else here experienced this type of interview process?",
+      "subreddit": "interviews",
+      "score": 159,
+      "url": "https://reddit.com/r/interviews/comments/1khnagb/bad_interview_because_interviewer_did_something/",
+      "comments": [
+        {
+          "body": "While the interviewer was either being dumb or baiting you to see if you knew your shit, you could have carefully told him that you're unfamiliar with the technical terms he's using and that you know the processes by other names. I feel like knowing how to navigate these situations may be seen as something desirable for the interviewer.",
+          "score": 112
+        },
+        {
+          "body": "That sounds.. weird. What was the actual point of the second part? To sell the role to you? Was he just a wrong person to explain the project, or was it some kind of weird test? Just odd.",
+          "score": 34
+        },
+        {
+          "body": "That org has a reputation for … this type of interview style. \n\nTesting how you “manage up”",
+          "score": 19
+        },
+        {
+          "body": "Assuming the manager was competent, you failed an important test: the ability to ask clarifying questions while demonstrating technical depth and credibility. Example:\n\nhttps://youtu.be/3nGQLQF1b6I?si=did2gG-LQadwCdUw",
+          "score": 9
+        },
+        {
+          "body": "I must be missing something. Did the interviewer tell you that he expected you to correct him?",
+          "score": 6
+        },
+        {
+          "body": "It may be controversial, but I can see the value in this. It has two purposes. One a person who did not know the job well would just nod their head and go along with it, raising the red flag for their knowledge.   \n  \nThe other is that it is a skill to \"say no to power\".  In my experience sometimes you have to correct a client or manager and you must do so delicately but confidently. It could be they are just using different terms for the  same technology. But it can also be a huge problem if you agree with a project manager or client because of the power differential or \"customer is always right\" attitude, and then when you go to actually deploy/implement the project you either build something shoddy or you find it is actually impossible to build as they described, and the project is then in a horrible situation.   \n  \nIt may be \"absolutely disingenuous\", but this may be a role where this skill is absolutely crucial, and if you did not feel comfortable correcting him or jumping in, this was not a good fit for you. \n\nOf course this is all just conjecture.",
+          "score": 10
+        },
+        {
+          "body": "A lot of organizations need people who know what they’re talking about but won’t be arrogant about it. Essentially, the test was:\n\nAre you confident enough to correct the project manager/interviewer (politely)?\n\nAnd if you are, are you humble enough to not rub their nose in it?\n\nTbh I would ask a similar question if I were trying to hire an IC or a tech lead, because I need to know you’d be comfortable enough speaking truth to me. But I also need to be sure you won’t dawdle in how right you were. Especially if this is an organization where everybody would like to be a manager and is convinced they’d be good at it.\n\nTL;DR –\n\n1. figure out how you could help them\n2. encourage by reflecting how far they’re already along\n3. end with a question you don’t know about so they can save face",
+          "score": 4
+        },
+        {
+          "body": "Definitely an unconventional interview, but there’s no need to be afraid to correct those who have seniority over you. In fact, as an engineer that’s one of the top qualities my job looks for in a candidate. Speak up if you notice a problem. That’s what they pay me to do. It’s not rude and it won’t come across as hurtful if you do it in a professional way.",
+          "score": 3
+        },
+        {
+          "body": "Recently had an interview where I was asked “what would you do if a partner gave you a task that made no sense or was based on blatantly wrong facts, because this is a surprisingly common situation.” \n\nIt seems like this is taking out the hypothetical and seeing what you’d actually do when the pressure is on.",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "title": "BIG Interview tomorrow",
+      "body": "I have the BIGGEST IT interview of my life tomorrow. \n\nBack story: I have worked in IT for 7+ years, and 5+ years as a VMware Engineer. I randomly applied for a Job that I was interested in, didn't think I would get a call back due to the fact they wanted 11 years or more of experience. Well, I guess my resume looked pretty good to them. \n\n70% of this interview is technical and the other 30% is general. With the qualifications they are looking for I use them every day, just may not be \"the expert\" in these areas except for 2 or 3. Some of the products they are looking to have \"qualifications\" I have used before. \n\nI created a one note to review the areas they are looking for. Made some notes about the products just to refresh myself in these areas even tho I use the products, just some more than others. Made myself another note page to go over some of the general questions I know they are going to ask, like \"Where do you see yourself in 5 years\" or \"Tell me about yourself\" \n\nAm I preparing for this interview correctly? How do you prepare yourself physically and mentally for this type of interview?  I really want to blow this out of the water.\n\nAny tips or tricks would greatly be appreciated.",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1b6gp2p/big_interview_tomorrow/",
+      "comments": []
+    }
+  ]
+}

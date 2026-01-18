@@ -1,0 +1,528 @@
+{
+  "company": "two-sigma",
+  "post_count": 22,
+  "exported_at": "2026-01-18T17:44:53.311Z",
+  "posts": [
+    {
+      "title": "Advice for breaking into quant trading.",
+      "body": "I posted a few days ago about an opportunity I have, but some of the responses, I think, show some confusion about what the reality of trading is.  I see a lot of posts asking \"How to I break into quantitative trading?\" or \"How do I get a job at Renaissance or DE Shaw?\"  I suspect that if you are asking those questions in this forum that you are probably *not* the type of candidate they hire -- that's doubly true for Renaissance.  I interviewed candidates for stat-arb for over a decade.  Saw plenty of resumes from Shaw, Citadel, etc... Never -- not one -- from Renaissance.  Next, if you think that you are going to go to Two Sigma, or Shaw and learn all the secrets of trading, you are wrong.  Most of the well known places keep their trade secrets under lock and key and will sue the bejesus out of you if they suspect you are taking their secrets elsewhere.  But quant trading used to be a bit different before every john and his brother was trying to work in the industry.  There were and still are some number of traders who operate strategies in a silo and like the independence of this type of situation.  A lot of these guys work at places like Millennium and Schoenfeld and there are fewer and fewer.  The fact is: if you want to break into trading you need a mentor and the well known places are not into mentoring people who will leave and compete with them.  You need a mentor because not matter how smart you are, you are going to be a crappy trader repeating all the well-known dead ends of the past 20 years if you do it from scratch.  That's why the Quantopian experiment is failing.  If you want a mentor you find a guy who has a strategy and you convince that person to show you a bit.  Why would this person share such valuable IP with you?  Because it is exhausting running a strategy by yourself sometimes.  Smaller traders can make good money, but they do not have the resources of a Citadel to run a full fledged recruiting program.  So... if you want to learn how to actually make money trading, find an independent trader to show you the ropes.  Go work at Citadel if you want a salary that will go up a bit each year.  Learn how to trade if you want an upside that is bounded only by your cleverness. ",
+      "subreddit": "cscareerquestions",
+      "score": 25,
+      "url": "https://reddit.com/r/cscareerquestions/comments/7gqo89/advice_for_breaking_into_quant_trading/",
+      "comments": [
+        {
+          "body": "&gt; How do I get a job at Renaissance\n\nLmao",
+          "score": 37
+        },
+        {
+          "body": "Out of curiosity, are there any projects that one can make that can help them understand quant trading?",
+          "score": 10
+        },
+        {
+          "body": "[deleted]",
+          "score": 8
+        }
+      ]
+    },
+    {
+      "title": "Interview Experience with Two Sigma",
+      "body": "Has anyone had an in-person interview with Two Sigma that wouldn't mind sharing their experience? i.e. How did you prepare? What types of questions were asked? etc. \nDon't have the in-person yet but am hoping to get there. \n\nThanks!",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/6tq40n/interview_experience_with_two_sigma/",
+      "comments": [
+        {
+          "body": "Have you had a phone interview yet? ",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "two sigma hackerrank interview",
+      "body": "How difficult is the two sigma coding challenge?\n\nThanks ",
+      "subreddit": "cscareerquestions",
+      "score": 1,
+      "url": "https://reddit.com/r/cscareerquestions/comments/6yqyve/two_sigma_hackerrank_interview/",
+      "comments": [
+        {
+          "body": "Can you provide any updates?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Oracle OCI vs Sigma Computing SWE Internship",
+      "body": "Hi all,\n\nI recently got two SWE 26 internship offers at Oracle OCI in seattle and Sigma Computing in SF. I'd love some help in deciding between the two (established vs unicorn). I have one previous internship at a non tech F500. Here are some of my thoughts.\n\nOracle:\n\n     Pros: Big tech name which may be a good resume signal, its in cloud infrastructure which is a good market (?)\n\n     Cons: Bigger company so I have less responsibility in my project (?), have heard RO rate was iffy past year\n\nSigma Computing:\n\n     Pros: Smaller Unicorn company in the AI, BI space in SF, interviewers were very inviting (seems like good culture), good location, possibly more ownership in my project, historically good RO rate\n\n    Cons: I would be giving up the OCI name\n\nWondering your thoughts on which I should take for both career growth (TC at the company and ability to move towards other FAANG+/resume signal) and learning as an engineer. My main contention point is if OCI's name is good enough to where I should take it over a tech unicorn. \n\nAny advice appreciated. Thanks!",
+      "subreddit": "cscareerquestions",
+      "score": 2,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1paozo3/oracle_oci_vs_sigma_computing_swe_internship/",
+      "comments": [
+        {
+          "body": "oracle name used to help more, now tons of people have oracle on their resume and it doesnt auto open doors anyway, esp for new grads. if sigma is doing real product work and gives more ownership, id take sigma",
+          "score": 7
+        },
+        {
+          "body": "You should go work at Sigma. Rob the founder is extremely smart and well connected, and you will build an amazing network. Being in SF is better. At Oracle, you will be stuck with lifers from Sun Microsystems and they think you are a piece of garbage even when you’ve been there 15+ years.\n\nFANG will like you better with Sigma than Oracle.",
+          "score": 2
+        },
+        {
+          "body": "Which team in OCI",
+          "score": 1
+        },
+        {
+          "body": "Your choice should be dependent upon the experience offered. With OCI it’s highly dependent upon the team you get assigned to. And everything depends on your mentor and if they have the time and proper project for you.\n\nIf you don’t know anything about either role, take OCI. If you know the mentor and project at the other opportunity, I’d take the known experience. Because that matters way more over the name in this market.",
+          "score": 1
+        },
+        {
+          "body": "Dm",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Two Sigma On-Site Interview Advice?",
+      "body": "Hey everyone,\n\nI am currently a 2nd year at uni, and I have been extended an on-site interview for two sigma.  \n\nThis will be my second on-site ever (first one was at Bloomberg and was the definition of crashing and burning).  \n\nWhat should I expect in terms of questions?  Any advice on how to prepare?\n\nEdit:  Got the position!",
+      "subreddit": "cscareerquestions",
+      "score": 7,
+      "url": "https://reddit.com/r/cscareerquestions/comments/4bzt3m/two_sigma_onsite_interview_advice/",
+      "comments": [
+        {
+          "body": "Expect harder questions and higher standards than Bloomberg. You won't be tested on any trick questions or trivia. Go in with solid programming fundamentals and try your best to adapt with whatever they throw at you. Know data structures, OOP and algorithms in whatever language of your choosing. Test your solutions, know running times, ask clarifying questions, and be enthusiastic.",
+          "score": 6
+        },
+        {
+          "body": "Know your design patterns",
+          "score": 4
+        },
+        {
+          "body": "Know your system design. At least one question will be about that.",
+          "score": 2
+        },
+        {
+          "body": "did you get the job?",
+          "score": 2
+        },
+        {
+          "body": "Are you interviewing for one of the quantitative dev roles or a regular SW engineering one? If the latter, then you should expect the similar level of interviews as in big4, maybe excluding amazon. I'd brush up on multithreading and combinatoric-like questions (generate all permutations, combinations, w/ and w/o repetitions and so on). Edit: I didn't have any design related questions.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Two sigma onsite interview",
+      "body": "Did anyone have an onsite interview with two sigma?? can anyone tell their experience and how were the questions like?",
+      "subreddit": "cscareerquestions",
+      "score": 5,
+      "url": "https://reddit.com/r/cscareerquestions/comments/3rhybl/two_sigma_onsite_interview/",
+      "comments": [
+        {
+          "body": "I went! The hotel was amazing, and they even have a gift bag prepared for you when you arrive. Overall, it was a very pleasant experience. The questions were of above average difficulty, but definitely not the hardest I've ever had. You can't really mess up at all though - I messed up on one question and didn't get an offer. I still enjoyed my experience though.",
+          "score": 8
+        },
+        {
+          "body": "[deleted]",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "anyone interview with two sigma?",
+      "body": "i had an interview last week and have a couple of questions. pm me please if you have interviewed with them recently! :)",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/3w08b8/anyone_interview_with_two_sigma/",
+      "comments": [
+        {
+          "body": "Yeah, chances are you got rejected. ",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Didn't get return offer and I'm totally lost.",
+      "body": "I interned at Google over the summer and the project went pretty smoothly. I think both of my hosts gave me very positive feedback. However, I was too absorbed into getting the project done and slacked on the interview prep (Mistake 0). I did my conversion interviews during the last week of my internship (Mistake 1, should have scheduled after the internship so I have time to up my leetcode game.) Though they didn't go exactly perfectly, I thought they were good enough to get me a return offer.\n\nLast week my recruiter told me that hc had decided not to move forward with my application. It was a shock to me. And with that shock I scrambled to take all the online assessments I had received before (Mistake 2) without properly preparing for them, only to find that the code I submitted to Amazon has a bug and I assume that ship has sinked as well.\n\nSince I previously assumed that I would have gotten the Google offer no matter what, I did not apply to as many companies as I could (Mistake 3) in September. And now if I apply to positions released say a month ago they would just be ignored, even if you've got a google internship on your resume.\n\nEven for companies with a prestige on par with Google, I didn't get much luck. I was scheduled for a onsite interview with 2 sigma after I passed the phone screen, and I had to clear up my schedule for it since that happened to be my birthday, they then abruptly said that they scheduled too many candidates for that day and had to cancel my trip. A week later, I got an email saying that they would not move forward with me.\n\nThe phone screen with Facebook was even more ridiculous. I solved both of the problems I was given, and when I discussed edge cases with the interviewer, I said that we can use a variable of type long to check whether the product of two ints would overflow int. The interviewer insisted that INT_MAX * INT_MAX would overflow long as well. I was like, come on dude, how's (2^(31)-1)*(2^(31)-1) larger than (2^(63)-1)? Anyhow, the interviewer was not convinced despite my explanations, and rejected me.\n\nThe only onsite I've got so far was with HRT. The coding part was all right and I passed all test cases with time to spare. The questions they asked were super hard though and even if you can handle them, they'll just throw at you an even more difficult followup. I went in at 10 in the morning and left exhausted at 5 pm. I got rejection the next week.\n\nSo far I am totally lost in my search for a fulltime position and I'm not even sure I'll be able to land one before graduating in December. I think I need to take a step back and completely overhaul my strategies and need advice from you guys.\n\nTl;dr: didn't get return offer from google and fucked up a bunch interviews; need advice for fulltime swe job search.",
+      "subreddit": "cscareerquestions",
+      "score": 194,
+      "url": "https://reddit.com/r/cscareerquestions/comments/dfzw2g/didnt_get_return_offer_and_im_totally_lost/",
+      "comments": [
+        {
+          "body": "&gt; The interviewer insisted that INT_MAX * INT_MAX would overflow long as well. \n\nYou may have misunderstood your interviewer. The overflow doesn't occur on the `long`, but during the `(2^31 -1)*(2^31 -1)` multiplication that occurs prior to the assignment to the `long`. The solution to this issue is to cast one of the multiplied term to `long`. Just something to remember next time you see this same question arise. Although, I highly doubt this was the reason for the rejection alone unless it was an issue with your attitude.\n\n&gt; The questions they asked were super hard though and even if you can handle them, they'll just throw at you an even more difficult followup.\n\nThis is typical and something you need to get used to. Either you didn't reach the 'level' they wanted from their employees or there was something else that caused your rejection.\n\n&gt; So far I am totally lost in my search for a fulltime position and I'm not even sure I'll be able to land one before graduating in December. I think I need to take a step back and completely overhaul my strategies and need advice from you guys. \n\nI would agree with you taking a step back and taking a look at this objectively. It's tempting to see yourself as the victim in many of these scenarios, but as the saying goes - \"when it rains, it pours\". Take ~2 weeks to just calm down, and study interviewing at your own leisure - then begin applying again. Broaden your scope outside of only the top-tier tech companies as well. Between now and December, I'm sure you'll land a job.",
+          "score": 103
+        },
+        {
+          "body": "Keep your chin up! You got the internship, I’m sure you’ll get something great. \n\nDoes google make you reinterview after the internship? That’s bonkers.",
+          "score": 174
+        },
+        {
+          "body": "INT_MAX * INT_MAX would overflow because the intermediate result (before assignment to a long) is still an int.",
+          "score": 67
+        },
+        {
+          "body": "[deleted]",
+          "score": 201
+        },
+        {
+          "body": "Go to a startup, apply to Google/Amazon/Facebook/etc. a year later, if that's what you want.  They'll all re-interview you without prejudice.  You'll get the job later, again, if that's what you really want.",
+          "score": 47
+        },
+        {
+          "body": "If your definition of a CS career is limited to Big N then I guess you're just fucked bro. But you might broaden your horizons instead.\n\nBecause all I'm hearing is \"Google is a no, Amazon is a no, so I've no hope\" and it's like, do you really think that's the entirety of the software development industry?",
+          "score": 51
+        },
+        {
+          "body": "&gt; And now if I apply to positions released say a month ago they would just be ignored, even if you've got a google internship on your resume.\n\nThis is not true.\n\nFull-time applications do not become scarce like internship does after around November - December. You are not late. Take a deep breath, continue LeetCode, continue applying, ask for referrals for other companies, keep it up.",
+          "score": 46
+        }
+      ]
+    },
+    {
+      "title": "Finally made it (0 to 300), never give up and thank you Cscareerquestions",
+      "body": "I made a throwaway post about a year ago here [about getting destroyed in recruiting](https://www.reddit.com/r/cscareerquestions/comments/7sh7rv/why_cant_i_reach_the_top/) \n\nI've learned a lot about navigating through recruiting for internships/jobs in CS over the past 2 years and just wanted to share my journey from being behind and below average to being (somewhat) successful with recruiting.\n\nI started out as a non-major who swapped into CS in my sophomore year who never coded before college at a non-target university. Since I swapped into CS kinda late, I took intro to programming in my sophomore year, data structures in my junior year (after recruiting was over pretty much), and I'm taking intro to computer systems next semester (in my senior year before graduation lmfao). I'm not going to lie, it was an incredibly difficult process and I ran into so many problems just even trying to land interviews. Competing with these bay area kids who attended hackathons in highschool and took AP Computer Science was ridiculous, I didn't even know what a hashmap was until midway throughout my sophomore year. I made that post (link above) in my sophomore year, when I was so frustrated because I wasn't getting any interviews and I was not passing the ones that I got. I ended up reading CTCI, reading EPI, going through hackerrank's video series, doing a lot of leetcode, working on a lot of personal projects, polishing my resume, networking with alumni, and practicing competitive coding problems...etc. It was definitely not an overnight transformation. Took me a solid year to two to improve my coding, interviewing, and networking skills. Faced a lot of challenges, rejections, and it honestly felt downright bad especially since I knew a lot of overachievers who were doing way better than I was. My chance finally came in junior year when I was recruiting for internships, and I knew I had to do well this time around. I continued to prep really hard, and ended up with offers from Google, Facebook, Microsoft, Linkedin, Uber, Amazon and a couple others. Worked really hard at a couple of those I chose to intern at and got return offers, and after this recruiting season I ended up turning them down for a fulltime offer with one of Jane Street/Two Sigma/D.E. Shaw for 250k~350k range first year.\n\nI just wanted to post this to let people, notably frustrated freshman and sophomores facing a lot of rejections, know that even if things seem really grim right now and even if you really want to give up, if you try hard and put effort into what you do every single day, you'll be able to achieve what you never thought you could in a year or two.\n\nThanks to this sub for helping me with my career endeavors, was a good ride.\n\nEdit: Holy crap, first time getting reddit gold! Thank you kind stranger &lt;3",
+      "subreddit": "cscareerquestions",
+      "score": 186,
+      "url": "https://reddit.com/r/cscareerquestions/comments/dxgyx9/finally_made_it_0_to_300_never_give_up_and_thank/",
+      "comments": [
+        {
+          "body": "Damn look at Nostradamus over here with the spot-on prediction: [https://www.reddit.com/r/cscareerquestions/comments/7sh7rv/why\\_cant\\_i\\_reach\\_the\\_top/dt4q0a5/](https://www.reddit.com/r/cscareerquestions/comments/7sh7rv/why_cant_i_reach_the_top/dt4q0a5/)\n\nEdit: And congrats btw! You deserve it :)",
+          "score": 41
+        },
+        {
+          "body": "We get a lot of success post but stuff like this one is rare. \n\nALso kids, use this as an inspiration but know your competition. Do your best and get into the best company you can get. I think OP is sorta down playing his intelligence here and his ability to learn and focus. :D",
+          "score": 35
+        },
+        {
+          "body": "Thanks for sharing your experience. and congrats! Was gpa ever asked for and how often?",
+          "score": 21
+        },
+        {
+          "body": "So happy for you. This is amazing.\n\nI'm coming from the exact opposite side of the spectrum, fifteen years of coding experience, started in grade school. I've been living in a rural area my whole life though, never had a cs job, no idea how to start and I just want a chance. Hearing that you made it having just learned to code in college is incredible. Good luck.",
+          "score": 20
+        },
+        {
+          "body": "Wow... idk if you all realize how wild it is that someone straight out of college makes that much. I worked as a graphic designer a few years after college making under 50k before I did a bootcamp and switched to software eng, and am making 170kTC in a junior position. It’s hard to wrap my head around. The job isn’t really harder. Demand is really high I suppose.",
+          "score": 6
+        },
+        {
+          "body": "Nice job. Did you end up getting an internship to put on your resume before you got all those FAANG offers?",
+          "score": 6
+        },
+        {
+          "body": "Do you have any recommendations for books/tutorials for the math needed to clear interviews for hedge funds? Or any lesser known resources for programming questions that you would recommend? I feel like I am above average when it comes to the average leetcode questions - I can do most mediums and a few hards but I still have a lot to learn before I can clear interviews for hedge funds like jane street or two sigma. I especially find myself struggling when I try solving math based programming problems.",
+          "score": 6
+        }
+      ]
+    },
+    {
+      "title": "Ghosted by Two Sigma?",
+      "body": "I did their coding challenge and had a phone interview with them for a software internship over a month ago. They said they wanted to move onto an on-site interview and sent me a link to schedule it. Honestly I was a little surprised because I didn't feel like the phone interview went particularly well, and even more surprising was that they specified that the final interview would be non-technical. I've yet to receive a response about the final interview, and gotten no replies to my previous two emails about it. Has anyone else had this experience? Is Two Sigma known to have sent an incorrect mass email?",
+      "subreddit": "cscareerquestions",
+      "score": 123,
+      "url": "https://reddit.com/r/cscareerquestions/comments/9xifir/ghosted_by_two_sigma/",
+      "comments": [
+        {
+          "body": "[removed]",
+          "score": 204
+        },
+        {
+          "body": "Not Two Sigma, but I got ghosted by Citadel after the phone interview for an internship. The phone interview went extremely well, but it took a month for them to get back to me, at which point the recruiter called and said they would like to set up another phone interview. I agreed and they said they would set up a time, but it's been six weeks and they haven't contacted me at all. It may have been different if I had sent a followup email, but I got an offer I liked better so I didn't bother emailing them back. Unfortunately, it doesn't seem like what you describe is unprecedented.",
+          "score": 21
+        },
+        {
+          "body": "[deleted]",
+          "score": 16
+        },
+        {
+          "body": "[deleted]",
+          "score": 43
+        },
+        {
+          "body": "It happens all the time with all companies. Just move on and don’t dwell on it or try to remain hopeful that it was a mistake. It usually is not.  Trust, it will make you much happier in the slog that is applying for a job. Ghosting usually means they are waiting on another candidate to accept or someone already filled the job. \nLater on they may or may not contact you and apologize for their “mistake,” but it really means their preferred candidate didn’t accept the offer. An example I received a month after initial talks:\n\n“My apologies, but I was looking through our candidate database and saw that somehow I missed your reply for a phone screen time. If you are still available and interested, please let me know some times that might work early next week. Again, I apologize for the communication breakdown.”",
+          "score": 25
+        }
+      ]
+    },
+    {
+      "title": "Recent New Grads with NYC HFT Offers",
+      "body": "Hi, I am a new grad who is about to receive an offer from a pretty good HFT/quantative firm in the NYC area (think Hudson River Trading, Two Sigma, D.E. Shaw, Tower, etc). I am about to graduate with my masters from a top 5 CS school. \n\nI was wondering if any new/recent grad has had offers from these types of companies, specifically in the NYC area (I know Chicago has a lot as well but COL based salary adjustments may make comparisons more difficult). If so, could you share what your compensation package looked like? You can PM me if you don't want to state it publicly, but I am really interested since I've heard some pretty eye popping numbers but I am not sure how accurate they are.\n\nThanks!",
+      "subreddit": "cscareerquestions",
+      "score": 47,
+      "url": "https://reddit.com/r/cscareerquestions/comments/3pjvrz/recent_new_grads_with_nyc_hft_offers/",
+      "comments": [
+        {
+          "body": "Off topic:\n\nI interned at CME (Chicago Mercantile Exchange). They took us to their data warehouse and trade processing center in Aurora. They showed us all the servers. Customers will have their own dedicated racks in their data center.\n\nThe funny part is that they have to make sure all customers get the exact same latency. So servers that are closer to the exit have to have their ethernet cables wrapped in circles many times - because the length of the ethernet cable has to be equal for all customers.\n\nLol - you are talking at most, about 200 feet, at the speed of light. Let's calculate that:\n\nSpeed of Light: 9.8 * 10^8 feet per second\n\nDistance: 200 feet\n\nTime to travel this distance: **.2 microseconds, or .000000204 seconds**\n\nLol.",
+          "score": 18
+        },
+        {
+          "body": "I worked at this type of firm for a number of years and I am pretty familiar with their hiring practices. Total compensation for software engineers is generally very similar to what the \"big 4\" pays in their East and West coast offices, especially for entry-level candidates.\n\nThe main difference is that instead of stock grants you will get a cash bonus at the end of each year, usually with an option to invest some of it in the fund. That can be a good idea since these firms can earn pretty good returns, but be sure to read the fine print. Some firms have a clawback provision which allows them to take some of the money back when you leave. Also when you leave, they will likely hold onto all of it for a year as a way of ensuring that you honor your non-compete. And even if you stay, the money will be locked up for years at a time due to tax rules. So it's kind of annoying.",
+          "score": 4
+        },
+        {
+          "body": "Have a friend who just got an offer from one of these types. 150k base salary, large bonuses, couple hundred grand of stocks vesting over 4 years.",
+          "score": 8
+        }
+      ]
+    },
+    {
+      "title": "Interview experience of a 2.5 years professional",
+      "body": "This subreddit has been hugely helpful in my job hunt. I have just finished my job hunt (Google and Amazon offers) and am very pleased with it. So, I want to share my journey so that it might be helpful to someone who is in similar shoes as I was almost a year ago now.\n\n**My Background**:\n\n\n* CS degree from a liberal arts college (3.6 GPA)\n* 2.5 years of experience at a series B startup when I started my preparation. By the time I was done interviewing and was getting offers, I had about 3 years of experience.\n\n**Why I decided to look for another job**:\n\n* Had been at same company for a while. Needed something different. \n* The startup wasn't doing ok financially, but not growing much. This meant that the kinds of problems I was encountering was repetitive.\n* By not joining a big4/more reputable company, I was bearing  huge opportunity cost, in terms of compensation and future employability.\n* This is kinda shallow, but I wanted to work at these companies who treat their employees really well. Being in a startup and seeing how they try to cut costs made me question whether toiling 45+ hours to get investors returns was worth it.\n\n**Google doc link to preparation + interviewing timeline** : [Link](https://docs.google.com/spreadsheets/d/e/2PACX-1vRLkGC176QWr1nECRG0-7FM_krKu4MaYDAPkjY5K5rFTuvH9NevSCYWgrfVdGNlRhmO2oRpPJhOUB6K/pubhtml)\n\n**Preparation phase**:\n\nMy primary source for preparing CS type questions was leetcode. Here is my monthly breakdown of my leetcode preparation-\n\n    Date\t\t   Easy\t\tMedium\tHard\t    Total\n    November 2017\t10\t\t0\t\t0\t\t10\n    December 2017\t15\t\t5\t\t0\t\t20\n    January 2018\t20\t\t15\t\t5\t\t40\n    February 2018\t25\t\t20\t\t5\t\t50\n    March 2018\t\t45\t\t40\t\t7\t\t92\n    April 2018\t\t55\t\t55\t\t7\t\t117\n    May 2018\t\t64\t\t60\t\t8\t\t132\n    June 2018\t\t64\t\t84\t\t12\t\t160\n\nI used [system design primer](https://github.com/donnemartin/system-design-primer) for prepping system design. A lot of places didn't ask me system design questions, so I didn't exhaust the github resource. I skimmed a lot of topics. I currently also do devops at my work, so I am decently familiar with how companies scale web apps. I kinda enjoyed reading through the system design topics; it was a nice break from monotonous leetcode sessions.\n\n\nI also used pramp to get comfortable interviewing. Here's the timeline for pramp-\n\n    Date\t\tPramp Sessions\n    November 2017\t1\n    December 2017\t7\n    January 2018\t14\n    February 2018\t14\n    March 2018\t\t17\n    April 2018\t\t22\n    May 2018\t\t22\n    June 2018\t\t22\n\nYou'll notice that I did a lot of them in early part of my prep phase. Once I had done enough of them, I was super comfortable speaking my mind as I write code. This is absolutely crucial and I think it really helped me in the interviews.\n\n**Interview phase**:\n\nI applied to bunch of companies, but only interviewed at the Jane Street, Two Sigma, Bloomberg, Google, and Amazon. I got referred to G and Amazon, and had recruiters from the rest approach me. There's a nifty toggle in linkedin where you can indicate that you are searching for jobs. Once I turned that on, I got bunch of recruiters message me. Here's a timeline of how the interviews went-\n\n    Date\t\tPhone interview\t\t\tOnsite\t\t\tOffers\t\tRejections\n    May 2018\tJane Street, Two Sigma\t\t\t\t\t\t\t        Jane Street\n    June 2018\tGoogle\n    July 2018\tBloomberg\t\t\tTwo Sigma, Google\t\t\t        Two Sigma\n    August 2018\tAmazon\t\t\t\tAmazon\t\t\tGoogle, Amazon\n\nOnce I had Google and Amazon offers, I stopped interviewing further. I had bunch of other companies in pipeline which I had heard back from and was trying to schedule hr/phone interviews. I am negotiating between Google and Amazon, so I don't have final numbers yet.\n\n**Final thoughts**:\n\nThe journey was definitely painful in the beginning. It had been a while since I had read these CS topics, so leetcode easies were kicking my a** initially. However, once I got past the initial hurdle, it became much easier. Since I did a lot of pramp initially, it kinda helped me find motivation. Talking to someone who is on similar boat really helps. I was able to really connect with a couple of pramp interviewers and we actually ended up connecting on linkedin! I could have maybe compressed the preparation phase more, but I would end up burning out. I have a full time job and the only meaningful time I could find to really prep was during weekends and day offs. Over time, I kinda started to like prepping. Another thing I wished I did earlier was have flashcards with leetcode problems on one side and solution/hint on the other. It helped me remember some crazy tricks and also group problems which shared solution techniques.\n\nWell, thats it! This was a long post, but I wanted to give back to the subreddit that was super helpful during my prep phase. Godspeed!",
+      "subreddit": "cscareerquestions",
+      "score": 87,
+      "url": "https://reddit.com/r/cscareerquestions/comments/98fjgn/interview_experience_of_a_25_years_professional/",
+      "comments": [
+        {
+          "body": "[deleted]",
+          "score": 32
+        },
+        {
+          "body": "Did you get asked system design questions in your interviews? Particularly at Google and Amazon? I've got about 1.5 yr exp and thinking of jumping ship elsewhere. Worrying about system design questions because I haven't had the opportunities to work with distributed systems or scaleable websites.",
+          "score": 15
+        },
+        {
+          "body": "Thanks for sharing! Just wondering, did you apply to positions for specialized roles or general software engineering roles? I'm in a similar position, 1 year our of college, now working and thinking about switching. My main problem is I lack the 3-5 years of focused experience that many entry jobs require. Also, how difficult did you find the questions given?",
+          "score": 5
+        },
+        {
+          "body": "Thanks for this.  Seeing the detailed numbers was super helpful as I'll probably be starting my study cycle for a new job soon.  When did you start applying to job posts?  About how long was the time between applications sent in and first interview?  Especially for google/amazon.",
+          "score": 4
+        },
+        {
+          "body": "[deleted]",
+          "score": 4
+        }
+      ]
+    },
+    {
+      "title": "Is doing software engineering at firms like Jane Street/Two Sigma worth it?",
+      "body": "posting from throwaway account\n\nI have interview(s) lined up with the mentioned firms. I have been at one of F/G for about 2 years, straight out of college. I'm not really looking to move but the recruiters from those companies reached out so it got me curious. Is it \"worth it\" to be a software engineer (versus trader) at these firms? I interned at one of GS/MS/JPM during college and I didn't go back because you're reminded constantly that you're a second class citizen in these companies, and that you're there to help the traders do their job. However I see firms like Jane Street/Two Sigma getting hyped up here a lot, so is the situation different there?",
+      "subreddit": "cscareerquestions",
+      "score": 97,
+      "url": "https://reddit.com/r/cscareerquestions/comments/5f02ml/is_doing_software_engineering_at_firms_like_jane/",
+      "comments": [
+        {
+          "body": "Your total comp plateaus earlier as an individual contributor at the big tech companies. Other reasons I signed with one of these firms:\n\n- I spent so much time laughing while I interned there. Smart people combined with all the goofy things that happen in the realm of finance makes for a good time (not necessarily at someone else's expense, but for example Japan's lack of obvious distinction between size and price once made Mizuho a sad panda.)\n\n- On the flip side, it's serious business, and I personally enjoy the air of urgency.\n\n- Related,  you don't need to have faith in \"the product\". You know the people shoveling money around know what they're doing because the lights are still on. \n\n- Approximately everyone is a technologist to some extent. Nobody's job is to just manage humans.\n\n- You're building software for in-house purposes. You can walk over to the person whose feature you have an issue with, or who has an issue with your system, and chances are you can come up with a reasonable solution and agree on how big of a priority it is. \n\n- No on-call\n\n- ~ 45h hour weeks, no pressure from the community to stay at work etc. Leaders are conscious of some companies facilitating employees spending all their time at work, and are openly against that.",
+          "score": 30
+        },
+        {
+          "body": "[deleted]",
+          "score": 52
+        },
+        {
+          "body": "This is off topic, but why do a lot of you keep an air of secrecy around interviews, internships, employment, salary, and other related items? I mostly lurk here and have been curious about this for a while.",
+          "score": 30
+        },
+        {
+          "body": "jane street is one of about one companies in the world that takes functional programming seriously and two sigma has a netbsd developer pretty high up\n\nthey are far better engineering wise than facebook/google",
+          "score": 99
+        }
+      ]
+    },
+    {
+      "title": "Building a plan to land an internship: Two Sigma internship, Jane Street internship",
+      "body": "My goal is to intern at 2Sigma/Jane Street / any other similar company as:\n\n* Software dev intern\n* Quant research intern\n\n&amp;#x200B;\n\nI'll start applying in December 2019 - January 2020. Between no and then I want to continue working hard, but I want to know I'm heading in the right direction...\n\nSoftware dev internship seems more doable but I want to develop a plan for quant research too. \n\nIs getting a job here just a matter of:\n\n1. Build relevant skills\n2. Projects to showcase skills \n3. Network with alumni\n4. Network and more networking?\n\n&amp;#x200B;\n\nI've asked a few people what I should do to get a job of this caliber and they usually only say, \"be good at programming, have a good gpa, know the right people...\" but is that it? That just feels so abstract or vague. \n\n&amp;#x200B;",
+      "subreddit": "cscareerquestions",
+      "score": 23,
+      "url": "https://reddit.com/r/cscareerquestions/comments/b7ty41/building_a_plan_to_land_an_internship_two_sigma/",
+      "comments": [
+        {
+          "body": "I don’t recommend applying in December for a summer internship. You should be prepared to apply in late August or early September with the aim of doing your interviews in late September or early October. If you’re an ordinary undergraduate cs major at a semi target or target school, I would say dev is at least an order of magnitude more attainable than quant.",
+          "score": 51
+        },
+        {
+          "body": "I am a software engineering intern for Two Sigma in this coming summer. My path was \n\n1. Apply on LinkedIn when the job posting opened around August\n2. Pass the HackerRank they gave (I've never done Leetcode, but it was probably two Leetcode mediums. I remember one problem was DP and the other was a graph algorithm)\n3. Attend a Two Sigma networking event that had ~25 other people (I'm not sure how much this mattered, if at all)\n4. Miss the first online interview due to time zone differences, whoops\n5. Pass the rescheduled online interview. The problem I did was actually much easier than the HackerRank\n6. Attend the on-site and do well enough there too. I did pretty well on the first problem, but only passed 3/4 test cases within the hour on the second question. Interestingly this was enough to survive to the behavioral interview which was mostly behavioral and they tossed another Leetcode medium at me.\n\nIn summary: know your data structures and algorithms really well because you will have to solve a good number of problems of that type.\n\nIt's worth noting that I think every single intern candidate at my on-site was in their third year of college. Based on this, I don't think Two Sigma is interested in interns that they can't give a full-time offer to for the immediate next summer.\n\nI also think I was in the absolute last wave of on-site intern interviews, so honestly I'm not going to lie there's a fair amount of luck involved in the process. Like when my dumb-ass missed the interview and they let me reschedule. Contrast that with Uber where *their* interviewer missed the interview and they never rescheduled me.",
+          "score": 29
+        },
+        {
+          "body": "&gt;Is getting a job here just a matter of:\n\nGetting a job there, or anywhere for that matter, is simply 2 things:\n\n1) Getting the interview\n\n2) Passing the interview\n\nMost of what you have described is simply point 1 -- getting the interview. You may know someone there to give you a referral, and that significantly increases your chances of landing an interview, but by no way is it guaranteed.\n\nPoint 2 is down to being technically competent and a boat load of luck. I don't exactly know what is required for quant roles / the type of interview questions they ask, but for software engineering, it's mainly LeetCode type questions.",
+          "score": 17
+        },
+        {
+          "body": "&gt;I've asked a few people what I should do to get a job of this caliber and they usually only say, \"be good at programming, have a good gpa, know the right people...\" but is that it? That just feels so abstract or vague.\n\nIt is the truth.\n\nThe advice has to be high level because how you achieve this goal, step by step, is entirely unique to you.\n\nYou will need to navigate and achieve similar milestones though, for the highest chance of success.\n\nHaving a high gpa, going to a phenomenal school, a strong background in math and programming, advanced degrees, competitive programming/~~IMO~~Math Olympiad experience, and networking are the 'high level' things most people need to accomplish (not all of them, just some combination of them) in order to get a job as a quant/swe at respectable firms. Luck is also a big factor. \n\nKnowing and doing the right things at the right time is incredibly important.\n",
+          "score": 12
+        },
+        {
+          "body": "I'd highly recommend networking for Two Sigma and getting a reference from somebody within. This was how I was able to get a HackerRank from Two Sigma (which I promptly bombed). As for Jane Street, I imagine that a reference would help a ton as well.",
+          "score": 9
+        }
+      ]
+    },
+    {
+      "title": "No Internship and Angry Dad",
+      "body": "First Reddit post in two years...I'm more of a lurker, but this has been stressing me so much I may as well get this off of me.\n\nTL;DR: I haven't had an internship offer yet, I'm anxious, and my parents are anxious.\n\nI'm a CS junior at a fairly good university (ranked among the Top 10 in the US, though its CS department isn't the likes of Stanford or MIT or even some high-end state schools) with a fairly good GPA (3.90 so far, which is pretty good considering that our university is notorious for grade deflation). On the purely academic front, I've been doing well, and I'm planning on doing our department's combined BS/MS program (if all goes well, it should only be an extra semester in college).\n\nWhat I've been an abysmal failure at, however, is getting an internship. I've applied to a little over 30 so far between September and now, which from what I see is very much on the low side. And from them, I have gotten failure after failure. Most companies have ghosted me or rejected me at the resume level; among the ones that haven't:\n\n\\- **Facebook:** Totally bombed the interview; to be fair it was my first and I *just* started getting into Leetcode.\n\n\\- **Epic:** Passed the online screening part and did the onsite at their (very fancy) HQ; unfortunately got a call a week later saying that they moved on with other candidates.\n\n\\- **Twitter:** Sent me a coding challenge and later an email saying that they were processing my app, but nothing since.\n\n\\- **Google:** Did a coding challenge for them and later two back-to-back phone interviews earlier this month, but they haven't updated me afterwards. I felt I did *okay* but not exceptional, and since Google looks for the exceptional I'm not holding much hope for this.\n\n\\- **Amazon:** Did the first part of their online assessment and passed (I don't know how considering I bombed their debugging section), and did the second part of it and failed.\n\n(It's kind of funny how the larger companies were *more* likely to give me an interview; you would think it'll be the other way around.)\n\nSo now I feel like an abject failure, having to keep stressing about internship applications when my friends are already sitting comfy with offers from (for example) Amazon and Two Sigma. I also feel kind of dumb that I went to an extremely pricey private college in a field where name recognition means jack squat (though I do enjoy the experience and friends from said college; at least my parents are paying for my undergrad so I won't have much, if any, student debt).\n\nBut the **worst** part about it is having to hear from my parents about how I'm a failure. My dad, in particular, is a firm believer that I should've gone into premed; both of my parents even have the gall of suggesting that I start preparing for medical school if I don't get an internship. (I haven't taken most of the premed classes, but they suggest that I should start doing so this summer.)\n\nMy dad thinks he's doing a favor because he thinks that if you become a doctor you're set for life. He also thinks that my strengths and premed/med school fit in nicely. I'm good at academics and can ace tests easily, both good qualities for med school; in comparison I'm clearly a failure with interviews and coding challenges and networking and other non-academic skills. In short, I have book smarts but no street smarts. But I don't want to be premed; I don't want to stay in school for another decade and I also don't want to deal with the high stress environment of the medical sector or the high stakes application process for medical school.\n\nAlas, my parent's constant criticism, more than the rejections themselves, have pushed a lot of mental stress onto me this week. (I'm on break right now and will be for the next week.) On one hand, I need to get an internship or *something* this summer, not just to prove my parents, but also to secure a future for myself. After all, if you don't get a summer internship, it seems it'll be impossible to get a full time job after graduation. On the other hand, the constant stress has worn me and, in some respects, *discouraged* me from continuing applying or improving myself. Instead I waste my time on the Internet and browse places like this subreddit, depressing myself and creating a self-fulfilling prophecy.\n\nSo what now, now that I've vented in front of you good people?\n\n1. Where should I apply for more internships? It seems that most opportunities have closed on me this late in the cycle (my dad said that all of the Wall Street internships have totally filled up, and ditto for Big 4), and now I'm kicking myself for not being more proactive. (If anyone has particular companies to suggest, please PM me!)\n2. How do I apply *faster*? For some reason it takes a ridiculously long time to complete one application (around 15 to 30 minutes), so I'm not sure how most people are able to complete hundreds of apps in the time it took me to complete thirty. Keep in mind that coursework and Leetcode grinding takes time away from job hunting.\n3. How can I improve my resume? I've shown it to a bunch of people and have iteratively improved it, but I'm sure there's still more to be done, and I can only make it so good before my lack of formal SWE experience becomes a wall. [Link.](https://docdro.id/A5LjyUC) (Yes, I know that there's the resume review thread, but may as well post it here.)\n4. As an aside to this, any additional tips on Leetcode grinding, interview prep, etc.? (My dad and his friends have given me some, so there's that.)\n5. Most of all, how do I deal with all the stress and feelings of failure during this difficult time? How do I deal with my parents? I know that self-love and self-care are both important, but you can only do so much before you get reality checked. (And before anyone mentions therapy, I already see a therapist at my school and will see her again once the spring semester starts.)\n\nHope everyone has a wonderful New Year's weekend!\n\nEDIT: I see a lot of people here saying \"Go to career fairs!\" I actually did; I went to the two career fairs my university held during the fall. (We don't have a spring career fair.) That was actually how I got the Epic interview, in fact.",
+      "subreddit": "cscareerquestions",
+      "score": 11,
+      "url": "https://reddit.com/r/cscareerquestions/comments/aar0ly/no_internship_and_angry_dad/",
+      "comments": [
+        {
+          "body": "30 applications from September to now? That's not much at all. I've applied to 50 job applications within a week and gotten 49 rejections/ghosted before getting my interview and offer from a company. You definitely need to shotgun and not worry about the prestige of the company that you're applying to. Experience &gt; brand if you're dead on getting an internship. Judging from your interviews at the big N, it seems like you're also well prepared. \n\nAs for your dad, don't listen to him if you enjoy pursing CS as a career. Med school is good and all but it really comes down to you. You're an adult now and you shouldn't let you parents take over your life. It's not good for your mental health.\n\nFor 1) and 2), shot gun method. If it requires cover letter, skip it. It should only take you 10 minutes max per application. I'm sure that you can find a list of companies that you can still apply to. Esp mid size and start up from my experience.\n\nFor 3), make a list of languages, framework instead of writing bullet points for skills section. Put skills under education and move projects under skills. Your experience should come last because it's pretty much irrelevant. Employers may use your job experiences to pinpoint your soft skills. It's not a bad thing to have on your resume. Also be more specific about projects. I'm sure others can comment on this. This is something I'm still not good at doing.\n\n4) More leetcode and practice with your friends. Do 1 on 1 practice interview sessions with each other.\n\n5) Accept failure and be humble about it. People getting top internship did not get there without failing. Also talk to your close friends about your struggles. Do things OUTSIDE of programming and find hobbies. Your dad sounds like a typical tiger parent but in his mind, he thinks he's doing it for your own good. Respect that but also remember this is your life, not his. He shouldn't project his flaws on you and use to you to make him happy. I know status and prestige is a big factor for some parents but at the end of the day, it's you that should be happy.\n\nThis is my opinion. Take it with a grain of salt. I'm also on the same boat as you. ",
+          "score": 41
+        },
+        {
+          "body": "[deleted]",
+          "score": 41
+        },
+        {
+          "body": "Looks like you’re getting a good number of responses, so practice leetcode before your next interview. Your problem seems to be at the interview round and not resume round. For reference, I only got 3 responses the first year I applied to internships and I applied to a hell lot more than 30. As for companies, most wall st companies and big 4 are closed, but plenty of very good smaller companies are still open. Mozilla and Spotify are two I heard my friends apply to recently, but there are plenty more. \n\nAlso since you’re doing a combined BA/MS you’ll have one more summer to land a good company, so I would just apply to all companies indiscriminately and get some experience on your resume. You’ll have a decent chance at a big 4 or unicorn next summer if you grind leetcode and polish your resume a little bit more.  ",
+          "score": 7
+        },
+        {
+          "body": "Grind leetcode and go get it next semester; you have one more summer after this for internships, so it's not over yet. If you can pull a 3.9 gpa at a hard school then you're probably a good mix of smart and disciplined, so you shouldn't worry too much about not being able to get something sick this time around.\n\n&amp;#x200B;\n\nSince you're academically inclined and you go to a high ranked school, have you thought of research? It would probably be super easy to get into a really awesome lab with your gpa and drive, assuming that opportunity is available at your school.",
+          "score": 8
+        },
+        {
+          "body": "Your parents sound very asian.",
+          "score": 13
+        },
+        {
+          "body": "I'm also a student, a senior graduating in May, so take this with a grain of salt:\n\nReally don't stress so much. You've got plenty of good stats already here, and getting jobs (if you're okay with not getting Big N straight out of college) is not actually that difficult. For example, I have a 3.5 GPA at a mediocre/unknown school, no internships, and about a year of research experience, and did two interviews with local companies and the second one got me an offer. Granted, that offer isn't 110k at Big N, but it's got great benefits (in defense) and gets me experience so I can go on to bigger pay raises in a couple of years.\n\nI don't think everyone will have that easy of a time getting an offer, but it isn't all Big N and Leetcode. I actually wasn't asked any technical questions before getting my offer (and it was just a 30 min off-site interview).\n\n*Ninja Edit*: And this subreddit is full of students leading students to get jobs none of them have. Take everyone's experience into consideration when heeding their advice.",
+          "score": 4
+        },
+        {
+          "body": "Sometimes I think this subreddit is so damn adamant about internships as if they will magically grant you access to jobs after graduation, and I specifically say this because you said you think you won’t get a job after graduation since you’ll have no summer internships.\n\nRelax, and slow down the stressing. Guess how many internships I had? 0. Guess who didn’t care or let stress get in the way? Me. Guess who has a full time software engineering position at a top bank? Me. And I don’t even have a degree!\n\nMy point being is that you can certainly get a job without having any internships at all so don’t freak out too much about it. You just have to show that you’re good enough for the job.\n\nI applied at 0 internships and 0 jobs. They found my resume online and contacted me with a position and I did the interviews and got the job in less than a week.\n\nDon’t let everything you read hear cloud your judgement. And don’t believe that everything you read here is how it will go down for everyone. ",
+          "score": 5
+        },
+        {
+          "body": "[deleted]",
+          "score": 4
+        },
+        {
+          "body": "Some advice about your parents, just get as far from them as possible. I personally know how parental pressure can mess with someone, the farther you can get from the them the better you'll feel. Stay out of the house while your parents are awake, ask your best friends to stay with them during Winter break, or even vandwell if you have your own car. When you go back to school don't call or pick up the phone, talk via text if you have to. Distancing yourself will either cause them to have a change of heart or free yourself from their burdening behavior. \n\nAs for internships, just keep trying.",
+          "score": 3
+        },
+        {
+          "body": "&gt;Where should I apply for more internships?  \n  \nglassdoor + linkedin got more than enough companies  \n  \n&gt;How do I apply faster? For some reason it takes a ridiculously long time to complete one application (around 15 to 30 minutes)  \n  \nlet me guess, Taleo ATS? I'm one of those people shotgunning hundreds of apps and if I can't submit my application within 20sec then I move on, aka Greenhouse, Lever ATS or the likes  \n  \n&gt;How can I improve my resume?  \n  \nidk about you but whenever I see HTML + CSS followed by Java + Python + C/C++ mixed with Android I immediately think \"this dude have no idea what he wants\", they're drastically different skills, what kind of positions have you been applying for?",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "title": "How to land internship at Quant or HF shop from Non-Target School (HELP)",
+      "body": "For context, I go to a school with almost 0 reputation in CS (or in any other field). I was lucky enough to have interned at a top FAANG (think FB or GOOG) summer 2019 and will be interning at top unicorn (think Stripe, Airbnb, Lyft, Dropbox, Pinterest) in summer 2020.  I don't have any academic/research experience, have a high GPA, don't do competitive programming or math, and am an occasional hackathoner.\n\nI want to aim for a SWE internship at a HF (Jane St would be my dream, Citadel, DE Shaw, HRT, etc.) for summer 2021. I will be graduating in 2022. No one at my school has worked at these places (barely anyone interned at FAANG let alone quant shops).\n\nI applied to Citadel and was rejected at resume screen stage this year, didn't hear back from Two Sigma, and didn't bother applying to Jane St since I heard that if I fail this year, they won't interview me next year.\n\nIs there anything I should do to 1. get past resume screen stage and 2. crush swe interviews at these places. Some of my thoughts: Network to get referrals, do some some competitive programming to polish resume, etc.\n\nSidenote: If any non-target students here want tips for getting into FAANG/Unicorn, happy to help.",
+      "subreddit": "cscareerquestions",
+      "score": 15,
+      "url": "https://reddit.com/r/cscareerquestions/comments/eiccvq/how_to_land_internship_at_quant_or_hf_shop_from/",
+      "comments": [
+        {
+          "body": "I'd start doing competitive programming. I think that's your best hope, quant firms looooooooooove them. They're the sponsorers for USACO contests. That's probably the last edge you can get without transferring schools. I was USACO Platinum and I think it helped, the university equivalent I'm not sure what it'd be",
+          "score": 26
+        },
+        {
+          "body": "Well not sure what your definition of target school is but I go to a top 20 (?) CS school, but none of those companies came to my school for career fairs (besides Two Sigma). I was able to get hackerranks/interviews at some of these companies (Two Sigma, HRT, Belvedere Trading, Akuna Capital, etc) from just cold applying. \n\nI am not a remarkable student, just a junior with one F500 tech company internship and a 3.5 GPA. I did do some computational finance competitions, like Traders@MIT and Midwest Trading Competition (UChicago), which might have helped get my foot in the door (and you get to meet employees from those companies), it definitely did for more quant/trading positions [one company gave me a link to apply early], but I think you probably have a good shot without any other things on your resume. That being said I got instantly rejected from Jane Street for SWE Intern so not sure how people got in there lol.\n\nAlso curious how you got into those companies? I got referrals for FAANG but didn't even get a coding challenge or interview :(",
+          "score": 8
+        },
+        {
+          "body": "[deleted]",
+          "score": 9
+        },
+        {
+          "body": "LOL are you a sophomore. Relax my friend. You will have better luck junior year with that unicorn and google on your resume along with being junior status. There are probably less Jane Street swe sophomore interns than I can count with my fingers. You will get your shot later and in the meantime enjoy the new year!",
+          "score": 6
+        },
+        {
+          "body": "[deleted]",
+          "score": 6
+        }
+      ]
+    },
+    {
+      "title": "Multithreaded Job Seeking, could use some advice",
+      "body": "Background and Process\n\nI work for a big company that has many roles I can seek and because of this I can directly contact hiring managers when applying internally. Every week I select 1 to 3 perfect fit jobs and reach out to the hiring manager. I use this to talk to them and get them to send my resume to the HR person. This allows me to usually get to the interview process if I at all click with the manager and there isn't something going on with the job posting (\\~10% success rate).  I am not hired yet because I still have a bit of trouble interviewing, high competition, and (comparatively) junior status, but each interview I feel like I am getting better results so it's only a matter of time.\n\nBio\n\n* I am currently [PMP](https://www.pmi.org/certifications/types/project-management-pmp) (Project Management Professional) and [CSPO](https://www.scrumalliance.org/get-certified/product-owner-track/certified-scrum-product-owner) (Certified Scrum Product Owner) certified\n* I have two undergraduate degrees (Management and Logistics)\n* I am in an MBA program\n* I have 12 years work experience in my field\n* I am seeking roles in Product/Project Management as well as process improvement. I thrive in roles where I can make a lasting impact and make the (work) world a better place than when I found it.\n\nQuestion(s)\n\n1. What do you think about my process? is there any tweaks I might make?\n2. What should I do if I get an offer in terms of ending things gracefully and leaving open doors with other internal jobs I am in the interview process for? How about any meetings I have scheduled in the future with hiring managers? \n3. I feel like I can get additional certifications to boost my chances and desirability. What do you guys think of Lean Six Sigma? Where would be a good/reputable place to get it online for not alot of money? How about [ACP](https://www.pmi.org/certifications/types/agile-acp) (Agile Certified Practitioner) and [CSM](https://www.scrumalliance.org/get-certified/scrum-master-track/certified-scrummaster) (Certified Scrum Master)?\n4. Apart from the current roles I am seeking what kinds of roles do you think I can seek that make that lasting impact?",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/bmej27/multithreaded_job_seeking_could_use_some_advice/",
+      "comments": []
+    },
+    {
+      "title": "Hey, guys I'm PMP certified,  Executive MBA from IIMK, struggling to get even a interview call..",
+      "body": "Hello all,\n\nI'm a PMP certified Executive MBA from Indian Institute of Management Kozhikode. Lean Six Sigma Green Belt from KPMG, Executive PG from IIT roorkee in Cloud and Devops.  AWS certified, Azure certified. Have Hands on experience on Cloud and Devops.. I'm Jobless from last two years.. I have other certifications from Google, IBM etc.. Is my two year gap is not able to get me interview call, after having relevant skills.. I have 8+ years of expericene in renewable energy. Want to transition to cloud and devops domain.. Pls suggest guys.",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1k3btxx/hey_guys_im_pmp_certified_executive_mba_from_iimk/",
+      "comments": [
+        {
+          "body": "Passing a test doesn't tell me you can actually perform the work. Stop focusing on your certs and focus on how you have shown application of those skills. ",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Internship at HFT vs Tech",
+      "body": "I'm lucky enough to have two excellent offers for my final internship and was hoping to get the thoughts of others on my choices here. \n\n1. Linkedin\n\nPros:\n\n\\- Heard excellent things about the work environment and culture here.\n\n\\- A lot of exciting work done by their engineering team in the domain of distributed systems.\n\n\\- Very high probability of a return offer (\\~70%)\n\nCons:\n\n\\- Intern compensation is lower than Jump's. Not sure if this would hold true for a full-time offer.\n\n\\- Unaware of their brand value (Would it help me in getting more interviews in comparison to Jump next fall? )\n\n&amp;#x200B;\n\n2. Jump Trading \n\nPros:\n\n\\- High compensation\n\n\\- In Chicago, so LOC in comparison to bay area (Valid for full time rather than an internship, as housing is being provided by both)\n\nCons\n\n\\- Unaware of the intern to full-time conversion ratio.\n\n\\- I have no idea about work culture at Jump\n\n\\- Unaware of their reputation and full-time compensation. (Is it comparable to JS/Two Sigma's)\n\n\\- Maybe a worse WLB. Though I don't mind, if the work is interesting and helps me in improving my technical skills.",
+      "subreddit": "cscareerquestions",
+      "score": 25,
+      "url": "https://reddit.com/r/cscareerquestions/comments/a16b7x/internship_at_hft_vs_tech/",
+      "comments": [
+        {
+          "body": "[deleted]",
+          "score": 44
+        },
+        {
+          "body": "I completely disagree with people saying \"LinkedIn 100%\". I think there are reasonable arguments for going to either company but I would lean toward Jump Trading because\n\n1. It lets you explore very different types of work vs. typical tech companies, almost risk free.  \n2. I wouldn't worry about return offer rate too much. If you can interview well enough to get these offers, you can almost certainly get multiple Big-N offers next year. ",
+          "score": 7
+        },
+        {
+          "body": "Definitely Jump. LinkedIn is similar to every other BigN Silicon Valley behemoth. Jump is a totally different animal. Take this opportunity to explore something different.\n\nJump will also look better on your resume, IMO.",
+          "score": 18
+        },
+        {
+          "body": "Can't speak to Jump, but LinkedIn will open a lot of doors. My friends who work there have uniformly said great things, although a few have also gotten unlucky with less than stellar managers.\n\nThat said, do you want to live in the Bay Area or Chicago long-term? Or elsewhere? If you want to do HFT in New York, probably go to Jump. If you aspire to end up at FAANG, go to LinkedIn.",
+          "score": 14
+        },
+        {
+          "body": "definitely Jump, without a doubt",
+          "score": 5
+        },
+        {
+          "body": "I'm a bit biased since I'm in HFT but I'd say choose Jump Trading.\n\nYes, some HFT firms have a poor WLB. However, an internship is a small commitment and a great opportunity to get your feet wet in this type of tech.\n\nYou will have no trouble getting interviews. Jump Trading is a big name in the industry and any company recruiting candidates of your caliber will recognize the name.",
+          "score": 4
+        }
+      ]
+    },
+    {
+      "title": "Should I accept a job offer that's loosely relevant to my field?",
+      "body": "Hi,\n\nI'm graduating college with an engineering degree in two months. I have an interview with a major food &amp; beverage manufacturer (200,000+ employees) next week. They like my background. The job is loosely related to manufacturing engineering; it's operation, and I will have opportunities to learn six sigma, blow molding, laser engraving, etc. They told me that there are opportunities to grow within the company.\n\nHowever, my dream job is design engineering, particularly in robotics. I don't mind if one day I'm designing for the medical, automotive, aerospace or computer industry. I just love designing. I'm also planning to attend grad school 2 classes/semester after graduation.\n\nAssuming I get a job offer at this company, would it be foolish if take the offer? Could it possibly lead into design engineering? Or am I just wasting my and their times? I'm not asking from a financial perspective but more like time and personal/professional fulfillment.\n\nThank you for your time and consideration",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/2z38pt/should_i_accept_a_job_offer_thats_loosely/",
+      "comments": [
+        {
+          "body": "This is the way I'd look at it. You want to do design, but how do you know that you won't like this opportunity as well unless you try it. Sometimes jobs will surprise you. I'd also make sure they area aware of your intentions of taking 2 classes/semester of graduate studies.",
+          "score": 3
+        },
+        {
+          "body": "Nah don't take it if its not what you want to do. Your first job is really important and defines your career trajectory especially as a mechanical engineer. That said definitely go for an interview and see what they have to offer. You may end up doing automation and robotics work for them since they rely on it heavily at that scale.",
+          "score": 2
+        },
+        {
+          "body": "&gt; one day I'm designing for the medical, automotive, aerospace or computer industry\n\nshort version:\n\nwas friends with a smart fellow who went to med school.  saw him shortly after graduation and asked about medicine.  he said...\n\n\"oh, I'm not going into medicine.  I've enrolled in engineering school\"\n\nwhat?  why?\n\n\"because I want to design medical machines\"\n\nso, think about that altitude",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Need Help Choosing Between Full-Time and Contractor!",
+      "body": "(Posted this in /r/personalfinance but it didn't gain traction, maybe here would be more appropriate)\n\nSo I'm 23.  Got my degree a year and a half ago in business.  Worked in college and out thus far as a contractor for the same agency as a Buyer.  I've had two contracts and told myself that both would be my last one, I'd call it quits and get a real job with benefits and a retirement package and all that.  There's just one thing that keeps stopping me: The money is SO damn good.\n\nSo I'd like to know about the viability of being a contractor, maybe for this agency, maybe for another, long term.\n\nLiving Situation:\n\n-Live with the parents.\n\n-Have my own car, got about 3k left in loans to pay off.  It's a fuel efficient car, currently spending like 25 dollars a week on gas, tops.\n\n-10k in savings.\n\n-20k in 401k.\n\n-3k in mutual funds.\n\n-No student debt.\n\n-Hoping to go right from sponging to owning; don't like the idea of renting.\n\n\nFirst Contract Buyer Position:\n\n-15 dollars an hour for a year.  Second year, renewed at 19 dollars an hour.\n\n-1.5 million dollar annual spend.\n\nSecond Contract Buyer Position:\n\n-21 dollars an hour for a year.  Second year, renewed at 25 dollars an hour.\n\n-2 million dollar annual spend.\n\nI talked to the agency at a career fair.  They looked at my classes, my high school GPA, and told me that if I took this training course, which they would pay for, they could get me a job.  I did and they held up their end of the bargain.  Fifteen an hour was great for a sophomore in college.  Taking all night courses was a bit rough, but I did it.  I became vital to my manager, particularly when their full-time Buyer quit, fortunately, just before the end of my contract.  So my agency and I shamelessly extorted the company for another year's contract at 19 an hour.  After that, they brought in another contractor at 15 dollars and didn't renew me.  However, the agency I worked for anticipated this and had another position in the pipeline.\n\nStarted at 21 an hour for a year.  Second year, we did the exact same thing we did last time.  Took advantage of how reliant they had become on me, bent them over for a +4 renewal for another year.  At this point, I'd obviously graduated.  I am coming off of that contract now.  The agency is thrilled with me and has another position that they had me apply for and I've been given the offer for.  Meanwhile I had been planning to stop doing contracting and find an actual job, which I did successfully.  So I have two offers currently, one contract and one full-time.\n\n\nContract (Same agency I've been with):\n\n-33 dollars an hour, non-exempt\n\n-19 million dollar annual spend (HUGE by comparison)\n\n-10 hours a day.\n\n-1 Year contract with potential to renew, hire, etc. (every contract I've taken has been like this)\n\nFull-time:\n\n-45k a year, salaried, exempt\n\n-Benefits package equalling 5k.\n\n-401k matching 50% up to 5%.\n\n-26 million dollar annual spend\n\n-11-12 hours a day!\n\n\nFor those of you who are not familiar with Buyer roles, spend is very important.  That's sort of how they measure your importance in decision-making, how much you can handle, etc.  More senior buyers tend to have higher spends.  Senior Logistics Buyers could have an annual spend of 100 mil, for instance.\n\nHere are some Pros of the contract position I can think of:\n\n-Higher base pay.\n\n-Hourly and non-exempt.\n\n-I get paid for referrals for other contract positions (50 dollars an interview, 500 dollars for a placement with a 2-5% residual of the agency's rake).  I've done this successfully multiple times, which has thrilled the agency.\n\nCons:\n\n-Lower spend.\n\n-Less permanent advancement opportunity.\n\n-No healthcare, but Obamacare lets me stay on my parents' insurance another two and a half years.\n\n-Farther away (another 45 minutes or so, with traffic)\n\nI spoke with my agency about my conundrum and they have obviously assured me that I can be a contractor long term and have no problems as long as I'm responsible about setting my money aside in a 401k.  The President actually spoke to me once and said \"Look at how much soldiers make versus how much mercenaries make.  People who work for companies full time are soldiers; you're a mercenary.  You always make more as a mercenary if you're good.\"\n\nThe plan is that once I start this contract, they want to groom me to start doing contracts for management roles which can pay anywhere from 60 to 80 dollars an hour.\n\nAdvice?  I'm super inclined to keep going with this agency.  It's a good agency, they've never short-changed me (I check pretty much every pay, though I've been checking every two or three lately).  They've never paid me late.  Really never had an issue with them.  They're throwing around the possibility of paying for me to get Six Sigma training so they can start throwing me at management contracts.\n\nAny comments or insight would be very helpful, thank you!",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/4xb7zx/need_help_choosing_between_fulltime_and_contractor/",
+      "comments": [
+        {
+          "body": "Are you a 1099 or W2?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "2 sigma on site interview for SW Engineer",
+      "body": "- How is like the interview day at 2 sigma?\n- How much times it takes?\n- What kind of questions do they ask there?\n\nDisclaimer: I am aware of Glassdoor. ",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/8b3ko7/2_sigma_on_site_interview_for_sw_engineer/",
+      "comments": [
+        {
+          "body": "*Two Sigma\n\nIf this is your first interview, you're toast.",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

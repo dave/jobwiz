@@ -3,6 +3,8 @@
 /**
  * Generates interview questions and stores them in Supabase.
  *
+ * Now enhanced with scraped Reddit data analysis for company-specific insights.
+ *
  * Usage:
  *   npm run generate-questions -- --company=google --role=software-engineer --count=25
  *   npm run generate-questions -- --company=google --role=swe --dry-run
@@ -30,6 +32,7 @@ interface PositionInfo {
   company_values: string[];
   role_competencies: string[];
   tech_stack?: string[];
+  analysis?: CompanyAnalysis | null;
 }
 
 interface GenerationConfig {
@@ -60,34 +63,144 @@ interface RawQAOutput {
   questions: RawQuestion[];
 }
 
+// Analysis data from scraped Reddit posts
+interface CompanyAnalysis {
+  company: string;
+  common_questions: string[];
+  themes: string[];
+  interview_tips: string[];
+  red_flags: string[];
+  process_insights: {
+    typical_rounds: string;
+    timeline: string;
+    format: string;
+  };
+  source_count: number;
+}
+
 // ============================================================================
-// Mock Data
+// Analysis Data Loading
 // ============================================================================
 
-const COMPANY_INFO: Record<string, { name: string; values: string[] }> = {
-  google: {
-    name: "Google",
-    values: ["Cognitive Ability", "Role-Related Knowledge", "Leadership", "Googleyness"],
-  },
-  amazon: {
-    name: "Amazon",
-    values: ["Customer Obsession", "Ownership", "Invent and Simplify", "Bias for Action", "Hire and Develop the Best"],
-  },
-  meta: {
-    name: "Meta",
-    values: ["Move Fast", "Be Bold", "Focus on Impact", "Be Open", "Build Social Value"],
-  },
-  apple: {
-    name: "Apple",
-    values: ["Innovation", "Excellence", "Privacy", "Accessibility", "Environmental Responsibility"],
-  },
-  microsoft: {
-    name: "Microsoft",
-    values: ["Growth Mindset", "Customer Obsession", "Diversity and Inclusion", "One Microsoft", "Making a Difference"],
-  },
+const ANALYSIS_DIR = path.join(process.cwd(), "data", "generated", "analysis");
+
+function loadCompanyAnalysis(companySlug: string): CompanyAnalysis | null {
+  const analysisPath = path.join(ANALYSIS_DIR, `${companySlug}.json`);
+
+  if (!fs.existsSync(analysisPath)) {
+    console.log(`  ⚠ No analysis data found for ${companySlug}, using generic prompts`);
+    return null;
+  }
+
+  try {
+    const data = JSON.parse(fs.readFileSync(analysisPath, "utf-8"));
+    console.log(`  ✓ Loaded analysis data for ${companySlug} (${data.source_count} sources)`);
+    return data as CompanyAnalysis;
+  } catch (e) {
+    console.warn(`  ⚠ Failed to load analysis for ${companySlug}:`, e);
+    return null;
+  }
+}
+
+function formatAnalysisForPrompt(analysis: CompanyAnalysis | null): string {
+  if (!analysis) return "";
+
+  const parts: string[] = [];
+
+  if (analysis.themes.length > 0) {
+    parts.push(`Interview themes at ${analysis.company}: ${analysis.themes.join(", ")}`);
+  }
+
+  if (analysis.common_questions.length > 0) {
+    const cleanQuestions = analysis.common_questions
+      .filter(q => q.length > 20 && q.length < 150)
+      .slice(0, 5);
+    if (cleanQuestions.length > 0) {
+      parts.push(`Commonly asked: "${cleanQuestions.join('", "')}"`);
+    }
+  }
+
+  if (analysis.process_insights) {
+    parts.push(
+      `Process: ${analysis.process_insights.typical_rounds}, ` +
+      `${analysis.process_insights.timeline}, ` +
+      `${analysis.process_insights.format}`
+    );
+  }
+
+  return parts.join(". ");
+}
+
+// ============================================================================
+// Company & Role Data Loading
+// ============================================================================
+
+interface SearchVolumeCompany {
+  name: string;
+  slug: string;
+  category: string;
+  interview_volume: number;
+  roles: string[];
+}
+
+interface SearchVolumeData {
+  role_types: Array<{ name: string; slug: string }>;
+  companies: SearchVolumeCompany[];
+}
+
+// Known company values for major companies (others get generic values)
+const KNOWN_COMPANY_VALUES: Record<string, string[]> = {
+  google: ["Cognitive Ability", "Role-Related Knowledge", "Leadership", "Googleyness"],
+  amazon: ["Customer Obsession", "Ownership", "Invent and Simplify", "Bias for Action", "Hire and Develop the Best"],
+  meta: ["Move Fast", "Be Bold", "Focus on Impact", "Be Open", "Build Social Value"],
+  apple: ["Innovation", "Excellence", "Privacy", "Accessibility", "Environmental Responsibility"],
+  microsoft: ["Growth Mindset", "Customer Obsession", "Diversity and Inclusion", "One Microsoft", "Making a Difference"],
+  netflix: ["Freedom and Responsibility", "Context Not Control", "Highly Aligned Loosely Coupled", "Pay Top of Market"],
+  stripe: ["Users First", "Move with Urgency", "Think Rigorously", "Trust and Amplify", "Global Optimization"],
+  airbnb: ["Champion the Mission", "Be a Host", "Embrace the Adventure", "Be a Cereal Entrepreneur"],
+  uber: ["We Build Globally We Live Locally", "We Are Customer Obsessed", "We Celebrate Differences"],
+  salesforce: ["Trust", "Customer Success", "Innovation", "Equality", "Sustainability"],
 };
 
+const GENERIC_COMPANY_VALUES = [
+  "Problem Solving",
+  "Communication",
+  "Team Collaboration",
+  "Initiative",
+  "Adaptability",
+];
+
+function loadSearchVolumeData(): SearchVolumeData {
+  const dataPath = path.join(process.cwd(), "data", "search_volume.json");
+  return JSON.parse(fs.readFileSync(dataPath, "utf-8"));
+}
+
+function getCompanyInfo(slug: string): { name: string; values: string[] } | null {
+  const data = loadSearchVolumeData();
+  const company = data.companies.find(c => c.slug === slug);
+  if (!company) return null;
+
+  return {
+    name: company.name,
+    values: KNOWN_COMPANY_VALUES[slug] || GENERIC_COMPANY_VALUES,
+  };
+}
+
+function getAllCompanyRolePairs(): Array<{ company: string; role: string }> {
+  const data = loadSearchVolumeData();
+  const pairs: Array<{ company: string; role: string }> = [];
+
+  for (const company of data.companies) {
+    for (const roleSlug of company.roles) {
+      pairs.push({ company: company.slug, role: roleSlug });
+    }
+  }
+
+  return pairs;
+}
+
 const ROLE_INFO: Record<string, { name: string; slug: string; competencies: string[]; tech_stack?: string[] }> = {
+  // Software Engineer (with aliases)
   swe: {
     name: "Software Engineer",
     slug: "software-engineer",
@@ -100,6 +213,7 @@ const ROLE_INFO: Record<string, { name: string; slug: string; competencies: stri
     competencies: ["Problem Solving", "Code Quality", "System Design", "Collaboration", "Technical Communication"],
     tech_stack: ["Algorithms", "Data Structures", "System Design", "Coding"],
   },
+  // Product Manager (with aliases)
   pm: {
     name: "Product Manager",
     slug: "product-manager",
@@ -112,6 +226,7 @@ const ROLE_INFO: Record<string, { name: string; slug: string; competencies: stri
     competencies: ["Product Sense", "Execution", "Strategic Thinking", "Leadership", "Analytical Skills"],
     tech_stack: ["Metrics", "A/B Testing", "Prioritization", "Technical Fluency"],
   },
+  // Data Scientist (with aliases)
   ds: {
     name: "Data Scientist",
     slug: "data-scientist",
@@ -124,6 +239,121 @@ const ROLE_INFO: Record<string, { name: string; slug: string; competencies: stri
     competencies: ["Statistical Analysis", "Machine Learning", "Data Engineering", "Business Acumen", "Communication"],
     tech_stack: ["Python", "SQL", "Statistics", "ML Models"],
   },
+  // Additional roles
+  "product-designer": {
+    name: "Product Designer",
+    slug: "product-designer",
+    competencies: ["Visual Design", "UX Design", "User Research", "Prototyping", "Design Systems"],
+    tech_stack: ["Figma", "Sketch", "User Testing", "Design Thinking"],
+  },
+  "engineering-manager": {
+    name: "Engineering Manager",
+    slug: "engineering-manager",
+    competencies: ["People Management", "Technical Leadership", "Project Delivery", "Team Building", "Strategic Planning"],
+    tech_stack: ["Agile", "Performance Management", "Technical Architecture", "Roadmapping"],
+  },
+  "technical-program-manager": {
+    name: "Technical Program Manager",
+    slug: "technical-program-manager",
+    competencies: ["Program Management", "Technical Communication", "Cross-functional Leadership", "Risk Management", "Execution"],
+    tech_stack: ["Project Planning", "Stakeholder Management", "Technical Specs", "Dependency Management"],
+  },
+  "devops-engineer": {
+    name: "DevOps Engineer",
+    slug: "devops-engineer",
+    competencies: ["Infrastructure", "CI/CD", "Automation", "Monitoring", "Security"],
+    tech_stack: ["AWS/GCP/Azure", "Kubernetes", "Terraform", "Jenkins/GitLab CI"],
+  },
+  "frontend-engineer": {
+    name: "Frontend Engineer",
+    slug: "frontend-engineer",
+    competencies: ["UI Development", "JavaScript/TypeScript", "Performance", "Accessibility", "Testing"],
+    tech_stack: ["React/Vue/Angular", "CSS", "Web APIs", "Build Tools"],
+  },
+  "backend-engineer": {
+    name: "Backend Engineer",
+    slug: "backend-engineer",
+    competencies: ["API Design", "Database Design", "System Design", "Performance", "Security"],
+    tech_stack: ["Distributed Systems", "SQL/NoSQL", "REST/GraphQL", "Caching"],
+  },
+  "mobile-engineer": {
+    name: "Mobile Engineer",
+    slug: "mobile-engineer",
+    competencies: ["Mobile Development", "Platform APIs", "Performance", "User Experience", "Testing"],
+    tech_stack: ["iOS/Android", "React Native/Flutter", "Mobile Architecture", "App Store"],
+  },
+  "data-engineer": {
+    name: "Data Engineer",
+    slug: "data-engineer",
+    competencies: ["Data Pipelines", "ETL", "Data Modeling", "Performance", "Data Quality"],
+    tech_stack: ["Spark", "Airflow", "SQL", "Data Warehousing"],
+  },
+  "machine-learning-engineer": {
+    name: "Machine Learning Engineer",
+    slug: "machine-learning-engineer",
+    competencies: ["ML Systems", "Model Development", "MLOps", "Data Processing", "Production ML"],
+    tech_stack: ["TensorFlow/PyTorch", "MLOps Tools", "Feature Engineering", "Model Serving"],
+  },
+  "solutions-architect": {
+    name: "Solutions Architect",
+    slug: "solutions-architect",
+    competencies: ["Architecture Design", "Technical Consulting", "Customer Communication", "Cloud Platforms", "Integration"],
+    tech_stack: ["Cloud Architecture", "Enterprise Integration", "Security", "Scalability"],
+  },
+  "sales-engineer": {
+    name: "Sales Engineer",
+    slug: "sales-engineer",
+    competencies: ["Technical Demos", "Customer Discovery", "Solution Design", "Communication", "Product Knowledge"],
+    tech_stack: ["Demo Skills", "POC Development", "Technical Objection Handling", "ROI Analysis"],
+  },
+  "marketing-manager": {
+    name: "Marketing Manager",
+    slug: "marketing-manager",
+    competencies: ["Campaign Management", "Analytics", "Brand Strategy", "Content Strategy", "Growth Marketing"],
+    tech_stack: ["Marketing Tools", "Analytics Platforms", "A/B Testing", "SEO/SEM"],
+  },
+  "business-analyst": {
+    name: "Business Analyst",
+    slug: "business-analyst",
+    competencies: ["Requirements Analysis", "Process Modeling", "Data Analysis", "Stakeholder Management", "Documentation"],
+    tech_stack: ["SQL", "Excel", "Business Intelligence", "Process Mapping"],
+  },
+  "ux-researcher": {
+    name: "UX Researcher",
+    slug: "ux-researcher",
+    competencies: ["User Research", "Usability Testing", "Data Synthesis", "Research Methods", "Insights Communication"],
+    tech_stack: ["Research Tools", "Survey Design", "Analytics", "User Testing Platforms"],
+  },
+  "qa-engineer": {
+    name: "QA Engineer",
+    slug: "qa-engineer",
+    competencies: ["Test Strategy", "Automation", "Quality Processes", "Bug Analysis", "Risk Assessment"],
+    tech_stack: ["Test Frameworks", "Automation Tools", "CI/CD", "Performance Testing"],
+  },
+  "security-engineer": {
+    name: "Security Engineer",
+    slug: "security-engineer",
+    competencies: ["Security Architecture", "Threat Analysis", "Incident Response", "Security Tools", "Compliance"],
+    tech_stack: ["Security Tools", "Penetration Testing", "SIEM", "Identity Management"],
+  },
+  "financial-analyst": {
+    name: "Financial Analyst",
+    slug: "financial-analyst",
+    competencies: ["Financial Modeling", "Data Analysis", "Forecasting", "Reporting", "Strategic Planning"],
+    tech_stack: ["Excel", "Financial Software", "SQL", "BI Tools"],
+  },
+  "management-consultant": {
+    name: "Management Consultant",
+    slug: "management-consultant",
+    competencies: ["Problem Solving", "Client Management", "Strategy", "Analysis", "Presentation"],
+    tech_stack: ["Case Studies", "Frameworks", "Data Analysis", "Executive Communication"],
+  },
+  "account-executive": {
+    name: "Account Executive",
+    slug: "account-executive",
+    competencies: ["Sales Process", "Relationship Building", "Negotiation", "Account Management", "Pipeline Management"],
+    tech_stack: ["CRM", "Sales Tools", "Forecasting", "Contract Negotiation"],
+  },
 };
 
 // ============================================================================
@@ -131,13 +361,25 @@ const ROLE_INFO: Record<string, { name: string; slug: string; competencies: stri
 // ============================================================================
 
 function generateBehavioralQuestions(position: PositionInfo): RawQuestion[] {
-  const { company_name, company_values } = position;
+  const { company_name, company_values, analysis } = position;
+
+  // Build context from analysis data
+  const analysisContext = analysis ? formatAnalysisForPrompt(analysis) : "";
+  const hasAnalysis = analysis && analysis.source_count > 0;
+
+  // Enhance interviewer intent with real data
+  const interviewContext = hasAnalysis
+    ? ` Based on ${analysis.source_count} interview reports, candidates commonly face: ${analysis.themes.slice(0, 3).join(", ")}.`
+    : "";
+
+  // Use red flags from analysis for common mistakes if available
+  const analysisRedFlags = analysis?.red_flags?.filter(r => r.length > 10 && r.length < 150) || [];
 
   return [
     {
       id: "beh-leadership-001",
       question: "Tell me about a time you had to lead a project without formal authority.",
-      interviewer_intent: `${company_name} looks for 'emergent leadership' - people who step up organically without needing titles. The interviewer is assessing your influence skills: can you get buy-in from peers? Do you lead through expertise and trust, or do you rely on hierarchy? They're also watching HOW you describe the team - candidates who minimize others' roles reveal poor collaboration instincts that won't work in ${company_name}'s culture.`,
+      interviewer_intent: `${company_name} looks for 'emergent leadership' - people who step up organically without needing titles.${interviewContext} The interviewer is assessing your influence skills: can you get buy-in from peers? Do you lead through expertise and trust, or do you rely on hierarchy? They're also watching HOW you describe the team - candidates who minimize others' roles reveal poor collaboration instincts that won't work in ${company_name}'s culture.`,
       good_answer_demonstrates: [
         "Influence without authority",
         "Stakeholder management",
@@ -298,7 +540,17 @@ function generateBehavioralQuestions(position: PositionInfo): RawQuestion[] {
 }
 
 function generateTechnicalQuestions(position: PositionInfo): RawQuestion[] {
-  const { company_name, role_slug } = position;
+  const { company_name, role_slug, analysis } = position;
+
+  // Add analysis context for technical questions
+  const hasAnalysis = analysis && analysis.source_count > 0;
+  const technicalContext = hasAnalysis && analysis.themes.some(t =>
+    t.toLowerCase().includes("coding") ||
+    t.toLowerCase().includes("system design") ||
+    t.toLowerCase().includes("technical")
+  )
+    ? ` Interview reports indicate ${analysis.themes.filter(t => t.toLowerCase().includes("technical") || t.toLowerCase().includes("coding")).join(" and ")} are emphasized.`
+    : "";
 
   const isSWE = role_slug === "software-engineer";
   const isPM = role_slug === "product-manager";
@@ -797,7 +1049,18 @@ function generateTechnicalQuestions(position: PositionInfo): RawQuestion[] {
 }
 
 function generateCultureQuestions(position: PositionInfo): RawQuestion[] {
-  const { company_name, company_values } = position;
+  const { company_name, company_values, analysis } = position;
+
+  // Add analysis context for culture questions
+  const hasAnalysis = analysis && analysis.source_count > 0;
+  const cultureContext = hasAnalysis && analysis.themes.some(t =>
+    t.toLowerCase().includes("culture") || t.toLowerCase().includes("behavioral")
+  )
+    ? ` Based on interview reports, ${company_name} emphasizes: ${analysis.themes.filter(t => t.toLowerCase().includes("culture") || t.toLowerCase().includes("behavioral")).join(", ")}.`
+    : "";
+
+  // Extract interview tips for culture-specific advice
+  const interviewTips = analysis?.interview_tips?.filter(t => t.length > 20 && t.length < 150) || [];
 
   return [
     {
@@ -989,7 +1252,13 @@ function generateCultureQuestions(position: PositionInfo): RawQuestion[] {
 }
 
 function generateCurveballQuestions(position: PositionInfo): RawQuestion[] {
-  const { company_name } = position;
+  const { company_name, analysis } = position;
+
+  // Add process context from analysis
+  const hasAnalysis = analysis && analysis.source_count > 0;
+  const processContext = hasAnalysis
+    ? ` Interview reports indicate: ${analysis.process_insights?.format || "multiple interview rounds"}.`
+    : "";
 
   return [
     {
@@ -1166,24 +1435,28 @@ async function generateQuestions(config: GenerationConfig) {
   console.log(`Target count: ${count}`);
   console.log(`Dry run: ${dryRun}\n`);
 
-  // Get company and role info
-  const companyInfo = COMPANY_INFO[company.toLowerCase()];
+  // Get company and role info (dynamically from search_volume.json)
+  const companyInfo = getCompanyInfo(company.toLowerCase());
   const roleInfo = ROLE_INFO[role.toLowerCase()];
 
   if (!companyInfo) {
     console.error(`Company not found: ${company}`);
-    console.error(`Available: ${Object.keys(COMPANY_INFO).join(", ")}`);
+    console.error("Run with --all to see available companies");
     process.exit(1);
   }
 
   if (!roleInfo) {
     console.error(`Role not found: ${role}`);
-    console.error(`Available: ${Object.keys(ROLE_INFO).join(", ")}`);
+    console.error(`Available: ${Object.keys(ROLE_INFO).filter(k => !['swe', 'pm', 'ds'].includes(k)).join(", ")}`);
     process.exit(1);
   }
 
   // Normalize role slug to full form
   const normalizedRoleSlug = roleInfo.slug;
+
+  // Load scraped data analysis (if available)
+  console.log("\nLoading company analysis data...");
+  const analysis = loadCompanyAnalysis(company.toLowerCase());
 
   const position: PositionInfo = {
     company_slug: company.toLowerCase(),
@@ -1193,7 +1466,14 @@ async function generateQuestions(config: GenerationConfig) {
     company_values: companyInfo.values,
     role_competencies: roleInfo.competencies,
     tech_stack: roleInfo.tech_stack,
+    analysis,
   };
+
+  // Log analysis insights if available
+  if (analysis) {
+    console.log(`  Themes: ${analysis.themes.slice(0, 4).join(", ")}`);
+    console.log(`  Process: ${analysis.process_insights?.typical_rounds || "unknown"}`);
+  }
 
   // Generate questions for all categories
   const allQuestions: CreateQuestionInput[] = [];
@@ -1250,6 +1530,12 @@ async function generateQuestions(config: GenerationConfig) {
     role_name: roleInfo.name,
     generated_at: new Date().toISOString(),
     total_questions: limitedQuestions.length,
+    // Include analysis metadata
+    analysis_data: analysis ? {
+      source_count: analysis.source_count,
+      themes: analysis.themes,
+      process_insights: analysis.process_insights,
+    } : null,
     questions: limitedQuestions,
   };
 
@@ -1290,20 +1576,75 @@ async function main(): Promise<void> {
     }
   }
 
+  const runAll = "all" in argMap;
+  const outputDir = argMap.output || path.join(process.cwd(), "data", "generated", "questions");
+  const count = parseInt(argMap.count || "25", 10);
+  const dryRun = "dry-run" in argMap;
+
+  // Batch mode: generate for all company/role pairs
+  if (runAll) {
+    const pairs = getAllCompanyRolePairs();
+    console.log(`\n=== BATCH GENERATION MODE ===`);
+    console.log(`Total company/role pairs: ${pairs.length}`);
+    console.log(`Output directory: ${outputDir}`);
+    console.log(`Count per pair: ${count}`);
+    console.log(`Dry run: ${dryRun}\n`);
+
+    let successCount = 0;
+    let skipCount = 0;
+    let errorCount = 0;
+
+    for (let i = 0; i < pairs.length; i++) {
+      const { company, role } = pairs[i];
+      const progress = `[${i + 1}/${pairs.length}]`;
+
+      // Check if output already exists (skip if so)
+      const outputPath = path.join(outputDir, `questions-${company}-${role}.json`);
+      if (fs.existsSync(outputPath) && !("force" in argMap)) {
+        console.log(`${progress} Skipping ${company}/${role} (already exists)`);
+        skipCount++;
+        continue;
+      }
+
+      try {
+        const config: GenerationConfig = {
+          company,
+          role,
+          count,
+          dryRun,
+          outputDir,
+        };
+        await generateQuestions(config);
+        successCount++;
+      } catch (e) {
+        console.error(`${progress} Error for ${company}/${role}:`, e);
+        errorCount++;
+      }
+    }
+
+    console.log(`\n=== BATCH COMPLETE ===`);
+    console.log(`Success: ${successCount}`);
+    console.log(`Skipped: ${skipCount}`);
+    console.log(`Errors: ${errorCount}`);
+    return;
+  }
+
+  // Single mode: generate for one company/role pair
   const config: GenerationConfig = {
     company: argMap.company || "",
     role: argMap.role || "",
-    count: parseInt(argMap.count || "25", 10),
-    dryRun: "dry-run" in argMap,
-    outputDir: argMap.output || "output",
+    count,
+    dryRun,
+    outputDir,
   };
 
   if (!config.company || !config.role) {
     console.error("Usage:");
-    console.error("  npm run generate-questions -- --company=google --role=software-engineer --count=25");
-    console.error("  npm run generate-questions -- --company=google --role=swe --dry-run");
-    console.error("\nAvailable companies: google, amazon, meta, apple, microsoft");
-    console.error("Available roles: swe, software-engineer, pm, product-manager, ds, data-scientist");
+    console.error("  npx tsx scripts/questions/generate-questions.ts --company=google --role=software-engineer --count=25");
+    console.error("  npx tsx scripts/questions/generate-questions.ts --all                    # Generate for all company/role pairs");
+    console.error("  npx tsx scripts/questions/generate-questions.ts --all --force            # Regenerate even if exists");
+    console.error("\nAvailable roles:");
+    console.error(`  ${Object.keys(ROLE_INFO).filter(k => !['swe', 'pm', 'ds'].includes(k)).join(", ")}`);
     process.exit(1);
   }
 

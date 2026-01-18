@@ -1,0 +1,58 @@
+{
+  "company": "fidelity",
+  "common_questions": [
+    "You don't seem interested in working with us, where do you see yourself in 5 years ?",
+    "You don't seem like you really want to hire me, who do you think is going to fill this position?",
+    "during the pre-screen?",
+    "explain that I am eager to feel proud to work in health and security related projects,",
+    "how would you feel talking to an interviewer and asking \"You don't seem like you really want",
+    "explaining that they were in a tight stretch of work with EOY tax forms, and suggested",
+    "Explain the difference between controlled and uncontrolled components",
+    "Explain closures and provide a real-world example",
+    "Explain the event loop and how JavaScript handles asynchronous operations",
+    "How would you structure a large-scale React application?",
+    "How would you optimize the initial page load time for a React app?",
+    "Explain lazy loading and dynamic imports in React",
+    "explaining complex technical concepts clearly, as you'll likely be speaking with both t",
+    "explain smth uve actually built vs just read about! also helps u spot the gotchas that",
+    "explaining technical concepts clearly"
+  ],
+  "themes": [
+    "System design emphasis",
+    "Heavy focus on coding",
+    "Behavioral interviews important",
+    "Culture fit matters",
+    "Technical deep dive",
+    "Multiple interview rounds",
+    "Take-home assignment",
+    "Whiteboard coding"
+  ],
+  "interview_tips": [
+    "would be don't freak out",
+    "you communicate with your interviewer), the better you'll be",
+    "from people in the field, please help!",
+    "for someone coming in is to be sure you want to do the assigned task",
+    "Before coding, clarify constraints and talk through trade-offs",
+    "doing mock interviews w/ senior frontend devs from ur target companies",
+    "for this dilemma I'm in? Has anybody been in this situation before? What's my best course of action? Or just feel free to commiserate and be astounded",
+    "you just take that role",
+    "on how to handle an interview, but I would also love any advice in that area as well",
+    "for a long video interview (1"
+  ],
+  "red_flags": [
+    "want to work in Big N right now, or even if you do but you're happy to settle for a job with a lesser known company, the pressure isn't on as hard",
+    "get me wrong, the job seeking mode is stressful, but dont compare your workload to another person who is going for Google if you are happy with a job",
+    "change much, glassdoor is powerful",
+    "stuck at it and I have been inundated with offers",
+    "seem interested in working with us, where do you see yourself in 5 years ?\" Did I fuck up ?",
+    "seem like you really want to hire me, who do you think is going to fill this position?\"",
+    "actually says what these reservations are, and also immediately follows up by saying he has loved the work I've done so far and would like to try a tr",
+    "this issue rather easily"
+  ],
+  "process_insights": {
+    "typical_rounds": "2 rounds typical",
+    "timeline": "16 weeks",
+    "format": "Mix of phone screen, technical, behavioral, on-site, virtual"
+  },
+  "source_count": 54
+}

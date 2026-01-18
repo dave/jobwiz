@@ -1,0 +1,674 @@
+{
+  "company": "asana",
+  "post_count": 28,
+  "exported_at": "2026-01-18T17:44:53.258Z",
+  "posts": [
+    {
+      "title": "LinkedIn vs. Asana Internship",
+      "body": "Which company would you prefer for an internship and why?\n\nI personally feel like I got a better impression from the Asana interviews - the people seemed extremely intelligent and kind, and the interviews were more challenging. However, I'm worried that Asana is relatively unknown while I've heard plenty of good things about LinkedIn. \n\nEDIT: Thank you all so much for the advice! I think I'll go with Asana (like most of you said)",
+      "subreddit": "cscareerquestions",
+      "score": 5,
+      "url": "https://reddit.com/r/cscareerquestions/comments/422qh5/linkedin_vs_asana_internship/",
+      "comments": [
+        {
+          "body": "i'd go with asana tbh.  linkedin will give you a cookie cutter experience.   asana will give you something a bit less cookie cutter.  asana is not a company you need to worry about brand recognition about.  its founded by dustin moskovitz.",
+          "score": 14
+        },
+        {
+          "body": "Asana is well known in the dev community since a lot of companies use their product. Personally, I would pick Asana. I think that LinkedIn is a well known company, but not necessarily for exciting reasons... ",
+          "score": 7
+        },
+        {
+          "body": "Definitely Asana",
+          "score": 3
+        },
+        {
+          "body": "Asana! I've heard lots of good things about them. They are extremely legit. Their CEO has a really good answer about this on quora too. I might be in the minority here but the fact that LinkedIn UI is so godawful also affects my perception of them. ",
+          "score": 3
+        },
+        {
+          "body": "100% Asana. If you want a job in the bay area, Asana has a much better reputation. Also, you'll just be pushed much harder at a startup like Asana, and learn much more.",
+          "score": 3
+        },
+        {
+          "body": "You hear more about Linkedin because they're 70 times larger. Asana is definitely recognized among developers in the SF area as a good company with smart people.",
+          "score": 4
+        },
+        {
+          "body": "wait, wtf? Really, you all would go with Asana?? Doesn't this totally depend on OP's current situation. If you don't have a big, well recognized, name on your resume yet, this is the perfect opportunity, go with linkedin. Then for your next internship, you'll get asana+airbnb+two sigma+etc. as opposed to *just* asana. If you already have a big well recognized name, *THEN* go with asana. Someone, please explain why I'm crazy",
+          "score": 4
+        }
+      ]
+    },
+    {
+      "title": "What is Asana's reputation and company culture?",
+      "body": "I recently received a new grad offer from Asana, and I was wondering if anyone knows anything about the engineering quality and reputation of the company. Is it considered a well known startup company? I'm thinking about how good it would look on my resume when I eventually search for my next job. \n\nAlso, if anyone with experience there could tell me about what it is like to work there I would greatly appreciate it! ",
+      "subreddit": "cscareerquestions",
+      "score": 15,
+      "url": "https://reddit.com/r/cscareerquestions/comments/7det3r/what_is_asanas_reputation_and_company_culture/",
+      "comments": [
+        {
+          "body": "How does someone go through an entire interview process with an offered received without looking into their engineering quality and reputation of the company they're applying for?\n\nTo answer your question, Asana is generally a very strong company. I think their engineering requirements are as strong as the big 4, but their brand is not as strong.",
+          "score": 22
+        },
+        {
+          "body": "I like the product, all I can say. New feature rollouts are marked by a genuinely unusual degree of customer engagement, and I’ve used a lot of SaaS tools. Thought the UI a little cutesy at first but it grows on you. feels like good use of modern HTML5/CSS/JS, though I haven’t peaked under the hood.",
+          "score": 9
+        },
+        {
+          "body": "Its a fantastic company with really smart people working there. I have friends who interned at companies like Google in the past, working at Asana right now. Some even got rejected. It was founded by Facebook's co-founder Dustin Moskovitz for what it's worth. \n\nIn fact, it's pretty hard to even score an interview with them. Also, as u/csc_q pointed out, their internship process is way more rigorous than other tech companies.",
+          "score": 1
+        },
+        {
+          "body": "It's fairly well known. Not at the top of people's lists or impressive, but people generally know the company. ",
+          "score": -7
+        }
+      ]
+    },
+    {
+      "title": "Cloudera Name Recognition",
+      "body": "I wanted to know how well recognized cloudera is in industry. I was wondering if having cloudera swe intern on your resume would help get someone into the first stages of interviews for companies like asana and airbnb for an internship the following summer. Cloudera is definitely not as well known as the Big N but is it much worse? Also if anyone has had a cloudera internship here, could you please tell me about your experience?",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/ds73mr/cloudera_name_recognition/",
+      "comments": [
+        {
+          "body": "It will not hurt",
+          "score": 1
+        },
+        {
+          "body": "Interviewed and got offer from Cloudera for next summer, declined but am going to similar-ish company.\n\nI’d say Cloudera has a ton of name recognition for anyone doing big data/ML or anything else in the Apache ecosystem considering how much they contribute to it. I ended up interviewing specifically for Spark and HBase teams and both of the hiring managers seemed really competent and willing to give interns good, challenging projects.\n\nCompany-wise as a whole I have not heard a lot of great things after the merger with Hortonworks but this seems team dependent and I think for an internship this shouldn’t be a huge problem for you. I think as long as you and your manager agree on what you’re going to try to do next summer you really shouldn’t need to worry about this.\n\nPretty much all companies, especially bigger ones use at least some percentage of the Hadoop ecosystem in their big data pipelines so if you’re looking to pivot and you can put contribution to that on your resume I don’t see any issue getting interviews next year. The company has tons of contracts with big companies so there is a fairly large chance you’ll be working on similar problems that the companies you listed above will be targeting anyways.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Asana Software Engineer Interviews",
+      "body": "Has anybody been through an asana interview recently? Mine's coming up in the next few weeks and I would appreciate some tips or anecdotes.",
+      "subreddit": "cscareerquestions",
+      "score": 2,
+      "url": "https://reddit.com/r/cscareerquestions/comments/3mlvdu/asana_software_engineer_interviews/",
+      "comments": [
+        {
+          "body": "I did my first round interview in the recent past for an intern position, so it might be different for you, but I can't imagine it to be too different.\n\nThe Glassdoor interview reviews (for the Software Engineer position, from 2015) were accurate. Uncannily accurate, even. I think basically all of my questions had already been talked about on Glassdoor. ",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Opinion on Pathrise. Worth it?",
+      "body": "**Throwaway Account**\n\nHere is my opinion on Pathrise, the cost of the program, and if it's worth it.\n\n**TLDR:** Pathrise is not worth it. The cost is a huge markup on information that is free or is of a marginal cost.\n\nWhat is Pathrise? From their website, *\"It is a career accelerator for students and young professionals that is free until you're hired.\"* Accelerate your career for free until you're hired. Here is a brief list of what their program offers:\n\n* 1-on-1 meetings for coding/product/behavioral interviews\n* Info on resumes and online profiles.\n* Info on networking.\n* Info on interview preparation.\n* Info and assistance on salary negotiation.\n* Assistance with referrals.\n* Weekly programming sessions.\n\nAs of January 26th, 2019, listed are the percentages you must pay for a full-time position or an internship.\n\n* A Full-time position requires ***\"9% of the salary of 1-year income throughout six months.\"***\n* A 6-month internship requires ***\"12% of income throughout employment.\"***\n* A 3-month internship requires ***\"24% of income throughout employment.\"***\n\nConsider an untaxed income of $41,600 a year, respectively $3,467 a month and this is what you would pay.\n\n* $41,600 \\* 0.09 = $3,744\n* ($3,467 \\* 6) \\* 0.12 = $2,496.24\n* ($3,467 \\* 3) \\* 0.24 = $2,496.24\n\nFrom my experience, this program is useful if you have no experience which plateaus quickly. Pathrise does fulfill their side of the agreement. After all, Pathrise has helped people get jobs. They go over this material and provide information to accelerate your **skills** for the career you want. However, this information can generally be found online or purchased at a margin of the cost. Here is my valuation on what the program provides based on what I knew before joining Pathrise:\n\n* The 1-on-1 meetings had limited impact on me (Useful if you're uncomfortable speaking to strangers.)\n* Resume and online profile tips are general information easily found on Reddit, etc.\n* Networking were tips about sending out emails to recruiters, x-ray searching jobs, etc.\n* Salary negotiations boil down to knowing the market rate of your job's location.\n* Referrals. I've had better luck just applying to jobs on my own.\n* Weekly programming sessions, Ineffective if you Leetcode often or code competitively.\n\nSo is joining Pathrise worth it?\n\nNo. I think that Pathrise is still infantile. My gains in knowledge were marginal at the least since I already knew a lot about the mentioned topics. Not all of the content they provide is available yet, or the content is locked. The due dates for assignments are out of sync respective to when you join the platform. The experience is disjointed as they rely on third-party tools external to the platform such as Asana, Slack, Hangouts, and Google Drive. Finally, as I've mentioned previously, for everything in the Pathrise program, there is an alternative that can be found online for free or purchased for a marginal cost.\n\n**As a warning, I will say to avoid Pathrise because you are paying a huge markup for information.**",
+      "subreddit": "cscareerquestions",
+      "score": 241,
+      "url": "https://reddit.com/r/cscareerquestions/comments/ak8y1s/opinion_on_pathrise_worth_it/",
+      "comments": [
+        {
+          "body": "[removed]",
+          "score": 173
+        },
+        {
+          "body": "I was a Pathrise fellow and strongly advise against it. I'm using a throwaway account because I don't want anything linked back to me.\n\nBasically, when I signed up for Pathrise, I was a new grad that had been unemployed for several months so I was getting desperate. I thought I had nothing to lose. Their program looked good from the outside and I decided to give it a shot.\n\nTheir program was basically one month of teaching material (one lecture session a week for 4 weeks) followed by 3 months of \"support\" where you're basically on your own and apply to jobs. Everything from the lectures could be found on YouTube. Everything they teach can be found from channels such as CSDojo. The \"support\" phase is where they leave you on your own. You apply to jobs by yourself, keep a record of your applications and their statuses, and check in once a week with your advisor.\n\nAfter going through Pathrise, here are the specific ways that I got screwed with Pathrise:\n\n(1) **The lies**. On their website, they claim that their advisors come from \"industry leading\" companies such as Google, Facebook, Dropbox, LinkedIn, Amazon, etc. When I signed up, they actually only had 2 advisors, Rachelle Gupta and Brian Wong. The CEO Kevin and CTO Derrick were too busy to respond to my messages. \n\nAlso, I was told that after 2 weeks, I would be able to apply to exclusive jobs through referrals through their internal network. This was a lie, as Brian later revealed to me that I would have to explicitly ask for a referral for a specific position I already had in mind, and that a referral would be provided only if they knew someone who could provide it for that company. Many fellows have complained about this, just search r/cscq for Pathrise and you'll see more of these.\n\n(2) **Taxes**. As OP mentioned, the income share percentage is applied at your pre-tax income. After taxes, you actually pay anywhere from 12-14% of the money you actually take home.\n\n(3) **The lack of help**. Ultimately, the \"help\" Pathrise gave was not helpful. It was really more of a leetcode practice bootcamp than anything. Advisors took a long time to respond to my messages because I think they were so understaffed while trying to give off the impression that they have a team of experts.\n\n(4) **The fact that they don't have to help you**. Once you sign the income share agreement and are in the program for 2 weeks, they are legally entitled to 9% of your first year's salary for any job you land, **regardless of whether they helped you land the job or not**. I finally landed a job through a referral from a friend. Pathrise did not help me with that in any way and yet I still owed them several thousands of dollars simply because of the income share agreement.  \n\nNow that I have been through Pathrise and am able to look at the whole experience, I would not recommend it to any one. They really prey on new grads' fears and desperation. It is so easy to think \"I've been 6 months out of school and haven't landed a job, why don't I just give this a try? I have nothing to lose.\" But that's just the thing. You do have something to lose and when you finally land that job you will feel the loss. \n\nThe reason why Pathrise is so appealing is because they understand the problem new grads face. They understand that many of them have been looking for months without good results. They understand that most college grads have not been taught basic career advancing skills. They understand that you do not want to do this alone and that you want peers to go through this struggle with together. But just because they are able to empathize with and understand your problems does not mean that they have the means to help you.\n\n\n",
+          "score": 64
+        },
+        {
+          "body": "This is for the U.S.\n\nIn most areas, there are government programs to help with exactly these issues, 100% free.  Usually run by the same department that administers unemployment insurance.\n\nIn Silicon Valley, NOVA in Sunnyvale, San Mateo, San Bruno, is particularly good but there are many others both in Bay Area and elsewhere.\n\nhttps://novaworks.org/\n\nAlso, in Silicon Valley, salaries are much more than 40K so your payment is even greater.",
+          "score": 30
+        },
+        {
+          "body": "It worked great for me, and I had tried the \"free info / government programs\" that were mentioned for a long time before deciding to try the fellowship. Pathrise helped me clean up some interviewing problems I was having and working with the advisors helped tweak my resume, I ended up getting a six figure job with unlimited PTO where I still can't call anything I've done \"work\".\n\nNowadays when Pathrise refers fellows to me I know they're vetted and I have no problems talking to them and helping to get them moved to the top of the interview pile.\n\nThat said when I made a positive experience post about them it was removed, which is concerning considering people are seeking opinions on both good and bad experiences but for some reason a concerted effort is being made to remove good experiences for reasons that remain unclear.",
+          "score": 17
+        },
+        {
+          "body": "Does anyone know what is the incentive for the advisers from companies to donate time to pathrise? Are the advisers compensated? If so what is the compensation structure?",
+          "score": 8
+        }
+      ]
+    },
+    {
+      "title": "Hella long rant about trying to get a new grad position.",
+      "body": "I worked hard to be able to finish my CS degree a semester early (December 2017 rather than spring 2018). The plan was to accept a job offer, and to be able to travel this spring and start working around May with the rest of the 2018 grads. I don’t know if this will happen anymore, because I’ve been job hunting since September and am now sitting at home in late January with no offer in hand. \n\n**For 3.5 years dozens of people were like “omg you’re a girl studying computer science at a top 25 school?! You’re gonna have such an easy time finding a job!” But I’m not and I don’t really know why.** It can’t be my resume—because I am getting interviews. Right? \n\nI’ve done interviews at places like Snapchat, Khan Academy, Reddit, Youtube, Asana, IndieGogo, Uber, Yelp, and some smaller startups as well. I know the formula is “resume + interview performance”; but I’ve been getting better at technical interviews as I go along and every single time I’ve ever submitted a coding test I’ve passed onto the phone interview stage. Still, every time after I complete a second phone screen or the onsite round I get that unfortunate email. \n\nI feel like I keep being rejected for not having enough experience, though I’ve had internships and have some projects listed and online. I admit: I didn’t do side projects really, since my coursework was demanding so my big projects were for school (My projects however are fairly large and use common technologies like Java, React, ).\n And when interviewers ask questions about my internship at a well known tech company, I talk in detail about what I did but honestly my team was a shit show (manager handed me to another team, left the company halfway through) and basically didn’t give me shit to do (even though I asked for real projects). Not ideal but there’s nothing I can do about it now. I guess I’m not sure whether I should bullshit it to make it sound like I did more, or admit that my team sucked. \n\nI get it: I barely know anything (which makes sense, I’m a new grad). Now that I have time on my hands I’m trying to work on learning more web development, data science, and databases. **But everyone says they just want junior engineers to be quick learners and have problem solving skills. I feel like I demonstrate that and then they decide they actually want a new grad with 2 years of experience.**\nI’m frustrated. Why did I spend so much money and time grinding through a BS degree that required like multi-var calc and linear algebra and 2 physics courses? Would I have been better off doing online courses and bootcamps and side projects for 3 years?  Is it really just my performance on Leetcode type questions that’s failing me? Or maybe they’re like “well she did okay on the interview but actually did nothing at her internship so it’s a no”?  Or am I only getting these interviews in the first place because they need to say they interviewed a certain number of girls? \n\nOn the positive note: yes, I know I’m not in a bad position in life and I’m lucky to get the opportunity to be considered at these companies. I do have a growth mindset and know that I can/need to work hard to learn and improve and open more doors for myself. But it’s like, all these companies are telling me that I am **almost** good enough but not quite for them. And if I’m able to get onsites at places like Uber and Google, why am I not making it through interviews for less competitive companies?\n**I don’t know what this rant will produce. I guess I’d love to hear any thoughts or advice or wisdom or related rants from people with similar experiences. I feel like I did what everyone said would set me up well and then they’re like “oh you got to the top of this hill? No you were supposed to be climbing that hill over there this whole time”.  And it fucking sucks.**\n",
+      "subreddit": "cscareerquestions",
+      "score": 119,
+      "url": "https://reddit.com/r/cscareerquestions/comments/7udwky/hella_long_rant_about_trying_to_get_a_new_grad/",
+      "comments": [
+        {
+          "body": "[deleted]",
+          "score": 108
+        },
+        {
+          "body": "Once you get to the interviews pretty much the only things that matter are your interviewing skills.\n\nIf you've talked to all those companies and kept bombing, something's definitely wrong about how you're interviewing. You can ask for feedback about what you could've done better, but some introspection on what you've been doing would be the best thing you can do.\n\n",
+          "score": 93
+        },
+        {
+          "body": "As a complete sidenote:\n\nI don't understand why her mention of her not knowing why she's not getting jobs and her maybe mentioning sexism is alluding responses of her being entitled and not taking responsibility.\n\nWhile that might very well be the case in real life, I don't see half of you people saying that stuff to every other person on this sub, who is disillusioned by unemployment. \n\n(Haha, is it because you guys know she's a girl? Because that would in fact be the sexism you guys are encouraging her to not blame). In any case, you guys should take a class that teaches something on the institution of sexism because it's much more than just \"feelings and attitudes towards women\" as you guys are indicating. \n\nProps to people giving the harsh criticisms to try and stimulate a reality check. That's actually useful. ",
+          "score": 39
+        },
+        {
+          "body": "So I'm in the exact same boat (girl who just graduated in Dec '17 instead of May '18, went to a top 25 school and is still looking for a job). I know it's super frustrating, but just keep looking. Also, I recommend looking at non-tech (finance, health tech, etc.) for positions. It may seem like professionally it's not the best move, but I would say it's good to go into these sectors for a few reasons: 1) You get a chance to work on solving some interesting problems in interesting spaces 2)Salaries are not that much behind SV salaries, my friends have gotten offers that are better than FB and Google. And considering that it's cheaper to live in Boston or NYC than SV, you'd actually get to retain most of the money you make 3)Gender ratios in their tech departments are often MUCH better than the ratios in pure tech companies. 4)Many of these opportunities are not in SV and are on the East Coast. I might be biased since I've lived on the East Coast for my whole life, but I generally believe quality of life and work is better for developers on the east coast. PM me if you want to talk more",
+          "score": 18
+        },
+        {
+          "body": "People say the same to me since I’m a black female. It’s really hard to get that first job. It seems like everyone else can get one easily. I’ve done 100+ leetcode but still feel like I’m lacking.",
+          "score": 18
+        },
+        {
+          "body": "[deleted]",
+          "score": 16
+        },
+        {
+          "body": "Black guy here non target. Ignore comments about how it's easier for you because you are a woman. They either have no idea what they're talking about or their one company has a quota of 1 for( insert URM so we look diverse). I was one of the best programmers in my CS department and only black person in my CS department. I never got an interview from any campus career fair I went to. I'd pass all the technical questions in interviews where everyone in the company was white (with maybe an offshore indian team) and still fail. Did I complain? No. Because it doesn't do anything. After I put 4-12 hours a day leet coding straight for 3 months, I finally got an offer. You just need to put into the work. He'll you got quadrupled the amount of interviews I got in half the time.",
+          "score": 83
+        }
+      ]
+    },
+    {
+      "title": "Why do people suggest cold applying when it almost never pans out?",
+      "body": "I've submitted \\~400 cold intern applications at companies ranging from Raytheon to Microsoft to Asana to ABC energy company in Ohio, between this season and last. I go to a large T50 state school. Respectively, my GPA was 3.8 and 3.5 for each season (rough online semesters with COVID, but I figured a 3.5 shouldn't be low enough to warrant immediate rejections for most places anyway), for the current season I had a prior internship at a well-funded SaaS startup, a few thousand lines of open-source contributions, and 2 publications in CS-adjacent fields.\n\nI've had my resume edited by my mentors at that internship (ex-FAANG) as well as people in my research group. I ended up with a total of &lt;10 first-round interviews, and ultimately one offer.\n\nComparing this to my success with referrals/\"networking\":\n\nAcross 12 referrals, I received first-round interviews for all but 2. I ended up \"only\" getting 2 offers, but they were at much better companies compared to the singular cold-application success, and still is a MUCH higher rate of success.\n\nI don't understand why people still suggest putting any time into cold applying, especially when almost everyone can at least get a referral to somewhere like Amazon if they go to a decently large school.",
+      "subreddit": "cscareerquestions",
+      "score": 1,
+      "url": "https://reddit.com/r/cscareerquestions/comments/t9hg7t/why_do_people_suggest_cold_applying_when_it/",
+      "comments": [
+        {
+          "body": "I think everyone understands that networking and having connections is probably the best way to get your foot in the door. But that's not always possible. Sometimes you might not know anyone who works at a company you're applying to. Also, for some large tech companies, referrals don't get you anywhere because so many people are doing it.",
+          "score": 14
+        },
+        {
+          "body": "Sometimes cold applying is the only option. Of course networking/referrals will usually be better. It’s kind of like saying you can get a better dinner for $50 than if you had $5. Like yeah but sometimes you might only have $5 and it will get you a meal of some sort instead of going hungry.",
+          "score": 10
+        },
+        {
+          "body": "&gt;I don't understand why people still suggest putting any time into cold applying, especially when almost everyone can at least get a referral to somewhere like Amazon if they go to a decently large school.\n\nYou are  assuming  that everyone has a network and can get referral. Not many are lucky to have professional in their networks.\n\nFor me it was not a cold call but a follow up call that got me my first job.  When you don't have any other resources cold calling is still worth it.",
+          "score": 7
+        },
+        {
+          "body": "I cold applied to ~50 companies and got OAs or interviews for ~20 of them. Cold applying does work if you have a good enough resume.",
+          "score": 5
+        },
+        {
+          "body": "How many interviews did you get out of the 400 applications? With a good GPA, open-source contributions, publications, *and* work experience I feel like you should at least be getting interviews, that's like the perfect profile for an intern/new-grad position.",
+          "score": 4
+        },
+        {
+          "body": "This has real “why does everyone just get a job from their daddy” vibes.",
+          "score": 10
+        },
+        {
+          "body": "I would never suggest most job boards to people with options but usually by the time someone is asking on Reddit it’s too late for them to network for their next role.",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Beware scam job offer from people pretending to be from Asana.",
+      "body": "Basically, got an email from a recruiter to talk with a hiring person through Skype. Responses seemed pretty automated so I started googling. Found [this](https://www.teamblind.com/post/asana-job-scam-5d1jstfN) , pretty much telling the exact experience I had just gone through. I knew it wasn't legit when they suddenly offered me $120k before I even spoke to anyone :(. I just want to get a job, I've had hundreds of applications its disheartening that this was my first \"interview\".\n\n**edit** They sent me a form to fill out, I called them on it being a scam and they suddenly deleted every message. Beware \"Chris Juliano\" on skype!",
+      "subreddit": "cscareerquestions",
+      "score": 8,
+      "url": "https://reddit.com/r/cscareerquestions/comments/ueywjh/beware_scam_job_offer_from_people_pretending_to/",
+      "comments": [
+        {
+          "body": "[deleted]",
+          "score": 1
+        },
+        {
+          "body": "Got the exact same one from the same guy, didn't follow up bc it seemed like a scam but it was similarly disheartening. Keep it up - its a difficult path but its doable. You got this!",
+          "score": 1
+        },
+        {
+          "body": "[removed]",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Airbnb / Linkedin / AsanaUP / Snap Up Apprenticeships - anyone hear back?",
+      "body": "Hi everyone! I applied to Airbnb Connect Apprenticeship, Linkedin Reach Apprenticeship, Asana Up Apprenticeship, and Snap Up Apprenticeship within the past month or so - has anyone heard back from any of these companies?    \nAlso, anyone who participated in the hiring process in the past for these apprenticeship programs - any advice or recommendations on navigating the rest of the interview if someone does proceed to the next phase? What does the rest of the interview process look like? \n\nThank you in advance!",
+      "subreddit": "cscareerquestions",
+      "score": 9,
+      "url": "https://reddit.com/r/cscareerquestions/comments/mhga53/airbnb_linkedin_asanaup_snap_up_apprenticeships/",
+      "comments": [
+        {
+          "body": "[deleted]",
+          "score": 6
+        },
+        {
+          "body": "Looking to hear back from Snap Up Apprenticeship.",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Should you choose internships based on future career growth or internship experience?",
+      "body": "I recently received two offers for a Summer 2021 internship, Vanguard and Asana, and while I'm really happy, I'm also a bit conflicted\n\nVanguard on one hand may have a little less technicality in their internship, but their internship has a high chance of being followed up by their technology leadership program (a two year rotational leadership program after college with extra mentorship) that sounds like a great career opportunity after college and could be really beneficial for my future career growth.\n\nOn the other hand, Asana was literally one of my dream internships, it has a product that's interesting to me, it has a pretty high salary (minus housing), and I'd get a bunch of software experience on the job. It's also in SF, and while there's expensive housing and all that, I've always wanted to visit SF and interning there would let me do so without actually working there full-time.\n\nI had a great interview experience at both companies and their company cultures/people seem super supportive and generally happy, so that's not the issue. Its honestly just trying to figure out whether to prioritize my career growth in 2-3 years vs a software experience internship now\n\nAlso, sorry about the long post, but there's a third option, not accepting both and just hoping a few other companies pull through. I'm in the loop with a few another larger companies, some FANG, but I'm not sure if I want to risk throwing away two internships for the chance at a larger company. School also started and grinding OAs and Zooming for 5 hours at companies has been taking its toll :(\n\nI know internships don't define your life path, but it honestly feels like I could end up in two very different places based on what I choose. Any advice would be greatly appreciated! Thanks!",
+      "subreddit": "cscareerquestions",
+      "score": 9,
+      "url": "https://reddit.com/r/cscareerquestions/comments/jagtn7/should_you_choose_internships_based_on_future/",
+      "comments": [
+        {
+          "body": "Flip a coin, you'll decide which one before it lands",
+          "score": 5
+        },
+        {
+          "body": "I would take Asana but finish the interviews at FAANG, then renege for FAANG if I got a better offer. I think Asana would look a lot better on a resume making it easier to get interviews later on, would definitely be the better experience, and has really good full-time comp if you can get a return. Reneging isn't that bad really, it might blacklist you from one company, but it'll be worth it for the career development. Companies don't really care about you, just do what's best for yourself",
+          "score": 3
+        },
+        {
+          "body": "[deleted]",
+          "score": 1
+        },
+        {
+          "body": "I would definitely take Asana, based on what I've heard is that they offer a very competitive FT salary, comparable to FAANG (and the culture is amazing)",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Anyone use Triplebyte or similar sites where they claim to place you on the basis of a coding quiz?",
+      "body": "Are they real?  Do they work?  Do potential employers only see your best attempts, or do they see all the mistakes you've made?  How does scoring work?  I don't want to bumble into this so as not to sully my name.",
+      "subreddit": "cscareerquestions",
+      "score": 7,
+      "url": "https://reddit.com/r/cscareerquestions/comments/7qdvmo/anyone_use_triplebyte_or_similar_sites_where_they/",
+      "comments": [
+        {
+          "body": "I used Triplebyte, employers don't see your coding quiz at all. Basically, once you pass their filter you are Triplebyte endorsed, and they will try to sell you to companies. If you fail, nothing bad happens. Nobody would see that you failed their process.\n\nTriplebyte worked reasonably well for me, I got interviews with some startups which seemed pretty strong.",
+          "score": 14
+        },
+        {
+          "body": "I used it, and am working at Asana as a result.\n\nI don't think the quiz itself affects what employers see. The results of the phone interview/interviews does (the employers will see a list of your strongest facets, and you'll be matched with employers based on which facets they tend to most value in their interview). I'm not sure about the quiz but if you fail the phone interview I think you get to retry in 4 months or something.\n",
+          "score": 6
+        },
+        {
+          "body": "I see. So why go through triplebyte when you can directly apply at asana? Are they essentially doing an employee referral (or something equivalent) so that the chances of getting call at a company increases?\n\nI can see it’s (triplebyte) value prop for someone who can not get an employee referral. But, don’t see much advantage if you can get one - you do screening with triplebyte as opposed to with asana. May be I am missing something.",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Rejected from everywhere I applied to so far. What do I do now?",
+      "body": "Some background: I going to graduate in May with a CS bachelors degree from a top 20 school in the US. I started CS a bit late, midway through my Sophomore year. CS experience so far has been some research at the Jet Propulsion Laboratory, and an internship at Facebook last summer (I did not receive a return offer). I have a 3.1 GPA (CS GPA should be slightly higher). My CS courses have focused on Networks and Machine Learning, and I will be TAing an advanced Machine learning course this term.\n\nI've had first round interviews at Asana, Microsoft. I've had first round interviews, and onsites at Google, Snapchat, and Redfin. I felt like I didn't exactly do my best on the snapchat, asana, Microsoft interviews, but I felt that I had done well at Google and Redfin. For Snapchat, I was definitely not expecting an offer because I was not a good cultural fit for the company at all.\n\nI'm a little bit lost right now and need help figuring out what I should do. I feel quite demotivated right now, and need to pick myself up. A couple of questions.\n\nWhat's the best way to find good companies that are smaller and lesser known? Is it better for me to simply \"apply everywhere\" and not so much worry about whether or not the company is a good company? How do you get to know startups, especially ones with potential?\n\nCompanies do not give any feedback on interviews. I have a pretty high rate of applying to being selected for an interview, which makes me think that my resume isn't my weakest point. Besides, at this point the material that is going on the resume is not going to be changing anytime soon. I was wondering if someone could give me a mock interview and point out things that you feel could be my weak points and what I can work on. \n\nThanks a lot!",
+      "subreddit": "cscareerquestions",
+      "score": 1,
+      "url": "https://reddit.com/r/cscareerquestions/comments/3yyr4w/rejected_from_everywhere_i_applied_to_so_far_what/",
+      "comments": [
+        {
+          "body": "You've interviewed with 5 companies, 3 of them being very small with limited openings - that's basically nothing. You've just *started* your job search. Pick 50 of your favorite tech companies, small or big, and apply to all of them. You can't afford be picky even before you receive a single offer.\n\nSimultaneously, if you're not completely confident of your interview skills, read a book like Cracking the Coding Interview and also practice solving interview questions. ",
+          "score": 6
+        },
+        {
+          "body": "It's great that you're getting onsites.  Just keep applying and you'll find somewhere.\n\nCompanies generally don't give feedback because they're scared of lawsuits.  Even if you do receive feedback, you'll always have to consider the possibility that they just made up the feedback and it's fake (e.g. they'll say something generic like \"we're looking for more experienced applicants\" when the real reason is nothing of that sort).  I personally believe most companies do not discriminate, but nevertheless companies must take actions to avoid discrimination lawsuits since they cost time and money (even if the company is innocent).\n\nI'd just go to the career fair (or talk with the university career center) and see what companies typically hire CS graduates.  There are tons of companies, including lesser-known ones.",
+          "score": 4
+        },
+        {
+          "body": "You've had interviews and onsites, you're right in thinking that your resume is fine. If you could get an internship at Facebook, I'm guessing your technical skills are okay too. I'm wondering if it could possibly be cultural fit or something? There are many reasons someone can be rejected, don't feel bad - they might've had a better fit candidate, the interviewer was having a bad day, blah blah...\n\nWith that being said, don't worry. You seem skilled and motivated. All you need is 1 offer and you're good to go. \n\nI applied to over 100 places this year with only one internship at a no-name startup at a mid-tier state school. I got rejected like 50 times, but I finally got an offer. You're gonna get rejected a lot, but all you can do is keep applying. You can do it!! Practice more and apply to 4-5 places everyday, you will definitely get one by the end of the semester.",
+          "score": 4
+        },
+        {
+          "body": "Keep applying. Go to a few of the different job sites and search for things like \"junior java developer,\" etc. Most importantly, go to career fairs. Finding smaller and lesser-known companies is pretty easy. Also keep in mind that you don't need to work for a great company right out of school, you just need a year or two of experience. To that end, don't limit your search to just tech companies. There are a LOT of non-tech companies out there that are great places to work.",
+          "score": 2
+        },
+        {
+          "body": "Mostly because you're being too picky. apply for more companies.",
+          "score": 2
+        },
+        {
+          "body": "I'd [paste the entirety of what I posted before into this box](https://www.reddit.com/r/cscareerquestions/comments/3xufyh/graduating_this_semester_tips_on_finding_jobs/cy7y0kf?context=3), but I figured you'd want a more personal version. \n\nYou had the same problem I had for a while - you've been grinding, but I don't think you've been grinding **enough**.\n\nYou see, I interviewed for **three full months** before I ended up getting a full-time offer; and that was *after I'd already finished all of my studies*. Before then, I only interviewed a few companies (Redfin and another Seattle startup onsite being two of them).\n\nI get that you've had a Facebook internship, but apparently **it's not enough**. I had a Riot internship and an Audible internship, and ***I thought I was hot sh$#***. The biggest problem was that the companies I was applying to had even better candidates than me, so my confidence was unfounded, and a little arrogant.\n\nI'd say the biggest thing you need to do is ***humble yourself***. You're obviously not **that** good, or you'd be done interviewing, and you wouldn't *need* to write this Reddit post. \n\nLet me know if you need further feedback. This was my life exactly a year ago, and I remember most of it pretty vividly.",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "airbnb vs. dropbox (vs. lyft vs. asana)?",
+      "body": "i'm a new grad and have offers from dropbox and airbnb and am considering lyft and asana as well (still in the process for those two). what are your thoughts? I sort of like the idea of dropbox in nyc but i don't know how to go about this choice since they are all sf-based mid-sized (asana is a little smaller though I think?) companies with generally good engineers.",
+      "subreddit": "cscareerquestions",
+      "score": 7,
+      "url": "https://reddit.com/r/cscareerquestions/comments/57e6j3/airbnb_vs_dropbox_vs_lyft_vs_asana/",
+      "comments": [
+        {
+          "body": "I vote Airbnb. ",
+          "score": 17
+        },
+        {
+          "body": "Dropbox and Lyft are not doing well. Asana is being phased out. Airbnb is going places. I'd choose them both for job security (if you want your equity to be worth anything at all) + they offer the coolest product out there. You'd learn the most from them honestly.",
+          "score": 10
+        },
+        {
+          "body": "Where do you want to live? Which place gave you the best impression?  Which product do you actually like?  Also any notable differences in comp?",
+          "score": 2
+        },
+        {
+          "body": "As someone who knows people in these companies personally, I'd like to offer a contradictory opinion. Airbnb was \"the place\" to be one or two years ago - amazing culture, top notch technical talent, and great leadership. However, recently, I've heard not-so-good things about it. Culture has been declining and the hiring bar has decreased quite a bit. It's still a great, great company, but not the no-brainer choice that it was a while ago. Asana has amazing culture and talent, but their product is a little dry for me. If you actually like their product and mission, I'd say go for it 100%. Dropbox is a little bit of a mixed bag - great brand, great leadership, amazing talent - but some bad PR, work culture issues and uncertain product direction tarnished its reputation. However, they've definitely been doing better recently. As for Lyft, again, great compensation, culture and impactful work, even if they're the underdogs.",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Daily Chat Thread - September 04, 2019",
+      "body": "Please use this thread to chat, have casual discussions, and ask casual questions. Moderation will be light, but don't be a jerk.\n\nThis thread is posted **every day at midnight PST**. Previous Daily Chat Threads can be found [here](https://www.reddit.com/r/cscareerquestions/search?q=Daily+Chat+Thread&amp;restrict_sr=on&amp;sort=new&amp;t=all).",
+      "subreddit": "cscareerquestions",
+      "score": 2,
+      "url": "https://reddit.com/r/cscareerquestions/comments/czheud/daily_chat_thread_september_04_2019/",
+      "comments": [
+        {
+          "body": "Anybody done with Microsoft 30 mins interview for newgrad 2020 recently? What type of technical questions should i expect in the interview?",
+          "score": 1
+        },
+        {
+          "body": "I have an on site where they're expecting me to be able to do things such as make API calls, other http stuff, use csv/json files, etc.. \n\nThis is all fine with me but the problem is I normally use javascript to do most of these things  but when practicing for interviews I've been using C++ this becomes a pretty big issue since for the most part C++ is a lot more complicated when doing a lot of things. For example to make a API call I need to use some library then use another library to parse the string then modify the data, etc.. and these c++ libraries aren't that simple to use where it takes 5 minutes to setup and use like javascript. Even something as simple as json is complicated to use in c++\n\nHow would you guys approach this given a weeks time? There's no shot I'll be able to learn how to solve leetcode mediums/hards in javascript with only like 5 days left.",
+          "score": 1
+        },
+        {
+          "body": "Looking at some role descriptions: Junior Java Position requirements ... I got headache just by looking at it.   \n**Essential Skills of Junior Java Developer:**\n\n* Knowledge of core Java\n* Complex, high performance, multithreaded, state-driven systems\n* Hibernate/JPA or similar ORM technology\n* Good understanding of software architecture\n* SQL/Relational databases\n* Automated unit tests\n* Some experience with Javascript and web technologies\n* Excellent problem-solving skills\n* Strong communication skills to interface with stakeholders and interact in standups\n\n**Beneficial Skills:**\n\n* JAX-RS or similar technology\n* Javascript, HTML, Typescript\n* JUnit\n* Multi-media web technologies, e.g. MSE, Canvas, AudioApi.\n* C\n* Working with Cloud APIs: AWS/S3/Azure/GoogleCloud\n* Postgres, SQL server\n* performance analysis, profiling tools for Java and databases, building scalable, high performance systems\n\n**Education &amp; Experience:**\n\n* BS/MS degree in Computer Science, Engineering or a related subject\n* 4+ years of hands-on Software Development\n* 4+ years of experience in Java development",
+          "score": 1
+        },
+        {
+          "body": "Any advice on two sigma phone screen? Already did the online screen and recruiter.",
+          "score": 1
+        },
+        {
+          "body": "[deleted]",
+          "score": 1
+        },
+        {
+          "body": "anyone do the Asana hackerrank?",
+          "score": 1
+        },
+        {
+          "body": "I have a side contract on top of my regular salaried job. It's my first contract and I have no idea how to charge. I'm new to the stack at the contract job so it's taking me a while to really get up and productive. Should I be charging for those hours where I'm spending time just googling and trying to get up to speed? Same with taking longer to implement a feature than I should be.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Should I tell the truth about why I'm searching for a new job?",
+      "body": "A short brief about me: \n\n* I was a new graduate student in 2019.\n* applied 95 job applications before landed a job in August 2020.  \n* I have done some freelancing gigs on web development.\n* picked up business negotiation from courses and applied in the real world of trial and error.\n* learned basic graphic design and UX to support front-end development.\n* continuously learning to become a better coder.\n* Learned basic project management to support my freelancing gigs.\n\nToday, I don't do freelancing anymore. It's because it's too much stress for only me doing it. I would rather focus on coding and have a stable income each month.  \n\nRight now, I work at a company that is doing primarily PR and communications consultancy.  I work with a design and development team. I have been there for 6 months now and working primarily in WordPress.  My workplace started the web development department couple of years. Now, it seems like our CEO has considered shutting off the whole department. \n\n**This is because:**  \n\n\n* the development leadership is lacking. \n* we don't have a proper project leader, even I tried to persuade them the basic project management.\n* we don't have proper processes and procedures to handle projects and neither quality assurance.\n* My team wants to simplify workflow by only using Miro and Asana (which sucks btw).  \n* We don't have any person who can do strategic business development in the IT field, but only in PR and communication. \n* Our seller wants us to sell everything as a \"small, normal, big and luxury web service pack\", which is BS. Doing development is not so linear, because of the Scope of Work based on incident and service requests. \n* other internal departments such as sales and marketing take the development department for granted when it comes to incident requests and service requests. If we don't fulfill their request, they get pissed, since everything is labeled as \"urgent\". \n* Not generating enough cash flow to the company.  \n\n\n**What I have done for the company:**   \n\n\n* I introduced Confluence for documentation of process and procedures (SOP) of coding.\n* I taught my dev team how to use Git and GitHub. \n* Introduced CI/CD to the work. \n* Defined a new workflow for development, since they didn't have any before. \n* Gained a new customer to the company, because I solved a problem for them which wasn't easy.  \n* Created a more modern WordPress stack in the front-end today. They used outdated old stacks such as Webpack 2.x and other deprecated dependencies as well.\n\nBasically, I have done the heaviest lifting at the job. My dev team doesn't know how to do programming properly. It's more like they know how to utilize the code because WordPress has a lot of ready-made functions. They can only do basic HTML, S(CSS). \n\nRight now, our team is demoralized because the leadership is lacking.   \nI'm thinking to find a new job, but I am having a dilemma if I meet a recruiter or getting a chance of landing a job interview. Should I tell the truth about what is happening in my current situation?   \n\n\nI just know the golden rule is never talking shit about the place you work at. I need some advice!",
+      "subreddit": "cscareerquestions",
+      "score": 3,
+      "url": "https://reddit.com/r/cscareerquestions/comments/m3v6vk/should_i_tell_the_truth_about_why_im_searching/",
+      "comments": [
+        {
+          "body": "I would google it, if you really can't come up with positive reasons on your own...  Wanting to learn more is a good one...",
+          "score": 5
+        },
+        {
+          "body": "You seem like a great developer. It's awesome you've been able to introduce all those improvements in your company's development processes. You already have the right intuition that you shouldn't straight up criticize your current or past employers during an interview. Figure out how to frame it like the other guy said in that you are wanting to learn more, etc.",
+          "score": 1
+        },
+        {
+          "body": "Rather than mentioning negatives about your workplace, talk about positives in the company you are applying to.\n\nWhat I mean by that is, maybe talking about why you’re really thrilled about this opportunity because the company offers you X, Y and Z.\n\nAnother point to touch on is, maybe try to indicate how you want to work in a role A or with company B because of the steeper learning curve. Maybe tell them how you feel you sort of peaked at your currently role and slowly throw in few key things you achieved etc.\n\nAnd another strategy is to always mix a positive with a negative. You could say something like, while X part of the company was great and allowed you to accomplish all this, Y part wasn’t the best...",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "How strong is Asana's reputation as a company?",
+      "body": "I recently talked to Asana at a career fair, and I found their product and company to be very promising. For example, one of their co-founders was also a co-founder of Facebook, and their investors include Benchmark Capital, Founders Fund, and a16z.\n\nThe startup has a good amount of PR buzz out there, but I wasn't able to find much additional information from less biased sources like Glassdoor or this sub. I'm considering applying to Asana for a summer internship position, and it'd be great if anyone could chime in on how the company stacks up against the Big 4 or hot startups like Dropbox/Palantir (with regards to reputation, culture, salary). Thanks!",
+      "subreddit": "cscareerquestions",
+      "score": 12,
+      "url": "https://reddit.com/r/cscareerquestions/comments/3p6b1o/how_strong_is_asanas_reputation_as_a_company/",
+      "comments": [
+        {
+          "body": "Unless you're so good that there are companies stacked up you literally have to pick the company you want to interview, I will first have an offer in hand then worry about the company reputation. ",
+          "score": 11
+        },
+        {
+          "body": "I've never heard of Asana but they're in a very, very crowded space. But since you're just interested in an internship, none of that really matters. Just apply and stop over-thinking. I also wouldn't consider Dropbox or Palantir to be anywhere close to being startups.\n\nHonestly, as an intern you shouldn't be at all concerned about things like culture or even salary. You should just worry about collecting as many diverse work experiences as you can. Staying away from the SV monoculture for at least some of your internships will serve you very well down the road.",
+          "score": 4
+        },
+        {
+          "body": "They pay high intern salaries and have a pretty decent engineering team. They're at least somewhat similar to Dropbox and Palantir I think, but I don't know how good. Would just interview and see whether you like the team. If you're a good developer, you can get an interview anywhere regardless.",
+          "score": 2
+        },
+        {
+          "body": "They had a much better reputation 2 years ago but the product doesn't seem as exciting these days. There doesn't appear to be much growth recently and I've not seen much on-campus recruiting efforts recently.",
+          "score": 2
+        },
+        {
+          "body": "Very strong engineering team. Very good reputation in the Bay Area tech community. I'd say the average engineer at Asana would be the top 10%-20% at Big 4.",
+          "score": 1
+        },
+        {
+          "body": "No idea, but I know of Asana and have used their software at work when our office was small. Seems all right.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Which company should I pick? Higher prestige or my personal preference?",
+      "body": "Hi!\n\nI am currently trying to decide between Google, FB, Lyft, Asana, and Stripe internship offers. I am able to choose two as I will be taking next semester off.\n\nLyft is the highest by a substantial amount in terms of compensation and I think I vibe with Stripe most based on my interviews. I would like to do both BUT.....\n\nMaybe this is just me, but I found that most exceptional devs have interned at Google or FB and I feel some sort of pressure to follow in their footsteps, even though this is not necessary what I want. Has anyone else found this? Is it that important to intern at one of these larger companies? Or should I chase my dreams? Even if I do G/FB, I can still do Lyft/Stripe on the other season, but I'd really like to do both Lyft and Stripe. Reaching out to the community for advice\n\nThanks",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/dluy2k/which_company_should_i_pick_higher_prestige_or_my/",
+      "comments": [
+        {
+          "body": "I would recommend do one FB/G and one L/S. This way you got enough recognition on resume, and got a taste of working at a later stage startup. \n\nHonestly, doing both L and S is still good enough for resume, but I think it’s important to understand what it’s like working for big 4 so that you can make a better decision when getting out of school. This would really speed things up for your career.",
+          "score": 5
+        },
+        {
+          "body": "We should start a subreddit-fund where everyone on cscq puts 10 cents in for everyone of these “i can’t choose between google, facebook and [insert unicorn] omg pls help me 😣😣😣” posts. If it gets big enough we can hire someone to vet these posts manually maybe.",
+          "score": 7
+        },
+        {
+          "body": "For an internship go with prestige because itll flash on a resume. If this was for a career and not just a summer, I'd say go with personal preference if compensation was within reason.",
+          "score": 3
+        },
+        {
+          "body": "Do Google + 1 other. Don't worry about TC at this point, try to build your personal brand/resume.",
+          "score": 2
+        },
+        {
+          "body": "I'm not sure that the company you intern at matters that much, and I'm even less sure that the vibe you get during the interview means jack shit.",
+          "score": 1
+        },
+        {
+          "body": "[deleted]",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "How is Asana as a company and for an internship?",
+      "body": "There isn't much information about Asana on this subreddit. I was wondering how reputable the company is and more specifically how the internship program is? I have a second round phone interview with them, but do have an offer from Bezos but I was wondering if Asana would be the better choice? Also, I'm a sophomore, so which one will be better when it comes to getting interviews for next year? \n\nAny information will be greatly appreciated! ",
+      "subreddit": "cscareerquestions",
+      "score": 9,
+      "url": "https://reddit.com/r/cscareerquestions/comments/7b7pva/how_is_asana_as_a_company_and_for_an_internship/",
+      "comments": [
+        {
+          "body": "Which teams at both places?\n\nTeam &amp; Manager &gt;&gt;&gt;&gt;&gt;&gt; Company name or company's reputation.\n\nPing both the recruiters &amp; ask to know the team that you would be put under &amp; the manager/mentor's name.\n\nTry to setup a video/phone call with your mentor and try to understand the role/work required during internship.\n\nGo for whichever you like most.\n\nThere are some good teams at Amazon. But overall company culture sucks. Asana is a reputed company too. Can't go wrong with either.\nIf everything is same, I would pick Asana primarily because Amazon has a reputation of being a very bad employer.",
+          "score": 7
+        },
+        {
+          "body": "Asana is better than Bezos. If you can get an offer from Asana take it!",
+          "score": 3
+        },
+        {
+          "body": "Do both. Amazon for the international name recognition and Asana for better work culture and reputation in silicon valley.",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Dealing with ongoing interview process after receiving offer from one company",
+      "body": "Hi guys, \n\nI received an software engineering internship offer from a small startup about a week ago, and I have a couple other interviews scheduled in the next few weeks. The thing is, I'm not sure if I should cancel some of them given that 1) I have finals to study for, and 2) I'm not that excited about the company. \n\nThe offer I got was for a very young startup (&lt; 1 year old) whose key attraction is its incredible growth rate and opportunity to implement and experiment (I'm on a small team). Does anyone have experience interning with this type of company? \n\nAlso, does anyone have any experience with interning at the following companies? Or have advice for what I should do?\n\n* dropbox (notoriously difficult, so might skip) \n* knewton (requires 6+ hours of coding)\n* asana \n* reservoir labs (good for research experience but not much else?)",
+      "subreddit": "cscareerquestions",
+      "score": 1,
+      "url": "https://reddit.com/r/cscareerquestions/comments/2o6z0q/dealing_with_ongoing_interview_process_after/",
+      "comments": [
+        {
+          "body": "Just do the interviews, don't skip dropbox just because it's hard. You will be able to find the time to schedule all of the interviews and study for finals. If you can't, ask to postpone the interviews. Also, DON'T EVER SKIP ON AN INTERVIEW without telling the recruiter at least two days ahead of time barring extraordinary circumstances. There is no better way to burn a bridge.",
+          "score": 2
+        },
+        {
+          "body": "Be wary of claims of 'incredible growth rate' or 'pre-ipo'.  I see that as boilerplate job description.  While your finals should not suffer, I think interviewing is a very useful way to hone your own marketability.  Go on interviews whenever you can.  \n\nI would also suggest worrying less about the company overall, and more about the department and people you will be working with.  You might interview with any one of those companies on the list and discover that the team is full of people you would love to work with and learn from.  \n\nDon't skip an interview because it might be difficult.  Go on the interview for that very reason.  Then go over all the areas where you didn't do well and learn.",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Equity from late stage unicorns for experienced hires",
+      "body": "I'm in the middle of some interviews with some late stage unicorns (companies similar to Airbnb, asana, dropbox, palantir, uber, etc...) and I'm wondering what the equity and signing bonus component of their offers looks like for experienced hires. I'm coming into this with about 4 years experience at a pretty big well known company in SV, not a big 4. Salary info is pretty easy to look up and I have a decent idea what to expect there. What I don't have is any good basis on what a fair equity offer looks like from these places. I realize its really variable and based on a million different factors, but does anyone have a range of typical offers at that stage in a company?",
+      "subreddit": "cscareerquestions",
+      "score": 1,
+      "url": "https://reddit.com/r/cscareerquestions/comments/6ehyrv/equity_from_late_stage_unicorns_for_experienced/",
+      "comments": [
+        {
+          "body": "Assuming no negative modifier for you company, with 4 years of experience you'd probably be equivalent to a T5 at Google. An upper-end-of-reasonable offer package from a GoogFace at this level would be around $170-180k salary and $500-600k in equity over 4 years.\n\nAirbnb, Dropbox, and Uber are now giving out RSUs and you can probably expect something comparable to this (if not a little more). I've heard Uber is now paying out big grants to get engineers because of their recent troubles, so $1M at the current valuation might be feasible. I know people with less experience than you who got such equity offers in the past, but I can't confirm if this is current.\n\nPalantir is still giving out options, so the face value of the equity will probably be close to 0 and the salary will probably be lower. For reference, new grads are getting around between ~10-15k options/yr, so as a T5 hire around double that might be reasonable.\n\nI don't know anything about Asana, sorry.\n\nFinally, this is no longer private, but if you want to go to Snapchat they'll probably offer you close to $1M in stock at T5 level. However, it vests at 10/20/30/40%.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Made it to 3rd rounds and just got a rejection email after I thought I had it. I’m feeling very depressed.",
+      "body": "Hi guys, \n\nI made it to the 3rd round panel interview right before the final interview with the VP. I was so confident after the panel interviews and really felt like I had this one in the bag after months of job searching. I connected really well with the team and even had an interviewer use verbiage like “if you join you can show us Asana” / “it would be nice to have another SoCal girl on the team. \n\nI felt so confident! I know it’s the name of the game right now especially in this current market, but wow it still hurts and it’s so hard to not feel jaded. Especially because this opportunity would have changed my life (great salary + fully remote). \n\nI just wanted to vent on here and maybe hear similar stories if anyone has any? I don’t want to give up on my job search and I won’t but right now starting back at square one just feels terrible. ",
+      "subreddit": "jobs",
+      "score": 93,
+      "url": "https://reddit.com/r/jobs/comments/1klvsj8/made_it_to_3rd_rounds_and_just_got_a_rejection/",
+      "comments": [
+        {
+          "body": "I have to say that the rejection e-mail you received was one of the more pleasant one's I have ever seen.  I had a similar situation a few months ago.  I made it to the final round only to be told a week later that I was not selected.  Similar to you it would have been a great job to have but it was not meant to be.  Take solace in the fact that you were one of the top candidates which means you have the skills/experience that prospective employers want.  Good luck in your job search.",
+          "score": 65
+        },
+        {
+          "body": "I swear this recent stretch of unemployment I experienced took not only years off my life, but also sucked a lot of my self worth and ability to experience joy along with it. \n\nIt should not be this hard to simply afford the ability to exist. It’s one thing if you’ve never worked or racked up a history of violent crimes, but it shouldn’t be such a grind to find gainful employment for experienced, willing young adults.",
+          "score": 18
+        },
+        {
+          "body": "I've gotten to several final rounds. Before finally being hired. Think about it this way. At least you are getting that far. So it's only a matter of time. Your resume at least works. Some people don't even get interviews.",
+          "score": 16
+        },
+        {
+          "body": "Just got to a 3rd interview myself and received a rejection email. Sucks but we got this!!!",
+          "score": 7
+        },
+        {
+          "body": "If you’re able to make it deep into the interview rounds youll eventually get a job. A Lot of people on this subreddit can’t even get a screening let alone to deep into the rounds so keep at it.",
+          "score": 5
+        },
+        {
+          "body": "Hey congrats on making it to the final round. As the other person said, you got so far and did pretty well there too. I went through something similar, I was interviewing for a VP position in a US based startup company (I am canadian). Did two online interviews and they flew me down for the final one and had great conversations with things like oh if you move here you should get a place in so and so area and blah blah. In the end I got completely ghosted for over a month and then standard template email that they went with someone else. I was devastated too so I understand at this time everything just sucks but like someone once said, this too shall pass.",
+          "score": 5
+        },
+        {
+          "body": "I applied for a position at a company that I was really passionate about. Made it three rounds and I was fairly confident I’d get it. Didn’t get it. They said that while I would fit in great with the team, they chose someone with slightly more experience in one area. But I applied again a year later, after gaining experience in that area. Once again made it three rounds. I was SO confident I would get it only to get an email that they went with someone else. Their reason? “You have amazing experience but we chose someone whose personality fits better with the team”. I was heartbroken. I felt so bad about myself and kept overanalyzing every single thing I did and said that would make them change their minds about my ability to fit in with the team. I had to let it go but it hurt. I’m starting to think they just have a list of reasons to use and pick randomly. They even said they’ll keep me in mind for the future! Like what, when my personality changes??",
+          "score": 3
+        },
+        {
+          "body": "At this point, it is an accomplishment to just get an interview. Just have to keep on looking. Before I found my current job, I went to interviews at about 17 places. The most heartbreaking one was at a company that I was a perfect fit for and the manager was really cool. I got \"hired\" and right before my starting date the position was eliminated due to budget. I was devastated.\n\nI ended up finding something else a few weeks later, but that was rough. Funny enough, if I had gotten that job, I wouldn't have met my partner, so it always works out the way it is supposed to.",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "title": "I am not an organized person but all the jobs out there requires it.",
+      "body": "I finally have to admit, after getting so much anxiety around my current job in consulting, that I am simply not an organized person. What I am good at is talking to people and making them feel heard and welcomed but there's none of that in this job because I am fully remote. \n\n  \nI thought it would be a sign to switch to something else. But other positions I am qualified for (coordinator-type roles), also requires organizations. I remember having to say in interviews that I use to do lists and google calendar to keep track of tasks, but most of the time I manage just keeping track of things in my head but that sometimes backfire too. I think recruiters are looking for knowledge of actual project management/organizational apps and tools like Asana. Do I just need to toughen up and force myself to integrate these things or am I going against the grain here?",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/1jkih47/i_am_not_an_organized_person_but_all_the_jobs_out/",
+      "comments": [
+        {
+          "body": "The good thing is that in my experience, every Project Coordinator tends to come in with their own platforms and ways of organizing projects, so as long as you're picking something that (a) you can be disciplined about using and (b) represents a modern solution, you are operating on the average.  Half the reason that Project Coordinator seem to be hired on is because they want someone to come onboard, make a decision on how to manage/track projects, and be accountable for building out the program.  The bad thing is that you do have to pick *something* that isn't all post-it notes, memorization, and Outlook reminders.",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Using disability as a weakness topic in interview",
+      "body": "\nI am interviewing next week for a senior project manager role with a strong tech focus. I have ADHD and autism, which barely impacts me due to coping mechanisms I've learned over my life. The main problem these have always given me is terrible, awful organisation skills which caused me to drop out of college twice earlier in life and nearly made me homeless. I've overcome them now with a big help from apps and other systems which I rely on all the time.\n\nIt's an internal role and I've worked with this company for 6 years already. I've told a few people about my ADHD and autism but just in passing, I'm not hiding it I just don't really feel the need to let everyone know.\n\nOne thing I've always wanted to do is answer that typical \"weakness\" question as follows: I was diagnosed with autism and ADHD as a child. They manifest mostly by impacting my ability to keep myself organised. Because I've always had an awareness of it, I have been able to seek out help and support to deal with it. It also led to my early adoption of technology to improve myself - I now use software like Trello, Asana and Jira to plan out my tasks and I'm always looking out for new applications which may help me. This led to my passion for technology and is why I'm here today, interviewing for a position where I can implement effective solutions not just for my own weaknesses but for those of the whole organisation.\n\nI used something similar in a practice interview in University and the lecturer was really impressed. But my family say I shouldn't mention it at all, project managers should be organised, or it'll come off as looking for a sympathy vote.\nI just didn't want to say something generic and it's honestly my biggest weakness. What do you think?",
+      "subreddit": "jobs",
+      "score": 11,
+      "url": "https://reddit.com/r/jobs/comments/qr7ur9/using_disability_as_a_weakness_topic_in_interview/",
+      "comments": [
+        {
+          "body": "Hello, thank you for posting to r/Jobs! \n\nWe just wanted to let you know that we have a new [discord server, come join the chat!](https://discord.gg/TY6ErXV)\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/jobs) if you have any questions or concerns.*",
+          "score": 1
+        },
+        {
+          "body": "I would advise against mentioning any diagnosis in an interview. It's just giving the interviewer an opportunity to discriminate against you based on their preconceived notions of what a \"person with X\" is like. I remember reading a post about someone who mentioned their ADHD then got rejected for being )\"not a cultural fit,\" because the manager thought someone with ADHD would be too hyperactive for their laid back office. As soon as an interviewer hears \"ADHD and autism,\" they could potentially be making a load of assumptions that have nothing to do with who you are as a person.",
+          "score": 13
+        },
+        {
+          "body": "It would be a fantastic weakness to use if your role wasn't literally having to be organized and on top of people.",
+          "score": 5
+        },
+        {
+          "body": "[deleted]",
+          "score": 3
+        },
+        {
+          "body": "I think this is a GREAT answer for how have you overcome adversity, or perhaps an example of long term growth and self awareness, for sure -  Using this card as a weakness, denotes you might think less of yourself for having conditions that are out of your control.  That said, it's totally up to you, and how you sell it matters more than what you're selling.  My go-to for \"what's your biggest weakness\" is something about being too hard on myself when I make mistakes, or something generic, like \"interacting with people before coffee.\".. but the latter is more for grins and giggles... if they really want a genuine answer, it's the former. \n\n&amp;#x200B;\n\nAnyway, GL OP, and congrats on EQ growth, and self awareness.",
+          "score": 2
+        },
+        {
+          "body": "If you are looking for accommodation it would be mentioned, if not there is no reason.",
+          "score": 2
+        },
+        {
+          "body": "I think this is a great answer but not for this role. Your greatest weakness answer should NEVER be a skill set that is essential for the job you’re interviewing for but instead should just be used to show you’re capable of growth and improvement. Also a lot of neurotypical people still have misconceptions (&amp; subconscious bias) about autism so you don’t want to arm them with anything that could cause them to discount you or your accomplishments",
+          "score": 2
+        },
+        {
+          "body": "this is a terrible answer.  I used to hire PMs, there is no way I would ever hire someone who described organization as their biggest weakness",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Compensated Research Interview for SaaS consultants",
+      "body": "Hello! The company I work with is doing a research project and we currently need people who have done consulting work on different management tools like Airtable, Jira, Asana, monday, smartsheet. I know this is a long shot, but if you or somebody you know fits in this profile, please send me a message to give you additional information. For the research itself, the person will have to do a 60 minute interview this or next week and will be compensated $300 for this engagement. The interview will be held in English, thus that is also an important requirement.\n\nSo if you know anybody, please hit me up! Thanks!",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/us9ljh/compensated_research_interview_for_saas/",
+      "comments": [
+        {
+          "body": "Hello, thank you for posting to r/Jobs!\n\nWe just wanted to let you know that we have a new [discord server, come join the chat!](https://discord.gg/TY6ErXV)\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/jobs) if you have any questions or concerns.*",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "5 Skills To Master For Landing Your Dream Remote Job",
+      "body": "Do you yearn for an intellectually stimulating job without the over-stimulation of life in the US, SA and around the world?\n\nHave you had a taste of working from home and are ready to trade in your suit and office commute for pajamas and Zoom meetings?\n\nThere are so many reasons why remote work can be a transformative experience for employees and employers alike: from increased productivity and flexibility in where you live to more time with loved ones.\n\nYet, with all those benefits comes new challenges to overcome. New ways of communicating, new technologies, and distributed time-zones to name a few. While organizations learn how to manage remote work policies, people looking to go remote need to focus on standout skills to get noticed in a global applicant pool.\n\nSo what skills should you focus on to stand-out and land that dream remote job?\n\n\n\nTECH-SAVVY\n\nBasic understanding of technology is the new barrier to entry for remote working even if you do not have a tech-focused job. Everyone is tired of one of the top questions of 2020 “Can you hear me now?” when logged on Zoom, or having to even explain what Zoom is to begin with.\n\nTo execute work effectively in a remote environment you need to feel comfortable using the appropriate tools.\n\nHow can I improve?\n\nCommon tools to get familiar within the remote landscape include Zoom, Slack, Notion, and Asana. Choose a few favorites and start moving your personal life into these tools. For example, you can create an Asana to manage your To-Do Lists and use Slack to connect with friends and family. Remember practice can go a long way when getting comfortable with new technology.\n\nIf things like 2FA and VPN are gibberish to you, brush up on your knowledge of privacy and security online. Creating strong passwords and downloading a password manager is a great starting point.\n\nHow can I show this skill off?\n\nAdd the tools you are most comfortable using to your LinkedIn profile and CV. Consider sharing your work in a public Notion, acting as a portfolio of your accomplishments. Ask about the tools and tech stack at the companies you are interviewing for.\n\nCOMMUNICATION SKILLS\n\nWithout the chance of running into your colleague at the coffee machine, or the subtleties of decoding a smile and a smirk, your virtual communication becomes critical.\n\nAs communication moves asynchronously, it is important to focus on written communication skills to increase readability of your messages.\n\nHow can I improve?\n\nLearn your communication style, and considr ways you can flex to other styles. Start writing messages with a work context in mind. Record yourself on video calls and analyze ways to become more relaxed and engaging on camera.\n\nHow can I show this skill off?\n\nFrom initial contact to final interview, you have many opportunities in the hiring process to stand out. Check that your written messages are concise. Share the most important information, and set clear expectations on next steps. Be authentic during video interviews and let your personality shine through!\n\nTIME MANAGEMENT\n\nBalancing work and kids, pets, and time zones can be a challenge for remote workers. Without the commute to break up the workday it is easy to let work expand into more hours of your day. An effective remote worker is an efficient remote worker. By prioritizing productivity over hours in front of a screen you can accomplish your goals with more time back in your week.\n\nHow can I improve?\n\nCreate a time management diary. List your top priorities, and all other tasks and meetings. Analyze your estimated time to complete, and your actual time to complete. Over time (pun intended) you will begin to see what traps you are falling victim to. From there, you can plan a schedule to complete your most important and urgent activities first.\n\nHow can I show this skill off?\n\nWhen emailing with Hiring teams share your availability and time zone. Communicate expected turnaround time for your responses. Share examples of work you have completed with dispersed teams. During interviews discuss your approach to scheduling in focus time, meetings, etc.\n[read more](https://jobshive.co/student/5-skills-to-master-for-landing-your-dream-remote-job)",
+      "subreddit": "jobs",
+      "score": 2,
+      "url": "https://reddit.com/r/jobs/comments/lrnwg1/5_skills_to_master_for_landing_your_dream_remote/",
+      "comments": [
+        {
+          "body": "Hello, thank you for posting to r/Jobs! \n\nWe just wanted to let you know that we have a new [discord server, come join the chat!](https://discord.gg/TY6ErXV)\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/jobs) if you have any questions or concerns.*",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "I'm about to be fired - please advise on next steps",
+      "body": "**The story:** I was hired at a brand-new startup about four months ago. My co-workers are fantastic, but I've never encountered such a bad boss. \n\n* In the past three months, three people have been fired (the company usually has five employees). \n* While our contract said 9-5 with an hour's lunch break, we now have to work 9-5:30 with a half hour lunch break. \n* Health benefits were supposed to start in September, but it turns out she hasn't filed any of the paperwork OR decided the benefits company she's going with. \n* I've never been so micromanaged; every task of the day must be entered in Asana, along with an estimate of how long it will take us. \n\nNeedless to say, when my friend tipped me off she thinks I'm going to get the boot, I wasn't that upset. \n\nUnfortunately, I waited until today to send out my resume.  \n\n**A couple questions:**\n\nShould I put this on my resume? After my last contract ended I traveled for a couple months, so if I leave four months it'll be a significant employment gap.\n\nWhen I (hopefully) start getting interviews, is it better to suggest I'm still employed with this company so it isn't obvious I was fired? \n\nHow can I identify red flags in interviews to avoid this happening again?",
+      "subreddit": "jobs",
+      "score": 2,
+      "url": "https://reddit.com/r/jobs/comments/d9ddhb/im_about_to_be_fired_please_advise_on_next_steps/",
+      "comments": [
+        {
+          "body": "No, I would include it on your resume, and if potential employers ask, describe it as a casualty of the startup culture and describe a day to day of shifting budgets and priorities. If they pry, mention a high-turnover and don't go into too much detail. I've felt that some grains of honesty always help sell platitudes about why you left (or were asked to leave) the last job.\n\nRed flags? Honestly, how timely and prompt are they with the interviews? How many buzzwords for productivity and micromanagement do they drop? In the last interview of my most recent job, the VP of engineering asked how comfortable I would be with him bugging me for updates. I indicated that I would b happy with a weekly report or even every other day for a hot item, but that I would also directly let him know when he was impeding my tempo with micromanagement and would expect him to back off accordingly. This was apparently the correct answer, though everyone is different.\n\nMaybe most importantly, are your interviewers energetic and happy to be there? They don't need to be bouncing off the walls or joyous, but they need to be engaged and interested in what you have to say. If they're downtrodden looking and acting schlubs, you're getting a good look at yourself in 6 months.",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Second stage interview on the 6th - need some advice (corporate event exec)",
+      "body": "So I have succeeded the first interview for the position of events executive for a company. The marketing manager who interviewed me said she was very keen to get me to the next round. \n\nBefore my second stage interview, I want to send them an event plan for their company for a trade show they will very VERY likely be attending 2025. \n\nI want to know if this is a good idea, they asked me to do a copywriting task before the first interview and I completed that. But this they haven’t asked for. \n\nAnd I would like anyone in the corporate events business/trade show management business to look over the event plan I did, if possible. If you want to look over it then shoot me a PM - don’t wanna give out the company name to anyone and everyone ofc \n\nI did this on Word as a written document - but I use Asana for project management things. \n\nAnything alternative I could do to impress them or is what I’m thinking a good idea? \n\nThank you! ",
+      "subreddit": "interviews",
+      "score": 2,
+      "url": "https://reddit.com/r/interviews/comments/1ig45c6/second_stage_interview_on_the_6th_need_some/",
+      "comments": [
+        {
+          "body": "Honestly, it sounds like you're trying to go above and beyond, which is awesome. Sending an event plan without being asked is definitely not bad idea - if anything, it shows you've taken initiative and are genuinely interested in working with them.\n\nOne thing that helped me when I was in a similar spot was using this AI tool that listens to the interview and suggests responses in real time. It’s not a guaranteed fix, but it made me feel more confident. If you want to try something like that, let me know!\n\nJust focus on nailing that second interview and showing them what you've got - you're already ahead of the game by making an effort like this!",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Amazon LP- Would love the communities feedback.",
+      "body": "This is one of the Amazon STAR method answer I have prepared and and I wanted everyone's opinion on it. I have a total of 13 STAR answers prepped. Below is one of the examples. I have 5 years of exp and I am interviewing for analyst/forecasting manager position at amazon.\n\nI am concerned if my action section is too long. I usually speak out my stories within 5-7 minutes.  (PSA: I wont be reading this I will be memorising key points for the interview)\n\nIs it too technical and complex? Any feedback is appreciated!!\n\n**Customer Obsession/ Learn &amp; Be Curious/ Earn Trust**\n\n**Situation (S):**  \nAt \\_\\_\\_\\_ , an eCommerce startup, the company’s lead generation process was inefficient and struggled to scale with the demand for business loans. The sales team dealt with low-quality leads, leading to high Customer Acquisition Costs (CAC) and suboptimal ROI. As a startup with limited resources, the team needed a more data-driven, scalable approach to stay competitive. I was tasked with optimizing this process to improve sales outcomes, drive higher ROI, and forecast lead volume to support resource allocation.\n\n**Task (T):**  \nMy responsibility was to revamp the lead generation system to be data-driven and efficient, focusing on improving ROI, ROAS (Return on Ad Spend), CAC (Customer Acquisition Cost), and CLTV (Customer Lifetime Value). Additionally, I aimed to forecast lead generation needs and outcomes to align with future growth targets and make informed resourcing decisions.\n\n**Action (A):**\n\n1. **Strategic CRM Integration:**\n   * **Salesforce CRM with Facebook Ads, Google Ads, and Third-Party Leads (Tree Leads):** I selected Salesforce as the CRM platform for managing the lead lifecycle, integrating lead capture, tracking, and automation. By maintaining transparency and clearly communicating the data-driven rationale behind this choice, I gained the VP of Finance’s trust and buy-in from cross-functional stakeholders.\n   * **Custom Workflows and Automation:** Using Salesforce Object Query Language (SOQL), I implemented custom workflows to automate lead scoring and prioritization. For instance, trucking business leads from Tree Leads, historically high-converting, were assigned a high priority score, which helped reduce CAC by focusing on leads with greater potential.\n2. **Enhanced Call Center Operations:**\n   * **Five9 Integration for Efficiency:** Implemented Five9 for automating call center operations, handling increased lead volume efficiently by automating dialing and IVR (Interactive Voice Response) systems. The reduced manual intervention lowered CAC and improved response times. I communicated the benefits of Five9’s integration, gaining support from sales reps.\n   * **Sales Intelligence with Gong:** Integrated Gong for analyzing sales interactions, using AI insights to refine strategies and improve conversion rates. By providing data-driven insights and collaborating on areas for improvement, I demonstrated a commitment to continuous learning and gained team buy-in.\n3. **Optimized Lead Distribution and Contracting:**\n   * **Lead Distribution Optimization with Cake:** Implemented Cake for optimizing lead distribution based on reps’ expertise and regional insights. By matching customers with reps most likely to secure high-value relationships, this increased CLTV. I openly discussed lead distribution changes and gathered team feedback to ensure adoption.\n4. **Real-Time Performance Tracking and Forecasting:**\n   * **Domo/Tableau Dashboards:** Created dashboards in Domo and Tableau integrating data from Salesforce, Five9, and Gong, providing real-time insights on key metrics like lead conversion rates, sales performance, CAC, and ROAS. Segmenting data by individual reps in Tableau allowed me to present targeted KPIs to vertical stakeholders, while in Domo, I could visualize broader trends for strategic insights.\n   * **Asana for Project Management:** Used Asana to manage tasks and timelines, keeping the overhaul on track and meeting set goals for ROI improvement.\n   * **Forecasting Lead Demand and Financial Outcomes:** To anticipate future lead volumes and support resource planning, I utilized **XGBoost** models for lead and revenue forecasting, incorporating historical lead conversion data, seasonality trends, and ad spend. Forecasts projected quarterly demand increases, allowing me to allocate resources effectively and align strategies with company revenue targets. This forecasting also helped identify periods of expected lower demand, enabling proactive budget adjustments.\n\n**Result (R):**\n\n* **Conversion and Financial Gains:** The revamped process resulted in a 15% increase in lead conversion rates, a 12% improvement in ROAS, an 8% reduction in CAC, and a 10% increase in CLTV.\n* **Revenue Impact:** Increased revenue by roughly 12%, generating close to $1.2 million over six months.\n* **Forecast Realization:** Forecasted lead volume allowed for accurate resource allocation, contributing to the sustained improvement in CAC and ROAS, aligning with predicted revenue targets, and effectively supporting a data-backed growth plan.\n\n \n\n \n\n ",
+      "subreddit": "interviews",
+      "score": 3,
+      "url": "https://reddit.com/r/interviews/comments/1gcyk6p/amazon_lp_would_love_the_communities_feedback/",
+      "comments": []
+    }
+  ]
+}

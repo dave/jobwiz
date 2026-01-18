@@ -1,0 +1,47 @@
+{
+  "company": "twilio",
+  "common_questions": [
+    "in technical screening? Is it SQL tech questions along with my technical background? Or some thing else?",
+    "explain things to me, since all these are internal tools and can't be googled",
+    "explain your design decisions",
+    "explain your thought process clearly and consider trade-offs in your design choices",
+    "explain DNS, what is this port/protocol, explain how active directory works, what comma",
+    "and data structures/algorithms, like big 4/unicorn companies?"
+  ],
+  "themes": [
+    "System design emphasis",
+    "Heavy focus on coding",
+    "Behavioral interviews important",
+    "Multiple interview rounds",
+    "Virtual interviews",
+    "Pair programming"
+  ],
+  "interview_tips": [
+    "from you is greatly appreciated",
+    "at all to help prepare more than I already have so far? I feel like i'm trying anything that even sounds remotely like its something they would be con",
+    "and please exclude my ignorance",
+    "you should absolutely stick around 5 years",
+    "I wouldn't say it was easy exactly, just easier than others I've done",
+    "I wouldn't stick anywhere for 5 years",
+    "I would guess getting named tech companies on your resume opens some doors as being former Uber, Stripe, et",
+    "You should calculate Real salary jump  by purchasing power, not just by numbers",
+    "I would really appreciate some feedback on quality of work and work culture",
+    "you should ask them for an extension or tell Twilio you need an answer sooner due to a deadline on another off"
+  ],
+  "red_flags": [
+    "need cold applications, but yes this can help to some extent",
+    "knew these were given development role",
+    "and my manager thinks I made the mistake",
+    "want to work in my current support project",
+    "want to be juggling tasks from both which I think what he will propose",
+    "have enough experience and the market is not great right now",
+    "mind relocating anywhere but Texas",
+    "you like Texas? Just curious because I personally do like TX and cities like Austin is a great place to work at (no state income tax and good pay)"
+  ],
+  "process_insights": {
+    "typical_rounds": "3-5 rounds typical",
+    "timeline": "2-4 weeks",
+    "format": "Mix of phone screen, technical, behavioral, on-site, virtual"
+  },
+  "source_count": 22
+}

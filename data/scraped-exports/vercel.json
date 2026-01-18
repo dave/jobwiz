@@ -1,0 +1,389 @@
+{
+  "company": "vercel",
+  "post_count": 25,
+  "exported_at": "2026-01-18T17:44:53.313Z",
+  "posts": [
+    {
+      "title": "B.tech from Nit. Not getting interview calls",
+      "body": "After applying hundreds of application on naukri and linkedin not getting calls. \nElectrical engineering from nit.\nNot able to get placement on campus due to low cgpa",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/1lsuww0/btech_from_nit_not_getting_interview_calls/",
+      "comments": []
+    },
+    {
+      "title": "What does this job duty mean?",
+      "body": "I received my first invitation to apply to a web dev role and one of the job tasks says *\"Monitors and troubleshoots servers and browser activity to ensure adequate storage is available for transmitting and downloading files.\"*\n\nWhat does that mean in practical terms? I'm kind of a noob but I thought businesses and individuals used services like Vercel, Heroku, Netlify, AWS, etc. to host their websites. Does this mean they're hosting it themselves? If so, where would I get started with studying how to do what they're asking?\n\nHow does one \"ensure adequate storage is available for transmitting and downloading files?\"\n\nThe business is a hiring agency that specializes in the medical field, so a hiring agency for medical practitioners like nurses and assistants, I'm assuming.\n\nJudging based on their website, most of their logistics is done in-person as the website seems to mostly serve for explaining what they do and offers a text box to send a message. Should I apply? I'm really nervous as I've never worked as a web dev before.",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/vq7i4l/what_does_this_job_duty_mean/",
+      "comments": [
+        {
+          "body": "that is a red flag. this does not sound like a web dev job on any sense of the term. Monitors\n\n&gt;\"Monitors and troubleshoots servers and browser activity to ensure adequate storage is available for transmitting and downloading files.\"\n\nthis can be automated and is a nonsense description. are you supposed to just sit and watch hard drives fill \n\neither this is a bad description or they don't know what they are doing . either way. I would not even apply",
+          "score": 5
+        },
+        {
+          "body": "They likely don't have a clue about monitoring and had servers run out of memory or disk space in the past. Expect an environment where there is noone to teach you these things and you are expected to keep things running.",
+          "score": 3
+        },
+        {
+          "body": "Sounds bad. Avoid",
+          "score": 2
+        },
+        {
+          "body": "You're nervous about *applying*? Dude, they probably won't even interview you. You should absolutely apply.\n\nOn the off-chance they do actually interview you, just ask for further detail on this. I suspect they mean you'll need to build and maintain monitoring in splunk/new relic/data dog. Probably just poor wording by an HR person who doesn't know any better.\n\nAn interview doesn't obligate you to accept a job offer anymore than it obligates a company to hire an applicant, it's exploratory for both parties.",
+          "score": 1
+        },
+        {
+          "body": "I think that this company took the phrase \"web developer\" a bit *too* literally. As in, \"person who develops the web\". \n\nYeah, skip this one, OP.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "UK lead developer at a small agency, unsure where to go next",
+      "body": "Hi all,\n\nI work in the North of England, UK at a small web agency. It’s a good place to work but like most agencies it can be hectic. I’m currently the lead developer for a team of three others, working mostly on bespoke JavaScript and TypeScript projects using React and Next.js for existing businesses and startups.\n\nMy role covers a lot of ground. I’m responsible for technical decision making across the full stack, understanding client requirements, choosing the architecture and tools, estimating work, and being accountable for delivery timelines. I’m client facing for technical decisions and usually handle most of the backend work. I also act as a full stack generalist to help upskill the team and grow what we can offer as a software house.\n\nI have people responsibilities as well. I give performance feedback ahead of appraisals, have input into hiring including CV screening and interviews, and spend a lot of time mentoring developers. Outside of the core team I’m also involved in upskilling local talent through student placements and bootcamp style support.\n\nMy main tech stack is Node and Express on the backend, React and Next.js on the frontend, and a mix of SQL, Postgres and Mongo for data. I manage CI/CD for clients and have hands on experience with Azure, AWS, Vercel, Docker and containerised services. I’ve also worked with more traditional hosting, managing Linux servers directly on DigitalOcean and EC2. I’ve had exposure to microservice style architectures on larger projects.\n\nI’ve been at the company for around three years and my salary hasn’t really progressed for about two and a half of those. I currently earn £48,000. I know regional pay plays a part, but given the level of responsibility I do feel it’s on the low side. I recently asked for a £10k increase and was told the conversation would continue later, but there’s been no movement so far.\n\nI’m not desperate to leave, but I am starting to think more about what might come next. I’m open to moving away from agency work to something a bit more stable, although I do enjoy creative environments and working with passionate people which agencies and startups often provide. I’d consider staying on a technical track or moving towards engineering management if the role felt right. I’d ideally like to stay UK based without relocating, but I’m open to fully remote roles.\n\nI’d appreciate any advice from people who’ve been in a similar position. Where would you go from here?",
+      "subreddit": "cscareerquestions",
+      "score": 2,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1q85zpt/uk_lead_developer_at_a_small_agency_unsure_where/",
+      "comments": [
+        {
+          "body": "I’d fight back against regionality, unless you are based in a shed in a field in Northumbria… I’m based in a Northern city, our senior developers are banded between £57,000-64,000 (99% remote)\n\nI’m in data science but maybe the work would suit you, a bit bigger agency so more stable but not too big? \n\nCan send info in DM’s",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Made a dashboard to see how bad the new grad job search actually is [100+ data points]",
+      "body": "I kept seeing people mention their application numbers and response rates, but it's hard to know what's actually normal vs what's a disaster. So I made a survey to collect real data.\n\nGot 100+ responses so far. Built a dashboard so everyone can see the actual numbers: [https://jobsearchreality.vercel.app/](https://jobsearchreality.vercel.app/)\n\nYou can filter by graduation date, location, experience level, etc. Download the full dataset if you want. Everything's anonymous.\n\nThe idea is to answer questions like:\n\n* Is a 2% response rate normal?\n* How many applications does it actually take to get interviews?\n* How long are people searching before getting offers?\n\nFigured having real data is better than everyone just guessing if they're behind or if this is just how it is right now.",
+      "subreddit": "cscareerquestions",
+      "score": 17,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1oi0bd6/made_a_dashboard_to_see_how_bad_the_new_grad_job/",
+      "comments": [
+        {
+          "body": "This post has mod team approval.",
+          "score": 1
+        },
+        {
+          "body": "[removed]",
+          "score": 18
+        },
+        {
+          "body": "The “The Numbers Don't Lie” section is buggy, every time I scroll down it flash, it’s like the animation gets cancelled and started again.",
+          "score": 2
+        },
+        {
+          "body": "Ai generated website, ok",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Job Hunt Retro, 4 YoE from 130k -&gt; 250k TC",
+      "body": "(Throwaway for the usual reasons)\n\n#**TL;DR**\n\nSWE with 4 years experience, prepped for 6 months.  Interviewed across 29 companies to increase total comp from $120k+10k to $210k+40k base/bonus\n\n[Sankey Diagram](https://imgur.com/2UF2Vqz)\n\n#**Background**\n\nHello!  Just wrapped up my first post-grad job search, and wanted to share my experience with the community I’ve followed for many years.  I know things are pretty rough out there now, but hopefully can shed some light on what’s possible.\n\nI’ve been with the same company since before graduating, and have spent 5 years total there.  It’s fair to say that I had “plateau’d” inside my org, and technical opportunities had really dried up.  I was being pushed further in one direction (DevOps), when what I really wanted was a return to application development.  This is what kicked off my search.\n\n#**Preparation**\n\nSince I had been in a DevOps role for several years, I did not immediately jump into Leetcode.  Instead, I started working on side projects in the spaces I was interested in (webdev/blockchain), which I can firmly say _really_ paid off.  Many recruiters and hiring managers mentioned my projects by name, and were eager to speak about them in detail.\n\nOne tip here: if you put time and effort into a project, make sure to deploy it to production (Vercel/Netlify/etc.).  This is really key.  No one is going to download and run your code.  Even better, record a gif of the main functionality, and slap that at the top of your GitHub README.\n\nAfter I felt I had some good projects under my belt, I went through the classic Blind75 list.  My strategy was to spend some time on the question itself (~15 mins), then go through the LC Premium solutions.  After implementing each solution, I’d watch the Neetcode video for the problem, mainly to see his thought process.\n\nRealistically, I was spending close to an hour a problem.  Is this ideal?  No, but I plainly suck at the DSA portions of interviews, so I needed the help.  In total, I completed 80 problems from the Blind75 list + some company tagged problems.\n\n#**Resume**\n\nBriefly on resumes, I did not customize each application for the company I was applying to.  I regret this.  If you know which companies you really want to work for, the most important thing is to get a call back on your application.  Spend the 10-15 minutes, it’s worth it.\n\nSide note: I only submitted one cover letter during my search, and I was still ghosted 💀\n\n#**Applying**\n\nOnce ready to send out resumes, I listed myself as open-to-interview on all the typical job platforms.  LinkedIn was the only one with any value.  I got a good amount of recruiter traffic, so started off with those that reached out to “warm up” for my target companies, which I later cold-applied to.\n\nA piece of advice I see often is to find _anyone_ at a target to provide a referral.  I didn’t know anyone directly at these companies, so I had to go with a cold message on LinkedIn.  And I received a total of zero responses, lol.  Maybe I was unlucky!\n\n#**Interviewing**\n\nThe process at every company was pretty similar, and usually looked like:\n\n* Recruiter screening -&gt;\n* Technical challenges/take home project -&gt;\n* Virtual onsite -&gt;\n* (Optional) Leadership interview -&gt;\n* Offer\n\nHad no issues with any of the behavioral interviews, just do your research and understand why you want to work for the company, what interests you, and have some questions prepped for them.  For all the STAR questions, I simply told the truth and talked about the first situation that came to mind.\n\nTechnical challenges were a different story.  I bombed plenty of the whiteboard-style interviews.  When placed under pressure, I get bad tunnel vision.  That’s fine if you get the concept right at first, but I don't have a great track record.  To be really comfortable, I probably need to double my LC count :(\n\n#**Negotiating**\n\nI won’t go too much into the offer stage, as I feel the resources below are way more thorough than I could be.  My only point here is that asking for 20/25/30 percent more with a competing offer is totally fine.  Once you are at the offer stage, the company _wants you_, and will do just about anything to seal the deal.  For instance, I asked for 20% more from Company B after getting a higher offer from A, and they came back with a 40% increase!\n\n#**Offers**\n\nI received a total of three offers.  The first was around $190k TC.  It was pretty early on in my search, and I knew I could do better.  Offers two and three were both from target companies (non-FAANG):\n\n* Company A: $210k base + $30k bonus + $10k tokens\n* Company B: $200k base + $50k tokens\n\nThese were both crypto-focused companies, so the offers include tokens in lieu of equity.  Obviously this isn’t everyone’s cup of tea, but I was very conservative with the valuations.  I ultimately went with Company A, which is a medium-size startup.\n\n#**Resources**\n\nHere are links to the resources I found invaluable during my search:\n\n* [Blind75 Leetcode Problems](https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-75-LeetCode-Questions-to-Save-Your-Time-OaM1orEU) - classic LC problem list, everyone should know these\n* [Neetcode YouTube Channel](https://www.youtube.com/@NeetCode) - best LC explainer videos, period\n* [System Design Primer](https://github.com/donnemartin/system-design-primer) - never ended up having an sys. design interview, but good to know anyways\n* [Tech Interview Handbook](https://www.techinterviewhandbook.org/) - covers the entire process from end-to-end, great candidate questions\n* [Haseeb’s 10 Rules for Negotiating](https://haseebq.com/my-ten-rules-for-negotiating-a-job-offer/) - the offer negotiating bible, read each article twice\n* [Patio11’s Salary Negotiation](https://www.kalzumeus.com/2012/01/23/salary-negotiation/) - the negotiating blogpost that everyone has seen\n* [Levels.fyi Salary Charts](https://www.levels.fyi) - you will be pressed to give a number at some point, use Levels to find a highish average base salary in your area/YoE\n\nGood luck out there 🫡\n\n#**EDITS**\nSince my throwaway is not old enough to comment (mods halp?) here's some answers to common questions:\n\n* The role will be in a high cost-of-living area\n* Preparation took 6 months, and I was interviewing for 3 of those\n* The first three months was mostly free time on weekends, but during the interview period I was spending several hours after work PLUS full days on weekends preparing\n* A lot of people are fixated on the token comp.  Here's my line of thinking:\n  * I specifically took the offer with more upfront cash, including a signing bonus\n  * Traditional FAANG companies aren't hiring/doing so great right now, and startups usually have 12-18 months of runway\n  * The earlier the startup, the better tokens are vs. traditional equity.  Tokens will have a liquid market if you want to jump ship, whereas in a regular equity scenario you'd be stuck until an IPO happens",
+      "subreddit": "cscareerquestions",
+      "score": 303,
+      "url": "https://reddit.com/r/cscareerquestions/comments/yzgsta/job_hunt_retro_4_yoe_from_130k_250k_tc/",
+      "comments": [
+        {
+          "body": "I hope you get to cash those tokens out ASAP. Other than that, base comp by itself is still better than your last job's and that it is a decent KD ratio for interviews",
+          "score": 65
+        },
+        {
+          "body": "The tokens are fine if you can sell them the minute you get them. Otherwise assume they're worthless.",
+          "score": 73
+        },
+        {
+          "body": "I didn’t see it mentioned, but are you located in a low cost of living area or high cost of living area? But anyways good write up OP.",
+          "score": 20
+        },
+        {
+          "body": "[deleted]",
+          "score": 128
+        },
+        {
+          "body": "“Tokens in lieu of equity”\n\nOh, honey",
+          "score": 25
+        },
+        {
+          "body": "In these 6 months of prep, many hours did you put in total? Did you have a strict schedule?",
+          "score": 4
+        }
+      ]
+    },
+    {
+      "title": "No BS. Is my personal project impressive enough to at least warrant a phone screen?",
+      "body": "[Website](https://devjam.vercel.app/)\n\nI've been working on this side project for about a month now. Since I'm mostly a frontend person, almost all of my effort was gone towards the backend and trying to figure out how to do a whole bunch of the database stuff.\n\nBasically I'm building a website where I announce a new project every 2 weeks and developers can participate and submit their projects.\n\nAnyway, if you were a hiring technical manager (not HR), and were quickly skimming through the website, would you be impressed enough to at least give me an opportunity to do a phone screen? The website is pretty barebones ATM but there is a bunch of functionalities I plan on adding to the site.\n\nSo my question is, should I get these functionalities implemented first before I start applying to make the site look more impressive or is it good enough and I should just go ahead and start applying right immediately?\n\n**Also**, if this website sounds interesting to you, you are more than welcome to participate. We are currently in the middle of a project, The deadline is next Thursday to submit your project. You can find project details on the website.I need all the street cred I can possibly get lol. More users === more better.\n\nThanks CSQ.",
+      "subreddit": "cscareerquestions",
+      "score": 31,
+      "url": "https://reddit.com/r/cscareerquestions/comments/tcx1bf/no_bs_is_my_personal_project_impressive_enough_to/",
+      "comments": [
+        {
+          "body": "I am not a web dev but I did get interviews for junior positions just by personal projects",
+          "score": 32
+        },
+        {
+          "body": "Start applying immediately. Chances are no one will visit the site. You can test it out by implementing some logging logic in the background to see how many recruiters actually visit.",
+          "score": 57
+        },
+        {
+          "body": "I'm not a technical hiring manager but I think the fact that you took the time to develop this concept and actually coded this website shows passion, it's definitely a good project to list on your resume. Even if your new features aren't implemented yet, you can always talk about them during an interview as future plans for your project, it'll show that you're planning ahead. Definitely apply to positions right away.",
+          "score": 7
+        },
+        {
+          "body": "Website look comfortable,  I like it. I'm on mobile so just a heads up, but with your hamburger nav drop down, when opened, can not be closed again unless i scroll even when clicking the X",
+          "score": 8
+        },
+        {
+          "body": "In my experience projects aren’t what get you the phone screen. The skills listed on the resume, how they fit to the position, and the general vibe of the application (including keywords) are what get you the first call. \n\nProjects are what you might talk about in the interview.",
+          "score": 8
+        },
+        {
+          "body": "So I’m going to be blunt.  You might take this as good or bad.  I’ve been on plenty of interview panels as both an IC and one year when I made the mistake of being a manager.  \n\nWhen I’m looking for a junior developer, especially a front end dev, it’s usually because none of the back end devs want to deal with clusterfuck of the front end ecosystem and pixel pushing.  All we are looking for is someone who can code to spec and call the APIs we tell them to.  This is strictly in corp dev.  \n\nYour project - as long as you can talk through it during the interview - shows that you “won’t eat the chalk.” We can hire a design firm to do the wireframes and tell us how it should look.",
+          "score": 6
+        },
+        {
+          "body": "Go apply right now",
+          "score": 4
+        },
+        {
+          "body": "I think you're very much overestimating the weight of a project on a resume. If there's nothing but one personal project on your resume, I'm not even going to click the link. If you have a formal education (school or boot camp at least), and mention at least some of the techs I care about, you've survived the first 10 seconds of review. After that, I might click on the link. \n\nYou have to survive that first 10 seconds of screening first. \n\nPeople think ATS is extremely prevalent in the industry when it's not quite that prevalent. Managers and recruiters will just toss more than half of the resumes they receive after just a quick glance.",
+          "score": 4
+        }
+      ]
+    },
+    {
+      "title": "What Now?",
+      "body": "I would appreciate any insight on what I should be focusing on now for the interview process. For some background, I have been self-learning to code for 3-4 years now. I am currently working as a hardware deployment tech for a company, and am trying to transition into my first dev role. I have slowly been building  a portfolio of application/websites that would make my life easier or display my current skills.\n\n* Github: [github.com/armoredelephant](https://github.com/armoredelephant)\n* Most recent full projects (live):\n   * [dd-studios-liart.vercel.app](https://dd-studios-liart.vercel.app) (waiting on the person I made this for to add the rest of their apps to fill in the Our Work page prior to moving over his domain name)\n   * [hunt-conductor.com](https://huntconductor.com)\n* **deployment-fe** is the 2nd most recent app I've made, but I use it locally at work and not hosted. Gifs are available in the readme.\n\nI will be finished with my current project (the vercel one), hopefully this weekend and am going to shift my focus towards maybe landing my first dev job. Reading any of the job hunting stuff on here spikes my anxiety 10x. I've had one interview in the past for a dev role and failed at the first call. I believe it was due to my lack of jest testing, which I've seen worked on. There are a few things listed below that I think I should probably focus on, but I'm not sure in what priorty.\n\nThings to focus on (what priority?):\n\n* Being able to converse about coding. I know how to code, but I'm not sure I could really hold a conversation about coding, or be able to choose the right terms.\n   * I'm not very social in general, but the pandemic has made this even harder to start going to meetups. I was waiting for the spring/summer so snow wouldn't effect my travel to such events; however, now I'm stuck due to the pandemic.\n* Algorithms\n   * When I was first learning to code, I would do 1 kata /day from codewars, but have not really focused on these sort of questions in over a year. I would be using leetcode/CTCI/Youtube mainly.\n* Interviewing in general\n   * Should I be focusing on just making better cover letters that can at least get me a phone interview, so I can start getting experience with the interview process?\n\nTL;DR: Self-taught, 3-4 years exp /w React/Node full stack. Should I focus on being able to have conversations about code (or learn this while interviewing), algorithms and data structures, or just trying to figure out the best way to just land an interview? I have 2 months before I wanted to find a new job and move from my current location. If this isn't realistic, I may just look for new jobs for my current role somewhere new.",
+      "subreddit": "cscareerquestions",
+      "score": 1,
+      "url": "https://reddit.com/r/cscareerquestions/comments/ih32h2/what_now/",
+      "comments": []
+    },
+    {
+      "title": "Open source programming problem checklist",
+      "body": "Hello everyone!\n\nWe  recently created a checklist tool that helps kids preparing for  technical interviews track their progress as they work through practice  questions. This is a great resource for anyone looking to improve their  chances in their interview and potentially land their dream job.\n\nIf  you or anyone you know is preparing for a technical interview, we'd  love for you to check out our checklist. It's completely free and we  think it could really help give you an extra edge in your preparation.\n\nWe hope our tool is helpful to you or someone you know!\n\nCheck it out here: [https://interview-checklist.vercel.app](https://interview-checklist.vercel.app/)\n\nP.S. We recently launched on ProductHunt as well: [https://www.producthunt.com/products/interview-checklist](https://www.producthunt.com/products/interview-checklist)",
+      "subreddit": "cscareerquestions",
+      "score": 37,
+      "url": "https://reddit.com/r/cscareerquestions/comments/104zuub/open_source_programming_problem_checklist/",
+      "comments": [
+        {
+          "body": "I love the concept, but my ADHD cannot handle the the overwhelming interface! Would be cool, if you could let people size the tiles (also some are having some vision needs).",
+          "score": 8
+        },
+        {
+          "body": "[deleted]",
+          "score": 7
+        },
+        {
+          "body": "Great tool! Busted in mobile though (iPhone)",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Frontend Engineer, Visibility Team Questions",
+      "body": "Hello,\n\nRole: Frontend Engineer, Visibility Team\n\nI have an interview coming up to meet with the hiring manager. I really want to impress him, because I want this role. The stack the company uses React, TypeScript, Next.js, Utility-first CSS, Netlify/Vercel.\n\nI am familiar with REACT because I have used it in the past during my Bootcamp. It is one of my favorite frameworks. I have not made too many front-end projects, just a few using hooks, and API calls, and Mapbox. The current company I work for is based on Ruby on Rails.\n\nQuestion:  \nWhat can expect from this interview, what should I study for or brush up? How can I as a junior engineer stand out?\n\nPlease give me some advice, links, or even videos to prepare\n\nThank you",
+      "subreddit": "cscareerquestions",
+      "score": 1,
+      "url": "https://reddit.com/r/cscareerquestions/comments/wkjt17/frontend_engineer_visibility_team_questions/",
+      "comments": [
+        {
+          "body": "\\-class components vs functional components, lifecycle methods, state management (redux etc), apis, html/css best practices,",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "2 things I did to instantly raise my interview rate",
+      "body": "It's not uncommon to see job postings with thousands of applicants these days, the job market has become very competitive to say the least. Here are two hacks that gave me a huge advantage when I was job hunting last year and that I think everyone should be implementing.\n\n**1- Write a short email to anyone in the company (can be the CEO if the company is small, or anyone in the team where you would be working).**\n\nThe email should be concise, let the person know that you’re interested in the company and why, but more importantly mention how your skills will bring value to the company. You’ll be surprised by how many people reply, sometimes they’ll ask you for more information, like a portfolio and in turns into a back and forth conversation. This is how I was able to get a remote job last year.\n\nHow to get anyone’s email\n\nSome people recommend sending this type of messages in LinkedIn direct messages, but this wasn't very effective in my experience. Almost no one replied/saw the messages. I think a lot of people get spammed on LinkedIn messages which is why most don’t even check them.\n\nBut if you’re able to reach out via someone's email inbox, that's a different story. Here’s how you can get anyone’s email:\n\nFirst search for the company you’re applying for in linkedIn. In their LinkedIn page you’ll be able to see who works there. Look up their name in [RocketReach](https://rocketreach.co/), they’ll usually give you 2-3 email addresses. Send the email to all of those to maximize the chances of your email getting seen.\n\n**2-Customize your resume for each job application, add important keywords and skills from the job description**\n\nThis can feel tedious at times but totally worth it. Most recruiters use software that automatically rejects your application when your resume doesn’t contain certain keywords or skills from the job description. If the job description has a skill or program that you kind of know you should still include it in your resume. If you end up getting an interview just review that skill online (read about it, watch YouTube videos) a few days before the interview in case you get asked about it. It’s widely known that the majority of job posts exaggerate the skills/experience you actually need for the job anyways. For example in programming many job posts “require” years of experience for tools or frameworks that came out last year 😂. So before applying, look at the job description and see if there’s anything important you should add/replace in your resume. Download the new version of your resume and send that one. I was doing this manually at the beginning of my job hunt and started using the [JobSyncAI](https://landing-job-sync-ai.vercel.app/) once I stared applying to more jobs to automate the process.\n\nBesides those two things try to apply to 10+ jobs per day. Don’t get discouraged by rejections or if you get ghosted. Once you start landing interviews you’ll build up momentum. Good luck with your job hunt, I know it can be a stressful time but you’ll get there if you put in the time 💪.",
+      "subreddit": "jobs",
+      "score": 3,
+      "url": "https://reddit.com/r/jobs/comments/1b6k908/2_things_i_did_to_instantly_raise_my_interview/",
+      "comments": [
+        {
+          "body": "This is solid advice!!!",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Do projects get u to selected or the ability to explain them ?",
+      "body": "I've seen quite a lot of folks who have created such amazing projects for their portfolio and they got the interview because of it but the moment they are asked about it they freeze unable to explain the interviewer the flow of code, what it means, the libraries used. Don't get me wrong they did the project they understand it but knowing the project is one thing and explaining it to others is one.",
+      "subreddit": "interviews",
+      "score": 0,
+      "url": "https://reddit.com/r/interviews/comments/1oxsq51/do_projects_get_u_to_selected_or_the_ability_to/",
+      "comments": [
+        {
+          "body": "So I built CodExplainr — an AI mentor that breaks down your project into simple explanations, clean visual flow maps, and interview-oriented insights.\n\nIf this is something you’d find useful, early access is open \n[Codexplainr](http://codexplainr.vercel.app/)",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "title": "I built an AI tool to help people prep for tech interviews!",
+      "body": "Hey everyone!\n\nOver the past few weeks, I’ve been working on something I really care about — it’s called LeetLingo, and it’s basically a way to practice tech interviews with an AI that actually gives you feedback and analysis of your answers.\n\nThe idea came from a pretty personal place — I noticed how hard it is to get real interview practice, especially when you don’t always have someone to practice interviews with, or when you just want some quick, low-pressure practice before the real thing. So I built this:\n\n\\-You get 5 targeted questions (real ones, from actual tech interviews), record your answers like it’s a real interview, and our AI evaluates how you did — on confidence, clarity, vocabulary, and more.\n\n**-Over 5 million interview questions, scraped and curated from different tech domains.**\n\n**-Just ₹25 per interview (that’s like \\~30 cents USD). Or ₹200 for a bundle of 10 if you're prepping seriously.**\n\n\\-Try it out here: [leetlingo-frontend.vercel.app](http://leetlingo-frontend.vercel.app)",
+      "subreddit": "interviews",
+      "score": 0,
+      "url": "https://reddit.com/r/interviews/comments/1lgbyu5/i_built_an_ai_tool_to_help_people_prep_for_tech/",
+      "comments": []
+    },
+    {
+      "title": "[Side Project] AInterview - An AI-powered interview simulator to prepare for your next interview",
+      "body": "Hi everyone,\n\nNot sure if this is allowed here, but I would like to give it a try. I am someone who struggled with interviews myself. My friends and my entourages find it hard to ace interviews these days since no one prepares us for that during our scholarship, and it is sometimes really hard to have great feedback on your performance. Most of the time, when I practice for my interview, I find myself lost since I cannot self-evaluate.\n\n&amp;#x200B;\n\nThat is why I decided to build an application to help people to prepare for their next interviews. It is powered by AI, and it can help you prepare for interviews in multiple domains. It also analyzes your interview to provide feedback on each interaction you made. I plan to add a virtual coach that can help you prepare for your interview by laying out a personalized plan following your interview performance to help you progressively level up your interview skills and be ready for your next scheduled interview.\n\nI have made a landing page for the project and would like to provide the software freely for early adopters. It also helps me to understand what is appreciated and what is not in order to tailor my roadmap better to fit your needs best.\n\n&amp;#x200B;\n\nHere is the link to my landing page: [http://ainterview.vercel.app/](http://ainterview.vercel.app/)\n\nPlease feel free to take a look, and don't hesitate if you have any questions. This is my first attempt to build a personal project, I hope it will be useful to you.\n\n&amp;#x200B;\n\n\\#InterviewPreparation #AIAssisted #CareerSuccess #InterviewPrep #Interview #InterviewFeedback #ResumeFeedback",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/14aua66/side_project_ainterview_an_aipowered_interview/",
+      "comments": []
+    },
+    {
+      "title": "An Interview Practice Copilot Resource",
+      "body": "Feel free to create any other interviews, it is an open system for extensive practice in articulating your thoughts, ideas, and solutions effectively. Fortunately, there's a tool designed to ease this process. This innovative resource offers a voice agent to assist you in rehearsing for interviews, allowing you to refine your responses and gain confidence before facing an actual interview, it's an accessible aid for thorough preparation. Additionally, the tool features a variety of sample job scenarios to practice with, providing a comprehensive and realistic interview training experience\n\n&amp;#x200B;\n\nSoftware engineer - [https://bytegram-beta.vercel.app/assessment/interview/1335B40652DC](https://bytegram-beta.vercel.app/assessment/interview/1335B40652DC)\n\nData engineer - [https://bytegram-beta.vercel.app/assessment/interview/7B42A744FB71](https://bytegram-beta.vercel.app/assessment/interview/7B42A744FB71)\n\nData analyst - [https://bytegram-beta.vercel.app/assessment/interview/124910DF9396](https://bytegram-beta.vercel.app/assessment/interview/124910DF9396)\n\nProduct manager - [https://bytegram-beta.vercel.app/assessment/interview/00B88803A2CE](https://bytegram-beta.vercel.app/assessment/interview/00B88803A2CE)\n\nSales manager - [https://bytegram-beta.vercel.app/assessment/interview/435AB3859521](https://bytegram-beta.vercel.app/assessment/interview/435AB3859521)\n\n&amp;#x200B;",
+      "subreddit": "jobs",
+      "score": 2,
+      "url": "https://reddit.com/r/jobs/comments/1ack89b/an_interview_practice_copilot_resource/",
+      "comments": []
+    },
+    {
+      "title": "Some tips for smashing finance technical interviews (GS,Blackrock etc)",
+      "body": "Hey guys, I'm aware that recruiting season for GS/MS/BlackRock etc is very much ongoing, and with AI shrinking junior roles, I thought that I would share some tips for the technical interviews that actually moved the needle for me when I was in this position last year\n\n**Tip 1 — Set your scope (10–12 topics, max)**\n\nI initially started trying to cover 200 different topics, reading through CFA content pages and trying to memorise everything that I thought could possibly come up, but in reality, you only need to know the following. Pick topics you’ll actually be asked in IB/ER/AM. \n\n* DCF (FCFF/FCFE), WACC, terminal value\n* Trading comps vs. precedents (normalising metrics)\n* M&amp;A: accretion/dilution, sources &amp; uses, purchase accounting basics\n* LBO drivers (IRR sensitivities), debt schedule intuition\n* Unit economics (contribution margin, payback)\n* Macro to valuation (rates/spreads to multiples/DCF)\n\n**Tip 2 — Use one answer template e.g.(C-A-E-R),** to make it easier to deliver your answer and guide you with every answer\n\nFor every question, I used this structure, and found it really effective:\n\n* **Concept:** one clean line (“what it is”).\n* **Apply:** a tiny number/example (10–20s).\n* **Edge:** one limitation/nuance.\n* **Reflect:** the “so what” for the role/deal/market.\n\n**Example for LBO drivers:**\n\n* C: “IRR comes from entry/exit multiple, leverage, EBITDA growth, deleveraging.”\n* A: “+1x exit multiple adds \\~5–7 pts IRR in a 5-yr hold (ballpark).”\n* E: “Multiple expansion is fragile in rising-rate regimes.”\n* R: “I’d test a no-expansion downside and check covenant headroom.”\n\n**Tip 3 — Practice these daily, even if it's just for 20-30 minutes a day,** to get comfortable with doing them\n\nPick 2 topics from your syllabus\n\n1. **Write 2 prompts** (see prompt list below)\n2. **60s prep then 90–120s answer** (speak out loud, camera on if possible. I used a site called [gradguru](https://hirevue-simulator.vercel.app/home) and just used their finance questions to practice this)\n3. **Review your answer,** pointing out any things you missed\n4. **Redo it** one more time, and then move on\n\nI've attached below some prompts that I used that are from real interviews, that will help you get familiar for the interview\n\n**Ready-to-use prompts**\n\n* Give me a clean **DCF walk-through** and one way it misleads.\n* **WACC components** — which inputs move value most and why?\n* **Terminal value:** Gordon vs exit multiple — pros/cons.\n* **Trading comps vs precedents** — when does each break?\n* A deal is **EPS-accretive** but value-destructive — explain.\n* **Sources &amp; uses:** quick build and what you check first.\n* **Purchase accounting:** what changes day 1 and why EPS can shift.\n* **LBO IRR:** rank drivers by impact with a quick example.\n* Pick a company: **two KPIs** to track and why (investor lens).\n* **Rates up 100 bps:** what happens to multiples and to a DCF?\n\nI've attached a few tools that I used to practice for these interviews. Hope this helps!\n\n* [**Kenji explains**](https://www.youtube.com/watch?v=50X2DDPWXoY) on youtube**:** rehearse micro-calcs (WACC, TV, accretion) until automatic\n* [**gradguru**](https://hirevue-simulator.vercel.app/home)**:** good for timed, on-camera reps to simulate pressure, with 10's of technical questions and provides instant personalised feedback\n* [**Macabacus**](https://macabacus.com/?utm_term=macabacus%20software&amp;utm_campaign=Search_Branded_T1&amp;utm_source=adwords&amp;utm_medium=ppc&amp;hsa_acc=2223714701&amp;hsa_cam=21206332749&amp;hsa_grp=161232655813&amp;hsa_ad=697315779095&amp;hsa_src=g&amp;hsa_tgt=kwd-1186156456685&amp;hsa_kw=macabacus%20software&amp;hsa_mt=e&amp;hsa_net=adwords&amp;hsa_ver=3&amp;gad_source=1&amp;gad_campaignid=21206332749&amp;gbraid=0AAAAADpwqK4Z8I9GWnbtbq0OK5bQrz8_H&amp;gclid=Cj0KCQjwsPzHBhDCARIsALlWNG3oRoDKlxwPfSxfHBToiFElxy6BUXr8eyKNm3wmAGfQDYcCn-WI9boaAp9KEALw_wcB) **/** [**Investopedia**](https://www.investopedia.com/)**:** fast refreshers; read past the first paragraph",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1ohswhs/some_tips_for_smashing_finance_technical/",
+      "comments": [
+        {
+          "body": "Canary Wharfian website also a great resource",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Tailored CVs = more interviews? Built a tool to test that idea.",
+      "body": "Many people prep hard for interviews but get ghosted before they even get one. Often it’s the CV.\n\nI created a tool that rewrites your resume using AI to match a specific job description. Tailored, clean and  ATS-optimized.\n\nIt helped me get interviews, but I want to know what you think.\n\n🔗 [NiceCV](https://quick-cv-eight.vercel.app)  \n🎥 Here’s a demo of how it works\n\nhttps://reddit.com/link/1l1kf9y/video/es8oajkp4j4f1/player\n\nWould you trust this before your next interview?",
+      "subreddit": "interviews",
+      "score": 0,
+      "url": "https://reddit.com/r/interviews/comments/1l1kf9y/tailored_cvs_more_interviews_built_a_tool_to_test/",
+      "comments": []
+    },
+    {
+      "title": "Virtual interview prep",
+      "body": "Hi everyone, so I applied at indeed and got virtually interview there was no application or anything just direct interview. How should i prepare for that and how does this work?",
+      "subreddit": "interviews",
+      "score": 2,
+      "url": "https://reddit.com/r/interviews/comments/1ifvjtv/virtual_interview_prep/",
+      "comments": [
+        {
+          "body": "[removed]",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Interview with Torc Robotics",
+      "body": "I got an email for a virtual interview with Torc Robotics, where they’ve shared that they shall be holding 4 rounds during the virtual event. The interview is for the position General Interest - Engineering. If anyone has given this interview before, can you please share what to expect in each of these 4 rounds? How to ace the interview? I am a fresh grad and this is going to be my first ever interview.  Any help is greatly appreciated. ",
+      "subreddit": "interviews",
+      "score": 2,
+      "url": "https://reddit.com/r/interviews/comments/1iav98k/interview_with_torc_robotics/",
+      "comments": [
+        {
+          "body": "[removed]",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "What are your best resume and interview hacks?",
+      "body": "What are your best resume and interview hacks?",
+      "subreddit": "interviews",
+      "score": 3,
+      "url": "https://reddit.com/r/interviews/comments/1hrohk9/what_are_your_best_resume_and_interview_hacks/",
+      "comments": [
+        {
+          "body": "I've always found it helpful to tailor my resume to the specific job I'm applying for, so make sure you're highlighting relevant skills and experiences. Also, practice answering behavioral questions like \"Tell me about a time when...\" in front of a mirror or with a friend - it'll help you feel more confident.\n\nOne thing that helped me was using this AI tool that listens to the interview and suggests responses in real time. It made me feel more prepared and confident during my own interviews. If you're interested, I can share it with you.\n\nDon't get discouraged if things don't go exactly as planned - every interview is different, and it's okay to make mistakes. Just be yourself, show genuine interest in the company, and highlight your strengths. You got this!",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Interview he’ll ",
+      "body": "I was told interview was in person, only when I reached there except for one all the others were on zoom. So that person had to use zoom on his phone and face the camera on me, so others could see. BFR !!!! \nImagine having to drive all the way to find this. This 30 min job interview easily could have been on zoom, saves everyone time and energy !",
+      "subreddit": "interviews",
+      "score": 8,
+      "url": "https://reddit.com/r/interviews/comments/1hefrwm/interview_hell/",
+      "comments": [
+        {
+          "body": "I'm so sorry you had to go through that! It's completely understandable to feel frustrated.\n\nOne thing that might help is being more specific about your desired format for future interviews when you're scheduling them. You could say something like \"Is this an in-person or virtual interview?\" or \"Will we be meeting via Zoom or Google Meet?\"\n\nOne thing that helped me when I was in a similar spot was using this AI tool that listens to the questions and suggests responses in real time - if you're interested, I can share it with you. It's not a guaranteed fix, but it made me feel more confident.\n\nKeep pushing forward! You got this, and don't let one weird experience get you down.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Have an interview that I really want! ",
+      "body": "I really want to get this as I think the job would be perfect for me! But I’ve found it hard to study for the interview and they said they will ask standard question but no idea what they would be 😞\n\nI really hope I get it 😣",
+      "subreddit": "interviews",
+      "score": 6,
+      "url": "https://reddit.com/r/interviews/comments/1hvoygv/have_an_interview_that_i_really_want/",
+      "comments": [
+        {
+          "body": "the best question to practice is “tell me about yourself”. you need to sell yourself. education, relevant experience and skills, but also show some positive personality and passion. learn about the company and thoroughly know the job description",
+          "score": 3
+        },
+        {
+          "body": "Honestly, most companies stick to common questions in interviews. A lot of times they're looking for examples or experiences you've had that match their job requirements. Think about times when you've handled a tough project or worked with a team to solve a problem - those kinds of stories can be super valuable.\n\nWhen it comes to studying for the interview, try making a list of potential questions and practicing your responses out loud. You could also ask a friend or family member if they'd be willing to conduct a mock interview with you - that can help you feel more prepared and confident.\n\nOne thing that helped me when I was in a similar spot was using this AI tool that listens to the interview and suggests responses in real time. It's not a guaranteed fix, but it made me feel more confident. If you're interested I can share it with you. Remember, the most important thing is to be yourself and show them what makes you unique!",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "I could be too hard on myself, but I think I crashed &amp; burned on this Interview.",
+      "body": "The people who would be my bosses said my resume &amp; experience was impressive.  1st interview was with the Main Department Manager &amp; it went great.  Then the 2nd interview who would be my boss, I think I got too excited and interrupted him twice.  After the second time, it was kinda of a weird awkward silence &amp; transition.  It’s been 3 days since the last interview, I haven’t heard anything, so I just sent a thank you note to both of them via one email.\n\nWhat’s your guys take on this?\nDo you think I’m toast?\nDo you think I am being too hard on myself?\nHave you guys crashed &amp; burned on interviews before?\nHow did you recover &amp; learn from it?\n\nI would Love to hear your feedback, thank you in advance.\n",
+      "subreddit": "interviews",
+      "score": 3,
+      "url": "https://reddit.com/r/interviews/comments/1i9xw9f/i_could_be_too_hard_on_myself_but_i_think_i/",
+      "comments": [
+        {
+          "body": "Dude, don't be too hard on yourself! It's totally normal to get excited and interrupt someone in an interview. The key is to learn from it and move forward. In terms of crashing and burning, I think you're giving yourself too much credit - you actually made a good impression with the first interviewer and your resume was deemed impressive.\n\nThe fact that you sent a thank-you note is a great sign, it shows you're still interested in the role and willing to follow up. Three days isn't an eternity for a response, so try not to get too anxious about it. If you want to more about an AI tool I used that helped me feel more confident during interviews (it's not a magic fix, but it can help), let me know and I'll share it with you.\n\nKeep pushing forward, and remember that every interview is an opportunity to learn and grow. You got this!",
+          "score": -1
+        }
+      ]
+    },
+    {
+      "title": "Internal interview",
+      "body": "I’m in the last rounds of an internal interview process for a manager position. It’s between me and my coworker. In my opinion I’m the more experienced candidate for the position. My question is how do I highlight that without belittling or shit talking my coworker. I’m thinking about talking about  my experiences.  Just don’t know how to bring it up in the interview. Thank you in advance for any suggestions or advice.",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1i01kn8/internal_interview/",
+      "comments": [
+        {
+          "body": "You could try framing your experiences as examples of what you've done in similar situations, rather than directly comparing yourself to your coworker. For instance, instead of saying \"I'm more experienced\", you could say \"In my previous role as a team lead, I successfully implemented a project that resulted in X% increase in sales.\" This way, you're showcasing your skills and accomplishments without making it seem like a competition.\n\nAnother approach is to focus on how your experiences align with the job requirements. Review the job description and see which of your past experiences match up with the key qualifications. Then, use specific examples to demonstrate how you've applied those skills in real-world situations. This will show the interviewer that you're not just touting hypothetical abilities.\n\nOne thing that helped me when I was in a similar spot was using this AI tool that listens to the interview and suggests responses in real time. It’s been helpful for me, especially when trying to come up with examples on the fly. If you are interested I can share it with you.",
+          "score": 1
+        },
+        {
+          "body": "Yes framing your experience with quantifiable accomplishments will be a good option. I would stay as far away as possible from naming or giving your competition importance in the context of an interview. The ppl that are interviewing already know both of you’s experience, no need to compare imo",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Do HM actually reach out to prior jobs for SDR/BDR roles. ",
+      "body": "Kinda self explanatory. Idk why I’m getting turned away for so many tech SDR/BDR roles. I’ve been unemployed for close to a year as I have 3 years of non tech sales experience. Thoughts?",
+      "subreddit": "interviews",
+      "score": 2,
+      "url": "https://reddit.com/r/interviews/comments/1hx30xq/do_hm_actually_reach_out_to_prior_jobs_for_sdrbdr/",
+      "comments": [
+        {
+          "body": "Yeah, it's common to get turned away from SDR/BDR roles if you're coming from non-tech sales. Typically, these positions are looking for people with technical sales experience or a background in software sales.\n\nThat being said, some companies will reach out to your prior employers as part of the vetting process. It's not always a hard and fast rule, but it depends on the company culture and what they're looking for in a candidate. Some might even ask you about your previous roles during an interview.\n\nOne thing that helped me when I was interviewing for similar positions was using this AI tool that listens to interview questions and provides suggested responses. It's not a guaranteed fix, but it made me feel more confident. If you're interested, I can share it with you.",
+          "score": -1
+        }
+      ]
+    },
+    {
+      "title": "[Side Project] AInterview - An AI-powered interview simulator to prepare for your next interview",
+      "body": "Hi everyone,\n\nNot sure if this is allowed here, but I would like to give it a try. I am someone who struggled with interviews myself. My friends and my entourages find it hard to ace interviews these days since no one prepares us for that during our scholarship, and it is sometimes really hard to have great feedback on your performance. Most of the time, when I practice for my interview, I find myself lost since I cannot self-evaluate.\n\n&amp;#x200B;\n\nThat is why I decided to build an application to help people to prepare for their next interviews. It is powered by AI, and it can help you prepare for interviews in multiple domains. It also analyzes your interview to provide feedback on each interaction you made. I plan to add a virtual coach that can help you prepare for your interview by laying out a personalized plan following your interview performance to help you progressively level up your interview skills and be ready for your next scheduled interview.\n\nI have made a landing page for the project and would like to provide the software freely for early adopters. It also helps me to understand what is appreciated and what is not in order to tailor my roadmap better to fit your needs best.\n\n&amp;#x200B;\n\nHere is the link to my landing page: [http://ainterview.vercel.app/](http://ainterview.vercel.app/)\n\nPlease feel free to take a look, and don't hesitate if you have any questions. This is my first attempt to build a personal project, I hope it will be useful to you.\n\n&amp;#x200B;\n\n\\#InterviewPreparation #AIAssisted #CareerSuccess #InterviewPrep #Interview #InterviewFeedback #ResumeFeedback",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/14auagc/side_project_ainterview_an_aipowered_interview/",
+      "comments": []
+    }
+  ]
+}

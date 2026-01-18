@@ -1,0 +1,393 @@
+{
+  "company": "booz-allen",
+  "post_count": 19,
+  "exported_at": "2026-01-18T17:44:53.264Z",
+  "posts": [
+    {
+      "title": "Tech Excellence w/ Booz Allen worth it?",
+      "body": "I have an active TS/SCI clearance and am currently a A.A.S. Software Development student while working full-time in aerospace.\n\nIm iffy on the details of the program.\n\n\n\n\n--When not placed on a project will there be a decrease in pay? \n\n--Is there pay incentives for high security clearances?\n\n--If there are no local or remote projects to place me in, what happens?\n\n--Can they enforce relocation or threaten removal from the program for not doing so?\n\n--Are you an actual Booz Allen employee, or more of a contractor without the full benefits?\n\n\n\n\nThank you for the guidance!",
+      "subreddit": "cscareerquestions",
+      "score": 1,
+      "url": "https://reddit.com/r/cscareerquestions/comments/xhh10i/tech_excellence_w_booz_allen_worth_it/",
+      "comments": [
+        {
+          "body": "Those are question you should asking them during the interview before accept the job offer. Most government contractors are not allow to disclose their information. I'm currently at one.",
+          "score": 3
+        },
+        {
+          "body": "Hi, I'm also wondering the same. Did you end up accepting the offer and doing the Tech Excellence program?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Experiences with Anduril?",
+      "body": "I currently work in big tech and am ex-military. I have a clearance, but have stayed away from most government contractors (Raytheon, Booz Allen, etc) because from what I've heard, they're slow-moving dinosaurs and pay like crap.\n\nHowever, I recently found out about this company called Anduril. They seem to be more modern, and pay at FAANG levels for software engineers. They require clearances for many roles and probably look kindly on military experience, which would be a benefit for someone like me.\n\nI'm wondering if anyone has experience/ knowledge about working for this company? What are the hours/ WLB like? How interesting is the work? Is the work environment healthy or toxic? How hard are the interviews? How's the pay? etc.",
+      "subreddit": "cscareerquestions",
+      "score": 46,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1k9lqlb/experiences_with_anduril/",
+      "comments": [
+        {
+          "body": "Have a friend there. It IS NOT CHILL. I repeat it is NOT your average chill gov job. \n\nFast paced, top secret, HIGH TRAVEL, 5 days office, 60+ hour weeks. \n\nHowever the work is extremely cool you get to work on high tech robots. \n\nComp- stock is Monopoly money atm but plans to IPO so you stay poor until IPO then you become rich. HQ is Orange County which is VHCOL. \n\nI highly recommend if you’re single and love building cool shit. Highly advise against those who value WLB, have family and need to spend time with them. \n\nI plan to apply there some time down the line, maybe when kids get much older and I got more time to kill.",
+          "score": 96
+        },
+        {
+          "body": "There’s an entire subreddit devoted to them: r/Anduril.",
+          "score": 15
+        },
+        {
+          "body": "Looks like they have a base pay of around 180-260k for someone with some experiences. Probably comes with a monopoly money (stock) bonus as well. Since they are getting traction, I assume the stock could go to the moon.\n\nBut then 180-260k base for someone with 5 to 15 yoe in the field is..... not FAANG money. FAANG money is 500k total comp at 10 yoe.",
+          "score": 12
+        },
+        {
+          "body": "really curious why right-wing weapon/spyware manufacturers seem to be able to take random words from Tolkien and be like \"we own that now.\" can i name my own startup \"Bilbo Baggins, Gandalf, &amp; Co?\"\n\nanyways something to consider is that if you help Palmer Luckey build systems to turn whole families of refugees into red paste, even if you aren't called before some kind of Nuremberg tribunal in the future, it'll make your resume extremely toxic to a huge swath of people and lead to a lot of awkwardness when people ask what you do for work.",
+          "score": 14
+        },
+        {
+          "body": "I know a few who work for them. They do not pay as much as FAANG for the respective titles. https://www.levels.fyi/companies/anduril-industries/salaries/software-engineer?country=254. This is accurate. There are many directors there (one I knew personally) who quickly went from junior engineer to senior to management to director within a short time. He was ex military. They are really no different than defense contractors in personnel. They just tend to higher the more talented from the legacy defense. You can get promoted quick if you are ex military ( and over 6'1\" and muscular and very stereotypically masculine) with a decent education and vibe well.",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "title": "I am getting burnt out and frustrated. I feel like I am not living up to my full potential by working on uninteresting software at a mid-level company. I want to either go to a top-level company or start a company.",
+      "body": "Lately, I have been struggling to code at work. I currently work at Booz Allen and get very frustrated when I am working along side developers that just do not care about the quality of their code leaving the repository a mess that seems like its barely hanging together with duct tape. I spend more time trying to figure out what the horrible code is actually doing and fixing it than actually getting my work done. \n\nThis has made me realize I need to go to a top-tier tech company where I can be surrounded by people as smart or smarter than me and that actually care about code, I feel like I would be much happier and learn a lot more. I also want to work for a company that is making a difference in the world like any of Elon's companies or an AI company as an ML Engineer. I am currently getting my masters at Georgia Tech in AI but don't have any experience so it's hard to break into that field and when I look on LinkedIn at people who work at the companies I want to work at they all have experience at Meta or Google or Amazon or went to an Ivy League school which I never had the opportunity to do so I just feel like I am getting further and further behind and it's starting to get to my head.\n\nI study data structures/leetcode about 5-7 hours a week, school about 15-20 a week and then also try to learn system design or more about AI/ML or other various CS topics but it never feels like enough and it's starting to bring me down and I feel as though I am getting burnt out, not because I am working so much but because I am frustrated at what I am working on and feel I am not getting the experience I need to get into a top company (and maybe I am working too much but I feel like I need to to get where I want to go). Even some of my technical managers I feel like some of them just don't care about code quality and good practices and it feels weird working below them. It almost makes me want to start my own company but I don't know what it would be and I obviously need a way to survive.\n\nI have roughly 5 years of professional experience. I was hoping I could land a job at a top-level tech company with 6-9 months more of interview prep. I was also going to build a full-stack blog application I can add to my portfolio and then after that build a ML application to show I can learn on the spot and build extraordinary things. I'm not going to lie, I do find the algorithms interviews very nerve wracking as I've been asked questions that I just could not figure out and there are so many to learn but I am trying to be consistent and learn as much as possible. I usually study/code until my brain can't take it anymore and then I go to bed (at a reasonable time, I always make sure to get adequate sleep and workout a few times a week).   \n\n\nHas anyone been in a similar situation or have any advice for me? This has been making me depressed lately as I know I am not living up to my full potential. I am planning on moving to Silicon Valley next year to be around people more like me.",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1c1h2a9/i_am_getting_burnt_out_and_frustrated_i_feel_like/",
+      "comments": [
+        {
+          "body": "Working and going to school can certainly be tiring/draining. One thing that pops into my head, though, is to ask if you're ignoring other parts of your life? You know, the parts that are supposed to be enjoyable? You can get burnout if all you are doing is working/studying.\n\nThe other concern I have is that you sound a little like someone I used to work with. They were angry all the time, and would always say he wanted to just tell our boss to go to hell, and that he'd just go work at Google. He never ended up at Google, and we're both much older now, and he's still a very angry person. I'm not sure how much of a real life he developed. You didn't share any personal info, and you don't need to. I could certainly be incorrect and projecting. \n\nPart of why I'm mentioning this is that I've been working in a contract role at a large, well-known finance company. It feels very different from previous places I've worked. There are a lot of smart people, but there's also a general lack of ownership, and you get moved around from team-to-team very easily. Perhaps it's because I'm a contractor, but it feels like there's a general lack of connection. It would be unfortunate if you spent all this time studying, and thinking working some place would make you happy, and then you get there, and you find it doesn't actually \"fix\" things for you.\n\nOr you could get a job there and love your life. Who knows, right?",
+          "score": 4
+        },
+        {
+          "body": "Top level companies also do a lot of boring work.  I thought work would be interesting at G after I worked at a startup for several years, G was very boring.  Left that and work on robotics now, it’s still boring most of the time but I have had a few opportunities to develop novel algorithms for real world problems.\n\nMost work is boring.",
+          "score": 3
+        },
+        {
+          "body": "Boring is good. Take your paycheck and find excitement outside of work. I just finished my degree and wanted to die. Once I finished now I feel happy again and can be a normal person not a work school robot. Just grind it out",
+          "score": 1
+        },
+        {
+          "body": "It might not even be that you need to work at a top tier company. You may just need to find one where computer science is the main mission. At Booz Allen, development is just an aside to meet the management consulting mission. I remember a senior developer who got a job a Booz a long time ago. Once he figured out the lay of the land, he was taken aback at how much it was not a software development company. He had all kinds of ideas that would have fit right in at a Meta or a Google. But at Booz it kinda got him nowhere.\n\nAll that being said, there are probably a lot of smart people at Booz Allen. You could learn some good things from them. Probably not so much software development or computer science type skills. I'd say finish up your studies. If Booz is footing the bill, stick around a while longer so you won't have to pay them back. Then bolt. You never know. You might fight that greener pastures are not that great. If you leave on a good standing, you can always be a comeback kid at BAH.",
+          "score": 1
+        },
+        {
+          "body": "[removed]",
+          "score": 1
+        },
+        {
+          "body": "dude, chill",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Booz Allen Hamilton experience?",
+      "body": "Hey all,\n\nDoes anyone has any experience working for Booz Allen Hamilton as a Software Dev. The reviews I've seen are mixed but mostly positive. My concerns are mostly about job security as some reviews mentioned having to interview internally to find a new contract if their current contract ends. Any information would be appreciated.",
+      "subreddit": "cscareerquestions",
+      "score": 13,
+      "url": "https://reddit.com/r/cscareerquestions/comments/xukjh0/booz_allen_hamilton_experience/",
+      "comments": [
+        {
+          "body": "Necro, but I worked at Booz for 4 years. When it comes to professional development its top tier imo, as they essentially paid for the entirety of my grad school. One thing I will note especially as a dev, you need to make yourself known up to at least the principle level in this company for your skills, and having good networking and social skills is a must to navigate around to the projects you want. If you don't have these you're going to have a hard time. People either come to the company, end up on a team they hate and don't have the social skills to get out of the team or onto a team they'd like, or they come to the company, network a ton and find the perfect teams for themselves and enjoy 10+ years at the company. Theres definitely a ton of dev work to be done,  you just need to show them why you should be the one doing it, and build a reputation as the guy who can get things done (reliable). Picking up a specialty skill is also really handy.",
+          "score": 9
+        },
+        {
+          "body": "no thanks",
+          "score": 10
+        },
+        {
+          "body": "Got a couple perspectives. I know a guy that was a hard core software developer. He joined Booz Allen. He was disappointed in the general perspective in the company. He often complained that the company was not in the business of software development (they are not). They are in the business of management consulting - solving problems for customers, which might involve software development.\n\nI had another acquaintance who worked for Booz Allen. She got on a project she absolutely hated. So she quit the project (which still being employed by the company). It took her a whopping 6 months to find her next project. The company paid her salary for all that time. However it was a tough time finding the next gig in the company.\n\nPersonally I find that there are some perks at the company. They seem to encourage training - going to school, training, and getting certifications. There does not seem to be any problem getting money from the company to do these activities. There are also some downsides. Sometimes you got to take a project which has little or nothing to do with software development (even if you are a software developer). That can be quite painful, and bad for your career, especially if you are early in your career.",
+          "score": 9
+        },
+        {
+          "body": "this guy seems to like it: [https://www.edwardraff.com](https://www.edwardraff.com)",
+          "score": 3
+        },
+        {
+          "body": "[removed]",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Anyone know or from Booz Allen Hamilton here? Which one should I pick between \"Tech Excellence\" and \"START\" program?",
+      "body": "I just had interviews with a data engineering team from Booz Allen. They gave me two offers:\n\n- Begin training in Tech Excellence program at July 5th and then get assigned to a project\n\n- Begin training in START program in August and then get assigned to a project that focuses more on an app called ADVANA\n\nI prefer to start on August, but not sure if I should go with Tech Excellence program because a general training is better for career growth and ADVANA is a very specific tool. Was anyone who is familiar with Booz Allen and what's a better program to start off?\n\nUpdate:\n\nFor people finding this post who have similar questions as I do, here is what I learned so far since I started at the beginning of July:\n\nTech Excellence program is a 6 week-long learning program where you get to have a class like in college. (Some people may have a different learning program)\n\nAfter the learning program, you will get a job, which entirely depends on what kind of job you are looking for. In my case, I may end up doing ADVANA despite I started with Tech Excellence program.\n\nYou don't need to have a clearance before starting. BAH does this parallelly while you start working for them.\n\nAlways ALWAYS ask for more than their offer if you have the right reason.\n\nThank you!\n\nUpdate 9/14: It has been 4 weeks since my \"graduation\", I applied to few positions while learning/reviewing materials. You will have A LOT of time to network and apply for positions that you are interested in. So if you are worried about being in the bench for too long, you will have stuff to do.\n\nUpdate 10/5: I got into a team after basically applying to a position every day for 6-8 weeks. Some of my friends did gigs to gain experience and others took certification exams to show that they did more than just independent studying. Now I am working on two projects as a senior consultant. Looking back, Tech Ex program is a good way to start BAH career because you get random info that will help you eventually. And the Career Manager who manages Tech Ex Program is there for you when you have random questions about your career.",
+      "subreddit": "cscareerquestions",
+      "score": 19,
+      "url": "https://reddit.com/r/cscareerquestions/comments/v96cuu/anyone_know_or_from_booz_allen_hamilton_here/",
+      "comments": [
+        {
+          "body": "For people finding this post who have similar questions as I do, here is what I learned so far since I started at the beginning of July:\n\n- Tech Excellence program is a 6 week-long learning program where you get to have a class like in college. (Some people may have a different learning program)\n\n- After the learning program, you will get a job, which entirely depends on what kind of job you are looking for. In my case, I may end up doing ADVANA despite I started with Tech Excellence program.\n\n\n- You don't need to have a clearance before starting. BAH does this parallelly while you start working for them.\n\n- Always ALWAYS ask for more than their offer if you have the right reason.\n\nThank you!\n\nUpdate 9/14: It has been 4 weeks since my \"graduation\", I applied to few positions while learning/reviewing materials. You will have A LOT of time to network and apply for positions that you are interested in. So if you are worried about being in the bench for too long, you will have stuff to do.",
+          "score": 6
+        },
+        {
+          "body": "Tech Excellence is more or less a way to get people with technical aptitude in the door. Typically these people already meet the security clearance requirements but were junior as far as technical skills go. Tech Excellence provides a really good way to get some technical training and get your foot in the door at a solid company.  \n\n\nThe \"get assigned to a project\" phase after Tech Excellence can be challenging. Some people can go months without getting assigned and can be \"on the bench\" during that time. At Booz Allen this isn't really a big deal, and seems to be part of their strategy for growing.  \n\n\nConsidering that it sounds like the START program has a project for you afterwards and also aligns well with your desired start time, that may be a good route for you to go.",
+          "score": 5
+        },
+        {
+          "body": "Do either positions offer clearances? Booz allen isn't a bad company to work for but its so big it can vary. I worked in health for awhile and it seemed like most people got a 10k raise after a year for jumping from consultant to senior consultant. I knew people who worked there for about 4 years and doubled their starting salary in that time. You won't get the cashstack that tech tech gets but its DOD so easy job easy hours(usually). Ask what the tech stack looks like for each project. Ask if there's a clearance. Getting a TS clearance is a BIG resume booster. There's also projects with public trust. Not as lucrative as the TS clearance but usually offer fully remote capabilities(Military Clearances such as secret, top secret, confidential usually require some form of on-site to meet DOD regulations).",
+          "score": 3
+        },
+        {
+          "body": "Thank you for asking this..I just spoke to a recruiter today that offered this to me for their AWS cloud engineer program..I am excited about it but wasn't sure how the salary was and how you get accepted.\n\nIs there a time frame that you have to stay with the company after the training?",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "title": "Booz Allen Hamilton Technical Questions?",
+      "body": "Hey everyone,\n\nI have a second-round interview coming up for BAH this week. Apparently, the way the staffing works is that I interview, and then based on my skills/how the interview goes I get placed in a specific role/project. Unfortunately, that makes predicting what I'm going to be asked in the interview pretty difficult. Does anyone have any recent experience interviewing with BAH for Software Engineering roles and remember any of the technical questions? I've heard some people say they weren't asked any, and others say that BAH is moving toward a more FAANG-style interview process.\n\nFor context, the role is a full-stack web dev software engineer, and some of the requirements are:\n- experience with object–oriented programming, including C# or Java\n- experience with web development languages, including HTML, CSS, or JavaScript\n\nAny insight would be greatly appreciated.",
+      "subreddit": "cscareerquestions",
+      "score": 5,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1gao15k/booz_allen_hamilton_technical_questions/",
+      "comments": [
+        {
+          "body": "Since Booz Allen Hamilton matches you to projects after the interview, the technical questions could vary wildly. You might get anything from basic web dev concepts to more in-depth coding challenges.  Brush up on your fundamentals in C#, Java, HTML, CSS, and JavaScript, and be ready to discuss your past projects in detail.  Think about how you'd approach different web development scenarios, and practice explaining your thought process clearly.\n\nTricky interview questions are where a tool like [interview copilot](http://interviews.chat) can really help. I'm part of the team that built it, and we designed it to help you navigate those unexpected questions and show off your skills. Good luck with your interview!",
+          "score": 2
+        },
+        {
+          "body": "Hey, how did the interview process go?",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Anyone work/worked at Booz Allen Hamilton?",
+      "body": "Could anyone give feedback for working here ? Interview process? Would you recommend working here ? Etc\nP.s I applied for software engineer position.",
+      "subreddit": "cscareerquestions",
+      "score": 1,
+      "url": "https://reddit.com/r/cscareerquestions/comments/13svcvz/anyone_workworked_at_booz_allen_hamilton/",
+      "comments": [
+        {
+          "body": "Glassdoor is what you want I think",
+          "score": 3
+        },
+        {
+          "body": "[removed]",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "confused junior searching for internship advice",
+      "body": "Hi everyone, I kind of just want to rant a little bit and also get advice from people who were feeling like this in college.\n\nI'm currently a junior studying computer engineering at a well known state school. I had a rough start in the beginning of college but I am much happier now with my classes and genuinely enjoy my major.  My one goal for this year is to get an internship since I have never had one and this is the most crucial summer to get one. I am also doing a fifth year so I will have another summer to do another internship, but I would really like to begin experiencing the professional world.\n\nAnyways, I started applying at the beginning of this semester (january) after I raised my gpa a good amount. I have been working super hard to get it where it needs to be but, I feel behind compared to my peers. I have applied to around 200 over the past few weeks. So far I have gotten 2 interviews (one reject and the other im still waiting on), and a few coding challenges. I'm beginning to panic because I still haven't secured anything and I'm fearing that companies will stop looking for interns because of the current viral disease that starts with a C, and I'm going to miss the internship train. I'm feeling insecure because a bunch of my CS friends already secured their internships last semester at big name companies. One of my good friends also got offered an internship at Booz Allen pretty recently. I know its not good to compare yourself to your peers but, I know I am a harder worker than she is. I know my work ethic, social skills, and programming skills are better than hers and I often help her with her work too. I don't mean to bash her at all and I am happy for her, but it makes me feel like something is wrong with me. She also had an internship last summer because her mom's friend let her join a team in their company. There was no interview or anything. My parents were first generation immigrants so I don't know anyone in this field or have connections like that. Am I not as desirable because I don't have any previous experience? My resume has mostly personal projects that I'm pretty proud of, but is there anything more I can do to show companies that I am worth something? I am just feeling defeated and disappointed that everyone around me has had an opportunity in the professional world and I am falling behind. If anyone has advice for me or has been in my position, please share! Thank you.",
+      "subreddit": "cscareerquestions",
+      "score": 10,
+      "url": "https://reddit.com/r/cscareerquestions/comments/fjfpdl/confused_junior_searching_for_internship_advice/",
+      "comments": [
+        {
+          "body": "Get help with your resume, keep practicing for coding interviews, and keep applying.\n\nYou should also be exploring what you are going to do this summer to make yourself more appealing to internships and jobs next year. The likelihood of you finding an internship is exceptionally slim given the circumstances so you should be prepared for a summer without one.",
+          "score": 3
+        },
+        {
+          "body": "Go as local as you can or go for a web dev internship so you can work remotely. \n\n&amp;#x200B;\n\nIt's as best as we can hope atm. Surely anyone you apply to later who asks why you don't have an internship will understand the coronavirus killed that dream for many.",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "title": "AWS certification for non-technical graduate in order to get first job",
+      "body": "Hi everyone,\n\n\nI graduated in may with a liberal degree. I've been working on my programming skills ever since and for the past month I've been doing over 40 hours a week on projects and self study.\n\n\nI went to a career fair yesterday at my alma mater and some recruiters told me that while they were impressed with what I've been able to learn, I should also get certifications. These were recruiters from Northrop Grumman, Accenture, and Booz Allen (I'm in the D.C. area). However they also expressed that they're not sure if this would be sufficient but I do need to prove myself more technical.\n\n\nThe reason for my concern is that I know one of the recruiters. It seemed like most of them were all working in the IT industry where certifications seem to hold more value than in software development.\n\n\nDo you guys think AWS would help me get my shot at interviews? Also, if I need to prove myself more technical, should I use this certification to get into IT first before moving into software development?\n\n\nThank you!\n\n**TL;DR**\n\nI have a liberal arts degree and have been trying to teach myself programming to become a software developer. I went to my alma mater's career fair and recruiters said I should get my AWS certifications to prove myself more technical. Will this help me get interviews for junior developer positions? Would working an IT position be worth it to \"prove myself more technical\"?",
+      "subreddit": "cscareerquestions",
+      "score": 2,
+      "url": "https://reddit.com/r/cscareerquestions/comments/74hdb0/aws_certification_for_nontechnical_graduate_in/",
+      "comments": [
+        {
+          "body": "IT and CS are two very different career paths. There really isn't much of a point on going into one to get into the other. Secondly AWS certifications are useless for beginners; you'd probably be in way over your head. ",
+          "score": 3
+        },
+        {
+          "body": "Which AWS certification, and do the positions you're applying to use AWS? The right certification will definitely help get you interviews for the right job.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "[Frustrated] Trying to Break In after college",
+      "body": "Forgive me for the incoming rant.  I'm started to get rather frustrated and I'm looking to organize my thoughts.   This post is cathartic for me, but any insight you fine folks can offer would be greatly appreciated.  TLDR at the end. \n\nAbout me: I received a BA in Music about 12 years ago...because I was a silly young man and thought working up tons of student loan debt on a Music degree was a good idea...\n\nAnyway, after a few years working a mediocre customer service job, I went back to my local community college and earned an AS in Computer Technology while continuing to work full time and changing positions from a Customer Service associate to a Technical Writer.  \n\nDuring college, I learned a great deal about VB and a smattering of Java, but also Relational databases and some networking and web design fundamentals.  I discovered I had a strong affinity for OOP and was pretty much a rock star in the sterile classroom environment of my rural South Carolina college. \n \nSmash-cut to 3 years after finishing my AS, I've been pretty comfortable in my Tech Writer job, I have learned a tremendous amount of knowledge in vital soft skills, communication, and project management/team leadership and I feel I am ready to move on.   In a legit effort to move into the Software Developer field, my entire family is in the process of moving to the DC Metro area for a better tech market. \n \nAfter over 200 resumes and applications, I've only been called back for 1 interview, with Booz Allen, And let me tell you guys....I nailed it.  Years of communication and serving as an IT/Operations liaison at my current job served me well.  I was grace under fire and that was the best interview experience of my life.  The recruiter called me the next day and said that I was marked as a \"firm fit\" for the behavioral and cultural aspects and that I would thrive in the organization...however I didn't have enough experience (for the JUNIOR developer position).   This was really a bummer.  \n\nIf I was a younger man and didn't have a family of 5 to take care of, I would be banging down the doors all over town trying to take on internship positions just to get a little experience, but at this stage in my life I simply cannot sacrifice salary or health insurance.  \n\nSo here I sit...trolling Dice and ZipRecruiter every day and applying for anything that remotely matches my skillset, getting more discouraged every day.  \n\nI'm hoping to leverage my years of Technical Writing and Project Management experience to land a job on a development team.   I can talk theory all day, I have a firm grasp on the concepts behind OOP and development lifecycles, but I am utterly desperate for a job where I can just get my hands on a keyboard and get some practical experience in programming.  I am ABSOLUTELY confident that I can do the job and provide value, even at a very junior level,  \n\nSo....I just don't know what else I can do, guys...working a full time time job, trying to switch careers while raising a family, I don't think more school is the answer, I'm even tempted to try to get into bed with one of those indentured servitude bootcamp places at a severely-reduced salary just so I can write some code and gain practical experience.  \n\nTLDR - I have 10 years of valuable soft skills and work experience, I have a BA in liberal arts and an AS in Computer Technology...but I have zero professional development experience and can't seem to even qualify for Entry-Level and Junior software developer positions.  Very frustrating.   ",
+      "subreddit": "cscareerquestions",
+      "score": 2,
+      "url": "https://reddit.com/r/cscareerquestions/comments/6anlt7/frustrated_trying_to_break_in_after_college/",
+      "comments": [
+        {
+          "body": "If you aren't getting interviews or even phone screens your resume is likely the issue.  \n\nYou must show that you can code on your resume.  Simply listing skills is not enough, you must back it up with projects and experience.  If you do not have internships then take up some personal projects.  Anything from websites to mobile apps or even hackathon entries will help.  When I was a student I've even taken my school projects, put them on Github, and wrote a really nice readme description about the stack I used.",
+          "score": 2
+        },
+        {
+          "body": "You should be applying for jobs as a tech-writer at a \"Big 4\" like company.  After you've been at a company for over a year, it should be easier to transition to a more technical role at that company.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Company recommendations in the NoVA area?",
+      "body": "Currently in my last semester of college - Recently had an interview with Capital One fall through so I’ve been expanding the list of companies to look out for. I’ve been primarily looking at the Northern Virginia region as I really liked my time there when I visited and I was wondering if any of you had any recommendations or feedback for companies there that are offering entry level software engineer positions in the region. \n\nCurrently I’m in talks with Next Century and have applied for Booz Allen and Deloitte. ",
+      "subreddit": "cscareerquestions",
+      "score": 5,
+      "url": "https://reddit.com/r/cscareerquestions/comments/9jwoed/company_recommendations_in_the_nova_area/",
+      "comments": [
+        {
+          "body": "Applied Predictive Technologies (APT) is a good one in Arlington. They're a MasterCard tech company with focus on business analytics software. From the engineers I've talked to, APT has somewhat of a tech startup culture. The compensation is also very good for the DMV area.",
+          "score": 6
+        },
+        {
+          "body": "The federal government of the United States",
+          "score": 5
+        },
+        {
+          "body": "just apply for whatever and see who interviews you. ",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Why do I get denied at big companies, but get instant invites to on-sites to high tech startups?",
+      "body": "I get my resume rejected by average, boring companies that value your skills for very little.\n\nI was able to get an interview through a referral for Booz Allen Hamilton. During the interview, they pretty much asked me if I could get a clearance, and whether I was interested in front end or back end. Months passed, and I never received a rejection or any sort of reply.\n\nOn the other hand, it took me one hour to get an interview at a high valued tech startup. They gave me an interview that asked difficult questions related to tech and culture, and a Leetcode type problem to solve. I did it and next day got an on-site scheduled.\n\nWhat the fuck is wrong with big companies? All I know is my classmates got jobs at big companies, but they were barely motivated and did no non-school projects compared to me, and I have a low GPA while they have much higher GPA. The salary I would be getting is close to six figures in a super low CoL city.",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/68y4u8/why_do_i_get_denied_at_big_companies_but_get/",
+      "comments": [
+        {
+          "body": "FYI, your post doesn't actually have any questions that aren't rhetorical.",
+          "score": 6
+        },
+        {
+          "body": "Why do giant semi trucks take longer to accelerate than motorcycles? Inertia.\n\n&gt; What the fuck is wrong with big companies?\n\nWhy the fuck do you assume something is \"wrong?\" Nature works a certain way. There is a nature to corporations. Don't be so quick to assume that your brilliant insight is the one thing stopping a behemoth from running a sprint.",
+          "score": 5
+        },
+        {
+          "body": "Defense contractors are not representative for big companies (they tend to be even more bureaucratic). Big companies would at least formally reject you.\n\nYou didn't mention what school you went to and what your degree is. However, my experience is that larger companies tend to be more \"snobbish\" in the sense that they are more likely to require someone to come from a reputable school. It's a little bit like the old adage \"Nobody gets fired for buying IBM\" but with \"nobody gets fired for hiring out of MIT\". \nI went to a top school but some of the best programmers I know came out of less prestigious schools. They had to work much harder to get their first chance. ",
+          "score": 3
+        },
+        {
+          "body": "Because start-ups are more agile and work more quickly. They have less hoops to jump through and less bureaucratic nightmares to deal with. If everyone in your company is withing ball-throwing distance, it's easy to get stuff moving. This is one of the primary appeals of start-ups.\n\nLarger companies have more application submissions and more barriers to go through - in which case it's very easy for candidates to fall through the cracks.\n\nEDIT: This just sounds like low-key humble-bragging.",
+          "score": 2
+        },
+        {
+          "body": "Big companies have bureaucracy that can hold things up. Consider a manager in big company who has been working in the same group same job for the last 20 years and that's the best he has been able to grow up to-overseeing a few devs. There can be a lack of energy as a result to move fast.\n\nHi tech startups are fast-paced and want motivated people. a good interviewee that they like they'd decide on quick.",
+          "score": 1
+        },
+        {
+          "body": "Big companies take fewer risks? They prefer high GPAs? \n\nNot sure why it matters - if you are convinced they are hiring worse candidates why want to work there anyway? ",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Booz Allen",
+      "body": "Anyone ever apply to Booz Allen? I applied to a job and I heard back from the recruiter. She asked for my availability for an interview for the following week and said she would reach out again after talking to the team. But I haven’t heard back from her. But when I check the status of my application still says under review. Has this ever happened to anyone? What does this mean?  ",
+      "subreddit": "jobs",
+      "score": 0,
+      "url": "https://reddit.com/r/jobs/comments/1dx2spj/booz_allen/",
+      "comments": [
+        {
+          "body": "Just chill dude. It was a holiday.",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "title": "Recruiter contacted me said I lacked one skill from the job I wanted but would discuss other jobs in nearby cities and followup",
+      "body": "&amp;#x200B;\n\nBut nothing yet. The recruiter was from booz Allen. She said she'd call this week after discussing other positions with her team and call this week to set up a virtual interview at the same time we talked the first time. She even asked me if that was ok and it would be after memorial day since they weren't in the office last weekend. But it's been 8 days and nothing. What gives? Should I call or email back?",
+      "subreddit": "jobs",
+      "score": 4,
+      "url": "https://reddit.com/r/jobs/comments/v43hrq/recruiter_contacted_me_said_i_lacked_one_skill/",
+      "comments": [
+        {
+          "body": "Hello, thank you for posting to r/Jobs!\n\nWe just wanted to let you know that we have a new [discord server, come join the chat!](https://discord.gg/TY6ErXV)\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/jobs) if you have any questions or concerns.*",
+          "score": 1
+        },
+        {
+          "body": "Yes, call them back",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "BoozAllen No Offers for 2 YEARS! And Misc.",
+      "body": "Hi all, I have a BA in Government and Intl Politics since 2016, and I have been applying to Booz Allen as a \"consultant\" for the past two years with more than 200+ positions. Most of these are repost positions. I have experience with research, sales, and consulting.  I have been given 3 referrals, and reached out to my network for help, but still not a single offer. Whilst I have companions with the similar degree, have been hired and even with little experience. \n\nOther than that, I have only done 3 interview so far, and been declined. Constantly applying perhaps 5+ applications a day. Any thoughts on what to change? (i.e. networking, application, resumes)\n",
+      "subreddit": "jobs",
+      "score": 2,
+      "url": "https://reddit.com/r/jobs/comments/81kqod/boozallen_no_offers_for_2_years_and_misc/",
+      "comments": [
+        {
+          "body": "Things to change? \n\nstop applying to Booz Allen it's abundantly clear they're not interested in you for whatever reason.\n\nuse your time and energy to apply to other jobs.",
+          "score": 16
+        },
+        {
+          "body": "Well you could try applying to other companies for one",
+          "score": 5
+        },
+        {
+          "body": "What are you doing for work right now besides applying and obsessing for BoozAllen daily?",
+          "score": 6
+        },
+        {
+          "body": "BoozAllen is huge and they definitely use ATS software. I'd be doubtful your resume is even being seen by a real person. Reach out to your friends who were hired and get their resumes. See what the difference is. If you don't have the right key words you won't get looked at, simple as that in many cases.",
+          "score": 3
+        },
+        {
+          "body": "What matters is the type of experience they are looking for. \n\nHave you managed an end-to-end sales cycle for SMB/Commercial accounts? What is your average tenure at a company? How big are the companies you have worked for? What is their reputation like? \n\nLittle experience might mean they are easier to mold into the BoozAllen methodology or are avaliable for a much cheaper salary bracket. It could mean a lot of things.\n\nHave you ever worked in any kind of analyst role?",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Any tips for a Booz Allen interview?",
+      "body": "I’m screening with a recruiter on Monday this week for a Scrum Master position. Any tips are appreciated for both a potential interview and screening! Thank you all!",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/14owpgp/any_tips_for_a_booz_allen_interview/",
+      "comments": []
+    },
+    {
+      "title": "Booz Allen Blacklist?",
+      "body": "Hey everyone, Over a year ago I applied to Booz Allen Hamilton through an employee referral. I gave the person a few positions that I thought I was a good fit for (Management consulting) and I got a call from a recruiter about an IT position, the only kick is I have NO background in IT. I told the recruiter they had the wrong number, but the recruiter named my contact and we talked but I was so lost I think I gave the worst phone interview responses of all time. I was so caught off guard and just flat out bombed the interview the recruiter pointed out a spelling mistake and I don't remember my responses now but I remember the feeling the recruiter left with me. \n\nI felt that the recruiter was annoyed and thought *\"How did anyone ever refer this dumbass to any job.\"* It's been a year I have learned from that moment and honestly just think it was the worst I could have ever done in an interview. I have applied to job since with no luck even being referred to positions and I am wondering **\"Am I on a blacklist at Booz Allen.\"** I don't know if this is even a thing but got another referral and would hate for this to loom over me, a year and X months later. \n\nAppreciate any advice! ",
+      "subreddit": "jobs",
+      "score": 0,
+      "url": "https://reddit.com/r/jobs/comments/1e48lc8/booz_allen_blacklist/",
+      "comments": [
+        {
+          "body": "I don't know why so many people on this sub think that every company out there has a blacklist. This just ISN'T A THING.\n\n\nAnd even if companies DID blacklist people (which they don't), if a company put everybody who gave a bad interview on a blacklist, they'd never find anybody to work for them because the blacklist would be a mile long.\n\n\nSo no, you aren't on a blacklist, and you need to stop thinking that this is even a thing.",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Job hunting's getting harder, especially with regards to remote conditions due to COVID",
+      "body": "Gotta repeat that I'm Canadian, but I was born in the Philippines.\n\nI've gotten some work experience over time, including taking time off to be certified as an intelligence analyst done remotely. So I've considered careers in foreign/defense/security policy or intelligence analysis with a private company (Government also, but maybe if/when I can move back to Canada).\n\nI had a good (remote) interview with a think tank that has an internship for its Japan Security Policy program. However, I was told that I can't be considered anymore and they told me to apply again next year. It's a pit that I've applied to this think tank in the past and the interview a few weeks ago was my first breakthrough. \n\nOtherwise, I know the person's e-mail, assuming that she doesn't resign. This is one of the few that I applied without being taken into consideration of recent graduate status since I was able to finish my BA in 2018.\n\nThe (major) good thing that happened lately is that I've managed to build a sort of rapport with someone from Booz Allen who handles recruitment and can help recommend my resume/application. However, I don't have any security clearances (US/Canada), so I'm advised to look for jobs in BA (or in other companies that do need it) that either don't have them or have the condition that you can get a SC eventually. We talked once and I told him about the chance of working remotely. He just told me to just try if I can apply.\n\nI'm starting to be at a loss and feeling frustrated as I'm the only person in the family with no full time job unlike my two older siblings. I may have to go back and reapply to do my Masters in Singapore again after my dad said no due to COVID.\n\nOr maybe move back to Canada. At least my family name is not worth recognition there.\n\nGod knows what happens if my dad finds out that I'm taking another internship that's not paid.",
+      "subreddit": "jobs",
+      "score": 2,
+      "url": "https://reddit.com/r/jobs/comments/pcge2e/job_huntings_getting_harder_especially_with/",
+      "comments": [
+        {
+          "body": "Hello, thank you for posting to r/Jobs! \n\nWe just wanted to let you know that we have a new [discord server, come join the chat!](https://discord.gg/TY6ErXV)\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/jobs) if you have any questions or concerns.*",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Defense Contractors advertising for jobs when they do not have a position - FYI",
+      "body": "As background I have been applying for a job in the Washington D.C. area for the past nine months and have learned some from talking with recruiters from cleared defense contractors.  These are companies like - Boeing, Booze Allen, CACI, GE, etc., wherein the majority of their work is via contracts with the governement.  This is true for any place they are located - not just D.C.\n\nSummary - They advertise for job openings when they in fact do not have a contract nor a position to fill.  This happens a lot - not all the time.  This can be confusing and frustrating when applying for jobs.\n\nThe reason this is important to know is that you may be applying for a job that does not exist.  Be contacted by a recruiter and even have an interview.  Wherein NO current job really exists.\n\nSo a contractor will see an upcoming contract with the government.  They will bid for the contract - thereby hiring people to work on a specific job for the government.  To help bid and win the contract they will advertise for the positions need to fill the job.  Let's say \"computer programmer\" knowing that if they win the bid they will need 5 computer programmers.  Most of the time when searching jobs openings you will see \"computer programmer\" advertised with the company.\n\nThe company will then take your resume submitted for the job and use it to show the government that they have people available to hire IF they win the bid for the contract.  Now most of the time the contract will ask you and get your permission first, sometimes they do not.  It will help the company win the contract if they have a lot of supposed qualified employees ready to hire.  \n\nThe key when applying with a defense contractor is to ask the recruiter if it is a new contract and how long the contract is.  If it is a new contract or one they are bidding on it could take months, or not at all, for the job to materialize.\n\nFrom experience - I have seen one job advertised since June 2013.  As of today they still do not have the contract - yet continue to advertise for a job opening.   Another one - I was contacted in November 2013.  Interviewed and provided a formal job offer in December with a \"tentative\" start date January 15th.  As of yet the contract has not been finalized and they may start the job in mid-March.  They keep indicating it will be another two weeks or so.\n\nBottom line - just be aware that defense contractors sometimes advertise for jobs they do not have a current position for.   With that said they also advertise for jobs wherein they have a current contract and the position is currently open.  If that is the case you better be very aware of how long the contract is for and how much time is left.  You could be going to a location where they only have a year left on the contract - and you will be out of a job if they do not re-win the new contract.  \n\nHope this helps.",
+      "subreddit": "jobs",
+      "score": 5,
+      "url": "https://reddit.com/r/jobs/comments/1yt8s8/defense_contractors_advertising_for_jobs_when/",
+      "comments": [
+        {
+          "body": "I work for a government contractor. We have to do this quite a bit. Most of the time, the government requires that a proposal contain resumes of qualified individuals in key positions (Key Personnel is the term they usually use). Placing ads and getting resumes is a pain in the butt and unless it's required, we're not going to bother doing it. ",
+          "score": 3
+        },
+        {
+          "body": "[deleted]",
+          "score": 2
+        },
+        {
+          "body": "As someone whose primary interests lie in aerospace and defense, this is good to know but is very frustrating. This explains why all the positions ive applied to at Boeing havent changed status in the months since ive applied. It seems like it explains why these companies leave postings open for months at a time too. ",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1300 @@
+{
+  "company": "salesforce",
+  "post_count": 64,
+  "exported_at": "2026-01-18T17:44:53.302Z",
+  "posts": [
+    {
+      "title": "Is it a bad move to take a role that involves salesforce integrations?",
+      "body": "Basically, I might be starting a new role shortly with a tech stack of Node.js, React, SQL, and AWS, but apparently there is a significant aspect of it that involves salesforce integrations with the jsforce SDK. Essentially, we would be creating services / integration layers in Node that are responsible for syncing Salesforce related onboarding data with the core services. And some front end work in React to manage that part.\n\nFrom what I heard in the interviews, I wouldn't be touching any proprietary salesforce stuff, as there is a separate salesforce team that handles that. There would be collaboration though if there are potential issues in the salesforce side, so I might have to occasionally look at some apex code when talking with the salesforce devs. I'm not too worried as long as I stay a software engineer and dont get roped into salesforce land, but in terms of future job searches I'm a bit concerned that if they hear 'salesforce integration' in the interview when describing a recent project they'll run for the hills. Thoughts?",
+      "subreddit": "cscareerquestions",
+      "score": 4,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1q8k9zy/is_it_a_bad_move_to_take_a_role_that_involves/",
+      "comments": [
+        {
+          "body": "I worked on a project like this for nearly a year, it was an interesting time. Does the company have a dedicated Salesforce engineer? Otherwise, odds are good you'll be dragged into doing Salesforce dev work eventually, and that is not a fun time.\n\nAlso keep an eye out for whether you'll be working with a Salesforce consultancy firm. Salesforce consultants are terrible.",
+          "score": 8
+        },
+        {
+          "body": "I think it's fine. I've done a fair amount of sales force integration work alongside other normal full stack Dev projects at my current company. It's not like Salesforce is some niche company serving a small subsection of the market. They're nearly an industry standard in many categories and I think it's actually great for the resume to have Salesforce experience.\n\nIt wouldn't be a reason for me to decline a job.",
+          "score": 3
+        },
+        {
+          "body": "You won't know until you actually start, but if the stack is as they describe, it's probably fine. Salesforce devs can be paid a lot, but you're locked into their ecosystem, and I personally hated what the languages looked like.",
+          "score": 2
+        },
+        {
+          "body": "I work in a similar role now and it’s a slightly different stack but the job sounds similar. My org has dedicated teams for salesforce development too and while I have experience with Salesforce my current project is mainly aggregation and integration. I never touch anything on salesforce itself.\n\nAs far as integrating with salesforce goes it’s similar to any other service out there. The main challenge is when salesforce is having issues or you encounter a quirk in their product.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Cannot get anywhere with my degree",
+      "body": "Sorry for the depression post I need career advice,   \nAfter over 1500+ I cannot get a single non-startup interview it's gotta the point it's demoralizing waking up to 30 denials every morning. I've redone my resume 20+ times throughout the year gotten help multiple times on it and still nothing My employment gap just keeps growing bigger and all I feel like it's doing is getting worse as time goes on. I keep being told to work on projects study do Leetcode and something will happen but I can't even get past the first phase. My first job out of college was a Junior Salesforce Developer job and I was laid off after a year around late 2023. \n\nIs there anything else I can do with this degree besides development?\n\nI enjoy it the most and have a passion for it but it feels like if don't have connections or insane job experience you can't get anywhere. Kinda at the point where I would work for free if it would help me get somewhere but I can't take internships anymore.   \nIf anyone has any suggestions for a career direction I could take that would be nice you can also drill into me if I'm doing something wrong.\n\n  \n[Link to resume](https://docs.google.com/document/d/1BGH1XTqaicBPFoQnyNOoCN_erUvZRXtqagNZNCLBbX8/edit?usp=sharing)",
+      "subreddit": "cscareerquestions",
+      "score": 80,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1i8bv7y/cannot_get_anywhere_with_my_degree/",
+      "comments": [
+        {
+          "body": "I applied 2,500x since May and got 0 first round interviews. The market is catastrophic for new grads and people with &lt; 3 YOE, it is what it is. I'm trying to get minimum wage jobs.",
+          "score": 109
+        },
+        {
+          "body": "Why haven't you included Apex and Lightning Web Components and LWC (you have JavaScript skills), or even Visualforce? Keywords are key. You stated you were a Salesforce Developer but you need to emphasize you are a coder in Salesforce if you still want to work as a Salesforce Developer. ATS kicks resumes aside if certain keywords aren't there.",
+          "score": 36
+        },
+        {
+          "body": "Why do you specify the “School of Business” part? It’s minor but I’ve found that it’s extremely easy for people to have misunderstandings on your resume when they’re skimming 20 resumes per minute.",
+          "score": 11
+        },
+        {
+          "body": "Helpdesk. IT support. IT analyst.\n\nTry to take a more holistic path through the tech industry. \n\nBuild yourself a reputation of general technical competency. But also work on your own projects.\n\nI've heard quite a few stories of folks getting approached and hired based on their portfolios of projects and history of git commits on GitHub.\n\nBut until you're there, leverage your (hopefully) better than average knowledge of computers to help companies and their users with their break/fix issues and network maintenance\n\nI'm assuming you have a degree in computer science or development. I don't believe you specified that, though",
+          "score": 11
+        }
+      ]
+    },
+    {
+      "title": "Heartbroken and frustrated",
+      "body": "I read the rules and I don’t really know if this type of post is allowed but I just need to rant and let feelings out. \n\nI was laid off in February along with 100 other tech focused co workers. This was my first job out of college since being an intern. I worked on the CRM team or the “Salesforce” team... working on both backend services written mainly java and developing salesforce code with JavaScript. \n\nTruthfully I thought I was good at my job. I got promoted twice over the span of about 4 years, even though inside I hated it all. I always wanted more and my co workers were more “I work for the paycheck” kind of people... so if I wanted to do new things I had to just do it myself. Most of the time it ended up being something I learned/read about but never got to implement because there was no enthusiasm. \n\nLay offs aside, I figured this was a great chance to find something I truly wanted to do and make my next career move into a more traditional web development role. (If any of you know salesforce, it’s not very traditional and sets some limits on what is possible). So I took the opportunity to build on top of my JavaScript knowledge and just learn for about 2 months. There wasn’t much else I wanted to do. I took Udemy courses on JavaScript and react primarily and feel like I have somewhat of a good grasp on it. \n\nI then began sending out my resume and all looked promising. Had many phone calls with recruiters and those led to a few in person interviews but nothing has yet to stick. \n\nFast forward to today. I had (what I thought) was a very very promising interview last week. It was the 4th round after a tech screen leetcode type google hangout interview, followed by implementing something in react to then a 4 hour in person interview. I received an email from the HR recruiter say “i hope you had a great weekend, the team has made a decision and would like to setup a phone call for later this afternoon”. \n\nI did not want to get my hopes up but deep down I thought “hey there is no way someone would call you after saying some nice things and using exclamation marks to give you bad news”..... turns out, that’s exactly what happened.\n\nI literally started sobbing in my chair. \n\nI’m crushed. I’m sad. I feel nothing but dumb. \n\nAnd I just don’t know what to do anymore.  \n\nThe obvious answer here is... \n\n“well did they say why? Go take what they said and just go study it more”\n\n“Build more stuff”\n\n“Link your GitHub and contribute more”\n\n“Better your portfolio” \n\n“Freelance”\n\nThese are all obvious to me and maybe I want a pity party but maybe I don’t because only I’m to blame at the end of the day. \n\nI’m sorry my anxiety is flaring and this is really really hard. And I don’t even know if any of this is coherent to understand\n\nThanks for reading.",
+      "subreddit": "cscareerquestions",
+      "score": 766,
+      "url": "https://reddit.com/r/cscareerquestions/comments/bo9wgk/heartbroken_and_frustrated/",
+      "comments": [
+        {
+          "body": "It took me some time to learn this:\n\n1. You never get the job that you want.\n\nNot in the front half of your career, anyway. So don’t fall in love with them. Walking into an interview, I convince myself that I don’t even want the job (paradoxically this seems to increase offers).\n\n2. Great things can transpire at any job. \n\nSome of my best experiences befell at 2nd- or 3rd-choice positions. You don’t know what surprises may occur. “Bloom where you’re planted.” “Life is what happens when you’re making other plans,” etc.",
+          "score": 627
+        },
+        {
+          "body": "Honestly, if they called you after that much investment, I suspect it's because they were very impressed with you.\n\nI recognize it's kind of a shitty outcome, but understand that they wouldn't have considered doing that if they weren't impressed.\n\nYou're not the only impressive candidate, and they actually had a better one, but there aren't many and you're high on the list.\n\nKeep at it, you'll find the right opportunity.",
+          "score": 436
+        },
+        {
+          "body": "lol the same exact thing happened to me bud.  it hurts like hell.  honestly i'm in a bit of a rut ever since.  Recruiter let me know on a friday night \"the team has made a decision, will you be available monday?\"  i got excited AF and said \"you're damn skippy i'll be available\".  She left me in utter paralysis all weekend just to call me and say \"They decided to pass on you\".",
+          "score": 65
+        },
+        {
+          "body": "I hate it when HR people do that phone call thing.\n\nWhen I graduated I had an interview at my #1 choice company. I tried not to get my hopes up and just do the interviews. I nailed the first interview. It's still the best interview I ever did, a great interviewer and his interview style was perfect for my personal strengths. They were impressed and I moved onto second round.\n\nThe second round was the worst interview I've ever had. Interviewer was worthless imo and the interview style was exactly what I struggle with. Knew I'd bombed it and lost my chance so I tried to learn lessons from the experience and move on. \n\nThen the stupid recruiter emailed me wanting to setup a call to discuss the results and moving forward or some nonsense. My instinct was to just refuse and tell them to email me any feedback they have. But I was naive and still had a tiny spark of hope, so I setup the phone call. Phone call was a huge waste of time and only served to further crush my spirit.",
+          "score": 31
+        },
+        {
+          "body": "[deleted]",
+          "score": 80
+        }
+      ]
+    },
+    {
+      "title": "Salesforce intern interview",
+      "body": "Hi all. I was wondering if anyone here has interviewed with salesforce (preferably in Boston). I passed a phone interview and have an on site on tuesday that should take 2 hours. Just wondering what kind of questions I should be preparing for. The internship is for the java back end on commerce cloud if that helps at all",
+      "subreddit": "cscareerquestions",
+      "score": 1,
+      "url": "https://reddit.com/r/cscareerquestions/comments/633o9m/salesforce_intern_interview/",
+      "comments": [
+        {
+          "body": "Nice, I suggest checking Glassdoor for salesforce intern interview questions to see what others have reported.  I use it to help prep for the phone and on-site interview.\n\nAlso, if you find out who the interviewers are... do a little digging on LinkedIn to find out more about them as well.\n\nFind out as much info about Salesforce as the interviewer will ask about what you know about the company and what they do.\n\nI went through the SFDC interview process for a Solution Architect position and did the same prep process.\n\nGood luck!",
+          "score": 1
+        },
+        {
+          "body": "What was your first interview like? What kind of questions did they ask you? I have a interview coming up a internship interview as well but not at Boston so I was wondering what the questions were like.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Any advice for getting an entry-level job these days?",
+      "body": "I’ve been trying to find a position for a recent grad (I finished my Bachelor’s in December) and it has been really rough.\nI feel like there are crazy requirements that you only get through working (salesforce technology, certain cloud technologies, that sort of thing).\n\nIs there anything I can do to boost my resume or places I should look at specifically? I know one other person in the industry, so anything would help.",
+      "subreddit": "cscareerquestions",
+      "score": 267,
+      "url": "https://reddit.com/r/cscareerquestions/comments/w9p5ds/any_advice_for_getting_an_entrylevel_job_these/",
+      "comments": [
+        {
+          "body": "1. Improve Resume\n2. Improve Interview skills (coding, behavioral) \n\nThen just keep applying. Months may go by, hundreds of applications may be submitted, but you have to keep applying. If you don’t get bites, work more on 1. If you keep failing interviews work more on 2.",
+          "score": 267
+        },
+        {
+          "body": "1) post anonymized version of your resume so people can give you suggestions.\n2) have you been doing leetcode/ hackerrank?",
+          "score": 40
+        },
+        {
+          "body": "I'm fully self taught and got a job as a full stack dev in a competitive city. No network or anything either.\n\n I can give you a few tips.\n\n1. Resume, first part of getting an interview. The r/resume and r/engineeringResumes are great for getting feedback. \n\n1a. Make sure your resume is only 1 page if going for entry/Junior roles. Skip the professional summary, they won't read it most likely. Use a pdf and have a link to your portfolio. As well list projects you've worked on with a few bullets for each, having a github link (and if possible live demo link) are nice to add. But keep everything looking professional. \n\nDon't use any photos or graphs, make sure it is all one column and not too dense. Remember the easier a recruiter can find what they're looking for, the happier they'll be.\n\nFor tech skills, section them -  languages, libraries and frameworks, other ... etc... \n\nUse those sub reddits I mentioned to get reviews and such, it'll help a lot.\n\n\n2. In interviews make sure you're eager to learn and showing that. Show you're easy to work with and can take constructive criticism. Be friendly. Have questions after the interview, shows you are genuinely interested. Google questions to ask after a tech interview if you need some to get started. \n\n2a. Be ready to talk about your projects and complications you ran into while building them.\n\n2b. Be ready for the tech interview, leetcode is good. If you're not educated on DS and algos use YouTube and look at freecodecamps DS and algo stuff, there is tons of other free resources too.\n\n\n3. Never give up and keep applying. You can tailor your resume if you want, I rarely did and didn't have issues getting interviews fortunately. Don't go crazy with it. But many recommend it. It has helped me in the past I won't lie, not a ton but if you're not getting any type of interviews it's worth a shot.\n\n4. Recruiters will ghost you, they're known for it. They'll say they won't or they talk it up like they already got an interview lined up for you and then ghost you. It's not just you, happens to everyone. Don't let that get you down, just keep pushing forward and applying! \n\n(The Recruiters I'm talking about are ones with recruiting firms. If someone from a company you applied to reaches out for an interview, it's unlikely they will ghost you.)\n\nBest of luck, keep pushing forward, you got this!",
+          "score": 36
+        },
+        {
+          "body": "Graduated in May, following this thread because same deal lol.",
+          "score": 44
+        },
+        {
+          "body": "Post your resume so we can roast it",
+          "score": 7
+        }
+      ]
+    },
+    {
+      "title": "Does anyone work at Slack?",
+      "body": "I'm wondering what working at slack is like? I know it was purchased by Salesforce a while back and I'm curious if the work culture is good/bad or what. I'm in the interview process for a developer role there after being referred by a friend who works for Salesforce (so he can't answer my questions about slack culture just SF over all)  \n\n\ncheers",
+      "subreddit": "cscareerquestions",
+      "score": 308,
+      "url": "https://reddit.com/r/cscareerquestions/comments/17pyswo/does_anyone_work_at_slack/",
+      "comments": [
+        {
+          "body": "No but I slack at work.",
+          "score": 1140
+        },
+        {
+          "body": "Friend of mine worked there before and after the salesforce takeover. Said the culture went to dogshit after the acquisition — very stressful and toxic place unlike the previous environment. He left pretty quickly.\n\nHave another friend that works for Salesforce itself. Says similar things so it doesn’t surprise me.",
+          "score": 83
+        },
+        {
+          "body": "I interviewed with them in early 2022 but rejected the offer as a FAANG adjacent company offered me more TC. \n\nThe interview process was actually pretty decent. 3 tech rounds and 1 with manager. 2 leetcode style questions and 1 system design. A lot of talk about what I had worked on as well. The interviewers seemed happy and pretty supportive when I was solving the questions. \n\nFWIW I’m in Canada.",
+          "score": 308
+        },
+        {
+          "body": "My least career driven friend is a PM there. He said the only person he knows who cares less about their career is his boss at Slack. Lol.",
+          "score": 167
+        },
+        {
+          "body": "follow up question if you work at slack (and what I thought this post was gonna be about)\n\nwho the fuck came up with your new UI. it's a heaping pile of garbage.",
+          "score": 22
+        }
+      ]
+    },
+    {
+      "title": "Where do I go from here?",
+      "body": "I mostly just need to vent, I really am not trying to sound too whiny but I feel so lost right now.\n\nI just got laid off from my first job out of school. I am a Physics/Math undergrad (big state school, double major) who decided and pursue a career in tech rather than go to grad school. While I wrote some python and matlab for my classes, I never had any formal software development coursework. I got a job at the ground floor (under 20 employees) at a startup. The original gig had the title Data Analyst, but it was really glorified data entry, throwing data into salesforce, sending to 3rd parties, even sent out invoices before we had an accountant (CFO was too busy). I wrote some python scripts here and there to automate some of the tasks that needed to be done. This was noticed when the company got acquired and I got a promoted to software engineer. We hired 2 senior guys and they helped me transform my code into robust APIs that became the backend for a company portal. My old code was garbage and I know that now, but it worked, and I learned how to improve it (DRY, refactoring, readability/maintainability/reusability). I got introduced to unit tests, functional and integration tests, git, jira,  serverless, AWS. I even picked up some new skills like terraform, wrote some cypress tests for a react app (0 experience in js, just figured it out bc it was assigned to me), read a book on domain driven design, and really developed a passion for writing clean code. It’s almost satisfying like writing a elegant mathematical proof (or at least python is for that matter) \n\nWell yesterday we had a 25% reduction company wide. They had to let 3 engineers go and it seemed they prioritized years of experience over seniority with the company. I have savings as well as severance, and I can file for unemployment, but I can’t get over the fact that everything that I helped build was just ripped away from me. I cried when they locked me out of our github org. I feel better than I did yesterday, but I feel so scared for whats next. I dont have a CS degree, never had to do a coding interview, like I dont even know what a binary tree is, let alone how to solve a LC problem using one. I feel like there are huge gaps in my knowledge, I only have 1 yoe as an engineer, and I wanted to learn so much more before moving on. One of the seniors called and told me he would help me by giving a mock interview but I don’t want to waste his time, as he has a lot more work on his plate now. I have been bombarded with messages all day from ex-coworkers telling me they will miss me, to use them as a reference and it all just makes me feel more sad. I know I will get over this, but I still worry I screwed up one of the best opportunities to ever fall in my lap. I just want to curl into a ball and die\n\nEDIT\nThank you to everyone for the support, reading the encouragement has really been helping me feel a lot better. A good nights sleep can really do wonders. \n\n\nA few things I want to clarify from reading some of the messier comments:\n\nI cried at the symbolism of getting locked out of gh because it really drove it home for me that this was happening, not because I couldn’t finish my unit tests or something. If someone does show that kind of attachment, that is not healthy.\n\nEveryone needs/can benefit from therapy. Getting Therapy ≠ having a mental illness. I was in therapy even before I received this news. I scheduled an extra session the day after I got laid off. \n\nAlso bc I might not have been super clear, when I say 1 yoe, I meant as an engineer, was with the company for a little over 2 years but I was only an engineer since March 2021. Does not change the advice that was given, but I love to nitpick :)",
+      "subreddit": "cscareerquestions",
+      "score": 625,
+      "url": "https://reddit.com/r/cscareerquestions/comments/vuoppe/where_do_i_go_from_here/",
+      "comments": [
+        {
+          "body": "Your worth isn't defined by your job. Your story is just beginning.",
+          "score": 712
+        },
+        {
+          "body": "[deleted]",
+          "score": 635
+        },
+        {
+          "body": "I’ve built teams from scratch many times. I really like getting folks like you on a team. Your solutions tend to be both practical and realistic. That’s a big win. \nOne of the best software developers I ever hired had a degree in anthropology. Like seriously— pottery shards dug out of the desert.\nYou have a STEM degree. You have excellent practical experience. You can *demonstrate* a willingness and desire to learn on the job. You have tremendous potential.\nTake up every offer from friends. Ask for mock interviews. Ask for referrals. Ask them to review your resume! You were well liked. THAT IS GOLD.\nIf I was building a team right now, I’d hire you.",
+          "score": 200
+        },
+        {
+          "body": "Companies are currently reducing staff drastically due to the current market, they believe we are headed to a recession. You were just cut based on some arbitrary filters someone decided on due to being instructed to cut staff to reduce spending. none of that is reflective of your ability. So don't take it personal, even tho it feels like it. Just keep doing what you were doing, take advantage of those references and be open to why you are looking for a new position by explaining staff reductions took place due to company financials and nothing more, hence your references from the company that you can use to your advantage. You don't need a Cs degree. You have a degree. That's all ppl care about. Some ppl don't even have that. You're already ahead",
+          "score": 55
+        },
+        {
+          "body": "So what you're saying is you have a double major in two rigorous disciplines, have a year of real work experience where many if the rookie mistakes were already made and learned from, and that was at a small company that assuredly didn't give you FAANG levels of comp, and now you're looking for anything to pay the bills?\n\nYou're not in danger of being unemployed. You're in danger of being taken advantage of.\n\nStart applying. Sure, learn some data structures and algorithms (google; loads of resources), but plenty of places don't ask questions around that at all. You're too junior for system design to be a major consideration, though if you want to seek out some resources there too it won't hurt. Update your LinkedIn and resume as others have said, and just start looking and applying. Check LinkedIn jobs daily; anything new that you have 60% of the reqs for apply to.",
+          "score": 87
+        },
+        {
+          "body": "Getting laid off after a year is not that unusual, especially in less than stellar times (like now) where newer folks often have to put in time at mediocre companies that overhire or fold or whatnot.  It happens to the best of us.  It sucks.  \n\nYou’ll be sad for a bit, then you’ll start interviewing, you’ll fail and feel frustrated, then you get hired.  Its ok. Sucks but part of the game.  It’ll be ok!",
+          "score": 34
+        }
+      ]
+    },
+    {
+      "title": "Hesitant on pursuing interview process for a salesforce developer, can any current devs tell me your experience?",
+      "body": "I'm a recent CS grad (took a few months off but Im job hunting since Nov) I've sent out around 50 applications, only resulted in 5 interviews, one of which is for a salesforce developer position. I'm hesitant to continue with it as I'm in the round where we had to create an app using Salesforce and I'm finding the entire system just terrible to work with, let alone develop upon. From what I've read people who are used to developing in Java etc (as am I) have found salesforce to be a pain to develop with and hate their job. The only reason I'm still considering this position (and why I applied in the first place) was because of the company culture and people there - everything seems great, except the actual work it seems. I can put up with front end dev work, but this platform is too much (in a bad way). Plus they are a consulting company, and some glassdoor reviews mentioned a lot of unpaid overtime so I'm not thrilled about that either. I just don't want to get pigeonholed into this as I'm not passionate about salesforce or front end dev really, and besides working with Apex, javascript is up next in the SF dev toolbox. I'm getting desperate from not finding jobs or even landing interviews for that matter, although I've had two co-ops at well known companies and so I'm trying to be less picky as a new grad, but from what I've read and what I'm experiencing (literally a few days developing on SF and i dislike it) it doesnt sound like a good path to take unless I want to be locked into the CRM/SF space, which I dont. Can any salesforce developers tell me about your education and how you find developing with the platform? \n\ntl;dr New CS grad, no luck finding a job yet, bad reviews and frustrating few days working with SF is making me reconsider following through with the interview process. Please share your experience as a SF dev. ",
+      "subreddit": "cscareerquestions",
+      "score": 3,
+      "url": "https://reddit.com/r/cscareerquestions/comments/5o2lq8/hesitant_on_pursuing_interview_process_for_a/",
+      "comments": [
+        {
+          "body": "Not a Salesforce dev but...\n\nno offers == can't pick and choose",
+          "score": 3
+        },
+        {
+          "body": "Salesforce is one of the most important companies when it comes to actually being able to sell to clients. It's the place sales people use. Period. If I have an order for a fleet of planes I can collaborate with loads of suppliers to cleave competitive bids and it's capacity to help with lead generation and prospecting is invaluable. \n\nTop Dev groups/consultants  in salesforce make fantastic money. But this is an area where you have to interact with clients ALOT. It's super competitive and any consulting shop lives and does by billable hours. \n\nI worked for a Dev shop that built a bunch of applications for the app exchange and helped startups that didn't have technical teams to scale ans build. \n\nAt the end of the day it's very different to develop for a platform than it is to build the platform that people use. Sounds like you want to build . That's good and you can say no. Or you can take the role and keep looking. ",
+          "score": 1
+        },
+        {
+          "body": "So, this is a job as a salesforce dev but not with Salesforce.com?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "anyone interview @ salesforce for an internship?",
+      "body": "what's the 2nd round interview with a hiring manager like? ",
+      "subreddit": "cscareerquestions",
+      "score": 9,
+      "url": "https://reddit.com/r/cscareerquestions/comments/5c8wp9/anyone_interview_salesforce_for_an_internship/",
+      "comments": [
+        {
+          "body": "Hiring managers are going to be behavioral. Often their interviews aren't technical and they're there to make sure they can trust you as a person to work as part of a team.\n\nThis is also a question you can ask your recruiter to verify.",
+          "score": 2
+        },
+        {
+          "body": "I got a lovely automated rejection",
+          "score": 2
+        },
+        {
+          "body": "I interviewed there a few weeks ago and it was pretty straightforward. There was a small technical portion to the interview but overall they just wanted to see your strengths and interests to see which team you would be a fit for. I was interviewing for an infrastructure position but I imagine all the interviews will be similarly structured.\n\nGood luck with the interview!",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Salesforce internship interview coming up. How to prepare?",
+      "body": "Hello\n\nI have an upcoming phone interview with salesforce. How difficult are the questions asked in this interview? Are they leetcode easy/medium or hard?",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/5qzi2f/salesforce_internship_interview_coming_up_how_to/",
+      "comments": [
+        {
+          "body": "[deleted]",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Got an invitation for an on-site interview at Salesforce. What can I do to prepare for the interview?",
+      "body": "I submitted my resume directly to Salesforce job site a few weeks ago. I've already gone pass the phone screening with a tech guy. We did some online whiteboard coding and chat for about an hour. I was told, by the cooperate recruiter, that the guy who interviewed me said good things about me (or maybe they are just blowing smoke up my ass, I don't know). \n\nAnyways, I got an email today from the recruiter saying they want to bring me in for an onsite interview. Really excited but not sure how to prepare for it. Does anybody have any experience interviewing Salesforce? What kinda questions do they usually ask? How should I prepare?\n\nEDIT: The position is Software Engineer.",
+      "subreddit": "cscareerquestions",
+      "score": 4,
+      "url": "https://reddit.com/r/cscareerquestions/comments/q9bf4/got_an_invitation_for_an_onsite_interview_at/",
+      "comments": [
+        {
+          "body": "Nobody? \n\n^^^^I ^^^^is ^^^^sad ^^^^daddy ^^^^:(",
+          "score": 2
+        },
+        {
+          "body": "Never interviewed with Salesforce, but I interviewed with a company that created CRM software and from a quick search, Salesforce seems to do something similar.\n\nCRM is just another way of saying, \"We use databases\". So, I would study SQL. Know that you can get the last row inserted/updated from a function call (as opposed to doing a SELECT for the row you just inserted). \n\nStudy on how to effectively design a database. Or rather, accept that there is no perfect way to design a database, but be ready to identify the options available to an interviewer (bonus if you know the word 'denormalize' and know why it is necessary for large CRM databases). The primary focus of my interview was databases, SQL and OO design.\n\nOther than that, know the ins and outs of your resume and have a large number of questions prepared to ask them (what software methodologies do you use... what's the culture like... I heard about XXX in this city, is that a pretty popular place... etc).",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Salesforce amts process",
+      "body": "Hi, has anyone interviewed with Salesforce for the new grad amts role recently? I had my r1 just before holidays and my recruiter has been very slow to respond. He mentioned I had positive feedback. What would the next step be? \n\nThe thing is he mentioned my start date is in feb which is approaching soon so idk if I’m being soft rejected or still in the process. \n\nAny insight from Anyone who has interviewed with them or is at the company would be super helpful!",
+      "subreddit": "cscareerquestions",
+      "score": 1,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1qdsykt/salesforce_amts_process/",
+      "comments": [
+        {
+          "body": "[removed]",
+          "score": 1
+        },
+        {
+          "body": "[removed]",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "I got rejected in a weirdest way. Anyways how's you day going?",
+      "body": "I applied for a roles that has the following requirements:\n\n* Minimum 2-years’ experience in Web Design across mobile and desktop devices.\n* HTML/CSS\n* JavaScript (or JavaScript based framework)\n* Understand basic concepts of SQL.\n* Excellent communications skills.\n* Attention to detail.\n\nI tailored my CV and cover letter so that it would reflect more on my front-end experience rather than back-end experience.\n\nI got a call back, and then a pre-screening interview. Then after a month, I got a email saying:\n\n&gt; I am sorry but job role has changed to more of a back-end PHP developer role with experience working with 3rd party APIs. Desirable skills will be working with Salesforce – I don’t see much of any of this on your CV so I won’t be able to progress on this occasion – I am sorry. \n\nAwesome!!!!!",
+      "subreddit": "cscareerquestions",
+      "score": 190,
+      "url": "https://reddit.com/r/cscareerquestions/comments/12x8338/i_got_rejected_in_a_weirdest_way_anyways_hows_you/",
+      "comments": [
+        {
+          "body": "At least they offered an explanation, the vast majority of companies won't even do that.",
+          "score": 428
+        },
+        {
+          "body": "If you have PHP and Salesforce experience, update your resume and send it back. Explain you were tailoring your resume.",
+          "score": 80
+        },
+        {
+          "body": "I had an interview for an ENTRY LEVEL application analyst position. The boss man interviewing me told me “You’re gonna have to know excel for this position…do you know it? Because I had to teach someone excel and they always asked questions and I’m not doing that again”.\n\nThe interview ended 15 minutes early and I was the only one talking during it. Companies are weird and unprofessional sometimes man",
+          "score": 34
+        },
+        {
+          "body": "This is why I don’t believe in “tailoring” my resume to the role. Actually when I applied to my current company, I applied as a quant. I also have Data Science experience (and actually prefer data science but I was struggling to find a company that would sponsor). Anyway, the HR person who handled my resume said I had been rejected for the quant role, but they actually have a data science role opening next week that she thought I’d be perfect for (based on the data science work on my resume). And this is my current job (and I love it!). Don’t overly tailor your resume so that it excludes your other skills and experience.\n\nI leave the tailoring to my cover letters (if I’m not being lazy and actually submit one)",
+          "score": 65
+        },
+        {
+          "body": "If they really sent the email, just like that word for word then you dodged a bullet.",
+          "score": 93
+        },
+        {
+          "body": "At least an actual human interacted with you",
+          "score": 10
+        }
+      ]
+    },
+    {
+      "title": "Thoughts on a job that involves integrating / syncing with salesforce?",
+      "body": "I am starting a new job soon that utilizes Node, Nest.js, JSforce SDK (this is where we will be calling the API for salesforce data), SQL and some AWS / React work to configure / manage the integrations. The application is basically a middleman for syncing / managing data between the core platform and the salesforce side of the business. From what I heard in the interviews, there isn't going to be any interaction with proprietary salesforce tools as there is another team that handles that, which is the main thing I was worried about.\n\nI'm a bit concerned because I've heard some horror stories of salesforce integrations in the past, and am not familiar with the platform or what the pain points might be. Wanted to hear from people who have done this before.",
+      "subreddit": "cscareerquestions",
+      "score": 2,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1plxhvz/thoughts_on_a_job_that_involves_integrating/",
+      "comments": [
+        {
+          "body": "You are right to be wary of getting roped into a Salesforce developer role but it sounds like you will be working on middleware so not a problem.\n\nYou will basically be interacting with REST endpoints most likely.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Big 4 Discussion - November 11, 2018",
+      "body": "Please use this thread to have discussions about the Big 4 and questions related to the Big 4, such as which one offers the best doggy benefits, or how many companies are in the Big 4 *really*? Posts focusing solely on Big 4 created outside of this thread will probably be removed.\n\nAbide by the rules, don't be a jerk.\n\nThis thread is posted each **Sunday and Wednesday at midnight PST**. Previous Big 4 Discussion threads can be found [here](https://www.reddit.com/r/cscareerquestions/search?q=Big+4+Discussion&amp;restrict_sr=on&amp;sort=new&amp;t=all).\n",
+      "subreddit": "cscareerquestions",
+      "score": 12,
+      "url": "https://reddit.com/r/cscareerquestions/comments/9w1vx3/big_4_discussion_november_11_2018/",
+      "comments": [
+        {
+          "body": "Super fucking excited. Just got an offer for a data science internship at Microsoft. This was my first time interviewing at one of the big 4 after experiencing a lot of rejection from a ton of less known and less presitigeous places. Im still in disbelief. They scheduled my flights to I got into Seattle at 2 am and interviewed at 7 that morning so I was like dying but somehow it worked out. Can't wait",
+          "score": 10
+        },
+        {
+          "body": "Does anyone know the interview process for Google this year? A friend and I both completed the online coding snapshot. He got immediate onsite which was four (hard) interviews. I have only had two phone interviews, and the recruiter let me know that they'll let me know about next steps in a couple of weeks. I'm so confused as to why it would take so long, and how many more interviews I will need to do.",
+          "score": 1
+        },
+        {
+          "body": "How rigorous is Facebook going to perform their reference/background check? I just want to make sure I have everything ready when they ask for verification.",
+          "score": 1
+        },
+        {
+          "body": "Anyone know the turnaround for Google Engineering Practicum? submitted my app October 31",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "What I learned after applying to a ton of jobs, browsing this subreddit constantly, and getting an offer.",
+      "body": "This is more of some perspective and less of advice on how to pass your interview. \n\nFirst thing first, you quickly realize when you start applying for jobs is that the vast vast majority of CS jobs are enterprise/business products you probably couldn't care less about. If you're like me, that's pretty disheartening. No one really tells you that shit. You take Calculus, Physics, AI, Operating Systems, etc and think about all the cool technology and think \"Wow I'm in CS. I can do anything!\". Then you search job ad to job ad, accept your fate and shotgun apply everywhere.\n\nThen you think about all the big shot software companies you still have a shot at that will save your meaningless life slaving away working for products you don't care about. Yeah, that's pretty funny. I might get some shit for this, but I don't think the big N companies are fundamentally different than the rest of the crap you thought were boring. Really, they're just the biggest and most successful of those.\n\nFacebook is a social media site that stalks users for information to serve ads while they browse dank memes and news breaking buzzfeed content.  \nAmazon is predominately an online retailer.   \nPinterest is a site primarily women use to look at celebrities, hair, food, etc (I don't really know).  \nUber is basically a taxi service.  \n90% of Googles revenue comes from serving ads.\nAirbnb is a site for booking rooms.  \nTwitter is another social media site where people post insightful text messages and follow blobs of their favorite celebrities.  \nSnapchat is mostly a platform for sending silly pictures, selfies, nudes, and dog faces.  \nDropbox lets people store files  \nSalesforce does \"customer relationship management\" which is a fancy way of saying \"Helps other boring businesses manage their customers\".  \n\"your favorite game company\" still an enterprise software at its core and working there isn't going to look very different than anywhere else.\n \nTechnology wise, there's certainly a ton of interesting things happening, especially when you need to scale your services to hundreds of millions of users. These are all amazing opportunities for your career, just realize what it is you're getting or not getting. Your role at any of these places is going to be to advance these products. If you seriously care about that, awesome. Otherwise, pretend the millions of data you're sending is telemetry data for a spaceship. In the end, I think work anywhere looks more or less the same. Even after the initial excitement of working at Google oh ma gawd, or even NASA or whatever, what's its going to reduce down to is mostly the same work, and consequently what were most likely going to be caring about is ourselves, our lifestyle, our ability to buy a house, our retirement, wife, kids, etc. \n\nNow, being realistic at where most of us will work, this is an amazing career. Even on the low end, new grads make much more than the **household** median income and really more than pretty much any BS grads. We require only a BS degree and don't even need anything past that for advancement (we even discourage it!). Our salary caps/advancements are amazing. We can easily get jobs that don't require overtime. The work is mostly stress free. Where we want to college or how well we didn't barely even matters. Other professions that pay this much/more (lawyer, doctor, finance, etc) are extremely heavy on your past accomplishments (pretty much back to start of High school), require extensive post graduate schooling and debt (especially bad for doctors), are far more competitive, and require far more of a work load. \n\nThe place I accepted an offer from is one of the most uncoolest sounding places you can think of. Their product is digital now and is essentially a much less popular version of a popular company. The pay was good, location is great, and the team looked pretty great. The place I was interning at and could of worked at was a big digital entertainment company. Again, good pay, lot of learning opportunity, great team. There's a ton of stuff outside of the big N. \n\nPlus, wherever you end up working, its just the start of your career. \n\n**interview advice:**\n\n1. Interviews suck. Having random people call you on the phone, and answering a random technical question for them while knowing they're trying to judge exactly how much of an idiot you are isn't exactly a natural event. Oh and your life depends on it, sorta. Its something you need practice with to get accustomed to how weird it is. Just deal with it. \n\n2. Practice leetcode CTCI, bla bla. These questions are all pattern recognition. There's lot of patterns in the questions. I can post about this a little more extensively, but heres a short example. You're given a sorted array and have to solve something. They say it requires Lg n complexity. This should immediately signal \"Binary search\". One thing that also helps a ton is always asking \"If I had the solution to the subproblem, could I get the solution to the larger problem?\" and I start with small examples here. \n\n3. **If you get a question wrong or could have answered better, look it up after the interview**. This includes behavioral questions. You're pretty much guaranteed to get asked something you've seen before. If you get asked something about memory management or multi threading, you bet your ass another company is planning on asking something about it too. \n\n4. \"I got an offer but I might get / got a better one\". Try to get an extension but if you can't get it, accept it. If you get the better offer, just say something came up and you're no longer able to start. Its kind of shitty but for all they know you have to move to Canada. Quitting before you start and inconvenicing them slightly to find another candidate makes more sense than being miserable for a year because you took the wrong job. It sucks for them too if you're going to be unhappy and quit after a while.\n\n5. Interviews are both ways. Don't be afraid to ask questions about things like work life balance. Just don't be rude obviously. \n\n6. \"Why am I not getting any interviews\"? or even if you're not asking that, get your resume checked holy shit. Almost every time someone says that then ends up posting their resume, there's a bunch of improvements to make. Look, resumes suck too. Everyone has different opinions on what's the standard. Sometimes, two managers will think of two opposite things as the no nos. One will say \"leave off your github unless its something you want me to judge you on. if that's something you want to present yourself with, it better be good.\" and another will say \"put your github anyway just so we can see you did some stuff\". Oh, don't put stuff like self ratings, or stuff like \"strong team player\", that's something we can all agree on. \n\n\n\n\n\n\n\n\n\n\n\n",
+      "subreddit": "cscareerquestions",
+      "score": 340,
+      "url": "https://reddit.com/r/cscareerquestions/comments/58s0st/what_i_learned_after_applying_to_a_ton_of_jobs/",
+      "comments": [
+        {
+          "body": "I think you're right in that even the companies idolized here tend to employ the vast majority of their engineers in working on boring projects.\n\nThe difference I see though is the environment.\n\nDoes your company actively hinder you every step of the way on a project with layers of bureaucracy, making you justify your existence because you're an evil cost center, while asking you every day \"are you done yet? Are you done yet now? What about now?\"\n\nOr does it give you access to all the resources (within reason of course) you need to get your work done?\n\nMy goal is to get into a company in the second category.",
+          "score": 85
+        },
+        {
+          "body": "I gotta say,  I didnt get into any of the 'Big N',  but prepping for them and using advice from this sub has made all other interviews so far a breeze.  I've been told my first offer is being prepared,  and even though it's my last choice (waiting on some others) , it's nice to think that my worst case isn't being jobless after graduating now. ",
+          "score": 30
+        },
+        {
+          "body": "While this is negative, I had very similar sentiments after completing an internship at Facebook. About two months in, I sat down and had to ask myself, is this really it? This is a dream company? To work 9-5? \n\nAnd I realized two things. One was that there are far worse working opportunities and to have my work day blaze past me because I was engrossed in my work was a blessing. I have little context on what it would be like to work at a mind-numbing job for longer, and I took all my benefits and perks for granted.\n\nThe second one was even better - I discovered a passion for music production and now I work as a means to pursue some other creative outlets. With the right team at a large Big 4 I think it's probably the best you'll ever get to be able to earn a lot, work regular or sub-8 hours, and be able to go home and do the stuff you want to do. Now I'm actually getting into a dream zone, where I can work on artistic projects without the fear of finances and yet can still enjoy my work.  \n",
+          "score": 28
+        },
+        {
+          "body": "&gt; you quickly realize when you start applying for jobs is that the vast vast majority of CS jobs are enterprise/business products you probably couldn't care less about\n\nI actually like the fact that I don't have to remember most of the complicated stuff from calc III or linear algebra or physics or AI.\n\nSome businesses and industries definitely have more of a learning curve than others, but most of them give plenty of opportunities for learning how it works.\n\nLearn the business, make the business work better, and get paid.\n\nRepeat until you want to learn something new, or have saved enough money to retire.",
+          "score": 11
+        },
+        {
+          "body": "I'm perhaps a bit more experienced on the job circuit, and everything you said is on point.  Specifically the interviews suck &amp; practice CCTI type questions.\n\nThe only thing you missed, IMO, is:\n\n**Networking**\n\nAlways do a good job, regardless of pay or other complaints.  No one knows the reason you're doing a shit job is because your unhappy with work.  Work smart, not hard.  Have a reliable work ethic, but GO HOME and GET SLEEP.  Avoid any late/weekend work.  People respect skill and attention to detail far more than someone who works ridiculous hours.  \n\nMake friends with coworkers.  Eat lunch with them.  Take jokes with good humor.  Be friendly even with those who annoy the fuck out of you.  Over time these people change companies, and when a position opens up that fits your skillset, they'll recommend you.  When you need references/recommendations, they'll be good for that as well.\n\nGo to meetups where each meetup is focused about learning something.  I regularly go to a meetup where the content is a bit too advanced, but I \"get it\" later.  I've also met a lot of people in the industry, and get the inside scoop of what it is to work at various companies, as well as awareness of who is hiring.\n\nHave personal business cards (I need to do this), and have the back blank so you can write on it.  Have a LinkedIn, and keep it relatively up to date.  I accept all connection requests; currently I have over 600 connections.  If I ever think about applying somewhere, I can often search my email and find one from an internal recruiter, and just hit reply.\n",
+          "score": 8
+        },
+        {
+          "body": "&gt; Even on the low end, new grads make much more than the household median income and really more than pretty much any BS grads. We require only a BS degree and don't even need anything past that for advancement (we even discourage it!). Our salary caps/advancements are amazing.\n\nYou need to make it clear that this is specific to the US.  In the UK, Computer Science graduates don't stand out in terms of salary and have some of the highest unemployment amongst university graduates.",
+          "score": 7
+        },
+        {
+          "body": "[deleted]",
+          "score": 69
+        }
+      ]
+    },
+    {
+      "title": "Daily Chat Thread - April 12, 2018",
+      "body": "Please use this thread to chat, have casual discussions, and ask casual questions. Moderation will be light, but don't be a jerk.\n\nThis thread is posted **every day at midnight PST**. Previous Daily Chat Threads can be found [here](https://www.reddit.com/r/cscareerquestions/search?q=Daily+Chat+Thread&amp;restrict_sr=on&amp;sort=new&amp;t=all).\n",
+      "subreddit": "cscareerquestions",
+      "score": 9,
+      "url": "https://reddit.com/r/cscareerquestions/comments/8boa43/daily_chat_thread_april_12_2018/",
+      "comments": [
+        {
+          "body": "No matter how hard I try, I'm always coming up short on my programming projects.  I always get B's on them.  I want an A so bad, but I just seems to fuck up all the time.\n\nI enjoy programming and working through a problem and analyzing solutions, it's fun.    I'm always so proud of my work and that I found a solution.... then I get back the grade and it's a 88.  Like, I want that damn A!  What more can I do???",
+          "score": 1
+        },
+        {
+          "body": "I just realized that I may work with several people who actively visit reddit and possibly this subreddit. Probably should tone  down the easily distinguishable information about me on here.\n\n🤷",
+          "score": 1
+        },
+        {
+          "body": "Can I have a full time offer in the fall and a summer internship without having either company knowing about each other? Is there any trouble legally there? The full time offer is with a Big 4 if anyone knows any policies that most of them follow regarding this. The summer internship is with a local company, and I feel like they'll retract their offer if they find out I already have a full time offer. I could really use the extra money before I move for my full time offer, but I don't want to screw up anything if I'm breaking rules doing this. \n\nI know ethically this is wrong, but without the internship I'll have to go 3 months without income and bills to pay, the internship would really help out. On the other side, I don't want to take this internship if it'll cause problems with my full-time offer. Any advice? Anyone gone through something similar?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Salesforce AMTS Interview.",
+      "body": "I got an interview coming up from salesforce platform Cloud Team: \n\nRound 1: Behavioral Interview (Virtual) 30-minute interview conducted by a T&amp;P Engineering People Leader\n* Focus: Critical thinking, problem-solving, ability to deliver results, and your technical background\n* You'll also be asked why you're interested in Salesforce and the AMTS role specifically\n*  Tip: Check out the STAR Method to structure your responses effectively\n\nRound 2: Technical Interviews (Virtual) 60-minute interview conducted by T&amp;P Engineers\n* Focus Areas: Algorithms, Java, and JavaScript\n* Expect live coding and/or technical problem-solving questions\n* Be sure to verbalize your thought process and ask clarifying questions\n*  Please prepare to code in Java—this has been confirmed by the team\n\nI need help with what all things should I be prepared with before appearing and whats the good time frame of Interview preparation time we should take. ",
+      "subreddit": "jobs",
+      "score": 2,
+      "url": "https://reddit.com/r/jobs/comments/1m5ydfq/salesforce_amts_interview/",
+      "comments": []
+    },
+    {
+      "title": "2.5 years in Dubai and I’m genuinely questioning everything about my career.",
+      "body": "I moved to Dubai two and a half years ago from Europe and honestly… I’m starting to question everything about this move.\n\nI arrived with 11 years of experience in SaaS/Customer Success, worked with big players like Salesforce and Dell, built up a solid track record, delivered renewals and growth year over year, the whole thing. Back home, my career had direction. Momentum. It made sense.\n\nMy first role here was a huge paycut, but it was a way into the market so I accepted it. The second job was still a paycut, smaller company, smaller title, but I had to escape the toxicity of the first environment. It was genuinely the worst workplace I’ve ever experienced in my entire career.\n\nNow I’ve been in this second role for a while, and twice I was promised a promotion. Twice it disappeared under the excuse of “structural changes at management level”. No transparency. No timeline. Just… gone.\n\nI’ve applied everywhere. I’ve interviewed everywhere, countless people referred me as well. I keep reaching final stages, more than 50% of the time, and then nothing. “We loved meeting you”, “You’re definitely on our radar”, “We’ll reach out when a new opening comes”… and then silence. A few months later someone else gets hired for these new openings and I never even get a courtesy follow-up.\n\nIt makes you question your worth. Your experience. Everything you’ve done until now.\n\nSeeing people land roles I know I’m capable of and more, especially after years of building myself up, really hits hard. I feel like I used to be on the up, and now I’m stuck in a place where I’m moving backwards.\n\nI’m not someone who gives up easily, but if this keeps continuing, I don’t know how long I can keep pushing. A small part of me is genuinely starting to think about moving back home, even if it feels like admitting defeat.\n\nIf you’ve been through something similar in Dubai or abroad, what helped you get unstuck?\n\nDid you network differently? Switch industries? \n\nIs this just part of the expat-adjustment cycle that eventually breaks through?\n\nAny perspective is welcome.",
+      "subreddit": "jobs",
+      "score": 237,
+      "url": "https://reddit.com/r/jobs/comments/1pivp5l/25_years_in_dubai_and_im_genuinely_questioning/",
+      "comments": [
+        {
+          "body": "Dubai is an awful place. That is my perspective. Fake City; Fake promises.",
+          "score": 797
+        },
+        {
+          "body": "I am sorry to hear. Dubai has indeed a very toxic work culture, I live here my self, I have experienced this first handed, and I keep hearing this over and over from friends and colleagues. \n\nI honestly don’t think Dubai could ever be a city people call home, but rather something people come here to squeeze money, as much as possible. This attitude eventually translates into how people treat each other: assets, disposable cartridges, nothing more. I am sorry to hear that you had to take a pay cut when you come here, because usually is the opposite. If you feel things are not going the way you want, coming back home is definitely not a defeat. You made your experience and probably realizing that staying here is not the dream that you were expecting is the best thing that could possibly ever happen to you. I am working towards coming back to my home country myself after three years here. Enough",
+          "score": 192
+        },
+        {
+          "body": "Woah, the slavery place has terrible work culture? That’s wild.",
+          "score": 339
+        },
+        {
+          "body": "I don't get it. Why would you move to Dubai for a 'huge paycut'? There must be something missing here.\n\nBut otherwise sounds like you're doing everything right!",
+          "score": 72
+        },
+        {
+          "body": "I’m curious to know what the appeal of moving to Dubai was in the first place?",
+          "score": 104
+        },
+        {
+          "body": "This is one of the tough realities of being an expat/immigrant is if you have difficulty with your job, it easily spills over to your life as you are there based upon them sponsoring your visa. \n\nWhat you can do now is network like mad, call in those favors, and use your connections if you have them in your industry to get you to the next step.  You'll need a visa and that is the most important, but don't dip too much into your savings.  Know when to call it quits, and put your pride aside.  Don't go into debt or make some terrible decision for your own ego and for others to think you've made it in Dubai.  You need a visa and you need money coming in.  That can be your temporary reality as you plan for your next steps if it means pivoting to another industry if you need to do that.    \n\nIf you do have to go back to your home country, plan accordingly.  See what money you can take with you, secure a place to stay and just hunker down as likely you won't be under any unemployment insurance scheme.  Plan your next steps now as if you're under a crunch for money, your options become more limited and you won't be on the ground anymore for face-to-face interviews, and at networking events or places.  \n\nAlso don't think you're going back a failure, just re-calibrate and then push forward.",
+          "score": 76
+        }
+      ]
+    },
+    {
+      "title": "Need Advice on Getting a Job or Side Hustle in the Meantime",
+      "body": "Hey all, I feel like I'm going crazy trying to find a job and looking for any pointers. I'll be 25 next year, graduated college 3 years ago with a BA in History &amp; magna cum laude distinction. Since then I've gotten two certifications in Salesforce (Admin &amp; Associates). In those three years, I've been applying to jobs like crazy, going to dozens and dozens of interviews, and getting rejected.\n\nThe only position I've been able to get is a part-time cashier at Target, which I've been doing for a year now. I am blind and have been with VocRehab trying to get a job with their job coaches since I was 18 and they are close to useless.\n\nI desperately need something more lucrative than just cashiering; I live with my parents who regularly tell me (threaten, really) that I need to move out, but average rent around here is about $1,200 if you're lucky, and my applications keep getting rejected for low income housing too.\n\nAny advice on how to proceed? Or anything I can do on the side? Appreciate any input, thank you!",
+      "subreddit": "jobs",
+      "score": 3,
+      "url": "https://reddit.com/r/jobs/comments/1pak57j/need_advice_on_getting_a_job_or_side_hustle_in/",
+      "comments": [
+        {
+          "body": "\nFirst off, you’re not doing anything wrong. The market has been brutal, and even well-qualified people with degrees, certs, and experience are struggling. The fact that you’ve continued applying, interviewing, and even earning Salesforce certs says a lot about your determination.\n\nA couple things that might help you get unstuck…. \n\nYour Salesforce certs should be opening doors, but the entry-level pipeline for Admin roles has basically dried up. A lot of people break in through roles that use Salesforce rather than Admin roles. When applying for roles think:\n– Customer Success\n– CRM Support\n– Data entry / data quality\n– Sales ops assistant\n– Recruiting coordinator (lots of ATS/Salesforce overlap)\n– Junior Business Analyst roles\nThese often hire people with Salesforce knowledge and pay far more than retail.\n\nIf you’re open to remote roles, apply heavily to non-profits and small companies. They are far more willing to hire someone newer and train them.\n\nIf you’re blind, accessibility hiring pipelines can be a huge asset. The frustrating part is VocRehab varies wildly depending on the counselor, but:\n– Microsoft\n– Amazon\n– Deloitte\n– Salesforce itself\nall have disability hiring programs that bypass traditional interviews.\n\nYour resume may be getting filtered out before a human sees it. ATS systems are extremely picky, especially for Salesforce roles that get thousands of applicants. Sometimes it’s formatting or keywords, not your qualifications.\n\nIf you want, I can do a free résumé audit and tell you exactly what’s blocking you — I work with a lot of job seekers and sometimes small changes make a big difference. No pressure at all, just happy to help.\n\nYou’ve clearly worked your ass off. You deserve a job that pays you decently — don’t let the rejections convince you otherwise. Best of luck to you!",
+          "score": 1
+        },
+        {
+          "body": "Is it $1200 for a room or to live on your own? If on your own, you can get roommates to lower the cost! History is so hard! Only people I know who got that degree used it to go to law school or got into something lucrative like consulting through an Ivy League school!",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Slalom Sr Salesforce Dev Interview Help",
+      "body": "Has anyone ever gone through a scenario based interview for a senior salesforce developer position with Slalom consulting or another firm?\n\nIf so, what was it like? What should I expect?  Any advice?\n\nI’ve never been through that type of interview before, nor know anyone who has. \n\nThe only information I have been given is that the principal architect will spend 15 mins giving me a scenario acting as a client. Likely, he will describe current system issues/bottlenecks and certain “wants” out of upgrading to salesforce.  I will then have 45 minutes to do requirements gathering, workshop questions, and solution design.  They actually didn’t even give me that much detail, I’m just assuming that’s what is expected from me.   \n\nI appreciate any advice anyone can offer.  I was recently off even with great performance due to company struggling and losing govt contracts with all of the doge cutbacks smh. I really need to land this job and believe it will be the final round of interviews. \n\nThanks in advance",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1j08qu5/slalom_sr_salesforce_dev_interview_help/",
+      "comments": [
+        {
+          "body": "The format you described is quite common. The key is to approach it methodically. Start by actively listening to the \"client's\" needs, asking clarifying questions, and taking notes. Then, prioritize the issues and propose solutions that align with Salesforce best practices. Be prepared to explain your thought process and justify your recommendations.\n\nDuring the interview, demonstrate your expertise by discussing specific Salesforce features, custom development options, and integration possibilities. Don't hesitate to ask for more details if needed – it shows you're thorough and client-focused. If you're unsure about something, it's better to acknowledge it and explain how you'd find the answer in a real-world scenario. Stay calm and confident, and remember that they're not just assessing your technical skills, but also your ability to interact with clients and think on your feet.\n\nI'm on the team that created [interview helper AI](http://interviews.chat) designed to help people prepare for tricky interview scenarios like this one. It might be worth checking out if you want to practice your responses to similar Salesforce-related questions before your interview.",
+          "score": 2
+        },
+        {
+          "body": "you can try past interview questions on - [www.pastinterviews.com](http://www.pastinterviews.com)",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Recent mid level job search - personal experience",
+      "body": "Sankey visualization: [https://imgur.com/a/kGnTPWr](https://imgur.com/a/kGnTPWr)\n* Summary: 130 applications, 13 calls, 3 offers\n\nAbout me\n* Left previous job in January\n* 2 years experience (4 including internships)\n* Tier 3 college, non CS degree\n\nApplication process\n* Only used LinkedIn\n* Didn't bother applying to any company that used Salesforce or SAP\n* Took 1 month\n* Accepted 150+ TC offer (mid sized, remote)\n\nObservations\n* Most big tech are still in hiring freeze, but staff level+ &amp; specialized positions are still open\n* Barely any leetcode, however, some friends have said the opposite (similar yoe, they were applying around the same time too)\n\nTips\n\nIm by no means an expert, but these are what I followed \n* Rebuild your resume\n  * Template: use a standard single-columned one so it can pass some ATS. Ensure you have sufficient white space so its easy on the reader's eyes. \n  * Bullet points: I noticed a lot of people in the weekly resume thread just list their tasks; focus more on results. \n* Treat the phone screening like an actual interview - do some research about the company first\n* Behavioral is king - be ready to talk for a long time (with examples) about culture, leadership, work ethic, business impact...\n* All system design questions are pretty much the same, but this doesn't mean you should follow a super standard template. Dive deep into layers you have worked with or are interested in (e.g. app + infra level security, external services, migrations, load balancing, ...)\n* Dont be too stressed. If an interview goes wrong, be respectful and move on. Spend time on your wellbeing",
+      "subreddit": "cscareerquestions",
+      "score": 151,
+      "url": "https://reddit.com/r/cscareerquestions/comments/113umvm/recent_mid_level_job_search_personal_experience/",
+      "comments": [
+        {
+          "body": "I’m impressed you found that many jobs to apply to in one month. The past month has been super quiet in the UK at least.",
+          "score": 26
+        },
+        {
+          "body": "TIL, 2 years experience makes you mid-level.",
+          "score": 63
+        },
+        {
+          "body": "If you don’t mind me asking what tech stack is the job in?",
+          "score": 17
+        },
+        {
+          "body": "[deleted]",
+          "score": 9
+        }
+      ]
+    },
+    {
+      "title": "Career Advice Needed: Stuck After Master's in CS – Which Path to Take?",
+      "body": "Hello reddit family,\n\nBefore pursuing my Master’s in CS in the U.S., I worked in the Indian IT industry for 8 years as a BPM developer. My work primarily involved low-code tools with some Java programming, integrating with RESTful and SOAP services. I chose to do my MS because I wanted to be a more confident developer and felt that BPM development had limited job opportunities.\n\nI graduated in December 2023, but I have struggled to land a job—not even securing an interview with a hiring manager. I am a married woman living in the San Francisco Bay Area.\n\nLast year, an ex-colleague suggested learning a cloud-based tool, so I joined a Salesforce bootcamp, thinking it might complement my Java experience. However, I also have an interest in full-stack web development, as I lack front-end experience. At the same time, I have seen some friends transition into data engineering, which makes me wonder if that could be a viable path.\n\nI feel stuck and uncertain about which direction to take—Salesforce eco-system, full-stack web development, or data engineering, or cloud computing(AWS/GCP). With AI increasingly automating code generation, I also worry about which field will remain future-proof.\n\nI would love some advice on how to proceed and where to focus my efforts. Thanks in advance!\n\n**TL;DR:** Graduated with a CS master's in Dec 2023 after 8 years in BPM development but struggling to land a job. Unsure whether to focus on Salesforce, full-stack web development, data engineering, or cloud computing—seeking advice on the best future-proof path.",
+      "subreddit": "cscareerquestions",
+      "score": 3,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1ipngss/career_advice_needed_stuck_after_masters_in_cs/",
+      "comments": [
+        {
+          "body": "Data engineering and cloud are fields I see always hiring. It will definitely be hard to break in now with a 1+ year gap though.",
+          "score": 2
+        },
+        {
+          "body": "[removed]",
+          "score": 1
+        },
+        {
+          "body": "[removed]",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Daily Chat Thread - December 12, 2018",
+      "body": "Please use this thread to chat, have casual discussions, and ask casual questions. Moderation will be light, but don't be a jerk.\n\nThis thread is posted **every day at midnight PST**. Previous Daily Chat Threads can be found [here](https://www.reddit.com/r/cscareerquestions/search?q=Daily+Chat+Thread&amp;restrict_sr=on&amp;sort=new&amp;t=all).\n",
+      "subreddit": "cscareerquestions",
+      "score": 6,
+      "url": "https://reddit.com/r/cscareerquestions/comments/a5fukx/daily_chat_thread_december_12_2018/",
+      "comments": [
+        {
+          "body": "As a new grad (especially an international student/Canadian citizen) is it safer/better to take an offer from a well-established corporate tech company or unicorn that likely offers good opportunities to grow on a small team?",
+          "score": 1
+        },
+        {
+          "body": "How long do Google recruiters take to send you interview prep material after the initial call for new grad positions? I was under the impression that it would be right after so I could get a head start but it's been a whole day and nothing. Is it too early to ask?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Horrible interview yesterday that makes me realize companies are mislabeling jobs &amp; leaving out massive requirements so they can wildly underpay, not to mention refuse to train.",
+      "body": "I interviewed for a \"coordinator\" role in a company in a major city yesterday that was very generic about data stewardship. I've done this in a similar company before - I'll admit, it's mostly data entry, electronic record keeping, research, administrative work within existing records, using ERP correctly. Stuff I have experience in. \n\n...*Every interview*, including this one, has become a horrible game of trick questions where the interviewer conceals the actual skill level required. Nothing about training. Extraordinary discrepancies between job description and specific requirements, like expert level Excel. \n\nSometimes they overshoot what is actually required. They go out of their way not only to give the impression there will be *no training within the job* to do the job, use the software, do the tasks they need a qualified candidate to do - I realized in this case the interviewer had lied about the actual responsibilities of the job. \n\nHe started asking me what I know about VBA, querying large data sets in Excel (if you guys have notes, I would be grateful - I've never done Power Query before, only basic functions, up to something like offset/match, tables.)\n\nIt's very hard to get that training, it seems, unless your fresh out of college - after internships. I only have a little as a contractor, and I was on my own, mostly, using what I've picked up in Excel workshops.\n\nWhen I pointed out it seems they're look for a sales analyst, the interviewer argued with me and said it was a different job. \n\n*This is the second time this has happened*, the second job, where I apply to my former job title...and find I have to talk about writing fucking Excel macros. Have to desperately, flabbergastedly talk about tutorials I've taken on querying large data sets with SQL. \n\nThis is for a job in a major American city that requires at least 3 days onsite and starts at $43k. It's not even the decline in pay...its the skills expectation for that salary and the horrible experience of being made to feel like I did something wrong when I just applied to an \"entry level\" opening that seemed to match my background. \n\nNo reporters are talking about this trend (not just my job search-shouldn't have to clarify that), but I don't think it's just me....it seems like there's a requirements/pay mismatch across more than a few white collar industries that got worse sometime in 2023, and I don't think I would believe this if I weren't going through it. NYT did a couple of articles on the Great Resignation....this seems comparable or like a reversal.\n\nIt's been a year of searching in a market that's gotten worse....last year was bad, this year is like a Twilight Zone nightmare of people asking for senior sales analysts under \"administrative assistant\" jobs. \n\nAnd that doesn't cover the jobs in tech where my interviews are 25 year old managers with theater/fashion degrees somehow working as financial managers who just...don't want to work with someone older than they are. \n\nEvery five years the job market gets worse and worse, and the skills requirements skyrocket. \n\nThat's a frightening prospect if you are in your 20s and coming into the job market for the first time, but if you are lifelong underemployed, like me, and have a shitty resume (a few years of  experience, but all for contract projects, or in dead end office jobs in horrible companies)...I'm at my wit's end. The stigma never really goes away barring something extraordinary, like a Master's degree...and even then, it's hopeless unless someone just...gives you a chance.\n\nNote, the only reason I applied to this job was because the job description actually seemed to match my background, or general enough I could have hope. Hiring for my previous job title and its actual duties has disappeared.\n\nI'm seeing jobs for sales analysts that want Salesforce certifications, 3 years of managing a companies' \"business processes\", Masters' etc. that start at $60k and tap out at $75k. \n\nIts really fucking bad out there, and not only am I afraid seeing salaries shrink while skill requirements for \"entry level\" jobs explode...I've never actually been trained in a single job I've ever done. Not really. Not to stay in a job, only as a contractor, and of course, that's short-lived and can't truly be practiced and built upon within that role. \n\nI've never enjoyed the normal experience of being taken on, trained, kept, and promoted because I didn't intern and came into the job market after I wasted a lot of time in grad school. It wasn't for lack of desire or work in those jobs. \n\n...And thus, even if I can work towards certifications, take Coursera courses, take tutorials by myself...none of really matters. It's all done alone, and it's not \"demonstrable experience\". It's unpaid labor with precious little direction to get to the first interview stage with people who treat my resume like a wad of used toilet paper anyway.\n\nSo much of what I'm seeing in job listings now points to a level of training you can't even do on your own without paying for a software license. Over and over. \n\nIs anyone else experiencing this or seeing this?",
+      "subreddit": "jobs",
+      "score": 1971,
+      "url": "https://reddit.com/r/jobs/comments/174pco3/horrible_interview_yesterday_that_makes_me/",
+      "comments": [
+        {
+          "body": "Yes, I just quit a job today after a month of training realized that it’s basically 3 different jobs rolled into one.",
+          "score": 498
+        },
+        {
+          "body": "Yep. I went on an interview for a position that tranformed into 3 positions in one at the interview. Classic bait and switch. One of the interviewers even asked me if I were willing to skirt ethics and potential legalities to get things done in time for financial reasons (because the organization was bleeding money). I politely declined the offer.",
+          "score": 223
+        },
+        {
+          "body": "At my current job, I applied to their ad for \"Financial Accountant\". Was given my job description of being a \"Financial Accountant\". Got hired. First day on the job, I saw my email signature had the title of \"Accounting Manager\". The CEO and CFO refer to me as their \"Director of Finance\". \n\nI rolled with it because the pay actually IS more aligned with a higher level role than a more junior staff accountant, but imagine my surprise. lmao",
+          "score": 212
+        },
+        {
+          "body": "One question that I always ask during an interview is \"How much training can I expect?\"   If that is met with blank stares and an uncomfortable silence, I hope they never call me again\".",
+          "score": 139
+        },
+        {
+          "body": "I switched from construction to manufacturing a couple years ago. I wasn't told the 4 person department was down to 1 due to 1 retiring and 2 dying of covid. Within the first couple days I was informed I had to buckle down as the head of the department and only remaining team member was going on maternity leave in 4.5 months amd I would be on my own for 6 weeks. 3 weeks into her maternity leave, I was drowning. I kept asking for help as I wasn't trained properly. My boss actually sat me down the day before her leave and said, \"I thought about all these things I didn't show you, so I'm going to show you today. Take notes.\" I eventually made a few calls and had a job back in construction in hours. I emailed my manager telling him this isn't working out I'm new to this industry and my training and support was inadequate. If they would like to formulate a plan to try to clean up the mess before I quit in 2 weeks I'm game to try to clean up the department before my new job started. They fired me at the end of the day saying manufacturing obviously wasn't for me lol. Fuck corporations and shitty ownership. Fuck management that doesn't manage. And SERIOUSLY FUCK LYING ASS MANIPULATIVE RECRUITING TACTICS.",
+          "score": 91
+        }
+      ]
+    },
+    {
+      "title": "Was the Salesforce interviewer right about office politics and mental health?",
+      "body": "I (28F) recently had an interview with Salesforce, and one of the questions was about my past experience. At one of my previous companies, I left earlier than expected because the work culture wasn’t great—there was a lot of office politics, and despite trying my best, I realized it was affecting my mental health. So, I made the decision to leave.\n\nWhen I shared this with the interviewer, she responded by saying that office politics exist everywhere and that I shouldn't \"give up so easily\" but instead \"try harder.\" I acknowledged that I was younger at the time and prioritized my mental well-being. However, she then said, \"You cannot use mental health as an excuse.\"\n\nWhat stood out to me even more was how she almost seemed proud while saying that Salesforce also has a lot of office politics and that I would face the same challenges there. I’m unsure if she was trying to test my growth, warn me, or simply discourage me from joining.\n\nSo, I’m curious—what do others think? Should I have stayed in a company with a toxic work culture? Is leaving for mental health still seen as an \"excuse\"? And does Salesforce really have that much office politics? \n\n",
+      "subreddit": "jobs",
+      "score": 5,
+      "url": "https://reddit.com/r/jobs/comments/1ie8y8h/was_the_salesforce_interviewer_right_about_office/",
+      "comments": [
+        {
+          "body": "She was telling you to get lost with that and that they don't want you, ...while making it your fault.",
+          "score": 4
+        },
+        {
+          "body": "The Peter Principle is real. Most managers have been promoted out of their competence.  Rarely you will find one that is good at leadership. Too often we find the toxic corporate sycophancy where everyone pretends that the boss is the best and brightest and all their shit is Shinola.",
+          "score": 3
+        },
+        {
+          "body": "As someone with severe depression, I think mental health should always be prioritized. You did the right thing getting out and it’s weird she didn’t commend you for being strong enough to leave that environment. Sorry about that dude",
+          "score": 3
+        },
+        {
+          "body": "Never talk about your mental health in interviews... Ever. All a company really cares about is that you can do the job and not embarrass them. \n\n  \nJust say it wasn't a good environment. You really don't need to elaborate.",
+          "score": 1
+        },
+        {
+          "body": "I would advise against ever being that forth coming with an interviewer about an old job.\n\nA better answer would have been something along the lines of there not being the opportunity for career growth that you expected.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Exaggerated application + got a job interview for next week, HELP.",
+      "body": "So... I (28F) got laid off last Monday, applied to jobs like crazy last week, and somehow landed an interview for next week. The thing is, I fine tuned my resume a bit too well to match the jobs I was applying for, and I may have exaggerated... like a LOT. I am trying to get out of social media centered work and more into internal systems work. I have done some light data management and list building in Hubspot and Salesforce over the years, but I mean very simple, like making a basic email list or updating a few contact records. \n\nThis new jobs responsibilities would include:\n\n* **Marketing Automation &amp; CRM Management:** Build and maintain segmented lists, workflows, and data hygiene in HubSpot; ensure CRM records are accurate and structured for reporting and campaign targeting.\n* **Digital Advertising &amp; Audience Support:** Assist with setup, monitoring, and optimization of digital ads; manage audience lists from platforms like ZoomInfo, and two others I dont want to list so as not to give away too much info. \n* **Reporting &amp; Analytics:** Generate dashboards and performance reports across HubSpot and Salesforce; analyze campaign impact, funnel activity, and conversion metrics to inform optimization.\n* **Campaign Execution &amp; Operational Support:** Collaborate with the Marketing team to execute campaigns, document workflows and SOPs, and maintain marketing technology systems.\n* **Continuous Improvement &amp; Professional Growth:** Provide insights on KPIs, and provide 30 day reports on how things are improving and performing. \n\n  \nHow can I prepare for this interview? Is it ok if I move forward, or will it make me fail at this job  Are these things I could learn on the job or ask to be further trained on? What resources for this type of job exist? Thank you for any feedback, tips, and honest opinions on what I should do. ",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/1qdtms3/exaggerated_application_got_a_job_interview_for/",
+      "comments": [
+        {
+          "body": "I think you would be fine, just fake it to you make it. Research different platforms. Watch YouTube videos on the responsibilities, research industry trends, and talk about them. Think about any project or responsibility you had in the past, talk about it and how it would translate well to the job responsibilities. \n\nPrepare now, think of common questions or ask chat gpt, generate and research good answers.\n\nWorst case you bomb it and are more prepared for your next interview. Best you get the job and are successful. You got this, be confident.",
+          "score": 1
+        },
+        {
+          "body": "Open your favorite LLM, attach your REAL HONEST resumee, and attach the job you applied for.\n\nTell it to find what you have, and what you need to improve or learn.\n\nTell it from the skills to learn to break them down with videos, sources and easy learning material, explain the urgency of an interview and you must know the skills promptly atleast enough to have ongoing education on those.\n\nIn the interview explain what you know and mention you have ongoing education and learning for x y z tooling and are actively learning as well but your previous job did dwell in them and you can do the role well.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Got this on Friday saying I am overqualified and my interviews had \"slight intensity\", still not 100% sure what to make of it. Contemplating replying but not sure how.",
+      "body": "TL;DR: I interviewed for an associate consulting new grad position with no previous experience with consulting, but was essentially rejected for being \"overqualified\". Wondering if I came off as too eager, or if there's anything else that they didn't like. Additionally want to ask for advice on potentially reaching out again.\n\nNot TL;DR:  \nFor context, I am a Masters student in Computer Science who is graduating in December. I have done a couple internships (non-consulting) and was working for a post-doc on another project when I did the interview, but I never had any full-time experience in industry.\n\nThis role was for an associate consultant for a Salesforce consulting company that I met through a career fair. From the job description and what the career fair table told me, the company was looking to fill their training program, and mentioned that candidates don't need prior experience with neither Salesforce tools nor consulting (neither of which I had prior experience with, but I expressed my willingness to learn).\n\nThey reached out to me for a phone screen, and then a video interview a week later. Wanting to be at least a bit more prepared, I asked the recruiter if there were any resources I could use to understand the tools, and I did provided modules before my screening and interview.\n\nDuring the interview, I guess I wanted to show my energy and enthusiasm for the role, so I spoke about how my past experiences (despite not having any actual consulting experience) match very well with the role (a lot of my previous projects involved working on a solution from scratch akin to product management). In past internships, I was involved with end-to-end development of products, and felt that this type of holistic outlook on projects would be perfect for a consulting role, so I capitalized on that.\n\nWhen asked if I have previous Salesforce experience, I candidly mentioned that the modules they provided me were the first real introduction to Salesforce tools, but I also emphasized that I was willing to learn during the training program.\n\nI finish the interview (that had a fairly strict 30 minute cutoff) and wondered if my lack of Salesforce experience was an issue. However, I get the email above two days after the interview (last Friday while I was on vacation, so I didn't have too much time to analyze the nuances of the email).\n\nI am having a hard time understanding what's meant by \"slight intensity\"... I thought I was reasonably eager to share my experiences, and I didn't feel it was anything particular that I said. Besides, don't companies like enthusiasm? I am also confused about being overqualified when I never worked directly in this line of field. Part of me wonders if there was actually something bigger that they didn't like, and they are just saying \"overqualified\" to sugarcoat.\n\nI am considering emailing HR to ask if she could elaborate on what felt wrong in my interview, and how I could improve it. How should I go about this?",
+      "subreddit": "jobs",
+      "score": 7,
+      "url": "https://reddit.com/r/jobs/comments/1o1c7kx/got_this_on_friday_saying_i_am_overqualified_and/",
+      "comments": [
+        {
+          "body": "I would take \"slight intensity\" as you need to relax a little bit and be more personable.  An interview is not an interrogation, it is a conversation.\n\nEdit: If you want more information from them say something like.  \"Would you mind elaborating a little so I can properly onboard and act on your valuable input?\"",
+          "score": 10
+        },
+        {
+          "body": "Honestly, in person interviews are nothing more than a vibe check.  They just want to see if they like you and could have lunch with you (which is total bs but that's what it is).\n\nIf you rub the hiring manager the wrong way or if they feel like you couldn't be their bff off hours, they likely write you off.",
+          "score": 3
+        },
+        {
+          "body": "Speaking as someone who is the hiring manager for several positions right now, when I think someone is overqualified for a job, what I really mean is that I think they would be bored in the role and not challenged. I worry about people who aren’t challenged in a role because it means they’d immediately be looking to leave and find something better. Nothing feels worse than investing time in training someone only to have them turn around and leave, and you have to start that recruiting process all over again.",
+          "score": 2
+        },
+        {
+          "body": "That's weirdly worded especially without elaboration on their end, it just may be a b.s reason to not move forward with your resume  🤷 jobs will say anything these days..... When I was in my earlys 20s and still working retail I had applied to Starbucks told them I had open availability which they liked the next week they rejected me saying they couldn't work with my availability 🤦",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Why is nobody talking about the seeming huge decreases in salaries, for the same roles?",
+      "body": "I took at offer for an admin job doing sales coordination/analytics in retail for 47% of my previous hybrid salary (both shitty). They lied to me and said there's opportunity for promotion. I am happy to do the work - it is remote, and being trained. It's fucking grueling. \n\n...The brass ring is a sales analytics job that will pay...$60k. A really shitty salary.\n\nIt's bad enough my previous job has all but disappeared...but it's that the the __ \"coordinator\" roles I am searching for now (lower salary, lower title) are literally data and sales analytics roles that expect people who know VBA, for 60k/year (I live in a city), hybrid....or very, very industry specific. To insurance; to finance (more so than before). These are all \"entry level\" roles in linkedin - they ask for 3 years of experience but its understood, every job poster looking can get 10. \n\n\nI've never felt more afraid as a jobseeker in my life. The thought of going back to school and not having an income or having to try to balance something like a finance MBA (if I get it) while working makes me want to die, but what is college in 2023? It's a doorway to jobs. I wish I'd understood that at 18.\n\nPart of the problem is that I've always been underemployed - I've never been in a job or space or able to work for a company that might, say, promote their ___ (entry level) to ( _) associate role so that I acquire \"demonstrated experience using SQL. (I know there are Coursera courses for Tableau, SQL, but how many of those do I need for a junior sales analyst job or to even get a first round interview)? \n\nEvery five years since I graduated college I've found myself at this juncture - periodically unemployed after losing a terrible job with a shit salary, no security, horrible managers that resent having to hire admin/sales support staff at all, or anyone but sales staff/senior staff; no advancement (e.g. in contract roles), lacking what feels like the new basic standard of experience for \"entry level\" jobs, too old for \"entry level roles\", too weak an interviewer, and having spent what feels like my whole life isolated from what's expected of everyone now - not just intermediate excel, but VBA, SQL, Tableau, and other softwares you can't get access to without an expensive license (the single thing that makes me appreciate Trailhead)...\n\nI feel trapped.  And in my \"jobs to aspire to\" searches...I see people clearly asking for Salesforce administrators...without asking for the exam on paper, but all the skills. So they can pay their candidates $65k a year. \n\nWho the fuck even gets these jobs, I ask myself? (I know who because I worked with them - comp sci majors who started with a company at 22, and were cultivated and nurtured by managers that kept them and trained them into experts.)\n\nIt seems like the lowest level adminstrative/sales support jobs require either a data science or comp sci degree. Or finance analytics. \n\nNo media source cares or talks about it. The whole labor market about tech and finance hemmorhagaging jobs can take its pick of those people for jobs paying $70k a year, for jobs that were promising $90k before. It's very alienating, on top of the shame/fear that has come to define the last decade for me. I am underemployed and worried about money and aging while working horrible white collar jobs that demand college degrees and a certain level of comfort with specific project management software, Excel, etc....and pay....17/hour. \n\nThat no one with a soapbox is noting this about white collar jobs, or talking about the recession that wasn't (\"Biden economy is strong\")...\n\nYeah, I don't know what to do, and I'm afraid. I took a step back and I'm afraid of how to get out of this or if I even can, financially, because it would require going back to school. How do you pay rent that way?",
+      "subreddit": "jobs",
+      "score": 89,
+      "url": "https://reddit.com/r/jobs/comments/188v7r9/why_is_nobody_talking_about_the_seeming_huge/",
+      "comments": [
+        {
+          "body": "I've been looking at jobs and my former company went from paying me $59k to making it an hourly position. My guess is everyone is going back to pre-covid salaries",
+          "score": 44
+        },
+        {
+          "body": "This is the other half of the Double-Whammy:\n\ninflation in goods/services\n\ndeflation in salaries",
+          "score": 15
+        },
+        {
+          "body": "I'm in healthcare, I was looking for jobs prior to COVID hitting. The health system I worked at very quietly during the first six months of the of the pandemic shifted all pay scales by several dollars during the mayhem, they also laid off a bunch of workers after using them for Frontline COVID work and screwed us when there were COVID surges, where we were on skeleton crew (and staff got covid and couldn't work, resulting in this BS of in acting policies of reducing time off due to COVID to only 5 days because of hospital staff... even if we were still too sick). I only knew about the pay changes because I had been scanning for jobs on the internal site every couple of days. And the public was completely unaware of layoffs because of all the, \"healthcare heroes\" crap that hospital administrators happily partook in that was free PR, while screwing their own employees.\n\nIf you're thinking, why are they so understaffed? This was due to leadership decisions. All managers continued to get their full bonuses, they'd throw a very measly $100 bonus to staff, but laid off a bunch of people to do that. The skeleton crew is now permanent because, \"leadership,\" realized they could just lean on Frontline staff, at the cost of quality and burn out of their staff. As staff we were led to believe that this pace would end... Except, \"leadership\" decided this was a good way to make more profit (for a nonprofit healthcare system)... So they made it the, \"new normal.\" If you wonder or even care, your healthcare workers are burned out and struggling. Be nice, we got abused by the public and our employers and as gaslighted to think that we should just accept this because we are in healthcare. So we're getting paid less because they reduced the pay scale, and now everyone is doing the job of at least 2 people many have mandatory overtime.\n\nI ended up leaving that healthcare system for multiple reasons, including job descriptions that were insane. I was once encouraged to apply for a role that looked like three jobs clobbered into one. I am a hard worker, but not stupid, the pay of course did not reflect this. The same healthcare system whines that they don't understand why they have such poor retention. 🙄",
+          "score": 10
+        },
+        {
+          "body": "Because most employers are crying at how they're needing to pay 20-30% more than just a year or two back to have a hope of filling the same roles with the current labour shortage.\n\nReddit's obsession with tech ignores that that's just one sector, undergoing a slight right-sizing after years of ridiculous wage and employment growth out of all proportion with value.",
+          "score": 39
+        },
+        {
+          "body": "Well when I had my midlife crises and went to law school I borrowed the money. It’s supposed to cover basic living expenses. I now have an extraordinarily insane amount of student leans. Where I went to school, first year no one was allowed to work. Because the school part is hell. The good news is law school tends to be more expensive than other graduate degrees so it’s shouldn’t be too bad. I’m living proof that having letters behind your name doesn’t automatically = jobs. \nGood luck!",
+          "score": 16
+        },
+        {
+          "body": "most employers are trying to justify their job by hiring low salary people. In fact a graduate could even take over their job. They are implementing random programs for the sake of change instead of going for optimization and even try to manipulate you. This is the real corporate shit herr",
+          "score": 8
+        },
+        {
+          "body": "Tell me about it I’m in Houston and there’s a lot of jobs paying under 50k now",
+          "score": 14
+        }
+      ]
+    },
+    {
+      "title": "Bad Economy, layoffs and how i landed a job",
+      "body": "\nI am trying not to make this super long, but I wanted to share my story as a long-time lurker.\n\nMy wife and I both lost our jobs within two weeks of each other in September 2023. We have a house and a mortgage, and she was five months pregnant. We went from making roughly $120k a year to $0.\n\nI had about 15 years in marketing, including positions at a top 5 car rental company (which went down during COVID) and a marketing agency. I have extensive experience in HTML, email marketing, SEO optimization, Google Analytics, Salesforce—the list goes on. I spent a month and a half reaching out to my network and applying online. I submitted hundreds of applications and got maybe two or three interviews for mediocre positions.\n\nAt this point, I realized that any decent position was being filled internally or given to someone's friend. Too many people were without jobs, so I was getting lost in the resume piles.\n\nI decided I needed to identify a successful company in a stable field and start from the bottom, hoping my experience and resume would lead to a promotion.\n\nI found my current company through a friend who moved up to a $55k position within eight months, despite having no college degree. The company is a fintech firm in the healthcare space. Although I knew nothing about that industry, I saw they were making great money and offered remote work.\n\nAfter my research, I discovered their benefits were amazing, the culture was fantastic, and I could work from home, allowing me to be there for my wife and soon-to-be child. The only catch? I had to start as a Member Solutions Rep at $16 an hour.\n\nYou have to spend six months as an MSR here before you can move up. So I took the chance, lived off my credit cards, refereed soccer on weekends,  as a college grad at 35 making $16 an hour in a call center.\n\nThe job sucked, but at least I worked from home. During my time there, I didn't see anyone move up. It was a busy season, and I was just grinding through calls and processing claims from 8 am to 4:30 pm every day.\n\nFast forward from November 2023 to July 2024. I got through my six months and found an Assets Under Management role posted in the internal job openings. I applied and, two weeks later, got my first interview. After four interviews and a month, I was told yesterday that I got the job. The pay is $68k plus bonuses.\n\nLooking at the job posting online, I saw it likely had thousands of applications on LinkedIn and Indeed. Eight months ago, I was one of those applicants passed over for a good role for someone internal.\n\nI start my new career on July 15th, 2024, in a stable, successful company after enduring eight months of hell and poor pay for the chance at an internal promotion.\n\nI wanted to share my journey because I think it may help someone. You may have to get in on the ground floor somewhere new, but if you believe in yourself, your experience, and your resume, you will get noticed at a good company, and you will move up.\n\nAt this moment i am in considersble credit csrd debt but i still have my house and now a good job. Between my wages, soccer reffing and my wifes few nights serving in a fine dining restsurant we are back over 100k k a year and will spend the next few years living frugally and paying down this debt. \n\nMy story isnt perfect but I am finally safe and can start 2 work on getting back on track. The sadness and despair i felt over the last year has been awful and i hope anyone reading this ends up okaay.",
+      "subreddit": "jobs",
+      "score": 130,
+      "url": "https://reddit.com/r/jobs/comments/1dqan7o/bad_economy_layoffs_and_how_i_landed_a_job/",
+      "comments": [
+        {
+          "body": "This is awesome. Congratulations! I hope I can find another role soon.",
+          "score": 16
+        },
+        {
+          "body": "Thanks for sharing. Encouraging",
+          "score": 7
+        },
+        {
+          "body": "Congrats",
+          "score": 6
+        },
+        {
+          "body": "Everyone in my life was doing great good jobs. People questioned me, parents questioned me it looked bad taking this job at this pay but the economy left me with no other choice. Ended up being the right choice thankfully.",
+          "score": 5
+        },
+        {
+          "body": "Also\n\n\nIf anyone goes this route. In the internal interviews, I spoke about my degree, experience and pedigree. Made it clear I put in my dues and did not belong in an entry-level position. I then spoke about my mindset, rolling up my sleeves, and even though I didn't like what I was doing I still worked hard and did what I had to do and became the top agent regardless of my past and who I thought I was. I told them i researched companies found this one to be the culture i was looking for and decided to work hard and move up. I think doing this earned me a lot of respect. The rest of the interview was generic and answered questions with examples of past higher level work experience.",
+          "score": 5
+        },
+        {
+          "body": "Thank you for sharing! This is encouraging! I'm in the same boat and will need to refocus my energy on entry level positions at good organizations ASAP! Thank you",
+          "score": 3
+        },
+        {
+          "body": "Good for you was making 93k a year and was recently laid off and cant find anything remote- its all in office and they lowball the shit out of you. When I had a job my LinkedIn inbox was FULL of offers now its crickets",
+          "score": 3
+        },
+        {
+          "body": "I hope to find an entry level job with potential growth but even they have specific experience they want.",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Should I leave a stressful job for a role for a 40k pay cut",
+      "body": "I'm currently in a cloud role making around 100k. My new manager set a bunch of intense goals including the following: get a certification, do 80 hours of LinkedIn Learning (40 PowerShell + 40 soft skills), do 6–15 improvements, close 10 to 25 support provisioning tickets where we have to do video calls with clients, do 2 presentations on updates, along with that I have do 6 to 8 migration projects at one time.\n\nI did an interview for a company doing cloud and salesforce remote support role that pays around 55000 to 63000 for a smaller company of 100 people. He said most people have been there a long time and haven't done any layoffs. Whereas, at my company they recently did layoffs, and I feel like a number where no one knows anything about me.\n\nI brought up to him that hypothetically for everyone to get a 5 we would have to do around 20 improvements which would be 80 total, and is there even that many improvements? He said that getting a 5 is going overboard and as I get a 3 I'll be fine and won't be let go. Would you believe this? Would you even try to do all these goals or do you think they are unreachable?\n\nIs it worth it to change to the lower paying role out of a chance the people or work life balance will be better? Because some companies say anything in the interview, then when you get the job you find out that people are doing the jobs of multiple roles like my situaiton. Another company I interviewed for paid similar at 95k but they got bought out by private equity so I'm suspect of that role. Or worst case scenario just keep applying to more jobs?",
+      "subreddit": "jobs",
+      "score": 0,
+      "url": "https://reddit.com/r/jobs/comments/1mkc0bm/should_i_leave_a_stressful_job_for_a_role_for_a/",
+      "comments": [
+        {
+          "body": "[deleted]",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "title": "Is this just me or is this a common issue?",
+      "body": "I've sent out hundreds of applications, I've tried reaching out and being proactive, tailored and retailored my resume a number of time, and I've gotten one actual interview in the 7 months of job hunting I've been doing looking for software/salesforce work. I have a CS degree and several years of experience. I've applied on Linkedin, Indeed, on company websites, and its like I can't gain traction. Some places I applied to on like a Friday, I'll get an auto reply from LinkedIn at 3AM Saturday saying I was rejected so I know they aren't even looking at my resume or applications.  \n  \n Is this just standard or am I doing something wrong?",
+      "subreddit": "jobs",
+      "score": 2,
+      "url": "https://reddit.com/r/jobs/comments/1movmkw/is_this_just_me_or_is_this_a_common_issue/",
+      "comments": [
+        {
+          "body": "You are not alone. I have been applying to jobs for around 8 months now and I have only managed to land 2-3 interviews. A unpaid internship, a sales role and service desk. One time I was shocked to see that my resume was not shortlisted for a role even after having all the required qualifications. The job market is cooked rn but people will tell you that you are not trying enough. ",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Are you over 30 but you're not senior in a career/have no career? Are you afraid of taking take off to \"retool\"?",
+      "body": "Let me start this by saying I am very confident in job interviews and finally learned how to try and pitch myself, and I list all my tech/excel courses on my resume.The tone in this message is nothing at all like my cover letters and interviews.\n\n I am only posting to vent and talk to people. Please don't tell me to \"go to therapy\".  I've also been laid off, so, even if I wanted it...couldn't pay for it. But I've been to therapy. Therapists don't help you find a way to feed yourself or find dignity.\n\nHere is my question: are you an adult who has never had a \"good\" job and, like me, has been unemployed or bounced from dead end to dead end your entire life, even with a college degree? Have you been too afraid or too broke to try and fix it (or found even after that bootcamp, accounting associates' etc., you still struggled because you \"lacked experience\" for the entry level jobs you wanted?)\n\n\n\nI have never gotten a job I really wanted. I have never worked for a company I applied for, on my own, without a temp. I have never applied for a job at a \"good\" salary - even the middle number in a range - and gotten it. I have never felt in control of my career. Every few years, I end up back here, terrified, applying all day to jobs that are \"entry level\" / \"associate\" - and it might as well be like applying to the NFL, I'm so behind, but also, *too old.* So much older than the candidates they really want, for these jbs.\n\nI don't know a single person like me in real life who went to college, even the people who bailed out of office jobs and freelanced for 10 years because they were creative types. \n\nMost recently I worked for a company as a \"_ coordinator\" for a few years. I've worked with Salesforce as an end user a long time, but only in contract roles and (recently) in a basic admin job.\n\nIt took many years to get temp agencies to even take me on in really awful jobs, many of which had no real guidance or systems...and companies hire/fire without concern. \n\nI ask questions about the team/purpose I'm on, I take notes, and my managers in my last few roles have been happy with me and my work product, esp. in the jobs that use salesforce, but even in those, if 10 temps were hired, the two with masters' degrees and comp sci backgrounds are the ones chosen for basic sales analyst jobs...for data entry/some reporting. \n\n\nMy last job was the best one I ever had; I liked my team, the location was convenient, I was good at my job and felt like I could handle the work easily when I left, and now (as I'm realizing) it paid better than anything I can get now. And I encountered whta I'm used to, which is a manager that saw my face and my age and decided to put me in my place. I'll never understand how the manager that hired me (different guy) was such a kind man. \n\n\nI'm pursuing Salesforce Certification, since someone will mention it, but it's a horrible experience and many of the challenges have glitches. I'm really struggling to get through and retain the information on stuff I didn't \"do\" at my job. \n\nI'm older and running into the thing I ran into when I started working: due to lack of experience, age, a liberal arts major, and the nature of the jobs I was in (contract) - I have never been trained to be kept on, and been able to grow in a career. I've never been treated like a \"real\" employee, not even at my last job. \n\nI look at my friends, I look at the people that were chosen to be kept in the last 5-7 years of contract roles (all younger and with less experience, or older and with masters', wildly overqualified for the basic admin jobs we're talking about, maybe computer science backgrounds, or some combination). They were were eventually promoted from \"entry level\" to \"senior\" __ in advertising agencies, startups I'm in a major city where 90% of the jobs I see are tech)...in their companies. \n\nFor comparison, when I asked my boss to promote me to \"senior coordinator\" since I'd been ft for almost 3 years, HR said there wasn't a chance. (They said this to someone else in a different job that asked for promotion, too.)\n\nI get along with colleagues, I am professional, I take direction, I don't have a criminal record, and I did my work. I didn't spend the workday talking on the phone or have a side job that kept me from meeting my quota. In my last job my team lead gave me very good performance reviews. But I've never been treated like I'm valuable by an employer in my entire life, and now, I'm applying for jobs like mine, only to be told companies are freezing them I get anywhere. It's a scary thing to be in that rung of jobs over 30 and feeling my age.\n\nI want to be clear - I can speak with confidence and in specifics about how good I was at my job, but it was still a pretty basic sales support job. *It took me 10 years to find*, and it was dead end, and in the end, it took nothing for a manager that did not like me and did not really see the value in what I did to eliminate my job. Man, he strutted through the office the day I dropped off my stuff. \n\nI apply all day to jobs (like an idiot) that seem even remotely related to my old one, I apply to jobs that I am overqualified for...and have been passed over for a over a year. It's always the same - when I look at who gets that operations associate, ___\"coordinator\", \" \" assistant job....it's 25 year olds who have some solid internships. My temp roles don't translate, even when it's doing things related to the jobs I apply for. It truly feels hopeless for many reasons and I feel like i'm caught in a trap - take off a few years to get a whole new degree, or....keep applying 8 hours a day and grab the first awful branch. \n\n\nI have never been able to find a job without a temp agency, because the only jobs I can get are \"entry level\" (yet all require 3-5 years experience). I have always been one of the oldest people hired as a temp when multiple are hired - but I am never chosen, no matter how engaged I am. \n\n\n\nCan anyone relate - to the negative loop of underemployment that keeps you underemployed, the sense of shame, the confusion about what to do, and the fear that you can't really start over, because employees see you and your lack of experience and will just choose someone significantly younger who \"got it right\" the first time?",
+      "subreddit": "jobs",
+      "score": 52,
+      "url": "https://reddit.com/r/jobs/comments/16maxdy/are_you_over_30_but_youre_not_senior_in_a/",
+      "comments": [
+        {
+          "body": "I admit that I have a good job now but I can commiserate with you because your story was mine for the whole first half of my nonexistent “career.” Graduated with a liberal arts degree from a good school plus was in a special competitive program too. Got into the job market and there was NOTHING for me. Applied to over 700(!) jobs, boomer relatives flat out did not believe me. Finally got a job in customer service working alongside high school drop outs and some of the most egotistic losers I’ve ever encountered in my life. Excelled, customers loved me, was not kept after the holiday season. Worked shit gig jobs. Moved to a different STATE, took entry level reception and sales jobs through a temp agency, lost out on everything full time permanent. Moved back home with my parents. Almost 30, feel like a loser. Just did what you did for years, working through the temp agency, at whatever I could get. I totally relate to seeing the people who got kept over me and just wondering, why. Why. After maybe three years I approached my agency and asked if they could find me something permanent … they looked at my file and literally acted surprised. They said I had glowing reviews from EVERY place I’d worked and I had more places on my file than most temps (yeah no shit…) To their credit they did find me something… working alongside literal interns who were still in college. Which was fine, I worked hard and made friends, but I totally relate to the sense of humiliation. Why am I 30 and struggling to hold down a job that college students can literally do. The company had an opening for the lowest level management, I applied, lost it BECAUSE “she worked at the mall, you don’t have any experience from there.” ??? Just bullshit like this after bullshit. It’s so debilitating to my self esteem. \n\nThen I got finally a permanent entry level office job and I saw that there were many people like us. In fact almost the whole team was people older than me who were stuck at these kind of agency positions or entry level even being in their 40s. Our manager was literally the youngest person LOL \n\nI know this sucks but really I think our situation is the norm. I think the whole “career” lifestyle is more rare than it seems and there is a huge number of underemployed people especially millennials. We don’t have careers we just have jobs living hand to mouth. Now that I have a good job I read all this stuff about retirement, finance, and all the while in the back of my mind I’m thinking how the hell did I get here and painfully aware that one wrong move will send me back to that hell pit of obscurity. I also work closer with execs and higher managers. Almost ALL of these people have their jobs because of luck or who they know. I’m not saying none of them are skilled, some are, but the difference between you and them is literally just knowledge and experience. Given the same opportunities you absolutely could do those jobs.\n\nCareer coaches and linked in wannabe influencers peddle all this nonsense about career advice but I’m convinced it’s mostly luck. I have my job literally because my manager saw something in me and lifted me up. He told me that other execs literally told him not to hire me because I didn’t have experience and to hire someone with a compsci degree, but he told them he wasn’t going to do that because HE doesn’t have a compsci degree. Snakes, they are snakes.\n\nI know you probably don’t want advice, but my honest advice is, take the easy road. Get that disability from your arthritis and fucking coast. Build birdhouses or something for cash. Don’t talk down to yourself, comparing yourself to some 35 year old Vice President because it has nothing to do with you. The system is so broken, that your job isn’t a reflection of your worth at all. There is absolutely no reason people who are willing and able to work have such problems. My second advice is go where you’re needed. Maybe your town needs substitute teachers more than it needs salesforce professionals or maybe a different town needs your salesforce skills more. When I really threw myself in to helping others things started to look up, but even this I know from experience is no guarantee. Small consolation when bulls are due but I see these middle managers running around without spending time with their kids, family, dreams slipping by because they have no time outside of the rat race so try somehow to find happiness because jobs really are bullshit.",
+          "score": 15
+        },
+        {
+          "body": "I don't have a career and keep having to go back to entry level roles because of layoffs or economy. I am about to be 31 and I graduated with a BBA but not in a cool major.",
+          "score": 12
+        },
+        {
+          "body": "I know people in their 40's who have no \"career\" to speak of, just bouncing from one job to the next trying to find something that is at least sufferable. It's brutal out there, especially if your background is in humanities or arts, like mine. Shit, I know people with PhDs who still do manual labour. If you're not lucky enough to find steady employment within the university system, PhD in humanities impresses noone in the job market.\n\nI had a huge anxiety about my career up until a few years ago. I felt that I wasted my time getting a \"useless\" degree and subsequently working a string of entry level jobs. But I'm 31 now and I really don't care anymore. I realize that my situation is far from unique. I don't make a lot, but luckily I don't have any debt (I'm not from the US, so no student loans to pay back, thank God) and I try to live relatively frugally. When looking for a new job, all I really look for is a decent enough pay (as in to survive a month without starving) and some kind of a work-life balance.",
+          "score": 9
+        },
+        {
+          "body": "I need to come back to this post to share the whole of my story, but, I can say that I relate to this on a profound level as a social worker turned accountant turned healthcare worker turned data professional, who also happens to have ADHD and sincerely, highly suspect that I’m autistic.\n\nLife on hard mode fucking blows. It’s bullshit that some people just get it handed to them with a fragment of the effort. It’s also nonsense that (gloves off) absolute morons get rewarded because they can dupe, con, and BS better. But that’s not going anywhere… One day, maybe some distant version of my career will actually treat sincerity, integrity, and working my ass off to get to where I want all an advantage for a corporate hierarchy.\n\nBut corporate hierarchies are full of ripe bullshit by design. Cs get degrees, nepotism, good office politicking, and fucking the boss all get promotions… C’est la vie",
+          "score": 7
+        },
+        {
+          "body": "Math degree, no career, currently applying to data entry jobs. Your first job really defines who you are. Sure, one could get out with some magic pull like networking, but if one had access to such magic, they wouldn't have been in a situation to need it to start with.",
+          "score": 5
+        },
+        {
+          "body": "Yep. Went to a top design school in the US for illustration/graphic design... I graduated at the tail end of that 2008 recession period. Couldn't find an internship I could afford to stay at (none in my hometown, none after I moved to the East Coast to try and get a better chance). Ended up  in contract and temp hospitality/customer service jobs to eat and avoid getting kicked out of temporary living situations, never making more than barely above minimum wage. Never got a chance to have an 'entry level'  full time job at a company in something creative- the closest I've got was a  \\*lot\\* of random  freelancing for pennies - clients who just wanted me because I was willing to work for next to nothing.  Can't eat exposure, and bigger companies were never impressed by the portfolio that kind of work was building, especially because the freelance clients I got tended to take the work, and never acknowledge I existed after that. Barely any time between day jobs and bad freelancing to work on my own projects. The rejection, frustration, long hours (one survival job worked me 60 hrs a week, and then...I'd go home and try and work on my portfolio) made me burn out by 26. I tried to end everything, rather than continue in that situation. \n\nThat didn't work, obviously.\n\nHad to move back home to my parents in WA state to recover.  2 years of therapy taught me a lot about myself, but... my luck in finding anything design related continued to go nowhere in a metro where the demand is very low. Took some business admin classes but couldn't afford to finish the post-bacc (financial aid ran out - more student loans). Closest professional job since was working as a prepress technician for a printing company. My manager (not the same who hired me - they retired a few months afterwards) openly loathed anything to do with graphic design, and as time went on - anything remotely related was taken away from my department for automated processes, or, was outsourced elsewhere. So just like the times before, when I was unable to balance uninteresting demands during the pandemic versus my desire to feel fulfilled  via creativity - I burnt out again. My manager threw up a lot of negative emotions when I tried to take leave for the sake of my mental health (as well as deteriorating relationships  with family members over the late hours I was working), so, I left that position. That was about 2 years ago. Haven't really picked up any drawing/design tools in the same way since.\n\nSo now I'm nearly 35, still living at home. I am currently working in retail for minimum wage at a cannabis dispensary, because that was what wanted to hire me after a short stint working and getting injured at the local Amazon fulfillment center. I work with 21 year olds who obviously don't have this much baggage hanging around their working lives.  Those who are around my age, are just as broken or more than me. Those who have degrees aren't using them at this level. Many drop outs, or never went to college co-workers.  Even more who have obligations I've actively tried to not get into before I get a career I can tolerate like children, relationships - so they're even more stuck in the grind than me.\n\nThe corporation managing me moves as fast as molasses- there's no promotion in sight that might get me a few dollars more per hour after a year at this grind. Everytime I open my email box or phone on another day - there's yet another rejection from jobs I'd want, recruiters in jobs I could tolerate rejecting me, and then a slew of recruiters pestering to convince me to do more of the customer service/sales jobs I desperately want to get away from, for bottom of the barrel wages. It actively makes me have panic attacks and emotionally break down when I'm not on shift, but - sure - I eventually find some arbitrary coping mechanism, and try again. And again. And again.\n\nMy college classmates who are still in a design job are now mid or senior professionals. They don't really offer much help, I've tried. They can get younger, more talented individuals for entry level jobs, and I'm obviously not good enough to be at their level anymore.\n\nGrad school? I got into a school for a MFA in NZ before the pandemic, after being rejected from most US schools due to a lack of LoRs, but...being told there were no scholarships for international students and the only way I was going if I wasn't rich was taking out 40k in US student loans, turned me off from that. Then COVID closing borders happened, and was the end of that. Similarly so, I see gaps in creative fields like VFX or UI/UX, but....I look into training opportunities that aren't universities? I don't know where I'm pulling 10-20k for a certification or bootcamp out my minimum wage savings. Or even the money for a computer strong enough to run the technology where 'shortages' exist. Or the free time to make a portfolio even I can stomach to look at.\n\nI'm so tired of everything by this point. Something will break. I'm desperately trying to make sure it's not me again.",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "title": "Stop submitting multi-column resumes with graphics",
+      "body": "I used to write resumes for a living 5 years ago and back then, most ATS (applicant tracking systems) could NOT accurately parse multi column resumes and so those resumes were immediately dumped in the trash. I just looked this up and many recent articles still say this is an issue.\n\nI'm making this post because I see so many posts here that say \"I submitted 50-100 applications and heard NOTHING! Is the market that bad? Am I terrible? Do I deserve a job?\"\n\nHearing absolutely nothing after 50-100 applications typically means your resume didn't even reach a human being, and the reason for that means it's because the format is bad, nothing to do with the content.\n\nBest practices:\n\nSINGLE COLUMN NO GRAPHICS. Don't put a needless picture of your face covering 25% of the page in the top left corner. Dont put graphics. ONE COLUMN (I cannot stress this enough). Keep it simple.\n\nDon't just say \"I did X\". Say \"I did X that resulted in Y (increased revenue, retention, growth, better visibility, whatever else)\".\n\nAbout me/summary should be about your skills, NOT your personal life and hobbies because honestly, nobody cares. They care if you know SQL, Salesforce, Python, any sort of management software, whatever else is relevant to your field.\n\nOne page. Unless you're super duper special, 99% of resumes can and SHOULD be condensed into 1 page. Pick your most recent, most relevant experiences (with minimal gaps) and pick only the points that are relevant to the job description.\n\nUse buzzwords and other BS that's in the job posting itself, better chance of getting through the ATS.\n\nHope this helps at least one person get one more interview.",
+      "subreddit": "jobs",
+      "score": 74,
+      "url": "https://reddit.com/r/jobs/comments/145g02e/stop_submitting_multicolumn_resumes_with_graphics/",
+      "comments": [
+        {
+          "body": "I have a pretty buttoned up one page resume that hits everything you’ve touched on except the columns. I have one column listing work experience and one parallel smaller vertical that calls out skills. Also all of this is in .PDF to save any formatting issues resulting from Word (I work in marketing I’m pretty fixated on design and that’s a necessity in my line of work). Am I shooting myself in the foot though with ATS??",
+          "score": 3
+        },
+        {
+          "body": "I don’t think this is universal advice. I follow it, but my wife is a marketing manager and stylized resumes are standard.",
+          "score": 1
+        },
+        {
+          "body": "Honestly, I just took the resume that indeed generates and made edits to it so that it would work for me and fit in a single page.\n\nI will say that I'm pretty bad at giving my work experience a quantitative number like most people mention. Don't know why, but when I try to come up with a couple, my mind sort of freezes. So I just end up writing down my job duties.",
+          "score": 1
+        },
+        {
+          "body": "Yep. As someone who is a hiring manager for an architectural materials company…keep your resume simple…it is not the time or place to pretend you are a graphic designer from 1987.",
+          "score": 1
+        },
+        {
+          "body": "Thank you so much for this! I'm changing my resume right now following this post. I had no idea about all this honestly. Thanks 🙏🏼🙏🏼",
+          "score": 1
+        },
+        {
+          "body": "I'm a new marketing grad. I put a small logo on my resumes. Okay.. ¥or nay?",
+          "score": 1
+        },
+        {
+          "body": "I got a resume recently that has the person's face on it and a bunch of graphics. It looks clean but putting your face on a resume is a big no no. A few years ago I had someone put their marital status on theirs. I did some googling and turns out in some cultures or countries that's normal. Not in the US though.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Job search sucks !",
+      "body": "Hi All, \n\nI got laid off 8 months ago, I know it's a long time. I have been trying to search job since day one I have hardly gotten 10 interviews so far from I have been selected for 2 of them Lastly, I gotta know if I am either overqualified or underqualified. I have family to take care of my spouse is doing two jobs . Leaving California is so tough plus the job market is tough. if you apply for a job there are already 100 people in front of you. Linkedin, glassdoor, and Indeed are all sites I have tried and found no luck so far, it's damn frustrating. How can you build your courage and mind again for the work you want to do? Every morning I get up I see one or two max rejection emails . The hope dies there itself, I want a job so I can gain my self-confidence again and help my family . Doing small part-time jobs doesn't get you what you want.\n\nupon that when a recruiter calls you,, you have that slight happiness, oh things will go forward with this at least but, when they don't call you back that you have not selected or there is no response from them is also annoying. every human wants a full-course meal on their dinner table guys!  How can I get not a chance to showcase myself? \n\nI have a master's degree, working in the Software industry for 10 years. I am good at salesforce Business analytics, program manager, and scrum master anything will go. please guys if you know anything about how to land a job or any connections will help me here. Thanks.",
+      "subreddit": "jobs",
+      "score": 2,
+      "url": "https://reddit.com/r/jobs/comments/1dqxfgv/job_search_sucks/",
+      "comments": []
+    },
+    {
+      "title": "Am I safe to assume I'm unhire-able?",
+      "body": "I was laid off back in before the end of the year after they basically spent 6 months phasing me out. I was brought on as a Salesforce developer but they basically treated me like an intern for nearly 4 years. There were no opportunities to grow and any new skills were rushed through and I never really learned the finer points. The trainings were rushed because the lead dev (with a decade of experience) could complete 40 hours of training in 1 day and management went \"well he did it that fast, so can you\". I also basically wasn't allowed to do a lot of tasks because the lead dev refused to delegate anything and I still got penalized when he wouldn't delegate. I was laid off after they basically gave me tasks that I couldn't complete so they could use that as an excuse to get rid of me.\n\nBasically this job was shit experience and the only thing I feel I developed was a dislike of development work. I have a Computer Science degree and Salesforce dev/admin experience where i feel like I have holes in that experience. I've applied to some couple hundred jobs and I've gotten 1 interview in 8 months. \n\n\n\nBetween this gap in time and experience, am I safe to assume that no one will want to hire me?",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/1mdl9t6/am_i_safe_to_assume_im_unhireable/",
+      "comments": [
+        {
+          "body": "You are not remotely \"unhirable\"\n\nYou've got a degree and worked at that job for 4 years. Make it shine on your resume.",
+          "score": 2
+        },
+        {
+          "body": "You had a good title for 4 years, make the resume reflect that rather than the work they had you doing.\n\nWork on some free trainings and anything with practical work to help bridge the gap, speak to people that have done the role. The most important asset for landing an interview is years of experience with a good title, the interview stage is on how you represent yourself and speak to the skills.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "I have some good news for ya'll",
+      "body": "Hello;\n\nI am top of my field and have been for some time.\n\nI share this all NOT to brag, but to levelset. If its hard for me, its sure as HECK hard for everyone else.\n\nI've been in the game for 15 years and tend to look for new roles every 2-3 years if not promoted/incentivized to stay (Im in a field that prizes \"up to dateness\"). I've been looking for a new role for nearly a year and a half.\n\nIt's been brutal. Torturous. Truly awful. I've never seen anything like it in my career. Ghosting. 7-8 interviews. Then they decide to go with other candidates. Next steps that never manifest. Insulting, lowball offers.\n\nThe past month and a half, things are changing. Recruiters are knocking, for the first time in a long time. Ive got at least 3 interviews booked for next week (and an offer in hand). The offer wasn't easy: I had a seven layer interview process and needed to present a deck (25 slides) I made, to their CMO -- and I also had the endorsement of their head of sales. But its an offer for one of \\*the\\* most important AI companies.\n\nIts less than I was making four years ago, but its more than I've BEEN making recently, if that makes sense (I took a 40% paycut in the darkest of times). This brings me back up to about 30%.\n\n**Advice, FWIW:**\n\n* Apply to listings posted within that same day\n* See if you know anyone that works there to vouch for you\n* Be aware of the changing tides; AI companies are emerging and taking over. IE: \"Field AI\" is a new company replacing traditional field ops; Salesforce has a huge field management platform - this new company will eat their lunch. There's a thousand cases like this. Find the disruptors.\n* AI companies are starting to use language about mandatory \"humans in the loop\" to counteract misbehavior. I dont know what this role will be called, but it will be important. Data science, etc.\n* Robotics, welding, etc. If you are truly skill-less and lost, trade school -- theres always a demand for welders, electricians. Robotics is here. Get ahead of it -- community college, whatever has a path forward. What do robots need? Metal. Wires. Electronic components. This is an industry that will need technicians, engineers.\n\nAll of this to say: if I am a canary, then it's time to try, try again. Things seem to be on the upswing.\n\nGood luck out there!!!!!",
+      "subreddit": "jobs",
+      "score": 4,
+      "url": "https://reddit.com/r/jobs/comments/1m34z3c/i_have_some_good_news_for_yall/",
+      "comments": [
+        {
+          "body": "Congrats, and thanks for sharing tips! Very sweet of you! Sounds like you’ve certainly had your hands full when it comes to job searching. I recently joked that modern job searching is essentially a second part-time job in itself (unpaid, though, unfortunately). Glad things are workin’ out for ya!",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Can’t find a job",
+      "body": "Hi All!\n\nJust looking for advice.  I am a salesforce admin with over a year of experience in contract roles.  I have been looking for a job for the last few months.  I’m very open to opportunities and even ok with a lower salary just to get my foot in the door somewhere.  I’ve gone through a few interview processes only to be told I did not get the job and they chose the other candidate because they had more experience.  I get choosing someone because they have more experience, but why put me through the process when I didn’t have a chance?  Recruiters have no other feedback to provide.  I’m trying to keep my skills sharp by getting more certifications and doing volunteer work, but that doesn’t pay my mortgage.  Is it desperate to post something on LinkedIn letting my network know I am looking for a job?  Any advice on how to present myself when pitted against candidates with more experience?\n\nThanks for the help!",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/1gr5bwo/cant_find_a_job/",
+      "comments": []
+    },
+    {
+      "title": "Not Getting a Job",
+      "body": "I dont know why i am not getting a job and its been a month now that I left my last company. Can anyone help me as stress level is getting higher day by day.",
+      "subreddit": "jobs",
+      "score": 2,
+      "url": "https://reddit.com/r/jobs/comments/1emz5i9/not_getting_a_job/",
+      "comments": [
+        {
+          "body": "Hello, \n\nHere are my suggestions, feel free to take any of them or not as everyone has different things that work for them. \n\n1. Remove your Headshot section. And bring your “contact” section up here. \n2. Remove “Resume objective” as this is only taking up space and not necessarily needed in todays world\n3. Elaborate on your bullet points for job duties (specially the ones that are single bullet point, they are kind of vague and don’t really share much of what you did or results)\n4. Is there a reason why you have your social media handles? If it’s a personal account, I would HIGHLY encourage you to delete it. If it’s a business/professional accounts, I would suggest you create a tinyurl or linktree  url where you can plug in all your social media handles into 1 general link that can take them to all your social media handles. \n5. For address, don’t put your full personal address, only put your city/zip code\n6. Consider writing a small description for each of your skills and how long you’ve had it for/practice it for. \n\nAlso, I noticed you’ve only stayed about 2 years at each of your jobs listed. I’m not familiar with people who have jobs in the data analyst sector but is this common for yall to work around 2 years at one company and then leave? \n\nI ask because to me, this shows you’re a job hopper (since you only stayed for 2 years at each of your jobs) and that can be a red flag to recruiters as it can give the impression you’re not “committed/loyal”. Hope this helps.",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "title": "(TX) can my employer force me to resign? what are my options in this situation? ",
+      "body": "Throwaway account.\n\n\n\nI accepted a hybrid role 7 months ago and at first it was great. There was flexibility and transparency but somewhere around 2-3 months everything changed and my employer became my worst nightmare. I'm a Salesforce professional so my role can be done entirely remote and my manager verbally told me when I started that my role would eventually transfer to completely remote, but recently she told me she doesn't remember saying that. \n\nSchool is out for summer soon and I do not have childcare/daycare/summer camp options. I have asked my employer if I can be remote to keep my job and HR and my manager said full-stop no. I know if I resign, I won't be able to apply for unemployment, but my manager has made it clear she needs a 2-week notice. I want to do what's best for me and my three boys, so what are my options here? \n\nI want to just remain remote the first day after school ends, and email my manager to request to work remotely, and wait for her negative response but I'm not sure what to do after that. What should the email say, how should I word it? I want them to fire me so I can get unemployment while I look for another job. Since I've only been here 7 months, it doesn't look good on my resume and it's been hard to get interviews (I've been looking for a remote role since the shift in management) so I don't want to put myself in an even worse position. Job market is rough. This is a small employer, about 100 employees so I don't think they will give me a severance package and I'm assuming unemployment would last longer than a package. I would get the max for unemployment if I did apply and it would be well below what they are currently paying me, so they might just fire me to cut costs. Idk. Please let me know your thoughts and thanks for your time. ",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/1cnyibm/tx_can_my_employer_force_me_to_resign_what_are_my/",
+      "comments": [
+        {
+          "body": "Common misconception is that \"getting fired = guaranteed unemployment.\" If you refuse to go into the office and they fire you, they'll fight any unemployment claim on the grounds of job abandonment and they will very likely win. Which means no unemployment for you.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "What is techno managerial round in interview??",
+      "body": "Hey\nI have cleared my technical round with a company for Salesforce Administrator role and now the HR has set-up a Techno Managerial round today, I am not sure what to expect from that interview, can someone please explain it would be of great help \n\nThanks in advance",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/1ct4f3r/what_is_techno_managerial_round_in_interview/",
+      "comments": []
+    },
+    {
+      "title": "Sr ES Data Management Specialist Interview- Salesforce",
+      "body": "Has anyone got interviewed for Sr ES Data Management Specialist role at Salesforce recently? I was interviewed 2 weeks back and when called HR for an update, they said the Hiring Manager is on leave and will update soon. Should I keep my hopes up?",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1p01w1w/sr_es_data_management_specialist_interview/",
+      "comments": [
+        {
+          "body": "you can try past interview questions on - [www.pastinterviews.com](http://www.pastinterviews.com)",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Product Manager interview round for Data Engineer MTS role at Salesforce? Wanted to know what type of questions a product manager might ask.",
+      "body": "Hi, I have applied for Data Cloud Engineer MTS role and went through all technical rounds, now i have last few rounds remaining. I have upcoming interview with a product manager. I don't feel very confident with behavioral questions.   \nI was hoping someone could share their experience interviewing with a product manager at Salesforce. What kind of questions should I expect in this round, and what's the best way to prepare?",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1n2lntr/product_manager_interview_round_for_data_engineer/",
+      "comments": [
+        {
+          "body": "A product manager at Salesforce is going to focus heavily on how you think about the customer impact of your technical work and how you collaborate cross-functionally. They'll ask questions like \"Tell me about a time you had to explain a complex technical concept to non-technical stakeholders\" or \"How do you prioritize competing technical requirements when resources are limited?\" They want to see that you understand the business context behind your engineering decisions and can communicate effectively with product teams. Expect scenario-based questions about handling conflicting priorities, dealing with ambiguous requirements, and times when you've had to push back on unrealistic timelines or scope.\n\nThe key is framing your technical experiences through a business lens - show how your data engineering work directly impacts user experience, product performance, or business metrics. They're not testing your technical skills here; they're evaluating whether you can be a strategic partner who thinks beyond just writing code. Practice telling stories that demonstrate your ability to influence without authority, handle ambiguity, and make decisions when you don't have all the information. Since behavioral questions are your weak spot, you might want to check out [interviews.chat](http://interviews.chat) \\- I'm on the team that built it, and it's designed specifically to help you navigate these tricky cross-functional interview scenarios and practice your responses until they feel natural.",
+          "score": 1
+        },
+        {
+          "body": "you can try past interview questions on - [www.pastinterviews.com](http://www.pastinterviews.com)",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "I have an interview at Salesforce for an Account Executive Position. Any advice?",
+      "body": "Salesforce is my dream company. This is the opportunity of a lifetime for me. Any advice would be so helpful!",
+      "subreddit": "interviews",
+      "score": 2,
+      "url": "https://reddit.com/r/interviews/comments/14xpd50/i_have_an_interview_at_salesforce_for_an_account/",
+      "comments": [
+        {
+          "body": "you can try past interview questions on - [www.pastinterviews.com](http://www.pastinterviews.com)",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Worst interview experience I've ever had...",
+      "body": "This is a follow-up on this post: [https://www.reddit.com/r/jobs/comments/grvpqw/company\\_who\\_rejected\\_me\\_is\\_making\\_contact\\_again/](https://www.reddit.com/r/jobs/comments/grvpqw/company_who_rejected_me_is_making_contact_again/)\n\nSo basically, a company that I interviewed for a few months back contacted me for another position within the same Marketing team. I clearly made enough of an impression that they called back. The Marketing Director told me the job description and I was interested. Now here's what happened, after I spoke to her.\n\nInterview #1 with VP of Sales: Went well, no issues there.\n\nInterview #2 with CMO: Went well, no issues as well.\n\nAfter speaking with the Marketing Director again, she offered me the position over the phone. She THEN asked for references, which I gladly gave, and that I'll have to wait a few days for the official paperwork.\n\nA couple of days later, she gives me a call asking if I'd be willing to speak to the General Manager of the company, as a final interview (this was never mentioned before).  I was getting a bit frustrated at this point, since interviewing makes me very anxious and it basically takes all of my energy. Up to that point, I talked to her, and two other people. That's three interviews. And they want me to talk to a FOURTH person?! She gave me a verbal job offer already!\n\nSo I ended up having my call with him, and he asked me questions about if I had experience with Salesforce (this also was never mentioned in any of the interviews prior) and I said I've never worked with Salesforce before. After that, nothing. Haven't received any paperwork and it's now over a week since the verbal offer. I sent a follow-up email with the Marketing Director asking if she had an update for me. She called me today saying that they weren't going to move forward with me, because I didn't have Salesforce experience they were really looking into someone with knowledge of that tool (you had THREE interviews prior to bring this up and no one ever did, hello?!?!). And some other bs about how the position is \"evolving\" and how much she likes me and how great I am and it's not about me (it never is, huh?).\n\nSo all in all, I wasted hours of my time on a company that bailed last minute after giving me a verbal offer because of a tool that I lacked experience in, which they NEVER asked me about. I honestly don't know why I made this post other than to rant, but clearly all these companies post-COVID are losing their minds. I've been unemployed 10 months now and this was my best shot at a job and it blew up in my face.\n\nBack to the drawing board for me!",
+      "subreddit": "jobs",
+      "score": 54,
+      "url": "https://reddit.com/r/jobs/comments/he4ocv/worst_interview_experience_ive_ever_had/",
+      "comments": [
+        {
+          "body": "This is a shitty situation to have wasted your time like that. Look at it this way you could have been hired and worked in this chaotic environment or worse been pressured to be a Salesforce expert before your probation period was up. As much as we all want to work right now you dodged a bullet IMO.",
+          "score": 26
+        },
+        {
+          "body": "I went through multiple interview rounds for my dream job including a final panel of 4 people after my interview with the hiring manager. I get through the panel, feels great, they only brought 3 candidates in for that round, and a week later I followed up with the HR person. Turns out they hadn't really articulated what they wanted in the posting and after the panel round they realized they didn't want any of us. They rewrote the ad and reposted. It's still on Indeed 3 months later. It was heartbreaking, but it's life.",
+          "score": 7
+        },
+        {
+          "body": "Sometimes this happens, a hiring manager gets excited about you and then someone higher than them wants to then meet you and levies input that wasn’t provides or thought about originally because they don’t have to work with you as closely so they focus on the one thing that the person who was excited about you felt they could overcome. Did you by chance mention the experience you do have in related software and a history of picking up software quickly?  Often that helps.",
+          "score": 6
+        },
+        {
+          "body": "[deleted]",
+          "score": 5
+        },
+        {
+          "body": "If they do stuff like this, ut is a sign of a shitty company. You should be thankful that didnt start working there.",
+          "score": 4
+        },
+        {
+          "body": "This stinks. I had this happen to me before, you'll find one soon enough!",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "title": "Has anyone ever attend a Senior DevOps Engineer Interview at Salesforce ?",
+      "body": "Hello everyone,\n\nI am going to have a interview at Salesforce for Senior DevOps engineer role and would appreciate if you can share your interview experience or any tips which will be useful for the interview.  \nI'll be thankful to you.\n\nNOTE:- This is not Salesforce DevOps role so only generic DevOps interview is expected as confirmed by HR.",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1p0mebi/has_anyone_ever_attend_a_senior_devops_engineer/",
+      "comments": [
+        {
+          "body": "For a Salesforce Senior DevOps interview, expect deep dives on how you design CI/CD, IaC, and handle incidents, plus some system design around scale. When I did a similar loop, they asked me to sketch a multi region pipeline with canary, rollback strategy, secrets, and approvals, then poked at Kubernetes networking and Terraform state practices. What helped me was doing timed dry runs where I narrate tradeoffs and keep behavioral answers in STAR under 90 seconds. I paired prompts from the IQB interview question bank with Beyz coding assistant for mock pipeline design and metrics talk like MTTR and change failure rate. You’ll do fine if you stay concrete and quantify impact.",
+          "score": 2
+        },
+        {
+          "body": "They really dig into your experience/knowledge with their platform - not just generic DevOps stuff.\n\nFrom what i've heard they'll grill you on:\n\n\\- Salesforce DX and how you've used it for CI/CD\n\n\\- Their specific deployment tools (change sets, metadata API, etc)\n\n\\- How you handle org migrations and sandbox management\n\n\\- Security and compliance in multi-tenant environments\n\nThe behavioral rounds matter a lot too. They want to see you've dealt with complex deployments and can handle the politics of enterprise releases.\n\ni work at Prepfully and we've got a few DevOps engineers who came from Salesforce who do interview prep. They always mention how Salesforce cares way more about platform-specific knowledge than most companies. Like you can't just coast on generic Jenkins/Docker knowledge.\n\nalso good to know - they often throw in a live troubleshooting scenario. Not full coding but they'll show you a deployment issue and want to see how you'd diagnose it. Practice thinking out loud about your debugging process.\n\nAlso prepare for questions about managing technical debt in large orgs. Salesforce deals with massive legacy systems so they want people who can balance innovation with stability. \n\nand, if you'd like to be fully prepared, I'd highly recommend doing mocks with Sr Devops Eng at Salesforce. We've got some good chaps on prepfully. hit me up if you're looking for discounts. Regardless, a very good luck!",
+          "score": 2
+        },
+        {
+          "body": "you can try past interview questions on - [www.pastinterviews.com](http://www.pastinterviews.com)",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Anyone interviewed at Salesforce (USA) recently for New Grad / Future Force?",
+      "body": "I was recently contacted by a Salesforce University Recruiter and asked to complete a Future Force Hackerrank OA (I had to solve 1 Bitwise questions and 1 DP question in 60 mins). After finishing it, they reached out to schedule 3 rounds of interviews (45 mins each).\n\nI’m a bit confused about the role, the email subject line mentioned something like a “Senior/Lead” role, but I only have \\~1 year of work experience and since this came through Future Force, I assumed it’s an early careers / new grad track? The recruiter wasn’t very clear when I asked. She just mentioned I’ll be tested on algorithms and “analytical thinking.”\n\nI know Salesforce doesn’t hire very often, so I was wondering if anyone here has gone through their process recently and can share:\n\n* What to expect in the 3 rounds (all technical or some behavioral/resume grilling too)?\n* How tough are the LC-style questions - more easy/medium, or do they push into hards?\n* Do they care a lot about optimizing solutions or mostly just correctness?\n* Any behavioral/cultural interview questions to prepare for?\n\nWould really appreciate any insight since there isn’t much info out there.\n\nThanks in advance!",
+      "subreddit": "interviews",
+      "score": 0,
+      "url": "https://reddit.com/r/interviews/comments/1n44o2c/anyone_interviewed_at_salesforce_usa_recently_for/",
+      "comments": [
+        {
+          "body": "The confusion about the role level is actually pretty common with Salesforce's Future Force program - they sometimes have tiered positions within the new grad track, so \"Senior/Lead\" might just refer to a slightly higher starting level based on your experience or performance in the screening. Don't overthink the title discrepancy since you're clearly in their early careers pipeline.\n\nFor the three rounds, expect a mix of technical coding challenges and behavioral questions, with most of the focus being on medium-difficulty algorithm problems rather than the hardest LeetCode questions. Salesforce tends to care about both correctness and your thought process, so talk through your approach even if you're not getting the most optimal solution right away. They'll definitely ask about times you've shown leadership, handled conflict, or dealt with ambiguous situations since their culture values collaboration and customer focus. The \"analytical thinking\" piece often means they want to see how you break down problems and communicate your reasoning, not just whether you can code the perfect solution. I'm on the team that made [AI for interview practice](http://interviews.chat), and it's been really helpful for people preparing for these kinds of technical interviews where you need to think out loud and handle curveball questions about your experience and problem-solving approach.",
+          "score": 2
+        },
+        {
+          "body": "Congrats on getting the interview OP. It's very rare to hear someone getting a call from Salesforce. Are you a recent grad and how did you apply for the role?",
+          "score": 1
+        },
+        {
+          "body": "you can try past interview questions on - [www.pastinterviews.com](http://www.pastinterviews.com)",
+          "score": 1
+        },
+        {
+          "body": "Hi I have a few questions. Dm-d u!",
+          "score": 1
+        },
+        {
+          "body": "I can help you with a mock interview if you want to do a practice run! :-)\n\n[https://calendly.com/rohit-pixeled-apps/30min](https://calendly.com/rohit-pixeled-apps/30min)",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "title": "Salesforce - Principle Member Technical Staff System Design Interview",
+      "body": "Sharing my system design interview experience at Salesforce\n\n[https://open.substack.com/pub/doniv/p/salesforce-system-design-interview?r=5l1mo&amp;utm\\_campaign=post&amp;utm\\_medium=web&amp;showWelcomeOnShare=true](https://open.substack.com/pub/doniv/p/salesforce-system-design-interview?r=5l1mo&amp;utm_campaign=post&amp;utm_medium=web&amp;showWelcomeOnShare=true)",
+      "subreddit": "interviews",
+      "score": 2,
+      "url": "https://reddit.com/r/interviews/comments/1kvn2q3/salesforce_principle_member_technical_staff/",
+      "comments": [
+        {
+          "body": "you can try past interview questions on - [www.pastinterviews.com](http://www.pastinterviews.com)",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "What should I wear for the interview? ( I am a female, job type is sales representative at a salesforce firm)",
+      "body": "I have no idea what should I wear, or where can I buy it.\n\nI don't have much time till the interview so maybe I can not order online, even not shopping offline...",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/16ttkq6/what_should_i_wear_for_the_interview_i_am_a/",
+      "comments": [
+        {
+          "body": "Button up blouse, nice pants such as slacks, or black jeans if you don’t have any. Nice shoes such as loafers.",
+          "score": 2
+        },
+        {
+          "body": "you can try past interview questions on - [www.pastinterviews.com](http://www.pastinterviews.com)",
+          "score": 1
+        },
+        {
+          "body": "Best foot forward. Always.",
+          "score": 1
+        },
+        {
+          "body": "I usually get my interview clothes from Express.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Salesforce (Slack) interview - Account Partner",
+      "body": "Hi everyone! I will have an interview for the role as Account Partner (services sales) at Slack but could not find much info on Glassdoor.\nCan someone please give me any useful tips?\nIf anyone has gone through their hiring process please let me know if you still remember the questions they asked :)\nIt is my dream to work there!",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/12ac8sp/salesforce_slack_interview_account_partner/",
+      "comments": [
+        {
+          "body": "you can try past interview questions on - [www.pastinterviews.com](http://www.pastinterviews.com)",
+          "score": 1
+        },
+        {
+          "body": "This is about 3 months old, but i have the same question now mate. Any nudge in the right direction?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Salesforce (Experience | Tech Stack | Benefits | Projects | Requirements | Preparation | Interview)",
+      "body": "Salesforce has been aggressively hiring across various roles and levels of experience. \n\nThis video summarizes different aspects of Software Engineering at Salesforce. I also attempt to give an overview of the interview process and preparation that might be helpful for someone planning to apply in Salesforce.   \n   \nHope you find this video helpful.  \n\n\n[https://www.youtube.com/watch?v=Q3l9BqbjaiY](https://www.youtube.com/watch?v=Q3l9BqbjaiY)",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/otr02v/salesforce_experience_tech_stack_benefits/",
+      "comments": []
+    },
+    {
+      "title": "Salesforce (Experience | Tech Stack | Benefits | Projects | Requirements | Preparation | Interview)",
+      "body": "Salesforce has been aggressively hiring across various roles and levels of experience. \n\nThis video summarizes different aspects of Software Engineering at Salesforce. I also attempt to give an overview of the interview process and preparation that might be helpful for someone planning to apply in Salesforce.   \n   \nHope you find this video helpful.  \n\n\n[https://www.youtube.com/watch?v=Q3l9BqbjaiY](https://www.youtube.com/watch?v=Q3l9BqbjaiY)",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/otr0oj/salesforce_experience_tech_stack_benefits/",
+      "comments": [
+        {
+          "body": "you can try past interview questions on - [www.pastinterviews.com](http://www.pastinterviews.com)",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "From Nearly 2 Years Unemployed to a €100K Offer...  I Didn’t Give Up (You Shouldn’t Either)",
+      "body": "Hi all,\n\nI just wanted to share my story for anyone out there feeling stuck, or hopeless.\n\nI’ve been unemployed for almost two years.\n\nDuring this time, I struggled with rejection after rejection. I moved countries (I left Italy when I was about 19, now I am 27), I doubted myself every day, and watched others land roles while I couldn’t even get a reply back.\n\nMy last role paid around **€48K/year**, and even that ended abruptly.\n\nIt felt like the world was telling me I wasn’t good enough. I was recently ghosted from Salesforce after three interviews, and a presentation that took me 7 hours to prepare.....\n\nBut I kept preparing. I kept improving. I built the strongest presentation I’ve ever made. I studied, practiced, rehearsed for hours.\n\nI just completed **5 interviews**, I gave it everything. (they were supposed to be 4, but they invited me for a 5th exceptional one just to discuss some of responses I gave them in previous interviews).\n\nAnd today — I just got a verbal offer.\n\n**€72K base + commissions + stock options. Total comp up to nearly €100K (and I don't need to leave Italy again, I can stay in my home country 😭)**\n\nI proved I was worth it. I made it happen.\n\nIf you're reading this and you're unemployed, or underpaid, or feel invisible...\n\nKeep building AND KEEP IMPROVING  \nKeep showing up  \nKeep believing you deserve better, ALWAYS\n\nI know it sounds cheesy, but this is your sign not to quit.\n\nYou might be one great interview away from changing your life. Also, if a company schedules an additional interview, it does not necessarily mean you will not get the job..\n\nHappy to answer questions or share tips if helpful ❤️",
+      "subreddit": "interviews",
+      "score": 175,
+      "url": "https://reddit.com/r/interviews/comments/1lu6n92/from_nearly_2_years_unemployed_to_a_100k_offer_i/",
+      "comments": [
+        {
+          "body": "Thank you for sharing! I wish I couldve read this months ago because I was losing hope finding a job. I recently I got a county job working at an animal shelter, Im gunna get 25 an hour, plus benefits. I almost gave up, but then I got really lucky",
+          "score": 8
+        },
+        {
+          "body": "So happy for you! I am unemplyed for a year and going through same feelings!",
+          "score": 5
+        },
+        {
+          "body": "Congrats , I just got an offer today 🙌🏾 after 8 months . It’s far from my house but I have to make it work 💯. I hope all goes well",
+          "score": 4
+        },
+        {
+          "body": "Congrats brother I’m happy for you and you earned it 💪 It makes me happy hearing these kind of stories",
+          "score": 3
+        },
+        {
+          "body": "I needed this! Thank you for sharing and congrats!",
+          "score": 3
+        },
+        {
+          "body": "So timely!!! I am happy for you, this gave me so much hope. I have been jobless for 8 months now but this is my sign to continue improving",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "“In Consideration” without an interview for more than a month!",
+      "body": "I applied for a position at Salesforce a month ago. The status has stayed unchanged showing as \"In Consideration\" since then. But, the strange thing is, the same position has been reposted 3 times since I applied for the position. \n\nIs Salesforce just hanging on to my resume and still continuing to search for candidates hoping they would get someone better without giving me a shot at an interview? Or am I reading too much into it?\nThanks all. \n",
+      "subreddit": "interviews",
+      "score": 3,
+      "url": "https://reddit.com/r/interviews/comments/1nom1x2/in_consideration_without_an_interview_for_more/",
+      "comments": [
+        {
+          "body": "Salesforce is a HUGE company and I know people who got offered jobs there after being in an application stage with them for over 6 months. Don't assume you've been rejected by them yet  if the status says your still being considered for a role. Just keep applying to other jobs because having more offers to choose from is better than having less.",
+          "score": 1
+        },
+        {
+          "body": "you can try past interview questions on - [www.pastinterviews.com](http://www.pastinterviews.com)",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Does This Mean I’ll Get the Job or",
+      "body": "I interviewed for an entry-level Salesforce support role and had my final panel yesterday (Thursday, July 17).\n\nTimeline: • July 2: Phone screen with recruiter • July 8: Invited to 2nd round • July 14: 2nd round with hiring manager (felt solid) • July 17: Final panel with 3 people (tech, senior admin, and the same recruiter)\n\nThe recruiter wrapped up with culture-fit questions, asked how the process felt, went over next steps, and even asked for my availability on Monday (July 21) — then actually scheduled a time with me.\n\nI sent a thank-you email after, and now it’s Sunday (July 20) — just a day later — but I’m feeling anxious.\n\nDoes this sound like I’ll be getting an offer? Or is it still totally up in the air?\n\nWould love to hear from anyone who’s been through something similar.",
+      "subreddit": "interviews",
+      "score": 0,
+      "url": "https://reddit.com/r/interviews/comments/1m52597/does_this_mean_ill_get_the_job_or/",
+      "comments": [
+        {
+          "body": "Unfortunately, there is no way to predict for certain whether you'll get the job. But the fact that you're getting that panel interview is a great sign!",
+          "score": 2
+        },
+        {
+          "body": "Might be an offer. Send an email tomorrow to ask when the recruiter is going to schedule that call",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Have a reporting analyst interview this Friday",
+      "body": "Hi I normally lurk around here but I don’t post, long story short I need to to prepare for this job interview i just never excelled in interviews because I don’t get interviewed allot I know I can figure it out once I get the job because I’m a fast learner, recruiter said they want someone who is not over qualified but entry level\n\nA little background story : a recruiter reached out from dice because they saw fit in my resume, although I’m doing something irrelevant to data analyst and or any analytical role, I’m majoring in IT on my third year and currently doing python sql etc. I’m not too worried about the job itself but more so how I can pass the first interview, the recruiter stated they’re loooking for someone who knows is a junior in salesforce, KPI’s , dashboards and SQL i know I’ll do fine  but the first round of interview is what os making me nervous especially with the Chief technology officer, HR, and sales force admin this Friday, any tips or pointers would highly be appreciative, I know Reddit can be brutal and people will always reply and judge but I’m on the verge of being laid off in my current manufacturing job due to it being slow, I’m\n\nJob description : Experienced in using CRM platforms to manage records, navigate tools, and update system data efficiently. Skilled in building custom reports and dashboards using visual report builders, with a good understanding of how to apply filters, group data, and choose the right layout for insights. Able to add and customize charts within reports, adjust formatting, and present data clearly. Comfortable using Microsoft Excel, Access, Power BI, and similar tools for reporting and visualization. Familiar with organizing data structures and understanding basic database relationships to support accurate analysis. Strong analytical thinker with solid problem-solving skills, attention to detail, and the ability to handle multiple tasks and deadlines. Holds an associate degree in computer science (or equivalent experience) with 1–3 years in a relevant role. Proficient in Microsoft Office, writing basic SQL, and translating reporting needs into actionable outputs. Thrives in fast-paced environments, communicates well with teams and leadership, and brings a flexible, solutions-driven mindset to every project",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1kxmdel/have_a_reporting_analyst_interview_this_friday/",
+      "comments": [
+        {
+          "body": "You're actually in a better position than you think - the recruiter specifically reached out to you and mentioned they want someone entry-level, not overqualified, which means your current skill set and background already caught their attention. The fact that you're studying IT, learning Python and SQL, and have manufacturing experience gives you a unique perspective that many pure data analysts lack. Your manufacturing background probably means you understand operational processes and real-world data challenges, which is incredibly valuable for a reporting analyst role.\n\nThe key to nailing this interview is being authentic about your learning journey and showing enthusiasm for applying your technical skills to solve business problems. Practice common [reporting analyst interview questions](https://www.interviews.chat/questions/reporting-analyst) around data interpretation, SQL basics, dashboard design principles, and how you'd approach building reports for different stakeholders. Be ready to discuss specific examples of problem-solving from your manufacturing job and how those skills translate to data analysis. When they ask about your experience gaps, frame it as eagerness to grow rather than a limitation - talk about how your fresh perspective and hunger to learn will benefit their team. The CTO, HR, and Salesforce admin are looking for someone who can communicate technical concepts clearly and work across departments, so focus on demonstrating your ability to translate complex information into actionable insights.",
+          "score": 2
+        },
+        {
+          "body": "you can try past interview questions on - [www.pastinterviews.com](http://www.pastinterviews.com)",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "have an interview? Use 1 interview to unlock 3.",
+      "body": "nowadays, interviews are extremely scarce. so if you ever do have 1, use it to get more.\n\nwhen i was at google, our average interview cycle took 2-3 months. but 1 candidate went from screener to final in a single week. why? they told us they had salesforce and meta interviews wrapping soon. we sped it up because we knew they were about to make a decision.\n\nthat’s the play. manage the power dynamic. share your timeline. create urgency. your value goes up when more people want you.\n\nthis works even if you only have 1 interview on the books. that first interview is your proof. you use it to reach out to other companies even cold and let them know you’re moving.\n\nTemplates candidates have used on me (and I've used myself)\n\n**dm to recruiter or hiring manager:**  \nhi \\[name\\], quick timing heads up. i have an interview with \\[company a\\] on \\[date\\] and expect feedback by \\[day\\]. your \\[role title\\] is a top choice for me. if it helps, i can make time this week for a screen or hiring manager chat. what’s the fastest way to move forward\n\n**email to a recruiter you already spoke with:**  \nsubject: quick timing update  \nhi \\[name\\], i’m interviewing with \\[company a\\] on \\[date\\] and they plan to decide by \\[day\\]. i’m very interested in \\[role title\\] here. if we can set up the next step this week, i can hold time. do \\[two options\\] work\n\n**last call message 24 hrs before a decision:**  \nhi \\[name\\], i expect a decision from \\[company a\\] tomorrow. i want to keep \\[company b\\] in play. if a same day screen or hiring manager chat is possible, i’ll make it work.\n\nhow to run the play:\n\nday 0: first interview scheduled at company a → same day, send this to 5-10 companies you want to interview with (jobs you already applied to or new ones\n\nday 1-2: follow up with anyone who hasn’t replied. every time you book another screen: repeat with a fresh set of companies\n\nstay calm and direct. no begging. no flexing.\n\n",
+      "subreddit": "interviews",
+      "score": 7,
+      "url": "https://reddit.com/r/interviews/comments/1ml46tv/have_an_interview_use_1_interview_to_unlock_3/",
+      "comments": [
+        {
+          "body": "This isn’t fool proof by any means. While this is a good strategy, plant of hiring mangers (mostly boomers) don’t like to relinquish any control. If a candidate is a stud it will work more often than not, but an average candidate will talk themselves out of a job with this.",
+          "score": 3
+        },
+        {
+          "body": "you can try past interview questions on - [www.pastinterviews.com](http://www.pastinterviews.com)",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "title": "Interviewing with a small marketing companies' IT department.",
+      "body": "This week, I received a message through LinkedIn from a recruiter asking if I was open to discussing a potential role. We had a quick call where he asked if I was actively looking, and shared details about a **Help Desk Analyst** position — which, from the description, sounds more like a **System Administrator** role.\n\nThe company is relatively small, with around **120 employees**, and I’d be the **second IT person** supporting the **IT Manager**. I agreed to proceed with the interview — I believe in exploring opportunities because you never know where they might lead.\n\nThe next day (today), I had a call with a **senior recruiter** who wanted to learn more about my background before moving me forward to meet with the IT Manager. Honestly, I felt like I completely bombed the interview. I was unusually nervous, stumbled over my words, and walked away feeling like I hadn’t made the best impression.\n\nSurprisingly, I received a call back later in the afternoon from the original recruiter, saying:\n\n*“Hey, they really liked you and want to move forward with the hiring manager. He reviewed your resume and background and is really interested.”*\n\nI have almost **8 years of IT experience**, from L1 help desk, Desktop support and now L2 end user support/Field technician. So, I’m not new to the IT world and glad that this came through. The next interview is scheduled for **Monday**.\n\n  \nMy concerns are as followed but could be overthinking it. I'm also not shy on taking on more responsibilities. I tend to welcome them with open arms. \n\n* The company is **newly established** — their **LLC was just registered two months ago in May**.\n* I’m used to working in **larger environments** like **MSPs** for **enterprise-scale** companies.\n* The IT Manager will be **going on leave**, meaning I’ll likely be solo for a bit.\n* The environment uses **Five9** and **Salesforce**, and ABM (Apple Business Manager) which I haven’t worked with before. I'm more familiar with tools like **ServiceNow**, **Workspace ONE**, and **Tanium**.\n\nI know I haven’t even received an official offer yet — and I might just be one of many candidates in the process — but I can’t help thinking it through. I also understand how tough the current IT job market is, so part of me is cautious.\n\nI’d be leaving a stable, comfortable role to step into a position that seems to be at the **center of everything** in a smaller, fast-moving company. It’s exciting, but also a bit of a leap.\n\n  \nSorry for the long read, and the pay will be 20% more. Which it sure is needed, lol. ",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1mdnpdw/interviewing_with_a_small_marketing_companies_it/",
+      "comments": []
+    },
+    {
+      "title": "Need Urgent Help!!",
+      "body": "I am gonna attend an on site event of SalesForce at Hyderabad and it is a hiring event that contains final interviews rounds and maybe a hackathon. Any guidance and insights and how do i prepare ?",
+      "subreddit": "interviews",
+      "score": 0,
+      "url": "https://reddit.com/r/interviews/comments/1l8rhig/need_urgent_help/",
+      "comments": [
+        {
+          "body": "For the interview rounds, expect behavioral questions about handling customer objections, working in teams, and times you've had to learn something quickly. They love the STAR method for responses, so have 3-4 solid examples ready that show your impact with specific numbers. For the technical side, if you're going for a developer role, review Apex basics, SOQL queries, and understand the Salesforce ecosystem - they might ask you to explain concepts rather than write perfect code.\n\nThe hackathon component is where you can really shine because it shows your ability to collaborate and build something functional under pressure. Focus on understanding the problem clearly before jumping into solutions, and don't try to build something overly complex - they want to see clean thinking and good communication with your team. Practice explaining your thought process out loud because they're evaluating how you work with others as much as your technical skills. Since this is happening soon, I'd recommend checking out [AI interview helper](http://interviews.chat) to practice handling those curveball questions they might throw at you during the interview rounds - I'm on the team that built it and we designed it specifically to help people navigate these high-stakes interview situations where you need to think quickly and respond confidently.",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Salesforce 2025 Internships",
+      "body": "Has anyone received interview for Salesforce? ",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1jdw371/salesforce_2025_internships/",
+      "comments": [
+        {
+          "body": "you can try past interview questions on - [www.pastinterviews.com](http://www.pastinterviews.com)",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Need Help! Sent Many Applications, No Interviews",
+      "body": "Hi everyone,\n\nI’ve been applying to many jobs but haven’t received any interview invitations. I’m not sure if my resume is the issue, so I’d really appreciate some honest feedback. Thanks.\n\nhttps://preview.redd.it/pj6zkkxv9kie1.png?width=1595&amp;format=png&amp;auto=webp&amp;s=61d57d85c91d133c8bca99a0d6a6cec1c7cd2d6e\n\nhttps://preview.redd.it/jsjlje73akie1.png?width=1665&amp;format=png&amp;auto=webp&amp;s=b44e35595aafc5dc0b801a3552a25c6dce33057f\n\n",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1in712m/need_help_sent_many_applications_no_interviews/",
+      "comments": [
+        {
+          "body": "\n\nyou can try past interview questions on - [www.pastinterviews.com](http://www.pastinterviews.com/)",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "job switch: implementation to services sales - is it possible?",
+      "body": "i have 7 years of saas implementation experience and im looking for a new role. i came across a services architect role where id be selling implementation services and supporting AEs, GTM leaders, etc with closing deals.\n\ni dont have any formal tech sales experience but ive scoped projects for AEs before and have also done a lot of discovery/program analysis on whats working/not working with clients’ current point solutions and then translating it into the products my company offers. wondering if this is something i even have a shot at doing as i dont carry a quota in my current role but i do identify upsell opps and i am familiar with MEDPICC.\n\n60% of my clients are global strategic accounts i have also been named an MVP for a successful implementation which led to a 30% increase in ARR for a global strategic tech account. i also have a lot of additional documentation ive put together that summarizes use cases/issues and then outlines the solution provided with the why/how as well as the professional services costs (was up to my eyebrows in salesforce to find all the info). im thinking since ive already been in a services role before, i have a strong idea of what to expect re: objections (documentation, timeline, pricing, etc). trying to make sure i leverage my experience and acknowledge all of the transferable skills i have for the role. not sure if ill have to go to interviews with a bunch of stats on my performance (since i dont carry a quota right now).\n\nthanks so much, i really appreciate any and all feedback.",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1hc75cf/job_switch_implementation_to_services_sales_is_it/",
+      "comments": []
+    },
+    {
+      "title": "Just venting - probably blew my 1st interview in 10 years because I wasn’t prepared enough",
+      "body": "I had a round 1 interview yesterday for a Salesforce Admin position that I felt pretty good/confident going into it since I have great experience/history that matches everything they are looking for, as well as an admin certification to boot. Also my buddy works at this company and said that my interviewer was a “chill, straight shooter Cali guy”. Hopes were high and I didn’t get nervous like I usually do going into an interview. \n\nHowever, this was my first interview in 10 years, and I admit that I am a bit naive to salesforce admin interviews and was definitely not prepared enough for the onslaught I was about to go through. After our brief introductions and “tell me a little about yourself”, the interviewer decided to play hard ball and pretty much grill me with questions similar to getting the SF admin cert (which is not the easiest test to take if you’ve been out work for several months, haven’t been studying, and haven’t been speaking the language) to test my technical knowledge. \n\nEach question I attempted to answer as best as I could from experience and memories, but being put on the spot made it difficult and feeling rushed didn’t help. I feel I got a good amount right (or in the ballpark), but could have answered way better and sounded more knowledgeable (confirmed this by googling post interview). I also mixed some things up and couldn’t remember Salesforce terminology. What sucks is that I know I know this stuff and how to perform Salesforce admin responsibilities, and have done it all at my previous job. I just couldn’t get the exact technical terms to come to mind for my answers, had difficulty remembering all technical options, and I mixed some things up. \n\nAfter the beating I took I asked what are the biggest challenges that the team is currently facing, and the interviewer said that they need someone who is good with people, has patience, and can serve as customer support (answer questions, guide/walkthrough, train, troubleshoot, etc.). This I know I am capable of, have a proven history of, and enjoy doing. \n\nI’m hoping that my interviewer can look past my shakey technical testing (which can be brushed up and solidified) and give me a shot to prove myself and my skill set. I know I can do the job and be a valuable asset to the team. I may have sabotaged myself though by being ill prepared. I’ll probably have to chalk this one up as a loss and learning lesson. Will have a better go at the next one. \n\nIf anyone has had a similar experience and has luckily/somehow been given benefit of the doubt, please provide words of encouragement. Man I really wanted this gig 😩",
+      "subreddit": "interviews",
+      "score": 4,
+      "url": "https://reddit.com/r/interviews/comments/1j3yc44/just_venting_probably_blew_my_1st_interview_in_10/",
+      "comments": [
+        {
+          "body": "Shake it off, learn from it, and be better prepared for the next one—one interview doesn’t define your entire career.",
+          "score": 3
+        },
+        {
+          "body": "you can try past interview questions on - [www.pastinterviews.com](http://www.pastinterviews.com)",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Suggestions on how to prep for Lead Data engineer role at Salesforce",
+      "body": "Hello,\n\nI have interview scheduled at Salesforce. Below is the job description, I want to to know possible questions that i might be asked.\n\n# JD:\n\nWhat you will be doing:\n\n* Develop and maintain our real time analytics/low latency data access layer built on top of modern OLAP solutions\n* Optimize the end-to-end workflow for data users at Slack (from crafting libraries to schedule data pipelines and access data assets).\n* Improve the data quality and reliability of the pipelines through properly monitoring and failure detection.\n* Comfortably collaborate with cross functional partners and lead technical initiatives end to end.\n* Be a role model and a multiplier, coaching and mentoring other engineers across the org.\n* Write, review, or provide feedback on a technical design proposal from others.\n\nDesired Skills:\n\n* 5+ years of experience in data engineering or data infrastructure with a proven ability to lead design and implementation of complex solutions\n* Experience in real time analytics/low latency data access layer with OLAP stores such as Apache Pinot or Apache Druid is a huge plus.\n* Experience operating Airflow or other orchestration tools and upholding best practices for workflow management systems.\n* Experience working with cloud infrastructure (AWS preferred).\n* You have extensive experience of building and maintaining large scale ETL pipelines and in-depth knowledge of various big data frameworks and architectures\n* Ability to identify and quantify high-value initiatives, break them down into milestones and drive execution\n* Ability to context switch and take fast action serving on monthly oncall rotation for both internal customer escalations and automated system page\n* You are skilled at crafting and building robust distributed microservices with tools like Docker, Kubernetes, AWS ECS/EKS etc.\n* You have strong dedication to code quality, automation and operational excellence: CI/CD pipelines, unit/integration tests.\n* You are proficient in object-oriented and/or functional programming languages: Python, Java/Scala, Chef, Terraform\n\nThis is my first big company to interview with, I really want to do well. Thanks in advance!",
+      "subreddit": "interviews",
+      "score": 2,
+      "url": "https://reddit.com/r/interviews/comments/1hzu4z1/suggestions_on_how_to_prep_for_lead_data_engineer/",
+      "comments": [
+        {
+          "body": "you can try past interview questions on - [www.pastinterviews.com](http://www.pastinterviews.com)",
+          "score": 1
+        },
+        {
+          "body": "Dude, that's a tough job description to prep for, but don't worry, it's not impossible! Based on your experience and skills listed, here are some potential questions you might be asked: What specific use cases would you implement with Apache Pinot or Druid? Can you walk me through how you'd optimize ETL pipelines for low latency data access? How do you ensure data quality and reliability in complex workflows?\n\nOne thing that helped me when I was prepping for similar interviews was to make a list of all the skills and technologies mentioned in the job description, then create example answers or scenarios where I demonstrated proficiency. For instance, if they ask about your experience with Airflow, think of a time you successfully used it to orchestrate complex workflows.\n\nIf you're interested, I can share an AI tool that helped me feel more confident during my interviews - it listens to the questions and suggests responses in real time. Let me know if you want to learn more! Keep in mind, this is just one aspect of preparation, but it might help take some pressure off. You got this, and remember to be yourself and show them your passion for data engineering!",
+          "score": 0
+        },
+        {
+          "body": "I'd be happy to help you prep for your interview at Salesforce.\n\nOne thing that's helped me when prepping for similar roles is to study the specific skills mentioned in the job description and practice answering behavioral questions related to them. For example, they want someone with experience in real-time analytics/low latency data access layer, so I'd make sure to brush up on my knowledge of OLAP solutions like Apache Pinot or Apache Druid.\n\nIn terms of actual interview questions, it's hard to say for certain what you'll be asked, but the job description does give some clues. You might want to prepare answers that show your experience with ETL pipelines, cloud infrastructure (AWS is a plus), and distributed microservices. They also seem to value strong communication skills, so make sure to practice articulating technical concepts clearly.\n\nOne thing that helped me when I was in a similar spot was using this AI tool that listens to the interview questions and suggests responses in real time. It’s not a guaranteed fix, but it made me feel more confident.\nIf you're interested, I can share it with you.\n\nKeep your head up - you've got this! You're interviewing at one of the biggest companies out there, which is a huge accomplishment already. Whatever happens, use this as an opportunity to learn and grow. If you want to chat more about prep strategies or anything else, feel free to reply!",
+          "score": -1
+        }
+      ]
+    }
+  ]
+}

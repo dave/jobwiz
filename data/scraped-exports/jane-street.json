@@ -1,0 +1,501 @@
+{
+  "company": "jane-street",
+  "post_count": 23,
+  "exported_at": "2026-01-18T17:44:53.284Z",
+  "posts": [
+    {
+      "title": "What does it take to intern at Jane Street?",
+      "body": "i've only heard that it's insanely hard to get into Jane Street (software engineering path), but what did successful interns had on their resumes or what makes them stand out when it comes to preparing for their interviews? i'm really curious because i want to challenge myself :)) ",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1p4mgjh/what_does_it_take_to_intern_at_jane_street/",
+      "comments": [
+        {
+          "body": "Jane Street is among the toughest places to get into. Usually requires going to a T10 school, having a close to perfect GPA, previous internships at FAANG, etc. On top of being a good enough coder to pass their technical interviews. Obviously you don't have to meet every one of those requirements and there are exceptions, but generally that's the case for most of their interns.",
+          "score": 22
+        },
+        {
+          "body": "I work at a similar place (JS, 2S, Cit Sec, HRT, etc). The idea that it’s all MIT or Cambridge students is wrong. Going to those schools helps, but we def hire from other schools. Some of the most cracked devs are from random state schools. You do need clear programming chops and an ability to tackle hard problems. Some people get noticed cause they write a blog post about a niche topic or do open source work or have a cool side project. Communication skills are also valued. You gotta know how to collaborate and work in high performing environments",
+          "score": 7
+        },
+        {
+          "body": "Jane Street wants razor-sharp problem solvers. Master algorithms, grind competitive programming, and learn to think under pressure. Their interviews destroy unprepared candidates.",
+          "score": 19
+        },
+        {
+          "body": "Would suggest looking up a few (ex-)Jane Street interns on LinkedIn. If you're curious, could even ask a few what was the process like.",
+          "score": 6
+        },
+        {
+          "body": "What year are you? They have freshman and sophomore programs (they are like short boot camps) that you should apply to and that will help you make connections at the company. Jane street also really likes puzzles.",
+          "score": 3
+        },
+        {
+          "body": "Almost all the people I know that went to Jane Street had some ICPC background 🥲",
+          "score": 3
+        },
+        {
+          "body": "Jane Street interviews are brutal - they focus heavily on probability, mental math, and thinking out loud under pressure. Most people who get in have strong competitive programming backgrounds or math olympiad experience.\n\nThe key is being able to explain your thought process clearly while solving probability puzzles on the spot. They don't care as much about your resume projects as your ability to think through complex problems quickly.\n\nPractice mental math daily and work through probability brainteasers. The interviews are more about raw problem-solving ability than typical coding questions.",
+          "score": 3
+        },
+        {
+          "body": "Try seeing what their requirements are in job listings. That's probably the bare minimum of what it takes.",
+          "score": 5
+        },
+        {
+          "body": "You’re going to have to be able to likely solve leetcode hards.",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Why does Jane Street interview so many people?",
+      "body": "If you look at their [glassdoor page](https://www.glassdoor.ca/Reviews/Jane-Street-Reviews-E255549.htm) they have 1.2k interviews with 656 employees according to LinkedIn. This gives us a ratio of **1.83**.  \n\n\n\nGoogle, on the other hand has has 11k interviews on [glassdoor](https://www.glassdoor.ca/Overview/Working-at-Google-EI_IE9079.11,17.htm) with 120k employees for a ratio of **0.092**.\n\n\n\n\n\n\n\nHere are some more `interview:employee` ratios from other tech companies:  \n\n+ Jane Street: **1.83** (1.2k interviews, 656 employees)  \n+ Facebook: **0.13** (5.7k interviews, 43,798 employees)  \n+ Microsoft: **0.05** (9.1k interviews, 165k employees)  \n+ Stripe: **0.14** (349 interviews, 2492 employees)  \n+ Citadel **0.11** (324 interviews, 2835 employees)  \n\nDoes anyone have a potentially reasonable explanation for this? I find it difficult to believe that each of their employees conduct 20x as many interviews as other companies. Could this be an inaccuracy with the Glassdoor or LinkedIn?",
+      "subreddit": "cscareerquestions",
+      "score": 1,
+      "url": "https://reddit.com/r/cscareerquestions/comments/ewikg1/why_does_jane_street_interview_so_many_people/",
+      "comments": [
+        {
+          "body": "I think this is just statistical bias. Google (and likely other Big N) interview tons more than they hire. Reports are that 1 in 2000 applicants get a job at Google [\\[1\\]](https://www.cnbc.com/2019/04/17/heres-how-many-google-job-interviews-it-takes-to-hire-a-googler.html).\n\nI'd imagine that people that get an interview at Jane Street are just a lot more likely to post about their experience than Google interviewees. Google certainly interviews significantly more people than Glassdoor suggests, so that statistic is at best unreliable.",
+          "score": 8
+        },
+        {
+          "body": "Why would interview volume be correlated to current employee count? This would imply exponential growth, always, which is a ridiculous implication.\n\nIf you notice, the companies in your list with higher ratios have far lower employee counts. This is because small companies grow faster than larger companies. A startup can increase in size 10x in one year. Microsoft cannot.",
+          "score": 4
+        }
+      ]
+    },
+    {
+      "title": "Jane Street onsite interview difficulty",
+      "body": "Has anyone here had an onsite interview at Jane Street for a software engineer position and can comment on the difficulty vs. other big tech companies? \n\nThere's plenty of information on glassdoor about phone interviews there and about onsite interviews in functional languages, but I'm looking for information on onsite interviews in non-functional languages.",
+      "subreddit": "cscareerquestions",
+      "score": 5,
+      "url": "https://reddit.com/r/cscareerquestions/comments/56cu67/jane_street_onsite_interview_difficulty/",
+      "comments": [
+        {
+          "body": "I did an onsite with Jane St. a couple of weeks ago for the software engineering intern position (I believe full-time interviews are similar). The questions they asked were not more difficult than the interviews I've done with other companies like Airbnb or Palantir, but they were questions I hadn't seen before (i.e. write an AI for a game). I used Python, and there was another candidate the same day (for full time) who used Java.",
+          "score": 3
+        },
+        {
+          "body": "Did they specifically tell you that you can interview in a non functional language? Everyone I know who's interviewed there was expected to at least have spent a day or two prepping to write ocaml code.",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "title": "Has anyone interviewed at Jane Street? Do the interviews require OCaml knowledge?",
+      "body": "So everything I read online about Jane Street said they dont require OCaml knowledge, and that they'll teach you OCaml on the job. Even their job postings specify that OCaml knowledge is not required. And yet my friend interviewed there this week and the interviewer didn't know Java and wrote all the questions in OCaml, and said he would prefer an OCaml answer. \n\nSo has anyone interviewed there? What were your experiences?",
+      "subreddit": "cscareerquestions",
+      "score": 4,
+      "url": "https://reddit.com/r/cscareerquestions/comments/3rqd8g/has_anyone_interviewed_at_jane_street_do_the/",
+      "comments": [
+        {
+          "body": "My friend interviewed there. It was one of the hardest interviews he's ever had (at least that what he told me and he's honestly top 3 smartest people I know), but they don't expect you to know OCaml. He said that they were super generous though with paying for his flight, food, travel experience etc. Good luck!",
+          "score": 5
+        },
+        {
+          "body": "You shouldn't need to use OCaml, and whether you know OCaml shouldn't impact your interview performance. That being said, interviewers are always different--some have different expectations, some are mean, some are really nice, some have really heavy accents, etc. But for your case, don't worry about learning OCaml to interview at Jane Street.",
+          "score": 4
+        },
+        {
+          "body": "[deleted]",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Jane Street Re Interview?",
+      "body": "I did a first phone screen with JSC, but messed it up and got rejected. I know getting an interview in the first place is pretty hard and I want to interview again with them sometime next year when I'm a bit more prepared. Did they blacklist me because I failed first round? Should I just apply again online or email the recruiter that reached out to me?",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/6qmf25/jane_street_re_interview/",
+      "comments": [
+        {
+          "body": "Why would you assume they blacklisted you? I see no reason why you would be led to think they would.\n\nYou can always email the recruiter who contacted you. The worst case is they say \"no\"... in which case you're no worse off than you were if you did nothing. So just try reaching out when you're ready and see what happens!",
+          "score": 2
+        },
+        {
+          "body": "Jane street doesn't blacklist.\n\nSource: asked a JS recruiter this exact question",
+          "score": 2
+        },
+        {
+          "body": "I interviewed with Jane Street for an internship and did not receive the offer. About a year later a recruiter contacted me to interview for full time so I don't think they blacklist",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Any advice for Jane Street phone interview?",
+      "body": "I have a phone interview with Jane Street next week (for a software developer internship), and I'm confused about what to prep for the interview. I heard that they ask mathy questions and brain-teasers; how would you prepare for those? Also I heard a lot of solutions are functional programming-based, which isn't something that I'm experienced with. Are there any good resources to learn functional programming quickly? Also, any general tips for the interview? This is the only the second interview I've gotten after applying to 50+ places, so I really need this to go well.",
+      "subreddit": "cscareerquestions",
+      "score": 5,
+      "url": "https://reddit.com/r/cscareerquestions/comments/3tsams/any_advice_for_jane_street_phone_interview/",
+      "comments": [
+        {
+          "body": "Are you applying for a developer position? If you are, then you will only get programming questions. Brain teasers and math questions are given to trading intern candidates only.",
+          "score": 6
+        },
+        {
+          "body": "You won't find much information about Jane Street interviews online.  Good luck, it's typically brutal.",
+          "score": 1
+        },
+        {
+          "body": "[deleted]",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Jane Street phone interview?",
+      "body": "Hey all, anyone had experience interviewing with Jane Street for a software development internship?",
+      "subreddit": "cscareerquestions",
+      "score": 1,
+      "url": "https://reddit.com/r/cscareerquestions/comments/6ykr31/jane_street_phone_interview/",
+      "comments": [
+        {
+          "body": "Hey,\n\nWell I just gave my phone interview for Software Engineering position two days back. It was the next round post the hacker rank coding test.\n\nDifficultly: medium to hard. It was comparable leet code hard question. \n\nExperience: Not great. Of all that I've heard Jane Street interviews are tough but fun. The interviewer gets involved with questions and lets you take step by step to towards the best solution. \nIn my case, it was more like the interviewer told me the question, we discussed a few ideas and that's it.\nFor next 20-25 mins I worked on writing the code. I screwed up at two places but minute details nothing big according to me (BUT) which she pointed out.\nWe had some discussion on extending a problem a bit which I think went fine. \n\nThe interview ended with usual do you have any questions about Jane Street. \n\nI got my rejections today. \n\nAll the best for your interview.\n",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Pivot into quant from tech",
+      "body": "Hi guys I work at Amazon and want to get into quant. But I have a few years of experience. I heard Jane street pays well so I’ll go there but I’m wondering how to prep to get into it or other options? How to get interview if I am from a non-target (Laurier Uni) and how to pass interview. Should I do SWE at quant or do trading and which would be better for myself. I’m Indian by the way but speak candid English and have good personal skills with good mileage in conversation. I am good at leetcode and proactive personality. And would like to land a job that pays 200k in quant at least if not more since I have YOE.",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1o38c46/pivot_into_quant_from_tech/",
+      "comments": [
+        {
+          "body": "[deleted]",
+          "score": 24
+        },
+        {
+          "body": "Amazon pays &gt;200k? If you want that kind of cash you don’t have to target quant; big tech is fine (???). Your main reason for picking quant shouldn’t exclusively be the comp anyway. If you want to score deep in interviews with them brush up on SysArch, OS, Networks, Concurrency. Look at [this](https://getcracked.io) too.",
+          "score": 3
+        },
+        {
+          "body": "&gt; And would like to land a job that pays 200k in quant at least if not more since I have YOE.\n\nGot into Amazon but doesn't even know quant's pay levels... Already not looking good for you bro",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Do I try to become a researcher? research engineer? or just go for engineer or switch fields?",
+      "body": "I am currently an MSc with 4 internships (non-FAANG). I am currently focusing on computer vision research.\n\nThe field is obviously incredibly competitive and I have talked to dozens of people at dozens of large companies who have all told  me their research teams have reached saturation.\n\nI have also been advised by professors that in order to get a PhD at a top department I would need either some good papers and/or multiple years of relevant experience.\n\n---\n\nHere are my choices; either continue educating myself on computer vision by dedicating long hours to it. Or focus on developing my engineering skills. Or switch subfield and go into more general datascience (also super saturated) or maybe even SDE.\n\n---\n\nThe problem I have is that I don't think I would enjoy SDE. I hate the idea of writing software that doesn't solve a problem that is interesting. For example with research you are always working on new and exciting topics and learning. I don't know if I can achieve that with SDE or whether my mathematical background would go to waste.\n\nI just don't really know what to do if I don't find a good job. There is 0 guarantee that if I work super hard I will get a CV job. And what happens if I don't? My computer vision knowledge wouldn't really be transferrable... I would be back to square 1.\n\n\n--- \n\n!**You don't have to read below here**!\n\nEdit extra info on my skills/abilities (rated by me 0% bias) where 10 is good for a junior who graduated MSc in that field:\n\n- Classical Stats: 3/10 (I don't even really remember random effects or t tests, I really need to revise this)\n\n- Programming: Python 8/10, R 7/10, SQL 1/10 (barely remember it), C++ 1/10 (just starting)\n\n- Algo&amp;DS: 3/10 (I know basic search/sort but can't even implement BFS right now, I can do leetcode easy and a few mediums)\n\n- Optimization &amp; OR: 4/10 (I know the basics of convex optimization and OR)\n\n- Numerical Linalg: 5/10 (I know the basics but struggle with geometric interpretations for example)\n\n- Statistical Learning: 7/10 (I understand the fundamentals and I can use them\n\n- Bayesian stats: 5/10 (I understand the fundamentals and can use the basic theory)\n\n- Deep Learning: 8/10 (I understand it to the point where I can comfortably implement papers and produce valuable outputs, at least in CV)\n\n- General Compsci (performance engineering, relational database theory, cloud infrastructure, basic architecture/OS/compilers): 3/10 (I get the basics)\n\nI have a BSc in Physics and an MSc in Computational Mathematics.\n\n---\n\nPotential career choices?:\n\n- Quant [6 - 18 months studying] (dream on, I need to spend a year strengthening my math to do this reasonably, I have interviewed with Optiver/Jane street and done coding tests for akuna/drw and got DQed)\n\n- Researcher [6 - 12 months studying] (Need a PhD and don't seem good enough to get one at my top choices yet, do I settle? Is it better not to?)\n\n- Research Engineer [6 months studying] (I don't know C++ which I would need to learn, as well as concurrency/maybe CUDA)\n\n- SDE [6 - 12 months studying] (I don't know algo&amp;ds well enough so I would need to study this as well as a lower level language)\n\n- Data Scientist [3 - 6 months studying] (I can reasonably do this by strengthening my stats/statistical learning)\n\nSo my problem is, what the heck do I study? Because most do not have very many transferrable skills.",
+      "subreddit": "cscareerquestions",
+      "score": 266,
+      "url": "https://reddit.com/r/cscareerquestions/comments/gmkzco/do_i_try_to_become_a_researcher_research_engineer/",
+      "comments": [
+        {
+          "body": "[deleted]",
+          "score": 64
+        },
+        {
+          "body": "As someone who backdoor-ed their way onto a computer vision team at a FAANG (joined a FAANG as a SWE straight out of undergrad), I was pretty happy with my route. \n\n1. You mention how \"SDE work doesn't seem as interesting to you as solving problems that seem interesting\". I was the same way as well when I joined the FAANG that I was at. However, because of the specific FAANG (notably, I'm at the \"F\"), I was also able to pick an initial team that basically had the same experimentation workflow that research would have, even if it nominally wasn't a \"research\" team. There are a lot of areas of software engineering that exists beyond just what you might have exposure to in school and some of these are likely to fit your definition of \"interesting\" a lot more than what you might think. \n    * Teams that optimize for some metric using ML (ex. search, spam, ads) tend to have more interesting data science without strictly being a data science role.\n2. Of the options you've listed, all of the others have some pretty serious risk downsides. \n    * Quant: You've already got experience trying to go the quant route. Maybe you'd have more luck spending more time in this area; you'd know more than the rest of us though.\n    * Researcher: Even with a PhD, you'll only get a researcher position at a top company if you have top publications (to get your foot in the door) and pass the interviews. \n       * Speaking of this from first-hand experience — I have interviewed + rejected many a PhD new grad.\n    * Research Engineer: Most places hiring research engineers don't hire folks without prior experience. The fact that you don't even know what sort of C++ that you need to learn (and the fact that the specific areas that you've listed are.. actually just straight-up irrelevant for most CV research engineering roles) also, frankly, doesn't bode well in your favor. \n    *  Data science: This might be an okay alternative, but keep in mind that data science is also where \"folks that were going the academic science route but don't want to do it anymore\" end up, so there's a good chance that you'll be going head-to-head against bio/chem/physics PhDs who are in a similar boat. (That said, once you get some initial positions, you can start moving up the chain.)\n          * Also keep in mind that even if you have a data science role, whether or not it'll be in CV or anything of interest to you may be questionable. \"Data science\" is an overloaded term/role — data science can frequently mean \"be the person that writes SQL queries to link together tables\". It rarely includes machine learning and doesn't really go beyond a basic linear regression/making an x-y graph in maybe 80% of cases.\n\nFeel free to DM me/comment if you want more thoughts.",
+          "score": 20
+        },
+        {
+          "body": "&gt;I have also been advised by professors that in order to get a PhD at a  top department I would need either some good papers and/or multiple  years of relevant experience.\n\nI've heard the same: that for top PhD programs in ML, it's virtually impossible to even have a chance unless you have first-author at top conferences as an undergrad. From what I understand, ML has become literally one of the most competitive STEM PhD programs to get into.\n\nMaybe you can shoot for ML Engineer? You can keep doing ML, but you have to understand that ML Engineering is a subset of Software Engineering so you can't really avoid it.",
+          "score": 13
+        },
+        {
+          "body": "What do you mean by research engineer and why do you specifically need to learn C++ for the role?",
+          "score": 24
+        }
+      ]
+    },
+    {
+      "title": "how would you feel about an essay question?",
+      "body": "I’m getting organized on a jr rec on my team. Interviewing jr’s is notoriously difficult so am trying to get my ducks in a row on it. Hoping to test what really matters - behavior in a technical collaborative environment - while avoiding selection bias and the like. \n\nSince communication - specifically communicating clearly on complex technical topics - is a core value of our team, I was considering having the first active step be a written piece where the candidate describes a technical issue they had to solve, what the issue was and how they approached the solution.\n\nI generally like this idea for any skill level but am immediately considering it for a jr. \n\nIf you’re a currently aspiring applicant, what would be your concerns running into this ask? Is it outside the usual processes enough that it would be any kind of a red flag?\n\nFor jrs specifically is it reasonable to expect someone to have an example experience that is meaty enough to describe in detail? Worried about selection bias on this last point. \n\nIf you’re a hiring manager that has done something similar and has experience to share on this idea please I’m all ears.\n\nEdit: following some useful feedback so far: “essay” was probably the wrong word. “brief README” or something along those lines is more what I’m getting at.",
+      "subreddit": "cscareerquestions",
+      "score": 9,
+      "url": "https://reddit.com/r/cscareerquestions/comments/q3yf7q/how_would_you_feel_about_an_essay_question/",
+      "comments": [
+        {
+          "body": "An essay question would stress me out, it would be hard to evaluate expectations and there's way too much to overthink.",
+          "score": 26
+        },
+        {
+          "body": "In general, I do not bother with anything that requires a large time commitment  before I've spoken to a human at the company. The chances I'll end up getting rejected at the resume stage because the ATS doesn't like my formatting or whatever HR person is doing the first pass doesn't like my home state or any other meaningless crap like that is way too high considering how many jobs out there will just let me submit a resume and then move on.",
+          "score": 14
+        },
+        {
+          "body": "Why not just ask the question in an interview? Having them write something only one person will read is just a waste of time. \n\nI would personally strongly dislike that, sorry.",
+          "score": 13
+        },
+        {
+          "body": "i kinda like short answer questions because they evaluate ur problem solving rather than ur ability to recite code on command.\n\nat least as a chance to let sit down and consider before attacking the problem, w/o having the nerves of someone waiting on the line for me to answer.  also as long as it's not one of those murky things where I'm solving an actual business problem rather than being evaluated on something that has a clearer answer with their values",
+          "score": 4
+        },
+        {
+          "body": "This is a tough one, because I generally think that upfront assignments only work for companies that are at the top of the line of compensation scale or the “passion” scale (as in working on a problem that a lot of people would love to be involved with).\n\nI think assigning something like this just ends up self-selecting away a lot of the best developers because most of those kinds of people aren’t going to be spending hours writing a paper for a company they aren’t super interested in and haven’t even had an interview with yet. Personally, I would do this only for a relatively small percentage of the companies out there. You just need to decide if you’re the kind of company that can do this. \n\nAlso, if the pay scale wasn’t giving up front, there’s basically no situation where I would write an essay.",
+          "score": 4
+        },
+        {
+          "body": "Look at Jane Street’s interview process. IMO they do interviewing correctly",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Jane Street On-Site Interview Experiences?",
+      "body": "Hey!\n\nI was wondering if anyone who went through the on-site interview process at Jane Street would be kind enough to share their experience. I have one for SWE in ~1.5 weeks and am not too sure what to prep on other than standard algos. I spent some time reading Glassdoor and previous posts, but it'd be nice to have a better picture!\n\nHow was the process like? Did you arrive the morning of and have 3-4 interviews with one team or other teams? Were interviewers mainly engineers?\n\nHow was the balance between technical/behavioral questions and what were they looking for?\n\nDid anyone have an experience where they felt that knowing OCaml was important to the interview? \n\nHow was the general difficulty? (Focus on Graphs, DP, Lots of recursion etc.?)\n\nThanks so much!\n\n",
+      "subreddit": "cscareerquestions",
+      "score": 6,
+      "url": "https://reddit.com/r/cscareerquestions/comments/57iyr1/jane_street_onsite_interview_experiences/",
+      "comments": [
+        {
+          "body": "I had one for SWE intern onsites last week. Mine was basically 2 interviews + 1 lunch with 2 full-timers where you can ask them anything. The questions were mostly OOP stuff, surprisingly... Each interview was with two engineers, and they scrutinize your code a LOT. After that the recruiter walked me around the office for a tour and then said that they could get back to me by the next week.\nThere were no behavioral questions and OCaml knowledge was not needed.",
+          "score": 4
+        },
+        {
+          "body": "[deleted]",
+          "score": 4
+        }
+      ]
+    },
+    {
+      "title": "Jane street SE internship interview tips?",
+      "body": "From what I've seen on glass door it's mostly regular recursion and dp problems. I saw some stuff about concurrency and fp that I'm worried about since I've done simple concurrency problems and no fp. I also heard the process has changed somewhat over the last two years. Can someone with previous interview experience confirm/deny this stuff?\n\nThanks.",
+      "subreddit": "cscareerquestions",
+      "score": 1,
+      "url": "https://reddit.com/r/cscareerquestions/comments/75l13x/jane_street_se_internship_interview_tips/",
+      "comments": [
+        {
+          "body": "[deleted]",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "What kind of interview preparation is necessary for companies like Jane Street?",
+      "body": "There's a lot of info on getting into the big 4. Curious how people who got into Jane Street or other prestigious trading companies prepared for the interviews.",
+      "subreddit": "cscareerquestions",
+      "score": 4,
+      "url": "https://reddit.com/r/cscareerquestions/comments/32cvko/what_kind_of_interview_preparation_is_necessary/",
+      "comments": [
+        {
+          "body": "It depends if you are interested in programming or trading.\n\nIf you're interested in trading, I recommend becoming very good at probability and combinatorics puzzles, and be able to do math on a whiteboard. Being able to talk about (and do) linear algebra and statistics is also important.\n\nIf you're interested in software development, I recommend the same type of algorithms &amp; systems preparation as for Silicon Valley software companies such as Palantir, Quora, Google, etc. For Jane Street in particular, I recommend knowing or at least being familiar with OCaml. When I interviewed with Jane Street for a developer role, I was allowed to use whatever language I wanted (Python in my case), but the problems were stated in OCaml and the interviewers discussed things from an OCaml point of view. I think my Jane Street interviews would have gone better if I was more familiar with OCaml. I also interviewed with several high frequency trading firms and for these types of interviews I recommend (1) knowing about high performance computing and how to optimize code and (2) knowing C++ very well (some companies care about this more than others).",
+          "score": 2
+        },
+        {
+          "body": "Being super smart :P",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Jane Street TDOE Technical",
+      "body": "Recently, I completed my first round interview for Jane Street's TDOE internship role, and I have a coding technical coming up. Can anyone speak to what I should expect? I'm unfamiliar with the role/process and I'm looking to prepare the best I can.",
+      "subreddit": "cscareerquestions",
+      "score": 4,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1q75auu/jane_street_tdoe_technical/",
+      "comments": [
+        {
+          "body": "Bro is asking a sub who can’t even get an interview at Home Depot about the interview process of one of the most selective, trading companies in the world. ☠️",
+          "score": 13
+        },
+        {
+          "body": "Expect a live coding round focused on problem solving, not heavy frameworks. Questions are usually logic heavy, mathy, or simulation style, and you need to think out loud clearly. They care a lot about clean reasoning, edge cases, and how you approach problems more than speed. Practice writing simple, correct code and explaining every step.",
+          "score": 3
+        },
+        {
+          "body": "Youtube recommended me [this](https://youtu.be/CgrvpspDBLM) video recently and it seems pretty accurate for trading companies ",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Advice for Jane Street third round (QT internship)",
+      "body": "I just received an invitation for my third-round interview with Jane Street. They mentioned the questions will be more open-ended moving forward, but I'm not entirely sure what that entails. I know there's no systematic way to practice for such questions, but are there any resources for finding similar examples? What topics should I be familiar with? Any advice or pointers for the third round or the on-site would be greatly appreciated!",
+      "subreddit": "cscareerquestions",
+      "score": 8,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1nm695j/advice_for_jane_street_third_round_qt_internship/",
+      "comments": [
+        {
+          "body": "Quant questions has pretty good mock questions",
+          "score": 3
+        },
+        {
+          "body": "… what role?",
+          "score": 1
+        },
+        {
+          "body": "The \"open-ended\" questions typically involve market-making scenarios, probability puzzles with multiple valid approaches, or trading situations where you need to make assumptions and justify your reasoning. They want to see how you break down problems, ask clarifying questions, and adapt when given new information mid-problem. You can't really drill these like you would technical coding questions, but you can practice explaining your thought process out loud and getting comfortable with saying \"I'm not sure, but here's how I'd approach it.\"\n\nJane Street's bar is high and they're looking for a specific type of analytical thinking that either clicks with you or doesn't. But the uplifting part is that if you've made it to round three, they already see potential in you. Focus on being genuinely curious about the problems they present, don't be scared to ask questions, and show them how your mind works rather than trying to guess the \"right\" answer. The topics can range from basic probability and statistics to market dynamics, so having a solid foundation there helps, but your reasoning process matters more than perfect recall of formulas.\n\nI'm on the team behind [interviews.chat](http://interviews.chat), and we built it specifically to help with these kinds of challenging interview scenarios where you need to think on your feet and articulate complex reasoning clearly.",
+          "score": 1
+        },
+        {
+          "body": "Tell them you hate OCaml",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "title": "Tips for getting recruited by a quant/HFT?",
+      "body": "I tried asking in the recent [Big N Discussion thread](https://reddit.com/r/cscareerquestions/comments/1h9e1me/big_n_discussion_december_08_2024/m10eto6/) but didn't get any responses.\n\nAny tips for getting an interview with a quant/HFT (e.g. Jane Street, Hudson River Trading, etc) from FAANG, as a mid-level (L4/E4 equivalent)?\n\nMy current ideas:\n\n1. Blindly apply on their website without referral (hope for the best)\n2. Reach out to their in-house recruiters on LinkedIn and try start a conversation - though I know they're flooded with DMs\n3. Reach out to their engineers on LinkedIn for their tips - I am somewhat genuinely interested in their day-to-day so I would like to engage that way. I don't think I'd ask for a referral (unless they offer) because they can't vouch for me after a 10-15 minute call/chat.\n\nAny thoughts?",
+      "subreddit": "cscareerquestions",
+      "score": 3,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1hakzbf/tips_for_getting_recruited_by_a_quanthft/",
+      "comments": [
+        {
+          "body": "Get a post grad degree at an Ivy League",
+          "score": 11
+        },
+        {
+          "body": "[deleted]",
+          "score": 2
+        },
+        {
+          "body": "They seem to show up in my LinkedIn inbox all the time. I have a CS degree from a top public university and FAANG experience. One of those two seems to do it. Most of them don't have in-house recruiters but use recruiting firms. Then ace the interview because they're very hard.",
+          "score": 2
+        },
+        {
+          "body": "18%",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "title": "List of software development internship salaries",
+      "body": "https://twitter.com/tzhongg/status/536565474041937921",
+      "subreddit": "cscareerquestions",
+      "score": 73,
+      "url": "https://reddit.com/r/cscareerquestions/comments/2naqb6/list_of_software_development_internship_salaries/",
+      "comments": [
+        {
+          "body": "One should note that these are salaries of very good companies in SV, SF, and NY and are not typical of the average internship.\n\nIt's only a small sample.",
+          "score": 40
+        },
+        {
+          "body": "&gt;Jane Street: $10,400 / month\n\nThat's $125k per year for an *intern*. Who's cock do I have to pull on to get an internship like that?",
+          "score": 43
+        },
+        {
+          "body": "Wow, all these interns are making more than me...and I work in SF :|",
+          "score": 10
+        },
+        {
+          "body": "[removed]",
+          "score": 10
+        },
+        {
+          "body": "Fuck! I just bombed an interview for Jane Street for full time. How much fucking money do those guys make? Wow.",
+          "score": 8
+        }
+      ]
+    },
+    {
+      "title": "My Boss Expects way too much of me",
+      "body": "I feel so out of luck I have resorted to talking to Reddit . I read a similar post to what I’m writing about , but saw through the comments the OP was working overseas . So this post would apply to folks in the USA . \n\nSo , let’s go back to March of 17. My job was furloughing , basically laying off workers . I knew my job wasn’t secure so I was not afraid to let friends and family know I was looking for work . Of course one of my good friends recommended a place she works at , appears to be reputable office . (Also, I really respect my friend , she is a very hard worker and also has a PhD.)     She recommend me , i interviewed , and got the job . Yay . I accepted . The day after I accepted , I was getting SEVERAL 7am “story book “ texts about policies , and just general stuff , promising she doesn’t “harass” people at this hour , or general . I bet you see where this is going . It should of been the first red flag to me . \n\nand it was a red flag , but I was so worried about myself financially , that I was kinda willing to take anything that wasn’t retail , with daylight hours (willing to work til 6 pm) . So I was polite , responded and let that be that , after all, I’m a brand new employee at this point , I didn’t want to make it seem like I wasn’t excited . Just so you know i didn’t respond back to her until about 10am that day . \n\nMy first day was an unorganized mess . But it was easier to sit back and just watch at that point , and besides , I’ve been in a few high pressure positions , I didn’t let it scare me , I just thought positively and hoped after I got used to it everything would settle out and I find my own groove despite the drama going on around me . \n\nIn my first week . The supervisor who trained me gave her notice and peaced out about 4 days later . She left saying she was under appreciated , and my boss was hard to work for , because she basically , the type of person who would like ,  lick the floor if the owner asked her too .  Also , we got word , officially  , from the owner that same week we were going to be in some “serious lawsuits “ I can’t mention them for privacy reasons  .  That day my boss wants to have a pow wow in her office about changing my hours and giving me extra responsibility , which I was fine with , but she wanted me to help cross train in another department on the other side of the building , but ya know , still be available to her whenever I’m there  . I was firm , that I wanted to stick to the schedule we agreed upon when I was hired . I don’t mind filling in , but i didn’t sign up to work 4 days at about 12-13 hours a day with a Tuesday off , what the hell do you do on a Tuesday ??? Lol \n\nSo, after I respect fully told her no to the schedule change and yes to the extra job (no raise yet ) She let it go , since I was new , she kept saying she didn’t want to overwhelm me Bc she knew I had a lot going on personally (my mom was having surgery to address her stage 4 colon cancer , she is currently recovering VERY well) . That being said , she knew at my interview,  that I may need the day of the procedure off. This was scheduled to happen about three weeks after my start date. So I reminded her of it on my second week that I would need that day off and she got pretty weird with me, didn’t say no , but kept asking me “are you sure you want to be off ? “ l do you really need the whole day ?” “I really can’t be without someone that day and Jane can’t fill in that day “.  I ignored it , Took my day and hoped she was being the way she was because of all the stress she was under , taking over the supervisors position who left when I got there and the random things the owner had her do in between plus her job . She gave me the day off . But complained and gave me cold shoulder for a couple days later .  \n\n Fast forward to today ,  I find out from talking to a co worker that she was passed up on her promotion for a new hire. I was told that’s what happened to Sally, the supervisor who left the week I began. Only with sally , they promised her a better work / life balance and no more late nights . I was hired to work day light . Turns out since I was hired , her hours never did change , I just replaced the hours she was going to be set up to work .... i work two late nights a week until 7 , but I’m also required to be there by 745am . This is actually considered more than expected of my position , I agreed so I wouldn’t have to work every Saturday of my life . And  also Bc I don’t mind working long hours , I’d rather put more in and do less days type of person . But from being in the food industry , you get used to those kind of hours that way too .   \n\nSo , since supervisor sally left , I have been doing my boss’ job and mine only to find her goofing off with other employees in the back or doing something just stupid like arguing with the guy at staples about a wrong order for 45 minutes . She just couldn’t take the fact they messed up so she spend 40 of those minutes finding different ways to ask “why this happened”  . as a matter of fact she’s so inefficient , there is constantly a computer, printer , short handed , no internet , some one quit , sueing us drama no Work gets done and she ends up complaining CONSTANTLY about how she always has to take Work home with her .  So after my first month , she constantly was asking me to work open to close wed - sat . I remained firm on the schedule we agreed on . And I mean almost every other day she was asking . Like it was going to change that quickly ? Lol ... I do work another job on an occasional basis as well , i want a life and maintain my relationships in life . Btw I’m hourly . Not salary .  I told her one of those days when she caught me off gaurd that  , “ I’m concerned that you keeping asking that , it makes me feel like we are not on the same page .”  She just walked the other way like I said nothing . \nSo as of last week , she’s telling me how she’s getting a divorce Bc she works too much can’t get anything done here the owner is always mad at her ... but at the same time she says she’s appreciative and honestly , she should be . I never tell her I can’t do something while I’m on the clock and if I don’t know how , I find someone to show me . I like being good at my job And I don’t like letting people down especially my friend who got me the job and thankfully for her she’s in a different department and doesn’t deal w this crazy lady . So besides being at her becon call whenever I’m on the clock , she Started texting me all hours of the day and night telling me I didn’t have to respond, but , she was just thinking about work and wanted to tell me about whatever was going on at the office at literally 1:20 AM and then again at 6:20 AM.  Then after I left work I was getting messages around 8pm and 10pm and then again at 11! For as childish as it sounds , I had to block her .... she was just blowing up my phone . So, For a few days I forgot that I had her Removed  from my block list because I did have to text her about something while she wasn’t in the office when I was .. she hadn’t texted me anything which is not like her so I’m hoping she’s getting the message on that. \n\nMy question for reddit is what would you do ?  I know the easy answer is just find a new job, but it’s so close to my house, I do like my other coworkers, and the benefits are awesome. The pay could be better but for the benefit package I’ll take it .  And, most importantly , the hours were appealing to me. They work with my life (I work 40 hours ) In most situations I would probably be more willing to switch my schedule around for someone who was more reasonable about a work/ life balance. I see with her , there is no such thing as a work /life balance so I’m afraid to give in on my boundaries.  It’s starting to get exhausting to like , defend my reasons for having a life . Who does that . I don’t work for walls street lol ...  also one more note to make, one of our part-time girls was out of the office for about six weeks and I worked 45- 50 hours a week for each one of those six weeks and didn’t complain about my schedule being different. Now that she’s back I’ve been getting extra pressure to change my hours to that of a slave , even though I told her I want to go back to my normal times for now. Is it unreasonable to say no at some point ? Today she specially asked if I could work more to “hang out “ With her . I almost couldn’t believe it .\n\n. Internet I need your advice . Had this happened to anyone ???? ",
+      "subreddit": "jobs",
+      "score": 2,
+      "url": "https://reddit.com/r/jobs/comments/7a7872/my_boss_expects_way_too_much_of_me/",
+      "comments": []
+    },
+    {
+      "title": "IT Operations @ jane street",
+      "body": "I have an upcoming interview with Jane Street for their IT Operations internship, and I’m not sure what to expect. Most posts about Jane Street focus on their swe and quant roles, but I haven’t found much on IT Ops specifically.\n\nI’ve heard their interview process is pretty rigorous, which is a bit intimidating, but I’m still looking forward to the experience. Does anyone have insights into the type of questions or challenges I might face in this interview? Any advice would be appreciated!",
+      "subreddit": "interviews",
+      "score": 4,
+      "url": "https://reddit.com/r/interviews/comments/1j1gkbt/it_operations_jane_street/",
+      "comments": [
+        {
+          "body": "Expect questions about networking, infrastructure management, security protocols, and troubleshooting scenarios. They may present you with real-world IT challenges to see how you approach and solve problems. Be prepared to discuss your experience with various operating systems, cloud platforms, and automation tools.\n\nGiven Jane Street's reputation for rigorous interviews, they might also throw in some logic puzzles or brainteasers to assess your analytical thinking. Don't stress if you encounter something unexpected – they're more interested in your thought process than perfect answers. Show enthusiasm for learning and adapting to new technologies, as that's crucial in the fast-paced financial technology environment. If you're feeling unsure about certain areas, [interview with AI](http://interviews.chat) to practice answering tricky IT operations questions. I'm on the team that created it, and it's designed to help you navigate challenging interview scenarios like this one.",
+          "score": 1
+        },
+        {
+          "body": "Hiiiii any advice for the onsite??",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "My experience interning at a proprietary trading firm this summer",
+      "body": "This summer I interned at a pretty good (in my opinion) prop shop in the trading division. I'm a CS major at a decent school. Currently a rising junior. Won't say which firm for privacy reasons.\n\n**disclaimer: the thoughts below are based on my isolated experience at ONE trading firm this summer, and from talking to traders/upper management at the company **\n\n**Overall Experience**\n\nThe internship program at any good trading firm should have some mix of learning, trading, and side projects. We spent a few weeks sitting in a class room learning theory, products that the firm trades, mock trading, etc. As the teaching winded down, we got assigned projects for different desks to work on. Being a CS major I requested a more programming-focused project. Finally, we traded live on the market (CFTC, no Series 57 required).\n\n**Thoughts about the industry**\n\nTrading isn't for the feint of heart. The stuff I heard about high-pressure and getting fired if you fuck up are true based on my experience here. Even as interns we were constantly watched and assessed and criticized for getting things wrong. There was a day when one of the newer hires messed up and lost the firm quite a bit of money. It's an open office so you can hear across desks. I remember the head of the group that guy was in was going off on him. The next day he was gone. To be fair, the guy actually lost quite a bit of money. But to be chilling one day and then not have a job the next is pretty crazy - i don't think you see that much in the CS industry.\n\nIf you're good, you'll make lots of money. The firm I am at this summer pays very well. The first year comp is MUCH higher than the numbers posted on Glassdoor. The all-in comp for a first-year trader excluding performance bonuses is greater than the ones I've seen at any big-4 (except maybe the higher FB ones that the return interns get). If you are a high-performer, your all-in comp easily exceeds 200K+. What surprised me the most was how high the base salary was. I thought the base salary would be &lt;100K but was surprised when I was told it  was well above that. (I didn't intern at jane street for those wondering)\n\nSome of the senior guys are making upwards of 500K to 1M per year. Keep in mind volatility has been extraordinarily low for the last year; apparently you make 2-3x more when the market goes to shit. Going to a trading firm during a recession is a gold mine because the firm makes so much more money.\n\nThe hours aren't bad either. As an intern I never worked more than 12 hours in a day, with the average being ~8.5 to 9 hours. Most traders also work pretty normal hours - you trade when the market is open, work on projects/chill after it closes, and leave. Some traders literally work 6 hours a day and fuck around the rest. If you're profitable no one cares how much you work, and you make a boatload of money with it.\n\n**thoughts about trading**\n\nYou might be wondering how you can get into this industry. To prepare for interviews I'd suggest getting really good at mental math, probability, pattern recognition, and brain teasers. Practice on arithmetic.zetamac.com and tradertest.org. I was surprised how much mental math you actually use on the job; if you get tested on that during the interview there's a good reason for it. Keep in mind this is for discretionary trading. Algorithmic and quant trading are different and require more programming and math skills.\n\nI'm happy to answer questions people might have - I know there's not a lot of information out there about prop trading. \n\n",
+      "subreddit": "cscareerquestions",
+      "score": 103,
+      "url": "https://reddit.com/r/cscareerquestions/comments/6shoy2/my_experience_interning_at_a_proprietary_trading/",
+      "comments": [
+        {
+          "body": "Where did you go to school, and how did you get an interview?",
+          "score": 24
+        },
+        {
+          "body": "Any recommendations programming wise to prepare for an internship there? I'm assuming the most popular languages are C++ and Java.\n\nWhat sort of projects did you work on, if I may ask?",
+          "score": 14
+        },
+        {
+          "body": "[deleted]",
+          "score": 10
+        },
+        {
+          "body": "Jesus, someone mentions high salary numbers and all the sheep in  here jump over the fence. Sad!",
+          "score": 7
+        },
+        {
+          "body": "Are you considering to work there after graduation? \n\nWas the work challenging and fun? \n\nWere most FTE people with PhD's? \n\n",
+          "score": 6
+        },
+        {
+          "body": "How did you acquire finance/trading strategy knowledge to land a gig like this? Finance + programming sounds pretty interesting to me",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "title": "I am at my wit's end. WTF am I missing?",
+      "body": "Highly educated Stanford Graduate here (international relations and economics). I have been totally unemployed for nearly 5 years since I graduated. I genuinely have no idea how to find a job. I have gotten through multiple rounds of interviews at firms like Jane Street, McKinsey, RBC, etc....just to not get an offer in the end. I have also been rejected on the first interview from numerous restaurants, bars, and grocery stores. I seriously can't find anything other than non-profits. I live with family and tutor the SATs...but I'm legitimately at a complete loss as to why I have 0 prospects.",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/15f0opa/i_am_at_my_wits_end_wtf_am_i_missing/",
+      "comments": [
+        {
+          "body": "International relations and economics is a solid degree for policy analysis, some types of accounting/finance jobs, government work, etc. There’s a decent amount of prospects but they’re extremely competitive without that job-specific degree. \n\nThe rejection from the bars and restaurants and such is probably because you have no work experience in the last 5 years or they think you’re overqualified. I would apply to a random job without mentioning your qualifications just to get something on your resume and go from there. I almost never hired people without work experience when I managed a restaurant because it would usually result in a disappointment or them just not showing up one day. \n\nThere’s really nothing wrong with your situation. I read a Reddit post of a hiring manager that hired someone like yourself that showed up to the interview in a three piece suit and well groomed. He wanted to give him a chance because of his clear motivation and genuine lack of experience for the better. Perhaps try and talk to a manager in person to secure an interview and just explain your situation. People that are more genuine are a lot more likely to get a job in general in my opinion.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "IT OPS intern at jane street: What to expect?a",
+      "body": "I recently just got offered a first round interview with jane street for an IT OPS intern position and i’m super excited but i have no idea what to expect. I’ve never had an internship interview before and don’t know the steps and what even to expect question wise. I heard from my friends to brush up on my programming and practice some leet code, but would they make me do that for an IT position? I was hoping someone that has been in my position before could help me out to understand what to expect for this interview. Thanks for the help!",
+      "subreddit": "interviews",
+      "score": 4,
+      "url": "https://reddit.com/r/interviews/comments/1o1yq6d/it_ops_intern_at_jane_street_what_to_expecta/",
+      "comments": [
+        {
+          "body": "I had a first round for a similar IT ops internship and it leaned way more on troubleshooting than leetcode. Think basics of Linux and networking, walking through how you’d debug a broken service, DNS issues, permissions, SSH, simple Bash or Python to automate a check. What helped me was spinning up a VM and practicing live fixes while narrating why I’m checking logs, ps, netstat, curl, and journalctl. I ran timed mocks with Beyz coding assistant alongside prompts from the IQB interview question bank to practice concise explanations, also kept a few STAR stories about outages and tickets and trimmed each to about 90 seconds.",
+          "score": 1
+        },
+        {
+          "body": "i'm attending interview for similar role, may know how was your interview experience",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "IT Operations Engineer Internship Technical Interview ",
+      "body": "I have received a technical interview for an IT role at Janes Street. Does anyone know the questions they would ask for an IT role since most threads I find are for quant roles and SWE.",
+      "subreddit": "interviews",
+      "score": 2,
+      "url": "https://reddit.com/r/interviews/comments/1fvf8lc/it_operations_engineer_internship_technical/",
+      "comments": [
+        {
+          "body": "For an IT Operations Engineer internship at Jane Street, you can expect questions focused on systems administration, networking, and troubleshooting. They'll likely probe your knowledge of Linux systems, scripting languages, and your ability to solve complex technical problems. It's a good idea to brush up on concepts like load balancing, virtualization, and cloud technologies. Practicing common [IT Operations Engineer interview questions](https://www.interviews.chat/questions/it-operations-engineer) will help you feel more prepared and confident.\n\nGiven Jane Street's reputation for rigorous interviews, be ready for some challenging scenarios or brain teasers as well. They might present you with a hypothetical system issue and ask you to walk through your troubleshooting process. Stay calm, think logically, and don't be afraid to ask clarifying questions.",
+          "score": 1
+        },
+        {
+          "body": "Idk anything about Jane Street but good luck best wishes you can do it!",
+          "score": 1
+        },
+        {
+          "body": "[deleted]",
+          "score": 1
+        },
+        {
+          "body": "Hi how did it go?\nWhat sort of questions did they ask you?\nI'm looking to apply next year, either for the internship or placement year?",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

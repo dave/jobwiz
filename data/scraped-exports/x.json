@@ -1,0 +1,1610 @@
+{
+  "company": "x",
+  "post_count": 54,
+  "exported_at": "2026-01-18T17:44:53.317Z",
+  "posts": [
+    {
+      "title": "I found out today my employer tracks my computer",
+      "body": "I got an email from him saying that he got an alert on his email saying my productivity was extremely low. And that he mentioned that there were a few other days where my percentages were less than 50%. The company monitors mouse movement and key strokes. What are your thoughts on companies using this to track employees productivity?\n\nUpdate:\n\nHe sent me this email today\n\n\"Only fair that I go over why I bring this up. \n\nOur systems monitor activity on all users, especially now that we have gone a good majority of remote. \n\nActivity wise we can tell when someone logs in for the day and the amount of time that they are working on the system. I do hold a lot of trust in all my employees, and really do not look at the reports, just happen that I did this week and say that you had not been putting in full days. \n\nIf you read this it says, based on EST\n12/27 you started at around 9 stopped around 12 came back on around close to 2 and stopped for the day around 4.\n12/28 started around 10:30 stopped around 12:10 came back around 2:11 and ended the day at 5.\n12/29 started around 11:14 and ended the day around 5\n\nSo let correct this and make sure you are giving me the whole day. \n\nAlso bring me up to date on your projects, since I haven't been in this week just wanted to get an idea on where we are with the x and x. \n\nX looks really good, you did a great job on it. \n\nFYI at any time please feel free to reach out to me.\"\n\n2nd Update: I sent him a two weeks notice, as I've already been interviewing for other places and things seem promising.",
+      "subreddit": "cscareerquestions",
+      "score": 1341,
+      "url": "https://reddit.com/r/cscareerquestions/comments/zyahf4/i_found_out_today_my_employer_tracks_my_computer/",
+      "comments": [
+        {
+          "body": "When mouse movement is the metric for productivity then automate your mouse movement.",
+          "score": 2652
+        },
+        {
+          "body": "It would be a deal breaker for me. I would immediately start looking for a new job. You track productivity by seeing what I've produced and how I've helped others be productive. Not by spying on my mouse movements.",
+          "score": 946
+        },
+        {
+          "body": "[deleted]",
+          "score": 315
+        },
+        {
+          "body": "Holy fuck I would leave immediately. This is insane",
+          "score": 360
+        },
+        {
+          "body": "Personally I'd find a new job. If this is how they measure productivity then you're likely to find yourself screwed in the long run. Up until recently I had an older laptop. What that meant is that I often had to balance between doing things on my work laptop and a personal laptop. Even now because of exfiltration policies, I often do research and note taking on my personal laptop so my keyboard and mouse strokes would seem pretty low some days.",
+          "score": 73
+        },
+        {
+          "body": "In general, I don't think this kind of monitoring of software developers is a good idea because it isn't a good measure of productivity. \n\nDelivering on milestones, like stories and epics if you're on an Agile type system, is the important thing. If someone isn't making their commitments,  everyone on the team will know. Likewise, if someone is overdelivering, their workload can be adjusted. Another measure would be the availability and responsiveness of the person to calls.\n\nAs for your personal situation, are you meeting your commitments?",
+          "score": 188
+        }
+      ]
+    },
+    {
+      "title": "Take-home AWS test that cost me $90, only to be told afterwards “oh, were looking for X years experience”",
+      "body": "I applied for a job. The test included setting up an app using AWS services rather than code (ie apigateway rather tham node express, etc). I told them tagt I had no experience with these AWS services, but many times the test is to see how fast you can learn something, so they were like “thats fine, and if you need extra time etc etc”. So a few days later, its all done and I submit it (it did exactly what was asked, even according to another dev that reviewed it). Then some weeks later, I get told that they aremt moving on with the process because “they are looking for X years experience” (even though my resume already stated what my experience was). Whatever, I got and accepeted an offer a werk after that for more money than they were offering, and where the work is all code and no AWS (the wix of devops). Then I get my $90 AWS bill for the services I bought to do the test. I will never do a take-home test ever again.",
+      "subreddit": "cscareerquestions",
+      "score": 1198,
+      "url": "https://reddit.com/r/cscareerquestions/comments/tveiy8/takehome_aws_test_that_cost_me_90_only_to_be_told/",
+      "comments": [
+        {
+          "body": "If they insist that you use paid services, ask them to provide the environment(s) to you.",
+          "score": 829
+        },
+        {
+          "body": "That’s super shitty. Congratulations on your other offer!!",
+          "score": 706
+        },
+        {
+          "body": "Never pay to get interviewed.",
+          "score": 135
+        },
+        {
+          "body": "How did you spend $90? What services did you use? AWS is cheap as hell, what did you buy? I have a few personal projects in my AWS account and I never spend more than $2 a month, mostly on KMS keys and route 53.",
+          "score": 295
+        },
+        {
+          "body": "I detest take home tests... You have to spend tons of hours to over engineer the 'simple' problem.",
+          "score": 182
+        }
+      ]
+    },
+    {
+      "title": "SpaceX interview experience",
+      "body": "Just had an on-site and the experience was quite negative. Before the on-site, there were two rounds of technical phone interviews and preparation for technical presentation. The slides were forwarded to the team 3 days before on-site, to review. Got the green light without actual feedback. Went to the company and finished presentation, and one round of 1:1. All of a sudden, the next interviewer was nowhere to be found, and recruiter was also very puzzled. In the next 10 mins, there was no explanation or message passed from the hiring manager about why the no show. Basically they walked out of the interview without any notice, and my recruiter said he would let me know what happened. This was the first time of such incident in my 10+ years of career life. The presentation was average, not disastrous. Few questions were asked during the presentation, but none of them were related to the filed of study, to my surprise. Anyway, at the end of the day, there was still no response from SpaceX, so I sent an email by telling them I would withdraw my application, since the practice is very humiliating to candidate. I can't say for the rest of the company, but at least this wasn't the first time they walked out in the mid of an interview process, a very drastic contrast to the image they presented to the general public.\n\n(This post was on r/SpaceX previously and got removed by moderator since it was “irrelevant “ to SpaceX)",
+      "subreddit": "jobs",
+      "score": 0,
+      "url": "https://reddit.com/r/jobs/comments/13ucpm0/spacex_interview_experience/",
+      "comments": [
+        {
+          "body": "In all fairness, I am a member of the general public and I think they are a bunch of donkeys. You were probably wayyyy overqualified.",
+          "score": 3
+        },
+        {
+          "body": "Color me shocked",
+          "score": 1
+        },
+        {
+          "body": "How horrible!! I am an Exec Recruiter in the industry and this infuriates me. Every candidate should be respected and made to have a positive experience. No excuse for this regardless of the company!",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "PSA: If you want to know why a big company rejected you, send them a GDPR request",
+      "body": "FANG and other big companies keep the data that you generated while interviewing with them forever.    \n   \nUnder GDPR, they are *required* to provide you with this data request. Just send them an email with a request for this data and they must comply (say in the email that it is a formal notification of a GDPR request).\n  \n \nI have personally tested this with a couple of FAANG companies and the response was quite surprising. There was an interview that I felt went great but the interviewer thought I didn't know how to use a std::vector and thus rated my coding skills as bad (even though I did know how to perfectly use a fucking vector as I use one almost every day in my job).   \n\n\n    \nA lot of information will be redacted from these documents but it is still a useful source of feedback!\n\n\nEDIT: Many people seem to think that \"running a background check\" can easily reveal whether you are a European resident or not. It's not that simple, one could easily hold dual nationality without it showing up anywhere. That have no way of knowing at all\n\n   \n   \nEDIT 2: The way this works is that large companies have entire departments that deal with these sorts of requests. A sample email you could send is:\n\nSUBJECT: GDPR request for accessing my previous interview feedback\n\nHi, \n\nI would like access to all of my interview feedback data. I interviewed with your company on mm-dd-yy. \nMy full name is X X \n\nThis is a formal GDPR request to access this data.\n\n\nThank you,    \nCandidateName",
+      "subreddit": "cscareerquestions",
+      "score": 2982,
+      "url": "https://reddit.com/r/cscareerquestions/comments/rw3p8u/psa_if_you_want_to_know_why_a_big_company/",
+      "comments": [
+        {
+          "body": "Who exactly did you email when you did this? The recruiter you were working with?",
+          "score": 443
+        },
+        {
+          "body": "Send a second GDPR request and you'll learn a lot about the company's blacklisting policies.\n\n(But seriously, this is a great hack, and I'm sure they'll figure out how to close this loophole).",
+          "score": 1622
+        },
+        {
+          "body": "Good to know!\n\nYeah a lot of interviewers are actually really really terrible at evaluating candidates, despite giving the appearance that they know what they're talking about. You learn this the more you interview. You ESPECIALLY learn this when you're on the other side of the interviewing table some day.",
+          "score": 323
+        },
+        {
+          "body": "Under California CCPA:\n\n&gt; If you are a California resident, you may ask businesses to disclose what personal information they have about you and what they do with that information, to delete your personal information and not to sell your personal information.\n\nSo also California residents.\n\n&gt; Personal information is information that identifies, relates to, or could reasonably be linked with you or your household. For example, it could include your name, social security number, email address, records of products purchased, internet browsing history, geolocation data, fingerprints, and inferences from other personal information that could create a profile about your preferences and characteristics.",
+          "score": 112
+        },
+        {
+          "body": "Interesting... I wonder if this will hurt your future interviewing prospects. Perhaps it won't if the GPDR request is handled by a different department that doesn't care about recruiting. \n\nI've had FAANG recruiters give me interview feedback without being asked. It might have been because I did so poorly that the reasons were self-evident.",
+          "score": 106
+        }
+      ]
+    },
+    {
+      "title": "PSA: I got a LOT more interview offers with a .docx résumé than a LaTeX one converted to PDF",
+      "body": "I was applying for a job and threw my PDF in the resume field, and it said \"Error: Not enough information recovered\". I thought maybe the resume crawler bots have a hard time parsing the PDFs, so I switched to a (less pretty) word doc file.\n\nI went from 1 interview offer every other month to getting 5 after a week.",
+      "subreddit": "cscareerquestions",
+      "score": 979,
+      "url": "https://reddit.com/r/cscareerquestions/comments/8gi9hl/psa_i_got_a_lot_more_interview_offers_with_a_docx/",
+      "comments": [
+        {
+          "body": "Was the PDF searchable? ",
+          "score": 314
+        },
+        {
+          "body": "Just FWIW, here is an online resume parser that you guys can test out...I'm not sure if it's as sophisticated as the ATS parsers that large companies use, but its free to try out.\n\nhttps://www.joinvision.com/en/products/cvlizer/",
+          "score": 289
+        },
+        {
+          "body": "[deleted]",
+          "score": 116
+        },
+        {
+          "body": "Time to upload resume.json.",
+          "score": 29
+        },
+        {
+          "body": "Out of curiosity, is there a perceived difference in quality between places that are very responsive towards .docx resumes versus places that are responsive towards PDF/LaTeX resumes?\n\nMy personal biases lead me to think that the former companies are just running things through automated keyword searches, then passing them off to HR, which means your application is getting less personal attention from a developer, and it also means there's probably more bureaucracy. Meanwhile, my biases lead me to think the latter probably tend to be smaller companies where engineers/developers are more directly involved in the hiring process from the beginning and you may get a lot of direct attention from them.",
+          "score": 23
+        },
+        {
+          "body": "This is slightly off topic from the OP (sort of not really). But when I first got out of college, what really assisted me in the career search was having multiple formats for your resume readily available because some web application only accept PDF, some only accept .doc(x), and some want you to copy and paste a text format of your resume into a text box.\n\nSo what I would do is to literally take an hour or so, and convert your current resume and make nice, readable versions in the following formats:\n\n* .doc(x)\n* .pdf\n* .txt\n\nThe .txt format will probably take the most time since it doesn't have the styling the other two provide, but it comes in handy *so* much. But being able to just copy and paste without having to constantly worry about formats will make it so much simpler. You'll thank yourself in the long run because you never know when you'll need a different format.\n\nIf possible, use a word document since a lot of APIs on the web can parse Word documents much easier than the PDF Binary (There are tons of Word parsing libraries on the net that companies implement).",
+          "score": 68
+        }
+      ]
+    },
+    {
+      "title": "I'm a lead software engineer with 10 YOE, I just bombed a coding quiz with a very simple problem, it happens to everyone.",
+      "body": "I'm currently a lead engineer at a F500 company.  Been at my current job for 4 of those 10 years.  I've worked at small startups to enterprise software company's.  I'd definitely consider myself \"senior\".\n\n\nI just got to the 4th round of interviews for a new company, first was recruiter screen, then manager phone screen, then online coding assessment and finally this in person coding assessment.  I nailed the first 2 interviews as well as the take home coding assessment. \n\nThen came the live-coding session.  I was asked to solve a problem with an n-sized tic tac toe board determine whether X's won, O's won, nobody can win, or if we don't have enough data to determine if X or O has won.  \n\nAt the start I asked some clarifying questions then if I could use my IDE.  They said I had to use this browser version of essentially sublime text (no code completion, no auto formatting, etc).  I just froze, I was sitting starting at my two for loops and shitty code after about 30 minutes and realized I had no idea what I was doing in the moment.   I was talking through my thought process the whole time and the interviewers were just silent, it was awkward.  As soon as the interview ended and I thought more on the problem I realized like 3 solutions.\n\nI've never bombed an interview this bad but I guess after 10 years I was due to bomb an interview eventually.  Really sucks and I know that interview wasn't representative of my skills, but it happens.\n\nSo, don't be upset if you freeze during interviews, it happens to everyone. \n\n&lt;/end rant&gt;\n\n\nUpdate: I just got a job offer from FAANG, so it all worked out in the end!",
+      "subreddit": "cscareerquestions",
+      "score": 2925,
+      "url": "https://reddit.com/r/cscareerquestions/comments/qikbq1/im_a_lead_software_engineer_with_10_yoe_i_just/",
+      "comments": [
+        {
+          "body": "Coding interviews are gonna turn into squid games in a few years.",
+          "score": 1184
+        },
+        {
+          "body": "I’ve had this happen before. Super easy question that would be a solved with a couple loops but I was asked to write the code inside notepad and for some reason I just couldn’t think, it was weird",
+          "score": 284
+        },
+        {
+          "body": "The only thing a live coding challenge measures is a candidate's anxiety.\n\nI've interviewed dozens of engineers from intern to senior level. Spoiler: new grads usually outshine senior developers on DS/algo and rote computer science trivia.\n\nHere are lists of things I recommend doing (and not doing) to gauge the technical acumen of a candidate.\n\nTechnical Interview Do List: \n\n * Live code review \n * Small pair programming exercise \n * Conversational back-and-forth about tech stack \n * \"Tell me about your experience with &lt;tech stack&gt;\" \n * \"Tell me about a feature or project you worked on that you're proud of\" \n * \"Tell me about a difficult bug and how you fixed it\" \n * Small take-home assignment (within reasonable scope) \n\nTechnical Interview Don't List: \n\n * White board / paper coding tests \n * Live coding tests \n * Timed coding tests \n * Computer science trivia \n * IQ tests \n * Logic puzzles \n * Leetcode/HackerRank/etc\n * Candidate portfolios like GitHub, personal website, etc.",
+          "score": 118
+        },
+        {
+          "body": "[deleted]",
+          "score": 536
+        },
+        {
+          "body": "Silent interviewers are shitty, also a complex second coding test in a shitty in browser IDE, you probably dodged a bullet by freezing.",
+          "score": 207
+        }
+      ]
+    },
+    {
+      "title": "The abysmal state of hiring for software engineer roles and some tips. ",
+      "body": "I have been at a position where I will do both the first “get to know you” interviews and technical interviews, for SE positions at my current company, and I need to rant about a few things I have noticed. \n\n1. Fake resumes: the amount of people who lie on their resumes is insane, not only about the technologies they used but also about their work experience and education. It makes it harder for real applicants to get noticed and it makes it harder for us to hire them…\n2. Unable to answer basic questions: don’t say you have implemented technology X if you can’t tell me what the fuck you did with technology X. It’s fine if you don’t know the details of technology X, but tell me how you interacted with it. \n3. (This one is for the companies hiring) stop pushing candidates to be competitive code gamers like leetcoders, it’s a useless fucking skill and I don’t need a kid that knows how to prolapse a banana tree in O(n) time, I need someone that can design, implement and document and API.\n4. Reading from a text during non technical interviews, we can tell you a googling stuff, the screen light on your face is changing, you look stupid, stop it. Story: we had one dude act like the video call was frozen and would just sit there without moving but we could see the reflection of the screen in his glasses change as he was googling answers to our basic questions. \n5. If you are struggling in a technical interview, that’s fine, the best thing you can do is talk, talk about what you don’t understand, what you think could work, why you expected you code to work etc, also I think it’s perfectly normal to use google while sharing your screen in a technical interview, if they allow you to, please show them your googling and documentation reading skills, those are also part of the interview. ",
+      "subreddit": "cscareerquestions",
+      "score": 827,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1g22jz4/the_abysmal_state_of_hiring_for_software_engineer/",
+      "comments": [
+        {
+          "body": "This is awesome!!! Also I can prolapse a banana tree in O(log n) so you should hire me!",
+          "score": 357
+        },
+        {
+          "body": "For point 2 I think a lot of the reason is because companies are asking for everything under the sun. I got recently rejected because out of the 15 technologies they used I didn’t have terraform on it. Our projects used terraform, I just never interacted with it. I can see why people start putting technologies in their resume they have maybe 5 minutes of experience with. It sucks.",
+          "score": 164
+        },
+        {
+          "body": "You’ve hit on a few big negatives of bad job markets for employers.\n\nMost SWEs avoid looking for a job if they have any choice.  So, employers don’t get to choose from all SWEs, just SWEs with no other choice.  Lots of good SWEs will just wait out the market and won’t risk a new job.\n\nA lot of employers have so many candidates that they seem to filter for the most desperate candidates instead of the best employee.  OAs are interesting in this way: some SWEs do OAs and some don’t but SWEs who don’t do OAs aren’t provably worse SWEs than those that do.  Similar, SWEs who are willing to do a 12-loop interview.  Employers end up choosing the best SWE from a group of very desperate SWEs.",
+          "score": 96
+        },
+        {
+          "body": "interviewed a guy yesterday who couldn't write a for loop. He was interviewing for a senior dev position. It's wild how many low level candidates make it to the technical interview these days ",
+          "score": 165
+        },
+        {
+          "body": "Where the fuck are you people?\n\nI'm doing leetcode hards for FE positions only to get slammed with a \"the managers nephew is a bette fit\" replies.\n\nWhile you get scammers that can't white a for loop. Should I start lying on my resume just to get to the table?",
+          "score": 80
+        },
+        {
+          "body": "1. How can you tell if someone has a fake resume?\n2. Why are so many companies pushing candidates to use leetcode?",
+          "score": 19
+        },
+        {
+          "body": "I mean there is this but there is also interviewers who keep thinking orchestration only can be done by airflow or some new age tech when they are literally just glorified cronjobs. I had a interviewer said I was lying about orchestration when I'm like dude no, I just needed x functionality that's it but we decided it wasn't worth it in our company but I have experience with it lmao",
+          "score": 20
+        }
+      ]
+    },
+    {
+      "title": "My Thoughts On Leetcode",
+      "body": "In my honest opinion, Leetcode/coding challenges can be a very fun intellectual challenge. It’s like solving a Rubik cube in many ways.\n\nThe real problem is: When we are asked to solve a 4 x 4 Rubik cube in 15 minutes, sometimes even with hands tied or blindfolded, to get a job, it will take all the fun away.\n\nBy the way, nobody should force themselves to solve two Rubik cubes a day.",
+      "subreddit": "cscareerquestions",
+      "score": 1084,
+      "url": "https://reddit.com/r/cscareerquestions/comments/onvl7p/my_thoughts_on_leetcode/",
+      "comments": [
+        {
+          "body": "Solving a 4x4 Rubiks cube while you explain every single move and the reasoning behind it and at the same time multiple people are staring at you watching everything you do.  And you know one move could completely affect the next few years of your life.",
+          "score": 890
+        },
+        {
+          "body": "Rubik's cube is a good analogy for a lot of coding challenges.  Being able to solve it quickly means you have already learnt the patterns for that puzzle, it says nothing about your puzzle solving ability.",
+          "score": 458
+        },
+        {
+          "body": "And then there are 3rd rate companies the make you solve 5x5 Rubiks cube and circumcise you while you're solving",
+          "score": 109
+        },
+        {
+          "body": "I agree; I find algorithms cool and enjoy the mental challenge -- but not as part of a job interview. There's stress, anxiety and a lot is at stake.",
+          "score": 42
+        }
+      ]
+    },
+    {
+      "title": "What technologies do you refuse to work with?",
+      "body": "Youre searching for a job, you find a company you like, interview with manager who leaves a good impression on you, and at the end of the interview they mention the role works primarily with X language/framework/tool. What tech would get a hard stop from you?",
+      "subreddit": "cscareerquestions",
+      "score": 122,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1b7bwn0/what_technologies_do_you_refuse_to_work_with/",
+      "comments": [
+        {
+          "body": "Not much. I'm a shameless tech slut who will do anything.",
+          "score": 601
+        },
+        {
+          "body": "Microsoft dynamics CRM. Never have i worked with something so dogshit.",
+          "score": 143
+        },
+        {
+          "body": "Pretty much anything proprietary. There are entire languages with tools developed specifically for said language that require a license to use. Companies will buy into this shit with the promise of better quality software with less effort, then wonder why they can't find developers.",
+          "score": 142
+        },
+        {
+          "body": "COBOL, I think the people saying super high paying jobs exist with it are just gaslighting. The average salary is like 100k for 20 years of experience",
+          "score": 129
+        },
+        {
+          "body": "I’m careful about overly opinionated frameworks. One hand, they abstract away some potentially complicated decisions. On the other, they constrain what you can do, especially when integrating with other tools. ",
+          "score": 43
+        },
+        {
+          "body": "Any IBM property gives me the heebiejeebies. \n\nApart from the aggressive licensing/rent-seeking behavior, they always insist on the clunkiest most inconvenient APIs, stale, overly technical and poorly organized (but voluminous) documentation",
+          "score": 45
+        }
+      ]
+    },
+    {
+      "title": "My experience interviewing during a pandemic",
+      "body": "Hi all, \n\nHaving just finished a rigorous interview process, I thought it might be helpful for me to share my experience / takeaways while also highlighting how COVID affected the process.\n\n### Background\n\n5 YOE, fullstack/backend engineer in NYC area. To prepare for interviews, I started a typical study routine (ie Leetcode) around December. In total I did around 200 problems, mostly mediums/hards. For system design, I used the Grokking the System Design Interview course.\n\n### Numbers\n\n**25 companies contacted -** Given how much time I invested in studying, I wanted to get the best possible return by casting the net pretty wide with regards to company selection. For me, this step was pretty easy since I have the good fortune of having previous experience at a well known unicorn. Once I found a company I knew I was interested in (I'd use resources use glassdoor and linkedin to find them first), I'd reach out to one of their recruiters via LinkedIn and usually they'd respond pretty quick by setting up an intro call. I started this process back in Jan/Feb -- well before COVID was mainstream news.\n\n**17 recruiter calls -** The basic introductory call where it seems like the recruiter's main goal is to confirm you are who your resume says you are, and maybe that you're not a complete maniac. I actually got rejected at this stage by a few companies which surprised me. I think it's because I wasn't well prepared yet because I assumed this stage was a freebie and some recruiters actually asked challenging questions about my background, interests, etc that I didn't have great answers for. Lesson learned: prepare for these calls by anticipating what they might ask, have a \"story\" about your background that makes it clear why their company is right for you, etc.\n\n**13 technical phone screens -** It might be more accurate to call this stage the \"pre-onsite\" technical screen because a few of these interviews were in the form of take-homes and online assessments. One thing I noticed compared with when I went through this whole process a few years ago is that there was much more diversity with the format of the technical screen. Before it might've been 70% LC easy/medium questions over coderpad, whereas this time I'd say it was 70% non-LC style questions such as debugging pre-written code, implementing a class, Q&amp;A discussions, etc. This was a welcome change. This stage was right around COVID was becoming a big deal.\n\n**9 virtual on-sites -** Of the above 15 technical phone screens, I only failed 1 (Amazon's online assessment where one of the questions was a LC hard I hadn't seen before). But 3 companies couldn't continue because they paused hiring and 1 company I decided not to continue with. At this point COVID was in full effect and every company had gone remote, so that meant all my on-sites were being converted to virtual. These on-sites were mostly done via zoom or some similar VC software and for the most part they went smoothly. The trend of de-emphasizing LC style questions in favor of other formats was happily present for these on-sites as well. The system design interviews did feel less fluent due to the constraint of needing to use software to do the \"whiteboarding\", but the interviews were very understanding and in a few cases they even offered to help me draw the diagram while I explained my thoughts which is something that very worked well. I will say that doing these interviews virtually seemed particularly taxing for reasons I still don't fully understand. Maybe there's extra effort being used to communicate virtually that isn't needed in-person. I don't know, but I was drop dead tired after each session. For this reason, I would strongly urge you to ensure at least one break is included in your schedule, and ideally 2. Even better, you could try asking that the interview be broken up across 2 days. The added benefit with this approach is that the company could evaluate your feedback on Day 1 and only proceed to Day 2 if appropriate. This saves everyone some time. Another tip is to use COVID as a way to connect with your interviewer. Good or bad, we're all going through this shared experience so might as well use it to try to build report with your interviewer. Obviously be tasteful though.\n\n**Post interviews**\n\nAfter the dust settled,  I landed 3 offers, and am still waiting to hear back from 2 companies, 1 of which I'm hopeful will convert to a 4th offer. 2 more companies paused hiring which really sucked considering I went through the full process, but whadya gonna do. And finally I got rejected by 2 companies.\n\nWhile overall I feel like my efforts were successful, I would still suggest holding off on interviewing until things normalize or better yet until the economy starts to recover. Virtual on-sites are doable but I much prefer real on-sites, and having companies drop out mid-process was also not fun. \n\n### Other takeaways\n\n* Be careful of pattern matching. One downside of grinding LC is you become highly calibrated to match patterns. This is often touted as a benefit, which it can be, but it can also get you in trouble. For example, on a few occasions I was presented with questions that were similar to problems I'd seen on LC, but different enough where I couldn't just neatly overlay the solution from the LC problem, even though I tried. This caused me to go down the wrong path and waste too much time trying to \"remember\" a solution instead of just focusing on the problem at hand and trying to solve it from first principles.\n\n* To help overcome nerves before an interview, do whatever it takes to put yourself into a good mood. For me this was going to the gym and playing uplifting music. I'd even watch standup comedy shortly before the interview to ease the tension. Smiling and laughing really do work wonders, so try to do both before and even during the interview.\n\n* When grinding LC, one thing I would have done differently was to take more time to THOROUGHLY understand problems. I was treating it too much like a race to solve X problems (gee I wonder where I got that idea). But real learning comes only when you deeply understand the problem, what makes it hard, why the solutions work, etc. This might mean you spend an entire day on a problem. That's okay, it'll pay off.\n\n* Spaced repetition. Another concept I wish I'd implemented earlier. Whenever you get a problem wrong, take time to understand the solution, then make sure to revisit it after a few days and try to solve it again. I'd even do this for problems you solve on the first try if they are very common interview questions. The repetition really locks in your understanding.\n\n\nThat's all I can think of, hope this helps somebody!",
+      "subreddit": "cscareerquestions",
+      "score": 1118,
+      "url": "https://reddit.com/r/cscareerquestions/comments/g1v1lj/my_experience_interviewing_during_a_pandemic/",
+      "comments": [
+        {
+          "body": "Huh, as a SWE applying to mid-senior level roles in the NYC area currently, my experience has found a lot of companies still doing these LC style questions. It's tough because this is probably my weakest area, I can do systems design or data modeling just fine but ask me to invert a binary tree over coderpad and we're gonna have a bad time.",
+          "score": 140
+        },
+        {
+          "body": "Glad you posted this. I've been waiting to hear back from one more company before posting my experiences which look very similar to yours. One offer on hold indefinitely due to the pandemic, and one will supposedly reopen next month (I'm not holding my breath). One was stalled for two weeks but did open back up. Two other offers came in late Feb, so before shit really hit the fan.\n\nCurious though, as I didn't do nearly as much LeetCode prep or even touch anything close to an easier LeetCode medium. Was your focus on the FAANG/Unicorns/Big N that this sub tends to focus on, or did you also interview for \"normal\" and less heard of companies? Also, was there any specific area focus? Mine were all west coast and remote.",
+          "score": 76
+        },
+        {
+          "body": "Rant: When asked \"why do you want to work for company &lt;x&gt;?\" it's so hard for me to just not say \"Because they pay money.\"",
+          "score": 176
+        },
+        {
+          "body": "This is great info. I’m abroad and looking to move back to nyc after things settle. \n\n200 medium/hard is impressive. You averaged 1-2 a day?\n\nI also usually take the recruiter calls as a formality and never thought it might be where things stop. I like to use recruiter agencies for getting my story straight. Usually they’re not technical at all, but some will work with you to get your story to sound nice for the people they put you in front of.\n\nAfterward, you can take that story to the places you really want to interview at.",
+          "score": 18
+        }
+      ]
+    },
+    {
+      "title": "You guys stress me out",
+      "body": "This sub is so stressful man. Reading through posts gives the impression that there's like a winding golden path to success in this field and any misstep will through you off a loop. People saying \"don't take x it'll make you an x guy forever\", or \"if you can't answer xyzadbc or don't know these 8 esoteric things you'll never find a job\".\n\nFuck me I thought people got into tech because of the flexible job market. I don't get that impression from this sub at all, people sound like they're fighting like crazy to get entry level positions and no one with a job is ever positive or reassuring about job prospects. Why am I even in this field if I'm going to have to spend 500 hours to prepare for an interview? Might as well go management or something and skip all of this stress. \n\nIs this really what its like out there or is this just the environment in this sub? I just started my first position and it seems like people I know are finding new, better positions *all the time*. I'm not at google or anything but the job market does not seem so bad from my perspective. Why is the atmosphere on this sub so glum 24/7?",
+      "subreddit": "cscareerquestions",
+      "score": 934,
+      "url": "https://reddit.com/r/cscareerquestions/comments/8iat1f/you_guys_stress_me_out/",
+      "comments": [
+        {
+          "body": "Because people rarely make posts like \"Hey. Got a job right away. I like it. Good money.\" Top posts are often times trying to solve problems or if someone gets in a stressful situation and want advice. The internet is almost always more dramatic than real life. Tumblr, Twitter, etc.",
+          "score": 734
+        },
+        {
+          "body": "Imagine that instead of looking out the window to check the weather, you're closing your eyes and having 100 different people describe it to you.  You're limiting yourself to strangers' interpretation of events.\n\nYeah, you're gonna get fuckin stressed out.  People are crazy.  Look out the window with your own eyes, it's really not as dramatic as it seems.",
+          "score": 181
+        },
+        {
+          "body": "[deleted]",
+          "score": 155
+        },
+        {
+          "body": "This sub is the College Confidential of the tech industry...it tends to draw a certain type of person. In real life, most CS grads I know are able to find jobs without a ton of stress.",
+          "score": 187
+        },
+        {
+          "body": "Google Survivorship Bias. This sub is the opposite of that.",
+          "score": 34
+        },
+        {
+          "body": "This sub essentially is obsessed with gold digs for big N internships or the bay area unicorn gigs ",
+          "score": 192
+        }
+      ]
+    },
+    {
+      "title": "Anybody else feel like they have an unhealthy obsession with prestige and success?",
+      "body": "I still have one more year until I finish my Masters', but I feel like I'm already tired of the whole rat race. I got into this field because I thought it was interesting, matched what I was good at, and payed a pretty good average salary. Now I feel like I'm just constantly chasing the next thing to add to my resume so that I can momentarily feel slightly less bad about myself.\n\nStarted going to this interesting tech club? Why aren't you in a leadership position yet? Leadership is what recruiters crave. Got a leadership position? Well, why aren't you president? Nobody cares unless you're president. Became president? Well, why didn't you start your own club? Nobody cares unless you're a founder of something.\n\nGot anything less than an A in a class? Trash. Got an A in the class? ....well, why didn't you get an A+? If you weren't even good enough to get an A+, can you really say you know the subject? I mean, GPA obviously doesn't matter, but you're obviously not gonna get emails back from recruiters unless you have over a 4.0 GPA. \n\nGot an awesome internship at an interesting company? Well, it wasn't FAANG, so who cares? Got a FAANG internship? Well it wasn't one of the good FAANGs, so if you really think about it, you really didn't accomplish anything. Got into a \"Good FAANG\"? Well, the other intern works on his own startup idea when he goes home. Why aren't you working on your startup idea? Do you even have a startup idea? Are you even trying?\n\nGot into the best school in your state? Well, it's not a top X school, so I guess you just didn't work hard enough ehh? Got into a top X school for your Masters'? Well, it's not a top X-- school, so really anyone can do what you've done. Got into a research program? Why haven't you published in a top conference/journal yet? How do you expect to get into a PhD program without top first author publications? Oh, by the way, you want to get your PhD now. I know you said you didn't want to before, but seeing some of your friends do it is making you feel insecure. \n\nPart of me feels like I just want the \"I don't really care that much about what I do, so let me just work 40 hours a week and then do whatever with the rest of the time\" life. But another part of me feels like \"If you don't work harder and spend 60-80 hours a week trying to be better than your peers, then you're going to lose out on opportunities that other people only dream of and you'll regret it.\" It's almost like I feel like I have this obligation that I can, so I should, and I should just \"save laziness for later\". \n\nBut it seems like the more I work, the more I feel like I have to work. There's no \"good enough\". There's no endgame. No matter what, there's another level, another thing to feel insecure about, another reason to feel bad about not grinding and feel like my desire to chill out is just laziness that I should ignore. I feel like my own \"tiger parent\", and it's starting to really take its toll.\n\nHas anybody else had feelings like this before? Did you do anything about it? Any regrets along the way?",
+      "subreddit": "cscareerquestions",
+      "score": 942,
+      "url": "https://reddit.com/r/cscareerquestions/comments/dbfnzr/anybody_else_feel_like_they_have_an_unhealthy/",
+      "comments": [
+        {
+          "body": "One thing I noticed in your very long rant is that the entire post is about *what others think of you*.\n\nWhat do ***you*** think about you? Who gives a shit what a recruiter thinks of me, or a hiring manager thinks of me, or a random redditor thinks of me, or my parents think of me, or my friends think of me, or my co-workers think of me.\n\nMy success not only in my career, but in life in general, is 100% based on ***what I think about me.***\n\nSome peoples definition of sucess on this sub is my exact definition of failure. Spend more than 40 hours a week at a job? I've failed. Spend so much time in a class to obtain an A+ that I had to stop having fun on the weekends? That's a failure to me. Grinded so hard in high school to get into the #1 school in the country that I didn't have time to develop any hobbies or hold a job? I've failed. Spend all my time on leetcode to get a \"prestigious\" job? I've failed. Joined a tech club not because I'm interested in it, but because I wanted to pad my resume? Hard fail.\n\nPretty much everything you listed as a positive thing, I view as a negative thing.\n\nSo, let's ignore what you think others think. What do ***you think***?\n\nIf you strive in life to please others, then of course there is no \"good enough\". There's no \"end game\". Because you're trying to please others, not yourself.\n\nI indeed felt this way for a brief moment early on in college, but then I got a single internship offer as a sophomore at a non-tech company that most people would not regard as \"prestigious\". Well, I ended up actually having fun, making friends, enjoying my life, going out, and having one of the best summers in my life during that internship. I wasn't grinding 80 hour weeks, I didn't get a shiny gold star on my resume that my mom can brag about to her friends. What I got was work experience, and an amazing summer ***outside of the office***. All my friends that ended up at \"prestigious\" places? Their summers fucking sucked.\n\nSomething unique about a job in CS is pretty much the second we graduate, we're making a salary that's already higher than a large portion of Americans. We're making a salary on Day 1 that can afford us a nice apartment, food on the table, the ability to eat out and go binge drinking on weekends, go on vacations, buy nice cars, and generally have fun. All the numbers beyond that day 1 salary? That's just a \"nice to have\".\n\nI work to live, I don't live to work. Change your thinking, and make yourself happy. Fuck everyone else.",
+          "score": 1387
+        },
+        {
+          "body": "[deleted]",
+          "score": 56
+        },
+        {
+          "body": "It may be good to talk to a therapist and figure out *why* you feel that way.",
+          "score": 201
+        },
+        {
+          "body": "Ha! Yes and eventually you realize these things don’t really matter. Then you are free to build a life around what matters to you.",
+          "score": 39
+        },
+        {
+          "body": "it sounds like you've built up starting your career with something that doesn't match reality.  you should probably cut out the person (or forum) that keeps saying you're not doing enough. in reality you don't need a 4.0, or 100 leadership clubs, or fang internships to make it in this field. \n\nyou're not even in the rat race yet.",
+          "score": 20
+        },
+        {
+          "body": "I would bet you any money that if I called up my grandpa right now and asked him if he wished he would’ve worked harder he would say no; he wished he would’ve spent more time with his family and friends.",
+          "score": 23
+        }
+      ]
+    },
+    {
+      "title": "This field depresses me and is effecting my life outside work. Don't know what to do about it.",
+      "body": "I am a mid level developer. So I am not new to the field. I thought things would get better by now, and in some ways they have. But overall, the field is frankly ruining my life.\n\nThe amount of stress caused by this job is unreal. Before people say, \"well, you could be a retail or or x worker\". I actually worked those jobs, unlike many in this field who say that line. I wasn't even close to as stressed as I am in this field. I would probably still work them if they paid the bills, but they don't. At least in the US.\n\nThe unrealistic deadlines, the mismanagement of projects that then gets dumped on the devs to make up for, the work culture that comes from overseas because this field is filled with abused H1B workers. I see things eventually turning into 996 schedules in the US if this doesn't stop.\n\nThen to escape horrible jobs...you have to practice interviewing on your own free time. Interviews have rarely anything to do with what you do on the job. Thanks to all the endless technology programmers have to make up every year, good luck keeping up with everything. Also, look forward to 3-5 rounds of BS each time. Good luck finding the time to do this if you have a job you hate. I guess good luck if you run out of days to use for interviews. I guess you just have to quit your job or get fired to escape?\n\nI'm seeing a therapist but it isn't helping. They even admit that most of my problems sound like it comes from this job field. They say they have never heard of a work field in the US that is this bad from any of their clients in other fields.\n\nCan't really change job fields because I can't afford to go back to college debt now. Any job that pays a middle class lifestyle to own a basic house requires a degree these days. \n\nI just don't know what to do anymore. I am just tired. How do I just find some peace in this field? I don't want FAANG wages. I want a descent 40 hour job that is low stress and I'm fine with low pay. As long as it pays the basic bills. One where I can just stay at the job without worrying about layoff or the next management rolling in to start turning a job into a PIP factory.\n\nIs that really too much to ask in this field?",
+      "subreddit": "cscareerquestions",
+      "score": 144,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1niq18i/this_field_depresses_me_and_is_effecting_my_life/",
+      "comments": [
+        {
+          "body": "Experiencing the exact same thing. There’s extreme mismanagement in tech. I’m trying to get my life back outside work hours, but  being in constant survival mode means that is very difficult to do. Would appreciate any tips that anyone has.",
+          "score": 95
+        },
+        {
+          "body": "I loathe the interviews. If I knew what the interviews were like, I probably wouldn't have chosen this profession. But I've started to think of it like this: the absurdity of engineer interviews are the price we pay for (often) inflated salaries. No, the contents of coding interviews rarely have anything to do with what we do on the job. Systems Design interviews are a lot more interesting and useful, and I think they're becoming more popular. But still, it's a slog we have to get through. Better than 8+ years of medical school.",
+          "score": 18
+        },
+        {
+          "body": "This industry is a nightmare. Always has been.",
+          "score": 16
+        },
+        {
+          "body": "Kinda odd set of responses so far.   I've been slogging it through the tech industry for a few decades now.   Small, med, and Fortune 10.   It all sucks.\n\nManagers are either do nothings or know-it-alls.    Everything rolls downhill to the devs.  Insane requirements.   Insane deadlines.   Insane constraints (oh hey - now 90% of your code has to be crapped out by claude - enjoy!).  More politics than DC.\n\nThe mba's are only 2nd to the tech school grads in terms of being insufferable.   Everyone critiques everything endlessly and in the end it doesn't matter how impactful you are - someone else takes credit upstairs for everything.\n\nSucceed in this cesspool and you are rewarded with more and harder work while the execs hire their college buddies and leaders from companies they acquire fill every high level tech roll without so much as an interview.  You will stay in the mines and you will like it!\n\nAnd that's the thing... you kinda can.   If you let go a little and you don't worry about that next promo - or the product - or the customers or any of it.   At the end of the day you take a task - you do it and you move on.   It's kinda fun that way.\n\nNo it won't make you a superstar.   But - if you are looking for respite that's where I've found it when I needed it.   In the day to day grind. \n\nIgnore the politics and the idiots - don't volunteer for anything.   Don't attend any optional meetings or answer anything on slack that you don't have to respond to.  Let someone else do it.  Give yourself luxurious timelines and estimates and then just code for a while.  The code is fun - it's interesting - it's a never ending experiment in order and logic.   It's the best part of the job.  Don't worry about fixing the architecture or righting any ships - just do the fun bit.  Let others code be buggy - let the tests be a joke - let the libraries be undocumented and uncommented... and for all that's holy - don't worry about upgrading anything.   Just code for a while.  Methodically and quietly grind out some tasks and see how you feel.\n\nEventually my ambition has always gotten the best of me and i've had to escape those easy orbits - but others stay there and seem\nhappy to me.   Maybe that will work for you too - if not forever, then maybe for a time.",
+          "score": 15
+        },
+        {
+          "body": "&gt;Is that really too much to ask in this field?\n\nIt's not. But there's a really deadly spiral that a fair amount of people get stuck in.\n\nThey land at a shit job where the things you're talking about are the norm, then they get burned out and desperate for a new job, and because of that desperation they fail to do their due diligence in the reverse interview and/or aren't picky enough with the new job, so they end up somewhere just as bad. Rinse and repeat, and your entire career is just shit job after shit job.\n\nIt's a hard cycle to break once you're in it, because you never ditch that feeling of desperation.\n\nLayoff/management changes aren't really unique to our industry. What is fairly unique to this industry is our painful interviews, which only makes it harder to get out of the deadly spiral once you're in it because you're both burnt out from your shit job, *and* the shit interview process. Double burnout.\n\n&gt;How do I just find some peace in this field?\n\nSo the things you're talking about re: stress, unrealistic deadlines, mismanagement, shit culture, etc aren't *inherent* of this field. They're inherent of toxic companies. The trick is finding a company that isn't toxic. Just because a company has lower pay doesn't mean they'll be lower stress/not toxic. Just because a company has higher pay doesn't mean they'll be higher stress/toxic.\n\nThis requires you to get really get at reverse-interviewing to sus out companies like that, *and* to be able to have the patience to not humor offers from companies that sound like they'll have cultures like that. I've said \"No thanks\" to plenty of companies.\n\nI've worked at 4 companies since graduating, 2 more if you count my internships, and I'd only describe one of them as turning toxic. That one was *great* to work for for about 2 years, but they had a CTO change who slowly tried to turn up the heat on the devs, which resulted in me and most of the good devs jumping ship before it got really bad. The other 5 companies though? Great WLB/cultures. I left one because I wanted to move to the east coast (100% onsite days), some of my friends are *still there* 12 years into their career. I left another one cause I was sick of the industry it was in, but honestly this was probably a mistake. The 3rd was the one I said turned toxic after 2 years. The one I'm at now is still smooth sailing over a year in.\n\nGood companies are out there. You just have to find them.",
+          "score": 28
+        },
+        {
+          "body": "[deleted]",
+          "score": 12
+        },
+        {
+          "body": "I feel the same lately. The deadlines are especially getting to me. Get into work, have 3 new projects thrown at me (all of them of the highest priority somehow); and only have a week to do it all from start to finish. But also got to stay on top of my client requests and maintenance as well.\n\nI don't have the energy or will to apply to new jobs in the field. I don't want to go through the horrible interview process most places have. And all of them lie to you anyway, so it's not like you know what you are getting into until you've cut ties to everything else and go full in. \n\nAnd really, the job market is so horrid rn that the pay vs expectations are just not worth most of these jobs. So I've gone full crazy and started chasing my dreams to become an artist. Screw it. I'm stressed and starving as a dev; may as well do something I want.",
+          "score": 15
+        }
+      ]
+    },
+    {
+      "title": "What's up with the tech sector in the USA?",
+      "body": "I've been lurking this sub for quite some time now. And I still get shocked when I'm reading about your experiences with companies. Asking stuff about binary trees, quite complex mathematical problems, the extreme competition at the entry-level et cetera.\n\nIn Europe it's quite different. You get a bachelors degree and you simply choose which company you want to work for. There is a massive shortage of programmers, so the companies practically beg for you to sign for them, even at entry-level. I have to note that a lot of tech companies in Europe work as a consultancy boîte. Meaning they'll hire you to another company and after x amount of time you get another project.\n\nInterview questions are generally about your thought process and understanding. They won't ask \"create the shortest path between this uberfluxgazillion tree in a quantum accelerator\", no they'll ask \"we're creating this system, draw a crude architecture on the board\".\n\nIs it really that bad in the USA? Or are you guys just over exaggerating? If not, you guys should go on a strike because damn...\n\n&amp;#x200B;\n\nEDIT: And don't get me started on the amount of hours you guys work... I work 40hrs/week and I'm off to enjoy my weekend. Also, if you have a bit of experience (let's say 5yrs+) you can easily start as a freelancer. As a freelancer it's quite easy to bring home 120k+ euros a year, divide that by half to account for taxes and you got 60K+ a year. Which doesn't sound like a lot, but 60K+ is a looot here compared to the US.\n\n&amp;#x200B;\n\nEDIT 2: I shouldn't have generalized the whole of Europe. I'm specifically talking about the Netherlands, Luxembourg, Belgium and Germany. I have no experience with the UK.",
+      "subreddit": "cscareerquestions",
+      "score": 543,
+      "url": "https://reddit.com/r/cscareerquestions/comments/9hpoj7/whats_up_with_the_tech_sector_in_the_usa/",
+      "comments": [
+        {
+          "body": "In Canada we get the mean-ass interviews of the US combined with the low salaries of Europe",
+          "score": 666
+        },
+        {
+          "body": "There are plenty of jobs like you are describing all over the US (e.g. for the government, big banks, consultancies, etc.) Especially outside of Silicon Valley/Seattle/NYC. Many of those only work 40 hours as well.\n\nThe questions here are more geared towards the absolute top companies, since those are the ones which are more difficult to get. You don't really get many questions here about chill jobs because they are relatively easier to get.\n\nYou're also underselling the process at top European companies/offices. Google Zurich, for example, is just as competitive to get into as Google USA and as a result pays their employees VERY well. \n\nEdit: Not to mention Microsoft in Cambridge, Google in London, Facebook in London, Dublin and Paris, and top European companies like BlaBlaCar, Spotify, Shazam, Deliveroo, Just Eat, Supercell",
+          "score": 278
+        },
+        {
+          "body": "&gt; Is it really that bad in the USA? Or are you guys just over exaggerating? If not, you guys should go on a strike because damn...\n\n1. Yes and no. It is that bad in certain places (Silicon Valley, NYC, other tech hubs)\n\n2. It is over-exaggerated in the sense that this sub obviously heavily skews towards people looking for top positions, and also posts from people NOT succeeding, since this is a sub for help with CS careers and it's not /r/cscareersuccesses\n\n3. That doesn't work in the US. You can't strike against companies hiring like this because you're still competing for positions with everyone else in the world. \n\nThe reason why certain companies in the US have these difficult and intense hiring/interview processes is because, for many companies, they are literally trying to find the best engineers in the world. You don't pay a new grad a $130k salary with a $40k signing bonus and $30k of company stock if you don't think they're absolutely exceptional.\n\nThe salaries for top tech companies are absurdly disproportionate to other companies in the US and especially compared to other countries. I'm talking 50%-100% higher in cities with comparable cost of living (SF &amp; NYC vs London). Top companies in NYC pay new grads over $100k, with bonuses. There are plenty of companies begging for pretty much anyone entry-level to work there (Revature comes to mind) but they pay very low salaries for the area.\n\nAdditionally, in the last few years, computer science as a college major has exploded and now there's a huge influx of entry-level CS people. Tech companies need a way to weed out who can and can't program, who can program at a higher level than basic homework problems, etc. Those crazy whiteboard/algorithms questions are what most of them go with, even if it might not be the best solution.",
+          "score": 287
+        },
+        {
+          "body": "This is the equivalent of hanging out in the College Confidential forums and asking why American students are all so depressed after getting a B+ and why they all take 10 AP courses each year and why they spend all their free time doing extracurriculars.",
+          "score": 63
+        },
+        {
+          "body": "I'm not sure this is true for all of Europe, in the UK Comp Sci has one if the lowest employment rates out of all degree subjects. ",
+          "score": 60
+        },
+        {
+          "body": "I have never worked more than 45 hours and that includes lunch, gym, and random breaks. If there is such a shortage in Europe, why don't you guys ask for higher salaries?",
+          "score": 102
+        },
+        {
+          "body": "I work in the USA (brit expat) and I work 35 hours a week, not 40, not 50, 35. The pay is decent and the benefits are good.\n\nI don't post on here about it because...why would I? Like /u/EthanWeber says, you only hear the bad stories - not generally the good.",
+          "score": 32
+        }
+      ]
+    },
+    {
+      "title": "What do you say when the interviewer asks \"Where do you see yourself in 3/5/X years?\"",
+      "body": "This is the worst question anyone can ask me! I want to say \"Owning a car and nice coats, having traveld a lot, being healthy, debt-free, nicely dressed, happily living with my partner and financially stable.\" I usually go just for the financially stable part.  \nSo, what do you say? Any best answers or worst answer you've given or heard others give?",
+      "subreddit": "jobs",
+      "score": 263,
+      "url": "https://reddit.com/r/jobs/comments/coklpk/what_do_you_say_when_the_interviewer_asks_where/",
+      "comments": [
+        {
+          "body": "I believe the answer for this is some relative to the following: In the future I see myself more 'seasoned' and experienced working with the company in a higher more functional capacity.\n\nEverything else gives more information than required, believe this is some from of a loyalty check.",
+          "score": 312
+        },
+        {
+          "body": "\"Celebrating the 5th year aniversary of you asking me that question\"\n\n-Mitch Hedberg",
+          "score": 71
+        },
+        {
+          "body": "I think the general consensus is that they want to hear that you want to be there awhile but also want to see some ambition. So something about being in a higher position at that company is generally what I’d like to go with.\n\nWhen I was in college and went home for the summer, I interviewed for a job at a grocery store and he asked me how long I planned on being there and I said “just for the summer” lmao. Never made that mistake again",
+          "score": 91
+        },
+        {
+          "body": "I lost out on a job because of this question once. At the time my wife and I have been planning to work for a few years then move out of state. I made the mistake of telling that to this interviewer. That we wanted to be somewhere else in about 5 years. Never heard back from them\n\nEdit: I'm 90% sure it was because of this answer. Mainly because the job stayed posted on the company site for another month before it came down. And because it was posed to me in the 3rd round of interviews, when I was pretty sure I'd gotten the job already.",
+          "score": 43
+        },
+        {
+          "body": "I use something like \"I hope that in 5 years I can look back and be proud of my accomplishments and what I will have learned, and have established a reputation for being a contributor that everyone wants on their project.\"",
+          "score": 17
+        }
+      ]
+    },
+    {
+      "title": "SpaceX Interview on Monday. All advices and tips are welcome!",
+      "body": "",
+      "subreddit": "jobs",
+      "score": 0,
+      "url": "https://reddit.com/r/jobs/comments/1pfs66x/spacex_interview_on_monday_all_advices_and_tips/",
+      "comments": []
+    },
+    {
+      "title": "Is everyone really using AI for their resumes these days?",
+      "body": "",
+      "subreddit": "jobs",
+      "score": 1093,
+      "url": "https://reddit.com/r/jobs/comments/1h09hp2/is_everyone_really_using_ai_for_their_resumes/",
+      "comments": [
+        {
+          "body": "They started it with automated scanning of CVs.",
+          "score": 1492
+        },
+        {
+          "body": "AI wrote that post. That’s ChatGPT formatting 😂",
+          "score": 98
+        },
+        {
+          "body": "Stupid companies and incompetent HR/recruiters opened this can of beans, now they can lie in it.",
+          "score": 320
+        },
+        {
+          "body": "If companies can use AI to deny my application because I don't have keywords, I can use AI to make sure I have those keywords and more.",
+          "score": 133
+        },
+        {
+          "body": "AI wrote a better resume with my basic work history in 30 seconds  than one of those indeed/linkedin services did with my life story. \n\nit's great for filling in the buzzword bingo that HR just throws in the bin anyways",
+          "score": 328
+        },
+        {
+          "body": "Did this guy… use AI to write a post about why AI-written CV’s are bad? lol - rotten to the core, baby.",
+          "score": 51
+        },
+        {
+          "body": "Who ruined the job market? Isn't it the stupid companies abusing and gaming employees? Companies are like the morons you see on dating apps who ask for you to be financially independent, earn 6 figures, have a Nobel Peace prize and help them get rich in return for nothing. It because obvious how disgusting employees were during the pandemic when new employees started earning 3x more than longterm employee at the same position. Also imagine an entry level job asking you to have a masters degree to flip burgers or use microsoft word but then pay you as if you went through free education. If the job market is to be fix it starts with the delusion of the employers. In a capitalistic society everyone needs work to survive, a job is not a privilege it's an expectation. Treat your talents like the professionals they are and stop the b.s. Most HR are unless, slow and inefficient  yet they are worried about an applicant using AI to speed up the 100 + plus applications they have to send to feed their families. Give us a break. No one is sitting and filling out 100+ applications and cv to get ghosted. Fix it!!",
+          "score": 160
+        }
+      ]
+    },
+    {
+      "title": "Manager is having another developer check my work. Should I start looking for a new job?",
+      "body": "(5 years Software Engineering experience) I was hired into this company personally by the CTO without an interview, because I had worked with him before (on another project, in another company) and he had really liked my work from the previous job. Before I started the job, he mentioned to me that all of the current developers have made the CEO mad beyond belief because after two years of working on a development process, a better distribution process, and fixing the massive critical issues, they had not made any progress. He told me that they would all \"go away soon\". I have to agree with him, they were the furthest thing from professional developers I think I have ever seen in my career.\n\nThe CTO told the CEO about me, and brought me in with a healthy salary. I begin working there and immediately started recommending changes. Which the CTO reinforced. I was tasked with hiring other talented developers. We went from complete cowboy / crank land to using Agile/Scrum, nearly full CI/CD, and our critical issues went down from a couple hundred plus a day to perhaps one to two a day (we had full time staff members dedicated to manually fixing our database, after we got the issues down the CTO fired them). Me and a few other talented developers managed to achieve this within 3 months, and almost all of the previous developers, have been fired (the CTO did it of his own accord).\n\nAt 4 months into the job the CTO leaves for a better opportunity. A new CTO was appointed. The new CTO hired some new developers and insisted on keeping the India team. I spend about 50-80% of my 8 hours teach and training them. Then I spend the rest of the time working on my tasks. The late at night I spend my time teaching the India team or helping them. The CTO is well aware and condones that I do this.\n\nAnother month goes by and the project manager began having developers from India check my work. They are not the most skilled and simply check if issues appeared in this version but were not in the version before. My problem with this is, our software is so bad, that when you fix a link so that it goes to its required designation, the designation and all of its fields and data is usually broken too. I have also noticed that they are beefing up the India team and have me train them more. Now I am really starting to get concerned. I think I can start to see the writing on the wall. **It looks to me like they are going to beef up the India team and get rid of the onshore developers to save money, now that the software is stable.** Even if they don't get rid of the me, I am being seriously overworked and experiencing burnout anyways.\n\nI have now learned the meaning of, \"programming yourself out of a job\" first hand. I believe in capitalism, so I get that my company wants to offshore the work and fire me (I live in US). But I am also free to move on whenever I like, in a capitalist environment. Personally I try to work longer than a year at every job, but I am seriously considering getting a new job, like now. Though with coronavirus and the world being on lockdown... I am not really sure that I can find a high quality job. Even though I have only been there for 6 months, do you guys think I should move on? Am I being paranoid? Thoughts? I have seen how this company lays people off and they typically blindside people. And they don't give out any severance, not that I have seen.\n\n&amp;#x200B;\n\n**Edit (explains how my work is being checked, and how I have decided to handle this):** Many people are mentioning that checking my work is good. I agree however these are not code reviews. Its just an offshored Developer acting similar to QA. If there is a bug in the new version X.Y.Z and there was no bug in X.Y.Y then it is documented as my fault, and they pick any ticket where my code has touched that feature. I have tried speaking to the Indian developer on the phone and asking how I am responsible (we have multiple developers...). They always agree that it isn't my fault, but keep writing in the documentation that I am the main cause for the issue. I have tried talking to the Project Manager and they always seem \"busy\" or unresponsive when I bring it up. What really bothers me is that this a new thing and is only done for me. Its basically an audit, so if they feel like my work is inadequate thats fine, but not giving me a chance to defend myself? It all seems really shady. Thus I originally asked if I am being paranoid and if this might be happening to other people.\n\n**TLDR:** Me and a few other developers came to a company to clean house, which we did. Now I am suddenly under strange and unusal code audits from the India team that I have to train and that is also getting beefed up.\n\n**Steps I for to take gathered from the advice given:** It sounds like, from the comments here, there are a few things I should do.\n\n1. I need to check with the old CTO if he would be willing to help me out.\n2. I need to talk to the new CTO about what his plans are, and see what his answer is (if he is genuine and gives me a REALLY good reason to stay I will). Based on that I will continue to 3.\n3. I need to start looking, and even though I like stability (call me old fashioned, but I just want to hone my programming skill and work the same company my whole life, in my home city, but I understand that is not how our industry works), I always should be looking for the next best job. Or apply to a FANG, which I just might do.\n4. I need to just smile and do the circus act till I find a better job.\n5. **Most importantly** follow helper543's advice. I think it is a really smart way to handle companies like this and make a lot of money. Though I won't know for sure until I try it ;)\n\nMy thanks to everyone for taking the time to read this and offer their input!  =)\n\n&amp;#x200B;\n\n**6 month update:** Hey guys wanted to update everyone. After this post I began looking for a new job. I did speak to some of my contacts and found some suitable jobs (work environment wise). None of them paid as high as this one. And non of them offered the benefits I needed. (We are talking a 20%+ drop in Salary.) I have still been looking but I have not found anything that will pay me what I currently get paid. Which means that I have still been working in the same job. While I have been working in this job, I have seen our off-shored contractors royally screw up the software. Multiple times. It was hilarious to watch. I have had to help fix the issues every time. One by one they have been slowly let go (A few every week). Suffice to say 80% of them are gone (in my department). Now we are back to hiring onshore. Honestly, I am now convinced that IT career is a circus. Still looking for a better job, that at least pays close to what I am currently making. Nothing yet. Keep in mind I am paid very well, for my level of experience and location. (Also I didn't get any FANG jobs X/ ).",
+      "subreddit": "cscareerquestions",
+      "score": 732,
+      "url": "https://reddit.com/r/cscareerquestions/comments/ggfdu7/manager_is_having_another_developer_check_my_work/",
+      "comments": [
+        {
+          "body": "No you are not paranoid, your thoughts are what every smart developer should have and are reasonable. What I would do is, observe and stop working too long. I mean they have a reason for hiring the indian dev team right? If the company thinks they can do the job, let them do and stop overworking for such an environment.\n\nTake the experience and look for a new job. There is no \"too short\" time being in a company if you have viable reasons.\n\nBefore I would look for a new job, I would probably talk to the CTO and have a serious conversation about what his intentions are and where are we going. If this is some marketing/pr bullshit, smile, nod and leave asap. Try to get some perspective for you out of it, but don't fall for bullshit.\n\nEdit: Did you talk to the old CTO about why he actually left? Is there more than just \"better opportunity\"? Maybe he wasn't content with the new path the company takes. Talk to him.",
+          "score": 473
+        },
+        {
+          "body": "Sounds to me you already know the answer and just looking for confirmation.\n\nYes - do look for another job, it would take longer than before given the circumstances we are all in, there's absolutely 0 downside in looking for a new job especially given there isn't any upside for you to stay where you are.",
+          "score": 119
+        },
+        {
+          "body": " \nNever be an employee at a non tech firm creating offshore presence in India.   As soon as that starts, look for another job.  \n  \nWorking at a firm offshoring to India is fine, but always be a consultant in that capacity.    You can earn double the income, and as you are paid hourly, management thinks twice before pushing extreme hours on your to clean up the offshore work.   \n \nOffshoring methodology creates 3 classes of worker.   The offshore team and any near source associated workers.   Employees of the firm battling to keep the lights on, and highly paid consultants who clean up after offshore issues.     \n  \nThere is no value in being in the employee category, you are doing the same job as the highly paid consultants without their income.",
+          "score": 687
+        }
+      ]
+    },
+    {
+      "title": "The boomers were…right?",
+      "body": "After 6 months of unemployment and over 200 applications, I finally got a job in the position I wanted in a field I’m proud to be apart of.  The craziest part is, I got the job by cold calling the company and asking about open positions, after having my resume rejected without so much as an email back by the same company.  I see so many posts where people get the same “outdated” advice: call the company, follow up, and give a firm handshake.  While this post is me bragging a little bit, I wanted to to share my story so that other young people don’t make the mistake I did and ignore the ancient wisdom of our forefathers.  A good portion of me getting hired was right place right time and a foot in the door (I cold called a friend of a friend who used to work at the company that just hired me), but with a forecasted recession I hope my experience can help others who are dealing with feelings of worthlessness and inadequacy.  Stay strong, and keep trying to improve with help from your employed (or previously employed) friends and family\n\nTLDR: cold called and got a position I was previously rejected for when applying online, at the max advertised hourly rate\n\nEDIT: Whole lot of angry comments.  The friend of a friend I called did not recommend me, nor does he work at the company.  He literally met me the moment I called him and said “you should call X”.  I call X, with no warm up (cold) and ask if they have any open positions, which they do.  I tell him my 15 minute shpiel, they ask me for my resume.  I send in my resume.  They ask me for an interview. I take the interview.  They hire me.  My acquaintance knew me for all of 5 minutes, and our mutual friend has terrible, terrible work etiquette and ethic, so not a whole lot of good recommendations there\n\nEdit part 2: X being the company.  This guy didn’t tell me to call a person, just to apply at the company.  When I say I called X, I mean I went to their website, dug around for a job page which did not exist, then called the number listed\n\nEdit part 3: I’ll admit I did a name drop: “Hello my name is OP, I was speaking with Ex-employee about another position and he mentioned that this company was a much better opportunity.  I was wondering if you had any open positions, and were willing to consider me as an applicant”.  After I submitted my resume, they asked me to come in for an interview.  The first thing they asked me was, “Oh, how do you know ex-employee?” To which I responded: “Honestly, I barely met ex employee, but if today goes well you can bet I’ll be buying him a few beers!” To which I got a good laugh.  About 30 minutes later the general manager extended me an offer pending drug and background screening",
+      "subreddit": "jobs",
+      "score": 1989,
+      "url": "https://reddit.com/r/jobs/comments/1el1na3/the_boomers_wereright/",
+      "comments": [
+        {
+          "body": "You used your network, which isnt the same as cold calling.\n\nAnd I have not seen the who you know method going out of style.",
+          "score": 2546
+        },
+        {
+          "body": "[deleted]",
+          "score": 228
+        },
+        {
+          "body": "That’s not cold calling, that’s networking and getting a referral from an existing employee.\n\nCold calling would be calling someone you don’t know at the company (usually HR) and asking.",
+          "score": 524
+        },
+        {
+          "body": "If you know someone there, it's literally not cold calling.",
+          "score": 503
+        },
+        {
+          "body": "&gt;I cold called a friend of a friend who used to work at the company that just hired me\n\nThis is literally the opposite of a cold call lol you had a connection that was able to help you get your foot in the door. It's great that you like the job you just got, but this wasn't a cold call.",
+          "score": 189
+        },
+        {
+          "body": "The \"who you know\" method only works if the person that you know likes you enough to recommend or hire you.",
+          "score": 80
+        },
+        {
+          "body": "You called a friend of a friend though? ",
+          "score": 146
+        },
+        {
+          "body": "[deleted]",
+          "score": 115
+        },
+        {
+          "body": "That’s not a cold call. It’s a warm call. But congratulations on your new job!! For real. That’s awesome",
+          "score": 41
+        }
+      ]
+    },
+    {
+      "title": "My wife is a career coach—these are a few of her best interview tips",
+      "body": "I am married to a professional career coach who does a lot of interview prep for her clients. Came in quite handy when I got laid off from my Electrical engineering job and decided to pivot, into Product Management.\n\nI was just hired after 8 months of interviewing. I went through phases of excitement, feeling like I hit rock bottom, and back up again. My amazing wife was there to coach me through the process and I learned theres a few things that I I think is quite unorthodox advice so I am posting her secrets because I like validation from strangers.\n\n**Own the frame**\n\n* When interviewing, you are subject to the interviewee - interviewer power frame. Gently breaking this power frame is important to having a good interview. Most people go with the frame and allow the interviewer to drive, and assume that by being flexible and open to go with their lead helps their chances - but actually it might not. It’s important for you to own the narrative and the power frame whenever possible, to drive urgency and demonstrate that you are a scarce resource.\n* **Drive the timeline. -** when asked - what is your timeline here? ALWAYS have a firm timeline. I would say things like, well, I am actually quite far along with other companies at this point and expecting offers in the next -23 weeks. Often times if they were interested they would accelerate their interview timeline for me which was really important.\n* Even if I didn’t have it, this would drive urgency with interviewers and would really drive them to view me as someone they might potentially lose.\n* **Interview the Interviewer** \\- when appropriate, make sure to interview them. Make sure to make them understand you won’t just take any job, and that it must fit with what you feel is a good job. Asking things like ‘what can you tell me about the company’s financial performance in the last few years” or, was there someone in my position previously, or is this a new role? If you give me an offer, I would like to speak with a few other people on my team about this job before accepting, would that be acceptable for you?”\n* There are many other tactics too to owning the frame, but the tldr is to subtly take power in the conversatino wherever possible.\n\n**Be super specific what makes you unique and competitive, especially if switching careers**\n\n* Everyone has skills that make them unique and valuable. Simultaneously I think that being authentic about who you are is the best way to find a job you actually enjoy. I feel like when I was interviewing for my previous job (that I hated) I was trying on different personas and trying to practice saying all the right things - and I got the job but ended up being pretty unhappy.\n* **Focused on understanding my strengths.** This time I really focused on knowing the unique soft skills that make me ME. My hard skills in Engineering were really important, but because of my transition I focused on learning specifically the soft skills I'd honed the last few years in Eng, and relating them very strongly to the role I want to transition to.\n* **Communicate high levels of soft-skill awareness -** communication of my strengths is something that my hiring manager told me after was one of the reasons she took the chance on me, without having a traditional PM background. Personally, I think most interviewers have no idea how to interview for soft-skills so when they come across someone who is articulate and specific bout their soft-skills, from everyone else and has high self-awareness it is just a lot easier for the interviewer. I told a lot of \"small stories\" as mentioned below.\n* My wife recommended the **Pigment career discovery test** \\- I must say this was my favorite tool for understanding why I am a better fit for Product Management than Engineering - and gave me straight forward language to communicate this in my interviews. Not affiliated, just found it very helpful for me.\n\nAs my wife would say: most people have really marketable soft skills that are very useful in different business roles, but most of the time they don’t see it themselves, because unfortunately it is difficult to see without great mentors or bosses that can help point it out.\n\n**Study storytelling principles to tell your own story**\n\n* Learn how to tell your story - storytelling is one of the most important skills ever. **The main rule, Show, Don't Tell.**\n* A great tip on Storytelling that I really like: **Make it small to make it big.** People are much better at remembering small specific stories, vs high-level ethereal statements.\n* I used to say (tell, big):\n   * I'm a strong problem-solver with excellent analytical skills. In my previous role, I was responsible for improving our company's engineering metrics, and I successfully improved our response times by 40% over six months. I'm very detail-oriented and always look for inefficiencies in processes. “ **blah blah blah - eyes glaze over.**\n* Instead, say: (show, small):\n   * “Last year, in the middle of an important product launch, our team discovered a power efficiency issue causing unexpected battery drain in our prototypes. While others focused on redesigning the main circuit, I noticed something unusual in our testing patterns: the drain was worse after our daily team check-ins when devices were restarted. One evening I stayed late, I sketched out a firmware adjustment that modified the startup sequence timing by just X milliseconds. This change improved battery performance by Y% without requiring any hardware modifications, and we hit our launch deadline without any further delays.” - much more specific, much more \"show\" rather than tell, and far more memorable. My now boss has even mentioned some of my stories i told in my interview.\n* Storytelling rules of thumb that I used when writing my stories - I highly recommend the book Stories Sell by Matthew dicks \n   * Start your story with when the story happened \n   * Don't overfluff with 'imgagery' details - be direct on what happened, the mind will fill in the details. \n   * Keep the story as short as possible to get the point across\n   * Remember theres usually 1 main takeaway from the story, an insight, or a result. \n   * Remember that what happens in your head is often more interesting than what happens in the actual story - so walk people through your thinking\n* If were to do it all over again, the first thing I would do would be to map out all of my hard skills that and my soft skills strengths, I would make a “story” map that is associated to all of the skills and strengths that I wanted to communicate, memorize them and pull on each of them each time I wanted to highlight it.\n\nOk this turned out to be really long… hope this helps someone out there!!",
+      "subreddit": "jobs",
+      "score": 3645,
+      "url": "https://reddit.com/r/jobs/comments/1jvbdmm/my_wife_is_a_career_coachthese_are_a_few_of_her/",
+      "comments": [
+        {
+          "body": "This is the kind of info this sub's community should highlight, promote, and share. Very helpful for early- and mid-career professionals alike.",
+          "score": 301
+        },
+        {
+          "body": "Just to add, telling a company you are in end stages or have multiple offers does not always move them along. I have done this recently to a company and they ghosted me. Months later still no answer. So it may or may not work.",
+          "score": 102
+        },
+        {
+          "body": "Great tips on the soft skills and storytelling!\n\nI made it a point to dig for smaller stories in my most recent (successful!) interview process because I noticed in the last process I was knocked out of that I’d been too general and not given them enough concrete examples in the final round. I had been worried about repeating myself, getting too in the weeds, and that “oh well here’s something I’m dealing with this week” wouldn’t have the impact of “here’s the second biggest thing I ever did with metrics attached.” \n\nLetting go and just trusting myself to tell a small, potentially unresolved story actually opened up the conversation, to the point where I found myself on a tangent enthusiastically telling my prospective grandboss about the weirdest excel issue I ever successfully googled. I also finally remembered interviewers only talk to each other in very broad strokes and I can retell the “big” story in each round if it comes up, though I made sure to say “I already told [interviewer 1] this but it’s my favorite story that really reflects my approach to work.” In the offer, they specifically mentioned my thoughtful approach to problem-solving, which is the skill I’m proudest of, and the skill the big story and the random tangents were all geared to highlight.\n\nTo find your small stories, I’d suggest thinking about those soft skills you want to highlight (for me in this role: problem definition, detail work, building trust) and ask yourself “how have I used these skills recently?” Make a little list for yourself and use it to show both what the interviewer asked about (“navigating a delicate interpersonal situation”) and what you want them to remember you’re good at (getting people to trust that I care and will help).",
+          "score": 22
+        },
+        {
+          "body": "Thank you immensely for taking the time to post all this. It is extremely helpful!",
+          "score": 16
+        },
+        {
+          "body": "Good feedback but I would never say \"one night I stayed late\" in an interview.",
+          "score": 13
+        },
+        {
+          "body": "[removed]",
+          "score": 37
+        },
+        {
+          "body": "This is great - thank you!",
+          "score": 10
+        }
+      ]
+    },
+    {
+      "title": "They found someone else, huh?",
+      "body": "Applied to large company in my area, got an interview and was then rejected on the 11th. Told they found someone, don’t think much of it. Then, 1 day later they posted the listing. Same job, same location.\n\nI’m tired of this. Why are they allowed to lie?",
+      "subreddit": "jobs",
+      "score": 1275,
+      "url": "https://reddit.com/r/jobs/comments/1irv71s/they_found_someone_else_huh/",
+      "comments": [
+        {
+          "body": "There has to be something to this. There has to be another element to what they are doing. My only guess is to find the bare bottom labor cost for the position on the market. That's the only justification I can think an employer would invest this much labor cost into this type of game.",
+          "score": 520
+        },
+        {
+          "body": "It’s an automated email",
+          "score": 105
+        },
+        {
+          "body": "It’s not you, it’s them…",
+          "score": 47
+        },
+        {
+          "body": "It’s probably automated. Don’t read too much into it.",
+          "score": 59
+        },
+        {
+          "body": "Even though this reeks of standard boilerplate bullshit, you seem to have been close. Their loss.  I feel for you, we’re in a shit job market. :/\n\nCan you think of anything you gained from this experience?",
+          "score": 43
+        },
+        {
+          "body": "A lot of times companies get access to tax breaks and low interest loans. If they can prove they're hiring. In those cases, they'll typically post jobs that they have no intention of filling, reject all the applicants, take the job down, and then repost it a few days later, so it looks like their opening and closing job reqs, when in all actuality, all they're doing is lying to people and getting people's hopes up for no reason. It's disgusting and it should be legal, and yet I don't think it is.",
+          "score": 14
+        }
+      ]
+    },
+    {
+      "title": "Job interview process required psych eval with this element wtf",
+      "body": "",
+      "subreddit": "jobs",
+      "score": 1230,
+      "url": "https://reddit.com/r/jobs/comments/1ibwbhs/job_interview_process_required_psych_eval_with/",
+      "comments": [
+        {
+          "body": "Lmao wtf.   \nThis looks like a lawsuit.",
+          "score": 1123
+        },
+        {
+          "body": "Virgins need not apply I guess",
+          "score": 209
+        },
+        {
+          "body": "Yeah, no. My sex life has no bearing on my work life. I'd answer as asexual and give hardly to no info.",
+          "score": 264
+        },
+        {
+          "body": "Name and shame",
+          "score": 107
+        }
+      ]
+    },
+    {
+      "title": "Interview call at SpaceX",
+      "body": "",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/1m07l41/interview_call_at_spacex/",
+      "comments": []
+    },
+    {
+      "title": "After 398 job applications, I finally have a full time permanent job!",
+      "body": "I was let go due to the pandemic in mid-March. Since then, I have applied to 398 job applications. No kidding because I tracked my progress. Any questions, please ask!\n\nHere's a breakdown:\n\n* Total jobs applied - 398\n* Total days unemployed - 130 days\n* Websites used - LinkedIn, Indeed, ZipRecruiter\n* Services used - LinkedIn Premium (2 months from March-April) and Recruitment Agencies\n* Roles Applied - Full Time, Contract, Temporary, Part Time\n* Salary Ranges - $35k-$70k\n* Industry - Support Services (Admin, EA style roles)\n\n# Now more details:\n\nJob Interviews:\n\n* Phone - 2\n* In-Person - 4 (3 in March, 1 in July)\n* Multiple Rounds - 7 (1 in March, remainder in July/August)\n   * 2+ rounds - 6\n   * 3+ rounds - 2\n   * 5 rounds - 1\n* Virtual (Zoom or Teams) - 6\n* HireVue (or similar) - 4\n\n\\---------\n\n* Actual Declines (after interviews): 5\n   * Of these 5, 2 were \"Overqualified\"/\"too experienced\"\n* Automatic Declines: 18\n* Jobs I declined after interviews: 3\n* \"Role is already filled, thank you for applying\": 1\n* ***No response at all: 392***\n* **Offer: 1**\n\nI have not included introductory calls from recruitment agencies. These are pure interviews.\n\nI'd like to say that ghosting is the most awful thing especially after speaking to recruiters or companies multiple times and then they just vanish or not respond. I understand, there's a big pool of unemployed people but I wish companies had some decency to say, \"sorry, you were not successful\".\n\nPlacement agencies are some of the worst people I've had to deal with. They say \"oh, you would be a great fit for X company\" and then you follow up, they don't respond. Three weeks later, they post another role similar to the original one and they say \"you don't match it\"???\n\nWorse than that, I went through FIVE rounds of Zoom interviews for one role. I did not get it in the end. It was a lot of wasted time and regurgitated questions and answers. Why not do a panel style interview?\n\nHireVue is the worst invention in the recruiting field, imo. It's so awkward and you can see yourself answer the questions and ugh. Never again.\n\nAdditionally, I think employers are underpaying new recruits. I think it's wild that you need 3 years experience and the pay is $40,000 CAD.\n\nMy observation is that some employers love to ask \"where do you see yourself in 5 years?\" and love hearing \"more responsibilities\" but don't like hearing \"new opportunities, different role\". This one place said we want this person to be in the role for 5+ years.. oh at 40k too. No thanks.\n\nMost interesting process was at a large scale company where I went through 5 interviews with directors, VPs, HR. I thought it went well, considering it was FIVE interviews. I was told that we liked you but the team didn't. We're considering you for a different role. Still my #1 place I'd like to work tbh.\n\nIn terms of jobs that I declined after interviewing and the reasoning behind it:\n\n1. Advertised as \"small but growing firm\", employee count: 3, salary was $65k. Dude was being super weird about if I would share company information or my salary with others. I said no to both and he's like are you sure? what if you were out for drinks? what if someone says come on, just tell us?? I already said I would't but he kept asking. Not sure what he wanted to hear.\n2. \"Growing real estate firm\" - office is dingy and in a weird location. Every answer I gave, the guy said \"oh interestiiiiing\" Why? I don't know. It was an person interview and he asked me if he should wear his mask during the interview? I said, yes, I prefer that. He said \"interesting\" and only covered his mouth.... My blood is boiling as I'm typing this.\n3. Mat Leave role (12-18 months) - went through 2 rounds, first was phone screen. Second was with HR on Zoom. I honestly thought it was just 2 rounds but no, they said there'll be a culture/fit interview for 5 hours. FIVE hours. I said no, thank you. What do you need to know about me that you already don't know in the past 2 rounds?\n\n**Takeaway:**\n\nKeep applying. Don't accept lowball roles. HireVue is the worst and there are too many idiots in the recruiting world and companies think they can treat you like trash :) Multiple rounds are not needed to figure out if you fit. I think 2 rounds are standard but 5 is ridiculous. 5 hours of culture/fit is ridiculous too. What does \"overqualified\" mean anyway? I'm not entry level but I'm not managerial level either, I get it.\n\nI also wish people took a chance on applicants that have most of the qualifications but I understand the way it works now. They don't want to spend time training you when another applicant can have everything.\n\nPay your employees well. When I heard one of the roles was paying $40k. I nearly lost my mind but I was desperate so I said okay. They ghosted me. Employers need to realize that this will just be a stepping stone role and once an applicant finds a better role, they will leave. TRUST ME.\n\nSuccess:\n\n1 offer. Matched my last role's salary. Permanent Full Time. I found this role by myself on Indeed.\n\nThank you for reading! Any questions - please ask. I can't believe the way the job market is right now but please keep applying. Fine tune your resume - tailor it to the job description!\n\nGood Luck! Wishing you all the very best.",
+      "subreddit": "jobs",
+      "score": 2078,
+      "url": "https://reddit.com/r/jobs/comments/ihl745/after_398_job_applications_i_finally_have_a_full/",
+      "comments": [
+        {
+          "body": "You're meticulous and unrelenting in your pursuit. This will serve you well in your new role",
+          "score": 314
+        },
+        {
+          "body": "Jesus that's around a 1.5% interview rate.  With barely 5% even bothering to send a automated rejection.  Props to you sir, most ppl would become morbidly depressed by 250+ apps.  And would start putting alot less effort.",
+          "score": 159
+        },
+        {
+          "body": "Good job! So proud of you and thank you for the wonderful write-up!",
+          "score": 40
+        },
+        {
+          "body": "Really appreciate the write up! I am one month into unemployment and 90 applications in. I have a lot of the same experiences, but it’s reassuring to know that you were able to land this! \n\nI think I now know the value of my time better too, I did a six round interview part of which was spending a solid four hours in an office doing half hour long interview with various team members. All that does is tell me they didn’t have an organized process!\n\nThe hard part for me is starting to lowball myself or look for more junior roles in hopes that people will see me as more qualified. I’m not desperate yet, so just Gotta keep looking and try to look for something better. Best of luck to you in your new role!",
+          "score": 37
+        },
+        {
+          "body": "I'm currently at 274 so hopefully that means something soon. Thanks for the motivation.",
+          "score": 33
+        }
+      ]
+    },
+    {
+      "title": "Unemployed Since October 17th and I am trying LinkedIn, Indeed, Glassdoor etc. I'm starting to lose hope",
+      "body": "Is anyone else having hard go with job search even to get interviews. I have a couple offers but they were on low low end of compensation just tough times",
+      "subreddit": "jobs",
+      "score": 606,
+      "url": "https://reddit.com/r/jobs/comments/18ink4i/unemployed_since_october_17th_and_i_am_trying/",
+      "comments": [
+        {
+          "body": "yep. got a Dunkin interview on Saturday. If I’m offered the job I’m taking it. I can’t take not having a job.",
+          "score": 243
+        },
+        {
+          "body": "We're about on the same timeline.  Hopefully it turns around for each of us!",
+          "score": 68
+        },
+        {
+          "body": "Wait so you rejected offers to end up with nothing?\n\nMy friend, half a loaf of bread is better than no bread. Please reconsider this strategy",
+          "score": 322
+        },
+        {
+          "body": "I've been unemployed since May",
+          "score": 19
+        },
+        {
+          "body": "[deleted]",
+          "score": 53
+        }
+      ]
+    },
+    {
+      "title": "Wish me luck getting an offer, had 4 interviews today",
+      "body": "All 4 went very well, the 3 phone call interviews concluded saying they’d be reaching out to schedule a follow up in-person interview. One of them has so far and that’s scheduled now. \n\nIt would have been 6 total interviews today but after reviewing one of the jobs with my boyfriend, we both agreed the role would be a terrible fit for me. The other one I cancelled because the drive is horrendous and pretty far.  ",
+      "subreddit": "jobs",
+      "score": 1758,
+      "url": "https://reddit.com/r/jobs/comments/1gee8v3/wish_me_luck_getting_an_offer_had_4_interviews/",
+      "comments": [
+        {
+          "body": "🤞🤞",
+          "score": 105
+        },
+        {
+          "body": "As a total stranger who has never met you I have complete faith in you. You got this!",
+          "score": 70
+        },
+        {
+          "body": "Good luck! Let us know how it goes",
+          "score": 50
+        },
+        {
+          "body": "Update please, that’s incredible!!",
+          "score": 22
+        },
+        {
+          "body": "So this is where all the jobs are, you have them all at your feet!",
+          "score": 25
+        },
+        {
+          "body": "Good luck I have been through 3 layoffs August 2023 Janaury 2024 and September 2024 its been an awful market. GOOD LUCK keep interviewing UNTIL you start a new job TRUST me anything can happen a lot of people have had their jobs rescinded the night before they were supposed to start",
+          "score": 9
+        }
+      ]
+    },
+    {
+      "title": "please help! i applied for a job at x company and was emailed an interview form to fill out and next thing I know, HR sent me an email saying they have a package being sent to my address with a CHECK in it because I got accepted for the position",
+      "body": "**PLEASE READ** \n\nis this safe or am i being scammed? I tracked the USPS package and there rly was a package on the way. they said i’d use the check, and other items in the package, to purchase the work materials. \n\ni wasn’t given an official interview or anything and was surprised of how sudden this all was\n\ndo i trust this?? do i open the package?? pls help!! ",
+      "subreddit": "jobs",
+      "score": 2,
+      "url": "https://reddit.com/r/jobs/comments/1fguyzs/please_help_i_applied_for_a_job_at_x_company_and/",
+      "comments": [
+        {
+          "body": "Its a scam. The famous \"check\" scam . Noone hires like this.\n\nDo not deposit that check.  It's fake. There is no work materials. They expect.your bank to release the funds and you send it to them. Then when the transaction fully processed. You are left holding thrme bag with your bank and will be out that money and they are in the wind. My friends daughter got taken for $2k after falling for this.\n\nKeep in mind remote roles interview same as any other job and they typically send you the equipment.",
+          "score": 5
+        },
+        {
+          "body": "Yeah they are attempting to scam you.",
+          "score": 1
+        },
+        {
+          "body": "&gt; Interview form to fill out\n\nThis wasn’t a hint this was a scam?",
+          "score": 1
+        },
+        {
+          "body": "OP, the answer to your question is in the mail. Who sends a check before the work is performed? Yes, a scammer …",
+          "score": 1
+        },
+        {
+          "body": "Scam. No legit company send you a check to buy work materials. They provide you with the materials.",
+          "score": 1
+        },
+        {
+          "body": "Scam",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Thanks again for your time to interview with our team. We are excited to continue the hiring process with you.\nWould you be able to send over an official transcript from X?",
+      "body": "What does the above mean exactly?  ",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/1gjdf3f/thanks_again_for_your_time_to_interview_with_our/",
+      "comments": [
+        {
+          "body": "They would like you to send a copy of your transcript from X.",
+          "score": 3
+        },
+        {
+          "body": "Transcript? From school?",
+          "score": 1
+        },
+        {
+          "body": "Oh I thought they wanted a record of your tweets 🤦",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "How can so many be batting .000 on job applications if the US unemployment rate is 4.2%?",
+      "body": "[US civilian unemployment rate is 4.2&amp;#37; as of August 2024](https://preview.redd.it/v455rk3z71rd1.png?width=1452&amp;format=png&amp;auto=webp&amp;s=2a8fa53c93a1113020aad594d178dc5ff1e1acfa)\n\n**UPDATE 1:** A common refrain in the responses has been **\"The official US unemployment rate is calculated badly. They don't count people who are \\[X, Y, or Z\\].\"** I don't think this matters as much as you guys think it matters. Because [the BLS has used the same method for decades](https://njfac.org/index.php/how-the-bls-measures-unemployment/). Whatever measurement error the headline rate has in 2024, it also had in 2010, and 2004, and 1994. By historical standards, the current US unemployment rate is low.\n\n**UPDATE 2:** Many people have pointed to sampling error of gauging the mood by reading various career subreddits, a term which was literally word-for-word in my original post.\n\n**UPDATE 3:** Many people have pointed out that gig work (Über driver, Door Dash, Fiverr) is much more common now than it was when I was job-hunting in 2010, and people who drive an Über even a few paid hours per week are counted as \"employed,\" although a great many of them are eager to find more stable work.\n\n--okay, now here is my original post--\n\nThere are whole subreddits of desperate people asking \"What am I doing wrong?\" And maybe some of them *are* doing something wrong: funky résumé, non-linear work history, typos in the cover letter, etc.\n\nBut with unemployment at 4.2%, shouldn't almost everybody be getting calls?\n\nI'm not new to the workforce. I was unemployed and seeking work in early 2010, when unemployment in my state hit 12.4%. It was brutal, and I had to cast a wide net, but I was still getting interviews and phone screenings with unemployment at 12.4%.\n\nSomething has changed. What?\n\nOkay, sure, sampling error. Maybe almost by definition the people who come to this subreddit begging for help are \"bruised avocados\" in this market. Maybe 96% of you are happily (or at least acceptably) employed.\n\nBut when it's Taco Tuesday, and my local supermarket has already sold 96% of its weekly allotment of fresh avocados? I start carefully looking at the bruised avocados that remain. You know?\n\nAt 4.2% unemployment, I would expect managers to be telling their HR staff: \"Look, the perfect candidate might not be in that pile. We might have to relax our standards a bit if we're going to fill these open roles. We might have to take a chance on some bruised avocados.\"",
+      "subreddit": "jobs",
+      "score": 372,
+      "url": "https://reddit.com/r/jobs/comments/1fphsyj/how_can_so_many_be_batting_000_on_job/",
+      "comments": [
+        {
+          "body": "The real unemployment rate is always higher than what is reported. There is a specific definition of what it is to be considered \"unemployed\". For example, if you haven't applied for a job in the 4 week period leading up to the survey week (the week they collect the employment data), you aren't considered part of the labor force and won't even show up as part of the statistics.",
+          "score": 252
+        },
+        {
+          "body": "Job openings are continuing to drop:\n\nhttps://fred.stlouisfed.org/series/JTSJOL\n\nLabor force participation rate is roughly around pre- pandemic levels. \n\n*Relatively* few people are without jobs but if you have no job it’s much harder to get one due to companies pulling back on hiring.",
+          "score": 126
+        },
+        {
+          "body": "No clue because my partner has applied to over 500 jobs and received 2 interviews.",
+          "score": 101
+        },
+        {
+          "body": "Look at the U-6 unemployment rates",
+          "score": 19
+        },
+        {
+          "body": " Another thing I haven’t seen mentioned here is that you are not just fighting unemployed people. Due to a lack of company loyalty nowadays and the prevalence of job hopping, and the need for people tho have second jobs, now even easier to do with remote roles, more and more currently employed people are applying for roles as well. So while the unemployment rate may be the same as 5 years ago, the pool of people you’re competing against is significantly larger",
+          "score": 14
+        },
+        {
+          "body": "You only hear from those who are not getting the jobs.\n\nWhere I work we have about 10% of our jobs open…and we can’t find enough applicants. I work for city government, so we don’t play games with job openings.",
+          "score": 88
+        }
+      ]
+    },
+    {
+      "title": "My interview was canceled because I didn't show up",
+      "body": "I am currently employed but seeking for better opportunities. I applied this X company, they have been around for a while and I really wanted to work with them. It is a management position which I qualify for. \n\nHiring Manager emailed me saying they want to have a zoom meeting for the preliminary and asked me about my availability. I told them I can do on Thursday around noon and asked for confirmation because I need a notice at least 8 hours so i can change my schedule. (or zoom/ google meets invite, to secure the date and time) \n\nMy email was unanswered, I waited 12 hours for an answer. Confirmation is important to me because I am currently employed (they know this) and I need to know my interview time in advance so I can arrange my schedule and responsibilities.  \n\nAfter not hearing from them, I didnt email again (this might be my fault, not following up) and on Thursday I didnt do any arrangements to my day.\n\nOn Thursday at 11.30am, they sent me an invite for video interview, for 12pm. At that time I was working, also it was a hectic day for us and I didn't have time to check my personal email. I checked my email at 11.50 and saw the invite for interview. Also there was another email (sent at 11.45am) saying they are canceling my video interview because I DIDNT CONFIRM IT and didn't show any initiative to ATTEND.\n\nDid this happen to anyone before? How am I supposed to work with 30 minutes notice to an interview, make my way out of my work place to somewhere else? I found this ridiculous.\n",
+      "subreddit": "jobs",
+      "score": 577,
+      "url": "https://reddit.com/r/jobs/comments/1jve8ps/my_interview_was_canceled_because_i_didnt_show_up/",
+      "comments": [
+        {
+          "body": "Yeah, no.\n\nIf this is how they treat possible employees, how will they treat actual employees. \n\nYou’re already employed. You can be a bit picky.",
+          "score": 645
+        },
+        {
+          "body": "You do not want to work at a place like this. 30 minutes notice is absurd. Even if a person is unemployed no one has their email open 24/7. Move on and better roles will come your way.",
+          "score": 150
+        },
+        {
+          "body": "That falls into my 'They have the guy already' category.",
+          "score": 53
+        },
+        {
+          "body": "Last year I applied for a position and got selected for an interview. They stood me up for the interview and then tried to turn around and blame it on me that I didn’t show up. It was pretty stupid. I’m glad I never worked for them.",
+          "score": 10
+        }
+      ]
+    },
+    {
+      "title": "SpaceX Interviewer Never Called",
+      "body": "I had a second phone interview scheduled for today by a recruiter with an engineering director. They never called me and the recruiter is yet to respond to a voicemail and email I left her. This is surprising since they've been very professional and prompt up till now. Does anyone have any advice for this? Is this basically equivalent to a rejection?",
+      "subreddit": "jobs",
+      "score": 8,
+      "url": "https://reddit.com/r/jobs/comments/lteuri/spacex_interviewer_never_called/",
+      "comments": [
+        {
+          "body": "Hello, thank you for posting to r/Jobs! \n\nWe just wanted to let you know that we have a new [discord server, come join the chat!](https://discord.gg/TY6ErXV)\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/jobs) if you have any questions or concerns.*",
+          "score": 1
+        },
+        {
+          "body": "Literally just happened to me. Had phone call scheduled for 3 and received no call by 3:15. Emailed them and they said there was a schedule mix up and asked if i could reschedule to 4. I said sure and currently as I'm typing this it is 4:35  i still have not received a call :\\\\",
+          "score": 1
+        },
+        {
+          "body": "Just happened to me lol",
+          "score": 1
+        },
+        {
+          "body": "That’s very unprofessional. Maybe they moved on with another candidate.",
+          "score": 1
+        },
+        {
+          "body": "I applied there for two different positions. I got the automated rejection on one of them, but the other I managed to get two phone interviews. I thought they went great, and the lady told me to hang tight for a 2-3 days and she'd get back to me to set up a time for an in-person interview.  \n\nI never heard from her again; she doesn't respond to any follow up emails; and she hasn't returned my phone calls.\n\nMaybe that's just the culture there.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Interviewer asked why I would consider an individual contributor role after being a senior manager (head of x). How have others answered this question?",
+      "body": "",
+      "subreddit": "jobs",
+      "score": 28,
+      "url": "https://reddit.com/r/jobs/comments/ry700i/interviewer_asked_why_i_would_consider_an/",
+      "comments": [
+        {
+          "body": "I'll usually answer that question with a mix of the following:\n\n* Want to get hands dirty again (not a lie as I enjoy and pride myself on being able to walk more junior folks through the technical nitty-gritty)\n* Growth potential - If it's a small company, I may be the first data science hire so there really isn't anything to manage yet",
+          "score": 4
+        },
+        {
+          "body": "I found that I liked being responsible for myself and my goals more than managing others.   \n\nI was a manager for two years for 100% commission sales people, I hated it.  Because it was commission only they could come whenever they pleased, leave whenever.\n\nHey guys, 10 am meeting Monday, 4 people don't show up \n\nDrove me nuts",
+          "score": 5
+        },
+        {
+          "body": "OP, are you asking as a discussion topic or is this a real question you’re encountering. \n\nIf the latter, I can DM you on how I addressed.",
+          "score": 3
+        },
+        {
+          "body": "There is a case to be made for Range [https://www.bookdepository.com/Range/9781509843527](https://www.bookdepository.com/Range/9781509843527) (The book is a bit meandering in the first part, but realy makes a good case in the end.)",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "After interviewing tons of candidates… I realized most people answer behavioral questions the wrong way",
+      "body": "I’ve sat through more mock interviews than I can count, and the same pattern keeps repeating: people jump straight into “here’s what happened.” STAR, SOAR, all those frameworks—they’re not wrong, but most people use them in a way that feels a bit too mechanical for how interviews actually work now.\n\nWhat I’m trying to get people to do isn’t “stop using STAR,” it’s to **make the story feel alive instead of formulaic**.\n\nMost behavioral questions aren’t just asking for a sequence of events. They’re really asking:\n\n“Do you understand the underlying problem people run into in real life?”\n\nThat’s the part most candidates skip.\n\nIf an interviewer asks someone “How do you handle conflicts?”, they’re usually not fixated on the specific argument the candidate had with a coworker five years ago. What they’re actually listening for is whether the person understands why conflict tends to happen, what typically triggers it, and how they generally think about approaching those situations. That kind of insight gives a much clearer picture of someone’s overall judgment and working style than a perfectly formatted answer.\n\nThe second thing is whether the candidate has a **repeatable way** of navigating situations—not a one-off heroic moment. Everyone can tell one good story. What people care about is:\n\n“If this exact thing happened again tomorrow, would you know what to do?”\n\nPeople who can talk about their own patterns—how they typically diagnose a problem, how they communicate, how they decide what to do first—always sound more convincing, even if the actual story is simple.\n\nAnd honestly, the strongest answers usually come from people who can talk about what they’ve learned from messing up. Not in a fake “I learned communication is important” way. But in a real:  \n“I used to do X, it caused Y, so now I do Z.”  \nThat level of reflection is rare and instantly signals maturity.\n\nSo when people ask me how to answer behavioral questions, I don’t say “ditch STAR.”  \nI usually say:\n\nStart with how you understand the situation in general, add your usual approach or thought process, then use the story to bring it to life. That naturally makes your answer sound more grounded, intentional, and believable—framework or not.\n\nHappy to break down specific questions if anyone wants. I’ve probably heard every version at this point.",
+      "subreddit": "interviews",
+      "score": 1287,
+      "url": "https://reddit.com/r/interviews/comments/1p5bnby/after_interviewing_tons_of_candidates_i_realized/",
+      "comments": [
+        {
+          "body": "Radical idea here. Ask the question you want answered.",
+          "score": 294
+        },
+        {
+          "body": "STAR is a formula. If you want to have an organic interview with a candidate, actually ask them the question you want them to answer.\n\nIf you want the candidate to answer a heavily rehearsed generic example of something that probably never happened to them, ask them to tell you about a time where xyz happened",
+          "score": 66
+        },
+        {
+          "body": "I really wonder if these sort of questions are actually useful. I suspect they are just answered well by someone who is well rehearsed at being interviewed. I certainly know of people who can't articulate themselves well in an interview situation, but would handle real life situations well.",
+          "score": 66
+        },
+        {
+          "body": "I just want a job that pays ok and isn't going to kill me. Why all this bullshit of when I say this, I mean that. Why not just ask what you want, Instead of a vague question that you wanted answered in a specific way. So you interviewed a bunch of people, instead of telling us what you mean why not tell the people you are interviewing. ",
+          "score": 28
+        },
+        {
+          "body": "Sorry, but if most candidates give the wrong answer, the problem may come from the question.",
+          "score": 31
+        },
+        {
+          "body": "Never liked behavioral questions as a candidate, never ever bothered asking one as an interviewer. \n\nI am trying to know this person, get a vibe check, understand what genuinely interests them, what could they bring to the table we don’t already have. No mind games.\n\n\nNot a knock against you OP, but after interviewing a bunch as a candidate and accepting a few of those jobs, its usually pretty obvious if people are asking me the same “tell me about a time..” questions, working for them is going to be dull vs someone actually taking the time to make the interview unique and asking interesting questions like “we do this process using XYZ and are limited by ABC, you seem to have experience doing this workflow so if given this job, what would you change and would you enjoy doing it?”",
+          "score": 167
+        },
+        {
+          "body": "Your post is super misleading and if someone answered like this, when the industry standard is a STAR response, they’d probably just annoy the interviewer by rambling on without getting to the point. \n\nWhile your advice isn’t completely baseless, it seems more likely that you’re bored of your role, bored of standards, and bored of the monotonous structure, so you’re waiting for something to change. \n\nAlso, as a general rule in basic common sensology: If 99% of people are answering your question incorrectly, then your question is the problem, and not the 99% of people who respond to it. Change your question. Maybe their answers aren’t lazy, your question is.",
+          "score": 22
+        }
+      ]
+    },
+    {
+      "title": "Interview x hairstyles",
+      "body": "I (21)F recently scheduled an interview for an internship a little over a week from now. However, I also planning on shaving my head this week. I’m now worried that, because a shaved head is not a “common” look for a female, it could harm my chances of landing the intern position. Should I hold off on shaving my head or just go for it?",
+      "subreddit": "interviews",
+      "score": 2,
+      "url": "https://reddit.com/r/interviews/comments/1modjcq/interview_x_hairstyles/",
+      "comments": [
+        {
+          "body": "My female friend had a shaved head and initially it caused a lot of issues, judgement, etc. I would go for the job with hair since its in about a week and then shave it following the interview.",
+          "score": 1
+        },
+        {
+          "body": "Hold off",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "I've interviewed people for 10 years, and I'd like to share what matters (not memorized answers)",
+      "body": "Saw a lot of people (of bots) here giving advice on how to nail idk what questions at the interview, or learn by heart answers. From my experience, you don't need all these things.   \n  \nThe best candidates I've hired were the ones who:   \n\\- knew some basic stuff about the hiring company. When asked, \"Have you heard of us?\" the best answers were \"Yes, I looked you up on Google.\" Amazing, they showed interest.   \n\\- read the job description before the interview. Sooo so many people don't. Asked questions from the JD, ex. \"I saw X, Y, Z in the JD, can you tell me how that looks in practice?\"   \n\\- acted as themselves, were honest, and didn't try to trick me or anyone in the recruitment process. (I know honesty looks different depending on context, but you can always feel when someone is authentic.)   \nAnd of course, the ones who were also matching the job, technically speaking.  \n  \nGood questions I received from candidates that I hired:   \n\\- Can you tell me about the company's expectations for me in the first 3-6 months?   \n\\- How does success look in this role?   \n\\- Questions about the team, culture, and onboarding.   \n\\- Feedback: After our conversation, do you think I am a good fit for this role? Are there any concerns?   \n  \nInterviewing, especially when you have no idea if you’ll get the job or not, is exhausting. There’s no perfect tip, no perfect answer. Sometimes you get the offer, sometimes you don’t.   \n  \nAnd it often has nothing to do with your worth, your skills, or your effort.   \n  \nLast year, I spent the entire year job searching. I applied to thousands of roles. I finally got one… and it was horrible. Left shortly after, but that's another story.  \n  \nWhat I’ve learned, both as a recruiter and as a candidate, is that the only real “secret” is consistency. Even when it feels pointless, or when you’re tired of rewriting the CV for the 2334567th time.   \n  \nKeep trying, keep showing up as whatever “your best” looks like that day.   \nIt’s hard, I know it is, but something will eventually click. Keep going.",
+      "subreddit": "interviews",
+      "score": 853,
+      "url": "https://reddit.com/r/interviews/comments/1p2w622/ive_interviewed_people_for_10_years_and_id_like/",
+      "comments": [
+        {
+          "body": "Thanks for the positive post. It made me feel better about the fact that I'm about to open my laptop for the 900th day in a row to job hunt.",
+          "score": 202
+        },
+        {
+          "body": "I don’t just say what I’ve done. When the interviewer asks if I’ve used such-and-such a technique, I give real examples of how I’ve used it, and the results. At the age of 63, I’m a Product Assurance Manager consultant in the Aerospace industry. \n\nIt took a gruelling 9 months after the end of my last contract, but I only had the one Teams interview, and I was very sure that I’d got it after it.\n\nI’m actually consulting at the same place where I last contracted. But, this time, when the contract ends, I won’t have to hunt around for jobs. I will “sit on the bench“ with my employer, still being paid, while they find my next consultancy.",
+          "score": 37
+        },
+        {
+          "body": "Having been on both sides of the interview table through all my years in the working world (over 40 years), I find this to be one of the better posts I've seen on this sub. Job candidates, listen to OP. Hell, interviewers and recruiters could learn a few things from this post as well.",
+          "score": 25
+        },
+        {
+          "body": "I will add to your post about authenticity. I’m the type of person who likes to think carefully, and answer honestly. Early in my career, I would feel a lot of pressure to act like some sort of smooth-talking showman during an interview- instant, impressive answers. I cringe thinking about it now. \n\nIt’s totally okay to just **pause** and say “great question, let me think about that for a minute”. Because, frankly, that’s exactly what I’d do on the job if you hired me. And that’s an asset. Demonstrate that you’re a careful, thoughtful person. Nothing wrong with that. \n\nAnd if you think about it and you can’t think of a good answer, then explain why. The “why”, your thought process, *is* your answer. And it might be that’s the best answer they’ve heard all day. Because everyone else is probably just BSing some random fake answer or story, instead of genuinely considering the question.",
+          "score": 10
+        },
+        {
+          "body": "This resonates with how I do it. I've never sat down and rehearsed answers. I read the job descriptions, read about the place I could work, answer in ways that go through my thought process, and always prep good questions both about gaps between what I've learned in the interview vs the description and generally the same kinds of questions you suggested (I actually asked all of those in 1 of the 2 rounds of my most recent interview; the interviewers looked genuinely impressed by the questions too). I also write down the questions to show I've prepared in that regard. But you can do it all and still not get it &amp; that's okay. We keep it pushing.\n\n\n(That said, I did it all and at the soonest I may get a response next week; wish me luck)",
+          "score": 10
+        },
+        {
+          "body": "This is the second time I’ve seen the question: After our conversation, do you think I am a good fit for this role? Are there any concerns?\n\nI at first thought it was a great question but now I’m on the fence. I feel like this put the hiring manager in an uncomfortable position. As if you’re forcing them for feedback and could make me look bad. Would you mind elaborating on how this could win them over?",
+          "score": 10
+        },
+        {
+          "body": "Great advice, I literally do all of these things already and rarely get call backs though 😂",
+          "score": 9
+        }
+      ]
+    },
+    {
+      "title": "What do you guys think about outdated interview questions like \"why us, where do you see yourself in  the x years, your weakness, your passion\" etc ",
+      "body": "What do you guys think about almost every company asking these outdated questions? Companies always look for hard working people who can bring **new things** to the table but they can't even upgrade these questions. \n\nCorrect me if I'm wrong but I found it absolutely stupid for small/mid size companies asking \"why us\" question. Look, everyone (including companies) know that 99% of the people don't even give a shit about your company and just want to get a job because most people are \"**passionate**\" about not starving. \n\nAnd yeah, who would actually tell anyone about their \"legit\" weaknesses?!",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1eg56cq/what_do_you_guys_think_about_outdated_interview/",
+      "comments": [
+        {
+          "body": "I think “why us” can be valid. If the role is in high demand or as a clear stepping stone up the chain it can be useful to see how an applicant views it. Otherwise yeah it’s pretty silly.",
+          "score": 1
+        },
+        {
+          "body": "“Why us?” let’s them know you have done your research on them.\n\n”I have always been interested in X and your company is the third largest manufacturer of X in the United States.”\n\n“You‘re headquartered in Denver, Colorado.  If I wasn’t living here in this city, Denver, Colorado is where I’d like to live.”\n\nThose are good answers.  “I need money and you guys were stupid enough to interview me even though I lied my ass off on my application.” might get you some points for honesty, but it doesn’t show that you know much about the job.",
+          "score": 1
+        },
+        {
+          "body": "I legit have a weakness when it comes to asking for help or advice. Am I insane for talking about this during an interview?",
+          "score": 1
+        },
+        {
+          "body": "I have a few insights on these questions that maybe people never think of:\n\n* *\"who would actually tell anyone about their legit weaknesses\"* In my past company, **question about your weaknesses is not meant to find out your weaknesses.** What? The point of that question is to spot certain not-wanted personality types.\n* People also bash the \"Tell us about yourself\" question saying \"HAVEN'T YOU READ MY RESUME??\". Yes we have, I remember it by heart. The point of that question is to validate that what you wrote aligns with what you are saying. Hard truth is, some people tend to lie and when the story they tell and their resume do not align, they get caught.\n\nWhen you have seen hires such as a bipolar psychopath, a incompetent worker who lied about their skills and a chronic liar -&gt; you will put measures in place.",
+          "score": 1
+        },
+        {
+          "body": "You're right, a lot of those classic interview questions are outdated and awkward. It's like they're stuck on autopilot! But look at it this way: maybe it's an opportunity to flip the script. When they ask \"Why us?\" use it as a chance to show you've done your research - what genuinely interests you about their work? As for weaknesses, everyone has them, but frame it positively: what are you working on improving? It shows self-awareness. If you're tired of these interview question dinosaurs, check out [interviews.chat](http://interviews.chat) - we're building a tool to help you navigate these situations and hopefully land that dream job.",
+          "score": 1
+        },
+        {
+          "body": "Name a time when you had a situation, what did you do about it, and what was the result has been asked since 1999 or earlier, and is very, very stupid.  Most of them zone out during the candidate answer, with a bored uh huh and fidgeting.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "An A.I. chatbot told me that I’m not qualified for a job…but I am",
+      "body": "Marcos Pizza is trash just straight off the bat. I don’t complain about employers not calling me back after applying several times. I don’t complain when they reject me after looking over my résumé, and I also wouldn’t complain if they even told me right in the interview that I’m not qualified….but using an A.I. chatbot as the main source when to hire and not hire someone is just so dystopian to me. I told answered all the questions that wouldn’t have even disqualified me from simply applying. I have experience in delivery driving and  experience in customer service. But yeah go take my résumé so a possible other A.I. they use says I’m also not qualified. Am I crazy?",
+      "subreddit": "jobs",
+      "score": 594,
+      "url": "https://reddit.com/r/jobs/comments/1ba0f75/an_ai_chatbot_told_me_that_im_not_qualified_for_a/",
+      "comments": [
+        {
+          "body": "[deleted]",
+          "score": 321
+        },
+        {
+          "body": "Sorry you need a minimum of 10 years of experience in pizza delivery and 5 years in pizza related technologies to be eligible",
+          "score": 64
+        },
+        {
+          "body": "What is the job calling for?",
+          "score": 39
+        },
+        {
+          "body": "That last message was just a slap in the face. The \"Goodbye\" with the hand emoji.",
+          "score": 27
+        },
+        {
+          "body": "How do you not qualify for pizza?",
+          "score": 21
+        },
+        {
+          "body": "Man I wish it was 2003 so we don't have stupid shit like this in the job industry...so fucking dumb.",
+          "score": 17
+        },
+        {
+          "body": "It's deliberate. They aren't actually hiring. ",
+          "score": 50
+        }
+      ]
+    },
+    {
+      "title": "hot take: the one thing that will improve your job hunting experience is lying on your resume.",
+      "body": "Dear reader, before you start firing away about how this is a terrible idea and no one should do this hear my story first. I have been reading several career and recruiting subreddits for about 3 years now and pandemic and all this has been my takeaway.\n\n1. Recruiters/Companies lie to you.\n\nFirst and foremost you are being lied to from the get go. They post requirements, offers, etc. but if you have been in interviews and job hunting you know as well as I do all of those things (competitive salary, amazing work culture, etc) are a vile lie.\n\n\n2. You are not being hired as an asset you are being contracted as a last resort tool. \n\nYou can really tell this is the case by the number of disgruntled employees in several places doing 4 jobs and being paid for one and the way they talk to you in the job post and during interview (must work nights, weekends, holidays, etc. Must be able to multitask and work in a fast paced environment. Needs to be a team player). The job is open because they could no longer get an underpaid employee to work two or three positions at a time.\n\n\n3. There is always someone at your job that doesnt know anything or was hired because they're friends or family with someone. \n\nThink to your most recent job experience. Now think about THAT ONE EMPLOYEE that doesnt know shit/ is lazy/ is friends or family with upper management/misses work all the time/ etc. And somehow manages to keep his position and sometimes even get promoted. Sometimes its several people with these issues but most of the time its just a magical waste of a human that managed to slip by forever. You clearly know this person is not even qualified to flush a toilet much less work there.\n\n\n4. The method in which companies hire people is outdated, inefficient and an overall clusterfuck\n\nIf you are not conviced at this point of my post, just think back at the hours you've wasted on personality tests and refilling your resume onto their proprietary software only to get an automatic rejection or even worse just get ghosted OR the riveting experience of wasting gas and time in a hiring agency that clearly doesnt have any real leads and sends you constantly to pyramid scheme jobs OR the fascinating experience that is receiving job offers from the same company 6 months down the line once you already got a job OR the ultimate adrenaline rush that you get when a condescending hiring manager looks at you and asks to explain the gap in your resume while you refrain to yell at him and say \"thats how much time I've been looking for a damn job\". Let asume none of these past ones apply to you, here's one that does: when you dont hear anything back from anyone because the algorithm in the resume software doesnt favor your particular resume. \n\n\n\n5. The world is full of shit, so dont be afraid to be full of shit too.\n\nThis brings me to my final point. Think back to the time that you thought \"I'm should go back to college so I can go do X, Y or Z\" only to find out that people doing the job currently were trained on site and learned how to do it within month of being there. \n\n\n\nConclusion? Lie on your resume. \nDont be a dumbass and lie too big either. Dont try to go for a physician job if you dont even know what the hell a tylenol is. What im saying is, \n\n*you need 5 years experience but only got 2-3?? Screw it put 5\n*gap on your resume? Stretch those dates out?\n*references?? Get some buddies that have mastered the art of phone bullshit and put them down as references.\nGot 5-10+ years experience on something you dont have a degree for?? Say you got a degree from a foreing country or some untraceable shit.\nForeing sounding or black sounding name?? Whitewash the hell out of your name. Who are they gonna call?  Dontravius Jamal Jackson or Don J. Jackson?? Pablo Colon or Paul Colombus?? You decide.\n\n\nDont feel comfortable lying on your resume? Make two resumes: a real one with all the correct information and a fake one with all the requirements they're asking for. Put the same phone number on both and put different emails you have access to. When you go to an interview bring a printed copy of your real one to hand in to the interviewer. \n\n\nThis has been my TedTalk.",
+      "subreddit": "jobs",
+      "score": 666,
+      "url": "https://reddit.com/r/jobs/comments/u2h0y4/hot_take_the_one_thing_that_will_improve_your_job/",
+      "comments": [
+        {
+          "body": "Okay people take this guy’s Ted talk with a massive grain of salt. There’s an extent to how much you can lie.\n\nLie about knowing Excel/Tableau/Power Bi etc? You can get away with that since these are not hard to learns\n\nLie about knowing something like C++ when you’ve never coded in your life or completely faking job titles? You’re setting yourself up for disaster.",
+          "score": 389
+        },
+        {
+          "body": "[deleted]",
+          "score": 152
+        },
+        {
+          "body": "I don't have the guts to do this",
+          "score": 80
+        },
+        {
+          "body": "Is exaggerating considered a lie? Because boy, oh boy, we got a lot of liars on here who don't want to admit it. Obviously do not lie about work experience at x company because those things are easy to verify. But if you're telling me you arent fluffing up your resume then I got some words for you. \n\nAlso If you fluff up your resume, make sure you can back it up.",
+          "score": 65
+        },
+        {
+          "body": "I get anxiety even when I’m telling the truth. Meh",
+          "score": 78
+        },
+        {
+          "body": "[removed]",
+          "score": 65
+        }
+      ]
+    },
+    {
+      "title": "Had an interview at X, maybe I'm overthinking the hiring managers' reactions? Maybe not",
+      "body": "I (F) had an interview for a great position that I'd love to have. The interview seemed to go well on my side, only two hiring managers (F, M); one the assistant director of Y. \n\nI really studied and even got my partner involved in my studying. So I know the next interview will be great.\n\nWhile I was answering questions I sensed like they were in a rush? They regularly cut me off while I was answering questions because I guess they were looking for a specific answer. Their questions were a little vague but when I gave my answers I felt confident.\n\nSometimes F even rolled her eyes. It seemed that M and F had a good relationship.\n\nThen when I asked M what kind of person you would like to work with you? He says constantly sweeping his hair (with painted nails) that the department is full of men and the person he needs, needs to be compatible with \"just men.\" So he makes me think he really only chooses men for the positions.\n\nWhen the interview ended it was so awkward, they were like sooo......\" we're done, nice meeting you bye.\" So clean cut and dry. \n\nSo I have been a little demotivated to apply further right now. I'm hopeful and confident that I am the best person for the position but I felt a little judgement, like the two friends would go back and bad talk me later. ",
+      "subreddit": "interviews",
+      "score": 5,
+      "url": "https://reddit.com/r/interviews/comments/1g17i9y/had_an_interview_at_x_maybe_im_overthinking_the/",
+      "comments": [
+        {
+          "body": "Sorry you didn’t get the job. If an employer is genuinely interested in you, they sure don’t cut you short on your answers to their questions.",
+          "score": 10
+        },
+        {
+          "body": "They sound like assholes. You should be glad you don’t have to work with them.",
+          "score": 8
+        },
+        {
+          "body": "They already know who they hiring and going through the motions.",
+          "score": 8
+        },
+        {
+          "body": "Regardless of outcome, they sound like jackasses, and I worry that it would be a super toxic work environment...",
+          "score": 4
+        },
+        {
+          "body": "Interviewing candidates is a skill.  His comment that you need to be compatible with “just men” is both obnoxious and legally problematic.  \n\nHurrying you along could mean a few things.  First, your answers might be viewed as either too long or unfocused.  As the interviewer, I try to lay out an agenda (we will have up to x minutes, have about 10 questions for you, and we try to leave about x minutes at the end for any questions you might have but feel free to ask questions as we go).  This helps everyone and puts some onus on the candidate to manage their time.  So it could be you or it could be them.\n\nIt could also be the culture of the workplace.  Talk to employees of earlier Apple or Microsoft, competitive, challenging things, and argumentative was the norm.\n\nAn interview either goes well or it doesn’t.  Going well for the candidate but not the interviewer is a bad outcome.  Reading the room is also a skill and it is sort of up to you to adjust as it makes sense.",
+          "score": 4
+        },
+        {
+          "body": "It sounds like that interview left them with more questions than answers, but staying confident is key!",
+          "score": 3
+        },
+        {
+          "body": "My guess when it comes to the comment about the ability to work with all men is that you had already said something in an answer to a question that made them realize that you would not be willing or able to deal with the level of sexual harrassment you would be likely to receive there.\n\nWhen we go on job interviews, we have to presume that the employer will not truthfully answer questions we have on some important issues. For instance, I would love to be able to find out in advance if the workplace is toxic or not, but asking would be futile because no one trying to fill a position would tell you a reason for you to steer clear. At some point, you have to hope the employer is able to help you eliminate themselves from your list of potential employers. \n\nIn this case, they helped you dodge a bullet.",
+          "score": 3
+        },
+        {
+          "body": "I had an interview where the hiring manager kept talking and talking and talking and…yea. It was a 10:1 ratio of words. He said he’d get back with me after his PTO, which was all of the next week. Didn’t like the vibe. He wanted to hire me but I backed out before it could go further. That was in May. The same job is still posted to this day. Either that or the next person he hired already quit. \n\nThese are people you don’t want to work with. They probably lack actual people skills and you’d end up hating the place. They are likely very obnoxious and egotistical. They saved you time interviewing and possibly even from self-misery. Chalk it up as a lesson learned. Any place that hinges on the ability to get along with a certain type of people based on gender, race, ethnicity, etcetera is not where you need to be.",
+          "score": 3
+        },
+        {
+          "body": "EX tesla here, EM allows his managers and VP's to manage and rule as they see fit. Stores all operate differently.. the vibes of each department depend on the toxic or positive leader.. Directors pick their favorites to then become their right hand to then manage how they see fit... its honestly just not the place for you. Keep applying to X, you will eventually fall on someone who likes you. Don't give up but you're not crazy. Had the worst leader at the end of my Tesla career. Ruined the entire department.",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Interview for X-ray school any advice ?",
+      "body": "I’m pretty bad at interviews I usually get nervous and feel I don’t connect with the interviewers any advice ",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1k729ni/interview_for_xray_school_any_advice/",
+      "comments": [
+        {
+          "body": "They want you as a student. Be relaxed. \n\nThey are going to ask your background. Why you want to be an X-ray tech and your future plans?\n\nThe interviewers will understand you will be nervous. They want to know if you are serious and can deal with patients.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "StoneX pre-recorded interview",
+      "body": "Just got a request for a pre-recorded interview (15min) from StoneX.\nDoes anyone know what type of questions they ask? (i.e. just behavioral or technical as well)",
+      "subreddit": "interviews",
+      "score": 2,
+      "url": "https://reddit.com/r/interviews/comments/1hw08mz/stonex_prerecorded_interview/",
+      "comments": [
+        {
+          "body": "What did they ask?",
+          "score": 1
+        },
+        {
+          "body": "Can u slide the questions they asked",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "How do I answer \"have you thought about becoming a(n) x?\" at a job interview. ",
+      "body": "I've been applying to jobs for over a year and have to a couple (3) of interviews. The only interviews I have gotten are for positions that require little experience and to be a hs graduate, but in each interview, they bring up other positions that they think I should be applying for (but absolutely am not qualified for in this job market.) They are not offering me a job, and those positions have never been open at the company I'm interviewing at. The jobs I've interviewed for are along the lines of administrative assistant positions, I have a B.S. in math, lots of coding experience, and some customer service experience. The only reason I haven't taken my B.S. off of my resume is all of my work experience is tied to it. So, any tips on how to answer or avoid the question, \"Have you ever thought about becoming x instead?\" would be greatly appreciated. (x has been backend web development, data engineer, engineer) \nEdit: I typically answer along the lines of \"I'm not entirely sure what I want to do yet, I'm looking for experience, and to get my foot in the door somewhere.\"",
+      "subreddit": "interviews",
+      "score": 5,
+      "url": "https://reddit.com/r/interviews/comments/1covn66/how_do_i_answer_have_you_thought_about_becoming/",
+      "comments": [
+        {
+          "body": "So your issue is that your response lacks confidence, telling people you don't know what you want to do with your life doesn't inspire confidence that you'll be a great employee.\n\nInstead tell them why you want job X, that you are looking to change career paths and focus on what interests you about this job and a career in the field of X and what skills you bring to the table.",
+          "score": 5
+        },
+        {
+          "body": "Hmm if your degree is in math and coding, then why ARE you looking at administrative jobs?",
+          "score": 3
+        },
+        {
+          "body": "If you want the job you are interviewing for, tell them that you want that job. Even if your only reason is you need money (don't tell them that part, make up some reason about how administrative assistant work excites you). No one wants to hire someone who doesn't want the job they're interviewing for, because those types of people don't do the job well or have a high turnover.",
+          "score": 1
+        },
+        {
+          "body": "It sounds like they think you are overqualified. Your answer could be that you are looking for an administrative job that would expand into expensing and monthly reporting.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "This mindset will get you the job you want",
+      "body": "Disclaimer: this post MAY help you get the job you want…this isn’t gospel 🤣\n\nI (38M) and based in London, work in Product Management…in case that makes any difference?!\n\n\nOver the last 6 weeks, I’ve been offered 5 different roles for large tech companies you will all know.\n\nThe mindset I use is to approach each interview like a relaxed chat with a friend. I talk about my personal life, ask about theirs, and sprinkle in humour. It’s almost like a ‘they need me a lot more than I need them” mentality.\n\nI use humour to diffuse and to create a connection quickly. Some examples of humour I use are by answering questions like this;\n\nThem: what’s a weakness you have or had?\n\nMe: ooh…I’d have to go with white chocolate \n\nThem: laugh or smile\n\nMe: on a serious note, probably not recognising I micromanaged earlier in my career. In hindsight I think I lacked self-confidence to give my team members more ownership. \n\nMy answer above quickly defuses their serious question, and then I back up my humourous response by giving a real example and showing humility by admitting I had confidence issues in the past.\n\nAnother example which almost makes the interviewer try to sell themselves to you is like;\n\nMe: does this role report into you?\n\nThem: yes\n\nMe: great! I’d love you to tell me more about your management style\n\nThis completely shifts the dynamic of the conversation and more often than not they will try to sell themselves to you as no one would admit they’re a bad manager.\n\nMe: thanks. sounds like we’d work well together\n\nThem: smiling proudly that they got to tell me how great they are\n\nA note on negotiation…\n\nWhen it comes to salary/package, if it’s not on the spec, I will typically ask the recruiter what the range is from and to. Once I have the range, once I get the offer I let them know I’d be looking for the top of the range. \n\nLegally In Europe the company your interviewing with can only legally find out about your salary/package if you’re stupid enough to tell them.\n\nIf offered the role I want, I normally squeeze a bit more out of them by saying that I’d love to join the team but X company has pushed a bit more for me to have …(higher base pay, or higher bonus, or more stock, more flexible more holiday dates..whatever I make up)\n\nI end with ‘if the offer is full and final, I will need some time to think it through as I’m at the same stage with other companies, but this role is definitely my preference.’  This uses nudge theory to create a sense of urgency on their side, so when the recruiter sais the above to the hiring manager, they will say ‘im keen to to not lose this guy, so happy to give him what he wants so we can secure him’  (within reason obviously)\n\nSkills vs. Attitude when hiring\n\nAttitude beats skills* a lot of the time. If you’re personable, can communicate well, easy to get on with, hard working, motivated, then you’re more than halfway there. I’m not saying I hire people with 0 skills, but the best hires that I’ve had, and that have gone on to be great, were predominantly hired for their attitude, willingness to learn and fail fast.\n\nYou can teach skills, but you can’t teach someone to have a better attitude - atleast when you’re hiring people. \n\n* assuming we’re not talking about being a pilot, surgeon etc.\n\n\nI hope this helps some of you….or not!\n\nFeel free to DM me. I have never prepared for an interview or dressed up. The only thing I do is I have about 10 examples of very common behavioural and technical questions (related to my field). I also know my career background inside out so when asked to tell them about myself, it flows like a river.\n\nUPDATE 1: here is my response based on some DMs asking how to become visible in a recruitment process\n\nI get a LinkedIn premium trial and directly message the recruiter at the company where I have seen a role that I’m interested in. It’s often easy on LinkedIn to find the ‘job poster’ as it shows their name and a link to their profile on the advert. I will use LinkedIns InMail feature to message them and also attach a CV thats super aligned to the spec. The hook is I ask them if we can have a quick 5 min chat to discuss the role in more detail. They will usually check my cv and then feel it’s not a waste of their time as my cv on paper aligns well to the role.\n\nThe InMail usually triggers around an 80% response rate, if not more. Here are some typical responses from the recruiter and % rate;\n\n1) no response {10%}\n\n2) thanks. Please apply via the link here {20%}\n\n3) thanks for your note and cv. Yes happy to chat. Here’s my number and a good time, day etc to have a call {50%\n\n4) thanks. Your experience looks good. Let me send your cv over to the hiring manager {20%}\n\nWe want to get option 4, but generally option 3 still gives me a great opportunity to capitalise on.\n\nWith option 3 in mind, I will phone the recruiter with the details they have given me, and ask some questions like “what are the key things the hiring manager is looking for?”\n\nAfter the call they will either pass on my cv to the hiring manager, or will still ask me to apply via the job link, but now the recruiter knows your name and they’re much more likely to pull out your cv for the hiring manager to review. It’s almost like a queue jump and you won’t get lost in their ERP system either, like the other thousand applicants will!\n\n",
+      "subreddit": "interviews",
+      "score": 470,
+      "url": "https://reddit.com/r/interviews/comments/1nm2k53/this_mindset_will_get_you_the_job_you_want/",
+      "comments": [
+        {
+          "body": "loved the mix of humour and solid strategy, especially around shifting the interview dynamic. As a negotiation coach that specializes in big tech, a few things that have worked for my clients throughout the years: \n\n\\- always ask for the full comp breakdown early (not just salary), let them give the first number when possible, and don’t underestimate the power of a strategic pause after receiving an offer.\n\n\\- silence can be a great lever. Also, framing yourself as “in demand” (even if you’re not juggling offers) subtly creates urgency. \n\nSpot on about attitude &gt; skills.\n\nYou definitely nailed some good points from the book I wrote about [salary negotiation](https://www.salaryscript.com)",
+          "score": 76
+        },
+        {
+          "body": "\"Over the last 6 weeks, I’ve been offered 5 different roles for large tech companies you will all know\"\n\nJust put the fries in the bag, bro",
+          "score": 91
+        },
+        {
+          "body": "Good luck!! I would like to point out the fact that most people even with good skillset aren’t getting the initial interviews leave alone 5.",
+          "score": 23
+        },
+        {
+          "body": "Honesty I’ve had the opposite experience. Being more serious and technical in interviews has gotten me closer to the finish line.",
+          "score": 14
+        },
+        {
+          "body": "You’re describing likability and making a lasting impression. Yes, that makes you stand out.",
+          "score": 9
+        },
+        {
+          "body": "You completely ignore your academics, work experience, and level, which to me tells me that you probably don’t realize the privilege you’re operating from.  \n\nTreating it like a conversation when you’ve got an amazing resume is much different from if you don’t have any experience.",
+          "score": 5
+        },
+        {
+          "body": "Let me humble brag while I spout obvious advice that everyone has heard before. Your dad jokes and demeanor would get the red flag from me. Jokes need to be funny and clever, these are grandpa flirting in the grocery store jokes.",
+          "score": 7
+        }
+      ]
+    },
+    {
+      "title": "I landed a job!!!",
+      "body": "Hello guys!!!! I landed my dream job without any prior experience!! I wanted to share my honest experience on how to get one and my journey. \n1. I found out the only time the recruiters reached out to me was when the jobs listed less than 24 hours\n2. If they are interested, they will download your CV from LinkedIn (that's a very good sign) and they will almost immediately approach you\n3. Set the LinkedIn job listing notification to past 24 hours.\n4. Please really use Chatgpt to tailor your CV, you can simply just copy and paste the job description and use the prompt like:\" I am applying for x position, please can you tailor my CV to pass ATS check?\". Please the more detailed, the better.\n5. Practice makes perfect! I feel like the hardest part is to land an interview. When you have an interview, honestly your life has become easier!! I have had 5-6 interviews before I finally landed this job, legit they asked similar behavioural and soft skill questions, ie communication, tell me a time you had to prioritize different deadlines, teamwork etc... Practice!\n\nI came from a legal background, then I made a career change into tech. Now the job is a KYC analyst position at a Fintech company. I have 0 direct experience. It's normal to receive many rejections but don't give up. You will get one!\n\nMy advice is when you are looking for an entry level role, unless you are super competitive you can get a graduate contract, otherwise I would say start up will give you a better chance, they are more than willing to train someone who has no experience. They are looking for someone who has good personality, be yourself and you will be fine ☺️\n\nAnd don't limit yourself to just one specific location or country, the world is your ocean! \n\nGood luck ",
+      "subreddit": "interviews",
+      "score": 541,
+      "url": "https://reddit.com/r/interviews/comments/1orwifh/i_landed_a_job/",
+      "comments": [
+        {
+          "body": "Thanks, this was really helpful! And really nice of you to make a detailed post :)",
+          "score": 17
+        },
+        {
+          "body": "Congratulations🥳🥳🥳!!!! Thank you so for the tips. I graduated college last year and I’m still looking to land my first entry-level job. It’s tough out here, but I refuse to give up!",
+          "score": 9
+        },
+        {
+          "body": "Be faster, be better, work harder.\nNot new.",
+          "score": 9
+        },
+        {
+          "body": "Congratulations you deserve it!!!",
+          "score": 3
+        },
+        {
+          "body": "Congratulations",
+          "score": 3
+        },
+        {
+          "body": "Thank you for the detailed post. But, I always find it hard to tailor my CV for every job post. Even if ChatGPT gives me a tailored CV for every job, how do I compile my professional CV every time? What are your recommendations for this? Which tool do you use to simplify this CV tailoring experience while applying to multiple jobs at a time?",
+          "score": 3
+        },
+        {
+          "body": "Congratulations!  I might do the the ai angle for resumes.  How long was your job search?",
+          "score": 2
+        },
+        {
+          "body": "Congratulations!  Your search is over",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "SpaceX Interview Insights Manufacturing Engineer",
+      "body": "Hello, I have an interview coming up for a manufacturing engineer role at SpaceX for Starlink. I got an MS earlier this year, but have only had internship experience in engineering (not aerospace), and some experience with small business. Both degrees are in engineering, though I do not remember much because I just didn't use it much. Could people share what technical questions they get/got, and any resources to prepare since it's been a while that I have gone through engineering stuff and would like to know what to prepare for and expect, especially related to fundamental engineering questions, and overall technical questions in addition to any about the interviewee's experience. Would appreciate any and all details.\n\nI've also read it's a long process, so sharing any experience on the timeline and overall process would be great, too.\n\nThanks so much in advance!",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1fykcrw/spacex_interview_insights_manufacturing_engineer/",
+      "comments": [
+        {
+          "body": "Focus on brushing up on your engineering fundamentals, especially in areas related to manufacturing processes, materials science, and quality control. SpaceX is known for asking technical questions that test your problem-solving skills and engineering knowledge, so be ready to tackle hypothetical scenarios or design challenges. It's good to practice common [Manufacturing Engineer interview questions](https://www.interviews.chat/questions/manufacturing-engineer), as they'll likely come up during your SpaceX interview.\n\nThe interview process at SpaceX can be lengthy, often involving multiple rounds of interviews with different team members. You might start with a phone screening, followed by technical interviews, and possibly a final on-site interview. Be prepared for each stage to delve deeper into your technical knowledge and problem-solving abilities. The entire process can take several weeks to a couple of months, so patience is key. Stay confident, showcase your passion for aerospace, and demonstrate your ability to learn quickly and adapt to new challenges. Good luck with your interview!",
+          "score": 1
+        },
+        {
+          "body": "How did your interview go? I have recruiter screening tomorrow",
+          "score": 1
+        },
+        {
+          "body": "How did it go? Any insights? Interviewing for the same role.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Offered an AI interview, responded with an AI-written case against it",
+      "body": "No more context needed beside what title says really, at first thought to build a voice agent to conduct the interview on my behalf, just for fun, still might do something like that in the future.   \n  \n\"  \nMight as well have my AI agent write a reply on why I am not keen to an AI interview, apologies team :)   \n\n\nHello X X team,\n\nThank you for moving me forward for the x x role. I value x mission — which is why I want to be direct: I will not complete the **AI interview** and would like to proceed via a human-led alternative.\n\nI’m sharing my reasons in detail because they also reflect how I evaluate the culture of a company I may join.\n\n**1) Culture signal &amp; resourcing**  \nRequiring an AI to conduct the first real “conversation” signals that the company either lacks the **resources** or the **willingness** to meet candidates live. That may be efficient, but it sets an expectation about day-to-day reality: if we can’t spare 15–20 minutes for a person-to-person chat at the outset, what does that say about how people are prioritised internally?\n\n**2) Job security &amp; intent**  \nUsing an AI gatekeeper for a role defined by nuance, trust, and human judgment telegraphs a clear message to candidates: *the moment you can swap a human for a tool, you probably will.* I’m looking for an environment where human-led onboarding and relationship-building aren’t treated as “nice-to-haves” that can be automated away. This is about **job security** but also about principle: onboarding isn’t just tasks; it’s trust, context, and empathy.\n\n**3) Dehumanisation &amp; experience quality**  \nOne-way, model-scored interviews optimise for data capture, not **dialogue**. They strip away clarifying questions, rapport, and the ability to co-reason through problems — exactly the behaviours that matter in onboarding operations. Reducing a candidate’s story to token streams and confidence scores is **dehumanising** and, frankly, the opposite of how I operate and what I’m actively moving away from in my career.\n\n**4) Signal vs. noise (fairness and accuracy)**  \nLLM/STT pipelines still struggle with accents, pacing, neurodivergent communication, network latency, and room acoustics. Without a two-way conversation, small misreads snowball into poor assessments. If a candidate needs to challenge a premise or ask for context, the AI cannot interpret that as collaboration; it often penalises it. That’s not a fair signal for a role that requires collaborative problem-solving across time zones and cultures.\n\n**5) Privacy, consent, and retention**  \nI’m cautious about voice and biometric data being stored, processed by third parties, and potentially reused to train future systems. I don’t know where the data lives, who exactly has access, or how long it’s retained — and I’m not comfortable handing over that risk for an interview step when a simple conversation or written Q&amp;A would suffice.\n\n**6) Efficiency isn’t the same as effectiveness**  \nA 30-minute, one-way AI interview is not more effective than a 15–20 minute human conversation, a short case prompt, or a written Q&amp;A. It generates “data exhaust,” but not necessarily better hiring decisions. For a role that’s measured on time-to-value, first-week outcomes, and stakeholder satisfaction, a short human exchange is the more predictive, respectful tool.\n\n**7) Candidate experience as a proxy for employee experience**  \nFirst impressions matter. If the hiring experience is impersonal by design, it’s reasonable to infer the employee experience tilts similarly — **prioritising data collection over human touch**. That’s exactly what I’m intentionally moving away from.  \n  \n\n\nIf the AI interview is a mandatory gate, I’ll respectfully **withdraw** my application at this stage. If there’s flexibility, I’m keen to proceed — I believe my background in onboarding operations, process design, and cross-border enablement would be a strong fit, and I’m happy to demonstrate that through any other alternatives.\n\nThank you for understanding, and I look forward to your reply.\n\nKind regards,  \n**GPT 5 trained by x**\n\n\"",
+      "subreddit": "interviews",
+      "score": 680,
+      "url": "https://reddit.com/r/interviews/comments/1nesvry/offered_an_ai_interview_responded_with_an/",
+      "comments": [
+        {
+          "body": "Well played.",
+          "score": 64
+        },
+        {
+          "body": "I am absolutely copying this and using it tho fight against AI interviewing. I’m totally biased as a recruiter, of course, but one of these points is a good one.",
+          "score": 54
+        },
+        {
+          "body": "In a normal interview you would also interview the company.\nBy using an AI this has become nearly impossible.\n\nAnother reason for the list",
+          "score": 11
+        },
+        {
+          "body": "Yeah, these concerns are legit. If AI interviews feel too impersonal to you, you're not alone. It's crucial to know if your potential employer values human interactions the way you do. Maybe suggest they try a 'human-led' step to keep the personal touch. If they can't accommodate, it might be a sign that their work culture isn't aligned with your values. Good on you for standing up for what feels right!",
+          "score": 20
+        },
+        {
+          "body": "I now really want to see how an Ai voice agent vs an AI interviewer would work out.",
+          "score": 6
+        },
+        {
+          "body": "They’re not all bad but I agree that if the company is going to take up your time they need to have some of their own skin in the game. No interview and it all just being on your resume would be better.",
+          "score": 3
+        },
+        {
+          "body": "Nobody’s reading this",
+          "score": 9
+        }
+      ]
+    },
+    {
+      "title": "What is the ACTUAL reason jobs are re-posted for months??",
+      "body": "These days, it seems entirely normal to see jobs that have been posted for months and months, and never get filled. They collect up tons of resumes and names, interview a few people, hire no one, and then re-post the job over and over again many times. You see this all over the place.\n\nIt's a giant waste of everyone's time, but we all know the company wouldn't be doing this if it wasn't benefiting them in some way. So what is the actual reason they're doing this? \n\nThere must be some kind of government incentive, or tax break, or something that they're taking advantage of by playing these games. I imagine it's something along the lines of, \"we've had this job posted for X months, interviewed Y people, and STILL can't find the right candidate, therefore we need \\[whatever\\]\". But the question is, what is the actual incentive to the company they're getting for playing these games?",
+      "subreddit": "interviews",
+      "score": 196,
+      "url": "https://reddit.com/r/interviews/comments/1o3j2ab/what_is_the_actual_reason_jobs_are_reposted_for/",
+      "comments": [
+        {
+          "body": "HR has nothing better to do than fish for a non-existent unicorn.",
+          "score": 132
+        },
+        {
+          "body": "I think those are ghosts jobs. HR and recruiting agencies are just collecting resumes",
+          "score": 65
+        },
+        {
+          "body": "I went for an interview recently to a company that had been posting for a long time for engineers.\n\nQuite a lot of skills were required for the role, a difficult blend to achieve in the industry.\n\nAll was going well until they mentioned that the role would soon become shift work. Two options were being considered, and the hours for both options were horrific and hugely disruptive to family life, with the shift pattern changing on a weekly basis.\n\nIt turned out that no shift rate uplift was being considered, as they felt the current non-shift rate was pretty good already.\n\nThey had been hiring for more than a year to fill these roles, and the search for suitable engineers was going slowly.\n\nI couldn't get out of there fast enough.",
+          "score": 27
+        },
+        {
+          "body": "Need a blacklisted Job posts so that people might be aware of their efforts",
+          "score": 11
+        }
+      ]
+    },
+    {
+      "title": "When planning for in person interviews w/ x company, are most places usually okay with working with your schedule (scheduling on your off days, etc) or is it the norm to work with their availability instead?",
+      "body": "Hi guys,\n\nLets say you get past the initial phone screening interview for a job you're applying for and they want to then schedule you for an in person interview (or remote zoom interview if that's how it works nowadays, please let me know) as the next step\n\nAre most places usually pretty flexible in terms of what day and time you are able to come in? Let's say if you currently work 5 days a week at your current job and you're only available on your off days. Are most places going to be okay with working with your schedule (scheduling on your off days) or are is it the norm to work with their schedule/availability instead (aka calling 'sick' at your current job to interview with the new company if interview day/time overlaps with current work schedule)? \n\nHow flexible are companies with this and what is usually the norm nowadays? I'm kinda inexperienced to the whole interview process so just wondering on what to expect and whatnot.\n\nI live in the Midwest in a big US city by the way if that matters. \n\nThanks for any feedback/advice I can get, greatly appreciated in advance!!",
+      "subreddit": "interviews",
+      "score": 2,
+      "url": "https://reddit.com/r/interviews/comments/uc8qy7/when_planning_for_in_person_interviews_w_x/",
+      "comments": []
+    },
+    {
+      "title": "I got the job!",
+      "body": "Follow up to this post: https://www.reddit.com/r/interviews/s/HiJgesxptU\n\nEarlier on this year, I had a soul crushing experience when I didn’t get the job I wanted so badly. The Reddit community really showed out for me &amp; although I did get some follow up interviews with the same company, it wasn’t meant to be.\n\nWHAT WASSSSS TO BE THOUGH was an even better opportunity on the horizon. Turns out I ended up getting an offer to join a team with some amazing people, better salary, bigger benefits package and a real opportunity to learn and grow. Between receiving the offer and my start date, we’ve already done some bonding activities and they’re really excited for me to join the team! \n\nIt sounds cliche but please stick it out! It took me 7 months of hardcore applying and interviewing but I finally start my new role tomorrow! (Off to get an early night and start this new chapter) \n\nThank you for the support. It’s not easy out here but determination &amp; belief in ourselves will pay off! Sometimes we get setback but the better and RIGHT opportunity is just around the corner x\n\n♥️",
+      "subreddit": "interviews",
+      "score": 235,
+      "url": "https://reddit.com/r/interviews/comments/1n55lb8/i_got_the_job/",
+      "comments": [
+        {
+          "body": "Kinda in the same boat, didn’t get a job I really wanted last year. Had 2 other interviews since then and didn’t get those jobs either. Makes you feel like you’re not good enough. But that job I really wanted opened up again this year and they invited me back for interview and made it to the testing stage which I feel like I did much better this go around. It was the same supervisors as last time and said I really impressed them last time that’s why they invited me back, last year they just wanted someone with a little more experience. Now I’m hoping this is my chance because it’s a great opportunity. I should hear something back this week, fingers crossed and congrats to you!",
+          "score": 17
+        },
+        {
+          "body": "Great news go celebrate",
+          "score": 2
+        },
+        {
+          "body": "What field are you in and what role did you secure?",
+          "score": 2
+        },
+        {
+          "body": "Congratulations! Just shows that the main lessons to be learnt are: never give up and never compromise.\n\nI finally got my ideal role (short commute, great pay, will know what I’m doing from day one) after eight months of looking.\n\nTo be honest, though, I expected it. I knew it was a good interview, and the company told the agency the same.\n\nI think a lot of the issues relating to finding work in recent years stem from AI assessing CVs and throwing them out because a particular word is not there.",
+          "score": 2
+        },
+        {
+          "body": "Congratulations!",
+          "score": 1
+        },
+        {
+          "body": "Congratulations!!",
+          "score": 1
+        },
+        {
+          "body": "Congrats",
+          "score": 1
+        },
+        {
+          "body": "Yay!!!",
+          "score": 1
+        },
+        {
+          "body": "Congratulations ✨️  so happy for you\nI hope everyone receives same news who ever looking for opportunities ✨️",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "I finally got a job - here were my 3 keys!",
+      "body": "I finally got a job after 4 months of searching. I was getting final round interviews but still failed to seal the deal in this tough market. I decided to try a new strategy. These were the 3 keys that turned it around for me:\n\n1. **I stopped telling them the real reason I was leaving my current job**. The truth is that our company is shutting down, and all along I thought this was a good answer since that’s not my fault. But all I got was sympathy from the interviewers. I didn't want sympathy, I wanted a job. I also realized it still had negative connotations - in a way I was throwing my employer under the bus, speaking to its incompetency as a business. Instead I started telling interviewers that I wasnt growing as much as before because I finished task X, Y, and Z - which was true. They loved that.\n2. **I turned off ChatGPT**. My role is highly technical and while ChatGPT can help there, it couldn't match my knowledge from pure experience. In the final assessment, I answered their technical questions without any assistance from AI. They later told me I knocked it out of the park and showed my answers to their CEO. They'd never seen a response like mine.\n3. **I didn't negotiate salary.** For the first time ever, I accepted their initial offer. Given how badly I needed a job, how bad the market is, and how generous they were due to my experience, I felt the offer was extremely fair and I didn't need to negotiate.\n\nI hope this might help some of you in your search. Good luck!",
+      "subreddit": "interviews",
+      "score": 1320,
+      "url": "https://reddit.com/r/interviews/comments/1fxjr2w/i_finally_got_a_job_here_were_my_3_keys/",
+      "comments": [
+        {
+          "body": "Congrats! The answer about GPT was kind of nice to hear lol",
+          "score": 96
+        },
+        {
+          "body": "I think point #1 is very important. Even if the truth is that you hate your job and your boss sucks, there are ways to phrase it that put a more positive spin on it.\n\nWhen you have that initial phone screen with a recruiter or HR, it's ok to say you are ready to move on because of whatever.  However, by the time you have another interview, make sure they know that you think your previous/current job was good but that it's time to move up or whatever.  It is just a way to emphasize that you are a good person who will see difficult situations in a positive way. It shows that you are professional, and that would be a good fit with their corporate culture.\n \nAnd always, always, always... Do your interview and then call them after 2-3 days to let them know you are still interested in the position and to give them time to talk about the interview and what can happen next. ;-)",
+          "score": 26
+        },
+        {
+          "body": "Good advice. I heard quite a lot of negative things about AI like companies using AI detection tools which scan CVs / cover letters and put them into the bottom of the queue or allowing to use the AI while doing technical test to figure out that candidate can’t function without assistance. I feel it is a hidden trap that people fall into without considering the impact.",
+          "score": 14
+        },
+        {
+          "body": "Thank you for the insights. Congratulations on your new role.",
+          "score": 13
+        },
+        {
+          "body": "GPT should only be used to seed and never used for anything final. For me it’s an incredibly important ADHD hack to get me over the executive dysfunction of starting the thing. The final results are always mine. Some things, though, should be yours from start to finish.",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "title": "Finally got an offer!!",
+      "body": "Not writing this to brag in any way, but instead as a reminder to NOT GIVE UP ON YOURSELF!!! I’ve been unemployed since AUGUST. Probably over 500 applications submitted and 30+ interviews later (many of which I made it through 4-5 rounds only to be rejected)…it WILL work out! A couple of things I learned along the way:\n\n- have your “tell me about yourself” story DOWN…and tell it like a story! this not only makes it engaging, but gives them more insight on you and your personality. Be sure to at the end of your spiel tie in why you’re excited about that particular role. You will be asked this by every interviewer, guaranteed.\n- it’s cliche, but the STAR method is imperative when answering behavioral questions. My advice is to pick 3-5 competencies (aka soft skills) that you posses and a strong story about each. FOR EXAMPLE… “tell me about a time you pushed through a difficult situation” would fit the competency of adaptiveness or tenacity. Have a story on hand when you had to adapt. What was the outcome? If you have specific numbers, include them.\n- in most cases, the soft skills matter more than the technical. if you do not necessarily have a technical skill, approach your answer with what you WOULD DO or what you’re working on to achieve said skill (taking courses? reaching out to colleagues?)\n- make a 30/60/90 day plan: what do you plan to accomplish in your first 90 days at the role? This doesn’t have to be correct, it’s just showing initiative that you researched the role and are willing to be proactive in your learning.\n- if it is a sales role (although I think this is great for any job tbh) YOU MUST CLOSE! My go to line is “Look (name), I know we’ve only had X time (ie 30 minutes) to talk and that’s not a lot of time to get to know someone, but is there anything that would prevent you from moving me forward to the next round?” Or similar. Basically, your last question to them needs to be confirming that they do not have any more questions. And if they do have questions, address them! \n\nLet me know if you want more tips. I know it’s rough out there and it feels never ending at times, but please do not give up!!",
+      "subreddit": "interviews",
+      "score": 804,
+      "url": "https://reddit.com/r/interviews/comments/1hlgdu2/finally_got_an_offer/",
+      "comments": [
+        {
+          "body": "I’m seeing a lot more of these “I got an offer” and I’m so happy for everyone. I hope the good luck keeps spreading to others who are feeling hopeless.",
+          "score": 67
+        },
+        {
+          "body": "Congrats and awesome advice!! Best of luck in your new role. Hopefully you can really enjoy the holiday season and new year now",
+          "score": 12
+        },
+        {
+          "body": "Congrats",
+          "score": 3
+        },
+        {
+          "body": "Congratulations!",
+          "score": 3
+        },
+        {
+          "body": "Congratulations! Well done!",
+          "score": 3
+        },
+        {
+          "body": "Gz. I think the “tell me about yourself” one is the most important. Rehearse it until it becomes memory.",
+          "score": 2
+        },
+        {
+          "body": "I’ll be saving this post for future reference!",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "I messed up and lost to someone younger than me I’m so embarrassed and sad",
+      "body": "I just interviewed at McDonald’s and I stuttered so much and kept repeating things because my brain short circuited and I forgot what I said. I was rambling at times and I called one of my ex colleagues a little mentally disabled 💀 (she was but idk if there’s a nicer way to say it)\n\nThere was a 16 yo high schooler who went before me and her answers were so great. At the end the recruiter gave her training times, asked her if x was okay, said there’d be a second interview, and offered her a drink. As for me they just told me they’d be in touch next Thursday 💔 I kind of hate myself why am I so stupid I’m 18 I’m an adult I should be more put together than a kid",
+      "subreddit": "interviews",
+      "score": 74,
+      "url": "https://reddit.com/r/interviews/comments/1ppelnb/i_messed_up_and_lost_to_someone_younger_than_me/",
+      "comments": [
+        {
+          "body": "You got to play your game and not worry about their game.  16 year old kid looking for pocket change has zero pressure. You are earning. A living. Big difference in stress.  Now it’s time to hit Wendy’s, Burger King, loes, Home Depot and ever other place. Print out resumes and hand deliver to the stores. talk to store managers, shake hands.  Every person you talk to builds confidence.",
+          "score": 54
+        },
+        {
+          "body": "Bruh don't beat yourself up, interview anxiety is real and happens to everyone. That 16 year old probably just had less pressure on herself since it's likely her first job ever while you're probably overthinking everything as an \"adult\"",
+          "score": 44
+        },
+        {
+          "body": "It's OK. Practice makes perfect, interviewing will get easier as you go. Just remember to stay positive and try again.",
+          "score": 16
+        },
+        {
+          "body": "don't worry, this happens to people much much older than you...since you're young, just learn from this experience and don't make the same mistake next time...",
+          "score": 9
+        },
+        {
+          "body": "It’s okay! Try practicing. You’re not stupid. I talk to people with no cognitive issues who I’d say are stupid! You got this. Prep and you’ll be good to go next time.",
+          "score": 8
+        },
+        {
+          "body": "It's literally McDonalds, don't trip big dawg, heaps of options out there for beginner jobs.",
+          "score": 8
+        },
+        {
+          "body": "YouTube Interviewing skills. Try CareerVidz, plus many more. Look up the company you’re interviewing with on TikTok and Reddit…\nI’m over 50+ and been practicing interviewing skills.",
+          "score": 6
+        },
+        {
+          "body": "I’m 28 years old and no matter how much I practice and study and practice some more, I turn into a big ball of mush during interviews",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "title": "Are they allowed to ask me if I have kids at an interview? ",
+      "body": "So last week I had an interview, when I arrived the guy offered me coffee and I said no thanks. Then he said “for me with the kids I have to have my coffee… do you have kids?” I felt a knot in my stomach but I answered because it’s a great opportunity “yes”. And then he told me about his kids and asked me how many I have… I answered. And he then asked how old they were… I answered again feeling like I didn’t have a choice. The interview went well but it bothered me because he then said (while talking about my job history) “so you said your youngest is X age so I’m just calculating in my head here”… it felt weird that he would bring up my personal family life while talking about work experience. The job is a great opportunity with lot of long term potential, what do you guys think? \n\nI definitely feel like it was a trap to get me to give him the information in a “it wasn’t officially during the interview” because it was before when it was just him and I. No matter what I said about the coffee he would have pitched the “I need coffee with my kids tell me about your kids”. AM I OVERTHINKING ",
+      "subreddit": "interviews",
+      "score": 68,
+      "url": "https://reddit.com/r/interviews/comments/1hbmo8z/are_they_allowed_to_ask_me_if_i_have_kids_at_an/",
+      "comments": [
+        {
+          "body": "Inexperienced interviewer. He was trying to make small talk and entered unprofessional territory instead.",
+          "score": 148
+        },
+        {
+          "body": "As a mom of three under ten, I don’t think your overthinking, and I completely get your concerns with kids being brought up in interview",
+          "score": 37
+        },
+        {
+          "body": "They say that men earn more when they become dads and women earn less when they become moms. When I was married (am divorced now) I joked that my husband needed to really ham up the dad talk and I had to act like I was single and never mention my baby to maximize our earning potential 🤣",
+          "score": 29
+        },
+        {
+          "body": "It’s a red flag, but focus on whether the role feels right for you.",
+          "score": 36
+        },
+        {
+          "body": "That’s actually an illegal interview question. Definitely hard to approach because you’ll sound like an AH if you say “that’s illegal”, but since it’s potential for discrimination parental status is ‘protected class’. Sounds like it went okay though if he was talking about his kids as well! Good luck",
+          "score": 18
+        },
+        {
+          "body": "It may be a red flag or it may be an awkward interviewer.",
+          "score": 6
+        }
+      ]
+    },
+    {
+      "title": "Offered job but… ",
+      "body": "So I applied for a job, 3 hrs later was called for an interview, interviewed the next week and was told there was one more interview the following week and they would get back to me. Well next day called and offered the job. At the end of the interview the director asked if the salary range was acceptable to me which it is. They came back and offered me a salary of $9/hr paycut and I was offered the chance to “counter” which I did, at my current hourly (why would I take a pay cut?) which is within the stated salary range…. Now two days later and continued radio silence. Why say the salary range is x -z but then not be willing to pay any amount within the stated x-z range makes no sense to me. Essentially only willing to pay up to the midpoint value of the payscale range and that “took special approval” What am I missing? Also for funsy info I was offered the job on Friday, looked on indeed and the job was again posted SAME day but there is only ONE position open…. Not feeling optimistic \n\nUpdate: HR called with the counter to my counter, came up by $2/hr resulting in still a $7/hr paycut \n\n2nd update: no longer considering the “opportunity “ dont want to work where time, talent, and experience aren’t fully appreciated. Onto the next!\n\nFinal update: did for fun email HR back and said there was simply no way I could make the offered salary work and countered back, currently I work 72 hrs PPD this would be 80, so countered back with what would be a slight annual salary increase but still an hourly paycut. Response back from HR was thanks for letting me know and keep our company in mind for the future! Um… pass lol ",
+      "subreddit": "interviews",
+      "score": 167,
+      "url": "https://reddit.com/r/interviews/comments/1b807a7/offered_job_but/",
+      "comments": [
+        {
+          "body": "This definitely isn’t a good sign before you even start the job. They shouldn’t have said a salary if that’s not what they were willing to offer you. I would think long and hard before taking this job because it definitely sounds like they’re into some shady activity before you even start.",
+          "score": 97
+        },
+        {
+          "body": "I'm sorry that this is happening. But the bait and switch would be very concerning to me. People often apply for jobs based on salary range. Nobody wants to take a pay cut. If they can't even honor the range they quoted you, just move on and look for an organization that will. Thinking good thoughts for you.",
+          "score": 29
+        },
+        {
+          "body": "Never take a paycut, ask for 30% more than your current pay... Else walk away",
+          "score": 13
+        }
+      ]
+    }
+  ]
+}

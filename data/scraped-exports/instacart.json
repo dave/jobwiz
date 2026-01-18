@@ -1,0 +1,542 @@
+{
+  "company": "instacart",
+  "post_count": 24,
+  "exported_at": "2026-01-18T17:44:53.283Z",
+  "posts": [
+    {
+      "title": "Comprehensive list of resources to prepare for job and overview of experience, compensation, and startup equity offers (currently in Bay Area - most companies are HQ'd in Bay Area, but positions are remote)",
+      "body": "Disclaimer: this is a separate account I made so people can't trace this account back (I know labor laws allow talking about compensation, but just in case) :D\n\nHappy Friday! I've found lots of useful advice on Reddit, so I figured I'd do my part to contribute to the community. A lot of the technical info here might be relevant just for computer science students or tech workers, but I think the general compensation discussion is a bit more generalizable to other jobs - so feel free to share this to other communities if you think it might be useful elsewhere.\n\nThis ended up being a lot longer than I thought it would be when I started writing this, so I'll put this up top so it's clear to people:\n\n1. Know your worth! If you get low-ball offers, you don't need to accept them.\n2. Interview/look around when you don't need to. Point 1 above is much more difficult to follow if you're desperate.\n3. Question I want to hear your opinions about: how much is a reasonable base salary and amount of equity to expect at ***small*** startups? I feel like I'm getting low balled, but maybe I just have unrealistic expectations for what early stage startups typically offer. I also did lots of research, and what I've found so far at the end of this post.\n4. I included ranges for equity offers I've received, along with ranges for base salary. I also included links to sites that have this info, but if you're currently working at a startup, have worked at a startup, or received an offer from a startup, I think it would be useful to start a thread below with rough numbers **so other people can also evaluate their offers/current compensation** and figure out if they're being low-balled.\n5. I also included resources I've been using to prepare for technical rounds - keep in mind that I didn't just cram this into a 2 week period, I've been using these sources little by little over the past 2 years.\n6. I got tired typing all this out, so I'll add anything I forgot or fix any links later. Lmk if there are any other question you'd like me to answer!\n7. I hope this post helps other people figure out their own career :)\n\n# Background\n\nAround 4 yoe with 2.5 years at a large FAANG company (SWE), short stint at startup (no defined title, but did automation, data processing, whatever the CTO wanted, etc.), and another FAANG offshoot before (QA role). Current and previous FAANG positions both contract, internship was unpaid. Did not do CS, but did do a BS and I just say that (almost nobody has asked about college during the interviews, so I don't think this matters for me anymore). Major projects I've been involved in at work include creating an automation framework to update db after schema update, writing scripts to automate slow tasks that would take 30-45 minutes (that now take 45ish seconds), and a crawler variation to do some research for my team (all projects I designed and implemented from scratch by myself). Typical work involves preprocessing text and extracting info from unstructured text, occasional rails and ruby work, and a small docker app.\n\nEven though I didn't do CS, I'd say my foundational CS is very solid, and I'm fairly confident working with problems that involve hash maps, binary trees, dfs, bfs, pre/in/post order tree traversals, tries, topological sorting and shortest path (a bit shaky on negative cycle questions, but those didn't come up). I'm also fairly good at recognizing common dynamic programming problem variations such as knapsack, minimizing/maximizing values, finding X in some window of size k, but I get tripped up on problems that require specific algorithms or background.\n\nI'm not sure how to describe my knowledge of string and array problems, since there are soooo many different variations of them. 😂 Also, not as confident about greedy problems. For those of you curious about how many Leetcode problems I've done, I'm at around 600ish problems right now, but I did these over a span of more than 2 years, so it's a pretty leisurely pace (average of less than 1 problem a day over 2 years).\n\nThe feedback I'm getting seems to be somewhere along the lines of \"You would pass with flying colors for a junior role but we think you're not quite at a senior level yet\" - which is a bit annoying, but I guess I need to hone my problem decomposition skills more. I ***consistently*** get feedback that I'm great at communicating, so I think it really is just explaining my solution to problems in a better way.\n\n# Interviews\n\nMostly interviewing at smaller to mid-size companies, ranging from 10ish people (a lot of the places) to 200ish people (1 company), and the rest are in between. I've been doing all the technical rounds in python since that's the language I'm most comfortable with, and here's a summary of the technical questions I've gotten:\n\nTypes of questions:\n\n* typical Leetcode questions, and for most of the questions I got, you could get by if you have a solid understanding of hash maps, recursion, and strings\n* some questions required a good understanding of OOP to answer properly (e.g. inheriting from an object provided by a python standard library and adding functionality to it)\n* I got 2 questions about concurrency/threading - I wrote out fully working code for one of them (kind of like designing a system to allow a variable number of workers to process tasks from a work queue in parallel) and mocked the concurrency part for the other (e.g. think how you would manage logic for events that can read and write to a shared resource - I didn't remember how to use the `lock` provided by the `threading` module so I had to mock that part)\n* most system design rounds have been pretty closely related to the kind of work the team I would be joining does, or related to the industry the company is in - I had one system design question that was unrelated to the team/company, but the question was designing a message app for a specific use case, so it wasn't something crazy\n* some questions were problems that seemed similar to the type of work I expect the company works on and not necessarily Leetcode problems, but Leetcode definitely helped me structure my thoughts and think of a solution\n* only had 1 question that I thought was a ridiculous question: [https://leetcode.com/problems/regular-expression-matching/](https://leetcode.com/problems/regular-expression-matching/) \\- I think this was ridiculous because the company had 5(ish?) people total and 2 engineers, and the work the company was doing is not related to parsing text or any sort of natural language processing so this seemed like a ridiculously challenging question to expect interviewees to answer (I got a somewhat brute force solution, but it didn't address all the cases - did not move past the technical screen 😂)\n\nBehavioral questions are typical questions like\n\n* Why do you want to work here at company X?\n* What are things you are looking for in your next role?\n* What kind of work are you interested in doing?\n* What does success look like for you in 4-5 years? (as in, what would you like to be, e.g. an architect, a manager, an engineer, a product manager, ...)\n* Tell me about a time you took the initiative to do something/tell me about the most challenging thing you've worked on/tell me about an experience you are proud of.\n* What would you say is your biggest weakness?\n\nAnd some more behavioral/technical questions that are specific to the company/industry.\n\n# Interview Feedback\n\nThe companies/recruiters don't always provide feedback, but usually if there is feedback, it has been similar to how I think I did (e.g. if I think I did poorly on the coding portion, feedback usually is the same, if I think I did really well, feedback is usually the same - the behavior portion seems to have gone well almost everywhere).\n\n1 notable exception to this (just an anecdote, feel free to skip if not interested): I had 2 technical rounds back to back, and I thought I did poorly on the first, and did well on the second. The first question was a dynamic programming question, and I didn't realize it was a dp question until the very end when I asked the interviewer for feedback (this was the one I was convinced I failed). The second question was one of the concurrent questions I mentioned before, and I thought I did well on this part - only question I asked was a clarifying question about if we should use locks or not since the CPython implementation has the GIL so we won't have \"true\" concurrency, and then proceeded with the problem mostly fine - there was a bug where I didn't put all the things that I should have \"locked\" inside the mock lock I was using, but I fixed this when the interviewer poked me about an edge case. The feedback for the first interview was along the lines of great communication skills, borderline, but ultimately the lack of working solution meant (or implied?) no pass, which was surprising to me since I thought I did poorly here. Second round feedback was along the lines of I needed a ton of help to get started - and I was like (????????). The only major question I asked was about locks/GIL/concurrency, but I didn't really ask for help otherwise - this was really confusing feedback for me and I wondered if they mixed me up with some other candidate.\n\nOtherwise, it seems like I'm pretty consistently above the junior level, but not always at the expectations for senior roles. I think this is pretty good for 4 yoe, but a bit annoying since I don't want to accept a new position as a junior engineer when I'm already a borderline senior engineer - so I'm kind of in a tricky in-between phase.\n\n# Offers (so far)\n\nNot sure what to expect, but I kind of feel like all of the ones I've received so far are lowball offers. Base salaries range from 120k-140k, and equity ranges from 0.1%-0.00009% (stock options, and strike prices range from $3.50 to $4ish). Company stages range from Seed/close to Series A to Series B/closing Series C. I know startups don't always have a high base salary, but most of the companies I've been talking to have brought up (multiple times) how they've raised millions of dollars in funding and the company has great trajectory. For the smaller companies that are still around Seed/Series A round, I was expecting to get a lot more than 0.1% equity given that the companies are still small (less than 10 people), base salary is kinda low, and I expect work life balance to be WORK ~~life.~~ Am I expecting too much equity, or does this seem like reasonable expectations for an early engineer at an early stage startup?\n\nI (??think?? I) believe the trajectory part for most of the companies, since I'm familiar with the work they're doing (or I researched the work they're doing, and it seems promising), but BOTH the base ***and*** equity seems really low to me for an engineer at an early stage startup. The position titles I interviewed for have mostly been Senior Software Engineer (or slight variations of it, or not explicitly titled as \"senior,\" but responsibilities and experience definitely makes it look like a senior position). However, when it's come to the offer, they cited that they're paying the market rate for someone with my experience (4 yoe, mid-level engineer). However, this seems to contradict the title the type of engineer they were looking for (senior), as well as the responsibility that seems to be associated with the position. These companies are also all based in the Bay Area, and the median base salary for Bay Area is typically around 160k for mid-level engineers, so I feel like the offers aren't even competitive with mid-level roles (I included lots of links about salary/compensation at the bottom for reference).\n\nIn some cases, I've looked up the position on various places (Angellist, Triplebyte, other results on Google), and found the job description by the SAME company, WITH salary ranges and equity ranges, and the offered salary is lower than the lower end of the posted salary range and the equity offer is lower than the lower end of the equity offer. I'm including this here because I think this is an important detail, and **I'm not really sure if this is a common tactic companies use, or just an obvious red flag**. For reference, most jobs include a range somewhere in the initial job posting when they reach out to me, or mention the range at some point during the initial conversation. One of the places I got an offer from cited 150k-200k, and I'm pretty sure this was referring to base salary, so I'm kinda annoyed at the offers I've received right now.\n\nI know I only have\"4 years of experience,\" but I've been spending a lot of time learning about the inner workings of python, large scale systems, challenges of parallel and/or concurrent processing, and architecture patterns, so I would conservatively classify myself as ***at least*** a mid-level engineer at most places, and a senior engineer at smaller places (see the sources I've been using that I referenced in the technical resources section near the end to get an idea of what I've been looking at). My interview performance has also been solid for the places that have given me an offer so far (based on explicit feedback from the company), and some of them have even contacted me multiple times and told me they're really excited to work with me and that they think that I would be a good fit. BUT, I feel like the offers don't really reflect what they're saying. Is this just another case of trying to hire senior engineers for mid-level/entry level pay?\n\n# Making a decision\n\nI haven't decided where I want to work next, and I still have a couple more offers I expect to receive along with a few more interviews I might do. I did include the ranges for the offers I've received so far, but I won't include the exact numbers to avoid getting traced.\n\nFor the more experienced engineers on this subreddit, can you provide some insight on how you would approach the offers? I realize base might be a bit lower at smaller companies, but the postings for the companies have generally cited ranges that are much higher than what they're offering. I'm also really unsure about the options - there's info about base salary, but barely any info about options, so I feel like a strike price of $3 to $4 is really high - do you also think this is a really high strike price, or is this reasonable?\n\nThe main thing I'm looking for in my next role is autonomy and growth, and all the places I've interviewed at have this, so the deciding factor is probably going to be total compensation for me. Should I take a risk and join one of the smaller companies, or should I just play it safe and interview at an already public (os soon to be public) company? The reason I didn't already do that was because the salary ranges I was seeing for positions at smaller companies (the 150k-200k I mentioned) seemed pretty competitive and I also thought I could grow much faster, but the actual offers they've made are much lower than what they advertised. I would rather take a slightly slower career path if that means I'm not getting lowballed and exploited, so it's not like I'm interested in working at only small companies.\n\nEven though I'm at a very large company right now, since I'm on contract, I make less than 6 figures right now - so I can't really use that at leverage. I know, I know, I should definitely be making more at a FAANG, but contracts are garbage and I couldn't negotiate - I put up with it since I wasn't really looking to change things up in the middle of the pandemic, and the work I'm doing now is pretty chill. \n\nWould you recommend trying to negotiate a higher compensation at the current companies or just trying to apply at larger companies? I've already tried pushing for more equity, but it doesn't seem like the companies that made the offer want to negotiate even the equity, so I don't think I'll be able to get much of a bump in base either (also doesn't seem like they're offering a sign-on bonus). If you were in my position, would you just apply to more established companies and accept an offer from there? e.g. Uber, Lyft, Instacart, Scale, Pin, Snap, autonomous driving startups, Brex, Stripe, Robinhood, etc.\n\n# Resources for reference\n\nI haven't found a definitive source for startup equity/salaries, but I'll include the sources I've found at the end so anyone else can reference these in the future. I've included technical info that's relevant specifically for CS/SWE directly below.\n\n**Technical Sources**\n\nIf you're just getting started, or aren't in CS/SWE but would like to see what it's like, I'd recommend:\n\n* [freeCodeCamp.org](https://freeCodeCamp.org) ([YouTube](https://www.youtube.com/c/Freecodecamp/videos)) - I'd recommend looking through the videos on YT and picking one that's interesting, then going from there\n* [Programming with Mosh](https://www.youtube.com/c/programmingwithmosh)\n* [Telusko](https://www.youtube.com/c/Telusko/playlists) (go through one of the beginner tutorial series for what you're interested in)\n* [Corey Schafer](https://www.youtube.com/c/Coreyms/playlists) (phenomenal python series)\n* [sentdex](https://www.youtube.com/c/sentdex/playlists) (also has great python videos; project based)\n* [https://realpython.com/](https://realpython.com/) ([YouTube](https://www.youtube.com/c/realpython/videos))\n* [Tech With Tim](https://www.youtube.com/c/TechWithTim/playlists) (livestreams game builds, great projects, very useful beginner series)\n\nIf you're more familiar with CS/SWE, check some of these sources out (sd = system design, dsa = data structures &amp; algorithms theory/actual code)\n\n* [MIT 6.824](https://pdos.csail.mit.edu/6.824/) ([YouTube](https://www.youtube.com/playlist?list=PLrw6a1wE39_tb2fErI4-WkMbsvGQk9_UB))\n* MIT 6.006 ([sitemap](https://courses.csail.mit.edu/6.006/), [2011](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/), [2020](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-spring-2020/)) ([YouTube](https://www.youtube.com/results?search_query=mit+6.006))\n* [Harvard COMPSCI 224](https://www.youtube.com/playlist?list=PL2SOU6wwxB0uP4rJgf5ayhHWgw7akUWSf) (advanced algorithms)\n* [Harvard COMPSCI 229r](https://www.youtube.com/playlist?list=PL2SOU6wwxB0v1kQTpqpuu5kEJo2i-iUyf) (algorithms for big data)\n* [InfoQ](https://www.infoq.com/) ([YouTube](https://www.youtube.com/nctv/playlists)) - tons of real life use cases and architecture stories\n* [Tech Dummies](https://www.youtube.com/c/TechDummiesNarendraL/videos) (sd focus)\n* [Addul Bari](https://www.youtube.com/channel/UCZCFT11CWBi3MHNlGf019nw/playlists) (dsa, ***phenomenal*** explanations for algorithms)\n* [mCoding](https://www.youtube.com/c/mCodingWithJamesMurphy/videos) (advanced python, C++, and niche SWE topics)\n* [Tscoding Daily](https://www.youtube.com/c/TsodingDaily/videos) (guy is making his own language + compiler and streaming his progress)\n* [System Design Interview](https://www.youtube.com/c/SystemDesignInterview/videos)\n* [Gate Smashers](https://www.youtube.com/c/GateSmashers/playlists) (tons of CS info, but a lot of it isn't in English, so probably need subtitles unless you understand him)\n* [Jenny's lectures CS/IT NET&amp;JRF](https://www.youtube.com/c/JennyslecturesCSITNETJRF/playlists) (also has lots of CS info)\n* [Gaurav Sen sd playlist](https://www.youtube.com/playlist?list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX)\n* [sudoCODE sd playlist](https://www.youtube.com/playlist?list=PLTCrU9sGyburBw9wNOHebv9SjlE4Elv5a)\n* [codeKarle](https://www.youtube.com/c/codeKarle/videos) (sd focus)\n* [The Tech Granth](https://www.youtube.com/c/TheTechGranth/playlists) (sd focus + some dsa)\n* [Think Software](https://www.youtube.com/c/ThinkSoftware/videos) (sd focus)\n* [Exponent](https://www.youtube.com/c/ExponentTV/playlists) (interview tips)\n* [Tushar Roy - Coding Made Simple](https://www.youtube.com/channel/UCZLJf_R2sWyUtXSKiKlyvAw) (sd + dsa)\n* Nick White dsa: [Leetcode playlist](https://www.youtube.com/playlist?list=PLU_sdQYzUj2keVENTP0a5rdykRSgg9Wp-), [HackerRank playlist](https://www.youtube.com/playlist?list=PLU_sdQYzUj2nKXYskiYlKQIKknqu4H5ti)\n* [Kevin Naughton Jr](https://www.youtube.com/c/KevinNaughtonJr/videos?view=0&amp;sort=da&amp;flow=grid) (Leetcode dsa focus)\n* [NeetCode](https://www.youtube.com/c/NeetCode/playlists) (Leetcode dsa focus)\n* [take U forward](https://www.youtube.com/channel/UCJskGeByzRRSvmOyZOz61ig)\n* [Pepcoding](https://www.youtube.com/channel/UC7rNzgC2fEBVpb-q_acpsmw)\n* [IDeserve](https://www.youtube.com/c/IDeserve/playlists) (dsa, including some advanced algorithms)\n* [TECH DOSE](https://www.youtube.com/c/TECHDOSE4u/playlists)\n* [https://github.com/donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer)\n* [https://gist.github.com/vasanthk/485d1c25737e8e72759f](https://gist.github.com/vasanthk/485d1c25737e8e72759f)\n* [https://github.com/checkcheckzz/system-design-interview](https://github.com/checkcheckzz/system-design-interview)\n* [https://github.com/shashank88/system\\_design](https://github.com/shashank88/system_design)\n* [https://github.com/codersguild/System-Design](https://github.com/codersguild/System-Design)\n* various engineering blogs (the GitHub links above have lots of examples)\n* [https://www.educative.io/](https://www.educative.io/) (paid, but they have a trial period)\n* [https://www.pluralsight.com/](https://www.pluralsight.com/) (also paid, but also offer trial)\n* [https://www.linkedin.com/learning/topics/technology](https://www.linkedin.com/learning/topics/technology) (also paid, but potentially free if you're lucky and your library has some partnership with them)\n* [https://www.youtube.com/c/interviewingio/videos](https://www.youtube.com/c/interviewingio/videos) (also have their own platform, but prices are really high)\n* building my own mini projects about \"common\" problems to get more first hand experience (url shortener, various types of crawlers, an occasional website 😂)\n\nOther sources I've used in the past but don't use much anymore, but might be useful:\n\n* [https://www.codecademy.com/](https://www.codecademy.com/) (free courses, some of the more comprehensive course need a subscription - they offer a free trial though)\n* [https://www.dataquest.io/](https://www.dataquest.io/) (bit pricey, but I think they also have a trial)\n* probably a bunch of others that I can't think of right now\n\n**Articles specifically about startup equity:**\n\n* [https://blog.wealthfront.com/startup-employee-equity-compensation/](https://blog.wealthfront.com/startup-employee-equity-compensation/)\n* [http://www.startupcompanylawyer.com/2008/03/05/whats-the-difference-between-an-iso-and-an-nso/](http://www.startupcompanylawyer.com/2008/03/05/whats-the-difference-between-an-iso-and-an-nso/)\n* [https://www.startups.com/library/expert-advice/startup-equity-101](https://www.startups.com/library/expert-advice/startup-equity-101)\n* [https://www.productlessons.xyz/article/how-stock-options-for-employees-work](https://www.productlessons.xyz/article/how-stock-options-for-employees-work)\n* [https://www.svb.com/startup-insights/startup-equity/managing-startup-equity](https://www.svb.com/startup-insights/startup-equity/managing-startup-equity?utm_source=startupgrind&amp;utm_medium=paid-syndication&amp;utm_campaign=gb-2021-09-aw-tl-sb-na-na-na&amp;utm_content=managingequity)\n* [https://www.abstractops.com/startup-equity-dilution-calculator](https://www.abstractops.com/startup-equity-dilution-calculator)\n* [https://blog.urlaunched.com/startup-equity/](https://blog.urlaunched.com/startup-equity/)\n* [https://triplebyte.com/startup-equity-value-calculator](https://triplebyte.com/startup-equity-value-calculator)\n* [https://foundrs.com/](https://foundrs.com/)\n* [https://shan.io/startup-equity-calculator/](https://shan.io/startup-equity-calculator/)\n* [https://startupsavant.com/how-to-distribute-startup-equity](https://startupsavant.com/how-to-distribute-startup-equity)\n* [https://www.forbes.com/sites/theyec/2021/08/05/startup-employee-equity-what-every-founder-should-know/](https://www.forbes.com/sites/theyec/2021/08/05/startup-employee-equity-what-every-founder-should-know/#:~:text=Employee%20equity%20is%20the%20practice,the%20employee%20in%20the%20future)\n* [https://carta.com/blog/startup-employee-equity/](https://carta.com/blog/startup-employee-equity/)\n* [https://gusto.com/blog/hiring/introduction-to-employee-equity](https://gusto.com/blog/hiring/introduction-to-employee-equity)\n* [https://techcrunch.com/2020/01/09/deciding-how-much-equity-to-give-your-key-employees/](https://techcrunch.com/2020/01/09/deciding-how-much-equity-to-give-your-key-employees/)\n* [https://review.firstround.com/The-Right-Way-to-Grant-Equity-to-Your-Employees](https://review.firstround.com/The-Right-Way-to-Grant-Equity-to-Your-Employees)\n* [https://theaccountancycloud.com/resources/blogs/the-average-equity-for-startup-employees](https://theaccountancycloud.com/resources/blogs/the-average-equity-for-startup-employees)\n* [https://www.themuse.com/advice/getting-startup-equity-everything-you-need-to-know](https://www.themuse.com/advice/getting-startup-equity-everything-you-need-to-know)\n* [https://www.holloway.com/g/equity-compensation/sections/typical-employee-equity-levels](https://www.holloway.com/g/equity-compensation/sections/typical-employee-equity-levels) (gives actual percentages for equity)\n* [https://blog.hubspot.com/sales/startup-equity](https://blog.hubspot.com/sales/startup-equity) (also includes some rough numbers)\n* [https://www.quora.com/How-many-stock-options-should-the-first-5-10-employees-of-a-startup-get-if-the-post-money-valuation-is-10-million](https://www.quora.com/How-many-stock-options-should-the-first-5-10-employees-of-a-startup-get-if-the-post-money-valuation-is-10-million)\n\n**Salary/compensation sources:**\n\n* [https://www.levels.fyi/](https://www.levels.fyi/) (not focused on startups, but I think everyone should know about this)\n* [https://h1bdata.info/](https://h1bdata.info/) (gives exact numbers, but only includes base)\n* [https://www.payscale.com/research/US/Country=United\\_States/Salary](https://www.payscale.com/research/US/Country=United_States/Salary)\n* [https://www.payscale.com/research/US/Employer=Google%2C\\_Inc./Salary](https://www.payscale.com/research/US/Employer=Google%2C_Inc./Salary) (same source as above but with example filter)\n* [https://www.salaryexpert.com/salary/job/software-engineer/united-states/california](https://www.salaryexpert.com/salary/job/software-engineer/united-states/california)\n* [https://au.hudson.com/insights/salary-guide](https://au.hudson.com/insights/salary-guide) (for Australia)\n* [https://topstartups.io/startup-salary-equity-database/](https://topstartups.io/startup-salary-equity-database/?stage=Seed&amp;stage=Series+A&amp;company_size=1-10+employees&amp;company_size=11-50+employees)\n* [https://topstartups.io/startup-salary-equity-database/?stage=Seed&amp;stage=Series+A&amp;company\\_size=1-10+employees&amp;company\\_size=11-50+employees](https://topstartups.io/startup-salary-equity-database/?stage=Seed&amp;stage=Series+A&amp;company_size=1-10+employees&amp;company_size=11-50+employees) (same as previous link, but with an example filter)\n* [https://angel.co/salaries/software-engineer](https://angel.co/salaries/software-engineer)\n\n**Negotiation articles:**\n\n* [https://candor.co/guides/salary-negotiation/](https://candor.co/guides/salary-negotiation/)\n* [https://haseebq.com/my-ten-rules-for-negotiating-a-job-offer/](https://haseebq.com/my-ten-rules-for-negotiating-a-job-offer/)\n* [https://haseebq.com/how-not-to-bomb-your-offer-negotiation/](https://haseebq.com/how-not-to-bomb-your-offer-negotiation/)\n* [https://blog.nindalf.com/posts/tech-interview/](https://blog.nindalf.com/posts/tech-interview/#design-interview)\n* [https://www.kalzumeus.com/2012/01/23/salary-negotiation/](https://www.kalzumeus.com/2012/01/23/salary-negotiation/)\n* [https://www.interviewkickstart.com/blog/salary-negotiation-for-software-engineers](https://www.interviewkickstart.com/blog/salary-negotiation-for-software-engineers)\n* [https://fearlesssalarynegotiation.com/salary-negotiation-guide/](https://fearlesssalarynegotiation.com/salary-negotiation-guide/)\n* [https://simpleprogrammer.com/salary-negotiation-software-developers/](https://simpleprogrammer.com/salary-negotiation-software-developers/)\n\n**Things to consider asking the team/company before making a decision:**\n\n* [https://github.com/viraptor/reverse-interview/blob/master/README.md](https://github.com/viraptor/reverse-interview/blob/master/README.md)",
+      "subreddit": "cscareerquestions",
+      "score": 57,
+      "url": "https://reddit.com/r/cscareerquestions/comments/tc5bpq/comprehensive_list_of_resources_to_prepare_for/",
+      "comments": [
+        {
+          "body": "Compensation thread (if you're not comfortable sharing exact numbers that's fine! I'm not either, and I'm just going to provide ranges):",
+          "score": 6
+        },
+        {
+          "body": "Ty for this. I'm graduating this semester and all this info is super helpful.",
+          "score": 6
+        },
+        {
+          "body": "Wow thanks a lot for this! I’ll be referring to this a lot over the next two months.",
+          "score": 3
+        },
+        {
+          "body": "[removed]",
+          "score": 5
+        },
+        {
+          "body": "This is a GREAT POST, TYSM",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "I interviewed with ~20 companies for a Senior Software Engineer position in Bangalore and Toronto - Here is a list of questions I was asked",
+      "body": "Hello folks, \n\nI stumbled across [this older post](https://www.reddit.com/r/cscareerquestions/comments/apu3ni/a_list_of_questions_i_was_asked_at_top_tech/) on r/cscareerquestions, and wanted to share some questions I was asked during my recent interviews as well. I decided to switch jobs earlier this year and interviewed with multiple companies in Bangalore(India) and Toronto(Canada). The following are some of the companies I tried (all non-FAANG):\n\n1. Atlassian\n2. Shopify\n3. Swiggy\n4. Instacart\n5. Okta\n6. Borealis AI\n7. Arista Networks\n8. PaytmLabs\n\nThe following is a (non-exhaustive) list of questions I was asked during different rounds.\n\n**Coding**\n1. Find word in a 2D matrix\n2. Top K frequent words in a list\n3. Find median for a stream of integers\n4. LRU cache\n5. Least Common Ancestor in n-ary tree\n6. Closest element in BST\n7. [Print numbers in sequence using 2 threads - one for odd and one for even](https://knpcode.com/java-programs/print-odd-even-numbers-using-two-threads-java/)\n\n**CS + Programming Language fundamentals**\n(My language of choice was Java)\n1. How are indexes implemented in a SQL database? How do reads/writes work with indexes? (This was the most common question asked across all the companies)\n2. What is the `volatile` keyword in Java?\n3. What are the different transaction isolation levels in a SQL database? (Followed by probing questions on some of them)\n4. How does a `ConcurrentHashMap ` work in Java?\n5. Explain CAP theorem and eventual consistency.\n6. Garbage collection\n\n**System Design**\n1. Design a pub-sub system without persistence\n2. Design a URL shortener\n3. Design a email/messaging system\n4. Design Quora feed page\n5. Design a system for processing jobs(whose information is stored in a database) in an exactly-once fashion\n6. Design a Youtube clone\n7. Design a Json Parser\n8. Design a data pipeline for a Machine Learning system\n9. Design a multi-level cache\n\n**Behavioral/Managerial Rounds**\n1. What is the most difficult technical challenge you've solved?\n2. Tell me about a recent project that you are proud of. Why are you proud about it?\n3. How do you mentor other engineers in your team?\n4. A time when a deliverable got delayed - 1. not because of your fault (eg. requirements changing) 2. because of your fault - How did you handle it? How did you communicate this to impacted teams? What did you do to ensure it doesn't repeat?\n5. What challenges are you looking for, in your next company?\n6. Tell me something that's not on your resume.\n\nEdit:\nI am a computer science graduate with around 8 years of experience, since some folks in the comment wanted to know.",
+      "subreddit": "cscareerquestions",
+      "score": 1254,
+      "url": "https://reddit.com/r/cscareerquestions/comments/ek6mik/i_interviewed_with_20_companies_for_a_senior/",
+      "comments": [
+        {
+          "body": "I documented the interview experiences in my blog ([https://www.soberkoder.com/interview/](https://www.soberkoder.com/interview/)), and this is a more extensive list of all the questions I was asked. Hope you find this helpful for your preparation, if you are planning to interview in the near future. (I feel the content in the blog is too big to share in this post, hence sharing a link)",
+          "score": 137
+        },
+        {
+          "body": "Jesus. Is this for a mid or senior position?",
+          "score": 305
+        },
+        {
+          "body": "Wish someone would make a detailed post like this for 1 year experience newbies.",
+          "score": 67
+        },
+        {
+          "body": "&gt;Design a URL shortener\n\nIs the answer to this just to hash the given URL? I guess if the shortened URLs never expired you can run into collision issues depending on how short the URL needs to be. Or if it needs to be human-rememberable you can do something like gfycat where they combine random words. \n\nWhat is the best answer to this question? I'm intrigued.",
+          "score": 77
+        }
+      ]
+    },
+    {
+      "title": "Passed instacart technical round but only for L3, unsure if this is good for career trajectory",
+      "body": "I'm a SWE with 2 YOE working at a startup. I recently interviewed at instacart for the L3/L4 role, and just received word I passed the HC verdict but only for L3. I suspect this is due to my system design round being a bit iffy. I'm a bit unsure what to do here:\n\n- Having a name like instacart on my resume would be great but after 2 YOE I'd like to jump to an L4 role. Does it make sense to jump to an L3 role just for the name recognition and salary bump? The salary I currently receive is comparable to the base salary range being offered but the RSUs being added would be a considerable bump in my TC.\n\n- I had initially spoken to the recruiter about L4 and being comfortable with the listed salary for it. Now that I'm given the range for L3, I'd really want to try and negotitiate a bit higher than the high end of the range. How receptive would companies be to a number outside of their range? Is it even worth trying?\n\nOn one hand, I'm happy to have an option to join a bigger company, but I'm disappointed to have come up short in my goal for an L4. I'm not sure if I should just try and run with this offer, or to decline and try for an L4 role elsewhere, but no guarantee I can secure an L4 offer in the near future.",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1p3uvjf/passed_instacart_technical_round_but_only_for_l3/",
+      "comments": [
+        {
+          "body": "I’ll tell you what someone told me in basically exactly the same situation.\n\nYou have 2 YoE and leveling means absolutely nothing.  Take the raise, learn some shit and get promoted.",
+          "score": 77
+        },
+        {
+          "body": "Titles are all made up. Compensation is really what matters.\n\nedit: also congrats on the offer. Even at L3, landing an offer from a recognizable name with 2yoe in this job market is worth celebrating.",
+          "score": 50
+        },
+        {
+          "body": "If you failed the system design interview, why do you think you deserve L4? Drop the ego, admit you have a lot to learn, and take the offer.",
+          "score": 69
+        },
+        {
+          "body": "Instacart is resume gold:\n\n- relatable product \n\n- can talk about scale\n\n- can talk about time sensitivity \n\n- deals with sensitive personal data\n\n- has two radically different sets of \"clients\" (shoppers and buyers)\n\nIf you're worried about the future, Instacart will give you challenges to solve that are insanely easy to sell to interviewers.",
+          "score": 15
+        },
+        {
+          "body": "It’s a buyer’s market, you do not have leverage, and L3s are in abundant supply. \n\nIt’s never worth negotiating unless you are okay with losing the offer.",
+          "score": 18
+        },
+        {
+          "body": "You're thinking about turning down a substantial jump in pay, without a substantial jump in responsibilities/expectations, because of a meaningless think like the job title?",
+          "score": 6
+        },
+        {
+          "body": "&gt; Does it make sense to jump to an L3 role just for the name recognition and salary bump? \n\nYes, absolutely. No question. Your ego is an idiot. It's a title which is worth nothing. The salary, the name on your resume, and the experience you'll get are the things of actual value.\n\nTitles don't matter if they don't come with any credibility. A lower level title at Instacart is worth FARRRR more at this stage in your career than a higher level title at a no-name company. The former comes with credibility, the latter does not.",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Instacart HC and waiting for team match",
+      "body": "Hi everyone,\n\nI recently cleared Instacart’s hiring committee for an L3 SWE (Toronto remote) role and moved to the team matching stage. My recruiter said the feedback was strong, but they are waiting for an open team that fits.\n\nIt has been a bit, and I am getting anxious since I do not have other interviews lined up. For anyone who has gone through Instacart team matching, how long did it take and is there anything I can do to speed things up or stay visible?\n\nThanks.",
+      "subreddit": "cscareerquestions",
+      "score": 2,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1osrbzo/instacart_hc_and_waiting_for_team_match/",
+      "comments": [
+        {
+          "body": "Don’t be afraid to reach out for an update.",
+          "score": 3
+        },
+        {
+          "body": "[removed]",
+          "score": 1
+        },
+        {
+          "body": "Did you end up getting a response OP?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Thinking ahead: strategies to position myself for $350k TC in 2-3 years",
+      "body": "I recently landed my first full-time SE role at a fast-growing pre-IPO SaaS startup in the Bay Area. It's a mid-level frontend role with opportunities to get promoted to a Senior in around 12-18 months.\n\nI love the work, get along with my team, and have a great relationship with my manager. Not only that but we're permanently moving to remote work so there's no office to dread returning to. So I'm honestly pretty thrilled that after 8 months on the job market I really landed somewhere cool.\n\nThat said, I also try to be unsentimental about my career, and part of my goal is to maximize my salary and career growth opportunities. (I hope that doesn't sound shallow.)\n\nMy own research has shown that the best way to advance your career at my level is to move positions every 2-3 years or so, and so with this in mind, I'm looking for some advice on the long game and specifically how I can leverage my current role with an eye toward where I'll end up next.\n\nMy goal is to land at a Big Tech position within this time horizon. When I say Big Tech I don't mean FAANG specifically -- in fact, I would exclude Facebook, Amazon, and Microsoft from my list due to their stack ranking systems that would create an unnecessary climate of fear.\n\nInstead I'm focusing on a total comp goal of $350k per year, which I feel is reasonable given my location and the seniority I'll be at by the time I apply. (I'll have about 5 years of eng experience by then if you include former contracting positions.) This opens up positions at a range of companies based on [Levels.fyi](https://Levels.fyi), like Stripe, Instacart, Airbnb, and so on.\n\nI'm looking for feedback on what to do within my current role and career stage in order to position myself for success in landing my next one.\n\nHere are a few things that I've considered:\n\n• **Crush it at my current job.** I feel like enthusiasm is key when companies are evaluating you and nothing comes off better than showing that you're an accomplished engineer who works hard and takes pride in a job well done.\n\n• **Focus on prioritizing outcomes to advance to a Senior.** The time horizon for promotion at my current company is based on performance rather than a fixed timeline. It was emphasized when I was hired that making Senior is an expectation that I'll be held to. My thought here is that if you show that you're promoted quickly, the team recognizes your talent, and this is a strong signal to other potential employers as well.\n\n• **Develop a mature and robust open-source project.** I'm already working on one and my manager is even mentoring me on it. I feel like having your own successful independent project not only is a great way to show off your code, but from my own experience it tends to get people excited when they see that you've really built something up from scratch. That, and it also serves as a catch-all for a lot of behavioral interview questions.\n\n• **Learn a new language.** Right now I only know JS. That's a strength on the one hand -- I've been focused on mastering the language rather than spreading myself too thin -- but it's also a limitation since it can box me into one way of thinking about the world.\n\n• **Start prepping early.** I took a few Big Tech interviews in my last job search and they were really heavy on algorithms and big O notation. This is an area where I still have a long way to go, especially coming from a non-CS background. I feel like it's better to really bake this way of thinking in over time rather than cramming LeetCode and Cracking the Coding Interview like 2 weeks before I start applying, and plus it just builds good habits.\n\nSo that's what I've come up with so far. I'm curious to know if other people in a similar position to me have made the transition themselves to a Big Tech company, and if so how they did it and what it's been like after getting the offer.\n\nWould also love to hear feedback on everything I've come up with myself and am very interested in learning about other strategies that I may not have considered.\n\nThanks for your input!",
+      "subreddit": "cscareerquestions",
+      "score": 8,
+      "url": "https://reddit.com/r/cscareerquestions/comments/o24tt2/thinking_ahead_strategies_to_position_myself_for/",
+      "comments": [
+        {
+          "body": "Just job hop. Study LeetCode and system design. \n\nThat’s it. \n\nAlso, Facebook isn’t great for WLB, but it does pay very well and it promotes rapidly, and it doesn’t have the amazon pip quota. For an early career high performer, there’s probably no better place than Facebook (from a career growth and comp perspective). \n\nMicrosoft definitely doesn’t stack rank and very rarely fires people.",
+          "score": 26
+        },
+        {
+          "body": "You can try to take on my Product/Business/Strategy/Mentorship responsibilities. Focusing on IC engineering work is one path but going towards more of a Tech Lead or Manager role can be an easier path to high TC.\n\nThis could be especially helpful if your a sociable person. I make no where near that TC though so take this with a grain of salt.",
+          "score": 5
+        },
+        {
+          "body": "I think after a certain point you need to stick on a bit longer than 2 years so you can really understand your company's domain and get to the next level beyond just being another developer. If your goal is to reach a leadership position or staff+ level then you need some achievements to back that up and you can't really do that if you're always trying to learn a new company specific tech stack. Imo job hop until you reach the highest terminal senior dev position &gt; stay on a company you like and take on more responsibility &gt; job hop after for higher comp.",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "title": "Triplebyte - Passed the 2hr interview... What are the chances of getting interview calls",
+      "body": "So, I took the 2hr interview test and it went well. I was told that their recruiting coordinator would contact me to get my preferences. Seems like they have a pretty good process on place(they already asked my airport pref.. in case they have to fly me to SFO) , but am just wondering If people actually got calls from YC companies like Airbnb, Instacart, Stripe etc.?",
+      "subreddit": "cscareerquestions",
+      "score": 1,
+      "url": "https://reddit.com/r/cscareerquestions/comments/57k9n7/triplebyte_passed_the_2hr_interview_what_are_the/",
+      "comments": [
+        {
+          "body": "[deleted]",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Haven’t been able to get a job",
+      "body": "Since my parents keep bothering me about getting a job. And I mean any job…. I been applying and tailoring my resume for just about anything. Fast food, cleaning, manufacturing, apprenticeships, barista, various entry level office work, pharmacist technician (I messed up the one interview), post office, warehouse, roofer, driver, CAD technician, baker, various retail positions. I am getting nothing.\n\nNext I tried some gig work. I must be very unlucky. Tried Amazon flex, nothing, door dash, nothing? On a weekend? I don’t live in a metropolis, but come on the city is not that small?! Idk I can try instacart? \n\nNow, my last job was 3 months ago. Well more of an internship that was 3 months. Before that…7 years ago. Soo you can imagine the long gap scares everyone away. Once I get to that topic, which I lie my ass off with gig work. \n\nThe only “jobs” that actually reach out for me, is jobs I know most people don’t want to do, nor my friend would recommend. but it seems to be my only opportunities. \n\nWhich is:\n\nBorder patrol, police (gotta wait for another job recruitment rotation), ICE, PMC (low-to medium risk) security guard (armed and unarmed), range safety instructor. \n\nThe other alternative my one friend said since he said my body is very appealing. Sex work lol. Which eh, not my thing. ",
+      "subreddit": "jobs",
+      "score": 19,
+      "url": "https://reddit.com/r/jobs/comments/1mzh8c2/havent_been_able_to_get_a_job/",
+      "comments": [
+        {
+          "body": "For the unemployment gaps, lie but be smart about the lies! I got canned from a family owned business because I clashed with the owners and I had a 6+ month gap. Told Interviewers that I had to quit due to my family needing me to take care of a relative who got very sick suddenly and they did not even bother me further about it.",
+          "score": 10
+        },
+        {
+          "body": "I’d do campus police, much less risk of being shot at",
+          "score": 8
+        },
+        {
+          "body": "Sometimes the fastest way out of a rut is to get something on your resume again, even if it it isn't perfect...better to grab any stepping stone job first",
+          "score": 7
+        },
+        {
+          "body": "Also most airports have tons of jobs outside of TSA. (Restaurants, transporters, janitorial) Find out who provides temps for the airports or Google your airports jobs.",
+          "score": 5
+        },
+        {
+          "body": "Go to a local community college and get your CNA. Takes about 4-8 weeks. Then you can work in a hospital.",
+          "score": 3
+        },
+        {
+          "body": "ik you’ve haven’t had luck with physical gig work, try remote gig work! i’ve used websites like home from college and extern and have made me a few extra hundred. h/fc especially has been useful for me because i get to work with really cool brands and it’s usually fun work too",
+          "score": 3
+        },
+        {
+          "body": "Yeah bro it fucking sucks trump ruined the econ",
+          "score": 18
+        }
+      ]
+    },
+    {
+      "title": "Unemployed recent grad struggling in this competitive job market",
+      "body": "The current job market has definitely humbled me. I’ve been unemployed since July 2024 (10 months). My last position was a 6-month internship that ended in June 2024. I applied for summer and fall internships from January 2024 to August 2024 but only managed to get two interviews that didn’t work out. I started applying for full-time positions to start my career after graduation in September 2024 and have been ever since. I graduated in December 2024. It felt amazing in the moment because it was a long time coming for me. I’m an older graduate who dropped out in 2020 and went back to complete my studies in 2022. It feels so anticlimactic now because my degree is just collecting dust in a frame in a cardboard box.\n\nI’ve managed to stay motivated to apply for jobs every week, update my LinkedIn, go to networking events, reach out to recruiters, and create a portfolio website. At this point, it just feels like all the work I’ve put in hasn’t amounted to much so i’m starting to lose motivation. I’ve only had 3 interview requests so far. The first company ghosted me after two interviews, the second company went with another candidate, and still waiting to hear back about a second interview with the third company. Even though I know the rejections aren’t personal, it’s so hard to stay positive because after a while rejection does start to get to me. Unfortunately is a trigger word for me now tbh. I can’t help but think about what I could be doing wrong or what more I could do to stand out among hundreds of applicants.\n\nThere are days where I have to step back and take a break from job searching because I get so depressed and overwhelmed. I also feel stressed because my unemployment benefits ended a few weeks ago, the 6-month grace period for my student loan payments is almost up, and I turn 26 this year so I could lose access to health insurance. Sometime I just want to give up because I feel so hopeless. I’m not even just applying for jobs to start my career. I have a separate resume to apply for retail and food service jobs that I could do for now but I haven’t even managed to hear back from anywhere I applied to. I am currently an Instacart driver to make some money in the meantime but it just really sucks that this is all I can do right now. I am extremely lucky to have understanding parents who can support me financially during this time but I still feel like a financial burden. I just want to be independent and make enough money so I can start saving to move out. I just feel stuck, but I know I have to keep going and be patient because this is only temporary. The pit of despair will not break me!\n\nSorry for the long rant but fellow unemployed people going through something similar just know you’re not alone and I hope things get better for all of us. ",
+      "subreddit": "jobs",
+      "score": 18,
+      "url": "https://reddit.com/r/jobs/comments/1jzdo73/unemployed_recent_grad_struggling_in_this/",
+      "comments": [
+        {
+          "body": "Yep, I absolutely hate the word \"unfortunately\" now. \n\nIt sounds like you're doing all the right things and I would just say hang in there. I'm probably close to your parents' ages and I've lived through a couple of time periods where the job market was rough. It isn't you, it's the market.",
+          "score": 5
+        },
+        {
+          "body": "&gt;The pit of despair will not break me!\n\nThis is the right attitude right here.  The market is crap right now.  When you apply to hundreds of jobs, it also means that you are going to be rejected hundreds of times.  That kind of thing wears you down.  I don't care who you are.  At the end of the day though, your resilience is key.  There is no other alternative.  You have to find employment.  Giving up isn't an option.  You know this, and your approach is a good one.\n\nJust keep doing what you have been doing.  Networking events, recruiters, and so on.  You will land something.  \n\nIf you are applying and not getting any interviews, post your redacted resume to r/resumes for some feedback\n\nIf you are applying and getting interviews but no offers, ask a peer, friend, or mentor to do some mock interviews with you.  \n\nKeep you chin up.  You will make it.",
+          "score": 4
+        },
+        {
+          "body": "I’m in the same boat as you, OP. I’m a May 2024 grad and I’m still struggling to find gainful employment in my field (marketing/comms) and even jobs outside of my desired field. (I’m looking into administrative and clerical work as well and am considering exploring Human Resources as a career too). I’m currently working a part-time retail job and am also desperate to save up and move out on my own again soon. (I had to move in with family due to financial struggles). I’m also feeling more depressed and discouraged with each day and want to give up but know it’s not an option. In an ideal world, I’d settle for a full time retail, restaurant, or warehouse job and give up searching for career positions in favor of revisiting the job market in a few months but I know I’d be doing myself a massive disservice (in addition to slipping further in my current depressive episode) by giving up. It’s a brutal job market out there, but I want you to know you’re not alone in this.",
+          "score": 3
+        },
+        {
+          "body": "Hey, I'm in the same boat. Happy to look over your CV if you'd like? Persistence is key.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "I Finally Landed A Job",
+      "body": "I FINALLY landed a job after interviewing all throughout the summer and applying like crazy😭😭😭...I got 4 job offers (all on the same day lol)  so I am narrowing it down to which job I believe will best suit me in this season. I am super thankful because I was on my second to last unemployment check and instacart hasn't been good to me at all. \n\nI hope everyone gains a financial blessing soon and try to be patient cause your struggle will be over soon! Just hang in there if you are struggling and keep applying if you are trying to find work full time-you got this 🤗",
+      "subreddit": "jobs",
+      "score": 102,
+      "url": "https://reddit.com/r/jobs/comments/15scbx6/i_finally_landed_a_job/",
+      "comments": [
+        {
+          "body": "![gif](giphy|BPJmthQ3YRwD6QqcVD|downsized)",
+          "score": 19
+        },
+        {
+          "body": "when it rains, it pours! congrats op!",
+          "score": 8
+        },
+        {
+          "body": "Good for you !",
+          "score": 3
+        },
+        {
+          "body": "CONGRATS!",
+          "score": 1
+        },
+        {
+          "body": "That's awesome!!! Congrats!!!",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "I left a stressful job with nothing lined up and I’m slowly regretting it. Help.",
+      "body": "I left a stressful job with nothing lined up and I’m slowly regretting it. Help.\n\n\nAbout a month ago, I left my job with nothing lined up for me. I was working as an operations manager in the healthcare industry. I worked tirelessly from 6:30am- 7pm, six days a week. I was paid salaried so there was no such thing as overtime pay. I got paid a decent amount, roughly 65-70k a year.\n\nI hardly took any time off because my company would make you feel horrible for requesting one. One time I requested two weeks off for a family vacation with 7 months notice, only for them to say they won’t have anyone to cover for me and declined it.\n\nI loved my coworkers, but our bosses were not the kindest and didn’t care about us the slightest bit. We were always feeling undervalued, unappreciated, and neglected. Whenever we would propose any ideas or constructive feedback during our department meetings for improvements, our suggestions would always be rejected because “it’s considered complaining.”\n\nAfter 4 years of working in this type of industry, I decided to quit. I couldn’t stand the stress anymore- I was having headaches and migraines every day, I gained 30 pounds from stress eating, I was diagnosed with psoriasis, PCOS, and physically felt like body was giving out. I eventually gave them 6 weeks notice so they had time to replace me while also earned some money as I was looking for opportunities.\n\nWhile having this time off for myself has been mentally refreshing, it has been difficult trying to figure out what my next opportunity would be. It’s been about a month &amp; I didn’t realize how tough job hunting would be this time around. It’s 2023 and there’s an influx of companies laying people off. So far, I have:\n\n* applied to over 100 jobs\n* hired a career coach to help with my job search, updating my resume and cover letter\n* updated my LinkedIn page and slowly creating a website\n* took a certificate course that would improve my resume and gain more experience\n* networked with professionals on LinkedIn\n* applied to retail, Instacart, Amazon flex, and other part time jobs\n\n…however received nothing but rejections. I have not landed a single interview. And I’m getting worried. I fear that I might’ve left my job too soon. I’m constantly stressing and worrying that I might’ve made the wrong decision for myself. Financially, I’m not bad, but not great. I do have $15k in debt with about $2k left in savings. I rent an apartment with my partner who’s been so generous and gracious to financially support us for a while.\n\nIf anyone is out there experiencing something similar, what are some advice you can give or that you’ve done during this hard time? Should I just go back to my old job knowing that I have job security or should I just keep looking?",
+      "subreddit": "jobs",
+      "score": 4,
+      "url": "https://reddit.com/r/jobs/comments/18bab4h/i_left_a_stressful_job_with_nothing_lined_up_and/",
+      "comments": [
+        {
+          "body": "Your health is priceless.  You are worth it.  Take the time to heal.  Step into your power and don’t ever regret your decision.  You’ll find a worthwhile place.  A workplace that doesn’t understand this struggle is a toxic workplace that you wouldn’t want to be in.  Think of it this way.  Wishing you the best.  I’ve taken 2 sabbatical and they were both transformative in my life.  I got to slow down, do new hobbies, read spiritual books, and travel a lot (on the cheap).",
+          "score": 2
+        },
+        {
+          "body": "Hi! I’m in a similar situation as you as well. I couldn’t handle my job anymore and made the decision to quit without anything lined up either. I’ve been looking for months before quitting but i just couldn’t work in that environment anymore i just decided to quit. My last day is this week and I’m excited to have some time to rest but nervous for what is to come. Don’t worry, you will find something that is meant for you! Good things come to those who wait!",
+          "score": 1
+        },
+        {
+          "body": "Remember why you quit, as I’m sure one stress has become another. Also, sounds like you are taking the correct approach with all that you listed. This time of year is tough to land new work, everyone is packing it in for the holidays. Keep applying, networking, and expect it to possibly take till March to get into something new.",
+          "score": 1
+        },
+        {
+          "body": "Sorry to hear this. This is why people always say don’t leave a job till you have one lined up. This is probably the worse job market to do that in. My advice to you is, never work more than you need to. The work will always be there. Since I’ve been on salary I will only work my 40 or less and I don’t care what my boss thinks because work life balance is key. You don’t owe your job anything more than 40 hours. Hopefully you can bounce back soon 2024 is going to be a doozy!",
+          "score": 1
+        },
+        {
+          "body": "So now which is more stressful? just curious",
+          "score": 1
+        },
+        {
+          "body": "You probably should have had more saved up, but I still think leaving your job was the right choice. Horrendous schedule, no time off, horrible bosses.  You don’t have to live that way. Keep plugging away. You’re doing a lot of positive things toward being employed. Maybe sign up for a temp agency while looking for work. The holidays is not a good time to look for a job, so it will probably be rough for a little while longer.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Jobs for 2nd parent",
+      "body": "Okay a bit of background. Wife and I have been Dual Income no kids for the better part of our 20s and 30s. We since have had a child 7 years ago. We were both restaurant managers at a Pizza Chain in our early 20s(not great money but decent for two people with no kids). We both went back to school in our very early 30s and graduated around the same time.  She landed a job on her second interview making similiar money with plenty of upside promotion potential. I on the other hand never landed a job but was promoted once making slightly better money. \n\nWhe decided to have a kid and were able to keep him out of daycare for about 1 1/2 years. I was laid off from my job and was finally able to land a \"better\" job 3 months later. I worked that job for almost 4 years before I got burnt out and quit. My wife agreed to me staying home with kid when he wasn't at school. We both agreed I would do some kinda gig work(instacart or grubhub) to keep up our lifestyle(pretty modest but we would like to go on vacation on occasion and not have to worry about money to much). \n\nAnyways is there something that 2nd parents do will they have a main bread winner in the house. I really have only had two main jobs over the past 30 years. I have had worked about 20 when I was 14-20 usually food and day help for construction. What are other Dual parents doing?\n\nTL:DR just seeing what other parents are doing part time to keep kids out of daycare(we have zero family that can watch him when our of school)?",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/14xyax1/jobs_for_2nd_parent/",
+      "comments": [
+        {
+          "body": "I think your best bet is finding part time or full time remote office work roles. These are the most flexible, and you'd be able to stay home and watch your children more easily.",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Name and Shame: instacart",
+      "body": "**Background**\n\nThis process took over a whole month because the recruiting lady was super unresponsive/slow. I've always had to email her to confirm *with her* whether an appointment was going to happen or not due to rescheduling on their side. I read similar experiences on glassdoor that interviewing for this particular team was a waste of time but I just figured it was bad luck on the reviewer's side and I figured the perks at instacart was too good to pass up so I decided to give it a shot.\n\n**The experience**\n\nApplied for senior position, passed 2 hackerrank tests and phone screen with hiring manager only to be ghosted by the company. Emailed their recruiter last Friday whether there were any feedbacks or updates from my previous phone screen and still no reply. Considering that they are such a huge company I would have expected them to be more courteous about my inquiry. Wasted time and effort. 0/10 experience.",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/9dvpqg/name_and_shame_instacart/",
+      "comments": [
+        {
+          "body": "Holy shit this happens all the time with many different companies.\n\nThese posts are getting out of control.",
+          "score": 23
+        },
+        {
+          "body": "I already know they’re a bad company because their website was a broken piece of shit last time I used it",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "title": "I'm scared - really, really scared",
+      "body": "And I know there are a lot of people worse off than me..... Maybe I'm doing this for therapy - but any ideas would be appreciated...\n\nI'm 59 live in NYC area and have been unemployed for over 4 months.I have two daughters - my oldest has CP and lives with her mother, and the youngest has just gone off to college.\n\nI was divorced 12 years ago (not my idea) - and most of my income has gone on alimony and child support over the years, I rent a small one-bedroom apartment close to my kids so I can be involved in their lives.\n\nI have a career managing development / QA etc, so have had titles like \"director of software development etc\" but haven't written a line of code for over 20 years - the last 6 or 7 years I was a Product Owner (kind of fit well - as I understand business processes and I understand technology and can get the two to talk to each other).\n\nThe company I work for was taken over - and well two into one doesn't go, the atmosphere became toxic as it was \"them against us\", so eventually downsizing meant I was let go.  I have had two interviews in four months.\n\nA couple of comments at this stage  :\n\n1. I don't have a degree - 40 years ago, not everyone went to college in the UK where I grew up - this is probably impacting my ability to get interviews as resume checkers will flag this up.\n2. I am terrible at networking - I haven't done a great job at remaining in contact with colleagues...\n\nI am at all loss - I drive one day a week ubereats / instacart to increase income (as unemployment in NY allows you to work up to 10 hours). My unemployment covers most of my rent - but any savings have dwindled. I have a 401k I am trying not to touch. My ex has been sympathetic - but she needs the $$ for our daughter.\n\nWhere can I find any work? I realize people will say I am over-qualified, but I'd be happy to take on any product / project owner or management type work. Willing to do this as a contractor if nothing full-time.\n\nI'm scared - my unemployment runs out, what do I do then - honestly I'm getting to the point in thinking this is all worthless....\n\nSorry if this sounds like a \"pity me\" type post - I genuinely just want to work to support my kids and have a roof over my head.  \n\n\n**IMPORTANT!!!!!!!!!**\n\n**So someone reached out to me - saying they had read my story, and that they wanted to help with part-time work - they would pay me $400 per week to list some properties etc....**  \n**Desperate me - thought it was genuine, and went back and forth - It's a scam - Google it, please don't fall for this - I typed my email address, and hopefully deleted msg before they read it.**",
+      "subreddit": "jobs",
+      "score": 204,
+      "url": "https://reddit.com/r/jobs/comments/174w0uw/im_scared_really_really_scared/",
+      "comments": [
+        {
+          "body": "Is your 401k ‘retirement sized’? \n\nYou are 59. Maybe you are ready to retire?\n\nAnd are you in NY as in New York city?",
+          "score": 78
+        },
+        {
+          "body": "As someone who just found a job after 4 months of searching, here’s a few things that might help: \n- Job sites were little to no help to me; go straight to the source, research some companies in your area, and apply directly through their sites \n- People pay big $$$ for private tutoring, which you can do without a degree \n- You can absolutely teach without a degree if you teach at a charter school, you may need a state certification which usually just means you study and pass a test (former teacher in TX) \n- In terms of writing cover letters, I found that a mix of 30% AI writing and 70% human writing wielded the best results \n\nGood luck!",
+          "score": 23
+        },
+        {
+          "body": "Try looking for a government job with the state of New York.",
+          "score": 36
+        },
+        {
+          "body": "My mother started a new career at 59.She took a job driving for the railroad company. Just taking the train crew out to their trains wherever theyhappened ot be parked. After 3 years she's now a manager of other peopel who now do that job. She's not rich. But shes enjoying the best income and professional respect of her entire lifetime.\n\nStill lots of good work to be found outside of office rooms and computer screens.  \nJust keep trying. You will work something out.",
+          "score": 10
+        }
+      ]
+    },
+    {
+      "title": "At a lost with job market.",
+      "body": "I applied to almost every retail job in my town because that where I have almost 20 years of experience and I cannot get a callback from one of them. But they are saying they are hiring. I even called the stores themselves and left phone numbers and emails and name. \n\nI took a job in housekeeping just to help pay some bills with doing Instacart. \n\nI’m just at a lost. They all say they are hiring and can’t find people to hire but I can’t even get an interview. The ones I did interview with interviewed me like they were not even considering me. lol I literally applied to all the attt stores in my area and they all said no. One store said no twice. I figured if I didn’t stop applying they would take me. They did not. ",
+      "subreddit": "jobs",
+      "score": 59,
+      "url": "https://reddit.com/r/jobs/comments/1kb0nx9/at_a_lost_with_job_market/",
+      "comments": [
+        {
+          "body": "Every time I call retail and fast food places after applying and not hearing anything, they say they are fully booked with interviews and have nothing available. The only place that got back to me had interviews far away from the actual job location and said they're doing group interviews and would choose the people that \"wow them\". I'm not performing for a circus.\n\nI just went to my town's job fair with my town's Chamber of Commerce and found a few opportunities like working for my town's newspaper and another town's chamber of commerce. Going to chamber of commerce events are gold. Less competition and many job opportunities that aren't shared publicly. Plus they know other local business owners. I even pitched some ideas to help them with their business and they said they would be willing to create a new role or freelance opportunity.",
+          "score": 13
+        },
+        {
+          "body": "Hiring freeze because of Trumps bullshit. \n\nThis is happening all over for open positions because no one knows what the next 90 days is going to look like for their industry. \n\nI have two positions I need to hire for that HR froze. I won't even be affected by tariffs. But it's the same everywhere right now. This on top of it already being a terrible time to be unemployed.",
+          "score": 39
+        },
+        {
+          "body": "I have applied pretty much everywhere within 20miles of where I live and quite a few places even further. Nothing just a ton of rejection emails.",
+          "score": 3
+        },
+        {
+          "body": "Everyone is at a loss. I been unemployed the last decade.",
+          "score": 3
+        },
+        {
+          "body": "Did you try restaurants too? My friend got a job at a Starbucks while in between jobs in his career in another industry.",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "title": "#Resigned from bad karma",
+      "body": "Never did I ever think I would be posting here for a little help, but here we are. I took a job with Wyndham 6 months ago on lies of things are not the way they used to be. LIES…they lie lie lie to sale and even worse with their owners. I could not sell my soul to sale their timeshare. I resigned this past week, however they are holding my last 3 weeks of commission/pay for the next 30-60days. I just need some help so I can pay my rent and car payment while that comes in.  I have 3 interviews lined up and also signed up for #DoorDash/#instacart/#spark. \nI know I’m also going to be in a weird transition when starting a new job with pay etc. Any ideas out there on jobs/ opportunities to make some quicker money to help cover the next couple weeks? ",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/1mui9r4/resigned_from_bad_karma/",
+      "comments": []
+    },
+    {
+      "title": "What's going on, I don't know why I'm not getting hired. ",
+      "body": "I've applied to hundreds of jobs and have scored very well on the assessments. I'll get an email to schedule an interview and do well in the interview. But I never get to the next step of being hired. I have a degree, experience and have applied to degree positions, though I won't even get a call or email back from anyone. I'm still under consideration and on hold for a degree position at the hospital. I've been waiting for 3 months for, the recruiter told me on Monday. Fast forward, I have resorted to applying for jobs that don't require a degree just to get my foot in somewhere. My past experience before I obtained a degree was in distribution, receiving, and logistics. I have 5+ years in that area and have gotten, \"we decided to pursue other candidates\", \"at this time we are not advancing you to the next phase\". I don't know what's going on? When I apply to jobs that don't require a degree I leave off that I have a degree and tailor my resume to jobs pertaining my experience vice versa. I'm trying to stay positive as I volunteer in my free time (to gain more experience) and work for Instacart/Favor to maintain my finances (rent, groceries, bills). Though, I am becoming worried, hopeless, sad, and afraid. I've even thought about paying $25 for my own background check with the state. Just to see what is preventing employers from hiring me. I've never been in trouble with the law, so I don't have a criminal record. I wonder how can I check the status of my name (wherever I can go to check what employers are checking on me). I go to the Workforce Solutions job fairs and apply, passing out my resume. I'm not going to give up, I'm still going to keep applying praying something shows up. Anything helps, Thanks! ",
+      "subreddit": "jobs",
+      "score": 6,
+      "url": "https://reddit.com/r/jobs/comments/1czr3bh/whats_going_on_i_dont_know_why_im_not_getting/",
+      "comments": [
+        {
+          "body": "No one is hiring. I’ve been looking since I was laid off in October.",
+          "score": 13
+        },
+        {
+          "body": "I am having issues finding work back in my home state while I am living out of that state working. I keep running into the issue that they are hiring someone internal than me who would be external. I guess I see why because they would want someone to start day 1 compared to waiting for me to move within a few weeks. I feel your pain though we just gotta keep at it.",
+          "score": 3
+        },
+        {
+          "body": "For the companies where you have interviewed, but not been selected, have you reached out to them to ask if they could give you feedback on why you weren't selected?    I doubt its anything on your background check, but it could be another candidate know someone at the company, seemed more competent, had a skill they had been looking for or just someone they all clicked with.",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "title": "Slowly giving up. ",
+      "body": "It's been 7 months now that I've lost my job. I've had a few interviews every other week, with some going up to 4 rounds and then having to do a damn assignments. But i've now applied to 200+ jobs and get automatically rejected from maybe 50%, don't hear back from 40%, and then the occasional 10% will reach out. It's just getting beyond exhausting now that I'm mentally defeated of having to spend hours daily finding jobs, applying, and reaching out to recruiters. \n\nAt this point i've accepted that I won't be getting my desired salary anymore, and I've started to even tell them less than what I wanted in the salary range but even then I've been lowballed or simply ghosted. I'm slowly running out of cash so that means I'm considering doing something like bartending or instacart. But mentally I can't believe it has come to this and I just wake up with so much disdain and depression. I have great experience and education, even worked for great companies but surely there's something wrong. ",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/1bx8jpv/slowly_giving_up/",
+      "comments": [
+        {
+          "body": "You in tech? The market is so unbelievably horrible now. Hang in there, you're still getting interviews. The interest is there. Don't lose hope completely",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "I need some advice on how to break out of retail and into office life",
+      "body": "So, my problem is all of the work experience I have up through now is either in retail or the service industry. I went to college but I changed my major so many times and couldn't pick a direction so I eventually ended up graduating about 2 years ago with a B.S. in Interdisciplinary Studies. It's not much of a degree, I took a wide variety of classes mostly science based, and I'm not sure what to do with it. Since then, I've moved to Philly and just fell into another retail job and gig work (Instacart).\n\nI am really tired of this line of work. I've considered going back to school but it's more debt I'm worried about, at this moment it's not exactly a priority. I have a lot of friends and family in office jobs and they generally seem happier, it seems like the type of environment I could thrive in and develop skills in that would be useful if I ever want to accomplish anything professionally.\n\nI've been applying online to a few postings I've seen on Indeed and Linked In, but I have no idea what sort of jobs I should be applying for with no experience. A while back I had a phone interview that I could tell went awkwardly and didn't receive a call back. Should I be applying to call centers? Secretary positions, or are those generally taken by people with some sort of experience? If I get an in-person interview, how will the process be different from retail? What can I do to my resume to make it stand out? I am really in need of some help, please!",
+      "subreddit": "jobs",
+      "score": 11,
+      "url": "https://reddit.com/r/jobs/comments/a2sl0l/i_need_some_advice_on_how_to_break_out_of_retail/",
+      "comments": [
+        {
+          "body": "If you're good with tech, get a job as IT Help Desk.",
+          "score": 8
+        },
+        {
+          "body": "I don't know, I'm the opposite.  I've always done office type jobs and I'm getting kind of sick of those, but it's what I'm skilled at/comfortable with.  I'd like to get into something more on my feet &amp; moving around.  I get sick of sitting on my ass for 8 hours a day.  But when it's slow, it is kinda nice to be able to browse reddit &amp; fb lol.  Anyway, if that's what you're really wanting, just start applying for entry level office jobs.  Work your way up from there.  ",
+          "score": 4
+        },
+        {
+          "body": "Write, talk and act exactly how you are. Don't pretend. You can never really make a piece of paper 'stand out' - but just from this short post I kinda know you've got it. Don't apply for a 'few' hit it hard and go for it. Worst that can happen? You'll spend the next 30 years in a chair.",
+          "score": 3
+        },
+        {
+          "body": "Maybe go for some certifications or an Associate's at a community college. You could save up some money and slowly pay over time. ",
+          "score": 2
+        },
+        {
+          "body": "Try applying at temp agencies. It can be inconsistent, but if you're a good worker, they often have entry-level temp-to-hire positions they can place you in. That's how I got my first office jobs! ",
+          "score": 2
+        },
+        {
+          "body": "You might look and see what corporate retail offices are in your city. I work for a corporate retail office, and there’s a fair number of people that used to work in our stores. ",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Instacart shopper- is it worth it?",
+      "body": "Hello, I recently moved to Santa Fe, NM and it has been a bit difficult finding work as COVID restrictions are stricter here compared to other states. I have an interview soon for a very part time job fortunately, but I was thinking of becoming an insta cart shopper for the time being as well. I am wondering if any of you have done that or know of someone who has, and if it’s worth it? Thank you!",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/kt7pvt/instacart_shopper_is_it_worth_it/",
+      "comments": [
+        {
+          "body": "Hello, thank you for posting to r/Jobs! \n\nWe just wanted to let you know that we have a new [discord server, come join the chat!](https://discord.gg/TY6ErXV)\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/jobs) if you have any questions or concerns.*",
+          "score": 1
+        },
+        {
+          "body": "/r/InstacartShoppers can also help you with the answer",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Re-inquiring about a position after you said you were pursuing something else",
+      "body": "I got fired from my job.  Prior to starting the position I was terminated from, I got an interview offer from a \"survival job\"  (Instacart).   The Instacart position isn't really a job because you are considered an independent contractor, but it is a position of sorts.  At the time, I had been in contact with my region's Instacart manager, and he was offering me details about the position and answering my application questions.  When I got offered a job, I wrote him back \"Thank you for your message!  I just got offered a full-time job, so I will be pursuing that opportunity.  However, I appreciate all of the information you provided me about  Instacart!\"  However, now that I no longer have that job because I've been fired, I am interested in pursuing Instacart to tide me over financially.   I was only at my job for less than two months, so if I said that I had to leave that position, he probably would infer that I've been fired.  How should I explain things to him?  Should I just say the job fell through and I wasn't able to pursue it?  Any other ideas?  ",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/7shq8d/reinquiring_about_a_position_after_you_said_you/",
+      "comments": [
+        {
+          "body": "Just say the opportunity you had initially pursued fell through, didn't work out, or wasn't what you expected. ",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Interview Process that ruined my outlook on jobs and my future",
+      "body": "To preface my interview process with this company here is some background on me and my situation. I graduated from university in 2021, only spending 3 years to complete my degree, maxing out my credit hours and summer sessions to fit in as much as possible. I went to school for journalism but wanted to go into Poli-Sci for grad school. I had a scholarship that would give me 8 free semesters so I wanted to use some for grad school that was always a dream of mine to get a Masters degree in something. I ended up dropping out halfway through the first semester due to mental health reasons and eventually moving back in with my mom and sister. I knew it would be very difficult for me to get a job as a journalist, so I decided to try and look elsewhere. I had been searching for jobs off and on and had not gotten much luck. At the time I had probably sent in over 1000 applications over 1.5 years, the only jobs I had gotten offers from were 2 from MLMs and 1 from one of the local post offices to be a mailman, which the post office ended up ghosting me and never answering any of my calls after I had accepted the role. So I was in a bind to find a job since my time as a delivery driver for Instacart, Grubhub, and Uber Eats was not going so prosperous. I was paying all of my bills at the time and was not able to save anything since I barely made enough to cover my expenses, and some months needed assistance from my parents to pay for things like food. I was lucky I didn't have to pay any rent but I needed to job so I could get out of where I was living and finally start my life. \n\nOne random night I was feeling really down on my luck and made a long post on LinkedIn kind of telling my story to my connections, how I was going back to school at my local community college for Cybersecurity because I wasn't sure what I was doing with my life and seeing if anyone would be willing to help or reach out if they knew of anyone that could use me. To my surprise I checked LinkedIn just 2 days later and found I had over 3000 impressions, a bunch of DMs, comments and likes saying to reach out, people are rooting for me and that if they can they would be willing to help. One of them was an old friend from high school that I haven't really talked to since graduation but had started at a tech start up not too long ago and thinks I might be a good fit for the position he's in. We get on a call one day and he goes over the job and the salary and I'm thinking if I can get this I would really enjoy it. Its a entry level cold calling sales job, but the pay would almost triple what I was making doing deliveries and they would be happy taking on someone without any sales experience, as long as I had a good attitude about it. He gives me a referral and I hear back through some emails and texts from an HR rep a few days later. \n\nMy first interview was a brief informational phone call with the HR rep getting to know me which lasted only 20 minutes and went over very simple questions. The next step was a a Zoom interview with someone in the office. I had no sales experience so I was a little nervous but the person that I was interviewing with was very professional as well as nice and helped me get through some of the things that I was having trouble answering. I was told that they like me and I'll be moving forward in the process and it would be an in-office role playing session with a member of the management team. I had the initial phone call on a Monday, the Zoom was on a Wednesday and the roll play was on the same Friday, so the process was very quick. \n\nI came prepared and did a bunch of research in the fake restaurant they gave me. I was a little nervous with the role playing but it went a lot easier because I came prepared. We went through the prompts a first time and I did so-so. I was given some notes on how to best approach it and went through it again. I did a lot better on the second time and the interviewer said they were impressed by my ability to be coached. We went over some final details and I was told I would hear back from the same HR rep I've been talking with if I would get the job or not. It was done on a Friday so they said at the latest, I would know by Tuesday. \n\nLate Monday rolls around and I get a call from the HR rep saying they really liked me, but they want me to come in and meet with a different manager. They said this would be the person I would most likely be working under and they wanted to know if I would be a good fit for the position. During this call the HR person said they are \"120% sure that I'll get the role, everyone has good things to say about me\", and that this stage is merely a formality to meet the manager and get his final approval on the matter. I was so excited to hear back and know I was getting far along in the process, I didn't want to get my hopes up but hearing from the HR rep like that really gave me some hope. I went into the office on Tuesday to talk with the manager and I thought the interview went really well. I had a very conversational interview with this manager who had only been with the company for a few days at that point, so he was also getting to know the layout of everything. After this my friend had texted me he thinks I'm getting the job since it lasted so long and from previous comments made. \n\nTwo days later I get another call from the HR rep saying that the manager really liked me but wanted to recommend me to a different manager and talk with them instead. I was a little confused and was told that I should know after part 3, then part 4, now you're asking for a part 5 and I was told that part 4 was just a formality. I was hesitant but really eager and said I would go in and do the process over again. When I went into the office the person I was supposed to interview with had no idea who I was and didn't know I was on his calendar. The interview went terrible because I had to basically do the who are you kind of questions for the 5th time with the same company and I was getting a little upset. It wasn't until the end of the interview that I asked what his team does. The company was set up by city regions and the Part 4 manager would be a specific region and I thought this manager was just a different region. Turns out he recommended me for Inbound sales instead of the Outbound which I had been interviewing for about 2 weeks now. I was blindsided by this news and I basically ended the interview because I had nothing else to say, the whole interview was only 20 minutes. \n\nOnce I got back to my car I texted the HR rep and if I'm being honest I was a little too aggressive, but I said this wasn't what I was interviewing for prior and confused why this was taking so long to make a decision. She was trying to act as though there wasn't a major difference but there was a much higher quota to be made with the inbound position and I wasn't sure of any details regarding salary or benefits or anything because no one had gone over any of this in the 5 interviews I've had so far. She asked if I was still interested even if its a different role, I said yes of course. I was so upset after this I ended up crying in my car for about 20 minutes and needing to meet my mom for lunch, because otherwise I was going to go postal on the HR rep and that was going to my prospect even further. I emailed the person I interviewed with and texted the HR rep two days later to see if there was any news and I didn't hear back. I asked my friend and they said they chose someone else but he'll \"keep trying for me\". I've texted him a few times since and he keeps saying he's trying but that doesn't mean anything at this point and the entire team has ghosted me besides him.\n\nI still don't have a job a month later and they strung me along after not being able to make a decision and lying about what the interview process was like. Terrible experience, I'm not sure if its because they're a start up or they just don't have their process together but it was terrible. It was very fast, but constantly getting reassurances that I was either going to get the job, without receiving a formal offer was extremely heart breaking and wouldn't wish that on anyone. The job itself sounds fine for an entry level cold calling sales job, but the interview process left such a bad taste in my mouth about them and the industry as a whole. \n\nGoing through it all really gave me a lot of false hope and ended up killing my confidence. I know you're not supposed to put all your eggs in one basket, but I only had the one basket. I had maybe 40 interviews from over 1000 applications and that's including phone screenings and the rare 2nd or 3rd interview. From a different friend I had a different opportunity at the same time and was interviewing at a company he used to work for but the job was for a different cold calling sales rep but the call volume was expected to be 200-250 calls a day and the average phone call lasting about a minute and you wouldn't receive any commission until you met over $250,000 in sales for a magazine ad sales job in state wide union and industry magazines, so nearly impossible and you'd want to drop dead after a week. \n\nI have not found any success or any more interviews since my last one with the startup and don't see anything on the horizon. I just moved in to a new apartment and I'm not going to be able to afford the rent so I'm really hoping that something comes through soon, because otherwise I'm either homeless or moving back in with my mom and sister. \n\nIf someone knows of any company that needs an entry level sales guy in the Raleigh, NC, USA area or remote than DM me, otherwise thanks for reading. ",
+      "subreddit": "interviews",
+      "score": 2,
+      "url": "https://reddit.com/r/interviews/comments/153ln3q/interview_process_that_ruined_my_outlook_on_jobs/",
+      "comments": [
+        {
+          "body": "This experience sounds terrible and the organization sounds shady at worst, incompetent at best. This is not a normal hiring process I'll let you know \n\nNow you have several red flags to pull out of processes or keep moving. Unfortunately people who need jobs are a captive audience and there's a lot of preying on this class.\n\nFor now keep applying, move past this and try to get a job at a Grocery store or something to keep your accounts full.\n\nYou got it!",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Can I get a job with a criminal record?",
+      "body": "This is excessively humiliating to admit, but I have a shoplifting misdemeanor from 2013. In my state, it’s classified as “theft.” \n\nI have a strong resume in my field from 2001-2018, but left my company due to some personal issues at the time. \n\nI started cleaning houses, dog walking, driving GrubHub, working as a personal assistant (taking care of a professional’s home affairs), and attempting to start an online business. \n\nI’m on PUA currently, and dying to get back into a “real” job with steady income and benefits. I’ve been turned down by Uber, Lyft, DoorDash, Instacart, etc, and just want consistent income again.\n\nI applied for a job in my field with a company, based on the recommendation of an old coworker. I interviewed with 4 people (3 interviews total). They were cool about the job gap, and willing to give me a chance. A real “adult” job, great pay great benefits, 100% remote work. They offered me top pay based on market value. \n\nOnly issue is that they rescinded the job offer after my background check came back (I had given the recruiter a head’s up, so I never lied about it). \n\nI asked the recruiter if I was forever excluded from applying again, and he told me to save his info and he would go back to the compliance department when my record was sealed. I’ve filed the paperwork with the courts already, but it can take up to 90 days. Does anyone know if it is a possibility that the company would reconsider me after having a record sealed? \n\nIs not hiring someone with a record a legal technicality, and they don’t care about my past as long as it doesn’t show up? Or is the recruiter just being optimistic, and they keep a record of previous background checks and would exclude me this fall if I try again? \n\nIs it worth the hassle of trying to continue applying for jobs now, or should I just wait 2-3 months for court paperwork to finish? \n\nHumiliated and ashamed, and need a way to move forward in life.",
+      "subreddit": "jobs",
+      "score": 6,
+      "url": "https://reddit.com/r/jobs/comments/mswb6n/can_i_get_a_job_with_a_criminal_record/",
+      "comments": [
+        {
+          "body": "Hello, thank you for posting to r/Jobs! \n\nWe just wanted to let you know that we have a new [discord server, come join the chat!](https://discord.gg/TY6ErXV)\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/jobs) if you have any questions or concerns.*",
+          "score": 1
+        },
+        {
+          "body": "We just hired someone with a misdemeanor from 2015 for a management position at 75k. You'll be fine.",
+          "score": 6
+        },
+        {
+          "body": "I would still keep applying. Never stop trying.",
+          "score": 2
+        },
+        {
+          "body": "Misdemeanor? That’s nothing. Don’t mention it at all. If they find out and fire you at least you have a couple of paychecks under your belt. Put in enough time and you will be eligible for unemployment. \n\nI speak from experience.",
+          "score": 2
+        },
+        {
+          "body": "Petty shoplifter should not be punished to such an [exstent.My](https://exstent.My) 18 yr old took from walmart, less than 40$ worth. She cant get anything from anywhere now. No PUA, no job, and has even made coments  about just dying. Young people should have to deal with so much, hell a murder out of prison has it easier than that.",
+          "score": 2
+        },
+        {
+          "body": "Wait until the court removes it, it looks really bad",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Would this be a dumb move?",
+      "body": "I'm currently working a customer service job and make 40k a year.  Its a contract position, so I don't get benefits, and I work in a remote office, so its super hard to get promoted, or even have anyone to talk to.  My whole week is pretty much either getting yelled at by people who can't use our app (rideshare company), or answering incredibly dumb questions.  Been here for about 7 months, and am honestly getting a little burnt out.  \n\nI have a bachelors in HR management, and my real estate license.  I have been applying to a bunch of HR jobs, but have not been getting many interviews.  \n\nI have been thinking about leaving my job to try and focus more on real estate-  I have 3 clients i'm working eith right now, with a couple more in the works, and would have more time to prospect if I wasn't working full time.  I also have a bunch of gig economy apps (Lyft/Uber, Instacart, Wag, Amazon Flex etx) that I could use to make money between settlements.  A 3 hour shift with Amazon flex pays $54, and I could easily do two of those a day, and pick up a couple dog walks (wag) to make another $30-40.  And uyse the rest of my time for real estate prospecting.  \n\nI have a wife who makes close to six figures, and could pretty much cover our expenses by herself.  I'm also on her health plan. \n\nIs this a dumb idea or what ?",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/6zhgzr/would_this_be_a_dumb_move/",
+      "comments": [
+        {
+          "body": "it's typical (to the point of cliche) for a person whose spouse is the main breadwinner to get a job in real estate, so it's not a risky plan\n\nyour wife makes near 6 figures, just have some fun being the trophy-spouse.",
+          "score": 2
+        },
+        {
+          "body": "Can I have your wife? Just kidding.  I don't know what to tell you. What is it you want exactly? ",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Opinions on this interaction please!!",
+      "body": "Hi all. Some backstory- I had a flourishing career in the Healthcare Admin field for 20 years. I had climbed the ladder and had a well-paying job in leadership, overseeing 2 departments that performed well.\n\nIn 2013, I was blindsided by my husband who, in classicr mid-life style fashion, walked out of our house one day and just never came back - no conversation, nothing. I thought he was dead at first, as we had (i thought) a decenr marriage.  We didn't fight, we 'got' each other in a way that neither of us had experienced before. I was so devastated, I picked up and moved 1000 miles away from Philly down to the Orlando, FL area. I knew no one - I just wanted to start over somewhere new, and year round beaches sounded like a good idea. \n\nWell - professionally, I was completely derailed. I had a bit of arrogance- my career climb had been relatively easy ( I didn't think so at the time, but looking back now, I see things very differently). I figured I woulde able to find a similar leadership role in Healthcare Management within 6- 9 months of arriving in Florida, and until then, I had savings. \n\nCut to the next 10 years filled with horrible jobs that were simply not good fits. I went from making 100k/year to $15/hour in my first job in Florida, which I must admit, I really loved. However it was for a small company, no room for growth. After 9 months, I was laid off due to some financial troubles the owner was having.  Since then, I had several false starts,  one job that seemed fabulous  as a Client Services Manager for an Outsourcing company that contracted with businesses to do call center work, receptionist woek, payroll, etc. After 9 months, the contract I managed was discontinued- and there were no open roles at the time where I would fit.\n\nAfter that, I just gave up for a while and spent 5 years doing Instacart and other gig work, some freelance consulting as well as frellance writing. This kept me afloat for 5 years, 3 of which I was actively looking for a direct hire, W2 job.\n\nI finally got one in Oct 2022 ans I was so excited, I cried for 2 weeks! Mind you, this was only an entry  level position that paid $22.50/hour but there was plenty of overtime. The company is large, very well-established and after 10 horrible career years, this felt like my chance to get back in the game ( it is much harder getting jobs at 50+ - ageism is real).\n\nSwallowed my pride, went back to a staff level position and have been busting my butt. I recently applied to a management role internally which I am 100%  qualified. Went through 4 rounds of interviews that, imo, went amazing. I was supposed to hear by this past Mon/Tuesday.   \n\nHearing nothing, I reached out to my original recruiter on Wednesday.  She did my first interview and managed the project for all the applicants ( there were many).\n\nShe sent me a message back apologizing for not having reached out yet, but said she they were still finalizing everything and she hoped to give me \"the good news \" Thursday or Friday. \n\nI heard nothing yesterday, but late in the say I got a message from her saying she was so sorry - she is on the West Coast, I am East, but she didn't think she would have the answer for me that day &amp; she was off tomorrow ( she initiated this contact). Specifically - she said this-\"so sorry - I just remembered your end of the day is different than mine, but we are working on some good news😉. I am out tomorrow, but you may hear from my colleague, but worstcase scenario we will talk Monday\"\n\nI really feel like she is telling me without telling me that I got the job ( especially with the windy face). I absolutely despise my current role and desperately want out and honestly - I am  really good at managing a team, mentoring my staff, and getting positive results.  At the same time, because the past 10 years have been so difficult, I  don't want to get excited only to be crushed- again.  \n\n\nI know this was long - sorry, I just wanted to give the backstory as well because the past 10 years have made me a bit pessimistic about my chances for anything positive, a feeling I shove down constantly in an effort to stay positive. \n\nThoughts please???? This weekend is going to be HELL as I wait, and wait, and wait...\n\n\n",
+      "subreddit": "interviews",
+      "score": 5,
+      "url": "https://reddit.com/r/interviews/comments/1b9nmyw/opinions_on_this_interaction_please/",
+      "comments": [
+        {
+          "body": "Hello!!! I read everything and am now fully invested. Did you hear back?",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

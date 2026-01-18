@@ -1,0 +1,1485 @@
+{
+  "company": "doordash",
+  "post_count": 62,
+  "exported_at": "2026-01-18T17:44:53.272Z",
+  "posts": [
+    {
+      "title": "Is it even worth job hunting anymore?",
+      "body": "Literally, been unemployed for about over a year. Job searching since I had my baby, literally NO ONE is getting back to me. I know, it’s pretty redundant that we all apply to +150 jobs but it’s getting ridiculous. Knowing I’m able to do a job well, that it’s quite literally what I’ve been doing for years and that I’m only 24… for no one to even get back to me? It sucks and sometimes I wonder if it’s even worth trying to job search anymore. I feel like I exhausted so many options, from connections to even calling local businesses and even going in person to hand my resume! It’s so exhausting and stressful. I could cry about it lol. ",
+      "subreddit": "jobs",
+      "score": 16,
+      "url": "https://reddit.com/r/jobs/comments/1jepdtn/is_it_even_worth_job_hunting_anymore/",
+      "comments": [
+        {
+          "body": "Juat keep going I have been looking for another job for aged and I recently was called for an interview ",
+          "score": 6
+        },
+        {
+          "body": "I feel you, going through the same thing.  At this point, I'm considering some kind of self employment, going back to school (just to feel like I'm doing something) or just doing nothing and waiting for something to change.  I'm tired of emptying my clip, so to speak, of my resume into the dark.  I've never seen it this bad.\n\nI feel like something is wrong, and it's not necessarily me.  My work history is still recent, my resume is as polished as it's going to get.  I feel like we're in a hidden recession no one wants to admit out loud.  It sucks, but we've been here before, the '08 recession.  Funny to live in the world's sole remaining superpower, but you can't get a job there.",
+          "score": 4
+        },
+        {
+          "body": "18 months here, and I've noticed things are *fingers crossed* starting to pick up as far as a small handful of hm's and leaders asking basic questions and viewing my profile. I highly doubt we'll see a repeat of 2021-22, but it would be amazing if that happened!",
+          "score": 2
+        },
+        {
+          "body": "I completely understand your frustration! I almost spiraled when I was unemployed a few months back. I just kept applying, trying to stay positive. No, you aren't the only one. The current job market is horrible right now. I'm located in NYC,  it took me almost a year to land my current role. (I have 10 years of experience as an EA in Finance). I finally got a call from a company after directly hiring through them. Outside party recruiters imo have always been a waste of my time.",
+          "score": 1
+        },
+        {
+          "body": "Maybe do some gig work like DoorDash or Uber Eats temporarily if you have dependable transportation.",
+          "score": 1
+        },
+        {
+          "body": "there is probably problems with your resume or you are over qualified\nor under qualified… are you using professional language?",
+          "score": -1
+        }
+      ]
+    },
+    {
+      "title": "DoorDash Analytics Engineer Interview",
+      "body": "I have an analytics engineer technical screen interview coming up at DD. \nI learned that it will be 4-5 SQL questions (30 mins) and 1 Python (20 mins). \nI was wondering if anyone has gone through the same and what is the level of Python expected given it’ll last for 20 mins for just 1 question?",
+      "subreddit": "interviews",
+      "score": 4,
+      "url": "https://reddit.com/r/interviews/comments/1lr0a2b/doordash_analytics_engineer_interview/",
+      "comments": [
+        {
+          "body": "The Python portion will likely focus on data manipulation and analysis rather than complex algorithms or software engineering concepts. Expect something involving pandas for data cleaning, transformation, or basic statistical analysis - think along the lines of reading in a dataset, performing groupby operations, handling missing values, or creating simple visualizations with matplotlib. The 20-minute timeframe suggests they want to see your practical data wrangling skills and how you approach breaking down a problem, not your ability to implement sophisticated machine learning models or write production-level code.\n\nYour SQL skills will carry most of the weight in this interview since that's where they're spending the majority of the time, but don't underestimate the Python component. The interviewers want to see that you can seamlessly move between SQL for data extraction and Python for more complex analysis tasks. Practice common [analytics engineer interview questions](https://www.interviews.chat/questions/analytics-engineer) that involve end-to-end data workflows, from writing queries to performing analysis in Python. Focus on being able to explain your thought process clearly as you code, since they'll be evaluating both your technical skills and your ability to communicate your approach to data problems.",
+          "score": 1
+        },
+        {
+          "body": "Can you please share your experience if you already had your interview?",
+          "score": 1
+        },
+        {
+          "body": "Do I need to solve all the questions correctly to enter full interview loop?",
+          "score": 1
+        },
+        {
+          "body": " you can try past interview questions on - [www.pastinterviews.com](http://www.pastinterviews.com)",
+          "score": 1
+        },
+        {
+          "body": "Hey, I have applied for the same position. Could you help me with the salary numbers if it was diacussed. Would be quite helpful. Thanks.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Doordash product manager interview",
+      "body": "I just completed the prioritization screen round at Doordash and got invited back for the virtual onsite. There's not a ton of info out there on what this consists of, so was curious if anyone here has gone through this and could give me some words of wisdom? Thanks!",
+      "subreddit": "interviews",
+      "score": 2,
+      "url": "https://reddit.com/r/interviews/comments/1kj01n6/doordash_product_manager_interview/",
+      "comments": [
+        {
+          "body": "The product manager interview at this stage typically involves a mix of product sense, analytical, and behavioral questions. You'll likely face scenarios about improving the Doordash app, solving user problems, or expanding into new markets. Be prepared to discuss metrics, prioritization frameworks, and your approach to product development. They might also throw in some estimation questions or ask you to design a feature on the spot.\n\nThe key is to showcase your strategic thinking, user-centric approach, and ability to make data-driven decisions. Practice articulating your thoughts clearly and concisely, as time management is crucial in these interviews. Don't hesitate to ask clarifying questions if needed. Familiarize yourself with Doordash's business model, recent initiatives, and challenges in the food delivery industry. Your genuine passion for the product and understanding of the company's goals can really set you apart.\n\nI'm on the team that created [AI interview](http://interviews.chat) tool designed to help candidates navigate tricky interview questions like those you might encounter in your Doordash PM interview. It provides real-time suggestions during online interviews, which could be useful for your upcoming virtual onsite",
+          "score": 2
+        },
+        {
+          "body": "[removed]",
+          "score": 1
+        },
+        {
+          "body": "I have the prioritization one coming up....Id love some insight.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Has anyone interviewed with Doordash for a Software Engineer Internship?",
+      "body": "I was recently reached out to by a recruiter to begin interviews for the SWE Intern role with DoorDash. I was told the first step is a hackerrank.\n\nHas anyone gone through the interview process that can shed some light on the type of questions asked and what the process looks like?\n\nThanks for your help!",
+      "subreddit": "cscareerquestions",
+      "score": 8,
+      "url": "https://reddit.com/r/cscareerquestions/comments/5e7vro/has_anyone_interviewed_with_doordash_for_a/",
+      "comments": []
+    },
+    {
+      "title": "Why is it so hard to get a job in tech? Graduated Dec 2020, still don't have a job",
+      "body": "I graduated Dec 2020 with a CS degree and still haven't gotten a job in tech. I'm doordashing to make ends meet.\n\nI've done everything this sub suggested: personal projects that are hosted, multiple resume reviews, grinding leetcode... I'm getting some interviews &amp; OAs and can barely make it to the second round. Most applications are ghosted. I might have applied to 1000+ positions already.\n\nThe only company I had onsite with was Mercari and I completely blew it.\n\nMaybe I'm just not fit for this profession?",
+      "subreddit": "cscareerquestions",
+      "score": 129,
+      "url": "https://reddit.com/r/cscareerquestions/comments/q65plk/why_is_it_so_hard_to_get_a_job_in_tech_graduated/",
+      "comments": [
+        {
+          "body": "I graduated at the same time you did. I applied to like over 1k postings and basically change my tactics based on what worked and what didn't. I got 3 offers. Here's what I did\nGo to your school's career fair\nTalk to everyone. Do your research. Really suck that company's dick. \n\nFind places you really want to work at. For example I talk to some military company that hired civilians. which is basically government work. When talking to the interviewer I talked about china, covid, the south china sea, aircraft carriers. I must have really impressed him because I failed 3 interviews at three different departments in there and he gave me another chance lol. I passed and got an offer.\n\nAnother tip apply to mid west. Think about it if you're in New York City and you look at the job posting there's hundreds sometimes thousands of applicants. Everyone wants to work there. You're competing with new grads from top schools and boot camp grads flooding the market. Basically to save time I applied exclusively to Midwest companies. I eventually got an offer at FIS Global. No leetcode. They just really like me. Again research is important. \n\nAnother tip, take every shot you can. I found a online career fair on indeed. It was for a well-known Midwest company. I decided to go even though I lacked the experience they asked for. The recruiter liked me and gave my contact info to HR for internship opportunity. Again...... Researching the company is what give me this chance. I got the internship and eventually got an offer. No leetcode. You better be willing to move tho.",
+          "score": 74
+        },
+        {
+          "body": "Are you practicing behavioral interviews, or interviewing skills in general that isn't leetcode/whiteboarding?",
+          "score": 34
+        },
+        {
+          "body": "If you’re getting interviews but aren’t making it to final rounds, then you have a lot of studying to do.",
+          "score": 102
+        },
+        {
+          "body": "The first job is the hardest.\nI remember applying for thousands of roles. And I feel lucky to get an interview. Now after getting experience and joining Apple and then MSFT, it’s way easier.\n\nJust keep trying, learn from the feedback you receive after the rejections in interviews.",
+          "score": 46
+        },
+        {
+          "body": "At 1000+ apps I think you definitely have grit and determination. Good job not giving up where many would have. \n\nThe first 300 should have helped refine your resume. The second 300 your behavioral questions, then the next 300 your LC skills, for example.\n\nIf you're at 1000 and still getting random feedback (feedback is what you learn from the situation, not just what you hear back from the companies) then your approach may not be systematic enough.\n\n_Continually_ edit your resume (you can have more than 1 version going out at a time, right?) until you get a good percentage of call backs. Perhaps you need to tailor to the type of company you're applying to? A stand out resume for JP Morgan probably looks different than a stand out resume at a digital animation studio. Don't just go through the motions of editing your resume blindly based on _only_ feedback from this sub. \n\nOnce you're getting first calls at a regular interval you'll know you have a viable resume _strategy_, not necessarily a viable resume. \n\nRinse and repeat with behavioral, LC questions.\n\n&gt; I've done everything this sub suggested\n\nLife isn't list of checkboxes to complete. What works for some won't work for you. You need to be aware of your own situation and tailor your approach accordingly.",
+          "score": 21
+        },
+        {
+          "body": "Could be your background, or social media. Seeing as you are active in r/fatpeoplehate , I wonder what else could be found with some digging.",
+          "score": 40
+        },
+        {
+          "body": "Entry level is extremely competitive.  The perception is that someone with 2+ years of experience is much less risky, because you don't have to put as much effort into teaching them how to do the job.\n\nYou also see posts from people here who spent a whole year looking for a job, and then when they get 8 weeks of experience they think they deserve a 50% raise.  If you're going to have to give an entry level worker a 50% raise after 1-2 years to keep them, you might as well just pay the premium and hire experienced people.",
+          "score": 25
+        }
+      ]
+    },
+    {
+      "title": "After being laid off for 8 months I finally cracked TikTok",
+      "body": "I’ve been lurking in this subreddit for sometime now, I want to share my story to hopefully provide some hope for those who are in rough spots right now\n\n**Some background:**\n\nI graduated from a tier 2 university in late ‘21 and then was fortunate enough to land a return offer from an internship I did at a large financial company on the eastcosat where I worked for about 2.5 years. Due to a combination of burn out and the company doing layoffs, I found myself on the chopping block and was laid off around 8 months ago.\n\nI spent the first 3 months sort of in a panic, I wasn’t sure how to move forward with my career. I was pretty certain that I could get a job at a lateral company or if things got really desperate I could take a pay cut somewhere. It was around that time that I discovered a discord of people in very similar positions as me, and they were all prepping to try and get jobs at FAANG companies. Not sure if I’m allowed to post discord links but the server is huge now theres like 6k ppl so im not promoting anything - [https://discord.gg/nGGvH9KXnm](https://discord.gg/nGGvH9KXnm)\n\n**My preparation:**\n\nI never actually even considered the possibility of cracking FAANG until I joined this discord. It was a pipe dream at best and I always figured they only hired the best of the best from tier 1 universities. The biggest thing I see across subreddits is people unable to get interviews at these companies. There is one absolute truth I discovered - you need REFERRALS. \n\nFortunately, I ended up making some friends in that discord channel who worked at FAANG (and FAANG adjacent) companies and one of them referred me to TikTok. I ended up hearing back from them and after 5 months of leetcode prep I passed the screen. It was on to the full loop (behavioral, system design, coding).\n\nAt this point I felt really confident in my DSA abilities. I had been doing leetcode for nearly half a year. My friends would always ask how I was paying rent - I had a decent amount of money saved up and I actually started doordashing at night when I was bored for extra grocery money. For the system design part of the interview I didn’t feel confident at all. I actually ended up doordashing a couple extra nights and paying for 2 different system design coaching sessions. One from interviewing.io and another from easyclimb.tech (one of the ppl I met in the discord is a mentor at easyclimb).\n\nWhen the on-site at tiktok finally came around I nailed 3 out of the 4 DSA questions. I ended up nailing the system design as well, I had already practiced the question they asked during my prep and spent the last 10 minutes of the interview just asking random questions to the guy and chatting.\n\nI guess the behavioral went alright as well because they reached out about a week later with the attached offer letter.\n\nMoral of the story is don’t give up hope bros. Were all gonna make it :)\n\n**Offer:**\n\nUS$222000 base\n\n50k sign on\n\n150k/4 years",
+      "subreddit": "cscareerquestions",
+      "score": 586,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1h05d33/after_being_laid_off_for_8_months_i_finally/",
+      "comments": [
+        {
+          "body": "Whenever there are links to some website where you can spend money my brain always goes: This is an ad, everything is fabricated to make me want to give money to those websites, there is no OP, only bots and greed",
+          "score": 410
+        },
+        {
+          "body": "200k base is comfortable living man, congrats!",
+          "score": 174
+        },
+        {
+          "body": "Did you face any issues with recruiters due to the 8 month gap?",
+          "score": 56
+        },
+        {
+          "body": "Congratulations!!",
+          "score": 13
+        },
+        {
+          "body": "Come back after a year and tell us about TikTok then",
+          "score": 102
+        }
+      ]
+    },
+    {
+      "title": "Those of you who gave up on a CS career because of the market or for some other reason, what did you ultimately end up going into?",
+      "body": "Personally, I live in Canada and have a university degree with a math major and minors in computer science and physics. I did nothing but DoorDash and some other shitty low-hours driving job until 2020, then I joined a consultancy firm that hires specifically people with autism and contracts them out to third parties. Through them, I worked a year-long contract as a data scientist for a medical tech startup, then two very short contracts as an ABAP developer (one of which they literally gave me no work before the contract ended), then a contract as a Flutter developer, and that ended in September of last year. In the meantime, I applied for tech jobs to leave that stupid company, and got an interview with one company in May and another in November.\n\nNow, I am training to be a school bus driver. I'm still doing half-assed applications to CS roles pretty much out of inertia, and the fact that I have absolutely no idea what else to apply for. I also applied to some dishwasher, cabinet maker apprentice, general labour, and driving roles and only ever heard back from a few of the driving roles. I heard back from a few school bus companies and had to choose one. Truth be told, I'm kind of dreading the prospect of having to deal with multiple screaming and puking children, though I'm sure it will be better than dealing with multiple screaming and puking adults as a retail worker.\n\nWhat have you guys ended up doing?",
+      "subreddit": "cscareerquestions",
+      "score": 237,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1b1svkc/those_of_you_who_gave_up_on_a_cs_career_because/",
+      "comments": [
+        {
+          "body": "That’s the crazy thing about this. There really isn’t a place for recovering computer scientists. Which I guess in itself is evidence, they’re not definitive evidence, that you will eventually get something if you don’t give up.",
+          "score": 31
+        },
+        {
+          "body": "Wrong sub. This is like walking into the poop store and asking for pee",
+          "score": 384
+        },
+        {
+          "body": "I gave up on programming to do IT after I couldn't get a programming internship during college.",
+          "score": 17
+        },
+        {
+          "body": "Get a EMT Certification and Become an Ambulance Driver  \nEdit: Been watching Chicago Fire",
+          "score": 57
+        },
+        {
+          "body": "I don’t understand why you gave up given that you’ve had contract experience, maybe you were treated badly in those contractors roles?",
+          "score": 46
+        },
+        {
+          "body": "Why is everyone saying “wrong sub”?",
+          "score": 33
+        }
+      ]
+    },
+    {
+      "title": "[Subreddit meta] I keep seeing posts pushing the same discord group over and over again, and it comes off as non genuine/an ad. Mods, can we ban these posts?",
+      "body": "If something seems to good to be true it likely is.  can we please ban posts [like these](https://www.reddit.com/r/cscareerquestions/comments/1h05d33/after_being_laid_off_for_8_months_i_finally/) where people say they got into FAANG and adjacent companies by joining that specific discord server? That post, and other's I've seen on here that reference that discord, seem too good to be true. Notice how the OP of that post, and other ones that I've seen, doesn't talk at all about any of the actual prep that they did. No Neetcode 150, no System Design resources, no specific questions/prep. It's all the friends/resources they've found on that subreddit. For example:\n\n&gt;I never actually even considered the possibility of cracking FAANG until I joined this discord. It was a pipe dream at best and I always figured they only hired the best of the best from tier 1 universities. The biggest thing I see across subreddits is people unable to get interviews at these companies. There is one absolute truth I discovered - you need REFERRALS. \n\n&gt;Fortunately, I ended up making some friends in that discord channel who worked at FAANG (and FAANG adjacent) companies and one of them referred me to TikTok. I ended up hearing back from them and after 5 months of leetcode prep I passed the screen. It was on to the full loop (behavioral, system design, coding).\n\n&gt;At this point I felt really confident in my DSA abilities. I had been doing leetcode for nearly half a year. My friends would always ask how I was paying rent - I had a decent amount of money saved up and I actually started doordashing at night when I was bored for extra grocery money. For the system design part of the interview I didn’t feel confident at all. I actually ended up doordashing a couple extra nights and paying for 2 different system design coaching sessions. One from interviewing.io and another from easyclimb.tech (one of the ppl I met in the discord is a mentor at easyclimb).\n\nGranted they follow up in the comments about their specific LC prep, but you'd think that the very important information would be included initially. Even though he mentions easyclimb specifically, it's only because he met someone on that discord. The OP also doesn't talk about other ways to get referrals either (blind, reaching out on Linkedin, etc).\n\nFinally, the only proof that the OP has is the signed offer letter that he refers to in that thread, which could easily be faked.\n\nMy guess is that specific discord group is run by people to push their classes/paid resources/whatever. I'd be interested in hearing other people's perspectives.\n\nEdit:\n\nI also want to highlight the fact that the market is still very tough. My friend, a former Senior Software Engineer at Amazon, has been out of work for three months and hasn't been able to land anything.",
+      "subreddit": "cscareerquestions",
+      "score": 73,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1h0m07q/subreddit_meta_i_keep_seeing_posts_pushing_the/",
+      "comments": [
+        {
+          "body": "I've noticed so many ads on this sub and similar recently. Ads for resume services, cheating interviews, etc and people falling for them. A symptom of a bad job market I suppose. I think we ought to just ban all links.",
+          "score": 18
+        },
+        {
+          "body": "I’ve been a bit active in the server since those posts and I don’t see any financial incentives for them.",
+          "score": 6
+        },
+        {
+          "body": "You think the mods do shit here? You will read the same slop over and over and be happy.",
+          "score": 4
+        },
+        {
+          "body": "what financial benefit is there to advertising a discord",
+          "score": 2
+        },
+        {
+          "body": "it does feel like prescreening for guillable people.",
+          "score": 1
+        },
+        {
+          "body": "Ironically thanks to this post I was able to learn about that discord server lol. Seems pretty fine to me.",
+          "score": -1
+        },
+        {
+          "body": "I don't see what that comment is referencing in terms of 'spend money online' ? granted i just joined to look around eg the resource channel. It doesnt look like a blatant 'pay to join' community at all.\n\nmost communities on reddit have breakoff-discord servers since discord is better for more casual chat than sticky-daily type threads.\n\n  \nit definitely looks like theyre pushing some of their own (social media) content... but i couldnt (easily) find paid course. But again, only poked around for a few mins.",
+          "score": -4
+        }
+      ]
+    },
+    {
+      "title": "Feeling stuck but also grateful with my career. However, I think I want to switch.",
+      "body": "# Background Info\n\nI'm currently 28, from Toronto and I work as a full stack engineer making 95k CAD. I went to the University of Toronto and got a degree in stats but I had been coding since highschool and I only got a stats degree because \"Big data\" was the big buzzword when I was going into uni which is mostly stats based so I did that to \"future proof\" myself. Right out of uni I couldn't get a job for like a year due to covid and with me not having a cs degree, I couldn't get much interviews but eventually on my second interview, I passed with colors and I joined a startup and I've been there almost 4 years.\n\nI understand the job market is tough right now and I'm extremely grateful for the fact that I'm making close to 6 figures in Toronto but I'm just not satisfied. I also know that my company is going to be sold in 1-2 years so I need to start thinking about what I want to do after.\n\n# Question\n\nI'm basically trying to see if there's any other fields that I can potentially switch into, which utilizes my skillset and pays just as much if not more than as an engineer. The obvious answer to make more money is to stay in the software engineering field but I just hate leetcode style questions with a passion but sadly that's needed to get into those companies that pay the big bucks. I'm terrible at remembering algorithms and while I believe myself to be a very good engineer, I just suck at leetcode. I can tackle easy/mediums pretty effortlessly but hard questions are pretty difficult for me.\n\nNow, on to what I am good at. \n\n* I'm good at thinking about issues big picture, so more geared towards system design I guess? I find system design really interesting so I've watched a lot of videos on how twitter, fb, doordash, etc, were made so I'm pretty good at coming up with cost effective solutions that balance scalability and ease of use. I've built quite a few full stack apps that I host on my own Hetzner VPS and I've set everything up from scratch and have had no issues\n* I'm also not a terrible coder. I constantly google and chatgpt everything (which I think is a skill in it's own right) but I've never come across an issue that I haven't been able to solve. I actually used to take a leetcode style approach to everything where I would try to optimize algorithms as much as possible till I was told that sometimes while the N^2 approach is definitely worse than N, it really doesn't matter if N is only 10 (basically our company at it's core is just doing CRUD operations on a DB, so stop trying to over engineer things and just do it cleanly and quickly)\n* **And where I shine the most**, I have incredible soft skills and great communication. Everyone in my company thinks so and I'm constantly the person that explains the technical things to the business people. Maybe it's because I'm an idiot but usually when our engineers and management speak, it's chaos till I come in and explain everything to both sides in a way that they understand. I'm also not awkward at all (which I know is a stereotype with engineers) and my people skills are top notch imo\n\n\nI do enjoy what I do, and I'm proud that I joined a startup very early on and with only 2 engineers (me and CTO), we've built it into a platform that is actually generating a decent amount of money, (and maybe this is because we're a remote company) but I really don't see myself being good at leetcode and grinding for a SWE job where I'm just working on a codebase and barely interacting with people and just slaving away at tickets.\n\nAlso even though I have a stats degree, I haven't done anything stats related in 4 years so I have 0 memory of anything stats related so don't read too much into that.\n\nAny advice is greatly appreciated, thanks for taking the time to read this!",
+      "subreddit": "cscareerquestions",
+      "score": 17,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1jbghbb/feeling_stuck_but_also_grateful_with_my_career/",
+      "comments": [
+        {
+          "body": "RemindMe! 3 days",
+          "score": 2
+        },
+        {
+          "body": "Apply to places with pay you're happy with. If you get LC hard just thank them for their time. I did that and a lot of companies don't ask LC hards, so it wasn't that bad as long as you can do mediums ",
+          "score": 1
+        },
+        {
+          "body": "First of all , congratulation you are living my dream life. You are better of than 99% of people . i  am also in toronto and this job market wont let me in . I really hate mylife .",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Can someone evaluate my plan as a college student that doesn’t plan to Leetcode?",
+      "body": "I’m currently a junior attending a no-name commuter college in NYC. I have one previous internship on my resume at a health tech startup. The experience was honestly great. \n\nI’ve recently come to realize that I absolutely hate Leetcode.  I have no intentions of aiming for Big N or FAANG. I do know and understand the different data structures and algorithms (they’re not too difficult to learn imo) but that’s as far as I wanna go into DS&amp;A. I am truly passionate about programming and doing LC makes me hate it so much. I know I’ll burn out so fast. I do respect those who LC grind though, no hate to them at all but I’ve already made so many sacrifices thus far and I’m honestly done making more. Currently I’m learning iOS development on Udemy and I’m enjoying it so far. I’ve also dabbled a bit with backend APIs and database and I enjoy that too. Once I’m finished learning the fundamentals of Swift/iOS, I plan on doing a project. I am aiming to finish learning by the end of this year and work on projects beginning January.\n\nMy current goal is to get an internship for Summer ‘22. My ultimate plan/goal is to walk out of college with a full time job. I am currently on track to graduate a semester early in Dec. 2022. I’m hoping that having two internships on my resume will make me a competitive candidate. So far I’ve applied to ~50 internships and I’ve received responses from 15% of them. I am mostly targeting startups, non-tech F500 and small/midsized companies. (However, I did get an assessment from Doordash) \n\nBesides working on projects, I plan to focus on my behavioral by doing mock interviews via Pramp at least once a week. As well as brushing up on OOP and other software concepts.\n\nIs there anything else I should be doing? Should I tweak this plan in any way?",
+      "subreddit": "cscareerquestions",
+      "score": 2,
+      "url": "https://reddit.com/r/cscareerquestions/comments/r0v47q/can_someone_evaluate_my_plan_as_a_college_student/",
+      "comments": [
+        {
+          "body": "Some People here definitely go overboard with it. But ignoring leetcode as a valuable tool  to grow your career just because you don’t like it is foolish. You’re not doing yourself any favors if you go into an interview and screw up a coding question that someone who spent a minimal amount of time would nail. \n\nDo you need to do dozens of hours? No. Does leetcode influence how coding interviews are conducted? Absolutely.",
+          "score": 6
+        },
+        {
+          "body": "Dawg, you don't need to \"grind\" leetcode to become decent at it, and expand where you're looking. Being able to solve problems is pretty valuable, and honestly, in 2-3 years, you might need to start conducting interviews, and it might be a problem if you know less than the people you are interviewing for these roles when it comes to solving these problems.   \n\n\nI did like 250 problems over the course of 4-5 months, and it honestly doesn't take \\*that\\* much effort. Even if you spend 1 hour per problem, it's a good investment nonetheless.",
+          "score": 2
+        },
+        {
+          "body": "Dude don’t let leetcoding hold you back. I can tell you’re ambitious by how much thought you’re putting into your career. You’re gonna unlock a lot of opportunities for yourself if you learn how to deal with that discomfort for a little bit. It gets way better, you’re a smart dude, leetcode is just super hard at first.",
+          "score": 2
+        },
+        {
+          "body": "I went to CUNY too. Have you checked out their resources for getting an internship? They have this startup placement program called tech talent pipeline, and you can get a solid internship without doing much LC. I heard companies like Bloomberg, Buzzfeed, Etsy were partnered with them.",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "How do the exit opportunities for a junior from big tech companies compare to mid-level tech companies?",
+      "body": "I am a recent new grad and when I was applying for new grad roles a year ago, I was rejected/ghosted from most the large companies and and unicorns. I was able to get a job at a less notable and high-paying, but still somewhat large tech company. How do the exit opportunities from companies like this after a year or 2 of experience compare to the exit opportunities from a big tech company, like Amazon or Microsoft? In both scenarios, would I be able to get an interview at any company I wanted (such as Snapchat, Doordash, Uber, etc), and is there any difference between the ability to get interviews?",
+      "subreddit": "cscareerquestions",
+      "score": 1,
+      "url": "https://reddit.com/r/cscareerquestions/comments/rmmw6k/how_do_the_exit_opportunities_for_a_junior_from/",
+      "comments": [
+        {
+          "body": "No company on your resume guarantees you an interview everywhere.\n\nIt really matters what your skills are.  For example, let's say you go work at Google and you are working on one of their system and you use Dart and maybe CloudSpanner for the database.  If you are interested in a job posting where they need .NET and Microsoft SQL server and Blazor, then you will be entry level in those skills and won't stand out against someone with existing experience in those technologies.\n\nNow, the caveat to that is that if you go from something like Google to a 10 person startup, you might be able to bring the tech you know with you and get them to start using that tech as they might not have a tech stack yet.",
+          "score": 3
+        },
+        {
+          "body": "A big name makes getting callbacks easier but any experience is gonna make it much easier than being a new grad.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "What can I do now to advance in my career?",
+      "body": "A bit about me - have a bachelors &amp; masters degree in computer science. Right after my masters, I joined a good fintech company - say company X. Lay offs happened - my tenure with this company ended and I spent only 1.5 years with them. \n\nFound a job with a new company Y. I had to take company Y's offer due to circumstances and missed out on the opportunity to interview with really good companies like FB, Amz, Goog, etc. I was hired as at the SWE2 level - which is completely fine by me.\n\nI would like to become a senior SWE soon. Colleagues at my earlier companies became senior SWEs within a span of 2 years (from new grad level, hired as a SWE2) - while I understand this is a company to company thing - I would like to become a senior software engineer within the next year and half or so.  For that, yes I'm willing to work hard, get smart, get smarter, take initiative to solve problems - basically start operating with greater resolve/responsibility and at that level.\n\nAt the same time, I would also like to interview at the FAANGMULA companies. I believe within 6 months I can get even better with my leetcode game (I got it up to a level now while interviewing aggressively), read up more on system design, prepare even better for behavioural style questions. If not FAANGMULA, at least another good tech company (say, like Doordash/Cruise/VMWare - nothing wrong with company Y - it's good enough but I would like a more prestigious name on my resume). But would this be a bad move i.e. interviewing too soon for those companies? \n\nIt's just that...I have developed a lot of skills while prepping for job interviews in that past two months. I certainly don't want to lose this edge. It's made me realise that I do have the potential to crack interviews with focussed prep, my experience doesn't suck, et cetera (I didn't have a high opinion of me when I was working in Company X probably because of not-so-great experience working with the team even though the work was great).\n\nWhat do you suggest I do? \n\nI apologize for the long post. I think a part of this might also be driven by ...I don't know, peer pressure? Too many of my friends working in Apple, Google, Facebook, Amazon, Walmart, Slack, Cisco, etc.",
+      "subreddit": "cscareerquestions",
+      "score": 4,
+      "url": "https://reddit.com/r/cscareerquestions/comments/iqy27s/what_can_i_do_now_to_advance_in_my_career/",
+      "comments": [
+        {
+          "body": "Landing a senior level role with only 2 years of experience is definitely not the norm. You're going to have a really hard time doing that even if you are awesome at interviewing, especially at a top tier tech company. Most companies are flat out not going to consider someone with only 2 years of experience for a senior level role, rightfully so IMO. If you want to get a job at a FAANG company, keep practicing for interviews and go for it, but I think you should be realistic and be aiming for mid-level roles at this point. You will still make bank as a mid-level engineer at FAANG companies.",
+          "score": 6
+        },
+        {
+          "body": "&gt;I have developed a lot of skills while prepping for job interviews in that past two months.\n\nNow you're Liam Neeson in Taken?",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "title": "Laid-Off Metaverse Engineer Says He Is DoorDashing and Living in a Trailer",
+      "body": "Job prospects in the current software industry look grim. By Lucas Ropek Published May 15, 2025 | Comments (109)\n\nA software engineer has revealed that, while he once made six figures at a metaverse company, his recent layoff means he’s been thrust into a life of relative precarity, which involves DoorDashing, selling stuff on eBay, and living in a trailer.\n\nShawn K’s layoff some twelve months ago (his legal name is “K”) has landed him in a situation that, a few years ago, would’ve seemed relatively unheard of for a seasoned software engineer. However, in the age of AI, Shawn worries that his situation may become more normative, as tech companies race to replace their workers with algorithms.\n\nIn an email to Gizmodo, Shawn provided more details about his layoff from a metaverse company called Virbela, which is owned by eXp Realty. Virbela says it offers metaverse solutions for remote work through the creation of “engaging virtual spaces that replicate real-world dynamics and social interactions.” Shawn said that, in the months prior to his termination, his work at the company became increasingly AI-based.\n\n# “Different orgs move at different rates with technology, and within our company, we were very forward-thinking and early-adopting with AI,” he said. “In the first year that ChatGPT was released, the average developer on the team was seeing productivity increase of 3x-10x with ai assistance,” he said, adding that it “reached a point where it became inevitably clear that it was no longer going to be ‘business as usual’.”\n\n“On my team, we made a hard pivot to have nearly every developer on the team focus on integrating AI features into the existing software product,” Shawn revealed. He added that, not long afterward, during a “frenzied peak” of AI enthusiasm, the company “let go a portion of the developers across all the teams in the company, including on my team.” He added: “I couldn’t really estimate on the percentage of the dev staff laid off, but it was all around the same time across multiple teams.”\n\nIt’s unclear whether the specific catalyst for Shawn’s termination was AI or not. Gizmodo reached out to Virbela for more information. That said, if that’s the case, it wouldn’t be unheard of. Over the past two years, tech companies have gone through historic rounds of layoffs, as many of those firms have pivoted towards automation. Multiple reports show that software workers at companies like Panasonic and Microsoft are losing their jobs, as companies seek tools that can automate code-writing.\n\n# Shawn has been writing about his unfortunate “displacement” by automation on his personal Substack, ShawnfromPortland, which details his struggles since getting laid off. He says that he makes less than $200 a day through food deliveries and that he has also resorted to selling random personal items on eBay.\n\nShawn’s situation is complicated, as he also owns multiple properties. He says, however, that owning property doesn’t necessarily make him wealthy. His mother, who is disabled, lives on one of the properties and has nowhere else to go. The other properties, which were bought when things were going well for Shawn, pose financial difficulties were he to attempt to sell them right now, he says. He currently lives in a small trailer on one of the properties in upstate New York.\n\n“I’m now in the trailer because something has shifted in society in the last 2.5 years,” Shawn writes. “Something that caused myself and a large portion of the talented dev teams \\[to be\\] let go at a time when our company and parent corp were doing great.” That “something” would appear to be what Shawn has referred to as the “great displacement,” an economy that is trending further and further towards automation and away from human labor.\n\nAI also seems to be screwing Shawn when it comes to the job hunt, as he suspects his resume is being vetted by algorithms that sift for AI-related buzzwords. “In this last year, I interviewed with close to 10 companies, getting as far as a 4th round interview twice and several second and third rounds, but not getting any offers,” the out-of-work engineer says. “I suspect my resume is filtered out of consideration by some half-baked AI ‘candidate finder service’ because my resume doesn’t mention enough hyper-specific bleeding-edge AI terms.”\n\nShawn has also been forced to study AI so as to be more competitive in the current software market. “I have spent 2 to 5 hours per day in the last year consuming AI news, papers, and podcasts, and constantly thinking and reflecting on the latest AI trends,” Shawn reveals. “I have built about 10 small 100% AI-generated codebases in the last year as personal learning exercises, and any time there is free access to any new AI tool, I go out of my way to try it out.”\n\nStill, Shawn seems to be firing applications off into the abyss, and says that he’s nearing his 900th application, with no signs of a job offer. “This article isn’t for sympathy or to make me feel better by making excuses,” he writes. “I’m sharing my real-life story of how I went from a highly valued technologist to basically nothing in the course of a year or two with the rise of AI.”\n\nIn an email, Shawn also shared that the job hunt in the software industry has never felt so grim. He noted that he’s “been in the game for a long time, and the vibes have never been the way they are now.”\n\nOminously, he added: “I don’t think my story is unique, I think I am at the early side of the bell curve of the coming social and economic disaster tidal wave that is already underway and began with knowledge workers and creatives. It’s coming for basically everyone in due time.”\n\n[https://gizmodo.com/laid-off-metaverse-engineer-says-he-is-doordashing-and-living-in-a-trailer-2000602465](https://gizmodo.com/laid-off-metaverse-engineer-says-he-is-doordashing-and-living-in-a-trailer-2000602465)",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1ksgp4t/laidoff_metaverse_engineer_says_he_is_doordashing/",
+      "comments": [
+        {
+          "body": "What's the career question?",
+          "score": 10
+        },
+        {
+          "body": "The tech scene in upstate New York is not great.",
+          "score": 3
+        },
+        {
+          "body": "Well yeah I’ll admit the market is tough for software engineers living in upstate New York who only have experience at a company working on Metaverse solutions. \nThis really seems like a cherry-picking scenario. I’m not going to pretend and say the job market is good but this is just a developer who got laid off from a job focused on the Metaverse and likely doesn’t live near great job opportunities. I’m sure the job market for Adobe Flash engineers in rural West Virginia isn’t great either.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Amazon vs DoorDash New Grad SWE offers",
+      "body": "I recently signed my Amazon new-grad offer (starting February 2025), and I was fortunate enough to pass DoorDash interviews and just received their offer as well.\n\nFor context:\n\n* I interned at Amazon twice—once in Austin, and once in Seattle. I loved both teams, and my managers did a great job shielding us from Amazon's notorious culture.\n* The new-grad position at Amazon is based in Seattle, in the same building I interned at, but there’s no guarantee I’ll return to the same team.\n\nFirst-year TC:\n\n* **Amazon TC**: \\~$185k\n* **DoorDash TC**: $195k\n\nAlso side notes, I noticed that the second-year TC is significantly different:\n\n* **Amazon TC**: \\~$178k\n* **DoorDash TC**: \\~$165k\n\nThis pay cut at DoorDash doesn’t make much sense to me—do SWE roles at either company typically see raises in base salary or extra stock refreshers?\n\nWhat matters most to me:\n\n* Culture: inclusive and collaborative\n* WLB: 45 hours a week max and flexible work schedule\n* Career advancement: want to get promoted quickly or get higher-level offers from other companies\n* Job security: minimal layoffs and PIPs\n\nFinally, if I go with DoorDash and renege Amazon, do I get blacklisted? Other reddit posts suggest that you don't, but I'd like to confirm.",
+      "subreddit": "cscareerquestions",
+      "score": 3,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1hd1uka/amazon_vs_doordash_new_grad_swe_offers/",
+      "comments": [
+        {
+          "body": "take amzn. \n\n1. you have a chance to get on the team you feel comfortable with, even if that doesn't end up happening but you'd at least know you potentially could move to a team that you like down the road. vs. being completely out of your control at DD.\n\n2. DD has a single product line that's in a low margin industry where the hyper growth if not the peak has passed. amzn has infinite space to grow for the foreseeable future and more locations you could move to down the line.\n\ndoesn't answer your bullet points directly, no i'd imagine no one has a the foresight to answer them anyways",
+          "score": 50
+        },
+        {
+          "body": "As someone who's worked at both (Amazon as a new grad, then DoorDash), I'd probably recommend to go for Amazon if you found a team that you enjoy and you like the work.\n\nDoorDash is very hit or miss based on team; I am on a team that does some interesting work and has pretty good wlb, but that definitely is not the case for other teams I've seen. You can always hop after a couple years if you're unhappy, or transfer internally down the line with way more options.",
+          "score": 10
+        },
+        {
+          "body": "DoorDash is scary to me. Any whiff of a recession and they’re probably screwed. Amazon is more sustainable and has way more variety. HOWEVER, my friend worked for Amazon and he quit due to insane stress and poor WLB. He had on-call shifts that were nightmares. Lots of blame. Pointing fingers. It sounded terrible.",
+          "score": 7
+        },
+        {
+          "body": "Can't speak for Doordash specifically but generally tech companies that aren't Amazon will give you refreshers so that second year TC turns out to be higher than the number you posted.\n\n\\- Culture: wouldn't expect either has an inclusive or collaborative culture but can get lucky with team\n\n\\- WLB: Either may have bad wlb but again, may get lucky\n\n\\- Career advancement: Not sure about comparing promos between the two, but probably more opportunity to switch to a team you're interested in at Amazon. Big tech companies would probably consider you for L4 after some time at either of these, I guess Amazon probably has the slight edge overall but recruiters know what Doordash is. But since you already interned at Amazon, I honestly would give it to Doordash.\n\n\\- Job security: I believe Doordash has imported the Pip culture but Amazon is the OG so really just a roll of the dice.",
+          "score": 3
+        },
+        {
+          "body": "Late but I had a similar choice and returned to Amazon. I was put on a different team which was not a good fit for me so I started the internal transfer process after like 3 months. \n\nIt was super easy to get other teams interested in me and I ended up on an awesome team that was better than the one I interned with. So don’t be worried about which team you get placed on because that’s always an option.",
+          "score": 2
+        },
+        {
+          "body": "I'd take Amazon. WTH is doordash doing, they're clearly running dry or something. They seem to be super disorganized and slowly ramping their engineering budget down.",
+          "score": 3
+        },
+        {
+          "body": "I've worked at both, Amazon sucks. Also you get ~20-25k a year in stock refreshers at DoorDash, it's performance based but that's the target.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Feeling beat up and spit out",
+      "body": "I just did a round of 5 on-site interviews and got rejected from all of them. I'm about to hit year 3 of unemployment.\n\nI used to work on a networking OS for a large company. I worked there for 5 years and got laid off. I didn't really like the work, and wanted to move up the stack to web development. I did a few interviews while I was working, but I had a really long commute and it was hard to give the attention that was needed.\n\nWhen I got laid off, I felt like it was a good thing because I would have the time needed to give the attention required to job searching. I did a few interviews here and there, but didn't get very far. Then I got involved in a personal project that I worked on for about a year. It was code related, but not directly web development. That project didn't work out, so about 1.5 years into unemployment I started putting my nose down and applying hardcore.\n\nSince then, I've sent out hundreds of applications, talked to dozens of people, and have been through all different parts of the interview process, but can't ever seem to get an offer. My life is practically in shambles at this point. I've drained my 401k. I've racked up CC bills because I thought it would just be temporary and I would have a job by now. I'm doing side gig stuff (Uber/Doordash) almost every waking hour to pay my bills. I also lost contact with most of my friends since I don't have any free time, nor free money to grab lunch/drinks.\n\nI've been coding since I was like 13, I have a CS degree from a decent state school, and I've taught myself almost everything I can outside of hands-on web dev experience on significant projects. I have shit on my GitHub, I have a decent portfolio website. I'm not a Leetcode wizard, but I can do Easy problems and a lot of Mediums with no issues. A lot of my coding interviews lately haven't even been heavy on algos. I'm 30 years old, but I don't think that's THAT old?\n\nI just don't know what I'm doing wrong. I know I don't have much web dev experience outside of personal projects, but half of the people I talk to that interview me say that they knew NOTHING when they were hired. Most of them are coming out of dev bootcamps.\n\nSorry for ranting, and I'm not looking for pitty, I'm just so beat down and desperate and would appreciate any criticisms, advice, or direction that anyone would be willing to offer",
+      "subreddit": "cscareerquestions",
+      "score": 67,
+      "url": "https://reddit.com/r/cscareerquestions/comments/ctme8y/feeling_beat_up_and_spit_out/",
+      "comments": [
+        {
+          "body": "[removed]",
+          "score": 58
+        },
+        {
+          "body": "On a positive note, you said you just did a round of 5 on-site interviews so it sounds like you are able to get interviews. Is there any way you can get some feedback from any of them to see why they did not pan out?\n\nI’m sorry you’re going through such a rough patch. I think the standard advice applies here: don’t give up and keep looking. Try different options, maybe even remote / freelancing jobs. If you can show that you are capable and can do the job, there will be someone out there who will want to use your skills. Good luck and all the best!",
+          "score": 20
+        },
+        {
+          "body": "Can you target lower paying dev jobs just so you can get a foot back in the door? I know it sounds horrible but at some point being cheaper will give you a chance. The only other thing I can think of is that something goes wrong in the interviews that is not tech related, assuming you are as competent as you say. Maybe you are trying too hard or coming over as over-confident/arrogant. Or maybe the opposite, you come across as lacking in confidence. I don't really know, just random guesses. Try not to lose heart. Keep coding in your own time and keep at the job search, good luck!",
+          "score": 5
+        },
+        {
+          "body": "&gt; I just don't know what I'm doing wrong.\n\nThere aren't really any details in your post we could use to figure this out either. What happened in the 5 interviews you got rejected from? What did they say? What did you say?",
+          "score": 5
+        },
+        {
+          "body": "You took a year and a half off. That was a bad move. You need to talk to some contracting outfits. Take anything at this point. Slave labor.",
+          "score": 23
+        }
+      ]
+    },
+    {
+      "title": "How long to find a job is normal",
+      "body": "Asking for a friend\nHe was laid off last march due to covid layoffs\nSo far he hasnt been able to find a job in tech and just took a part time job doing some side work like doordash to pay the bills\n\nNo degree but did a boot camp, has 4 years experience as a role in java development/frontend. Before that 2 years in IT support.\n\nHas heen applying since last july so its been 1.5 years\nI referred him to a colleague and was interviewed by my colleagues company but he did not get that one\n\nIs it normal or is he doing something wrong\n\nHe has an interview every few weeks to a month and tries to prepare for them but doesnt end up getting the job. Is it just really competitive now and you have to be a superstar to excel? It wasnt that hard for him to get his last two jobs so i dont know what has changed.",
+      "subreddit": "cscareerquestions",
+      "score": 5,
+      "url": "https://reddit.com/r/cscareerquestions/comments/quhyck/how_long_to_find_a_job_is_normal/",
+      "comments": [
+        {
+          "body": "I’d say 6-8months at the latest but it varies by location massively.  Not that it makes a difference to your friend.\n\n\nYour friend should be okay given his 4yoe.\n\n\nHow strong is your friend technically?  Is he the sort to interview well?  I’d work on mock interviews.",
+          "score": 3
+        },
+        {
+          "body": "1.5 years to find a new job is abnormal for sure. I would say 3-6 months of dedicated job hunting should find you something without much issue. The market is pretty good right now and was insanely hot a few months ago. Remote jobs are still uncommon but reasonable to get, especially over a 1.5 year time frame. \n\nHe has 4 yoe but might be at the \"expert beginner\" stage in his career. He could be decent at a junior level but not quite up to mid-senior level and companies would rather hire someone they can build up from scratch. \n\nAt this point, I would suggest he goes to a few mock interviews with career advisors and get their take. He could be doing something very wrong or be failing at technicals.",
+          "score": 2
+        },
+        {
+          "body": "Your friend got laid off into a bad job market. So taking longer than usual in 2020 is understandable. \n\nThat said, the job market has been hot all of 2021. If he’s having difficulty finding a job with experience then something is definitely wrong. \n\nHe should be getting interviews constantly, and ideally should be getting offers on some percentage of those interviews. It sounds like he needs to both work on his resume and his interview skills.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Lightning fast rejection",
+      "body": "So long story short I applied to the DoorDash New Grad position and I shit you not, I got a rejection 3 hours later. Has anyone else been rejected from DoorDash this quick? Or any company? ",
+      "subreddit": "cscareerquestions",
+      "score": 14,
+      "url": "https://reddit.com/r/cscareerquestions/comments/7l3zjc/lightning_fast_rejection/",
+      "comments": [
+        {
+          "body": "Probably auto filtering.",
+          "score": 19
+        },
+        {
+          "body": "I applied to Playstation on Friday and then I got a rejection email on Saturday.\n\nWhat kind of recruiter is working on a Saturday throwing around rejection letters?",
+          "score": 4
+        },
+        {
+          "body": "Got a LinkedIn message (Chicago based startup), call from recruiter a day later, sent resume, 30 minutes later got rejection email",
+          "score": 3
+        },
+        {
+          "body": "You don't want to work for DoorDash anyways. They did you a solid.",
+          "score": 2
+        },
+        {
+          "body": "LOL. Niantic rejected me within an hour.",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Doordash intern to full time requires reapplying?",
+      "body": "So I just got off the phone with my doordash recruiter and I asked about intern to full time return offers. My recruiter told me that I would have to reapply to the open positions and interview again. Is that what other people experienced?",
+      "subreddit": "cscareerquestions",
+      "score": 2,
+      "url": "https://reddit.com/r/cscareerquestions/comments/rw4gjq/doordash_intern_to_full_time_requires_reapplying/",
+      "comments": []
+    },
+    {
+      "title": "Advice on early career. Revature/bootcamp...",
+      "body": "\nI graduated from college in 2019 winter with a degree in electrical engineering and covid really hit hard. Before covid I was getting decent amount of interviews but my gpa wasn't the best 2.5. but during covid it seemed like everyone stopped hiring for those positions and I spent months hearing nothing at all back from anyone. I ended up working at doordash to make ends meet and that is where most of my time went. I already knew a fair bit of coding in college. I took 4 classes (Intro to java, intermediate java. Then c++ and a low-level architecture class) and really enjoyed it. This year I have spent time taking udemy courses. Dr.angela yu's course on web development was a god send. I spent a hours each night doing the course cause I'm honestly depressed where I'm at and was able to learn it quickly. I'm in the process of building a portfolio, my idea is to build a basic html/css/java billboard website, then do a clone of tinder with incorporated socket.io and react.  And then a couple projects showing basic . Net or flask websites and a react/redux mongodb e-commerce site.  The problem is I still feel like I'm years away from ever getting a job or even someone to respond to my resume for software because I have no experience and there's so much stuff I feel like I don't know..like how to properly test code or ever used a test environment...etc. Revature reached out to me and don't get me wrong it looks like hell and seems like it's super expensive compared to udemy courses but it will be a lot better than doordashing if I can actually get a job; which it sounds like they lineup with a partner. my other option would be to do a traditional bootcamp because they honestly sound a lot less like slave labor. Either way I would still be stuck with a Isa, because I am broke and still have college loans. \n\nP.s either option I have already decided to do the freecodecamp.org because I just need to get better at coding, also 26yo male.\n\nTldr: no work experience, new to coding feels like I'm wasting my life. Should I do a bootcamp/revature?",
+      "subreddit": "cscareerquestions",
+      "score": 4,
+      "url": "https://reddit.com/r/cscareerquestions/comments/nwtd7j/advice_on_early_career_revaturebootcamp/",
+      "comments": [
+        {
+          "body": "If you find yourself in a difficult place in your life, we urge you to reach out to friends, family, and mental health professionals. Please check out the resources over at /r/depression, /r/anxiety, and /r/suicidewatch. Feel free to [contact the /r/CSCareerQuestions mods](https://www.reddit.com/message/compose?to=%2Fr%2Fcscareerquestions&amp;subject=&amp;message=) for more information or help.\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/cscareerquestions) if you have any questions or concerns.*",
+          "score": 1
+        },
+        {
+          "body": "First, I don’t think anyone should ever do Revature. I’ve seen too many people with zero background do a bootcamp and get a decent paying SWE job within 6 months to ever suggest someone should do Revature.\n\nSecond, your plan is fine, but I think you’re focusing on too many things. C++, Java, React, .Net, Flask…just focus on one frontend framework, and one backend framework. Get to know them really well. Even if you don’t end up working with those frameworks specifically, that deep knowledge will be more valuable.",
+          "score": 6
+        },
+        {
+          "body": "If you ever feel like giving yourself contract-related PTSD, someone on here can probably describe the Revature contract to you in detail.  However, as DZ\\_tank said, focusing on just one thing will be a great way to hone your marketability.\n\nUnderstand, though, that you need to drill one language into yourself until it becomes second nature.  You want resources that basically turn you into a walking, breathing compiler.  I have Java resources that I can point you toward, if you're Java-oriented.  I'd say that you should try to \"master\" one language and then \"master\" one framework using that language (i.e. build simple things without a reference guide and talk about complicated details of the most common aspects of the language / framework accurately and comfortably).  Do that, and you can definitely land at least an entry-level job.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Got the offer - where do I go?",
+      "body": " \n\n**TL;DR** I've got three options (Meta/FB data scientist L4, Doordash senior data scientist, Stripe data **analyst** L3) with similar pay scales and having a hard time choosing between them. I know it's data science and not software engineering - but I believe we share some things in common (if not technically then at least as a shared tension with PMs).\n\n**Background:** I come from a banking background as a technical business analyst (SQL, Python, light ML, some experimentation). I've been very fortunate to get to this stage where I was able to interview at the same time at a few places thanks to COVID (and zoom on sites) - after many a rejection. At this stage, I have 3 offers:\n\n1. Stripe data analyst: \\~280k TC offer (up a level relative to my other two offers), can work out of Seattle/NYC/remote\n2. Meta/FB data scientist, product: \\~210k TC initial offer (counter-offer in the works due to Stripe offer), any location possible\n3. Doordash senior data scientist, business operations: TC unknown (will learn more today but they're aware of my competing offers), can work out of anywhere they have an office\n\n**Advice**: I have two key decisions to make, what company do I want to work at, and where do I want to work (geographically)?\n\n**Things I care about** (roughly in order)**:**\n\n* Worklife balance\n* How interesting the work is (can I develop my SQL/Python/Product/Experimentation/ML skills, and eventually rise in the ranks of the DS world as a manager?)\n* Take-home pay (local tax rates become relevant)\n* Being in office (eventually - so remote is off the table)\n* Weather (warmer and sunnier the better - as most people would probably opt for)\n\n**Dilemma**:\n\n* Stripe's offer seems really interesting, and I really like the people I've spoken to. I have concerns about WLB but I don't anticipate that being any better or worse elsewhere (pls correct me if wrong). They're not offering a seat in SF however so I have to pick between Seattle and NYC. Additionally, they're not offering me a DS role but a DA role instead - is that a big deal (the work seems really similar as they've described it)?\n* How should a 27-year old think about Seattle vs NYC? Of course, NYC seems more interesting from a pace of life perspective but after accounting for income tax and rent difference I estimate that it's $40k more to live in NYC than Seattle. How do I compare the value of living in NY vs Seattle to $40k? As I said above, I really care about the weather, but I'm also torn between outdoor activity opportunities in Seattle and the nightlife/cultural offerings in NYC. Ultimately SF seemed like the best spot to get the best of both worlds but it's not an option at Stripe. What do you think?\n* I've mostly discounted Doordash because the business operations function of the business doesn't seem as exciting, and the name doesn't seem as appealing on the resume. Am I wrong to do so?\n* I'm not in the tech world (yet) so I feel like I'm missing a read on what names look best on the resume, who has the most exciting workplace environment, and who's doing the coolest data science work. Please chime in on any aspect of my decision.\n\n**Top options (in my mind)**\n\n1. Data Analyst at Stripe - NYC\n2. Data Analyst at Stripe - Seattle\n3. Data Scientist, Product at Meta - SF\n4. Data Scientist, Biz Ops at Doordash - SF\n\nWhat do you think?\n\n**Thank you, and sorry for the long post** (x-post from datascience)**!**",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/qznqo7/got_the_offer_where_do_i_go/",
+      "comments": []
+    },
+    {
+      "title": "Making the most out of my shitty job + the last couple of months of college",
+      "body": "Hey everyone\nI'm a current senior who's looking for Full Time roles as well as part time roles for before school ends (which is in mid June). \n\nSince the beginning of the school year, I've gotten interviews/screens/coding projects/coding assessments from 15-20 companies. This includes on campus interviews with Facebook/Microsoft/WeWork, coding assessments from Google/theTradeDesk/ServiceTitan, phone interviews with Qulatrics/Dell/Cerner/DoorDash, onsites with Tallan/Synoptek, recruiter calls with Procore/OpenTable, etc. etc. and many more. \n\nThe point of this post isn't to brag about how I've gotten these interviews; it doesn't matter since I never passed them. \nFor most of the year, and still now to a degree, I've been very frustrated due to my lack of ability to pass a technical interview (so it seems). I actually passed it for Tallan, but something that I did during the behavioral section indicated to them that I don't handle criticism/feedback very well so they rejected me (this was very frustrating because it came at the same time that DoorDash rejected me for not doing well enough on their phone interview). :'(\n\nDuring winter break, I finally got my positive response: a local startup wanted to hire me for an internship after one behavioral interview. I was excited at first... and then I realized that this company would be underpaying me at $15/hr, with two other engineers that are FTs (both getting paid 55k/year or so) who don't have a lot of experience either. I've been here for two months now and everything that my CEO has done has indicated to me that it doesn't really seem like he wants to invest in his engineers. It is rather frustrating. These guys didn't budge when I asked to negotiate my hourly pay.\n\nI took this job because I had nothing better, and wanted the money &amp; experience. I don't hate it per say but multiple times a week I find myself getting really bitter over the fact that I'm at a place where I feel like \"bottom of the barrel\" talent go to; but I'm trying to stay positive.\n\nI have interviews scheduled with Dell (again), Redfin and a few more coming up over the next couple of weeks. I'm still applying.\nI don't know why I can't pass an interview; maybe its statistics. I know for sure that I get really nervous during technical interviews. Most of the time I just try to be myself and honest and let everything else do the work; I think I'm pretty good at communicating.\n\nBut I don't know what to do about this shitty startup that I'm in, why I deserve to be here, why don't I deserve better, etc. etc.\n\nI'm graduating in June and I have some options as to what to do but I just wish I had more offers.\n\nAnyone have any advice?",
+      "subreddit": "cscareerquestions",
+      "score": 1,
+      "url": "https://reddit.com/r/cscareerquestions/comments/8074ww/making_the_most_out_of_my_shitty_job_the_last/",
+      "comments": [
+        {
+          "body": "You’ve had interviews with Google and Facebook, have you ever received feedback for why they didn’t want to move you to the next phase?\n\nAnd how do you think you present yourself as an actual candidate? We tend to be our own worst judges, and interviews aren’t just a measure of technical ability. You kind of have to be the complete package for companies, so even if you tell us that you do well on technical interviews and that you’re a good communicator, we can’t assess that.\n\nI’d say you may want to sign up for something like interviewing.io and get some mock interviews in and see what you’re feedback is like.",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "\"There are jobs everywhere during this pandemic. Quit being lazy and apply.\" If this is your position you need to get in touch with the real world real quick.",
+      "body": "UPDATE: I kept applying and finally caught the attention of a major retail chain. They scheduled an interview and I was hired on the spot. Full time, $17 hour, night shift stocking. Thank you all for the support and kind words!\n\nI have applied and applied over and over and over again for many different jobs over these few months... I have received absolutely ZERO calls, ZERO emails, and ZERO notifications for an interview or selection. Granted there are around 100+ applicants per job that I've applied to so I can understand that I'm essentially swimming up a waterfall right now and that's fine... BUT OVER HALF A YEAR OF ZERO COMMUNICATION AND APPOINTMENTS FOR INTERVIEWS??? WHAT'S GOING ON? I have a great work ethic, great references, actual hands on experience, no criminal history, and I'm very flexible with my schedule. It's like someone immediately finds my application and just deletes it. I'm soo desperate for work that I'm tempted to apply to some fast food places since those guys seem to hire literally anything with a pulse that's capable of speech. I'm just worried that I'll eventually regret making that decision.\n\nIn the end this is just a little rant because I am very sick of hearing people in my life and on social media that are 5 tiers above me on the social ladder tell me that I'm \"not trying\" and that I \"have no drive or ambition to work.\" or I'm \"using covid as an excuse to be lazy\"... Some people are absolutely clueless to what's actually going on out there.\n\nEdit:\nThank you for all of the thoughts, advice, and general support that you shared my way. I'll certainly keep everything in mind when trying to land a job, but I just needed to rant for a moment. Some people have asked what my line of work is... Well isn't very special. I'm experienced with being a stocker, warehouse associate, cashier, customer service representative, and delivery driver. Speaking of delivery driver I'm currently doing Doordash to help keep me afloat until I find reliable employment. \nAlso, to the people saying \"I guess you got a shit resume\" or \"you ain't qualified enough\"... My resume is fine. It's simple, it's classic, it's a resume. And the jobs that I'm applying for I have experience working in. Sure the jobs don't require a degree or special training, but it's work that I'm familiar with and enjoy. I'm hoping that I can get a job, work for awhile, save up enough money, and then get the fuck out of this country so that I can pursue some higher education. Maybe I can put my efforts into something useful and start making money on my own without the need of some rich prick giving the good loyal little boy his dollar.",
+      "subreddit": "jobs",
+      "score": 1562,
+      "url": "https://reddit.com/r/jobs/comments/p2cq0y/there_are_jobs_everywhere_during_this_pandemic/",
+      "comments": [
+        {
+          "body": "Hello, thank you for posting to r/Jobs! \n\nWe just wanted to let you know that we have a new [discord server, come join the chat!](https://discord.gg/TY6ErXV)\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/jobs) if you have any questions or concerns.*",
+          "score": 1
+        },
+        {
+          "body": "[deleted]",
+          "score": 741
+        },
+        {
+          "body": "I've thankfully held a decent paying job through the pandemic (gov contractor in logistics). Everyone is now saying \"look for a job that pays more, people are needed\". I've literally only received one offer and was for the same position I'm currently doing, with a much higher profile contractor, more responsibility, more qualifications with the \"ideal candidate\" having two vastly unrelated fields of experience(supply experience and prior Navy Sonar Technician) which is near impossible to find. Got a call and was offered 50% less per hour than I'm currently making. Fuck that shit.",
+          "score": 99
+        },
+        {
+          "body": "There are jobs but the pay, hours, and benefits are non-existent. It's not lazy to want to be paid decent.",
+          "score": 89
+        },
+        {
+          "body": "I've been looking for some part time remote work to do after my real job this past week, and every one of them has \"URGENTLY HIRING!\" \"RESPONSIVE EMPLOYER\" all over the indeed posting yet not a single one has gotten back to me...but yes, I'm the lazy one",
+          "score": 148
+        },
+        {
+          "body": "Well, here’s what I know. My $10/hr job is (supposedly) coming back next month unless the Covid infections get much worse. Since I’ve been on unemployment I’ve decided that I wanted to find something I can do at home. I have a degree. I have transcription skills. I have basic data/computer knowledge. I can’t tell you how many dozens of remote jobs I’ve applied for over this past year. \n\nI discovered there are either 100,000 other people applying for these same jobs or these jobs aren’t jobs at all; they’re scams. Normally when you apply for a job you’re competing with other people in your community. An online job puts you against the whole country or even the whole world. The odds of getting something legit are, as I discovered, not impossible, but not likely. I had more replies telling me to ‘get a telegram account and reply with this code - NOW’ than I can remember. Most of these permanent, legit, at-home jobs seem to be places where people were already working at or they know someone else currently working there. I found it impossible to find a place doing cold searches. \n\nI’m not giving up, but the reality is I have to go to work. I don’t like going back to what I was doing before because the trend is to chase after a new dream, but I can’t afford to drop everything and take that chance. Especially after a year of applying and not finding anything. \n\nSo you’re not alone. Hope that helps. I definitely get how you’re feeling.",
+          "score": 152
+        },
+        {
+          "body": "This brings back so many memories of my job search. Ugh!!! The depression. I did everything \"right\" (tailored resumes and cover letters, had 3 diff versions of my CV, used every single keyword I could based in the job position, networked on LinkedIn, reached out to people I knew that worked at promising companies, i have years of experience, a degree, physical letters of recommendation from VPs and vendors - EVERYTHING they say to do. And out of hundreds of applications over 2yrs, I had maybe 4 or 5 interviews and after 2.5yrs landed the job I have now!\n\nIt is tough out there...seriously. Please be kind to yourself and practice self care - because this search gets hard and painful. Hope things turn around for you!",
+          "score": 137
+        },
+        {
+          "body": "No, no. There are tons of jobs available. They pay around $300 a week, offer no benefits like health insurance, or paid vacations. They'll play fun games like offering $12/hr, but only allowing you to work 24 hours a week. (Which is roughly the same amount of money as working 40 hours at minimum wage) and will fire someone the first time he or she expresses any hint of discontentment. \n\nYou want a job that pays more than $600/week? Too bad. That's not in their budget. These are just \"starter jobs\" for highschool students, never mind that you need to be available Friday at 10:00 AM for lunch rush.",
+          "score": 148
+        }
+      ]
+    },
+    {
+      "title": "Difficulty getting a part-time minimum wage job",
+      "body": "My husband and I both live in NJ and make $171,000 a year combined. We live in an expensive part of the state and have a lot of debt. We’re going everything we can to pay it down. My husband worked for a liquor store part time for a few months until they had a new owner and they laid off most of the employees. Since then, he’s had no luck getting any part time job.\n\nTwo supermarkets told him his hours (15 to 20 per week) and availability (every weeknight and all day on weekends) were great and he interviewed well. They both ghosted him and he finally got them on the phone. They said “Oh it’s not going to work out. We need 30 to 35 hours per week.” Why the F didn’t they tell him that up front instead of ghosting him??\n\nThen I shop in these stores and see that they hire people who do not speak any English. I asked an employee a question. She said: “No English” and ran away. How did this person get a job but my husband can’t? I’m sure the person was capable of doing the job to an extent. However, if you need to communicate with customers how could they put you on the floor without being able to speak the language?\n\nThen he applied to a sandwich shop. They said they desperately need help. The hiring manager was out last week so he calls today. She’s there but wouldn’t/couldn’t come to the phone and will supposedly call back. Which they never call back. Maybe I’ll be proven wrong.\n\nAnother liquor store said they have college kids currently working so they aren’t hiring but they’re going back soon. My husband followed up last week. The manager says he doesn’t know when they’re going back. Wouldn’t they know by mid-August when they’re going back to school?\n\nBig places like convenience stores and Target never respond to online applications.\n\nMy husband dresses well and is articulate. Is it really that difficult to get a minimum wage job in today’s society? I’ve been doing DoorDash on the side, but that’s not really reliable income. I know a guy that the supermarket hired and he’s brain dead. He gets drunk and calls out all the time yet he still has a job. I’m not sure how. Sorry for the bad attitude. I’m frustrated. My husband actually wants to work and can’t get anything.",
+      "subreddit": "jobs",
+      "score": 6,
+      "url": "https://reddit.com/r/jobs/comments/1mtrewv/difficulty_getting_a_parttime_minimum_wage_job/",
+      "comments": [
+        {
+          "body": "I had an interview a while back and the lady said I’ll call you back, I promise. I always call people back. \n\nMy skepticism was confirmed",
+          "score": 14
+        },
+        {
+          "body": "The job market is a flaming cesspit right now. There are far more job seekers than there are open jobs. Most people are having issues finding full and part time work, to put it mildly.",
+          "score": 13
+        },
+        {
+          "body": "Part of the answer is that the current employees have already been working there, maybe for years.  Maybe they were hired during the COVID lockdown, when employees were scarce.  Right now, the amount of competition for those jobs is INTENSE.  Employers have no good way to even weed through all the applicants.  It's basically sheer luck.\n\nBut maybe there's something about your husband that is off-putting.  Or maybe they just think he's really overqualified, and they don't want a short-timer.  Have him try applying without dressing so well, and leaving his education off his application.",
+          "score": 4
+        },
+        {
+          "body": "Just checking off the obvious boxes:\nDownsizing house/cars/etc is not an option?\nAll extra expenses have been eliminated? \nTight budgets are being followed?\nYou're thrifting and following your local FREE FB/ND/Craigslist pages for necessary items?\nEveryone has cut back on or eliminated any addictions?\nYou've called utilities for energy efficient updates or ways of reducing your bills? \nNegotiated with internet mobsters for reduced rates? (Google some tips on this. It helps to threaten you're canceling service.)\nMeal planning and buying bulk?\n\nDo you have several children? \nMaybe I can't math correctly, and I dont know NJ, but 171k/yr seems livable and debt-dentable.\n\nConsider Uber Friday/Saturday nights in your nearest college town? \nIdk, everyone said the rest. The job market is tough and your husband probably looks TOO capable for a minimum wage part time job.",
+          "score": 3
+        },
+        {
+          "body": "The biggest issue I have found trying to get a second part time job is my hours availability. Most of those positions don't want to have limits on their ability to schedule employees. Even the ones that say evenings only want to have people they can call to cover shifts. Some even want to be the first priority for your availability. My last one said no more than 20 hours a week and then got frustrated because I wouldn't/couldn't work 32-40 hours. It seems they advertise part time hours but really want you to work full time hours but not qualify on paper for benefits.",
+          "score": 2
+        },
+        {
+          "body": "There’s an INexpensive part of New Jersey?",
+          "score": 2
+        },
+        {
+          "body": "They can dupe a person who doesn't speak english well and cut corners, it'd be harder to take advantage of your husband in that way who could demand more from them.\n\nYall will be fine if you don't give up, you have each other and that's more than most of us can say\n\nFor context I'm about the same age and desperately searching in southern cali. The entire country is on fire, in turmoil, and it's not going to change any time soon. We just gotta deal with it til people are capable of more radical changes, quite frankly",
+          "score": 2
+        },
+        {
+          "body": "They know he's overqualified. Is there any way to take some freelance consulting gigs for what you do in the 9 to 5? Or offer consulting services?",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Has it always been this hard to find a ENTRY LEVEL JOB??",
+      "body": "I had a really great paying job and quit, expecting to make as much as I did before doing other stuff. Im now struggling despite mentally feeling better 😅. All seriousness, I'm going to explain what's going on. I need advise.\n\nWhen I was offered my TL spot by who we will call C, I told her if I were to take the promotion, I still had to have set availability due to college and personal reasons. I was told I would have my needed schedule, and that it worked perfect to their needs: Wednesdays and Thursdays off, and would work 5-2. It was mentioned multiple times during this job offer that I NEEDED this schedule if I took the promotion. She assured me I would have it and they wanted me to take the promotion.\n\nI had that schedule for maybe three weeks, then it got changed:\nSunday, 5am-2pm\nMonday, off\nTuesday, 2pm-11pm\nWednesday, 10am-7pm\nThursday, 5am-2pm\nFriday, 2pm-11pm\nSaturday, off\n\nShe also gave me open availability for all days of the week, but not even the other team leads up front had open availability (not to mention my schedule change was already random and never discussed with me). I also at LEAST once a month worked 2pm-11pm and then 5am-2pm the next day. I'd end up sleeping in the parking lot. I confronted C about it, explaining to her she told me I'd keep my same, needed schedule, and I explained that I only took the promotion because my schedule was promised. I was full time in school, our GSD is in K9 training, and more, so it complicated a lot. She pulled up my schedule and proceeded to tell me WORD FOR WORD, \"Well I don't know what to tell you, you're SOL\".\n\nSince then, for the next 4-5 months, I had been trying to demote and hopefully transfer. I'd been constantly talking to my stores management to \"help\" me transfer, and also the other stores management. C eventually got mad because I hadn't transfered yet but she has \"everything in place\" for me to leave, but I can't control the other store, and they wouldn't demote me in the same store. Despite only ever having 0 points since 2022, I kept racking up points because I kept having to call in for school stuff that wouldn't get excused bc of \"my role\". That made it even harder for me to demote or transfer. I was at 4.5.\n\nSo then, I'm about to have a point fall off, and I get coached for not telling anyone I went to break, WHEN I TOLD, WHO WE WILL CALL B, I WAS GOING, AND HE SAID OKAY, THEN WENT TO LUNCH, TELLING NO ONE WHERE I WAS (he was the other TL on shift). So now I definitely can't transfer and I'm struggling with working and school and the dogs training, not including the time it takes me to get EVERYWHERE for EVERYTHING (I commute 35-40 min just to go to work) and I have slept maybe 2-4 hours the past five months regularly and I literally felt like I was going insane and I've been so depressed.\n\nI never got to see my husband or family anymore and I had tried everything to demote or transfer and C was so unhelpful and so was the other store. My husband deploys soon and just I was so sad. I  DoorDashed on the side of Walmart for fun sometimes, and I thought I'd make enough doing that based off other times I dashed, so I quit. But now, I'm barely making anything doing it. We don't go out and eat or get random stuff we don't need. We pay our needed bills and debt. We own a house at 19 and 20 and don't want to lose it. \n\nI have applied at over 300 jobs on Indeed, and I've applied on any possible company website. I've called everywhere I could to ask about my applications. They always say they'll call back and they don't. I've had maybe four interviews and they're all ghosting me. This is the only job I've quit, and I feel it's good reasoning. I have great retail and management experience for Walmart and Taco Bell. I've been on medication and therapy and met with psychiatrists due to everything. I've tried petsitting and babysitting and still nothing. I've sold my iPhone and gotten a cheap phone, sold my watch and iPad and anything expensive I could possibly sell. I had to drop out of school to try to work. Please, I need some advice on how to make just even $130 a day 💀",
+      "subreddit": "jobs",
+      "score": 6,
+      "url": "https://reddit.com/r/jobs/comments/1ozkf1v/has_it_always_been_this_hard_to_find_a_entry/",
+      "comments": [
+        {
+          "body": "For more context, I was making a minimum of $780 a week. I've made maybe $300 this week doordashing. 😅",
+          "score": 1
+        },
+        {
+          "body": "Honestly, don't limit yourself to entry level jobs. First of all, make use of absolutely any connections you have with people who could hook you up with a good opportunity. Secondly, most people will apply for entry level jobs for the flexibility, and because they think it will be the easiest,  but since you already have good experience I would go for something not as many people are applying for like a manager position for example. Wishing you luck!",
+          "score": 1
+        },
+        {
+          "body": "man 300 applications with barely any responses is brutal but honestly that's the new normal for entry level right now. Companies are cutting junior roles or making requirements insane, and then you're competing with hundreds of others for whatever's left. one thing that might help is applying to way more positions faster - there's an article called entry level jobs are vanishing on the SimpleApply blog that breaks down why this is happning and has some strategies for adapting to it.  \n  \nThe main thing is you need volume AND customization, which is nearly impossible manually. also don't mention quitting without another job lined up in interviews if you can avoid it. Just say you were seeking better work life balance or needed to focus on personal commitments temporarily.  \n  \nAnd keep that LinkedIn updated with all your walmart management experience - retail operations experience translates to alot of roles. hang in there, the market is genuinley tougher than it was even a year ago",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Unemployed, Should I doordash in the mean time?",
+      "body": "Is DoorDash viable in the mean time waiting for responses from employers?\n\nI'm currently searching for a job right now as I just finished up college and I kinda need a little income at least. \n\nI don't really have any expenses since I'm living with parents and I plan on giving them a portion of my earnings - cost of maintaining my beater. \n\nThe car I'm using is really cheap on gas too so it looks like an ok option for now. Are there any other options as well?\n\n[Edit] So I tried doordash for a day and a half, and it's pretty shit for my area. Got an interview for a grocery store so hope that goes well for now.",
+      "subreddit": "jobs",
+      "score": 12,
+      "url": "https://reddit.com/r/jobs/comments/1lnnm3l/unemployed_should_i_doordash_in_the_mean_time/",
+      "comments": [
+        {
+          "body": "It's better than nothing. When I was in between jobs I did UberEats and made $100 per day- but then again, I was doing deliveries for 9-10 hours per day, and never took a day off because I had rent and utilities to pay. But, you're living with your parents so you shouldn't need to do it that much.",
+          "score": 12
+        },
+        {
+          "body": "I mean Door dash is totally an option especially if you're looking for something relatively easy to get into that offers decent hours. I also know that a lot of retailers and fast food places are desperate for employees right now so if you have any experience in retail or food service, you'd probably have an easy time getting hired. You might also look into stuff like pet sitting that can be good side money too",
+          "score": 7
+        },
+        {
+          "body": "DoorDash, donate plasma, sell a kidney, do what you have to do brother",
+          "score": 9
+        },
+        {
+          "body": "The IRS says it costs 67¢/mile to operate a car. You will not earn that much doing DoorDash. In other words, you lose money working for DoorDash.",
+          "score": 3
+        },
+        {
+          "body": "I know several door dashers. They sometimes do not have a good night with earning money. Tips in our area tend to be poor. One I know said he earned about $150 on a Saturday night. To me, that's not good money. When I was waitressing back in the 1990s, I could earn $150 in a eight hour shift.",
+          "score": 2
+        },
+        {
+          "body": "All those rideshare types are ok if it's busy and you're not driving far, they like to pay bare min and rarely tips anymore",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "I just got insta-rejected by 3 jobs simultaneously im so done with ts",
+      "body": "Idk how much longer I can keep doing this bs its been just over a year since my layoff, and while  its been nice not having the stress, I still need a job. And for some godamn reason im not good enough I put in 3 applications like a week ago and istg all 3 of them simultaneously rejected me one after the other. \n\nI did have an interview with a seasonal position which I seemed to answer somewhat well but nope, 2 weeks later they gone with someone else. In hindsight it was probably a waste applying anyways since I would've only worked barely over a month (mid November- end of December) yet they felt the need to go over the top on the selection process. It started with a phone screening which they emphasized on a criminal background check like 3 times then when I was greenlit (or however you say) I was interviewed by 3 separate ppl on a panel interview which was hell I felt like I was being interrogated for a crime, idk if that's normal for temp jobs but it felt a bit over the top.\n\nI find it funny since I've been applying, that seasonal job has been the only place to offer me an interview, its especially hard for me since I'm an ex-warehouse worker with no real experience in anything else, and I am NOT going back that hell hole, warehouse work is literally paid slavery where you spend all day in a concrete box either freezing or burning alive. I only took the job cuz atp I was fresh outa HS and was only working there for a work experience program.\n\nBut now idek what to do anymore its been over a year, and ive recreated countless resumes applied to way too many positions where I think the action of job searching on its own shown should be a paid role. If I cant find anything soon I might think about investing in a scooter and trying delivering for skip/doordash/uber eats, but I've heard its not worth it.",
+      "subreddit": "jobs",
+      "score": 0,
+      "url": "https://reddit.com/r/jobs/comments/1oq98cw/i_just_got_instarejected_by_3_jobs_simultaneously/",
+      "comments": [
+        {
+          "body": "Keep applying. Also find a local community college, go to their career center and tell them you need skills training\n\nThey have classes you can take that could lead to a job\n\nThe job market sucks ass everywhere.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Struggling to land a job after 6 months of searching — what am I missing?",
+      "body": "I’ve been actively job hunting for about 6 months now with no luck. In that time, I’ve applied to retail, food service, and blue-collar jobs, but nothing has stuck. I’ve had a handful of interviews that seemed to go well, only to end up with rejection emails afterward.\n\nRight now I’m barely staying afloat with DoorDash and my partner’s income, but I really want something steady. I feel like I’ve tried every market I can think of, and I’m starting to wonder if I’m doing something wrong in the process.\n\nFor those of you who have been through this, what strategies helped you finally land a job? Are there particular approaches with applications, interviews, or follow-ups that made the difference? Any perspective would be hugely appreciated.",
+      "subreddit": "jobs",
+      "score": 12,
+      "url": "https://reddit.com/r/jobs/comments/1mt1l0i/struggling_to_land_a_job_after_6_months_of/",
+      "comments": [
+        {
+          "body": "You're in the middle of an absolute dumpster fire of a job market, so for what it's worth - you're not alone, and you're not crazy. \n\nThe optimist in me says that we have a ton of  \"underground movement\" going on. So instead of the revenge quitting we saw in 21-22, it's now more calculated and everyone is waiting to see how the next few weeks are going to go. \n\nI can't point to a specific source to back up my opinion, but things are definitely shifting. Stay strong 💪",
+          "score": 2
+        },
+        {
+          "body": "I drove DoorDash and uber eats at the same time. Drive 10 hours a day. I did that so I can keep a float.",
+          "score": 1
+        },
+        {
+          "body": "You’re not missing shit. It’s the worst job market since 2008. Arguably worse in terms of tech/white collar. The official numbers are all a huge lie.",
+          "score": 1
+        },
+        {
+          "body": "By u/Cold_Specialist_3656 \n\n\n[Quote] Imagine being CEO. Watch orangeman demand Intel CEO be fired for reporting bad numbers and put export tax on Nvidia for the hell of it. \n\n\nWhat do you do? \n\n\nTell shareholders you're pausing hiring \"because of political chaos\"\n\n\nTell shareholders you're pausing hiring because \"blah blah AI magic\"\n\n\nThat's why PPI rocketing up last week surprised Wall Street. Companies have just stopped reporting layoffs and hiring freezes except for the few places where it's required. They've also stopped reporting to BLS if the numbers weren't good that month. Why risk retaliation when reporting is voluntary?\n\n\nNow let's get to why NYC numbers are bad: It's one of the only places in US where reporting accurate hiring statistics to the government is a legal requirement.\n\n\nThat's also why California unemployment rate is shooting up. Again, one of the only places where reporting isn't voluntary. \n\n\nExpect the BLS job numbers to be good, perhaps even improve as the economy crashes. Because voluntary reporting of bad numbers is now a political risk. Like in China and Russia. The numbers are already cooked. Companies will just withold reporting in months they have bad data and only report when the numbers are good. Nothing is stopping them. \n\n\nThat's also why revisions are getting larger. Companies aren't reporting bad numbers, and when BLS rectifies their voluntary monthly surveys with other data sources it doesn't add up.[/quote]",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "I got rejected by mcdonald’s",
+      "body": "just a rant i guess\n\nI graduated last year with a degree in computer science and have only got a couple contract jobs since then fixing wordpress sites. let’s just say it’s been going terrible and i only got 1 interview out of hundreds of applications. I was feeling so low one night , sobbing in bed at 3am I just picked up my phone and and applied to my local mcdonald’s. \n\nI get a text a week later telling me to show up the next day at a hiring event between 11-3 with a pen . I patiently wait my turn amongst the high schoolers in sweatpants to be interviewed by a woman who has been sitting outside for 2 hours already beneath a tent on the sidewalk giving 7 minute interviews ones after the other. she’s clearly over it but when my turn comes i smile and act eager as she huffs over the gaps in my work experience. she said they’ll contact me within a week if they have an offer.\n\nit’s been a week.\n\nI know it’s my fault . I know I need to apply to 200 a week, I know there’s something better and smarter i should be doing but that was my last desperate gasp. I’m not any better or more qualified than the other 2000 applicants for any job.  I can’t doordash i don’t have a car. what do mediocre people like me do?\n\nEdit: thanks so much to everyone who took the time to read this and offer words of encouragement and advice. I read all of them and i feel some hope for my future again.",
+      "subreddit": "jobs",
+      "score": 1248,
+      "url": "https://reddit.com/r/jobs/comments/16dq4ki/i_got_rejected_by_mcdonalds/",
+      "comments": [
+        {
+          "body": "Most service jobs won't hire people who have desirable degrees, they know there's a very strong chance that those people will leave for a better paying job as soon as possible. For places like McDonalds, they'd rather hire the high school dropout who is less likely to get a better offer anywhere else and leave. \n\nThe job market is tough right now. You have to accept that getting a job right now is not a reflection of your personal worth or value, but is rather a reflection of the current economic conditions. You are not a failure for not securing a job, but you have to keep trying. The only way to fail is if you give up.  \n\nHave you had your resume reviewed by professionals working in your field of work? Do you have personal projects that help you stand out? What's your GitHub look like? What kind of jobs are you applying to?",
+          "score": 1179
+        },
+        {
+          "body": "If going for a service job lie on your resume to make it more likely you get hired. \n\nI have my barista resume and my accounting one lol.",
+          "score": 260
+        },
+        {
+          "body": "I wouldn't let a rejection from McDonalds affect your self-worth. It's *McDonalds,* not NASA. Essentially, you are overqualified for the job, and that's why you were rejected. You aren't applying to the correct sort of things. If your credentials are in computer science, then you might need to look into working for companies that require coders. \n\nHave you thought about applying to some independent game developers? Those guys are always desperate for an extra coder or two. I'd work more on selling what you learned from your degree than applying to bogus places like McDonalds. A high school dropout is more suitable to work there. They know you're not a dummy, and that scares them.",
+          "score": 61
+        },
+        {
+          "body": "Dude. Do I really have to say this? You're over qualified. They want people they can manipulate into working there for ten years. People that won't rock the boat, organize and unionize. They don't want someone with a foot already out the door applying to something where they make more money. You can get a job flipping burgers but corporate chains like this avoid you like the plague.",
+          "score": 158
+        },
+        {
+          "body": "Check out USAJOBS.GOV.  I work at a federal shipyard and the FED government is always looking for people with a CS or IT background.",
+          "score": 27
+        }
+      ]
+    },
+    {
+      "title": "how do i find jobs when i have no college education, drivers license, or network?",
+      "body": "i (21F) have been in the workforce for around 5 years now and am currently on my 5th job. these have all been warehouse/stocking positions bc i can't get into anything else. i have an interest in skincare but i can't find anything in my area that isn't a scam or out of my skill range. i don't care where i work or what it is as long as i can do it. i see so many ppl say to network but i have no industry i'm trying to break into because it seems like the only jobs near me are teaching and medical staff which i definitely can't do. all i have is a ged to my name, no driver's license so i can't even do doordash or any jobs like that. i don't want to go to college and bankrupt my family further if i don't even have an industry i can use a degree to get into. i have anxiety so bad i cry halfway through the workday sometimes so i wouldn't last in most customer service heavy jobs. i throw applications to everything that seems somewhat doable and still get nothing, a flat out rejection is rare, an interview even rarer. i don't want to be jumping around warehouse jobs til my body finally breaks down on me. i'm truly at a loss.",
+      "subreddit": "jobs",
+      "score": 11,
+      "url": "https://reddit.com/r/jobs/comments/1lsp3dg/how_do_i_find_jobs_when_i_have_no_college/",
+      "comments": [
+        {
+          "body": "Is it possible to do community college part time or get a certification? There are some good careers that only need an associate degree.",
+          "score": 6
+        },
+        {
+          "body": "[deleted]",
+          "score": 7
+        },
+        {
+          "body": "Can you get a drivers license? Seems like that would really open doors for you.",
+          "score": 4
+        },
+        {
+          "body": "Are you interested in Skincare? Then, you should look into a Skin Care Certification (Esthetician).",
+          "score": 3
+        },
+        {
+          "body": "If you don't feel like you'd do well in customer service jobs, how would you work in skincare? It's extremely customer focused.\n\nI would focus on keeping the same job for a while, even if it's in a warehouse and you hate it. Five jobs in five years is an albatross on your resume. You need to address your anxiety and/or other mental health issues and you need to have a driver's license or other method of transportation. You work to make those things possible with the goal of moving up/on when you're better positioned to do so.\n\nYou could also look for a trade school offering a paid apprenticeship.",
+          "score": 3
+        },
+        {
+          "body": "Do research. You have the internet and tons of free AI tools right now. Even before the AI tools. Now its just ridiculously easy.\n\nTheres no excuse to not figure something out. \nMost education is free online in some form, especially YouTube.\n\nLots of fields \"require\" a degree and then some actually need one. There is a difference. Stop caring what resumes ask for, its idiotic BS. Lots of jobs u can get a certificate to show your qualified and start on a career. Its ATTITUDE over resume for where you're at. Show them you're hungry, eager and willing to do what is required.\n\nCome to grips with the fact the job market is bad. Terrible odds. You beat that with volume. 100 applications a day and you WILL get one faster than most ppl only sending it 10-20/day. Network is a hack bcuz someone might just recommend you.\n\nSounds like your weak mind is the problem. And im not trying to be mean. Work on it. Because nothing works if you don't think it can.\n\nLast thing, you're young and working in a poisoned field. Warehouse is bottom of the barrel. Do NOT make a \"career\" out of it. Start finding friends to hang out with that have their shyt together. If u hang around losers you'll stay one. Pick a field u can get into that slots you for 6 figures after 5-10 years.",
+          "score": 3
+        },
+        {
+          "body": "So much to unpack here.  Without a location, it is hard to give specifics as each state is different, but most offer some variant. So, whatever state you're in, check out what options there are for mental health assistance (counseling, therapy, etc.)  You've got to get a handle on your anxiety.  Until you do that, you will continue to have significant difficulty.\n\nWhile you are researching those options, see what type of workforce assistance your state offers.  Google, \"American Job Centers\", and find the one(s) closest to you.  Reach out to them.  They offer one on one counseling,  classes, workshops, and networking/ job fair events to assist folks looking to get back into the workforce or move around in the workforce.   \n\nCheck your local community college(s) for online classes.  Most offer several and you can pursue nontraditional courses designed to gain you industry certifications/ credentials.  Every state offers varying programs to help in this realm as well.  \n\nA good resource to use is careeronestop.com.  On the main page, start with the green block on the left. Play around in there to find some things that interest you.  Once you find those things, shift over to the purple block to fill in the gaps you identify between what those things need and your own skills/ experience.  \n\nTo address the military as was mentioned by another, while it could be a good answer, you'd have to get a handle on your anxiety before even attempting it.  \n\nIt was said that the military doesn't care after you get out, which is true.  Neither does any job. Walmart isn't checking on you once you stop working there.  But, you are eligible for service under the VA.  \n\nThe thing is, the military does give assistance to prepare you to get out, which most employers don't.  I teach workshops for servicemembers who are getting out, but they aren't just military focused.  They are employment readiness focused.  The biggest problem is that folks don't want or realize that they need to do significant work to get ready. \n\nYou have skills and experience that you've developed even in the short time you've been in the workforce.  You need to take a good inventory of those skills and highlight them when you engage with potential employers.  Networking isn't just a corporate or industry thing, it's simply talking to people with a  purpose and it's the single best way to improve your employment opportunities.  You've got to work on the anxiety first though.  \n\nIt's all doable, you've just got to take it in steps and slowly work towards your goals.  Best of luck to you.",
+          "score": 2
+        },
+        {
+          "body": "Typing skills got me more jobs than anything. But it was a long time ago. \nSigning up adult education can get you some skills if it’s still around.",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Interested in a 2nd job, but currently working inconsistent schedule - advice",
+      "body": "I would like to get a 2nd part-time job to help pay off debt and potentially create a savings fund. \n\nI currently work as a supervisor for a hospitality brand and my schedule is always changing and inconsistent. My managers have declined to accommodate any type of set or consistent schedule, no set times, no days off, etc…\n\nI’m hesitant to do DoorDash or instacart as my car is very old and is constantly breaking down/needing repairs. \n\nI don’t know what to do, or how I should go about requesting accommodations during an interview. All lot of the part time jobs I see on indeed request specific scheduling, most of the time during when I would be working my full time job ",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/1pm67jj/interested_in_a_2nd_job_but_currently_working/",
+      "comments": []
+    },
+    {
+      "title": "Would it be inappropriate to gift my very understanding, boss with a card, expressing my gratitude and a hand painted bookmark/or potentially a modest gift card to something like DoorDash?",
+      "body": "This is a LONG post but I need advice. Please just skip down to the tldr if you don’t want to read all of this, I’m just really having a hard time right now, and struggling to make this post more condensed…thanks in advanced. \n\n\n—\n\n\nHi. I recently started a new job (first week of September) and it’s one of the most supportive and wonderful places to work. I do a good job, I take it very seriously (and i like to think the effort I put in shows). My boss is very supportive, very kind, even when giving feedback or corrections, and has invested a lot in training me. I know in the past when I’ve started jobs where the interviewer has told me “ we have a very good work environment with good people” it really is always a role of the dice on whether or not that’s actually accurate or not - but at this job, it’s very obvious that my boss has taken great efforts to cultivate an amazing group of people. Even when I was learning the job and making mistakes here and there, I’ve never felt disrespected or talk down too, or shamed. \n\nI love this job , for the first time in my life I don’t dread getting up and going to work - it can be busy, it can be a bit stressful at times, but it’s manageable, and the other staff all are people that would have no problems helping or giving advice when I needed it  \n\nThat said, I’ve had a string of really bad luck. I’m not trying to use this as an excuse, but I am newly a single mother that had just moved 900 miles away from my abusive and cruel husband of almost a decade. Thankfully, he allowed me to leave with the children and I moved back to the state that I am from with them. The timing really worked out for us, my dad’s father had recently passed away unexpectedly, leaving my parents with his home and everything inside of it. My dad has been understandably broken and had struggled for almost a year, trying to pull it together and clean out his father’s belongings. In exchange to stay in the home, I pay them a small amount of rent, and also spend time helping my dad sort, organized, sell, and handle his deceased father’s possessions. \n\nJust say that I’ve been struggling, but giving it my all would be an understatement. Shortly after starting the job, a driver struck my car while I was stationary, waiting at a light, and my son and I were transported to the emergency department, and I was excused from work for several days. When I came back, I brought my boss the doctors note, tried to give it to her, and she said hey, don’t worry about it. We don’t need this, it’s okay. \n\nThen just a month after that, my father was driving back from the grocery store and an elderly gentleman just claimed “he didn’t see him” and pulled out and struck my dad’s car. He had to be airlifted, lost consciousness, broke his pelvis, spine, clavicles, both arms, a leg, a knee… had urgent orthopedic surgery to repair the damage to his clavicle… It was a nightmare. He was in the hospital for weeks and finally released to a physical therapy rehab facility because he was unable to walk or do much of anything on his own. \n\nWe found out that this had happened on a Sunday evening when my mom called me and asked if my dad was at my house because he had gone to the store around noon and she could not get a hold of him and hadn’t heard from him all day. I called the nonemergency police and asked if they had anybody under his name. Dispatch put me on hold – and when they came back, told me that they were not able to disclose what had happened, but an officer would be calling me shortly. That’s when we found out that he was in intensive care at a distant hospital (he needed a level 1 trauma center and that was the closest one). This was a  Sunday evening we found out, and my mom helps me with childcare on Mondays, so I needed to call and let my boss know what had happened, and provided her with screenshots that proved what had happened. \n\nAs if that wasn’t enough, I got a text message at 3 AM from my babysitter for my three year-old, telling me that she was in the hospital and awaiting emergency gallbladder removal surgery. I had work in the morning. Obviously, her health is more important and I did not hold anything against her for that – it was completely out of her control and I’m glad that she was able to be taken care of and is on the mend. So, there I am… texting my boss again, at 5:30 in the morning, letting her know what’s going on and that I have no one to care for my youngest. Her response? “No worries, take care of your son.” \n\nAll of that being said… I feel ashamed, embarrassed, and frustrated that I have had this crazy string of incidents. I genuinely love this job, I have always been a reliable person, and never in my adult life have I ever had this many problems in such a short period of time. She assures me that it’s not a big deal, it’s OK, she’s a single mom too, and she understands (and God do I hate using the single mom thing as if it’s some sort of excuse… I’m really ashamed over it if I’m being perfectly honest) I always have brought in with me proof to corroborate my story and prove that I’m not just skipping out on work “because I don’t feel like it.” \n\nAt work, it’s never brought up to me that is concerning, and they are still spending the time and effort to continue to train me to be even better at my job , and when I’m there, I do an excellent job and give it my all. I really can’t emphasize enough how much I enjoy this work, and don’t dread going into the office for the first time in my life.\n\nLike I said, I’m embarrassed, and I’m also scared that my job could be at risk… Because honestly, I would understand if they told me they were going to let me go. \n\n—\n\n\nTLDR:\n\nI really wanna thank my boss for being so human towards me and always so kind and understanding. Would it be inappropriate to give her a card and a hand painted bookmark (I’m an artist), or maybe a DoorDash gift card even, just as a thank you for being so supportive and kind and also hopefully show my dedication and appreciation? ",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/1p1a72a/would_it_be_inappropriate_to_gift_my_very/",
+      "comments": [
+        {
+          "body": "i think that would be very well received, it’s thoughtful and form the heart. both of you sound like really nice people 💕",
+          "score": 1
+        },
+        {
+          "body": "Getting her a thank you card is nice. \n\nOn a more serious note, it's very sad that many managers/bosses don't have decent human empathy for their employees and when you get a manager who sees you as a human it is like lighting in a bottle. Good managers/bosses are harder and harder to find these days\n\nOur world is truly messed up.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "what the fuck am i supposed to do?",
+      "body": "i’m a 20 year old woman from alabama. been working since i was 15, started in retail and made my way up the chain. made it to management, made about 35k when i was 18. hated it, the job literally made me suicidal. i decided to take a pay cut, hopped around to a couple of different jobs, ended up back at the same place in the same position. hated it, got depressed again. stayed there for two more years. decided i wanted to better myself and started going to trade school for welding. currently still enrolled and completing my degree. made an onlyfans (don’t judge, just listen) ended up making more in two months on onlyfans than i did at my big girl job, so i quit my depressing big girl job. my sole source of income for two months was onlyfans. payed really well. lots of free time. it ended up draining me and just made me feel so shitty and objectified that i couldn’t do it anymore. i’m trying to find employment again now, but it’s all so fucking shitty and fake. i literally am an experienced welder and im GOOD at it but i still cant get a job. partially because im a woman and partially because the market just fucking sucks. i got my first welding interview (and got the job) a couple of days ago only for them to offer me $10 a fucking hour. like, are you serious? i worked my ass off and payed thousands to attend college for this only to be offered $10 an hour. where i live, in the middle of southern butt fuck AL, there isn’t SHIT in terms of employment. i don’t want to work at a god damn captain d’s or a god damn dollar general. how am i supposed to not feel hopeless and depressed? i’m just so distraught with finding a path and it literally seems more feasible to just fucking doordash and destroy my mental health with onlyfans than it does to get a job. and i’m NOT one of the lazy people. i worked my ass off and never had a childhood. my work ethic is amazing, but still, there’s just not shit. where do i go from here? ",
+      "subreddit": "jobs",
+      "score": 0,
+      "url": "https://reddit.com/r/jobs/comments/1jed45f/what_the_fuck_am_i_supposed_to_do/",
+      "comments": [
+        {
+          "body": "I'd move the fuck out of the middle of nowhere and try it somewhere else",
+          "score": 9
+        },
+        {
+          "body": "I'd hate to recommend it, but based on what you said it might be worth it to double down on OF for a few months to save money in order to move to a place with a better welding market. Maybe even a union? But at the core it seems like you need to move.",
+          "score": 5
+        },
+        {
+          "body": "Do you still have a budget from Onlyfan? I know it's not the best thing to put up on resume but you did what you had to.\n\n\n\nYou do need to move away, I think. Research well before you move and perhaps even look for a job that help you with moving. Welding skill, if you do indeed have one, is something that can't be replaced easily.",
+          "score": 3
+        },
+        {
+          "body": "I’m going to have to 2nd anyone else who said you need to move. Start looking across the country for welding jobs. \n\nSave every bit you can now from OF until you have enough to move. Downsize to essentials to make the move easier.",
+          "score": 2
+        },
+        {
+          "body": "Mentally there's no way you'll be able to accept normal wages after experiencing the fast money of OnlyFans. Not sure what advice to give you but it's rare to find a job that'll make you happy. Just keep searching until you find somewhere with upward mobility and decent people to work with",
+          "score": 1
+        },
+        {
+          "body": "Get back into the OF game temporarily so you can save enough to just move. I'd consider paying like two or three months in advance so you have some time to settle in and find work. Even if you can't get into welding right away you would certainly have more options for work with better pay.",
+          "score": 1
+        },
+        {
+          "body": "I'm not sure about how doing OnlyFans makes you feel, but if you're content doing it, keep it up! It's an honest living just like any other form of entertainment.\n\nAs for getting a welding job, it'll happen. I promise. Just keep going, keep trying, you'll get there. It all sucks right now, but you're doing what you can to get by and it really seems like, especially for someone as young as you, you're navigating it very well.\n\nDon't lose hope ❤️",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Has anyone ever worked as a Email Customer Support Representative at Foundever?",
+      "body": "I previously worked in a WFH call center focusing on credit fraud detection and prevention. Since leaving that role, I’ve held a few other jobs, but for the past six months I’ve mainly been doing DoorDash and Uber to make ends meet.\n\nI recently applied to Foundever, and after a positive Zoom interview, I’ve been invited for an in-person interview. I’ve heard the role would involve assisting customers with loans. Is it really just an email-only job?\n\nI’m genuinely excited about this opportunity, even though the commute would be about 20 miles each way. At this point, it’s either this or working as a cashier at Walmart. I’d really appreciate any tips, especially from current or former Foundever/Sitel/Sykes employees. Thanks so much!",
+      "subreddit": "jobs",
+      "score": 2,
+      "url": "https://reddit.com/r/jobs/comments/1n8ykl3/has_anyone_ever_worked_as_a_email_customer/",
+      "comments": []
+    },
+    {
+      "title": "I just got turned down by ALDI of all places, what can I do to.get a job in this current market?",
+      "body": "For context, I just moved to a new state, as I have a roomate down here who I can split rent with, and ever since I've been fighting to actually find a job. I've been putting in applications, emailing hiring managers, and often even walking into businesses. I so far have had 3 calls, 2 interviews, and no hires. The first jobsite to call ghosted me after stating they would set up an interview with me the beginning of the next week. And the other two seemed very happy with our interview, but never reached back out. I just feel so lost, and to add insult to injury, I literally got a rejection email from Aldi, without any sort of call or interview. I just need a job to cover my expenses man, and doordashing is nice but it's not cutting it. What do I even do?",
+      "subreddit": "jobs",
+      "score": 19,
+      "url": "https://reddit.com/r/jobs/comments/1mfy201/i_just_got_turned_down_by_aldi_of_all_places_what/",
+      "comments": [
+        {
+          "body": "Side hustle I think applying for jobs online might be over",
+          "score": 7
+        },
+        {
+          "body": "Aldis is kinda like Costco.\n\nNot necessarily easy to get hired there.",
+          "score": 3
+        },
+        {
+          "body": "What experience do yiuvgave/on your resume?\n\nCould be an overqualified issue",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "I just had the worst interview I’ve ever had.",
+      "body": "I’m a new esthetician in a smaller city, so it’s already difficult enough to find work in an oversaturated field. One of the most high end places in my city called me for an interview and a practice service to test my knowledge. I go in 10 minutes early, I already have a bad feeling about the place,  the employees stared and overall gave off a colder air.) and someone takes me to a room to interview me. I was told there would be one person interviewing me, when in fact there was 3 people including the owner staring me down and judging from the first second I walk in. The process goes fine, but the interviewers sneered at the fact I do DoorDash rn to supplement my bills and also turned their noses that I worked for a certain brand doing sales for a bit while I look for somewhere to utilize my license and build experience. One of them then said “typically we’re looking for someone with 3 years of experience but your resume seemed promising”. They pointed out how their staff is full of women, and a man on the staff would be a “good change”. There was a lot of awkward silence after I answered each question, they all looked at each other and smirked like I wasn’t even there. \n\nFast forward to after the in-person interview, I’m now about to do the practice service. The one telling me which product I’d be using is handing me gloves and instructing me on where everything is in the room when the second interviewer comes in and interrupts her and says “so we will not be moving forward with this process as you lack the necessary experience and frankly, the volume of this place would spit you up and chew you out”. So not only did they not let me exhibit the skills I applied to the job for, they brought me in knowing that I don’t have experience as a new esthetician, just to turn me down. The one I was with in the room the whole time looked genuinely shocked that they did that to me. So now it’s back to the drawing board. Very discouraging for this field if that’s how one of the most renowned places in my city conducts their interviews. \n",
+      "subreddit": "jobs",
+      "score": 5,
+      "url": "https://reddit.com/r/jobs/comments/1jehu38/i_just_had_the_worst_interview_ive_ever_had/",
+      "comments": [
+        {
+          "body": "That’s upsetting. Think of it as a blessing in disguise though that you won’t be part of a team that treats people this way.",
+          "score": 4
+        },
+        {
+          "body": "I wouldn't want to work for a company with only female bosses.. this is why.",
+          "score": 3
+        },
+        {
+          "body": "That's weird. Which one was the owner in all of this?",
+          "score": 2
+        },
+        {
+          "body": "You have dodged a bullet. If this is how they are in the interview process, I can't imagine how working with them would be. Wishing you luck in finding the right place for your talents.",
+          "score": 2
+        },
+        {
+          "body": "I would have said I’m gonna chew you up and spit you out!!!  Jk but is so so rude I don’t care how high end they are. I worked a a 5 star hotel that I couldn’t stand. The managers were all like that. I said I wouldn’t last a month . 7 years later I was still there and all those managers got fired during that time",
+          "score": 2
+        },
+        {
+          "body": "Your story is very interesting. It reminded me of how I started, fresh out of college. No doubt that was a toxic workplace, but it's still a missed opportunity. Because I believe, it would have changed you if you had the chance. You're definitely doing something right that led to that interview. Find out what's right and keep on doing that.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "I don’t even know what to do at this point",
+      "body": "Idek if this is the right place to complain. I posted in antiwork too. Im literally desperate for a job and have applied to 98 jobs in the past 2.5 weeks. I had one two part interview that went well, just to never hear back. Im at a loss. I am doordashing right now but im in a 12 year old car, and my main car im upside down on and it needs a new timing chain needs work for about 2500.00 and im fully tapped. I have no fucking clue what to do i can barely afford groceries, let alone bills and rent and gas. I need a fucking job. This market is going to kill me. I am applying to literally ANYTHING. I got rejected from a job in my exact same field that i had been doing for years, when it was a 0 experience required role. Ive applied to fast food, gas stations, and droves of jobs in my field. Ive been getting calls and messages from companies to set up interviews so i reach back out to set something up and they never respond or answer their phone. I’m at my wits end.",
+      "subreddit": "jobs",
+      "score": 5,
+      "url": "https://reddit.com/r/jobs/comments/1jhftxo/i_dont_even_know_what_to_do_at_this_point/",
+      "comments": [
+        {
+          "body": "I'm not joking, those are rookie numbers in todays job market. I applied to 400+ before getting a job, and I'm one of the more lucky individuals. Modify your resume for each job description, create nice cover letters, and \"Quick Applies\" do not count due to the sheer volume of responses those usually get.",
+          "score": 9
+        },
+        {
+          "body": "I've applied to 250 places on 3 months. Different variety of places. \n3 interviews. \nNo job. \nIdk what's going on. I've applied to their websites too. Made killer cover letters. Spent so many hours making applications, cover letters asking for favors for letters of recommendation, Ive left all my jobs in good standing. I'm very educated and very experienced. \nHaven't gotten anything. \nI hope you have better luck than I do eventually.",
+          "score": 4
+        },
+        {
+          "body": "Find a staffing agency.",
+          "score": 2
+        },
+        {
+          "body": "I've also applied to hundreds of jobs and had over 2 dozen interviews. Mostly get ghosted, rejections, job gets canceled or put on hold.",
+          "score": 1
+        },
+        {
+          "body": "Took me 6 months and I ended up getting recruited. it’s rough out here",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "New Manager Ghosting Me",
+      "body": "I got hired at a big name grocery store a few months back. They promised 35-40 hrs a week but ended up only ever giving me 20 hrs a week &amp; my department manager was really mean (made multiple employees including me cry &amp; had multiple hr complaints) so I found a new job at a fast-ish food joint that promised more hours. \n\nI did everything right! I tried everything to make sure there was no gap between my work so that I wouldn’t be fucked over financially (my gf &amp; I were struggling enough as is). I waited until I had already started my 1st day of training at the new place before I quit my old one.  \n\nBut my training day was 2 weeks ago now &amp; I’m still not on the schedule.  I have been calling the restaurant daily but the manager is never available &amp; never returns my calls. I event went in person to days ago to try to catch him but he wasn’t there. The assistant manager has no idea what’s going on, she interviewed me but doesn’t do the scheduling. She gave me his cell which I have called but he didn’t answer &amp; didn’t return my call yet. I’ve text him the past 2 days &amp; no response.\n\nWe were already gonna be late on rent but now we haven’t paid April rent still because I’m not working so we don’t have enough &amp; my apartment is threatening to start the eviction process &amp; I just don’t know what to do anymore. We don’t have a car so can’t do doordash or instacart or anything. ",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/1jzyrg0/new_manager_ghosting_me/",
+      "comments": []
+    },
+    {
+      "title": "DoorDash Company Rant after 8 interview rounds!",
+      "body": "I’m so furious rn. My girlfriend recently gave an interview for DoorDash’s Associate Position in the USA. She’s so talented that she’s been through many interviews through such a tough job market. DoorDash was like a dream company for her and she prepared thoroughly for the interview process.\n\nThe process took upto 2 months with 8 interview rounds. Honestly it doesn’t make sense. She was perfect for the role. Her background and everything perfectly aligned with the role and yet she was rejected after they went through the last round with her. They took 2 weeks to fucking reject. Before that 1 week to schedule the last round. Wtf is with the speed of scheduling interviews.\n\nFirst of all, if you have to take 8 rounds of interview just to decide on one candidate, I think you’ve to think about your interview selection process or you need to think about the hiring managers in your company who can’t decide on a candidate in atleast 5 rounds (which I also think is tooooo much). Secondly, atleast have the courtesy to consider the person who gave the last round and went through 8 rounds of extensive interviews with your company to be considered for a similar or a parallel role. Literally put yourself in our shoes and see how much efforts my girlfriend had to put and what if in the future this happens to you!!! \n\nCan you even imagine the mental strain she’s going through rn? Literally in this job market she got more than 15 interviews in the past 5 months. I think it’s commendable and through those interviews she learnt how to communicate, how to deliver the expectations of the interviewer. I mean if she can go to the last rounds of all 15 interviews that means she’s somewhat eligible for these roles right!!! \n\nLiterally interviewers you need to understand the people that you are interviewing are humans and excited to pursue roles. I surely understand you have many candidates in the pipeline and you have to attend to them all but literally understand the efforts of these candidates please. What if you are in their shoes in the future or what if you have been in these shoes? I expect you to provide the same level of empathy and consideration that you expect for yourself atleast for people progressing in these interview rounds. They are not toys to toss around and throw when you don’t need them. And if you expect us to take feedback positively or take rejection positively, you also have to take OUR FEEDBACK for your process or for whatever we want to communicated and acknowledge it! The least you can do is acknowledge our emails idiots!\n\nThese big companies need to stop playing with people and their desires!",
+      "subreddit": "interviews",
+      "score": 9,
+      "url": "https://reddit.com/r/interviews/comments/1nqccsx/doordash_company_rant_after_8_interview_rounds/",
+      "comments": [
+        {
+          "body": "This is pretty common in all of tech unfortunately. I hate it. But also, that's what you go through for six figure jobs w/o grad school.",
+          "score": 10
+        },
+        {
+          "body": "This is common it doesn’t matter her class or the college she went to. It’s harder for new grads esp. good luck to her",
+          "score": 3
+        },
+        {
+          "body": "8 rounds is enough to make a full season of a reality show.",
+          "score": 2
+        },
+        {
+          "body": "is she even provided any evidence that someone is hired for the position.  Doordash is a very shady company(most modern companies are).\n\n\n  I'm a dasher and have been one since 2017.  I know that no one that works for Doordash has any value to the company.  Most of the w2 jobs are outsourced.  with many now being converted to AI.  \n\n\nalso if she isn't a US citizen she might have ran afoul of the current political climate.  If this rejection happened this week it could also be due to the new h-1-b price tag our fearless leader came up with last week.",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "title": "Globe Life",
+      "body": "I’m a recent graduate and the job market has been tough. I studied in Marketing and have some pretty good experience. Was part of several marketing and business clubs in college, worked in a family owned car audio business where I kind of dealt with all aspects of marketing (Promoting, social media marketing, email marketing, online ads, google) and I also helped with my brothers start up car detailing business which was very successful and I did the same thing there as the car audio company and I thought I did really well and enjoyed it. I obviously have all of that on my Resume but I still have not been able to land a job yet. I’ve applied for over a hundred jobs and I’d say 95 percent would ghost and the other 5 percent would be rejections. Can’t even get an interview. I recently got an email from Globe Life which I know is pretty much a work at home insurance company that sells insurance and is commission based only. Is this something I’d want to do? Not at all but I need a job as I don’t really get a salary at the car audio business and I’ve been doing DoorDash pretty much full time. My question is has anybody worked with Globe Life or used to and is able to tell me their experience. I’ve done some research and it sounds like it’s not as bad as the other commission only based jobs. I haven’t even been graduated for more than a month yet but I don’t think this is a good sign to come. Thanks. ",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/1kx5n4u/globe_life/",
+      "comments": [
+        {
+          "body": "Hey I work there. Did you end up going?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "I've been searching for a job for 3 years",
+      "body": "Hi, so I'm 21 (basically), and disabled (meaning I can't bend/stand/twist for long periods of time otherwise I'll be in a lot of pain.) and I'm doing gig work (Doordash) with my husband while he's also working at Jack in the box. Ever since I was 17 I wanted to get myself into a job. I've went through so many job applications for stuff that was under $13 an hour. I've had at least 9 interviews and I landed one, but dipped off because I found out the working conditions were absolutely terrible for ANYBODY to work there. I felt bad for the two that were doing it only for $7.25. On the other hand, I spent 3 months getting my husband a job and I landed him 3 in 3 months. Two of which didn't work out, but he's kept the one he's in since. \n\nNow what really turns my gears is my brother being able to go from $9 an hour to $25 in one year.. he was able to get his first job by walking into an ice cream place and get hired.\n\nI'm trying the same places they are, and nothing is working. I have connections but I'm always turned down. I got close to being able to work at one I *really* wanted to put my feet in. Hell, I was close to the workers...and never got the job.... What the hell am I not doing right?? I have the skills, I'm determined enough, and I'm probably more ethical than most of the highschoolers they're hiring. ",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/1j1dn3m/ive_been_searching_for_a_job_for_3_years/",
+      "comments": [
+        {
+          "body": "Honestly it sounds like you're applying to jobs that can't reasonably accomodate your condition, and you're not given a chance because of it. There's no realistic way you can do shift work at something like a fast food place without being able to bend or stand for long periods of time. Same goes for most retail work. I would look into office work since they are far more likely to be able to accomodate you.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Doordash E4 Software Engineering Interview",
+      "body": "Hey friends, I have a Doordash Backend SWE Interview coming up for the E4 level. Talking with the recruiter, they said that the technical parts will include a live coding, debugging, and a system design session. He mentioned the live coding will NOT be Leetcode style and instead, more of a real world API implementation style problem.\n\nHas anyone recently been through the Doordash SWE interview experience and would be willing to share how to practice for something like this? Thank you in advance!",
+      "subreddit": "interviews",
+      "score": 2,
+      "url": "https://reddit.com/r/interviews/comments/1opj2tg/doordash_e4_software_engineering_interview/",
+      "comments": [
+        {
+          "body": "Hi!! Here’s a Doordash Engineer interview guide I wanted to share hope it helps you prep! 🙏\n\n[https://interview.norahq.com/interview-guides/doordash-software-engineer-interview-guide-2025](https://interview.norahq.com/interview-guides/doordash-software-engineer-interview-guide-2025)",
+          "score": 2
+        },
+        {
+          "body": "The API implementation problems are usually more forgiving than leetcode but can catch you off guard if you're not used to thinking about real world constraints. Practice building simple REST endpoints from scratch and think about error handling, validation, rate limiting etc.\n\nFor the system design at E4 level, they'll probably ask you to design something like a delivery tracking system or restaurant recommendation service. Focus on the basics - data models, API design, and maybe some basic scaling considerations.\n\nDuring live interviews, use Final Round AI if you're not confident enough. It's not detectable and really increases your chances of getting hired. I've tried it myself and it worked, simple as that.",
+          "score": 1
+        },
+        {
+          "body": "If you’re asking how to practice for the Doordash E4 rounds, I’d focus on building tiny real REST endpoints end to end and narrating choices. What helped me was mock coding an order create API with idempotency keys, input validation, sane errors, and a quick unit test, then doing a 10 minute debugging pass on a flaky handler. For design, I do back of the envelope QPS, pick simple storage first, then talk through bottlenecks, retries, and pagination. I ran timed mocks with Beyz coding assistant using prompts from the IQB interview question bank, and kept answers around 90 seconds. Good luck, this prep style pays off.",
+          "score": 1
+        },
+        {
+          "body": "How did it go?",
+          "score": 1
+        },
+        {
+          "body": "Any advice for  this please?",
+          "score": 1
+        },
+        {
+          "body": "Hi OP, how was the API design interview? Any insights would be helpful. I have it in a couple of days.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "DoorDash Associate Manager - Supply Chain Interview and Salary",
+      "body": "What is the interview process for Associate Manager role at DoorDash?\n\nThe job post says Salary of $110-$145k\n\nHow much should i ask for Seattle location? ",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1ocslaa/doordash_associate_manager_supply_chain_interview/",
+      "comments": []
+    },
+    {
+      "title": "Finance &amp; Strategy Interview at Doordash",
+      "body": "Hi all,\n\nI have some interviews for the finance &amp; strategy associate position at DoorDash. I know there is a case study portion, but I would like to know what to expect from the interviews. If anyone has any insight, I would appreciate it. Thanks!",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1jkxn8o/finance_strategy_interview_at_doordash/",
+      "comments": [
+        {
+          "body": "The interviewers will likely probe your analytical skills, strategic thinking, and understanding of the food delivery industry. They may ask about your experience with financial modeling, data analysis, and strategic planning. Be prepared to discuss specific examples from your past work that demonstrate your ability to solve complex problems and drive business growth.\n\nThe case study portion will test your ability to think on your feet and apply your skills to real-world scenarios. You might be asked to analyze market trends, evaluate potential new markets, or assess the financial impact of a new product launch. Practice breaking down complex problems, making data-driven recommendations, and clearly communicating your thought process. By the way, I'm on the team that made [AI mock interview](http://interviews.chat) tool that can help you prepare for tricky interview questions like these and boost your confidence for job interviews.",
+          "score": 1
+        },
+        {
+          "body": "How was the case? Talked to recruiter recently and next step is 48 hr take home model… not sure what to expect. Haven’t found too much online",
+          "score": 1
+        },
+        {
+          "body": " you can try past interview questions on - [www.pastinterviews.com](http://www.pastinterviews.com)",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "DoorDash First Round Interview help",
+      "body": "Hello, I have a software engineer interview coming up with doordash in a few days and was looking for some guidance on what I should focus on or if you have any resources that might help. I've been looking at the leetcode and glassdoor questions. I really need this job, so I want to make sure I give it my best. Thanks! :)",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1j2vgqo/doordash_first_round_interview_help/",
+      "comments": [
+        {
+          "body": "for doordash swe interviews (esp first round),\n\nfocus on core data structures - arrays, hashmaps, strings. their first rounds usually stick to these fundamentals n dont get too crazy w graph stuff\n\npractice explaining ur thought process while coding. seriously, talk through everything - even if it feels weird at first. they care a lot about communication\n\nalso take a look at:\n\n* array/string manipulation (lots of two pointer problems)\n* basic hashmap usage for optimization\n* time/space complexity analysis\n* edge cases!!\n\nid recommend doing a few mock interviews if u can - helps way more than just grinding leetcode. lots of platforms out there (like prepfully) where u can practice w actual doordash engineers n get specific feedback\n\nduring the interview, ask clarifying qs before diving into code. they wanna see how u think through problems, not just if u can code\n\ngood luck!",
+          "score": 1
+        },
+        {
+          "body": "How did it go? I have a first round technical screening for a frontend swe position at DD in a couple days. They said it would be component based react project via hacker rank. Fingers crossed!",
+          "score": 1
+        },
+        {
+          "body": " you can try past interview questions on - [www.pastinterviews.com](http://www.pastinterviews.com)",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Interview at DoorDash ",
+      "body": "For merchant s&amp;O team - there’ll be an on spot case study + a behavioral interview with hypothetical situations in DD context. \n\nAny idea what this case study will be? \n",
+      "subreddit": "interviews",
+      "score": 2,
+      "url": "https://reddit.com/r/interviews/comments/1f56h4k/interview_at_doordash/",
+      "comments": [
+        {
+          "body": "For an interview with DoorDash’s Merchant S&amp;O (Strategy &amp; Operations) team, you can expect the case study to focus on real-world scenarios related to improving operations, strategy, or business processes for merchants. The case study might involve analyzing data to make recommendations, developing strategies to address operational challenges, or optimizing processes to enhance merchant performance.\n\n**If you're looking to practice your interviewing skills and get feedback on your answers, consider using TrueInterviewAI that has a special training for behavioral interview.** **You can also enter your job title or description to get the most relevant questions, select the question and record your answer, and let the AI model analyze your responses. You'll receive a score, feedback, and targeted recommendations on different indicators to improve your performance. You’ll also receive recommendations on TrueInterviewAI’s 7 strategies to make your answers more authentic, relatable, and personable.**",
+          "score": 2
+        },
+        {
+          "body": "the 2 30 mins with hiring manager and another team member will have hypothetical questions? ",
+          "score": 1
+        },
+        {
+          "body": "Did the case study require you to analyze data on the spot?",
+          "score": 1
+        },
+        {
+          "body": "how did the case study go? what did they ask about / what was the problem at hand?",
+          "score": 1
+        },
+        {
+          "body": "Hi I'm going to have the interview for sales S&amp;O, and would really appreciate if you could tell me a bit more about the case study you got and how you prepared for it... low key panicking cause I have never had one before",
+          "score": 1
+        },
+        {
+          "body": "What is your background in?",
+          "score": 1
+        },
+        {
+          "body": " you can try past interview questions on - [www.pastinterviews.com](http://www.pastinterviews.com)",
+          "score": 1
+        },
+        {
+          "body": "Hi, did the case study require you to calculate numbers or was it purely hypothetical?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "DoorDash S&amp;O interview prep ",
+      "body": "What is strategy &amp; ops live working session interview?\nI have interview coming up in S&amp;O team that is a live working session interview. Any guidance on what to expect and how to ace would be super helpful! Thanks!",
+      "subreddit": "interviews",
+      "score": 3,
+      "url": "https://reddit.com/r/interviews/comments/1fxn67s/doordash_so_interview_prep/",
+      "comments": [
+        {
+          "body": "Hey, how was your experience?",
+          "score": 1
+        },
+        {
+          "body": "Hello! How did it go for you if you don’t mind sharing your experience?",
+          "score": 1
+        },
+        {
+          "body": " you can try past interview questions on - [www.pastinterviews.com](http://www.pastinterviews.com)",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Doordash machine learning engineer interview",
+      "body": "I have an interview coming for MLE position at doordash. Can anyone share their experience. \nRecrutier said I can expect easy to medium level leetcode question. Also what type of question asked for system design and domain knowledge. ",
+      "subreddit": "interviews",
+      "score": 2,
+      "url": "https://reddit.com/r/interviews/comments/1jx19fa/doordash_machine_learning_engineer_interview/",
+      "comments": [
+        {
+          "body": "Hey do you have any update on this? I am curious about the system design and domain knowledge rounds.",
+          "score": 1
+        },
+        {
+          "body": " you can try past interview questions on - [www.pastinterviews.com](http://www.pastinterviews.com)",
+          "score": 1
+        },
+        {
+          "body": "Any info on how the round went ?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Strategy and Operations Interview at DoorDash",
+      "body": "Hi,\n\nI am going to have a case study interview for S&amp;O at DoorDash. I have zero experience in case interview. Does anyone know what type of case would be asked? Is it similar to those BCG, McKinsey,.. case interviews?",
+      "subreddit": "interviews",
+      "score": 3,
+      "url": "https://reddit.com/r/interviews/comments/1ga0kgc/strategy_and_operations_interview_at_doordash/",
+      "comments": [
+        {
+          "body": "DoorDash's Strategy and Operations case interviews are likely to be more specific to their business model and industry challenges, rather than the broad, generalist cases you might encounter at BCG or McKinsey. Expect questions focused on food delivery logistics, market expansion strategies, or improving operational efficiency for restaurants and drivers. The cases will probably involve data analysis, problem-solving, and strategic thinking within the context of DoorDash's business.\n\nTo prepare, familiarize yourself with DoorDash's operations, key metrics, and current challenges in the food delivery industry. Practice breaking down complex problems, analyzing data, and presenting clear recommendations. Even without prior case interview experience, you can excel by demonstrating logical thinking and a solid understanding of DoorDash's business model. If you're worried about the interview, you might want to check out this [interview AI tool](http://interviews.chat). I'm on the team that created it, and it's designed to help people navigate tricky interview questions and boost their confidence.",
+          "score": 2
+        },
+        {
+          "body": "Is it doordash USA ? Also what is the exact position?",
+          "score": 1
+        },
+        {
+          "body": "[removed]",
+          "score": 1
+        },
+        {
+          "body": "Hey! Did you do the case study at home?",
+          "score": 1
+        },
+        {
+          "body": "Wondering how it went! Any insights to share?",
+          "score": 1
+        },
+        {
+          "body": "Can you tell me how it went? And how much time did they take to respond?",
+          "score": 1
+        },
+        {
+          "body": "how did the interview go?",
+          "score": 1
+        },
+        {
+          "body": " you can try past interview questions on - [www.pastinterviews.com](http://www.pastinterviews.com)",
+          "score": 1
+        },
+        {
+          "body": "I had an initial screening with the recruiter which went well and had a take home SQL and case study assignment which I thought I did pretty well too. Sadly got rejected even after putting in a lot of work into the assignments",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Interview at doordash",
+      "body": "Does any one have experience interviewing at DoorDash for strategy and operations? I interviewed with the HM and then I was sent a case, but I have not heard back from them.",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1i6v2xc/interview_at_doordash/",
+      "comments": [
+        {
+          "body": "Did you hear back?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "doordash is conducting a reference check after a final interview round. has anyone been through this? what do they typically ask the references?",
+      "body": "",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1gpqz2y/doordash_is_conducting_a_reference_check_after_a/",
+      "comments": [
+        {
+          "body": "Hey can I dm you? In the same stage now",
+          "score": 1
+        },
+        {
+          "body": "did they ever say what they asked?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "DoorDash Data Scientist Case Study Interview",
+      "body": "I have a 30 mins case study round with DoorDash for Sr. Data Scientist position. I’ve read that they ask open ended case study questions to which the candidate needs to break down and suggest metrics for the same. \n\nCan anyone point me to some prep materials for the same and how to think about metrics? Also open to other people’s experiences. \n\nThank you! ",
+      "subreddit": "interviews",
+      "score": 3,
+      "url": "https://reddit.com/r/interviews/comments/1b16jry/doordash_data_scientist_case_study_interview/",
+      "comments": [
+        {
+          "body": "The best way to prep is to think of the business of Doordash (3 sided marketplace). What metrics important for monitoring health and growth for users, drivers, and merchants.\n\nAlso just make sure the metrics you come up with tie to the bottom line of Doordash's business ($$)",
+          "score": 3
+        },
+        {
+          "body": "How was it?",
+          "score": 1
+        },
+        {
+          "body": " you can try past interview questions on - [www.pastinterviews.com](http://www.pastinterviews.com)",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "DoorDash Strategy &amp; Ops Case",
+      "body": "Hi everybody,\n\nI have an interview with DoorDash for a Senior Associate Strategy and operations role. My recruiter said the interview would involve a Bias for Action + Case Study portion and then a Truth-Seeking behavioural portion.\n\nIf anybody has insights or tips on how to prepare for the case questions or, more specifically, what Bias for Action/Truth Seek questions might look like, I would really appreciate it. Thanks!",
+      "subreddit": "interviews",
+      "score": 5,
+      "url": "https://reddit.com/r/interviews/comments/1gq1or1/doordash_strategy_ops_case/",
+      "comments": [
+        {
+          "body": "Hi, I have my interview for S&amp;O next week. How did your interview go and how did you prepare for Bias for Action + Case Study portion? I would be grateful if you could share any advice!! Thank you.",
+          "score": 2
+        },
+        {
+          "body": "[deleted]",
+          "score": 1
+        },
+        {
+          "body": "@AerieConstant3989 \nI have my first round of phone screening coming up, can I DM you to talk about how the process went for you?",
+          "score": 1
+        },
+        {
+          "body": "Hi,\n\nWondering how did you interview go and how did you prepare for Bias for Action + Case Study portion. Having my interview next week and have no idea how should I prepare for it..\n\nAny advice will be really appreciated!! Thanks",
+          "score": 1
+        },
+        {
+          "body": "Sent you a Dm could really use your help.",
+          "score": 1
+        },
+        {
+          "body": "Hello, I just completed the HM interview and the recruiter reached out that they will be sending me an assessment.  I need help what to expect from the Case Study portion and how to prepare for the next round. \n\nI’d really appreciate if anyone here can help \n\nThanks",
+          "score": 1
+        },
+        {
+          "body": "Could you please share the case study and how the rest of the interview process went?\nI’m currently applying for the same role. Thanks in advance. ",
+          "score": 1
+        },
+        {
+          "body": "Looks like it's a bunch of us here with the same interest, but I'm interviewing to Wolt. Share some wisdom please :))",
+          "score": 1
+        },
+        {
+          "body": "Hey! Wondering how your interview went. Can I send you a message?",
+          "score": 1
+        },
+        {
+          "body": "Anyone has resources to preen for cases?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "DoorDash Senior iOS Developer interview coming up. Any advice?",
+      "body": "I have an interview with DoorDash coming up next week. This is an iOS interview. Was wondering if anyone has any past experience taking interview with DoorDash for iOS and if they can share any insights or any advise for preparation?",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1f97zwt/doordash_senior_ios_developer_interview_coming_up/",
+      "comments": [
+        {
+          "body": "  \nSenior roles often require you to design and architect systems. Be prepared for questions like, \"How would you design a scalable feature for a high-traffic iOS app?\" or \"How would you optimize an app to handle real-time updates and large datasets?\"\n\n**If you're looking to practice your interviewing skills and get feedback on your answers, consider using TrueInterviewAI.** **You can enter your job title or description to get the most relevant questions, select the question and record your answer, and let the AI model analyze your responses. You'll receive a score, feedback, and targeted recommendations on different indicators to improve your performance. You’ll also receive recommendations on TrueInterviewAI’s unique 7 strategies to make your answers more authentic, relatable, and personable.**",
+          "score": 1
+        },
+        {
+          "body": "Focus on brushing up your iOS development skills, particularly in areas like Swift, UIKit, and Core Data. DoorDash is likely to ask about your experience with app architecture, performance optimization, and handling large-scale applications. Be prepared to discuss specific projects you've worked on, challenges you've faced, and how you've solved complex problems in iOS development.\n\nMake sure you're familiar with DoorDash's app and can speak to potential improvements or features you'd like to implement. They might ask you to walk through your thought process on designing a new feature or solving a technical issue related to food delivery apps. Don't forget to prepare some questions about their development process, team structure, and future plans for the iOS app. I actually work on [interviews.chat](http://interviews.chat), a tool built to help with exactly that. It can help you practice answering common iOS interview questions and even give you real-time suggestions during your interview. Good luck with your interview!",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "When I turn my application &amp; resume in to the Team Employment temp agency, I'll have a mental health worker (a Peer Support gentleman) with me who drives me to various errands. Can I let him sit in on the interview so he can critique my interview performance later?",
+      "body": "If Team Employment has time to interview me immediately after turning in my application and resume, what if I ask whether I can have my mental health worker sit in on the interview so that he can give an evaluation of my interview performance afterwards?\n\nAfter my therapy appointment every Wednesday at 10, my Peer Support guy drives me around town to get various errands done between 11 AM and 1:30 PM. On a future Wednesday, I plan to turn in job applications at one or two places, and I'm turning in my first one at Team Employment temp agency because IIRC, they would give interviews immediately after the application is turned in. This was years ago so hopefully, they still do that. And this time, I plan to have my Peer Support guy &amp; driver sit in on the interview with this temp agency.\n\nOne of the first questions they ask is \"how long is the longest you've ever held a job?\" This time, I'll be able to say \"over 5 1/2 years and counting, with Doordash, and I'm still with them. It'll be my other job in addition to my new 2nd job.\" That should get my foot further in the door this time.\n\nAlso, if the interview at this temp agency fails or is inconclusive, I'll also turn in an application and resume at Mike's Rent-To-Own (some furniture and appliance store) for a cargo van driver position (I also have a CDL, if that helps) and I'll also plan on having my mental health worker sit in on that interview as well, if they choose to interview me immediately upon submission as well.",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1q9c965/when_i_turn_my_application_resume_in_to_the_team/",
+      "comments": [
+        {
+          "body": "Honestly most places aren't gonna be cool with having a third person sit in on interviews, especially for entry level stuff. It might come across as a red flag even though your intentions are good\n\n  \nMaybe ask your peer support guy to do mock interviews with you beforehand instead? That way you still get the feedback but don't risk making the actual interview weird",
+          "score": 11
+        },
+        {
+          "body": "Don't do this. While I understand your logic, most employers will find it strange and likely write you off because of it...or simply not allow it",
+          "score": 10
+        },
+        {
+          "body": "No.  Not unless your peer support person or someone else will actually be with you when you are doing the job.  You can search online answers to interview questions and even do mock interviews with Ai.  The employment market is extremely competitive now and any reason to rule you out they will take.",
+          "score": 6
+        },
+        {
+          "body": "What you're asking for is the equivalent of someone asking if their mom can go to the interview too. The answer is no, no, no. If you want interview feedback, you do mock interviews. If you would need this person in with you to actually do any job you get then that is a conversation about disability accommodations. And then it would be appropriate to have someone in the room, so interviewers could see how you work with one.",
+          "score": 4
+        },
+        {
+          "body": "No, horrible idea.",
+          "score": 3
+        },
+        {
+          "body": "You should just set your phone to record and leave it in your pocket. That way, you can review it with your worker afterwards. \n\nIt goes against too many social norms to bring someone into an interview with you. It will most likely cost you the job to do so.",
+          "score": 3
+        },
+        {
+          "body": "What?  No.  So many levels of no.  \nJust…  no.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Got the job",
+      "body": "I’m 22F and haven’t had a job since I turned 18 because I’ve been doing doordash to supplement my needs. My resume is very weak. I had my father in law tweak it to use key words that will make my resume come up upon employers searching “key words”. Well, this week I had 2 job interviews after applying to about 20 places last week. I got a call back from both places and was fortunate enough to decide which one i preferred and wanted to accept…!!! I’m thrilled. I was extremely anxious for my interviews and they both went great btw. (I will be cleaning homes)",
+      "subreddit": "interviews",
+      "score": 54,
+      "url": "https://reddit.com/r/interviews/comments/1nenzdz/got_the_job/",
+      "comments": [
+        {
+          "body": "Congratulations!",
+          "score": 3
+        },
+        {
+          "body": "seems like cleaning homes is a good business overall. You can make good money. Congrats!",
+          "score": 3
+        },
+        {
+          "body": "Congratulations OP ((:",
+          "score": 2
+        },
+        {
+          "body": "Congrats 🥳🥳🥳",
+          "score": 2
+        },
+        {
+          "body": "That’s awesome, congrats! Shows that even a “weak” resume can land you opportunities if you put in some thought and prep. Sounds like your nerves didn’t hold you back at all. Now it’s time to rock those interviews and get started. Cleaning homes might seem small, but it’s a foot in the door and a paycheck that counts.",
+          "score": 1
+        },
+        {
+          "body": "Landing two offers after a long break proves your effort and persistence matter more than a ‘perfect’ resume — keep that confidence going into your new role.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Getting into IT entry level",
+      "body": "Hi everyone, I got my degree in MIS back on May 2024. Ever since that date, I have been applying to IT jobs every day and I haven’t landed anything. Then, I decided to get my CompTIA Security+ cert back in June 2025. So, I still haven’t landed anything..\n\nI do interviews but, apparently there is always someone better for the job.\n\nIt’s already October 2025. In the meantime, all I have done is food delivery with Doordash and uber eats but, I kind of getting to the point of feeling very unmotivated and go back to my old job. I just want to start getting better profit and with delivery apps I just get the minimum to pay for bills and nothing more. How could I improve into becoming a better candidate? Just wait until the job market gets better? Or maybe I just chose to pursue the wrong career.",
+      "subreddit": "interviews",
+      "score": 3,
+      "url": "https://reddit.com/r/interviews/comments/1o0tjy6/getting_into_it_entry_level/",
+      "comments": [
+        {
+          "body": "Sorry to hear that bro. Im a sophomore in college pursuing a MIS degree too but I want to get into network engineering/administration so reading this was harsh for me Lol. But Since you have the Security + certificate, a lot of people will say that’s not enough for today’s standards in IT jobs. So I’ll say that getting the CCNA, and pair it with your security + certification would help boost your chances to get a role in this field. Although I’m studying for the Network + certification and many people say it’s useless, I think it’s a good intro for networking even though it’s all theory as some would say so maybe you can even get the network + cert too if you have the time &amp; money. But I’ll say just get your CCNA, possibly homelab and get experience with wireshark &amp; packet tracer etc. Take this comment as a grain of salt since I’m only a sophomore though",
+          "score": 1
+        },
+        {
+          "body": "Location?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Honestly, the nerve.",
+      "body": "My job might be coming to an end next week as our contract is ending at the end of this month and I haven't heard word if I will be getting it picked up or not so I'm online looking at different jobs and applying to everything so I can just get some interviews lined up.\n\nI applied for a goddamn delivery driver job at a chick-fil-a. Thinking I could probably do that. Probably make like 20 $22 an hour drive their car. Go back and forth to the restaurant probably get free Chick-fil-A everyday. Not a bad situation really.\n\n\nWell call me entitled but I didn't feel like sending in a two minute long video about why I want to work at Chick-fil-A and what my legacy is going to be to drive fucking chicken sandwiches around\n\n\n\nHonestly after years of doing doordash and Uber Eats and then applying to a couple of Chick-fil-A's for a delivery driver job over the last 9 months between a couple of different states when looking for jobs and desperate for anything and applying to everything I honestly have not had a great experience with Chick-fil-A unless I go there to eat. They are really shitty and condescending and I think the worst people work there. And their sandwiches are not crunchy. A chicken sandwich is supposed to be fucking crunchy. At least more than what theirs is and fuck waffle fries too. I mean fuck waffle fries really. You know what happens when you get waffle fries? You get less fries! You get less fucking fries!\n\n\n.",
+      "subreddit": "interviews",
+      "score": 3,
+      "url": "https://reddit.com/r/interviews/comments/1mw275x/honestly_the_nerve/",
+      "comments": [
+        {
+          "body": "Sounds like you're ego is getting in the way. It took you longer to write this on Reddit then it would have taken to submit the video. If it's part of their process, it's part of their process and you'll likely run into many more requests that you don't like. Don't make looking for a job harder than it needs to be. \n\nI look over hundreds of resumes a week, and the amount of people that decide not to answer all of the questions that we ask boggles my mind. Why even bother filling out any of the application if you're not willing to put a little heart into it?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "DoorDash take home data analysis case study",
+      "body": "Interviewing for DoorDash and their 1st round is a take home case study. Have to analyze a set of data with variables such as, driver ID, restaurant ID, order placed time etc. Their expectation is for me to make strategic recommendations or process improvements \n\n1. Has anyone already completed this case study and have any advice on what worked for them to get to the next round? If so, can you share it with me? \n\n2. Anyone willing to complete this for me? It’s due Saturday evening and I’m\nwilling to pay —&gt; I’m not lazy just have a crazy day at work and don’t think I’ll complete it in time! \n\nThanks in advance for the help!",
+      "subreddit": "interviews",
+      "score": 2,
+      "url": "https://reddit.com/r/interviews/comments/t0w9xf/doordash_take_home_data_analysis_case_study/",
+      "comments": [
+        {
+          "body": "Just did this one. So, they're still basically doing the same study 3 years later. I did not get passed. Now I am hunting around for answers as to why I am not smart. \n\nThere are example studies on Youtube for this exact project. I figured I'd find some commentary but I did not expect I'd find multiple in-depth examples going back years. What a wonderful world. \n\nMy approach was similar to the stuff I'm seeing. I was more focused hough. I avoided making broad conclusions. The data is wonky and there's some missing context. A lot of more interesting stuff you can draw from the set, I'd argue it is not really impactful to the business. \n\nOne thing that threw me off. I did a regression to see if any of the parameters had a clear impact on retention. Tips. By far, a higher tip order meant a customer was coming back soon. Nothing else really had much of a correlation. Kinda interesting. I coulda just spent hours looking at that. But it felt like a distraction. \n\nMy fatally flawed thinking was that making multiple spurious recommendations to a large organization would be a bad approach. I focused on driver efficiency, made the case that retention clearly drops with delivery delays, there are drivers who are habitually inefficient, and you have control over driver efficiency. Just seemed like 1 safe, obvious conclusion, easy win, hard to refute, likely to impact retention, clearly valuable. \n\nDefinitely overthinking it. They just want more stuff, and more exciting. Does make me think maybe I should loosen up a bit. I tend to think of companies as massive barges; slow moving, where if you give them too many targets, they stay in one place. That was not the exercise here.\n\nIf I were to do this again I would buzz through the youtube videos, pick the most complicated graph I could find, add a few graphs that pique curiosity, and tell an engaging story.",
+          "score": 2
+        },
+        {
+          "body": "i got the exercise and i feel like the first question doesnt make sense in terms of the data. has anyone done it",
+          "score": 1
+        },
+        {
+          "body": "Do you have the final product you can share? ",
+          "score": 1
+        },
+        {
+          "body": "Could someone send it to me please? I have an interview soon!",
+          "score": 1
+        },
+        {
+          "body": "Is anyone willing to share the case study? Not the analysis done my you but just the task description?",
+          "score": 1
+        },
+        {
+          "body": "please share, I can venmo",
+          "score": 1
+        },
+        {
+          "body": "Hi there, I'm also interviewing and never interviewed a take-home case study before. Any help or advice is appreciated!!",
+          "score": 1
+        },
+        {
+          "body": "I had an initial screening with the recruiter which went well and had a take home SQL and case study assignment which I thought I did pretty well too. Sadly got rejected even after putting in a lot of work into the assignments",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Door Dash Partner Manager Interview",
+      "body": "Hello,  \nI have an interview at DoorDash in two days for the role of Partner Manager. I have several years of experience working as a Customer Success Manager with large SaaS firms, but I’m a little concerned about the upcoming round. It’s a 30-minute case study, and I’d really appreciate any tips on how to prepare, what to expect, and how to approach it effectively.  \n  \nThank you so much  I could use all the help I can get!",
+      "subreddit": "interviews",
+      "score": 2,
+      "url": "https://reddit.com/r/interviews/comments/1ojhtv8/door_dash_partner_manager_interview/",
+      "comments": [
+        {
+          "body": "For a 30 minute DoorDash Partner Manager case, I’d handle it like a client convo: open by clarifying the objective and success metric, then lay out a simple structure around acquire, activate, retain, and grow. I’d pick 3 levers with quick numbers imo, like target merchant segments, promo budget, and ops capacity, do a back of the envelope calc, then close with a clear rec, risks, and next step. What helped me was practicing timed chunks 90 seconds per section so I do not ramble. I did two mocks with Beyz interview assistant to get pacing and follow up questions down. Fwiw, narrate tradeoffs and ask for data you would want in real life.",
+          "score": 2
+        },
+        {
+          "body": "How did it go? Please share the questions asked and the Insights. I have the same interview at Uber for a partner manager role.",
+          "score": 1
+        },
+        {
+          "body": "How did it go? Can you please me share with me the questions",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "DoorDash",
+      "body": "Has anyone received the take home assessment before you’ve had an actual interview? Ha wild  ",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1o2m17o/doordash/",
+      "comments": []
+    },
+    {
+      "title": "Door Dash Implementation Partner Screening",
+      "body": "I recently was notified that I have an opportunity for a screening call for a DoorDash position as an implementation partner. I come from working in higher education so I'm a bit nervous. This is my first non higher education job interview. Does anyone have any tips for me to prepare for the screening so that I am a standout candidate to go to next round interviews?",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1n9l6vi/door_dash_implementation_partner_screening/",
+      "comments": [
+        {
+          "body": "Yyour background actually gives you unique advantages that DoorDash will value. Implementation partner roles require strong project management, stakeholder communication, and problem-solving skills - all things you've likely developed extensively in academia. The screening will probably focus on behavioral questions about how you've managed complex projects, worked with diverse teams, and handled challenging situations. Think about specific examples from your higher ed experience where you've implemented new systems, managed faculty or student relationships, or navigated organizational change.\n\nFor DoorDash specifically, they'll want to see that you understand their business model and can think strategically about how to help partners succeed on their platform. Research their recent partnerships, understand their merchant onboarding process, and be ready to discuss how you'd approach helping a restaurant or retail partner optimize their DoorDash presence. The key is translating your academic experience into business language - instead of saying you \"coordinated with faculty,\" say you \"managed cross-functional stakeholder relationships.\" Your fresh perspective from outside the tech industry could actually be exactly what they're looking for. I'm on the team that built [interview prep AI](http://interviews.chat), which can help you practice answering these types of screening questions and get comfortable with the tech interview format.",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Bias for action",
+      "body": "Hey everyone,\n\nI have an upcoming interview with DoorDash, and one of the rounds is called “Bias for Action” (45 min). From what I’ve been told, it includes:\n\t•\tBusiness Case Scenario Questions \n\t•\tBehavioral Questions\n\nI’d love to hear from anyone who’s been through this! What kind of business case scenarios should I expect? Are they more about high-level strategy, operations, or something else? Also, any tips on how to prepare for this round would be super helpful.\n\nWould really appreciate any insights—thanks in advance! 😊",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1jfaqme/bias_for_action/",
+      "comments": [
+        {
+          "body": "Hi! I have the same interview with DoorDash in a few days. Could you share your experience?",
+          "score": 1
+        },
+        {
+          "body": "Hey mate! Could you please share your experience.",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

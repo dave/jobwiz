@@ -1,0 +1,215 @@
+{
+  "company": "cerner",
+  "post_count": 9,
+  "exported_at": "2026-01-18T17:44:53.265Z",
+  "posts": [
+    {
+      "title": "Got a technical interview with Cerner. Any hints on what I should focus on?",
+      "body": "",
+      "subreddit": "cscareerquestions",
+      "score": 3,
+      "url": "https://reddit.com/r/cscareerquestions/comments/3dlow9/got_a_technical_interview_with_cerner_any_hints/",
+      "comments": [
+        {
+          "body": "What position are you applying for? You can PM me questions, I just got the job back in May ",
+          "score": 2
+        },
+        {
+          "body": "What do you think of Cerner? They wanted to interview me a while back but I was already employed. ",
+          "score": 1
+        },
+        {
+          "body": "Glassdoor has tons of information on Cerner interviews. Assuming it is a position in KC, I know they have a program for recent grads and are expanding. I would expect basic questions and interest in what they do will take you a long ways.\n\nA buddy of mine had a recent interview, they wanted to put him in a systems (IT) position. He was still in school with time left so your mileage my vary, just be aware if that isn't something you want to do.",
+          "score": 1
+        },
+        {
+          "body": "From what I hear from those that worked there, running far, far away. ",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "An average software engineer with 4+ years of experience who feels stuck ",
+      "body": "So I am a Software Developer with 4+ years or experience who works with Java. I work in a company called Cerner which has now been acquired by Oracle. \n\nI wanted to switch now and I am finding it really hard to get even an interview. \n\n1) When I started initially I got to work on making REST APIs for microservices using Java, Springboot and Docker. Did some performance testing for the APIs using Jmeter. \n2) After that I was shifted on different project. It was a monolith based on Java and Spring. Did various feature work on this tech stack. \n3) Meanwhile I was making a personal project with my friend using Django (Python Web Framework). He was thinking of making a startup out of it. Even I started thinking maybe we can till we realized the challenges and also how difficult it was to continue this with our work. So we gave up at some point. After that I thought maybe I should move to Python domain and started searching for Python based jobs. *This was 2 years back when I had 2 YOE*. I got 3-4 interviews in small companies but I realized that even though I have written codes using Python it was nothing like Industry standards. And I need to learn class based coding in python. And then I stopped searching the job (should have continued kinda regret about it now).  \n4) Meanwhile in office the work continued on same tech stack of Java, Spring and MySQL where we just continued adding new features to the codebase. I even worked on making UIs accessible using GWT(Google  Web Toolkit) which I personally didn't like given how old GWT is and no one in the market uses. I have no clue why the company in which I worked even thought of going ahead with GWT for UIs. \n5) After Oracle acquisition we are now working in Oracle project where the only new things are use of TypeSpec and OpenAPI to generate service and model classes for REST APIs. Otherwise it is same old Java, Spring, MySQL and now even Oracle DB. Also I am making new UIs using OJET (Oracle own UI Framework). \n6) My friend again reached out to me for some project and this time he has actually got in touch with a company who needs some application developed for them. We have started working on it but this time using Springboot because I don't want to keep switching b/w Java and Python. In this project I have learnt few things about Azure because we have decided to use Azure for deployment.\n\n\n\n7) Edit : I am not have written code in Python for long time now. I have focused now in Java fully. Even the current project which I am building with friend is using Java and Springboot as I mentioned in point 6. I am not getting interviews for my current resume for Java Developer or Java backend roles. \n\nCan someone please guide what should I do to get interviews. Sometimes I feel I have wasted 4 years. In my current work I don't think anything will change. And the longer I stay in this company the more I remain stuck with similar work. I know I should have realized it earlier and tried to get out of this company earlier. But what is done is done. Please tell what I can do to change it now. \n\nEdit1: I think people are misunderstanding what I regret about. Actually I don't regret about not switching to Python. Instead I regret about not trying hard to switch at that time because at that time I only had 2 YOE. Atleast I was getting some interviews in small companies. At 4+ YOE now I am getting none for Java developer or Java Backend. It seems companies expectations are high and maybe my experience isn't that good enough. And hence I need some guidance what can I do now in my current resume and also what I can do in next 4-5 months to get interviews for Java Developer roles. Based on the replies it seems I was trying to be good in multiple things and ultimately remaining mediocre in both. As it stands now I would like to become really good in Java so that I can land a new job. So please suggest what I can do. \n\nEdit2: I understand I need self reflection. This is my resume link.\nhttps://imgur.com/a/ttzja6c\nWhere do I go from here? What I need to do to switch job? Any help will be appreciated. ",
+      "subreddit": "cscareerquestions",
+      "score": 39,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1i4rmem/an_average_software_engineer_with_4_years_of/",
+      "comments": [
+        {
+          "body": "Why cant you learn class based coding in python?",
+          "score": 20
+        },
+        {
+          "body": "You say a whole lot of words and make excuses to eat your own tail. \n\nSometimes the best answer is acknowledgement, not a paragraphs worth of deflection. \n\nYou’ll be fine if you take these answers with an open mind. \n\nLess theorycraft, more “try something and iterate” part",
+          "score": 14
+        },
+        {
+          "body": "I have a genuine question, what is stopping you from making those python projects industry standard? There are so many open source python projects that you can take a peak into which are already heavily used by the industry which can give you an insight into patterns or paradigms. Considering your existing experience this is trivial no? ",
+          "score": 18
+        },
+        {
+          "body": "Python industry standard is bs :) the dynamic and multi-paradism is one of python's greatest strength",
+          "score": 6
+        },
+        {
+          "body": "The job market is especially bad now. Everyone is looking for an exact fit and unfortunately, Python is an easy language every beginner programmer knows and is comfortable with. For example, I'm in the natural sciences and every undergrad learns Python for their research. Definitely not to a professional level, but that's why you *really* have to stand out. I'd even say Java and MySQL are better for anyone new trying to land a job, which you aleady have. Don't quit your job now, a bird in the hand is so valuable. So many unfortunate folks have gotten laid off and are still unemployed after a year in this market.",
+          "score": 5
+        },
+        {
+          "body": "Nothing relevant to say but I used to work on integrating software with Cerner and it was the bane of my existence.  Just the worst EHR to work with.  So I fully support getting out of there haha.",
+          "score": 3
+        },
+        {
+          "body": "With quite some experience in Java i don't see how OOP in Python could be an obstacle? Sure, things are a bit different but conceptually there shouldn't be any issues in learning Python OOP in an hour max.\n\"Industry Standards\" are a different aspect. Python, unfortunately, becomes a bit like C++ over the years that there are many different ... ideologies and you find crazy metaprogramming weirdness just like Javaesque object hierarchies as well as functional code",
+          "score": 3
+        },
+        {
+          "body": "Resume format is absolute garbage. This is the first time I’ve seen someone take up an entire half page with a list of skills. You need to reformat. In addition, find a way to describe some of the impact your work had.",
+          "score": 3
+        },
+        {
+          "body": "That resume is pretty cooked. Throw it out and start over.\n\nA lot of the points on there are a little bad: in your first job, it took you two years to write a REST API?  Drop the code review part, that's expected, and the \"new functionalities\" part is nonsense.\n\nFor your next job, get some metrics on the migration you did: how big, how many users, how involved. Drop the part about making a new class to solve a problem, as well as the \"100% accessible part\". That's just a nonsense number. Reframe that part as a code migration. Also, tell the reader more than \"worked on a UI\".\n\nThe way the resume reads now, it seems like in 4 years you've done 4 months worth of projects. Take your biggest wins, then frame them in terms of the business impact you've had.",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "title": "Starting out career at Epic Systems",
+      "body": "I understand there are already many threads in this sub discussing about Epic, but felt like most discussions were centered around the skills assessment, the outdated technology, or the work environment and hours that quickly burn you out, etc.\n\nSo besides all the critiques about Epic Systems, I saw some comments about people who work there end up in Big-4s, starting out their own companies after a few years in there.\n\n&amp;#x200B;\n\nI am considering the path of starting out my career somewhere for a few years(&lt; 3yrs, maybe even 1) then apply to graduate school if I can't land any offer to other big tech companies. The high start out salary and opportunity to move to a big company afterward at Epic fits quite well as that temporary job for my planned path. \n\n&amp;#x200B;\n\nThere is some stuff that was briefly talked about in other posts and I have a few questions about them since I am considering to apply and prepare for the painful skill assessment.\n\n1. How much do companies actually value the work experience at Epic? Is it a positive one since it is probably known for the \"outdated\" stack?\n2. Is the connection to past workers in Big-4s or startups true? \n3. What will happen if I quit the job after 1 year? I know I will have to return the relocation fee and maybe some bonuses, but am I gonna be looked down on and will it affect my future career?\n4. Also, is the assessment onsite or online? can't seem to find an answer for that too.",
+      "subreddit": "cscareerquestions",
+      "score": 10,
+      "url": "https://reddit.com/r/cscareerquestions/comments/c3bf1g/starting_out_career_at_epic_systems/",
+      "comments": [
+        {
+          "body": "Get a job first.  No place is guaranteed.\n\nIf you have a single job offer, take it.  There are many more posts about \"I wanted a Big N job and so turned down multiple local offers.\"\n\nAccept that life happens.  You can plan all you want, but setting your plan based on some idealized goal may be counterproductive in having a happy life.",
+          "score": 22
+        },
+        {
+          "body": "I worked really closely with Cerner during my internship, and relatively close to Epic employees at the same time (they were at the other building on the same campus with me, technically the same hospital).\n\nI'll tell you this. From the rumors I heard Epic is an absolutely fantastic first company (most of the WLB stuff here is team related), and most people are happy with their compensation and work/life balance. This is coming from someone who worked closely with Cerner and it's employees, so I end up being more biased towards Cerner as a result (Epic's direct competitor). \n\nEpic's stack might be old, but the prevelance of people moving to Big-4 companies is true (relatively, it isn't common but if you hear of a senior developer leaving it's typically because they are retiring or moving to a BigN). They pay really good for the area, but once you become a senior developer the funds end up drying out and you cap out under/around $150-170k/y (might be lower for epic since lower cost of living). A lot of good middle sized companies have this problem (mine included), but hearing that people leave for BigN or entrepreneurship situations should be an indicator that they train and prep their employees to be the best SWE they can and then some.\n\nIf you get a relocation bonus and the time to repay is reasonable (&lt;2yrs) just wait it out. You can do grad school online or locally and they will give you a stipend for it that would help you pay a lot of it. The Georgia Tech OMSCS program is one of the best programs in the country ranking #8 countrywide (out of both in-class and online programs), and Epic's education stipend will pay for all of it (I think they give you 5k/y or 5k/semester, I forget but either one covers everything).\n\nIn all honesty, if you stay there for 3 or 4 years, get your OMSCS on their dime, and then start applying to BigN companies I would eat my shoe if you didn't get a first round interview for more than 3/4 of the positions you applied to.\n\nTake the job if you get an offer, they are going to set you up to be a really great Dev one day.",
+          "score": 10
+        },
+        {
+          "body": "I like to think of getting a job at a company like finding a person to date. You initially wipe out a lot of the pool by only focusing on the companoes/people you find attractive. But then you have to actually approach the company/person and see if they're even interested in you first.\n\nI mean, how silly is it to put this much thought into a company if you might not even get a first interview/date?",
+          "score": 8
+        },
+        {
+          "body": "Epic is great and pays exceptionally well for the area. Madison is a wonderful city. If I didn't have family in NYC, I would have stayed in Madison.",
+          "score": 8
+        },
+        {
+          "body": "[deleted]",
+          "score": 7
+        },
+        {
+          "body": "Hey former Epic here (now at Amazon):  \n\n\n1.  I think it is really about how you spin it.  The specific tech stack probably won't have recruiters pounding down your door, but you can learn a lot of valuable skills as a developer that will be valued by new employers.    \n\n2. Yeah, I'd say so.  I know people that went to Google, Microsoft, and Amazon from there.  Also know a guy that founded a startup after leaving there.  \n\n3. If it hasn't changed, then you only owe half the relocation after one year.  As far as career impact, it all depends on your reason for leaving after a year and how you sell that to recruiters.  Leave for a better job?  You'll probably be just fine.  \n\n4. If I remember right, I had the skill assessment online.  Don't stress too much, I found it pretty easy compared to other companies's technical interviews.  \n\n\nPersonally, I really wasn't happy at Epic, but I think a lot of your experience there depends on how good of a TL you get.  A great TL will make it a good time, but a bad TL will have you running for the door.",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "title": "Questions about Cerner",
+      "body": "I've recently been extended an internship offer to work as a software developer intern at Cerner. They have made it very clear that most of the interns go on to receive full time offers, so I thought I should ask about what full time employment is like.  \n\n\n1. What is the work life balance like? I've seen multiple online forums mentions poor work-life balance, but they engineers I interviewed with seemed confident in a 40 hour work week consistently.\n2. How competitive is Cerner's pay for Software Engineers? I don't have a strong grasp on what a good starting salary is for new grads in software engineering. Cursory internet research suggests starting salary is around $65,000 - $70,000. I may be blinded by the Microsofts and Amazons of the world, but this seems rather low for a Medium CoL area.\n3. How much room is there for growth within the company? I don't mind starting off at a lower than average  salary if there is room to reach a more adequate one down the line.  \n\n\nThanks!",
+      "subreddit": "cscareerquestions",
+      "score": 5,
+      "url": "https://reddit.com/r/cscareerquestions/comments/9l3el7/questions_about_cerner/",
+      "comments": [
+        {
+          "body": "I was a Cerner intern in summer 2018 but I feel like I learned enough to answer some questions. \n\n1. Its IT - there may be times as a full time employee where you will be required to help out outside of 9-5. This is highly dependent on what team you are on. Generally, the hours are great and allow you to have a life.  Many employees work 7:30 to 3:30 and don't work more than 40 hours a week. \n\n2. I got my full time offer as 69k a year + 3k relocation + 1k signing bonus. Rent is super cheap in KC however. I was looking at a luxury apartment downtown right on the free streetcar line for $750 a month. I turned it down because they wanted me to accept by September 3rd and wouldn't give me an extension even though my university requests companies to give students till October. \n\n3. A major complaint is that there is not room for growth within the company. I've literally heard from a dozen employees that they are just 'putting in their 2 years' and then going elsewhere. \n\nI really enjoyed my time as an intern - let me know if you have any other questions! ",
+          "score": 6
+        },
+        {
+          "body": "Cerner is in Kansas City, right? I would not describe Kansas City as a Medium CoL area. Kansas City is firmly in the Midwest, and is low CoL. $65k-$70k sounds about right for a new grad position in that part of the Midwest.",
+          "score": 2
+        },
+        {
+          "body": "I contracted at one of the KC campuses a few years ago in a senior engineer role. Cerner has a terrible reputation in the KC area. For me personally, it was the worst experience of my career. Here are some cons I experience:\n\n* \"Indian Manager\" the lead architect perfectly fit the stereo type of the Indian Manager; do as I say, don't ask questions or challenge my edicts on technical grounds.\n* Butt in seat from 8 to 5; 9 hour day mandatory (45 a week)\n* Toxic code review culture was the norm. Code reviews where unending contests for the most obscure one liners; people eviscerated each others code\n* I was offered to convert to full time, but the salary was very low; $95k for a senior when in KC you can get $120k pretty consistently.\n\nThat said, it's large company with a lot of teams; I heard from people who were on good teams. You take your chances. Answering your questions;\n\n1. Work life balance sucked; required 9 hour day plus 20+ minutes to get from your car to your desk (unless you arrive early and get a spot close to the building AND beat the elevator rush).\n\n2. Pay is not competitive at senior level.\n\n3. Big company, a lot of tenured, senior people, don't expect career growth.\n\nSome other thoughts; they use their own cerner only frameworks on the java side, so you don't get relevant experience. They have their own proprietary language that's not used anywhere else (CCL). Using these techs is career suicide. Cerner alum are generally unhirable because they don't have any experience with current frameworkds or technologies.\n\nThey exploit foriegn students/graduates by using up their S1 visa post graduation, then don't help with H1B applications.\n\nIt's miserable horrible company, only go there if you it's your last and I mean very last choice.",
+          "score": 2
+        },
+        {
+          "body": "Avoid this company if possible.  I worked there for a few years in the mid-2000s, and it was a hostile work environment from the top-down.  Some of the things that went on back then would be a lawsuit if they happened today.  ",
+          "score": 2
+        },
+        {
+          "body": "I know someone at Cerner, granted they are working at one of the offices in KC, MO but I would think it would be similar. What I've heard anecdotally is work life is pretty good, 40 hour weeks with your occasional up to 45. Pay wise, you're not going to be making Facebook sr. dev money there but the pay for a recent grad in KC is pretty livable, I would venture to guess they up the pay based on locale so in Philly it should be higher. Lastly, I've heard they are pretty mobile in roles *to a point* you could probably break the 6 figure mark in 8 or so years.",
+          "score": 1
+        },
+        {
+          "body": "Currently a software developer here at Cerner for the last 1 and a half years. Can answer any questions you might have if you're still looking for information.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Thoughts on Academy Software Engineer position at Cerner Corporation?",
+      "body": "I recently got an offer from Cerner Corporation for their Academy Software Engineer position and was wondering if anyone who has worked there would be willing to share their experience. What was the overall experience like? So far, the only thing that concerns me is the poor work-life balance at the company, but does that also apply for the entry-level Academy Software Engineer position? Generally, how many hours per week would I have to work, and how challenging/difficult is the work? Also, any ideas if Cerner is open to salary negotiations for their entry-level positions? Any insights on the work environment, their office (the one in Kansas City), culture, people, etc. would also be appreciated. I took the virtual video interviews instead of the onsite one, so never had the chance to visit their office or chat with any of their engineers (except for the ones who interviewed me) which is why I'm so curious. Thanks in advance!",
+      "subreddit": "cscareerquestions",
+      "score": 6,
+      "url": "https://reddit.com/r/cscareerquestions/comments/86gxmd/thoughts_on_academy_software_engineer_position_at/",
+      "comments": [
+        {
+          "body": "Hey man, I got hired as an academy software engineer and am just now finishing the \"academy\" portion before moving onto a new team. \n\n\n* Overall Experience is good. I'm very happy with my job. The work is frustrating at times but interesting. The academy projects are not directly related to healthcare- mostly internal tools- but I feel its valuable experience and I learned a lot. You might get placed on a project with a language you don't know- I would pick the language you'd most like to use after you finish training- even if you have no experience in it. I can give more info about the general academy portion- but you should have been given some info in your interview already. \n\n\n* The work-life balance is great. Training is kind of annoying because you are required to take an hour lunch on top of 8 hours a day- but they don't expect you to work extra. You are also expected to complete a task and submit it to review every 3 days but I only ever had one task that made me stay late at work a little bit to get it finished up. When I interned they did not expect you to put in more than 40. I hear work-life really depends on the team you're put on- but the work life issue is mostly a thing of the past. Most people at Cerner seem happy- including random engineers I've talked to that aren't training or interview staff. They are lenient about when you come in and when you leave work- most important thing is getting your work done. \n\n\n* 40 hours per week unless there is some major task that needs to get done by a certain deadline or you're in training and have been falling behind on completing tasks. I'd say most tasks aren't too difficult- the hardest thing I've done is to implement a new feature which affected the model view and controller in the application. It took me 4 days to complete instead of 3. There are other tasks that are simple like troubleshooting and fixing a bug, UI changes, etc. At least for training and the tasks I did for my internship- the work is manageable and people are willing to help new employees if you get stuck. You get 2 mentors in the academy which will directly help you and set up meetings where they can answer any questions- whether they be about how to implement something in javascript, best code practices for C#, or general questions about the company. \n\n\n\n* They aren't open for salary negotiations but the salary for entry level is quite high for the area. The thing that sucks is I hear the yearly raises are low- which is why Im assuming most people leave after a year or 2. But I'm happy with the salary for KC. \n\n\n* The office is really nice and the building is brand new and designed to kind of be \"trendy\". It has a gym, health clinic, video game arcade rooms, ping pong tables, life sized chess board outside- cafeteria with actually decent food, etc. The people vary, obviously. You get your stereotypes and you get your normal everyday people. Lots of people that are active in meetups and open source and what have you. There are internal hackathons and other various programming events and talks- sometimes external speakers come. \n\n\nLet me know if you have any other questions. I was nervous too about accepting a job offer at cerner cause of life balance but so far I haven't encountered it at all for engineers. The general consensus and attitude about working here is that its a great starting point to launch your career. The training program is really good, in my opinion, and lots of people who leave cerner end up at top companies like amazon (for some reason I hear thats the main big company- apart from Garmin because its close by). ",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "title": "Failing in job interviews for new grad Software Engineer positions",
+      "body": "I will be graduating in June next year and I started applying for companies. I interviewed in 7 different companies and couldn't convert even a single interview into an offer. \nHere are the list of companies I interviewed for \n\n1) Pure Storage (rejected after hackerrank test. Storage based company not disappointed with the rejection)\n\n2) Signac ( rejected after hackerrank test)\n\n3) Cerner Corporation ( rejected in the second phone interview. There were basic OOPs questions which I answered\n confidently but even then rejected )\n\n4) Startup (Final round reject after completing a small project. Rejected due to poor documentation of project)\n\n5) Bloomberg (onsite reject)\n\n6) Intentional Software (First phone screen reject)\n\n7) Eatstreet( hackerrank reject)\n\nI don't know what's wrong with me. I'm not that bad at algorithms and data structures and other oops concepts. The problem is I do small mistakes in interviews while others interviewing with me are perfect and even small mistakes are coming down hard on me.  For most of the hackerrank tests I am able to solve 3/5 or more than 50% of the problems but still being rejected. \nI interned at Amazon this summer and couldn't convert to a full time. I feel so dejected and feel like I won't land a job. \nI have a strong 3 year work experience in a top 10 company. \nPlease advice me how to improve and what else I can do to get a job. \nI'm taking part in hackerrank contests and doing questions on leetcode, ctci, programming interviews exposed, Glassdoor, careercup. \nI have 6 months time and I can reinterview in most of these companies. \nMy morale has been so low that I feel someone has casted a spell of black magic or evil eye on me. :( I know it's foolish but when I get close to the job and get a reject it is disheartening.\nI'm squandering easy opportunities :(. \nPS - I'm trying to understand what mistakes I did in the interviews and trying to improve them. ",
+      "subreddit": "cscareerquestions",
+      "score": 4,
+      "url": "https://reddit.com/r/cscareerquestions/comments/5epb8q/failing_in_job_interviews_for_new_grad_software/",
+      "comments": [
+        {
+          "body": "It might be harsh, but 3/5 of hackerrank questions being solved isn't a strong point. Only once have I ever not got 100% right and gotten an interview afterwards. Concentrate on the stages you get rejected at.",
+          "score": 15
+        },
+        {
+          "body": "1) You had an internship at Amazon which means you had to pass their interview process..This is a BIG4 level interview screening. Are the interviews you're having harder than the Amazon interview? \n\n2) Don't be down. Hackerrank can suck, but there is a method to the madness. The way you find what works for you is to replicate the environment and practice. Time yourself. Find what you can improve. Repeat.\n\n4) I was rejected from 90% percent of the companies I applied to but I still made it and I didn't have Amazon on my resume lol. Look up geeksforgeeks top 10 interview questions. Mastering those really helped me. ",
+          "score": 3
+        },
+        {
+          "body": "Sounds like you're mostly on the right track - but I will agree with the above poster in that it sounds like your standards for interviews are not as high as they should be - you really should be a if those hacker rank tests.\n\nYou also don't describe small mistakes - I consider a small mistake like syntax errors or an off by one that you correct. What are you actually making mistakes on?\n\nWhen you do make mistakes, what do you mean they come down hard?\n\n",
+          "score": 2
+        },
+        {
+          "body": "You need to fail in order to succeed. Keep practicing. Keep working on hackerrank and you will become proficient enough to pass the tests. IF there's anything I've learned it's that companies like to use the same formulas for interviewing. What's the reverse of a string. What is polymorphism. How do you iterate this array. Solve this problem, do this fizzbuzz, do that. So the more you practice those problems on hackerrank the better you will be in the end. Good luck. ",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Using a design pattern in an interview",
+      "body": "I interviewed with Cerner this past week. I feel like i did well. However, when discussing with the other candidates i found i was the only one who completed my class designs with the implementation using design patterns. I guess what im asking is that. If you're an interview, would you like to see a candidate use tried and true design patterns to solve problems? ",
+      "subreddit": "cscareerquestions",
+      "score": 1,
+      "url": "https://reddit.com/r/cscareerquestions/comments/667bbp/using_a_design_pattern_in_an_interview/",
+      "comments": [
+        {
+          "body": "Generally when I was interviewing candidates, I was checking to see that they thought through the problem, considered edge cases, and came up with a reasonable solution that would actually work. If a particular design pattern is appropriate for the task, then it's a plus. If you're shoehorning a design pattern somewhere it's not really appropriate, then that's a minus. \n\nHonestly though, interviewing means you go through a lot of nincompoops on your way to finding decent candidates. It's entirely possible that you were the only one of the candidates worth a damn. Congratulations if that was the case. ",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "title": "First job offer out of college. What do i do?",
+      "body": "Background,\n\nBased in BOSTON.\n\nOn F1 visa.\n\nUniversity of Massachusetts.\n\n3.4 GPA.\n\nPaid internship in summer 2014. Was paid $40/hr. Manager was a jerk and behaved like one when i turned down his part time offer for the project I worked on with him and gave me a negative feedback. Hint : It's a big ass company that pays over 130k to its new hires.\n\nMay 2015. I graduate.\n\nNot a lot of interviews.(5) Rejection from Microsoft and Apple after onsites. I go back to my country depressed. \n\nCome back on july 10th. Start spamming resumes again.\n\nLo-behold. 9 interviews in one week including one at google ( yay). 3 rejections after HR because  \" we are looking for someone with more experience\" and two \" we dont sponsor visa( hello, I am on a 27 month OPT , i dont need a visa ).\n\nOut of 6 HR interviews I cleared, I have two technical interviews including google ( yay!) lined up for monday . \n\nI have given 4 tehcnical interviews after coming back on 10th. Got invited for face to face interviews for all 4. Got rejected at one, bad experience. Gave another one on monday. Got an offer today and have 2 more lined up.\n\nThis is how the offer looks like,\n\nBase Salary : 84000 .\n\nSign up Bonus : 10000\n\nRSUs : 2500 units ( company's stock is on a roller coaster and has been trading between 18-30 in last 6 months)\n\nUnlimited Pay Time Off.\n\n401k sucks but yeah.\n\n\nRated as one of the best places to work at in boston ( Awesome awesome office). but the company has made small losses in last 8 quarters  \n\n\n\n-------------------------------\n\nSo yeah out of 4, I have one rejection ( screw them , rude people) , one offer ( I guess I will love it here) , 2  upcoming onsites ( world's largest asset management firmed based in Wilmington,DE) and Cerner ( they are flying me in on 20th august for the experience cerner day)\n\n-------------------------------\n\n\nIs the salary good enough for Boston for a new hire? I know I wll properly get a better paying job but I dont value money much as much as a visa sponsorship in future!\n\n--------------------\n\nI am going to keep interviewing but I just wanted to know if the offer i have is good for Boston.\n\n\n--------------\n\nYAY I AM HAPPY  i know sound like a teenage guy who has had his first kiss but yeah whatever :D\n",
+      "subreddit": "cscareerquestions",
+      "score": 7,
+      "url": "https://reddit.com/r/cscareerquestions/comments/3fcqmm/first_job_offer_out_of_college_what_do_i_do/",
+      "comments": [
+        {
+          "body": "I think 84k for a new grad in Boston is pretty good. I started at 72k with the same GPA from the same school at an office about an hour outside Boston. ",
+          "score": 7
+        }
+      ]
+    },
+    {
+      "title": "How to not stress over phone interview?",
+      "body": "Alright, I'm a pretty recent grad and I have a phone interview with Cerner tomorrow. I had one two months ago with the same company and completely bombed. It was started off okay and then I turned into a nervous mess. I haven't had as much time to prepare as I'd like (part-time job is taking up more time than I'd like but I have to pay the bills somehow) and I still have my questions and answers typed up from the previous interview.\n\nI'm an introvert and i'm kind of an awkward person but once I relax I'm fine. One problem I know that I have during interviews is that I seem to babble from nervousness. Is there any way to calm my nerves? Also, I have less than 24 hours to prepare for the interview (I'm working 7 to 11 tonight and the interview is an noon tomorrow). I kind of want to stay up all night to prepare but I feel like that would be a terrible idea. Any advice is welcome. Thanks!",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/57044r/how_to_not_stress_over_phone_interview/",
+      "comments": []
+    }
+  ]
+}

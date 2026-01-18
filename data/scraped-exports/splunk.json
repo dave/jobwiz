@@ -1,0 +1,743 @@
+{
+  "company": "splunk",
+  "post_count": 32,
+  "exported_at": "2026-01-18T17:44:53.306Z",
+  "posts": [
+    {
+      "title": "How I went from 2.4 GPA and unemployed to my dream job.",
+      "body": "Long-post inc.\n\nFirst of all, I would like to tell you guys that I was unemployed for 8 months after I finished college. I interviewed everywhere, from Amazon to dinky and sketchy startups. I've taken advice and encouragements from this reddit as I pushed forward. On the other hand, I've been discouraged by this reddit when the \"annual salary\" or \"what internship did everyone get\" threads started popping up. I looked at people on this reddit and thought that someone like me with barely any projects, zero (real) internships, and a whopping 2.4 GPA would never land a good job.\n\nI kept pushing. I used to not get even an email back from companies. Then I slowly got phone interviews.. in which I failed. I guess it's time to go back to reading reddit, time to start working on leetcode and oh, I guess I'll get that Cracking the Coding Interview book. Phone interview started to lead to on-site. Let me tell you, I was not ready for those long 4-5 hour onsite grinds.\n\nEventually, my hard work paid off.\n\nAnd here's the thing. I thought the company I accepted the offer from was going to suck. It's not the Big 4, no one has heard of it. It's just a medium sized tech company that gave me a job as a \"junior devops.\" I hesitated because I didn't work hard just to be a devops, I wanted to be a dev. I wanted an above average salary, not just \"junior rates.\" Nonetheless, I accepted quickly because a job's a job. (I didn't even negotiate.)\n\nA year down the line, I love this job. I love it so much that I wouldn't leave it for any of the big 4. (except maybe Google). I make average salary in my city but I didn't expect work life balance to be this great.\n\nHere are some of the cool things I appreciate from working at a “random” company : 30-40 hour work week, free food/beer, go to work 11am-5pm, unlimited paid sick days, amazing manager who really pushes me to climb up the ladder (our first one on one, he wanted me to eventually take his job.) and of course, being a devops. I learned more in this past year than I could have ever imagined. I learned big data(hadoop, mesosphere)  ,CD/CI (ansible/docker) , AWS (lambda, ec2, cloudformation, batch, elasticsearch, cloudwatch) and became an SME (subject matter expert) at centralized logging (ELK, nagios, splunk). I also learned like 5% of bash, which basically made me four times as fast when writing scripts compared to school-taught languages like java and c++. I wear many different hats even though the company is about a couple thousand people. I’ve been a product owner, release engineer, and am currently in multiple different teams (multiple scrums a day).\n\n**In the end, all these cool things that are associated with my job did not come from a Big 4. It didn’t even come from a well-known tech company (you probably haven’t heard of it). It was given to me even though I have a crappy GPA. How I got a job was just based on tenacity and persistence, how I kept the job was because I took initiative and actually wanted to “at least learn devops so I know both path)”. You guys can do it, no matter how depressing being unemployed can be. No matter how bad the job looks compared to /r/cscareerquestions kiddos’ job. This industry is amazing and I wouldn’t give up computer science for any other subject in the world. Thanks /r/cscareerquestions!**",
+      "subreddit": "cscareerquestions",
+      "score": 1493,
+      "url": "https://reddit.com/r/cscareerquestions/comments/6ndohd/how_i_went_from_24_gpa_and_unemployed_to_my_dream/",
+      "comments": [
+        {
+          "body": "I think this subreddit needs more stories like this. We need a healthy sample size of experiences and perspectives.",
+          "score": 551
+        },
+        {
+          "body": "This is great to read as I have a very similar story to you.  \n\nLearned Ruby on Rails/Python for a ~year.  Started applying to jobs with no \"real\" dev experience under my belt (I did have previous project management experience).  Bit the bullet and started applying to any dev job. And eventually got called from a small tech startup. There was a catch. They had **no money**.  They couldn't pay me. And against the advice of lots on this sub, I took the job because I thought it would be a good experience and better than sitting on my ass at home.  \n\nLong story short, more than one year later, Im the fourth largest employee share holder making above average salary in my area, we have raised over a million euros, and I have been given free reign to work on basically any aspect of our project. The team has grown from two to now four and soon to be six. I manage four of those people. I have been able to launch and manage a mobile app, re-architect our web application to Docker containers, implement CI/CD, migrate our Db to Postgres, start dabbling in machine learning, and the list goes on.\n\nThe best part is that **I love my job**. I get to work whenever and where ever I want.  I get to learn and implement pretty much everything that I find interesting and worthwhile.  And everyday Im challenged in more ways than one.\n\nThe point is that most everyone is not going to get a job at the big four. It'll probably be at a &lt;no name company&gt; that puts out a great product. It doesn't matter though. Trust me, you'll learn a ton. More than you could ever imagine right now. \n\nThe most learning you'll do comes from actual experience and lots of failures. You just have to keep your head high and keep looking forward.  There is **always** a solution. \n",
+          "score": 118
+        },
+        {
+          "body": "Thanks for sharing!\n",
+          "score": 36
+        },
+        {
+          "body": "Great story! What did you do during your time unemployed? As in what was your daily regime, so to say? Like a couple hours apply to jobs, then hitting the books, and then maybe a couple of hours working on a personal project? How did you develop more skills to be more attractive as a candidate? Just curious :}\n\nEdit: Maybe a general question: how should one delegate their time and effort when in a similar situation as OP during unemployment?",
+          "score": 32
+        },
+        {
+          "body": "I want to get to a point where I can write a story like yours as well. My GPA dropped to a 2.4 last semester and I had serious panic attacks in my classes. Reading posts like yours has helped me feel better about myself, so thanks for sharing ",
+          "score": 27
+        },
+        {
+          "body": "&gt; I hesitated because I didn't work hard just to be a devops, I wanted to be a dev.\n\nlol.... Modern \"devops\" are basically Software Engineers... You're not just a \"fullstack dev\" you're a \"full lifecycle engineer\"...",
+          "score": 44
+        },
+        {
+          "body": "This is probably gonna be buried beneath the other comments, but did you do other work besides practicing leetcode (e.g. personal projects) for your job interviews?  \n\nAlso, what was your primary method of applying to companies? LinkedIn, referral, job fair, etc.\n\nI'm in a similar position as you, just graduated college with no internship, 2.9 GPA, and only two projects, both of which I worked on with other students. Your post gives me alot of hope and a great reminder that I still have a fighting chance!\n\nEDIT: Seems you've answered my first question in the other comments, my bad!",
+          "score": 16
+        }
+      ]
+    },
+    {
+      "title": "Visa(hybrid) or Splunk(remote) work life balance?",
+      "body": "Hi all,\n\nI am currently interviewing at both places (7 YOE). The pay range is about the same with similar stock so money really isnt an issue for me. For both it is around 150k base and 30k stock. \n\nVisa is hybrid 2 times a week (about 20 minute drive). Based off the description it is for a staff engineer position and the description says I will be helping mitigate issues in the paywall. It sounds like I will be helping merchants mitigate issues (working with customers?). \n\nSplunk is fully remote. Sounds like I will be consdiered more of a Jr engineer as the job lists wokring with senior engineers. \n\nI dont mind my title but what I am focusing on is work-life balance. My last job (I got laid off) was in FAANG in one of the cloud services. I hated it and mostly stayed due to bad market. I worked remote the expecations were high at that FAANG project. Basically you had to have the mindset of going into a meeting at any time. Seniro and principals were working 10+ hours daily, late calls, weekend meetings, etc. Taking laptops to kids events and vacations, etc. I want a place where I can grow. \n\nObviosuly Splunk looks enticing because of remote work, but I worry that part of the reason I struggled at last company was because I struggled to connect with co-workers at my last job. I didnt really have friends at the job (maybe 1 towards the end) where in my first job I was friends with everyone. Im a charismatic guy but I show it the most when I am face-to-face with someone and I think that is one of my strengths. But doing it online was kind of hard as nobody really wanted to reach out unless it was for work. Also with RTOs I worry maybe this could lead to job security concerns for me down the road. The last thing is what I learned from FAANG is that every company has different idea of what Jr, Sr, and principals should do. A Jr at my last job did alot more than principals at my first job. I dont know what the culture or expectations are in either company but if the case is that i'll be doing more as a Jr engineer in Splunk than a staff at Visa, then I'd rather go to Visa. But it could be vice versa where Visa is brutal and Splunk isnt. Also I would do on-call again, but if I can avoid it I would too. \n\nFor visa, I worry i'll mostly be mitigating on-call incidents from the looks of the description. Maybe im misreading it but I worry it will lead me to having late night calls or emails trying to mitigate a new issue. Also I've never been more than an SE2 so is this going to be higher expectations than I expect. The one thing that has me a bit relieved is I know when I worked I faang I was likely more of Senior disguised as an SE2 as I did more than most seniors in other companies do (including design, leading meetings, etc). \n\nAnybody know how WLB is at either company? \n\nIf you had the choice and money didnt matter which would you lean towards based off everything I said?",
+      "subreddit": "cscareerquestions",
+      "score": 1,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1jp2umr/visahybrid_or_splunkremote_work_life_balance/",
+      "comments": [
+        {
+          "body": "I would go for splunk for multiple reasons\n1) better name brand on resume and engineering talent\n2) sounds more actually related to SWE/development work\n3) remote. Even if you're in person you're not guaranteed to get teammates / coworkers you vibe with. \n\nI've actually been applying to splunk every year but they don't wanna interview me lol",
+          "score": 16
+        },
+        {
+          "body": "Splunk 100%. Visa is not 2 days a week, it is 3 days. I am not sure whether they do badge tracking but my manager constantly pressured our team to come to office, you can miss a day or two here and there but expect your manager to get on your ass about it if it becomes a habit. Visa is heavy on politics internally, if you want to promote you need to play that game. There will be frequent pressure from management for team outings as well. Staff engineer is not a chill job, you're essentially a team lead.\n\nI was laid off in October but worked there for a little over 2 years and they did frequent layoffs within the last year. Work can either be chill or stressful depending on the team. I was not on call but I had a friend in another team who got put on call frequently for prod issues. Lots of legacy code as well. 150k base is not a junior salary, that's nonsense.\n\n&gt;Obviosuly Splunk looks enticing because of remote work, but I worry that part of the reason I struggled at last company was because I struggled to connect with co-workers at my last job. I didnt really have friends at the job (maybe 1 towards the end) where in my first job I was friends with everyone. \n\nStop basing your job search on your work relationships. Your coworkers are not your friends, sure you can make friends but you're there to work not build a social circle. You don't struggle for lacking friends, you struggle due to poor communication skills. Splunk is fairly known in tech and fully remote is even better.",
+          "score": 2
+        },
+        {
+          "body": "Did you see employee reviews of Splunk?",
+          "score": 1
+        },
+        {
+          "body": "Are you the same person who posted about skipping the OA at Splunk?",
+          "score": 1
+        },
+        {
+          "body": "From what you’ve described, it seems like work-life balance is your top priority, and both companies have their own pros and cons. Visa’s hybrid model with a short commute and a staff engineer position sounds like a more traditional setup with the potential for on-call duties, but it could also offer better opportunities to connect with your team in person, which seems important to you given your past struggles with remote work. If the work is mostly about mitigating issues, you might be dealing with some late-night calls or high-pressure situations, but it also depends on the team dynamics.\n\nOn the other hand, Splunk being fully remote might offer more flexibility, but as you mentioned, it could make it harder to build relationships, which might affect your job satisfaction in the long run. The Jr. engineer title at Splunk might mean lower expectations, but that doesn’t always translate to a better work-life balance. You might still face intense projects and pressure, just with a different set of challenges.\n\nIf WLB is your primary concern, Splunk seems like a safer bet, especially if you thrive in a fully remote role, but it might take some time to adjust to the different work culture. If you’re more comfortable with a mix of remote and in-office and want a bit more structure with the chance to connect with coworkers, Visa might be the better fit. Ultimately, it comes down to what type of work environment you think will keep you more balanced long-term.\n\nAnd as a side note, when considering work-life balance and negotiating these factors, resources like [salaryscript.com](http://salaryscript.com) can help you better prepare for those tough discussions down the line.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Which should sounds better?",
+      "body": "I made a post last week about whether choosing visa or splunk before I had interviews with them. I had interviews with both and did well and got offers from them. Im leaning on splunk but thought I'd repost now that I have better understanding of what the positions entail. Like I expected both offers are pretty similar so money really isnt much of the issue here. \n\nVisa - Hybrid 2-3 times a week in office (about 20 minute drive). Expectation is that I would be designing the system and mentoring jr engineers.  seems they are expecting me to pretty much get the ball rolling as soon as possible. No on-call rotation at all.\n\nSplunk - remote. Expectation is that I'd learn the system in my first half year, get \"small wins\" as I go and learn more and more. Seems benefits are slightly better (random days off, last week of year off, birthdays off, etc). On-call is 1 week every 3-4 months or so, manager said high level incidents have become more rare. \n\nAgain im leaning on splunk due to remote work. they have an office in the city that I would be able to get into when I want an office experience. THe one thing I dont love is having to do on-call again but beggers can't be choosers and it's mostly due to me having PTSD of the poor WLB at my last job which was in FAANG. \n\nI do worry about being promised all the good things and then getting there and realizing it is way more hectic than I expected, which is what happened to me in FAANG and ultimately lead me to getting let go at my job a few months back. Basically at my last job seniors and principals were working long hours, I was expected to work long hours as a jr. On-call would get hectic, etc. I worry of falling back into that type of system.",
+      "subreddit": "cscareerquestions",
+      "score": 3,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1ju3bsj/which_should_sounds_better/",
+      "comments": [
+        {
+          "body": "[removed]",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Is having DevOps experience seen as a negative when looking for software engineering roles?",
+      "body": "I am currently looking for a new job, 4YOE. At my last job I had the title \"Associate SWE,\" but a lot of the work I was doing was DevOps, performing deployments to prod and nonprod, working with GitLab YAML files, reviewing Swagger files, pushing new versions of APIs to our environments, and using Splunk and Apigee to monitor APIs. I was originally hired to do Java development work on some projects, but the company went through a lot of restructuring, so I never got to write any Java. Besides that, most actual code was done by a 3rd party company, and engineers from my company just reviewed what they had written to make sure it was to spec. \n\nPreviously I had a sentence in my resume \"Operated as DevOps engineer to deploy content, configure pipelines, and troubleshoot build issues.\" but I was told by someone \"your most recent job comes off as DevOps and reviewers might think so with how you've framed it\" and they thought it might be affecting the number of interviews I was getting, so I cut it out. I also rewrote the description for my most recent job. I'm not sure how much of a difference it's made though. If I'm looking for full-stack or back-end work, is DevOps really a detriment?",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1hbjd36/is_having_devops_experience_seen_as_a_negative/",
+      "comments": [
+        {
+          "body": "The answer is is going to depend on the company and engineering culture you're applying to. I've worked at places and for leaders that had for no good reason \"negative\" views of things like Operations work, Devops work or SRE and weird beliefs around what \"true software engineering was\".\n\nI also worked at and prefer places that actually favor engineers with truly diverse skillsets for what they can bring to the table and whose cultures actively avoid \"type casting\" software engineers.\n\nUnfortunately it is far more prevalent to find places that have stupidly strong opinions on what \"real\" engineering is.  This goes much deeper than type of work, and into things like C++ vs Java vs Golang vs Python. Or having \"shady\" opinions of \"Full Stack\" engineers etc. etc.\n\nYou can't really control for this.   My personal opinion is that over the length of a meaningful career in software development and delivery a broad experience set is far more valuable that a singularly deep one and your DevOps experience is going to make you a far stronger engineer in the long run.",
+          "score": 7
+        },
+        {
+          "body": "There are too many mind games being played. I think you just have Taylor tour resume and bounce as the next best thing comes. \n\nGood companies have sane practices...",
+          "score": 4
+        },
+        {
+          "body": "Do you have *other* things in your resume that puts forward your React and Java experience when applying to full stack or writing Spring Boot and micro services on the back end?\n\nIts not a determinant in itself... but if your resume doesn't suggest that you can preform better than someone with 2 years of experience who focused on software development, it may be a hard sell to say that you can do it.\n\nYou should have three resumes.  One that furthers you as a DevOps type, one that highlights your experience with Java and Spring Boot, and one that highlights your experience with TypeScript + React and also Java + Spring Boot.  Use the appropriate one when applying to a position that expects that type of experience.",
+          "score": 1
+        },
+        {
+          "body": "&gt; If I'm looking for full-stack or back-end work, is DevOps really a detriment?\n\nIt's rather unfortunate that this term has been abused so much because what you're describing is \"Ops\" work. And while it's somewhat adjacent, it's also just pretty different from back-end development. So while some Ops experience can definitely be beneficial for back-end roles, not having any actual back-end experience is absolutely a detriment when you want to apply to back-end roles. It's similar to only having front-end experience for example.\n\nIt's less of an issue for smaller companies that often hire people for more generalist (fullstack) roles, and a bigger one for companies that tend to prefer specialist roles. \n\nIt's not something you can't fix, so it's not some kind of career ender. Just something you need to be aware of, and put effort in to fix. I don't know exactly what you did the last 4 years, but if it's only this kind of \"ops\" work, this means you're simply not at \"4 years experience\" for back-end roles.\n\nTake this as a learning experience to not let companies push you into a career you don't want. It's often very convenient for companies to get people to just do the stuff others don't want to do and think it's okay because they're not complaining. Try to focus on companies that hire more for generalist roles, and just be aware that it might take longer to convince them to hire you.",
+          "score": 1
+        },
+        {
+          "body": "DevOps experience isn't inherently negative for software engineering roles, but it can be a double-edged sword. The key is how you frame it. Your DevOps skills can be valuable assets, showcasing your understanding of the full software lifecycle and ability to work across different areas. However, if your resume leans too heavily on DevOps tasks, it might give the impression that you're more suited for DevOps roles than pure software engineering positions.\n\nTo maximize your chances for full-stack or back-end roles, focus on highlighting any coding or software design work you've done, even if it wasn't the main part of your job. Emphasize your Java skills and any other relevant programming languages. When mentioning DevOps tasks, frame them as complementary skills that enhance your ability as a software engineer, rather than as your primary focus. This balanced approach can help you stand out as a well-rounded candidate who understands both development and operations.\n\nIf you're struggling with tricky interview questions about your experience, you might find [AI interview practice](http://interviews.chat) helpful. It's a tool I worked on that helps people navigate job interviews more confidently. It could help you practice explaining your diverse skill set in a way that aligns with the software engineering roles you're targeting.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Is it bad taking few months off between the jobs?",
+      "body": "got a software job right out of college and I've been in the same company for 5 ~ 6 years. And now I want to find a position in a different company. I already interviewed couple of FAANG companies but was rejected. And for another interview opportunity I will need to wait ~4 months. \nNow, my heart already left the current company and not very motivated for the work, and WFH environment is not helping either. So I am thinking about quitting the current job, taking few months off until my next interview opportunity in the FAANG comes back up. So I can add these companies to the list of possible companies for interviews.\n\nThe question is, until now, getting to the interview stage was fairly easy. The recruiters would ask about current job position then would set up the interview date. However if I would've taken few months off, will it be harder to get the opportunities?",
+      "subreddit": "cscareerquestions",
+      "score": 55,
+      "url": "https://reddit.com/r/cscareerquestions/comments/opf6r2/is_it_bad_taking_few_months_off_between_the_jobs/",
+      "comments": [
+        {
+          "body": "No one cares about a small break of a couple of months.\n\n&gt; So I am thinking about quitting the current job, taking few months off until my next interview opportunity in the FAANG comes back up. \n\nNo offense, but this is stupid.  You're going to not get paid just to wait for an interview?  Not a job, an interview?  If you don't like your job, get another job.  Don't sit around and do nothing for a specific company - especially something as mercurial and arbitrary as a FAANG interview.",
+          "score": 120
+        },
+        {
+          "body": "If you got the money and can tolerate the risk of not having a job, I don’t see why not. I would actually like a work/life model where people take mini retirements 6 months -1 year after every 3-5 years, instead of having a crap ton of money and nothing to do at an old age when you’re too boring to enjoy it.",
+          "score": 16
+        },
+        {
+          "body": "While no body cares if you have a small gap in between two jobs, it is easier to get interviews when you are already employed. \n\nOnce you have a job offer, structuring it to start so you have a gap is okay.\n\nPersonally, I wouldn't quit a job hoping for an interview in a few months.  Then again, my savings dictate that more than anything.",
+          "score": 24
+        },
+        {
+          "body": "No, you should be working throughout your entire life without a break. Otherwise people will think you’re a lazy person",
+          "score": 30
+        },
+        {
+          "body": "Nope.  \n\nIf you're worried that some dickhead, bootlicker boss will ask about it, make some shit up about a sick family member to get them to stfu.",
+          "score": 4
+        },
+        {
+          "body": "[deleted]",
+          "score": 8
+        }
+      ]
+    },
+    {
+      "title": "Does anyone else keep getting tons of Copy/Paste job scams? Am I just too sensitive to this and am seeing scams that aren't there now?",
+      "body": "I've literally seen this ***exact*** text or some minor variation of it so many times now during my job hunt. It's to the point where the company looks legit, but since it had this copy/paste BS I think it's a scam. Have I gone insane?\n\n*\"Thank you for your application for the Junior Graphic Designer (REMOTE) position at Company. After reviewing your application. Our online recruitment team has recommended you for the open position and you’re among the candidates shortlisted for a virtual screening test/interview session with a Senior Recruiter at Splunk Inc.The window available for this screening interview is today Monday, 25th and tomorrow Tuesday, 26th of April from 10:00 AM to 4:30 PM CST. Meaning you can schedule your interview in between the days and hours. This virtual screening test/interview is online through Email correspondence and Skype. You are to immediately contact the SVP, Chief People Officer Took\\_out-name at her Skype to conduct the interview.The goal of this interview is for us to get to know you better, and for you to ask any questions you may have. Also, to acknowledge the receipt of this email and to confirm your availability to schedule your interview. We want to make sure that your skills, goals and ambitions match our company culture and the position. You should send her a message on Skype using the link for procedures.NOTE: It is imperative that you send an email to the SVP, Chief People Officer Person to proceed with the screening process.*",
+      "subreddit": "jobs",
+      "score": 3,
+      "url": "https://reddit.com/r/jobs/comments/ubp5w4/does_anyone_else_keep_getting_tons_of_copypaste/",
+      "comments": [
+        {
+          "body": "Hello, thank you for posting to r/Jobs!\n\nWe just wanted to let you know that we have a new [discord server, come join the chat!](https://discord.gg/TY6ErXV)\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/jobs) if you have any questions or concerns.*",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "What projects are good these days?",
+      "body": "Might be a rant, might not, but I’m feeling kinda lost right now. I’ve got an associates degree and about two years of internship experience, but I’m still not getting callbacks. I’ve done a bunch of personal projects, but it feels like no matter how many I build, it’s never enough. Even if I can get in front of a recruiter via networking, it feels like I get shot down before getting the chance to interview.\n\nThat’s what got me thinking, what kind of project actually turns heads anymore? Making a CRUD app or even building your own neural network doesn’t really seem to cut it these days. It feels like I have to use the latest AI tech (RAG for example) in some crazy way to get noticed. For context, my side projects include a Sentence Toxicity Classifier (using a RNN), a SIEM/SOAR pipeline to test things with Splunk, a Discord music bot, and a handful of other projects I thought were pretty solid. I always figured showing that I work on stuff in my own time would help me stand out, but if everyone’s doing the same, how do I actually separate myself? \n\nDo I really need to go all out and build a full blown website with the latest AI tech just to get a call from a recruiter? What projects are actually impressive in today’s job market? Not complaining, just genuinely curious and lost right now as im sure many of us are.",
+      "subreddit": "cscareerquestions",
+      "score": 15,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1mz5eou/what_projects_are_good_these_days/",
+      "comments": [
+        {
+          "body": "Nothing. I have been developing Minecraft plugins. One of them has been downloaded over 3000 times, has 28 Java classes, and an active GitHub page with feature requests from the users. I put it on my resume and applied to Java developer roles, but nobody cares. I built a website using Spring and microservices, again, nobody cares. I enjoyed it but it is a waste of time.",
+          "score": 32
+        },
+        {
+          "body": "I got an interview because I have “a very active GitHub and a good sense of humor” (their words).\n\nSo maybe just push an empty commit once a day and be funny on Twitter?",
+          "score": 23
+        },
+        {
+          "body": "Ai wrapper bullshit",
+          "score": 10
+        },
+        {
+          "body": "1. Your options are limited because you don’t have a bachelors degree or higher \n    1. You’re competing against other applicants with bachelor degrees and higher *(related or not)*\n2. New Grad roles are the ideal ones to apply for, but in most cases you aren’t eligible since you don’t have a bachelors degree or higher, *(plus your degree conferral date has to be within range)*\n3. You’re limited to applying for jobs requiring 0-1 years of experience\n     1. Also, some job postings don’t count in internship experience towards YOE\n4. What type of roles are you applying to, and how open are you to relocating? \n\nAlso, \n* We don’t know what your resume looks like\n* We don’t know how your resume relates to the job postings you’re applying to\n\n**Possible Options**\n\n* Join a company in another role, then try internally transferring to a Software Engineer role \n* Get a referral/an internal to speak directly to the hiring manager for you — *although, you said in the post you’ve done this*\n\n**Projects**\n\nProject-wise, ideally:\n* Using the tech stack related to the job positing \n* Building projects related to the product/service of the job posting/company\n* Project documentation \n* Project being deployed \n\n\n**Side Note**\n\nEven I’m struggling a bit with applying for Software Engineer roles lol. \n\nMy Background: \n* BS in Software Development\n* MS in Computer Science — *In-Progress*\n* ~3yrs in a tech role (non-SDE) at Amazon building software \n* 1.5yrs SDE intern at Amazon \n\n*Note: I believe my resume is probably the main issue and I need to revamp it*\n\nWith that said, I have gotten some callbacks/contacted by Roblox, Notion, Google, Capital One, TikTok, 2K Games, and eBay from what I recall.",
+          "score": 5
+        },
+        {
+          "body": "Recruiters are attracted by household brand names and *relevant* experience. Hiring managers are going to want to hear about team work.",
+          "score": 7
+        }
+      ]
+    },
+    {
+      "title": "Is it normal to bypass pre-screen?",
+      "body": "\nI got a call tosay from a splunk recruiter interested in me having interviews. He sent me a pre-acreen and told me to complete by end of week. About a few hours ago he told me that they want me to skip the the code exam and just want to schedule in person interviews this week. Im assuming they want to fill the position ASAP. \n\nI have 6 YOE with last 3 years in faang before i got laid off. Ive always heard good things of splunk and the pay would be for more than my last job. Ill take all the blessings i can get but i do worry my  job will be as hectic as my last job and work life balance will be shitty like at my last job. My last job i had apied for embedded project and rhey told me they had “filled the quota” and instead sent me to do cloud services. I dont want to doubt a good thing but its giving me similar vibes of if they are eager to fill it then it must mean its not that great of a position. Maybe im just in my head too much.\n\nIs this normal?  ",
+      "subreddit": "cscareerquestions",
+      "score": 9,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1jpcizt/is_it_normal_to_bypass_prescreen/",
+      "comments": [
+        {
+          "body": "Depends. Do you know anyone there that may have been able to vouch for you? Could also be if, as you said, you have FAANG experience so your \"reputation is proceeding you\" and they figure if you made it at FAANG you can likely make it there, so they don't wanna waste time.\n\nA couple jobs back I only had to do a system design and leadership interviews to determine level and pay. All the high level management at that place were also high level managers at the company I worked for at the time, and they were hiring in engineers from what appeared to be a sinking ship at the time. \"The coding stuff is the same, and you've been there over three years already so we know you can code.\"\n\nMy most recent job was somewhat similar. Manager who hired me did my technical screen, which was scheduled for an hour but he was satisfied in just 15 minutes. They then consolidated my final round coding exercise to just an hour but with higher level folks to evaluate me. Mostly this had to do with an offer for a crappy contract to hire gig I had accepted and I was hoping their offer would be better (it was).\n\nCould be a bad sign, but I wouldn't look a gift horse in the mouth. I definitely wouldn't ask them about it until after you've started anyway. 😂",
+          "score": 3
+        },
+        {
+          "body": "It's not *ab*normal.  They potentially saw your resume, didn't look too closely, and upon looking closely you met some arbitrary criteria to skip the pre-screen. Maybe FAANG experience, who knows?\n\nYes, I think you are in your head too much. The position may or may not suck, but a screen by-pass is not a meaningful metric to go by.",
+          "score": 1
+        },
+        {
+          "body": "I've had it happen because I had FAANG on my resume.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Feel like I was lied to about the job I was applying for, is this a normal thing companies do?",
+      "body": "When I was hired for my current job, the job title that was posted was \"Java application developer\". During my interview, I was asked a series of programming questions, no technical tests though. After being hired, I was told my job title was \"Technology Analyst\", and I started learning things like ocp4, Kubernetes, Jenkins, Splunk, etc. My day-to-day seems to resemble that of a person in a dev-ops role, but to a lesser degree. I'm basically the middle-man between the business and the dev side, where I communicate with DBAs to run scripts, and just copy-paste deployment image names given by the dev team into Jenkins to carry out code deployments. There's some monitoring that happens afterwards in OpenShift, but other than that, my job duties seem to be just \"whatever needs to be done, or email x to figure out how y needs to be done\". I do on rare occasions get some simple development work handed to me though, which usually includes writing simple service calls to an API, or creating SQL queries to verify a data load. \n\nRecently I was talking to a friend who had a very similar experience. She said the job she applied for was a C# developer role, but when being hired on, she was told her job like customer success engineer or something like that, which was basically a no-coding role, except for the occasional SQL queries. \n\nI'm just wondering, is this a common thing that happens in the industry? My job pays well and the benefits are great so I haven't really considered changing jobs any time soon, I just worry that my lack of programming work at my current job will make it more difficult to find a dev job down the road.",
+      "subreddit": "cscareerquestions",
+      "score": 78,
+      "url": "https://reddit.com/r/cscareerquestions/comments/144bg9g/feel_like_i_was_lied_to_about_the_job_i_was/",
+      "comments": [
+        {
+          "body": "Yes, it happens.  Yet there’s an upper limit in salary that will be high enough that employers will insist on you coding.\n\nThe solution is to demand a salary that causes these types of jobs to lose interest in you.  “If we’re paying that much, he better be coding!”",
+          "score": 71
+        },
+        {
+          "body": "Master Kubes and get a DevOp position. Kuber are in high demand",
+          "score": 26
+        },
+        {
+          "body": "[deleted]",
+          "score": 71
+        },
+        {
+          "body": "Not that I have any advice on resolving the issue, but I am in essentially an identical position. Joined a development team last year where the expectation was that I would be programming in a Java/Spring environment. 8 months later, and I've only ever deployed pipelines via Jenkins, performed log analysis with Splunk, created dozens of Splunk dashboards for operations analysis and defect tracking, and maintained Kubernetes clusters. I've been recently designated as the DevOps security point-of-contact, so a lot of my time is now spent bringing container images and servers up to security compliance.\n\nI also occasionally get to automate some small configuration changes or Elasticsearch index updates, but overall, I am a glorified operations analyst. My salary makes me comfortable enough to avoid taking risks, that's for sure. I am right there with you about feeling anxious about future development opportunities.",
+          "score": 19
+        },
+        {
+          "body": "This isn't unusual, especially at a small company, or one where the core business isn't the technology.  Your job, and your team's job, isn't to write code, but to accomplish a certain subset of business requirements.  That means writing and maintaining the code that solves those, but also architecting and maintaining the infrastructure that code runs on.",
+          "score": 13
+        },
+        {
+          "body": "I joined a company as a C# developer, but was put to work writing frontends in the world's shittiest in-house XML framework.\n\nIt may not have been malicious, because when I told my manager I felt scammed into the role, he got me some C# work pretty quickly.",
+          "score": 10
+        },
+        {
+          "body": "I was tired of being full-stack dev, so I studied a lot and became a really good front end dev. Took an interview for a front-end position and got the job. Before starting I was sent to a different full-stack project because of my background. \"It's hard to find full stack devs with good FE skills\" they said. \n\nI'm still a Full-stack dev :(",
+          "score": 8
+        }
+      ]
+    },
+    {
+      "title": "Some advice for getting a job at a good company",
+      "body": "Here are some tips I wanna give you from working 10 years in the industry. \n\nDoing everything from development, infosec, system administration and lately more devops kind of stuff.\n\nMany people seem to have this wrong perception that the job hunt and interview process is a oneway street, a tinder date with a really good looking girl who is way out of your league, its not, it goes both ways. You also need to choose whether or not you want to work for a company. A good candidate won't jump to take a job, even if they don't have a job.\n\n&amp;#x200B;\n\nPut yourself out there and try get a fish to bite on your line, where the job is the fish and you are the fisherman. Remember you actually don't want a shark to bite on your line if you are trying to catch fish, if you do hook a shark, then you probably want to cut the line asap. I've had a job that was so bad it broke down my confidence completely, I've had another job where the job became so stressful that I ended up on benzo's, thank God I'm not on that stuff anymore.\n\n&amp;#x200B;\n\nDon't just take any job cause its at one of the FAANG companies, or because it pays good. Some people are going to say I'm cocky, and I'm fine with that, remember your life is only so long, if your lucky its 80 years long, if your unlucky then you could walk down the street and get hit by a stray bullet. (I live in Cape Town so its very likely in some parts of Cape Town that this could actually happen to me btw). You really have to be careful before taking a job, you are going to give your time and energy to them and a big part of your very short life here on earth.\n\n&amp;#x200B;\n\n**What are some things to look for when taking a job at what I would consider a good company:**\n\n1. The skills you learn on the job are going to make you worth more and could easily land you another job, you aren't becoming a burger flipper that can only do one thing and do it really well. You for example don't want to take a job as a \"splunk support engineer\" for 2 years and after that when you need a job you only have been doing one thing that won't mean anything for anyone besides the company Splunk (just a random example).\n2. There is structure in the company. You won't attend endless pointless meetings, people won't bug you with adhoc requests for work that should've been scheduled with your manager, also there should be a hierachical structure unless you are working for a startup of some kind (but even then there should be some kind of hierarchy). \n3. The company does something that does not go against your belief system, does not engage in unethical behavior or even illegal activity. (You might think tech companies doing illegal things? Lookup the companies on wikileaks spyfiles: Gamma International from Finspy, Hacking Team etc). Let's say your a christian or a muslim then you probably won't take a job at pornhub or a gambling company.\n4. The company does something that somehow in someway makes the world a better place. (You wanna leave a legacy right)\n5. They should pay okay, doesn't have to be the highest paying job, but don't take a completely low salary.\n\n&amp;#x200B;\n\n&amp;#x200B;\n\n**What are some redflags to look out for and how to look out for them:**\n\n1. Check their glassdoor reviews, ask other people in the industry whom you might know who have worked there before. (How do they treat their \"internal customers\" aka employees).\n2. How do they treat their customers? Does doing a quick google search bring up a bunch of negative reviews.\n3. High turnover\n\n&amp;#x200B;\n\n**My overall advice:**\n\n1. Turn down interviews with companies that don't feel good or where you see anything that makes you have a hint of doubt about them. Don't be scared, more interviews will come. I've turned down interviews even when I had no job and just a consulting gig (which was at times close to running out)\n2. Don't be desperate. People can smell it, people can feel it, it won't help you negotiate at all. This goes for your love life as well. Get to a point where you are happy where you are, even if it is a point where you have no job at all. (I know its hard, but it will only benefit you to think this way).\n3. Ask for salary range or rough estimate before even agreeing to an interview. Right before scheduling the interview drop this line:\"Before we proceed, mind telling me what the salary range is for this role?\"\n4. Make the company that you interview with care what you think, don't just care what they think and if they want to hire you or not. If they don't care what you think and how they come across in an interview then they are probably not nice people.\n5. Does the company have a sustainable business model, or are they going to run out of funding in a few months and kick you to the curb.\n6. Look for anything shady during the interview process. This guy who started his own business (barely 1 month old with maybe 1 customer) once interviewed me and he didn't want to put his webcam on, found it kind of shady. Another company I interviewed at went and asked one of my former colleagues what they thought of me(without me giving them as a reference), I turned down the last company I mentioned, the guy who didn't want to show his webcam turned me down(I was very happy about that to be honest). The interview process will tell you a huge amount about what the job and people will be like. One of the worst jobs I've ever had I remember walking out the interview thinking: \"Wow these guys are kind of unprofessional\" , I somehow tried to ignore it and took the job because I needed something quite urgently, big mistake.\n7. How old  is the business? Is it still very new?\n8. Are they literally trying to just give you the job, you could've ruined the interview and technical test (if there was one) and they would've given you the job anyways. (Big red flag)\n\n&amp;#x200B;\n\n&amp;#x200B;\n\nI'll try add some more points after I've posted this. Hope you enjoy the read. Feel free to tell me you don't like me or you don't agree with me :), I can take it and I love when people have contrary views that challenge me.",
+      "subreddit": "cscareerquestions",
+      "score": 79,
+      "url": "https://reddit.com/r/cscareerquestions/comments/t46kwq/some_advice_for_getting_a_job_at_a_good_company/",
+      "comments": [
+        {
+          "body": "&gt;Many people seem to have this wrong perception that the job hunt and interview process is a oneway street, a tinder date with a really good looking girl who is way out of your league, its not\n\nExactly! It's easier to get a job than a date!",
+          "score": 60
+        },
+        {
+          "body": "&gt;A good candidate won't jump to take a job, even if they don't have a job.\n\nIf I'm jobless, I'm taking the first offer i can get, I have a family to feed, a mortgage to pay, and could not care less where I'm at or what I'm doing so long as those two responsibilities are taken care of.",
+          "score": 27
+        },
+        {
+          "body": "A few things to add:\n\n1. Companies, especially FAANG, can be huge entities. At the end of the day, you'll be working on one team and working with a few other related/nearby teams. If all of those teams (including management) are good, you will likely consider the job \"good\". If any  of those teams (especially your own) are bad, you will likely consider the job \"awful\".\n   1. Personal corollary. I would probably rather work on the best team at the worst FAANG than the worst team at the best FAANG.\n2. Networking is important! A lot of the points in \"Overall advice\" can be covered by your network. Your friends may know someone there or one of the founders. They may be able to let you know if the place overworks their employees (or not), offers fair pay (or not), behaves ethically (or not), etc.\n3. From point 1) under \"What are some things to look for...\", the relevant term is \"transferable skills\".",
+          "score": 13
+        },
+        {
+          "body": "&gt;Don't just take any job cause its at one of the FAANG companies, or because it pays good.\n\nThis is good advice for Amazon but not really for the other companies in the acronym.\n\nSpending two years at Meta or Google won't kill you and it will be a massive resume boost. In fact, most companies [won't even read your resume](https://www.reddit.com/r/recruitinghell/comments/qhg5jo/this_resume_got_me_an_interview/) if it matches keywords like \"Meta\" or \"Google\", they will just call you for an interview.\n\nIf you have no previous HFT or big tech experience, joining these companies as a new grad is a no-brainer.",
+          "score": 21
+        },
+        {
+          "body": "I think it's pretty ridiculously privileged to say this to people who are not yet in the industry or did not follow a pretty traditional path (cs degree, many projects completed before hiring, connections, lots of passion instead of burnout from being rejected over and over, etc...)\n\nI know somebody who applied to over 300 jobs before getting a single acceptance. I don't think that's really atypical for someone trying to enter the field. Do you?  Look, [this person did 400](https://www.reddit.com/r/cscareerquestions/comments/t3qdsw/after_a_long_tiresome_journey_finally_got_an_offer/). And they HAVE a CS degree!\n\n&amp;#x200B;\n\nReally, do you think people trying to enter the field can afford to do as you say? Because it really sounds like you live in a different world than the rest of us.",
+          "score": 17
+        }
+      ]
+    },
+    {
+      "title": "Daily Chat Thread - March 23, 2019",
+      "body": "Please use this thread to chat, have casual discussions, and ask casual questions. Moderation will be light, but don't be a jerk.\n\nThis thread is posted **every day at midnight PST**. Previous Daily Chat Threads can be found [here](https://www.reddit.com/r/cscareerquestions/search?q=Daily+Chat+Thread&amp;restrict_sr=on&amp;sort=new&amp;t=all).\n",
+      "subreddit": "cscareerquestions",
+      "score": 4,
+      "url": "https://reddit.com/r/cscareerquestions/comments/b4g8il/daily_chat_thread_march_23_2019/",
+      "comments": [
+        {
+          "body": "How big is Splunk in the industry?",
+          "score": 1
+        },
+        {
+          "body": "How wide is the TC gap between SF and NYC offices in the Big N or your company?",
+          "score": 2
+        },
+        {
+          "body": "[removed]",
+          "score": -1
+        },
+        {
+          "body": "[deleted]",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Splunk PM Co-op Winter '25 interview help",
+      "body": "Hello everyone, \n\nI'm prepping for a splunk PM interview where there is a technical round. When they said technical I thought they meant product design, estimation questions, or any other 'technical' product questions. \n\nI was sent a codility link and I was wondering by technical would it be a system design question or some type of coding question?\n\nAny advice will be appreciated. ",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1gu7ao9/splunk_pm_coop_winter_25_interview_help/",
+      "comments": []
+    },
+    {
+      "title": "Started senior role at a big tech in the valley, crashing and burning. Need advice?",
+      "body": "Graduated in 2018 and started working for a startup. At the previous role I functioned more as a software engineer/data scientist and I have little experience with most of the technology and stacks they use.\n\nWas hired at a FAANG \\~2 weeks ago as a senior data engineer. Was completely honest on my resume and interview process regarding what I know.\n\nWhat has been thrown on my plate, which all needs to be done in 2 weeks at the latest from this Friday:\n\n1. Build an application + CLI that communicates with custom API, AWS API + other vendor API for customer facing data ingestion into S3\n   1. Trigger Airflow DAGs workflows for downstream processes (RDS/Redshift transforms)\n   2. Must push and pull metadata from DynamoDB (Requires additional data modeling here)\n   3. Authentication with Cognito, LDAP, and others\n   4. Session handling\n   5. Aggregate logging through Splunk/DynamoDB\n2. Set-up Neo4j and AWS Neptune for POC and import legacy data in RDF/SPARQL\n   1. Rewrite old queries and new ones in gremlin\n3. Setting up ECS/EKS for data validation and curation services\n4. Setup Fargate with SQS and Airflow DAG for entirely new step within workflow\n5. Take over Jenkins for CI/CD of a bunch of systems\n\nSo here's the problem. I didn't know Airflow until last week, and that's barely now, let alone the internal infrastructure we've built on top of it.\n\nI don't know Neo4j, Neptune, RDF, SPARQL, Gremlin, ECS, EKS, Fargate, SQS, Jenkins. I've used AWS SDK for s3 and EC2, but never through the rest API.\n\nI absolutely do not understand our in-house systems and their APIs. I've never used DynamoDB or Splunk. I've set up LDAP before, but not in such a way were it's coming through Azure, and then having to somehow chain to Cognito and create persistent sessions across a complex of roles.\n\nI can't even wrap my head around the stack we are using... and I have no idea how I am going to begin to write code when I don't even understand how half tools work?\n\nI set up a meeting with my manager and asked \"What are the expectations? Am I meeting them?\" and he vaguely answered until he had to abruptly leave for another meeting. Half the team is working from 7 am to 2 am and I can't see myself getting up to speed in the time they've allowed. Am I screwed?\n\n**Edit**\n\nThe majority of the responses are pretty much disbelief that I received a senior position, or stating I'm downright lying. If you could, let's for a second suspend our beliefs, and instead please give me some advice on how to manage this situation as I'm desperate to not lose this job. Thank you",
+      "subreddit": "cscareerquestions",
+      "score": 19,
+      "url": "https://reddit.com/r/cscareerquestions/comments/fyqxyq/started_senior_role_at_a_big_tech_in_the_valley/",
+      "comments": [
+        {
+          "body": "I would expect a senior engineer to be able to say to their manager or lead: I can't do all of this in two weeks. I'm new here so I need you to help me prioritize which of these needs done first. I can do 1-2 projects at a time until I get up to speed on our tools and technologies.\n\nAny new engineer, even a senior engineer, should expect a ramp-up period of 1-3 months before making meaningful contributions.\n\nDid you actually agree to do all of that stuff?\n\nA senior engineer should know when to say \"no\". Maybe they just dumped a bunch of stuff on your plate to see how good you are. Trial by fire. But still, you can only do what you can do. Don't over-promise and don't be afraid to say no.",
+          "score": 60
+        },
+        {
+          "body": "This could be several months of work, depending on the details.",
+          "score": 21
+        },
+        {
+          "body": "How can you pass the senior interview with 1 year and a half experience?",
+          "score": 28
+        },
+        {
+          "body": "lol that's more than two weeks of work i think",
+          "score": 8
+        },
+        {
+          "body": "&gt; senior data engineer\n\nWhat level are new college hires hired as for this role, and what level are you?\n\nYou should definitely clarify if you are expected to personally implement all of that, or are all of those things what your team is working on and you're the adult supervision. Either way is kind of bad because you don't have the time to do all of it in 2 weeks and you don't have the experience to be adult supervision.\n\n&gt; If you could, let's for a second suspend our beliefs, and instead please give me some advice on how to manage this situation as I'm desperate to not lose this job.\n\nProblem is there isn't really a good way to manage this. You have an unmanageable workload and an apparently impossible deadline. You need to manage expectations with your manager and figure out what's going on. There aren't shortcuts to doing 2-3 months of work in 2 weeks.",
+          "score": 4
+        },
+        {
+          "body": "WTF...at the 2 week mark at my FAANG, I was still trying to figure out where my desk was...",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "title": "Is this position asking for alot?",
+      "body": "So basically I made it to the 2nd round of interviews, with the first being the standard HR interview. The second part of the interview is going to be a lot more technical. So this is when I started really looking into the job description and what they wanted and I feel so out of depth right now.\n\nThe job title is a Full Stack Engineer and the things they were looking for:\n\n* OpenID, Sun LDAP,  Kerberos, OpenID, Oauth 2\n*  SAML integrations\n* HTTP(S), SSH, SMTP, DNS, LDAP(S)) service\n* Splunk, Extrahop, Duo Security\n* RBAC\n* Cloud Security\n* OSI 1-7\n\nI don't know even half these things, it feels like they're asking for SysAdmin, IT, SWE all in one",
+      "subreddit": "cscareerquestions",
+      "score": 2,
+      "url": "https://reddit.com/r/cscareerquestions/comments/15d75no/is_this_position_asking_for_alot/",
+      "comments": [
+        {
+          "body": "A recent Reddit policy change threatens to kill many beloved third-party mobile apps, making a great many quality-of-life features not seen in the official mobile app **permanently inaccessible** to users.\n\nOn May 31, 2023, Reddit announced they were raising the price to make calls to their API from being free to a level that will kill every third party app on Reddit, from [Apollo](https://www.reddit.com/r/apolloapp/comments/13ws4w3/had_a_call_with_reddit_to_discuss_pricing_bad/) to [Reddit is Fun](https://www.reddit.com/r/redditisfun/comments/13wxepd/rif_dev_here_reddits_api_changes_will_likely_kill/) to [Narwhal](https://www.reddit.com/r/getnarwhal/comments/13wv038/reddit_have_quoted_the_apollo_devs_a_ridiculous/jmdqtyt/) to [BaconReader](https://www.reddit.com/r/baconreader/comments/13wveb2/reddit_api_changes_and_baconreader/).\n\nEven if you're not a mobile user and don't use any of those apps, this is a step toward killing other ways of customizing Reddit, such as Reddit Enhancement Suite or the use of the old.reddit.com desktop interface .\n\nThis isn't only a problem on the user level: many subreddit moderators depend on tools only available outside the official app to keep their communities on-topic and spam-free.\n\n&amp;#x200B;\n\nWhat can *you* do?\n\n1. **Complain.** Message the mods of r/reddit.com, who are the admins of the site: message [/u/reddit](https://www.reddit.com/u/reddit/): submit a [support request](https://support.reddithelp.com/hc/en-us/requests/new): comment in relevant threads on [r/reddit](https://www.reddit.com/r/reddit/), such as [this one](https://www.reddit.com/r/reddit/comments/12qwagm/an_update_regarding_reddits_api/), leave a negative review on their official iOS or Android app- and sign your username in support to this post.\n2. **Spread the word.** Rabble-rouse on related subreddits. Meme it up, make it spicy. Bitch about it to your cat. Suggest anyone you know who moderates a subreddit join us at our sister sub at [r/ModCoord](https://www.reddit.com/r/ModCoord/) \\- but please don't pester mods you *don't* know by simply spamming their modmail.\n3. **Boycott** ***and*** **spread the word...to Reddit's competition!** Stay off Reddit as much as you can, instead, take to your favorite *non*\\-Reddit platform of choice and make some noise in support! \n\nhttps://discord.gg/cscareerhub\n\nhttps://programming.dev\n\n4. **Don't be a jerk.** As upsetting this may be, threats, profanity and vandalism will be worse than useless in getting people on our side. Please make every effort to be as restrained, polite, reasonable and law-abiding as possible.\n\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/cscareerquestions) if you have any questions or concerns.*",
+          "score": 1
+        },
+        {
+          "body": "If this is an entry level position (and even if it weren't) I highly doubt they are expecting you to be an expert in every tool, third party, and technology listed. \n\nI'd read this more as the technologies and tools you will use and have to learn on the job, but certainly not be expected to have mastered on day one. If anything it's more for you to assess whether these are tools you are interested in learning.",
+          "score": 5
+        },
+        {
+          "body": "This looks more like a sec analyst than a Software engineer. They most likely just listed the tools they use and some words the manager of the team heard once in a team meeting. seems fine to me.",
+          "score": 3
+        },
+        {
+          "body": "They have already screened your resume and know that it doesn't contain these keywords. They know your YOE and if they have half a brain, they understand that you couldn't learn all these things.\n\nSo, as others said - it's a typical bad-written job post that just lists everything they are using. If in doubt, you can ask the recruiter whether they expect you to know all this tech.",
+          "score": 2
+        },
+        {
+          "body": "Plenty of job descriptions in our Industry are kitchen sink, outdated and lazy.  I’ve interviewed and been hired at jobs where 20% of the JD was actually relevant",
+          "score": 1
+        },
+        {
+          "body": "The first 5 bullet points can be learned on the job in the first month. Sounds like they have a specific project in mind and need a body with domain experience to fill it.  \nLike the project involves some form of SSO (Single Sign On) with a federation provider with all the bells and whistles attached to it. Like connect our apps to this corporate Active Directory via Oauth/OpenID. And check the logs through Splunk while developing it for errors.",
+          "score": 1
+        },
+        {
+          "body": "\"A lot\" is two words.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Stuck on Salary negotiations",
+      "body": " \n\nThis is a throwaway for Obvious reasons. I applied for an IT (Splunk Administrator) role, was contacted by HR and she asked what my salary expectation was; me feeling pressured/desperate to get the job; I low balled myself and gave a range of 75-85000/year AUD.\n\nI regretted doing that immediately after the call. So much so that I called back and told them professionally that I changed my salary expectations to their advertised salary range, (which I found out after our call): 135-150000/year AUD to which she happily updated on my profile. Was then given a technical test for splunk to complete on Hirevue.\n\nMy results weren't perfect, but good enough for them to say 'We'll give you a more 'junior' role in exchange for your initial salary expectation (75-8500/year AUD). Which is still a below average salary even for a Junior role\n\nIt is a billion dollar Australian based tech company, former employee (mainly customer service) reviews keep highlighting the significant workload they are being put under, so is it still worth the salary I castrated myself too? Should I give an actual reasonable salary and say I am in the process of interviews with other companies?\n\n**TLDR;** I have until tomorrow to let HR know of my salary expectations, thinking of putting it in (email) writing as it was the splunk guys who suggested a lower salary based on my test technical results. They seem slightly desperate as the wouldnt offer to continue the hiring process based on my average technical results, they also contacted me 3 weeks after I applied online. Any help would be appreciated, thanks.",
+      "subreddit": "cscareerquestions",
+      "score": 3,
+      "url": "https://reddit.com/r/cscareerquestions/comments/z1jlrj/stuck_on_salary_negotiations/",
+      "comments": [
+        {
+          "body": "\nThis comment has been purged in protest to reddit's decision to bully 3rd party apps into closure.\n\nI am sure it once said something useful, but now you'll never know.",
+          "score": 2
+        },
+        {
+          "body": "Continue pushing for their higher, advertised salary. If that doesn't work, see this as a mistake to learn from.",
+          "score": 1
+        },
+        {
+          "body": "Do you desperately need this job? If so, just renego around the 95k mark and expect around 90-85k final amount. If not, then it is time for you to play poker.\n\nCall them up. Emphasize your skills and qualifiations and why you are perfect for the role. Toss in some real example on how you rose to the occassion. Then give a higher value around 140-150 and stick with it. If they try to lowball by attacking you then restate your qualifications. If they say the company does not have the budget say it is the amount advertised. \n\nThese are my opinion tho and it might not resonate well with your personality, so take it with a grain of salt. Anywho, best of luck!",
+          "score": 1
+        },
+        {
+          "body": "Don’t overread it. You’re at an information disadvantage.\n\nSalary negotiations suck. It’s much easier to negotiate and find jobs when you have a job. So, worst case, take what you can, and keep your resume out there while you gain some experience",
+          "score": 1
+        },
+        {
+          "body": "What's your current salary?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "How hard it gets to secure a SDE II position",
+      "body": "**(Not important Part/backstory):** I am a current senior/4th year Computer Engineering student at UBC who will have done 4 internships by fall 2021, and I plan to do internships all the way till next summer and graduate in Jan 2023. I am also in dean's honour list and have 86.5% major (last 4 semester) gpa, and was told by my academic advisor that I will be in top 5% in the entire Electrical and Computer Engineering faculty. However, my luck is not clicking with big name tech companies and my resume is getting rejected at initial stages.\n\nI got my resume reviewed a lot of times and posted it in this sub and other subs and all said I have a very impressive resume. I also applied via referrals but that didn't help me in any sensible ways. I have given up getting anything from those faang companies as intern/new grad.\n\n**(Main Part):** I heard that it is pretty easy to secure an interview after 1-2 yoe (years of experience) from those companies, however going through several posts on cscareerquestions, it seems like a mixed bag when it comes to passing the interviews. So I just want to gain some insight from people who couldn't secure a new grad/intern role at any faang companies or any other major tech companies (IBM, SAP, Splunk, Lyft, Uber etc) but later secured a role after few yoe. My questions to you are:\n\n1. Is it a faang company or any other major company that you secured your offers from ?\n2. How easy/difficult was it for you to get/secure an interview?\n3. Did you apply online or a recruiter reached out to you on Linkedin/email/phone?\n4. How difficult was your interview? Were you able to provide the optimal solutions to your problems on the first try when interviewing?\n5. How long was your interview and how many rounds?\n6. Was there any scaling/role changes (for example you interviewed for SDE ii but they gave you an offer for SDE 1)\n7. How long did you prepare? What was your preparation schedule (like 2 hours/day doing leetcode, 1 hr/day doing system design etc)?\n8. How many leetcode have you done (I would really appreciate if you list something like x amounts of easy, y amounts of med, and z amounts of hard etc)\n\nThank you so much for your time.",
+      "subreddit": "cscareerquestions",
+      "score": 2,
+      "url": "https://reddit.com/r/cscareerquestions/comments/nubvpz/how_hard_it_gets_to_secure_a_sde_ii_position/",
+      "comments": [
+        {
+          "body": "Just going to point out first that titles / levels like \"SDE I\" are very company specific, there's no real standard. Company I'm at now uses a much more generic levels concept that applies to more than just technical people, and some companies I've been at before didn't have any official levels for anything.\n\n&gt; Is it a faang company or any other major company that you secured your offers from ?\n\nNot in the FAANG acronym but a fairly well known and 'visible' tech company.\n\n&gt; How easy/difficult was it for you to get/secure an interview? ... Did you apply online or a recruiter reached out to you on Linkedin/email/phone?\n\nPretty easy because I had a referral. Some of my experience in the industry led to my getting me contacts.\n\nThat referral only got me past the initial resume screening for free so I was doing all the interviews one usually would.\n\n&gt; How long was your interview and how many rounds?\n\nThree rounds:\n\n* An hour long mainly talking thing\n* An hour long (time alloted, but not actually used in most cases where someone's actually hired I later learned) coding session that was more or less meant to gauge your actual ability to program. Think a marginally more difficult FizzBuzz type question.\n* Three 45/60m sessions. One open-ended programming question basically meant to see how do mid-sized code architecture to handle a broad problem space, one interview in which you're asked to describe one project you wrote from scratch or were the primary author of and explain why you made it the way you made it, and one much more specific coding challenge meant to test either your existing knowledge of some basic systems programming level stuff or else test your ability to find and read the docs and quickly integrate new knowledge.\n\n&gt; Was there any scaling/role changes (for example you interviewed for SDE ii but they gave you an offer for SDE 1)\n\nThe role I applied for was deliberately non-specific, they decide what to offer based on the interviews usually.\n\n&gt; How long did you prepare? What was your preparation schedule (like 2 hours/day doing leetcode, 1 hr/day doing system design etc)?\n\nI didn't do much to be honest. I'm reasonably good at doing quick and dirty solutions suitable for an interview coding challenge assuming I can access documentation quickly or doing small tests in a REPL. If an interviewer doesn't want me doing those things I'm probably not interested in working for them - imo it shows a lack of wisdom on an employer's part to think your performance while hamstrung that way means something.\n\nMost of what I did was try to read more terse technical documentation because for something like design/architecture questions I tend to ramble on and on, so I was hoping to get myself in a mindset to be less verbose.\n\n&gt; How many leetcode have you done (I would really appreciate if you list something like x amounts of easy, y amounts of med, and z amounts of hard etc)\n\nShit, I don't know. I can't honestly say I've done none because I'm somewhat involved in a community that helps beginners, many of whom bring leetcode questions or leetcode like questions so I've certainly done them. Leetcode's only really been a thing for a couple years now, and I'm just old enough to have been at that stage in my learning before the cult of leetcode took over.\n\nEven if I knew an exact answer for you I'd tell you to not put too much stock in what may have happened to work for me. People learn differently, people get different amounts of value when trying to prepare for interviews out of doing such questions, and there exist companies that don't get off on asking the most obtuse leetcode type challenges they can find.\n\nThe main technical interview challenges I faced for this job wouldn't have been helped by leetcode grinding - they were testing for things that are hard/impossible to learn without just having real experience, which makes sense given the nature of the role I applied for.",
+          "score": 7
+        },
+        {
+          "body": "Source: 10 YOE. Received two offers from FAANG companies recently, accepted one.\n\n&gt; Is it a faang company or any other major company that you secured your offers from ?\n\nYep\n\n&gt; How easy/difficult was it for you to get/secure an interview?\n\n&gt; Did you apply online or a recruiter reached out to you on Linkedin/email/phone?\n\nBoth companies reached out to me, so fairly easy.\n\n&gt; How difficult was your interview? Were you able to provide the optimal solutions to your problems on the first try when interviewing?\n\nBoth were fairly challenging, and both had LC Hard questions that weren't in their company-specific list on LC.\n\nTo be honest, given how tight the deadlines are in these interviews, the expectation is to immediately get the optimal answer. You don't have time to explore.\n\n&gt; How long was your interview and how many rounds?\n\nOne was four 45 minute rounds, and one was four 60 minute rounds.\n\nOne of them had two coding tests, a systems test, and behavioural. The other had two coding tests, a systems design test, and an OO round - with behavioural questions mixed into each.\n\nI'm not sure how accurate this is, but I seriously doubt that a recent grad would get a SDE II role, since many companies don't give them systems design interviews.\n\n&gt; Was there any scaling/role changes (for example you interviewed for SDE ii but they gave you an offer for SDE 1)\n\nOne was an offer for SDE I, and the other was SDE II, so I went with the latter. The former had a better reputation and a nicer office, but to be honest I'm not too fussed about those sorts of things.\n\n&gt; How long did you prepare? What was your preparation schedule (like 2 hours/day doing leetcode, 1 hr/day doing system design etc)?\n\nAn hour or two each night for a few months, with system design being a brief read at lunch most days.\n\n&gt; How many leetcode have you done (I would really appreciate if you list something like x amounts of easy, y amounts of med, and z amounts of hard etc)\n\nRoughly 200, about 50 Easy, 125 Medium, and 25 Hard.\n\nMy main approach was to repeat common and popular questions, and to really dig into all the possible options. One of my interviews gave me a question that I was able to solve in five minutes, so he asked me to solve it using another data structure - and I was only able to do this because I had spent a significant amount of time on similar problems in the past. Both had the same time complexity, but given that my language made the question easy it was deemed  necessary to do it two ways.",
+          "score": 5
+        },
+        {
+          "body": "Sde 2 generally refers to newgrad level + 1. \n\nIn which case they don’t care about internships since those don’t count towards yoe. Sde 2 can also be considered phd newgrad",
+          "score": 4
+        }
+      ]
+    },
+    {
+      "title": "Versatile skill set, yet unable to prove them :/",
+      "body": "So, I am currently working in fintech company as a Systems Engineer, where stuff is already built. (since mid-2018)\n\ntl:dr; I'have been in many (engineering) positions in a Startup I've worked for. Now I am 'fixer' or 'problem-solver' guy who also automatize stuff. What should I write/say in CV/Resume?\n\nps. After I wrote this post and read it through, I think I describe myself as Automation Engineer :/\n\nI'm working on environment modernizing and not basically doing anything 'significant' enough. (eg. casual Docker, Kubernetes and friends)\n\n- Mainly, DevOps right now since nobody else deals with (or knows) these, \n- Plus debugging code, finding regressions with various monitoring tools, \n- Building dashboards (Prometheus and Splunk mainly) and other utilities for internal use, etc.\n- And I became the google in the department. (Go to person for asking questions, in a technical way)\n- Even from the sales/integration team I mostly take care of weird problems that they couldn't solve/understand.\n- Also last year for compliance, I solved one huge problem/challenge which sort-of saved company (albeit not hundreds-thousands) a lot of money and from trouble.\n\nBefore this, I was working in an IoT startup where I basically did all-kinds-of engineering. \n\n- I developed a mobile application, (still in-use)\n- A few serverless (AWS lambda) stuff, \n- couple firmware (embedded-ish) development on Arduino, ESP32, and Raspberry Pi. (mostly for clients, for PoC purposes, private SDKs).\n- Besides those I managed infra, (mostly Digitalocean and bit of AWS EC2, ECS/ECR, Lambda) \n- Later on, I made the entire cloud architecture available (ported) on-prem. (Our biggest client --which later bought-out company in 2018-- wanted on-prem setup)\n- Frontend for internal dashboards/admin panels (just some vanilla-js + fetch-api)\n- A bit of security/pen-testing, via the help of Nessus and Acunetix. \n\nSo my questions are;\n1. How should I describe myself and my role for those?\n\n2. People are listing frameworks and languages as skills; How this applies to me?\n    - I am more focused on architecture, design, and how-it-works details.\n    - Albeit I'm confident in Bash, C, Python, and JS I don't think these are my strong points.\n    - How to describe this in Resume/CV? (I like to slice problems to layers, diagnose and solve, no matter it is a build system, Spring-boot application or Mysql DB)\n\n3. I feel that I am not proficient in anything. Is this normal?\n    - Yet seeing people struggling with some basic information/knowledge to solve relatively trivial tasks.\n    - Eg. seeing person building React application and has no idea how build system works.\n\n4. I am an overly-honest person at work stuff. Like if I just got bored and didn't do something I just say it. Is this clear red-flag for recruiters?\n    - I use the term \"lazy\", although most of the people I work with strongly disagrees with that.\n    - I do this also in interviews and challenges. If I haven't used that thing I say that. Even though it is very similar or trivial to do so, or even if I read stuff about it but not tinkered with it [yet].\n    - I give myself proper grading. If I haven't tinkered with ~~all~~ most options, setups, implementations, or whatever, at most I give myself a 5 to 6 out of 10 rating.\n\nI know this is a long post and may not be appropriate for here. I also wanted some unbiased (preferably direct) comments.\n\n(also checked rules but you know, first-timer here :) )",
+      "subreddit": "cscareerquestions",
+      "score": 18,
+      "url": "https://reddit.com/r/cscareerquestions/comments/hmzxfs/versatile_skill_set_yet_unable_to_prove_them/",
+      "comments": [
+        {
+          "body": "It's crazy. Your career tract is surprisingly similar to mine.\n\nCater your resume to each application. At this point, you're no longer trying to fill the page, you're trying to fit onto the page. Create bullets of the most related skills and use that.\n\nFollow up: I've thought for a while now that the \"list of experiences\" as a resume format may no longer be appropriate,  but I've never seen anybody do it differently. I was thinking  maybe organizing it like a company's website - where there are fields of expertise and experiences/projects in each. What are people's thoughts?\n\nFYI, this isnt a humble brag but anecdote that I've had a very high success rate whenever I cater my resume.",
+          "score": 7
+        },
+        {
+          "body": "I've considered adding a second page on my resume with just a skills matrix following blooms taxonomy revised version",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Need some advice...",
+      "body": "Firstly, sorry for the vague af title. I'm not really sure what to name this. Releasing some inner-thoughts I've been holding for a few months so, sorry again for the long post lol.\n\nI've been feeling a little lost regarding what to do to start off my career in the direction I want. Before explaining, here's a little about me:\n\n&gt;I'm a Computer Science undergraduate currently in my 6th semester (which is coming to a close in 3 days). I have 3.3 CGPA so far, but it might jump to 3.2 or something after this semester's results lol. I live in a third world country with low Software Engineering job incomes. The major bulk of my knowledge stems from my personal projects and endeavors in the past year or so. I mainly want to become a backend dev, preferably for a Golang position.\n\n&amp;#x200B;\n\nSo anyways, I'm really concerned about where my career will take off from graduation. A lot of the local companues here use relatively older tech stacks and aren't usually dealing with hot technologies like Golang (which I'm really into). I even found some positions that ask for jQuery as a requirement. Plus, the salary ranges here, when compared with the average global Software Engineering standards, are low af. Junior devs barely get payed enough to live independently. It goes without saying that I really want to score a dev position in a foreign country with good career prospects.\n\nI don't want to spend a significant time working for the local companies here and get some depracating tech stacks on my resume experience... To gain competitive advantage before graduation, I've been constantly applying to internship positions both locally and internationally since January, but have recieved rejections mostly. Got to the interview part for a company called Splunk, but I messed it up on the technical part lol.\n\nMy FYP will start in the next semester, and I've failed to find an internship for this summer, which was a goal I set for myself a while ago. I don't know what to do at this point. Feeling really demotivated as well. If you have ANY advice at all that's relevant, please don't hesitate to comment. I'm slowly growing desperate as my graduation's nearing and future prospects are looking darker with time...\n\nThis is what I've managed to make so far as my personal projects, and what people see as a major portion on my resume. I don't know if this is enough, but I posted this in case it helps to answer:\n\n* [ascii-image-converter](https://github.com/TheZoraiz/ascii-image-converter) (Linux CLI tool)\n* [COVID19 Tracker](https://github.com/TheZoraiz/COVID19-Tracker) (Web App)\n* [Sorting Algorithm Visualizer](https://github.com/TheZoraiz/Sorting-Algorithm-Visualizer) (Web App)\n* [The Z Room](https://github.com/TheZoraiz/The-Z-Room-App) (Mobile Chatting App)",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/ogfdkp/need_some_advice/",
+      "comments": []
+    },
+    {
+      "title": "Name and Shame: Splunk",
+      "body": "I started my interview process with Splunk about two months ago. I applied for the job online and scheduled a phone interview with one of the Senior Managers from Seattle office. The phone interview was after a week of my application and it was the best interview ever. I solved the coding problem in 15 minutes and answered few other questions he asked me. We finished the call in 25 minutes (fastest ever), with him confirming that the interview was perfect and I will be getting a call for onsite.\n\n&amp;#x200B;\n\nI scheduled onsite interview 3 weeks after the phone interview. Their onsite round has 6 different interviews out of which 5 were coding/technical and 1 was with the Sr. Director of Engineering; he told me about how different teams at Splunk works and where I would fit in and I asked some other questions related to direction in which he thinks the team is going. I provided perfect solutions in 3 coding rounds and in other 2 my algorithm was perfect but I didn't present good test cases to test it. Overall it was an amazing experience, the interviewers were friendly and I was confident I will get the job. After the end of my last round of interview, the Sr Director walked in, shook my hand and said an offer will be made in 2-3 days. He said he talked with other interviewers and they all liked me. After the last round, a principal engineer walked in and started chit-chatting about why I should accept this role and things he likes about the company. This round was not scheduled but I didn't mind it as I already had the job.\n\n&amp;#x200B;\n\nI didn't hear back from them for a week after which I messaged the HR. She replied that she is going to chat with the Director and Manager later that day and give me an update by EOD. No reply that day. This was on Friday so I thought may be she left work early or something and she will get back to me on Monday. Nothing! I sent a message after waiting for the whole of Monday. Did not receive any reply for the next 3 days. Sent another followup on Thursday evening hoping she will get back on Friday, but nothing. I sent another followup today morning and the recruiter replied within 5 minutes with a generic rejection email. I asked her to schedule a call today to have a discussion. On the phone she again said the same things: they decided to move ahead with other applicant. I am on a visa, so I asked her if this has anything to do with my visa situation and she replied no. That's my story.\n\n&amp;#x200B;\n\nMoral: I was naive enough to think that may be they are figuring out the package they want to give me and started applauding myself too early. Even started looking for housing in SF! Thankfully I am still actively interviewing and have some onsites lined up. However, Splunk was one of my top priorities and it just kinda hurts how unprofessional these so-called professionals can be sometimes.",
+      "subreddit": "cscareerquestions",
+      "score": 2,
+      "url": "https://reddit.com/r/cscareerquestions/comments/brh4kf/name_and_shame_splunk/",
+      "comments": [
+        {
+          "body": "idk maybe they actually did have some other candidate that blew their socks off or the candidate they’ve been talking to for weeks at their biggest competitor who knows their codebase finally agreed to sign with them. whole ton of reasons why you could have not gotten an offer\n\nnaming and shaming is not for situations where you felt like you should have gotten an offer and they didn’t give it to you. it’s for things like actual unprofessional or discriminatory behavior\n\nit sucks but lesson learned. never celebrate until you get that written offer",
+          "score": 27
+        },
+        {
+          "body": "There's nothing to name and shame about here.  They passed you by, so you can move on with your life or act like a giant baby about it.",
+          "score": 11
+        },
+        {
+          "body": "I don't see a lot of material that's name and shame-worthy? you had a false hope that the offer will be made, it didn't happen, so you're understandably upset but the company didn't really do anything wrong here\n  \nthe **only** thing you might be able to stretch it out is the part where \"the Sr Director walked in, shook my hand and said an offer will be made in 2-3 days\", but again did he say an offer will be made **to you**? all promises and verbal offers are useless until I see the official offer letter\n  \nTL;DR: the Director has given you a false promise that's the **only** thing I could see, besides that I don't see anything unprofessional?\n  \nname-and-shame is for scummy tactics like exploding job offers, rescinding offer after you've accepted it and have moved across country, bait-and-switch, not when you thought you had the offer but you didn't",
+          "score": 2
+        },
+        {
+          "body": "If we name and shamed every company that ever changed their mind on a verbal offer, this sub would be nothing but name and shame posts.  \nThey seemed to like you.  Then someone else came along that they happened to like a little more, so they strung you along until they got that person to accept.  Then they dropped you.  Sucks when it happens, but it's not exactly news worthy.  It would work the same in the opposite direction - if you liked the company but wanted to string them along to see if another company you liked more made an offer or not.  \nVerbal offers are next to worthless.  Now you know.",
+          "score": 2
+        },
+        {
+          "body": "[removed]",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Not sure if programming or devops job?",
+      "body": "I recently applied for a job and will be having an interview soon. I assumed was mainly programming, but reading the description again it seems more devops and not much programming? I am fine with devops although it is confusing that I got an interview since I heavily pushed my programming (hobby) experience and only mentioned my GitLab CI/CD experience (although I have a referral from someone in the company). I was wondering what I should be brushing up on for the interview, or what your opinions were to what exactly this job would be.\n\nMy current job is a mixture of network engineer, desktop and server support.\n\nFrom my referral contact I know they use Jenkins and GitLab, so I will be studying those for the interview, but my knowledge of SDN is limited and not sure what is the best approach to learning more quickly.\n\nI had to rely on my portfolio for my application, seeing as I have no direct job experience with programming, just hobby projects with Golang and React mainly.\n\nHere are some excerpts from the posting:\n\nSummary:\nResponsible for performing technical support, planning, maintenance, testing or implementation of electronic technology.\n\nJob Specific Information:\nWork in a DevOps environment developing Network Automation software supporting a transition to Software Defined Network (SDN) architecture. SDN spans multiple disciplines - software coding, virtualization, orchestration, and automation. \n\nDuties/Responsibilities:\nWork on an Agile team of Network Engineers to design automated solutions providing network connectivity and services.\nApply Agile software development using the latest automation tools and languages to develop and test next generation Network as a Service (NaaS) solutions.\nImplement a CI/CD pipeline to support the launch of new business capabilities.\n\nAbilities Recommended:\nSoftware development frameworks (Agile, DevOps)\nProgramming (Python, Go, Scripting, Perl, PHP, Java/J2EE)\nNetwork Infrastructure Knowledge(TCP/IP, SNMP, Cisco)\nWeb Services (Restful, XML, JSON)\nSoftware Defined Networking\nSystem Administration (Linux, RegEx)\nData Management and Analytics (Database, Hadoop, Splunk)",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/jpcri7/not_sure_if_programming_or_devops_job/",
+      "comments": [
+        {
+          "body": "Sounds much more like a DevOps position than a software engineer.",
+          "score": 1
+        },
+        {
+          "body": "[deleted]",
+          "score": 1
+        },
+        {
+          "body": "It sounds DevOps, but their *recommended abilities* section makes me think otherwise. Sounds like a light backend engineering with DevOps sprinkled in which is fairly common across industries. Go/Databases/Hadoop is more backend focused, although, pairing those technologies makes me believe there may also be a backend optimization or data engineering component to this role (light exposure).",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Splunk offers/careers outside of the bay area HQ?",
+      "body": "I'm in the midst of an interview process with Splunk for a P4 position outside of the bay area (in a different state), and I was just curious if anyone had offers outside of CA and could offer insight and possibly some numbers, and/or experience working for them in a satellite location. I know non-bay COL will obviously take a base salary dock, I'm just trying to educate myself on what the delta is.",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/p96hbx/splunk_offerscareers_outside_of_the_bay_area_hq/",
+      "comments": []
+    },
+    {
+      "title": "Am I getting underpaid and/or should my job title be different?",
+      "body": "I have been at this Fortune 500 company for 16 months as an Application Developer 1, and this is my first job out of college.\n\nDuring that time I have accomplished the following (from most valuable (in my opinion) to least valuable), but this doesn’t include everything I have done while working here:\n\n- Deploy our team’s Azure cloud resources (App Services (WebApps, WebJobs, Function Apps), Key Vaults, Storage Accounts, CosmosDB, SQL, Virtual Network, Application Gateway) in all our environments (all the way up to and including live Production) using Terraform and VSTS. About 8 months into working here our DevOps specialist had to suddenly quit and move back to his home. So our manager asked someone to step up, so I volunteered for the task. At the time he only had one project being deployed to the cloud. I now have successfully deployed five other projects since then. He was the only person on our team that knew Terraform, so I had to learn it very quickly. In the last month I have successfully been able to translate what resources were being deployed using Terraform to deploying them using C# instead (using Azure Libraries for Net) which is the language everyone on our team uses. I have also written tests for the deployments which will run as part of our CICD pipeline.\n\n- Create Apigee proxies for six different APIs in all environments (up to and including live Production).\n\n- Create Splunk dashboards for all of our six projects to monitor success/failure rates, P50/P95/P99 times per endpoint, errors (also dependency errors), status codes, timeouts, business values (# of transactions, amount of money per country/payment type, etc), etc.\n\n- Program a File Uploader that creates a secure connection to an SFTP server to grab files and upload them to Blob Storage in Azure, and then taking the metadata of the file in the blob storage and populating a table in a SQL dB.\n\n- Performed load tests for all six of our projects \n\n- Other integration, unit, validation testing. As well as HP scans on all of our projects.\n\nIt seems (to me at least) that I have done little in the way of Application Developer 1, but I also may have my understanding of what entails the job behind the title skewed as well. From what I have accomplished I would think I am more in the realm of DevOps or Engineer of some sort.\n\nIf I am being dramatic, and I really haven’t done much at all and I need to suck it up, then I totally get it. Just wanting other opinions and thoughts.\n\nI currently make $102,000 and work in the Greater Seattle Area.",
+      "subreddit": "cscareerquestions",
+      "score": 9,
+      "url": "https://reddit.com/r/cscareerquestions/comments/db69ma/am_i_getting_underpaid_andor_should_my_job_title/",
+      "comments": [
+        {
+          "body": "I dunno about titles. \n\nSounds like the title of “Employed” to me. \n\nIf you think you’re being underpaid, go and interview and see how other places do things.",
+          "score": 14
+        },
+        {
+          "body": "The work you described is definitely DevOps.  Is that what you want to do?",
+          "score": 4
+        },
+        {
+          "body": "Start interviewing and see if you can get another company to pay you more money for your skills.  If you can get more money then you are underpaid, otherwise and you are not.",
+          "score": 3
+        },
+        {
+          "body": "This is my view YMMV\n\nIME job satisfaction is the most important measure. Of course you should have enough to live on and not be a leech, and you shouldn’t turn down raises or better opportunities either. But if you love your job don’t rock the boat. Ultimately you normally need to switch jobs every 2-4 years in the first 10 years normally to maximize satisfaction and money. Eventually you will hit a seniority factor that makes switching jobs much harder, but having broad experiences in your youth will make you a wiser old dev. You should now start preparing for interviews in a years time. Grow your skills to the job you want next and keep doing impressive things at work that can sell you to the next place. \n\nHonestly my first two software jobs I failed at and I still got massive bumps in pay for next gig.",
+          "score": 3
+        },
+        {
+          "body": "As a BA I made 150k. What you’ve said seems like it also includes some data architecture in addition to dev ops. You’re underpaid for sure. \n\nAs for title, you’re overseeing a few projects and completing them on your own. Seems like a senior title that handles multiple projects. I can’t say what title would match, but you’re underpaid and worked across different domains.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Uber vs Splunk internship",
+      "body": "I'm stuck debating between the two, I've heard great things about the culture at Splunk, but I'm not sure how their name fares compared to Uber in regards to getting future interviews with other companies. I've interned at some larger fintech companies in New York, but don't really have any traditional tech companies on my resume if that makes sense. The Splunk offer is $55/hr 2k a month living, which is also really tempting compared to Uber's $45/hr 1.5k a month living. Any insight would greatly be appreciated, I've already checked glassdoor and asked a few people but was hoping to learn more here.",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/dre1b6/uber_vs_splunk_internship/",
+      "comments": [
+        {
+          "body": "I'd do Splunk. Personally, I love their product and I'm hesitant of Uber's  tumultuous history. Either way i would just recommend not chasing big names so that it looks good. At the end of the day, pick the one whose tech you're more interested in, don't let name recognition win over your personal interests.",
+          "score": 8
+        },
+        {
+          "body": "why would you work at a company that is constantly losing money and laying off people. Go for splunk",
+          "score": 9
+        },
+        {
+          "body": "Splunk. They just got a very shiny new building, and their name should fare better among engineering managers with a clue.",
+          "score": 2
+        },
+        {
+          "body": "Hmm, both are really good, but I’d probably take Splunk.  I just went to SF today and I will tell you that its a terrible city.  Splunk is growing very fast and is a very respected company.",
+          "score": 4
+        }
+      ]
+    },
+    {
+      "title": "Performance Engineer route to Software Engineer",
+      "body": "Hello,\n\nI am interviewing for a performance engineering intern at Splunk and wanted to learn more about opportunities down the line for performance engineers. I've heard the DevOps engineers frequently have a hard time later transitioning to software engineering roles. Is this true for performance engineers too? What sort of growth opportunities are there for performance engineers at a company like Splunk?\n\nThank you!",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/fkuhvx/performance_engineer_route_to_software_engineer/",
+      "comments": [
+        {
+          "body": "ouu this sounds like an interesting role",
+          "score": 2
+        },
+        {
+          "body": "Sounds like you’re a software engineer specializing in optimizing performance. Don’t think that will make you any less valuable than other SE.",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Accepted a new job, current job wants to match to keep me around...Thoughts?",
+      "body": "I currently work for a boutique Information Security firm.  Company of maybe 150-200, great people, and I love what I currently do.  My current salary is 120k, and I am 95% work from home.  How could it get any better than that?  \n\nSo I had a very persistent recruiter reach out to me about 2 months ago, who I politely told I wasn't in the job market.  He kept coming back to me every couple of days, to where I got annoyed with the guy and finally told him unrealistic expectations, expecting him to go away.  Well a few days later he comes back and tells me he was able to get me exactly what I asked for (salary of 140k + potential 10k/yr bonus, paid quarterly, with less than 30% travel).  At this point, I was interested and after him getting that for me, I felt obliged to say yes.  \n\nTwo days ago I gave my resignation to my current manager, who replied (via email) stating he'd like to have a call with me the following day (yesterday).  I accepted, and assumed it was more or less an exit interview.  Instead, he wanted to know if I'd reconsider if they could match whatever I was offered, and I implied that I would listen.  This specific industry is small, and he guessed the company that offered me a new position, and asked if I would send him a copy of my offer letter so they could possibly match it.  I agreed, and sent it.  \n\nToday I heard from him and he said he would have my counter-offer ready today, as soon as HR finishes writing it up.  I don't know the contents of it, but I imagine they were able to match my newly accepted offer.  For the record, this isn't just higher pay to stay in the exact same role.  It would be accepting a new role that exactly matches what I would be doing with the new company (I knew my company offered this service, but had no idea I could move into that).  \n\nSo yeah...I've always heard that you don't accept a counter when a company tries to get you to stay, but this situation feels different.  I guess because it's a different role, with the same company that I love working for.  \n\nI'm looking for advice.  I will have the counter offer by tomorrow afternoon at the latest, if not today.  Assuming they are matching the salary with the same 30% or less travel, I'd be onboard with the work.  My manager seems to be anxious about keeping me, and he is definitely making an effort here.  \n\nShould I absolutely say no to a counter and go on with the new job that I've already accepted?  Should I consider the counter (I'd really like to stay, if possible and it makes sense), and if so, how do I tell the new job that I'm not starting with them in two weeks (I live in a employment at will state)?  I feel that's going to be an awkward conversation.  \n\nThoughts, advice, suggestions??  Thanks!!  \n\nEDIT [12/24/2015]:  Spoke with [manager] about the new position, and feel really good about the new position.  Basically they just won a 3 year contract with a government agency, and they'll have about 6 people on that team, and the position offered to me would be as a technical architect/lead.  One of the big selling points for me is that I meet the requirements set by this agency (clearance level, certifications, etc), and it would potentially take 6 months to get someone fresh to that level.  The takeaway from that conversation is that my current company doesn't typically give counter-offers (as he said), and he and I are on the same page as to why I originally gave my resignation.  The new position has a salary of $135k (a 15K bump), and doesn't have the same bonus structure (up to 10k/yr, paid quarterly), but the overall compensation with this new position is higher than that of [new company] ([current company] gives $150/mo for internet/phone reimbursement, higher quality medical/dental with company paid deductible for me and my wife (vision is the same, actually), and my [current company] has better 401k matching (100%, up to 4%).  \n\nA nice thing about this new role is that I wouldn't be locked into it 100% of the time, and if I wanted to do a Splunk PS engagement and travel a little, I could (within reason).  So that gives me the ability to step away from my primary duties temporarily if I wanted a break.  \n\nWas told to think it all over, and get back to him this coming weekend.    \n\nEDIT [12/25/2015]:  Merry Christmas!\n\nEDIT [12/26/2015]:  Just spoke with [manager], and accepted the offer.  While I would have occasional travel to wherever the team for this agency is located, regular travel is not part of the gig as it would be on this new role.  For my wife, that was a big selling point, and I felt comfortable accepting the position after the discussions I've had with [manager].  I feel confident that he understands I wasn't looking to jump ship because I was unhappy, and I can only hope I didn't completely break trust with [current company].  My current team lead and colleague on my current engagement have been made aware of the situation, and there is no conflict there.  I will transition out of my current role over the next 4-6 weeks, while my new compensation will likely start on January 4th.  \n\nI appreciate everyones advice, and I hope to prove you naysayers wrong.  I will gladly provide an update every month or so, for the next 6 months (as long as I remember) to let those who are curious know how it went.  Thanks again!  \n\nEDIT [01/03/2016]:  Signed my compensation form this past week, which went into effect on 01/02/2016 (yesterday).  \n\nEDIT [08/05/2020]:  I've received several messages since creating this post, so I figured I would just provide an update here.  As my previous updates show, I decided to stay with my current company at the time, and things were great.  I was with them for another 2.5 years (approximately), and received 2 raises as well as multiple performance-based bonuses in my time there.  It was a great decision for me to stay, and it worked out extremely well.  As of Feb 2019, I have been with a new employer, still in the InfoSec space.  I am no longer doing professional services type of work, and instead work within the corporate infrastructure.  This was a great move for me professionally and personally, as I am still doing the same kind of work but at a much more relaxed pace, still working from home 100% (even prior to Cv19), and see myself with this firm long term (one of the Big 4 Firms).  Hopefully my story, along with the comments below, can help anyone else out now and in the future!  \n\nThe best advice I can give is to always think about yourself first, and do what's right for you and your family!",
+      "subreddit": "jobs",
+      "score": 56,
+      "url": "https://reddit.com/r/jobs/comments/3xz3n2/accepted_a_new_job_current_job_wants_to_match_to/",
+      "comments": [
+        {
+          "body": "I can tell you I have been in management for many years.  In that time, I have seen people put in their notice.  The good employees are given counter offers to have them stay, but in the end they are terminated within 6 months.  I am not saying this happens all the time because it doesn't.  However, a majority of these counter offers are extended just to keep the person there.  Once as its accepted, a plan is put in place to get rid of the person.  That person is no longer viewed as loyal, and now it costs more to retain them which is hard for the company to swallow.\n\nMy advice would be to move on.  Play it safe.  If you choose to keep your current job, make sure you have good financial footing.  An emergency fund, no debt (or very little), and a plan if you lose your job.  You have to be prepared for it.  If it doesn't happen, then great, but if it does you want to be in a situation where not working won't be an issue.",
+          "score": 79
+        },
+        {
+          "body": "The standard advice is \"Don't.\"  It all boils down to: if you accept this counter do you think the company would look for reasons to get rid of you. \n\nYour situation is a bit different because they're not just throwing more money at you to get you to stay, but they're technically promoting (or at least moving) you to another role.\n\nIf you really like the current place and believe in the mission, and it offers you equal or more to the new offer, I'd personally be inclined to stay, IF I didn't think I was putting a target on my back.",
+          "score": 19
+        },
+        {
+          "body": "I don't think money should be the consideration here. At the level you are talking about it just isn't that much different. I would ask my self about environment, culture, travel obligations and my love for working from home.\n\nDo you think those things are a better fit at the new place than the current place? It doesn't sound like your current job is bad at all and that you actually enjoy it.\n\nHowever, keep in mind this is a one shot deal. If you accept the counter and then try again three years from now, it would look real bad.",
+          "score": 10
+        },
+        {
+          "body": "Before you consider taking the lateral move at your current company, I would ask myself (and maybe the manager) why they hadn't offered the new raise/position to you before you gave notice...  if you're a valuable person that is worth keeping (and keeping happy) then why wasn't this a possibility before you were ready to go elsewhere?",
+          "score": 6
+        },
+        {
+          "body": "I got burned on accepting the counter offer when my company couldn't match their end of the deal.\n\nIf your company can keep up their end and the role is legit, I'd be inclined to stay on.  If it was a straight raise for the same job then no, but with a position move I think that changes the story.",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "title": "How difficult would it be for me to shift to Uk right now?",
+      "body": "Hello, I am British Citizen living in India from the last 8 yrs, have completed my Bachelor's in Computer at a basic college in India.  I currently have 10 months of work experience at a startup in Devops(mainly terraform,splunk)  My dad lives in Uk right now.\n\nCould anyone give me an insight of how difficult would it be to shift to Uk and find a decent job in my field amidst the pandemic?\n\nThank you",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/ihkr3c/how_difficult_would_it_be_for_me_to_shift_to_uk/",
+      "comments": [
+        {
+          "body": "**\"how difficult would it be to shift to Uk\"** \\--- Depends on the traveling conditions from india to uk.\n\n**\"how difficult would it be to find a decent job in my field amidst the pandemic\"** \\-- Why don't you start applying and find out! :))) You don't need to be present in UK to apply for or interview for jobs. Most if not all interviews are remote these days. Good Luck!",
+          "score": 1
+        },
+        {
+          "body": "Cross-posted without declaration to:\n\n* https://old.reddit.com/r/UKJobs/comments/ihksuv/how_difficult_would_it_be_for_me_to_shift_to_uk/\n* https://old.reddit.com/r/cscareerquestionsuk/comments/ihks88/how_difficult_would_it_be_for_me_to_shift_to_uk/\n* https://old.reddit.com/r/cscareerquestionsEU/comments/ihkrsl/how_difficult_would_it_be_for_me_to_shift_ti_uk/\n* https://old.reddit.com/r/cscareerquestions/comments/ihkr3c/how_difficult_would_it_be_for_me_to_shift_to_uk/",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "People seem to vastly overestimate the impact of \"brand names\"",
+      "body": "As someone who attained a CS degree at an Ivy League school, have about 10 years of industry experience, all at a Fortune 500 companies...and coming up on 1 year of unemployment, I've been surprised at the naivete shown when I've discussed my situation with people.\n\nEssentially, my difficultly in finding a job comes from being pigeonholed in a very niche stack (Splunk) that very few other companies use, at least to the degree they have dedicated roles for it like my last company did.\n\nConversations I have with people tend to go in one or more of the following ways:\n\n&gt;But you went to such a good school! How can you have trouble finding a job?\n\nEven when I was attending undergrad, it became pretty clear that attending a top tier school, while a plus, was pretty far down the list in terms of importance when qualifying for a job.\n\n&gt;But you worked at a great company!\n\nSame logic as above applies. In addition, while I still very much like the companies I worked for, they were definitely a lot less exciting places to work than one would expect.\n\n&gt;I thought that the job market for software engineers is strong.\n\nThis point has been beaten to death on this subreddit, and there is no need to reiterate it here.\n\n&gt;You are better than most of the boot camp grads flooding the market.\n\nWhile that may well be technically true, overqualification for a job is a very real issue. Not that it would even be a good fit anyway, but many entry level programs only hire people recently coming out of college or boot camps.\n\n&gt;You should network.\n\nWhile networking is definitely a good idea, I know first hand from interviewing candidates that it cannot make up for vast differences between a person's background and a job description.\n\nOver the past year, only two people I've talked had much in the form of useful advice. One is a React developer now despite having no experience in React from his previous job. He managed to get hired by writing an open source project with React over the time span of a few months that caught the attention of two internal recruiters. The other, while having a CS degree from an Ivy League school, has been out of the industry for a long time, and is attending a coding boot camp right now. He told me that in his cohort there are several others with CS degrees, a fact that was quite surprising to me.\n\nMy experience is definitely in the minority. Most people go into more mainstream technologies and don't have too much trouble finding new jobs once they are experienced. I still thought it was worth pointing out that finding a job can be more precarious than it might seem and that one might not realize that until they find themselves in a situation where they are having trouble.",
+      "subreddit": "cscareerquestions",
+      "score": 2,
+      "url": "https://reddit.com/r/cscareerquestions/comments/9b10yj/people_seem_to_vastly_overestimate_the_impact_of/",
+      "comments": [
+        {
+          "body": "Brand name matters a lot when you're a new grad or still in college looking for an internship. There were some companies that I simply could not get an interview with even though I had the proper qualifications until I started having brand names\n\nAdmittedly, it still matters after graduation but to a lesser extent as experience can kind of make up for it.",
+          "score": 4
+        },
+        {
+          "body": "https://youtu.be/CQbKctnnA-Y\n\nElon Musk doesn’t give a damn lol\n",
+          "score": 2
+        },
+        {
+          "body": "What do you think about the market for software engineers",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Is it me? What's wrong with my resume!?",
+      "body": "I keep getting rejected left and right and I was wondering if my resume is just not it or if I have the wrong skills. \n\nI'm trying to get into network or cybersecurity and it's pretty much impossible to even get an interview☹️\nI am still a junior in college though. ",
+      "subreddit": "jobs",
+      "score": 0,
+      "url": "https://reddit.com/r/jobs/comments/1ottsqg/is_it_me_whats_wrong_with_my_resume/",
+      "comments": [
+        {
+          "body": "You have nearly 2 years left on your Bachelors. If you really want to be working, try retail. If you want to add to your resume for once you have a degree, apply for internships.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "I just had an interview with the department of ed",
+      "body": "This was for a Splunk Engineer job and the interviewer had a very heavy accent and spoke very fast and I couldn’t comprehend him and just grabbed onto little things and tried to answer the question best of my ability do you think this email I sent is rude ",
+      "subreddit": "jobs",
+      "score": 2,
+      "url": "https://reddit.com/r/jobs/comments/1b0t4db/i_just_had_an_interview_with_the_department_of_ed/",
+      "comments": []
+    },
+    {
+      "title": "Splunk interview - FE dev",
+      "body": "Hello,\n\nI have an interview on Monday for a Frontend Developer role at Splunk (second technical). The email said \"live coding with elements of system design\".\n\nDoes anyone know what type of live coding? Algorithms? Small app? Bug fix? What system design questions do they like? I've found about Dropbox and Google Drive, but there is probably more.",
+      "subreddit": "interviews",
+      "score": 2,
+      "url": "https://reddit.com/r/interviews/comments/1e7y32n/splunk_interview_fe_dev/",
+      "comments": [
+        {
+          "body": "I have no actual idea what SPLUNK does. At all.\n\nI am also HEAVILY in vested in SPLUNK.\n\nwhy? Cuz the name is cool.",
+          "score": 1
+        },
+        {
+          "body": "[deleted]",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "title": "Technical Round preparation - Splunk Early Career SDE",
+      "body": "I've recently cleared the screening round and have been scheduled for two technical coding rounds coming thursday for the role of Early Career Software Engineer position at Splunk. The interview takes place on Codility. Any tips or suggestions on how hard the questions might be ? I've been gridning for the past month and finished the Top 150 interview questions and Leetcode 75. I just wanted to know the difficulty of the questions. Would it really depend on the position or the interviewer ? I've asked few of my friends but got mixed responses. Any other tips on preparation would also be helpful.",
+      "subreddit": "interviews",
+      "score": 2,
+      "url": "https://reddit.com/r/interviews/comments/1e33za6/technical_round_preparation_splunk_early_career/",
+      "comments": [
+        {
+          "body": "Technical interviews can definitely vary, even at the same company, based on the specific team, the interviewer's style, and even the day! 😅 Since you're already comfortable with common questions, maybe focus on problems specifically relevant to Splunk – think data processing, search algorithms, and anything related to their tech stack. And practicing how you explain your thought process out loud is super valuable too. By the way, I built a tool called [interviews.chat](http://interviews.chat) to help people prep for technical interviews – might come in handy for future ones! Good luck with your Splunk interviews!",
+          "score": 2
+        },
+        {
+          "body": "Hey! I'm also prepping to go into my Early Career Fullstack/Backend Software Engineer interview at Splunk on Codility at the end of the week. How was your interview and what type of questions or difficulty were they? Did the interviewer cover 1 or 2 coding questions and were there any behavioral ones? Thank you so much in advance, I can't find many resources on this so your answer would be a ton of help!",
+          "score": 1
+        },
+        {
+          "body": "Hey, In how much time after completing all interviews round, you are able to get the feedback (postive/negative )",
+          "score": 1
+        },
+        {
+          "body": "Did you do a behavioral first? How long does it take for them to get back to you after interviews. If its been 2 days, should I just assume I been rejected?",
+          "score": 1
+        },
+        {
+          "body": "Hi did u hear back from them ?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Initial Screening with Splunk",
+      "body": "Hello,\nI've recently been selected to an initial screening round for the role of Software Engineer Early in career 2024 at Splunk. It's a 30min interview with the Hiring Manager. It says Behavioral interview. \nDoes anyone have any tips on what I should be preparing ?\nI'm a recent masters graduate (Fall '23) and have never attended a Behavioral round.\nThanks in advance.",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1dmorlo/initial_screening_with_splunk/",
+      "comments": [
+        {
+          "body": "Congrats on landing the interview! Behavioral interviews can be a bit nerve-wracking if you're not used to them, but they're really just about getting to know you and how you approach situations. I built this tool called Interviews Chat (https://www.interviews.chat) that might be helpful for you. It has this AI Copilot that can give you suggestions during the interview itself, like little reminders of things to mention.Good luck!",
+          "score": 2
+        },
+        {
+          "body": "I have been in the talent acquisition/organizational development world for 25+ years.\n\nJust be prepared with 3-4 stories specific to the work you have done.   Typical Behavioral Interview Questions start with: \"Tell me about a time when\" or \"Tell me about a situation where\"...Focus on overcoming a challenge, working in the vague, shifting priorities on a project, \n\nAlso be prepared with questions of your own.   Ask about priority projects currently in the queue, product roadmap, expectations for the person accepting this role in the first 30,90, 180 days...AND ASK at the end of the interview if there is anything based on this interview that would prevent you moving to the next round.",
+          "score": 2
+        },
+        {
+          "body": "[deleted]",
+          "score": 1
+        },
+        {
+          "body": "any updates? how was the interview",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

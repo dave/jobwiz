@@ -1,0 +1,1265 @@
+{
+  "company": "goldman-sachs",
+  "post_count": 68,
+  "exported_at": "2026-01-18T17:44:53.279Z",
+  "posts": [
+    {
+      "title": "Goldman Sachs technology analyst phone interview!",
+      "body": "Hello Reddit!\n\nOnce again, I'm in need of your help.  I am set to have a phone interview with Goldman Sachs NYC technology analyst position in less than 48 hours! I'm shocked that I got a call from them as I'm not so much a developer but looking for Business Analyst roles. I wanted to know if anyone would let me know about their experiences with GS! Can I get some help?",
+      "subreddit": "cscareerquestions",
+      "score": 8,
+      "url": "https://reddit.com/r/cscareerquestions/comments/2mugfv/goldman_sachs_technology_analyst_phone_interview/",
+      "comments": [
+        {
+          "body": "I've had a Tech Analyst on-site interview. Tech Analyst is just banker speak for programmer. In two 2x1 45min interviews I had about 3-ish programming questions where they expected code (about moderate difficulty), about a couple where they just wanted the general approach, one design question (focus on scalability), a few generic behavioral questions and a few from my resume including discussions (why did you choose this technology instead of this one for this project etc).\n\nNot really sure what goes on in their phone interviews (I've never heard of them doing phone rounds, but only straight on-site ones before), but I'd wager that they'd be like typical Software Engineering interviews, with maybe a few more behavioral questions than your regular tech firm thrown in.\n\n",
+          "score": 6
+        },
+        {
+          "body": "Also had an onsite interview. Everything the other guy said was indicative of my experience, plus one thing. I got asked every question there is to know about my listed coursework and programming languages. Things like the specific features of python, to questions from my stats class I took over a year ago. This is the reason I didn't get the internship. Make sure you know your shit, because they will grill you hard. In a nutshell, the algorithm questions were straightforward, but resume questions were killer.",
+          "score": 6
+        }
+      ]
+    },
+    {
+      "title": "Goldman Sachs coderpad interview",
+      "body": "I recently got a call from Goldman Sachs for a position on their operations engineering team. I have received a Coderpad link, so it's going to be a coding interview. Could someone please help me out with what kind of questions I can expect on the day? On glassdoor I was seeing questions mainly on how you managed diversity and stuff like that..but why would they send a CoderPad link then?\n\nP.S: I do not know what position I will be getting on the team. They apparently allocate that after your training.",
+      "subreddit": "cscareerquestions",
+      "score": 1,
+      "url": "https://reddit.com/r/cscareerquestions/comments/70bsqe/goldman_sachs_coderpad_interview/",
+      "comments": [
+        {
+          "body": "Data structures and algorithms?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "I (M,1), am having difficulty in finding jobs in my field of study.",
+      "body": "Being a neonate, I often find that professional spaces tend to greatly discriminate against me - often times, I attend interviews, only to be vigorously patronized and coddled. \n\nLast week, I attended a virtual interview for a developer position at Goldman Sachs. For the upcoming months, I poured over \"Cracking the Coding Interview\" by Gayle Laakmann McDowell and completed MIT's 6.006 course. I wore my best slacks, but despite this, my interviewer dismissed me the moment I came onto the call. I have difficulty enunciating, as I have no teeth, and due to this lacking of mine, my interviewer began to coo at me, saying \"Who's a smart boy? Who's the cutest boy in the world?\". He then turned to someone off camera and said, \"I think someone just... left their kid at the computer and didn't show up for the interview...?\" Fools! How insulting.. my parents are gainfully employed. And I knew the answer to his query, \"who's the cutest boy\" was me, of course - my mother tells me as such daily, but what could I say to that clear repudiation of my technical skill? \n\nOne interview, in particular, sticks out in my mind as being the worst instance of neonate-ism that I have experienced in my lifetime. I will not name names, but at this interview, I was bounced from lap to lap, fed liters of milk, and my suit was ruined by the slops of Gerber 2nd Food Tube Vegetable Beef Baby Meals! \n\n I want to be taken seriously in my career, I have the skills. I'm an avid contributor to many JavaScript open source projects and I understand the ins and outs of neural networks. I am starting to believe that they don't want to test my coding skills after all... perhaps my fatal flaw is the lack of years of experience with each language. I feel as though my coding prowess itself is adequate, however, I have only been coding for the last five months, as that is when my fine motor skills had developed sufficiently for me to type. Prior to that, I was reading up on CS theory, discrete mathematics, and linear algebra. I suspect that my interviewers are seeking out employees with more months of experience. \n\nI'm wondering if others have experienced something similar in their travails in technical coding interviews. How do I overcome my deficient experience and showcase my skills?",
+      "subreddit": "cscareerquestions",
+      "score": 3291,
+      "url": "https://reddit.com/r/cscareerquestions/comments/idqtgo/i_m1_am_having_difficulty_in_finding_jobs_in_my/",
+      "comments": [
+        {
+          "body": "Hi neonate, IT recruiter here. I find these kind of stories about age discrimination hard to swallow and they ofcourse would never fly in my company.\n\nPerhaps you could try to apply more for customer facing roles where soft skin is more important than skills sometimes. It also benefits from your ability to quickly build rapport and completely milk your close contacts. Just tell them you'll be on your feet within weeks. \n\nIf you prefer something else you could try Coo-bol? It has a reputation to be more for the elderly and demented but I'm sure many mainframe companies would be thrilled to be looking at someone who might work there for 65 years or more. You're in your prime to learn new skills so that should work out.\n\nRemember to eat and sleep regularly and I'm sure you'll find the place of a lifetime!",
+          "score": 516
+        },
+        {
+          "body": "It’s a numbers game. It’s a tough job market right now. Just keep applying and be persistent, and you’ll find something eventually. Have you had your resume reviewed recently? Also, does someone need a change of die-die?",
+          "score": 408
+        },
+        {
+          "body": "This is amazing.",
+          "score": 548
+        },
+        {
+          "body": "This is your fault for not grinding LeetCode in the womb. You could have gotten 9 months ahead of the competition and been in FAANG by now. \n\nYou're never going to get those 9 months back now.",
+          "score": 173
+        },
+        {
+          "body": "There's a lot of joke answers on the thread, but it's clear that you're looking for useful info so I'll do my best to provide some advice from a hiring perspective.\n\nWe've looked into bringing on hyperjunior talent in the past but a few roadblocks have prevented a wide rollout:\n\n* **Object permanence**.  While data persistence is a feature of any mature stack, there's usually a need for devs to hold concepts in their internal memory for up to several minutes.  Generally people in your cohort have trouble with this.\n\n* **Verbal communication**.  I can tell from your post that your written skills are where they need to be, but remember that this is no longer a solitary profession and even while social distancing there's a lot of talking.  If you're stuck on the classic \"mama/dada/no\" triumvirate, this is a good time to try to clear that threshold and pick up some more terms.\n\n* **Lack of education**.  There's a lot of advocates for a 17-year computer science degree program on this sub, and while people with more nontraditional backgrounds are breaking into the field, hiring managers are expecting to see at least kindergarten on a resume.  See if your daycare offers any technical courses, a lot of times you can get these at a discount and the networking is just as valuable as the educational content.\n\n* **Business savvy**.  This is a bonus but really helps you stand out from a crowd of tech applicants. A non-trivial percentage of your future career will be communicating with the nontechnical people who control the project, so understanding their perspective and motivations is worth its weight in gold. A documentary came out a few years ago about a fellow your age who had worked his way into management, that might be a good start in your research.\n\nAnyway, hope this helps. It's a crowded field but you're getting an early start, and it's a numbers game at this point.  Good luck!",
+          "score": 141
+        },
+        {
+          "body": "That's enough Reddit",
+          "score": 233
+        }
+      ]
+    },
+    {
+      "title": "After 19 months of searching, four months of unemployment, failing 7 straight final rounds and hundreds of applications , I finally landed my dream job !",
+      "body": "So as the title states I’ve been searching for a job for 19 months (August 17th,2017, 3 days after I started my last job), since then I’ve put in hundreds of applications and wouldn’t be surprised if it was a thousand. And I just recently accepted a job with Microsoft! \n\nI graduated with a computer science degree in December 2017 from a public university in the east coast and from August of 2017 up to November of last year I was a “developer” at an investment bank company. I put Developer in question marks because I spent a lot of time doing product support and talking with clients as opposed to working in software. That work was cool and all but not what I wanted to do. \n\nThe job searching process was truly mentally draining and honestly the worst time of my life, I just wanted to share my story on here and give some tips for job searchers. \n\n\n**What helped me** \n\nAs you can probably imagine I did have a lot of algorithms and data structures covered in this interview, so when it comes to A &amp; DS there isn’t much I can say that hasn’t been said on this sub. However if you want to know some posts about that subject that really helped me out on my job search, I’ve linked some below.\n\n https://www.reddit.com/r/cscareerquestions/comments/7vke9e/my_story_from_0_to_210/?st=JT96WJKH&amp;sh=e54c168e\n\nhttps://www.reddit.com/r/cscareerquestions/comments/9i0pow/graduated_with_a_24_gpa_1_year_ago_after_studying/?st=JT96WXHD&amp;sh=ea0e9b14\n\nhttps://www.reddit.com/r/cscareerquestions/comments/6278bi/my_journey_and_tips_29_gpa_at_a_noname_liberal/?st=JT96ZP91&amp;sh=5aec9f33\n\nOne thing I would like to note is to NOT do what I did when I first started searching. More specifically I would go on Glassdoor and websites like 1point3acres to find questions that companies would ask and I would only prepare myself for those questions. This is a terrible idea because a lot of the time I wasn’t being asked those same questions and that laziness really prevented me from really mastering DS &amp; A. I think I did around 100 leetcode problems by the way. \n\nAnother thing that really helped me that I cannot stress enough, is staying off this sub. “You just posted some helpful links form this sub and you’re telling us to stay off it , what gives?” I know, there can be a lot of helpful information on this sub however coming here everyday wasn’t healthy. I would constantly compare myself to the success stories and feel lesser of myself because I wasn’t at their level. It took me a long time to realize that I had a toxic state of mind and if I ever wanted to succeed I needed to stop comparing myself to other people and realize this is my story, no one else’s is written the same way. \n\n**How did I get my interviews**\n\nNow as the title stated I had 7 onsite interviews which I failed, those interviews were with Facebook, LinkedIn, Yahoo, Mozilla, Oculus, Yelp and Amazon. Funny note , I actually failed my Amazon onsite 3 days before my Microsoft one. \n\nI’ve also had around 30ish phone interviews with the companies above and \nDropbox, Twitch ,Zillow , Asana, Mailchimp, Opendoor ,Oscar Health ,Textio\nSalesforce, Indeed ,Houzz, Pandora and Goldman Sachs. With coding challenges from some more companies. \n\nNow you’re probably thinking , “that’s a lot of companies to interview with and a lot of companies to get rejected from, how did you get those interviews.” \n\nWell to answer that shortly I had to be a little unconventional. Normally people will tell you to just apply to a job and hope to hear back. However of all my onsites, I did not apply online for a single one. And for all my phone interviews I believe I only applied online for 3 companies . \n\n\nBasically in order to get these interviews I had to surround myself with people who worked in these tech companies. The easiest way to do this is adding people on LinkedIn from companies you want to work for however (at least for me) very few of these people ever responded to me.\n\nI instead spent a lot of time going to tech conferences and really networking with the people there. Once you make yourself known to people and leave a good impression they will be so eager to give you referrals. One tech conference that really helped me out was AfroTech, not only was I able to meet engineers and recruiters but they have a recruitment database for people to reach out to you. \n\nAlso, if you do meet someone at a tech conference that you want to leverage for a job in the future , make absolute certain you get in touch with them as soon as the event is OVER. These people meet hundreds of people per day so making sure you email them while you’re still fresh in their mind is awesome!  There was even an official AfroTech app that listed the emails of the participants, so I would search them up by companies and send them emails about roles I was interested in! From that and referrals from people I met at other conferences that was how I got the majority of my interviews.\n\nIn addition to that I would go on hackernews and look for who was hiring for specific companies. Sometimes a company that I wanted to work for wouldn’t be on the most current hackernews whoishiring post , so I would search for people who’ve made posts for that specific company in the past. Usually with just a simple google search , for example “whoishiring Adobe entry level.” The managers would usually leave their emails in their posts and I would send them emails asking if they could help get me in touch with recruiters for specific roles I was looking at. \n\nAdding on to that point I also used this site [Jopwell](https://www.jopwell.com/)  to land one of my onsites. It’s a job posting site that automatically gives you a referral when you apply. I also used the [Blind App](https://www.teamblind.com) to message managers and recruiters of specific companies asking for referrals and I got ALOT of referrals from doing this too. \n\n**The most important thing**\n\nNow I know it’s been stressed before on this sub but I don’t can’t stress the importance of this one thing , and that is LUCK. \n\nAnd by luck I’m talking more specifically about back luck, of all my onsites I would say I  failed 3 because of bad luck. For first, onsite the recruiter told me that the team wanted to hire me but they didn’t have enough room, pretty unlucky right. The other two I failed because the interviews were extremely rude and abrasive. \n\nMore specially for one onsite , I had a replacement interviewer because the original interviewer forgot he was supposed to interviews me and went on vacation. This replacement asked me a bit manipulation question in a front end interview, told me google and Facebook were better companies than the one I was interviewing for and refused to shake my hand because I struggled with the question he asked me.  \n\nThe other onsite, I had an interviewer who deeply sighed every 30 seconds during my interview. And the interviewer after that made me spend 40 minutes trying to solve a problem that she told me after the interview was impossible to solve(I didn’t solve it by the way). \n\nBasically want I want you to get out of this is that, bad interviewers exist. And there’s honestly nothing you can do about it. You can be so prepared and ready for an interview but sometimes if the stars don’t align you will fail and it’s nothing to beat yourself up over. \n\n\n**Closing Note** \n\nThis job search was the hardest thing I’d ever had to do in my entire life. I spent so many days if I would ever make it through, I even gave up on my self towards the end. But I kept at it , no matter my personal feelings. I knew that I had to keep going if I wanted to ever get where I wanted to be. I used to spend days where I just spend hours checking my emails hoping something good would happen. I even quit my job at the time with no job lined up just so that I could get more serious about applying and that was around 4 months ago. \n\n\nI know this is kind of long but this sub has really helped me and I wanted to return the favor and help others!",
+      "subreddit": "cscareerquestions",
+      "score": 976,
+      "url": "https://reddit.com/r/cscareerquestions/comments/b176n1/after_19_months_of_searching_four_months_of/",
+      "comments": [
+        {
+          "body": "Refused to shake your hand because you couldn’t answer a bit manipulation question? Wow. Just wow. ",
+          "score": 148
+        },
+        {
+          "body": "Some interviewers really are terrible at being a human",
+          "score": 114
+        },
+        {
+          "body": "Wow, first off, congrats! After that much hard work and dedication, you really deserve and worked to get where you are now and I hope you really enjoy Microsoft. I really like how you leveraged people that you met through conferences, I think personally I get so intimidated and view myself as less deeming of a position just because there are so many others that are smarter, more outgoing, etc. But I think my goal next school year is to leverage these conferences and face to face interactions better to help me get a position.\n\nI've been searching for an internship for 8 months now (since July 2018) and I'm really starting to lose hope. So knowing that you spent over 19 months puts things in perspective. I first started off not knowing what I wanted to do and just wanted any SWE internship, and then I got scared and thought SWE wasn't for me and tried pursuing PM and product design, but now I gained confidence and learned what my skills are and how I can apply that to what kind of SWE I want to pursue instead of expecting the company to know for me.\n\nI'm a junior so sometimes I feel kind of dumb that I'm looking for my first internship now and it seems like I've applied to everything out there but your post honestly gave me motivation to keep trying even though it's almost May at this point.\n\nAlso, I really like your closing note, cause it's a reflection of how I feel. I've had 5 interviews that all fell through and it feels almost impossible at this point but I know I want to get an internship this summer to get to where I want to be.\n\nCongrats again, I know how hard it is applying for jobs/internships and can't even imagine how much harder it is out of school but I'm really glad for you and wish you the best at Microsoft!",
+          "score": 33
+        },
+        {
+          "body": "many of these interviewers sound like dicks. Been there. Interviewed with dicks. I got yelled at by a VP once. He asked why I was changing jobs, I said I wanted a shorter commute and he screamed at me. Not kidding. \n\nI generally try to be nice in interviews and I ask a lot of questions to get a feel for what people know. This way if they miss a few its not a big deal. Its designed so you miss some. ",
+          "score": 26
+        },
+        {
+          "body": "Congrats man.  I hope it works out for you.  I landed what I thought was a dream job and now... I think it may be the worst job I've ever had(in 20+ years of programming).  Your team matters.  Your environment matters.  Organizational efficiency and attitude matter.  I hope you find the work environment to be rewarding and enjoyable.",
+          "score": 18
+        },
+        {
+          "body": "This sounds stressful bruh, I feel happy for you though.We graduated around the same time and Boy I'm ready to sell myself to a body shop.",
+          "score": 72
+        }
+      ]
+    },
+    {
+      "title": "Goldman Sachs Interview Hackerrank challenge",
+      "body": "Hello all, I have a hackerrank challenge from goldman sachs for a technology analyst summer intern position. Has anyone done this before? Any tips or ideas on what concepts to look out for or on difficulty level?",
+      "subreddit": "cscareerquestions",
+      "score": 9,
+      "url": "https://reddit.com/r/cscareerquestions/comments/56fp66/goldman_sachs_interview_hackerrank_challenge/",
+      "comments": [
+        {
+          "body": "It was fairly simple. \nDon't worry too much about it.\nI'd suggest you to review DP. I actually messed up in implementing the DP so I only got 4/6 cases to pass",
+          "score": 5
+        },
+        {
+          "body": "I just finished the challenge! First problem was hella easy and second one was kinda funky. Like I was pretty sure that I did the second one correctly because it didn't *seem* like a difficult question but I couldn't get it to pass 3 test cases :/\n\nI'd advise you to practice string manipulation and DP beforehand. \n",
+          "score": 2
+        },
+        {
+          "body": "i've done about 6 or 7 hackerranks for various companies, and Goldman's was probably the easiest one i've done out of all of them. Both were classic questions; finished both and passed all test cases in less than 10 minutes. I wouldn't sweat it.",
+          "score": 2
+        },
+        {
+          "body": "What kind of questions did they ask in the hackerrank challenge?\n",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Was Goldman Sach's HireVue interview really awkward, or is it just me?",
+      "body": "It was really strange to talk to a camera, especially seeing myself and realizing how awkward I sounded. I also didn't use up all the 2 minutes for each question simple b/c I ran out of stuff to ramble about. Did anyone else have a similar experience? Pretty sure I'm not clearing this round...",
+      "subreddit": "cscareerquestions",
+      "score": 19,
+      "url": "https://reddit.com/r/cscareerquestions/comments/5l74g5/was_goldman_sachs_hirevue_interview_really/",
+      "comments": [
+        {
+          "body": "They're always awkward. I thought I failed only to find out I had moved on and eventually received an offer.",
+          "score": 13
+        },
+        {
+          "body": "lol, mine went terribly and yet I still got an onsite and an offer. I think they have a fairly low bar for the HireVue. They just want to make sure you prepare for it. ",
+          "score": 6
+        },
+        {
+          "body": "Had Hirevue interview with a different company, super awkward with a mix of rambling, \"uh\"s, and needlessly repeating myself because I'm trying to fill in pauses instead of just ending the recording. The questions were fairly simple in mine as well, and I definitely didn't use the max amount of time for them. Ended up passing it anyway, so it's probably not a big deal.",
+          "score": 7
+        },
+        {
+          "body": "Everything about Goldman's hiring process is weird, awkward, and more about the culture of Goldman Sachs than programming.\n",
+          "score": 13
+        },
+        {
+          "body": "Still haven't gotten one, even emailed them and they said to expect an email in the next few weeks   \n  \n#feelsbad  \n  \nI would love an internship there",
+          "score": 2
+        },
+        {
+          "body": "Some people are going to say it was you. The other will agree with you. I shared similar problems with HireVue. Not everyone was meant to be a stream personality. I remember being asked about the difference between \"Array and LinkedList.\" I had trouble coming up with a coherent answer, since I wasn't sure whether they were talking about ArrayLists or fixed array. I started mumbling about how we have to consider whether it's the former or the latter. Needless to say I didn't pass, even though I knew all the differences between an ArrayList and LinkedList. Also every language uses different names, so that was another thing to think about since it was never mentioned whether I should be thinking about Java, Python, or another.",
+          "score": 4
+        }
+      ]
+    },
+    {
+      "title": "Goldman Sachs status: Current status is Interview Scheduled, no email... bug?",
+      "body": "I took the HackerRank challenge about a week ago and passed 11/12 test cases. I checked my profile status a couple of days ago and saw my status as: Current status is Interview Scheduled, but I've not received any emails.\n\nI searched this up on reddit and saw someone with this reply: [As a note, interview scheduled must be bullshit lol. Didn't even do the second problem and I got interview scheduled.](https://www.reddit.com/r/cscareerquestions/comments/6td657/goldman_sachs_interview_response/dlkdi0z/)\n\nDoes anyone else have this? I'm thinking about waiting a few days then emailing them back, but it'd be pretty depressing if this was message just a bug and I've not actually been selected to proceed...\n\nEdit: BTW If anyone has already heard back, I'd love to know.",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/6ti0ku/goldman_sachs_status_current_status_is_interview/",
+      "comments": [
+        {
+          "body": "Why don't you send them an email? It'd be worse if they meant to schedule an interview for you and forgot to send an email.",
+          "score": 4
+        },
+        {
+          "body": "Soooo email them?",
+          "score": 5
+        },
+        {
+          "body": "The process seems like a mess now I'd just wait another week or so and see how things are getting resolved for other people (don't worry there will be tons of posts popping up here just like yours).\n\nI haven't even done the hackerrank yet and my status says Interview Scheduled lol",
+          "score": 2
+        },
+        {
+          "body": "I did the hackerrank ~2wks ago, all test cases passed, and got that status as well, but have yet to hear back. ",
+          "score": 1
+        },
+        {
+          "body": "[deleted]",
+          "score": 1
+        },
+        {
+          "body": "I imagine it's automated to change to Interview Scheduled if you pass the Hackerrank. School hasn't started yet in most places so recruiters probably haven't started lining up interviews.",
+          "score": 1
+        },
+        {
+          "body": "if anyone is still reading this, this is the response i got from an email:\n\n&gt;the HackerRank is our first round interview which is why the application shows ‘Interview Scheduled’.  We will review your HackerRank and will be in touch with next steps.\n\nSo \"Interview scheduled\" should show up just for *getting* the hackerrank, not necessarily finishing it.\n",
+          "score": 1
+        },
+        {
+          "body": "i did the hirevue, which showed something different on the candidate portal. It said congrats you've made it to the hirevue stage... blah blah blah.\nAfter I completed that. I got the \"Interview Scheduled\" part.\nI passed the hackerank, as the first step, I'm also confused.\n\nI think this means the candidate portal and recruiter email isn't perfectly synced? i could be wrong not sure.  ",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Goldman Sachs \"Additional Interviews\"",
+      "body": "I checked my portal and this pop up. It's a summer analyst position.\n\n\"Congratulations!\n\nYou have been selected for additional interviews with Goldman Sachs.\n\nTo book your interview, please click the \"Book Interview\" button above. You may be meeting with more than one person, so plan to spend a few hours with us. Be sure to visit our blog to get some helpful interview tips.\n\nWe will send information concerning travel and expenses to the email address on file.\n\nWe look forward to meeting you and wish you the best of luck.\n\nThank you,\nGoldman Sachs Campus Recruiting Team\"\n\nBut i have not received any e-mails from them. I know this has been a problem before (https://www.reddit.com/r/cscareerquestions/comments/5delkd/goldman_sachs_application_status/)\n\nI'm not in CS (i'm asking here because it's a really good sub), so no recruiter has contacted me (just Hirevue); so I wouldn't even know who to e-mail. I would just wait for them to e-mail me (hopefully) but the only avaliable slots for Interviews is Sep 15th (which has me a bit anxious).\n\nAny help would be appreciated.",
+      "subreddit": "cscareerquestions",
+      "score": 1,
+      "url": "https://reddit.com/r/cscareerquestions/comments/6zk5nl/goldman_sachs_additional_interviews/",
+      "comments": [
+        {
+          "body": "Hi there - this happened to my portal about 2.5 weeks ago and today I got an email inviting me to the September 15th superday, so you should be getting an email soon for a future date. Don't worry about it! ",
+          "score": 2
+        },
+        {
+          "body": "Congratulations!\n\nMine is still stuck on \"Hackerrank completed\" so your best showed me what to look for next. I hope you do well on your onsite.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "What are some questions that can be asked in Goldman Sachs onsite interview for a summer analyst in tech?",
+      "body": "I have one in a few days and I seek your help with this /r/cscareerquestions\n\n**edit: got an offer; hmu with Qs**",
+      "subreddit": "cscareerquestions",
+      "score": 3,
+      "url": "https://reddit.com/r/cscareerquestions/comments/5fugdz/what_are_some_questions_that_can_be_asked_in/",
+      "comments": [
+        {
+          "body": "Sort of unrelated, but how long did it take you to hear back after your HireVue?\n\nOn your topic, I think some threads asking this question were posted within the past couple months. It looks like it'll be behavioral and what technical questions they ask are easier then the HR. Don't trust me though, I'm just repeating what I read.\n\nBest of luck at the onsite!",
+          "score": 1
+        },
+        {
+          "body": "I just got my invitation to super day! Would you mind sharing your questions?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "I fucked up the Goldman Sachs coderpad round ",
+      "body": "Fucked up my coderpad interview\n\nSo I had applied for the post of frontend developer at Goldman Sachs Hyderabad, India.\n  \n  \nI went through the initial HackerRank round without any issues, it was mostly easy leetcode DSA.\n \n  \nFor the coderpad round, I was asked to create a tic-tac-toe game in react. And my dumb ass totally fucked it up. I was able to create the grid, but I totally fumbled in the logic of checking which player has won. The interview was really kind, he helped me with hints here and there but in the end the app still didn’t work fully as expected. I did think aloud a lot and explained what code I was writing during the interview though. \n  \n  \nTowards the end, I asked the interviewer if he had any feedback for me. He told me the places where I could have written my code in a better way, but he didn’t sound dismissive at all. He also said that I’ll be having a total of 5 rounds or so. \n  \n  \nMy question is - what are my chances of progressing to the next round? I’m not keeping any hopes up because in the end, I wasn’t able to provide a full solution to the problem that was given, but it felt like somewhere I did explain my logic well, I just fumbled at the syntax level .. ",
+      "subreddit": "cscareerquestions",
+      "score": 275,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1c732tr/i_fucked_up_the_goldman_sachs_coderpad_round/",
+      "comments": [
+        {
+          "body": "I’ve thought I’ve crushed interviews and been rejected and fumbled shit and still progressed. No point in speculating really.",
+          "score": 478
+        },
+        {
+          "body": "5 rounds, I’m tired just thinking about it",
+          "score": 204
+        },
+        {
+          "body": "Coding a tic-tac-toe game for an interview lmao?",
+          "score": 47
+        },
+        {
+          "body": "Good they are a terrible company your doing youself a favor\n\n\n\nEdit: To All the people asking me why, yeah I worked there.  Ridiculous working conditions and zero appreciation for staying after hours. One of the most toxic environments I've ever seen. Everything glassdoor says is true. Also mandatory 5 day RTO when I left",
+          "score": 153
+        },
+        {
+          "body": "For a frontend developer you are going to 5 rounds is a joke and a total time waste. Do yourself a favour and apply to some startups rather than this so called niche company who are still interviewing like stone age interview process.",
+          "score": 75
+        }
+      ]
+    },
+    {
+      "title": "Goldman Sachs Summer Technology Analyst interview in two days!",
+      "body": "I have my OCI in couple of days and I was wondering if anyone of you have any experience with it? \n\nType of questions they ask? \n\nI went on Glassdoor to checked their interview question and just wanted to get your 2cents.\n\nI have not taken any Data Structures and Algorithm classes yet, should I still expect those questions?\n\n\nThanks",
+      "subreddit": "cscareerquestions",
+      "score": 8,
+      "url": "https://reddit.com/r/cscareerquestions/comments/3oiv75/goldman_sachs_summer_technology_analyst_interview/",
+      "comments": [
+        {
+          "body": "If you saw them on glassdoor, you should expect them",
+          "score": 4
+        },
+        {
+          "body": "I interviewed for full time and they ask a few relatively simple algorithm questions along with OOP concepts in the first interview. If you tell them you've never taken algorithms, they might change the type of questions. Overall, the programming questions are easy. It's the brainteasers that tripped me up.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Goldman Sachs Digital Interview",
+      "body": "Has anyone ever gone through the engineering internship process with Goldman, and, if so, what was the nature of the video interview? Was it more behavioral questions, like why you want to work there, or more on the technical side? The only reason I'm asking is because I know they also give it to people applying for finance roles, so I'm wondering if it's the same interview",
+      "subreddit": "cscareerquestions",
+      "score": 4,
+      "url": "https://reddit.com/r/cscareerquestions/comments/6ummyr/goldman_sachs_digital_interview/",
+      "comments": [
+        {
+          "body": "Yeah I did it last year. It's all behavioral. They'll ask you about your challenges and a couple of resume points. \n\nIt's structured in that you get a recorded person asking you a question, then you get 15 seconds to think, and then 2 mins to answer and they record the 2 mins and move on. They usually ask about 5 questions. You should know your own resume so be able to talk about it and you'll be okay.\n\nP.S., congrats on passing the coding challenge! Got my email as well that I'm doing the HireVue. Keep in mind the step after this is a free trip to NYC. Good luck!",
+          "score": 7
+        }
+      ]
+    },
+    {
+      "title": "Goldman Sachs interview process",
+      "body": "So I applied for the summer analyst IT internship, took the HackerRank and my candidate portal status was updated to\n\"Congratulations you have been selected for a first round interview\nwe will contact you within 2 days if your interview is taking place via hireview or Hackerrank\"\n4 Days later I never got an email or any sort of response and my status was updated to \"Interview Complete, thanks for interviewing at Goldman Sachs\" despite having never interviewed...\n Has this happened to anyone else? I don't know if something got screwed up with their automated system or if I'm just not interviewing.",
+      "subreddit": "cscareerquestions",
+      "score": 1,
+      "url": "https://reddit.com/r/cscareerquestions/comments/5fun6k/goldman_sachs_interview_process/",
+      "comments": [
+        {
+          "body": "Mine was \"Application Submitted\" all the way until after I finished my HireVue thing (earlier today), and now it says \"Additional Interviews.\" Not entirely sure what's going on, because it automatically changed from submitted to additional when i submitted my hirevue",
+          "score": 1
+        },
+        {
+          "body": "Did you solve the problems on the hackerrank with test cases passing?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "What questions are asked in Goldman Sachs' first interview? (Technology analyst summer internship)",
+      "body": "So I recently cleared Goldman Sachs hackerrank test and got an email from them asking me to complete a 20-30 minute Hirevue digital interview.  What kind of questions should I expect?  Technical?  Behavioral?  Mix of both?  ",
+      "subreddit": "cscareerquestions",
+      "score": 3,
+      "url": "https://reddit.com/r/cscareerquestions/comments/6xio8v/what_questions_are_asked_in_goldman_sachs_first/",
+      "comments": [
+        {
+          "body": "Behavioral only",
+          "score": 6
+        },
+        {
+          "body": "Print the most used ip address. You're given an array of strings (you have to parse the ip out of the strings.) Your return string has to be comma delimited. Note: there can be multiple most used ip addresses.\n\nedit: this was FT. idk about intern",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Goldman Sachs interview tomorrow",
+      "body": "I have a coderpad interview with goldman sachs tomorrow for a developer position. Any advice ?",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/7frez0/goldman_sachs_interview_tomorrow/",
+      "comments": [
+        {
+          "body": "No.  You either know your job or you don't.  Just have a conversation like any other business meeting.",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "title": "Advice for an interview for Goldman sachs?",
+      "body": "I have an interview with Goldman Sachs in a few days and it's going to be purely competency based(30 mins on the phone).\n\nI'm struggling to answer questions like:\n\n-Why an investment bank?\n\n-Why do you want to join a finance company?\n\nIt's a software engineering(application developer) position placement. I have no idea how to answer this, I've researched the company etc, but I don't understand this at all. ",
+      "subreddit": "cscareerquestions",
+      "score": 2,
+      "url": "https://reddit.com/r/cscareerquestions/comments/298s48/advice_for_an_interview_for_goldman_sachs/",
+      "comments": [
+        {
+          "body": "[removed]",
+          "score": 2
+        },
+        {
+          "body": "So I had an offer from Goldman Sachs last semester for a summer internship that I ended up declining. (honestly I just wanted to be flown out to NYC for a few days) If you can't answer why you want to join Goldman then you probably shouldn't work there. The best answer is to just answer truthfully and sound genuinely interested.",
+          "score": 1
+        },
+        {
+          "body": "Say you love money; they'll understand that one.\n\nBut seriously, I had a similar problem of answering the same question.\nMy problem was that I was thinking about it too hard; trying to formulate the perfect answer.  It really helps to take a step back, and try to come up with a genuine answer.  Genuine answers resonate with people much better, and they can even hear it in your voice when you give one.\n\nDon't try too hard, and try to come up with an answer that you consider the truth.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Goldman Sachs Interview Process",
+      "body": "I applied to GS using a referral and they scheduled 4 telephonic interviews. After a month, they scheduled 4 more interviews. Now, it's been more than a month and I've been ghosted. Should I assume the worst? Anybody that went through the same thing?\n\nPS This was for a full time role.",
+      "subreddit": "cscareerquestions",
+      "score": 4,
+      "url": "https://reddit.com/r/cscareerquestions/comments/5zxuuj/goldman_sachs_interview_process/",
+      "comments": [
+        {
+          "body": "Hey, you should probably check their online portal for whether you've been rejected. I was rejected for the internship and they didn't even email me (after I'd done 2 steps of the process). ",
+          "score": 4
+        }
+      ]
+    },
+    {
+      "title": "New Grad - Accept Goldman Sachs Offer or Continue Interview Process with Other Companies?",
+      "body": "Hi everyone! Thank you so much for all of the career and degree help so far. I am graduating from a small liberal arts school in NE this upcoming May and I was fortunate enough to interview and receive a full-time offer as a Technology Analyst with Goldman Sachs in NY after I graduate. \nHowever, I am also in the middle of the interview process with some other companies and Goldman has given me 2 weeks to make a decision on their offer. \nThese other companies include Garmin and Cerner in Kansas City, Hudl in Omaha, and GE's SDLP in San Ramon, CA. \nI've only had 1 or 2 phone/skype interviews with Garmin, Cerner, and Hudl, and am just scheduling a first phone screen with GE.\nFirst of all, how do I tell the recruiters I'm working with at these other companies that I have an offer now? Do I tell them it's with Goldman and that I have a two week notice? \nSecondly, I have been rather exhausted with interviewing over the last couple months especially when I was studying for interviews with Google and Palantir (both rejected). Keeping this offer in mind, should I continue preparing and interviewing with these other companies or accept Goldman's offer and not worry about interviews for the time being? Is Goldman the best company of this group to start a career with as a young professional and a company that is good for long term career planning as well, with having them on my resume and such? Thank you all for your insight, it is greatly appreciated.",
+      "subreddit": "cscareerquestions",
+      "score": 6,
+      "url": "https://reddit.com/r/cscareerquestions/comments/2om345/new_grad_accept_goldman_sachs_offer_or_continue/",
+      "comments": [
+        {
+          "body": "First off, congratulations on getting the offer!\n\n\nSecondly, what you can do is tell Goldman that you've already scheduled an interview with a company and you'd like to stick to your obligations and see the process through. \n\n\nPersonally,  I'd accept the offer because who's to know if you'll get an offer from any of the companies you're waiting on.  Goldman is a great company,  I actually interviewed with them last week!  Wish you the best! \n",
+          "score": 5
+        },
+        {
+          "body": "Goldman Sachs is a top-notch company to have on the CV in the finance sector - you won't get better. If you want to stick with finance, take the offer. GS does have a reputation for getting their money's worth though - be prepared to work very hard. \n\nHaving said that, I wouldn't necessarily stop interviewing - it is not unheard of in finance for offers to be rescinded.",
+          "score": 2
+        },
+        {
+          "body": "Take the offer, then continue with the interviews you've already got lined up, and don't turn down any others between now and May. Seriously, backing out on an offer you've already accepted isn't the worst thing in the world. You need to look out for yourself and do what's best for you.",
+          "score": 3
+        },
+        {
+          "body": "I interned with BlackRock as  technology analyst, and having their name on my resume (although they're also a financial institution) really helped my chances when I was looking for a full time position. \n\nJust my two cents, but I'd go with Goldman Sachs. ",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "People who interned/ went super day on site interview with Goldman Sachs, what was the response time?",
+      "body": "People who interned/ went super day on site interview with Goldman Sachs, what was the response time?\n\nHow long did it take to hear back for acceptance or rejection?\n\nI heard they extend offers to some within few hours itself",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/3vu1xh/people_who_interned_went_super_day_on_site/",
+      "comments": [
+        {
+          "body": "[deleted]",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Skipping a job level when switching companies?",
+      "body": "Just curious how often this happens. I have a friend who worked at Goldman Sachs for 2 years after graduation as a junior dev. They were up for promotion but due to some RTO policy they decided to look for other jobs. They applied for mid-level dev roles and got interviewed for one at Spotify, but apparently they killed the interview and the recruiter was able to get them bumped up and hired as a Sr. SDE role. \n\nThis is pretty surprising to me since they’ve only been in a new grad SDE role before and are skipping straight to a senior role? Has anyone seen something like this happen before?",
+      "subreddit": "cscareerquestions",
+      "score": 3,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1llmxsu/skipping_a_job_level_when_switching_companies/",
+      "comments": [
+        {
+          "body": "It’s not uncommon for good people\nSkills to accelerate your career growth. However the question of if he can sustain his new position is up for debate. Maybe he’s cracked",
+          "score": 9
+        },
+        {
+          "body": "2 YOE and getting upleveled to senior is highly suspect and very uncommon. 2 YOE is still considered entry level at most FAANGs.",
+          "score": 13
+        },
+        {
+          "body": "There's 2 possible scenarios here in my opinion.\n\n1. Spotify's bar for a Senior SWE is genuinely around the 2 YOE mark, give or take a year or two. OP's not skipping a job level in this case, they're just getting their current abilities translated onto a different company's unique hierarchy. All companies treat titles differently. Some do toss the \"Senior\" word at people after only 2-3 YOE. Some don't even consider it until you're closer to 8 YOE. And a million other flavors. This works in the opposite direction too. Just because you're called a Senior SWE at Company A, doesn't mean you map to a Senior SWE at Company B. Titles are mostly meaningless because of this, it's the role you're doing that matters.\n2. Your friend did somehow skip *several* levels. I would argue most companies wouldn't even consider 2 YOE as mid-level, let alone Senior. So your friend went straight from entry level, blew past mid-level, and somehow landed in senior-level. Their success at Spotify in this case will be very sink or swim. Spotify is fully going to expect them to be performing at whatever level they consider their Seniors to be, so their peers could literally have 10+ YOE. If they succeed, they could have a great career at Spotify and make a lot of money and learn a ton. If they don't, they won't be lasting long.\n\nEven in the #2 case though, it shares the issue with #1. Just because Spotify decided to call you a Senior SWE at 2 YOE, doesn't mean the *next* company they apply to is going to consider them a Senior SWE. Imagine a scenario where with 4 YOE, 2 of which was as a Senior, your friend starts looking for a job, and is applying to exclusively Senior roles because they don't want to downlevel themselves. That could be an issue, it's a tough pill to swallow for a lot of people to take a title they view as below their current one.\n\nI would consider skipping that many levels in title unusual. Someone with only 2-3 YOE getting the roles/responsibilities of a tech lead, or a Senior, isn't that unusual, but actually being given the title isn't very common in my experience.",
+          "score": 3
+        },
+        {
+          "body": "&gt;This is pretty surprising to me since they’ve only been in a new grad SDE role before and are skipping straight to a senior role? Has anyone seen something like this happen before?\n  \nred flag, sounds like he's being hired as a PIP fodder to me\n  \n&gt;Just curious how often this happens\n  \nhappens all the time, especially common when a manager is required to PIP someone but doesn't wish to PIP anyone, so a new hire is brought in to satisfy the quota",
+          "score": 1
+        },
+        {
+          "body": "Your friend probably demonstrated technical depth and problem-solving skills during that Spotify interview that made them realize he could handle senior-level responsibilities right away.\n\nThe key factor here isn't just time served but actual capability demonstrated during the interview process. Companies are willing to take calculated risks on candidates who show they can think at a higher level, especially in today's competitive market where good engineers are hard to find. Your friend likely showcased architectural thinking, system design knowledge, or leadership potential that convinced Spotify they could skip the mid-level step entirely. If you're looking to make a similar jump yourself, focus on really nailing those technical interviews and showing you can think beyond just coding problems - [AI for interviews](http://interviews.chat) can help you practice handling those complex scenario questions that separate junior thinking from senior-level responses, and I'm actually part of the team that built it to help people navigate exactly these kinds of challenging interview situations.",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "title": "Daily Chat Thread - December 02, 2018",
+      "body": "Please use this thread to chat, have casual discussions, and ask casual questions. Moderation will be light, but don't be a jerk.\n\nThis thread is posted **every day at midnight PST**. Previous Daily Chat Threads can be found [here](https://www.reddit.com/r/cscareerquestions/search?q=Daily+Chat+Thread&amp;restrict_sr=on&amp;sort=new&amp;t=all).\n",
+      "subreddit": "cscareerquestions",
+      "score": 6,
+      "url": "https://reddit.com/r/cscareerquestions/comments/a2b9q9/daily_chat_thread_december_02_2018/",
+      "comments": [
+        {
+          "body": "what does an engineers mode of operation mean?",
+          "score": 0
+        },
+        {
+          "body": "Hi, so I’m getting quite nervous for my first on-site technical interview and wanted to know if anyone has experienced a process like this.\n\nSo I was told there would be a 2 hour tech interview where I meet with a couple of the developers &amp; I am to run through a coding task together with them. Don’t think there will be whiteboard coding as I did a telescreen interview with them that had me do whiteboard exercise on a screen share console.\n\nI’m just curious on whether others have done something similar &amp; if there are any tips like what questions are appropriate/not appropriate to ask. For example, if I’m unfamiliar with a concept, should I just let them know? or try to figure it out? or even ask if I could look up Javadocs or online?\n\nAppreciate any thoughts or input!",
+          "score": 1
+        },
+        {
+          "body": "Interviewing from December on is a hard game. You have finals but you also gotta schedule everything as early as possible so you don’t wake up to a “all spots have been filled email”.",
+          "score": 8
+        },
+        {
+          "body": "Have offers from PayPal in Scottsdale Arizona and Goldman Sachs in New York, Manhattan. PayPal are offering 120 total compensation with stock options and Goldman Sachs are offering 115 base +45 bonus. Which one to take? ",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Preparing for Goldman Sachs Asset &amp; Wealth Management Analyst Interview in Bengaluru - Advice Needed!",
+      "body": "Hello Reddit community,\n\nI've got an interview with Goldman Sachs for the Asset &amp; Wealth Management, Fixed Income, Platform Commitment Analyst position in Bengaluru. As a fresh candidate, I'd appreciate any advice on how to best prepare for this specific role. If there are any Goldman employees with insights into the interview process or potential questions, your help would be invaluable. Thanks a ton!",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/181zm1p/preparing_for_goldman_sachs_asset_wealth/",
+      "comments": []
+    },
+    {
+      "title": "Anyone here worked/interviewed for Goldman Sachs Salt Lake City office?",
+      "body": "Recently discovered that GS has an office in SLC. Trying to gather some information regarding GS and most of the stuff I can find here is for the NY office. Would love to hear from anyone with experience working in their Utah hub!\n\nThings I'm interested in specifically:\n\nInterview Process\n\nCompensation\n\nHome/work life balance\n\nPossible comparison with life at GS in NY?",
+      "subreddit": "cscareerquestions",
+      "score": 2,
+      "url": "https://reddit.com/r/cscareerquestions/comments/74c7ic/anyone_here_workedinterviewed_for_goldman_sachs/",
+      "comments": [
+        {
+          "body": "I worked at another tech firm in SLC and heard bad things about goldman. Demanding management, boring, less glamorous work compared to NYC. I wouldn't recommend it.",
+          "score": 1
+        },
+        {
+          "body": "I don't think they have engineers at the SLC office, correct me if I'm wrong but I heard its mostly operations etc. ",
+          "score": 1
+        },
+        {
+          "body": "I had some engineers from GS in SLC come recruit at my school. They both loved working there, said they had very good work/life balance (45 hrs/week normal). Compensation was basically NYC + COL adjustment, didn't get specific numbers. I applied for SLC but was moved through with Dallas. ",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Did anyone interviewed with Goldman Sachs technology in NYC office?",
+      "body": "Did anyone interviewed with Goldman Sachs technology in NYC office?\nWhat is the interview process like? are you accepting the offer if you received it?",
+      "subreddit": "cscareerquestions",
+      "score": 5,
+      "url": "https://reddit.com/r/cscareerquestions/comments/3u66d3/did_anyone_interviewed_with_goldman_sachs/",
+      "comments": [
+        {
+          "body": "I had a similar experience to /u/mathiverse but I was a junior at the time of interviewing, so I was asked some of those technical questions. I was asked design questions about one of my GitHub repos, asked to code a very simple question on paper, and grilled on CS concepts (what is a Turing Machine?, What does NP-Complete mean?, etc).\n\n",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Goldman Sachs Technology Interview",
+      "body": "Hey guys, I'm being flown to London tomorrow to have an interview with Goldman Sachs in the Technology division, just wondering if anyone has any tips for me in what I should look over and revise before going in and what they normally ask.\n\nThank you!",
+      "subreddit": "cscareerquestions",
+      "score": 2,
+      "url": "https://reddit.com/r/cscareerquestions/comments/3pe183/goldman_sachs_technology_interview/",
+      "comments": [
+        {
+          "body": "[deleted]",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "title": "Did anyone interview for Goldman Sachs on site?",
+      "body": "Did anyone interview for Goldman Sachs on site?\nHow was your interview experience?\n\nDo they ask highly technical questions based on resume?  Are data structures questions very difficult?",
+      "subreddit": "cscareerquestions",
+      "score": 1,
+      "url": "https://reddit.com/r/cscareerquestions/comments/3v6lk3/did_anyone_interview_for_goldman_sachs_on_site/",
+      "comments": [
+        {
+          "body": "A friend did. They - like any bank - are going to grill you on every security related topic that's relevant. Know your stuff and when in doubt do not try to fake an answer. If you aren't 100% confident then always state that's the case. Remember banks cannot afford screw ups with their tech team. ",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Need Help with Goldman Sachs HireVue Interview - Business Operations Analyst",
+      "body": "Hey everyone,\n\nI received a HireVue interview invitation from Goldman Sachs on June 4 at 11 am. They mentioned I have 3 business days to complete it. Does that mean I have until Thursday at 11 am or Friday?\n\nThe interview is supposed to be 20-30 minutes long. How many questions can I expect in that time frame, and how significant is this interview in the overall hiring process? It's an entry-level role, so I'm curious about how many rounds I can expect if I clear this one.\n\nI'm also really anxious about the interview, especially concerning the types of questions they might ask. The position I applied for is a Business Operations Analyst (entry-level). Can anyone share insights on the kind of technical or behavioral questions that might come up? Any tips or advice would be greatly appreciated!\n\nThanks in advance!",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/1d970kz/need_help_with_goldman_sachs_hirevue_interview/",
+      "comments": [
+        {
+          "body": "Hi! I’m currently interviewing for an Operational Analyst position at Goldman Sachs and have a Zoom call coming up. How was your experience interviewing for this role? What kind of questions did they ask, and did it involve any case studies or technical exercises? Would love any insights—thanks!",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Goldman sachs interview",
+      "body": "Has anyone interviewed with them?  From what I read, they can be quite difficult.",
+      "subreddit": "jobs",
+      "score": 4,
+      "url": "https://reddit.com/r/jobs/comments/2b41yl/goldman_sachs_interview/",
+      "comments": [
+        {
+          "body": "No, I've never interviewed with Satan.",
+          "score": 4
+        },
+        {
+          "body": "I heard that if you work for the Goldman sachs it's automatically assumed that you're a well established and highly successful person, is this true?",
+          "score": 1
+        },
+        {
+          "body": "yes i've interviewed with them for sales &amp; trading positions.\n\nwhat position is your interview for? i can walk you through what my interview was like... but that was for a job that would have been my first out of college. ",
+          "score": 1
+        },
+        {
+          "body": "just that you're being considered is an ego boost",
+          "score": 1
+        },
+        {
+          "body": "What division is it in? Before leaving for grad school I had a front-office job at a bank like this and remember both interviewing for the job and subsequently interviewing people on the other side. Personalities can vary a lot between groups even in the front office. My job was super technical/mathy so I got lots of technical kind of questions and puzzles; the less technical the job is the more \"fit\" kind of questions you'll get. \n\nIn general all the normal interviewing tips apply: smile, be friendly, be relaxed, make eye contact. They'll try to throw you off and see how you react. Nobody wants to work with someone who freaks out under pressure so you just need to be calm and take criticism well. If they ask you a question you can't figure out, just talk through it, show them you're thinking about it, and don't feel bad if you have to say \"I'm not sure\" or \"Could you give me a hint\" after thinking about it for a little while. I remember having an interview where they asked me some tricky math problem that I couldn't figure out all the way on the spot, after the interview I figured it out and I emailed the interviewer, who reacted positively.\n\nIt would help to know what division/group this is in, and feel free to PM me if you have questions that are more personal that I could answer.\n\nEdit: I saw what division you're interviewing for. I can probably help you, send me a PM.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "So, I got an interview with Goldman Sachs...",
+      "body": "http://i.imgur.com/Mrv7wEH.png",
+      "subreddit": "jobs",
+      "score": 3,
+      "url": "https://reddit.com/r/jobs/comments/1lti6w/so_i_got_an_interview_with_goldman_sachs/",
+      "comments": [
+        {
+          "body": "Dear Candidate,\n\nWe would like you to submit payment via Western Union for your interview in the sum of $500.00 payable to Mr. Amber to her address in Lagos, Nigeria. \n\nRegards,\nScammer",
+          "score": 16
+        },
+        {
+          "body": "Found this on a quick Google search:\n\n&gt; I was contacted to work from home for Goldman Sachs company. I went through an interview, filled out a hiring form. They contacted my references. They informed me I got the job and that there were certain software I needed to have to complete my job. They would be sending me a check, I would deposit it into my account then I would send the money to the vendor they do business with. I received the check on Friday, Nov 4th &amp; deposited it into our account. The check was available on Tuesday, Nov 8th. I received directions to western union the money to the vendor contact, that information was emailed to me. If I was able to get the money sent that Tuesday I would have the software that week so I could start my new position next Monday. I sent the western union to the contact that Tuesday afternoon. I was informed on Thursday by the back that the check had bounced. I tried contacting the 2 people I have been in contact with, they said they would need to check with the accounting department and I have never heard anything back. I tried to cancel the western union payments but they were already picked up. I contacted the fraud department of western union and filed a police report with my local police department on Monday, Nov14th. They informed me that there wasn't anything they were able to do.",
+          "score": 7
+        },
+        {
+          "body": "Goldman Sachs using gmail for their HR Department. One would say they'd have enough money to get their own domain at least :P",
+          "score": 6
+        },
+        {
+          "body": "Is this authentic? It is missing some punctuation. They want to interview you on Yahoo messenger? That seems a little strange. You might want to be careful if they ask you for personal information.",
+          "score": 1
+        },
+        {
+          "body": "do it and see what happens",
+          "score": 1
+        },
+        {
+          "body": "Jokes aside, does anyone know what these scammer/spammers get out of this? What do they try to do after you go on yahoo messenger with them?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "I have 2 phone interviews for a \"new analyst\" position in finance at Goldman Sachs next week. What can I expect and how should I prepare? Any tips? Thanks ahead of time!",
+      "body": "All the information is in the title of the post! Thanks for any help I can get from Reddit.",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/112c67/i_have_2_phone_interviews_for_a_new_analyst/",
+      "comments": [
+        {
+          "body": "[deleted]",
+          "score": 2
+        },
+        {
+          "body": "I know a few people who work at Goldman Sachs and they all told me HR likes to throw people off with random questions. That will most likely happen with a face to face interview. But usually a phone interview consists of your resume and background.",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "[INDIA] How did you land your Investment Banking job/internship? Looking for insights from people already in the field",
+      "body": "Hi everyone,\nI’m currently exploring a career in Investment Banking in India, and I’d love to hear directly from professionals already working in the industry.\n\nIf you’re in IB or have interned at a top firm (JP Morgan, Goldman Sachs, Kotak, Avendus, etc.), your journey could really help many of us trying to break in.\n\nHere’s what I’d love to learn from your experience:\n\n1. How did you land your internship or first job in Investment Banking?\n\nWas it through campus placement, networking, cold emailing, or referrals?\n\n\n\n2. What were the key courses or certifications that helped you?\n\nCFA, MBA, CFI, IIM/ISB, or any niche online programs?\n\n\n\n3. What did you prepare for your interviews?\n\nAny specific technical skills, pitchbook work, valuation models, or market trends?\n\n\n\n4. What’s the typical pay structure like (base + bonus) and how are the working hours?\n\nHow manageable is the work-life balance, honestly?\n\n\n\n5. If you could go back, what would you do differently to get into IB faster or better?\n\n\n\nFeel free to share anything that would help someone new—books, mistakes to avoid, must-have skills, etc.\n\nI’m especially looking for advice tailored to Indian candidates—whether you broke in from a top B-school, engineering college, or non-target background.\n\nThanks in advance for taking the time to help. Your insights can make a real difference for many of us!",
+      "subreddit": "jobs",
+      "score": 5,
+      "url": "https://reddit.com/r/jobs/comments/1kmtr8j/india_how_did_you_land_your_investment_banking/",
+      "comments": [
+        {
+          "body": "Reach",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Goldman Sachs - Trade and Transaction Management",
+      "body": "Applied to the Trade and Transaction management position with GS and was wondering if we have professionals in this community who currently has or had experience in this division. Not sure if I will receive a response to interview or get rejected but thought I would post for some tips and the day to day. From what I am understanding from the position itself is in operations and you basically support the traders watching trading activity? Am I correct?\n\nLook forward to hearing you all. Thanks!",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/1hve7eh/goldman_sachs_trade_and_transaction_management/",
+      "comments": []
+    },
+    {
+      "title": "Should I take a temp job at Goldman Sachs instead of a perm one at a different firm?",
+      "body": "Please do not eat me for this, I know how it sounds!\n\nLong story short, I have been interviewing for various positions and after 8 months of unemployment, I finally heard back from an employer I really want to work with, remote, small entertainment law firm (which is related to what I truly want to do), the founder is who I'm working with primarily, and we're already talking about things she needs from me in the summer as an Office Manager, which makes me thing they want me there in the long run. However, I am currently on the 4th round of interviews with Goldman Sachs as an Admin but it's a temp job, every day on site and there's a 50/50 chance it will turn to perm after 5 months. I haven't gotten the job yet but from my feedback, it's looking good. My issue at the moment is that after all of this time, I would hate to have to interview and start the whole job search process again in 5 months and Goldman has been dragging the whole interview process as I've been interviewing since October, but I need a job like now. They told me in October they needed to hire immediately and here I am still waiting for 4th round of interviews. My question is, would it be stupid of me to pass on the Goldman Sachs position (if I get it) as it would look a lot better on my resume? What are the chances having a big name would help me in this shitty job market, considering people who have so much experience are barely getting responses? Truly what I need right now is stability. I am sick and tired of interviewing and the job I just accepted at the smaller firm is definitely a more long-term job. Also, usually, big corporations do layoffs a lot more often, which I can no longer afford nor have the patience to go through again. \n\nAnyway, please don't call me an idiot or whatever it is because this is genuinely coming from someone who is tired of being unemployed and would not like to know that there's a possibility that that could happen in 5 months. \n\nhelp\n\n&amp;#x200B;\n\n&amp;#x200B;",
+      "subreddit": "jobs",
+      "score": 3,
+      "url": "https://reddit.com/r/jobs/comments/18clh6o/should_i_take_a_temp_job_at_goldman_sachs_instead/",
+      "comments": [
+        {
+          "body": "Curious to hear what you ended up doing. I was a Goldman temp for just over a year. Originally on a 6 month contract with plans to go permanent. Due to cutbacks they let me go (while pregnant) even though I kept being told a full time position was happening.",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "How Do I Dive into Finance, Like Analysis, Derivatives, Risk Assessment, and More, Even Though I Didn't Get Super Involved in B.Com and Spent a Year Unemployed",
+      "body": "REPOST:  \n(**SKIP TO THE POINTERS** if you dont want to get bored with details)\n\nHello! I'm a 21-year-old male with a strong interest in finance. It's been almost a year since I graduated with a [B.Com](http://b.com/)\n\n degree, and I'm actively seeking employment opportunities. Despite applying for internships, I haven't been able to secure any paid positions or reputable finance internships, except for those from questionable companies that require payment for unpaid roles.\n\nDuring this past year, I also attempted some competitive exams for government jobs, but unfortunately, I didn't succeed. These exams were notably challenging compared to others.\n\nAs I reassess my goals for the upcoming year, I'm determined to establish a successful career in finance. Here are the key points I'm seeking advice on:\n\n1. **Courses/Certifications**: Which ***pocket-friendly*** courses or certifications can I pursue within the ***next 6 months*** to enhance my skills and secure finance internships with reputable companies like ***J.P. Morgan, Goldman Sachs, KPMG, Deloitte, Kotak Mahindra Finance,*** etc.?\n2. **LinkedIn Profile Enhancement**: With no work experience or additional certifications beyond my bachelor's degree, how can I improve [my linkedin profile](http://www.linkedin.com/in/saubhik-ray-2003a3002b3d) to attract potential employers?\n3. **Project Development**: Given my basic proficiency in Excel and financial modeling, how can I develop live projects to showcase during interviews?\n4. **Explaining Employment Gap**: During interviews, how can I effectively explain my one-year gap without appearing unmotivated or lazy?\n\nI would greatly appreciate any **additional advice** from individuals who started their careers in entry-level finance positions as freshers (without many certifications and without campus placement) and have since advanced to esteemed positions within their respective companies.",
+      "subreddit": "jobs",
+      "score": 2,
+      "url": "https://reddit.com/r/jobs/comments/1ccnghw/how_do_i_dive_into_finance_like_analysis/",
+      "comments": []
+    },
+    {
+      "title": "How fucked am I?",
+      "body": "I'd like to give a little background on my life and why I'm in the position I'm in now.\n\nI attended a mid-range 4-year college and graduated with a degree in finance quite a number of years ago, circa 2006 (Magna Cum Laude / 3.7 GPA). After graduating I started my own business with the help of my father and started doing exactly what he did. I sold residential home improvements, windows, roofing, siding, etc, and I specialized in getting financing for customers with damaged credit. I chose to do this because my father was making incredible money during the subprime boom; and because most of the competition focused on cash or good credit deals, there was a significant opportunity. In the first month of operating/advertising I made approximately $12,000 and rented a luxury apartment, bought a $23,000 car, nice furniture, a HDTV, etc.\n\nUltimately I had plans to finance my own deals and capture more of the profit, because the subprime finance companies would essentially 'chop' the deals upon completion, meaning if I sold $10,000 worth of improvements they would send me a check for about $8,000 upon completion (a 20% chop), which they would then resell to investors and banks to capture a profit for themselves. There were other companies that would chop more that I never used, so I was basically limited to this single firm.\n\nAt this point in my story you can probably guess where this is leading and it's obviously not good. As consumer confidence fell in early 2008 I was shocked at the plunge in interest among my lower income customer base, which lead me to throw more money at advertising which depleted my cash reserves significantly. Then the financial crisis happened and the market for reselling subprime debt instruments essentially collapsed completely, effectively putting me out of business.\n\nI lost everything, my car, my savings, my downsized apartment that I moved into when business first started to decline, my credit cards. I think at the low my credit score was maybe a 475-525. I was in exactly the same position that many of my customers had been in which was an extremely humbling experience. Some might say I deserved it for participating in the subprime business, but what's done is done. I can't change the past. I however think the crooks on Wall Street at places like Goldman Sachs are worse, but I digress.\n\nI was forced to move home, and very quickly my parents were forced to sell their 5500 sq ft house in a weak housing market, but at least they had some equity to pull out of it. We then moved into a much smaller house and that is where we are today. At one time I did try applying for jobs in 2009 and 2010, but I essentially gave up because no one was interested in interviewing me. This lead me to seek alternative forms of employment.\n\nBy chance I happened upon an ad on craigslist and found a firm that was hiring independent contractors to find bars, restaurants, clubs, and other establishments that are illegally showing certain television programming, such as NFL Sunday Ticket, because businesses have to pay a corporate rate. This actually started out as a type of scammy, high turnover rate, high failure rate, business that I turned into being at least somewhat lucrative, purely due to my own determination and desperation. I scoured the entire United States for these establishments and used creative techniques to find them, rather than simply only working locally, which quickly extinguished the number of available establishments to bust. But my own success ultimately lead to my failure, as this was a diminishing returns business model. Each year I made less and less and it became harder and harder to find places.\n\nFast forward to today and I'm essentially unemployed again, but I do have some cash at least this time. My credit has slightly improved from the low 500's to the low 600's. My sister is having difficulty finding a job that I wouldn't even do, which makes me very pessimistic about my prospects. My chances of getting a job may have improved today, but I am skeptical for a number of reasons. I still have bad credit (I know employers check this, especially in the Finance industry), I have no verifiable work history of employment, and I possess no specialized skills that are easily transferable. What I did learn in school is largely forgotten at this point since it hasn't been used in so long.\n\nMy friends (all making about $150,000 at cushy corporate jobs) give me a lot of shit for living with my parents still and not searching for a 'real' job, but they don't have my problems, and I'm not working for less than $12/hour, period. I've never even interviewed for a job before and I'm about 30 years old. I haven't even been on a date in years because I doubt any decent woman would be interested in someone like me.\n\n**TL;DR I started my own business after college, busted out, worked as an independent contractor in a marginal/declining business, and now I think I'm just fucked for life.**\n\nI think I just needed someone to read this, so thanks.",
+      "subreddit": "jobs",
+      "score": 2,
+      "url": "https://reddit.com/r/jobs/comments/2rzfxu/how_fucked_am_i/",
+      "comments": [
+        {
+          "body": "[deleted]",
+          "score": 29
+        },
+        {
+          "body": "&gt;My friends (all making about $150,000 at cushy corporate jobs) give me a lot of shit for living with my parents still and not searching for a 'real' job\n\nThese friends of yours sound like fucking arseholes.\n\n&gt;I'm not working for less than $12/hour, period.\n\nSwallow your pride and don't make such blanket statements.\n\nHaving seen your other post elsewhere, I think you need to re-evaluate what is best for you, not what you think you ought to be doing. 'Fucked for life' only applies if you think being 'fucked' is doing a job that pays low, and maybe no longer keeping up with your wealthy friends.\n\nIn all honesty, doesn't sound like you're losing much. Sounds like you're finally entering the real world instead of trying to follow in the steps of your dad. Your previous job has evidently made you somewhat narrow-minded. It's gone. You have more to offer the world than some hyper-capitalist job. Join the rest of us plebians, and see life for what it is really is.",
+          "score": 5
+        },
+        {
+          "body": "I don't really understand what you were doing for your first job.  In any case, that was 6 years ago and any relevant skills are probably rusty.  \n\nWith respect to your second job, it sounds like you were an undercover investigator.  You happened to investigate IP infringement and that business dried up.  Why do you assume that you have no skills or job history?  Assuming that what you did was legal, documented and above-board, then your job history is exactly what you described.  Surely there are people who worked with you or document trails that could verify this if necessary.\n\nave you considered looking into whether your skills could transfer into a related field like insurance fraud investigation?  I don't know exactly what you did, but that doesn't seem too far removed from what you are describing.\n\nHave you also considered applying to a good MBA program?  You had decent grades in undergrad.  That route is certainly risky and involves taking on significant debt, but it could possibly help you pivot into a corporate role.\n\nIn summary, you need to take an honest assessment of what your skills and opportunities are.  I bet that you will be pleasantly surprised to learn that you actually have some useful and marketable skills.  You probably won't make $150k a year, but it isn't a competition.  You just need to do the best that you can with the resources *you* have right now.",
+          "score": 4
+        },
+        {
+          "body": "[deleted]",
+          "score": 24
+        },
+        {
+          "body": "I don't think you're f'd at all:  you're very resourceful. \n\nHowever, your resume is going to look like crap, so answering want ads and job postings is probably going to the worst thing you can do.  \n\nIf you can work hard to establish some key relationships with people who you trust, ideally they'd vouch you for regardless of your inconsistent past and convince somebody to interview you.\n\nThere's clearly money to be made in call centers.   Hell, showing up on time will make you better than 90% of the others there.\n\nTL;DR:  A checkered job history will require you to look for work differently",
+          "score": 9
+        },
+        {
+          "body": "Yup - You're pretty fucked.",
+          "score": 2
+        },
+        {
+          "body": "Shitty situation but that's life.  Get your ass employed ASAP.  The way back to a decent paying job starts with a job.  Find an employment agency that does medical/accounting/skilled clerical and get a temp position there.  It will be less than 12/hr but that's better than 0/hr and no experience or references.  So get your resume all fluffed up, take out your higher education and shady work, make it all about clerical accounting or medical billing (like an AR rep).  This will give the employment agency info on skills you have that can mesh with the entry level temp-to-hire positions they have.  \nYou desperately need experience and starting low will give you what you need.  The days of getting a decent paying job just with a degree aren't here (I doubt they ever existed) so get a job and start moving forward.  In a few months time you can get a higher paying job with benefits and start working towards the ever exclusive corporate job so you can work for the man like a slave only to be laid off when they need a profitable quarter (kidding - kinda).  \nGood luck and get a fucking job - girls don't care if you make 150k a year and suck your companies ass every Friday.  They just want to know you can make it happen and stay steady when times are tough.  ",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Anyone have any experience with Goldman Sachs technical interviews?",
+      "body": "Gonna be interviewing with GS soon, and was curious about their on-site technical interview. Anyone have any experience or tips?",
+      "subreddit": "jobs",
+      "score": 2,
+      "url": "https://reddit.com/r/jobs/comments/g1owh/anyone_have_any_experience_with_goldman_sachs/",
+      "comments": [
+        {
+          "body": "wallstreetoasis.com has a great technical interview guide. I think I have it in my email somewhere, I'll double check.\n\nEDIT: Cant upload to imgur, its a pdf (perhaps its too big?). Anyone else know of a good site to post it too?\n",
+          "score": 2
+        },
+        {
+          "body": "What sort of job are you interviewing for? How much experience do you have? I interviewed for a software job there three and a half years ago, while I was finishing up my undergrad. Is that relevant to you?",
+          "score": 1
+        },
+        {
+          "body": "Are you fucking kidding me man? You're a sellout. Anyone who works for GS is my enemy. The tech sector is fine, find another place to work.",
+          "score": -3
+        }
+      ]
+    },
+    {
+      "title": "Sharing a complete IB/PE roadmap and resources list to help anyone trying to break in.",
+      "body": "Hey Reddit,\n\nAfter weeks of putting this together, I’m sharing a free, structured roadmap packed with the best resources to help you crack IB/PE interviews. It’s non-gated and built to deliver real value—these are materials I’ve tested and used myself.\n\nWhat’s included?\n\nAptitude Prep: GMAT-inspired resources to sharpen finance test skills.\n\nValuation &amp; Investment Analysis: Key books and tools to master concepts.\n\nExcel &amp; PPT Skills: Top Excel tools + investment-banking style slide formats.\n\nFinancial Modeling: DCF, LBO, M&amp;A, and 3-statement modeling templates.\n\nEconomic Analysis: Bulge bracket bank reports to sharpen market insights.\n\nInterview Prep: Technical + behavioral prep to ace interviews.\n\nReal-Life Decks: M&amp;A pitch books from Goldman Sachs, Lazard, Moelis &amp; others.\n\n\nWork through this consistently for 3-4 months, and you’ll develop the same technical skills as a first-year analyst—minus the experience (that comes with time!).\n\nSharing this as a free giveaway because it worked for me to crack Private Equity myself, and I hope it helps someone here too. Drop your mail in the comments, and I’ll send the link over.\n\nLet’s also keep this collaborative: if you’ve got resources you swear by, share them below so we can all level up together.\n\nBy me and my team at financeprep.io\n",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/1hgcsfx/sharing_a_complete_ibpe_roadmap_and_resources/",
+      "comments": [
+        {
+          "body": "I just enrolled in Wall Street Prep and thought you might like their courses. Use my personal link to get 15 Percent off: http://rwrd.io/rmko5v9?e",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Is it ok to circumvent hiring team? See post for details",
+      "body": "I was talking to a colleague yesterday.  She said that her kids have gotten ridiculous jobs at Goldman Sachs etc by messaging lead executives on LinkedIn and askihg them to discuss certain jobs.  The idea is to get in their ear and let them know how close of a match you are.  It circumvents all the recruiting team.and HR games with favoring internal people or not selecting people who are perfect candidates for whatever reason.\n\nI did this yesterday to try it out.  Ill let you know how it goes.  Im just feeling very depresssed bc I was recently turned down for jobs that I am perfect for (19 years experience) without even an interview.  It makes no sense.  I feel like the only way to address this is to get in front of people so they understand what they might be missing.  Thoughts?  Anyone else doing this?  Main concern is that someone gets annoyed (why am I being bothered)?",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/1ga9owk/is_it_ok_to_circumvent_hiring_team_see_post_for/",
+      "comments": [
+        {
+          "body": "Yes",
+          "score": 1
+        },
+        {
+          "body": "Might as well try, the worst is if they say no or ignore you. Then you’re in the same position as you currently are anyway.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "I'm a hiring manager at a well-known non-profit, with lots of strong opinions about applications and the job search. Ask me about it!",
+      "body": "I did an AMA a while ago, but I don't really want to answer questions about my penis size again. I'm happy, though, to answer any questions about the hiring process!\n\nPlease take my answers with a grain of salt, because every organization and business is different and looks for different things.\n\nOff the bat, let me say that I see there being two main ways to market yourself to a potential employer: you can market your expertise in some particular skill or area of knowledge, OR you can market your individualism and personality.\n\nYou can try to market both personality AND expertise, but your résumé's only a page long and effectively making both of those come across in such a tight space is really, really difficult.\n\nInstead, pick one, and commit to it like there's no tomorrow.\n\nIf you're applying to a job where you're going to be doing pretty mindless number-crunching all day, then the employer is going to want to see expertise over personality. If you have a BA in Accounting, really flesh out all the stuff you studied, and any practical experience you might have had. This isn't the place to say you were the star of your college's performance of 'Evita'. DO include a few things that paint an image of you as a human rather than a robot, but limit it to a line or two of \"hobbies/interests\" at the very bottom of your résumé.\n\nOn the other hand, it seems the vast majority of people on Reddit are 20-somethings who are fresh out of school. Odds are you've had a couple jobs here or there, took some relevant coursework, and were in a few clubs. (If you've already published a novel and you revolutionized Goldman Sachs' finance department while you were an intern there, then you probably don't need to be reading this because you already do what I'm talking about.)\n\nDo NOT take the approach I see in 75% of the hundreds of applications I read every month and try to make your position as Publicity Chair of Alpha Beta Gamma or your summer job as stockboy in Walmart sound like something more than it was. \n\nYou were NOT an Inventory Management Specialist; you were a stockboy. I was hired to this position in hiring because I sniff out bullshit like an Irish setter, just like every other hiring manager in the world. There is no shame in saying you were a stockboy. There IS shame in trying to disguise that fact, because it's basically lying to me.\n\nSo what the hell are you supposed to do?\n\nMy sister's an actress. Casting directors, like hiring managers, get those jobs because they're great at sniffing out bullshit. Most people when they go into an audition try to anticipate what the director wants. They think, \"OK, they're looking for someone funny, but not TOO funny, and someone whose voice sounds like this,\" and so on. Basically, they're trying to read the casting director's mind.\n\nThe problem here is that the casting director is human. This means a three things: \nFirst, they're looking at hundreds of auditionees that day most of whom are trying to be mind-readers and who are probably all going to assume more-or-less the same things — with the result that they'll all look exactly the same. \nSecond, the director probably has a vague idea of what they're looking for, but they won't really know it until they see it. \nThird, the director really does NOT enjoy sitting through hundreds of auditions. They want the first person who walks across that stage to be IT. Second-best would be for every person auditioning to be at least be an easy \"yes\" or \"no\".\n\nWhen you're auditioning — as with when you're applying to any job — don't assume you know who the director wants. You don't. Instead, think about who you already are. Think about a specific personality trait or style that is quintessentially You, and then just commit to that personality or style 100%.\n\nGet a piece of paper or sit and stare at a wall and marinate in these two questions, until you get answers that are as specific as possible:\n\n1) What are you doing when you're most \"in the zone\"? What activity is the easiest for you to get lost in? \"Looking at cats on Reddit\" is a perfectly acceptable answer.\n\n2) What are the things you're mildly \"obsessive compulsive\" about? For example, I HATE having unread e-mails and I HATE being around people who are giving each other the silent treatment, and I'm going to get really frustrated and anxious and worry about all that until I've done something about it.\n\nThen, look for patterns in your answers. What you're going for are the behaviors that are most fundamentally and sustainably You.\n\nWorking for a non-profit, I see lots of people who \"just want to give back to the world.\" That's very nice, but the reality is we're far more sustainably motivated by the things we DON'T like than by the things we DO like. You might really care about ending child poverty now, but your interests will probably change in the next year or two. However, if the concept of child poverty just drives you crazy to the point that you lie awake at night and worry about it and just want to solve it so you can get a good night's sleep — THAT would be appealing to me.\n\nWhen you're writing your résumé, think about the things that you just don't have a choice but to do or to be because they're fundamentally who you are. They might not seem like strengths, but they're a tremendous asset in that those are most likely to be constant sources of energy. The things that drive you crazy now, or in which you can lose yourself now, will probably stay the same for a big part of the rest of your life.\n\nAs an employer, I want to see that. I don't want you to walk in wearing a banana costume — unless tense situations are one of the things that drive you crazy and you'll do anything to dispel them. If I'm looking for a technical editor, then sure, I might not hire you for the job — but I'll DEFINITELY, definitely remember you and feel much more of a connection to you, and since you showed me a clear picture of who you are — instead of a fuzzy picture of what you think I want — if I'm aware of something else that might match your style I'll be far more likely to refer you to it.\n\nAt any rate, I'm rambling.\n\nTL;DR: You don't know how I think. So figure out how you think and commit to it 300%.\n\nAsk away!",
+      "subreddit": "jobs",
+      "score": 29,
+      "url": "https://reddit.com/r/jobs/comments/uwhxz/im_a_hiring_manager_at_a_wellknown_nonprofit_with/",
+      "comments": [
+        {
+          "body": "&gt;Commit to it 300%\n\nConfirmed this is human resources.\n",
+          "score": 13
+        },
+        {
+          "body": "I worked at a position for only 2 months before being let go. Is it even worth putting it on my resume?\n\nAlso, can you easily spot a BS cover letter from a heartfelt one.",
+          "score": 4
+        },
+        {
+          "body": "Everyone I have ever spoken to has told me the opposite of what you recommend when writing a resume. I was told to NEVER include hobbies. Also, all of my descriptions have more than two bullet points. I do have a relevant coursework section, but I've never really been sure how many to list or how to list them. \n\nThat being said, I would really like to get into non-profit work and believe most of the advice I've been given is more geared towards the private sector. And so far that advice has only gotten me stuck in a job I hate that is completely unrelated to what I want to do. If I PM'ed you my resume, would you be willing to look over it? I'm a recent college graduate working in a field completely outside of my desired career path and am desperate to work my way towards either government or non-profit work. \n\nEDIT: Also, are you involved in the hiring for A*Year at your organization (if my internet research found the correct non-profit)? It sounds like something I might be interested in and would love more information about how I could improve my candidacy!",
+          "score": 6
+        },
+        {
+          "body": "Great tips, thanks! I just have a few questions as to how you frame a \"personal\" resume writing style over an expertise one. I'm in marketing looking for a full-time job and am primarily trying to sell my personality and diverse experience. What kind of approach should I go with that?\n\nAnd here's a blurb from my resume as an example of how I frame it now: \"Expanded marketing strategy to new resources such as info graphic creation, social media channels such as Pinterest and refreshing copy on the websites and flyers\"\n\nWould you recommend me changing that more towards having a forward personality with those examples or just explaining what I did?",
+          "score": 3
+        },
+        {
+          "body": "We've actually had a really awesome and deep discussion about employee selection a long while back. Both of us recognize that there is a huge resistance to well-validated hiring methods, and most employers just rely on whatever \"seem to work\" for their organization. \n\nRelated to that, you and I have both read any and all job advice blogs and books and reddit posts available anywhere. They all claim to be the ultimate guide to getting a job, and yet they all conflict with one another on some level (heck, it even happened here with listing your hobbies on the resume). Plus, it's very apparent that employers are still VERY frustrated at candidates making the same mistakes (i.e. interview outfit, manner of presentation, resume and cover letter formats, etc.), even though that these facets are addressed in almost any job-hunt advice out here.\n\nMy question is this: Do employers really think job candidates are that moronic, that they have to repeat the same advice over and over again? Or, why doesn't this click with the employers that there is something inherently wrong with the hiring procedures and try to fix it, rather than placing all the blame on the candidates?",
+          "score": 3
+        },
+        {
+          "body": "Graduated last year as an accountant with minor in programming. \n\nCurrently I'm a substitute teacher.\n \nI have for the last year seen great potential in overseas agricultural related business and would like to get into it. I have studied and done personal profiles/presentations of certain sectors of the agricultural industry, citations and everything. For instance, I can tell you everything there is to know about international trading and processing of rice. But still no professional experience. \n\nTo get into this I want to start off working for a nonprofit that conducts research on agriculture so that I can study more about the dynamic of certain specific produces. \n\nMy jobs and my major have absolutely nothing to do with each other and my interest is completely unrelated to what I have experience with. But I am adamant in pursuing this industry and wanted to know how I should approach a resume or email towards an international nonprofit organization. ",
+          "score": 2
+        },
+        {
+          "body": "[removed]",
+          "score": 2
+        },
+        {
+          "body": "[deleted]",
+          "score": 2
+        },
+        {
+          "body": "Generally if I can get the interview I can land the job; getting the interview is the problem. Can you provide any tips on getting through the automated resume filters and landing that first interview? If it makes any difference, my field is mechanical / aerospace engineering and I'm in my mid 20's.",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Are you paranoid after the trauma of a bad job, bad luck, underemployment, etc?",
+      "body": "sorry for length, spooling vent below. \n\n\nI was laid off in August and I'm a few weeks into a *terrible* job with a massive paycut for the \"training period\" - I have my \"touchbase\" with HR in January. It's remote. I'm dreading it. I've grown to hate HR people - the middleman that will give me bad news, that's what I'm imagining. No offense to HR people of this sub, but from this, HR generally seems to exist to immiserate employees and enable the company in disposing of them and making them unhappy, in addition to justifying its existence by sourcing candidates, giving desperate people like me false hope, and then dismissing them in the candidate search. \n\nToday I had to do tasks for end-of-month alone and just...my manager goes on vacation tomorrow, it's right before Christmas...he didn't even zoom call me today. I worked without feedback the whole fuckin' day, for a very important task. I painstakingly went through it and every time I asked questions he just seemed frustrated. I know he had other stuff to do, *but if you're going to fire for fucking something up*, I could benefit from clear direction. Even before a holiday. \n\n\nI feel *unbearably* paranoid after being laid off and exposed to an otherwise very nice person's grouchy side by end of day. It's been six weeks and he's clearly frustrated, even if a task is new. There's no way to talk about it either. It's like telling a great white shark you're afraid they're going to eat you - planting the idea by stating the obvious. \n\nI'm going to say it - companies seem more adversarial than ever to their employees. I guess I'm used to it, but not quite like this, this continuously. Every time I start a new job, it really does seem worse. Something changed with lockdown too. I see the posts from people that talk about starting new jobs after a devastating layoff months before, only to be fired again; and there's no way to assess it, especially if you're the sort of person managers just don't value or like. \n\nIf you lack the certifications, software skills and smarts as a retiring, unappealing, quiet person, the only way to survive is through more and more hard skills, with each vice. I lack them. I have soft skills, but probably look and come off like a \"stereotypical STEM\" personality...yet none of the skills that excuse that. It's a bad combo. (This doesn't mean I don't make small talk but I don't want to talk about my personal life anymore...during the workday, I'm just tired. I just want to work.)\n\nI have lived my life around unemployment and the continuous fear of being fired (partially related to years of being relegated to temping agencies). \n\nThis job is baldly exploitative and pays as much as a temp job after the summer layoff. It's actually somewhat difficult sales support work but they're paying near minimum wage in my state. It just makes me fucking furious and ashamed of all the interviews in the last two years for jobs that still paid 20% lower than my previous salary that rejected me, after decent-seeming interviews and when I fit the bill for experience. \n\nI'm already in tears at least once a week and furiously angry at the lack of feedback because I think I'm trying pretty hard, but the silence seems like frustration - for asking too many questions to seem like I'm ready to work/absorbing the routine, to not fuck up...all of it. And anxiety makes doing simple tasks seem torturous, because of course, little mistakes become a big deal too. *My previous laying off manager has fucking destroyed my ability to be comfortable in a new job*, as insult laid upon injury. When I think of the big, nasty smile on his face when I was dropping off company property, I want to strangle him. \n\nIt creates a negative feedback loop that makes getting through the workday hard on that count too: I reflect that I have never worked in a job when I didn't feel like the stupidest person in an office (and probably am), unlike other people. It comes easily with doing administrative work, as admin/general office work is either limited to very bubbly, high energy, and/or senior people and then a tech team, a finance team, etc. and, yeah, maybe being stupid. I've never been important enough to train closely or valued closely. And learning the task of every new job seems harder and harder. Not just because it's like learning to read again - with each year I'm alive, after bad experiences, every day is filled with *paranoia* of incoming firing. The stress. The trauma. Fuck me, I wish I could win the lottery just to not experience what this is doing to me physically, what the expectation to go to office has done my whole life. To not go through the humiliation of interviewing and sending agonized-over \"thank you notes\" quickly followed by the slap in the face of a rejection 2 hours later (happened today after a decent seeming first round with a nice outgoing retiree).  \n\nI should be an excel expert right now. Having to do it in a new context exposes that the only thing I've really mastered is basic keyboard tricks and vlookup. Nothing in a \"serious\" job for accounting, making tables, creating proposals. But that isn't the (only) problem...it's the humiliation of feeling too important for a *better*, more valuable job than this, where I'm not treated like a nuisance for asking for feedback on my work. Where I'm skilled and important enough to be kept, instead of being in the cluster of jobs/people that can be eliminated or replaced.\n\n...I have never been rewarded for loyalty and my best is never good enough. Ever. \n\nWhen I think about the humiliation of being fired from a job paying something like 55% of my previous salary, I want to scream. I feel so helpless. \n\nTry too hard, struggle to much, show the effort in a new, unfamiliar job and in an era anyone that needs to be trained on new tasks is DOA - look like a fucking idiot, piss off your manager, seem like a needy dumbshit - get fired. Be isolated in complete shame, self-respect, and from work/being trained to acquire new knowledge again.\n\nBe passive and paralyzed with uncertainty and the desire not to look stupid when you're not being trained, when you go hours without clear direction every day, and the day's or week's expectations are uncertain - get fired. \n\nWork in a \"new role\" at the bottom, paid like shit, *because you are desperate and humiliated* and the sort of person in this economy that can have a college degree, a fair amount of experience and education in your field (sales support)....get fired. Be perpetually fireable. \n\nDo any of you relate? \n\nAnd it's not just being or feeling stupid that's a torture...I can never ascend. \n\n\n\nThere is no life apart to be lived from this. If you feel like a failure and like your life is built on the uncertain ground of aging while underemployed for your entire career, in spite of trying to acquire more skills on the cheap while working...it's never enough. And yes, you start to take it all personally, the judgment you don't deserve to feed and clothe yourself, that your best efforts to contribute are no good. (I know how stupid and pathetic this is! It's the truth. I'd like to at least say I am employed. The only people and companies that employ me make me think I'd be better off dead - no need to pay rent that way. I have nothing else to live for and no sources of happiness. I live hand to mouth in jobs nobody I went to school with or grew up with would take, or have to take. It's completely impossibly not to internalize with terror and shame.) \n\nIt's always been this way, since college. If you're really bad at the most important arena of your life - school/work - it precludes talking about yourself to people truthfully. It's impossible to make new friends, or be around people, because the truth is unbearable. \n\nIt makes it harder and harder to be with anyone you \"know\". And the work, the stress, the sweaty pathetic scrounging and never getting anyplace better taking up so much time, in the place of *living a normal life*, with relationships and pleasure - going to fucking workshops and taking free online courses to put on a resume to get nowhere with it, the humiliation of it all - I'm finished. This is my *entire life*, the main consumer of my physical, emotional and intellectual energy. There's nothing left over, and honestly, I feel so bad about myself - have since college, and this experience, not to mention the recursive *punishments* that come with working in shit jobs and for shit companies, in a city full of 21 year olds that have English majors and score internships for Google, Goldman Sachs, white shoe law firms like it's nothing...passive suicidal ideation is the only certainty that I've held onto into adulthood. \n\n\nI fantasize about being the women I went to school with - they're \"managers\" or software engineers after they got to major in art history, and now they're senior marketing majors pulling $100k+. They have full lives. \n\nThey've not sweating bullets and crying because being employed in truly horrible jobs is all they have going for them after a layoff that seems like a life-defining layoff, looking at an economy like this.\n\n\nIf the arena of your life that consumes your whole person is employment, and you've never worked in a good job, with a good salary, where you're treated with respect and can get comofortable - it makes you sick. \n\nI had a pretty bad job I was laid off from before this one, but I think that was as close as I was going to get. I was as close to happy as I could hope to be in my last long-term temp assignment before that job and before some horrible health decision, but of course, that ended. I was happy in the first of five years in my long-term job. \n\n\nThey both paid shit, were uncertain, and were unimportant. They had no future, no promotional track built in. \n\nAnd now I can reflect on losing those things and not being like other people, enough to hold onto something as piddling and pathetic as a not-terrible job.",
+      "subreddit": "jobs",
+      "score": 8,
+      "url": "https://reddit.com/r/jobs/comments/18o14vg/are_you_paranoid_after_the_trauma_of_a_bad_job/",
+      "comments": [
+        {
+          "body": "Allllll the time and you hit the nail on the head - it is impossible to shake the fear of that humiliation. You are better than the job you have now - do you have any time off at all around Christmas or will it be slow where you can beef up your LinkedIn and resume? Dm me if you want to chat. Happy to lend an ear or a second set of eyes cause you don’t need to stay at a place like that long term it will wear you down. Hugs.",
+          "score": 3
+        },
+        {
+          "body": "I relate. I’ve gone through this low point you’re experiencing (have experienced), several times. But unlike you, I’ve had big lucky breaks (with a pre requisite of busting my ass) to swing me back the opposite direction. So I’m still paranoid, because no good thing lasts forever for me, but at least I get them just right in time from crossing a point of no return.\n\nYour feelings are valid. The dark truth is that some people walk this life only to experience pain then death. One example - unwanted kids born in war torn africa, only to be neglected, abused, r4ped (and the AIDS that comes with it), enslaved, and/or killed, sometimes even before the age of 6. \n\nMay the gods give more than they take.",
+          "score": 2
+        },
+        {
+          "body": "I feel the same. I feel like my best is never good enough and I could never get the social aspect of working right. I recently got laid off in October and it’s a struggle to do anything such as certificates, adjacent to career development. I am going to work in baby steps to eventually build up my confidence &amp; stamina.",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Preparing for HR interview? I'll do a mock interview with you.",
+      "body": "I saw that techies are great at technical rounds, but the HR round messes them over. I've worked with people from Amazon, Google, Goldman Sachs, etc. so I know what it takes to get in. I've given speeches at national conferences and held the engagement of the audience for more than an hour.\n\nI will do a mock interview with you, and tell you how you can improve your words. It's simple, just at times you need someone else who knows what they are doing and can tell you exactly what's wrong.\n\nPrice? For the first 3, quote me your price. After that, it's $75. (it might feel a bit pricy to some, yes, and you don't have to pay a single penny until you feel it improved you)",
+      "subreddit": "jobs",
+      "score": 0,
+      "url": "https://reddit.com/r/jobs/comments/1887yxr/preparing_for_hr_interview_ill_do_a_mock/",
+      "comments": [
+        {
+          "body": "hmm... actually whenever I sit for an interview, i feel kinda nervous about it. And the HR asks all weird questions. I do answer them but over the last 6 interviews, it's the HR round that I've not passed!\n\nDo you think you can help me?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "SuperDay Cancelled After Technical Round – What Should I Do?",
+      "body": "Hey everyone,\n\nI recently completed the CoderPad technical screening for a Software Engineering role at Goldman Sachs and received positive feedback from the interviewer (a VP from the tech team). I was scheduled for the virtual SuperDay on June 27 and had already received my Zoom links and schedule.\n\nHowever, just a few days before the SuperDay (today is June 23), I received an email saying:\n\n“This Superday event will no longer take place due to private circumstances. We advise that you apply to future positions that align with your competencies.”\n\nThis was quite unexpected and confusing. I didn’t cancel or withdraw, and I had already progressed through their CoderPad round.\n\nI understand there might be internal reasons they can’t disclose, but I wanted to ask the community:\n\t•\tHas anyone experienced something like this before?\n\t•\tIs there a way to still be considered for similar roles without having to go through the technical round again?\n\t•\tWhat would be a tactful and effective way to follow up (especially since I have a direct contact who interviewed me positively)?\n\nWould love to hear any thoughts, advice, or similar experiences. I was really enthusiastic about the opportunity and feel a bit stuck on what the next best step is.\n\nThanks in advance!",
+      "subreddit": "interviews",
+      "score": 2,
+      "url": "https://reddit.com/r/interviews/comments/1limlyc/superday_cancelled_after_technical_round_what/",
+      "comments": [
+        {
+          "body": "The trend I am seeing on here for people getting offers rescinded and cancelling of super day I am not surprised Goldman Sachs cancelled it. They might be worried with the attacks on Iran will impact their business causing them to cancel.\n\nThan again this has been happening for months now. So this is the new normal right now.",
+          "score": 1
+        },
+        {
+          "body": "Politely follow up with your original interviewer thanking them for the experience and expressing continued interest—sometimes a canceled SuperDay is internal chaos, not a reflection of your performance.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "A recruiter who works in my industry recommended that I (sort of) lie on my resume, and I need second opinions on whether or not they're right.",
+      "body": "For the record, at no point in time have I ever lied about my credentials nor do I really plan on doing so moving forward. I wasn't advised to outright lie in any way. I was given suggestions on how to bend the truth in my favor, and I can't tell whether or not I'm being reasonably skeptical or if I'm just too straight edge. Also, this post is a bit long. I wanted to include as much context as possible so that people can better understand why he may have given me the advice that he did, so I really appreciate anybody that takes the time to read through this and offer their feedback. I'm really trying hard to get my life together, so any help you can give means the world to me. **TLDR at the bottom in case you don't want to read the whole thing.**\n\nI recently met with one of my friend's dads after hearing that he may be able to help me with my resume. He doesn't do what I do, but he works as a recruiter at a large company and has reviewed thousands of applications for positions in my field. After helping me properly format my resume and figuring out the right pieces of information to put, he told me that I've got a couple of red flags that are probably getting me thrown out of the applicant pool pretty early on.\n\nFor context, I graduated college over a year ago, and I haven't actually had a full time job. I've worked two moderately prestigious internships (I say moderate cause we're not talking BCG or Goldman Sachs), and I had a 4 month gap in between. He said while my resume is great and it's obvious I'm more than qualified for an entry level role in my field, not having a full time role after being out of college for over a year could look kind of sketchy. From his experience, the first round of screening applications is doing everything you can to find some reason to throw an application out the window, and unless I can craft a good story behind this, it might be really tough to find a job.\n\nI have a good reason to cover the gap (which is briefly mentioned on my resume), and he said that I shouldn't get any questions about that, but the only problem after that was to figure out the story behind why I went to such a good school and have only worked internships since graduating. We talked about it for awhile, and his final suggestion was that I either need to **1.** Go back to school (even just to earn an online certificate of some sort) to show that I've been productive and have had a reason for not working full time. **2.** Use whatever family connections I have to swing the odds in my favor. **OR 3.** Take the title of \"intern\" off of one or both of the internships I worked in last year and either just have the field listed or change the title to something like \"contractor\" and hope that nobody checks.\n\nI was sort of taken back by the third suggestion, but he told me based on his experience, a lot of employers probably won't check. Given the depth of my experience, he says that it's obvious I know what I'm talking about and people probably won't think much of it. Additionally, he said that while he can't guarantee it, since I did really well with both internships, it's possible that my previous employers won't say anything if they're contacted (idk if I believe that though). *I also recognize that it may be hard to believe that they went well given that neither turned up in a full time offer, but just humor me and trust that I have full confirmation that this had nothing to do with me lol. Partially bc I've received recs from multiple people at each company.*\n\nIf I decided to go through with this, what I might do is take the title of \"intern\" off the first position (lol one of my best friend's from college worked in the same department and I could list her as a reference), and then saying that I took 4 months off to move across the country and help with family matters and after this, I was willing to take an internship because it was back home where I wouldn't have to pay rent, it was in a slightly different part of my field that I had no experience in, and I felt like I needed something on my resume because I had been out for so long. I could also take intern off of both but that feels so sketch.\n\nI'm wondering if anybody has the experience to confirm or deny the validity of what he said. He's a bit older (50s), so I'm not entirely sure if what he said is outdated advice or not. The goal is to just get my first job at this point. If I can just secure a handful of interviews, my interviewing skills should take it from there, but does anybody see any sort of major issue that could arise if I do this? Also, my previous boss told me that I literally just have to say that I was testing out the different parts of my field cause I hadn't had any experience and didn't know what I wanted to do, so I also have a conflicting opinion that it doesn't matter as much as my friend's dad made it seem. I'm also not sure if I'd really be able to do this anyways. Even the thought of it is weighing down on my conscience.\n\n**TLDR;** Currently looking for a job, and while my resume is great, I potentially have some red flags that are getting me thrown out. The main one being that I've been out of college for a year and haven't had a full time job. I've had 2 internships at really good companies (both of which went well and more on this in the full text), but I'm worried that this will make me seem lost or that hiring teams will automatically assume that I must have bombed since I didn't get hired and throw me out of the applicant pool without checking. I recently talked to a recruiter who told me that I might just want to take the title of 'intern' off of those positions on my resume, and I'm trying to figure out if this sounds like good advice or total shit. On the other hand, my previous manager told me that she didn't think it'd be a huge deal and just to say that I was testing out different jobs within my field. She said that as long as I get an interview, my people skills will take care of everything. Trying to see what other people have to say.",
+      "subreddit": "jobs",
+      "score": 0,
+      "url": "https://reddit.com/r/jobs/comments/15ylscy/a_recruiter_who_works_in_my_industry_recommended/",
+      "comments": [
+        {
+          "body": "DO start a course or two, DON'T lie about your job title, because if it ever comes up later it will probably get you fired.",
+          "score": 2
+        },
+        {
+          "body": "When it comes to lying you gotta be smart. Like don't say you're adept at JavaScript when you only know python. But if you were at a low level role and management made you take duties that weren't in your job description,  say put time sheet in the computer sort of thing. You can say you have data entry as a skill.\n\nOr if you had to direct some coworkers who deferred to your judgement, you can stretch that to managerial experience. These are things where you can truthfully claim you have experience in it. You're just not making clear that the experience is minimal. Because the vast majority of jobs train you the specifics and for most things like being a manager or data entry, those can be easily learned and for stuff like managing, you'll find out if you have the personality for it. Lie by staying near the truth.",
+          "score": 1
+        },
+        {
+          "body": "Not reading all of that. To answer your question, you don't lie on your resume. It will at some point come back to bite you in the ass. So don't do it.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Job searching post grad",
+      "body": "Job searching post grad\n\nI’m so frustrated. Finding a job post grad in this market is virtually impossible. I have a business degree from a top ten public university, several internships and academic awards, and I live in a major metropolitan city (Chicago). I have everything at my fingertips with tons of connections and I still can’t get an offer. My resume has been professionally done, I’ve done everything right. I got ghosted by the company who promised I’d be moving into the final round with them, so that’s great. I even tried reaching out to them several times to ask about when my final round interview will be and they’ve gone radio silent. It really shows me how much they must value their employees and how awful their HR is. I also made it to the final round for Goldman Sachs and didn’t end up getting the offer, which was disappointing. I’m looking in both marketing and finance (marketing is my major, finance is my minor). I will be going on to get my MBA, so I want to set myself up with an awesome first job. I feel like a failure that I’m graduating early this December and that I don’t have my next move lined up. I feel defeated, and the Chicago job market is so competitive. As a UIUC student, I’m finding myself competing with these Northwestern and U of Chicago kids. I feel like I’m not good enough compared to them. I don’t know what to do and I’m not good with uncertainty. Any advice or words of encouragement would help. I don’t want to be stuck working retail forever.",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/18d52ne/job_searching_post_grad/",
+      "comments": []
+    },
+    {
+      "title": "31yo Physics PhD - What am I qualified to do?",
+      "body": "Hi everyone. After six months of unemployment, I'm really starting to worry about my future. First, I'd like to link my CV so you can get an idea of my background:\n\nhttps://docs.google.com/document/d/1rn6BpNjtaZDPuv_0nTRTRuD2z0EOiuVQXx5Qe7aUnY0/edit?usp=sharing\n\n(I'm aware that my CV is currently a train wreck, so I'll be enlisting the aid of /r/resumes on this matter).\n\n***\n\n**Context:** I've always wanted to do a PhD. My plan was to get my PhD and become a lecturer at a University. Unfortunately, what they don't tell you about academia is that this is incredibly unlikely. Most PhDs have to do multiple post-docs (unstable, underpaid contract work) back to back usually into their late 40s until they might be offered a formal position, usually when someone retires or dies.\n\nI concluded my post-doc and moved back to London seeking a job that might help me use the myriad skills I've accumulated over the years. I'm good at programming, though I lack commercial experience and a recent IKM test absolutely brutalised me. I'm a great communicator and deeply analytical with a good grasp of statistics and calculus.\n\n***\n\n**Current focus:** I'm currently looking primarily at quant developer and data scientist roles, though really I'm open to anything. I get headhunters phoning me everyday saying that their clients would love someone like me, but this rarely develops into interviews (I've only had three so far: Goldman Sachs, Morgan Stanley, Principle Global Investors). The University I went to really hurt my chances with these companies.\n\n***\n\n**My question:** My knowledge is very wide but not deep enough in specific areas. I feel like my education provides very little advantage. What careers are possible for me, given my background?",
+      "subreddit": "jobs",
+      "score": 30,
+      "url": "https://reddit.com/r/jobs/comments/4smt47/31yo_physics_phd_what_am_i_qualified_to_do/",
+      "comments": [
+        {
+          "body": "I can't help you much, but all I know is that everyone I've ever known with a degree in Physics or Chemistry has had 'no issues' getting a job here in the UK or in places like Germany. No issues doesn't mean you get a job 100% guaranteed, but it's rare to graduate and be more than 6 months out of a job in your field.\n\nYou have a degree that says what every degree 'says' like I can think critically, work under pressure, etc. but a lot more too. It says:\n\n* I can work with the utmost complex and abstract ideas\n* I very likely have a good understanding of computing at a higher level: data analysis, etc. -and even if you didn't, you have the abilities to learn as you have the grounding knowledge, you just have to learn the tools, if anything. \n* I commit to long term projects (PhD). It also shows you are passionate about Physics, nobody would be that stupid to got for a PhD in a field they don't love so much they are willing to hate it after 3 or 4 years lol \n\nYou are a 2x enhanced bachelor of science. If others can find a job, sure you can. Try applying for jobs away from home, abroad even. If you can't afford to move, try exploring whether there's paid internships at universities or companies. If you don't have the working experience, surely you have a better chance of landing some (low-paying, I am afraid) working experience in comparison to those who only have a degree. You're better off getting a retail job for say 8 months or until you get something, saving as much money as you can and then start applying for jobs -away even. In one year time you'd be telling us how great you made it!\n\nI said I wasn't going to be of much help, and I feel I am just boosting your morale. But here's some good advice. This is the official academic website that's oriented to graduates in the UK. It has everything you need to know, including a profile of job options and career opportunities for every degree you can do in the UK but it applies to you. [This is the profile for a physics degree](https://www.prospects.ac.uk/careers-advice/what-can-i-do-with-my-degree/physics) These are some of the jobs they list:\n\n\nJobs directly related to your degree include:\n\n\nGeophysicist/field seismologist\n\nHigher education lecturer\n\nMetallurgist\n\nRadiation protection practitioner\n\nResearch scientist (physical sciences)\n\nSeismic interpreter\n\nSecondary school teacher\n\nJobs where your degree would be useful include:\n\nInvestment analyst\n\nMeteorologist\n\nNuclear engineer\n\nOperational researcher\n\nPatent attorney\n\nSystems developer\n\nNeedless to say that you also qualify for *any* job that has researcher or analysis in the title, even if if you have to go for an assitant/entry-level position!\nThere's way more information there, but I hope that's a start or at least, some fresh air for you. I hope I helped. \n\nEDIT: I wrote all that without reading your CV first so all along I was assuming you were American (given the companies your mentioned). Matey, Kent uni is not a bad uni at all. From all the not Russell Group unis, is one of the best - it even ranks better than some Russell Group unis. Be proud of it. If I can come up with more advice, I'll edit this :)\n\nEDIT 2: That's a good template for your CV in the sense that you have all your information, but it's way too much to be submitted as your CV. Never upload all that to a job. This is how you do it as I was coached by a director of a consulting agency that's a world leader company: Get any job post, pick the job description and item by item pick an example from your profile that matches your CV, delete the rest from the CV. It's better to have a 100% match up with only 10 items than 35 items that I have to skim through. All the fancy stuff you can show off about once you get the job ;). Does this make sense? I mean, keep that CV as the one that has it all, but 'skin' it as much as you can leaving it to one page, two tops. What you did in your PhD is far more important than what you did in your BSc. They know what you did, everyone does the same on their degree -more or less. Just mention the degree, uni, years and if anything else, the society you joined or that you were a class representative, that's all.  ",
+          "score": 19
+        },
+        {
+          "body": "Start dropping your resume into company websites themselves, rather than using headhunters.  I know that a lot of people will probably say this doesn't work, but I have to disagree.  Does it take time?  Absolutely.  Is it a black hole where no one will review your resume?  No.  Is there a low hit rate?  Possibly, depends on your definition.  You're also a specialist of sorts with a PhD in physics so that will help.  \n\nThe reason why I say this is that headhunters can be very hit or miss as well as unreliable.  Not all of course, but you have to keep in mind that the companies pay them their commission, not the prospective job hunter.  Just my two cents on that topic.  \n\nYou have to take an active role in job hunting.  Not saying that you aren't, but just generally speaking.  From afar, my opinion is that you will certainly find something.  You have a physics PhD.  You're young.  There's a market for that.  ",
+          "score": 8
+        },
+        {
+          "body": "One of my best friends had a physics master and got into the oil industry, something to do with engineering. After many years he's now a cost controller and makes about 1500 dollars a day for punching numbers into a graph once a day and a 2 minute overview at a weekly meeting with managers. I hate him.\n\nEdit: Forgot to mention he was a high school physics teacher until his late 30s, so anything is possible.",
+          "score": 4
+        },
+        {
+          "body": "My employer would probably love to talk to you. Many different areas where a PHD in Physics would come in handy.",
+          "score": 2
+        },
+        {
+          "body": "/r/AskAcademia might be more helpful.",
+          "score": 3
+        },
+        {
+          "body": "I can relate to you in that I have a PhD (biochemistry field) and left academia for a non-research job. Without any real direction you need to figure out what kind of job you want. A great resource is [Versatile PhD](https://versatilephd.com). It gives types of alternative careers, examples of resumes and cover letters and commenting sections for you to ask questions / talk to people who already have a non-academic job. \n\nFor example, they have resumes of:\n\n* Biophysics PhD - hired as Senior Finanical Analyst.\n* Physicist PhD - hired as Solution Engineer\n* Physicist PhD - hired as Data Mining Analyst\n* Physics PhD - hired as Quantitative Risk Analyst\n* Physicist PhD - hired as Process Engineer\n* Physics PhD - hired as Mass Media Fellow\n\nThese were just examples of candidates with a Physics PhD, but Math, Chemistry, Astronomy, Biology PhDs all can be adapted. There are other options than what I just listed. \n\nHopefully this is helpful to you. Good luck!",
+          "score": 2
+        },
+        {
+          "body": "&gt; The University I went to really hurt my chances with these companies.\n\nWhy? Your experience sounds perfect for a quant dev role.",
+          "score": 1
+        },
+        {
+          "body": "If you're a good programmer, then get into development.  If you are all about layers of abstraction, get into Cloud Architecture.  It's fun building stuff where what I used to have to handle manually is already multiple layers down in abstraction, and the abstraction is just getting better (serverless).",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "“1-2 years of experience in management consulting or investment banking”",
+      "body": "I hate this phrase. I see it on all kinds of job postings. Some of the most interesting jobs I’ve ever seen that have nothing to do with management consulting or i-banking only want to hire people from McKinsey or Goldman Sachs, even though the JD rarely asks for specific skills - it’s usually just “analytical thinking, presentation, and research skills.” Why does this keep happening? Why is it allowed to happen?\n\nBackstory: I went to a liberal arts college and got a good GPA with a double major in a humanities and a social science, then started looking for jobs and kept getting told I needed more “technical experience” when I got rejected for jobs I thought I was a good fit for. So, I went and started a master’s in computer science, which hasn’t been easy from a non-STEM background. \n\nI’m graduating in two semesters but need to find a full time job at the end of the summer, and I thought that having the technical knowledge of a CS master’s would make my job search easier. But now it just seems like what I studied doesn’t matter because I didn’t go to “finishing school” at a management consulting firm or an investment bank and it feels like I’m paying some sort of price for not conforming. Meanwhile, it feels like my college classmates who did go down those paths are now getting offers to do really interesting stuff after “paying their dues.” \n\nI’m just feeling stuck, not really sure what kind of help I need or want at this point",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/o5stwv/12_years_of_experience_in_management_consulting/",
+      "comments": [
+        {
+          "body": "Hello, thank you for posting to r/Jobs! \n\nWe just wanted to let you know that we have a new [discord server, come join the chat!](https://discord.gg/TY6ErXV)\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/jobs) if you have any questions or concerns.*",
+          "score": 1
+        },
+        {
+          "body": "Those jobs are like a mini top 10 MBA. They are recruiting for your network, your willingness to work long hours, your ability to be professional in a room or company full of people as smart or smarter than you, and your critical thinking skills.",
+          "score": 2
+        },
+        {
+          "body": "See also: [pedigree bias](https://blog.staffingadvisors.com/how-to-select-resumes-without-perpetuating-bias?hs_amp=true)",
+          "score": 1
+        },
+        {
+          "body": "What positions are you seeing/applying for/want to apply for? It's not clear from your post.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Goldman Sachs Software Engineering SuperDay",
+      "body": "Hello,\nI gave my coderpad round this week. And got an invite for the super day interview which is scheduled next week.\nI want some guidance and help on how to prepare for the interview and what questions should I be expecting.\nAlso, how can we see the resume used for applying for that job? As I need to prepare my answers based on the resume I applied that time. It’s been more than months when I applied.\n\nThanks",
+      "subreddit": "interviews",
+      "score": 2,
+      "url": "https://reddit.com/r/interviews/comments/1joyl7a/goldman_sachs_software_engineering_superday/",
+      "comments": []
+    },
+    {
+      "title": "Job searching post grad",
+      "body": "Job searching post grad\n\nI’m so frustrated. Finding a job post grad in this market is virtually impossible. I have a business degree from a top ten public university, several internships and academic awards, and I live in a major metropolitan city (Chicago). I have everything at my fingertips with tons of connections and I still can’t get an offer. My resume has been professionally done, I’ve done everything right. I got ghosted by the company who promised I’d be moving into the final round with them, so that’s great. I even tried reaching out to them several times to ask about when my final round interview will be and they’ve gone radio silent. It really shows me how much they must value their employees and how awful their HR is. I also made it to the final round for Goldman Sachs and didn’t end up getting the offer, which was disappointing. I’m looking in both marketing and finance (marketing is my major, finance is my minor). I will be going on to get my MBA, so I want to set myself up with an awesome first job. I feel like a failure that I’m graduating early this December and that I don’t have my next move lined up. I feel defeated, and the Chicago job market is so competitive. As a UIUC student, I’m finding myself competing with these Northwestern and U of Chicago kids. I feel like I’m not good enough compared to them. I don’t know what to do and I’m not good with uncertainty. Any advice or words of encouragement would help. I don’t want to be stuck working retail forever.",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/18d53jy/job_searching_post_grad/",
+      "comments": []
+    },
+    {
+      "title": "What Am I doing wrong? Can someone read my cv for me?",
+      "body": "Hi everybody. I have applied for over 200 jobs and nothing is coming my way. I had 2 interviews with Goldman Sachs, the first one they said I was over qualified and the second I just failed it due to nerves.\nAgencies won't even return my calls, one even told me that they would never offer me employment because the candidates they pick are \"special\". I don't know what I am doing wrong. May be my African name frightens people and they think I will pollvolt into the office chucking spears or may be my cv is just shit. I really want to work; my work coach at the Job Centre made some really arsey remarks the other day about, \"if you can travel down to London then there is nothing wrong with a little work,\" point of correction I interjected, being on benefits is not something I am proud of nor have ambitions to build a future on and I went for hospital appointment!\n\nI am looking for PA/ EA work in a private home or organisation in North Yorkshire if anybody out there can help me. Is there someone that can have a look at my CV and tell me where I am going wrong?",
+      "subreddit": "jobs",
+      "score": 0,
+      "url": "https://reddit.com/r/jobs/comments/188lukz/what_am_i_doing_wrong_can_someone_read_my_cv_for/",
+      "comments": []
+    },
+    {
+      "title": "Goldman Sachs Experience",
+      "body": "Hello All,\n\nAnybody want to share an experience working as a first year analyst in operations in goldman sachs ? I would prefer if someone knows about Saltlake city location\n\nThanks",
+      "subreddit": "jobs",
+      "score": 35,
+      "url": "https://reddit.com/r/jobs/comments/qjxrf0/goldman_sachs_experience/",
+      "comments": [
+        {
+          "body": "Hello, thank you for posting to r/Jobs! \n\nWe just wanted to let you know that we have a new [discord server, come join the chat!](https://discord.gg/TY6ErXV)\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/jobs) if you have any questions or concerns.*",
+          "score": 1
+        },
+        {
+          "body": "I never worked there but had a pretty bad interview experience.  Got ghosted after setting up a phone interview and then after giving them a second chance the guy called 3 hours too early and left a message implying that IM the one who missed it.  I called again during the time we were supposed to have the interview and got no answer.  (I verified the time and confirmed were in the same time zone in the email).  Pretty sure I dodged a bullet as since then I've been told that's where dreams go to die.",
+          "score": 27
+        },
+        {
+          "body": "You got to like sex to work there because you’re going to get fucked",
+          "score": 36
+        },
+        {
+          "body": "I have a friend that worked there. He quit after his first month. They paid him very low for what he did (55k a year) and expected him to work from 7am to 7pm every day (no overtime), pay for his own parking ($10/ day), and use his OWN personal laptop for work. Plus he had to liquidate all of his stocks, moved his brokerage account and needed the company's permission for every time he wanted to purchase a stock. Having the GS name on your resume sure can help you stand out but it wasn't worth it for him.",
+          "score": 49
+        },
+        {
+          "body": "Depends on the department.   Both Goldman and Morgan are the same.   You work very hard and have deadlines to hit.    You either succeed or fail and are laid off.\n\nBoth have 3 layoff cycles a year.  The worse performers are laid off,  but its based on how much you make and your division  makes as well.\n\nOverall they are good places to work I the financial industry.\n\nIf your a money manager or trader you would make more money in a hedge fund.\n\nYes I have direct knowledge.",
+          "score": 10
+        },
+        {
+          "body": "I have a number of friends who worked for GS, as well as their competitors. I don't know much about their operations side, as most of my friends were in IB. The good things are that you will get paid quite handsomely, learn skills at a rapid rate, have the gold standard company on your CV, and have some of the most impressive people be your colleagues and possibly friends.   \n\n\nThe downside is that you work ALL. THE. TIME, and you work with people who don't mind working all the time. That last point should be read twice. The work at grunt level is often dull. And you may not feel like the work you are doing is that meaningful. If you're at GS, you have often conquered every goal you have set yourself for years, and now you're making excel sheets for some obscure gas company.   \n\n\nThe final point is that IB is structured in a way where most of the rewards are focussed at the very top, and to get there is unbelievably competitive. I remember one presentation from a senior banker, a big swinging dick who was clearing 7 figures, after tax, annually. His advice was to think of a gas stove with 4 burners, your career, your family, your friends, and your health. If you want to be a good banker, you need to turn off one burner. If you want to be a GREAT banker, you need to turn off two.",
+          "score": 10
+        },
+        {
+          "body": "Hot desking: post-COVID you’ll be in the office 5 days a week, but you won’t get an assigned desk. IMO this is an incredibly insulting policy. If you have to be in the office every day then you should have an assigned desk where you can leave your stuff.\n\nConservative behavior: this has much more to do with SLC than GS, but the city is much more conservative than traditionally liberal cities like SF or NYC. SLC is extremely liberal compared to the rest of Utah. Very few people take COVID seriously.\n\nPay: expect a 40-50% pay cut vs NYC\n\nOps: I have no experience in ops and don’t quite understand exactly what it is, but prevailing sentiment is to avoid ops like the plague. See r/FinancialCareers for more info.",
+          "score": 6
+        }
+      ]
+    },
+    {
+      "title": "I got the opportunity to interview for a high paying &amp; relatively fun job with one of the most elite &amp; largest corporate law firms in the world . Practiced for it with everything I had but got rejected.How did u handle not only getting rejected from dream job, but working a job you hate as a result?",
+      "body": "* got e-mailed from dream job saying they went with someone else after passing a phone screen &amp; proceeding to 6 interview rounds (3 firm CEO's &amp; 2 executives)\n   * I know some people might think 6 interview rounds is an accomplishment, but the 6 interview rounds were scheduled at once as soon as I passed the phone screen which  is the defualt scheduling process after passing the phone screen .\n   * Rented a hotel to zoom interview, took unpaid time off, &amp; practiced with all the time &amp; energy I had leading up to it; took the approach as if I was studying for a final exam by outlining my answers &amp; creating strategy etc. dont even recall what it was like to be out of the zone that whole wk bc spent whole wk prepping my myself for the interview. \n   * ***But I did   not feel as if I did my best-I*** realized I practiced great answers to the degree that I they had great thought, organization, and relevancy.  but in the interview I thought going with another approach would have been better b/c that's the universal advice I researched beforehand. I typically go with my gut/what feels best, but thought this job opportunity was on a different level &amp; just went with what experienced people said\n      * Realized that whlile I didn't \"do bad\", I undersold myself as a result.\n* It was a once in a lifetime opprtunity with dream company. really cant match that opportunity. not only was it pretty high paying with upward growth, but it would have genuinely been an exciting job. now working a signficantly lower paying job i do not like.\n   * it's literally the equivalent of an insurance adjuster getting the opportunity to interview for their dream job with Goldman Sachs...\"keep applying\" doesn't give you the same opportunities again when those same opportunities aren't available to begin with. I'll have to keep applying for better opportunities just to get out of my current sitution, but it wont match what i had before.\n* anyone else been in a similar situation? how deal with working a job of lesser opportunity? Like..that job &amp; life would have been so exciting &amp; **it was what I literally dreamed of obtaining since a young age from years ago** that a signifcantly lesser offer just seems like death honestly.\n   * more importantly, how did you not beat yourself up over not getting selected? **What's upsetting isnt' the fact that I didn't get the job, but the fact that I didn't feel like I did my best/gave it my all***(see above for explanation)* leaving me with the crippling feeling of regret in terms of how things would have turned out had I tried harder.",
+      "subreddit": "jobs",
+      "score": 3,
+      "url": "https://reddit.com/r/jobs/comments/qvpwor/i_got_the_opportunity_to_interview_for_a_high/",
+      "comments": [
+        {
+          "body": "Hello, thank you for posting to r/Jobs! \n\nWe just wanted to let you know that we have a new [discord server, come join the chat!](https://discord.gg/TY6ErXV)\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/jobs) if you have any questions or concerns.*",
+          "score": 1
+        },
+        {
+          "body": "I worked 6 agonizing years for a company realizing on my 8th month I didnt belong there. Trust me I tried everything to move from the position, but someone's hand was always pulling me back. I was once touted as the best prospect only for 1 interviewer to say I did really bad and my answers were out to lunch (I did not believe it for once, I know when I bomb interviews and when I nail it)\n\nSank into some depression for about 6mos at 1 point. I really thought I was never going to \"make it\"\n\n1 thing I made sure though was to stay sharp. I never became a lousy employee despite the T&amp;Ts I had, so nobody could say \"well that's why\". It was more \"how the F did he not get it\" and people were saying the exact thing\n\nFF to today I literally got what I wanted. Sometimes forgoing some things including your dream job will park you somewhere youll enjoy more. There will be a different time/chance for this dream company. It's ok to be frustrated because you did your best, but think about this: the next time you get an interview you already know what to expect.\n\nGet drunk, smoke some weed but after that pick up your shattered ego again and truck on.",
+          "score": 2
+        },
+        {
+          "body": "The hard part is following expert advice your gut is telling you is wrong. I have had that happen desperate to impress. I am sorry you didnt get it and hope an equivalent opportunity is presented to you in the future.",
+          "score": 1
+        },
+        {
+          "body": "Chronic dependance on alcohol",
+          "score": 1
+        },
+        {
+          "body": "I am going through the same thing myself OP. Are you still beating yourself about the rejection?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Goldman Sachs Coder pad interview",
+      "body": "Hey guys,\n\nI'm here to share my interview experience with Goldman Sachs which happened last month. Although I didn't get selected, I'm happy to share my experience. \n\nDuration : 60 mins  \nThis was more of a debugging task, unlike a typical coding problem. I prepped myself with the coding problems for the interview, but this was totally a new experience to me. In the interview, I wasn't fully focused because I was nervous, and it took me 15 mins to settle down and understand the question. \n\nProblem Statement:\n\nGiven a string which consists of content of a document, return the distance between mid points of two words from the document. \\[given in input\\]\n\nTest case:   \n\"I love football and tennis\"   \nand  \ntennis\n\nOutput:  \n6.5\n\nExplanation: The mid point for the word \"and\" is at 17.0 and the midpoint for tennis is 22.5. So, the difference would be (5.5 + 1) for the space.\n\nI was given the code for it, which contains errors, and asked to correct it through step by step debugging while conveying my thought process. The code has some minor bugs which would get resolved by adding (dist + 1) for space, and converting the input to lowercase.  \nI did pass all the test cases in the end. Maybe I didn't explain my thought process clearly.\n\n  \nWell, I got this interview after 2 months of applying jobs, and I screwed up. But, I will get back to the speed soon!\n\nHope this helps someone out there.",
+      "subreddit": "interviews",
+      "score": 6,
+      "url": "https://reddit.com/r/interviews/comments/1ljw2xh/goldman_sachs_coder_pad_interview/",
+      "comments": [
+        {
+          "body": "[deleted]",
+          "score": 1
+        },
+        {
+          "body": "Did you get a reply??",
+          "score": 1
+        },
+        {
+          "body": "So they just asked you one question ? Or there was also a leetcode style question ?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Initial round interview - Goldman Sachs Asset &amp; Wealth Management Associate (Project manager) UK",
+      "body": "Hi everyone,\n\nI have my initial interview (30 mins Zoom) coming up for an Associate business analyst position in Asset and Wealth Management at Goldman Sachs.\n\nWould really appreciate any insights from those who’ve been through the process or have knowledge about this round.\n\nThanks!",
+      "subreddit": "interviews",
+      "score": 3,
+      "url": "https://reddit.com/r/interviews/comments/1l1d06s/initial_round_interview_goldman_sachs_asset/",
+      "comments": [
+        {
+          "body": "For the initial 30min round, they'll likely keep it fairly high-level but still want to see you understand the space. Make sure you can speak intelligently about current market conditions and how they impact wealth management strategies. They love when candidates can connect macro trends to client impact.\n\nThe behavioral side will probably focus on stakeholder management and problem-solving examples since PM roles there are super cross-functional. Have a few solid stories ready about navigating competing priorities or managing difficult situations.\n\nOne thing that seems to trip people up is not being specific enough about why AWM vs their other divisions. They want to see you've done your homework on their client base and service model, not just generic investment banking prep.\n\nAlso dont underestimate the \"walk me through your resume\" question – they use it to probe for relevant experience way more than other firms do. Practice connecting your background to what they'd need from a PM in that space.\n\nThe fact that its 30mins means they'll move pretty quickly through topics so dont ramble. Be concise but substantive in your answers.\n\nYou got this! The initial rounds are really about fit and foundational knowledge, so just show them you understand the business and can communicate clearly.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Interview Experience | Goldman Sachs | Software Engineering Analyst | 1.2 YOE",
+      "body": "**Application:**\n\nRecruiter reached out to me over email with job link (Job location was of Bangalore, India) and the HackerRank assessment link. I applied through that and completed the online test.\n\n**Round 1 - Online Assessment (HackerRank)**\n\nThere were 2 coding questions:\n\nQ1: Easy-level math-based question involving modular arithmetic.\n\nQ2: Array + logic-based combinatorics problem (medium difficulty).\n\nI was able to solve both completely.\n\n**Round 2 - CoderPad Technical Round**\n\nPlatform: CoderPad (Live Coding)\n\nQ1: Max IP Count problem - involved handling log data and finding the IP address with maximum count. Discussed multiple follow-ups and corner cases.\n\nQ2: Grid-based Dynamic Programming problem - standard variation requiring counting paths with maximum value (classic DP grid traversal pattern).\n\nI solved both problems, though I was slightly stuck on one of the follow-up questions in Problem 1.\n\n**Round 3 - Superday Round (Data Structures)**\n\nThis was a live virtual panel round with 2 interviewers.\n\nQ1: Median of Two Sorted Arrays - discussed brute-force, optimal binary search approach, and time/space complexity.\n\nQ2: Longest Substring Without Repeating Characters - explained brute-force and optimized sliding window approach, also covered complexity analysis.\n\nRound went well - I was able to explain my thought process, and the interviewer seemed satisfied, mentioning “good” a couple of times.\n\n**Result:**\n\nAfter this round, I was informed that I was not shortlisted for further Superday rounds.",
+      "subreddit": "interviews",
+      "score": 6,
+      "url": "https://reddit.com/r/interviews/comments/1o1zmdi/interview_experience_goldman_sachs_software/",
+      "comments": [
+        {
+          "body": "After all this , the interviewer goes to the manager and says he is good but manager wants bring his known to the team, so he asks that he feel the other candidate he referred suits the role better, he can cancel this guy .. so all the good remarks and efforts goes to drain … \n\nNow candidate practices more solves 600 dsa from leet code and gets an interview from google and he cracks it .. so it was Goldman who lost a Gold .\n\nKeep hustling brother, never stop believing in your ability 🙂",
+          "score": 3
+        },
+        {
+          "body": "Location ?",
+          "score": 2
+        },
+        {
+          "body": "what? what else does it take to get hired?",
+          "score": 1
+        },
+        {
+          "body": "Did you write completely running code and handled all edge cases ? Sorry no way GS will cancel you after 1st round if what you say about your performance is true. Have taken several interviews at GS. Will only eliminate if your code didn't run or you missed imp edge cases.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Do Goldman Sachs/Summer Analyst interviewers ask in-depth questions from JavaScript/TypeScript if I also mention C++/Python on my resume?",
+      "body": "I'm applying for a Software Engineering Internship (not frontend-specific) and I'm polishing my resume.  \nI’ve listed multiple languages that I’m comfortable with, including:\n\n* **C++, C, Python** (mainly for problem-solving and DSA)\n* **JavaScript/TypeScript** (used in some projects with React/Next.js)\n\nNow, my doubt is this:\n\n➡️ Will Goldman Sachs interviewers grill me deeply on **JavaScript/TypeScript concepts** (like closures, prototypes, async/event loop, TS typing, etc.),  \nor will they mostly focus on the **more traditional languages** I mentioned (like C++ or Python), especially for DSA and CS fundamentals?\n\nTo be clear, I'm **not applying for a frontend-specific role**, and I’m planning to solve interview questions in C++/Python.\n\nAnyone who’s been through the GS process — how deep do they go into JS/TS if you just mention it in your skills section?\n\nWould love to hear your experience or advice on whether to prepare js/ts in depth or focus on other things",
+      "subreddit": "interviews",
+      "score": 2,
+      "url": "https://reddit.com/r/interviews/comments/1mfu737/do_goldman_sachssummer_analyst_interviewers_ask/",
+      "comments": []
+    },
+    {
+      "title": "I've been using Nistaro to cheat on my interviews, I got 2 offers, one from Goldman Sachs and the other from a startup",
+      "body": "https://reddit.com/link/1lrueru/video/kqkd7w4aixaf1/player\n\nIt's basically undetectable and listens to the interviewer and gives instant answers  \nhope this helps y'all too  \n[www.nistaro.com](http://www.nistaro.com) ",
+      "subreddit": "interviews",
+      "score": 0,
+      "url": "https://reddit.com/r/interviews/comments/1lrueru/ive_been_using_nistaro_to_cheat_on_my_interviews/",
+      "comments": []
+    },
+    {
+      "title": "Round 2 Interview – Goldman Sachs Asset &amp; Wealth Management Associate Role UK",
+      "body": "Hi everyone,\n\nI have my second-round interview (30 mins Zoom) coming up for an Associate position in Asset and Wealth Management at Goldman Sachs. The first round was with a VP and an ED. The second round will be with two Executive Directors.\n\nWould really appreciate any insights from those who’ve been through the process or have knowledge about this round.\n\nThanks!",
+      "subreddit": "interviews",
+      "score": 3,
+      "url": "https://reddit.com/r/interviews/comments/1kjyk1d/round_2_interview_goldman_sachs_asset_wealth/",
+      "comments": [
+        {
+          "body": "GS AWM second rounds are typically a mix of deeper technical &amp; behavioral. If first round was more behavioral, expect technical stuff this time. \n\ntechinical - make sure you're comfortable talking about portofolio construction, market outlook, recent macro events, inflation etc. Brush up on market trends that might impact HNW portfolios.\n\nbehavioal - since it's 2 EDs, they're really assessing if youre a good culture fit and can handle client relationships. Prepare strong examples of how you've handled difficult client situations or navigated complex stakeholder dynamics.\n\nI've seen the second round of GS interviews typically get more into the \"why this role specifically\" and \"why AWM\" questions. They want to see that youve done research on their specific offering vs competitors.\n\nGood luck!! take a few mins before to center yourself - these interviews can be intimidating but remember theyre just trying to find ppl who know their stuff and would be good to work with. You've made it to round 2 so theyre already interested!",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Goldman Sachs Interview : Data Analyst | AWM",
+      "body": " Hi! I have two coderpad rounds with Goldman Sachs one of SQL and other for Java/Modelling. The role is of a Data Analyst from Asset Wealth Management Dept. Can anyone advise me on the basis of that what could be the intensity of the questions. Kindly help me with any kind of questions that could be helpful during the Interview or advise for the same. ",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/154tyad/goldman_sachs_interview_data_analyst_awm/",
+      "comments": []
+    },
+    {
+      "title": "Interview with Ayco, a goldman sachs company",
+      "body": "Hi Reddit,\n\nI have a phone screening with Ayco, A Goldman Sachs company and I'd like to ask for tips that may help me prepare for the process.\n\nThe role is for a financial analyst position and the job description is here(https://gyazo.com/34ae31bb00b5e1df4177730c984cd366).\n\nI was recently laid off in October as an investor relations associate in the Oil Field Services and I really want this job. \n\nDoes anyone work for Ayco as a Financial Analyst or can anyone provide me with some insight on how to prepare for this?",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/7xubxz/interview_with_ayco_a_goldman_sachs_company/",
+      "comments": [
+        {
+          "body": "Hey, I just saw this. If it's an initial interview all they want to see is a personality fit for the company and role. I would say brief and high-level overview of you and the reasons you might be a fit for the role. ",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Can someone share their team fit interview experience with Goldman Sachs.",
+      "body": "",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1l6n8es/can_someone_share_their_team_fit_interview/",
+      "comments": [
+        {
+          "body": "They'll ask behavioral questions that dig deep into how you work with others, handle conflict, and perform under stress. Expect questions like \"Tell me about a time you disagreed with a team member\" or \"How do you handle working with difficult personalities?\" They want specific examples with clear outcomes, and they're looking for people who can be both collaborative and assertive when needed.\n\nThe interviewers will push back on your answers and ask follow-up questions to test how you think on your feet. They're not just evaluating your past experiences but how you communicate under pressure and whether you can articulate your thought process clearly. The key is being authentic about challenges you've faced rather than giving perfect, rehearsed answers. If you're preparing for this kind of interview, [interviews AI](http://interviews.chat) can help you practice responding to these tough behavioral questions and get comfortable with the back-and-forth dynamic that Goldman is known for. I'm on the team that built it, and we specifically designed it to help candidates navigate these challenging interview scenarios.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Interview with Goldman Sachs - Wealth Management, GS Ayco, Centralized Wealth Management Professional, Analyst",
+      "body": "Hello, I have 3 interviews (30 min each) for the above position with GS. Any tips/questions that would be helpful to prepare for it?? what sort of interview should i expect? behavioral/technical?",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1b7l9a6/interview_with_goldman_sachs_wealth_management_gs/",
+      "comments": [
+        {
+          "body": "How did it go?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Goldman Sachs Superday interview tips (Software engineer)",
+      "body": "I have an interview scheduled with Goldman Sachs for a Software engineering position. Since it is Superday event, I really appreciate any useful tips for the day...\n\nWhat kind of questions do they usually ask?   \nAre they more focused on Technical or behavioral or both?",
+      "subreddit": "interviews",
+      "score": 4,
+      "url": "https://reddit.com/r/interviews/comments/jmirii/goldman_sachs_superday_interview_tips_software/",
+      "comments": [
+        {
+          "body": "Hey you all, I had my Superday for Software Engineer position at Goldman Sachs yesterday (March 6, 2024) for the Dallas office. I was able to solve all the coding questions in both of my interviews, but stumbled a little on answering few questions about my coding as I was nervous. Do you all think I still have a chance? How long does it take for them to respond? And is there anyone else who had their Superday this week for the Dallas office?",
+          "score": 1
+        },
+        {
+          "body": "I appeared for an interview for an internship which resulted in a return offer, for its investment banking profile, so I'm not sure if my feedback would be useful as such. \n\nBut the Interview was mostly around behavioral questions. The focus on technical stuff was mostly out of the projects I mentioned myself, and very basic concepts of finance. I had two rounds of interviews, and the second one was entirely behavioural. Even during the internship, it was visible that the team puts immense importance on how you fit and how well you bond, and they spend a lot of time training you, which justifies the focus on behavioural questions for the interviews. \n\nI hope this could help. All the best!",
+          "score": 1
+        },
+        {
+          "body": "Please note they have a lot of temporary staff there make sure whatever position you are interviewing for is a permanent position. Normally they try  back office people out for a year and a half before hiring them. Get a clear idea of your work hours because the bankers are in the office at all hours of the day and night. It’s not usual to see bankers fall asleep at their desks in the middle of the day.",
+          "score": 1
+        },
+        {
+          "body": "Hey there, I have a list of their like 33 most asked questions for the operations department. I’m not sure how I can send photos on here but if I can figure it out I’ll take a picture of the sheet and send it to you. I think they’re really helpful to study!",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Final round at Goldman Sachs… now the role’s “on hold” 💀",
+      "body": "Hey everyone,\nJust needed to get this off my chest.\n\nI was interviewing for a role with the ETSC Risk team at Goldman Sachs. Cleared 4 technical rounds (DSA + Problem Solving) and had a final interview with an Executive Director on July 2. It was a solid conversation — covered trading risk systems, ownership, and my reasons for wanting to move on from my current role.\n\nI followed up with the recruiter on July 9 — she mentioned people were out of office and asked me to wait. I waited.\n\nNo news. The job posting disappeared last week.\n\nI reached out again — and today I got this reply:\n\n“The role has been put on hold.”\n\nNo offer. No rejection. Just... that.\n\n\n---\n\nFeeling kinda drained.\n\nI poured in a ton of effort, did everything right, made it all the way to the end — and now it’s just frozen. No timeline. No clarity.\n\nHas anyone else been through something like this?\n\n-Do roles ever “unfreeze”?\n-Is this common at GS or other big firms?\n-Should I mentally move on, or still hold a little hope?\n\n\nAny insight or shared pain would help. This one stings more because it felt so close 🤡",
+      "subreddit": "interviews",
+      "score": 3,
+      "url": "https://reddit.com/r/interviews/comments/1m834bo/final_round_at_goldman_sachs_now_the_roles_on_hold/",
+      "comments": [
+        {
+          "body": "The role was never available to begin with. Its not realistic for an employer to have someone go through 4 technical rounds then all the sudden freeze the role or pull it. Goldman Sachs knows better that they should not be doing this but they are known to do this because they heavily rely on the markets. I was told and I can't speculate so accept this with grain of salt is they are very known to do this. Goldman Sachs is actually doing well so  they should not be pulling job roles right now.\n\nWhat you should be doing is accept your good interviews as you made it to the final round and use that to other job interviews. Use that as a mentality. Take a day break on interviews and job searching and start back up tomorrow or next week. This what happened to me and had to take a 48 hour time out. This helped a lot and that is how I found this job today. After two breaks, 3 pulled positions and 4 rejection emails.",
+          "score": 4
+        },
+        {
+          "body": "big firms love freezing roles like it’s a power move  \n“on hold” usually means “we’re not ready to commit but don’t want to say no yet”\n\nit’s a slow fade, not a hard stop  \ndoes it unfreeze? sometimes  \nusually only if business priorities shift or budgets get loosened\n\nyour best play is to treat this as a soft rejection  \nmove on but keep it on your radar  \ndon’t waste your mental energy holding out hope—focus on landing somewhere else that *wants* you now\n\nyour effort wasn’t wasted  \nyou showed up and made it deep  \nthat counts\n\nThe [NoFluffWisdom Newsletter](https://NoFluffWisdom.com/Subscribe) has cold takes on dealing with big firm runarounds and keeping your hiring mojo sharp worth a peek",
+          "score": 1
+        },
+        {
+          "body": "Having been job hunting for the last 6 months, I just came to support you and say that it’s a crappy thing for them to do..when the market turns and the demand outweighs supply again- let’s remember all these companies that ghosted, provided zero feedback, and put jobs on hold after multiple rounds.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "SDE - Super Day Goldman Sachs",
+      "body": "Hey everyone,\n\nI have an upcoming super day at Goldman Sachs in New York. \n\nCan I get some help in order to properly prepare for it. \n\nI am planning on preparing DSA and Coding with attention on graphs related questions (coderpad was about graph DFS)\n\nHow difficult system design and behavioral interviews would be?\n\nThank you,\n",
+      "subreddit": "interviews",
+      "score": 2,
+      "url": "https://reddit.com/r/interviews/comments/1kscns4/sde_super_day_goldman_sachs/",
+      "comments": []
+    },
+    {
+      "title": "Confused about my Amazon application status",
+      "body": "So here’s the thing:\n\nIn January, I get an assessment from Amazon. I completed it and I got a confirmation email that I got through. In the same month, I receive an auto generated email asking to submit answers for few questions and that I’m being considered for the SDE ML role. I realise later that I did not attach my resume so I reply to the same email and attached my resume. And now the HR gets added to the email thread (so that I can clarify any questions). \n\nI reached out to the HR for updates and I get a response that someone from the coordinating team will reach out to schedule an interview. I followed up again after a week or so, no response!\n\nNow in February, I got another email from another HR, that they’ve considered me for the new grad SDE role and that I need to keep an eye out to schedule my interview. This HR was pretty much responsive and did assure me that he will coordinate to make sure that I get the scheduling email.\n\nAfter about a week, I receive another email (this is another HR person) with a subject line: “Correction to the previous email”. This email literally states that I need to disregard the previous email about the new grad SDE role and that the hiring managers are yet to review my resume and they’ll contact me later. \n\nThis email thread continued till 1st week of March, and this HR person now drops me an email: I no longer support SDE roles, and don’t know who’s the current recruiter and someone else would contact me.\n\nThe HR who dropped me an email for the SDE new grad role is no longer with Amazon. How do I know this: checked HR’s LinkedIn profile. Also I dropped another email and it did not get sent.\n\nNow it feels like the Amazon process is completely random. Is this normal!??\n\nLet me give a quick background about me:\nI’m a May’24 grad. I’ve gotten callbacks, but I was not able to convert. \n\nI reached the final round with Goldman Sachs, but they deal with some third party HR team. You don’t even know whether the HR scheduling email you get from them is auto generated or some actual person sending. \nExpedia - messed up the PySpark live coding round. And few other screening rounds/ the usual sponsorship issue and all. \n\nThis entire job search is really getting to my nerves. My STEM OPT starts in about 2 months - adding additional stress. I’m trying to figure out things at this point. \n\n",
+      "subreddit": "interviews",
+      "score": 0,
+      "url": "https://reddit.com/r/interviews/comments/1jl66yn/confused_about_my_amazon_application_status/",
+      "comments": []
+    },
+    {
+      "title": "If anyone can give their opinion on what I could’ve asked better and tips on how to be more confident",
+      "body": "If anyone can share their opinion on what could I’ve asked and such for.  So I’m a undergraduate student studying finance and I’ve had 3 internships one for Merrill lynch,Jp Morgan, and Goldman Sachs all mainly for analyst Positions. Recently I completed a apprenticeship with one this companies and was giving a chance to get hire as a analyst but for something not related to finance there is no problem for me at eod. I got interviewed by 3 different Hiring managers at same time recently and I think bombed the Interview in a bad way as I did not ask more specific questions and was nervous to get interviewed by 3 hrm at the eod if anyone can give any tips on how be more confident.",
+      "subreddit": "interviews",
+      "score": 2,
+      "url": "https://reddit.com/r/interviews/comments/x3k9nn/if_anyone_can_give_their_opinion_on_what_i/",
+      "comments": []
+    },
+    {
+      "title": "Interview required me to attend on the same day of notice",
+      "body": "Hi,\n\nI had Two interviews for a certain company in a group setting. I aced both, today, I was asked to attend in the same day of receiving the email. I couldn't attend, so I apologized for my unavailability and asked to reschedule. Would that be okay considering they were asking me to be there the same day? There wasn't even a day's notice for me. I'm afraid I made a negative impression perhaps?",
+      "subreddit": "interviews",
+      "score": 7,
+      "url": "https://reddit.com/r/interviews/comments/rraioj/interview_required_me_to_attend_on_the_same_day/",
+      "comments": [
+        {
+          "body": "If this is investment banking @ goldman sachs id understand. If not then this is kinda BS",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "title": "New analyst position at Goldman Sachs",
+      "body": "Hello. I've recently seen that GS's accepting applications for the \"New Analyst\" position. I've just graduated from a Computer Science Department with a grade of 7.25/10 (Greek grading system) which is average. Should I bother prepare myself for the interview or I don't have chances? I've read that they hire only elite GPAs.\n\nIf I do have chances I intend to do some Statistics and Probabilities because I've seen that they ask this kinda of questions. I'm alreasy good with calculus, linear algebra so these Math fields won't be a problem. Also, I'm good at coding, which counts I guess.\n\nAny opinions from people who have already interviewed with them?",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/crdin6/new_analyst_position_at_goldman_sachs/",
+      "comments": []
+    }
+  ]
+}

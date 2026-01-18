@@ -1,0 +1,57 @@
+{
+  "company": "stripe",
+  "common_questions": [
+    "explain my logic clearly to the interviewer who is silent 90% of the time",
+    "explained it, I wrote all the edge test cases, and because of a single bracket misplace",
+    "explain my test cases, ie: validInputTestCase: int\\[\\] -&gt; int maxValue",
+    "described it as a dire situation I was in and I need to figure out how to get out of it",
+    "described was the bare minimum",
+    "explaining again I was already there for a confirmed interview with her",
+    "explain tradeoffs rather than learning many stacks superficially",
+    "why do you want to work here, etc",
+    "describe a time when you applied Stripe's values in a real-world situation",
+    "explained them to me",
+    "or reading tech blogs",
+    "tailored to Stripe’s values?",
+    "will likely revolve around Stripe's values like innovation, collaboration, and customer obsession",
+    "will likely revolve around how you've applied these skills in previous roles, so make sure to prepare examples that demonstrate your problem-solving abilities"
+  ],
+  "themes": [
+    "System design emphasis",
+    "Heavy focus on coding",
+    "Behavioral interviews important",
+    "Culture fit matters",
+    "Technical deep dive",
+    "Case study format",
+    "Multiple interview rounds",
+    "Take-home assignment"
+  ],
+  "interview_tips": [
+    "but do have some thoughts to add from a slightly more experienced perspective",
+    "on using \"I will sign right now if you can make $X happen\" at the end is another great tip",
+    "or even coaching, you can try emailing me at suryc011 [at] gmail [dot] com",
+    "going on Leetcode and searching for \"Design\" questions which will ask you to program things like a Snake game or a Hit Counter",
+    "actually, I've always LC'd in Python as you have access to all data structures and types without spending 10min (which is actually a lot) of your codi",
+    "to ask what would be appropriate to wear to the interview",
+    "applying if you're qualified",
+    "me what am i doing wrong here ?",
+    "reaching out on Blind or Fishbowl apps",
+    "you do a little research there"
+  ],
+  "red_flags": [
+    "want to rehash a debate over Big N / FAANG 'prestige' and am tabooing it here for reputation or brand value, which does have tangible benefits",
+    "feel like you're learning anything, speak up in your manager 1:1 (own your own career! and manage up), or explore other opportunities, internal or ext",
+    "willfully neglect blind spots",
+    "know how binary search works, you're going to struggle on a lot of problems",
+    "looking at code; then I'd reset the timer and try to implement those ideas; if I still couldn't get a solution, I'd finally look at people's code and",
+    "end up passing the former",
+    "think giving the first number matters much, but what does really matter is knowing your market value inside and out and standing your ground",
+    "be able to \"make it\" in tech"
+  ],
+  "process_insights": {
+    "typical_rounds": "4 rounds typical",
+    "timeline": "2-4 weeks",
+    "format": "Mix of phone screen, technical, behavioral, on-site, virtual"
+  },
+  "source_count": 55
+}

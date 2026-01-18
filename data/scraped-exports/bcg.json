@@ -1,0 +1,479 @@
+{
+  "company": "bcg",
+  "post_count": 27,
+  "exported_at": "2026-01-18T17:44:53.260Z",
+  "posts": [
+    {
+      "title": "I'm getting lots of great interviews but no offers. Am I screwing up the interview?",
+      "body": "I graduated cum laude from a top ten university in May.  I completed great internships every summer (not during semesters) but was very involved on campus.  I majored in English Lit. and I've interviewed with management programs at GE, Siemens, Qualcomm, and Cisco, product development at P&amp;G, final rounds in consulting with BCG, HR with Google, assistant producer at NBC, and some staff positions in Congress.  They seem like incredibly different jobs I've had to research and study each time I get interviews but they're not going anywhere.  Is something just clicking on websites with my resume and then the HR people are finding out that I'm not what they're looking for in an employee or am I screwing up?  (Throwaway since friends know account and I understand this sounds like snippy bitching when most aren't getting these chances)",
+      "subreddit": "jobs",
+      "score": 2,
+      "url": "https://reddit.com/r/jobs/comments/1qlg16/im_getting_lots_of_great_interviews_but_no_offers/",
+      "comments": [
+        {
+          "body": "Don't get discouraged.  You may not be screwing up.\n\nYou need to realize that each of these positions have hundreds of applicants*, and so those that get to the final round(which may include yourself) are of very high caliber.  All it takes is to be 2nd best in order to not get a call.\n\nI wish you the best of luck.  Keep applying, and eventually you will come across a position for which you are in 1st place for the call, especially with your qualifications.\n\n*If you're not cold-applying and are instead getting these interviews via references, realize still that there are probably others doing the same simultaneously who are probably also impressive.",
+          "score": 2
+        },
+        {
+          "body": "Let's ne honest here - it sounds like you are.\n\nYour resume sounds like it is great - it is doing its job - getting you interviews.\n\nNow you need to learn interviewing skills and be able to back up your resume to get to the offer stage...\n\nGood luck - getting to second base is an achievement in itself.",
+          "score": 1
+        },
+        {
+          "body": "Maybe you lack practical skills?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Interview Discussion - November 22, 2018",
+      "body": "Please use this thread to have discussions about interviews, interviewing, and interview prep. Posts focusing solely on interviews created outside of this thread will probably be removed.\n\nAbide by the rules, don't be a jerk.\n\nThis thread is posted each **Monday and Thursday at midnight PST**. Previous Interview Discussion threads can be found [here](https://www.reddit.com/r/cscareerquestions/search?q=Interview+Discussion+Thread&amp;restrict_sr=on&amp;sort=new&amp;t=all).\n",
+      "subreddit": "cscareerquestions",
+      "score": 14,
+      "url": "https://reddit.com/r/cscareerquestions/comments/9zbukv/interview_discussion_november_22_2018/",
+      "comments": [
+        {
+          "body": "I'm having my first technical interview with Facebook this Tuesday. My recruiter said I will be doing coding exercises and that they look forward to discussing my experience. How much of the interview will be about \"discussing my experience\"? I just want to focus on prepping for the coding questions and I wonder if I have to prep the STAR method and all that jazz for the behavioral part of the interview.",
+          "score": 1
+        },
+        {
+          "body": "I have a technical interview next week with BCG for an \"Analyst - Automation &amp; Programming\" position with BCG's GAMMA Advanced Analytics Group. I am a mid-level C#, .NET software developer with a focus on APIs and Integrations. I've never interviewed at a consulting firm like BCG before so I am looking for some pointers on how to study and approach the interview.\n\n&amp;#x200B;\n\nDetails:\n\n&amp;#x200B;\n\n\\-It's a 45 minute WebEx video interview. \n\n\\-Based on the job description, the role will be to support BCG's case teams. The focus seems to be on, Rapid Prototyping and Data Visualization. I have a little bit of experience with D3 to create visualizations but it's been more than two years since I worked with D3.\n\n\\-They want proficiency in JavaScript, Node, React and Express. D3, Bootstrap and D3 are pluses.\n\n\\-Other useful things listed include Data-cleansing, ETL, Design Pattern, NoSQL and Data Modeling. \n\n&amp;#x200B;\n\nQuestions:\n\n1.If anybody has experience ub interviewing for this sort of a role, please share your thoughts. \n\n2.And on a more general note, considering I about one week for the interview, what's the best resource to brush up JS, D3 and maybe a bit of React or Express?\n\n  ",
+          "score": 1
+        },
+        {
+          "body": "For those of you interviewing in C++, how do you represent infinity? (in applications such as keeping track of a running minimum when counting elements that satisfy some property in a container):\n\ni.e.:\n\n    int globalMin = INT_MAX;\n    for (int i = 0 .... ) {\n        ... \n        int currMin = some integer;\n        globalMin = min(currMin, globalMin);\n        ...  \n    }\n\nIs it fine to just use INT\\_MAX? Because if the container is say, a vector of integers, then it can actually hold more than INT\\_MAX elements, so should I use size\\_t INF = -1 instead (size\\_t is unsigned, so it overflows to the max value, pretty convenient)? What if my interviewer says he doesn't care, but then decides to be a silent dick and dock me for it? ",
+          "score": 1
+        },
+        {
+          "body": "When does Amazon post fall internships?",
+          "score": 1
+        },
+        {
+          "body": "I’ve only taken the C++ classes that’s before data structures and algorithms which I’m taking after the interview. My interview is around January 15th with capital one. How can I best prepare starting now? Any video links, books, websites would be great. For instance, I know leet code is good but should I practice a certain number of questions a day and if so, on what difficulty?",
+          "score": 1
+        },
+        {
+          "body": "Interview for a Java entry-level position in a few weeks, what should I study? ",
+          "score": 1
+        },
+        {
+          "body": "If I had an interview on Tuesday, when do you guys think I should hear back from them?",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "title": "is consulting really that bad or could be a nice place to start for juniors?",
+      "body": "Since uni, i heard from colleagues to avoid consulting at all cost. Long hours, low paid and it's better to enter a tech company, a product company etc. Some of my colleagues entered a telecommunication company where they really never go in burnout and never work over the 40hours. maybe they work even less. They chill af. sometimes bored. \n\nIve been job hunting for some weeks or months now and the tech or product companies are really hard to get in right now. Even new grad roles requires years of professional experience and it feels like those companies dont want to have a period to train you how to do the job but rather they want an engineer ready to deliver in day-1 even if you are a new grad. For example if they were looking for a backend eng. even if it's new grad, new entry position, they would like to see in your CV that you have all the tech stacks they are using and know already how to implement new stuff right away without any period of training.\n\nFeeling down in this kind of market situation i started to apply to consulting and received already some calls and interview with a person instead of the OA with timer and a rejection after that\n\nreading online i saw 2 situation:\n\n1. consulting is good. you will interact with a lot of new technologies and as a junior you will learn a lot of things in a period short of time even if this job requires more than 40 hours per week to do. you will work a lot and go into burnout quickly but you will learn a lot. Also, good tech firms will hires you because, if you survived that hell of a consulting world, means that you know how to work under stress and deliver, so probably you are a good engineer.\n\n2. in consulting you will learn nothing. nothing is clear, and you will waste your time. working in a consulting isnt even good on CV for a tech person. you will learn nothing and you just wasted a period of ur life for nothing. Also in consulting, they hire everyone with a tech background so you will be surrounded by the worst devs ever and learn nothing. better to work in a tech company\n\nwhich of those two case is the closest to reality? or maybe it all depends on the team you will end up with?\n\nCurrently i received a request from pwc and bcg x to decide a day for a call. Are those good to work with as a dev? Or maybe i should focus more on tech consulting like reply? So in this way i will be interacting with more tech technologies and it would be more beneficial for my career even if pwc and bcg are bigger than reply?\n\nOr i should completely avoid consulting and keep appliying to tech companies?",
+      "subreddit": "cscareerquestions",
+      "score": 25,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1h4tnzj/is_consulting_really_that_bad_or_could_be_a_nice/",
+      "comments": [
+        {
+          "body": "There is no general rule for the entirety of consulting. Some places have good wlb, pay, and interesting projects. Others are sweatshops that do nothing interesting.",
+          "score": 64
+        },
+        {
+          "body": "[deleted]",
+          "score": 21
+        },
+        {
+          "body": "Consulting is probably the most broad field possible, so it's really difficult to say one way or another.  \n\nFor what it's worth, I have quite a few friends in both PwC and BCG. \n\nMy own two cents - tech consulting for a big name firm is obviously better than being unemployed and it may even be superior than a traditional tech job IF you're not particularly passionate about anything.\n\nWhy? Consulting by nature tends to expose you to many different companies, industries, and use cases + dramatically expands your network. \n\nSo, you'll either love consulting itself or you'll have a great opportunity to jump ship in a few years to something you'd like to do more.\n\nSo, my recommendation is that both PwC and BCG are worth having a call with.  \n\nDo ask them what the interview prep is like though.  These companies tend to have their own brand of interview which may require additional prep and only you can decide if it's worth the effort.",
+          "score": 18
+        },
+        {
+          "body": "I was in a product company before and now work in consulting, so my personal experience:\n\nYou learn very different things there, in general if you want to learn how to build a software product and get deep into the technology, you should prefer a product company. However consulting has also some pros, you learn how large corporations work, how management thinks and how to sell your work. \n\nConsulting is very good at sales and would also say better in middle management. They are typically very chaotic, which can be fun because it never gets boring and they are good at improvising. However that lack of quality, the short term \"devil may care\" mindset and the buzzword driven development is really hard to deal with, if you are an engineer. \n\nThe employees are also incentivized to oversell and underdeliver and working is quite inefficient, because jumping from project to project. You can see a lot of different things, but it costs you specialization and you won't have many experts to learn from.\n\nHowever some other points might be interesting for you as well. Prestige is quite high, people are more extroverted and party a lot. There are also more women. And it's never boring and pays well, not time for money but absolute. And finally if you like nice hotels and visiting cities, you get that to some degree (often with not enough time to really enjoy it).",
+          "score": 6
+        },
+        {
+          "body": "I started as a government contractor with \"consultant\" as my title (although I was salaried) and eventually ended up being a faang engineer. Just get a few years experience coding, preferably in an area of interest, and you will get opportunities to move on to better things.",
+          "score": 6
+        },
+        {
+          "body": "Consulting is a crapshoot. It depends on the firm and the clients. \n\nPersonally it wasn't for me: low pay, very long hours, lots of traveling, expected to learn technologies extremely fast, dealing with multi layers of management from both client &amp; firm end, being on call a lot, and office politics galore. Mileage may vary. \n\nThat being said in this market, it will be fine for juniors. It definitely won't look bad on your resume as #2 suggested.",
+          "score": 8
+        },
+        {
+          "body": "[deleted]",
+          "score": 4
+        }
+      ]
+    },
+    {
+      "title": "Choosing between data science opportunities in tech, finance, and consulting",
+      "body": " \n\n**Background:** I was formerly a (non-computer) engineer who spent five years as an engineer in the manufacturing sector. Due to interests in programming and business analysis, I took the plunge to start a master’s degree in Data Science last Fall. Due to the reputation of the school and perhaps my unique background, I have been fortunate to get interviews for all sorts of data science related internships. I interviewed largely in tech, finance, and consulting. I recently opted for a FAANG Data Science position for the summer.\n\n**Outlook:** Looking forward to full-time recruiting in 2020, I technically have the options to recruit in any of those sectors I mentioned above and am largely uncertain as to which opportunities I should focus on. I’ve been stretching myself to learn about each of them- doing more practice on coding and machine learning projects, learning about corporate finance, derivatives, and algorithmic trading, and studying business strategy and case studies for management consulting roles. This is probably the last time where I’ll have infinite options at my disposal so I’d like to leave no stone unturned.\n\n**Scenario:** I feel like I’m stretching myself thin trying to position myself for interviews and full-time recruiting in all these industries and that may affect the quality of the preparation. This is especially the case because my pre-Masters background is in neither tech, finance or business strategy. It may be better to dedicate myself to one and invest all my time into it so that the quality of my preparation is better. At the same time, all those fields are competitive and I don’t know if I should be putting all my eggs in one basket. I also enjoy each of these fields for various reasons- they each draw on different skill sets that I enjoy using.\n\n**Questions:**\n\n1. Given the many areas where it is possible to work as a data scientist, how do you go about selecting the right industry or area to focus?\n2. If someone selects to go into a more traditional management consulting role (very little formal data science) with a top firm (Deloitte, BCG, etc), would that limit my options to work as a data scientist in the future or in a quantitative finance position down the line?\n3. I have no issue with working long hours which many of these fields require but is there any areas or companies where the expectation is for 40-50 hours? I’m thinking that if I can pursue additional interests in my spare time, choosing a role with fewer expected hours may allow me to continue to grow and figure out my long-term path on my own time.\n4. I have a bit of specialized industry experience in manufacturing- outside of consulting and finance, would those ever come in handy when working as a data scientist for a FAANG company?\n5. What should a data scientist who hasn’t worked in any of these sectors be aware of in terms of the job description or the demands?\n\nI appreciate any responses to any or all of the above questions. Thank you in advance.",
+      "subreddit": "cscareerquestions",
+      "score": 106,
+      "url": "https://reddit.com/r/cscareerquestions/comments/bdu75y/choosing_between_data_science_opportunities_in/",
+      "comments": [
+        {
+          "body": "1. Subjective, you should work whatever field you find more interesting.\n\n2. It depends, there's a broadening of the term Data Science right now and a Management Consulting Role would be on the less technical side.\n\n3.The issue is that roles that have fewer expected hours may not be the type of roles where you can learn more and gain the valuable experience that would be beneficial for your long term goals\n\n4.Yes kind of, Domain knowledge is equally as important as technical skill in the DS role. There are certain types of DS roles in Amazon or Apple where it would be beneficial to have manufacturing experience.\n\n5. Be aware that it will an uphill battle regardless of past experiences or education. It's a hot field with a hotter market.",
+          "score": 21
+        },
+        {
+          "body": "Hey, I’m on basically the same career path and have had an almost identical career as you.\n\nRegarding expectations for hours, I can tell you that varies highly by team. E.g in my internship we had teams who worked crazy hours while my team worked 45 hours tops.\n\nAlso, I wouldn’t expect a lot of accurate advice here as 1) the field seems very poorly defined to me 2) a lot of people on this sub who comment about data science don’t actually do data science related work.\n\nIn my experience (mostly from working at several manufacturing companies) there is not a lot of domain specific preparation you can do for a particular role, as every company does different things. For example I worked at two plastics companies in similar teams, but the approaches of each team was different. For data science, you are lucky that you have basically the same set of tools regardless of the role (unlike in manufacturing or product design).\n\nMy focus is on applying those tools to the area where I have a lot of specific experience (process design) and showing how deep I can go in one area. To me that specificity helped me get my internship, and I think it makes people confident that I can go deep into other domains as well. Just my experience....",
+          "score": 6
+        },
+        {
+          "body": "1. In my experience, domain knowledge is important but often less important that technical knowledge. With appropriate technical ability you should be able to move between industries relatively easily. Even in quantitative finance entry level positions will not require previous finance experience. With that in mind take the job that you find most interesting and the one that gives you the greatest opportunity to grow your skills.\n2. Probably to almost certainly. A traditional management consulting role is less technical (bordering on non-technical). You'd probably need to make an intermediate step, either to education or a less selective company, before receiving a quant or more technical role.\n3. Of course. I'd caution that you'll probably learn more at a fast moving job (with longer hours) than you will doing side projects. It will also be easier to market that experience for your next position.\n4. ¯\\\\\\_(ツ)\\_/¯\n5. A job description/interview that is heavy on domain knowledge is probably closer to a data analyst than a data scientist. By that I mean you will be more business focused than analytically/statistically focused.",
+          "score": 2
+        },
+        {
+          "body": "1: Chose whatever you enjoy most, and from there on out I would select the sector that offers the most personal growth potential (or salary) \n\n2 Typically knowledge of data science mechanisms, pipelines and so on are required for those positions. An information systems master degree fares well in those positions but I guess it's easy to broaden a function like this up to more people. Deloitte offers plenty of opportunities to enhance yourself further though, and many top companies do. I think it's more a matter of you restricting yourself because there's plenty of opportunities as consultant for Deloitte to grow into upper management and go more into the finance side of things. It does however obviously limit you in getting senior dev / tech lead roles because that's not really your job. \n\n3 In the Netherlands my friends who work at Deloitte rarely have workweeks over 40 hours only if something bad happens or emergencies. However if you also want to pursue learning additional stuff beyond your job function it might easily consume more hours due to you wanting to learn more. \n\n4 Can be for some jobs, would feel utterly useless in others (obviously). \n\n5 Try to actually find a data scientist job if you really want to do data scientist jobs. There are many jobs listed as 'data science' that are actually just managing excel sheets with once in a month running a python program to do something. If you're interested in big data applications try to go for that. \n\nIt seems more overall that you need to make your mind up in the specific direction which you want to go. Considering you are doing currently a master degree, maybe you're more aware after your thesis. Or you could do your thesis in an area that interests you and where you might want to be employed in. I'm sure you'll find employment though considering your background and the master's degree helps a lot.",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Getting a UX/UI design job (Deloitte Digital/BCG Digital Ventures/Anywhere?) without a graphic design/engineering background?",
+      "body": "Hi guys,\n\nQuick background on my story: Was an accounting major in College (graduated 2015) - did an audit internship at Deloitte and hated it. Upon graduating I found a gig as a BSA at consulting company and have been working here for about a year and a half. It is not too technical / more focused on doing requirements gathering and implementation work - I am also the Product Owner for this SFDC project and manage the backlog. I've found that the most interesting parts of the work is during the design phases: user research, creating personas, user journies/scenarios, wireframes, etc etc more than anything.\n\n\nNow that I've gotten a taste of it I'm so infatuated with UX/UI. I've been trying to do pro-bono work for the UX division at work, been taking classes on MOOCs, reading books during my commute etc etc. I've heard that it's difficult switching into UX/UI at a tech company or startup if you don't have formal a engineering background, experience in design, or come from an art design school of some sort. Apologies if this has been asked before, but how does one position themselves into UX/UI? Do you need to be technical to develop the front-end layer on your own? Do you need to do some web development and start creating a portfolio to show companies? Should I try to apply for a masters in HCI? Try to pivot into UX/UI for a few years at my current company?\n\nAppreciate any help or insight. Thanks.",
+      "subreddit": "cscareerquestions",
+      "score": 2,
+      "url": "https://reddit.com/r/cscareerquestions/comments/5ktk5j/getting_a_uxui_design_job_deloitte_digitalbcg/",
+      "comments": [
+        {
+          "body": "Hi! I'm in UX.\n\nYou're actually in a good position to transition into UX considering the fact that you're a PO at a tech company. The aptitude and interest are clearly there. The hardest part for you will be convincing hiring managers and potential UX coworkers that you're not going to introduce too much bias into the process.\n\nI recommend crafting your resume around any UX-related initiatives you drove, and any instances where you advocated for UX as part of your job as a PO. You would also be someone who would benefit from having a cover letter and/or objective statement on your resume that specifically explains why you're looking to transition into UX, what value you can bring from your experience as a PO, and what skills you're lacking/would like to develop.\n\nYou do not need to be a developer to be a UX practitioner, but you should figure out which aspects of UX appeal to you right now, and which job titles align with those interests.\n\nLet me know if you have any other questions 👸",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "(SWE Internship) Capital One versus Walmart Labs versus Chicago Trading Company",
+      "body": "Hey everyone, \n\nI wanted to ask if people had opinions on SWE Internships at Capital One, Walmart Labs, and/or Chicago Trading Company and which one I should choose. Here are more details about the offers:\n\nCapital One: \n\nPay: 105k yearly rate (\\~$51/hour) + $3000 lump sum for housing even if virtual\n\nLocation: McLean, VA (right next to Washington DC) \\* this is their HQ btw \\*\n\nWork: Not sure, hoping to place into an ML team; I think you work with full-timers but on your own project\n\n&amp;#x200B;\n\nWalmart Labs:\n\nPay: Still waiting for an official offer letter (GlassDoor suggests like $45-50/hour but I would appreciate if anyone had any info on this because there is little data)\n\nLocation: Sunnyvale, CA (Walmart Labs) + housing (idk if they pay it if we're virtual)\n\nWork: Not sure, but probably related to eCommerce for Walmart or sam's club; I think you work with full-timers but on your own project\n\n&amp;#x200B;\n\nChicago Trading Company (don't actually have the offer yet, but had a final round interview so that should hopefully work out):\n\n\\*\\* A small (\\~600 employees) prop shop specializing in options market making (really liked the people I talked to there) \\*\\*\n\nPay: Glassdoor suggests 7500/month, which is like 45-50/hour + housing (idk if they pay it if we're virtual)\n\nLocation: Chicago, IL\n\nWork: Likely an independent project (with significant mentorship) that is creating tools for traders\n\n&amp;#x200B;\n\nI also am in the interview pipelines with JPMorgan Chase, Bloomberg, and have some other random offers from places I will likely not consider anymore. However, I do have an extremely busy semester, so I was wondering where it's even worth continuing to interview considering the offers I am fortunate enough to have. \n\n&amp;#x200B;\n\nThe most important things for me are learning opportunities and working on cool things like ML, data engineering/infrastructure, backend. I do want to consider the name reputations too because I intend on pursuing management consulting roles next fall (McKinsey, Bain, BCG) and they care about that stuff, so also would appreciate opinions on this. I appreciate any insight (currently in sophomore year if that helps) thanks!",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/jgcb29/swe_internship_capital_one_versus_walmart_labs/",
+      "comments": [
+        {
+          "body": "I accepted an offer from Capital One for their TIP program in McLean and i also go to UIUC like you! So feel free to hmu if you want to chat about it.",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "title": "BCG Digital Ventures Intern Review",
+      "body": "Has anyone interned with BCG Digital Ventures as a Software Intern? What are your opinions and what should I expect in the interview?",
+      "subreddit": "cscareerquestions",
+      "score": 2,
+      "url": "https://reddit.com/r/cscareerquestions/comments/5saze1/bcg_digital_ventures_intern_review/",
+      "comments": [
+        {
+          "body": "Haven't interned there, but I worked with BCGDV on a project. Folks were topnotch and the Manhattan Beach offices are great.\n\nGiven the nature of their projects, you can probably expect typical SW tech interview questions as well as 'soft skill' questions to assess how you might work in a fast-paced project with occasionally changing priorities.",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Got my first round of BCG interviews tomorrow! Any last pieces of advice?",
+      "body": "",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/9thdyi/got_my_first_round_of_bcg_interviews_tomorrow_any/",
+      "comments": [
+        {
+          "body": "What's BCG?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Gap-Year Internship: Roland Berger Event Management, Henkel Brand Management, or Wait for BCG University Marketing?",
+      "body": "Hi everyone,\n\nI’m facing a pretty tricky dilemma and could really use your advice.\n\nI’m planning a gap-year internship. So far, I’ve mainly aimed at consulting positions, but haven’t had much success because my resume doesn’t show much direct consulting experience.\n\n  \nHere’s my current situation:\n\n* Roland Berger: Offer for Event Management. Prestigious company, but the role is organizational/administrative and not classic consulting. I estimate that a first response or offer will come before my BCG interview—possibly already this week.\n* Henkel: Interview for Brand Management this Friday. Fits my marketing background, but again not consulting. It’s unclear whether an offer will follow.\n* BCG: Applied for University Marketing &amp; Event Management. I already had an initial phone call where my availability was discussed. The exact date for the first interview is still unknown, likely not until next week\n\nAll internships are six months long. This adds another challenge:\n\nIf I accept a six-month internship that is not consulting-related, I would only have one remaining internship slot for the rest of my gap-year. This limits flexibility—for example, I wouldn’t be able to split the remaining months into shorter internships and still fit in a consulting-focused one.\n\nMy dilemma:\n\n* Should I take the safe offer from Roland Berger and potentially miss out on BCG?\n* Should I wait for Henkel, even though the interview happens after Roland Berger’s potential offer?\n* How can I professionally manage timing without appearing to “hold” offers? How long is reasonable to wait, and how can one request more time without jeopardizing the offer?\n\nThe tricky question is: Does it even make sense to do organizational or marketing-related work at consulting firms if my ultimate goal is to get into consulting itself?  \n\n\nI’m balancing two goals:\n\n1. Strengthening my resume with a reputable company\n2. Getting as directly as possible into consulting\n\nHow would you approach this? Have you faced similar timing challenges? What would you do in this situation?\n\nThanks in advance for your advice!\n\n",
+      "subreddit": "jobs",
+      "score": 0,
+      "url": "https://reddit.com/r/jobs/comments/1n29ye1/gapyear_internship_roland_berger_event_management/",
+      "comments": []
+    },
+    {
+      "title": "Applying for BCG",
+      "body": "Hi everyone - I am planning to apply for an open position at Boston Consulting Group (BCG). I know this company hires from reputed colleges but I did my bachelors in a mediocre college and I know I am fit for the role and I have very good experience in my current employer. I would love to hear your suggestions or comments on how to get an interview call from them? I think my resume is strong enough. I am assuming a great cover letter is needed? Please advise. ",
+      "subreddit": "jobs",
+      "score": 0,
+      "url": "https://reddit.com/r/jobs/comments/1axpf4j/applying_for_bcg/",
+      "comments": []
+    },
+    {
+      "title": "Why am I being rejected time and again from BCG back end role?",
+      "body": "I got a call from an HR recruiter in July about an open position at BCG Bangalore office for which I interviewed but did not get selected. \nI again applied through a referral for another role that suits my profile EXACTLY but got rejected in the CV screening stage itself. I don’t understand why this is happening. Am I supposed to wait for sometime to reapply after being rejected once from BCG or is there some other reason? I know people who are probably less skilled than me and are working in the company for the same roles that I applied for but didn’t get through. How does that happen?",
+      "subreddit": "jobs",
+      "score": 0,
+      "url": "https://reddit.com/r/jobs/comments/xj1jo5/why_am_i_being_rejected_time_and_again_from_bcg/",
+      "comments": [
+        {
+          "body": "Hello, thank you for posting to r/Jobs!\n\nWe just wanted to let you know that we have a new [discord server, come join the chat!](https://discord.gg/TY6ErXV)\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/jobs) if you have any questions or concerns.*",
+          "score": 1
+        },
+        {
+          "body": "Maybe apply to a different company?",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "title": "How real is the 'culture' of CS? Why does this stereotype still exist?",
+      "body": "Apologies for the stereotype, but I do feel that CS often gets labeled as a nerdy or geeky field. You know the guys (and by guys, I mean no women [another stereotype]) who go to Hackathons, code all day, play video games and debate Marvel vs DC. I've talked to my friends who graduated from CS, worked in the field for 5+ years, or started their own gaming company and they do share the same sentiments: geeky people are successful in this field or just really passionate about it. Looking at Zuckerberg, he doesn't seem very personable.\n\nPersonally, this is very intimidating for someone who does not come from that sort of background. For me, I've spent the past 7 years working in banks and accounting firms. I can relate to the culture of these financial services: dress in a suit, talk business, have a M-F 9-5 job, talk sports during downtime, etc....basically a businessman. However, I am planning to do a career switch because I generally enjoy learning about CS and want to become a Software Engineer. I just don't know if I fit the culture.\n\nAre there any career changers out there who went from business to software-engineering? Can they confirm or deny this stereotype?",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/3pvcok/how_real_is_the_culture_of_cs_why_does_this/",
+      "comments": [
+        {
+          "body": "You'll be fine. It really probably depends on where you work though. The main topic of conversation in my office is fantasy football. I don't think programmers are really that nerdy anymore it is a lot more mainstream now.",
+          "score": 3
+        },
+        {
+          "body": "Just different sub populations. I think the biggest is that of the nerds/geeks, but that's because a pretty big element of software is sitting in front of a computer vs interacting with people. You like a suit and business? Go out and make a ton of money in that sector. \n\nYou'll be fine, doubly so if you have people skills. ",
+          "score": 2
+        },
+        {
+          "body": "I don't think this stereotype exist to the degree you're thinking, if at all. Theres tons of culture of different culture, depending on the team you're working with. Most teams are diverse enough so not everyone is a hackaton/star wars/ videogame/ whatever stereotype geek you're talking about. \n\nAs worked as a financial analyst for a while and now studying CS. Worked as a software engineering intern in a few places and found plenty of full timers that could give a shit less about hackatons, video games, or coding outside of work. They like drinking beer and watching sports. Then I work with teams where you have a few guys are like like hell yeah hackatons and star wars.\n\nIt's definitely a mix, just like in any other field. Are all accountants shy and boring?",
+          "score": 2
+        },
+        {
+          "body": "I mean, everyone is a little bit of a geek.\n\nNo one is going to greet you on the first day of the job by quizzing you to see if you're a level 99 comic book reader. Geek culture often means chatting about some movie or making silly references or being invited to a game night, but software people aren't as socially inept as you might assume. They also talk about sports, tech business news, their families and so on.\n\nFWIW I'm a lady person and I'm a bit of a geek, and at my work I have friends who share my interest in heavy metal music. That's not exactly the stereotype, but actually as someone whose FB is full of people who travel to festivals, a lot of us are in IT in some capacity or another. Seems like 90% to me.\n\nThe thing about hackathons though is a separate issue. You'll be able to see pretty quickly though if an employer expects you to always be \"on\" and programming. I suppose you can look up some of their devs on LinkedIn to get an idea.",
+          "score": 2
+        },
+        {
+          "body": "This industry and the people in it are too broad and varied to apply this stereotype to *all* of them. Of course you'll find teams or companies with extreme nerds on them. But you'll also find teams that aren't like that. \n\nI work in a large (5000 people) e-commerce company. I am a woman (gasp!), and I work on a team with people who like sports, cars, those cute little helicopter drones you can buy now (we sometimes race them around the building), rock-climbing, hiking, cooking, and poker. Yeah, some of us also like video games and comics and anime, but I actually had a team member not know what League of Legends is the other day. For every few people in my company who stay late at work to play video games or board games with co-workers, we have groups of people who like to go to the gym or rock-climbing or biking on weekends. \n\nDespite the sterotype of the fat sys admin types with full-blown autism hiding out in the back server room, you'll find that many software developers have to be personable and learn good communication skills for the job. We are often tasked with interacting with business owners, QA, operations, and many other people in order to complete projects. \n\nBasically, you have to vet your company, team, and culture to the best of your ability. When you interview with people, feel free to spend time asking them about the team's culture, what the people are like, how they get along, etc. ",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "What's the deal with digital branches of MBB? (Digital McKinsey, BCG Digital Ventures, Bain Digital)",
+      "body": "Hi everyone, [I](https://www.reddit.com/r/userexperience/comments/8p9mla/whats_the_deal_with_digital_branches_of_mbb/?utm_content=full_comments&amp;utm_medium=message&amp;utm_source=reddit&amp;utm_name=frontpage) originally posted this on [/](https://www.reddit.com/r/userexperience)r/consulting but I'm interested to see if anyone has insight on the digital arms of MBB on this sub. I've been browsing online and I'm seeing lots of conflicting info, some people are saying (on Glassdoor) these firms are more of a glorified and overpriced agency and a marketing vehicle for legacy firms to appear more \"innovative\". Other info I'm seeing is that employees of these firms are more *operators* rather than consultants, and have a strategic working partnerships within a corporate VC model.\n\nThese places seem like interesting places to work, does anyone have info on how these firms operate (outside of the PR friendly material found online)? From my understanding getting an MBB job is vey much based on credentialism in terms of having high marks from top schools. Do these digital branches follow the same hiring practices or it more based on proven experience and skillset?\n\nIf someone were to have, say, \\+5 years experience at a brand name firm (e.g. F100, Government, elite agency) would they give you the time of day for an interview?\n\nAny insight would be great. Thanks",
+      "subreddit": "cscareerquestions",
+      "score": 27,
+      "url": "https://reddit.com/r/cscareerquestions/comments/8pv484/whats_the_deal_with_digital_branches_of_mbb/",
+      "comments": [
+        {
+          "body": "Replying because no one else has. I think this depends on what kind of role you're applying for. In Australia, which I believe is far less competitive than the US, I've known people who have gotten interviews with Digital McK as a business analyst with average credentials (70-80 average vs. 85+ for non-digital), though they had great work experience. This was coming out of university. \n\nMy experience with MBB have been that it's an extremely elitist, intense and high pressure culture. The people I talked to at McK (consultants) said that they focus mostly on digital strategy, but they also have an implementation arm that will implement it after the strategy work. My understanding is also that generally the only time you can enter MBB is right after graduating from a degree (any level), unless you're already in consulting. \n\nIf you spend 3 years as a dev at Google, then want to pivot into consulting, you'd have to apply at entry level like other grads, because your experience isn't \"right\", unless you can demonstrate that you've developed relevant skills. If you were in tech consulting for a while, you're more likely to get an interview, but you really need to show that you've achieved in your past roles. \n\nThey still follow stringent hiring practices, but they're slightly more lenient than non-digital. MBB also hire a lot of data scientists / software engineers, but I don't know much about them.  ",
+          "score": 6
+        },
+        {
+          "body": "[removed]",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Getting into product management from a business background?",
+      "body": "Hey all! Hoping to get some opinions on how achievable it is to move into product management as someone with a business background.\n\nI founded my own business for four years before getting a degree at UC Berkeley; did a non-tech internship as a PM at a big tech company, and have been working at a \"top\" consulting firm (McK/Bain/BCG) for the past year working with tech clients.\n\nConsulting is too much thinking and not enough action. I'm an entrepreneurial dude who wants to be close to the product and their users and actually make shit happen.\n\nI interviewed at FB for PM recently (they recruit from our company) and thought I had a great final round, but didn't make the cut. Learning about the position made me fall in love with the role, but it's been hard finding opportunities for someone without a CS degree. I don't shy away from code, but certainly don't have any formal background.\n\n**How does a guy from a non-technical background get a foot in the door as a PM?** Meet people? Build stuff and make a portfolio? Start praying?\n\nThanks a lot! Would really appreciate any advice. :)",
+      "subreddit": "cscareerquestions",
+      "score": 6,
+      "url": "https://reddit.com/r/cscareerquestions/comments/22hemb/getting_into_product_management_from_a_business/",
+      "comments": [
+        {
+          "body": "[deleted]",
+          "score": 3
+        },
+        {
+          "body": "Actually, there are plenty of entry-level PM programs for those who don't have a technical background. I do have a CS degree, but some of the places I interviewed with did hire business-heavy PMs. Look into Intuit's RDP Program in Product Management and TripAdvisor's Product Rotational Program. Places that do seem to prefer technical backgrounds are Facebook, Google, Yelp, LinkedIn.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "very lost on what to do",
+      "body": "'m a student (senior) studying computer information science/data sci at cornell. not to sound like a sob story or anything but my family is really poor and could def use an extra hand in the household. I've looked into consulting and can see myself doing it and have done an internship as well. Also should I go to business school? Is this endgame for me? I should have tried to secure a internship on these companies ( BCG, Bain before)!\n\nI know the big4 pays a bit (anyone know if its 6 figures for entry level? and if so which role?) Im grateful for all the resources I have but feel guilty for not utilizing them properly. I've been feeling super sad and regret not knowing what I wanted early on my cornell career.\n\nI know I should have known a lot of this information earlier and really done my research since my freshman year but I was set on doing something else.I've interning somewhere this summer (a boutique strategy consulting firm) in NYC! It was a great experience but im still waiting if they give me a return or not and I don't know if it will pull though (update: I have no idea)\n\ntdlr: I'm a senior rn and aiming to secure a full time offer after grad this year in any consulting good salary role. (low income/first gen student so this is def important to me). I'm super scared and really don't know what to do. I'm started to get into casing by getting the book case in point by victor Cheng but know pretty much nothing about it and how to prepare for these types of interviews. Also its already Dec and I know recruiting starts super early so I might have missed a lot of deadlines for full time 2026 summer. I participated in the Deloitte like insights consulting program and ey last year but don't know where to go from them. I don't know I thought that would have helped me. Super scared and would appreciate any advice! I'm also thinking if business school is a path I should consider as well.",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/1pphzy4/very_lost_on_what_to_do/",
+      "comments": []
+    },
+    {
+      "title": "Company hired a large consulting firm to consult on on a small department. What are the chances I lose my job?",
+      "body": "I work for a large tech company (20,000+ employees) I got caught up in a reorg and was moved to a new department. Higher ups don’t think this department (&lt;50 people) is producing enough work, so they’ve hired BCG to come in and interview everyone. I’m a bit annoyed since I’ve been on the new team only 2 weeks, and now very on edge.\n\nWhat are the chances I will end up losing my job? And how do I fight to keep my job? What do these consulting firms look for?\n\nI just feel a bit nervous. I don’t feel I should be lumped into the new department’s work since I literally just got moved there. \n",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/1bejvl9/company_hired_a_large_consulting_firm_to_consult/",
+      "comments": []
+    },
+    {
+      "title": "Junior Analyst Role Requirements at Boston Consulting Group",
+      "body": "Hi, is there any one who has worked as a Junior Analyst at BCG or knows how to nail this role starting from application to interview? Some of the requirements are obviously written by non technical people because no candidate will know everything so is there any set rule to stand out of the crowd and if so could you please guide?\nAll suggestions welcome. Thanks in advance!",
+      "subreddit": "jobs",
+      "score": 3,
+      "url": "https://reddit.com/r/jobs/comments/oqu76b/junior_analyst_role_requirements_at_boston/",
+      "comments": [
+        {
+          "body": "Hello, thank you for posting to r/Jobs! \n\nWe just wanted to let you know that we have a new [discord server, come join the chat!](https://discord.gg/TY6ErXV)\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/jobs) if you have any questions or concerns.*",
+          "score": 1
+        },
+        {
+          "body": "I worked at BCG a few years ago. Not in that role, but was good friends with the recruiting team. They said that they look for people with the right problem solving skills, not people with the correct answer. It's really important to show how you think and the steps you take to solve the interview questions. My friends in the consulting and analyst roles would be on such a variety of projects, so the ability to adapt and think critically are the key to success. \n\nNot sure if this helps at all, but good luck",
+          "score": 4
+        },
+        {
+          "body": "Check out r/consulting. Maybe even r/MBA as well to hear from other BCG and other former and current consultants.",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Got a call from BCG X for a 15-minute HR interview for 2026internship – need help with interview prep!",
+      "body": "I’m a 2026 Master’s student. I passed two technical assessments for Software Engineering and Data Science and received an email from BCG X for a 15-minute HR interview, but they didn’t specify the role.\n\nIf anyone here has gone through the process or knows about it, I’d really appreciate your input on:\n\n* What the interviewer will expect from me.\n* The kind of questions they usually ask (technical/behavioral).\n* Key topics to focus on. Some topics the HR mentioned are SQL and data manipulation.",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1ofp5ve/got_a_call_from_bcg_x_for_a_15minute_hr_interview/",
+      "comments": [
+        {
+          "body": "Congrats on making it past the technical rounds! For BCG X HR calls, they usually ask basic behavioral stuff plus some light technical questions to confirm you know what you're talking about.\n\nSince they mentioned SQL and data manipulation, brush up on basic queries and be ready to explain your approach to data problems. Nothing too crazy for a 15-minute call.\n\nI would recommend preparing with some mock interview tools. I've done the same - at least for someone like me who gets anxious a lot, they really help. There are multiple tools available; I tried Final Round AI's mock interview, and it's quite good for consulting prep.",
+          "score": 2
+        },
+        {
+          "body": "Any news ?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Got a call from BCG X for Junior Data Engineer – need help with interview prep!",
+      "body": "I’m a 2025 college pass-out and just got a call from BCG X for a Junior Data Engineer role.\n\nIf anyone here has gone through the process or knows about it, I’d really appreciate your input on:\n\n1. What  the interviewer will expect from me .\n\n2. What kind of questions they usually ask (technical/behavioral)\n\n3. Key topics to focus on?\nSome topics HR told me about are sql and data manipulation.\n\nHow much coding vs design vs theoretical knowledge is expected?",
+      "subreddit": "interviews",
+      "score": 3,
+      "url": "https://reddit.com/r/interviews/comments/1khqzcx/got_a_call_from_bcg_x_for_junior_data_engineer/",
+      "comments": [
+        {
+          "body": "had a friend go through there last year as a data engineer and I can tell you what they experienced.\n\nthey're looking for technical skills but also problem-solving ability. For junior roles, they understand you might not know everything, but they want to see how you approach complex problems and if you can learn quickly.\n\nquestion types\n\n   \\- SQL heavy (joins, subqueries, window functions)\n\n   \\- data manipulation scenarios (cleaning messy data, transformations)\n\n   \\- dome basic data modeling concepts \n\n   \\- behavioral questions about teamwork and how you handle challenges\n\nfocus areas\n\n   \\- SQL: really nail the fundamentals and some intermediate concepts\n\n   \\- data pipelines: understand ETL/ELT concepts\n\n   \\- python: basic data manipulation with pandas\n\n   \\-problem solving: think out loud during technical questions!\n\nthe interview mix is roughly 60% technical (SQL + coding), 20% design concepts, and 20% behavioral. they care a lot about your thought process, so always explain your reasoning.\n\nmy friend had 3 rounds: a SQL assessment, a technical interview focusing on data pipelines, and a final round with more behavioral + some design questions.\n\nif u wanna practice with actual BCG engineers or other data folks before the interview, there r coaches who do mock interviews specifically for BCG X roles.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Interviewer screamed at me during the interview",
+      "body": "I'm sharing this story in case you’re thinking of applying to this startup, so you’re not blindsided by the behavior of the people working there.\n\nI applied for a Founding position at an AI Supply Chain startup based in Vietnam. The job post made it seem like an international startup, highlighting that the team had Silicon Valley experience. Although there were some red flags like having to tick off an extensive list of tasks you’ve done or are willing to do, I still sent in my application.\n\nThat same day, I was able to schedule an interview with the CEO, who initially seemed level-headed. He emphasized that they were building an international team and want everyone to be based in Vietnam. After that, I was given a test (I even scored 100% in one section) and was scheduled for what they called a “Case Study” interview with other members of the team. The CEO mentioned that they had a very strong recruitment process, so I assumed it would be similar to how BCG or Bain conduct their case assessments.\n\nFirst “Case”: I was asked to improve an Indian graduation process workflow in a google sheet. The instructions, if any, seemed vague to me, but I answered anyway. The interviewer was fine, though the conversation flow wasn’t natural, maybe a language barrier issue.\n\nSecond “Case”: I was told to create a Go to Market plan for a pre-seed “Zapier” targeting enterprise customers in 10 minutes. This was another red flag. The actual startup is pre-seed and wants to reach enterprise clients in the supply chain industry (what a lazy “case” imo!). Worse, there were no data points: no problem statement, budget, or timeframe. Just a vague prompt.\n\nThe interviewer seemed irritated from the start even when I was just asking clarifying questions (he mentioned I just make things up like budget and timeframe etc) and didn’t bother to understand what I was saying. Whenever I tried to explain my answers, he raised his voice, to the point of shouting (He literally screamed *“WHY DO YOU THINK ACCOUNT-BASED MARKETING WORKS??)*\n\nI had to call him out and told him his tone was aggressive (I used the word \"pointed\" which he didn't understand so he made me repeat it), and if he didn’t calm down, there was no point in continuing the interview as I was convinced this was part of their company culture, and who would want to work for a company like that??? He seemed embarrassed and tried to laugh it off, saying he was just “challenging” my ideas. Like, WTF? Case interviews are meant to evaluate how a candidate analyzes and structures their thinking, not to intimidate them or prove them wrong.\n\nHe got so flustered by his own behavior that he quickly ended his portion of the interview “in the interest of time” and passed me to the final interviewer-the only Vietnamese person on the team. I honestly wanted to just end the interview but I also was curious if the jerk-meter gets crazier as we go lol.\n\nThird interviewer: The only person from that startup I’d actually consider working with. Chill guy, professional, and polite but by then, I was completely checked out. All I could think about was the irony: the job ad emphasized wanting “multicultural and global-minded” candidates, yet the existing team acted like they were running a dev shop. I even asked him if he was happy working there and dude had a long pause.\n\nI messaged the CEO about the incident, but there’s been no response- which is pretty telling. Honestly, I feel like I dodged a bullet. Some people might say, *“Just let it go, it could have been a great opportunity and turn into a career highlight”* but I believe in setting boundaries even in a process where the power dynamic is tipped. You should always call out unprofessional behavior even if it means you losing an opportunity.\n\nStartups don’t have to be toxic environments.",
+      "subreddit": "interviews",
+      "score": 98,
+      "url": "https://reddit.com/r/interviews/comments/1oj458f/interviewer_screamed_at_me_during_the_interview/",
+      "comments": [
+        {
+          "body": "\\&gt; I even asked him if he was happy working there and dude had a long pause.\n\nYep. Doesn't sound like a safe place to work. \\*Any\\* workplace that involves bosses screaming at team members would be a non-starter for me. Screaming during an interview is a huge red flag -- both sides are expected to be on their best behaviour.",
+          "score": 50
+        },
+        {
+          "body": "UPDATE: CEO responded thanking me for bringing my concern up and that they will use it to improve their processes. Mentioned they removed the second \"case\" scoring in my application and still decided to not move forward with my application. Yeah, no sht I'm not a culture fit. At least I know it's not a \"me\" issue (I aced the tests, yall just have questionable peeps). Can't reject someone who already backed out. \n\n  \nNo apology from either \"CASE\" 2 guy or the CEO. lotsa AI startups popping up lately so make sure to do your due diligence.",
+          "score": 29
+        },
+        {
+          "body": "Name and shame company here bro??",
+          "score": 8
+        },
+        {
+          "body": "You scream at me and I walk. Every time. If I got the interview through an agency, I’m on the phone with them before I get to the parking lot.",
+          "score": 5
+        },
+        {
+          "body": "they want founders  \nbut treat candidates like interns\n\nany “case” that’s vague, unscoped, and delivered with attitude isn’t a test of thinking  \nit’s a flex  \nbad managers hide behind fake pressure to feel powerful\n\nyou did the right thing calling it  \nnot just for you - but for the next person who might get blindsided\n\nthis wasn’t a missed opportunity  \nthis was proof you’ve got standards  \nkeep them high  \nyou’ll attract people who know how to build without screaming",
+          "score": 3
+        },
+        {
+          "body": "i did sort of appreciate one interviewer who took the time to chew me out and kind of give me some pointers in this year’s worth of never having to interview in fucking 12 YEARS’ WORTH. but that was still unnerving to say the least.",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "I am attending a coding round in BCG X tomorrow.",
+      "body": "I have attended a few interviews since I quit my last job and I want to be prepared for my interview. If any one can help me with the questions they ask in coding round would be very helpful.\n\n",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1ozqckw/i_am_attending_a_coding_round_in_bcg_x_tomorrow/",
+      "comments": [
+        {
+          "body": "For the coding round at BCG X, the common pattern I saw was leetcode style mediums focusing on arrays and strings, sliding window and hash maps, plus an occasional BFS on grids and a simple DP. I had a BCG X screen last year and they cared a lot about how you talk through tradeoffs and edge cases. What helped me was running 45 minute mocks with Beyz coding assistant using prompts I curated from the IQB interview question bank, then keeping a tiny redo log of mistakes. In the interview I always restated the problem, offered a brute force, then an optimize, tested edge cases, and gave time and space complexity. Good luck tomorrow, you got this imo.",
+          "score": 1
+        },
+        {
+          "body": "[removed]",
+          "score": 1
+        },
+        {
+          "body": "Hello,  \nHow was test ? was it for SDE role?  \nCould you tell what kind of questions to expect.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "I interviewed at BCG X for a software role.",
+      "body": "I cleared 2 OAs of BCG X and they told me that all 3 rounds of interviews will be on 2 consecutive days. I cleared 2 rounds and called the HR he told that you’re shortlisted for next round but we don’t currently know when it’s going to be.\nIs the HR ghosting me or someone also faced similar situations at other companies?",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1kxif4o/i_interviewed_at_bcg_x_for_a_software_role/",
+      "comments": [
+        {
+          "body": "tbh, flip a coin. can go either way.\n\neither its true because they are waiting for x y z manager and/or approval. or everything is still in limbo with hiring budget or they actually dont know because most probably they are waiting from other higher ups.\n\nyes happened before. I would send a follow up email in a week or so. more than 2 weeks and I would consider non successful application",
+          "score": 2
+        },
+        {
+          "body": "Hi buddy, any update on this ?",
+          "score": 2
+        },
+        {
+          "body": "They said earlier most probably they’ll onboard in june. So now finger’s crossed i’m waiting",
+          "score": 1
+        },
+        {
+          "body": "I gave my second round a few days ago. Even my HR didn’t bother to call. I tried calling, but there was no response. The website still shows the application as 'under review'. So I’m not sure if they’re ghosting me or not, because my second round went well.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Why am I so inconsistent with MBB case performance? One day great, next day awful.",
+      "body": "I’m preparing for McKinsey, Bain, and BCG interviews, and the inconsistency is honestly driving me crazy. Some days I handle cases smoothly, clean structure, solid math, clear insights. The next day I fall apart on something basic like market sizing or interpreting a simple chart.\n\nIt’s making it really hard to know if I’m actually improving or just getting lucky on certain cases. I’m trying to stay positive, but the ups and downs make me worry I’m not building real skills, just having good days and bad days.\n\nHas anyone else gone through this? How did you make your performance more stable across cases?",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1pkr6ov/why_am_i_so_inconsistent_with_mbb_case/",
+      "comments": [
+        {
+          "body": "Have you read 'Case in Point'\n\nI fount did very useful on how to keep the structure of my replies consistent",
+          "score": 1
+        },
+        {
+          "body": "Yep, this happened to me too. What helped was stepping back from random full cases and focusing on fundamentals – structuring, insight generation, math, and clear chart interpretation. I used targeted drills on Prepmatter, which made my performance a lot more stable. Working with a coach can also help if the budget allows. A couple of my friends did that and said the external feedback made a big difference in spotting patterns they couldn’t see on their own.",
+          "score": 1
+        },
+        {
+          "body": "Lol honestly this is super normal for case prep. Your brain is literally building new neural pathways and some days it clicks, some days it doesn't. The key is getting enough reps so your \"bad days\" are still decent enough to pass.\n\nI'd recommend doing mock interviews with tools to get more consistent practice. I tried Final Round AI's mock interview feature during my prep and it really helped smooth out those performance swings. Way better than just doing cases alone.\n\nThe inconsistency will level out with more practice, but yeah it's frustrating as hell when you're in it.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Practicing case interviews for consulting roles, could use feedback on my approach",
+      "body": "I’ve been grinding through prep for consulting interviews (like BCG/McK types) and recently tried out a mock case on profitability for an insurance company.\n\nHere’s what I did:  \n[https://app.toughtongueai.com/run/bcg-case-interview-insurance-company-profitability-case-6876b3c3aba4ce6abb0bba9c](https://app.toughtongueai.com/run/bcg-case-interview-insurance-company-profitability-case-6876b3c3aba4ce6abb0bba9c)\n\nWould really appreciate any feedback like if my structure makes sense, if I’m thinking in the right direction, or anything that feels off.\n\nNot trying to promote anything, just sharing something I practiced with and hoping someone here can point out what I could do better. Also happy to return the favor if you're practicing too!",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1m3s55j/practicing_case_interviews_for_consulting_roles/",
+      "comments": []
+    },
+    {
+      "title": "Research Associate @ BCG Vantage",
+      "body": "hey guys, I recently applied for this job profile and i have no clue about it can anyone of you help me with the process and type of questions asked in the interview or help me gain insights about the job. \nLocation : Gurgaon, India ",
+      "subreddit": "interviews",
+      "score": 2,
+      "url": "https://reddit.com/r/interviews/comments/1m5f6ew/research_associate_bcg_vantage/",
+      "comments": []
+    },
+    {
+      "title": "AI Engineer role at BCG X (a new tech division within BCG).",
+      "body": "I am shortlisted for the AI Engineer role at BCG X (a new tech division within BCG). If anyone has any experience giving interviews for this role, let me know. Any help would be appreciated!",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1b8tv2j/ai_engineer_role_at_bcg_x_a_new_tech_division/",
+      "comments": []
+    },
+    {
+      "title": "Research associate @BCG Vantage",
+      "body": "hey guys, I recently applied for this job profile and i have no clue about it can anyone of you help me with the process and type of questions asked in the interview or help me gain insights about the job. \n\nLocation : Gurgaon, India",
+      "subreddit": "interviews",
+      "score": 2,
+      "url": "https://reddit.com/r/interviews/comments/1m5m4dv/research_associate_bcg_vantage/",
+      "comments": [
+        {
+          "body": "You'll be working at the intersection of consulting and technology implementation. The role typically involves supporting case teams with data analysis, market research, and helping clients with digital transformation projects. You'll likely be doing a mix of traditional consulting research plus more tech-focused work like analyzing digital solutions, supporting AI/ML initiatives, or working on software implementation projects. The pay and prestige are solid, but expect long hours and high expectations typical of top-tier consulting.\n\nFor the interview process, BCG will likely put you through case interviews where you'll solve business problems in real-time, plus behavioral questions about your background and motivation. They'll want to see your analytical thinking, communication skills, and ability to work under pressure. Since it's Vantage specifically, they might throw in some tech-related scenarios or ask about your interest in digital transformation. The Gurgaon office tends to focus heavily on the Indian market and regional clients, so having some knowledge of local business landscape could help. I'm actually part of the team behind [interviews.chat](http://interviews.chat), which can help you practice answering those tricky case interview questions and behavioral prompts that BCG is known for.",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

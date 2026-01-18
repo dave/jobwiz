@@ -9,6 +9,14 @@ export async function GET(request: NextRequest) {
   const type = requestUrl.searchParams.get("type");
   const next = requestUrl.searchParams.get("next") || "/";
 
+  console.log('Auth callback params:', {
+    code: code ? 'present' : 'missing',
+    token_hash: token_hash ? 'present' : 'missing',
+    type,
+    next,
+    fullUrl: request.url
+  });
+
   const cookieStore = await cookies();
 
   const supabase = createServerClient(
@@ -32,7 +40,10 @@ export async function GET(request: NextRequest) {
   if (code) {
     const { error } = await supabase.auth.exchangeCodeForSession(code);
 
-    if (!error) {
+    if (error) {
+      console.error('Code exchange error:', error);
+    } else {
+      console.log('Code exchange successful, redirecting to:', next);
       // If this is a password recovery, redirect to update password page
       if (type === "recovery") {
         return NextResponse.redirect(new URL("/update-password", requestUrl.origin));
@@ -50,7 +61,10 @@ export async function GET(request: NextRequest) {
       type: type as 'magiclink' | 'email' | 'signup' | 'recovery',
     });
 
-    if (!error) {
+    if (error) {
+      console.error('Token hash verification error:', error);
+    } else {
+      console.log('Token verification successful, redirecting to:', next);
       // If this is a password recovery, redirect to update password page
       if (type === "recovery") {
         return NextResponse.redirect(new URL("/update-password", requestUrl.origin));
@@ -62,6 +76,7 @@ export async function GET(request: NextRequest) {
   }
 
   // If there's an error or no code/token, redirect to login with error
+  console.log('No valid code or token_hash, redirecting to login');
   return NextResponse.redirect(
     new URL("/login?error=auth_callback_error", requestUrl.origin)
   );

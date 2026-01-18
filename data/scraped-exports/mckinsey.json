@@ -1,0 +1,563 @@
+{
+  "company": "mckinsey",
+  "post_count": 22,
+  "exported_at": "2026-01-18T17:44:53.287Z",
+  "posts": [
+    {
+      "title": "How to stay better prepares?",
+      "body": "I recently bombed a McKinsey interview for the role of a Tech Architecture Consultant. I prepared but in the end, I got stumped on a Case question around DB and Message Brokers. \n\nI want to know from the members here: how do I prepare for such Technical rounds at Consulting companies for similar roles (Tech Architect, Cloud Architect etc)? Which materials should I follow to stay up to date with the industry? Also, How do I hold the conversation even if I don't know the exact answer? \n\nThis was the second round and I feel depressed having blown my chance.",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1otd7bw/how_to_stay_better_prepares/",
+      "comments": [
+        {
+          "body": "First of all, please don’t be so hard on yourself. I had blown an interview with Meta years ago (then \"Facebook\" at the time) and recently got an offer from them (although I turned it down b/c I found out the team was going to relocate to Menlo Park from NYC within a year). Similar story with Microsoft. So getting rejected from a specific company doesn’t mean you can’t try again in the future. :)\n\nSecond, I wouldn't focus too much on the fact you blew the interview. People blow interviews all the time — sometimes from anxiety, sometimes from getting caught off guard, etc. Beating yourself up will only make you feel worse, especially since you can’t change the past.\n\nThird, every company has different needs. Just because a company may think you don't have the skills for the role you applied to at this point in time, doesn’t mean other companies will feel the same or that McKinsey won’t have different needs in the future. It’s totally possible they gave you a trick question, or maybe they gave you one they knew would be difficult to solve, but wanted to see your problem solving abilities at work. Who knows. I can only speculate.\n\nFourth, read blogs, articles, and posts from people in your area of the industry who inspire you — maybe even those from McKinsey itself. Spend time identifying what makes them a strong leader and marketable.",
+          "score": 2
+        },
+        {
+          "body": "For tech architecture rounds at consulting firms, I prep by using a simple case flow and drilling DB vs broker tradeoffs. My flow is clarify goal and constraints, list options, pick one with risks and mitigations, then sketch a quick sequence. I did 30 min timed mocks with Beyz coding assistant using prompts from the IQB interview question bank, and kept a small crib sheet of when to pick Postgres vs Dynamo and Kafka vs SQS with two reasons each. If I blank, I say what I do know, state assumptions, and propose a next step test. Keep answers around 90 seconds, MECE your structure, and ask for a hint on constraints. That shows judgment even if the exact design escapes you.",
+          "score": 2
+        },
+        {
+          "body": "A lot of the interviews are based around system design for more architecture-focused roles. I would just go through those and learn all the pieces that make up a system, and understand decision tradeoffs.\n\n\nI’ve never done actual consulting interviews before, but from seeing my friends who prepped for McKinsey, case questions seem basically like system design interviews. You want to basically walk the interviewer through your thought process and why you’re making certain decisions. Like both case questions and system design interviews, you usually also have to work with the interviewer to get a vibe if you’re going in the direction they want you to go.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Developer Position with McKinsey - Interview Experience?",
+      "body": "Has anyone ever gone through the interview process for a technical role with McKinsey? Trying to understand what to expect from the interview process.",
+      "subreddit": "cscareerquestions",
+      "score": 8,
+      "url": "https://reddit.com/r/cscareerquestions/comments/6zz9is/developer_position_with_mckinsey_interview/",
+      "comments": [
+        {
+          "body": "Having one tomorrow. Any tips? :€",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Name and Shame: Pilot Flying J",
+      "body": "I left a well known financial company to join [Pilot](https://en.wikipedia.org/wiki/Pilot_Flying_J) under the false promises of pushing machine learning models to production and working with data scientists.\n\n**Complete bait and switch**. \n\nTwo months in after getting some great experience, a new boss wanted me to only work on dev ops (they had literally zero tests) and \"data strategy.\" \n\nI'm not opposed to the end to end work it takes to get ML models to production properly, but I wanted make sure I'd also be doing the ML parts. I sent one email to my manager and her / his superior very confused about my role and the next thing I know I'm fired. No discussion, no real reason, end of story.\n\n**Red flags** I feel stupid about not paying more attention to:\n\n* They told me I could move to a satellite office in the interview. After joining, there was no office there, I'd be remote, but they still wanted me to move. Thanks to the pandemic, I never started this process\n* I never met my manger / boss during the interview and was told he / she was still being hired\n* I never thoroughly asked what my day to day work would look like and they were very vague\n* Most of the competent people were from McKinsey &amp; Company including those in my interview\n\nI'm honestly not sure what happened, but I'd guess that they wanted an ML contractor, disguised it as a full-time position since they couldn't find anyone, and cut me out early because they could.\n\nLuckily, I'm in a position where this did not financially affect me. Hopefully, others can gain some insight from this and avoid the train wreck that is Pilot Flying J.",
+      "subreddit": "cscareerquestions",
+      "score": 233,
+      "url": "https://reddit.com/r/cscareerquestions/comments/m80rbk/name_and_shame_pilot_flying_j/",
+      "comments": [
+        {
+          "body": "Are you telling me that a company that was raided by the FBI and had 17 convictions, including executives, and had the President of the company on tape making racist and sexist comments, isn't a great place to work with?\n\nI. AM. SHOCKED!",
+          "score": 233
+        },
+        {
+          "body": "Thanks, and that sounds awful!",
+          "score": 17
+        },
+        {
+          "body": "This is the first time I've heard McK mentioned in a positive light, so that's saying something.",
+          "score": 17
+        },
+        {
+          "body": "[deleted]",
+          "score": 16
+        },
+        {
+          "body": "They are loaded with fake glassdoor reviews. There is no way a small company would have 1300 reviews. when you see that many disproportionate its all fake reviews.",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "title": "Looking for new role. recruiter fucked me. looking for some advice",
+      "body": "So I'm in a bit over my head right now. Long story short, got my undergrad degree in non-cs degree, starting at my currently company as a data analyst and somehow fell face first into a data engineering role. Do a ton of work in AWS, built out a graph database, elasticsearch cluster, streaming architectures with DynamoDB, Lambdas and Kinesis... really cool shit that I consider myself incredibly lucky for, especially given my unorthodox path. Any way, the hours at my current company have become fucking insane. Literally can't deal with it anymore. Been working 12 hour days and I commute so I get home around 10-10:30.\n\n&amp;#x200B;\n\nNeedless to say I've been looking for a new job. Went through a few recruiters and am interviewing with a few different firms. One of my recruiters sold me on a data engineering role at a McKinsey subsidiary that I'll leave unnamed. I still feel underqualified for this given I've been working as a data engineer for only about a year and I dont have a CS degree, but I passed the initial phone screening, a 30 minute technical, and a hackerrank test. Now I have an interview Friday for this position. I just found out that this role isnt just a data engineering role, its a fucking PRINCIPAL data engineer role. I know the tech I'm using is new, but there's no way I'm qualified for this. The principal software architects at my firm are clearly on a different level than me. Recruiter kinda fucked me.\n\n&amp;#x200B;\n\nAnyway, do you think I should reach out to the guy that is interviewing me directly and be honest about my situation? I'd love to work at the company at a lower role, which they are recruiting for. Should I just go in and shoot for this hail mary without saying anything? Should I talk to my recruiter directly and say I don't feel comfortable doing this? Kind of at a loss so I'm here asking for help!\n\n&amp;#x200B;\n\nThanks yall\n\n&amp;#x200B;\n\nAlso if I posted this in the wrong subreddit please let me know!\n\n&amp;#x200B;\n\nEdit:\n\nI'm going to head into the interview with guns blazing on Friday and report back with how it goes. Definitely just have a case of imposter syndrome even in my current role. Worst case, I get some solid interviewing experience. Probably should not have been so hard on my recruiter in my title. Sorry about that!\n\n&amp;#x200B;\n\nThanks a ton again! The support has been great!\n\n&amp;#x200B;\n\nEDIT: PASSED THE TECHNICAL!!! Apparently there's a final case interview that I have to fly out for. Thank you for pushing me to stick with it!!!! [https://imgur.com/a/TJTUJ80](https://imgur.com/a/TJTUJ80)",
+      "subreddit": "cscareerquestions",
+      "score": 40,
+      "url": "https://reddit.com/r/cscareerquestions/comments/9l19ci/looking_for_new_role_recruiter_fucked_me_looking/",
+      "comments": [
+        {
+          "body": "You read into titles way too much. Titles are somewhat arbitrary and it's not uncommon to have a title that doesn't reflect the work you do. My official title is only somewhat accurate.\n\nJust go to the interview and do your best. Don't tell yourself no, make the company tell you no. If they decide to pass on you make them make that decision, don't raise the white flag and surrender.",
+          "score": 40
+        },
+        {
+          "body": "[deleted]",
+          "score": 24
+        },
+        {
+          "body": "Coming from a current student so take this with a grain of salt.\n\n&amp;#x200B;\n\nFrom what I understand from your post the recruiter never lied about your position or records that you know of, which would meant his company is actually interested in you for the current spot. However, if you aren't interested in moving up reach out, if you are, I would stay quiet and just keep interviewing and keep going until they say yes or no. To me I see this as possibly a great time for you to expand your role even more and your depth. If you land the position you will either sink or swim, if you sink, you move back down, if you swim you win. \n\n&amp;#x200B;\n\nGood luck",
+          "score": 13
+        },
+        {
+          "body": "As someone who does a decent amount of interviewing, it's a lot easier to lower a rec than it is to raise one. Maybe they haven't had any good candidates at the level they desire, maybe there is something about your background they really like, but I can guarantee there is someone on the team who has seen your resume and knows and understands what level you're at and what they are getting themselves into.\n\nI wouldn't worry about it at all you just try to do your best",
+          "score": 5
+        },
+        {
+          "body": "Never, ever eliminate yourself from going on an interview just because you think they'll reject you.  They offered you an interview, they've seen your resume, and they still want to talk to you.  They might have another position you're not aware of.   That's happened to me before - \"Well, you're not right for this position, but we have something you'd be perfect for!\".\n\n&amp;#x200B;\n\nGo on the interview and see how it goes and what it really entails.  If they offer you a position, and you feel comfortable with the job responsibilities and everyone you'll be working with/for, take the job.\n\n&amp;#x200B;\n\nIf you come out with a bad feeling, trust your gut and don't take the position.  \n\n&amp;#x200B;\n\nYou can always say \"no\".\n\n&amp;#x200B;\n\nAbove all, do this with a clear head, and don't let how you feel about your current job influence you to make a hasty decision.",
+          "score": 4
+        },
+        {
+          "body": "They have the budget and headcount for a principal data engineer. If they interview you and want to hire you at a junior/mid/senior data engineer level, they will do it and use up that \"slot\". If you're not clear on the responsibilities of the job, discuss that with the person you would be reporting to at your on site.\n\nWhatever you do, don't call them up and offer the notion that you're unqualified. Your interview will be an uphill battle against a prejudice you just planted.",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "If I do consulting straight out of college, how hard would it be to go back to get back into tech later?",
+      "body": "Hey everyone, so I'm going into my senior year at a top 5 CS university, and I'm kind of stuck in a tough decision. I have \\~2 years of internship experience in software engineering, and I have a 3.9+ GPA, and recently had an internship at one of the top HFT firms. Although there's no guarantee, I am pretty confident I could score a full-time role with a good company upon graduation.\n\n&amp;#x200B;\n\nOn the other hand, though, I recently found out about the consulting world and MBB and I am very interested. I would much prefer a role at a company that involves more people interaction, and if I was to go into tech I would hope to  end up either in engineering management or product management as soon as I possibly can, preferably product management. I do not want to code all day, and I really love meetings (I know it's a pretty unpopular opinion here haha).\n\n&amp;#x200B;\n\nI was considering applying to some of the top consulting firms (Mckinsey, BCG, Bain) for full time in the fall, but I'm worried about what this will do for my career in the future. My worry is mainly if I go into the consulting world and either don't like it or get fired after a couple of years (and attrition rates are pretty high), that going back into tech will be tough because I didn't \"do my time\" as a software engineer. Thus employers might think that my technical capabilities won't be that solid since I didn't spend the last couple of years coding, and if I try to apply to the top tech companies I'll either be put into entry level positions or not even be considered. I'm confident I could practice my leetcoding throughout working as consultant in case I ever need to go back, but I'm just worried about the stigma engineering managers interviewing me will have about my resume.\n\n&amp;#x200B;\n\n&amp;#x200B;\n\nSo my question is - will employers have this stigma against me if I go straight into consulting after college for a couple of years, and will the only roles related to engineering that I could get into (at the top companies) be entry level? Or would I be able to go into management much sooner if I went this route?\n\n&amp;#x200B;\n\nThank you for any help you can provide! Sorry this post is a bit long.",
+      "subreddit": "cscareerquestions",
+      "score": 13,
+      "url": "https://reddit.com/r/cscareerquestions/comments/bt06c9/if_i_do_consulting_straight_out_of_college_how/",
+      "comments": [
+        {
+          "body": "If you find you prefer the type of work in consulting, why even worry about “going back” to tech? In any case, my observation (after MBA and 3 years in consulting) is that consulting opens a lot of career options and closes none. Especially if you end up at one of the top firms.\n\nAs you said yourself, you’d rather do product management than write code all day. Depending on the company, a few years in consulting might even be a better path to that than being a developer.",
+          "score": 11
+        },
+        {
+          "body": "I did consulting for a year and a half. It took 8 months after being laid off to find an entry level dev job. YMMV",
+          "score": 4
+        },
+        {
+          "body": "Why not apply for entry-level product management poisitions at Facebook/Google/Uber? It seems that this position fits your path the most if you want to go into product management in the long run.",
+          "score": 3
+        },
+        {
+          "body": "I think delaying entering consulting would be a better option. A colleague of mine who's in consulting at an MBB is trying to land PM roles in tech because they're more balanced. If you go into consulting now it'd be really hard to come back.\n\nI'd say go for the HFT role. You have a kickass GPA, so you should be able to get into the top MBA programs and enter consulting rather easily. If not, you can always return to tech as a senior PM. However, I should mention that going back to software dev will be almost impossible.",
+          "score": 3
+        },
+        {
+          "body": "If the goal is top MBA, working G or F gives the same “multiplier” as mbb or gs/ms on b school applications (according to online things)\n\nGiven that most MBB -&gt; MBA students who want into tech are gonna end up fightining tooth and nail for the few PM openings at faang, you are giving up the primary advantage you’d have against them by skipping eng experience\n\nNote: this is only if you are dead set on working in tech. If you want to work in VC or PE or something, MBB is def where you wanna go. \n\nBut if you want tech, should just aim for the top tech employers. Maybe mix it up and apply to PM roles while you’re at it",
+          "score": 3
+        },
+        {
+          "body": "Even for boot camps if you don't work with codes within a year makes you less favorable. So going consulting then a few years try to come back will be difficult. You'll probably have to do internships again if you could even score them.  Might even have to get a masters just to get the internships. \n\nAs for coding, I've had friends in the field where they don't code much but spend more time making sure the contractor's code meets their companies specifications. So more like over seeing the coding development. And giving input whether they should retool an old code or just create new coding. Admittedly they are making only 120k vs other friends who are making 160k+ who are coding much more. Consulting is a great gig until you get older. My uncle was originally in programming then went into consulting (with the same group you mentioned) after a few years. When his grey hair started showing they pretty much let him go. He was their top performer for over five years. Well what they did was give him the less lucrative more troublesome clients. So if going consulting don’t expect loyalty or job security when you join the grey hair club unless you happen to own the consulting firm.",
+          "score": 2
+        },
+        {
+          "body": "What is consulting anyway?",
+          "score": 2
+        },
+        {
+          "body": "Yes that would be better because you’ll have established your network. Not sure you’ll need a master unless it’s an MBA and even that having your employer paying for it. Then transitioning to consulting would be seem more natural. And by that time you’ll have a better idea of what you’ll like to do next. And switching back and forth isn’t so risky since you’ll have street cred and networks to help securing another position. \n\nJudging by topic, you already know the significance of networking and it wouldn’t surprise me that with in a decade you’ll easily make $250 k within 10 years",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Case study prep for job",
+      "body": "Hey guys!\n\nI have an interview for a dev tomorrow and it’s in a strange format, so I’m looking any advice or experience people have had with this.\n\n\nThe format is a Case Study that’s to be solved in a group (with other candidates). This interview is happening over zoom and I assume their will be multiple managers/HR reps watching so I want to know how can I stand out? \n\nHow do I increase my chances over the other candidates? It will be a generic case, nothing specialized so I’m assuming their looking at team work, critical thinking, leadership skills but Id appreciate any tips.",
+      "subreddit": "cscareerquestions",
+      "score": 1,
+      "url": "https://reddit.com/r/cscareerquestions/comments/q2t34f/case_study_prep_for_job/",
+      "comments": [
+        {
+          "body": "I've never had one of these, but I've heard about them.\n\n* Use [MECE](https://igotanoffer.com/blogs/mckinsey-case-interview-blog/mece) if there's any sort of planning process to make sure everything is covered.\n\n* Collaborate but never compromise. If you think something is categorically wrong, you should be prepared to defend it. Like, if someone says 1 + 1 = 3 and so does everyone else, don't just go with them. Let them move on after you have made your piece.\n\n* Attack the problem, not the people. If someone plays the blame game, steer the conversation away from the persons and at the issue that needs to be addressed.\n\n* Do not assume anyone is on your side. I have no idea if it's a competition for a single slot, or if there is a \"mole\" that they put in the group of candidates to cause chaos. Too many unknowns to make those assumptions.",
+          "score": 1
+        },
+        {
+          "body": "Capital One?",
+          "score": 1
+        },
+        {
+          "body": "Capgemini?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Job Hunting Tips &amp; Guide",
+      "body": "I see many common questions on here, so I thought I would help people with how to get a job in 2021. This is what a career coach will charge to teach you, but this is from my experience + business school where our career advisors were all former HR at top companies like FAANG, McKinsey etc. Maybe it will help, or maybe it won't.\n\n**Resume**\n\nUse the *STAR method:*  **Situation, Task, Action and Result**\n\n[https://www.careereducation.columbia.edu/resources/resumes-impact-creating-strong-bullet-points](https://www.careereducation.columbia.edu/resources/resumes-impact-creating-strong-bullet-points)\n\nThis is the #1 thing you should change in your resume,, and it will tie back to interviews later on.\n\nExample: Helped Develop CI/CD Pipeline -&gt; Developed CI/CD Pipeline to improve deployment time by 35%.\n\n**ALWAYS** quantify your work with numbers, you're technical but you're applying for a job at a business that runs off numbers; you need to quantify your work so they can see how you add value to their business.\n\nKeep Resume to **one** page.\n\nIf your resume is longer than one page, simply take out your STAR bullet points and add them based on the role you're applying to.\n\nExperienced people need to put education at the bottom; new grads need to put education at the top of the resume and have a section with \"interests\", this adds to your resume for a new graduate. Like say you are interested in HAM radio, someone may be interested in hiring you for a new grad position in wireless.\n\nRelated to your resume, while working you should keep a document that is an achievement database of all the tasks and projects you completed in STAR format; not, , only do you have this for when you do reviews, you have it to keep your resume up to date AND you will be able to use this in interviews as I'll explain later. \n\n*Tip for Developers*: Build a Resume using CI/CD on Gitwhich that automatically pulls from your spreadsheet of achievements and updates your resume with versions.\n\nATS stuff: ATS is an automatic system that screens resumes. **DO NOT PUT GRAPHICS, LINES, CUTE STUFF IN YOUR RESUME.** This sends these systems into wild overdrive, and your resume won't be seen because it's all a jumbled mess after the ATS parses it. Ensure you have keywords that match the job you're applying for; that, is how the system parses you. I don't rely on ATS hope and a prayer to get an interview and neither should you and I explain later.\n\n**LinkedIn**\n\nMake sure your LinkedIn matches your resume, particularly the DATES YOU WERE HIRED; exceptions, for matches is if you're citing a previous company's, sales numbers, you may leave those things out of your resume on LinkedIn use your resume brain here. You need to fill out all sections of LinkedIn and you need a compelling summary that uses active voice and strong works like instead of Helped-&gt;Led etc. \n\n[https://www.themuse.com/advice/10-words-recruiters-hate-seeing-on-your-resume-and-10-they-love](https://www.themuse.com/advice/10-words-recruiters-hate-seeing-on-your-resume-and-10-they-love)\n\n[https://writing.wisc.edu/handbook/style/ccs\\_activevoice/](https://writing.wisc.edu/handbook/style/ccs_activevoice/)\n\n*ALWAYS USE ACTIVE VOICE IN BUSINESS WRITING*\n\nLinkedIn will be one of your main hubs for job hunting, so make it look good and tell a story that ties your STAR points into an overall picture. Is this person creative? Are they hardworking? Are they customer-friendly? etc. This builds the groundwork for your story that you will expand on in your interview. You're creating a brand and story about yourself here, so keep the overall approach in mind.\n\n**How To Job Hunt**\n\nYou do not need to apply to 500+ jobs. Please, don't do this, it's a waste of time and effort. \n\nUse the LAMP method, this method is proven and taught in every top business school in the world:\n\n[https://coda.io/@jonathan-mccourt/job-search-lamp-method](https://coda.io/@jonathan-mccourt/job-search-lamp-method)\n\n80% of hires come off referrals, that is a simple fact. This method utilizes that, but you're thinking \"I don't know anyone at that company\" . You probably do, go to the company on LinkedIn and look for alumni of your school there and send them a message and say, \"Hey, I am x y z, I am interested in NAME of COMPANY\", and ask them to tell you about their EXPERIENCE there. Do not just send them asking for a referral, once they tell you about the company which most people will because they like talking about themselves, they'll tend to want to give you a referral if you express interest or say, \"I am having trouble getting through the ATS\".  This is the top method for referrals.\n\nNext method: Go on LinkedIn and search for talent acquisition @ Microsoft for example, send them a message that you're interested in a few roles but want to make sure you're a good fit and ask if they'll look at your resume. They will do this. Just add 5 or so recruiters, and 3 will reply, most of the time they'll even set up a call with you to go over some positions they want to put you in for.\n\nTry to get your referral lined up before. I will tell you for companies like Amazon a position on LinkedIn over 2 days has already been filled or is in the mid-rounds of interviews. They'reresume not going to interview if you apply after the 2 days, so you need to check every day for new postings on the company/LinkedIn, and have your referral ready to go so you can get an interview.\n\n**Interview**\n\n*Focus on Behavioral Questions*\n\nYes, the technical part is essential but you're technical. You can prepare for that right?\n\n60% of an interview is to determine whether they want to work with you. You need to prepare answers to LP(Leadership Principles). Look these up in the culture section of the company you applied to when you researched the company in the LAMP above. Luckily, being smart, as you already have a ton of STAR bullet points to answer STAR behavioural questions by referring right back to your resume with the same projects but just going into more detail and added some personal detail to it to really emphasize this is when I was \"customer-obsessed\"(Amazon LP).  This ties everything together for them; If you start rambling on about some project that's not on your resume and is not clear, then you're screwed. Keep it simple, stick to your resume as your guide, and tell the story you've outlined of yourself in your head, your resume, your LinkedIn etc. If you find you're not conveying yourself properly you need to reassess what you're saying and do a mock interview with someone that will give you honest feedback. Remember if you get the behavioural stuff right even if you don't pass the tech, they'll know you're a right fit for the COMPANY, maybe not this role. If you fail behavioural, you're not a fit for the company or the role.",
+      "subreddit": "cscareerquestions",
+      "score": 99,
+      "url": "https://reddit.com/r/cscareerquestions/comments/owdzxf/job_hunting_tips_guide/",
+      "comments": [
+        {
+          "body": "Extra tip on education. Yes put it at the bottom but also avoid putting dates. Just say you got masters or bachelors. Don’t say you got it in year 2000 or whatever. Because then they will know you are 30-40-50 and WILL make a biased decision.",
+          "score": 9
+        },
+        {
+          "body": "Remind me! 4 months",
+          "score": 3
+        },
+        {
+          "body": "If you bomb the technical interview it doesn’t matter how well you answered the behavioral questions. This is a bunch of bullshit",
+          "score": 4
+        },
+        {
+          "body": "[deleted]",
+          "score": 2
+        },
+        {
+          "body": "Remind me! 10 days",
+          "score": 2
+        },
+        {
+          "body": "👌🏿👌🏿👌🏿👌🏿👌🏿",
+          "score": 0
+        },
+        {
+          "body": "This is a fantastic writeup - thank you so much for sharing this.\n\nI had never heard of STAR or LAMP before coming to this sub, and thanks to people like you, I'm glad I did. Thank you so much!",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Data Engineering Assesments for Consulting Firms",
+      "body": "Hello Everyone! I am a CS major graduating soon and I am thinking to apply to all kinds of firms. I have an idea about what kind of pre interview assessments tech and financial companies give. I was wondering if someone could shed some light on how assessments by consulting firms like McKinsey are. I read online they give hackerrank assessments but have not really figured what kind of hackerrank questions to practice since there's a ton of those.",
+      "subreddit": "cscareerquestions",
+      "score": 1,
+      "url": "https://reddit.com/r/cscareerquestions/comments/oojhul/data_engineering_assesments_for_consulting_firms/",
+      "comments": [
+        {
+          "body": "I have an online assessment for McKinsey coming monday, applied for it through the new grad github repo i found here. I will let you know after i finish it.\n\nI think the online assessment contains 2 or 3 leetcode mediums and one Database question. That's what i found by snooping around.",
+          "score": 2
+        },
+        {
+          "body": "yeah .. we dont have lot of resources regarding the kind of questions .. i guess coding questions + SQl questions would be there",
+          "score": 1
+        },
+        {
+          "body": "Online Assessment for the Data Engineer position. This is the first step in the interview process after submitting the application. The total duration of the test is 125 minutes. I had 5 questions. (2-database, 2-coding, 1-managing scenario)\n\nFYI.. this is something i got searching online",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Rejecting Rejections",
+      "body": "If you're giving up after the first no, that's far too early.\n\nI got rejected during Bain's resume screening last year so I emailed the recruiter to pitch myself for the role.\n\nHere's how:\n\n1. I found the recruiter's email on Bain's website.\n2. I emailed her the following message:\n\n\\~\n\nHi \\[recruiter name\\],\n\nI did not hear back yesterday but wanted to personally reach out anyway to express my interest in the San Francisco office. I believe I'd be a good fit because my extensive background in either technology or strategy roles. Most recently, I was a product strategy intern at Atrium, where I identified the biggest pains in the client experience, contributing to 80% of churn, and worked cross-functionally with teams to brainstorm strategic opportunities to tackle these pains.\n\nIf any vacancies open up on the 20th, I would love to be considered for a first round.\n\nThank you so much for your consideration,\n\nKareem\n\n\\~\n\nIt worked. She advanced me to the interview stage. [Proof](https://www.linkedin.com/feed/update/urn:li:activity:6736754043122663424/) (photo with recruiter's response):\n\nBain didn't end up working out, but I used a similar technique with McKinsey and eventually landed a full-time offer.\n\nThis doesn't just apply to consulting, but to engineering, CS, and all other job searches.\n\nIf you really want a role, keep going. Don't give up at the first no.",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/kkoyni/rejecting_rejections/",
+      "comments": [
+        {
+          "body": "That was a  very effective email. You have very good communication skills.",
+          "score": 7
+        },
+        {
+          "body": "You didnt redact your email in the pic, fyi",
+          "score": 1
+        },
+        {
+          "body": "Good stuff! I’m going to try this for any rejection I can access a recruiter for. Never hurts as long as you’re kind and respectful!",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Mckinsey Data Engineer",
+      "body": "I am not sure if I can ask about the interview process here. If I can't, please remove the post. Thanks. \n\nDid anyone experience their interview process? I cleared the HackerRank  OA and I am now preparing for the telephonic phone interview round. \n\n Any tips you can give to prepare for the interview would be highly beneficial. Thank you!",
+      "subreddit": "cscareerquestions",
+      "score": 1,
+      "url": "https://reddit.com/r/cscareerquestions/comments/srl5co/mckinsey_data_engineer/",
+      "comments": []
+    },
+    {
+      "title": "Experienced silicon valley engineer stuck in dead-end job at aiming to transition to a brand name company and role. What can I target? Most effective way to prep for interview?",
+      "body": "15+ years real experience in SV. Grad and UG in CS/EE from prestige/selective  universities. Got stuck in EDA industry working on tools (in C++) that are used by Intel etc to design their SoC. Career trajectory has flattened, i'm pretty much doing the kind of work I was doing 10 years ago except that i don't see any future in my current role. EDA as an industry has a fixed set of customer revenue (only SoC design companies use it), so promotions are slower, incomes rises slowly, more people coming in than going out etc, and the only 2-3 main players in the industry try to generate more revenue only by displacing the other competitor(s).\n\nDue to these, I decided to look for work in other places. i'd ideally want to transition to (**listed in the order of importance**)\n\n* brand-name company, which is known and prestigious, so that i can have great exit opportunities (what is 'Mckinsey' to consulting, or GS to finance careers, think those in tech)  -- **(required)**\n\n* impactful role, where i am not just a code monkey who is kept to maintain codebase, fix bugs, but is actually visible to management for a career growth. i understand that it's not always easy to find such roles, and these are highly personalized on leadership abilities of the individual too, so as close to such a role i can get without sacrificing the previous item.\n\n* which can be a differentiator should one decide to apply to B-school or some academic program. Top business schools look for prestigious and selective workplaces as a very strong plus as it helps them whittle down their candidates.\n\n* where my previous experience can give me a leg up/better role than otherwise -- (optional)\n\ni'd like to get as close to these aspects as possible in my next job considering if i have to put in effort to transition out of the current dead-end, then why not do it right. So far I have Google Inc. on my list. \n\nWhat else can I target?\n\nI also purchased Elements of Programming Interview and have been going through it a few hours/day for the last 3 weeks. It's been slow going. I have barely been able to do 2-3 problems each from the first 10 chapters (and the book has suggests that one can do all 20 chapters and 3-4 problems per chapter within a **weekend**!!?!) I know basic general algorithms but very abstractly -- that is if I have to implement them then after a lot of trial and error I may have a crude implementation in a couple of hours)\n\nAm I doing it right? Any book and prep schedule that I can follow?\n",
+      "subreddit": "cscareerquestions",
+      "score": 6,
+      "url": "https://reddit.com/r/cscareerquestions/comments/6aib9c/experienced_silicon_valley_engineer_stuck_in/",
+      "comments": [
+        {
+          "body": "learn a hipster JS framework and start calling yourself a Fullstack Developer.",
+          "score": 14
+        },
+        {
+          "body": "&gt; which can be a differentiator should one decide to apply to B-school or some academic program. Top business schools look for prestigious and selective workplaces as a very strong plus as it helps them whittle down their candidates.\n\nI think you should apply this cycle or maybe even decide that the ship has sailed. With 15+ years of experience and grad school, you are out of the MBA age range.\n\n&gt; What else can I target?\n\nFacebook, Netflix, Twitter, LinkedIn, Yahoo, Microsoft, Amazon, Uber, Airbnb.  There are some smaller companies like Memsql that are awesome, but don't fit your criteria.",
+          "score": 2
+        },
+        {
+          "body": "I don't have that book, but I looked up some of the problems and they don't seem that bad. If you got a weekend to kill then it's probably possible. Also, Google will recommend what books you should read before the in-person interview, including some of their research papers. At least that's what they did for me.\n\nAlso don't emphasize the \"silicon valley\" part of being an experienced engineer to potential employers because they won't care.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Received a offer to join Mckinsey as a Software Engineer",
+      "body": "Well self explanatory title...\n\nCurrently I work at a big software company with a lot to do but no significant challenge...\nThen I tried to hit the market and ended receiving an Mckinsey's offer.\nThe offer is slightly better in terms of payment and during the interview process i talked to lots of smart people and i got a good impression of the company.\n\nAnyone got some experience or advice about mckynsey?\n\nThanks ☺️",
+      "subreddit": "cscareerquestions",
+      "score": 2,
+      "url": "https://reddit.com/r/cscareerquestions/comments/ja4rke/received_a_offer_to_join_mckinsey_as_a_software/",
+      "comments": [
+        {
+          "body": "If I were you, I'd definitely take the offer. You realize it's one of the most respected management consulting firms in the world, right? You may have the opportunity to get an inside look at highly successful businesses in a way that few people ever do. And you may get a chance to interact with some remarkably insightful people.",
+          "score": 10
+        },
+        {
+          "body": "Great if you are a Strategy Consultant.  \n\nSoftware Engineer?  Depends on how much of it is strategy and how much is implementation.  If it's implementation, it's probably like any other consulting company, but with richer clients.",
+          "score": 4
+        },
+        {
+          "body": "[removed]",
+          "score": 1
+        },
+        {
+          "body": "What was the oa and interview like?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "McKinsey &amp; Company Hackerrank",
+      "body": "Hey everyone,\n\nI recently got a hackerrank for McKinsey and was wondering what type of questions I should be expecting? This is my first time interviewing with a consulting company so don't know what to expect in terms of technical questions. The position is for Software Engineer Intern. Thanks!",
+      "subreddit": "cscareerquestions",
+      "score": 9,
+      "url": "https://reddit.com/r/cscareerquestions/comments/78rtqg/mckinsey_company_hackerrank/",
+      "comments": [
+        {
+          "body": "mine was for new grad, uhhh two alright questions but I choked them both and panicked. got working solutions at the end but ran out of time for the last question which was an SQL question :/",
+          "score": 3
+        },
+        {
+          "body": "Anyone know their intern comp?",
+          "score": 3
+        },
+        {
+          "body": "Anyone taken this yet?",
+          "score": 1
+        },
+        {
+          "body": "just a question. does mckinsey care about your gpa for tech roles?",
+          "score": 1
+        },
+        {
+          "body": "Has anyone heard back from Mckinsey for the intern role?",
+          "score": 1
+        },
+        {
+          "body": "Any Updated on this? I received the hackerrank today.",
+          "score": 1
+        },
+        {
+          "body": "could you tell more about the questions?\n",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "There is something wrong with the hiring and job market...",
+      "body": "Hi,\n\nI am not sure if anyone else feels this way but I am just tired with the status quo of a job market:\n\n* Terrible ATS software where you have to copy &amp; paste information from CV (it's 2020, I mean cmon people)\n* *Progressive employer seeks Harvard-trained neuroscientist and beauty pageant winner. Must be fluent in Mandarin and skilled at tribal basket weaving. Minimum of 10 years experience working for high-tech companies. Salary: mid-30’s.* Nuff said...\n* 10 rounds of interviews with clueless junior people asking what do you want to do in the next 10 years\n* Asking to prove stuff that you would never use in practice (Algo whiteboarding, fake sales presentations to the management, McKinsey puzzles)\n* Don't get me even started on requiring college degrees &amp; riddles during interviews\n* Discrimination, nepotism, racism, ageism, sexism etc.\n\nThe job search has literally become the most frustrating experience I endeavoured lately... and how is that the world is fine with it? I am sure I am not the only one... Thoughts? Fixes? Solutions? Propositions?",
+      "subreddit": "jobs",
+      "score": 881,
+      "url": "https://reddit.com/r/jobs/comments/i3d3j1/there_is_something_wrong_with_the_hiring_and_job/",
+      "comments": [
+        {
+          "body": "Also:\n\n* Every employer expects a personalised cover letter that expresses your passion for the company and the role - and yet can't be bothered to even send an automated \"You're rejected\" email.\n* Every employer expects a personalised over letter, that we're in a terrible job market, that every other recruiter expects a cover letter - and still expects not to see a single typo.\n\nTo me, if your expectation is to have personalised cover letters and resumes, then you owe me a personalised rejection letter.",
+          "score": 572
+        },
+        {
+          "body": "I saw a job for someone who was bilingual, needed at least a year of experience and they want to pay $10. That is 20,000. You would make more at Target.",
+          "score": 111
+        },
+        {
+          "body": "recruiters who have no clue what the position entails (the ones that have never ever worked in your field). These same recruiters then interviewing you  and asking  irrelevant questions to the job.",
+          "score": 51
+        },
+        {
+          "body": "Also: having to gush about why you want to work there. I’ve even been asked that for low level jobs like cleaning. Dude, I just want a pay check, I don’t really care who gives it to me.",
+          "score": 94
+        },
+        {
+          "body": "The hiring market is outdated. It needs to change or be revolutionized, somehow.",
+          "score": 87
+        },
+        {
+          "body": "I honestly gave up. I have been shot down, lied to, made to take assessments that weren't necessary. It's a lot to take in and deal with. I have worked in IT for 10 years, I was just given a management style position a few months ago, then was let go 6 days into it because they \"didn't know what they wanted.\" I then took the opportunity I had to reflect and ultimately decided to start up my own IT company. While it took some work and a lot of self advertising to get clients, I am happy to say I am doing well and have about 6 new clients in a matter of weeks from opening. Point is, you just have to find what is right for you. I was turned down from 86 jobs in two years (I kept track) and it sucked. I have a BS in Information Technology, an AS in Information Technology, and am certified. It doesn't mean anything to anybody apparently. Just keep on it, but ultimately decide what will be best for you. To clarify, I work from home and run a home business because it was a bit cheaper to get started. I love this post and I think it really hits the nail on the head with where the job market is today.",
+          "score": 100
+        },
+        {
+          "body": "The main issue isn't what potential employees are willing to accept. Their only alternative is to not apply, and to accept being stuck in a worse position because you're unwilling to jump through the arbitrary hoops.\n\nThe actual problem is that companies are accepting incompetence / negligence from the staff members charged with recruiting. One wonders how it is possible that (seemingly) all companies are so inept, but it does seem to be prolific. It could simply be that the type of people who excel at HR are the type of people who utterly fail at recruitment.\n\nSchools have a lot to answer for too; as a business grad I can confirm that they're a large part of the problem. An education in business aims for such a broad understanding of core concepts that it often causes graduates to miss the mark when it comes to individual implementations. The HR person will often be so wrapped up in following their university's teachings that they'll miss key cues from their own company as to what will make a good candidate or how best to find that person. This is when you see good people eliminated without any forethought for things like not holding a degree, or not having years of experience in brand new technology, or not displaying enough \"passion\" in their cover letter.\n\nIt also exacerbates problems such as (unintentional) nepotism, where you'll see things like the CEO's friend installed as manager. The old supervisor of the last 20 years may have been over-qualified to take that job, but HR couldn't see the forest for the trees and couldn't find a qualified candidate. So eventually the CEO got fed up and hired his friend, not because he wanted to hoard the wealth among his own circle, but because he knew that friend would be at least halfway competent and the position couldn't sit unfilled any longer.\n\nBut you can address this yourself (and hold people accountable for their hiring practices) when you're the CEO or the head of HR. If you're in that position, then I suggest reading [why IT and HR should fix their marriage of inconvenience.](https://www.bettercloud.com/monitor/hr-fix-marriage-inconvenience/) But if like me you're a low level employee who is not in any position to help solve this problem, then you'll just have to put up with it.",
+          "score": 32
+        },
+        {
+          "body": "had an interview with someone that hadn't even read my resume...aced the interview, until i (foolishly) mentioned that i had moving plans in place, housing secured, and i could be on site in 3 hours (i lived 3 hours away from job).\n\n\"wait...you don't live in charlotte?  you live 3 hours away?\"\n\n\"No, i don't live in charlotte currently, but yes, i do have housing already secured, and i can be there tomorrow morning for an in person interview.\"\n\n\"Uh, we'll (never) call you back...\"\n\nneedless to say, i didn't get the job (and i took that as a sign i didn't want it)",
+          "score": 28
+        }
+      ]
+    },
+    {
+      "title": "How do you get a job at Big Tech or top consultancy firms in marketing?",
+      "body": "I have tried scores of times over the past 4-5 years. Applied to jobs at Google, Microsoft, Amazon, Tesla, Apple, Bain and Co, Mckinsey and many others in my area of expertise (digital marketing, I've 8+ years of experience working at mid-large sized companies). And I never even gotten a rejection email. It's VERY VERY disheartening! I've thought of getting creative with my resume/job application but have stopped short to keep my resume ATS compliant. \n\nCould anyone please share some tips? I want to just get a rejection letter if not an interview. Anything that has worked for you.\n\nThanks in advance.",
+      "subreddit": "jobs",
+      "score": 4,
+      "url": "https://reddit.com/r/jobs/comments/vqdbh5/how_do_you_get_a_job_at_big_tech_or_top/",
+      "comments": [
+        {
+          "body": "Hello, thank you for posting to r/Jobs!\n\nWe just wanted to let you know that we have a new [discord server, come join the chat!](https://discord.gg/TY6ErXV)\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/jobs) if you have any questions or concerns.*",
+          "score": 1
+        },
+        {
+          "body": "It’s all about who you know. That’s how I made the transition from large agencies to tech companies several years back. Start thinking about people who you worked with who got into companies you admire. They can refer you and escalate your application. \n\nThe second part is having quantifiable metrics to backup your work and a complete portfolio. \n\nAlso worth noting that it may take more than one try! Took me two to get into the FAANG company where I currently work.",
+          "score": 4
+        },
+        {
+          "body": "Meta has a hiring freeze and zuck is warning of layoffs company is struggling ditto Elon and Tesla  , not sure about reddit but most tech companies are bleeding money right now with decreased revenue and rate hikes hurting business with a looming recession. Layoffs and hiring freezes will be the norm .",
+          "score": 3
+        },
+        {
+          "body": "The key to the big consulting agencies is where you went to school and what level you reached.\n\nThey regularly recruit from the Ivy’s for a huge chunk of their positions and I had a bunch of friends that got STEM PhDs from those universities go into them pretty easily.\n\n… that’s probably not the answer you wanted.  Sorry.",
+          "score": 2
+        },
+        {
+          "body": "I worked at an MBB firm my last day was last week I exited for a fortune 500 company.\n\nMy only advice is run far away from big consulting. The vast majority of people leave MBB firms after two years you may even get burnt out after 6 months the business is not for everyone I'd suggest you don't try to get into the big 3 consulting firms",
+          "score": 2
+        },
+        {
+          "body": "If you’ve gotten rejections from the big companies maybe also try looking for some smaller ones to get started in the field. The companies you listed receive hundreds of thousands of applications each year and thus it’s also more difficult to get into one.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Is it OK to postpone a job interview?",
+      "body": "Details: I applied to McKinsey through my school. They had a strict deadline (September 18) and we have been informed that if we were selected for an interview, it will be October 6. They always accept independent applications through out the year and I am assuming they constantly interview people. I have not started preparing for the interview since I just learned that I have been selected. I am a biologist and have absolute no business background (They present you with a business case study to solve during your interview). Also, I have tons of deadlines this coming week ( postdoc fellowships, Other Job application deadline etc) Do you think it is ok to ask them to postpone my interview few weeks?",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/ktatp/is_it_ok_to_postpone_a_job_interview/",
+      "comments": [
+        {
+          "body": "No. If you aren't flexibile they aren't going to be. You've known for many weeks when a possible interview would be that is more than enough time brush up on your interview skills. Being unflexible when going through your school (and therefore representing your institution) tarnishes you and your school. If you ask to reschedule you risk losing the interview completely *and* you risk getting a red flag on your name if you ever decide to apply to them again.",
+          "score": 7
+        },
+        {
+          "body": "Ehhhh. I say you might as well try, particularly as this is not your field. You're at a disadvantage already, you might as well be as prepared as possible.",
+          "score": 3
+        },
+        {
+          "body": "There's nothing you're going to learn in a few weeks that will make a significant difference.",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "A few things that I wish I knew before MBB case interviews",
+      "body": "[](https://www.reddit.com/r/gradadmissions/?f=flair_name%3A%22Business%22)Hey all, I know it’s peak case interview season and I have a couple friends applying for strategy consulting roles, so I thought I’d drop a few things that really helped me when I was going through it, to get an offer from Bain a year ago.\n\n1. Your vibe matters more than you think.  \nIt’s not just about nailing the maths or the framework, they’re asking themselves if they’d want to work with you. Be curious, ask questions, and just be a nice person (easier said than done lol).\n\n**2. 20-30 cases is enough.**  \nI’ve seen people grind 50+ and end up sounding robotic. Do enough to get comfortable, but leave room to think on your feet.\n\n**3. Structure = key, but be flexible.**  \nThe “8 buckets” from [Hacking the case interview](https://www.hackingthecaseinterview.com/pages/case-interview-frameworks) are a good start, but if you rely too much on set frameworks, you’ll sound rehearsed. Build structures around the specific problem instead, and this will just come from practicing 20 or so cases, and also doing each one again after you see the model answer.\n\n**4. Get your maths tight.**  \nYou don’t need to be a wizard, but you should be fast and confident with numbers. Market sizings are more about logic and speed than perfect accuracy, but not being able to do it on the day is an easy way for people to not trust you and turn you down.\n\nI used [CaseCoach](https://casecoach.com/) for mock cases and found a cheap(ish) former LEK consultant to practice with through a site called [GradGuru](https://www.gradgurucoaching.com/) to practice with alongside some mates from university, but there are many other sites and resources that are super helpful that I've linked below\n\nHope this helps — and seriously, try to enjoy the process. It’s stressful, but once you hit your stride, the cases can actually be pretty fun\n\nFree mock case examples  \n\\- [igotanoffer](https://igotanoffer.com/blogs/mckinsey-case-interview-blog/case-interview-examples)\n\n\\- [preplounge](https://www.preplounge.com/en)\n\nMental maths practice  \n\\- [Free mental maths practice tool](https://drillyourskill.com/)",
+      "subreddit": "interviews",
+      "score": 2,
+      "url": "https://reddit.com/r/interviews/comments/1o5wauq/a_few_things_that_i_wish_i_knew_before_mbb_case/",
+      "comments": []
+    },
+    {
+      "title": "McKinsey Interview",
+      "body": "I have one month to prepare to three rounds of interviews at Mckinsey. PEI, problem solving etc. What is the best way to prepare? Could someone please lead me in the right direction? I REALLY WANT THIS JOB!!!",
+      "subreddit": "jobs",
+      "score": 11,
+      "url": "https://reddit.com/r/jobs/comments/qnjzvk/mckinsey_interview/",
+      "comments": [
+        {
+          "body": "Hello, thank you for posting to r/Jobs! \n\nWe just wanted to let you know that we have a new [discord server, come join the chat!](https://discord.gg/TY6ErXV)\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/jobs) if you have any questions or concerns.*",
+          "score": 1
+        },
+        {
+          "body": "What is the role your interviewing for? You don’t need to share, but it would make it easier to help.",
+          "score": 3
+        },
+        {
+          "body": "I one time googled to the “most frequently asked questions in an interview” which there is a lot of them. I would review those questions and come up with the best answers and tailor your answers to the role you’re applying for. I did this and it helped immensely and I got the job. Most employers honestly know how awkward interviews can be for their applicants but it’s really impressive when you can answer their questions. In other words, it’s not impressive to not have an answer.",
+          "score": 2
+        },
+        {
+          "body": "[removed]",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Mckinsey&amp; Company Imbellus",
+      "body": "I applied to a position at Mckinsey and i did the Imbellus game. It's been 2 weeks and i haven't heard back. Is this normal? In terms of week days today is the 9th day. Anyone have a similar experience?",
+      "subreddit": "jobs",
+      "score": 2,
+      "url": "https://reddit.com/r/jobs/comments/pu61pt/mckinsey_company_imbellus/",
+      "comments": [
+        {
+          "body": "Hello, thank you for posting to r/Jobs! \n\nWe just wanted to let you know that we have a new [discord server, come join the chat!](https://discord.gg/TY6ErXV)\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/jobs) if you have any questions or concerns.*",
+          "score": 1
+        },
+        {
+          "body": "It is harder to get into McKinsey than to get to the Olympics. They also have the world's best recruiting process, and if you are a star, they will try and grab you as quickly as possible to avoid being snaffled up by Bain, BCG, GS, JPM or FAANG. You might be out of luck, but no confirmation until you get the [noreply@mckinsey.com](mailto:noreply@mckinsey.com)\n\nIf you're referred you're usually fast-tracked to interview stage. Do that.",
+          "score": 2
+        },
+        {
+          "body": "McKinsey gets hundreds of applications a week. \n\nIf you know someone on the inside get a referral.",
+          "score": 1
+        },
+        {
+          "body": "Did you end up getting the job?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Rejection Rejections",
+      "body": "If you're giving up after the first no, that's far too early. \n\nI got rejected during Bain's resume screening last year so I emailed the recruiter to pitch myself for the role.\n\nHere's how:\n\n1. I found the recruiter's email on Bain's website.\n\n2. I emailed her the following message:\n\n\\~\n\nHi \\[recruiter name\\],\n\nI did not hear back yesterday but wanted to personally reach out anyway to express my interest in the San Francisco office. I believe I'd be a good fit because my extensive background in either technology or strategy roles. Most recently, I was a product strategy intern at Atrium, where I identified the biggest pains in the client experience, contributing to 80% of churn, and worked cross-functionally with teams to brainstorm strategic opportunities to tackle these pains.\n\nIf any vacancies open up on the 20th, I would love to be considered for a first round.\n\nThank you so much for your consideration,\n\nKareem\n\n\\~\n\nIt worked. She advanced me to the interview stage. [Proof](https://www.linkedin.com/feed/update/urn:li:activity:6736754043122663424/) (photo with recruiter's response):\n\nBain didn't end up working out, but I used a similar technique with McKinsey and eventually landed a full-time offer. \n\nThis applies to all job searches.\n\nIf you really want a role, keep going. Don't give up at the first no.",
+      "subreddit": "jobs",
+      "score": 2,
+      "url": "https://reddit.com/r/jobs/comments/kjnzun/rejection_rejections/",
+      "comments": [
+        {
+          "body": "Hello, thank you for posting to r/Jobs! \n\nWe just wanted to let you know that we have a new [discord server, come join the chat!](https://discord.gg/TY6ErXV)\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/jobs) if you have any questions or concerns.*",
+          "score": 1
+        },
+        {
+          "body": "Go to college and your chances of getting hired will increase",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "title": "Bain, BCG and McKinsey - interview experience",
+      "body": "Somebody has interview experience with this companies? How can I be prepared for the interview? I heard that they use a lot of Business case assessment, than do you have some advice how and where can I train?\n\nIf you have some experience please share here.\n\nThank you in advance",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1187lnl/bain_bcg_and_mckinsey_interview_experience/",
+      "comments": [
+        {
+          "body": "I've never interviewed with them specifically but i have watched some of there youtube videos on solving case studies for there interviews. I find them pretty interesting and helps me prepare for my interviews with case studies.",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Bad interview experience at McKinsey. Should I tell HR before my second interview?",
+      "body": "Hi everyone, I wanted to get some outside perspective because I’m honestly frustrated after my first McKinsey interview and a scheduling issue with my second.\n\nLast Friday, I had my first interview scheduled for 2:30 p.m. Bogotá time which is 3:30 p.m. Baltimore. Around 3:00 p.m. the interviewer called to say he would be 15 to 20 minutes late. When he finally joined, he had camera issues for another 10 minutes. From the moment he turned on his camera, he looked visibly tired, kept rubbing his face, and gave me the impression that he just wanted to get the whole thing over with. That already made me uncomfortable because it felt like he didn’t really want to be there. He kept doing this throughout the entire interview. \n\nOn top of that, his internet connection kept breaking up the entire time. I know it was not mine because I’ve had many interviews from my apartment with no issues. He said that he had to leave the office and was now connecting from home, and that is why his internet was unstable. But it made the whole conversation even more stressful because I had to keep asking him to repeat things. At some point, he said he would switch over to his phone because his laptop was slow, then later switched back to his computer so he could share the math case on the screen. It was this constant back and forth that just wasted more time. Honestly, I don’t know why he needed to be at home on a Friday afternoon, but it gave me the impression that this was not his priority.\n\nThe interview itself started in Spanish since I am applying for a role in Bogotá and the interviewer was in the Peru office. That part was fine, but when we got to the case study, he read it entirely in English. I speak both English and Spanish very well, I have lived in the U.S. for ten years, I did all my degrees here, and my pronunciation is excellent, but his English was so poor that I could barely understand half of what he said. He also said he couldn’t share the case study on the screen (which I knew), so I asked him if he could repeat it in Spanish. He told me the case study was not written in Spanish but said he would translate it for me. Mind you, he had initially said that I could ask for him to repeat if I needed clarification at any point but when I did, he seemed frustrated. The way he reacted made me feel like he thought I didn’t understand English, when in reality I couldn’t understand him because his pronunciation was so unclear. That back and forth wasted more time and already added to the pressure.\n\nDuring the behavioral part, he asked me about a time I navigated a disagreement at work. I shared an example from four years ago and gave a lot of detail, but he kept pressing me for the exact conversation, like what exactly I said, where I was, and who was there. Of course I don’t remember a word-for-word conversation from four years ago, but I gave as much as I could. He still seemed unsatisfied and impatient.\n\nThen came the math part, which a McKinsey coach had told me would take about a third of the interview. But because of his lateness, the tech issues, and the language delays, we had barely five minutes left. I had been told I would be allowed to take notes, but when we started he suddenly said no, we don’t have time, just tell me how you would solve it. That completely threw me off. I have always been good at math, but under time pressure and without being allowed to take notes, I felt like I couldn’t really show my skills. I started reading through the problem on the screen and tried solving it from beginning to end, but he kept cutting me off, saying the problem should be solved in pieces and not line by line. Every time I made a mistake, he smirked sarcastically. At one point, when I tried to multiply numbers in my head, he interrupted with something like since you couldn’t multiply I’ll tell you it’s this much, which just felt unnecessarily condescending. His attitude made me anxious and uncomfortable and I walked away feeling like I didn’t get to demonstrate what I am actually capable of.\n\nSomething else that stood out to me is the way he behaved throughout. I grew up in Colombia where the culture can be very misogynistic, and I’ve also known Peruvians who in my experience are even more so. I want to be clear that I know this is my personal perception, but the feelings I had during this interview were unlike any I’ve had before. I have done several interviews over the past ten years, and this year alone since graduating I’ve gone through multiple processes, both with women and men, and I have never felt this uncomfortable until now. That makes me think that it was not just my imagination, but that there was something in his attitude that made me feel I was not being taken seriously as a candidate.\n\nFast forward to today, I was supposed to have my second interview at 9 a.m. Bogotá time. At 6:30 a.m. I got a text saying the interviewer could not connect and asking if I could reschedule for tomorrow. But shortly after, HR sent me a rescheduling link and the earliest availability was Friday, not tomorrow. So again, I rearranged my schedule only to have it pushed back at the last minute.\n\nAt this point I am wondering, are my feelings about this valid or am I just overthinking, should I flag the interviewer’s unprofessional behavior with HR now or wait until after the process is over, if you have been in consulting how would you recommend handling this?",
+      "subreddit": "interviews",
+      "score": 10,
+      "url": "https://reddit.com/r/interviews/comments/1mtlxre/bad_interview_experience_at_mckinsey_should_i/",
+      "comments": [
+        {
+          "body": "[deleted]",
+          "score": 12
+        },
+        {
+          "body": "Put on your big girl pants and roll with it. Your statement about going to HR indicates that you’re ignorant about the function. The absolute last thing you want to do is contact HR, I guarantee you nothing positive would result. Your focus is misplaced on trivia. The interviewer’s perception of you must have been positive since they moved you forward to the next level. That’s what you want, isn’t it?\n\nAnother important point to consider. This was with McKinsey! Based on my experience with them I would not be surprised at all to learn that some, if not all of this, was actually deliberate to see how you would handle it. Their world, dealing with clients, frequently can be random and interrupt driven. They look for intelligent people with agile minds and personalities. Go forward with your interview process positively, and don’t view things too granular, as it will not serve you well. Keep the goal in mind!",
+          "score": 3
+        },
+        {
+          "body": "Sorry you went through that, OP. Honestly, I don’t understand why some recruiters even bother interviewing if they’re going to handle things that way. If you do bring it up with HR, I’d suggest framing it less as a complaint and more as constructive feedback,just focusing on what could make the next round a better experience for both you and the company.",
+          "score": 2
+        },
+        {
+          "body": "You made it past this guy to the next round.  Congratulations. If you want this job I'd not say anything and move forward in the process.",
+          "score": 2
+        },
+        {
+          "body": "I have previously interviewed McKinsey multiple rounds. Mind you, I wasn’t applying to Latin American offices. Do you know how work environments are in Latin vs American form? If so, expect whatever you know of Latin culture much higher there in this office. McKinsey is highly rated in America, expect even higher reputation in Latin America. You’ll find the absolute best and the worst of the country in this offices there (unless they internally transferred from America to XY office). Overall, be prepared for anything. Don’t mind running out of time. They are only seeking how you’ll respond when anything comes up. It happens. Continue to take these in interviews. Every single one of them will be learning lessons. Nothing in your future career could ever be as intense as these. Good luck on your next one.",
+          "score": 1
+        },
+        {
+          "body": "I tried to write a long, thoughtful response, but in the spirit of McKinsey's \"Mutually Exclusive, Collectively Exhaustive\" lingo let me pls summarize:\n\nGo tell them to suck your dick",
+          "score": 1
+        },
+        {
+          "body": "Yeah, that's rough. First off, your feelings are totally valid. It's crucial to ensure interviewers are professional and respectful. I'd recommend noting your concerns and sharing them with HR after your process concludes to maintain impartiality and ensure your feedback isn't tied to the active process. Meanwhile, stay focused, prep well for the next round, and don't let this poor experience shake your confidence. You're capable, and future interviews will reflect that! Good luck!",
+          "score": 1
+        },
+        {
+          "body": "Mackenzie isn't exactly an unknown company, they've had a few troubles lately but they're highly respected. I say every apple tree has a few bad fruit. If you made it to the second interview good on you.",
+          "score": 1
+        },
+        {
+          "body": "I have never met a person who worked for McKinsey that I thought was a decent human being.  I bet the people in HR are worse than the normal McKinsey employee.  Maybe you should apply somewhere else.",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

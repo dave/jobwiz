@@ -1,0 +1,121 @@
+{
+  "company": "zendesk",
+  "post_count": 8,
+  "exported_at": "2026-01-18T17:44:53.318Z",
+  "posts": [
+    {
+      "title": "Is this PaaS Support Engineer Job a Good lead-in to DevOps?(career suicide?)",
+      "body": "First of all, I've read a ton about DevOps and I know that \"it's just a culture\", but it also tends to be an umbrella term for jobs requiring knowledge of CI/CD, Infrastructure, Docker, etc., so I'm using it in that manner.  \n\nI'll be graduating next month with a BS in CS, and I find the aforementioned technologies very interesting, and have taken time over the past month to familiarize myself with Jenkins, Docker, and AWS(taking acloud.guru's course). That appeals to me more than a software engineering role, but I also know that very rarely do you come out of college doing DevOps.  \n\nWould I be better off going for a position at Pivotal(job description below), doing tech support for Cloud Foundry/Web Services, or should I just go with the traditional SDE route and get into DevOps that way? The appeal of Pivotal is that based on the interviews I've had, it's not a \"reset your router\" help desk job, since the customers are all software engineers/companies themselves. I'd supposedly get a chance to learn all of those tools at this job. Pivotal also has a good reputation AFAIK from reading Blind. Has anyone else gone this route? That is, Tech Support --&gt; DevOps? \n\n&gt;Our team members are all familiar, skilled, and/or experienced in some of the following:\n\n&gt;&gt;One or more of the Linux operating systems, network administration, and networking protocols/functions (e.g., HTTP, HTTPS, SSL/TLS, SMTP, DNS)\n\n&gt;&gt;Iaas/Cloud Infrastructure (e.g., AWS, Azure, OpenStack, vSphere, etc.)\n\n&gt;&gt;Reading, understanding and making small changes to moderately complex applications written in one of the following languages: Ruby, Python Rails, GO, NodeJS, and especially .NET and/or Java\n\n&gt;&gt;Container technologies such as Docker or container orchestration tools like CoreOS, Docker Swarm, Kubernetes, etc.\n\n&gt;&gt;Software development practices, git workflows, Continuous Integration/Continuous Delivery  \n\n\n&gt;Desired Skills / Experiences\n\n&gt;Automation tools like Chef, Puppet, Ansible, Saltstack, Mesos or similar technologies\n\n&gt;Ticketing systems such as Zendesk, Jira, Desk.com, Salesforce Service Cloud, Freshdesk",
+      "subreddit": "cscareerquestions",
+      "score": 1,
+      "url": "https://reddit.com/r/cscareerquestions/comments/9x3nvu/is_this_paas_support_engineer_job_a_good_leadin/",
+      "comments": [
+        {
+          "body": "Sounds like a good Platform engineer role (mix of Full stack with DevOps) Go for it, and make sure to get your AWS certs ",
+          "score": 5
+        },
+        {
+          "body": "Hello,\n\nI've done Tech Support for 20 years.  In that time, I've helped some people (and watched many more) make the jump from Support to Development.  For many companies, it's a great method and path to get into Development.  In Support, you learn a companies product(s) inside and out to help find and solve problems with those products.  When you make the change to development, you already know the product, you know how to get around in it, and you (usually) have an advantage in getting the position because you're an internal hire (assuming you're staying in the same place).\n\nA big key is how deep the troubleshooting goes.  For example, in my current company, Support has access to the product source code and can help debug a problem to the line of code for the engineering team to fix.  In other roles, it may be a case of telling them what you found and what was expected to happen.  Either way, expect to start with the basics of finding problems and reproducing them for more senior Support engineers.  If you look at it as a stepping stone to the career you want, you may find that it is a lucrative one in the end.  Who knows, you may end up staying in support your entire career.  We have cookies!\n\nHope this helps!",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Got My Hopes Up for a Job I Really Wanted, Then Got Hit With a “System Error\"",
+      "body": "Hi everyone,\n\nI’m graduating next week and recently applied to a job I was genuinely excited about — a dream role in social media for a brand I really admire. I've been applying to all kinds of jobs but I've lost hope since I haven't was let go from my last one six months ago.\n\nYesterday May 12, I received an official email inviting me to complete a screening (20–30 min, due in 4 days) from a third party recruiter (Distro). It felt like a huge step forward. I even started the process being asked questions like what is my preferred pay rate then needing to grab my CV, which I took about an hour to customize for the application. and when I came back, the link no longer worked.\n\nI contacted support, kirs did say that they'd get back to me once the link was working and then only after I sent to follow ups did they told me the invite was actually **sent in error due to a system issue**, and to disregard it. They said it wouldn’t negatively impact my application and that if I’m selected to move forward, I’ll hear back starting today (May 13).\n\nI’m trying to stay hopeful, but I’m honestly feeling anxious and disappointed. This opportunity meant a lot to me, and the sudden switch has left me really unsure what to expect next.\n\nHas anyone gone through something similar? Did following up help? I’d appreciate any advice, or just some reassurance if you’ve been there.\n\nThanks for reading.",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/1kltmkf/got_my_hopes_up_for_a_job_i_really_wanted_then/",
+      "comments": []
+    },
+    {
+      "title": "Is a Customer Success Engineer job as a new grad better than no job?",
+      "body": "The CSE job description says, I have to :\n\n* maintain websites on cloud PaaS\n* access cloud servers using terminal system (Nginx, Apache, etc.)\n* work on chats and support tools (such as Zendesk)\n\nThere's a 5 month probation period and then a 2 yrs contract (and if I leave before that I have to pay back 5 months' salary). The company is small but they got a big contract (on which I am expected to work on). I have been job hunting for around 1.5 months and even though I have gotten calls from a few good places, I couldn't pass the interview because my DSA problem solving skills are not that good yet.\n\nNow, I plan to study DSA for 3/4 months and then apply to jobs I am interested in but I am not confident about the future. I am planning to accept the job and then practice DSA at the same time, then apply elsewhere. Does that sound like a good plan? Although, I am interested in a SWE job but I do not mind going into the DevOps route either. But does the above job description even sound good for my career?\n\nI just graduated 4 months ago and money is not a problem atm. I am just scared that I might be unemployed for a year or more if I let go of this job. Any insight is appreciated. Thanks for your time.",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/std8cj/is_a_customer_success_engineer_job_as_a_new_grad/",
+      "comments": [
+        {
+          "body": "Hello, thank you for posting to r/Jobs! \n\nWe just wanted to let you know that we have a new [discord server, come join the chat!](https://discord.gg/TY6ErXV)\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/jobs) if you have any questions or concerns.*",
+          "score": 1
+        },
+        {
+          "body": "me personally??  i would give my arm and leg for what you have. so yeah i would say its better than no job at all.\n\nand in the tech field.  idk what state your in, but my state it takes about a month per job process.  through round based interviews and all that 2 weeks at quickest.   \n\nso while its unlikely it will take you are YEAR to land something.  it is still possible it will take longer than you might want it to.. espically right out of school.   \n\nso i would stick to your current plan of studying WHILE working.  although paying back 5 months salary is :(  your on board for 2 years",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "title": "Terrible ZenDesk interview",
+      "body": "Hi everyone!  \nI just want to share a terrible experience I had with a company today.  \n  \nI had an interview with one of their HR representatives, who spoke to me in an incredibly rude manner and pretended not to understand me at all because of my accent. I have been using English for over 10 years in my work, I have worked for major U.S. companies, and I use English daily without any issues. However, this HR person nearly brought me to tears by constantly interrupting me, asking me to repeat every word, and questioning my pronunciation as if she couldn’t understand me. It was absurd. I have held a senior marketing position and communicated with countless professionals without a single complaint—everyone has always understood me just fine. But somehow, this HR representative couldn’t? Ridiculous.",
+      "subreddit": "interviews",
+      "score": 2,
+      "url": "https://reddit.com/r/interviews/comments/1id7qhl/terrible_zendesk_interview/",
+      "comments": [
+        {
+          "body": "I'm so sorry to hear that you had such a terrible experience at your interview. That sounds absolutely infuriating and unacceptable behavior from an HR rep. Honestly, it's not uncommon for people in power positions to struggle with empathy or understanding different accents, but that's no excuse.\n\nFirstly, try to shake off the frustration and disappointment - it's totally normal to feel that way, but don't let it define your experience with this company. You've had a successful career in marketing, which is amazing, and you have so much to offer.\n\nOne thing that helped me when I was in a similar spot was using an AI tool that listens to interview questions and suggests responses in real time - it's not a magic fix, but it made me feel more confident. If you're interested, I can share it with you. What you might want to consider is preparing answers to common behavioral interview questions, focusing on your strengths and experiences, and practicing your responses so that you feel more comfortable articulating yourself. You got this!",
+          "score": 2
+        },
+        {
+          "body": "wow im so sorry that happened. thats so uncalled for, and you absolutely did not deserve that. being bilingual is such a cool skill to have, and to have it used against you is so scummy and cruel. \n\ntake some time for yourself to decompress. i’d also encourage you to share this on glassdoor. i know they’re not the best with privacy so you can always create a sock account under a different name. \n\nsidenote, i applied for a position with ZD recently and received a rejection email. sounds like we both dodged a bullet.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Possible part-time internship in Australia, mature-age noob?",
+      "body": "Hi\n\nI'm a 39 year old student, 3 years through a 4 year degree (BSc with CS major), and it seems I have an 'interview' next week...\n\nI met a guy a couple of years ago through a mutual friend who is co-founder of a small company that does mostly contracts for web apps etc. I'd been teaching myself programming for a couple of years at that time, and done one semester of my degree. We talked a lot about programming etc, and have hung out a couple of times since. So I consider him a friend.\n\nI bumped into him earlier this year, and cheekily asked if he might have a spot at his company for an elderly intern, and rather to my surprise he said there was indeed a decent chance of that.\n\nCut to now-ish, and I am meeting with him and the other co-founder for a beer and to discuss \"what each of us wants\". My gf has assured me that this essentially constitutes an interview, feel free to offer your thoughts on that...\n\nSo basically I'm working retail liquor to support myself currently, and other than that I'm free until university starts again in mid February. I'll probably be able to squeeze in 2 or 3 days a week for these guys until then, and probably a max of 1 day per week during semester.\n\nSo yeah. What should I expect/ask for in my situation? I consider myself decent at writing code semantically, love keeping things clean and clear (good variable naming, comments and docs where appropriate), though can be a little slow to solve problems, and obviously have essentially zero 'professional' experience in the field. I'd be quite happy to take on 1 day a week for a couple of months as straight up unpaid 'work experience', but maybe that's selling myself short? If I were to ask for a wage, what would be a suitable rate for a 'fresh grad' who hasn't graduated and isn't that fresh in Brisbane, Australia?\n\nAll and any responses and advice are appreciated.",
+      "subreddit": "cscareerquestions",
+      "score": 5,
+      "url": "https://reddit.com/r/cscareerquestions/comments/7lu69n/possible_parttime_internship_in_australia/",
+      "comments": [
+        {
+          "body": "Do not take unpaid work. Just *don't*. The intern pay situation in Australian tech is no where near as bad as other industries but I still see too many students selling themselves for nothing. \n\nI got a web developer job at my university, when I basically knew fuck all Javascript and web dev stuff, and got paid $60AUD /hr. I thought this was absurd, but I hope it shows that if you seek out opportunities even v. inexperienced devs can get paid for their work. \n\nMy 1 year internship w/ Zendesk was ~$40k AUD a year, which I thought was pretty shit, but seemed actually standard for interns in Melbourne. My current internship with Atlassian is $35 /hr (~70k-80k) but this is high for Australian internships. \n\nAs you can see that's quite a lot of variance, and my pay certainly doesn't correlate with experience or productivity. I was pretty productive @ Zendesk and got paid the least. \n\nIf you're only doing 1 day a week, I'd ask for at least $25 /hr. I'd also consider that doing only 1 day a week compromises the quality of your work experience, as you're extremely part-time. Working full-time as part of an Agile team is completely different to 1-day-a-week work.\n\n",
+          "score": 4
+        }
+      ]
+    },
+    {
+      "title": "3 years Technical Support Experience, resigned due to health issues now struggling to get interview calls. Need advice.",
+      "body": "I’m a Computer Science engineer with a little over 3 years of experience as a Technical Support / Help Desk Engineer (Windows/Mac/Linux, ticketing tools like JIRA/ServiceNow/Zendesk, troubleshooting, incident management, system monitoring, documentation, user training, etc).\n\nI resigned in Feb 2025 due to severe health issues, and took some time to recover. I’m now fully fit and actively looking for a job in the same or related domain — Technical Support Engineer, IT Support, Help Desk, NOC/Monitoring, or even junior SysAdmin roles.\n\nThe issue:\nI’m barely getting any interview calls despite applying every day. Either my applications are ignored or rejected instantly.\n\nI’m trying to understand what I might be doing wrong:\n\t•\tIs a career gap of a few months a big red flag?\n\t•\tShould I rewrite my resume differently?\n\t•\tDo recruiters filter out resumes without certifications?\n\t•\tShould I shift my focus toward NOC/Monitoring or Networking roles (I’m willing to upskill)?\n\t•\tAny platforms, companies, or locations in India where TSE roles are still in demand?\n\nAbout me:\n\t•\t3 years hands-on technical support experience\n\t•\tGood with log analysis, ticketing tools, troubleshooting, process documentation\n\t•\tOpen to relocating to Kochi/Trivandrum/Bangalore\n\t•\tExtremely eager to restart my career\n\nIf anyone can share tips on improving my resume, where to apply, or what skills to add to stand out — I’d be really grateful. Even small suggestions help.\n\nused gpt to make the points 🙏",
+      "subreddit": "jobs",
+      "score": 5,
+      "url": "https://reddit.com/r/jobs/comments/1p1tb3y/3_years_technical_support_experience_resigned_due/",
+      "comments": [
+        {
+          "body": "I'm about the same.  I resigned in July and started looking for a job in October. I have seven years of experience in aerospace engineering, publications, and patents. As soon as HR managers find out I'm currently unemployed, they immediately change the subject to end it asap. I was turned down for a job that was a perfect match for my education, skills, and experience. It seems most HRs are simply minimizing the risks. I'm glad I have connections in the industry, so I secured a job, but it was exhausting and frustrating. Sorry for not being helpful.",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Phone interview for allocations analyst",
+      "body": "Hi all. I'm interviewing over the phone tomorrow for an allocations analyst tomorrow for a national retail company. \n\nCurrently, I work as an inventory analyst in everything but name. It's something I kinda fell into a year ago with my company and I never really interviewed for it. So basically I'm wondering (nervously) what kind of questions they would be fielding me and what questions I should field them. I really want to do well with this and it would be a huge step for me in my career. \n\nA little background: \nOne year as an inventory analyst. \nTwo years in logistics as an inventory control specialist. \nEight years of retail, including one year in management. \nAdvanced Excel experience. \nProficient with MS Office. \nExperience with Oracle ERP and Fishbowl.\nExperience with CRM programs like Zendesk. \nA BA in an unrelated field. \n\nAny help would be welcome!",
+      "subreddit": "jobs",
+      "score": 2,
+      "url": "https://reddit.com/r/jobs/comments/5428yt/phone_interview_for_allocations_analyst/",
+      "comments": []
+    },
+    {
+      "title": "Had a frustrating interview Friday",
+      "body": "I had never been in an interview like this before. It was over zoom which was fine since it's for a remote position. My interviewer was in a room (clearly her home) dressed completely down. Like a dirty t shirt, hair in a messy bun, could tell she was most likely sitting on her bed since she was slouched over. Meanwhile I was dressed up in interview attire. It threw me off that she was dressed like she was just attending a class or something. \n\n My recruiter sent me a list of interview questions that \"might be asked\" so I spent a bunch of time coming up with these great responses. My interviewer just asked me to tell me about myself...and that was it. I thought she was just making small talk. I told her about myself as in my interests, my degree, how my current life is going (just got my bachelor's, previous job, job searching etc). I thought she'd ask a question that related to the job at all but nope. After that she basically just described the position. \n\nThen she had me do a mock trial of using zendesk and said that while I was doing it she'd just be doing some work on her own then muted herself and turned off the camera, but there was something wrong with the program that was causing the page to not be able to be edited or even scroll down so I had to spend time getting her attention just to realize she only screen shared but didn't allow me to have control over the software. When I tried to explain things or ask questions she just kept saying they're not super worried about how good I am at zendesk because there would be an onboarding period.\n\n Interview was supposed to be an hour. It lasted 20minutes. I didn't get to say anything about my experience, why I'd be a good fit, my skills, just nothing. Then I get an email saying I didn't get the job. I just don't understand how I was supposed to show I was a good fit for the job when I got no questions besides a general  ice breaker question and then  a computer competency trial where the interviewer basically left and practically sabotaged my time using it.\n\n The most annoying part is that I got almost 100% on my application test (customer service questions, personality questions, speed test, open ended questions, etc). Im just pissed that people applying for a job can work so hard just for an interviewer to put in little to no effort then just decide they don't like you based off of....nothing really.",
+      "subreddit": "interviews",
+      "score": 7,
+      "url": "https://reddit.com/r/interviews/comments/o56w3a/had_a_frustrating_interview_friday/",
+      "comments": [
+        {
+          "body": "Sometimes people just don't vibe. I have a feeling that she would not have you do that zen-desk test if she was interested in continuing the interview. There is a good chance that she already made up her mind to not hire you before you had the zen-desk experience. It was just a shitty way to pass the time without being completely rude.\n\nMy advice. Reflect on what you might have said to give off a bad vibe before the zendesk part. If you really can't think of anything, move on and think nothing of it. Sometimes people just don't vibe and that's ok.",
+          "score": 3
+        },
+        {
+          "body": "Email the HR/recruiter you were working with. I’d be livid if I heard that someone on the interview team was doing that. Please please say something, more than likely they aren’t aware that she did that and that kind of behavior needs to be corrected.",
+          "score": 3
+        },
+        {
+          "body": "This could have been a courtesy interview or a diversity pool interview. She could have already chosen someone like an internal candidate but had to show they’ve spoken to other people too. Also maybe the recruiter really liked you or someone else recommended you, but they’d already made up their mind. Shouldn’t have happened and it’s not ethical, not fair to you, but it’s the reality in some organisations unfortunately. Good luck with your other interviews!",
+          "score": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "company": "cloudflare",
+  "common_questions": [
+    "definition questions which i feel happens in almost every SWE interview where one person wants tk ask something like “what is polymorphism?",
+    "explaining that they're still going through some applications due to the high volume of",
+    "or two and may get a design question",
+    "as im brushing up on leetcode and doing decent at it"
+  ],
+  "themes": [
+    "System design emphasis",
+    "Heavy focus on coding",
+    "Multiple interview rounds"
+  ],
+  "interview_tips": [
+    "I would love to accept with them and I was expecting to hear back by this time because their internship is",
+    "I would say overall the WLB is quite reasonable",
+    "I would like to hear your experiences with Cloudflare, from interviewing to working there"
+  ],
+  "red_flags": [
+    "know the Cloudflare specifics, but generally software engineer = app development while systems engineer = platform/infrastructure development",
+    "stress too much about specific definition questions - they're more interested in your practical experience and how you think about complex systems"
+  ],
+  "process_insights": {
+    "typical_rounds": "5 rounds typical",
+    "timeline": "2-4 weeks",
+    "format": "Mix of phone screen, technical, virtual"
+  },
+  "source_count": 9
+}

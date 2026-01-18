@@ -1,0 +1,429 @@
+{
+  "company": "twilio",
+  "post_count": 22,
+  "exported_at": "2026-01-18T17:44:53.311Z",
+  "posts": [
+    {
+      "title": "Has anyone interned at Twilio? What is their interview process like?",
+      "body": "I can find next to nothing online about Twilio's interview process. From what I saw, it seems to be a couple of technical phone interviews, followed by on-site interviews at their HQ in SF.\n\nHas anyone interned with Twilio? What was the actual internship like, and how did the interview process go? Do they ask any language-specific questions/\"OOP trivia\" or is it completely based on coding questions and data structures/algorithms, like big 4/unicorn companies?",
+      "subreddit": "cscareerquestions",
+      "score": 12,
+      "url": "https://reddit.com/r/cscareerquestions/comments/5jvu23/has_anyone_interned_at_twilio_what_is_their/",
+      "comments": [
+        {
+          "body": "The interview process is team specific, there's no standard.",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "title": "Did things get significantly easier for you after having worked at a reputable company?",
+      "body": "Hello everyone,\n\nBy reputable, I mean not just FAANG but also well-known companies like Uber, Reddit, Gitlab, Bolt, Revolut, Wise, Datadog, Twilio etc.\n\nI was wondering if you have seen a significant increase in your success to land interviews after cold-applying to jobs or if you even needed to apply yourself anymore.",
+      "subreddit": "cscareerquestions",
+      "score": 16,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1kqmoxw/did_things_get_significantly_easier_for_you_after/",
+      "comments": [
+        {
+          "body": "Yep, people like big names.",
+          "score": 24
+        },
+        {
+          "body": "I have only worked at \"non-reputable\" companies in my 15 YOE and I will say my path does not make it any easier.  Nobody has really heard of the companies I have worked for so it feels like starting from nothing every time I start interviewing.\n\nI would guess getting named tech companies on your resume opens some doors as being former Uber, Stripe, etc... probably has some pull with recruiters.  If you have 30 resumes that are all reasonable candidates to interview you have to filter on something to determine who to call first and the recruiter recognizing the companies you have worked for as solid tech company can never be a negative.",
+          "score": 19
+        },
+        {
+          "body": "Yes.\n\nNon-technical recruiters filter on having worked at a shortlist of companies and attended a shorter list of schools.  And you get paid to work at Google.",
+          "score": 11
+        },
+        {
+          "body": "Ideally the goal is to build a network such that you don't need cold applications, but yes this can help to some extent. \n\nGenerally you can leverage recruiters / friends at other companies",
+          "score": 6
+        },
+        {
+          "body": "It does help. \n\n  \nBut here is the giant caveat -- if you work with good teammates at a few firms who will reach out and vouch for you and vice versa, this has a domino effect on you getting your next gig. And it really depends on where you are looking as rural and small cities will not relocate you so unless you're staying in a major metro area then you should be ok. Again , not everyone's dream to move to the mountains but it was mine.",
+          "score": 7
+        },
+        {
+          "body": "I would not say it makes it *significantly* easier. But having years of work experience from a reputable employer can make it more likely that company recruiters will reach out to you directly.",
+          "score": 3
+        },
+        {
+          "body": "Yes.",
+          "score": 2
+        },
+        {
+          "body": "yes. it's easier to tell your stories when people are already familiar with the company's line of work. larger also companies tend to have more opportunities for 'ownership' and measurable impact. it also helps to be a part of a company that has effective development processes- a whole lot of devs out there know how to close tickets but would be totally lost without a strong technical lead calling most of the shots.",
+          "score": 2
+        },
+        {
+          "body": "it makes getting a job significantly easier. before i worked at a FAANG, i couldn't get an interview at google. after i worked at one for a year, they sent me straight to onsite (no phone screen).",
+          "score": 2
+        },
+        {
+          "body": "Yeah, definitely. And it’s not just about the résumé. You really do become a much better software engineer if you’ve worked at big-name companies for several years. Recruiters don’t randomly try to hire people just because they have big names on their résumés—it’s the result of the training, experience, and standards they were exposed to at those companies.\n\n\n\nWorking at top-tier companies often means you’re held to higher expectations, learn to write scalable and maintainable code, participate in rigorous code reviews, and collaborate with highly skilled engineers. All of that shapes you into a stronger developer—and that’s exactly what recruiters are looking for.",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Interviewing Again Uber or Twilio?",
+      "body": "Hey All,\n\nI am an intern at an SF startup right now. I am very lucky to have received offers from Uber and Twilio for this current summer (but took an offer somewhere else). If I wanted to work as an intern for Uber or Twilio or similar company next year, I'm assuming I'd have to interview again? The fact an offer was previously extended does not matter? Please let me know if you have any experience in this manner. \n\nThe reason I ask is there is a certain amount of luck to technical interviewing. I think if I had gotten a different interviewer, even where I currently work, I would not have gotten an offer (mostly due to different skillsets).  I think this is called anti-interview loop by Steve Yegge.\n\nThanks for any advice and please exclude my ignorance.",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/4vf77h/interviewing_again_uber_or_twilio/",
+      "comments": []
+    },
+    {
+      "title": "Thoughts on confusing feedback from Twilio?",
+      "body": "Hi there. I've recently been through the interview process at Twilio for a frontend developer role. I have a full stack background but I started my career as a frontend dev and I'm more than comfortable with it.\n\nUnfortunately, I did not get the job and received the following feedback:\n\n\"You did really well and we want to emphasise that you were a strong yes, but your breadth and depth of knowledge is beyond the scope of this role\"\n\nI feel like this is a bit of a cop out response, but I wanted to get others thoughts on it. Cheers\n\n*Edit: The recruiter (internal) actively wanted to keep in touch so that they could let me know if any applicable roles came their way. My asking salary was £20k below their offering",
+      "subreddit": "cscareerquestions",
+      "score": 1,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1mptsxs/thoughts_on_confusing_feedback_from_twilio/",
+      "comments": [
+        {
+          "body": "Didn’t they just do a massive layoff? I guess everyone’s probably using them to do shitty AI phone calls and texts now.",
+          "score": 9
+        },
+        {
+          "body": "First, and separate from your question: ask the recruiter if there is another job profile you should keep an eye for openings in, and if there's a cooldown.\n\n--\n\nTwo possibilities, and have been on the hiring side of one of them, been an IC on the committee for another:\n\n1) At my current company, back when I was a manager, have had a few people calibrate HIGHER in the interview process than we were initially interviewing them for.  Under the old system, we could offer them the original job at the original level - just making clear that's all we can do.  A few years ago, it changed to \"nope, you can't downlevel a hire like that\" and either another team who has an opening at the level I was hiring at took them, or they didn't get a job offer from the company.\n\n2) Did you give salary/TC requirements?  You might be out of range; some places won't treat you like an adult and will find an excuse not to make an offer they expect you to turn down.",
+          "score": 3
+        },
+        {
+          "body": "&gt; cop out response\n\nThis right here. They didn’t want to hire you but don’t want to say why. Possibly for no reason at all.",
+          "score": 3
+        },
+        {
+          "body": "They probably thought you did well, but don't want you leaving for a higher level position with better pay if they hire you.",
+          "score": 3
+        },
+        {
+          "body": "I'm reading it as \"you are overqualified (and probably too expensive) for this role\". That doesn't seem confusing to me at all.\n\nI would indeed keep in touch with the recruiter as maybe they'll have budget for someone like you later.",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "How to survive in this situation?",
+      "body": "I'm a new grad working at a reputed, large and we'll established company. I have around 4 months of experience. The thing is I was interviewed for software Engineer role but I'm allocated to a support project, the project allocation is random because I had learned things like git, Bash, Linux etc., which are used in development but people who don't knew these were given development role. I also know C, modern C++, Python, some SQL, REST APIs, postman etc., but I'm not getting the opportunity to use any of them or any other tech stack.\nMy current support role has no growth and no transferable skills to learn\nI have not written a single line of code for the company, infact I haven't seen any codebase and the irony is my title is SWE.\nAll we need to do is monitor lots of processes, and if anything fails, we need to take some actions and send emails.\nThere is no documentation and my teammates does not know, and / or not willing to explain things to me, since all these are internal tools and can't be googled\nThere is no proper KT and I'm working in shift alone and if anything goes wrong, I'll be responsible for that.\nAlso whatever has been taught to me by the senior teammates, most of it is wrong and my manager thinks I made the mistake. When I clarify that I was instructed to do the with that way by person X, manager asks me to send email stating that person X told me to do so and then scolds X, which makes my relationship with X more difficult.\nI spoke with my manager that I want development but he only has support and DevOps teams under him.\nThe company policy is that we need to wait 18 months to switch projects, but my manager said he will push me to DevOps after my probation period is over which is 6 months, so still 3 months to go\nI'm not sure how it works but I want to be completely transferred to a developement or atleast DevOps project and don't want to work in my current support project. I also don't want to be juggling tasks from both which I think what he will propose\nI can't even switch since I don't have enough experience and the market is not great right now\nI also need to pay some amount to the company if I leave within a year so there's that (they provided accomodation)\n\nI even applied to lots of other companies, including microsoft twice and twilio once, mind you with referrals for the application but rejected. One microsoft position required cs degree and 1+ year of exp but I was rejected.\nI believe my resume shows I'm not doing development or any programming related work even though I've embellished my resume while keeping it honest and I think it will only get worse if I stay in the same role for a long time.\nSorry for the long text but any advice from you is greatly appreciated\n\nTL; DR\nnew grad in support role, no code, internal tool used, no KT, and I need to switch to development.",
+      "subreddit": "cscareerquestions",
+      "score": 11,
+      "url": "https://reddit.com/r/cscareerquestions/comments/17ofn6k/how_to_survive_in_this_situation/",
+      "comments": [
+        {
+          "body": "Keep applying to other jobs maybe aim a little lower than Microsoft or the big names.",
+          "score": 16
+        }
+      ]
+    },
+    {
+      "title": "I messed up",
+      "body": "I messed up when applying for jobs, I thought my CV was great without any portfolio or projects. I feel like crap just applying to portals and online websites.\n\nI've put 10 years hobby experience and listed out all the small projects I did but I didn't have my own website or link to my github.\n\nDo you think it would be ok if I use a twilio mobile number, nick name and different email address to apply for jobs? No one got back to me on an interview, I've been at it with my CV for well over 6 months. I just need to get a fresh start in my job search.\n\nbackground: I have 10 years as a hobby programming with c++/c, python and c# but coming from finance career.",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/qax5of/i_messed_up/",
+      "comments": [
+        {
+          "body": "&gt; Do you think it would be ok if I use a twilio mobile number, nick name and different email address to apply for jobs?\n\nThis sounds *really* unethical.\n\nJust update your resume and don't make the same mistakes again going forward.",
+          "score": 5
+        },
+        {
+          "body": "Have you tried posting your resume and have it reviewed by the community?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Moving on from first job, need help deciding where to move on to",
+      "body": "Hi all, have decided I want to move on from my current company, have a little under 2 YOE. Currently have an offer from a non-profit company in the health sector for a SWE/Data role, but also have some recruiter contacts at Big N (Snap, Twilio, Amazon, Meta, etc.) thanks to personal connections. Trying to decide whether to take this offer, or to take a few months to study for Big N interviews and go for those jobs.\n\nHere are the pros/cons as I see it so far:\n\n&amp;#x200B;\n\nNon-Profit (think American Cancer Society, American Heart Association, etc.)\n\n* (+) Considering medical school/grad school in future, may be good to build contacts and relationships here since I’ll get to work with physicians and researchers\n* (+) Meaningful work (won’t go into specifics, but uses big data to fight disease)\n* (+/-) Decent TC for a non profit (140k, remote) but could be higher working elsewhere\n* (+/-) Colleagues don’t have experience in big tech companies (not sure if this is important or not)\n* (+/-) Modern tech (AWS, Spark, etc.) but definitely not cutting edge\n* (-) Might not be as good on resume for career growth\n\n&amp;#x200B;\n\nBig N\n\n* (+) Higher Compensation (assuming I can eventually crack the interviews, much higher than the non profit)\n* (+) More modern technology, might learn more\n* (+) Would be good for resume and getting interviews in future\n* (-) Would have to invest good amount of time into studying for leetcode/system design. Unsure of when I could land an offer given I can only do leetcode easy right now.\n* (-) Probably would end up on some team that’s ultimate goal is just creating extra revenue using personalized ads or something\n* (-) Would spend more time in my current role which I'm currently unhappy in \n\n&amp;#x200B;\n\nThanks! Would appreciate any thoughts.",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/scsfsb/moving_on_from_first_job_need_help_deciding_where/",
+      "comments": []
+    },
+    {
+      "title": "Learning How to Code for Beginners (Resources)",
+      "body": "Let’s put together some online resources for everyone interested in tech and learning to\n\nprogram at all levels! Feel free to add to the list and share :)\n\n● SoloLearn\n\n● Eduonix\n\n● TutorialsPoint\n\n● W3Schools - introduction to web dev and SQL\n\n● FreeCodeCamp - Introduces HTML, CSS and JS for web development and goes into\n\nsome useful Frameworks like Bootstrap etc.\n\n● Codecademy - Free courses available for HTML, CSS, JavaScript, Python etc. Pro\n\nmembership includes more courses as well as activities. Download the\n\nCodecademyGo app which lets you review topics and practice via questions.\n\n● Stack Overflow - great for when you come across any programming problems\n\n● Learn Code the Hard Way - courses on C, Python, Ruby, SQL, JavaScript and more\n\n● General Assembly\n\n● Udacity - some free programming courses available\n\n● Udemy - free Python courses\n\n○ Find more free Udemy courses here\n\n● CodeFirstGirls - usually 8 week programs with 2 hour commitment a week\n\n○ Data science, intro to python, intro to web dev\n\n● LinkedIn Learning - can be free for some universities\n\n○ Good for learning the basics\n\n● Roadmap.sh\n\n● Datacamp - data science resources in Python, R, SQL\n\n● Dataquest - learn data science\n\n● Coursera - introductory programming courses\n\n● Codewars - daily coding challenges in languages of your choice\n\n● Edabit - interactive coding challenges\n\n● Edx - courses from top unis including Harvard, MIT etc\n\n● Exorcism.io\n\n● Educative.io\n\n● Future Learn - has various courses on topics such as web development\n\n● TwilioQuest - learn code through playing a video game\n\n● JetBrains: Developer Tools for Professionals and Teams\n\n● Atom.io - free downloadable software for Windows and Mac which lets you write and\n\nsave code\n\n● Khan Academy - learn HTML, CSS, JavaScript and SQL. Also has topics on\n\ntheoretical computer science here\n\n● Hacker Rank\n\n● Spoj - solving problems\n\n● Algoexpert - for interviews\n\n● Programiz\n\n● Codebar tutorials\n\n● shorturl.at/oFGJP Summer Coding Crash Course by the Warwick Data Science Society (Python and R) - link takes you to the Linkedin post\n\nResources you can access as a student\n\n● AWSEducate\n\n● Github Student Developer Pack\n\n● [https://google.dev](https://google.dev)\n\nMachine Learning\n\n● Google Crash Course\n\n● Coursera Course\n\nVirtual internship experience\n\n\\- [https://www.insidesherpa.com/dashboard](https://www.insidesherpa.com/dashboard)\n\nHackathons\n\n● MLH - official student hackathon league, also running online workshops regularly on\n\ntheir localhost website\n\n● Hackathon UK - list of hackathons taking place across the UK\n\nOther\n\nTech Resources\n\n● Build your future with Google: https://buildyourfuture.withgoogle.com\n\n● Guide to tech development at Google: https://techdevguide.withgoogle.com\n\n● Practice questions: TopCoder\n\n● https://leetcode.com/\n\n● https://www.pramp.com/\n\n● Cracking The Cod ing interview 6th edition\n\n● Programming Interviews Exposed (Book)\n\n● GitHub Free Programming Books - an extensive resource of free online resources for tech\n\n● Google Digital Garage - simple courses on coding, machine learning, Google Cloud\n\nPlatform\n\n● Music to Code with (Piano Instrumental): Unravel by David Oriakhi on Spotify\n\n● Hack The Box - Cyber Security, Penetration testing experience for slightly more\n\nintermediate learning.\n\n● PicoCTF - Cyber Security, great place for beginners to learn about CTFs,\n\npen-testing, etc.\n\n● TryHackMe - Cyber Security, lots of ‘rooms’ for all abilities including CTF’s,\n\nwalkthroughs and King of the Hill games.\n\n● Immersive Labs - Cyber Security and CTF skills training with a scoring system, often\n\nfree with universities.\n\n● WomenTechCharge podcast - hosted by Dr Anne-Marie Imafidon , the CEO of\n\nSTEMettes.org , the second series built on the work of the first by highlighting some\n\nof the incredible women revolutionising our lives across STEM\n\n● InterviewCake - programming interview questions sent to your email inbox\n\nNetworking Resources\n\nhttps://jkellyhoey.co/jkhlinkedinguide-pages/\n\nhttps://brightnetwork.egnyte.com/dl/TX5f3wihYv",
+      "subreddit": "cscareerquestions",
+      "score": 12,
+      "url": "https://reddit.com/r/cscareerquestions/comments/jjs2ou/learning_how_to_code_for_beginners_resources/",
+      "comments": [
+        {
+          "body": "/r/learnprogramming",
+          "score": 1
+        },
+        {
+          "body": "A huge list indeed!  Can add up this link too: [https://moonshotjr.com/](https://moonshotjr.com/). Seems like a fit to this list.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Is Twilio a hard company to get into? If you get in is it worth sticking around for 5+ years?",
+      "body": "Also wondering how the pay and benefits are? Is total compensation super competitive?",
+      "subreddit": "cscareerquestions",
+      "score": 50,
+      "url": "https://reddit.com/r/cscareerquestions/comments/vqhodg/is_twilio_a_hard_company_to_get_into_if_you_get/",
+      "comments": [
+        {
+          "body": "It's a respected company, a known one in the tech world. That doesn't mean you should absolutely stick around 5 years.",
+          "score": 107
+        },
+        {
+          "body": "I received an offer in the second half of 2021 for an L4/Staff engineer role. It was overall one of the easier interviews that I've ever done. I wouldn't say it was easy exactly, just easier than others I've done.\n\nI live in Colorado, and the offer they gave me was about 240k TC after negotiating. I didn't take it because that was pretty far below what my TC is now, fwiw.",
+          "score": 63
+        },
+        {
+          "body": "[deleted]",
+          "score": 17
+        },
+        {
+          "body": "Not necessarily hard but a lengthy one. I had hackerrank + 1h coding +1h system design + 2 1h behaviorals and multiple calls with the recruiter.",
+          "score": 19
+        },
+        {
+          "body": "https://www.levels.fyi/company/Twilio/salaries/Software-Engineer/\nThey seem to pay ok (not as high as FAANG) but not sure about their stock perf tho…",
+          "score": 12
+        },
+        {
+          "body": "I wouldn't stick anywhere for 5 years. By then you are well below average salary. Just saying...",
+          "score": 17
+        },
+        {
+          "body": "Is *any* company worth sticking around for 5+ years?",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "title": "Which companies still do onsite interviews for interns?",
+      "body": "Noticed that a lot of companies have stopped/changed doing onsite interviews for interns (Lyft, Twilio, Google etc.). Which companies still do them? Off the top of my head I think MS is one of the last tech companies, while the banks/finance shops still do them",
+      "subreddit": "cscareerquestions",
+      "score": 6,
+      "url": "https://reddit.com/r/cscareerquestions/comments/e7k3d4/which_companies_still_do_onsite_interviews_for/",
+      "comments": [
+        {
+          "body": "Plenty of companies still do. Quora, Dropbox, and Two Sigma are some.",
+          "score": 5
+        },
+        {
+          "body": "I have been scheduled onsite for a couple of local Midwestern companies but I am local to the area.",
+          "score": 4
+        },
+        {
+          "body": "I think youll find a majority still do. Every interview I had late last year had in person interviews.",
+          "score": 3
+        },
+        {
+          "body": "Sorry, your submission to /r/CSCareerQuestions has been automatically removed. Please save interview discussion, advice, and critique requests for the weekly stickied thread.\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/cscareerquestions) if you have any questions or concerns.*",
+          "score": 2
+        },
+        {
+          "body": "Dropbox, Robinhood, Pure Storage, Quant (JS, Citadel, 2S etc), MS, Salesforce?, Palantir off the top of my head",
+          "score": 2
+        },
+        {
+          "body": "I think most banks (BofA, Goldman Sachs, etc) still do since they tend to be more traditional/old-fashioned",
+          "score": 1
+        },
+        {
+          "body": "I mean... I don't see why a company wouldn't, if they could\n  \nbased on the other responses here I'm guessing what you mean to ask is \"Which companies still ~~do~~ require ~~onsite interviews for~~ interns to fly in to do onsites?\" which afaik isn't that common, but some still do\n  \nI have flown international flights into SFO probably at least ~10 times for my internship + full-time job hunt",
+          "score": 1
+        },
+        {
+          "body": "Redfin",
+          "score": 1
+        },
+        {
+          "body": "My company does - Fortune 500 in the midwest.  But we might stop doing that.  Not because it is so expensive, but because it is a nightmare to schedule and slows down the offer speed.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Amazon QA intern",
+      "body": "Hello guys, I got an offer for a Summer QA Intern at Amazon and my questions are listed below.\n- Would this be helpful for applying for next year's summer software engineer intern to Amazon or other companies? I am also interviewing with other companies like Unity, Twilio for software engineer intern position, and wonder how you guys will choose if you get an offer for SWE intern from other companies. \n- Also, how hard to change QA to SDE inside of Amazon. I am considering if I got a full-time offer for QA Engineer, then how would be the process for it.",
+      "subreddit": "cscareerquestions",
+      "score": 2,
+      "url": "https://reddit.com/r/cscareerquestions/comments/q5tkgg/amazon_qa_intern/",
+      "comments": []
+    },
+    {
+      "title": "Twilio new grad salary and reviews",
+      "body": "Hello!\n\nDoes anyone here know how much twilio pays for a new grad software engineer? I do have another offer that pays 110k for boston. I'm trying to choose between twilio and the other offer based on salary twilio would offer to me (I'm yet to get an offer, but the interview went well. I should get an offer in a week). Also, if any of you have worked/working or know someone about working at twilio, I would really appreciate some feedback on quality of work and work culture.\n\n&amp;#x200B;\n\nThanks in advance!",
+      "subreddit": "cscareerquestions",
+      "score": 2,
+      "url": "https://reddit.com/r/cscareerquestions/comments/am4m41/twilio_new_grad_salary_and_reviews/",
+      "comments": [
+        {
+          "body": "Twilio pays well above your other offer.",
+          "score": 4
+        },
+        {
+          "body": "Can you not just wait for Twilio to make you an offer before making a decision on the other job? If not, is it because of a deadline on the existing offer? If that's the case, you should ask them for an extension or tell Twilio you need an answer sooner due to a deadline on another offer. ",
+          "score": 3
+        },
+        {
+          "body": "When was your interview and have you gotten the offer yet? I've been waiting for an offer for last 2 weeks.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Where have you heard back from just by applying online for internships?",
+      "body": "Just wondering where people have heard back from just by applying online. I've applied to around ~80 places since August and here are my stats if anyone is interested:\n\nIn progess/phone interview:\ngoogle, microsoft, goldman sachs, twilio, wealthfront, rubrik, qualtric, intuit, redfin, bloomberg\n\nHackerrank:\npalantir, stripe, box, thumbtack, atlassian, twitter\n",
+      "subreddit": "cscareerquestions",
+      "score": 6,
+      "url": "https://reddit.com/r/cscareerquestions/comments/757u4h/where_have_you_heard_back_from_just_by_applying/",
+      "comments": [
+        {
+          "body": "I heard from Palantir just from an online application. Everything else I did through my career center. ",
+          "score": 4
+        },
+        {
+          "body": "I've sent out about 70 apps, I've heard back from Two Sigma, IMC, Urban Science, Goldman Sachs, Microsoft, and several other companies. MS said they'll be giving me a phone screen, I had an on site with GS, video interview with IMC, and am about to have an on site with Urban Science.",
+          "score": 2
+        },
+        {
+          "body": "What does your background look like, OP?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Ghosted By Twilio?",
+      "body": "Anyone else interview with Twilio recently? Have you heard back?\n\nI recently had an onsite with them as well as a follow up interview but haven't heard anything back in a few weeks.\n\nThey've forgotten about me several times throughout the interview process but that's just been the job hunt for companies with \"new grad\" pipelines at this point. I'm not too pressed though since I have another offer.\n\nThey ghosted me about two years ago after a phone screen so I don't expect too much from them.",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/av6plf/ghosted_by_twilio/",
+      "comments": [
+        {
+          "body": "Got an offer a couple days after the on-site. Curious, what team did you interview for and where is your other offer from?",
+          "score": 3
+        },
+        {
+          "body": "They ghosted me after the HackerRank. ¯\\\\\\_(ツ)_/¯",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Should I accept???",
+      "body": "So just an introduction, I am currently a sophomore, and I interviewed for a lot of BigN? Unicorns companies(Airbnb, Dropbox, Snap, Twilio, Microsoft[Explore]. Nest Labs, Tableau, ) this year. I also attended an hack-a-thon event for two sigma (halite) at their campus in New York. this year for internship(and got close for many). I was unable to land an internship. Until recently I was accepted into this program http://newtechnologists.com/ (it is affiliated with Microsoft -- we work with Microsoft senior engineers ) It runs from June 18th until August 7th. There's a $5,600 stipend. It might help get an internship at Microsoft my junior year, since I am a sophomore, if I work well if the Microsoft senior engineer I am working with I am not sure if I should accept, or I should keep looking for other internships? Any thoughts? Advice?",
+      "subreddit": "cscareerquestions",
+      "score": 3,
+      "url": "https://reddit.com/r/cscareerquestions/comments/87v9id/should_i_accept/",
+      "comments": [
+        {
+          "body": "[deleted]",
+          "score": 6
+        },
+        {
+          "body": "Take it and keep looking casually. If you happen to get something great in the next few months, reneg.",
+          "score": 1
+        },
+        {
+          "body": "Wow this is the most pretentious post I’ve seen here so far. ",
+          "score": -4
+        }
+      ]
+    },
+    {
+      "title": "Hows Capital One look when applying to another job? New Grad considering offer",
+      "body": "I got an offer to join Capital One in their TDP program for software engineering in McLean VA this week.\n\nI'm originally from near the area, but went to school in the west coast which I loved. Weather is great! I'll probably take it to be back with family for a year or 2. I really liked the startup I interned at over the summer, but they're not a super tech-y company, and they're only known around their area. Capital One everyone knows, so I think it helps get interviews right? Plus Capital One is like 10K more pay after rent.\n\n&amp;#x200B;\n\nIn 1/2 years (any suggestions on time? the TDP ends in 2 yrs) how much luck will I have getting interviews in the west coast? I choked on my 2 Big Ns this year. Like stupid choked)\n\nThis is kind of 2 part question wise.\n\n1. How much luck will I have applying to Big-N level companies? If Indeed or Amazon or Twilio hire me, I don't mind relocating anywhere but Texas. I assume SF/Seattle for these types of companies. I'd obviously wanna work somewhere with a decent pay jump, cause the TDP salary in DC is good for the area I think.\n2. How much luck will I have applying to startup companies in LA/SF/Seattle? (Mostly interested in LA, I went to a hackathon there and they had a lot of cool startups. I liked LA a lot too).\n\n&amp;#x200B;\n\nAs a new grad I got a decent amount of interviews, but either I choked or their offer was lower than Capital One. Also, I guess, how is interviewing with 1-2 yrs experience vs new grad? I did a pair programming, some LC easy/medium, \"talk about your past internship/project,\" etc.\n\n&amp;#x200B;",
+      "subreddit": "cscareerquestions",
+      "score": 10,
+      "url": "https://reddit.com/r/cscareerquestions/comments/b0hxsa/hows_capital_one_look_when_applying_to_another/",
+      "comments": [
+        {
+          "body": "1. Yes, you'll be fine. Pretty sure lots of really good Capital One TDPs end up moving to Amazon because Capital 1 does lots of work with AWS (probably a natural progression for them). Also, TDP salary is amazing for the area. You're actually getting more bang out of your buck than working in the Valley.\n2. Again, you'll be fine. Idk how the west coast start-ups feel about companies like Capital One. But reasonable companies that know what they're doing should care more about your experience than the company you work for.\n\nI just wanna say, there is this called Purchasing Power that makes 90K in VA is better pay than 120K in SF, so I'd consider 90K -&gt; 120K to be a salary decrease. You should calculate Real salary jump  by purchasing power, not just by numbers. There are lots of websites for this to help you out.\n\nAs for Capital One TDP, just be aware there will be handful amount of mediocre ppl who just want a comfortable well paying job. Half the ppl I interacted with were like that and the other half were ambitious and looking to move on after 2 yrs (probably just like you).\n\n&amp;#x200B;\n\nAlso, why don't you like Texas? Just curious because I personally do like TX and cities like Austin is a great place to work at (no state income tax and good pay)",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "title": "leetcode hard questions",
+      "body": "I'm in the bay area and looking to switch jobs. I haven't interviewed in a couple years, and when I did interview previously I didn't do much of it. Got an offer from an internship that I had out here. Got my BS CS and MS CS from a top ranked CS school. Have done well at my current job and have a good resume.\n\nI've been cranking on leetcode for awhile now. I'm up to 170 problems solved where I wrote the solution myself and about another 50ish where I reviewed the problem and was confident I knew how to solve it but didn't write the code. I've gotten to the point where I feel confident about being able to solve easy and medium problems during interviews.  I've also done review for other types of questions besides algorithm ones.\n\nHowever, I am a lot less confident about hard problems on leetcode. I'd say I feel confident about only a third of the ones I see. The rest I struggle with and make some progress, but I will often either take way too long solving it or have to look at the solution. How often do people see hard problems during interviews and how well do you have to do on them? Should I be prepping more?\n\nI'm planning to do interviews in waves so that if the first wave goes too poorly I can take more time off to practice, but it is a bit punishing to be working my job and then going home to solve problems on leetcode then spending the weekend solving problems on leetcode.\n\nSome of the companies that I will be interviewing at: airbnb, google, facebook, uber, linkedin, yelp, stripe, twilio, dropbox (for people who have interviewed at these places and have a general idea).",
+      "subreddit": "cscareerquestions",
+      "score": 3,
+      "url": "https://reddit.com/r/cscareerquestions/comments/5n3832/leetcode_hard_questions/",
+      "comments": [
+        {
+          "body": "I had a first round with FB and it was a easy-level question. Airbnb + Uber were medium-level domain specific to the position I was applying in.\n\nHonestly you're in the same boat I'm in where I took a few months to prep off of leetCode + CTCI + EPI. At this point you're better off throwing an application out to a company you're not interested in but is in the same tier. Try Amazon/Microsoft/Twitch/Pinterest/Twitter out as a baseline. If you do well then you'll know you're pretty well prepped.",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "title": "Has anyone worked at Twilio",
+      "body": "Has anyone worked at Twilio before? I have an interview coming up next week and was wondering if I could get tips or insight?",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/x7z58q/has_anyone_worked_at_twilio/",
+      "comments": [
+        {
+          "body": "Hello, thank you for posting to r/Jobs!\n\nWe just wanted to let you know that we have a new [discord server, come join the chat!](https://discord.gg/TY6ErXV)\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/jobs) if you have any questions or concerns.*",
+          "score": 1
+        },
+        {
+          "body": "Or if you’ve interviewed as well I would love to hear your feedback!",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Twilio technical interview",
+      "body": "I have a Twilio interview coming up and it is likely building an application from front to back end. Does anyone have any recommendations on what to look at or have any ideas on what they could ask? \n\nThanks so much for any tips! ",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1k0ssuo/twilio_technical_interview/",
+      "comments": []
+    },
+    {
+      "title": "Twilio Interview ",
+      "body": "Has anyone given twilio SWE interview before? I have mine coming up next week, and was wondering what can I expect in a database design interview?\n",
+      "subreddit": "interviews",
+      "score": 2,
+      "url": "https://reddit.com/r/interviews/comments/1h0w2tg/twilio_interview/",
+      "comments": [
+        {
+          "body": "You'll likely be presented with a scenario or problem that requires you to create a database schema, choose appropriate data models, and explain your design decisions. Be prepared to discuss topics like normalization, indexing, query optimization, and how to handle large volumes of data. They may also ask about your experience with specific database technologies and how you'd approach common challenges in distributed systems.\n\nDon't stress too much about knowing every detail of Twilio's specific systems. Focus on demonstrating your problem-solving skills, your understanding of database fundamentals, and your ability to think through complex scenarios. Be ready to explain your thought process clearly and consider trade-offs in your design choices. If you're worried about the interview, you might find it helpful to practice with some mock database design questions. I'm on the team that made [interview prep AI](http://interviews.chat), which can help you prepare for tricky interview questions like these and boost your confidence for the real thing.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Third interview tomorrow and its technical... No idea what to expect.",
+      "body": "Alright so I have my third and final interview tomorrow with Twilio for their tech support engineer position. Thing of it is it's technical even thought he position and how both the hiring and HR managers keep framing it as the position seems a lot more focused on Customer service work, which is fine. I'm not sure how to prepare past working on coding, but i'm still a novice at it ( and communicated this fact to the Hiring manager and told her I'm actively taking classes to improve.) With this being technical I have no idea what to expect out of them past stuff regarding API calls which I'm fine with but can't find anything else, nothing from Glassdoor or anything else I have been looking at. So just to see has anyone interviewed with them before any have any idea how this would go or any advice at all to help prepare more than I already have so far? I feel like i'm trying anything that even sounds remotely like its something they would be concerned with but feel like I'm just throwing Jello at a wall and hoping it sticks. Flying Blind here.",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/cb5s2a/third_interview_tomorrow_and_its_technical_no/",
+      "comments": [
+        {
+          "body": "I've been in countless technical interviews and it's always the same stuff; how does traceroute work, explain DNS, what is this port/protocol, explain how active directory works, what command would you use to do this, etc.\n\nI wouldn't worry about it. You either know the stuff or you don't. Go in confident and treat it as an opportunity to determine how technical your interviewee is. And if you don't know something, tell them where you'd find the info.",
+          "score": 1
+        },
+        {
+          "body": "Wondering how it went for you? I passed my interview with the recruiter and have a 2nd one soon. Wondering what to expect. Been studying like it’s an exam or something. Lol I have no idea what exactly it will cover.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Twilio DE interview ",
+      "body": "Hello guys does anyone know what interview questions are asked in technical screening? Is it SQL tech questions along with my technical background? Or some thing else?",
+      "subreddit": "interviews",
+      "score": 2,
+      "url": "https://reddit.com/r/interviews/comments/1gzo98t/twilio_de_interview/",
+      "comments": [
+        {
+          "body": "[removed]",
+          "score": 1
+        },
+        {
+          "body": "You'll get SQL questions + light Data Modeling/Data Warehousing questions. Grind 200+ SQL questions [here](https://datalemur.com/questions) and skim through Kimball Data Warehouse Toolkit. Also look into Zach Wilson DE interview substack aritlce it's decent!",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

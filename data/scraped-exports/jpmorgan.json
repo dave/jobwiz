@@ -1,0 +1,980 @@
+{
+  "company": "jpmorgan",
+  "post_count": 43,
+  "exported_at": "2026-01-18T17:44:53.285Z",
+  "posts": [
+    {
+      "title": "I've been programming for 11 years (I'm 23 now). Interview with JPMorgan made me feel useless.",
+      "body": "So a recruiter called and asked if I wanted to apply for a job wth JPMorgan for an iOS role. I told him I hadn't worked on iOS for a while, but every time I did work with it, it went fairly smoothly, so why not.\n\nWe did a technical interview over the phone. I like technical interviews because I like problem solving. I didn't get a chance to do that.\n\nMy recruiter emailed me asking for details about how it went. Here's my reply. Am I being naive here? Am I justified in my disappointment in them? Are they justified in their disappointment in me? I'd like to know, because this could affect my career.\n\n--------------------------------------------------------------------\n\nHi Daniel,\n\nThere were about 40 questions in total (as part of the technical interview). Questions asked include (I can't remember the exact wording, but,) \"what is the name of the method that is called when there is a memory warning?\", \"what three methods are used to perform a change in orientation?\", \"before iOS6, how does one connect to an IBOutlet?\", \"what are the two views called that can accept text input?\", etc. One question, I believe, was related to engineering, \"what does the MVC pattern mean to you?\"\n\nHad I been sitting at my computer during the interview, I could have Googled everything they asked and got an answer immediately. I will grant them that it's handy to know these things by heart, but when Google can do it for free, I'd imagine they would prefer to hire people who can solve problems that Google can't solve, while using Google as a tool to serve you when your memory fails you. If you could do differential calculus in your head, and went to a job interview and they asked you questions like \"name 'pi' to 10 decimal places\", you'd tell them that your calculator can do this, but it can't optimise a differential equation for you, which is what the job of a mathematician is, or should be. Though it's not my position to say what they should be doing.\n\nThey had asked me about previous companies but only related to iOS programming and the work I had done on them. They didn't ask me about the award-winning game I'd worked on (other than how it didn't work out), or the object-oriented programming language I had made myself from scratch, or the flexible GUI system I made in OpenGL. I reckon if they were more curious about these things, they may have gotten a more accurate idea of my abilities. Having felt disappointed with the interview, knowing that I appeared to be less than amateur at best, I suggested to them that they might learn more about me if they asked about my personal work. They reluctantly told me that if I wanted to talk about them, I could, so I did, to which the reply was minimal, suggesting they weren't interested.\n\nI probably shouldn't take this personally but I've worked with people before who have had trouble even making an if-statement, during their last years of university no less, who have got jobs with JP Morgan (I'm not exaggerating here, seriously). I don't want to take it as an insult, but frankly, when people with the bare minimum skills can get in, and myself with 11 years behind me with multiple languages, frameworks, platforms, and libraries worth of experience, I expected a little bit of faith in that I'm a quick learner, despite not having excessive experience in one narrow area, and that problem solvers are always necessary to build an app. But all my talents were reduced to nothing and I felt utterly useless in the face of all their shallow questions.\n\nSorry for the rant, I know I'm still young and have much to learn, but I expected better from a company with their reputation. Any self-respecting programmer would, in my opinion.\n\nCheers,\nAlastair",
+      "subreddit": "cscareerquestions",
+      "score": 34,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1vgvem/ive_been_programming_for_11_years_im_23_now/",
+      "comments": [
+        {
+          "body": "[deleted]",
+          "score": 81
+        },
+        {
+          "body": "I would not send that email as written. While you make good points*, you come off as whiny and arrogant. Obviously you don't want a reputation as either of those :)\n\nIncluding things like \"I know morons that got a job there\" makes you look jealous and, again, arrogant.\n\nFinally, no recruiter wants to read some long rant. Keep it short and professional. I'd recommend something like the following:\n\n\"I don't think the interview questions were appropriate for someone of my skill level, and I found the interviewer's attitude off-putting**. I appreciate the opportunity to interview but I would like to withdraw my candidacy for a position at that firm\"\n\n\n*I would not work for a company that asks trivia questions either.\n\n**Maybe even take the attitude part off also. ",
+          "score": 94
+        },
+        {
+          "body": "When it comes to sending an unprofessional email, you have nothing to gain and everything to lose. No matter how cathartic you imagine it feeling to hit that \"send\" button, never actually do it.",
+          "score": 29
+        },
+        {
+          "body": "I've been coding just about as long as you've been alive, and I do interviewing regularly, so here's some stuff to remember: \n\n1. Most shit you do before 18 doesn't matter. It probably wasn't in a professional capacity. If you compare yourself to people with 11 years of professional experience, you're going to be disappointed in everything. \n2. Phone interviews are hard for both parties. Bad interviewers pepper you with trivia and errata. Bad interviewees can't code a FizzBuzz solution but still want me to pay them 100k/yr. \n3. Don't expect people to get to know *you*. The interviewer probably phone screens 5-10 people per week, more if they're really desperate. Everyone becomes a nameless blob on the other end. Unless you impress me enough that we do an in-person interview, I'm probably not even going to look at your git hub or any other site. \n4. The stuff you mentioned about \"quick learner\" etc are all great qualities in a developer. Keep doing that. But it's impossible to figure that out in a full-day interview, much less a phone screen. Those qualities will help you build a network of people who want to work with you, though. \n5. Again, just so you remember: being an interviewer is HARD. There are a lot of people who just shouldn't be doing it, who are forced to do it. It's up to you to wow them, they just want to get off the phone and go back to their problem. ",
+          "score": 47
+        },
+        {
+          "body": "You sound very arrogant and it will not take you far. Bit of modesty will certainly help.",
+          "score": 14
+        },
+        {
+          "body": "[deleted]",
+          "score": 39
+        },
+        {
+          "body": "A company with JP Morgan's reputation?  What reputation is that?  They make a crapload of money but it's not by being great programmers, you should not be surprised at all.  Interview with companies whose life depends on their programmers, not one ones whose life depends on their command and control of banking regulation.  And you already know that they hire people who can't program... why did you even bother to apply with them?  Those would be your coworkers.\n\nDecide that you dodged a bullet and move on.",
+          "score": 28
+        },
+        {
+          "body": "It is difficult to gauge non-business projects from an individual other than viewing what technologies were used and the complexity of the project at a high-level.   Most hiring managers want to know if:\n\n1. The candidate can use or have the capability to learn to use their technology stack\n2. The candidate knows foundational concepts\n3. The candidate has professional team experience\n4. The candidate does set off any alarms (arrogance, extreme awkwardness, sexual harassment, anger issues, etc.)\n\nAssuming there aren't any alarms, most employers place value on experience that combines #1 and #3.   By the law of averages, this mean many interviewer's eyes will glaze over a bit when discussing individual non-business projects.   It's not entirely fair.\n\nThat being said, it sounds like your interviewer was attempting to emphasize knowledge of the general framework rather than generic foundational concept.  This means they place a high value on #1 above and little value on #2.   This could also mean the interviewer was attempting to boost their ego via asking questions about their own esoteric knowledge rather than properly assessing a candidate.   This is also common as most software engineers have no idea how to interview or properly assess candidates.   False negatives are a norm in our industry which is also not entirely fair either, but the reality of things.\n\n",
+          "score": 8
+        }
+      ]
+    },
+    {
+      "title": "Help me choose IBM vs JP Morgan Chase internship",
+      "body": "I’m a 3rd-year student and, luckily, I have to choose between two internship opportunities for next summer. My longish-term goal is to break into Big N for a new grad role.\n\nOne of my offers is at IBM working on mainframes. From how the hiring manager described it during the interview, it seems more like systems programming; he mentioned that around 70% of their code is in C, 20% in assembly, and 10% in C++. It sounds very interesting from an engineering standpoint. That said, I’m a little worried recruiters might view this as legacy or outdated since it’s on IBM mainframes.\n\nMy other offer is at JPMorgan Chase. I don’t know too much yet about the exact kind of work I’d be doing there, but I know it likely won’t be as technical as BM. The tech stack will definitely be more modern and relevant compared to IBM. I also think the overall internship experience will be more fun: bigger intern class, based in the city, and with more structured intern events.\n\nIn terms of return offers, at JPMC I’d be in the city rather than upstate NY, and I’ve heard that JPMC return offers are nearly guaranteed. I’d also join their SEP program for two years, which I’ve heard good things about. I don't really know much about IBM's return offer situation but I think it might also be pretty high?\n\nRight now I’m leaning slightly toward JPMC due to more modern, relavent tech stack and overall will probally be a more fun internship experience, but I’m not completely sure. IBM is a tech company and the work there will probably be more technical, but it also seems pretty legacy.\n\nI’d really appreciate any input from more experienced people. Thanks!",
+      "subreddit": "cscareerquestions",
+      "score": 3,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1o7qi5q/help_me_choose_ibm_vs_jp_morgan_chase_internship/",
+      "comments": [
+        {
+          "body": "IBM sucks - I’d go JPMC personally. I’d also prefer the JPMC return offer as the stability and work/life is better",
+          "score": 11
+        },
+        {
+          "body": "IBM by a long shot here. You will have much better prospects at faang with low-level os/systems experience tbh. \n\nAlso, just because you are working on mainframe OS doesn't mean you will be locked into the mainframe niche at all. Getting locked into mainframe dev happens on the operations side",
+          "score": 3
+        },
+        {
+          "body": "Fwiw Armonk is not upstate",
+          "score": 2
+        },
+        {
+          "body": "I worked both JPMC and also at a big tech company doing work with mainframes (but our code was mainly Java). Both sound like great offers. Do you know what specific type of mainframe work the IBM role will have? For JPM, what do you mean by “won’t be as technical”? It sounds like a SWE role so it’s still going to be just as technical, even though it’s a bank. JPM has a ton of teams so your scope can vary as far as tech stack goes, but expect to use Java.",
+          "score": 1
+        },
+        {
+          "body": "[removed]",
+          "score": 1
+        },
+        {
+          "body": "[removed]",
+          "score": 1
+        },
+        {
+          "body": "[removed]",
+          "score": 1
+        },
+        {
+          "body": "[removed]",
+          "score": 1
+        },
+        {
+          "body": "JPMC",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "am i just dumb",
+      "body": "Sorry for the rant, but I am confused as to how I havent even gotten a single call back for an interview.  \n\n\nI'm a junior who goes to a top 5 school for CS and have been applying to internships for the past two hiring seasons (spring 23 and fall 23). i will say that I was a pre-med major my freshman year and I transferred into this school as a sophomore. My resume isn't as strong as someone whos had multiple internships but I have made projects on my own and have taken all the major coursework. I've also applied to over 120 places each time.   \nI would be fine but i guess the imposter syndrome is kicking in because everyone around me at my school (freshman included) are getting interships at Apple or JPMorgan or literally anywhere, yet I dont even get one interview.  \n\n\nWhat am I doing wrong? or am i just dumb",
+      "subreddit": "cscareerquestions",
+      "score": 98,
+      "url": "https://reddit.com/r/cscareerquestions/comments/18q5bkr/am_i_just_dumb/",
+      "comments": [
+        {
+          "body": "Ask the people that got internship offers.",
+          "score": 186
+        },
+        {
+          "body": "Did you go to any career fairs, like at your school? That’s how I got my internship.",
+          "score": 26
+        },
+        {
+          "body": "why not apply for internships at smaller companies instead of exclusively aiming for top tier?",
+          "score": 101
+        },
+        {
+          "body": "120 is still the warm up phase. Keep applying and improving on your skills and your time will come",
+          "score": 56
+        },
+        {
+          "body": "This is just depressing. \n\nNext of kin to that phd dude that couldn't find a job. \n\nCS market is crap right now.",
+          "score": 11
+        }
+      ]
+    },
+    {
+      "title": "Is it over for me?",
+      "body": "I got my degree 2 years ago. I have some offers in the first few months, but a lot of it was people requiring me to relocate. I had no car nor a drivers license. When I moved back to chicago after college, I started looking at remote jobs and jobs in the city. The closest I got to a job was a Technical Interview with this company called Benchprep, which led to me not getting accepted. A few months of rejection passed where I decided to eventually give up and work as a cashier for a few months. I left that back in October because the place I was working at was getting worse, and losing my dog the month beforehand lowered my tolerance for bs. I told myself that I was gonna quit since I had a lot saved up and would dedicate my time to getting myself an actual job. I had my resume looked at and revised by a professional, I got myself my own website with a gallery of projects and games I've made.  I started to applying to jobs nonstop because I kept hearing that the \"3-5 years of experience\" part wasn't an absolute requirement. I even trying getting my license because I thought that it would make things infinitely easier.  \n\n\nFast forward to now: pretty much every job I've heard back from rejected me, I've only gotten a handful of calls that ended with people going \"we need someone with years of professional experience\". I couldn't even get my license because a) the secretary of state website is terrible and never has any appointments in chicago unless you can wake up at 6am, b) the one time I payed a driving school to schedule an exam for me, I made a wrong turn and got insta-failed, and  c) I didn't realize that I would still need my own car insurance. My last hope was when my brother called saying that he had a friend who worked at JPMorgan who could refer me to the company and put me at the top of the candidate list. I sent my resume and linkedin, got sent the referal link to the job site to put me on top of the list, applied to every SWE job they had, and got rejected from all of them.  \n\n\nAt this point I'm thinking I just made one big mistake in my life and just have to pay the price for it. I thought maybe I could just work on projects for like 8 hours a day while working a part time job or something, but a) I don't have any form a self discipline to do anything besides get out of bed and maybe go to the gym b) Will anything I do matter if I wasn't paid to do it or if I didn't lie and said I was paid anyway? Maybe I was meant to be a loser in life. Maybe I'm just a burden to society and I'd be better of gone. I know people on here aren't the nicest from my last interaction on this subreddit. Is there any way to salvage my screwups? I can't get an internships since I'm not in college anymore. Grad school isn't an option since I graduated with a 2.6 GPA (another reason why I think I'd be better off gone), networking might not even work since I have nothing to offer, and with every day that passes my degree becomes less valuable. Should I stop alltogether and make less competition for the people who actually deserve a job?",
+      "subreddit": "cscareerquestions",
+      "score": 35,
+      "url": "https://reddit.com/r/cscareerquestions/comments/16gvsxz/is_it_over_for_me/",
+      "comments": [
+        {
+          "body": "It is only over if you allow it to be over. I have dealt with anxiety and depression. I know how difficult it is, but getting over the hump requires changing your mindset and getting things done. \n\nApply to jobs that will relocate you. The good ones will provide a relocation package. A car might not be necessary immediately to relocate. Planes are a thing.\n\nAs far as a driver's license, go at 6 am if you have to and keep trying. Many people fail multiple times. You don't give up after one failure. It's just excuse making.\n\nSet a goal to work on a project for 15 minutes. That's an easy goal to accomplish. 8 hours feels too much when you are depressed. Break it down into small goals. You will often end up motivated to work more than 15 minutes. It may not end up being 8 hours, but you may end up with 1-2 hour coding sessions, which will make you feel better about yourself.\n\nThe one thing that I learned is that I can't wait until I feel motivated to do something. I have to do it, and the motivation and good feelings will come.",
+          "score": 35
+        },
+        {
+          "body": "Hey OP, I'm kinda in the same position as you where I graduated around May 2022 with a CS degree with a 3.7. I think I fell into the trap of getting burnt out by school (I've switched majors 2 times so I ended up being in school for almost 8 years) and the period of going through school during the height of covid really messed me up mentally. I also thought I hated CS the year I graduated and it was too late to back out of this major. Honestly after graduating I took an extended break but developed some pretty bad depression during that time. My anxiety was also at its worst where I couldn't be bothered applying for jobs. So many thoughts going through my head like I didn't deserve my degree and had really bad imposter syndrome. I didn't even bother applying during my last year for jobs because I was so anxious about the future and if I could even get a job. I could barely do leetcode easys. I think even to this day my dad and people around me see me as a failure because I still haven't gotten a job in the field. I think it was getting to the point where I ran out of all my savings and had to ask my parents for money that it really kicked into me. I felt really ashamed and felt like a loser in life. But something about that really lit a flame in me. I realized that a lot of my anxiety stemmed from being afraid to apply and get rejected. I wasn't really ready interview wise because I struggled with my ds &amp; algorithm classes. Skills were lacking. But I knew I had to brush up those skills. Getting started on picking up leetcode again and doing projects to refresh my memory was the hardest part. But after getting started, it became easier. So here I am, a little over a year after my graduation, trying to refresh my knowledge of the things while applying to jobs and learning a different tech stack (web dev). Originally I wanted to break into android app development but webdev is way more enjoyable for me so I've been teaching myself from scratch for the past 3 months (even though webdev is extremely oversaturated but fuck it lol I enjoy it). \n\nAnyway, my point is that you are most definitely not done and realize that there are other people in your boat. You earned your degree but now it just takes one hit for you to be employed. I think there are some periods in life where you have to keep persevering even if it gets tough. Brush up on your technical interview skills and do more projects. I know it's hard to get started. For self discipline, it really helps to start off small. I started off only studying 30 minutes and worked my way up to 4 hours average. Sometimes I still struggle with my mental health and I only end up working on my project/doing leetcode/studying an hour that day. But that's okay, just keep consistent and study any amount you can. Some days I have sessions where I'm studying for many hours. Also, retake your drivers exam if you can. I honestly failed mine two times before I even passed. Stuff like car insurance might be a bit more tricky though. It'll depend on the company but see if companies are willing to offer relocation packages. Some of my friends work at Lockheed and Raytheon and were offered relocation packages. Also, do you know where you failed in the interview? If you do, maybe you can brush up on those skills. I don't think it hurts to apply to companies you've been rejected by before assuming it's been months to a year.",
+          "score": 9
+        },
+        {
+          "body": "was it over when the Germans bombed Pearl Harbor ?",
+          "score": 5
+        },
+        {
+          "body": "I was in a similar place for a few years after college in the early 2010s. Really felt very dire, and I was hopelessly depressed and saw no end in sight. I wasn't a CS Major but it was a similar over all vibe.\n\nI pivoted into the crappiest IT support job imagineable. It sure was no idea of a dream job. But it got me on my feet, and I had a chip on my shoulder and got promoted a lot and was able to move around a lot and nowadays I have a good job at a unicorn. \n\nAnyway, your path will be your own and things will go in ways you didn't expect. But it's okay to have a crappy or non-existent start. A lot of us did. It's not the end of anything.",
+          "score": 6
+        },
+        {
+          "body": "yeah its over for you if you give up.",
+          "score": 3
+        },
+        {
+          "body": "I’m in the same boat, May 23 grad and turned down a lowball internship return offer. Been applying and interviewing for months, planning to just kill myself once I run out of money",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "HELP!! ",
+      "body": "Hello! I received an email that I made it to the technical interview round for JPMorganChases summer 2025 software engineer internship. The technical interview has a 60 minute limit and is through HackerRank. Has anyone has a technical interview with them? This is my first coding interview so I’m equal parts excited and nervous! What are these like?? \n",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1h3ku2x/help/",
+      "comments": [
+        {
+          "body": "[deleted]",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "title": "JPMorgan Questions",
+      "body": "Good morning/afternoon everyone,\n\nI've been applying for interviews for over a year (on and off 60:40). and I have been fortunate enough to get an offer (which will take months to process) and a few additional interviews.\n\nI have an upcoming interview with JPMorgan for Data Science related roles. The interview is 45 minutes and with some director of a DS team. It's my very first interview in bigger companies in the banking industry and I have no idea how the interview process goes. Has anyone else had a 45 minute interview with JPMorgan? My gut feeling is that this won't be very technical since it's only 45 minutes and instead he will just ask for some STAR stories.\n\nAny input/advice would be very much appreciated. I've been trying to get a good job for years and I believe I may be getting closer to the end of this task\n\nUPDATE:\n\nI wanted to let everyone know how the interview went. I believe I did pretty well and left a strong impression. It just an introduction to the team manager and he just explained how things were to be. It was not technical in any way.\n\nTo those that offered input and those that tried to but were stopped by the pesky karma limit, thank you.",
+      "subreddit": "cscareerquestions",
+      "score": 2,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1q2nfa2/jpmorgan_questions/",
+      "comments": [
+        {
+          "body": "JPMC has a LOT of policies about how to do things but when it comes to interviews its mostly up to the team manager who the interviews work. That said normally the first interview is with HR not the team and is a basic behavioral interview. If you haven't done that yet then it is likely what this is and there is a misunderstanding about who you are interviewing with.\n\n  \nAs for how and what to prep its a crapshoot. some teams will do full blow technical whiteboards or take homes. Some just want to talk and see if you know at least 50% of what you say you do on your resume. Some will hand you over to their most on the spectrum senior just to see how you do dealing with them while they tell you repeatedly, \"well thats not how I learned to do...\".\n\n  \nWith all that said, JPMC is a pretty chill place to work, the pay is average for finance industry, the benefits are good to great but you have to educate yourself on them to get 100% use. However, the management is stifling, every decision needs at least 3 meetings, you will be a cog and 100% replaceable, do not expect pay to keep up with inflation, and learning how to work the internal systems is about 80% of being effective here.\n\n  \nIt's a decent place to work and the name on your CV will open doors if you can make it work for 2-3 years.",
+          "score": 2
+        },
+        {
+          "body": "[removed]",
+          "score": 1
+        },
+        {
+          "body": "[removed]",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "JPMorgan Technology Support Role",
+      "body": "I have been invited for a second round in person interview for JPMC Technology Support role. The first round was online and mostly technical with one VP and I got tested on python, linux, javascript mostly.\n\nAnyone familiar with the interview process please let me know if this second round will be a technical or a behavioural round? Should I mug technical concepts or behavioural/culutral fit kind of questions?\n\nSince it's in person and based on what I've read online so far I'm leaning towards this round being behavioural, but just want to be prepared. I have 2 years of experience after graduation. Thank you!",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1mx9af4/jpmorgan_technology_support_role/",
+      "comments": [
+        {
+          "body": "[removed]",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "How to ask for more time to accept an offer in a professional manner? JPMC",
+      "body": "I got a written offer Friday from JPMorgan Chase (SWE), and the letter says : \"If you do not accept the offer within a reasonable timeframe from the date of delivery, we will consider the offer withdrawn\"\n\n But I also have a pending final interview result and a scheduled final interview. I'd like to know the results of all interviews before accepting this offer. So I think I would need about two more weeks of time.\n\nI should add the recruiter emailed me today asking if I reviewed the offer and asked if I have any questions. As well as mentioning the team is eager to have me join. I'm wondering if along with my role questions I should ask how long I have to accept the offer explicitly. \n\nIs there anyway to communicate this with the recruiter in a manner that they don't say they're withdrawing the offer? Should I just cross my fingers and hope they don't withdraw over the span of next week? Should I accept, say I'll start later and if I get a better offer renege?\n\nI really would like to have this offer for security, as well to take it into consideration and accept it. I do want to work for the company, but at the same time I want to review all of my options. \n\nIf I were to say : \n\nI am currently awaiting the results of a final interview as well as going to attend a final interview. I want to consider all of my options before making my final decision. I am interested in this role and am strongly considering it, but I do not want to renege on my previous commitments nor do I want to rush to make a decision. I would appreciate it if I could make my final decision up to February 01 (although I may be able to decide before then). \n\nThoughts?\n\nEdit 1/25/2021 : I emailed the recruiter and explained I have other offers and need more time to make a decision. I gave them the date of February 4 (20 days after offer extension). They said that they don't usually wait this long, but made an exception this time. Realistically I was being honest and transparent. I am strongly considering accepting this offer, but I don't want to renege on my prior interview nor rush to make a decision. \n\nSeems like so far this has worked out the way I had hoped.",
+      "subreddit": "cscareerquestions",
+      "score": 10,
+      "url": "https://reddit.com/r/cscareerquestions/comments/l0wnv0/how_to_ask_for_more_time_to_accept_an_offer_in_a/",
+      "comments": [
+        {
+          "body": "On the other hand, try to push other interviewer to speed up the process. Ask them if you can get the result quicker, or maybe you can adjust or even skip some interview process. Tell them you have an offer at hand but you are still undecided and still open to other options too. If they really consider you for the role, they will try to accomodate it.\n\nHaving an offer at hand is actually a leverage in interview process, you could use it to quicken other process, match the offering between those, etc.",
+          "score": 8
+        },
+        {
+          "body": "Your email seems fine. I would even remove some details and just say you need more time because you are awaiting other offers. But START by saying you're very interested in the role and END by reiterating that.",
+          "score": 5
+        },
+        {
+          "body": "Congratulations on the first job offer!\n\nI would keep it short and sweet. Let the recruiter know that you're still completing the interview process with a few other companies, but are very interested in their offer. I would give them a rough idea when you expect to make a decision, but you don't need to commit to a specific date unless they ask you to.\n\nRemember that they've already invested time and effort interviewing you, and have proven that they want to hire you. The recruiter is now motivated to get you to accept the offer, and they don't want to lose you just because they forced you to make a decision before you were ready.",
+          "score": 2
+        },
+        {
+          "body": "Congratulation on the offer! \n\nIf you don’t mind sharing, what was the on-site/final interview was like for jpmc? I’m currently scheduled for a final/on-site interview for a swe position at jpmc and would love to hear some insights of it. Ty in advance",
+          "score": 2
+        },
+        {
+          "body": "Say nothing.  They will call you if they need an answer sooner, probably within a week.  2 weeks isn't unreasonable.  You can discuss it then.  Fixate on something else until then.",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "How to describe consulting experience on a resume?",
+      "body": "This past spring I interned at an investment bank consulting company. I worked with multiple teams within the company, which worked for different large investment banks. In turn, I performed work, and wrote literature for JPMorgan Chase, and a few other larger institutions. \n\nWhat I am wondering is whether it is okay or not to include the names of our clients on my resume? The company I worked for is a boutique firm with a relatively silly name, and doesn't garner the attention or recognition it deserves during interviews (and likely during resume reviews). I know that if I could include JPMorgan on my resume, it would be seen by more people, and would definitely be brought up in interviews.\n\nBut is it okay? How would you put it on a resume? Any and all suggestions are greatly appreciated.\n\nThank you!\n\n*Edit: grammar",
+      "subreddit": "jobs",
+      "score": 2,
+      "url": "https://reddit.com/r/jobs/comments/1jnbgd/how_to_describe_consulting_experience_on_a_resume/",
+      "comments": [
+        {
+          "body": "[deleted]",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "title": "Called up for interview with JPmorgan",
+      "body": "I've just been called up for an interview with JPMORGAN for a transfer Agency role in Ireland and its expected to be 45 minutes long,  has anyone ever interviewed with them for client facing roles? How did it go?",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1l2psty/called_up_for_interview_with_jpmorgan/",
+      "comments": [
+        {
+          "body": "They'll likely focus heavily on your ability to manage complex client situations, your understanding of financial services, and how you handle pressure since transfer agency work involves critical fund operations. Expect behavioral questions about times you've resolved client issues, managed competing priorities, and worked under tight deadlines. They're also known for asking scenario-based questions where they'll present you with a difficult client situation and want to hear your step-by-step approach to resolution.\n\nThe 45-minute timeframe suggests they're serious about you as a candidate, so they'll probably dig deep into your experience and cultural fit. JPMorgan values people who can think on their feet and communicate clearly with sophisticated clients, so be ready to articulate your thoughts concisely and demonstrate your problem-solving process out loud. They might also test your knowledge of regulatory requirements and industry standards relevant to transfer agency work. If you're looking for help preparing for those tricky situational questions they're bound to throw at you, I'd suggest checking out [real time interview AI](http://interviews.chat) \\- I'm actually part of the team that built it, and it's designed specifically to help candidates navigate complex interview scenarios like the ones JPMorgan is known for.",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "JPMorgan Software Engineer III - Frontend",
+      "body": "I recently had my first interview for a Software Engineer III - Frontend position at JPMorgan (Columbus, OH) and I wanted to reach out to the community to see if anyone has gone through a similar interview process. I'm particularly interested in knowing how many interviews were involved, the types of interviews, and whether or not you were ultimately offered the position.\n\nDuring my first interview, they focused on JavaScript and React-specific questions. It went well, and I received positive feedback. Now, I have another technical interview scheduled for next week, and I believe it will involve coding problems.\n\nIf anyone has experience interviewing for a similar role or has insights on the interview process, I would greatly appreciate hearing about your experiences. It would be helpful to know what to expect and how I can better prepare.",
+      "subreddit": "cscareerquestions",
+      "score": 8,
+      "url": "https://reddit.com/r/cscareerquestions/comments/13f5c4b/jpmorgan_software_engineer_iii_frontend/",
+      "comments": [
+        {
+          "body": "did you get the offer? how much was the starting salary/tc?  \n\n\nalso how was the coding portion? any tips much appreciated",
+          "score": 6
+        },
+        {
+          "body": "[deleted]",
+          "score": 4
+        },
+        {
+          "body": "hey there! it's been a while but just wondering what your experience was like for the interview.",
+          "score": 2
+        },
+        {
+          "body": "[removed]",
+          "score": 1
+        },
+        {
+          "body": "[removed]",
+          "score": 1
+        },
+        {
+          "body": "[removed]",
+          "score": 1
+        },
+        {
+          "body": "Hey for your first technical round was it just questions or did you have coding challenges?",
+          "score": 1
+        },
+        {
+          "body": "Hey, did they end up asking non javascript questions  ?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "JPMorgan 2023 Emerging Talent April Cohort",
+      "body": "Hello, I was wondering if anyone else here is currently interviewing at JPMorgan for their 2023 Emerging Talent position. I recently completed a Hackerrank &amp; Hirevue and am waiting to hear back from them. I was wondering if anyone else has heard back, as well as general interview insight from those who have applied to SWE roles at JPMorgan in the past? Thanks!\n\n&amp;#x200B;\n\nEdit: apparently the final stage is a 12 hr hackathon where random teams get paired up and create an app that serves a social cause - this is a new one!",
+      "subreddit": "cscareerquestions",
+      "score": 8,
+      "url": "https://reddit.com/r/cscareerquestions/comments/10kogso/jpmorgan_2023_emerging_talent_april_cohort/",
+      "comments": [
+        {
+          "body": "[removed]",
+          "score": 1
+        },
+        {
+          "body": "[removed]",
+          "score": 1
+        },
+        {
+          "body": "[removed]",
+          "score": 1
+        },
+        {
+          "body": "hey! i had a friend apply about two weeks ago and haven’t heard back - was also wondering about the timeline as well :^)",
+          "score": 1
+        },
+        {
+          "body": "[removed]",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "JPMorgan Chase &amp; Co - Software Engineering Intern",
+      "body": "Hi everyone,\n\nI recently got an Software Engineering Internship offer at JPMorgan Chase &amp; Co for Summer 2020. The position is in Chicago. Has anyone worked there / know anyone that has? Would love to hear any input, advice, and things to consider. Thanks in advance!",
+      "subreddit": "cscareerquestions",
+      "score": 22,
+      "url": "https://reddit.com/r/cscareerquestions/comments/dm5lg2/jpmorgan_chase_co_software_engineering_intern/",
+      "comments": [
+        {
+          "body": "Worked there in a high COL city this past summer. Hated it and turned down return offer in about 2 seconds. Would never go back.",
+          "score": 19
+        },
+        {
+          "body": "I’ve had several friends who were fully burned out after finishing their internship at JPMGC. Prepare to be working long hours.",
+          "score": 12
+        },
+        {
+          "body": "When exactly did you get the offer? I’m waiting for mine hopefully I get it",
+          "score": 6
+        },
+        {
+          "body": "I'm sure you've been through the HireVue process already, could I get some tips on what to except on the HireVue interview. I want to fully prepare as much as I could and I'd appreciate any help, thanks in advance!",
+          "score": 8
+        }
+      ]
+    },
+    {
+      "title": "How to find work as a new graduate in CS (USA)?",
+      "body": "Tl;dr: I'm a little lost? Most \"entry-level\" and \"associate\" software engineering jobs on LinkedIn, Indeed, Google Jobs, and ZipRecruiter are always asking for 1+ years experience... Is there something I'm missing? Some specific words to search for? Maybe more CS-centric websites I should be focusing on instead of those generic job posting websites? (I've also tried applying directly to bigger companies like IBM, Google, JPMorgan, Meta etc. But I'd just do their assessments and never get contacted back with an acceptance or rejection).\n\nI graduated in June 2021. I couldn't apply to the \"new grad\" positions in my final semester, as I was dealing with a lot of personal issues then (pandemic hit us hard). Starting from July was when I started applying, but by then, those \"new grad\" positions already starting focusing on the winter 2022 graduates. I said no problem and tried looking for \"entry-level software engineer\" and \"associate software engineer\" on the websites mentioned above. I've put in the big states, California, Texas, Illinois (because of Chicago), Ohio (because of Columbus), New York, etc etc. California and NY are the only 2 that have jobs that don't require insanely high credentials out of a junior developer, but then those are insanely competitive (I see that 200+ applicants apply to those in less than an hour way too often than not) and the assessments and technical interviews come out to be way harder than the jobs that ask for 1+ years work experience...\n\nI've gotten a fair few interviews... maybe 10-12 ish interviews with different companies since July that went past the first technical interview, but what keeps happening, literally every single time, is that I do well in the assessments, personal interview, technical interview and managerial interview. I then reach to be amongst the last few contestants, and then always rejected. When I ask if there's something I can approve on, I'm told they just went with someone else that actually has the 1+ years work experience as opposed to me.\n\nSo I don't understand, I truly am lost. It's been \\~5 months now, and we're heading into the slow season too: I've already been seeing a lot less jobs posted this month of December. Is this just a weird time to be applying to be a software engineer/developer and this isn't usually the case? There are so many CS graduates in the USA, where is everyone finding the jobs they're applying to and getting? It feels like there's something I'm truly missing tbh.",
+      "subreddit": "cscareerquestions",
+      "score": 20,
+      "url": "https://reddit.com/r/cscareerquestions/comments/ra9l64/how_to_find_work_as_a_new_graduate_in_cs_usa/",
+      "comments": [
+        {
+          "body": "Graduated in may and didn't get an offer until September. Just keep spamming applications and practicing LC is the best choice for you imo. Eventually someone will take you on as a junior",
+          "score": 23
+        },
+        {
+          "body": "This is a thread that gets repeated multiple times on most days. The truth is the 1+ years of experience can, for many companies, include experience during school, etc. It may not necessarily be formal paid experience.\n\n&amp;#x200B;\n\nMany large companies are still hiring.  You just need to put in the applications. Look at company websites and apply to any kind of development programs a company may have. For instance, I believe Capital 1 has their CODA program and Schwab has their NERD program. These are great for new grads and the bar may be somewhat lower than a fulltime position.",
+          "score": 14
+        },
+        {
+          "body": "It is frustrating to find entry level jobs to apply to that don't require 3+ years of experience. You could try doing additional searches for \"New grad\" on linkedin. Most have closed for the fall but a lot of those I have looked at stated in school or graduated within the last 12 months.",
+          "score": 7
+        },
+        {
+          "body": "I would spam apply to anything that requires 2 years or less of experience. The requirements they list are “nice to haves” for companies. If you’re getting final round interviews you must be somewhat competent so just keep pushing until you get a bite. Don’t be discouraged by the holiday slowdown it’ll only last 2-3 weeks until mid January at absolute worst.",
+          "score": 4
+        },
+        {
+          "body": "1. If you did a university CS degree, that’s at least a year of “experience.”\n\n2. Sanitize and post your resume.",
+          "score": 4
+        },
+        {
+          "body": "The resume is Very busy. You need to prune your projects sections down to your top 3 or so, and this can be dependent on the job you are applying for.",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "title": "Got a great new job offer, but counter-offered by current boss/firm of 5 years (Finance/Wealth Management Industry)?",
+      "body": "Hey everyone! I've been a lurker on this subreddit for several years, but figured it was time to ask for advice since I seem to be at a bit of a crossroads in my career.\n\nI am currently a Registered Sales Associate in my mid-20s at a traditional wirehouse/brokerage in a major city (think Merrill/Wells/UBS). I have about 5 years of experience under my belt between my internship and full-time role at the same firm. Current all-in comp is just under $70K/yr between my firm paid base, revenue share with my team, and discretionary bonus. Not allowed to work OT unless cleared through management (which is almost never) since I’m hourly. I started off with this firm as an Intern for a year before securing a full-time role upon completing undergrad. I got licensed with my Series 7 and 66 within the year. There was projected to be a lot of growth on this team, as I was working on a team of four Portfolio Managers and a Senior Assistant, with two of the Managers in question retiring soon and transitioning their clients to the ones who remained. I had a great relationship with everyone. The transition process has taken about two years and counting, with its lumps.  The Senior Assistant abruptly retired, and it was just the two Portfolio Managers and myself looking over all of these new clients , leaving me to take on increased responsibility. At the same time, one of the current I work with Portfolio Managers is aggressively recruiting new clients, and other Portfolio Manager on the team is 72 and getting contemplating retirement soon. Hypothetically, there should be plenty of opportunity. All fine and dandy, right? I wish that was the case. This was hinted at but hasn't come to pass the way I envisioned.\n\nDespite being the jack-of-all trades for my team and a resource in best practices for other Sales Associates/Assistants in the office, including those more Senior than me, my revenue share has not increased. My days are usually 50% administrative or operational tasks/50% trading or helping create investment proposals since we're a small team headcount wise. My Portfolio Managers have said that as our client base, I will grow, and that someone will need to be hired under me to handle most of the admin work so I can receive a title promotion and to have the daily capacity to be more \"involved\" in the business. The problem is, they DO NOT want to pay for this new hire/help, and want the firm to pay for it. Understandable. But, the firm says no; our time has to hit an $X amount of annual revenue before the firm bear the cost of a new hire. My team has been very near this revenue goal in the past, but hasn't crossed it. This tussle between team and firm has been on going for two years. I have tried to add additional value however I can, and even started studying to get insurance licensed but was told it would not help while I am in the my current role, nor would it get me a bump in comp. I have been praised by my team and market management for being one of the best Sales Assistants in the office, for having ambition to do more and for managing the transition of this legacy book of business as it hasn't been easy at all, but this hasn't translated to a promotion or increase in comp due to the desire to run lean.\n\nI wasn't actively looking for a new opportunity, but was reached out to by recruiters from two very prestigious Private Banks in the industry (think Northern/JPMorgan/Goldman Sachs), both looking to expand their capacity. I got both interviews, and one of them turned out to be something. The role wasn’t necessarily something I was looking for, but sounded appealing and challenging in its own way. This role was more Operational from my reading here, but gathered during interviews the it has become more of a hybrid/jack of all trades roles, and depending on the team I'd be supporting, may be more investment/trading oriented in addition to client service. This appeals to me as I still love speaking with clients. Becoming a Hybrid Associate/Portfolio Managed is my ultimate goal. They recently offered me a job as an Associate (skipping the “Analyst” role) based on my years of experience. This came with a large pay bump. Their offer was $90K/yr base, with expectations to work additionally paid OT each week and a yearly bonus. All-in comp would be easily over $100K/yr as a result. After two years in this new role/program, I could move internally and join another team if I am unsatisfied with the work being done in this new role. I was ecstatic and gave my current team the heads-up, but they said they wanted to keep me and counter-offered. They're offering to double my % of revenue share, leaving me at around $80K plus discretionary bonus. They said to keep in mind the goal is to keep growing my revenue share and the client book over the coming years. They supposedly \"meant to make me a larger partner sooner\", and wanted to bring me along slowly as the 72 year old partner contemplates retirement and as they’re in discussions with merging with a larger team/client base. I could also bring in clients of my own and get 50% of the revenue they bring in, and get more involved on the Investment side of the business. BUT, there will be no official title change for me until either someone gets hired under me, or until we compete this supposed mega merger. I am very comfortable with my small team because it feels like family, I love my fellow co-workers, the clients etc. and I do see the opportunity for growth. I am essential to my current team since we're only three people total. However, all these plans are just that, plans with no set date as to when they'll happen (this merger has been on hold since COVID last year, older Portfolio Management’s potential retirement and all). It shouldn't be such a struggle with Management and my immediate bosses to get a raise and title change. Truth be told, if they gave me this raise back in December along with these very general, directional career plans of eventually becoming a junior partner and more involved with the business, that would’ve be enough at that point in time. But not now. Everyone around me in the industry is saying to take the new role, that the brand name of the new company and that $100K/yr at my age will go a long way for my future raises. They think that I was never going to get my raise/counteroffer if I never threatened to leave, no matter how cool I am with my current team.  Keep in mind that the new firm is someone I turned down an internship with in University, so if I reneg on their offer after completing all the paper work etc, there definitely won’t be a 3rd time to get hired from them I think.\n\nIf you were in my position, would you go with the unknown? It does scare me a little bit that this new role isn’t exactly what I was looking for, and I do feel a bit of “imposter syndrome” coming in in terms of the clients I’d be dealing with and how much I’d be getting paid, and how different the career path would look. Part of me does feel bad that I would be leaving my team current \"high and dry\" since the firm has not hired anyone under me to help. Needless to say, my current firm runs lean. On the other hand, I have also thought that it's not my fault or my problem that they run so lean, and that they weren't prepared for me to leave, and they should've paid me more from the start.\n\nAny input is appreciated! I know this has been a very long read, but I needed to get this all off my chest. 5 years of frustration and lack of proper communication needs to be let out.",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/m0jr8g/got_a_great_new_job_offer_but_counteroffered_by/",
+      "comments": [
+        {
+          "body": "Hello, thank you for posting to r/Jobs! \n\nWe just wanted to let you know that we have a new [discord server, come join the chat!](https://discord.gg/TY6ErXV)\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/jobs) if you have any questions or concerns.*",
+          "score": 1
+        },
+        {
+          "body": "take the new job! you are being undervalued and you deserve better along with a new title. it is not your fault at all that your current job is choosing to run lean and operate with the bare minimum of people",
+          "score": 3
+        },
+        {
+          "body": "Took them the new offer to counter offer you? Good bye",
+          "score": 2
+        },
+        {
+          "body": "I say, new job.  Good luck!!!",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "How hard is it to nab a summer internship at a major bank (Morgan Stanley, JPMorgan Chase, etc.)?",
+      "body": "Recent CA university graduate here.  I have zero finance/accounting/econ experience, I have mainly focused on interning at various public interest law firms but discouraged by law school employment prospects at the moment.  Are summer associate/internships at large investment banks only usually offered to MBAs and those with accounting/finance backgrounds?  ",
+      "subreddit": "jobs",
+      "score": 3,
+      "url": "https://reddit.com/r/jobs/comments/1vasz5/how_hard_is_it_to_nab_a_summer_internship_at_a/",
+      "comments": [
+        {
+          "body": "Not really, but you would have to have beyond stellar grades and interview very well if you majored in anything like political science, etc.",
+          "score": 1
+        },
+        {
+          "body": "They are available but they mainly recruit directly out of undergrad and MBA. ",
+          "score": 1
+        },
+        {
+          "body": "Depends on the degree quite a bit. In many cases, internships require that you are returning to school after it... They would consider you FTE material ",
+          "score": 1
+        },
+        {
+          "body": "Without any sort of finance, accounting, econ experience you pretty much have no shot unfortunately :(.\n\n",
+          "score": 1
+        },
+        {
+          "body": "Unless you had near a 4.0, very high standardized test scores, and/or connections, you have no chance. Sorry I know that's blunt but it's the truth. ",
+          "score": 1
+        },
+        {
+          "body": "I'm from Canada and tried as final year student(Finance)  as graduate and despite 4.0 GPA ,being a minority(they ask but optional)., having pass CFA level 1 exam and the Canadian security course and having programming skill I had no luck at the big banks in canada  so I have no idea what kind of person they were looking for to get these jobs.Maybe its different for MBA people.\n\nIt was probably because most of the jobs were in a different province than mine and they rather get local applicant/graduate as its easier or something.",
+          "score": 1
+        },
+        {
+          "body": "Walk in and talk to a manager. They will admire your boldness. I've done it with PR firms. ",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "AHHHH i just have to share",
+      "body": "I got a solid offer from JPMorgan and I need to share my excitement with someone other than my parents lol. \n\nI was accepted to Code for Good and decided to go. After no response two months after the event I assumed I was rejected foe a full time offer. \n\nI was invited to the final onsite a few weeks ago and wow...I almost didn't accept the invitation because the interview was 3 days after the invitation and I was NOT remotely prepared for any hardcore technical programming questions bc I was focusing on other personal stuff. SO SO happy I went and I killed all 3 interviews omg wow. The night before I was so stressed and horrified about embarrassing myself in the tech interview I almost considered backing out but decided not to because at the very least it would be just another interview experience. Thank god i didn't.\n\nI haven't applied to as many places as many people on here have and I guess I got lucky with no initial phone interview and no hard tech questions and just a great day overall totally rocking the behavioral and analytical questions. Idk how many places Ive applied to...but I've had interviews with maybe 4 tech places (including C1's data analyst position and JPMC) and an on site with 3 of them. So I'm lucky. I COMPLETELY bombed my first onsite tech interview with a start up because frankly i was dumb and didn't know how to prepare so I just used it to see what to expect moving forward. And it was the best learning experience I've had so far\n\nI know it's probably dumb giving advice as a student who hasnt even graduated yet, but if anyone ends up reading this and is like me (anxious, full of self doubt, self conscious about am I good enough to get through a full day of interviews especially tech ones...do i even know how to code...etc) I guess all I can say is just go for it. If you fail you still learn. \n\nI almost didnt go to Code for Good because i was worried my programming skills weren't that good to be a productive member of a team. Im the shy introverted one who doesnt reallt say much. Well, 2 team members were sophomores who had barely taken a software course and the 3rd was a junior in ECE....so I ultimately took the lead, basically learned Django in 4 hrs (well, whatever was needed for the project haha), and did a lot of the work while teaching the others about webapps, databases, even setting up an IDE and github and stuff and gave them small tasks to do. It was probably the best experience ever even if I got 3 hrs of sleep. AND it worked. \n\nI dont have any personal projects or internships. I just started one project for fun but outside of that, my resume that the interviewers had in front of them didnt even have the CfG project, only my single group class project that was a huge success. I do research on the side and have a small project there too, but it gave me a bunch of talking points when it came to behavioral stuff and learning. I talked about extracurricular non CS stuff too. \n\nAgain my situation is just different but I know some people out there are like me and stuck in their head and overthink things to the point of panic attacks. \n\ntldr; take the risk, fail a lot, learn from the fail, fake it til you make it. Always have good talking points for behavioral interviews and find something that makes you stand out be it a hobby or something. Always smile. ",
+      "subreddit": "cscareerquestions",
+      "score": 93,
+      "url": "https://reddit.com/r/cscareerquestions/comments/7ssva4/ahhhh_i_just_have_to_share/",
+      "comments": [
+        {
+          "body": "[removed]",
+          "score": 34
+        },
+        {
+          "body": "Congrats. ",
+          "score": 31
+        },
+        {
+          "body": "Is this an internship offer or did you get a job offer for after you graduate?  \n\nCongrats by the way!!!  =D",
+          "score": 13
+        },
+        {
+          "body": "[removed]",
+          "score": 6
+        },
+        {
+          "body": "Ayy that's awesome! What do you do at Code For Good?",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "title": "JPMorgan Chase SWE Fulltime 2022",
+      "body": "Has anyone that's applied for this role or a similar role got any advice for preparing for the hirevue portion? I applied to JPMorgan for their intern program last year and even though I answered the coding questions easily, I think I took too long to take the assessment as slots were already getting filled. \n\nI've been out of practice for a bit, so I'm prepping with leetcode to refresh my memory and skills but are the coding questions here typically any harder than the ones for the internship positions?\n\nUpdate: \n\nI took the coding challenge assessment and I managed to answer one of the two questions correctly. The one I didn't answer correctly, I did know how to solve but I was really unfamiliar with how the values were being read in and looking at my test output wasn't helpful. Overall, I'm not feeling too hot because I missed that one question but hopefully I can make it onto the next round.",
+      "subreddit": "cscareerquestions",
+      "score": 6,
+      "url": "https://reddit.com/r/cscareerquestions/comments/oykatn/jpmorgan_chase_swe_fulltime_2022/",
+      "comments": [
+        {
+          "body": "I got hired at Chase in 2019. I do not recall HireVue being used, but I will say there was very little actual technical assessment for my position at least. I got hired on as a Spring boot developer because I said I knew Java and was able to answer a couple basic Java questions. No whiteboarding or coding challenges. Honestly, it was probably the easiest interview I've ever had for an SWE role. Chase is massive though, so it's hard to say if the different departments have more/less difficult hiring processes.",
+          "score": 9
+        },
+        {
+          "body": "It all depends on the team. My team is particular more traditional to FAANG interviews cause were tackling more difficult problems but I’ve sat in other team interviews with 0 to no coding problems.",
+          "score": 7
+        },
+        {
+          "body": "Did my Superday on 27th September 2021, hoping to hear back. \nIt was 30 minutes of two interviews back to back\nBehavioral was first, \nTechnical was second\nIt was a SWE position\nBehavioral interviewer said I did great , had a casual technical interview . Fingers crossed. \nHave any questions, am glad to respond",
+          "score": 2
+        },
+        {
+          "body": "JPM uses hirevue??",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Goldman compensation for a new grad in NYC",
+      "body": " I  have been extended an offer for a new grad role with a below average  pay in NYC. I was not expecting too much  but with the tax code in the  city and rent I am seriously considering declining. Additionally, I was  never sent a compensation questionnaire which from what I have gathered  from the internet is sent to everyone before they are made an offer.  Wondering if  I should ask HR why I was not sent the questionnaire.\n\nAnyone  else here who directly received an offer for a new grad role without  being asked to fill out the questionnaire? if so, was the compensation  too low?",
+      "subreddit": "cscareerquestions",
+      "score": 2,
+      "url": "https://reddit.com/r/cscareerquestions/comments/qaz5xk/goldman_compensation_for_a_new_grad_in_nyc/",
+      "comments": [
+        {
+          "body": "did you compare with levels.fyi?\n\nGS JPMC etc banks are usually on the lower side of tc comparing to tech companies but it should still be a good offer.\n\nWhat is your offer?",
+          "score": 11
+        },
+        {
+          "body": "Goldman Sachs, right?  I ask just to make sure.\n\nBut that seems very low.  I got an offer from them in March 2020 which was an annual salary of 100k with a 35k sign on in NYC .  The position, according to the offer was\n“Engineering Analyst position in the Technology Division of Goldman Sachs.”\n\nEdit:\nFor context this was new grad.",
+          "score": 6
+        },
+        {
+          "body": "Take it and keep interviewing.  If you get something better, jump to that.",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "title": "JPMorgan Chase Android Pair programming - London",
+      "body": "I have an Android pairing interview coming up for JPMorgan Chase in london. They haven't specified whether it will be an app based exercise or a leet code style pairing exercise. Has anybody done an interview for JPMorgan? I have contacted the recruiter but received no response from them!",
+      "subreddit": "cscareerquestions",
+      "score": 1,
+      "url": "https://reddit.com/r/cscareerquestions/comments/17xg16k/jpmorgan_chase_android_pair_programming_london/",
+      "comments": []
+    },
+    {
+      "title": "Experience with HireVue?",
+      "body": "I was wondering what using HireVue is like for an internship interview. I have never used it before and would like to have an idea of what to expect. Is there coding questions on hirevue or is that a separate gig? What advice would you give for a first time HireVue user? Also, if anyone has had a internship interview at JPMorgan what was your experience like?",
+      "subreddit": "cscareerquestions",
+      "score": 8,
+      "url": "https://reddit.com/r/cscareerquestions/comments/9h0crn/experience_with_hirevue/",
+      "comments": [
+        {
+          "body": "[deleted]",
+          "score": 12
+        },
+        {
+          "body": "I did a HireVue interview today. While my interview was only 5 video questions I felt out of touch doing them and honestly more nervous than meeting a real person. Not sure if the entire session is recorded or not or just the questions that were recorded because I took longer than the recommended time. It is interesting because the time to respond from when the question hits the screen and first response was only 30 seconds but the system allows you to pause for retries and there is unlimited time while I’m trying to come up with a solid answer. And the video that gets recorded is not what you see on screen, it ends up backwards. ",
+          "score": 5
+        },
+        {
+          "body": "If you are applying for software engineer intern there will be two coding questions.",
+          "score": 2
+        },
+        {
+          "body": "Top grads should refuse to ever do HireVue, Taleo, and other insulting garbage. These platforms are only used by mediocre companies that pay mediocre wages.\n\nEDIT: JPMorgan certainly isn't a mediocre company for finance/MBA grads, but it is NOT where top CS grads should go. Big banks have nothing but legacy IT, despite public claims to the contrary.",
+          "score": 2
+        },
+        {
+          "body": "2 coding(60 minutes total?) 2 open ended questions (one behavior, other about implementation of your soln to one of coding problems)...hardest part was talking to the camera while staring at yourself",
+          "score": 1
+        },
+        {
+          "body": "I just went through hirevue for a bank teller position. First time ever going through such a process. I was tempted to read off my rehearsals but was scared it’d be too noticeable since you can tell where my eyes are focused. I felt like I didn’t too well but we’ll see. I’ve done great in my past interviews but this was the first of its kind. I’m definitely not a fan, it’s very awkward/weird to literally be talking to yourself during an interview since you can see yourself on camera. You can hide the video but it literally just adds a tint to the screen and you’re still able to see yourself which defeats the purpose. You can practice, but the questions were literally nothing similar to what was really asked, which kinda threw me off. ",
+          "score": 1
+        },
+        {
+          "body": "Just did one for the first time... not a fan.\n\n&amp;#x200B;\n\nI'm a bit introverted so you'd think something like this would be perfect but its not. Recording yourself feels really awkward even when you use the camera blur feature which barely works. You end up closing off on a lot of the questions early because you cant pause. Questions are clear for the most part but you would learn a lot more in a actual live interview in-person/online when there is a natural conversation flow. I'm sure you could get the hang of this over time but realistically how many interviews like this are you going to do over a long period of time. ",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Upstart - Early Career Software Engineer program salary",
+      "body": "Hi, I've recently stumbled upon an opportunity to do an interview for the Early Career SWE program from Upstart.\n\nI'm aware of their average salary but I could not find anything about how much it will be for this particular program. All I know is that where I live affects the salary.\n\nDoes anyone have any information regarding how much it will be? I've already accepted a position for a different company because I had to make the decision and I was about to withdraw my application with Upstart but my finance is a little tight right now, so I was thinking about doing the interview and seeing what my salary could be.\n\nAny input would be much appreciated.",
+      "subreddit": "cscareerquestions",
+      "score": 3,
+      "url": "https://reddit.com/r/cscareerquestions/comments/te334s/upstart_early_career_software_engineer_program/",
+      "comments": [
+        {
+          "body": "\"Early career\" programs are basically just a fancy way of saying new grad programs now. I'd just look at the baseline of a new grad and adjust my expectations from there.\n\nThat said, Upstart is a great company and my friend working there has seen his TC skyrocket off their valuation continually increasing.",
+          "score": 1
+        },
+        {
+          "body": "We do salary + RSU +15% bonus on base salary. I'd assume 150k - 180k total TC for L3 but it's a really new program so not much data points. If they do give you an offer, please let me know what it was. Location affects salary only and it affects it by 15% max. I do not know if we do signing bonus though.",
+          "score": 1
+        },
+        {
+          "body": "You could also just ask the recruiter.",
+          "score": 1
+        },
+        {
+          "body": "[removed]",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Have ~7 hrs to make a decision.  BS in Math, Masters in CS vs. Ivy league business degree?",
+      "body": "Basically I'm down to 2 options.  I've always wanted to learn to program, and have been involved with computers since I was ~7 (Now, 20).  I roughly taught myself VB/Java when I was around 14/15 and was involved in making some programs in a tight knit community online.  Loved it.  Fast forward to where I am now - the last 3 yrs of my college career I've been focused on Investment Banking, and breaking into the industry.  As it stands, I've gotten internships done so far at a few investment banks and a one bulge bracket (think JPMorgan, Deutsche Bank, BAML) doing PWM.  I'm pretty well set up for a career in the industry, and know I will have no problem getting interviews for that type of job.  However, I'm a transfer student and got all these opportunities on my own at a local school getting an Associates in Math.\n\nI've been accepted to 2 schools as a transfer student for the fall - an Ivy league school majoring in Finance, and Georgetown, where I could undertake a BS in Math, or, if I can handle the senior year courseload of ALL CS courses (I haven't even taken Intro), I can get a BS in CS.  The problem that I feel, however, is that GTown is not a big CS school, and as such, I won't really be considered for top jobs in the CS industry and will most likely be looking at IT...  Also, I'm going to be a junior and I fear if I start from scratch now with CS, I won't land a notable internship next summer as I won't have the skills necessary down pat by then, whereas if I went Ivy, I could realistically expect to get a Summer Analyst position at Goldman Sachs (not far out of my reach...).  \n\nWhat is your take on it?  What should I do?  I enjoy finance, and am heavily considering just accepted the ivy, but CS has been a love of mine since I was young and it would be a shame if I gave it all up for something I might not want to do wit hthe rest of my life (Investment banking wears you out...).\n\nAny ideas?  Thanks!",
+      "subreddit": "cscareerquestions",
+      "score": 4,
+      "url": "https://reddit.com/r/cscareerquestions/comments/vz6qa/have_7_hrs_to_make_a_decision_bs_in_math_masters/",
+      "comments": [
+        {
+          "body": "You'll be miserable being an investment banker. Trust me on this. Do you really want to forgo some of the best years of your life so you can work 100 hours a week?",
+          "score": 5
+        },
+        {
+          "body": "[deleted]",
+          "score": 4
+        },
+        {
+          "body": "If you work hard, and do well, it doesn't matter where you go to school, especially with a name that is as high as Georgetown. They care more about what you know, just make sure that you have a good resume and a good phone interview. Seems like you are on the right track through work experience via previous internships, so good luck, and go with what you really want.",
+          "score": 3
+        },
+        {
+          "body": "Do your two years IB and switch to VC. ",
+          "score": 5
+        },
+        {
+          "body": "I'm going to say go with investment banking.  You can definitely become a competent software developer without any academic training, just by being self taught.  Getting an open door into investment banking, however, is near impossible and it pays a metric ton more money than software engineering does.\n\nAlso, it's good that you love software development, but many developers get burned out and jaded working in the industry.",
+          "score": 7
+        },
+        {
+          "body": "Go for ibanking. Programming jobs come and go as new technologies arise but this type of opportunity will probably never come in such full force again.",
+          "score": 3
+        },
+        {
+          "body": "I don't believe you will only be looking at IT if you go to Georgetown. Graduates from all sorts of schools get programming jobs. The top employers, like Google, recruit more at top CS schools, but they also hire people from other schools, and they are not the only employers for CS grads. (That said, I'm a Caltech grad who's kind of stuck in IT. I took a job that was IT + development, and now everyone thinks I only do IT. I don't do well in interviews.) \n\nIs it possible to do a CS minor at the Ivy League? Then you won't be throwing away all your past experience in finance, but you'll be involved in CS. Engineering financial software could be an option.",
+          "score": 3
+        },
+        {
+          "body": "Go with I-banking, even if you think you may only do it for a couple years. It'll open up a lot of doors. You can always get into CS a couple of years down the road. ",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Internship Woes",
+      "body": "Hello everyone,\n\nI'm a sophomore currently and one of my main goals for Summer 2021 - that is this summer, of course - is to get a tech internship. Sadly, due to well everything, I've been in a really bad place for the past year. \n\nAs a result, I've only applied to three companies for summer 2021, and even though I got an interview at a reach application ( JPMorgan ), it's in less than five days and I don't feel like that's enough time to prepare properly. \n\nMy current plans for getting something resembling a tech internship is to apply to REUs and  Google's Summer of Code, I'm not extremely confident in those options. I'm also looking for companies to apply to but I feel like it's not going anywhere. \n\nI'm just asking for some advice on what to do in a situation like this? Is it unrealistic to get an internship this late in the game. Are there any resources, I could make use of maybe?\n\nThank you for reading!",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/ljgqkp/internship_woes/",
+      "comments": [
+        {
+          "body": "Dude.. you applied to 3 companies and I’m assuming the other 2 are also big firms that receive a lot of applications.\n\nThe more apps you send, the more interviews you land. Just keep sending in those apps.",
+          "score": 3
+        },
+        {
+          "body": "&gt; I've only applied to three companies \n  \nI stopped reading after this, come back after you've sent 300\n  \nand no, I'm not exaggerating or kidding on the number",
+          "score": 3
+        },
+        {
+          "body": "Probably try banking on an REU. An REU with programming responsibilities would look really good for this next recruiting season for summer 2022. Sophomore internships are pretty rare",
+          "score": 1
+        },
+        {
+          "body": "Gotta pump those application numbers up. It's already hard enough to get a spot in a large company, and especially harder if you're a sophomore. It's definitely not too late to apply, spread yourself out more.",
+          "score": 1
+        },
+        {
+          "body": "&gt;As a result, I've only applied to three companies\n\nThat's terrible. Apply to 5-10 a day. Get on indeed, LinkedIn, and angel.co. \n\nAre you serious about getting an internship or not?\n\n&gt;My current plans for getting something resembling a tech internship is to apply to REUs and Google's Summer of Code, I'm not extremely confident in those options\n\nYou shouldn't be confident in those options. You should have been applying earlier but what's done is done now. It's February now. Until you're juggling multiple offers, you don't get the luxury of being choosy with a \"tech internship\".. you're late to the party. Apply to every internship you see related to your major: DS, SRE, Devops, SWE, Security, etc",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "How important is my GPA?",
+      "body": "I am a third year CS major.\n\nI wanted to know more about the market before I graduate so that I can brace myself.\n\nI didn't manage to get a good GPA in university (I had physical and mental health issues) but I don't want that to be the deciding factor of my life. \n\nI was in a career interview session with JPMorgan and they casually brought up the topic of how they only pick kids with the highest CGPA. I wanted to know, how much of a deep trouble am I in?\n\nWill this GPA stick with me for the rest of my career? Is there anything I can do to beef my application up to compensate for the low GPA?  \n\n\nDoes anyone have experience being in a similar position as I am? I'm just looking for advise.\n\nEdit: Thank you for all the support guys. I guess I feel a lot more confident about this now.",
+      "subreddit": "cscareerquestions",
+      "score": 3,
+      "url": "https://reddit.com/r/cscareerquestions/comments/j9t02k/how_important_is_my_gpa/",
+      "comments": [
+        {
+          "body": "Generally, no. \n\nSome companies care about GPA - typically they're more old school companies like banks (not at all surprised JP Morgan has GPA requirements). \n\nMost companies, especially actual tech companies, tend to not care about GPA. \n\nGoogle famously stopped factoring in GPA years ago. Their rational was that the numbers didn't show a positive correlation between GPA and job performance. \n\nHigh GPA *typically* signaled someone who had internships, personal projects, went to Hack-a-thons, etc... *those* things signaled candidates that were likely to be good performers, but Google realized that students with lower GPAs that still had those things were still good hires, and students with a high GPA but no other real world experience were not good hires. Google thus stopped caring about GPA. \n\nMuch of the industry followed suit.",
+          "score": 16
+        },
+        {
+          "body": "&gt; Will this GPA stick with me for the rest of my career? Is there anything I can do to beef my application up to compensate for the low GPA? \n\nNo, it will most definitely not stick for the rest of your life. It will only be a factor until you land your first job. \n\nI had mediocre GPA and I was worried about it. I got an internship. While being an intern, I just applied to a shit load of jobs, and I managed to land a permanent position elsewhere two months into my internship. I can assure you that the only times my GPA has come up was while I was trying to bridge the gap between university and the labour force. Frankly, past that point, hiring is done on qualification, skills and experience alone. \n\nI am now in a position where I do interviews and make recommendation to the hiring committee. What makes a good candidate is being smart, being autonomous and driven. If you have those three traits, we can hire you, sit you on a desk, and with minimal supervision, you'll be a productive member of the team within 4-6 months. That's what a firm ultimately wants, having a high CGPA is a proxy variable for those traits. \n\nMake a strategy if your GPA comes up in an interview.\n\n- reframe: move the goalpost and reframe your GPA. If you have a better GPA in the past year / past few semesters, bring that up. People change vastly during university. Who I was in my first year of uni is definitely not who I was when I was graduating, in terms of work ethic.\n\n- deflect: if you haven't shown improvement, say that you were more interested in practical experience and point to your side projects. \n\n- explain, if all else fails. Everyone goes through shitty times, which is understandable. But frankly, saying that you went through a bad time is probably not enough for employers, so this is a bit of a losing strategy. If you can't point to interesting side projects to explain away your bad CGPA, you should be coding almost full time to have portfolio to showcase your skills. \n\nBest of luck, dude. This is a throwaway so I might take a while to answer, but feel free to PM me.",
+          "score": 7
+        },
+        {
+          "body": "Do internships makeup for bad gpa?",
+          "score": 4
+        },
+        {
+          "body": "In my experience, companies set GPA targets and if you're over that target, it's fine.  Some companies don't mind much as long as you graduate, seem competent and willing to learn.\n\nGPA only really matters for your first job out of school.\n\nIt may mean you don't get some of the bigger company jobs, or some companies may not consider you, but with a few years experience you could change jobs.",
+          "score": 2
+        },
+        {
+          "body": "The only time GPA will matter is if you're applying for companies with hard cutoff GPA requirements for entry-level (i.e. there are a few that have 3.5+ GPA req and some that are 3.2+ GPA req)\n\n&amp;#x200B;\n\nHowever, most companies only have a soft cutoff GPA requirement, meaning work experience and prior internship experience will trump your GPA if it is below their 'expected' average.",
+          "score": 2
+        },
+        {
+          "body": "It will probably exclude you from the top companies so lower your expectations. \n\nGet experience. Get gud. Profit. $$",
+          "score": 1
+        },
+        {
+          "body": "Relax mate. Outside of your first job, GPA is irrelevant.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "JPMorgan AI &amp; DS Summer Associate Interview... Ghosted??",
+      "body": "Hi guys! \n\nDid anyone give the 45 min zoom videoconference interview for the above position recently? If yes, what happens next?? I gave mine on Oct 4 and haven't heard back yet🥲🫠 Tried emailing the recruiters but no response! Should I expect a reject? T-T It's fucking w my brain now! Please help you guys 🫠",
+      "subreddit": "jobs",
+      "score": 0,
+      "url": "https://reddit.com/r/jobs/comments/175ppvo/jpmorgan_ai_ds_summer_associate_interview_ghosted/",
+      "comments": []
+    },
+    {
+      "title": "Got an email from a JPMorgan hiring manager for a interview, but got a rejection email",
+      "body": "A couple weeks ago or so I applied for a role in asset management for JPMorgan. This morning I get an email from the hiring manager wanting to set up a phone interview. I had to go to a meeting for work before I could reply. When the meeting was over I had another email from JPMorgan saying I was rejected for the job I applied for and no longer being considered and I even checked my profile on the career site saying I was rejected-not selected.\n\nI went ahead and messaged the hiring manager responding to his email and said I was available anyways. I just got an email back setting up the phone interview.\n\nBut since I was rejected from the system I'm not quite sure how to proceed. Could this be a system error? Or could I already be rejected and he doesn't know (which doesn't seem very plausible).\n\nShould I even bring this up in the interview? I'm not wanting to screw this up as this could be a dream job for me.\n\nThanks!",
+      "subreddit": "jobs",
+      "score": 3,
+      "url": "https://reddit.com/r/jobs/comments/102i9ul/got_an_email_from_a_jpmorgan_hiring_manager_for_a/",
+      "comments": [
+        {
+          "body": "Hello, thank you for posting to r/Jobs!\n\nWe just wanted to let you know that we have a new [discord server, come join the chat!](https://discord.gg/TY6ErXV)\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/jobs) if you have any questions or concerns.*",
+          "score": 1
+        },
+        {
+          "body": "Sounds like a glitch. If the manager is emailing you directly to schedule interviews, ignore the system thing.\n\nDuring your interview, I imagine you'll ask for their overall timeframe and process to fill this position (ie. when/how they will get back to you with yay/nay). You can then bring up that the system seems to have bugged out your end.",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Anyone else find it's impossible not to compare yourself to classmates/friends, etc if you are unemployed or underemployed?",
+      "body": "sorry this is a text dump \n\n--\nI emailed a classmates and someone in my network to ask if I could list her in cover letter last night for an entry level job (2 years - I have more than that) in a company where she was a *team lead*, and I would be entry level. (Update: she did get back to me, and I'm grateful, but still exhausted) \n\n I was isolated before covid, but now....it's like groveling. Esp. when others are succesful, and you are not. It's humiliating having to beg for help finding jobs they started their careers with, when the people you're asking for help from are senior to super senior, and still wouldn't directly hire you. \n\nI don't really have a network anymore, as time goes on and that distance in accomplishment grows. This is one of the indirect but very powerful ways having life/work problems hurts in seeking a job, being tossed back into the abyss again and again. ...shame (and to add to that, bad health) draws you out of people's lives, once you're not seeing them every day in school and in neutral context. \"What are you doing these days?\" becomes an excruciating question to answer. I lie about how bad things feel or are every time and it hurts me that I have to, while my friends are...corporate counsel for JPMorgan. Directors at startups (non-techies, too). While they've been soared and validated and had it affirmed - they deserved nice salaries, they're \"good\", they're smart. They deserve good things and solid careers. \n\nIt's pure torture, reflecting on fighting with fresh graduates for jobs that are entry level, agonizing if my grays are showing if I get to an interview stage. How weak my answers must sound. Having to talk about contract jobs that comprise my experience. All of it.\n\nI went to high school, got good grades, went to a decent college but didn't use the experience well and got a stupid major I regret and ended up hating, Taught by idiots. No advisement on finding work in the field **at all**. And of course, what little was useful (statistics, accounting, finance) was taught weakly or I just...struggled with it, mightily. And lost it very quickly thereafter. Christ, I'm a fucking adult that feels like I have to talk a basic statistics course again just to find a job.\n\nOn average, every other girl in my graduating high school class is earning at least $100k in the HCoL area - or more, frankly, probably $150k-300k and up (I know corporate attorneys in JPMorgan and white shoe law firms). Even the people that really, really struggled in college, like me. After 30, their careers took off. They made it. I have a girlfriend that started in a 13/hour job for a health insurance company with her criminology degree who turned that into a municipal role into an associate director role in a major private university HR team. I can't even imagine. \n\nWorking/being able to find work during that time saved them. Networking through our high school when the iron was hot saved them. None of these people are so different from when I rememer them, none geniuses on the outside, and yet-especially compared to me - their accomplishments and what they've acquired for themselves are...unfathomable. \n\nSenior social work consultants, marketing managers/directors, software engineers, attorneys. The sprinkling of married teachers, who have husbands to support them. \n\nI, by contrast, took a lot of continuing ed and continue too, try to take at least one workshop a year, am struggling to add lower trailhead certifications while working, only to find myself occupied by some stupid domestic obligation, like being forced to clean up after my family, or just exhausted..and not only do I get dumber each year Im alive and as my health declines, I'm earning now what I did in 2017 (a terrible wage for even an entry level employer), after a brutal and painful layoff from a company I wasted five years with, treated like shit, because I had no place better to go and was taught nothing I didn't teach myself or get from another team.\n\nMy entire life, every waking moment, is about working terrible jobs, having to use my free time to deal with health shit or hope to optimize into a middle class job, eating, hygiene, and cleaning...and that's it. My joy in life is buying and eating food. There is nothing pleasurable to me about the outside world either. \n\nJust to try and convey that profound sense of failure on my part, and smallness....I have a classmate who is bubbly, adorable, but does not have tech or math acumen. She's still someone who turned a contract job at Google through Adecco in San Francisco into a manager job. She probably earns $250k a year. \n\nI know more than a few people like that. But I don't know *anyone* in my personal life that has been suffering through the layoffs that people talk about in this sub. My entire working career started on a delay because I didn't intern, and I have never rebounded. The only jobs I can get horrible, and dead-end, even if on paper, I'm using Salesforce, I'm intermediate in Excel, I've worked with a sales analyst or administrator. \n\nThey escaped. They're in the sweet spot of being under 40 and highly experienced with ever stronger networks from previous jobs. \nAll those things over years and jobs  add up in simply being a strong applicant, in being a confident interviewer. \n\n I don't even know how to network in a job; I asked a coworker to be a reference when I was applying to a company she had a relationship with - not even telling her the position, just mentioning it was good to have coworkers as references, since some of our partners did list jobs occasionally - and this horrid woman told the office gossip about it. \n\nShe gossiped to our claustrophobic office I was looking for new work, when they knew my manager hated my guts and was planning to fire me. I don't know how to turn someone into a long-term ally for work. I don't know how to cultivate those kinds of friendships, so people look out for you. I'm nice and polite and make small-talk but there's only so much of it I can do. I'm not the sort of person people want to get drinks after work with, and the stamina to do that is gone anyway. With each defeat I become more retiring, shyer, and not rude, but lacking the energy to try and make someone a buddy. \n\n\n\nI don't need $250k a year, but I'd like to know what it's like to earn enough to rent an apartment with no more than one roommate (or - wild dream - even alone) in the city I was born in, before I die. \n\nIf any of you relate I'd like to hear from you. Jealousy and failure is a painful combination. You can't talk to people in your life about it - they blame you. (I blame myself plenty, it hasn't helped me.) \n\nIt was so horrible feeling alone and ashamed after college, but this is worse. Being in your 30s when people around you and that were once in the same place you were, only to have far, far surpassed you, feels much worse than starting out in your 20s and feeling hoepless.\n\nSome people never catch up, and it never gets easier to consider that fact. Every time I find myself out of the only job I can get and in the new \"this is the only company that would hire me\"-type job, it's not just being older and my resume looking worse when I'm applying to jobs I've done...the skills requirements are worse. The demands and barriers companies erect for entry level jobs paying $50k/year on the East Coast, just for the privilege to say you worked for a tech company (the ones that post the most entry level roles, fyi) get worse.  \n\nI wasted a lot of time in a graduate program I shouldn't have been in, for reasons I won't go into - it's not like a comp sci degree or MBA isn't calling just to network again, but the cost and being out of the workforce for 2+ years, and my ailing brain...it doesn't look attractive going in that direction either.",
+      "subreddit": "jobs",
+      "score": 6,
+      "url": "https://reddit.com/r/jobs/comments/192rvg9/anyone_else_find_its_impossible_not_to_compare/",
+      "comments": []
+    },
+    {
+      "title": "Opinions on my situation and on the company Yext?",
+      "body": "So I have a final round interview with Yext coming up soon, so I'm starting to prep for it. Currently Ive been working at JPMorgan for the past 6 months, and while I don't mind the pay and the tons of different teams and resources I can tap into, the product I work on isn't as interesting to me, the tech stack doesn't translate too well to other frameworks, don't like the team environment I am in,  and I'm just not really too much in finicial service. If I were to do well on Yext and get an offer, I would be\n 1) have to move out of state of where I used to live\n2) go from a big company to almost a start up (50k vs like 1.2k employees\n\nOnly reason I considered Yext was cause it was consider more of a tech company than JPMorgan\nSo I have two questions to ask:\n1) would it make sense to switch so early In my career to another company if I only have about 6 months of work experience?\n2) would it make sense to switch to text from Jpmorgan?",
+      "subreddit": "cscareerquestions",
+      "score": 2,
+      "url": "https://reddit.com/r/cscareerquestions/comments/rwroee/opinions_on_my_situation_and_on_the_company_yext/",
+      "comments": [
+        {
+          "body": "teamblind.com is the place to ask.\n\nSeems like it's got poor reviews, and levels.fyi doesn't have it paying the highest, but for a non Bay Area/Seattle company, it does pay pretty pay - probably better than JP Morgan.",
+          "score": 6
+        },
+        {
+          "body": "[removed]",
+          "score": 1
+        },
+        {
+          "body": "OP how did you hear about Yext?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "What are some good companies in Houston to apply for as an entry level software engineer?",
+      "body": "Hello everybody. I just recently moved back to the US after taking college abroad and would prefer to work here near Houston since the housing is cheaper and I have family that live in the area. I've already applied for some companies such as JPMorgan, Reynolds &amp; Reynolds, and Two Sigma but I want to apply more since I've only gotten an interview from Reynolds in 3 weeks. Is the entry level market really saturated here? As for my experience before, I've only had a 6 months stint as a developer at a consulting company in the Philippines but most of it was as a call center agent due to developer jobs drying up due to Covid. I can do solid Java and Spring Framework but not that experienced in JS/.NET which is what I heard is big here. Any other advice or companies I should be looking out for? How long should I wait for an email back before giving up on a company?",
+      "subreddit": "cscareerquestions",
+      "score": 2,
+      "url": "https://reddit.com/r/cscareerquestions/comments/osvpmg/what_are_some_good_companies_in_houston_to_apply/",
+      "comments": [
+        {
+          "body": "oof Reynolds is the literal worst. I've heard some good things about JPM I know a number of people who work there. I've heard of 2sig but don't know much about their working culture.",
+          "score": 5
+        },
+        {
+          "body": "Are you on visa",
+          "score": 4
+        },
+        {
+          "body": "Very saturated market of entry level devs. You are right, .NET is the thing to know here. Since you know Java, just put .NET on your resume since it is pretty similar. I just recently did the opposite and switched from .NET to Java. Also, don't expect a high salary in Houston. Anyone who tells you otherwise most definitely lucked out. Most of my peers (and myself), had got offers anywhere between 50-75k for entry level here. High salaries here are not that easily achievable with less than 2 years experience in Houston.\n\nPlus side though, is that companies don't do much coding assessments here. It's all pretty basic questions in interviews. Apply to oil companies. Stay away from Reynolds and Reynolds unless you want a piss salary and shitty job environment.",
+          "score": 4
+        },
+        {
+          "body": "[removed]",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Is it bad to be applying to a lot of different companies?",
+      "body": "I'm a 3rd year CS student that just transferred to a top 5 CS school but having trouble getting an internship... I have been applying to probably more than 5 places every day but don't get that many responses. I have only had 5 interviews, 1 of them being technical, and a lot of hackerranks/OA's.\n\n I've heard that it might be bad to be applying to a lot of companies but why would that be an issue?\n\n I really only have experience in web development, one of them being a coronavirus tracking website that is hosted and I think is a pretty solid project. The other one was making a web application for a non-profit during the JPMorgan Chase Code for Good Hackathon.\n\nI'm not sure if my resume is the issue, I feel like it shows my strengths pretty well and has everything I can put on it, but wouldn't it be better to be applying to more places for a higher chance of getting an offer?",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/jfjmo9/is_it_bad_to_be_applying_to_a_lot_of_different/",
+      "comments": [
+        {
+          "body": "[removed]",
+          "score": 2
+        },
+        {
+          "body": "Focus on school carerr fair and handshake. The yield a higher rate of interviews. Also, you will have a better shot with the local companies",
+          "score": 1
+        },
+        {
+          "body": "No you should only apply to one company per year. Shame on you.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "JPMorgan 2024 AI &amp; DS Summer Associate Program Zoom Interview",
+      "body": "Hi guys! Has anyone given the 45 min zoom interview for the above role? Mine is tomorrow and I'm looking for some guidance😭\n\nI am very sick and asked the recruiter to reschedule but she won't reply to any of my emails;-;",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/16xnt7y/jpmorgan_2024_ai_ds_summer_associate_program_zoom/",
+      "comments": []
+    },
+    {
+      "title": "Beware of fake Job Fraud Scams: My Personal Experience ,lost my hard earned savings,please read carefully and spread news .",
+      "body": "Hi everyone, I want to share my recent experience with a job fraud scam to warn others who might fall victim to similar tactics. As someone actively applying for jobs in the data analyst role, I posted my resume and contact details on multiple job portals. Unfortunately, this made me a target for scammers\n\nHow It Happened\n\n1. Initial Contact:\nI received a call from someone claiming to be an HR representative from JPMorgan Chase for a data analyst role.\n\nThey emailed me links to an online test and, after completing it, said I was qualified.\n\nThey scheduled a video call interview (which seemed genuine). And after it was done\n\n\n\n2. Fake Selection and Offer Letter:\n\nThe next day, they informed me I was selected and sent a selection letter and offer letter via email.\n\nThe offer letter had all the hallmarks of authenticity, including the JPMorgan logo and formatting.\n\n\n\n3. Request for Documents:\n\nThey asked for my Aadhaar, PAN, degree certificate, and current firm’s payslip as PDFs.\n\nThey also required me to digitally sign the offer letter and send it back in mail\n\n\n\n4. Mandatory Certification Scam:\n\nThey told me I had to enroll mandatory certification course  of a TensorFlow certification course and complete it  before joining, costing ₹25,000 (around $280) , and said the amount will be reimbursed by them as mentioned in clause in offer letter.\n\nThey sent me a suspicious link to a tensorflow website  for enrollment , where they told me to intract with the live chat representative in the website, and they asked for payment, promising reimbursement after course completion.\n\n\n\n5. Payment and Realization:\n\nI paid via my using  debit card through a payment gateway ,it was paid in dollars \n\nAfter payment, I received a receipt in mail pdf and in live chat they gave login credentials for platform , when I logged in the website turned out to be fake, and the course and certification and all were bogus.\n\nI asked the live chat , they didn't reply properly\n So I contacted hr ppl ,they said talk to live chat only , they i checked the all mail ids and offer letter in online AI came to know it was replica and fake of original jp Morgan,  When I contacted them again , they responded rudely they cut off communication and blocked means responsesn in chat too\n\nI filed a Cyber Crime Complaint :\n\nI reported the incident on the Indian Cyber Crime Portal and provided all details, including emails, receipts, and phone numbers. And blocked my cards and account \n\nThrough first link of online quiz test we can see some username who participated and I checked the name in linkdln and warned everyone I could \n,it was a mass scam , happened to many people, many lost money , and many I saved warning beforehand.\n\nThese people are pathetic, they are using desperation of getting jobs of young people , conducting fake interviews and giving fake offer letters and manipulatiing them into paying to enroll course and finally scamming them , these people need to behind bars .\n\nPlease beware of this scammers and inform all people you know.\n",
+      "subreddit": "jobs",
+      "score": 40,
+      "url": "https://reddit.com/r/jobs/comments/1i77mgr/beware_of_fake_job_fraud_scams_my_personal/",
+      "comments": [
+        {
+          "body": "Real jobs don't ask for money, they pay you money",
+          "score": 49
+        },
+        {
+          "body": "This could have been squashed in Step 1 by checking the IP address.",
+          "score": 18
+        },
+        {
+          "body": "Sorry . I guess my first question is did you apply to similar positions? Seems odd that they would call you. Anyway scammers have become very sophisticated lately. I think AI is helping them out significantly",
+          "score": 4
+        },
+        {
+          "body": "Anytime an HR person or recruiter reaches out cold without prior contact and you've never applied to the role, you must independently verify the job opportunity and the person. If you can't, it's a scam.",
+          "score": 4
+        }
+      ]
+    },
+    {
+      "title": "JPMorgan Operations Analyst Program Internship Superday",
+      "body": "I got invited to superday for JPMorgan for the Operations Analyst role. They gave no information on the type of interviews (there are 2 total). Has anyone applied for this role before? Any tips?",
+      "subreddit": "jobs",
+      "score": 3,
+      "url": "https://reddit.com/r/jobs/comments/10haplq/jpmorgan_operations_analyst_program_internship/",
+      "comments": [
+        {
+          "body": "Hello, thank you for posting to r/Jobs!\n\nWe just wanted to let you know that we have a new [discord server, come join the chat!](https://discord.gg/TY6ErXV)\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/jobs) if you have any questions or concerns.*",
+          "score": 1
+        },
+        {
+          "body": "How did it go?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "JPMorgan AWM Analyst",
+      "body": "Greetings,\n\nI am not sure if this is the right subreddit to post this in. But I think it'll work. \n\nI will be graduating with a business degree in Marketing and Management in 3 months.\n\nI have recently been informed that I have received another interview with JPMorgan to join their asset and wealth management team as an analyst. I have already been through one round of interviews on HireVue where it was pretty stock interview questions (why JPM, time you failed, worked on a good team, made a mistake, etc.)\n\nI was wondering if anyone has recently been through this process recently. I was under the impression the next step was a \"super-day\" but that does not appear to be the case. Does anyone have any input on what type of questions I should expect in this next round of interviews? Any guidance will be appreciated.",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/m1bgow/jpmorgan_awm_analyst/",
+      "comments": [
+        {
+          "body": "Hello, thank you for posting to r/Jobs! \n\nWe just wanted to let you know that we have a new [discord server, come join the chat!](https://discord.gg/TY6ErXV)\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/jobs) if you have any questions or concerns.*",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Google Job Anyone?",
+      "body": "Hi Reddit,\n\nFirst Post Here!\n\nCan someone help me get an interview at Google? I know it is very difficult to get in, but if anyone can help me is you wonderful people :). \n\nExperience: 3+ years working at JPMorgan Chase &amp; Co. (Risk Analyst and later as a Sr. Business Analyst)\n\nP.S I hope someone reads this :/",
+      "subreddit": "jobs",
+      "score": 0,
+      "url": "https://reddit.com/r/jobs/comments/2c0eae/google_job_anyone/",
+      "comments": [
+        {
+          "body": "I know people in Google Dublin, the EU HQ",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Interview for Technology Support II at JPMorgan",
+      "body": "Hi, I have an upcoming interview for the role of Technology Support II at JPMorgan. Can't really seem to find what kind of questions will be asked online (technical/behavioural/coding), glassdoor mostly has SWE roles only. Since this role is more focused on supporting application/infrastructure, not sure if I should grind leetcode style questions or revise devops/infrastructure support concepts. The JD also mentioned linux, scripting in python/shell and database, all of which I am familiar with in my current role. Currently have 1YOE after graduation. Would like to know what to expect during this interview, any input will be much appreciated.",
+      "subreddit": "interviews",
+      "score": 2,
+      "url": "https://reddit.com/r/interviews/comments/1mryxux/interview_for_technology_support_ii_at_jpmorgan/",
+      "comments": [
+        {
+          "body": "You're absolutely right to focus on infrastructure and support concepts rather than grinding leetcode. This position will likely involve a mix of technical scenarios around troubleshooting, system administration, and operational support rather than algorithmic coding challenges. Expect questions about Linux command line operations, basic scripting for automation tasks, database querying and performance issues, and incident response scenarios. They'll probably ask you to walk through how you'd diagnose a system outage or performance degradation, explain your experience with monitoring tools, and discuss how you've handled critical production issues in your current role.\n\nThe behavioral component will focus heavily on your ability to work under pressure, communicate technical issues to non-technical stakeholders, and collaborate with development teams during incidents. JPMorgan values reliability and clear communication in support roles, so prepare examples of times you've resolved complex technical problems, managed competing priorities during outages, or improved processes in your current position. Since you already have relevant experience with the technologies they mentioned, focus on articulating your problem-solving approach and demonstrating your understanding of how infrastructure supports business operations. I'm on the team that built a tool for [AI interview prep](http://interviews.chat), which can help you practice articulating technical concepts clearly and handle those tricky situational questions that often come up in support role interviews.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "JP Morgan SWE interview \"do not have a position available that matches your qualifications\"",
+      "body": "I had a software engineering interview with JPMorgan two weeks ago. It was a bench interview, and the next day I received an email stating that \"there were no positions available that matched my qualifications\". However, when I spoke with my recruiter, she told me that my interview performance was rated as “median” (level 2), I passed and am now waiting for a team match.\n\nMy questions are:\n\n* Since I applied for a position in the NYC/NJ area, which I understand is quite competitive, do I still have a chance of being matched with a team?\n* It’s been two weeks since the interview — should I follow up with my recruiter again about the team-matching process?",
+      "subreddit": "interviews",
+      "score": 2,
+      "url": "https://reddit.com/r/interviews/comments/1oq75bz/jp_morgan_swe_interview_do_not_have_a_position/",
+      "comments": [
+        {
+          "body": "Did you hear back from recruiter or got an offer ? Also got the email but recruiter called me immediately saying verbally I went into team matching.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "JPMC interview for Tech Support – fresh grad with no experience, what should I expect?",
+      "body": "Hey everyone,\nI’m a fresh grad with no hands-on experience and I’ve got an interview coming up for a Technology Support role at JPMorgan Chase.\n\nAt first i had a screening through call, then they gave me a case study to solve, and after I submitted that, I got invited for the interview.\n\nJust wondering:\n\nWhat should I expect during the interview?\nWhat kind of questions do they usually ask for tech support roles?\nAny tips on how to prep, especially since I don’t have real-world experience yet?\n\nWould really appreciate any advice or if anyone’s been through something similar!",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1lgj9od/jpmc_interview_for_tech_support_fresh_grad_with/",
+      "comments": [
+        {
+          "body": "JPMC tech support interviews typically focus on your problem-solving approach, customer service mindset, and ability to learn quickly rather than expecting you to know everything upfront. They'll likely ask about how you'd handle frustrated users, troubleshoot technical issues step-by-step, and work within a team environment. Expect scenario-based questions about prioritizing multiple support tickets and explaining technical concepts to non-technical people.\n\nSince you're a fresh grad, they know you're not coming in with years of experience, so focus on demonstrating your eagerness to learn, analytical thinking, and communication skills. Practice common [tech support interview questions](https://www.interviews.chat/questions/technical-support-specialist) like \"How would you troubleshoot a computer that won't start?\" or \"Describe how you'd help someone who's locked out of their account.\" Your case study performance got you this far, so lean into that same methodical approach when answering their questions. Show them you can think through problems logically, ask the right clarifying questions, and maintain patience under pressure - these soft skills matter just as much as technical knowledge for a support role at a major financial institution.",
+          "score": 2
+        },
+        {
+          "body": "Hi, \n\nhave you finish your first interview, what is the case study they gave you?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Need advice on my career situation struggling to get back into banking risk roles in the UK",
+      "body": "Hi everyone, I’m reaching out for some advice and support regarding my career situation.\n\nI worked at Standard Chartered Bank in India from 2019 to 2023 in risk management and 2nd line of defence (control testing) roles. I got married in 2023 and moved to the UK, as my wife already had a job here. I resigned from Standard Chartered thinking that with my experience, I’d be able to find a similar job in the UK quite easily. Unfortunately, that assumption turned out to be wrong.\n\nSince moving, I’ve been sharpening my expertise in risk management and 2LOD controls. I started applying and attending interviews from November 2023. Initially, I wasn’t getting many interviews, but things gradually improved. By October 2024, I started receiving more interview calls from companies like JPMorgan Chase, Citigroup, M&amp;G, SBI UK, etc.\n\nTo be honest, I’ve attended around 32 interviews so far – including second and third rounds. Out of those, around 16 were with Citi, across different departments. At first, I thought I was failing due to performance issues or language barriers, but that’s not the case. I’ve cleared several first rounds confidently.\n\nThe main challenge I’ve identified is that my experience is mainly in 2nd line of defence (control testing), whereas most of the roles here in the UK are focused on 1st line of defence. That mismatch seems to be the biggest obstacle.\n\nIn March 2024, I decided to take up a job in the retail sector just to stay engaged and support myself, while continuing to apply for risk roles. I’m extremely passionate about my profession and have kept learning about the 1LOD side in detail.\n\nNow it’s been a year and a half since I left my previous job, and I’m starting to lose hope about getting back into a risk role in banking.\n\nI’d really appreciate any advice – what should I do now? Is there a better strategy I should follow? Should I consider further study, or a different approach to transition into the UK market?\n\nThank you in advance!",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1jtj5h0/need_advice_on_my_career_situation_struggling_to/",
+      "comments": []
+    },
+    {
+      "title": "What should I expect in a Chase Associate Banker phone interview?",
+      "body": "I have a phone interview coming up for an Associate Banker position at JPMorgan Chase, and I was wondering if anyone who's gone through the process recently could share what to expect.\n\nWhat kinds of questions do they usually ask? Is it more behavioral or do they dive into banking knowledge? Any tips on how to prepare or what they might be looking for would be super helpful. Thank you.",
+      "subreddit": "interviews",
+      "score": 5,
+      "url": "https://reddit.com/r/interviews/comments/1livemf/what_should_i_expect_in_a_chase_associate_banker/",
+      "comments": [
+        {
+          "body": "Chase phone interviews focus heavily on behavioral questions rather than deep banking knowledge. You'll likely face questions about customer service scenarios, how you handle difficult situations, times you've exceeded goals or targets, and why you want to work in banking specifically. They're looking for someone who can build relationships with customers, cross-sell products naturally, and handle the sales pressure that comes with the role. The interviewer will probably ask about your experience with handling money, working with quotas, and dealing with upset customers since those are daily realities of the job.\n\nChase cares more about your attitude and sales potential than your existing banking expertise since they'll train you on their specific products and systems. They want to see that you're comfortable with technology, can learn quickly, and won't crumble under the pressure of meeting monthly sales goals for credit cards, loans, and other services. It's good to practice common [Associate Banker interview questions](https://www.interviews.chat/questions/associate-banker) about conflict resolution, teamwork, and specific examples of when you've gone above and beyond for customers. Come prepared with concrete stories that show you can handle rejection, stay motivated by targets, and genuinely enjoy helping people with their financial needs.",
+          "score": 2
+        },
+        {
+          "body": "Hey! How did it go..? What were the steps ahead and in case you were offered the job, what salary expectations could be realistic, thanks in advance!",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Etse program jpmorgan chase",
+      "body": "I recently had an interview with ETSE program chase. I did well for behavior. However, I fumbled for technical. It was a super day 40 min of interview each. I did communicate well I answered one question and another one I did provide with the approch which would work but couldnt code it out. Other than that the interview went well. \n\nI am just going over and over the things and trying to calculate my chances of being hired. I am not getting my hopes high but do you guys think I can get a call back even after such performance? ",
+      "subreddit": "interviews",
+      "score": 0,
+      "url": "https://reddit.com/r/interviews/comments/1i0kh4d/etse_program_jpmorgan_chase/",
+      "comments": [
+        {
+          "body": "What kinds of questions did they ask? I’m hoping to get a superday invite soon",
+          "score": 1
+        },
+        {
+          "body": "If you don't mind, how difficult were the questions asked for the technical interview?",
+          "score": 1
+        },
+        {
+          "body": "It wasnt that bad. They had two leetcode questions one easy and another medium. Nothing too hard. And some oop questions. You only have 40 mins so its going to be easier. I choked because I thought it was going to be harder but it was not. Dont worry",
+          "score": 1
+        },
+        {
+          "body": "https://discord.gg/nD6q5Csy Etse cord",
+          "score": 1
+        },
+        {
+          "body": "Did you end up getting an offer?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Feels like I am in the candidate pool and out of the candidate pool at the same time?",
+      "body": "I applied for a job with a similar company, using their website, and got a first round interview with their head recruiter. We had a 15 minute sync, but he wasn't really familiar with my industry and was kind of crass/skeptical of my experience (like when we were going down my resume he was asking like \"what happened here\" for each job I'd had). And for companies I'd like done consulting with he was really grinding into which companies I'd worked with and I told him straight up. Like I have JPMorgan on my resume for a company I've done a lot of work with and I responded and told him the types of projects he was working on but it just seemed kind of curt.\n\nIt didn't seem like this recruiter was in my camp, so after like a day or two I CC'ed him and the person heading that business unit (I'd given him a call or something expressing interest in the company prior) but just to connect the dots that I wouldn't get screened out. \n\nWe ended up talking again and he set up time for me with the hiring manager, and that went well. \n\nNow the hiring manager (who basically gave me at least a preliminary thumbs up, said he was excited about what his team was doing) has pointed me back to the recruiter to speak.\n\nIt almost feels like I'm working the team from a recruiting angle but the recruiter may not be like pushing/organinzing the hiring process very much, I'm a little concerned they have screened me out or arranged other candidates while I've been working this by my own accord. \n\nThe guy who heads the Business Unit seemed pretty open to hiring me, but I almost had to like point out that I'd be a good fit for the job I'd applied to..... which is what makes me feel like that recruiter may be doing a shitty job or screened me out from something that I am more or less qualified for. \n\nI have a PhD but a little less experience than they wanted but fulfill the required subject matter expertise so I think they may not care about the years of experience at the end of the day.\n\nDo you think they'll screen me out based on that recruiter being kind of lukewarm? \n\n\nThis individual seemed just really really unsympathetic/disinterested which is frustrating because I have very valid reasons for leaving a job and it isn't clear if they're going to sink my candidacy or if the feedback from the Business Unit Leader and hiring manager would count for more.",
+      "subreddit": "interviews",
+      "score": 3,
+      "url": "https://reddit.com/r/interviews/comments/1eypno2/feels_like_i_am_in_the_candidate_pool_and_out_of/",
+      "comments": []
+    }
+  ]
+}

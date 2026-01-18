@@ -1,0 +1,54 @@
+{
+  "company": "jane-street",
+  "common_questions": [
+    "why do you specifically need to learn C++ for the role?",
+    "how would you feel about an essay question?",
+    "describes a technical issue they had to solve, what the issue was and how they approache",
+    "describe in detail?",
+    "explaining your thought process out loud and getting comfortable with saying \"I'm not s",
+    "how would you prepare for those?",
+    "explaining every step",
+    "tell me about whatever was going on at the office at literally 1:20 AM and then again at 6:20",
+    "explain your situation",
+    "and what were they looking for?",
+    "and OCaml knowledge was not needed"
+  ],
+  "themes": [
+    "System design emphasis",
+    "Heavy focus on coding",
+    "Behavioral interviews important",
+    "Culture fit matters",
+    "Multiple interview rounds",
+    "Take-home assignment",
+    "Whiteboard coding",
+    "Virtual interviews"
+  ],
+  "interview_tips": [
+    "getting really good at mental math, probability, pattern recognition, and brain teasers",
+    "for Jane Street third round (QT internship)",
+    "or pointers for the third round or the on-site would be greatly appreciated!",
+    "for Jane Street phone interview?",
+    "becoming very good at probability and combinatorics puzzles, and be able to do math on a whiteboard",
+    "the same type of algorithms &amp; systems preparation as for Silicon Valley software companies such as Palantir, Quora, Google, etc",
+    "knowing or at least being familiar with OCaml",
+    "(1) knowing about high performance computing and how to optimize code and (2) knowing C++ very well (some companies care about this more than others)",
+    "would be appreciated!",
+    "me , i interviewed , and got the job"
+  ],
+  "red_flags": [
+    "think I would enjoy SDE",
+    "know if I can achieve that with SDE or whether my mathematical background would go to waste",
+    "really know what to do if I don't find a good job",
+    "have to read below here**!",
+    "even really remember random effects or t tests, I really need to revise this)",
+    "seem good enough to get one at my top choices yet, do I settle? Is it better not to?)",
+    "know C++ which I would need to learn, as well as concurrency/maybe CUDA)",
+    "know algo&amp;ds well enough so I would need to study this as well as a lower level language)"
+  ],
+  "process_insights": {
+    "typical_rounds": "3 rounds typical",
+    "timeline": "2-4 weeks",
+    "format": "Mix of phone screen, technical, behavioral, on-site, virtual"
+  },
+  "source_count": 23
+}

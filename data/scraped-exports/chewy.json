@@ -1,0 +1,275 @@
+{
+  "company": "chewy",
+  "post_count": 14,
+  "exported_at": "2026-01-18T17:44:53.266Z",
+  "posts": [
+    {
+      "title": "Has anyone done the Chewy OA?",
+      "body": "Also was wondering if anyone’s gotten the on demand interview invite yet either?",
+      "subreddit": "cscareerquestions",
+      "score": 2,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1bgemv7/has_anyone_done_the_chewy_oa/",
+      "comments": [
+        {
+          "body": "i just got it and am wondering too",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "How to stay motivated?",
+      "body": "Had a chewy interview earlier today. I had passed the original OA and then was given a LC medium problem in the 1hr live coding session. Came up with a brute force solution relatively quickly and got it to work and then proceeded to optimize it as it failed 5 of 13 testcases due to time complexity. I struggled with implementing the optimization but i specified i \"know what it should be\" and said how i can improve it. I was guided on the right track but ran out of time before i could get it to work. I looked up the question on LC after and seeing the solution, I was on the right track but LC has a cleaner/shorter/more optimal solution.\n\nIm probably going to get rejected and just really trying hard to stay motivated here to grind more LC. Scenarios like this make me wonder if im just not good enough of a problem solver. I showed this question to two friends and they came up with optimal solutions pretty quickly which made me feel even worse...\n\nI see people saying they have competing offers from top companies and I wonder if ill just continue to be a third rate engineer...How do you guys keep moving forward rejection after rejection?",
+      "subreddit": "cscareerquestions",
+      "score": 6,
+      "url": "https://reddit.com/r/cscareerquestions/comments/owna4f/how_to_stay_motivated/",
+      "comments": [
+        {
+          "body": "don’t take it personal. Leetcode is mostly bullshit tbh. I was given a hard leetcode, made 12/13 possible solutions and still got rejected. \n\nmany companies don’t require leetcode after certain years of experience so you won’t have to worry about that later on. Also don’t rate yourself based on what company will hire you.",
+          "score": 5
+        },
+        {
+          "body": "\\&gt; failed 5 of 13 testcases due to time complexity\n\nHow do these testcases actually work?\n\nYou're not a 3rd rate engineer. Your self worth isn't defined by leetcode bullshit that's 98% irrelevant to the job.",
+          "score": 2
+        },
+        {
+          "body": "Kind of irrelevant but what LC medium was it?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Should i negotiate my offer?",
+      "body": "So i initially told **company x** that i'm looking between 130-150k base (i currently make 73k base and 80k TC) and my first discussion with the recruiter (at the very beginning of the interview process) was her saying they can get me to around 155k TC.\n\nAfter the virtual onsite, i spoke with the recruiter again and she said they will be looking to come in around 138-140k base, which with 10% bonus, again puts me above 150k TC.\n\nI then received the formal verbal and written offer, verbally first, where she said that, transparently, they have decided to come in lower, at 130k and really cannot go higher, which with the 10% bonus which puts me at 143k TC + benefits. They are a private company so there is no stock. Just annual bonuses and salary increases.\n\nNow, this is roughly a 78% increase from my current salary (they dont know this) so for me it's an amazing jump and i think the benefits and company + wlb will definitely be worth it. I'm wondering if it's worth trying to negotiate a sign-on bonus if they cannot provide more base initially. I am waiting to hear back from chewy to see if they plan to extend an offer or not. I dont know if chewy will offer a higher TC than the current offer, but I was planning to try and use that to negotiate my offer.\n\nLikewise, their justification is that I will have to ramp up alot as the position is a full stack web developer so i basically need to come up to speed with the MERN stack (and JS), but with their annual performance review, if i do well, i will be above 150k by this time next year. Should i not risk it and accept the offer as is? Or is there little risk to trying to get a sign-on bonus?",
+      "subreddit": "cscareerquestions",
+      "score": 2,
+      "url": "https://reddit.com/r/cscareerquestions/comments/p6gsqa/should_i_negotiate_my_offer/",
+      "comments": [
+        {
+          "body": "I mean - you're getting a 78% pay increase. I know it's not quite what you wanted, but, if you lose this - do you have other offers for that much?\n\nI've made 80k and if I had the chance to make 143k I wouldn't really have to think too hard about it.",
+          "score": 15
+        },
+        {
+          "body": "Yes negotiate a bonus or if they can't budge on money there are other things like vacation days. You'd need to offer some rationale for it other than just wanting more money (how's their 401k match or other benefits?). If you feel like you can ramp up fast, try to get in writing some eval at the 3 or 6 month mark so you don't have to wait a year.",
+          "score": 3
+        },
+        {
+          "body": "How much of a bonus do you wanna try and get?  I can't imagine it would be much...10k? gonna be like 6k after taxes. You would have better leverage if you have an offer from chewy...\n\nAre you willing to risk losing the offer for whatever bonus you're planning to ask for? If so, then go for it.\n\nI was just in this position, almost exactly same numbers(offer) and prev salary was tiny bit less than yours. But I was also coming off a year of unemployment so ymmv... Anyways they came in just above bottom of range they gave initially(not unexpected, i'm junior as fuck)....logical part of me wants to negotiate but, fuck risking it this particular time. i was already burnt and stressed from job search, had no job, and mainly, the salary is double what i was making before. so i rolled with it.",
+          "score": 2
+        },
+        {
+          "body": "It's a textbook manipulation tactic (see Influence by Robert Cialdini). First they make you feel like you've got a deal to make you feel psychologically like you got the job. Then they renege and give you a shittier deal which you're now more likely to accept. Personally I would be suspicious of anyone using such tactics.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "3 Weeks Waiting for an Interview, Another Week for Results, Still No Start Date",
+      "body": "Last month, I applied to Chewy and was offered an interview a week later. They told me to wait until the following week to click a link and schedule it, so I did. When I went to schedule, I found out the interview date was three weeks out. I waited patiently, showed up on time, dressed professionally, and brought printed résumés and business cards.\n\nWhen I arrived, I saw a sign for interviews and walk-ins and was told to scan a QR code and wait. The waiting room honestly felt like a doctor’s office. Only a few minutes later, they called me back, and I was surprised to find out the “interview” was just me sitting in front of a computer talking with someone from India who didn’t even know my name or work history, even though I had already filled it out online.\n\nAfter about 20 minutes, I was told to grab a drug test form and read off the numbers. Then they said I would need to wait a week for the results before I could start. A week later, I got a text saying I had passed and to watch for shift availability, first come, first serve.\n\nIt’s now been another week and I still haven’t started work. I have a family to support, and it’s discouraging that a company treats the hiring process like a game, leaving people hanging when they’re eager and ready to work.",
+      "subreddit": "jobs",
+      "score": 6,
+      "url": "https://reddit.com/r/jobs/comments/1njmpgv/3_weeks_waiting_for_an_interview_another_week_for/",
+      "comments": []
+    },
+    {
+      "title": "So did I get the job or not??? ",
+      "body": "I did a interview background check and drug test and filled out tax forms and I received this email it’s been over two weeks and I’m kind of bummed out because rent is coming up and money is getting shorter. I applied for other jobs but it’s hard out here. So I just want to know did I get the job or not I’m confused ",
+      "subreddit": "jobs",
+      "score": 0,
+      "url": "https://reddit.com/r/jobs/comments/1fiy1lh/so_did_i_get_the_job_or_not/",
+      "comments": [
+        {
+          "body": "Sounds like you have the job but until there's a start date and onboarding starts you are in limbo.\n\nI would say if there's another way to get some money on in the mean time definitely do it. They seem to be slow.",
+          "score": 3
+        },
+        {
+          "body": "You in there just be patient",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Filling out a Sterling background check application. What should I worry about?",
+      "body": "I've lived in a number of addresses and had a number of jobs in the past couple of years, some of these being halfway houses, and I don't want to take any chances with what I put. Should I only put addresses that are on my W2s? Or any address that has an employment history? Some of these locations have been halfway houses, should I put those?\n\nAnd another question. I misrepresented my work history to the person interviewing me, but I was then told the background check is done through a third party and that they pass or fail the background check based on their own criteria. Will fibbing slightly on my interview have a negative impact on this? Will this third party company simply send back my background check, only for somebody else in the company to review it?\n\n  \nI really don't want to take chances with this. I've been going through mental health and alcohol abuse issues for a couple of years now, and have finally found medication and therapy and would really like this job as it would be a great help in finally getting my life stable. The company in question is Chewy, if that is relevant",
+      "subreddit": "jobs",
+      "score": 2,
+      "url": "https://reddit.com/r/jobs/comments/1fuifjb/filling_out_a_sterling_background_check/",
+      "comments": [
+        {
+          "body": "Nothing.  I passed one of their background checks before - I never should have passed.  \n\nI expected to entirely fail the check, but the research I did online pointed to glaring incompetence in their checks.  So I rolled the dice.  \n\nI got the job.",
+          "score": 3
+        },
+        {
+          "body": "For work history, it depends on what you told them.\n\nIf you said you worked someone where you didn't or that you worked wah longer than you did and they do an employment verification as part of the check, that might be a problem.\n\nIf you just lied about having a skill or certain duties you never did, that should be fine.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Work at Square or Chewy?",
+      "body": "Received two offers. Same cash compensation for the same role. If you ignore the recent short-seller report on Square and compare these companies, which would you work for and why?",
+      "subreddit": "jobs",
+      "score": 2,
+      "url": "https://reddit.com/r/jobs/comments/121la2d/work_at_square_or_chewy/",
+      "comments": [
+        {
+          "body": "Hello, thank you for posting to r/Jobs!\n\nWe just wanted to let you know that we have a new [discord server, come join the chat!](https://discord.gg/TY6ErXV)\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/jobs) if you have any questions or concerns.*",
+          "score": 1
+        },
+        {
+          "body": "Pets are a recession-proof industry. I read a recent report that people actually cut back on THEIR OWN food to accommodate pet purchases during inflationary periods. Chewy is also know for being a very good employer. If they're still based in Florida, you won't pay any income taxes.\n\n Square is also a good company but I don't know as much about it. Might make sense to investigate on the Blind or Fishbowl apps.",
+          "score": 6
+        },
+        {
+          "body": "I’d go square. I personally would hold it in a higher regard while reviewing resumes.",
+          "score": 5
+        },
+        {
+          "body": "Oh for sure chewy because I love them as a company and they send my cats birthday cards every year lol",
+          "score": 3
+        },
+        {
+          "body": "I’d pick Chewy, largely because I’ve met someone in a similar role who really enjoyed their gig there.",
+          "score": 2
+        },
+        {
+          "body": "Chewy",
+          "score": 2
+        },
+        {
+          "body": "Chewy. Everyone I’ve met who works there genuinely enjoys working for that company. Happiness is priceless.",
+          "score": 2
+        },
+        {
+          "body": "I’m currently interviewing. Just browsing the comments",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "still on step one of my job search: even my previous employers don’t want me back, although i left on good terms.",
+      "body": "i was one of the employees that were recently affected by the mass lay-offs at Marcus/Goldman Sachs. i was a chat agent there for a year, and the same week i was expecting my one year raise, i was let go via zoom call. i’ve been receiving severance since January, and have been job hunting like crazy. i was doing about 200+ applications a week, but due to so many rejections, getting ghosted by employers, getting bombarded with 3rd-party recruiters and scam jobs(??), i’ve just lost the momentum.\n\nbefore i took this last job, i was working for Chewy for the past 3 years. i worked in office until Covid hit and worked from home for another year until i got a better job offer. Marcus was also WFM, a $3.00 raise and just something new for me to learn. turns out, Marcus is a pretty sleazy company to work for, but i digress. \n\ni applied for Chewy this past week and got the interview after passing my assessment. from my knowledge, once you get the interview, you basically get the job at Chewy. they’re a very open opportunity job. but i assume since the job market is in the toilet right now, that’s just not the case anymore. \n\npretty much, im just pretty bummed that i didn’t get selected. does anyone else have experience with trying to go back to a previous job out of, dare i say, desperation, and still not get selected? is every job genuinely just hard-balling applicants right now? i really don’t wanna go back to serving lol",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/12l1akf/still_on_step_one_of_my_job_search_even_my/",
+      "comments": []
+    },
+    {
+      "title": "Data Scientist II interview at Chewy",
+      "body": "**Hello,**  \nI have an upcoming interview with a Hiring Manager for a Data Scientist II role at Chewy. The recruiter mentioned that the interview would include both technical and behavioural questions but didn’t specify which technical areas would be emphasized. If anyone has experience with interviews at Chewy, I’d greatly appreciate any insights into the process and the types of questions I might encounter.\n\nThanks in advance!",
+      "subreddit": "interviews",
+      "score": 3,
+      "url": "https://reddit.com/r/interviews/comments/1hug5xq/data_scientist_ii_interview_at_chewy/",
+      "comments": [
+        {
+          "body": "Hey I just had my interview for data scientist II position at chewy. I can definitely help you. For me it was just conversational with focus on basic ML questions, nothing tough. They asked me to explain SQL and python questions verbally but nothing like leetcode. And the round was 4/10 looking at the market condition right now, tbh I was surprised how moderate it was. You'll get it through, dw just focus on ML and don't stress about coding questions.",
+          "score": 1
+        },
+        {
+          "body": "Hey OP, don't worry if you're feeling uncertain about what to expect - it's totally normal! For Data Scientist II roles like this one, they usually dive deep into technical skills like machine learning, data visualization, and SQL. However, they might also throw in some behavioral questions to gauge your problem-solving experience and communication style.\n\nOne thing that helped me when I was prepping for similar interviews is to make sure you're familiar with their product and company - Chewy has a ton of interesting data science applications, so take some time to dig in and learn about it. You can also brush up on common interview questions like \"What's the most complex problem you've faced\" or \"How would you explain a concept to a non-technical colleague.\" And yeah, I used this AI tool that listens to interview questions and provides suggested responses - it helped me feel more confident in my answers.\n\nIf you're interested, I can share it with you. Remember, the most important thing is to be yourself and show them your passion for data science!",
+          "score": -1
+        }
+      ]
+    },
+    {
+      "title": "Got ghosted after being hired?",
+      "body": "So I spent about 4 months at an office job that was ruining my mental health, so a few weeks ago I started my search for a new job because I couldn’t take it anymore. I interviewed for a warehouse position at Chewy nine days ago, and they hired me on the spot- did a background check, drug test, and took a photo for my badge. They said assuming the background check and drug test came back clean, I would get a text within a few days with shift options and a start date. I passed the background check and got my copy via email the same day. I was planning to stay at my office job until I got a confirmed start date at the warehouse, but the next day something happened at work and I quit on the spot, knowing that it was highly unlikely anything would come up on my background check or drug test. I usually would have given two weeks notice, but several people who had resigned with two weeks notice prior to me had been told to leave at the end of their shift, so I didn’t see the point. \n\nNow, however, it’s been a week and a half since my interview, and at about the week mark I started to sweat it. Yesterday I got an email with the subject line “You’re invited to interview at Chewy!” Of course, I was very confused, and upon opening the email it was almost the same as my first invitation to interview, but it now basically said “due to a large amount of applicants, we currently do not have any open positions, but keep an eye on your email in the coming weeks for when positions do become available.” Is that a rejection? I haven’t got results of my drug test back yet, but I don’t see any reason I should’ve failed, unless my prescription ADHD meds set it off. I tried calling the recruiting number for this location, and all times I’ve been sent to voicemail after two rings. I left a voicemail this morning, and emailed them yesterday, but have gotten no response. Is this their way of telling me they no longer want to offer me the position? Or has anyone else had this experience with Chewy?",
+      "subreddit": "jobs",
+      "score": 8,
+      "url": "https://reddit.com/r/jobs/comments/ysosa5/got_ghosted_after_being_hired/",
+      "comments": [
+        {
+          "body": "Hello, thank you for posting to r/Jobs!\n\nWe just wanted to let you know that we have a new [discord server, come join the chat!](https://discord.gg/TY6ErXV)\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/jobs) if you have any questions or concerns.*",
+          "score": 1
+        },
+        {
+          "body": "A lot of employers right now are wasting people's time accepting applications, interviewing and even sending offers out when they're not 100% sure they want to hire right now or can afford to hire right now, and a lot of candidates are getting offers retracted. It sounds to me like it might not have anything to do with a background check--they may have decided they can't/don't want to hire anyone right now for the position you got and haven't told you. Some recruiters and companies will ignore you and ghost you as opposed to just informing you of what's happening.",
+          "score": 25
+        },
+        {
+          "body": "Nothing is final till you've signed the contract. Looks like they proper hood winked you. It's fk'd but many companies are playing these kinda clown games. Hopefully they get back to you but I would be looking at other opportunities",
+          "score": 5
+        },
+        {
+          "body": "Usually in my experience with warehouse jobs, they are usually 0 contract hours, so it could be that they just don’t have any shifts right now to give you, I’d say you’ll have to wait another week or so, or if you need more stability to apply for another job! that or as someone else mentioned they retracted the offer but just haven’t had the decency to email you about it. I very much doubt it has anything to do with you :)",
+          "score": 2
+        },
+        {
+          "body": "Follow up with them, you literally had your picture taken.\n\nIt can’t hurt to follow up",
+          "score": 1
+        },
+        {
+          "body": "You said “Highly unlikely” that anything would come up. Certainly implies that you have things…",
+          "score": -5
+        }
+      ]
+    },
+    {
+      "title": "Interview Questions for Chewy?",
+      "body": "I have an interview for Chewy today and was just wondering if anyone here knows what kind of questions they'll ask or how the interview process works? It's for a Customer Service role. I'm so excited and I REALLY don't want to mess it up",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1mo9s4s/interview_questions_for_chewy/",
+      "comments": [
+        {
+          "body": "How was it ?! \nMy boyfriend just did his  online assessment so ofc waiting to see if he gets an interview.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Chewy SDE II Initial phone Interview Tips",
+      "body": "**Hi everyone!**\n\nI have my initial phone interview for a **SDE II** position at Chewy coming up soon. I'm super excited about this opportunity and want to make sure I'm well-prepared!\n\nIf anyone has gone through the interview process at Chewy recently or has experience with their SDE II interviews, I’d really appreciate your insights on the following:\n\n1. **What to expect during the initial phone interview**: Will it focus more on technical questions, behavioral questions, or both?\n2. **Key topics to prepare for**: Are there specific areas (e.g., data structures, algorithms, system design) that Chewy tends to emphasize?\n3. **Next rounds**: What should I expect in the later stages of the interview process?\n\nAny tips, experiences, or advice would be incredibly helpful! Thank you in advance for your time and guidance.",
+      "subreddit": "interviews",
+      "score": 2,
+      "url": "https://reddit.com/r/interviews/comments/1gxhyr6/chewy_sde_ii_initial_phone_interview_tips/",
+      "comments": [
+        {
+          "body": "They'll likely assess your coding skills with some basic algorithm problems, so brush up on data structures and common algorithms. They may also ask about your experience with system design and scalability, given it's a senior role. Be prepared to discuss your past projects and how you've contributed to team success.\n\nAs for the later stages, Chewy typically follows up with a more in-depth technical interview and possibly a system design round. You might face a coding challenge or a take-home assignment. Prepare to dive deep into your problem-solving approach and be ready to explain your thought process clearly. If you're worried about any part of the process, you might find [AI mock interview](http://interviews.chat) helpful. I'm on the team that created it, and it's designed to help you navigate tricky interview questions and boost your confidence.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Went to trial at a job. Immediately got called a bum.",
+      "body": "\nVent.\nThis happened about Nov-Dec 2024, lowk traumatized ever since. \n\nTo set the scene, I was 19 at the time\nThere's 2 owners, married couple. I'll call them Carly and Cam. \nAlso one worker I'll call Alex. \n\nI saw an awesome baking gig that was local, good hours and good pay. Had never written up a cover letter and fixed my CV faster. Was excited when I heard back and got an interview. \nSat down, they asked me was I studying or had a job. I was fresh out of uni drop out and as I told them this, \"oh so you're a bum\". Loudly.\nInfront of customers. Infront of Alex. I felt insecure and uncomfortable immediately but I thought it would have been a once off and then I could see if the job was good the next day for the trial. Then comments about if I wasn't competent I should just work at a supermarket. Then comments about previous workers, how horrible they were and that they were incompetent, naming and shaming them. I left feeling stink but hoping this wasn't the whole experience. \n\nNext day at 6am, I was shadowing Carly the whole day. Not once did I get told I was going too slow, being messy or anything. Cam however did have a problem, I did dishes too slow. How did he tell me this? By forcefully taking the dish cloth from my hand and banging the dishes around, telling me I'm being paid to do things HIS way. Cutting my finger a little with a knife he threw into the bowl. Alex pulled me aside afterwards and told me Cam had tone problems, not to take it personally. I just wanted to go home at this point.\n\nBut wait. There's moree.\nThey told me to make something SIMPLE in my interview, not show stopping. I made a brownie, simple and quick. Who doesn't like a nice chewy chocolate brownie?, they liked it and at the end of the trial I was given an evaluation of the day.\nI was too slow. I was messy. Didn't know my way around THEIR kitchen. If those comments alone didn't give me the idea they weren't so keen on me, they decided to start belittling my cooking experience which I had already said was minimal but not toddler level. I took a 6 month cooking course in 2023 covering basics and had cooked my whole life for my family, friends and events. I had learnt about pasta for 3 weeks, Carly took the opportunity to say \"I did a class for 2 days and I know more than you\". All these comments were loud enough for customers to hear, I was humiliated. I felt stupid for even applying. \n\nMy sister and partner picked me up and I Just broke down. \nI'm not sure if I'm gaslighted myself into thinking I overreacted, I also very obviously have no back bone so please I already am aware lol \nI'd just like other opinions ",
+      "subreddit": "interviews",
+      "score": 9,
+      "url": "https://reddit.com/r/interviews/comments/1knc8fd/went_to_trial_at_a_job_immediately_got_called_a/",
+      "comments": [
+        {
+          "body": "You seriously dodged a bullet here. If they were this bad during the interview/trial just think how bad they would be to work for! ",
+          "score": 3
+        },
+        {
+          "body": "There isn't much advice to give here except moving on from this employer. You are going to run into very shitty employers from time to time and its how it is in today's job market. Move on, you dodged a bullet here. It does not matter if you gaslighted. I would not go back to this place or even touch it with a stick.",
+          "score": 2
+        },
+        {
+          "body": "I hope you’ve taken more time to think about this and have come to the conclusion that you should be proud of yourself for knowing your worth and noping right out of there!",
+          "score": 2
+        },
+        {
+          "body": "You didn’t overreact—being disrespected and humiliated like that isn’t part of any “trial,” it’s toxic, and walking away was the strongest thing you could’ve done.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Chewy interview",
+      "body": "I have been contacted for a screening call and they said I will have an assessment and then 4 rounds of interview in a single day.I felt oh yaaa it should be done in a week and the cherry on the cake is they are ready for sponsorship in this market.The recruiter never got back no reply ghosted me.And I really like the role and it's close to my place nice pay. I don't know what to do.I have accepted an offer which pays way less.",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1e3322f/chewy_interview/",
+      "comments": [
+        {
+          "body": "Can you share your HR round experience?",
+          "score": 1
+        },
+        {
+          "body": "“I received a call on Friday regarding my interview scheduling and shared my availability, but I haven’t received a response yet. I also followed up by email, but haven’t heard back. Could you let me know how the process usually",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

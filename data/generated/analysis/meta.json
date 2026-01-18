@@ -1,0 +1,58 @@
+{
+  "company": "meta",
+  "common_questions": [
+    "When did Blind turn into Reddit?",
+    "you need to gain some skills before you can get a living wage. Have you tried moving out into   the farthest end of North Dakota and working on an oil rig for two years?",
+    "What does a Creative Writer at Meta even mean?",
+    "I'm waiting for the interview. When will you call me? Or is there a link?",
+    "how would you solve the same problem without parent pointers but with the root node instead?",
+    "explain the naive solution (e",
+    "explain why it's bad, then work up to optimal solution",
+    "explain time/space complexity, offer to write tests for edge cases, or move on to the n",
+    "explained the most optimal approach to building the adjacency list but didn't have time",
+    "Explaining my terrible labels:",
+    "Why do you want to work somewhere that treats you horribly before they even hire you?",
+    "you had later? You had 2 system design interviews? That seems unusual as well",
+    "on navigating through uncertainty (15 minutes)",
+    "was based on BFS, but with one rabbit hole trap if you don't understand the graph well",
+    "was based on topological sort + DP"
+  ],
+  "themes": [
+    "System design emphasis",
+    "Heavy focus on coding",
+    "Behavioral interviews important",
+    "Culture fit matters",
+    "Technical deep dive",
+    "Case study format",
+    "Multiple interview rounds",
+    "Take-home assignment"
+  ],
+  "interview_tips": [
+    "I could give for the sake of mental health it is this",
+    "this sequence of processing coding problems as it really helped me:",
+    "or a structured set of expectations for what interviewers expect you to be able to accomplish? I just don't know where to start",
+    "interviewer agrees with your approach before coding",
+    "is don’t try to get pushed up too soon",
+    "on how to navigate an tech downturn",
+    "you aren't so rusty that you lose confidence",
+    "If your company offers VRIF (Voluntary Reduction in Force), *consider* taking it",
+    "is that in a prolonged recession, severance packages get subsequently less generous with latter rounds of layoffs, as the situation becomes more dire",
+    "to create and exploit situations to show that off"
+  ],
+  "red_flags": [
+    "lose imposter syndrome folks) and had an amazing manager, and I actually felt pretty confident in the work I was doing for once",
+    "stay somewhere out of loyalty or because you like your coworkers",
+    "be afraid to switch career paths/specializations if you'll be happier or more interested in the work",
+    "take the first offer, even if it's more than you expected",
+    "feel comfortable, pay a negotiating service like Levels to help you",
+    "stop learning and playing around with new technology",
+    "let imposter syndrome hold you back",
+    "know much about what you would use for system design outside the company"
+  ],
+  "process_insights": {
+    "typical_rounds": "4 rounds typical",
+    "timeline": "2-4 weeks",
+    "format": "Mix of phone screen, technical, behavioral, on-site, virtual"
+  },
+  "source_count": 73
+}

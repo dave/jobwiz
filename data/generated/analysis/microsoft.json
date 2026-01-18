@@ -1,0 +1,58 @@
+{
+  "company": "microsoft",
+  "common_questions": [
+    "will i ever make it to GOOGLE if i don't go to Stanford!?",
+    "I was looking at the recent announcement from [YOUR AMAZING COMPANY], how do you feel about it?",
+    "I saw that blog post your team did on BigQuery, what were some of the challenges you guys faced in refactoring your pipelines?",
+    "Do you realize this is a software interview?",
+    "Good, that's what we're looking for.  Now you realize if you get this position, you have to be able to program?",
+    "to shave the beard?",
+    "explain how, specifically, it's causing a problem that your advice aims to solve?",
+    "explained my approach and then he wanted me to solve it using a stack DFS instead of re",
+    "explaining my thought process and when I said something about popping a node from the s",
+    "Walk me through the development workflow/process: do you guys do scrum or standups?",
+    "tell me about the project you're most proud of?",
+    "explain what do you mean by manage assets?",
+    "explain that assets can be anything from physical computers, to tablets, phones, etc",
+    "explain that in Active Directory user accounts are classified as objects, and while the",
+    "explain concisely that we modify open source simulators to do our research"
+  ],
+  "themes": [
+    "System design emphasis",
+    "Heavy focus on coding",
+    "Behavioral interviews important",
+    "Culture fit matters",
+    "Technical deep dive",
+    "Multiple interview rounds",
+    "Take-home assignment",
+    "Whiteboard coding"
+  ],
+  "interview_tips": [
+    "using a dictionary is the most common way to get from a brute force approach to something more clever",
+    "or even coaching, you can try emailing me at suryc011 [at] gmail [dot] com",
+    "to schedule 4+ weeks of vacation well ahead of time",
+    "you get the time off ahead of time, and then schedule your vacation before paying for anything",
+    "that you know what you're doing",
+    "I give, while tailored to Microsoft, is extremely similar to what you'll hear for other large companies such as Google, Amazon, and Apple (among other",
+    "about what I should be doing over the next three years with regards to one day getting an internship or some position at a company such as Microsoft?",
+    "you find a good way to have it propped up and STABLE",
+    "it works before the interview",
+    "you have your phone elevated in a way so it looks like you could be on a computer"
+  ],
+  "red_flags": [
+    "just showed your professionalism",
+    "know LaTeX? Neither do I, and I got by just fine, and, remember, I'm a shithead",
+    "have Linkedin premium",
+    "want more than a paragraph",
+    "get any money out of it, people like helping other people",
+    "ever hear back (rarely) from applying to jobs \"normally",
+    "apply unless they explicitly tell you to do so",
+    "really had much luck with them"
+  ],
+  "process_insights": {
+    "typical_rounds": "3 rounds typical",
+    "timeline": "2 weeks",
+    "format": "Mix of phone screen, technical, behavioral, on-site, virtual"
+  },
+  "source_count": 64
+}

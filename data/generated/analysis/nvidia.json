@@ -1,0 +1,58 @@
+{
+  "company": "nvidia",
+  "common_questions": [
+    "why not do this as a career?",
+    "leetcode - just want to get a better idea, is there a higher chance of getting asked leetcode, or more specific fundamental stuff?",
+    "the recruiter or checked out the JD in detail?",
+    "What is your comp package?",
+    "explain the function stack",
+    "explain what happens when a host tries to send a udp packet to another host on the othe",
+    "explain your thought process clearly, and consider scalability and performance implicat",
+    "explain different technologies and concepts, with some relatively easy LC questions as",
+    "tell me about a time…” sessions so I didn’t ramble when asked about stakeholder conflict or c",
+    "how would you build X” scenarios",
+    "explaining clearly",
+    "explaining your thinking out loud",
+    "explaining complex technical concepts clearly since communication skills matter as much",
+    "describe Linux like the person in the video",
+    "explaining mutex vs spinlock at a high level"
+  ],
+  "themes": [
+    "System design emphasis",
+    "Heavy focus on coding",
+    "Behavioral interviews important",
+    "Culture fit matters",
+    "Technical deep dive",
+    "Multiple interview rounds",
+    "Take-home assignment",
+    "Whiteboard coding"
+  ],
+  "interview_tips": [
+    "you draw from a wide variety of sources and hear others' testimonials when planning for interviews",
+    "you're prepared for *system design* questions (e",
+    "reading *Clean Code* by Robert Cecil Martin",
+    "trying to get into some Open Source communities, contributing and developing as a hobby",
+    "EPI (elements of programming interviews) if you have the spare funds / time",
+    "you know first principles around mutexes/critical sections in general",
+    "from people who’ve been through similar high-pressure interviews, where the technical bar and expectations are high",
+    "anyone has on what I'll be asked? I have a lot of experience working in Cloud, so I feel very confident/excited for these topics",
+    "- Nvidia Senior Data Engineer",
+    "for prep in general? Do they ask Leetcode questions? Thank you for any suggestions!"
+  ],
+  "red_flags": [
+    "just come up with the algorithm",
+    "do too many problems without making sure you remember how to do ones you did a while back",
+    "truly understand the problems you've done and rather are simply memorizing the solutions",
+    "let a weak resume stop you from shooting your shot",
+    "got asked about these trivial roles",
+    "have my sights strictly on CS for a career but it is the only option I'm considering that I've thoroughly enjoyed",
+    "touch what an actual software job is like",
+    "know how many applications I have sent out, maybe 700+"
+  ],
+  "process_insights": {
+    "typical_rounds": "3 rounds typical",
+    "timeline": "2-4 weeks",
+    "format": "Mix of phone screen, technical, behavioral, on-site, virtual"
+  },
+  "source_count": 54
+}

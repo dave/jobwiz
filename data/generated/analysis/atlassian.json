@@ -1,0 +1,54 @@
+{
+  "company": "atlassian",
+  "common_questions": [
+    "What's your biggest weakness?",
+    "Why can't this happen to me?",
+    "and how many? Also, do you have any recommended sources for preparation?",
+    "describe how you would implement the chat feature",
+    "describe both the message data handling and the UI chat window results handling",
+    "Describe distributed systems and microservice architecture and have you worked with them?",
+    "Explain how to persist data in a react app, both within the same session, and persistin",
+    "describe how you would design a system that takes this data and outputs it to a UI dashb",
+    "Describe the instances of if the medical device is offline (no internet) what happens to",
+    "describe how you would develop a \"mini jira\", tasks with ID number, progress state (todo",
+    "how would you get access keys and secret keys?",
+    "explained it to him multiple times but he seemed not to get it",
+    "why do you think you worth more than an accountant or constructor?"
+  ],
+  "themes": [
+    "System design emphasis",
+    "Heavy focus on coding",
+    "Behavioral interviews important",
+    "Culture fit matters",
+    "Multiple interview rounds",
+    "Virtual interviews"
+  ],
+  "interview_tips": [
+    "your results may vary",
+    "making this a priority since it's something under your control and you can use it to your advantage",
+    "you ask the recruiter about this",
+    "ahead: Know how to **effectively** talk about your weaknesses and past failures",
+    "trying to talk about your weaknesses as personal concerns about the company and how you see yourself performing there",
+    "once I realized that I just got free \"architectural\" review",
+    "would be if you’re struggling to get responses from the big fish, reach out and apply for the smaller ones",
+    "every single student needs to hear",
+    "you negoitate to P50 level or match it if you are desperately looking for a job",
+    "to get more traction? TIA"
+  ],
+  "red_flags": [
+    "worry - I actually enjoyed most of it)",
+    "just handle sub-contractor jobs",
+    "act like it**! If you have any code on GitHub, any websites up online, or any apps available for download you do have professional experience",
+    "the topic was addressed",
+    "see the bad moments in their lives",
+    "think it should be allowed as a post",
+    "even know about because its not FAANG",
+    "live in a big massive tech hub, and I'm not a top-anything for my skills"
+  ],
+  "process_insights": {
+    "typical_rounds": "3 rounds typical",
+    "timeline": "2-4 weeks",
+    "format": "Mix of phone screen, technical, behavioral, on-site, virtual"
+  },
+  "source_count": 29
+}

@@ -1,0 +1,539 @@
+{
+  "company": "citadel",
+  "post_count": 24,
+  "exported_at": "2026-01-18T17:44:53.267Z",
+  "posts": [
+    {
+      "title": "Citadel Software Engineer new grad first interview, what to expect?",
+      "body": "I have never interviewed for Citadel, Two Sigma, etc... so I have no idea what to expect. The recruiter said it will be 45 minutes, but will there be math/stats problems other than programming? What kind of programming questions should I expect? Thanks in advance.",
+      "subreddit": "cscareerquestions",
+      "score": 16,
+      "url": "https://reddit.com/r/cscareerquestions/comments/70q3my/citadel_software_engineer_new_grad_first/",
+      "comments": [
+        {
+          "body": "I don't have any experience personally, but someone was saying that for Citadel they asked a lot of regression/stat questions and some ML questions too.",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "title": "Citadel FTAP intern interview dress code?",
+      "body": "I have an interview for the FTAP internship with Citadel tomorrow, what's the appropriate dress? For most tech interviews I've just been wearing a button down, a sweater, and some chinos, but I'm wondering if I need to put on a blazer or something for Citadel. Thanks!",
+      "subreddit": "cscareerquestions",
+      "score": 1,
+      "url": "https://reddit.com/r/cscareerquestions/comments/2vmuaf/citadel_ftap_intern_interview_dress_code/",
+      "comments": [
+        {
+          "body": "When I interviewed with the ITAP program, I wore a suit. Citadel is a finance company so it would be good for you to wear a suit. If you wore what you described in the OP, you would likely be at a similar level of dressiness to the interviewer, so that's not the best.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Citadel SWE Intern Superday",
+      "body": "Hi everyone, I have an upcoming Round 2 interview round for an SWE Intern position at Citadel. 3 back to back technical interviews.\n\nCan anyone give me an idea of what these interviews look like? From my understanding, it’ll be mostly Leetcode focus, but they do ask other technical questions (like OS, C++, etc.)?\n\nAlso, do these interviews have a behavioral component as well?\n\nThanks in advance!",
+      "subreddit": "cscareerquestions",
+      "score": 2,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1pbpxu6/citadel_swe_intern_superday/",
+      "comments": [
+        {
+          "body": "You could expect some system design questions as well, or high level stuff. Have you looked on glassdoor on similar questions? I interviewed with similar hedge funds and sometimes I got hit by exactly the questions leaked on glassdoor",
+          "score": 2
+        },
+        {
+          "body": "From my Citadel round last fall, the three techs felt like fast LC mediums with sharp C++ follow ups. Expect arrays, graphs, maybe a bit of DP, then questions on STL complexity, iterators, memory ownership, and a quick dip into OS basics like processes vs threads and scheduling. Behavioral was light, more like why Citadel and a challenge story. What helped me was doing 30 to 40 minute timed mocks with Beyz coding assistant using prompts from the IQB interview question bank, then rereading my code for edge cases and off by one errors. I also prepped three STAR stories and kept answers around 90 seconds. You’ll be fine if you stay crisp and narrate tradeoffs.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Is citadel legit?",
+      "body": "I got asked to do an interview there and I've never heard of it before and just googling it makes it seem legit. Have any of y'all had experience there? What should I expect for the interview?",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1ok70tt/is_citadel_legit/",
+      "comments": [
+        {
+          "body": "nice ragebait lmaoo. Truly professional",
+          "score": 18
+        },
+        {
+          "body": "someone who posts on /r/wallstreetbets asking if Citadel is legit\n  \nahahahahahaha nice shitpost",
+          "score": 11
+        },
+        {
+          "body": "Of course they’re legit. Their interview process has a reputation of being difficult and they pay well. Their work culture has a bad reputation, and indeed I know someone who worked there and didn’t love it.",
+          "score": 3
+        },
+        {
+          "body": "Pretty difficult interview. I passed the online assessment but failed the next round when I applied a few years ago. I think there was a team matching process to go through if I had made it further.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "What Market Comp Means",
+      "body": "I've been pretty active on both sides of the hiring/interviewing gauntlet for the last few months, and just wanted to share the following thoughts on what I believe are some huge misconceptions around compensation (that candidates, recruiters, companies, and other have).\n\n1. Engineers are not commodities.  We are non-fungible and there are HUGE differences in the amount of value we can bring, even when you try to classify us into strata like junior, middle, senior, staff, etc.  Engineers are more like real estate.  There can be huge differences in pricing for a 1500 sqft abode, depending on factors like location, build, amenities, etc.\n2. Not every company can make the same use of a talented engineer.  Just because you are worth $500k at Citadel does not mean Walgreens can realistically get as much value out of you.\n\nThese 2 realities result in interesting dynamics, where one company may pay their junior engineers more than another company on the same street pays their principal engineers.  Both may be acting rationally.  It also results in some interesting dynamics where a junior engineer may thumb their nose at opportunities that may be a huge step up in title and responsibilities, and they are acting rationally too.\n\n3. The above should make you question the concept of \"market pay\".  It is not a meaningful measure.  However, if you want to use it, do not use job posting data to figure out \"market pay\".  A job posting is an \\*unfilled\\* role.  There are 2 good sources of \"market pay\".  1. Current pay of employed engineers in a similar role and setting. and 2. Recent offers that are accepted by engineers for a similar role and setting.  The latter is a better/more effective measure for evaluating a new role as a candidate / determining how to budget for a role you are trying to hire for.",
+      "subreddit": "cscareerquestions",
+      "score": 28,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1p914ke/what_market_comp_means/",
+      "comments": [
+        {
+          "body": "Point 2 is the most important. Probably don’t even need all the other words in the post.",
+          "score": 18
+        },
+        {
+          "body": "I'm not sure what engineers are or aren't, but when you run a big company you want engineers to be as close to fungible assets as possible. You can spin up a project with a set of assumptions, staff it, deliver a result, and if it works pour more resources on, and if not, re-assign the team and maybe try again with a different set of assumptions.\n\nThat's at least how I understand big tech development. You shouldn't set your roots in a project and be intractable to change like an oak tree too close to the highway. Be light, be agile, learn fast, and most fast.",
+          "score": 8
+        },
+        {
+          "body": "I think the truth lies somewhere in the middle. \n\nWhat most people think of as a single market for engineering talent is actually 3 markets (see [the trimodal nature of tech compensation](https://newsletter.pragmaticengineer.com/p/trimodal):\n\n* Tier 3: Top scaleups and hedge funds\n* Tier 2: Big Tech\n* Tier 1: Everyone else\n\nWithin each market, the different levels of engineer are pretty fudgible. Between markets, the skill level and corresponding compensation differ greatly. A senior in a Tier 1 company would likely be classified as a mid-level in a Tier 2 company or junior in a Tier 3 company.",
+          "score": 2
+        },
+        {
+          "body": "How do I get a job at citadel lol?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Switching to Hedge funds as SWE",
+      "body": "Hi, I've seen a lot of posts regarding getting into hedge funds as SWE but none of them seemed catered to someone with a normal background. Is it possible to get into companies like HRT, Citadel, 2 Sigma when you went to a normal school, and are a mid level SWE at a mid sized company (not trading related). I know to focus on problem solving and low latency programming in languages like c++ to prepare for interviews for these companies but is it even possible to land an interview with a regular non FAANG background? If no, what would it take? do they offer any additional pathways like competitions and stuff to get in? does going through head hunters actually work for positions in these companies?",
+      "subreddit": "cscareerquestions",
+      "score": 3,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1mskasf/switching_to_hedge_funds_as_swe/",
+      "comments": [
+        {
+          "body": "Why don’t you give it a try? There are an army of head hunters who recruit for places like citadel.\n\nNot saying you’ll definitely get an interview, but you’d know for sure at least whether it’s possible.",
+          "score": 6
+        },
+        {
+          "body": "I work at one of / similar company to the ones you listed. Pretty much every single lateral hire is from top tech companies or from another trading firm.",
+          "score": 7
+        },
+        {
+          "body": "I’ve been working at Microsoft for a few years just accepted a role at a hedge fund (DE Shaw). Almost everyone I met there is from an Ivy League or big tech. I came from a very mid university but at Microsoft I work within the finance space so maybe that helped too",
+          "score": 3
+        },
+        {
+          "body": "Depends a bit on what exactly you want to do at a fund.\n\nThey have their own developers who... develop software and/or infra for them. The work is pretty much the exact same as any other SWE work. \n\nBut there is also quant and other trading work there too. And it's not just limited to hedge funds.\n\nThat's a much more competitive field where you either know someone inside or have an easy way of showing you have a lot of brains. Either way, they will look at you with one question in mind, is this person going to make us a metric shit ton of money?",
+          "score": 2
+        },
+        {
+          "body": "&gt; normal school, and are a mid level SWE at a mid sized company (not trading related).... but is it even possible to land an interview with a regular non FAANG background?\n\nIt's certainly possible but not very realistic from that background. You'll need a few stepping stones to get there from where you are now.\n\n&gt; what would it take?\n\nGo work at the upper tier of big tech/FAANG companies for a few years and try to hit senior level. Upper tier meaning companies like Meta, Google, and Netflix; not Amazon or Microsoft.\n\nI know someone that ended up at HRT that didn't even have a degree. They had 15 YOE between Google and Meta as an SRE and made it to L7/Sr. Staff before being contacted by an in-house recruiter.",
+          "score": 4
+        },
+        {
+          "body": "I have a pretty normal swe background, no FAANG, mostly frontend. I worked at a fintech for a year in Chicago pre covid and citadel started trying to recruit me, take that for whatever it’s worth.",
+          "score": 3
+        },
+        {
+          "body": "I heard it's very stressful and hard to survive at a hedge fund. Pay is great, but next to no job security",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "How to progress my career and deal with comparing myself to others if my new grad job isn't in big tech?",
+      "body": "This might sound like a silly question: I graduated 2 years ago with a degree in Software engineering, but it wasn't a top engineering school in Canada. I also didn't get a FAANG internship during my studies (But I worked a 16 month internship at a big named non-tech company)\n\nI love coding on my own time and have a handful of portfolio projects in C++ game/engine development and web dev (I focus on this less, since I'm now doing it at my job) which helped me land my first job.\n\nI've been working at my current company for a year now, and have been doing full stack work. It's a tiny company, and the pay is nothing to write home about (I'm living with my dad since I can't afford rent in my city) I'm learning a lot though, and there's many opportunities to lead feature initiatives within the company which is nice for a first job. I can recognize there's no room for growth here beyond that though.\n\nMy issue is not really knowing how to keep progressing my career. I keep seeing TikTok/Reels of the thousandth ivy league student happy about their internship/return offer to Meta or Citadel or something. These posts saturate social media to the point where it seems like the only paths to wealth are: Get a big tech internship while in school and land a return offer, make a 7 figure startup, or be banished to irrelevancy.\n\nI'm interested in those of you that were (are) in my shoes; what would you recommend someone like me do to keep progressing their career and land a reputable job in some big tech company? Is it just a matter of experience and interview prep, or should I be doing more like getting a masters?  And does anyone have good advice to help with the anxiety of comparing yourself to those seemingly more successful/younger than you?\n\nThank you!",
+      "subreddit": "cscareerquestions",
+      "score": 35,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1lmcg9i/how_to_progress_my_career_and_deal_with_comparing/",
+      "comments": [
+        {
+          "body": "Stop watching those TikToks, they're giving you a warped view of reality. A lot of successful engineers don't start at FAANG, and plenty of people who do start there end up leaving for smaller companies anyway.\n\nYou're in a pretty solid position. Full stack experience at a small company where you're leading features? That's valuable real-world experience that beats a lot of what new grads get at big companies where they might spend 6 months just learning internal tools.\n\nFor getting into big tech eventually, it really does come down to two main things: 1) having solid fundamentals, and 2) being able to communicate your experience well in interviews. Your portfolio projects + the feature leadership experience you mentioned gives you good stories to tell.\n\nDon't bother with a masters unless you want to go into research or very specialized areas. The time you'd spend in school could be better used gaining more experience and prepping for interviews.\n\nPractical next steps: Start doing leetcode regularly (like 15-30 min daily), practice explaining your projects clearly, and start applying to mid-size companies as stepping stones. Companies like Shopify, Slack, Stripe etc often have good engineering cultures and pay well but aren't as competitive as the absolute top tier.\n\nFor the behavioral side of interviews - this is where a lot of engineers struggle. You need to get good at telling stories about your work using frameworks like STAR. That's actually why I built Score My Interview, because so many talented engineers miss out on opportunities just because they can't evaluate and communicate their impact clearly.\n\nThe comparison thing is tough but remember - social media shows highlight reels, not reality. Focus on your own growth trajectory instead of comparing timelines with others.",
+          "score": 9
+        },
+        {
+          "body": "&gt; deal with comparing myself to others\n\nTry comparing your SWE job to the retail jobs the rest of the people you graduated with are currently working.\n\nMight help you put things into perspective.",
+          "score": 3
+        },
+        {
+          "body": "[removed]",
+          "score": 3
+        },
+        {
+          "body": "First accept that you can build a great career outside of big tech. It may not be the most exciting work, but it pays well and leaves you enough energy to live the rest of your life. The old guys I know in this business, do not give a shit were you used to work. They barely care where they worked. And no one outside this business cares who you work for. \n\nNow, how do you advance your career. Try to stick it out for two years in your job (but it's okay to bail if a better opportunity comes along...becoming the CTO of your buddy's start up is not a better opportunity), then move on to the job, work another couple of years, three if you like it. Then move on. Every time you change jobs, you will get more money. More importantly, you will increase your breadth of experience. You'll be exposed to more approaches to development. Which will make you better able to advocate for one approach over another. It will also help you understand what really matters vs. what's just noise.\n\nEventually, you'll want to start increasing your time in jobs just to show you're not a job hopper. However, you wil reach a point where it really doesn't matter. My default advice is keep your linkedIn profile up to date, turn on the quiet open to work flag, and respond to every recruiter that isn't a clear scam, even if it's to say, \"thanks, but this isn't the right opportunity for me\". My average is about three years.\n\nYou do this for a while, and big tech companies will start to notice you. They may not be FAANG, but the pay is good.\n\nThe most important thing to remember is that your career is a business. The companies you work for will let you go the minute you stop making financial sense. You're allowed to make the same decision about your employer.",
+          "score": 2
+        },
+        {
+          "body": "[removed]",
+          "score": 1
+        },
+        {
+          "body": "I think most people I met while working at FAANG did not have a FAANG-company as their first job. If working for a FAANG is a priority for you it's probably something you can achieve with enough time an effort. But it's worth questioning why exactly that matters to you; it's not at all a requirement for being successful or satisfied in your career",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "5 rounds and no job - incredibly frustrating experience.",
+      "body": "Sorry if this isn't allowed, I can take it down if needed, but I just need to vent my frustration, and see if anyone else experienced something like this. \n\nIn April I applied for a job. They said I was a good fit, and I passed the first call, and got offered a second interview. Two hours before that interview, they said they were putting the role on hold for now. \n\nFast forward to October where they reach out to me that the role is live again (I actually find out one month later that it's a different role than the role I applied - there is some overlap but still annoying they didn't specify that).\n\n5 weeks, 5 interviews, including one in office that took 1.5 hours plus travel. They say all is looking positive and they call my work reference, my previous manager. That goes good and then they ask if I'd be available to start on x date in December, and that they'll get back to me next week. \n\nI wait one week and they reply to say they wanted to offer me the job, but don't have the budget for the role anymore, and that the role will be back live again in April, if I can wait then it'll be great. \n\nI'm just absolutely raging. What a massive waste of time. How can they go from asking my start date and calling my work reference, to not having the budget for the role, all within one week. I know noting in life is a certainty but calling a work reference after 5 rounds of interviews is really a strong indication they're offering someone the job, and that the budget for the role is finalised. I find it incredibly unprofessional and unfair. They're not one of the big companies, but they're not a start up or small either. I can hardly wait another 6 months for a job, and I have little confidence in the company sticking true to that role in April, after taking the role down twice.",
+      "subreddit": "cscareerquestions",
+      "score": 47,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1gmg1ra/5_rounds_and_no_job_incredibly_frustrating/",
+      "comments": [
+        {
+          "body": "[deleted]",
+          "score": 21
+        },
+        {
+          "body": "i’m very sorry, but I will say it took me 9 rounds to land my current gig started around June this year after a lifetime of 2 or 3 rounds max. You’re not alone and this is the state of tech jobs forever now. I’m sorry to say, things have just gotten a lot harder.",
+          "score": 7
+        },
+        {
+          "body": "Statistically, you're more likely to be wasting time with tire-kickers than with someone who can make a decision.\n\nCompany A interviews 10 people for an hour each and hires one person.  Company B interviews 20 people for 10 hours each and hires one person.  Company A wasted 9 hours of candidate time (10 total).  Company B wasted 190 hours of candidate time (200 total).  \n\nYou're 20x more likely to be interviewing with Company B than Company A.  Also, when Company A rejects you after a single 1 hour interview, you won't feel like it was a complete waste.",
+          "score": 1
+        },
+        {
+          "body": "ask for an offer letter and they can make that contingent on \"calling your references\". That said, that place sounds like a zoo.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Is a grad role at a hedge fund worth taking?",
+      "body": "So for context, I’ve been offered an entry level position at a HF in the UK as a Technology graduate. I’m on the fence about doing it though. This is mainly because of three reasons:\n\n1. My life schedule is such that, were I to take this role, I can’t continue on my course to do an integrated Masters degree, I’d leave with a bachelors.\n\n2. I’m worried that the Tech Stack I’d encounter there wouldn’t be very diverse and not what I’m used to, it seems mainly focused on C#.\n\n3. The people. I’ve heard that tech guys at those sort of companies are treated a little poorly, even if the people I met at the interview day were quite nice. Plus long hours?\n\nThat being said, the one big benefit at this stage is the pay. It’s not Jane Street/Citadel level good, but it’s pretty good - and honestly probably more than I deserve, I got insanely lucky with the interview process. So my main questions are:\n\n1. How essential is a masters degree?\n2. How easy is it to move from a HF to a more traditional SWE role?\n3. What would you do in my shoes?",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1gi089i/is_a_grad_role_at_a_hedge_fund_worth_taking/",
+      "comments": [
+        {
+          "body": "This situation is very specific to the UK.  You probably aren’t going to get a definitive answer from anybody here.",
+          "score": 4
+        },
+        {
+          "body": "You may want to follow up in the UK specific sub, but if you were in the US, I'd say to take it if you have no other offers as i believe the UK job market is as rough as the US one. Experience is worth more than a masters in *most* CS sub-fields, but a masters can differentiate you from the field if you're close with another candidate.",
+          "score": 3
+        },
+        {
+          "body": "Marshall wace?",
+          "score": 2
+        },
+        {
+          "body": "Take it and invest some of that money so financially you won't be stressed as much as mentally/physically",
+          "score": 1
+        },
+        {
+          "body": "I gained some of my best technical experience from an asset manager / HF. They get a bad rap. The better ones have already invested more in technology. But yeah, WLB can definitely be an issue, although at least in the USA you can usually assume competitive bonuses.",
+          "score": 1
+        },
+        {
+          "body": "[deleted]",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Apply early vs prepare for 6 months for SWE roles at HFTs? (Citadel, Optiver, Jane Street, HRT)",
+      "body": "Hi, I’m applying for SWE roles at high-frequency trading firms like Citadel, Optiver, Jane Street, and HRT. I'm torn between two strategies:\n\n1. Interview early, learn from the experience, and then re-interview after 6 months.\n2. Prepare for 6 months before interviewing.\n\nMy main concern is the cooling-off periods—if I don't perform well the first time, will it hurt my chances of getting a second shot at the same company? Anyone with experience on how these firms handle this?\n\nWould love any insights or advice!",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1fzkhsm/apply_early_vs_prepare_for_6_months_for_swe_roles/",
+      "comments": [
+        {
+          "body": "The normal strategy is to apply/schedule interviews for the roles to you don't care about as much first. Then after a few interviews you should feel prepared enough to schedule for the top tier firms you mentioned. \n\nThis advice only applies if you are currently employed/financially stable though, if you are a student or unemployed you should just apply for jobs as soon as they open up.",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "title": "Quant preparation",
+      "body": " Hi everyone,\n\nI’ve noticed that a lot of people here are preparing for quant / trading / research interviews (Optiver, Jane Street, Citadel, etc.), and the process can be pretty intense — brainteasers, mental math, probability puzzles, coding drills, and so on.\n\nI’ve been working on a side project that might be useful for others in the same situation. It’s called TraderIQ.org — basically a prep platform where you can practice mental math, brainteasers, and quant interview-style problems in a structured way.\n\nI built it because I couldn’t really find a tool that combined quant-style interview prep + practice drills in one place. Right now it’s in early stages, so I’d love to hear from people who’ve gone through (or are going through) these interviews:\n\nWhat kind of questions do you wish you could practice more on?\n\nWhat resources have you found most effective?\n\nWould a tool like this actually help you prepare, or are you better off with books/forums?\n\n\nI’d love any feedback — positive or critical — since I want to make it as useful as possible for students / graduates / aspiring quants.",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1nde0zu/quant_preparation/",
+      "comments": []
+    },
+    {
+      "title": "Career Advice:  SWE -&gt; HFT?",
+      "body": "**Career Advice (SWE)**\n\nI am a mid-senior level SWE in FAANG, interviewing with Janestreet, Citadel and Jump Crypto.\n\nShould I pursue or avoid any of those? My RSU cliff is in 1 year.\n\nI expect at least a 50% increase in pay for the new role (if I get them).\n\n  \n**Concerns**\n\nStability, compensation ceiling, agency, WLB, longevity.\n\nI am not familiar with the turnover rate for these firms, there's a lack of information on popular aggregation sites like glassdoor/levels. Should I expect to be fighting for my life?\n\nFrom what I have heard, compensation as a SWE in these firm can be dwarfed by FAANGs on senior/principle+ level, is that true? \n\nFrom colleague that worked in the industry in the past, engineering are treated as second class citizen, is that true, and how will that be reflected in my work (bonus tied to assigned trader)?\n\nHow is the WLB for these firms for SWEs? While I have been working 30-50 hours week, the godsend is that the work is hybrid, allowing for much better WLB. \n\nWhat's the hours and stress in these firms?\n\nAnd generally, how long is the career as a SWE in these firms? It is not uncommon to have 10 years+ devs in a single company even in FAANGs, but is that the case in these firms?\n\n\n\nAnd finally, how does it fare for me in the long term? \n\nWould a FAANG experience be better than HFTs or the other way round (lifetime TC)?",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1j9kga8/career_advice_swe_hft/",
+      "comments": [
+        {
+          "body": "[deleted]",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Hedge Fund / HFT behavioral questions",
+      "body": "Hello, I'm a Software Eng with 4 YOE at a small financial services firm, I have interviews for Citadel, CitSec, and HRT coming up and was hoping someone in the industry could share what they are looking for in answers for behavioral type questions.\n\n  \nFrom a headhunter I know that they want to see a demonstrated interest in the finance / capital markets industry and have a good answer to Why {$company}?  And they will ask what I'm currently worked on and other bullet points on my resume.\n\nIf anyone has successfully interviewed at one of these type of firms, can you share how your experience went, how you framed your answers, what you talked about?  Especially how you talked about your contributions in a past role.\n\nI'll update after the interviews with my experience.",
+      "subreddit": "cscareerquestions",
+      "score": 3,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1ji7yt4/hedge_fund_hft_behavioral_questions/",
+      "comments": []
+    },
+    {
+      "title": "Difficulty/examples of HackerRank questions for trading firms like Two Sigma, Citadel?",
+      "body": "Hi, I have a HackerRank for a trading firm that I have been studying my entire winter break for. I am not a CS major (aerospace engineering) but I self taught myself the basics of the big languages. The company said I have as much time as I need to prepare but I don't want to abuse this. This is my first HackerRank test and it is for a company that I really want to work for but I am not sure how much I should practice before taking it.\n\n&amp;nbsp;\n\nThe company said the questions will be brain-teaser problems so I have mostly been practicing the \"Problem Solving\" section. The issue is, I can solve most of the easy problems (sometimes I need a little nudge in the right direction), but when it comes to the moderate problems, I struggle and have to look at tutorials to figure it out. \n\n&amp;nbsp;\n\nFor people who have taken tests for companies like these, how were your questions? How much did you prepare before taking them?",
+      "subreddit": "cscareerquestions",
+      "score": 75,
+      "url": "https://reddit.com/r/cscareerquestions/comments/ejyffw/difficultyexamples_of_hackerrank_questions_for/",
+      "comments": [
+        {
+          "body": "It was roughly 1 leetcode easy, two medium in 60 minutes",
+          "score": 65
+        },
+        {
+          "body": "I did Akuna Capital, and it was the hardest 3 questions I've ever done as an online assessment (much much harder than Google's). I was able to solve one which was the easiest one and that was like upper medium leetcode. One other question requires real mathematics knowledge which was something along the line of finding all points enclosed in the rectangle defined by 3 points (I believe there is a theorem that would help you do this pretty quickly), and that was only one of the side task that leads to the main problem. So yea from my experience with Akuna Capital, it was very hard",
+          "score": 51
+        },
+        {
+          "body": "[deleted]",
+          "score": 37
+        },
+        {
+          "body": "At least for Two Sigma, I've heard that their HackerRank problems are on the easier side of medium, but their on-site interviews are harder. To be on the safe side, you should be able to solve most mediums in under 20 minutes and almost all easies in under 10 minutes. \n\nMy advice is that you start taking one or two HackerRanks for companies you don't care much about and only when you feel somewhat confident you go in for the one that you really want. \n\nAlso, go through [teamblind's curated list](https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-75-LeetCode-Questions-to-Save-Your-Time-OaM1orEU) and make sure you have a good grasp on all of the patterns in there. Best of luck!",
+          "score": 21
+        },
+        {
+          "body": "I did for 2-Sigma TX location. It was 1 HackerRank 90 min question. It was super hard.",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "title": "Facebook vs. Citadel Internship",
+      "body": "I've been fortunate enough to receive software engineering internship offers from Facebook and Citadel, and I'm having trouble deciding which one to choose. The pay is slightly higher at Citadel ($10k/month vs $8k/month, corporate housing for both), but I know that Facebook has a big return intern signing bonus. I'm leaning toward Citadel because I think it would be interesting to try something different (I interned at a large tech company last summer). I wouldn't mind the more competitive culture at Citadel (I felt the culture was too laid back last summer), and I prefer Chicago to the South Bay. Would I be making a mistake by choosing Citadel?",
+      "subreddit": "cscareerquestions",
+      "score": 27,
+      "url": "https://reddit.com/r/cscareerquestions/comments/5b12cd/facebook_vs_citadel_internship/",
+      "comments": [
+        {
+          "body": "No. Citadel is considered very prestigious as well. Go ahead and choose it if you don't mind forgoing FB's signing bonus.",
+          "score": 25
+        },
+        {
+          "body": "FB is hit or miss as an intern. I was there last summer; myself and several of my friends had terribly trained managers. Great people, bad at being intern managers. Others of my friends had incredible managers. \n\nAny company you go to can have bad experiences, but it seems like right now FB's intern program is expanding faster than they can properly train managers for it. ",
+          "score": 20
+        },
+        {
+          "body": "I would say Citadel (though I'm baised towards the quant finance industry - I think first jobs out of undergrad should be hard and challenging and aim versus a much more 'cushy' job that you'll find at the top 4 / big 5 with the perks and lifestyle... but to each his own). It's generally considered harder to get an internship at Citadel than from FB. Additionally, I think its easier to go from Citadel to FB than from FB to Citadel if nothing else, due to the number of hires each firm takes on each year (I have a friend who interned at Citadel last year and is now headed to Google full time, but few in the reverse direction - he turned down Citadel as he didnt think working at a hedge fund led to the impact he wanted to make on society). Citadel's internship can land you in their FTAP program which is know throughout the industry. And I would ignore the 2k different. An internship shouldn't be about the money. 5 years out, Citadel will pay just as well as FB if not more, depending on what part of Citadel's business you work for. FB has a big singing bonus for interns (not sure if they still do 100k), but Citadel has more opportunity for earning over a 10 year time frame vs FB (though FB compensates in equity vs cash for Citadel and if FB stock takes off...) ... Of course, Citadel has the culture of work really damn hard and a lot of Type A personalities. The cost of living and housing in SF in significantly more than that in Chicago.  All things to consider...",
+          "score": 9
+        },
+        {
+          "body": "2k is a lot of instant ramen my friend.",
+          "score": 8
+        },
+        {
+          "body": "[deleted]",
+          "score": 8
+        },
+        {
+          "body": "Citadel, no questions asked. Do not look back. \n\nThere are far too many interns at FB during the summer, as others have pointed out. \n\nI would not be concerned about average length of tenure at Citadel. Worst case scenario you leave after three months (as agreed in your internship contract) and never return. Best case scenario, you love it, and you return OR you get a chance to work at somewhere like Jane street or Two Sigma.",
+          "score": 7
+        },
+        {
+          "body": "I would honestly take fb. It pays better for both internship and full-time.",
+          "score": 7
+        },
+        {
+          "body": "[deleted]",
+          "score": 17
+        }
+      ]
+    },
+    {
+      "title": "Switching from quant to SWE",
+      "body": "How possible is it to switch to a big tech company as a SWE after working at a quant company (well known in tech circles) as a quant trader for 3-5 years? The only notable SWE experience I would have on my resume would be 2 SWE internships, 1 at FAANG+, another at {HRT, Citadel, Jane Street}\n\nI’m asking because I’m deciding between becoming a SWE or a quant trader and was wondering if I could switch back to a “chill” SWE job at big tech if I don’t enjoy quant. I reckon I would be totally okay joining as a junior and am confident in in my leetcode / system design skills, so the only issue would be getting interviews while having an “alternative” background.",
+      "subreddit": "cscareerquestions",
+      "score": 1,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1bqblov/switching_from_quant_to_swe/",
+      "comments": [
+        {
+          "body": "Get experience in Quant first. It's easier to go from Quant to SWE than it is to go from SWE to Quant. Most people in Big Tech don't start off in Big Tech. There are a lot of people who start in no-name companies and then get into bigger and bigger companies before breaking into Big Tech. So coming in from a named quant shop would be pretty easy.",
+          "score": 4
+        }
+      ]
+    },
+    {
+      "title": "Citadel vs. Hot mid-size startup?",
+      "body": "New grad trying to make a decision between two options that are as completely opposite of each other as possible. I have an offer for Citadel FTAP, as well as an offer from a well-funded mid-size startup in SF that's been mentioned in this sub as a good place to work (good engineering quality, good/experienced leadership, pretty good growth trajectory). I think I understand what the differences are between them, but I'm not really sure what my own preferences are or how to weight them. It would be great if people could offer some thoughts on what they would prefer (and why), or point out if I'm missing anything crucial.\n\n\nComparisons:\n\n\nCompensation:\n\nCitadel &gt; Startup\n\nCitadel offers a decent amount more, plus it's all in cash, as opposed to stock options. However, the startup offer is actually pretty good- seems to be higher than average for SF.\n\nCulture:\n\nStartup &gt; Citadel\n\nKind of obvious. Everyone at the startup seemed super nice, and I'm not sure if I want to work 60 hr weeks (saw this number somewhere online, not really sure if that's actually how much people work).\n\nBenefits:\n\nCitadel &gt; Startup\n\nCitadel has 401k matching + Education reimbursement (something I would definitely take advantage of)\nHowever, the startup does have unlimited PTO, and a culture which keeps this from being an abusive policy.\n\nWork:\n\nCitadel &gt; Startup (?)\n\nI'm interested in working on really challenging problems, which I feel like most startups usually don't deal with. It's also a rotational program, so I'll get to try working on different teams quickly and learn a lot more. However, not sure how I feel about working in a high-stress environment.\n\nCareer growth:\n\nStartup &gt; Citadel\n\nThere doesn't seem to be any sort of career growth at Citadel, besides getting more work and harder projects (and making a lot more $$$). I'm interested in taking on more responsibilities and leadership roles eventually, which I could definitely attain in 1-2 years at the startup. I would eventually try to go back to a tech company after working at Citadel for a year or two, but I'm not sure if it will be more difficult to transition to other tech companies from Citadel, since it is geographically distant from other companies, not exactly a \"tech\" company (anyone have experience with making this kind of career switch?), and limited PTO might make it hard to go to a lot of interviews. In addition, I'm pretty confident in my abilities, but I'm a little worried about Citadel's tendency to fire people a lot and what that might mean for me if I get let go.\n\nCity:\n\nCitadel &gt; Startup\n\nWould like to try living in Chicago, with a chance to live in New York for a while. Am a dude that doesn't want to live and breathe tech right now, so I want to try living outside of the Bay in an area with a more equal gender balance. Also I freaking love New York.\n\n\nOVERALL, I feel like the startup is a good, safe option, but I see Citadel as a possible high-risk, high-reward \"detour\" that I could take in my life. I would love to go there to work on interesting problems, live in cool cities, and make a lot of money for a few years. However, I'm a little put off by the culture there, and I'm sure that I would eventually want to transition back to the tech industry, so I feel like it would also delay my career trajectory.\n\nThis post turned out longer than I thought it would, so let me know if anything is unclear! I would really appreciate anyone's opinion on what they would do in my position! Thanks!",
+      "subreddit": "cscareerquestions",
+      "score": 25,
+      "url": "https://reddit.com/r/cscareerquestions/comments/7alixg/citadel_vs_hot_midsize_startup/",
+      "comments": [
+        {
+          "body": "take citadel, rake the cash, be financially independent and able to do whatever you want early\n\ndont see how you evaluate a start up which could fail, as safer than an investment firm with 150 billion AUM",
+          "score": 39
+        },
+        {
+          "body": "If I understand correctly, your main concerns are 1) too much work and 2) being unable to transition back to pure tech later on. 1) depends a lot on which team you are on. In general, from what I’ve seen, the engineering side works less than the investment side, but 50 hours is probably a floor. If that’s a deal breaker, then I would strongly advise doing some due diligence on the startup to make sure their hours are as relaxed as they claim, and then go with them. For 2), I would not be concerned at all. Citadel isn’t on the bleeding edge of tools as much as a new startup might be, but you will be writing a shitload of code, some of it algorithmically interesting, and the name is definitely targeted by recruiters. Probably the bigger obstacle will be yourself realizing in a few years that there is a huge opportunity cost to transitioning back to pure tech from a hedge fund. ",
+          "score": 10
+        },
+        {
+          "body": "Look at the things you've listed:\n\n* Compensation\n* Culture\n* Benefits\n* Work\n* Career Growth\n* City\n\nNow, sit down, think very long and hard, and prioritize the above 6 things in your life. Long term. Picture yourself 5 years from now and think of your values then. Once you search your soul, assuming you're completely honest with yourself, the answer becomes easy.\n\nThat's the reason anybody telling you to pick one or the other is ultimately wrong, because they're judging this question based on their own values, and not yours.\n\nIf I were to rate those in the order of the 6 I value most (which will be way different than a lot of people):\n\nCity, (Interesting/Impactful)Work, Compensation, Benefits, Culture, Career Growth.\n\nAdd Work Life balance as #1, I consider difficulty/interesting-ness of work and work life balance to be very different things.\n\nSo looking at your own ratings, I would pick: Citadel. I value where I'm living the most, and I agree I would much rather be in Chicago or New York than the Bay.",
+          "score": 5
+        },
+        {
+          "body": "Kind of a tangent, but why don't you want to say the startup's name?\n\nNot just you, I see this all the time on CSCQ. It's not that big a deal, right?",
+          "score": 3
+        },
+        {
+          "body": "citadel vs pinterest? ",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "How much money do you need to spend on prep to get a job offer with Stripe?",
+      "body": "So at the highest levels of this profession, you need to pay to play in that AFAICT the only way to get feedback is to pay someone to do weeks or months of mock interviews.\n\nI've been interviewing non-stop for 2 years now and have gotten no good offers.  I'm getting a little bit desperate looking at the collapse of venture capital and have managed to get to final rounds with Meta, Microsoft, Google, Stripe, Citadel, Jane Street, Goldman, and DE Shaw, but with no offers made.\n\nClearly, I'm doing something wrong, and I know it's that I'm doing the ***wrong*** prep with no feedback loops telling me what I did wrong.\n\nHow much money have you spent on prep and where have you spent it on?",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/v8xe3n/how_much_money_do_you_need_to_spend_on_prep_to/",
+      "comments": [
+        {
+          "body": "[deleted]",
+          "score": 24
+        },
+        {
+          "body": "Who the fuck are you gonna pay??🤣 buy me a pizza and I’ll do some leetcodes on zoom with you. \n\nBut seriously maybe I can sit down with you and give you feedback on personal and coding questions for free. Dm me if you’re down",
+          "score": 11
+        },
+        {
+          "body": "I spent no time preparing for my stripe interviews and got an offer. Their interview process is pretty fun.",
+          "score": 21
+        },
+        {
+          "body": "Well, based on the fact you get interviews your resume is fine. Based on the fact you pass technical portions your tech skills should be fine. I would say you are probably failing the cultural, behavioural, and personality portion of the interview.",
+          "score": 4
+        },
+        {
+          "body": "uhh don’t take this the wrong way, but do you have a strong accent?",
+          "score": 3
+        },
+        {
+          "body": "[deleted]",
+          "score": 3
+        },
+        {
+          "body": "Have you ever heard of leetcode.com",
+          "score": 2
+        },
+        {
+          "body": "I've never spent a dime to prepare for an interview.\n\nThere's so much free documentation and YouTube videos on every subject",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "For those of you with offers from Jane Street, Citadel, etc. as Quant traders, how much preparation did you have?",
+      "body": "I've really wanted to become a quant, so I've been doing quant practice problems. To me they are all very very difficult. I  couldn't do 90% of these problems. For those of you with offers, how much practice have you done? Will this stuff become easier as I become more accustomed to these questions, or should I just give up now?",
+      "subreddit": "cscareerquestions",
+      "score": 39,
+      "url": "https://reddit.com/r/cscareerquestions/comments/cx3i5e/for_those_of_you_with_offers_from_jane_street/",
+      "comments": [
+        {
+          "body": "I didn't do much preparation because I have a background in mathematical statistics. It's hard to prepare because if you're just breezing past their questions, they're just going to ask unnecessarily difficult questions to put you under pressure and see how you would react.\n\nYou're expected to do probability brain teasers relatively quickly (usually involves some martingale trick). You're expected to have a strong math background (measure theory level at minimum) and will be quizzed on a wide range of areas. A lot of CS concepts closely related trading will 100% be tested (i.e binomial trees, bellman ford etc). Sometimes you might be given easy/moderate questions but then they time you and expect you to answer each question within X time (usually 30 seconds). Just like with LC questions, these questions all have a pattern/trick to them.\n\nIf you get a nice interviewer, then you might get questions more related to your background (i.e CS student = CS questions). Some interviewers simply don't give a shit. I've had a coworker grill someone about Greeks even though they were a CS student and it was obvious they weren't going to be able to answer the question.\n\nOther quant roles don't have such an insane interview process. Trading is generally the most difficult since they want ppl that can adapt and think quickly on their feet. They pretty much expect you to be able to calculate option prices in your head.",
+          "score": 29
+        },
+        {
+          "body": "Quants range from devs to researchers. If you're a dev it's not much different from being a SWE at a big n. If you are a researcher, I think you need an inherent natural level of talent to even come close to doing the stuff they do.\n\nIt should also be noted that the bar for quants at top funds is very different from quants in general. \n\nI know a couple quant researchers in js/2s/citadel and I legitimately think 99.999% of people could never reach their level of skill with any amount of practice. You're either a phd or you come from IMO/putnam type backgrounds",
+          "score": 29
+        },
+        {
+          "body": "I don't know anyone in a true quant position who doesn't have a quantitative graduate degree. Risk management could be a stepping stone if you're an undergrad.",
+          "score": 7
+        }
+      ]
+    },
+    {
+      "title": "Finance companies vs. software companies",
+      "body": "I'm a junior at a top 10 university (overall) and top 15-20 for CS. I've been applying everywhere for software internships, but I've noticed that I've gotten very few replies from software companies but a seemingly opposite reaction from finance companies.\n\nFor instance, Citadel/Two Sigma/DE Shaw all offered me to come on site (for software positions), but Facebook/Amazon/Uber haven't replied to my applications or straight up rejected me without any interviews at all.\n\nI'm curious if 1) it's less prestigious/competitive to work at the above finance companies than i.e. the Big 4, and 2) if software companies tend to look for different things on resumes than finance companies? I'm not sure why I'm seemingly not passing the resume screen on software companies, and am wondering if there's anything I can do to make my resume more appealing for software companies.",
+      "subreddit": "cscareerquestions",
+      "score": 26,
+      "url": "https://reddit.com/r/cscareerquestions/comments/9r5lte/finance_companies_vs_software_companies/",
+      "comments": [
+        {
+          "body": "This is just a theory so could be completely wrong but:\n\n  \n\n\nI think the well known tech trading/finance companies are much smaller than the big N, so they have less resources to devote to the hiring process. So they're okay with just narrowing the scope to students at the top universities with good grades.\n\n  \n\n\nWhereas big N companies are okay with sifting through no name schools to find the diamonds in the rough. I go to a no-name school and have gotten a phone screen with Google this fall, but was rejected pretty quickly by Two Sigma and HRT (one of which took under an hour).\n\n  \n\n\nOf course this could be bullshit. I'm just speculating.",
+          "score": 55
+        },
+        {
+          "body": "Two Sigma and DE Shaw were both founded with technology being their core. They weren't hedge funds who added technology as an afterthought; both of their purpose is to revolutionize trading and money management with technology and algorithms. David Shaw is a comp sci PhD and currently on the faculty at Columbia. The founders of Two Sigma worked at DE Shaw; one of them is a comp sci PhD. Funnily enough Jeff Bezos also worked at DE Shaw.\n\nI think it's fair to call Two Sigma and DE Shaw technology companies. They don't have the consumer name recognition as some of the others but I think for people in the know they're very prestigious.\n\nI don't mean to speak ill of Citadel, it has a fine reputation as well, but I don't think tech is as central to their business as the others, although I could be wrong. ",
+          "score": 27
+        },
+        {
+          "body": "[deleted]",
+          "score": 11
+        },
+        {
+          "body": "Happened to me as well, was Math and CS undergrad at one of Cornell, CMU, Brown. All 4 years of UG got 0 first round interviews at Unicorns, Amazon, or even MSFT. All insta rejections. DE Shaw and HRT meanwhile invited me w/o even applying like every year lol.\n\nDon't sweat it, if you're into systems or math you'll be 10x happier in quant finance anyway. Google is the rare exception but otherwise you're doing thing right.",
+          "score": 6
+        },
+        {
+          "body": "I think you're reading into this a bit too much. I think It's just because the Big N are forced to screen out a higher percentage of candidates at the resume screen than the smaller companies. I think it just so happens that finance companies are looking for new hires but aren't forced to reject as high a percentage of candidates from the resume. \n\nGoogle gets up to 4+ million applications a year. If they interview nearly as high a percentage of potential candidates as Two Sigma/Citadel/DE Shaw, that's all they could do.",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "title": "So Lost on What to Do this Summer",
+      "body": " I'm honestly so lost on how to get internships. I'm Columbia '25, majoring in cs with a math minor. When I got in, I was happy but now I'm just so fucking stressed. I don't know what I'm supposed to this summer. I tried finding internships the past few months but didn't even receive 1 interview, forget about offers. Meanwhile, a lot of my friends have internships lined up for the summer. And they're not even going to ivies. They're going to state schools, and are still more successful than me. But I didn't even get one interview after 200 apps, forget an actual offer.\n\nSo instead I managed to find some informal research w a prof, but I don't know how that will turn out/if it will even be resume worthy. A lot of people have been saying I need to make a project, but I really fucking hate making independent projects. I'd rather be in a structured program like research/internship or be studying coursework. But it seems like its not possible to get an internship without a project, so it's something I'm gonna have to do.\n\nBut the main issue is wtf I'm supposed to do for summer 2022. Applications for tech stuff come out in August right? How do I even have a chance of getting in. My resume is so garbage right now. I couldnt even make USAMO (fucking 3 points off). My only work experience is teaching middle schoolers at a learning center. Like how the fuck is anyone gonna hire me off this?\n\nBut tech isn't what I want to do long term. Its just for 2022. Eventually, I want to be a quant trader at Jane Street/Citadel/Two Sigma etc. But, I know its impossible for freshman, so thats why I desperately need a tech internship freshman summer. Sophomore summer, I think it's at least *theoretically* possible to get into one of the quant firms, but still hard, so I'm fine with doing tech that summer if necessary. But junior year I definitely need to break into a top quant firm otherwise I don't know how I'm supposed to live with myself.\n\nBut anyway, that quant stuff is a little ways away. I won't have to worry about applying for at least a year. But tech, tech is soon. Like *very* soon. Anyone have any tips on how I can secure one given my background thus far?",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/mwvncz/so_lost_on_what_to_do_this_summer/",
+      "comments": [
+        {
+          "body": "[deleted]",
+          "score": 2
+        },
+        {
+          "body": "[deleted]",
+          "score": 2
+        },
+        {
+          "body": "As someone who doesn’t like doing personal projects or want to do coding at all in the future, why are you complaining that your friends who are passionate about what they do are getting the internships.\n\nGet of your high horse and be proud of them. Shoot lower and go for the research position. Build an actual resume that someone will want to hire you for.",
+          "score": 2
+        },
+        {
+          "body": "do some projects to put on your resume lol \"so lost\"",
+          "score": 1
+        },
+        {
+          "body": "hey im also a ‘25 \n\ntry angellist i got some interviews from it\ncontact local businesses and see if they want help\n\nother than that just work on personal projects",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Citadel Interview",
+      "body": "Hi everyone,\n\nHas anyone interned with Citadel for software intern positions before? What was the process and outcome? How do you suggest I prepare for it? I have a 45 minute phone/coderpad interview schedules next week. I just submitted my resume on the careers page and the recruiter responded asking to set up an interview a week later. Any tips?",
+      "subreddit": "jobs",
+      "score": 5,
+      "url": "https://reddit.com/r/jobs/comments/fc9ikt/citadel_interview/",
+      "comments": []
+    },
+    {
+      "title": "Internships at Jane Street, Citadel Securities or Optiver?",
+      "body": "I am doing my PhD in AI / Machine Learning at some ok Australian Universities right now. And have applied to a few Firms for internships. For now, I am in my final round of interviews with Jane Street, Citadel Securities, and Optiver. No job offer yet, but I think I can at least land one or two of them.\n\nFrom my research, Jane Street seems wildly better than the other two options. But I am very uncertain whether I can pass the final round or not. So I want to ask here for opinions which firm I should choose. All the roles I am applying are Quant Researcher (aside from JS which is hybrid trader/researcher),\n\nJane Street: Based in HK.- pro: Low tax, high payroll, low turnover, good WLB, better culture (collab), brighter people and solid internship program.- con: Is there any?Its prob hands-down best choice for me.\n\nCitadel Securities: Based in Sydney- pro: High payroll, more varied assets so better career growth (?), expanding recently, more QR driven (?)- con: Bad WLB and toxic culture (?), tax, high turnover (appears to have last place elimination), intern program seems like a mystery box\n\nOptiver: Based in Sydney- pro: Good WLB, better culture (collab), good intern program- con: Compensation seems to be lower, tax\n\nI am not sure in the case I fail JS but get Optiver / CitSec, which one should I choose? I am leaning towards Citadel for the recent expansion and varied assets they manage. I don't mind 10hr days, esp early career. Ideally somewhere where I grow my career faster is more suitable for me.\n\nI am also happy to hear other advices aside from choosing from these places (e.g. outlook of a career as QR, etc).",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/144vf47/internships_at_jane_street_citadel_securities_or/",
+      "comments": [
+        {
+          "body": "Jane Street &gt; Optiver &gt; Citadel. \n\nYou're not married to these companies. Pick the one that will set you up with the most opportunity in 10 years.",
+          "score": 7
+        },
+        {
+          "body": "Have you tried asking this on r/quant? I think more people are going to know about the experience of being a quant researcher on that sub than here.",
+          "score": 2
+        },
+        {
+          "body": "[removed]",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Citadel - advise needed - preparation help",
+      "body": "I'm currently exploring opportunities in finance and came across the Associate role at Citadel. It’s a highly competitive position, and I’d really appreciate hearing from anyone who has gone through the interview process or has insights into what to expect.\nIn particular, I’m interested in:\nWhat does the interview process typically look like?\nHow technical are the questions?\nWhat’s the format of the case study, and how should one prepare for it?",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/1nroe4t/citadel_advise_needed_preparation_help/",
+      "comments": []
+    }
+  ]
+}

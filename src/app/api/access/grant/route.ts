@@ -177,6 +177,8 @@ export async function POST(
     // Magic link should redirect through auth callback to exchange token for session
     const callbackUrl = `${baseUrl}/auth/callback?next=${encodeURIComponent(finalRedirect)}`;
 
+    console.log('Magic link config:', { baseUrl, finalRedirect, callbackUrl });
+
     try {
       const { data: linkData, error: linkError } = await supabase.auth.admin.generateLink({
         type: 'magiclink',
@@ -190,7 +192,13 @@ export async function POST(
         console.error('Magic link generation error:', linkError);
       } else if (linkData?.properties?.action_link) {
         magicLink = linkData.properties.action_link;
-        console.log('Magic link generated successfully');
+        // Log the magic link URL structure (mask the token)
+        const linkUrl = new URL(magicLink);
+        console.log('Magic link generated:', {
+          host: linkUrl.host,
+          pathname: linkUrl.pathname,
+          redirectTo: linkUrl.searchParams.get('redirect_to'),
+        });
       }
     } catch (linkErr) {
       console.error('Failed to generate magic link:', linkErr);

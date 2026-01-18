@@ -1,0 +1,58 @@
+{
+  "company": "oracle",
+  "common_questions": [
+    "What are the specific properties my binary tree would need to have to be a binary search tree?",
+    "Why aren't you asking me about the application side that I'm familiar with?",
+    "describes research vs programming, managing vs",
+    "describes, it took so much determination, so much initiative, and many many weekends stu",
+    "explain how it worked to his dismay",
+    "explain the pumping lemma again)",
+    "describe your algorithm as \"O(n!)\" and then \"O(n^2)\"",
+    "What is your expected salary for this position\" or \"Why do you think you would be a good fit",
+    "Describe how HashSet implements buckets internally",
+    "Describe what happens the moment I click Submit on a web form",
+    "Describe big O notation and why it’s important?",
+    "explained the algorithm, was reminded that it was logN and moved on)",
+    "Explain sealed classes and records",
+    "How would you analyze a slow query?",
+    "Why do you care if I know which classes the two kinds of Exception extend, or which logger"
+  ],
+  "themes": [
+    "System design emphasis",
+    "Heavy focus on coding",
+    "Behavioral interviews important",
+    "Culture fit matters",
+    "Multiple interview rounds",
+    "Take-home assignment",
+    "Virtual interviews",
+    "Panel interviews"
+  ],
+  "interview_tips": [
+    "from a principal engineer",
+    "videos on YouTube for fun while I chill",
+    "on how to prep, how the interviews are structured, coding and design interviews, and negotiating an offer",
+    "for anyone at this point in their journey is to just remember that no one but yourself can decide your value",
+    "I can give, it would be to find a good work life balance",
+    "is to improve my resume and interviewing skills, but at some point, even getting an interview feels completely random, and the same goes for the inter",
+    "would be read both Alex Xu's books (or similar material), watch some youtube videos, and do some practice interviews (pramp like site)",
+    "on how I can make myself more competitive for entry level positions without having to go for a master's degree or something would be much appreciated!",
+    "as a new grad way too many people are worried about stat padding their resumes with a million different skills, any recruiter will know its all BS",
+    "you have built enough stuff to have a good comprehension of those things"
+  ],
+  "red_flags": [
+    "made more than $36k a year from any of them",
+    "had anything to show for myself if I had waited to be hired to make something",
+    "heard of it, it is a browser-based RPG that requires many hours of pointing and clicking the same objects in a repetitive manner",
+    "want the over-positivity of this thread to trick people into thinking coding is a magic pill for 6 figure jobs, tons of people can't find work after b",
+    "know but I showed how a binary tree would be traversed with a breadth-first search to find a goal node",
+    "really disagree with their assessment of the interview",
+    "really know what they're doing",
+    "seen behavioral scores in our feedback matter that much in the debrief discussion"
+  ],
+  "process_insights": {
+    "typical_rounds": "3 rounds typical",
+    "timeline": "2-4 weeks",
+    "format": "Mix of phone screen, technical, behavioral, on-site, virtual"
+  },
+  "source_count": 62
+}

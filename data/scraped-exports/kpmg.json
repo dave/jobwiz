@@ -1,0 +1,383 @@
+{
+  "company": "kpmg",
+  "post_count": 22,
+  "exported_at": "2026-01-18T17:44:53.285Z",
+  "posts": [
+    {
+      "title": "How can I strengthen my applications to companies?",
+      "body": "I feel like I'm at a fork in the road career-wise. I'm a recent grad with 1 YOE at a CS-adjacent role (not developer but DevOps engineer with a lot of SQL). I feel like my lack of software dev experience is what's getting me filtered. I am considering a few options:\n\n\\- I have an offer with a company (similar to Revature) that trains you in a tech stack for a client. The initial training course was for KPMG and went for 3 weeks before KPMG told them they're pausing hiring. They are starting a new course in April for Citi Bank's Data Scientist role but with the current state of banks I'm having doubts about signing a 2 year binding contract and then having Citi Bank pause hiring as well.\n\n\\- I'm having no success with applying to jobs, been using LinkedIn and Indeed but very few call backs, had one Junior Web Dev interview but was told I don't have enough experience in their stack (React.js and Ruby on Rails). My resume:  https://imgur.com/ZrJcaaR \n\n\\- I want to learn in the meantime, and I'm trying to figure out what to prioritize. I was doing LeetCode to prepare for FAANG and similar companies, so I could continue to do that while waiting for FAANG to start hiring again or work on Codecademy courses/certifications. I figured React.js is in demand, and I'm interested in Data Science/ML so I started on the React and ML courses on Codecademy, but trying not to stretch myself too thin or waste time.",
+      "subreddit": "cscareerquestions",
+      "score": 2,
+      "url": "https://reddit.com/r/cscareerquestions/comments/11z7v0x/how_can_i_strengthen_my_applications_to_companies/",
+      "comments": [
+        {
+          "body": "&gt; I feel like my lack of software dev experience is what's getting me filtered. I am considering a few options:\n\nThat would be my assumption as well. I took a look at your resume and the only programming experience you have on there is the discord bot which isn't a great project to showcase. First off, figure out what kind of role you want to join be it front end, back end, DevOps, etc. Then make at least 1 *high quality* personal project that can showcase your programming skill set ideally using the tools and frameworks for the kind of role you want to get. Doing leetcode isn't a good use of your time since you're not getting callbacks. You need to improve your resume enough that people actually want to talk to you.",
+          "score": 5
+        },
+        {
+          "body": "I should add that I intend to apply to a master's program for machine learning next year since the application deadline passed for 2023. My undergrad GPA is quite terrible though so I'm hoping to make up for it with work experience this year.",
+          "score": 1
+        },
+        {
+          "body": "Certification will aid in getting seen. I would suggest getting a certified scrums master certification.",
+          "score": 0
+        },
+        {
+          "body": "Does this mean you do not enjoy devops and prefer to move more into development?\n\nJust an FYI, the number of new devops jobs is out-pacing the number of applicants and experienced devops engineers. I believe you can carve out a lucrative niche in devops that will have more job security and layoff armor than development roles, if you chose that career path.",
+          "score": 0
+        },
+        {
+          "body": "[deleted]",
+          "score": -7
+        }
+      ]
+    },
+    {
+      "title": "Here are a few helpful tips, links and resources for those of you that are interested in jobs related to predictive modeling, statistics, machine learning, etc.",
+      "body": "I often see math, statistics, economics majors that post questions on here asking various things questions related to things that have more to do with predictive modeling and data science as opposed to pure software development. I did a lot of research on these types of things before starting grad school, so I just wanted to write up a document that contains links to all of the resources that I found.\n\n**On whether you have to go to grad school**\n\nIf you just want a job where you get paid to write code, then no you don't have to go to grad school. If you specifically want a job that has something to do with predictive modeling, machine learning, data science, etc. then yes you do have to go to grad school. You generally won't be taken seriously without a graduate degree. On the off chance that you are hired, you will be paid way less on average than your counter parts that have been to grad school. \n\nNo, you don't have to get a graduate degree in Computer Science. Advanced degrees in Applied Mathematics, Statistics, Economics, Operations Research and Industrial Engineering can also work, but of course learning how to program is still generally considered a very useful skill. But don't just take my work for it. This also brings me to the next section.\n\n**Pay**\n\nBurtchworks, a specialty recruiter that exclusively recruits predictive modeling/data science positions, puts out a [yearly salary survey](http://www.burtchworks.com/files/2014/07/Burtch-Works-Study_DS-2015_final.pdf). They have this to say from their research:\n\n&gt; A large majority (92%) of data scientists have a graduate degree, with 48% holding a Ph.D. Those\nwith a Ph.D. generally earn more than those with a Master’s or Bachelor’s degree.\n• 92% of data scientists have an advanced degree: 48% have a Ph.D., and another 44% have a\nMaster’s degree.\n\nThe American Statistical Association also puts out [regular salary surveys](http://www.amstat.org/careers/salaryinformation.cfm) that are broken down into three main parts. Statisticians that work in Biostatistics/Biomedical Statistics, Academic Statisticians and Statisticians that work in Business/Industry/Government. \n\n[Ezra Penland](http://www.ezrapenland.com/salary/) and [D.W. Simpson](https://www.dwsimpson.com/salary.html), two large actuarial recruiters, release anual salary surveys as well. If you want to see info for data science/predictive modeling jobs just look under the \"Non-traditional\" section.\n\nThe National Association of Business Economics performs salary surveys of their members every other year. You can read the highlights of the survey [here](http://www.nabe.com/Careers/index) you can read the full survey [here](http://www.nabe.com/Surveys) if you are a member.\n\n**Job Fairs**\n\nThere are a number of professional organizations for statistics, economics and operations research that hold annual and quarterly meetings and/or recruiting events. These events include:\n\n* [The Joint Statistical Meetings](https://www.amstat.org/meetings/jsm/2015/): JSM (the Joint Statistical Meetings) is the largest gathering of statisticians held in North America. It is held jointly with the *American Statistical Association, *International Biometric Society (ENAR and WNAR), *Institute of Mathematical Statistics, *Statistical Society of Canada, International Chinese Statistical Association, International Indian Statistical Association, Korean International Statistical Society, International Society for Bayesian Analysis, Royal Statistical Society, and International Statistical Institute. Attended by more than 6,000 people, meeting activities include oral presentations, panel sessions, poster presentations, professional development courses, an exhibit hall, the Career Placement Service, society and section business meetings, committee meetings, social activities, and networking opportunities.\n\nThis is an event that is held every year, usually around July, in a different major US city. This year it was in Seattle, the meeting for next year will be held in Chicago. Every year there are dozens of organizations that attend the recruiting fair. You can see the list for this past year [here](https://www.amstat.org/meetings/jsm/2015/employerlist.cfm). The list includes a wide range of \n * companies in various sectors:\n  -Amazon\n  - Uber \n  - KPMG\n  - BNSF Railway\n  - GlaxoSmithKline\n  - Bank of America\n\n* universities \n  - Center for Translation Medicine/University of Maryland School of Pharmacy\n  - Department of Healthcare Policy &amp; Research/Weill Cornell Medical College\n  - University of South Florida, Health Informatics Institute\n\n* government agencies\n  - US Census Bureau\n  - 4 different branches of the FDA\n  - National Security Agency \n\n* national and corporate research labs/teams \n  - IBM Watson\n  - Lawrence Livermore National Laboratory\n  - Pacific Northwest National Laboratory\n\njust to name a few.\n\nINFORMS, the Institute For Operations Research and Management Sciences, generally has three meetings a year where they always have a recruiting event.\n\nIn 2016, they will host an [analytics career fair](http://meetings2.informs.org/wordpress/analytics2016/analytics-career-fair/) in Orlando in April as part of one of their meetings. There will also be another career fair at their annual meeting which will be held in Nashville. To see a full list of all of the events that they hold each year click [here](https://www.informs.org/Attend-a-Conference/Conference-Calendar). You can also click [here](http://meetings2.informs.org/wordpress/philadelphia/career-fair/) to see a list of companies that were at the career fair for annual meeting that just took place about a week ago in Philadelphia. The list includes\n\n* Apple\n* Uber\n* Amazon\n* Walmart Labs\n* Disney\n* SAS\n* Liberty Mutual Insurance\n* Dow Chemical Company\n* American Airlines\n\nThe National Association for Business Economics holds an [annual career fair](http://www.nabe.com/careersummit/2015) in Washington DC. An interesting thing about this event is the [resume book](http://www.nabe.com/careersummit/2015/candidates). When you register for the event, you are asked if you want to include your resume in a book that is sent out to all of the participating companies in advance of the actual event. This is done to make scheduling interviews easier.\n\nSome of the companies that have been to this event include\n\n* The St. Louis branch of the Fed\n* The Bureau of labor statistics\n* Moody's analytics\n\n**Job Boards**\n\nThere are also a  few specialty job boars that you can check out as well\n\n* [R-Users](http://www.r-users.com)\n* [Econ-Jobs.com](https://www.econ-jobs.com)\n* [Econjobs.org](http://www.econjobs.nabe.com/home/index.cfm?site_id=9008)\n* [INFORMS Career Center](http://careercenter.informs.org/home/index.cfm?site_id=15706)\n* [J.O.E. Listings](https://www.aeaweb.org/joe/listings.php?issue=2015-02&amp;keyword_search=&amp;section=5&amp;jel=all&amp;country=all&amp;recent_only=Show+all+listings+published+since+August+1%2C+2015&amp;from=2015-08-01&amp;to=2015-11-20&amp;listings_order_by=institution_a&amp;lpp=50): This is something that was started by the American Economic Association as part of their annual \"Job Market\" that I didn't even get into.\n",
+      "subreddit": "cscareerquestions",
+      "score": 32,
+      "url": "https://reddit.com/r/cscareerquestions/comments/3ty2x6/here_are_a_few_helpful_tips_links_and_resources/",
+      "comments": [
+        {
+          "body": "Thank you for this!",
+          "score": 3
+        },
+        {
+          "body": "Thanks a ton!",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Should i take a step back to an apprenticeship to KPMG just to have better opportunities in the future?",
+      "body": "Hi everyone, i would like some suggestions about my situation:  \n  \nI graduated with a Master’s in Computer Science this February, and I have about 2 years of work experience. I live and work in Mediterranean Europe.\n\nI have done a 1 year part-time internship as Data Scientist while I was studying.  \nThen I was linked by a professor to a small/medium size company (50 employees) that had a small AI/research team. With them i signed a part time work / part time thesis contract for 6 months, after wich they hired me as a Junior AI dev.\n\nThe job is nice, but they pay is very low and I don't have basically 0 growing possibility (and I'm never allowed to work from home!); for these reasons I have started looking for a new job.   \nI am trying to either move abroad to get a better paying job, or find a job in a big tech company here in my country.\n\nWell yesterday I was contacted for a position in KPMG in my city, to work in ai/robot automation, which is very interesting to me and i would happily shift towards that sector. Also it's a big company where i could potentially grow both skill wise and carreer wise.  \nBUT the contract they are offering me is an apprenticeship that pays just €2k/year more than where i am right now (so we are talking about **€30k/year** 😩).   \nI *might* accept this kind of offer from a FAANG or similar company because of the long-term benefits, but I’m unsure if it's worth stepping down to an apprenticeship for essentially the same pay, especially when I could potentially find something better abroad.\n\nBut i have been looking for positions abroad for months, I have sent 40/50 CVs but i've got only 2 positive replies and I didn't get far in the interviews processes.\n\nWhat do you guys say?",
+      "subreddit": "cscareerquestions",
+      "score": 3,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1ly0oxz/should_i_take_a_step_back_to_an_apprenticeship_to/",
+      "comments": [
+        {
+          "body": "KPMG is a good opportunity. In consulting, you typically get to work for many different clients, on a variety of jobs. At an early stage, you're also not just being a code monkey but also interacting with client staff. You get a lot of breadth of experience. After a few years, a lot of people end up employed in senior roles in client companies. Instead of paying expensive consulting rates, they can hire you direct and split the difference.",
+          "score": 1
+        },
+        {
+          "body": "KPMG could offer great long-term growth, but the pay jump isn't huge. If you decide to interview, definitely research their process—prepare.sh has company-specific questions that really helped me prep (I contribute there now, but used it way before for my own interviews).",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Anyone have KPMG lighthouse interview experience? (Assoc Consultant / Consultant: Java)",
+      "body": "Hi I am writing this post in the hopes that anyone can share their interview experience for the same. Advices are also welcomed.",
+      "subreddit": "jobs",
+      "score": 0,
+      "url": "https://reddit.com/r/jobs/comments/1lfgq5k/anyone_have_kpmg_lighthouse_interview_experience/",
+      "comments": []
+    },
+    {
+      "title": "Gf can’t find work, lies on every resume",
+      "body": "My girlfriend (31) moved to Calgary 3momths ago to support her sister who also moved there to attend university. She’s a Jamaican on work permit. She has a bachelor’s degree in business administration and experience working at a Jamaican bank, worked as an auditor for KPMG, and when she moved to Canada she found part time work at a tax-filing office while she was in school then found work as a finance manager for a non-profit while she was in the same town I’m in.\n\nShe’s realizing that the job market for someone working finance in Calgary is rather saturated and she didn’t start looking for work soon enough before moving. She’s decided to lower the bar in terms of workplaces, but she’s had this idea to forge each and every resume for the jobs she’s applied to. This includes positions she’s never held at places she’s never worked (customer service at clothing stores, server at a restaurant, clerk at a grocery store).\n\nI’ve tried telling her countless times to stop making up jobs and just use her real work experience, and if she does any workplace-specific doctoring to her resume to just relate her skillsets to whatever place she’s applying to. She insists that “all immigrants lie on their resumes” and “nobody will hire me if I don’t have experience in these (entry level) jobs,” and that she shouldn’t include real experience in them. She’s been applying to these entry level jobs for 3 weeks now and hasn’t gone past a couple of interviews. I feel like she overthinks all this to the point her fake was in her resumes is plain as day to see to a hiring manager.\n\nTL,DR: My gf with professional financial-field qualifications is trying to find work at entry-level jobs in a new city but is lying on every resume she makes to “suit” the place she applying to, even omitting real experience. She’s been at it for months and it’s not working.",
+      "subreddit": "jobs",
+      "score": 3,
+      "url": "https://reddit.com/r/jobs/comments/1out8fi/gf_cant_find_work_lies_on_every_resume/",
+      "comments": [
+        {
+          "body": "Bro she needs a job. Look at the market. Ur thinking about honesty when in reality she will be able to do most of these jobs if she gets them. Its not like she’s applying to be a doctor. I would advise her that she is less likely to get the jobs if they think she is lying and it will backfire. But to stress about her honesty in this market is just hilarious because ur downplaying her desperation.",
+          "score": 9
+        },
+        {
+          "body": "Don't most places check employment history?",
+          "score": 6
+        },
+        {
+          "body": "You really shouldn't share so many specifics here.",
+          "score": 11
+        },
+        {
+          "body": "The reason it’s not “working” is because companies have gotten good at knowing if you are lying or not. There’s a ton of employment verification tools out there, and her resume will be immediately dropped without any feedback if their tools detect a discrepancy.\n\nThe reason she hasn’t found work is ***because*** she’s lying, not in spite of it.",
+          "score": 2
+        },
+        {
+          "body": "Even if overqualified, her experience is vast.  She has worked for notable organizations in the recent past.  Perhaps strive for a not for profit finance position(s).  She has experience, qualifications, and has been a trusted employee of a top global accounting firm.  \n\nMake certain she is mirror imaging the buzz words in the job advertisement.  If the job positing has the word \"spreadsheets\" then gf must have \"spreadsheets\" on her resume.  Another example, if the ad states \"able to analyze the financial statements for the big picture\" your gf's resume must read at a minimum \"analyzing the financials for the big picture.\"  \n\nBy mirroring the word choices in the job posting gf's resume will be chosen from the 1,000s of resumes submitted.  Only them might her resume be glanced at by a human.  Figure out the best way to get past the gatekeeper and get to the next level.\n\nTell gf there is a minute probability that she can be dishonest during a job search without being found out.  She may sidestep for a short while, but not for long.  Honesty is the best policy.",
+          "score": 2
+        },
+        {
+          "body": "Calgary is such a dystopia. ",
+          "score": 1
+        },
+        {
+          "body": "Disgusting behavior to lie because everyone else does it, they don’t. Tell her to be honest, might help he in more ways than professionally. Or get her tested for pathological lying. Or just tell her she should be honest on her resume and realize the market is really bad.",
+          "score": -2
+        }
+      ]
+    },
+    {
+      "title": "Interview with big 4 consulting company ",
+      "body": "I have an interview tomorrow with KPMG and I'm super nervous. It's for an entry/junior position, so I'm doing my research to see what kind of questions I can expect. I don't have much interview experience at all, let alone for a consulting job.\n\nI would love any insight into what a company like that looks for in a junior associate. Are there any dos or don'ts I should know about? ",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/1fnni4s/interview_with_big_4_consulting_company/",
+      "comments": [
+        {
+          "body": "I don’t have the answer for you but I do know there’s subs for big 4 and accounting and consulting so all of those will be more helpful",
+          "score": 1
+        },
+        {
+          "body": "It’ll very likely be a personality type interview. For most entry level Big4 roles you’re not really expected to have a great deal of knowledge or experience of the actual job. Just present smart, confident, and personable.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Feeling burned out and worried",
+      "body": "Hi! I’m a soon to be grad in NYC majoring in international political economy. I’m working part time at a work study position and as a admin at hedge fund in nyc. I’ve done a virtual program for KPMG for data analytics and a internship program as a financial analyst at a cpa firm. \n\nYet, I’m still hustling to find a good offer for full time. I don’t really know what I’m gonna do after college. My admin job ends in May, I graduate in May, and my work study ends in May. \n\nI feel worried and burned out by this whole year. I’m pushed for time to find and decide with nothing really set. I don’t know what I want to do and I feel crippled by an enormous feeling of imposter syndrome. I feel like I’m not good enough especially during interviews. \n\nI’m feeling very lost on what I should do. I want to be so confident and carefree in thinking that everything will figure themselves with time but I don’t want to let down anyone. \n\nThank you!",
+      "subreddit": "jobs",
+      "score": 2,
+      "url": "https://reddit.com/r/jobs/comments/mddqca/feeling_burned_out_and_worried/",
+      "comments": [
+        {
+          "body": "Hello, thank you for posting to r/Jobs! \n\nWe just wanted to let you know that we have a new [discord server, come join the chat!](https://discord.gg/TY6ErXV)\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/jobs) if you have any questions or concerns.*",
+          "score": 1
+        },
+        {
+          "body": "any reason why you cant return to KPMG or that CPA firm? id focus on reaching out to your kpmg network. They hire a lot.",
+          "score": 1
+        },
+        {
+          "body": "What did you learn in IPE? \n\nWhat did you want to do with your degree? \n\nI majored in Poli-Sci and it was a mistake.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "[Hiring] IT Audit, IT Risk, IT Security Consulting - Soon/Recent Grads or Relatively Inexperienced are Welcome",
+      "body": "Background:  I am a first time poster.  My friend told me I needed to post this on Reddit since he thinks some people here could benefit from it.\n\nMost Big-4 Accounting Firms are hiring IT Auditors, IT Risk, IT Security, or whatever mixture of those kinds of things.  Mine in particular (Ernst &amp; Young), is actively looking for \"Staff\" people (usually people somewhat experienced, or recent grads).  \n\n-----\n\n**General Qualifications:**\n\n - 4 year College graduate with decent GPA (above 3.2, the higher the better)\n\n - Degree in accounting, information systems, computer science are most common (also math, economics, others have been offered jobs)\n\n - Not opposed to working long hours sometimes (\"busy season\" is easily over 50 hours/week)\n\n - Not opposed to working in teams.  There would never be a time when you are flying solo.\n\n - If you're a security person, you need to be OK with travel.\n\n-----\n\n**Why is it a good job?**  Well I like it.  You have a wide variety of opportunities, learn a lot every year, and move up the chain relatively quickly.  For those unfamiliar with Big 4 firms, generally you are a Senior after 2 years of Staff, and a Manager after three years of Senior.   You start off making less than being \"in industry\" but your raises are generally much much higher.\n\nAlso, benefits, 401k matching, and all that stuff.\n\n-----\n**Interested?**  You can either go to their website and forget about me, or you can contact me.  If I think you meet the general requirements I will make an inside referral.  If I make the referral, you stand a modestly better chance at getting the job.  If you are looking in So. Cal. I would probably be one of the people interviewing you.\n\n-----\n\n**On a personal note,** I've been with this company for over 5 years myself and started as a Staff.  I'd be more than happy to give you a \"real\" lowdown on the job, especially if you are in the Southern California area (you'd be either working with me or other people I know).  **There are also other areas (outside S Cal) looking to hire, but I know far less about those positions.**  Also, other competing firms are looking for similar people, if you search Deloitte, Pricewaterhouse Coopers, or KPMG you could shotgun your resume without too much tailoring.\n\nGood luck out there!",
+      "subreddit": "jobs",
+      "score": 10,
+      "url": "https://reddit.com/r/jobs/comments/ehcaw/hiring_it_audit_it_risk_it_security_consulting/",
+      "comments": [
+        {
+          "body": "[deleted]",
+          "score": 3
+        },
+        {
+          "body": "Good looking out, OP. FWIW, 15 KPMG auditors are currently sitting outside my office door, and we're signing a contract with E&amp;Y later this week. Kind of interesting the work they do (I assumed 'white hat' referred to network security only, imagine my surprise when they broke into the building using a coat hanger and file folder!). If my transfer to finance doesn't pan out, I'm definitely hitting you up for referral!",
+          "score": 2
+        },
+        {
+          "body": "Thank you for this! Although I am looking for a job in Sacramento, this was still helpful, as this seems like a perfect position for what I want to do. I'll be checking the website to see if there are any openings in Sac. Thanks again for sharing this.  ",
+          "score": 1
+        },
+        {
+          "body": "you should cross post this to /r/netsec",
+          "score": 1
+        },
+        {
+          "body": "I'd definitely be interested. ",
+          "score": 1
+        },
+        {
+          "body": "[deleted]",
+          "score": 1
+        },
+        {
+          "body": "I'm a recent CS graduate with a 3.35 GPA located near the NYC area, but I'm open to relocating. I also have some experience working with a large corporation, but otherwise very little work experience. Do you have more information about the types of positions available? I took a look at the E&amp;Y website, but the applications section was a bit clunky to navigate.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Internship Decision Help",
+      "body": "I applied for KPMG for a summer internship and I got a 30 minute non-technical interview for their \"Tech Engineering Internship.\" A few days later I receive an offer which was completely unexpected as there were no technical questions. I was told that the bulk of my work would be coding over the phone. The fact that there were no technical questions made me question the quality of their engineers (and the possible work I would be doing). I also considered that I might be a replacement for someone else who dropped since the notification of an interview to offer was less than a week. The job description didn't mention anything about coding and sounded more like an IT position. Here is the job description.\n&amp;nbsp;\nResponsibilities &amp; Qualifications\nResponsibilities:\n\n• Technical writing, including authoring documents defining operational policies and procedures\n\n• Research technology trends in the industry and the academic world\n\n• Assist with building lab environments for PoC work\n\n• Create how-to videos describing the proper use of IT procedures\n\n\n\nQualifications:\n\n• Working towards Bachelor’s degree in Computer Science or related discipline, with emphasis on application development, information \nmanagement systems, security or database management systems. IT project management is a plus. \n\n• Basic technical skills to learn technology and help support IT staff and their clients\n\n• Excellent organizational and communication skills, with ability to prioritize projects and tasks\n\n• Basic knowledge of MS Office\n\n• Ability to maintain confidentiality of sensitive and privileged information\n\n• Targeted graduation dates from 2018 through 2020\n\n&amp;nbsp;\n\nI'm not sure if I should take this internship over another small software centric company that has a title of Software Engineering and that actually had technical questions (albeit simple ones). If anyone knows anything about the Tech Engineering internships at KPMG that'd be great information as well. I am more concerned about which internship would be more helpful to my skills and resume than the money.\n\nEdit: The pay for the internship is about $30 an hour which seems reasonable for a SWE internship",
+      "subreddit": "cscareerquestions",
+      "score": 1,
+      "url": "https://reddit.com/r/cscareerquestions/comments/66o5qe/internship_decision_help/",
+      "comments": []
+    },
+    {
+      "title": "KPMG Lighthouse Presentation Interview",
+      "body": " Hi All, I had multiple interviews with KPMG lighthouse and the next step is a 15- 20 minute presentation about Data and analytics for group of technical savvy people. Is there any one who can tell me or guide me how to go about this? Thanks in advance.",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/ltscq5/kpmg_lighthouse_presentation_interview/",
+      "comments": [
+        {
+          "body": "Hello, thank you for posting to r/Jobs! \n\nWe just wanted to let you know that we have a new [discord server, come join the chat!](https://discord.gg/TY6ErXV)\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/jobs) if you have any questions or concerns.*",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "[Article] 57% of surveyed employees would trade 20% in salary in exchange to work with close workplace friends",
+      "body": "There was a recent survey from KPMG of \\~1,000 people that said 57% of people would be willing to trade 20% of their salary if they got to work with \"close workplace friends.\"\n\nHaving done dozens if not hundreds of exit interviews - nearly every single person when asked \"What will you miss about XYZ company/role?\" people would respond with \"the people.\"\n\nBut that implies you will find more close workplace friends at your next jobs, and the next, etc.\n\nPassing up on a financial gain for a group of close workplace friends you'll likely find at a future job seems like an odd tradeoff for these respondents. ",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/1nnzbkx/article_57_of_surveyed_employees_would_trade_20/",
+      "comments": [
+        {
+          "body": "People have close workplace friends?",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "title": "Turning down a job offer because of the work environment?",
+      "body": "Just to clarify, I haven't been offered the job yet.  I am currently employed but am not very happy with my job due to a boss with a very difficult personality (he's driven away a lot of people during his time at the university).\n\nI interviewed for a position at KPMG the other day.  It's 5 miles away from where my wife and I want to live (where there are very few jobs - most people commute into the city which is about an hour on the train), is in the field I studied in grad school (I would say that I have a lot of experience for the position but I'm not super passionate about the work), and would obviously pay pretty well and have growth opportunities.\n\nI interviewed with three different people (half hour with each one) and tried to get a sense of the work environment from each.  The first person was a Director and without me bringing it up, he said bad days at the office would probably keep me there until midnight or 1am.  The second person was an Associate Director who said he has two kids and generally works 9am-5:45pm and works another hour from home each night.  The third person was also an Associate Director and said that it's a demanding job and that it's not uncommon to get an e-mail on a Saturday night asking for something to be done by Monday morning.  So, basically, I still feel like I don't have a great sense of whether this would be a job with 50-hour weeks or 80-hour weeks.\n\nI know there are a lot of people out there who can handle long hours and always being on-call via the blackberry/iphone.  I'm not one of them.  While most jobs have the occasional later than usual day or occasional Saturday with which I have no problem, I have a visceral reaction when work is keeping me in the office and I can't go home and have dinner with my wife.  In addition, we are trying to have a baby now and I don't want to be an absentee Dad; both my wife and I are ok with me getting paid less if it means that I'll be around and be able to have a normal home life.\n\nIt is unreasonable of me to turn down a job offer (again, I haven't gotten an offer yet and I currently have a job) due to what I perceive will be longer hours than I'm willing to work?",
+      "subreddit": "jobs",
+      "score": 42,
+      "url": "https://reddit.com/r/jobs/comments/1jt1rx/turning_down_a_job_offer_because_of_the_work/",
+      "comments": [
+        {
+          "body": "Take or turn down any job for any reason. You don't need to justify your decision to anyone except maybe your wife. ",
+          "score": 49
+        },
+        {
+          "body": "[deleted]",
+          "score": 11
+        },
+        {
+          "body": "No, it isn't unreasonable at all. If you're looking to start a family and want to be there for your kid and aren't currently scraping by, I don't see anything wrong at all with rejecting this job. When you do turn down the offer, make your reasoning known (\"I got the feeling from speaking to several people that this job could be a 60-80hr a week commitment and I'm not at a point in my life where I can handle that\") -- you never know if maybe they'll make some kind of hour cap deal with you.",
+          "score": 13
+        },
+        {
+          "body": "You should've done your research on the company's culture before even going into the interview. Would've saved you some time.   \n    \nKPMG is one of the top consulting firms out there competing with the likes of Deloitte and Ernst &amp; Young.  Competition is high because the pay is so good. They're designed to burn people out in 2 years or less. Anyone that is a Senior Associate or higher just happens to be tougher than the rest in how much they could stomach, or very rarely, actually enjoys what they do.   \n    \nOut of the 10 friends I have that works or have worked at one of those companies, 8 have moved on after 2 years, which is actually quite normal for that industry.  However, working at those companies almost gives you an instant approval at any other company because the interview, training, and job tasks are so rigorous. They've gone on to great jobs with great pay with much less stress/work.    \n    \nPersonally, I wouldn't worry about anything until you get an offer. But let's say you do and it's a consulting position, so here's input:   \n     \n--You're only on-call when you're assigned a project with a hard timeline.  If you're good, you won't have to worry too much. However, if you're bad or a member of the team is having issues, then you'll have to put in more time.  You can choose to have breaks between projects. Also, depending on the project, it could be 50 hour weeks or 80 hour weeks.   \n     \n--Depending on the vertical you're mainly servicing, you could have high times and low times throughout the year. For example, let's say you're in auditing. High times sync up with tax season, which means long hours almost every day. Once it's over, you could take a month off, and then when you're back, it's almost like a regular 9-5 for the next few months.   \n     \n--I'm going against the hive mind here, but I say take the job if it's offered. Tough it out for two years, and the world will be your oyster once your done. These kinds of companies take consulting jobs from the other top Fortune 500 companies and help them make more money.  It's like if you were a software engineer for Google for a couple years, and then decided to move ANYWHERE else -- you'd be at the top of the list for consideration every single time. So if you ever decide to move on to greener pastures, this is one of the few professions that will actually help you in your career change because of what's known about them and the network you become a part of. A friend of mine that worked for Deloitte was only there for a year, when he was hired away by a company he consulted on. It's rare, but it happens.     \n    \nAll in all, take advantage of what you can control. You're trying to have a baby, so you're already looking at least a 10 month runway before any big life changes. 10 months is more than enough time to get used to this new job and completely own it. Not only that, you can't control when your wife conceives, but you can control the kind of work life you lead until conception and (9 months later) birth. Many people think they're entitled to something great, but let's be honest, you have to pay your dues at some point.   Unless you win the lottery.   \n     \nEdit: I reread my comment and I sound kind of like an ass. Sorry. Anyhow, since you say you have a lot of experience, I can only assume that you'll simply be awesome at this new job, and you'll be in the favor of some important people in due time. Use the network to your advantage once the baby comes around.",
+          "score": 12
+        },
+        {
+          "body": "The Directors explain the demands of the position.\n\n &gt; I know there are a lot of people out there who can handle long hours .... I'm not one of them.\n\nYou answered your own question on whether to accept the position.",
+          "score": 6
+        },
+        {
+          "body": "It's as valid a reason as any - you're not a robot where skills = the right job for you.\n(You aren't, right?)\nOn the other hand, it may matter what your career path is - some careers will ~require~ this of you early on - if it's a banking/finance path you're on, you gotta get the long hours in early.  If it's software/IT/programming, it can be that way until you're upper management (at least).  If it's admin, design, advertising, marketing or some other role that supports the main functions at KPMG, then you may be able to find other pathways.  \nYou mention there aren't many other oportunities - are there ~any~ you could get?  You ~know~ you hate your current job, but are facing ~maybe~ hating the new one.\n\nAnyway, good luck!  Let us know!\n\n",
+          "score": 8
+        }
+      ]
+    },
+    {
+      "title": "Appian Solutions Consultant",
+      "body": "Does anyone have any details on Appian’s Solutions Consultant position? I’m currently interviewing for the role but have competing offers from Deloitte, KPMG, and Capital One. \n\nWhat’s the work hours, PTO, salary and benefits like at Appian? I heard good things about Appian’s technology and engineering, but don’t know much about their consulting.",
+      "subreddit": "jobs",
+      "score": 6,
+      "url": "https://reddit.com/r/jobs/comments/plbugh/appian_solutions_consultant/",
+      "comments": []
+    },
+    {
+      "title": "How do I answer this specific question? The deadline for this video interview is in a few hours",
+      "body": " \n\n# The video interview is for KPMG for a Data Engineering / Analyst role, and they ask:\n\n\"At Kubrick, we love meeting people with different backgrounds, personalities and interests. Could you tell us about yourself for 2-3 minutes?\"\n\nI have never answered this before, this is actually my first interview in about 4 years lol",
+      "subreddit": "jobs",
+      "score": 4,
+      "url": "https://reddit.com/r/jobs/comments/jf1jwj/how_do_i_answer_this_specific_question_the/",
+      "comments": [
+        {
+          "body": "Hello, thank you for posting to r/Jobs! \n\nWe just wanted to let you know that we have a new [discord server, come join the chat!](https://discord.gg/TY6ErXV)\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/jobs) if you have any questions or concerns.*",
+          "score": 1
+        },
+        {
+          "body": "This is pretty direct, and we can’t make up a personality for you. Some things to consider covering:\n\n- An abbreviated overview of your career path — what led you to apply?\n\n- Did someone or something in particular inspire your career interests?\n\n- What do you like to do in your free time? What kind of books do you like to read or organizations do you like to support?",
+          "score": 3
+        },
+        {
+          "body": "Tell us about yourself questions are usually about how you got to this place in your career. Your resume covers the what. This should be more about the why. You can mention your hobbies, but I wouldn't dwell on it unless it supports your work somehow.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "What should I be prioritising in my first graduate job?",
+      "body": "I'm from the UK, looking to go into data analytics. My goal is to work for a company for 2 or 3 years, get some impressive stuff on my CV and then move to the Netherlands, where I'll get a new job.\n\nSo what should I be prioritising?\n\nWhile money isn't necessarily a huge deal I'll obviously need to cover a decent living standard, which obviously isn't cheap in London, for example. I thought I'd look at some job listings that need more experience but I'm not sure whether I had the right interpretation. My general impression is I need experience in certain technologies, be able to improve my communication skills, more or less.\n\nAnd what kind of company and/or programme should I be looking for?\n\nFor example, I have an interview coming up at a multinational HR provider and temporary staffing firm, where the data science department was only established earlier this year, but they would be willing to fast-track me into a senior data analyst role in 2 or 3 years(I think it was 2). Firstly, I'm not sure whether other companies will take this seriously. Secondly, I'm concerned about the training, the pressure, the dept head's experience. The salary might start off a tiny bit low but it increases quickly - same amount every 6 months which is 9.2%, 8.5%, 7.8%, 7.2% respectively (or 18.5% and 15.6% each year). Is there an advantage to more established programmes such as at Accenture, KPMG, etc?\n\nProbably worth mentioning I'm in my late 20s and only just graduated due to medical conditions. So, there is the urge to catch up so to speak but so is there to have a work-life balance.\n\nAppreciate any advice anyone could give me. Thanks!",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/cvqizv/what_should_i_be_prioritising_in_my_first/",
+      "comments": []
+    },
+    {
+      "title": "Switching jobs from Internal Auditor to Ubisoft Project Coordinator",
+      "body": "Hi, kindly seeking some advice from you guys!  \n\nAs the title states, I'm currently a Year 2 Associate in the Internal Audit department in one of the Big Four (think PwC, KPMG, Deloitte, EY), have applied for the Ubisoft Project Management Graduate Programme and received a phone interview.   \n\nUnfortunately, the HR staff who interviewed me told me that it would be tough for me to get into the grad programme as one of the requirements (on their website) is less than 1 year of working experience (I have roughly 1.5years), and asked me if I was okay with being a regular hire (as a Project Coordinator which I guess is entry level). I told him I'm fine with it and he said he will contact me with regards to the face to face interview, if the hiring committee approves my profile.   \n\nWould like to enquire about the following:  \na) What is the financial remuneration of Project Management like (e.g. I know what increments I can get in my current job - 20% increment in my basic salary once July comes along)  \nb) Should I switch career paths if I get hired as a regular hire (not selected for the graduate programme)    \n  \n  My plan was to wait until July to get promoted before switching but Ubisoft's application closes in mid Feb. If I get the Graduate Programme everything works out as it starts in September. I will definitely be switching if I managed to get selected for the graduate programme. \n\nTLDR: Should I switch from my Internal Audit job (1.5years) to Ubisoft Project Coordinator if I'm keen on the gaming industry\n\nThanks in advance!\n",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/465vnc/switching_jobs_from_internal_auditor_to_ubisoft/",
+      "comments": [
+        {
+          "body": "Isn't internal audit really just a temporary job anyway?  I know internal audit programs at many corporations are stepping stones for management training.  So, it looks like it's time for you to move on.\n\nIn terms of Project Management, do you want to do that?  Is that your thing?  Ignore the gaming industry.  I worked there one summer (EA), and while it is the best gaming company to work for out there, its pay was behind other software verticals, and though EA was stable, gaming itself is unstable.  Chances are, you will quit that industry.\n\nSo, do you want to do Project Management?  That's your call.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "How long to wait before following up post-phone interview?",
+      "body": "I recently applied to a job with KPMG.  It's a position that I have absolutely perfect experience for - I about jumped out of my seat when I saw the job posting.  I have family who have worked in this particular office and was able to get an HR person to put in an employee referral.\n\nI had a phone interview with a recruiter last Friday (9 days ago) which I felt like I nailed.  After the call, she sent me via e-mail a form to fill out to \"officially\" apply for the position and told me she was going to forward my resume, cover letter, etc. to the hiring manager.\n\nSince it's such a big office and I don't know the hiring manager, the only two people I can check on this with are the recruiter and the person I know inside KPMG, but she's in a different department and I'm not sure if she'd even know how to find out where things stood for me.\n\nAny suggestions on where I should go from here?",
+      "subreddit": "jobs",
+      "score": 11,
+      "url": "https://reddit.com/r/jobs/comments/1iqzdl/how_long_to_wait_before_following_up_postphone/",
+      "comments": [
+        {
+          "body": "9 days is long enough to touch base and see if they need anything else from you. Could be that they didn't get the application, but big companies tend to take longer. Email the recruiter. ",
+          "score": 4
+        },
+        {
+          "body": "Two weeks. ",
+          "score": 1
+        },
+        {
+          "body": "Send s thank you letter the same day",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "title": "Do you have any tips for preparing for KPMG Netherlands adivsory team interview?",
+      "body": "I have a first interview planned next week for a consultant role in the advisory team of KPMG Netherlands. Doe someone have any tips to prepare for this first interview? They mentioned that it will be focused on me as a person, self reflections, knowledge and interest in the supply chain team and the area in general.  \nAlso, for the second interview they told me that it would be a business case. Is there someone who has an idea what kind of business case and any tips on where I can practice this?  \nThanks!",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1i6fozn/do_you_have_any_tips_for_preparing_for_kpmg/",
+      "comments": [
+        {
+          "body": "Unfortunately, there aren’t many good supply chain case studies available. Most of the operations-related content on YouTube is subpar—many feature Ivy League types who are smart but end up bullshitting their way through the cases because they don’t understand operations flows, or the inputs that make up supply chain cost structures. (And It’s obvious to anyone who studies operations and process flows that they are providing unreliable advice, so avoid using these videos as your models!)\n\nI recommend starting with the simple “deli problem” as a launchpad to develop your own framework for improving efficiency:\nhttps://brainly.com/question/31427502\n\nYou need to master 1) breaking sequences into constituent components and 2) determining how to make those individual  components more efficient. If you can do that you’ll be fine.\n\nOnce you master the deli problem, you can extend the principles to more complex problems.\n\nChatGPT is familiar with the deli problem, so you can ask it to create more complex models based on the core concept. You can even switch ChatGPT to voice mode to simulate a case interview with back-and-forth dialogue.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "How do I answer this specific question? The deadline for this video interview is in a few hours",
+      "body": "The video interview is for KPMG for a Data Engineering / Analyst role, and they ask:\n\n\"At Kubrick, we love meeting people with different backgrounds, personalities and interests. Could you tell us about yourself for 2-3 minutes?\"\n\n&amp;#x200B;\n\nI have never answered this before, this is actually my first interview in about 4 years lol",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/jf1je9/how_do_i_answer_this_specific_question_the/",
+      "comments": [
+        {
+          "body": "Hey! Congrats on the interview! here's my suggestion-\n\nTry to think of how you'd answer this question to someone you really want to impress... Try to think of what sets you apart , what's your journey been, why did you chose your major and how did you end up where you are. I think what they want to hear is a 'story' that makes you 'unique' from other candidates. \n\nGood luck :) hope things work out for you !",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "title": "Current Employee Referrals",
+      "body": "I need employee referrals for KPMG.\nI have been working with Deloitte for 4 yrs as a consultant with focus on QA/Testing in public sector and now I want to move to a bigger city.\n I applied for KPMG few months back and had two separate phone interviews with their managers. Since, they liked it they scheduled me to come for in person interview, \n but at the last minute citing interviewer availability they cancelled and since then all they have doing is asking for my availability and not scheduling in person rview intciting the same reasons. \n If someone who is currently with KPMG can help me out with referrals I would be grateful. This was for role in QA/Testing role Dallas, TX for their so called PDS department and I am willing to re-locate to any big city with KPMG.\n I am not sure why I  keep on cancelling the in person interview, as they haven't told me you are not selected, as based on the feedback from in person interviews they really like me. \nSo, hoping to see if someone can move my file up the chain. I know you will make referral bonus doing that, as in Deloitte I have made almost $10000 in last 4 yrs by referring qualified candidates.",
+      "subreddit": "jobs",
+      "score": 0,
+      "url": "https://reddit.com/r/jobs/comments/4x9l0c/current_employee_referrals/",
+      "comments": [
+        {
+          "body": "Ask Phil Mickelson.",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Need Opinions on My KPMG Forensic Accounting Interview",
+      "body": "I recently interviewed at KPMG for a forensic accounting internship. The interview went well, the vibe was good, and I felt like the interviewer and his assistant liked me.\n\nAt the end of the interview, the interviewer asked if I had any questions. I explained that I wanted to take the next step in my career and get into accounting. He seemed to misunderstand, thinking I meant general accounting, but I clarified that forensic accounting is what I’m really interested in. He smiled, and the conversation stayed positive.\n\nI mentioned I had other internship offers (e.g., CN Railway) but that KPMG was my top choice. He then said it’s important to apply to other firms, including the Big Four, and mentioned that most recruitment happens in September.\n\nAfterward, while leaving, I asked him another question, and instead of rushing off, he stopped, took his time, and gave me a detailed answer. It didn’t feel like he was trying to get rid of me.\n\nWas his comment about applying elsewhere just friendly advice, or could it be a subtle sign that I might not get the position?\n\nFor context: 5 years in the Canadian Armed Forces (HR &amp; infantry), an internship at a small accounting firm, DEC in accounting, starting my bachelor’s in accounting, AEC in residential real estate, project management, and charity event coordination.\n\nWhat do you think?",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1itne49/need_opinions_on_my_kpmg_forensic_accounting/",
+      "comments": []
+    },
+    {
+      "title": "KPMG Delivery Network",
+      "body": "KPMG Delivery Network (KDN) - anyone work in KPMG’s Delivery Network or have experience interviewing for a role in a DN? I have an interview coming up.",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1iyz5xf/kpmg_delivery_network/",
+      "comments": []
+    }
+  ]
+}

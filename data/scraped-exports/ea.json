@@ -1,0 +1,1111 @@
+{
+  "company": "ea",
+  "post_count": 60,
+  "exported_at": "2026-01-18T17:44:53.273Z",
+  "posts": [
+    {
+      "title": "This seems unreasonable ",
+      "body": "Just got an email from recruiter about their interview process. Consists of 45 min recruiter call, then 4 virtual interviews (1hr ea) then an 8hr onsite If those virtual interview goes well. And on the onsite there's a presentation/live demo towards the end. This seems crazy to me, like even 45min call with recruiter was pushing it a bit. But 4hr virtual on top of an 8hr day with presentation to higher ups really seems like a lot. What do you guys think? Am I crazy thinking this is absurd? Or am I overreacting and this is normal?",
+      "subreddit": "cscareerquestions",
+      "score": 138,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1e2508z/this_seems_unreasonable/",
+      "comments": [
+        {
+          "body": "Yeah no that's insane, that would be a hard pass for me.\n\n45 min recruiter call is indeed long, but I can suffer through it, and 4 hours of virtual interviews is fine for good companies, but anything beyond that is a straight up no from me.\n\nThose guys expect you to take 2 days off just to apply to their company, it's ridiculous.",
+          "score": 182
+        },
+        {
+          "body": "Seems like a great way to weed out all but the most desperate applicants. Maybe that's their intention.",
+          "score": 135
+        },
+        {
+          "body": "What role are you interviewing for?",
+          "score": 32
+        },
+        {
+          "body": "[removed]",
+          "score": 30
+        },
+        {
+          "body": "It's possible that the recruiter call isn't actually 45 minutes and that's just some default time slot. It's an odd default time slot for a recruiter call, but I can't imagine having that much to talk about with a recruiter.",
+          "score": 15
+        }
+      ]
+    },
+    {
+      "title": "Is self studying while having a full time job doable?",
+      "body": "Hello\n\nBefore I start I want to give a little background. I graduated from Uni about a little over a year ago with a BS in Computer Science. When I graduated I was very stressed and nervous about getting a job and paying my school loans that I basically ended up getting the first job I could find. Now a year later I'm really regretting that decision since I don't like the work I do, I was put in a report developer team. I also frequently work long hours and work in a team that is very disorganized. I trully wanted to like the company and job, but this job is making me depressed and I honestly believe that it would be better not just for my career, but for my mental health to go elsewhere.\n\nWith that said, I feel like over the past year I have forgotten many of the things I learned in school, mainly algorithms. I say this because I know a lot of interview question are about algorithms. I came up with a schedule which basically consists of:\n\n* relearning algorithms: Intro to algorithms CLRS third edition\n* Interview practice: Cracking the coding interview\n* Studying/Learning JS a bit more: Eloquent JS\n* Doing small side projects\n\nI have the planned schedule [here](https://docs.google.com/spreadsheets/d/1B0YrfjJS57W8X36LdEaH9XXsm-BPskIk5mEZlPLbPfw/pubhtml): \n\nAnyways I was wondering based on your experience, is this a doable plan? Or am I setting my self up for failure.\n\nThanks",
+      "subreddit": "cscareerquestions",
+      "score": 2,
+      "url": "https://reddit.com/r/cscareerquestions/comments/55jgmz/is_self_studying_while_having_a_full_time_job/",
+      "comments": [
+        {
+          "body": "It's a good idea to do self study on the side while looking for a new position. However, I recommend starting to look for opportunities *now* instead of when you feel you're ready. You might be underestimating yourself, and even if you aren't, people frequently are not the best judges of their own abilities. So start sending out resumes and filling out applications and simultaneously work on interview prep. Note that it can take months from the day you send your resume to a company to the day that you get an offer, so it's best to get started sooner rather than later.\n\nI don't think I would even bother with going through CLRS or Eloquent JS because they really aren't necessary if all you want is to pass an interview; instead, just look up the general algorithms and data structures that everyone is expected to know or at least to have heard of (eg. binary search, merge sort, heap sort, quick sort, hash maps, linked lists, double ended queues).\n\nIn general, it sounds like you're feeling nervous and have low self-esteem, so you're trying to fix all of your problems with this self-study plan. But realistically, if your goal is to get a new job, then that isn't the quickest and easiest way from point A to point B.",
+          "score": 2
+        },
+        {
+          "body": "The \"Hour Log\" worksheet displays your planned hours per week? Yes, 15 hours a week is a very doable goal, but you'll have to exercise self-discipline,  and, probably sacrifice sone of your weekend activities if the workload at your job creates obstacles to studying on weekdays.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Software Engineer Intern at EA",
+      "body": "So i have recieved a call to announce me that i got a test on my email and that i should complete the test before a inperson interview and i have never applied for an internship before it .I've asked a relative that has been working in the domain for some time now and he gave me advice about what i should research mainly oop related stuff i created myself a cheat-sheat for some of the things that he mentioned to help me learn .But they gave me a codeingame link so i am guessing that i will have to write some code ? .What should i expect how can i prepare better ?.I have time until monday to complete my test .Any kind of advice is nice",
+      "subreddit": "cscareerquestions",
+      "score": 77,
+      "url": "https://reddit.com/r/cscareerquestions/comments/gs86cd/software_engineer_intern_at_ea/",
+      "comments": [
+        {
+          "body": "Can't really answer this that well, but I just wanted to say that I interned at EA...23 years ago.  My name is in the credits of a PS1 game.  I had an awesome time there.",
+          "score": 188
+        },
+        {
+          "body": "I would assume Leetcode-like questions and prepare for those. See if you can find algorithm based questions that have been asked by EA in the past on Glassdoor.",
+          "score": 28
+        },
+        {
+          "body": "FYI: codeingame is mainly about testing algo skills through string manipulation tests. You have to write code that makes the game pass certain unit tests which are represented as a game.",
+          "score": 9
+        }
+      ]
+    },
+    {
+      "title": "EA Tech Artist Intern",
+      "body": "Hello!\n\nI recently got a interview for EA as a Tech Artist Intern. Its 2 interviews 60 minutes, technical and behavioral. For anyone that worked at EA and went through the process: what can I expect and how were your interviews? How are the technical questions?\n\nSpecifically Tech Artists: what kind of questions are asked and what should I study beforehand for the technical?",
+      "subreddit": "cscareerquestions",
+      "score": 1,
+      "url": "https://reddit.com/r/cscareerquestions/comments/thggbe/ea_tech_artist_intern/",
+      "comments": [
+        {
+          "body": "hey ik this is an old post but can u comment on how the interview went?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Can’t seem to find entry level cybersecurity positions.",
+      "body": "My situation may or may not be complicated (?) \n\nI’m a new grad (December 2021) and most of my experience is in QA: I worked a QA tester contract job with EA for a year just because I thought it would be fun and then I reluctantly interned at Blue Cross in a QA Config position (applied for a cybersecurity internship -&gt; didn’t get it -&gt; received another offer for this -&gt;I had one semester left and desperately needed an internship so I accepted smh). I thought my contract would be extended for a year but there was some budget mishap that only allowed it to be extended to February, whatever.\n\nI now feel as if I’m at risk of becoming pigeonholed in this field, nothing against QA at all it’s just not what I want to do forever. Now that I’ve graduated I have 0 experience in the field besides my courses (op systems, vulnerability exploitation, reverse engineering, etc) and this surprise news of my contract ending sooner than expected has me in crunch time trying to find a job man and I’m at my wits end trying to find entry level / junior / associate positions that are truly, well… entry level. Everything I come across requires at least 1 year of experience. And for all the jobs that I do find myself qualifying for, I never make it to the interview phase.. I’m trying my hardest to not apply to QA positions even though with my experience I may be able to bag one with a less difficulties than I’m having now.\n\nI shy away from Software Engineering because I don’t really care for all of the principles you have to memorize or brain teasers that come up in interviews it’s just not my thing. I love low level programming and the constant battle between malicious hackers and ethical hackers, and I know many people who find that stuff boring but I honestly find it exciting. Ultimately, I want to be a pentester and I know it’s a specialized field so I’m willing to work literally any position that contributes to required experience for the aforementioned dream job, but here’s the dilemma… I need cash. I have a girlfriend, I have 2 cats, car insurance, rent… you get it. Should I just… option 1: apply for another QA position that I really don’t want and work on certifications, CTFs, and projects OR option 2: should I just not give up and continue to search for jobs in the cybersecurity field like I want. I have 2 months (February is a short month too smh).\n\n\n\n\n\n\n\n\ntldr: Just read the last 2 sentences. Thanks in advance to anyone who replies.",
+      "subreddit": "cscareerquestions",
+      "score": 2,
+      "url": "https://reddit.com/r/cscareerquestions/comments/ruirex/cant_seem_to_find_entry_level_cybersecurity/",
+      "comments": [
+        {
+          "body": "Entry level cybersecurity is an oxymoron. It's one of the most advanced parts of the tech field. You usually don't move into a cybersec role until at least 5-10 years into your career.",
+          "score": 7
+        }
+      ]
+    },
+    {
+      "title": "How's this plan for self-taught -&gt; employment in 6-8 months?",
+      "body": "#Quick Background\n\n* I'm okay with HTML/CSS/JS\n* I'm very comfortable with Python and have a few unfinished projects in it\n* I've used sqlite and postresql a little\n* I did MIT's CS50 about 2 years ago\n\n#The Plan\n\n**Commitment**\n\n* 9 hours/day MON-FRI + 4 weekend hours = 49 hours/week\n* Mornings: Learn, Afternoons: Build\n* Fridays: Blog about progress in addition to the 9 hours of Learn/Build\n* Do everything in Git\n* Take copious notes – write down questions during Learn sessions and look up answers after\n* Update projects with better code as new things are learned\n\n*Months 1-2:* \n\n* Learn:[ The Complete Web Developer in 2018: Zero to Mastery](https://www.udemy.com/the-complete-web-developer-in-2018/)\n* Build: Treat Dispenser in React and MySQL\n\n*Months 3-4:*\n\n* Learn: [Git a Web Developer Job](https://www.udemy.com/git-a-web-developer-job-mastering-the-modern-workflow/)\n* Build: Unknown Project built in Angular and MongoDB\n* Attend 1 networking event per week\n\n*Months 5-6:*\n\n* Learn: [The Complete Junior to Senior Web Developer Roadmap \\(2018\\)](https://www.udemy.com/the-complete-junior-to-senior-web-developer-roadmap/), 1hr/day of LeetCode (or similar), 1hr/day of other interview prep\n* Build: FIFA bot with UI written in Angular\n* Attend 1 networking event per week or more\n* Apply for 3 jobs per day. Well-researched and customized resume and cover letter.\n\n*Months 6+:*\n\n* Learn: Find weaknesses in current skill set and focus on those. Read Clean Code.\n* Build: Ethereum dapp in React\n* Attend 1 networking event per week or more\n* Apply for 5 jobs per day\n\n**Projects**\n\n*Treat Dispenser*\n\nI had this mostly done 2-3 years ago. Needs to be simplified, polished, and reworked into something more modern. It used a Particle Photon (like an Arduino), Foundation (framework based on Angular), JavaScript, and Auth0 (which I'd like to convert to using its own database).\n\n*Unknown Project*\n\nI want to develop something from the ground-up after having gone through a full udemy course.\n\n*FIFA Bot*\n\nCurrently, it's a bot for the EA Sports game, FIFA 18. It's built in Python and utilizes Selenium and sqlite. Needs to be re-worked to use requests instead of Selenium (Selenium is too slow and can't compete with requests-based bots). Needs a UI.\n\n*Ethereum dapp*\n\nI'm in the testing phase for the contract right now. Need to put it on hold now that I'm doing a career change since it doesn't utilize in-demand tech. I don't know if there will be a ton of demand in the future, but I'd like to have some experience with it in my back pocket.\n\n##Questions\n\nHow does this look? What would you change?\n\nHow do the projects look?\n\nDoes this seem like a fairly realistic timeline considering my current experience and 49 hrs/wk?\n\nIf I provided updates to my progress every week, would anybody be interested? Would it become a good resource for the wiki? I see folks do this in non-programming subreddits, but haven't really seen it here.",
+      "subreddit": "cscareerquestions",
+      "score": 4,
+      "url": "https://reddit.com/r/cscareerquestions/comments/8s3fwz/hows_this_plan_for_selftaught_employment_in_68/",
+      "comments": [
+        {
+          "body": "[removed]",
+          "score": 2
+        },
+        {
+          "body": "I feel like 49hr per week and having a strict 6 month schedule of self studying is extremely hard. You said you did CS50 2 years ago, why did you stop/slow down your progress after?\n\nI'd say if you have the means, go for bootcamp/college/post-bacc route even if you have to take out loans. Going the bootcamp route may be costlier at first but you'll probably have a higher chance and also be able to land a job quicker than if you self studied. That'll probably make up for the bootcamp cost.",
+          "score": 1
+        },
+        {
+          "body": "Hey OP,\n\nI practically have the same goal as you. Started back in mid Feb. I've been studying my ass off every day since then. I'm currently going through an ES6 course to dive deeper into JS as I found the beginner boot camps just gloss over JS. I plan to stick with it and get pretty comfortable while learning DS and algorithms before I hop into a framework. From what I read everywhere, a framework is greatly going to increase the chances of landing employment so I have it planned in my schedule for when I feel I have a good JS base. \n\nIf there's one thing I wish I started implementing earlier into my studying, it's that I wish I concentrated more on practicing after each unit by myself to lock in the knowledge. Also accomplish more mini projects with that new knowledge.\n\nIf I feel like I'm getting burnt out, I try to take a break and watch something fun on YouTube that deals with programming. I usually play a Coding Train video on YouTube and it helps me relax and think of something else than the current chapter I'm reading or video course I'm on. Plus you're still learning at the same time! \n\nDo I feel like I'm ready to apply yet? Not quite. I've learned TONS since I started and I'm not planning to stop learning. It's just so fun and when I find something that just intrigues me even more, I fall in love all over again. The passion keeps me going. But I know discipline is what's ultimately going to get me to my goals. \n\nI hope you have a good time on your journey and I'll be rooting for you. We can do this! ",
+          "score": 1
+        },
+        {
+          "body": "I don't think it is going to work.",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Can I make it into the CS industry with a Bachelor of Environmental Studies (BES)?",
+      "body": "Hi,\n\nI am a Geomatics student(technical geography such as GIS) . I will graduate with a BES, Honours Geomatics along with a cs minor. Grades not good enough to get into BCS. I already know that I can self teach things to my self which is exactly what I am doing but if I can't land interviews then there is no point really. Will I be able to get Software Developer or Software Engineering jobs with my university degree at companies like GOOGLE, Facebook, or video game development companies like Bethesda and EA?\n\nMy grades are good enough, however to get a BMath degree with cs minor. Mathematics Physics perhaps. (I really like physics and ok with jobs in that field) I will however graduate 2 years later. I am not rushing to graduate and ik in grand scheme of things 2 years is not a big difference. My questions is should I waste the 2 years getting that degree or go into the industry and spend 2 years getting experience?",
+      "subreddit": "cscareerquestions",
+      "score": 6,
+      "url": "https://reddit.com/r/cscareerquestions/comments/3va98t/can_i_make_it_into_the_cs_industry_with_a/",
+      "comments": [
+        {
+          "body": "I got a professional software engineering job before I finished high school, and have still been getting them with a political science degree, so yes, you can!",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Confession of a introvert laid back developer",
+      "body": "This is more like a confession post and asking for advice/suggestions if anyone had similar situation.  \nAfter graduating (BSc in CSE) 7 years ago, I worked for a company which had burnt me out. We often had to work overtime and sometimes even at night to deliver projects. After working there for about 3 years, I had a chance to immigrate to Canada. So I moved to Canada and working for this company for 4 years. I must admit this is more of a laid back company and very flexible work hours. I feel like I am not doing anything important yet I stayed because of the flexibility and the payment is not bad too. What I do is mostly here is bug fixing, I am good at finding bugs and resolving issues. Also I like to work on different projects so my company is happy with me too I guess as I can take responsibility of both front end and back end works. I don't think I have anymore things to learn here.  \nBut after I was burnt out at previous company, flexibility at this company made me very lazy. I don't do much for self improvements outside of work. After coming from work I mostly play games. English not being my first language I don't feel comfortable in interviews. I only sat for few interviews (luckily EA Sports is located in city) but I didn't go well prepared so obviously I didn't get the job where I would love to work. I am also very introvert type person. Not sure how can I motivate myself from here. I would love to hear from someone like me and found the right career path.  \n\n\nTLDR: Introvert laid back developer, first job burnt me out, second job is completely opposite, not learning anything, need motivation to find the right career path.",
+      "subreddit": "cscareerquestions",
+      "score": 6,
+      "url": "https://reddit.com/r/cscareerquestions/comments/86gda5/confession_of_a_introvert_laid_back_developer/",
+      "comments": [
+        {
+          "body": "Well, most people invest work in the present so it will pay off in the future.  It does seem like you are currently at that pay-off point.  Perhaps you are unmotivated because you simply have everything you want at this point.  \n\nTap into that inner human greed a little more, and search for something else that you want to have or achieve.  After all, if you just want to learn new stuff, might as well pick a field thats interesting right?  Maybe dive into artificial intelligence or something.\n\nMaybe make your own video game or something, doesn't have to be anything serious, could be a complete parody of another game except with worse graphics. Maybe recreate call of duty, except you add in a 30 second cloak feature in there or something, or maybe heat seaking bullets where the only way to dodge is through a wall, door, or another person.\n\n",
+          "score": 5
+        },
+        {
+          "body": "[deleted]",
+          "score": 2
+        },
+        {
+          "body": "I'm actually in the exact same position, first job was lots of overtime and hard work, current job is laid back and low-pressure, low-stress. I also took 3 interviews and let's just say it's been a month since the last one and I haven't heard back from any of them. I'm thinking it's also because of the lack of self inprovement outside of work. It sucks that we need to do that in this industry when I feel like it's not as necessary for other career paths, but I suppose it's part of being a developer. \n\nOne thing I considered was buying a Kindle or programming books, hoping that just having spent money on them would guilt me into reading and learning with them. Perhaps that may help motivate you?\n\nI also think it's important to fail a few interviews. No one was successful their first try, and failure is a very necessary part of the path to success.  Don't stress over a bad interview and use it as a learning experience, that's certainly what I'm doing.",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Seeking Referral Opportunities for SWE Roles (Florida/Remote Only) – Facing CPT &amp; Sponsorship Challenges",
+      "body": "Hello, Reddit Community,\n\nI could really use some guidance as I continue my job search. I’m a **Software Engineer** with over 8 years in backend development and cloud technologies (Java, Spring Boot, Kubernetes, and AI/ML integration). Unfortunately, I was laid off about 6 months ago, and while I initially received plenty of interviews, sponsorship has become a significant barrier, and my **Day 1 CPT** status isn’t helping. I’m now focusing exclusively on **Florida** or **remote** roles due to these restrictions.\n\nIf anyone has insights, tips, or could connect me with potential opportunities or referrals, it would be incredibly helpful given the current challenges.\n\nI know that relocating to Canada or returning to India are options, but due to personal reasons, going back to India isn’t feasible. Moving to Canada, however, could be a possibility. I’m open to any advice as I navigate these next steps.\n\nThank you so much for your time and any support or guidance you might be able to share.\n\n[https://drive.google.com/file/d/1-QorUnfsfmHzlniCVNXfUWxxLaEaNgod/view](https://drive.google.com/file/d/1-QorUnfsfmHzlniCVNXfUWxxLaEaNgod/view)",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1gl455q/seeking_referral_opportunities_for_swe_roles/",
+      "comments": [
+        {
+          "body": "Does day 1 CPT not allow you to work in other states?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Leave Big N For Permanent Remote In Smaller Banking Company? What Would You Do?",
+      "body": "So I've been with my company at a Big N for about a year and a half.  Things are pretty solid.  I'm an automation engineer on my team, which I enjoy cause that means I spend half my time coding, and the other half just checking on our automation results and making sure things look good.  I've got a solid work life balance where I'm officially done with work at 5PM PST.  My weekends are ALWAYS off.  My team is chill and manager is very supportive.\n\n&amp;#x200B;\n\nThe thing is I've gotten a taste of being remote, and as we've seen on the news, these tech companies have some insane mentality to have us back in the office when we've proven remote works.  I want to own a home, but this Bay Area prices are ridicules.  With these companies doing this stupid 3 days in office, and 2 days at home, this doesn't solve the challenge for people wanting to own a home unless they leave the Bay Area.  I still gotta drive an hour to work and an hour back, that I could get back.\n\n&amp;#x200B;\n\nI was actually able to score an interview at a previous company I interned at where they liked me a lot and are perfectly fine with me working remotely from anywhere in the United States (which is ridicules for me to hear that a slow moving industry as Banking is more flexible) in the role of Web Dev as long as I show up for meetings at their scheduled time.\n\n&amp;#x200B;\n\nI've got a degree in CS and I'm pretty flexible with roles this early in my career.  My only criteria was as long as there is SOME coding, I was cool with it; which the role they offered satisfied one of my points.\n\n&amp;#x200B;\n\nMy concern is:\n\nI'm leaving a Big N which I see has:\n\n\\- Strong financial position\n\n\\- No layoffs even if you're bad at your job\n\n\\- Evenings are always free\n\n\\- Weekends are always free\n\n\\- I'm paid equally to our SWE\n\n\\- Chill team\n\n\\- Straightforward easy work\n\n&amp;#x200B;\n\nFor the company offering me remote:\n\n\\- No clue how my work life balance will look like\n\n\\- My perception of being laid off seems higher with a smaller company in banking versus a big tech company\n\n\\- Not sure how the team dynamic fully looks like (I only had one interview which was with the Sr Manager and 2 leads; since the VP knew who I was and put in a good word).\n\n&amp;#x200B;\n\nbut the upside is I get full remote which is what I've worked with for the last year and a half.\n\n&amp;#x200B;\n\nI've spent these last 2 days really thinking about the tradeoffs, and curious what you guys would do in my position?  Would you take the gamble on work life balance for a permanent remote role OR Stay where you're at with work/life balance but still having to make an hour long drive to work one way?\n\n&amp;#x200B;\n\nEdit:\n\n&amp;#x200B;\n\nIn terms of money, I wasn't too concerned about it, because I'd be living in a more affordable area in Bay location.  But I'd keep my same base salary, but I'd lose my stocks which is about 25k a year, which I don't care about.\n\nFinal edit: For anyone stumbling across this wondering what I chose, I picked the permanent remote job.  The points mentioned by the other Reddit user about me not caring about 25k was honestly, to me, a really trash point looking back at it now.  Taking the remote role would mean I could live wherever, buy a house within the first year of living in a new state if I want, save on transportation cost, save on 2-3 hours of commute, and still have a lot of money left over.  “cArInG aBoUt 25k a yEaR” would’ve still had me permanently in California, not able to buy a house until probably 6 years out, having to spend 3 hours commuting to work.",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/otloh1/leave_big_n_for_permanent_remote_in_smaller/",
+      "comments": [
+        {
+          "body": "You forget to mention $$$",
+          "score": 2
+        },
+        {
+          "body": "Think about benefits too. My stocks are much more so it’s made leaving really difficult. If I move to a startup I’ll lose out on hsa and Roth mega backdoor so it will put me behind for retirement.",
+          "score": 1
+        },
+        {
+          "body": "You don’t care about 25k a year?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Comprehensive List of Freshman/Sophomore Internships and Programs",
+      "body": "I couldn't find a comprehensive list while I was applying, so I made one and updated it last year.\n\n**Internships**\n\n* Facebook University\n* Google Engineering Practicum\n* Microsoft Explore\n* Uber STAR\n* Palantir PATH (low income/first gen/disadvantaged. Limited/no industry experience)\n* Twitter Academy\n* EA Pathfinder\n* Code2040 Fellows Program (Black or Latinx only, must start app before October 17th) (Matches you with high-growth tech companies, like Google or 23andMe. Also offers non-technical roles at tech companies)\n* Amazon Future Engineer Program\n* Two Sigma Freshman Software Engineering Internship\n* Dropbox Launch (Freshmen) (Must have no previous software engineering internship experience) (Must have Python experience)\n* Bank of America Global Technology Freshman Summer Analyst Program\n* Ford 2019 Information Technology - Intern Freshman Students Only\n* Pinterest Engage (I'm 95% sure this was discontinued, but I've seen references to it online so maybe it's still out there)\n\nAlso, govt agencies ([NSA/Gov Intelligence](https://apply.intelligencecareers.gov/student-tiles), NASA (NASA also runs a [program for international students](https://www.nasa.gov/offices/education/programs/descriptions/international-internships-for-students.html)), DOE CCI or SULI, etc.), banks, and non-profits tend to be freshman-friendly (meaning they'll test you, but at least they'll consider you). \n\n**Programs**\n\n* **NEW** Appian First Year Forward Program 2020 (1 day, get paired with a mentor from Appian for entire college experience. Phone interviews starting Spring semester, candidates finalized March)\n* Microsoft New Technologists Summer Academy (7 weeks, $5,600, no housing)\n* UConn has [this list](https://diversity.business.uconn.edu/wp-content/uploads/sites/985/2015/11/Summer-Leadership-Programs.pdf) of \"leadership programs\", mostly at finance companies. These programs recruit for *all* corporate roles, everything from software engineering to investment banking to HR (depending on what the company provides), so sign up for email notifications for whichever ones apply to you. \n* Square Code Camp (5 day, all expenses paid, women only, due in October)\n* Google Summer of Code\n* Google ML intensive (10 weeks, unpaid, free housing/food, no flights) (spring application deadline is November 18. Summer application deadline is February 17.)",
+      "subreddit": "cscareerquestions",
+      "score": 94,
+      "url": "https://reddit.com/r/cscareerquestions/comments/cjc3sv/comprehensive_list_of_freshmansophomore/",
+      "comments": [
+        {
+          "body": "[deleted]",
+          "score": 8
+        },
+        {
+          "body": "Can you apply as a foreigner?",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "title": "Has anyone interned at EA?",
+      "body": "They seem to have a wide variety of internships listed online. What was the interview like? What were your responsibilities? Company culture? I don't know if I want to go into game development, I've heard a lot of horror stories, but I'm curious nevertheless.",
+      "subreddit": "cscareerquestions",
+      "score": 17,
+      "url": "https://reddit.com/r/cscareerquestions/comments/288mr8/has_anyone_interned_at_ea/",
+      "comments": [
+        {
+          "body": "[deleted]",
+          "score": 12
+        },
+        {
+          "body": "I have worked at EA for two and a half years at a couple internal studios (the now shuttered Victory Games and Bioware Austin).  While I didn't intern with EA myself, I have worked with interns at EA and/or knew people who had done so.\n\nWhat I have gathered about the interview process for intern technical candidates is that it is an abbreviated version of the interview process for full time candidates.  In general you should expect an evaluation of your grasp on core CS principles, practical programming skills, and knowledge of 3d math/linear algebra.  Prior experience building games/demos is a big help in drawing attention to your resume but it is no substitute for demonstrable skills in programming.\n\nCompany culture varies widely between EA's many internal studios.  The horror stories you reference are not representative of the industry as a whole.  There are exceptional cases even now where excessive crunch happens, but it is generally recognized and condemned as a failure in planning/scope/management when it does occur.  While I can't speak for every studio, in my experience EA has been a very good environment for work/life balance.\n\nInterns in my experience are given real tasks and responsibilities.  As otherwise mentioned in responses, oftentimes these tasks are \"backlog\" tasks that have been deprioritized in order to meet scope, but they are nonetheless important either from a development workflow perspective or to the quality of player experience.\n\nI hope you consider applying if you are interested in the video games industry.  If nothing else I think interning at EA would give you a great introduction to what modern video game production and large scale software development looks like.",
+          "score": 2
+        },
+        {
+          "body": "I've been interviewing for some time with game studios, so maybe I could share on the application process. It wasn't for intern position, but I am sure it's similar. \nBig studios have a HUGE competition for open positions, so usually you wont even get a call unless you are 200% fit for the role (small/startup studios a little different). If you DO get a call, they start with a nasty screening process via phone \"tech\" interview. Be prepared to know linear algebra really well (dot/cross products, matricies, quaternions, plane equations etc) ...this part always gets me. They may ask you for some algorithms like quicksort or some XOR swap or some recursion. Nothing particularly hard that you wont figure out with 5 minutes and internet access, but on phone they put you on a spot, and if you are unlucky and get the question you don't remember at the moment, its goodbye!",
+          "score": 1
+        },
+        {
+          "body": "Just a small tip, if EA is your dream then you might try some other game companies first to get practice on those types of interview questions. ",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Negotiating return offer for APM position",
+      "body": "Hi, after a summer internship at a decently large tech company in Austin TX,  I just received a written offer for an Associate Product Manager position for post graduation (CS major). I've done some research on negotiations (Kalzumeus, this sub, etc) but most resources weren't exactly addressed for new grads and wanted to ask some specific questions here. I apologize if this comes off as redundant, just very green in the industry but wanted to get this right. The offer I received is as follows:\n\nBase salary: 90k\n\nSigning bonus: 10k\n\n1st &amp; 2nd year anniversary bonus: 10k ea.\n\nRSU after 3 years: \\~50k\n\n**My main points of \"leverage\" would be that**\n\nA) An APM from a previous year received the exact same offer as a new grad hire (didn't intern), and he was able to negotiate 5k more in signing bonus. I read that intern-&gt;full time candidates have more leverage compared to a blind hire (less risk, less resources to train etc).\n\nB) Currently interviewing with two other large tech companies with reputation for high offers, but I won't get the final results before this current offer expires. Would say something like \"If I can get X% increase I'll sign right away\" (I'm aware this is not much of a leverage).\n\nMy goal is to be able to bump the signing bonus from 10k -&gt; 25k.\n\n**My Questions:**\n\n1. Are my points of leverage valid/reasonable (mainly point A) in regards to bumping my signing bonus to 25k? Is it even appropriate to bring up that I know this information?\n2. Is it unwise to lead the discussion in terms of signing bonus, or must I speak in terms of \"% increase in TC\", and negotiate where how that will come about after? (Signing bonus is the most appealing to me since APMs get promoted to PM in about 2 years anyways, and I could use it to pay off loans).\n\nThank you very much, appreciate any insight/feedback.",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/df83wt/negotiating_return_offer_for_apm_position/",
+      "comments": [
+        {
+          "body": "Usually it’s easier to bump the signing bonus than base, would love to hear your results!",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "I Need Serious Help and Guidance",
+      "body": "**GAH! reddit formatting!** More formatted version of the post -&gt; [http://pastebin.com/6eufD96b](http://pastebin.com/6eufD96b)\n\n* **My Goals:**\n\t**I want to enter into the games industry as a programmer.**\n\t\tI want to build a skill set to move me toward my goal **while** keeping my options open. Earning an income along the way is the main concern. Many of the skills I see for game development seem so specialized that if I can't find work in games, the skills won't transfer over. If they do, I don't know what industries they transfer over to.If the this proves very difficult, I want to more easily find other employment with my skillset.\n\n* **My Situation:**\n\n\tGraduated with a BS in CS and been unemployed for a long time after graduation (a few years)\n\t\tLuckily, family has fed me for this time.\n\t\tWhy? I'd been struggling with many issues: \n\t\t\tLots of Family Drama,\n\t\t\tPoor career advice,\n\t\t\tLack of guidance,\n\t\t\texistential crisis,\n\t\t\tDepression.\n\t\tI've been dabling in a few areas of interest with no results.\n\t\tMost of my knowledge is in high level data structures and algorithms.\n\t\tMy raw programming skills are woefully beginner level.\n\n* **Beginner Skills I can potentially expand upon:**\n\tExcel Spreadsheets, \n\tC++, \n\tJava, \n\tUnity Development, \n\tgit integration.\n\n* **Interests I Might to Begin Developing:**\n\tC, \n\tUnreal Engine Development, \n\tDevelopment on Linux, \n\tC# Development.\n\n* **Problems**\n\t*Mainly, confidence and communicating to my employers what I'd been doing over my unemployment.*\n\t*Lack of projects to show employers.*\n\tPicking the right projects to:\n\t\tProgress my current skillset\n\tNot knowing what fields of work I can pursue with my limited skillset\n\n* **Options I'm Considering:**\n\tFind projects that earn an income, \n\tCompTIA  Certification, \n\tTake Classes at a community college - ~300$ ea.\n\t\t*Networking Essentials* - a prepartation class for Comptia Network+ certifications\n\t\t*Advanced Operating System Concepts* - discussing and implementing many business critical support programs such as: Apache Web Server, Email System, Firewall Software, DNS, DHCP, and Routing. ",
+      "subreddit": "cscareerquestions",
+      "score": 2,
+      "url": "https://reddit.com/r/cscareerquestions/comments/4pv7f6/i_need_serious_help_and_guidance/",
+      "comments": [
+        {
+          "body": "I'm a little confused. You want to be a games developer. That's a fine dream and I encourage you to go for it. But, it seems like all of your future plans give you the skill set to become a system administrator. That's not a stepping stone to software engineering of any kind. \n\nI know how tough it can be. You feel so far down underground that you don't possibly how you'll get to the surface. Take it one step at a time. And remember: there's a shortage of these skills. They need you more than you need them.",
+          "score": 2
+        },
+        {
+          "body": "Just a heads up, game dev jobs are very, very competitive. I just graduated and I was in your situation just recently. Gaming all day, wasn't on track to finding a job anytime soon, and pretty depressed. My suggestion is the following: Quit whatever hobbies your doing during the day. Start learning Python on hackerrank. Touch up your resume. Write up a cookie cutter cover letter. Begin applying literally everywhere looking for an entry level developer position. If you know any friends or colleagues from your school working at a place looking for new developers, ask them for a referral. This will get your application at least looked at. Get as many interviews you can. Go in to the interview looking to gain interview experience, not expecting to get the job. Every one you do you'll get better. It may be brutally honest but I don't think you're in the position to be picky, and wherever you get a job I promise you'll be happier than you are right now. Once you get your feet on the ground you can begin considering if you want to pursue the game Dev route. Apologies for the lack of formatting, on mobile and feeling lazy. \n\nEdit: getting your first job isn't about having skills. It's about convincing the interviewer youre trainable and interested in working hard to improve. Do whatever you need to do to trigger crunch time mode, 4 hours a day looking for a job, 2 hours improving skills, 2 hours a day looking at interview questions. I started really giving it my all recently and I'm starting to actually enjoy the grind, my depression is gone and I feel good at the end of the day. You can do it!",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "title": "How long should I wait before applying in the same company?",
+      "body": "I went to EA Sports, Vancouver for an interview almost without preparation. It was a mistake. But I really liked the environment there and want to apply for a different open position that suits me more.  \nShould I apply now or wait for months/years? I heard big companies have some kind of restriction filter if you fail the interview.",
+      "subreddit": "cscareerquestions",
+      "score": 2,
+      "url": "https://reddit.com/r/cscareerquestions/comments/943vdt/how_long_should_i_wait_before_applying_in_the/",
+      "comments": [
+        {
+          "body": "If you need a job urgently, apply to them right away. In fact, do you have the recruiter's email address. Send them a personal email asking if they are hiring! ",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "I need some advice for getting an internship.",
+      "body": "I am currently a freshman at a University in Canada. For years now I have been programming as a hobby, however I am having a lot of trouble getting companies to give me even an interview for an internship. I have applied for about 50 positions, even though most of them were a little ambitious (Google, EA), I tried anyways. Does anyone have any advice for me to get recognized and possibly get interviews?\n\nThanks in advance! And here is my resume:\n\nResume: https://drive.google.com/file/d/0B05Iul9z8EC8ME9wNXpubVhWaTg/view?usp=sharing",
+      "subreddit": "cscareerquestions",
+      "score": 1,
+      "url": "https://reddit.com/r/cscareerquestions/comments/41rpdt/i_need_some_advice_for_getting_an_internship/",
+      "comments": [
+        {
+          "body": "a lot of helpful information here https://www.reddit.com/r/cscareerquestions/wiki/index\n\ngood luck!",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Not a traditional question. I'm starting an engineering doctorate this year and wondering if I should plan around it?",
+      "body": "I'm just about to graduate with my BSc in CS from a decent university in England (Leeds). \n\n\n\nI've just been offered a place at the University of Bath to a Computer Graphics EngD for 4 years and have accepted it. It's probably the best place to do it in the UK, at least. But what should I do after or even during. I know I've got the time to plan this when I start and will get a lot more information after, but I sense there was no harm in getting some early advice, especially from such a wonderful community who've helped me out before.\n\n\n\nThe doctorate works like this: First year is similar to a MSc, but research focused. You also get \"matched\" to a company like EA, Sony, Disney, etc and have an interview with the ones that match your skills and you're interested in. If they like you, you work there for the next 3 years whilst completing your doctorate. Since I'd be in the industry that way, it's a decent foot in, but I don't know about working in there for a long period because I've heard bad things. \n\n\n\nI don't want to do stupid hours for low pay and no recognition. Is the film industry any better than the game industry? What about VR or SFX? I don't mind too much where I end up, since I have fun just doing graphics programming anyway. \n\n\nThanks! ",
+      "subreddit": "cscareerquestions",
+      "score": 1,
+      "url": "https://reddit.com/r/cscareerquestions/comments/2yfo66/not_a_traditional_question_im_starting_an/",
+      "comments": []
+    },
+    {
+      "title": "Ghosted by recruiter after final round interview for EA position; should I email the recruiter and BCC the executive?",
+      "body": "First interview was 3/22. Second interview 4/8. Third interview (with the executive) was 4/25. Had another, additional interview with head of HR on 5/1, and was told by the HR rep that the notes from our meeting were forwarded to the respective office on 5/16. It is now 6/6 and I haven't heard anything despite sending one email a week to the job contact since then. I was thinking about sending one last email to the job contact and BCC'ing the executive. Any thoughts?\n\nFor context, the position is an EA to the Provost at a university. The \"recruiter\" is the director of programs within the provost office, so I don't think their primary responsibility is recruiting. Moreover, the Provost and I had a really, really great conversation, so I personally feel that I was one of the primary candidates for the role. Any advice would be appreciated!",
+      "subreddit": "jobs",
+      "score": 2,
+      "url": "https://reddit.com/r/jobs/comments/1d9pbfu/ghosted_by_recruiter_after_final_round_interview/",
+      "comments": []
+    },
+    {
+      "title": "There is a walk-in interview for the position of QA tester in EA Games. Should i go?",
+      "body": "Hi all :)\n\nI'm about to graduate this year (BS in Computer Science) and i'm on the lookout for jobs. There is walk-in interview for the position of QA tester in EA Games, but the pay is not that good. I can easily snatch that position, but i have a few concerns about the growth in that field. \n\nShould i yay or nay?",
+      "subreddit": "jobs",
+      "score": 5,
+      "url": "https://reddit.com/r/jobs/comments/6a5xqn/there_is_a_walkin_interview_for_the_position_of/",
+      "comments": [
+        {
+          "body": "Out of curiosity, how do you know you can \"easily\" snatch the position? My understanding was that these roles were highly competitive.",
+          "score": 18
+        },
+        {
+          "body": "I'm a senior software engineer that just came out of the games industry. I don't know what QA hiring is like at EA, but it's often *not* very easy to get any job in the industry. I know that if you think the job itself will be easy, you'll be surprised.\n\nThere is such a glut of people who want to work in video games that the value of labor in in the dirt. Some of the most fantastic engineers that build some of the most amazing technologies are considered disposable. There's a huge line waiting to get in. Salaries are low, hours are extreme, and the companies demand unyielding enthusiasm and fanatical dedication. To people in this industry, your job must be a labor of love, and the long hours of crunch time that you put into projects is your love letter. They let people go for simply not working late. If working at EA is not a dream come true, then they don't even want you. This is true for QA even more so than for software engineers, because QA is often seen as a \"foot in the door\" for people looking to someday become a creator at some point. Some of the most competitive and dedicated people will join QA and then crunch their asses off to make it into level design or tools development, and they'll do it for a fraction of the income they could be making outside of the games industry.\n\nIf you go, you may be surprised at what they consider qualities in a candidate. Game companies want zealous gamers. The first questions of many interviews are along the lines of \"what games are you playing?\", \"What's your favorite games?\", \"Name three game technologies coming out soon that excite you,\" \"Who in the industry do you look up to? (your answer should be someone like Robin Hunike),\" \"What's a game that suffers from quality issues?\" You'll get a lot of bonus points if you go to GDC every year and can speak about the things you learned in the various panel discussions there. You should be able to talk about game mechanics you appreciate from esoteric games like Prison Architect (do you realize just how inspired it is by Dwarf Fortress?) and The Stanley Parable. If you're not plugged into the games industry, you'll find that you can't, actually, \"easily\" pick up this position.\n\nThere are many industries like this. In any industry where there's a large pool of people who've wanted to be a part of it since they were children, you'll see these kind of dynamics: movies, television, sports, even *firemen*, surprisingly, are like this. I bet if you want to be a janitor for a major film studio, you'll find yourself competing with fanatics trying to get into the film industry.",
+          "score": 17
+        },
+        {
+          "body": "I'm a game dev who knows a few people in the AAA industry. You can either go into game dev and make shit money and be overworked, or you can go into dev anywhere else and make great money and not be overworked. \n\nThe passion and fun dies fairly quickly. ",
+          "score": 5
+        },
+        {
+          "body": "How bad is the pay? How much do you think you should be expecting as a CS grad? Where do you live? How's your skillet/knowledge/confidence/CV relative to your (grad) peers? ",
+          "score": 1
+        },
+        {
+          "body": "You can go and check it out.  You're not obligated to accept anything or at least you shouldn't be.  ",
+          "score": 1
+        },
+        {
+          "body": "If it will only cost you your time you should definitely go!\n\nIt's always good practice to interview and the pressure will off as you kinda don't want it. You just never know who you will meet and what seeds you may plant for the future by going...",
+          "score": 1
+        },
+        {
+          "body": "If you want a job with your CS degree I think you can aim a whole lot higher than QA tester. QA testers are generally uneducated, or have much less education, and will be doing a lot of menial tasks, far below your pay grade.\n\nGet a development job, unless you want to be a QA test lead or something, which I also would not recommend.",
+          "score": 1
+        },
+        {
+          "body": "Do you want to go? Do you want this job? Then go? If you don't, then don't?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Wife has applied to 58 jobs…",
+      "body": "Hey all! My wife wants to get back into the workforce.\n\nShe was laid off during the pandemic, our daughter was born, and I got a new job paying more. So, for a while, we figured one income was fine.\n\nBut lately she’s been wanting to work again and not feel dependent on me to exist, which I totally understand and support.\n\nWe’ve worked our networks to get referrals, she’s applied and applied and applied, she’s talked to a handful of recruiters, and while she has several years of experience in the roles she’s trying to get (EA, Admin Assistant, Benefits Coordinator, or HR Assistant) she hasn’t even gotten a call back for an interview. \n\nOf those 58 applications, only maybe 4 have even come back with a rejection over the last couple of months. The others just disappeared from job listings or simply never responded but left the listing up.\n\nWe’ve tried what we think is everything but figured maybe Reddit has some advice!",
+      "subreddit": "jobs",
+      "score": 131,
+      "url": "https://reddit.com/r/jobs/comments/u76ym4/wife_has_applied_to_58_jobs/",
+      "comments": [
+        {
+          "body": "Hello, thank you for posting to r/Jobs!\n\nWe just wanted to let you know that we have a new [discord server, come join the chat!](https://discord.gg/TY6ErXV)\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/jobs) if you have any questions or concerns.*",
+          "score": 1
+        },
+        {
+          "body": "She's experiencing the same thing everyone else is. Unfortunately, she's not alone.",
+          "score": 253
+        },
+        {
+          "body": "Remind your wife that they probably werent rejecting her. -- Companies are stupid and leave roles online even when they are no longer hiring. Sometimes they are required to post a role online even when they are planning for an internal hire or they already know who they want to extend an offer to. I've even seen times that a hiring manager has posted a job and then left the company so the job stayed online like a zombie when no one was reviewing applications.",
+          "score": 50
+        },
+        {
+          "body": "Its a numbers game imo, the more you apply the better chance you have. Good luck!",
+          "score": 64
+        },
+        {
+          "body": "I have switched jobs many times lately (about two jobs per year) and every time I was wanting to switch I applied to about 100 jobs per week, which resulted in 1-3 interviews. I could have easily applied to 58 jobs and not gotten a single response. However due to the amount of applications even with a 3% application to interview conversion rate, that's like 12 interviews in a month. With this system it's never taken me over a month to land a new job, so I think  she just needs to apply a lot more. It's a numbers game.",
+          "score": 28
+        },
+        {
+          "body": "I would suggest looking for roles that may have similar responsibilities but less generic titles than the ones you named. So many people are search for common, generic titles so they get bombarded with applications. Search keywords like Associate, Assistant, Coordinator, and Specialist to just find broad roles. \n\nAlso, this may seem counterintuitive, but if your wife has several years of experience in those types of roles she might try looking for slightly more senior titles i.e. Office Manager; Talent Acquisition Specialist. Sadly, a lot of resumes get thrown out because even if overqualified or slightly older candidates are incredibly clear in the cover letter that they're open to an essentiallly entry level role, they're not interviewed.\n\nThe other thing you could look into is temp agencies that do temp-to-hire. Most the people hired into roles like this at my current company either come through connections or as temps. A lot of companies view temps as a really good way to trial to potential candidates before commiting. If you're great, they're find a role for you somewhere.",
+          "score": 19
+        },
+        {
+          "body": "You might want to consider getting LinkedIn premium for a short while and try directly messaging recruiters or managers of roles that she's interested in.\n\nThat was the quickest, most reliable way of getting a foot in the door when I was applying for jobs.\n\nYou may also want to consider non-traditional job posting sites like AngelList which have job postings for startups.",
+          "score": 17
+        }
+      ]
+    },
+    {
+      "title": "Trying to find a First Job",
+      "body": "https://preview.redd.it/99lmt031q07g1.png?width=657&amp;format=png&amp;auto=webp&amp;s=fcb71f5c27ca687cbb72cd2c8231eaf1bbc99267\n\nhttps://preview.redd.it/jgxdf131q07g1.png?width=654&amp;format=png&amp;auto=webp&amp;s=1f2b52245315e667ca1b68a5e23da7324bc4e589\n\nContext: I have been looking for a first job for the past year. I've applied to Developer Jobs as I am in a Diploma for Programming. I started in January and kept applying. I got 2 interviews but the technical interview was too hard so I failed.\n\nI continued to apply, but no luck and it's been almost a year and I graduated and I still have no job. I am worried about the gap in between school and work but i'm not thinking about it too much.\n\nThe current 5 year experience I have is a large scale community that I have been staff and developing underneath them. Making games for them, as well as models, assets, etc. I have also been leading people and telling them what to do to accomplish these tasks so I was told by my boss to put it in even tho it's not a \"real job\".\n\nI have been applying to atleast 500ish jobs, maybe more I didn't count. Primarily customer service, retail, tech related jobs, anything that I qualify for. Some banks are offering entry level jobs so I applied for those too in hopes I can get promoted and eventually have a path towards what I want to do. Which is: PROJECT MANAGEMENT. I also have a reference from the experience i had.\n\nAny advice for my resume? I have used the STAR method and added a personal summary. My resume is ATS and I made my resume using LATEX programming.\n\nplease dont call my resume trash, ive heard it too many times your advice is not helpful. Tell me how to fix it (too many people have told me this im tired of it)Z\n\n**IF THE RESUME IS BLURRY CLICK ON IT, I HAD TO CONVERT THE PDF TO AN IMAGE AND IDK WHY ITS BLURRY ITS NOT MY FAULT.**\n\nEDIT: im not applying for dev roles as the market is so bad and i havent heard back from any of them even tho i have been studying the technical side. my school did not offer internships or coop, in my area i can only do internship or coop if im in school. ",
+      "subreddit": "jobs",
+      "score": 0,
+      "url": "https://reddit.com/r/jobs/comments/1plt2i8/trying_to_find_a_first_job/",
+      "comments": [
+        {
+          "body": "Resume is fine when it comes to what's in it. One thing to keep in mind:\n\nA lot of bigger companies are using AI to \"vet\" resumes before it goes to an actual person. Do some quick research on what \"keywords\" these AI systems are looking for and like to see. Reword your resume using these keywords.",
+          "score": 1
+        },
+        {
+          "body": "Sending 500+ applications with only a couple of interviews usually means the resume and targeting need a reset, not that you’re “unhireable.”​\n\nIf you’d like more concrete help tightening your resume for entry‑level roles (what to keep from your dev background, how to present your diploma, and how to use your community experience), DM me your resume plus 2–3 job links you’re aiming for and I can walk you through specific changes to improve your odds.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Two offers on the line, unsure about which one to take",
+      "body": "After months of searching for an opportunity I finally landed a couple of interviews which both resulted in an offer. I am returning to work after maternity leave so it is super important to take the personal/professional balance into consideration. I was quite ambitious and career oriented prior to becoming a mom but now want to prioritize my time with the family.\n\nI have applied for a position at the company A half a year ago and never had them answer me. A month and a half ago they posted regarding a position of the company’s EA and I took a shot at applying for them. I was super excited when I got invited for an initial screening and have completed four rounds of interview, including a thorough psychological test and skills check. After the first round at the company A, I was contacted by a recruiter for a company B. I have applied for a remote position with them months ago and have completely forgotten about it. They invited me for a face to face after a Zoom interview with the recruiter and I was super impressed by not only their culture but also by my immediate supervisors, who were nothing short of professional and positive. The role is dynamic, there is a ton of growth possibility for me profesionally. The only downfall is that the role is a maternity leave coverage, which means there are no promises regarding a future with them. \nToday I have received an offer from company A and they would initially give me a year-contract with the motivation to prolong indefinitely. I was already prepared to decline due to learning about my immediate supervisor’s toxic attitude from multiple reliable sources (who worked with the person beforehand) and two of them actually had a burnout and mental issues afterwards. My gut feeling also wasn’t the best during the interviews, however I must admit I was biased due to the information I had. But there was a surprise for me; they actually recognized me from my initial application gor the role that would completely align with my career goals and the person I am to work for said I have a chance to try myself out in that role if I did not like being an EA. I don’t know, seems a little too good to be true. \n\nI am completely and utterly confused. I have accepted the role with the company B, but have not signed a contract yet. I now have this other opportunity where they are dangling my dream role in front of my nose, but I would actually start as an EA for a person, who is supposedly very difficult to work for. \n\nWhat would you do in my situation? Go with the pleasant, remote but limited contract (pays approx. 200€ more monthly) or with the unlimited role in your hometown where the culture seems toxic but there might me a distant shot at your dream role?\n\n\n",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/1ix630x/two_offers_on_the_line_unsure_about_which_one_to/",
+      "comments": [
+        {
+          "body": "I would personally choose company B. Sounds like good people and challenging work, the drawback being that it could be temporary. That’s still enough time to get in there and show them what you can do, which is everything. At worst, they will keep you up to date about the timeline, and if they don’t have anything for you long-term, you will still have a new, current reference and portfolio of work when out applying again, and you’re first on the list when Company B does have an opening. If you already have an inkling that Company A sucks, then they probably suck.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Trouble landing interviews with desirable companies",
+      "body": "Hello,\n\nI will be graduating this December with what I would consider a slightly above average Resume. I have no trouble getting interviews locally, and have done very well on every technical interview I have been granted thus far. However I am looking for positions on the coast (Seattle / SF / etc), and am having trouble getting callbacks; even from the likes of Amazon/MS/etc.\n\nLast week MS did on site interviews at my school and I was not granted one; two friends of mine (one with a lower gpa and zero internship experience) got interviews, and both commented on how I would do very well on them (I routinely do algo type stuff for fun, be it project euler, topcoder, etc.). But I can't do well on the interview if I am looked over on even the most basic phone screens. I was also rejected from Amazon for even a phone interview.\n\nI honestly don't understand what I am doing wrong. Like many students I have hoped to work at one of these companies, and not even being given the chance (aka an interview) is very confusing and exhausting to me.\n\n\nDoes anyone have any advice? Besides the large companies I have been quasi randomly applying to other well known and Dice search companies and have not been getting any responses. \n\nThanks all\n\n\nEDIT:\n\nMy resume can be found here:\nhttps://docs.google.com/file/d/0B_Os9v58QnVsajFDc2JCbnlEaEE/edit?usp=sharing\n\nThanks all!\n",
+      "subreddit": "cscareerquestions",
+      "score": 4,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1oj1pl/trouble_landing_interviews_with_desirable/",
+      "comments": [
+        {
+          "body": "We can't give much feedback if you don't show us what you're doing wrong (read: post your resume).",
+          "score": 1
+        },
+        {
+          "body": "Where the hell are your projects. I'm even talking academic projects.\n\nThey make a hugeeeee difference. I could give less than two fucks about your courses, show me what you did to apply your courses.\n\nAcademic projects and personal projects, kapeesh?\n\nHR likes buzz words and knows what to look for in a resume, and that is where yours failed big time.",
+          "score": 1
+        },
+        {
+          "body": "I'm puzzled as to why you put the word \"cool\" in a resume, not to mention one bullet point for a job isn't enough. \n\nI'd put your skills towards the bottom and move coursework right under your education. \n\nYou should group experience in one category because every job prepares you for the next.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Do recruiters not want to hire people over the age of 55?",
+      "body": "My dad has been struggling to find a job for almost two years now and it's been sending him into a deep depression. I can't bear to witness my life hero deteriorating like this and want to help him search for jobs but first I have to understand why he isn't getting any interviews or calls back. It seems from his resume he is qualified for a lot of the positions, considering he has 40 years of experience in business operations. \n\nIs it harder for people in their 60s to find a new job? What are the obstacles? He lives in NY so I feel like theres so many companies that are hiring. Now that he's been out of a job for awhile there's a gap in his resume, is that a concern? It's too late to go back to school, and all his retirement went to my grandparents medical treatments. I am trying to understand why companies wouldn't want to hire him. \n\n(Edit) Some people asked to see his resume to see if any issues are there so here it is. Resume: https://docs.google.com/document/d/1LWWtHTmayfiEAd3SwO16H_eaGILAlMCmnwFa0OoAKKA/edit?tab=t.0\n\n(Edit 2) My dad has been in retail for a large portion of his career as a buyer and inventory management, as well as merchandising. \n",
+      "subreddit": "jobs",
+      "score": 237,
+      "url": "https://reddit.com/r/jobs/comments/1j7okjr/do_recruiters_not_want_to_hire_people_over_the/",
+      "comments": [
+        {
+          "body": "Tell him to only go back 15 years of work history and take degree dates off of his resume.",
+          "score": 293
+        },
+        {
+          "body": "Ageism is absolutely real and a thing. I've experienced it and I'm a little younger than your dad.  It is brutal and did put me in a pretty dark place.\n\nWhy don't many companies hire older people? In my experience:  1.) we are more likely to have been through some shit and are less likely to take shit. 2.) we are probably less malleable in general, because we've been through the same shit in #1 and are tired.  3.) we probably are more aware of our value which can be a sticking point with employers. 4.) We look old, and looks matter.  \n\nNo, not too late to go back to school, it never really is.",
+          "score": 165
+        },
+        {
+          "body": "Hiring managers/recruiters do not want to hire people over a certain age, you are correct. Certain industry more than others. You would think it's an asset but a lot of fields don't see it that way. Hard to say without seeing what he's applying to precisely.\n\nThe best way to combat this in general is to hide evidence of his age in his resume and interview\n\nGet his resume from him and cut everything off but the last  15 years. Remove dates from any education. When he goes in, don't have him disclose anything that could pin his exact age. Let him pretend to be like late 40s experienced instead of 60s experienced. Yes he probably looks like he's 60, but let them have to make that assumption after seeing him, and be unable to pin it down exactly even after talking to him. There needs to be doubt. At least he will get called in for the interview and be able to sell himself.\n\nMake sure if he has a LinkedIn he also revises it to hide his age as well. Dates removed and experience from 30 years ago removed.\n\nYou can ask r/resumes to help revise it for you as well with ageism in mind. And with making it look modern, older people often struggle to adapt to how a modern resume should look (short and concise or it goes in the trash).",
+          "score": 25
+        },
+        {
+          "body": "Age discrimination is a reality most 50+ individuals will face. I suggest he consider becoming skilled in a job that is in high demand, with a serious shortage of applicants.  Boom. His age no longer matters.",
+          "score": 48
+        }
+      ]
+    },
+    {
+      "title": "Haven't heard back since my interview on Wednesday. How long should I expect? Also, did I overdress for the position? (Read below)",
+      "body": "TL;DR at bottom\n\nOkay, I know I'm overthinking this. But I'm used to hearing back pretty quickly from places when the interview went really well. I've heard back the same day only a couple hours after the interview at 2 seperate administrative positions I've had.\n\nThis job was for an Executive Assistant, which would be an amped up version of what I've already been doing. They made it clear they're open to people who haven't been EAs in the past (they're paying entry level anyway, below national average) and they seemed impressed enough by my experience. The interview went really well in my opinion. I figured out my responded to questions well in advance to the interview, and I was prepared to answer a lot more than they even ended up asking.\n\nI didn't hear back Thursday or Friday though, and for some reason I was convinced I'd hear back by the end of the week. Now I'm going through all the possible things I might've done wrong.\n\nDid I overdress, for example??? I stressed a lot about my outfit, but only because I anticipated this being a corporate setting. I was prior to the interview that I'd be meeting with the CEO and the COO directly, so surely I needed to look the part. I have some dresses, some nice blouses, trousers, etc., but I wanted to wear a blazer because I wanted to look crisp and clean.\n\nI also have a bigger bust and wide hips and I didn't want it drawing any attention, so I my shirt is a little oversized and makes me look especially blocky, along with my blazer hiding the sides of my body. But now I'm worried I looked overdressed???They stressed that they didn't want someone that felt they would be \"too good for this position\", because they've said some people retorted it as a \"glorified coffee runner\", but honestly I don't care because it would've been higher pay than I've made before.\n\nDid I look goofy wearing a blazer suit to an assistant interview??? My interviewers ended up not being the CEO and COO as originally planned (they had a meeting I guess), and were wearing bit more relaxed/casual office wear. I feel a little embarrassed for how I dressed now and I'm not sure if it hurt my chances at all.\n\nI also brought a pad folio to take notes in, and a planner that I had questions written down in (it's a full-focus planner if any of you are familiar) because I wanted to seem well structured and organized (EAs are very organization-centric).\n\nTL;DR Do I still have hope of getting the position even though I haven't heard back since my interview Wednesday? Did I overdress for the position (executive assistant) or dress poorly for my body type? Am I just overthinking things?",
+      "subreddit": "jobs",
+      "score": 40,
+      "url": "https://reddit.com/r/jobs/comments/1n48rt6/havent_heard_back_since_my_interview_on_wednesday/",
+      "comments": [
+        {
+          "body": "Seems like a reasonable outfit for an interview, tbh. Better you come in like this than jeans and a hoodie.\n\n\nAnd different places have different schedules. For jobs, I learned that how one interview or job went had very little to do with each other, especially their processes. Maybe contact them Monday to check?",
+          "score": 61
+        },
+        {
+          "body": "Great outfit for an EA. Very professional! \n\nOnce you have an interview you have to put it behind you. It’s only been a few days. You never know what things come up that delay them getting back to people. Remember that although this job is super important to you, they have a lot of other things going on in addition to hiring this position. \n\nAnd if you’re in the US it’s Labor Day on Monday so they’re trying to get a lot of different things done before the holiday.",
+          "score": 21
+        },
+        {
+          "body": "I think you dressed well! They probably have reviews lined up through the week and won’t make a decision until all of them are done. Did you ask when you should expect to hear or what their hiring timeline is? If not, I’d wait until next Friday to reach out. Also, it is a holiday weekend, people like to tie up loose ends before weekends and leave other things until after a holiday and this is likely one of those other things.",
+          "score": 19
+        },
+        {
+          "body": "not possible to overdress for an interview! looks super professional! especially for an executive role",
+          "score": 17
+        },
+        {
+          "body": "Your dress attire was perfect imo \n\nBetter to overdress professionally than underdress ",
+          "score": 17
+        },
+        {
+          "body": "Unless they specifically said you’d hear back by end of week, I wouldn’t worry too much yet. I definitely don’t think your outfit was a problem.",
+          "score": 6
+        },
+        {
+          "body": "I would LOVE an EA candidate to come in professionally dressed and with organizational tools. You’re worried because of the timing and examining every detail, but there’s no need to do that to yourself. From what you posted, everything seems right to me about your clothes and preparation. Hope you hear from them soon!",
+          "score": 5
+        },
+        {
+          "body": "I think your outfit looks great! Don’t worry about no hearing back yet- in this market, teams are flooded with candidates so it may just take a little longer to make decisions. I think it’s totally acceptable to follow up and ask for status on Tuesday.",
+          "score": 4
+        },
+        {
+          "body": "Slay",
+          "score": 3
+        },
+        {
+          "body": "It could take as long as a few weeks. Depends on how many people they are interviewing",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Is this normal work for a EA?",
+      "body": "Just had an interview for an executive assistant job. He said the job would involve helping him deal with issues at his personal properties, and gave me a scenario asking what would I do if tenants complained about various serious leak problems, but he didn’t want to spend money on getting a plumber out until 3 days later. \n\nIs this a normal ask for an ea…?",
+      "subreddit": "jobs",
+      "score": 0,
+      "url": "https://reddit.com/r/jobs/comments/1pjeyhj/is_this_normal_work_for_a_ea/",
+      "comments": [
+        {
+          "body": "Well, yes. You'll be covering HIS ass in oh, so many ways...",
+          "score": 5
+        },
+        {
+          "body": "I’d suggest asking in the EA sub. But the red flags are flagging to me….",
+          "score": 3
+        },
+        {
+          "body": "Yes, aside from sending his wife flowers, arranging his \"sensual massages\" for travel. I've seen just about everything and anything from EAs and what they do for the dear leaders of these companies.",
+          "score": -1
+        }
+      ]
+    },
+    {
+      "title": "Company Wants Me to Sign NDA Before Interview",
+      "body": "I applied for an EA position that would only last 9 months as I would be covering for someone on maternity leave. \n\nAs part of the automated message to let me know they received my application, they requested I sign an NDA. \n\nIs this normal? I’ve never had to sign an NDA before receiving an official interview. \n\nThanks! ",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/1ndfbxd/company_wants_me_to_sign_nda_before_interview/",
+      "comments": [
+        {
+          "body": "Yes, this is normal.",
+          "score": 11
+        },
+        {
+          "body": "yes, it's normal.",
+          "score": 8
+        },
+        {
+          "body": "Depends on the company.  if there's no obvious reason, you could just ask why out of curiosity. At my current employer I had to provide my SSN and other documents to prove I was a US citizen just to walk in the building for an interview, but it's a defense contractor so it completely makes sense.",
+          "score": 3
+        },
+        {
+          "body": "Quite a few of us have signed NDAs especially for technical interviews. \n\nIf there is any chance they could discuss or accidentally divulge a trade secret they want to be protected.  \n\nA cashier at Wendy’s probably won’t need an NDA. ",
+          "score": 2
+        },
+        {
+          "body": "It's not common, but it's entirely plausible if the interview would cover ground that they don't want to be made public and that would allow them to speak more freely about the role's responsibilities and what would be involved.",
+          "score": 2
+        },
+        {
+          "body": "The only company that made me sign an NDA stole my work.",
+          "score": 1
+        },
+        {
+          "body": "Absolutely not. 🚩\n\nImagine how a company feels they must do this for the abominations they ask during an interview.",
+          "score": -9
+        }
+      ]
+    },
+    {
+      "title": "Have an interview here in two weeks. Any tips to help me get hired?",
+      "body": "This isn’t the location i have an interview at just showing you the retail brand i have a chance to work at.",
+      "subreddit": "jobs",
+      "score": 2,
+      "url": "https://reddit.com/r/jobs/comments/1n2smcz/have_an_interview_here_in_two_weeks_any_tips_to/",
+      "comments": [
+        {
+          "body": "[deleted]",
+          "score": 2
+        },
+        {
+          "body": "Be alive",
+          "score": 1
+        },
+        {
+          "body": "Be happy and smart, that’s seriously it. When hiring in retail you look for sharp happy people. Check out the website to get an idea of products carried. Read the About Us section and parrot back a talking point during the interview.",
+          "score": 1
+        },
+        {
+          "body": "Be friendly and must have good availability! They always care about vibes and availability at shoe stores! 😭",
+          "score": 1
+        },
+        {
+          "body": "As what, cashier? If you have a pulse you're probably ok.",
+          "score": 1
+        },
+        {
+          "body": "Show up early, dress nice.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Let Go Right Before 90 Days. Used for My Work, Then Replaced Overnight",
+      "body": "This is still fresh, but I’m posting to process and maybe connect with others who have been through something similar.\n\nI was recently hired as an Executive Assistant to the CEO of a startup. I’m a certified project manager with over six years of experience supporting high-level executives. I accepted the role because I believed in the opportunity. I even relocated to be closer to the office, and they knew that.\n\nFrom day one, there was no onboarding, no defined expectations, and no real clarity around how the company operated. I had to figure everything out on my own. One of my first tasks was to organize the CEO’s inbox. I built a structure that prioritized urgent and strategic communications so he could focus. After that, I took on the entire company’s Asana project management system. I created categories, assigned owners, built timelines, and organized what had previously been chaos.\n\nSome days I was expected to be a traditional EA. Other days I was sourcing international manufacturers without any specs or CADs and told to make it happen in a week. At one point I was asked to overnight product samples to China, which isn’t even logistically possible. Still, I kept showing up and doing my job.\n\nAs an EA, your relationship with the executive is everything. I scheduled daily 15-minute check-ins so we could align. He wouldn’t show up. I sent regular updates by email, Slack, and text. I flagged items that required his input. I got silence. I was expected to anticipate everything, without context, support, or feedback.\n\nLike many execs I’ve supported before, I asked him to share his calendar and grant access to his inbox so I could stay ahead of scheduling and communication. At first, he allowed it. Then he told me to stop checking his email because messages were “disappearing.” He never blamed me, but he removed my access. Thankfully, I had already shared his calendar with myself — that was how I knew something was off the day I was fired.\n\nThree weeks before that, my dad had a heart attack. I let the CEO know. He told me to be with my family. I took one day off. Just one. I came back and kept working through the entire week.\n\nThe week I was let go, things finally felt like they were clicking. I was assigned a major project. I delivered everything — CADs, vendor quotes, tracking systems. The CEO thanked me. It felt like a turning point.\n\nOn the day I was let go, I noticed a vague block on the CEO’s calendar. At the same time, HR scheduled a call with me. It didn’t raise red flags, since we had been working together on PTO requests and I had just finished a successful project. I thought it was a check-in. Instead, they let me go.\n\nHR said the CEO wasn’t sure what he wanted in the role. No performance feedback. No clarity. I reminded her that I had left a respected, stable job, moved my life for this role, and worked through a personal crisis without skipping a beat. Her only response was that she liked me and was sorry.\n\nAfter the call, while removing work apps from my phone, I opened the company’s Ring camera feed. They hadn’t removed my access. I saw them onboarding someone new at my desk. Same chair. Same laptop. I even heard them introduce her as the new EA.\n\nThat’s when it hit me. This was planned. They used my work, took what they needed, and handed it off to someone else.\n\nThey are still hiring aggressively, and now I wonder if this is a pattern. Bring people in, extract value, and replace them quietly when convenient.\n\nI’m trying not to take this personally, but it’s hard. If you’ve ever been through something like this, how did you bounce back? What helped you rebuild trust, mentally or professionally? And how do you talk about this kind of experience in interviews without sounding bitter?\n\nThanks for reading. I know I’m not alone, but right now it really feels like I am.",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/1mqfld4/let_go_right_before_90_days_used_for_my_work_then/",
+      "comments": []
+    },
+    {
+      "title": "Changing fields?",
+      "body": "Does anyone have any suggestions of fields that are hiring? I have five years of work experience, two as a paralegal and three as an executive assistant. I have a BA in political science and a masters in a subfield of political science, both at pretty high class rank/latin honors etc. I took my current EA role out of desperation to pay my bills and have become increasingly disillusioned and burnt out over the past few years. It is a small organization with incredibly high turnover due to a narcissistic and incompetent CEO.  I was very naive and believed my boss during my interviews for this EA role when she said she recognized I was overqualified and, if I would take this role for a few years, she would help me get a leg up with the next role in my field. Fast forward three years, she is self centered, volatile, disrespectful, and has done absolutely nothing to help me land a role. She let me know she was replacing me two weeks before I went on parental leave. On top of that, Trump's cuts have decimated the field I was hoping to move into, so I feel like I need to start from scratch. I am a new parent in a high cost of living area, so feeling kind of lost on where to even start looking that might pay enough for me to make rent AND daycare.. I'd appreciate any ideas for things that are actively hiring, might pay OK and not take years to re-cert for. I am open to completely changing field, enjoy learning new skills. The aversion to re-cert is mostly that I need to be making money now for my family. ",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/1ljthun/changing_fields/",
+      "comments": [
+        {
+          "body": "Trump's cuts have sort of decimated the whole job market, not just your field.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Losing hope",
+      "body": "Hi all. I’ve been out of work for about a year and a half. In that time, I’ve found a little bit of freelance work, so between that and unemployment, I’ve been able to keep afloat (barely) and pay my bills. \n\nUnemployment runs out in about a month, and the freelance gigs are drying up. So for the past two months, I’ve pushed my job search into overdrive. It’s been a full-time job just applying, sending cover letters, and networking. \n\nI’m now faced with the dreaded “plan C” - just finding ANYTHING to pay the bills. And I’m learning that it’s much harder than I expected. I thought I could rely on a temp agency to help place me somewhere - even just once in a while - but it’s just more blind applications.\n\nA little about me: I’m in NYC, with a career in children’s media. I’ve mostly been looking for work in production, publishing, and marketing. I started out on the administrative track, so I assumed I could fall back on it if needed, but I haven’t been an EA since 2020, so my recent experience doesn’t match those searches at all.\n\nI’m at a loss for what to do next. Over a hundred applications, regular LinkedIn posts, solid networking and (I believe) a good reputation. And in the past year, I’ve had only four interviews (and no follow-ups). I’m ready to put the career thing on hold and just get my bills paid, but frankly, I have no idea how to go about that. I feel like all my options are swirling away down the drain. \n\nIf anyone has any advice, I sure could use some right now.  ",
+      "subreddit": "jobs",
+      "score": 2,
+      "url": "https://reddit.com/r/jobs/comments/1k1gg3a/losing_hope/",
+      "comments": [
+        {
+          "body": "[deleted]",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Discouraged ..",
+      "body": "I've been job searching on and off since last May, almost a year now and oh my god, I'm so discouraged.\n\nI don’t have a degree and only have about three years of experience as an EA, which makes it even harder. I’ve probably applied to over 100 jobs by now. I had a Google Sheet to track everything, but I eventually stopped updating it because it was too discouraging to keep marking applications as \"Rejected.\" I've had about 5–10 interviews, and after dozens of rejections, here I am—still searching.\n\nThankfully, I’m still employed, but I’ve been looking for a better opportunity as the cost of living keeps rising (currently making just under $50K in the LA area). Last week, I had two flash interviews with a company offering a six-figure position that I was well-qualified for. After the second call, I felt pretty good about it. I didn’t want to get my hopes up, but I couldn’t help feeling excited about the possibility of a job that could change my financial situation drastically.\n\nMy friend suggested I send a thank-you email, which I did this morning. Then, this afternoon, I received a “thanks but no thanks” email. I was sad, but 15 minutes later, it really hit me—I didn’t make the cut again. I found myself tearing up at work, spiraling into thoughts about not being good enough, wondering when it will finally be my turn.\n\nIt’s tough out there. If you're in the same boat with your job search, I hope you keep your head held high. Wishing you the best of luck.",
+      "subreddit": "jobs",
+      "score": 3,
+      "url": "https://reddit.com/r/jobs/comments/1itjvw8/discouraged/",
+      "comments": [
+        {
+          "body": "I’m really sorry to hear this. It is a tough job market. \n\n I have not been able to get a decent paying job and had to take the lowest paying offers given to me because that was all I was getting. I’ve been stuck in that same spot for months and I’ve been applying to hundreds of jobs. I get rejections every single day 😂😭. I applied to one last night that is kind of a last resort because I want out of one of the roles I took temporarily to tide me over. This morning I was graced with a rejection email.\n\nYou never know why they did not pick you. It may be that they already had someone in mind and were just going through the interview process because they have to, or who knows. \n\nKeep practicing your interview skills. Keep persevering. Let any rejections you get (and I hope you don’t get any more) make you determined to polish up your interview skills and prepare to receive a great offer.",
+          "score": 3
+        },
+        {
+          "body": "I just got a rejection for a different position within my own organization. It sucks right now. I will say I have a friend that just got promoted with her organization and it was glorious. I’m so happy for her. There are good places out there, but they are all eluding me right now. My organization seems to want to hire outside no matter what and my friends organization seems to promote within strongly and I think that’s what all companies should do, if they’re not growing their people then there’s something wrong. I’m happy for her. I need to find an organization that’s just as good!",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Providing an update, old title was “losing my promotion”",
+      "body": "I did this interview for a company i was really excited to work for, safe to say i won’t be upset if they send me a rejection letter. \n\nfor the back story, I had two interviews to be an exec assistant for this company. each interview was with 2 of the executives i’d assist. these were both teams interviews btw.\n\nthe first interview, I was there 10 minutes early, and they didn’t join the link until 7 or 8 minutes after. The interview didn’t go great, but not bad. i got my ideas across, but not as clearly as i wanted. the interview did last the whole time period, so i assume that’s a good sign.\n\nthe second interview, i was there 10 minutes early again, and once i was let into that room, it was 6 minutes late. to my surprise, there was only one interviewer instead of 2. she starts the interview off with a prayer? keep in mind i’m jewish, but i didn’t say that and just rolled with it. she said something along the lines of “thank you jesus for bringing (me) to us and please give us the answers we’re looking for.” The whole time i was explaining how i want to be with the company long term, want to provide as much effort as i can, and want to advance. she kept looking at me like this 🤨, but kept saying she appreciates the outlook. the interview gets to the “do you have any questions for me” part after only 10 minutes. After i ask my questions, the second interviewer finally joins and wants to interview me separately. I thought it went really well with both of them.\n\nMy friend who’s higher up in this company asks me out of nowhere the next day “did you say you had no outlook experience?” to which i replied “i said the opposite and even laid out my experience for them.” \nhe then asks “they said you joined 7 minutes late is that true?” even though i JOINED EARLY!!! \n\nSo do i really want to work for a company that twists my words and spreads lies about me to their ea’s? not really. Why is the job market so hard?\n",
+      "subreddit": "jobs",
+      "score": 2,
+      "url": "https://reddit.com/r/jobs/comments/1nnnd7t/providing_an_update_old_title_was_losing_my/",
+      "comments": [
+        {
+          "body": "I would say if you have a third interview, start screen recording.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Should I respond to EA message after rejection from hiring manager",
+      "body": "Questions. Should I respond to the EA's message since she spent her time to follow up with me.\nI applied a job 2 monthgs ago, at that time, I sent cold message on Linkedin to the hiring\nmanager &amp; the CEO(Small startup). Both didn't respond, so I kinda moved on until 2 weeks ago, and had an online test first, then an interview with the hiring manager last week.\n\nFor the interview, I thought it went ok(Not my best). Used their products to prepare for the items they specifically mentioned when scheduling the interview, and sent thank you notes after.\nwhile I am still waiting to hear back from the hiring manager, 2 days ago, the EA responded on the CEO's behalf on Linkedin saying she noticed and glad that the hiring manager and I connected, and she(the hiring manager) will be following up with next steps shortly. I also sent quick thank you note back without further pitching to the EA the next day. She also responded it as well.\n\nHonestly, I thought that was good sign. \nI just got the rejection email from hiring manager couple hours ago. Of course I was super\ndisappointing, and send the quick thank you note back as well. Now, I'm wondering should I just send a quick notes back to EA. Nothing pitching just \"While this particular role wasn't the right fit, I really appreciated the opportunity to learn about the company. Thanks for taking the time.”\n\nClaude said I should, but ChatGPT said no. What do you think? \n\nThe post might also be a bit rant as well. I’m feeling very down now. ",
+      "subreddit": "jobs",
+      "score": 0,
+      "url": "https://reddit.com/r/jobs/comments/1lank8m/should_i_respond_to_ea_message_after_rejection/",
+      "comments": [
+        {
+          "body": "You want replies when you send messages, so send replies when you get messages.",
+          "score": 1
+        },
+        {
+          "body": "&gt;\"While this particular role wasn't the right fit, I really appreciated the opportunity to learn about the company. Thanks for taking the time.”\n\nThis may be too vague. It also sounds like *you* didn't think it was a fit. Maybe add something about you not being selected for the position first. Like this:\n\n\"Thanks for taking the time to reach out, it appears I wasn't selected for this role. While this particular role wasn't the right fit, I appreciated  yada yada\"",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Finally happened: rejected after final interview for a job I really wanted",
+      "body": "Eh, it's nothing new, folks. I really wanted this particular job and it felt like a great fit as I really liked the team and their mission. While I hadn't ever worked in this particular industry before, I had some experience in a different industry related to that. I brought this up at all my interviews and every interviewer seemed to like it.\n\nI had the final in-person interview a couple days ago. The role was EA for a CEO. It seemed to go well but then last night, I got the rejection email. I'm not gonna lie; I was really sad. Still kinda am. \n\nLuckily, the recruiter who brought this role to me is really nice and she forwarded me the feedback that the company sent about me. The feedback?? They didn't like that I said I prefer to use a notebook and write things down by hand. Obviously I also use my laptop and keep things organized on there. I did explain that I'm both a visual and kinesthetic learner. The physical act of writing just really commits things to my memory and then it's easy for me to transfer that info into digital form and keep track from there. I've been EA to CEOs at multimillion dollar companies and have managed multimillion dollar projects at those companies. All with my notebook and writing things down by hand.\n\nI'm not sure if this was a BS reason or not but I guess it doesn't really matter. Luckily, I'm in the interview process for a different job that would pay even more. So I'm curious to see where that goes. I guess I'm a little floored that the dealbreaker for them was something that I think is minor and petty. However, now that I'm thinking about it, perhaps this is a sign that the CEO is a bit of a micromanager??? I have no way of knowing this for sure but in any case, I'm trying to navigate my disappointment and move towards accepting that this simply was not meant to be. Anyway, feel free to share your recent (or old/previous) \"rejected-after-final-interview\" experiences, especially if you got feedback that you thought was dumb or weird. I haven't seen too many of those since most companies just ghost or just say, \"Sorry but you aren't the one.\"",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/1l8wq7s/finally_happened_rejected_after_final_interview/",
+      "comments": [
+        {
+          "body": "Happened to me as well. I was told it was just one interview, then the hiring manager told the recruiter he was extending an offer on the same day. Nothing happened. The next day they said VP wanted to interview me also and it will be the final interview. Ok, I talked to the vp, he liked me. Feedback was very positive. Still nothing happened. I reached out again to the recruiter, apparently over the weekend, vp somehow wanted to confirm with CFO. I waited until today to follow up and was told they picked someone else. Even the recruiters are blindsided. I suspect it’s probably an internal hire, some politics bs and it wasted everyone’s time. \n\nLuckily I have a job but I’m actively looking for another position due to some complications in our department. But it sucks regardless. There are just way too many people looking for work right now, employers are very picky.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Interview at Electronic Arts – Any tips or insight on what to expect?",
+      "body": "Hey everyone! 😊\n\nI have an interview coming up at EA for a role in the **operations / workplace experience** area. I’m coming into it from a **management background**, and I’m really excited about the opportunity — EA has been part of my life since I was a kid, so this means a lot to me!\n\nIf anyone here has interviewed with EA (especially for roles in operations, workplace, or office coordination), I’d love to hear:\n\n• What the process was like\n\n• What kind of questions to expect\n\n• Any tips you wish you had before your interview\n\nThanks so much in advance for any insight! 🙏",
+      "subreddit": "jobs",
+      "score": 0,
+      "url": "https://reddit.com/r/jobs/comments/1jl7w37/interview_at_electronic_arts_any_tips_or_insight/",
+      "comments": [
+        {
+          "body": "Hey! I hope your interview went well.\n\nI have a phone screening interview next week. Did you also go through a phone screening with a recruiter?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "How do I ask a job to \"hurry\" with an offer",
+      "body": "It's crunch time folks! If I don't get any of these positions, I'm SOL. \n\nHere's the situation: there's company A, B, and C, in the order from most desired to least desired. I've finished interviews with A, I'm waiting to hear back for an interview with B (2nd out of 3), and I have another interview tomorrow with C (2nd out of 3). \n\nBecause I want to work at Company A the most, I'd like them to present an offer within the next 7 days; however, at the time of interviewing with the CEO (last Thursday), he told me they're \"hiring slow\" to make a good and calculated hiring decision. Would it ruin my chances to ask them to get me an offer by the 13th (next Wednesday)? We had great chemistry during the interview and I get the gut feeling that I'm a top candidate.\n\nSidenote, I'm out of work and need money desperately, so I will be giving my 100% in all the interviews. I just want to know if I could convince company A to give me an offer earlier in the month Rather than later. Thank you!\n\nAnother sidenote: company A is an EA position, company B is an admin asst position, and company C is a office admin position ",
+      "subreddit": "jobs",
+      "score": 2,
+      "url": "https://reddit.com/r/jobs/comments/1b9aid3/how_do_i_ask_a_job_to_hurry_with_an_offer/",
+      "comments": [
+        {
+          "body": "The only way you can put pressure on a job to hurry their decision is if you tell them you have another offer. However, you should only do that if you actually have another offer in hand because there’s a risk the employer will refuse to be rushed and just reject you.",
+          "score": 3
+        },
+        {
+          "body": "They assume you are interviewing other places and they know that all candidates want answers ASAP. I don’t think it will benefit you in anyway to rush them at this point.\n\nI’d focus on crushing your interview with companies B and C. Once you have an offer you can ask for some time to consider and then reach out to A and say can you let me know by a certain date if you can make an offer.",
+          "score": 1
+        },
+        {
+          "body": "Hard disagree with both the other posters. Make up that one of these companies offered already. Decline to say who or how much (\"not at liberty to share\" and let them wonder). It's not going to get you rejected. If you get rejected afterward, they were prob always going to.\n\nHR folks generally acknowledge that sifting applicants is a soup of unclear indicators and you're making various degrees of educated guess, but other people choosing a candidate is probably one of the clearest ones you can get. I've been in this situation twice, once real, once made up, and I was offered both times. One succeeded in speeding them up, the other they tried and couldn't, but they gave me helpful assurances. I basically said \"ok thank you, I'll pass on the other (fake) offer,\" which you can do too if they stick to this \"slow\" business.",
+          "score": 1
+        },
+        {
+          "body": "Apply to more jobs is your best bet.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Recently got hired, 1 month in and I want to quit.",
+      "body": "I worked for a startup for almost 3 years, and it very nearly killed me (not exaggerating).  It was mental and physical warfare daily &amp; I never knew if we were getting paid, never on time certainly.  I got a great job offer with a 15% raise and I was ecstatic.  It was a Tesla project, what could go wrong?  Cue the layoff 8 weeks in.  It took me months to find that job, and the job market is tough, never mind that I'm a senior EA with 25 years' experience (read: old) I'm great on paper, and I get tons of interviews, then I don't get the job.  I know it has to be because they think I am going to retire in 6 years, and I will :) but for now I need a job.  So, I took a job recently, less money but I need a job.  But the boss is a narcissistic, misogynist, pig.  It's in office and I've been remote 5 years.  I didn't realize I'm the 3rd EA in 6 months.  He threw a chair in the office, and everyone is afraid of his wrath, and he is just an asshole.   He made me cry my first week.  I want to quit but if I quit I worry I won't be able to collect unemployment - I filed and got 2 weeks pay then got a job.  I've been \"talked to\" twice about taking a day off and then missing a meeting (not an important meeting - a weekly update meeting that I could get notes on).  I am applying like crazy, but honestly I'd rather be unemployed and do side gigs than work another day for that prick.   What are my options?  Can I just continue to mess up and be fired and collect?  Or can I quit since they aren't going to be responsible for paying my unemployment anyway?",
+      "subreddit": "jobs",
+      "score": 0,
+      "url": "https://reddit.com/r/jobs/comments/1doxgu5/recently_got_hired_1_month_in_and_i_want_to_quit/",
+      "comments": [
+        {
+          "body": "I see this unfortunately as a \"which sucks less\" situation. Does it suck less to be mistreated, get paid a steady, but less than your worth, income? Or does it suck less to be unemployed, job searching, and doing side gigs? Whichever sucks less, do that.\n\nI recommend you quit, I'm not sure all the technicalities around severance in your situation, but I wouldn't tolerate another second of being mistreated.",
+          "score": 2
+        },
+        {
+          "body": "Is this a big company and this guy is low/middle management?  In that is the case it usually takes 6-24 months for the system to flush out bad managers like this.   If its a small company, you will probably need to leave.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "IS working as Executive Assistant worth it in Morgan Stanly? Salary? Stressful?",
+      "body": "Hey guys, I have got an interview with Morgan Stanly(NYC) for the position Executive Assistant. I was wondering if anybody could provide some insights about this role.\n\nI have 2 years of experience in retail management and about 4 years of experience for receptionist. I wouldn't say I have the strongest qualifications for this role but I do have a lot of soft skills and I'm also a person who is very detail oriented, I believe these will help me a lot in this role.\n\nI'm also not sure how to get the most out of the salary range, which they posted 65k-125k. This seems like a big gap, hoping I can find some insights here.\n\n  \nIf you work in NYC area, how does it feel working as EA? Salary is good?(if not comfortable sharing I'm also open to chat in DMs) Stressful? Any tips on how I can get the most out of the salary range?\n\nAny insights are super helpful!! Thanks!\n\n",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/1elqxwt/is_working_as_executive_assistant_worth_it_in/",
+      "comments": []
+    },
+    {
+      "title": "EA Interview Help",
+      "body": "I have an interview next week to be an executive assistant for a town’s manager and select board. I REALLLYY need this job, it would significantly improve every aspect of my life. \n\nAny insights on ways to nail this interview? Questions I should prepare to answer? Skills to highlight? Literally any advice is greatly appreciated. \n\nThanks in advance!",
+      "subreddit": "interviews",
+      "score": 2,
+      "url": "https://reddit.com/r/interviews/comments/1nlcb9k/ea_interview_help/",
+      "comments": [
+        {
+          "body": "Google commonly asked interview questions.\n\nWrite down your answers to all of them. Write them down so you can think through the answers.  \n\nThen search around Reddit for surprise interview questions.  Be prepared for those. \n\nPrepare your questions for them. For example ask what success looks like in this role or why is this position vacant.  \n\nBe calm.  Be brief &amp; succinct. Be yourself.",
+          "score": 1
+        },
+        {
+          "body": "It's completely understandable how much this means to you. That's a huge opportunity, and the pressure is real! The good news is that for a role like this, a lot of the preparation is straightforward and highly effective. You'll want to highlight your organizational skills and discretion, but also your ability to be a strategic partner. I'd prepare for questions about how you handle confidential information and what you do when you are asked to juggle multiple high-priority tasks with competing deadlines. To really nail it, you should also research the town's manager and recent board initiatives. Showing that you've done your homework and understand the specific challenges and goals of the office will set you apart from other candidates. If you want a few more tips on how to structure your answers for common interview questions, I have a detailed guide [https://acejobi.com/the-ultimate-guide-to-behavioral-interviews/](https://acejobi.com/the-ultimate-guide-to-behavioral-interviews/)",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "title": "Need help preparing for EA interview at Oliver Wyman",
+      "body": "Hi everyone,\nI could really use some guidance. I just had the first interview for an Executive Assistant role at Oliver Wyman, and tomorrow I’ll be doing the business case and Excel portion.\n\nTo be honest, I’m more nervous than usual because I really need this job. It pays what I need right now, and that pressure makes me overthink and freeze — which has caused me to underperform in past interviews, even though I know I’m fully capable of doing the job well.\n\nOne thing that’s also making me anxious is that, since this role doesn’t require very specific technical skills, there’s a lot of competition. I’d love to know:\n\t•\tWhat kind of things are they looking for in the Excel and business case exercises?\n\t•\tWhat should I try to highlight to stand out?\n\t•\tWhat should I expect from the next interviews, especially with the hiring manager?\n\t•\tHow can I prepare to avoid freezing up or being caught off guard by questions?\n\nAny tips or insights from people who’ve gone through this process — or something similar — would be incredibly appreciated. Thanks so much in advance.",
+      "subreddit": "interviews",
+      "score": 2,
+      "url": "https://reddit.com/r/interviews/comments/1m7o65u/need_help_preparing_for_ea_interview_at_oliver/",
+      "comments": [
+        {
+          "body": "The Excel portion will likely test your ability to organize data, create formulas, and present information clearly rather than advanced technical skills. They want to see you can handle typical EA tasks like managing schedules, tracking expenses, or creating reports that executives can quickly understand. For the business case, expect something straightforward like prioritizing meeting requests, managing conflicting schedules, or solving a logistical problem - they're testing your judgment and problem-solving approach more than consulting-level analysis.\n\nWhat will make you stand out is demonstrating that you think like an executive's right hand. Show them you understand the bigger picture by asking clarifying questions, explaining your reasoning out loud, and focusing on solutions that save time and reduce friction for busy partners. The hiring manager interview will probably focus on scenarios where you had to juggle competing priorities, handle confidential information, or manage difficult personalities. Practice talking through your thought process for common EA challenges so you don't freeze up when the pressure hits.\n\nI'm actually on the team that built [interview AI](http://interviews.chat), and it's designed exactly for situations like this where you need to practice handling tricky questions and avoid that deer-in-headlights moment when you're put on the spot.",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Was top candidate on paper…didn’t get",
+      "body": "Live in NYC. Laid off in July from my executive assistant job in a niche field. My background is in film but in post. My first job was in film distribution. Had an interview last week for a well known film company, was super excited because this position was for a job I did about 8 years ago but nothing in the industry has changed since then, I would still be able to do the work without issue. I just wanted to make my way back from being an executive assistant to a job with a title that had more prospects of a future, I hoped. I’m tired of being an EA, I feel it’s sometimes a thankless job. Anyway, I found contact of hiring manager, emailed her two hours after I saw job post, got an email the next day asking to go more in depth about my experience which I did. She scheduled a phone interview for last Monday. Phone interview started off promising and I understood that I was the first person she spoke to. She also told me she knew my boss from my EA job because of how specific that company is for the industry. She said she was also interviewing a woman I worked for at my first job for a senior position. Small world. Then things got odd because she asked me why I’m out of work and I said lay off and she asked why and I said ‘I think the company is having financial issues but I am uncertain but I was pretty shocked myself, I worked on an important contract until my last day there.’ Maybe I shouldn’t have gone this in depth? After she asked me ‘do you even want this job? What is your dream job?’ Which is an odd question but I said ‘yes I would like to work in this side of film again, I was so good at this job, I suppose I can go work at a slightly adjacent industry based on my most recent job but I don’t want to. I want to continue working in film.’ Then she asked how much I made at my last job as EA and I said ‘well your job post didn’t list salary so what is the budget? This is a more junior role but I have years of experience so I’m trying to understand if you’re looking for someone starting or experienced?’ And she said ‘definitely experienced. So what is the salary you’re seeking?’ Now, as an EA in NYC I didn’t make that much…$65k so I said ‘$70k’ and then her mood shifted and she just said ‘Hmmm okay…hmmm’ and then it went downhill from there. I still don’t know what the job pays but it felt like after she couldn’t get me off the phone fast enough. I just want a job that pays better than my last and to improve my buying power, food and rent are so expensive here and at my age I should be further up in salary. Now, I’m thinking there shouldn’t have been a reason I didn’t get the job - I know how to do it plus I bring a lot of other relevant experience within the film industry from my last job too. I’m so scared I won’t be able to find something when unemployment runs out…I’ve been applying since July and this is the first place I heard back from that was a good fit. Anyone can give me insight from the other side of this? Thank you! ",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1nj3a89/was_top_candidate_on_paperdidnt_get/",
+      "comments": [
+        {
+          "body": "NY Labor Law Section 194 prohibits recruiters from asking an applicant’s past wages and salary",
+          "score": 3
+        },
+        {
+          "body": "Sounds like the main issue was misalignment on salary expectations. In the future, research the role and company to set a realistic range, then communicate flexibility rather than a fixed number to avoid closing the door. Also, focus on demonstrating passion and commitment to the industry to ensure they understand your genuine interest in returning.",
+          "score": 3
+        },
+        {
+          "body": "If they ask what pay rate you're expecting, you could counter with, \"what is your compensation range?\" \n\nIf they balk at responding, say, \"I think the job is worth Y, but I'd consider something between X and Z,\" and name a reasonable spread of numbers.\n\nI have taken jobs at lower amounts than I expected, with the written condition that we'd have a meeting in 90 days so they could re-evaluate and consider bringing me up to the level I had expected. This works maybe 50% of the time.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "My sigrid interview tips and experience",
+      "body": "anyone who worked in Mysigrid, kamusta po?\nany tips for interview? kamusta po ang environment, salary and such ....\n\nanyways, I'm applying for EA position.\nand pano nag wowork yung hybrid set up\n\nsalamat sa sasagot. ",
+      "subreddit": "interviews",
+      "score": 2,
+      "url": "https://reddit.com/r/interviews/comments/1l7uqvs/my_sigrid_interview_tips_and_experience/",
+      "comments": [
+        {
+          "body": "Kumusta po yung interview niyo?",
+          "score": 1
+        },
+        {
+          "body": "Sana d mo tinanggap masisira ang buhay mo hahahahaha",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Interview follow up",
+      "body": "Hi!! I would love some advice. I had a 2nd interview yesterday with the chief strategic officer for an opportunity I am really excited about. Some key points...\n\n• At the end of the interview, she said she would like me to meet with the CEO (this is for an EA position)\n• She said she would have the recruiter reach out to me by the end of the day regarding next steps\n• I did not hear from the recruiter\n• I sent a thank you email last night to the person I interviewed (should I have cc'd the recruiter?)\n• I did not hear anything today from the recruiter or the person I interviewed with\n\nSo my question is at what point should I send a follow up email to the recruiter asking about next steps? Is tomorrow too soon? My interview was yesterday, 1/22 at 12pm.",
+      "subreddit": "interviews",
+      "score": 2,
+      "url": "https://reddit.com/r/interviews/comments/1i8ir9b/interview_follow_up/",
+      "comments": [
+        {
+          "body": "If they want you, they know how to reach you. Be patient. Sometimes I have trouble taking my own advice lol",
+          "score": 2
+        },
+        {
+          "body": "Tomorrow for sure.",
+          "score": 2
+        },
+        {
+          "body": "I would love that tool!! I also really appreciate your positivity a lot so thank you. I am hoping for good things to come. 😭",
+          "score": 1
+        },
+        {
+          "body": "You really don’t want to send any follow up other than a single thank you note following each interview stage. A follow up note of course signals that you’re polite and you understand social convention.\n\nBut if you’re asking about communication outside of that narrow scope, then show restraint. Do not under any circumstance pester the company with inquiries about the status of their decision.\n\nAdditional communication doesn’t help you, and can only hurt because it makes you look needy. And communication the day after you sent an email that didn’t get a response makes you look desperate.\n\nAlso, inquiring waists the time of the recruiter or hiring manager who are already busy sending hundreds of emails during the course of a week.  They don’t want to be annoyed by someone seeking additional information that they promised is forthcoming anyway.\n\nIf they want you, I can assure you that they will follow up with you.",
+          "score": 1
+        },
+        {
+          "body": "I would follow up next week. Be patient",
+          "score": 1
+        },
+        {
+          "body": "Definitely reach out tomorrow",
+          "score": 1
+        },
+        {
+          "body": "Patience! Touch base early next week with the recruiter for an update. BTW, always CC or BC the recruiter if you want their maximum cooperation.",
+          "score": 0
+        },
+        {
+          "body": "I'd say it's totally fine to reach out to the recruiter again on the second day after the interview. You've given them a day to respond and now it's time to politely nudge them for an update. Send an email tomorrow, Wednesday (a day after your interview), saying something like: \"Hi [recruiter's name], I wanted to follow up on our conversation from yesterday regarding next steps. Just wanted to see if there were any updates on when I might hear back from the team.\"\n\nOne thing that helped me when I was in a similar spot was using this AI tool that listens to interview questions and suggests responses in real time. It's not a guaranteed fix, but it made me feel more confident. If you're interested, I can share it with you.\n\nKeep your chin up! These things take time, and it sounds like you're making great progress. Sending another email tomorrow is totally okay, and who knows, maybe you'll get some good news soon. Good luck!",
+          "score": -1
+        }
+      ]
+    },
+    {
+      "title": "What else can I be doing to help my chances of getting noticed?",
+      "body": "I have been job hunting for the last 5 months and applied to around 120 positions during that time and only had two interviews, one of which wasn't anywhere near where I was and the other was for an adjacent skill set, but not my actual one, so I understood why I didn't get either job.\n\nI have over a decade of experience in my field with skills spanning all of the disciplines.\n\nI've recently gone through and made my resume ATS friendly for the scanner bots, created a new cover letter base, updated my LinkedIn, and made a new portfolio page for my work (I'm a video producer) and every day I go on LinkedIn, ZipRecruiter, Indeed, and Glassdoor and look for all jobs with the tag \"video\" both locally and remote. That only take about a half hour or so since I filter by \"Posted in the Last Day\", leaving me with loads of extra time I feel like I should be doing something else to get noticed.\n\nSo, what am I missing here? What other things are people doing to get noticed or find work? I clearly don't have an issue finding jobs in my field since I've applied to 120 of them, but 90% of them never respond back at all and the rest are rejections months later. Does my resume need another revamp? My cover letter? My portfolio page?\n\nResume: [https://drive.google.com/file/d/1yXzt6fWY3CmFWGOSO146lVZaEaMkvpgb/view?usp=drive\\_link](https://drive.google.com/file/d/1yXzt6fWY3CmFWGOSO146lVZaEaMkvpgb/view?usp=drive_link)  \n[https://drive.google.com/file/d/1eJYioI4KTf8VUYLkxU2qNLPON\\_Vi-st9/view?usp=drive\\_link](https://drive.google.com/file/d/1eJYioI4KTf8VUYLkxU2qNLPON_Vi-st9/view?usp=drive_link)\n\nCover Letter: [https://docs.google.com/document/d/18qhlw3ePQbxoQBsnS5Uropmh6WuiFTmm/edit?usp=sharing&amp;ouid=106508671281123410629&amp;rtpof=true&amp;sd=true](https://docs.google.com/document/d/18qhlw3ePQbxoQBsnS5Uropmh6WuiFTmm/edit?usp=sharing&amp;ouid=106508671281123410629&amp;rtpof=true&amp;sd=true)\n\nPortfolio: [Trevor Merrill Video Production Portfolio (wordpress.com)](https://trevormerrill.wordpress.com/)",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/1e9m21v/what_else_can_i_be_doing_to_help_my_chances_of/",
+      "comments": [
+        {
+          "body": "Don’t know too much of your industry, but it seems there isn’t too much demand after the recent movie and television strikes?\n\nThese are just a few resume suggestions: \n\nYou mention your experience from 2013, but your resume only shows job experience since 2015?\n\nAdd some metrics, if you can. For example, how many unions did you help? How many views did your work produce? What was the outcome?\n\nFor your previous jobs, maybe make it past tense? \n\nRemove references, language, and put only top core skills (Dropbox is not a skill (IMO). \n\nAlso, you probably could fit your resume into one page. \n\nI think it’s mostly the industry. Keep applying and hold your head up high (even if it is hard). Good luck.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Got a job offer after I just started another job?",
+      "body": "I just started a new entry/mid level job in a global corporate company as part of the HR team.  A week and a half in, I feel lukewarm about the company. First week was fine but I feel a lot of pressure  now since there’s a conference in a week that I need to prepare everything for apparently and I only just started. During the interview process they said they would let me acclimate for the first couple of months.\n\nI’m in my mid twenties, did a career shift and only just got my USA work permit last year so I haven’t really explored different roles within regular companies. (I was a freelance artist before)\n\nI took this current job because I thought I was curious about HR  (not so sure anymore) as a potential career and I think it could help me in the future. What I would really like is to work in People and Culture or DEI  department.\n\nThis current company offers 2 days remote, decent salary, 13 vacation days, 10 sick days and 2 floating holidays, work days are 9 hours with no fixed break but a lot people seem to leave 30 min to 1 hr earlier. I also live less than a 10 min walk away from this job. \n\nHowever, I just got an offer for an exec. assistant position to the CEO a non-profit. They are offering 12K more and 20 vacation days with 3 days remote a week, and is a 35 min commute via public transport. Granted, they do mention the “occasional” after hours assistance if theCEO is traveling which she apparently does a lot or if there’s an emergency. I also know that an exec. Assistant position can be made or broken depending on the executive.\nPreviously, I worked as an exec. assistant for 6 months for a really toxic boss who yelled and cursed and I cried more than once. So I know how risky and stressful an EA job can be and I’m not exactly dying to go back to that. \nThis CEO says she doesn’t yell but the previous person I spoke to in this interview process did say, what do you do when an executive is not in a good or super stressed and you’re the person who’s there?\n\nMy priority is my family and I want to have a life. But I feel so lost and like I don’t know anything. I also know that I need to stay at whatever this next job is for at least 3 years to not be considered a job hopper. \n\nAny thoughts or advice?",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/1cioply/got_a_job_offer_after_i_just_started_another_job/",
+      "comments": [
+        {
+          "body": "You've only been at the current job for a 7 or 8 business days.   I think you'd want to get a bit more familiar with the place before making a significant assessment.\n\nIf you're feeling pressure in this job, why do you think the EA one would be less prone to pressure?   Seems to me you'd be gambling in the wrong direction.  \"Occasional\" after hours work is not going to be occasional for an often traveling exec.\n\nWhen you start at a new job, you shouldn't expect to be automatically proficient -- especially early in your career.\n\n35 min by public transportation is quite a bit different from 10 min walking.  You should consider how much that will impact your day.\n\nCongrats on you being able to secure two offers in a short period, but I think you are short-changing yourself and your assessment of the current job.\n\nDid you feel all of this before you saw the second offer?  Or after you saw it?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "How to prepare for an EA interview?",
+      "body": "Hi there,\n\nCould you please tell me how to help prepare for an EA position at a big 4 firm? I haven't had an interview in a long time (got jobs through previous colleagues that started their own business, etc.)\n\nExperience includes 5 years as a chiropractic assistant/receptionist to two busy doctors, 5 years experience as an office manager of a dental clinic, 5 years as an assistant manager at a different clinic, and 5 years as a treatment coordinator. I have many parallels to an EA position, but I am feeling quite nervous and would like any advice you may have. Thank you!!\n",
+      "subreddit": "interviews",
+      "score": 2,
+      "url": "https://reddit.com/r/interviews/comments/1nllsip/how_to_prepare_for_an_ea_interview/",
+      "comments": []
+    },
+    {
+      "title": "Providing an update, previous post title was “losing my promotion”",
+      "body": "Long story short, i’m losing my current position due to a restructuring. good news is i still have a job.\n\nI did this interview for a company i was really excited to work for, safe to say i won’t be upset if they send me a rejection letter. \n\nfor the back story, I had two interviews to be an exec assistant for this company. each interview was with 2 of the executives i’d assist. these were both teams interviews btw.\n\nthe first interview, I was there 10 minutes early, and they didn’t join the link until 7 or 8 minutes after. The interview didn’t go great, but not bad. i got my ideas across, but not as clearly as i wanted. the interview did last the whole time period, so i assume that’s a good sign.\n\nthe second interview, i was there 10 minutes early again, and once i was let into that room, it was 6 minutes late. to my surprise, there was only one interviewer instead of 2. she starts the interview off with a prayer? keep in mind i’m jewish, but i didn’t say that and just rolled with it. she said something along the lines of “thank you jesus for bringing (me) to us and please give us the answers we’re looking for.” The whole time i was explaining how i want to be with the company long term, want to provide as much effort as i can, and want to advance. she kept looking at me like this 🤨, but kept saying she appreciates the outlook. the interview gets to the “do you have any questions for me” part after only 10 minutes. After i ask my questions, the second interviewer finally joins and wants to interview me separately. I thought it went really well with both of them.\n\nMy friend who’s higher up in this company asks me out of nowhere the next day “did you say you had no outlook experience?” to which i replied “i said the opposite and even laid out my experience for them.” \nhe then asks “they said you joined 7 minutes late is that true?” even though i JOINED EARLY!!! \n\nSo do i really want to work for a company that twists my words and spreads lies about me to their ea’s? not really. Why is the job market so hard?\n",
+      "subreddit": "interviews",
+      "score": 16,
+      "url": "https://reddit.com/r/interviews/comments/1nnturu/providing_an_update_previous_post_title_was/",
+      "comments": [
+        {
+          "body": "Sounds like excuses. Do they know you're friends?",
+          "score": 6
+        },
+        {
+          "body": "Didn't REM write a song about this?",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Follow up post interview?",
+      "body": "Sorry if this is the incorrect sub. I recently completed my third interview at a public university in the US. All the interviews went very well and at the end of last interview the hiring manager mentioned I would be hearing back f Asrom them.\n\nIt's been 2 weeks since my interview and I have heard nothing. I've worked at a public university in the past and I know that hiring process can be extremely slow.\n\nI want to reach back out but all my communication has been through an executive assistant and not the hiring manager, so I don't have his direct contact. \n\nShould I reach out to the EA and ask for an update? ",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1md5po3/follow_up_post_interview/",
+      "comments": [
+        {
+          "body": "I'm going through something very similar.\n\nHad an interview for a data manager position with the department head that went really well. Last minutes of the interview she said last step was to meet one of the board members and that was going to happen same week.\n\nNgl I got my hopes pretty high up and well... It's been +15 days.\nI only have access to the HR recruiter. I've followed up with her 2 times (once a week) and I've been told the same thing twice, that they are\n\n&gt;\"waiting for this board guy to confirm the agenda\"\n\nI refuse to believe that whoever this guy is, he can't spare 30 minutes of his time. After all this time, I've mentally checked out. If it happens, it happens. \n\nThankfully I still applied to other jobs and got other interviews.\n\nI wouldn't recommend getting personal with the manager on social media or any other way. Keep it through the HR person and lower expectations.",
+          "score": 2
+        },
+        {
+          "body": "Always follow up once a week up to 2-3 weeks through the recruiter, executive assistant or hiring manager. Since you are dealing with an EA for hiring go through them. Don't just sit and wait. I always send follow ups once a week so it does not sound desperate. Don't contact hiring manager as they are working directly with the EA.",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "My sigrid interview tips and experience",
+      "body": "anyone who worked in Mysigrid, kamusta po?\nany tips for interview? kamusta po ang environment, salary and such ....\n\nanyways, I'm applying for EA position.\nand pano nag wowork yung hybrid set up\n\nsalamat sa sasagot. ",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1l7upzv/my_sigrid_interview_tips_and_experience/",
+      "comments": []
+    },
+    {
+      "title": "Interviewed with two companies - received two offers. Which one do I take?",
+      "body": "After months of searching for an opportunity I finally landed a couple of interviews which both resulted in an offer. I am returning to work after maternity leave so it is super important to take the personal/professional balance into consideration. I was quite ambitious and career oriented prior to becoming a mom but now want to prioritize my time with the family.\n\nI have applied for a position at the company A half a year ago and never had them answer me. A month and a half ago they posted regarding a position of the company’s EA and I took a shot at applying for them. I was super excited when I got invited for an initial screening and have completed four rounds of interview, including a thorough psychological test and skills check. After the first round at the company A, I was contacted by a recruiter for a company B. I have applied for a remote position with them months ago and have completely forgotten about it. They invited me for a face to face after a Zoom interview with the recruiter and I was super impressed by not only their culture but also by my immediate supervisors, who were nothing short of professional and positive. The role is dynamic, there is a ton of growth possibility for me profesionally. The only downfall is that the role is a maternity leave coverage, which means there are no promises regarding a future with them. \nToday I have received an offer from company A and they would initially give me a year-contract with the motivation to prolong indefinitely. I was already prepared to decline due to learning about my immediate supervisor’s toxic attitude from multiple reliable sources (who worked with the person beforehand) and two of them actually had a burnout and mental issues afterwards. My gut feeling also wasn’t the best during the interviews, however I must admit I was biased due to the information I had. But there was a surprise for me; they actually recognized me from my initial application gor the role that would completely align with my career goals and the person I am to work for said I have a chance to try myself out in that role if I did not like being an EA. I don’t know, seems a little too good to be true. \n\nI am completely and utterly confused. I have accepted the role with the company B, but have not signed a contract yet. I now have this other opportunity where they are dangling my dream role in front of my nose, but I would actually start as an EA for a person, who is supposedly very difficult to work for. \n\nWhat would you do in my situation? Go with the pleasant, remote but limited contract (pays approx. 200€ more monthly) or with the unlimited role in your hometown where the culture seems toxic but there might me a distant shot at your dream role?",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1ix6r51/interviewed_with_two_companies_received_two/",
+      "comments": [
+        {
+          "body": "I would avoid the toxic job. No question.",
+          "score": 4
+        },
+        {
+          "body": "Follow your gut.  (I didn't even read your post)",
+          "score": 3
+        },
+        {
+          "body": "Keep your peace.  Take the role that will allow you to do your job and give time to your family.",
+          "score": 1
+        },
+        {
+          "body": "I'd go with the less toxic of the two. While there aren't any guarantees it could extend, you've just gotten an in at that company and you never know if you could be extended or find another role there. Coming from someone who had a baby and worked at a toxic environment, it did not end well for me",
+          "score": 1
+        },
+        {
+          "body": "A toxic boss will make you miserable. Don't invite that into your life. ",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "What to expect in a second interview with HR and a VP?",
+      "body": "This is for an EA position, I had a 30-minute interview with HR, and now I'm moving to the next round, which will be about 50 minutes with both HR and the VP of Finance, Accounting, and HR. They mentioned 'segments' in the interview structure. Has anyone been through something similar? What kind of questions or topics should I expect? Any advice would be appreciated! \n",
+      "subreddit": "interviews",
+      "score": 0,
+      "url": "https://reddit.com/r/interviews/comments/1jpbwxc/what_to_expect_in_a_second_interview_with_hr_and/",
+      "comments": [
+        {
+          "body": "The HR will likely focus on your soft skills and general work experience, while the VP will probably ask more specific questions about your abilities as an EA and how you'd handle various scenarios in the role. The 'segments' they mentioned could involve different types of questions or assessments, such as behavioral interviews, situational judgments, or even a brief task related to the EA position.\n\nBe prepared to discuss your organizational skills, ability to manage multiple priorities, and experience supporting executives. They may also ask about your technical proficiency with relevant software and your approach to maintaining confidentiality. Show enthusiasm for the role and come ready with thoughtful questions about the company and the position. This is your chance to really shine and demonstrate why you're the best candidate for the job.\n\nIf you're looking for extra support in preparing for tricky interview questions, you might want to check out [interview practice AI](http://interviews.chat). It's a tool I helped develop that also provides real-time suggestions during online interviews. It could be useful for practicing your responses and feeling more confident going into your second interview.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "No response after initial interview",
+      "body": "I had my very first interview as an adult on Friday. I was nervous but it went pretty well from what I could gather. The interviewer said that the EA would send me an email either that afternoon or after the weekend on Monday with more on next steps in the interview process. I sent a follow up email on Tuesday letting them know that I hadn’t received the email yet. It’s Wednesday now and still no response or email. I know it’s only been less than a week since the initial interview but thoughts?",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1jq1ad5/no_response_after_initial_interview/",
+      "comments": [
+        {
+          "body": "Move on to other opportunities. I would not work with an EA if they can't follow up with you on emails you send to them specially on a initial interview.",
+          "score": 1
+        },
+        {
+          "body": "Keep looking! You'll learn here that people ain't for over 1000 jobs with nothing. People with masters degrees and advanced work experience. Its probably going to take time to find a job. Patience",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Are they ghosting me? ",
+      "body": "I recently got referred by a friend at a tech company for an EA role. I had my final interview on the 13th of Nov, confident that I made a good impression. It just between me and another candidate. Now it has been over a week and no responses yet. I never got to talk to the HR person, I only got their name. This was a direct referral, and the first person I talked to was the person leaving this EA role (they have left this position already). I'm not sure what to do now. I sent out a follow up email to the hiring manager a few days ago.. and haven’t seen a response.. What could this mean? ",
+      "subreddit": "interviews",
+      "score": 3,
+      "url": "https://reddit.com/r/interviews/comments/1h1r11e/are_they_ghosting_me/",
+      "comments": [
+        {
+          "body": "This is wild- I feel like I could’ve wrote this! Exact same thing just happened to me with an admin role and I’m still waiting to hear back. :( I also had a referral, HR didn’t attend the interview and now I’m lost. \n\nI’m sorry I have no insight but I wanted to share so you know you’re not alone! And I don’t think we’re necessarily being ghosted. I wish you luck that you hear good news soon! 🤞",
+          "score": 3
+        },
+        {
+          "body": "I'd try to call the hiring manager. It's more personal and in my experience they are usually more apt to give you information",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "EA content programmer intern\n",
+      "body": "A recruiter reached out to me to book a date for an interview for the content marketing intern role. Does anyone have any advice on how to prepare for this interview",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1glhh78/ea_content_programmer_intern/",
+      "comments": []
+    },
+    {
+      "title": "Ghosting after interviews?",
+      "body": "I have 15 years of experience as an EA, and have been actively searching for a new position that allows for remote work for about 4 months. I know it's a tough market right now, and I am trying to be patient.   \nLast month, I had 2 potential opportunities that I was super excited about. I did well with first round phone interviews for both, and immediately moved on to second round interviews directly with the Exec that I would support. I received positive feedback from both, and felt strongly that I would receive an offer for one (or both) of the positions.   \nSince then, I've checked in with both companies to let them know I'm still interested in the position and understand that hiring decisions may take some time, but wanted to inquire about the status of my application. Again, both companies were quick to respond, saying that they were hoping to make a decision soon. After 2 weeks, I checked in with both companies again for an update. Both have completely ghosted me and not responded to my emails at all.   \nIs this a common thing? I feel like it's so unprofessional, and it honestly makes me second guess even wanting to work for either company. Am I being overly dramatic here? If they don't want to hire me, then that's fine, but at least tell me something. I'm so frustrated and needed to vent. Anyone else experience something similar?",
+      "subreddit": "interviews",
+      "score": 9,
+      "url": "https://reddit.com/r/interviews/comments/1bzxrl1/ghosting_after_interviews/",
+      "comments": [
+        {
+          "body": "O yeahh. 35 years old here, and went on 9 interviews in 7 days. Heard back a no from one, an offer an hour after my interview, and ghosted on the other 7.... I agree... it's so incredibly rude to waste someone time like that....",
+          "score": 4
+        },
+        {
+          "body": "These days? Very common. Or maybe it’s just that we are noticing it more since the are more of us looking? Either way, extremely common. \n\nI have been ghosted about 5 times in my recent searches. Over 100 of you count never even getting a phone call for an interview.",
+          "score": 3
+        },
+        {
+          "body": "Ghost after following up? yes. I also followed up and was told something about having more information in a few days and got the rejection email from someone else right after. The market is rough.",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "title": "Quit my job due to stress, how do I explain that in an interview?",
+      "body": "For context, I left my 3 year position as an Executive Assistant to pursue a career in project management in Jan this year. The new role turned out to be marketing heavy (I have no experience in) which was not what was discussed during the interviews and the training and support were non-existent in a toxic environment. It was causing me serious mental and emotional stress (on top of existing anxiety and depression) and my therapist and doctor agreed I should leave/quit. Now, I'm looking for a job as an EA again and I'm not sure how to explain why I left my new role after 5months and why I didn't wait for a new job. I did try look for something new for a couple of months beforehand but it's been hard to find something and I just couldn't stomach it anymore. Any tips would be very helpful. TIA",
+      "subreddit": "interviews",
+      "score": 8,
+      "url": "https://reddit.com/r/interviews/comments/14iwokw/quit_my_job_due_to_stress_how_do_i_explain_that/",
+      "comments": [
+        {
+          "body": "Don’t mention anything about quitting due to stress. Just say you’re looking for new opportunities.",
+          "score": 6
+        },
+        {
+          "body": "Oof, I'm sorry that happened. I would just say that you realized it is not a good fit (career, culture, etc.).",
+          "score": 4
+        },
+        {
+          "body": "I had a professional burn out in November. My doctor put me on medical leave (the day i was fired). I’m getting help from a governmental agency to help me get a job. She said don’t mention it, they might not ask. If they do, i say i had to make the difficult decision to take some time to deal with personal matters. Although my reference from my previous job is not my boss, it’s a friend and they don’t mention anything about getting fired so that helps me",
+          "score": 2
+        },
+        {
+          "body": "you signed an NDA and cannot go over those details.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Bad Interview",
+      "body": "I just had an EA phone job interview for a job that I really want at a company I’d love to work for for an amazing job with a great salary. Unfortunately I feel like I really bombed the interview. :( I already sent a thank you email to the interviewer but I am wondering if anyone has ever sent an email asking for a second chance interview and how to write up that request professionally. I’m thinking I could explain that I was feeling under the weather/dealing with a heavy migraine. I’m sure it could not hurt to ask? Any thoughts?",
+      "subreddit": "interviews",
+      "score": 8,
+      "url": "https://reddit.com/r/interviews/comments/y9bw64/bad_interview/",
+      "comments": [
+        {
+          "body": "Why do you feel you bombed the interview?  You don't know that.   I've never seen or heard about anyone asking that.  I would have (to late though) pointed out the things you felt you bombed at in the interview in the thank you email highlighting your strong points.  So how did it end?  i.e. next step?  is another mtg set up?",
+          "score": 1
+        },
+        {
+          "body": "Sorry to hear about that experience. \n\nI had a similar situation recently. \n\nIt was a panel interview for a role I really wanted and felt qualified for. \n\nUnfortunately, I came down with COVID the morning of the interview. Too late to reschedule, so I pushed through it and… it definitely wasn’t my best work. Started well, but towards the end I couldn’t generate new thoughts. Brain fog!\n\nI sent your typical follow up email but included mention that I’d felt off during the interview and had just tested positive for COVID. \n\nMy rationale was the same as yours. Can’t hurt. If they like me, they’ll hopefully empathize… and if they’re on the fence MAYBE they’ll give me the benefit of the doubt and put me through to the next round…\n\nNo such luck. \n\nAs for sending a second email, I think it’s a pretty monumental long shot asking for a second chance. And you risk coming off as unprofessional.\n\nMy two cents, at this stage I’d suggest sitting right and just hoping you get through to the next round. \n\nHang in there! It’s a numbers game.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Executive Assistants! ",
+      "body": "I posted this in the EA subreddit but thought I should post here too.\n\nI'm currently a part time executive assistant and have been for some time now but I'm looking for some full time opportunities. I've been interviewing at lots of places (in person and remotely) but for some reason I just can't seem to seal the deal. I do great on initial get-to-know-you interviews then on the second (or third) interview with the actual executive I'd be assisting I don't know what happens. I always think things go well and then a week later I get the dreaded thanks but no thanks email. \n\nAny tips on second or third interviews? I'm worried my answers to questions like how do you stay organized or how do you deal with sensitive info aren't good enough? Or maybe they just don't like my personality? I'm truly stumped. I've been at this over a year. I'm tired. \n\nAny advice is greatly appreciated! ",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1h4rse3/executive_assistants/",
+      "comments": []
+    },
+    {
+      "title": "Interviewing for a Banking Job for over 5 months…",
+      "body": "I was approached by a MD of a major bank in early December 2022 at a start up fundraising event. Based off of two questions I asked the keynote speaker, the person asked me if I wanted to work for her bank. I was initially shocked, but held my composure, and told her I would be interested in exploring the idea.\n\nThe process started by us discussing my qualifications, me sending her my resume, and her reassuring me that the company was looking for non-traditional DEI talent. Immediately, I felt certain that this was something that I could land. She mentioned that she would not send me through the traditional hiring route, and that she would “network me in.” In other words, she wanted me to meet other high level individuals (MDs, VPs, SVPs) at the bank so that I could not only find the right fit, but so that these people could put a face to a resume &amp; know that my recommendation came with high remarks from other individuals inside the bank. \n\n5 months later, I am still in the same position I started in. I’ve met 6 individuals across the sector from CRM, to the Law Group, all the way Marketing &amp; Advertising and still have not been able to find a way in. Moreover, after attempting to follow up with the second individual I’d spoken to in January of this year, I found out from her executive assistant that she no longer works at that bank. I found her on LinkedIn and she mentioned something about how she was taking some time off. \n\nI had a meeting scheduled this week Friday with my 6th interview and the person cancelled for no apparent reason and had her EA ask if we could reschedule for next Tuesday. I’m fed up. I’m fully aware of the banking crisis that’s been taking place, but at this point I’m so frustrated that I don’t even see working at this bank as a responsible decision anymore - if this is even a viable option anymore. I’ve gone from feeling like there’s hope to now feeling like I’m on a world tour just smiling and shaking hands (mind you all these meetings have been on zoom. I tried to meet one of the individuals in person  after our initial zoom call, but she cancelled because of her “restructuring of her in-person days and remote days” - the same individual who doesn’t work there anymore). \n\nThis is more of a rant than anything else at this point, but I’m also putting out feelers to see if anyone has been through anything as ridiculous as this when it comes to working in the banking sector. I’ve given myself until June to officially wipe the slate with these folks. And for context, this bank is one of the major banks and not one that has collapsed in recent days. \n\nTLDR; my interview process for a banking job has taken over 5 months, and I’m officially fed up with the process.",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/136s20m/interviewing_for_a_banking_job_for_over_5_months/",
+      "comments": [
+        {
+          "body": "This sounds like a rather unique scenario and I’m sorry for the emotional rollercoaster you been going through. I’ve never heard of such a situation before and I can imagine that if your contact no longer works there then there’s no political incentive for her colleagues to really follow through. Because it’s such a unique route of networking in, there would be no official HR paper trail of an application. \n\nThat being said, if you got personally noticed in the first place like this then I wouldn’t be too pessimistic about your career. Just keep doing what you’re doing, and learn from this experience to take all the positives you can. You have six additional network contacts you hadn’t had before that you could utilise in the future.",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

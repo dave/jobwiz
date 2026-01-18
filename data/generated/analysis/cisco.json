@@ -1,0 +1,58 @@
+{
+  "company": "cisco",
+  "common_questions": [
+    "How many computers do you have on site?",
+    "What brands do you use like Apple and or Dell or Cisco?",
+    "How many clients do you have and what brands do they use?",
+    "Do you have any concerns about me as a candidate?",
+    "..and what are the commands for that?",
+    "How do you list the installed software on a server?",
+    "Right, but are we talking Solaris? AIX? HP-UX? Linux - which distro?",
+    "what tools did you used?",
+    "How you learned that?",
+    "WHO? WHO??? WHICH TOM, DICK AND HARRY IS GONNA BE A BETTER FIT BRO? WHYYYY???",
+    "to recite command line commands on a phone interview?",
+    "to them?  Anyone else feel the same about not being able to recite commands off the top of your head, but if you actually get on the command line it starts to come back to you?",
+    "and How's yours interview went ?",
+    "explain how that works",
+    "explain why ) - you're 80% way down to getting the offer"
+  ],
+  "themes": [
+    "System design emphasis",
+    "Heavy focus on coding",
+    "Behavioral interviews important",
+    "Culture fit matters",
+    "Technical deep dive",
+    "Multiple interview rounds",
+    "Take-home assignment",
+    "Whiteboard coding"
+  ],
+  "interview_tips": [
+    "on how to approach this situation early in my career",
+    "you apply through a *dedicated* stream",
+    "it's specific and *referred*",
+    "you never say you are advanced in seniority, i",
+    "you're in a targeted audience when applying for internship/full-time, it is denoted by \"graduating in or after 201x\"",
+    "U go to sleep and don’t sabatoge urself",
+    "and tips? How technical is it? Any insight would be helpful",
+    "and have gotten **NOWHERE",
+    "helps you, stay strong",
+    "or even an opinion would be greatly, greatly appreciated"
+  ],
+  "red_flags": [
+    "use leetcode etc for interviews, ever - for the reason that will be clear below",
+    "force me to explain how that works",
+    "even bother checking what the static code analysis tells them about the code duplication",
+    "buy the argument that the function call would slow down things - we're seldom competing for nanoseconds, and it's not your call anyway",
+    "test your real-work skills",
+    "really care at all what they already know",
+    "look at resumes at all -- they contain almost no useful information",
+    "tell me much about the actual projects: did they do it on their own, with a team, did they do the work or did someone else, was it done with quality o"
+  ],
+  "process_insights": {
+    "typical_rounds": "4 rounds typical",
+    "timeline": "8 weeks",
+    "format": "Mix of phone screen, technical, behavioral, on-site, virtual"
+  },
+  "source_count": 52
+}

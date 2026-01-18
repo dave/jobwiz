@@ -1,0 +1,58 @@
+{
+  "company": "snowflake",
+  "common_questions": [
+    "she didn't do this at all.. wut?",
+    "why did you even apply?",
+    "What's your availability?",
+    "Do you have another job now?",
+    "I couldn't work that job and do school?",
+    "to show me you work, would you have anything to give me that you'd be proud of?",
+    "describe the reliability, availability, and resource costs and trade-offs of your system",
+    "describe bottlenecks at multiple scales—from architectural choices to OS-level performan",
+    "explained my hands-on experience managing IT operations, incident management, and data",
+    "described (and you don't see things for worse than they are), those people are dickheads",
+    "describe the entire industry",
+    "explain myself like I have to justify quitting a job in the future, even when they don'",
+    "explain statistical models to salespeople and convince them that they are reliable and",
+    "Tell me about your transition from being a Dev to being a Scrum Master / Manager / Sales (any",
+    "describe this to a potential future employer in a way that doesn’t make it sound like I’"
+  ],
+  "themes": [
+    "System design emphasis",
+    "Heavy focus on coding",
+    "Behavioral interviews important",
+    "Culture fit matters",
+    "Technical deep dive",
+    "Multiple interview rounds",
+    "Take-home assignment",
+    "Whiteboard coding"
+  ],
+  "interview_tips": [
+    "going through the design/video to understand it, pretty great problem",
+    "you run out of stock a day before the ship arrives",
+    "that inventory arrival flow and a determined rate",
+    "i’m well prepared and fortunately i’ve been able to interview with super cool companies like msft, coinbase, meta, snowflake, and a few smaller startu",
+    "you get some referrals if you can, those really speed up the process",
+    "for getting into unicorns from C++ background? incoming new grad",
+    "I pursue? Any thoughts/criticisms on my observation of the two broad categories I detailed?**",
+    "appropriate models for business needs, support business review processes with effective visualizations and automate processes where needed",
+    "I’ve just been laid off from one of the WITCH giants I’ve been working at for the past three years and I’m not sure which direction to go with my care",
+    "I've been working as a Data Analyst/Insights Strategist for 3"
+  ],
+  "red_flags": [
+    "even considered, especially around:",
+    "consider anything else",
+    "ran a single Clickhouse instance and saw you can churn through billions of rows in seconds",
+    "perform well and are therefore horizontally scaled to perform well",
+    "need to discount to get rid of inventory",
+    "be designed without input from a procurement analyst who does spreadsheets all day",
+    "you deal with supply-chain execution",
+    "count because I haven't touched their specific tech stacks"
+  ],
+  "process_insights": {
+    "typical_rounds": "4 rounds typical",
+    "timeline": "2-4 weeks",
+    "format": "Mix of phone screen, technical, behavioral, on-site, virtual"
+  },
+  "source_count": 43
+}

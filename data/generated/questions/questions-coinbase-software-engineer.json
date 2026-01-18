@@ -1,0 +1,817 @@
+{
+  "company_slug": "coinbase",
+  "company_name": "Coinbase",
+  "role_slug": "software-engineer",
+  "role_name": "Software Engineer",
+  "generated_at": "2026-01-18T18:36:54.257Z",
+  "total_questions": 19,
+  "analysis_data": {
+    "source_count": 31,
+    "themes": [
+      "System design emphasis",
+      "Heavy focus on coding",
+      "Behavioral interviews important",
+      "Culture fit matters",
+      "Case study format",
+      "Multiple interview rounds",
+      "Take-home assignment",
+      "Whiteboard coding"
+    ],
+    "process_insights": {
+      "typical_rounds": "3 rounds typical",
+      "timeline": "12 weeks",
+      "format": "Mix of phone screen, technical, behavioral, on-site, virtual"
+    }
+  },
+  "questions": [
+    {
+      "company_slug": "coinbase",
+      "role_slug": "software-engineer",
+      "question_text": "Tell me about a time you had to lead a project without formal authority.",
+      "category": "behavioral",
+      "difficulty": "medium",
+      "interviewer_intent": "Coinbase looks for 'emergent leadership' - people who step up organically without needing titles. Based on 31 interview reports, candidates commonly face: System design emphasis, Heavy focus on coding, Behavioral interviews important. The interviewer is assessing your influence skills: can you get buy-in from peers? Do you lead through expertise and trust, or do you rely on hierarchy? They're also watching HOW you describe the team - candidates who minimize others' roles reveal poor collaboration instincts that won't work in Coinbase's culture.",
+      "good_answer_traits": [
+        "Influence without authority",
+        "Stakeholder management",
+        "Self-awareness about leadership style",
+        "Credit-sharing with team members",
+        "Outcome-focus over ego"
+      ],
+      "common_mistakes": [
+        "Taking all credit (saying 'I' too much, never 'we')",
+        "Focusing on the WHAT instead of the HOW of leadership",
+        "Describing coercion as influence",
+        "Skipping the outcome or metrics"
+      ],
+      "answer_framework": {
+        "structure": "STAR with leadership lens",
+        "key_elements": [
+          "Why you stepped up (not because you had to)",
+          "How you built alignment without authority",
+          "Specific influence tactics used",
+          "How you handled resistance",
+          "Measurable outcome",
+          "What you'd do differently"
+        ],
+        "time_allocation": "Situation: 15%, Task: 10%, Action: 55%, Result: 20%"
+      },
+      "tags": [
+        "leadership",
+        "influence",
+        "collaboration"
+      ],
+      "is_premium": false,
+      "original_id": "beh-leadership-001"
+    },
+    {
+      "company_slug": "coinbase",
+      "role_slug": "software-engineer",
+      "question_text": "Describe a time you disagreed with a colleague or manager. How did you handle it?",
+      "category": "behavioral",
+      "difficulty": "medium",
+      "interviewer_intent": "The interviewer is probing your conflict resolution style. Coinbase needs people who can disagree constructively - not pushovers, but not bulldozers either. They're listening for: Did you raise the concern or stay silent? Did you attack the person or focus on the idea? Did you know when to commit even if you disagreed? The meta-skill here is 'disagree and commit' - can you advocate strongly, then fully support the decision once made?",
+      "good_answer_traits": [
+        "Constructive disagreement",
+        "Focus on ideas, not personalities",
+        "Active listening",
+        "Disagree and commit mentality",
+        "Professional relationship maintenance"
+      ],
+      "common_mistakes": [
+        "Making the other person look bad",
+        "Framing yourself as always right",
+        "No resolution or learning",
+        "Avoiding the conflict entirely"
+      ],
+      "answer_framework": {
+        "structure": "STAR with resolution focus",
+        "key_elements": [
+          "The specific disagreement (not vague)",
+          "Your perspective AND theirs (shows empathy)",
+          "How you raised the concern",
+          "The discussion process",
+          "The resolution and why it worked",
+          "What the relationship looked like after"
+        ],
+        "time_allocation": "Situation: 20%, Task: 10%, Action: 50%, Result: 20%"
+      },
+      "tags": [
+        "conflict",
+        "communication",
+        "collaboration"
+      ],
+      "is_premium": false,
+      "original_id": "beh-conflict-002"
+    },
+    {
+      "company_slug": "coinbase",
+      "role_slug": "software-engineer",
+      "question_text": "Tell me about your biggest professional failure and what you learned from it.",
+      "category": "behavioral",
+      "difficulty": "hard",
+      "interviewer_intent": "Coinbase uses this question to assess genuine self-awareness and growth mindset. The interviewer is NOT looking for a humble-brag disguised as failure. They want to see: Can you own a real mistake? Do you understand the root cause, not just the symptoms? Have you actually changed behavior as a result? The best answers show vulnerability and concrete learning - candidates who've 'never really failed' reveal either dishonesty or lack of ambition.",
+      "good_answer_traits": [
+        "Genuine self-awareness",
+        "Accountability without excuses",
+        "Root cause analysis",
+        "Concrete behavior change",
+        "Growth mindset in action"
+      ],
+      "common_mistakes": [
+        "Choosing a fake failure (too small to matter)",
+        "Blaming others or circumstances",
+        "No actual learning or change",
+        "Being defensive when probed"
+      ],
+      "answer_framework": {
+        "structure": "Failure-Analysis-Change-Evidence",
+        "key_elements": [
+          "The actual failure (be specific and real)",
+          "Your role (not just 'we failed')",
+          "Root cause analysis",
+          "Specific changes you made",
+          "Evidence the change stuck",
+          "How you'd approach it now"
+        ],
+        "time_allocation": "Failure: 25%, Analysis: 25%, Change: 35%, Evidence: 15%"
+      },
+      "tags": [
+        "failure",
+        "growth",
+        "self-awareness"
+      ],
+      "is_premium": false,
+      "original_id": "beh-failure-003"
+    },
+    {
+      "company_slug": "coinbase",
+      "role_slug": "software-engineer",
+      "question_text": "Tell me about a time you had to make a decision with incomplete information.",
+      "category": "behavioral",
+      "difficulty": "hard",
+      "interviewer_intent": "Coinbase operates in uncertainty constantly. The interviewer is testing your comfort with ambiguity: Do you freeze without perfect data, or can you move forward thoughtfully? They're also watching for judgment - did you gather the RIGHT information, not just MORE information? The meta-question is: do you know when 'good enough' data is enough to act, or do you hide behind 'needing more research'?",
+      "good_answer_traits": [
+        "Comfort with ambiguity",
+        "Judgment about what information matters",
+        "Bias for action over analysis paralysis",
+        "Risk assessment and mitigation",
+        "Learning from the outcome"
+      ],
+      "common_mistakes": [
+        "Pretending you had perfect information",
+        "Not explaining your reasoning process",
+        "No risk mitigation mentioned",
+        "Ignoring the outcome or learnings"
+      ],
+      "answer_framework": {
+        "structure": "Context-Decision-Process-Outcome",
+        "key_elements": [
+          "The ambiguous situation",
+          "What information you DID have",
+          "What you chose NOT to wait for and why",
+          "How you mitigated risk",
+          "The decision and rationale",
+          "The outcome and what you'd do differently"
+        ],
+        "time_allocation": "Context: 20%, Process: 40%, Decision: 20%, Outcome: 20%"
+      },
+      "tags": [
+        "ambiguity",
+        "decision-making",
+        "judgment"
+      ],
+      "is_premium": false,
+      "original_id": "beh-ambiguity-004"
+    },
+    {
+      "company_slug": "coinbase",
+      "role_slug": "software-engineer",
+      "question_text": "Give me an example of a time you had to work with someone difficult. How did you handle it?",
+      "category": "behavioral",
+      "difficulty": "medium",
+      "interviewer_intent": "The interviewer is probing your interpersonal skills and emotional intelligence. Coinbase values collaboration, but they know not everyone is easy to work with. They're watching for: Do you dismiss difficult people or try to understand them? Can you separate the person from the behavior? Do you take ownership of your part in the dynamic? Bonus points if you can describe turning the relationship around.",
+      "good_answer_traits": [
+        "Emotional intelligence",
+        "Empathy for difficult colleagues",
+        "Constructive approach to challenges",
+        "Self-awareness about your role",
+        "Professional relationship management"
+      ],
+      "common_mistakes": [
+        "Making the other person the villain",
+        "No empathy for their perspective",
+        "Escalating to management too quickly",
+        "No resolution or working relationship maintained"
+      ],
+      "answer_framework": {
+        "structure": "STAR with empathy layer",
+        "key_elements": [
+          "The specific difficulty (behavior, not personality)",
+          "Your initial reaction (honest)",
+          "How you tried to understand their perspective",
+          "Specific tactics you used",
+          "The outcome for the work AND the relationship",
+          "What you learned about yourself"
+        ],
+        "time_allocation": "Situation: 15%, Task: 10%, Action: 55%, Result: 20%"
+      },
+      "tags": [
+        "teamwork",
+        "emotional-intelligence",
+        "conflict"
+      ],
+      "is_premium": false,
+      "original_id": "beh-teamwork-005"
+    },
+    {
+      "company_slug": "coinbase",
+      "role_slug": "software-engineer",
+      "question_text": "Given an array of integers, find two numbers that sum to a target value.",
+      "category": "technical",
+      "difficulty": "easy",
+      "interviewer_intent": "This is a classic problem, but Coinbase isn't testing if you've memorized the solution. They're evaluating your problem-solving process: Do you clarify constraints first? Do you start with a brute force approach and then optimize? Can you articulate trade-offs between time and space complexity? Most importantly, can you think out loud clearly while coding under pressure?",
+      "good_answer_traits": [
+        "Clarifying questions before coding",
+        "Brute force to optimization progression",
+        "Time/space complexity analysis",
+        "Clean, readable code",
+        "Edge case handling"
+      ],
+      "common_mistakes": [
+        "Jumping to code without clarifying",
+        "Only knowing the optimal solution (not showing process)",
+        "Ignoring edge cases (empty array, duplicates)",
+        "Silent coding without explanation"
+      ],
+      "answer_framework": {
+        "approach": "Clarify -> Brute force -> Optimize -> Code -> Test",
+        "key_elements": [
+          "Clarify: Can there be duplicates? Negative numbers?",
+          "Brute force: O(n^2) nested loops",
+          "Optimize: Hash map for O(n)",
+          "Code with clear variable names",
+          "Test with edge cases",
+          "Discuss space/time trade-offs"
+        ],
+        "follow_up_prep": "Expect: 'What if the array is sorted?' or 'Find all pairs' or 'Handle duplicates differently'"
+      },
+      "tags": [
+        "algorithms",
+        "hash-maps",
+        "arrays"
+      ],
+      "is_premium": true,
+      "original_id": "tech-algorithm-001"
+    },
+    {
+      "company_slug": "coinbase",
+      "role_slug": "software-engineer",
+      "question_text": "Design a URL shortening service like bit.ly.",
+      "category": "technical",
+      "difficulty": "hard",
+      "interviewer_intent": "Coinbase knows this is a well-documented problem. They're not testing novel thinking - they're evaluating your communication style under pressure. Can you structure a complex discussion? Do you ask clarifying questions or make dangerous assumptions? They're also watching for depth - when they push on one area, can you go deep while acknowledging trade-offs you'd research more in production?",
+      "good_answer_traits": [
+        "Structured thinking (requirements -> design -> deep dive)",
+        "Trade-off articulation (not just listing options)",
+        "Scalability intuition",
+        "Knowing when to say 'I'd research this more'",
+        "Connecting technical choices to product requirements"
+      ],
+      "common_mistakes": [
+        "Jumping to database schema before clarifying scale",
+        "Giving a 'right answer' without showing trade-offs",
+        "Ignoring the analytics/tracking dimension",
+        "Not addressing collision handling for shortened URLs"
+      ],
+      "answer_framework": {
+        "approach": "Requirements -> Estimates -> High-level design -> Deep dive -> Trade-offs",
+        "key_elements": [
+          "Functional requirements (what exactly does it do?)",
+          "Non-functional (scale, latency, availability)",
+          "Back-of-envelope math (QPS, storage)",
+          "High-level components (API, storage, shortening logic)",
+          "One deep dive (e.g., ID generation strategy)",
+          "Trade-offs acknowledged"
+        ],
+        "follow_up_prep": "Expect: 'What if we need analytics?' or 'How do we handle expiring links?' or 'Walk me through the read path at 10x scale.'"
+      },
+      "tags": [
+        "system-design",
+        "scalability",
+        "distributed-systems"
+      ],
+      "is_premium": true,
+      "original_id": "tech-sysdesign-002"
+    },
+    {
+      "company_slug": "coinbase",
+      "role_slug": "software-engineer",
+      "question_text": "Walk me through how you would debug a production issue where the service is returning 500 errors intermittently.",
+      "category": "technical",
+      "difficulty": "medium",
+      "interviewer_intent": "Coinbase is assessing your debugging methodology under pressure. The key word is 'intermittent' - this requires systematic thinking, not random poking. They're watching for: Do you have a mental framework? Do you isolate variables? Can you balance urgency with thoroughness? Senior interviewers also watch if you consider impact mitigation WHILE debugging, not just after.",
+      "good_answer_traits": [
+        "Systematic debugging methodology",
+        "Log and metric analysis",
+        "Hypothesis-driven investigation",
+        "Parallel mitigation while debugging",
+        "Root cause vs. symptom distinction"
+      ],
+      "common_mistakes": [
+        "Random changes without hypothesis",
+        "Ignoring metrics/logs in favor of code reading",
+        "No consideration of impact mitigation",
+        "Stopping at first symptom, not root cause"
+      ],
+      "answer_framework": {
+        "approach": "Observe -> Hypothesize -> Test -> Mitigate -> Root cause",
+        "key_elements": [
+          "Check dashboards/alerts for correlation",
+          "Review recent deployments",
+          "Look at error logs and patterns",
+          "Form hypothesis and test systematically",
+          "Consider mitigation (rollback, feature flag)",
+          "Document findings and prevent recurrence"
+        ],
+        "follow_up_prep": "Expect: 'The error correlates with high traffic' or 'Logs don't show anything unusual' or 'How do you prevent this from happening again?'"
+      },
+      "tags": [
+        "debugging",
+        "production",
+        "operations"
+      ],
+      "is_premium": true,
+      "original_id": "tech-debug-003"
+    },
+    {
+      "company_slug": "coinbase",
+      "role_slug": "software-engineer",
+      "question_text": "Implement an LRU cache with O(1) get and put operations.",
+      "category": "technical",
+      "difficulty": "hard",
+      "interviewer_intent": "This is a classic data structure problem that tests whether you can combine multiple concepts. Coinbase is evaluating: Do you understand WHY this requires a hash map + doubly-linked list? Can you implement clean code under time pressure? Do you handle edge cases like capacity limits and key updates? The 'O(1)' constraint is the key - candidates who miss it reveal they're not reading problems carefully.",
+      "good_answer_traits": [
+        "Understanding the O(1) constraint implications",
+        "Hash map + linked list combination",
+        "Clean API design",
+        "Edge case handling (capacity, updates)",
+        "Ability to implement under time pressure"
+      ],
+      "common_mistakes": [
+        "Missing the O(1) requirement (using array shifting)",
+        "Forgetting to update on get, not just put",
+        "Not handling capacity limit correctly",
+        "Messy linked list pointer management"
+      ],
+      "answer_framework": {
+        "approach": "Understand requirements -> Design data structures -> Implement -> Test",
+        "key_elements": [
+          "Explain why O(1) requires hash map + linked list",
+          "Define the Node and LRUCache classes",
+          "Implement get: lookup + move to front",
+          "Implement put: add/update + evict if needed",
+          "Test with capacity edge cases",
+          "Discuss thread safety if time permits"
+        ],
+        "follow_up_prep": "Expect: 'How would you make this thread-safe?' or 'What if we need TTL-based expiration?' or 'Implement resize()'"
+      },
+      "tags": [
+        "data-structures",
+        "hash-maps",
+        "linked-lists"
+      ],
+      "is_premium": true,
+      "original_id": "tech-code-004"
+    },
+    {
+      "company_slug": "coinbase",
+      "role_slug": "software-engineer",
+      "question_text": "Design an API for a todo list application. What endpoints would you create?",
+      "category": "technical",
+      "difficulty": "medium",
+      "interviewer_intent": "This seems simple, but Coinbase uses it to probe your API design principles. They're evaluating: Do you use REST conventions correctly? Do you think about error handling and edge cases? Can you discuss versioning, pagination, and authentication? The real test is whether you ask clarifying questions or assume you know what a 'todo app' needs.",
+      "good_answer_traits": [
+        "REST convention understanding",
+        "Resource-oriented thinking",
+        "Error handling consideration",
+        "Authentication/authorization awareness",
+        "Versioning and evolution planning"
+      ],
+      "common_mistakes": [
+        "Only happy path endpoints (no error states)",
+        "Non-RESTful design (verbs in URLs)",
+        "Ignoring pagination for list endpoints",
+        "No authentication discussion"
+      ],
+      "answer_framework": {
+        "approach": "Resources -> Endpoints -> Request/Response -> Errors -> Auth",
+        "key_elements": [
+          "Identify resources (todos, users, lists?)",
+          "CRUD endpoints with proper HTTP methods",
+          "Request/response schemas",
+          "Error codes and messages",
+          "Authentication approach",
+          "Pagination for lists"
+        ],
+        "follow_up_prep": "Expect: 'How would you handle sharing lists between users?' or 'What about recurring todos?' or 'How do you version this API?'"
+      },
+      "tags": [
+        "api-design",
+        "rest",
+        "system-design"
+      ],
+      "is_premium": true,
+      "original_id": "tech-api-005"
+    },
+    {
+      "company_slug": "coinbase",
+      "role_slug": "software-engineer",
+      "question_text": "Tell me about a time you took on something outside your job description because it needed to be done.",
+      "category": "culture",
+      "difficulty": "medium",
+      "interviewer_intent": "Coinbase values ownership beyond your immediate role. The interviewer is testing whether you default to 'not my job' or naturally expand scope when needed. They're also probing for how you handled the ambiguity - did you wait for permission or act first? Importantly, they're watching whether you resent the extra work in hindsight or frame it as valuable growth. Authentic ownership means wanting to do it, not just doing it.",
+      "good_answer_traits": [
+        "Proactive scope expansion",
+        "Comfort with ambiguity",
+        "Long-term thinking over short-term convenience",
+        "Genuine enthusiasm for ownership (not resentment)",
+        "Learning from stepping outside comfort zone"
+      ],
+      "common_mistakes": [
+        "Framing it as a burden you had to bear",
+        "Taking on things to show off rather than because they mattered",
+        "No clear impact or outcome from the extra work",
+        "Implying you only do this when asked or incentivized"
+      ],
+      "answer_framework": {
+        "authenticity_check": "Before answering, ask yourself: Would I do this again? If you genuinely wouldn't, pick a different example where you felt energized by the ownership.",
+        "key_elements": [
+          "Why you noticed the gap (shows awareness)",
+          "Why you chose to act vs. escalate (judgment)",
+          "How you balanced this with your actual responsibilities",
+          "The outcome and what you learned",
+          "Whether you'd approach it differently now",
+          "How it shaped your view of ownership"
+        ],
+        "red_flags_to_avoid": [
+          "Complaining about the situation or colleagues",
+          "Implying you were forced into it",
+          "No mention of the result or learning"
+        ]
+      },
+      "tags": [
+        "ownership",
+        "initiative",
+        "scope"
+      ],
+      "target_value": "Problem Solving",
+      "is_premium": false,
+      "original_id": "cult-ownership-001"
+    },
+    {
+      "company_slug": "coinbase",
+      "role_slug": "software-engineer",
+      "question_text": "Describe a time you received critical feedback. How did you respond?",
+      "category": "culture",
+      "difficulty": "medium",
+      "interviewer_intent": "Coinbase cultures feedback heavily. The interviewer is assessing your growth mindset in action - not in theory. Can you hear hard truths without getting defensive? Do you actually change, or just nod and continue? They're also watching how you describe the feedback-giver - candidates who subtly discredit the source reveal an inability to learn from others.",
+      "good_answer_traits": [
+        "Non-defensive reception of feedback",
+        "Specific behavior change as a result",
+        "Gratitude toward the feedback-giver",
+        "Self-awareness about blind spots",
+        "Ongoing effort to seek feedback"
+      ],
+      "common_mistakes": [
+        "Subtly discrediting the feedback or source",
+        "No actual change in behavior",
+        "Framing it as 'they misunderstood me'",
+        "Only accepting feedback you already agreed with"
+      ],
+      "answer_framework": {
+        "authenticity_check": "Choose an example where the feedback genuinely stung at first - and you grew from it. Surface-level feedback doesn't reveal much about your growth capacity.",
+        "key_elements": [
+          "The specific feedback (be concrete)",
+          "Your initial reaction (be honest if it stung)",
+          "How you processed it",
+          "The concrete change you made",
+          "Evidence the change stuck",
+          "Your relationship with that person now"
+        ],
+        "red_flags_to_avoid": [
+          "Defensiveness about the feedback",
+          "Making the feedback-giver look bad",
+          "No concrete behavior change"
+        ]
+      },
+      "tags": [
+        "growth-mindset",
+        "feedback",
+        "self-awareness"
+      ],
+      "target_value": "Growth Mindset",
+      "is_premium": false,
+      "original_id": "cult-learning-002"
+    },
+    {
+      "company_slug": "coinbase",
+      "role_slug": "software-engineer",
+      "question_text": "Tell me about a time you advocated for the customer even when it was inconvenient for you or the team.",
+      "category": "culture",
+      "difficulty": "hard",
+      "interviewer_intent": "Coinbase tests whether you genuinely put customers first or just say you do. The interviewer is looking for situations where customer focus created tension - with timeline, with a stakeholder, with your own priorities. They're testing: Do you cave under pressure, or find ways to serve the customer AND the business? The authentic version includes the cost you paid.",
+      "good_answer_traits": [
+        "Genuine customer empathy",
+        "Willingness to have difficult conversations",
+        "Creative problem-solving to serve customer AND business",
+        "Personal cost acknowledged (not martyrdom)",
+        "Long-term customer relationship thinking"
+      ],
+      "common_mistakes": [
+        "Story with no real tension or cost",
+        "Ignoring legitimate business constraints",
+        "Hero narrative without team acknowledgment",
+        "Customer focus that actually hurt the customer long-term"
+      ],
+      "answer_framework": {
+        "authenticity_check": "The best examples involve real tension - where the 'easy' path was to deprioritize the customer. If there was no cost, it's not really advocacy.",
+        "key_elements": [
+          "The customer's situation and why it mattered",
+          "The tension with business/team priorities",
+          "How you advocated (specific actions)",
+          "The cost to you or the team",
+          "The outcome for the customer",
+          "How you'd balance it differently now"
+        ],
+        "red_flags_to_avoid": [
+          "No real cost or tension in the story",
+          "Ignoring that the business also matters",
+          "Taking sole credit for a team effort"
+        ]
+      },
+      "tags": [
+        "customer-obsession",
+        "advocacy",
+        "trade-offs"
+      ],
+      "target_value": "Customer Obsession",
+      "is_premium": false,
+      "original_id": "cult-customer-003"
+    },
+    {
+      "company_slug": "coinbase",
+      "role_slug": "software-engineer",
+      "question_text": "Describe your ideal work environment. What kind of culture brings out your best work?",
+      "category": "culture",
+      "difficulty": "easy",
+      "interviewer_intent": "This seems open-ended, but Coinbase is probing for authentic fit. They're watching for: Does your described ideal actually match their culture? Are you self-aware about what you need? The risk is saying what you think they want to hear - experienced interviewers spot this. It's better to be honest about your preferences and let both sides assess fit.",
+      "good_answer_traits": [
+        "Genuine self-awareness about preferences",
+        "Specific examples that illustrate the ideal",
+        "Acknowledgment of trade-offs in any culture",
+        "Flexibility where appropriate",
+        "Honest assessment of where you struggle"
+      ],
+      "common_mistakes": [
+        "Saying what you think they want to hear",
+        "Being too vague ('I like collaborative environments')",
+        "No acknowledgment of trade-offs",
+        "Pretending you thrive in all environments"
+      ],
+      "answer_framework": {
+        "authenticity_check": "Be honest. If you discover a mismatch, it's better for both parties. A job where you can't be yourself is not a job worth having.",
+        "key_elements": [
+          "Specific characteristics you thrive in (with examples)",
+          "What you need from management/team",
+          "Trade-offs you're willing to make",
+          "Environments where you've struggled (honest)",
+          "How you've adapted when culture didn't match",
+          "Questions you have about their culture"
+        ],
+        "red_flags_to_avoid": [
+          "Generic answers that could apply anywhere",
+          "Clearly saying what they want to hear",
+          "No self-awareness about limitations"
+        ]
+      },
+      "tags": [
+        "culture-fit",
+        "self-awareness",
+        "authenticity"
+      ],
+      "target_value": "Work Style Fit",
+      "is_premium": false,
+      "original_id": "cult-speed-004"
+    },
+    {
+      "company_slug": "coinbase",
+      "role_slug": "software-engineer",
+      "question_text": "Tell me about a time you changed your mind on something you believed strongly.",
+      "category": "culture",
+      "difficulty": "medium",
+      "interviewer_intent": "Coinbase values intellectual humility - the ability to update beliefs based on evidence. The interviewer is testing: Can you hold strong opinions loosely? Do you actually change, or just pretend to? They're watching for the quality of the new evidence and whether you sought it out or resisted it. Candidates who 'never had to change their mind' reveal either arrogance or lack of intellectual ambition.",
+      "good_answer_traits": [
+        "Genuine belief change (not trivial)",
+        "Evidence-based updating",
+        "Willingness to admit you were wrong",
+        "Active seeking of disconfirming evidence",
+        "Humility without self-deprecation"
+      ],
+      "common_mistakes": [
+        "Choosing something trivial",
+        "Framing it as 'I was partly right'",
+        "No explanation of what convinced you",
+        "Being defensive about the original belief"
+      ],
+      "answer_framework": {
+        "authenticity_check": "Choose something you actually believed strongly - and were genuinely wrong about. The strength of the original conviction makes the change more impressive, not less.",
+        "key_elements": [
+          "The original belief and why you held it",
+          "What challenged it (person, evidence, experience)",
+          "Your internal process of updating",
+          "The new belief and how it's different",
+          "How this changed your behavior",
+          "What it taught you about your own biases"
+        ],
+        "red_flags_to_avoid": [
+          "Minimizing the original belief",
+          "Blaming others for your original position",
+          "No genuine change, just 'nuancing'"
+        ]
+      },
+      "tags": [
+        "intellectual-humility",
+        "growth",
+        "open-mindedness"
+      ],
+      "target_value": "Intellectual Humility",
+      "is_premium": false,
+      "original_id": "cult-bias-005"
+    },
+    {
+      "company_slug": "coinbase",
+      "role_slug": "software-engineer",
+      "question_text": "How many golf balls fit in a school bus?",
+      "category": "curveball",
+      "difficulty": "medium",
+      "interviewer_intent": "The interviewer already knows any reasonable answer is fine - this is about process, not precision. Coinbase is evaluating: Can you structure chaos? Do you state assumptions or pretend to know dimensions? Are you comfortable being wrong and adjusting? Senior interviewers specifically watch for whether you challenge the premise ('What size school bus?') vs. accepting it blindly and whether you stay curious rather than anxious.",
+      "good_answer_traits": [
+        "Structured decomposition of a complex problem",
+        "Explicit assumption-stating",
+        "Comfort with back-of-envelope math",
+        "Willingness to sanity-check and adjust",
+        "Maintaining composure and even curiosity"
+      ],
+      "common_mistakes": [
+        "Freezing or saying 'I don't know'",
+        "Guessing a random number without showing work",
+        "Getting defensive when pushed on assumptions",
+        "Over-engineering the calculation"
+      ],
+      "answer_framework": {
+        "composure_tip": "Say: 'I'll estimate this step by step and state my assumptions as I go.' This signals you know what they're looking for and buys you thinking time.",
+        "approach": "Estimate container volume -> Estimate object volume -> Divide -> Sanity check",
+        "key_elements": [
+          "Estimate bus dimensions (state as assumption)",
+          "Calculate bus volume in cubic feet",
+          "Estimate golf ball diameter and volume",
+          "Account for packing efficiency (~60-70%)",
+          "Do the division",
+          "Sanity check: 'Does this feel reasonable?'"
+        ]
+      },
+      "tags": [
+        "estimation",
+        "structured-thinking",
+        "composure"
+      ],
+      "question_type": "estimation",
+      "is_premium": true,
+      "original_id": "curve-estimation-001"
+    },
+    {
+      "company_slug": "coinbase",
+      "role_slug": "software-engineer",
+      "question_text": "What's your biggest weakness, and don't give me a fake one.",
+      "category": "curveball",
+      "difficulty": "hard",
+      "interviewer_intent": "The interviewer is testing three things at once: 1) Self-awareness - can you identify a real limitation? 2) Honesty under pressure - will you give a genuine answer when pushed? 3) Growth mindset - do you frame weaknesses as fixed traits or areas of active work? They've explicitly closed the 'I work too hard' escape route at Coinbase, so they're watching for authenticity and whether you can be vulnerable without self-sabotage.",
+      "good_answer_traits": [
+        "Genuine self-awareness",
+        "Honesty without self-sabotage",
+        "Evidence of working on the weakness",
+        "Maturity in discussing limitations",
+        "Connecting weakness to role-relevant context"
+      ],
+      "common_mistakes": [
+        "Giving a humble-brag ('I'm a perfectionist')",
+        "Naming something that's a dealbreaker for the role",
+        "No evidence of growth or mitigation",
+        "Getting defensive or flustered by the pressure"
+      ],
+      "answer_framework": {
+        "composure_tip": "The pressure is deliberate - take a breath and remember that honest self-awareness is MORE impressive than a polished non-answer. Genuine vulnerability builds trust.",
+        "approach": "Name a real weakness -> Show you've identified it -> Describe mitigation -> Connect to growth",
+        "key_elements": [
+          "A genuine weakness (not a disguised strength)",
+          "Specific example of when it's shown up",
+          "What you've done to work on it",
+          "Honest acknowledgment of ongoing progress",
+          "Why it won't derail you in this role",
+          "What you're still learning about yourself"
+        ]
+      },
+      "tags": [
+        "self-awareness",
+        "honesty",
+        "pressure"
+      ],
+      "question_type": "pressure",
+      "is_premium": true,
+      "original_id": "curve-pressure-002"
+    },
+    {
+      "company_slug": "coinbase",
+      "role_slug": "software-engineer",
+      "question_text": "If you could have dinner with anyone, living or dead, who would it be and why?",
+      "category": "curveball",
+      "difficulty": "medium",
+      "interviewer_intent": "This question seems casual but Coinbase uses it to reveal your values and intellectual curiosity. They're not judging the person you pick - they're evaluating WHY. Do you pick someone to impress (Einstein, Mandela) or someone genuinely meaningful to you? Can you articulate what you'd want to learn? The best answers reveal authentic curiosity and values, not what you think sounds impressive.",
+      "good_answer_traits": [
+        "Authentic choice (not performative)",
+        "Clear articulation of why this person",
+        "Intellectual curiosity about their perspective",
+        "What you'd want to learn or discuss",
+        "Willingness to be personal if genuine"
+      ],
+      "common_mistakes": [
+        "Picking someone to sound impressive",
+        "No genuine connection or reason",
+        "Vague answer without depth",
+        "Being unable to explain what you'd discuss"
+      ],
+      "answer_framework": {
+        "composure_tip": "Don't overthink who sounds 'best.' Pick someone you're genuinely curious about, even if it's unexpected. Authenticity beats impressiveness every time.",
+        "approach": "Who -> Why them specifically -> What you'd discuss -> What you'd hope to learn",
+        "key_elements": [
+          "Name someone specific",
+          "Why this person (not surface-level reasons)",
+          "What questions you'd ask them",
+          "What you hope to learn or understand",
+          "Connection to something meaningful in your life",
+          "Willingness to go deep on your reasoning"
+        ]
+      },
+      "tags": [
+        "creativity",
+        "values",
+        "intellectual-curiosity"
+      ],
+      "question_type": "hypothetical",
+      "is_premium": true,
+      "original_id": "curve-hypothetical-003"
+    },
+    {
+      "company_slug": "coinbase",
+      "role_slug": "software-engineer",
+      "question_text": "Design a product for blind people to use a smartphone more easily.",
+      "category": "curveball",
+      "difficulty": "hard",
+      "interviewer_intent": "Coinbase is testing user empathy and structured creativity under time pressure. Can you quickly empathize with a user group you may not belong to? Do you ask clarifying questions or make assumptions? They're watching for: Do you consider existing solutions first? Can you identify the real problem before jumping to solutions? Bonus points for acknowledging what you don't know and how you'd learn.",
+      "good_answer_traits": [
+        "User empathy for a different lived experience",
+        "Research instinct (what already exists?)",
+        "Problem definition before solution",
+        "Structured ideation process",
+        "Humility about limitations of your perspective"
+      ],
+      "common_mistakes": [
+        "Jumping to solutions without understanding the problem",
+        "Ignoring existing accessibility features",
+        "Assuming what blind users want without considering diversity",
+        "Patronizing or overly complex solutions"
+      ],
+      "answer_framework": {
+        "composure_tip": "Acknowledge upfront: 'I'm not an expert on accessibility. Let me think through this by first considering what I'd want to learn from actual users.'",
+        "approach": "Empathize -> Existing solutions -> Problem definition -> Ideate -> Select -> Acknowledge gaps",
+        "key_elements": [
+          "Acknowledge your perspective limitation",
+          "Consider what already exists (VoiceOver, TalkBack)",
+          "Define a specific problem (not 'everything')",
+          "Generate 2-3 ideas of varying complexity",
+          "Pick one and explain trade-offs",
+          "Describe how you'd validate with real users"
+        ]
+      },
+      "tags": [
+        "creativity",
+        "empathy",
+        "product-design"
+      ],
+      "question_type": "creative",
+      "is_premium": true,
+      "original_id": "curve-creative-004"
+    }
+  ]
+}

@@ -1,0 +1,529 @@
+{
+  "company": "roblox",
+  "post_count": 23,
+  "exported_at": "2026-01-18T17:44:53.301Z",
+  "posts": [
+    {
+      "title": "Interview Discussion - December 04, 2025",
+      "body": "Please use this thread to have discussions about interviews, interviewing, and interview prep. Posts focusing solely on interviews created outside of this thread will probably be removed.\n        \nAbide by the rules, don't be a jerk.\n        \nThis thread is posted each **Monday and Thursday at midnight PST**. Previous Interview Discussion threads can be found [here](https://www.reddit.com/r/cscareerquestions/search?q=Interview+Discussion&amp;restrict_sr=on&amp;sort=new&amp;t=all).",
+      "subreddit": "cscareerquestions",
+      "score": 1,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1pdudqz/interview_discussion_december_04_2025/",
+      "comments": [
+        {
+          "body": "got an interview for roblox coming up two technicals one behavioral anyone got tips and what to expect",
+          "score": 1
+        },
+        {
+          "body": "did a panel last week where they shared zero feedback after 5 rounds then auto rejected in the portal lmao no idea what they want anymore across companies",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "company tagged questions",
+      "body": "anyone down to help me out here, I need Roblox technical interview questions to practice.\n\nIve visited the github repos, but is anyone who has leetcode premium down to just drop the whole current list for roblox please? thank you",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1ph1vph/company_tagged_questions/",
+      "comments": [
+        {
+          "body": "[deleted]",
+          "score": 7
+        },
+        {
+          "body": "I took the screenshot of the questions, but Reddit will not let me send post images so I'll try tomorrow i guess.",
+          "score": -1
+        }
+      ]
+    },
+    {
+      "title": "Roblox Early Career Questions",
+      "body": "Has anybody done/plan on doing the Roblox assessment? There's 4 tasks (1: coding portion, 2 &amp; 3: some games, 4: Behavioral interview). If anyone could give any insight to this, that'd good b/c I've never seen games as a part of an application and it feels daunting",
+      "subreddit": "cscareerquestions",
+      "score": 3,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1j28sh9/roblox_early_career_questions/",
+      "comments": [
+        {
+          "body": "I took the assessment in winter. Didn't get the job it was challenging but kind of fun. All the tasks are timed. The coding  portion is like a normal coding interview with two questions. The gaming portion is more like puzzle solving in my assessment I had to build robots for one of them that pass through a course basically try to build as much that pass and the other one was like a factory simulation game where you try to generate the most profits. The games could be different though. Check out Kaiju cats on Roblox as the gameplay mechanics are basically what the games are at the core. The behavioral interview is just a questionnaire with situations presented and how you would go about them. Try to be quick to answer as you are timed and dwelling on which answer sounds best obviously winds down the time. Best of luck to you",
+          "score": 4
+        },
+        {
+          "body": "The games were very low key. One was a factory optimization type game, the other was a trial and error “build a robot to go through an obstacle course”.",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Roblox PHD ML internship reflection",
+      "body": "Roblox PhD Internship interview reflection\n\nI'm a third year PhD student at a t20, no visa sponsorship required. Generally work on applying LLM and graph neural networks to social science problems. Applied for a PhD research intern position.\n\n1. Got OA, it was dumb as fuck. Had to download and play games in Roblox. They're basically iq tests where you had to do like factory optimization and design cars to cross obstacle courses or whatever. I was just like fuck it and got basically a 0 on the first game and gave up on the rest because it wasn't worth the effort lol. \n\n2. Recruiter schedules a call with me and basically tells me I'm moving on to the interview calls. Tells me to just redo the OAs for completion and basically that the scores don't matter. I guess they do resume screening before OA results and if your experience is relevant enough they don't care lmao. \n\n3. Get a crappy score on the second game, and third OA segment is a bunch of behavioral scenarios, like \"your boss is wrong about something, how do you approach the situation\". No coding OA, interestingly. \n\n4. Had a thirty minute behavioral round with pretty standard questions, \"tell me about a project where you had a different approach than stakeholders wanted\", etc etc. \n\n5. 45 minute coding round. Really easy? I feel like I've seen other internship reports where people are getting LC hards, maybe they make it easier for the research positions. Question was basically valid parentheses but you also had to handle quote strings. Seemed like it focused more on like communication and figuring out how to handle edge cases. \n\n6. Then they scheduled a ML deep dive with the hiring manager. 1 hour, I basically presented a few of my papers and they asked pretty detailed questions about how I made specific training/dataset/evaluation questions. Lots of reflection on what I could've done differently etc. I really enjoyed this round, it felt like a very good way to measure expertise and ML depth. \n\n7. Whole process took place over 2-3 weeks, very efficient, quick feedback and scheduling of next rounds. I got the official offer 3 business days after the last round. \n\nOverall very good process! Much easier than I expected, but it's possible they identified a research fit and wanted to hurry the process along a bit lol. If they didn't make people do the silly games, I'd say it was a nearly perfect process. ",
+      "subreddit": "cscareerquestions",
+      "score": 22,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1knlhub/roblox_phd_ml_internship_reflection/",
+      "comments": [
+        {
+          "body": "Behold the behemoth engine of capitalism that is the USA. While other countries put their PhDs to work on silly things like \"green energy\" and \"drug research\", the free market allocates our best and brightest to the most efficient sectors like how to optimize virtual block game casinos for children.",
+          "score": 12
+        }
+      ]
+    },
+    {
+      "title": "Just Graduated Winter 2024 Need Advice",
+      "body": "So I just completed my degree in December, but I feel like i am not prepared at all. I have not had any internship experience at all, I have done a few projects in school but other than that i dont seem to have much experience I spent most of my degree studying and working a lot(the a to z warehouse) with almost no personal time for side projects or anything. I applied for an internship at roblox in the winter and the whole assessment made me realize how unprepared I am.\n\nNow I am trying to work on some side projects and study leetcode for interviews. I want to know what I should be focusing on for the future. For a little bit of background: I loved Java in school and have mostly focused on it. I know  a good amount of c++ as thats what was taught in the beginner course, and worked with C# in my intro to game programming class.\n\nLooking at jobs and internships I saw there was an internship that was posted and its for recent grads, but I am feeling very discouraged from applying as I dont think I can even get it with my current set of skills. This feels like a rant but honestly I feel lost and feel like I dont know what to work on. I really love computer science and programming and definitely want to continue on this career path just feel like I want to know what to work on and do to get better and find an internship/job.\n\n  \ntldr: Recently graduated but dont feel prepared and dont have much experience need advice on what to work on to find jobs and gain experience.",
+      "subreddit": "cscareerquestions",
+      "score": 1,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1j2nd5s/just_graduated_winter_2024_need_advice/",
+      "comments": [
+        {
+          "body": "Apply to everything. Everyone else is so you should do the same thing. Didn’t do well in the technical interview? You gained valuable experience and can improve for the next one. Don’t feel discouraged. Unfortunately you will have to grind leetcode but you should also build out any cool projects you can think of.",
+          "score": 3
+        },
+        {
+          "body": "New grads are supposed to be confused. You have a degree in CS not Software Engineering, they are related but separate fields. \n\nThere's going to be a learning curve and this is totally expected and normal. Any job who thinks you should show up day 1 knowing everything is delusional (and unlikely to happen)",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Failing coding challenges left &amp; right.",
+      "body": "I recently graduated from CS and have been working as a frontend software developer for 3 years. I'm pretty happy with my resume and have been getting a handful of responses to applications. The HR call usually goes well and I move on to the OA's and coding challenges. And this is where it has ended. Every time. I've done 6 coding assessments (Amazon, Roblox, Indeed to name some) and have failed all of them. Is this normal? Should I be discouraged? \n\nThe problem is I get completely stumped by problems I've never seen before (or anything similar). I study DS/A's and practice leetcode daily, but I feel like that isn't helping me. For example, I just bombed an OA where the question was about creating a priority queue with custom ASCII sorting. I was making pretty decent progress but got stuck on the \"trick\" in the problem, which all of these seem to have. I knew I wasn't going to get through it with the time left and the interviewer had to just give me some pity tips before time ran out. \n\nMaybe I'm being too hard on myself as it's only been like two months of job searching.. But I feel like I should have passed ONE by now. I love programming and want to make this a career but it's looking pretty grim right now. Did anyone have a similar experience before landing their job? Did it get better? Do I just need to keep grinding leetcode?",
+      "subreddit": "cscareerquestions",
+      "score": 97,
+      "url": "https://reddit.com/r/cscareerquestions/comments/l4y0v7/failing_coding_challenges_left_right/",
+      "comments": [
+        {
+          "body": "First of all, OAs are a huge joke nowadays. Not only do people not do them honestly but the difficulty of the questions are preposterously ridiculous. You mentioned Roblox and I did their OA too.  I had 3 problems where 2 of them would be considered more difficult hard Leetcode questions. You are going to face this shenanigans if you apply to unicorns and FAANG + larger tech firms.\n\nI'd say keep applying because there are companies that give you reasonable OA. Also use your network to get referrals. Usually, if you get referred or get in direct touch with recruiters, they often let you skip some of the initial hurdles including resume screen and OA.\n\nBut yea do keep grinding and applying. I noticed people on cs related subreddits and Leetcode discussions try to make it sound like everyone should be able to solve new questions effortlessly if you've solved enough. I mean sure if a question is very similar to ones I've solved before I can but not if it's something I've never seen before pattern-wise. Also Covid; the job market's not as good and more competitive right now",
+          "score": 81
+        },
+        {
+          "body": "Don’t be discouraged, bud. I’m someone who has worked at Google and Microsoft, and I have never once passed an OA. I’m someone who has always tended to do better on actual interviews than OAs. I’ve been more or less able to avoid OAs by reaching out to my network and getting referrals and I find that instead of an OA, they will give me a technical phone interview. I’ve done over two dozen of these interviews, and have only failed a phone screen once. I’d say just keep pushing through, see if you can have anyone refer you and best of luck.",
+          "score": 17
+        },
+        {
+          "body": "To be honest, I think you just need to accept sometimes that no amount of LC is going to guarantee your ability to solve all OA's.\n\nI can do many Medium level questions without help, as long as I'm still fresh with my prep, and I've had OA's where I've had absolutely no idea what to do. Hell, I applied for a SWE role at a small trading firm a while ago and I was given three problems to solve in an hour - all DP problems and all LC Hard. Their OA was harder than the entirety of my Facebook interview.\n\nA lot of people will say \"just grind LC\", but I don't believe that this actually works, nor do I believe that it is sustainable in the long-term, because unless you plan to spend the next thirty-something years practicing these problems while being able to do your job, you're going to forget how some stuff works - you'll forget how to reverse a linked list in five minutes or fewer, or you'll forget the trick that allows someone to get all left-sided leaf nodes in a BT, or how to do a postorder traversal iteratively.",
+          "score": 14
+        },
+        {
+          "body": "Is anyone having problems of learning how to solve a problem and then a few days later they forget how to solve it ?? or is that only me? It kind of feels like I'm memorizing the solutions to various questions",
+          "score": 16
+        },
+        {
+          "body": "Some companies send automatic OA's such as Roblox then screen your resume after so it's possible you just didn't qualify for the position for some of the companies.\n\nWith that being said, keep studying leetcode, try to do the problems yourself and set a limit for each question (30 min for mediums) then if you don't get it, go through the solution and understand where you went wrong. Additionally, I'd look into exploring every type of D&amp;A and keep track of how many questions you do for each.\n\nMy last tip would be to reach out to your network and get a referral if you haven't already.",
+          "score": 6
+        },
+        {
+          "body": "Honestly, if you haven't done these problems before, that would be normal. A lot of OA problems are reaching high medium and hard level LeetCode, so if you want to ace you probably need to be able to comfortably do LC hard, aka consistently 4 problems solved every contest. \n\nBut obviously this will take a lot of time to achieve, so how most people *actually* pass these OAs is to know the problems before hand, write their own solution, and then regurgitating it during OA and fix possible edge cases. There are internet forums out there where people trade actual interview problems with each other similar to LeetCode Discuss, but on a much larger scale. OAs in particular were almost always \"solved\", with all possible problems posted with solutions.",
+          "score": 6
+        }
+      ]
+    },
+    {
+      "title": "Can I apply for new grad SDE jobs with a 2nd Bachelors?",
+      "body": "So I already have a Bachelors and Masters in Cybersecurity but the itch to break into software engineering hasn't left me. Also with a Masters I got this year could I apply to CODA/LEAP/Tech Connect new grad type jobs that help transition into SDE even though I have 5 YOE in IT/Cyber security if I get my 2nd Bachelors in CS could I apply to new grad SDE jobs?\n\nOnly reason I ask about new grad jobs is I've never worked in SDE workflows like github commits etc, or done any full on SDLC projects start to end. I've just scripted Powershell/Python stuff for security tools and when I maintained/deployed servers. Would rather be eased into SDE but if not then I guess I shoot for the stars for regular SDE/Security Engineering jobs.\n\nI guess they'd prefer new grads with no work experience straight from college than an older IT guy trying to switch to SDE and probably be better I try normal SDE positions that have like 2-3 years YOE but I wouldn't have the YOE in coding close to what they want?\n\nI'm more interested in breaking into Security Engineering at least but SDE is fine, tried to get into Roblox new grad security engineering earlier this year but it literally had Leetcode hard level questions for the OA I bombed. I had prepared best I could Leetcoding 75 questions at least since it was new grad I assumed it wouldn't be that insane but it was hard as hell, 2 hards off rip for the OA I got the 1st question 80 percent of test cases right but the 2nd I had nothing. I would have smoked any security technical questions but was surprised how a lot of Security Engineering jobs just want a SDE that has some cyber security knowledge and certs. Unfortunately I don't have the SDE chops yet. I can Python script but Security Engineer these companies are looking for want SDE grad level applicants can do. I've still done Leetcode now and then but felt depressed when I bombed that OA after studying some much Leetcode and CS OOP fundamentals enough I could explain it in an interview that I haven't touched it as often as before. Tried other security engineering jobs and all of them had tough Leetcode questions that they might as well had specifically asked for SDE grads with some sort of Cybersecurity exposure I guess.\n\nI know self teaching or a boot camp might be better given my experience but I need some structure and want to learn the math and algorithms than taking a 30 min video on youtube and feeling confident when I don't really understand it when I try to explain it to myself again. I'm planning on doing WGU's CS degree where I've already earned my degrees from and have spoken with fellow CS alumni who had good experiences. Don't mind to applying to non new grad SDE jobs straight up after graduation but prefer new grad jobs because I want to learn how SDE's work as I've never done any SDE work ever and new grad jobs I feel would ease me into it. Also any new grad SDE would be higher TC than I have I feel. I've looked in Cap1 and Chase new grad SDE jobs and they easily are 50 percent higher salary than what I earn.\n\nWon't lie the TC SDE's get is also attractive but I'm just done with analyst stuff and don't feel like going into GRC stuff on security. I'm so burned out on learning non stop new threats every week and end up spending my off time trying to learn how new exploits are working or staying on top what vendor got hacked, new zero day for them, that becomes code red for us to mitigate. I swear I rather bang my head against the wall looking for a simple syntax error than having the pressure of keeping stuff secure. Gets tiring being the department everyone hates and expects to stop everything and gets grilled when we don't find a vulnerability fast enough or when audit says why you missed this one alert out of a million and keeping expensive certs up to date so EVEN MORE studying all for a half the salary of a SDE at even low Fortune 500 companies who don't need to be keeping expensive $500-$4k certs up to date. I got like 10 certs and I dread having to keep them up to date. Rather transition now than get those things renewed.\n\nTLDR:\n\n5 YOE / BS, MS in Cybersecurity (Jan 2024) / Working as a SOC analyst / TC 70K\n\nGoing to get BS in CS / I expect grad in 2025 March or so\n\nCan I apply to new grad jobs for SDE/Security Engineering jobs even with my YOE and previous degrees or should I apply to normal SDE jobs after graduating?\n\nIs CODA/Tech Connect type jobs still an option for me or you think Cap1/Chase prefer actual fresh out of college grads?\n\nDo I put my previous BS/MS degrees when applying or would it be better to just put say my BS degrees with the CS as the first one to be seen in my resume?",
+      "subreddit": "cscareerquestions",
+      "score": 4,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1e63bpy/can_i_apply_for_new_grad_sde_jobs_with_a_2nd/",
+      "comments": [
+        {
+          "body": "Having more experience outside of software development won't work against you. I work on applications that house sensitive information with legal requirements for how it must be handled. If I was hiring a new engineer, a background in cybersecurity would be very attractive. You don't want to do a bootcamp. A degree is a practical necessity. Once you have that, you might find it's easier to get your foot in the door by transitioning internally from a cybersecurity role to a development team rather than cold applying to new grad positions.",
+          "score": 3
+        },
+        {
+          "body": "&gt;Can I apply to new grad jobs for SDE/Security Engineering jobs even with my YOE and previous degrees or should I apply to normal SDE jobs after graduating?\n\nI'd pivot to applying for mid level Security Engineering jobs, if you have background in writing code in your roles.   New grad roles seem to be super competitive these days.\n\n&gt;Do I put my previous BS/MS degrees when applying or would it be better to just put say my BS degrees with the CS as the first one to be seen in my resume?\n\nDon't see why not put both, it will make you stand out a bit more since you actually have background in security, which helps with implementing more effective infrastructure.",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Product analytics assessment advice",
+      "body": "I have a data science intern interview at roblox and I've been told to be prepared for statistics, data science questions as well as product analytics assessment. The first two are straightforward, but can anyone help with resources for product analytics?\nI seem to be lost and even though I have found some questions, I don't understand how to get to the answers.",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/k4iovt/product_analytics_assessment_advice/",
+      "comments": []
+    },
+    {
+      "title": "First ever OA was pretty rough",
+      "body": "Just finished the roblox internship hackerrank, and man was that tough. Basically went 0 for 3 on three medium questions and was definitely not prepared. Good to have the wake up call early on because I still have more on the way. I still got a long way to go but damn this leetcode learning curve steep. Thats all just wanted to share my failure good luck on your OAs hopefully they turn out better than mine.",
+      "subreddit": "cscareerquestions",
+      "score": 54,
+      "url": "https://reddit.com/r/cscareerquestions/comments/jfs0v7/first_ever_oa_was_pretty_rough/",
+      "comments": [
+        {
+          "body": "Been failing interview after interview so I felt this on a spiritual level",
+          "score": 50
+        },
+        {
+          "body": "FWIW everyone I know that's taken the Roblox hackerrank has said it's ridiculously difficult and these are people with FAANG (or equiv) offers.  Still a good idea to keep leetcoding though.",
+          "score": 31
+        },
+        {
+          "body": "Your story is just beginning bruh, keep it up.",
+          "score": 23
+        },
+        {
+          "body": "[removed]",
+          "score": 8
+        },
+        {
+          "body": "First few OA will beat you up but then you adjust after a few. It sucks but it's like building muscle. Good luck!",
+          "score": 13
+        },
+        {
+          "body": "What’s an OA?",
+          "score": 5
+        },
+        {
+          "body": "we all failed OAs before, you’re not the first person and you’re not going to be the last. take it as a lesson, not a failure.",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "title": "How well do you typically need to do to get an offer?",
+      "body": "For context, this is for roblox, just had my interviews and was wondering how well i need to do in order to pass, just like typically. Is it necessary to get the most optimal solutions? If i get the most optimal solutions can i still fail?",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/16j1wn1/how_well_do_you_typically_need_to_do_to_get_an/",
+      "comments": [
+        {
+          "body": "You need to convince the other person that you're the best hire out of the pool of interviewees. Every interviewer has different metrics on what makes a good hire. But I sadly concede that there are interviewers who just look at your leetcoding skills.",
+          "score": 9
+        },
+        {
+          "body": "Right now, with literally hundreds of applicants for every job, you need to nail it.",
+          "score": 2
+        },
+        {
+          "body": "[deleted]",
+          "score": 5
+        },
+        {
+          "body": "It completely depends on how hard the questions were, what other candidates did, and a million other things. Some people ask extra hard questions and then want to see how you think, some people ask easier questions and they want a working solution that handles edge cases.",
+          "score": 1
+        },
+        {
+          "body": "Depends on how well the other applicants did.  And whether or not they like them better.",
+          "score": 1
+        },
+        {
+          "body": "Its like a jury, its not about what right or wrong but what you can convince a jury of. Same thing in interviews, if you can convince the people you are talking to that you are the best nothing else matters.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Roblox immediate cognitive assessment (SWE intern)",
+      "body": "Hello friends,\n\nI was just wondering- I received the roblox cognitive assessment. Is this given to everyone who applies? Or does it mean I passed the first screening?\n\nAlso, does anyone know if there’s like a discord or place I could get more info on the interview process? Or on the cognitive assessment. \n\nThank you all in advance, blessings!",
+      "subreddit": "cscareerquestions",
+      "score": 4,
+      "url": "https://reddit.com/r/cscareerquestions/comments/x4g4ta/roblox_immediate_cognitive_assessment_swe_intern/",
+      "comments": [
+        {
+          "body": "Everyone gets it. It is automatically generated by their website",
+          "score": 7
+        },
+        {
+          "body": "I got it like 2 minutes after I applied, I guess it’s automatic. I don’t know what Roblox want. I solved the first cog test, then solved the second with multiple solutions (they asked for “the more the better”). And then I got perfect score on the CodeSignal assessment. And then after a week I got rejected.",
+          "score": 7
+        }
+      ]
+    },
+    {
+      "title": "What questions summarizes this sub in 2020?",
+      "body": "I love hearing about Joshua Fluke personally",
+      "subreddit": "cscareerquestions",
+      "score": 15,
+      "url": "https://reddit.com/r/cscareerquestions/comments/knmh9j/what_questions_summarizes_this_sub_in_2020/",
+      "comments": [
+        {
+          "body": "Is the job market saturated?",
+          "score": 40
+        },
+        {
+          "body": "Who wants/doesn’t want WFH to continue after this is all over?",
+          "score": 28
+        },
+        {
+          "body": "[deleted]",
+          "score": 55
+        },
+        {
+          "body": "Reading about someone paying $500 to get \"Tech Led\" was peak cscsq for me",
+          "score": 27
+        },
+        {
+          "body": "I've applied to a relatively low number of jobs and haven't had an offer yet, should I quit CS?\n\nThese trigger me tbh",
+          "score": 17
+        },
+        {
+          "body": "Anyone done the Roblox interview?",
+          "score": 29
+        },
+        {
+          "body": "I mean if we go by top 10 most upvoted threads this year, they are, in order:\n\n**Why did I spend 4 year getting a CS degree for Web Development when people doing coding bootcamp for a few weeks and are able to get same jobs? **\n\nI've walked away from software development. \n\nBiden to give green cards to recent STEM PhDs\n\nReminder: \"we're a family here\" is bullshit \n\nRemove CS and replace with Leetcode Engineering \n\nI FREAKING DID IT!! \n\n\nScrum Master wants to visit each member of the project at home \"in order to understand the work from home experience for a developer.\"\n\nI (M,1), am having difficulty in finding jobs in my field of study.\n\nI was humiliated because my undergrad is EE and not CS \n\nTook risk negotiating salary.",
+          "score": 20
+        }
+      ]
+    },
+    {
+      "title": "60min virtual screen vs take-home 4hrs test",
+      "body": "Hi all! I’m currently in the interview process with Roblox, already had behavioral interview that went really well (recruiter said that the engineer that conducted the interview really enjoyed it as well as I’m under the same impression). They now asking to move forward and letting me to choose between 60min virtual screen interview or take home test (4 hours max). I’m really not sure which one to choose as they both seem to balance pros/cons.\n\nI feel like virtual most likely will be easier since it’s just an hour long, at the same time I probably would be super nervous.\nWhile 4hrs take home one probably will be some crazy hard leetcode questions that I totally not looking forward for or maybe one big reasonable task to implement some little piece of software. It’s just a guess though. Also I’ll be having access to internet and everything.\n\nAt the same time I have another live coding interview scheduled tomorrow (at a well known company I have moral issues working for cause of their CEO and bit cultish culture from what I’ve heard, so I’ll be unlikely accepting an offer from if I get lucky enough to get to it), so I can practice.\n\nAnyways any thoughts are appreciated especially regarding comparing the options.\n\nThanks!!",
+      "subreddit": "cscareerquestions",
+      "score": 2,
+      "url": "https://reddit.com/r/cscareerquestions/comments/uwyh6e/60min_virtual_screen_vs_takehome_4hrs_test/",
+      "comments": [
+        {
+          "body": "I would do the virtual screen, because the take home could end up being way more than 4 hours and because the virtual screen requires that they invest the same amount of time as you.\n\nOr maybe you could find out what's usually in the take home from someone.",
+          "score": 8
+        },
+        {
+          "body": "Take home will not be a leetcode hard. It will be just a lot of \"normal\" work. If I were you, I'd take the interview for two reasons:\n\n  \n\n\n1) It requires much less time\n\n  \n\n\n2) You will have to do interviews for the onsite anyway, so at least get some practice",
+          "score": 6
+        },
+        {
+          "body": "In my experience take-home tests often focus more on projects that are closer to what you're going to do at work rather than hard DS&amp;A questions. You're more likely to get pure DS&amp;A in a 60-minute virtual task.\n\nA take-home test usually allows you to produce a little more fleshed out work without the same amount of \"put-on-the-spot\" pressure.\n\nThat said: 4 hours is too much IMHO.\n\nI don't have a strong preference either way though, so you're fine either way IMHO.\n\n&gt; I have moral issues working for cause of their CEO and bit cultish culture from what I’ve heard\n\nI want to hear more about this though. You can't throw out sentences like \"bit cultish culture\" and then not follow it up with juicy details!",
+          "score": 5
+        },
+        {
+          "body": "I’d do the virtual screen personally. 4 hours is just too much for me to dedicate to one company and honestly every recruiter estimate is way underestimated. But if you fear a LC question and haven’t studied/don’t feel confident then the choice is obvious: go with the take home.",
+          "score": -1
+        }
+      ]
+    },
+    {
+      "title": "Roblox new grad software engineer",
+      "body": "Has anyone heard back from Roblox after their final interview (new grad software engineer role)?",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/jr5sl5/roblox_new_grad_software_engineer/",
+      "comments": [
+        {
+          "body": "I heard one or two people who had deadlines already got offers. When did you have your interview?",
+          "score": 3
+        },
+        {
+          "body": "Any responses back yet? I am in same position as you guys.",
+          "score": 2
+        },
+        {
+          "body": "Yes, heard back about two weeks after my interview - had a deadline so followed up with them.",
+          "score": 1
+        },
+        {
+          "body": "[deleted]",
+          "score": 1
+        },
+        {
+          "body": "Do they hire international candidates? I gave the OA a few days back.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Roblox?",
+      "body": "So, I'm in the process with Roblox for a summer internship and had a couple questions for anyone that can answer them:\n\n* What were the interviews like? I've got a video interview coming up but was wondering how you felt about the process.\n* How is the company culture? Laid-back/start-up type or more corporate?\n* What do you think of the pay?\n\nThanks!",
+      "subreddit": "cscareerquestions",
+      "score": 24,
+      "url": "https://reddit.com/r/cscareerquestions/comments/9tbz1y/roblox/",
+      "comments": [
+        {
+          "body": "I've heard from someone who used to work there that they loved working there(he used to be a content creator for them and they allowed him to stay creative during his time there). I'm not too sure about the interviews/pay but he went back two years in a row for internships and then went back full time.\n\nSorry if that doesn't answer all your questions, all in all Roblox sounds like a decent company if you like their platform and what they're going for.\n\nHow was the interview process? I heard from him they do that rigorous C++ screen which kinda scared me off to be honest haha.",
+          "score": 8
+        },
+        {
+          "body": "Hey I actually interned at Roblox this past summer so I can try to answer some of the questions you have. Can't speak much about the interview process since it seems to have changed this year, but culture was definitely more on the chill/laid-back side. The pay was honestly pretty trash for bay area when I was there, but last I heard they were trying to improve on that for next summer.",
+          "score": 5
+        },
+        {
+          "body": "How long did it take for them to get back to you after the Hackerrank? It seems I've been ghosted...",
+          "score": 3
+        },
+        {
+          "body": "Literally just got cold-called from them with an offer and they seemingly accepted 40-60 interns out of 5000 applicants. But they are still actively hiring the last few interns from what the hiring manager told me.\n\nGood luck!",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Slack Internship?",
+      "body": "I was fortunate to receive an offer from Slack for their swe internship. Currently, it is my only offer and they gave me a deadline of until Friday to accept the offer without extension. I'm still waiting to hear back from 2 other companies (Flatiron Health, Roblox) but I won't hear back within the deadline. \n\nSince I'm currently a junior, this will be my last internship before I graduate so I'm looking for an internship with good prospects for a return offer for full-time or one that would improve my chances with getting interviews for new grad roles with Big N.\n\nThe reason I'm having difficulty with making a decision is because though the work environment and culture seemed   \n great based off those I spoke to and the TC and benefits were pretty high, I'm worried that Slack's current outlook with respect to their harsh competition (with Microsoft teams) will make career prospects unpredictable. \n\nI'm wondering if I could get any input on my situation and whether I am worrying for nothing since it's just for an internship. Thanks!",
+      "subreddit": "cscareerquestions",
+      "score": 2,
+      "url": "https://reddit.com/r/cscareerquestions/comments/dyzf1b/slack_internship/",
+      "comments": [
+        {
+          "body": "Bro it's slack. I would take it at an instant.",
+          "score": 8
+        },
+        {
+          "body": "I think it’s fair to contact the recruiter (schedule a phone call so your tone is clearer) and ask where they think the company is going in a year, 2 years, etc in terms of growth. And whether the company is currently hiring a lot and if so for what kind of roles. Basically skirt the question of “if I do well will I get a return offer” because then the recruiter will obviously lie to you and say yes, but the other questions are more benign.",
+          "score": 5
+        },
+        {
+          "body": "IMO take it. Slack is a solid brand and a solid product. They IPOd this year and their stock is underperforming, but as an employment prospect, they have interesting work and there's years ahead.",
+          "score": 5
+        },
+        {
+          "body": "Take Slack",
+          "score": 5
+        },
+        {
+          "body": "&gt; I'm worried that Slack's current outlook with respect to their harsh  competition (with Microsoft teams) will make career prospects  unpredictable. \n\nWhat makes you think that?  It is not like market with competition makes companies less likely to face technical challenges that a programmer can solve--or learn from as an intern.  It is also unlikely that a public company would disappear overnight.\n\nEven if Slack went under, no one is going to look at your resume and say \"He was an intern at Slack and Slack went out of business; we can never hire him\"",
+          "score": 5
+        },
+        {
+          "body": "I would definitely take Slacks offer. When did you interview for flatiron health?",
+          "score": 2
+        },
+        {
+          "body": "[deleted]",
+          "score": 1
+        },
+        {
+          "body": "May I know the interview process?\n\nI have taken a code challenge, phone call with the recruiter, video interview with a software manager. I do not know how many rounds are there.",
+          "score": 1
+        },
+        {
+          "body": "Did you hear back from flatiron?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "I fucked up in ROBLOX OA",
+      "body": "Guys, I really don't know what is happened to me I was solving leetcode problem for more than 2 months, I solved 235 and I didn't know what is happened, the problem statement was so long comparing to leetcode and it takes me sometime to analysis the whole problem however, I was able to identify which technique should I use but I didn't do great. Any advice will be helpful. Thx 😞😓",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/kda1vu/i_fucked_up_in_roblox_oa/",
+      "comments": [
+        {
+          "body": "It’s done. Move on. Apply for jobs.",
+          "score": 5
+        },
+        {
+          "body": "Don't feel bad for yourself. The Roblox OA is HARD AF. I know some smart people (who ended up getting offers from FAANG) that failed that OA.",
+          "score": 4
+        },
+        {
+          "body": "Sounds like you just grinded leetcode in the hopes of memorizing the solution to every problem, instead of practicing the fundamentals that would have let you generalize your solutions to new and unknown problems.",
+          "score": 7
+        },
+        {
+          "body": "Yep, that happens.  No one will solve every interview problem presented to them.\n\nThat's why it's fortunate that there is more than one company in the world.",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Non-CS Major struggling with OA",
+      "body": "Does anyone know the best way to improve in timed coding assignments? As I have been applying to mainly data science internship, I have been performing TERRIBLY on the OA. I know of Cracking the Coding Interview and leetcode. Which is better for learning?\n\nPS: I have a roblox OA for their product manager internship and I’m terrified\n\nOA - Online Assessment",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/ktzjwm/noncs_major_struggling_with_oa/",
+      "comments": [
+        {
+          "body": "tf does OA stand for?",
+          "score": 6
+        },
+        {
+          "body": "Cracking the coding interview for learning the material, leetcode for practice.",
+          "score": 2
+        },
+        {
+          "body": "Did u take it? How was it! Please shareeee",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "title": "Roblox CS Internship for 2021",
+      "body": " Roblox CS intern 2021\n\nHow long does it take to hear back from Roblox after their final interview ?",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/jr889z/roblox_cs_internship_for_2021/",
+      "comments": [
+        {
+          "body": "1 week for me",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "What summer internships have you guys heard back from?",
+      "body": "Hey all, I figured that I'm probably not the only one trying to find out who heard back from whom. If anyone is willing enough to share the positions they accepted for the summer, it could help out those who are on their toes and wondering figure out whether or not they're being ghosted. I can start first.\n\nI have taken Hackerrank interviews with more than a handful of well known companies however have either already been rejected or am being ghosted. I am absolutely positive that I am not getting back from Facebook University, JP Morgan, Goldman Sachs, Riot, Twitter, Roblox, and Google.",
+      "subreddit": "cscareerquestions",
+      "score": 6,
+      "url": "https://reddit.com/r/cscareerquestions/comments/dtnk8s/what_summer_internships_have_you_guys_heard_back/",
+      "comments": [
+        {
+          "body": "I haven’t accepted any offers, but I can mention a couple companies I’ve heard back from for when it comes to ghosting. \n\nGoogle: Did the coding challenge and had 2 phone interviews about 3 weeks after. \n\nROBLOX: Did the hackerrank &amp; heard back only a month later, final interview is Tuesday.\n\nCapital One: Had the final round in-person a few days ago.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Got offered a job at Vector Marketing in South Florida; should I take it?",
+      "body": "My  girlfriend a couple weeks ago showed me a link about \"student work\" in  Broward County; there was no company name on the Google doc she sent me,  but she said it was a link from one of her classes.\n\nAfter  filing the out form I got a call from their office; still didn't  describe company (I was too stupid to ask lol), though they just  described it as \"one on one sales,\" \"$15 flat rate,\" and \"no cold  calling.\" I was intrigued by the $15 bucks an hour thing so I went for  the interview.\n\nI go the interview  place and finally learn the company name, Vector Marketing. Heard about  these guys before but I was already pretty deep at this point and I spent  20 bucks on an uber there so I just went to the interview. They described  how I'd be selling knives, also described how I'd get a flat rate of $15 an hour, and  could make more off of commissions depending, on how much I sold (they  talked a lot about how people would sell $3000 in knives their first  week which sounded like nonsense).\n\nI  got the job, and they want to (paid) train me this week, I think it'll  be a total of 10-12 hours of training over two days. They told me  they'll lend me a knife kit that I would use to sell and present to customers.\n\nThe job honestly sounds too good to be true, especially since they said I could have just \"10 hours  in appointments a week\" but the interviewer really hyped me up over my  resume (I'm an Eagle Scout and make quite a bit of money off of free  lance game developing on ROBLOX), but it would be my first on the books  job besides working for my parents grocery store. They went super in-depth on everything and I was surprised. However the biggest sketchy thing I saw is right off the bat they wanted me to write down names and numbers that could be used for \"training\" in \"calls.\"\n\nHas anyone else had experience with them before? Should I call the manager and tell them I'm out after \"careful consideration\"? I'm just a broke 20 y/o college student looking for some good easy money lol",
+      "subreddit": "jobs",
+      "score": 0,
+      "url": "https://reddit.com/r/jobs/comments/dl78eo/got_offered_a_job_at_vector_marketing_in_south/",
+      "comments": [
+        {
+          "body": "It's not a \"job\", it's just direct sales. You're gonna be selling knives to your friends and family. If they don't buy, you make no money.",
+          "score": 8
+        },
+        {
+          "body": "Stay far far away. Vector marketing is a pyramid scheme/MLM. They prey on naive college and high school graduates.",
+          "score": 5
+        },
+        {
+          "body": "Leave that place. It'll not likely bring you the funds you need or any at all. You're more likely to earn more in a fast food restaurant.",
+          "score": 3
+        },
+        {
+          "body": "r/antiMLM\n\nGo post this here.",
+          "score": 3
+        },
+        {
+          "body": "It’s not a real job.",
+          "score": 3
+        },
+        {
+          "body": "Vector Marketing is basically Cutco knives, google them. It's a MLM (multi-level marketing). Steer clear.",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Senior Frontend Engineer interview at Roblox",
+      "body": "Hi, I have a senior frontend engineer interview coming up at Roblox. Could anyone provide guidance on what kind of questions are asked in the hiring manager round and the technical assessments? And will the system design interview be frontend-focused?",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1np0ol8/senior_frontend_engineer_interview_at_roblox/",
+      "comments": [
+        {
+          "body": "Roblox typically focuses heavily on React ecosystem knowledge, performance optimization, and their specific challenges around real-time gaming experiences during technical rounds. The hiring manager will likely dig into your experience scaling frontend applications, handling complex state management, and working with WebGL or similar graphics technologies since gaming UIs have unique performance constraints. They'll also want to understand how you've collaborated with game developers and handled the technical debt that comes with rapid feature development in gaming environments.\n\nFor the system design portion, expect it to be frontend-heavy but with gaming-specific twists. You might be asked to design a chat system for millions of concurrent users, architect a real-time leaderboard, or plan the frontend for a virtual economy marketplace. The key is demonstrating you understand both traditional web performance principles and the unique challenges of gaming platforms like handling frequent state updates, optimizing for various device capabilities, and managing complex user interactions. I'm on the team that built [AI for interview prep](http://interviews.chat), and it's particularly helpful for practicing these types of technical system design questions where you need to think through complex frontend architectures on the spot.",
+          "score": 1
+        },
+        {
+          "body": "i work in ops at prepfully n we’ve seen quite a few engs go thru roblox’s process. hm round is usually a mix of behaviorals around ur past tech decisions, how u handled tricky frontend stuff, and exp w/ scaling big frontend systems. they’ll prob dig into specific projects where u made arch calls or solved perf bottlenecks. tech assessment is live coding - mostly js fundas, dom manipulation, and sometimes react patterns depending on their stack. system design is frontend focused too, kinda like that other comment abt comp arch + state mgmt. since roblox is real-time gaming, expect qs on handling realtime data flows, perf across diff devices, and managing messy ui state. also be ready to talk caching, lazy loading, and how u’d structure comps for a gaming platform w/ tons of concurrent users. perf optimization is a huge deal for them given the product.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "How to prepare for computer vision/ AI system design interviews? ",
+      "body": "Hello everyone. I am a PhD graduate with 1.5 years experience in industry but recently got laid off. My PhD thesis involved using computer vision and AI/deep learning algorithms in the biomedical domain. I am currently interviewing for CV and ML roles in tech companies. I manage to go to final rounds of interviews but somehow fail to cross the finishing line. I interviewed with companies like Apple, Amazon, Roblox, Wayve, Cruise and Walmart. One of the common feedback is that I don’t have the relevant experiences which makes my system design weak. How do I improve in this area? \n\nAny suggestions would be appreciated. I am really low on confidence right now, after multiple rejections from the above mentioned companies in the final round. ",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1fqigtp/how_to_prepare_for_computer_vision_ai_system/",
+      "comments": [
+        {
+          "body": "System design interviews for computer vision and AI roles can be challenging, especially when transitioning from academia to industry. To improve, focus on practical applications of CV and AI in real-world scenarios. Study how large-scale systems are built, including data pipelines, model deployment, and scalability considerations. Practice designing end-to-end solutions for common CV/AI problems, like image classification at scale or real-time object detection for autonomous vehicles.\n\nDon't let the rejections discourage you. Your PhD and industry experience are valuable assets. To bridge the gap, work on personal projects that demonstrate your ability to design and implement CV/AI systems. Contribute to open-source projects or participate in Kaggle competitions to gain hands-on experience with industry-relevant problems. As you navigate these tricky interview questions, you might find [AI interview answer generator](http://interviews.chat) helpful. I'm on the team that created it, and it's designed to help job seekers like you prepare for and ace interviews in tech fields, including CV and AI roles.",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

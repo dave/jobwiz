@@ -1,0 +1,1229 @@
+{
+  "company": "stripe",
+  "post_count": 55,
+  "exported_at": "2026-01-18T17:44:53.308Z",
+  "posts": [
+    {
+      "title": "Research Assistant",
+      "body": "I have my 2nd interview tomorrow and need some advice on what to wear. I am thinking of a white oxford, blue blazer,Red striped tie and khaki pants. My question is, is this to casual?\n\nMy other option is a purple dress shirt, purple tie and black slacks. \n\nI have a lightly striped white shirt but i wore it to the first interview already.",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/3f8his/research_assistant/",
+      "comments": [
+        {
+          "body": "[deleted]",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "\"Passing\" the tech screen but not passing",
+      "body": "Although I know the current job market is tough, I'm just a little disheartened. I have been receiving technical screens (conducted over zoom call with actual interviewers), most recently from Stripe and Mixpanel. In the tech screens I have been completing all the questions in the allotted time, communicating effectively (at least I thin so) running the code successfully, writing test cases, and passing test cases. Despite this, I'm not moving onto the onsites. Is this just the state of the job market at this point? Perhaps I'm delusional and am not doing as well as I think I'm doing, but how perfect do you have to be?\n\nFor reference, I'm a mid level at FAANG, and am testing the waters, but this isn't giving me any confidence about career mobility, golden handcuffs, I know.",
+      "subreddit": "cscareerquestions",
+      "score": 19,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1oomn5n/passing_the_tech_screen_but_not_passing/",
+      "comments": [
+        {
+          "body": "Job markets insane, too much competition for too few positions. Plenty of people ace interviews and companies now have to pick 1 out of several so it’s rough",
+          "score": 12
+        },
+        {
+          "body": "How well do you think you communicated your ideas. It’s not just about code. Also could just be bad luck, maybe hiring priorities changed and too many people were passing or your interviewer was new/ not calibrated and there were some issues with their assessment or how they conducted the interview. \n\nWhat’s your process when given a question? How do you structure answering? Do you write self documenting code? \n\nIt’s possible it’s just luck, maybe do a paid mock so you can get real time feedback. Would be nice if we could always get a reason…\n\nDepending on the company you need 100 percent sound code, no failing edge cases, drilling down on input parameters, sound reasoning and constant communication, ability to name brute force and a multitude of approaches, and good knowledge of standard libraries. Realistically no one hits 100 percent, so for the parts you mess up they need to be small or fixed during dry runs.",
+          "score": 8
+        },
+        {
+          "body": "Back when I was doing Stripe screenings (a long time ago), what you described was the bare minimum. Nobody that didn't have passing test cases in time even had a prayer on-site anyway. The rubric was extensive, and there was a lot of specific communication requirements, along with clarity requirements on the code that was written. The problems were never all that difficult, but you'd find people that took this as a LeetCode of \"get this to work with the best performance as quick as possible\" and, by rubric, never hit the numbers they had to hit.\n\nIt's been a long time, so I bet the system has changed significantly, but it was common for people to think they did well, and not getting a pass",
+          "score": 3
+        },
+        {
+          "body": "Market is tighter now. \n\nThat being said I have turned people down on tech interviews that technically completed the assignment correctly and on the other had passed people who did not complete answer the test case correctly. \n\nReason being is the “correct” answer is not my priority. I care about your thought process.  Do they talk through the problem, do they talk about draw backs to a given solution or potential pit falls?\n\nI listen to their questions of the company and I ask some basic questions about their resume like why are they leaving how do they do code review. While tech screening is the main part I have a list of things I am looking for and largely it is how they break down the problem. \n\nI also the tech question we have laid out we intentionally leave out a few details in the assessment and intentionally have some oddities in the test data that we don’t tell you about and want you to ask about. Also want to see what your assumptions are and ask if they are safe.",
+          "score": 2
+        },
+        {
+          "body": "Your perspective and the interviewer's perspective could be very different. I'm not saying you did this, but last year I interviewed a guy who thought my test was the easiest technical interview he had ever had. He confidently got every single question wrong by missing requirements and making sloppy errors. I'm sure he wondered why we never called him back after he nailed it.",
+          "score": 2
+        },
+        {
+          "body": "A lot of those automated online assessment use tiebreakers like \"runtime\" and \"time to submit\" if multiple people give correct answers.  They also usually are screening out all but 1%-2% of the applicants.  Your correct solution might be 95th percentile (or lower) among applicants, which means no interview and no feedback.\n\nIf the automated assessment is designed to pass all but 2% of applicants, and 5%-10% of applicants are cheating, it will be nearly impossible to pass without cheating.  All the cheaters are going to be beating you on the \"time to submit\" and \"runtime\" tiebreakers, even if your solution is also correct.",
+          "score": 2
+        },
+        {
+          "body": "OA is just automation to whittle down the initial pool of applicants. There may or may not be hidden test cases (similar to LC). If you score above threshold in OA, talent coordinators have to schedule interviews with technical interviewers based on their availability, so it’s effectively a FIFO queue at that point",
+          "score": 1
+        },
+        {
+          "body": "You might not have hit the required # of parts, or the memory/runtime constraints in internal rubrics",
+          "score": 1
+        },
+        {
+          "body": "I've seen this both from candidate view and interviewer view, usually it means one of the 3 things\n  \n1. you did not do as well as you thought you did, like if I suspect you cheating with AI I'm not going to say so, so you thought you did well and passed all test cases and going home happy, but I'm just going to report it to our recruiter saying I suspect you cheated, or, you're really strong technically but I know you'd be horrible as my teammate, so it's a rejection\n  \n2. they're not actually looking to hire you, notice I said 'you', meaning, they're looking to hire alright, but for someone else/they already have another candidate in mind, happened to me last year when I was job hunting when I got thrown an essentially a hardware question for one of my onsite round, so I immediately realized the interviewer have 0 intention of actually wanting me there, I reported it to the recruiter and they say they'll \"look into it\" but of course at the end nothing came out of it and it was a no-offer anyway\n  \n3. you did well, but other people also did well, so imagine 50 candidates all did well but we're only hiring 2 people, there's no way we'll bring in 50 candidates for onsite rounds, maybe only 10, and for the rest 40 people you get a rejection",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "I have an upcoming Skype video interview with Coinbase (largest Bitcoin exchange) for a remote-position, should I wear my Bitcoin shirt or a suit to the Skype interview?",
+      "body": "Here is some insight from the first employee of Coinbase\n\nhttps://blog.ycombinator.com/employee-1-coinbase/\n&gt;In the early days, everyone was a cryptocurrency fanatic. The first two engineering hires were these absolutely brilliant people who basically came to Coinbase because they wanted to work on cryptocurrency. And what’s interesting is **a lot of our anti-fraud people are also super into Bitcoin.** **They’re not people who worked anti-fraud at Stripe. They’re Bitcoin people first.**\n\n&gt;So yeah, we’d sort of filter for smart people that were **passionate about Bitcoin.** It’s my opinion that if you’re smart you can learn a new skill and all the details. But passion and innate interest cannot really be learned. **We tended to hire people who said, “I love this company. I don’t quite have the experience.” Versus people that said, “I have the experience, but I’m looking at four other places and maybe I’ll pick Coinbase.”**\n\n&gt;My belief is that the inexperienced, interested person will outperform the experienced, uninterested person over time.\n\nI did not apply to six jobs with Coinbase being one of them. I applied solely to Coinbase because of my love for cryptocurrencies. I have an upcoming Skype interview with Coinbase, and I wanted to know which would be better for me: if I wore a big visible Bitcoin t-shirt or a professional suit.\n",
+      "subreddit": "jobs",
+      "score": 0,
+      "url": "https://reddit.com/r/jobs/comments/7himnr/i_have_an_upcoming_skype_video_interview_with/",
+      "comments": [
+        {
+          "body": "Personally, I'd err on the side of caution and wear the suit, but make sure to let your passion for Bitcoin known during the actual conversation. ",
+          "score": 5
+        },
+        {
+          "body": "Wear a suit, but have the shirt underneath it. Everybody wins!",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "How worried should I be about the PIP culture at Capital One?",
+      "body": "I'm a (part-time) Master's student; got an offer for Capital One's TDP program in Texas. Especially on teamblind / here, I see a lot of complaints about its PIP culture. Makes me quite worried, especially since it seems to be team dependent and you might not know 'till you get there.\n\nThe opportunity cost of me taking C1 is a current internship at IBM (interviewer mentioned low possibility of return offer). I'm also in the final stages with Stripe and Palantir. I *was* more or less set on C1 mostly because of the security of a full time job, but... it might not be very secure lol.\n\nShould I take my chances with IBM? What if it's not IBM and Stripe or Palantir? Last thing I want to deal with is new grad recruiting again if I don't get a return offer at these places - but if I get PIP'd at C1 within a year, I'll have to do that anyways - without these internships. Any thoughts?\n\nEdit: Got the Palantir internship (SWE); will be doing that. Thanks for all your input :)",
+      "subreddit": "cscareerquestions",
+      "score": 49,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1gf4yq0/how_worried_should_i_be_about_the_pip_culture_at/",
+      "comments": [
+        {
+          "body": "Accept C1, continue in the process for the others. Renege from C1 if you get a better offer.\n\nC1 sucks and while there's a fair but if dramatization, most of what you read is fairly accurate about their PIP culture and performance management processes.",
+          "score": 69
+        },
+        {
+          "body": "What's the deal with C1? Why are they mentioned so often here? Just wondering...\n\nAs in, why aren't other institutions like Bank of America, Wells Fargo, Citibank mentioned as often as C1?",
+          "score": 35
+        },
+        {
+          "body": "In my opinion you should be pretty worried. you’ll probably last a year, but I know at least 15 people who have been PIP in the last 2 years. \n\nA few bad months and you’re toast, no matter how good you’ve been in your career. You could also just get unlucky with a bad manager and have them not represent you well. \n\nTake the C1 job and keep interviewing. Also I see the offer is from Texas. Financial services is the worst org with bad WLB, which is primarily in Texas. Please try and switch locations",
+          "score": 55
+        },
+        {
+          "body": "PIP culture is bad everywhere. \n\nA true “PIP” in your favor is just called mentorship",
+          "score": 24
+        },
+        {
+          "body": "How long do you have to reply to C1? If you’re in the final stages of stripe and palantir why not wait to see if they offer you? If anything, just accept C1 and continue interviewing with the other two. Renege on C1 if you get offered from the others.\n\nRegarding the PIP/stack-ranking culture, there are performance reviews twice a year. Each org has its own benchmarks but usually ranges 10-15%. You’re ranked against others in the same level so how well you need to do really depends on the “mean” that cycle. IMO stackranking and PIP works in theory if the goal is actually to help you become a better dev, but C1 uses these as soft layoffs and it’s become quite toxic ie I’ve personally heard from a manager that sits next to me that he had to PIP someone who had lost a sibling during that cycle. As a TDP you may or may not be stack ranked your first cycle. \n\nYes, FS is a shit org as others have stated. I’m not in FS but had to work with them extensively and it’s like every team has the proverbial stick up their asses. Working with them is like having your teeth pulled. In any case, there are other teams in Plano. Chicago and McLean also have large office. Getting into NY is gonna be hard since everyone probably wants to go there lol. Richmond is smaller but I’ve heard good things about it. Good luck!",
+          "score": 7
+        },
+        {
+          "body": "I can't imagine it's any worse than rainforest. Go for it",
+          "score": 9
+        }
+      ]
+    },
+    {
+      "title": "[Experienced] My experience with TripleByte",
+      "body": "I recently used TripleByte to try and find a job. The way I understood the process going in, was you pass one phone screen and then you can get fast-tracked to on-sites at 37 companies. This was the promotional material I read somewhere. I was also excited because TripleByte just came to my city.\n\nIt's a little more nuanced than that. It turns out that I took an online coding test (~30 minutes) and then got scheduled for a two hour phone screen. Holy cow, I thought. Two hours. They said you only get one break, too. Alright, I thought, well, if it gets me fast-tracked to on-sites then it will be worth it.\n\nThe two hour screen is done blind. The screener doesn't know you from any other person. They don't see your resume or your current job title. They literally know nothing about you. I had no idea about that. Everyone gets the same two hour screen. Because of that, I won't share what's in it. Let me just say it's hard and they asked a lot of questions I have no idea about. \n\nIt's really hard. I just want to emphasize that.\n\nAlso, your past experience may or may not come in handy. Just know that.\n\nAt any rate, I ended up getting good feedback and passed it. Phew! I thought I must have barely scraped by. \n\nHere's the best part. After you're \"accepted\" into TripleByte, they make you feel like you really did something great. They sent me a lot of things. Things that are expensive. A really nice sports/performance windbreaker/jacket thing that probably costs $100 new. A \"Pebble\" portable power bank (probably worth $40 I'm guessing?). A copy of the latest edition of CtCi.\n\nThis alone made it worth it. That was very nice.\n\nIn addition, they assign you a person who helps you through the process from that point on.\n\nOK. So you fill out a form at this point to actually let them know about your past experience and knowledge. You upload your resume. You build a profile out. Then you wait a week, basically, then your profile goes \"live.\" When your profile is live, companies are supposed to offer to pitch their company to you in a half hour phone call.\n\nSo here's the worst part. I only was contacted by 3 companies. And even though I had selected that I didn't want to do any remote positions, 2 of them were for remote. And despite the ad copy that they will get you in touch with companies like DropBox, Stripe, and Adobe, I mostly was contacted from companies I had never heard of.\n\nSo I ended up only accepting the pitch from the company that didn't want me to work remote. It did translate into an onsite interview, but ultimately I was rejected.\n\nIn the grand scheme of things, I did more for that one onsite interview than if I had applied directly. Which is the opposite of what I was promised. I had the half hour online coding test, the two hour phone screen, a half hour call with the company, then an onsite with the company. That was a lot of work with no payoff.\n\nI don't know why I only got contacted by 3 companies. Maybe because I'm not in SF and TripleByte just launched in my city. Maybe because of something about who I am.\n\nUltimately, I love the idea of TripleByte. A blind assessment that can be used by multiple companies as proof you know what you're doing, and (theoretically) skipping to onsites as a result. But in my case the follow-through wasn't there. On the plus side, the gifts were super nice, and it was very easy and fun to work with my talent manager person, and the web application is really well designed and works great.",
+      "subreddit": "cscareerquestions",
+      "score": 350,
+      "url": "https://reddit.com/r/cscareerquestions/comments/a1tzjy/experienced_my_experience_with_triplebyte/",
+      "comments": [
+        {
+          "body": "Thanks for the info. Reddit mobile is filled with ads for them (might be because of my cookies, idk). I’ve been curious about the details of what they do, but not curious enough to try them out. ",
+          "score": 214
+        },
+        {
+          "body": "[deleted]",
+          "score": 55
+        },
+        {
+          "body": "I was actually one of the first few to interview with them a couple years ago when they launched.  Honestly the toughest and most thorough interview I've ever had in my life.  All in all I thought they were fair and looked for the right things in a candidate.\n\nI've also been \"on the other side\" of them (i.e. my company used them to source candidates), most of the candidates were pretty smart (at the very least, a cut above the typical phone screen candidate) but none of them ever got an offer.\n\nAll in all, a very good service IMHO and waay better than Hired.",
+          "score": 31
+        },
+        {
+          "body": "One thing that hasn't been mentioned yet here is the feedback from their long interview. I've never been in any interview that gave actual feedback, but because Triplebyte is incentivized to prepare you better for interviews, they, well, prepare you for interviews. I got seven paragraphs of specific feedback about things I did well, and places I could improve. It was very impressive, and great to know how I come off in interviews.",
+          "score": 31
+        },
+        {
+          "body": "I personally don't see much upside in applying via a company like Hired or TripleByte even if it means skipping the phone interview. Phone interviews are usually easier than on-sites and, if you can't pass the phone, than probability of you passing the onsite is not gonna be so good. So ask yourself this, would you rather waste 1 hour of phone interview (and learn your weaknesses from that) or 5-6 hour of onsite? \n\nAdditionally, phone interviews help you better understand the type of questions that interviewers are going to ask for on-sites. If they ask you Leetcode style questions, then chances are that they're going to ask the same when you meet them. If they ask you about your background and current projects, the onsites are probably going to be easier on the Leetcode quesitons.\n\nIf you want to work for specific companies, I'd rather reach out to the recruiter directly on LI or apply through their job site.",
+          "score": 56
+        },
+        {
+          "body": "[deleted]",
+          "score": 97
+        },
+        {
+          "body": "On the flip side, as an interviewer who's hosted TripleByte candidates at a company onsite before, TripleByte is very cagey about what you can and cannot do with a candidate. \n\nFor example, you can't send advance homework or schedule anything more than a half-hour introductory call about the company with the candidate. No phone screens of your own (obviously). You pretty much make the assessment based purely on the results of the onsite and whatever advance copy TripleByte sends you (includes a nice histogram where the candidate is compared next to all the candidates TripleByte has seen as well as candidates from TripleByte we've already seen). \n\nSo far, of the two candidates I've seen, one has been astronomically brilliant - literally the fastest coder I've ever seen, and got a fully-fledged production ready system up and running in the same amount of time it takes candidates to make a simple prototype, all with no deficiencies anyone could find - and the other has been, well, a bit odd personality-wise but otherwise decent with skills. \n\nI think most TripleByte-backed engineers are pretty solid engineers and can make decent ICs. Whether they're a good cultural fit or oriented towards a particular type of seniority or can/want to take ownership of a specific problem space (all valuable attributes in a startup)  - I don't think TripleByte can tell us that. I'd hire a junior-mid level engineer off TripleByte in a heartbeat, but a senior-level engineer might need more vetting for those things.",
+          "score": 15
+        }
+      ]
+    },
+    {
+      "title": "Is it okay if all my projects use the same tech stack when applying to big/mid-size tech companies?",
+      "body": "I’m applying to full-stack/web SWE roles at a mix of big and mid-size tech companies (e.g. Amazon, Microsoft, Stripe, Coinbase, Shopify, Uber) and wanted to sanity-check my resume/project strategy.\n\nAll of my projects currently use the same core stack:\n\n* Backend: Python + FastAPI\n* Frontend: React + TypeScript\n* SQL database, auth, external APIs, cloud deployment\n\nThe projects themselves are intentionally different in the problems they solve and the engineering focus (e.g. data-heavy application, async/background processing, external API integrations, one AI-assisted feature). I’m prioritizing depth, clean design, and being able to clearly explain tradeoffs rather than learning many stacks superficially.\n\nMy question is not about whether I should learn more languages.\n\nI’m specifically wondering:\n\n* Is it generally acceptable to list a single main tech stack on a resume if all projects use it but demonstrate different problem domains and complexity?\n* For companies like the ones mentioned above, do recruiters/interviewers care more about stack diversity, or about project quality and engineering decisions?\n* At what point (if any) does repeating the same stack across projects become a negative for full-stack SWE roles?\n\nContext: first year student in Canada\n\nWould appreciate perspectives from people who’ve reviewed resumes or interviewed candidates.",
+      "subreddit": "cscareerquestions",
+      "score": 3,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1puvo12/is_it_okay_if_all_my_projects_use_the_same_tech/",
+      "comments": [
+        {
+          "body": "It's probably preferred, as long as your stack overlaps with theirs, as it means you are more likely to have a deeper understanding of the stack.\n\n5 projects in 5 stacks is likely to be a shallow understanding of 5 stacks.\n\n5 projects in 1 stack means maybe they won't have to hold your hand quite so much. Maybe.",
+          "score": 5
+        },
+        {
+          "body": "Yeah, that's fine",
+          "score": 2
+        },
+        {
+          "body": "[removed]",
+          "score": 1
+        },
+        {
+          "body": "I can tell you that Google would not see any problem with this.\n\n^(Wouldn't hurt to at least know the basics of Java/Kotlin though.)",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "2 YEAR UPDATE: My journey &amp; tips: 2.9 GPA at a small liberal arts college w 1 mediocre internship –&gt; 4 FTE offers incl FB",
+      "body": "**Previous post:** https://www.reddit.com/r/cscareerquestions/comments/6278bi/my_journey_and_tips_29_gpa_at_a_noname_liberal/\n\n(^ covers the basics which I won't really repeat here, like my timeline out of school or how I received interviews in the first place)\n\nMy last post here had an amazing response from all of you and now that it's coming up on 2 years—and with my recently going through another interview cycle—it seems like it's a good time for an update. I stand by my prior advice but do have some thoughts to add from a slightly more experienced perspective.\n\nI also remember getting some questions about whether I'd actually be 'successful' at Facebook, i.e., whether studying so hard just meant I gamed the system and wouldn't do so well at the actual job, so I wanted to address that and general on-the-job tips as well. Finally, I haven't been able to answer the vast majority of PMs I get, so hopefully this will scale better / be valuable to those people in sub-O(n) time :).\n\n**TL;DR:**\n\nended up doing relatively well at FB—two 'Greatly Exceeds' [expectations] / top ~15% performance ratings in a row—but felt like I was starting to learn less and wanted to switch from DE to SWE; studied 100+ hours in 1 month while working (focusing more on system design and ML this time); landed 5 offers out of 6 onsites, including Google and 2 unicorns; multiple offers were over $300k in total compensation (+50% from prev comp and at &lt;4 YoE); negotiation matters a lot; and this whole process is nonlinear and often frustrating but it's 100% a winnable game and having tracking metrics helps (#trusttheprocess).\n\n**Disclaimer:**\n\n\nI'm sharing concrete numbers not to brag, but because I believe in pay transparency and think the information asymmetry in the tech industry between employers and employees hurts us. I don't want to rehash a debate over Big N / FAANG 'prestige' and am tabooing it here for reputation or brand value, which does have tangible benefits. Last and importantly, luck always plays a role in these things; I'm not suggesting this is a fully general solution but there are ideas here that will probably be helpful for you too.\n\n**On my experience at FB (skip if you only want interview advice):**\n\nI came into FB with definite imposter syndrome, especially when I was surrounded by people who had gone to Stanford or came here from Google or had PhDs etc. I wasn't sure if I could hold my own and wondered if I had just gotten lucky interviewing. Everybody at FB always says that the first few months is like drinking from a firehose of information—they're right. But eventually I found my bearings. To keep a long story short, I was in the right place at the right time when an impactful opportunity came along and I seized it. I received a rare 'Greatly Exceeds' rating my first half due to this—and more importantly, learned a ton in a short amount of time, both technical and soft skills.\n\nSome job tips (keeping in mind that I'm not that experienced):\n\n- Prioritization is critical and is a skill that can be improved: there are more things to be done than you can do\n- Proactive communication: always communicate sooner and more than you think you have to\n- Optimize for learning: if you don't feel like you're learning anything, speak up in your manager 1:1 (own your own career! and manage up), or explore other opportunities, internal or external\n- Seize opportunities: see also https://pmarchive.com/guide_to_career_planning_part1.html\n- Focus on impact: this is clichéd for a reason—you should always be asking yourself if what you're working on is the most important (not necessarily the most urgent) thing you could be working on\n\nRe: prioritization, I really had it drilled into me how critical it was to say no effectively. You need to strike a balance. It's important both that you can say no to senior important stressed out people and that you say it in such a way that they're not disincentivized to come to you again in the future with more impactful opportunities. Practice helps here.\n\nRe: optimizing for learning, I took advantage of the resources around me. I was a voracious reader of internal technical posts, data analyses, and architecture / system design write-ups, read any documentation I could find that interested me, studied the core abstractions written by the best engineers (h/t to Edmond Lau's The Effective Engineer), and generally tried to learn as much as I could whenever I could. Learning compounds over time and even small increases in your 'learning rate' make a big difference later.\n\nWhen I first jumped on the above project, I was out of my comfort zone. But I was pretty confident I could learn what I needed to and tried to adopt a growth mindset to the things I didn't know. And I knew that being slightly uncomfortable (read: lost) was a good place to be in for growth. This mindset also helped when the inevitable missteps happened, which is where communication comes in too.\n\n**On the interview grind part II:**\n\nMy process was broadly the same as last time, but more principled. At a high level, the most important thing is to trust the process. When you first start out, it's easy to feel completely stuck, like you're not making any progress at all. The learning curve is steep and nonlinear; some days you'll feel like you know less than yesterday. That's why I think it's important to have external metrics you can use to track your progress, because (especially initially) you can't trust your brain to have an accurate picture of how you're improving. I personally used time spent studying and number of Leetcode problems solved as my goalposts: I decided I would be ready when I hit 100 hours of overall studying and 100 LC problems solved.\n\nSo when you're struggling on a graph traversal problem for the 5th time or stuck on a weirdly difficult easy problem, you can at least see that you're, say, 4 total hours of studying closer to finding a new job and focus on that. This isn't to say that you should spend your time frivolously. It's important that your practice is deliberate and that you don't willfully neglect blind spots. (I knew I was weak at backtracking and at permutation-type counting problems, but I didn't want to face the struggle. Of course, one of my Google onsite rounds featured both.)\n\nHere are the resources I used:\n\n- Coding / Data structures &amp; Algorithms: almost 100% Leetcode, a little Interview Cake and Elements of Programming Interviews but decided it wasn't as efficient\n- System design: read all of [Designing Data-Intensive Applications](https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/) and [Distributed systems for fun and profit](http://book.mixu.net/distsys/single-page.html); went through the [System Design Primer](https://github.com/donnemartin/system-design-primer), scattered CS &amp; industry research papers like [Bigtable](https://static.googleusercontent.com/media/research.google.com/en//archive/bigtable-osdi06.pdf) and [distributed consensus](https://groups.csail.mit.edu/tds/papers/Lynch/jacm85.pdf), tech company engineering blog posts, http://highscalability.com/, and some of [Grokking the System Design Interview](https://www.educative.io/collection/5668639101419520/5649050225344512)\n- ML: had hands-on experience at FB so mostly googled random shit like this [Github](https://github.com/ShuaiW/data-science-question-answer), refreshed my memory of how the most common algorithms worked especially GBDTs and random forests, and skimmed [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://www.amazon.com/Hands-Machine-Learning-Scikit-Learn-TensorFlow-ebook/dp/B06XNKV5TS)\n- Behavioral: emphasized certain themes in my elevator speech, prepared 2-3 stories for each of the most common behavioral questions, and had some solid questions for hiring managers (refer to the last post or to my study guide)\n\nThe system design portion was a bit overkill, but I actually enjoy reading about distributed systems. I believe it also contributed to getting max L4 offers at Uber and Snap (more on that below). This time around, almost every onsite involved at least 1 system design round. Pre-FB when targeting a lower level, I received essentially 0 such questions. \n\nHere's my study guide: https://workflowy.com/s/study-guide/RD5kZ682pWX5oxiE. Some parts are rough so take it with a grain of salt. The checklist of heuristics to try is particularly valuable imo; here's a condensed version:\n\n1. Always consider hash tables (dictionaries) with their O(1)-ness.\n2. If at all array-related, try sorting first.\n3. If search-related, consider binary search.\n4. Start with a brute force solution, look for repeat work in that solution, and modify it to only do that work once.\n5. Space-time trade-off! That is, for better time complexity, try using auxiliary data structures. E.g., do something in a single pass over an array—O(N) time—by using a hash table—O(N) space—vs. doing something in nested passes—O(N^2)—without using any extra space—O(1). \n6. Remember that I can use two pointers.\n7. Try a greedy solution.\n8. Does solving the problem for size (N – 1) make solving it for size N any easier? If so, try to solve recursively and/or with dynamic programming.\n9. A lot of problems can be treated as graph problems and/or use breadth-first or depth-first traversal. And if the problem involves parsing or reversal in some way, consider using a stack.\n10. Any time you repeatedly have to take the min or max of a dynamic collection, think heaps. (If you don’t need to insert random elements, prefer a sorted array.)\n11. If you have a lot of strings, try putting them in a prefix tree / trie.\n12. To improve time complexity, also consider how various complexities match to solution structures and try working backwards from a target runtime.\n13. Not quite the same as N-1, but sometimes a divide-and-conquer approach is what is necessary. If I know the answer for exclusive parts of the problem, can I somehow combine to get the final answer?\n14. For puzzle problems or anything where we can enumerate all possible solutions and there's a notion of a partial candidate solution, consider backtracking.\n\n**On the interview grind (cont.):**\n\nI've (obviously) thought a lot about the Leetcode grind and one takeaway is that the entire process can be reduced to two overlapping recursive parts: 1) internalizing the comp sci building blocks and 2) knowing when to apply them. If you don't know how binary search works, you're going to struggle on a lot of problems. Conversely, if you can handwrite binary search in 60 seconds but can't recognize when a problem would be much easier with it, you're also going to struggle. The recursive part comes in when those building blocks themselves form more complex DS&amp;A building blocks, like union-find/disjoint-set or Dijkstra's.\n\nLeetcode is an exercise in both. As you do problems, you'll start to recognize common patterns and where a certain data structure or algorithm should be used. As you get stuck on problems, you may find that you have a gap in fundamentals—and that you need to go back and learn one of those algorithms more thoroughly. It's an iterative and even satisfying process.\n\nRelatedly, there's a tradeoff here between improving pattern recognition and learning how to struggle. The naive and fast way to optimize for the former is to do as many problems as possible; when you get stuck, just look at the solution and move on. The problem is that you'll lose out on hard-earned insights that would therefore be more memorable. You'll also flounder when no answers are available, like in an actual interview environment. But you also shouldn't spend days on just 1 annoying problem. It can be tempting, but it's a big opportunity cost.\n\nThe balance I found was to set a timer for around 10 minutes: if I still had no idea where to begin by then, I would read the discussion but avoid looking at code; then I'd reset the timer and try to implement those ideas; if I still couldn't get a solution, I'd finally look at people's code and try to understand it. For particularly thorny problems, I'd put it on a list to do again later. \n\nIn total, I studied for ~120 hours and solved 130 Leetcode problems—66 easy, 54 medium, 10 hard. I found hards weren't generally worth it except for the \"famous\" ones like LRU cache and skyline. I did about 10% of the problems on a whiteboard while verbalizing my thought process in a timed environment, but I was already pretty comfortable with that element.\n\n**On the numbers and negotiating:**\n\nI applied or replied to around 20 companies. After some weeding out, I went on to 11 phone screens: Google, Uber, Pinterest, Airbnb, Dropbox, Snap, Stripe, Twitter, Opendoor, Lyft, and Stitch Fix. Note that this rate is very very different from before I started at FB. Back then, I felt lucky if I received 1 rejection out of 25 blind applications—mostly I was ignored. It's obvious but getting your foot in the door is so perversely important.\n\nFor anonymity, I'm not going to mention all the specific companies' outcomes; also note that this was sometime in the last 6 months. Out of those 11 interviews, I passed 8. I received mostly LC mediums during these screens, but did get a few hards. I decided not to continue with one company and another happened too late for me to be able to do an onsite, which highlights the importance of timing. A company I really wanted an onsite with was my first interview and I bombed. Ideally, the interviews you care more about happen later in the process, but not too late. You want the practice but you don't want to burn out. You also want the offers to come in pretty close together for negotiation purposes.\n\nOut of 6 onsites, I received 5 offers: Google, Uber, Snap, and two others (companies D and E). Google is notorious for downleveling, so their offer was pretty low. The initial offers (total compensation using FMV and without signing bonus) were:\n\n* Snap: $300k \n* Uber: $290k\n* D: $230k\n* Google: $225k\n* E: $220k\n\nI was surprised by Snap and Uber but I knew I had done very well on those onsites. During Google's I had bombed a round (that backtracking + permutation LC hard combo). So overall numbers were according to expectations and my main negotiating goal was to get as much of a signing bonus as possible, knowing that base and equity were already at the top of the range. I didn't really try with Google since their offer came almost a month later and the difference was too big.\n\nDuring this timeline, one thing I made sure to do was let the various recruiters know of other onsites or offer deadlines. It's usually in your best interest to do this, particularly if the other company is a \"peer\" or has a good reputation. You can even use an upcoming impressive-seeming onsite as implicit leverage to improve an offer, even if you don't end up passing the former. I think this contributed to the high initial offers. \n\nFor negotiation, I relied on [Haseeb's amazing posts](https://haseebq.com/my-ten-rules-for-negotiating-a-job-offer/) and [Kalzumeus' seminal piece](https://www.kalzumeus.com/2012/01/23/salary-negotiation/) and [followup](https://www.kalzumeus.com/2016/06/03/kalzumeus-podcast-episode-12-salary-negotiation-with-josh-doody/). I don't think giving the first number matters much, but what does really matter is knowing your market value inside and out and standing your ground. [Levels.fyi](https://www.levels.fyi/) is tremendously useful for this (click the level to see the numbers and backing spreadsheet), as is Blind (e.g., [this Google post](https://www.teamblind.com/article/google-engineer---total-compensation-in-us---ultimate-post-jYcrij5X)), toxic though it sometimes is.\n\nHaseeb's advice on using \"I will sign right now if you can make $X happen\" at the end is another great tip. I ended up getting multiple $50k signing bonuses and improving the other offers by ~$20k each.\n\n**On concluding:**\n\nThanks for reading this far—I swear I tried to keep it short. I feel guilty that I haven't been able to reply to so many PMs, but promise I'll be active in the comments here. \n\nIt's only been a few years since I read this subreddit obsessively and thought I'd never be able to \"make it\" in tech. But it really is doable. Trust the process. Stay calm and leetcode on.\n\nAMA!\n\n(Note: I don't use this account anymore and am not able to reply to all the messages I get, but if you need personalized advice or even coaching, you can try emailing me at suryc011 [at] gmail [dot] com.)",
+      "subreddit": "cscareerquestions",
+      "score": 1137,
+      "url": "https://reddit.com/r/cscareerquestions/comments/b3w1gg/2_year_update_my_journey_tips_29_gpa_at_a_small/",
+      "comments": [
+        {
+          "body": "&gt; I came into FB with definite imposter syndrom\n\nI recently got accepted a job from Amazon and I already have imposter syndrome. I am in the same position that you once were - bad gpa from a not so great college, 1 internship where I did next to nothing.\n\nI have about 2 months before I join. What are the absolute basics that someone who knows nothing needs to know to be successful at a big company? This is what I am currently doing: I have taken online courses for git, red hat linux and unit testing in java. I am currently reading clean code everyday before sleeping and once I am done with that I plan to read head first design patterns.\n\nAm I on the right track? Is there anything else you would recommend? ",
+          "score": 80
+        },
+        {
+          "body": "This is gold. Thanks for posting this. Any tips on how to actually get these interviews?",
+          "score": 22
+        },
+        {
+          "body": "During your studying, what was your life like (e.g., social, work, physical health, mental health)? Did it largely consist of work from 9-5, come home, study, eat, go to bed, repeat? Did your work suffer while you studied? Did you feel stressed out given how many hours you put in and how much you read in only a month?",
+          "score": 32
+        },
+        {
+          "body": "Congrats on the success man. You earned it.",
+          "score": 28
+        },
+        {
+          "body": "[deleted]",
+          "score": 20
+        },
+        {
+          "body": "Congrats—enjoy Uber!\n\nAlso, thank you for your extremely well-written posts. Your first was hugely inspirational and a great guide for me as I studied my ass off for a Google interview. Having recently started there(!), this was the perfect time for a motivation and tips refresher (and to hear evidence that studying to get in doesn't mean you won't succeed).",
+          "score": 10
+        }
+      ]
+    },
+    {
+      "title": "Has anyone interviewed at Stripe? What difficulty of questions to expect?",
+      "body": "There's this https://stripe.com/jobs/engineering-onsite.pdf, but it's pretty vague. Since their interviews are non-whiteboard, I have no idea what to prep for. They seem like such a cool company (even allow remote work!), so I thought there might be some people here who have tried them already. I'm interviewing for a web dev (React) position if that makes a difference, but I have some funny feeling that they aren't gonna ask me about React...",
+      "subreddit": "cscareerquestions",
+      "score": 4,
+      "url": "https://reddit.com/r/cscareerquestions/comments/6x2fzk/has_anyone_interviewed_at_stripe_what_difficulty/",
+      "comments": [
+        {
+          "body": "they sent me a hackerrank.  so much for a new approach to hiring lol.",
+          "score": 12
+        },
+        {
+          "body": "did you apply for internship or FT? and did they send you a hacker rank too or on site?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Mercor Offer Legit or Scam?",
+      "body": "So, Mercor just sent me this offer a few minutes ago. I did the AI interview this morning and I already have an offer. \n\nI have read a lot of the posts that they are not legit, but most of those say that they don't even send an offer. The email was sent from a legit email and the recruiter is has been with them since February, according to her LinkedIn.\n\nIt won't let me attach a screenshot, so here's the copy pasted text. \n\nMercor\nSenior Domain Expert - First-Line Supervisors of Retail Sales Workers\nHourly contract\nReceived 36 minutes ago\nPayments\nYou will receive all payments via Stripe, less currency conversion fees\nHourly pay\n$120.00 / hour\nWeekly cap\n40 hours\nOffer details\nInformation about this opportunity is outlined below, subject to employer discretion\nJune 10, 2025\nYou'll start on this date\nFully remote\nYou can work from anywhere\nPay by week\nYou'll be paid in weekly installments  ",
+      "subreddit": "cscareerquestions",
+      "score": 4,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1l7hn0g/mercor_offer_legit_or_scam/",
+      "comments": [
+        {
+          "body": "I got paid, it's legit. I fully recommend applying if you're qualified.",
+          "score": 11
+        },
+        {
+          "body": "My son is making $150 per hour working 15 hours a week as a side gig for Mercor. He's a computational physicist. I took early retirement and will be applying this week for opportunities in my field. He says he trusted one of the two payment options (starts with an S, I think. .. slipping my mind rt now).",
+          "score": 5
+        },
+        {
+          "body": "I am asked to complete an interview. The salary seems too much to be real. I am not sure If I even should give these interviews and waste my time.",
+          "score": 4
+        },
+        {
+          "body": "[deleted]",
+          "score": 2
+        },
+        {
+          "body": "No $120/hr job gives you an offer after an AI interview and pays via Stripe.",
+          "score": 2
+        },
+        {
+          "body": "Any update on this?",
+          "score": 2
+        },
+        {
+          "body": "To everyone that keeps sending me requests to talk about Mercor, I don't have anything more to say than the following: it was legit enough to pay me a lot of money for a little bit of work, but I only did it for literally 6-7hrs. I'm not an expert. Mercor is in a lot of headlines and whatnot for data farming, but nothing (that I've seen so far) has been confirmed. They hire a lot of people for these projects (there were like 70 people on my first call), so they have to be hiring somebod the applicants. \n\nI applied, did the AI interview, was offered a job all within 24 hours, so I don't know about your experience if it's longer. Do I recommend them? Sure, get some money before AI takes over the world anyway. Do I have some crazy insight? Not really. I have less than a full workday more experience than you. \n\nIf I want to apply, use this link so I'll get paid for you applying:\n https://work.mercor.com/?referralCode=0b0e7ce3-dc57-4aea-bb35-b8dfcd5aaa3f\n\nApplying from a referral link MIGHT give you a better chance, I don't know for sure, but you should so that I can get a slice of that huge pie.",
+          "score": 2
+        },
+        {
+          "body": "They want to give my bamk information for them to pay me via stripe. This sent up red flags.\n\nAnyone else?",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Any new grads been through the interview process at thumbtack or stripe?",
+      "body": "Curious about the process and common questions that pop up in tech screens. I've found some stuff about thumbtack but not much about stripe",
+      "subreddit": "cscareerquestions",
+      "score": 3,
+      "url": "https://reddit.com/r/cscareerquestions/comments/4zsbv7/any_new_grads_been_through_the_interview_process/",
+      "comments": []
+    },
+    {
+      "title": "Unable to get a response yet after searching 6 months...",
+      "body": "Hey, could use some help here. Posted this in multiple career/resume threads with no response, TLDR at bottom too.\n\n I've a self taught web dev, it's been about 2 years now on the path. My path was Angela Yu's 100 days of python, FCC DSA, Full Stack Open, made a full working e-commerce website as a project (react, node, stripe, graphql, user sign in), portfolio site, then got an unpaid internship.\n\nBeen working the unpaid internship almost 5 months now, got promoted to Senior Web Dev (still unpaid, now I boss a team around as well as do most the work myself because I like to work hard and grind, if I wasn't doing this unpaid internship I'd just be building personal projects the same way, I think I get great experience here though as well as references and I work hard. I should be paid but, well, till someone pays me...).\n\nHad some people review my resume and portfolio and linked in since starting this internship, really cleaned things up, I felt pretty confident in both my skills and experience now, so I applied to about 300+ jobs in the last 2 weeks, followed up with some. \n\nI had one person ask if I knew angular when I followed up (while not professionally, I have personally and can learn quick, and focused on react and next.js) with no response, otherwise all no's or no responses. \n\nI thought I'd be in a good position after what's basically 5 months of professional experience, but not a single interview. I was hoping someone could review what I got. I also make sure to send cover letters including 5 strong references in them (granted, AI writes up my cover letter, but I mean it's just a paragraph or two tailored to the job and then my references).\n\n**Here is my portfolio site, I think it's pretty strong?**\n\n* https://evanprograms.com/\n* https://www.linkedin.com/in/evanprograms/\n* https://evanprograms.com/Evan_Perry_Resume.pdf &lt;---resume \n\nI'm just a bit discouraged that I got nothing after this 5 months of experience. What am I supposed to do, work this internship for 3 years unpaid so I have 3 years professional experience? I think my next step is in a few weeks hit the local meetup developer group. I have reached out to personal connections, I know a lot of people in my personal life, but so far they've just said \"You should have no problem getting a job, and we'll keep you in mind if something comes up\"\n\n**TLDR: Self taught, 2 years, been working unpaid internship as Senior Web Dev with real experience for the last 5 months, no responses in hundreds of applications.**",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1kbrw89/unable_to_get_a_response_yet_after_searching_6/",
+      "comments": [
+        {
+          "body": "first of all, leave \"senior\" off the job title on your resume (just \"web developer\"). you are not a senior developer with 5 months of (unpaid) work experience--the title is something your unethical boss used to trick you, and anyone at a real company is going to see through it immediately. \n\nyou're a junior. i'm a junior. it's okay to be a junior.\n\nlike others have said, you need a CS degree to get past automated screening so you can get interviews. put your effort into speedrunning a BS CS at WGU.\n\nit's time to go to your boss at PROJXON and tell them you appreciate the internship opportunity but at this point you are performing the duties of a full-time employee and need to be paid (even if it's not market rate). keep in mind that it sounds like if you leave, they're fucked.\n\nif they can't pay you, go back to your previous career while getting that degree.",
+          "score": 22
+        },
+        {
+          "body": "Lol companies are wildin. A senior dev internship?",
+          "score": 14
+        },
+        {
+          "body": "How the actual fuck can you be considered a “Senior Web Dev” At an *unpaid internship*??? That makes absolutely no fucking sense. I’d tell them “fucking pay me or this whole team crumbles.” Fuck. That. I would never in a million years manage a team of people and NOT get paid.\n\nThis industry is so fucked",
+          "score": 11
+        },
+        {
+          "body": "Companies aren't going to take anyone who calls themselves a senior with only 5 months unpaid exp seriously.\n\n&gt;I know a lot of people in my personal life, but so far they've just said \"You should have no problem getting a job, and we'll keep you in mind if something comes up\"\n\nYour people either have no idea what the realities of the tech market are  or are straight up lying to you. If you're serious about a dev job, getting a related degree is your best bet.",
+          "score": 6
+        },
+        {
+          "body": "Going to be hard without a tech degree but, seriously, you are done with the unpaid internship after 5 months. \n\nEither they pay or you leave. \n\nBetter off trying to build some SAAS that you can scale.\n\nThere are people with degrees who struggle to get a first position. It is an employers market.",
+          "score": 13
+        },
+        {
+          "body": "I'm going to guess that perhaps part of the reason is that your undergraduate degree is not in CS or SWE or CE, etc.\n\nNot to discount your experience, but if company systems that screen resumes are looking for specific things, like a BSCS/BSCE/BSSWE, then your resume will simply not get past the software that screens resumes.\n\nI had similar things happen when I applied to AI/ML roles despite having 5 years in the field. Most roles wanted people to have a Masters/PhD. Never heard anything back, and I'd have to guess that I was up against people who did have those certifications and/or my resume was simply being ignored for not having those credentials.\n\nSomething similar is probably happening here. Also worth noting the job market sucks right now and conpetition is at all time highs.",
+          "score": 2
+        },
+        {
+          "body": "Lol self taught web dev, read no further. Next.",
+          "score": 3
+        },
+        {
+          "body": "sorry but take senior out of your resume and linkedin. there's no way recruiters and hiring managers will take you seriously.",
+          "score": 1
+        },
+        {
+          "body": "I would try to network more, go to meetups, try to get involved with other projects/people. Seems like this current unpaid gig is going nowhere. If you are okay with not getting paid, you may as well try switching to some other organization that may lead to something better.",
+          "score": 1
+        },
+        {
+          "body": "how has this company been treating u so far, or uve gotten out of it?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "I have an upcoming Stripe engineer team screen int*rview, asking for feedback",
+      "body": "i have a Stripe **1hr** interview with a recruiter and it hit me with a surprise\n\nthe information packet said to expect screen sharing and hackerrank, a programming exercise, no leetcode and strictly no ai.\n\nthis is surprising because it is not the same interview loop from 9 months ago which had leetcode, now it begins with the coding round immediately by the recruiter\n\nto me it sounds like a real world exercise like a CRUD app with parts and debugging. could vary if the role was frontend vs backend.\n\nthose who did the interview in the last &lt;6 mo, can you please share what the interview problem could be?\n\nthank you",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1pddxxc/i_have_an_upcoming_stripe_engineer_team_screen/",
+      "comments": [
+        {
+          "body": "Why the fuck did you self-censor interview?",
+          "score": 14
+        },
+        {
+          "body": "It’s usually a practical coding task now, not classic LC. Think \"fix this endpoint\" or \"add a small feature.\" Pretty short and concrete.  \nAlso, don’t be shocked by the \"no AI\" line, folks still have stuff like ctrlpotato around during the screen if things go sideways.",
+          "score": 2
+        },
+        {
+          "body": "They usually do real world ish multi part questions. You can find examples online. Leetcode practice can still help i'd say. But, mine was more like designing a function for a real world purpose.",
+          "score": 1
+        },
+        {
+          "body": "On what the Stripe screen problem looks like, mine was a real world style multi part task in a shared editor: parse a JSON list of transactions, apply currency rounding, handle pagination, and add idempotency on create so retries don’t duplicate. They cared a ton about clear functions, small tests, and narrating tradeoffs while you code. What helped me was doing 30 minute dry runs where I first wrote a tiny validate function plus a quick unit test, then layered features. I used timed mocks with Beyz coding assistant alongside prompts from the IQB interview question bank to practice talking while coding. Keep iterations small, ask clarifying questions early, and handle errors explicitly. Good luck!",
+          "score": 1
+        },
+        {
+          "body": "[removed]",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Results and surprises from my job search in Toronto, Canada in 2025 (compared to 2022 and 2017)",
+      "body": "Just got an offer a super interesting place doing work I genuinely love, but wanted to share my experience, surprises and thoughts on this sub to give back since I used it a bit to make my decisions.\n\n# Background:\n\nI'm 6 YOE, all in Rainforest over 2 countries. My team became super toxic last year and all the good folks left. I was severely burnt out and depressed, even though my TC(260k at SDE2) was the highest it had even been. Decided to quit with no job lined up in December and travel the world for a month and a half disconnecting from everything to refresh and recover.\n\n# Expectations:\n\nI wanted a job with good WLB (or) a job I would be really passionate about and excited to work on everyday. I thought good WLB was more realistic. I was quite willing to take a big pay drop to work in some mid level chill company where I could (relatively) be a rockstar and not have a lot of pressure.\n\n**My naive expectation** was that if I applied to 70 mid TC chill companies(TC: 100-160k), I would hear back from half of them(35-40) given my YOE &amp; FAANG experience. And if I applied to 30 high TC companies(roughly 160-350k), I thought I would hear back from 2-5 of them.\n\nI started mass applying on Jan 18th, for reference.\n\n# Reality:\n\n**Literally every company paying a midrange TC** (or TC not mentioned but clearly small-medium size) **rejected me**! Like, 0 out of 70+ for even the first technical interview. Almost all at resume stage, and others after a recruiter call even though I mentioned that I wouldn't mind taking a TC hit and that I really loved their product. All the Big 5 banks rejected or ghosted me, as did SunLife, IBM and a bunch of no name companies.\n\n**Almost every company paying high TC(&gt; 160k) moved me forward quickly.** Some of the ones I scheduled with off the top of my head: Arista, Doordash, Confluent, Atlassian, Stripe, Faire, Robinhood, Veeva, AutoDesk, Ripple, Lyft, Coinbase, Instacart, Clutch, Block, Composer and the place I am going to join(which I won't name).\n\nThe only ones I was interested in and rejected me(inexplicably, in my opinion):\n\n1. Microsoft, even though I had good referrals and applied to 6-7 jobs on their site. I thought getting an interview would be easy with them and it was one of my top choice for good WLB, but they didn't even phone screen me lol.\n2. Okta, which I was meh about, but which matched very close to my resume. That was inexplicable imo.\n\n# The Problems:\n\nPeople might say it is a first world problem to only get interviews at high paying companies.\n\nHere's the problem and why company expectations are a big joke: I hadn't practiced leetcode for 8 years(I got my amazon offer in 2017 and started in 2018).\n\n# 2017 Hiring\n\nTech interviews were completely offline and required white boarding. \"Leetcode\" wasn't even a thing! Even though the site existed, I had never used it and neither had my friends. I only skimmed through CTCI(which didn't even mention dynamic programming lol), but I had a good theoretical understanding of data structures.\n\nDuring my Rainforest interview in 2017, the coding rounds were:\n\n(1) linked list reversal and then a follow up traversal\n\n(2) trapping rain water and\n\n(3) a 1-D DP problem.\n\nFor the DP problem, I white boarded a brute force solution, and then the interviewer asked how it can be improved, and I mentioned \"possibly with DP\". Even the mention of \"DP\" was enough to show understanding of theoretical concepts and pass the interview!\n\nDuring my HM call in 2018, my manager even asked me why it took me 20 minutes to reverse a linked list(that slowness was the only concern called out in my debrief, and I still passed that round).\n\nI am a very strong communicator and great with behavioural questions, so my communication of technical and leadership question responses was likely the strongest reason to hire me.\n\nWith this performance in 2025 for any company, I am 100% I would have been rejected. I would now me expected to complete the 1 D DP problem with DP solution in 20 minutes and then have a second follow up to solve in the next 20 minutes. I would have also been rejected for taking 20 minutes to reverse a linked list.\n\n# 2022 Hiring\n\nIn 2022, during the peak of the hiring bubble I did a bunch of problems and got external offers pretty easily, though I decided to move internally in Rainforest to Canada.\n\nInternal transfers in 2022 did not even require a coding interview, only a review of the work you had already done and non coding discussions. Completely fair, and made sense to me at the time.\n\nI had multiple offers internally with just a review of my work. Managers would wait weeks to hear back and come back selling their team again and again in the DMs. Employees were ghosting employers. It was a completely unsustainable period IMO, but I took advantage to move.\n\n# 2025 Hiring\n\nBack in 2017, I thought using Python in a coding interview was an orange flag because it was a higher level language that showed you maybe didn't understand memory management and the like, so I would always use C++. I literally never used a vector and STL stuff and passed the Amazon interview with C++ without the STL tricks.\n\nIn 2025, I got rejected from Doordash for example for coding too slowly on a Leetcode Hard 2-D graph problem. By coding too slowly, I mean I literally finished the logic in C++ in 30 minutes, and they also expected me to manually type up 10 test cases and try it out. Yes, 10 pairs of 2-D arrays of different sizes and conditions. They wouldn't give me samples to copy from or verbally explain. I spent 15 minutes typing it up. Hit compile. Multiple errors. Spend 5 minutes checking the logic and it seems fine. Literally explain my logic clearly to the interviewer who is silent 90% of the time. He says ok, but he wants working code. I couldn't get it to compile. After interview, I checked it. I misplaced a single bracket! The entire logic for the leetcode hard was correct and I explained it, I wrote all the edge test cases, and because of a single bracket misplaced in a nested loop, I was rejected in the phone screen :)\n\nAfter being burnt multiple times with speed on Stripe and other cos, I realised a crucial point: **It is complete insanity to use C++ or Java in coding interviews at high TC companies.** Yes, even if you code with it for years. Python is the least verbose and allow you to focus on logic and not syntax. I had practiced all my leetcode on C++, and decided to make an abrupt change by Jan 15 to start practicing Python. It took me about 1 week to become comfortable in Python, but after that my problem solving speed with literally increase by 30-50%.\n\nAlso, my record of probably 50-60 Leetcode today is pitiful, though I read the solutions for probably 100-120. I would not have quit my job without 200 Leetcode solved in Python if I had to do it over again - that probably takes 1-2 months.\n\nThis only applies for high TC companies. I had phone screen with IBM that was ridiculously easy. Like, I solved it in 10 minutes for a 60 min test. I think other low-mid TC companies may have questions like this, but none of them interviewed me.\n\nTwo of the best companies I got(and the one I'm joining) were referrals from a hiring platform in beta I found on Blind that sends your profile to smaller companies if you are a top talent. I would not have found these companies by cold applying as the jobs posts were months old or not public. I think that platform is focussed on people with faang or prestigious uni backgrounds, not sure if you can get in without that.\n\n# Summary/Findings:\n\n1. Don't f\\*\\*\\*ing use C++ or Java in coding interview. Just shut up and learn Python.\n2. FAANG is a double edged sword. Yes, it opens up doors(especially with Cloud backend experience which is highly in demand), but it also closes doors you thought were safe and would always be there. It's possible to get stuck in a dangerous zone where you are not good enough at leetcode to pass interviews with high TC companies and getting rejected by low TC, stable companies because they think you will not stay around.\n3. Employees hired pre 2018 or during 2022 boom are f\\*\\*\\*ed if they haven't kept leetcode skills sharp. Companies now expect absolute perfection and blazing fast speed.\n4. Yes, referrals are still the best, especially for smaller companies and startups you are interested in.\n5. Speed of applying matters, positions fill up fast. I think I was rejected by Atlassian despite finishing both problems in the phone screen because it was 2 weeks after recruiter call and the position got filled(the public posts for the position got removed, so I think it was really closed and I didn't fail the interview). So be prepared even before the recruiter call and schedule ASAP for your top companies.\n\nIn the end, you only need 1 yes, and I got it today, on Feb 14 - 3.5 weeks after I started mass applying. It was at a place that became my first choice as soon as I saw what they working on, which is a childhood passion. All is well that end well.",
+      "subreddit": "cscareerquestions",
+      "score": 125,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1ipp2lr/results_and_surprises_from_my_job_search_in/",
+      "comments": [
+        {
+          "body": "Only 3.5 weeks is really pretty good, especially considering you hadn't done much leetcode prep beforehand.\n\nI have 3yoe at a f500 household name and would love to take a step down to a lower stress environment with less pay and better WLB. I am definitely nervous that the same will happen to me with regard to smaller/mid-size companies not having any interest, and that I have accidentally gotten stuck in a higher tier that I don't want to be in. Also I hate leetcode, and the domain I've been working in for 3 years is not the one I want to move forward in.\n\nAnyway congrats on the job.",
+          "score": 37
+        },
+        {
+          "body": "Congrats on landing your new job quicky and I can 1000% reassure you, rainforest in Toronto has become extremely toxic leading to burnout. \n\nPoint 1 is extremely good advice actually, I've always LC'd in Python as you have access to all data structures and types without spending 10min (which is actually a lot) of your coding time. Cringe that DD expected you to type out the test cases. I normally just use documentation syntax to explain my test cases, ie: validInputTestCase: int\\[\\] -&gt; int maxValue",
+          "score": 16
+        },
+        {
+          "body": "+1 for suggesting switching to Python from Java. Did you know that you can’t remove an element by index from a List&lt;Integer&gt;? I learned that the fun way in an OA today!",
+          "score": 5
+        },
+        {
+          "body": "What do you think is the reason that having FAANG experience closes doors to midrange tc positions? Would you say it’s because they think you’re over qualified, or is it perhaps because the way FAANG operates is inherently different from most other companies and thus their engineers aren’t a good fit?",
+          "score": 4
+        },
+        {
+          "body": "What is the beta hiring platform you mentioned?",
+          "score": 4
+        },
+        {
+          "body": "Great job, getting a job in 3.5 weeks is super fast. Are those TC numbers in CAD or USD?",
+          "score": 3
+        },
+        {
+          "body": "I had a similar experience to you a couple of months ago OP -- I was getting all of the interviews at \"good\" companies (Instacart, Stripe, Shopify, etc) but not hearing back from any worse companies. I now work at one of the \"good\" companies so I guess it all worked out?",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "title": "Reflections on my last 4 months job hunting",
+      "body": "I've been working in the SWE industry for about 3.5 years at a FAANG subsidiary. After feeling like my personal growth has stagnated on my team for some time, I decided to embark on a job hunt around August of 2019, and finally finished my hunt!\n\nOverall, I applied to roughly 10 companies, heard back from 7 of them, and made it to the onsite for 4. I ended the search with 4 offers, all of them from companies in the SF Bay Area. The total compensation is comparable for all 4, ranging from 200K to 280K\n\n__Offer 1__: Public FinTech company\n\n__Offer 2__: Private FinTech company\n\n__Offer 3__: FAANG-sized public company\n\n__Offer 4__: FAANG-sized public company\n\nThere were actually many great things I noticed that are trending in the industry as I did these interviews, and I'd like to share with you all my experiences, both positive and negative. They aren't really formatted in any specific order.\n\n__On Studying__\n\n- Leetcode is still by far the best way to prepare, though the large majority of the questions I received for technical screens both over the phone and onsite were design questions that asked me to build an API. For example, a card game, or Pacman, or a class representation of a Universe that has galaxies in a grid system. Even though I prepared for it, there was far less random dynamic programming questions that required you to come up with a trick. I viewed this as a huge positive because a few years ago the only questions I would get asked were DP related or some recursive question traversing trees that I would never implement in real life. I would suggest going on Leetcode and searching for \"Design\" questions which will ask you to program things like a Snake game or a Hit Counter. They're much more useful given my experiences.\n\n- I tried many resources for studying, including Leetcode Premium, Interview Cake, and Grokking the System Design Interview. Of those three, the only one I found worth the money was Leetcode Premium. The discussion forum for most well written questions is quite extensive, which is usually useful enough for figuring out a problem. I \"only\" did about 100 questions, 80 of which were medium difficulty. I find that the problems used by Interview Cake are too simple and unlikely to ever be touched upon in an actual interview. As far as Grokking the System Design Interview, it had the most examples of questions you might be asked (design the Uber backend, for example), but I felt that at some point if you learn enough generic concepts through free online materials, there's nothing that this particular course offers except an aggregation of those public resources. I also bought and read the Elements of Programming Interviews book (which was great), and Designing Data Intensive Applications (also great for supplementing System Designs knowledge).\n\n- System design interviews were something new I encountered this time around and shouldn't be underestimated. There's so much you can talk about when building a system and you're given 50 minutes. I studied extensively focusing on depth for certain categories and relying on my work experience to carry me through designing APIs and talking about specific behavior for services. Generally, the interviews are in my experience very much focused on the data model, and how a specific request from a user (say, making a donation to a charity) is going to be specifically routed through my design, including what data fields are touched and how messages are passed around. I feel that interviewers were impressed with how much I knew here given the amount of experience I have (not trying to brag, just got positive feedback in this regard)\n\n- In terms of the questions I received at interviews, I would say that the most frequent type of question I got was OOP design related, followed by some sort of question that could be solved as a graph traversal (BFS, DFS), followed by DP, followed by string manipulation / sliding window questions. I did not receive any questions that would be considered a Leetcode Hard, but none that would be considered an Easy either.\n\n__On My Overall Experiences__\n\n- Not to be too fatalist, but it does seem like the number of software positions at specifically larger, more well-known companies are dwindling for engineers with less than 5 YOE. Specifically for engineers around the SWE II level, many companies that I interviewed with or found openings at as recently as last year no longer had any availabilities. I'm talking about companies with a decently high bar, like Airbnb or Stripe.\n\n- I dealt with some, but significantly less assholes during this job hunt than in previous years. I hope this is a sign of the industry improving even though my sample size is small, but most people I talked to whether at start ups or big companies were generally happy with their company, and didn't have large egos. Many engineers seemed genuinely interested in knowing the work I was doing for my current company. \n\n- I had forgotten how fucking exhausting interviewing could get. I scheduled multiple onsites for some two weeks back to back, and it was incredibly draining not only because I had to take time off work, but because generally you're looking at 5-6 hours of interviews where you're assessed and grilled non stop. I had to ask some interviewers for bathroom breaks not because they weren't courteous, but because we used up every single minute in every interview.\n\n__My recommendations__\n\n- If you're seriously looking for a job, I estimated that it took me about 3.5 months to get fully ready for the interview process where I felt seriously confident at the interviews. The first 2.5 months I mostly dicked around, studying maybe 1 hour every 3-4 days. By the last month, when the phone screens were completed and onsites were coming up, I spent most weeknights doing coding questions or reading tech blogs. Do you have to do this in order to get the right job? Hell no. But it really did help me feel confident for every single onsite. I felt like I walked away from all my interviews knowing that I passed them.\n\n- For coding practice I purchased Leetcode Premium and started with the Blind 75 list, which is really great. I used the Elements of Programming Interview book and got through about 30% of it, just doing random questions in chapters I felt weak on, like heaps and DP. I bought the book specifically in Python, since I knew I would be interviewing in the language, and it was helpful because the book teaches you how to use Python standard libs, such as during the heap questions. I should have scheduled interviews with companies I was less excited about earlier, because I failed my earlier phone screens due to nerves and lack of practice.\n\n- For system design, just use [this github repo](https://github.com/donnemartin/system-design-primer). This, plus some googling and reading tech blogs is more than sufficient for passing your system design interviews. I did some mock interviews here with a friend. During system design interviews, really focus on figuring out how a service is SPECIFICALLY routed through your design. Does the client engage with a RESTful API in your backend? Does the backend use a thread pool or message queue? Designing data models was extremely important, and understanding how to scale databses.\n\n__Picking the Job__\n\n- I haven't fully decided yet, but I don't intend on taking the offer with the highest compensation. My current team's culture sucks, and I really want to join a company with a team of engineers I know I would enjoy working with. The company that offered the most money also felt the last personal. I didn't like that for some interviews I didn't meet with the actual team of people that I would be working with, since I feel like that is really important for your day-to-day happiness.\n\n- I feel like the dimensions I rated my offer on included: company size, compensation, interest of product, team / company culture, and perceived interest in engineering work.\n\nFor anyone who's interviewing, good luck! I sucked so bad at interviews before my recent job, but I really put in the time and came out confident. It's like the SATs, it sucks to study for it, but there's a system that you can master given enough time and effort.",
+      "subreddit": "cscareerquestions",
+      "score": 441,
+      "url": "https://reddit.com/r/cscareerquestions/comments/f73g3p/reflections_on_my_last_4_months_job_hunting/",
+      "comments": [
+        {
+          "body": "Thanks for sharing this OP, I was this close to purchase the  Grokking the System Design Interview course, now I guess I would just go through the  [**system-design-primer**](https://github.com/donnemartin/system-design-primer) . It would be great if you can share some more free resources on system design.",
+          "score": 73
+        },
+        {
+          "body": "Thanks for sharing your experience. Over which technology stack do you work?",
+          "score": 29
+        },
+        {
+          "body": "&gt;Not to be too fatalist, but it does seem like the number of software positions at specifically larger, more well-known companies are dwindling for engineers with less than 5 YOE. \n\nThis is something I've noticed here as well (Central Europe). Most companies are definitely looking for pretty experienced engineers. The question is if this is going to go even further or not.",
+          "score": 29
+        },
+        {
+          "body": "[deleted]",
+          "score": 22
+        },
+        {
+          "body": "Thanks for the thorough and even keeled post. I'm just starting out in this field (potentially making the move to the valley itself). After going through the interview process for the first time, it's wild to imagine going through it again anytime soon. What are major factors that contribute to a developer switching companies?  I get that it's common to have short stints rather than long careers at a company, but it appeared to me that salaries are mostly the same and the main compensation shift was in stock options. What's your take?",
+          "score": 9
+        },
+        {
+          "body": "Any interesting tech blogs you came across?",
+          "score": 9
+        },
+        {
+          "body": "I hate leetcode-style questions with a fiery passion.",
+          "score": 12
+        },
+        {
+          "body": "Another Leetcode Premium advertisement on the front page.",
+          "score": 16
+        }
+      ]
+    },
+    {
+      "title": "Stripe SWE Integration Round",
+      "body": "Hey, not sure this if is allowed, but I have back to back interviews for Stripe coming shortly (for 2026 SWE Intern), and one of them is the integration round. I am wondering if anyone knows where to best find content to prepare for this interview style? I know that traditional DSA/Leetcode problems won’t help very much, but is there a section on Leetcode or some other website that would? Something with some sort of API integration content?",
+      "subreddit": "cscareerquestions",
+      "score": 1,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1oprgpf/stripe_swe_integration_round/",
+      "comments": [
+        {
+          "body": "For finding prep for Stripe’s integration round, skip pure DSA and practice real API flows. What helped me was spinning up a tiny payments demo with Stripe test mode, wiring create charge, refunds, webhooks, and idempotency keys, and debugging in Postman. I ran timed mocks where I narrated requests and error handling using prompts from the IQB interview question bank while coding in Beyz coding assistant. Also practice a simple payments schema and talk through pagination, retries, and rate limits. Keep answers tight with STAR around 90 seconds. You’ll feel a lot more comfortable, imo.",
+          "score": 2
+        },
+        {
+          "body": "interview query has a stripe SWE interview guide that has sample coding questions and solutions which you might be interested in exploring. questions like how to design a database for swipe payment API",
+          "score": 1
+        },
+        {
+          "body": "Integration is the round a lot of people underestimate. It’s usually less “code golf” and more:  \n• read an existing API spec carefully,  \n• stitch together multiple endpoints,  \n• think through failures/timeouts and how you’d surface them.\n\nWhen I was prepping I built a few tiny “fake services” and practiced plugging into them, plus wrote down some common patterns that kept showing up (idempotency, pagination, partial failures, etc.). If you’re interested in a more concrete breakdown of how I practice those, just DM me and I’m happy to share my notes/resources.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "High paying remote companies?",
+      "body": "Does anyone have a good list or way to search for remote - first companies that can get close to or match the compensation of companies like Google, Meta, etc? I've basically been trying to throw together lists of the top paying companies and looking at their careers page to see if remote is an option. Was wondering if there was an easier way to do this. It seems like a lot of the big tech companies are basically going back to in person, but I'm sure there are still a ton of good remote opportunities out there.",
+      "subreddit": "cscareerquestions",
+      "score": 74,
+      "url": "https://reddit.com/r/cscareerquestions/comments/18s6wwi/high_paying_remote_companies/",
+      "comments": [
+        {
+          "body": "Remote-first:\nAffirm, Airbnb, Atlassian, Brex, Coinbase, Confluent, Coursera, Crowdstrike, Cruise, Dell, DoorDash, Dropbox, Github, GitLab, Hashicorp, Hubspot, Indeed, Instacart, Lyft, Mozilla, OCI, Okta, PagerDuty, Plaid, Raytheon, Reddit, Redfin, Red Hat, Robinhood (rumored they will RTO soon), Shopify, Splunk, Spotify, SoFi, Square (+ Cash App), SquareSpace, Twilio, VMWare, Wish, Yahoo, Yelp, Zillow, Zoom\nSmaller companies including pre-IPO: 1Password, Addepar, Ramp, Calendly, Oscar Health, Postman, Whatnot\n\nHigh percentage (25% and up) of remote teams:\nAmazon, Autodesk, Capital One, Etsy, Google, LinkedIn, Meta, Microsoft, Nvidia, Oracle, PayPal, Pinterest, Salesforce, SAP, ServiceNow, Stripe, Uber\n\nMostly in-person:\nAdobe\nDatabricks\nNetflix\nRoblox\n\nSmall number of remote teams:\nApple\nBloomberg\nNotion (100% of roles are in-person AFAIK)\nSnap (100% of roles are in-person with exceptions)\nTesla (100% in-person)\nTwitter (100% in-person)\n\nSource: Blind",
+          "score": 92
+        },
+        {
+          "body": "Dropbox is fully remote, and has total compensation competitive with the companies you mentioned.",
+          "score": 20
+        },
+        {
+          "body": "Zillow, Senior is around 2-300K fully remote",
+          "score": 31
+        },
+        {
+          "body": "Airbnb",
+          "score": 7
+        },
+        {
+          "body": "Dropbox, GitHub, Atlassian, Zillow, etc.",
+          "score": 8
+        },
+        {
+          "body": "Stripe",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "List of companies hiring in NYC",
+      "body": "Recently went through the interview process in NYC, and along the way aggregated a list of companies that either are headquartered there or have an office there. There didn't seem to be a solid list posted here in a while, so I figure that it would help others like me that are looking to score a gig in NYC by posting it here:\n\nAdobe(Behance)\n\nAirbnb\n\nAmazon\n\nAmerican Express\n\nAsana\n\nAtlassian(Trello)\n\nBank of America\n\nBarclays\n\nBetterment\n\nBloomberg\n\nCadre\n\nCapital One\n\nCare/Of\n\nCitadel\n\nClassPass\n\nClear\n\nClubhouse\n\nCoinbase\n\nCommon\n\nCompStak\n\nDataDog\n\nDigital Ocean\n\nDisney\n\nDropbox\n\nElastic\n\nEnigma\n\nEtsy\n\nFacebook/Instagram\n\nFlatiron Health\n\nGiphy\n\nGlossier\n\nGoogle\n\nGreenhouse\n\nHudson River Trading\n\nJane Street\n\nJPMorgan Chase\n\nKickstarter\n\nKustomer\n\nLinkedIn\n\nLyft\n\nMeetup\n\nMongoDB\n\nNamely\n\nNetflix\n\nOppenheimer Funds\n\nOscar\n\nPalantir\n\nPeloton\n\nPrivacy\n\nPymetrics\n\nRo\n\nSeatGeek\n\nSlack\n\nSnaps\n\nSpotify\n\nSquare\n\nSquareSpace\n\nStripe\n\nTeachable\n\nThe New York Times\n\nTwitter\n\nTwo Sigma\n\nUber\n\nVenmo\n\nVimeo\n\nWarby Parker\n\nWatermark\n\nWeWork\n\nYext\n\nZillow (StreetEasy)\n\n&amp;#x200B;\n\nThis is obviously not an exhaustive list but most of these were relevant to me either because they were actively hiring or had interesting products. Hopefully it helps someone beginning their NYC job search!\n\nEdit: added more",
+      "subreddit": "cscareerquestions",
+      "score": 200,
+      "url": "https://reddit.com/r/cscareerquestions/comments/ck2l6k/list_of_companies_hiring_in_nyc/",
+      "comments": [
+        {
+          "body": "Hey, it’s a list of everyone that has rejected me.",
+          "score": 140
+        },
+        {
+          "body": "We're hiring at Giphy!\n\n[https://boards.greenhouse.io/giphy](https://boards.greenhouse.io/giphy)",
+          "score": 21
+        },
+        {
+          "body": "I’ve similarly looked around NYC and found that some of the places you’ve listed, like Stripe, are hiring more than 10x less in NYC than California and there’s often only 1 or 2 positions open and not necessarily at your level.\n\nI guess what I’m saying is that for a number on the list the stars will have to align for NYC to be viable, even though *some* eng role is open.",
+          "score": 28
+        },
+        {
+          "body": "Ive been meaning to apply at \\&amp;#x200B;. Does anyone know what its like working there?",
+          "score": 7
+        },
+        {
+          "body": "[deleted]",
+          "score": 13
+        }
+      ]
+    },
+    {
+      "title": "I have an on-site Amazon interview coming up. Is wearing a black suit okay?",
+      "body": "Hi there!\n\nI've got an on-site interview with Amazon coming up and I would like your advice on attire. Normally, when dressing up, I like to wear my black suit, black belt and black shoes, white dress shirt, and a dark striped bow tie. \n\nHowever, some friends tell me people should only wear a black suit at funerals. They also say navy blue and grey suits are the way to go nowadays, especially with the big companies. Also, are bow ties too much? From my personal experience they work well for me because they leave a lasting impression and I always succeed on my interviews as the \"bow tie guy.\" \n\nWhat do you think? \n\nEDIT: Thank you for the help, everyone! I've decided to go with a nice polo and khakis. \n\n",
+      "subreddit": "jobs",
+      "score": 7,
+      "url": "https://reddit.com/r/jobs/comments/1vu3wo/i_have_an_onsite_amazon_interview_coming_up_is/",
+      "comments": [
+        {
+          "body": "Their website says:\n\n&gt;How should I dress for the interview?\nAmazon has a casual work environment. While some positions in our fulfillment centers may limit certain clothing for safety reasons, most of our offices are filled with people wearing everyday clothes. Dress nicely but comfortably. A suit and tie won't impress anyone here\n\nDark suits can be a bit ... formal. Weddings, funerals, and galas.",
+          "score": 8
+        },
+        {
+          "body": "Don't wear a suit. Nobody wears suits there, even HR. Just wear a nice shirt and jeans or trousers and you'll fit right in.",
+          "score": 6
+        },
+        {
+          "body": "Hey there future Amazon co-worker. I work in one of there nearby fulfillment centers and all of the HR reps always wear casual clothing. You'll also notice that everyone in the warehouse (including me) are wearing some sort of workout or sports clothing. I say just show up for the interview in some slacks and a nice polo shirt. Once you get the job, you should be able to wear whatever you want.",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "title": "Experienced Dev, wanted to know procedure &amp; resources for developing end to end web app.",
+      "body": "Sorry for my bad English &amp; writing skills.\n\nHey, Since I'm not able to secure any job, I was thinking of creating a web app (aka my own startup) that can be monetized in future. I have basic understanding of 'MERN Stack' &amp; have created few basic/intermediate projects (using tutorials). Now, real question is after idea and initial idea/setup my mind is completely blank.\n\nI'm not able to think clearly what to do next (don't want to get stuck in tutorial hell as well). My thought process (or goal) is to do Figma Design -&gt; Initial Planning -&gt; Code -&gt; Github + Testing -&gt; CI-CD &amp; Dockerization -&gt; Deployment (AWS/GCP) + Some AI Integration. I want to know the procedure/guidance on how to move forward &amp; how should I 'Learn By Doing'. If there is any book/resource that can help me understand 'end to end web app creation', please share it with me.\n\nI'm going to use below mentioned technologies &amp; tools.\n\n\\* Frontend: React + TypeScript + Shadcn  \n\\* Backend: Node/Express + TypeScript, Mongo &amp; PostgreSQL, Prisma  \n\\* Docker, AWS/GCP, Redis, GitHub, GitHub Actions, SocketIO, Stripe\n\nEnding Note: My **goal** from this is to learn MERN by **hands-on for job interview** \\+ monetize it + **get noticed by employer so that i can get remote job**.",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1opynzc/experienced_dev_wanted_to_know_procedure/",
+      "comments": [
+        {
+          "body": "If your goal is to create a “startup” for resume building purposes, you’re fooling yourself. Startups start with a problem to be solved and then validating there’s a market for it. What you’re doing ain’t a startup.\n\nIf you want to build a MERN thing, literally just fucking build it, proactively and independently without relying on some hand holding resource. The point of a project is to upskill, it doesn’t necessarily get employers to “notice” you, especially if it was a solo project without budget/timeline/integration constraints",
+          "score": 1
+        },
+        {
+          "body": "Why do you feel so comfortable asking for handouts",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Anyone here do a frontend technical for stripe?",
+      "body": "Was wondering if anyone had any tips, insights on how to prepare for the interview?\n\n[](https://www.reddit.com/submit/?source_id=t3_1q7tb7s)",
+      "subreddit": "cscareerquestions",
+      "score": 1,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1q7tcbk/anyone_here_do_a_frontend_technical_for_stripe/",
+      "comments": []
+    },
+    {
+      "title": "Integration Engineer process at Stripe",
+      "body": "Hi everyone, recently applied for an Integration Engineer role at Stripe and got past the recruiter screen. Next steps are a Hiring Manager interview followed by a technical/coding assessment. \n\nI’ve been in consulting/delivery focused roles for the last couple of years so I need to prep hard for the technical assessment. \n\nLooking for any advice/guidance on:\n\n1. What kind of questions to expect for the technical assessment/what I should focus on studying \n2. Things to expect from the hiring manager interview \n\nTried to get more info from the recruiter who reached out but they are not super responsive. \n\nThank you in advance!",
+      "subreddit": "cscareerquestions",
+      "score": 2,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1ox2n7y/integration_engineer_process_at_stripe/",
+      "comments": []
+    },
+    {
+      "title": "Stop misusing \"fintech\"!",
+      "body": "I've seen like 30 threads that misuse \"fintech\" so I'm going to clarify what this word means. Fintech (short for financial technology) companies are ones that work on technology products for financial services (e.g. stuff like online payments, robo advisors, stock trading apps, personal finance management, etc.). So examples of fintech companies would be like Stripe, Addepar, Wealthfront, Robinhood, Mint, etc.\n\nCompanies that people on this sub think are fintech but are NOT fintech: Jane Street, Two Sigma, Citadel, Goldman Sachs, etc. Okay I guess if you interpret \"fintech\" broadly enough you could say these fit the bill, but nobody working at those companies would call it fintech. And I don't think I've ever seen anyone outside this sub that uses the term in this way.\n\nThe key difference is that a fintech company is at its core a technology company that sells a product targeted at some financial service area. Whereas the other companies that I mentioned are financial institutions that just happen to leverage technology for their needs. Jane Street, for instance, is a propriety trading firm. Two Sigma is a hedge fund. Goldman is an investment bank (although they do a lot of shit). These companies use technology (often extensively!), but, unlike a fintech company, the product they're making isn't the technology itself.\n\nThis may be one of those cases where the word has evolved and I should just let it happen. But like I said, I don't think I've ever seen anyone outside this sub who uses the term this way, and you might get laughed at if you go to interview at DE Shaw and refer to them as a fintech firm. So, fair warning I guess.\n\nPS: stop misusing \"high frequency trading\" or I'll need to make another post!",
+      "subreddit": "cscareerquestions",
+      "score": 145,
+      "url": "https://reddit.com/r/cscareerquestions/comments/6uq5rp/stop_misusing_fintech/",
+      "comments": [
+        {
+          "body": "[deleted]",
+          "score": 284
+        },
+        {
+          "body": "So let me see if I understood. \n\nA fintech company is a **tech** company whose product is used in *finance* stuff.\n\nJaneStreetTwoSigmaCitadelGoldmanetc are **financial** companies that happen to hire a lot of developers because their financial services rely on *tech* stuff.",
+          "score": 43
+        },
+        {
+          "body": "lmao, i feel retarded i'm just a lurker and i been thinking fintech meant tech industry in Finland.",
+          "score": 48
+        },
+        {
+          "body": "[deleted]",
+          "score": 49
+        },
+        {
+          "body": "And get off my lawn!",
+          "score": 40
+        }
+      ]
+    },
+    {
+      "title": "Positive Coding Challenge Experience",
+      "body": "Thought I'd share my quick thoughts since most of this sub tends to look down on coding challenges especially leetcode style problems. Both Stripe and Akuna Capital had me built a rudimentary API for their internship hackerrank, and I think this does a much better job simulating real world conditions than arbitrary leetcode style problems, and focuses more on logic than know obscure tricks and memorizing solutions. I would love to see more companies go down this route, or at least try to take a problem they actually face at work and simplify it a little, rather than just picking random leetcode questions.",
+      "subreddit": "cscareerquestions",
+      "score": 89,
+      "url": "https://reddit.com/r/cscareerquestions/comments/9k7r36/positive_coding_challenge_experience/",
+      "comments": [
+        {
+          "body": "[deleted]",
+          "score": 33
+        },
+        {
+          "body": "HubSpot uses the same approach.\n\nIt's better than solving leetcode mediums",
+          "score": 31
+        },
+        {
+          "body": "Hospital wants to hire a surgeon. During the interview they ask him to cut some salad. Well, surgeons and cooks are not that different - both jobs are mostly about cutting things with a knife. It should be a good demonstration of skills.\n\nPolice department wants to hire an officer. The only test they give him is pistol shooting competition. Shooting guns is the every policeman’s main activity during work hours, right?\n\nMechanical engineer is asked to draw a copy of Mona Lisa in 5 minutes. Since he draws blueprints on everyday basis - he must be good with pencil, let’s check it.\n\nA web-developer is given a dynamic programming puzzle on HackerRank, it’s what he does for living after all, so we’ll generously give him 10 minutes. The clock is already ticking, by the way.",
+          "score": 57
+        },
+        {
+          "body": "Etsy's challenge was to debug a Python Flask app and to add functionality to it. It was fun to do even though I didn't pass it.",
+          "score": 16
+        }
+      ]
+    },
+    {
+      "title": "Is this the reason why I am not being hired?",
+      "body": "So my family has been telling me that I am not getting hired simply because of the way I dress.\n\nNow, the places I have been interviewing at were Mcdonald's and a Popeyes, and from what I heard, those places just need you to be alive, so all I've been wearing to the interview is a simple black jacket, black striped pants, and black shoes. Basically, all black. As for hair, I tend to have it a bit tousled for texture(and to look less plain)\n\nSo was the way that I dressed screwed me over? Or is it just recruiting hell in action?",
+      "subreddit": "jobs",
+      "score": 0,
+      "url": "https://reddit.com/r/jobs/comments/1q1joi0/is_this_the_reason_why_i_am_not_being_hired/",
+      "comments": [
+        {
+          "body": "No pictures,, no comment,, \n\n You could have been wearing a custom 3 piece suit",
+          "score": 19
+        },
+        {
+          "body": "Your responses to people's comments here are making it very clear why you aren't getting hired.",
+          "score": 18
+        },
+        {
+          "body": "no, it is probably your responses in the interview. those clothes won’t get your rejected, the people who work their don’t overly dress up on the job either. it’s probably your interview.",
+          "score": 10
+        },
+        {
+          "body": "You’re interviewing at places that may not be aggressively hiring right now. Typically, fast food places slow hiring from Nov-Jan/Feb because more people eat at home, don’t have the cash for eating out, and/or don’t want to go out in the cold weather. \n\nAs for what you’re wearing, what you’ve described seems fine but how well you are groomed may be a different issue. If you look clean/freshly showered, nails neat and trimmed, not too much makeup or distracting jewelry, and personal hygiene taken care of, that’s all important too. You should make sure that you speak clearly, make appropriate eye contact, and have an updated resume that reflects some transferable skills that apply to the position you want.\n\nThe days are gone when you could just stumble into a place and get a job because you had a pulse.",
+          "score": 6
+        },
+        {
+          "body": " Wearing a button down and kakis never hurt. It’s a tough job market right now. Also how is your availability? They want people who can work on weekends",
+          "score": 3
+        },
+        {
+          "body": "Your best luck will be if you know someone who works there and that person can say that you are reliable and honest.",
+          "score": 3
+        },
+        {
+          "body": "All black is a definite look.... I'd go for some kind of colour or pattern shirt.   It gives off a mood.",
+          "score": 3
+        },
+        {
+          "body": "Try wearing clothes that are not black. Wearing all black for an interview doesn’t create a positive image and perception.",
+          "score": 4
+        }
+      ]
+    },
+    {
+      "title": "Interview for web development",
+      "body": "I have my interview in like 3 hr and I don't know most of the things I have mentioned in my resume also add the fake experience tell me what my interviewer will ask me ",
+      "subreddit": "jobs",
+      "score": 0,
+      "url": "https://reddit.com/r/jobs/comments/1pzd1hp/interview_for_web_development/",
+      "comments": [
+        {
+          "body": "Oh dear, what a shame.",
+          "score": 2
+        },
+        {
+          "body": "list out the questions asked by interviewer",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Some coworkers don’t like how I “earned” this job.",
+      "body": "Four months ago, I saw a job opening to a company I like (I liked the company I was working for at the time but it wasn't my ideal position). My dad is connected to an executive there. I decided to use that connection but not to an extent. I attended a career talk in my university days and one guy said this “Use your networks WISELY. Do not abuse them”\n\nYou see I wanted to earn my way in. I decided to have the connection to guarantee me an interview. That way.....if I get in, it is because the Hiring Manger and future boss said yes to my skills and sees my value. That's how many people get in.....because they earned the approval of the hiring manager, which I did.  I dont’t think it’s nepotism. If nepotism was involved, there would be no point of the interview as I am already granted a place but I don't want that. Nepotism to me is using family connection to get something I did not earn. The HM still has the option of YES or NO. I got a job offer one week after the interview.i felt proud because a yes from the manager made me feel like I earned my stripes and deserved to be in the company. \n\nHowever I get flak from the HR. It turns out I skipped the HR interview and went straight to the HM interview. Many HR employees and recruiters, except the HR head and managers who are very nice to me, give me the cold look and see my entry as nepotism. If nepotism was involved there would never be an interview. Some people think using connections is nepotism but it is not. I use connections to put one foot in front but the other foot has to earn its way in. There was still a choice for the HM to say no. I was accepted because the HM deemed my skills and background worthy. Here I just used connections to secure an interview with the HM but I still have to get his approval, just like everyone else. They have to realize that they don’t make a decision who’s in or not….it’s the managers. The manager said yes to me and they have to deal with it.\n\nI mean there was a sign that showed I belong in this company. Two weeks ago there was a presentation to business prtners and my coworkers and boss said I was the MVp. Even the HR head was there and she was super impressed. Plus the thing is if these angry coworkers were put in my shoes, they would do the same or even abuse their networks and connections. What I did isnot an avenger level threat. I didn’t force the manager to a position that he hs to say yes. ",
+      "subreddit": "jobs",
+      "score": 0,
+      "url": "https://reddit.com/r/jobs/comments/1kyv5ws/some_coworkers_dont_like_how_i_earned_this_job/",
+      "comments": [
+        {
+          "body": "You got an advantage because your dad works for the company. There is nothing wrong with that, pretending you did not have an advantage is disingenuous and why people don’t like you.",
+          "score": 22
+        },
+        {
+          "body": "Respectfully, this is a painfully naive interpretation of what happened. Not sure what everyone else is smoking. This is definitely nepotism. Nepotism generally still includes interviews—you're actually above average there since you skipped one.\n\nYou are underestimating the reach and effect of nepotism, and overestimating the HM's \"freedom\" to, for all they know, piss off their executive by rejecting you. 99% of people don't even get an interview, so even if that were your only advantage here, which it isn't, it's a huge one. Including plenty of people who would do great at the job, so one good presentation doesn't make it \"not nepotism\" either.\n\nYou can say nepotism is allowed, the way the world works or whatever, but it is nepotism. Please just own it, this is not a good look.",
+          "score": 7
+        },
+        {
+          "body": "If an executive says “hey I know this guy who would be good at this job, you should interview them”, then that person is getting the job.\n\nNo hiring manager who wants to keep their job is going to go against the recommendation of an executive. It is implied that they need to hire that person as a favor, or else there will be some sort of retaliation (firing, or more likely lack of future growth opportunities). \n\nIt’s naive to think that all the executive did was “get you an interview”",
+          "score": 6
+        },
+        {
+          "body": "You are a nepobaby. Embrace it. Acting like you got in on your own merit  is really crappy. \n\nI once got a job because my relative was head of a division and I acknowledged that I got in because of that-and I did a good job. One doesn't cancel the other.\n\nJust do your best job so they see that you are also a good worker.",
+          "score": 5
+        },
+        {
+          "body": "This post reads like every interview with Will Smith's kids.",
+          "score": 6
+        },
+        {
+          "body": "Nepotism actually had a major role in you landing that job, and honestly, it’s more annoying pretending that it didn’t than actually getting a job that way. Connections are often how people get jobs. That’s fine. But you absolutely got a leg up over other applicants. I’m sure there were other equal applicants to you, maybe better ones, that never got seen. Just own jt. \n\nHR is annoyed because recruiters are often judged by how quickly they fill a position and sometimes get rated or commission. That isn’t your fault, and is more on the HM for bypassing that step to talk to you.",
+          "score": 5
+        },
+        {
+          "body": "This is definitely nepotism my friend, my dad knows a guy got me an interview so I bypassed steps that many other fall into.\n\nStraight up nepotism lmao",
+          "score": 3
+        },
+        {
+          "body": "It's nepotism is why they are mad. Others who wanted an interview prob didn't even get one with exp. You have to get a call from HR first, never goes directly to a mgr. You clearly don't know how connections work, it's incredibly unfair and it happens everywhere esp in corporate",
+          "score": 2
+        },
+        {
+          "body": "Fuck the haters. Get yours. Why are you even worried about this?",
+          "score": 1
+        },
+        {
+          "body": "You’re supposed to use connections to get a job.  If I had not done any networking, I would have never gotten any job after graduation.\n\nPlenty of people get hired that way through referrals and being well-connected.  You’d be getting this “hate” no matter which company it was or which city/state you worked.",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "title": "Stripe Technical Account Manager interview — confused by feedback, was I wrong to think differently?",
+      "body": "Hey all,\nI recently went through the interview process for a Stripe Technical Account Manager role. I passed the screening round and the technical writing assignment, then moved on to the review round with an existing TAM where we walked through my writing task and a case study.\n\nI didn’t end up getting through that stage. I asked for feedback, and the TAM who interviewed me told me he was “expecting a specific answer” to the case study — an answer that I didn’t give.\n\nHonestly, that shocked me. The problem statement seemed open-ended, and I approached it logically based on my own experience working with customers, debugging issues, and driving solutions. But hearing that they wanted one specific answer made me feel like the whole thing wasn’t really evaluating how I think, but whether I guessed what they had in mind.\n\nNow I’m wondering: Is my thinking off here?\nAre TAM interviews at Stripe (or similar companies) usually looking for one “correct” path? Or is this just a case of a rigid interviewer? I always assumed roles like this valued structured thinking, communication, and customer empathy — not a single predetermined solution.\n\nHas anyone else had this happen in a TAM interview, at Stripe or elsewhere? Curious if this is normal or if I just hit a strange panel.",
+      "subreddit": "jobs",
+      "score": 0,
+      "url": "https://reddit.com/r/jobs/comments/1paqz1n/stripe_technical_account_manager_interview/",
+      "comments": [
+        {
+          "body": "It's impossible for anybody here to know the answer to this question. It just depends on the nature and context of the case study. It's possible that there in fact was a very specific route you should have gone down, and it's also possible that you just had an interviewer with extreme tunnel-vision. Again, nobody here can possibly give you a definitive answer.\n\n\nYou're best not dwelling on this and just moving on with your life.",
+          "score": 1
+        },
+        {
+          "body": "Had a similar experience interviewing for an security architect role. I was given a very generic design exercise for a cloud landing zone and ran my design past a couple of people with more experience in that area who thought it was solid and covered about any use case you could think of. After submitting it all I got was that it wasn't what they were looking for. So my assumption is that the hiring manager or whoever reviewed it had a very specific use case in mind and failed to convey that in the exercise parameters, or maybe they just wanted someone to design a landing zone for them for free. But what the experience and feedback told me is that even with getting a bit desperate to land a new role, that wasn't a role I would've been successful in.\n\nI feel this is similar; that TAM is one of those \"there's two ways to do something: my way and the wrong way\" types.\n\nAnd I think there's a lot of that going around... during 3 of my last 4 interviews, the interviewer has brought up how long they've been trying to fill the role citing timelines as long as a year. That's become a major red flag for me, given the number of highly qualified people that have been getting laid off over the last few years in infosec.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Is it okay to use connections to secure INTERVIEW?",
+      "body": "Position in a big brand company opened up and I want to apply. Good news is my dad knows an exec there and I am thinking of using that connection. I want that connection to secure an interview. I dont want to use that connection to force my way in because that does not feel right. I want my entry to be because the hiring manager or my would be boss approved. Every employee had to earn their entry by getting a yes from their would be boss and I am doing the same thing. I might be fastrscking and bypssing HR but it doesn’t matter what they like, only the manager’s opinions matter not theirs. \n\nA sibling of mine looks down on it because I am “screwing people over” but anyone with those connections would totally use it and I bet some people will even abuse the connections they have, which I wont. Second he thinks that the hiring managers will be bound. Well that’s their problem. If Im already guaranteed an entry what’s the point of interview? I want my entry and my stripes to be earned.\n\nI just want an honest interview with the manager or boss so they would see my skills and know if Im worth contributing to the team. I either get a YES or NO.",
+      "subreddit": "jobs",
+      "score": 11,
+      "url": "https://reddit.com/r/jobs/comments/1nbig2r/is_it_okay_to_use_connections_to_secure_interview/",
+      "comments": [
+        {
+          "body": "Right now, it's the only way to get past the recruitment gatekeepers - so do it!",
+          "score": 26
+        },
+        {
+          "body": "&gt;Every employee had to earn their entry by getting a yes from their would be boss and I am doing the same thing.\n\n\nAs a former hiring manager and employee in multiple Fortune 500 companies the above statement is incorrect.  The vast majority of people are hired via Nepotism.  They are related,  friends, or acquaintances of other employees. At my current company over 60% of the positions are filled via employee referral.",
+          "score": 18
+        },
+        {
+          "body": "Yes, a majority of roles are filled via referrals.  Taking a referral is not \"screwing people over\" it is the person providing it saying you are a known quantity and they believe you will do the job well.  They believe it enough to risk their reputation recommending you for the job.",
+          "score": 12
+        },
+        {
+          "body": "Unless your dad has multimillion dollar contracts with this company, you’re still getting the job on merit. Always take a foot in the door whenever you can get it",
+          "score": 24
+        },
+        {
+          "body": "Hell yeah-VPHR here and I 100% take referrals seriously.",
+          "score": 6
+        },
+        {
+          "body": "As in some who has just retired and been in the business world, it is dog eat dog out there. Sometimes I was shocked at what some people did to advance their career. \n\nBill Gates had this small company and had an operating system. Actually he didn’t own it yet. Now IBM was looking for a operating system for their new micro computer call the PC. \n\nGates’s mother was on the board of United way and also the CEO of IBM. Gates’s mother said to that CEO my son has a operating system, you should try it. \n\nOnce he got a verbal offer for that operating system Gates’s bought it for 20K. \n\nGates was not a slouch and didn’t out right sell it to them but allowed them to use it or something like that. Brilliant business move. \n\nLater IBM tried to make their own OS but it was hardware dependent while Microsoft was not. \n\nI had worked as a consultant for a investment firm. They only had one customer, the owner. He was a great guy and I had to do a lot of work on his laptop. \n\nI was going over it and read some of his Word docs and found out he was on the board of directors of Proctor and Gamble. \n\nI asked him if he would give me a written reference and he said yes but I didn’t persue it. \n\nI am kicking myself in the butt because I could have sent my resume to Proctor and Gamble with his reference. \n\nBottom line if you can advance your career by using someone you know, go for it.",
+          "score": 5
+        },
+        {
+          "body": "If you have a leg up on getting an interview, why wouldn't you take advantage? If it's solely to secure an interview, there is nothing ethically questionable about this. They will still need to select from everyone who interviews for the job. \n\nUse what you got.",
+          "score": 5
+        },
+        {
+          "body": "Yes, that’s fine, as long as you’re clear about your goal. Using your dad’s connection to get your foot in the door for an interview isn’t “cheating,” it’s just smart networking. You’re not skipping the actual evaluation; you still want the manager to see your skills and decide if you’re a fit. Think of it as an introduction, not a shortcut, you’re still earning your stripes the right way.",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Stripe Design Engineer",
+      "body": "Hi everyone, this is my first time landing design engineer interview after applying for a while &amp; I was wondering if any other design engineers could tell me what the tech assessment will be like? It’s my first one  - I was just told a CSS live coding component where I’d have to share my screen and explain as I go alone but I’m not really sure what they will look like…a figma component I’d have to replicate &amp; code and talk them through the process as I do so? Any bit would help, thanks in advance!",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/1ol0bxd/stripe_design_engineer/",
+      "comments": []
+    },
+    {
+      "title": "Should I be worried I haven’t heard back yet?",
+      "body": "Hey everyone,\n\nI started interviewing at a big payments company (think Capital One, Stripe, Visa) for a semi-dream job of mine and wanted to get some perspective. Here’s the timeline so far:\n\nWed: Applied through referral.\n\nThu: next day, invited to a screen interview.\n\nTue (following week): Had the screen.\n\nWed: next day got invited to schedule a hiring manager interview.\n\nMon: Had the interview, which went well. The interviewer said I had a great background, and I handled his questions on how the company makes money and what his practice does. There were a few terminology items about the business that I wasn't aware of (I would be officially new to payments even though I've worked on a few payments startups before) but he explained them to me. Overall he gave me positive feedback.\n\nI ran out of time for some of my questions, so I sent them in a thank-you note after the interview. He replied the next day saying it was great meeting me and “good luck on your next interviews,” which I took as a good sign that I’m moving forward as it's not like I mentioned any other places I was interviewing lol. \n\nThe only issue: I haven’t heard from HR since Monday, and now it’s Thursday evening. The next step is supposed to be a final round panel interview.\n\nShould I be worried about the silence, or is this just normal timing in the process?\n",
+      "subreddit": "jobs",
+      "score": 0,
+      "url": "https://reddit.com/r/jobs/comments/1nwixde/should_i_be_worried_i_havent_heard_back_yet/",
+      "comments": [
+        {
+          "body": "Good luck",
+          "score": 1
+        },
+        {
+          "body": "Depends. Is it a position they are hiring multiple people for? If so, unfortunately, you probably didnt get it.\n\nIs it more of a unique/higher up position? why dont you try giving them a call? Sometimes it can take a week or 2.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Can anyone suggest me what am i doing wrong here ?",
+      "body": "Hi folks, So I am bit of confused what is going wrong with me here like I am doing projects like more than 40 now on github yet I don't get replies can anyone tell me what am I doing wrong here below are my skills and all the things I could mention Yet I don't get interview calls from anyone\n\n\n\nTechnical Skills\n\n• Languages: Java, JavaScript, TypeScript, HTML, CSS, SQL, JSP\n\n• Backend: Spring Boot (MVC, Security, AOP), Hibernate/JPA, Node.js, Express.js, [Socket.IO](http://Socket.IO), REST APIs\n\n• Frontend: React.js, Next.js, Angular, TypeScript, HTML, CSS, Tailwind CSS\n\n• Databases: MySQL, MongoDB, Mongoose\n\n• DevOps &amp; Tools: Linux, Docker, Git, GitHub, PM2, Nginx (Basic), Agenda.js, Pino.js\n\n• Cloud/APIs: Stripe API, Mux API (Video Streaming), JWT, OAuth2\n\n• IDEs &amp; Other: IntelliJ IDEA, VS Code, Neovim, Eclipse, Postman\n\nProjects\n\nAI Education Platform (Node.js, Express, Next.js/React, MongoDB, TypeScript, [Socket.IO](http://Socket.IO), Stripe,\n\nMux)  GitHub\n\n• Developed full-stack AI-powered video education platform with JWT/RBAC authentication.\n\n• Implemented real-time features (e.g., chat/notifications) using [Socket.IO](http://Socket.IO) and WebSocket connections.\n\n• Integrated Stripe API for subscription management (Checkout, Webhooks) and Mux API for video CDN delivery.\n\n• Built background job processing (Agenda.js), structured logging (Pino), rate limiting, and health monitoring.\n\n• Created admin dashboard components (Next.js/React) for user/log management; utilized Docker for containeriza-\n\ntion.\n\nVaultAuth - Role-Based Authentication (Spring Boot, Java, Hibernate, JWT, Spring Security) \n\nGitHub\n\n• Secure, role-based authorization platform (ADMIN, MANAGER, USER roles) using Spring Security and JWT.\n\n• Integrated OAuth2 support for Google and GitHub login; developed REST APIs with access control.\n\nAttendance Buddy - Attendance Tracking System (Java, Spring Boot, Hibernate, Angular, TypeScript)\n\n GitHub\n\n• Full-stack attendance system with REST API (Spring Boot/MySQL) and responsive frontend (Angular).\n\n• Implemented real-time tracking features and role-based dashboards.\n\nMedaid - Hospital Appointment Booking (NodeJs, React, MongoDB, Bootstrap)\n\n• Location-based medical appointment platform with MongoDB backend and React frontend.\n\n• Integrated Google Maps for hospital location search.\n\nInternship\n\nTata Consultancy Services (TCS) - Software Intern\n\n• Developed IoT project prototypes using Arduino and MIT App Inventor focusing on user interaction.\n\n2021\n\n• Collaborated in team environment and contributed to project documentation.\n\n\\&gt;&gt;And there is a current internship going on which i don't think I shall continue they don't value me there . \n\nExtra Skills\n\n• 35+ GitHub repositories demonstrating consistent coding activity and diverse projects.\n\n• Trilingual: English, Hindi, Marathi\n\n• Typing Speed: 100+ WPM (High Accuracy)",
+      "subreddit": "jobs",
+      "score": 2,
+      "url": "https://reddit.com/r/jobs/comments/1klikoi/can_anyone_suggest_me_what_am_i_doing_wrong_here/",
+      "comments": []
+    },
+    {
+      "title": "Interview Call | Open AI",
+      "body": "I just accepted an offer from Stripe. However I got a call from OPEN AI for Analytics Engineer Position. Its probably a stupid question but should I give it a shot? Any experience with Open AI anyone? Especially for the position of Analytics Engineer and its comp structure? Thanks!",
+      "subreddit": "jobs",
+      "score": 2,
+      "url": "https://reddit.com/r/jobs/comments/1b50h1o/interview_call_open_ai/",
+      "comments": [
+        {
+          "body": "This isn’t the right sub for you. Have you looked at the most recent posts? I suggest reaching out on Blind or Fishbowl apps. More people of your caliber and experience",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "How is this outfit for a business casual interview, finance industry?",
+      "body": "Hi, I'm about to attend a business casual interview in finance industry in NYC, how is this outfit?\n\n[Classic-Fit Striped Cotton Poplin Luxury Shirt](https://www.brooksbrothers.com/Classic-Fit-Striped-Cotton-Poplin-Luxury-Shirt/WV01013,default,pd.html)(light blue), [Women's Navy Pin Dot And Stripe Wool-Blend Suit](https://www.paulsmith.com/us/women-s-navy-pin-dot-and-stripe-wool-blend-suit),  [City 70 Pump](https://www.theory.com/mid-pump/J07AC007.html?cgid=womens-shoes&amp;dwvar_J07AC007_color=001#start=1)",
+      "subreddit": "jobs",
+      "score": 8,
+      "url": "https://reddit.com/r/jobs/comments/cvntbf/how_is_this_outfit_for_a_business_casual/",
+      "comments": [
+        {
+          "body": "Even to casual workplaces, I always wear my suit to interviews. The interviewer will probably make some reference about dressing business casual but at an interview one always wants to look professional especially in the financial world.",
+          "score": 9
+        },
+        {
+          "body": "I wouldn't mix stripes with patterned suit.  Visually, subconsciously, it distracts from the focus, which is you.\n\nEither patterned suit with solid shirt, or patterned shirt with solid suit.\n\n\n...\n\n\nI'm not saying that you couldn't wear this outfit ever, but for an interview, my preference is restricted.",
+          "score": 3
+        },
+        {
+          "body": "Maybe a bit much with both stripes and dots? I'd pick a single color shirt with that suit. But formality-wise it's good enough imo.",
+          "score": 2
+        },
+        {
+          "body": "This is a cute look but you definitely want to notch it up for the interview. Don’t dress how you would dress everyday. Especially finance in NYC!! The shoes are way too casual. The outfit might be ok with different shoes and a belt that does not stand out.  Just my opinion! Better to be too formal than too casual IMO.",
+          "score": 2
+        },
+        {
+          "body": "I think that outfit with the pumps is perfect.",
+          "score": 2
+        },
+        {
+          "body": "Very nice! Classy and professional!!!",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Suggestion - Tie.",
+      "body": "Is this a good choice to wear in a  bank interview? \nI will be wearing a crisp twill white shirt with black suit. The tie color is something like teal-blue with black stripes. Note: its a good position in the bank so i want to look very good 😊😊.",
+      "subreddit": "jobs",
+      "score": 2,
+      "url": "https://reddit.com/r/jobs/comments/1c86ydc/suggestion_tie/",
+      "comments": [
+        {
+          "body": "Looks fine. But I’ve never worked in a bank.",
+          "score": 1
+        },
+        {
+          "body": "Edit: if it helps, I'm Male-29y, indian ethnicity, brownish-fair tone.",
+          "score": 1
+        },
+        {
+          "body": "Personally, I don’t like ties that are shiny, glossy or has that sheen to it. I would have recommended a navy blue suit, light blue dress shirt, with dark brown shoes and dark brown belt, and a polka dot blue tie. Since you’re there, you should probably ask a sales associate for their opinion. They are very knowledgeable about matching colors.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Seeking advice (or support in general)",
+      "body": "Hi everyone, happy Friday.\n\n**tl:dr**: Currently seeking advice on my work situation that happens to be rather dysfunctional and toxic. I like the work that I do but I'm not sure if my mental health can take it. My workplace isn't doing anything to address the disrespectful subordinate who happens to be union. On top of that, I have to deal with my new(ish) boss who turned out to probably be a personality hire who embellished his resume with stupid certifications and is full of hot air; in other words, he's all talk but he doesn't actually do shit. Lastly, another manager from another department likes delegating work to my department, and my new boss, who is new to the industry and doesn't know shit, is fine with us taking it on. This other manager is hated by almost all the hourly associates, other supervisors, and a couple of other departments because they suck at their job, and I feel so bad for one of their subordinates because this manager just delegates all their work on them. It doesn't help too that my boss and this other manager are a duo of kiss asses who are buddy buddy with the HR manager and the acting head of the facility. What the fuck do I do? Can I just send a letter to some senior HR corporate person?\n\nLong post:\n\nI am currently seeking advice on my current work situation. I work for a huge company in a supervisory position. I started last year in August, so I've only held my position for less than a year. For the past several months, I have been working in what I think is a toxic work environment. For the most part, I like the work that I'm doing; however, I'm not sure if certain aspects of my work environment are worth tolerating in the long-run.\n\nDuring the phone screen and interview, my job was described as an individual contributor role who reported directly to the head of the facility. HR and the hiring manager never specified that I would have to not only work closely with two workers would report directly under me. To provide some context, my company is comprised of corporate office and several manufacturing plants. Most of the plants nationwide are union environments. I happen to work in a plant that is unionized. Also, hourly workers are part of the union; salaried workers are not. I'm a salary worker.\n\nPerhaps you can see where this is going. The two workers reporting to me are both hourly workers. I have no problem with one of them, but the other one is a pain in my ass. This worker has been an employee for the company for 30+ years, and he's only worked his way up signing bids with higher pay due to his tenure.\n\nFor the past several months, I have been trying to get him terminated or at least disqualified from his bid for the following reasons:\n\n* Based on the job description outlined in the union agreement, he is unqualified. I can go on and on about how he lacks the knowledge, skills, and abilities, to fulfill the minimum requirements of the job. He just sucks. Point blank.\n* He displays a negative and rude attitude towards other hourly workers and members of management.\n\nI've also, unfortunately, been harassed and disrespected towards by him, and it doesn't help that he's older white male and I'm a young POC who's a female. I can't help but feel a certain way about it because he treats other members of management with respect, and a majority of them are white and male.\n\nI have been documenting his behavior and job performance and issuing written statements to him whenever it was appropriate, all the way up the a 5 day suspension. The next step is termination. \n\nMy first boss was nonchalant about my situation. Eventually, he got fired, and I got a new boss a month later. I was hoping my new boss would be more helpful. I forwarded him the email thread that I had with HR that documented every little job performance and behavior problem I had with my associate. I also made it clear to him that I was not comfortable working around my associate. No response, no acknowledgement. In fact, he's always buddy buddy with my associate even though he reassures me in private conversations to be patient because \"a tiger never changes its stripes.\"\n\nI just feel like upper management isn't doing a good job addressing my current work situation. I was vulnerable with them multiple times. A lot of hourly associates don't like this subordinate, as well as my other team members. Even other supervisors fucking hate him. I don't understand why they're coddling him.\n\nSpeaking of coddling, upper management also likes coddling to kiss asses who don't do anything. One manager likes to delegate their work to their subordinates (a shit ton) and other departments, including mine. They're also super unqualified in their role, and I honestly would like to know what the fuck they spend their entire work day doing. Traditionally, their role is on-site, and they should be spending a lot of time on the production floor. This manager probably spends a lot of time working from home and literally drives around from one side of the facility to the other because they don't want to walk across the floor. I mainly feel sad for the subordinate who keeps getting dumped with all this work (and everyone else is left wondering what exactly this manager spends their work day...). To the best of my knowledge, this manager hasn't been placed on a performance improvement plan. It doesn't help that this manager is super buddy buddy with HR and the head of the facility. \n\nThe last thing to complain about: my new boss. :) When I first found their name out, first thing I did was look them up. On paper, they're a good candidate. However, once they started, it was clear that they're full of shit and embellished their resume. They probably have the certifications, but they have never ever EVER applied those skills to the workplace. This post is getting way too long, so I'll just end this paragraph with this: they're all talk...but no action. My new boss was a personality hire who is so good at small talk but not actually getting anything done.\n\nIn the past, I called the ethics hotline to report my concerns about my subordinate, but it just got sent to my HR and their response was \"associate was retrained on \\[name of policy\\].\" I feel like sending a letter to someone in corporate, perhaps the boss of my HR's boss. It's probably the dumbest idea ever but I really do want the best for the hourly associates, and it can't happen without getting a couple of toxic ass bitches out. Thoughts?\n\n&amp;#x200B;",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/145jsna/seeking_advice_or_support_in_general/",
+      "comments": []
+    },
+    {
+      "title": "Left my job after they tried firing me",
+      "body": "I worked for a large transportation logistics company for nearly 5 years. 5 years doesn’t sound like a long time but at this particular company I was considered an old timer because there tends to be a high turn over rate, or an emphasis on pushing people out after so long. I had seen it done to other people where they were forced out or put under high amounts of stress to quit, I just never thought it would happen to me. I thought of myself as a hard worker, always ready to help, had earned my stripes so to speak, and was in a newish role (to me) that I was told would allow some slack in learning it.\n\nEarlier this year I switched into a very stressful role and all knew it would take at least a year for someone to get fully aquatinted in it, one of them being my manager. Along with this understanding, in my prior role with the same manager he would completely dismiss anything I was working on or the program I was running, stating no one cares about it. I’d show him tools and process improvements but he’d shrug them off because he didn’t care. That’s not exaggeration, he would literally say that.\n\nEnter late September this year. I get a call from my manager saying he’s concerned about my job performance and that I’ve not created any tools or process improvements. When I asked what job performance concerns there are he was very vague about it, and when I told him about all the prior things I’d done with tools/performance improvements he didn’t care - was more of a “what have you done for me lately?” sort of vibe. His approach to this was not positive, instead he described it as a dire situation I was in and I need to figure out how to get out of it. He never said I’d be fired but very much insinuated it. He never emailed or wrote anything out, but rather told me all this and that he expects me to create a tool from a program I had very little experience with.\n\nWe started meeting more frequently as I went hard into figuring out this tool and the process to make it. Every meeting (almost daily each week) it was becoming clear to me that no matter what I did a decision had been made and he was trying to save face. They wanted me to quit or they were going to fire me after claiming they tried everything. I was spending so many non-working hours on this project only to be told each day that it’s not enough or that it’s insufficient. \n\nI decided I would try joining a different team by transferring. I went through the whole interview process. They had actually offered me the transfer but there was a system blocker. My manager was preventing me from transferring because he wanted me to finish the project that I was finding increasingly impossible to do. As you can imagine I was stressed out beyond belief, full of anxiety (not eating much, depressed even), every day I was dreading work. It was all truly messing with my health.\n\nIn addition to my manager doing all this, a person I work with that’s a higher manager than my own would constantly berate me and be very confrontational. She was always like this but in this setting it seemed amplified. If she didn’t understand something I was doing, or perceived something as incorrect even if it were absolutely right, rather than coming to me and asking she’d go straight to my manager. This was contributing to how my manager was feeling about my performance.\n\nOnce I got word that I couldn’t transfer I contacted my manager for more information on why. He says I would need to impress the company with my tool I’m working on. I asked if he meant senior management maybe, he said no, I’d need to impress “the company”. All of these vague directions, working with confrontational people, manager who refused to see what I was doing before and is now acting like I don’t do anything; all added up to me deciding there was no way I’ll be able to truly overcome this.\n\nI applied elsewhere and actually wound up interviewing once and got the job. It was a decent offer,a slight pay cut but worth it. I realized in my prior job, even before the recent events, I was so stressed and had a terrible work/life balance. The new company will not have that issue, at least not as frequently. When I submitted my two week notice suddenly my manager was acting like he was my best friend and saddened to see me go, some other managers claimed to feel the same. On my last day I sent a standard goodbye email and most who responded said they were jealous because they’re not able to break away, or others said they’re going through something similar.\n\nI guess this post is to highlight that there are times where you may feel fine in your job but many companies will not hesitate to let you go for anything you may have actually done or that they’ve perceived you to have done. Be careful around many people as they’ll also not hesitate to throw you under the bus, be aware of how you see them treat others and avoid if possible. When it looks like there’s an issue that could result in you being let go, start making preparations to go out on your own terms. Managers may tell you they have your back but in reality they’re really only looking out for themselves and how it appears their team is doing. Also, only you are truly looking out for you, so be selfish (but not awful about it) and be very cautious about things, and always have a back up plan.",
+      "subreddit": "jobs",
+      "score": 39,
+      "url": "https://reddit.com/r/jobs/comments/jyf11u/left_my_job_after_they_tried_firing_me/",
+      "comments": [
+        {
+          "body": "Hello, thank you for posting to r/Jobs! \n\nWe just wanted to let you know that we have a new [discord server, come join the chat!](https://discord.gg/TY6ErXV)\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/jobs) if you have any questions or concerns.*",
+          "score": 1
+        },
+        {
+          "body": "Bravo. Good for you standing up for yourself. \n\nIMHO, your manager is incompetent and did not like your brilliance (which is why he \"don't care!\" as he doesn't want to be outshone. Later, he probably passed off YOUR work as his own and promised the sun and the moon with the stars thrown in for free to the C-level execs, and since he can't do it, he needs to push you to deliver, or throw you under the bus for \"not being a team-layer\". \n\nIn a game like this, the only way to win is \"not to play\". (yes, I'm showing my age with that movie quote paraphrasing)\n\n-----\n\nLet me share a little of my former experience. I was dismissed from my work... twice, but hired only once. (and yes, I posted this before)\n\nGot the job in 2018. It was physical, but after a month, my body finally got acclimated. I even lost like 20 pounds over a few months. It was an interesting experience, as I was twice everybody else's age (except one or two) and I am faster than most of them.\n\nThen because a couple supervisors quit, they sent in some of the bigwigs from corporate. They came up with this plan to re-organize the operation. Basically, they're establishing baby hubs so only a large truck goes into the delivery area, instead of sending half dozen vans, and folks who live near the hubs can work at the hub, and not come into HQ, saving gas and toll and all that. It sounds brilliant, nobody had objections. And since it doesn't affect the crew at HQ (such as me) we didn't do anything.\n\nThen when the signup period ended, all the drivers based out of HQ were told we're being laid off because we didn't sign up for duty at HQ. WTF?!?!?! (all except one guy, basically, who apparently found a signup sheet for HQ) NOBODY told us that we have to sign up to keep our jobs, but they don't give a (bleep). They actually made is sign an acknowledgement of layoff severance blah blah.\n\nHow the heck do they expect to deliver anything out of HQ if they have like 1-2 drivers? Not my problem. A couple guys went off and found other jobs.\n\nThen two days before my final day, the assistant dispatcher (not the boss who \"laid off\" me, not even the dispatcher, but his assistant) told me that I was NOT laid off after all. SHEESH!!!!!! So I kept working as if nothing happened. But the job got steadily worse.\n\nThey got rid of me half a year later for some chicken(bleep) reason. I've been told we've been since replaced by temps so they're saving on benefits. Cheap (bleep)s.\n\n####So that's how I got dismissed from my job TWICE.",
+          "score": 3
+        },
+        {
+          "body": "Good on you for getting out of there. That sounds like a highly toxic environment. The older I've gotten, I've realized WHO you work for is just as important as what you do and how much you are paid.",
+          "score": 6
+        }
+      ]
+    },
+    {
+      "title": "Interview questions for Chick-fil-A. (First job hopefully and would like some advice.)",
+      "body": "Before we start off I'm 17m\n\nFirst question: What should I wear? Only formal things I have are 2 polos. One is just plain gray and the other one is gray with white horizontal stripes going across. I also have faded, old black jeans and some dark blue non faded jeans. I don't own dress pants or anything fancy.\n\nSecond question: What questions can I expect? The one I'm dreading is \"Tell me about yourself.\" I literally don't know what I'd say and will probably just be like \"Oh uhmm im a junior in high school. That's about it\" I literally don't know what else I'd say. I don't do extracurricular or anything of that nature. \n\nThird and final question: What questions should I ask at the end of the interview? I heard interviewers love it when interviewees ask questions afterwards. \n\nSorry if I'm overthinking this it's just that I'd really love to get a job here and haven't done this sort of interview before.",
+      "subreddit": "jobs",
+      "score": 2,
+      "url": "https://reddit.com/r/jobs/comments/5g824g/interview_questions_for_chickfila_first_job/",
+      "comments": [
+        {
+          "body": "You really need to find something nicer to wear preferably a button up and some nice black dress pants. This will make you look presentable and ready to work. \n\nAnd also they probably won't ask you to tell them about yourself. Usually interviews are more professional things like do you have any experience, what are your hours, maybe why do you want to work here, etc ",
+          "score": 3
+        },
+        {
+          "body": "Glassdoor.com will likely have details about thr interview.  I recommend you do a little research there. ",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Female Attire for Start-Up Tech Company Interview",
+      "body": "Hey r/jobs!\n\nI have my second interview tomorrow at a progressive company. My first interview was at a coffee shop where I wore skinny beige corduroys, a white fitted cotton long sleeve, a teal &amp; blue scarf, and matching blue flats. This outfit was perfect for that scenario.\n\nAfter a skills assessment, I was invited back for a second interview. I inquired to what attire and my contact replied that they were a casual office and jeans &amp; a nice top would suffice. \n\nEeks. \n\nPersonally, I'm wary about wearing jeans to an interview. At the same time, though, I'm hesitant to go above that in case its seems like I don't take directions well? I might be overthinking this... \n\nThat being said, I have a few options and would love input:\n\nOutfit A - The safe choice.\n\nPatterned blouse, skinny blue pants, blue flats.\n\n\nOutfit B - A stronger statement, a bit sexy without the skin.\n\nOcean green blouse, white skinny jeans, belt, brown leather flats\n\n\nOutfit C - The \"what a sweet girl\" outfit.\n\nWhite/mint striped sweater, fitted blue jeans, coral necklace, navy flats\n\n\nThoughts?",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/359bsf/female_attire_for_startup_tech_company_interview/",
+      "comments": [
+        {
+          "body": "I'd say B.   It seems the most memorable without being obnoxious.   Your other outfits aren't obnoxious by any means,  just not as memorable. ",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Reddit, I need interview attire advice!",
+      "body": "I was hoping to get some opinions on an IT interview I have next week.\nHere's the situation-\n\nI have recently graduated college with my BS in CIS (yay).  For the past 3-4 years I have lived off $700 a month.  with this $700 I've had to pay rent, utilities, and food.  I qualified for enough financial aid to cover tuition and books (thank god), but nothing else.  Needless to say I've cut it close every month.\n\nSo, now I've got an interview lined up, but I don't have the money to afford a suit.\n\nHere's what I have to work with, what should I do to maximize hiring potential?\n\n* $21 to spend on whatever\n* Black Dickies pants\n* Black Dress Shoes that don't fit but I can force them\n* white socks only :(\n* white button up shirt\n* Black silky button up shirt\n* Ugly blue striped tie.\n* Semi Faded Black Suit Jacket that might be to small (got this for 5 bucks at the thrift store.  If I were to hug myself it might rip.  Is this too small to wear?)\n* Black portfolio\n* Green T-shirt with a printer that says \"PC-Load Letter WTF?\"\n\nAny help would be great thanks!",
+      "subreddit": "jobs",
+      "score": 0,
+      "url": "https://reddit.com/r/jobs/comments/i706h/reddit_i_need_interview_attire_advice/",
+      "comments": [
+        {
+          "body": "First, it depends on what part of the country you are in.  If this were California, I'd say you are both over-dressed and over-stressed about dress.  Some companies might even think that your story of being an IT professional is more believable if you are wearing ripped jeans, but that really depends on the local culture and customs.\n\nGenerally, don't wear anything that you are not physically comfortable in.  Dress to look and feel good.  You should be ready to answer challenging questions about what happens when you have a sticky-session load balancing server and one of the RAID 5 controllers goes down, and the server does not have redundant controllers.  How many customers will this effect, and what will the effect be?\n\nWear whatever it takes for you to come up with the best answer.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Stripe interview",
+      "body": "Can anybody please tell me the past interview questions they are asking, I have seen some blogs they are saying questions are very different from Leetcode etc... so can anyone tell me question from interview....",
+      "subreddit": "interviews",
+      "score": 2,
+      "url": "https://reddit.com/r/interviews/comments/1ogeg60/stripe_interview/",
+      "comments": [
+        {
+          "body": "Get dirty with string parsing",
+          "score": 1
+        },
+        {
+          "body": "I’ve seen a bunch of recent Stripe rounds — the questions are mostly practical: string/JSON parsing, small data-processing tasks, and debugging a tiny service. Very different from LC.\n\nIf you want, I’ve collected several real examples from candidates who just interviewed. Happy to share — it makes the pattern a lot clearer.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Going in for an interview tomorrow for a brand new, yet to be opened restaurant. What would be some good questions for me to ask the person that interviews me? (Applying for server position) Also, what should I wear?",
+      "body": "So last week I continued my quest to start working in either a fine dining establishment, and/or one that serves liquor. I saw a posting on CL about a new restaurant opening up about 10 minutes away from me. It is a bar/restaurant and would certainly be considered fine dining so it is exactly what I am looking for as I would like to transition to bar tender at some point from being a server. I was interviewed on the spot when I turned in the application by a lady that works for the owner at some position within the restaurant. She said she really liked me, and I feel like the interview went really well. She told me she would set up an interview for me with the owner and today is that interview.\n\nI have two questions:\n\nWhat should I wear to the interview?\n\n&amp;\n\nWhat would be some good questions for me to ask the person that is interviewing me?\n\nFor my clothing I do not want to wear something to outrageously glitzy and am going with a nice striped long sleeve black t-shirt with khaki pants (not cargo). I also have a pair of shoes that match these exact colors and the outfit looks rather nice. Would khakis be too casual though? Any suggestions if so?\n\nI really want to knock it out of the park on the questions aspect of the interview as I feel like this will be crucial in their decision. As for questions I want to be prepared to ask I am thinking about asking:\n\nDo you promote to bar tender through your servers?\n\nDo you run daily or seasonal specials that are not permanent menu items?\n\nAre your servers expected to bus tables after a guest is finished?\n\nI also know that the owner runs several other restaurants in the city and I would like to ask him something related to the other locations, as well as something related to the fact that this is a completely new restaurant, I am thinking of asking:\n\nAre the menu's between your different locations similar or unique to each restaurant?\n\nCould you describe the experience you are aiming for your customers to have at this location, essentially, what is your vision for this business?\n\nI am thinking I should ask about something related to their wine menu offerings, but admittedly have very limited experience in alcohol service overall. Would there be a good question I could ask that wouldn't expose my lack of knowledge?\n\nAny suggestions on my attire, as well as some good questions to ask, or if some of mine should be avoided, please let me know I would GREATLY appreciate some insight. \n\nI am going in in about 8 hours and will be updating upon completion of my interview.\n",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/1lbf5e/going_in_for_an_interview_tomorrow_for_a_brand/",
+      "comments": [
+        {
+          "body": "Regarding attire, I think it's always a good idea to go more formal if you're unsure. Personally I would probably turn up wearing slacks and a shirt with some black shoes. \n\nRegarding questions to ask, some of those sound unnecessary, or like you're jumping the gun (i.e. assuming you've got the job already). I would just ask questions relating to promotion and stuff like that, as it's a reasonable thing to ask questions about and shows you've got ambition. ",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "title": "Need tips for Stripe Interview",
+      "body": "Hi, I have my 1st round of discussion for a finance role at Stripe in the upcoming week. The interview is with the recruiter/hiring manager. I would appreciate any preparation tips as from what I have heard the interview process at Stripe is long+extremely tough. This is a non technical role (financial operations) in India. \n\nWould appreciate your help!! Thanks",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1md7qk1/need_tips_for_stripe_interview/",
+      "comments": [
+        {
+          "body": "For your first round with the recruiter and hiring manager, focus heavily on understanding Stripe's business model inside and out - know how they make money, their key products, recent expansions, and the challenges facing the fintech industry. They'll likely ask behavioral questions using their \"operating principles\" framework, so prepare specific examples that demonstrate how you've solved problems, worked with ambiguous situations, and driven results in previous roles. The financial operations role will require you to show analytical thinking, so be ready to walk through how you've approached data-driven decisions or process improvements.\n\nThe key to succeeding at Stripe is showing you can handle complexity and ambiguity with a structured approach. They value people who ask thoughtful questions, so prepare several insightful questions about the role, team dynamics, and how financial operations supports their global expansion. Practice articulating your thought process out loud when solving problems, since they care as much about how you think as what you conclude. Since you mentioned the process can be challenging, you might want to check out [interviews.chat](http://interviews.chat) \\- I'm on the team that built it, and it's designed to help candidates practice answering tough interview questions and get real-time feedback on their responses, which could be particularly useful for preparing for Stripe's structured interview approach.",
+          "score": 1
+        },
+        {
+          "body": "Even for SWE roles at Stripe I found the prep patterns much more repeatable than LeetCode type. I wrote mine down.. DM if you’re prepping too",
+          "score": 1
+        },
+        {
+          "body": "I’ve helped a few people prep for Stripe’s non-tech rounds — the first conversation is usually pretty structured: background, why Stripe, how you handle ambiguity, and a couple of scenario-based questions around ownership and cross-team coordination. It’s not as intense as the tech path but still very behavioral-focused.\n\nIf you want, I also collected some recent examples of the questions candidates got in similar roles. Happy to share — they make the prep much clearer.\n\nGood luck with your first round!",
+          "score": 1
+        },
+        {
+          "body": "update?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Stripe interview  journey",
+      "body": "So recently I got a chance to interview at **Stripe** for their **Frontend Developer** position in **Barcelona** \n\n\\- I passed the initial screening interview \n\n\\- I also aced the coding round\n\n\\- I was invited for the next stage too \n\nBut today I got a call saying the immigration team said they won’t be able to move forward with me.\n\nMaybe it’s because I am from **Bangladesh** and require visa sponsorship. I did mention that while applying and also in initial screening.\n\nMan it sucks to hear this specially after coming this far and the job market is just trash right now.\n\nNot sure what to do next:(",
+      "subreddit": "interviews",
+      "score": 4,
+      "url": "https://reddit.com/r/interviews/comments/1kxeq3c/stripe_interview_journey/",
+      "comments": [
+        {
+          "body": "You proved you were good enough for the job—they just couldn’t sponsor you, and that’s their loss, not a reflection of your talent or future.",
+          "score": 2
+        },
+        {
+          "body": "What was your coding round like? What kind of problems did they ask you?",
+          "score": 1
+        },
+        {
+          "body": "Hey man, any insights what the rounds looked like? I got invited to the screening round, too now. Don't know what to expect.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Interview Process for Transaction Fraud Strategist Role at Stripe",
+      "body": "Hi everyone,\n\nI’m exploring the opportunity for a Transaction Fraud Strategist role at Stripe and wanted to get insights into their interview process. Specifically, I’d love to know:\n\n1. What kind of questions or case studies can I expect (e.g., fraud detection, transaction analysis, strategy development)?\n2. Are there technical components like SQL, Python, or data modeling involved?\n3. Any advice on preparing for behavioral questions tailored to Stripe’s values?\n4. General tips or experiences from anyone who has interviewed for similar roles at Stripe?\n\nThanks in advance for sharing your experiences or any pointers!",
+      "subreddit": "interviews",
+      "score": 2,
+      "url": "https://reddit.com/r/interviews/comments/1iclbtm/interview_process_for_transaction_fraud/",
+      "comments": [
+        {
+          "body": "I would imagine something around SIEMs like splunk and other logging tools",
+          "score": 1
+        },
+        {
+          "body": "The Transaction Fraud Strategist role at Stripe sounds like a challenging and fascinating position! \n\nIn terms of case studies, I'd expect you to dive into real-life scenarios where fraud detection and prevention strategies are tested. Think scenario-based questions where you're given a hypothetical transaction flow, and you have to identify potential red flags or suggest ways to prevent fraudulent activities.\n\nTechnical components might include basic SQL queries to analyze transaction data, or some Python scripting to automate certain processes. But don't worry if you're not super proficient in those areas – the focus is more on applying critical thinking and problem-solving skills rather than being a coding expert.\n\nBehavioral questions will likely revolve around Stripe's values like innovation, collaboration, and customer obsession. Be ready to share examples from your past experiences where you demonstrated these traits, whether it was working on a team project or finding creative solutions to unexpected problems.\n\nIf you're interested in preparing for behavioral questions, try practicing with friends or family members – just describe a time when you applied Stripe's values in a real-world situation. It doesn't have to be perfect; the goal is to demonstrate your thought process and willingness to learn.\n\nOne thing that helped me when I was in a similar spot was using an AI tool that listens to the interview questions and suggests responses in real-time. If you're interested, I can share it with you.\n\nKeep in mind that these are just general tips – every interview is unique, and Stripe's process might differ from what others have experienced. But overall, focus on being yourself, showcasing your strengths, and demonstrating a genuine interest in the role and company culture.\n\nIf you want to learn more about my experience or get some personalized advice, I'm happy to chat further!",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "title": "Stripe interview experience",
+      "body": "I had an technical interview for data engineering role last week. It was programming exercise with interviewer. The problem was described as 3 parts where I was able to solve up to second part in time. Overall I had a great interaction with the interviewer and I thought I was going to next round. However the recruiter said later the team didn’t want to move forward. I’m a bit confused if it was interview performance or something else?\nAny Stripe employee out there can share some thoughts how to interpret this?\nMy goal here to assess how the hiring bar is right now in the market. Earlier such interview performance was enough to go to next round but looks like I’m out of luck this time! Is the market very competitive and employers are very picky?",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1331gps/stripe_interview_experience/",
+      "comments": [
+        {
+          "body": "Why don’t you ask for more feedback? Otherwise it’s just speculation.",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "title": "Stripe Design Engineer",
+      "body": "Hi everyone, this is my first time landing design engineer interview after applying for a while &amp; I was wondering if any other design engineers could tell me what the tech assessment will be like? It’s my first one  - I was just told a CSS live coding component where I’d have to share my screen and explain as I go alone but I’m not really sure what they will look like…a figma component I’d have to replicate &amp; code and talk them through the process as I do so? Any bit would help, thanks in advance!",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1okdb3e/stripe_design_engineer/",
+      "comments": [
+        {
+          "body": "From the design engineer screens I’ve done, the CSS live coding is usually what you’re thinking: they give a small Figma component and you rebuild it while explaining choices. I’d practice with 20 to 30 minute reps where I outline HTML first, then layer styles, narrating spacing tokens, grid vs flex, and how it collapses at one breakpoint. What helped me was timed mocks using Beyz coding assistant together with prompts from the IQB interview question bank so I could practice thinking out loud under a clock. Also sprinkle in accessibility as you go, like color contrast and focus states. Keep answers tight, aim for 90 second explanations per decision. Good luck, you got this imo.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Commercial Credit Operations Analyst at Stripe",
+      "body": "Hi everyone ! This may be a long shot but I’m interviewing at Stripe this week for the credit analyst role. Looking for any advice from someone in the role or who has interviewed for the role previously. Thanks in advance !",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1oo7pxv/commercial_credit_operations_analyst_at_stripe/",
+      "comments": [
+        {
+          "body": "Hello! I’m interviewing for a different analyst role at Stripe this week as well.  How did your interview go if you don’t mind me asking by chance?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Stripe- GTM Strategy &amp; Ops Interview",
+      "body": "Hi,\n\nI have an interview with a hiring manager next week and after meeting with them there will be a written project. I've interviewed with the for a program manager role with their core ops team and I actually failed that written project. Anyone has insight on what format they expect the project to be in? If you've interviewed for similar roles and aced the project, how did you approach it? Was it a word doc or power point presentation?\n\nThanks! ",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1k1kuw3/stripe_gtm_strategy_ops_interview/",
+      "comments": [
+        {
+          "body": "Hi did you get to the next round? How did it go?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Interview Process for Transaction Fraud Strategist Role at Stripe?",
+      "body": "Hi everyone,\n\nI’m exploring the opportunity for a Transaction Fraud Strategist role at Stripe and wanted to get insights into their interview process. Specifically, I’d love to know:\n\n1. What kind of questions or case studies can I expect (e.g., fraud detection, transaction analysis, strategy development)?\n2. Are there technical components like SQL, Python, or data modeling involved?\n3. Any advice on preparing for behavioral questions tailored to Stripe’s values?\n4. General tips or experiences from anyone who has interviewed for similar roles at Stripe?\n\nThanks in advance for sharing your experiences or any pointers!",
+      "subreddit": "interviews",
+      "score": 2,
+      "url": "https://reddit.com/r/interviews/comments/1icltk8/interview_process_for_transaction_fraud/",
+      "comments": [
+        {
+          "body": "Hey there! Congrats on pursuing the Transaction Fraud Strategist role at Stripe, that's a great opportunity.\n\nFor your first question, you can expect case studies and scenario-based questions that'll challenge your analytical skills. Think of them as real-world examples where you'll have to detect patterns, identify trends, and propose strategies to mitigate potential risks. The interviewers will likely ask about your experience with fraud detection tools, data analysis techniques, and your ability to communicate complex ideas in a clear manner.\n\nAs for technical components, you might encounter some basic SQL queries or Python code snippets, but it's unlikely to be a deep dive into programming. Stripe values strategic thinkers who can analyze data, identify patterns, and develop creative solutions. Behavioral questions will likely revolve around how you've applied these skills in previous roles, so make sure to prepare examples that demonstrate your problem-solving abilities.\n\nOne thing that helped me when I was preparing for similar interviews was using an AI tool that listens to the interview questions and suggests responses in real-time. If you're interested, I can share it with you.\n\nHang in there, this process might feel daunting, but trust that you've got the skills to shine!",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "title": "Rejected at first sight.",
+      "body": "If you have any insight to help me understand truly why I was rejected because I dont want to assume. This interview was for a smoke shop and I am of legal age. I was wearing a full length grey black stripe shirt and a pair of slight flare jeans and boots that are mostly covered by the jeans. I say that because I seriously doubt I was dressed \"inappropriately\" but I would rather ask for opinions on that instead of assuming I know what Im talking about. I clearly dont.\n\nSo i finally got an interview after being messaged by the employer/hiring manager herself through my profile. \n\nI missed the first time due to an unexpected detour made by the bus. I called the woman that reached out to me and she said I could come in the next day. She asks me all the good questions like my age my experience and seemed to be happy with my responses. However the next day when I get there at the time she told me to, a man comes out. \n\nI tell him I have an interview with [womans name] and he just asks me my name number experience and if i had criminal record(no).  I give him less than an answer I gave the woman because over the phone it was less stressful to think about how to word my answers. \n\nI didnt expect him to ask me these things so I was stressed. He says that they will give me a call. I ask him if I would be having my interview and he says that they will call to see if they will have my interview. I was frustrated and confused. \n\nI ended up asking clarifying questions like, if the woman was here explaining again I was already there for a confirmed interview with her. He says that her and him are the only ones who can interview people and she isnt here today so he would leave her the note of my info, which she already took down from yesterdays phone call.\n\nI almost asked him, if she didnt show up couldnt he interview me, but I was just really upset because I spent the last of my bus money on getting to this interview just to be turned away the second he sees me.\n\nI havent gotten a call, shocker. I wish they would just tell me what was wrong. It makes it so hard to keep going when they all do this, because if I dont know whats wrong then I dont know how to avoid this same situation. Its exhausting. Any thoughts on this? Im not affected by this situation anymore however I thought I may be able to get another perspective on here, so I am posting.\n\nEdit: Thanks, you guys, for being so helpful and insightful. I feel so much more supported and a lot less hopeless. I have another interview soon with an italian marketplace, so I will be using all of your advice to help my chances. Thank you again so much.",
+      "subreddit": "interviews",
+      "score": 13,
+      "url": "https://reddit.com/r/interviews/comments/1g66e99/rejected_at_first_sight/",
+      "comments": [
+        {
+          "body": "My guess would be that you don't have reliable transportation. You didn't make it to the original interview so they feel you won't make it to work.",
+          "score": 15
+        },
+        {
+          "body": "[deleted]",
+          "score": 26
+        },
+        {
+          "body": "If you interview for any other smoke shops, or places that are similar - make sure to ask what would be appropriate to wear to the interview. Ask about a dress code. That way you aren't making any assumptions and can be prepared as best as you can. \n\nAs a general rule of thumb, don't wear jeans to an interview. Slacks are just the way to go. You can get pretty cheap interview wear at a thrift store. From shoes, belt, top, socks - whatever. \n\nSorry this happened to you, OP. Have you been trying retail/grocery stores?",
+          "score": 5
+        },
+        {
+          "body": "Yeah there's a lot wrong here. I'd keep looking for something else. \n\nYou probably weren't rejected at first sight, but rather you were already not selected after your first shot (and miss) with the bus problem. They shouldn't have led you on, but they did. Sounds like you didn't jive with the male boss, so keep your chin up. \n\nSide note:\nThey shouldn't be asking your age (that's not a good question). They can ask if you are over 18 / 21 or whatever the position requires. That'd be a red flag for working there.",
+          "score": 7
+        },
+        {
+          "body": "That’s really frustrating, lack of clear communication makes it so much harder!",
+          "score": 3
+        },
+        {
+          "body": "Please don't give up OP. Please feel free to DM me if there's anything I can do to help. They might have just judged you for being a young person and assumed that you are irresponsible. Hence the \"how old are you\" question. Please hang in there. You have a lot to offer.",
+          "score": 3
+        },
+        {
+          "body": "I agree with those saying it’s probably the public transit that turned them off.  This sucks and isn’t fair but if they have two equal candidates and one has reliable transportation (car) and the other rides the bus, most will choose the candidate with the car.",
+          "score": 3
+        },
+        {
+          "body": "A) They should have NEVER asked you your age. The only time when an employer should have access to your age is when you've been hired and you're filling out your new hire paperwork. \n\nB) It very could have been because of your jeans. Unfortunately, regardless of the type of job, jeans are a hard no sometimes for interviews.  \nNow, if jeans are your  only option to wear, be upfront. Just tell the interviewer that due to circumstances, this is what you have available. That way they get past what you're wearing and interview you for you. \n\nC) Definitely ask the questions. Especially the why. Phrase it something like, \"I'd like to know why you are not going further with my interview process so I can better myself in the future.\" \n\nAny manger/interviewer worth their stones should have no problem telling you. If they refuse to tell you, probably not a place where you want to work anyway. \n\nGood luck!",
+          "score": 3
+        },
+        {
+          "body": "Don't wear jeans, go to the thrift store spend 10 bucks on something nice that fits you, and wear that. I can't speak for anything else that could've gone wrong but jeans are never your best foot forward for a job interview. Not being nasty just for a helpful hand.",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "title": "Should I be worried I haven’t heard back yet?",
+      "body": "Hey everyone,\n\nI started interviewing at a big payments company (think Capital One, Stripe, Visa) for a semi-dream job of mine and wanted to get some perspective. Here’s the timeline so far:\n\nWed: Applied through referral.\n\nThu: next day, invited to a screen interview.\n\nTue (following week): Had the screen.\n\nWed: next day got invited to schedule a hiring manager interview.\n\nMon: Had the interview, which went well. The interviewer said I had a great background, and I handled his questions on how the company makes money and what his practice does. There were a few terminology items about the business that I wasn't aware of (I would be officially new to payments even though I've worked on a few payments startups before) but he explained them to me. Overall he gave me positive feedback.\n\nI ran out of time for some of my questions, so I sent them in a thank-you note after the interview. He replied the next day saying it was great meeting me and “good luck on your next interviews,” which I took as a good sign that I’m moving forward as it's not like I mentioned any other places I was interviewing lol. \n\nThe only issue: I haven’t heard from HR since Monday, and now it’s Thursday evening. The next step is supposed to be a final round panel interview.\n\nShould I be worried about the silence, or is this just normal timing in the process?\n",
+      "subreddit": "interviews",
+      "score": 2,
+      "url": "https://reddit.com/r/interviews/comments/1nwivob/should_i_be_worried_i_havent_heard_back_yet/",
+      "comments": [
+        {
+          "body": "Mmm I think it could go either way right now. Did he answer your questions via email? I think you should follow up with the recruiter tomorrow morning….",
+          "score": 1
+        },
+        {
+          "body": "Interview cycle is known to be painstakingly long, in your case given that it has just been just 3 days, my advice would be to wait out this week. Put a gentle follow up coming Monday if you haven't heard back until then. Goodluck and best wishes for your final round.",
+          "score": 1
+        },
+        {
+          "body": "Hang tight.  Give it until next Friday and if you haven’t heard anything time to write them off",
+          "score": 1
+        },
+        {
+          "body": "They're probably interviewing someone else, or comparing you to other candidates they've already interviewed. I'd say hope for the best, but prepare for the worst. If they really wanted you bad, it never takes more than a day after a hiring manager interview to give you an update. (Panel interview decisions take longer because of the number of people involved and getting consensus; the hiring manager is one person, and they usually need to get back to HR in 24-48 hours about their decision).",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Do companies really still require degrees for Account Management roles?",
+      "body": "I had an HR interview call today with Ford Motors for the **Manager, Customer Success** role. The HR specialist told me Ford doesn’t hire positions in management without a completed bachelor’s degree.\n\nHere’s the thing:\n\n* I completed **four years of university**, but due to COVID disruptions I wasn’t able to finish my last four courses, so I don’t have the official certificate.\n* I have **9+ years of professional experience** in SaaS, Customer Success, and Technical Account Management — managing multimillion-dollar accounts, driving adoption, and leading retention strategies.\n* I’ve also interviewed at **Google, Affirm, Stripe, and other Fortune 500 companies** and never once ran into this kind of strict degree requirement. They focused on my skills and experience, not whether I checked a box.\n\nIt honestly feels outdated to hold onto such rigid rules, especially in Customer Success where proven results, leadership, and adaptability matter far more than a diploma. By filtering people out this way, Ford could be missing out on highly qualified talent.\n\nCurious if anyone else has run into this at Ford or other companies and did you push back, or just move on to places that value experience over credentials?",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1n8j5rb/do_companies_really_still_require_degrees_for/",
+      "comments": []
+    },
+    {
+      "title": "What to wear to an interview? ",
+      "body": "I have a striped long sleeve button down purple shirt and that’s all I have. Is it suitable for an interview? I’ve heard that you should opt for a plain coloured shirt? ",
+      "subreddit": "interviews",
+      "score": 2,
+      "url": "https://reddit.com/r/interviews/comments/1goxf4m/what_to_wear_to_an_interview/",
+      "comments": [
+        {
+          "body": "Apple bottom jeans and boots with the fur.",
+          "score": 1
+        },
+        {
+          "body": "Are you male or female? I only ask to tell you what to pair it with. A black skirt or slacks would be great with black shoes. I think if you keep everything else simple, the purple striped shirt will be great.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Another rejection to the pile",
+      "body": "Hi all, just wanted to share my miserable journey about job hunting.\n\n  \nCurrently I am a Software Engineer that tried to get a decent company especially in the UK.\n\nI have 7 years of experience as a Software Engineer and tried for the last 3-4 years seriously.\n\nI do Leetcode (+750 questions) I used my referral opportunities, I only achieved to get a shitty offer from Microsoft and a couple mid range companies. They always tried to lowball me as their offer were all shit, kind of junior positions. I interviewed with a couple and I got the last rejection mail after finishing all the onsite loop  with Stripe today which just wrecked me as I really, really, really wanted that job  I am 33 years old, living in a Europe country with negative net worth. No friends, family, nothing... I used to really enjoy eating good, sleeping well and staying active with gym, running and stuff but I don't even drink water right now, I gained weight and all my efforts are wasted, all the joy in life is gone now but whatever... That's my short but full of failures summary of my life... Looks like I am completely useless and very, very bad engineer or developer whatever it is called nowadays. Thanks for reading. ",
+      "subreddit": "interviews",
+      "score": 2,
+      "url": "https://reddit.com/r/interviews/comments/1lx4gvj/another_rejection_to_the_pile/",
+      "comments": []
+    },
+    {
+      "title": "Broken suit for a sales interview",
+      "body": "I really need someone’s help. I have a job interview in a week for a sales position. A friend of mine who already works there said he just wore a shirt tie and slacks but the boss said to him later that he probably should of wore a jacket. He still got the job. Now I’m trying for the same position but I have all I have is a greyish silver suit with a mating vest but the jacket is navy blue. The tie is a mix stripe of navy and silver to incorporate all the components. It looks really good but do you think I would get away with wearing a broken suit for this position? Any feedback would be extremely helpful.",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/rxot4l/broken_suit_for_a_sales_interview/",
+      "comments": []
+    }
+  ]
+}

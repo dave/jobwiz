@@ -1,0 +1,655 @@
+{
+  "company": "nike",
+  "post_count": 33,
+  "exported_at": "2026-01-18T17:44:53.292Z",
+  "posts": [
+    {
+      "title": "Stay in Toronto or go to the states?",
+      "body": "My situation,\n\nI have a bit less than 2 years experience as a software engineer in Toronto. I have release an iOS app for the first company I worked for, but most of my experience is with frontend dev using react / js and doing some DevOps responsibilities like creating ci pipelines, automating unit/e2e tests, and promoting builds to prod environments\n\nMy total set of skills are react, JavaScript, Jenkins, Google cloud platform, kubernetes, docker and, go lang (for backend). \n\nOn my free time I try to keep up with the latest news and try out tech that my job doesn't offer like graphql and react hooks. I also try to contribute to open source projects that I like with not so great results but it is nice to see how people more experienced than me code. \n\nAt my current role I am making 70 k and have options in a very early stage start up that might not be worth anything depending on where we end up. My stocks start to vest in September. \n\nI recently was contacted by a recruiter in the states for a contract opportunity in Portland OR at Nike hq which she estimates I can get 50/hr which equals ~100k per year. If I convert to CAD that's about 130 k, almost double what I am getting now. \n\nI think I am getting underpaid as I felt my worth was not as high due to graduating from a bootcamp. If I was more patient I might have been able to find something that paid more. The biggest draw for my current role was the learning opportunity as I really wanted to learn more about security, reliability, k8s docker and gcp from experienced senior devs. \n\nAfter half a year though, I feel like I am ready to upgrade to something that pays more. Living in Toronto isn't cheap and this salary can get me at most a 350 k mortgage if you don't factor in maintenance and property taxes. That can barely get a studio downtown.  \n\nBefore advancing with the Nike job, I wanted to see with this subreddit what someone with my experience could get in Toronto. I've seen some posts about senior devs only getting the low 100s which seems pretty disgusting considering the cost of living is so high here.\n\nI am actively looking /interviewing but wanted to see what people here have to say so I have a bit more of a baseline to work with. ",
+      "subreddit": "cscareerquestions",
+      "score": 22,
+      "url": "https://reddit.com/r/cscareerquestions/comments/au9chn/stay_in_toronto_or_go_to_the_states/",
+      "comments": [
+        {
+          "body": "Financially speaking - move to US is always the right answer.\n\nFor those who choose not to (including myself), it's despite knowing I won't make as much - but there are other personal reasons beyond money.",
+          "score": 37
+        },
+        {
+          "body": "I feel like you’re being severely underpaid, even considering Toronto’s relatively low wages. Myself and a friend of mine are both making $60k/yr in our Toronto internships, despite us having zero prior industry experience. You should be making *at least* $80k, IMO. \n\nHave you looked around for other jobs in the GTA to get an idea of your value? Also, have you gotten any raises over your two years at the current employer?",
+          "score": 11
+        },
+        {
+          "body": "\\&gt; I think I am getting underpaid as I felt my worth was not as high due to graduating from a bootcamp. \n\n&amp;#x200B;\n\nIf I am interpreting this correctly, you do not posses a CS or CS related degree? I don't know the laws 100% but I would imagine you are going to have a difficult time obtaining a visa without a proper degree. I could be wrong here, but I know several friends who have forewarned about this. If its at a FAANG place it might be different. I would do your homework on this.",
+          "score": 8
+        },
+        {
+          "body": "It's a contract so you need to take into consideration whether you'll need to pay more taxes depending on what kind of contract it is.",
+          "score": 4
+        },
+        {
+          "body": "&gt;I have a bit less than 2 years experience as a software engineer \\[...\\] Living in Toronto isn't cheap and this salary can get me at most a 350 k  mortgage if you don't factor in maintenance and property taxes. That  can barely get a studio downtown.\n\nMost devs living in places like NYC or San Francisco are not buying condos downtown, either, with less than 2 years of work experience.\n\nI mention NYC and SF specifically because I think it's only fair to compare the largest and one of the most expensive cities in Canada to the largest and some of the most expensive cities in the US.\n\nYou can't compare Toronto salary to CoL ratio to Portland. It's apples to oranges.",
+          "score": 4
+        },
+        {
+          "body": "[deleted]",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Just received my second SWE offer out of university with Boeing, but its to relocate from Oregon to Jacksonville, Florida for $70k. Is it worth it?",
+      "body": "I graduated with my BS in CS and 3 years of Software Engineering Internship experience, and also was involved with great projects and capstones, some of which has helped saved thousands of dollars. \n\nI have lived in Portland, Oregon all my life. My family and friends, my community, they are all here. I have been looking for an adventure and move for a while, but I just don't know if the offer is worth it. \n\nI have been interviewing with other companies in the Pacific Northwest (PNW) and some offered more than $80k, but I failed the coding interviews and since then have been getting much better. \n\nThe offer Boeing gave me was $71k + an unknown relocation package and they only gave me until next week on Monday to decide if I would accept the offer. They have one other person who is slightly less qualified than I am. \n\nWould anyone shed some wise advice for me?\n\nEDIT: I have the Boeing offer for 71k plus all relocation package and another offer in Portland for 96.5k (which according to bestplaces.net is worth about 68k in Jacksonville. \n\nhttps://www.bestplaces.net/cost-of-living/portland-or/jacksonville-fl/96000",
+      "subreddit": "cscareerquestions",
+      "score": 7,
+      "url": "https://reddit.com/r/cscareerquestions/comments/ih42qo/just_received_my_second_swe_offer_out_of/",
+      "comments": [
+        {
+          "body": "Jacksonville is not an adventure. It is a watertrash town full of watertrash people. The CoL is low there for a reason.\n\nThat said it's a pretty good offer, and it doesn't sound like you have a lot of other options, so wear DEET and a mask and a condom and may God have mercy on your Soul.",
+          "score": 24
+        },
+        {
+          "body": "4 days to decide on an offer is not unusual.\n\nFlorida is fun in its own way, although I prefer Orlando / Tampa to Jacksonville.  Boeing is a good company overall, though like every huge company, it depends a lot on the specific location and project, and I can't speak for that.\n\nGetting a couple years in at defense isn't throwaway experience, no matter what.  You can always fall back on that, and it's a good name to have on your resume (at least if you stick it out for a few years).\n\nI would consider taking it.  (My brother lives in Portland, so I understand the change in climate, physical and otherwise.)",
+          "score": 8
+        },
+        {
+          "body": "You don't mention your experience level, your skillset, your college, whatever.  But if you are a newbie, I wouldn't turn down a good opportunity in the worst new grad job market in decades.",
+          "score": 5
+        },
+        {
+          "body": "Jacksonville FL for 70k sounds like a fair offer to me",
+          "score": 5
+        },
+        {
+          "body": "Hmmm two different animals  JAX vs Oregon.   \n\nJax gets about 3 seasons\n\nPay is good for Jax and there is no state taxes but the people down that way is ugh\n\nOnly plus I see out of this is Boeing is a solid company that will look good on your resume.  Maybe you can transfer right back out after 2 yrs . lol \n\nJax tech scene for jobs suck as it does for florida as a whole.   If you get laid off you will need to relocate to another state for a better tech jobs as the wages there suck bad.    I usually a glut of low paid IT tech workers in FL",
+          "score": 3
+        },
+        {
+          "body": "You said this is your second offer. What does your first offer look like?",
+          "score": 2
+        },
+        {
+          "body": "What were the job duties of this role? C++?",
+          "score": 2
+        },
+        {
+          "body": "$70k seems like a pretty damned good offer for an entry level job. Median home price in Jacksonville, FL is 180k. That’s just crazy. You can probably afford to buy your first home in 2 years in Florida. It’s an adventure.",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "title": "How should I prepare for a code review?",
+      "body": "Hello all, I have a final interview for a software dev 1 job in a few days, and part of it will be a code review of a take-home assessment I completed. I'm going to be meeting with a retired family friend who used to be part of the hiring process at Nike tomorrow to prep for the HR/soft skills interviews, but I'm wondering how best to prepare for the code review.\n\nBased on some googling, here's what I've come up with so far:\n\n* Design choices (Why this way? Other ways? Changes to add new features? How testable is it?)\n\n* Error/exit conditions, how you're handling them\n\n* What would you do differently?\n\n* Where'd you get stuck?\n\n\nIs there anything I'm missing? I really want to smash this interview, since I'm fairly confident based on how the process has gone so far that I'm one of the top candidates.\n\nThanks!",
+      "subreddit": "cscareerquestions",
+      "score": 2,
+      "url": "https://reddit.com/r/cscareerquestions/comments/v52s59/how_should_i_prepare_for_a_code_review/",
+      "comments": [
+        {
+          "body": "Good questions sometimes are better than answers.\nTry to prepare some questions that give you more scope of the requirements, and demonstrate that you know how to ask critical questions.",
+          "score": 7
+        },
+        {
+          "body": "I used to review a fair amount of code samples for candidates. I looked for the ability to hit requirements and deliberate decision-making. I'm particularly interested in how you solve certain problems in the context of a worksample vs how you'd solve it in real life. Extensibility is another important quality - where do you anticipate complexity in the future and such.\n\nIf you're a few years into your career, design patterns become important. For example, I'd want to see something like 3 tier architecture for moderately complex systems, dependency injection, the repository pattern, etc. where they make sense.\n\nAnd then there's the typical stuff like consistent code styling and following of standard conventions.",
+          "score": 5
+        },
+        {
+          "body": "Preemptively call attention to things that you could have done differently.  “Ideally I would have done X instead of Y, but it would have taken Z amount of time which might have been too much for this exercise.  I find it’s better to get an MVP into production and iterate on it than to spend too much time optimizing up-front.”  \n\nThey would have already noticed that sort of thing and may or may not have given you the benefit of the doubt.  Calling it out makes sure they know you thought of it, that you know how to prioritize, and that you can communicate.",
+          "score": 3
+        },
+        {
+          "body": "Look for obvious secure coding violations. Testability is a good one. Functions have to be short and do one thing. Not sure about design choices though. Code review stage is too late possibly to go back and redo again. Inefficient implementation is probably what you need to look for. And readability is important.  Comments only where necessary.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Nike Internship",
+      "body": "Hello, I have an interview with Nike next Wednesday. I was just wondering if anyone has interviewed with them and can tell me what to expect? They don't seem to be heavily involved in technology and I just want to know if this is more like a behavioral interview or if they do have a technical portion, if its leetcode coding type questions or general knowledge about stuff like OOP, Web technologies, etc.\n\nThanks",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/jjae6q/nike_internship/",
+      "comments": [
+        {
+          "body": "I interviewed this season for Nike and I'm waiting on results. I believe it was OA -&gt; Behavioral phone screen -&gt; Swoosh Day case study -&gt; Behavioral/Technical final round. Not a single Leetcode question outside of the initial OA; final round technical was more related to technologies I was familiar with.",
+          "score": 7
+        },
+        {
+          "body": "Have you had an initial interview? If not, expect some behavioral questions in there. If the hiring manager sent you a calendar invite, check the length of the meeting. If it’s 15-30 min, odds are high it’s just a behavioral interview, with maybe a couple of general knowledge developer questions sprinkled in. If it’s longer than that, there will probably be a technical portion to it.",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "title": "RSM vs Manhattan Associates",
+      "body": "I need help deciding between two job offers. 1) RSM and 2) Manhattan Associates\n\nBoth have offered essentially the same pay. What I'm really trying to figure out is which company is better and provides the better opportunity for me. \n\n&amp;#x200B;\n\nFor RSM I would be working in their ERP sector. They primarily have foot in the middle market but working in ERP i would get to work on various modules/systems (ie finance/accounting, supply chain, sales, purchase, etc). So the experience would be beneficial i suppose, except their clients aren't as well known.\n\n&amp;#x200B;\n\nManhattan I would be working as a software consultant in their Professional Services Organization (PSO). I would specifically get to work with systems in regards to supply chain management (can deal with warehouse mgmt, order mgmt, inventory, customer mgmt etc). Their clients include high end retailers like Nike, Adidas, Nordstrom Rack, etc. So I really like their client list, but dont want my role to become too niched. Especially as I'm graduating college so I'll just now be starting my career, but at the same time supply chain management is booming right now. One thing that bothers me is that they aren't as well known when talking to people about the company if they aren't already familiar with the name, so I dont want this to hinder me when looking for other career opportunities in the future. \n\n&amp;#x200B;\n\nSo what my question comes down to is two things: 1) is the client list important when deciding 2) which role is a better opportunity (experience wise and company recognition wise)\n\n&amp;#x200B;\n\nPLS HELP!!! Thanks in advance!",
+      "subreddit": "cscareerquestions",
+      "score": 7,
+      "url": "https://reddit.com/r/cscareerquestions/comments/b1gd9v/rsm_vs_manhattan_associates/",
+      "comments": [
+        {
+          "body": "Is the RSM offer client facing or is it for internal? Your experience is going to differ a lot depending on what side you're working at RSM. Also, what office would you primarily be working out of, The NYC Office?",
+          "score": 3
+        },
+        {
+          "body": "What did Manhattan associates offer? I had an interview with them for that role but I declined it",
+          "score": 1
+        },
+        {
+          "body": "Which offer did you take? Lol.. just for curiosity i am asking",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Nike vs John Deere internship?",
+      "body": "I'm debating between two internship offers and would appreciate any advice! Pay is roughly the same (+/- 1000 over the course of the summer) to the point I don't think it's important compared to other aspects of consideration, namely experience and future prospects, but FWIW Nike is more.\n\n&amp;#x200B;\n\nSome background: I am a Mechanical Engineering major with a Computer Science minor, with previous ME internship experience, this summer hoping to get my first chops in the CS industry. I very strongly *don't* want to work on anything Mechanical Engineering-related because I have enough ME stuff on the resume for now, and desperately want experience in CS.\n\n&amp;#x200B;\n\n**Nike**\n\n* Portland, OR\n* Won't know what team I am on until right before I start--interns are apparently matched in April\n   * Internship program is technically the Global Technology Internship and encompasses everything from this list...  \n\"Software Engineer, iOS Development, Android Developer, React Developer, Software QA Engineering, Mobile App Release Coordinating, Mobile App QA Specialist, RFID Software Engineer,  Site Reliability Engineer, Full Stack Developer, Cloud Security, Machine Learning, Analytics &amp; Reporting, Augmented Reality Product Developer\"  \n...it sounds like they place you based on where your resume would be the strongest fit, and since my resume reads ME-heavy at the moment, I am concerned I will be put far away from pure CS positions and pigeonholed into something ME-related. I have reached out to the recruiter and it seems I have little to no say in my own placement unfortunately.\n* From what I have heard, better company culture\n* Potentially a better-known name with tech companies?\n\n&amp;#x200B;\n\n**John Deere**\n\n* Very small town on Iowa/Illinois border\n   * Devil's advocate: I am a West Coast city kid, so this could be a good cultural experience for me to have\n* I already know I will be working in CS doing cool things I am definitely interested in\n* From what I have heard, bad company culture\n   * I am LGBTQ+ and John Deere has ranked among the worst US companies for LGBTQ+ rights\n* Although they do a lot of cool stuff in self-driving technology and computer vision, potentially less respected in Silicon Valley\n\n&amp;#x200B;\n\nI would really appreciate any advice or experience with either of these internship programs. Thank you!",
+      "subreddit": "cscareerquestions",
+      "score": 3,
+      "url": "https://reddit.com/r/cscareerquestions/comments/dzfuzp/nike_vs_john_deere_internship/",
+      "comments": [
+        {
+          "body": "I'd take Nike between these two. Neither are well known/prestigious as tech firms, but Nike is probably more recognizable as a company in general. \n\nIt's really six of one/half a dozen of the other but I'd choose Portland over Iowa 10 times out of 10 and I don't even like Portland.",
+          "score": 15
+        },
+        {
+          "body": "Portland, it’s a cool area and it would suck to end up in a toxic work environment in Iowa.",
+          "score": 2
+        },
+        {
+          "body": "Congrats on the offers. I previously worked for John Deere. It's an okay place. I think it's fairly known in the tech industry, and when it comes to software engineering, acing interviews is really what matters. You might be able to save a bit more in Iowa or Illinois. I assume it's either Moline IL or Dubuque IA.  Since you know what you'll be doing at Deere and it sounds interesting to you I'd seriously consider it. You'll have a story to tell potential future employers. I think for just 3 months you'll probably be fine in terms of your LGBTQ+ concerns.",
+          "score": 2
+        },
+        {
+          "body": "I'm currently interviewing for the Global Tech internship at Nike, my final interview is coming up next week? Any advice on the interview? What kind of interview was it/what was asked?",
+          "score": 2
+        },
+        {
+          "body": "I'd agree that the biggest thing here is staying in a location where you can still network. Iowa's tech scene is small.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Nike Internship",
+      "body": "Anyone have any insight on interning at Nike and their recruiting process? I just applied and I am very intrigued on what it's like to work in tech there. ",
+      "subreddit": "cscareerquestions",
+      "score": 3,
+      "url": "https://reddit.com/r/cscareerquestions/comments/9pexcv/nike_internship/",
+      "comments": [
+        {
+          "body": "I had one on campus interview and got rejected two weeks later. All behavioral/background questions especially about Nike culture. Good luck! Wear Nike stuff to the interview ",
+          "score": 8
+        },
+        {
+          "body": "JUST DO IT ",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Weirdest thing I ever been told",
+      "body": "I got a interview at Nike, and they told me something no one ever told me before. So at the end of a interview , she said do you have any questions I said yes,I asked them about the pay and the work culture, then she was like alright will contact you and then the other interviewer (I was being interviewed by 2 people but only one was asking questions and the other one said this at the end of the interview) “so Nike, lulumeon, all other brands of Israeli franchise” and I am an Arab so my heart sunk, I was like the interview was going so well, why would they make it about Israel? so I’m not accepting the job ofc even if I got the chance but like why would you make a athletic brand about politics? Especially at this city where no one like Israel, You guys think they’re talking about the boycott? And have anyone had a thing similar?",
+      "subreddit": "jobs",
+      "score": 5,
+      "url": "https://reddit.com/r/jobs/comments/1d7b6s8/weirdest_thing_i_ever_been_told/",
+      "comments": [
+        {
+          "body": "It’s clearly just not compatible on either side. \n\nI’n surprised they felt the need to mention they’re an Israeli franchise but they might’ve had people ‘who look like you’…. quit or have had people quitting recently because of boycotts so are making it clear. So they’re letting you know without asking you if you’re Arab or where you stand politically. \n\nThe ethics of all of this is jiyredfhiy but I’d just move on if I was you. \n\nYou said yourself you no longer want the job, so clearly it worked.\n\nEdit: Most (big) companies have ties/funding to/from countries or histories/origins in/with slavery, child labour, exploitation etc etc., \n\nYou’ll honestly really struggle finding a job where the company or CEO align completely with yourself. It’s your decision regardless to work there or not but that’s monopolies for you.",
+          "score": 21
+        },
+        {
+          "body": "Are you new to this world? Politics heavily influence big companies. If companies or even individuals in a company dont toe the political line, they get destroyed financially and personally. You must stand back and see who most big companies support right now, and you will find out where the money is coming from.",
+          "score": 30
+        },
+        {
+          "body": "Don’t play politics or religion at work.  Work, do job.",
+          "score": 11
+        },
+        {
+          "body": "Nike is not a franchise of Israel. But the company handling European franchises may be an Isreali company. What location did you apply?",
+          "score": 5
+        },
+        {
+          "body": "&gt; so I’m not accepting the job ofc even if I got the chance \n\nIf this info was important to you deciding whether to take the job or not, then maybe it was good that it got brought up early? Rather than you find out 5 days into the job and have to quit.",
+          "score": 4
+        },
+        {
+          "body": "I've rejected a company mid-process over its Israel ties. I've rejected a candidate over my perception of their politics. I don't want to work with turds. I can't really fault them for doing the same 🤷🏽‍♂️. At least in the states, we've decided that that is our right—we have civil rights protections for race, gender, etc. but not for political background.\n\nOTOH, it's prejudiced to assume you have feelings about the issue based on your ethnicity if that was what they were doing, but it's hard to tell tbh.",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "title": "nike hirevue...",
+      "body": "i have a hirevue interview with nike coming up and i've heard i should wear their clothing to impress, however i only have gym clothes from nike and i think that might look weird to wear in an interview. ihave nike shoes but i'm not sure how to show that off.",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/1iv1dl3/nike_hirevue/",
+      "comments": []
+    },
+    {
+      "title": "Application Support career question",
+      "body": "Hello All,\n\nSo i graduated about 1 year ago and currently working at a well known Software Firm. I took this job because i interned here as well and loved the work environment. I want to move into consulting and this software firms had big clients like Walmart, Nike, Bestbuy and bunch of others. It gave me opportunity to help improve my communication skills alot. I dont see my self being a developer because i don't enjoy coding 5 to 6 hours everyday. I also do some Dev-Ops work when required. I also had 3 interns each term which i had to train since most of team is located in other cities. It gave me the chance to create training materials and etc. \n\nI want to go into consulting. This was always my goal but i went to an unkown university for Information Technology and graduated  with GPA of 2. I know i am doomed for consulting. The low gpa was due to me working 40+ hours and doing full time school due to personal reasons and not trying to use this as an excuse for bad grades. \n\nI am good with interviews and my technical knowledge is good too.After graduation i did have 1 interview at a well known consultancy firm and did great on interviews but was told my low grades are deal breakers.\n\nI had 3 other offers as well and took the most paying job. I am now looking to move up from application support. I prefer customer facing or business roles. Do you guys have any suggestion on what kind of position i should look for? Is 1 year experience enough for consultancy firms to overlook my bad GPA?\n\nThanks!",
+      "subreddit": "cscareerquestions",
+      "score": 2,
+      "url": "https://reddit.com/r/cscareerquestions/comments/5yq2dd/application_support_career_question/",
+      "comments": []
+    },
+    {
+      "title": "Nike Intern/Full-Time Software Development Thoughts?",
+      "body": "Hello everybody, \n\nI have an upcoming interview with Nike, specifically for the Beaverton/Portland area, and would like to hear some feedback because there are not many reviews about this role on glassdoor. Pros and cons? Thanks! ",
+      "subreddit": "cscareerquestions",
+      "score": 1,
+      "url": "https://reddit.com/r/cscareerquestions/comments/4509me/nike_internfulltime_software_development_thoughts/",
+      "comments": []
+    },
+    {
+      "title": "Help for Nike interview",
+      "body": "I have an interview for Nike as a sales assistant (athlete) on Sunday, I need to know what to expect and any tips for my interview \nThanks",
+      "subreddit": "jobs",
+      "score": 4,
+      "url": "https://reddit.com/r/jobs/comments/48lou7/help_for_nike_interview/",
+      "comments": [
+        {
+          "body": "Just do it. ",
+          "score": 4
+        },
+        {
+          "body": "Research the shit out of the company, also go to a another nike store and see how they sell stuff, buy a pair of sneakers, ( you can return them in a week or so if need be) and see how everything works, oh and do not ware new balance to the interview, good luck. ",
+          "score": 2
+        },
+        {
+          "body": "Adding to what Seth07090 said, I would recommend - go to at least 3 or 4 stores. Cuz, who knows, the one you visit may be an unrepresentative example :P\n\nAlso, you should be clear about what your responsibilities would be. They may have been advertised before the interview (for example, in a job description) - otherwise, ask somebody in a similar position (if you know anybody who is a or was a sales assistant in the past) or look up a general description (search on google for sales assistant job description).\n\nThis way, at the time of the interview, you can confirm what is expected of you and/or ask for details. Be aware that you should do this at the end of the interview, as these responsibilities may come up before... each interviewer has a different style, so I can't give you pointers, but generally you don't want to interrupt the interviewer when he's doing your job. That being said, initiative is oftentimes valued more than any other thing... especially in sales ;)\n\nBe aware, that if you want to step up and become a sales representative (or whatever is the step above sales assistant), you should also look into that specific job description - and decide if you have what it takes. If you do, mention this to the interviewer and ask him what are the conditions (skills, results, and minimum time as a sales assistant, especially if it's your first job... should take between 3 and 6 months) for such a promotion.\n\nOnce again, motivation is the key. Posting the question on reddit shows motivation. I would say you are on the right track. Good luck! And maybe tell us about how the interview went :)",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Nike Interview Attire",
+      "body": "I have an interview at Nike tmrw as a sales associate. I’m a bit confused about what to wear. should I go button up or dress shirt or dress it down a bit with Nike shoes. Please help",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/hvezok/nike_interview_attire/",
+      "comments": [
+        {
+          "body": "Suit and tie is never a bad choice. Regardless of your attire, do not, I repeat do not, wear athletic sneakers. Wear dress shoes.",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Nike Golf Interview Question",
+      "body": "I have a group interview Friday for a Market Operations Specialist with Nike Golf and i cannot decide what to wear! I have received several opinions. Full suit, Nike golf polo with Nike running Shoes and business casual. Full suit with Nike Shoes? This is literally my dream career so i want to make sure i do everything i can to get it. Any tips would be great. Also if anyone has been to a Nike Group interview/informational meeting and has any insight that would be great.\n\n&amp;#x200B;\n\nThanks ",
+      "subreddit": "jobs",
+      "score": 2,
+      "url": "https://reddit.com/r/jobs/comments/a5m8pj/nike_golf_interview_question/",
+      "comments": [
+        {
+          "body": "what did you wear? How did it compare to others?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Nike Interview",
+      "body": "I've got a group interview at Nike on Friday and I'm super nervous as I really want the job but have never really had a group interview before.  Does anyone have advise ? I was told that I'd have to stand up and pretty much sell myself to the rest of the group and employees, so how should I approach it and what should I say? Any feedback would be amazing as im super excited at even having the small chance of possibly getting this job :) I'm also super confused on what to wear !",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/5pwjfr/nike_interview/",
+      "comments": [
+        {
+          "body": "Wear some Adidas trackies with lonsdale trainers, sorted b0ss 😉\n",
+          "score": 2
+        },
+        {
+          "body": "What is the position you are applying for?",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "How do people get jobs at super well-known companies?",
+      "body": "In my career I’ve only had any success getting interviews/hired at very small companies that are somewhat “unknown” outside of their industry. I’m currently searching for a new role in a major US city that has flagship offices for several companies that the average person knows exactly what they do or sell I.e. Nike, Square, Capital One (not these specifically but similar).\n\nThere’s no doubt that they are getting hundreds of applicants for any single job opening. I feel as though I meet the criteria on the job description but have learned that it’s basically a lottery ticket chance to be selected for an interview. I’ve also contacted several employees of these companies on LinkedIn and sent them emails if I could - all with no responses.\n\nSo I ask again, for anyone that works at a well known company, how did you get there?",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/1ft2kt9/how_do_people_get_jobs_at_super_wellknown/",
+      "comments": [
+        {
+          "body": "You identify the target companies, and then visit each of their career pages where they list job openings... Bookmark these pages into a specific \"Job Hunting,\" folder. Don't limit it to companies that have nearby offices... Include companies that hire nationally.\n\nThen visit these specific companies' career pages weekly, and apply to those jobs. It won't happen overnight, but with enough perseverance, you WILL get one of those jobs.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Former AT&amp;T &amp; Nike (former) employees.. ",
+      "body": "Please weigh in about the real pros and cons of each job if you have ever worked at either company. I received a job offer and a start date with Nike (sales associate) but I’m still waiting for the second interview at AT&amp;T (sales consultant). Both have the same starting pay but in hopes of getting the offer with AT&amp;T I would love some insight of current and former employees. Either position would be a second job for me. tia ",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/1eahwc7/former_att_nike_former_employees/",
+      "comments": [
+        {
+          "body": "Att employee here! It’s a good job, good perks unionized. There’s ALOT of pressure to sale, it all depends on your area. You could be selling multiple things from phones - to internet. There’s a lot of expectations to be met. I’ve been with the company for a couple of years now my store is generally slow so most of my work days aren’t that busy, but still they are pressures to meet expectations on things like First responder service, business, tv etc, it can be a bit overwhelming depending on management. But you get PTO, sick time, bonus rewards, insurance. If you any specific questions let me know I can try to answer to the best of my abilities",
+          "score": 1
+        },
+        {
+          "body": "i manage an authorized retail at&amp;t location and started as a rep… i love it here truthfully! so many benifits and it is stressful and a very fast paced environment but that’s perfect for me!! we’re also able to see all our stats of sales, reviews, store ranking, commission estimates for the month…. also if you do go with at&amp;t it’s all about networking!! i swear i’ve gotten so many opportunities at this company just based on building a one on one with all my peers and higher ups! and always remember its work not a social life ya know",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "It took sixteen months",
+      "body": "571 resumes\n\n24 interviews with 13 companies - I work in marketing with a retail focus\n\nI am so lucky that my parents have a spare bedroom, that I had 2 years of financial cushion (so I could get out of my house and go snowboarding, play golf, go camping, eat out and get away from my parents - who I love but do not want to live with as a middle aged dude)\n\nI would have employed a resume and/or job coach but I was getting interviews with the exact companies I wanted to work for (Nike, Apple, Samsung, Foot Locker, Disney) so I felt like I was getting somewhere. \n\nI went through cycles of lots of interviews (6 in two weeks in January!) and lots and lots and lots of just empty months. \n\nI’m super lucky this job popped up that fit my niche and my experience.\n\nI want to say “don’t give up” but man I was so close to just getting on a plane to Thailand and/or Mexico and making my two years of money last for like five on a beach. If this didn’t come through I was going to go walk the Muir Trail for a month or something. It was so disheartening - and this specific job got my experience so well I don’t know what I would have done if I didn’t get it.",
+      "subreddit": "jobs",
+      "score": 27,
+      "url": "https://reddit.com/r/jobs/comments/1539dpz/it_took_sixteen_months/",
+      "comments": [
+        {
+          "body": "[deleted]",
+          "score": 5
+        },
+        {
+          "body": "Congrats, OP. It’s good you found something. Anything over 12 months is getting in the danger zone",
+          "score": 3
+        },
+        {
+          "body": "Congrats! Real marketing jobs are tough to come by. Marketing degree = sales for most people.",
+          "score": 5
+        },
+        {
+          "body": "Congrats my guy! I’m glad it worked out for you!",
+          "score": 3
+        },
+        {
+          "body": "Congrats!!",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Job Hunting LifeHack - Put any experience you want on your resume and pass the background check",
+      "body": "I've seen a lot of people struggle with interviews because they lack a certain amount of experience in their field. I used to struggle as well with this, until I realized that most people who get the good jobs are lying, in some regard about their past. \n\nI've found a loophole that will pass anyone's background check - you can claim you were XYZ at any corporation, and it is impossible to disprove (well, 85% impossible). \n\n The trick here is that for large companies (and smaller firms as well), a large majority of these companies’ hiring goes through staffing agencies. For example, I worked at Nike, and almost 90% of the IT department were contracted through firms such as Wipro. In these cases, although you worked at Nike, Nike’s HR department has essentially no record of your employment, does not have pay stubs, is not aware of your pay rate, and would have to do research themselves to determine your dates of employment. The only people at the company that could verify your employment is your direct supervisor (and a checker would not be able to figure out who that would be without your reference), and IT security - who will never answer a background check request (it would comprise the company’s security). \n\nKnowing all this, most background checks instead ask your staffing agency (in the above example, Wipro) for your information. \n\nTherefore, to establish new employment history on your resume, all you need to do is to have a **legitimate looking** **staffing agency** verify your dates of employment, on behalf of a Fortune 500 or *whatever* company.\n\nSo, you just need to setup a staffing agency website, a corporate switchboard (can use through Vonage or related VOIP services), and an email - and voila - you can get yourself verified for any job title going forwarded. \"I worked for IBM, but it was through this staffing agency - check with them for dates.\" \n\nAlternatively, I have a staffing agency that has been in business since 2016, and I'm happy to help job seekers for a small fee. But you should be able to do this yourself!\n\n ",
+      "subreddit": "jobs",
+      "score": 6,
+      "url": "https://reddit.com/r/jobs/comments/1ap3pzk/job_hunting_lifehack_put_any_experience_you_want/",
+      "comments": [
+        {
+          "body": "Yes, you do seem trustworthy based on this post....",
+          "score": 2
+        },
+        {
+          "body": "!remindme 7 days",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Dress Code",
+      "body": "I got hired at a job and when I interviewed, I (woman) wore dress pants and a blazer. The company does not dress like this. Some wear jeans, some wear those sport/trouser pants (man) and Nike polos, etc. When I start, do I switch to what the office was wearing? And how low can I go, jeans and sweater, etc? TY",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/1bi9sbi/dress_code/",
+      "comments": [
+        {
+          "body": "I would dress a little dressier the first day and then adjust from there. Perhaps on your first day you can read the employee handbook section on dress code.",
+          "score": 3
+        },
+        {
+          "body": "My workplace is very casual but I choose to have dress pants and a nice polo. It helps me to be in the mindset of work when I’m there.",
+          "score": 3
+        },
+        {
+          "body": "The company I work for has a dress policy of “Dress for the Day” where nice jeans and a top are allowed in the office but if we are visiting a client then business casual is required.  Dress how you are comfortable based off of the company dress code.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "thank you notes question",
+      "body": "I’m 19 and had 2 interviews today.  They were for Nike and another company.  Do I have to send a thank you email back? \n\nI only have access to the recruiters email who selected me to get interviewed by the manager.    I don’t have the emails of the managers who actually interviewed me.  This applies to both Nike and the other company.\n\nWhat do you guys recommend?\n\nThank you :)",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/19csmm5/thank_you_notes_question/",
+      "comments": [
+        {
+          "body": "ask the recruiter the emails of the people who interviewed you and def send a thank you email.  hiring managers care about this!",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Best EU Rotational Graduate Programs/Schemes",
+      "body": "Hi everyone!\n\nI have recently graduated from my Master’s Degree and completed an internship in Supply Chain at Nike. Now I feel that I have a good-enough resume to undertake a bigger step. I also see that recruiters are increasingly inviting me for interviews (which was not the case beforehand). \n\nI don’t want to specialise on a field just yet and I’m therefore looking for a Business Graduate Program with International rotations, possibly overseas. Ideal starting date would be between June and September 2024. I have already applied for Novo Nordisk and a few other consulting positions.\n\nAny advice on good Grad Schemes? Thank you!",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/1acfamp/best_eu_rotational_graduate_programsschemes/",
+      "comments": []
+    },
+    {
+      "title": "Nike HireVue Process",
+      "body": "So Nike is opening a new store in my city so I decided to apply. Shortly after applying I received an invite for a HireVue interview which is basically a 1 sided interview where you record your responses to the prompts given. I was kinda nervous about the format of the interview but feel that my personality and strengths showed through. I was wondering if anyone has went through the following process with Nike and HireVue and how long it takes for Nike to respond to you. Today it’s been one week since finishing my HireVue interview. I’m thinking maybe 2-3 weeks tops but I haven’t been able to find anyone with a similar experience. Any and all input is welcome.",
+      "subreddit": "jobs",
+      "score": 3,
+      "url": "https://reddit.com/r/jobs/comments/lt2khy/nike_hirevue_process/",
+      "comments": [
+        {
+          "body": "Hello, thank you for posting to r/Jobs! \n\nWe just wanted to let you know that we have a new [discord server, come join the chat!](https://discord.gg/TY6ErXV)\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/jobs) if you have any questions or concerns.*",
+          "score": 1
+        },
+        {
+          "body": "What questions do they ask? Can you give examples?",
+          "score": 2
+        },
+        {
+          "body": "I’m 3 weeks waiting on the hirevue interview response… rlly want some closure but now I’m thinking I just didn’t get the job",
+          "score": 2
+        },
+        {
+          "body": "Did they ever get back to you? I'm currently at the 1 week mark",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Recently took new job, now getting offered IT position now. Advice please.",
+      "body": "tldr: recently graduated. In the sports and fitness industry. Two weeks ago, joined a highly successful and competitive specialty running sports retailer as a sales associate after walking in, expressing interest in moving up in the company. Also, am in interview process to complete competitive internship with same company next summer. (High chance of me landing it). Today, received the opportunity to consider an IT support specialist role from the owner of small IT company in my area. Friend of someone I did freelance web design work for recently. What to do? \n\n\nJust wanted to give a brief summary of my dilemma right now. But to expand a little more, in May I completed a marketing and design internship with NASCAR. Discovered I didn't really like the NASCAR industry all that much, but I enjoyed the experience and having the name on my resume. I went into that internship as a digital media major with the hopes of going into UI UX design in the future. I came out of that experience looking for a job and heavily considering the financial situation I'm in: I need and want to make money asap. BUT I also don't want to sell myself and just work any job just because it pays well. I don't do well with being miserable. The idea of that is hard to swallow even if I'm being compensated. \n\nIn the interim of looking for jobs, I began searching for part time work in sports and fitness industry since that's what I want to work in. Ended up going to a specialty running store in person that someone name dropped to me in the area to look for part time work. This store is a nationally recognized brand that also deals in franchise and corporate ownership between stores. They have contracts and relationships with lululemon, nike, New balance, brooks, hoka, Mizuno, karhu, salomon, etc. Big time. And I happened to walk into one of the top performing franchise stores in the country. And HQ is an hour away here in NC. Somehow, even though the place is extremely competitive, the owner of the place liked me so much she hired me onboard. We discussed my future, and I disclosed that I was looking for part time to have more personal time to find a full time career. She ended up expressing that her and her husband (the owners) are in the business of helping young professionals reach their goals. They know for some, their store is a launch pad for motivated young people to reach other places. I did some personal research and indeed have seen MANY people start retail and then become corporate or even go on to have be owners through corporate or even buying their own franchise.\n\nAlso, I discovered this place has an internship program. I was already an internal employee so I applied after committing to this place for the sake of high possibility of opportunity in the near future. Now im considering dropping my previous aspirations of UI UX and pursuing other skills i have that are highlighted in the internship: marketing, footwear buying for a corporate business, sales operations, dgital commerce, vendor management. I passed phone screening and 1st interview for the internship with flying colors so I'm on track to have the job and the internship with the company internally. And because of this I committed full time in my current position instead of part time to expedite the process of me moving up. And also, cos I need money right now. It's only $15 an hour full time. But again high upside to move up soon. Just would have to stick out the $15 an hour right now. \n\nToday, i received a text message. A guy who owns an IT company in my area who is friends with someone I built a website for recently reached out to me and sent me the url for an IT support specialist position. He is willing to hire me and although I don't have experience in IT exactly, I have built my PCs, troubleshoot problems, love the detailed nature of IT. He knows that, we've had a conversation before about my job search. They also provide training and certification on the job. What the heck do I do? I know IT has a lucrative upside in terms of income with experience. But the folks at my current job went out of their way to hire me and tell me they would help me grow, and I am almost 100% I'm going to get this corporate internship within the company too which will strengthen my growth and allow me to move internally faster. Plus I have always been passionate about fitness and footwear, Marketing and community outreach so that place would be perfect for me. \n\nDoes anyone have advice for what path to pursue? I'm at a loss right now hah. My goals are to make money and support my girlfriend, but I also don't want to burn bridges. I don't know.",
+      "subreddit": "jobs",
+      "score": 0,
+      "url": "https://reddit.com/r/jobs/comments/17houzf/recently_took_new_job_now_getting_offered_it/",
+      "comments": []
+    },
+    {
+      "title": "What would a regional manager ask and why would he go for fresh meat?",
+      "body": "I'm having an interview this Wednesday for: \"assistant general manager\" (not \"to the\")   I've only been working at company for 5 weeks, but  I do have 5 years relevant experience in the field.  \n\n\nLast week, before she pitched that position to her boss that is asking for the interview  she said:  \n\"I've interviewed 30+ people and non of them gave me a good gut feeling, so it's between you and another one\"  \n\n\nWhat kind of questions can I expect from him?   \nI never applied for the job, and I've only been working there for 5 weeks!\n\nDon't get me wrong I'm a hard worker, but I've never been a \\[assistant\\] manager.  \nmy initial position 5 weeks ago was working 30% (though worked 100% for 5 weeks).  \nIn the previous company I worked for 5 years, I applied 3 times of a higher position (denied)... until I got laid off for stepping on my boss Nike's.  \nWhat would a regional manager ask and why would he go for \"fresh\" meat?",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/t3tsms/what_would_a_regional_manager_ask_and_why_would/",
+      "comments": [
+        {
+          "body": "Hello, thank you for posting to r/Jobs! \n\nWe just wanted to let you know that we have a new [discord server, come join the chat!](https://discord.gg/TY6ErXV)\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/jobs) if you have any questions or concerns.*",
+          "score": 1
+        },
+        {
+          "body": "Have you been able to find and read the job description that that position?\nFrom my experience in lower management, often these regional managers want to see what you’ve done in the past to take hands on approaches to operating the business. Have you led teams on projects that you can demonstrate success and how it benefited the company? They likely want to know that you will be able to handle a variety of business needs without them having to micromanage or always coming to them for guidance because if that was the case, they could just do the job.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "I have a question when it comes to what you wear when handing a resume to the manager and when going in for a interview for a restaurant?",
+      "body": "Should I wear a button up dress shirt the two colors I have is one is dark blue with little dots of light blue on it and a dark grey shirt with black lines going across it but which one should I wear or are they both good? and then Should I wear light blue jeans or dress pants the ones I have are chino style and they are black? For my shoes I have black Nike shoes but I do not have dress shoes at all should the Nike be ok?\n\n[Edit] the restaurant is a family owned restaurant and it says online an informal eatery.",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/w0txh2/i_have_a_question_when_it_comes_to_what_you_wear/",
+      "comments": [
+        {
+          "body": "Hello, thank you for posting to r/Jobs!\n\nWe just wanted to let you know that we have a new [discord server, come join the chat!](https://discord.gg/TY6ErXV)\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/jobs) if you have any questions or concerns.*",
+          "score": 1
+        },
+        {
+          "body": "Either shirt and dress pants\n\nAssume you can get an interview on the spot when you apply.  Remember to go when less busy 2 - 4pm is ideal for most restaurants unless job posting specifies otherwise",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "How likely am I to get a job at nike retail with 0 experience?",
+      "body": "Should I even try? Nike sounds out of reach in my opinion",
+      "subreddit": "jobs",
+      "score": 2,
+      "url": "https://reddit.com/r/jobs/comments/mv4d64/how_likely_am_i_to_get_a_job_at_nike_retail_with/",
+      "comments": [
+        {
+          "body": "Hello, thank you for posting to r/Jobs! \n\nWe just wanted to let you know that we have a new [discord server, come join the chat!](https://discord.gg/TY6ErXV)\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/jobs) if you have any questions or concerns.*",
+          "score": 1
+        },
+        {
+          "body": "Usually you don't really need any experience for retail. Just be passionate about the brand.",
+          "score": 3
+        },
+        {
+          "body": "This is where you can really shine through in your cover letter. I would never say not to try.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Does shoe matter for job interview?(Recent highschool graduate)",
+      "body": "Direct Question- Does it matter if I wear a dress shoe for a job interview?\n\nHi, I just graduated high school and I decided to take a year break so that I can start to save and have a budget as I enter college next year, I have never had a paying job before and so I don't really know what you are judged on during the interview other than your resume and application, So far I have done some research on what to wear for interviews (as high school students) as I recently lost some weight I can no longer use my suit from grade 9 and some of my peers told me that it is overkill/overdoing it, However that does not matter anymore as I cannot afford to buy a new suit, so I settled that I can probably atleast buy a new dress pant and dress shirt at old navy for around $70 in total but then as I was researching I found one source that tells me I should also get a dress shoe? is it really as important? I only have a nike shoe which i have had for the past 3 years. But if it isn't as important I could leave out the dress shirt and buy a new dress shoe at walmart for possibly 40 dollars and maybe wear a nice normal shirt?",
+      "subreddit": "jobs",
+      "score": 19,
+      "url": "https://reddit.com/r/jobs/comments/4g7j6z/does_shoe_matter_for_job_interviewrecent/",
+      "comments": [
+        {
+          "body": "Advice I'm typically given is that it's almost impossible to be overdressed for an interview. That said, if your budget is tight, hit a thrift store. One time I did that before an interview, and got an entire outfit (including shoes) for around $20.",
+          "score": 14
+        },
+        {
+          "body": "Yes, get dress shoes as well. Don't be that guy who wears casual shoes to a job interview. If you go to Payless or Walmart, you can get dress shoes for cheap.",
+          "score": 16
+        },
+        {
+          "body": "One shoe would look odd, you should probably wear two.",
+          "score": 5
+        },
+        {
+          "body": "Every workplace and hiring agent is different. However, an example from my workplace (business casual dress environment)...  My desk is in an area where I often hear a lot of peoples conversations. Apparently an interviewee came in a week ago cleanly dressed except...sneakers.  It became a running joke among a few people and a disqualifier.  If you can't put your best face forward during the interview phase, what are you going to do when you're settled in?\n\nI've always dressed biz-cas to interviews (I've had 4 in my lifetime) and, with the exception of one interview where I was steeply under qualified and pushing my luck, have gotten the job. \n\nEdit: For greater context, I am female. My go-to \"uniform\" is a blazer, dress pant, and nice top (can be a clean, well-fitting t-shirt for a little more casual air, or a nice blouse to dress it up more).  I pair those with either a nice looking leather boot, flats, or high heels. I also accessorize with a jewelry piece or two depending on the outfit.",
+          "score": 5
+        },
+        {
+          "body": "get dress shoes. The only time I had used a another type of shoe it was due to the weather ( real bad snow).",
+          "score": 2
+        },
+        {
+          "body": "Any dark-colored shoe, all one color with dark laces, that looks relatively business-like would be okay.  You basically want shoes that no one will think to look at twice.",
+          "score": 2
+        },
+        {
+          "body": "The simplest  rule for dressing for an interview is to find the dress code of that workplace and go one step up. \n\nRelaxed dress code or uniform- dress smart casual\n\n\nCasual- dress business casual\n\n\nBusiness casual - dress business professional\n\n\nBusiness professional - obviously dress business professional",
+          "score": 2
+        },
+        {
+          "body": "thank you everyone for the reply, I really appreciate it. I decided to settle on black khakis while I was at old navy because I couldn't find dress pants or dress shirts, tomorrow I hope to go to walmart and buy a black shoe and a black dress shirt",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "I am applying for nike data analytics internship for summers 2021. Would need some suggestions.",
+      "body": "What should i expect in interview for technical and behavioral questions.",
+      "subreddit": "jobs",
+      "score": 2,
+      "url": "https://reddit.com/r/jobs/comments/juq1l5/i_am_applying_for_nike_data_analytics_internship/",
+      "comments": [
+        {
+          "body": "Hello, thank you for posting to r/Jobs! \n\nWe just wanted to let you know that we have a new [discord server, come join the chat!](https://discord.gg/TY6ErXV)\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/jobs) if you have any questions or concerns.*",
+          "score": 1
+        },
+        {
+          "body": "I can’t speak to analytics at Nike specifically but I can speak to analytics since I work in that career path. \n\nMake sure you know intermediate SQL. Make sure you know intermediate statistics since you’ll probably be asked about it. \n\nMost importantly, though, make sure you explain your problem solving skills. Demonstrate very strong soft skills, curiosity and passion for analytics. Analysts aren’t technical workers - we connect data to business problems and you need to show you’ll be capable of doing that. \n\nI’m sure there are other idiosyncrasies but if you show those soft skills and some technical aptitude you’ll be in a good place.\n\nI’m certain the application process will be phenomenally competitive - that’s the reality of entry level analytics right now so it’ll be tough to get a spot.",
+          "score": 2
+        },
+        {
+          "body": "How did your application go eventually, bro?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "How to Apply for and Get A Job",
+      "body": "I do the hiring for a company that is in the food industry. I get so sick of what I have to sift through to find the good ones. So I thought I would make a post with some tips.\n\nThis only pertains to applying for entry level jobs. This is for whoever may see this that is 16-25 and is looking for work, but isn't applying for a \"career\"\n\n\n**The Application**\n\n\nOkay, so let me give me some obvious pitfalls to avoid. Though obvious, I see these mistakes all the time.\n\n-If you are going to get an application in person, dress the same way as you would for the interview (more later). I often hand out applications to slobs. First impressions are very important.\n\n-Reread your application and look for mistakes. Did it ask you to order your work history starting with the most recent? Spelling mistakes? If you can't comprehend what is being asked on a simple application, you probably can't hold down a job. \n\n-Fill the entire thing out. If I have 50 applications for a position, an easy way to do an initial sorting is to get rid of the applications that don't put references of any sort, or don't fill in their availability. \n\n-If it's a minimum wage job, just ask for minimum wage on the desired wage section. If min in your state is $10, why would you put $10.50? Are you not going to accept the position if it's offered at $10? Most other applicants are putting minimum, so don't get yours thrown out over 50 cents. \n\n-Does the job listing specifically state part or time full time? When filling out the application, apply for what they are looking for. Don't put full time because you can work full time even though it states they are looking for part time workers. If you put full time, I assume you need 40 hours or close, so If I don't have that I'm going to call other people for interviews. \n\n-If the application asks why you left your last job, think hard about your reason. Don't lie, but don't bus drive yourself. If you got fired for being late, \"put scheduling conflicts,\" not \"I was always late.\"\n\n\n**The Resume**\n\n\n-Tailor your resume. My place sells food. Your resume starting with \"why I would make a great dental hygienist\" is not going to fly. When you submit that, it goes in the trash. \n\n-Keep your resume to one page or less. This is an entry level position, don't fill it up with stories about every box of girl scout cookies you once sold and how that has qualified you for the position. \n\n-Make it relevant. If you're going to make burritos, I don't care how many words per minute you can type or that your proficient in Microsoft Word. It's 2014, every single young adult should know how to use a computer. \n\n\n**The Interview**\n\n\nThis part is the key for getting an entry level job. The other pats don't matter so much, as long as they are done correctly.\n\n-My biggest tip, know about the company you are applying for. Don't ever ask, \"so what do you do here.\" If I was applying to be a sales rep at the Nike store, I would read all their recent news articles, spend half an hour browsing their website, and already have been a customer at the location of my interview. \n\n-Speak up, sit up straight, make eye-contact, smile, and even laugh. Once again, very basic, but most first time job applicants get so nervous they do none of these. It's very hard for someone doing hiring to know if you are just nervous this time, or if you are actually extremely introverted. \n\n-Prepare at least 4 questions for the interview. You may not need to ask them all, but asking thoughtful questions shows intelligence and an interest in the position. Don't ask questions that would have no bearing on you accepting the position or not, such as \"how often is payday\" or \"what is the employee discount?\" In all likelihood you want the job regardless of the answer, so don't ask selfish questions in the interview. Back to the Nike example, I would ask something along the lines of \"what characteristics of the employees help build the success of Nike,” or “are there advancement possibilities for those who are dedicated to the company?” or something as simple as “what do you find most rewarding about working for Nike?” Questions about rate of pay or scheduling are valid if they would be contingent on you accepting the position.\n  \n-Be prepared to do most of the talking. The interview is the time to showcase yourself. Don’t be afraid to brag a little.\n \n-You will probably be asked why you left your last job if you had one. Know what your answer will be. I was told once “The working environment at the restaurant was not clean, it was so bad I called the health department on them!” That’s an instant fail. \n\n-Dress appropriately. For most entry level jobs you don’t need a tie, so don’t overdress or underdress. Dress just above what the position requires. Shorts and t-shirts are not acceptable. If in doubt, play it safe with some slacks and a button down tucked in nicely. Also make sure your shoes are clean and neat. \n\n\nThose are some of my most basic tips. Out of every 50 applications I get, I can almost discard half of them within seconds. Then once I scan through and find applicants, maybe 1 in 20 put all these small skills into place during the interview process. If you practice beforehand, and do them, you will find a job. Remember though, a job isn’t something to just fill your time or make you feel useful. For the business owners it is everything to them. So you wanting days off for personal reasons isn’t something the business owners care about. You’re going to miss going to your school football games, hanging out with your friends on weekends, and you will be expected to work hard the entire time you are shift. Show up early, offer to stay late, and notice you will be more likely to get small pumps, be scheduled for more hours, and possibly move up. \n\n\nTLDR - Being an idiot won't get you a job. ",
+      "subreddit": "jobs",
+      "score": 9,
+      "url": "https://reddit.com/r/jobs/comments/2j9kht/how_to_apply_for_and_get_a_job/",
+      "comments": [
+        {
+          "body": "&gt;-You will probably be asked why you left your last job if you had one. Know what your answer will be. I was told once “The working environment at the restaurant was not clean, it was so bad I called the health department on them!” That’s an instant fail.\n\nWhy is this an instant fail? This sounds like a totally legit reason for leaving a job. Maybe I would leave out calling the health department on them.",
+          "score": 8
+        },
+        {
+          "body": "[deleted]",
+          "score": 1
+        },
+        {
+          "body": "Just to be nitpicky, I disagree with the part about the resume and making it relevant. Your resume should be a one-page blip about your qualifications to any job.\n\nListing a proficiency in Microsoft Office, working-level Portuguese or being CPR certified is just a way of showing versatility for all jobs in which you submit an application for hire. In a cover letter and especially an interview, that is when you can tailor yourself and answers specifically for the job at hand.",
+          "score": 1
+        },
+        {
+          "body": "Could this get me a job at the apple store O:",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Companies with unique approach",
+      "body": "Hello, i have to prepare an essay about work culture, process etc but i really struggle to find contrast company to Amazon. Like every hiring process is the same, they send resume/application, they are invited to interview, participating in assessment centres and they get offer. Its so boring and cannot find anything. Google, Microsoft, apple, amazon, nike all follow the same process (the only exception i could find was zappa, but it was minor as they come back to paper and typical interview process. Do you have any ideas which companies can use different and more unique hiring profess than standard test, 1-2-1 and problem solving etc. Thanks :)",
+      "subreddit": "jobs",
+      "score": 2,
+      "url": "https://reddit.com/r/jobs/comments/kglzc7/companies_with_unique_approach/",
+      "comments": [
+        {
+          "body": "Hello, thank you for posting to r/Jobs! \n\nWe just wanted to let you know that we have a new [discord server, come join the chat!](https://discord.gg/TY6ErXV)\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/jobs) if you have any questions or concerns.*",
+          "score": 1
+        },
+        {
+          "body": "Fireman/woman 👨‍🚒 they have a physical test. Or police officer, army recruitment. All of those are super different. Ballet dancer would be immensely interesting too (recruitment there is cut throat).",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Here’s a list of 10 job search and career related jokes. Laugh a little",
+      "body": "Here’s a little list of workplace jokes that made me laugh.\n\nWell, at least smile.\n\nIf you can think of more, please let us know in the comments and we can add to the list!\n\nI just lost my job as a psychic. I did not see that coming.\nHard work pays off in the future, laziness pays off now.\nI’m looking for a job where I am politely ignored and left to my own devices. With unlimited Internet access, doughnuts, and coffee.\nIf a job’s worth doing, it’s too hard.\nI quit my job working for Nike. Just couldn’t do it anymore.\nI love being a maze designer. I get completely lost in my work.\nI worked very hard to get to where I am in life. An unemployed university graduate.\nInspecting mirrors is a job I could really see myself doing.\nSure I’m willing to work longer hours at work. As long as they’re lunch hours.\nI think my job interview to be a bug sorter went well. I boxed all the right ticks.",
+      "subreddit": "jobs",
+      "score": 6,
+      "url": "https://reddit.com/r/jobs/comments/hychcz/heres_a_list_of_10_job_search_and_career_related/",
+      "comments": [
+        {
+          "body": "Some spacing would have been nice",
+          "score": 3
+        },
+        {
+          "body": "Thank you",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Two Candidates, real life scenario, who do you hire as a manager?",
+      "body": "Real life example, the position was team leader for a call center team for a tv network that focuses on technology. Who do you hire?\n\n**CANDIDATE A**\n35 Year old male\nAfrican American\n\n**work history**\nPosition: Operations Coach\nCompany Name: Nike\nEmployment Duration: 1 yr 2 mos\n \nPosition: Leader Program Associate\nCompany Name: Apple\nEmployment Duration: 2 years\n\nPosition: Executive Team Leader\nCompany Name: Nike\nEmployment Duration: 1 yr 7 mos\n\n\n**Education:** Tennessee State University B.A. – Business \n\n\n\n\n\n\n\n\n\n**CANDIDATE B**\n31 Year old male\nHispanic\n\n**Work History**\n\nPosition: Partner/Founder/Counsel\nCompany Name: Start Up – proprietary tech\nEmployment Duration: 3 years\n\nPosition: Team Lead (call center)\nCompany Name: Bank of America\nEmployment Duration: 3 years\n \nPosition: Legislative Aide\nCompany Name: Congressional Office\nEmployment Duration: 2 years\nPosition: Mediation Intern\nCompany Name: California Attorney General’s Office\nEmployment Duration: 1.5 years\n\n**Education:** Loyola Law School J.D.\n\t  UC Irvine – Master’s Public Admin\n\t\tASU – B.A. Political Science\n\t\tGCC – A.A. Criminal Justice\n\n",
+      "subreddit": "jobs",
+      "score": 2,
+      "url": "https://reddit.com/r/jobs/comments/69wixg/two_candidates_real_life_scenario_who_do_you_hire/",
+      "comments": [
+        {
+          "body": "I would hire Candidate A.",
+          "score": 3
+        },
+        {
+          "body": "Both pass to the interview. It gets decided there. ",
+          "score": 2
+        }
+      ]
+    }
+  ]
+}

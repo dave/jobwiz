@@ -1,0 +1,859 @@
+{
+  "company": "snowflake",
+  "post_count": 43,
+  "exported_at": "2026-01-18T17:44:53.306Z",
+  "posts": [
+    {
+      "title": "6 months job hunting, apparently my 4+ years don't count because I haven't touched their specific tech stacks",
+      "body": "I'm losing my mind with this job market. 6 months of searching and I'm getting absolutely nowhere.\n\nMy background: 1 year as sysadmin (Linux, Windows Server, monitoring, automation), 2 years teaching cybersecurity at university level, currently freelancing doing ISMS implementations and ISO 27001 consulting. Master's in Cybersecurity. I can script, I know my way around networks, I've deployed everything from ELK stacks to Kubernetes clusters.\n\nBut apparently none of that matters because:\n\n**\"We need someone with 5+ years experience\"** \\- Dude, I have 4+ years in IT, just not all in the same role. Why does teaching cybersecurity to students not count as experience? Why does implementing security frameworks for actual paying clients not count?\n\n**\"You don't have experience with Palo Alto/Fortinet/SonicWall\"** \\- IT'S A FUCKING FIREWALL. Yes, each vendor has their own special snowflake syntax and GUI, but the concepts are the same. Port 443 is port 443 whether it's pfSense or a $50k Palo Alto. Give me a week with the documentation and I'll be configuring rules like I've been doing it for years.\n\n**\"We need someone who knows our exact stack\"** \\- Cool, so you want a unicorn who has experience with your specific combination of ancient VMware, that one obscure monitoring tool you bought in 2015, and whatever cloud mess you've accumulated over the years.\n\nThe worst part? Half these jobs get reposted every month because *surprise* \\- that perfect candidate doesn't exist or doesn't want to work for your lowball salary.\n\n**And another thing** \\- why the fuck don't internships count as \"real experience\"? I spent 3 years doing actual work during internships. Not fetching coffee or making copies - I was troubleshooting servers, implementing security policies, managing infrastructure. But apparently that's \"just internship experience\" and doesn't count toward their magical 5-year requirement.\n\nMeanwhile, every goddamn article and report keeps screaming about the **\"cybersecurity skills shortage\"** and **\"millions of unfilled IT positions.\"** You know what would solve that? HIRING THE YOUNG PROFESSIONALS WHO ARE EAGER TO LEARN AND PROVE THEMSELVES.\n\nInstead, companies want to poach already-established professionals from other companies, creating this stupid musical chairs game where everyone just shuffles around for higher salaries while entry-level candidates get locked out entirely. Then they act shocked when there's a \"talent shortage.\"\n\nI've had interviews where I walk them through actual projects I've completed, demonstrate my problem-solving skills, show them my homelab setup, and then get rejected because I haven't used their specific brand of the same damn technology I've been working with for years.\n\nAnd don't get me started on cybersecurity roles. \"Entry level position, 5 years experience required.\" The math doesn't fucking math. How am I supposed to get experience if no one will hire me to get experience?\n\nI know some of you have been in similar situations. How did you break through this stupid cycle? I'm starting to think I should just lie on my resume about having used every vendor's gear and hope they don't quiz me on CLI commands during the interview.\n\n/rant\n\n**TL;DR:** Job market is stupid, vendors need to stop making the same technology with different commands, and HR departments need to learn the difference between \"nice to have\" and \"absolutely required.\"",
+      "subreddit": "cscareerquestions",
+      "score": 448,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1l3be4k/6_months_job_hunting_apparently_my_4_years_dont/",
+      "comments": [
+        {
+          "body": "18 YoE.  If it isn't C++, I don't get a callback.  If it is C++, I get gated on how concerned the hiring team is about RTOS and embedded experience.  It's been a tough and ego damaging eight months.",
+          "score": 288
+        },
+        {
+          "body": "I mean while I agree with your larger point, I would lump those 2 years teaching students as teaching experience not industry experience, unless you had a job on top of the teaching job",
+          "score": 153
+        },
+        {
+          "body": "You should be more offended that they take you in for an interview, waste your time, just to tell you something they would found out by reading ur cv. \n\n\nIt might be that you are just a 'filler' candidate. \n'we interviewed 5 people but my close friend here was the only one with the right exp'",
+          "score": 68
+        },
+        {
+          "body": "I was astounded when I was a junior. \n\nMy cubicle was right beside one of the resume screeners. I heard them reject a candidate for listing Oracle 10g when we were looking for Oracle 11g experience. I remember thinking “what the hell?”\n\nI haven’t applied anywhere in years, but I assume nowadays is much worse. ",
+          "score": 67
+        }
+      ]
+    },
+    {
+      "title": "I have asked someone from OpenAI to do a System Design, here is what happened.",
+      "body": "I run a discord server where we have a lot of engineers, especially senior and staff level and I decided to record a video with one of the most senior engineer we had as I was curious what it takes to clear the hardest loops in the industry.\n\nWhat he told us the expectations are for **Staff** System Design Interview:\n\nYou solve the hardest, most ambiguous problems with minimal input. In an interview, you drive the discussion from requirements gathering through to core system design and long-term considerations such as maintenance and future development. You should be able to describe the reliability, availability, and resource costs and trade-offs of your system, aligned with the design challenge. Furthermore, you should proactively cover cross-cutting concerns like operational and deployment toil, security, privacy, and team hiring. You can make reasonable decisions around build vs buy given budget constraints and internal control, and describe bottlenecks at multiple scales—from architectural choices to OS-level performance concerns—with minimal guidance.\n\nThe problem I asked him was to design a Online Shopping Store like SHEIN. He picked the problem himself as he was very curious how they see a new dress trending online in just 2 weeks produce those items massively. This is a very untraditional problem, but allowed him to focus and go into a lot of depth.\n\nThe design ideas are very different from what I would see from a typical mid level engineer, it included:\n\nThe engineer dove deep into an architecture I’d never even considered, especially around:  \n  \nExecution in Milestones: Something that I have not seen before, on top of the class \"Five Steps of System Design\" (FRs, NFs, Calculations, API Design, Entity Design, HLD) - he added more steps to show seniority and technical leadership, specifically clarifying milestones of how things should be structured.  \n  \nFocus on the details rather than breadth: A lot of mid level folks try to come up with 10/15 requirements and execute on just 2-3. In his design, we saw that it is much more important to go into depth to delivery staff-grade system design performance.  \n  \nReally well-through through data design choices: In some projects, 80-85% of the challenge is the data design - sometimes, answering the question of how should the data be structured would simplify the problem significantly, he went well beyond just saying \"User\", \"Order\", \"Account\" That was really important.  \n  \nEvent-Driven Microservices instead of simple CRUD: An event bus (e.g., Kafka) for everything from pricing changes, new product drops, to manufacturing updates, so that the system is highly reactive and can quickly coordinate supply, distribution, and marketing.  \n  \nAPIs Beyond REST: 99.9% of people just use REST and never consider anything else. He favored gRPC internally to keep microservices fast and typed with Protobuf messages—then a BFF (Backend for Frontend) with REST for the mobile/web clients.  \n  \nMassive Data Infrastructure: To handle 400k new SKUs/year, you need a robust data pipeline (possibly with Cassandra or a distributed SQL (CRDB) store w/ hot-cold storage, plus Snowflake for analytics) that can ingest, transform, and store insights for quick lookups.\n\nI recommend going through the design/video to understand it, pretty great problem.\n\nOverall, this is one of the most impressive designs that I have ever seen. I think that most mid level folks should focus and try and replicate this.\n\nExalidraw: [https://app.excalidraw.com/s/17vCuvJeiD1/5K5DG0NuctQ](https://app.excalidraw.com/s/17vCuvJeiD1/5K5DG0NuctQ)  \nYouTube (full video overview, highly recommend): [https://www.youtube.com/watch?v=Bt80vSyMlPg](https://www.youtube.com/watch?v=Bt80vSyMlPg)  \nDiscord (you can talk to the author directly here as well): [https://discord.gg/njZvQnd5AJ](https://discord.gg/njZvQnd5AJ)",
+      "subreddit": "cscareerquestions",
+      "score": 615,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1j8crhl/i_have_asked_someone_from_openai_to_do_a_system/",
+      "comments": [
+        {
+          "body": "The BFF and gRPC/Protobuf design pattern is heavily borrowed from how Google designs their systems.  It's pretty much the standard architecture for frontends.",
+          "score": 255
+        },
+        {
+          "body": "I'd say it is insanely overengineered.\n\nIt's like he never ran a single Clickhouse instance and saw you can churn through billions of rows in seconds.\n\nI'd definitely ask him to go in details why Snowflake, or why hot-cold storage, why Cassandra? How is Snowflake replicated, why can't everything sit in hot storage, why shitty Cassandra?\n\nIt sounds like he'd fail very quickly. All of this sounds like an engineer that works in a company that has bazillion dollars to throw away on systems that don't perform well and are therefore horizontally scaled to perform well.\n\n  \nThis sounds like [this](https://netflixtechblog.com/revisiting-1-million-writes-per-second-c191a84864cc) Netflix eng blog where they brag doing 1 million writes per second with 300+ machines in a cluster, spending insane amount of money per day. Yeah, if you have money, you can do stupid complex shit.",
+          "score": 171
+        },
+        {
+          "body": "As someone who has both conducted and given probably a hundred of these now, all at big tech companies for staff level, I can attest that everything here is really standard. As in this is *expectation*, the bar that’s being looked for at most companies at that level for a BE role.\n\nThough mid level engineers shouldn’t even be asked or expected to do SD interviews at this depth, so it’s a bit interesting that it’s being mentioned as comparison here. The point of Staff is having enough years of lived experiences in the trenches that you can talk to these things from practice, not theory, so I would be careful about recommending people at that level be able to do this. You’ll get follow-ups that expose lack of direct experience.",
+          "score": 26
+        },
+        {
+          "body": "I glanced through the video and have to say, the system design lacks business input. \"Massively produce\" could mean the business be on razor thin margins and does not account for time-to-market.\n\nJust for reference, I built a inventory/supply chain for predictively place orders to make more clothes based on trending sales versus historical trends/discount trajectory of past items (aka similar dress sold last seasons) and track current trending sales.  In addition to the social media/ marketing impressions.  \nAnd based on a lot of variables, the orders were dynamically executed with also tracking the delivery time of the container ship reaching the shores along with HSTS (custom and tariff fees based on origin). Every week if sales stalled, automatic discounting were places on minimum sale price. And timed to make sure you run out of stock a day before the ship arrives. So inventory trickled in where you don't need to discount to get rid of inventory. And execute discount to make sure that inventory arrival flow and a determined rate. JIT (just in time inventory)\n\nA system like this would never be designed without input from a procurement analyst who does spreadsheets all day. There is always some business logic whenever you deal with supply-chain execution.\n\nThat is missing from this design. Those would be things I bring up right away. How they handle supply chain, inventory control automation, profit margin vs output flow.\n\nThe point of view is clearly based on how they think retail and cloth manufacturing works without the actual domain knowledge of fast fashion which Shein is.",
+          "score": 86
+        },
+        {
+          "body": "I am more interested in his calculations and how he arrived at the scale he did. This feels overengineered for the sake of doing it. \n\nSystem design is about tradeoffs. And that tradeoff need to account for complexity.  Bringing in extra complexity just for the sake of it is not good system design.\n\nDesign needs to be simple and should leave some doors open to scale later. Unless ofcourse you are given a specific scale to build for. But you said you didnt and he came up with the problem statement himself. \n\nThat seems like a huge disconnect.",
+          "score": 15
+        },
+        {
+          "body": "is this an ad?",
+          "score": 54
+        }
+      ]
+    },
+    {
+      "title": "My Job Search as an Experienced Dev",
+      "body": "My job search began last September after a recruiter contacted me, coinciding with my company's announcement of a 5 days return-to-office policy. I targeted Staff Engineer roles, completing a phone screen in October and onsite interviews (3 system design, two coding, and one behavioral) in November and December. This was my second time interviewing with the company; my first attempt was eight or nine years ago, and it felt much harder then, as it consisted entirely of coding rounds. After a month-long team match process, I accepted a Senior Engineer offer due to a shorter commute, better perks, and a TC increase. \n\nI prepped by studying \\~100 LeetCode questions and focusing heavily on system design (using alex xu books and DDIA, hellointerviews). My extensive interviewing experience (\\~150 interviews conducted) meant I needed minimal behavioral prep, just a review of recent projects.\n\nOver the 4 months, I also applied to a few jobs:\n\n*  Salesforce (no response)\n*  Snowflake (no response)\n*  Coinbase (failed IQ test assessment)\n*  TikTok (failed phone screen - hard dynamic programming)\n*  Google (no response)\n*  Apple (no response)\n*  Snap ( edit: withdrew after accepting the offer at another company).\n*  Block (no response)\n\nDespite some rejections, the market seems decent for experienced developers. As a Java backend engineer with 11 years at the same company this was my first job change. I've solved over 500 LeetCode questions in my lifetime, and I work with distributed systems daily.",
+      "subreddit": "cscareerquestions",
+      "score": 103,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1ikz8n5/my_job_search_as_an_experienced_dev/",
+      "comments": [
+        {
+          "body": "Had interview with TikTok few years ago.\n\nYoung Asian guy, who clearly is good at math: today we will write all topological sorts of a directed acyclic graph in C++ in notepad.\n\nMe: but I applied for Golang\n\nHe: you want to stop interview?",
+          "score": 127
+        },
+        {
+          "body": "Can contribute, 5 years of experience mark (3 at startup where I learned a ton) had 7-8 interview pipelines since aug 2024",
+          "score": 17
+        },
+        {
+          "body": "Dat TikTok phone screen though but I guess it was for a staff position?",
+          "score": 15
+        },
+        {
+          "body": "Coinbase does IQ tests? Whays the minimum IQ required? Lol",
+          "score": 8
+        }
+      ]
+    },
+    {
+      "title": "rejection hurts, man",
+      "body": "i’m about like 3 months into hard recruiting for a new entry/mid level sde role after being laid off at rainforest (was there for like 2 years 7 months as a new grad) and rejection hurts so goddamn much\n\ni pretty much grind daily doing 3-4 LC problems and 1-2 system design problems as well as occasional mock interviews to make sure i’m well prepared and fortunately i’ve been able to interview with super cool companies like msft, coinbase, meta, snowflake, and a few smaller startups, but just rejected for reasons i will never know until the day i die\n\njust today, i get rejected from tiktok and i think im so goddamn close to reaching my tipping point. i clear the two coding rounds and then head into the 3rd round for system design, which i thought went well too. im not going to go over the problem and how i did it but i asked the interviewer not once, but TWICE, to see if there was anything in my design that could be improved on or he would like more details on, and both times he just gave me a confident \n\n“no, no it looks good.”\n\nso obviously, getting a rejection was not in my bingo card for today. i’m not even sure what the point of this post is as i write this, i just kinda needed somewhere to vent my thoughts. how am i supposed to improve my interviews without knowing what i did wrong? why would the interviewer tell me it looks good just to reject me? i know it’s a tough market nowadays, but fuck dude \n\nalso, just to clarify, i don’t mean to fear monger how hard software engineer interviews are today, i just wanted to share my personal experience. \n\n",
+      "subreddit": "cscareerquestions",
+      "score": 54,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1jzcbe4/rejection_hurts_man/",
+      "comments": [
+        {
+          "body": "Nope. It doesn't need to hurt. Just move on to the next. Go next.\n\nAlways go next.\n\nNever get stuck on the idea of one company.",
+          "score": 29
+        },
+        {
+          "body": "[deleted]",
+          "score": 69
+        },
+        {
+          "body": "Your job offer is around the corner.",
+          "score": 12
+        }
+      ]
+    },
+    {
+      "title": "My dad is a 30+ YoE database architect/data warehousing specialist and is severely underpaid. He wants to change jobs, but what should his salary expectations be?",
+      "body": "Hi r/cscareerquestions,\n\nMy dad is a seasoned database/backend engineer with 30+ years of experience across multiple industries. He has been loyal to his company for years, only switching away once around 2008 due to needing a more significant raise than was offered by his company at the time, and then a few years later returned to his job at the original company for another significant pay boost. He works as a consultant, and loved the people he worked with and the variety of jobs and technologies he got to use when at this company, but it was recently acquired by a larger firm. He has since lost a lot of nice benefits like (actual) unlimited PTO, and some of the managers that he liked working with were let go as part of the merger.  \n  \nI even worked at the same company for a year as a fullstack developer and could see why one might stick around even for subpar pay, although I left right before the merge happened.  \n  \nWe live in the Midwest in a very LCOL area. My dad is cagey about the details of his compensation, but I am fairly certain he makes around $115-130k per year based on some of the comments he’s made about the salary ranges for potential promotions and other factors.  \n  \nPersonally, I’ve been a fullstack developer for about five years now, and I’ve hopped jobs about five times since I started. I’m good at what I do, but at this point I’m making about $150k/yr working remote, and we live in the same town.  \n  \nThis isn’t to say that my dad isn’t talented; he is very much on the bleeding edge in regards to the technologies that he’s familiar with. He is very experienced with Snowflake, MongoDB, CosmosDB, Oracle, SQL Server, and a lot of others. He’s also pretty capable when it comes to backend as he’s familiar wihh C# and more modern cloud techs like Azure Functions, IoT, etc.  \n  \nIt’s not like he’s gotten complacent either, his consulting job means that he is effectively changing his job every couple of years anyway when a consulting contract ends with the firm, so his interviewing skills are still sharp as well.\n  \nThe problem we’re facing is that he has started interviewing again for a position outside of the consulting firm, but has no clue what someone with his tenure should ask for. There’s so little data on sites like Glassdoor for devs with that many YoE that it’s hard to pin down a specific range he could fall into.  \n  \nIf anyone has a similar level of experience or could speak to this, it would be greatly appreciated!\n\nEdit: After reading a lot of the replies, i realized it’d be helpful to add a bit more context. I guess I overestimated what LCOL actually means. We live near a major city in the Midwest, so I guess our actual CoL is maybe medium/low-medium rather than just low. $150k for someone with 5 years of experience like me is a little high but not unheard of.  \n  \nAlso, we do know what his current company bills for his time, which is around $200/hr, almost 4x his actual salary. I know that a consulting firm has additional overhead and needs to make money on their own, but this seems a little egregious. I’ve worked for other consultancy firms myself and my understanding is that the standard is around 2-3x the consultant’s salary.",
+      "subreddit": "cscareerquestions",
+      "score": 141,
+      "url": "https://reddit.com/r/cscareerquestions/comments/17zqnum/my_dad_is_a_30_yoe_database_architectdata/",
+      "comments": [
+        {
+          "body": "I’m probably a bit older than your father in the same space (data engineering) I make significantly more than your father but live in a HCOL area. The high end of what you mentioned is probably on par for a LCOL area. It’s possible he could get more for a remote job. Also levels.fyi is your friend. Study it.",
+          "score": 119
+        },
+        {
+          "body": "The thing is at that age one may start to consider trading some salary for stability and flexibility. I changed jobs at 59 same as the OP Dad after decades with the same company. TBH with current tech 59 is more or less twice the age of whoever is interviewing you and you have to use some skill to not be perceived as an \"entitled geezer\" in their eyes. I made the switch from a real embedded technology firm into enterprise software mostly backend. I didn't see the $300k TC obviously, we're an insurance company lolz but pay is good enough, stability is reasonable, and workpace is good. To a great extent  getting paid to fix other people's bad designs because who would have thought that data architecture matters... \n\nReal nice money can be found in technical leadership roles in non tech, definitely not FAANG level money but still decent. Old style finance, insurance, healthcare, etc can all benefit from such skillet. Identify some candidate companies  first then research what they pay etc.",
+          "score": 30
+        },
+        {
+          "body": "Brent Ozar does an annual survey of data professionals and publishes the results. Bear in mind this is _not_ scientific as it's all self-reported data but it's worth looking at. https://www.brentozar.com/archive/2023/01/announcing-the-2023-data-professional-salary-survey-results/\n\nAssuming your dad hasn't stagnated in skills (10 YoE vs. 1 YoE repeated 10 times over), he should be doing a lot better than $130K. I'm sure his ~~pimp~~ consulting firm bills him out at **much** more than what that is converted to hourly.",
+          "score": 16
+        },
+        {
+          "body": "He should ask as much as he can get. Start with a figure that is more than makes him happy, adjust down as needed. \n\nThere really *isn’t* a great dataset for compensation with that many years of experience. Pay does tend to plateau hard after ~10 YOE though. The marginal difference in value provided by additional years of experience after the first ten declines rapidly.",
+          "score": 32
+        },
+        {
+          "body": "YoE isn’t a particularly relevant metric for determining compensation. Neither is the list of databases or programming languages someone is familiar with.\n\nThings that do matter are the size and sophistication of projects he’s completed, whether he was leading other people, either as a tech lead or people manager, etc.",
+          "score": 27
+        },
+        {
+          "body": "My father was similar in another industry I asked him why he wouldn’t look at other jobs and he said that at his age he already has his financials figured out and the stability and comfort the job gives him is worth a lot more than the raise",
+          "score": 10
+        },
+        {
+          "body": "Man snowflake is the biggest piece of shit. I’d pay your dad 150 to manage to that shit for me",
+          "score": 5
+        },
+        {
+          "body": "Data engineering now comes in the shape of streamig data, airflow type pipelijing, pipeline tooling, advance Pipeline ci/cd and vector / large horizontal dataset data management and such. Creating managing and posting ML /AI scores ( Google the job posting ).  That's where the money is to the best of my experience.\n\nAlthough his skills around storage is solid, he might be missing quiet a bit for the higher end jobs.  ( Google the difference) \n\nLucky for him data engineering is one space where I see. Ageism doesn't affect candidates that much. \n\nThat said. Take this with a grain of salt off course. \nI am leading a mid size team developing data products around AI ML and data warehousing, fast JIT large caching and cluster storage and shit . \n\nHis out look is good , he needs lot of pivoting to support the new shit.",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "title": "So if I fail, how doomed am I?",
+      "body": "I'm a rising senior at a T50 CS school this summer, and have non-zero but limited internship + research experience.\n\nI'm not even aiming for SWE roles or big companies, but I'm aiming for data analyst and data scientist roles for medium-sized companies, not all of which are even tech. I'm even considering a Master's, but if I can't even land the simplest of internships or undergraduate research, I'm not sure how good my odds are for a good Master's that can actually benefit my career.\n\nThe good news is that at least I've been getting interviews. I'm just getting outcompeted for all of them, or the position is only hiring 1 person and someone else just beat me out, etc.\n\nBeen applying to a few new grad roles, but none of them seem to really want me. Outside of school, am currently working on a few certifications, like Amazon Cloud and Snowflake. I'm even studying for the GRE to prep for grad school if that's necessary.\n\nHow likely is it that I'll fail to land anything, and I'll be forced to live with my parents for the foreseeable future like millennials did in 2009?",
+      "subreddit": "cscareerquestions",
+      "score": 2,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1l3fx3r/so_if_i_fail_how_doomed_am_i/",
+      "comments": [
+        {
+          "body": "There are people that lose their homes, family members, best friends, their LIMBS, fall victim to drugs, get cheated on, get brain damage, and STILL find a way to get back on their feet...\n\nI'm not trying to say your current problems and feelings are not valid, but please understand the depth of your problems then figure out what you can do to solve it.\n\n\nStay positive &amp; resilient - everything will work out. That's kind of what being an adult is about lol",
+          "score": 25
+        },
+        {
+          "body": "That depends on how much savings you have. How long can you afford to not be bringing in income?",
+          "score": 1
+        },
+        {
+          "body": "&gt; How likely\n\nThe short answer is we don't know because nobody tracks underemployment stats properly. Pragmatically, if I were to tell you it's a 37% chance or a 63% chance, does that make any meaningful difference? At the end of the day, it's a schrodinger’s cat thing: you don't know if you're cooked or not until you actually open the box.\n\nAs the saying goes, hope for the best but plan for the worst.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Having a mental breakdown",
+      "body": "Hi reddit community so I've had numerous opportunities to get a job but I always fail the technical interviews. Can you please list anything that helped you understand how to break down problems. I will go back down to the very basics if needed. Ive failed Google 2 times for internship, Amazon OA, Snowflake, Snapchat, Bloomberg, Amazon New Grad AWS, Amazon front end and about 10 other companies.\n\nThis is beginning to take a toll on me. I don't really have anybody to talk to, maybe my mom but she wouldn't understand anything. I really dont have any friends to talk to, I've tried to make a few friends and tried doing leetcode with them but they end up bailing out and I get stuck alone doing problem after problem. I just graduated and I have about a month and a half before my contract is finished for the room Im leasing at a student house. I dont have a room back home with my parents and would just be sleeping on the floor with my desk being the kitchen table when its not occupied. Im going to have to go back to home depot or lowes to pay rent/food there as well as pay my debt. I have no idea what to do besides keep going at this but I would really appreciate any resources at all. I will go down to the basics. Ill do anything.\n\n&amp;#x200B;\n\nEdit:\n\nI forgot to mentin that some of these roles I've interviewed for were in my junior year where I had no idea what I was doing. The only recent interviews I've had after doing a few leetcode problems were Bloomberg, Amazon,  Snapchat and 2 other companies.\n\n&amp;#x200B;\n\nThank you for the responses. Looks like I will be going back to basics since I dont have strong fundamentals down. Ill also broaden my search to include smaller companies not just big N. Thank you guys. Also I see people commenting that I was whining about working retail and that I've given up just know that I havent given up and I've broaden job search and Im continuing to practice. I was simply saying I did not want to go back to retail because Im tired of it, ive worked those retail stores including fast food while going to school and it just sucks. **Post is resolved.**\n\nResources suggested/mentioned in comments:\n\n\\-Grokking the coding interview\n\n\\-Algoexpert\n\n\\-Coursera\n\n\\-Books(MIT algorithms book)\n\n\\-interview cake\n\n\\-leetcode",
+      "subreddit": "cscareerquestions",
+      "score": 48,
+      "url": "https://reddit.com/r/cscareerquestions/comments/nl0c4r/having_a_mental_breakdown/",
+      "comments": [
+        {
+          "body": "I've failed countless interviews at Big N companies. Sometimes I feel like I've passed, and I know for a fact that my answer was right and optimal, but I still get rejected. My most embarrassing rejection was last year, when a company rejected me by saying that they felt I lacked the experience working at their scale. The kicker? I built the MVP and v2 systems of their (larger) competitor.\n\nAlongside this, I've met people that have answered 500+ questions on LC, have degrees from some of the best universities in the world, and have led the build of huge-scale systems - and one of them failed the OA for Amazon. I've also met people that work at places like Google, and some of them constantly fail the same interviews. I met a guy a while ago that worked at Google that feels trapped in one of their frontend teams, and he's failed Amazon, Facebook, and Bloomberg's interview several times over several years.\n\nAt a certain point, you have to realise that a good percentage of the process is pure luck. You could know your data structures inside and out, but all it takes is one mistake on a problem you've solved a million times already and you've failed. I recently secured an offer from a Big N company (technically two, but I rejected one), and I can say with certainty that my LC abilities leave a lot to be desired. I got that offer because I was lucky enough to be asked two coding questions that I was able to luckily solve in the time given.\n\nView the rejections as experience of the process, and be safe in the knowledge that you can fucking BOMB these interviews and still be asked to have another crack at it in the future. Back when I interviewed at Facebook my recruiter told me that they had hired people that had failed no less than six times in the past. Keep prepping, and you'll be fine.",
+          "score": 55
+        },
+        {
+          "body": "You are aiming too high for your skill level. Have you tried applying to companies that aren't know for hiring the best of the best?\n\nThere are tons of jobs out there at great companies that aren't BigN/FAANG/Unicorn-startups/etc.\n\nBTW, Home Depot and Lowes both have huge internal IT departments. I live in Atlanta and have known several folks who worked as software engineers at Home Depot, UPS, Delta, Coca Cola, and other non-tech companies that have headquarters and big offices here. \n\nBroaden your horizons. There's a middle ground between being an engineer at Google and working a retail job.\n\nEdit: There's no shame in starting at a non-tech company in your career. If you are good at your job you'll be able to easily climb the ladder and move to new companies. But if you can't pass the interviews at places you're applying, you need to apply somewhere else. Or get better at interviewing.",
+          "score": 85
+        },
+        {
+          "body": "Dude, you’re going for FAANG jobs.  You need to be pretty damn good.  Why not get literally other tech job, get paid decently well, and shoot for FAANG later on when you have more experience?  Or don’t bother with FAANG, there are plenty of great tech jobs out there.",
+          "score": 31
+        },
+        {
+          "body": "You probably don't understand the basics and am overwhelmed with random problems.  You need a solid foundation.\n\nGrokking the Coding Interview is my favorite, but CTCI and EPI are good books as well.  Learn those patterns.  Learn Binary Search, Sliding Window, Depth First Search, etc.  You memorize 20 or so patterns/algorithms, things just falling into place.  If you don't, you're just grasping at straws and hoping to understand problems.",
+          "score": 15
+        },
+        {
+          "body": "If you're failing interviews and don't know why that's a big problem. \n\nYou should always know why you failed an interview. \n\nMy guess is that your fundamentals are not memorized. In order to do well Leetcode, you must memorize the fundamentals. Once the fundamentals are memorized, Leetcode becomes pattern matching to the fundamental template then understanding the small changes to the template. \n\nTo learn DS&amp;A, take the Coursera Princeton Algorithms I &amp;&amp; II and memorize every DS&amp;A. Use flashcards. For example, you should be able to automatically type out KMP algorithm, graph BFS, topological sort graph, tree DFS, quick sort, merge sort etc....\n\nDo not proceed with below until ALL the DS&amp;A are memorized from I &amp;&amp; II. \n\nOnce those are memorized, you then choose 1 DS&amp;A and only focus on that.\n\nHere is an example. Backtracking template. : \n\n&gt; https://leetcode.com/problems/permutations/discuss/18239/A-general-approach-to-backtracking-questions-in-Java-%28Subsets-Permutations-Combination-Sum-Palindrome-Partioning%29\n\nOnce you memorize those templates, you then do only Backtracking problems. Do up to 50 backtracking until you get it. You will find backtracking problems are solved using those templates. Once you get backtracking, you will find you can do Dynamic Programming. Most Dynamic Programming problems are simply backtracking problems with memorization. \n\nHere is another example. Binary Search template :\n\n&gt; https://leetcode.com/discuss/general-discussion/786126/Python-Powerful-Ultimate-Binary-Search-Template.-Solved-many-problems \n\nOnce you memorize that template, only do Binary Search problems. Do up to 50 binary search until you get it. \n\nRinse and repeat for all other major DS&amp;A.\n\nLastly, do lots of interview practice. A few weeks ago Interviewing.io offered packages where you could do 35? peer interviews and 5 'professional' interviews for only ~$550. That was a great deal.",
+          "score": 30
+        },
+        {
+          "body": "There are hundreds of companies that hire without DS/algo interviews fyi",
+          "score": 15
+        },
+        {
+          "body": "Aim a little lower bud. Shoot for a smaller business as some others have said that will pay you something but more than anything give you the job title and some professional experience. After about a year or two move out and up. Keep doing LC but you won't have the pressure you have now. FANG GANG or bust is the wrong mentality to have especially as a new grad.",
+          "score": 7
+        },
+        {
+          "body": "Have you tried practicing coding a lot more?\n\nAre you applying to 1 job a day, like you just don't care?  Or you apply to at least ten a day, like you care?",
+          "score": 4
+        }
+      ]
+    },
+    {
+      "title": "software engineer  for snowflake, what to expect during technical round?",
+      "body": "Recently got an interview for snowflake, what can I expect for the technical 60 minute interview? \n\n2yrs of experience ",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1ine2pk/software_engineer_for_snowflake_what_to_expect/",
+      "comments": [
+        {
+          "body": "LC hard (including DP).",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "title": "I might be a snowflake but why do recruiters have to be deliberately mean and degrading?",
+      "body": "TL;DR: Invited for an offline interview, apparently they haven't even reviewed my CV. I had to sit in front of 3 people reading my CV and transcript for the first time. They said remarks in a foreign language that I can understand but not speak so I had to pretend I didn't understand anything. They kept asking why I didn't take this and that and why I even bother applying.. even though they said I \"passed the document screening test\" in the interview invitation email.\n\nLong rant, I need to get this off my chest. Going with throwaway account since I don't want my friends to know about all the details. I'm a hypersensitive person by nature, so putting up a though exterior is harder than ever. But I guess I've been mostly lucky in my past job-hunting experience, for recruiters I talked to were generally nice. If I lack something that they're looking for the most in an incoming intern, they'd tell me honestly and I'd always be like, \"cool, let me work on that, and I'll contact you again once I'm ready\".\n\nI'm kind of desperate to find summer internships these days, so I just applied to all companies I could find. Before you say it, yes I know I should've applied to companies that I know I'd be a top candidate in, but several times I've gotten offers from companies I thought wouldn't accept me, because they saw my potential from the many cool (tho unrelated) stuff I did on my CV -- according to them.\n\nA bit of background: my main focus is AI and data science, although I have a little experience with front-end. I'm getting interested in backend lately, since I'm taking several backend-related courses, so I'm trying my luck with backend job openings in startups in case they don't mind accepting newbies (I know it's near impossible, but why shouldn't I give it a shot anyway?).\n\nNow I'd assume that if they invite me for an interview, they'd have at least seen my CV, known the kind of stuff I have and haven't done, and saw the slightest potential in me. I received a notice that I \"passed the document screening process\" and they would like to have me in an offline interview, with dress code: formal clothes. I asked what kind of stuff I need to prepare for the interview and they didn't reply. Cool, maybe they wanted to keep it a secret\n\nSo I came, but the first greeting I heard was that they somehow lost my CV and I needed to send them a copy again. Obviously I got confused but I did anyway, and I had to sit down in a small table facing 3 guys who are reviewing my CV while pointing out things on my CV and transcript and making remarks in a foreign language (I'm an international student). It's a very awkward situation since I'm not fluent enough to talk in their language, but I know just enough to understand what they're talking about. So they'd say things like \"that girl did this..\", \"she didn't do this at all.. wut?\" etc etc, and I just had to pretend I didn't hear anything while still keeping my cool to answer their obviously impromptu questions. And one guy would translate my English interview answers to their language, since the other guys aren't that fluent in English, so I painfully need to hear my paraphrased answers throughout the interview.\n\nNear the end, some leader-looking guy came, he saw my CV for a few seconds, and asked why I haven't taken this course and that, and how I haven't taken so many required courses (but I'm in year 3 and I only need 2 more courses). He then asked questions that I didn't know the answer to, and when I tried to answer he would make obvious \"ehh what?\" faces and told me why I even applied if I hadn't took this and that. It was getting harder to maintain a straight face, so I went blabbering about how I'm used to study materials on my own, that there are countless free resources, and that I believe I could study on the way given enough time etc etc.\n\nI mean I get that those stuff are important, but if it's such a problem that I haven't taken those classes, why not reject me from the first place? I've stumbled upon this kind of situation before and the recruiter would just straight up tell me to study this and that first before re-applying, instead of painfully dragging the \"why did you even apply?\" question for hours.\n\nThe offline situation made it even awkward. After making all those mean remarks the \"leader\" casually asked me how was the interview, and I just said it was kind of not what I was expecting. I didn't have time to eat before the interview, it was raining, and their office was sooo far from the main entrance. Call me a snowflake or whatever, but I'm still shook and cry when I remembered what happened. Now on top of a bruised ego, I'm losing the interview confidence I had tried so hard to build over the years.\n\nI know I have to own it etc etc and I'm totally fine with them not accepting me for my lack of experience, but can't they do it in a nicer way?",
+      "subreddit": "cscareerquestions",
+      "score": 17,
+      "url": "https://reddit.com/r/cscareerquestions/comments/nri7md/i_might_be_a_snowflake_but_why_do_recruiters_have/",
+      "comments": [
+        {
+          "body": "That's not being a snowflake. What's the company name? Because they sound like shit and if you're not comfortable saying it here I would at least post the experience on Glassdoor. \n\nWhile it's not for everyone if you start talking in a language I don't understand I'm going to end the interview. People only do that when they don't want you to know what they are talking about.",
+          "score": 31
+        },
+        {
+          "body": "I think you dodged a bullet. Those people sounded incredibly rude to me, so it's probably a toxic place. If anything this is a win. Don't worry about this, your experience isn't normal.",
+          "score": 18
+        },
+        {
+          "body": "If it is really like you described (and you don't see things for worse than they are), those people are dickheads with whom you do not want to work anyway.\nJust brush off the dirt, get up and do it all again.\n\nThe upside:\n- You have been in an highly stressful interview and have survived, meaning that you know the situation and this cannot get to you anymore.\n- You know what you want and do not want out of an interview, and can get out of those situations earlier the next time.\n- You collected interview experience.\n\nNothing else happened.\nSeems to be a pretty good outcome, if you ask me. :)",
+          "score": 6
+        },
+        {
+          "body": "Recruiters aren't mean and degrading.\n\n***People*** are.\n\nYou will experience shitty people everywhere. In recruiting, in HR, your direct management, your co-workers, your subordinates, other teams you depend on, product managers, clients, contractors, etc, etc, etc, etc.\n\nFrom your side, you need to be able to identify toxic environments and avoid them. You don't want a job at a company that breeds toxicity... even if you get passed their mean recruiters, there's probably some very mean management ready to force you to work 80 hour weeks.\n\nSo you just got unlucky, and have had some bad experiences with bad recruiters/interviewers.\n\nIt doesn't describe the entire industry. You just need to keep applying, and stop the process for any company that gives you a bad vibe.",
+          "score": 5
+        },
+        {
+          "body": "If it makes you feel any better, these people are miserable and most people who interact with them would agree with you.",
+          "score": 5
+        },
+        {
+          "body": "Most interviews I've had in my life have been pleasant. However, I've ran into 2 people who were deliberately rude to me. One accused me of lying on my resume about having a degree when I didn't. I put the anticipated graduation date. I should have hung up on him because he was an idiot during the whole conversation. The other one seemed to just be in a bad mood and was annoyed to be conducting the interview. You just have to move on to the next one. Some people are gonna be assholes. It's just part of life.",
+          "score": 4
+        }
+      ]
+    },
+    {
+      "title": "Company won't pay for onsite interview accommodations (or even move the date)",
+      "body": "So a company in a city about four hours (one way without traffic) away wants me to come and interview onsite. Eight hours in a car might not seem like a lot, but with the interview it makes for a very long day. So I asked them if they would be willing to pay for a hotel which they responded no. I also asked them if they would consider moving the date as with another date I might be able to get a cheaper room. But they didn't like that idea either as it would push the interview back by more than a week because the majority of their people are out of town the week of the fourth ( I did initially agree to this date, but that's when I assumed they would cover expenses).  \n\nThe recruiter mentioned to me that she had people with children who had driven 6 or 7 hours one way just for the opportunity to interview...etc and the company was very interested in me. However, I'm honestly very fed up with them and their inflexibility and unwillingness to move anything. I realize that it is only four hours away, but I would think that they would try to find someway to accommodate me either by moving the date or by paying for the hotel.",
+      "subreddit": "cscareerquestions",
+      "score": 56,
+      "url": "https://reddit.com/r/cscareerquestions/comments/6jyyuj/company_wont_pay_for_onsite_interview/",
+      "comments": [
+        {
+          "body": "They are being unreasonable.  Everyone's personal situation is different; I'd likely decline the onsite in a professional manner. If they are going to jerk you around before hiring you, what is the likelihood they will jerk you around after hiring you?",
+          "score": 131
+        },
+        {
+          "body": "Just move on. Any company that doesn't pay for onsite interview isn't worth your time.",
+          "score": 45
+        },
+        {
+          "body": "Tell them you're not interested in interviewing. If they treat you like this in an interview it'll be even worse if you work there. ",
+          "score": 43
+        },
+        {
+          "body": "If they're truly interested in talking to you, they wouldn't mind moving the date.",
+          "score": 16
+        },
+        {
+          "body": "&gt; The recruiter mentioned to me that she had people with children who had driven 6 or 7 hours one way just for the opportunity to interview\n\nUgh. Don't you just hate recruiters like this? Why would people with children be _so_ interested in such an unaccommodating company?",
+          "score": 17
+        },
+        {
+          "body": "**How they respond to your requests tells how they are interested in you.**\n\nIn my practice in recruitment, we provide free lunch only for those applicants up for second to final interview who would be taking a whole day process considering their evaluation scores from initial interviews with above average scores. While other applicants have to take their lunch on their own expense for us to cut costs. I know that's unfair, but that's what the budget is for us.",
+          "score": 27
+        },
+        {
+          "body": "A full workday of driving round trip objectively sucks. The fact that they don't get that, or if they do get it they're unwilling to solve it, is a red flag.",
+          "score": 10
+        },
+        {
+          "body": "&gt;The recruiter mentioned to me that she had people with children who had driven 6 or 7 hours one way just for the opportunity to interview..\n\nOk Call one of them then\n\n&gt; the company was very interested in me.\n\nThen a $100 room at the econo lodge shouldn't be a big deal\n\n\nIMO, decline the interview, and move on with your life. ",
+          "score": 11
+        }
+      ]
+    },
+    {
+      "title": "advice for getting into unicorns from C++ background? incoming new grad\n",
+      "body": "I'm a student and C++ developer that's interned on data-intensive apps at top companies (think mongodb, snowflake etc).\n\nI'm in grad school right now taking a lot of computer arch / compiler related coursework. The more I get into the field the more sparse the knowledge feels. I've put a good amount of thought into it and if I'm being honest with myself I should have stuck with typical SWE. I'm not that great at more academic subjects that are closer to typical engineering (parallel compute, compiler optimization) and am much more confident that I would be a top performer and higher earner at a typical big name company. Maybe it's just impostor syndrome, but I often feel like I don't truly understand anything despite looking very impressive on paper.\n\nI'll also consider quant finance (I've interviewed at top quant firms but no offers) but I don't think the growth compares with top big N swe's long term.\n\nI will be interning at 2 more big name companies before graduating in May 2025. On one I'll be building C++ metaprogramming libraries and working on accelerating build systems. The other will be distributed systems in rust / golang.\n\nI think that working backwards from end goals is often a good approach to success. I need to find a niche, and use that to get into top paying unicorns like discord, roblox, openAI where I can grow the most. Given my background, I was considering the following:\n\n* distributed systems - rust, golang\n* build system expert - i think this leans somewhat close to infra / non-technical but I see some demand from bytedance, apple for these\n* continue with C++ - most jobs that I see that actually require advanced C++ (metaprogramming, 20+ features) are in quant finance but if there is growth here I'll keep at it\n\n**If any experienced engineers would be willing to help guide my new grad search, I would greatly appreciate it.** I also believe in giving back to the community. I go to a shit tier school and suffer from clinical depression but made it this far despite having to teach myself everything I know. If you are in a similar tough spot shoot me a dm and I'll do my best to help out.",
+      "subreddit": "cscareerquestions",
+      "score": 3,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1cmosoy/advice_for_getting_into_unicorns_from_c/",
+      "comments": [
+        {
+          "body": "cockroach? materialize? databricks?\n\n\nis your goal to become a well respected sre or a swe working on a distributed systems core\n\n\nimo there is only a very small set of distributer systems infra companies worth working for. the majority are are shit all the way down",
+          "score": 2
+        },
+        {
+          "body": "C++ is not among the first programming languages that companies go to for anything network-facing. It's not impossible to secure and stabilize, but it is exorbitantly expensive.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "more ROI in systems-level software or at big-name web companies?",
+      "body": "I'm a student and C++ developer that's interned on data-intensive apps at top companies (think mongodb, snowflake etc). I turned down companies that were better on paper (FAANGs and unicorns) as an underclassman because I thought the performance side of things was more interesting. Also because I was a little annoyed at how spurious hiring in web seemed to be. \n\nA couple years down the road I have many more internships at top companies and am in grad school. A good amount of the roles I interview for are basically performance engineering with a bit of coding stuck in. But, I'm at the point where I should be thinking about tech as a responsibility and not just an opportunity like it was when I had just started school.\n\nMy view is this: I should be working wherever sets me up best to be a senior contributer, own large projects, and be knowledgable and valuable in general.\n\nThis is where systems, in my eyes, falls flat. Seniority and value is determined by the scope and scale of projects one can own. To my knowledge, it would be much more feasible for me to be the lead in a more typical big N company doing backend web versus something like compilers / performance engineering, where the folks with doctorates and years of authoring novel papers would be the experts. \n\nI see a couple sides to the situation:\n\n1. web - definitely more growth. principal, staff roles at places like meta exist by virtue of massive scale, which isn't really a thing in most systems companies. if I can make it to that level it would definitely be better to be there.\n2. systems - more \"hard skills\". closer to typical engineering and its placing in the industry is more likely to improve as AI begins to dominate the scene and performance becomes critical. also far less susceptible to the ebb and flow of demand for web devs\n\nSo, given that I'm doing the following internships:\n\n-  low latency c++ and embedded build systems\n\n- distributed systems in rust/golang\n\n**What would the senior folks in this channel recommend I pursue? Any thoughts/criticisms on my observation of the two broad categories I detailed?**\n\n\n\n\n\n\n\n\n\n\n\n",
+      "subreddit": "cscareerquestions",
+      "score": 3,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1cmpvd0/more_roi_in_systemslevel_software_or_at_bigname/",
+      "comments": [
+        {
+          "body": "Ultimately for your first few roles, doesn't matter. I wouldn't aim for somewhere where you can grow into senior quickly, because those are places where you're likely lacking in real senior talent that can grow you into a **good** senior.\n\nIndex on finding a company and a team that values good engineering growth / learning culture, learn everything you can from people you respect, and you'll find that you're comfortable taking on more things. Then, you can find a place where you'd enjoy a senior role.",
+          "score": 2
+        },
+        {
+          "body": "You can find seniority in systems programming. I'm not sure who told you otherwise.\n\nDo what _interests_ you the most. You'll do the best there, and have the most impact. And that's what you're ultimately graded on as a senior IC.\n\nAlso, I don't understand the false dichotomy you've constructed. Big-name web companies have vast armies of engineers doing \"systems\" work. It's not all web stuff, not even close.\n\nYou wanna do compilers or perf engineering? A place like Meta or Google is your best bet.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Potential Job Help - Sales Operations DS - Forecasting",
+      "body": "Hello all! I have an interview for a sales operations DS position at a provider of critical infrastructure and services for data centers and related facilities. I want to nail this interview, but I have been having a hard time figuring out what to study for the technical side of things, what some good questions might be to ask, and what kinds of industry questions they might ask. They said they need someone who can do forecasting and has the ability to explain statistical models to salespeople and convince them that they are reliable and should be used (I slightly above average on the last part but I have great soft skills and an am passionate about this).\n\nBelow is my schedule, an email from the recruiter, and the job description. I only have one year experience as a predictive analyst at an insurance company, I took a time series course in the spring of 2021 (plus my thesis involved change point), and I know R (really well), excel (really well), R Shiny (Kinda, it's been a few years), and Python (the absolute basics). I hit it out of the park at the first interview with the hiring manager because I showed her some projects I have been working on, including a basic ARIMA model I made in preparation for this interview.\n\n**Schedule:**\n\n1. Sales Data Manager - 30 minutes\n2. Sales Data Manager - 30 minutes\n3. Director, Demand Planning - 30 minutes\n4. 2 Analysts - 30 minutes\n5. Director, Sales Data Analytics - 45 minutes (I already interviewed with her for 30 min. I showed her some projects I had been working on and she was impressed. I suspect this will be the more technical part.)\n\n**Email:**\n\nI’ve included the job description below.  The other things we spoke about were modeling used for forecasting.  Rohit, Director Demand Planning works through what we call SIOP Sales, Inventory, Operations, and Planning.  Keep that in mind and how your experiences may be relevant to a sales operations team.\n\n**Job Description (says SDS but they would hire me in as a DS):**\n\n**POSITION SUMMARY**\n\nThe Senior Data Scientist will research, develop, and deploy actionable best-in-class statistical and machine learning models and methods to measurably improve the sales force's effectiveness and overall outcomes.\n\n**RESPONSIBILITIES** \n\n* Development of processes to support advanced analytics and data driven decision making processes. Provide consultative and direct support to assist the development of foundational analytics capabilities to accelerate and leverage advanced analyses.\n* Communicate complex topics to senior and regional leaders and build strong relationships and data/model confidence at all levels of the sales organization.\n* Uses business experience and education to recommend, develop, and implement best practices in model development, recommend appropriate models for business needs, support business review processes with effective visualizations and automate processes where needed.\n* Mentors other data scientists and sales analysts to promote a culture of collaborative growth and continuous learning and improvement\n\n**QUALIFICATIONS**\n\n* 5+ years’ analytical experience or commensurate higher education\n* Experience working with a programmatic statistical language like Python or R, Python preferred\n* Experience working with a visualization tool like Power BI or Tableau, PowerBI preferred\n* Experience working with SQL and a large data platform like Snowflake or Hadoop\n* Proficiency and application experience in data analysis, business intelligence, simulation, and optimization.\n* Exposure to and proficiency in a broad range of analytics methods and how to deploy them in real-world applications\n* Attention to detail in execution\n* Able to take high level direction and create/implement actionable plan \n* Self-directed and confident in managing a portfolio of ongoing projects, advocating for prioritization based on relative business value.",
+      "subreddit": "cscareerquestions",
+      "score": 2,
+      "url": "https://reddit.com/r/cscareerquestions/comments/19bsfc2/potential_job_help_sales_operations_ds_forecasting/",
+      "comments": [
+        {
+          "body": "[deleted]",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "I am confused as to how to build my career seeking advice",
+      "body": "Hello,\n\nI have been having issues with my career as of late. When I left college I kinda just fell into the first job that I got. The role include a bunch of different hats from .Net development to devops guy but it eventually landed on being a data engineer role. I thought it was fine every day getting to work with data bricks and python however it slowly became more and more exclusively data management work in snowflake for the data science team, obviously... However I really wanted the days where I was coding in python back so I moved to another company as a higher level data engineer. When I got there however I realized there was no more work left and most of the day was spent ensuring that SLAs were met and on call support needs were met. No programming really to be found. This really threw me into a funk and I ended up quitting after 7 months. I feel really embarrassed about this and know that I fucked up.\n\n&amp;#x200B;\n\nAfter the past 2 months I have gotten much better and am back to doing leetcode daily and working on some small game dev projects that I enjoy. I also realized I was in the wrong career track. Data engineers are not SWEs and they do not seem to focus so much on coding up a product as much as maintaining data quality and ensuring that data pipelines are delivering on time.\n\n&amp;#x200B;\n\nMy question is are there careers where SWEs build a product and it eventually gets released? Are they coding every day/planning and architecting the system they plan to put into place? I would also like to work with cloud technologies and front end frameworks. To me it feels like I am describing a full stack engineer but I just want some reassurance that that is indeed what they do. Also it seems that my data engineering skill set does not fully transfer to SWE and I am struggling to get interviews. As such would back-end engineers also do something close to that. If I got a back-end role could I become a full-stack engineer from that? Also do any of you also have the issue where if feels like you are not doing anything day in day out and your manager keeps switching priorities or does not have any priorities for tickets to assign? If so how do I find a place that has a specific goal that needs to be implemented that does not switch tech stacks all the time?\n\n&amp;#x200B;\n\n\\[TLDR; I fucked up and became a data engineer. Do full-stack devs code all day and deliver real actual tangible products? Do back-end engineers? If the best I can get is a back-end engineer role first can I pivot into a full-stack role with that?\\]",
+      "subreddit": "cscareerquestions",
+      "score": 2,
+      "url": "https://reddit.com/r/cscareerquestions/comments/10pd1s6/i_am_confused_as_to_how_to_build_my_career/",
+      "comments": [
+        {
+          "body": "&gt; When I got there however I realized there was no more work left and most of the day was spent ensuring that SLAs were met and on call support needs were met. No programming really to be found. This really threw me into a funk and I ended up quitting after 7 months. I feel really embarrassed about this and know that I fucked up.\n\nI don't see anything embarrassing about this. You entered into an engineering position and got a support role instead. That's not a fun place to be.\n\n&gt; Data engineers are not SWEs and they do not seem to focus so much on coding up a product as much as maintaining data quality and ensuring that data pipelines are delivering on time.\n\nThey are not _developers_, but they are software engineers. (As a fellow non-developer software engineer, this is a distinction I am sensitive about.) The way they ensure data quality and create and maintain data pipelines is through software engineering. The pipelines are their product.\n\nYou seem to want to try a user-facing role. That's fine. Be explicit about that when you talk to companies.\n\nBut be aware that that does not imply all the other things:\n\n* Every software engineering job should be building things and releasing them; if they aren't, that's organizational dysfunction. Often companies work on cycles where you release things a few days after you start working on them (you do small pieces continuously).\n* Junior engineers are generally programming every day, again in every software engineering category. As you get more senior that changes. Software engineers should not be spending a ton of their time doing manual support work, even for the support-oriented jobs like SRE.\n* Architecture is a core software engineering skill that is again practiced by all types of software engineers, although some companies don't give it to junior engineers.\n\nThat is, you could get all of these things in a data engineering job.\n\n&gt; Also do any of you also have the issue where if feels like you are not doing anything day in day out and your manager keeps switching priorities or does not have any priorities for tickets to assign?\n\nThere are many people who work at companies with poor vision, yes. You don't have to. Consider some of these questions:\n\n* https://github.com/viraptor/reverse-interview\n* https://github.com/tBaxter/questions-for-employers\n* https://charity.wtf/2021/02/19/questionable-advice-how-can-i-sniff-out-bad-managers-while-interviewing-for-a-job/\n\n&gt; If so how do I find a place that has a specific goal that needs to be implemented that does not switch tech stacks all the time?\n\nSwitching tech stacks often is a sign of a junior engineer. If your company's leadership is still junior engineers (in maturity, not years) then that's going to be a problem in many different ways. Honestly any of the questions from the above lists would probably reveal that, but specifically you could ask about their strategies for picking a technology for solving a problem. What you want to hear is something approximating http://mcfunley.com/choose-boring-technology .",
+          "score": 3
+        },
+        {
+          "body": "The \"non-coding\" areas of engineering are really important and you can build an entire successful career in that direction.  But it is also important to balance your day-to-day experience with longer term career goals and work-life balance.  I can send you some resources about building a cohesive software engineering career if you are interested.",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Fell off CS Track, Train Derailed... Halp!!!",
+      "body": "Halp, I am struggling with how to decide on which direction to go forward.\n\nI got my degree 5 years ago from a decently respected state school. I actually worked hard for it, learned a lot, and think about Computers/Software on a frequent basis.\n\nMy first job (25 months) was a real struggle with no mentors. Like a lot of first jobs it was pretty old tech and a mix of sys admin and dev work on super dated systems. I quit because I thought I could make it with everyone getting hot offers and jobs in Cali / Seattle. I was stressing out and avoiding going to by starting my day at 10:30/11:00am and did not have the typical software dev shop experience working on a modern stack picking up little tricks of the trade everyday. I had to learn coding practices / technologies / etc from scratch as there was no senior level person to do code reviews with and get feedback from.\n\nMy second job (15 months) again lacked the formal process, coding standards, and tech stack upon which I could learn to master a Software Development Stack. I learned very surface level knowledge related to Docker, Python, Systems Engineering Tools, and Dev Ops. I also wasn't able to start or finish any actual project.\n\nMy third job (9 months) was another old dinosaur / half more modern Java Spring Stack as a contractor. I was finally working with an Agile Team, consisting of a Scrum Master, Senior Devs, and a Tech Lead. I was just getting started working on a new project helping to develop a new Banking API when they let me go.\n\nI got discouraged by being fired, and the amount of **DSA** questions / interviews I intend to bomb. (Yes, I read ***Cracking the Code Interview*** book and did several Hackerrank (leet code) questions to further develop my skill for coding questions.)\n\nDuring my entire Bachelors in CS and into my professional career, I have seriously questioned whether or not I wanted to be a dev / liked being a dev. It doesn't seem to come easy to me. (Maybe I didn't make the 140+ std dev iq cutoff necessary to do the job well). (Probably like 110)\n\nIn my struggle to redefine my identity I have considered several different career opportunities for myself.\n\nThe following are previously considered careers:\n\n* Economist\n* Psychologist / Therapist / Psychiatrist\n   * I am really good at understanding people, and giving pretty decent advice.\n* Lawyer\n\nThe following are currently considered careers:\n\n* Cyber-Security\n* Software Sales / Sales Engineering\n   * Reevaluating sales based on my recent experience in retail sales.\n      * (I enjoy talking and getting to know people, but eventually run out of things to say.)\n* Data Engineer / Business Intelligence (I doubt I have all the skills for Data Scientist)\n* Scrum Master\n* Entrepreneurship\n* Hard Sciences / Physics (Physics is definitely top 2 / 3 in coolness.)\n* Robotics\n\nHonestly, I haven't pursued any of these like a highly motivated, successful young adult because of depression / covid / avoidance / and I am a straight up NEET / doomer snowflaking b\\*\\*ch!!\n\nThings I like:\n\n* Anything Hardware\n* **Reading about Technology / Architecture**\n* **Physics** like above\n* **Numbers**. I like to read graphs and find patterns with numbers. I like stats and numbers stick in my head like glue.\n* Being outside / working on ***real*** projects.\n* Also into learning about RF engineering things like Routers, CDMA, Waves, and 5G.\n* Before to work on something real, and has an impact on the world.\n\nWhy am I failing with my CS Career?\n\n1. Didn't do enough LeetCode Questions\n2. Read about lot's of new / upcoming technology, but haven't really built my own project on Github yet.\n   1. (I can read code really well, and I can write decently if I can follow the documentation)\n\nWhat am I naturally good at?\n\n* Analyzing and identifying good from bad.\n* Looking at problems from multiple points of view.\n* Identifying potential product improvements.\n* Remembering numbers, thinking really precisely.\n* \"Seeing things\" others don't and \"getting\" technology. (INTP)\n* Leading and caring about people (empath)???\n* (If I had employees) Really analyzing my employees, identifying their strengths, and helping them grow.\n\nWhat I would like help with:\n\n* Tell me about your transition from being a Dev to being a Scrum Master / Manager / Sales (anything different that being a Dev).\n   * Why did you do it?\n   * How did you know this new career was for you?\n   * What did you do to make the transition?\n* How do I get an entry-level position as someone with 4+ years experience but no stack focus?\n\nP.S. Telling me to do more LeetCode questions is an answer.",
+      "subreddit": "cscareerquestions",
+      "score": 2,
+      "url": "https://reddit.com/r/cscareerquestions/comments/rzidk8/fell_off_cs_track_train_derailed_halp/",
+      "comments": [
+        {
+          "body": "If you find yourself in a difficult place in your life, we urge you to reach out to friends, family, and mental health professionals. Please check out the resources over at /r/depression, /r/anxiety, and /r/suicidewatch. Feel free to [contact the /r/CSCareerQuestions mods](https://www.reddit.com/message/compose?to=%2Fr%2Fcscareerquestions&amp;subject=&amp;message=) for more information or help.\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/cscareerquestions) if you have any questions or concerns.*",
+          "score": 1
+        },
+        {
+          "body": "It sounds like your first two jobs weren't a good fit for you (you mentioned legacy systems, poor engineering practices, and SysAdmin and DevOps work instead of the SWE work you wanted). Then your third job was slightly better but got cut short. Basically, you're discouraged (and rightfully so) after three jobs that didn't pan out, so you're questioning whether to stay in the industry, right? Let's unpack your post.\n\nFirstly, you mention depression. See a doctor about this and get treatment, otherwise it will continue to wreak havoc on your self-esteem and make your job hunt much harder.\n\nSecondly, address your fixed-mindset belief that a high IQ is required to be successful in this industry. That is false, and worse, it's an excuse for you to quit and avoid confronting the hard, uncomfortable work of figuring out what mistakes led you to this point and taking action to do better going forward. The most glaring problem is repeatedly finding yourself in jobs that clearly are poor fits for you. Do you ask questions during interviews with these companies, about their tech stack, engineering practices, whether mentors are available, and the specifics of your role -- i.e. all the things you've identified you need in a job to make you happy and productive?\n\nThirdly, if you feel you don't have enough stack experience from your previous jobs, and you want a SWE job that uses different tech, then you already know what you need to do -- LeetCode to pass interviews and make small projects to get practice with the tech stack you're interested in. If you're struggling to get a new job, you need to identify what part of the job hunt isn't going well, and fix it. Are you not getting any recruiter interest? Have this sub review your resume. Are you failing the recruiter screen? Practice mock interviews with a friend so they can find red flags and correct them. Are you failing the technical interviews? Then practice more.\n\nIn short, you need to get your mental health in shape and then find better roles. If you do some self-introspection and find that the SWE career path really isn't for you, then fair game, but the tone of your post makes it sound like you're just at a low point right now, and that's fixable.",
+          "score": 8
+        },
+        {
+          "body": "Your post is so confusing.\n\nOn one hand you say you're good with code, can read code, good with people etc. Yet in the same post you think that your CS career is failing because you didn't do enough leetcode?\n\nWhat? building your own projects on github? \n\nDo you really have 4+ YOE or are you a fresh grad?",
+          "score": 6
+        },
+        {
+          "body": "Honestly, \n\nDo more leetcode",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "title": "Final panel interview for Sr SE @ Snowflake",
+      "body": "I’ve got my final panel + in-person presentation coming up for a Senior Solutions Engineer role at Snowflake. 🥲 Big step… equally excited and bricking it.\n\nQuick background for context:\n\t•\t5+ years as a Sales Engineer at high-growth SaaS companies (different tech domain)\n\t•\tComfortable in front of execs, driving value stories, discovery, the whole dance\n\t•\tI am a Snowflake user (SQL queries, dashboards, etc.) but not exactly “let me whiteboard the full architecture with hand gestures” level yet\n\n1️⃣ What should I definitely nail in the presentation for Snowflake specifically?\n\n2️⃣ What kind of business-acumen questions do they grill you on? \n\n3️⃣ Any curveballs/architecture questions that are totally fair game?\n\n4️⃣ Mock interview angels willing to run me through a quick session? I’ll owe you a pint 🍻 or a virtual one if you’re across the pond.\n\nAny tips, traps, or “wish I’d known this before” nuggets — send them my way.\nAppreciate you all in advance — this opportunity feels massive and I want to give it a proper go. ",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1ozxj6v/final_panel_interview_for_sr_se_snowflake/",
+      "comments": []
+    },
+    {
+      "title": "180 Applications in for summer 2021 as a sophomore, feeling like complete shit.",
+      "body": "The Hirevues, the OAs, the shithole that is called Pymetrics, the constant leetcode grinding. I can't handle this man. I really want to find a company where I can grow my skills alongside providing value and it just seems impossible at the current time. Looking for my first opportunity has been incredibly difficult, I thought I would be having an easier time but life is hard. I don't want this post to make me seem like I deserve anything, if I need to get better to get an internship then so be it.\n\nYes, my resume has been reviewed (both online and by career center), my GPA is 3.7+,  I have a MERN fullstack project and a 3D Web Application project that is solidly complex, I've started a club (and lead a team that preps for coding interviews), I am a private CS tutor, I was part of a startup group (with a NSF grant), I have experience in many languages (C++,Python,JS,Java).\n\nI don't know what I need to do to become a better candidate for companies. I'm also pretty social so that is definitely not the issue, I have had 3 interviews so far (phone) and I seem to get along with interviewers well alongside cracking some jokes (professional of course... I'm not an idiot) and getting familiar. I know that I'm not some special snowflake that deserves an internship, but damn if  it's not hard to look at my excel spreadsheet with 130-140 companies with no response so far (do the math on the rejections lol). I hope my work amounts to something by the end of this.\n\nJust venting, if anyone has tips for anything I've said above I would gladly appreciate it (my ego won't be hurt :) ). Thanks!",
+      "subreddit": "cscareerquestions",
+      "score": 28,
+      "url": "https://reddit.com/r/cscareerquestions/comments/j5c3mw/180_applications_in_for_summer_2021_as_a/",
+      "comments": [
+        {
+          "body": "Winston Churchill: \"If you are going through hell, keep going.\" Best of luck man. I felt the same thing freshman year. Make sure you get some referrals if you can, those really speed up the process. Career fairs help, but of course things are different this year.",
+          "score": 44
+        },
+        {
+          "body": "All it takes is 1. You are just a sophomore though so I wouldn’t worry too much. Taking an internship at a small local company my sophomore year wound up being a good move for me. The next year I was able to get interviews at a few top companies even though I went to an average state school. Companies like juniors because they want people starting full time within a year after the internship.",
+          "score": 38
+        },
+        {
+          "body": "email all yr local companies. alot of em that got back to me didnt even have any job openings.",
+          "score": 17
+        },
+        {
+          "body": "[deleted]",
+          "score": 14
+        },
+        {
+          "body": "I mean you’re a software so it’s never easy and now especially with covid. There’s usually specific freshman and sophomore programs that you should keep an eye out for.",
+          "score": 6
+        },
+        {
+          "body": "[deleted]",
+          "score": 10
+        },
+        {
+          "body": "Where did you find the postings for the internships? If you're randomly applying on LinkedIn you'll have a pretty low response rate. If your school has handshake or any other career site I would use that.\nAlternatively you can try to get referrals from people on sites like rooftop slushie and blind.",
+          "score": 3
+        },
+        {
+          "body": "Applying via LinkedIn is a great way to have your application end up in the same inbox as everyone else.  Instead: try finding the name of the person you want to contact, use a chrome extension like ClearBit to find their work email, and write them a short email with your resume.  I can’t guarantee it’ll help, but’s it might be worth a shot.",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "title": "Which offer to choose? Mexico edition",
+      "body": "Hey r/cscareerquestions\n\nI was laid off from a big tech company in the US last year and have been looking for a new job. After 600+ applications and 60+ hours of interviews I finally landed 2 offers in Mexico:\n\n&amp;#x200B;\n\nCompany A:\n\n\\- Data Engineer position\n\n\\- \\~82k USD Total Compensation\n\n\\- Nice people to work with\n\n\\- Offer already issued\n\n&amp;#x200B;\n\nCompany B:\n\n\\- Software Engineer position\n\n\\- \\~70k USD Total Compensation\n\n\\- Interesting project\n\n\\- Have been waiting for written offer for almost 3 weeks\n\n&amp;#x200B;\n\nTo be honest I had a bad experience with Data Engineering and wanted to go to SWE, but DE is paying more this time. Also I'm paranoid about Company B taking so much time to send the offer.\n\n&amp;#x200B;\n\nI'm still interviewing with other 5-6 companies that are going well, some of they paying higher.\n\n&amp;#x200B;\n\nWhat would you choose?",
+      "subreddit": "cscareerquestions",
+      "score": 15,
+      "url": "https://reddit.com/r/cscareerquestions/comments/13ovnld/which_offer_to_choose_mexico_edition/",
+      "comments": [
+        {
+          "body": "DE can mean very different things. Are you mostly writing business logic with some prebuilt functions, stringing together some solutions and basically doing data eng ops?\n\nOr are you writing scala/python for spark/flink?  Are you getting to work on infra?\n\nThe former i’d avoid, the latter you’re basically still a SWE.",
+          "score": 16
+        },
+        {
+          "body": "[deleted]",
+          "score": 5
+        },
+        {
+          "body": "Are you working with a Spanish-speaking team?   \n\n\n\\*Also, curious if anyone has insight into Mexican companies and their entry-level engineering roles. I speak native Spanish and English so wondering if that's a plus down there. I also have my BS degree from the U.S. and I'm looking for anything I can get my hands on.",
+          "score": 2
+        },
+        {
+          "body": "[deleted]",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Job prospects of security engineer?",
+      "body": "The job exists in tiktok, snowflake etc.\n\nDo they hire ng for this role? What do they interview? What's its impact and job prospect compared with other roles like sde?",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1crkjz9/job_prospects_of_security_engineer/",
+      "comments": [
+        {
+          "body": "[removed]",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "So, another IPO for a company that reached out to me last year...",
+      "body": "Looking at my e-mail, I see that Coinbase reached out in May of 2020 and had a recruiting screen.\n\nAt my level, I would have gotten at least $500K in RSUs. They had a perfect position for me, and I was just finally mastering LeetCode at that time. I eventually said no to further rounds of interview because I was happy where I was at.\n\nI believe, at the time, Coinbase was valued at $5 billion or so.\n\nAnyway, if I got it, the RSUs would have been $8 million. I don't have exact numbers, but that's around it.\n\nAhh...Fudge\n\nSimilar things happened to me with Snowflake and c3.ai as well.\n\nJust wanted to point out that FAANG isn't the biggest payout.",
+      "subreddit": "cscareerquestions",
+      "score": 46,
+      "url": "https://reddit.com/r/cscareerquestions/comments/mrjt5m/so_another_ipo_for_a_company_that_reached_out_to/",
+      "comments": [
+        {
+          "body": "Thinking like this is like going to a casino, watching a blackjack dealer bust, and going \"I can't believe I didn't bet all my money on that!\"",
+          "score": 86
+        },
+        {
+          "body": "Yeah these IPOs have been pretty 💰lately. It certainly seems like the best way to make a ton of money these days. Just join a company that’s already valued highly with rumors of IPO. Huge upside with very limited downside. I was being recruited by Roblox and could’ve joined before they went public, and TikTok is breathing down my neck and I know the offers they’re giving out are quite high without factoring in any post IPO bump. Probably won’t move though, I like where I’m at and I’m already making what feels like an absurd amount. \n\nWhen I do decide to jump ship, I’m taking a long look at any pre-IPO companies, that’s for sure.",
+          "score": 9
+        },
+        {
+          "body": "Really? I remember the presence of Coinbase was pretty big in May last year",
+          "score": 8
+        },
+        {
+          "body": "FAANG is never the biggest payout. It's stable, boring, and political.",
+          "score": 6
+        },
+        {
+          "body": "♪┏(・o･)┛♪┗ ( ･o･) ┓♪",
+          "score": 4
+        },
+        {
+          "body": "That's like saying \"should've invest all in telsa\" instead of index funds.",
+          "score": 4
+        },
+        {
+          "body": "It is so unbelievably rare that a small startup becomes that successful. FAANG and fintech are the biggest *guaranteed* payouts.",
+          "score": 4
+        }
+      ]
+    },
+    {
+      "title": "Advice",
+      "body": "I’ve just been laid off from one of the WITCH giants I’ve been working at for the past three years and I’m not sure which direction to go with my career. \n\nI started out in college with the OOP languages: Java, C, C++ and coding simple projects like small games or calculators and whatnot. \n\nWhen I joined the WITCH company just to start my career I was forced into a data track and was exposed to a brief summary of data skills in the initial training (SQL, MongoDB, Spark, Hadoop, Scala, Pig, MapReduce, Sqoop, etc)\n\nI was placed on several projects during the years none of which used any of my previous skills or the things I learned in training. (DataStage, Snowflake, Informatica, ADF) and these tasks were seemingly menial. Maybe write a few queries here to double check a replication or successful transfer or check a count and place it in a .csv. I was so lost at my client with DataStage and my coworkers were unwilling to help so I got an external DataStage cert just to be able to perform better at work only to be shifted from the project a month later. \n\nNow I’m job searching and I’m not sure where I want to focus. Should I stick with the data exposure I got on projects or take a step back and go back to OOP? I find both interesting in different ways. What is the best way to practice. I’ve done some HackerRank and Leetcode as well as W3Schools and lectures. I’ve also had a few interviews but I don’t think my coding skills were up to par for some and others I’ve made a final round debut only to get turned away. \n\nAny help is greatly appreciated.",
+      "subreddit": "cscareerquestions",
+      "score": 2,
+      "url": "https://reddit.com/r/cscareerquestions/comments/x3sdi5/advice/",
+      "comments": [
+        {
+          "body": "Were you on client and they laid you off or sitting on bench and they laid you off? I'm just curious cause I could be in this situation soon lol",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "i messed up big",
+      "body": "long time lurker here (US). made a throw away account for obvious reasons.\n\nI graduated with a bachelor's in computer science around 2017 feeling lost. I had no interest in the subject but had decent grades and I only kept pursuing it because my parents wanted me to get a degree I would have a future with. The school I went to wasn't good. I had to take at least 19 credits per semester with community service and had to deal with teachers who knew very little and had no interest about CS or teaching itself. Due to financial reasons, I stayed and graduated there. I didn't secure any internships because I was incompetent, unconfident and it also didn't help that I was a foreigner in need of sponsorship. Once I graduated, I had to wait at least half a year after graduation to undergo adjustment of status through family. I applied to several places and got nothing but rejection from every place, even ones like Revature.\n\nSomeone mentioned trying a witch company so i did that. Eventually in 2018 I landed a job as a QA and worked until the end of 2019. My team was amazing. My manager was great and she gave me good feedback. Around the time the contract was over, my manager offered to help apply for a position with the company. It didn't guarantee me the job. I would have to go through the interview phase again. I should've taken it. My self doubts and the way I entered the workforce demotivated me from doing that.\n\nIt was around this time that news of the pandemic started circulating around. It was also around this time that I decided to confront my fears about coding and started coding every day for a year. I was curious about Data Analysis and practiced sql/python with its data specific packages(numpy, pandas, matplotlib) and also got exposure to BI tools like Tableau. I volunteered for a Non profit as a Data Analyst for a month long project to apply my skills and use it in the real world. During this time I realized that I didn't hate the subject or learning. It was the environment I was in that influenced the way I felt about it. I could now say that I am passionate about the subject. I was having a lot of fun with it. I thought I was ready for a job so I started applying and heard crickets.  I used my true resume with the experience I had and the projects I had worked on. \n\nEventually I heard back from a training and placement program advertised for asipiring Data Analysis. But when I inquired more they said they only had BigData and Machine Learning positions. I looked at the BigData curriculum and thought it was cool so I went with it and they turned out to be another witch company and they stated their methods during the orientation. In my desperation of not having had a job for a year and hearing back from other places led me to sign a contract with them. The training was abysmal and I made up for the lack of trainer's competence with Udemy courses and online resources. I tried not to make the same mistake I made back in school, tried not to get depressed and put in extra effort to grasp BigData tools. I have built small pipelines with AWS, practiced processing data in Pyspark and I'm learning the various capabilities in Snowflake(time travel, Snowpipe etc). Also got exposure to Hadoop  I am fascinated with what the capabilities technology has to offer but I'm ashamed of the way I got here. I recently got offered a role and I've technically started. \n\nHowever they require me to fill a security clearance form.  My employer wants me to fill the information that aligns with the fake resume they helped create for me. I find that idea deeply unsettling and don't want to go through with it. I am trying to find an employment lawyer to help me on this matter. I am going to forgo the opportunity if I cant be truthful.\n\nI am a dumbass. I have made a lot of mistakes. I don't know how to make a good resume and I can't sell myself. My true journey began much later than my peers. I am lost. I still suck. I got better and I am getting better everyday but I still have a long way to go. I'm doing now what I could've done a long time ago which is to come here for help and advice. I am trying to turn things around for me but as you can see I have a bad sense of direction. I needed someone else to point out the obvious that I'm missing.\n\nIf you read all this. Thank you. Wholeheartedly. I really appreciate you taking the time. It means a lot that you thought of me.\n\ntl:dr   \nwasn't passionate about the field at first. sucked at cs. no internships no projects. worked as QA through a witch company.  switched to data analytics after qa role was over. faced my fears. started coding. loved the data field. applied jobs again. no success. joined a second witch company for BigData. started a new role. they are asking me to misrepresent the information for security clearance. i'm not going through with it.",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/s9h78w/i_messed_up_big/",
+      "comments": [
+        {
+          "body": "If you find yourself in a difficult place in your life, we urge you to reach out to friends, family, and mental health professionals. Please check out the resources over at /r/depression, /r/anxiety, and /r/suicidewatch. Feel free to [contact the /r/CSCareerQuestions mods](https://www.reddit.com/message/compose?to=%2Fr%2Fcscareerquestions&amp;subject=&amp;message=) for more information or help.\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/cscareerquestions) if you have any questions or concerns.*",
+          "score": 1
+        },
+        {
+          "body": "&gt; However they require me to fill a security clearance form. My employer wants me to fill the information that aligns with the fake resume they helped create for me.\n\nThis is one scary red flag. I would avoid going through with anything where you lie on a security clearance... \n\nI'm sure some people while chomp at the bit and say you should go full whistleblower, but that's a risk as well. I have heard some whistleblowers who have genuinely exposed genuinely serious issues that have basically become toxic to hire. \n\nIANAL but I agree with you in not moving forward. What you should do will probably be dependent on an expert lawyer.",
+          "score": 3
+        },
+        {
+          "body": "&gt;My employer wants me to fill the information that aligns with the fake resume they helped create for me. I find that idea deeply unsettling and don't want to go through with it. I am trying to find an employment lawyer to help me on this matter\n\nYou shouldn't need to find an attorney for this. There should be a state or federal agency that will take whistleblower reports, especially for falsifying _a federal document_, and they'll take care of you.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Help a confused brother choose between 2 offers",
+      "body": "Hello experienced people!  \nI finished grad school last year and have 2+ years of work ex and 2 internships. ***I have gone through a painful, excruciating, LC grinding 2020, full of rejections***. I finally have 2 offers in hand.  \n\n\n* I need your opinions on which offer is beneficial for me in the long run.  Does working at either of the company significantly reduce or increase the chances of being selected in the Big4 in the future?  \n\n\n||Company 1|Company 2|\n|:-|:-|:-|\n|Domain:|Private Banking|Mining industry solutions|\n|Location:|California (Bay area)|Arizona|\n|Work:|Data Warehousing (Snowflake) + SQL + Java |Core Java (Multithreading, Garbage collection) + TCP/IP + Embedded. *May be IoT after 1 year*|\n|Type:|3-month Contract to Hire|Full time|\n|Remote:|Remote till Covid situation resolves |Remote till Covid situation resolves|\n|Sponsorship:|Contracting agency says Company1 will sponsor|Yes|\n|Compensation:|$104k under contract, (*Potential $115-120k on hire)*|$80k + $5k (for sign-on &amp; relocation)|\n|Outreach:|Local|International, geographically distributed teams|\n|Expected Workload / Stress:|Probably a lot when I under contract. I am unfamiliar with the tech|Less workload initially. (Somehow I feel confident?!)|\n\nAdditional details : \n\n* I have requested a meeting with HR of company1 to confirm a couple of details like their conversion rate of contractors and benefits if hired full-time, but they haven't yet responded. Except for the 1 technical interview with my teammates, all my interactions have been with the contracting agency recruiters.\n\nThank you!  \n\n\n*\\*To all the graduates who are still looking for a job, I wish and pray for you all to get one before the year ends! If I can, you can too!*",
+      "subreddit": "cscareerquestions",
+      "score": 1,
+      "url": "https://reddit.com/r/cscareerquestions/comments/k1bx4m/help_a_confused_brother_choose_between_2_offers/",
+      "comments": [
+        {
+          "body": "I'd also take offer 2 since it's likely more money based on COL and it's a full time position more related to software dev instead of data warehousing.",
+          "score": 3
+        },
+        {
+          "body": "I’ll preface this by saying I’m by no means experienced, but Company 2 seems like a much, much more secure option. You’ll likely take home more after you consider CoL + taxes, too. Also, what would you do if your contract isn’t renewed at Company 1?\n\nIf you’re really intent on going into Big 4, I suppose private banking would be better considering the relation to the field, but I can’t imagine it’d make that much of an impact.",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Solution/ Data/ Cloud Architect in product companies",
+      "body": "For anyone working in one of the \"Architect\" roles at a Cloud product company, could you please confirm on the following:\n\n1) Is your role primarily related to supporting the sales org?\n\n2) Is your role a customer facing role?\n\n3) Is your role tangential to/ separate from core SWE related role?\n\n4) Do they ask leetcode style questions during the interview?\n\n5) How is the overall compensation and career path when compared to core SWE roles?\n\n6) Does your role entail designing solutions that cater to customer specific requirements?\n\nArchitect role could be \"Data Architect, Cloud Architect/ Security Architect/ Customer Success Architect, etc\".\n\nI'm currently a Data Architect and I love working and interfacing with customers &amp; supporting sales teams. I like to be the technical anchor between the company and the customer and like to gain product expertise but I don't fancy myself as an SWE churning out core product code that is production scale. Hence, I wanted to understand what the \"Architect\" role entails at product companies such as \"Google cloud/ AWS/ Azure/ Hashicorp/ Snowflake, etc\" since I work in a similar role but in a professional services firm currently.\n\nI'd greatly appreciate all inputs to help me plan my next career move!",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/sqin0j/solution_data_cloud_architect_in_product_companies/",
+      "comments": []
+    },
+    {
+      "title": "Senior Data Engineer, 8 years experience, 2 STEM Master's degrees. 1,000+ applications in 3 months. 2 interviews, 0 offers.",
+      "body": "I've been in data engineering for almost 8 years. Built pipelines processing millions of records daily, designed data platforms from scratch, worked with Airflow, dbt, Snowflake, Python, SQL, AWS, GCP, the whole BS. I have two Master's degrees in STEM fields, Biotech and Data Science. On paper, I should be a strong candidate.\n\nSince October, I've applied to over 1,000 positions. Tailored resumes, wrote custom cover letters for roles I really wanted, optimized for ATS, applied through LinkedIn, company sites, referrals when I could get them. The result? 2 interviews, 0 offers. Even the interviews were for roles that were paying significantly less than what I used to make.\n\nI'm not writing this to complain. I know the market is rough for everyone right now. But I'm genuinely trying to figure out what's broken. Is it the sheer volume of applicants? AI screening filtering people out before human eyes ever see the resume? Companies posting ghost jobs? All of the above?\n\nFor those who've landed roles recently: what actually worked? And for those in the same boat, how are you staying sane?",
+      "subreddit": "jobs",
+      "score": 26,
+      "url": "https://reddit.com/r/jobs/comments/1q9bvf9/senior_data_engineer_8_years_experience_2_stem/",
+      "comments": [
+        {
+          "body": "Unfortunately, networking is really the most effective way to go.  You said you had 8 years of experience. Are there anyone that can help you?  Or they are in another company that is hiring?",
+          "score": 13
+        },
+        {
+          "body": "What’s your location",
+          "score": 2
+        },
+        {
+          "body": "Feel you buddy.  You are way more specialized than me, but I've worked in IT for 15 years and have done everything from Helpdesk, Infrastructure Support, All the way up to L3 level Application.  I have been out looking for a job since October 2023.  It is fucking BLEAK out here.",
+          "score": 2
+        },
+        {
+          "body": "Try taking your education off your resume.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "How to Wing It Like a Pro: Tales from CyberHamm, Story 3: How to Not Blow Your Job Interview",
+      "body": "First, let me clear the air: these are *my* thoughts. Hiring managers are like snowflakes — no two are the same — and I’ve consulted with precisely zero of them. So, if this post helps, great! If not, well…feel free to shake your fist at the sky and yell, “CyberHamm!”\n\nLet’s dive into this career chaos, shall we?\n\n(continued here):\n\n[https://medium.com/@hammshumoroushubb/how-to-wing-it-like-a-pro-tales-from-cyberhamm-story-3-how-to-not-blow-your-job-interview-and-a6fbc693fb0c](https://medium.com/@hammshumoroushubb/how-to-wing-it-like-a-pro-tales-from-cyberhamm-story-3-how-to-not-blow-your-job-interview-and-a6fbc693fb0c)",
+      "subreddit": "jobs",
+      "score": 0,
+      "url": "https://reddit.com/r/jobs/comments/1hb78xi/how_to_wing_it_like_a_pro_tales_from_cyberhamm/",
+      "comments": []
+    },
+    {
+      "title": "3.5 Years as a Data Analyst, 5,000+ Applications, Still No Job Offers – Seeking Advice",
+      "body": "I've been working as a Data Analyst/Insights Strategist for 3.5 years now, and I was promoted to a senior role last year. Since then, I decided it was time to look for a new remote job. For the past 10 months, I’ve been applying to jobs in my field and, honestly, any role that fits certain keywords (e.g., Analyst, Insights, Strategy). I’ve been using platforms like Glassdoor, LinkedIn, and a few AI job sites such as jobright.ai.\n\nI’ve updated my resume multiple times to include more desirable keywords, highlight impressive projects I’ve led, showcase my skills, and even fluff it up a bit to increase my chances of getting more interviews. Despite applying to over 5,000 jobs in the past 10 months, I haven’t received a single offer.\n\nTo be fair, since creating my most recent resume in June, the number of interviews I've been getting has increased significantly. In total, I’ve probably interviewed with 40+ companies, which isn’t terrible considering a roughly 1% interview rate. But I still haven’t landed a job. Here’s how it usually goes:\n\n* I get ghosted (Fine, I guess).\n* They tell me they hired someone else.\n* They say the job is closed or they’re no longer hiring for the role.\n* They give me a technical test that I usually ace, but as soon as I start speaking, they hire someone else.\n\nSo now I’m left wondering: why can't I get a job? I have the recommended qualifications for most of the jobs I apply to. I’m not looking for government roles or any jobs that would require relocation—those don’t make up a large portion of the remote job postings anyway. But I’m really starting to lose hope based on how many jobs I apply to each week, the endless rejection letters I receive, and the inability to move to a new company.\n\nIs there any tangible advice someone can offer that might help me finally land a job? Or is the job market really this tough right now?\n\nA few more specifics if it helps:\n\n* I have technical skills in basic data analysis: SQL, Python, Salesforce, Tableau, PowerBI, AWS Redshift, A/B Testing, and Snowflake.\n* I have certifications in Data Analytics, Data Visualization, and several specific industry certifications.\n* I’ve had my most recent resume reviewed by recruiters and peers with more experience, so I don’t think my resume is bad. I understand that using one resume for multiple fields may not be ideal, but it’s what I’m doing at the moment.\n* Yes, I’ve truly applied to over 5,000 jobs.\n\nAny advice would be greatly appreciated. I can’t imagine going through this process if I were unemployed.",
+      "subreddit": "jobs",
+      "score": 2,
+      "url": "https://reddit.com/r/jobs/comments/1fzilja/35_years_as_a_data_analyst_5000_applications/",
+      "comments": [
+        {
+          "body": "Yo have been ghosted on reddit too my guy!!",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "A beer distributor dilemma",
+      "body": "So I have worked for a beer and wine distributor for a combined 2 years now. I started back in the end of 2020 and my first job there was in the beer warehouse. \n\n I tend to be very good at most jobs I do and often times surprise people at how easily I pick things up and nothing was different at this job. My first roadblock came with the beer supervisor and his best friend who also worked there. Some of the things they would do is threaten to beat me or other coworkers up outside of work to get us to do what they wanted. Mind you they are pretty big guys and I'm not a fighter so that's just not an option for me. Constant verbal abuse, I'm not a snowflake by any means but I've seen people quit over just what these 2 said. They would sit in the office and watch us work, leave and take lunches without clocking out, lie about extra work they did and get more money under the table from the company, sleep on the job, take hundreds if not thousands of dollars worth of product from the warehouse. All and all just annoying people.\n\n  These 2 led me to leave after working there right about a year. I was only gone for about 3 months however and found myself back because my new job shut down. After being back a year quite a bit is different but some the same. The manager of beer got fired for saying the N word to our black employee. Pouring a beer over the new guys head and refusing to do work as I said a bad fit. But the other one who was just as bad got promoted to manager of the entire warehouse not just beer, over wine too and that is my department. \n\n  The promotion of that individual was upsetting to say the least I apply for almost any position at my job that would be considered moving up I have My mind set on bigger and better things, but they just decided to put him in that position with no interview at all, after all this I was told by the hiring supervisor that the GM and owner of the company didn't want this guy in charge for the very reasons I had stated at the beginning of this rant , but the hiring supervisor fought for this guy he knew nothing about and now this jack off is in charge of everyone.\n\n  Now my main dilemma is they have dropped quite a few manager duties on my shoulders as well, training, designating tasks to the other workers, making sure everyone's orders are in the right area, receive calls from salesman and managers about account or order changes. Inform and correct mispicked items and so on. I asked for a 1$ an hour raise because I feel with all of those duties I am deserving of at lease 1 more than the other guys there. But I was told they could not do that and the company cannot put anymore money in the warehouse.\n\n\n  I'm at the point where I will continue to do the work I need to in my wine department but the guy who has been just nasty to everyone if he asks me to do something or tells me to do something else I just won't listen anymore I know I'm getting my work done well and that I'm doing all that I can and more to help out my guys but when we are done and I have to be around that individual I can't even think because all he knows is violence and it puts me on edge. So I won't be around it.\n\nI'm just not sure whether I should wait it out and hopefully move up in this company, find a new job in a new field, I don't know. Any thought on this matter would be greatly appreciated.",
+      "subreddit": "jobs",
+      "score": 2,
+      "url": "https://reddit.com/r/jobs/comments/ycwb6t/a_beer_distributor_dilemma/",
+      "comments": [
+        {
+          "body": "Hello, thank you for posting to r/Jobs!\n\nWe just wanted to let you know that we have a new [discord server, come join the chat!](https://discord.gg/TY6ErXV)\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/jobs) if you have any questions or concerns.*",
+          "score": 1
+        },
+        {
+          "body": "None of this sounds ok\n\nWhat state is this job in?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Reason for leaving - can I put “toxic environment”?",
+      "body": "Filling out an application and getting ready for an interview. It asks for my job history, and reason for leaving each job.\n\nOne of my old jobs, I left because it was a toxic environment. The CEO would literally spout racial and homophobic slurs whenever he wanted and would cuss you out if he didn’t like your work. HR was a joke - we usually didn’t have anyone in HR, and when we did, they were obviously useless. People would get fired just for breathing wrong. It was absolutely miserable in terms of quality of life, even though the pay and opportunity was pretty decent.\n\nHow in the world do I describe this to a potential future employer in a way that doesn’t make it sound like I’m just an over-sensitive snowflake, or like I just run away from my problems? Should I just put something generic like “no potential upward movement”?",
+      "subreddit": "jobs",
+      "score": 2,
+      "url": "https://reddit.com/r/jobs/comments/d1soii/reason_for_leaving_can_i_put_toxic_environment/",
+      "comments": [
+        {
+          "body": "[removed]",
+          "score": 11
+        },
+        {
+          "body": "I just that I left to focus on trying to pursue opportunities that are more aligned with my professional goals. \n\nIt's a subtle way of saying you couldn't grow and achieve personal success in that work environment.",
+          "score": 4
+        },
+        {
+          "body": "You can't put toxic environment. That will send up a red flag to the company you're applying to. Just say it wasn't a good culture fit.",
+          "score": 6
+        },
+        {
+          "body": "Did you start another job directly after you left? (Or within a month or so of leaving?) If so, you can always say you left to pursue a new opportunity. That's what I generally say and I've never had a problem.",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Snowflake Interview SE role",
+      "body": "Got an interview with Snowflake for an SE role. There is a role play exercise to make a presentation to solve client problem. Has anyone had anything like this before? Any tips would be much appreciated. \n",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1co2nme/snowflake_interview_se_role/",
+      "comments": [
+        {
+          "body": "Any update on this interview? I also have a sales engineer interview",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "HELP!! - not sure what internship offer to take",
+      "body": "I'm currently a junior in college studying Marketing and Business Analytics. I've spent the last year working part-time for a local State Farm agent as a sales rep, but recently have been applying to other internships mainly because I want to move out of state when I graduate and there's little room for advancement at my agent's office so it doesn't make sense for me to stay there after college. \n\nI've gotten two internship offers and I'm really not sure which one to take.\n\nFirst offer is with State Farm corporate in auto claims. They'd send me to their corporate hub in Dallas, TX.  Pay is $22/hr with $2000 stipend. My current supervisor knows I've been actively applying to State Farm internships and I have strong interest in working for State Farm corporate after graduating. The only issue is, I don't like claims and have zero desire to work in claims after I graduate. During the interview, the hiring managers said they have a very high return offer rate for their interns. \n\n  \nSecond offer is with USAA corporate as a product analyst located at their corporate office in San Antonio, TX. Pay is $26/hr with $2300 stipend. My supervisor doesn't know I've been applying at other companies outside of State Farm. The role is something I'd be interested in, however during my interview I was told that being comfortable with big data sets is crucial and that there's a lot of work with Python, SQL, and Snowflake. I told the interviewers that I had no experience with any of those and that my main knowledge is in PowerBI with limited knowledge of Tableau. Honestly I didn't expect to get an offer based off that so I was very surprised when I got the phone call today with an offer. Also when I asked the hiring managers about the probability of a return offer, they said it was a \"decent\" chance but that not everyone gets a return offer. \n\n  \nI have seven days to accept either offer -- I also have an interview this Tuesday with another department in State Farm. Help lol\n\n  \nTLDR: Really not sure what to do here. Got two internship offers, one with my dream company with a high return offer rate in a role I would hate with slightly less pay. Other offer is with competing company with a role I'd be very passionate about and enjoy, and would get paid more. BUT have zero clue on how to utilize tools that are very necessary to the job (SQL, Python, Snowflake). Any advice welcomed!!!\n\n  \n",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/1gm8alb/help_not_sure_what_internship_offer_to_take/",
+      "comments": []
+    },
+    {
+      "title": "Where do you draw the line with unethical jobs?",
+      "body": "My best mate who now lives in London recently got invited to a marketing interview for a platform that enables oil and gas companies to sell more oil.\n\nWe agree on most things in that area, are both pretty liberal-minded etc and vote as such. It’s directly affiliating and contributing to the biggest crisis our generation faces. I joked he should accept the interview, only so he could directly ask them how they anticipate to move to greener practices.\n\nAnyway, he had it, didn’t ask them that, and is now tempted by their job offer, with a salary of £65k (about USD $82k) and option to work remote.\n\nI understand the draw of this, but I was shocked he was genuinely considering it, called him out on it, and it’s really annoyed me ever since and damaged my view of him.\n\nI get that almost all jobs are unethical to some extent (corporates finding ways to undermine employees and make mega-profits) and his girlfriend said “if you don’t take it, someone else will” which isn’t untrue (but if we all held this stupid attitude, we’d seriously regress as a society). \n\nAm I being too “snowflake-y” here? At what point do you personally cross an ethical line of accepting a job?",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/187k9wa/where_do_you_draw_the_line_with_unethical_jobs/",
+      "comments": [
+        {
+          "body": "I think the phrase 'snowflake-y' is inaccurate in this instance, you and your friend have different priorities.  With the current state of the environment, I don't think you're over-reacting and it's understandable when someone who has always espoused certain beliefs changes them when they're offered enough money.  It raises the question of how much they actually believe what they say they do.  Obviously, your friend has to make a living, though, and it's a lot of money to turn down.  I personally wouldn't take or apply for that job, but I understand why some people would.  \n\nAs you mentioned, most jobs are unethical in some way, but oil companies tend to do more direct and measurable damage than the average company.  It just seems like you and your friend have different takes on how important your own participation in those activities are.  Your friend probably either thinks that he isn't actively participating or making decisions, so his contributions aren't as important OR just genuinely prefers the money over his beliefs.    \nNo real comment on his girlfriend's statement; that could be applied to literally anything and is often used to abdicate any personal culpability for a shitty decision.  I had to write a paper for an ethics class regarding that statement and it's a while morality thing.",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Did the hiring manager just lie to me?",
+      "body": "I worked my last shift 1 week ago at another job.  That job usually required 10-14 hour shifts, and a 2 hour drive to and from work roundtrip, and the occasional 8 hour and rare 6 hour day. I was pretty much on standby to, without extra pay, because my schedule was unpredictable. I did it for 9 months still and it took most of my life, and it was definitely not a job that should've been your life as an employee and not an owner. Not the boss's fault, just the nature of the job and I stayed on.\n\nSo I'm going back to school at the beginning of next year and worked my last shift at that job 1 week ago. Can't do it and go to school, so I lined up another job to transition into that fell through, so I applied for a bunch of server positions around town. Immediately got a response back from 2 high volume restaurants and both of them fell through today.\n\nNow the meat and potatoes is this. I get an email to call restaurant A to schedule an interview, so I do. Told to call back tomorrow when hiring manager is in. So I do, and I'm told to call back later today when hiring manager is in, so I do. Call again and get the hiring manager. I promptly tell her who I am and why I'm calling and she says this. \"What's your availability?\" \"Completely free at the moment, but in Jan. I'll be going back to school, I'll only be able to work part-time then.\" \"Do you have another job now?\" \"I worked my last shift 1 week ago.\" \"Why'd you quit?\" \"I couldn't work that job and attend school at the same time.\" \"Well we're actually not actively hiring for servers right now, but if we are in the near future we'll call you back.\" *pause* \"Ok have a good day.\" \"Uh huh you too.\"\n\nI found the job as a new posting on indeed, they sent me an email, and she immediately asked me interview type questions on the phone. So \"we're not actively hiring servers right now is a lie.\" This means she didn't like my response to 1, 2, or all 3 of her questions.\n\nDo you think it was the \"I couldn't work that job and do school?\" I didn't go into details because I thought it was evident that if I'm applying there I can handle the workload and my old job's address on my resume, that she probably didn't look at, shows it was in another city. Did she just label me as a lazy, entitled, millennial snowflake and feed me that lie because of that, IYO? Or do you think it was something else? Do I need to explain myself like I have to justify quitting a job in the future, even when they don't ask?\n\nPeople like to think that other people can't possibly handle the stress of their job and wear it like a badge of honor, so I wonder if that came into play here.\n\nEdit: Phrasing",
+      "subreddit": "jobs",
+      "score": 3,
+      "url": "https://reddit.com/r/jobs/comments/9yaykp/did_the_hiring_manager_just_lie_to_me/",
+      "comments": [
+        {
+          "body": "Probably.  When she said  \"Well we're actually not actively hiring for servers right now\", she really meant \"Well we're actually not actively hiring for servers **with your availability** right now.\", but was trying to avoid the discussion that would come from her specifically saying that.  In other words, she expected you to push back and say you could make it work, but she didn't want to say that she doesn't believe you.  Your answers and her line of questions makes it sound like she thinks you will get in the job, start school, and then will either need a schedule she can't accommodate or will just quit again.\n\nUnfortunately, hiring managers can be people as well and don't want to deal with the conflict that arises when they  have to reject someone, yet don't believe the answer will be accepted without debate.",
+          "score": 4
+        },
+        {
+          "body": "Of course, it is the couldn't work and go to school. They don't want to hire someone who is going to ghost in January. Next time try, my current position required a lengthy commute and I decide to leave so that I could be immediately available to start with a new employer. ",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Working for small business",
+      "body": "Hi Reddit Jobs,\n\nAt a crossroads-ish. I am 25, I've just finished travelling and I'm looking to start some kind of career. As in, I am ready to settle and have some kind of stable income that isnt the bar or farm work that I was picking up during my world travel.\n\nI'm moved into a major city and I have been applying for every sort of job. Some for immediate hourly-paid work, others more career, 18-20k jobs. \n\nI have been offered a job at a small, artsy little business. Its an online gift store that has just been given its big break, a huge order from a huge multinational company who is giving all of its subscribers a 'free gift'. I originally applied just for a little packing position to help them during the busy period, but during the interview the business owner and I really gelled, I told her my aspirations, my passions, and for the first time in an interview I wasnt bullshitting just to get the job, I was extremely candid. She hired me and talked to me about how after this huge order is done, she's looking to promote someone to be a kind of manager, and at that point we could discuss salary. But for now, we'd treat the big order (over the next 6 weeks) as a training/ trial period. As she was showing me around and telling me about her small 6 person strong business, I felt myself getting excited for her, for her project, and I could see myself really getting into this. The staff all looked happy, enthusiastic, valued, creative and fulfilled, and there is good staff retention. \n\nHowever, for now its only £8 an hour, approximately 40 hours a week. I don't know what a salaried position would be like. But in the city I live in, I need at least 18k to be comfortable.  \n\nOn the other hand, I am capable of getting a more corporate, better paid job. I'm a graduate from a great university with a good degree, I can talk, and I could do the job, possibly well, and make a lot more money. But I'm not sure if I'm a bit too much of a hippy to wear businesswear to work every day, and there is a big fear of feeling like a number and jumping through hoops to climb a ruthless, overly competitive ladder. I do have a bit of anxiety which i am getting treatment for, and as much as i am an extremely hard worker with aspirations and experience, i need an understanding employer who knows my strengths and can have at least some empathy if I am experiencing an acute episode of panic. (they don;t happen often, but they can happen.) I have interviewed for positions in recruitment and marketing, where all they want to hear about is your ability to reach targets and impress clients. I am through to the second stage of interviews but I'm facing an identitiy crisis, my heart is with my little gift company, or something similar, I'd love to one day have my own business and work in small business, my dad has a start-up and I'm familiar with them.  \n\n\nAm I being a snowflake by hoping for a job where I can be creative and happy and paid. Or do I need to make sacrifices. My parents are extremely excited by the prospect of me being a recruitment consultant in the city. Or are there recruiters out there who are creative and happy and paid who want to give me the other side of what looks to me to be a 'boring office job'.\n\nC'mon reddit jobs gurus, pick apart my naive world view :)\n\n\\*TL;DR;\n\nSmall business job I feel more passionate about but is less paid and more risk, or corporate recruiting job that is better paid, with some risk, but more competitive and pressurized.",
+      "subreddit": "jobs",
+      "score": 0,
+      "url": "https://reddit.com/r/jobs/comments/8y85u0/working_for_small_business/",
+      "comments": [
+        {
+          "body": "One of those good problems! \n\nI think you've properly identified the pros and cons here. The only thing I want to help you think about is how much risk there really is to you right now. If you don't have a family or own a home, your risk is as low as it will ever be, with either job. In other words, if the risk is high enough now that you wouldnt take a position you were passionate about because of low pay, you will likely never do it. \n\nIt's not the end of the world either way, but eventually life may close the door on opportunities like this all together. Good luck! ",
+          "score": 2
+        },
+        {
+          "body": "You sound like you’re really into this start up. Opportunities like that won’t come around very often, a job that you’re excited about. The fact that it is only temporary will give you a chance to try it out, you might love it even more, get the chance to progress and you can be truly happy day in day out. Recruitment agencies will exist forever and you can always try again if the start up job doesn’t work out. You will be so bored at the recruitment place. It’s 95% cold calling people you find on LinkedIn or idiots who apply online and trying to squeeze them into jobs they don’t want for a target you need to hit. You might earn more money, but will your disposable income be any more? Costs will be higher. I’ve had a few jobs earning different wages. I’d take a lower wage and a happier life with a better work/life balance any day.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Been living in Los Angeles for 2 years, just can’t seem to get anything going career-wise",
+      "body": "Hey everyone. Frequent lurker, first time poster. \n\nI moved out to LA two years ago to get started working in the entertainment industry (yeah, I know, I know) but seriously, I had ZERO expectations anything was going to happen overnight. I live with roommates so rent is super cheap (3 ppl living in a 2 brm apt in Palms, my rent is &lt; $500), found a job waiting tables within the first month, and started interning/doing free work on my day offs. It was a really modest start, but I was pretty happy with it. \n\nQuickly learned that physical production (PA’ing) wasn’t my thing, but I do really well in the office environment, in development or at a production company/management company. Did three internships (got lucky on my first one, cold applied to something on the UTA list and got the internship lol) where they all said they LOVED my work… but still haven’t been able to lock down a job that, uh, actually pays. \n\n(They could be lying to my face about thinking that my work is good, except they keep telling me they’re “just not hiring right now” and giving me good referrals to other internships. Plus, one executive even set me up with an interview with a major agency -- which I couldn’t close either.) \n\nIt’s been 2 years and I’m still waiting tables and working for free on my day offs, and I don’t know how much longer I can do it. This was the loneliest thanksgiving/xmas I ever had (I’m from the east coast) and I spent xmas morning clutching a bud lite and trying not to cry. \n\nMy dream is to ultimately write for film or tv and I know this is part of paying my dues, but honestly at this point, I’d love to get a job -- any job -- in the industry so that I know these last two years weren’t a complete waste of time. \n\nPls no comments on how shitty the economy is, or how hard it is to break into the entertainment industry, etc believe me I know, and I don’t think I’m some special snowflake. Would love to hear: \n\n1. If anyone else went through this kind of dry spell; \n2. What the hell am I doing wrong that I can’t land a job; and \n3. How long did it take you to get your first “industry” job? I actually make okay $ waiting tables and can stick it out indefinitely but have zero intention on waking up 10 years from now stuck at the same job still looking for my “break.” \n\nThanks. \n",
+      "subreddit": "jobs",
+      "score": 7,
+      "url": "https://reddit.com/r/jobs/comments/2qprjv/been_living_in_los_angeles_for_2_years_just_cant/",
+      "comments": [
+        {
+          "body": "I lived in LA most of my life, although I left in 2006 and moved to the Pacific Northwest.  I love LA and I love the entertainment industry, I have several close friends who have made it and many who have tried for years and are still trying.  It's really a crap shoot, there's no amount of hard work to break in you can do that's a guarantee to a career in that industry.  The number one component that lands you a job is luck, after that it's the ability to network and who you know.\n\nYou want to be a writer for film or tv, if I were a person within the industry that could give you a shot and I were a regular at the restaurant you served me at and for whatever reason, I took a shining to you and asked to show me you work, would you have anything to give me that you'd be proud of?  If the answer is no then you have work to do.  But more importantly you should be trying to build a network, make friends with people working within the industry, go to social gatherings, etc.  it's all superficial shit but that's how that industry works.  If you're just expecting to apply for a job and get hired even as a low paying assistant job, then you're spinning your wheels in the mud because the people who get those jobs have hook ups, if you don't have hook ups, you need to make them happen.\n\n",
+          "score": 6
+        },
+        {
+          "body": "[deleted]",
+          "score": 1
+        },
+        {
+          "body": "Besides the one interview with an agency, are the assistants setting you up for other interview opportunities? \n\nIf not, that might be red flag... regardless of how good they say you are to your face. \n\nA little harsh, but true. ",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "When do I start to apply for jobs that I'm not REALLY interested in?",
+      "body": "I'm not trying to sound like a debbie downer. The reality is I have a master's degree in teaching and my undergrad was in journalism. I no longer have the desire to teach NOR do anything with journalism. I've been applying for jobs that I've been really interested / excited about. After tons of rejections, I'm wondering- am I going to have to suck it up and go down the avenue of my degrees?\n\nFWIW, I'm not applying in left field jobs- I worked in an advisement office in undergrad as an intern and I **LOVED** it, so I've been applying to advisement positions at colleges. I'm getting tons of rejections both locally and nationally, so I'm wondering do I need to lower the bar here? I graduated with a 4.0 in both undergrad and grad school. I'm not saying I'm a unique snowflake but I thought I'd at least get an *interview* somewhere. \n\nTL;DR: Do I just start applying for jobs I don't want in order to get a job? Bills aren't a HUGE issue right now, but they will be when student loans come knocking in November... \n\nEdited for grammar.",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/un8ph/when_do_i_start_to_apply_for_jobs_that_im_not/",
+      "comments": [
+        {
+          "body": "&gt;Do I just start applying for jobs I don't want in order to get a job?\n\nI would say yes. You don't want the gap between finishing school and starting a job to get too wide. Being employed in a job you don't like may make it easier to find a better job down the road, and it will keep the debt from creeping up on you. That's my take on your situation anyway.  \n\nMaybe look at administrative positions within a school district? Might be a long shot with no direct experience, but you could get lucky.",
+          "score": 1
+        },
+        {
+          "body": "&gt;I've been applying for jobs that I've been really interested / excited about. \n\nBut do you have the requisite job skills to do those jobs?\n\nInterest won't get you a job. Having the skills the employer requires will.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Snowflake developer interview preparation ",
+      "body": "Hi everyone,\n\nI have a Snowflake interview with Tiger Analytics on Monday. If anyone has interviewed there recently, could you please share the types of questions they asked and the difficulty level? \n\nAlso, if you've attended Snowflake interviews elsewhere, I'd really appreciate it if you could share any interview questions you remember. \n\nMy primary skills are: Snowflake, SQL, and Matillion.\n\nThanks in advance for your help!\n",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1eomq06/snowflake_developer_interview_preparation/",
+      "comments": [
+        {
+          "body": "It's going to be very specific to the role and even the particular team within Tiger Analytics. Instead of trying to second guess exactly what they'll ask, focus on really solidifying your understanding of Snowflake core concepts, SQL mastery, and how Matillion plays into the data pipeline. Brush up on practical examples of how you've used these skills, especially in a way that demonstrates problem-solving and a deep understanding of data warehousing principles. We actually built a tool to help with exactly this kind of interview prep, it's called [interviews.chat](http://interviews.chat) - check it out if you're keen.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "When interviewers forget that respect is a two way street 😡",
+      "body": "I’m honestly so frustrated right now. Today’s interview was one of the most unprofessional experiences I’ve had in a while.First, the interviewer showed up late no apology, no courtesy and an interview that was supposed to last 60 minutes barely made it to 30. From the start, he came across dismissive, asking for skills that were nowhere in the job description. They were hiring for a Service Delivery Manager, but the conversation turned into a data engineering interrogation,ETL pipelines, Snowflake, AWS configurations ,all stuff meant for a completely different role. I calmly explained my hands-on experience managing IT operations, incident management, and data governance. I even gave real project examples where I worked alongside data engineers on AWS and Snowflake integrations, ensuring SLAs were met and data flows validated. Still, he zoned out, dismissed everything, and said I sounded more like an “IT Operations Manager or a Major Incident Manager .” Excuse me? Maybe because that’s the role you actually posted and the same one I’ve gone through four stages of interview for, including your intense cognitive assessments. 🤦‍♀️ \n\nWhat’s worse, I’d already seen yesterday on Glassdoor that the role had been marked as filled, so I asked him point blank if that was true. He deflected. Honestly, it felt like he was just going through the motions. Companies really need to do better. Respect goes both ways. If you’re going to invite someone for an interview, be clear about what you’re hiring for and have the decency to treat people’s time with respect.\n\nSometimes, I think some of these interviewers wouldn’t last a week if the tables were turned.\n",
+      "subreddit": "interviews",
+      "score": 56,
+      "url": "https://reddit.com/r/interviews/comments/1oq7bc7/when_interviewers_forget_that_respect_is_a_two/",
+      "comments": [
+        {
+          "body": "...so mark on Glassdoor by name that they host useless interviews and waste people's time. Or... here.",
+          "score": 17
+        },
+        {
+          "body": "I'm so sorry you went through this interview. This sounds like either he might have confused the role he was interviewing you for OR he didn't know what role they were hiring for. \n\nTotally with you on the whole respect thing, too. Time is soooo precious, especially for when we're looking for a job. seriously..",
+          "score": 5
+        },
+        {
+          "body": "Oh my, that sounds awful! Very sorry for your experience. Good luck with future interviews. \n\nPS: Is it wrong to confirm the role details when the interview starts? Thus, making sure both parties are aligned...",
+          "score": 4
+        },
+        {
+          "body": "Indian?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Anyone interviewed for Tesla’s Sr. Data Engineer, Energy Service Engineering role in Palo Alto? I have a recruiter screen soon and want to know what to expect.",
+      "body": "Anyone interviewed for Tesla’s **Sr. Data Engineer, Energy Service Engineering** role in Palo Alto? I have a recruiter screen soon and want to know what to expect.\n\n**JD highlights:**\n\n* Spark-based **batch pipelines**\n* **Dimensional modeling** (star/snowflake, SCD2)\n* **Airflow** DAGs, backfills, data quality/lineage\n* Build **aggregate tables** across product lines &amp; geos\n* Strong Python + SQL; mentoring expected\n\n**Looking for:**\n\n* What the **recruiter screen** usually covers (comp, role fit, light tech?)\n* Format of the **interview loop** (SQL, Spark deep dive, data modeling, Python?)\n* How deep they go on **Airflow reliability &amp; DQ**\n* Which **KPIs** matter for Service Eng, and how to tie answers to them\n* Typical **comp expectations** for Senior DE in the Bay Area\n* Any **red flags** that trip candidates up\n\nAny recent insights on rounds, depth, or culture would be super helpful. Thanks!",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1nqkjkr/anyone_interviewed_for_teslas_sr_data_engineer/",
+      "comments": [
+        {
+          "body": "Tesla's recruiter screens are typically straightforward but thorough - expect questions about your experience with their specific tech stack, especially Spark and Airflow, along with basic compensation discussions and culture fit. They'll likely ask about your experience with large-scale data pipelines and how you've handled data quality issues in production environments. The technical depth at this stage is usually light, but they might throw in a conceptual question about dimensional modeling or ask you to walk through a complex pipeline you've built.\n\nThe interview loop will definitely include hands-on SQL and Python coding, plus a deep dive into Spark optimization and Airflow orchestration patterns. For the Service Engineering side, focus on KPIs like system uptime, data freshness, pipeline reliability, and cost optimization - Tesla cares heavily about operational efficiency. The biggest red flag candidates hit is being too theoretical without real production experience, especially around handling backfills and data quality monitoring at scale. Comp for Senior DE roles in the Bay Area typically ranges from $180-250k base plus equity, though Tesla's equity component can be significant.\n\nI'm on the team that built [interview AI](http://interviews.chat), which can help you practice articulating your technical experience and navigate those tricky questions about production challenges and system design that Tesla loves to ask.",
+          "score": 2
+        },
+        {
+          "body": "you can try past interview questions on - [www.pastinterviews.com](http://www.pastinterviews.com)",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Posting Again: Did I mess this up or do I still have a shot? (Data Analyst Interview Experience)",
+      "body": "Hey everyone,\n\nI had an interview for a Data Analyst role with senior capabilities, with a UK-based company that’s going to be working on NHS projects soon. It was scheduled for 90 minutes but lasted about 75. There were two interviewers: John, who was very business-focused and asked most of the questions, and Emily, who was more technical and pretty reserved.\n\nJohn started with questions about business metrics. He asked me why CAC (customer acquisition cost) went from 43 to 143. I explained that marketing spend had gone up significantly, but conversions didn’t scale, and revenue stayed flat. That means we were spending more without seeing proportional returns. I then added that I’d use A/B testing to see if reducing or optimizing spend could bring CAC down and improve ROI.\n\nHe also asked me how I would explain to a non-technical stakeholder that their business isn’t performing well. I said I wouldn’t use technical jargon or percentages like “down 20%.” Instead, I’d frame it in terms of impact, for example, “We lost £500K last week and here’s how we can fix it,” so it feels real and actionable.\n\nEmily asked how I would handle NHS data compliance when building dashboards. I said I’d avoid using personal data, stick to customer IDs since they’re unique and linked to all other details, and generalize locations (like referencing Manchester instead of a specific street). I also mentioned that most compliance rules come in handouts, so I’d follow those strictly.\n\nWhen they asked about dashboards, I said my philosophy is that dashboards should tell a story. I explained how I make them easy to use by adding tooltips, slicers, and navigation guides in PDF format. I even walk stakeholders through dashboards so they feel confident using them.\n\nOn the technical side, they asked about my tools. I said I primarily use Power BI because stakeholders find it more user-friendly, but I’ve also used Tableau when a project needed advanced visuals. I told them I’ve worked with Power BI Desktop extensively and have used Dataflows before. For data pipelines, I use Python (with pandas) and Snowflake, and I mentioned I’ve automated cleaning tasks using SQL and Python, including removing unwanted characters and validating columns.\n\nMy gut feeling was mixed. John seemed engaged and happy with my answers, while Emily stayed neutral and looked at her screen a lot. At the end, they said, “We’ll pass your details to Talent Acquisition for next steps.”\n\nIf I had to rate myself: technical knowledge was around 7.5/10 (I’m solid on Snowflake, Python, and Power BI design, but I’m weaker on Power BI Service workflows), business understanding was 9/10 (I nailed CAC, A/B testing, and strategy), and communication maybe 6.5–7/10 because I sometimes rambled instead of staying super concise.\n\nIt’s been 24 hours without an update, and I’m starting to overthink. Does this sound like a good sign or a likely rejection? Do you think gaps like mine are dealbreakers? And if you have any tips for improving communication in future interviews, I’d really appreciate them.\n\nThanks for reading!",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1m04zp6/posting_again_did_i_mess_this_up_or_do_i_still/",
+      "comments": []
+    },
+    {
+      "title": "Did I do okay in this Data Analyst interview? Looking for honest feedback.",
+      "body": "\nHey folks,\n\nHad a Data Analyst interview (UK) for a company starting NHS projects. It was 90 mins scheduled, lasted ~75 mins.\n\nInterviewers:\nJohn (business) → asked about CAC, A/B testing, competitor strategy, stakeholder comms.\nEmily (technical) → asked about NHS compliance, Power BI, Python, Snowflake.\n\nMy answers:\nExplained CAC increase + suggested A/B testing.\nTalked customer lifecycle &amp; competitor moves.\nFor NHS: avoid personal data, use IDs, generalize locations, follow compliance.\nSaid dashboards = stories → tooltips, slicers, PDFs for guidance.\nTech: Snowflake + Python, Power BI (mainly Desktop), Tableau when needed.\n\nGut feel:\nJohn seemed happy; Emily was neutral, asked fewer Qs.\nEnded with: “We’ll pass your details to TA for next steps.”\n\nMy self-score:\nTechnical: ~7.5/10\nBusiness: 9/10\nComms: ~6.5–7/10\n\nQuestions:\nGood sign or rejection?\nAre these gaps dealbreakers?\nHow to improve communication for next time?\n\n\n[View Poll](https://www.reddit.com/poll/1m04sih)",
+      "subreddit": "interviews",
+      "score": 2,
+      "url": "https://reddit.com/r/interviews/comments/1m04sih/did_i_do_okay_in_this_data_analyst_interview/",
+      "comments": []
+    },
+    {
+      "title": "Anyone interviewed or worked at Stratacent as a Data Engineer?",
+      "body": "**Hi all,**\n\nI have an upcoming interview for a **Cloud Data Engineer** role at **Stratacent** and was wondering if anyone here has interviewed with them or worked there.\n\nThe role seems focused on working with **PySpark**, **AWS data services** (like S3, Glue, Step Functions), integrating with **APIs**, and handling data from sources like **Snowflake** and **JSON/Parquet files**.\n\nIf you’ve gone through their interview process or have experience with the company, I’d really appreciate any insights on:\n\n* The interview format and technical topics\n* Tips on how to prepare\n* Whether it’s a good company to work at\n\nOne thing I’m a bit confused about: they mentioned the role is *for Stratacent itself*, but also said the **first two rounds** would be with their team and the **final round with a client**. If the position is internal, why would a client be involved? Does anyone know how Stratacent typically operates — are they a consulting or staffing company, or do they build internal teams as well?\n\nThanks in advance!",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1jrkzxy/anyone_interviewed_or_worked_at_stratacent_as_a/",
+      "comments": [
+        {
+          "body": "It's common for companies to be a bit opaque about their structure, and Stratacent's approach with the client interview \\*does\\* raise an eyebrow.  It suggests they might be a consultancy, placing engineers at client sites after an initial vetting process.  Or, they could have a unique internal structure where client interaction is baked into even \"internal\" roles.  The best approach is to directly ask your recruiter to clarify the relationship between Stratacent and the client in this role.  Knowing whether you'd be a Stratacent employee embedded with a client, or working directly for the client after a Stratacent-led hiring process, is crucial for setting expectations.  Prepare for questions on PySpark, AWS data services, API integration, and handling data from Snowflake and JSON/Parquet files, as those are the stated technical requirements.\n\nDon't overthink the client interview – treat it as another opportunity to showcase your skills and understanding.  Focus on demonstrating your expertise in the technologies they listed and articulate how you approach problem-solving in a data engineering context.  Asking clarifying questions about the project and team you'd be working with (whether at Stratacent or the client) shows initiative.  Since you mentioned navigating tricky interview questions, you might find [AI for interviews](http://interviews.chat) helpful. I'm part of the team that built it, and it's designed to be a real-time copilot for situations just like this.",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Where can I find help for my interview preparation? ",
+      "body": "Next week, I have a technical interview (in NC) on Snowflake, AWS, Talend and Python. I have been learning these tools since couple months.   I’m looking for atleast 2 mock interviews with the technical questions. What’s the best resource to get some help in preparing for the interview?",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1f2usam/where_can_i_find_help_for_my_interview_preparation/",
+      "comments": []
+    }
+  ]
+}

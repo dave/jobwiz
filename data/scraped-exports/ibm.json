@@ -1,0 +1,1144 @@
+{
+  "company": "ibm",
+  "post_count": 57,
+  "exported_at": "2026-01-18T17:44:53.282Z",
+  "posts": [
+    {
+      "title": "Got an interview for IBM Business Analyst Intern — what should I prepare for?",
+      "body": "Hey everyone,  \nThis is job posting: [Job Posting](https://ibmglobal.avature.net/en_US/careers/JobDetail?jobId=58156&amp;source=WEB_Search_NA)  \nI just got invited to the first interview for the IBM Business Analyst Intern (Technology Zone, Markham) position. It’s a 1-hour interview with two managers.\n\nIf anyone here has gone through this specific IBM BA intern process, what should I expect?  \nLooking to understand:  \n• Types of questions they ask  \n• How technical the documentation/SDLC questions get  \n• Whether they focus more on behavioral or technical BA scenarios  \n• Any curveball questions they’re known for  \n• Anything you wish you had prepared but didn’t\n\nAny insight from people who’ve interviewed at IBM recently (or for BA roles in general) would really help. Thanks!\n\n\n\n",
+      "subreddit": "interviews",
+      "score": 3,
+      "url": "https://reddit.com/r/interviews/comments/1p0itmo/got_an_interview_for_ibm_business_analyst_intern/",
+      "comments": [
+        {
+          "body": "Short answer to your question: expect mostly behavioral plus light SDLC and requirements questions, with a small case or walkthrough. When I interviewed for a similar BA intern role, they asked me to frame a user story with acceptance criteria, talk through how I’d gather requirements from conflicting stakeholders, and explain Agile ceremonies and where a BA adds value. Technical depth stayed surface level, like clarifying CRUD or basic SQL joins at most. Curveballs were “prioritize these requests” and “tell me about pushing back on vague requirements.” What helped me was building 6 STAR stories and practicing a 5 minute mock discovery call. I ran timed mocks with Beyz coding assistant using prompts from the IQB interview question bank, and kept answers around 90 seconds. If you can articulate tradeoffs and a clear handoff to dev and QA, you’ll land well.",
+          "score": 1
+        },
+        {
+          "body": "you can try past interview questions on - [www.pastinterviews.com](http://www.pastinterviews.com)",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "I don't know how to feel about this....",
+      "body": "So, I’ve been job hunting since last September after being laid off. During this time, I’ve had some great interviews and offers, but I kept looking because I wanted something that truly felt right for me.\n\nLast week, I applied for an AE role at a well-known company (hint: it's famous for its CRM). This week, I got a reply from a recruiter saying I didn’t have enough experience for an AE role but that they could interview me for a BDR role instead. I got excited, did my usual prep, and was ready to go.\n\nThen, not only did the interviewer join five minutes late, but they also told me that since I had applied for the role last month and already received a rejection email, they weren’t sure how to move forward with my application. They said they’d get back to me later this week, but let’s be real—it’s probably a no.\n\nWhat stings the most is that I passed up an SDR interview at IBM just to take this interview.\n\nSay what you want, but the job market is weird AF right now. At this point, I might as well just join a fight club or something.",
+      "subreddit": "interviews",
+      "score": 3,
+      "url": "https://reddit.com/r/interviews/comments/1je67n0/i_dont_know_how_to_feel_about_this/",
+      "comments": [
+        {
+          "body": "Im gonna take a wild guess and say that place you interviewed for is SF?\n\nTbh I personally think you dodged a bullet because its a VERY TOXIC place to work in. \n\nIf you jump from BDR to AE, it's hard. Maybe try digital sales roles as they are often a stepping stone into field AE roles.",
+          "score": 2
+        },
+        {
+          "body": "why on earth would you pass up on an interview to take another interview? just say you’re busy and suggest another time lmao",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Thank you email after doing poorly on interview.",
+      "body": "I just finished my second interview with JPMC for a fullstack position. \n\nIn the first interview, I was able to overcome my intense nervousness and I felt I did pretty good. This interview, however, didn't go as swimmingly. \n\nIt started from the first technical question asked. I didn't know the answer and never even heard of the terminology he used. I think this kind of set the tone for the rest of the interview. I answered with a shakey, hesitant, unconfident voice and continued to do so for pretty much the remainder of the interview. \n\nAside from apparent nervousness, or more accurately due to nervousness, I didn't give great answers to questions. If you don't have a technical background, this section might not make sense. First, he asked about my experiences, like if I worked with AWS, which I haven't really done. I \"know\" AWS services but I don't have hands on experience. I feel this looked bad as it seemed like he was looking for someone with experience in AWS or some cloud technology. In fact I think he looked a little bit disappointed when I told him I don't have enterprise level experience working with AWS. I told him I worked with IBM Cloud Products but he didn't really seem to care. Next, he wanted a real world example of when to use SQL and when to use NoSQL. He told me to think about an amazon page and the data it displays, then what would I use sql for and nosql for. I botched the answer. I actually gave the opposite of what he was expecting. I said NoSql for items, prices, description and categories. He gave a mini lecture trying to hint that I was wrong and that my approach is not ideal and asked something like do you still think your approach is good?  I said yea and proceeded to yap a bunch of nonsense. At this point it got so bad I answered the most basic, fundamental question of programming incorrectly. I mixed up what overloading and overriding is and am punching the air right now. Something I learned perhaps in the first week of undergrad classes. I think that was the straw that broke the camels back and declared this officially as a bad interview. \n\nHonestly, feeling a bit embarrassed right now but still really want this job badly. It's almost like it didn't matter how long I studied, my nerves truly did get the best of me. Speaking of studying, I was also under the impression that this interview was on React library only. In the first interview, we ran out of time and the interviewer said he wants to schedule another interview because we didn't cover react. That he wants someone from the frontend team to meet with me and discuss react. We did not talk about it at all though. I prepared and dedicated a lot of time to react when really it was more of a backend interview again. \n\nAnyways, I think the real reason I'm writing this is to vent my frustration. But might as well ask for help at the same time. I want to write a thank you note that kind of talks about my awareness of not doing great on the interview. ",
+      "subreddit": "interviews",
+      "score": 14,
+      "url": "https://reddit.com/r/interviews/comments/1d568mt/thank_you_email_after_doing_poorly_on_interview/",
+      "comments": [
+        {
+          "body": "[deleted]",
+          "score": 17
+        },
+        {
+          "body": "The unfortunate reality is that if you botched multiple technical questions, including very basic ones, you're probably not getting the job *this time*. \n\nI would stop beating yourself up and prepare to move on. But it can't hurt at this point to send a quick email clarifying your answers and thanking them for their time. It's a low risk action.\n\nEvery interview failure can be a learning opportunity. The only way to get better at interviewing is to do it. And you have multiple take aways from this process- like not over preparing for one specific element of an interview, leaving you unprepared for other questions, or taking the time to slow down and think through questions especially when the interviewer is dropping hints.",
+          "score": 14
+        },
+        {
+          "body": "I don't know anything about tech, but, in an interview, I have found it's always best to readily admit \"hey I don't know the answer\" if you really don't know the answer. Interviews are supposed to be difficult. In addition to assessing your knowledge, they're also checking how you operate under pressure..\n\nSometimes you could add something like you've really caught me off guard here. The point is to openly admit within the first sentence that you don't know the answer. Then tell them that you're venturing a guess, and offer that guess. Then say if you're fascinated by x, y, z and you look forward to learning more about it. That has always worked for me.\n\nAs far as a follow up email, I have found it is permissable to pick one question and follow up your answer. It highlights your commitment.",
+          "score": 8
+        },
+        {
+          "body": "I can relate. I had an interview for a position I really wanted but my family made so much noise in the background while I did my zoom interview that I was distracted while answering the questions. I'm sure my distraction came off as being unprepared or nervous to the interviewers. 😭 At least you didn't have that happen to you lol. I know I did badly but I still sent a thank you email to thank the interviewers for their time and highlight my strengths.",
+          "score": 5
+        },
+        {
+          "body": "Tbh for the first time ever, I didn’t send a thank you this week in an interview I know didn’t go well. The interviewer seemed to have their mind made up shortly after hopping on and it didn’t seem like my answers were what they were looking for, and when I asked during my questions portion what they’ve been enjoying most about their role, they *laughed* and said “well…no day is boring.” I’m sure that was about them, not me, but it sealed it. They also accidentally left the call at one point and I truly thought they weren’t coming back on. It just was not a good vibe and I knew a thank you wasn’t going to help anything so I didn’t bother.\n\nIf you really want the job, you can try to clarify a couple small details in a thank you but it likely can’t salvage an interview that top to bottom was a “no” for them. All you can do is try to learn from it for next time, which I know is frustrating. Hopefully you find a good fit soon.",
+          "score": 3
+        },
+        {
+          "body": "I can imagine how tough it must feel to come out of an interview feeling like things didn't go as well as you hoped. It sounds like you were caught off guard by some of the technical questions and struggled to find your footing, which can be incredibly disheartening. I've been in similar situations before, where nerves got the best of me and I stumbled over my words or didn't give the best answers. It's tough to shake off that feeling of embarrassment, but it's important to remember that everyone has moments like these – it's all part of the learning process.\n\nAs for writing a thank-you note, I think it's commendable that you want to acknowledge your awareness of how the interview went. It shows maturity and self-awareness, which are valuable traits. You could express gratitude for the opportunity to interview and for the interviewer's time and consideration, while also acknowledging that you recognize there were areas where you could have performed better. You could mention that you appreciate the chance to learn from the experience and that you remain enthusiastic about the opportunity to contribute to the team. Showing humility and a willingness to grow can leave a positive impression, even in less-than-ideal circumstances. And remember, one interview doesn't define your worth or capabilities – it's just one step in your journey. Keep your head up and keep pushing forward – the right opportunity is out there for you.",
+          "score": 2
+        },
+        {
+          "body": "That's the bane of software engineering world. Every employer has a different tech stack and they all want 2+ years of specific enterprise level experience for their specific tech stack. Been working on Java Rest API using Jersey for 10 years? We're looking for someone with Springboot experience.",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "IBM Business Transformation Consultant Interview Process",
+      "body": "Hey everyone, I recently received a recorded competency interview from IBM related to the Business Transformation Consultant role and I’m curious to know what types of questions are asked for this recorded video interview? Anyone who gave this round please guide me as well. Thank you! ",
+      "subreddit": "interviews",
+      "score": 3,
+      "url": "https://reddit.com/r/interviews/comments/1orxpey/ibm_business_transformation_consultant_interview/",
+      "comments": [
+        {
+          "body": "I'm curious as well, how did the interview go? What type of questions did they ask you?",
+          "score": 1
+        },
+        {
+          "body": "you can try past interview questions on - [www.pastinterviews.com](http://www.pastinterviews.com)",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Why is hiring old people so bad?",
+      "body": "I’m interested to find out what makes older employees (like me) so bad.\n\nI can imagine there are 10,000 reasons why people don’t hire olds, but are any of them actually true, and to why extent, and how does that compare to any benefits, etc.?\n\nWhen I used to interview, I’d pretty much give an automatic thumbs down or lukewarm reception at best to anyone who was ‘old’ — which was prob 30+ at the time. The reason? I didn’t want any pikers — I wanted someone who was going to sell their soul/sanity/health to the company for 80+ hours per week, and olds had families and just myriad other things in their lives.  \n\nOK that was my personal experience as a hiring person. Now I’m on the other side of 40. Justice! 😂\n\nBut take for instance IBM — they fire everyone over say 35. Kind of Nazi-style — hey, they have the experience! 😂\n\nBut why is it so important for them to do this?\n\nI imagine it’s straight economics for them — fire the 40yo making $80k hire the fresher making $40k, done.\n\nThat’s no small difference.\n\nBut what about new hiring? Are young kid always better than olds? Or is just a combination of things you get with young people?\n* compliance/desperation\n* cheaper labor \n* pliability \n* less expensive health care \n* prettier\n* willing to work longer hours \n* smarter/sharper\n* better versed in newer tech\n* better attitude\nEtc\n\nYeah wow that’s a lot.\n\nI would generally agree with all that, but I wonder if there is an actual argument for keeping at least some old people on staff.\n\nLike, older people with relatively inexpensive salaries in key positions could actually help a company more than a bunch of freshens?\n\nI figure I might have one more job in me before I have to do my own company because nobody is going to hire me anymore.\n\nThanks for any thoughts. Interested in studies that might help us older folks get hired.",
+      "subreddit": "jobs",
+      "score": 0,
+      "url": "https://reddit.com/r/jobs/comments/byex8p/why_is_hiring_old_people_so_bad/",
+      "comments": [
+        {
+          "body": "Well, it’s illegal to discriminate against people for being over 40, so that’s one big reason to not discriminate.",
+          "score": 6
+        },
+        {
+          "body": "The job market is just in general hard for everyone.",
+          "score": 3
+        },
+        {
+          "body": "Yikes, what industry are you in?",
+          "score": 2
+        },
+        {
+          "body": "Older workers literally have better job attitudes (more satisfied and committed) and better performers in terms of helping out colleagues... plus it’s illegal to discriminate against them.",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "title": "Technical Interview for IBM Internship",
+      "body": "Hey guys,\nI have a technical interview with IBM for an internship tomorrow. Do you guys have any tips or insights? This is the first time I've gotten a technical interview and I am quite nervous. Will they let us choose the programming language to work with?",
+      "subreddit": "cscareerquestions",
+      "score": 6,
+      "url": "https://reddit.com/r/cscareerquestions/comments/6685ik/technical_interview_for_ibm_internship/",
+      "comments": [
+        {
+          "body": "Don't bring up their earnings report.",
+          "score": 8
+        },
+        {
+          "body": "Heyy im in ur situation and was wondering if you can help me with this!",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "No, Palantir. Your internships are not worth 5 months, 8 interviews, dozens of emails, a flight to New York, and a drive down to Palo Alto. Get over yourself before you drain the company of all its tech talent.",
+      "body": "I recently decided to quit the recruiting process with Palantir after having first reached out in July of 2016 and having my first interview in October. Last summer I was really excited about the prospect of working at Palantir--cool tech, smart people, sick perks. After 2 phone screens, 3 onsites in NY, a hiring manager interviews and dozens of emails back and forth with recruiters I got a call offering me the \"opportunity\" to do even more onsites for the Forward Deployed Engineering role.\n\nDuring this time I also found two separate internships, one at a breakout list company and another at Google. I took both offers (I had two off terms from school essentially) and am currently working at the breakout list company. Yet, here I am in January talking to Palantir still and being asked to do more interviews. Finally I said enough, no tech internship could possibly be worth what would be 8 interviews or more if I kept going.\n\nThis made me seriously consider though, how does Palantir get good talent if they have such a horrible recruiting process?\n\nI'm asking this question because I thought maybe I was an outlier, but heard of several people with similar experiences. My perception of Palantir has been drastically reduced through this process. I told my recruiters via email about already finding internship, being stuck in the recruiting pipeline for nearly five months, and how I was not willing nor had the time to interview as I'm working now. She just recanted the same things as before about wanting to find a good fit for me, how that takes time, and asked me to do more interviews.\n\nNot only is the recruiting process awful, but I think a company would have to be seriously delusional about its status to think that 5 months and 6 interviews later I'll take a day off of work from my current internship to take the CalTrain down to Palo Alto and do some brain teasers on a whiteboard so that maybe I can get another hiring manager interview for a role as a glorified customer support engineer that I didn't actually want in the first place.\n\nHow in the world does Palantir stay competitive thinking like this? Is there still any hype for Palantir from top engineering talent? \n\n\nI wholeheartedly regret even starting this process of applying to Palantir as it's been a huge time and energy investment and I have absolutely no closure--I didn't get rejected, I didn't get an offer, I just walked away. \n\nIf you've had a similar experience with Palantir I'd love to hear about it and what you did. I'm also interested in what anyone who has had a positive experience being recruited or working at Palantir has to say. ",
+      "subreddit": "cscareerquestions",
+      "score": 1938,
+      "url": "https://reddit.com/r/cscareerquestions/comments/5ncqti/no_palantir_your_internships_are_not_worth_5/",
+      "comments": [
+        {
+          "body": "My friend had a total of 13 (!) interviews there, which includes 1 coding test, two phone and then 2x 5 on-sites and she still got rejected.\n\nShe then asked if there are any other teams and got in, but the whole process sounds pretty crazy.",
+          "score": 490
+        },
+        {
+          "body": "&gt; Is there still any hype for Palantir from top engineering talent?\n\nPalantir's image has dropped dramatically recently. A lot of it is due to its inconsistent interview process and people figuring that the work Palantir does isn't as interesting as they make it sound.",
+          "score": 500
+        },
+        {
+          "body": "[deleted]",
+          "score": 77
+        },
+        {
+          "body": "You should reconsider why you think they have top talent. If you go back and look, it's likely because they advertise themselves a lot with candidates and then give them difficult questions. That's not actually indicative of anything happening inside the company.\n\nI get pretty annoyed at how much this sub's perception of companies has to do with what's essentially advertising and marketing, rather than any evaluation of the company's product.",
+          "score": 243
+        },
+        {
+          "body": "That sucks, IMO, almost no job is worth going through that. After what I've heard about Palantir there is no way I'd apply and no reason I would want to work there. I could be wrong since I don't have much experience(I'm a senior with intern experience) and all I've heard is secondhand, but...\n\nBut it really seems like does not live up to the hype they try to generate about themselves. I've heard about them doing shady bait switch stuff to try and get people into the forward deployed engineer role when the person didn't even apply to it and explicitly said they didn't want to go to that role. At least for hiring they seem to have some sucky practices. Also I've heard about some people having some not so fun overtime, not into that at all. But I'm also not the super ambitious type that only wants to work at the Big N so mileage may vary I guess depending on what motivates you. ",
+          "score": 110
+        },
+        {
+          "body": "I never really understood the hype.  When it was more of an unknown company I was contacted to interview there.  I looked up what they do and the way i read it was they basically work on some of the the big brother infrastructure used by people like the nsa.  I replied to the recruiter with a question, wondering if they realized the real palantir were corrupted by sauron and used for evil.  Funny enough the recruiter came back with \"we get asked that a lot\" and a pitch about how it is only used for altruistic causes like \"catching terrorists\".  Right, nice try saruman",
+          "score": 150
+        }
+      ]
+    },
+    {
+      "title": "IBM Guide/Finish Line Interviews",
+      "body": "Did anyone else recently finish their IBM interview process? I've seen links already for the other finish line events. I was wondering how long it took to hear back after the guru interview for the guide interview. Also, I think I'm supposed to have a dedicated resource partner for the interview process but my email says the recruiter's email is xxx@ibm.com and no phone number is listed. Is there someone I can contact for help? I think there was a mistake. Thanks!!",
+      "subreddit": "cscareerquestions",
+      "score": 1,
+      "url": "https://reddit.com/r/cscareerquestions/comments/5fsr9r/ibm_guidefinish_line_interviews/",
+      "comments": [
+        {
+          "body": "as long as you go to the finish line event, you will be fine. ",
+          "score": 1
+        },
+        {
+          "body": "check ur status in brassring it will tell u if ur still under review",
+          "score": 1
+        },
+        {
+          "body": "I was told I'd be having a Guide interview a day after my Guru interview but it took a few more days for that to be scheduled. The recruiter is your point of contact for everything.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Anyone given the Gurur interview for Cognitive Software Engineer for IBM Watson?",
+      "body": "It's my dream job. I really really, badly want it. My Guru interview i.e. the 2nd round interview with someone from the technical team is coming up. Due to pending offer deadlines, I will only have 2-3 days before I give my interview. I haven't received a response from the HR yet as to what the format will be. I want to study for it but am not sure if the questions are NLP/ML or just general CS. Would really appreciate if anyone has had the same and is willing to share their experience. Thanks :)",
+      "subreddit": "cscareerquestions",
+      "score": 2,
+      "url": "https://reddit.com/r/cscareerquestions/comments/5a6gga/anyone_given_the_gurur_interview_for_cognitive/",
+      "comments": [
+        {
+          "body": "[deleted]",
+          "score": 1
+        },
+        {
+          "body": "[deleted]",
+          "score": 1
+        },
+        {
+          "body": "HR gave me the same email about the guru interview but never followed up. good luck!",
+          "score": 1
+        },
+        {
+          "body": "[removed]",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Has anyone recently interviewed with IBM?",
+      "body": "I was wondering if anyone is currently or has recently interviewed with IBM for a full time or internship Software Engineering position, and has received an offer. If so, then could you please share how the interview process went and when you received an offer or when you should expect to receive one. ",
+      "subreddit": "cscareerquestions",
+      "score": 13,
+      "url": "https://reddit.com/r/cscareerquestions/comments/5zuh6x/has_anyone_recently_interviewed_with_ibm/",
+      "comments": [
+        {
+          "body": "I recently did for an internship and I'm expecting an offer/rejection pretty soon. How far into the process did you make it?",
+          "score": 6
+        },
+        {
+          "body": "Hirevue coding and video responses interview..Guru interview..Guide interview..Finish Line. Took around a month for me.\nEdit: Full-time",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "title": "IBM Guru Interview",
+      "body": "Has anyone taken IBM guru interview-Whiteboard session, this is after the hireview coding challenge. Please share your experience. Would really be helpful. Its for software engineer position.",
+      "subreddit": "cscareerquestions",
+      "score": 2,
+      "url": "https://reddit.com/r/cscareerquestions/comments/574wva/ibm_guru_interview/",
+      "comments": [
+        {
+          "body": "It was a live coding exercise, like any normal phone coding interview  but it's a live video.  The guy was really friendly and asked a few questions about my background, a simple coding question and a brainteaser type question.",
+          "score": 2
+        },
+        {
+          "body": "is this for full time?",
+          "score": 1
+        },
+        {
+          "body": "Completed Guru interview today. It was purely behavioural",
+          "score": 1
+        },
+        {
+          "body": "I had mine today.It was one coding question in java and the rest were design questions based on situation. Interview was concluding 15 mins earlier. There was only one guy interviewing me.",
+          "score": 1
+        },
+        {
+          "body": "was it on an online coding platform, or do is actually more of a walkthrough/pseudocode/whiteboard session?",
+          "score": 1
+        },
+        {
+          "body": "Just had mine today most behavior, but some technical discussion about cloud computing and what not related to Bluemix and Watson",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Received offer for IBM internship. More interviews in the queue. What's the protocol in getting time to decide?",
+      "body": "Today I received my first offer for an internship for the next year with IBM. I also have another 5 interviews with BlackBerry and IBM tomorrow and Monday. My first choice is to work for another team in IBM which I will be interviewing with on Monday. So the offer I received says I have until Monday to accept but I want to get it extended because I still want to meet the other teams. How do I go about doing this? Also, is there a way to get the interviewers to expedite their decision making?",
+      "subreddit": "cscareerquestions",
+      "score": 19,
+      "url": "https://reddit.com/r/cscareerquestions/comments/19voqa/received_offer_for_ibm_internship_more_interviews/",
+      "comments": [
+        {
+          "body": "[removed]",
+          "score": 8
+        },
+        {
+          "body": "As someone trying to get ONE right now for the summer, I am jealous of you and your many. I'll move along now and cry...",
+          "score": 6
+        },
+        {
+          "body": "They will go another way. Current intern at BlackBerry, had a lot of friends in the same situation. \n\n",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "IBM Hirevue/Guru Interview",
+      "body": "Is there anyone else like me who is still waiting to hear back after the Hirevue Coding round? I am pretty sure I did well in the first round, but I haven't heard back yet, in spite of following up with the recruiters. I just want to know if there are others like me? Thanks :)",
+      "subreddit": "cscareerquestions",
+      "score": 2,
+      "url": "https://reddit.com/r/cscareerquestions/comments/5bplzr/ibm_hirevueguru_interview/",
+      "comments": [
+        {
+          "body": "If u haven't herd back you probably didn't make it. They just started emailing finish line events today",
+          "score": 1
+        },
+        {
+          "body": "[deleted]",
+          "score": 1
+        },
+        {
+          "body": "A few people I know haven't heard back for DS and cog SE",
+          "score": 1
+        },
+        {
+          "body": "I just received my Guru invite today. I wouldn't lose hope just yet. However, the invite did mention that final rounds are taking place this month.",
+          "score": 1
+        },
+        {
+          "body": "I'm interviewing for DevOps as well. I took the challenge last friday Nov 4th and got invited to the Guru on Nov 8th. I scheduled it for tomorrow.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Has anyone taken the IBM \"Guru Interview\" for Entry Level Data Scientist position?",
+      "body": "This is the next interview after the initial HireVue interview. Anyone care to share their experience? The email says it will be a live digital whiteboarding session to further assess your technical expertise and other professional skills. Not sure if I should focus more on brushing up on programming skills or statistical analysis.",
+      "subreddit": "cscareerquestions",
+      "score": 5,
+      "url": "https://reddit.com/r/cscareerquestions/comments/571s0n/has_anyone_taken_the_ibm_guru_interview_for_entry/",
+      "comments": [
+        {
+          "body": "Can you share with us what's in HireVue interview? Just got invitation.",
+          "score": 1
+        },
+        {
+          "body": "Hi,\n\nI got an email for HireVue interview for entry level Data science position.\n\nCan u please share your experience",
+          "score": 1
+        },
+        {
+          "body": "Hello,\nIs that your second round?\n\nHave you done with the first round (Digital interview /video response)?",
+          "score": 1
+        },
+        {
+          "body": "I'm curious about their Guru interview template too. I got an invite for entry-level software engineer position for next week.  ",
+          "score": 1
+        },
+        {
+          "body": "After how many days of Hirevue interview round, you got the response for Guru interview ? \nIt's been a week and i have no response from them.",
+          "score": 1
+        },
+        {
+          "body": "Hi,\n Can you please share your experience with hirevue, and what kind of questions can i expect in the hirevue video interview ",
+          "score": 1
+        },
+        {
+          "body": "Hi,\n\nI also got an invite for Guru interview. Can you share your experience? What kind of questions can i expect in the Guru interview? Behavioral question, technical questions? or will it ask you to take some code assessment? ",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Question about IBM interviewing process",
+      "body": "I applied to a position at IBM, and I have completed the HireVue interview and I just recently (2 days ago) completed the IPAT test with the number patterns and problem solving questions. Any of you who has interviewed or worked at IBM know what possibly comes next and how soon would they notify me of the next stage?",
+      "subreddit": "cscareerquestions",
+      "score": 1,
+      "url": "https://reddit.com/r/cscareerquestions/comments/5ury51/question_about_ibm_interviewing_process/",
+      "comments": [
+        {
+          "body": "I did the IPAT at the start of this month, and it took just under 2 weeks to tell me the result. Probably the rest will happen after that.",
+          "score": 2
+        },
+        {
+          "body": "IBM is pretty slow. You'll hear back in like a month. There is a hiring freeze until March usually. I interned there last summer. ",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "IBM Whiteboard Guru Coding Interview",
+      "body": "I passed my coding test on hirevue for entry level software developer (undergraduate). I received an email saying there will be a 1 hour whiteboard interview (guru, as they say it). I was wondering what kind of questions they ask in the interview? And do we have to code it while on webcam and phone? Can someone tell me what happens during this interview? ",
+      "subreddit": "cscareerquestions",
+      "score": 2,
+      "url": "https://reddit.com/r/cscareerquestions/comments/6mr14u/ibm_whiteboard_guru_coding_interview/",
+      "comments": [
+        {
+          "body": "Had a friend take it-asked a two sum problem and the best time to buy stock",
+          "score": 1
+        },
+        {
+          "body": "They'll ask you one coding challenge and you code it through a shared web editor/compiler.",
+          "score": 1
+        },
+        {
+          "body": "wow theyre still hiring?? Its' a pretty standard coding interview, usually done by a manager, a few technical question and few whiteboarding questions. Tests your knowledge of DS+A",
+          "score": 1
+        },
+        {
+          "body": "Asked about a riddle and then asked me to simulate the riddle using java",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Is anyone familiar with IBM's Operations Decision Management? How they heck can I best explain it during interviews?",
+      "body": "I currently work as a developer using IBM's ODM software at a large insurance company. It sucks, it's a terrible platform. I've been working with it for ~10 months now. I'm interviewing for new jobs and I'm just wondering how to best explain the software to potential future employers.\n\nIt might seem weird that I can't explain the software that I work with everyday, but I can, just probably not to the level that I should be able to. Currently my line is \"I work with IBM's suite of software utilizing Java and JSON as well as their proprietary business rule language to externalize business logic from our front-end applications so that it is more scaleable and visible to business users.\"\n\nI'm wondering if anyone else has worked with this platform before and might have some good buzzwords or better ways of explaining it that might help me in an interview.\n\nThanks!",
+      "subreddit": "cscareerquestions",
+      "score": 3,
+      "url": "https://reddit.com/r/cscareerquestions/comments/6miqgu/is_anyone_familiar_with_ibms_operations_decision/",
+      "comments": [
+        {
+          "body": "JRules was for years and years was a cornerstone of decision software.  Business Process Managembt, likewise is the is a big piece of enterprise software that's used in banks and insurance everywhere.  If you think it sucks, you really should see what else is out there.  \n\n\nAnyways, ODM is a big product.  What do you do with it? It sounds like you spend your time hitting it's apis to build pages (i forget what that used to be called, web builder ?)  it's a very big tool that is mostly geared towards business users to codify \"stuff\". If you you aren't on that end just think of it as a big application that you build off of. So you probably do custom applications for you insurance company.  Aren't nothing wrong with taking about that.",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "IBM guru interview for entry level software?",
+      "body": "It loooks like it's ibm Watson based on the email but not cognitive software developer? Any tips? ",
+      "subreddit": "cscareerquestions",
+      "score": 4,
+      "url": "https://reddit.com/r/cscareerquestions/comments/72nspz/ibm_guru_interview_for_entry_level_software/",
+      "comments": [
+        {
+          "body": "It's pretty much your standard technical screen: short intros, walk through resume/projects, couple of DS/Algo technical questions, and 5 mins at the end to ask questions. Cognitive Software Developers work under the IBM Watson umbrella. ",
+          "score": 2
+        },
+        {
+          "body": "how do you study for Cognitive Software Dev Guru Interview?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Looking for advice on the IBM Extreme Blue Interview Process",
+      "body": "Hey guys,\n\nSo I'm a junior CS major and I've had one internship with IBM before (in security) and I enjoyed it. However, I didn't do much software development and that is what I am really passionate about learning and getting better at.\n\nI have a phone call lined up with IBM Extreme Blue and I'm really nervous. The first call is just a screening phone call but after that I have a technical one. I've never had a technical interview before and I am really spooked. I've been going through Hacker Rank and trying to solve problems (à la something like an Amazon data structures-driven interview) but some people I've spoken to about Extreme Blue said that they interview in a completely different process.\n\nThis could be both good and bad for me, as I'm not as brushed up on data structures as I'd like to be.\n\nIf you have any experience with the IBM Extreme Blue interview process and what I could brush up on to really stand out I would appreciate it greatly! Also, if you can tell me about the internship that would be a major bonus.\n\nThanks a lot guys.",
+      "subreddit": "cscareerquestions",
+      "score": 4,
+      "url": "https://reddit.com/r/cscareerquestions/comments/2peieh/looking_for_advice_on_the_ibm_extreme_blue/",
+      "comments": [
+        {
+          "body": "Is that the internship where IBM gives each team $100k to design something over the summer, then you usually walk away with a bunch of patents?",
+          "score": 3
+        },
+        {
+          "body": "[removed]",
+          "score": 3
+        },
+        {
+          "body": "If you make it to the technical interview, I will probably be your interviewer; AMA ;-)\n\nakhbhaat did a great job in that other thread of describing the program, so just go read that (although I'm of course honor-bound to refute all of the negatives they listed).\n\nI'm not gonna go into detail about our tech interview because we have enough trouble as it is with details about the questions making it out onto the internet. But I will give you some advice:\n\n1) When I get time I need to expand our self-study roadmap, but it's pretty solid as-is. Check it out: http://www-01.ibm.com/employment/us/extremeblue/roadmap.html\n\n2) We care more about your core language skills than we do about arcane data structures, so honestly, if you want to review stuff, go back and review the notes you took in your first 2-3 intro-level CS classes. I'm amazed at how many people aren't clear on that stuff.\n\n3) We put a lot of weight on what we call \"project skills,\" i.e. specific topics/technologies that we leverage in our projects. Most of what we do leverages fundamental service-oriented web technologies to one degree or another. I can teach you about REST in an hour or two, but I'd strongly prefer that you already know it (and ideally have used RESTful APIs before).\n\n4) We are very interested in people who have put their skills to use on practical projects, either large classroom projects, personal projects, or previous internships. I find that people who have done that have a much easier time of answering questions, both abstract &amp; practical, than people who have just studied in class, passed a test, and then moved on.\n\nOur technical interviewers are nice people, and we try to make it an educational process (i.e. if you get something wrong we'll talk you through the solution so you'll hopefully learn something new), so please don't be nervous! We do a lot of these interviews, so we want them to be fun. Otherwise we'd go nuts doing them all day every day.\n\nGood luck!",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "title": "Got my first interview ever! IBM internship. First hand experience?",
+      "body": "Have my first phone interview with IBM next week for a software engineering/product engineering internship. Any tips from those who have interviewed with them?\n\nIts going to be at the X force command center.",
+      "subreddit": "cscareerquestions",
+      "score": 11,
+      "url": "https://reddit.com/r/cscareerquestions/comments/5qg1gl/got_my_first_interview_ever_ibm_internship_first/",
+      "comments": [
+        {
+          "body": "[deleted]",
+          "score": 7
+        },
+        {
+          "body": "As another intern: when did you pass your AC?",
+          "score": 2
+        },
+        {
+          "body": "Oh not too sure about the X force command center. But I just had a phone interview for a specific software dev intern role. I think I did badly but I can give you some idea of what to expect. I had two interviewers, one dev manager and the other was the lead engineer on the team.\n\nThey gave me an overview of the project, expectations from interns, and what their vision is. Then they took turns to ask a mix of behavioral and hypothetical situation interview questions. Mostly about projects I had made, what sort of issues I faced with these, and other experiences. \n\nThey even looked up my github and asked me a specific question about one of my projects on there! I was fine with the usual behavioural questions but the hypothetical ones threw me off. These were 6-7 vague situations, where I would have to clarify and then explain my thought process. Eg: Your client stops attending meetings for a project that is due soon. What do you do?\n\nI was really well prepared for traditional and usual behavioral questions but hadn't thought to prep for situational ones like that so I'm probs out of the game on this one. Overall it came to be 1hr long. The upside is, I've got another IBM interview next week so this was a useful learning experience!",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "IBM Guru Interview: How long does it take to hear back?",
+      "body": "I have my guru interview tomorrow and was wondering how long it takes to hear back about the results.",
+      "subreddit": "cscareerquestions",
+      "score": 1,
+      "url": "https://reddit.com/r/cscareerquestions/comments/5fddbk/ibm_guru_interview_how_long_does_it_take_to_hear/",
+      "comments": [
+        {
+          "body": "[deleted]",
+          "score": 2
+        },
+        {
+          "body": "I heard back in less than 24 hours.",
+          "score": 2
+        },
+        {
+          "body": "damn i did my guru wednesday and i still didnt hear back i got rejcted most likely :(",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "IBM Guru Interview",
+      "body": "Hi! I was emailed this Monday by my recruiter in IBM (I took coding challenge a week ago). The recruiter told me to send my availability this week for an interview. I accepted the schedule of Wednesday but then the recruiter emailed back and told me that the manager was not available due to unexpected meeting. Since then, I haven't gotten a new schedule.\n\nAnyone else got their interview canceled for tomorrow(Wednesday 11/15)? I applied for Entry Level Software Engineer\n\nEDIT: Got a new schedule the day after I posted. The interview was today. It was alright",
+      "subreddit": "cscareerquestions",
+      "score": 1,
+      "url": "https://reddit.com/r/cscareerquestions/comments/5d6ib8/ibm_guru_interview/",
+      "comments": [
+        {
+          "body": "I had one of my interviewers not show up. They took almost a whole week to reschedule it, so be patient. ",
+          "score": 2
+        },
+        {
+          "body": "They r slow af because a lot of them r busy with the finish line events. Just email ur recruiter.",
+          "score": 2
+        },
+        {
+          "body": "Did you hear back yet?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Has anyone interviewed for IBM's Extreme Blue internship yet? How did it go?",
+      "body": "",
+      "subreddit": "cscareerquestions",
+      "score": 15,
+      "url": "https://reddit.com/r/cscareerquestions/comments/5m8e1f/has_anyone_interviewed_for_ibms_extreme_blue/",
+      "comments": [
+        {
+          "body": "Went through the first round, but I declined the technical interview because I'd already accepted another offer. Do you have any specific questions?",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "title": "IBM federal associate consultant case interview advice",
+      "body": "I have an interview with IBM for entry level federal associate consultant. I have already done the behavioural interview and just have the case interview left.\nDoes anyone have any experiences or advice they could please share as this is my first case interview I’ve done?\n\nAnything would really be appreciated!\n\nThinks that would also be helpful is:\n•past questions/ cases \n•the best way to answer/ system \n•is there anything specific they look for \n•Specifically for entry level federal associate consultant\n•And like how a federal case is different from a business one\n•any tips specifically with this being my first time doing it \n\nThank you for any advice!",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/1of9lm3/ibm_federal_associate_consultant_case_interview/",
+      "comments": []
+    },
+    {
+      "title": "I broke my foot and I have a job interview on Monday at IBM for Helpdesk. That I have to do?",
+      "body": " I'm afraid they'll see me badly and I'm also ashamed to go with the plaster. Please help",
+      "subreddit": "jobs",
+      "score": 3,
+      "url": "https://reddit.com/r/jobs/comments/bsltt6/i_broke_my_foot_and_i_have_a_job_interview_on/",
+      "comments": [
+        {
+          "body": "Are you kidding? If I saw someone show up to an interview in a cast I'd be thrilled.\n\nSo many people would just go on autopilot or lazy mode while they heal and here's someone who stayed in full on job-hunt mode.",
+          "score": 3
+        },
+        {
+          "body": "Heck No! GO TO THE INTERVIEW! That shows them that you have dedication and drive. \nIn fact, I think you’ll even get some brownie points over other candidates b/c of it",
+          "score": 3
+        },
+        {
+          "body": "Definitely go for it and don't worry about the cast, like other posters have said it'll make you look dedicated and show your interest in the job. It'll also help you stand out against other potential candidates and it might even be a good ice breaker with your interviewers to lighten the mood before the interview starts.",
+          "score": 3
+        },
+        {
+          "body": "What help? You didn't do anything wrong. Get on in there, make sure your tale of woe is short possibly slightly humorous &amp; sweet &amp; keep them focused on YOU &amp; how perfect you are for the job.\n\nYou'll REALLY have their attention so get in there &amp; kill it. This is an opportunity, not a liability!\n\nI have a friend who interviewed for a job with her nose in a splint after plastic surgery. She got the job &amp; stuck with it for many years, building a genuine, prestigious career for herself.",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "title": "interview with ibm this friday.Need some tips on differenct aspects.",
+      "body": "More info:\nThe email said the dress code is business formal.I bought a dark blue suit for my bro's marriage late last year. It has a little shiny look. Does that look a little weird for interview??\n\nI am really good in technical aspects but When I explain what I did /know, I get anxious some times which makes me speak very fast making the listener struggle to understand what I am saying.\n\nPlease throw some tips to avoid that and let me know how I can help my self preparing for the interview.",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/25hse5/interview_with_ibm_this_fridayneed_some_tips_on/",
+      "comments": [
+        {
+          "body": "Can you post a pic of the suit or a link to similar fabric? If it's a little shiny in the low lighting of a wedding, it may be super shiny in the noon sun or under fluorescent lights. You don't want them focusing on your suit, nor do you want to be self-conscious.\n\nTreat the interview like an open book test. Write out full answers or bullet points to common technical and behavioral questions. It's like a practice run and you get do-overs! It's a lot of work and will take a few hours but you will sound very polished and it should give you a confidence boost. ",
+          "score": 2
+        },
+        {
+          "body": "Take my comment with a grain of salt but here it goes:\n\nAlways have a TAILORED/well fitted interview suit, different colored shirts and ties to mix up if you get further into the  interview process. No point in chancing a job opportunity with IBM or any company over a poor suit. \n\nGo on glass door and search IBM, look up their interview questions,employee comments etc. Also, you should have responses for the common questions, for example, your 5 year plan, greatest weakness etc.. \n",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "I checked the LinkedIn profiles of people who got the jobs that I didn’t. Here are my results",
+      "body": "I have had 16 unsuccessful interviews. I follow the companies I have interests in by checking their LinkedIn profiles as well as their websites. As a result I can always see new employees, including those who interviewed for positions I did but didn’t pass. This is just my opinion and is not an indicator of the companies’ hiring reasons.  \n\n\nTwo were straight up internal applicants who were promoted. \n\n\nFive people had significantly more experience than myself. On average they had 2-3 years’ experience more than me even though the advert indicated less years. So yes, sometimes people really do have more experience than you.\n\n\nThree people had the same qualifications than me and experience-wise, we were almost the same. However, two went to waaay more prestigious universities than myself (like top 100 universities). The third person went to the same schools (for both undergrad and postgrad) with one of the senior panelists and I think they knew each other from before.\n\n\nThree other people had skills that I have but didn’t have certification for. I work in research and have data analysis, proposal writing and literature review skills, all taught during my MSc and data analysis was largely self-taught. However these three went ahead and had certifications from Coursera, IBM and other reputable organizations. \n\n\nTwo people were younger than myself and also had less experience, though not by a big margin. Maybe they were hired due to other reasons other than qualifications, maybe personality-wise they rocked the interviews. I am a big  introvert and on occasions my demeanor has been brought up in interviews that I don’t look too excited etc. \n\n\nI found these insights very interesting. As I said before this are just my observations and can't say for sure this is why they were hired and not myself. \n\n\n\nEDIT: The 16 job interviews is spread over 2 years, from 2016. I have around 145 job applications. Yes I agree my problem has always been interviewing skills.",
+      "subreddit": "jobs",
+      "score": 778,
+      "url": "https://reddit.com/r/jobs/comments/8vjyw5/i_checked_the_linkedin_profiles_of_people_who_got/",
+      "comments": [
+        {
+          "body": "How did you find out who was hired for those jobs? ",
+          "score": 152
+        },
+        {
+          "body": "What are you doing to improve your interviewing skills? I'd say you have fantastic qualifications/resume/experience if you got called in for 16 interviews, so I don't think it's an experience or qualification issue. It may just be that the candidates who won over you were able to explain their qualifications/experience slightly better? ",
+          "score": 127
+        },
+        {
+          "body": "[deleted]",
+          "score": 38
+        },
+        {
+          "body": "Good job taking your job searching research to the next level, this is the type of work ethic that I'm sure will pay off for you in the future and probably get you a position soon.\n\nIt also seems to suggest to me that, based on this limited data, the job market is more or less working properly and meritocratically.",
+          "score": 56
+        }
+      ]
+    },
+    {
+      "title": "What Job Roles for this CV ?",
+      "body": "Hi Redditors,   \n  \nI have been applying for the Fund Operations and Investment Administrator roles here in the UK. I have been getting a few interview call-backs or first-round interviews over the last 7-8 months, but ultimately ended in rejections. I want to know if I am applying for the wrong industry/position according to my resume, or if there are other positions that I can apply to as an alternative. \n\nI understand the job market is chaotic and overwhelming, but man's gotta try other roles as well. I have my visa until January 2027, for which I can apply and secure any job role here in the UK. \n\nThanks for all the help ",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/1nk5eii/what_job_roles_for_this_cv/",
+      "comments": []
+    },
+    {
+      "title": "Beware of Fake Job Offers in the Name of Infogain India Pvt Ltd",
+      "body": "Hey everyone,\n\nI recently received a **job offer email** claiming to be from **Infogain India Pvt Ltd** for the position of Data Analyst Associate. At first glance, it looked legitimate, but upon closer inspection, it turned out to be a **scam**.\n\n# Key Details of the Scam Email:\n\n1. **Sender's Email:** The email was sent from a suspicious domain (`@lnfogain.com`) instead of Infogain's official domain (`@infogain.com`).\n2. **SPSS Certification and IBM ID Request:** The email demanded SPSS certification and an IBM license, with a tight 24-hour deadline to submit the documents.\n3. **Too-Good-to-Be-True Salary:** They mentioned a package of **₹6.25 LPA to ₹7.8 LPA** without conducting any interview.\n4. **Reimbursement Trap:** They claimed the certification fee would be refunded after the first month’s salary, which is a classic scam tactic.\n5. **Unprofessional Language:** The email contained grammatical errors, vague instructions, and pressuring deadlines.\n\n# How I Verified It Was Fake:\n\n* Checked the domain using WHOIS – it’s not associated with Infogain.\n* Contacted Infogain’s official HR team, and they confirmed they don’t send such emails or ask for certifications this way.\n* The formatting and tone of the email were unprofessional and didn’t match the standards of a reputed company like Infogain.\n\n# What You Should Do:\n\n1. **Double-check email domains:** Always confirm the sender’s email domain matches the official company website.\n2. **Never Pay Upfront Fees:** Legitimate companies do not ask you to pay for certifications or licenses before hiring.\n3. **Verify with the Official HR Team:** Contact the company directly through their official website or LinkedIn to confirm the job offer.\n4. **Spread Awareness:** If you receive a similar email, share it with others and report it as phishing.\n\n# Screenshot for Reference:  \n\nLet’s stay vigilant and protect ourselves from such scams. If you’ve received similar emails, feel free to share them below.\n\nhttps://preview.redd.it/6batv1p1l65e1.png?width=1325&amp;format=png&amp;auto=webp&amp;s=ec990a37b0014f60b5257307c09b9335d54b9ab7\n\n",
+      "subreddit": "jobs",
+      "score": 2,
+      "url": "https://reddit.com/r/jobs/comments/1h7w4r2/beware_of_fake_job_offers_in_the_name_of_infogain/",
+      "comments": [
+        {
+          "body": "today i got the same mail from the same email address",
+          "score": 1
+        },
+        {
+          "body": "I recieved same mail in multiple times. they are posting the jobs on unstop also. So please be aware.",
+          "score": 1
+        },
+        {
+          "body": "[deleted]",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "My friends current situation",
+      "body": "30 year old graduated with a Bs in math 2020\nHired by IBM as a Data scientist 2021 and then in 2022 got laid off. Currently works in a aerospace manufacturing company as a project manager but is trying to leave. (His father owns it and is retiring next year and selling the company) \nHe's applied for many companies in varios position from analyst, statistics, more in that field. and in government with no interviews. Now he's applying for a firefighter \n\nHe's clean, has a clean record and can get a security clearance too (he almost got on at IBM before being laid off) \n\nGood guy, hard worker too, social, and teachable. \nHe has specialty in aerospace, Healthcare and clinical research since he had an internship in Biostatistics. \n\n",
+      "subreddit": "jobs",
+      "score": 0,
+      "url": "https://reddit.com/r/jobs/comments/1dvebar/my_friends_current_situation/",
+      "comments": []
+    },
+    {
+      "title": "Data Analysis apprenticeship",
+      "body": "Good afternoon. I have a telephone interview on Monday at 1pm. They said they want me to talk about my skills. I was wondering what I should say. I did some data entry and analysis using excel and IBM SPSS for my psychology degree. I did customer service giving advice to Open uni students and admin tasks writing course confirmation letters. I was on a committee for students to give feedback about their course. I managed a table tennis society at university. Is there anything I should emphasise? I suppose I should tell them more about the kind of data analysis I did for my degree. Besides that, I hope i'll get the apprenticeship as I am keen to learn. ",
+      "subreddit": "jobs",
+      "score": 3,
+      "url": "https://reddit.com/r/jobs/comments/1ahuzuq/data_analysis_apprenticeship/",
+      "comments": [
+        {
+          "body": "&gt;I did customer service giving advice to Open uni students and admin tasks writing course confirmation letters. I was on a committee for students to give feedback about their course. I managed a table tennis society at university.\n\nDon't mention any of this. It's all irrelevant and they're not going to care. You need to talk specifically about the kind of data work you've done. Start learning python **today.** It will be enormously helpful if you can say that you're actively learning python because SPSS is garbage software that nobody in the professional world uses.",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "title": "Not getting any NHS interviews",
+      "body": "Hello,\nI am a biomedical Science degree graduate, with an accredited IBMS degree. I got a 2:2. I have no NHS lab experience, but I did a lab project for my final dissertation. \n\nI have been applying for Trainee Biomedical Scientist, Medical Laboratory Assistant, and Healthcare Scientist Associate Practitioner jobs. I am looking to become a biomedical scientist, and get my HCPC registration. \n\nI live in Scotland. \n\nThis is roughly what my personal statement looks like: \n\nI am a recent graduate from the University of Strathclyde, with an accredited IBMS Biomedical Science degree. I have a strong passion for biomedical science and a commitment to patient care.\n\nTalking to Susan Johnstone, at the Glasgow Royal Infirmary, I understood my passion for the NHS and I subsequently underwent a tour of the clinical biochemistry and biomedical lab facilities at the hospital, understanding the work I would be undertaking and the environment. \n\nDuring my degree, I gained a comprehensive understanding of the principles and practices of biomedical science, including disease pathology and treatment, as well as molecular biology, immunology, data analysis and the vital role of research. I also gained knowledge of industry standards and protocols, including material delivered by working NHS Biomedical Scientists and Pathologists.\n\nI also developed strong hands on laboratory skills in a variety of techniques\n\nIn my final year project, I worked in the laboratory, with oversight by Dr Nick Tucker, where l studied the effects of environmental metal contamination, and antibiotic resistance. This experience honed my ability to collect and analyse data, draw meaningful conclusions, and effectively communicate findings. Through this project, I gained invaluable hands-on experience in laboratory research. I independently executed various techniques, including 16S PCR, cell culturing, electrophoresis, cell-based assays, stock solution preparation, bacterial streaking, and the use of pipetting and plate reading machines. Throughout the experience, I developed the ability to adapt to evolving information, refine my skills, and pivot in response to unexpected outcomes or errors.\n\nI am confident that my skills and experience make me an ideal candidate. I am a highly motivated and organised individual with a strong attention to detail. I am also a team player and able to work effectively under pressure. \n\nCan someone give me advice on this, please? I have been having zero luck for months. Is this too much emphasis on my degree for an MLA position? How else could I edit this to help get me an interview?",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/16ca2m1/not_getting_any_nhs_interviews/",
+      "comments": [
+        {
+          "body": "I’m in this fix also. How were you able to bypass this and get a job please?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "All the emails for jobs are from recruiters w/ names I cant pronounce",
+      "body": "OK, before anyone flames or trolls me, let me get right to the point:\n\nOver the past 2-3 years I have been passive or actively looking for work so my resume is on a variety of sites and job boards.  In that time, the amount of emails and phone calls I've gotten have changed from being local recruiters to national and downright unknown.  And also in that time, over 90% of the people contacting me now are from Southeast Asia, specifically India.  \n\nI do not understand what has happened in the recruiting industry.  The phone calls come from weird local cities like Malta, IL or New Jersey.  The emails are all cut/paste versions of the same script.  On the few times I've gone down the rabbit hole and entertained one of these offers, nothing EVER comes of it.  There is never an interview, a follow up and I can never reach the same person again.\n\nThe  whole recruiting industry has turned to crap, but I'd just like to know why or how this happened?",
+      "subreddit": "jobs",
+      "score": 0,
+      "url": "https://reddit.com/r/jobs/comments/utw1uk/all_the_emails_for_jobs_are_from_recruiters_w/",
+      "comments": [
+        {
+          "body": "Hello, thank you for posting to r/Jobs!\n\nWe just wanted to let you know that we have a new [discord server, come join the chat!](https://discord.gg/TY6ErXV)\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/jobs) if you have any questions or concerns.*",
+          "score": 1
+        },
+        {
+          "body": "You could.... learn to pronounce the names. 1.38 billion people seem to be able to manage it",
+          "score": -1
+        },
+        {
+          "body": "I don't know what to say.  I got trained and placed by an Indian owned recruiting firm.  Everyone on my team is Indian except me.  I'm making more than I've ever made in a global tech firm that was founded on outsourcing labor (primarily to India).\n\nAnd yet, the company that got me the job still sends me recruiting emails.  For the record, I got trained by their child subsidiary.  Recruiting comes from the parent company.  Both have offices in town.  Nearly all front end names are Indian.\n\nNo real complaints.",
+          "score": 1
+        },
+        {
+          "body": "I tend to ignore such job boards/recruiters - the reason you get so many postings is because anyone can post up jobs, and now that remote work is the norm, anyone can be hired to work at those recruitment companies.  \n  \nNow, the reason I don't work with such people is because at one point\" they blasted my resume to every company in their network without my permission (which probably cost me a few jobs as who knows who had my original resume).",
+          "score": 1
+        },
+        {
+          "body": "\nI've read a couple stories of ,I believe, it's called resume harvesting.  Where they apparently are taking candidates resumes and using verbiage to use on resumes of Indian candidates to try to make them more attractive.",
+          "score": 1
+        },
+        {
+          "body": "I automatically ignore anyone based out of India (or anyone not based in the US quite frankly), or anyone recruiter just came over from outside of the US. They are either outright scams, or absolute bottom of the barrel recruiters.\n\nany staffing or recruiting firm from India should be on you ignore list too.  I'm sure there are legit ones, but almost all of them are scams or straight garbage.",
+          "score": 1
+        },
+        {
+          "body": "The recruitment industry has been filled with staffing firms out of India for 20 years \n\nWant to know an old scam they used to run \n\nThey would go into Monster.com resume database, find all the engineers, people with security clearances.\n\nThen download the resume, change the email and phone number to their email and phone number.  And when IBM or Harris or whomever calls say, sure, Joe would love to work for IBM.  What is the placement fee you're willing to pay, we would need a minimum of 15k\n\nNow most of these employers would tell them to fuck off and call Monster and let us know the scam and we'd try to find the recruiter.  But some would pay of the guy got hired.\n\nAnd then the recruiter in India would call Joe and say, I'm a recruiter for IBM, we'd love you for this role. \n\nAnd if they could convince Joe to join IBM they get paid\n\nA ton of Indian Staffing firms have a post off box and a phone number for NJ",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "this company asked me to do certification",
+      "body": "",
+      "subreddit": "jobs",
+      "score": 2,
+      "url": "https://reddit.com/r/jobs/comments/1jdzz41/this_company_asked_me_to_do_certification/",
+      "comments": [
+        {
+          "body": "This looks suspicious. There is lack of punctuation in the letter, and unnecessary repetition which conveys that the letter was automated.\n\nCheck the full header on the email by expanding it. How do their email addresses look?\n\nTheir ask for proof of certification is also suspicious, but I will not go into detail. They are directing you to some list to call with their numbers to “order” a certificate. \n\nWhy not go directly to the IBM website?? Find the exact software, at free or reduced cost, and free or low cost training.\n\nContact the Real IBM. Show them your “offer.” There is no harm in asking whether it’s legit. \n\nIn the past, we would NEVER share a software license number, because it could be abused. Maybe this process has changed?\n\nThey are also telling you that the ordering of your certificate, which you have to provide your financial details for, will be reimbursed to you, provided that I’m sure you will have to provide your banking information? Hell No. \n\nAt least contact IBM. They have many resources  and referrals.",
+          "score": 1
+        },
+        {
+          "body": "[removed]",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "From 100+ Applications to 2 Offers I Couldn't Accept: My Tough Data Analyst Journey in 3 Months 😔",
+      "body": "I transitioned from mechanical engineering into data science, completed the IBM Data Science course on Coursera, and worked on projects using Excel, SQL, Power BI, and Python. I updated my LinkedIn and GitHub, applied to over 100 jobs across platforms like MyFutureJob, JobStreet, Indeed, and LinkedIn, and went through 5 interviews.\n\nI got 2 offers, but one was with an online casino, and the other with a betting platform—neither aligned with my values, so I turned them down.\n\nNow, it’s been 3 months, and the only thing keeping me company is anxiety. I’m struggling to see a clear path forward and constantly doubting my abilities.\n\nThis data analyst journey has been so tough, and I’m not sure how much longer I can hold on. Anyone else in the same boat or made it through something similar?",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/1hbvriw/from_100_applications_to_2_offers_i_couldnt/",
+      "comments": []
+    },
+    {
+      "title": "15 years; worked as/for CTO startup, Dell, IBM. just offered the lowest salary since university",
+      "body": "I understand these are harder times, but according the the market the IT sector has done far better then average.\n\nI cant fathom how 15 years of what i consider fairly impressive experience has literally no value in the current market.\n\nWhat am i failing to take into consideration? ",
+      "subreddit": "jobs",
+      "score": 56,
+      "url": "https://reddit.com/r/jobs/comments/j6rzli/15_years_worked_asfor_cto_startup_dell_ibm_just/",
+      "comments": [
+        {
+          "body": "Hello, thank you for posting to r/Jobs! \n\nWe just wanted to let you know that we have a new [discord server, come join the chat!](https://discord.gg/TY6ErXV)\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/jobs) if you have any questions or concerns.*",
+          "score": 1
+        },
+        {
+          "body": "Companies think that because so many people are unemployed that they can just low-ball everyone. \n\nMy husband has had several low offers recently, and the potential employers get offended when he doesn't kiss their feet for offering *any* job. Lmao. \n\nIt's very short-sighted if you ask me, this dip won't last forever and anyone they hire at a bargain today will likely leave for a better opportunity tomorrow. \n\nTake the job if you're starving or need it to pay bills, but definitely just keep applying. Don't accept any counter-offer to stay with them once you do find a better offer, that never works well.",
+          "score": 29
+        },
+        {
+          "body": "I would tell them what you want and be okay with it if you have to walk. Your experience is in demand",
+          "score": 14
+        },
+        {
+          "body": "Take the job, keep applying elsewhere, interview elsewhere, show current job alternatives, tell them they can either do better or you will be moving on. \n\nIt’s insulting, but they’ll pay you for your time.",
+          "score": 14
+        },
+        {
+          "body": "Large companies often have a maximum salary for every role. Maybe you could try applying for higher level roles?",
+          "score": 5
+        },
+        {
+          "body": "I am very sorry to hear that.. I’ve as well been offered almost 20k less than what I’m making right now for similar and higher roles. I am trying to understand the situation but it just breaks me down. \nI will be laid off at the end of the month.. searching for new job opportunities is the worst right now.",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "title": "Job Search Tips for working at a company after graduating from university",
+      "body": "I understand how difficult this period is. I thought I would share some tips and my own experience. Hope it helps someone.\n\n \n\nHave a very well-written and well-structured **CV**\n\n· Follow a template!!!\n\n· Everything in each section in reverse chronological order\n\n· Open with an ‘About me’ paragraph. You can adjust it to the position you are applying for each time. \n\n· Photo, phone nr, email and links to linkedin page and github.\n\n· If you haven’t had a job before, have an ‘experience’ section where you can list projects and theses. It is nice to briefly describe these.\n\n· In your ‘Education’ section, in each degree you can include the titles of some courses you took.\n\nWrite your **Cover Letter** with conviction. You *are* suited for the position, you don’t ‘think’ you are. You explain why. You highlight the skills that make you a perfect candidate and provide examples to show where you developed this skill. You explain not just that you e.g. ‘work well independently’ but also explain that you acquired this skill by performing and taking initiative during your Master’s Thesis.\n\n**Interviews**\n\n· Do some very basic research on the people who will be at the interview. Not for a practical reason-- it will give you confidence going into the interview to know things you will be told.\n\n· Look presentable. Even if it is a video interview, make a real effort. Again, this might not be necessarily practical, but if you feel as good as you have made yourself look, you will do better.\n\n· Make eye contact and smile where appropriate.\n\n· Remember you are a person. You will make ‘mistakes’ and that is totally fine and normal. Don’t be too hard on yourself. I have massively screwed up interviews like you wouldn’t believe. \n\n· It is very common to be asked about your Thesis. Prepare a 5min-long presentation in your head in case you are asked to talk about it.\n\n· Show you are happy and relaxed to be there.\n\nI started applying for jobs around June/July 2023 officially. My CV was very poorly written, my Cover Letters weak. The positions available were not exactly suited for someone of my background. I went through phases of extreme motivation interspersed with periods of great doubt, lack of confidence in my abilities, frustration. In total, I applied for over 100 positions *for sure*.\n\nThrough time, I learnt how to write a better CV after reaching out to a scientist working at IBM who told me exactly how to construct a good CV. I then naturally improved my Cover Letters. I slowly started getting noticed a bit more. Still getting rejected, but at least I wasn’t being ignored or rejected from the get-go. A few interviews for positions I was clearly not suited for. In December and January, many new positions opened. It was prime application time. I *finally* got an offer for a very good position.\n\nSomething that I should have done much earlier but it still helped a lot when I did do it was having **a daily occupation**. For around half a year I had nothing to fill my days with. I literally sat around all day, applying when a position opened but doing not much else. It was good to rest after 9 years of studies without breaks but my mind was deteriorating, and my mood was unpredictable. I sometimes felt very unmotivated to apply because the negative feedback from my applications discouraged me and I also occasionally felt burnt out.\n\nA friend who has a very active start-up reached out in early December and asked me if I would like to informally visit his company, put my skills into practice, learn, and have something to talk about in interviews, Cover Letters, and on my CV. The field of his company is different from my own, but the same principles and techniques are applied in problem solving. At the risk of sounding hyperbolic, joining that start-up saved my sanity and gave my very low confidence a much-needed boost. \n\n&amp;#x200B;\n\nBest of luck!",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/19dx6y4/job_search_tips_for_working_at_a_company_after/",
+      "comments": []
+    },
+    {
+      "title": "I'm searching for a field in which I would be justly compensated for my skills.",
+      "body": "I currently live in Poland, Warsaw and I'm searching for a job/field that would compensate me justly for the skills that I have. I'm working in IT support at the moment in Kyndryl (IBM spinoff) and receiving a little more than 700 euros a month. I've been working in IT for over a year now, I speak native-fluent English, Italian and Russian and B2 level Spanish and Polish. Yet with 5 languages and quite advanced IT skills, I currently make almost twice as much money per hour from my side hustle as a taxi driver, rather than from my IT job. I've been trying to find a new job for this past year and honestly it's been exhausting and frustrating because it feels like absolutely no one needs the skills which I have, which to me look like quite rare and valuable ones. I have a friend here that is making more than 1000 euros per month, every month by just delivering food. I'm a rather fast learner, I have a good resume and afterall, I got hired at (at that time) IBM after an extensive interview, so I can't call myself a bad candidate, but I would appreciate if someone knows a field where my skills could be better valued?",
+      "subreddit": "jobs",
+      "score": 2,
+      "url": "https://reddit.com/r/jobs/comments/137tngr/im_searching_for_a_field_in_which_i_would_be/",
+      "comments": []
+    },
+    {
+      "title": "IBM’s hiring practices infuriate me",
+      "body": "My senior year of college I applied to IBM through a referral. I made it to final interviews and they all told me I was an exceptional candidate and that I’d hear back within two days of my last interview. The feedback was so positive I was pretty excited, it was my dream job and I told them all that in my interviews and they were very excited about me! \n\nI ended up getting ghosted, followed by an auto-rejection, and then I asked for feedback and heard nothing. They never hired for the role according to my referral, I think it got cut from hiring.\n\nI was bitter about that for a while and now I’m even angrier because I know two people who didn’t give a shit about school and have very wealthy parents, and now both mysteriously work at IBM. Both of them are also in roles completely unrelated to their college majors.\n\nIt makes me so angry that the people I know who care the least got jobs there through their rich connections and are all high and mighty about it. I felt so burned by IBM especially because the managers I interviewed with all hyped me up and then ghosted. How did these people I know end up working there anyway?! \n\nGrrrrr.",
+      "subreddit": "jobs",
+      "score": 13,
+      "url": "https://reddit.com/r/jobs/comments/umr5oh/ibms_hiring_practices_infuriate_me/",
+      "comments": [
+        {
+          "body": "Hello, thank you for posting to r/Jobs!\n\nWe just wanted to let you know that we have a new [discord server, come join the chat!](https://discord.gg/TY6ErXV)\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/jobs) if you have any questions or concerns.*",
+          "score": 1
+        },
+        {
+          "body": "That’s their loss. On to bigger things!",
+          "score": 3
+        },
+        {
+          "body": "Amazon recruiter set up an interview and the interviewer never showed up. Fuck this shit",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "15 Interviews still no luck after 8 months of unemployment!! Prayers Needed",
+      "body": "Hi Friends, I am new to the forum, Just wanted to learn from others who might have been in a similar situations as mine.. I was working in IT for last 10 years with Linux /Windows Server Admin, Application Middleware support and Devops and Cloud Admin for past 3 years. My contract ended due to Covid with IBM since then I had about 15 interviews with different companies in Toronto Canada but still no offer. I lost my confidence to be honest to face anyone now.  Is anyone going through similar problem please share your experience about the market specially Canada. I never had to grind myself that much to get the job in the past many years. I last Friday job numbers were very disappointing in Canada compare to other countries",
+      "subreddit": "jobs",
+      "score": 8,
+      "url": "https://reddit.com/r/jobs/comments/nu31mq/15_interviews_still_no_luck_after_8_months_of/",
+      "comments": [
+        {
+          "body": "Hello, thank you for posting to r/Jobs! \n\nWe just wanted to let you know that we have a new [discord server, come join the chat!](https://discord.gg/TY6ErXV)\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/jobs) if you have any questions or concerns.*",
+          "score": 1
+        },
+        {
+          "body": "I'm honestly surprised you haven't applied to more positions unless you mean you only had 15 out of the X amount of applications you sent out. Tech is still booming during covid and lots of companies are offering employees to work remotely (even permanently). \n\nYou seem to have a skill set in sysops and devops though the sysops portion will be more in-person. I'm not sure how things are in Canada but definitely consider revising your resume or tailoring it to specific positions and passing it out like gravy on thanksgiving. I've been working for about 2 years in the field now but during my 4-6 month job search, I only got 3 offers out of the 150+ applications I sent out. Really start cranking up the applications, man",
+          "score": 1
+        },
+        {
+          "body": "I'm in IT as well in the Toronto area, except I do mainly software development. I was laid off in Nov 2019 and started applying to jobs across Ontario, remotely, and certain areas of BC. I did this daily for...like 18 months, until 2 weeks ago I finally landed a position. Granted a 4 month contract, but still a great position, I just have to work hard to secure extension, hopefully. \n\n Anyways, I was not expecting it to take so long. I always thought, surely this month I'll get something, but as you are I was losing hope and confidence in my own skills. During this time I noticed the job market has been noticeably more competitive, especially as more jobs have been able to hire remotely, aka more candidates to choose from. The worst thing though, was the constant rejection emails. They dont feel good, and no matter how confident you are they take a toll. It feels like it's out of your hands, like no matter how smart/skilled at interviewing you are, they'll go with someone \"who was a better fit\". It really sucks. \n\nI never figured out any awesome tips to improve your chances, so all I can really say is to keep trying, no matter how many rejections you get. That, and if you cant grow professionally during your unemployment, then you can still grow personally. Your free time can still be used valuably. Spend time doing things you enjoy, or learning something new, getting exercise, work on personal relationships, and just try to be happy despite lacking that professional responsibility you want. I grew more as a person in those 18 months than I did in the previous 4 years sitting in a cubicle all day, and it helped me realize both are equally important.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Getting interviews, not getting offers, need to improve my interviewing skills, any resources?",
+      "body": "I am open to all suggestions for any resources to improve interviewing. Pre-pandemic I was batting nearly 1000% in getting offers, not sure what changed. But being on zoom interviews I have been rejected many times. So looking to dive deep into improving. Can anyone offer some suggestions? Or walk me through your successful interview processes?",
+      "subreddit": "jobs",
+      "score": 6,
+      "url": "https://reddit.com/r/jobs/comments/nsgd68/getting_interviews_not_getting_offers_need_to/",
+      "comments": [
+        {
+          "body": "Hello, thank you for posting to r/Jobs! \n\nWe just wanted to let you know that we have a new [discord server, come join the chat!](https://discord.gg/TY6ErXV)\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/jobs) if you have any questions or concerns.*",
+          "score": 1
+        },
+        {
+          "body": "I'm having the same issue. Provided you did fine before the pandemic, and you're usually making it past more than 1 round, your interviewing skills are probably fine. \n\nHonestly I think what could be happening for a lot of folks is that since interviews can be done remotely, companies are interviewing more candidates than they would have before the pandemic. So there's more competition in the interview stage.",
+          "score": 7
+        },
+        {
+          "body": "This has been me for weeks now. What’s worse is when I can see that there are so many others getting interviewed at the same time. It seems like most of the jobs I can even apply for are MLM, or are doing this exactly every time I apply for anything lol.",
+          "score": 2
+        },
+        {
+          "body": "I have been interviewing in Toronto for past 10 months. I think interviews are getting tougher n tougher since IT jobs can be move to any place in the world. My contract as Dev(**Ops**) with IBM Canada ended due to Covid situation. With my situation I am not expressive to explain properly (This is my own assessment ) to hiring managers because I stayed with one position almost 8 years where we had the same manager there for 20 years and we used to be audience . I resigned since I wanted to work for a Big Bank  I was offered a two year contract with IBM but after 14 month IBM let go almost 50+ contractors due to covid. Being away from actual technology.  I trained myself into too many devops advance topics but that learning made my brain confused to relate myself what I used to do at my past roles. Now most hiring managers tell me they are preferring someone with programming background which I do not understand why wouldn't they advertise as Programmer Job title ?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "IBM federal associate consultant case interview advice",
+      "body": "I have an interview with IBM for entry level federal associate consultant. I have already done the behavioural interview and just have the case interview left.\nDoes anyone have any experiences or advice they could please share as this is my first case interview I’ve done?\n\nAnything would really be appreciated!\n\nThinks that would also be helpful is:\n•past questions/ cases \n•the best way to answer/ system \n•is there anything specific they look for \n•Specifically for entry level federal associate consultant\n•And like how a federal case is different from a business one\n•any tips specifically with this being my first time doing it \n\nThank you for any advice!",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1of9mdh/ibm_federal_associate_consultant_case_interview/",
+      "comments": [
+        {
+          "body": "\n\nyou can try past interview questions on - [www.pastinterviews.com](http://www.pastinterviews.com/)",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "IBM SDET 2 interview in India",
+      "body": "Has anyone appeared for IBM QA automation interviews recently?",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1khsovp/ibm_sdet_2_interview_in_india/",
+      "comments": []
+    },
+    {
+      "title": "Need Help for IBM Backend Developer Interview - What to Expect?",
+      "body": "I’m excited (and a bit nervous) because I have a interview coming up for a Backend Developer position at IBM for 3 years of experience, and I really don’t want to miss out on this opportunity! I was hoping to get some advice on how to prepare, what to focus on, and what kind of questions I can expect during the interview.\n\nWhat types of technical questions should I be preparing for? Is it more focused on DSA or System Design for this level? What kind of situational or behavioral questions they might ask?",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1gc5i2k/need_help_for_ibm_backend_developer_interview/",
+      "comments": [
+        {
+          "body": "On the technical side, be prepared for questions on data structures and algorithms, as well as system design concepts. Focus on brushing up your knowledge of common data structures (arrays, linked lists, trees, graphs) and algorithms (sorting, searching, dynamic programming). You'll likely face coding challenges, so practice implementing these concepts in your preferred programming language.\n\nBehavioral questions will likely revolve around your past experiences, problem-solving abilities, and teamwork skills. Prepare examples of projects you've worked on, challenges you've overcome, and how you've collaborated with others. They might ask about your experience with Agile methodologies, version control systems, and CI/CD pipelines. Don't forget to research IBM's culture and values, as they may ask questions to assess your fit with the company.\n\nIf you're looking for more specific guidance on interview questions and strategies, I'd recommend checking out this [interview AI copilot](http://interviews.chat). It's a tool I helped develop that provides real-time suggestions during interviews. It could be particularly helpful for navigating tricky technical questions or behavioral scenarios you might encounter in your IBM interview.",
+          "score": 2
+        },
+        {
+          "body": "Hey, can you please share your interview experience?",
+          "score": 1
+        },
+        {
+          "body": "you can try past interview questions on - [www.pastinterviews.com](http://www.pastinterviews.com)",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "IBM United States entry level software Engineer interview experience",
+      "body": "Can someone please share their interview experience for IBM United States for entry level software Engineer role.",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/16lv0wx/ibm_united_states_entry_level_software_engineer/",
+      "comments": [
+        {
+          "body": "you can try past interview questions on - [www.pastinterviews.com](http://www.pastinterviews.com)",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Bring your kid to work day ",
+      "body": "This is not my story but someone I used to work with a decade ago. \nI remember the story because it was so insane.  I almost didn’t believe it at first but some of my other reps used to work at the company and remembered hearing about it…and they knew the sales manager who pulled this.  \nThe guy was interviewing as an inside sales rep for a company called fiberlink (they’ve since been purchased by IBM). \nHe was prepared and had multiple phone interviews before being brought into interview with the sales manager. \nIt was ‘bring your kid to work day’ and people in the office had brought their kids in…including the guy interviewing my pal. \nMy pal waited in a conference room for 30 minutes before the manager came in (late by 20 mins) with his daughter in tow. \nThe manager introduced his 11 year old daughter, explained it was being your kid to work day…and proceeded to tell my pal that his daughter would be conducting the interview. \nAt first he thought it was a joke, but to his shock the kid had a list of questions to ask.  \nShe started off reading, “why do think my dad should hire you?” \nMy friend was shocked.  He looked at the manager and asked, “Is this serious?”\nThe manager informed him that he was indeed serious, and that he was teaching his kid what his job was.  \nMy friend told the guy flat out that he was there to speak to HIM not his daughter, and that he was a serious candidate who had taken time off from work to come in for this interview.  \nThe manager told him he obviously didn’t want the gig that bad if he wasn’t willing to interview for the role. \nAt this point my friend stood up and told the guy he didn’t want to work there since it was obvious they didn’t respect their employees or his time. \nThis effing manager turned to his kid and said, “this is what we call a loser”. \nMy friend was so pissed off that he was prepared to fight the guy, and asked him if he wanted to take it outside.  \nMy friend was told to leave. \nHe was humiliated.  \nI had never heard of something so insulting.  \nI mentioned the name of the company because …eff that place. \n\n",
+      "subreddit": "interviews",
+      "score": 480,
+      "url": "https://reddit.com/r/interviews/comments/1az57p4/bring_your_kid_to_work_day/",
+      "comments": [
+        {
+          "body": "Shouldve asked her back with those stupid “tell me about a time” questions..tell me about a time when ur daddy got punched in the face..how did you handle it?? She better use that STAR method…🙄",
+          "score": 72
+        },
+        {
+          "body": "My husband had to bring our 4 year old to work with him one Saturday because I also had to work. When I asked her how it went she said “daddy did not work at all, he just played on the computer.” LOL",
+          "score": 29
+        },
+        {
+          "body": "I’m a nurse and years ago I brought my daughter to work with me. It was a Saturday. Permission was obtained from my manager. That particular day we had a potluck set up in the lounge. I spoke with all my patients to get permission to bring my daughter into their room. Every patient was happy to have her come in. She would write her name and my name on the whiteboard. It was a chill day at work and we spent a lot of time going in and out of the lounge enjoying the potluck. My daughter only stayed a few hours and when my husband came to pick her up and asked her what do you think about Mommy’s job she said “all Mommy does all day is talk to her patients and ate a bunch of food”. Easy job she has! If she only knew.",
+          "score": 46
+        },
+        {
+          "body": "Sound fun. I hate kids and still feel like your friend was taking themselves too seriously. Sales requires you to be dynamic. It also requires you to not fight people when things don't go your way. Sounds like that company dodged a bullet by not hiring your friend.",
+          "score": 16
+        },
+        {
+          "body": "I used to work for my mom who owns her own company when I was 18. One day my niece (13) and nephew (9) came to work with us for some reason I can’t remember now. My mom’s receptionist had called out that day and my nephew excitedly offered to help answer the phones. He was outgoing and very smart (he’s now studying to be a doctor) for his age and my mom always encouraged the kids to get involved in the family business, so she was happy to teach him how to use the phone. The first few were rocky as he hung up when trying to transfer. Being a family business, they called right back and were super nice and understanding to him. My mom has been in business for over 30 years, so everyone thought it was cute to hear her grandkids helping out. During this time she was looking for a new receptionist and one of the candidates called in. She was one step away from being hired, my mom really liked her. She was calling back to schedule the last interview.\n\nIt happened to be the 4th or 5th call my nephew got, so he hadn’t had much practice yet. Well my nephew transferred her to the wrong desk by accident. She got on the phone with my mom and said “it sounds like you have CHILDREN answering the phones over there!” And was pissed off and told my mom how unprofessional it was, yelling at her the whole time. My mom said “you know, this is a family business and we have a lot of members who bring in their kids all the time. We love kids here, so I don’t think this position is the right fit for you. Oh, and that kid was my grandson who is helping out today because we don’t have a receptionist. Have a good day” and then she hung up. \n\nMy mom is a really good teacher, so even if an adult was learning how to use the phone on the first day and accidentally hung up on a few customers, my mom would have never gotten mad. She’s super understanding with mistakes and lets her employees make them without shame when learning something new. So it’s not like she was giving him special treatment or excuses because he was her 9yo grandson. That’s just the genuine nature of her company.",
+          "score": 21
+        },
+        {
+          "body": "a great candidate would have just rolled with it.  Need to have a sense of humor at times... that makes you more likeable and nobody wants to work with a sour-puss",
+          "score": 23
+        },
+        {
+          "body": "Your friend lost a pretty good opportunity because of ego. He could have easily rolled with it. Considering that the interviewer was in the room and the little girl was just reading the questions, it wasn’t a big deal. If your friend had done well, the interviewer would have liked him a lot. He could have made an impression that all the other candidates didn’t have an opportunity to. Of course if you do well with this guy’s kid he’s going to like you.",
+          "score": 16
+        }
+      ]
+    },
+    {
+      "title": "Interview with a different team",
+      "body": "Does anyone know if it's a thing in IBM not to interview with two different teams simultaneously. I'm really interested with IBM and got selected for multiple interviews, but for some reason they can't move forward until the first interview process is over.",
+      "subreddit": "interviews",
+      "score": 2,
+      "url": "https://reddit.com/r/interviews/comments/1p76nn7/interview_with_a_different_team/",
+      "comments": [
+        {
+          "body": "That's pretty normal actually, most big companies have internal policies about not letting candidates interview for multiple roles at once. IBM probably wants to avoid teams competing over the same person or having conflicting offers. Just focus on nailing the first one and if it doesn't work out you can always circle back to the other team later",
+          "score": 3
+        },
+        {
+          "body": "Not IBM, but we would do something similar.  If somebody was interviewing for the same role at different branch offices, we might combine.  But if somebody was interviewing for different roles (say R&amp;D vs Sales), it was 1 at a time.",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "title": "Getting over pre-interview nerves",
+      "body": "How do you go about getting over nerves before an interview? There are times where I get so extremely nervous that I can’t even choke out the words. I turn bright red and you can see me stumbling for words and trying to catch a breath on camera. I have an interview tomorrow with IBM (a dream company to work for) and I can already feel the nerves approaching. Please help! 🥹",
+      "subreddit": "interviews",
+      "score": 9,
+      "url": "https://reddit.com/r/interviews/comments/1le0der/getting_over_preinterview_nerves/",
+      "comments": [
+        {
+          "body": "Some level of anxiety will probably always be there for important interviews, but you can absolutely learn to work with it instead of letting it derail you. Try doing a practice run today where you answer [common questions](https://www.interviews.chat/questions) out loud, even if it's just to your mirror or phone camera. Your body needs to experience speaking these answers so tomorrow won't feel like the first time.\n\nThe key is shifting your mindset from \"I need to be perfect\" to \"I need to be prepared and authentic.\" IBM wants to hire someone who can do the job, not someone who never gets anxious. If you feel the panic rising during the actual interview, acknowledge it internally, take a deliberate pause to breathe, and remind yourself that it's okay to take a moment to collect your thoughts before answering. I'm on the team that built [interview copilot](http://interviews.chat), and we created it specifically to help people navigate these exact situations - it can give you real-time support during the interview to help you stay on track when those tricky moments hit.",
+          "score": 6
+        },
+        {
+          "body": "I usually just accept the nerves and use it as energy. It would actually suck feeling complete apathy applying for a job, is how I’d like to think. Sorry I can’t be of more help",
+          "score": 5
+        },
+        {
+          "body": "So with a short time frame- do you have friends who can send you positive messages? Whether work related or just in general. Something to break your negative spiral. \n\n\nBreathe. Long deep breaths. Sighing can also help. Let out a little \"ah\" sigh and repeat back part of the question.  \"Ah, yes. A time where I had to do X.\" Breathe.  \"A good example of that is......\"\n\n\nIf your hand is shaky, put it under the table and squeeze your thigh. Not death grip, just enough that you feel the pressure in your leg. \n\n\nLimit your caffeine before the interview. You have enough adrenaline right now. Do not drink alcohol tonight. That will impact your sleep, which will likely already be an issue. ",
+          "score": 5
+        },
+        {
+          "body": "My interviewer asked me if I wanted anything to drink when I walked in and I said “nope, I’m shaking cause of my coffee” (which made ZERO sense and I cringed at myself the whole 5 minutes waiting for him to come in the room) Well when he came back to the room after grabbing my resume &amp; I just said “I really don’t know why I felt the need to tell you I was shaking bc of my coffee” &amp; we had a laugh together. I just kinda tried to break the ice to get over the nerves!",
+          "score": 4
+        },
+        {
+          "body": "I just try to calm and center myself. There are tons of different breathing methods that calm your nervous system, I'll usually just sloooowly and deeply breathe in through my nose, hold it for a few seconds, and breathe out through my nose slowly and evenly. It helps if I have my eyes closed and clear my mind and just focus on my breathing. If I do about 5 of those breaths in a row, I become way less anxious. Try it and see how you feel :-)\n\nYou can also listen to some calming music, classical especially is good to get your mind focused and relaxed. \n\nBut ultimately, just prepare as much as you can beforehand so you won't feel caught off guard with any questions. Maybe have a friend do a mock interview with you. Good luck!",
+          "score": 3
+        },
+        {
+          "body": "I underperform when I prepare - I forget things when I read up stuff. So I never prepare for my interviews  and all I take with me is my confidence Lately that doesn’t seem to work and when someone bullies me during the interview I feel bad about it the whole day and my confidence takes a hit for couple of days- so I changed my approach. - I just try to stay calm , close my eyes and focus on my breathing 1-2 hrs before the interview ..talk to myself to motivate myself , hydrate well and am good to go. I try to be myself during interview and try not be impacted by any kind of unprofessional behavior or the interview result . It is a work in progress . I have never been rejected for a job until recently so it is not something which is easy for me to deal with so am trying different things \n\nI will have to find a way to prepare myself for interviews and still perform well",
+          "score": 3
+        },
+        {
+          "body": "Happens to many of us. Relax for at least an hour before the interview, listen to some favorite music. Speak out loud to yourself. Practice the opening conversation on camera. Be confident and treat the interview as a conversation with a peer. If the interviewer is a nice person (majority of them are) they will make you feel at home too. Don't ramble on about stuff, take pauses and mention the key points. Keep a smiley face. Getting an interview means they already likes you. You will do great!",
+          "score": 3
+        },
+        {
+          "body": "I always get nervous, just have to ride it out. But I try to prepare as much as I can with typical questions and questions I’ve gotten in past interviews. Try practicing where you will be doing the actual interview - I usually open Teams/Zoom and make a fake meeting to test out the video, practice seeing myself on the screen etc. Even with the nerves going in, muscle memory should kick in from your practice. Best of luck and I hope you get the job!!",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Awkward silence?",
+      "body": "In college in early 90s, I was applying for a programming position at a bank.  The interviewer would ask me a question, I would answer, and there was this extended silence and I would wait for the next question.\n\nFor example, she said you only have listed C, Pascal, Fortran, and Lisp on your resume but you will be programming in COBOL.  Is that any issue?  I respond. “Most programming  languages are easy to learn once you know one of them.”  Followed by 20 second pause with me staring at her and waiting for next question, wondering what is wrong with her.  It was her turn to talk.\n\nAt end of interview, she said most candidates blubber on during the pauses and she wanted to see how people handle it.  I got offered the job (went with IBM instead), but it didn’t seem like a good way sell people on the company.",
+      "subreddit": "interviews",
+      "score": 13,
+      "url": "https://reddit.com/r/interviews/comments/1lsifz9/awkward_silence/",
+      "comments": [
+        {
+          "body": "This is an intentional tactic popularized by some to attempt to get people to say or reveal more than they would like. I know some sales training suggests this, and I might be mistemembering but I think it's a common law enforcement tactic too?\n\nRegardless, I hate it, and whenever I encounter an individual that incorporates this behavior into their everyday interactions I go out of my way to make them as uncomfortable as possible, usually by just returning their stare until they break first or saying something like, \"Is there a reason you're just staring at me and not responding? Is this a learned behavior?\"",
+          "score": 5
+        },
+        {
+          "body": "I only do the silence thing in a disciplinary hearing 🤣 it works well and get more information. In interviews it’s just weird, kinda unprofessional.",
+          "score": 2
+        },
+        {
+          "body": "more like intentional silence",
+          "score": 1
+        },
+        {
+          "body": "Worse would be a low talker. I had one once at ESPN when it would have been a reverse commute from NYC to Stamford, CT.  I was very excited about the job, but missed most of what she said.  Of course I did not get the job.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "IBM federal associate case interview advice",
+      "body": "I have an interview with IBM for entry level federal associate consultant. I have already done the behavioural interview and just have the case interview left.\nDoes anyone have any experiences or advice they could please share as this is my first case interview I’ve done?\n\nAnything would really be appreciated!\n\nThinks that would also be helpful is:\n•past questions/ cases \n•the best way to answer/ system \n•is there anything specific they look for \n•Specifically for entry level federal associate consultant\n•And like how a federal case is different from a business one\n•any tips specifically with this being my first time doing it \n\nThank you for any advice!",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1of9ge8/ibm_federal_associate_case_interview_advice/",
+      "comments": [
+        {
+          "body": "you can try past interview questions on - [www.pastinterviews.com](http://www.pastinterviews.com)",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "What kind of interview questions can I expect for the 2nd round of IBM Cloud Associate Delivery Consultant (Entry Level)?",
+      "body": "Hi everyone!  \nI’m preparing for the second round of interviews for an entry-level IBM Cloud Associate Delivery Consultant position. The role involves working with IBM Cloud, CI/CD, multi-cloud networking, VMware, Kubernetes, and Infrastructure as Code (IaC) with Terraform.\n\nI have experience working with Azure and other cloud technologies, so I’m curious about what kind of questions I might face, especially given the focus on IBM Cloud. Any advice or insights from those familiar with IBM Cloud interviews at the entry level would be really appreciated!\n\nThanks in advance for your help!",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1fzvd3f/what_kind_of_interview_questions_can_i_expect_for/",
+      "comments": [
+        {
+          "body": "[removed]",
+          "score": 1
+        },
+        {
+          "body": "Did you get a coding assessment on hackerrank consisting for two questions for this interview? If yes, can you share your experience?",
+          "score": 1
+        },
+        {
+          "body": "you can try past interview questions on - [www.pastinterviews.com](http://www.pastinterviews.com)",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "NO SHOW INTERVIEW IBM",
+      "body": "do assigned interviewers/managers normally don't show up to a scheduled interview by set by recruiters?",
+      "subreddit": "interviews",
+      "score": 2,
+      "url": "https://reddit.com/r/interviews/comments/1els4j9/no_show_interview_ibm/",
+      "comments": [
+        {
+          "body": "you can try past interview questions on - [www.pastinterviews.com](http://www.pastinterviews.com)",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "IBM interview",
+      "body": "Hello guys! I have an interview with IBM for the position of Associate Business Planning Analyst. The interview is a “video assessment delivered by Knockri”. Has anyone gone through this process when they interviewed for IBM? if yes, do you know what key questions they asked? Thank you in advance!",
+      "subreddit": "interviews",
+      "score": 2,
+      "url": "https://reddit.com/r/interviews/comments/rhyrer/ibm_interview/",
+      "comments": [
+        {
+          "body": "I haven't interviewed at IBM, but I remember doing one of these virtual/robo \"interviews\" for my job a few years ago. Most of it was the very typical behavioral questions about dealing with conflict and solving challenging problems. \n\nMy biggest tip is to **practice speaking on camera** without anyone on the other end. It's MUCH different from a zoom interview without a person to connect with. There are plus sides, though, because you don't have to worry as much about what the other person thinks about you or how they're reacting in real time. \n\nHere's your homework. Copy and paste a list of common interview questions and record your own responses on your webcam. Do your best going through the questions (try a couple without preparing answers in advance to see how you do on the spot, too). At the end, play it back and check your body language. Even if you're not talking to a person, a person will ultimately review it. That means smiling and being personable should still come across on your video. Make sure you have decent lighting and a fairly plain background if you can, although people are much more forgiving about being \"inside\" coworkers' homes now lol. Try a second or third recording if you feel like you look stiff/nervous/bored so that you get the hang of making an engaging video.\n\nFinally, make sure you test your microphone before starting the assessment. They usually begin by helping you test audio, but try it through your webcam before just in case.\n\nGood luck!",
+          "score": 2
+        },
+        {
+          "body": "Hello \nHow was it ?\nCan you give type of questions? Thnx",
+          "score": 1
+        },
+        {
+          "body": "you can try past interview questions on - [www.pastinterviews.com](http://www.pastinterviews.com)",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "IBM Associate Data Scientist Interview",
+      "body": "I applied to IBM for the Associate Data Scientist position. I have completed the Cognitive Ability Test and I got the Learning Agility Assessment soon after. What should I expect next? Will there by a coding assessment? What will the questions look like? What about the technical interview? I am applying in the US btw.",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/d7gd69/ibm_associate_data_scientist_interview/",
+      "comments": [
+        {
+          "body": "Check on an IBM reddit.",
+          "score": 1
+        },
+        {
+          "body": "you can try past interview questions on - [www.pastinterviews.com](http://www.pastinterviews.com)",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Experience-less, and know nothing abt interview, how to be successful in the interview?",
+      "body": "I am probably going to have a recorded interview these days although I don’t think I can be selected to the co-op position. I am trying to enrich my experience by applying for IBM remote entry level co-op, and I only hope they can give me a task to do because I am still a very very entry level student who is in ComSci(I didn’t study a word of programming until I went to college and study abroad!). I am an international student, female and I haven’t done anything related to career application, also don’t have any strong coding skill. Am I cooked. 😭any suggestions to be at least not weird in recorded interview also how long will the interview last? And how many questions in general and I’d better to use how much time to answer each question?",
+      "subreddit": "interviews",
+      "score": 2,
+      "url": "https://reddit.com/r/interviews/comments/1o3n7xf/experienceless_and_know_nothing_abt_interview_how/",
+      "comments": [
+        {
+          "body": "I felt totally out of my depth on my first recorded interview too, especially as an international student. Most HireVue style screens are 3–5 questions, around 30 seconds to prep and 1–2 minutes to answer. I aim for 60–90 seconds using STAR and keep one story each for teamwork, conflict, mistake, and learning. What helped me was recording myself on my laptop for two nights and doing timed prompts from the IQB interview question bank while running practice answers with Beyz coding assistant. Rewatch once, note one thing to trim, one thing to keep.",
+          "score": 1
+        },
+        {
+          "body": "Just got rejected at one \nTrust be basics aren't required in the market right now they need complete project experience \n\nAnd the best part only on the tech stack they expect \nI am a CS in web development... Got shortlisted for networking didn't know when I applied but got a call last week and I went through the skill which mentioned \"experience but not required\" not a witch company but the questions they asked portrayed the work they do and he was patient to explain me to work on my skills and build some projects and learn he for not even once mentioned I am bad or made me feel bad for not knowing much but I think it's time to level up our game cause it's not just market now ...",
+          "score": 1
+        },
+        {
+          "body": "you can try past interview questions on - [www.pastinterviews.com](http://www.pastinterviews.com)",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Got a link to schedule interview with no availability",
+      "body": "I got a link to schedule an interview at IBM from their talent acquisition team but when I click the link there are no available dates. I tried contacting a talent acquisition member on LinkedIn who I think I would be interviewing with but no reply as of yet. And I tried contacting IBM hr and support desk but no help. I don’t know what to do.",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1mvfheg/got_a_link_to_schedule_interview_with_no/",
+      "comments": [
+        {
+          "body": "When did you receive the link? The availability may have been taken by other candidates who booked first. Are you able to respond to the email you received?",
+          "score": 1
+        },
+        {
+          "body": "[removed]",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Qualcomm Offer",
+      "body": "Education: BTech in Computer Science (Tier -3)  \nCurrent Company - IBM Software Labs (Mid Product Based Company)  \nRole - Software Deeloper  \nCurrent CTC - 9.25 LPA (Fixed)  \nCurrent YOE - 1.6  \nLocation - Banglore\n\nFinal HR Round at Qualcomm Pending?\n\nRole - System Development Engineer  \nLocation - Hyderabad\n\nHow Much Base Package i Can Ask Any Suggestions?\n\nI performed really well in all rounds of 3 technical interviews so im thinking to ask 20-24 LPA range as Base is that sounds good or i need to ask little bit low?",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1m713qo/qualcomm_offer/",
+      "comments": []
+    }
+  ]
+}

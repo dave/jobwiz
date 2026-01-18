@@ -1,0 +1,534 @@
+{
+  "company": "databricks",
+  "post_count": 28,
+  "exported_at": "2026-01-18T17:44:53.269Z",
+  "posts": [
+    {
+      "title": "Cracking interview LICORNE, FAANG",
+      "body": "Hello everyone\nI am looking for people who hold Solution Architect positions in companies such as: Databricks, Snowflake, Mongodb, Couchbase.. etc\n\nI would like them to coach me for interviews and technical questions that I will be able to ask!! \n\nOf course it remains a service against remuneration and if possible prepare me for STAR model answers",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1j5jfws/cracking_interview_licorne_faang/",
+      "comments": []
+    },
+    {
+      "title": "What do you guys think about taking an MLSys role as my first job?",
+      "body": "Hey so I got an offer recently for ML Kernel engineering at a FAANG AI lab. The salary is &gt;$260k but in a VGDHCOL area (South Bay). Overall, the role seems p cool, but my concern is whether this is too niche to be a springboard for a very strong career with a high earning ceiling. I also love research, so I might want to try to get into something more on the research side or even back to academia for grad school at some point, idk I’m super indecisive so I kinda appreciate a role with flexibility in career direction too. And ideally I really want to move to NYC later on, since thats where I’m from and I love my home-town. I have the opportunity to interview with other companies, like a couple of the other FAANGs and a few of Databricks/Snowflake/Palantir/Datadog etc type companies for their regular SWE roles, so I’m wondering if it’s worth grinding for those because honestly I’m just over it in terms of recruiting. \n\nI guess my question is whether anyone with knowledge of the field thinks the MLSys type role would allow me career flexibility and set me up to a good trajectory, or whether I’ll be working on niche things that might not even be relevant in a couple years and cause my career to basically die if I ever quit/get laid off? Is it worth to try for those other companies? Happy to get any advice from you wise wizards. Thanks :)",
+      "subreddit": "cscareerquestions",
+      "score": 3,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1pywtrx/what_do_you_guys_think_about_taking_an_mlsys_role/",
+      "comments": [
+        {
+          "body": "FAANG has lots of internal mobility.  You can find a way out if you don't like it.",
+          "score": 2
+        },
+        {
+          "body": "MLSys roles at FAANG AI labs are actually pretty solid for career flexibility, especially right now. The kernel engineering work you'd be doing touches fundamental infrastructure that powers ML at scale, which translates well to both traditional SWE roles and research positions later. The skills around optimizing compute, memory management, and distributed systems are incredibly transferable and honestly in high demand across the industry. Since you're interested in research too, being close to an AI lab gives you exposure to cutting-edge work and potential collaboration opportunities that could help if you decide to pursue grad school. The main downside is fewer MLSys roles in NYC compared to traditional SWE, but your FAANG experience would definitely open doors at finance companies, startups, and research labs there. Given that you're already burnt out on recruiting, taking this role and keeping your options open seems way better than grinding through more interviews when you already have something solid in hand.",
+          "score": 2
+        },
+        {
+          "body": "What exactly is “ML Kernel”?",
+          "score": 1
+        },
+        {
+          "body": "The skills should be pretty transferrable. Honestly you'll probably get a better understanding of hardware which makes you more appealing to a lot of backend roles",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Given this take-home assessment, 24 hours to complete. Am I dumb or is this insane?",
+      "body": "Hey all, I interviewed for with an ed tech startup today and it went well. I am a data analyst/software engineer with a background in research, cognitive psychology, and statistics. On my resume, my listed skills are R, Python, SQL, and C#; logistic regression, analysis of variance, applied research, predictive statistics, data visualization, concept testing. I also have experience in education, mostly in the tests and measurements realm. The recruiter was really excited and thought I'd be the perfect fit. She asked me to do this take-home assessment in 24 hours. I've done a few of these already and it was no problem. When she sent me this, I was surprised.\n\nI have no experience/never claimed to have experience in Databricks, AWS, data architecture, or data warehouse management. I have interacted with a data warehouse, made ETL programs, and have used SQL- and that's pretty much it. I'm not sure if this assessment is a test to see how I will approach this, or if the recruiter picked the complete wrong candidate. How should I approach this? Should I be honest with the recruiter that this is out of my domain? It says this should take about 1 hour, I am about 6 hours in and have only scratched the surface of some of the stuff mentioned here.  \n\n\n**Objective:**   \nRecommend a robust data architecture to facilitate unified near-real-time analytics for a diverse and growing group of data stakeholders. Assess and justify the use of traditional ETL and warehousing solutions, and potentially Databricks, within an AWS-centric environment. \n\n**Business requirements and constraints:**   \n\\- Ingest data from various sources including S3, Postgres, DynamoDB, Neptune, Timestream, and Cognito.   \n\\- Ensure near-real-time accuracy for most data sources.   \n\\- Depersonalization, Deduplication and other transformations required - Ingestion throughput of up to 1TB per day   \n\\- Query throughput of up to 10K requests per minute \n\n  \n**Deliverables:**   \nCreate and share an artifact of some type (document, presentation, video) with us which includes:   \n\\- Overview and Recommendation   \n\\- Explanation of key design decisions   \n\\- High-level architecture diagram illustrating data flow and components - Alternative solutions and tradeoffs of each   \n\\- Assumptions made and questions you wish you could have asked to clarify requirements or constraints \n\n  \nPlease expect to spend approximately 1 hour of effort to complete this exercise. Good luck!",
+      "subreddit": "cscareerquestions",
+      "score": 159,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1bibc6n/given_this_takehome_assessment_24_hours_to/",
+      "comments": [
+        {
+          "body": "Pass.",
+          "score": 289
+        },
+        {
+          "body": "A couple thoughts as a data engineer (this is essentially just a data engineer system design question): the system they are looking for would be quite impressive. Not quite cutting edge, as faang companies would have much more data and a higher velocity, but it would be a tier below that and definitely something designed by someone with a dozen+ years of experience working on those things. Real-time systems are something many data engineers don't touch until several years into their career. Also, dealing with real-time ingestion from half a dozen sources sounds like a nightmare. And managing to support 10k queries per second would mean some concessions would have to be made in terms of query complexity or the amount of money you want to spend to maintain read-replica data sources. Depersonalization strategies could be annoying, but shouldn't be too bad, as you can redact/mask/hash fields on the fly on the way to the destination. \n\nHowever, the good thing about this assessment is that there is no actual code or proof of concept required. In a way, it's more of a communication and sales assessment than a technical one, because you just have to present broadly how all this would work together (I assume in like 10-15 minutes). \n\nThat being said, the amount of analysis on different tech and the trade-off analysis they want to see simply can't be done in an hour by anyone, least of all those who are qualified to do so, as they would need to spend the most time qualifying the alternative approaches. \n\nBut, unrealistic take-homes are a part of the game these days, so if you want the job, I reckon you could do this over several hours, but you would have to limit yourself to just a slide or two per business requirement and when making the slides-- assume your going to be talking to a non-technical person, which should limit the amount of detail you put in. If you do that and give a decent presentation that hits all the business requirements while being good-humored and likeable, you probably have a good shot at getting the job, as they are definitely not going to be attracting lots of quality candidates with an interview procedure like this.",
+          "score": 154
+        },
+        {
+          "body": "That doesn't even make sense. I feel like whoever wrote this doesn't understand it.",
+          "score": 245
+        },
+        {
+          "body": "[deleted]",
+          "score": 82
+        },
+        {
+          "body": "You aren’t dumb. You simply don’t have domain knowledge required for this position. But the recruiter is dumb.",
+          "score": 38
+        }
+      ]
+    },
+    {
+      "title": "Databricks cert ?",
+      "body": "hello everyone, I graduated in 2024 in applied maths and data science, since then I only did some interviews but nothing, I have like non trivial personnal projects, hours of training, but I can get a job in data science or data engineering, is that worth to prepare for a databricks certification or am I wasting money ? what could be the best to do, can I also learn a foreign language ? I'm so lost guys\n\nedit: btw I also did two internships but they don't make a difference in my country, they are mandatory for the degree\n\nI'm also interessed in programming in c++/Rust but I guess nobody will be interessed about skills without a degree.",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1k7pwmd/databricks_cert/",
+      "comments": [
+        {
+          "body": "[removed]",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Should I take the jump?",
+      "body": "I am currently working at a team that is very laid back and am getting paid 82k base (CAD HCOL). I get to work with cool technologies like Kafka, spring, databricks batch jobs, etc. it’s pretty laid back and I usually log off by 4:30. However, I constantly have to ask for more work and feel that I am not growing as much as a dev. \n\nI’ve been looking for internal roles and doing many interviews. I recently got an offer of 100k at another team. I’m this team I’ll mainly be working with spark, scala, and Java for regulatory reporting. I’ve heard this team is a lot more work and may require longer hours. \n\nNow I have a few questions:\n\nWill working with these batch jobs hinder my career? Kafka is a big thing now so would experience in this be more valuable in the long run?\n\nWill I be shoehorned into becoming a spark dev? Can these skills be transferred? How will this data engineering field fair on the future?",
+      "subreddit": "cscareerquestions",
+      "score": 3,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1eqqus9/should_i_take_the_jump/",
+      "comments": [
+        {
+          "body": "This is all based on you. No one knows if you will \"be shoehorned into becoming a spark dev\" or \"How will this data engineering field fair on the future\". You are asking unanswerable questions.\n\nIf it feels right, take the role. 20k is a lot. Keep learning and you will be fine.",
+          "score": 5
+        },
+        {
+          "body": "What are your goals? That should answer the question for you.\n\nI recently made a post about an new job I took that is causing me a lot of stress because it's a lot of work, and I have a young family, so it's grinding me down. But, I am learning so damn much, which is a benefit. I do want my old job back, though. It was far more manageable, and I need that at this time in life. The pay difference between the two was negligible. But, you would be getting a 25% bump, so nothing to scoff at. Do you want fast pace? More stress? But learning more? For me, I want to get very good in one stack and specialize (Rails) because with that brings really good pay. So jumping from stack to stack is a consideration you might need to make - will it better you in the long run? Good luck.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "My New Grad Process: 69 apps -&gt; 4 offers",
+      "body": "No this is not a troll post.\n\n**applications**: 69, mostly applied to companies directly\n\n**prep**: usually none, occasionally company specific questions w/ lc premium\n\n**background**: cs undergrad @ T10CS, 6 internships (2x F500, 2x MANGA, 2x Big N), &gt;3.5 GPA\n\nsankey for those who don't want to read [https://i.imgur.com/PuwT4o3.png](https://i.imgur.com/PuwT4o3.png)\n\n**applied/ghost (31/69):**\n\nSome of the notable companies that I haven’t heard back from are Databricks, Two Sigma, Jump Trading, Uber. Optiver, Amazon, Ebay, Qualtrics, Goldman Sachs, Paypal, Bytedance, Tesla\n\n**rejected (34/69):**\n\nI declined 0 interviews. I am only worth as much as I can be offered so I don't turn my nose up at any company I applied to. If anything, free interview practice.\n\n1 company rejected me because their headcount was filled for the recruiting season\n\nNext, I got rejected from 18 companies after at least one round of interviews/OAs. I had a mediocre &lt;800 codesignal score.\n\nFinally, i got rejected from 16 companies after the resume screen (Snap, Airtable, Palantir, Dropbox, Microsoft, Ziprecruiter, Flatiron Health)\n\n**offers (4/69):**\n\nFinally, the part most of you guys probably were interested in.\n\n **Offer 1**\n\n* location: Chicago, IL\n* base: 107,500\n* stock: 56,000 (private)\n* perf bonus: 10,750\n* relocation: 2,000\n* signing: 10,000\n\nFY TC: 186,250\n\nRC TC: 174,250\n\n\\*\\*extremely unresponsive, and disappointing base/perks\n\n**Offer 2**\n\n* location: San Francisco, CA\n* base: 135,000\n* stock: 30,000 (private)\n* perf bonus: 0\n* relocation: 10,000\n* signing: 20,000\n\nFY TC: 195,000\n\nRC TC: 165,000\n\n\\*\\*refused to negotiate\n\n**Offer 3**\n\n* location: San Francisco, CA\n* base: 135,000\n* stock: 40,000 (private)\n* perf bonus: 0\n* relocation: 5,000\n* signing: 40,000\n\nFY TC: 220,000\n\nRC TC: 175,000\n\n\\*\\*refused to negotiate\n\n**Offer 4**\n\n* location: Mountainview, CA\n* base: 150,000\n* stock: 30,000\n* perf bonus: 15,000\n* relocation: 10,000\n* signing: 20,000\n\nFY TC: 225,000\n\nRC TC: 195,000\n\n\\*\\*accepted\n\n**final thoughts:**\n\n \n\n1. Apply for lower paying companies\n\nI absolutely applied to companies I knew I probably wouldn't take offers at. The main reason being that their interviews were good practice and kept my skills sharp, but also I was not taking any chances. At the end of the day I was going to graduate and anything was going to be better than being unemployed, but I had the advantage of going into applications knowing what I was worth. If you don't know what you're worth, just apply everywhere.\n\n2. Get your resume reviewed by the right people\n\nUsually the advice people give is just to get your resume reviewed, but this can totally backfire. There have been nightmare stories of incompetent career centers who give students bad advice. Rather, you want to get your resume reviewed by people who are truly passionate about the field and job searching. Look for computer-science focused clubs, and peers who have great names on their resume. Connect with them, offer to buy them a coffee, and get some real advice.\n\n3. Make connections while you're still in school\n\nIn this job market it's unlikely that referrals will pan out but regardless of whether there is an immediate payoff to knowing someone, in a few years time, being on good terms with someone from college can absolutely pay dividends. I don't say this because I've been in the field for x years and have leveraged referrals effectively, but there are friends I've made that I will absolutely refer, and these were people that were open to making new friends and being a friendly face in class. You can do this in clubs, but my honest advice is just to talk to people in class, or at least reach out to them digitally. Show them that you're a good, dependable classmate, and optionally solidify that relationship by going to a football game together, or inviting them to something, or accepting their invitation! It pays dividends to become comfortable with being uncomfortable.\n\n4. Make use of school resources while you're still in school\n\nSo many students take their studenthood for granted. While you're in school and taking classes, you're constantly surrounded by people most similar to you and who are in the best position to do you a solid. You're not going to get a second opportunity to be able to just make small talk with the person sitting next to you just because you're taking the same class, or share similar interests. While you're a student, usually you have access to Handshake or some other equivalent internal job board. The competition for those positions is so much less than if that job was posted online, and just gives you a higher chance of hearing back. Lastly, while you're a student you can take advantage of many student plans, like Jetbrains for example, gives students free access to their IDE's. Or Github Pro gives you a lot of tertiary development benefits.\n\n5. Make sure you have stuff to put on your resume\n\n(2) is useless if you don't actually have things to put on your resume. Put school projects on it. Attend a hackathon. Join a student organization that fosters development of your engineering skills. Even try building something yourself. The opportunities abound while you're still a student. This is by far going to be the hardest action item for those who are not passionate about or even dislike programming. In my opinion, this is one of those things that really sets people apart. Not everyone has the motivation or sanity to code on the weekends, debug an issue that's not on stack overflow, or see a personal project to completion. Not everyone cares enough about their code to understand why it works. By being relentless in developing your own skillset as well as seeking out those that you can learn from, you can really add a proverbial luster to your resume that others won't have.\n\n6. Always negotiate\n\nI think this kind of veers into a separate topic, but if you are not desperate and have a decent idea of what you're worth and what number would truly make you happy, it never hurts to negotiate. There's always the fear that you might endanger the offer by doing so, but in my opinion, the vast majority of rescinded offers happen due to extremely untactful negotiating, or the company is just a walking red flag. Do you know how services like [levels.fyi](https://levels.fyi/) guarantee that your offer won't get rescinded? Because they'll tell you not to negotiate like a petulant toddler. As an aside, do not pay for those services. Negotiating is not nearly as complicated as they would have you believe, and you're better off just asking for advice here.\n\n7. Stay organized\n\nOne of the most common things that happen to new grads and students in general is they get into final rounds with a meh company, and then don't know what to do because they have nothing else lined up to compare to or negotiate using. When you apply, sit down and spend hours applying. The less spread out your application dates are, the higher probability companies will get back to you at around the same time. Of course, it's a given that some companies will get back slower/faster, but generally speaking by the time any of your applications is in the technical screen phase or you're scheduling final interviews, you have the means to contact the companies you're in earlier stages for that you need them to expedite (like a recruiter's email). If you're proactive and transparent, companies will be eager to accommodate things like this. At the end of the day you want to be able to have more than one offer to reference, to the benefit of (6). Push back against unreasonable offer deadlines. A good company will give you two weeks to decide, and generally speaking this has always been enough time for my other companies to get me a decision. LPT, if the company in question has any connections to your school, they will be beholden to your career center's offer deadline policy. For example, UMD has an explicit [policy](https://careers.umd.edu/who-we-help/employers/policies-resources) that says companies should give their students 3 weeks, and any company that wants to stay on good terms with the university will respect that.",
+      "subreddit": "cscareerquestions",
+      "score": 8,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1075wao/my_new_grad_process_69_apps_4_offers/",
+      "comments": [
+        {
+          "body": "6 fucking internships? Good lord this field is cutthroat 🙃",
+          "score": 23
+        },
+        {
+          "body": "What sort of questions were you asked in the interviews?",
+          "score": 1
+        },
+        {
+          "body": "Levels.fyi doesn’t support new grad",
+          "score": -1
+        },
+        {
+          "body": "&gt;background: cs undergrad @ T10CS, 6 internships (2x F500, 2x MANGA, 2x Big N), &gt;3.5 GPA\n\nFantastic. That's going to make everyone here feel great and have totally appropriate expectations.",
+          "score": -10
+        }
+      ]
+    },
+    {
+      "title": "Career advice needed",
+      "body": "I am new to the IT industry and exploring my career path. I am targeting to be a data scientist in a few years but I am not sure what to do.\n\nBackground: Master of Science in AI and data science\n\nCurrent job: junior data engineer\n\nSkills: python(Matplotlib, NumPy, Pandas, Scikit-learn, Selenium, TensorFlow), SQL(basic level)\n\nLeetcode: solved 300+ questions, 20% of which are medium questions\n\nGithub: have a few projects of basic machine learning and deep learning, mainly classification models and CNN\n\nCurrent actions: attempting azure and databricks certificates, required by the company\n\nWeakness: math, theory, and statistics of machine learning and . Failed to answer some technical questions on how to tune/improve the AI models and what are the problems of the models(bias/variance) during technical interviews of data scientist \n\n&amp;#x200B;\n\n1. What should I do to make my resume more attractive to companies hiring data scientists? \n2. What courses should I attend to improve myself?\n3. Other than acquiring knowledge about crypto with videos, what can I do to make companies believe that I am familiar with crypto?\n\nThank you all for your advice. I wish you Merry Christmas and Happy New Year.",
+      "subreddit": "cscareerquestions",
+      "score": 14,
+      "url": "https://reddit.com/r/cscareerquestions/comments/zuz2mm/career_advice_needed/",
+      "comments": [
+        {
+          "body": "It seems like your dream job is a data scientist at a crypto company? It seems like you've given it a lot of thought.\n\nInstead of asking here, I would hop on LinkedIn, look up a senior/staff data scientist at Coinbase or another organization you know and simply connect with them and ask them.",
+          "score": 11
+        },
+        {
+          "body": "[removed]",
+          "score": 6
+        },
+        {
+          "body": "Work on your data science analysis on real world projects you have a self interest in.\n\n... if you like sports, apply it to fantasy sports or sports gambling.  stocks, then stock trading.  crypto, then crypto mining efficiency analysis.",
+          "score": 5
+        },
+        {
+          "body": "[removed]",
+          "score": -2
+        }
+      ]
+    },
+    {
+      "title": "Move to Worse Company for More Money?",
+      "body": "I recently switched careers to data engineering at a startup - build data pipelines using python and SQL using tools like Databricks, Snowflake, Airflow, AWS, etc. I usually ignore recruiters but decided to entertain one of them when he said he hires for hedge funds at salaries that are way more than I'm making. Let's say double.\n\nMy near-term goal is to get into big tech. I was planning on staying in my first position for a year to gain as much knowledge as I could and then try applying next year. I took one interview at a hedge fund from this recruiter and they want to move me forward.\n\nThis hedge fund is not a tech-centered company like some HFT funds nor is it a big name like Citadel, HRT, etc. They are a team of finance professionals without even a single software engineer. They do have a CTO who does most of the dev work, and then a BI developer. They want to bring in a data engineer.\n\n* Stack is old - currently use MS SQL Server and Windows task scheduler. They want to start using Airflow and modernize their process, but the database will remain SQL Server.\n* I don't have experience building CI/CD infrastructure, but it seems like they want to do this.\n* Seems like mentorship will be non-existent and I'd have to teach myself.\n* Engineers will probably be second fiddle to the finance people since they are not tech heavy.\n* Since they are business people, they are on Windows. I highly prefer developing on Mac/Linux.\n* I'm fully remote now, and this new position is hybrid.\n\nThe only thing attracting me to this is the money. However, I'm leaning toward pulling out and doing my original plan - keep learning, grind LC, and then try next year for big N.\n\nWhat would you do? Would I still learn a good amount on my own at this fund? Would tech companies view this experience as worse than my current role?",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/w20yz5/move_to_worse_company_for_more_money/",
+      "comments": [
+        {
+          "body": "If you're in a comfortable job and have a lot of doubts about the new job, I'd pass. You are in a comfortable position to keep applying to jobs and pick the best one you can get. \n\nAlso apply to big tech if you have some experience, you might be able to get in now. Start doing some leetcode on the side if you haven't already",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "title": "Is it really that hard for a fresher data analyst to land a job in India? SERIOUS ADVICE NEEDED!!.",
+      "body": "https://preview.redd.it/upqxtt9ux5qf1.jpg?width=1078&amp;format=pjpg&amp;auto=webp&amp;s=246f0f764f47033835a414430e3ec8fe9e6f21be\n\nI graduated in June 2025 with a [B.Tech](http://B.Tech) degree and have been looking for a data analyst job since March 2025. Before that, I was preparing for GATE. So far, I have only received 4–5 interview calls, and nothing has worked out after that. I don’t know if I’m doing something wrong or if it’s just the market to blame. I am in dire need of a job and need help. Please give genuine advice what should I do next? Should I continue looking for a job, prepare for GATE again or anything else?",
+      "subreddit": "interviews",
+      "score": 4,
+      "url": "https://reddit.com/r/interviews/comments/1nlb5cc/is_it_really_that_hard_for_a_fresher_data_analyst/",
+      "comments": [
+        {
+          "body": "Looks like you have alot of skills for a fresher. Instead of individually listing them in the skills section list only the broad and main ones, while the other can be shown through your project.\n\nEverything else looks good to me. You have to remember times are just tough right now especially for new grad market.",
+          "score": 1
+        },
+        {
+          "body": "Just apply on LinkedIn and other platforms with updated resume on related roles.Make sure to add past 24 hr filter. \n\nNotice some have easy apply, if you attach your resume for recruiters then your chances of getting call from hr increases. \n\nIt is crowded platform so look out for scams also a pro tip make custom cover letter for each company.",
+          "score": 1
+        },
+        {
+          "body": "Your work and experience should be on top. But I know why you didn't do.",
+          "score": 1
+        },
+        {
+          "body": "Hi brother just curious how long did it take to learn all those skills? It would be helpful for me. I'm just starting with Data analytics  ",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "AWS Badges??",
+      "body": "Hey, I know I’m probably the 1000th guy with this problem atm, but I just graduated with a Bachelor’s in CS, with an internship and lots of project experience, but am jot able to find a job.\n\nI have decided my next step is to get certifications from Azure Databricks and AWS, but those will take time.\n\nI wanted to ask if getting these “free badges” from AWS in the next week and putting them on my resume will help me land some interview as an entry level candidate? I’m not looking for something insane right now, just trying to get my foot in the door!\n\nThank you!",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1dtybqx/aws_badges/",
+      "comments": [
+        {
+          "body": "[deleted]",
+          "score": 2
+        },
+        {
+          "body": "If you want a cert get the AWS solutions architect associate, or the azure equivalent if you do .NET. Certs like that are really the only ones worth putting on your resume since they take a decent amount of studying to get.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Poorly managed situation",
+      "body": "I am a dev who started out as non-tech and then learnt python and now switched jobs. I got into a witch company(I know but I was tired being in a small company and writing scripts). I got assigned to a project which didn't have a stringent interview to start with. I got into it and it starts off fine but now I came to understand that I have to design the whole backend API which involves azure functions, databricks, delta storage etc. There is no documentation and the previous api was built by a senior engineer and a senior database administrator both of whom have left the organisation. Now I'm put in this situation to design the entire backend api and the supposed architect is not available most of the time and is not possible to get help from him and he gets annoyed at questions. I have communicated that this is a stack I don't know and I'm willing to learn but the daily estimation requirement meeting and deadline setting severely impedes it and now I'm in a constant state of fear and anxiety. It's hybrid and I have not left my room for the past 8 days. This is going to burn and crash and if anyone has been in this situation what can I do? \n\nP.S. this is not in the western regions.",
+      "subreddit": "cscareerquestions",
+      "score": 9,
+      "url": "https://reddit.com/r/cscareerquestions/comments/181s1uc/poorly_managed_situation/",
+      "comments": [
+        {
+          "body": "You could learn those services and get some good experience, and start going outside again?",
+          "score": 2
+        },
+        {
+          "body": "You already know the answer. It's up to you to decide.",
+          "score": 1
+        },
+        {
+          "body": "You’re kinda fucked that stuff isn’t easy to learn in such a short amount of time but hey at least you’re getting paid to learn. Don’t worry about getting fired just accept it can happen sooner or later and keep applying to jobs that are more suitable for your skills.",
+          "score": 1
+        },
+        {
+          "body": "Get an overview of what is broken and what needs fixing. Break it into smaller parts. Look at what you need to fix first. Start fixing that. Don’t worry about deadlines and pressure from above. You got no help, so you try to find your own way out",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "How do I decide between internship offers for companies?",
+      "body": "Hi,\n\nI have a really tough decision, and I know I've been super fortunate and lucky, but I really want to get some advice on which decision to make. I have a few offers, and I'm currently deciding between a Big 4 (one of Big G/FB) or a startup (all of Databricks/Stripe/Lyft). I'm leaning heavily towards the startups, as I've had previous experience with bigger companies.\n\nHowever, I'm not sure which company is best for a future career. Stripe's office was extremely pleasant, and their culture is where I'd fit probably best in. Lyft seems to have interesting problems, and they're guaranteeing a project of my preference for me. Databricks is also guaranteeing the same, and seems to have super interesting problems, but I'm not sure how well I fit in with company culture after visiting. I'm looking for the place with the best technical problems / highest engineering bar / full time salary / most importantly, best for my resume for full time (whether I take new grad or not).\n\nI saw another post with very similar companies, but responses were more negative. I don't know where else to ask if this isn't the right place, but does anyone have any guidance here? Again, I know that all of these companies are great, but I'm really bad about second guessing myself and would love a second opinion. I also just don't know which factors are most important, and everyone says different things with searches.\n\nThanks so much—feel free to PM me about specific questions, and I am so thankful for any help.",
+      "subreddit": "cscareerquestions",
+      "score": 32,
+      "url": "https://reddit.com/r/cscareerquestions/comments/9pl8t4/how_do_i_decide_between_internship_offers_for/",
+      "comments": [
+        {
+          "body": "[deleted]",
+          "score": 54
+        },
+        {
+          "body": "I would say pick Google or Facebook - having one of those companies on your resume will make finding a full-time job when you graduate /much/ easier.",
+          "score": 34
+        },
+        {
+          "body": "The second you have the Google/FB brand name, you're probably going to be set for your first job UNLESS something horribly wrong happens. I'd play it safe by assuring my future before exploring, you have some 20 odd years for that.",
+          "score": 23
+        },
+        {
+          "body": "[deleted]",
+          "score": 20
+        },
+        {
+          "body": "1. Pay\n2. Do they provide housing or PTO?\n3. Quality of the campus\n4. Talk to others to see what kind of work they expect out of you.  Working for a startup might be painful.\n5. What vibes did you get at the interview? They usually are indicitive of the company's culture as a whole \n6. Location - especially if you're expecting a full time offer afterwards ",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "title": "Databricks System Design",
+      "body": "Has anyone done this interview stage before for new grad? If so, what was it like what tips would you provide?",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/175jzuz/databricks_system_design/",
+      "comments": []
+    },
+    {
+      "title": "Deciding between two offers... One company is \"recovering\" from a toxic culture?",
+      "body": "Aight ya'll, send advice. I have a written offer from a smaller WebHostCompany and a verbal offer from mid-sized TechCompany for the same yearly salary (I'm obvi not good at negotiating ha). Both fully remote, with comparable benefits.  \n\n\n* Mid-sized TechCompany sounds kinda toxic, *horrible* Glassdoor reviews. When I asked about the bad Glassdoor reviews, they said that the reviews are true, but they hired new execs and are actively working on fixing toxic aspects... One manager confessed during an interview that he was only planning on staying long enough to get experience migrating data from an on-prem server to the cloud. Exciting project tho - complete data overhaul utilizing new technologies (AWS, Spark, Databricks). Possibly better growth opportunities, that is if I can handle the lingering toxicity lol. I like a bit of a hustle, but idk man. Burnout happens quicker than you'd think... Oh, and only 15 days accumulative PTO.  \n\n* Smaller WebHostCompany seems like the chiller/more sane option. Unlimited PTO, stock options, matching 401k. Great Glassdoor reviews. Project seems less exciting - but still using cloud tech. Everyone I spoke with on the team had nothing but positive things to say; they would all foreseeably be working there in 5+ years. Data team is under the Finance team, which makes me feel a bit uneasy, but not necessarily a deal breaker. \n\nI think I know what the decision should be, but wanted to get some outside advice... Writing this out was therapeutic at the very least",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/qbhjau/deciding_between_two_offers_one_company_is/",
+      "comments": [
+        {
+          "body": "2nd one sounds way better",
+          "score": 5
+        },
+        {
+          "body": "&gt; the reviews are true, but they hired new execs and are actively working on fixing toxic aspects\n\nThat's cool, give me a call when you've finished turning things around.\n\n&gt;he was only planning on staying long enough to get experience migrating data from an on-prem server to the cloud\n\nResume-driven ~~development~~ management. If he's _managing_ the project/implementers, how much \"cloud experience\" is he really getting? Enough to recite keywords?",
+          "score": 5
+        },
+        {
+          "body": "2nd definitely sounds better. That said:\n\n&gt;Unlimited PTO\n\nThis is usually a red flag for me at most places that advertise it. It usually has meant the teams get burnt out a lot, put in lots of extra hours past a 40 hour week, etc. Not saying that's the case here, but I've seen it a lot.",
+          "score": 4
+        },
+        {
+          "body": "Pro tip: If a company is recovering from a toxic culture, that means they still have a toxic culture, and likely will for several more years.\n\n&gt;15 days accumulative PTO\n\nRegardless though... this is enough reason on its own for me to turn down that company. If you're a new grad maybe 15 daysis fine... but I'm way too far in my career to settle for something like that. That's a huge step backwards for me. I would turn that down in a heart beat.\n\n&gt;Unlimited PTO\n\nDid you ask about this during the reverse-interviews? Just to make sure it's legit? Cause \"Toxic Unlimited\" would be even worse than 15 days. I'd try to figure out what style unlimited it is.\n\nBut, it sounding like an otherwise good company, with positive reviews, probably means it's not a toxic company. Non-toxic companies don't suddenly become toxic when it comes to unlimited PTO. It takes an already toxic company to have that.\n\nFor what it's worth, I've never personally come across toxic unlimited. I've worked at 2 companies that had unlimited PTO. At both, most people would take generally 20-30 days a year. A fair amount took more. Basically nobody took less. So try to ask some sneaky questions to make sure there's no wild approval process, or soft limit, or any hint of the company blocking during crunch times.",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "title": "Technical interview at Mastercard",
+      "body": "What can i expect from a technical interview for an entry level position at mastercard \n\nSee the job description and suggest me how should i prepare\n\n\n\nThe Role\n\nWe are seeking an Analyst who will:\n\n Create reports of quality and other metrics within Databricks. This requires both knowing the Spark tool and understanding where data is located within AWS and the environment.\n Read and write Spark code using Scala. Graph team processing and reporting is currently all written in Scala.\n Understand the Graph ingestion pipeline and how the data is used in production for our models and ProInsight.\n Summarize findings in Confluence to verify quality or evaluate alternate paths.\n Partner with various teams (i.e., Product Manager, Data Science, Engineering) on data needs/requirements in order to deliver data solutions that generate business value.\n Identify innovative ideas and deliver proof of concepts, prototypes to deliver against the existing and future needs and propose new products, services and enhancements\n Analyse large volumes of transaction and product data to generate insights and actionable recommendations to drive business growth\n Apply knowledge of metrics, measurements, and benchmarking to complex and demanding solutions\n\n\nAll About You\n\n Bachelor’s degree in computer science, Information Systems, Finance, Statistics, or a related field.\n Experience with the Apache Spark ecosystem in a production environment\n Experience working with AWS, Databricks, Redis and/or similar platforms\n Strong proficiency in SQL, Excel, and data visualization tools such as Power BI, Tableau, or similar platforms.\n Experience in automation of reporting processes using scripting languages (Python) is a plus.\n Ability to interpret complex datasets and present findings in a clear and concise manner.\n Strong problem-solving skills, attention to detail, and ability to work under tight deadlines.\n Excellent communication skills to work effectively with cross-functional teams.\n Ability to easily move between business, analytical, and technical teams and articulate solution requirements for each group.\n\n\n",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1jx2ryz/technical_interview_at_mastercard/",
+      "comments": [
+        {
+          "body": "If no one responds with more specific information, [Glassdoor](https://www.glassdoor.com/Interview/Mastercard-Interview-Questions-E3677.htm) lets people leave reviews (including interview questions) for employers.",
+          "score": 1
+        },
+        {
+          "body": "Expect questions focused on your knowledge of Apache Spark, Scala, and AWS. They'll likely ask about your experience with data processing, report creation, and working with large datasets. Be prepared to discuss your problem-solving approach and how you'd handle complex data analysis tasks. They may also present you with coding challenges or ask you to explain concepts related to data visualization and SQL queries.\n\nTo prepare, focus on brushing up your Scala and Spark skills, especially in the context of data processing and report generation. Review basic AWS concepts and familiarize yourself with Databricks if you haven't already. Practice explaining your problem-solving process clearly, as they'll want to see how you think through challenges. Don't stress if you don't have experience with every tool they mention - show enthusiasm to learn and highlight your relevant skills. I'm on the team that made [live interview AI](http://interviews.chat), which can help you practice answering tricky technical questions like these and boost your confidence for the interview.",
+          "score": 1
+        },
+        {
+          "body": "you can try past interview questions on - [www.pastinterviews.com](http://www.pastinterviews.com)",
+          "score": 1
+        },
+        {
+          "body": "You can try mock interviews on - [www.easymock.pro](http://www.easymock.pro)",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Offer Evaluation",
+      "body": "Hi all, looking to get an evaluation of an offer compared to my current company and negotiation strategy if possible (1.5 YOE):\n\nCurrent job (Non-tech Big Corp A):\n\n- 85k base\n\n- 5% bonus (4k value)\n\n- 6% 401k match (5k value)\n\n- 5k RSU per year\n\n- ESPP (estimated 3-6k profit based on historical average)\n\n- 21 day PTO and 7 holidays\n\n- Python, Spark, Scala, AWS, Databricks, Docker, etc. data engineering tech stack\n\n- Monthly oncall rotation (once per 4-5 weeks)\n\n- Others: No code review, little testing, little mentorship,  current full remote but expected to be in person 2 days a week starting 2022. No promotion for 2 years.\n\nTotal comp 102-105k including 401k\n\nNew job (Start up B):\n\n- 110k base\n\n- No bonus, 401k match, RSUs, etc. Pure cash.\n\n- Permanent full remote job with team in various time zones.\n\n- Series A with large, known investor with large funding and valuation. ~200 headcount, about 10 SWE's in eng department. Product is good and can see it being pretty profitable. Already a big competitor in its area. Growing fast from 10-200 headcount in 4years.\n\n- Javascript, Node, Cloud Native Serverless (AWS - Lambda, DynamoDB, Fargate, CDK, etc.) tech stack working on microservices and api development\n\n- Both companies cover internet. Startup also covers phone (1k value)\n\n- No on call\n\n- Unlimited PTO with minimum 10 days forced use, when asked team they said they use 3 weeks PTO on average.\n\n- Seems to have mature code review process and deployment process. Testing and separate QA team as well. Work culture and WLB seems healthier despite being a startup.\n\n- Total compensation is basically 110k.\n\nI'd like the offer to be closer to 125k. I ideally want more than a 10% jump to my next company especially for a startup where I trade a bit more stability at big co. Does this sound reasonable or biting off more than I can chew at 1.5YOE at a remote job? Some are telling me to just take it.\n\nInterview process was a project which you review live with manager and senior eng. I think I had a decent performance and they are in need of more engineers to match their growth. Hiring manager/recruiter has been very communicative/open.\n\nI think big co is safer and stable. I think I will grow more at the startup and potentially have better WLB. Compensation is a bit better too.",
+      "subreddit": "cscareerquestions",
+      "score": 1,
+      "url": "https://reddit.com/r/cscareerquestions/comments/ncz8hg/offer_evaluation/",
+      "comments": [
+        {
+          "body": "Big Corp isn’t necessarily safer, they have layoffs too if the startup has a good balance sheet/growing then it might be safer if the big Corp has a bad financial standing",
+          "score": 5
+        },
+        {
+          "body": "Cash comp &gt; total comp.\n\nCompany B sounds more interesting and sounds like it has more tech growth potential. You're likey to learn more and be able to advance in your career at a tech company. I would look at the fact that it's a successfull newer company as a pro. It's very likey they will be around for at least 3 more years, and you can easily move away from it in a year and boost your salary again. If your current salary is 85 ( I would consider the rest more like bonuses. It's not equal to cash in hand.), I would expect a 20-30% raise if I'm moveing jobs. So for you that would be around 105-110k cash money.",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "title": "Databricks: Codesignal",
+      "body": "Hell everybody,\nI'm a bit new to the whole technical interview process thing and I would love some advice. I've been applying for internship roles around Canada and the US and I just got an email from Databricks telling me to do Codesignal general assessment. Has anyone done any of these and know what I can expect? Mainly looking to know what type of questions they most commonly ask, the average difficulty for an internship assessment, what would the cutoff score be to proceed to the next round, and any other tidbits people can think of. I was also told that this is a unproctored assessment and was wondering what that would mean exactly. Thank you in advance.",
+      "subreddit": "cscareerquestions",
+      "score": 1,
+      "url": "https://reddit.com/r/cscareerquestions/comments/peykmw/databricks_codesignal/",
+      "comments": [
+        {
+          "body": "2 easy and 2 medium leetcode questions (algorithmic), unproctored means you do not have to keep your camera on while giving assessment but they will know if you open another tab in the browser. after you had given assessment, codesignal will send your report to the person who requested it, good luck!",
+          "score": 1
+        },
+        {
+          "body": "How did it go OP? Did you hear back from them after completing CodeSignal? I completed mine and been waiting 10 days already. They haven't said anything about my application...",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "New Grad SWE at Trading Firm - Worth It?",
+      "body": "Hi everyone,\n\nRecently I finished an internship at a trading firm doing some dev work in the back office (think risk/reconciliation/compliance/etc - no C++ low latency work). My work wasn't that interesting, but nonetheless I tried my best and got a return offer.\n\nI decided to interview externally to get counter offers to raise my salary, but I haven't gotten many replies. Presumably this is because of COVID19, but it occurred to me that I was just repeating what I had experienced whenever I applied to internships. I would never get a response from companies doing interesting work (eg: Facebook, Google, Snowflake, Databricks). I realized it was because I started off doing boring work, which led to boring points on my resume, which led to more boring internships with boring work.\n\nAll of this made me start thinking heavily about whether I wanted to accept my trading firm return offer. Of course, if I don't get any other offer, I'll definitely take it, but where would my career go from there? Most tech companies care heavily about distributed systems experience, and I am not too sure if I will get exposure to that in my day-to-day work at the trading firm. Does that mean I would then be forced to stay within the finance sector, and if so, what would my career trajectory look like? Would companies like Jane Street even consider me considering I'm not doing great engineering work?\n\nI am trying to maximize my overall TC. I know at big tech companies like FB or Netflix you could eventually make crazy amounts of money. Moreover there's a lot of opportunities at tech companies, whereas in the finance sector, it seems like only Jane Street and Citadel are comparable for back office SWEs. And even then I have seen posts on teamblind from people at Citadel saying that back office career trajectory is terrible.\n\n&amp;#x200B;\n\nIn summary:\n\n* Got offer at trading firm, but it's a back office role where I am not sure I will do interesting work\n* If I end up going down the trading firm route, are there decent career options available for me or will I have to switch to tech?",
+      "subreddit": "cscareerquestions",
+      "score": 6,
+      "url": "https://reddit.com/r/cscareerquestions/comments/ii3snx/new_grad_swe_at_trading_firm_worth_it/",
+      "comments": [
+        {
+          "body": "Quant dev might be an option. It's risky, but the rewards can be high. It's kind of a unicorn topic, don't see too many quant devs hanging around outside of work lol \n\nQuestion unclear tho, is it just churning paperwork? or is there any kind of data you'll be working with or something you can use to leverage in the future?",
+          "score": 6
+        },
+        {
+          "body": "What is the internal mobility at the trading firm? Can you switch around teams? Some trading firms have interesting back-office work too, such as research clusters and infrastructure that could make-use of cloud technologies and HPC. \n\n\nSeeing as you're graduating into COVID19-era with minimal job opportunities and seems like you're not getting many responses it looks like the trading firm is your best-bet. I think JS and Citadel would hire you later on no-problem, Citadel has an NXT program specifically for mid-range hires. I think the more senior you become, the more expected you'd become specialized. I'd be concerned if you stick around for more than 5 years doing ad-hoc back-office work.",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "title": "Large bay-area tech company team matching vs other SF/bay-area tech company offers",
+      "body": "I'm deciding between waiting for team matching (from a large bay-area tech company) or offers from a couple of (Pinterest, Coursera, Fitbit, Yelp, Databricks, Wish...). One of the offers is really focused on my interest, but the deadline is in the next couple weeks, so I wouldn't have time to wait for the team-matching. But since there's no guarantee with team-matching, I don't want to be left empty-handed if I'm not matched. I'm also still in the interview process for one of (Twitter, Palantir, Uber..) with an onsite coming up. Should I take the offer with a guarantee of a good project (relatively smaller company) or wait for (large bay-area tech company) team-matching / hope for one of the others. Edit: this is for an internship",
+      "subreddit": "cscareerquestions",
+      "score": 6,
+      "url": "https://reddit.com/r/cscareerquestions/comments/5elz4u/large_bayarea_tech_company_team_matching_vs_other/",
+      "comments": [
+        {
+          "body": "You seem to have an offer from a brand-name startup that aligns with your interests, what's preventing you from taking it? ",
+          "score": 3
+        },
+        {
+          "body": "Team matching?",
+          "score": 1
+        },
+        {
+          "body": "why can't you just accept and renege later if you get a G offer?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Which resume is better?",
+      "body": "Hello all,\n\nMy girlfriend has been applying to senior data analyst, data engineer, data science, and BI analyst roles over the past 6-9 months with all rejections so far save for one phone interview with HR for a data engineer position that ended with no follow-up team level interview. Her background is not in data, but she has a MS which was heavily focused on advanced statistics which was almost entirely completed using R/R Studio, and is currently working as a Data Engineer for a medium sized regional company where we live. \n\nShe has been working as a data engineer for about 8 months now, and was working at the same company as a data analyst for about a year and a half prior to her promotion, although she started doing DE work prior to the promotion and has continued on in her DA work since. She also has several relevant certifications in the field centered around Azure which she has earned since his initial hiring, and is a quick learner and has picked up the programs mentioned in her resume (SQL, ADF, Power BI/Automate) quickly as well.\n\nShe asked me to post her current resume and ask for thoughts and advice, as well as a revised version of her resume which removes her time in his graduate lab and divides her data analyst/data engineer work into two pieces. She is unsure on which version would be better as she is concerned that employers seeing the combined DA/DE positions might be confused, as well as that they might find it slightly dishonest in his representation of time spent as a DE, as well as in time spent as a graduate research assistant when she was not technically hired as such through his graduate program (although the entire program did entail the same work, assisting with and leading graduate level research projects, making decisions on methodology and documenting relevant protocol, collection/analysis/visualization/reporting of data, etc.). Her initial thoughts in structuring it as such was that her actual time spent doing Data Engineer work started before her official promotion, and her time and work in her lab during her program were relevant factors in her initial hiring as an analyst.\n\nAre there glaring flaws here that can you all believe can be reworked so as to provide a better likelihood of a callback from employers in the field? We are not sure where the main problems lie and any help or advice will be very much appreciated, we are also willing to answer any questions that will better help to determine the best way to move forward.\n",
+      "subreddit": "jobs",
+      "score": 0,
+      "url": "https://reddit.com/r/jobs/comments/1kqtby3/which_resume_is_better/",
+      "comments": [
+        {
+          "body": "They're both really bad. Full of clutter, poorly formatted, and ATS systems won't be able to properly parse either of these resumes.",
+          "score": 8
+        }
+      ]
+    },
+    {
+      "title": "Databricks Software Engineer Interview Guidance",
+      "body": "Could anyone please provide some guidance on Databricks \"Systems Programming\", and \"Root Cause Analysis\" rounds for Software Engineer position?",
+      "subreddit": "interviews",
+      "score": 2,
+      "url": "https://reddit.com/r/interviews/comments/1mkah3d/databricks_software_engineer_interview_guidance/",
+      "comments": []
+    },
+    {
+      "title": "Finally I'm getting out of Data Science, moving to Big Data. Is this a good move?",
+      "body": "Long post, questions at the end.\n\nI'm in no way trying to diminish the value of REAL Data Science, just want to share my story and ask a couple questions. Please don't get discouraged by my post if you're actually interested in this area, it is just a rant!\n\nMy formal education is in Mathematics. I love it. If there was a job that would pay me enough to live a decent life and just study new things and come up with proofs all day long I'd take it without a second thought. Unfortunately those jobs are in research and require you to actually *make* math, not just study it. Let's be honest: people with real talent in high level math research are extremely rare and I'm not one of those. In pure math, hard work alone won't get you anywhere.\n\nA bit more than 4 years ago I landed my first real job: junior Data Scientist. Cliche I know, but I had to take it. Don't regret it one bit, I actually learned a lot. Some practical applications of ML models, some mandatory data plumbing, but most importantly a lot of coding. Say, 70% Python, 20%  flavors of SQL and maybe 10% C++. Actual production code, so more fun (I know I'm not a \"real\" programmer but hey, my code is running on about a dozen different financial institutions and it makes me happy).\n\nI love coding, I love OOP and the abstractions it comes with. I enjoy studying some ML models, the theory behind them and their use cases. However, my tolerance for bullshit is shrinking with age. And boy let me tell you something, my job came with a lot of bullshit.\n\nDS/ML has been the coolest thing for some years now, so every company wants a foot in the door.  Especially smaller companies (like the one I still work at), it's like every product they develop \\*has\\* to have some ML model attached to it. And of course, the marketing team must always include the trendiest buzzwords when advertising these super cool &amp; sophisticated new products. Even if it means that what they're saying is factually incorrect.\n\nI'm just gonna leave the following here:\n\n* *our product is the best because it uses the most advanced ML techniques*; hint: it does not, it's just a freakin RF regressor that someone else invented and some other people implemented for us to use without paying jack shit for it;\n* *we have a team of DS/ML experts;* completely false, not one PhD in my team; our skills are way more on the technical side than on the scientific side, and also no one here knows that much about statistics;\n* once they told me I had to be a part of an online presentation about how our usage of ML is the most advanced in our niche market; I refused, saying it was not true at all and exactly why; boy the managers were *pissed* at me, but at least never again I was asked to be a part of any commercial event;\n* once the company boss told me we were gonna have a new project coming soon, basically it would be a rest api returning some classifier's predictions; I got excited since I had been learning a bit about Flask in my free time and wanted to use it professionally; after a couple days of planning the boss came to me and said *oh by the way, we have to make the model work without any data because there is simply no data right now and it needs to get done quickly because the client is waiting*; I had to explain that we cannot fit a model with no data, he was pissed for a while but finally understood and the project got delayed until who knows when;\n\nSo, after about 4 months of absolutely 0 new interesting projects I got really annoyed. I can deal with the constant bullshit if at least something interesting is making me feel busy and useful. However, my job was slowly turning into a 100% bullshit job. Talking to clients who have no idea what they're buying or what do they even want, micro managing my teams tasks, pointless meetings discussing work methodologies... Seriously I think I was getting depressed.\n\nSo I started looking for anything related to python programming. I knew I was interested in big data technologies so I started sending CVs and trying my luck. Having no professional experience in spark/hadoop/kafka I was actually willing to maintain my paycheck in order to get a new job in a slightly different area, even lower it a bit (not too much obviously).\n\nAfter 3 stupid checklist-type interviews... I got a technical interview at a Germany based fairly big digital marketing company. They wanted to talk to me, get to know my previous professional projects and it would also be a technical python interview. They were not looking for someone with experience in big data, just someone that knew python some flavor of SQL.\n\nHoly shit I actually delivered. I didn't even have to think much, I just knew everything they asked for. Some questions about computational complexity, some other questions about OOP, nothing too fancy honestly. A couple days later... an offer in my mail. I was thinking \"well, even if it is the same as I'm earning now I still get to learn something new\". Well holy balls... almost a 50% raise. Obviously I took it, obviously my bosses are uber pissed.\n\nI'm gonna be working with apache spark and databricks. It is a developer job. I know a little about spark but close to nothing about databricks. However my questions are not related to these particular tools, just to this  career move.\n\n&amp;#x200B;\n\n* do these big data jobs come with a lot of bullshit? I mean the kind of bullshit I mentioned above\n* how demanding do you think it is gonna be regarding general coding skills? honestly I'd rather be under a lot of pressure to write quality code than be relaxed and writing some shitty scripts;\n* how prevalent and/or necessary is the use of Scala in this industry? I'm definitely interested in learning it;\n* I have a feeling that being a big data engineer is not as cool sounding and trendy as a Data Scientist; I don't care, I even welcome that; however, I do care about future prospects, so my final question is: imagine the offer they made me was exactly the same as my current wage; do you think this would be a good career move?\n\nThank you for your answers!",
+      "subreddit": "cscareerquestions",
+      "score": 9,
+      "url": "https://reddit.com/r/cscareerquestions/comments/mtcbmw/finally_im_getting_out_of_data_science_moving_to/",
+      "comments": [
+        {
+          "body": "If you find yourself in a difficult place in your life, we urge you to reach out to friends, family, and mental health professionals. Please check out the resources over at /r/depression, /r/anxiety, and /r/suicidewatch. Feel free to [contact the /r/CSCareerQuestions mods](https://www.reddit.com/message/compose?to=%2Fr%2Fcscareerquestions&amp;subject=&amp;message=) for more information or help.\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/cscareerquestions) if you have any questions or concerns.*",
+          "score": 1
+        },
+        {
+          "body": "Wow, didn't think \"big data\" was really in use as a term anymore. Back in the day this was applied to anything from real distributed systems development to sort of (what would today) be called Dev/InfraOps. Just like \"data science\", what you actually do can range pretty dramatically. Its going to be on a job by job basis whether its interesting or not. You might need to go with your gut feeling on this if you want to make the jump.",
+          "score": 5
+        },
+        {
+          "body": "The issues you bring up are actually due to your former workplace being INCOMPETENT AF and not the field itself. It was the right move getting the f out of there.\n\nI think you’ll be fine. For the simple fact that this new company collects data (whereas your previous one does not) and has a stack to handle that means you are in a better place.\n\nYou can always go back to doing data science and you will probably get some opportunities to flex those skills in your current job if you push for it. Work hard, ask for help when you need it and you’ll be ok. IMO data engineering is more straight forward than other types of development - you’ll figure it out.",
+          "score": 3
+        },
+        {
+          "body": "Happy cake day!",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Going from startup to FAANGS",
+      "body": "My first and only job in tech is in this machine learning startup. I joined hoping that with the variety of projects there are I would learn so much especially when one of our projects blows up. Well we deployed some models, but nothing went up in scale. My life turned into taking messy data, training the cheapest model possible, then dropping it and moving to the next project\n\nI looked at career websites for FAANGS and companies like Databricks. They prefer someone with experience in production and scale. What can I do if my workplace just didn't succeed enough to get the scalability challenges? I still learned lots but I feel like the longer I stay the further I'll be from those elite companies\n\nAlot of positions I've looked into are either heavily on the software side or heavily on research. As a machine learning engineer I developed on both but can't say I'm an expert in either. My dream job right now is Google's \"Software Engineer, Machine Learning\" however I have no idea what to expect there. I have 3 YOE. Has anyone made a similar jump? Anyone in that Google (or other companies) positions that can give me some advice on what is expected? In serious need of some mentorship",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/menofd/going_from_startup_to_faangs/",
+      "comments": [
+        {
+          "body": "You could apply and see what they say.",
+          "score": 3
+        },
+        {
+          "body": "ML Engineer varies in actual practice but w.r.t. qualification at Google or any of the FAANGs, many expect you need to know SWE stuff + ML stuff (different models, metrics, considerations, data handling, etc.). You might be building ML models but at the end of the day, you’re doing production engineering which means good engineering practice. \n\nThe interview is kind of weird because sometimes it’s not SWE lite per se - you might just have 1 or 2 technical coding interview instead of 4 and the others are more ML based. You probably won’t do any systems design however or the more niche SWE stuff like byte manipulation but some still expect you to know general DS&amp;A. Seems unfair bc you basically do twice the studying but that’s what it’s like.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Databricks Karat REDO",
+      "body": "Hi!\n\nJust did my Karat interview with Databricks and got the first question in about 2 minutes. Understood the 2nd questions right away by tried to implement it using a union-find as opposed to a brute force DFS. Does anyone have any thoughts on whether I should do the redo or let the first interview count!",
+      "subreddit": "cscareerquestions",
+      "score": 3,
+      "url": "https://reddit.com/r/cscareerquestions/comments/csrao6/databricks_karat_redo/",
+      "comments": [
+        {
+          "body": "As far as I read, if you do the redo, the better one counts, so there is nothing to loose with the redo.   \nI will have my interview soon too. Do you remember the 2 questions you were given? \n\nThanks!",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "How do I stop being seen as ‘just an analyst’ and move into data engineering?",
+      "body": "I’m trying to figure out the best way to transition into a data engineer role. The data analyst/BI analyst path feels overcrowded and I want to pivot toward data engineering where I believe my skills fit better.\n\nI have about 2.5 years of experience as a data analyst, but most of my work has leaned heavily toward data engineering. I’ve been building ELT pipelines with dbt and Databricks, pulling data from multiple ERP and financial systems into Databricks, setting up CI/CD workflows, designing modular dbt models and managing data quality and troubleshooting when pipelines fail. The more I reflect on it, the less it feels like traditional analytics and more like I’ve already been doing data/analytics engineering, just without the official title.\n\nI’m on an H1b visa and in the US job market in a metro area with lots of opportunities, but I want to make sure I’m approaching this transition strategically.\n\nI’d love to hear from people who’ve made this move. Specifically: \n\n* What should I focus on strengthening? \n* What does the interview process usually look like for DE roles as compared to analyst roles?\n* What’s the best way to position myself so hiring managers see me as an engineer and not just another analyst?\n\nI left my last job for personal reasons and have been jobless for 6 months, so I really need some practical advice. Any tips, resources or sharing your own path into data engineering would mean a lot.",
+      "subreddit": "jobs",
+      "score": 2,
+      "url": "https://reddit.com/r/jobs/comments/1nrcgto/how_do_i_stop_being_seen_as_just_an_analyst_and/",
+      "comments": [
+        {
+          "body": "Learn how to code bruh",
+          "score": 3
+        },
+        {
+          "body": "Prove serious engineering skills",
+          "score": 2
+        },
+        {
+          "body": "If you've been doing a data engineer job, then just call yourself a data engineer on your resume and your pitch. There is nothing stopping you from presenting yourself as what you've already done.\n\nFor some years the data science space has changed names without even a de facto standard. I've seen data analysts do data science jobs, changing our perception of what a data scientist really is.\n\nWhen someone is looking for a data engineer, they are looking for a specific set of skillsets, both technical and soft, which you may have already been doing, but because you are encapsulating your job title as a data analyst, you are missing the train.\n\nDon't lie in your resume. But also, don't lie to yourself.",
+          "score": 2
+        },
+        {
+          "body": "Analysis is very different from engineering. Have you tried applying to entry level engineering roles? It sounds like your role is more of an engineer’s though. If that’s what you want, why not stick to it? Titles aren’t nearly as important as responsibilities",
+          "score": 1
+        },
+        {
+          "body": "The obvious answer here is to learn to code, but more importantly, learn to code well enough to create real-world usable projects that actually help employers.\n\n\nProjects are everything in the current industry if you have zero real-world experience. Anyone can code, a 12-year-old middle schooler can learn to code nowadays. You have to know how to use what you learn.",
+          "score": 1
+        },
+        {
+          "body": "Data engineering is like any other field of engineering.\n\nClient says that they want a table top fusion reactor. You ask them to help you frame the « desired outcome » with criteria. Draw a picture, explain how it works. The cost must be less than…… and I need it by…………….\n\nYou say OK!\n\nNow comes the « figure it out part. »\n\nYou used your systems thinking skills to « get on the same page » as to expectations. You both understand the deliverables.\n\nNow comes the « fun » part of translating « vision » to product and/or service. You use your knowledge of science (physics and math) and existing solutions and technology to deliver a working prototype.\n\nYou’re now ready to discuss options with your client.\n\n\nYou may have the « tech side » covered.\n\nBut are you sufficiently fluent in « people » and « business » to collect the clients needs and wants - AND - translate that into business solutions?",
+          "score": 1
+        },
+        {
+          "body": "Do you program and create software that processes the data? If not, then you’re not an engineer.\n\nYou have to write, compile, and run your own executables to be considered an engineer and not just an analyst. Otherwise, you’re just using tools that software engineers made (that you could program yourself).\n\nLearn a programming language that has a compiler. Java is great. Python has an interpreter, but it essentially is a programming language (but technically not since it does not compile into an executable, a separate program, the interpreter, interprets the Python syntax. Only big nerds care about this. It does it line by line rather than complying the entire file. Compiles will actually try to make your code faster by using advanced tricks specific to the architecture that is it compiled to).\n\nIf you just learn Python, it’s not considered serious engineering. It really is just shitty code to be honest. It runs very slow (see above), and is a toy language imo. If you don’t know how to actually program, you’ll create shitty Python programs that you think are fantastic but take all day to run and use your entire computers memory. Why? Because you imported everything, and your one liner is actually a monster hidden beneath, and you don’t even know what the hell is happening. Write your own code from front to back.",
+          "score": 1
+        },
+        {
+          "body": "Honestly ChatGPT can probably answer your questions better than I can, even though I made the same bridge you are trying. Sounds like you are already doing some version of analytics engineering.\n\nThe other thing that I can offer that ChatGPT probably won't is you can always change your job title if there is a better one. I talked to my boss and he was fine with me changing my title from 'data analyst' to 'analytics engineer'. So that's what I became. I was 'associate' in the company's internal systems anyways. Our department then later got our named changed from 'analytics' to 'data science' and then I got 'promoted' from 'analytics engineer' to 'data engineer'.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Delivery Solutions Architect at Databricks",
+      "body": "Hello all,\n\nI have landed an interview with Databricks for the Delivery Solutions Architect role. Is anybody currently in this role? Could you shed some light on your experiences? I'm curious about the interview process, what to expect in the role, and the WLB.\n\nI'm a senior DE at Big 3 consulting currently.\n\nAny insight is appreciated. Thanks!",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/1ezioru/delivery_solutions_architect_at_databricks/",
+      "comments": []
+    },
+    {
+      "title": "Databricks RSA interview",
+      "body": "I have Databricks RSA interview coming up. Any idea what to expect and prepare ?",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/xvjdom/databricks_rsa_interview/",
+      "comments": []
+    },
+    {
+      "title": "Some thoughts after interviewing candidates for a data position",
+      "body": "I'm a data engineer at a smallish insurance company and we recently interviewed candidates for a role that is part data engineer, part data analyst. I thought I would offer my impressions in the hope that they might be useful to people going through the job-hunting process. I think the content might be general enough to apply to anyone in tech, not just data (I hope).\n\n1. **TRIM DOWN YOUR RESUME**: Sorry for the all caps, but after going through dozens of resumes, I was flabbergasted to see people with 5 years of experience submitting 6-page resumes. All of the candidates had somewhere in the range of 4 - 6 years of experience. And save for a precious few, they all had resumes that were 5 - 6 pages long. I'm sorry but pretty much no one is going to read all of that. The current wisdom seems to be to limit your resume to one page. That might be a bit much, but really I wouldn't recommend having it over a page and half, or two pages if you really must. Learn to be selective and highlight the parts of your career that really stand out.\n2. **Your Resume Should Tell a Story**: I don't mean that you have to write the next Iliad, but you should be doing more than just saying that you worked with a certain technology. I would say that about half of the resumes suffered from this in one way or another. Don't just tell me that you worked with Databricks - for all I know, you got Databricks to do 'Hello World.' Tell me what kind of problems you solved, what kind of challenges you met. Tell me how you were useful to the people who hired you. Your resume should be a tool to show employers how kickass you are at solving problems and meeting their needs\n3. **Projects and Certifications Are Gold**: To me, this shows initiative and that the candidate is a self-starter. True, certifications can be a bit overrated and they don't guarantee that the candidate will be good at xyz technology. But all I'm saying is that if someone studies something on their own initiative and passes an exam, then it at least shows a level of go-getting that I appreciate. Same with personal projects on github or a blog, it really helps you stand out.\n4. **DON'T CHEAT GODDAMMIT**: Again, sorry for the all-caps, but this happened a few times and it just sends the candidate's resume into the garbage bin. Most people did not cheat, so I don't mean to patronize. But yes, it did happen for some of our online interviews. In one case, I asked the candidate an experiential question, something like \"give me an example of a time when you had to validate a dataset with formatting issues\"; this was followed by \"Oh...wait a minute...wait a minute...\" then his eyeballs would dart back and forth on another screen and his answer was just a jargon-intensive word salad that only vaguely had to do with data validation. So my manager and I were pretty convinced that he was recording our voices and putting it through an AI. Another HR person told me about a candidate who had a hired gun offscreen giving the answers while the candidate appeared to lip sync to their answer. All the cheating attempts that I've seen so far have been pure cringe. And even if you get hired, things are going to go real bad if the employer finds out you can't do your job. I know the job market is ridiculous right now, but I don't see how getting fired for being a nincompoop is going to help.\n5. **Build Up a Set of Situational Stories**: Interviews that ask, \"Tell me about a time when...\" are extremely common, so I think it's good to recollect as many as you can and write them down. Think of a time when you had to collaborate with others. Think about a time when you had to deal with competing priorities. Think about a time when your ETL pipeline failed in production. Think about a time when you had to explain your big shiny project to non-technical shareholders. And so on. You may have heard of the STAR method. It's good, use it. If you haven't, it would be a good idea to look it up. Now take all of those stories and write down the main points on flash cards. Keep rehearsing them until you can a) remember the highlights and b) without sounding like a robot\n6. **Learn To Be Concise**: This is probably the hardest one of all, and I used to be guilty of it all the time. If all of the questions someone asks you end up in run-on sentences, then it will be harder to hold the interviewer's attention. It will be harder to pick out valuable information from the stream of words that came out of the interviewee's mouth. There's no way around this but to practice. Think of the ideal answers to the most common interview questions and keep going over them - rehearse them with a friend if you can. However, if you just resort to rote memorization, you're going to sound, again, like a robot. Mind you, sounding like a robot is better (I think) than sounding like you don't know how to stop talking; but you can, believe it or not, rehearse how to sound more natural. If you stick to learning the main points of your answer instead of memorizing the exact words, it will contribute more to you sounding natural.\n\nAnyways, those are my main ideas. It's not exhaustive by any means, but I hope it will help some people to overcome some pitfalls that have been common in my interviewing experience.",
+      "subreddit": "interviews",
+      "score": 7,
+      "url": "https://reddit.com/r/interviews/comments/1m5nzso/some_thoughts_after_interviewing_candidates_for_a/",
+      "comments": [
+        {
+          "body": "I am an data analyst and curious what certifications you think one should have? I haven't thought about getting any until recently since I was content at my last company &amp; they could care less about them",
+          "score": 2
+        }
+      ]
+    }
+  ]
+}

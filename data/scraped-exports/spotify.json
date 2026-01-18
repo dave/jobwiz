@@ -1,0 +1,887 @@
+{
+  "company": "spotify",
+  "post_count": 40,
+  "exported_at": "2026-01-18T17:44:53.307Z",
+  "posts": [
+    {
+      "title": "Spotify internship process?",
+      "body": "I just heard back from Spotify about filling out some additional information for a summer internship. I was wondering what the process looked like after this step? Are people who get the form guaranteed an interview? I hate how late Spotify recruits, seems like an awesome company to work for :( \n\nAny information will be appreciated!",
+      "subreddit": "cscareerquestions",
+      "score": 75,
+      "url": "https://reddit.com/r/cscareerquestions/comments/7kwjn2/spotify_internship_process/",
+      "comments": [
+        {
+          "body": "Spotify automatic email squad reppin",
+          "score": 47
+        },
+        {
+          "body": "[deleted]",
+          "score": 25
+        },
+        {
+          "body": "They said in the email that you can expect to hear back in January and February, which kinda means that people will actually finish interviews and sign offers in March. Absolutely insane that they start their process this late.\n\nSuch a cool company though, I hope their new grad recruiting season is earlier. \n\nAlso - looking at the form I think that they might decline you if you put down a bad graduation date or if you require sponsorship, but I feel like it's one of those general informational forms that's just a formality and another step in the process.",
+          "score": 23
+        },
+        {
+          "body": "Got two emails about the Data Science and User Research (obv not CS-related) internships.\n\nAre we guaranteed interviews if we got these emails? First time applying to Spotify so I'm not sure how their recruiting process goes.\n\nJust for reference, I didn't get a reply to the Data Engineering one, so I'm assuming they were selective with who received emails.",
+          "score": 8
+        },
+        {
+          "body": "Does anyone have prior experience to Spotify's intern recruitment process?",
+          "score": 4
+        },
+        {
+          "body": "For all those that applied there is still hope. On LinkedIn there is a group page for Summer Interns 2018 &amp; there is just 8 members right now. Good-Luck to everyone in the coming weeks :) ",
+          "score": 6
+        },
+        {
+          "body": "Does anyone know if spotify does fall internships?",
+          "score": 10
+        },
+        {
+          "body": "I applied for two positions and got emails for both of them! \n\nThey do seem really cool and I can't wait for the interview.\n\nCongrats mang",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "title": "Left the Bay Area for the EU, feel like I made a mistake. How do I fix it?",
+      "body": "Mid/Upper 30s developer w/ 4 years at MANGA level company in the past, US Citizen.\n\n**TL;DR:** I went to the EU to work and I didn't like it. Can I get back into SV? Is it me, my age, or is it the tech scene in the EU?\n\nI left SF because of the screaming high rent and a desire for a better work life balance. It turns out that the low cost of living, rent, and free health care still made me poorer overall because of the massive salary cut. Working hours are less but the working quality is much less too. No one here knows how to run a tech company or a startup, everything is process oriented. Committee based decisions requiring consensus mean that there's meetings for hours on end and another meeting is scheduled until a final decision is achieved.\n\nI'd love to say it's isolated to one company, but now that I've been at 4 different places and talked to many devs, it's clearly everywhere. Since Spotify is the darling child of the EU tech scene, everyone copy-pastes their management structure into their employee handbook but not a single bit of effort is actually spent on implementing it. Old management styles from the 80s and 90s reign, I've had PMs insist to me that Waterfall is The One Truth Way. Companies penny count equipment purchases for their engineers like it's going to bankrupt them to give them the tools they need to do their job. The companies themselves are nothing like the SV companies where tech is revenue, instead tech here is a cost center and must be done at the cheapest price. So everything is about efficiency and cost reduction, quality and building a product or exploring the market are completely neglected. Product Owners go out of their way to avoid talking to customers, design is an afterthought, and engineering practices like Code Reviews are shunned because it slows down the rate a Jira ticket moves across the sprint board. Nevermind testing, which is all done manually by the overworked QA role that doesn't have a single automation script on their machine.\n\nSince I'm experienced, whenever I join I end up getting promoted very quickly to Tech Lead or higher because I'm the only person with some knowledge of how to build things. This immediately takes me from where I wanted to be, writing code, into meeting hell. No matter how clearly I ask for a hands on role, it is inevitable. Then I resign and the same story plays out again. In a SV company, I was a lead often but I did 80% coding, 20% meetings, but here it's 100% meetings, 10% coding on free time. I dreaded taxes in CA, but in the EU I am taxed from both the EU and the US after 6 figures, which means I am extremely demotivated to make any money past this point because it's a huge bill every year.\n\nOne of the major things I wanted in the move out here was to be able to travel and have more time off. Corona really didn't help with that dream, but what killed it more was that because a trip is the same cost basically anywhere, the salary hit just cut my dreams off entirely. I did not really think that through when I moved. So now I have more time off and no money to spend on it.\n\nOn top of that, the work life balance here is actually worse. Yes, you can get 40 hours a week and not get fired for underperforming, but startups here still expect crazy hours, and those who don't give them quickly are giving the worst work and never get any advancement, then are \"managed out.\" It's basically impossible to get fired, so there's a huge amount of people at every company that are just chilling out and doing the bare minimum to get by, taking up space and holding everything up. Overall I spend about 10 hours less at work per week, down from 60 to 50, but the quality of those 50 hours are abysmal. Yes, it was 60 hours at work each week in SF, but I spent them in a beautiful office with each company competing to have the best cold brew on tap and an emphasis of doing good work with a top of the line computer. Here it's a spartan, no frills experience with back to back meetings talking to people who think I'm crazy to suggest that maybe, we stop adding features for 2 seconds and fix the broken mess of a code base written only half in English, or actually ask if the customer wants this feature, or re-iterate that no, while a 3 hour unmonitored take home test does in fact save interviewing time, it is not a great way to hire.\n\nOutside of work, learning the language and making friends is much harder. Despite a lot of effort on my part, and I know Corona didn't help, I've been only able to make friends with other immigrants. I am constantly paying an \"expat\" tax too, which is simply not knowing what all the locals know about the ins and outs of the system and am instead taken advantage of by it. Need support with your power company because of a billing mistake? Too bad, the phone line is only in the native language and they hang up on you if you speak English. You either have to pay it or hire a translator, get a 3 way call going, all to debug the bill.\n\nMy questions: Am I too old to write code now at my age? Is it just the EU? If I got a job in SF, what would the chances be like of getting a little cash to help with the relocation / apartment hunt hell? Would a SV company want me back, now with a few years of EU experience haunting me resume?\n\nedit: added more about work/life balance.",
+      "subreddit": "cscareerquestions",
+      "score": 111,
+      "url": "https://reddit.com/r/cscareerquestions/comments/shwihl/left_the_bay_area_for_the_eu_feel_like_i_made_a/",
+      "comments": [
+        {
+          "body": "[removed]",
+          "score": 80
+        },
+        {
+          "body": "I'm amazed someone in this field would actually think moving to the EU would make them better-off to the point that I think you must have not done any research (which is odd for such a huge decision) or this must be a troll post.\n\nThe benefits of moving to EU are inversely proportional to your economic class, with poor/lower-middle being the most benefit, and upper class getting mostly negatives.\n\nAdvice: There are places in the US that hire programmers that aren't in SV.",
+          "score": 178
+        },
+        {
+          "body": "[deleted]",
+          "score": 25
+        },
+        {
+          "body": "I am really surprised you are experiencing this. Which city are you working in? \n\nI am working for 3+ years in Berlin and my experiences are completely different:\n\n* never worked more then 45 hours a week. Not even the first few months. Once I opened a PR over the weekend, I was literally told by my manager that I should not put in any more than 40h per week.\n* code-reviews have been always pretty detailed. Example: I was contributing to frontend repo at some point as a backend developer, and I couldn't merge a simple PR because of accessibility features for a B2B platform used by &lt; 1000 users. Standards are pretty high\n* meetings -&gt; as I progressed to more senior levels meeting % went up since I am expected to bring standards to the engineering department. Just checked google calendar, averaging 10 hours per week meetings.\n* waterfall ?! never encountered it in my life\n* Product always talks to customers, heck even we have a Customer Care team that actually their job is to talk to customers and show them our latest beta features and get feedback, then propagate that feedback to the engineering teams.\n\nThe points that I agree with:\n\n* learning the language and making friends. Its bit harder, I am from southern Europe, where people are usually friendlier (huge simplification, but overall true)\n* Salary is way lower\n\nI am not saying EU is better, there is no clear cut, however, either I've been lucky or you've been super unlucky with your experiences.",
+          "score": 25
+        },
+        {
+          "body": "&gt; apartment hunt hell\n\nFirst, you could look for a job in the South Bay, which isn't cheap but much easier to find a place.\n\nIf the job is in SF you could commute in and save a good amount as well.\n\nEDIT:\n\n&gt; too old . . . mid 30s\n\nEither this is a troll or you really have misguided notions.  Many many companies have entire departments with people in their 30s and 40s, and beyond.  If your entire experience has been with startups with \"the best cold brew on tap\", perhaps you have aged out of that kind of company.",
+          "score": 61
+        },
+        {
+          "body": "&gt; 4 years at MANGA level company\n\nReally? You wouldn't be asking such a question if you were at MANGA or similar. Why would you join shitty companies in EU after being at MANGA? Just join MANGA or similar in EU. Problem solved.",
+          "score": 44
+        }
+      ]
+    },
+    {
+      "title": "What it's Like to Be...",
+      "body": "Here's a podcast I think you might like. Every couple weeks Dan Heath interviews people about their jobs. It's really well made and offers some pretty cool perspectives. Here's the Spotify link to the latest episode, but you can find it anywhere you get your podcasts https://open.spotify.com/episode/2IIGXNO0wCZqNKfjeooQrj?si=Y1k4remaTmq4FYk32hJR4A",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/1qfh6lr/what_its_like_to_be/",
+      "comments": []
+    },
+    {
+      "title": "What should I do next after failing my PIP and being let go?",
+      "body": "Hey everyone,\n\nI’m currently going through a tough time and would love some guidance. I was recently placed on a Performance Improvement Plan (PIP) at work. Despite my best efforts, I was unable to meet the expectations, and my termination is set for this Friday, March 14th.\n\nHere’s a bit more context about my background and the situation:\n\nOriginally, I was pursuing a career in law enforcement and physical security, but I decided to transition into IT during the COVID pandemic. I was able to finish school, earning a bachelor’s degree in Informatics with a concentration in cybersecurity. From there, I secured an internship that eventually led to a rotational role, which ultimately ended in my termination. This was my first corporate environment.\n\nThe transition from law enforcement to corporate work was difficult, especially in the IT field. I’m used to environments where there’s clear guidance, with someone telling me exactly what needs to be done by the end of the day and with well-defined timelines. But in my current job, I struggled to find any kind of liaison or support, which made it even more challenging. I’m still trying to understand how corporate IT environments work, especially the Agile and Spotify models, but it felt like there was no one to turn to when I needed help.\n\nHonestly, it’s been a gut punch. I’ve never been in an environment where I could literally cry out for help and yet no one would help you. It felt like they were just watching me struggle, and that was extremely discouraging. In my previous roles in law enforcement, everyone worked together and helped each other, no matter what the situation. That sense of teamwork was one of the things I loved about my previous career, and it’s been difficult to adapt to an environment where it felt like no one cared whether I succeeded or failed.\n\nHere’s what I need advice on:\n\t1.\tShould I file for unemployment benefits now, or should I focus on job hunting and studying for certifications first?\n\t2.\tI have a background in cybersecurity and data analytics. Should I prioritize CompTIA Security+ because of my cybersecurity background, or should I focus on data analytics certifications first?\n\t3.\tHow do I explain this termination in interviews or on my resume? I want to frame it as a learning experience and show how I’ve grown from it, but I don’t want it to negatively affect my chances of finding new work in the IT field.\n\nI’m really committed to improving myself and pushing through this tough time, and I’d appreciate any advice or insight that you can share. Thanks so much!",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/1j9yfn9/what_should_i_do_next_after_failing_my_pip_and/",
+      "comments": [
+        {
+          "body": "1. All of it",
+          "score": 3
+        },
+        {
+          "body": "How long did you work there? \n\nYou should file for unemployment now.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Got rejected for 10 interviews in 2024",
+      "body": "I am looking for Data Analyst roles since January 2024 and it's almost end of the year. I got rejected in10 first round interviews and some of them even ghosted me. Some of them were very big names like Amazon and Spotify. I am very disheartened and questioning myself that why I can't pass even first round.",
+      "subreddit": "interviews",
+      "score": 68,
+      "url": "https://reddit.com/r/interviews/comments/1h1xy0w/got_rejected_for_10_interviews_in_2024/",
+      "comments": [
+        {
+          "body": "Do you record your interviews? Perhaps go over them with an interview coach if you do. Because If you’re getting interviews in this market then surely you’re doing something right.",
+          "score": 27
+        },
+        {
+          "body": "I got rejected 14 times this year from January 2024 but I’m still applying and although heart broken I carry on pushing forward preparing and going ahead.  Something has to give way.",
+          "score": 13
+        },
+        {
+          "body": "I have 3 friends in data analytics all of whom haven’t found a job in over a year. I hate to believe that AI has taken this job away for good, but it feels that way to them.",
+          "score": 6
+        },
+        {
+          "body": "You should never be disheartened that you didn't get past the first round for big companies like Amazon, especially if you don't have any experience which it sounds like you don't in the comments.  You should be happy that your resume was good enough to warrant their attention in the first place. \n\nWhy not apply for more practical places until you get some experience so you can start believing in yourself.",
+          "score": 5
+        },
+        {
+          "body": "I work in data analytics, but I sold cars before moving into that industry. I noticed that my ability to communicate in general skyrocketed after getting that experience. That goes for interviews as well. I interviewed for my current position as an analyst 3 months before I got hired for it. That's how long they deliberated over my application, and I think it's also a testament to how well I did in that initial interview.\n\nI don't think you should go sell cars necessarily, but it might help to get some kind of speaking experience. Maybe just go to some bars and hit on people every night until you get desensitized to rejection?",
+          "score": 5
+        },
+        {
+          "body": "The main question is how did you get 10 interviews in 2024",
+          "score": 3
+        },
+        {
+          "body": "Have you asked any where you were lacking? You’re only going to learn if you ask.",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "title": "Art Tatum's voice in interview and on record",
+      "body": "https://open.spotify.com/playlist/7C2rEUdccXFCX0dUtqjj6T?si=RAyg8nnrSvmClabVH1AvQA\n\nhttps://m.youtube.com/watch?v=7UtIFjvMwO4",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1jfivzs/art_tatums_voice_in_interview_and_on_record/",
+      "comments": []
+    },
+    {
+      "title": "Interview preps",
+      "body": "Can someone tell me any good interview coaching online for freshers?",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/14zdkq9/interview_preps/",
+      "comments": [
+        {
+          "body": "Interview boss podcast on Spotify",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "What is it like working at Spotify",
+      "body": "Spotify is my dream company to work for, the browser, desktop and mobile products they make are incredible and they are constantly bringing out features that affect the way we use music.\n\nDoes anyone have any stories from the company, was it a good work environment, how was the interview process, where are they most active in the world. \n\nWould love to hear your thoughts on the company as a dev.",
+      "subreddit": "cscareerquestions",
+      "score": 19,
+      "url": "https://reddit.com/r/cscareerquestions/comments/wxc2ow/what_is_it_like_working_at_spotify/",
+      "comments": [
+        {
+          "body": "The company itself is pretty chill, everyone is actually super friendly. Of course like every other company, it isn't ALL sunshine and rainbows. \n\nInterview process are pretty standardized.\n\nRemote friendly and same pay scale in the US whether you're in NoWhere, Nebraska or New York.",
+          "score": 20
+        },
+        {
+          "body": "Check on blind for a lot more answers",
+          "score": 5
+        },
+        {
+          "body": "Everyone passes on the ticket to improve the shuffle feature.",
+          "score": 4
+        }
+      ]
+    },
+    {
+      "title": "Got an interview with Spotify NY in a week? Any advice or your experience is welcomed?",
+      "body": "As the title says I have an interview coming up soon and I was wondering if anyone had any advice or could share there experience going through the process? \n\n1. Did you feel they cared more about getting the correct answer or more about your thought process?\n\n2. Were they silent or did they chime in when you got stuck? \n\n3. If you did not get an offer what do you think you could have done better or where do you believe you messed up?\n\n4. How many teams did you interview with? How many technical and behavioral?\n\nI was told the interview will be a few hours. DM's would be appreciated on what questions they asked lol. ",
+      "subreddit": "cscareerquestions",
+      "score": 77,
+      "url": "https://reddit.com/r/cscareerquestions/comments/64s6o4/got_an_interview_with_spotify_ny_in_a_week_any/",
+      "comments": [
+        {
+          "body": "Stop trying to cheat, Frank. ",
+          "score": 102
+        },
+        {
+          "body": "ITT: Ya'll are vultures lol.",
+          "score": 35
+        },
+        {
+          "body": "[deleted]",
+          "score": 10
+        },
+        {
+          "body": "glassdoor will have some interview questions. also google spotify puzzles. ",
+          "score": 6
+        },
+        {
+          "body": "I talked to them once​ but the recruiter made it clear they would not pay any relocation costs, which was a deal breaker for me. Just FYI.",
+          "score": 6
+        }
+      ]
+    },
+    {
+      "title": "Onsite Interview for Spotify Data Engineering Internship",
+      "body": "Has anyone heard back about receiving an onsite interview for the Spotify Data Engineering internship role?",
+      "subreddit": "cscareerquestions",
+      "score": 7,
+      "url": "https://reddit.com/r/cscareerquestions/comments/5hiwyl/onsite_interview_for_spotify_data_engineering/",
+      "comments": [
+        {
+          "body": "hey spotify is my dream company. congrats on making it that far! how was your recruitment process?",
+          "score": 2
+        },
+        {
+          "body": "Hey! I just saw this searching the subreddit and was wondering if you had any advice? I'm interviewing for the backend this coming week; the recruiter said it'd be a 30 min google hangout with an engineer but thats it. How did your other interviews go?!",
+          "score": 1
+        },
+        {
+          "body": "will do!",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Is Spotify a super picky employer or have I gotten unlucky?",
+      "body": "I have 2YOE as a SWE and have spent the last year with a well known company and have had no problem getting interviews with nearly every job application to FAANGs and get recruiter mail constantly, but every application I've submitted to Spotify has gotten a rejection email at the first step. This is across 5-6 applications over the course of the year for positions I'm qualified for.\n\nI know better than to stan a company, but I have a music degree as well that I'd like to be at least tangentially useful. Is anyone familiar with Spotify's hiring process and why they may be considerably less interested in a mid-level engineer vs other companies?",
+      "subreddit": "cscareerquestions",
+      "score": 297,
+      "url": "https://reddit.com/r/cscareerquestions/comments/x2vptz/is_spotify_a_super_picky_employer_or_have_i/",
+      "comments": [
+        {
+          "body": "Spotify has way less total employees than other FAANGs, which means they hire way less.\n\nIf you apply to Amazon or Google or Meta or MS or etc there are hundreds and thousands of openings and more opening up all the time. Spotify has no where near that many.\n\nI'd guess most FAANGs have close to as many open positions as Spotify does employees.",
+          "score": 468
+        },
+        {
+          "body": "Iirc spotify is fairly picky and tends to lean towards more senior hires. I'd try getting an interview through a recruiter on linkedin next time\n\nIn addition to that it may be a slow hiring year for spotify (not based on anything, just another possibility)",
+          "score": 204
+        },
+        {
+          "body": "I work for FAANG, I have 5y of experience. I made a custom Spotify resume. Got refered by a friend that works there only to get generic rejection email.",
+          "score": 72
+        },
+        {
+          "body": "I applied yesterday for a senior position (data science) that based on their job description, I was borderline over-qualified for. \n\nI got a rejection email at 7am this morning. \n\nI didn't think much of it until I saw this post. Makes me wonder if they're just mass-declining at this point and not actively trying to fill this positions as much as advertised.",
+          "score": 84
+        },
+        {
+          "body": "[removed]",
+          "score": 98
+        },
+        {
+          "body": "Hey sorry I have nothing helpful to add but just wanted to say that I think its very cool that you have a music degree besides the CS one",
+          "score": 151
+        }
+      ]
+    },
+    {
+      "title": "Applying for Jobs After Finishing Bootcamp and some Projects",
+      "body": "I've all but finished Angela Yu's bootcamp on Udemy and have finished other Udemy courses for Playwright and REST Assured, I've also learned some Selenium.\n\nI still have to finish the Cypto Token and NFT modules on the bootcamp, but those are specific topics that I don't think are all that necessary tbh - but good to know.\n\nI've created a portfolio and a couple basic projects: \n\n* A basic crud app for movie search - far from perfect though. Just something to integrate a database with\n*  A spotify web player that uses the spotify web dev API, a lot more in depth project with some better front end code.\n\nI have some other projects I plan on doing like a React website and some automation frameworks (going to create a framework for spotify's API using PyTest or REST Assured and something front end using selenium/playwright)\n\nI've been doing some leet code problems as well for interviews. I've started a masters CS program at Georgia Tech OMSCS.\n\n**But my main question is: what will actually get me into those interviews?** Any specific projects or things to include on my resume? I've been applying for QA Analyst and QA engineering roles to no avail. I guess I could apply for software engineering positions, but not too confident I'll get many or any responses.",
+      "subreddit": "cscareerquestions",
+      "score": 5,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1l9wual/applying_for_jobs_after_finishing_bootcamp_and/",
+      "comments": [
+        {
+          "body": "You probably wont get a single interview until you're done with OMSCS.",
+          "score": 46
+        },
+        {
+          "body": "Here's what'll get you an interview:\n\n\n1. Network. Not like a coffee chat with someone, but like you've delivered value to them somehow already and they're willing to take a gamble on you. To get my first job out of a boot camp I took a gig stocking shelves in a warehouse at a tech company, networked my ass off for a year internally, and got hired into the next junior role they had.\n\n\n2. Build useful things. Not a movie rating app, build something that you could charge money for. In fact, if you can actually monetize it, that's the best case scenario. Ideally, you'd build something that confronts some of the more challenging problems in web design. An app that solves caching problems with real time interactivity across users is cool and shows something, but your movie rating app won't count for hardly anything.\n\n3. Don't go remote. Anyone in the world can compete for a remote job, so it's orders of magnitude harder to stand out. Apply for in-office jobs with local companies who can meet you face to face. It filters out the competition and let's you make the process a little less sterile.\n\n\nHonestly, if you're 100% self taught, you need a bangin project. Even with boot camp programs you get some kind of \"OK, they know *something*\" assurance. If you're self-taught using online resources (which is what I would consider Udemy) you're going to need to be able to show some good work.\n\n\nThe good news is that if you *can* show good work, I think a self-taught dev that can build is always going to be viewed more favorably than a boot camp dev who can build, just because self-taught takes some grit.",
+          "score": 3
+        },
+        {
+          "body": "Portfolio: [https://www.ryanburnett.dev](https://www.ryanburnett.dev)",
+          "score": 6
+        }
+      ]
+    },
+    {
+      "title": "Spotify 2020 Internship Thread...",
+      "body": "Has anyone heard back from Spotify for the summer 2020 internships, I haven't heard anything, and it's been radio silence from recruiters, I'm getting pretty anxious about it lol...I know they have a weird way of recruiting that take forever, from my understanding they won't start letting people know about interviews until later this month / next month...",
+      "subreddit": "cscareerquestions",
+      "score": 12,
+      "url": "https://reddit.com/r/cscareerquestions/comments/e8dz61/spotify_2020_internship_thread/",
+      "comments": [
+        {
+          "body": "Its vacation season. Wait till January and February to get any kind of response.",
+          "score": 7
+        },
+        {
+          "body": "Didn’t they send out a timeline detailing exactly when they’re going to start responding to applications at each stage?",
+          "score": 4
+        },
+        {
+          "body": "Lol it’s funny because I haven’t even started applying yet.",
+          "score": 3
+        },
+        {
+          "body": "[removed]",
+          "score": 3
+        },
+        {
+          "body": "I applied for the Toronto marketing position and have gotten absolutely nothing. For everyone here stressed because they haven’t replied yet, at least we’re all going through the same thing so you know it’s not something about your apllication",
+          "score": 4
+        },
+        {
+          "body": "They canceled their London Software Engineer Internship",
+          "score": 4
+        },
+        {
+          "body": "Did anyone who applied for a NYC position get an email saying when decisions would be released? I applied for three NYC positions and haven't heard anything since November",
+          "score": 4
+        },
+        {
+          "body": " https://twitter.com/Spotifyjobs/status/1217030021036040192?s=20",
+          "score": 4
+        }
+      ]
+    },
+    {
+      "title": "Possible Competing Offers Advice?",
+      "body": "So X company has just given me an offer for a SWE intern and it's fairly nice think Spotify, TikTok size but the thing is l've interviewed with a FAANG company Y which I highly prefer. I'm like 95% sure I got an offer because I solved the tech optimally with lots of remaining time and just had a conversation with the interviewer. But this FAANG takes super long to get back so l'm still waiting. I have high hopes but not certain.\n\nSo to be professional should I ask to extend my offer acceptance? or would this look poor? I also think I would definitely burn bridges by accepting the X company offer and then leaving once I get the Y FAANG company.\n\nAnyone been in a similar situation and can provide advice?\n\nTLDR: Company gave me offer but I prefer FAANG company which I'm sure will accept me but am still waiting. how should I go about this?",
+      "subreddit": "cscareerquestions",
+      "score": 2,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1i8ljvc/possible_competing_offers_advice/",
+      "comments": [
+        {
+          "body": "Asking companies for some more time to consider their offer is very common. You don't need to explain *why*, you don't need to say you're waiting to hear from other companies, or that you're even interviewing within anyone else. \"I need some more time to decide\" is perfectly vaild. If they dig deeper (none of their business) you can just say something like \"This is a major moment in my career, I just want to make sure I have time to think things over before making a decision\". Totally valid.\n\nAt least in my experience when asked they'll toss you at least an extra few days, unless their recruiting strategy is to purposefully rush you into a decion, in which case that's a pretty big red flag.\n\nAs for accepting and then reneging, it'll absolutely burn a bridge with X company. The question is do you care? There's an endless sea of other companies out there. Burning a bridge with one doesn't put you on some industry-wide blacklist.",
+          "score": 4
+        },
+        {
+          "body": "Let them know you have another offer this is normal. But do accept your first internship offer make sure you have something on lock. If you get your faang offer you just let the first company know that you will have to take away your acceptance. It’ll be fine this happens all the time",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Demotivated after the new Spotify feature is exactly the same as the side project I've been working on for weeks . Advice?",
+      "body": " Hey guys,\n\nI'm currently a college student in my 2nd year trying to develop side projects to put on my resume to apply for this years round of summer internships. I currently have only developed two side projects one being a Carbon Footprint Calculator website and my current project which is an app that takes two users playlists on Spotify and creates a new playlist with all the common songs between the first two playlists.\n\nI have finished making the webpage using HTML, CSS, and developed the back-end using python with the help of Spotify's spotipy API. I've been working on it for weeks, and was ready to deploy it yet as it's fully functional.\n\nHowever with just my luck, Spotify themselves just came out with a new Blend feature which does exactly what my app does but better. I am devastated, and demotivated. This is especially demotivating since this is one of my first projects and I was excited for it to be a very solid project on my resume to help me land an internship. Now that Spotify released this feature I feel as if this project lost a significant amount of relevance and impact and that all my effort has gone to waste.\n\nThat being said, I am still very proud of myself for creating it and I've learnt a lot about API's and front-end development through this project. I was also wondering if this is a project still worth putting on my resume to apply for internships.",
+      "subreddit": "cscareerquestions",
+      "score": 57,
+      "url": "https://reddit.com/r/cscareerquestions/comments/rbmrmx/demotivated_after_the_new_spotify_feature_is/",
+      "comments": [
+        {
+          "body": "I understand the frustration but as a college student, implementing a feature even close to the complexity of blend is impressive, as you can be sure that dozens of programmers collaborated together to implement that at the company.\n\nYou have to ask yourself why you implemented that project. Is it because you wanted to create a revolutionary feature and sell it to Spotify for millions? Maybe, but it sounds like more you wanted to build something interesting and fun that would make you a better programmer and might even be something you’d use.\n\nIf that rings true at all, you should still finish your project and it will still be impressive to share with recruiters.",
+          "score": 144
+        },
+        {
+          "body": "could honestly be a plus point to make interviewers laugh \"so I started developing this project in may, then guess what happened? Spotify released their blend feature right before I was about to finish!\"",
+          "score": 90
+        },
+        {
+          "body": "Any working project is worth putting on your resume if it applies to the job.\nEven if it's an existing feature. It shows your knowledge and willingness to understand how applications work and  maybe even improve on them.\n\nMade an app that is basically the same as instagram? Made a website that's basically a copycat of ebay?\n\nPut it all in your cv. When asked, you tell them you wanted to understand the process of making something like xyz.",
+          "score": 28
+        },
+        {
+          "body": "[deleted]",
+          "score": 17
+        },
+        {
+          "body": "Side projects especially in college don't have to be new and unique. It's still impressive and demonstrates to hiring managers that you can do the work. That is what is most important. You may be able to think of a few things that enhance or improve features.",
+          "score": 15
+        },
+        {
+          "body": "It is very frustrating indeed, but look at a bright side - you thought of a feature and Spotify building it pretty much validates your thinking and is a great feedback for your strategic planning. Also a great point to mention on the interviews!",
+          "score": 9
+        },
+        {
+          "body": "Why are you demotivated… that makes little sense. Were you going to generate income with that feature? Not really. My friend already finished the same exact feature and used it on my playlist. I don’t understand.\n\n\nListen man, job interviews are all about how you tell a story. Just spin it as a positive.\n\nMore importantly, I know you’re young and self confidence is low. But come on man, learn to be nicer to yourself. You’re your own roommate 24/7 right? Learn self compassion please. It will be more beneficial than this project ever will be.",
+          "score": 6
+        },
+        {
+          "body": "It's not an issue unless you make it one. No one will care, people clone websites for projects all the time. It's about the technical experience you get, not the actually feature.",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "title": "Big N Discussion - July 14, 2019",
+      "body": "Please use this thread to have discussions about the Big N and questions related to the Big N, such as which one offers the best doggy benefits, or how many companies are in the Big N *really*? Posts focusing solely on Big N created outside of this thread will probably be removed.\n\nThere is a top-level comment for each generally recognized Big N company; please post under the appropriate one. There's also an \"Other\" option for flexibility's sake, if you want to discuss a company here that you feel is sufficiently Big N-like (e.g. Uber, Airbnb, Dropbox, etc.).\n\nAbide by the rules, don't be a jerk.\n\nThis thread is posted each **Sunday and Wednesday at midnight PST**. Previous Big N Discussion threads can be found [here](https://www.reddit.com/r/cscareerquestions/search?q=Big+4+Discussion&amp;restrict_sr=on&amp;sort=new&amp;t=all).",
+      "subreddit": "cscareerquestions",
+      "score": 8,
+      "url": "https://reddit.com/r/cscareerquestions/comments/cd05tc/big_n_discussion_july_14_2019/",
+      "comments": [
+        {
+          "body": "is this not stickied on sundays anymore?",
+          "score": 5
+        },
+        {
+          "body": "Company - **Amazon**\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/cscareerquestions) if you have any questions or concerns.*",
+          "score": 2
+        },
+        {
+          "body": "Company - **Netflix**\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/cscareerquestions) if you have any questions or concerns.*",
+          "score": 2
+        },
+        {
+          "body": "Company - **Microsoft**\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/cscareerquestions) if you have any questions or concerns.*",
+          "score": 1
+        },
+        {
+          "body": "Company - **Google**\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/cscareerquestions) if you have any questions or concerns.*",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Looking for advice",
+      "body": "Hi all! I started learning programming about two years ago now. I’ve been primarily working with JavaScript, HTML, CSS, React, a bit of C# and ASP.NET Core, some PostgreSQL and Docker. I’ve done all of this in my own time whilst working full time but have thus far been completely unsuccessful to get so much as an interview for any job applications. \n\nI have a portfolio site where I’ve got some of my projects linked alongside my LinkedIn and my GitHub. Currently, I’m working on a project that uses Spotify’s web API. \n\nI live in Australia and at this point I am considering going back to uni to do a bachelor of IT majoring in comp sci because I don’t know how else to reach my goal of a career change. I had looked at doing a graduate certificate in IT since I already have a Bach in psychology, but I’m not sure if that’s the right move either. \n\nWould anyone have any advice? I really feel like I’m grasping at straws after 2 years of learning but no sense of progress to actually changing careers. Open to anything has to suggest!",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/186jyyw/looking_for_advice/",
+      "comments": [
+        {
+          "body": "Post your resume. \n\nA university degree in CS seems to be used as an easy way to screen candidates these days.  It would be useful to have, that doesn’t guarantee more interviews though.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "I keep finding myself at companies that make me want to tear my eyes out. Am I a terrible programmer, or what?",
+      "body": "Hi all, I went to a typical 4-year university for CS, and I'm now working as a software engineer in the greater Philadelphia area of the US. I've been in the industry for about 4 years. There are a fair amount of interesting companies to work for around here, but I can't seem to break through to the good/interesting jobs. \n\nFor the first 2 and a half years I was at a consulting company where I was the only programmer and we didn't use version control. Somehow I clawed my way out of that mess and into the \"innovation\" department of a big healthcare company, where we used React but there were essentially no external stakeholders for any of our projects and everything we did was meaningless. The director-level people had no idea what they were doing and pushed my manager out the door, who was the only competent technical manager in the organization, then they left his position vacant. I was there for a year.\n\nI switched to another large company, and I've been here for several months. I was told during the interview that our team is doing both AngularJS (eek) and React apps, but I liked the team and the work seemed meaningful.\n\nTurns out my boss and I are the only senior-ish engineers working on the AngularJS app. One of the other guys left, and the other one doesn't do angular anymore because he's been there for 5 years and can do what he wants. I assumed it was a foregone conclusion that we'd be upgrading the angular app to react, perhaps using the strangler pattern or some such thing, but instead we're piling shit code on top of shit code because OMG WE NEED TO DELIVER VALUE IMMEDIATELY. We're also trying to emulate Spotify and switched to the \"Squad model\", which made everything 10x worse. Now my boss has no leverage to have us work on tech debt, while I'm blindly executing on product's asinine backlog with no end in sight. The only recourse I have in this job is a new greenfield project that my boss is trying to transition me onto, and the fact that they recognize I'm executing above my pay grade and gave me a raise already.\n\nTL;DR: I keep finding myself at companies that make me want to tear my eyes out. Am I a terrible programmer, or what? How do I find companies that employ smart people to solve interesting problems? How do I do well on those interviews?",
+      "subreddit": "cscareerquestions",
+      "score": 148,
+      "url": "https://reddit.com/r/cscareerquestions/comments/8sduw4/i_keep_finding_myself_at_companies_that_make_me/",
+      "comments": [
+        {
+          "body": "A job interview is two sided.  You're not just trying to impress/trick the company into hiring you, you should also try to find out if the role is right for you.  Figure out what you've liked and didn't like about the jobs you've had so far and find questions to ask about those topics.  If you don't get the answers you need during the interview and they give you any offer, follow up with those remaining questions before accepting.   And be willing to say no to a job offer that isn't right for you.",
+          "score": 146
+        },
+        {
+          "body": "[deleted]",
+          "score": 154
+        },
+        {
+          "body": "First I think it would be helpful to network. Talk to people who have jobs they like and find out why. If it sounds like a fit try to get a referral at that company. \n\nIf you don’t know anyone at a company, but it’s a company you are interested in, find people on LinkedIn and send them a message to ask them about their experience there. You can also get referrals from them after chatting with them. \n\nAlso take time to figure out what you like and don’t like about all your jobs and make a list of questions to ask in interviews that reflect these things. ",
+          "score": 26
+        },
+        {
+          "body": "The first job not using version control is on you if you were the only programmer.",
+          "score": 21
+        },
+        {
+          "body": "You’re probably not a terrible programmer, this just sounds like Philly to me. I’ve been here for 15 years and the big companies (especially those that aren’t “tech” focused, I.e. healthcare, insurance) don’t really get development. I’ve probably spent 2/3s of my career in companies that were still trying to figure out their development methodology, because of conflict between IT and the rest of the business. \n\n\nHang in there, sounds like a pretty typical experience to me, and I’ve worked all over the area, so feel free to PM if you have any questions about a position or are looking for another gig or something. Good luck!",
+          "score": 11
+        },
+        {
+          "body": "&gt;[I was the only programmer and we didn't use version control.](http://i0.kym-cdn.com/photos/images/original/000/897/718/c5f.gif)  \n\n\n&gt;[there were essentially no external stakeholders for any of our projects and everything we did was meaningless.](http://i0.kym-cdn.com/photos/images/original/000/897/718/c5f.gif)  \n\n-------------------------------------------\n\n&gt;we're piling shit code on top of shit code because OMG WE NEED TO DELIVER VALUE IMMEDIATELY. We're also trying to emulate Spotify and switched to the \"Squad model\",  which made everything 10x worse. Now my boss has no leverage to have us  work on tech debt, while I'm blindly executing on product's asinine  backlog with no end in sight.\n\nOK, let's focus on this one because that's where you still work. You can improve things, but it will take commitment and patience, and the uncomfortable subject of pushing back against asinine requests, as you work for incremental improvements over time. You've essentially got to train your managers and your users to make more intelligent use of your time so that they get more out of you. Done right, everybody will win: they get what they need and get it faster, you get to work on interesting things and have the satisfaction of delivering value.\n\nRather than explain it all myself, here's some resources. The first link can be read within about 8 hours' time (spread it out over a week?), and there's about 2 hours of video in total.\n\n* [Read this](http://www.laputan.org/mud/) about why code turns into \"shit code on top of shit code\" and how to start improving things (ignore the terrible formatting; it is very old but never becomes irrelevant)\n* [Watch this](https://www.youtube.com/watch?v=gnk86UQ0j0I) because it sounds like you're in a feature factory and this will give you some hope for the future\n* [Watch this](https://www.youtube.com/watch?v=OXUNeAHBSMY) about how to move forward from being feature factory to delivering value\n* [Watch this](https://www.youtube.com/watch?v=4b-HN00X4F8) about working with the people who are making all of these requests, to ensure you are doing the most important work and not just \"blindly executing on \\[the\\] backlog\"\n* [Watch this](https://www.youtube.com/watch?v=gGTOPoxVFsE) about pushing back against managers' unreasonable requests politely (e.g. infeasible deadlines, features that don't make sense), but be aware that every so often you'll still be forced to do something stupid... it happens to everyone\n\nAlso consider more of a SCRUM approach than Squad, because this will help you to work on important things instead of just prioritizing by FIFO.",
+          "score": 10
+        }
+      ]
+    },
+    {
+      "title": "Looking for a bit of guidance toward the field of UX",
+      "body": "Hello\n\n\n\nI come to you humbly looking for a bit of advice, maybe some guidance, gentle nudging, aggressive nudging etc. Don’t be too mean, but honesty is fine.\n\n\n\nSome background. I’ve been working in trades since 2010. I have a finishing-type job so it pays decently and the work is always top quality. The thing is, is that it’s always been a means to an end to me. I guess that most jobs are when it comes down to it. It pays the bills, has allowed me to travel the world, and has given me agency generally speaking. However, I’ve never identified with being a tradesperson as the culture surrounding it has always really turned me off. I also know that you aren't your job, but mentally I need something different. I’ve stayed in it all this time because it has always paid me more than anything else would have. It’s comfortable. But I’ve reached the ceiling of what I can be paid in my current position and I’d be lying if I said I didn’t want to make more money. Life is expensive. In the summer of 2019 I was laid off from an amazing 3 year long job and decided to mentally regroup. \n\n\n\nI understand that this is cliche to say but I’ve always been comfortable around computers. I’m sure I was doing all of the same stuff that most of the kids my age were doing at home in the late 90’s or early 2000’s with their family Dell tower and monitor. Changing settings on Windows 97 - XP, downloading software my parents has no idea about, adding Simpsons and Monty Python sound bites to error and general notifications, and exploring everything photoshop had to offer. The list goes on. Nothing crazy but modifying and editing things was easy, exciting, and fun. Sort of feels like a humble beginning.\n\n\n\nFast forward - \n\n\n\nIn September of 2020 I started a software development certificate program through a very reputable technical school which finished in May of 2021. While I worked on the Java pre-req course the summer leading up to the program, though I struggled, I felt my brain getting really great exercise and I was really excited to be heading back into school, to be around others in a classroom collaborating and learning. At that time it was a toss up whether or not the school would hold actual in-class sessions. At the last minute they decided to hold off for public safety as we all know and experienced.\n\n\n\nUnfortunately for me the program went completely online, which we all adapted to and it actually ended up working out fine. The course covered everything from HTML, CSS, and JavaScript, to Angular, React, and Vue, to SQL and NoSQL, to NodeJS, .NET, MVC and API frameworks, mobile development in ReactNative, Kotlin, and Swift, and cloud app dev. It was a heavy load but I made it through and loved every minute of it, the stress included because the satisfaction of completing something newly learned felt amazing. I don’t know if the existing bootcamps at the time were covering this much ground in shorter periods of time or even if the remaining ones do, but this program felt robust, though there were some pitfalls with certain instructors along the way. What I’m trying to say is, is that I feel lucky to have chosen this program over a bootcamp. It felt more official and less like an easy way into the industry. \n\n\n\nImmediately after the program I applied to jobs like mad. I also connected with old friends who worked for tech companies and ended up getting a few, maybe five, interviews over that summer with different companies but nothing panned out and I was hemorrhaging money trying to pay rent and live while being unemployed and job searching. I had to go back to my old trades job because financially I didn’t have a choice.\n\n\n\nI kept practicing coding here and there but in the day to day that drive slowly withered away and I lost myself back in my old job as physical work is tiring. Last year, in 2023 I had an epiphany that during the program I always ended up being the person in group projects who began the process doing UML’s, user stories, and general user research. Continuing that I ended up leading the user interface design of every project and would hop in where ever needed to help with coding. So naturally I’d always fallen into a user experience type of role, trying to figure out the end user so the project made sense when it came time to present it. I’m fine at coding, I can manage and if I had a UX job I would know how to relay information with a developer, but I really truly jive with user experience. Since that epiphany I started to see the results of UX all around me. From things like the way dashboards and centre consoles in vehicles are laid out to how Spotify or Apple Music allow you to navigate seamlessly through their apps. Maybe Spotify less so. I love this type of problem solving because I’m inherently very organized and clean in my physical life because I really need to have that flow in the day to day. I love love love anything design, be it interior room design, any and all types of art, graphic or otherwise. Colour gets me excited, but it all starts with user experience and again, I really jive with it. \n\n\n\nSo I’m here now, currently in the middle of a self-paced online UX certificate and am planning on starting the Google cert immediately after to really hammer the UX lifecycle of learn, design, build, test and repeat into my head. I \\*really\\* wish I had nailed down some sort of a job, be it front end dev for example, after I graduated so that I’d have had that much experience at one or two companies up to now but sadly that’s not the case and the industry is far far far worse for getting a foot in the door than it was even when I started the program in 2020. For a short time I considered shifting my learning to cyber security as an alternative because of general demand.\n\n\n\nI’m still feeling very driven and motivated to become a UX designer / researcher and my end goal - a Product Designer. I try my hardest not to let negative posts effect my mental state in terms of where I want to be, but I’m here looking for a bit of advice, maybe some guidance, a gentle nudge, or an aggressive nudge toward my goal. I’ve read far too many posts about the reality of the industry and its potential irreversibility but I feel like with enough positivity and want / drive, cold reaching out to UX designers for guidance, anything could be possible. I know in my heart that I’m not meant to be in trades forever.\n\n\n\nAs a post script, I will say that I have two, possibly three what I believe are well rounded and quality case studies that I am planning to build out and go forward with in my own time to add to my portfolio, but from there, other than rifling off resumes into the void as someone with no real world experience and starting the Google UX cert to add to my repertoire I don’t really know how to get my foot in the door. \n\n  \nIs there anything I can do to better my chances?\n\nAre there any UX adjacent job titles I could be applying for?\n\nAre there any other job titles that aren't inherently UX that I could eventually pivot out of into UX?\n\n  \nThank you for reading this far.\n\n  \nTL;DR - I've work in trades most of my adult life which I've never identified with, I took a software development program at a tech school, I'm passionate about UX but I'm looking for a bit of guidance on ways that can help me proceed into the field or something adjacent. ",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1gyfhci/looking_for_a_bit_of_guidance_toward_the_field_of/",
+      "comments": [
+        {
+          "body": "The main issue with UX is that with few notable exceptions, nobody focuses on UX as much as they should. So what you're referring to happens a lot less often than it should. Hence most UIs plain suck.\n\nA few industries do take UX seriously. Automotive, aerospace, medical devices... But your middle of the run insurance company or bank? Nothing as fancy. Actual software people use? Nope. \n\nAlso depending on experience and background, there's a lot of UX research work especially in niche areas where you really want to do it right. This often involves more engineering based analysis, lots of prototyping... I spent a year researching the impact of talking to a voice recognition system while driving. Beyond fun (used an articulated vehicle simulator and such). \n\nProduct design is a tough one. The ones I worked with were all industrial design types with lots of successful products in the market.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "[Coronavirus/Recession Megathread] + Daily Chat Thread - May 20, 2020",
+      "body": "#[Coronavirus (COVID-19) + Economic Downturn Megathread click here](https://redd.it/fjhra3)\n\nPlease use this thread to chat, have casual discussions, and ask casual questions. Moderation will be light, but don't be a jerk.\n\nThis thread is posted **every day at midnight PST**. Previous Daily Chat Threads can be found [here](https://www.reddit.com/r/cscareerquestions/search?q=Daily+Chat+Thread&amp;restrict_sr=on&amp;sort=new&amp;t=all).",
+      "subreddit": "cscareerquestions",
+      "score": 3,
+      "url": "https://reddit.com/r/cscareerquestions/comments/gn6m0e/coronavirusrecession_megathread_daily_chat_thread/",
+      "comments": [
+        {
+          "body": "So my internship was rescinded in early April. I was still applying but most companies have cancelled their internship programs.  \n\nAnyways after moping around for a bit, I am on to a different dilemma now. I can take 3 summer courses and 15 credits in the fall and graduate this fall semester or I can still graduate next Spring. I was wondering if it would be better to graduate in the Fall with this pandemic going on or should I just bide my time at school and just graduate in the Spring?",
+          "score": 2
+        },
+        {
+          "body": "At what point is it suitable to list a language on your resume?\n\nI have several years of experience and graduated in 2016. I've taken C++ courses in school, so I did learn about it's nuances such as memory allocation, how pointers work, stack vs heap, etc. But I've never worked with it professionally, and I took the courses several years ago, so I'm pretty rusty. Would it be dishonest to put it on my resume?",
+          "score": 3
+        },
+        {
+          "body": "I had a second interview today and absolutely bombed the technical questions. It was humiliating and embarrassing. I just want to craw under a rock and die",
+          "score": 7
+        }
+      ]
+    },
+    {
+      "title": "Meditation has greatly helped me get over nerves and anxiety and perform at my best during interviews",
+      "body": "I have repeatedly failed interviews even when I was more than prepared for the technical interviews. I would get super nervous and end up screwing problems that I very well knew how to solve.       \n      \nFollowing are some of the noticeable symptoms. I'm sure some of you would be able to relate.      \nZero appetite before the interviews      \nVery shallow breathing        \nFailure to recall simple concepts     \nBlanking out       \n         \nWhat eventually helped me was regular meditation (even if it's 10 minutes) over the last 2 months. It has helped me become very outcome independent and focus on only one interview at a time. And, somehow this has translated to a more relaxed approach during the interviews where I have gotten an offer even when I haven't performed as well as the times when I did get rejected.      \n         \nI use an app called Headspace. It has 10 free meditation which is enough to get you started. But, I enjoyed it so much that I ended up buying an [annual membership on ebay](http://www.ebay.com/itm/152549653108?ssPageName=STRK:MESELX:IT&amp;_trksid=p3984.m1558.l2649). But, the free app would be more than enough as a start.           \n        \nAnother tip is to have confidence in whatever work you have already put in. I used to cram until the last minute but it just ended up making me mentally exhausted. It is highly unlikely that you can make a big difference in the last few hours before your interview. Instead, you'll be judged on what you have already learned in the past few months or years. So, take it easy and do your best. And, if it doesn't work out, make a note of what you could have done better and what you need to work on. Take every interview as a stepping stone towards success rather than failure or a judgment on your worth as a software engineer.        \n         \n  \nEdit: \nAs others have stated, you don't need an app to meditate. However, of all the multiple times that I have taken up meditation, this is the only time where I have actually stuck to the practice. There are various incentives in the app. For example, it keeps track of your current streak. There is no way I would have meditated for 60 days in a row without this small motivation to not break the streak. Also, it is satisfying to see your progress and total number of hours over a long period of time. Finally, you can also set random reminders in the app to be mindful and take breaks. I've noticed that this simple thing has encouraged me to take regular breaks and helped with improvement in my vision and posture. I usually do two 10-min sessions every day and feel significantly better after each session.        \n      \nI have had issues with insomnia in the past and I frequently use their Sleep pack to go to sleep. As an extra benefit, I've noticed a dramatic increase in the number of lucid dreams after practicing meditation early in the morning. Sometimes, I wake up abruptly at around 4 am and would end up meditating before going back to sleep.      \n     \nSome of the other worthwhile free apps mentioned below are Insight Timer and Aware. I have tried them and they are both wonderful. You can even check out meditation tracks on Spotify, Google Music and YouTube.",
+      "subreddit": "cscareerquestions",
+      "score": 191,
+      "url": "https://reddit.com/r/cscareerquestions/comments/6d3e4z/meditation_has_greatly_helped_me_get_over_nerves/",
+      "comments": [
+        {
+          "body": "Honestly, it's been one of the greatest benefits to me and my career as well. It's been a part of my daily routine for the past year or so and really does make a difference.\n\nLearning to clear your head and observe problems (technical or otherwise) with a clear mind is a massive benefit. I had some problems with anxiety before and they've significantly improved. \n\nIt's true that there's a lot of seemingly silly stuff tied to it that tends to turn people off. I was always dismissive of the \"mysticism\" aspects of it, but it means something different to everyone, I guess.  There's certainly a change that occurs in the way you observe things. It's difficult to explain, but coming out of that 20-30 minutes per day of feeling not quite asleep but not totally awake either is an incredibly refreshing feeling- similar to waking up from a full night of really good sleep.\n\nGuided meditation is a good place to start. I've never tried Headspace but know some co-workers (coincidentally, all back-end guys) who use it and have said good things. Another free alternative is Insight Timer for iOS, which is completely crowdsourced. Guided meditation is a good way to start in the beginning because it helps with the ability to disconnect your thoughts from your \"mind\", or at least pause them for a bit. It takes some practice but if you stick with it I guarantee you'll notice a difference. ",
+          "score": 29
+        },
+        {
+          "body": "Yeah I saw that app advertised on Facebook I think.I'm not really sure if you need an app and a membership fee to enable meditation. Literally just sit quietly somewhere for 20 minutes and you can do it.\n\nMeditation has immense benefits, but the problem with learning about meditation is that its often surrounded by a lot of woo hippy dippy bullshit, and CS people tend to be very logic oriented so it can be hard finding content that resonates with that mindset. If you start talking about opening your chakras a lot of CS people will be understandably turned off.\n\nStill I imagine there's great scope for general self-improvement type material within the CS community, since we're not known as being the most socially adept, happy or emotionally stable people around.",
+          "score": 10
+        },
+        {
+          "body": "Excellent tip!\nThis is an unconventional one, but another thing that helped me a lot was leading a game of Dungeons and Dragons (aka DMing). It gives you practice at improvising &amp; speaking in front of small groups, and the feeling of \"it's perfectly okay that I don't have a prepared answer for everything\". Plus it's a lot of fun :-)",
+          "score": 13
+        },
+        {
+          "body": "[deleted]",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "title": "When is a Personal Project Good Enough",
+      "body": " So  some background.  I graduated from UCI in 2020 with a Bachelor of  Science in Computer Science, but I was never very aggressive or  confident in myself in school.  Because of that i never secured any  internships or any professional experience in school.  Since then I have  only worked in part time positions in non tech fields from now and then  and haven't had any position in tech until now.  I have no confidence  in myself and I frequently drop personal projects cause I don't think  they would be worth it.  And that led to me having no updates to my  Resume since I graduated which I know looks really bad.  In addition, I  am really bad with connecting with people which I should be doing to get  myself into a coding community so most of my days is spent in  half-panic attacks worrying about how far behind I am getting without  actually doing anything.\n\nThe only  hope I can see is working on personal projects but I don't even know or  when to put it on my resume, cause in my eyes its all garbage.  Like I  want to quit searching cause I am start to feel like a waste of space,  but I haven't even gotten a job yet so I don't even know if I would make  it. So I am asking you guys about my stuff cause I don't have an  objective view of them.\n\nI have a python project that sort your Spotify Music into separate playlist based the BPM speed. [https://github.com/PhilipHuang2/BPMSort2](https://github.com/PhilipHuang2/BPMSort2)\n\nI  am making a website in python using Flask and Bootstrap that is this  sort of weird blog/Weather tracker hybrid where users can make posts,  track the weather of their favorite cities through an API and I am  planning on making a profile page of sorts to combine the two into this  weird Social Media amalgamation, but I don't know how to display it on  the website, so this is just the source code. [https://github.com/PhilipHuang2/Flask\\_Blog](https://github.com/PhilipHuang2/Flask_Blog)\n\nAnd here is my Resume that I haven't added in a while.\n\n [https://imgur.com/a/DcBdvBV](https://imgur.com/a/DcBdvBV)",
+      "subreddit": "cscareerquestions",
+      "score": 8,
+      "url": "https://reddit.com/r/cscareerquestions/comments/tf4dwv/when_is_a_personal_project_good_enough/",
+      "comments": [
+        {
+          "body": "Personal projects should be:\n\n* More complex than something I can find in a tutorial. So no Todo lists or Twitter clones.\n* They don't have to be completely novel, but should have aspects that are unique enough to warrant discussion. There has got to be something in your life that software could make easier.\n* Something you enjoyed doing.",
+          "score": 11
+        },
+        {
+          "body": "Cutting and pasting my answer from a similar question today.\n\n&gt;There's only two expectations about your resume in general if you have no work experience:  \n&gt;  \n&gt;\\- Do you have some relevant domain knowledge? The more you know, the less they have to explain to you or train you during the job or internship.  \n&gt;  \n&gt;\\- What can we talk about during the interview slot?  \n&gt;  \n&gt;For any given project, interviewers will look for at least one of the following:  \n&gt;  \n&gt;\\- What was the purpose of the project? Why is it of interest to you? Do you show any passion for the subject or customers?  \n&gt;  \n&gt;\\- What \"features\" did you work on? Did you only work on basic functionality? Were there any challenging technical aspects? If so, what was interesting/clever about your solution?  \n&gt;  \n&gt;\\- Is the project related to the job or internship? Having relevant exposure (a cloud project when interviewing for a cloud job, a ML project when interviewing for a ML job, or a hardware project when interviewing for a hardware job) can potentially make you a more appealing candidate.  \n&gt;  \n&gt;\\- How close is this work to \"real world\" experience? This won't get asked directly, but if you just added a feature or two for a class project, that is not the same as the many steps you have to go through to ship a hardened and tested feature to a customer. Requirements gathering, design, coding, performance improvements, debugging, functional testing, integration testing, scale testing, etc. and the related collaboration are important parts of working in a software development job. Your project doesn't need to have any of those parts, but the closer it is to that, the more there is to talk about.  \n&gt;  \n&gt;There's no project that will guarantee you anything, but the more relevant exposure you have and the more technical expertise you can show in any domain, then the smoother your interview process will be.  \n&gt;  \n&gt;To give a concrete example. Let's assume I'm only looking at two candidates with no working experience for working on a cloud service:  \n&gt;  \n&gt;\\- Candidate A: Has 6 projects using various cloud services from AWS.  \n&gt;  \n&gt;\\- Candidate B: Has 1 cloud service project. Has developed one free video game outside of work/classes.  \n&gt;  \n&gt;During the interview process, I'm going to interview candidate A and see what they did, what kind of problems they ran into (if any), what sort of performance or functional limitations (if any), what they would redesign (did they put any other thinking into it or just the minimum for the class/project), any problems with the APIs they used, and so on. I'd really be digging for any signs where they learned more or went beyond minimum effort.  \n&gt;  \n&gt;For Candidate B, I'd check about the cloud service project to see what they knew, but I'd spend only a small amount of time on that. I'd likely dig deeply into the free video game, and see what they could explain to me, why they made certain technical/business decisions, see how much enthusiasm they had for the project or certain aspects, etc.  \n&gt;  \n&gt;In both cases, I'd be judging to see their enthusiasm, self-motivation, technical prowess, etc. (and on the downside, bad attitudes, blaming others, etc.) based on the projects listed. The better I can see those positive traits in a candidate, the more likely I'd give the thumbs up for them on a job offer.",
+          "score": 8
+        },
+        {
+          "body": "I can’t comment on the other stuff, but I would redo your resume and then post it once a week in the stickied resume thread. Then update it based on feedback.\n\nBest of luck. Don’t let the job hunt get to you too bad. You just need to get lucky once.",
+          "score": 2
+        },
+        {
+          "body": "Hello fellow anteater. Im graduating in June. Would be happy to talk more!",
+          "score": 1
+        },
+        {
+          "body": "[deleted]",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Insight on how Spotify recruiters (in NYC) update SWE applicants after an in-office interview",
+      "body": "I had an in-office SWE interview and the recruiter told me I'd hear back by a certain date, but that date has come and gone and I'm starting to wonder if I'll ever hear back. It would be good to get some closure but a part of me is still holding out for good news. Is this typical recruiter behavior at Spotify and does it mean I didn't get the job? It's been one week since my interview. Should I send a follow-up email?",
+      "subreddit": "jobs",
+      "score": 0,
+      "url": "https://reddit.com/r/jobs/comments/ddun0c/insight_on_how_spotify_recruiters_in_nyc_update/",
+      "comments": [
+        {
+          "body": "Did you ever hear back?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Advice: Working in a SCIF",
+      "body": "What advice do people who currently work in SCIFs or have worked in SCIFs in the past have for someone brand new to it? I recently accepted an offer from a contractor and I showed up to the site today to meet the team to find out that it is in a SCIF. That info wasn’t in the job listing and wasn’t conveyed to me during my multiple interview rounds.  I’m not a person that can’t stand to be without my phone for periods of time, though I don’t like my wife and kids not being able to reach me immediately if I happen to be away from my desk. I also used my phone to listen to Spotify with my AirPods at work before.\n\nI’m not inclined to quit the job because the job market sucks right now, this job is pretty close to home, and the pay is fantastic. Therefore I’m just trying to make the situation as tolerable as possible.\n\nThanks!",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/1les47h/advice_working_in_a_scif/",
+      "comments": [
+        {
+          "body": "Just give your wife and kids schools the office number in case of emergency. For anything else you can check your phone for messages at lunch.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Got Rejected in 10 interviews in 2024",
+      "body": "I am looking for Data Analyst roles since January 2024 and it's almost end of the year. I got rejected in 10 first round interviews and some of them even ghosted me. Some of them were very big names like Amazon and Spotify. I am very disheartened and questioning myself that why I can't pass even first round.",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/1h1xwy0/got_rejected_in_10_interviews_in_2024/",
+      "comments": [
+        {
+          "body": "In a word: *competition*.\n\nIn a sentence: *There was likely too much competition*.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "This was the “next step” in the interviewing process",
+      "body": "I applied to this job some time ago. They just emailed me saying this is the “next step” to getting an interview.",
+      "subreddit": "jobs",
+      "score": 21,
+      "url": "https://reddit.com/r/jobs/comments/16t3uam/this_was_the_next_step_in_the_interviewing_process/",
+      "comments": [
+        {
+          "body": "Brutal. Horrid that they’ll probably get someone to do it too.",
+          "score": 17
+        },
+        {
+          "body": "Just copy and paste that ask into\nChatgpt",
+          "score": 12
+        },
+        {
+          "body": "I actually got this same thing from them a few days ago. Summarize an entire season of one of their shows, which you can only do by becoming a paying subscriber...",
+          "score": 8
+        },
+        {
+          "body": "Got sent something similar. No wonder they keep reposting jobs for their company on LinkedIn.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Is my job being flaky or am I over thinking? *HR IS INVOLVED*",
+      "body": "So sorry for the long rant but I am at a loss for words.  \n\n\nI started working at this non-profit 1 year ago. I was job hopping and had expenses to pay for and needed something more solid than my $9 an hour job (Part time). I settled for this non-profit work at $12 an hour when I started and barely scraped by. I recently got a raise of $14 an hour. I thought to myself: It's a part time job paying me $14 an hour?! Great! Perfect for my college.\n\n&amp;#x200B;\n\nWhat I do for them, is I go out to schools all over my area and teach the importance of self care, body image, and help students learn different communication tactics to help them speak out. We also cover topics regarding to general safety, good self care tactics, and cultural appreciation.(Sometime November of 2022 I managed to get an interview at a place that was willing to let me get experience with them as I have a college education and I will be finishing my degree very soon. so I put in my resignation to be effective May 31st 2023)\n\n&amp;#x200B;\n\nWe've had an overwhelming amount of staff quit on us, so a lot of part-timers have been asked to work outside of their normal hours. I have been transferred to a different department that covers schools that are further away from where I am. I was transferred because that side of my Outreach job had only one employee who desperately needed help. I was originally capable of covering the expenses:\n\n&amp;#x200B;\n\nBudget 01/05/2023\n\n&amp;#x200B;\n\nMonthly Income: $430 (Not including twitch and side jobs. That income is more a quarterly income rather than a monthly income)\n\nMonthly Gas: $80\n\nMonthly Tolls: $50\n\nFood and Shopping(strictly necessities): $120\n\nPet: $65\n\nRent to my parents(This is for schooling and helping to pay for water and electricity and internet): $100\n\nSpotify: $5.40\n\n&amp;#x200B;\n\nI had a surprise expense on my car and money I had spent over 5 years saving up was suddenly GONE. So I went to my bosses and informed them that I was unable to head out to the job locations due to that fact that I had no money to get gas.\n\n&amp;#x200B;\n\nFor those of you curious: The surprise expense was around $3,000 and was on my car's was general maintenance that had hit 130k miles on the odometer. It's a 2013 Hyundai Elantra and the mechanics did work on her :\n\nTransmission\n\nBrake lines &amp; Emergency Brake maintenance\n\nReplacement of Fluids\n\nTire Rotation\n\n&amp;#x200B;\n\nI asked my managers for a temporary raise. I have been with the company for almost a year and a half and I was only staying till May. I asked for $17, gas at the time in my area was very close to $3.00 AND I was driving on average 60 - 80 miles A DAY (Monday - Friday). I was refueling my 13 gallon tank a few times every 2 weeks as at one time I had to drive to a school that was over 2 hours away from me. (I get paid for these miles by clocking in for my commute there and back)\n\n&amp;#x200B;\n\nMy managers could not give me a raise as they did not have the budget for my position. Even with my plethora of experience (Management, task delegation, interpersonal communication experience, my initiative, Excel and Access, and well taken care of car.) But they said they would still pitch it to their supervisors. They got back to me about 3 days later, when I had to put in my 2 weeks notice due to impending bills that would put me in the negative. My current bank would've charged me FOR EACH DAY that it was negative. It had gotten so bad that I was -$200 at the time and when my pay check came through I only had $43 in my account to pay to my college... I felt hopeless and I had called around to other jobs to start working at those positions.\n\n&amp;#x200B;\n\nOther Conditions I have to deal with:\n\nI got abruptly ill due to new medications and abrupt hormone and chemical imbalances. So I had to pay for new health bills and medications. To start making ends meet, I had to start living back and forth between myself and my partner/Boyfriend (Male 27).(I call him my partner due to my spiritual beliefs .) The reasons for staying with him is because all the schools are anywhere between a 5 - 30 mile radius of him. I had a situation with my college as well appear and they canceled my subsidized loan and I had to get an unsubsuduized loan.\n\n&amp;#x200B;\n\nMy parents have a lot of medical bills they had to cover for themselves as well as they are currently moving houses so I had to pull a loan out from my school and all it has done is bought me time that I am running out of QUICKLY. So my parents cannot afford to help me cover my school bills this year. They also dropped the bomb shell of they want me to pay double my rent, health insurance, and car insurance for the next few months. As I should considering I am 23 with a cat... Bills have become so strapped for me I had to use my credit card that I have been struggling to pay off due to my new medical bills that my insurance would not cover...\n\n&amp;#x200B;\n\nNot to mention the emotional ware and tear that happens with a 23 year old has to deal with when moving away from their parents who are SUPER clingy and SUPER needy...\n\n&amp;#x200B;\n\nMy managers supervisor told me she had information on a potential Stipend. But my frustration is that the offers and agreements KEPT CHANGING. I will bullet point the offers in the order I was told with dates.\n\n&amp;#x200B;\n\n01/28/2023- There will be a $250 stipend applied at the end of EVERY PAY CHECK till your final work day.\n\n&amp;#x200B;\n\n01/30/2023- My 2 other co-workers got included into this offer.\n\n&amp;#x200B;\n\n02/01/2023- Myself AND my co-workers must be able to work over 30 hours to be able to qualify for the $250 stipend.\n\n&amp;#x200B;\n\nMyself and one other co-worker are documented as part-time workers as the non-profit is unable to apparently afford anymore full-time staff\n\n&amp;#x200B;\n\n02/16/2023- The email I got said: \"Pay $250 bonus in addition to hourly pay to \\*Co-Worker 1\\*, Myself and \\*Co-Worker 2\\* for every 10 additional days (based on 8-hour increments)worked beyond current schedule.\"\n\n&amp;#x200B;\n\nI have ask for clarification as the literal definition of what this email is saying to essentially work 80 hours EVERY 10 days. Which is impossible for me to do with the rest of my bills and jobs I am now juggling (3 at the moment, all side hussles for family managing their finances so I can have pocket money.)\n\n&amp;#x200B;\n\nThe supervisors response to clarify the information was to make a meeting early next week... the next pay check is early next week.\n\n&amp;#x200B;\n\nI am at a total loss at what they are saying and I am questioning if I should even stay with them. It's not my problem they are shortstaffed, so I could just leave and not bat an eye and find multiple part time jobs that are willing to hire me. However, for the convince of avoiding training and a new work enviorment I just need to hold out till May when the other bigger company (Not a non-profit) is able to take me in and let me grow in their company.\n\n&amp;#x200B;\n\nMy question to ya'll is... can anyone help paint a better picture as to what: \"Pay $250 bonus in addition to hourly pay to \\*Co-Worker 1\\*, Myself and \\*Co-Worker 2\\* for every 10 additional days (based on 8-hour increments)worked beyond current schedule.\" could mean? am I over complicating things because of the rest of my life in general? Or is it truly as confusing as I think it is?\n\n&amp;#x200B;\n\nI understand that it's a non-profit, they probably cant afford much due to current conditions. I understand I signed up for this what did I expect? I feel so stupid that I even agreed to this job but financially I don't know what would be better. I have no office experience. Only restaurants, fast food, Summer camp and then my personal skills. I get no call backs from bigger companies even with me calling them weekly.\n\n&amp;#x200B;\n\nI have an assured FULL-TIME POSITION with a new company for $18 an hour starting and ending after training and 6 months work of experience on my own with no help at $26 an hour... But that won't start till May...",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/115zqxr/is_my_job_being_flaky_or_am_i_over_thinking_hr_is/",
+      "comments": [
+        {
+          "body": "So is your only question what the email means? \n\nI think you are just going to have to wait to find out how they explain it.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "What does a Product Manager do at Spotify?",
+      "body": "Through conversations with mentors, peers, and friends, I’ve found many best practices – systems of thinking, ways of working, routines – that deserve some recognition.\n\n**I’ll be doing a ‘Career Spotlight’ where I interview high performers in different industries to dig into their perspective on the role, mindset, and habits.**\n\n&amp;#x200B;\n\nOur first spotlight will be with Angela, a Product Manager at Spotify.\n\nAngela is a PM at Spotify where she builds data products.\n\nLet’s kick this off …\n\n&amp;#x200B;\n\n# What do you do at Spotify? What does product management at Spotify mean?\n\n**Angela:**\n\nI’m product manager at Spotify focused on building data products. In short, my role as a PM is to help identify problems, turn them into opportunities, and build products to solve those problems.\n\nWhat is a data product you might ask? An example is that we build pipelines to gather data. then use this data to build machine learning (ML) applications and analytics tools.\n\nOur team’s goal is to amplify the voice of Spotify customers and share insights back to the business from customer feedback.\n\n&amp;#x200B;\n\n# What has your path to Spotify and product been? What were some of the biggest challenges you faced?\n\n**Angela:**\n\nMy path has always revolved around my interest in data and ML. I’ve always had a specific interest in this area, which is a little unconventional for a business grad. \n\n**A bit about myself:** I graduated in 2016 from business school at Western University in Canada, and participated in Bell’s rotational program which gave me an opportunity to try out different roles. I completed rotations in analytics, corporate strategy, ML projects, and finally moved into the data science space as a PM. Throughout these rotations, the type of work that I owned had always changed, **but the common thread was that my role was always centered around data and business analytics.** \n\nI was fortunate enough to have the opportunity to bring the first Hackathon to Bell with three amazing coworkers (shoutout to Nat, Aly, and Cindy!). This idea was inspired by the realization that we stored a vast amount of data and had an opportunity to create products from it.\n\n&gt;**One thing I learned was that if your day job isn’t giving you the opportunity to learn or develop skills in areas that you’re interested in – you have to find or create your own opportunities.**\n\nIn this case, I was incredibly fortunate to be surrounded by great mentors, a driven peer group, and an innovative data science org!.\n\nWhen I was searching for my next opportunity, **one of the biggest challenges I faced was figuring out how I fit into the data world with a business background.**\n\nIn hindsight, there were a ton of opportunities. But at the time, I had assumed the only way into this world was to be a data scientist or engineer. From networking (and with many people generously giving me their time), I figured that what I wanted... was to be a technical PM. From there, I started looking for roles that would allow me to stay close to the development of data and ML products, and that’s how I ended up at Spotify.\n\n&gt;**Another (more personal) challenge is that I’ve always found it tough to sell myself or share my work.** I’m not sure if this is a cultural thing, but I’ve always had a strong focus on modesty. I found this conflicting because in the professional world, a large chunk of your progression is determined by your ability to vouch for yourself and create visibility on the value you bring.  \n**Over time, I genuinely developed respect for people who were proud of their work, and spoke about it proactively.**\n\nThis was an *‘Aha!’* moment for me. It made it much easier for me to be comfortable with sharing my work and vouching for myself. This is currently still a work-in-progress!\n\n&amp;#x200B;\n\n# What would your job look like if it were easy?\n\n**Angela:**\n\nIn this hypothetical world: **users know exactly what they want**. We design a product that suits our users’ needs perfectly. All stakeholders are on board with no conflicting priorities or timelines. Development goes perfectly, no bugs in testing. Adoption exceeds our expectations. (This is an unrealistic dream that would take the fun out of things! ;) )\n\n&amp;#x200B;\n\n# What is something you want to highlight about product that is not commonly known?\n\n**Angela:**\n\n&gt;**Make your job obsolete!**\n\nThis was something that surprised me in the product world, but is a common misconception. You’ll always hear *“be the CEO of your product”* which may lead many to believe that they need to be in full control of all workstreams. But since there are SO many things to focus on in the product space, it’s important to empower others to be able to manage initiatives and product streams. You'll do your best when your team members can lead within the group. This allows PMs to prioritize product discovery and what the team should be focusing on next!\n\n&amp;#x200B;\n\n# What key habits, mindsets, or behaviors do you attribute most of your career accomplishments to?\n\n**Angela:**\n\n**Setting up systems to get things done**. Creating rules has been important for me to maintain discipline and honestly, has made it easier for me to remember all the things I need to get done. Also, it takes the decision-making out of deciding whether or not I want to do something (e.g. workout every other day at 5PM). \n\n**Writing shit down!** From minor things such as to-do lists to larger goals – writing things down has made it significantly easier to visualize what needs to be done\n\n**Focusing on** [**the happiness advantage**](https://www.amazon.com/Happiness-Advantage-Principles-Psychology-Performance/dp/0307591549). This might sound cheesy but ...happy people do better at work! Invest in your relationships (friends, family, colleagues) to keep you grounded when stressed or overwhelmed, and make sure to pay it forward when you are managing people (i.e. give people time to reset and take time for mental health). \n\n**Be open to revisiting skills you dislike / find uncomfortable**. Some of the best opportunities come from that! I used to dislike the idea of project management... now I’m in a product manager role where I’m always doing some amount of project management.\n\n&amp;#x200B;\n\n# What unconventional advice have you received that has been most influential thus far in your career?\n\n**Angela:**\n\n* You always want a 10th (wo)man in the room that’s going to challenge your thinking\n* **Feedback is a gift**\n* There are people that are easy to work with and people that you will learn from\n* Reading is like compound interest!\n* My first mentor always told me to make time / space for personal hobbies and interests (e.g. taking acro classes) and to NOT to spend all my extra time focused on my career. This one really made me think. Sometimes it can be a challenge but it’s important to maintain a good perspective and ground yourself!\n\n&amp;#x200B;\n\n# For those wanting to pivot into tech or product – how would you advise them to spend their time and energy?\n\n**Angela:**\n\n* I’d highly advise folks to listen to podcasts on tech interviews (or jump into clubhouse sessions). Hearing others talk through tech / product development was incredibly helpful for me to get into the minds of those in tech &amp; product.   \nSeek opportunities in your day job to practice product skills. Product strategy and user journey mapping can be practiced in other areas too – they aren’t exclusive to ‘product’.\n* I sometimes felt overwhelmed and had ‘learning FOMO’ from seeing all the resources out there. Focus on what you’ve learned and take it at your own pace! Don’t beat yourself up over all the articles / podcasts you’ve missed. \n* Follow and read posts from current product managers. They usually share content that is a reflection of their day-to-day. It’s a great way to get in their minds, understand what challenges they’re dealing with, and what the world of product and tech looks like. Some great platforms are Twitter, Medium, and of course, Substack!  \n\n\n#### Further reading:\n\n**Books**\n\n* [Cracking the PM Interview](https://www.amazon.com/Cracking-PM-Interview-Product-Technology/dp/0984782818/ref=sr_1_3?dchild=1&amp;keywords=cracking&amp;qid=1616674542&amp;sr=8-3)\n* [Product Management's Sacred Seven](https://www.amazon.com/Product-Managements-Sacred-Seven-World-Class/dp/0578740583/ref=sr_1_1?dchild=1&amp;keywords=parth+detroja&amp;qid=1616674534&amp;sr=8-1)\n\n**Articles**\n\n* [John Cutler](https://medium.com/@johnpcutler)\n* [Reforge](https://www.reforge.com/blog/racecar-growth-framework)\n\n**Podcasts**\n\n* [Product School](https://open.spotify.com/show/1XBrhVLsQOIAv3KFBqnzrX?si=tSgPnw4iQL-KzXmUR9arfA)\n* [Product to Product](https://open.spotify.com/show/4rbibgKTXCW3W1mWaEcuIF?si=-3u24P1bTEynLcT7FsjmdA)\n\n**Personalities**\n\n* [Shreyas Doshi](https://twitter.com/shreyas?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor)\n* [Bangaly Kaba](https://twitter.com/iambangaly)\n\n&amp;#x200B;\n\n**To those reading: thank you for taking the time to read this.**\n\nThis article took a while to put together. If you enjoyed it, I’d love for you to **subscribe or share it with a friend**. \n\n[https://andrewmp.substack.com/p/career-spotlight-angela-hu-product](https://andrewmp.substack.com/p/career-spotlight-angela-hu-product)",
+      "subreddit": "jobs",
+      "score": 10,
+      "url": "https://reddit.com/r/jobs/comments/md9n41/what_does_a_product_manager_do_at_spotify/",
+      "comments": [
+        {
+          "body": "Hello, thank you for posting to r/Jobs! \n\nWe just wanted to let you know that we have a new [discord server, come join the chat!](https://discord.gg/TY6ErXV)\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/jobs) if you have any questions or concerns.*",
+          "score": 1
+        },
+        {
+          "body": "This was incredibly helpful. I’m trying to break into the product/project realm and it’s been a difficult 8 months of unemployment. Thank you for your time and energy in putting this together!",
+          "score": 1
+        },
+        {
+          "body": "This is a Fakespot Reviews Analysis bot. Fakespot detects fake reviews, fake products and unreliable sellers using AI.\n\nHere is the analysis for the Amazon product reviews:\n\n&gt;**Name**: The Happiness Advantage The Seven Principles of Positive Psychology That Fuel Success and Performance at Work \n\n&gt;**Company**: Unknown\n\n&gt;**Amazon Product Rating**: 4.7 \n\n&gt;**Fakespot Reviews Grade**: B\n\n&gt;**Adjusted Fakespot Rating**: 4.7\n\n&gt;**Analysis Performed at**: 10-29-2020 \n\n[Link to Fakespot Analysis](https://fakespot.com/product/the-happiness-advantage-the-seven-principles-of-positive-psychology-that-fuel-success-and-performance-at-work) | [Check out the Fakespot Chrome Extension!](https://chrome.google.com/webstore/detail/fakespot-analyze-fake-ama/nakplnnackehceedgkgkokbgbmfghain)\n\n*Fakespot analyzes the reviews authenticity and not the product quality using AI. We look for real reviews that mention product issues such as counterfeits, defects, and bad return policies that fake reviews try to hide from consumers.*\n\n*We give an A-F letter for trustworthiness of reviews. A = very trustworthy reviews, F = highly untrustworthy reviews. We also provide seller ratings to warn you if the seller can be trusted or not.*",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "New company really wants to hire me, how do I go about asking for salary + other questions",
+      "body": "Hey all, really wanted your help on something. I have been feeling bored at work, and thinking that I can't progress any higher here, but I love my job. I am the director of digital marketing at an ad agency, and I am in charge of the biggest clients, and in terms of learning how to use new platforms. Things that have been annoying me are some of my co workers not showing any initiative and I constantly have to monitor them. Also since this is in the music industry, our budgets have been constantly decreasing due to the likes of Spotify, and no one buying music. I make roughly 70K/year after bonuses, but I pay for half my own health insurance.\n\nI had been looking at other places to work, specifically being the digital marketing director at a company like Netflix, or a video game company. I want to be a part of a marketing department for a major brand, rather than buying advertising on behalf of multiple clients.  For Shit's and giggles I ended up applying to a position very similar to what i have now, since no one else was getting back to me. This new ad agency got back to me within 30 mins of submitting my resume, and we had a skype interview, and the owner really wants to hire me. It is another small company with only the boss located in the United States.  My issue with this company are that it doesn't have an internet presence so it is hard to see what/how they do, and their clients are all over the place, nothing focused. Some things that are interesting to me is that I would be getting paid to learn a new platform, even if the clients aren't my type.\n\nAnyways, i was thinking of putting a couple years into this if the salary is good, but how do i go about asking for the salary information? He asked me to come back to him with a number, but I don't want to overshoot, or undersell myself. Also, is it bad if i ask what the company's revenue was in the last year?\nWhat other questions should I be asking\n\nThank you guys.",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/4fifad/new_company_really_wants_to_hire_me_how_do_i_go/",
+      "comments": [
+        {
+          "body": "you know very little (or nothing?) about these people.  assuming they can pay what you ask for ongoing needs verification",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Spotify Product Manager Interview Guide 2025 — Questions, Process &amp; Insider Tips",
+      "body": "Found this really solid guide for anyone preparing for a Product Manager role at Spotify in 2025. It walks through the entire interview journey — from the first recruiter call to product-sense challenges, prioritization exercises, and stakeholder rounds.\n\n🔗 Full guide:  \n[https://interview.norahq.com/interview-guides/spotify-product-manager-interview-guide-2025](https://interview.norahq.com/interview-guides/spotify-product-manager-interview-guide-2025)\n\nWhat’s inside:\n\n* A full walkthrough of Spotify’s PM interview process\n* Real-world candidate-reported interview questions\n* Product sense and prioritization exercises\n* Analytics and data-driven decisions in PM context\n* Behavioral interview prep and “Spotify culture” questions\n* How to use mock interviews with AI support (Nora AI)\n\nIf you’re aiming for PM/Data/Product roles at top tech companies — this guide gives you a strong edge. Drop any questions in the comments and I’m happy to help!\n\n\\#interviewtips  \n\\#careeradvice  \n\\#productmanager  \n\\#spotifycareers  \n\\#jobsearch  \n\\#interviewprep  \n\\#techcareers",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1p21wf9/spotify_product_manager_interview_guide_2025/",
+      "comments": []
+    },
+    {
+      "title": "Spotify Interview NEXT WEEK!",
+      "body": "I got an interview at Spotify for their Artist &amp; Label Partnerships Summer Internship position. Do you have any tips or tricks for acing the interviews as well as getting the position? Would love to hear about your interview at Spotify!",
+      "subreddit": "interviews",
+      "score": 12,
+      "url": "https://reddit.com/r/interviews/comments/n1rejy/spotify_interview_next_week/",
+      "comments": [
+        {
+          "body": "Congrats! That’s great news :) hope you ace it!",
+          "score": 2
+        },
+        {
+          "body": "I'll say really research on the position and goals of the company.\n\nHere's a video which may help you during and before the interview:\n\nhttps://youtu.be/7xjofeHc_EI\n\n(I also found that doing a few rehearsals for interviews helped)",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "What are my chances in securing a promotional role?",
+      "body": "Hey Everyone,\n\nI was just wondering if you guys could advise me,\n\nI work in a company that follows the Spotify model,  \nI am in the Product management practice, I sit in a chapter within the practice, and there are 6 chapters in total.\n\nThere was an opening for a Chapter lead role for a brand new Chapter, 4 people have applied for the role, one who is a senior, myself who is also a senior and mid-level employee and lastly an existing chapter lead who has applied for the job.\n\nThere is a 2nd opening for an existing chapter lead role also because the existing CL had left the organisation, I have put in my consideration for this role as well. but I haven't heard back about my (EOI), this time only 3 People have applied myself, one of the seniors who had also applied for the new CL role and some random guy in the organisation.\n\nmy company prefers not to move Senior &gt; Senior roles to different chapters this rule goes against the growth model of the company to help people achieve their career aspirations, so I'm not too worried about the Chapter lead who applied for the new role,  interestingly I discovered that one of the Snr Product managers had gotten an interview for the 2nd opening, even thou I had applied for the 2nd role as well I haven't been offered to interview..... I found it strange, does it mean I may get the first New role? Why would someone get an interview for the 2nd role unless they weren't successful in getting the first role?  \nWhat do you think my chances are, I believe Interviewed well for the role but haven't heard back in close to 2 weeks.",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/1f3yn2q/what_are_my_chances_in_securing_a_promotional_role/",
+      "comments": []
+    },
+    {
+      "title": "Something simple that has really helped me during unemployment...",
+      "body": "Maybe this can help some of you who are also feeling despair over the situation. I basically lay in my room for 12 hours a day and, even though I know it's unhealthy, I can't really peel myself away from the computer to do chores, see friends, or anything really because I feel like I'm wasting job searching time.\n\nWell today I forced myself to go out on a run (I actually do like to run and used to in the past, but if you're not a runner try doing this but walking) and put some standup comedy on my iPod (well, Spotify technically.) And soon I was moving and grooving and feeling a lot better. It was great to be out in the sun, and also found myself laughing out loud during the run and could barely breathe. In fact, I didn't even want to come back inside but had to because I was really thirsty.\n\nAnyway, it's a great way to get your mind off things and bring up your spirits a little. Maybe a good idea to do pre-interview too to get yourself in a good mind state.\n\nEDIT: I was listening to Louis C.K., T.J. Miller and Kevin Hart, but I would have to personally recommend Doug Benson, Amy Schumer or Sarah Silverman.",
+      "subreddit": "jobs",
+      "score": 79,
+      "url": "https://reddit.com/r/jobs/comments/4nocsp/something_simple_that_has_really_helped_me_during/",
+      "comments": [
+        {
+          "body": "Update your resume and go for a run. Good for you! ",
+          "score": 15
+        },
+        {
+          "body": "You're describing both the symptoms and best cure for depression. Keep an eye on that and keep moving. Good luck on your job hunt!",
+          "score": 11
+        },
+        {
+          "body": "I agree with you. A similar trick brightened my days when I was unemployed, too.\n\nI had no money so I went to the park every day with a book and I also walked around.\n\nOne thing that helps about it is just getting you out of the house. Especially if you're alone, being inside all day gets a person dwelling on things; and when one dwells, it's usually not on the positive. Getting out refreshes not just the body but the mind.\n\nOne thing that's difficult about being unemployed is going from such a set, regular schedule to suddenly having all this time on your hands with nothing much to do. Heading out somewhere every day helps to give a person structure and fill up the day.",
+          "score": 8
+        },
+        {
+          "body": "[deleted]",
+          "score": 6
+        },
+        {
+          "body": "I like being unemployed because I have more time to do things like exercise.  I feel like I'm wasting my life with my job.",
+          "score": 3
+        },
+        {
+          "body": "&gt;Amy Schumer\n\nI thought comedy stand ups are supposed to be funny though?\n\nJokes aside good for you! You'll definitely feel like you are accomplishing more when you go out and get exercise.",
+          "score": 2
+        },
+        {
+          "body": "I would highly recommend doing exactly what this post says. I go for runs around my neighborhood every morning and it really puts things into perspective on what you need to accomplish that day.\n\nGood advice  ",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Tough time making a decision on what to do. [Need Advice]",
+      "body": "TLDR: Unsure whether to take a part-time gig as a nightstocker at Lowes or continue search for full-time employment\n\n&amp;#x200B;\n\nI had a contract position with Apple as a Data Analyst of a sort and that contract ended at the end of February. Since then I've been looking for a job but in the midst of all that I moved back to my folks home and of course the pandemic occurred. I've had a two interviews so far for positions related to data analyst so far but no call backs. Like allot of people I've received *postings are close or postponed due to COVID-19.*  Back in college (I have a four year degree in a STEM field) and  I drove a forklift for a lumber company and I have an interview next Tuesday as a nightstocker  at Lowes. \n\nI'm just a little frustrated in that I feel like I should be doing something and the nightstocker role came easy... but I am unsure if my time and energy should spent more on my job search and ongoing projects and further education. I've been taking online courses to enhance my data analysis skills and I have been trying to get some progress on related projects. \n\nI'm not depleted in funds though. I'm alright for now. But I do have a loan that I would like to pay off sooner than later, it's a small loan less than 5k. And I turn 26 in August so something full-time would benefit me for the insurance soon. Other than that I hardly have any bills besides Spotify but of course I am my parents place.\n\nShould I just be for patient and continue to search? I understand it's a tough time for everyone but having two interviews at a time like this gives me some hope. What do you guys think?",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/gjd2fa/tough_time_making_a_decision_on_what_to_do_need/",
+      "comments": [
+        {
+          "body": "Do it until you get something else?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "At my wits end - 18 months In 10x20 office",
+      "body": "I think I just need to vent but I'm really coming to my wits end in this job.\n\nI've been working as a 'marketing' assistant for 18 months for an it/comms company. I work out of their small satellite office on my own, sometimes with my manager who is mostly out on sales most of the time so it's just me and Spotify usually on most days with no one to talk to.\n\nAt no point have I signed a contract with this company, I'm on minimum wage, and have already been made redundant before about 13 months ago before my boss realised he had made a terrible mistake and took me back- I had absolutely no choice here, it was either go back onto the dole or have my old job back.\n\nI only took this job because I had been made redundant in my previous one. The company is small and I don't think it makes that much money.\n\nMy boss is one of those people who has to dominate a conversation, when he is in the office he has to really talk loudly whenever he's on the phone. I could shit the man gold and he would still complain about something. Now he's beginning to pass further work onto me and asking me to take the lead on projects, all the while lending me absolutely no help, on my own and not even giving me more hours or furthering my pay.\n\nHe has started doing this thing where he asks me to take the lead on things, I show them to him and he just goes ahead and tells me how to do it anyway, or just does it himself, wasting all our time.\n\nI have job interview lined up for next week and I'm just praying it goes well.\n\nIt sounds strange but since I have no one to vent to or any colleagues to ask around, does this not sound a little off to anyone? Or am I just moping here?",
+      "subreddit": "jobs",
+      "score": 9,
+      "url": "https://reddit.com/r/jobs/comments/6itqqo/at_my_wits_end_18_months_in_10x20_office/",
+      "comments": [
+        {
+          "body": "&gt;Now he's beginning to pass further work onto me and asking me to take the lead on projects, all the while lending me absolutely no help, on my own and not even giving me more hours or furthering my pay.  \n\nProving your worth and proving that you can take on more responsibility will result in more hours and more pay. Simply being handed more work doesn't warrant a pay raise. You are compensated for the work you have completed, not the work you still have yet to complete.  \n\nNow, if you do start to take on more responsibility and do a quality job at managing this added responsibility, and you still don't see more hours or pay, then I think it's time to move on.  \n\nI would go to your interview regardless, but I wouldn't count this one out just yet. Nothing is worse than sitting in a 8x6 cubicle doing meaningless tasks for a large corporation. It takes a lot of trust for an owner/manager of a small business to pass on responsibility to a younger employee. And what most don't like to admit, is that you have to *earn* trust.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Mid-Interview Realization: They Were Already Checked Out — Has Anyone Else Faced a “Ghost Interview”?",
+      "body": "I just came out of one of the most demoralizing interviews I’ve had, and I can’t shake it off.\n\nThis was for a marketing role at a cybersecurity company. On paper, it looked solid. The JD matched my background. The company seemed serious. The interview panel had multiple people.\n\nBut somewhere around the first 10 minutes, I realized something was very wrong.\n\nWhile I was answering their questions, none of them looked genuinely interested. Not neutral. Not skeptical. Just… absent. Their faces had that forced, polite expression — the kind people wear when they’re waiting for something to end.\n\nNo follow-up questions.\nNo probing.\nNo curiosity.\n\nI’d finish a response — one I knew was relevant and thoughtful — and there’d be this awkward pause before the next scripted question. It felt like they were just ticking boxes off a list.\n\nAt one point, I noticed something that really stung:\nTwo of them were smiling at each other, not in an encouraging way, but like people sharing a private moment while I was talking. And one interviewer — a guy wearing specs — was clearly looking down at his phone. His thumb was moving. I swear he was scrolling reels or something similar. While I was mid-sentence.\n\nThat’s when it hit me:\nThey weren’t interviewing me.\nThey were going through the motions.\n\nThe whole thing felt coerced, like they had to be there because HR told them to, or because the process demanded “external candidates,” even though a decision had already been made.\n\nI walked out feeling small, embarrassed, and honestly angry — not because I didn’t perform well, but because I wasn’t even given a real chance.\n\nWhy do ghost interviews like this happen?\n\nI know interviews aren’t supposed to be validating experiences, but this felt dehumanizing. I wasn’t nervous — I was invisible.\n\nWould really like to hear if others have faced this, especially in tech or cybersecurity. How do you process it without letting it mess with your confidence?\n\nEdit: Thanks for all the responses — didn’t expect this many, and it weirdly helps knowing this isn’t just me. A few people DM’d some…ahem.. creative  coping methods that worked for them  —  glassdoor sob stories doom-scrolling, substack breakup letter, cobangers interviewer roast, spotify life is in ruin playlist etc.. Some were hilarious so thanks for bringing out the 😊",
+      "subreddit": "interviews",
+      "score": 84,
+      "url": "https://reddit.com/r/interviews/comments/1pmlu3f/midinterview_realization_they_were_already/",
+      "comments": [
+        {
+          "body": "I hate this. Been there, it's so hard to talk for 30-45 minutes when you realize in the first few mins that no one cares. I just personally wouldn't accept an offer from this company.",
+          "score": 44
+        },
+        {
+          "body": "OP, I am so sorry it happened to you! Grieve it out for a few days and move on! It is not a reflection on your skills and abilities. They probably already had an internal person penciled in for the role and had to check the box to interview an external candidate. This you cannot control so try to move on to a different target. Not worth your time and energy. Good luck with your job search!!!!",
+          "score": 14
+        },
+        {
+          "body": "I've dealt with ghost interviews before. The trick is to grab their attention and get THEM talking.\n\nThink about an interview like it was a date. Show an interest in the company through your responses and follow-up questions. Ask the person interviewing you about the team -- what is the culture like with the specific department you're interviewing with? What's something they want more of, company culture-wise? Ask questions about the interviewer -- what's something they're very proud of at the company? What, in their opinion, is the best time of day in the office?\n\nSo often, an interview is one person telling their story to one or more people, sometimes multiple times. But what if you made them part of the story? What if you made yourself part of theirs?\n\nStorytime:\n\nAbout 15 years ago, we were holding interviews for a position on our design team. A friend of mine had even interviewed for the role, so I already had made up my mind on who I'd be voting for when the time came.\n\nAnd then it was Mark's turn. Not only did we already have a general idea of who our favorites were by then, Mark had an additional disadvantage; everyone had come in person to the interview, but Mark was in another state, so had to call in.\n\nBut he opened the interview up with a, \"Wits! I've seen your work. It's incredible how you translate X and Y to get J and K results. What do you need from a designer in order to make your job easier?\"\n\nHe had me right then and there. No candidate had asked that of me before. When I gave him my answer, he talked about how he can absolutely do what I was describing and broke down his process for me. He even suggested some other steps we could try. He was honest about things he didn't understand, but framed it in a way where he was confident he could pick up the process. I was so invested in bringing him on by the end of that conversation.\n\nAnd I wasn't the only one he had swayed during the interview process -- everyone he spoke to came out of the room a little bit in love. (Of course we hired him, and he was every bit as cool in person as he was over the phone, lol.)",
+          "score": 14
+        },
+        {
+          "body": "I never looked at any interview as a waste of time, even if it went nowhere, even if I didn't dazzle them, even if I traveled for it, even if I elicited at most polite interaction, knowing this was a no go. I think of it perhaps the way an actor thinks about an audition - even if I am wrong for the part, I get a chance to strut my stuff, finetune my messaging, meet with people in the industry, be seen. \n\nYou really don't know what they brought to the table to give you a less than an ideal interview experience, and to speculate is not productive. When I was occasionally in the same boat, dealing with stone faces, I just fought that much harder to be heard. They might be zombies, but I am going to get my point across regardless and leave with my head held up high. Don't let them win.",
+          "score": 6
+        },
+        {
+          "body": "Were the interviewers AI like this text?",
+          "score": 6
+        },
+        {
+          "body": "Many people, both candidates and interviewers, don’t like panel interviews. Candidates for obvious reasons. Interviewers, because they are often required to attend, but their participation is restricted or limited, and, they have better things they need to be doing. These are typically not involved in the decision process. Focus your attention and energy on the participants who show the highest level of interest and participation as they are the most likely to influence the decision the most.",
+          "score": 6
+        },
+        {
+          "body": "My last interview was with four people.  The HR manager, a project manager, head of electrical engineering and a VP.  Guess who asked the questions and who was just along for the ride?  HR answered my benefits questions. The PM asked two questions that were unrelated to my specialty.  EE head asked most of the questions including some off the wall high voltage questions that he knew were not in my field or stated job description and the VP was bored and surfed his phone.  In the end the offered me a deal they knew I would not accept.  It sucked and wasted two hours.",
+          "score": 4
+        },
+        {
+          "body": "There are two other possibilities to consider. One is that some or all of these people were told they had to be part of the interview team and didnt want to be there. The other is that theyre dealing with multiple openings and are just exhausted from doing interviews. Both of these situations have occurred at my workplace and neither actually reflects on you. But it does suck.",
+          "score": 4
+        },
+        {
+          "body": "I'd call the on it.  \n\"Look, you guys are clearly here under duress and already made up your minds.  I recommend doing this sort of thing off-site so that you guys and I can comp free meals on exchange for us all having our time wasted.  Wouldn't that be better for all of us?",
+          "score": 4
+        },
+        {
+          "body": "Yup, they already have/had someone in mind and are just going through the motions. If they don’t interview people then they’re out of a job. You’re just filler.",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Spotify Interview in NY",
+      "body": "How should I dress for the interview? Recruiter said just dress however I’m comfortable. Any advice would be appreciated!",
+      "subreddit": "interviews",
+      "score": 2,
+      "url": "https://reddit.com/r/interviews/comments/em2riw/spotify_interview_in_ny/",
+      "comments": [
+        {
+          "body": "Dress professional or at least business casual. \n\nGood rule of thumb if you ever don’t know what to do: *it’s better to be overdressed than underdressed*",
+          "score": 6
+        },
+        {
+          "body": "Many people say \"Just dress like the CEO does\", which is a clever advice.  In tech companies like Spotify, Google, etc., the CEOs are usually very casual, informal to the bone. \n\nHowever, even Zuckerberg dress up when he means business. That's my advice: dress up!",
+          "score": 1
+        },
+        {
+          "body": "Spotify! Can I ask how you got it? I’ve been emailing several recruiters but have gotten no responses. It’s a dream company for me. \n\nAgree with the others, dress up not down! And good luck :)",
+          "score": -1
+        },
+        {
+          "body": "however youre comfortable",
+          "score": -2
+        }
+      ]
+    },
+    {
+      "title": "First ever management interview - help?",
+      "body": "So basically as the title implies, first ever interview for a management role. I know the questions are going to be “standard” questions for an interview like this, i am sure of this - they are not creative lol. However i am still nervous. I havent interviewed in close to 4 years.. and like i said never for a management role. I know this is super vague but idk maybe its a lack of confidence but i do not consider myself a good interviewee (?). But idk obviously good enough to get the last 3 jobs ive interviewed for…..so i guess make of that what you will. Does anyone have any tips for prepairing for this/potential questions? Anything you wished you knew / did during your interview(s) over the years? Anything - seriously. I am open to anything, any feedback or tips for preparing for this bc i am trying but want to make a good go at this and really give it a good shot",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1la3pud/first_ever_management_interview_help/",
+      "comments": [
+        {
+          "body": "A manager is a leader, who is first there to support their team.",
+          "score": 2
+        },
+        {
+          "body": "If you have spotify, I highly recommend the podcast Interview Boss. They're Australian if you don't have spotify and choose to look them up instead. One of them is a recruiter and she gives excellent advice on how to prepare for interviews. One of their tips is called \"Best Bits\" and it's basically just coming up with examples of your best work stories so you can morph them into almost any type of interview question. Hope it helps! Best of luck.",
+          "score": 1
+        },
+        {
+          "body": "You're actually in a better position than you think - landing your last three jobs proves you have solid interview skills, even if it doesn't feel that way. Management interviews typically focus on leadership scenarios, conflict resolution, team building, and how you handle difficult situations, so start thinking of specific examples from your work experience where you've guided others, solved problems, or taken initiative even without a formal management title. The STAR method will be your best friend for structuring these responses in a clear, compelling way.\n\nMost management interview questions are predictable, which actually works in your favor since you can prepare thoughtful answers ahead of time. They'll likely ask about your leadership style, how you'd handle underperforming team members, times you've had to make tough decisions, and how you motivate others. Practice your responses out loud until they feel natural, and focus on demonstrating emotional intelligence and problem-solving skills rather than just listing accomplishments. If you want extra support navigating those tricky behavioral questions that management roles are known for, I'm part of the team that built [job interview AI](http://interviews.chat) \\- it's designed to help people prepare for exactly these kinds of challenging interview scenarios.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Your Interview CheatSheet! Here's 2 HR Recommendations",
+      "body": "Hey everyone, I'm an HRBP Director for Tech coming from companies like WebMD/EA Games and Spotify and I've done HR consulting with 2 of the MFAANG and I'm the one that works with managers to help determine questions to ask in the interview process to assess to fairly assess competencies  and behaviors as well as help them understand how to analyze candidates responses between bias and performance, etc. \n\nI want to first tell you that practicing interview questions are great but never take anyones advice if they are promising any \"insider tips to ace your interview\" - because every human being is different and responds and reacts to different things. Also remember that what worked for an employee is a single event that is exclusive to them. If you want real advice, always talk to high level manager or HR because HR is the one designing the process and managers are the ones executing on it. There are a lot of people selling \"hope\" by promising the \"insider secret tips/tricks/interviews\"but I can assure you that if they haven't worked in HR or as a Senior Leader, their advice may be suspect because it's not systemic, it's conditional.\n\nI will tell you my two biggest interview recommendations that I see maybe 90% of candidates that I interview not take advantage of. \n\nFirst: Almost all interviews start with a question after the introduction period: \"Walk me through your resume\" or \"Tell Me About Yourself\".\n\nThe biggest mistake candidates make is they answer the question literally - they walk step by step through the resume. 'Well I worked at XYZ Corporation as an Operations Specialist for 2 years and then I did...\"\n\nThe interviewer HAS your resume in front of them - all you are doing is giving them a place to check-box against the list. It's a missed opportunity. A much better idea is to use that time to share your achievements and passions, refer to your experience, but own the conversation and start to drive it. The best interviewers can do this very well - they take that first few moments and use it to create a structure and platform for the interviewer to then start a much more in depth conversation. They also- proactively answer the questions they know they will be asked in the interview , allowing more time and exploration in the \"deep question\" space. \n\nThe other tip is this - (and I still do it ll the time) it's very natural to be nervous during an interview and we think we need to answer questions right away to show and demonstrate our value, but that means we start to ramble. We have all been there. You get asked a question and your mouth just starts moving and you are waiting for your brain to catch up. \n\nPractice doing this one technique. When the interviewer asks you a question, take an inhale breath and think to yourself \"what am I being asked?: or \"what does he or she want to know?\" Breathing is an underrated goldmine. It will flood your brain with Oxygen, giving you clarity, order and understanding It will relax your systems, heart rate and blood pressure and allow you to answer the question in a much more composed way with your brain taking charge and your mouth following behind. \n\nI promise you it is never as obvious or sudden as it may appear to you, just a small intake and force yourself to think: \"What do they want to know?\" will help you give MUCH better answers.",
+      "subreddit": "interviews",
+      "score": 255,
+      "url": "https://reddit.com/r/interviews/comments/jed93g/your_interview_cheatsheet_heres_2_hr/",
+      "comments": [
+        {
+          "body": "Thanks for posting. I’m very guilty of the first one, to make it even worse I tend to start at the bottom of my CV and talk a bit too much about less relevant jobs and then kinda run out of time as I get to the more relevant recent jobs. Your suggestion is great, how would you handle it in a more career background way though? I think the past 2 times I’ve been asked more in a “tell me about your career background” kinda way.",
+          "score": 11
+        },
+        {
+          "body": "I was confused then I reread. Thanks for the tips.",
+          "score": 3
+        },
+        {
+          "body": "Nice post, definitely the deep breath before answering! I've been getting into deep breathing meditation and notice how much more present and in the moment I am, which allows me to listen with the intent of understanding AND THEN responding. I've also been working on my eye contact skills and I swear it takes your ability to listen intently to the next level",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Awaiting response from Spotify recruiter!!!",
+      "body": "I had my first and final round of interviews with Spotify during the first and second week of May. I haven’t heard back since and it’s coming up to about 1 1/2 weeks (It’ll be 2 weeks as of Tuesday May 25th). What should I do?",
+      "subreddit": "interviews",
+      "score": 5,
+      "url": "https://reddit.com/r/interviews/comments/nht0z7/awaiting_response_from_spotify_recruiter/",
+      "comments": [
+        {
+          "body": "Did you send a thank you email?",
+          "score": 4
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1115 @@
+{
+  "company": "fidelity",
+  "post_count": 54,
+  "exported_at": "2026-01-18T17:44:53.277Z",
+  "posts": [
+    {
+      "title": "Having Difficulties Passing Drug Screenings - Advice?",
+      "body": "I'm an August 2020 grad from a \"public ivy\" with a CompSci B.S. \n\nOriginally after graduation, I was going to travel to Europe for a while with friends before becoming locked down in a job, but COVID made that impossible. I was relatively accomplished in my time at uni, being an undergrad TA for six of my eight semesters and assisting our dept's distinguished prof with research for two or three years. Fast forward 4-5 months after graduation though and I'd gotten rusty with my algorithm skills and general programming abilities. I decided to take a Web Dev (my favorite type of work) Bootcamp, associated with the same uni I studied at to get my skills back up and learn some new techs which I think has been tremendously helpful and still has about a month left. I'll likely become a TA for the Bootcamp upon completion.\n\nThe issue I'm having now is passing urine screenings for which the vast majority of the roles (Fidelity, IBM, Salesforce, CapOne, etc) I'm at advanced interviewing stages with require.\n\nThroughout my time at college and in the months after I was a *heavy, heavy* marijuana user. Basically, using concentrated THC multiple times per day, every day, for years. It never interfered with my coding or other cognitive abilities - I'd ace programming/physics exams, competently tutor students, etc directly after taking \"dabs\" of marijuana concentrates.\n\nI've now been sober from all forms of THC, including those consumed legally, for over 9 weeks in preparation for the eventual screenings I'll have to pass - likely still not for another month at least. I've bought a bulk supply of home testing kits that give a binary Positive/Negative result. However, I'm still testing positive for THC metabolites - and with impressively high amounts. After doing additional screenings through my PCP to give me a numerical value, **on 44 days of sobriety I tested at 230 ng/mL with an expected reference value of &lt;5 ng/mL**, marked with an \"H/High\" flag on my lab result. I'm currently waiting on my next lab taken on 64 days of sobriety to compare my ng/mL after 20 days and taking a 40-pill, 7-day detox kit (which I don't expect to be a magical solution, but was hoping would at least expedite the process).\n\nI already had an offer rescinded months ago from Fidelity Investments after failing my screening upon 6 weeks of sobriety and it *absolutely devastated me*. Getting a position within the next few months is exceptionally important to me for a variety of reasons - first and foremost to (literally) pay back my incredible family who have been unreasonably supportive of me over the past few years, paying over $100K for my B.S. degree, rent, food, current Bootcamp, etc. I feel immensely privileged and guilty, especially because I know the details of the toll it's taken on them. I'm doing my best to do the right thing and get clean to pass my screening through legitimate means, but I absolutely need to get into one of these positions and am starting to consider more shady methods (which I know have worked for a long-time friend who successfully got a job at Fidelity despite not ceasing THC use).\n\nDoes anybody have any recommendations or advice for this dilemma I'm in? Has anybody been in this situation before? What's my best course of action? Or just feel free to commiserate and be astounded by how much of a pothead I was lol. Thanks for reading and for any advice you might have.",
+      "subreddit": "cscareerquestions",
+      "score": 4,
+      "url": "https://reddit.com/r/cscareerquestions/comments/qgb5b5/having_difficulties_passing_drug_screenings_advice/",
+      "comments": [
+        {
+          "body": "Google fake urine. \n\nApply to places that don’t drug test. Most companies don’t.",
+          "score": 6
+        },
+        {
+          "body": "Quick fix dude",
+          "score": 4
+        },
+        {
+          "body": "Find a company that doesn't drug test, like the vast majority of tech companies",
+          "score": 3
+        },
+        {
+          "body": "[deleted]",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "First Tech Interview Tomorrow",
+      "body": "Hey everyone, I'm graduating this May and have been applying for entry-level positions for software dev/engineering and actually have my very first tech interview tomorrow with Fidelity. I tried to prepare a bit over the last week or so when I had some time. I'm very nervous and feel like I am only going to embarrass myself. Has anyone recently interview for the Leap Program ? If so how difficult did you find the tech portion ? If anyone has any tips on not getting too worked up on the interview and getting focused I would greatly appreciate it! Hope you all gave a good night!",
+      "subreddit": "cscareerquestions",
+      "score": 10,
+      "url": "https://reddit.com/r/cscareerquestions/comments/5uka8m/first_tech_interview_tomorrow/",
+      "comments": [
+        {
+          "body": "I interviewed with Fidelity this year. I can't speak for the LEAP program but I interviewed for the technology summer internship. It was probably the easiest interview I had. I didn't get asked any technical questions. The interview was a two-step process: a HireVue and then an interview with a hiring manager. One of my friends also had a phone screen after the HireVue so that's also possible. The most important thing I learned is to talk to the interviewer like he's someone you know. Treat it like a conversation instead of an interview and you'll feel much more relaxed. Good luck and let me know if you have any questions about the process!",
+          "score": 5
+        },
+        {
+          "body": "I work for Fidelity. I applied to leap. The interview was largely behavioral. I had to write a couple SQL statements on the white board and a uml class diagram for a library program. Overall not really difficult if you are prepared and confident. They were very relaxed and easy to interview with. I didn't get into leap, but they sent my resume to another department in Fidelity and now I'm working as a software engineer in test (writing test automation) and I'm very happy with it. \n\nMy advice would be don't freak out. Just go show them what you know. That's all you can do.\n\nJust out of curiosity, where are you interviewing? Boston? RTP?\n\nEdit: Also if you have any more questions feel free to ask here or PM me. ",
+          "score": 2
+        },
+        {
+          "body": "Good luck buddy! ",
+          "score": 3
+        },
+        {
+          "body": "I've interviewed with Fidelity too. They seem to be mostly focused on culture fit and their tech questions were total softballs",
+          "score": 1
+        },
+        {
+          "body": "&gt;I tried to prepare a bit over the last week or so when I had some time. I'm very nervous and feel like I am only going to embarrass myself. \n\nDon't stress too much. Have fun with the problem and the second you can absorb yourself into the question (don't absorb too hard - make sure you communicate with your interviewer), the better you'll be. Don't think for a second about what your interviewer thinks about you - focus on the problem. Constraints, limitations, edge cases, etc. But DO communicate your thought process.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Fake recruiters &amp; interview prep",
+      "body": "Overall questions in post-\n1. How have people known that a recruiter was fake?\n2. For someone who is super anxious and overall falls flat on her face but still somehow gets jobs, how should I prep for interviews? My last job my supervisor kept telling me that the only reason I got the job is because my cat kept showing up in the video. 🤦🏻‍♀️ I’d like to think that she is trying to be funny.\n\nHow exactly does that work and what exactly would I look out for?\n\nI’m almost afraid that this has just happened to me. The recruiter reached out to me through LinkedIn and could not tell me the company name but his supervisor could. His supervisor called me about five minutes later who then told me the company name. I mentioned that my résumé was a bit plain and he said that’s okay and the company was only interested in the last/current job that I have. He asked if I could do a virtual interview the following day.\n\nThe following day-Thursday-I was quite busy and mentioned that Wednesday the 16th would be my first availability. He reached back out to me yesterday around 4 o’clock, mentioned that he was drinking a beer making his late afternoon callbacks, and that the company had availability at 12:00 or 3:00. I was also told that the virtual interview would only be a timeslot of 30 to 40 minutes at the most. I was a bit surprised he mentioned drinking, but maybe that’s just because I haven’t worked in a company where drinking was acceptable, much less to mentioned to someone else on a call like that.\n\nMy last interview was 6 years ago and the one before that was over 7 years ago. It threw me off that they said there would be  such a limited amount of time for the first interview.\n\nMy husband, who has had more interviews than myself, has interviewed people himself and is a rockstar at them, said that when it’s such a limited amount of time, they have intentions of running a lot of people through the interview process. When I looked at the job’s posting, it’s been open for almost 30 days so I was a little surprised that they’re still running a lot of people through.\n\nAnother note that made me think this might be a little “off” is that when I looked up the company myself, the company website was company name.com but when the recruiter sent me the company link, the website was company namefg.com. When I looked at why “fg” would be after a company’s name, the internet mentioned “When you see \"FG\" after a company's name on their website, it is usually a shorthand or abbreviation for the company's full legal name, particularly if the legal name includes terms like \"Financial Group\" or \"Fidelity &amp; Guaranty\". \n\nI just thought it was odd. My husband also thought it was odd that they immediately wanted to know how much notice I needed to give my current company if I was given an offer.\n\nI know that on this subreddit, there’s a lot of advice on how to handle an interview, but I would also love any advice in that area as well. I’ve searched and see where people have said that one should handle an interview as though it were a conversation, but I don’t know how to get myself ready for the interview and the potential question that may come other than familiarizing myself with the company.\n\n",
+      "subreddit": "interviews",
+      "score": 3,
+      "url": "https://reddit.com/r/interviews/comments/1ly8w15/fake_recruiters_interview_prep/",
+      "comments": [
+        {
+          "body": "yeah this whole thing smells off  \nreal recruiters don’t dodge basic transparency or casually sip beer while scheduling interviews\n\nquick signs it’s sketchy:\n\n* can’t name the company up front\n* weird domain mismatches (the “fg” could be legit, but *verify*)\n* pressure about start dates before a real interview\n* sloppy communication or rushed timing\n\nthey’re either farming resumes, phishing, or just lazy third-party clowns looking to fill a quota\n\nas for interviews:  \nstop trying to be perfect  \nprep your story like a movie trailer\n\n* where you started\n* what you solved\n* how you think\n* what you want next then run mock Q&amp;A out loud with a friend (or your husband) until it doesn’t feel like a performance\n\nenergy &gt; polish  \nclarity &gt; detail  \nconfidence &gt; credentials\n\nThe [NoFluffWisdom Newsletter](https://NoFluffWisdom.com/Subscribe) has some tactical breakdowns on spotting BS recruiters and owning interviews—worth a peek",
+          "score": 2
+        },
+        {
+          "body": "Pretty easy to tell. If you Google the company and don't find anything about them then it's fake. \n\nOr you get some webpage but it's very vague. Then Google the address of the company and you will see it's like some random parking lot . \n\nUsually if it's too good to be true then it's fake",
+          "score": 1
+        },
+        {
+          "body": "Sounds fake. First of all, recruiters reach out to you knowing what the job is and what position the company is hiring for. Second, majority of companies what to know more than just what your last job was. Third, it’s unprofessional and illegal to be drinking on any job. Fourth, reaching out to the company on the website without the “fg” is a good idea to see if the other one is a real website",
+          "score": 1
+        },
+        {
+          "body": "Lots of red flags here",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Need Advice: What to Expect in Financial Customer Associate Pre-Screen Interview",
+      "body": "Hi everyone,\nI recently got an invitation for a 30 minute pre-screen interview for the Financial Customer Associate position (FCA) at Fidelity and I’m a bit nervous about what to expect.\nIf you’ve gone through this process recently could you please share:\n\t•\tWhat kind of questions were asked during the pre-screen?\n\t•\tWas it behavioral or more about resume/background?\n\t•\tAny tips to prepare?\n\nThanks so much in advance! Any advice would really help me prepare.",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1l7wlmv/need_advice_what_to_expect_in_financial_customer/",
+      "comments": [
+        {
+          "body": "It’s going to be a lot of STAR based questions. Tell me about a time etc. \n\nDo you have a FINRA license or do you need to get those? It’s a customer service role screen, it’s not going to be complicated unless you make it complicated.",
+          "score": 1
+        },
+        {
+          "body": "You'll likely face questions about handling difficult customers, working under pressure, and scenarios where you had to explain complex information in simple terms. They want to see if you can stay calm when someone's upset about their money and whether you can communicate financial concepts without confusing people further.\n\nThe conversation will probably cover your resume briefly, but expect most of the time to be spent on situational questions like \"Tell me about a time you dealt with an angry customer\" or \"How would you handle a situation where a client doesn't understand why their account was charged a fee.\" Practice your STAR method responses and think of concrete examples where you've shown patience, problem-solving skills, and attention to detail. Since this is customer-facing work involving people's finances, they're really looking for someone who can build trust quickly and handle stress well. I'm actually on the team that built [interview practice AI](http://interviews.chat), which can help you practice these types of behavioral questions and get real-time feedback on your responses before the actual interview.",
+          "score": 1
+        },
+        {
+          "body": "How did it go and what did they ask? I have mine tomorrow",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Fidelity Principle Software Engineer",
+      "body": "I have the first round schedule with the hiring manager for principle software engineer position at Fidelity investments. Can someone share their experience if  recently interviewed.",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1id0pke/fidelity_principle_software_engineer/",
+      "comments": [
+        {
+          "body": "Can you share your experience pls",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Has anybody heard of Fidelity Training campus?",
+      "body": "I'm a \"cooked\" CS grad.  Graduated 2023 with an MS, 4.0 GPA and no internships.  Couldn't land anything after 6 months, so I took a break and started working a job unrelated to software to save my mental health.  I've been job searching again the past month.  I'm doing freelance contract work full time as of now, but I just want a stable entry level role.  Is it worth it to go the bootcamp route?\n\nDoes anyone have experience with [https://ftcampus.com/](https://ftcampus.com/)\n\nI interviewed with them, and it seems like a basic bootcamp, but they also market your resume to companies like JP Morgan.  The training program is a few hours a day, 8 weeks, all free, but once you land a job you have to pay the bootcamp back $5000 (assuming you land a 70k job with their help).\n\nTo be clear, I am applying to all software-related entry level roles and haven't gotten any kind of response for the past month (at least I was getting an interview each month or so when I had just graduated).\n\n  \nWhat's the scam here?\n\nEDIT: Found out that the scam is that \"market the resume\" means completely fabricating it",
+      "subreddit": "cscareerquestions",
+      "score": 14,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1pl39el/has_anybody_heard_of_fidelity_training_campus/",
+      "comments": [
+        {
+          "body": "most of these come with the stipulation that you have to accept any offer you get and have to pay the money back yourself if you deny the offer. It doesn’t matter if it’s not something you want to do.",
+          "score": 17
+        },
+        {
+          "body": "It's not a scam I did something similar with another company that got me a full time role in tech.\n\nThey basically paid me 70k a year, and then contracted me out to the company for 100k a year they collected the difference.\n\nAfter 1 year that company brought me on full time and paid me 100k a year starting. Been with them the last 5 years.\n\nI would do it again, I was searching for &gt;6 months after graduating with no hope in sight, and almost settled for a 50k a year job, thankfully it worked out.",
+          "score": 16
+        },
+        {
+          "body": "Launch code also offer this kind of service but with these of services r companies low ball u. Is 70k doable in this economy n can u leave in the middle of employment for better oppt?",
+          "score": 2
+        },
+        {
+          "body": "Howd you find this one? i cant find anything else about it online.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "I feel like sh*t getting rejected everywhere I apply to while my female friends have it way easier",
+      "body": "*Using throwaway* (Really hope I don't offend anyone, that is not my intention)\n\nI am a junior undergrad **male** student majoring in computer science. I have been interested in computer science and programming since high school and I am really good at it. I have interned at 2 companies in the past year, developed and maintaining numerous passion projects, and am involved with the open source community. I don't want to sound cocky but compared to an average CS student I am way ahead and industry ready.\n\nI have been applying for summer 2021 internships for the past 3 months now and have interviewed a lot. I was rejected for every single one of them. Normally I wouldn't mind rejection, I have been rejected in the past but I persevere through it. However, I see all my female friends getting internship offers from big companies like Lockheed, Fidelity, Charles Schwaab, Toyota, etc without much effort. I know these people, so I have an idea about how good they are with CS, and most of them don't even know how to call an API.\n\nI feel like sh\\*t knowing companies value your gender more than they value your merit. I spent the last 4 years of my life learning and studying technologies, making projects, etc while the girls were roaming around care-free not putting in the effort.\n\nI may come off as jealous here, I am not. I know I will get some kind of opportunity down the line, I just felt like ranting about how easy it is for females to get opportunities in CS regardless of their skills.\n\nDo you guys have any thoughts?\n\nEDIT: After reading most of your comments, I would like to say I’m not blaming my rejection on women. I am just saying that the whole application process for females in tech is way easier than men. I’m saying they have it easy. I don’t know if it applies for everyone but what I’ve observed so far. I just wanted to bring this topic for discussion to see what people think\n\nEDIT 2: Clearly y’all are not getting the point of this post and most of you are just saying “Get better” “improve your personality”, etc.",
+      "subreddit": "cscareerquestions",
+      "score": 5,
+      "url": "https://reddit.com/r/cscareerquestions/comments/j8ph28/i_feel_like_sht_getting_rejected_everywhere_i/",
+      "comments": [
+        {
+          "body": "If you’re getting multiple interviews but failing them, you’re clearly not as good as you think you are, simple as that. Either your technical skills are lacking or your interpersonal skills are trash. It’s funny you’re using your tiny sample size to generalize to the entire industry when the vast, vast majority of programming jobs are still held by men. Clearly there is no dearth of opportunities for men.",
+          "score": 122
+        },
+        {
+          "body": "It’s the subverted sexism and overall self-importance for me. 🧐\n\ngit gud, son; maybe the interviewers don’t like your personality, I sure don’t 🤪",
+          "score": 44
+        },
+        {
+          "body": "Hi OP. When I was in college, my boyfriend at the time told me that I only got my internship because I was a girl. It's been years since then, but the memory still stings.\n\nUnless you have hard evidence that your friends were hired for their gender and not their merit, I'd caution you against making any assumptions, even if you don't say it out loud. You may end up hurting your friends more than you think.",
+          "score": 31
+        },
+        {
+          "body": "OP I'm going to leave one more comment since I've seen your edit and I don't think you're getting the point.\n\n\nFirst let me say that I interview interns and I 100% do not change the question based on gender. Why? Its HARD coming up with an interview question. Go ahead. Try right now. It can't be anything off leetcode or something you find online since the solutions are freely available. It has to be something you know how to solve well enough that you can spot when somebody is drifting off course and can guide them back on course without giving away the answer. It has to be something that can be solved within an interview period -- not too short and not too long. Oh and don't forgot to have a backup just in case the interviewee has seen it before. Who is going out of their way to find multiple questions of varying difficulties to give to different candidates?\n\n\nNow I know I'm probably not convincing you so let's assume they do get easier questions. What would be a just outcome for you? Do you want everybody to get easier questions? There are still thousands of applicants and more are passing now, so you're still not getting the job interview. Do you want the questions your peers got to be harder? Again, there are thousands of applicants and you still don't get the offer. You didn't pass the interview for a REASON and it wasn't because a couple of female engineers were JUST before you. Likely there were thousands of engineers they would consider before you. So what do you get out of that? Would it be more satisfying to see your peers not get the offer and some other stranger at some other College/University get it?\n\n\nSo what we're left with either way is... you still don't get an offer. Imagine how many leetcode questions you could be practicing with right now...",
+          "score": 24
+        },
+        {
+          "body": "As a man with a girlfriend also in CS and see it almost the same in terms of getting jobs. Ive gotten 3 offers from Fintech companies and my previous Internship employer cause they wanted me back.\n\nmy suggestion is be a better programmer so wherever you interned at before actually wants you back. Also change your attitude. No recruiter gonna hire someone with that mentality. You think you going in with a chip on your shoulder then do even better. Women have to do it a lot everyday with perceptions on men being better at tech then women.",
+          "score": 20
+        },
+        {
+          "body": "I'm involved in hiring, and interviews are about finding out more than just a candidates technical  proficiency, but about what sort of person they are and what they would be like to work with. Based on your above post alone, I see lots of red flags. You come across as arrogant, you believe your friends are incompetent and not putting in as much effort as you are,  and you seem quick to assume that this is about gender. If any of this is coming across in interviews I think you have a reason why companies might be rejecting you.",
+          "score": 25
+        },
+        {
+          "body": "Maybe you’re not such a personable guy after all? From reading your replies here and trying to understand how you come to such conclusions kind of tells me that I probably don’t want to work with you. A piece of advice kid, don’t care what others achieve or do. Focus on yourself and don’t put blame on others.",
+          "score": 21
+        },
+        {
+          "body": "[deleted]",
+          "score": 37
+        }
+      ]
+    },
+    {
+      "title": "Fidelity LEAP Program: How long before you got an offer?",
+      "body": "I completed my second interview with Fidelity for their LEAP program a week ago, and the recruiter did not specify when they’d be getting back to me. For those who applied, how long was it between the second interview and when you received a response?",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/175tax6/fidelity_leap_program_how_long_before_you_got_an/",
+      "comments": [
+        {
+          "body": "Hey OP. I unfortunately don't have an answer to your question, but I sent you a chat regarding the LEAP program if you have a moment to answer a couple of my questions.",
+          "score": 2
+        },
+        {
+          "body": "[deleted]",
+          "score": 1
+        },
+        {
+          "body": "[removed]",
+          "score": 1
+        },
+        {
+          "body": "Did you hear back by any chance? I have an interview coming up and was wondering if you'd be open to any questions :)",
+          "score": 1
+        },
+        {
+          "body": "[removed]",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "A success post for to-be graduates worried about not getting a job at all",
+      "body": "I am a final year computer science and business student, from a good college, one internship under my belt with four personal projects listed on CV, three of them are fairly minor and I couldn't hold an in-depth conversation with my one major one. My grades are decent but I am by no means a passionate computer scientist.  My GitHub is fairly dead no hackathons, no research projects nothing like that at all.\n\n&amp;#x200B;\n\nCome summer 2018  I was worried I would be behind the curve, so I grinded leetcode, cracking the coding interview and elements of programming interviews. It was a stressful time, everyday I felt like I had to practice more and more or else I wouldn't get a job. It felt like I was studying for an exam that had no real end date.\n\n&amp;#x200B;\n\nI made the best CV I could, stacked it with as much information as possible and sent it out to as many places as I could for fear of failing the interviews in many places.\n\n&amp;#x200B;\n\nThe reality of the situation surprised me though. I received \\*many\\* interview offers, from decent companies as well. Vodafone, Three, Deloitte, PWC, Accenture, Microsoft, Fidelity, JP morgan. To my surprise, the interview emphasis was not data structure and algorithims heavy. Sure Microsoft had a tiny bit (find LCA of two nodes in a BST), the rest had \\*none\\*, Fidelitys programming test was literally FizzBuzz question.  Came to the point where I was even declining interviews because I had so much choice.\n\n&amp;#x200B;\n\nThetakeaway from this post is just to advise people to set your expectations for the job you want. If you don't want to work in Big N right now, or even if you do but you're happy to settle for a job with a lesser known company, the pressure isn't on as hard. I could have studied no algorithms, just prepared a nice CV and I would have had many jobs offers. I have aided my friends in getting interviews at some of the listed companies above and the interviews are very gameable.  Don't get me wrong, the job seeking mode is stressful, but dont compare your workload to another person who is going for Google if you are happy with a job is a non Big N company.\n\n&amp;#x200B;\n\nTL;DR: Data structure and Algorithm practice is only required for a few companies. Prepare a solid CV. Apply early. Interviews don't change much, glassdoor is powerful. Im very average, spend very little time programming at home, have tried to learn some things (web design, react)in the past but never stuck at it and I have been inundated with offers.\n\n&amp;#x200B;\n\nEDIT: I am from Dublin, Ireland so the game may be different across the pond but I imagine the companies I listed above have similar interviewing styles around the globe.\n\nEDIT 2: I got offers from all but microsoft. The offer I accepted is not big N but the salary is in the 95th percentile for all graduates in my country\n\nEDIT 3: CV - [https://imgur.com/a/jJ4hj1L](https://imgur.com/a/jJ4hj1L)",
+      "subreddit": "cscareerquestions",
+      "score": 50,
+      "url": "https://reddit.com/r/cscareerquestions/comments/a8kmz8/a_success_post_for_tobe_graduates_worried_about/",
+      "comments": [
+        {
+          "body": "Not sure if it's just me, but when I was still looking for a job as a new grad, posts like these would make me more anxious, not less.",
+          "score": 19
+        },
+        {
+          "body": "y'all need to stop making posts like this and having resumes like this. Of course, you'd get employed. This isn't a nonwild resume.",
+          "score": 12
+        },
+        {
+          "body": "[deleted]",
+          "score": 20
+        },
+        {
+          "body": "What kind of jobs did you apply to? Straight SWE?\n",
+          "score": 7
+        },
+        {
+          "body": "I’m not trying to knock your achievement by any sense of the word. Great job and great to see that even in Ireland they give people from non cs backgrounds a chance.\nI’m irish too, moving to SF though in June to work. I’ll point out that Ireland is unique since it’s actually easier to get an SWE position than most other places. There are more jobs in SWE in recent years and somehow the amount of people going into CS in uni is decreasing. Major problem being that Dublin has very high rent costs and yet still pay on the lower end (like €40k new grad) which makes it difficult to cope at times. So I’ll just mention that major distinction to those who are looking more in the US since this is an important factor to consider.",
+          "score": 9
+        },
+        {
+          "body": "Would you be able to post an anonymous resume? Or pm me one. Thanks! Congrats",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "title": "Please Help me decide between offers",
+      "body": "All for new grad\n\nData Engineer @ Fidelity 80k + 5k in rtp, NC\n\nData Analyst @ Capital One 106k + 15k McLean, VA\n\nData Science Analyst @ Discover 87k + 5k Chicago , IL\n\nTbh I want to do data engineering but I know the role can be hit or miss in terms of it being just sql etc. I am trying to get into Cap1s TDP program but they havent given me interview and idk if they will even though I interned over the summer and said they would. Should I just heavily align myself data engineers within c1 and try to fo some of the work for them or whats the play? Is it really worth taking that much of a paycut for the role?  I think I like nova more and would have more stuff to do than raleighs layout. If I took fidelity I would probably try to look externally very quickly so it seems pointless. I care about careerr progression and dont see much opportunity as a data analyst \n\nThank you!",
+      "subreddit": "cscareerquestions",
+      "score": 1,
+      "url": "https://reddit.com/r/cscareerquestions/comments/ygv5nv/please_help_me_decide_between_offers/",
+      "comments": [
+        {
+          "body": "I worked in RTP for a while. We had a LOT of ex-Fidelity people. They generally did not have great things to say about them.",
+          "score": 3
+        },
+        {
+          "body": "Discover",
+          "score": 2
+        },
+        {
+          "body": "I'd probably go for the fidelity one, but tough decision.",
+          "score": 3
+        },
+        {
+          "body": "Highly suggest fidelity as your first job. They are great with new grads",
+          "score": 1
+        },
+        {
+          "body": "Ask them how much time you should expect to spend on coding (and in what languages).",
+          "score": 1
+        },
+        {
+          "body": "I wouldn’t want to drive to RTP every day. I would take capital one. Since you’re in a top job hub and the pay is the best",
+          "score": 1
+        },
+        {
+          "body": "Fidelity would be best here as new grad",
+          "score": 1
+        },
+        {
+          "body": "Capital One - Work here (SWE) so I’m biased. Based off of SWE and Manager coworkers - I’ve only heard really bad things about Discover both technically (absolute mess [could have just been their team FWIW]) and management-wise (pay and incentive structure are both antiquated).",
+          "score": 1
+        },
+        {
+          "body": "Capital One here is the way to go! U can always grow and transition to a role you prefer!",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Fidelity Leap Program vs UnitedHealth Group Technology Development Program",
+      "body": "Hi!\nSo I got a offer from both Fidelity and UHG. The fidelity offer is for their leap program in their software engineering track for which I’ll have to go to North Carolina for 17 weeks for training and then come back to Jersey city, NJ (I am from NJ). And the other offer is at UHG(Optum) in their Basking Ridge, NJ office which is a 2 six month rotation program after which you get placed into your final team. The offers for the companies on paper are pretty much the same and so I am torn between what to choose since both are good companies and the roles are also similar. Any help would be greatly appreciated because idk what to base my decision off of rn.\nThanks!",
+      "subreddit": "cscareerquestions",
+      "score": 4,
+      "url": "https://reddit.com/r/cscareerquestions/comments/dtwppj/fidelity_leap_program_vs_unitedhealth_group/",
+      "comments": [
+        {
+          "body": "I have completed UHG’s TDP program so that’s the only thing I will comment on. I felt like it was a good way for me to get into the engineering industry as a non CS major but other than that it was nothing special. You won’t be working on anything that’s very interesting unless you get lucky. Almost everyone I knew from the program left the company after 1-2 years including myself. If you think Fidelity sounds more interesting, I would suggest you just take that role.",
+          "score": 5
+        },
+        {
+          "body": "Fidelity &gt; UHG 100%, unless you want to work in the health industry.",
+          "score": 2
+        },
+        {
+          "body": "I joined UnitedHealth Group's technology development program before and it was really meh. Most of the opportunities are located in Minnesota and not New Jersey. So I'd go with Fidelity. Fidelity also has one of the best website and app in the financial industry. Clearly, you can see that they value tech enough vs UnitedHealth Group... Feel free to ask more specifics",
+          "score": 2
+        },
+        {
+          "body": "Hey I'm also doing the Fidelity program and going to NJ!",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Is it rude/unprofessional to ask for a period to decide after receiving an offer of employment?",
+      "body": "I'm a recent CS BS grad looking for my first job in the industry and am going through a few interviews currently.\n\nThe process for a more local \"entry-level software developer\" position seems to be much more rapid than the process for another position - an associate SWE at Fidelity Investments. I've previously been made an offer for the same position at Fidelity and know what it entails/pays/etc - it suits my skill set and what I'd like to be doing much more than the local position, but I'm still waiting to hear back from them for the next steps.\n\nIf the local position were to offer me a position, would it be rude to ask for time to hear back from Fidelity and see if they would again give me an offer? If so, what would be a respectable period? I obviously don't want to keep the local company waiting if possible and need to get hired soon. How should I go about this situation?\n\nThanks for any tips you can provide!",
+      "subreddit": "cscareerquestions",
+      "score": 4,
+      "url": "https://reddit.com/r/cscareerquestions/comments/p6aw3l/is_it_rudeunprofessional_to_ask_for_a_period_to/",
+      "comments": [
+        {
+          "body": "No! It's perfectly normal at least in my country. Pushy behavior from a company can be a massive red flag though not to mention it's pretty rude on their behalf.",
+          "score": 13
+        },
+        {
+          "body": "Not at all. Beware the exploding job offer.",
+          "score": 7
+        },
+        {
+          "body": "The safest thing is to take the offer you've got and then if the other one is substantially better to bail on offer 1.\n\nYou CAN get your offer pulled for asking for more time. It is something that can happen. Yeah, some people will spin that as a \"would you want to work for someone who does x\" but realistically there's no shortage of new grads and I'd bet they have plenty of very capable candidates to choose from.",
+          "score": 6
+        },
+        {
+          "body": "Had a company pull their offer because I asked for more time to think rather than the two days they gave me to consider since I still had onsites etc scheduled the following week. It should be a courtesy but not every company will adhere to it so be ready for a no.",
+          "score": 2
+        },
+        {
+          "body": "&gt; Thanks so much for this offer. This is a big decision for me, and I'd like the opportunity to discuss it with [my family / my partner] before committing. I can have a final answer to you in [a week / two weeks]. Is this okay with the team?",
+          "score": 2
+        },
+        {
+          "body": "Definitely normal to ask for some more time (up to a week or so I think is very reasonable), companies might not want to go longer than this as other candidates might be in the process that they can move forward if you don’t accept.\n\nIt would also be good to tell fidelity you have/are expecting another offer so that they can speed up the process also. Makes sense that you would want both to consider, and if these are good companies/recruiters, they should understand this.",
+          "score": 2
+        },
+        {
+          "body": "No, you can ask for a grace period to consider your offer. Typically, you clarify that you're interviewing with other companies.",
+          "score": 1
+        },
+        {
+          "body": "Hey I’m also waiting to hear from fidelity for that same position haha. Probably a different state but still funny. Goodluck fam!",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "First Job Starting Monday - Anything to focus on now?",
+      "body": "Hello all,\n\nI was recently offered (and accepted) my first job as a software engineer with a large company - I am working on a small team, close with the hardware engineers, making high fidelity / low latency video transfer software.    \n\n\nAt my final interview I asked if there was anything I should study before starting and was told to just know c++ really well.  I'm pretty happy with the c++ I've been practicing, but was also wondering if there was anything else I should refresh my memory on?  \n\n\nThings like version control, or software engineering design paradigms I do not have a lot of experience with because I went to school for electrical engineering, but have since been focusing on coding and DSA since graduating. \n\nCan anyone recommend a version control management system that would be beneficial to learn for an embedded systems role?  Or maybe even some design principles or just junior engineer paradigms that would be good to study? \n\nThank you for your help!",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/t7ogz8/first_job_starting_monday_anything_to_focus_on_now/",
+      "comments": [
+        {
+          "body": "You've already got the job, one day of studying isn't going to make a difference. Instead get plenty of sleep, go for a nice walk, eat a good healthy meal, etc. so that you can show up on Monday sharp and ready to learn.",
+          "score": 3
+        },
+        {
+          "body": "It honestly depends on your org and their preferences. Git is pretty popular but YMMV",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Does anyone have experience with the hiring process at Fidelity?",
+      "body": "I'm moving onto the technical interview stage at Fidelity next week for a Software Engineer position after a piece of cake first interview, but I'm pretty nervous about this technical one. The hiring manager didn't give me any direction for the interview, and I'm worried about how it will go.\n\nI'm transitioning into CS from another field, and I'm kind of worried about memorizing all the DS&amp;A, especially tree/graph stuff. From what I've researched, the tech interview doesn't seem too incredibly difficult compared to other companies, but I was wondering if anyone had personal experience with Fidelity and could give some pointers.\n\nThanks!",
+      "subreddit": "cscareerquestions",
+      "score": 4,
+      "url": "https://reddit.com/r/cscareerquestions/comments/pc4iux/does_anyone_have_experience_with_the_hiring/",
+      "comments": [
+        {
+          "body": "Did you ask them what the technical interview is on? If not, ask the recruiter how you can prepare for the technical interview, if there is something in particular you should focus on. Reword as needed. \n\nThis should give you an indication of it's DSA vs \"real world\" etc.",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Sr. UX Analyst/Researcher vs. UX Designer",
+      "body": "Apologies in advance if this does not belong to CS directly but I would love some career advice.\n\nI've been working under the title of an UX Designer for the last 3+ years. I've been in my current role for a year and a half. I was hired as a UX Researcher primarily and my role has always been analysis-heavy with my current company. I do a ton of user research/interviews, synthesize data, and provide low fidelity wireframes for new product ideas (or for incremental improvements). I am in meetings with our C suite acting as an SME on user workflows, UX standards, user behavior, wants, UX needs, etc. I enjoy being in these meetings and I like being involved in strategy and coming up with ideas/problem solving on a larger business level.\n\nSo anyways our department is growing rapidly. My director/manager asked me if I either want to be promoted to a title of a Senior UX Analyst/Researcher and continue to focus on analysis, data synthesis, and product ideas/wireframes or if I want to shift to a more Designer role and focus on creating prototypes, research best design patterns, follow industry news, etc.\n\nI am kind of at a cross-roads. I fancied myself a generalist and in my previous role I did wireframing and prototyping for a media agency. I enjoyed coming up with product ideas but I did find prototyping to be pretty monotonous.\n\nSo which career path is more promising? And has better pay?\n\nAlso, how could my role grow as a Sr. UX Analyst/Researcher? Is there an alternative title I could have that has less of an association with a Business Analyst? I want to stay on the UX track/career path and I don't want to become an Analyst even though I enjoy the strategy/idea side of things.",
+      "subreddit": "cscareerquestions",
+      "score": 5,
+      "url": "https://reddit.com/r/cscareerquestions/comments/ojfz3f/sr_ux_analystresearcher_vs_ux_designer/",
+      "comments": []
+    },
+    {
+      "title": "Received Exploding Offer",
+      "body": "I've been searching for a job since September and am graduating December 2018. I haven't had the best luck with onsites (failed 3) but finally received an offer with Fidelity. This is my first offer, but they also gave me a timeline to respond by Wednesday, 11/21 before Thanksgiving. I am still in the process of scheduling a G onsite, and have a couple other companies I'm nearing late-interview process with.\n\n&amp;#x200B;\n\nThe start date is 1/15/19, which is why I believe they are pressuring me, but 2 days? I know my university has a 3 week minimum policy, which I could counter with. I mentioned that I have an interview next week to see the response, and the recruiter basically told me they would give my spot to other candidates at that point.\n\n&amp;#x200B;\n\nI'm also concerned because they would not send an offer letter (described salary/benefits over phone) until I verbally accepted (by 11/21). Just as an aside, I am also fine starting closer to spring rather than having no break after graduation.\n\n&amp;#x200B;\n\nHas anyone been in a similar situation? I wouldn't say Fidelity is my first choice, but for being my first (and only) offer, this is kind of a weird situation to be put in.",
+      "subreddit": "cscareerquestions",
+      "score": 2,
+      "url": "https://reddit.com/r/cscareerquestions/comments/9yinfd/received_exploding_offer/",
+      "comments": [
+        {
+          "body": "A verbal offer means nothing..  you can just accept and then later renege..  they’d do the same to you in a heartbeat if it was beneficial to them.  You have an on-site with G so you’re probably not incompetent, I’d say take the offer but continue interviewing and take another job if it’s better.",
+          "score": 18
+        },
+        {
+          "body": "Fidelity is a pretty big company. There's no way they are actually that desperate to fill one spot. So do not perceive the exploding offer as anything other than a tactic to get you to sign without considering other companies.\n\n1. Push back on exploding deadline. The three week policy is kind of a trump move, if you applied through your school portal or something. But also give a reason; say something like you that you want to finish interviewing with other companies; at the very least you at least need to discuss the offer with your parents (over thanksgiving dinner). I mean if they don't let you talk to your own parents about your first job, doesn't that make your recruiter look like a complete jerk? Refer to the [how to approach exploding offers](https://haseebq.com/my-ten-rules-for-negotiating-a-job-offer/) section here (if you haven't already). \n2. Email EVERYONE (maybe not G if you need the time to study), saying that you've received an offer with a tight deadline and that while you are confident you can get the time, you really need to get expedited. The companies that were really interested in you will bite.\n3. In the unlikely event that neither the companies you are in the process with nor Fidelity respond, you might have to make the decision to accept or reject. It sounds like (given you are able to land a BigN onsite) you should be pretty confident in your ability to get more offers. I would reject, but I'm not you and you need to make your own decisions. Personally getting an exploding offer would kind of be a red flag for me in considering where to work.",
+          "score": 7
+        },
+        {
+          "body": "[deleted]",
+          "score": 8
+        },
+        {
+          "body": "If they give you an exploding offer verbally, I would feel completely free to accept and renege later if another opportunity came along. If the company is not willing to give you the courtesy of a reasonable amount of time to consider a firm written offer, you should not feel any compulsion to stand by an acceptance made under pressure.",
+          "score": 6
+        },
+        {
+          "body": "I took an exploding offer last August. Here's what I think.\n\nYou have a relationship with your employer, same as how you have relationships with your family, friends, and your partner. If your potential employer hands you an exploding offer, it's because they know two things. One, they know you're worth more than they're willing to invest in you. Two, they're trying to make you believe that you're *not* worth that much, and that you *won't* get any other offers, which is why they're not respecting your time enough to let you evaluate your options.\n\nAn abusive employer wants you to believe that their exploding offer is a privilege. A good employer is confident that you'll choose them even if you had all the time in the world.\n\nI quit my job a few months ago. If I ever get an exploding offer again, I'm going to throw it in the garbage.",
+          "score": 6
+        },
+        {
+          "body": "How confident are you that you'll get other offers?\n\nThat's really the line here.",
+          "score": 3
+        },
+        {
+          "body": "I'm not sure if you've already moved forward with this, but this is just a tactic to try and  pressure you into accepting their offer.\n\nLinkedIn does this, the recruiter said I have 48 hours to accept before my offer expires. I just told them I couldn't do that and they accommodated whatever I needed.\n\nThe conversation went like this:\n\nRecruiter: Congratulations we've decided to move forward with an offer! [bunch of details] Oh and you have 48 hours to accept this offer or we will automatically revoke it. That's our policy.\n    \nMe: I'm sorry, I can't make a decision by then. I'm still waiting to hear details on another offer later this week. So I'm going to need until Friday at least [give them a date, don't let them choose one for you].\n    \nRecruiter: Fine but Friday is the latest and if you haven't accepted by Friday at 11:59pm we will revoke the offer.\n\nI would try this out before accepting verbally and don't sign anything until you're ready to accept the offer.\n\nedit; formatting",
+          "score": 3
+        },
+        {
+          "body": "The company I work for uses a similar tactic.  48 hour turn around is pretty long compared to what I've seen with these.  I once saw an offer where the person had until the end of the phone call to accept or not, and have seen on numerous occasions offers that were given early in the day, and expected to be accepted (or not) by the end of business that day.  \n  \nThey do this so that there's no room to negotiate, and no room to look elsewhere.  Companies that do this, won't value you as an employee and as such you should display no loyalty to them.  Accept the offer and continue looking elsewhere.  If something works out, you can back out on this one (especially if it's a right to work state), and if something doesn't work out you have a job lined up.",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "title": "\"You don't seem interested in working with us, where do you see yourself in 5 years ?\" Did I fuck up ?",
+      "body": "I am asking for your opinion on my answer, because I do not feel that my answer made a definitive impression.\n\nSome context. If TLDR, skip to the stars ***.\n\n- Been out of master's in machine learning for 2 years.\n\n- Been working as online programmer  at a company in the top 4 of a field non related to ML, but am applying for a data scientist position because I miss ML an science, even though I like my current job in the entertainment industry.\n\n- Have learned many skills that will be helpful in the prospected company.\n\n- Passed the phone screen, the technical test, the technical interview, last thing was the call with VP.\n\n- I introduce myself and my somehow diverse experience, things go well, except for the fact that when I explain that I am eager to feel proud to work in health and security related projects, he tells me the company is no longer working in health, but more with oil/gas, public energy companies, and agriculture. When given an example of project, I do express my (genuine) interest anyway.\n\n***Convo comes to an end, I ask what concerns the VP may have with regards to my application, titles sums up what he said.\n\nI answer that I usually think of the next step, and since I would like someday to build my own company maybe, they seem to currently be where I would like to get when/if I do start this company. I add that I liked seeing my current company evolve during the past few years I worked there, and given the small size of theirs, I would thrive at contributing to their evolution as well.\n\nI left the call not convinced if I shot myself in the foot, but one of their moto is about being true, so I do not expect them to expect me to promise my everlasting fidelity to their prosperity.\n\nI would be grateful to hear your opinion about this, so thanks in advance :)\n\n\n\n\n**-- edit**\n\nI did confirm to him that I was interviewing for at different locations. One one hand this confirms that I am not fully focused on their company, on the other hand I did not want to give them leverage. Thing is, I do apply to many companies, but one company after the other (in decreasing order of interest), and they are the current one, but I did not mention that last point.",
+      "subreddit": "cscareerquestions",
+      "score": 38,
+      "url": "https://reddit.com/r/cscareerquestions/comments/3oxaw3/you_dont_seem_interested_in_working_with_us_where/",
+      "comments": [
+        {
+          "body": "I think the VP messed up. That's a stupid thing to say to an interviewee. ",
+          "score": 53
+        },
+        {
+          "body": "It seems like a pretty ballsy thing to say to you. I mean, he's telling you that to your face that he thinks your being dishonest in your endeavor to work there. \n\nReverse it - how would you feel talking to an interviewer and asking \"You don't seem like you really want to hire me, who do you think is going to fill this position?\" \n\nSeems arrogant, or at the very least tact less to me. If you shot yourself in the foot, then so did he. ",
+          "score": 23
+        },
+        {
+          "body": "&gt;  I am eager to feel proud to work in health and security related projects, he tells me the company is no longer working in health, but more with oil/gas, public energy companies, and agriculture.\n\nWhen did the company switch areas?  And was that something you could have found out before interviewing there, or during the earlier interviews?  The VP may have felt that if you didn't know what they were working one currently then you weren't really interested (otherwise you would have dug deep into what they do).",
+          "score": 7
+        },
+        {
+          "body": "Who knows. If they really want someone to want to be there for twenty years then you did. If they want someone who is ambitious and striving to grow then you didn't. At a certain point you just have to be honest and let them make the judgement call. You can't always guess what they want to hear. ",
+          "score": 6
+        },
+        {
+          "body": "I don't think most companies expect a software engineer to stick around more than 3 years these days, anyway.",
+          "score": 3
+        },
+        {
+          "body": "The answer to where do you see yourself in 5 years should always be the same...\n\nAt your company doing such good work for you and your profit margin that you feel compelled to promote me and give me a big raise for the second time. (if you want to personalize it you can make that promotion into management or project management or team leader or whatever) \n\nNever indicate that they are a stepping stone to other companies or your own company. Even though hiring managers know they will have to do this all the time with good candidates, they'd rather feel they got lucky and don't have to replace you for a dozen years.",
+          "score": 3
+        },
+        {
+          "body": "&gt; since I would like someday to build my own company maybe, they seem to currently be where I would like to get when/if I do start this company.\n\nIt sounds (to me) like you plan to compete with this company in the future.",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "title": "General Motors (GM) vs Fidelity Information Services (FIS) offers. I need advice from people in the field, please help!",
+      "body": "Hey guys, so I just graduated Saturday and have 2 job offers, one from GM and the other from FIS. I'm really struggling to come to a decision on which to take. I dont know if I'm allowed to post salaries but the salaries are exactly the same between the two companies. GM is located in Phoenix, AZ, and FIS is in St Petersburg, FL.\n\n I am currently and have been living in Tampa while attending school and absolutely love it here. I've never been to Phoenix in my life. I also am early in a relationship and I'm terrified to leave because I'm in love and we talked about it obviously and he wants me to take GM but it really risks things when it comes time to move. \n\nIn terms of benefits, GM wins hands down. They fully pay health, dental, vision, match my 401k 100%, have more paid holidays and vacation time increases every so often. They also offer a 10% raise every year for the first 3 years and from what I've been told, a very large annual bonus. They even give me an insanely nice relocation package. \n\nFIS on the other hand has no annual bonus, no relocation (which isnt as big of a deal since I'm in tampa already), I have to pay some of my benefits ($10 for dental, 5 vision, 150 health per month) (this is kind of offset by the fact AZ has state income tax and Florida doesnt though) and they do say I get evaluated for a raise every 6 months for the first 2 years, but cant give me a percentage since its performance based. So if it's not a great raise, obviously GM is all around better. \n\nI'm just scared to move so far on my own and maybe give up everything for a job when I have an offer here as well. Location I think I would prefer to stay in Florida, but are those benefits too much to pass up? Would I regret my decision of passing up GM for FIS? Does anyone have advice on either company? \n\nFIS also had a much much less intense interview process (2 interviews, an initial phone screen and then a Skype interview, not even a coding one) while GM had an original video, then coding, then a phone screen, then two separate video interviews. \n\nI'm mainly scared of losing a relationship that is already likely to end because he is unsure if he even feels for me and if he does he said we would make it work if I choose GM. Has anyone worked with either or have advice?",
+      "subreddit": "cscareerquestions",
+      "score": 7,
+      "url": "https://reddit.com/r/cscareerquestions/comments/ebomeb/general_motors_gm_vs_fidelity_information/",
+      "comments": [
+        {
+          "body": "Look up gm reviews, it's a shithole, I worked there for a month and quit because they lied about the position they wanted to milk new grads and or employees on visas.\n\n Correct me if I'm wrong but they laid off 15k workers recently some IT staff within that then noticed oh shit we need IT staff. Interpret that as you will.\n\nFrom fidelity you will  get a good reference for working in fintech if that's up your alley if not now then maybe later.\n\nP.s space out your posts as if you're writing an essay please\n\nAnother P.S the raise comes at a cost they dangle a carrot in front of you for you to chase in hopes that you get it.\n\n Everyone I worked with was fighting for themselves no one shared salaries etc, my supervisor took Thursday and Friday to work from home or he was 'sick' every week, because there was nothing to do, so if you want to use the time off that's that. He had 1 year exp on me BTW.",
+          "score": 7
+        },
+        {
+          "body": "I worked GM Phoenix. I left this year.\n\nI found the culture pretty good, and the workspace. You get your own cube and desk, it's not like certain open offices where you sit at a cafeteria table.\n\nA relocation package to Phoenix is kind of rare as far as I know, so it's excellent you got one.\n\nUnless they changed benefits since Apr, you have them a bit wrong. On new college grd:\n\n\n- 4.4% raise, every 6mo, for the first 3 years. This can be decreased if you don't meet expectations but is free. \n- Healthcare is somewhere around $30-40/m, but you can get ~$1500 HSA contribution by GM.\n- 401k match is 4%, with 4% given for free. 8% total.\n- Retirement account match does not vest until 3 years. So if you *quit* before 3 years, you don't get the match.\n- Holidays are some of the most I have ever seen, with a Christmas break, and then you get 15-20 vacation days, and a large number of sick days.\n- Generally you do not want to be promoted before 3 years as the raise is lower than the 4.4/6m. A promo stops that raise structure.\n\nSome downsides:\n\n- After 3 years, or promo, you no longer get the guaranteed 4.4/6m raises. Raise amounts can vary but some seniors I talked to reported 1-4%. On averae\n- Work from home is difficult to get on most teams.\n- Best promotions further require you to go into management, but I have seen many high performers not move up. Common wisdom is that to move up you want to be seen in the Texas office. May be better off switching companies in Phoenix in a couple years instead.\n\nMany people really like the culture and this causes them to stick around, despite *some* engineer positions paying less than market. However this is a valid tradeoff. (In Phoenix, a job move out of GM/nch should result in a ~20% raise).\n\nThe location is Chandler, not Phoenix, so slightly lower COL. Very close to Phoenix which is currently loaded with software jobs.\n\nGeneral advice for someone coming in is to be sure you want to do the assigned task. Team moves require ~1 year. Also, use 100% of your vacation days as they never roll over. If you quit you can recover some for that year.\n\nPM if any more questions.",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "title": "Opinions of Fidelity Investment's technical internship program",
+      "body": "I just got an interview (I submitted my application in October last year!) from them and I'm wondering if I should take the offer, if I ever get one. I'm only interested in the quality of work, because the internship I have right now is a spectacular opportunity for me, as I'm allowed to design and develop complex applications from scratch. Of course, having another name is good on my resume.\n\nAlso it's quite strange they would follow up today, right after WHO declared a pandemic. Maybe is it because the accepted interns declined their offers? I'm a bit hesitant because I don't think it's worth the risk for potentially uninteresting work. I'd like to hear any input from former Fidelity interns!",
+      "subreddit": "cscareerquestions",
+      "score": 1,
+      "url": "https://reddit.com/r/cscareerquestions/comments/fh87pk/opinions_of_fidelity_investments_technical/",
+      "comments": [
+        {
+          "body": "Not sure how helpful or relevant this might be for you but they don't provide relocation assistance if you need that. I was also reached out by them in the past 2 weeks which was strange since I applied last July. Personally I haven't heard many good things about their internship program or the company as a whole, but maybe a former intern can better help with this",
+          "score": 3
+        },
+        {
+          "body": "As Usher said on confessions, it's all bad",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Pausing Your Career Progression to Work on a Side Hustle",
+      "body": "For a variety of reasons I've thought about leaving my software development job for another one due to a manager that is disengaged from his people, the dev work is too easy to be stimulating (either that or maybe just being in software for 10 years out of school has felt like the same stuff over and over - connect this web page or mobile app to a database), we have new leadership and lots of people have left the team and they haven't filled new roles yet. I think longer term they will offshore some of the development. Overall the job is a breeze but not particularly stimulating. I've been there several years - long enough to accept the politics/bureaucracy for what it is. The pay is pretty good as I'm just slightly north of six figures.\n\nI've been doing some soul searching recently. Because several other team members have left for brighter jobs I feel I should do the same but everything I look at is uninspiring. I'm on the phone with recruiters and things go well with phone screens but I'm so bored with the calls and the potential interviews I almost just want to stay where I'm at.\n\nThe main justification I use for staying in my current job instead of pursuing yet another incremental pay increase is due to the hope that one day one or more of my side projects will become my primary income. Finding another job for yet another employer to go do the same type of agile ceremonies, working on a slightly different soul-sucking enterprise application does not sound inspiring to me. That's why I don't feel switching jobs for a 10% increase is worth it but that is what seems to be acceptable given my current pay and what the local area will allow.\n\nI think the thing that really gets me excited is to work on software projects I invent outside of work. Specifically subscription-based cloud applications (SaaS). I work on that sort of stuff all weekend and sometimes during the week when I'm not too tired after work. It is very slow going and at this point I don't put crazy hours into it but I enjoy it and I see my day job as a way to maintain the status quo while I slowly build my empire brick by brick at night... with no guarantee of success of course.\n\nI believe building your own business is the key to lasting wealth. It would be the final frontier for me since I already max out my 401K and roth IRA. I have an emergency fund, house is paid off, and now I just throw all excess money into a taxable brokerage account full of Vanguard index funds. I have what Fidelity would consider a 50 year old to have saved for retirement (I'm 35). I have come to accept climbing higher in wealth would probably mean moving out of software development into management which I have no interest in doing. So the next best thing is a business of my own.\n\n**So my question is should I still be open/willing to take a risk on a new day job? Is having a side business a good justification for not looking at other prospects if that is what excites me more longer term?** I feel like I have gotten too comfortable at my current job and I use the side hustle stuff as an excuse to stay where I'm at because it \"supports\" my side hustle focus so well. The work-life balance is excellent which I think is great for working on a side business. It's extremely rare to work over 40 hours. At this point it feels like switching would be for a small bump in pay of 10% which really wouldn't do much for me other than allow me to contribute an extra $1K/mo into my brokerage account.",
+      "subreddit": "cscareerquestions",
+      "score": 1,
+      "url": "https://reddit.com/r/cscareerquestions/comments/extgo9/pausing_your_career_progression_to_work_on_a_side/",
+      "comments": [
+        {
+          "body": "I would do a side hustle if I could. I'm in a similar place as you, where sure more money would be great but not for more stress. Since my current job has great WLB I've tried making some side hustles, but so far I've been unable to make any profit. Worse than that, I wasn't even able to finish a MVP. There are so many competitors that any idea you may have requires real work to build. Eventually that \"side hustle\" will require more hours than your day job. Sure it's great if the project is also making more money than your day job, but that's often not the case. \n\nIMO you have a few options\n\n1. Find a more engaging job, with higher pay (big tech)\n\n2. Move to management (maybe you like it? if not you can move back)\n\n3. Stay where you are and build the side hustle.",
+          "score": 2
+        },
+        {
+          "body": "Odds are you are not the next Facebook. If you do it, dont do it for money. If you went into tech for money, stay employed by the industry— you’ll likely end up on top this way. theres no objectively right or wrong decision; you need to do what’s right for you.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Internship at VMware vs Fidelity Investments",
+      "body": "I recently had my internship cancelled (at Groupon) like a lot of other people so I am interviewing pretty last minute for another internship for this summer. If you had to choose between a Software Engineering Internship at VMware or Fidelity, which one would you choose? (I don't care about compensation and both are virtual)",
+      "subreddit": "cscareerquestions",
+      "score": 1,
+      "url": "https://reddit.com/r/cscareerquestions/comments/g50nl7/internship_at_vmware_vs_fidelity_investments/",
+      "comments": [
+        {
+          "body": "Without knowing anything else, I would definitely choose VMWare.",
+          "score": 16
+        },
+        {
+          "body": "100% VMware",
+          "score": 6
+        },
+        {
+          "body": "No brainer VMware",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "title": "Ghosted by Fidelity?",
+      "body": "Has anyone had this happen? I applied for their Leap program, did the Hirevue video interview was contacted to schedule the next round and it's been 2-3 weeks since I sent them my availability. Is this normal?",
+      "subreddit": "cscareerquestions",
+      "score": 4,
+      "url": "https://reddit.com/r/cscareerquestions/comments/85mg43/ghosted_by_fidelity/",
+      "comments": [
+        {
+          "body": "Getting ghosted by a company in the interview process is sadly not that uncommon in the more early stages. You might find yourself getting a rejection email more than a month from now. If it's been more than a few weeks and you have no point of contact my suggestion would be to move on with other potential leads. It's a gut punch but there's nothing for it. If you have an email address you can contact through i'd ask for an update. ",
+          "score": 4
+        },
+        {
+          "body": "I workrd there for a few horrible, miserable years.  You dodged a bullet.",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "title": "About to Accept Two Internship Offers - What To Do",
+      "body": "To give you some background, I am a junior CS Student at a Top 25 CS school with great GPA but no real internship experience. Last semester, I applied to over 50 companies (both \"reach\" companies and local options) and heard back from a number of them. After weighing my options, I am down to two companies - one whom I've already accepted.\n\nLet me explain:\n\n1.) Around February 1st, I accepted an offer at a Fortune 500 Insurance/Finance Company (located in Connecticut) working in their software development department. I accepted the offer as I had finished all my interviews and was given an offer valid for only 72 hours. At this point, I figured this was my best option for the Summer. Although it was not my \"dream\" internship or company, I accepted it as I wanted to have something for this summer. This job pays mid-$20s/hr.\n\n2.)Fast forward to the last two week, a major US Defense Contractor/Missle Developer contacts me to begin interviewing for a position I applied for back in October. I go through the interview process - because why not - and end up landing an internship as a Software Engineering Intern paying around mid-$30s/hr. I would consider this company and internship program to be my \"dream\". I am highly considering accepting this offer because I knew it is an opportunity that, if missed, would haunt me for the rest of my college career. \n\nBut now I am in a shitty situation. Company #1 was incredibly nice, well organized, and really made me feel wanted; but dream Company #2 just started their process incredibly late and has put me in a complex situation.\n\nDo I bite the bullet, accept my dream internship and email company #1 saying \"Um, Sorry...\". Or should I remain ethical and stick with my original offer. Plz help.\n\n",
+      "subreddit": "cscareerquestions",
+      "score": 3,
+      "url": "https://reddit.com/r/cscareerquestions/comments/82trm0/about_to_accept_two_internship_offers_what_to_do/",
+      "comments": [
+        {
+          "body": "Fidelity vs Leidos?\n\nIf 2 is your DREAM, then renege. As simple as that. Doesn't seem like you'll ever be in a position of re-applying to Fidelity.\n",
+          "score": 6
+        },
+        {
+          "body": "[deleted]",
+          "score": 3
+        },
+        {
+          "body": "Trying to get one internship to happen in the Fall is an excellent idea but might not work out. If not possible, I would call the recruiter at internship 1 and let them know your circumstances have changed and you will not be able to do the internship. You shouldn't feel obligated to clarify. This is a pretty common occurrence. It's also early enough that they have definitely not finalized team placements, so you are not putting them in too bad of a situation.",
+          "score": 2
+        },
+        {
+          "body": "Maybe just ask them both?   Inform them of the situation and see how they respond. If they have time to find someone else, or maybe line you up for a follow up position, then they might be on board. Never hurts to ask.",
+          "score": -1
+        },
+        {
+          "body": "raytheon is paying interns mid 30s/hour?\n\ni just got an offer there for mid 80s (this is in dfw) with several years of xp",
+          "score": -6
+        }
+      ]
+    },
+    {
+      "title": "What should I expect prior to an initial 30 minute phone interview with Fidelity (FCA)?",
+      "body": "I'm a recent graduate and have a scheduled 30 minute interview for the Financial Customer Associate position. What questions should I expect during the interview and how would you recommend preparing for them? Thank you for your help, I lack interview experience.",
+      "subreddit": "jobs",
+      "score": 2,
+      "url": "https://reddit.com/r/jobs/comments/1kcahj0/what_should_i_expect_prior_to_an_initial_30/",
+      "comments": [
+        {
+          "body": "I'm sorry no one responded, but if you don't mind sharing howd it go?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Fidelity employment check",
+      "body": "I recently got a job offer from fidelity, but I’m pretty nervous waiting on my background check. When I worked at a place and was told I was a Co Manager. I even did job interviews and other co manager duties but I was young and dumb and didn’t look at the official job title when signing my offer. I was just an assistant. So when I put co manager on my background check they told me there was a discrepancy….. I’m worried they’ll rescind my job offer…",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/1ktj1qp/fidelity_employment_check/",
+      "comments": []
+    },
+    {
+      "title": "How I Lost My Job to IRS Delays and Corporate Apathy",
+      "body": "Excuse the formatting. I am on mobile and terribly upset, so I cannot guarantee the same eloquence and visual fidelity as I would have on a laptop, in a calm state of mind. I've included a TLDR at the bottom.\n\nI am a full-time college student, majoring in Finance. I'm on scholarship, and I take 15-16 credit hours a week. This past semester, I had some unexpected medical expenses that forced me to pull out of my savings. Despite applying to the few hundred internships I typically apply to every semester, I decided to put in some extra oomph and look for a part-time job as well.\n\nGold struck when I was cold-e-mailed by Education at Work, a non-profit dedicated to employing students in the midst of end of their postsecondary education. It was to be a Tax Specialist, an opportunity that quite literally fell into my hands. It was part-time, remote, and it paid decent. After appplying, I was asked to interview with them on a random Thursday. Went in the interview, chewed ass, kicked bubblegum, and I got the job three hours later. It's pretty rough at first. Orientation and training schedules keep changing, I don't have my equipment because I'm not home yet since they're changing the times constantly, etc, etc. Finally, I get home with my equipment, Monday comes, and the first 40 hours commences.\n\nEssentially, this first week required us to be on a Zoom call for 8 and a half hours, cameras on at all times, mics were optional. During this time, we would individually navigate the Intuit Academy platform, a learning destination brought to you by the same people who bought TurboTax. The goal was to complete Tax Level 1 by the end of the week--a task that sounds simple at first, but is actually incredibly grueling and requires inhuman amounts of memorization. I make it to the end, fail my first exam attempt, study my ass off all night, and pass the second attempt in the morning. Am I done? Hooray! No, not quite. I now have two days (Friday and Monday) to finish the tax preparation portion, which consists of 13 tax returns, and yet another final exam which will also earn me another nice little Credly badge to add to my collection.\n\nMiraculously, through the power of the indomitable human spirit, I pass yet another bullshit test they throw my way (still waiting on my Credly e-mail). After completing the test, HR and my trainer pull me into a break-out room, give me a virtual pat on the back, all hugs and smiles, then tell me I need to then create a PTIN account, and subsequently provide my trainer my PTIN number. A PTIN is a preparer's tax identification number, required for any preparer to examine or help with a tax return. Essentially, what I need to do my job as a tax specialist.\n\nI'm still in college, and I've been claimed as a dependent for as long as I've been alive. When going to create a PTIN, the IRS asks if you have filed an individual tax return, or if you have been claimed as a dependent for the past 4/5 years or so. I chose the option that applied to me. For whatever reason, it could take the IRS 6 weeks to get back to me.\n\nI feel as though I should also mention that my employer has been cutthroat. Several of my colleagues who have failed either of the exams at least twice have already been terminated from the program, despite many of the shortcomings indicating a fault within the program itself.\n\nI went to go watch Sonic 3 with my little cousins today, I get a call from HR while in the movie. The phone is on DND so I don't even notice until I'm out. I give HR a call back, \"You may not proceed with training this coming Monday until you've received the necessary credentials, which require your PTIN number.\" Professional speak for, \"Eat shit.\"\n\nI say, \"Right, I am still pending my PTIN number from the IRS. I've completed all my certifications, exams, on time. I even applied to my PTIN early and I still have not gotten anything.\"\n\nHR says, \"Correct. And while it is not your fault, you do not have the required credentials to continue training. If you'd like, we can refer you to the Turbo Tax product specialist recruiter.\"\n\nLastly, HR so kindly referred me to the IRS's PTIN Help Line which conveniently closed an hour ago. I'm fucked, and I'm so fucking upset. It's an at-will employer so I can't do shit. I want to retaliate, ooh, I want my reparations so bad. But, in corporate America, it's the little guy no one looks to once his neck is on the noose.\n\nI can't even go for the product specialist position because there will be 40-hour training sessions while class has already started. God, I hate my fucking life.\n\nTLDR: I'm a finance major who landed a part-time remote Tax Specialist job to cover unexpected expenses. Training was chaotic and intense, but I passed all certifications. However, I can't proceed because the IRS delayed issuing my required PTIN, and my employer won’t wait. They suggested a role with hours that conflict with my classes, leaving me frustrated and stuck.",
+      "subreddit": "jobs",
+      "score": 0,
+      "url": "https://reddit.com/r/jobs/comments/1hnw8t2/how_i_lost_my_job_to_irs_delays_and_corporate/",
+      "comments": []
+    },
+    {
+      "title": "Should I quit my first UI/UX design job? I already miss the old design company",
+      "body": "TLDR: 24yo, recent graduate. I am in dilemma of resigning after just 3 weeks in the UI/UX design small company job. I not sure their way of working is truly UI/UX, and I don't feel the friendly vibe from my senior nor is the atmosphere feel friendly. I still can bail out as I still hold the part time position at old company, it is more like they will ask me if I am free to do the work for them so it's kinda like few months and get one project type of job. The full time in my old company kinda filled but there is still chance. I am not in financial crisis or anything as I live with parents so there's that. Should I listen to the distress of my heart or keep going for few months until I fit in?\n\nHello, so for context I am a recent fresh graduate in Malaysia. I used to work as intern in a normal graphic design company and work remotely part-time for them as well after I graduate as I take some time to relax. Why I didn't go full time there? It is because it was far like 1 hour 30 minute per commute but at least I was using public transport. I live comfortably with parents for now and I usually back home with 1 hour of free time not counting eating or bathing.\n\nThe reason I change to UI/UX design is because I still young so I want to try something that I always want to try and ngl it is about money as well. The company I found and accepted in also near to my place, go to the office by driving 30 minutes and back in 1 hour if there is traffic congestion. But now I feel it is more stressful than what I thought\n\nNow the main point is... 3 weeks in I feel like I am not fitting in the company well. It is a small company and there is only 1 senior I have to face him everyday. The onboarding was really tame, and I am instructed to study material design and human interface guideline under 3 days and the next week I already start on a medium size project.\n\nI am also not sure if this is really UI/UX design job... Because I need to add additional function to a in house software. There are no wireframing, only high fidelity mockup of previous work. I have to follow the material design guideline in spacing and also the company way of arranging the layers. There is no corporate identity, only follow the material design and their old works...\n\nThe office atmosphere is not really friendly, everyone is so quiet with one desk far from each other despite sitting on the same desk. The senior is not really friendly... On second week he keep telling me the design is not that good and when I ask back how it should he told me to figure out myself. And he also always explain in unfriendly tone and there are so many internal feedback. After 3 weeks, today he final teach me how they doing the layer grouping in 1 hour. And I have to show the work at 8am tomorrow. Which mean I have to OT, and they dont pay for OT. I asked in interview if they OT a lot, they just told me they back on time but if there are task then we have to bring back home and there is not OT payment. The annual leave system needs go through 4 persons. HR, 2 managers and boss despite being a small company, they are actually under a big sister company that is controlled by a boss.\n\nAlthough my intern job was far, but at least I was kinda not feel hopeless at there, the seniors are friendly. And they do have OT payment or leave, their benefits much better despite being lower salary like $500\\~$300 than my current job. At least I dont think about my work at home.\n\nSo now I kinda in a dilemma, should I quit my current job as soon as possible since it is probation period? And I still have chance to go back to my old company as I was still their part time worker, although their full time position might be filled. Should I wait for 3 more months until my probation end? Should I just fit in and keep trying at the current company? Now I dont even do anything I like during free time, I have to look for the work.\n\nSorry I crossposted this in multiple subs.",
+      "subreddit": "jobs",
+      "score": 0,
+      "url": "https://reddit.com/r/jobs/comments/1dtikuw/should_i_quit_my_first_uiux_design_job_i_already/",
+      "comments": []
+    },
+    {
+      "title": "4 month long interview process - didn't get the job",
+      "body": "Last November I reached out to what looked like my dream job at a dream company (lead product designer at an outdoor ecommerce startup.) The CEO reached out to me directly to schedule a phone interview, which went really well. He said he was very impressed with my background and portfolio and outlined the next steps he wanted to take: a group interview with the heads of tech and marketing followed by a final dinner with the staff to assess personality compatibility. He explicitly said that there would be no design challenges and that his goal was to reach a final decision in two weeks.\n\nMy next email from the CEO was that, surprise!, he has a design challenge. My alarm bells didn't start ringing because this is so standard in the design industry. So, I hosted a design sprint for the CEO and three other executives, and it was one of the best interviews of my life. Not only were people engaged and responding to the prepared materials, we left having outlined an entirely new product strategy. I received thank you emails from all of the participants, the CTO telling me he was excited to work together soon. Then...radio silence. Nothing for about three weeks. \n\nFinally, the CEO responded to my follow up email explaining that they were in a tight stretch of work with EOY tax forms, and suggested we do a paid contract project to start. We signed a contract, and I began working on what would become an entire product ecosystem, complete with high fidelity mockups. Again, he takes over a week to respond to every email and is now not fulfilling my invoices. At last, at the beginning February, he finally sits down for a call with me and says he has some reservations. He never actually says what these reservations are, and also immediately follows up by saying he has loved the work I've done so far and would like to try a trial run of two days/week. At this point, I was pretty frustrated. I also hadn't been paid for the 60+ hours of work I had invoiced. I followed up after the call outlining what had been said and also letting him know that I would only be able to commit to 2 weeks of the part-time trial period. I also resent my invoice.\n\nToday, I got the email that not only did I not get the job, but that there was not even enough design work for a full-time position. I haven't replied yet because I'm honestly furious. I've been strung along for fourth months after being promised a two week process, been asked to do work for free, not been paid for contracted work, and received absolutely no concrete feedback. I'm not expecting a job to be handed to me, and if this guy had told me earlier in the process that I just wasn't what they were looking for, I'd be fine with that. But I feel like they've been keeping me on the backburner for free work, waiting for some unicorn of a candidate to come around. I'm not even sure what to do at this point. I know the responsible thing would be to graciously accept the rejection and say that I'd still love to work with them on a freelance basis if they ever need it, but all I want to do is send this idiot a manifesto of why his hiring process sucks and then take them to small claims court to give me the money I'm owed.\n\nTL;DR - strung along for a 4 month+ interview process at a startup to be rejected &amp; told that there wasn't enough work for a full-time role to begin with. startup also signed contract for paid freelance work halfway through and haven't responded to multiple invoices.",
+      "subreddit": "jobs",
+      "score": 22,
+      "url": "https://reddit.com/r/jobs/comments/su8oou/4_month_long_interview_process_didnt_get_the_job/",
+      "comments": [
+        {
+          "body": "Hello, thank you for posting to r/Jobs! \n\nWe just wanted to let you know that we have a new [discord server, come join the chat!](https://discord.gg/TY6ErXV)\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/jobs) if you have any questions or concerns.*",
+          "score": 1
+        },
+        {
+          "body": "I would absolutely chase those 60 hours of work. You said a contract was signed? Then he has to pay you. Write a polite letter offering him one more chance to pay before you unfortunately have to take the matter to legal. Then get paid and move on from this shady business (dropping their name here as you do).",
+          "score": 3
+        },
+        {
+          "body": "Did you know that there are more slaves now than anytime in history?",
+          "score": 3
+        },
+        {
+          "body": "I don’t want to come off as rude but really there are so many red flags that anyone with experience would avoid this issue rather easily. It seems the CEO continues to lie to you and you continued to go for the dangling carrot of the dream job at dream company. Blow off steam. Live and Learn.",
+          "score": 3
+        },
+        {
+          "body": "The joy of startups.   I hope you got paid... I have lot of stories from this type of work with startups that just... don't work.\n\nYour find a good one soon don't worry.",
+          "score": 1
+        },
+        {
+          "body": "Bullet dodged! This is not a good place to work for, clearly. Do not \"graciously accept the rejection\" because this situation is absolutely ridiculous...but don't rage through a manifesto either. Try to keep somewhat cool and collected.\n\nSomething like:\n\n\"I'm sorry to hear that but agree with the outcome because, based on your hiring process it's clear this is not a good fit. However I do expect the work I completed to be compensated. As a reminder, I'm owed X and my invoices are attached.\"\n\nIf you don't hear back for a week...\n\n\"I've started the process of seeking legal counsel to claim the X amount the company owes me. If I don't receive compensation by X date [like three weeks in the future] I will pursue small claims court. Hope we can resolve this soon.\"",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Fidelity hiring experience?",
+      "body": "Hello all, I applied and went through 2 interviews with Fidelity over a month ago. They've been calling roughly every 2 weeks to provide an update. The update is that they are still reviewing the interviewed applicants and have not reached mine yet. I was wondering if anyone has had this experience and how long it took for you to receive a yes/no?",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/12ao1w5/fidelity_hiring_experience/",
+      "comments": [
+        {
+          "body": "Hello, thank you for posting to r/Jobs!\n\nWe just wanted to let you know that we have a new [discord server, come join the chat!](https://discord.gg/TY6ErXV)\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/jobs) if you have any questions or concerns.*",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Does anyone have experience to share on the Fidelity Technical Internship Program?",
+      "body": "Anyone recommend this program?  Or otherwise?",
+      "subreddit": "cscareerquestions",
+      "score": 2,
+      "url": "https://reddit.com/r/cscareerquestions/comments/5865q9/does_anyone_have_experience_to_share_on_the/",
+      "comments": [
+        {
+          "body": "Fidelity Investments? Sure, I did it 2 summers ago. It was my first software engineering internship and I'd say it opened up many doors (I worked at a mid-sized tech company in San Francisco last summer and am interviewing right now). In terms of actual experience there though, it was pretty boring. All the tech interns I was with were doing nothing meaningful, and I personally wouldn't see my boss for weeks. It will be up to you to learn and find a project to try to contribute to. Salary wise, it's pretty good. When i was there I got paid 26 an hour, and i believe if you're a senior, then you get paid 29 an hour. Not quite competitive with the 45 an hour that top tech companies offer, but still great for an internship nonetheless.",
+          "score": 3
+        },
+        {
+          "body": "[deleted]",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Which Offer To Take?",
+      "body": "Hi everyone!\n\nThrowaway account, but I am fortunate enough to have multiple offers on the table. I just wanted to let everyone know that you should not give up and keep on applying and keep on interviewing cause sooner or later you will get an offer! I am having trouble deciding on which offer to take.\n\nI have 3 offers, 1 offer from Accenture as a developer associate with a pretty good salary (ideal location), 1 offer from a big bank (think Citi, BoA, JPMorgan Chase) at their HQ with a pretty good salary (not ideal location), and 1 offer at fidelity investments with a lower salary compared to the other two. My goal is to learn a lot, but I'm afraid of taking one offer at whatever company and worrying about how it might be hard to go to another company with my career goals. Which company do you think has a good company culture/prestige/learning opportunities/good exit opportunities?",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/dmqhxc/which_offer_to_take/",
+      "comments": [
+        {
+          "body": "Assuming the role with Accenture will have you consulting for clients I would take that one. Gets you the most exposure to different industries and systems. But if it's an in house role I would avoid it. Internal tools at consulting firms are terrible.",
+          "score": 2
+        },
+        {
+          "body": "I haven’t heard good things about Accenture on this sub. People usually say take a job from them if it’s your first and you don’t have any better options. I’d recommend searching them on this sub so you can make up your own mind about them.",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Does anyone have experience with Fidelity Leap program?",
+      "body": "Hi CsCareerQuestions,\n\nI'm planning to apply to Fidelity's leap program as a software engineer. I'm not pursuing a CS degree. I'll be graduating with a degree in Informatics with Data Science minor. Much of my coursework is CS but I haven't had as much math courses as CS majors and fear this may hurt my chances.\n\nI'm wondering if anyone here has any experience interviewing for the position or can point me in the right direction in preparing for the interviews. \n\nThank you. ",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/6jghzy/does_anyone_have_experience_with_fidelity_leap/",
+      "comments": [
+        {
+          "body": "I knew several people with non-CS (IT or program management) degrees who got into the Leap program with no work experience. I also interviewed for it (turned down the offer though), and the whiteboard tech interview was hilariously simple. Like if you've passed your basic programming and database classes, you'll have no problem. This was for the software engineering track, so I don't know if you're going for the database track if they'll ask more about math but...if it's the same level of difficulty as my interview, don't worry about it.",
+          "score": 3
+        },
+        {
+          "body": "I interviewed with them and did well. Math isn't going to be the hugest of issues you should be worrying about. It's not a really difficult interview to go through; Glassdoor is your best friend here. ",
+          "score": 1
+        },
+        {
+          "body": "[removed]",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Interview at fidelity",
+      "body": "I got an interview for FCA at fidelity after working in retail for 6 months, I am trying to practice for the interview but I am not a native speaker so I still struggling with the answers and having a lisp while speaking, what should I do I an really nervous and want this job really bad.\n",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/1kfog5z/interview_at_fidelity/",
+      "comments": [
+        {
+          "body": "Congrats on landing the interview! It's totally normal to feel nervous, especially if English isn't your first language. One thing that helped me was practicing interview answers out loud and recording myself. Over time, you get more confident and notice where you can improve. If you want, I can share a few practice tips that worked for me.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Feeling worthless",
+      "body": "I had finished a contract job at Fidelity and absolutely loved it, even got my contract extended a month. I had applied through out my whole contract to get another job but I wasn't qualified, I kept getting interviews but then I keep getting denied after my interviews, maybe it's what I'm saying or after further inspection I'm not as qualified as they need, but this suck. \n\nI have a bachelor's degree and gonna turn 23 next month, I know I shouldn't be as stressed and rushing to get a job but I can't help but feel like I'm sinking in a hole and I won't be able to get a job that pays well in this current climate. This was mostly just a vent and I'm sorry, I needed to put this out of my brain, I had been spiraling for 2 weeks and feel just naive and aimless in my life right now",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/1jwj52b/feeling_worthless/",
+      "comments": [
+        {
+          "body": "I've been there my friend. No shame in that. You need to apply to many jobs, contact recruitment agencies and if you can't stay with family, then start looking at work in other locations.\n\nThe beginning of your career is always flipping tough, I bounced around alot in my twenties before I finally built something of my self. You can do it!",
+          "score": 2
+        },
+        {
+          "body": "How many jobs have you applied for and what city do you live in?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Help! Looking for feedback on my resume.",
+      "body": "",
+      "subreddit": "jobs",
+      "score": 2,
+      "url": "https://reddit.com/r/jobs/comments/1itrbjd/help_looking_for_feedback_on_my_resume/",
+      "comments": [
+        {
+          "body": "Back in a professional communication course I took in my last year of college, my professor (who was a CEO of a successful startup) said during the hiring process they would put applications into 2 piles. Any application over a page long would be immediately put into the trash pile. While you have a lot of experience to be proud of, you have to remember employers are being swamped with resumes and don’t want to have to spend too much time on any one resume. I would consider condensing your resume by cherry picking your most relevant experience to whichever job you’re applying to. Good luck!",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Job offered Friday afternoon; rescinded Monday morning. How common is this?",
+      "body": "I am curious if I encountered an unusual chain of events, or if my experience is an indicator of the latest in dirty HR practices, or if I just royally f\\*cked up (or maybe dodged a bullet)?\n\n# TL:DR. Got job offer Friday 3pm; wrote an email over the weekend asking to discuss details (no word back); Monday 10am job offer rescinded.\n\n**How the offer started:** Two series of interviews, then told I would learn their decision on Monday for a fully remote position. This time estimate then changes from Monday to Thursday, and then Friday. Friday afternoon (3pm west coast time) I receive a message from HR congratulating me on the job offer. The first call from HR was missed because it came from a number that was not recognized and I had not been told the name of the (outsourced) HR business or contact person. I found it very weird because I had received no call or email from the managing me to inform me that a decision had been made.  Every other job offer that I have held previously included a brief conversation with the manager outlining expectations, asking if I had questions, and outlining start date and potential professional obligations that needed to be fulfilled.\n\n**Friday afternoon:** I immediately called back HR after listening the message but had an extremely hard time understanding what was said and connection kept clipping in and out. This is in the category of random unfortunate events because the cell tower in my area was either under repair or damaged from a recent storm. The gist of the conversation however was that they were offering me $26 an hour, which frankly came as a shock because the position was advertised for $26-$30 and I am coming in with a PhD and multiple years of experience. In my review of similar salaries using the same geographic area and level of education, the median pay is $31.52. I had anticipated that \\~$28.50 would be a fair wage in this instance because the work was for a non-profit rather than a for-profit company and I was willing to take a pay cut to \"do good things for the world\". I did not ask for a change in wage during this initial HR call; the phone line was too problematic and I wanted to review the complete offer and benefits first.\n\nHowever, I did ask if there were set dates for performance reviews and associated salary adjustments; which I was told maybe but nothing definite (maybe 90 days, maybe six months). I said I would review the contract and let them know if I had any questions. I was told by HR that they would be available to talk in the evenings or anytime during the weekend. Another surprise is that they said they wanted me to start Monday (they then changed it to Tuesday) which was much sooner than I had anticipated or what had been previously discussed.\n\nRoughly an hour later I wrote to HR asking for details on the retirement package (this was absent from the contract paperwork) and asking to meet via zoom because of the phone line connection problems. HR sent me a meeting link for the following afternoon. I received a general 1 page description of the 401k, but the tone of the email from HR was dismissive and did not include details on plan fee structure. Looking closer at the retirement broker (ADP) raised some minor concerns for me; I found many posts about the brokerage charging &gt;2% or more to employees for basic plans (e.g. S&amp;P 500 type mutual funds), which can amount to hundreds or thousands of dollars a year in hidden costs, rather than the standard expense ratio of &lt; 0.5% for similar index funds.\n\n**Friday evening:** One of the people that I had interviewed with contacted me, informing me he was quitting at the end of the month. He had given the company notice on Monday which was part of the communication chaos noted earlier in the week. The company went from hiring one person to then hiring two people including myself (I do not know if I was first or second choice). We talked; I was really disappointed because I had looked forward to working with him (he was the most similar employee to me in terms of background and education level). Turns out part of the rush to have people start was so that he could train them before leaving. Some redflags of the conversation included discussions of low pay and very high turnover (all employees had been there less than two years). The position had been advertised for four months with so-so response by qualified applicants. The amount he was paid was less than I had expected (\\~$30) and a female co-worker with the same title was paid even less than him despite similar responsibilities and comparable date of promotion!  There was also a push to outsource similar positions (as what I had applied for) to India even though the efficiency and quality of the services tended to be lower.\n\n**Saturday:** In the morning, I receive a message (I missed the call) from HR mentioning the zoom meeting and saying that their schedule was now very busy and the only other time to talk would be next Tuesday. I did not call back, but I did RSVP'd yes to the video call invitation. Roughly twenty minutes before the planned video meeting the event is canceled by HR without explanation. A reminder to fill out the contract was automatically sent instead.\n\nAn hour later, I wrote to the future manager and cc'd HR, saying I was excited about the position but I had questions and needed to be fully informed before signing. I was clear that I wanted to meet with them anytime to discuss the following: 1) wages that reflect my level of education and background, 2) which benefits could be opted out of, 3) questions about unpaid leave to cover prior professional obligations, and 4) to review which technical devices were my responsibility vs. what they would provide. At that point I could only guess that I would be using my personal computer and so I spent the remainder of the day updating my router for increased data usage and traffic (shared network), prioritizing my devices, and making it so that I could conduct phone calls by wifi.\n\n**Sunday:** No word from HR or the manager, but another automatic reminder to sign the contract. I continue to read through everything, look into the details of the health insurance, make an outline of pros and cons, research the various companies associated with the benefit plans. I was feeling conflicted over signing because of the unknowns, such as whether I could take a week off the following month to attend a professional conference that I had registered for months prior (and I had already payed thousands for in terms of travel costs). I also could not find information on how much some of the benefits cost (e.g. disability insurance) in terms of paycheck deductions.\n\n**Monday morning (early):** I woke up early and made a number of calls (during east coast business hours) that were simply not possible over the weekend, including calls to my current health insurance so that I could better understand whether it was worth it to stick with my current insurance vs. take a new insurance. Long story short, it was not worth it to change health plans. A typical health care insurance cost to an employer is \\~$6k, so I figured that if I eliminated this cost it would better support a slightly higher hourly pay (working out to $2-3 savings per hour adjustment, so a win-win scenario). I also called my current retirement broker (Fidelity) to check on the details of transferring 401ks to an IRA to reduce fees, outlined requirements for simultaneously contributing to a 401k and a Roth IRA.\n\n**Monday morning:** At 10am (pacific time) I get an email saying that HR talked to the manager and the offer was rescinded immediately. No conversation, no chance to ask questions or negotiate wage (even if this was not possible I would have liked to have known). For me, having a conversation prior to signing was less about money more about being well informed with clear expectations prior to signing a business agreement.\n\n**Later in the week:** The other person starts the job. I (obviously) do not. They have recently graduated (also w/ a PhD in a similar field) but less professional experience. The original job position is still advertised, but now listing $23-27 with no change in background requirements or responsibilities. I write a professional email to the manager, expressing my disappointment in the rescinded offer and stating that the delay in signing was so that I could make an informed decision. I kept it brief and avoided ranting, thanked them for considering my application. I received a short email back wishing me luck in the future. I ask both HR and the manager for constructive feedback on my application, but (no surprise) have yet to hear anything.\n\nSo Reddit, was this a horrible error in how I handled the offer? Did I dodge a bullet? I am torn between being sad/angry about the position not working out, but also somewhat disgusted by how much they disrespected me by not communicating in an open and objective manner. I can't help but be reminded of a common scam technique where a person is rushed to make a decision that they later regret.\n\nI feel like I just encounter a culture shock of the new norm for hiring (employees are just cogs that are easily replaced; high turnover w/ low pay is better than retaining of knowledge and maintaining product quality). Should I toss out everything that I know about \"normal\" hiring practices and negotiation etiquette? What could I have done differently?",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/1arvrdv/job_offered_friday_afternoon_rescinded_monday/",
+      "comments": [
+        {
+          "body": "I didn't read your novel, but it is not uncommon for companies to rescind offers. Has happened to me once. It even happens from large companies like Facebook, etc.",
+          "score": 5
+        },
+        {
+          "body": "Happened to me this week, the only mistake i see is minor and is about missing the calls, Aside from that you were absolutely justified to ask for more info (which is what i did also and got ghosted).\n\nI wouldnt have emailed them after the offer got rescinded, its useless to headbutt a wall, let it go and move on.",
+          "score": 2
+        },
+        {
+          "body": "We see so many posts here about whether or not people should negotiate. \n\nI always give the advice that there's a risk of an offer being rescinded.\n\nNow this isn't to say negotiating is bad but it comes with risk. No one is going to truly know why an offer was rescinded except for the person/people who made that decision.\n\nI do find it interesting that someone who just resigned from the company reached out to a candidate and discussed the work environment and pay. Perhaps he was giving you a warning? Still strange.\n\nYou didn't do anything wrong. They chose to go in a different direction for whatever reason. Maybe they had a salary cap for you and didn't want to bother negotiating.\n\nAnother theory is that you seem very thorough going through all your paperwork and things. Sometimes places avoid people who are that meticulous because those types of people are usually good at spotting issues and questioning things. You may have given them a reason to think you are going to be problematic by going back and forth so many times. \n\nAgain, just theories to help you try to guess what happened.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "In the interview process but have some misdemeanors",
+      "body": "\n\nI’m in the process of interviewing for a customer service job with fidelity. I’m 32 and have 3 drug related misdemeanors from when I was 19. So 13 years ago. Do you think those will disqualify my from getting the job?  My credit is great and I have no other charges on my record. 2x misdemeanor A, 1x misdemeanor B \n\nThanks in advance for the information",
+      "subreddit": "jobs",
+      "score": 2,
+      "url": "https://reddit.com/r/jobs/comments/uo0jsv/in_the_interview_process_but_have_some/",
+      "comments": [
+        {
+          "body": "Hello, thank you for posting to r/Jobs!\n\nWe just wanted to let you know that we have a new [discord server, come join the chat!](https://discord.gg/TY6ErXV)\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/jobs) if you have any questions or concerns.*",
+          "score": 1
+        },
+        {
+          "body": "Can't know for sure, but I think you will be okay if the misdemeanors were not financially related, like theft or something like that. Be upfront and honest about it because they are going to find out.",
+          "score": 1
+        },
+        {
+          "body": "Misdemeanor charges from 13 years ago (when you were 19) probably not going to disqualify you but it's really a crystal ball kind of answer. It will depend on their hiring practices and requirements. Some places have hard rules on these things, other places more leeway.\n\nDefinitely don't lie but also don't provide information when not asked. When you get to the point they are going to do a background check, then disclose it because it'll come up. Be honest but to the point - something like \"I want to be upfront with you that my background check will show three misdemeanors from 13 years ago. I made a mistake when I was 19, learned from it and my record has been clean ever since\" (Don't go into the whole drama of what you did or what lessons you've learned, just leave it simple)",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Should I accept a call center position at Fidelity?",
+      "body": "Background:\nI’m a recent graduate with a BSBA where my major was in Finance and my minor was in Economics. I graduated with a near perfect GPA (3.938). I don’t have much professional experience, but from Nov. 2019 to April 2020 I had a research position working with a professor at my University doing research related to finance and economics. I  recently had an internship at a nearby financial advising firm where I helped advisors setup profiles for clients and put together documents for prospective clients. The last four summers I was also an assistant manager at a nearby community pool, but I don’t feel that’s as relevant. Over the last few years I was a part of a business fraternity, Phi Beta Lambda, where I participated in competitions and have many 1st place in my state awards and a 7th place in the nation award from a few years ago.\n\nJob:\nI have recently gone through the whole interview process for Fidelity and have been formally offered a position in their call center about 3 hours away. The pay and benefits for the position are great and so much more than I have ever had. This job pays a little over $20/hr, gives a $2,500 sign on bonus, offers some tuition assistance and reimbursement. There is a 7% 401(k) match after I believe 1 year and if I opt in, I have access to benefits like medical and dental from day one. The position also gives me an opportunity to gain more professional experience and pays for me to earn my Series 7 and Series 63 certifications.\n\nDilemma:\nI am at a crossroads where I know I will be doing one of two things in the fall, either an MBA program I have a spot secured in or a full-time job. I am open and looking for a full-time job, but working in a call center isn’t something that I necessarily want to do. I can’t imagine myself being happy while I’m stuck on a phone for whole 8 hour shifts 5 days a week or 10 hour shifts 4 days a week. One of the main things I don’t want to do is to accept this job, knowing I’ll dislike it from day one. The pay and benefits of the position are great, but I’m not sure if it’s worth it for me to be miserable. I want to make good money, but I am currently still living with my parents so it’s not something I need to do ASAP, so I’m willing to wait to find something I feel I’ll be more content with. Some people may say that I should try it and decide later, but I’m fairly good at preemptively determining if I’ll like something or not. For me, being content with what I do is important as I am very miserable when I don’t like what I’m doing. I like that I would be working for Fidelity, an industry leader, but I don’t like the position itself.\n\nI’m appreciative of any advice and all ideas!",
+      "subreddit": "jobs",
+      "score": 6,
+      "url": "https://reddit.com/r/jobs/comments/gjr28n/should_i_accept_a_call_center_position_at_fidelity/",
+      "comments": [
+        {
+          "body": "You said it’s 3 hours away, are you willing to move? Is it near your MBA program?\n\nOverall in terms of an MBA, it’s typically recommended to work for a while first.  Unless the very highest tier school, experience is more beneficial for your career right now.",
+          "score": 4
+        },
+        {
+          "body": "You’re worth more than this. Go for the MBA. Think long term. A job like this will take you nowhere. They pay that much because that’s the only way to retain workers for such a soul-sucking position",
+          "score": 2
+        },
+        {
+          "body": "Where would you be moving to? That makes a big difference based on the pay and lifestyle you could have there.",
+          "score": 1
+        },
+        {
+          "body": "If I were you I wouldn’t take it. You have so much better credentials and taking a job at a call center might send a bad message for future employers down the road.",
+          "score": 1
+        },
+        {
+          "body": "Don't waste your money/time getting an MBA with no work experience",
+          "score": 1
+        },
+        {
+          "body": "Congrats! I’m actually in the final steps with Fidelity as well. I have a few friends that have worked in the call center environment and they’ve all actually really liked it. I’m not sure how old you are but having actual work experience will be more beneficial in the long run.  (they also help you pay for an MBA) at the end of the day it’s your decision but I feel the same about a call center job.......I just want the experience and will hopefully venture out after a year or so",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Fidelity hirevue essay",
+      "body": "Hi everyone,  I received a link from Fidelity to do a hirevue recorded interview. It says 5 questions and an essay. Has anyone ever had to do an essay before? This is for the Leap tech program.",
+      "subreddit": "jobs",
+      "score": 0,
+      "url": "https://reddit.com/r/jobs/comments/izsyth/fidelity_hirevue_essay/",
+      "comments": [
+        {
+          "body": "Hello, thank you for posting to r/Jobs! \n\nWe just wanted to let you know that we have a new [discord server, come join the chat!](https://discord.gg/TY6ErXV)\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/jobs) if you have any questions or concerns.*",
+          "score": 1
+        },
+        {
+          "body": "I had to do one for my masters program admission interview. I can't remember if we did it on hirevue or if it was a different program, but they gave me the prompt, I had a minute or 2 to think about it, then I had 5 minutes to write.\n\nMy question was about who I look up to (or something like that). I wouldn't stress too much about it, they're not expecting a full fledged essay with references or anything, more just a paragraph or two.",
+          "score": 1
+        },
+        {
+          "body": "Is this the Tech Internship?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Fidelity hirevue essay",
+      "body": "Hi everyone,  I received a link from Fidelity to do a hirevue recorded interview. It says 5 questions and an essay. Has anyone ever had to do an essay before? This is for the Leap tech program.",
+      "subreddit": "jobs",
+      "score": 0,
+      "url": "https://reddit.com/r/jobs/comments/izsytg/fidelity_hirevue_essay/",
+      "comments": [
+        {
+          "body": "Hello, thank you for posting to r/Jobs! \n\nWe just wanted to let you know that we have a new [discord server, come join the chat!](https://discord.gg/TY6ErXV)\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/jobs) if you have any questions or concerns.*",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "FYI: \"Behavioral Interviews\"",
+      "body": "This phrase, or \"behaviorally-based interviews\" has been tossed around a lot these days. Like \"Personality\" or \"Fit\", it's fast becoming another term that's losing its original meaning because of common misconceptions. A quick search on Google will bring up endless blogs, and PDFs/Infographics from recruiters and career centers. But, since the authors aren't trained in Personnel Selection, the information getting around are incomplete, or sometimes just plain wrong. So, I wanted to provide a crash course on the high-level concept of what it actually is. It can be more complex, but I will touch on the main points that commonly shows up in this subreddit.\n\n**What's wrong with it now?**\n\nFirst, behavioral interviewing is not a new way of asking interview questions. Many interviewers also think that just because they're not asking off-the-wall questions, and it has to do with a behavior, then they can give it that label.\n\nAs a result, we get questions like \"Tell me about a time when...\", or \"What is your strengths/weakness\", or \"Describe a time when...\".\n\nThis is not really behavioral interviewing, since the answers still rely on personal accounts and retrievable anecdotes. While the nature of the question has to do with an action, the actual interview process is anything but. In the end, this process encourages Ingratiation (where an individual will act in such a way to appear more pleasing to others), and interviewers are not getting any real or valuable information about their candidates.\n\n**So, what is it?**\n\nBehavioral Interviews need to involve actual *behaviors*. The concept behind this method is that candidates have to *physically demonstrate* a knowledge or skill. This goes beyond self-reports, since those responses are often embellished and exaggerated. \n\nAnother component is the way that these interviews are rated. They are often evaluated by a behaviorally-anchored rating scales. This means, interviewers should be taking detailed notes or spotting behaviors on a series of checklist related to the behaviors they want to measure. They should not just be taking general notes or rely on gut-instinct reactions based on plain observation.\n\nThere are also other forms of this method:\n\n* Accessment Center exercises\n* Work Samples\n* Situational-Judgment Tests\n* High Fidelity Role-Plays\n* Job Simulations\n\n**Who cares?**\n\nUnder the misconceptions, job seekers are given a lot of options to strategize and tackle this form of interviewing. The STAR approach is the most popular. STAR and simliar technique doesn't aid job seekers in better performance during the interview, just better faking. Remember the Ingratiation thing I mentioned earlier? Candidates don't have to use a story about themselves, or even a real story, to \"pass\" this portion of the  interview. As long as they follow the approach, or make the story seem impressive, that's enough to trick the interviewers. As much as some employers like to believe that they can smell bullshit from a mile away, they also seem to advovate for the STAR approach and never verify the responses.\n\nThe interviewers, not knowing about the actual potential of this method, assumes that a coherent candidate would naturally be the best candidate. Meanwhile, they have not validly established the candidate's capability, and have selected candidates who got the best coaching. Or in thinking that involving behavior \"stuff\" during the interview, it will magically enhance the predictive capability of the system and counteract the subjective tactics used before that point.\n\nAll of this is wasting precious time and resources for everyone. It's a detriment to job seekers because they are operating under false pretenses and are wrongfully told that this is a legitimate practice. It doesn't help interviewers make decisions confidently, causing more interviews to be held and frustration from not seeing a \"good candidate\".\n\n**What can be done about this?**\n\nJob seekers: Be aware of the usage of this phrase. A lot of recruiters and hiring managers like to toss this tactic around to make their hiring sound more legitimate. This is now a small way to help you raise a red-flag, or see that it's a perfectly normal process. Not that you should reject an interview just from the mention of \"behavioral interview\", but this should clear up some confusion about ONE hiring method - a line of questions that is commonly asked in this sub. \n\nEmployers: Adding or replacing the typical one-hour in-person interview with behavioral interview would give you a more powerful assessment to your candidate's skillset. Using the real behavioral interview can take less time, giving you more room to supplement the hiring process with other evidence-based methods and tests. At the end of the day, it would give you a more well-rounded view of your candidates to make more confident hiring decisions. It's one of the most basic methods you can actually use, and it's baffling how little it is applied in front-line hiring like with initial screening or by recruiters.",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/31y5mq/fyi_behavioral_interviews/",
+      "comments": []
+    },
+    {
+      "title": "Interview with Fidelity through KForce",
+      "body": "Have an interview coming up with Fidelity for a Junior/Mid level Full Stack Engineer role with Kforce on contract. They will take 1 round of interview with 20 mins of behaviour questions and 40 mins of coding question. Has anyone given similar interviews with them ? What kind of coding questions will they ask ?",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1ivurxu/interview_with_fidelity_through_kforce/",
+      "comments": [
+        {
+          "body": "For the coding portion, expect questions that test your problem-solving skills and knowledge of fundamental data structures and algorithms. They might ask you to implement a simple function, optimize a given piece of code, or solve a basic algorithmic problem. Common topics include string manipulation, array operations, or basic object-oriented programming concepts.\n\nThe behavioral part will likely focus on your past experiences, how you handle challenges, and your ability to work in a team. Be prepared to discuss specific projects you've worked on and how you've contributed to their success. As for the coding questions, they're usually designed to be solvable within the given time frame, so don't stress too much about their complexity. If you're feeling unsure about tackling tricky interview questions, you might want to check out this [interview helper tool](http://interviews.chat). I'm on the team that developed it, and it's designed to help people navigate challenging interview scenarios and boost their confidence.",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "How can I convince my record store bosses to pay me a bit more so that I can stay working here?",
+      "body": "I work at a record store. It’s a fantastic job and I really love it. I’ve been here for about 2 months and the low pay is starting to sting. \n\nAs with any job, there’s more to it than sitting around and listening to music and having those Top 5 conversations (a little high fidelity reference for y’all). I do shipping and receiving for our online store, handle listing and pricing new albums, and we also have a bar in the shop so I bartend as well. I also do some minor marketing for the owner’s record label. \n\nAnd as much as I adore this company and this job, I’m broke. I’m being paid $13 an hour and I also pay around $10 a day to park because the shop is in an area with metered parking. They do not provide a parking pass, though they *could*. I also don’t have health insurance, which I definitely need because I have end stage cirrhosis. \n\nAll they would have to do to keep me is pay me $15 an hour and provide me with a parking pass. That’s all I need to stay. I’m the kind of person who will work a job I love as long as I can pay my bills. Unfortunately, this isn’t paying my bills. \n\nI left the social services industry, and I have companies climbing out of the woodwork to hire me. I get offers for interviews, job offers with no interview, and requests for contract work weekly. I’ve been declining because I love the music industry. \n\nI’ve asked my direct boss if he could advocate for a raise and parking pass for me, but he tells me the owners won’t do it. The job is pretty niche and highly sought after in our area. It’s competitive and I’m sure they could easily hire another person to do this for $13. \n\nI so badly want to stay. I’ve gone above and beyond since I’ve started, but it’s becoming clear that the pay rates won’t change unless I move into management. \n\nI’ve scheduled a meeting with the owners for this upcoming Friday. Is there anything I can say or any skills I can offer to get a raise?",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/ww260c/how_can_i_convince_my_record_store_bosses_to_pay/",
+      "comments": [
+        {
+          "body": "Hello, thank you for posting to r/Jobs!\n\nWe just wanted to let you know that we have a new [discord server, come join the chat!](https://discord.gg/TY6ErXV)\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/jobs) if you have any questions or concerns.*",
+          "score": 1
+        },
+        {
+          "body": "Sounds like your already doing the role of an assistant manager basically. Highlight how you've made them more money and how you've saved them money.. have any whales in the shop? Talk about how you've sold even more to them as well.\n\n\nDon't apeal to their emotions, make it seem like your a good investment...\n\n\nThis is all assuming they are reasonable people",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Fidelity National Financial. Legit Work Place? Saw Red Flags.",
+      "body": "I received a text from a hiring manager about my resume that was found on career builder (which is not updated from years ago) about Fidelity National Financial. The text read that there were open positions and I had interest in a ***payroll position*** that the HM mentioned in the text.   \n(This is my first red flag IMO, a text? Why not just email me)? \n\nI let the person know that you can send info to my email address and was told I needed to add them on skype or zoom first before they can email me a job description.  \n(this is my second red flag. Ive never ever experienced this at any point in my life)\n\nI added the person and went to check my email. Upon checking, I received 3 of the same email for a interview request before I even got texted by the hiring manager. They were sent at 2:21am, 3:40am and 3:43am this morning. It was about 10:00am when I was texted about the job and once I accepted the skype friend request I was sent the job description. All 4 emails from them (3 of the same job interview request emails and the job description email all ended up in my spam - this isnt as fishy to me but still something to note). \n\nI checked and the email is a recruiting email with an [atgmail.com](https://atgmail.com) email address. That was kinda a red flag for me. \n\nNow, the weird issue I have is the hiring manager has messaged me on skype 3 times in the span of 7 hours asking \"are we connected\" and even called me on skype.\n\nThese are the \"red flags\" I believe I noticed. I really just dont understand why:  \nA) multiple communication platforms are needed to communicate with me that is not an email.   \nB) Why is this person so pushy about this? It confuses me as Ive never experienced this before.   \n\n\nMy question: Is this fishy to you? Does this seem off and red flag-y when you read this? Or, am I just not aware of certain \"recruitment\" strategies like this one?\n\ntl;dr: Fishy interaction with Fidelity National Financial for an open payroll job position makes me think the red flags outweigh the potential good.",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/n0ppog/fidelity_national_financial_legit_work_place_saw/",
+      "comments": [
+        {
+          "body": "Hello, thank you for posting to r/Jobs! \n\nWe just wanted to let you know that we have a new [discord server, come join the chat!](https://discord.gg/TY6ErXV)\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/jobs) if you have any questions or concerns.*",
+          "score": 1
+        },
+        {
+          "body": "A gmail account is an automatic red flag...",
+          "score": 1
+        },
+        {
+          "body": "I never respond to text messages regarding jobs period. Even with email, I only respond to those I've applied to. Even then, you still run the risk of submitting info to some fake position. After a while you start to recognize which ones are legit and which ones are just phishing",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Received Job Offer, Best Way To Counter &amp; Negotiate For More",
+      "body": "On Friday I received a job offer with a private firm that does work with financial institutions and other monetary services. The details of the offer are as follows:\n\n\n* Salary of USD 42K \n* Company will match 100 percent of my contribution to 401k up to 3 percent of salary plus an additional 50 cents on the dollar of additional contributions up to 2 percent (i.e. if I contribute 5 percent they will match 4 percent)\n* 8 paid holidays per year\n* Personal Time Off program combines sick days, vacation days, and personal days where I will accrue PTO monthly up to 15 days per calendar year\n* Company will sponsor certs &amp; professional memberships for continuing education\n* Medical, Dental, Vision, Group Life &amp; AD&amp;D, and Disability thru Anthem\n* HSA's, FSA's, and Qualified Transport Account thru Discovery Benefits (the only thing I think I will take from this bullet point will be the parking as I will need to pay to park in a lot)\n* 401k thru Fidelity\n\n\nNow, I have two friends who already work for this group and started in the same role I am going into. The one started last year and gets 40k and the other started 3 years ago at 37k (he's since moved up job titles plus pay). In my interview I told them my salary range was 45k-52k and they said they had a range of 40k-43k. I told them that because I am bringing relevant experience to the table it commands a higher pay. I don't mind the 42k salary but I want to try for the additional 1k, whether that is the increase in salary or another week's time to PTO. Is this a smart thing to try for? If yes, what should I ask for and how? There is another offer that is highly likely to be made by a bank in my area but it would be for less pay and I'd have to take phone calls, so I'm not keen on that position. I'm excited for the role I was offered but I don't know if me trying to squeeze more will backfire. \n\n\nThat said, my two friends both mentioned that the pay for the the job is below what others in the field make but they say the flexible schedule (e.g. start early or late, doesn't matter as long as you get the work done) is a huge positive. Plus, the office is 10 minutes away from my house so travel wouldn't be terrible. \n\n\nIf you need to know anything else, please let me know and I'll try my best to respond. \n\n\nThanks! ",
+      "subreddit": "jobs",
+      "score": 2,
+      "url": "https://reddit.com/r/jobs/comments/arfcth/received_job_offer_best_way_to_counter_negotiate/",
+      "comments": [
+        {
+          "body": "I would stay with offer presented but ensure your review is on time when available. Typically 90 days after employment is a good evaluation period.",
+          "score": 3
+        },
+        {
+          "body": "If you are willing to pass on the offer, you hold all the cards.  If you push back for more it could create the impression that you would not be satisfied with what they're offering, and might not stay.  That could lose you the offer.  Will you be upset with yourself if that happens?  It's a risk.\n\nFactors I'd consider, Is it a big step up from your current position? Is it an environment where you will succeed better than your current job? Will you be building more skills than your current job, or building a more diverse skill set? Will you be happier? Are you well liked at your current job, and possibly heading for a promotion soon? Is the new job a step sideways, or upward in title and responsibility?",
+          "score": 1
+        },
+        {
+          "body": "I would say something like. \"I'm keen on working for you and we're very close to agreeing on my salary. How about we agree to $43k and I'll be happy to sign the paperwork as soon as possible.\"\n\nIf I was in their position I'd easily agree to that. Recruiting people that are the right fit for the compamy is a pain and going through the whole process again when you've come so close is a complete waste of their time. So $1k extra is nothing.",
+          "score": 1
+        },
+        {
+          "body": "If you’re coming off 6 months unemployment, I wouldn’t push it for $1k more a year. Seems insane to me to risk pissing them off for such little money. ",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Choosing between Fidelity and Charles Schwab",
+      "body": "This will be my first non-internship job and I am a bit clueless as to what to consider in selecting a place to work so any help is greatly appreciated! Below are my thoughts now:\n\nI have offers from both companies and need to decide by the end of the weekend which to choose. Salary/benefits/role/promotions are all pretty much identical. \n\nMy impression from my interviews is that I get along with people better at Schwab and that they REALLY wanted me (offered me the job the same day I had my last interview). \n\nFidelity, on the other hand, took about 6 weeks to officially offer me a position (though I suspect part of that was due to the firing of my contact in HR). \n\nThe reason I do not choose Schwab outright is twofold:\n1) Glassdoor ranks Fidelity much higher, satisfaction wise and \n2) Shows, from what I can tell, marginally higher salaries for most positions. \n\nWhat else do you guys think I should be considering? What is your opinion?\n",
+      "subreddit": "jobs",
+      "score": 2,
+      "url": "https://reddit.com/r/jobs/comments/2hl3h1/choosing_between_fidelity_and_charles_schwab/",
+      "comments": [
+        {
+          "body": "You son of a bitch.",
+          "score": 2
+        },
+        {
+          "body": "Having been an employee of Schwab for nearly 8 years, I'd choose Schwab. All of my co-workers were friendlytand personable, most of the mid-management actually will listen to those lower than themselves and the bennies were good.",
+          "score": 2
+        },
+        {
+          "body": "What's the job function? I know Schwab is under federal investigation for BSA/AML deficiencies. If you're going into a compliance position, it may be more of a challenge. But that could be a good thing.",
+          "score": 1
+        },
+        {
+          "body": "You realize you work with the individuals you met in person not the aggregate that is measured in glass door.",
+          "score": 1
+        },
+        {
+          "body": "I've been a customer of both companies, and I would choose Fidelity without question. ",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Final round of interview for senior frontend Engineer at Fidelity.",
+      "body": "I am in the process of interviewing for a senior front-end engineer position at Fidelity.  Having successfully completed the first two interview rounds, I have received an invitation for a 90-minute panel interview in the third round.  Unfortunately, I was laid off from my current position the following day.  My interview is scheduled for next week, and I am eager to capitalize on this opportunity.  Could you provide insights into what to expect during this interview and how best to prepare?  Any relevant experience would be greatly appreciated.",
+      "subreddit": "interviews",
+      "score": 5,
+      "url": "https://reddit.com/r/interviews/comments/1jls1ay/final_round_of_interview_for_senior_frontend/",
+      "comments": [
+        {
+          "body": "I recently went through the interview loop for Staff and senior level roles at FAANG plus non fang companies and received several top of the band offers, from which I picked Roblox. I now conduct 1-3 interviews weekly and I also run frontendlead (dot) com, a structured approach for frontend engs preparing for interviews. \n\nHere are some tips for you:\n\nReact Questions\n\n* What are React hooks, and when should you use useMemo vs. useCallback?\n* How does the React rendering lifecycle work? What triggers a re-render?\n* Explain the difference between controlled and uncontrolled components.\n* What is reconciliation in React? How does React Fiber improve performance?\n* What are higher-order components (HOCs), and when should you use them?\n* How do you manage global state without Redux?\n\nJavaScript Questions\n\n* Explain closures and provide a real-world example.\n* What is prototypal inheritance, and how does JavaScript handle it?\n* How does `this` behave in different JavaScript contexts?\n* What’s the difference between `var`, `let`, and `const`?\n* How does event delegation work, and why is it useful?\n* Explain the event loop and how JavaScript handles asynchronous operations.\n\nBuild an App (Live Coding)\n\n* Build a to-do list with add/edit/delete functionality.\n* Create a search bar with real-time filtering using `useState`.\n* Implement a dark mode toggle using React Context.\n* Fetch and display data from an API using `useEffect` and handle errors.\n* Make tiktactoe game\n* Make a stop watch or star rating system \n\nThe big call out here is to not only complete all requirements on time but also setup yourself for success with maintainable production level code, which can easily be tested. Bonus tips if you can also write some basic tests. Consider design patterns as well such as MVVM for react, I have an article for that on frontendlead. \n\nFrontend System Design\n\n*How would you structure a large-scale React application?\n* What are the trade-offs between Redux, Context API, and Zustand?\n* How would you optimize the initial page load time for a React app?\n* Explain lazy loading and dynamic imports in React.\n* build the frontend for Facebook \n* think about accessibility/localization\n* how would this scale? How do you identify and improve bottle necks?\n* how do you measure success? \n* how do you test things? \n* remember to discuss the trade offs for literally everything you bring up \n\n\nPro Tip:  \nBefore coding, clarify constraints and talk through trade-offs. Many system design examples with videos are also available on the platform.\n\nBehavioral questions / hiring manger round\n* this is the make it or break it round , honestly, keeping it real, every behavioral question I’ve been asked is on frontendlead and more. Practice and maybe jot your answers down before the interviews but don’t sound rehearsed, play it cool and be authentic, don’t bullshit your way, people will easily see that. \n\nBonus Tips\n\n1. Consider free and paid alternatives with a more structured approach to prepping for frontend interviews. Full disclosure, I am the creator of FrontendLead (dot) com, which offers a structured approach to preparing for front-end specific interviews at top tech companies, with company particular questions. (30-day money-back guarantee)\n2. Use other platforms (free and paid) to also help you prepare.\n\nLike solving a technical problem, you should always have multiple tools in your tool belt to solve a problem.",
+          "score": 2
+        },
+        {
+          "body": "They'll likely ask about your past projects, how you've handled challenges, and your approach to frontend architecture. Be ready to discuss modern JavaScript frameworks, state management, performance optimization, and responsive design. They may also throw in some coding challenges or system design questions to test your on-the-spot thinking.\n\nPrepare specific examples of how you've led teams, mentored junior developers, and contributed to large-scale projects. Practice explaining complex technical concepts clearly, as you'll likely be speaking with both technical and non-technical panel members. Your ability to communicate effectively will be just as important as your coding skills.\n\nIf you're looking for extra help preparing for tricky interview questions, check out [interview prep](http://interviews.chat) AI. I'm on the team that created it, and it's designed to help people navigate challenging interviews and land their dream jobs.",
+          "score": 1
+        },
+        {
+          "body": "ahh frontend interviews at senior level can get pretty intense! lemme add a few more things to watch out for:\n\narchitectural stuff:\n\n* microfrontends + module federation\n* build tooling (webpack/vite etc)\n* testing strategies (unit vs e2e)\n* state machines for complex flows\n* design system implementation\n\nadvanced patterns:\n\n* custom hooks + hook composition\n* react suspense + concurrent features\n* server components (if ur targeting newer react versions)\n* accessibility patterns\n* client-side caching strategies\n\ndont just memorize the concepts, try implementing small projects that use these patterns. its way easier to explain smth uve actually built vs just read about! also helps u spot the gotchas that only come up in real implementation\n\nalso highly recommend doing mock interviews w/ senior frontend devs from ur target companies. they'll give u specific feedback on what gaps to focus on + help u practice explaining technical concepts clearly. its honestly worth the investment vs going in blind. lmk if u need ny help finding a gud coach",
+          "score": 1
+        },
+        {
+          "body": "Hi, How was your experience? I have an interview scheduled for senior front end position as well.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Fidelity Investments Full Stack Engineer Interview",
+      "body": "Hello, has anyone been interviewed by Fidelity Investments recently (in the last 3 months)? What is their focus? Is it on DSA or the Java stack, such as Spring Boot, Java, OOPs, etc.? I appreciate your help.",
+      "subreddit": "interviews",
+      "score": 2,
+      "url": "https://reddit.com/r/interviews/comments/1g6trya/fidelity_investments_full_stack_engineer_interview/",
+      "comments": [
+        {
+          "body": "It's tough to say for sure without knowing the specific team you're interviewing with, but Fidelity tends to put a good deal of emphasis on practical coding skills. You'll likely face questions on algorithms and data structures, but they'll probably be presented in the context of real-world scenarios you might encounter on the job.  Definitely brush up on your Java fundamentals, OOP principles, and common Spring Boot concepts – they'll want to see you can walk the walk, not just talk the talk. By the way, I'm actually part of the team that built this [interview AI assistant](http://interviews.chat), a tool designed to navigate those tough spots and crush your interviews.",
+          "score": 2
+        },
+        {
+          "body": "Hi. I know it’s been many days, but what questions were asked in the interview. Can you pls brief about it? Thanks",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Web engineer role at Fidelity ",
+      "body": "Hello,\n\nHas anyone here interviewed for web engineer role at fidelity investment? \nHow was you experience? \nHow was your first and especially the second round?\nWhat questions to expect in the coding interview? It’s going to be for 90 min and what behavioral questions to expect???\n\nAny information could be helpful, thanks ",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1fkwh64/web_engineer_role_at_fidelity/",
+      "comments": [
+        {
+          "body": "I haven't personally interviewed for a web engineer role at Fidelity, but the first round usually focuses on your technical skills, so expect to solve coding problems that test your knowledge of algorithms, data structures, and possibly some system design. The second round often dives deeper into your problem-solving abilities and might include more complex coding challenges. They also like to see how you approach problems and think through solutions, so be prepared to explain your thought process.\n\nBehavioral questions are a big part of their interviews too. They might ask about past projects, how you handle tight deadlines, or how you work in a team. It's important to be honest and show how you've grown from your experiences. If you're looking for a way to practice and get real-time feedback during your prep, you might find [interviews.chat](http://interviews.chat) helpful. I’m on the team that made it, and it’s designed to help you navigate tricky questions and ease the pain of the job search process. Good luck!",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Interview advice",
+      "body": "I have an interview at Fidelity soon and I have all the qualifications expect for the 2 years of experience. Any advice on how I should approach the interview or how to compensate for it?",
+      "subreddit": "interviews",
+      "score": 2,
+      "url": "https://reddit.com/r/interviews/comments/10kskgo/interview_advice/",
+      "comments": [
+        {
+          "body": "Compensate for what? And you mean except?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Help with a Couple Behavioral Questions",
+      "body": "Hey guys, I have some interviews coming up and I would like some help on some behavioral questions that are difficult for me to answer.\n\n1) Tell me about a time you went above and beyond for a client.\n\nThis is always difficult for me. I have a story during my library times, but I would prefer something for my current job, just having trouble thinking of something for some reason. Anyone here do any admin work?\n\n2) Tell me about a time you accomplished something in a group.\n\nDo I bring up a school topic for one of my finance classes? I do group work on a daily basis at my current job with my boss (just a group of 2-3 of us depending on the day)\n\n3) Why do you want to work for us?\n\nI hate this question because many of the financial service companies are similar. Like what distinguishes Merrill Lynch from Jp Morgan or Fidelity from my view?\n\n4) How do you answer questions from clients who don't have an understanding of finance and investments?\n\nI would give an answer that explains how I would listen and understand their problem then break down the investments into simple english for them to understand. If they do not understand still, then I would explain in a different way, and if that still doesn't work, then I would find someone who may be able to explain it to them in a different way.\n\nBut not sure how this should be answered.\n\nSome background Info on me:\n\nI currently work for an independent FA as a financial admin. So doing all the admin work, paperwork and setting up accounts, creating progress/portfolio reports on their investments for the year, executing all their trades/setting up periodic or withdrawal plans and etc...\n\nGot my 7 and life and health recently and taking my 66 exam sometime in March.\n\nI used to do property management (and have my real estate license) with my family and would help with listing properties, doing open houses, manage lists of people who were coming and following up with them.\n\nBefore that I worked in a library for a few years when I was younger",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/fa20zx/help_with_a_couple_behavioral_questions/",
+      "comments": [
+        {
+          "body": "Bump",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Wyssa interview experience",
+      "body": "First, I would like to mention who all took my interviews: a junior designer with over 5 months of experience, and a project manager who has been with the company for 5 years, but initially joined as a content writer.\nI was really impressed by the company's vision, but then I read the reviews, which opened my eyes.\nThe assignment specified that I should submit atleast  one UI and the rest in wireframes. The entire assignment, from research to designs, along with a one-hour logical thinking test, had to be submitted within 6 days.\nAfter submitting the assignment, I received a call from HR saying that they were very impressed with my submission.\nDuring the interview, the panel members mentioned that they were going through my submission for the first time and were also not aware of the problem statement that had been shared with me. I ignored this as well and proceeded with the presentation. They mentioned that they were quite impressed with the solution and my approach. Suddenly, the project manager mentioned that he found a significant disparity between my submissions, as some had no colors and others were joyful. The junior designer then clarified that these were wireframes and he asked what wireframes are.\nThe project manager then mentioned that the solutions I was providing did not align with the solutions he had in mind.\nThe junior designer also mentioned that I could have included more UI screens, even though I had already created 6 UI screens and the rest were mid-fidelity wireframes.\nToday, I received an email from HR stating that I was not selected because of the following major shortcomings:\nLoopholes in my design thinking\nMy designs were not that great\nI had issues working in a pressurised or fast-paced environment\nI don't know what to say or how to react.",
+      "subreddit": "interviews",
+      "score": 2,
+      "url": "https://reddit.com/r/interviews/comments/15tsyv1/wyssa_interview_experience/",
+      "comments": []
+    },
+    {
+      "title": "Advice for a long video interview (1.5 hours)",
+      "body": "I recently graduated from university with a BSBA where I majored in finance and minored in economics. I finally have gotten through the majority of the hiring process for Fidelity, which is the ideal place to start my career. I had an initial interview which went well and then I had a test that I took that I did great on, so this 1.5 hour interview is with the actual hiring manager for this position. I have already been informed that the decision will be made within two days of my interview (next Wednesday) so I just want to set myself up to excel. I plan to wear professional clothes during this interview and to take notes.\n\nI have never had an interview this long before, so is there anything specific I should do to prepare? The longest interview I’ve had would probably be 45 minutes and that was in person. Overall I feel confident, but I know I can still do things to set myself up to have a better interview.\n\nI appreciate any and all comments",
+      "subreddit": "interviews",
+      "score": 3,
+      "url": "https://reddit.com/r/interviews/comments/gdnegn/advice_for_a_long_video_interview_15_hours/",
+      "comments": [
+        {
+          "body": "Sorry that I cannot give any meaningful advice as I'm just starting out my job hunt, but I wish you the best of luck for you interview !!!",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Do I need to shave my beard for an online interview?",
+      "body": "I always get mixed answers when I have talked to friends about it. Ive had my beard for about 50 days and it looks good as far as beards good. There is no patchy areas, very filled in as well and shaped so it doesnt look like Im homeless. The interview is for Fidelity as an intern. I can upload a pic if needed lol",
+      "subreddit": "interviews",
+      "score": 2,
+      "url": "https://reddit.com/r/interviews/comments/7jdge2/do_i_need_to_shave_my_beard_for_an_online/",
+      "comments": [
+        {
+          "body": "You're probably better off if you're clean shaven, just to avoid any preconceived assumptions. But as long as you're well groomed, I wouldn't recommend going clean-shaven. Part of an interview is portraying your comfortable yet professional self, and if a beard is frowned upon, it sounds like that would be a negative to you.",
+          "score": 3
+        },
+        {
+          "body": "Unless there is requirement for wearing a respirator i can't imagine how a beard works negatively impact your ability to do a job. ",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

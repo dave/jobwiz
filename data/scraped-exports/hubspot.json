@@ -1,0 +1,624 @@
+{
+  "company": "hubspot",
+  "post_count": 34,
+  "exported_at": "2026-01-18T17:44:53.282Z",
+  "posts": [
+    {
+      "title": "Question about Hubspot final Interview",
+      "body": "Hey all, I have a final round (Virtual interview) with Hubspot for Software development Intern position. Can anyone here with experience give me any tips/ things to look out for?\n",
+      "subreddit": "cscareerquestions",
+      "score": 2,
+      "url": "https://reddit.com/r/cscareerquestions/comments/5yakmf/question_about_hubspot_final_interview/",
+      "comments": [
+        {
+          "body": "[Read this book](https://www.amazon.com/Disrupted-My-Misadventure-Start-Up-Bubble-ebook/dp/B013CATZIC) and run away ",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Hubspot leetcode interview Inputs",
+      "body": "I am preparing for coding round with Hubspot for Senior front end engineer 2 and could you use some inputs for preparing, tried grinding leetcode, it is so hard to identify the pattern and solve it, could use some inputs or tip for the interview",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1oolbhb/hubspot_leetcode_interview_inputs/",
+      "comments": []
+    },
+    {
+      "title": "Senior Manager, GTM Strategy &amp; Ops at Hubspot. Made it to the case study round of the Interview process",
+      "body": "After many months on the market for a new role, I made it to the case study round (which I believe is the final round) at Hubspot. Anyone with experience with such case study (at Hubspot or not) able to shed some light on what to expect and how to work it out?\n\nThanks!",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1njp1fj/senior_manager_gtm_strategy_ops_at_hubspot_made/",
+      "comments": [
+        {
+          "body": "Case studies for senior GTM strategy roles typically focus on real business scenarios where you'll need to analyze market data, identify growth opportunities, and present actionable recommendations. You'll likely face a scenario involving customer segmentation, pricing strategy, market expansion, or operational efficiency challenges. The key is demonstrating your analytical thinking, strategic framework, and ability to translate insights into concrete business impact. They want to see how you structure problems, what questions you ask, and how you prioritize competing initiatives.\n\nThe truth is that case studies can make or break your candidacy regardless of how well previous rounds went, but this also means you have complete control over the outcome. Focus on asking clarifying questions upfront, walking through your thought process out loud, and connecting your recommendations back to measurable business outcomes. Practice structuring your approach using frameworks like situation-complication-resolution or hypothesis-driven problem solving. Since you've made it this far after months of searching, you clearly have the skills they're looking for.\n\nI'm on the team that built [interview copilot](http://interviews.chat), and we've helped people navigate complex case study presentations and other challenging interview formats that require real-time strategic thinking.",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "title": "Is it just me or are first-round technical screens WAY harder? ",
+      "body": "I'm interviewing for senior backend software engineer positions, have around 9 years of experience, CMU grad, and ex-FAANG employee. I'm (thankfully) getting a steady trickle of messages from recruiters and interview requests but have only advanced past the first round for one local startup. I don't think I've ever bombed out on the first round technical screen before multiple times like this, even after taking a long career break a couple years ago. Has anyone noticed that the questions being asked are WAY harder, especially for the high-paying, fully remote jobs? \n\n\n\nFor example, I recently worked on a take-home exercise for Hubspot where they claimed most applicants finished between 1-2 hours and...I have no idea how anyone would be able to complete the exercise in that time without using AI. I suspect that companies are assuming people are using AI, making the questions way harder as a result, and then telling you not to use AI. ",
+      "subreddit": "cscareerquestions",
+      "score": 417,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1hvttl0/is_it_just_me_or_are_firstround_technical_screens/",
+      "comments": [
+        {
+          "body": "I was on the interview circuit a few months back with very similar experience as yours. Hubspots take home is hard unless you have worked on very similar things in your career. Unlikely at a faang if you're on a pure infra team for instance (was my case). I wasn't even interested so i didn't end up attempting it since I had better companies i was interviewing with.\n\nEdit: as it's being discussed in the comments, mine was not a calendar exercise. It was pretty much a full stack app which primarily did some kind of data pulling. I don't remember the specifics as it's been a few  months.",
+          "score": 158
+        },
+        {
+          "body": "cake money alive seed busy sink hat dazzling fine sable\n\n *This post was mass deleted and anonymized with [Redact](https://redact.dev/home)*",
+          "score": 179
+        },
+        {
+          "body": "I failed tiktok recently.. I couldn't solve a DP hard...",
+          "score": 61
+        },
+        {
+          "body": "I did hubspots take home. \n\nGlad I’m not the only person who feels like the time allotted wasn’t enough for what was asked.",
+          "score": 62
+        },
+        {
+          "body": "I was just wondering about this myself. I just finished a take-home that I was told should not take more than two hours. I finally finished it after three days, lol. I dont know why the estimate is so far off so often, but I just assume at this point that it's going to take me a few days to do a good job on a take-home.",
+          "score": 25
+        },
+        {
+          "body": "CMU grad and faang and struggling ? I’m fcked",
+          "score": 26
+        }
+      ]
+    },
+    {
+      "title": "Hubspot New Grad FE - HTTP GET",
+      "body": "Hello, has anyone recently taken the HubSpot New Grad Frontend (HTTP-GET) interview? I have an upcoming one and would really appreciate any tips. I've seen they've moved away from LC so bit confused as to what to expect in this round. ",
+      "subreddit": "cscareerquestions",
+      "score": 1,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1oiqgd2/hubspot_new_grad_fe_http_get/",
+      "comments": [
+        {
+          "body": "I interviewed for them a few years ago and I remember having to make a GET request, process some data (filtering, sorting, that sort of thing)- then hit another endpoint to return the processed data. It was pretty simple.",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "title": "Hello! I'm fucked and I need help. How do I brand my \"self-employed\" experience? ",
+      "body": "Hello! I'm fucked :')\n\n**Background:** I'm 26, U.S citizen, graduated from a Top 10 school five years ago with a degree in Computer Science. I did not do anything with my degree after graduating because...\n\nWhen I started college, I launched an online business creating plugin software for a marketing CMS platform that was very prominent in a particular industry. Wrote these plug-ins using PHP, JS, and then obviously the HTML/CSS/JS gang. Knew the platform inside and out.\n\nThat did fairly well, and I ended up averaging around $50,000 yearly. Did development, worked support, etc. It was just me. I was pretty well known in this niche and I did some cool stuff to extend the functionality of the CMS. All in all had around 20,000 customers in my email marketing list.\n\nAs of last year, this CMS platform that my plug-ins integrate with had been deprecated, and in turn my entire business shut off. This fucking sucks because I put \\*so many\\* hours into building those plug-ins, marketing, building a brand, ruining my mental health from looking at PHP all day, and then poof it's gone.\n\nDue to this, all of last year I've just been doing freelance work for my prior clients, such as helping them move their marketing funnels and assets to a different platform. Just to pay the bills. Fucking sucks. I don't want to look at Hubspot ever again.\n\nI've decided (out of desperation lol) to shift gears and enter the job market.\n\nI absolutely love software engineering but I gave up on that since the market is super competitive and the fact that I had not had any internships or professional work experience for five years since graduating basically makes me un-hirable in this aspect. Talked to a friend of mine who's a software developer and he told me that my experience doesn't really count in the software engineering sense, which I totally understand since I was basically building PHP plugins for an existing platform.\n\nBut, I've been applying to *any* entry-level role I can find. QA roles, business analyst, IT consulting, project management, basically anything that I can realistically do.\n\nI've applied to over 200 positions and did two interviews, no results. With the current freelance work I have, I don't have enough hours in the day to get much applications in but I'm trying to scale it up.\n\nAfter interviews, one company said they had to stop hiring, the other said they'd send me a link to an assessment after my interview and didn't end up sending it (I maybe should've followed up with them but I didn't want to be a nuisance).\n\nHere's my big problem: Aside from three freelance web dev projects and my business, I have zero \"professional\" working experience.\n\nOn my resume, I have a listing for my business, but I don't know what to call this position.\n\nI don't want to call myself \"Founder\" because that just sounds too pretentious. I also feel like calling myself \"software engineer\" is misleading because...it was only me?\n\nBut if I call myself \"freelancer\" then it sounds like I was building custom solutions for clients, when in reality I built plug-ins and sold them as digital products to thousands of customers. It's a completely different scope and operations.\n\n**So I guess my two questions are:**\n\n1. What should I call my title for my \"business experience\"? Self-employed? Software engineer? Freelancer? I'm not sure how to best brand myself.\n2. Any advice on how I can convey \"*Yeah so this was a legitimate business for a few years, but I had to stop because my ecosystem imploded\"* ? Because I feel like when recruiters read this, they'll toss my resume away immediately since \"look at this hot shot running a so-called \"business\" haha if its so \"successful\" then he clearly doesn't need a job. \"\n\nHating myself for not getting an internship + job straight out of college and for not applying during the 2019-2021 golden years. That would have made my life 100x easier. Fucking hell talk about poor insight.\n\nI learned fluent Mandarin so my backup plan if I can't find anything that gives me adequate health insurance is to fly to China and teach English there. A friend of mine is doing it. Makes jack shit but the costs there are low so it's an alright quality of life. Other option is Starbucks but I wouldn't be able to afford rent.\n\nSorry for this wall of text.\n\nAny advice?",
+      "subreddit": "cscareerquestions",
+      "score": 63,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1cemqc3/hello_im_fucked_and_i_need_help_how_do_i_brand_my/",
+      "comments": [
+        {
+          "body": "I also recently got my first CS “job” after my only prior experience being my own small business. I’d say don’t be afraid to call yourself a Software Developer, Full Stack Developer, or really whatever the name of the position you are applying for is. On your resume show it’s legit by including some numbers like - how many sales/downloads of your plugins, and how many $ in sales per year. Also, don’t be afraid to apply for intermediate roles in addition to entry level. That’s ultimately how I got my job, and honestly your experience sounds more “legit” than mine (I was pretty much just part time working for myself while I had another full time career). It took a lot of applications to find the right fit, but for the right company your experience will definitely count and may even be considered an advantage because it proves you can ship a working product that generates income.\n\n\n Editing to add: apply to all sizes of companies, but I found smaller companies were more open to my non-traditional background. ",
+          "score": 31
+        },
+        {
+          "body": "You came up with ideas for products, developed said products, and had thousands of paying customers… and you’re unsure if you should call yourself a founder? \n\nEither I don’t know the definition of a founder, or you have stage 4 imposter syndrome. I’m guessing it’s the latter.",
+          "score": 28
+        },
+        {
+          "body": "If it was PHP, imo you were software engineer - you were building code, documetning it, version control, etc etc",
+          "score": 83
+        },
+        {
+          "body": "A lot of delusion in these comments and some serious imposter syndrome in your post\n\nYou built a product by writing software that was successful enough to make 50k a year?\n\nThat is more impressive than coasting in a ‘proper’ job doing the bare minimum and avoiding thinking about the product at all costs (aka a significant percentage of developers)\n\nNo recruiter or interviewer is going to think you’re pretentious for it\n\nSpend some time up skilling outside of php, have some pride in your achievements and send some more applications, call it contracting call it a small business or call yourself self employed it doesn’t matter\n\nJob market won’t be shite forever",
+          "score": 10
+        },
+        {
+          "body": "[deleted]",
+          "score": 8
+        },
+        {
+          "body": "You sound like someone startups would like, not sure if that's what you're looking for but angellist and similar platforms could have people most interested in your skillset i would think",
+          "score": 6
+        },
+        {
+          "body": "I think you have imposter syndrome. Your friend’s comment seems kind of pointless if he didn’t have actual advice, and I’m sure that didn’t help. You’re not going to claim 10 years of experience at Google. Resumes and applications are marketing documents, so market yourself for what you want.",
+          "score": 4
+        }
+      ]
+    },
+    {
+      "title": "Has anyone had experience with HubSpot as Frontend Engineer?",
+      "body": "I've searched through every single post on glassdoor and only seen maybe 8 very vague questions related to a frontend role. I understand it will be a \"javascript\" and a \"coding\" interview. Does anyone have experience going through these final steps and what to expect? This is one of my dream companies and I want to do my best!",
+      "subreddit": "cscareerquestions",
+      "score": 1,
+      "url": "https://reddit.com/r/cscareerquestions/comments/137x25f/has_anyone_had_experience_with_hubspot_as/",
+      "comments": [
+        {
+          "body": "Hey! How did it go? Can you share how your experience went? I have a similar interview coming up with HubSpot and it'd be really helpful, thank you!",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "How to get the coding challenge for the software engineering internship at Hubspot? Does connecting with recruiters on LinkedIn and sending them emails catalyze the process?",
+      "body": "Hey guys\n\nI'm a rising junior at UMass Amherst pursuing computer science. I have an SWE internship rn and am working primarily on Java and salesforce apex. I know Angular and nodeJS as well and have done a bunch of projects involving those 2 languages and are up on my github repo. I'm highly fixated on hubspot for the next summers and was wondering if anyone knows how the interview process looks like? I'm aware that it's usually a 3 hours coding challenge -&gt; phone screening -&gt; final interview at the HQs but does everyone get the coding challenge or is there a resume screening before that? Does getting referrals and connecting with recruiters on LinkedIn help? Also, do they hire international students?\n\nThanks",
+      "subreddit": "cscareerquestions",
+      "score": 1,
+      "url": "https://reddit.com/r/cscareerquestions/comments/hknyct/how_to_get_the_coding_challenge_for_the_software/",
+      "comments": [
+        {
+          "body": "The pattern that I have noticed is that HubSpot prefers to see someone with prior internship experience. The first two times I applied for co-ops, without any experience, I got rejected in under a week. Then when I was on a fall semester co-op, I applied, and this time in 4 days I got the coding challenge. I reneged for the next stage since I already had gotten my next co-op offer by then, doing systems work in C++ (which is my area of interest) whereas at HubSpot I'd be doing full-stack work.  \n\n\nThey do hire internationals since I was one and my friend who interned there is also one.",
+          "score": 5
+        },
+        {
+          "body": "Well you can choose whether to interview for front end or back end. Everything else being equal the front end interview is easier but if you’re pretty good with Java then maybe take the backend interview. After the interview you can decide to switch ends anyways. \n\nRead the culture code, read about the product, and brush up on your n log n sorting algorithms.",
+          "score": 6
+        },
+        {
+          "body": "Thanks! This really helped. Well I have an internship rn and I’m also working on a really dope nodejs/angular side project. I’m guessing that they require the people to be fluent with js since most of the work is web dev?  Also I have a bunch of other js projects on my repo. Do you think I have any shot?",
+          "score": 2
+        },
+        {
+          "body": "Can i ask whats got you so guns blazing for hubspot?",
+          "score": 2
+        },
+        {
+          "body": "Do you think they will even send me the coding challenge given whats happening with immigration lol?",
+          "score": 1
+        },
+        {
+          "body": "[deleted]",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "how would you categorize design an LRUCache question DS&amp;A or design?",
+      "body": "prior to my system design session with hubspot i thought system design was something like design and implement an LRUCache, when i actually did the question it was actually more data structures focused. with that in mind, do questions like design and implement X count as DS&amp;A interview questions?",
+      "subreddit": "cscareerquestions",
+      "score": 1,
+      "url": "https://reddit.com/r/cscareerquestions/comments/7af7t7/how_would_you_categorize_design_an_lrucache/",
+      "comments": [
+        {
+          "body": "[removed]",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "title": "Hubspot support specialist role Demo Interview",
+      "body": "I’m currently interviewing for the Customer support specialist role at Hubspot. Any tips on how to prepare for the demo interview one hour round? I am really nervous. Any information/questions that I can expect will help me to prepare well. ",
+      "subreddit": "interviews",
+      "score": 4,
+      "url": "https://reddit.com/r/interviews/comments/1ii04q2/hubspot_support_specialist_role_demo_interview/",
+      "comments": [
+        {
+          "body": "One thing I've found helpful in demo interviews is to practice your responses with a colleague or friend, focusing on highlighting the benefits and features of Hubspot's products. It's also a good idea to review their sales process and familiarize yourself with their typical pain points.\n\nFor the one-hour round, you can expect questions like \"Walk me through how you would handle a tricky customer\" or \"Can you show me a specific example of when you had to think on your feet\". Be prepared to talk about times when you've gone above and beyond for customers, and be honest - it's okay if you don't have an exact scenario in mind.\n\nIf you want more about the tool I used during my own interviews (which helped me feel more confident), I can share it with you. Remember, it's not just about knowing the answers, but also about showing enthusiasm for Hubspot and their mission. You got this!",
+          "score": 1
+        },
+        {
+          "body": "For the Hubspot support specialist demo interview, focus on showcasing your problem-solving skills and customer-centric approach. They'll likely present you with a mock customer issue to resolve. Practice walking through common Hubspot problems, explaining solutions clearly, and demonstrating empathy. Be ready to use their CRM interface if they provide access, and highlight your ability to navigate software quickly.\n\nPrepare by researching Hubspot's products thoroughly and understanding their customer base. They might ask about handling difficult customers or prioritizing multiple support tickets. Stay calm, listen carefully to the scenario they present, and don't hesitate to ask clarifying questions. Your ability to communicate effectively and think on your feet is crucial. I'm on the team that made [interviews.chat](http://interviews.chat), which can help you practice answering tricky support specialist questions to boost your confidence for the real thing.",
+          "score": 1
+        },
+        {
+          "body": "Hi, how did the round go? Did you get an offer?",
+          "score": 1
+        },
+        {
+          "body": "Did you get the job??' I'm applying to the same position, and I have the same interview tomorrow. I'm a little scared, even though I have 4 years of customer service experience; this will be my first time in a technical environment. Tell me how it went.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "What are the chances this is good news",
+      "body": "Hey everyone,\n\nGot this email from HubSpot after my interview. The subject is *\"Connecting with you about your application to HubSpot.\"* The email itself is short, thanking me for my time and asking me to set up a quick call in the next few days. No mention of next steps, just a generic \"touch base.\" It looks like:\n\n  \nThanks again for taking the time to meet with our team!   \n  \nI would love to set up a time to touch base quickly over the next few days. Please use the link below to set up a time to chat\n\nDo you think this is a good sign, or just a courtesy follow-up before a rejection? Anyone had a similar experience?\n\nWould love to hear your thoughts as I am experiencing anxiety over this",
+      "subreddit": "interviews",
+      "score": 4,
+      "url": "https://reddit.com/r/interviews/comments/1jjv48q/what_are_the_chances_this_is_good_news/",
+      "comments": [
+        {
+          "body": "They seem interested … BUT I have actually received an email such as this and been told on the phone that the team loved me, but they were selecting a different candidate. \n\nI was floored and pissed, but this is their standard practice for telling the “unchosen” candidate. Via a phone call that they emailed me to coordinate.",
+          "score": 6
+        },
+        {
+          "body": "Rarely do companies waste their time on people they don't want to move forward with. I don't want to give you false hope but if they want to connect again, it's probably to discuss next steps or something similar.",
+          "score": 2
+        },
+        {
+          "body": "This is a good sign they want to discuss further on the next steps. This could be an offer appointment or something else where they schedule a 2nd+ interview.",
+          "score": 2
+        },
+        {
+          "body": "A recruiter will never ask you to schedule a call so they can reject you or let you down gently. \n\nGood sign on moving forward.",
+          "score": 1
+        },
+        {
+          "body": "They seem interested",
+          "score": 1
+        },
+        {
+          "body": "They seem interested",
+          "score": 1
+        },
+        {
+          "body": "The only good news is if they present an offer. Nothing else matters.",
+          "score": 1
+        },
+        {
+          "body": "Any updates on this? I finished my final rounds last week and waiting on an answer.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Working in a toxic environment as an intern",
+      "body": "Hi guys, I hope you all are doing well. I started my internship 5 weeks ago in a startup in London. I had just finished my first year in CS and was happy to land a paid internship.\n\nI got a call the same day after the interview was over, saying I had gotten the position. I was really happy and was looking forward to getting my first real life experience working in the tech industry.\n\nWhen the internship started I was given a task to clean up some CSS code from hubspot (content management tool like wordpress). During this process the head engineer who interviewed me was very annoyed with me whenever I would ask a question.\n\nOnce I was done with that task, I managed to save around 2000-3000 lines of code. After that I was tasked with creating an internal software for the employees to use, to manage logins, give Permissions, etc..\n\nThe project was to be done in Django, whereas the company exclusively used, Laravel, Flask and React. They give me no sort of guidance and no real estimate of when they wanted things to be done. I had previously informed them that I had 0 experience with backend development and was learning a lot of things on my own (outside of my university). They were constantly setting unrealistic targets for me to hit  and when I would complain about the targets, they said that I was being ungrateful and that this is the reality of the industry.\n\nNone of them have experience with Django and so I often find myself stuck at a problem with no one to ask for help. I was assigned a ‘buddy’ who was supposed to be my first point of contact regarding any issues, but he quit the week after I came. It has now gotten to the Point where I hate coming in. I am made to feel like shit and no one is willing to help me.  \n\n\nI feel so misled by the internship experience and feel like maybe I am the problem.   I don't feel part of the team and don't feel welcomed into the company. I have head  from other engineers that the head engineer didn't want an intern and that's why he is acting out. I have had no professional coding prior to this internship, and first year CS doesn't teach much outside of basic Java and basic web technologies.\n\nIn spite of the negativity I am facing in this internship, I feel like I have learned a lot. I am trying my best to continue to work and learn but I feel so unmotivated and afraid to make mistakes.  \n\n\nWhat should I do? Are they right am I being ungrateful? I feel so alone and am just waiting for the end of this internship (3 more weeks).",
+      "subreddit": "cscareerquestions",
+      "score": 39,
+      "url": "https://reddit.com/r/cscareerquestions/comments/cdw34m/working_in_a_toxic_environment_as_an_intern/",
+      "comments": [
+        {
+          "body": "&gt; Are they right am I being ungrateful?\n\nNo, it's a shitty internship. \n\nAs for what to do; just try to learn as much as possible from it, not just technology wise, but also when it comes to the more 'soft' skills; managing expectations, dealing with others, etc. It's just 3 more weeks; you can do it. And it's not like you're going to be working for them again.",
+          "score": 54
+        },
+        {
+          "body": "Personally, I would finish out the three weeks; you’re getting paid, learning, and it’s never good to leave on bad terms from a “networking” standpoint. That being said, it seems the company managers/recruiters do not have any understanding of code and the reality of debugging, which is the root cause of your dissatisfaction.",
+          "score": 17
+        },
+        {
+          "body": "No, This is bollocks. I did my internship a year ago and the head senior dev could not have been any nicer. \n\nIf this is an accurate depiction of events I would just do my time and just get as much out of it as I can.",
+          "score": 9
+        },
+        {
+          "body": "Learn as much as possible. Be polite and assertive when it comes to defending yourself. Dealing with this kind of toxic environment will help you in the future.",
+          "score": 6
+        },
+        {
+          "body": "&gt; The project was to be done in Django, whereas the company exclusively used, Laravel, Flask and React. They give me no sort of guidance and no real estimate of when they wanted things to be done....  \n&gt;  \n&gt;None of them have experience with Django and so I often find myself stuck at a problem with no one to ask for help....   \n&gt;  \n&gt;I have head from other engineers that the head engineer didn't want an intern and that's why he is acting out.  \n\nUnfortunately this is pretty common, higher ups decide you should have a junior/intern and expect you to train them but you have no choice in the matter and are never actually allocated time to train them.\n\nIf there's only 3 weeks left I would still complete the internship, none of this is your fault it's just poor management.",
+          "score": 4
+        }
+      ]
+    },
+    {
+      "title": "Nervous about new web dev role at startup",
+      "body": "Whatsup guys, I’m starting a new position and I’m looking for some motivating/ inspirational advice from someone who has been on a similar path.\n\nStarted my career in web development last year after completing a boot camp (mern stack) and got a job within a month of graduating making 50k salary\n\nThe job itself didn’t have much coding involved ( it or at least the way we did in boot camp) as I was hired as an html email developer for a media agency with the occasional task of coding a landing page for clients using html and css/ Wordpress. \n\nFeeling unfulfilled and wanting to find a job where I could grow more as a developer, I began a new job search about six months in. After, a few interviews with different companies, I got an offer from a startup making 20% more , better benefits and a much shorter commute (previous job was 45 minutes to an hour , depending on the day)\n\n\nI’m nervous for two main reasons: letting my coding skills get rusty during my time at my first job and the lack of technical assessment during the interview process at my new job. Other than some dom manipulation related questions they pulled out in the spot, there was not formal challenge or take home assessment I was required to complete. During the interview they asked me many things that I was transparent in saying I didn’t know about ( how to improve  Seo for websites, if I had worked in a scrum environment, did I know hubspot  ) . I made it clear that the things I wasn’t familiar with, I’d approach with the same passion and mindset I did when I first stated learning web dev.\n\n\nI have taken the last two months to get my coding skills up to speed through building projects and definitely feel more comfortable at this point than when I first started job searching. Nonetheless, I feel an immense pressure to perform and can’t help but feel somewhat under qualified for this role. The fact that they didn’t ask me many technical questions concerns me as far as what I should be expecting. This is a more traditional coding position unlike my first job and I just want to make sure I live up to expectations. I appreciate anyone who reads the entire post.",
+      "subreddit": "cscareerquestions",
+      "score": 1,
+      "url": "https://reddit.com/r/cscareerquestions/comments/p89tnj/nervous_about_new_web_dev_role_at_startup/",
+      "comments": [
+        {
+          "body": "Find out who your mentor is when you start.  Communicate with them like a competent adult.",
+          "score": 2
+        },
+        {
+          "body": "You have much higher expectations of yourself than your coworkers probably have. Realistically, if you are contributing at a good rate within 3 months, and if you get fully up to speed by 6 months, you will more than exceed expectations.\n\n3 months is a long time. If you work hard, and if you are a good fit for the company, you will be able to succeed. Most of software engineering is easy once you know how to do it. The hard part is putting in the hours to learn the skill.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "My first job as a junior dev",
+      "body": " Hi guys, I just got hired by a small company which is a HubSpot partner.\n\nThey told me to learn about Inbound Marketing and all that marketing stuff I don't like, I mean I want to write js and making custom functionalities for websites made usingHubSpot CMS.\n\nI'm a junior software dev but they somehow told me I have to talk to clients and etc.\n\nBut at the interview we talked about JS, CSS, REST API's and MySQL.\n\nIt is my first job and all that marketing courses scares me.\n\nIs it bad if I told them I don't want to learn the marketing stuff?",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/jmp9rs/my_first_job_as_a_junior_dev/",
+      "comments": [
+        {
+          "body": "Yeah, it is. You should have domain knowledge on the problems your code is trying to solve.",
+          "score": 9
+        },
+        {
+          "body": "It is very bad, code is a tool to solve problems, but you need to have a grasp on understanding the problems itself. \n\nYou either enjoy the field you're in, or start applying elsewhere again, I would give it a year or two so you can have experience.",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Does anyone know the application process for internship in Hubspot?",
+      "body": "I just scheduled a 30-min phone interview and wonder what else is waiting for me. ",
+      "subreddit": "cscareerquestions",
+      "score": 3,
+      "url": "https://reddit.com/r/cscareerquestions/comments/77f9xp/does_anyone_know_the_application_process_for/",
+      "comments": [
+        {
+          "body": "I worked there a while back (as a full-time developer who did lots of interviews) and I know people who have interned there. For interns, I think the current process is a phone call with the intern recruiter, then you do a timed online coding challenge. If you do well on that, then you are brought in for either an in-person (if you're local) or you do a couple online/over-the-phone calls with developers if you're farther away. Those interviews are also heavily technical (mostly focused on programming and some design questions), rather than focused on behavioral.",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "title": "Advice on resume. Almost a year applying and nothing ",
+      "body": "I want to go into project management and I know that's tricky career to get into as there's no straight road. I think I have enough transferable skills to be able to get a project coordinator entry level position but maybe l'm wrong. Please I would love some advice on how to fix this resume to at least be given a chance at an interview. This job market has been horrible.",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/1fi9lca/advice_on_resume_almost_a_year_applying_and/",
+      "comments": []
+    },
+    {
+      "title": "Hey you. Don't give up.",
+      "body": "I quit my job 2 months ago, after ~5 months of employment. It was a pretty sweet job. Profitable industry, coworkers were great, environment was casual, and I had a bunch of international business trips lined up. A dream job for a recent grad. I had to refund an $8k plane ticket on my last day, even though I had plans to visit my family on that trip. Wasn't the best case scenario, but my boss was absolutely insufferable and I knew I wanted to be in a different field. \n\nBefore I started the job mentioned above, I was in talks with a VP of another company that I was wanted so badly to be a part of. We knew the timing was wrong, so we shook hands and said we'd stay in touch. \n\nAnd we did. I reached out to that VP the day I left my old office. After a month of back and forth with several people in the company, and four rounds of interviews later -I found out yesterday that I didn't get the job. Mind you, it wasn't the position I wanted, it was the position that was available; I just wanted to be there that badly. \n\nMy last interview on that company was this past Friday, and I knew I hadn't performed my best. It was just the uncertainty that was killing me. \n\nWhen I received my rejection email yesterday, I was in the process of cold-emailing several companies. *There is no time to mope.* All 4 got back to me today, and we're setting up meetings for the next week. \n\nDo not give up! A little audacity goes a long way. ",
+      "subreddit": "jobs",
+      "score": 165,
+      "url": "https://reddit.com/r/jobs/comments/4egq3f/hey_you_dont_give_up/",
+      "comments": [
+        {
+          "body": "That's the spirit. Too often people get too invested in a lead and it shocks them to the core when they don't get it. I know I have, and it's just part of the process and learning from it.\n\nKeep up the good attitude and best of luck.",
+          "score": 27
+        },
+        {
+          "body": "Good lord, you had a dream job as a recent grad and had to turn down other companies and when you decided you didn't like it, you just cold called and got four interviews?! This is nowhere near a typical experience for any industry. What do you do for a living, turn dog shit into solid gold with the power of your mind??",
+          "score": 9
+        },
+        {
+          "body": "any advice on how to cold email, I am having a hard time finding the right contact information. ",
+          "score": 6
+        },
+        {
+          "body": "&gt; There is no time to mope\n\nYou got that right, Every time another rejection rolls in, I don't even let myself think about it. I just mark it off on the spreadsheet, and move on to the next app",
+          "score": 6
+        },
+        {
+          "body": "&gt; Do not give up! A little audacity goes a long way.\n\nAfter almost seven years, and 10k+ applications/resumes/etc, giving up is the only thing I have left to do.",
+          "score": 10
+        }
+      ]
+    },
+    {
+      "title": "Hiring Woes from a Recent Grad",
+      "body": "So I'm a recent grad in the Minneapolis area who just graduated with a marketing and sales degree. I have a decent resume (I worked for a small start-up learning how to use hubspot and develop leads from cold calls) even with some international experience (I was a sales and marketing intern in Toronto for a summer). I tried my hand at applying to over 100+ marketing/account positions and made it to the final round for around 10 of those orgs only to hear that they found another candidate or paused hiring for the position. I would be interested in literally any sales field at this point, any marketing position, or even account roles. The only thing that's off limits is those insurance sales jobs, I think I would rather rip all my toenails off and pour hand sanitizer on open cuts than work one of those.\n\nI'm currently in the hiring process with Keyence for technical sales, and waiting to hear back from Lockheed Martin.\n\n***I wanted to ask if anyone in the sub knows of any great entry-level orgs in the Minneapolis &amp; St.Paul area.*** I've been hearing some iffy stuff about Keyence and am starting to realize it's not all rainbows and butterflies with them even though they do compensate really well. However, do correct me if I'm wrong with Keyence and what people have been saying online. \n\nAm I getting unlucky with my interviews/apps, do I just suck as a candidate, or is the economy that bad right now that the hiring pool is just incredibly competitive?",
+      "subreddit": "jobs",
+      "score": 2,
+      "url": "https://reddit.com/r/jobs/comments/1f87mtx/hiring_woes_from_a_recent_grad/",
+      "comments": []
+    },
+    {
+      "title": "I got my first job offer but i’m unsure about it.",
+      "body": "Hey, I’m an entry level digital marketing associate with minimal previous experience, but I’m also certified from Google, Meta, udacity, hubspot and coursera i was offered a job as an entry level Amazon advertising specialist with 1 week training and slightly above minimum wage salary from which i will spend nearly 25% on commuting ( and nearly 2.5 hours) for the first three month, then if i got fully onboarded that pay would increase by 50%, there was no mention of medical, sick leaves nor PTOs in the contract, i passed two rounds of interviews and acceptance within 24 hours and was interviewed by the CEO himself (there was no talent acquisition team nor an HR representative) and he told me i could manage up to 30 sellers/clients at the same times, there is no hybrid work and 40 hours in office per week is to be expected, I’m inclined to refuse that job offer but the hiring landscape has been really dry lately and that makes me anxious about refusing a job offer but i feel like it offers minimal opportunity for me to grow professionally or have a work/life balance, i would greatly appreciate any advice on that matter.",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/15np4q3/i_got_my_first_job_offer_but_im_unsure_about_it/",
+      "comments": [
+        {
+          "body": "It makes sense why you took this job but from the outside I can tell you that jobs like these have a lot of red flags for me. These types of jobs tend to be sketchy companies with shady practices and have a lot of turnover which is why they pay low and have such a long provisional period - plus no benefits to offer. \n\nMy 2 cents is that you’re trying to enter a very competitive field so you’re probably going to need to take some low level jobs to start off with but it’s important to be clear eyed about the companies that you’re interested in working for.",
+          "score": 2
+        },
+        {
+          "body": "You can consider negotiating the terms or accepting it as a temporary stepping stone.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "What's the best way of approaching this situation?",
+      "body": "25 days ago, I was rejected in the last round of an interview process. This was the feedback I got from the manager:*We really appreciated your energy and enthusiasm. Your alignment to the mission is very clear and would be a huge asset in this role. However, the role requires someone who has deep operational experience of executing grants, specifically with a CRM (ideally Hubspot). So with your candidacy, it’s a case of mismatch of requirements and capabilities rather than a question on your capabilities or potential. You would do great in the --- ecosystem or in any other future roles.*\n\nToday, I see that the role is still open and they are accepting applications. The natural thing to do is move on but do you have guys have any advice on how to approach this?Can I message them and say hey, I have since the last month upskilled in CRM and taken courses for it, can I have another shot?\n\nPls help!!  \n\n\nUPDATE: They are no longer accepting job applications, so i guess, they found someone ",
+      "subreddit": "jobs",
+      "score": 0,
+      "url": "https://reddit.com/r/jobs/comments/13be7m1/whats_the_best_way_of_approaching_this_situation/",
+      "comments": [
+        {
+          "body": "It's unlikely you have gained a *'deep operational experience of executing grants, specifically with a CRM (ideally Hubspot)'* through \\~ a month of online courses.  You may have gained expertise in the platform, but it sounds like they want domain knowledge/experience to complement that.  \n\nYou can reach out to the recruiter/manager to try to sell your upskilling, I would really approach it by highlighting the positives (fit) and what you've done to bridge the gap, followed by what you would do to bridge the gap in operational knowledge (perceived or real) if you want to do it.  Think of it as like a 30/60/90 plan that you are pitching.",
+          "score": 5
+        },
+        {
+          "body": "Hell, that's more feedback I've gotten after an application/interview...ever. Employers in my experience usually dont give any feedback at all and most often, nothing more than a heartless automatic rejection email.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "A year has passed since graduation and still no job. Help.",
+      "body": "Thank you in advance for reading all of this! Any advice is appreciated. \n\nSo, I graduated college with a B.A. in Music Business in May of 2016. Since then I have had zero luck in landing a job. It's not for lack of trying; I can't tell you how many applications I've submitted only to be turned down again and again. I'm trying to get into digital marketing/SEO/social media and have experience managing social media accounts, building wordpress sites, etc. I'm also certified in Google Analytics, Hubspot Inbound, and soon to be Google Adwords. \n\nI had an interview for a digital marketing position a few weeks back and was told that they decided to go in a different direction. I felt like I did really well during the interview so I have no clue what happened. I feel as if my lack of a business / marketing degree is what's holding me back. Because of this I've decided to go back to school to get my MBA. My current plan is to do it online through the University of Saint Mary. This way I can get the program done in one year while still working part time. Is the MBA a waste of time and money though? \n\nI also am looking to potentially move to Buffalo in September when my boyfriend starts his Masters out there. I want a job now (part time or potentially full time) but I also would love to move to Buffalo in 4/5 months if possible. I just feel very lost and confused at this point in my life and am seeking some advice. 21 years old and I never thought I'd be having these issues. I never imagined I'd be without a job a year after graduating college. I was supposed to be paying back my loans starting last November but I've had to defer them due to my lack of money. I just have no idea what I'm doing. ",
+      "subreddit": "jobs",
+      "score": 9,
+      "url": "https://reddit.com/r/jobs/comments/664nd9/a_year_has_passed_since_graduation_and_still_no/",
+      "comments": [
+        {
+          "body": "An MBA could potentially make it harder to find a job. The biggest hurdle in finding a job is experience. If you get an MBA with no experience you're going to both be underexperienced AND overqualified. I'm not telling you 100% not to do it, but I don't think grad school as a backup option is typically a good idea. Advanced degrees are not one-way tickets into jobs. \n\nWhat kind of response rate are you getting for your applications? Is that the problem, or are you getting interviews but no offers? That will help determine where you need to focus. Have you tried internship opportunities? Non-profits? Volunteering? ",
+          "score": 7
+        },
+        {
+          "body": "An MBA is for career changers (years of work experience) or advancement up the corporate ladder. Repeat that with me. Go for a masters if you're going to do grad school.",
+          "score": 5
+        },
+        {
+          "body": "There's actually a lot of internet marketing agencies in Buffalo. Most are small, but some have well over 100 employees.\n\nSo your best bet might be to move to Buffalo as the job market is less saturated.\n\n/r/buffalo",
+          "score": 1
+        },
+        {
+          "body": "Just go into anything, but keep trying and applying to jobs. Don't be surprised if it takes over a year. Most people I know in the same boat as you have had this issue. ",
+          "score": 1
+        },
+        {
+          "body": "   Hi!  Please don't get more education before getting some sort of experience first.  And don't take me wrong: anything can happen, and you could just happen to fall in to a fantastic job tomorrow...\n\"but\"\n  MBA's are really tailored for people who (1) have a business \"idea\" but no knowledge of how to turn that into a business plan, or (2) have worked in some field for a while and have noticed something in the realm of their experience which they feel could be turned into a business \"if they knew how to do business\".  Those people take their ideas to the school, and use the MBA degree program to build a network of like-minded individuals and jump-start themselves on a business path so that they can then grow their original idea into an income-generating business model.  You seem to be inferring that you do not have any experience in the Digital marketing/SEO/Social Media field and \"no idea\" what you could to turn into a business objective.  You are hoping that getting an MBA will get you a job in your desired field, but you have no experience to promote \"as\" skills; which you need in order to be considered for any job.\n\n  I know many people with advanced degrees in Physics, Chemistry, Computer Science, and Math who are working in trivial jobs (one has created a profitable construction company because his only skills were in construction and his Masters in Physics was not getting him a high-enough paying job to pay off his school debt!) because they are \"over educated and under-qualified\" (read: no work-experience in their desired field).  Education is a means, and not the end-all. I also know people who are managers/senior positions in all those enumerated fields who have only high-school diplomas... because they have lots of experience!  \n \n  My current company's \"director of marketing\" started as an intern (out of high school@$30k/year) 5-years ago, but now makes 180k/year.  Do not be afraid to start with an internship!\n\nThe MBA will give you knowledge of how to Administer and run a business, but not the skills necessary to work there.  If you don't know the basics of working a job, you are not well-suited to administer nor manage it.  The key is to work, build skill, learn to manage the basics of your position, then you can begin to teach others what you know; which leads to managing them.\n\n  You can start any career by getting an internship or finding a \"junior\" position.  Then you will have some experience.  You may need multiple internships before you get a junior position offer.  After that, you can then look for better employment offers because you will then have some basic experience skills to offer.\n\nBest of luck to you!",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "FINAL STAGE INTERVIEW: 2.5 hour interview split into two separate meetings - I need help, tips, encouragement. Position: Marketing Lead for a startup - it's their first lead hire.",
+      "body": "So i've had two rounds already, one with HR (30 mins), one with Managing Director/Founder (45 mins) - after this interview i sent a basic framework for how i would approach a marketing strategy - Lean Canvas (one page marketing plan), SWOT analysis, customer journey, personas etc etc ). It's a startup with 3 co-founders. The 2.5 hours is split like this:\n\nFirst hour: HR Manager and Managing Director (founder). \n\nSecond hour: The other MD ( two founders have MD as their linkedin title) and Non Executive Director.\n\n30 mins: questions from me and meet with some of the team already employed (there are 19 employees in total) \n\nI don't know what to expect in this round. The most recent interview got into a lot of leadership style questions and some basic questions about my experience with various softwares and campaign management. It was a great chat and I felt very encouraged and that he was super interested. All so far have been on video from home because of covid. \n\nThey just recently started using Hubspot as their CRM and I have good experience with this software.\n\nHere's the JD\n\n* Building and implementing our digital marketing strategy with a focus on B2C demand generation, leading our digital marketing team of 3-5 people\n* Setting up, improving, and overseeing marketing campaigns across diverse digital channels, identifying trends and insights as well as using tools like HubSpot and Google Marketing Platform\n* Defining our strategic social media and content marketing plan based on relevant and measurable KPIs and its associated budget across campaigns and channels\n* Tracking and ensuring timely implementation of defined marketing initiatives as well as automating the data collection to measure ROI per channel, market, and product\n* Collaborating with the founders on organizational and strategic topics\n\n**Your Profile**\n\n* 3+ years of experience in Digital Marketing with a focus on B2C as well as experience in setting up marketing campaigns\n* Proficiency with CRM tools, preferably HubSpot and other relevant tools\n* Track record delivering customer acquisition performance and managing performance marketing channels including SEM paid social, display, affiliate, email\n* Up to date with the latest marketing technology and best practices\n* Technical, structured, and analytical thinking as well as proactive attitude and entrepreneurial spirit\n* Fluent in English, further languages, and experience in an international and/ or startup setting are a plus\n\nI have the interview on 15th June and I know it's asking a lot, but i'm out of practice with this stage, i've been job searching for a year, interviewing for 8 months, finally get to last round for a company i'm really into. I want this job so bad. I have a good shot since i'm at the final stage already and had a good vibe and good feedback already from HR and one Founder. \n\nWhat are your best tips, ideas, preparation you would do etc etc. Help me get this job y'all!",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/ns8emx/final_stage_interview_25_hour_interview_split/",
+      "comments": [
+        {
+          "body": "Hello, thank you for posting to r/Jobs! \n\nWe just wanted to let you know that we have a new [discord server, come join the chat!](https://discord.gg/TY6ErXV)\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/jobs) if you have any questions or concerns.*",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Should I hide the fact I do sex work if my brand is semi successful? I plan on becoming a Brand Manager for a corporate job. Please read before commenting",
+      "body": "I’m a mid sized model (100k + followers on insta, 150k+ on twitter). I model and also do sex work such as OF. \n\nI have become pretty serious about this, and have recently become incorporated to help make tax time easier. I have been pretty successful at my job. I also live stream on Twitch. \n\nI have an associates in marketing and i’m planning to get some certs under my belt (hootsuite, google, hubspot, microsoft)\n\nI also have about three years of collective marketing experience outside of my own brand, but most of it was posting content to socials, running paid FB ads, and creating email lists via mailchimp. I worked contracted for various esports orgs (that have since disbanded unfortunately) \n\nI have a gap in my resume due to my time modeling — as it has paid the bills and the content creation does take time.\n\nI have had a few interviews, and I filled the gap in by saying “I manage and run influencers socials” as if I am a brand manager (because I am technically) The issue is when they ask me questions about what did I do to increase our CTR — basically any analytics questions I truly have no idea. I was never responsible to researching such things. I feel like I should have been.\n\nI dont use any programs and I don’t check analytics often — networking has by far been my largest tool. I run and moderate a model/streamer discord, I am a part of share groups that actively help and promote each other without being “spammy”. We research market trends and ways to boost our reach (creating insta polls to increase story views etc)\n\n\nMy questions are \n\nA. Is there anyway to constructively showcase my progress with my current brand without being judged for sex work?\n\nB. I hear many people create an account to apply what they learned in school or through certifications to show their value as a marketer. They demonstrate growth that way. Should I start doing this myself? I really wouldn’t know where to start except for maybe using my Twitch specific socials — Which can likely be linked back to my modeling.\n\nC. I really do not have the money at the moment or the time to continue my bachelors but if it’s absolutely essential given my current circumstances I will. How important is a BA?\n\nD. If the route I’m going is fine, and I’m asked questions about what I did in my previous jobs to increase reach on socials, what should I be researching so I can come up with a better answer? As of right now, I only really understand my own brand. As I mentioned earlier I have relied on networking and trial and error as my main source of growth.",
+      "subreddit": "jobs",
+      "score": 0,
+      "url": "https://reddit.com/r/jobs/comments/ug34dq/should_i_hide_the_fact_i_do_sex_work_if_my_brand/",
+      "comments": [
+        {
+          "body": "Hello, thank you for posting to r/Jobs!\n\nWe just wanted to let you know that we have a new [discord server, come join the chat!](https://discord.gg/TY6ErXV)\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/jobs) if you have any questions or concerns.*",
+          "score": 1
+        },
+        {
+          "body": "A) no absolutely do not disclose that.  Beyond the type of work in general, the fact that you can’t articulate and quantify what you did would just cement your success is only tied to looks and what you are willing to do on camera. \n\nB) I would not do this simply because it will make it easier to find your only fans. \n\nC) you don’t NEED it but there are definitely many places that won’t interview without. My buddy has worked 20 years and has trouble finding a new job bc of this. Not having will def make it more difficult  \n\nD) honestly if you can’t come up with something better than that you’re applying for the wrong jobs. Measurement is a fundamental of marketing and you’re not doing it. As is the methodology you use for pressure testing what you’re doing. Apply entry level.\n\nAny brand manager level job you’re going to be expected to have all of these things and know why you’re doing them the way you are.",
+          "score": 5
+        },
+        {
+          "body": "Fellow SW here. Just invent a startup or small company that does no longer exist and describe your marketing skills. I would avoid disclosing it. I get you want to showcase your valuable skills, there are other ways of doing it. Just use other words and that's it. It's unlikely someone is going to find out.",
+          "score": -1
+        }
+      ]
+    },
+    {
+      "title": "Got a job offer but I'm concerned they're understating the role.",
+      "body": "I work in customer service and have over 4 years of experience doing so. Recently I've been padding my Linkedin with all my skilld and even took some certifications in digital marketing from places like Udemy and Hubspot to increase my repertoire. \n\nAfter I got laid off from my previous job, I did spent quiet a bit of time looking for remote work but with no takers. Eventually I got a job in my town and make high end money for the CS role in my country( about $600 us). \n\nI got a job offer from a certain company for CS and I did an interview directly with the CEO(I'm guessing they're a startup too, though it didn't come up in the interview). \n\nThe job was being sold to me as CS, but it would also include technical writing, training entire teams of people from companies that were going to use the software and even be in charge of a team under me. It would also be as an independent contractor and not an employee(I admit I'm not too sure the difference between the two other than taxes and Social Security won't be covered by them).\n\nWhat concerned me about the interview was that when asked how much I was currently making, they didn't sound too willing to go above  what I earn. \n\nFor reference, compared to what I was being offered, I currently only answer calls and emails and assist with a line of appliances. \n\nAm I right in that $600 US would be too low for what they wanted me to do?",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/lpfhah/got_a_job_offer_but_im_concerned_theyre/",
+      "comments": [
+        {
+          "body": "Hello, thank you for posting to r/Jobs! \n\nWe just wanted to let you know that we have a new [discord server, come join the chat!](https://discord.gg/TY6ErXV)\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/jobs) if you have any questions or concerns.*",
+          "score": 1
+        },
+        {
+          "body": "Personally, that sounds really sketchy to me and I would not take the job. Especially with you not being a w-2 employee.",
+          "score": 1
+        },
+        {
+          "body": "Can’t say for sure but they’re probably misclassifying you as a contractor, which is illegal. \nBut since you’d be responsible for all your own taxes and benefits, you’d need to make about 40% more to cover it.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "2+ Years Experience in Marketing/Business/IT, Graduated from a Top School, Received my MBA, yet Little-No Interviews - Advice?",
+      "body": "tl;dr: read the title.\n\nHi Reddit, \n\nI'm located in the metro-NYC area and apply to an average of 10 jobs a week. For several months, this has been an ongoing process, and I have gotten a few interviews here and there but nothing that has progressed to a new position. \n\nI am currently stuck at a startup that could fizzle out at any moment, hired as a contractor without vacation or benefits. I am looking for full-time employment with decent compensation in the marketing/business world. This is where things get complicated.\n\nMy salary range is $75k+/year (this is what I am being paid now), and I would ideally like to be in the $80k/year range (in fact, this was my compensation at my previous gig). Yet, a good chunk of the opportunities I find are $40-50k annually. Of the opportunities that fit my skillset and compensation range, they are usually looking for 5+ years of experience.\n\n----------------------------------------\n\nBelow is a redacted version of my resume: \n\nSUMMARY:\nA business professional with extensive management, research, and analysis experience in technology and consumer\ngoods. My career has included projects such as managing multi-channel content and brand marketing campaigns;\ndesigning, launching, and managing new products; and improving business processes, infrastructure, and ROI through\nresearch &amp; analysis. I want to turn your campaigns into winners, with the metrics to back it up.\n\nMARKETING, BUSINESS, &amp; TECHNOLOGY EXPERIENCE:\nOutreach Manager (1+ years)\nWork in a cross-functional role including client sales and service, lead generation via inbound methods, and business\ndevelopment and marketing, including social media, email marketing, and creative design.\n• Collaborate with CEO on business strategy for product, marketing, sales, and customer relations.\n• Use inbound marketing to produce leads and engage prospects via high-quality content and thought leadership.\n• Manage company website (both content and design), email marketing, and social media accounts.\n• Create sales collateral, including slideshows, brochures, infographics, whitepapers, and one-sheets.\n• Built a client-facing knowledge base for effective community management and engagement.\n• Support sales functions by providing product demos to prospects and signing and onboarding clients.\n\nProduct Marketing Manager (1+ years)\nOversaw 70+ products throughout their life cycles, including managing vendors, executing mail, media, and digital\nefforts, coordinating customer relations, and product development and analysis.\n• Managed three jewelry divisions: handbags, earrings, and pearl products.\n• Developed and launched various new products, including design, creative materials, and logistics.\n• Coordinated efforts across multiple teams: designers, vendors, logisticians, and marketing assistants.\n• Worked with fashion designers, licensed brands, and media partners including Jose Hess, Jane Seymour,\nStacey Whitmore, Warner Bros. Music, Playboy, TV Guide, and Parade.\n• Conducted market A/B testing to maximize revenue for programs, including different product iterations, multiple\nad/package designs, and new forms of advertising.\n• Utilized data to project future product marketing and to allocate spending of multi-million dollar budgets.\n\nConsultant (Several months, part-time)\nWorked on a variety of projects including product development, marketing design, company branding solutions, and\ncompetitor research in an agile environment.\n• Coordinated materials to create effective campaigns for partners, including creating a newsletter, designing\neffective presentations, social media strategies, content marketing, and competitor research.\n• Met with senior leadership about business and management best practices, including networking, financing,\nhiring, and cultivating a positive culture.\n• Designed and launched a new product from the ground up, working with a team in order to develop, create a\nbusiness plan, market, and sell the product to the company as a new business.\n\nIT Technology Consultant Manager (3+ years during school, part-time)\nSolved an array of technology issues for students and advised on purchases and troubleshooting.\n• Worked with computer hardware and software across numerous platforms, including Mac, PC, iOS, Android,\nLinux, ChromeOS, and audiovisual systems.\n• Oversaw teams and trained new employees in scheduling, task assignment, and optimization.\n• Worked with networks, managing security, storage, email, and licenses.\n\nSKILLS:\nHubSpot (Inbound, Email Marketing, &amp; Inbound Sales certified), Microsoft Office (Word, Excel, PowerPoint, &amp; Outlook),\nG Suite (Docs, Sheets, Slides, Forms, &amp; Drawings), Google Analytics, WordPress, Salesforce, Marketo, Constant\nContact, Photoshop Elements, Final Cut Pro, Asana &amp; Codecademy (Basic SQL, HTML, and CSS)\n\nEDUCATION:\nSmartly, Online\nMaster of Business Administration degree in marketing, strategy &amp; innovation, operations management, statistics,\neconomics, entrepreneurship, and finance &amp; accounting\n\nWilliams College\nBachelor of Arts degree in psychology with concentrations in leadership and international studies\nQuestBridge Scholarship for low-income, high-achieving students\n\n-------------------------\n\nHow can I land more opportunities, optimize my process, and in general, take steps to secure my next job? Any advice/help is sincerely appreciated. \n\nThanks everyone!",
+      "subreddit": "jobs",
+      "score": 5,
+      "url": "https://reddit.com/r/jobs/comments/6vdksm/2_years_experience_in_marketingbusinessit/",
+      "comments": [
+        {
+          "body": "I'd recommend posting a link to your resume at /r/resumes or here so that we can judge formatting (which is a major component of the resume). \n\nMy general comments otherwise:\n\n1) Since you're not even getting interviews, it sounds like your resume needs work. \n\n2) I'd strongly recommend leveraging your MBA alumni network to ask for informational interviews, ask to be referred, and generally talk to people about job opportunities. \n\n3) Get rid of your summary - it's too long and it doesn't add much to your resume.\n\n4) Instead of saying (1+ years), just give the date range.\n\n5) Make your descriptions much more detailed and metric-oriented. Instead of \"Work in a cross-functional role including client sales and service, lead generation via inbound methods, and business development and marketing, including social media, email marketing, and creative design\" break this up into separate responsibilities, and use metrics - like \"Revamped firm's inbound lead generation strategy, creating an algorithm to base personalized responses on a series of email characteristics, improving inbound leads by nearly 35% in 3 months.\" This is a totally crazy example, but do you get what I mean? \n\n6) Your education is confusing. You got an Online Master of Business Administration degree in marketing, strategy &amp; innovation, operations management, statistics, economics, entrepreneurship, and finance &amp; accounting? This sounds like a joke. You get a degree in one thing, or dual degree in two things and then stop. Period. Add academic achievements and activities of note.\n\nThis needs a lot of work, so I'm happy to review further if you'd like.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "My Next Steps As A (Very) Recent College Grad, constructive criticism/advice/support and encouragement more than welcomed!",
+      "body": "hello, this is my first post on this subreddit, although i have been lurking for a bit. a little bit about me:\n\ni just got my bachelor's in media/communications and due to failing two classes in my last semester, i graduated in august, about a few weeks ago, instead of may like i had planned. i became depressed for most of the time i spent retaking the two classes this summer but i'm officially done with both (passed with As) and my degree is being conferred.\n\ni'm in the job search process and i know it can take months before something good comes along. i am currently living at home but am focusing on getting a job that will allow me to move out on my own and will also be in line with what i want to do career-wise (marketing/communications). these are some of the things that i'm looking to do over the next couple of months and wanted to know if you all had any advice or thoughts on additional things i could be doing.\n\n**what i've been doing**\n\n\\- skills building: after looking through r/marketing and other career sites, i've decided to start the certification process for Google Adwords, Google Analytics, Facebook Blueprint, and Hubspot. i know that they probably won't hold much weight but i figured that since they were free, it wouldn't hurt me to be familiar with these platforms. i am also looking into building my skills with adobe photoshop and other adobe programs/taking some courses through lynda and coursera. \n\n\\- job hunting: this is basically my job until i **get** an actual job but i'm using general job search sites like glassdoor, indeed, etc. as well as the general job board for students at my university and the one created for alumni. i will also be attending a job fair at my university (don't worry, alumni welcome!) in a few weeks.\n\n\\- beefing up my resume and linkedin profile\n\n**what i could also be doing/focusing more on**\n\n\\- looking into internships: i did internships when i was in school and got all the way to the final interview round for 2 companies this summer but unfortunately, they didn't work out. i have been mainly focused on applying to jobs but not so much seasonal internships in my area. i figured companies are mainly looking for people still in college according to their postings but i guess it couldn't hurt to try...\n\n\\- talking to a career counselor at my school: we still have access to career services 6 months post graduation. i had a bad experience with a counselor once that completely turned me off but the past should be in the past and i could try again.\n\nif there is anything else that you all think i'm missing or could also try to work on during this job search process, i'd love to hear it! it's been really, really rough for me from may till the end of july and i'm just trying to work on goals and not let depression get the best of me like it did during that time period. i appreciate everyone's advice and thoughts. thank you all so, so much!",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/98v9c9/my_next_steps_as_a_very_recent_college_grad/",
+      "comments": [
+        {
+          "body": "1. Informational interviews with people in Marketing. Find them on LinkedIn and Google the standard process for an informational interview. This serves you 2 purposes - it will improve your confidence in interviews and increase your network of resources. \n2. Contact nonprofit agencies in the area (preferably small nonprofits) and offer your services to them in a volunteer capacity. What is best is if you come to them with a pitch. This will again increase your network and beef up your resume with tangible experience in marketing. The folks at the nonprofit can also be great references. ",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "HubSpot final interview",
+      "body": "I have final interview upcoming this Thursday. Can any one give me some advices or what to expect from their system design",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1n020od/hubspot_final_interview/",
+      "comments": [
+        {
+          "body": "You'll likely face questions about designing scalable systems that handle large volumes of customer data, integrations with multiple platforms, or building features that serve millions of users. They want to see how you approach trade-offs between performance, reliability, and maintainability, so be prepared to discuss database choices, caching strategies, API design, and how you'd handle failure scenarios. The interviewers will push you to justify your decisions and explore edge cases, so think out loud and show your reasoning process rather than jumping straight to solutions.\n\nThe key is demonstrating that you can design systems that align with HubSpot's customer-centric approach and growth mindset. They'll probably ask about real-world scenarios like handling traffic spikes during marketing campaigns or ensuring data consistency across their CRM platform. Practice explaining complex technical concepts in simple terms since you might be speaking with both engineers and product managers. Focus on showing how your design choices would impact the end user experience and business outcomes.\n\nI'm on the team that built [AI for interview questions](http://interviews.chat), and it's been really helpful for people preparing for these kinds of technical deep-dives where you need to articulate complex system design decisions clearly and handle follow-up questions confidently.",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Any inputs for leet code style questions for Hubspot senior front end engineer 2 interview",
+      "body": "I am preparing for coding round with Hubspot for Senior front end engineer 2 and could you use some inputs for preparing, tried grinding leetcode, it is so hard to identify the pattern and solve it, could use some inputs or tip for the interview",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1ool9df/any_inputs_for_leet_code_style_questions_for/",
+      "comments": [
+        {
+          "body": "For HubSpot SFE2 coding, the big win is focusing on patterns you’ll likely see rather than grinding random sets. I’d pick 5 to 6 buckets and cycle them daily: arrays two pointers, sliding window, hash maps, stacks for parentheses and monotonic, BFS DFS on graphs, and intervals. What helped me was time boxing 20 minutes, stating a brute force first, then narrating how I’d optimize while coding in plain JS without browser APIs. I used timed mocks with Beyz coding assistant alongside prompts from the IQB interview question bank, which kept me honest on edge cases and complexity. Clarify constraints out loud and test with tiny examples. Good luck, you’re close.",
+          "score": 1
+        },
+        {
+          "body": "Hey! how did the interview go? Mind sharing what kind of questions which we can expect?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Hubspot certification - Do recruiters really value it?",
+      "body": "Hi all, I've just finished a content writing internship, and looking for a marketing role in London. I was recently put forward for a Skype interview with the CEO of a big B2B company, who said that he would ideally want his applicants to be Inbound Certified through Hubspot.\n\nHubspot waah? I thought, but then delved a little deeper, looked at Hubspot's online academy, and started studying. The way I saw it, if one company wants it, then surely others would expect it too. As it turns out, the course is very much unlike the other marketing MOOCs out there, and I found myself saying 'Ahhh' a lot while studying. Suffice to say, I knuckled down, learned a lot about inbound ideologies in a relatively short period of time, and got my certification to proudly display on my LinkedIn.\n\nMy question is - are recruiters pleased to see this on your CV? Does it help towards yielding results/interviews for the jobseeker?\nThanks! :)",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/4qsnnt/hubspot_certification_do_recruiters_really_value/",
+      "comments": [
+        {
+          "body": "They should value it, but they might not. I have seen the HubSpot inbound certificate become more important recently - you'll find it in the twitter bios of a fair few influences these days. Having the cert will be of most interest to companies and agencies (like mine) using HubSpot. If you are going for those positions having the certification is going to be a big plus for you. I really like the fact that you said 'Ahhh' a lot - like it made sense and sunk in. This is great. Good look with your search.",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "title": "Has anyone interviewed at Hubspot for New grad SWE 2025?",
+      "body": "Hi guys, I have an interview coming up at Hubspot and I am very nervous as I have been on the job hunt for a long time now. They changed their interview style from Leetcode+system design to HTTP get+ system desgin. Does anyone have any insights about the HTTP coding question and also what to expect for system design?",
+      "subreddit": "interviews",
+      "score": 2,
+      "url": "https://reddit.com/r/interviews/comments/1n2gelh/has_anyone_interviewed_at_hubspot_for_new_grad/",
+      "comments": [
+        {
+          "body": "Yeah, HubSpot's switch is interesting. For HTTP GET questions, knowing how RESTful APIs work and how they fit into web services architecture is key. Focus on scenarios like caching, authentication, or rate limiting. For system design, be ready to break down complex systems into parts, and discuss trade-offs in terms of scalability and maintainability. Use cases like designing a scalable chat app or a URL shortener might come up. Good luck!",
+          "score": 1
+        },
+        {
+          "body": "What's your format for the interview..it's either gonna be DSA + sys design or APIs + sys design \nI gave one",
+          "score": 1
+        },
+        {
+          "body": "How did your interview go?",
+          "score": 1
+        },
+        {
+          "body": "Hey, any update?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "HubSpot final round SWE Backend Internship Interview",
+      "body": "I have a 2 round final round interview with HubSpot. 1 round will be leetcode style, 1 will be system design.\n\nWas wondering if anyone has recently taken the interview and would be open to helping out by sharing their experience!",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1onwfnz/hubspot_final_round_swe_backend_internship/",
+      "comments": [
+        {
+          "body": "For the leetcode round, focus on medium-level problems, especially linked to array and string manipulations since that's common. For system design, think in terms of scalability and bottleneck solutions; practice explaining your design choices clearly. Check out Grokking the System Design Interview for frameworks and stay calm to clearly communicate your logic.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "HubSpot final round SWE Backend Internship Interview",
+      "body": "I have a 2 round final round interview with HubSpot. 1 round will be leetcode style, 1 will be system design.\n\nWas wondering if anyone has recently taken the interview and would be open to helping out by sharing their experience!",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1olz7fp/hubspot_final_round_swe_backend_internship/",
+      "comments": []
+    },
+    {
+      "title": "Painful Hubspot Interview -  is this normal?",
+      "body": "(Throw away account)\n\nI had a phone interview for a Senior Onboarding Specialist role at HubSpot, and I left feeling totally blindsided. I’m a natural storyteller, with over 10yrs in Customer Success and have always admired Hubspot as a platform and company. I’ve worked hard over the years to build on my communication skills so that it enables me to maintain both my own style and be adaptive to diverse audiences.\n\nAbout 10 minutes in, the interviewer abruptly cut me off with, “I had really high hopes for this interview but I’m going to need you to actually answer the question.” She then interrupted me multiple times and delivered feedback in a way that felt unnecessarily harsh and condescending. I tried to stay composed and thanked her for the feedback, but I was thrown. It shifted the tone of the conversation entirely and made it difficult to focus. I’ve thought a lot about it and think the feedback itself was fair (she needed something I wasn’t providing) but the way in which it was delivered felt borderline bullying.\n\nHas anyone else had a similar experience with HubSpot or interviews like this? I expected more professionalism, especially from a company that prides itself on empathy and transparency.\n",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1l1g90v/painful_hubspot_interview_is_this_normal/",
+      "comments": []
+    },
+    {
+      "title": "30 interviews, with companies like ogilvy, kodak, yahoo, hubspot, f5 Network, Getty and still no job yet",
+      "body": "So in the space of 6 months, I have gone through 30 interviews. I get a pretty good conversion rate as this is probably due to my resume (got it from Rezi.Io), and using tools such as Jobscan, and applying to the jobs fast (basically camping on the job sites and sending them out within the hour) . I tailor my resume to the Job Description as well and I think i have pretty much nailed down the science of getting a call back from a company. (70% success rate)\n\nThe jobs vary, from digital marketing, to video content production to customer support as I feel that I have a lot of skills and work experience in similiar roles in the past. I am not entirely particular about the role itself, but extremely particular about the right company, because it can either make or break you. Hence, I have trained my ability to change my mindset from analytics, to creative production to customer support during interviews. I don't think I'm doing it as well as I wish I could, which brings me to the main problem.\n\nNow, my biggest headache is actually nailing down the interview itself. Out of those 30 interviews, I get invited back for a second interview for a total of 17 times and somehow, they just find that I am not a suitable candidate. Of course there are a small handful of opportunities where I felt that I had to cross some jobs out, as I was basically juggling 5 interviews in a week and most require me to complete a task beforehand.\n\nFinancially, I am not doing so great. Savings are drying up, and I need to start paying for my mortgage end of next year. I am doing a little bit of freelance work to make ends meet, but putting most of my focus on my job search.\n\n Starting to feel a little bit demoralized, but still keeping my chin up. Wonder if anybody has faced similiar problems like these and what you did to overcome it. \n\nI would sincerely appreciate any advice from all you guys out there! :)\n",
+      "subreddit": "interviews",
+      "score": 7,
+      "url": "https://reddit.com/r/interviews/comments/527e71/30_interviews_with_companies_like_ogilvy_kodak/",
+      "comments": [
+        {
+          "body": "[deleted]",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

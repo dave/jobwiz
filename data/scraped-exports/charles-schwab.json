@@ -1,0 +1,339 @@
+{
+  "company": "charles-schwab",
+  "post_count": 16,
+  "exported_at": "2026-01-18T17:44:53.265Z",
+  "posts": [
+    {
+      "title": "NERD Program",
+      "body": "Hi there! Can anyone here tell me about their experience interviewing/participating in the Charles Schwabs NERD program?",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/11zshx0/nerd_program/",
+      "comments": [
+        {
+          "body": "[removed]",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Charles Schwab Interview Process",
+      "body": "Hi anyone have some experience with Charles Schwab? Have an upcoming interview with them and am curious about how they normally go",
+      "subreddit": "cscareerquestions",
+      "score": 6,
+      "url": "https://reddit.com/r/cscareerquestions/comments/76291w/charles_schwab_interview_process/",
+      "comments": [
+        {
+          "body": "I was a tech intern at Schwab this past summer and will be working there full time after graduation in May. My internship interview was pretty straightforward. No technical questions, lots of questions about previous work experiences and projects. They really wanted to get a sense that you made a meaningful contribution to your project and knew what you were doing. At the same time, they seemed very open to having you learn on the job and being a good culture fit was very important. ",
+          "score": 5
+        },
+        {
+          "body": "Just had my first interview with them recently.  \nOn campus. First one was 1 on 1 with a NERD program manager. About half and half behavorial / technical. Second was with what seemed to be a hiring manager/more HR side of things + a former young alumni(apparently this varies by school). This was entirely behavorial.  \n\nBoth were around 45 minutes long, back to back. Which role did you apply for?  \n\nEDIT: Also they have a really collaborative culture so emphasize that a lot  ",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Name and Shame: Tiger Analytics",
+      "body": "I recently had an extremely poor experience with Tiger Analytics. I went through the interview process initially for a Senior Data Scientist position. I had an initial call with a recruiter and then two technical screens. The tech screens went fairly well, but I heard no response with them for over a month despite trying to contact them.\n\nAround 6 weeks later out of the blue I got a call from a different TA recruiter saying that they liked my interview performance and were wondering if I would be interested in a (different) NLP Scientist role. I was skeptical after being ghosted the first time but I had been unemployed for a while so I went along with it. I went through two more behavioral rounds and another tech screen. They then said they were ready to extend me an offer but needed a final \"routine\" call with their client. They even sent me over a DocuSign offer letter and told me to sign it. They then called me more than 15 times in two hours to schedule this call with their client as they said it was hugely urgent (I was traveling so on an airplane). I replied and the call was scheduled. This final \"call\" turned out to be a grueling 90+ minute panel tech screen with several data scientists/ml engineers from Charles Schwab (their client). It covered everything from leetcode questions, to stats, to SQL, deep learning theory etc. I was completely unprepared for this thinking it would be a relatively simple call. Tiger Analytics then completely ghosted me and never contacted me back. Avoid this company.",
+      "subreddit": "cscareerquestions",
+      "score": 197,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1808yqj/name_and_shame_tiger_analytics/",
+      "comments": [
+        {
+          "body": "The hoops they make you jump through these days is ridiculous. Thanks for naming.",
+          "score": 59
+        },
+        {
+          "body": "Tiger Analytics is a glorified staffing agency based on your description and it shows.",
+          "score": 58
+        },
+        {
+          "body": "Why would a company make you interview with a customer? That makes no sense. You should have spoken up at the beginning of the interview, I bet the Charles Schwab people thought that you were given the heads up.",
+          "score": 16
+        },
+        {
+          "body": "Had almost the same thing happen to me, same role/company - I made a separate post about it.\n\nWhat did you end up doing? I'm so tempted to trash talk them over an email",
+          "score": 4
+        },
+        {
+          "body": "Thank you.  Know that this is very much appreciated.",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "title": "Schwab N.E.R.D program",
+      "body": "Has anyone done a final round with Charles Schwab in recent months (Via the NERD program or other)? If so, what are some technical questions I should expect? I can't seem to find much information online.",
+      "subreddit": "cscareerquestions",
+      "score": 16,
+      "url": "https://reddit.com/r/cscareerquestions/comments/opkhns/schwab_nerd_program/",
+      "comments": [
+        {
+          "body": "I did the final round for their n.e.r.d program 2 months ago. I don't know if it'll be different for you, but It was a panel interview for me. I was interview by a tech lead, a manager, and someone that was currently in the n.e.r.d program.   \nThe manager asked me behavioral questions, the tech lead asked me SQL questions, and then you get a coding question that was easy-medium leetcode, probably something with a hashmap. \n\nThey'll probably ask you questions based on what you put on your resume. Like if you put SQL on your resume, be prepared to answer some SQL-related questions.\n\n  \nI failed miserably, but best of luck to you.",
+          "score": 18
+        },
+        {
+          "body": "Had my final interview for the NERD program this past Monday (7/19). It was a panel consisting of the same people lowetier mentioned. It lasted about an hour.\n\n&amp;#x200B;\n\nIt was incredibly cookie cutter - they asked me what my strengths were, what coursework I enjoyed, and probably some other forgettable stuff I can't even recall less than 4 days later.\n\nTechnical portion was a string manipulation question that required the use of a hashmap. After being read the prompt, I shared my screen and talked out the solution and coded it in the IDE of my choice.\n\nFollowup questions were how to handle more advanced test cases of the same question, what test cases I would write to strengthen my solution, and the runtime complexity of my solution.\n\n&amp;#x200B;\n\nI think I got off really easy for some reason, though. I'd definitely be prepared to go in depth about anything and everything that you list on your resume.\n\nGot the phone call extending the offer less than 2 hours after the end of the interview.\n\nGlassdoor is a decent resource for this kind of stuff: [https://www.glassdoor.com/Interview/Charles-Schwab-Software-Engineer-Interview-Questions-EI\\_IE144.0,14\\_KO15,32.htm](https://www.glassdoor.com/Interview/Charles-Schwab-Software-Engineer-Interview-Questions-EI_IE144.0,14_KO15,32.htm)",
+          "score": 3
+        },
+        {
+          "body": "I had the interview recently.\nI do think the interview is pretty reasonable for a new grad position where they focus more on what you have on your resume rather than a bunch of coding questions.\n\nFor the technical portion, if you know your basic ds&amp;a, you should be fine! \n\nI would recommend focusing on your resume and prepping common behavioral questions because that was the bulk of the interview.\n\nGood luck!",
+          "score": 3
+        },
+        {
+          "body": "I currently work here through the NERD program.\n\nThe interview is just easy LC (actually some of the questions are so easy they wouldn't even qualify as easy on LeetCode). If you know what a hashmap is and how to write code at a very basic level, you can essentially pass while half asleep.",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Charles Schwab N.E.R.D. second round",
+      "body": "Hi everyone, was wondering if anyone has gone through the interview process for Charles Schwab's N.E.R.D new grad program and could talk about what I should prep for their second round interview? All I know is that it's a panel interview. Thanks!",
+      "subreddit": "cscareerquestions",
+      "score": 2,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1j9yd9b/charles_schwab_nerd_second_round/",
+      "comments": [
+        {
+          "body": "Expect technical questions related to software development, data structures, and algorithms. They might also throw in some behavioral questions to assess your teamwork and problem-solving abilities. Be prepared to discuss your projects, internships, and any relevant coursework in depth.\n\nThe key is to stay calm and articulate your thoughts clearly. Make eye contact with each panel member as you answer, and don't be afraid to ask for clarification if you're unsure about a question. If you're stumped, it's okay to think out loud and walk them through your problem-solving process. They're often more interested in how you approach challenges than getting the perfect answer right away. By the way, I'm on the team that made [virtual interview](http://interviews.chat) tool that can help you practice answering tricky interview questions like these. It might be worth checking out to boost your confidence before the big day.",
+          "score": 1
+        },
+        {
+          "body": "[removed]",
+          "score": 1
+        },
+        {
+          "body": "[removed]",
+          "score": 1
+        },
+        {
+          "body": "Hello did you hear back from them for the June cohort ?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Daily Chat Thread - June 21, 2024",
+      "body": "Please use this thread to chat, have casual discussions, and ask casual questions. Moderation will be light, but don't be a jerk.\n\nThis thread is posted **every day at midnight PST**. Previous Daily Chat Threads can be found [here](https://www.reddit.com/r/cscareerquestions/search?q=Daily+Chat+Thread&amp;restrict_sr=on&amp;sort=new&amp;t=all).",
+      "subreddit": "cscareerquestions",
+      "score": 2,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1dkxv2k/daily_chat_thread_june_21_2024/",
+      "comments": [
+        {
+          "body": "Lock it up lock it in let me begin\n\n\nI share my repo on hn, gets 10 (k views)\n\n\nNo job still poor as hell, pumping blood from my body for some money\n\n\nMy man on the up Man is living though damn, hit pause",
+          "score": 0
+        },
+        {
+          "body": "Has anyone that has applied to Charles Schwab's most recent NERD cohort heard anything back? I applied a few weeks ago",
+          "score": 2
+        },
+        {
+          "body": "After a month and half of being in the interview process for company I really interested in I got confirmation I passed on-site. But sadly the team I was interviewing for no longer has a spot due to some internal stuff and now in team matching process. Hopefully finding a new team doesn’t take too long.",
+          "score": 1
+        },
+        {
+          "body": "How can I describe server admin experience on my resume?\n\nI am a data engineer currently working a rather unusual position where the majority of my work is as a server admin. I administrate over 6 unix servers that host a 3rd-party vendor tool that we use for a very important and complex report pertaining to FDIC regulatory compliance.\n\nMost of my work as server admin is in regularly updating and installing new version updates for the 3rd party vendor tool, Java updates, Unix OS updates, etc. A lot of routine maintenance stuff, but it is time-consuming and frequent and takes up a lot of my time, so I don't want to leave it off my resume, but I don't know how exactly to describe what I do in a succinct bullet point because I've never done this type of work before.\n\nAny tips or advice for how to summarize this in a bullet point?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Associate Software Dev - Charles Schwab",
+      "body": "Hello all, I have an upcoming job interview for the Associate Software Dev and Engineer position at Charles Schwab. This is through their NERD Program and I will be doing the technical/coding interview (second round) I have been prepping since I was contacted to do the next interview, some days I spent more time prepping than other days. My question is, has anyone been through or done the second interview and what advice or insight could you give? I am graduating this May and this is my first time doing a coding/technical interview. Thanks!",
+      "subreddit": "cscareerquestions",
+      "score": 2,
+      "url": "https://reddit.com/r/cscareerquestions/comments/11yzrri/associate_software_dev_charles_schwab/",
+      "comments": [
+        {
+          "body": "Which location! How did the initial phone screen go? I have mine next week 🥶",
+          "score": 7
+        },
+        {
+          "body": "No technical interview advice from me, but \\_please\\_ make sure you ask questions about the work environment, how projects are run, what it takes to get an idea implemented, etc.\n\nI am probably just being cynical, but I am trying to setup a dead-simple data feed with another bank and making \\_anything\\_ happen is like pulling teeth. So much useless paperwork just to do the smallest thing. I can't imagine working in that environment, sounds like hell.\n\nI know not all banks or teams within banks are the same. So please make sure your bank team is a good one.",
+          "score": 3
+        },
+        {
+          "body": "[removed]",
+          "score": 1
+        },
+        {
+          "body": "How long after the first round did they reach out for second round?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "How do you deal with pushy recruiters and an unclear written offer?",
+      "body": "So I've been job searching every day since I graduated in May, and have just recently gotten into interviews with promising companies. So far, advertised salaries have ranged from 50k to 80k, but the timing has not been on my side.  \n\n\nIn the midst of interviewing with the likes of Charles Schwab's NERD program and IBM, an IT Consulting company local to my city of Chicago offered me a position as a \"Software Engineer Trainee\" with a salary of 50k  \n\n\nHowever, when I looked through the written offer, it doesn't mention the salary at all. Now the Recruiter has been calling me and pressuring me to respond quickly, despite me wanting a week to consider it.  \n\n\nShould I ask for clarification on the offer? I'm interviewing with other companies so I don't wanna close the door on them if they offer better positions/salaries.",
+      "subreddit": "cscareerquestions",
+      "score": 2,
+      "url": "https://reddit.com/r/cscareerquestions/comments/w3tn1y/how_do_you_deal_with_pushy_recruiters_and_an/",
+      "comments": [
+        {
+          "body": "It's good to develop the skill of calmly repeating the same request to pushy salespeople. It helps in all areas of life.",
+          "score": 8
+        },
+        {
+          "body": "Asking for clarification can be a way of drawing out the process while you hope for better offers from the other companies. Mention to the other companies you interview with that you are negotiating an offer with another company already: this will light a fire under them to give you a quick, better offer if they like you.",
+          "score": 3
+        },
+        {
+          "body": "Take the “trainee” job and switch once you get a better offer?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Charles Schwab NERD Program",
+      "body": "Hi, I'm just wondering if anyone on this sub has gone through or applied to the NERD program? What were your experiences as a NERD employee and what was your hiring process like. I have an interview with them soon and I was just wondering what I should prepare for the upcoming interview. Any tips, topic recommendation would be helpful.",
+      "subreddit": "cscareerquestions",
+      "score": 2,
+      "url": "https://reddit.com/r/cscareerquestions/comments/iqa78f/charles_schwab_nerd_program/",
+      "comments": [
+        {
+          "body": "Hey, did you have to do a phone screen first? Was it all behavioral? I had the same questions as you and I can’t find too much info on the NERD program hiring process either.",
+          "score": 3
+        },
+        {
+          "body": "They have a program called the NERD program? wtf?",
+          "score": 2
+        },
+        {
+          "body": "Hey, what question was asked? and how did was the process? did you also get an offer?",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Experience with software consulting companies?",
+      "body": "I'm moving to Austin in a couple of months and I'm currently on the job hunt. I have a few final-round interviews lined up and one of them is with a consulting company that works with clients in Austin. They say that they work with some big companies (Apple, Dell, Charles Schwab, etc.) and provide training for their employees on the latest frameworks, cloud tech, etc., which sounds pretty appealing. But the interviews so far have been pretty non-technical, which seems odd to me given that all of the other companies I've interviewed with have given me a code test or technical phone screen in the first round. They also seem really keen on moving the process along rather quickly, which makes me a bit uncomfortable given that I don't want to miss out on any other opportunities that I might get. So I'm wondering if this lack of interview \"rigor\" and speed of the process is normal for consulting companies? And for anyone that has experience in that type of role, did you enjoy it and would you prefer it over a regular software dev position?",
+      "subreddit": "cscareerquestions",
+      "score": 1,
+      "url": "https://reddit.com/r/cscareerquestions/comments/b3k57h/experience_with_software_consulting_companies/",
+      "comments": [
+        {
+          "body": "I'm currently trying to get out of consulting because of the lack of work. When I was hired we trained on being full stack Java developers. After training we were assigned projects around the US and mine was back home in Texas. After returning home the project we were assigned didn't have room for us at the clients location and we were just told to come in as a guest and we'd talk to people there. After about 4-5 weeks of sometimes coming in and mostly not the communication ended and we stopped coming in. I've been \"working\" for this company for 6 months and have done nothing but still get paychecks every 2 weeks. I've played a lot of video games in my months \"working\". They're trying to find me a new project to work on but those calls don't really go anywhere. Trying to find a new job in the meantime is just like trying to find a job as a fresh graduate. &lt;1 year experience is basically 0 years. ",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Charles Schwab Financial Service Representative",
+      "body": "Anyone here have any advice for interviewing with Charles Schwab? I have a phone interview scheduled next week for 45 mins. I’m kinda nervous bc I’ve been looking for a job after graduation and it will almost have been 8 months… I always got an email saying they decided to go with another candidate and I’m confused. I graduated with an IB degree and minor in economics. Only other experience I have is working as a bakery lead and internship/contracting with a start up hedge fund trying to do sales. What’s a good salary range considering I have my degree I saw between 39-70k in FL",
+      "subreddit": "jobs",
+      "score": 2,
+      "url": "https://reddit.com/r/jobs/comments/15lnu0b/charles_schwab_financial_service_representative/",
+      "comments": [
+        {
+          "body": "How was it?",
+          "score": 1
+        },
+        {
+          "body": "Did you get the job?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Changing companies and home city to get more pay.",
+      "body": "I was wondering if you guys could help me decide what to do. I am currently working in Memphis, TN for a well known logistics company in Information Security. I currently feel underpaid in my current roll making 85k a year. I have been interviewing at multiple companied outside the state and they are paying anywhere from 115-130k a year plus a 15% bonus for the same thing I do now.\n\nI am currently interviewing for positions at 2 companies right now. One is Nike and the other is Charles Schwab. They are in Portland and Denver respectively. While I don't mind moving to get these jobs I am worried that I will basically be making the same money with the cost of living factored in. I have used multiple Cost of Living sites and it appears that both cities require way more income and hence could be why they are paying more. \n\nWould I just be breaking even or is it worth it for that jump in salary?",
+      "subreddit": "jobs",
+      "score": 3,
+      "url": "https://reddit.com/r/jobs/comments/bgqdst/changing_companies_and_home_city_to_get_more_pay/",
+      "comments": [
+        {
+          "body": "[deleted]",
+          "score": 3
+        },
+        {
+          "body": "A $30k bump is basically $2500/mo, which after tax is around $1700/mo extra. At $130k, it's a $3750/mo raise, around $2500/mo after tax. Yes, rent is expensive in Portland/Denver, but not THAT expensive. You will make more in Portland/Denver based on those numbers. You might also spend more...but that depends on your lifestyle. \n\nIMO it's worth it, you'll make more, have a better company on your resume, and likely grow faster. Portland/Denver also have way better InfoSec jobs than Memphis, so you'll find new opportunities much easier. Of course, this is assuming you're okay with moving in general.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Charles Schwab SWE Intern Phone Screen",
+      "body": "Has anyone done the recruiter phone interview for Charles Schwab for their SWE Internship Position. What questions did they ask, was behavioral, technical or a mixture of both?",
+      "subreddit": "cscareerquestions",
+      "score": 4,
+      "url": "https://reddit.com/r/cscareerquestions/comments/xt3864/charles_schwab_swe_intern_phone_screen/",
+      "comments": [
+        {
+          "body": "Mixed. Like OOP based questions and what was a time u worked on a team and were there any conflicts and how did u resolve them. What was a project u worked on that you were proud of. Stuff like that very generic. Basic technical questions like OOPs and your projects u had on ur resume.",
+          "score": 2
+        },
+        {
+          "body": "Klaus Schwab? \n\nHe asks mostly technical.\n\n*What is the optimal number of crises to reduce the world population by 80%?*",
+          "score": -3
+        },
+        {
+          "body": "[removed]",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "CS Internship Charles Schwab or Pepsico",
+      "body": "Hi guys,\n\nI recently got a couple internship offers from two companies  Charles Schwab (Phoenix) and Pepsico (Plano). In terms of notoriety and name, which of these companies would look better on a resume and when trying to get future software engineering jobs.  \n\n&amp;#x200B;\n\nAlso, if anyone has any experience in at these companies I'd love to hear them!",
+      "subreddit": "cscareerquestions",
+      "score": 4,
+      "url": "https://reddit.com/r/cscareerquestions/comments/jfml2s/cs_internship_charles_schwab_or_pepsico/",
+      "comments": [
+        {
+          "body": "Hey, congrats on having both offers! I have a final round interview with Schwab (Austin) coming up. If you don't mind me asking what was the technical portion like, algorithms vs. general questions?",
+          "score": 4
+        },
+        {
+          "body": "Hey, can I ask when did you interview with Schwab?",
+          "score": 3
+        },
+        {
+          "body": "Hey man, how was the Pepsi interview process like? What type of questions did they ask for the technical and behavioral portions?",
+          "score": 3
+        },
+        {
+          "body": "Best of luck! \n\nOr future “Schwabie” :)",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "I practiced the first time reading my STAR answers. I sound scripted and robotic in the recording. What could i be missing?",
+      "body": "I wrote a word document with common STAR questions for an upcoming interview i have this Friday, and thought I could use the word document as reference to help me answer to the interviewer but i feel like I’m doing this all wrong. when I listened to my recording, it sounded like i was reading everything word for word. I don’t know if i can nail this if i sound so wordy with my answers.\n\nEdit: here are some sample questions\n\n1)     Why did you apply to our company?\n\n\nS: I applied to your company because the mission states “Put the client first.” This means you want to put the clients’ goals on focus to offer a better, more modern way for them to build and manage their wealth.\nT:  [Company name] is a full broker service who will do everything to to provide clients with excellent financial services and advice to generate wealth in their lives.\nA: You take an ethical, empathic, and proactive approach on helping them with service over sales, and I am a firm believer in high quality services to solve client issues, and you also use technology and people to make investments accessible for them.\nR: I’m excited about working for this company because of its excellent reputation in the financial industry. I believe that working for a well-respected and established organization will give me access to opportunities and experiences that will help me grow my career. I’m passionate about the company’s mission to provide clients quality financial services and products. This is a purpose that resonates with me.\n\n2)     What makes you qualified for this job?\n\n\nS: As stated in my resume, I have attained my bachelor’s degree in computer information systems in May of 2024, and have several years of client focused experience from retail and library services.\nT: The position requires troubleshooting and client service experience. I have attained extensive technical skills such as C#, HTML, CSS, JavaScript, and SQL programming languages, knowledge of Microsoft Office apps (notably Excel), operating systems Windows, network protocols, Visual Studio, and troubleshooting devices. I also have several years of customer service experience from my previous role as a digital personal shopper from retail and student library worker from university.\nA:  By applying my troubleshooting skills, Microsoft Office knowledge, operating systems, and ability to solidly grasp new technologies quicky, I am able to resolve client’s needs on resolving technical issues over the phone, and assist them with any software or device issues. Also, I have experience working in a team environment from my previous roles and have exceeded a 4.8 out of 5 post purchase satisfaction in the dispensing department from Walmart’s Online Grocery Pickup to ensure each customer’s pickup survey is satisfactory; the position will require passion for service, positive attitude, and strong client focus.\nR: Therefore, I believe I possess all necessary technical and soft skills to be able to perform the job’s tasks and responsibilities.\n\n3)     Describe a time when you went above and beyond to help a customer.\n\n\nS: At my previous position as a Digital Personal Shopper at Walmart, I have remembered times where I helped customers resolve their problems. This one time when I dispensed an order to someone, one of their egg cartons was leaking.\nT: I offered to go back inside the store and grab a new carton of eggs with none broken.  \nA: I went across the side of the store where they had all the dairy and eggs in one section. I grabbed a new carton of eggs, making sure they were in pristine condition, and rushed back to the dispensing room to bring the customer their new eggs.\nR: Afterwards, I let the customer know to fill out a post purchase survey by handing out a card with the link to leave the review under the store app, letting them know my name so they can refer to me on their pickup experience, and personally thanked me for retrieving the new eggs. The customer was pleased afterwards and left the store a review with my name mentioned.\n\n4)     Is technical knowledge or customer service more important?\n\n\nS: Having technical knowledge and customer service skills are necessary because both depend on each other to be able to deliver valid solutions to client’s needs. However, after several years working with customers, I believe customer service will be a top priority.\nT: With that said, I believe customer service will always be important because [Company Name] places the client’s needs at an empathetic perspective. Two reasons why I believe customer service is important is retention and brand image.\nA: A good customer experience with the company equates to client retention, meaning clients will most likely continue to rely on the services provided, and recommend the business to more prospective clients. This can also improve the company’s brand image. A good brand image of [Company Name] means a positive reputation for clients to trust the company’s financial services, motto, and culture.\nR: That is why I believe customer service will always come first in order to ensure the business’s long term success.\n\n5)     What made you get into technical support?\n\n\nS: I decided to go into the position because technology has always captured my interest for as long as I can remember. I also love working with people because I have several years of experience in customer service. I decided to go to college to take classes on technology and graduated with my bachelor's degree in computer information systems.\nT: With both technical and interpersonal skills, these skills are invaluable for the client technical support position.\nA: When I found out that Charles Schwab in Westlake, Texas was hiring for the position, I knew this would be the ideal job for me because I am expected to handle troubleshooting issues, use technology to guide clients on resolving the issues, and provide excellent client focused services.\nR: I want to be able to use my knowledge of technology to solve issues in order to bring effective solutions that will make life easier and more enjoyable for clients. I posses both the technical and interpersonal knowledge to be up for the task.\n\nThese are some of the few I picked out I think I would be asked about during the interview.\n\nDoes anyone have recommendations for phone interviews? Or am i just nervous?",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/1dnj0j6/i_practiced_the_first_time_reading_my_star/",
+      "comments": [
+        {
+          "body": "Are you reading from a script or an outline?",
+          "score": 1
+        },
+        {
+          "body": "You could try disconnecting your stories from the questions, and working backwards to apply them to multiple questions. So practice using the same story as an example to answer a variety of questions and then your execution will become more natural as you start thinking beyond the exact text on the page.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Had an interview for a Financial Services Rep position for Charles Schwab/TD Ameritrade with a recruiter but have yet to hear anything back.",
+      "body": "Have I been ghosted? One of my connections to the company swears that they just take their time and that because of the holidays, nobody was in HR for 3 weeks. \nPeople apparently didn’t get back in the office until January.\nEverybody tells me that they definitely would have sent an email telling me I didn’t get the job if I was denied, but I haven’t gotten anything.\nI tried to follow up yesterday about the status of everything and didn’t get a response, I was just told that my recruiter I interviewed with would reach out shortly. \n\nHave I been ghosted or am I just being impatient? I interviewed on December 6th.",
+      "subreddit": "interviews",
+      "score": 2,
+      "url": "https://reddit.com/r/interviews/comments/s1r3vt/had_an_interview_for_a_financial_services_rep/",
+      "comments": [
+        {
+          "body": "No news is good news. It's reassuring your contact says it takes them time and yeah the holidays certainly do not help.",
+          "score": 2
+        },
+        {
+          "body": "Check your spam or online application. I've noticed that I would send out those rejection emails but for some reason candidates reach out again inquiring if theres an update. \n\nGood luck!",
+          "score": 1
+        },
+        {
+          "body": "Did you hear back from them?",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1272 @@
+{
+  "company": "oracle",
+  "post_count": 62,
+  "exported_at": "2026-01-18T17:44:53.296Z",
+  "posts": [
+    {
+      "title": "I got destroyed in a technical interview for a paid internship at Oracle Labs.",
+      "body": "I'm 19, a 3rd year CS student with a very high GPA, and an undergraduate sessional academic (Australian version of a teaching assistant). There were two interviewers, an older Indian guy, and a younger white guy. The older guy apparently didn't read my resume or cover letter and only looked at my academic transcript and skills section of my resume; so he was ignorant to my academic work and projects. The younger guy was, I think, interested in the projects that I had worked on and currently working on because he was asking me questions about them. Then the technical assessment began.\n\nThe questions I were asked were (paraphrased with the questioner in parantheses):\n\n&gt; What is the path environment variable (young guy)\n\nAnswered correctly.\n\n&gt; In Linux, how would I find a string from a collection of files (young guy)\n\nAnswered correctly.\n\n&gt; What is the difference between a binary tree and a binary search tree (older guy)\n\nI said I don't know but I showed how a binary tree would be traversed with a breadth-first search to find a goal node. He didn't care and repeated his question multiple times, e.g. \"What are the specific properties my binary tree would need to have to be a binary search tree?\" etc. but I just said I don't know and apologized.\n\n&gt; What is the pumping lemma? (older guy)\n\nI said it's a method for proving if a language is regular or not, but I couldn't explain how it worked to his dismay.\n\n&gt; Is the language a^n b^n | n &gt; 0 regular or not? (older guy trying to get me to explain the pumping lemma again)\n\nI understood what the language was, and started writing out the production rules for it:\n\nS -&gt; AB\n\nA -&gt; Aa\n\nB -&gt; Bb\n\nA -&gt; ϵ\n\nB -&gt; ϵ\n\nI said this was a left-linear regular language. He said my production rules were incorrect because this would allow for strings like \"aab\" (which is true).\n\n&gt; You have listed formal language theory in your skills, yet you do not appear to be competent with it? (older guy)\n\nYes I understand the Chomsky hierarchy, and parsing etc. but I didn't go into great depth during my studies. He replies by saying that parsing has nothing to do with formal languages which is blatantly false. \n\nThen the younger guy asked me to come up with an algorithm that would check if a string is an anagram of any string in a dictionary.\n\nI first came up with a naive faulty solution (O(n!)), then after being told there would be some cases that would not work, I showed what those cases would be and ended up arriving at a robust O(n^2 ) solution (with some hiccups along the way).\n\nThis was my feedback:\n\n&gt;I spoke to /u/Daedalan on the phone last week and indicated that we would be checking his knowledge/thinking on algorithms/data-structure/software engineering and any other topics he lists as a strength on his CV.\n\n&gt;Sadly, he seemed to be ill prepared for the interview. He did not recall many of the issues from his data-structures and algorithms subject and also struggled to develop an algorithm for a specific task\n\nHe is blatantly over-exaggerating my poor performance. However, let's assume that everything I have said is a lie and that the feedback is accurate. We may as well assume this because nothing else matters. So now I feel like shit - how do I stop feeling like shit? My self-worth has been shattered and computer science has become sour to me now. What's with the obsession for ~~autistic ability to recall rote facts~~ rote memorization of facts that could be easily Googled over problem solving skills? Why can't interviews focus more on general understanding, experience, projects etc?\n\nfml\n\nEdit:\n\nThank you for your comments everyone. I realize the mistakes I've made now.",
+      "subreddit": "cscareerquestions",
+      "score": 194,
+      "url": "https://reddit.com/r/cscareerquestions/comments/6g8jne/i_got_destroyed_in_a_technical_interview_for_a/",
+      "comments": [
+        {
+          "body": "Honestly, I don't really disagree with their assessment of the interview. You apparently listed things related to this as a skill, and you weren't able to answer questions on this. \n\nYour algorithm performance also doesn't seem very good. I notice, for example, that you describe your algorithm as \"O(n!)\" and then \"O(n^2)\". That doesn't really make sense to me. What's n? I assume n must be the length of the input string. Your O(n!) algorithm is probably computing all permutations of a string and then looking it up in a hash table that represents the dictionary. But then what's the O(n^2) solution? I suspect that you came up with some solution that involves actually walking through the dictionary, but you didn't include that in your runtime. That probably means that you also don't understand big O. And your algorithm might not have been optimal either.\n\nSo, even taking your own description at face value as 100% fair and accurate, their feedback seems relatively fair too.\n\nHOWEVER\n\n1. Their feedback is used to justify *not* giving you an offer. It is not general feedback of the interview. It is intentionally written to be, basically, \"these are the things we don't like about you.\" So, yeah, of course it's going to make you feel like shit.\n\n2. Interviewers in general aren't very good at interviewing. It's like asking a programmer to create a marketing plan. How good do *you* think you'd be at it? Not very good, I'd guess. This isn't something you're trained or skilled in. It turns out the programmers and even managers also are not trained or skilled in interviewing. This is not something that is part of their core job description. (To be clear: I'm not suggesting that recruiters should do interviews either. Programmers need to be interviewed by other programmers; there's no other way to do that. I'm just saying to give your interviewers a break too. They don't really know what they're doing.)\n\n3. These interviewers did some things that I would recommend against. They did a 2-on-1 interview, which is generally bad practice. One guy essentially insulted you. And it was a lot of assessment about the skills on your resume, which isn't all the useful.\n\n4. Here's the thing with assessing someone based on the skills on their resume: there's no universal rule about at what point a candidate should list a skill on their resume. Some people feel like they should list anything on their resume that they've worked with. Other people only list stuff that they feel ready to answer question. Neither person is \"wrong\", so there's no reason to get super upset if a candidate doesn't know the topics on their resume. (But again, this is something that is very common practice, but nonetheless bad practice. Interviewers mostly haven't really thought about it this way though.)\n\n5. You can't really assess someone based on their projects and experience. You can assess them based on their ability to *talk* about things that they -- or someone else they know (it might not really be their work) -- did. Those are different things.\n\n6. Really, what people *should* be hiring on is potential -- what *can* they do (not what they have done). That's why people ask stuff about knowledge or do algorithm questions. Both have their flaws, but that's the idea behind them.\n\n(- gayle from Cracking the Coding Interview)",
+          "score": 245
+        },
+        {
+          "body": "\"I know formal language theory.\"\n\n\"Prove it.\"\n\n\n\"Why aren't you asking me about the application side that I'm familiar with?\"\n\n\n\"Because you said you understand **theory** right on your resume for some stupid reason and clearly you don't.\"\n\n\n\nYour interview.\n\n\n\n",
+          "score": 560
+        },
+        {
+          "body": "&gt; He is blatantly over-exaggerating my poor performance\n\nBy the sound of it he isn't? You'll feel better once you accept that you plain bombed, it happens to everyone. Plenty of places would've rejected you based on the BST question alone, assuming you've taken a data structures class or claimed to have even the slightest knowledge about them. \n\nFor the anagram question, an O(n) (with respect to the number of strings) solution exists, which is to just sort the strings individually and compare for equality, or to use arrays for letter counts and compare, so it's understandable that they weren't happy with an O(n^2) best effort solution. \n\nThe formal language theory part sucks - some places will really grill you on difficult things that you've put down on your resume, so if you haven't studied something in depth like you said, it's often a good idea to leave it out.  ",
+          "score": 80
+        },
+        {
+          "body": "I think what the older guy was getting at was that you listed something on your resume as a skill that you couldn't really defend. I'm surprised he asked those types of questions too, but if you had that on your resume, I kinda see why he asked.\n\nAlso you really should know the difference between a binary tree and a binary search tree, honestly. I learned that in my second CS class.\n\nAlso holy hell, I get being upset about a bad interview, but your \"autistic ability to recall rote facts\" line at the end of this post is really bad.  ",
+          "score": 258
+        },
+        {
+          "body": "&gt; My self-worth has been shattered and computer science has become sour to me now. \n\nFrom one little set-back? You had one interview that didn't go well. They even gave you good feedback. And you got really angry (I mean that line about \"autistic ability\", come on!) and feel your \"future is shattered\"?",
+          "score": 241
+        },
+        {
+          "body": "&gt; So now I feel like shit - how do I stop feeling like shit? My self-worth has been shattered and computer science has become sour to me now.\n\nYou come off in this post sounding like a child prodigy who never had to build up emotional resilience through failure, and are ready to blame the world for your failings. Stop blaming 'obsession for autistic ability' and start looking inward. You are not perfect, but the good news nobody is.\n\nI imagine Oracle Labs is a pretty R&amp;D focused place, which usually means they're full of PhDs, and are looking for interns who will help them with research rather than write CRUD software like the consulting division. You can't honestly simultaneously claim ignorance of CS theory as trivia and apply to research departments.\n\nWhat you learned were many valuable lessons:\n\n 1. You aren't the always the perfect candidate.\n 2. Perfect isn't even a consistent definition.\n 3. Probably you should focus on product internships vs research internships.",
+          "score": 59
+        },
+        {
+          "body": "[deleted]",
+          "score": 78
+        }
+      ]
+    },
+    {
+      "title": "Need Feedback for Second Post-Interview Follow-Up Email",
+      "body": "I had my second interview for a position I really want a little over two weeks ago. I sent my interviewers a \"Thank You\" note immediately after I interviewed with them. They replied back thanking me for my time and for interviewing for the position and that I should hear back from a team member after they have completed the interviewing process. During the interview, they said that I should expect to hear back in a few weeks either way. I have not heard back since their reply to my \"Thank You\" email. I am planning on following up with them this week, but I would like some feedback on my email.\n\nMy draft email is posted below:\n\n\\---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n\nSubject: Thank You: Following Up Regarding Interview\n\nDear **\\[INTERVIEWER 1\\]** and **\\[INTERVIEWER 2\\]**,\n\nI hope you had a great weekend and that this email finds you well. Thank you again for considering me for the **\\[NAME OF POSITION\\]** position at **\\[PLACE OF EMPLOYEMENT\\]**. I want to follow-up regarding my interview and candidacy for this position. During our interview, you mentioned that I should expect to hear back either way in a few weeks. I want to express my continued interest in the **\\[NAME OF POSITION\\]** position. What excites me most about this position is having the opportunity to learn about both global and domestic public health initiatives while sharpening my data management and analysis skills under senior biostatisticians. I would like to reiterate and emphasize the following skills and attributes that I can bring to the position and the **\\[NAME OF TEAM\\]** team.\n\n· Detail-orientation necessary to query data for completeness and accuracy and to prepare data and databases for statistical analyses\n\n· Experience creating surveys and entering survey data in REDCap and moving a project from Development to Production (**\\[NAME OF EXPERIENCE\\]** experience at **\\[PLACE OF EMPLOYEMENT\\]**); eagerness and aptitude for learning new programming languages and databases (SQL and Oracle)\n\n· Problem solving skills to understand and debug programming code\n\n· Scientific writing skills for contributing to data reports and statistical methods and results sections (Wrote Results section for **\\[NAME OF STUDY\\]** study and Results and methods sections for **\\[NAME OF STUDY\\]** study)\n\n· Organizational skills and ability to submit high-quality deliverables in a timely manner **(Student Consultant roles)**\n\nIf you require any other information from me to help with your decision making process, please let me know. I can be reached at **\\[MY PHONE NUMBER\\]** or via email at **\\[MY EMAIL ADDRESS\\]**.\n\nIf I don't hear from you in another week or so, would you mind if I send another follow-up email?\n\nThank you once again for your time and consideration,\n\nSincerely,\n\n**\\[MY NAME\\]**\n\n\\-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n\nA person who suggested this template suggested that the subject line be:\n\n*Follow Up to* ***\\[INTERVIEW DATE\\]*** *Interview*\n\nHowever, I thought that reminding my interviewers of the date I interviewed with them would sound a little pushy, especially since I mentioned in my body that during the interview, that they mentioned that I should expect to hear back either way. I also know that some of you on this Subreddit are against asking employers if they need extra information to help them make their decision. This is the line I am referring to: \"If you require any other information from me to help with your decision making process...\" Any tips on how I could reword that or what I should say in lieu of that, or is having that line in the email fine?\n\nThank you for all of your help, and thanks for reading!",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/duczno/need_feedback_for_second_postinterview_followup/",
+      "comments": [
+        {
+          "body": "I am never a proponent of a follow up.  If they want to hire you, they will hire you.  That said, if you insist on sending an email, yours is too long.  They know a lot of the things you’re saying already, I would stick to one thing you want to express about yourself and that’s it.  You don’t want to waste time.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Experienced Hire screening felt like a college exam. Got drilled on random questions vs my experience",
+      "body": "So I went for a interview with company and I first opened up the interview talking about my dev experience and what I did over the years and going into some detail, the interviewer yawned and then interrupted me and started asking me all these sorta random test questions. Like how do you find a the 3rd record in sql. I gave my sqlserver answer but he said no and aggressively disagreed with me. I later looked it up and he was thinking Oracle syntax.\n\nThen i answered a few of his questions correctly, then he kept trying to make it harder and harder. It was like he didn't care about my past experience, just wanted to drill on random tech syntax.  I got some right and some wrong.  He left the interview with a very lukewarm response.\n\nInterestingly I got a call from the recruiter that they want to do a follow up interview call. I kinda feel like I want to pass on this one.\n\nIs this some sorta interview game they play with candidates. Why didn't they want to hear about my experience.",
+      "subreddit": "cscareerquestions",
+      "score": 955,
+      "url": "https://reddit.com/r/cscareerquestions/comments/vsr00w/experienced_hire_screening_felt_like_a_college/",
+      "comments": [
+        {
+          "body": "[deleted]",
+          "score": 1073
+        },
+        {
+          "body": "One fucker from JPMC used to give me very bad and condescending attitude.  After I gave out my introduction, I saw him playing with the phone and didn't pay attention to what I said. After that, he made the questions harder and harder and the attitude was very bad like an abusive father.\n\nAt the end, I \"insulted\" him by saying \"clearly that's not how you should manage a team. and good luck to the endeavor of your team.\" He wasn't happy about what I said. But He had to go, because the time was up.\n\nGuess what he was doing on his phone at the very beginning of the interview?  He just rejected me on his phone after the brief introduction. He didn't like me and made the questions extremely hard and unreasonable on purpose. How do I know? Because, I checked my email. the rejection email was sent at the exact time when he was on his phone, at the very beginning of the interview.\n\nIf the interviewer doesn't like you, the questions will be hard on purpose.",
+          "score": 263
+        },
+        {
+          "body": "Remember that you're interviewing them, too. If you get bad vibes from the interview, then declining further interviews is perfectly reasonable.",
+          "score": 233
+        },
+        {
+          "body": "Yeah it's wild getting interviewed by people who have far less experience than me and having them try to overcompensate with gotcha questions.",
+          "score": 77
+        }
+      ]
+    },
+    {
+      "title": "Career advice from a principal engineer",
+      "body": "I spent 30 years working in industry, including research, Microsoft, Amazon, Google, Oracle, etc. I've been taking a sabbatical and making advice videos on YouTube for fun while I chill. I have a couple of playlists that have videos that would be useful for most of the folks I see posting questions on r/cscareerquestions. \n\n*  [Big Tech Interviews](https://www.youtube.com/playlist?list=PLKbpsYOUIkcyXLu6bxNXkchG0aF5XHjBu). If you're interviewing in big tech or someplace similar, This playlist has advice on how to prep, how the interviews are structured, coding and design interviews, and negotiating an offer. \n* [Switching Jobs](https://www.youtube.com/playlist?list=PLKbpsYOUIkcz7NMCBWXFZPRcd2lgG066_). As I looked at quitting and switching jobs, and had employees who did the same, I saw a lot of bad assumptions, and mistakes made. This playlist focuses on if and how to quit, how to find your next big tech job (if you're experienced), and reminds you that you aren't trapped by golden handcuffs such as stock like you think you are.  \n* [Career Advice](https://www.youtube.com/playlist?list=PLKbpsYOUIkcwhcpPZ8GoPrOEGx4G3SlSG). If you're wondering what the difference is between a junior, senior, and principal engineer, and how to advance, this playlist will tell you. It also describes research vs programming, managing vs. being an IC, and how to manage your career more effectively.  \n\nIf there's other stuff you'd like to get videos about, let me know. Thanks!  \njohn miller, Deliberate Engineer.",
+      "subreddit": "cscareerquestions",
+      "score": 1187,
+      "url": "https://reddit.com/r/cscareerquestions/comments/t3x7xr/career_advice_from_a_principal_engineer/",
+      "comments": [
+        {
+          "body": "People like John are what this community needs the most right now. Experienced experts with no hidden agenda, simply just willing to help the newcomers and bring some valuable insights. Thanks a lot for your help in Quora, YouTube, and all the support in the community!",
+          "score": 145
+        },
+        {
+          "body": "Wait, are you the same John Miller who's active on Quora?",
+          "score": 176
+        },
+        {
+          "body": "[deleted]",
+          "score": 49
+        },
+        {
+          "body": "I remember reading your answers on Quora a while back. That was some of the best content there.",
+          "score": 31
+        }
+      ]
+    },
+    {
+      "title": "What can I expect from Oracle on-site interview?",
+      "body": "I was notified it will be just 3 hours long and contain technical questions. Are their on-site usually this short?",
+      "subreddit": "cscareerquestions",
+      "score": 18,
+      "url": "https://reddit.com/r/cscareerquestions/comments/6mpw7u/what_can_i_expect_from_oracle_onsite_interview/",
+      "comments": [
+        {
+          "body": "Core Java and SQL. Perfect it.",
+          "score": 4
+        },
+        {
+          "body": "which team are you going for?",
+          "score": 1
+        },
+        {
+          "body": "That's interesting, honestly I don't know about Oracle either. Hopefully someone help you out. It will be good if you post an overview of your interview later on in this sub.",
+          "score": -5
+        },
+        {
+          "body": "Oracle is a database company so I would concentrate on mastering SQL.",
+          "score": -9
+        }
+      ]
+    },
+    {
+      "title": "Does anybody have experience remotely configuring Oracle databases?  I have a job interview next week and need some pointers.",
+      "body": "Basically I applied for job X, and after talking the manager he told me they are going to promote from within for job X, but would I be interested in job Y.  I talked my way into that interview because where we work now I support a stack that includes an oracle database although I don't ever deal with it.  The manager seemed content with my basic SQL knowledge (CRUD, simple joins, etc.) , but the truth is I only have ever used SQL server and mysql.  \n\nAdditionally, the manager didn't give me much information about the position other than it would be helping clients configure their servers using ssh and webex.  I'd really like to land this job, but I'm a bit nervous for the interview.  I'd love to talk to somebody who could give me some pointers about what that might entail.\n\ntl;dr interviewing for job over my head, would like some pointers so I can sound qualified.",
+      "subreddit": "jobs",
+      "score": 2,
+      "url": "https://reddit.com/r/jobs/comments/j9j0i/does_anybody_have_experience_remotely_configuring/",
+      "comments": []
+    },
+    {
+      "title": "5th Month of Unemployment and Still No Job",
+      "body": "I graduated university in December 2022. After interning at my former company for about a year, I was hired full-time, working on federal healthcare contracts for the HHS. In August of this year, I was laid off after the federal government canceled all the contracts I was working on, and there were no other positions available for me. I had been at the company full-time for almost three years before being laid off.\n\nI have been applying for jobs for almost five months now, and I have had no success. Most of the time, I do not even get interviews. When I do get interviews, I have reached the final round at Meta but did not get an offer. The same happened with Fanatics. At IBM, I failed the first programming interview after the coding assessment. I was interviewing for a C++ role but had limited experience. I have also interviewed for three local roles and made it to the final round in all of them.\n\nThe only feedback I have received came from my two most recent interviews. For Company A, they said I did not perform well in the programming project during the interview because I focused on new Java features. However, they also said positive things. They thought I had the right culture fit and technical skill, but I lacked experience in DevOps, which I believe was not part of the job description, and I was relatively slow. For Company B, they said, \"We do not think your skillset is the best fit for the fundamental development tasks that will be our primary focus in the months ahead.\"\n\nMy experience at my former employer was mainly with legacy systems, which is typical for government contracts. We used AWS for the entire system: ECS, RDS (Oracle SQL), DynamoDB, API Gateway, Lambda, and S3. But all the backend code, where I worked full-stack, was in Java 8, later upgraded to Java 21, SpringMVC (no Spring Boot), Apache Tomcat, Apache Maven, SVN, and Git. The frontend consisted of JSPs that loaded XML files with vanilla JS, Bootstrap, and jQuery, along with CSS and HTML.\n\nIt seems many companies are looking for reactive websites, which I have no experience with, or Spring Boot and more modern tech stacks. I am getting almost no interviews, and the process can take a month or more just to end in rejection. I know the job market is very difficult right now, but this is taking a serious mental toll on me. I already have disabilities and mental health issues, and I feel like my life and career are falling apart. I do not have skills for \"normal\" non-tech roles, and I do not know what to do. I know the obvious advice is to improve my resume and interviewing skills, but at some point, even getting an interview feels completely random, and the same goes for the interviews themselves.\n\nEDIT: Resume https://imgur.com/a/j1UZQnQ",
+      "subreddit": "cscareerquestions",
+      "score": 61,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1po8gk0/5th_month_of_unemployment_and_still_no_job/",
+      "comments": [
+        {
+          "body": "I’m of the mindset you should have multiple, targeted resumes. \n\nYou should have a java one, a front end one, a c++ one, a general one, etc etc.\n\nProjects/experience should focus on that as much as you can.",
+          "score": 45
+        },
+        {
+          "body": "You put C++/Rust in your skillset; you better be able to code with it. I am retired from engineering, but there were countless times I interviewed younger folks claiming to know C++ who were not able to answer basic concepts in C++.",
+          "score": 25
+        },
+        {
+          "body": "Here’s something you may want to accept. Not sure what type of effect it will have on you. There is some element of luck/randomness to it all. Things are not always fair. Not sure if you are blaming yourself, and not sure if that thought will make you feel better or worse. \n\nWith that out of the way, a couple things to consider:\n\n- don’t accept any interview. You said that C++ position was a long shot. Was it just a waste of time and energy? Did it just make you feel down?\n- maybe it’s time to learn some stuff. If you know the Spring Framework, learning Spring Boot should be pretty easy. It’s supposed to make things easier. \n- more daunting, but if you learn React, you will hit more position requirements. I’m primarily backend, and I’ve been filtered out for not knowing React. \n\nLearning new stuff obviously requires effort. You might feel like you can’t. There’s only so much time in the day, so you have to pick and choose. ",
+          "score": 5
+        },
+        {
+          "body": "Keep trying. I had also very hard Time.",
+          "score": 6
+        }
+      ]
+    },
+    {
+      "title": "Technical interview with Oracle Labs - Machine Learning",
+      "body": "Hello all. I'll have a technical interview for an internship with Oracle soon. It's about applying machine learning methods and it's somewhat research related.\n\nDoes anyone have any similar experience? What can I do to prepare myself?\n",
+      "subreddit": "cscareerquestions",
+      "score": 1,
+      "url": "https://reddit.com/r/cscareerquestions/comments/4blnun/technical_interview_with_oracle_labs_machine/",
+      "comments": []
+    },
+    {
+      "title": "OCJP (Oracle Java Certifications) useful outside of a job interview?",
+      "body": "#Besides job-hunt/impressed-manager brownie points, are the OCJP certifications useful to a not-completely-green professional Java Dev? \n\nI'm a Java Developer, am not currently looking for a job, and haven't had any trouble finding work as a developer in the past. \n\nMy background is a 4 years honors BSc in Computer Science, and a little while working in 'academia' - so I haven't neglected formal/theory aspects of development. \n\nMy company offers to pay for Java certifications (I pay for them, they give me the money back if I pass). \n\n\nOther than 'looks good on a cv' and 'might seem impressive to my boss' are these certifications majorly beneficial to your average Java dev? Will it *actually* make me better at my job, or will it be one big exercise in formalizing what I already know? \n\n**Edit**:\n\nWhile the company will pay for the cert if I pass it - I'll still have to do all the studying and preparation in my spare time, and if I fail It'll cost me - so it's not just a case of 'why not?'. I guess if I'm gonna spend my free time studying, I want to get the most out of it I can..\n\nThey'll also pay for pretty much any job-applicable training or certificates - so I want to know if this is the right one, not just better than nothing. ",
+      "subreddit": "cscareerquestions",
+      "score": 3,
+      "url": "https://reddit.com/r/cscareerquestions/comments/44ac92/ocjp_oracle_java_certifications_useful_outside_of/",
+      "comments": [
+        {
+          "body": "&gt; Other than 'looks good on a cv' and 'might seem impressive to my boss' are these certifications majorly beneficial to your average Java dev?\n\nMajorly no but it's likely to teach you some more obscure stuff that's interesting / might be useful. And since your company is paying for it, why the hell not?",
+          "score": 3
+        },
+        {
+          "body": "&gt; Are these certifications majorly beneficial to your average Java dev?\n\nNo. But if you get can them for free - which sounds like you could go for it.",
+          "score": 1
+        },
+        {
+          "body": "[deleted]",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Am I dismissing my gaps in knowledge/recall? Rant",
+      "body": "Just got through another technical interview (not big tech loop) that I don’t feel super well about. No SWE friends to commiserate with so I’m writing it out here. My experience with non-tech has been the following: quick intros, followed by a barrage of very narrow, closed ended questions (typically about Java).\n\n \n\nA sample of some questions I’ve gotten recently (almost verbatim, mostly grouped by relevance):\n\n\\-          What do you rate yourself with Java knowledge?\n\n\\-          What is the difference between checked and unchecked Exceptions?\n\n\\-          What is the difference between String name = “first” and String name = new String(“first”)\n\n\\-          Are strings mutable?\n\n\\-          If I write two functions with the same name and parameters, but different return type, what is that called? (trick question that really threw me off).\n\n\\-          How can I use an object as a key in a HashMap?\n\n\\-          Describe how HashSet implements buckets internally\n\n\\-          What is a link in a HashSet?\n\n\\-          Is HashSet an ordered collection? Do you know any Set collection that preserves order?\n\n\\-          Describe what happens the moment I click Submit on a web form.\n\n\\-          What is the difference between GET and POST?\n\n\\-          When would I not use GET?\n\n\\-          What is Cross-Origin Resource Sharing? You should definitely know this as a web developer (I’m sorry? None of the services I work on directly touch a web browser).\n\n\\-          What does the SpringBootApplication annotation mean?\n\n\\-          What feature of Spring should I use to log my code?\n\n\\-          Describe big O notation and why it’s important?\n\n\\-          What are some logN algorithms? (I blanked here, was asked if I know binary search, I explained the algorithm, was reminded that it was logN and moved on)\n\n\\-          What is a deadlock in Java?\n\n\\-          Which version of java do you use? What feature of this version do you use most often that you can’t use in an older version?\n\n\\-          Explain sealed classes and records.\n\n\\-          What does stream.distinct() do? What is the difference between .distinct() and .collect(to Set)?\n\n\\-          What is a terminal operation? Is .distinct() a terminal operation?\n\n\\-          How does stream.anyMatch() function?\n\n\\-          What is the difference between String.isEmpty() and String.isBlank()?\n\n\\-          What is a query plan?\n\n\\-          How would you analyze a slow query?\n\n\\-          When would you use group by in a query?\n\nNone of these questions are difficult, and I know the answers to most of them off the top of my head from experience, and the ones that I do not know, I am likely aware of the concept and just cannot recall the exact word/definition for it. I feel like I’m getting quizzed on whatever the interviewer decides to harp on that day. Even if I happened to know exactly how a HashSet is implemented by Java, they could have asked me about some other data structure implementation, or some other seemingly random java library. After saying “I don’t know” a couple times during the course of an interview I just feel legitimately stupid.\n\n \n\nI know that deep understanding language specific stuff is important but it feels like there’s an unlimited number of questions/follow-ups that can be asked about specific details. It feels a lot more like testing back in college rather than an interview to determine if I’d be a good engineer. Nothing about design patterns or methodologies; maybe ask why I might opt to use/not use microservices, event driven vs domain driven approaches, etc. Literally any open-ended question. Why do you care if I know which classes the two kinds of Exception extend, or which logger Spring bundles by default? After the interview I would look up the questions I missed, and it’s almost always stuff I *do* know and just do not think about when working, or spend 3 mins in oracle docs to refresh knowledge of a specific class/method. It feels like some of these people googled “java interview questions” and read off the list, then if you don’t give them the exact words they have for the answer they have no idea what you’re talking about. A while ago I almost asked the person what they would do if management decided to force a switch to Go or something. Where are your Exceptions now? Are you even aware of the different ways to handle errors (can you tell yet that I didn’t give a perfect answer for checked vs unchecked exceptions)?\n\n \n\nI am pretty frustrated at this point and need a sanity check – is this just skill issue/get good? My plan of action is to compile as comprehensive list of questions as I can and straight up just hammer definitions into my head with flash cards or something. These are not high paying roles; I’m applying to mid/senior level positions at random companies. I legit had a better time going through Amazons loop (failed LP) a couple years ago than getting quizzed like this. At least with leetcode/coding challenges and system design I can have a conversation and show my reasoning. Am I just bitter and dismissing these kinds questions, or are most of these actually trivial and not a great barometer?",
+      "subreddit": "cscareerquestions",
+      "score": 13,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1j0j5nm/am_i_dismissing_my_gaps_in_knowledgerecall_rant/",
+      "comments": [
+        {
+          "body": "I prefer leetcode to these trivia style interviews. There's a 99% chance that your interviewer looked up \"Java interview questions\" 5 minutes before you hopped on the call and just read from that.",
+          "score": 50
+        },
+        {
+          "body": "Low paying jobs == low skilled/bad engineers == bad interviews like this that focus on trivia",
+          "score": 30
+        },
+        {
+          "body": "Naw these are trivia questions. I would be pretty upset if I was asked them because these questions would give me no room to show my actual knowledge and skills. And like I also don't know the answer to most of them off the top of my head because I've been using Kotlin most of my career.",
+          "score": 12
+        },
+        {
+          "body": "Those aren't great questions, but they're nkt the worst. You should be able to answer most of those.",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "title": "How do I close skills gap to land a job?",
+      "body": "I have been a dev for over 10 years but unfortunately I only worked with more traditional companies who do on premise monolith solution. I am looking for a job now and I keep seeing job listing with requirement which I don't have. I have been to interviews and they asked about those skills and I could only replied that I haven't worked with those tech and then I failed.\n\nWhat I have been coding: Java, J2EE, Spring, Spring Boot, standalone web application installed on Tomcat. If there is a frontend, it gotta be thymeleaf.  Javascript sometimes. . Database is Oracle/MySQL/MSSQL\n\nWhat skill I see in job ads: React, NodeJS, MongoDB/NoSQL, Kafka, Redis, Microservices, AWS, Azure, Kubernetes, OpenShift\n\nI have studied React and AWS a bit but it is nowhere near work experience. I am studying Kubernetes because that's what failed my last interview and I could see keep coming up in interviews.",
+      "subreddit": "cscareerquestions",
+      "score": 8,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1l3p2xo/how_do_i_close_skills_gap_to_land_a_job/",
+      "comments": [
+        {
+          "body": "I mean, I've been a Java dev for 15 years. I never ever used JavaScript/TypeScript. You don't have to know it all. Use whatever you can 'on the job' because it sounds much better, looks better and I'm no expert at lying.\n\n* **Learn Postgres for databases**. Easy to install and use. Make a new database with the UI and do CRUD operations. Can get up to speed in 1 day. Oracle isn't nearly as common as it used to be and MySQL is the cheapskate version of Oracle. MSSQL is good though.\n* **Learn one of AWS, Azure, GCP**. I used to think no one used GCP but I saw one company switch to it because it's cheaper. Recruiters were always cool with me only knowing 1 of the 3 since the others are easy to learn at that point. Using on the job goes a long way, else get an entry level cert that you see listed in a few job applications. The only cert that not a scam for this reason but it is crazy expensive. Thus your employer pays. Probably need a book or course and the exam has extra cheating detection.\n* **Learn one of Docker or Kubernetes**. You can learn both but there's some overlap. Pick what you see more in job descriptions. I guess Kubernetes and that's what I've seen more as well.\n* Microservices, yeah this is on the job experience. You can't teach yourself, or you can, but it won't matter to a recruiter.\n* Less important: Compliment Java with another language. Could be Python, Kotlin, Go aka Golang or TypeScript/JavaScript with your choice of React or Angular. Actually is important but if not used on the job, it ranks here.\n* Less important: Use Jetty with Spring Boot, preferably now on the job for local testing. I haven't used Tomcat on the job in 10 years. Cloud crap is taking over but local servers is a nice plus and they don't use cloud data. Bonus: Mock a database with JUnit + Mockito or PowerMock or whatever. You should know JUnit.",
+          "score": 4
+        },
+        {
+          "body": "Your decade of Java and Spring experience is actually more valuable than you think. The fundamentals you've mastered translate directly to modern architectures - Spring Boot naturally leads to microservices, your database knowledge applies whether it's SQL or NoSQL, and the core programming concepts remain the same. The issue isn't that you lack skills, it's that you're not effectively communicating how your existing experience relates to what they're asking for, and you're being too honest about what you haven't done instead of focusing on your ability to learn and adapt.\n\nStop saying \"I haven't worked with that\" in interviews and start saying \"I haven't used that specific technology in production, but here's how I'd approach it based on my experience with similar concepts.\" Your Spring Boot background gives you microservices understanding, your Java skills mean you can pick up any backend technology quickly, and your database experience shows you understand data persistence regardless of the specific system. Build a few small projects using React, deploy something simple to AWS, and set up a basic Kubernetes cluster locally - you don't need years of experience, just enough to speak intelligently about the concepts and show you can learn.\n\nI'm on the team that built [interview help AI](http://interviews.chat), and it's designed specifically for situations like this where you need to navigate tricky questions about skills gaps and position your experience in the best light during interviews.",
+          "score": 3
+        },
+        {
+          "body": "maybe a Kubernetes certificate would be enough of a help on the resume since it's not professional experience, but that + passing interview with knowledge would help",
+          "score": 1
+        },
+        {
+          "body": "Following",
+          "score": 1
+        },
+        {
+          "body": "if the goal is land a job, you need to focus on these main areas:\n\n1. Resume and efficiency of applications\n2. LeetCode + whatever you need to pass tech screens\n3. Systems Design, and working knowledge of the systems you've worked on\n4. Behavioral: where you respond to questions about your work style, and use specific examples to back it up.\n\nThat's basically it. There's a ton of information online about how to do this, and tons of practice problems. Getting good is just a question of putting in the time.",
+          "score": 1
+        },
+        {
+          "body": "Honestly, I think it just depends how well you solve LC problems in a nutshell.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Passed all visible test cases in an OA, but still got rejected. What am I missing?",
+      "body": "I'm an experienced Data Engineer (5+ YoE) and I've recently started applying. I just had an Online Assessment (OA) where I was able to solve all the problems. The platform showed my solutions passed 100% of the provided sample test cases. However, a week later, I was surprised to see the rejection email. I reached out to the recruiter, and she said it was because I \"didn't pass the online test.\"\n\nI understand I'm a bit rusty with LeetCode/hackerrank skills and I'm working on that, but I'm confused. If my code passed all the visible test cases, how did I still fail? Are there any hidden test cases that my solution is run against after submission or could it be a performance/runtime issue though shouldn't that be flagged with test cases?\n\nI'm not sure if this is the right place to ask this question, I'm just trying to figure out how to prepare better. How do you account for these \"hidden\" requirements when the visible tests all pass?",
+      "subreddit": "cscareerquestions",
+      "score": 4,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1okgldn/passed_all_visible_test_cases_in_an_oa_but_still/",
+      "comments": [
+        {
+          "body": "Of course there are additional test cases. If you're given all the boundary conditions up front, what are they even testing you on?",
+          "score": 10
+        },
+        {
+          "body": "I got a 100% at Oracle and they ghosted me. Lot's of people passed",
+          "score": 2
+        },
+        {
+          "body": "Yeah there are hidden test cases but they usually will tell you on the OA whether you passed those or not.",
+          "score": 1
+        },
+        {
+          "body": "Keep in mind, depending om the company they will review your OA so do try to write semi-decent/good code time permitting.",
+          "score": 1
+        },
+        {
+          "body": "[removed]",
+          "score": 1
+        },
+        {
+          "body": "Other people interviewing probably completed it in a faster time, or were further along in the interview process.",
+          "score": 1
+        },
+        {
+          "body": "Some (most?) OA platforms have a lot more \"features\" that can determine if you pass or fail (mouse movemenets like click ouside the browser window, some copy/paste actions, code that matches some other public code, and so on). They don't usually disclose the details for obvious reasons.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Recent CS graduate who doesn't know what they're doing wrong",
+      "body": "I'm going to preface this by saying that I know I'm doing something wrong. I've been sending out job applications since January, and no matter how bad the market is, if 470 people aren't willing to interview me, let alone hire me, the issue definitely is my fault.  \nThat said, I don't know what part(s) of my application are holding me back (or maybe it's all trash). My immediate thought is that it's my skills that need work, but I already have what I think is a decent amount and variety on my resume. I've pasted the skills section from my resume below, and while I'm definitely not proficient in everything I list, I have at least used everything in at least one project.  \nLanguages: Java, C, Python, C++, HTML/CSS/JavaScript, Objective-C  \nLibraries/Frameworks: Node.js, React, Qt, ROS2  \nDevelopment Tools: Git, GitHub, Docker, Eclipse IDE, Visual Studio Code  \nDBMS and Tools: SQL, PostgreSQL, SQLite, MySQL, JDBC  \nOperating Systems: Windows, Linux (Ubuntu, Oracle Linux)  \nSDLC Methodologies: Waterfall, Agile, Scrum  \nCloud Tools: AWS (S3, EC2, RDS, Lambda), Oracle Cloud, Google Places API, Foursquare API  \nI also have certifications from AWS and Oracle, the former for the Solutions Architect - Associate, and the latter for the Java SE 8 Programmer. (I'm not sure how helpful they are, but I was told that they'd help me stand out)  \nI'm really hoping that the part of my application that's lacking isn't my education and experience, because I can't really do much about those. I graduated last December from the University of Pittsburgh, and I had two internships during college, but I don't have anything flashy like a FAANG internship or something. I started working on personal projects that I can show off, but so far I've only got one real project on my GitHub, and it's just a basic about-me website using React.  \nAside from stuff on my resume, I also don't really how I should be answering questions on job applications like \"What is your expected salary for this position\" or \"Why do you think you would be a good fit for this role\", mostly because I don't know too much about the industry itself.  \nAll in all, I'm feeling a bit discouraged, especially since my friends, who are still in college, already have job offers lined up for when they graduate (one of whom has a 100k/yr offer). Any advice on how I can make myself more competitive for entry level positions without having to go for a master's degree or something would be much appreciated!",
+      "subreddit": "cscareerquestions",
+      "score": 36,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1bjj9eu/recent_cs_graduate_who_doesnt_know_what_theyre/",
+      "comments": [
+        {
+          "body": "Ok, you posted stuff from your application, but what about your resume?  Has it been reviewed by someone you trust?  If you can post a sanitized version over at r/engineeringresumes they can help you.\n\nDo market research and find out what junior roles are paying in your area and nationally.\n\nAre you only looking for hybrid or remote roles, or are you looking for in-person roles also?\n\nAssuming you are in the US and a citizen, have you considered government contracting?",
+          "score": 41
+        },
+        {
+          "body": "My advice as a new grad way too many people are worried about stat padding their resumes with a million different skills, any recruiter will know its all BS. If you want to list certain skills fine but make sure you have built enough stuff to have a good comprehension of those things. Sometimes less is more, seen it too many times where a new grad has a million different skills and just has their resume thrown out because they just list it but nothing showing that its actually a skill and even if they make it to interview they get asked about it and just say they did one thing in college like you mentioned which doesnt make it a skill. As far as questions on salaries do more research on what is expected of that level and the pay. Reach out to any recruiter you can through linked in let them know you submitted a resume, call if you have to as well. People underestimate how much of an impact that extra step can make.",
+          "score": 22
+        },
+        {
+          "body": "I’m reading your skill list and my immediate instinct is BS. You’re a graduate, you don’t know all this stuff.",
+          "score": 12
+        },
+        {
+          "body": "As someone with a master's degree, I assure you it won't help. I'm also in the job market. It's just terrible right now.\n\nBe prepared to do part-time jobs till the market cools off. If you can, try freelance(please beware of scams) or start your own company if you see an unchartered territory.",
+          "score": 13
+        },
+        {
+          "body": "The market is bad. My application rate is up by a factor of ten for the positions I have over last year, but I'm full for new grads as of today.\n\nMany of the resumes I get are really bad. Four different fonts, giant headshots, random words bolded or italicized. In any market, they would get tossed.\n\nIn this market, it also matters that your resume is good and not identical to the other people in your program. I often get resumes from a school where the only difference is the name, and when that happens, they all get tossed.",
+          "score": 8
+        }
+      ]
+    },
+    {
+      "title": "When do I give up and how do i do it",
+      "body": "Graduated with my Master’s in CS last December (about 7 months ago), and like many others, I’ve sent out hundreds of applications with no callbacks or interviews. I’m tailoring my resume with help from others and writing cover letters, applying to pretty much any job that involves sitting behind a desk: dev roles, analyst positions, ITS Help Desk, college admissions, you name it.\n\nFor the few jobs where I networked my way into interviews, about half ended in an offer, only for it to be rescinded due to hiring freezes (Oracle, government roles, etc.).\n\nSue me, but I’m not one of those people who gets a hard on about migrating to the cloud or optimizing a codebase. I don’t mind the work, but when you factor in the uncertainty of the field, the scarcity of jobs, and the increasingly high bar to even get a foot in the door, the field couldn’t seem less enticing right now, let alone a viable way of making a stable living\n\nI’m pretty green, but I’m willing to work hard and I can get things done just as well as any other applicant, new grad or not. Still, with the current market for entry-level positions, the competition from laid-off senior engineers, and the general instability and shrinking opportunities... at what point do I just call it and switch careers and fields? where would i even go and how?",
+      "subreddit": "cscareerquestions",
+      "score": 10,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1mr1l8u/when_do_i_give_up_and_how_do_i_do_it/",
+      "comments": [
+        {
+          "body": "A bit of a non-answer, but the cut-off is going to be different for everyone depending on their circumstances and personalities. There’s a difference between someone who can move in with their parents and someone who has to support their family and pay a mortgage. \n\nOne counterintuitive point for you is you’ve gotten offers, but you’ve been really unlucky with them getting rescinded, so you can clearly pass interview loops. You’re not hopeless. \n\nI’m going to assume you haven’t really thought much where you’d go given your question. Or have you? You could keep applying while starting to explore other areas. If you decide to target a different field that requires schooling, you’d probably need to apply and depend on their academic schedule to some degree. \n\nI’m not convinced you should give up, but it’s subjective, and I can understand how frustrating it might be. ",
+          "score": 6
+        },
+        {
+          "body": "I think the fact that you’ve gotten offers (even if rescinded) shows you’re not lacking ability the bigger issue is timing and market conditions. Seven months post-graduation is frustrating, but it’s not the point where you “give up”; it’s the point where you reassess how you’re playing the game. The tech market is cyclical, and right now entry-level roles are being squeezed hardest, so relying only on cold applications will keep burning you ou  \n  \nTarget adjacent roles that build transferable skills, deepen one area you can become known for, and get some mentorship to sharpen both resume and interview positioning. Many strong engineers take a non-linear path the key isn’t walking away, it’s making sure the time you spend now compounds into options later.",
+          "score": 1
+        },
+        {
+          "body": "I think unfortunately connections are the best way to land roles. I'm a software engineer and landed my job right out of college because my friend cooped at the company and referred me. I still had to go through the usual interview rounds, but I applied to the job online and didn't hear back when I did that. It's all about who you know. \n\nThat being said, if you don't know anyone off the top of your head close to you that may have a boss looking to fill a role you'd like, that's when you need to hit up your parents, extended family, family friends. If it were me, I'd ask my mom to make a Facebook post and ask her 1000 fb friends if they have any connections to the tech world. Lol. Obviously it doesn't have to be your mom, but I think you might want to put a pause on the online applications and instead contact all your friend of a friend of a friends. You know?",
+          "score": 1
+        },
+        {
+          "body": "Do you think mentioning the masters onyour resume is hurting you?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Personal Project Ideas (AWS Developer and Security+)",
+      "body": "I got the DVA-C02 cert about 3 weeks ago. I now have the Cloud Practitioner, Java Oracle SE 8 and currently studying for the Security+ (my employer pays for certs). \n\nI currently have a really basic Java ATM command line application that I started more than a year ago when studying for the Java cert. I'm thinking of I can leverage this by migrating to the cloud but not sure.\n\nAre there any personal projects I can do to add to my resume? Preferably one that involves my current certs , Java project , and Security+ (if possible). My goal is to increase my chances of landing a new position. With certs I can land a interview and with a project I can pass the interview (something to talk about and answer technical questions)\n\nBackground info: I'm a app developer (consulting) for 3 years so I don't specialize in anything. Whatever the client wants I have to learn. Been on 3 projects, first was a migration from MicroStation to Autocad and involved C#, JavaScript, and some python (8 months). Second, fixed bugs I could find in a custom ASP.NET web app (3 months). And now I'm working with the US Government in modernizing and sunsetting legacy apps (did some basic SQL but now I'm on the helpdesk. Been on this project since March 2024).",
+      "subreddit": "cscareerquestions",
+      "score": 1,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1m8xllu/personal_project_ideas_aws_developer_and_security/",
+      "comments": [
+        {
+          "body": "Java Oracle SE 8? you mean 17, right?\n\nanyways maybe something with cilium? thats fairly advanced and has lots of security applications and is something a lot of companies havent adopted an equivalent of yet.",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Anyone know what to expect for the Oracle HackerRank",
+      "body": "Senior position interview coming up. I don’t know if their process is similar to the other big tech companies ",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1kmkzf1/anyone_know_what_to_expect_for_the_oracle/",
+      "comments": [
+        {
+          "body": "You can find more details in the job description or discuss them during a call with the recruiter.",
+          "score": 2
+        },
+        {
+          "body": "[removed]",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Please give feedback on my resume! Tired of being ghosted and getting automated rejection calls",
+      "body": "My resume’s been to more job portals than I’ve been to interviews. I’m applying for roles ranging from data analyst to product manager to project manager. My last job was in Oracle Cloud Fusion HCM Payroll.\n\nI am applying in a day and the very next day, I am getting auto rejection calls.\n\nhttps://preview.redd.it/t4xrc2bmyqcf1.jpg?width=1241&amp;format=pjpg&amp;auto=webp&amp;s=1a2d7d5a6a2510d3cb44d951efe4e750e0622d67\n\nPlease guide me with your feedbacks- I want to get better.",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/1lza9vd/please_give_feedback_on_my_resume_tired_of_being/",
+      "comments": []
+    },
+    {
+      "title": "Entry level at a fork in the road.",
+      "body": "Hi guys. I have a bachelor's in Computer Science and about to start my career.  \nI specialized and put the most time in frontend (HTML, CSS, JS, Sass, Bootstrap). I have put an ungodly amount of time in JS since I heard you need the strongest base in it to do React and Node which I plan to do, in fact already seen a decent amount of React.  \nA big local bank in my country calls me for an interview I don't even know the role,  \nthey tell me they want a backend dev, apparently banks are different since they're using C#, probably a different version . NET than the modern ones, and Oracle as a database.  \nforgive my ignorance as I know nothing about this stack, but does it seem like the system is a legacy system and these technologies might be a bit outdated? I'm going by the fact that the tech guy in the interview also asked me if I ever did JQuery and didn't like that I haven't done it before.\n\nmy question is gonna basically boil down to : how drastic is a shift in the stack, and will it restrict me and my chances in the future? I know things like React and Node, Java, Spring, ASP, and different databases are sought after all the time, but what about the stack the bank uses? I'd love your counsel on this, as they are giving me the absolute lowest wage and they told me I'd need to work as many hours as needed cause \"that's what tech people do\", I have been considering them for the past week as I haven't got a job offer in my stack yet, but I did get a training opportunity in a somewhat big tech company in my country and regionally, and it gives me the same salary as the bank with much more perks as the company will be training me and probably remotely for the most time.\n\nShould I negotiate salary with the bank as it'll be a huge change to me and my goals, or should I tell them outright that it's not for me?",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1h4203o/entry_level_at_a_fork_in_the_road/",
+      "comments": [
+        {
+          "body": "If you know Java, Spring you will love C#.NET coz its all that technology without the java bullshit and modern C# has less boilerplate.",
+          "score": 7
+        },
+        {
+          "body": "No, lol. It's not outdated at all. C# and Java are the most popular languages for enterprise applications. And they're both quite popular for backend. And if you need transactional database, which banks would usually need, there's nothing wrong with Oracle. Solid choice. \n\nTech stack change is not that important, but role change is important. If you want to go back to frontend, obviously frontend experience would be better than backend. Although, I personally think frontend is more limited than backend when it comes to availability of jobs.",
+          "score": 5
+        },
+        {
+          "body": "Take the offer or negotiate. You can always quit the job once the big tech one comes along. \n\nAlso, doesn’t hurt your resume to have a wider range of skills even though it’s an old stack.. if you are worried about that, you can leave it out of your resume. But in my opinion any work experience is better than none.",
+          "score": 7
+        },
+        {
+          "body": "They're very upfront about how they're going to abuse you. It will be even worse than they admit.",
+          "score": 3
+        },
+        {
+          "body": "[deleted]",
+          "score": 1
+        },
+        {
+          "body": "[removed]",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Senior dev positions at big companies, with small company experience",
+      "body": "Laid off recently with about 5 YOE and have gone through some phone screens. They seem very interested in enterprise systems, stuff like Oracle and SQL Server, test-first development, design patterns, etc. Meanwhile, I consider myself a good programmer, but...all my experience is from a tiny dev team of 5 people supporting a product for 1 client. We didn't have a robust test environment, I haven't thought about design patterns since college, and I have zero knowledge of enterprise systems. I feel like I won't have compelling answers in the next steps of my interviews. Any insights? Is this something that can be studied for, or should I curse myself for having kinda crappy experience and look at smaller companies?",
+      "subreddit": "cscareerquestions",
+      "score": 42,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1e90als/senior_dev_positions_at_big_companies_with_small/",
+      "comments": [
+        {
+          "body": "You can grind leetcode to pass tech interview screens.  If you get an offer, most likely you'll get down leveled to mid level roles and have to work the promotion process to get FAANG, big tech senior level.",
+          "score": 45
+        },
+        {
+          "body": "Enterprise systems are less about *raw coding-ability* and more about understanding how large, complex, systems are put together and maintained.\n\nThere are lots of factors to this, which include scalability, extensibility, resiliency, interoperability, maintainability and, sometimes, platform flexibility.\n\n*DSA and LeetCode are secondary, even tertiary, concerns here.*\n\nUnderstanding things like abstraction, loose-coupling, asynchronicity, message/event-driven systems, design and integration patterns, data/entity modeling/partitioning, (micro)service-based architecture, and security are much more important.\n\nAlong with methodic concerns, such as test-driven development, dependency injection, inversion of control, MVC or MVVM, logging, journaling and A/B testing.\n\nAnd procedural/DevOps practices, such as IaC, CI/CD, platform-engineering and an SDLC.\n\nYou could, in a few days, read up on the summaries of all of these factors, and if you take good notes have a decent chance of retaining where/how and when to apply each and their various pros/cons.\n\nAdd another week or so, and you could expand that into the highlights of SPECIFIC services, capabilities or applications (e.g., Kafka for event-based systems, RabbitMQ for more directly message-based models, etc.).\n\nThat's likely enough to get through an interview ... as long as you can translate this knowledge into common patterns/scenarios in which it might be applied (which you *should* get from the summaries).\n\nAfter which, you can start playing with these factors on your own to get some practical exposure to how and why they do what they do, the way they do it.",
+          "score": 33
+        },
+        {
+          "body": "I just wrapped up my interviewing and did solely interview for senior positions at \\~5 YOE. It is borderline years wise.\n\nThe caveat though is I did work at different faang adjacent company and was senior there already. There was no value for me to even consider mid level role when they'd all be comp downgrades.\n\nOn positive side my current company does interview people around 5 years of experience for senior level roles and sometimes resumes do lack big tech experience. Some do get down leveled, but it's possible for them to perform well on interview and get senior offer. Most common area for downleveling was system design. If you do poorly on coding rounds, you tend to just fail. If you underperform for system design I often see down levels. We do ask bunch of behavioral questions, but I've almost never seen behavioral scores in our feedback matter that much in the debrief discussion.\n\n  \nedit: For system design my advice would be read both Alex Xu's books (or similar material), watch some youtube videos, and do some practice interviews (pramp like site). Designing Data Intensive applications is also great book, but I think it's easier to digest after learning from other more basic material first. Plus it's dense book.  It won't be easy and will take dozens of hours especially given \"zero knowledge of enterprise systems.\", but it's possible to learn through studying. I'd rough estimate 30-50 hours of study would give fair foundation.",
+          "score": 8
+        },
+        {
+          "body": "Just go for a down level at bigger companies/FAANG.\nYou will likely still get paid more.",
+          "score": 6
+        },
+        {
+          "body": "You won't be interviewed for senior positions with only 5 YoE anyway, only the level below.",
+          "score": 13
+        },
+        {
+          "body": "First off, as we all know the most important skill is to be good at learning (and be smart), enterprise systems isn’t rocket science just some hands on experience ull pick it up. But as we all know…. How to test intelligence? Yup leetcode. \n\nSecond, study system design. You’ll be good to go",
+          "score": 2
+        },
+        {
+          "body": "I did consulting work within data science for a FAANG, and from my limited experience there over 6 months or so, my impression was that there were several very qualified people who seemed to have too many levels above them than should be justified. Many people with PhDs from top econ/statistics departments whom I personally would trust with significant creative control, mostly implementing initiatives coming from above.\n\nI don't know if the situation extends to SWEs, but if I were a top data science candidate with the academic accolades and good commercial intuition, I would probably be more useful at a smaller company.",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Rejected today after 4th interview with Oracle consulting.",
+      "body": "I know it's emotion talking, but I'm really devastated.  I took it seriously and did an exhaustive amount of preparation, but it clearly didn't make a difference.  I don't think I could've tried any harder than I did for them.",
+      "subreddit": "jobs",
+      "score": 42,
+      "url": "https://reddit.com/r/jobs/comments/trbzh9/rejected_today_after_4th_interview_with_oracle/",
+      "comments": [
+        {
+          "body": "Hello, thank you for posting to r/Jobs! \n\nWe just wanted to let you know that we have a new [discord server, come join the chat!](https://discord.gg/TY6ErXV)\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/jobs) if you have any questions or concerns.*",
+          "score": 1
+        },
+        {
+          "body": "If you can get a 4th interview with oracle, you can get a first interview at a lot of places. Take a break, recharge, and then start the process again. It’s the only way to get what you want and now you have experience",
+          "score": 67
+        },
+        {
+          "body": "&gt;I don't think I could've tried any harder than I did for them.\n\nThen that's all that matters.   \n\n\nKeep at it champ, you gon be alrightttttt  \n\n\nhttps://www.youtube.com/watch?v=Z-48u\\_uWMHY",
+          "score": 12
+        },
+        {
+          "body": "It’s ok, Oracle completely blows as a company. You can most certainly do better",
+          "score": 8
+        },
+        {
+          "body": "Oh, that’s so frustrating! It’s okay to feel devastated and be disappointed. I also put a lot of effort into preparing and making sure I’m a good fit, so I completely understand why you’re feeling upset. The fact that you made it to the 4th interview tells me that the preparation you put in was worth it, but the decision might have come down to something else. Sometimes it’s a good idea to take a step back and start again when you feel ready. Best of luck to you!",
+          "score": 8
+        },
+        {
+          "body": "I feel for you man. I went to the final (5-6th round) interview with two companies back in January and both times stroke out. Took it very personally - I felt that I connected with the hiring manager on a personal level both times and felt like I could be myself with them. Took a few weeks to get back on a horse, so to speak. It'll get better!",
+          "score": 6
+        },
+        {
+          "body": "Well if it makes you feel better I applied for a position at oracle that I am 100% qualified for and they rejected my application within a few days yet they have like literally 25 openings for this positions have been trying to recruit for it on LinkedIn. They didn’t even do a phone screen or anything. Not even sure they actually looked at my resume.",
+          "score": 7
+        }
+      ]
+    },
+    {
+      "title": "I went from $28k -&gt; $120k in Under a Year &amp; You Can Too!!",
+      "body": "Hello Internet People,\n\ntl;dr: I more than 4x’ed my salary over a period of 10 months. This post outlines the journey, and provides insight to those looking for similar results.\n\nMonday is my first day as a software engineer for a Fortune 200 company with a six-figure salary. I owe a lot of that success to tutorials and testimonials I’ve read online. I was a little hesitant to make this post because I know there are people struggling, but I hope that this will serve to give insight and inspiration to those who are trying to do something similar to me.\n\nHere’s a little about myself, for context. I’m 30 years old, and I grew up in a very poor part of the US. There was a lot of unemployment, which lead to a mindset of taking what ever job was offered to you. I worked a lot of different physical labor jobs from the time I was 17-27. I never made more than $36k a year from any of them. So I decided to make a risky decision and get a lower paying job that involved doing what I loved.\n\nBackground:\n\n&amp;#x200B;\n\n* Spent first 10 years of adulthood working physical labor jobs\n* Highschool dropout, with no college degree\n* Felony on my criminal record for possession of marijuana\n* Love of technology\n* Strong work ethic\n* Zero friends with tech careers\n* Above average people skills\n\nAt 25 years old I knew that I was not enjoying my current career as a warehouse worker, even if it was paying my bills. I was stuck in a position where I worked too much overtime to be able to go to my local community college, but I still really wanted to learn to code. I swear I would look up job postings on indeed, and just stare at the requirements. I was too anxious and underqualified to even apply to them.\n\n## What You’ll Need to Begin\n\n&amp;#x200B;\n\n* Strong work ethic / self-discipline\n   * If you are going the self-taught route, there are no parents or teachers that will be grading your work or following up on missed assignments. Every success and failure is dependent on your ambition to DO THE THING\n* Desire and ability to learn new things\n* A computer\n   * Doesn’t matter the operating system or specs, but something that will run your code and a browser is preferred\n* Internet\n* Ability to change careers\n   * This seems to be the biggest blocker for most people I know. They have already established a job that will pay their bills and have people that depend on them to do so. I was in the same boat. The hard truth is, if you continue to do what you’ve always done, you’ll get the same results you’ve always gotten.\n\n## Process\n\n## Learn ($0)\n\nOn my 25th birthday, I found freecodecamp. There are many online tutorial sites you can use, but that’s the one I found and stuck with. In four months, I ran through all of the courses available at the time, learning HTML, CSS, and JavaScript. If you haven’t gone to university, you will NEED some type of self-teaching platform. It does not need to be the same as me, as long as you are consistent. I should also note that while freecodecamp was the platform I spent the most time on, there were also others I used in combination, like YouTube, Code Academy, etc.\n\n## Apply Knowledge ($0)\n\nI was lucky enough to have a friend who owned a business. This friend was great at his craft, but knew nothing of coding and had no website. I told him I had been learning to code, and offered to build him a website for just the cost of hosting.\n\nA lot of people discourage working at a discounted or free rate when you’re starting out, but I disagree.. at least if you’re coming from a background similar to mine. I built his website for $100 which included the cost of a logo design from a freelancer, and hosting fees. I made MAYBE $40 on this project.\n\nA lot of people pay a lot of money to go to school, and some people even take unpaid internships towards the end or right after school. I saw myself as someone who was learning for free, but needed real world applications to refine myself and gain experience. This turned out to be a catalyst for a lot of change.\n\nThat project, and the discounted projects I took over the next year served as experience, and exposure. I worked my full time warehouse job, and when I would come home I would work on these sites on my time frame. They were free after all. I learned what business owners cared about (cost, aesthetics, conversions), and I overcame the blockers that freecodecamp didn’t prepare me for (documentation hell, cheap cloud hosting, clients who didn’t actually know what they wanted).\n\nDuring this time I also just started building things that I found useful, which is a habit that I have kept with me. Again, you’re doing this to learn. It’s not enough to take a course and say you know a language like javascript if you’ve never used it. I guarantee things will not go as planned from what ever tutorial you read, and you will be forced to.\n\nTo find projects if you don’t have anyone in your life that needs a website.. hit Google maps. I would look up businesses in my area (but they didn’t need to be local), and I would find ones with crappy unresponsive web pages, or no website at all.\n\nI would build a skeleton site for them before even calling, and then show up at the business and ask for a manager. I would tell them that I was trying to learn more, and had noticed they had an outdated website. I would tell them that I had already done most of the work to gain experience, and then offer to sell and host the website for them for a heavy discount.\n\nYou would be surprised at the amount of people that even after telling them that I was happy to do it for the experience thought that I was trying to scam them. But, thankfully there were enough business owners that saw the value in what I was offering to keep me going. DON’T GIVE UP!\n\n## Make the Jump into a Tech Career ($36k → $23.4k)\n\nFor me, this was the most daunting task of all. I had been making roughly $22/hr as a warehouse worker, and had become accustomed to the lifestyle that pay afforded me. Now for some people, they will be able to find a job right away making at LEAST that much. With my criminal background and lack of education, this proved to be very difficult.I didn’t really care what I was doing, I just knew that I wanted to sit at a desk, and work on a computer.\n\nI found a job as a front-line Tech Support Agent for a very popular retail store. Call centers are a great place to use as your first stepping stone in tech. The reason for this is, there is ALWAYS a high turn over as the job isn’t glamorous. You get a lot of people yelling at you for things that are not your fault. The second reason is, there is ALWAYS some technology that is running the place. If you can stick it out for a few months as a front line agent, you can find which positions are available to do more technical work.\n\nThe job was HORRIBLE. They started me at $11.25/hr (literally half of my warehouse pay). But the job was pretty simple. Take in phone calls from distressed PC customers and walk them through the resolution of their issues.\n\nThere was very little training on how to actually solve the issues, and this is where I first learned that no one knows everything, and that we all use Google, even in a corporate world. This job taught me how to document all of my work, and really upped my soft skills. If you can talk a 78-year-old woman through troubleshooting her 2-year-old printer over the phone… you know what I mean.\n\n## Demonstrate Your Value ($23.4k → $28k)\n\nSeptember 2020\n\nAfter 7 months, I was offered a promotion to data analyst with a $4/hr raise.\n\nThe data analyst job was the first place that I could actually use my skills. There were a lot of reports to run using an Oracle DB, and a TON of manual tasks that were being distributed across our seven person team.\n\nMy boss was the worst. Think a chain-smoking, not-as-nice Minerva McGonagall. She was all about policy and procedure, and micro-managing everything that was being done. I attempted to automate a tedious process, and when I presented my work I was told that not only was I being written up for working outside of the tasks I was assigned, but I was also warned that automation meant loss of work for the team, which would lead to lay-offs.\n\nThat really sucked. I was discouraged, but still felt like I could use this job to learn and grow. I started automating EVERYTHING behind my managers back. I turned 40 hours of tedious work into 4-6 hours of tedious work. My manager had no complaints because the work was accurate, and always on time.\n\n## Leaving the Nest ($28k → $60k)\n\nDecember 2021\n\nA year into my Data Analyst position, my manager approached me and told me that COVID was over and they were sending a percentage of employees back into the office to work.\n\nI had no idea what I was going to do. I had barely been able to afford to pay my bills as it was, without commuting to an office an hour away five times a week. She told me that I was chosen to come back because I was the newest on the team, and she was letting tenured employees stay home.\n\nI made it two days in the office. On my second day, I realized that automating my work at home translated to not having a thing to do if I were forced to be in the office. This was not going to work.\n\nI spent the next two weeks applying to jobs, like that was the only thing I was paid to do. I applied EXCLUSIVELY on LinkedIn because I had made friends in tech who told me that’s where they got the most engagement with recruiters.\n\nI applied to 147 different positions. I built my resume around the work I had been doing as a freelancer, as well as the work I had been doing as a Data Analyst. Out of 147, only 4 recruiters ever responded to me. Out of those 4, I had two people tell me that I wasn’t a good fit in the initial interview, 1 give me a coding challenge that I failed, and finally, the company that hired me.\n\nI ended up getting hired as a “Technical Support Analyst” for a mid-size software company focused on K-12 School District Administration.\n\nHere’s what I learned about the applying/interviewing phase that I think would be valuable to people that are in my previous position:\n\n&amp;#x200B;\n\n* It is 100% a numbers game. That whole every no is closer to a yes could not be more accurate. I don’t see how I would have made it through this without having that mentality. It used to take me days of research to find a company that I thought I was qualified to work for. I would write an extensive cover letter, and then apply. When I didn’t hear anything back, I would get discouraged and tell myself I was never going to get a job. THIS MINDSET DID NOTHING TO HELP ME GET HIRED, and it wasn’t until I was able to shift my perspective did I have the energy to apply to dozens of positions a day.\n* Your attitude matters. The company that hired me told me that me, telling them how excited I was to work for a software company really won them over. Companies understand that it is near impossible to find a candidate that is familiar with EVERY piece of their technology stack. The important thing is that the candidate is willing and able to learn new things. What I didn’t know was that most candidates didn’t want to do that. They learned a language ten years ago, and fully planned to use that technology the rest of their careers (don’t do that).\n* Initiative matters. I would have never had anything to show for myself if I had waited to be hired to make something. Do it because you want to, not because you have to.\n\n## Finding Your Niche ($60k)\n\nJanuary 2022\n\nDepending on the company you are working for, your job title may or may not have a rigid job description and responsibilities. The reality is most companies do not, and because of this you will often find people wearing many hats and gaining skills in fields other than the ones they are originally hired for.\n\nThere’s two different ways to look at this:\n\n&amp;#x200B;\n\n1. I’m not getting paid enough for this, I have had no training on this, and I have no interest in doing work outside of my title.\n2. I get the opportunity to gain professional experience in a job that I am not qualified for, and learn on the job skills that can translate into a higher paid position down the road.\n\nIf you’ve made it this far into the post, I am assuming that you see the value in the 2nd perspective.\n\nUpon getting hired by my first software company, it was clear that the job I was hired for was just a small part of what needed to be done. So, I just started doing all the things that looked fun to me.\n\nA little background about me, is that I found my love of tech at eleven years old in a game called RuneScape. For those who have never heard of it, it is a browser-based RPG that requires many hours of pointing and clicking the same objects in a repetitive manner. I learned to automate the game by writing PERL based scripts. I would sell in game items at lunch time in middle school that I gained from the scripts I wrote. This really installed a love of automation that I carry with me to this day.\n\n## Rising to the Occasion\n\nSo at my new job, I just started automating everything that I could. This time, the bosses loved it. Within three months at this company, I was retitled from “Technical Support Analyst” to “Site Reliability Engineer”. Unfortunately, that did not come with a pay raise.. but that was a mis-step on their part more than it was a failure on my negotiation skills. I would like to state that I hold no ill-will towards this company, and I am forever grateful that they gave me the opportunity.\n\nI have heard before that tech careers are T shaped, meaning that there are many low paid entry level positions, but the highest paying are those that specialize in something (think T upside down). This is absolutely correct.\n\nUpon my retitling, I began researching the responsibilities and job descriptions that I could find. I got lucky because the job title was created by Google, and they were kind enough to write an entire book on it.\n\nOver the next 7 months, I did my best to embody all that a Site Reliability Engineer offers to an organization. For my position that included converting our cloud infrastructure into Infrastructure as Code, setting up monitoring and alerts, and automating all of the tedious tasks that our team had across our applications.\n\n## Recognizing Your Value\n\nJune 2022\n\nDuring this time, it became very clear that I was definitely being underpaid. I added my new responsibilities and skills to LinkedIn, utilized my company’s reimbursement for certifications, and got a couple of popular certifications that were relevant to my title.\n\nYou will know if you’ve found a good niche, because recruiters will begin sliding into your LinkedIn inbox like you’re a female on Facebook who just changed their relationship status to single.\n\nI started interviewing regularly, while things were still going great at my job. This was counterintuitive to many of those around me.. but the truth is, things don’t need to be going bad for you to move on. It allows you to get a realistic idea of what the market is offering for your skills, and also takes away the stress of having to find a job to pay your bills.\n\nDuring this period, I experienced a lot of disappointment, and a lot of surprises, mostly because of my background. In July I was offered a position working on Federal Government contracts for the FDIC, but the offer was rescinded because of the felony on my record.\n\nThis ultimately worked out in the end, with other companies happy to take on an ambitious newbie who had a lot of progress to show for themselves in a short time.\n\nMy advice for anyone at this point in their journey is to just remember that no one but yourself can decide your value. 100 no’s and a yes, is still a yes.\n\nAlso, tell your recruiters to do their own paperwork. I spent hours filling out questionnaires, following up on emails, and reaching out to prospects only to find out that most of the interview requests I was answering were automated and not even being read.\n\n## Reaching Six Figures ($60k → $120k)\n\nDecember 2022\n\nAfter opening myself to work on LinkedIn and speaking with dozens of recruiters, I found myself deciding between multiple offers for well known companies. For the first time in my life, I did not need to apply to any positions, and people were willing to bid on my talent. This has been an incredibly gratifying and validating experience.\n\nDuring a quarterly review I let my manager know that I was actively interviewing for other positions. I had previously asked for raises and was told that there was a pay-scale re-org in the works, but that had never come about. I was offered a $20k raise to $80k when I told them how far along the process I was, but by that time I was already being offered $120k which they were unable to match.\n\nI was lucky enough that there were no hard feelings, with both co-workers and managers congratulating me, asking how I did it, and offering references. I hope that who ever is reading this is also lucky in this regard. Although, if you find yourself in a position where other people can not be happy for your success, just remember that this is a reflection of themselves and has very little to do with you.\n\n## Reflection ($120k)\n\nSo, this is where I am now. A few people told me that I should have gone the over-employed route and kept both jobs for a total salary of $180k. That sounds nice, but the reality is that I would have most likely been lying to both companies to get out of meetings, and not been able to maintain the same level of productivity if I had to spread efforts across two jobs.\n\nIf there is any other advice I can give, it would be to find a good work life balance. In my early working years, I was taught that only millionaires had a right to rest. This led to me burning out, and not enjoying my work. When I took a step back to begin enjoying myself, things that would stress me out on Monday mornings would start to just roll off my shoulders. I cannot stress enough how much of a noticeable change this made in both my attitude and quality of work.\n\nAlso, I know that this post is outlined in terms of compensation… but the truth is that money is merely a shadow of value. If you can provide value, it truly does not matter where you live, what your currency is, or standard of living is… you will be wealthy.\n\nSo that’s it for me. I hope that this post will help people, and not come off as me stroking my own ego. I see myself as someone who still has a long way to go. My career goal is oriented towards software architecture, which is not where I currently am. I plan on using my new job to further refine my current skills and learn new ones.\n\nI’m happy to answer any questions about my process and provide feedback on your own from my perspective.\n\nHope this helps!!",
+      "subreddit": "jobs",
+      "score": 223,
+      "url": "https://reddit.com/r/jobs/comments/zh4eb3/i_went_from_28k_120k_in_under_a_year_you_can_too/",
+      "comments": [
+        {
+          "body": "Hello, thank you for posting to r/Jobs!\n\nWe just wanted to let you know that we have a new [discord server, come join the chat!](https://discord.gg/TY6ErXV)\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/jobs) if you have any questions or concerns.*",
+          "score": 1
+        },
+        {
+          "body": "Not really a question more a statement of congratulations. I wish I could focus on coding/Computer Science overall but my brain just screams and runs into its hidey hole so I think, for me at least, the solution is other careers. Still, congrats.",
+          "score": 92
+        },
+        {
+          "body": "[deleted]",
+          "score": 45
+        },
+        {
+          "body": "congrats! but readers beware of survivorship bias when it comes to these threads. Peruse the codingbootcamp subreddit and you'll see the other side of the coin. Just want you guys to be realistic before diving deeper into this career path, it's not all roses. Threadstarter is obviously very educated/well-read judging from his post and grammatical structure, not typical of your high-school dropout with a felony on their record. Just don't want the over-positivity of this thread to trick people into thinking coding is a magic pill for 6 figure jobs, tons of people can't find work after bootcamp/self-learning. But of course, some people are naturally gifted and will excel much more easily than others.",
+          "score": 40
+        },
+        {
+          "body": "Hi, what a great read, and thank you for sharing your journey with us and its very inspirational to me and hopeful others out there, And many congratulations on what you have achieved thus far, \nI wish you all the best and continue reaching for the stars",
+          "score": 18
+        },
+        {
+          "body": "[deleted]",
+          "score": 8
+        },
+        {
+          "body": "This is pretty damn accurate. Nice work on the post! I went from $40k admin to cloud developer/engineer and I'm at $200k now, fully remote, in a low cost of living part of the country. Like your post describes, it took so much determination, so much initiative, and many many weekends studying for extra certifications and such. Tech is really rewarding financially, and also emotionally, if you find the right company. You truly get out what you put in!",
+          "score": 13
+        },
+        {
+          "body": "Might be good to cross post to /r/povertyfinance",
+          "score": 11
+        },
+        {
+          "body": "Wow! That’s pretty incredible. Congratulations, and thank you for all of the insight and help. Very impressive.",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "title": "Offering my Resume to Help Others [Entry Level]",
+      "body": "Hey guys, I know the job market is screwed right now, especially for entry level folks that are competing with mid level folks for junior roles. I recently came across a LOT of good luck and after revising my resume to the current state, have been getting asked for interviews left and right.\n\nI recently started a job in December that I hated so much that I quit after 3 days and it burned a fire in me that I knew I could do better. I revamped my resume and applied to sixty jobs over two days just last week, and this week I already have accepted a job offer for a company that I consider a unicorn company (Exact field I want, remote role, decent travel, company seems to have fantastic culture). As of the companies that have replied back to me so far (Around 7 at the time of writing), I was asked by 4 different companies to interview with them.\n\nSo I figured I landed upon a goldmine of a resume that others could use to help themselves.\n\nI've also gone through a lot of interviews this past week and have been doing well in all of them so far, so I'd be more than glad to offer some advice on those as well if anyone wants it.\n\nI know things are rough, so I'm more than happy to offer any advice for entry level lads and I can talk about what's been working for me and what wasn't.\n\nGood luck anyone that needs it.",
+      "subreddit": "jobs",
+      "score": 6,
+      "url": "https://reddit.com/r/jobs/comments/1pj7y55/offering_my_resume_to_help_others_entry_level/",
+      "comments": []
+    },
+    {
+      "title": "What will I be doing at my role?",
+      "body": "I got an offer from oracle(GSC)as a staff consultant . Does anyone know what I will be doing on a daily basis? I was asked mostly ML and gen ai questions in the interview",
+      "subreddit": "jobs",
+      "score": 0,
+      "url": "https://reddit.com/r/jobs/comments/1it3r8o/what_will_i_be_doing_at_my_role/",
+      "comments": [
+        {
+          "body": "Sounds like you'll be doing ML and genai.",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Selected for MTS Role, Offer Letter Pending - Need Advice",
+      "body": "\nHi everyone,\nI cleared all three rounds of interviews for the Member of Technical Staff (MTS) role at Oracle (AFCS team). HR confirmed my selection, and background verification was completed by 12th January. I submitted all required documents (PAN card, salary slips, bank statements, etc.).  \n\nHowever, I haven’t received the offer letter yet. HR says it’s \"under management approval\" and will take some time, but there’s no issue. I tried negotiating (thinking it might be budget/notice period-related), but they assured me everything is fine and asked me to wait.  \n\nHas anyone faced a similar delay with Oracle? Is this normal? Any advice would help!  \n\nTLDR: Cleared Oracle interviews, background check done, documents submitted, but offer letter is stuck in \"management approval.\" HR says no issues, but it’s taking time. Need advice if this is normal.  \n",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/1j7vx3n/selected_for_mts_role_offer_letter_pending_need/",
+      "comments": []
+    },
+    {
+      "title": "A second follow-up or just drop it?",
+      "body": "So I have progressed through initial interview and hiring manager interview.  Seems that was all that was required and was told they'd reach out with next steps.  Both went well enough, the job is one I am qualified for and one I'd find very interesting and fulfilling.  The interviews were 8.15 and 8.20.  I sent followups after the 8.20 interview and again about a week later (8.28)   \nThe issue I am running into, is the job was initially posted 85-95k which was acceptable for me.  They since reposted with 110k which is obviously even better.  Same job, same requirements that I already meet.  The company has your typical Oracle setup where you can see what stage you are on for the process.   For my initial application, I am seeing \"we will be reaching out for an interview\" I also went ahead and applied for the reposted version because, why not.  That one is in \"reviewing\" \n\nMy question is this: Should I send another followup now that we are two weeks removed from the second interview or chalk it up to a good ol' fashioned ghosting, blast them somewhere, and move on? ",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/1f9xokb/a_second_followup_or_just_drop_it/",
+      "comments": [
+        {
+          "body": "I'd say send the follow up. The worst they can do is continue to ghost you. Best case scenario they get in contact with you again",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Job posting down after a week, is that normal?",
+      "body": "I applied for a Product Manager 1 role that was opened on December 20th and the [job posting](https://www.linkedin.com/jobs/view/3786125002) came down the 29th. Does that mean the job was filled internally or they reneged? I was looking forward to potentially working at Oracle. However, I have an interview with a different company this week and excited for that.\n\nMy application status is unsurprisingly “New” because of the holidays but, I am just curious.",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/18wskqp/job_posting_down_after_a_week_is_that_normal/",
+      "comments": [
+        {
+          "body": "It could mean any of those things.  It could also mean they have enough applicants and want to pause the listing. \n\nThere’s no way to know for sure",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Job opportunities for a recent MHA grad?",
+      "body": "\n I recently graduated with my MHA in August and have had the worst luck establishing a career.  I started my job hunt around this time last year and accepted an offer with Oracle Health to be a consultant. When I accepted the Oracle job I was working for a large medical practice in finance. However that offer was rescinded in June amongst their massive wave of layoffs and I was back to job hunting again. I stayed at my old job while I searched for a new one and eventually accepted an offer as a Revenue Analyst where I was involved in practically every step of revenue cycle management from payment posting to financial reporting. However, there were layoffs at that company in October too and unfortunately I was an affected employee. Now I am back in the job market and can't seem to get any traction. I interviewed for an entry level finance job at a a major health insurance company and think I will get an offer however it only pays $23 an hour.  I have applied for higher paying analyst positions at that company but keep getting rejected. I want to work in the finance or data analytics section of Healthcare but just cannot seem to get any leads.  Should I take the health insurance job or should I keep looking for higher paying jobs? If anyone knows of any job opportunities that match my qualifications, I'd really appreciate it if you would let me know!\n\nHere's a summary of my resume\n\n**Education**\n\nUniversity: Bachelors in Biomedical Sciences, Summer 2021.  \n University: Masters in Health Services Administration, August 2023.\n\n**Experience**\n\n•Medical Practice, Patient Care Assistant, March 2022-February 2023  \nIn this job I assisted large volumes of patients from various backgrounds with professional and courteous behavior, utilized EHR’s, coordinated with other departments to make sure that the patient’s continuum of care was efficient and desirable, and communicated issues and concerns to Physicians, Physician Assistants, and Leadership in an effective manner. I was also responsible for training new hires, collecting payments, coordinating inpatient and outpatient care and addressing and rectifying patient complaints.  \n• Medical Practice, Finance Intern, January 2023-April 2023  \nIn this role I worked alongside the CFO and Director of Revenue Cycle Management in renegotiating our fee schedules with our insurance companies. This involved reviewing and identifying the most profitable CPT codes, analyzing the cost of our treatments and operating expenses, determining profitability of payer reimbursement rates, comparing various fee schedule modifications, and writing contract renegotiation notices.  \n• Medical Practice, Accounts Payable Specialist, February 2023-July 2023  \nIn this role I was responsible for verifying and paying incoming invoices, coding expenses with appropriate general ledger codes, data entry, reissuing checks, expense reporting, creating and maintaining financial files, documents and reports. I also completed all assignments as assigned by the financial supervisor.  \n• Consulting firm, Revenue Analyst, July 2023-October 2023  \nIn this role I was responsible for creating 837 files, communicating with payers to resolve outstanding claims while creating positive relationships, developing and implementing plans with leadership to increase revenue, posting payments, interpreting data, predicting trends, identifying influences, delegating and assigning tasks, and preparing financial reports with scorecards and dashboards to help manage AR. I also did financial data analysis projects and made corrective recommendations to leadership and our clients.\n\n**Skills**\n\n• Data Analytics: Excel (data visualization, v-look ups, pivot tables), SQL and Tableau  \n• Financial Reporting and Analysis  \n• Understanding of Generally Accepted Accounting Principles  \n• Knowledge of Medical Coding: CPT and ICD-10  \n• Contract Analysis and Negotiation  \n• Strong Written and Oral Communication Skills",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/17qpwtt/job_opportunities_for_a_recent_mha_grad/",
+      "comments": []
+    },
+    {
+      "title": "Should I just give up on tech?",
+      "body": "I (41/F) worked in the telecom industry for the vast majority of my career - 18 years with 15 at a major telecom company.  I was laid off at the end of 2017 and did freelance/consulting work for a year (2018) so that I could learn AWS since it's supposed to be an in demand skill.   My background is in network operations/troubleshooting, automation, and server programming.   \n\n&amp;#x200B;\n\nI have been searching for a full time position in DevOps or database programming (ETL, BI pipeline) and I am having a HELL of a time.   I've gotten lots of phone interviews, lots of technical interviews over the phone, and 5 in person interviews.    No offers yet, but I have come close a couple of times.    I think the primary problem is while I have a lot of skills, none of them seem to line up exactly with what the employer is looking for.   I also have a severe anxiety disorder and the interviews/technical challenges are extremely difficult for me.  Due to this, I'm seriously considering looking for jobs outside the tech realm.  \n\n&amp;#x200B;\n\nI am feeling like all of the work I put into gaining skills is worthless.   I don't even know WHAT I would look for that's not in network operations or programming.  Here is a sample of some of my skills: \n\n&amp;#x200B;\n\nUNIX/Linux OS - more than 10 years as a user, 6 years in programming/systems engineering\n\nProgramming - more than 10 years in SQL, 6+ years in Python, Perl, JavaScript/Node.js, 3 years of C++ in school (I have a master's degree in Computer Networking/Engineering)\n\nData Analysis - more than 10 years, with expertise on projects in predictive analytics, data mining, and data visualization\n\nSystems Engineering - 6 years in building data sets, setting up pipelines, provisioning servers, etc. \n\nNetwork Operations - 10+ years\n\nDatabases - 6+ years in Oracle and PostgreSQL\n\n&amp;#x200B;\n\nThere is more but that's a good base for my skills/experience.  \n\n&amp;#x200B;\n\nI honestly thought, given my background with a major telecom company and the supposedly \"hot\" job market, I would get work within 3 months of looking.  It's been 5 and now we're in the summer lull, so everything is running more slowly.   \n\n&amp;#x200B;\n\nProblems I'm running into: \n\n1. Completely unrealistic expectations for job requirements.  Like 5 years of experience in a technology that has only been around for 2.    When I push back on the recruiters to ask if ANYONE has that level of experience, they don't know because they are recruiters. \n2. Despite applying for jobs where I only meet about 50%-70% of the job requirements, and getting interviews, I often find that one of the requirements I don't have is a preferred requirement.   Companies don't seem to appreciate transferable skills.   For example, if I know Oracle, I can be trained up on say MS SQL Server in a short time.   But I'm often kicked out since I don't have experience with their production database.  \n3. Insane technical interviews.  I don't have all the technical details of databases/operating systems/AWS/programming at the forefront of my brain.  Like most people I use Google fluently to assist me in solving issues.  This is standard in tech.   Many interviews feature what I like to call \"job interview trivia\" where they ask random questions about technical stuff and act like I'm supposed to have it all memorized.  Additionally, some programming related jobs require live coding tests and these are horrible - you have to try to code complex problems while people are talking to you and asking questions.   \n\nAt this point I feel like I have 3 options: \n\n&amp;#x200B;\n\n1. Give up on tech.  Try to find work in another discipline.   NO IDEA how to do this or what jobs to look for. \n2. Keep trying in tech until I get something.    Perhaps pivot to a junior level position?   \n3. Return to my old company.  I'm rehireable per the layoff agreement and I still know a lot of people at the company, BUT the layoffs are fast and furious and most jobs are now on a contract basis.   ISP work doesn't seem to be readily transferable outside of other ISPs and there are only a handful of companies.   I feel like my ISP background is not helping me get other work and I know the job isn't stable. \n\n&amp;#x200B;\n\nAdvice, BTDT, and job ideas for working outside of tech but with a heavy technical background would be greatly appreciated.",
+      "subreddit": "jobs",
+      "score": 3,
+      "url": "https://reddit.com/r/jobs/comments/c2nb4e/should_i_just_give_up_on_tech/",
+      "comments": [
+        {
+          "body": "Try not to focus your mind so much on the \"required amount\" of experience. Maybe try carrying a bit more abstract attitude in this respect into interviews and see if that helps. \n\nI can't speak for the actual technical interview portion you're going through. Except to say that how you react to issues and problems and errors is many times as important as what it is.",
+          "score": 2
+        },
+        {
+          "body": "I’m opposed to you leaving tech and here’s why: anything outside of that means starting over. It means you’re just like any other recent grad who needs to start at the bottom. \n\nMy thought is, you’re super close and cannot give up. If you get lots of interviews then the resume is good. If you’re making it to final rounds in interviews then you’re fine there too. \n\nI think it’s just been bad luck so far and bad luck can’t last forever.",
+          "score": 2
+        },
+        {
+          "body": "Whoa, we need to talk immediately. Where the hell are you located? Do you have any idea how serious the shortage of DevOps talent in Seattle is? We just hired a DevOps engineer with literally no experience. Seriously.\n\nHit me up. Please.\n\nAre you open to paid relocation?",
+          "score": 1
+        },
+        {
+          "body": "Those skills are def wanted in the hundreds of job descriptions i've viewed. Tableau, Bi, Data Analyst, etc.......so many positions. And you are fluent with SQL. ETL I've seen on occasion.   \n\nTrouble with confidence does make interviews harder (same problem) *but* you are a person and a job, or lack of does not define you. Heck, just from your experience it says you are a resilient go-getter. You've got it - it just may take a little time. Best of luck =)",
+          "score": 1
+        },
+        {
+          "body": "Are you working with any recruiters? They get a bad rap on this sub but, they can be enormously helpful in situations like yours. Just Google reputable recruiters in your area and call them up. They'll know what to do from there.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Why do I feel so guilty turning down a job offer?",
+      "body": "I just started my current job in tech sales with Fujitsu, and was offered the job back in January. Then a month before the start date of Fujitsu I got a group and personal interview with Oracle, and I got the job the day of the interview. It sounded prestigious and the pay was about 15K more, but I would have to move to Austin and work in an office. I currently live in Miami and this Job is WFH. \n\n I feel so guilty turning this job down because I know so many people in the group interview were fighting for this position and quite a few were turned down from it, and the recruiter really went out of his way to get me into the interview process. I also feel bad because an extra 15k does sound nice Third, turning down to work at a prestigious company.\n\nIt's just a lot of thoughts going on in my head making sure I made the right decision. I moved to Miami during the pandemic, and I am just not ready to leave Miami. I really like working from home and the company I am with so far. I just don't want to feel like I am making a mistake. Ya know?",
+      "subreddit": "jobs",
+      "score": 5,
+      "url": "https://reddit.com/r/jobs/comments/ow5ajr/why_do_i_feel_so_guilty_turning_down_a_job_offer/",
+      "comments": [
+        {
+          "body": "Hello, thank you for posting to r/Jobs! \n\nWe just wanted to let you know that we have a new [discord server, come join the chat!](https://discord.gg/TY6ErXV)\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/jobs) if you have any questions or concerns.*",
+          "score": 1
+        },
+        {
+          "body": "Depending on how much you already make, $15k potentially isn't that much of a difference. You have to do what you like.",
+          "score": 7
+        },
+        {
+          "body": "Quality of life is an important part of making the decision. I hope you are good with it and don’t look back.",
+          "score": 3
+        },
+        {
+          "body": "I went through the same thing at the end of last year. It's a weird feeling! I liken these things to dating. This job has basically said they want to start dating you and you really like them, but you are more interested in the qualities of the job you already accepted. So when you think about turning them down, you feel bad. Especially due to all that the recruiter went through...\n\nWell, basically, you have to do what's best for you. Do you want to move and get that extra $15k or do you want to WFH? It sounds like you want to stay and that's totally okay. I wouldn't tell that to Oracle... I'd tell them something like, \"Thanks for your offer. Unfortunately, my circumstances have changed and I have to decline. I wish you the best in your search.\" Or something like that. Keep it simple and brief. No need to be specific about your decision. Good luck!",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "title": "Is there any way to get blacklisted across multiple industries? Is there anything HR can do to prevent you from getting hired without your knowledge after leaving on good terms?",
+      "body": "For context, I left my job on good terms about 8 months ago after I transitioned to a new role and we (my director and I) realized it just wasnt going to be a fit. One of my 12 stakeholders was a little salty I left but past that I was in good standing with the company for about 5 years with no negative records. \n\nSince then I have sent out over +300 applications (probably more bc I'm shit at keeping records) and have only heard back 8 times with 2 in person interviews. I was unemployed after getting back from my last deployment in 2018 and even without my grad degree I was getting calls and email interview requests at least weekly. Since then I have added said MBA and a lot of other credentials/certificates (six sigma, leadership courses, data classes etc) so I'm not sure what happened. I'm even asking for more junior roles and/or less money just to see if it helps. \n\nThat said can you just get blacklisted for some reason or another by HR (through HR platforms like Okta, Greenhouse, or Oracle)? Or has the job market changed that much in 4-5 yrs?",
+      "subreddit": "jobs",
+      "score": 4,
+      "url": "https://reddit.com/r/jobs/comments/16ul1a5/is_there_any_way_to_get_blacklisted_across/",
+      "comments": [
+        {
+          "body": "i assure you, you are not important enough for anyone to do that",
+          "score": 7
+        },
+        {
+          "body": "The job market changes all the time, but also you changed.... you have different things to offer and in some cases that makes you overqualified for things you would previously have been considered for, and other factors.\n\nEvery time you dip into the job market, it will not be like the last time, because the market changes and you have also transformed into something else.",
+          "score": 4
+        },
+        {
+          "body": "[removed]",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Urgent Help needed in SRE INTERVIEW LEETCODE Question",
+      "body": "I have a SRE Interview Loop with Oracle where one of the round is expected to be a LEETCODE round. Can anyone please tell me the kind of Coding/LEETCODE questions asked in an ORACLE loop interview for Software Reliability Engineer? I am really stressed and desperately reaching out to the community to help an aspiring student grab an idea about the LEETCODE questions asked for SRE in ORACLE?\n\n&amp;#x200B;\n\nMany many thanks and acknowledgements in advance!! \\_/\\\\\\_",
+      "subreddit": "jobs",
+      "score": 0,
+      "url": "https://reddit.com/r/jobs/comments/1azc5i2/urgent_help_needed_in_sre_interview_leetcode/",
+      "comments": []
+    },
+    {
+      "title": "Request for refferal as I got laid off",
+      "body": "Hello redditors, I was recently employed by Brillio technologies in Bengaluru, Karnataka. It was supposed to start after my college end i.e. June 2022 but it got extended to November 2022.\nAfter starting i got a training which is completely opposite of what I was told while interviewing. Whereas after 8 months of working, which was basically 3 months of training and nothing else, I was told that due to cost cutting measures i was laid off.\n\nMy key skills include:\nPython, Keras, Data Analysis, MySQL, OracleDB, HTML, CSS, C Programing, C++, Machine Learning, ReactJS,SpringBoot, Tensorflow\n\nI request for any info on vacancies if possible.",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/14cfjgr/request_for_refferal_as_i_got_laid_off/",
+      "comments": []
+    },
+    {
+      "title": "Graduate Certificate? or Associates? (Post-Bachelors)",
+      "body": "So I graduated from a below-average state university on the west coast of the USA last May 2019. I graduated with a finance degree and a 3.59 GPA. I only had one unrelated internship during a summer years ago in the engineering field. I took some time off for the summer and fall to travel with family and learn some new coding languages like SQL. I started my job hunt on new year's day this year and as I expected, the search has been brutal. Over 50 applications sent out to analyst and accountant jobs in my city and only one interview for a credit analyst at a regional bank has crossed paths with so far. I'm in the final running for 3 positions on that one but I'm not going to hold my breathe until I get an offer letter. I'm already regretting not doing a double major and I'm already thinking deeply about going back to school.\n\nAll the advisors at my alma mater are pushing me towards MBA and other Master's programs but I feel that's all just a sales pitch for more of my money. I really rather not get a full fledged masters degree without any work experience as I would just dig myself deeper into the over-qualified hole. I just want to dive into more accounting or something data related in MIS or Information Management to broaden my skills. I have three options laid out in front of me and I was wondering if any redditors can help a fella make a more informed decision:\n\n1. A graduate certificate at my university in MIS (4 grad-level courses about Big Data)\n2. An associates in accounting at the local community college (only 5 courses past basic accounting)\n3. An associates in software/database technology at the same community college (11 courses involving oracle, SQL, java &amp; other programming)\n\n\\#1 is the only step above my bachelors. #2 is the fastest and cheapest option. #3 would give me the biggest boost in technical skills. These are all my cost effective options and I guess **my main question** up for debate is **which is more valuable after completing a bachelors? A graduate certificate? or an associates degree?**",
+      "subreddit": "jobs",
+      "score": 4,
+      "url": "https://reddit.com/r/jobs/comments/f0qxci/graduate_certificate_or_associates_postbachelors/",
+      "comments": [
+        {
+          "body": "An associates is definitely going to do less for you IMO. Go with certs to proxy you’re an sme",
+          "score": 2
+        },
+        {
+          "body": "[deleted]",
+          "score": 1
+        },
+        {
+          "body": "Skills are often the most valuable thing to have. So I would recommend #3, but with the caveat to save all your code and work towards building a programming portfolio on github. Since it is an associates degree (not a masters), you will have to demonstrate to employers that you have the skills you actually say you do.\n\nA big data grad certificate isn't gonna get you much, grad certificates, while valuable, are more of a middle career thing, especially in big data. Big data roles and Data scientists don't really have an entry level positions, rather many people laterally transfer from comp sci, statistics, or IT into those role. Or even get a masters before entering the work force.\n\nI echo /u/coco_bueno's advice, keep in mind that just having a random collection of skills doesn't make your more employable. Just because you know Photoshop or HTML doesn't make you a more appealing candidate for an accounting role. The skills actually have to apply to the job you are applying for.",
+          "score": 1
+        },
+        {
+          "body": "I can speak specifically to accounting. An associates degree is a waste of time and money. A hiring manager for an accounting job is very unlikely to be impressed. It will not boost your resume to the top of the stack. How many hours do you need to sit for the CPA exam? If it's one or two courses, take them at the community college and pass the CPA exam. If it's more than that, get a Masters Degree. A Masters or even just being a CPA candidate can impress a hiring manager even if you have little to no experience. \n\nAlso combining accounting with MIS or data analytics is a growing market. People with these skills are rare and so are in demand. There's potential to make big bucks, allowing you to pay off student loans faster.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "MIS major about to graduate with no idea what to do",
+      "body": "I'm a senior undergrad MIS (Management Information Systems) major/entrepreneurship minor graduating in May next year. MIS is a blend of computer science and business admin. I changed my major half way through my collegiate career so I haven't had a whole lot of time for an internship trying to catch up. Another contributor to that is that I had a bad semester my freshman year which honestly discouraged me from applying for an internship. Since then I've gone 3 semesters with 4.0s and brought my overall GPA to a 3.3 with one more semester to go before I graduate. I've made A's in almost every class related to my new major (MIS). How do I leverage this in an interview and how will employers respond? Not only do I have limited work experience in my field (I worked IT Helpdesk for a year) but my transcript is basically periods of really good performance after a period of really bad performance. I've been told that my major is in really high demand and that there are more jobs than there are people to fill them but our most valuable skill (Oracle/database development) is taught once a week in a night class our senior year and I'm not that great with it. It feels very similar to Accounting which I what I left for MIS. Where do I begin my job search? I'm willing to travel anywhere in the world as I have grown up in 5 different countries and I speak some conversational Japanese. I currently work as a student business consultant for local businesses in the region for the business school of my university on hourly pay but that will end once I graduate. Any advice for a soon to be college grad in MIS new to the job search world?",
+      "subreddit": "jobs",
+      "score": 12,
+      "url": "https://reddit.com/r/jobs/comments/3t7zqf/mis_major_about_to_graduate_with_no_idea_what_to/",
+      "comments": [
+        {
+          "body": "Don't worry about your transcript, nobody really cares.  Well,  maybe Facebook or Google would check but that's about it.   I'm an MIS major and I currently work as a QA engineer.  I worked my way up through tech support but that is not always a sure bet.  \n\nI would recommend applying for QA or QA contractor jobs to get a good start.  I have worked with plenty of people with little experience.  If that doesn't pan out you can always work tech support until you find something else.\n\nI don't know much about getting a job involved with Database administration but it's always good stuff to know.  ",
+          "score": 3
+        },
+        {
+          "body": "Have you tried using your on-campus recruiting office? As a college student that should really be your first step. Your resume sounds pretty good from my perspective but you don't seem to have a lot of information about the career prospects of your major. There's frankly no excuse for an MIS major who wants a job to not be able to find one after college; your freshman year college GPA is beyond irrelevant. \n\nMy advice -- make an appointment with your career center ASAP when you get back to college. There's no reason for you not to have any leads on your job search. Employers really should have reached out to you by now but it's not too late for you to take control and make the first move.",
+          "score": 2
+        },
+        {
+          "body": "Interesting, my job is in MIS and never realized it was something you could major in! I'd suggest you go on Indeed.com and search for business analyst roles, a lot of them would probably be a good fit for your skills. And those jobs are definitely out there...anywhere from tech companies to credit card companies.\n\nI think your GPA should not be a huge issue, just make sure your resume and cover letters stand out. Customize them for each job you apply for to focus more on the things they are looking for. Be ready in interviews to share examples of relevant projects you've done and be ready to demonstrate your problem solving approach.  ",
+          "score": 2
+        },
+        {
+          "body": "Ask yourself this: what DO you like about MIS?  There are lots of different paths that you can take, and each one has different ways of going about it.  If there is a particular aspect of it that you do like, you'll want to figure out how to specialize in it.  Generic helpdesk techs are a dime a dozen, but once you start specializing is when your career will really take off.\n\nAre you looking more for sysadmin, more networking, or are you more of a coder?  There are lots of paths out there, it's just that sometimes knowing that there's a path there can be difficult.",
+          "score": 2
+        },
+        {
+          "body": "MIS majors are bred for business analyst positions. You speak both CS and business languages. Depending on each position, business analysts usually act as the middle man between the IT Dept and business dept. Don't worry too much about your transcript; you'll do great! Monster, indeed, or even state jobs; pick and choose! ",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Verbal offer but potential hiring freeze",
+      "body": "After 12 rounds of interviews, I received a verbal offer with compensation a month and a half ago from a huge software company (size similar to microsoft/IBM/oracle). I accepted and was told by the hiring manager that he would then proceed with letting HR know so they can draft up the official employment letter.\n\nAfter waiting for that long, I went to contact both the hiring manager and HR to see what's taking so long or for an update... According to the hiring manager, he's been chasing down HR close to a daily basis to get things moving more quickly. The last I spoke to HR, they apologised and told me the offer is still undergoing the approval process and remains with global HQ (I do not reside in the same location as global HQ), and they would let me know if there's an update.\n\nFrom what I've been hearing from friends working in the company, there is a end of year hiring freeze that typically happens in every first quarter of the new year, and that it should be lifted in Q2 2019...\n\nHas anyone had any experience/insights with such untimely freezes or any relevant advice? Meanwhile i will keep looking around and will not stop my job search, but this is indeed my dream job... ",
+      "subreddit": "jobs",
+      "score": 0,
+      "url": "https://reddit.com/r/jobs/comments/b60k4x/verbal_offer_but_potential_hiring_freeze/",
+      "comments": [
+        {
+          "body": "Sorry I don't have advice but damn, 12 rounds of interviews? Is that a typo?",
+          "score": 3
+        },
+        {
+          "body": "Not sure if my position is similar but I posted a day or so ago with the same /similar issue.\nI have a verbal and written offer of a job but have yet to see the contract. I emailed asking for an update and apparently its taking longer due to it being end of year and HR being very busy due to that.\nIt sounds similar but obviously I'm not that well versed on the time frame of being hired due to this being my first full time role.\nI only presume it sounds more normal now I know you're in a similar position. Though I would try and get a written offer if I was you! But at least they still sound like they want you, just keep chasing them every week or so for an update. ",
+          "score": 2
+        },
+        {
+          "body": "[deleted]",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Most important decision of my life. Need advice.",
+      "body": "I am 2 weeks into my new job in cell culture. It only pays 21 an hour but there is huge opportunity for me to grow in it. I love the enviorment and the people there. I wish i started it when i first left college. The problem is that i was given an offer for a position that pays 40$ an hour. This position is not in cell culture but in QC data trending. Its a computer based job that i have no idea in hell how i managed to land. Some of the requirements asked for knowledge in SQL server , Oracle, windows 2003, windows xp, ect.  They were only asking for a bachelors degree and 2 years in pharmaceuticals. I have a bachelors in Biochemistry.\n\nThe manager specifically told me in the interview that this  not a lab based position. It mostly focuses on working at a computer from home. I am no computer expert and i told the manager that the only programs i use are Excel and Powerpoint. Somehow, miraculously i managed to land this job with no relevant computer experience .\n\nI am worried that i will not be able to perform at this job and might lose it. I don't want to risk leaving my current job but this position pays 83,000 a year. I have never come close to making that kind of money.  Do you think its worth the risk of leaving my current job so i can make double the money? Im asking this to any computer guys out there who might have landed a data trending job with no relevant experience.",
+      "subreddit": "jobs",
+      "score": 2,
+      "url": "https://reddit.com/r/jobs/comments/n5phsk/most_important_decision_of_my_life_need_advice/",
+      "comments": [
+        {
+          "body": "Hello, thank you for posting to r/Jobs! \n\nWe just wanted to let you know that we have a new [discord server, come join the chat!](https://discord.gg/TY6ErXV)\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/jobs) if you have any questions or concerns.*",
+          "score": 1
+        },
+        {
+          "body": "I’d say take the job, you can always find another job that pays what you’re making now.",
+          "score": 1
+        },
+        {
+          "body": "Congrats! Do you think maybe your background had something to do with you getting your job? I only ask because I work in a clinical lab and that was one of the reasons why they hired me (bachelors in chemistry.) They may just need someone who understands the QC and what’s out of range and they may show you how to get the data (pulling from SQL server) later.\n\nI would take the job, maybe if it doesn’t work out you can go back to cell culture? Sounds great though, I would kill for a job like that.",
+          "score": 1
+        },
+        {
+          "body": "My degree was in Plant Biology. I made the leap from the lab to data science. SQL you can pick up by the time your “New Employee” excuse wears off. You can do amazing things with a few hours a day of study and everyone will think you are a goddamn wizard.\n\nTake the money, realize that they knew so little of what they needed that they thought you would be the best possible fit. Study at least as hard as you did in college and you will be worth every penny they pay you in no time.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Most important decision of my life. Need advice.",
+      "body": "I am 2 weeks into my new job in cell culture. It only pays 21 an hour but there is huge opportunity for me to grow in it. I love the enviorment and the people there. I wish i started it when i first left college. The problem is that i was given an offer for a position that pays 40$ an hour. This position is not in cell culture but in QC data trending. Its a computer based job that i have no idea in hell how i managed to land. Some of the requirements asked for knowledge in SQL server , Oracle, windows 2003, windows xp, ect.  They were only asking for a bachelors degree and 2 years in pharmaceuticals.\n\n  \nThe manager specifically told me in the interview that this not a lab based position. It mostly focuses on working at a computer from home. I am no computer expert and i told the manager that the only programs i use are Excel and Powerpoint. Somehow, miraculously i managed to land this job with no relevant computer experience . \n\nI am worried that i will not be able to perform at this new job and might lose it. I don't want to risk leaving my current job but this position pays 83,000 a year. I have never come close to making that kind of money.  Do you think its worth the risk of leaving my current job so i can make double the money? Im asking this to any computer guys out there who might have landed a data trending job with no relevant experience.",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/n5pg21/most_important_decision_of_my_life_need_advice/",
+      "comments": []
+    },
+    {
+      "title": "Found this interesting thing about Taleo meanings on an Indeed forum, could an expert on Taleo confirm this?",
+      "body": "It seems rather legitimate.\n\nOf course not 100%, but seems to be more for if you haven't had an interview yet and have just submitted your application.\n\nThis is the Quote\n\n''I have looked deeply into how to draw reliable conclusions on the Taleo Oracle interface after using it, applying statistics, and verifying with [HR](http://www.indeed.com/q-Hr-jobs.html) personnel and boards such as this one. Overall, if withdraw disappears, you are out. While it slightly differs by company, overall wording and process is the same:\n\nNO ACTIVITY (noone has looked at your profile): Active, accepting job submissions, view/edit submission, and withdraw will all appear. It may say something like \"under consideration by recruiter\".\n\nRESUME HAS BEEN PARSED (this means sorted by software, but not rejected): Active, accepting job submissions, and view/edit submission all show, but the withdraw button no longer appears. Chances are very high if you are in this category you have been rejected, but the HR person has not completely discarded your profile, however they have not moved you into final review. You are a long reach for what they want.\n\nUNDER FINAL REVIEW (top applicant): If you have an indicator such as \"under consideration by [hiring](http://www.indeed.com/q-Hiring-jobs.html) manager\", or just \"view submission\" with a withdraw option present, then you are under final review.\n\nREJECTED (no longer under consideration): If status is active, accepting job submissions and you have \"view submission\" with no withdraw option, and there is no indicator of an interview or hiring manager, you have been rejected. It may also say \"no longer under consideration\".\n\nJOB HAS BEEN FILLED: If status is inactive, the job has been filled and you have been rejected.''\n\n[https://www.indeed.com/forum/gen/Job-Interviews/Taleo-Withdraw-button-removed/t510326](https://www.indeed.com/forum/gen/Job-Interviews/Taleo-Withdraw-button-removed/t510326)",
+      "subreddit": "jobs",
+      "score": 2,
+      "url": "https://reddit.com/r/jobs/comments/df50r7/found_this_interesting_thing_about_taleo_meanings/",
+      "comments": [
+        {
+          "body": "&gt; While it slightly differs by company, overall wording and process is the same: \n\nTo some extent.  Taleo is customizable to the user, which gives most CEO's a hard on like a rail road spike.  Every CEO likes to think his/her company is \"different\" and its the CEO's that lay out the big bucks for the package.\n\nIn short, don't spend too much time trying to decipher the statuses of Taleo.  You could end up being \"under consideration\" for years.  ; p",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Unsure where to go from here really",
+      "body": "Been searching for a job in the UK for a few months now. And it feels like I’m stalling. British citizen but I’ve been working in Nigeria for the last 4 years and want to relocate. Mainly been looking for project coordinator/administrator jobs, even though I have high level project management experience. Had 5 interviews in the last month and a half basically batting a 0! Any general Tips on what to do or how to move forward ? \n\nDon’t want to quit my job and move. But the constant travel for interviews  has started telling. And I’m now basically out of leave days. \n\nAlso Doing my prince 2 and think I might do SAP or oracle but unsure which specific program or course within them to even pick as they’re so so many! \n\nSo yeah sorry if this seems scattered usually just a lurker.",
+      "subreddit": "jobs",
+      "score": 6,
+      "url": "https://reddit.com/r/jobs/comments/9wokix/unsure_where_to_go_from_here_really/",
+      "comments": [
+        {
+          "body": "Make sure you are selling your skills well, not just what programs you can do but what you have done with those programs. Also results from those programs. ",
+          "score": 1
+        },
+        {
+          "body": "Have you considered becoming a Freelancer/Entrepreneur and create a business with the skills and knowledge you already have?",
+          "score": 1
+        },
+        {
+          "body": "You’re getting a lot of interviews which means your CV and skills are attracting attention. Maybe your interview technique needs a bit of work? Or employers are being put off by your current location although that’s not likely if you make it clear that you’d be moving permanently back to the UK.\n\nI’ve been on both sides of the interview process and the main thing I’ve learnt is that if your in the interview they deem you qualified enough (or are willing to train you). The interview is there to verify that you aren’t embellishing too much on your CV and to see if you’ll fit into the team. You’re coming up short somewhere in those areas I think.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Interview Prep for  Oracle OCI Principal Software Engineer (IC4)",
+      "body": "Hi everyone,\n\nI’m preparing for the **Oracle OCI Principal Software Engineer (IC4)** interview and wanted to get a better idea of what to expect in the **first technical round** .\n\nIf anyone has recently gone through the process, could you please share what the **initial technical interview** was like — for example, was it mostly **LeetCode-style DSA**, **system design**, or a mix? Also, any insight into the **difficulty level, preferred languages (Java, C#, etc.)**, or **focus areas** (cloud, distributed systems, microservices) would be super helpful.\n\nBasic Qualifications on the JD:\n\n* Computer Science fundamentals in object-oriented design, data structures, &amp; algorithm design, etc \n* 7+ years of total experience with software development/ programming experience with at least one object oriented coding language such as Java, C++, C#, Javascript, Go, etc. \n* Systematic problem-solving approach, strong communication skills, a sense of ownership, and drive. \n* Experienced in building highly-available and scalable distributed services.  \n* Experienced with microservice design patterns. \n* Exhibits behaviors consistent with OCI values.\n\nThanks in advance! Hoping this thread can help others preparing for OCI roles as well.",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1o1du84/interview_prep_for_oracle_oci_principal_software/",
+      "comments": [
+        {
+          "body": "I went through OCI IC4 late last year. My first tech round was a mix: one medium LeetCode style problem in a shared editor, then a quick system design chat around a high throughput service like rate limiting or a simple storage API. I coded in Java but they were language agnostic as long as you were clear and efficient. What helped me was timed mocks using Beyz coding assistant with prompts from the IQB interview question bank, plus practicing out loud complexity and failure modes. For design, frame tradeoffs on consistency, partitioning, and back pressure, and keep answers tight.",
+          "score": 1
+        },
+        {
+          "body": "Hey, could you explain interview structure or steps?",
+          "score": 1
+        },
+        {
+          "body": "Hey,\n\nI’m interviewing work IC3 level Software Engineer role. Can you please share your experience?\n\nThanks in advance.",
+          "score": 1
+        },
+        {
+          "body": "how did the interview go?  any more details you can share about the PE role interview",
+          "score": 1
+        },
+        {
+          "body": "Hi I am also preparing for the similar kind of roles. Let me know if you want to connect",
+          "score": 1
+        },
+        {
+          "body": "you can try past interview questions on - [www.pastinterviews.com](http://www.pastinterviews.com)",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Anyone interviewed for senior network development engineer oracle recently?",
+      "body": "Upcoming interview. Ic3/ic2 . Any help?",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1oj6tr3/anyone_interviewed_for_senior_network_development/",
+      "comments": [
+        {
+          "body": "Post this in r/employeesOfOracle You will get better feedback over there.",
+          "score": 1
+        },
+        {
+          "body": "you can try past interview questions on - [www.pastinterviews.com](http://www.pastinterviews.com)",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Oracle Interview",
+      "body": "I have given oracle interview recently almost six rounds of it ..In the first loop set I have given all the dour rounds well but due to the unavailability of the interviewers they ended up taking 3 behavioural rounds and 1 system design . I was requested secondary loop where I was expecting coding but they just took one round of coding and another was system design again. The codling round i could just clear 5 test cases out of 14 as if was quite lengthy but the rest went fine. Would I get the offer ? ",
+      "subreddit": "interviews",
+      "score": 2,
+      "url": "https://reddit.com/r/interviews/comments/1o2cg5f/oracle_interview/",
+      "comments": [
+        {
+          "body": "you can try past interview questions on - [www.pastinterviews.com](http://www.pastinterviews.com)",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Interviewing at Oracle Health AI - IC4",
+      "body": "Hello!\n\n  \nI have a technical screening interview coming up at Oracle Health for Principal Applied Scientist (IC4). I am told that this round will cover HackerRank plus some ML questions. The job requires LLM experience and the interviewer has background in NLP. I am wondering if anyone has recently gone through the process and share any insights. I am not sure what type of coding and ML questions to expect. The position is in the US, remote if that matters.\n\n  \nThank you!!",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1o6n1xq/interviewing_at_oracle_health_ai_ic4/",
+      "comments": [
+        {
+          "body": "[removed]",
+          "score": 1
+        },
+        {
+          "body": "you can try past interview questions on - [www.pastinterviews.com](http://www.pastinterviews.com)",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Anyone has Oracle lead data center  Technician Interview Experience?",
+      "body": "Anyone has Oracle lead data center Technician Interview Experience? ",
+      "subreddit": "interviews",
+      "score": 2,
+      "url": "https://reddit.com/r/interviews/comments/1oia3kv/anyone_has_oracle_lead_data_center_technician/",
+      "comments": [
+        {
+          "body": "Haven't done Oracle specifically but data center tech interviews are pretty standard. They'll definitely ask about hardware troubleshooting, network basics, and how you handle high-pressure situations when servers go down.\n\nMost of these roles focus more on hands-on technical skills than behavioral stuff, so brush up on your hardware knowledge and be ready to walk through real scenarios you've dealt with.",
+          "score": 1
+        },
+        {
+          "body": "you can try past interview questions on - [www.pastinterviews.com](http://www.pastinterviews.com)",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "I have an interview for Oracle HCM Functional Consultant — what kind of questions should I expect as a fresher?",
+      "body": "Hey everyone 👋\nI have an upcoming interview for an Oracle Fusion HCM Functional Consultant role. I’m a fresher and recently completed my HCM training.\n\nCan anyone share what kind of questions are usually asked for freshers?\nLike —\n\nDo they ask about HCM modules (Core HR, Payroll, Absence, etc.)?\n\nOr more about real-time scenarios and functional setups?\n\nAny HR process basics I should revise before the interview?\n\n\nAny tips, sample questions, or your own experience would really help",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1ole0ii/i_have_an_interview_for_oracle_hcm_functional/",
+      "comments": [
+        {
+          "body": "you can try past interview questions on - [www.pastinterviews.com](http://www.pastinterviews.com)",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Need Suggestion to know about managerial round interview process in oracle",
+      "body": "Hello everyone,I got selected to attend final interview round for Data annotator role in oracle.Can anyone suggest what r the types of questions they'll ask in managerial round.It would be so useful to know n clear my interviews.Already I'm tired of job hunting I had to crack it.",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1n7n4qf/need_suggestion_to_know_about_managerial_round/",
+      "comments": [
+        {
+          "body": "Oracle's managerial rounds typically focus on behavioral questions that assess how you handle workplace situations, your problem-solving approach, and cultural fit. Expect questions about times you dealt with difficult team members, managed competing priorities, handled feedback or criticism, and overcame challenges in previous roles. They'll also ask about your understanding of the data annotator role specifically - why you want it, how you'd ensure quality and accuracy in your work, and how you'd handle repetitive tasks or tight deadlines. The hiring manager will likely explore your long-term career goals and how this position fits into your plans.\n\nThe good news is that managerial rounds are often more conversational than technical rounds, so authenticity goes a long way. Prepare specific examples from your experience using the STAR method (Situation, Task, Action, Result) and be ready to discuss what motivates you and how you work with others. Since you're exhausted from job hunting, channel that determination into showing them how much you want this opportunity and what unique value you'd bring to their team. I'm on the team that built [interview prep AI](http://interviews.chat), which can help you practice answering these types of behavioral questions and get real-time feedback to refine your responses before the big day.",
+          "score": 1
+        },
+        {
+          "body": "you can try past interview questions on - [www.pastinterviews.com](http://www.pastinterviews.com)",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Oracle Loop Interviews:",
+      "body": "A recruiter from Oracle reached out to me for a Pre-Screen for the role of ‘Adoption Consultant l.’ We spoke this morning very briefly and he set me up for a ‘Loop Interview’, to interview with three separate managers in a row, on three separate days. \n\nMy question is: Has anyone ever had this happen before and what usually takes place during and after?\n\nAll answers are appreciated!",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1gg7v29/oracle_loop_interviews/",
+      "comments": [
+        {
+          "body": "Loop interviews are designed to give multiple managers a chance to assess your skills and fit for the role. Each interview will likely focus on different aspects of the job, so be prepared to discuss your experience, technical skills, and problem-solving abilities in depth. After the interviews, the managers will compare notes and make a collective decision on whether to move forward with your application.\n\nThe process can be intense, but it's actually a good opportunity for you to showcase your abilities to multiple decision-makers. Make sure to research the company and role thoroughly, and prepare specific examples of your work that relate to the Adoption Consultant position. Don't be surprised if some questions overlap between interviews - use this as a chance to refine and expand on your previous answers. If you're worried about the process, you might want to check out this [interview helper AI](http://interviews.chat). I'm on the team that created it, and it's a tool designed to help people navigate tricky interview questions and boost their confidence for situations just like this.",
+          "score": 2
+        },
+        {
+          "body": "you can try past interview questions on - [www.pastinterviews.com](http://www.pastinterviews.com)",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "HackerRank (with interviewer) round in Oracle Cloud Infrastructure (OCI)",
+      "body": "Does anyone know what the level of the HackerRank (with interviewer) round is in Oracle Cloud Infrastructure (OCI)? It would be great if someone could share his or her experience about this round.",
+      "subreddit": "interviews",
+      "score": 3,
+      "url": "https://reddit.com/r/interviews/comments/1bine0j/hackerrank_with_interviewer_round_in_oracle_cloud/",
+      "comments": [
+        {
+          "body": "Hi , Did you had your interview ? What are the questions asked.",
+          "score": 2
+        },
+        {
+          "body": "you can try past interview questions on - [www.pastinterviews.com](http://www.pastinterviews.com)",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Oracle acquisition",
+      "body": "Hey guys so want to tell you all a little story about this interview. I really want to move to CO so I applied for a marketing job at this company. First interview was a video call pretty short not many interview questions more personality questions instead. The person that was setting up my interview seemed a little suspicious, they text me a couple of times confirming the interview and saying their “leader” will talk to me soon. Leader?? What is this? I thought that was weird.\nThen, I proceeded to a second interview this person was a recruiter as well. She seemed very nice and proud to speak about the company. They told me weekly pay would be $700 plus commission. I was definitely not excited about that but continued the interview. At the end of the interview she said they would reach out to me within 72 hours. I never heard from them again…. \nI got on here and looked up their company and saw some interesting posts. Just wondering if anyone else went thru something similar? ",
+      "subreddit": "interviews",
+      "score": 3,
+      "url": "https://reddit.com/r/interviews/comments/1m4v7yk/oracle_acquisition/",
+      "comments": [
+        {
+          "body": "I use to work for Oracle and the person texting you was a scammer. You work directly with a Oracle recruiter and they do not text you outside of the interview process. Your recruiter will email you directly for all interview appointments directly to the hiring manager, director, VP, and other interview panelists. Oracle is not a bad company to work for. Its an excellent company to work for. I can't tell on company side but software engineering/database admins is a good company to work for.",
+          "score": 1
+        },
+        {
+          "body": "I just got reached out to Via text and had a Zoom interview scheduled for tomorrow. It seemed a little off so i wanted to look into it on here. It sounds like I might be better off just declining the interview. This is so annoying and predatory, taking advantage of people struggling to find jobs in the worst market ever.",
+          "score": 1
+        },
+        {
+          "body": "Was her name Katie?",
+          "score": 1
+        },
+        {
+          "body": "Hey quick question. Was the interview legit or was it all a scam and the job ended up being a pyramid scheme? They reached out to me about an interview and I applied on LinkedIn. I am curious because their website seems real but the reviews are off.",
+          "score": 1
+        },
+        {
+          "body": "i just got a text from them they also send me the address of their office, is it scam or should i proceed with the interview?",
+          "score": 1
+        },
+        {
+          "body": "Seemed like a scheme for sure, they never got back to me.",
+          "score": 1
+        },
+        {
+          "body": "They stood me up for a interview on MS Teams a few months ago. The email address they had been communicating with me through was for someone who didn’t even work there (reached out to this person on LinkedIn after they stood me up).",
+          "score": 1
+        },
+        {
+          "body": "This isn’t the real Oracle tech sales company. They chose the name Oracle acquisitions to confuse people looking for jobs. Place sucks. Search up devil corp as this is what they are. Will have you driving all over the state to sell bullshit. Think of the people who sell at&amp;t at Costco. This is mainly what they do",
+          "score": 1
+        },
+        {
+          "body": "About to interview with them in 20 minutes, I will let you know how it goes.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Oracle technical program manger interview",
+      "body": "Hello everyone ,\n\nCan some body guide me through hiring process at oracle for TPM position . I have received invitation from recruitment team for phone screen next week. Thanks .\n",
+      "subreddit": "interviews",
+      "score": 2,
+      "url": "https://reddit.com/r/interviews/comments/1nve8jb/oracle_technical_program_manger_interview/",
+      "comments": [
+        {
+          "body": "Its pretty straightforward but they definitely focus heavily on your ability to manage technical dependencies and work across multiple engineering teams. From what I've seen, the phone screen usually covers behavioral questions using specific examples of how you've handled cross-functional coordination, plus some technical scenario questions about how you'd approach program planning and risk mitigation. They tend to ask ques like times you've had to influence without direct authority and how you've navigated competing priorities between different stakeholders. Make sure you have solid STAR format examples ready that show your technical depth alongside program management skills, since Oracle TPMs need to be pretty hands-on with understanding the technical constraints and tradeoffs their teams are working with.",
+          "score": 1
+        },
+        {
+          "body": "you can try past interview questions on - [www.pastinterviews.com](http://www.pastinterviews.com)",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Oracle interview",
+      "body": "I received recruiter invitation email from Oracle for program manager -4 ( OCI) . I talk with her and she told me within 7 days they will send me email for loop interview . She sent me email for preparation and we just discuss salary and other details . Today I receive email that my application is no longer considered . I am not sure what happened ?",
+      "subreddit": "interviews",
+      "score": 0,
+      "url": "https://reddit.com/r/interviews/comments/1o4dcyz/oracle_interview/",
+      "comments": [
+        {
+          "body": "Don’t stress too much about it, this kind of thing has sadly become common with companies these days. Just keep your head up and carry on with your hustle, better opportunities are waiting.",
+          "score": 1
+        },
+        {
+          "body": "you can try past interview questions on - [www.pastinterviews.com](http://www.pastinterviews.com)",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Completed Oracle OCI2  interview process but now an additional round",
+      "body": "I was initially approached by a recruiter on Naukri regarding an IC2 role, and I progressed through the following interview stages:\n\n* **1 screening round**\n* **4 non-elimination rounds**:\n   * **2 technical rounds** focused heavily on DSA\n   * **1 round with the recruiting manager**\n   * **1 bar raiser round**\n\nToday, I received an update from the recruiter that the hiring manager wants to schedule an **additional design round** covering both **High-Level Design (HLD)** and **Low-Level Design (LLD)** concepts.\n\nI currently have **2 years and 9 months of experience**, and to my knowledge, **design rounds are typically not part of the OCI2 (IC2) hiring process at Oracle**.  \nThis made me wonder if the hiring panel is possibly evaluating me at a higher level, or if the process has changed.\n\nI wanted to check with others:\n\n* Has anyone experienced a **design round** as part of the **OCI2 interview process**?\n* Given that I am close to completing **3 years of experience** and now being asked to appear for a design round, would it make sense to **proactively reach out to the recruiter** and request if I can be considered for an **OCI3 (IC3) position instead**?\n\nLooking forward to any inputs or similar experiences.",
+      "subreddit": "interviews",
+      "score": 2,
+      "url": "https://reddit.com/r/interviews/comments/1jlnfye/completed_oracle_oci2_interview_process_but_now/",
+      "comments": [
+        {
+          "body": "how it was ??? Can you share ? I have almost the same time as you as SWE and they sent me a that I applied for Senior Member of Technical Staff of OCI\n\nCan you share your technical rounds were for? Did you jump straight to the code, remember the algo ?\n\nHow did you prepare ?",
+          "score": 1
+        },
+        {
+          "body": "Hi after how many days of screening you get 4 rounds of interview call . It’s been 6 days since I gave screening and status is interview and selection on career portal . Not able to get any clue plz reply ?",
+          "score": 1
+        },
+        {
+          "body": "you can try past interview questions on - [www.pastinterviews.com](http://www.pastinterviews.com)",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Oracle New Grad interview question!",
+      "body": "Hey all, I have a few questions about the interview process for the new grad at Oracle. I have been interviewing with oracle for a new grad role, and I gave my Super day interviews i.e 3 back to back interviews, recently got to know that I would have another interview with the hiring manager for 30 mins. How common is this and what could I expect going into this? I thought that super day are the last set of interviews. Anyone has gone through a similar process?  \nAny help/guidance would be appreciated!",
+      "subreddit": "interviews",
+      "score": 2,
+      "url": "https://reddit.com/r/interviews/comments/1gvfbo7/oracle_new_grad_interview_question/",
+      "comments": [
+        {
+          "body": "you can try past interview questions on - [www.pastinterviews.com](http://www.pastinterviews.com)",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Urgent Help needed in SRE Interview LEETCODE ROUND ORACLE",
+      "body": "I have a SRE Interview Loop with Oracle where one of the round is expected to be a LEETCODE round. Can anyone please tell me the kind of Coding/LEETCODE questions asked in an ORACLE loop interview for Software Reliability Engineer? I am really stressed and desperately reaching out to the community to help an aspiring student grab an idea about the LEETCODE questions asked for SRE in ORACLE?\n\n&amp;#x200B;\n\nMany many thanks and acknowledgements in advance!! \\_/\\\\\\_",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1azc62x/urgent_help_needed_in_sre_interview_leetcode/",
+      "comments": [
+        {
+          "body": "Hi, I'm in same boat now. Could you please help provide your experience. It will be really helpful. Thanks",
+          "score": 1
+        },
+        {
+          "body": "you can try past interview questions on - [www.pastinterviews.com](http://www.pastinterviews.com)",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Oracle Health AI - Applied Scientist Blitz",
+      "body": "Hello,\n\n  \nI have an interview coming up with OHAI for an Applied Scientist role. So far all I know is that there will be 4 rounds. Can anyone please share what to expect and how to prepare for it? Any suggestions will be highly appreciated!!",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1ocp4hk/oracle_health_ai_applied_scientist_blitz/",
+      "comments": [
+        {
+          "body": "This sub won't be able to assist you with this role or give you advice. I am not able to give you any interview questions either as each hiring manager at Oracle will have their own sets of questions. Expect to be tested in programming. I suggest you read the role you applied for as they will be looking for the skill sets they listed on the job description.\n\nI highly suggest you use ChatGPT to plug in that job role and practice interview questions. You will also be writing production grade code which comes from being tested for programming.\n\nGood research coding that Oracle uses for their Health AI systems.",
+          "score": 1
+        },
+        {
+          "body": "you can try past interview questions on - [www.pastinterviews.com](http://www.pastinterviews.com)",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Oracle OCI IC3 timeline",
+      "body": "Had my final loop for Oracle OCI IC3 role on Friday. Anyone know what the timeline for the decision is? One of the interviewers mentioned they typically take 1-2 days but am wondering if it might be delayed due to the holiday season coming up. \n\nAppreciate any insights from people who gave interviews recently. \n\n",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1p54xch/oracle_oci_ic3_timeline/",
+      "comments": [
+        {
+          "body": "Got mine back in 3 days but that was back in October. With Thanksgiving week coming up I'd probably expect it to take a bit longer - maybe end of next week realistically\n\n  \nHope it went well for you though, the OCI team seems pretty solid from what I've heard",
+          "score": 1
+        },
+        {
+          "body": "you can try past interview questions on - [www.pastinterviews.com](http://www.pastinterviews.com)",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Mobile Phone Service on Oracle",
+      "body": "Hi, is it Oracle pays for mobile service? Is it allowed to make personal calls with phone/mobile service that is gathered from Oracle?",
+      "subreddit": "interviews",
+      "score": 2,
+      "url": "https://reddit.com/r/interviews/comments/1m2ywou/mobile_phone_service_on_oracle/",
+      "comments": [
+        {
+          "body": "If Oracle is footing the bill, they usually allow light personal use, but always check the official policy—don’t assume your casual call won’t raise flags.",
+          "score": 1
+        },
+        {
+          "body": "you can try past interview questions on - [www.pastinterviews.com](http://www.pastinterviews.com)",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Should I email HR to express continued interest after an interview?",
+      "body": "Hi everyone,\nI recently had an in-person interview for a position in a department that works heavily with Oracle databases. During the interview, they mentioned it would take 2–3 weeks to make a decision, but they’re also trying to fill the role quickly.\n\nIt’s been a little over a week now, and I’ve been actively working on Oracle Database certifications since the interview — both to upskill and because I genuinely want to be ready for this role if I get it. I believe I can do most of the job responsibilities and am confident that I have the right skills and strong work ethic to succeed.\n\nI’m wondering — would it be okay to send an email to the HR or the hiring manager to briefly mention that I’ve been working on relevant certifications, reiterate my interest, and let them know I’m really eager about the opportunity? Or would that come off as pushy, and should I just wait until the full 2–3 weeks have passed?\n\nWould love to hear your thoughts or any similar experiences you’ve had. Thanks!\n",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1knswer/should_i_email_hr_to_express_continued_interest/",
+      "comments": [
+        {
+          "body": "I would and have done it. sometimes it was well received, sometimes no reply and rejected regardless.\n\nbut what do you have to lose anyway?  \n\nwhen I have done it, it wasnt because of the \"best practices\" when you interview -&gt; send a thank you email ecc\n\nI've done it for exact same reasons, I was actually interested in the role",
+          "score": 2
+        },
+        {
+          "body": "They already made up their mind. The interview is done. \n\nIt won’t hurt, but it won’t help you that much.",
+          "score": 1
+        },
+        {
+          "body": "It might not help much, but ask yourself if a company that rejected someone because they went the extra mile and messaged showing certifications and interest is a company you'd even want to work for",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Got a referral to Apply for Wells Fargo Software engineering fresher role. What do I do?",
+      "body": "Hello, I'm final year student graduating this july, I already have a SDE offer in hand but I was trying to get a better option. Thankfully after asking many people, somebody referred me for this role. what exactly do I need to prepare and what should be my next steps given that the timeframe for tests or interviews is very small? These are the desired qualifications:\n\n* Bachelor’s or master's degree in technology /engineering.\n* 2+ years of experience in **JAVA**. implementation of \n* IDM experience is good to have Identity **and Access Management** solution (from multiple vendors like **SailPoint, IBM-ISIM, Saviynt**). \n* 2+ years of experience using Java, JavaScript, XML.\n* Should have experience in SCIM and REST APIs.\n* Ability to design and integrate new IAM solutions with existing infrastructure.\n* At least one or more certifications such as IAM tool specific certification.\n* Knowledge of information security concepts. Deep working knowledge of at least one IAM tool.\n* Experience with operating systems and relational database management systems such Linux, Tomcat, Oracle, SQL Server, etc.",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1j4o2gq/got_a_referral_to_apply_for_wells_fargo_software/",
+      "comments": [
+        {
+          "body": "Hey, not sure if you've faced the interviews already. posting my initial thoughts:\n\n\\- I think they'll really focus on Authentication, authorization types questions a lot, you should brush up your knowledge on the IAM tools you've worked till day (guessing you've some experience working on those)\n\n\\- Different types of rest Api's, they might even give you a system's idea and asks you what different api's you're going to implement and how. \n\n\\- Strong OOP fundamental, Basic OS questions: Threads vs process, deadlock, linux basics, (commands as well), SQL joins, injections are must. (this is a 2 yoe role, I wouldn't expect too much from the candidate, but they really can go on and ask deep questions) \n\n  \nIf you've already done interviewing, let me know what was asked and how did it go? Good luck anyway.",
+          "score": 1
+        },
+        {
+          "body": "checkout - [www.refereasy.pro](http://www.refereasy.pro) \\- its free",
+          "score": 1
+        },
+        {
+          "body": "you can try past interview questions on - [www.pastinterviews.com](http://www.pastinterviews.com)",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "How to prepare for Junior Database Analyst Job Interview",
+      "body": " \n\nI just got accepted for a Co-op interview to be a for the role of a Junior Database Analyst and I was wondering what I should do to prepare.\n\nI would be assisting with administering operational databases and performing data analysis on small or mid-sized projects, developing/testing SQL and PLSQL scripts for Oracle DB, etc.\n\nI'm wondering how exactly I should prepare for this interview as this is my first technical interview, maybe you have an idea of what kind of questions they will ask and any good online resources.\n\nAlso, if you have some good study suggestions for what kinds of database questions/knowledge I should brush up on beforehand.\n\nI have experience with creating SQL databases, normalization, de-normalization, functions, packages, triggers, but I just want to be prepared. Thanks!",
+      "subreddit": "interviews",
+      "score": 6,
+      "url": "https://reddit.com/r/interviews/comments/19a4tgl/how_to_prepare_for_junior_database_analyst_job/",
+      "comments": [
+        {
+          "body": "Grind StrataScratch and LeetCode",
+          "score": 3
+        },
+        {
+          "body": "you can try past interview questions on - [www.pastinterviews.com](http://www.pastinterviews.com)",
+          "score": 1
+        },
+        {
+          "body": "Know in what order SQL statements are executed. This shows you know how to optimize queries.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Oracle Senior QA",
+      "body": "I got a verbal confirmation of my offer at OracleOracle along with the pay structure on 26th. Before that my profile status in Oracle candidate portal was \"Interview and selection\". On 27th HR asked for my Pan card copy and I sent him and asked me to fill the details for the job description with my personal details in the candidate portal, And the status was \"Under consideration\". And I called him today for getting updates and he declined it. I'm confused !! What is happening. BGV status is not shown.",
+      "subreddit": "interviews",
+      "score": 2,
+      "url": "https://reddit.com/r/interviews/comments/1lo3y4u/oracle_senior_qa/",
+      "comments": [
+        {
+          "body": "you can try past interview questions on - [www.pastinterviews.com](http://www.pastinterviews.com)",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Too soon to ask for update after the last interview",
+      "body": "I recently interviewed with Oracle for SDE just 3 days ago and I today contacted my recruiter for any updates. I have not received any reply. I know that Oracle takes a solid amount of time to come back (based on what I read on the internet) but I am not sure whether verbal offers happen in this phase(I am new to the process of interviewing so not sure what and when something happens).\n\nAgain verbal offers are not that solid especially with Oracle but they definitely give a feel. Would love some suggestions and advice from experienced people in this phase. \n\nFYI: I felt my interviews were good. I especially nailed it in data structures for round one and conceptual in round two.",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1j56tj5/too_soon_to_ask_for_update_after_the_last/",
+      "comments": [
+        {
+          "body": "..people keep asking the same questions about following up, but I think the general consensus is you’ll hear something if they are interested - no type of “follow up” is needed.",
+          "score": 3
+        },
+        {
+          "body": "Just move on and if they want you you will hear from them.",
+          "score": 3
+        },
+        {
+          "body": "Too soon. Wait for one week from the interview.",
+          "score": 1
+        },
+        {
+          "body": "Currently have 2 places I have no updates with myself. \n\nOne large employer it’s been over 2 weeks, and I followed up but radio silence (send a follow up email today) from my recruiter after second round interview. I assume it’s a long process (10%) or I’m rejected or second or third option (90%)  being kept in the dark. \n\nAnother large employer, it’s been 5 days from screening and 1st 2nd and now scheduled for a third and final interview. \n\nIf they want you they will keep in communication. I hate this job market ",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

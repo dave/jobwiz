@@ -110,7 +110,7 @@ const stats: LoadStats = {
 /**
  * Read all JSON files from a directory
  */
-function readJsonFiles<T>(dir: string): T[] {
+function readJsonFiles<T>(dir: string, nestedKey?: string): T[] {
   if (!fs.existsSync(dir)) {
     console.log(`  Directory not found: ${dir}`);
     return [];
@@ -123,8 +123,13 @@ function readJsonFiles<T>(dir: string): T[] {
     try {
       const content = fs.readFileSync(path.join(dir, file), "utf-8");
       const data = JSON.parse(content);
+
+      // Handle nested structures (e.g., { questions: [...] })
+      if (nestedKey && data[nestedKey] && Array.isArray(data[nestedKey])) {
+        results.push(...data[nestedKey]);
+      }
       // Handle both single objects and arrays
-      if (Array.isArray(data)) {
+      else if (Array.isArray(data)) {
         results.push(...data);
       } else {
         results.push(data);
@@ -228,7 +233,8 @@ async function loadModules(dryRun: boolean): Promise<void> {
 async function loadQuestions(dryRun: boolean): Promise<void> {
   console.log("\nLoading questions...");
   const questionsDir = path.join(DATA_DIR, "questions");
-  const questions = readJsonFiles<GeneratedQuestion>(questionsDir);
+  // Use 'questions' as nested key since files have { questions: [...] } structure
+  const questions = readJsonFiles<GeneratedQuestion>(questionsDir, "questions");
 
   console.log(`  Found ${questions.length} questions`);
 

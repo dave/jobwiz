@@ -1,0 +1,1251 @@
+{
+  "company": "morgan-stanley",
+  "post_count": 69,
+  "exported_at": "2026-01-18T17:44:53.290Z",
+  "posts": [
+    {
+      "title": "Interview at Morgan Stanley",
+      "body": "Hi,\n\nI have an interview tomorrow at Morgan Stanley for an entry level application developer (SQL, C#). The position is in Profit &amp; Loss Link group. How can I prepare for it? I've been going over basic OOP methodologies, what else can I do?\n\nThanks",
+      "subreddit": "cscareerquestions",
+      "score": 2,
+      "url": "https://reddit.com/r/cscareerquestions/comments/2tbi2h/interview_at_morgan_stanley/",
+      "comments": [
+        {
+          "body": "I had an interview with Morgan Stanley about a year ago, but it was for a security analyst position. The phone interview was a conference call with two people, one guy asked a lot of behavioral and \"what if\" scenario questions while the other one threw highly technical questions at me (mostly related to reverse engineering malware, because that's what the position entailed). \nFrom that interview alone, I would expect some trivia questions about C# (language specific questions) and SQL, and maybe some OOP questions as well (inheritance, polymorphism, encapsulation etc...). \nThen maybe some algorithm and SQL query questions to top it off. Note that I might be totally off with what I just typed, I am just basing it off my interview. ",
+          "score": 1
+        },
+        {
+          "body": "Unless it's for a specific graduate role, then each area deals with interviewing internally as far as I'm aware so there's not a set list of questions.\nMS is one of the big banks that does a lot of 'techie' things, they've created their own languages for one, and Bjarne Stroustrupp now works there so it might be useful to research some of that stuff.\n\nIs this in the asset management division by any chance?\nOnly reason I ask is that I was surprised that you mentioned C# and SQL.\nPretty much all server work (i.e. stuff that would talk to a database) uses Linux. I think  the AM division has so Windows servers though, but I never got involved with that during my time there.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Investment bank vs. late stage startup",
+      "body": "Tldr; Canadian student, want to move to States after grad. Have internship offers from mature startup (8 month) &amp; investment bank (3.5 month). Which has better exit opportunities for a final internship?\n_____________________\n\nHey everyone, \nI've got a couple of offers that expire at the end of the month, and I'm trying to decide what would be the best choice career wise. \n\nI've already got an 8 month co-op at a small (&lt;30 people) early stage startup under my belt. I'm in Canada and want to more to the States after grad. This is my last internship. Which one would bring me the most opportunities? \n\nThe first is a late stage startup that does analytics. They're offering an 8 month co-op, in my city. I don't know what project/team I'd be working on yet. I do know their tech stack &amp; am happy with it. Reading Glassdoor, it seems this company is very dev focussed.\n\nThe second is an investment bank (Morgan Stanley). It's in Montreal &amp;  basically halfway across the country. They have a 14 week summer analyst program. I have no clue as to what I'd be working on, since there's a lot of diversity. I was told there is a chance of being in the front office, but more likely I'd be mid/back office. \n\nI feel like the bank has better name recognition, networking &amp; exposure to the finance world. I am not sure how to judge their technical competency. Their Montreal office is mostly a dev office, but I still feel like tech is considered second fiddle to traders/ibankers.\n\nOn the flip side, I think I'd be a much better developer after 8 months at the smaller company, and have a better chance of converting. It's also a tech company, so obviously devs are super important to them. \n\nI did get interviews from most of the big companies this sub loves this season,  but I wasn't able to get an offer. I do think I'd be able to get interviews with them again, but idk how to get the attention of companies with a less widespread reach.  \n\nThanks for any input!",
+      "subreddit": "cscareerquestions",
+      "score": 1,
+      "url": "https://reddit.com/r/cscareerquestions/comments/7rk0pj/investment_bank_vs_late_stage_startup/",
+      "comments": [
+        {
+          "body": "I'm in a similar situation. Literally waiting in the office of an investment bank for an interview. I say if you want to do tech, go for the start-up. In the age of google name recognition falls second to quality of work/quality of life.",
+          "score": 1
+        },
+        {
+          "body": "When does the co-op start? How many hours a week? ",
+          "score": 1
+        },
+        {
+          "body": "Montrealer here. Montreal is known to be the land of cheap labour in IT, because of the francophone devs not wanting to move out of Quebec due to cultural reasons and are therefore trapped here, even if salaries are lower.  \n  \nIf you look at the probability of getting a TN/L1 visa post-grad, go with Morgan Stanley.  \n  \nIf you need tips in Montreal life, feel free to ask me questions.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Interview with Morgan Stanley(technology analyst) tomorrow! HELP!",
+      "body": "Hello Reddit,\n\nLong time lurker, first time posting. I need your help(selfish, I know).\n\nI'm a CIS major and I'd like to be a Business Analyst. I am invited to MS's corporate office \"Assessment center\" to interview with a group of candidates, tomorrow!  I believe there are one-on-one interviews right after. MS has three tracks: Developer,  Infrastructure Engineer and Business Analyst. I'm going for the BA track. I am not an expert programmer so how do I express myself as the best candidate to get the job. They did state to know my resume and why I want to work with IT and Morgan Stanley.  I'm really nervous and this is the only big name interview I have. Thank you guys, in advance!!!!!",
+      "subreddit": "cscareerquestions",
+      "score": 1,
+      "url": "https://reddit.com/r/cscareerquestions/comments/2lyu6q/interview_with_morgan_stanleytechnology_analyst/",
+      "comments": [
+        {
+          "body": "I did the same, but for the developer position. They didn't even ask a single technical question for me - just 2 behavioral interviews asking stuff like why MS, tell me about a time you used technology, talked about a project, etc.\n\nBefore the interviews, they make you do a bridge building exercise with a group to test your group working/leadership skills. You get some tape and newspapers and need to build a bridge to hold 5 lbs. Midway through they \"cut off the power\" and stop you from talking amongst each other, so be sure to plan out everyone's job in the beginning.\n\nGood luck!",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "title": "Handling Offer Deadline While Waiting on Another Response",
+      "body": "I recently had a final round interview with Morgan Stanley, who told me they would let me know if a got an offer within 2-3 weeks. I also have a return offer from another company (F500 but poor reputation at the moment) that I have to reply to within 1 week.\n\n\nI’m torn between three options:\n\n1) Tell Morgan Stanley about my deadline – I'm hoping this might make me a more attractive candidate and avoid having to renege on an offer later. However, I’m concerned that rushing them could lead to a rejection, as their HR process seems to move quite slowly.\n\n2) Tell them about my offer but with a longer deadline (10-12 days) – This could reduce the rush while still showing that other companies are interested in me. I'm still concerned they would simply go with some one else.\n\n3) Say nothing and take the offer – I could accept the current offer and renege if I get a better one later.\n\n\nAny advice on the best approach here? I’m especially worried about jeopardizing my chances with Morgan Stanley. Does having another offer even help?",
+      "subreddit": "cscareerquestions",
+      "score": 1,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1fs19ia/handling_offer_deadline_while_waiting_on_another/",
+      "comments": [
+        {
+          "body": "you can also ask company B for an extension, say two weeks instead of one. Worst case they say no, but they have no reason to take back the offer I don't think. \n\nEither way you should tell Morgan Stanley about your deadline, they have nothing to gain by putting you in a situation where you have to choose between risking it with them vs taking the safe option. They also don't have a reason to take back the offer.",
+          "score": 5
+        },
+        {
+          "body": "From a your point of view, telling Morgan Stanley about the offer and reneging on the f500 if the MS offer comes through is likely the best option.\n\nHowever, I will point out that what people complain about with interviews...\n\nYou have now onboarded with the f500 and started work, and left the next week.  Your manager is going to need to restart the entire process of hiring someone again.  The position has been closed, they have declined all of the people who have interviewed with them.\n\nThe manager at the f500 is now given the option of restarting the entire process or saying \"maybe we don't need a junior dev.\"\n\nIf people want to know where the junior dev positions have gone - they're right there.  In the limbo of \"do we start the process again and have another three weeks of collecting resumes and two weeks of interviews for another 'might get a junior dev' or do we just make do with what we have... or maybe if we've got the budget lowball a mid level dev with the upper end of the pay that we could offer a junior dev.\"\n\nClearly, hiring a junior dev at the f500 and having them grow isn't something that they're able to do.\n\nI'm not saying that you should accept the f500 and withdraw from consideration from MS, but rather that the outcome of this set of how to game the system behaviors writ in large across the entire job market is resulting in fewer junior dev positions being opened up because it is riskier to attempt to hire a junior dev than it is to hire a mid dev.\n\nAny company that is not a clearly first choice with the reputation to get others to renege on a position that they just started at has little to no incentive to try to hire for that position.",
+          "score": 2
+        },
+        {
+          "body": "There should be zero issue telling ms that you want the job badly, have already extended the other offer date.\n\nHR may notify the hiring mgr. If they dont like you nothing will change, if they do like you they make an offer.\n\nI dont see any bad side to this especially if you word it very professionally and clear you want them",
+          "score": 2
+        },
+        {
+          "body": "I think Option 1 hurts you, so do that. In the meantime definitely do accept the other offer and renege if you need to. If they didn’t want to give you any extension, it’s on them.",
+          "score": 1
+        },
+        {
+          "body": "Option 3. Don’t lose out on the job with what ifs.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "I lied about my GPA in the application and resume...now what? (Wall Street Banks)",
+      "body": "I never expected myself to...fuck up...\n\nI have 3 internships under my belt. McGraw Hill, JP Morgan, some small startup and now I am an Junior Equity Research Analyst for a student managed fund group at my university.\n\nThis is my junior year and my GPA resides at a 2.8/4. I need at least a 3.0 to be considered places and so I lied about having a 3.02 GPA and in some places even 3.18. \n\nMy question is, do employers, usually big banks like Goldman, Morgan Stanley, etc. actually double check to see if you're lying about your GPA? Also, is it true they're not legally allowed to obtain my transcript from the school? \n\nWill I get caught? If so what will happen...?",
+      "subreddit": "cscareerquestions",
+      "score": 20,
+      "url": "https://reddit.com/r/cscareerquestions/comments/3uxnsw/i_lied_about_my_gpa_in_the_application_and/",
+      "comments": [
+        {
+          "body": "Well, it's usually banks that are anal about GPAs on their job posts. \n\n&gt; Also, is it true they're not legally allowed to obtain my transcript from the school?\n\nIn any case they're legally allowed to tell you to fuck off if you don't want to give them a transcript.\n\n&gt; Will I get caught? If so what will happen...?\n\nDo you have offers?\n\n- Least awkward case: You don't have any offers yet, and now you know better and will keep applying with your GPA off your resume. \n\n- Best case: Your BSing capacity is unbounded and it'll be a casual, one off e-mail exchange with HR.\n\n- Worst case: They'll rescind the offer for lying about being marginally better than average.",
+          "score": 8
+        },
+        {
+          "body": "[deleted]",
+          "score": 7
+        },
+        {
+          "body": "*\"My question is, do employers, usually big banks like Goldman, Morgan Stanley, etc. actually double check to see if you're lying about your GPA? Also, is it true they're not legally allowed to obtain my transcript from the school?\"*\n\nI provided my GPA but am not sure if they ever checked it. I was not asked to provide a transcript, even after receiving an offer. However, they do reference check information, but these generally are to verify if you are school, not that you have the GPA you say you listed.\n\n*\"Will I get caught?\"*\n\nPossibly. I imagine at some point they might find out, but then again, maybe not.\n\n*\"If so what will happen...?\"*\n\nThey may rescind the offer, they might contact your school's career services center, or they might blackball you for lying. Or they might just contact you for an explanation. You'll never really know until they actually find out.\n\nIt's generally not a good idea to blatantly lie on your resume. It'll bite you in the ass eventually. I would be upfront now as opposed to later as the repercussions are likely lesser now.",
+          "score": 4
+        },
+        {
+          "body": "Not likely to check, I know of people working at some of those places with much bigger lies on their resumes.  You are much more likely to be checked by major government contractors and the like than at those banks.  Still a possibility, but you have plenty of time to bring your GPA up.",
+          "score": 4
+        },
+        {
+          "body": "90% of the time, they don't check. ",
+          "score": 5
+        },
+        {
+          "body": "TIL not to apply at banks because they filter engineers by GPA as if they were accountancy firms.",
+          "score": 8
+        }
+      ]
+    },
+    {
+      "title": "Debating between Internship and Full-Time for a CS PhD Student.",
+      "body": "I am a CS PhD student set to graduate sometime mid-to-late next year (2026). I interned this summer in the ML research group of a major financial institution (Goldman/Morgan Stanley/JPM). The team was good and I generally enjoyed the work and they have opportunity to publish at regular intervals. They also gave me a verbal full-time offer to join them after PhD completion (sometime mid-late 2026). I should be expecting the official letter sometime soon and the salary would be comparable to L4 salaries at Google.\n\nNow I also happen to apply to and receive an offer for a research scientist intern at Meta for summer 2026 (flexible start dates). This isn't super-intelligence or anything, but fairly mature team that works on research/scientific problems in their core business. The team lead reached out to be and mentioned that they do have headcount for full-time and are indeed looking to transition some of the interns to FT based on internship perf and an internal interview. The Meta team's work I think is closer to my research than the bank, but both are relatively in the same ball park fit wise. \n\nI'm deciding how best to play this out. On one hand, the bank offer is solid (it's full-time) and the comp is decent. On the other hand, Meta name (and the team) is solid, even though I have doubts/fears about layoffs and instability there. These are some option I'm thinking through:\n\n1. Reject Meta and just sign whatever offer Bank officially gives.\n\n2. Accept Meta and when the Bank offer comes, sign it if good and reneg on Meta (worried about the reneg).\n\n3. Accept Meta and when the Bank offer comes, ask the start to be later in the year. This way, I to do the meta internship in the summer, and then come back to uni, quickly defend and start the bank job. More exhausting and intense option, but I do get the connections/resume  highlight of Meta which could be useful later on. \n\n",
+      "subreddit": "cscareerquestions",
+      "score": 2,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1p0gic4/debating_between_internship_and_fulltime_for_a_cs/",
+      "comments": [
+        {
+          "body": "congrats on your position! personally i have very little confidence of meta's leadership. personally, i would play conservatively and push the bank's timeline faster and with more TC.",
+          "score": 3
+        },
+        {
+          "body": "1, but I am conservative",
+          "score": 1
+        },
+        {
+          "body": "Whatever you feel sets you up the best in the future",
+          "score": 1
+        },
+        {
+          "body": "Option 3 seems like the best to me given that you already doing intense work. Kicking off your career is not the time to relax",
+          "score": 1
+        },
+        {
+          "body": "Until you have an **written** offer from the bank, you do not have an offer from the bank.  Similarly, until you have a **written** full-time offer from Meta, you do not have a full-time offer from Meta.  At the moment, the only thing you actually have is an intership offer from Meta.\n\nYou don't mention any deadlines for the Meta internship offer, so I don't understand why you have to make *any* decisions *before* receiving an offer from the bank.\n\nI also don't understand why a *summer internship* at Meta would be  incompatible with a full-time job at the bank starting \"sometime mid-late 2026\".\n\nIn short: Option 3 seems like the only sensible choice *right now,* but why do you need to make any choice *right now?*",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Has anyone heard back from Morgan Stanley for the 2024 Technology Full-Time Analyst",
+      "body": "\nHi Everyone, I completed the Hirevue interview about 4 months ago without any news from Morgan Stanley since then. Did anyone receive any rejection/next-round email? I tried to find threads about this but they were related to Summer Analyst and not FTE",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/188g2b2/has_anyone_heard_back_from_morgan_stanley_for_the/",
+      "comments": [
+        {
+          "body": "If they want you, they’ll reach out. If they don’t, they won’t. No sense worrying about an individual company when there’s plenty of other places to keep applying to.",
+          "score": 3
+        },
+        {
+          "body": "I think it’s safe to say you didn’t get it",
+          "score": 3
+        },
+        {
+          "body": "[removed]",
+          "score": 1
+        },
+        {
+          "body": "[removed]",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Share your success story",
+      "body": "I am already feeling down and depressed since I got rejected by few companies like Etsy,Github,Morgan Stanley and I am afraid to get more. I have worked a lot to step up skills in programming and I even started contributing to open source on github I am not sure if that matters but I would love to hear some stories to motivate and share experiences where you were rejected by every company you applied to and how you really felt and how did you managed to get away with rejection",
+      "subreddit": "cscareerquestions",
+      "score": 21,
+      "url": "https://reddit.com/r/cscareerquestions/comments/9oglai/share_your_success_story/",
+      "comments": [
+        {
+          "body": "[deleted]",
+          "score": 34
+        },
+        {
+          "body": "Last year, my sophomore year, I got a job at the very last company I talked to after applying to some 250 positions and now this year, I got an offer from a big4 which was the very first company I applied to!\n\nThe first thing I want to mention is how much luck plays a part, I feel I got those leetcode questions which I studied for the previous 2-3 weeks. Luck is definitely a non-trivial part of it, so don't get too down and keep practicing for interviews. Also, I wouldn't pay too much attention to things you read here, I really have been helped a lot by the people on this sub but for the most part, the posts on this sub are pretty sad and demoralizing and some advice is flat out bad. The resume advice I've received on here ranges from unhelpful to just wrong. I left this sub for the summer and only came back to ask specifics about companies and positions, I would start visiting this sub less and less if I were you.",
+          "score": 15
+        },
+        {
+          "body": "[deleted]",
+          "score": 14
+        },
+        {
+          "body": "Fell into a major depressive episode in high school and started abusing drugs to cope. Went to an extremely non-target university and failed my entire first year of college (all D's and F's). Almost dropped out. Continued to abuse drugs. Ended up having a epiphany in the middle of my college career and got on antidepressants and began giving a fuck about my life. Stopped using drugs, started going to class, managed to get some internship experience through mutual connections at a small company, started practicing leetcode, etc. etc. Graduated college with a 6 figure salary SWE job at a competitive company.\n\nI'm pretty proud of myself.",
+          "score": 6
+        },
+        {
+          "body": "[deleted]",
+          "score": 6
+        },
+        {
+          "body": "I have applied for around 100 internships starting the end of August. Out of those \\~100 internships, I've received a shit ton of coding challenges that turned into a couple phone screens. Those phone screens led to around 5 onsites. I got an offer from one of the companies and rejected from the rest of the onsites. Every onsite took at least 3 hours, so you could imagine how shitty I would feel after devoting so much time just to be rejected.\n\nBut remember, it's a numbers game. You just need to be able to finesse ONE company. You're on the right track and just keep every failure as a reminder that you should keep trying and grind harder. You got this!",
+          "score": 3
+        },
+        {
+          "body": "After over a hundred sent in resumes across multiple fields, I got two remote interviews, and lost both of them. A good third of the jobs still haven't sent me a single reply to this day. But once I moved from Los Angeles to Tucson, 5 resumes in and after 3 in-person interviews I land a well-paying part time job.\nI advise a potential change in scenery. The tech market is highly saturated in big coastal cities, so companies elsewhere are desperate for jobs. Find a growing city not in California or New York and see what opportunities you can find there.",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "title": "First Internship Choices",
+      "body": "Hey so I’ve had 12 interviews for different companies ranging from big ones to 1-2 people startups.  \nI’m in the co-op program at my uni so I have to wait until Oct17 to see how I’m ranked and then I can rank the companies back and hopefully have a match.\nBut I’m wondering out of these companies which ones would look better on a CV?\nMorgan Stanley,\nBombardier,\nUbisoft,\nCAE (avionics Engineering company),\nIntact insurance,\nSun life financial,\nor startups. \nI know in startups I’d be doing a lot more meaningful work but I feel like it might be too much for my first one. \nAny advice helps!!\nThanks:)",
+      "subreddit": "cscareerquestions",
+      "score": 1,
+      "url": "https://reddit.com/r/cscareerquestions/comments/dc4wr5/first_internship_choices/",
+      "comments": [
+        {
+          "body": "Morgan Stanley",
+          "score": 6
+        },
+        {
+          "body": "In rough order:\n\nMorgan Stanley\n\nUbisoft (this is close enough to above that if it seems more fun, do it)\n\nProbably the aerospace companies\n\nProbably the insurance companies\n\nThe startups are a bit of a wild card.  Don't go to a 1-2 person company.  If there is a company Series B or later that is growing with a strong tech team, I'd strongly consider that over Morgan Stanley/Ubisoft--they'll tend to have a more up to date stack, more interesting product story, etc.  Really depends on the startups, of course, and I realize that may be tough for you to judge at this point in your career.",
+          "score": 3
+        },
+        {
+          "body": "Intact insurance by far amazing benefits good pay\nWhat subject might I ask?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "What is with these recruiters who recruit for other big corportations?",
+      "body": "So I had two experiences with recruiters who work for a recruiting company and they \"hire\" for a bigger corporation. Both the times, I was contacted on Linkedin.  \n\n\n**Microsoft**: In this case, it was legitimately an opportunity with Microsoft. Like I flow out to Seattle and stuff. I interviewed at a Microsoft office. I asked them a 100 times if I would be working for the recruiting organization or Microsoft and they told me that I will be working for Microsoft. I didn't prepare for the interview well, so I ended up not getting the job.  \n\n\n**Citadel:** This person was messaging me incessantly on Linkedin about an opportunity at Citadel. I finally gave in and told me to contact me next day at 1:00 PM. That guy calls me 3 days later at a random time. Calls me relentlessly. I was in a meeting with my boss. I tell him to call me back later and he just doesn't listen to me. He kept on asking me, what VISA category I was on. And then he starts pitching me a senior software engineer job at Morgan Stanley that requires 5 years of experience. At that point I had 1 year of experience exactly.\n\nSo my question is, essentially, do companies use a third party to recruit full-time regular employees? I am not actively looking for a job but if someone offers me a role in Citadel or 2sigma, I am not going to turn it down.",
+      "subreddit": "cscareerquestions",
+      "score": 38,
+      "url": "https://reddit.com/r/cscareerquestions/comments/dxo0hx/what_is_with_these_recruiters_who_recruit_for/",
+      "comments": [
+        {
+          "body": "&gt;So my question is, essentially, do companies use a third party to recruit full-time regular employees?\n\nYes, this is extraodinarily common.",
+          "score": 47
+        },
+        {
+          "body": "This same thing happened to me with Two Sigma - recruiter reached out and I thought it was for a staffing company working w/ two sigma as a client. Turns out it was for thr actual company. Seems fairly common for competitive companies that don’t have enough recruiting power of their own.",
+          "score": 18
+        },
+        {
+          "body": "&gt;So my question is, essentially, do companies use a third party to recruit full-time regular employees?\n\nYes, they do.\n\n&gt;And then he starts pitching me a senior software engineer job at Morgan Stanley that requires 5 years of experience\n\nThere are unscrupulous 3rd party recruiters who will try to bait or lie to you with a top name company (the role may not even be open anymore) and then pitch you other random opportunities, including ones that are not a great match in terms of skills and experience. Basically they will do anything to try and make a placement happen. Many focus on quantity, not quality, to try and maximize their commission.\n\nUnfortunately, a lot of smaller trading/financial companies publish job listings to a lot of 3rd party recruiters (both great to work with and terrible ones) for legitimate, full time positions which can lead to bad experiences like the one you had. There are often internal recruiters as well but not as aggressive and not as many in number.\n\nOnce you have a few of these experiences you should pick up on what questions to ask and what to avoid.",
+          "score": 10
+        },
+        {
+          "body": "Exact opposite happened with those two companies.\n\nA third party recruiter contacted me about Citadel.  It turned out fine.  I got a second round interview (which I declined - already accepted another offer).  But, yeah, the recruiter was legit.\n\nMicrosoft, a third party recruiter contacted me, and was very adamant that I only go through her for any Microsoft opportunities, but presented me no offers and kept trying to push me to Seattle (that's a hard no).  Nothing came of it.  \n\nDuring my interview process earlier, here's a rough list of major companies that contacted me internally (i.e. at least talked on the phone with an in-house recruiter or hiring manager on the phone without being connected to by an outside party):  \n\n* Netflix\n* Facebook\n* Amazon\n* Google\n* Atlassian\n* Tesla\n* Oracle\n* Palo Alto Networks\n* LinkedIn\n* Databricks\n* Splunk\n* The mid-size company I work for which I definitely won't name\n\nHere's a list of companies that used a 3rd party recruiter:\n\n* Citadel\n* Microsoft\n* Vatic Labs\n* A South Bay unicorn I won't mention because it may identify me as they weren't hiring much and they gave me an offer\n* Various startups\n\nSo, the vast majority of big companies, in my experience use their own in-house recruiting.  Not sure why Microsoft uses third party recruiters.  Maybe their HR department is waiting on Windows update or something.",
+          "score": 17
+        }
+      ]
+    },
+    {
+      "title": "Paranoid I wasted an easy job",
+      "body": "I think a lot of people will hate me for my stupidity, but here it goes.\n\nThis past year, I had a very easy job. I started work in 2021. If I studied algos and did two leetcode mediums a week, I would be killing every interview on my way. Instead, I was wasted all my time on youtube, memes, etc. I am two years out of college and most would say I am way underpaid, but they do not know my skill level.\n\nMy descision to lay off the coding for bascially a year-taking a year long break-was even dumber considering how behind I am from my peers or serious coding.\n\nI also had no responsibilities or obligations. I was at my parents house. I was essentially a bum. Nothing to do or worry about outside of work for a year, and the work was easy and slow.\n\nI never realized how hot the job market would be. I am now getting interview from facebook, capital one, jp morgan...companies that never used to look at me. The problem is I am extremely unprepared for the coding portion of these interviews. I just screwed up capitol one. I also bombed a Morgan Stanley interview a few months ago, (although that was more because they asked me to take out an IDE to code without telling me before the interview).\n\nI am trying to play catch up. Any problem with sorting a list of finding unique values i can do well. But I hate my own laziness. If i had not been so lazy over the last year, I wouldn't have to do anything but just prep for the behavioral aspect.\n\nI do have a nice, fully remote job offer. It burns me that the offer of my dreams was just in reach. Everything was perfectly set up for me to have easily secured one. \n\nMy greatest fear is that if I take this new job and work there for a year or so, the market conditions will not be as good in the future as they are now, meaning that JP Morgan, Morgan Stanley, Facebook, and all these companies I have struggled to get interviews for will not interview me again.",
+      "subreddit": "cscareerquestions",
+      "score": 2,
+      "url": "https://reddit.com/r/cscareerquestions/comments/s4csdu/paranoid_i_wasted_an_easy_job/",
+      "comments": [
+        {
+          "body": "So accept the offer and continue interviewing",
+          "score": 14
+        },
+        {
+          "body": "Is there a question here?",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "title": "Why are companies like FDM so successful?",
+      "body": "FDM Group is an IT consultancy that supplies blue chip companies (big banks and financial services companies, mostly) with various software and IT professionals including software developers, testers, data analysts, etc.\n\nThey train applicants for 2-4 months (depending on the role). Then, the applicant must work for them for 2 years on contract (30k penalty if you quit early) on a client site. They have offices across the world (including U.S., Canada, UK). \n\nNow here's the thing: their training is either unpaid or minimum wage, depending on location. The pay during the contract is a fraction of what the company pays for your services (you get &lt;40k a year as a backend Java developer at a major financial institution). If they cannot place you, you continue to get paid minimum wage and must attend their academy full time during this process. \n\nThey've been around for 25 years now. Their revenue is in the hundreds of millions and is growing at a rapid rate. Only a single-digit percentage of applicants even get interviews at their company. \n\nGiven the supposed shortage of programmers, how is this company so extremely successful despite paying &lt;20 bucks an hour with a horrible contract? It's not like they're supplying shady companies - their clients are places like Citigroup, RBC, Morgan Stanley, Nexj Health, etc, and consultants are doing proper work as Java software developers.",
+      "subreddit": "cscareerquestions",
+      "score": 39,
+      "url": "https://reddit.com/r/cscareerquestions/comments/4yphqm/why_are_companies_like_fdm_so_successful/",
+      "comments": [
+        {
+          "body": "Hey, I'm a current software developer under the FDM contract. I can shed a few things that I know and you can decide why the company is successful.\n\nFirst of all, I got to correct a few things.\n\n&gt;you get &lt;40k a year as a backend Java developer at a major financial institution\n\nIt's actually around 45k the first year and 50k the second year (the 50k for second year was a recent change).\n\n&gt;If they cannot place you, you continue to get paid minimum wage and must attend their academy full time during this process. \n\nThis isn't true. If they cannot place you for a while, they will ask you to leave. It has happened before and I have seen it happen. Remember, if you aren't placed, they are still paying you regardless how little money it is. Plus, you get to use all their resources while you were there, it's not a win for them if they cannot place so they will kick you out.\n\nOkay, here are some reasons why I joined and probably how they became successful. Because let's face it, the main factor of why they're successful is because a lot of people joined and are working for them. I am gonna use myself as an example and you can pretty much use that for the rest of the people who joined, because from what I've learned, we were all pretty much in the same boat.\n\n1. I wasn't able to find a job. Before you coming up to me and tell me that I am a retard for signing up this job instead of looking the one billion jobs out there. You weren't the first and you won't be the last. Trust me, we have think this through before signing up, you really don't need to tell us what has been done, said and considered by us. Despite how 99% of the sub have 15 internships at Google, Amazon, and Facebook within 2 years of college summers, and a full-blown OS programmed since the age of 5. The 1% who never had an internship nor any ground-breaking projects in college exist. I am part of the 1%!!! :D\n\n2. The training was actually useful. I learned a lot. The training wasn't a joke, they were actually training us on things that are practical and useful. I learned none of these stuff in college and I can say that they are way more useful than what I've learned in college for the past four years. And please, I know the difference between software engineering and computer science. I am just stating what is true. It is true that the things I've learned are more practical. I'm not saying the four years of college were useless. And most importantly, I'm not saying the training was better than college as a whole. But in terms of being out in the field and having the knowledge of the technologies I'm using, you really can't argue that.\n\n3. I was able to get my foot in the door at a blue-chip company. Like you said, it is not a scam. They REALLY do have a big list of blue-ship company clients, and I am currently placed in one of them. \n\n4. This is used as a stepping stone. After two years, we're free. We will have blue-chip companies on our resumes and the two-year experience at those companies. The way I see it, two-year is nothing, I remember being a senior in high school getting all excited for college and then I blinked, BAM five years went by.\n\nI guess these are really the main points that I have. A few minor things that I can toss into the basket I guess are networking and free resources like trainers and Safari books. And I honestly didn't mind the low salary. Don't get me wrong, money is important to me but again this is just a stepping stone. I'm not gonna be stuck with 45k salary for the rest my life.\n\nI am not promoting FDM. I am not telling you to join or not join FDM.  This is just me sharing what I've learned from joining FDM.",
+          "score": 40
+        },
+        {
+          "body": "Why? Primarily both of the following:\n\n1.) There is no shortage of \"programmers,\" especially on a global basis (the US itself graduates tens of thousands of CS degree holders on an annual basis and countries like India churn out tens upon tens of thousands of people with rudimentary programming skills every single year).\n\n2.) The vast majority of necessary (and thus available) software work isn't creative, interesting or glamorous in the slightest. It's glorified data entry.\n\nYou don't need brilliant developers with esoteric skills to reproduce a basic spec that consists of little more than moving a simple hardwired data input to some standard form of storage, and companies don't need to maintain entire in-house IT departments to do this sort of work when the actual need for it is so highly variable. That's the *huge* market that a lot of these consulting firms fill. \n\n&gt; The pay during the contract is a fraction of what the company pays for your services\n\n*Everybody* working as a full time employee in this industry and doing at least a decent job of it is compensated with a fraction of the value they actually create; that's a simple byproduct of capitalism and ownership over the means of production. Yes, a consultant at FDM is getting $20/hr while their employer (firm) bills them out at a rate several times that, but those getting $150-200k/year (who *think* they're doing well) are typically generating *millions* in measurable returns for their own employers.",
+          "score": 13
+        },
+        {
+          "body": "What is the source for the single digit interview rate number? If it's from fdm themselves, keep in mind that they have a financial interest in appearing selective.",
+          "score": 5
+        },
+        {
+          "body": "I would guess they provide shit coders to cheap companies and in return get a shit product back.  ",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "title": "Morgan Stanley or Cisco?",
+      "body": "Got offers for both but I’m really not sure with their culture and what their work is like. I feel like asking them during the interview I always get positive feedback because why would they say their work isn’t boring? Any feedback is appreciated.\n\nPay is about the same",
+      "subreddit": "cscareerquestions",
+      "score": 2,
+      "url": "https://reddit.com/r/cscareerquestions/comments/y2o7fm/morgan_stanley_or_cisco/",
+      "comments": [
+        {
+          "body": "Any outstanding perks??? I know a guy with Cisco in Wisconsin with 100K TC, pretty chill.",
+          "score": 2
+        },
+        {
+          "body": "I haven’t worked in either of the companies, but I’d pick Morgan Stanley. FinTechs pay much higher than industry. And if title is important to you, FinTechs hand out Assistant VP or VP like candy.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "First tech int...at Morgan Stanley.",
+      "body": "I just got my first ever tech interview (second-year SWE student), for a co-op position. Its for Morgan Stanley. Has anyone gone through their interview process? How intense is it and how are both the technical and behavioural questions there? I'm extremely nervous and have a week to prepare for it so I want to be ready for anything.",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/xjokkc/first_tech_intat_morgan_stanley/",
+      "comments": [
+        {
+          "body": "practice blind 75",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Career Options",
+      "body": "Throwaway account for anonymity.\n\nI am currently a Junior Computer Engineering student at a non-target school.\n\nLast summer I interned at a software company in NC, 22/hr (remote). I had a really good experience, and I really enjoyed the project that I was working on. I was hired as a year round intern for a different team but same project. I now work about 13hrs per week on top of school for the same company. My role over the summer was as a software dev, and has now evolved into more of a cloud maintainer(not exactly sure my title). The year round intern role is a pipeline to full time usually for interns in their junior year(i was in my sophomore year).\n\nI've explored my options at other companies and was rejected from Morgan Stanley, Amazon, and Microsoft all in the final rounds. I have upcoming interviews with Goldman Sachs, Facebook, C1, and Tik Tok. \n\nThe problem that I am having is that I would like to return to my current company next summer, and potentially following graduation. But, the work I am doing is not worth 22/hr. I have taken on some of the responsibilities of a team member that is retiring at the end of the month, and he was making upwards of 130k. While I do want to see what other opportunities are out there, I mainly want a competing offer to counter my manager with and prove that I should be paid at least 30/hr (on the low end). \n\nAlso, these interviews are extremely stressful and have impacted my study/social life negatively. At this point I just want to focus on school and work, and not worry about the internship search. My career advisors at school suck and none of my friends understand the pinch that I seem to be in. \n\nWhen should I start talking with my current manager to see what accommodations he can give me? Before or after I get an offer?",
+      "subreddit": "cscareerquestions",
+      "score": 3,
+      "url": "https://reddit.com/r/cscareerquestions/comments/qi2u55/career_options/",
+      "comments": [
+        {
+          "body": "The time to negotiate is before you sign a document saying you agree with your salary. As for how to do it, just do your research and make sure you deserve the amount you deserve, and be prepared to walk away. That’s it.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Which internship for summer 2020?",
+      "body": "I was fortunate enough to receive intern offers from both Morgan Stanley (summer tech analyst) and Amazon (sde intern). I already accepted Morgan Stanley because Amazon's interview process took too long, but I'm willing to renege.\n\nThe pay is roughly the same with some caveats like Morgan Stanley paying 1.5x overtime and Amazon offering more relocation assistance, but I do not have a preference between the two.\n\nInterviewing at Morgan Stanley has been pleasant and every former intern or current tech analyst I talked to had nothing bad to say about the company.\n\nI know I should go for Amazon if I want to work at typical tech companies and not in the finance industry. But I actually study economic/statistics and I'm very interested in markets, finance and firms like Jane street and 2 Sigma. Is Amazon still the better choice if I eventually want to apply to these firms even if Morgan Stanley is a well-known name in the finance industry?",
+      "subreddit": "cscareerquestions",
+      "score": 3,
+      "url": "https://reddit.com/r/cscareerquestions/comments/ds9nx6/which_internship_for_summer_2020/",
+      "comments": [
+        {
+          "body": "Amazon is still the better choice, and you won’t actually get any overtime pay.",
+          "score": 9
+        },
+        {
+          "body": "go with amazon. being a tech analyst at ms isn't great. The main role will be to provide secondary services to their primary analysts that do IB, securities, etc.",
+          "score": 1
+        },
+        {
+          "body": "Go with Stanley",
+          "score": -2
+        }
+      ]
+    },
+    {
+      "title": "UPS vs Morgan Stanley",
+      "body": "I recently got a offer for industrial engineering internship at UPS. I also have a interview at Morgan Stanley as a business analyst doing somewhat technical stuff (its in employee trading business unit). My background is major in economics, have taken some cs classes, worked as a software developer for a year for a startup, then as a analyst for a bank. The pay for the industrial engineering intern role as the same as a business analyst at MS which is weird but I guess engineering pays more in general. I like to trade in my spare time and build automated trading systems. If I join MS, I believe due to volcker rule I would not be allowed to trade anymore and alot of traders left after that rule was put in place so there are practically no traders to learn from either. If I want to get into prop trading(or eventually building automated systems, I currently use sites like quantopian and tradingview) in the future which opportunities should I take now? With UPS I can continue trading on the side as a hobby while having a steady job if trading does not work out. ",
+      "subreddit": "cscareerquestions",
+      "score": 2,
+      "url": "https://reddit.com/r/cscareerquestions/comments/6a2zgu/ups_vs_morgan_stanley/",
+      "comments": [
+        {
+          "body": "[deleted]",
+          "score": 6
+        },
+        {
+          "body": "MS still has trading roles if that's what you'd like to do at work, e.g. see job number 3064519 (quantitative trader/developer). If you meant you won't be allowed to trade at home, that's not really a consequence of the Volcker rule, but a more generic compliance thing where they'd probably tell you to clear any trades you want to make at home with compliance beforehand (which clearly doesn't lend itself well to running anything automated at home.) ",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "title": "Big companies - does GPA matter?",
+      "body": "\"No, they focus on personal projects / leadership in projects and how well you demonstrate your abilities\". The general typical response, but some companies like Deep Mind, Google, Morgan Stanley etc. ask for a copy of your transcript (for both internships &amp; full-time jobs).\n\nSo here's the deal: I've always felt super under qualified bc of my gpa when thinking of applying to companies (I'm quite literally just skimming by with my gpa). My resume is docked with projects and leadership experience but I always feel hopeless against companies that explicitly require a minimum 3.0 gpa for internships (like Cisco, Morgan Stanley, etc.). Does anyone know if most of the big companies (like Microsoft, Google, FB, etc.) actually lowkey care about how you're doing in school? (esp. if it's not explicitly stated as a requirement) People always say \"gpa doesn't matter, they look at projects etc.\" but whenever I see a field in an application that says \"please submit your transcript\", I immediately back out cause I assume no one wants someone with such a low gpa, despite my packed resume. This fear doesn't really apply to companies that don't ask for a transcript at all, cause they're obviously not gonna see my depressing transcript if they didn't ask for it. Any advice or insight would be super appreciated!",
+      "subreddit": "cscareerquestions",
+      "score": 6,
+      "url": "https://reddit.com/r/cscareerquestions/comments/f3z32r/big_companies_does_gpa_matter/",
+      "comments": [
+        {
+          "body": "It can matter for getting the interview, but not once you've gotten it. For example, I had a 2.5 GPA.",
+          "score": 5
+        },
+        {
+          "body": "Google didn't even know what my college GPA was until after my first interview.\n\nIt may be a bit more important for your first job out of college, but after that no one cares (within reason... a 0.0 might raise some eyebrows)",
+          "score": 5
+        },
+        {
+          "body": " Some organizations have a semi-firm cutoff for GPA that will filter your resume if it's too low. After your first job, it's a non issue. \n\nI'd say if your GPA is below 2.75, keep in mind that you might get asked about it. I'd definitely want to see a stellar interview, awesome code, and a solid explanation of why it's so low. The market is so saturated that most employers can afford to simply pass. Be ready to compensate for it.",
+          "score": 3
+        },
+        {
+          "body": "Morgan Stanley and any investment bank will ask, since they care about that. Quant firms too, since they get superstar students from the best CS schools (although HRT didn't seem to bother with my &lt;3.5 GPA), Citadel has a hard 3.5 requirement most of the times (as told to me by Citadel folks).\n\nFAANG -&gt; Interviewed with Fb (got to the onsite and was strongly encouraged to reapply soon),Apple and Google. The first two didn't even ask and Google might want a 3.0 but I have seen tons of students below a 3.0 get through.",
+          "score": 2
+        },
+        {
+          "body": "Microsoft gave me a new grad offer without even seeing my GPA",
+          "score": 2
+        },
+        {
+          "body": "no\n  \nI've interviewed with 4/5 Big Ns (G/MS/FB/Ama/Apple) with 3 of them turned to onsites, not 1 asked about my GPA",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Morgan Stanley Compensation",
+      "body": "Hey,\n\n&amp;#x200B;\n\nI have received an offer from Morgan Stanley for a Summer Tech Analyst Role. I also have an interview scheduled for Goldman Sachs. GS pays 100$ base + 35k$ Signing bonus to their FTE Tech Analyst. I am not able to gather the same information about Morgan. Can someone provide any latest info on this?",
+      "subreddit": "cscareerquestions",
+      "score": 5,
+      "url": "https://reddit.com/r/cscareerquestions/comments/a3g8uo/morgan_stanley_compensation/",
+      "comments": [
+        {
+          "body": "I don’t know how much Morgan Stanley pays, but there is no way Morgan Stanley pays better than Goldman Sachs.",
+          "score": 7
+        },
+        {
+          "body": "I can say one thing though since you are involved with Morgan Stanley and considering ditching them. If you accept Morgan Stanley's offer for internship/full time and renege later, they will complain to the school's career services. This has happened to two of my batchmates. Both of them had to appear before the university's registrar for a \"hearing\" and they were subsequently barred from attending career fairs.",
+          "score": 3
+        },
+        {
+          "body": "New grad was 85k this year, not sure of singing bonuses and whatnot. FYI Goldman isn’t doing too well ",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Should I work at a tech company or take the job at a bank?",
+      "body": "Graduated two years ago, I've been working at Amazon Web Services for the last year and a half. For a number of reasons my performance has gone down (lack of interest, mental problems) and I was considering leaving at about the same time that I was informed that my manager wanted to work with me to improve my performance. Since then, I have been actively looking for another job (I know that sounds harsh, but I wasn't exactly having a fun time at my current job anyway). One of the better jobs is a Scala tooling / developer / development productivity platform improvement project for Morgan Stanley in New York. Now I love Scala and the people on the team seem to know what the f they are doing (I had questions on Java classloader and byte code and advanced Scala features) - like this seems to be one of the better teams at JP Morgan. And potentially they might be able to pay well (the recruiter said that the manager would be willing to pay $215k in a heartbeat although there would be resistance from the HR department). That being said, I am concerned about a few things.\n\nOne of the coding interviews they threw at me was very easy. Like it worries me that they have such easy coding interviews compared to say the big tech companies because that suggests to me that they're not filtering out a lot of the less intelligent people that places like say Google are filtering out. Second, when I said that I couldn't install Skype and asked to use Google Hangouts, they said that Google Hangouts wasn't on the approved list and that they couldn't use it. The fact that they have an \"approved list\" and strict firewall kind of worries me because at Amazon Web Services I could go on literally any website and the only caveat was that I couldn't install stuff except through Amazon's secure built-in installer thing that comes on every laptop. But at Amazon I could literally go on any site and the system wouldn't block it.\n\nAlso, the culture difference between a place like Amazon and a place like Morgan Stanley is a thing of concern. Can anyone with personal experience elaborate on the difference? Like on my team people wear jeans and funny shirts that say things like \"I work on computers\" with a picture of a cat napping on a computer. Another guy wears a shirt with ninjas fighting a dinosaur. One girl wears jean shorts and flip flops and a button down shirt (she has a thick Cali girl accent with a vocal fry). How is the culture and stuff different between a place like say Amazon Web Services and a place like Morgan Stanley? Also, can anyone brace me for the sort of corporate red tape bullshit that I might run into at a financial institution? Also the hours - at Amazon I never worked more than 8 hours a day (less on a Friday). Can anyone elaborate on the hours that bank employees have to work?\n\n\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\n\nSide note: I started interviewing for Google and they fast-tracked my application (that being said, it can still take well over a month to get through the whole interview process). Like they skipped the initial technical phone screen. Should I wait, maybe review my CS fundamentals and maybe try and see if I can get an offer from Google? Or maybe just take the Morgan Stanley job but go through the Google interview process anyway as a backup so that if I pass at least Google has me in their database.",
+      "subreddit": "cscareerquestions",
+      "score": 2,
+      "url": "https://reddit.com/r/cscareerquestions/comments/96dntx/should_i_work_at_a_tech_company_or_take_the_job/",
+      "comments": [
+        {
+          "body": "At   a bank, the technology side is a cost centre, whereas at Google, it's regarded as a profit center.",
+          "score": 3
+        },
+        {
+          "body": "Damn I gotta go to Morgan Stanley.\n\nYou won’t work more than 8 hours. If you’re a consultant you definitely won’t. The guys who are putting in significantly more hours are Quants, traders, IB, Accountants, and M&amp;A usually. Also that interview sounds like standard practice.",
+          "score": 2
+        },
+        {
+          "body": "215k at Morgan with 2 years of experience and not even in the field?That's way more  than I earn(also HCOL) and I work as an Algo dev on Trading System with 4 years in Finance/Trading at a similar company.\n\nbank have easier interview so its not surprising.bank have strict firewall that block lot of stuff.I worked at a large bank(soc gen) and the firewall was ridiculous.",
+          "score": 2
+        },
+        {
+          "body": "I would accept the MS offer and renege if you get the Google one. \n\nI personally could never work at a big bank. The culture and the lack of importance they give to tech isn't appealing to me.",
+          "score": 1
+        },
+        {
+          "body": "Do you have a written offer right now from MS? When did you receive it?",
+          "score": 1
+        },
+        {
+          "body": "You should take the job for Morgan Stanley. The \"approved list\" of software is just an example of the different culture there. You are probably going to have dress a certain way, start work at a specific time each day, and so on. Sounds like the tech and job there is good. As long as the compensation is very high, take this job.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Internship 2 choices",
+      "body": "Hi, so I have an interview tomorrow at Morgan Stanley for an internship, and in the job description it mentions that we will be placed in one of two teams. (If I’m hired of course)\n\nI was wondering if there’s one that’s better than the other in terms of experience and having it on my CV?\nThe first is Development team -&gt; design, develop and maintain applications, etc.\nSecond is Infrastructure team -&gt;  develop systems to run the business, OS and databases for the company’s trading apps, etc.\n\nSo is there a clear winner out of the two?\nThanks in advance!",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/d9e3gv/internship_2_choices/",
+      "comments": [
+        {
+          "body": "They're both practical development. I'd just go with what you prefer personally. If you prefer app design do that, otherwise if you prefer more backend/infrastructure do that. It sounds like infrastructure is more devopsy, so that's personal preference IMO.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Does Morgan Stanley check transcripts before the internship starts?",
+      "body": "The offer details said I had to have a 3.0 GPA, which I am above right now, however, I am taking a bunch of hard classes and I don't want to lose this offer if in the worst case my GPA drops below a 3.0 after next spring. I already sent them my unofficial transcript as part of the application process, so If anyone could let me know if the offer is going to be rescinded if it drops below a 3.0, that'd be great! I have a couple of other offers as well, in that case, and I could look into them, even though MS is my top choice.",
+      "subreddit": "cscareerquestions",
+      "score": 2,
+      "url": "https://reddit.com/r/cscareerquestions/comments/9xpqas/does_morgan_stanley_check_transcripts_before_the/",
+      "comments": [
+        {
+          "body": "Very, very unlikely.\n\nBasically the CV gets you the interview. (And GPA is part of CV.) But the interview performance gets you the job.\n\nGetting good candidates is hard!\n\nThe GPA on the CV was clearly marked as provisional, I assmue. And you will have a really good excuse for why it might drop in the meantime.\n\nAnd even if: Any hiring manager, or company, who punishes you for taking hard classes is best avoided.",
+          "score": 4
+        },
+        {
+          "body": "Hey, did you end up getting GPA verified?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Morgan Stanley Summer Technology Analyst",
+      "body": "Hi,\nDoes anyone know if Morgan Stanley is still looking at applications for the 2017 Summer Technology Analyst Program? I looked at related posts going back for about 4 months, and most posts I see about Technology Analysts are either for Goldman, or JP Morgan. Not much has been posted about Morgan Stanley.\nThanks in advance!",
+      "subreddit": "cscareerquestions",
+      "score": 3,
+      "url": "https://reddit.com/r/cscareerquestions/comments/5swz81/morgan_stanley_summer_technology_analyst/",
+      "comments": [
+        {
+          "body": "I applied like 3 months ago. since then I've gotten 1 update from them saying they are in the process of \"reviewing\" my application. ",
+          "score": 2
+        },
+        {
+          "body": "Got invited to on-site today actually for their Quantitative Finance(strats) team",
+          "score": 1
+        },
+        {
+          "body": "I interviewed with them for summer technology analyst at the beginning of January. Last year they sent out invitations for first round at the end of January and the on site interview was mid February.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "The recruiter told me before the interview that they cannot match my current base pay.",
+      "body": "So, I will be interviewing with a company that is owned by a Big4 tomorrow. The interviewer today, called me and told that they know how much people at my current company are compensated and they have a hard time matching the base pay. They will, however, make up for it in stocks and bonuses. He told me that if he wouldn't have told me this, he would get yelled at, when I reject the offer. I kind of saw this coming going in, but I was hoping that I might be able to bargain a better deal. There's about 25k \\~ 30k difference in base pay according to Glassdoor. The company that I work for doesn't offer stock options but my net comp is around 150k.   \n\n\nThere are two reasons, why I am thinking of attending the interview tomorrow.\n\n1. Interview practice\n2. I am hoping to get into a nice team in this company, like their machine learning teams or something low-level systems programming.  \n\n\nIf they offer me a base pay 10k lower than my current base pay or if the net comp is less than what I currently make, I will be inclined to reject the offer. In this case, will there be any consequences for me? Will this company complain to my current employer that I attended their interview(does this happen?)? I know for a fact that Morgan Stanley complains to your University career services people if you renege on their offer. ",
+      "subreddit": "cscareerquestions",
+      "score": 2,
+      "url": "https://reddit.com/r/cscareerquestions/comments/9ssxdc/the_recruiter_told_me_before_the_interview_that/",
+      "comments": [
+        {
+          "body": "Sorry, your submission to /r/CSCareerQuestions has been automatically removed. Please save interview discussion, advice, and critique requests for the weekly stickied thread.\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/cscareerquestions) if you have any questions or concerns.*",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "How long did it take Morgan Stanley to give out any news from the final interview?",
+      "body": "First interview was on 15th Oct and got a call from the HR and set up a final interview on 21st Oct. it’s 5th Nov now and still no news. I sent a follow-up email to the HR and no response from them as well. Should I just move on?😭",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/1oot8r0/how_long_did_it_take_morgan_stanley_to_give_out/",
+      "comments": []
+    },
+    {
+      "title": "How to stand out in Group activity Round prior to getting through to the Interview at Morgan Stanley for the role of an Analyst?",
+      "body": "",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/5h84mt/how_to_stand_out_in_group_activity_round_prior_to/",
+      "comments": [
+        {
+          "body": "what exactly is a group activity round?",
+          "score": 1
+        },
+        {
+          "body": "In that Group Activity event will be a bunch of young hires who will be there to fit in and get social impressions from the applicants.  They will be told to lie to you and say they are there applicants even though they are there to get an impression on every person.  \n\nAs the interviews progress, they may target someone for a social interview if they were too quiet in that Group Activity.\n\nBut you aren't there to stick out.  You will only come off as rude and a kiss ass.  It is a social skills test.  Try to mix and mingle as much as possible.  Start off by making friends.  Just keep introducing yourself and make as many friends as possible.  \n\nDo this by asking questions.  Where did you go to school?  Is that where you grew up, or did you go away to school?  What was your major?  This should be enough to start a question.  If someone joins the group, immediately reach out to them, introduce yourself, and invite them into the conversation.\n\nOther conversations could range anywhere from sports, to how did you get into / get attracted to finance?  Be careful talking about sports, it is a tricky one to bring up.  But if someone is talking about it, don't be afraid to join in.  \n\nIf someone is wearing a wedding ring is the only time you can bring up family.  How long are you married, how did you meet?  Any children in the plans?  But this is personal and touchy.  So stick with professional topics.\n\nDon't be afraid to ask someone if they work there or are they an applicant.  Stay in a conversation until your beverage runs out.  Don't talk with your mouth full.  There will be open bar and plenty of food.  If you need a drink for food, go for it, but switch back to soda asap.  I usually sneak one drink in an event.  And I show up with one in me.  So two drinks in 3 - 4 hours.  I'm always sober.\n\nYou need to keep moving, prove you are social, and demonstrate manners.\n\nDon't intrude on a group that is talking.  That is rude.  Find someone that is standing alone, and spark up a conversation with them.  \n\nSmile the whole time!",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Investment accounting pivot",
+      "body": "Hi,  \nI am currently in the interview process for the investment accounting group at blackrock in Edinburgh. I am ACA qualified with 0 years post qual experience as I left to pursue a masters in CS. I want to break into the investments space but am having a hard time doing so at the moment. Is this role a good way of trying to pivot to blackrocks front office? Would I need to also complete the CFA exams? I am profficient at coding in Python and C++ and would ideally like to break into a quant role if possible. The only other option I have is Morgan Stanley in Glasgow but this is compensation accounting and so its right at the back of back office.\n\nAny advice would be appreciated.",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/1o6m1qg/investment_accounting_pivot/",
+      "comments": []
+    },
+    {
+      "title": "[UK Specific] Worried prospective grad",
+      "body": "I posted before, but no one replied with any suggestions. I hope I am allowed to post again.\n\n================================================\n\nI am in my penultimate year at good Scottish university and am doing okay. I am no superstar and find a lot of subjects demanding but I am coping. I have a few questions regarding mostly UK because it should get more love here, especially for new grad prospects in current tech market.\nMy issue is that I applied for around 20 companies, starting in late November for software engineering internships. Almost all banks rejected me without interview which cut down on number of internships available in UK. I now have three leads and will go to interviews but in case I fail to obtain internship, what can I do? Build projects over summer and start applying early for graduate roles?\nI spoke with a recent graduate in CS who found work successfully without internships and he told me to do market research, i.e. what is in demand in combination with choosing what interests you and delve deeper into that.\nRegarding application for graduate roles, I am interested in trying out embedded software path, data science or something more sophisticated because I want to get into the field of IT that is more in demand and has higher barrier of entry, mostly to reduce competition. For embedded, my plan is to go on and do EdX course on embedded systems and learn C/C++. However, at the same time that would make me too specialized and there are a lot fewer embedded software companies(ARM, Nvidia, Qualcomm, AMD, Intel?) and most are highly competitive. I am thinking of a fallback plan of learning something like C#/Java, i.e. build a project and apply to more generic companies like banks(Morgan Stanley, JP, some hedge funds etc).\nSo, I want to be madly prepared for technical interviews(Leetcode etc.) and have some projects in both embedded software and somewhat more generic apps to show off.\nI am pretty happy with embedded project prospect(welcome ideas anyways) but would like to know what project would be something in C#/Java realm and would take at most 2-3 months to complete but still show my skills.\n\nResume: https://www.dropbox.com/s/569xwo3l3re0uod/anon.pdf?dl=0\n\nUpdate: since last time I posted, I had interview with a bank'(rejected), a company from Switzerland who considered giving me a chance for 2 weeks but withdrew today(better suited candidates were found) etc.",
+      "subreddit": "cscareerquestions",
+      "score": 3,
+      "url": "https://reddit.com/r/cscareerquestions/comments/48tcm7/uk_specific_worried_prospective_grad/",
+      "comments": [
+        {
+          "body": "That's a huge paragraph. What's your actual question?\nIMO, the Android calculator is too simple to be added as a project.",
+          "score": 1
+        },
+        {
+          "body": "You can still cold call/email smaller companies who might not necessarily be advertising their intern positions (or will create one for you). \n \nYour CV looks good though. Late november was very late to apply to banks though which may explain their rejections (as they will have so few spaces left they'll be even stricter). Another thought is what are your grades? As you've edited those out, they may be setting you back.\n\nIf you don't get one though, yes projects are always good to do.",
+          "score": 1
+        },
+        {
+          "body": "Your CV looks good! I'd suggest to look at smaller companies (Edinburgh and Glasgow are pretty good for that), you might still be able to secure a job for this summer. \n\nIf that doesn't work...no worries! You can still apply to graduate jobs next year :)\n\nAlso, I'm graduating this year from a Scottish University (and I also speak Italian!) as well, send me a PM and perhaps I'll be able to help you more.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Morgan Stanley Interview Help",
+      "body": "24F currently in the interview process with Morgan Stanley and looking for some insight from anyone who’s been through something similar.\n\nI’ve already completed three rounds of interviews, and for this 4th round they asked me to come onsite to the office. What’s throwing me off is that the onsite interview is scheduled for only 30 minutes.\n\nWhen I look online, most people describe Morgan Stanley onsites as a 2-hour “power day” with multiple interviewers, back-to-back sessions, etc. But this is just one 30-minute slot, in person.\n\nQuestions I have:\n\n\t•\tHas anyone had a short onsite interview like this with Morgan Stanley?\n\n\t•\tWhat does a 30-minute onsite usually mean? Final check? Culture fit? Hiring manager sign-off?\n\n\t•\tShould I expect technical questions, behavioral, or more of a conversation?\n\n\\- Anything people wish they’d known before going into their Morgan Stanley onsite?\n\nI’d really appreciate any insights, experiences, or advice. Even speculation is welcome at this point.\n\nThanks in advance",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/1q5z0rf/morgan_stanley_interview_help/",
+      "comments": [
+        {
+          "body": "What job is it for? Technical or personnel will have different reasons. \n\nWhile I haven’t had an in person Morgan Stanley, the reviews I checked online indicate this is likely an HR interview with the possibility of a longer day. I’d suggest emailing them to ask what to expect and what you should bring with you so you can be prepared. ",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Cybersecurity analyst job interview with Morgan Stanley. Please give me all the tips!",
+      "body": "I have an interview next week as a cybersecurity analyst. I’m still newish in the field and I haven’t had a whole lot of experience in my current position as a information security analyst. I’m nervous I’m just not qualified enough and I am terrible at interviews. I get so nervous. I really want to prep for this so if you have done an interview for this position at Morgan Stanley please help!",
+      "subreddit": "jobs",
+      "score": 2,
+      "url": "https://reddit.com/r/jobs/comments/pl88yv/cybersecurity_analyst_job_interview_with_morgan/",
+      "comments": [
+        {
+          "body": "Hello, thank you for posting to r/Jobs! \n\nWe just wanted to let you know that we have a new [discord server, come join the chat!](https://discord.gg/TY6ErXV)\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/jobs) if you have any questions or concerns.*",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Morgan Stanley Smith Barney Interview: What questions to ask interviewer?",
+      "body": "I'll be interviewing with the Complex Business Development Manager from Morgan Stanely regarding a position within their Financial Advisor training program. Please help me formulate some effective questions to ask the interviewer.",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/19hb2j/morgan_stanley_smith_barney_interview_what/",
+      "comments": [
+        {
+          "body": "In a first interview, DO NOT ask questions about benefits, time off, vacation, etc. \n\nMake it obvious that you spent a lot of time researching the company. Spend a lot of time on their website. Look at some of their most recent press releases. Ask questions about them. See if they were mentioned recently in the WSJ and ask questions referencing those articles. ",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Regarding associate sde opportunity at morgan stanley",
+      "body": "Hi,\nI recently cleared an interview with Morgan Stanley and received positive feedback from the recruiter, who mentioned that I was a top candidate. However, I didn’t hear back for almost a month and assumed I had been ghosted. Then, I suddenly received an email from Ogletree requesting my immigration documents for Morgan Stanley’s verification process. When I followed up with the recruiter, she replied after two weeks saying that I could expect the offer next week.\n\nMy question is: do candidates typically receive communication from the immigration lawyers before receiving the official offer letter from Morgan Stanley?",
+      "subreddit": "jobs",
+      "score": 2,
+      "url": "https://reddit.com/r/jobs/comments/1n8dlnh/regarding_associate_sde_opportunity_at_morgan/",
+      "comments": []
+    },
+    {
+      "title": "Can't decide which internship to take",
+      "body": "I'm a current competitive Junior at a competitive university studying Finance and want to find an internship for the summer that will look great on my resume and get me the experience needed to land a great job out of college. \nI've been offered an internship at **Morgan Stanley** by my landlord here are the pros and cons\n\nPros:\n\n• Morgan Stanley looks great on resume\n\n• Already got offered the internship\n\n• Very easy to commute to\n\nCons:\n\n• Only 20 hours a week at $10 an hour (though I don't really care about the money)\n\n• A lot of it sounds like assistant work such as writing thank you notes to clients, though there is some interesting finance stuff involved too\n\nEdit: Just spoke to my landlord, turns out it was the wrong location and the commute is actually really far away so I need to figure that out too. \n\nI'm interviewing for **Merrill Lynch** on Tuesday and want to know if it's worth it to take the internship if offered with them. \n\nPros:\n\n• Great on resume, though not as good as Morgan Stanley, I think\n\n• Probably will be more pay\n\n• More hours\n\nCons:\n\n• Hard to commute to, might have to take out a loan to buy a car just to get to work\n\n• Haven't actually been offered it yet\n\nHere are the glassdoor reviews for both: \nMorgan Stanley: https://www.glassdoor.com/Reviews/Morgan-Stanley-Reviews-E2282.htm?filter.defaultEmploymentStatuses=false&amp;filter.employmentStatus=INTERN\n\nMerrill Lynch: https://www.glassdoor.com/Reviews/Merrill-Lynch-Reviews-E440.htm?filter.defaultEmploymentStatuses=false&amp;filter.employmentStatus=INTERN\n\nThey both seem great in reviews and on paper so I'm not complaining that I have this opportunity. If anyone could give me guidance on which one to take or even what I should do more research into/ what I should ask during my interview with merrill Lynch. I've also considered doing both although that might be a bit much with 57.5 hours, all during the weekday too. ",
+      "subreddit": "jobs",
+      "score": 3,
+      "url": "https://reddit.com/r/jobs/comments/47yihv/cant_decide_which_internship_to_take/",
+      "comments": [
+        {
+          "body": "[deleted]",
+          "score": 3
+        },
+        {
+          "body": "Don't take out a loan just for an internship. Go with the first option. Once there, try to seek out other responsibilities and tasks. ",
+          "score": 3
+        },
+        {
+          "body": "I would accept the offer at Morgan Stanley and still interview for Merrill Lynch. There is no guarantee you will get an offer from ML so don't decline the MS offer.",
+          "score": 1
+        },
+        {
+          "body": "How about doing something useful instead of being a sycophant for societal parasites.",
+          "score": -2
+        }
+      ]
+    },
+    {
+      "title": "Need Advice on Offer Situation",
+      "body": "Hey everyone,\n\nI’m currently working at a KPO firm, and my client has decided to internalize my team. I had been interviewing elsewhere before this, and I’m expecting an offer from Morgan Stanley in the next 1-2 weeks—I’ve received all positive feedback from interviewers and HR, and some process is going on at the backend.\n\nFor now, I’ve accepted the client’s offer, since I don't have MS offer yet in my hand. However, since it’s an internalization, my notice period is only about 21 days (until March 7th). I’ve already informed Morgan Stanley’s HR, and they said they’ll try to speed things up.\n\nMy main concern is whether I can still withdraw from the client’s offer if I get and decide to accept Morgan Stanley’s before March 7th. There’s also a transfer fee involved between my current employer and the client, though I’m not sure if it’s already been processed or if it happens when we officially leave.\n\nWould rejecting the client’s offer at the last minute create issues with my current employer? Just trying to figure out the best way to handle this smoothly.\n\nAppreciate any advice!  ",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/1ipfuba/need_advice_on_offer_situation/",
+      "comments": []
+    },
+    {
+      "title": "🤦🏿‍♂️I Messed up completely",
+      "body": "So If you see my reddit account, you will see that JP Morgan, Morgan Stanley, Goldman Sachs and Bridgewaters live rent free in my head everyday . I want to enter these companies and everything that I do is linked to this objective . So yesterday morning, for the first time I was convoked for an interview. It is for an internship and I was asked to participate to an interview on HireVue. \nI was excited and happy so I rush to take the interview and...I completely mess up 🤦🏿‍♂️. \nSo I was asked 2 behavioral questions and 1 financial question . I messed up the 3 questions. but the First red flag is that I was not even dressed professionally. I was wearing a sweater 🤦🏿‍♂️. Secondly I was so confused.  My answers were too long  . My answers were literally cut because of the timer . And the financial question I completely mess up by confusing the notions . \nI really don't know if they will take me(they will probably not)  and the worst is I know that I worth more than that but I stressed to the point of messing up all I do .",
+      "subreddit": "jobs",
+      "score": 0,
+      "url": "https://reddit.com/r/jobs/comments/snn3xp/i_messed_up_completely/",
+      "comments": [
+        {
+          "body": "Hello, thank you for posting to r/Jobs! \n\nWe just wanted to let you know that we have a new [discord server, come join the chat!](https://discord.gg/TY6ErXV)\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/jobs) if you have any questions or concerns.*",
+          "score": 1
+        },
+        {
+          "body": "I’m a bit confused. If you knew you had an interview, why didn’t you dress up for it instead of wearing a sweater?",
+          "score": 7
+        },
+        {
+          "body": "All you can do is take it as a learning opportunity.\n\nMoving forward you'll know what you need to wear (tbh wearing a sweater is not a deal breaker).\n\nAs an exercise for yourself, I would write out the concise answers that you should have said in retrospect and have them in mind for your next interview. You should practice these.\n\nEvery interview is practice for your next interview, like anything else it's a skill that you'll get better at over time.\n\nThere will always be more interviews. What you need to do now is not focus on what you did wrong, but how you can do better next time.",
+          "score": 4
+        },
+        {
+          "body": "I'll keep my fingers crossed!",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Need help starting a career in Finance",
+      "body": "A little back story - Just graduated in Dec 2015 with my Master's in Economics from Georgia Institute of Technology. I currently live in NJ and I'm looking for a job around the Jersey City/New York City area. I'm currently looking for jobs titles such as Financial Analyst, Market Risk/Risk Analyst, or Financial Modeler. I, unfortunately, do not have any relevant work experience in the field of Finance, but I do have work experience. \n\nI interviewed with Accountemps on Monday and they told me they would help me find a temporary job with a salary of $35k which could change to $45k if I get hired. Although I was unhappy with that salary and my interviewer saw that, I told my interviewer that I would much rather prefer working for that salary amount at a huge company (JP Morgan, Morgan Stanley, etc) instead of a local company that nobody outside of the area has ever heard of.  I'm also not too thrilled of working on contract with the ability to be instantly terminated.\n\nI have applied to over 200 jobs in the last month, but still waiting for answers. Many of these were off the career websites of companies such as JP Morgan, Goldman Sach, UBS, etc. I have also applied to many positions on Indeed, Careerbuilder and eFinancial. Unfortunately, most positions, even Entry Level, want at least 1 year of experience.\n\n1.  Should I start contacting HR for each one of those companies to make them speed up the process or just wait?\n2. In terms of pay, what expectations should I have with no relevant experience. Is $35k selling myself short or is it a decent start for someone in my position?\n3. How can I get my foot in the door for those positions even though I seem to be out experienced by many who apply?\n4. Any additional comments on things I should do or can do better.\n\nTL;DR Just graduated with a Master's in Economics. Trying to get into the Field of Finance with no relevant work experience. Need advice to help me get my foot in the door with big finance companies without selling myself short on pay.\n\n\nEdit:  I appreciate everyone for their input and advice.\n",
+      "subreddit": "jobs",
+      "score": 2,
+      "url": "https://reddit.com/r/jobs/comments/46may6/need_help_starting_a_career_in_finance/",
+      "comments": [
+        {
+          "body": "[deleted]",
+          "score": 3
+        },
+        {
+          "body": "I have a BS in econ and an MS in finance, and I work in finance. Your econ Master's is not applicable to finance, so it's not counting in your favor. And most of those companies would only hire entry level employees from top schools with fantastic internships. You're being a little unrealistic. \n\nYou'd be better off working for a small firm or working for a manufacturing or service company in their finance area and working your way up from there. \n\n$35k is low for your area, but not for temp work. ",
+          "score": 2
+        },
+        {
+          "body": "What is your work experience in?",
+          "score": 1
+        },
+        {
+          "body": "Start your CFA.",
+          "score": 1
+        },
+        {
+          "body": "Look you can forget about BBs if you don't go to a target or semi target school. So you best bet is to find a Financial Analyst position at a F500 and change jobs later. ",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "The Journey of Agony and The Devouring Void",
+      "body": "\n\nHello Reddit,\n\n&amp;nbsp;\n\nFor the sake of this post you can call me Icarus as this is a throwaway account.  I am a 27 year old white male and former Military Police Office (Honorable Discharge).  I am also a graduate from The University of California, Davis with a B.S. in Economics.  I graduated from UC Davis in June of last year and currently live in Silicon Valley.  While going to Davis I interned with Morgan Stanley in Global Wealth Management and was a top performer.  While interning with Morgan Stanley the Senior VP running the program held a stock trading competition which I won with an ROI of 30% over 3 months.  Unfortunately, the Morgan Stanley branch I interned with was unable to give me or anyone else for that matter a job because they had no openings.  I have been through several final round interviews with other branches, but never offered a job.  Since my graduation I have been on a constant pursuit to obtain a job as a Financial Analyst or something close to it somewhere in the Bay Area, and as reason suggests, I am still looking.  I have had my resume professionally done as well as repeated help with my cover letter and have been in contact with every employment agency in the area…I I have applied to over 800 positions in this last year and despite dozens of in person interviews, I have never been offered a job.  \n\n&amp;nbsp;\n\nTo give you a little context, I am a first generation college student.  My dad did 26 years in the military and currently is a mechanic.   This all means I have ZERO connections to the white collar world.  I was okay with this though, I consider myself to be pretty head strong and always put my strong foot forward.  However,  2 months ago my quest for employment finally broke me and my well being has taken a turn for the worse.  2 months ago, after a final round interview, I was rejected again.  Receiving that rejection call broke me, I had and have no more will power.  The job hunt is ruining my relationship with my girlfriend and my mental state is out the window.  Hours feel like days and days feel like weeks.  I wake up at 7:30am every morning and am at my computer working by 8:30am.  I don’t stop doing applications until 10pm at which point I get into bed and stare at the ceiling until I fall asleep sometime around 3am or 4 am usually.  \n\n&amp;nbsp;\n\nDespite having military experience, an AA in Business Administration, a B.S. in Economics from a UC,  2 Morgan Stanley Internships, and several jobs in security, I rarely get an email with interest.  I realize it sounds super dramatic, but this year long pursuit of struggling has resulted in me losing interest in doing anything.   I don’t go out anymore because the few friends I have here are all half a decade into their careers at least and I can’t face.  Even if I *do* want to go out, I can’t because I can’t afford it.  I feel my girlfriend emotionally separating because of all this and I can’t really blame her.  A void has encompassed me and have no more willpower to fight it.  I am numb and past the point of desperation long ago. I don’t know what to do anymore.\n\n&amp;nbsp;\n\nI am not ignorant to the fact that I am not special in this situation.  I realize that lots of people have dealt with this, and that is why I am writing this post.  To ask how did you survive and if you can give me advice.  Lastly, I want to apologize for any spelling and or grammatical errors, I am extremely sleep deprived and can barely keep my eyes open.\n\n&amp;nbsp;\n\nThanks for taking the time to read my post.\n\n",
+      "subreddit": "jobs",
+      "score": 8,
+      "url": "https://reddit.com/r/jobs/comments/903415/the_journey_of_agony_and_the_devouring_void/",
+      "comments": [
+        {
+          "body": "This hits too close to home. You sound like me a year ago. Not with your background but with a similar situation. I too struggled with the alienation and the emotional numbness that the lack of a career feeds. I can't really tell what will help you but for me this is what I did:\n\n\n1) Keep applying.  Pretty obvious\n\n\n2) I tried to enjoy the time you have with your Girlfriend. It was hard for her to see me in that state. She was just trying to help. I made a conscious effort to do this because, like you, I knew I was driving her away. She was my only source of support and if I drove her away, I would have no one.\n\n\n3) Picked up a hobby. Or rather, I focused on it intensely. I started to focus on my guitar playing. It was my only source of accomplishment, but it was what helped me stay motivated. \n\n\n4) I had also been employed at a fast food coffee chain. It sucks, but it kept my mind off of it. It's better than no money. Also made friends with some of the people there. They have very similar situations and we're friends to this day.\n\n5) I wanted a pet, I felt like it would help but I didn't get one because the Cat that I wanted was adopted before I could. Maybe that might help you?\n\n6) I realized that this will pass. Be strong for you and your SO and family. \n\n7) Gaming helped me also with more social interactions. Knowing that there was someone that will get on the same time as you gave me some feeling of community. \n\n8) I also scheduled my day. My routine was(unless I had something planned, like an interview): I wake up at 4:30 in the morning every day go to work at 5 am(on days that I worked), got out at 11am - 12pm, they had internet there so I applied to jobs or did career prep between from 12pm to 3pm, came home at around 4p, so I would eat and read til 5p, from 5 to 10 was my free time so I caught up on stuff, played on my guitar, helped my parents, whatever it was that I did, be in bed by 11pm so that I could do the same thing the next day. Sounds monotonous but it gives you a feeling of control. \n\nIt's not much advice I can give but this is what helped me.\n  ",
+          "score": 3
+        },
+        {
+          "body": "I can totally relate to your story, I was in the same boat this year and last year, when I was looking for a job. I was in an awful state of despair. I was going to sleep anxious every night thinking \"What am I going to do if I don't get a job? Will I ever find a job?\". Now I am still looking for a job, but I changed my way of thinking, and even if I'm still in a bad position it's much more bearable than before. It only took a few things. \n\nFirst: don't stay isolated. Seeing my friends was difficult for me too, as yours they all have a job and a lot more professional experience than me. I didn't want to see anyone other than my boyfriend, because I was feeling like a failure. I was very lonely, and it made me feel worse. But finally I had the courage to tell them how I was feeling and they helped me a lot. They gave me advice but above all they reminded me all the good things they see in me, things I couldn't see anymore because I was too depressed. I thought \"they all have jobs, they're happy while I'm miserable\", but it's more complicated than that: they got bad days at work too, sometimes they have problems with their families, etc. There are a lot of moments when you can relate to your friends, even if you're unemployed. And if you stay away from them, they miss you as a friend: perhaps they would like to have your advice about some things and you're not here to help them. I can't afford going out either, but I cook diners at home for my friends, we go to see free exhibitions, or as it's the summer we go to the parc and have a picnic. You can find some similar activities that don't cost any money.\n\nYou say that you live in Silicon Valley, but you don't have any connection to the white-collar world. Are there any networking events near you that you could attend? Try to meet as much people as possible, not only in Finance. Every person you meet is an occasion to get noticed. You could also build your network on LinkedIn. Contact people who have the job you want, and ask them some questions, such as \"How did you do to get that job? What is your company like? What advice could you give to someone like me?\", etc. People tend to like talking about themselves, just don't be too pushy. As you said, your family can't help you get any connection, but you can create these connections yourself, you don't have to be employed to do that.\n\n*\"I wake up at 7:30am \\[...\\] I don’t stop doing applications until 10pm\"* You need to stop doing that, it's the worst thing to do while looking for a job. I used to write applications for hours each day, but at the end my applications sucked. I was too tired, there were too many companies, I couldn't keep up. Now I only send two applications each day, I do it for two hours, but every application is tailored to fit each company perfectly. I take the rest of the day to improve my professional skills with some MOOCs, or I do things I like. You are a human being, you have a life outside unemployment. Try to find things to do that don't cost any money, but will look good on your CV: voluntary work, learning new things, etc. You don't say if you have any unemployment benefit, but if you can't afford to stay without any money much longer try to find a part time job just to pay the bills. Even if it's a job unrelated to your college degree, it will force you to be active and it will show that you're a hard worker. (and it will help you feel useful)\n\nIf you try all these things, and you still don't get a job, is there any work abroad program you could do? I don't talk about being a shepherd in Australia or anything like that, but a program where you could find a job in Finance in another country, with the support of your government? Or a national program that helps young graduates?\n\nLastly, I encourage you to seek a therapist. You seem very depressed, and I wish I had seen a therapist when I was feeling like you, perhaps I would have felt better quicker. I write it now but it's the most important thing: you don't have to feel this way.  Unemployment doesn't have to be a living hell. Make the most of your \"free\" time to improve yourself and do things that make you happy. Start each day with a small step and reward yourself every time you do something difficult. It's incredibly brave to be active while feeling depressed. You can survive this, but don't stay alone. You have your girlfriend, your friends and your family to help you feel better. \n\n(and sorry if I made many mistakes while writing in English, it's not my mother tongue.)",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Morgan Stanley job for non-finance graduate?",
+      "body": "Should I consider this job?\n\nBeen interviewing for healthcare non-clinical positions since May 2016 college graduation, no job offer, \"technical recruiter\" cold- reached out to me via email about this, pays $16/hour which would be around $34k annually and it's 50 miles away. I'm fine with the pay\n\nShould I take it and how long should I stay there? It's not related to my major but I can no longer choose to be choosy\n\nEmail title was: Urgent requirement for Operations Support Consultant\n\nClient: Morgan Stanley\n\nJob Title: Operations Support\n\nJob Location: *****, *****\n\nJob Duration: 6 month contract with a possibility of extension\n\nJob Description:\n\nDuties may include: Processing incoming and outgoing paperwork including mail and facsimiles; \nsupport client service associates and operational personnel; \nchecking inbound client documents for accuracy, \nnotating all activities on the account, \nand submitting accurate forms for final processing to service center; \nmake outbound contact both in writing and verbally with clients concerning paperwork. \nRequires ability to define and prioritize project activities and follow-up on project progress; \nstrong written and verbal communication skills, strong working knowledge and proficiency in the appropriate computer programs such as MS Word and database input is essential, \nknowledge of financial services field. \nMust be able to learn quickly and to engage in a number of detailed tasks at once. \nMust have strong flexibility in regard to the duties assigned and problem solving skills, \nbe able to work independently.\n\nmore info\n\nThanks for your reply. I would be living at home and commuting. The money is not an issue at this time. Also, I would hope to land another job after (or before) the 6 months end. I will be applying constantly for jobs in my field/major. I would be working here to gain some experience in something, which I am missing. It's easier to get another job when you have a job. I am currently unemployed and have not had any luck finding a full time job. The glassdoor reviews are okay, it seems to be a recent grad position with some turnover. I am a \"recent grad\"",
+      "subreddit": "jobs",
+      "score": 5,
+      "url": "https://reddit.com/r/jobs/comments/5lt4xi/morgan_stanley_job_for_nonfinance_graduate/",
+      "comments": [
+        {
+          "body": "You're not telling us a lot here about your personal circumstances, including what would happen if you move to this other city and the job doesn't renew after 6 months.\n\nObviously they are a big company and that can look good on your resume.\n\nHave you checked this out on glassdoor.com to see if there is any insights on how often these roles are renewed, or go permanent?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Morgan Stanley post Interview Recruiter Call",
+      "body": "\nI just completed 3 interviews - recruiter, behavioural, technical and I think I’m at the end of the process for my role I’m applying for at Morgan Stanley.\n\n2 days after the final interview, a recruiter from Talent Acquisition reached out to me wanting to do a “brief intro call” this week. I responded with my availability but she hasn’t responded yet.\n\nI was wondering if that is what a verbal offer call looks like. Would greatly appreciate any advice on this.",
+      "subreddit": "interviews",
+      "score": 3,
+      "url": "https://reddit.com/r/interviews/comments/1mreol4/morgan_stanley_post_interview_recruiter_call/",
+      "comments": [
+        {
+          "body": "Yeah thats a good sign. Maybe not gaurantee, but youre either getting an offer or are a finalist.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Morgan Stanley 2026 HireVue experience — what should I prepare for?",
+      "body": "Hello, I’ll be taking a HireVue interview for Morgan Stanley, and I’d like to know what questions will be asked. It's my first time taking an interview and I've got so many things that I'm unsure about...\n\nHas anyone already taken some? If so, it would be great if you could share the questions you encountered! :)\n\nAlso, do the questions vary depending on the office location, program (full-time/summer intern), or divisions you’re applying to? Would everyone get the same question?\n\nReally appreciate your advice!!!",
+      "subreddit": "interviews",
+      "score": 2,
+      "url": "https://reddit.com/r/interviews/comments/1n3xgn9/morgan_stanley_2026_hirevue_experience_what/",
+      "comments": [
+        {
+          "body": "Try the Canary Wharfian website's HireVue practice. It has 50+ actual interview questions and AI will review your answer and suggest how to improve",
+          "score": 1
+        },
+        {
+          "body": "I’m happy to volunteer to help you with a mock interview:)\n\nhttps://calendly.com/rohit-pixeled-apps/30min",
+          "score": 1
+        },
+        {
+          "body": "They typically focus on behavioral questions using the STAR method, so expect classics like \"Tell me about a time you faced a challenge\" or \"Describe a situation where you had to work in a team.\" You'll also get finance-specific questions about why investment banking, why Morgan Stanley specifically, and questions testing your understanding of markets or recent financial news. The questions do vary somewhat by division and role level, but the core behavioral framework stays consistent across locations and programs.\n\nHireVue interviews can feel awkward since you're talking to a camera with limited time to respond, but this actually works in your favor because everyone feels the same way. Practice your responses out loud beforehand, keep your answers concise and structured, and make sure you can articulate why you want this specific role at Morgan Stanley beyond just \"prestige.\" The key is having solid examples ready that demonstrate leadership, problem-solving, and resilience since those qualities translate across all divisions.\n\nI'm on the team that built [interview assistant AI](http://interviews.chat), which helps candidates navigate exactly these kinds of tricky interview scenarios and practice responses to behavioral questions in real-time.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Need advice for interview prep for Angular UI developer role at Morgan stanley (location: India)",
+      "body": "Hi everyone, I am looking for some guidance on how to prepare for my upcoming interview at Morgan Stanley for the role of Angular UI developer. I have around 2.2 years of full time experience as full-stack developer. I want to know about the number of interview rounds I can expect and the level of questions (whether dsa or sql) or any info that will be helpful to prepare.",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1n7ox3b/need_advice_for_interview_prep_for_angular_ui/",
+      "comments": [
+        {
+          "body": "I interviewed for a similar UI position (at a different bank, but with the same vibe). The interview process typically consisted of three to four rounds: an online coding/DSA interview (covering arrays, strings, recursion, and SQL basics), a deep dive into Angular (change detection, lifecycle hooks, RxJS, and state management), and then a systems/design interview where the interviewer would ask how you'd build a large-scale UI application or optimize performance. The final round was usually a behavioral and cultural fit interview.\n\nI reviewed core JS/TS (closures, promises, async/await) and Angular fundamentals, and practiced 30-40 intermediate-level LeetCode code snippets to stay sharp. I practiced with the IQB interview question bank to understand how they ask behavioral questions, and then I used the Beyz interview helper for mock interview training. They valued clean, modular code and the ability to clearly explain trade-offs.",
+          "score": 2
+        },
+        {
+          "body": "Hello u/Relevant-Fox7468 , may i know how your interview went and what questions were asked actually i also have the same interview next week. Im panicking a little of what might be asked, i did the fundamentals of angular and some js. I would be grateful if you kindly share your interview experience.",
+          "score": 1
+        },
+        {
+          "body": "\n\nyou can try past interview questions on - [www.pastinterviews.com](http://www.pastinterviews.com/)",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "I've been applying for jobs for months, and other companies didn't get back to me after the interview.",
+      "body": "I have been going through a lot of job interviews over the past few months, and getting rejected is quite tough for me. A while ago, I interviewed at Morgan Stanley for a desktop/IT support position, and I felt it went well. However, a few days later, I found out they had filled the positions and didn’t want to move forward with me. Currently, many people I know are working in contract jobs, which I dislike. I really want a permanent position, whether part-time or full-time, because I can envision working with a company for about 5 to 10 years.\n\nI previously worked as an IT support intern while attending Franklin University for nearly five years. Now, I'm ready to step up my game.",
+      "subreddit": "jobs",
+      "score": 2,
+      "url": "https://reddit.com/r/jobs/comments/1hc3ew0/ive_been_applying_for_jobs_for_months_and_other/",
+      "comments": [
+        {
+          "body": "tech job market is oversaturated.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Job Searching",
+      "body": "Hi, I’m a 17 senior in high school and will apply to my first jobs this month. I’m in a program that helps kids find internships and they sent one to me and said I was supposed to have an interview last week or this week coming up but it hasn’t happened. It’s a Morgan Stanley (very competitive) internship and I want to apply to other jobs like after school counselor and retail as back ups. \nIs it a good idea to start applying to them now? What if I get a job but then get into the internship? I rather start applying now then wait though. Thanks.",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/zp7h0m/job_searching/",
+      "comments": [
+        {
+          "body": "Hello, thank you for posting to r/Jobs!\n\nWe just wanted to let you know that we have a new [discord server, come join the chat!](https://discord.gg/TY6ErXV)\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/jobs) if you have any questions or concerns.*",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Financial Advisor",
+      "body": "I recently had interviews at New York Life and Morgan Stanley for a role as a financial advisor. \n\nI went to college and got my bachelors degree in business and have been applying non stop to jobs, with little traction. Then came these interviews and these were both easy applys on LinkedIn (which makes me weary). \n\nThe role seems almost too good to be true with all the numbers they say you could make if you’re average to successful in 2,3,5,10 years. \n\n**The biggest thing is that both interviews felt as if they were selling me on the job and not me selling myself to get hired.**\n\nDoes anyone in this thread have experience or work as a financial advisor? Thanks for the help/advice.",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/bps8jn/financial_advisor/",
+      "comments": [
+        {
+          "body": "It's basically a glorified MLM scheme.  How are you getting paid?  Probably commission only.  Are you provided warm leads or do you have to generate leads yourself by cold calling or going door to door?  Are they providing you with any benefits like health insurance or a retirement plan?  Do you have to pay for your own training/certifications?  The basic gist of how these things usually work is that the company loses nothing by hiring you because they don't pay you a guaranteed wage or benefits.  Sometimes they are even making money from you upfront by making you pay them for your certifications.  Then you are stuck cold calling people who don't want insurance and trying to sell them on something they don't want.  If you don't sell anything, you don't get paid anything.  Anything you do make, the people above you take a percentage.  It's a very difficult way to make a living.",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "title": "Is it worth putting my life on hold for higher GPA?",
+      "body": "Hi Reddit,\n\nI'm currently a college student. I have tonnes of experience (12 years of programming experience, 6-7 years professional experience), I've started/ran/sold companies and charities. I've worked for some of the biggest names like Goldman Sachs, Morgan Stanley, Societe Generale, AXA, General Assembly. I've advised startups, managed capital funds, built loads of innovative things.\n\nThough, my GPA is in the toilet (~2.5). I'm a CS major at a medium tier UC school (top 15-25), I used to be in the honors program- but my GPA got me the boot, I have no motivation to try to work on my GPA- school really bores me. I put in the minimal effort to pass and spend the rest of my time working on an AI startup. I know the obvious answer is to stop dividing my focus and work on my GPA, but I'm not sure I can sustain that.\n\nMy worry is that I think I might want to work for a place like Goldman again, and I don't think they're looking to interview a kid with a sub 3.0 GPA, irrespective of my qualifications. Is this really the case? Or in your experience does GPA not matter? Maybe it all comes down to networking. Either way, any perspectives would be greatly appreciated!",
+      "subreddit": "jobs",
+      "score": 4,
+      "url": "https://reddit.com/r/jobs/comments/4v00j0/is_it_worth_putting_my_life_on_hold_for_higher_gpa/",
+      "comments": [
+        {
+          "body": "after all your years of real life work, that's the subject:  what you can do for the employer...not GPA",
+          "score": 4
+        },
+        {
+          "body": "I doubt GPA will affect your chances of landing a job considering the amount of experience you got.  Don't put your GPA in your Resume unless they ask. However, just in case, I would be prepared to answer the question: \"Why is your GPA so low?\". Just think about a positive and professional way of answering it and you will be fine.  ",
+          "score": 5
+        },
+        {
+          "body": "GPA will matter for Goldman unless you really crushed it in your internship. I don't think it'll matter as much to the others like SocGen. So I'm sorry, but the answer is \"it depends.\"",
+          "score": 2
+        },
+        {
+          "body": "Job experience comes first.  Ultimately, employers want to hire someone they feel will be able to get the job done. No employer wants to hover over your shoulder all day when they should be handling their own workload. \n\nWe’ve all heard the saying “time is money”, and most employers would rather choose someone with years of experience under their belt. This ultimately saves the company time and money.\n",
+          "score": 2
+        },
+        {
+          "body": "I believe it does matter for banks like Goldman. They want the bragging rights of hiring the best and brightest. I'd suck it up and get your GPA up to a 3. \n\nOtherwise, leave your GPA off your resume. ",
+          "score": 1
+        },
+        {
+          "body": "You say \"put your life on hold\" which tells me you already have no intention of doing so... but let's pretend that you did.  Cut off entertainment, extracurriculars, and maybe your part time job.  I can tell you right now that won't work.  People with more free time tend to procrastinate, whereas people with tight schedules don't have time to dawdle before jumping into the next task.\n\nMy opinion?  Be honest with yourself if your grades in general are going up or down.  If they are going down then start carving out one hour a day for exercise followed by a prescheduled hour each day to study.  Endorphins get you motivated and help you sleep better.  Even if your grades aren't going down, just force yourself to go to every single class and if you are bored then read the textbook or review notes while sitting there.  Attending class is the #1 way to better grades: professors will give out test tips and extra credit opportunities.\n\nFinally, calculate how many classes you have left and what it would take (e.g. all B's and one A in future classes?) to get you to a graduating 2.75 or even 3.0 GPA.  Is it even possible?  At 2.5 I have to ask if there is a risk of you failing a required class and not graduating on time; then by all means try to \"put your life on hold\" and find a tutor.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Can I turn down an internship after having already accepted it?",
+      "body": "So I applied to a bunch of places for internships this summer.   Some I got interviews for immediately and some other took a while.  Around mid October I received an offer from a large bank A but only 2 weeks to accept or decline.  So I waited the 2 week I accepted it as I was getting paid very well and I didn't have any better offers at the time.   \n\nSkip forward to a week ago, I got contacted by large bank B about their internship and I decide to do it for fun and end up getting the offer.  Bank B is regarded as one of the best places to work in the world and is better than Bank A in every way.  \n\nWhat should I do? I want to work at Bank B but if I'm afraid I'll get black listed from working at Bank A if I decline them after already accepting their offer.  \n\nAlso the contract from Bank A is At-Will employment if that matters.\n\nAnd by Bank A and Bank B i mean like Morgan Stanley, Merrill Lynch, Goldman Sachs, Citi, JP Morgan Chase, Credit Suisse tier of banks.  \n\nThanks!!",
+      "subreddit": "jobs",
+      "score": 5,
+      "url": "https://reddit.com/r/jobs/comments/5d6jgc/can_i_turn_down_an_internship_after_having/",
+      "comments": [
+        {
+          "body": "You probably would get black listed if u did that , yes . But Do what u want to do and what's best ",
+          "score": 6
+        },
+        {
+          "body": "Yes, you will almost certainly get blacklisted at bank A if you renege after accepting. That doesn't necessarily mean you shouldn't do it. Do what's right for you, but don't expect to get a job at bank A in the future.",
+          "score": 5
+        },
+        {
+          "body": "It's an internship, go for what you feel is best for you. Tell bank A that due to unforeseen circumstances you will not be able to intern with them and move on. ",
+          "score": 2
+        },
+        {
+          "body": "No they are gonna send mercenaries to kidnap you and get you to their office to work.",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Unsure of how to describe consulting to employee job transition",
+      "body": "Earlier this year, I accepted a job with a company that I had been consulting/contracting with through a separate firm for several years.  The position and the work I was doing as a consultant was effectively a form of staff augmentation and the position I took with this client was largely a continuation of that work.  For a variety of reasons, I'm considering other opportunities but I'm unsure on what I can or should disclose about the evolution of my role.  A few facts to keep in mind:\n\n1. An NDA does cover my work as a consultant.  \n2. A couple of years into my consulting gig, the consulting agency I worked for issued guidelines advising all consultants NOT to disclose clients on resumes or LinkedIn and just refer to them generically (e.g., \"a leading multinational financial services company\" instead of Morgan Stanley).  \n3. My LinkedIn profile includes a detailed recommendation from someone I supported who worked for my client turned employer and references my work there while a consultant.\n4.  The positions that I'm considering have a legal element to them and would mean potentially working for or with attorneys.  \n\nIdeally, I'd like to be able make the link clear between my old and new role and explain that, while I've only technically been an employee of this company for x amount of time, I've actually been supporting them for x number of years.  Is it safe to do that in the resume and application given that someone from my employer has already chosen to disclose on LinkedIn?  Or should I just wait until it comes up during the interview process and disclose verbally?    \n",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/58zvd8/unsure_of_how_to_describe_consulting_to_employee/",
+      "comments": [
+        {
+          "body": "During an interview is the best time to bring this up, but you may be able to swing something vague in a cover letter. You can reference the fact that you exceeded expectations as an external consultant and were subsequently hired by *a* company without naming any names. I wouldn't edit your resume or your LinkedIn, even if someone else disclosed.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Morgan Stanley Interview Help",
+      "body": "24F currently in the interview process with Morgan Stanley and looking for some insight from anyone who’s been through something similar.\n\nI’ve already completed two rounds of interviews, and for this third round they asked me to come onsite to the office. What’s throwing me off is that the onsite interview is scheduled for only 30 minutes.\n\nWhen I look online, most people describe Morgan Stanley onsites as a 2-hour “power day” with multiple interviewers, back-to-back sessions, etc. But this is just one 30-minute slot, in person.\n\nQuestions I have:\n\n\t•\tHas anyone had a short onsite interview like this with Morgan Stanley?\n\n\t•\tWhat does a 30-minute onsite usually mean? Final check? Culture fit? Hiring manager sign-off?\n\n\t•\tShould I expect technical questions, behavioral, or more of a conversation?\n\n\\- Anything people wish they’d known before going into their Morgan Stanley onsite?\n\nI’d really appreciate any insights, experiences, or advice. Even speculation is welcome at this point.\n\nThanks in advance",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1q5yz2i/morgan_stanley_interview_help/",
+      "comments": [
+        {
+          "body": "30 min onsite after two rounds sounds like either final approval from the hiring manager or they're just checking you're not completely weird in person lol\n\n  \nCould be they already decided and this is more of a formality/culture fit thing - I'd prepare for basic behavioral stuff and maybe one or two light technical questions but nothing too intense\n\n  \nGood luck, you're probably closer than you think",
+          "score": 1
+        },
+        {
+          "body": "Yeah, 30-min onsite is unusual but can happen. Likely a final check or culture fit discussion. Expect a conversational tone—maybe even a chance to impress the hiring manager or discuss your fit in the team. Since you've gone through two rounds, they're probably already happy with your tech skills. Show enthusiasm for their culture and align your career goals with the firm's values. Good luck!",
+          "score": 1
+        },
+        {
+          "body": "That 30 minute onsite after two rounds reads like a quick fit and communication check tbh. Is this for a tech role or more ops or finance? I’d prep two tight STAR stories ready to go, plus a concise why this team and why this company pitch. Keep answers around 60 to 90 seconds and leave room for a quick back and forth. I usually run a short behavioral drill with Beyz interview assistant, then skim a few prompts from the IQB interview question bank out loud. Bring a tidy one pager of your recent work highlights and plan to arrive early for building security so you start calm. You’ll be in a good spot.",
+          "score": 1
+        },
+        {
+          "body": "@u/upset-complex2600 did you get in?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Product Owner interview with Morgan Stanley",
+      "body": "Hello,\n\nI have a upcoming interview with a recruiter for a product owner role at Morgan Stanley. Is any familiar with their questions or what I should prepare for? \n\nI know that sometimes recruiter interviews can be really easy but this interview is scheduled for 30 minutes and I don't want to blow it with a great company like Morgan Stanley. I would appreciate any advice.",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1ojf4iv/product_owner_interview_with_morgan_stanley/",
+      "comments": [
+        {
+          "body": "Not much we can provide here except I bet these are going to be screening interview questions like going over your resume, expected salary, and other questions on what you are looking for. So be prepared for this.\n\nFor hiring manager questions this is not the sub to ask this in as all interview questions are speculative and we do not want you to fail an interview on questions we given you then at the time of interview the hiring manager gave different questions and you did not prep them.\n\nYou need to prep for the interview questions by doing your research. We don't know what a product owner does at Morgan Stanley. You probably know what a product owner does. Just research that and use ChatGPT to plug in the role and have it generate interview questions.",
+          "score": 1
+        },
+        {
+          "body": "For a Morgan Stanley recruiter screen, I’d expect a quick resume walkthrough, why PO, why finance, salary range, and how you partner with engineers and stakeholders. What helped me was building a 90 second intro that hits product scope, metrics I moved, and a crisp example of prioritization using STAR. I also prepped three stakeholder conflict stories and one delivery risk story with outcomes and numbers. I ran two short mocks on Beyz interview assistant to tighten wording and timing. Have 2 to 3 thoughtful questions ready about the team’s KPIs and roadmap cadence. You’ll come across focused and prepared.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Morgan Stanley Interview",
+      "body": "I recently got an invite to the 4th round of interview for the role of Business Intelligence Analytics at Morgan Stanley. Before this I had a behavioural round, tech round and case study round. Can someone tell me what I can expect in this round? I have emailed the HR that set it up but haven’t heard back from them. ",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1ocsx54/morgan_stanley_interview/",
+      "comments": []
+    },
+    {
+      "title": "Need help for R2 interview @ Morgan Stanley",
+      "body": "Hi All, I belong to banking industry but since last 1 year I’ve been looking for a job and now I’ll be getting interviewed for round 2 for a Business management role..I want to crack this at any cost..though I’m preparing myself for this but I need really good insights so that the panel is floored..I really need the job..thanks in advance!",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1moa89r/need_help_for_r2_interview_morgan_stanley/",
+      "comments": [
+        {
+          "body": "For round 2, focus on showcasing your ability to link banking experience to business management challenges. Employers love it when candidates bring concrete examples: demonstrate how you identified a problem, analyzed data, worked with cross-functional teams, and delivered results. Prepare a few STAR stories (Situation, Task, Action, Result) reflecting leadership, problem-solving, and client impact. Also, research the company's main business lines and recent initiatives, then align your answers to show you're a strategic fit. Lastly, be ready with thoughtful questions for the panel — it shows genuine interest. For extra practice, simulate the interview environment with timed mock questions or AI-based mock interviews to build confidence. This prep approach really helped me and many others. Good luck—you got this!",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Morgan Stanley Interview Questions- Help",
+      "body": "Can someone help me i have few questions \n\n1. How many rounds are there in MS interview.\nDesignation : Associate.( UAT TESTING) \n\n2. What behavioural or situational questions are generally asked?\n\nPlease guide me for the same.",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1j7dtm3/morgan_stanley_interview_questions_help/",
+      "comments": [
+        {
+          "body": "Morgan Stanley typically conducts multiple interview rounds for Associate positions, including UAT Testing roles. You can expect a mix of technical and behavioral interviews, often starting with an initial phone screening, followed by one or more rounds of in-person or virtual interviews with team members and managers. The exact number of rounds can vary depending on the specific role and department.\n\nFor behavioral and situational questions, Morgan Stanley often focuses on your problem-solving skills, teamwork abilities, and how you handle challenging situations. They might ask about a time you faced a difficult deadline, how you've dealt with conflicts in a team, or examples of when you've shown leadership. Be prepared to discuss specific experiences from your past roles that demonstrate your skills and how you'd apply them at Morgan Stanley. I'm on the team that made [interview preparation](http://interviews.chat) tool that can help you practice answering these types of questions and improve your interview performance.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "I have a interview in Morgan Stanley and its for Testing profile as a ( UAT Tester) tomorrow is the technical round what questions should i expect?",
+      "body": "Please help😊✨",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1j8xata/i_have_a_interview_in_morgan_stanley_and_its_for/",
+      "comments": []
+    },
+    {
+      "title": "Morgan Stanley HV interview Sales and Trading 2026",
+      "body": "Has someone the questions of 2025? or 2026? thanks a lot!",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1nfs96h/morgan_stanley_hv_interview_sales_and_trading_2026/",
+      "comments": [
+        {
+          "body": "Honestly doubt anyone's gonna share the exact questions since they probably change them up. But mock interviews help a ton for these HV rounds I used Final Round AI's mock interview feature when I was prepping and it really helped me get comfortable with the pressure. The S&amp;T interviews are brutal so any practice helps.",
+          "score": 1
+        },
+        {
+          "body": "Instead of hunting for exact questions, focus on mastering the fundamentals they always test. Be ready to explain current market conditions, walk through your thought process on trade scenarios, and demonstrate genuine passion for the markets. Practice explaining complex financial concepts simply, since client communication is huge in S&amp;T. The HireVue format can feel awkward with its timed responses, so get comfortable speaking to a camera about technical topics. I'm on the team that built [interview prep AI](http://interviews.chat), and it's designed to help you practice exactly these kinds of challenging interview scenarios where you need to think quickly and communicate clearly under pressure.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Onsite Interview Morgan Stanley",
+      "body": "I have db developer onsite interview with Morgan Stanley Montreal. Can anyone give me suggestions for the interviews. ",
+      "subreddit": "interviews",
+      "score": 3,
+      "url": "https://reddit.com/r/interviews/comments/1mvvus9/onsite_interview_morgan_stanley/",
+      "comments": []
+    },
+    {
+      "title": "Any tips for an interview with Morgan Stanley?",
+      "body": "I am in my final year of uni and could really use some tips to crack the interview for the operations role",
+      "subreddit": "interviews",
+      "score": 2,
+      "url": "https://reddit.com/r/interviews/comments/1i44gwy/any_tips_for_an_interview_with_morgan_stanley/",
+      "comments": [
+        {
+          "body": "Know the values of the firm And be able to show an example of when you applied them.",
+          "score": 1
+        },
+        {
+          "body": "Focus on showcasing your analytical skills, attention to detail, and understanding of financial processes. They'll likely ask about your experience with data analysis, risk management, and regulatory compliance. Be prepared to discuss specific examples from your coursework or internships that demonstrate these skills. Also, research Morgan Stanley's recent operations initiatives and be ready to discuss how you could contribute to their goals.\n\nConfidence is key in these interviews, so practice your responses to common questions beforehand. Be ready to explain why you're interested in operations specifically and how it fits into your career goals. Don't hesitate to ask thoughtful questions about the role and the team - it shows genuine interest. If you're looking for extra practice, use [interview assistance AI](http://interviews.chat) to simulate finance interviews and get feedback on your responses. Full disclosure, I'm part of the team that created it, but it's a helpful tool for navigating tricky interview questions in the finance sector.",
+          "score": 1
+        },
+        {
+          "body": "Here are some tips we wrote in some blogs use these. If virtual there is another blog.\n\nIgnore the pitch /plug at the end of the blogs the points would help you.\n\n\nhttps://www.synergisticit.com/what-not-to-say-in-an-interview/\n\nhttps://www.synergisticit.com/body-language-mistakes-to-avoid-during-a-job-interview/\n\nhttps://www.synergisticit.com/the-dos-and-donts-of-video-interviews/\n\nGood luck",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Interview at Morgan Stanley",
+      "body": "I have upcoming interview at morgan stanley for a internship this is the job role I applied for 2025 Risk Management - Central Requisition Spring Analyst Program 3.\nAnyone has idea what type of questions they might ask. Any tips will he helpful as well.\n",
+      "subreddit": "interviews",
+      "score": 2,
+      "url": "https://reddit.com/r/interviews/comments/1gnt2ff/interview_at_morgan_stanley/",
+      "comments": [
+        {
+          "body": "Hey, congrats on landing the interview! That’s a big deal already. For Morgan Stanley, you can expect a mix of behavioral and technical questions. They’ll likely ask stuff like, “How do you handle risk assessment?” or “Give an example of a time you spotted a potential issue before it became a problem.” Be ready with stories from any projects or internships you've done.\n\nI actually used an AI tool that listens in and suggests answers on the fly during interviews. It’s not magic, but it definitely boosted my confidence and made my responses smoother. If you wanted to try it let me know and I can share it with you.\n\nAnd remember, getting this far means they see potential in you. Just be yourself and show them why you’re a good fit. You got this!",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Morgan Stanley Global Capital Markets Technical Interview",
+      "body": "MS GCM interview next week at early insights superday. Any advice??? ",
+      "subreddit": "interviews",
+      "score": 2,
+      "url": "https://reddit.com/r/interviews/comments/19bjvv5/morgan_stanley_global_capital_markets_technical/",
+      "comments": [
+        {
+          "body": "Depends on what grade you are in - my superday was only an hour. 20 minute segments (20 behavioral, 20 market, 20 technical).\n\nBefore this I had a hirevue which was cake. After I had a all technical call with a VP for 30 minutes.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Surprised to see a final onsite round",
+      "body": "Hi everyone,\nI am currently interviewing with Morgan Stanley in Canada. I have already completed two rounds and met with senior department heads at the ED level. I was surprised to see that there is a third round scheduled with a VP, and this one is onsite.\n\nI am trying to understand the purpose of this stage, especially since I have already spoken with more senior leadership. Is this a normal part of the hiring process at Morgan Stanley or common in Canada?\n\nWould appreciate any insights.\n",
+      "subreddit": "interviews",
+      "score": 2,
+      "url": "https://reddit.com/r/interviews/comments/1qbfwbq/surprised_to_see_a_final_onsite_round/",
+      "comments": [
+        {
+          "body": "Honestly this is pretty normal for big financial firms like Morgan Stanley. The VP round is usually more about cultural fit and seeing how you handle yourself in person. Even though you met with EDs, VPs often have different perspectives and might be your direct manager.\n\nSince it's onsite and you're clearly doing well, I'd prep with some mock interviews to stay sharp. I tried Final Round AI's mock interview feature when I was nervous about similar rounds and it really helped me practice answering on the spot.\n\nThe fact they're bringing you onsite is actually a good sign - they're investing time and money in you.",
+          "score": 2
+        },
+        {
+          "body": "It is wild that they are sending you to a VP after you already cleared the ED level. Usually that is a \"sanity check\" to make sure the team didn't miss any red flags. I am just starting out as a coach and offering free 15 minute warm up sessions. I can help you prep for the specific \"curveball\" questions leadership likes to throw in these final onsite rounds.\n\nSend a message if you want to practice.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Morgan Stanley Analyst Program Interview",
+      "body": "Hi, I applied for the Morgan Stanley 2025 Full-Time Analyst Program and am about to take the third interview. Has anyone had experience in interviewing for this program before? What is the third interview going to look like and is it going to be the final interview? ",
+      "subreddit": "interviews",
+      "score": 2,
+      "url": "https://reddit.com/r/interviews/comments/1h4108f/morgan_stanley_analyst_program_interview/",
+      "comments": [
+        {
+          "body": "Honestly, I'm no expert, but from what I've gathered, the third interview is usually a chance for them to dive deeper into your skills and experiences. It's possible they'll give you a case study or scenario to walk through, so be prepared to think on your feet.\n\nOne thing that helped me when I was in a similar spot was using this AI tool that listens to the interview and suggests responses in real time. If you're interested, I can share it with you - I found it really helpful in getting my thoughts organized during the interview process.\n\nJust remember, these types of interviews are all about showcasing your skills and fit for the role. Take a deep breath, be yourself, and trust that you've got this! If you want to chat more or have any questions, feel free to DM me.",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "title": "Morgan Stanley Telephone Interview",
+      "body": "Hi - got a telephone interview coming for a summer internship in Equity Research. Just wondering if anyone had any insight into the sorts of questions that might be asked/how best to prepare?",
+      "subreddit": "interviews",
+      "score": 0,
+      "url": "https://reddit.com/r/interviews/comments/174i5gi/morgan_stanley_telephone_interview/",
+      "comments": [
+        {
+          "body": "Do you remember any of the questions you had for the phone interview?",
+          "score": 1
+        },
+        {
+          "body": "Google and glassdoor your best chances are company specific help.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Final round of Interview",
+      "body": "Hey, guys,\n\nSo I have a final round of interview scheduled next week for a client reporting investment management role at Morgan Stanley. I have cleared the first two rounds, which were technical, and I was good with that answering short to the point answers. Now I have the final round of interviews with the head, and what I have heard is that he would ask behavioral/project questions and leadership related and I'm not good with storytelling. Now I'm a bit tense. Any advice would be helpful.",
+      "subreddit": "interviews",
+      "score": 2,
+      "url": "https://reddit.com/r/interviews/comments/1mkngye/final_round_of_interview/",
+      "comments": [
+        {
+          "body": "You're right to be concerned about the shift from technical to behavioral questions because they require a completely different skill set, but the fact that you crushed the technical rounds shows you have the competence they're looking for. The head isn't going to ask you to reinvent the wheel here - they want to understand how you handle real situations, lead teams, and solve problems under pressure. Your challenge isn't that you lack good stories, it's that you haven't structured them properly yet. Think about 4-5 specific situations from your past work or projects where you demonstrated leadership, overcame obstacles, managed conflict, or delivered results under tight deadlines.\n\nThe key is using the STAR method but make it conversational, not robotic. Practice telling these stories out loud until they flow naturally and focus on quantifiable outcomes wherever possible. Since this is Morgan Stanley, they'll want to hear about times you've managed client relationships, handled high-stakes situations, or led cross-functional teams. The head is evaluating whether you can represent the firm and manage important client relationships, so your stories should demonstrate emotional intelligence, problem-solving under pressure, and the ability to build trust with stakeholders.\n\nI'm actually on the team that built [interview copilot AI](http://interviews.chat), and it's designed specifically to help with these kinds of challenging behavioral questions that can make or break final rounds at top firms.",
+          "score": 2
+        },
+        {
+          "body": "\"Hello Reddit community,\n\nI'm currently preparing for a job interview and using the Final Round AI platform. I'm running into a persistent issue and was wondering if anyone else has experienced this or knows of a solution.\n\nAfter uploading my resume, the page gets stuck on a 'Session loading...' screen, with a message that says 'we are connecting to copilot server.' I've waited for a significant amount of time, but it never progresses past this point.\n\nAs a result, I'm unable to access the page where I'm supposed to add the meeting link for my interview. This is preventing me from using the platform for my crucial final round.\n\nI've attached a screenshot showing the exact screen I'm stuck on. Has anyone else faced this problem with the Copilot server on Final Round AI? Any advice on how to fix this would be incredibly helpful!\"",
+          "score": 1
+        },
+        {
+          "body": "Focus on using the STAR method for project and leadership questions: Situation, Task, Action, Result. This keeps your stories structured and concise. Prep a few key experiences showing leadership and problem-solving relevant to investment management. Practice summarizing each story in 2-3 minutes to keep it engaging but to the point. Also, think about what qualities the head might value—like decision-making under pressure or teamwork—and tailor your answers accordingly. If you’re nervous about storytelling, record yourself or do mock interviews to get comfortable. There are also AI-powered platforms that simulate these leadership and behavioral questions live, which can be great for building confidence and refining your approach. Make sure you also have thoughtful questions ready for them based on your research of Morgan Stanley’s culture and recent initiatives—it helps show genuine interest.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Morgan Stanley 2026 SA HireVue experience — what should I prepare for?",
+      "body": "Hello, I’ll be taking a HireVue interview for Morgan Stanley, and I’d like to know what questions will be asked. It's my first time taking an interview and I've got so many things that I'm unsure about...\n\nHas anyone already taken some? If so, it would be great if you could share the questions you encountered! :)\n\nAlso, do the questions vary depending on the office location, program (full-time/summer intern), or divisions you’re applying to? Would everyone get the same question?\n\nReally appreciate your advice!!!",
+      "subreddit": "interviews",
+      "score": 2,
+      "url": "https://reddit.com/r/interviews/comments/1mzslda/morgan_stanley_2026_sa_hirevue_experience_what/",
+      "comments": [
+        {
+          "body": "Highly suggest trying the Canary Wharfian website's HireVue practice. It has 50+ actual interview questions and AI will review your answer and suggest how to improve",
+          "score": 2
+        },
+        {
+          "body": "Can anyone give me some advice please",
+          "score": 1
+        },
+        {
+          "body": "Their interviews typically focus on behavioral questions using the STAR method, technical knowledge relevant to your division, and situational scenarios about client interactions or market conditions. You'll likely face questions about why you want to work in finance, why Morgan Stanley specifically, describe a time you worked under pressure, handled conflict, or showed leadership, and potentially some basic finance concepts or market awareness questions depending on your target division.\n\nThe questions do vary somewhat by division and role level, but the core behavioral framework stays consistent across locations. Investment banking candidates might get more technical finance questions, asset management could focus on portfolio theory, and wealth management often emphasizes client relationship scenarios. Since this is your first interview, focus on preparing solid STAR format stories that showcase your problem-solving abilities, teamwork, and resilience. I'm on the team that built [interview prep AI](http://interviews.chat), which can help you practice these types of structured interview questions and get real-time feedback on your responses before the actual HireVue.",
+          "score": 1
+        },
+        {
+          "body": "what questions did you got",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Delay in final response after interview",
+      "body": "I interviewed for a role in Morgan stanley london location. The final interview with MD happened 3 weeks back. Since then I have followed up HR twice on the update. Everytime she responded that they are waiting response from recruiting manager on the next steps and will get back to me asap. One time I even got a call from HR stating they are interviewing other candidates and I have a positive feedback from manager. \n\nIs this a common practice to take soo long after the final interview in Morgan stanley? Shall I still keep any hopes of getting selected? I am really stressed about the whole scene. \n\nOne update- I again followed up with the HR and she responded they have a call scheduled with the hiring manager tomorror on the next steps and will let me know once they have update. \n\nWhat in your opinion can be the case?",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1ml4p3m/delay_in_final_response_after_interview/",
+      "comments": [
+        {
+          "body": "It's quite common for big firms like Morgan Stanley to have delays post-final interviews, especially if relocation or budget approvals are involved. The fact that HR mentioned you're getting positive feedback is a good sign, so I'd suggest staying hopeful for now. Sometimes they do keep top candidates as backups while they finalize others, so it's not unusual to be in that limbo. Meanwhile, try to focus on prepping for next steps or other opportunities to keep your momentum. If stress is high, consider mock interviews or practice sessions with an AI-powered tool to get sharper and more confident—it can help turn waiting time into productive prep.",
+          "score": 2
+        },
+        {
+          "body": "I feel like if they respected you and saw you as a contender they would value your time and keep you in the loop. Especially if they want you to work there, they don’t want you to have a bad impression about how the administration works.",
+          "score": 1
+        },
+        {
+          "body": "what happened??? please tell me you got the job?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Morgan Stanley Summer Singapore 2025",
+      "body": "Hi I applied to MS IBD summer analyst program in Singapore. I did my online interview like a month ago and MS still hasn’t updated the portal or reply back. Should I wait or is this simply a rejection already? Anyone gotten invitations to superday or received offers yet?",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1hr7vmi/morgan_stanley_summer_singapore_2025/",
+      "comments": []
+    },
+    {
+      "title": "Need job at JP Morgan, Morgan Stanley, BOFA, Nomura, Blackrock in Mumbai with 1.5 YOE. Please suggest strategy.",
+      "body": "I have been desperately looking for jobs out of the current firm in Mumbai I am working with. Have applied for JP Morgan, Morgan Stanley, Blackrock, etc. Despite getting referrals for the positions, I am not getting a single call from any of these firms. I have a 1.5 years of experience. \n\nHave applied for many Mumbai based startups in the past out of which got calls for - \n1. Data science role - reject in last round due to undisclosed reasons. \n2. Software engineer role - rejected in interview process due to undisclosed reasons.\n3. Software engineer role - rejected because of not having basics of Python clear (which I worked on later and got better. Still doing it). \n4. Senior software engineer role - got rejected because of lack of experience in Typescript but did do well in Python. \n\nHave been consistently working on my skills in couple the fields. Be it AI/ML (by doing various projects related to Agentic AI, participating in Kaggle competitions, working on use cases in my firm, keep upto date with news related to the topic and exploring GitHub repos), backend (by working on couple of personal projects, learning system design from Alex Xu's book, Gaurav Sen's videos), etc.\nWorked on couple of Devops use cases in my firm either. \n\nCurrent work I am doing is not at all satisfactory. I want to learn and grow more. Please suggest me some strategies I can implement to get into these firms ASAP. \n\n",
+      "subreddit": "interviews",
+      "score": 0,
+      "url": "https://reddit.com/r/interviews/comments/1oai4c8/need_job_at_jp_morgan_morgan_stanley_bofa_nomura/",
+      "comments": []
+    },
+    {
+      "title": "Morgan Stanley 2026 Summer Analyst",
+      "body": "Applied for Non Financial Risk internship at MS. What kind of questions can I expect to be asked in the interview? Are the questions across all divisions similar? ",
+      "subreddit": "interviews",
+      "score": 2,
+      "url": "https://reddit.com/r/interviews/comments/1nmekrs/morgan_stanley_2026_summer_analyst/",
+      "comments": [
+        {
+          "body": "Expect questions about operational risk, regulatory compliance, technology risk, and how you'd identify and mitigate various business risks. They'll likely ask you to walk through risk scenarios, explain how you'd handle competing priorities, and demonstrate your analytical thinking through case-style problems.\n\nThe questions do vary somewhat across divisions, but Morgan Stanley maintains consistent behavioral interviewing standards throughout the firm. Risk divisions tend to emphasize analytical skills and attention to detail more than client-facing roles, so prepare for more technical depth around risk frameworks, data analysis, and regulatory knowledge. They'll also test your understanding of current market conditions and how external factors impact risk management decisions. Since interview questions can be quite specific and technical, I'd suggest checking out [interviews.chat](http://interviews.chat) \\- I'm on the team that built it, and it's designed to help you practice responding to these types of challenging interview scenarios in real-time.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Morgan Stanley 2025 Summer Analyst Program",
+      "body": "Hello, I’ll be taking a HireVue interview for Morgan Stanley, and I’d like to know what questions will be asked. It's my first time taking an interview and I've got so many things that I'm unsure about...\n\nHas anyone already taken some? If so, it would be great if you could share the questions you encountered! :)\n\nAlso, do the questions vary depending on the office location, program (full-time/summer intern), or divisions you’re applying to? Would everyone get the same question?\n\n&lt;P.S.&gt;\nThank you so much for the advice folks! I passed the interview ;)",
+      "subreddit": "interviews",
+      "score": 3,
+      "url": "https://reddit.com/r/interviews/comments/1g3fz2f/morgan_stanley_2025_summer_analyst_program/",
+      "comments": [
+        {
+          "body": "I’ve taken a few, all have been pretty much the same. Very surface level, typically a “why this company”, “tell us about a time when you saw someone act unethically”, “what trends do you see in the next 12-18 months”. I never saw any technical questions and never heard back from any of them. You’re likely too late for the recruiting cycle as is. Just give it your best shot and be confident.",
+          "score": 2
+        },
+        {
+          "body": "The questions typically focus on behavioral scenarios, your understanding of the financial industry, and your motivation for applying to Morgan Stanley. Common topics include teamwork experiences, problem-solving skills, and how you handle pressure. While specific questions may vary, you can expect to be asked about your relevant coursework, any internship experiences, and your career goals.\n\nIf you're looking for extra support in preparing for tricky interview questions, you might want to check out this [AI for interview](http://interviews.chat) prep. It could be useful for practicing your responses before the actual HireVue interview.",
+          "score": 2
+        },
+        {
+          "body": "Hi, how long did you get to answer each question?",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Interview Advice ",
+      "body": "I have been applying for the last 4-5 months, hundreds and hundreds of applications. \n\nI’ve interviewed or have had hiring assessments with Google, Amazon, Visa, Morgan Stanley, BOA, Team Mobile, Dish and many lower tier companies. \n\nSome have gone to the next round but I have yet to go to the final round or get an offer. I know if some don’t go well just by common sense, but some I thought I absolutely nailed it. Any great tips or am I just not the right fit for what they’re looking for?\n\n",
+      "subreddit": "interviews",
+      "score": 2,
+      "url": "https://reddit.com/r/interviews/comments/1eacswx/interview_advice/",
+      "comments": [
+        {
+          "body": "What indicators do you notice when it hasn’t gone well",
+          "score": 1
+        },
+        {
+          "body": "Since you've had interviews with top companies, your resume and basic interview skills are likely already strong. While you're right, sometimes it's simply not the right fit, it's also possible there are small areas for improvement that could make a big difference. Are you getting consistent feedback during these interviews? Maybe there's a particular skillset these companies are looking for that you need to showcase more strongly. Think about the tough questions - could you refine those answers? Focus on fine-tuning: could your answers be more concise or structured? Are you showcasing enough enthusiasm or going deep enough on technical aspects? I built [interviews.chat](http://interviews.chat) to help people really shine during the interview process - maybe give it a shot and see if it helps you identify areas to refine!",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

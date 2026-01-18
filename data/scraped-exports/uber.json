@@ -1,0 +1,1571 @@
+{
+  "company": "uber",
+  "post_count": 61,
+  "exported_at": "2026-01-18T17:44:53.312Z",
+  "posts": [
+    {
+      "title": "I’m washed",
+      "body": "I was laid off October 2023 and haven’t worked as an engineer since then. Senior engineer, 7-8 years of experience. Honestly, the combination of remote work and alcoholism destroyed my mental health that by the time i received that fateful calendar invite, i was relieved. I didn’t have to do it anymore. I got an okay severance but used that and my unemployment to keep me afloat and not homeless for ~6 months. I quit drinking at that time and interviewed for a few jobs.\n\nAfter two final rounds for a couple jobs and not getting it both times, i’ve basically been frozen. I can’t do the interviews, i can barely even bring myself to apply anymore. I thought it would be easier being sober but it’s like my subconscious is trying to sabotage me because of how truly awful it was in those final months of employment. Here i am, 2 years later, and i’m not even sure if it’s possible for me to get a job anymore when i’ve got a two year gap. \n\nI’m borderline homeless, staying with family, and i’m kind of sick of it. Delivering uber eats destroyed my car in this time that i literally just cashed out my old 401k, the absolute last of my savings. I have tried camming as well with my girlfriend, since i’m a gay lady with an unreasonably hot girlfriend despite the life circumstances. It was great money but it’s so mentally exhausting, something i seemingly have no capacity for anymore.\n\nI haven’t posted in this sub since 2016/17 when i was a new grad and well, i honestly just want to feel like someone else understands my struggle. I feel like a failure and literally don’t know what to do with my life anymore. I had wanted this career since i was a child. What do you do when your dream job eviscerates your mental health? I know i need therapy but there’s no way a broke ass bitch can just afford that when i can’t even afford rent.\n\nI’ll probably delete this or maybe it’ll get moderated for not fitting the sub, but y’all, if anyone reads this, thank you for listening.\n",
+      "subreddit": "cscareerquestions",
+      "score": 613,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1opqxkh/im_washed/",
+      "comments": [
+        {
+          "body": "Can you check if you have vitamin deficiencies. I too am a senior software engineer with around the same years of experience and I am also exhausted to the bone. Having a toddler definitely plays a big factor but in general I’m done with life and can’t wait to be dead. Having said that I got my health check up done recently and I’m very low in vitamin d and b12. I’ve started taking the supplements and feel marginally better. I can at least get through the tasks in my day.",
+          "score": 222
+        },
+        {
+          "body": "I think it's true that you can't get different results from doing the same thing. The question is: what do you change? I think you should start with your mental health challenges. \n\n\nFirst, I think you need to step away completely from the search and find something very low pressure for a while. Barista, cashier, anything. You are not your \"dream job\" or your career. You can't work your way out of burnout or depression. \n\n\nSecond, It'll be a grind but you definitely need to start some treatment options for your mental health. Therapy, medication, physical activity, reconnecting with your friends and family, etc.\n\n\nI wish you the best of luck. Things are so tough out there but try to act on the things you can control.",
+          "score": 187
+        },
+        {
+          "body": "I hope I’m not overstepping but as someone who had struggled with alcohol from 13-33 (in a life-destroying way where I was relieved when someone else stopped me) I learned that I could never properly function until I got sober. I would just bounce from one temporary disaster to another. The way this is worded I had to double back to see if you posted this in r/stopdrinking rather than /cscareerquestions. This may seem off-topic, but I’m familiar with the language. Again, please forgive me if this is presumptuous, but this at least seems like it may be an entirely different issue to debug than the job market. If so, there are lots of good resources for this kind of issue including a few subreddits like the one I mentioned.",
+          "score": 44
+        },
+        {
+          "body": "Please keep your head up as best as you can. You had the strength to kick a habit, write this post, and you will have the strength to course correct. Hang in there and don't give up.",
+          "score": 123
+        },
+        {
+          "body": "One option is to just retrain and do something else. Teach school, or possibly something that would only require an associate degree. Dental hygienist, sonography, paralegal, etc.  Those jobs may not be your first choice, but they come with health insurance and pay more than Uber.",
+          "score": 14
+        },
+        {
+          "body": "Please get therapy , that’s the best place to start. There are a more affordable options than you think.",
+          "score": 43
+        },
+        {
+          "body": "This probably won't help but in the off chance that it does, what worked for me was running.\n\nBeing unemployed was painful. Every rejection, even if I didn't really want the job was still a bit of a sting.\n\nRunning gave me an outlet to deal with that pain. It's a weird thing but somehow choosing to endure the pain of a long run helped me better deal with the pain of the long job search.\n\nEvery time I set a new PR it was a tiny but much needed bit of proof to myself that I was still capable of reaching my goals.",
+          "score": 16
+        },
+        {
+          "body": "So I have a few recommendations, but first, something my therapist told me that’s mostly true: working is an antidepressant. Not all the time, and not in all situations, but it gets you out of the house, it gets you socializing with others, and it gives you structure and money.\n\nYou’re not a failure, but you are responsible for your own well-being. And a two year gap is an issue, but it’s something you can overcome (you can also finesse it on delivery).\n\n1. Go all out on applying right now to see if you can get an offer within the calendar year. It’s unlikely, given how close we are to the end, but those kinds of arbitrary markers matter on a resume.\n2. Target what’s sinking you. It sounds like you have to some extent, but in a more nebulous way. Do practice interviews with other people online. There’s literally nothing more important than that, and getting feedback.\n\nAlso, I second what everyone else said about vitamin deficiencies, chemical imbalances, etc. Sometimes it's just something medical in our bodies that needs tending to.",
+          "score": 8
+        }
+      ]
+    },
+    {
+      "title": "Uber App just tried to interview me",
+      "body": "So I just had the most bizzaro experience.  I was using uber and it said something about coding on the bottom and when I clicked it it took me to part of the app where there were like 25 uber related code questions with 60 second timeouts.  Has anyone seen this before?  \n\nI totally bombed the 3 questions I tried since I was distracted and only had minute to try to understand the code lol.\n\nI had something similar happen on OkCupid but at least they had ways to figure out I was a Software Engineer, Uber knowing that freaks me out a bit.\n\n\nEDIT: And I answered my own question... [Uber Recruiting](http://www.businessinsider.com/uber-recruiting-engineers-through-in-app-coding-test-2016-3)",
+      "subreddit": "cscareerquestions",
+      "score": 169,
+      "url": "https://reddit.com/r/cscareerquestions/comments/4w2s0h/uber_app_just_tried_to_interview_me/",
+      "comments": [
+        {
+          "body": "Had it happen to me this Monday while taking an Uber from the airport to my office. Got to the second question and decided it was way too early for this shit.",
+          "score": 102
+        },
+        {
+          "body": "Happened to me when I was picked up in front of AWS HQ. I answered all the questions correctly and sent in my resume and have not heard from since.",
+          "score": 50
+        },
+        {
+          "body": "Did you get picked up from a tech companies HQ? ;)",
+          "score": 22
+        },
+        {
+          "body": "Happened to me after I just ripped a couple shots and smoked a bowl before going out for the night. The interview did not go well. :(",
+          "score": 17
+        },
+        {
+          "body": "This happened to me, I still don't know how they knew I could code. If you do well enough they'll send you an email to reply to. (Although I didn't get them all correct, so I'm not sure if there are different levels of positive responses they give you)",
+          "score": 11
+        },
+        {
+          "body": "I got this a couple weeks ago. Didn't do very well with the 1 min time limit combined with being in a car with a stranger and social anxiety. Even though I did really poorly they still sent me an email encouraging me to send my resume.",
+          "score": 8
+        }
+      ]
+    },
+    {
+      "title": "Is anyone else just tired of the \"Silicon Valley Experience\"?",
+      "body": "I'm about to graduate from a top 5 CS school with a degree in CS in May 2019. I'm on track to get a solid six figure salary with good stock options and bonus as a 22 year old. All my friends will be living in the same area as me after graduation and we'll probably live together. In the grand scheme of things, there is nothing wrong with my life and it's a position that a lot of the younger people on this thread really are shooting for. I'm not happy though. I feel like Silicon Valley is so cold and unfeeling. Everyone here is looking at the bottom line for themselves. There is no real community outreach or integration into the area people live. There's widespread entitlement and a tendency to throw money at problems until they disappear. There's liberalism in name only here but very few people are willing to put their money where their mouth is. There's obvious classism and racism out here. I'm fairly progressive when it comes to politics but I find the people out here tiresome when it comes to disagreements especially since the extent that they engage in controversial topics is just lip service. I used to talk about how LA is superficial and cold but I don't think The Bay is that different from that anymore. It's all about where you work, who you know, and how much you make. Not that there's anything bad about that, but it really just feels like a bunch of people living in an ivory tower surrounded by a large, well protected gate while there are starving masses outside that are really just trying to survive. \n\n&amp;#x200B;\n\nI grew up upper middle class but was best friends with a lot of people who were just above the poverty line (east coast). Most my friends were latino or black growing up (I'm Indian-American) and it really bothers me that such a large portion of this Asian/Indian/White dominated area looks at those demographics so poorly. There are so many social issues here that we, as members of the tech community, are contributing to but refuse to acknowledge past the point of talk. I'm sick and tired of it. Everyone is out here asking questions like \"how do I get past interviews at companies like FAANG?\" and \"how much is the starting salary for someone with {my skillset}?\" But in the end aren't most of these people just looking for run of the mill backend or frontend jobs? Won't we all just be building CRUD applications for the Ubers, Lyfts, Googles, and Amazons of the world while enjoying the toys that we're given with these nice compensation packages but in the grand scheme of things, we're really not doing anything fulfilling with our lives? We're all just in the pursuit of more money. Idk, maybe I'm just ranting right now (I absolutely am). I'm just becoming more and more disenchanted from this life as I get closer and closer to graduation. I'm not super keen on the idea of watching the world burn while we build cool (and often useful things) that will stay confined to the wealthy for most of the foreseeable future and cost of living for all of us shoots up dramatically. \n\n&amp;#x200B;\n\nThoughts? ",
+      "subreddit": "cscareerquestions",
+      "score": 1352,
+      "url": "https://reddit.com/r/cscareerquestions/comments/9rf4sn/is_anyone_else_just_tired_of_the_silicon_valley/",
+      "comments": [
+        {
+          "body": "[deleted]",
+          "score": 526
+        },
+        {
+          "body": "Lots of stuff going on here, but you're not too far off. Especially for east coast transplants, this area can be a bit uncomfortable.\n\nDon't equate this sub with actual friendly conversation in SV, though. Yes, work talk will replace school talk, but if your friends chat about what's important to them and what makes them feel fulfilled, that won't stop. There's also lots of people out here who volunteer or engage in significant charitable giving. You'll see it moreso among your older coworkers.\n\nSo, while I've seen most/all of the problems you've described, I've also found wonderful mentors. They have pointedly told me when I was overfocused on minor compensation differences, backed up with stories of regrets of their job decisions from 10-30 years ago. They have pointed out when I've not spent enough time figuring out what I value. Those are the kinds of people that you want to meet. If you like the general culture of your school, you will have a strong alumni network out here that will help you find those people.",
+          "score": 138
+        },
+        {
+          "body": "This subreddit is a Silicon Valley simulator. It really is an echo chamber. You don't need to work at big N to have a long and successful career making good money. There's more out there than endlessly chasing more money. You don't need 500k a year at FB to be successful. I don't want to work at the largest companies, so I don't.",
+          "score": 32
+        },
+        {
+          "body": "I work at a Big N.  While I deeply understand the nihilistic impulse that’s driven you to write this, life does have more meaning.  That meaning doesn’t come from where you live, who you work for, or who your friends are.\n\nIt’s meaning you create, and that you bring with you.\n\nI live with my kids and grandkid in South Bay. We go to the beach together regularly. I’m learning to surf. I’ve taken up longboarding in middle-age. My wife is devoutly religious: she’s discovered a very supportive local church, and I’ve found religion in the variety of drinks sold at Fifth Street Coffee in Gilroy. \n\nI get on the bus at 7 AM and I get home at 5:45PM most nights. I find meaning in my home life and friends, and in trying to leave the world a better place than I found it in many small ways.  When I look at someone using a product my company makes, and the feature I helped create, that allows them to experience something that brings a smile to their face, I feel a sense of fulfillment from my work.\n\nLIfe does not give you meaning. \n\nPurpose is not something you find.\n\nIt’s something you create.",
+          "score": 144
+        },
+        {
+          "body": "Find fulfillment outside of work. Use all the money these companies are giving you for CRUD apps and start a charity or something.",
+          "score": 381
+        }
+      ]
+    },
+    {
+      "title": "I feel bad that I’d never join a FAANGish company",
+      "body": "\nHello, everyone\n\nI work at a pretty decent company in Brazil as a Tech Lead and I make a good amount of money, around 55K USD TC, considering that I live in south america, that's great!\n\nSince my teen age, I glamourize working at a FAANG company, sharing the same environment with a lot of intelligent people that creates products that impacts millions everyday.\n\nThis year, I decided that I should give it a try and I even did get an interview at Uber. Not a FAANG but definitely a huge company with a lot of prestige. I had little time to prepare and obviously I failed and didn't get the job.\n\nLast month I turned 30 and thought to myself that life is a pretty fast journey and I didn't want to live with regrets. I then decided to go full on interview preparation, signed LeetCode premium, I'm studying grokking the code interview etc. However, it's REALLY HARD to conciliate my life with this \"side quest\". I am a father of a 4 year old kid and June my twins were born, so it's been a pretty tough moment.\n\nAfter finishing the day of work, that's usually pretty full of stuff to solve, I have to work on my second shift, preparing dinner, putting kids to sleep with my wife etc. When I sit down to study or to grind leetcode, by 11:30PM, I'm extremely exhausted and can't even think right. Everyday I think that things will be different but it's just the same.\n\nI was talking to some friends of mine and they said that it's ok not accomplishing everything you wanted, I surely agree with them and would definitely give the same advice sincerely to a friend, but it's different when it comes to you.\n\nHas anyone been in the same situation? Not having time to prepare for interviews, dealing with family and this lonely journey of tech interview prep etc.\n\nThank you!",
+      "subreddit": "cscareerquestions",
+      "score": 444,
+      "url": "https://reddit.com/r/cscareerquestions/comments/17ac63x/i_feel_bad_that_id_never_join_a_faangish_company/",
+      "comments": [
+        {
+          "body": "Be careful what you wish for. Work:life balance matters.",
+          "score": 758
+        },
+        {
+          "body": "I didn’t get into a FAANG until I was almost 40.  Your life isn’t over man.",
+          "score": 319
+        },
+        {
+          "body": "If you want to really do it, try this:\n\n1. Schedule **small** study times ahead of time. Maybe only 2 hours per day off. But schedule it and treat it like a job. Only schedule times you know you can do it uninterrupted.\n\n2. Never think about it outside your scheduled hours. Relax, spend time with family, do your chores and errands, etc. \n\n3. Once you get steps 1 and 2 down, slowly expand your schedule and repeat or be content with whatever pace is comfortable. \n\n4. If you really want to commit, find casual reads that you can pick up when you find spontaneous free time. Books, articles, etc. Don’t use this time to grind or study.",
+          "score": 110
+        },
+        {
+          "body": "The average lifespan of a Googler is 1.8 years. Amazon doesn't publish their figures but it has to be lower than that.  \n\nMicrosoft is a little more cushy at 3.5 years but they are notorious for laying off entire departments at a time without notice.  \n\nDon't feel bad, for most people it's just a resume builder then they get jaded and move on.",
+          "score": 192
+        },
+        {
+          "body": "Bro, you have plenty of time. I have twins myself and managed to get into a FAANG company at 39. Keep trying and you will get there. \n\nAlso, I didn’t even become an engineer until 36…",
+          "score": 159
+        },
+        {
+          "body": "I work at a FAANG company, good salary, but because of the RTO stuff, I likely won't be here too much longer. If you're fairly competent at the stack you work in, it's not that big a deal. Blow off 30 min of work every day and do some leetcode mediums, apply to all the FAANG and FAANG-like companies once every refresh period (6 months or so), and you will get hired. It's more a numbers game, because eventually you have a lucky string of interviews without assholes or ridiculous problems.",
+          "score": 60
+        },
+        {
+          "body": "As someone who’s worked at small shops and big tech I wouldn’t stress about it!\n\nThere’s intelligent people everywhere not just at FAANG",
+          "score": 50
+        },
+        {
+          "body": "Interview prep is hard. Top tier companies have top tier hoops for their applicants to jump through. Having worked at FAANG and small to medium startups, what gets me the most is, at all companies there are have been some brilliant people. But at FAANGs I've met the most consistently good people on the bottom end, while at startups the bottom end included people who leave you wondering how they even got hired in the first place they are so incompetent. The higher hiring bar works well to keep the average talent high.\n\nThat said, try to make time that is convenient for you to study. Like with any goal that requires changing your routine, you will need to figure out what to give up. There are only so many hours in the day.",
+          "score": 104
+        }
+      ]
+    },
+    {
+      "title": "New grad, accepted offer at Uber, should I keep interviewing?",
+      "body": "Hey people, throwaway just for extra anonymity.\n\nI will be graduating in May and I recently accepted an offer at Uber, before the recent shitstorm. I am supposed to start in the summer but I'm now concerned about Uber's prospects. Should I be continuing to interview elsewhere or do you think that I will be able to ride things out at least a year at Uber?",
+      "subreddit": "cscareerquestions",
+      "score": 31,
+      "url": "https://reddit.com/r/cscareerquestions/comments/5xwr1f/new_grad_accepted_offer_at_uber_should_i_keep/",
+      "comments": [
+        {
+          "body": "[deleted]",
+          "score": 28
+        },
+        {
+          "body": "1) Uber's not going to die anytime soon. There's far too much money invested - the board may fire the C levels, but the company itself isn't going away.\n\n2) You should consider interviewing somewhere without a toxic culture. \n\n3) Your comp at Uber is mostly in stock. That stock is worthless until they go public. \n\n4) Really, consider interviewing somewhere that doesn't have lots of people saying it's toxic, at least until they fire their upper tiers.\n\nEdit: if you do decide to take another job instead of this one, you should tell them why. That will give them reason to fix it.",
+          "score": 46
+        },
+        {
+          "body": "Why are you concerned about Uber's prospects and not the *terrible* company culture??",
+          "score": 16
+        },
+        {
+          "body": "May is ages away. Continuing interviewing, now that you have a job interviewing might be easier.",
+          "score": 8
+        },
+        {
+          "body": "Too big to fail, but keep in mind that the culture could be as bad as the media says it is. ",
+          "score": 25
+        },
+        {
+          "body": "I have a friend who works at Uber, and she's very happy there. People choose whether to stay late or not.  It's highly encouraged to do long hours, but it's not mandatory.  So I would say the work environment depends on how you work and what team you're in.",
+          "score": 7
+        },
+        {
+          "body": "Uber isn't going away, even with PR. If you want to work at Uber, work there, don't worry about the press. ",
+          "score": 29
+        }
+      ]
+    },
+    {
+      "title": "Finally got my first job as a Software Engineer after graduation a year ago. Here are my stats.",
+      "body": "Before Graduating in December 2019\n\n* Had a total of 3 interviews (1 internship, 2 full-time positions) -- All 3 of them I failed.\n* Never had internship experience.\n* Had a job teaching kids how to code. (over 1 year of experience)\n\nAfter Graduating in December 2019.\n\n* Continued teaching kids how to code.\n* Applied to around 20 - 50 different companies.\n* Only a few ever responded.\n* 1 Job Interview after graduation (The company that hired me).\n\nMy Resume: [https://drive.google.com/file/d/1tckrTpAlxdlsfRoiwOYO\\_E9CasdnqtTu/view?usp=sharing](https://drive.google.com/file/d/1tckrTpAlxdlsfRoiwOYO_E9CasdnqtTu/view?usp=sharing)\n\n**What I learned:**\n\n* After you graduate practice every day the concepts you learned in College.  DataStructures, Software Engineering Principles, Operating Systems, Linux, Web Programming, Git, Software Architecture ect.. That way you can answer any question the interviewer throws your way.  Become a master of these concepts.\n* Beyond that, Learn concepts that they didn't cover much in schools such as dynamic programming, Jira, AWS, Jenkins, test software, developer tools, and more.  (From my perspective we didn't learn much about this).\n* HUGE TIP: Simulate work experience as best as you can by Join an open-source project on GitHub.  I did some work on [https://github.com/TheAlgorithms/Python](https://github.com/TheAlgorithms/Python).  A project that tries to implement all algorithms in python.  I learned how to test code doing this and got more practice using git.\n* Do not make a fancy resume with your photo, columns, tables ect.. I did this and didn't get a reply for like 8 months, found out that Applicant Tracking Software can't read those too well so it is better to write a plane resume that is readable line by line.\n* Test your resume on one of these websites that give it ATS score.  My fancy resume got a score of 16% but once I changed it to look more plane and changed the wording I got a score of 46% then I started getting a lot more replies from companies. I used [https://resumeworded.com/resume-scanner](https://resumeworded.com/resume-scanner)\n* Solve one LeetCode question a day, create 4 solid advanced programming projects, and put them on GitHub and on your resume.  Make your LinkedIn stellar.\n* Study your ass off when you have an upcoming interview.\n* During the interview, speak loudly, ask a lot of questions, build off questions from the ones they ask you.  This makes it sounds like you know what you are talking about, that you are interested, and have some form of control during the interview.  Also be nice and grateful.\n\nFor those of you who get super nervous during interviews believe me, so do I.  I was so nervous before my interviews that my stomach physically hurt every day.  I would have diarrhea, and couldn't think of anything else besides the nervousness I felt.  The only thing that helped slightly was preparing to feel more confident, taking deep breaths, and going for walks.\n\nLastly, I am not a genius that went to a good university.  My GPA was average.  Yes, I was desperate, I thought I would never make it, worried about my future, stressed all the time, felt behind, but I still worked my ass off every day, kept applying, and never gave up.  I even demonstrated the hard work I put in during my interview to show them I care.\n\nI also believe some luck and opportunity is involved during this process but there's not much you can do about that so just focus on the hard work.\n\nKeep your head high and good luck on getting your foot in the door. :)\n\nAlso, I'm from San Diego, CA",
+      "subreddit": "cscareerquestions",
+      "score": 1022,
+      "url": "https://reddit.com/r/cscareerquestions/comments/livy23/finally_got_my_first_job_as_a_software_engineer/",
+      "comments": [
+        {
+          "body": "You applied to 20 - 50 different companies in a year?..",
+          "score": 226
+        },
+        {
+          "body": "i graduated December 2020, and in just 2 months i’ve applied to over 200 companies. \n\nfinally have 3 companies that are interested.",
+          "score": 56
+        },
+        {
+          "body": "Any recommendations for a good ATS Parser?",
+          "score": 47
+        },
+        {
+          "body": "[removed]",
+          "score": 103
+        },
+        {
+          "body": "The interview process is so god awful...",
+          "score": 19
+        }
+      ]
+    },
+    {
+      "title": "Friend's weird/bad interview experience with Uber",
+      "body": "One of my old coworkers has been looking around for a new job and just had a voip interview with Uber that went very strangely. \n\nThe interviewer sent a link to a browser based minesweeper implemented in javascript and asked him to write some functions for the cell clicking logic. He wrote the functions, made some optimizations, then checked them for correctness after the interview and verified they all worked fine. \n\nLater he gets notified by Uber that his application is being rejected because the interviewer claimed he must have been inspecting the js and copying code from it. Obviously my friend denied it. The HR person said there was nothing they could do about it, although my friend said he isn't even interested in another Uber interview if they offered him the chance now. \n\nSo this raises some questions...\n\n1. Minesweeper is a very widely known game. You could easily ask interview questions about minesweeper without providing an actual implementation of it, so long as you gave some helper functions / variable names to guide the syntax. Even if the candidate has never heard of minesweeper, it's easy to explain a grid-based game with safe cells and bomb cells. \n\n2. If you're going to give an actual implementation to base your interview on, shouldn't you at least pick a format where the source isn't openly inspectable? You're basically inviting candidates to look at the code, you're going to be paranoid about it in every interview, and you can't actually prove it one way or the other. There are a lot of reasons a candidate might inspect the source without any intention of cheating. And why not just remove the pertinent parts from the implementation so it's not even an option in the first place?\n\n3. If the candidate is able to produce an answer that is similar enough to the source implementation that you can't be sure, then either the candidate is really bad and just cheated or the candidate is really good and just came up with the optimal solution on their own. A good interview question should be able to avoid this situation entirely, but the interviewer could at least ask questions to make sure the candidate didn't cheat. \n\nOverall just a strange and incompetent interview conducted by Uber. Hopefully this helps anyone who faces a similar situation in an interview, regardless of the company. ",
+      "subreddit": "cscareerquestions",
+      "score": 125,
+      "url": "https://reddit.com/r/cscareerquestions/comments/5wpng0/friends_weirdbad_interview_experience_with_uber/",
+      "comments": [
+        {
+          "body": "With all the bad news about Uber, I was half expecting the interviewer to start waving their dick around on Skype...",
+          "score": 248
+        },
+        {
+          "body": "Uber's interview process is fucking TRASH. I interviewed there before all the recent controversies. Horribly unprofessional recruiters who will forget about you and then come back bleating after you've already accepted a position elsewhere. My favorite part, though, was being invited on-site and then getting an e-mail out of the blue the day before stating that the team \"had gone in a different direction.\" In retrospect, I'm glad I never got an offer there.\n\nFuck Uber, fuck their recruitment process and fuck their reactionary culture of only doing the right thing when doing the wrong thing bites them in the ass. I use Lyft whenever possible now and only keep the Uber app on my phone for true emergencies.",
+          "score": 51
+        },
+        {
+          "body": "[deleted]",
+          "score": 95
+        },
+        {
+          "body": "That's a pretty absurd interview. Why would you even introduce the browser based minesweeper link if you didn't want the candidate to look at the source code? That's development in front-end JS 101... that's like giving you a cake and telling you to improve on it but getting pissy because you tasted the cake first to see what to improve that.\n\nRegardless, fuck Uber. They've had vicious/toxic business practices for a while and it's showing in their culture as well with all the recent bad spotlight being lit on them. \n\nI hope their company goes under or gets bought out by a respectable company and completely flushes out the company of its bad apples.",
+          "score": 53
+        },
+        {
+          "body": "If the interviewer didn't say \"you can't inspect the code\", then I would understand. But from what you shared, that doesn't seem to be the case. I guess a good lesson is to clarify with the interviewer in these scenarios whether you can use the inspector. ",
+          "score": 16
+        },
+        {
+          "body": "I had a weird experience of my own (Mechanical Engineering, not CS). Phone screen that went well, moved on to the \"homework\" phase of the interview process. \n\nThey asked me some technical questions related to the work they do and wanted how I would approach certain situations. Additionally, they asked for specifics of similar situations I had faced at other companies. This was before all of the recent nonsense and Uber was well regarded at the time, so I put some serious time into it (15 hours+). Got an automated \"you're not what we are looking for\" less than 24 hours later. \n\nThere are [rumors](http://distractify.com/trending/2016/05/27/uber-fraud-interview) online that Uber is conducting fake interviews and essentially collecting free intellectual property from the responses. Not necessarily saying that's what happened to me/OP, just adding to the pile of weird Uber interview stories.",
+          "score": 7
+        }
+      ]
+    },
+    {
+      "title": "Uber Onsite Interview - no response",
+      "body": "I got an invite to uber onsite interview 13 days ago, asked for my availability, I sent back but I have not heard from them since. I emailed another 4 times to follow-up but no response. Anyone in the same boat?",
+      "subreddit": "cscareerquestions",
+      "score": 26,
+      "url": "https://reddit.com/r/cscareerquestions/comments/3r59ed/uber_onsite_interview_no_response/",
+      "comments": [
+        {
+          "body": "It's weird that they haven't responded to you even though they already offered you an onsite. I really don't think you got rejected at this stage. I'd reach out to another recruiter and ask about your situation--it worked for one of my friends whose interview process was also in limbo.",
+          "score": 20
+        },
+        {
+          "body": "Honestly, I think it's just their recruiting department not having a handle on things. I had a similar experience. Try to find a different recruiter to reach out to.",
+          "score": 14
+        },
+        {
+          "body": "Its probably a problem with that recruiter. They're probably really busy, forgot to respond, gone on vacation, left the company, etc. Try and email another recruiter or try contacting Uber through another channel. ",
+          "score": 5
+        },
+        {
+          "body": "Not with Uber, but with Facebook. You basically didn't get the gig. They're just being assholes and not contacting you. ",
+          "score": 15
+        },
+        {
+          "body": "Very strange. My Uber recruiter was extremely quick to respond/give feedback throughout the entire process. ",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "title": "Would any of you be interested in livestreams of an experienced candidate solving questions?",
+      "body": "For context, I'm someone who's gotten offers from Google, Amazon, Uber and several other tech companies in the past. Would anyone be interested in watching me walk through and solve these problems in real time? I usually struggle a little through all questions but end up solving them.\n\nAlso, open to suggestions on which problems to solve. Thanks!\n\n**Update #1**: Well the response has been overwhelming. So, I will make my first video tomorrow (Friday) evening at 7pm EST. I will try to do at least one stream every week.\n\n* I will pick something that's Leetcode medium. In order to keep it honest, I will pick something at the beginning of the livestream.\n* I will timebox myself to 45m.\n* I will use my iPad Pro to emulate writing on a whiteboard.\n* Chat will be enabled. I will have someone moderate the YT comments/questions for me to make sure someone doesn't give me hints.\n* Videos will be available for later viewing for those who can't watch it live.\n\nHere's my YT channel: https://www.youtube.com/channel/UCM6SejOjga8sIlhJlJdHchQ/\nPM me for questions or comments.",
+      "subreddit": "cscareerquestions",
+      "score": 1233,
+      "url": "https://reddit.com/r/cscareerquestions/comments/b64z0c/would_any_of_you_be_interested_in_livestreams_of/",
+      "comments": [
+        {
+          "body": "Would just creating video's and posting them on youtube not make more sense? You'll reach more people that way.",
+          "score": 343
+        },
+        {
+          "body": "Yes, I am interested in seeing you do this. I'm starting out on interview prep and it is very difficult to get the ball rolling, especially when everyone's advice is simply \"do a bunch of problems.\" I think seeing you solve problems in real time would be extremely beneficial!",
+          "score": 63
+        },
+        {
+          "body": "For anyone interested in this, there is a channel called \"algorithms live!\" On YouTube that does exactly this, albeit with more complex competitive programming problems",
+          "score": 40
+        },
+        {
+          "body": "There is no difference than watching in real time or watching it stored on youtube right? What would be valuable is for people to ask questions and discuss trade-offs WHILE you are solving it live. If you answer people's questions, that would be VERY worth.",
+          "score": 72
+        }
+      ]
+    },
+    {
+      "title": "Uber Front End Engineer Interview?",
+      "body": "I'm looking at a technical phone screen with Uber for a front-end position out in SF (super excited!). Can't really find much online isn't typical data structures / algorithms, although the recruiter said it would be more practical than a Google / FB interview.\n\nAnyone been through the process and got some advice?",
+      "subreddit": "cscareerquestions",
+      "score": 3,
+      "url": "https://reddit.com/r/cscareerquestions/comments/3krdo0/uber_front_end_engineer_interview/",
+      "comments": [
+        {
+          "body": "I'm doing stuff like:\n\nGiven a search box, and an expensive server call for suggested search results, how do you send a call to the server after a 400ms pause in typing?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Anybody interviewed with Uber?",
+      "body": "I have an onsite interview with Uber next week, would like to hear any interview experience or advice. I was once told Uber likes to ask candidates to write and run code with their own laptop during the interview, is this still in practice? I have browsed glassdoor and would like to get more info. Thank you!",
+      "subreddit": "cscareerquestions",
+      "score": 15,
+      "url": "https://reddit.com/r/cscareerquestions/comments/2tf2za/anybody_interviewed_with_uber/",
+      "comments": [
+        {
+          "body": "I recently interviewed there for a software engineering position. I got standard whiteboard technical questions. Different groups might have different methods though.",
+          "score": 7
+        },
+        {
+          "body": "I'm currently in the process of interviewing for the intern position. ",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "title": "Is it bad if I take bus, Uber, or get dropped off in an interview if I said I have reliable transportation?",
+      "body": "I rly want this job and I said in the screening questions that I have reliable transportation. To me, that means I have a car i can drive.\n\nBut while I have a drivers license, I don’t have car insurance so I can’t drive.\n\nSo I was thinking about taking bus there, bc a bus stop is about an 11 min walk from the place. I was also thinking of maybe Uber or one of my family members can drop me off and pick me up.\n\nThe problem is, this doesn’t look like reliable transportation. The dropping off may be fine, but what if I have to wait for my ride to pick me up? They’ll see that I didn’t drive myself and think to themselves that I don’t have reliable transportation.\n",
+      "subreddit": "jobs",
+      "score": 25,
+      "url": "https://reddit.com/r/jobs/comments/1ps8wuk/is_it_bad_if_i_take_bus_uber_or_get_dropped_off/",
+      "comments": [
+        {
+          "body": "If public transportation is reliable in your area, you have reliable transportation\n  You answered honestly.  Most jobs don't require you have/own a car because it is not part of the work.",
+          "score": 140
+        },
+        {
+          "body": "Reliable transportation doesn't mean you have a car. It means you can reliably get there.  Public transit absolutely is 'reliable transportation'",
+          "score": 89
+        },
+        {
+          "body": "Why wouldn’t the bus be reliable transportation?",
+          "score": 18
+        },
+        {
+          "body": "Don't get dropped off close enough for the interviewer to see. Don't wait for your pick up ride at the interview site. Go somewhere else. :)",
+          "score": 13
+        },
+        {
+          "body": "Reliable transportation doesn’t mean by car. If you can make it from point A to point B consistently, then it’s reliable.",
+          "score": 5
+        },
+        {
+          "body": "Depends on the city if public transportation counts. If NYC yeah because everyone is practically using it. If Atlanta nope, Marta will have you late if you don't properly compensate for travel delays.",
+          "score": 4
+        },
+        {
+          "body": "Doesn't matter,  show up 30 minutes early and just wait. That's your response and since u dont have transportation i recommend u get to work 30 minutes early and get pick up a few block away until u settled.",
+          "score": 9
+        },
+        {
+          "body": "Do you trust your business system?\n\n\nEdit: bus system lol",
+          "score": 4
+        },
+        {
+          "body": "They just want to be sure they avoid as many \"car won't start\" scenarios as they possibly can.\n\nAs long as you can reliably get around via public transit, you're fine. The reliability factor then falls on the shoulders of the transit system.",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "title": "How difficult are internship interviews for companies like square/uber as opposed to big4 companies and others?",
+      "body": "I have a skype interview for a square software internship tomorrow and in about a month an interview for an Uber internship. Are these interviews impossibly hard / harder than interviews at big4? \n\nI've also heard square interviews are different in that they involve paired programming. I'm nervous about this as I feel like the more help I require from the interviewer, the worse I have done. Is this the case?",
+      "subreddit": "cscareerquestions",
+      "score": 12,
+      "url": "https://reddit.com/r/cscareerquestions/comments/3majl8/how_difficult_are_internship_interviews_for/",
+      "comments": [
+        {
+          "body": "The bigger question is how difficult is it to get the internship interview in the first place \n\n^(Don't mind me I'm just stewing over all the rejections I got from those companies)",
+          "score": 23
+        },
+        {
+          "body": "Interviewed w/ square/uber/amazon. The 'pair-programming' interview is really just a term for saying we're going to use collabedit at least in a phone screen aspect. There's really no difference between any other phone interview. In the on-site they'll just sit by you and watch you code as opposed to a whiteboard interview. Maybe the interviewer gives you more feedback than typical but if thats the case I feel that its pretty helpful. The interviewer won't give you more help than you would already need unless you ask for it. Really just think of it as a normal interview. They're all about the same difficulty but I think Amazon tends to ask more CTCI questions.",
+          "score": 4
+        },
+        {
+          "body": "Just had a Square interview today (and am moving forward with a second round - they're quick).  It's a fairly standard interview, code in coderpad while talking through your process with an engineer.  The difference from other interviews I've done is that the question is clearly intended to take a full 45 minutes of the interview and is fairly involved.",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "title": "Uber Interview",
+      "body": "Hey CSQ, \n\nI have a phone interview with Uber coming up in 2 weeks for a summer Software Engineering internship. I've of course been studying up on the data structures, sorting algorithms, etc (have spent a lot of time with Cracking the coding interview). \n\nAnyone have any particular advice on what to study in my last week before the interview? Could be from your own Uber interview experience or from other interviews. Just looking to dive into a few extra topics in these last weeks that I have not yet explored. \n\nThanks everyone!!\n\n\nEdit: Interview is in 2 weeks, not one",
+      "subreddit": "cscareerquestions",
+      "score": 10,
+      "url": "https://reddit.com/r/cscareerquestions/comments/3mriog/uber_interview/",
+      "comments": [
+        {
+          "body": "Ugh I'm sick of half the posts always asking questions like \"Where do you go to school? Where else have you interned?\" rather than answering the actual question. Guys, no need to try and justify yourself not landing certain interviews based on school, etc...\n\nAnyways, I interviewed with them and most of their questions were fairly standard. If you've spent a lot of time with CCI, you'll be fine.",
+          "score": 9
+        },
+        {
+          "body": "I interviewed with Uber for a Software Engineering Internship a couple of weeks ago. I was asked a really cookie cutter CtCi type question with a slight twist, kinda disappointing.",
+          "score": 5
+        },
+        {
+          "body": "Quick question, which year are you and where do you go to school?",
+          "score": -23
+        }
+      ]
+    },
+    {
+      "title": "Sharing the System Design framework I’ve used that has served me well",
+      "body": "I recently got back to interviewing, and thought I’d share the framework I’ve been using for system design interviews that has netted me offers at places like Google, Facebook, Uber, Microsoft, etc. Previously, I’ve also conducted numerous interviews and also been in hiring committees from the inside of these tech companies, so I felt sharing the angle from the interviewer’s point-of-view could be helpful.\n\nSide note, this is not a replacement for studying your stuff. There are numerous resources I’ve used to prep and brush up on my fundamentals (there are a bunch shared in this subreddit alone). This is primarily a tactical framework I use to get that additional bump, which is often helpful when your hire/no-hire decision is on the boundary.\n\nFirst, I think about these 3 points throughout the whole interview. Unlike the coding section, there is no formal answer on design interviews. It’s often not about the answer you produce, but how you get there.\n\n1. **Speak out your logic**\n   1. Remember, everything is a tradeoff. Everything. Even expanding that field in your DB that will enable a critical user feature, or adding a test that will prevent that recurring bug comes at a cost. Don’t even think about adding a load balancer or async task queue until you understand why that is the most effective use of your company’s engineering resources at that time. So talk about this. Speak it out. Say that you would start by monitoring where the bottleneck will happen with the increased traffic, and give your reasoning on why you believe service “x” is where you would start increasing instances, and what would be the cost of such. Don’t always have to go into depth, but try to formulate your design decisions around “given (because of) A, I would do B”\n   2. One added benefit is that it gives you a fast way out should your decision be wrong. You might find that your logic is incorrect midway while you’re speaking out your logic. It might also expose a logic that comes from a misinterpretation of the requirements in which case you give a chance for your interviewer to correct your assumptions. The worst thing is when you have seemingly made up your (incorrect) decision, and the interviewer is not sure why you made that decision and is waiting for it to possibly make sense, but it never does and has to correct you 10 minutes later. By speaking out your logic you fail early and also have given a reasonable reason on what you took that path.\n2. **Read the room**\n   1. So I lied above that “it’s not about the answer you produce, but how you get there”. Although it shouldn’t be, in practice your interviewer has already used this question a few times and knows the parts a good candidate should be covering. If you do your homework well you should be able to get 2/3 of your way to what the interviewer wants, but how on earth are you going to cover designing an Instagram feed in 45 minutes comprehensively? So if the interviewer starts talking about data failover, make sure you immediately pivot over to that topic even though you really want to continue discussing that security issue. If the interviewer is uneasy with what you’re giving, keep trying out different angles to your approach instead of doubling-down on your first answer. Try to get as much coverage on the components the interviewer is “expecting” you to cover.\n3. **Get your \\[++\\] marks**\n   1. Remember, this is still an interview, not a tech discussion with your peers (unlike what some folks try to frame it as being). At the end of the day, the interviewer (at least a good one) is taking notes on the \\[+\\] and \\[-\\] parts of your interview session. If the previous part (“read the room”) was about minimizing the number of \\[-\\] marks, this section is about maximizing your \\[+\\] marks. If you’re targeting a senior role, you have to get some \\[+\\] and \\[++\\] marks. This is important for senior levels, and even for mid-levels (L4, L5), being able to “impress” the interviewer a couple of times during the interview goes a long way. So how do you impress?\n   2. One approach is to go one level deeper. Best to use your past knowledge/experience if possible, as that makes your points the most unique. Don’t dwell too long, unless the interviewer follows up as it could prevent you from covering other topics the interviewer wants to discuss. The point is that you want to show that you can talk about parts of a system in a bit more detail than the average interviewee. Talk about a feature in a service you’ve used in the past (e.g. using sets/lists in Redis for structured data cache), how you’d implement a service logic (e.g. rough verbal or written algorithm description), alternative approaches and discuss tradeoffs (e.g. numerate 3-4 ways of caching the request and which option you would choose). Best way to prepare for this is as you’re studying, write down a few “show-off” points. Read through company engineering blogs in your field, look into the feature sets and technical docs of a few popular services that you can mention universally for different types of interviews.\n   3. If you’re afraid to go too deep, simply touching in a different angle that is not commonly talked about will also add that “unique factor”. For example here are a wide variety of topics that you could be talking about. I’ve roughly ordered them by having the common topics at the top for generic interviews, but would obviously differ depending on your field.\n      1. Scalability, availability, latency, throughput\n      2. Usability (product-level), extensibility, testability, operational (monitoring, debugging, logging), resource capacity (CPU, memory, network bandwidth), async/offline jobs, analytics\n      3. Security, portability (different surfaces), privacy (data retention, encryption)\n\nSo with these high-level points in mind, throughout the interview I try to take a simple 3 phase approach unless guided differently by the interviewer.\n\n1. **Assumptions**\n   1. Clarify: From the interviewer’s perspective, this is the part where I see if the interviewee can narrow down an ambiguous scoped problem by asking relevant questions. From the interviewee’s perspective, all you need to think about is whether I can draw the right “building blocks” in part 2 below (high level design) with the information given. Don’t leave this step without 100% understanding the problem. Try to draw the building blocks in your head and if you’re stuck, ask.\n   2. Scope: After you’ve clarified and understood the problem, rule out blocks you won’t be drawing. Clarify the scope of the problem. e.g. do I have to think about the user login/authorization for this web app? What about the expiry on this URL short link?\n   3. Ballpark estimate: I feel this part is a bit overblown in design discussions. Showing off that you can crunch numbers well doesn’t impress interviewers. What does is how you connect those numbers to your design decisions. Here are a few points I try to touch on in this part\n      1. Data schema, size → Guides database choice, replication\n      2. Traffic: Bandwidth, patterns (cyclical, bursty) → Determines whether you need to touch on scalability and how.\n      3. Read:write ratio → Storage (availability for high read), scaling (cache), API decisions\n2. **High level design**\n   1. The part where you draw the rough building blocks. Try to “read the room” and make sure you get good coverage in this section. I make it a point that I will talk about scaling and other details after I have a rough drawing of the high level design.\n   2. In this section, I try to make sure I have good coverage on these two parts\n      1. Component/API: Discuss the various components (service, storage, cache, queue, client, extensions) and also the interface between each component (API, communication protocol).\n      2. Data: Details on data schema, flow between services, how it would be stored, cached, modified.\n3. **Detailed discussion**\n   1. This part is extremely specific to the problem at hand and it’s important to also follow the flow you are having with your interviewer in your session. Aim to get a few \\[+\\], \\[++\\] points here to show your knowledge and reasoning.\n   2. Scalability: A frequent extension to the basic discussions. There should be a lot of material discussing this, but it’s important to note the following\n      1. Mention the tradeoffs of scaling your system and that you would only add a solution for this when/if needed (e.g. live traffic monitoring suggests we need to scale, we have strong product indication that we will require a large amount of traffic from day 0, Golang is beneficial for our scaling purposes despite the tradeoffs around generics, dependency management and even just experienced dev hiring)\n   3. In general, here are some common topics to be aware about so that you can discuss should you go over them in this section: Load balancing, reverse proxy, Caching (server-side, client side, database-level, eviction policies), CDN, DNS,  Async (task queues, message queues, backpressure routing), Batch (map-reduce), Database (RDBMS, No-SQL, Federation, Sharding, Denormalization, CAP theorem), Communication (REST, UDP, TCP, RPC)\n   4. Different angle of discussions, mentioned in “3. Get your \\[++\\] marks” above, are also good points to touch in this section should you have time.\n\nHoping this helps for some folks out there prepping for their interviews.\n\nI also have a few mock interviews that I’ve been doing that follows this template. I’m planning to spend some time cleaning them up a bit and adding more details around the \\[++\\] part for each mock interview. Leave me a note if you’re interested, and I’ll let you know when they’re ready.\n\nEdit: I ended up making [a list of 1-pagers on core system design topics](https://www.reddit.com/r/cscareerquestions/comments/knsoo0/part_2_system_design_core_topic_1_pagers/). Sharing it here for folks that are interested.",
+      "subreddit": "cscareerquestions",
+      "score": 1245,
+      "url": "https://reddit.com/r/cscareerquestions/comments/kd13sx/sharing_the_system_design_framework_ive_used_that/",
+      "comments": [
+        {
+          "body": "Good guide, quite comprehensive.\n\nWould add these to the common topics to know:\n\nconsistent hashing, websockets/long polling/etc, Cassandra + KV DBs (why use this instead of relational), Key Generation Service, PostgresDB/SQL table designs, indexing, leader and follower via Zookeeper, config files via Chef... etc, SQS/SNS, Kafka, in-memory caching\n\nSource: Received 5 200-300k TC offers this year with &lt; 6 years of experience, 4 of them were liquid.\n\n--\n\nEdit: read some replies and wanted to add for reference, it's more important to learn the type of technology than the tech itself.\n\nSQS/SNS are message queue + topic implementation in AWS, Cassandra and BigTable are wide-column DBs... so learn for example that message queues can be used for fault tolerance and wide-column DBs remove the need for association tables (don't quote me on this, I'm braindead from the holidays), Zookeeper can be used for majority etc.\n\nEdit 2: I forgot to put monitoring/distributed tracing in the topics list",
+          "score": 123
+        },
+        {
+          "body": "I know it’s a not a good excuse, but my problem is the product I work on is not a web app, so I’m not exposed to any of this stuff on a daily basis.",
+          "score": 19
+        },
+        {
+          "body": "What would you recommend as good projects or resources to understand these topics a little more?\n\nI am a .NET dev with about 2 years exp (only 1 year out of school). I want to learn more about system design as a whole but be more proactive than the “it comes with time”.",
+          "score": 11
+        }
+      ]
+    },
+    {
+      "title": "Didn’t get the job because I don’t have a car",
+      "body": "So today I had an interview at Taco Bell. It was only like a 5–6 minute Uber ride, so getting there wasn’t a problem at all. I went in, asked for a manager, and told them I was there for an interview. The hiring manager came out and started asking me the usual interview questions about my experience and stuff. Then he asked if I had reliable transportation. I didn’t lie, I told him I don’t drive, but I literally live down the street from the Taco Bell. He went on this whole rant about how he prefers people with cars and straight up told me, “come back when you have a car.” I was honestly kind of taken aback because… how am I supposed to get a car without a job? Anyways, now I’m back in bed scrolling through Indeed again 🤦🏽‍♀️",
+      "subreddit": "jobs",
+      "score": 750,
+      "url": "https://reddit.com/r/jobs/comments/1pxaprb/didnt_get_the_job_because_i_dont_have_a_car/",
+      "comments": [
+        {
+          "body": "the correct answer to \"do you have reliable transportation?\" is YES.",
+          "score": 200
+        },
+        {
+          "body": "That's just silly. \n\nUnless the area has terrible public transit or you can't walk to work, I think it's just silly.",
+          "score": 480
+        },
+        {
+          "body": "I really dont understand that bc that's even walking distance if push came to shove. To me the fact you're that close is reliable enough.",
+          "score": 87
+        },
+        {
+          "body": "I use ride share and the bus and I never tell bosses this until I’ve been there a while. If they ask if you have reliable transportation just say yes and do not elaborate. It’s none of their business anyway.",
+          "score": 39
+        },
+        {
+          "body": "Say you have a car next time. Cars break or get sold. Something happened to it if, you at some point down the line get asked. I don't think anyone will even ask. \n\nThat they even expect people to have a car on fast food pay is appalling.",
+          "score": 34
+        }
+      ]
+    },
+    {
+      "title": "Welp I just got laid off 🫠",
+      "body": "Came in to work and immediately got a teams call, knew immediately as HR was on the call. I’m taking myself out to breakfast cuz I just don’t know what else to do with myself. \n\nAny advice? It took a really long time to find this job, I had severe interview anxiety for years. To the point where I mostly just did Uber and Lyft in lieu of a standard job. This was my first traditional job. I’m 36. Prior to that I was a perpetual duck up and also was I full time care giver for my mom.\n\nI have a degree in English and the job I just left was for a huge education company just in web support, think very simple like password resets. Helping people Navigate software. \n\nNo idea what to do now. I get to put in a check through August 1. So I get paid like normal and am not expected to come in. Then I get 3 weeks for every year of service so an additional 3 weeks.  I have a bunch of unused pto and vacation and I forgot to ask if that gets paid out\n\nEdit: Thankyou so much everyone, I feel soooo much better! There’s so much great advice In here. Im still reading through all the responses so bear 🐻 with me. \n\nAnd if you’re in the same situation, we can do this!!!",
+      "subreddit": "jobs",
+      "score": 1665,
+      "url": "https://reddit.com/r/jobs/comments/14lf7s1/welp_i_just_got_laid_off/",
+      "comments": [
+        {
+          "body": "Jobs aren't easy for anyone to find today, and it sounds as though you're getting better and landing them.  Chalk this up as experience and go for another!",
+          "score": 701
+        },
+        {
+          "body": "Might be a time to upskill since password resets and demos are mostly automated at this point. Consider what industries are most valuable in your community and get the education you need to work toward them.",
+          "score": 136
+        },
+        {
+          "body": "Reach out to your supervisors directly and ask for letters of recommendation.  It helps to include those with your applications and resumes when applying.  \n\nIt's good that you have some severance. Check your local community college for career classes. They can be a big help with your anxiety about interviewing. I got coached by one of my instructors before a big interview and it was a huge help; I got that job and loved it. You can get help with resume and interview coaching through career services at the CC as well as long as you are a student - so take something, anything, to access those services. Added perk: a class can provide structure to your day. Taking advantage of time off to learn a language looks good on a resume too.",
+          "score": 34
+        },
+        {
+          "body": "Take the rest of the day for yourself and then start the job search tomorrow. Sounds like you are getting paid through August 22nd and will have some unused PTO cashed out as well, so you have some time but always good to get started early. Good luck.",
+          "score": 28
+        },
+        {
+          "body": "You studied English. Good 'outs' for that knowledge  are: \n\n1. Technical writing \n2. Copywriting \n3. Editor\n4. Content writer \n5. Education writer \n6. Remote ESL teacher \n\nThese are just off thw top of my head. It gives you some ideas to move forward.",
+          "score": 48
+        },
+        {
+          "body": "Whatever you do, don't get discouraged. Try to remove emotions from the job search and be methodical. It took me 6 months and 700 applications but it happened and it will happen for you too if you're persistent and willing to adjust the fields you apply for and the way you apply/interview.\n\nGreat work and keep your head up!",
+          "score": 15
+        }
+      ]
+    },
+    {
+      "title": "Uber Interview Process - Preparation Tips Needed",
+      "body": "Has anyone here gone through the non-tech interview process at Uber?\n\nI applied for a Recruiting position yesterday with the expectation of being ghosted, but here I am, set to already have a \\~20 min. phone screen interview next week with the recruiter based in AU.  Assuming it will be a general introductory call, I'm not too worried about it...but any further insight (like things to watch out for or emphasize) offered would be greatly appreciated, including whether or not it's appropriate to ask about the salary range, and disclose my Neurodiverse conditions (ADHD/ASD) for remote work flexibility request (in which Uber accommodates per their hiring website), at this point, or after I potentially get the official offer.\n\nFYI: Currently at Amazon JP with 2.5 years of tenure as an L4, having experience in Ops and TA; now looking externally with the incoming 5 day RTO mandate and my abusive manager who is most likely out to get me as URA.",
+      "subreddit": "jobs",
+      "score": 3,
+      "url": "https://reddit.com/r/jobs/comments/1ftlf0g/uber_interview_process_preparation_tips_needed/",
+      "comments": [
+        {
+          "body": "You should certainly ask about the salary range, that's a no-brainer. Beyond that, these sort of calls are primarily designed to try to make sure you understand the role and weed out the psychopaths, not much more.",
+          "score": 2
+        },
+        {
+          "body": "Just following up here, did you get the job? How was the interview process? I just got an interview at Uber too for a senior program manager role and want to know how to prep efficiently!",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Was I wrong to turn down a job?",
+      "body": "I'm 17f and I had an interview for a Dunkin Donuts 13 minutes from where I live. An Uber to that Dunkin cost $13 this morning (and prices change a lot, at this moment an uber is $50.) \n\nI did the interview, lady barely shakes my hand, the environment was off as soon as I went in, but it's okay. She leaves and comes back and offers me the job on the spot. For $8/hr. \n\nThat's 4 hours of work to pay for two Ubers to and from work assuming the price doesn't go up to $50 again. I say to the lady \"I'm going to need to think about it\" and she goes \"no, the offer is only on the table right now.\" \n\nI said, \"I'm going to have to say no, thank you\" and I leave. I'm not tripping right? $8/hr is just bonkers, is it not?\n\nEdit: the only reason I'm asking is because my brother (18) said something along the lines of \"$8/hr is better than having no job at all\" but I'll keep applying to every store in town if I need.\n\nEdit again: I do not have a bike. I (obviously) can not buy a bike without a job. \n\nThe job is in the next town over so my town's bus cannot drive there. \n\nI cannot have someone drive me everyday because my family does not have a car (walkable town). \n\nNo, I will not walk 3 hours to a job. ",
+      "subreddit": "jobs",
+      "score": 1162,
+      "url": "https://reddit.com/r/jobs/comments/1kur26s/was_i_wrong_to_turn_down_a_job/",
+      "comments": [
+        {
+          "body": "Girl $8 is not worth getting screamed at by customers because you forgot their straw. 😭",
+          "score": 988
+        },
+        {
+          "body": "Big red flag that she said it was “only on the table right now”. Also, my first job in high school at 16 was similar to what you are looking at and I made $12/hr. This was in there mid 2000s. So yeah, $8/hr with no reliable way to get there is pure bull.",
+          "score": 174
+        },
+        {
+          "body": "[removed]",
+          "score": 400
+        },
+        {
+          "body": "What state are you in? $8 is crazy and no it makes no sense after deductions unless you work full time and get rides home",
+          "score": 202
+        },
+        {
+          "body": "$8 is WILD. The lowest paying job where I live is typically $15 an hour and even that seems low to me.",
+          "score": 40
+        },
+        {
+          "body": "No you did the right thing. I would try to find a retail job because it usually pays more.",
+          "score": 26
+        }
+      ]
+    },
+    {
+      "title": "I might be too stupid for jobs that pay a livable wage. Advice needed.",
+      "body": "I’m a 35 year old man. I dropped out of high school in the 9th grade, and I basically got F’s in most classes. My plan was to make a career out of making music, and it’s been 20 years, yet I’ve not been financially successful. I live with my mom, and I drive for Uber Eats to pay my car payment. I’ve applied to hundreds of jobs at places like Chipotle, McDonalds, etc.. and I’ve not gotten one interview. I live in Los Angeles, and I see people with fancy cars and nice houses all day, and I constantly think to myself “What is so special about them that allows them to make so much money?” \n\nI’ve tried dropshipping, and online marketing, but I couldn’t get any buyers, and I kept running out of money for paid ads. \n\nI enjoy working hard. That’s not an issue. I spend most of my time delivering. I’ve made over 5,000 deliveries, and I’ve produced over 2000 instrumental songs. I spend each day working, even though I barely make anything. \n\nI can’t do math beyond a 4th grade level, and sample questions for the G.E.D. test are overwhelming, and I don’t think I can pass it. \n\nI might have a really low I.Q., but I want to start a family and live a normal life, which requires a decent paying job. \n\nDoes anyone have advice for someone like me who is looking for a decent paying career, but might be stupid? ",
+      "subreddit": "jobs",
+      "score": 387,
+      "url": "https://reddit.com/r/jobs/comments/1j6vdhm/i_might_be_too_stupid_for_jobs_that_pay_a_livable/",
+      "comments": [
+        {
+          "body": "Don't down yourself. You work hard, and you're smarter than you think. You're capable of self reflection and the ability to adapt to changing circumstances.\n\nI'd try for jobs in both the trades and in office work. You might surprise yourself at what you're capable of. Sometimes in life we are our own worst enemy, and it helps to become our own best friend.",
+          "score": 282
+        },
+        {
+          "body": "Best bet will be trades, construction, truck driver get your CDL",
+          "score": 135
+        },
+        {
+          "body": "I don’t know. You seem to be too well spoken to be considered as someone with “low iq”.\n\nI’ve worked with other high paid professionals that couldn’t even write nearly as coherent as you just did.",
+          "score": 123
+        },
+        {
+          "body": "Go work construction or a trade",
+          "score": 180
+        },
+        {
+          "body": "You might not be as dumb as you think, and intelligence isn't everything. I agree with the other guys, learning a trade might be a solid way to go.",
+          "score": 18
+        },
+        {
+          "body": "First of all, you're not dumb.\n\nYou probably learn better from hands on and listening, rather than reading or math. You may have test anxiety as well.\n\nTrades are a great idea. Or truck driving.",
+          "score": 16
+        }
+      ]
+    },
+    {
+      "title": "I can't seem to get hired anywhere !",
+      "body": "This is more so me complaining.  But if there is any advise to be had I will be gracious. I've had 3 interviews and I've been applying everywhere for weeks and nothing. I have a specific need of a remote position. Fully remote not a hybrid. \n\n   I'm  a mother of a special needs child who gets kicked out of every daycare she's been to. I have her in kindergarten now which is 7-2 and early release on Wed 7-1230. I need full time hrs (I would be getting her off the bus on my break) \n\n    I had a job that was good with that unfortunately I got fired for not getting enough sales. I'm done with sales it's too stressful with a child at home during working hrs. I want to get into customer service or data entry. But really at this point I'll take anything.  \n  \n  My education level is little too none. I've been getting by lying and saying I graduated when I did not (that's a long story) and before anyone says it ive tried multiple times to go back for my GED. I feel that it's not in my cards. I'm lost at this point. I'm desperate for a real job I've been ubering making 40$ a day it's not enough. \n\n   I'm gunna add my resume yall tell me what you think I blocked out my name phone number and email. \n  \n   \n",
+      "subreddit": "jobs",
+      "score": 169,
+      "url": "https://reddit.com/r/jobs/comments/1izt3tr/i_cant_seem_to_get_hired_anywhere/",
+      "comments": [
+        {
+          "body": "Hi! I’m sorry you’re going through this right now… I’m a Human Resources and Communication Coordinator so I look at resumes often. This resume at first glance is very bare and not very intriguing. I think you could elaborate more on each job you’ve had. I’m not sure what an “AMP” is or what company that is. Also, where it says “enhanced payment systems” what is that? Like was that a position or the name of a company? Plus you didn’t elaborate on it at all so it’s confusing. I don’t recommend using abbreviations in your resume also. For example you said “Call Center Apt Setter”, just write it out as “Call Center Appointment Setter”. You also didn’t include what company you worked for! Where it says “Highlights and Qualifications” you didn’t include any software you used at your jobs. Like did you use Microsoft office? Google Suite? Include what systems you used. Not trying to be rude, but there is a lot wrong with this resume. I recommend watching videos on YouTube on how to make a resume or look at examples online. As someone who sets up interviews and looks at resumes, I would have not considered this one for a second. Hopefully this helps! Good luck, I really recommend making a whole new resume.",
+          "score": 551
+        },
+        {
+          "body": "I would immediately discard this resume if it came across my desk.\n\nListen to the others for resume help",
+          "score": 96
+        },
+        {
+          "body": "I would give chat GPT your experiences and ask it to summarize them for a resume. You may need to break it down job by job to not confuse the machine. Many people use GPT to polish their writing skills in professional communications. Given your adversities, I would think you need any advantage you can get.",
+          "score": 32
+        },
+        {
+          "body": "Your high lights and qualifications are about as bland as they come.  Everyone can put “fast learner” “team player” and “detail oriented”, it means next to nothing to a recruiter or potential employer.  Try to put stuff there that sets you apart or has more quantitate value.",
+          "score": 60
+        },
+        {
+          "body": "Man, various jobs is so sketchy",
+          "score": 50
+        },
+        {
+          "body": "Dates aren't even in the same format and terribly positioned, AMP doesn't even have a role listed, \"various jobs\"... just pick whatever is the best. Highlights? Show that through your positions, not just typing it.",
+          "score": 19
+        },
+        {
+          "body": "I didn't read it but it looks like a lot of wasted space. Look for a formatting that makes it look like you have done more.",
+          "score": 19
+        }
+      ]
+    },
+    {
+      "title": "Uber to work is 60% of my monthly... How can I make this work?",
+      "body": "I hit a deer the night before the interview and thought I wouldn't get the job. I was transparent about my availability during my interview. I just wanted to make a good impression so that they would remember me for the next time there was an opening or something. I really liked the place.\n\nGood thing: I got the job! I'm no longer unemployed! I get paid $4/hr more than average due to my experience!\n\n  \nBad thing: Insurance will fix the car but won't give me a rental car. The car won't be fixed for a couple months because they have to wait for some parts to arrive. I have been unemployed for 9 months and my savings/checking only have $300 left and credit cards are maxed. Not enough money for a rental car despite rewards and Costco discounts. Bus doesn't run at the time I need to get to or from work. It arrives late to work by 30 min and last ride leaves 3 hours before I end. Uber/lyft costs $40-50 one way. The manager did their best to accommodate me by having me work four days/week rather than five and offered to ask around if someone can give me a ride.\n\nBiking to work is 1.5 hours one way and I physically cannot do that. I have nerve damage in my feet.\n\nI am a fulltime community college student. The reason I am looking to work full time is because I can't pay for whatever FAFSA doesn't cover. I have a SAI of -1500 so I am getting max aid. Honestly even with my amazing pay, FAFSA, and college payment plan, I would still owe $1200 by the end of the semester. This means a registration hold on my account and can't register for the next semester until it's paid off.\n\nHonestly how do people work full time to put themselves through college. I just want my associates so I can get certified and make twice the hourly I am right now (tried the on-the-job trained route for 4 years and no growth pay wise).",
+      "subreddit": "jobs",
+      "score": 103,
+      "url": "https://reddit.com/r/jobs/comments/1ofddx4/uber_to_work_is_60_of_my_monthly_how_can_i_make/",
+      "comments": [
+        {
+          "body": "I feel like a rental would be less than that each day. May be worth it to see if you could do a cheap long term rental. Would still be a lot of money but possibly less than you currently pay and more convenient",
+          "score": 98
+        },
+        {
+          "body": "I don't mean to be a downer, but maybe consider taking a semester off or only going part time so you can stack some cash. \n\nWhy is your vehicle going to take so long to get fixed? Have you asked the shop if they have a loaner available?",
+          "score": 201
+        },
+        {
+          "body": "Ask your bank or credit union if they have hardship loans, they're usually small and 0% interest if you qualify.",
+          "score": 28
+        },
+        {
+          "body": "I don’t want to sound unkind but there are other auto shops. Have you even looked at other mechanics? The options are, get your car fixed sooner, or do not accept the job. It does not take months to order parts unless you have a sports car or your car is 100 years old. \n\nIf you need a job to support yourself, you may need to delay your school until next term. In this economy turning down a good paying job is not wise. There were around 750 people in my small community of 120,000 laid off this week from two companies. My employer laid off another 120 in September.  \n\nMy point is, there is already a ton of people competing for every job. Don’t make it harder on yourself.",
+          "score": 25
+        }
+      ]
+    },
+    {
+      "title": "Long term unemployed, what's a typical day?",
+      "body": "I want to start off by saying I'm not trying to put down anyone. I'm asking out of curiosity.  Like what's a typical day in your world like. I've been trying to break out of part time the last several months with no luck. Luckily after tweaking my resume I've landed a couple job interviews but no offers.  Still hopeful and thankful go atlelast have the part time work and a volunteer job that's in the field of my minor which is what I spend Wednesdays and Fridays doing. Occasionally weekends to just depends ds what they need. Monday and Tuesdays and Saturdays are my regular job days. Wednesdays I also started doing Doordash and Uber eats also and go cycling with a local bike group after I'm done\n\n",
+      "subreddit": "jobs",
+      "score": 124,
+      "url": "https://reddit.com/r/jobs/comments/1ny6nsk/long_term_unemployed_whats_a_typical_day/",
+      "comments": [
+        {
+          "body": "Been a while since I’ve been unemployed, fortunately; but the last time I was, it was very important for me to maintain a structured routine. \n\nIt’s tempting to sleep in. Stay up late. Spend your time watching TV, gaming, etc. I did that for about a week or so after being let go, to give myself a bit of a break and process the loss of my job. \n\nBut I was very worried of letting that become my new reality. So I made sure to keep my alarm in the morning (maybe not quite as early, like 6/7am, but maybe 8am instead). \n\nAll the regular morning routine stuff. Make your bed, shower, get fully dressed (no sweatpants or gym shorts), make breakfast, etc.  \n\nMake sure I was at my desk, ready to work (job hunting is now your job) by 9am. Always tried to put in a full day, although you realize quickly that “working” til 5pm every day isn’t exactly feasible once you’ve applied to a lot of the available jobs. \n\nMaybe finish up “work” by 2pm or 3pm. Keep myself busy - clean the house, do laundry, errands out of the house, etc. \n\nTook advantage of some of the nice things about being free during the day. Went to the gym during less busy hours. Take walks or runs during the sunny hours of the day. \n\nEvenings and weekends I also kept the same. Evenings were lazy. Weekends for getting together with friends. \n\nTried to keep the same bedtime. \n\nAt the end of the day, I think it’s important to keep certain routines, regardless of whether we’re employed or not.",
+          "score": 139
+        },
+        {
+          "body": "I mostly sleep, apply for jobs, maintain house and chores, take care of my toddler when he comes home from school. Toddlers are a timesuck, you blink and it’s time for bed.\n\nI’m also recuperating from a year’s worth of intense cancer treatments and surgeries though. If I weren’t struggling with all of the side effects of chemo I’d be trying my best to get a part time job and try to be a lot more active. ",
+          "score": 30
+        },
+        {
+          "body": "Watch YouTube all day and go back to sleep 💤",
+          "score": 42
+        },
+        {
+          "body": "Word of advice. I quit a job at car sales when i knew I would miss my quota. I had gotten that job after getting fired from my job after 23years at a casino. Getting a new job in business is pretty hard. Sales jobs that are commission based are a dime a dozen. The people hiring at these jobs are monsters normally. You want to scare them and sink your chances ask about insurance and 401k or Iras. \n\nA UNEMPLOYMENT DAY. \n1. CHECK  EMAILS\n2. CLEAR CACHE\n3. LAUNDRY \n4. SWEEP/VACUUM \n5. SNAIL MAIL\n6. GROCERYS\n7. LUNCH \n8. SET WHITE BOARD TASKS\n9. WORK OUT\n10. PAY BILLS\n11. CHECK INVESTMENTS\n12. CALL FRIENDS/FAMILY\n13. CHECK INDEED/GLASSDOOR/ZIPPRECRUITER/ BANDANA/MARKET PLACE. \n14. APPLY APPLY APPLY\n15. COVER LETTERS\n16. REDDIT\n17. YOUTUBE\n18. GAMING \n19. PORNHUB\n20. SHOWER\n21. BRUSH TEETH/SHAVE \n22. WATCH CARTOONS SO YOU DON'T HAVE NIGHTMARES. \n23. SLEEP/ DON'T SET ALARM",
+          "score": 14
+        },
+        {
+          "body": "When I was unemployed, I slept in, played video games, grabbed coffee at Starbucks, and cleaned my apartment. Of course, I applied to jobs in between those things. But I mainly gamed or watched TV. Didn't have money for much else.",
+          "score": 9
+        },
+        {
+          "body": "Workout and do stuff that you couldn’t do when you were employed.",
+          "score": 17
+        },
+        {
+          "body": "When it was me,  I'd wake up a 10am every day. Then during the week most afternoons were spent applying to things. I'd spend the evening trying to do some self care to not drown in depression-youtube, etc. Weekends I'd not apply at all. I'd go hang out at a coffee shop just to be around other humans-I could afford a tea now and then. I'd start the madness of applying all over again when monday rolled around.",
+          "score": 9
+        }
+      ]
+    },
+    {
+      "title": "Almost 1000 Applications NOTHING",
+      "body": "I don’t know what to say about this job market but I am sire that this is the most brutal time in U.S. Market history of landing a job.\nI have applied almost every day and I’ve reached a 1000 application today and I barely got couple interviews and ton of rejections and ghosting . \nI have more than 7 years experience in leadership within HR and Operations in various industries (Healthcare Information Management / IT / Finance) all within people or staffing management ) and I applied to all possible alternative titles as well/ optimized my linkedin / my resume / Networking/ recruitment agencies) nothing at all. I am in my 9 months of being unemployed and I live in DFW area (Dallas). \nI have a spouse and pets and I feel like it’s a curse of punishment idk what else to do . On the top of that I have a graduate degree ( MBA). I had to postpone all my payments including car payment student loan payment and credit cards payments and anything and put it all on my spouse’s shoulders and I tried to do some Uber and it’s burning my mental health . \nIdk what else to do - I need a serious help everyone.\nAny suggestions or recommendations or ppl you might know. \nThank you for reading my post",
+      "subreddit": "jobs",
+      "score": 150,
+      "url": "https://reddit.com/r/jobs/comments/16osw35/almost_1000_applications_nothing/",
+      "comments": [
+        {
+          "body": "And people actually believe the government unemployment numbers 🤣 🤣 🤣",
+          "score": 90
+        },
+        {
+          "body": "Companies around me in Seattle can’t hire enough people.  May need to think about relocating or volunteering somewhere you want to work to get connections.\n\nMy friend did that.  He was 68 and wanted to get back into the job market as he was bored.  Volunteered at a couple of companies.  His boss encouraged home to apply for some of the positions they came opened.  He ended up with a job working 4 days a week making $70k a year and loves it!",
+          "score": 18
+        },
+        {
+          "body": "&gt;I have more than 7 years experience in leadership within HR\n\nDo you have any kind of formal certification for doing HR?",
+          "score": 9
+        },
+        {
+          "body": "\"this is the most brutal time in U.S. Market history of landing a job\"\n\n1930 would like a word...\n\nIt is a rough time, though, I feel for you.\n\nGiven that it's been nine months and you have responsibilities, you probably should look at going hard on the gig work. Uber, Instacart, AI training sites online, Prolific - there are a lot of places to make a few hundred a month and they add up. It won't pay what you were making, but it'll pay a lot more than 0.\n\nGood luck.",
+          "score": 39
+        }
+      ]
+    },
+    {
+      "title": "Job I’m interviewing for only offering 30+k",
+      "body": "I am in the interview process for a job. I found out today they are offering 31,000- 39,000. I am currently unemployed and wondering if the job is worth it. The commute is 40 minutes by expressway. I have a car that isn’t really reliable, so I would have to Uber or take the train. Should I stop moving forward with the position and keep looking or move forward with the process and work there until something else comes up better?\n\nJob- Administrative Assistant at a university. ",
+      "subreddit": "jobs",
+      "score": 395,
+      "url": "https://reddit.com/r/jobs/comments/18xpwaq/job_im_interviewing_for_only_offering_30k/",
+      "comments": [
+        {
+          "body": "You can always job hunt with a job.",
+          "score": 779
+        },
+        {
+          "body": "It sounds like a place to start while you find something closer and better paying. Also, it depends on your COL. If that is low, paying for the commute won't matter as much. You should consider the cost of commute per month, and if it makes more sense to put that money into your vehicle.",
+          "score": 108
+        },
+        {
+          "body": "30k &gt; 0",
+          "score": 278
+        },
+        {
+          "body": "Use it as a filler job, \n\nI was laid off last memorial weekend, took a job for 5 months and found a more suitable job with better everything, even better than the place I was laid off at and that was a damn good place. \n\nSomething is better than nothing.",
+          "score": 56
+        },
+        {
+          "body": "You could try to negotiate the salary up a little bit and see if they will meet you in the middle. 41000-43000 or even more, and if they cant then just take what they give you for now, its better than nothing, and see about promotions and raises as you go. And if you find you really arent liking it, just as another commenter said, you can always keep job hunting while there. But dont stop job hunting right now even though you have an interview coming up.",
+          "score": 16
+        }
+      ]
+    },
+    {
+      "title": "Is 1.5 commute too long to sustain? (3 hrs a day)",
+      "body": "Granted it's hybrid. They said it will only be 3 days out of the week. I know some of you will be like suck it up - and yes, if just commuting was the issue I would. I've had arguably worse commutes.\n\nI have a large dog. He needs to be watched. He's not problematic or anything, he just needy doesn't like being alone and doggy day care is full of untrained dogs (and potentially untrained guardians).\n\nFinding a sitter is an issue. So far, I found one nearby to help me while I was interviewing but it's through Rover, and it's like the Uber of dog care. Any one can just cancel appointments and it's like 65-70 dollars a day. Then I have to drop/pick him up which could add even more to the commute depending on where the available sitter is. Right now I'm averaging 1.5 hrs for 22-28 miles because it's CA and everyone has too many cars to a household.\n\nI feel like it's doable...\n\nBut every time I get back I am exhausted. Like I've been moving around all day and the next day I'm heavy/sore. Bad for the next day commute and for work concentration..\n\nNot sure what to do. If the job market wasn't like this I wouldn't even ask and go for the next opportunity.\n\nEDIT: I think I'm going to negotiate less/no days in office and if it doesn't work out it wasn't meant to be. I'm more stressed about the commute than I am about the job.. ",
+      "subreddit": "jobs",
+      "score": 34,
+      "url": "https://reddit.com/r/jobs/comments/1oukzee/is_15_commute_too_long_to_sustain_3_hrs_a_day/",
+      "comments": [
+        {
+          "body": "Is it a short distance 1.5 hour commute or is it 70 on the freeway long distance commute?",
+          "score": 50
+        },
+        {
+          "body": "Way too long based on my experience",
+          "score": 41
+        },
+        {
+          "body": "People do it, but that's long. I'm driving 50 min in the morning and about an hour at night. It usually takes around 45min without traffic for me. I already think that's way too long compared to my old commutes of 25-30min",
+          "score": 15
+        },
+        {
+          "body": "I had a commute that averaged 1.5 hours each way every day years ago.   It's doable, but I was stressed out a lot",
+          "score": 11
+        },
+        {
+          "body": "I would never. My 45 minute commute was too long for me.",
+          "score": 11
+        },
+        {
+          "body": "Commutes are never worth it in the long run. Extra time preparing and driving destroy your health. Money for gas and vehicle service become much higher (plus a missed vehicle service leads to disaster). More tired driving behind the wheel, more potential for being late unless you always arrive very early, more spending on food due to no time to cook..\n\nBad news bears all around.",
+          "score": 6
+        },
+        {
+          "body": "almost half a working day in travel, no thanks.",
+          "score": 5
+        },
+        {
+          "body": "I would find that really stressful. My current commute is 50 minutes each way but a lot of it is highway. If it was stop and go California traffic it would drive me insane.",
+          "score": 4
+        }
+      ]
+    },
+    {
+      "title": "Hired, FINALLY",
+      "body": "Today, after 334 days of unemployment and hundreds of applications, I was offered a great role making 15% more than my previous position, with significantly increased benefits as well. \n\nI haven’t posted here before, but during my unemployment I found this forum very helpful. I am grateful to others who shared their stories and helped me understand what an absurd job market we are in. Nobody deserves to be put in these positions but it’s helpful to know it’s not the universe conspiring against you personally. \n\nPrior to Friday, I had not even been offered an interview since September. Not for professional roles I’m highly qualified for, not for work in related fields, not for Costco, not for Starbucks. My insurance would not cover me driving for Uber. \n\nThis week, by some magic, I have been offered FIVE more interviews. But the first was the most promising, and it’s the one I landed. And now, five more people get those jobs. \n\nIf you’re out there filling out your 456th application and you’re about to give up hope, keep going. I have said for months now that everything could turn around for me in a single day. Today was that day. Your day is coming. \n\nThanks to everyone who helped me through this, sincerely. It really did make a difference. ",
+      "subreddit": "jobs",
+      "score": 507,
+      "url": "https://reddit.com/r/jobs/comments/1eh7aub/hired_finally/",
+      "comments": [
+        {
+          "body": "Congratulations. The conventional wisdom was that looking for a job could take six months. Your case demonstrates that with this wild job market, it takes double the time, almost a year.",
+          "score": 37
+        },
+        {
+          "body": "I really needed this!!! I haven’t worked since march, my savings are running out so quickly. \nI’ve been to multiple interviews, it always seems like they love me, they say I’m just what they’re looking for…. All of a sudden I get an email that they have filled the position… so discouraging but things will turn around for me any day now! I have hope! Gotta keep on doing my part and showing up! Congratulations!!!!",
+          "score": 23
+        },
+        {
+          "body": "I needed to read this. I'm employed but have been desperately trying to find another job due to burn out last year. It's an on and off kind of thing - apply for months, get demotivated, stop applying, apply again for months and the cycle goes on. \n\nI try to be happy for people who get new jobs around me but a part of me feels like I'm the problem and something must be wrong with me. I hope I get to post here something similar soon. Thank you for your words and congratulations!",
+          "score": 13
+        },
+        {
+          "body": "Congrats. I start my new position on Monday after 7 1/2 grueling months of applications. Hope your new job goes well",
+          "score": 13
+        },
+        {
+          "body": "Economy's best it's ever been &lt;laugh of a slow death&gt;",
+          "score": 9
+        },
+        {
+          "body": "Congratulations! And thank you for this. I just submitted my 300-something app, have been laid off since Nov '23 &amp; have been looking &amp; applying since Nov '22. \n\nIt is absolutely brutal. Never in my life have I ever put in more than 10 or so apps and *not* gotten a job, or even interviewed. With 16 years a masters degree and glowing referrals... it feels impossible some days. But posts like this give me hope.",
+          "score": 8
+        },
+        {
+          "body": "Congratulations! I’ve been unemployed since last June due to a company wide layoff. I have my degree and several technical certifications, still have not landed a role yet. I’ve sent out over 3,000 applications and have been through four final interview stages just to not get picked in the end. I had a job interview with Indeed which is headquartered in Austin this morning. Your post still gives me hope. I’ve been driving Uber in the meantime.",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "title": "I've applied to 80 minimum wage entry level jobs and not a single one of them has even given me an interview.",
+      "body": "I'm in my early 20's, I need to save money to finish my degree, I've been applying on indeed or zip recruiter for months, only for legit nothing, maybe I get the occasional email to fill out forms but then nothing after that. I even applied to amazon delivery driving and they sent me an email to fill out this form a week ago and no further emails/messages since. I've called these places and they all say the same thing \"We are not hiring\" or \"Our hiring manager will get back to you in a few days.\" Which they never do. In fact they act offended that you even called them.\n\nI've had multiple people check out my resume and everyone tells me it looks fine, in fact last year I had an awful resume and still got way more interviews and job offers than the one I have now, I redid it recently because after 40 jobs with nothing I realized maybe its time for a redo and used a template from Harvard. (I know what you're thinking, but trust me, the old resume was awful, the new one is an improvement in every way.)\n\nI'm at my wits end, at this point what am I actually supposed to do? My phone itself isn't even useable, 75% of the screen is not visible since I dropped it, I have no money, I drive an old truck with horrible gas so uber/delivery apps aren't an option. People say not to take it personally but after 80 absolutely awful jobs want nothing to do with you, its hard to not take it personal, I'm just enraged at this point, I must share the same name as a sex offender because I seriously cannot understand why jobs that were desperate to hire me a year or two ago now want nothing to do with me.",
+      "subreddit": "jobs",
+      "score": 254,
+      "url": "https://reddit.com/r/jobs/comments/153pnsu/ive_applied_to_80_minimum_wage_entry_level_jobs/",
+      "comments": [
+        {
+          "body": "&gt;I seriously cannot understand why jobs that were desperate to hire me a year or two ago now want nothing to do with me\n\nBecause the job market is vastly different now than it was two years. It's not just you. Right now is a bad time to be be looking for a job for everyone.",
+          "score": 141
+        },
+        {
+          "body": "You prob don't have 2 years of experience and the masters degree they're looking for.",
+          "score": 45
+        },
+        {
+          "body": "Ok, I'm going to give you the benefit of the doubt that you're sincere and applying to actual minimum wage jobs, so take this with that.\n\nDon't ever bring a resume.  That's weird.  Just fill out the application and put nothing other than work history and that you graduated from high school.  No college, awards, etc.  It's a turn off.\n\nDo not expect full time.  That's just not how low paying jobs work.  You'll probably have to pull a couple of jobs until one buys in if you need full time hours.  This could take months.\n\nThe key to low paying jobs is being reliable, presentable, and not weird.  Just prove you can show up on time, learn quickly, and not cause trouble.  No manager will trust you until they see it.  Every manager has a story about an employee that seemed normal until they weren't.",
+          "score": 80
+        },
+        {
+          "body": "Its just a terrible market. Especially for newer workers. People are settling for lower jobs so the experience requirements are getting higher or businesses are grabbing the more experience for less money.",
+          "score": 20
+        },
+        {
+          "body": "So, let me tell you what I learned recently just by chance.\n\nI got an email from [topresume.com](https://topresume.com) a few weeks back. Mentioned that they would do a free resume review if I submitted one. About a week later I got an email back that the review was complete, clicked the link and checked it out. To my surprise it was actually a pretty thorough review done by a real person. Of course they were offering their services which would cost a hefty fee and what not, but the review was solid and appreciated.\n\nOne thing I noticed that really stuck out was this portion, which I've copied:\n\nResume Scan Test Results\r  \n93% of all Hiring Managers use resume scanning software called applicant tracking systems (ATS) to filter candidates from the application pool. To illustrate how you stand up to the automation, I passed your resume through the very same software that Hiring Managers use to filter the real talent from the hundreds, sometimes thousands, of candidates that apply for a single open position.\n\nThen it gave me a breakdown of what the hiring manager sees when they go through these profiles. My 'management score' was 25/100 based on a number of factors.\n\nSo what I did was use ChatGPT to help. I prompted it that I wanted to re-do my resume, that I was about to copy over the entire review from TopResume followed by copying and pasting my entire resume as it was in Word.\n\nTo my surprise, 10 seconds later ChatGPT had spit out an entirely new resume for me based on the analysis from TopResume. It even created new bullet points to highlight some important things that I had buried within other sections. \n\nIn the past two weeks I have received 4 interviews, and for one position have a third round of interviews set up for this week that I anticipate receiving an offer for. \n\nI'm not sure if this would help others, but I can't recommend enough following these steps. Get a free resume review done, plug that analysis into ChatGPT, and let it update your resume based on the feedback.",
+          "score": 18
+        },
+        {
+          "body": "Searching for a job really sucks right now. Some postings for jobs aren't real and are there to make the company look better.\n\nMaybe check out job fairs near you, there's only so much info an employer can get from a piece of paper. Considering how many applications that employers may get you really have to make yourself stand out. With a job fair you can meet with them and talk it out about any concerns theymay have about your resume. \n\nDepending on your area, you could look into any schools that need bus drivers. They may be some that help pay for your cdl and training making it eqsier to get, it might not be a bad fit. But that depends on what you want for a job.",
+          "score": 15
+        }
+      ]
+    },
+    {
+      "title": "This job market sucks",
+      "body": "I am 5 months post-graduation and I can’t get a job relating to my major. I applied to 10 a day and I have not even gotten an interview. The problem is there are hundreds of applications for one job I do have a part-time minimum wage job working at a pizza place but the company is greedy. They have been obsessed with cutting hours, despite having a 700 million dollar revenue. Anyway, I was taking an Uber to work and I was having small talk with the driver. I explained to him how I can’t get a job with my major. He said “No, I don’t believe that.” I want to start crying looking back at what he said, even if he didn’t mean to offend me. I have been applying to hundreds of jobs and it’s brutal out there. I have been spending so much time and energy applying. It is getting ridiculous",
+      "subreddit": "jobs",
+      "score": 53,
+      "url": "https://reddit.com/r/jobs/comments/1og4w94/this_job_market_sucks/",
+      "comments": [
+        {
+          "body": "I've been looking for a better job since I graduated in May 2024. Gnarly time for us to join the job market, so dont feel like it's just you.",
+          "score": 14
+        },
+        {
+          "body": "I’ve been here how bad the market is, especially for college grads, or older people getting pushed out of the industry so they can hire for less.\nWhat degree do u have, what type of position are you looking for?",
+          "score": 9
+        },
+        {
+          "body": "You can thank the mess of a president in the White House for this mess. Tariffs and economic policies are not helping.",
+          "score": 11
+        },
+        {
+          "body": "Amazon is hiring seasonal right now if you need something temporary.",
+          "score": 4
+        },
+        {
+          "body": "I'm sorry that your uber driver is a complete jerk. The reality is that the job market is so bad right now... there's so many people who've been out of work for so long it's crazy.",
+          "score": 3
+        },
+        {
+          "body": "Talk to your university resource center, they can often help with placement.\n\nAlso look into internships, unless you chose a crazy major like middle eastern history &amp; philosophy. Then of course you will be looking a while .",
+          "score": 5
+        },
+        {
+          "body": "10 a day isn’t enough in this market. I finally got a job yesterday.",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "title": "Has anybody ever been rejected because they didn’t have a car?",
+      "body": "Basically I was told by the job i had my 2nd interview for that they wouldn’t hire me because I don’t have a vehicle..mind you a car/license was not a requirement for the job..it’s in a warehouse &amp; it’s on site (one location)..apparently their very strict on this and concerned that those that don’t have their own transportation will be late even though I explained to them that I live 6 minutes away and will be relying on Ubers/Lyfts..the lady said if something was to change with my transportation to call them back so I called &amp; explained a situation again to reassure this won’t be an issue  and she’s supposed to be getting back to me but she hasn’t yet and I don’t think she will \n\nFunnily enough how this even came about is because the workplace is gated so if you’re on foot like I am the only way to leave is to call the desk to get it open..so ig because I had to do this it led to them to inquire more and ask me about my transportation a couple hours after..it just sucks because this was a good weekly paying job and I don’t think its fair",
+      "subreddit": "jobs",
+      "score": 165,
+      "url": "https://reddit.com/r/jobs/comments/176m18f/has_anybody_ever_been_rejected_because_they_didnt/",
+      "comments": [
+        {
+          "body": "I've had plenty of coworkers who owned their own cars and were chronically late every day. Lol",
+          "score": 163
+        },
+        {
+          "body": "This really sucks but is not uncommon at all.\n\nBest advice is try to hide it in future interviews. They WILL discriminate based on this. Sometimes management will \"walk you out\" and they really want to see if you have a car and want to see into the car to see if there is evidence of kids (they don't like that either). Just continue to state you have reliable transportation don't offer them details on how. \n\nThe gate thing is fucking frustrating. Sorry you had to deal with it.",
+          "score": 102
+        },
+        {
+          "body": "I agree.  It is another way to discriminate against the poor.  I grew up in NYC.  No car, no problem.  I live in the Midwest now, and the public transportation is virtually non-existent.   Now there are apps and maps on your phone.  Previously these were not available.  Without a car you can't get a job or education.  The bus stops are not near entrances to places you need to get to.  \n\nGood luck OP.  Keep on trucking!",
+          "score": 51
+        },
+        {
+          "body": "Reliable transportation only HELPS in the quest to get employees to show up to work on time. NOTHING is 100% effective. Reliable transportation is a huge advantage.",
+          "score": 18
+        },
+        {
+          "body": "Countless times. I want to file an ADA suit against the companies that do this shit because I have epilepsy.",
+          "score": 69
+        },
+        {
+          "body": "So true, I am in my fifties and this has always been a problem. I finally was able to land a work from home job and never was all this question. This was a first.",
+          "score": 15
+        },
+        {
+          "body": "Yeah, even when job postings don't list car ownership in the requirements they will often eliminate applicants that don't have a car.\n\n&gt;Funnily enough how this even came about is because the workplace is gated so if you’re on foot like I am the only way to leave is to call the desk to get it open..\n\nYep, that's enough reason. Still a dumb, superficial and lazy reason. But that's enough of a reason to reject a candidate. The people at the office probably thought about having to open the gate for you that way regularly and decided it was too much of a hassle for them. On the flip side, I once worked at an office where most employees drove cars, but they ran out of parking space and it was tough for people competing for nearby parking spots. So with new hires, they started prioritizing people who took public transit lol\n\nPersonally I think preferring people with cars isn't right, especially for minimum wage jobs. (Kinda crazy the associated costs of a car with insurance, gas, maintenance and most likely car loans, having a car for low paying jobs really fucks over poor people, who may not live in areas that are near public transit)",
+          "score": 27
+        },
+        {
+          "body": "I’ve seen reliable transportation on pretty much ever job that I’ve applied for which basically means your own car",
+          "score": 26
+        }
+      ]
+    },
+    {
+      "title": "Everyone is hiring. But nobody hiring me",
+      "body": "\nUPDATE: Mar 9, 2022\n\nThx to all for the feedback &amp; great advice. \n\nHAPPY to share the news! \n\nMy mom took a lot of the suggestions, applied it to her profile &amp; resume AND in the last 2 weeks had interviewed with 4 different companies. The offer letter from one national company was accepted &amp; sent back this morning. \n\nI really really appreciated the support! What a community!\n\nI read each and every comment...thx again to everyone!\n\n\n\n\nI am posting this on behalf of my mom.\nShe wouldn't dream of reaching out to a public forum, but I her son on the other hand will.\n\nHere's the situation. \n\nMy mom's a marketing project manager.\nShe's worked for some large advertising agencies.\nYes, she is probably a workoholic (pretty normal working an 80 hr work week &amp; if they r on a big campaign 100 hrs). This is what my mom does. \n\nWell now she doesn't have a job &amp; I know she is sooo lost.\n\nHere's the backstory. \nMarch 2018 her department got outsourced, so it is what it is &amp; it's onwards &amp; upwards.\nIn Oct 2019 she got a new job with an agency.\n3 weeks later Nov 2019 there's an announcement that they were acquired by another agency. \nDec 1 2019 she was out of a job.\nWe r in Canada BTW.🇨🇦🇨🇦🇨🇦🇨🇦\n\nSo when she got the job Oct 2019, she was in probationary period, so when she got turfed there was no severance.\nAlso because she didn't have enough hours she didn't qualify for employment benefits.\nFollow that with Covid lockdown, she also didn't qualify for any Covid related benefits.\n\nSo my mom has been networking, taking online certificate courses to enhance her skill sets, took some digital marketing &amp; got a side hustle starting up an e-commerce store for a friend of hers. She got paid with being able to have the experience of a small start-up.\n\nHere's the issue.\nEveryday she's up at 7:00 a.m. on her laptop for her new job, looking for a job.\nShe crafts those cover letters for the jobs she's really interested in.\nFor the jobs that r okay she just sends out her standard resume.\nShe signed up with 2 recruiters who specialize in marketing/advertising.\nShe applies for local &amp; temp jobs that she can do no problem. Nothing!\nShe even wanted to drive for UBER, but although her car is immaculate inside &amp; out, UBER goes by the model year of the car &amp; hers is too old.\n\nShe does gets a lot of interest &amp;  gets calls to set up interviews. 📱\nInitial phone screening interviews go great. \nMoves on to subsequent interviews. \nThen she makes it to the final round &amp; is told she is 1 of 3 final candidates. \nThe final round is a zoom call.   \nI have been outside her office space eavesdropping on some interviews.\nHer 30 minute interviews usually go to 1 hour. \n\nMy mom's pretty passionate about the work she does &amp; has been successful in previous roles. \nAnyway, meetings go well, she would be a great fit etc. etc. etc.\nAfter the meetings, she sends a nice thank u email. \n2 weeks after that she sends an email asking if there is anything else they might need from her.\nRadio silence / crickets. 🦗\n\nI went in my mom's job folder &amp; she has 270 rejection emails. \nYour typical \"thanks for applying, but we have chosen another applicant etc\". \n👏 👏👏👏 Those emails r great, because u cross them off your list of potential job opportunities &amp; move on.\n\nBut the roles that go through the interview process &amp; then nothing is harder to deal with.\n\n****Is it because she is older? She is 61.\n\nMy mom looks pretty with it &amp; she is an accomplished multitasker. In her jobs she always was ahead of the curve on trends &amp; she also was responsible for some very cool innovations for the clients.\nIf there's a problem that needs a solution, everyone called my mom.\nIn her office space is a collection of the framed awards &amp; little statue awards she has been given over the years. 🏆🥇🏅\nIn a previous role her CEO did a shout out to the global agency to highlight that mom was managing 60% of her departments projects &amp; the other 3 people were managing the other 40%. 👍\nI get it, there's a lot more that goes into evaluating workloads, but for the purpose of this posting this comment will have to suffice.\n\nShe needs to be employed these last 4 years so that she is at the higher end on her Canadian pension plan.\n\nShe had enough emergency savings to carry her for about 14 months (mortgage, gas, heat, hydro, insurance, internet), but those savings r now gone.\nI don't make much, but I don't have any debt...my student loans were paid down right away. In the meantime, I am looking after what I can..\n\nReddit community is pretty powerful, so if there r just a few of u out there I would appreciate any insights, feedback or words of wisdom.\n\nSometimes just knowing that u r not alone is supportive.\n\n🤞🙏 Thx for taking the time to read this &amp; giving me a space to share.\n\nEven friends who r working don't fully understand the situation &amp; u do start isolating from them because u r not.",
+      "subreddit": "jobs",
+      "score": 348,
+      "url": "https://reddit.com/r/jobs/comments/slhun8/everyone_is_hiring_but_nobody_hiring_me/",
+      "comments": [
+        {
+          "body": "Hello, thank you for posting to r/Jobs! \n\nWe just wanted to let you know that we have a new [discord server, come join the chat!](https://discord.gg/TY6ErXV)\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/jobs) if you have any questions or concerns.*",
+          "score": 1
+        },
+        {
+          "body": "I think her age is likely a significant factor. Many people will look at her and assume she’ll be retiring soon or should already be retired. \n\nHer best bet is to lean heavily on what is likely a substantial network. She should call pretty much everyone she knows in the field to let them know she’s looking and ask them if they know of anything that’ll be a good fit for her.",
+          "score": 204
+        },
+        {
+          "body": "Yes, it's because of her age. Period. As a 64 year old job hunter, I realized pretty soon what the deal was so I lowered my pay expectations and applied for non-management roles. I'm underemployed now,  but I like to work and like your mom, it's just for a few years so my social security will be more.\n\nHow to help her? Encourage her to do non-job hunting things like seeing friends or trying a hobby. She's gonna need those things when she retires anyway, so she can start now. Remind her that she's not her job, and she's not at fault because the job market doesn't recognize her worth.\n\nAgeism. The only ism we'll all face if we live long enough, yet one of the least acknowledged.",
+          "score": 79
+        },
+        {
+          "body": "First, I'm sorry to hear your mother is having problems finding a job. It sounds like she really got the short end of the stick, so it must be even more frustrating than usual. \n\nHas your mother considered becoming a consultant and opening up her own business? It sounds like she has a lot of real, relevant experience that might be appealing to others. I'm not sure how to actually get that all started (like legally and all), and it's a lot of work too (not just managing a website and printing new business cards). But it sounds like your mom just needs something more than a side hustle but less than a job (I'm sorry if I misunderstood). But since she's apparently worked for some real big companies, and loves to work, I'm sure she could sell her services. \n\nAnyway, she's so lucky to have a helpful child like you, OP. Best of luck to the both of you!",
+          "score": 36
+        },
+        {
+          "body": "I stopped reading after you said she’s 61. This is absolutely age discrimination she’s dealing with. It’s sad and disgusting. She would do best if she can find a job through someone she knows in her field, or take two part-time jobs in any field she can that add up to full-time work. I’m sorry for what your mom is going through. It’s wrong, and it makes me upset.",
+          "score": 30
+        }
+      ]
+    },
+    {
+      "title": "Should I leave this job on the first day?",
+      "body": "I'm 17 and still in highschool and I have been looking and applying for months now. So yesterday I got a interview at this restaurant that is 5 miles away from my house. Out of desperation I accepted and it's a restaurant. Today after school I went there for their training. So I got there started to learn stuff and do stuff and my feet are hurting so bad and there is a lot of work. The minimum wage in my state is $15/h and the job pays $15/h before taxes. Okay now it's 10pm and we are closing and cleaning and clock turns 11 finally I'm done. I'm gonna go enjoy a long bus ride home while listening to songs. So I get out get to a bus station and I check to see when the bus is coming and there ia not a single bus operating around me so now I have to walk 5 miles home I tried Uber and lyft but I don't my card and I can't even login for some stupid issue. \n\nIt's 12am now and I'm done with 20% dome with the walk home and feet are killing me, I'm also listening to The Night Met by Lord Huron because I miss my ex, I miss her so much. Anyway should I quit or no? ",
+      "subreddit": "jobs",
+      "score": 0,
+      "url": "https://reddit.com/r/jobs/comments/1q8wktw/should_i_leave_this_job_on_the_first_day/",
+      "comments": [
+        {
+          "body": "I don't think you should continue having late finishes. Find out when the last bus is and tell your boss that you'll only be able to continue in this job if you can finish with plenty of time to get the last bus. \n\nThey will either accept that your shift needs to be shorter or they will fire you. Either way, the problem will be solved, and you won't have quit on day one.",
+          "score": 14
+        },
+        {
+          "body": "You need to make sure you have supportive shoes. Vans and converse don’t offer support. The job doesn’t seem easy for you to get to. And getting out at 11 on a school night is not good. You are still in high school and need to finish about high school. You will be falling asleep in class with these late hours. I would try to get a job closer to home. This job will schedule you late because you stayed today. You should quit. They don’t seem to care that you are a student.",
+          "score": 6
+        },
+        {
+          "body": "Damn 5 miles sucks. During college I had two late night job (a warehouse and a restaurant) and the bus pretty much stopped running at 11:55 pm and my house was 2mi away. Not as bad as 5 miles but still about an hour walk, after standing around all day moving packages/boxes or running around serving/bussing tables it was tiring and painful. I made the walks though. I had coworkers in similar situations but used electric scooters and or bicycled to get to and from work\n\nBtw since your 17 and in high school, can't your parents just pick you up? Like some people I worked those late night shifts with were getting picked up by parents, friends or bf/gf. You could also ask your boss if your shift can end at like 11 pm at the latest. If they're not ok with that, I would just quit",
+          "score": 2
+        },
+        {
+          "body": "quit.  the ubers will probably cost more than you make.  5 miles is longer than some people's car commutes.",
+          "score": 2
+        },
+        {
+          "body": "I remember working at the movie theater as one of my first jobs and having my feet hurt a bunch. It is temporary and you will get used to it (meaning it will stop hurting in a about a week or two).\n\nHowever, not having transportation is the bigger issue. Can you not get a ride from someone like family or friends? Maybe invest in a bicycle at least? Commuting an hour or more to or from work is generally considered unfeasible, at least for that type of pay (unless you’re desperate).",
+          "score": 2
+        },
+        {
+          "body": "Sorry bud, if you quit you’d just end up at another job….maybe something closer would help but in my 20 years of experience most jobs suck.",
+          "score": 3
+        },
+        {
+          "body": "You’re 17. Quit",
+          "score": 2
+        },
+        {
+          "body": "Can you ride a bike? 5 miles on a bike is pretty quick. \n\nOr can you arrange with one of your parents to pick you up? Or with a co-worker to give you a lift at least part way?\n\nAlso speak to the manager about the schedule, explain when your last bus would be available and ask if you can be scheduled so that you're able to catch that. Not every business will care, but some will and it might work. \n\nBasically...its hard to find a job right now, so try to figure out the problem rather than give up on day 1. It might be there isn't a solution, and if so then leaving is probably the right thing to do as a late finish followed by a 5 mile walk isn't a sensible decision when you've got school to be doing in the morning. But try to find a solution first.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "I can’t even get a job at Starbucks",
+      "body": "For clarity I’ve been on the job hunt for 6 years. I do work currently but I’m contract at my place of employment. I have been looking for a job in my field that is more full time and with benefits and won’t withhold my taxes.I’ve tried everything I’ve had my resume looked at by friends and recruiters and I’ve been networking. I’ve applied to almost 300 jobs since February and so far I’ve only gotten two interviews one ended up telling me 30 minutes before the interview they filled the position and the other did offer me the job but the pay ended up being significantly lower than my current income (salary was not posted on the job description otherwise I wouldn’t had applied) and I would of had to commute (I currently work remotely and while I’m not against being in person that will be an extra expense to low pay).\n\nI’m at the point now where I just need some additional income because any money I put aside goes to taxes. I barely make enough to set aside for savings and retirement. So I’ve been looking at part time jobs to work evenings just to get some extra money. I don’t want to do Uber or DoorDash or any of those because those would be considered self employed and I don’t want multiple 1099s next tax season. Plus with my regular job being remote it would be nice to get out of the house.So I started looking at places around me including Starbucks. I applied to the barista position because that requires the least amount of experience, it even said no experience needed on the job description(my only experience working in food was one summer in college) and I just got this email a while ago. Granted I applied to four Starbucks locations that are within a 10 minute radius maybe I can have luck with the other three.\n\nI’m just frustrated because I’m already having a hard time finding a more full time job so I can get out of contract work, I can’t even find a part time job just so I can have some additional income. It’s a no reply email so I can’t see why I got passed over. My only thinking is maybe my availability doesn’t match up with what they need because I put unavailable for mornings since I work during the day at my regular job. But any advice on having better luck in finding a part time job as a source of additional income would be nice.",
+      "subreddit": "jobs",
+      "score": 168,
+      "url": "https://reddit.com/r/jobs/comments/1c4zhi1/i_cant_even_get_a_job_at_starbucks/",
+      "comments": [
+        {
+          "body": "Are there other retailers you might consider that open later? Either that or temp agencies.",
+          "score": 29
+        },
+        {
+          "body": "I heard some restaurants get an insane amount of applications and they can't hire every single one. If they have openings for 3 then they'll have to deny the remaining 47 people.",
+          "score": 20
+        },
+        {
+          "body": "Just a reminder that using \"black highlighter\" doesn't actually hide information. By brightening the image one can see through the \"censoring\". (For proof: The last 3 digits of the store are \"858\").",
+          "score": 11
+        },
+        {
+          "body": "What is your availability?",
+          "score": 5
+        },
+        {
+          "body": "I wouldn't take it personally , retailers and fast food chains get a crazy amount of applications per position",
+          "score": 6
+        }
+      ]
+    },
+    {
+      "title": "Bombed my final UBER Interview",
+      "body": "Man the Case study through me off man! Shit I’m soo pissed off man. Really cool office in NYC the manager kinda through me off my game a little but I pull through the interview. I guess we will see their decision 😣",
+      "subreddit": "interviews",
+      "score": 2,
+      "url": "https://reddit.com/r/interviews/comments/1h625qk/bombed_my_final_uber_interview/",
+      "comments": [
+        {
+          "body": "What happened? DSA interview?",
+          "score": 1
+        },
+        {
+          "body": "Hey man, what position was the interview for? I'm currently interviewing for an account manager position based in NYC.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Interview at Uber.",
+      "body": "I will be having my 2nd technical interview at Uber for the position of Product Data Scientist next week. Any tips or guidance is appreciated.",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1ovyvox/interview_at_uber/",
+      "comments": [
+        {
+          "body": "Which country",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Guidance for Uber Business Phone Screen for Product Manager interview",
+      "body": "I have a 1-hour business phone screen with the hiring manager at Uber. Any advice on what will be covered in the interview? Will it be mostly product-related behavioral questions? Or will it also include a product case? If there is a case, will it be product design or execution? Are the cases usually related to Uber?\n\nI only have a week to prep, so any advice would be super helpful. Thanks! ",
+      "subreddit": "interviews",
+      "score": 3,
+      "url": "https://reddit.com/r/interviews/comments/1o278ic/guidance_for_uber_business_phone_screen_for/",
+      "comments": [
+        {
+          "body": "The business phone screen is typically 50% behavioral (\"tell me about a time you...\") and 50% lightweight product thinking. It will not be a full case, but expect something like \"how would you improve (Uber feature)\" or \"walk me through how you'd approach ( PM challenge at Uber).\" \n\nThe hiring manager will try to assess if you understand marketplace dynamics, can think in systems (supply/demand trade-offs are huge here), and whether you can operate in ambiguity without needing everything spelled out. \n\nDon't bother yourself too much with frameworks. Uber values scrappy, first-principles thinking over polished consulting style answers, so focus on showing you can identify the right problem to solve rather than the perfect solution. \n\nWith only a week, I'd honestly recommend checking out Product Alliance, they have Uber specific interview prep content that breaks down the actual question patterns and evaluation criteria that hiring managers use, plus their framework for structuring answers is way more practical than the generic STAR method everyone parrots. \n\nTheir mock interview feedback is particularly clutch for calibrating whether you're going deep enough on trade-offs (which is what trips up most candidates). The investment is worth it if you're serious about landing the role since Uber's bar has gotten significantly higher post IPO. Good luck.",
+          "score": 2
+        },
+        {
+          "body": "Uber's phone screens are usually behavioral + light product questions. They save the heavy case work for later rounds. Expect stuff like \"tell me about a time you launched a product\" and maybe some high-level thinking on Uber's challenges.\n\nI'd prep with mock interviews since you only have a week. I tried Final Round AI's mock interview feature when I was interviewing at similar companies and it really helped me get comfortable with the format. Way better than just practicing alone.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Uber Account Executive interview online assessment",
+      "body": "Anyone who have given this assessment for sales interview with Uber? Appreciate if you could please share the some details, type of questions, or what to expect in the assessment. Here is what I received from Uber. TIA\n\nGreat news—you’re moving forward in your Uber interview process!Your next step is an online assessment. It shows us how you think, solve problems, and approach real-world scenarios—just like the ones you’d tackle at Uber. This assessment helps us decide whether to move you to the next stage of the hiring process, so give it your full focus.",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1n896ii/uber_account_executive_interview_online_assessment/",
+      "comments": [
+        {
+          "body": "Uber's online assessment for Account Executive roles typically focuses on sales scenarios, logical reasoning, and situational judgment questions that mirror real challenges you'd face in the role. You'll likely encounter case studies about client relationship management, revenue optimization scenarios, and questions testing your ability to prioritize competing demands. The assessment often includes personality-based questions to gauge cultural fit and your approach to handling rejection, building partnerships, and managing complex sales cycles.\n\nThese assessments are designed to filter out a significant portion of candidates, so preparation is crucial. Uber values data-driven thinking and customer obsession, so frame your responses around metrics, customer impact, and scalable solutions. Practice thinking through sales problems systematically and be ready to demonstrate how you'd handle difficult client situations or market challenges. I'm on the team that built a tool for [interview prep](http://interviews.chat), and we've helped many people navigate these types of assessments by practicing with AI-generated scenarios that mirror what companies like Uber actually ask.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "What kind of questions can i expect in Uber's interview for Software Engineer full stack developer position?",
+      "body": "I like to know what kind of questions will be asked by the Uber engineers for a full stack developer position in live code challenge interview? I just want to know about the area of the test, not any specific question?\n\n \\#Uber #interview #fullstack #developer",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/c6aayk/what_kind_of_questions_can_i_expect_in_ubers/",
+      "comments": [
+        {
+          "body": "&amp;#x200B;\n\nInterview Questions\n\nInterview Questions - [https://onlyfullstack.blogspot.com/2019/08/java-interview-questions-for-senior-full-stack-developer.html](https://onlyfullstack.blogspot.com/2019/08/java-interview-questions-for-senior-full-stack-developer.html)\n\nJava 8 Features Interview Questions - [https://onlyfullstack.blogspot.com/2019/07/java-8-feature-interview-questions.html](https://onlyfullstack.blogspot.com/2019/07/java-8-feature-interview-questions.html)\n\nJava 8 Lambda Iterview Questions - [https://onlyfullstack.blogspot.com/2019/08/java-8-lambda-expression-interview.html](https://onlyfullstack.blogspot.com/2019/08/java-8-lambda-expression-interview.html)\n\nJava 8 Programming Interview Questions - [https://onlyfullstack.blogspot.com/2019/07/java-8-programming-interview-questions.html](https://onlyfullstack.blogspot.com/2019/07/java-8-programming-interview-questions.html)\n\nSpring Core Interview Questions - [https://onlyfullstack.blogspot.com/2019/06/spring-core-interview-questions.html](https://onlyfullstack.blogspot.com/2019/06/spring-core-interview-questions.html)\n\nSpring MVC Interview Questions - [https://onlyfullstack.blogspot.com/2019/06/spring-mvc-interview-queations-for-experience-developers.html](https://onlyfullstack.blogspot.com/2019/06/spring-mvc-interview-queations-for-experience-developers.html)\n\nSpring Rest Interview Questions - [https://onlyfullstack.blogspot.com/2019/06/spring-rest-interview-questions.html](https://onlyfullstack.blogspot.com/2019/06/spring-rest-interview-questions.html)\n\nMicroservices Interview Questions - [https://onlyfullstack.blogspot.com/2019/07/microservices-interview-questions.html](https://onlyfullstack.blogspot.com/2019/07/microservices-interview-questions.html)\n\nHibernate Interview Questions - Part 1 - [https://onlyfullstack.blogspot.com/2019/10/hibernate-interview-questions-part-1.html](https://onlyfullstack.blogspot.com/2019/10/hibernate-interview-questions-part-1.html)\n\nDatabase Interview Questions - [https://onlyfullstack.blogspot.com/2019/08/database-interview-questions.html](https://onlyfullstack.blogspot.com/2019/08/database-interview-questions.html)\n\nAngular Interview Questions Part - [https://onlyfullstack.blogspot.com/2019/09/angular-interview-questions-part-1.html](https://onlyfullstack.blogspot.com/2019/09/angular-interview-questions-part-1.html)\n\nJavaScript Interview Questions - [https://onlyfullstack.blogspot.com/2019/09/javascript-interview-questions.html](https://onlyfullstack.blogspot.com/2019/09/javascript-interview-questions.html)",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "I have an interview next week. As for the 10 month work gap on my resume, should I mention in the interview that I worked for a company for three weeks and then left on my own since the work schedule and environment was not a good fit or don’t mention it at all?",
+      "body": "Or don’t mention it at all and only say I did DoorDash and UberEats during the 10 month gap?",
+      "subreddit": "jobs",
+      "score": 3,
+      "url": "https://reddit.com/r/jobs/comments/1q36q0n/i_have_an_interview_next_week_as_for_the_10_month/",
+      "comments": [
+        {
+          "body": "Don’t mention the three week job. Because you have 10 months to explain and accounting for three weeks of that isn’t going to do much. And telling a potential employer that you bailed on your last job after three weeks will guarantee that you’re not going to get this job. It makes you look flaky.\n\nBe positive and upbeat that you’ve been keeping busy with those delivery jobs, don’t mention that it’s to make ends meet. Because employers don’t like to hear that you work because you need the money. Yes, that’s insane but it’s also true. What they want to hear is “ I’ve also been doing these gig jobs because I just love to keep busy!”",
+          "score": 19
+        },
+        {
+          "body": "Nope. Nobody is the wiser and it doesn’t add anything.",
+          "score": 5
+        },
+        {
+          "body": "If they bring it up, then say something like “I left my last job because it wasn’t a good culture fit for me. Culture is very important to me, which is why I’m so interested in this opportunity” \n\nBut tbh, they probably won’t bring it up because resume gaps are so common now. And I say this as a pretty senior leader who has done a lot of hiring.\n\nGood luck!",
+          "score": 3
+        },
+        {
+          "body": "no to either.\n\ndon't mention anything about the gap and push the convo away from it.",
+          "score": 2
+        },
+        {
+          "body": "No",
+          "score": 1
+        },
+        {
+          "body": "Would make you look worse. Seems like bs reasons you left and bailing after 3 weeks might do same to them.",
+          "score": 1
+        },
+        {
+          "body": "You were taking care of a sick parent or you were looking and interviewing and didn't land anything.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Baffled by job market rn",
+      "body": "Job market is BRUTAL rn.  I'm hearing stories of people with multi yrs corporate experience &amp; MBAs unable to get interviews.  Amazon Flex in my area has a wait list, it's so maxed out.  I checked [Transcribe.me](http://Transcribe.me) and all of their entrance exams are closed for forseeable future, including people like me who can apply in multiple languages.  I worked for 15 yrs in the film/tv/video game industry and now those industries have collapsed.  Adjunct professor postings in my area were suspicious and one position responded that the job had been \"dissolved.\" ??\n\nWas a teacher and they pay AWFUL with terrible job conditions and treatment.  DoorDash in my area was maxed out on drivers.  Uber Eats can take a 12 hr shift to earn sub-par wages. I know several recent college grads stuck at home because they can't get income.  Worse yet, Resume Builder just released a study that up to 40% of job postings online are FAKE because companies have truly no intention of hiring but want to pacify burnt out existing employees that help is coming.  Seriously, how is this sustainable? I'm utterly baffled.  ",
+      "subreddit": "jobs",
+      "score": 145,
+      "url": "https://reddit.com/r/jobs/comments/1edpcfx/baffled_by_job_market_rn/",
+      "comments": [
+        {
+          "body": "Same here. Before the pandemic, I was able to get interviews almost daily if not 2 or 3 a week. Now, I'm lucky to get a phone call (not an interview) every few weeks.\n\nIt's horrid. I'm thinking about downgrading my aspirations. I work in helpdesk/IT but there's no positions open except for really high up ones which I'm not qualified for unfortunately. It sucks.",
+          "score": 44
+        },
+        {
+          "body": "Worse then 09 imo ... least we had cheap rent...plus you could get a job working retail with ease",
+          "score": 41
+        },
+        {
+          "body": "Can confirm. Former investment banker with top 10 MBA and can’t even get an interview for jobs that pay ~25% of my previous salary.",
+          "score": 56
+        },
+        {
+          "body": "Nahhh… haven’t you heard? The economy is booming they said!",
+          "score": 35
+        },
+        {
+          "body": "2008 is back!!! Time for another BIG SHORT WALL STREET BOYS BACK IN TOWN",
+          "score": 48
+        },
+        {
+          "body": "My partner is a veteran, worked management for 4 years, higher up IT position for 4.5 years and he hasn’t been able to find a job since he lost his in May last year. He’s even applied places that prioritize hiring vets and he’s had no luck.",
+          "score": 15
+        },
+        {
+          "body": "I have a degree and a couple of years experience in accounting. I’ve applied to 137 positions since June and interviewed at 8 different places. I have gotten to a final round and they’ve picked someone else. I think some of these positions being posted are not ever jobs they intend to fill too. It’s rough",
+          "score": 33
+        },
+        {
+          "body": "There's a recession ",
+          "score": 16
+        }
+      ]
+    },
+    {
+      "title": "I'm struggling w money, any advice?",
+      "body": "Been doing interviews and applying like crazy. Most job places seem to be either pre-filled on my interview, (they already hired someone but saw me anyways) \n\nmy last interview for security, said I'm a great candidate given prior training and security positions. and if any openings happen I'm the first they'll call. \n\nI'm currently so broke I can barely afford groceries and am constantly trying to go to the food pantry.\n\nRent is getting harder and harder for me to contribute to. (im tired of my partner paying for it, they shouldn't be paying as much as they are-)  I've got doctor bills piling up. and I'm feeling like a massive failure.\n\nI can't even get a pizza delivery job??? (ive been doing uber eats deliveries, but the pay is buying me gas and groceries and that's about it!)\n\nindeed leads to little to no call backs. cold-calling leads to \"do the app on our website\" and back to no call backs afterwards.\n\nI've got over 15 years of job experience, IT proficiency, a 2 year degree in graphics design with a total of 4 years professionally.\n\nabout 3 years as a professional 3D animator\n\ndabble in anything and everything creative and technical.\n\n  \nbut still, I can't seem to get anyone's attention. I take my work very seriously (sometimes too seriously) I've been told by all my higher ups that I'm a great worker, I've never been fired. \n\n  \nanyways... I'm not sure what I'm doing wrong, and I am in deep need of help.\n\nwhat jobs are actually hiring? and are there any resources anyone can provide me for helping with medical bills? I tried to do social security or food stamps. Social secirty website seems to just send me in circles and not give me a straight application? and food stamps, i don't even know if those are still available anymore? the week i had started the application, the shut down happened right after like a planned event lmfao. anyways, any help is greatly appreciated.\n\n",
+      "subreddit": "jobs",
+      "score": 6,
+      "url": "https://reddit.com/r/jobs/comments/1phen92/im_struggling_w_money_any_advice/",
+      "comments": [
+        {
+          "body": "right now any job is a good job, any amount of money coming in is a positive.\n\nany stop gap job is a good job.\n\ni always recommend waiting tables or barbacking, potential for great money and the schedule is ideal for interviewing.\n\nRover/dog walking has it's pluses and minuses.",
+          "score": 5
+        },
+        {
+          "body": "Call every single H&amp;R Block, Jackson Hewitt, and Liberty Tax service, they will almost certainly hire you for the season.   Call each individual one.",
+          "score": 3
+        },
+        {
+          "body": "[removed]",
+          "score": 2
+        },
+        {
+          "body": "Well, if you had some savings left I’d say go take a CNA class. It’s back-breaking, soul-draining work but, you’d literally find a job in ***no time***. That’s the only job that I know of right now that will hire anyone very quickly without all of the ai applicant tracking systems nonsense.",
+          "score": 1
+        },
+        {
+          "body": "It sounds rough right now, but you’ve got skills that can definitely help you get through this. Have you thought about freelancing or remote gigs? A lot of companies are looking for short-term help, and it could give you some quick cash without the lengthy interview process.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Uber Interview Guidance!",
+      "body": "Hey! Just wanted to check-in if anyone has given uber interview recently what is the process like.\nAny leads would be very helpful!\nWant to know the what kind of questions are asked for Data Scientist roles.",
+      "subreddit": "interviews",
+      "score": 2,
+      "url": "https://reddit.com/r/interviews/comments/1lr46ox/uber_interview_guidance/",
+      "comments": [
+        {
+          "body": "The process typically involves 4-5 rounds including a phone screen, technical coding assessment, case study presentation, and final onsite rounds. You'll face a mix of SQL queries, Python/R coding challenges, statistical concepts, machine learning fundamentals, and business case studies specific to ride-sharing scenarios. They love asking about A/B testing, experimentation design, and how you'd measure success for features like surge pricing or driver incentives. The technical bar is high - expect leetcode-style problems alongside data manipulation tasks and questions about handling massive datasets.\n\nThe behavioral component focuses heavily on Uber's cultural values, especially around moving fast and being customer-obsessed. They'll ask situational questions about handling ambiguous projects, working with cross-functional teams, and making data-driven decisions under pressure. Be ready to discuss specific examples where you've influenced business strategy through analytics. The interviewers are generally sharp and will dig deep into your thought process, so you need to articulate your reasoning clearly and show how you'd apply data science to real Uber challenges.\n\nI'm on the team behind [interviews.chat](http://interviews.chat), which helps candidates practice these exact types of technical and behavioral questions that come up in data science interviews at companies like Uber.",
+          "score": 2
+        },
+        {
+          "body": "Look at the book \"Ace the Data Science Interview \" + DataLemur, has real Uber Data Science interview questions to practice from!",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Uber interview invite after years of slog at random jobs and companies",
+      "body": "Long story short, I have worked in unconventional jobs (Education Consulting) and recently (Tier 3 AI India Startup) on B2B web apps. Genuine AI for most part.\n\nFor the first time I have received an invite from a good company. I absolutely have to succeed but questions like what was the scale of previous apps you built block me in screening interviews itself.\n\nI really really need this. What would be the best way to prep (I have five days to screening). I am even willing to shell out bucks if there is an authentic resource/coach that can help. I am an absolute underdog and need every help I can get.\n\nSharing snippet of my resume. I do have a good MBA (Again major in analytics which involved AI courses but not GenAI) but very low GPA.\n\nhttps://preview.redd.it/oi6q0e7yl2yf1.png?width=1730&amp;format=png&amp;auto=webp&amp;s=8b388b477dc5ae86826b346d14f824a943dcaa73\n\nP.S. Removed from PM thread so posting here",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1oj7ugp/uber_interview_invite_after_years_of_slog_at/",
+      "comments": [
+        {
+          "body": "You can try a mock interview with an experienced, actual Uber interviewer.  Check out [interviewing.io](http://interviewing.io) or igotanoffer.com.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Uber scientist interview advice",
+      "body": "Hi guys, I have two interviews coming up for Uber Scientist role (I heard they combined DS + AS). The recruiter didn't give me much information just that the first interview is focused on \"Coding + XP/Statistics Case Study\" and the second is \"Technical Case\". Can anyone who've gone through this process share their experience? What type of coding questions did you get and how was the case study?\n\nThanks!!",
+      "subreddit": "interviews",
+      "score": 3,
+      "url": "https://reddit.com/r/interviews/comments/1m8al6r/uber_scientist_interview_advice/",
+      "comments": [
+        {
+          "body": "The other comment seems AI generated. Anyway, you should ask in the cs questions since this is more tech related, you would have a better chance of getting a more relevant answer there. You will prob get a leetcode round btw.",
+          "score": 1
+        },
+        {
+          "body": "For the coding portion, expect medium to hard LeetCode-style problems with a data manipulation twist - think SQL optimization, Python pandas operations, or algorithm problems that relate to real-world data scenarios like recommendation systems or fraud detection. The statistics case study will likely involve experimental design, A/B testing interpretation, or causal inference problems where you'll need to walk through your analytical approach out loud.\n\nThe technical case in the second round is where they'll really test your ability to think like a scientist at Uber - you might get a scenario about optimizing driver-rider matching, reducing cancellation rates, or improving demand forecasting. They want to see how you break down ambiguous business problems, choose appropriate metrics, design experiments, and communicate trade-offs clearly. The interviewers will push back on your assumptions and ask follow-up questions to see how you handle uncertainty and defend your methodology. I actually work on [AI interview helper](http://interviews.chat) to practice articulating your thought process for these types of complex technical scenarios and get comfortable with the back-and-forth questioning style that Uber is known for.",
+          "score": 1
+        },
+        {
+          "body": "Hey OP, I am about to have the tech screen round too. can you share insights into what kind of python questions was asked? Leetcode style or pandas? Also my recruiter told me they are gonna ask about causal inference as well. Did they ask you about causal inference cases? Thanks!",
+          "score": 1
+        },
+        {
+          "body": "Hi, would you mind sharing your interview experience?",
+          "score": 1
+        },
+        {
+          "body": "for Uber's \"scientist\" tracks, expect it to feel more like a hybrid between data science and analytics—but with a product mindset\n\n**interview 1 (Coding + XP/Stats):**\n\n* coding will likely be SQL-heavy, possibly some Python think: joins, window functions, case when, maybe CTEs\n* stat case will test how you think through experiments not just A/B math, but assumptions, edge cases, metrics that *shouldn’t* move they love questions like: “you ran an A/B test and saw +10% engagement—can you ship it?” (hint: talk about power, significance, holdouts, novelty effects)\n\n**interview 2 (Technical Case):**\n\n* they want product thinking here how would you measure the success of \\[new feature\\]? what metrics matter? what’s noise? can you find insight, not just run a model? it’s less about ML chops and more about how well you frame messy, ambiguous problems with data\n\nalso: brush up on experiment pitfalls (e.g. peeking, contamination, non-independence), and be ready to talk through tradeoffs out loud—not just give final answers\n\n[**NoFluffWisdom Newsletter**](https://NoFluffWisdom.com/Subscribe) has some killer breakdowns on data interviews and how to talk like a strategist, not a spreadsheet monkey  \ndef worth a peek if you want to stand out in a sea of coders",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "title": "Uber Program Manager interview",
+      "body": "I have upcoming 30-min hiring manager interview for Retail Ops team at Uber. The recruiter said the interview will be behavioural based on resume.\n\nAny questions I can expect or tips to ace the interview ?",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1m5nvu9/uber_program_manager_interview/",
+      "comments": [
+        {
+          "body": "Expect questions about times you've managed competing priorities, dealt with difficult stakeholders, or had to pivot quickly when plans changed. They'll also dig into specific examples from your resume, so be ready to walk through projects using the STAR method and explain your decision-making process. Since it's Retail Ops, they'll want to hear about operational efficiency improvements, vendor management, or process optimization you've led.\n\nThe hiring manager will be assessing your ability to thrive in Uber's fast-paced, data-driven environment, so come prepared with concrete metrics that demonstrate your impact. Think about stories that show you can influence without authority, manage up effectively, and drive results across multiple teams. Practice articulating your thought process clearly and concisely since you only have 30 minutes to make an impression. If you want extra help preparing for those tricky behavioral questions that can catch you off guard, I'd suggest checking out [interviews.chat](http://interviews.chat) \\- I'm on the team that built it and it's designed specifically to help you navigate challenging interview scenarios and practice your responses.",
+          "score": 1
+        },
+        {
+          "body": "Hey hope you got it, how long did they take to communicate the results?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "How is the Jam interview session conducted by Uber for SPM role?",
+      "body": "Can someone please throw some light on: \n\n* What exactly the interviewer intends to ask?\n* I have been given an assignment that I have submitted to them, and the discussion would happen around it.\n* I have a panel from the US product team, however, my Uber jam exercise solution revolves around India context. Not sure if it provides me or the panel some comfort during the discussion. ",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1m16zka/how_is_the_jam_interview_session_conducted_by/",
+      "comments": [
+        {
+          "body": "The Uber Jam session for Senior Product Manager roles typically focuses on your product thinking, problem-solving approach, and how you structure solutions rather than the specific market context you chose. The interviewers want to see your framework for identifying user problems, prioritizing features, considering trade-offs, and measuring success. They'll likely dig into your reasoning behind key decisions, ask you to defend your assumptions, and explore alternative approaches you considered. The fact that you focused on the India market shouldn't hurt you at all since they're evaluating your thought process, not your knowledge of specific regional nuances.\n\nYour assignment discussion will probably involve walking through your solution, explaining your methodology, and then fielding follow-up questions that test your ability to think on your feet. The US panel will likely appreciate the India context since it shows you can think about diverse markets and user needs, which is valuable for a global company like Uber. They might ask you to adapt your solution for different markets or user segments, or challenge some of your assumptions to see how you respond. The key is being able to articulate your reasoning clearly and show flexibility in your thinking when they push back on certain aspects.\n\nI'm on the team that built [interview practice AI](http://interviews.chat), which helps candidates practice these exact types of product case discussions and handles the kind of follow-up questions you'll face in your Jam session.",
+          "score": 1
+        },
+        {
+          "body": "How did it go? I’m having a similar interview next week with India as as context. Help me out 🙏🏼",
+          "score": 1
+        },
+        {
+          "body": "OP could you please share your experience. I will be going through the jam session soon. Thanks",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Uber product design manager interview",
+      "body": "I am interviewing for a Product Design Manger role at Uber. I can't find much material for Manger roles in Product Design. Can anyone give me any advice to how to prepare? What kinds of things should I look out for? What to put my emphasis on?",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1lrug77/uber_product_design_manager_interview/",
+      "comments": [
+        {
+          "body": "General guidelines still very much apply.\n\n* Make your core competencies very clear from the outset. If there is a program or language you are expected to know, have a few examples of your work using said program/language ready to go.\n* Bring a copy of your resume for everyone, yourself included. They might bring their own, they might not. Be ready to elaborate on any points of interest, especially any projects that align with Uber's product design principles/methods.\n* It always comes up, so I would also advise having an example of how you handle interpersonal issues and collaborative projects in the workplace.",
+          "score": 1
+        },
+        {
+          "body": "For Uber specifically, you'll want to focus heavily on your ability to scale design systems across multiple product lines, manage cross-functional relationships with engineering and product teams, and demonstrate how you've handled design decisions that impact millions of users. They'll likely ask about times you've had to make tough trade-offs between user experience and business metrics, how you've built and mentored design teams, and your approach to maintaining design quality while moving at startup speed even within a large organization.\n\nYour emphasis should be on storytelling that showcases both your design thinking and your management philosophy, particularly around how you've navigated ambiguous problems and led teams through complex product challenges. Uber values leaders who can think systematically about design at scale, so prepare examples of how you've established design processes, influenced product strategy, and built alignment across different stakeholders. It's good to practice common [Product Design Manager interview questions](https://www.interviews.chat/questions/product-design-manager) around team building, design critique facilitation, stakeholder management, and how you measure design success beyond just aesthetics. They'll want to see that you can balance the creative aspects of design with the operational realities of shipping products that serve diverse global markets.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "I have upcoming interviews scheduled for SE-2 roles at Uber: Looking to connect with Engineers working at Uber or similar companies for guidance",
+      "body": "I have applied for Software Engineer-2 role at uber and my interview process starts from 13th May. This is one of the most big interviews that i will ever give. I wanna make sure that i prepare the best for it.\n\nIt would be really helpful if people involved in hiring decisions can guide me please.\n\nMy Skillset:  \n\\- Excellent at DSA  \n\\- Okayish with System Design  \n\\- Python speciality\n\nI am planning to do uber tagged leetcode questions to make sure i qualify the coding rounds and utilize Arpit Bhayani's System design for beginners course ( I have already gone through some of it).",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1kgwbjo/i_have_upcoming_interviews_scheduled_for_se2/",
+      "comments": []
+    },
+    {
+      "title": "Uber Partner Engineer Interview ",
+      "body": "Going through the interview loop for the partner engineer role at Uber, and found zero info about this role and interview process 🥲 anyone has any insights to share?",
+      "subreddit": "interviews",
+      "score": 4,
+      "url": "https://reddit.com/r/interviews/comments/1fnpvr7/uber_partner_engineer_interview/",
+      "comments": [
+        {
+          "body": "The partner engineer role at Uber is a bit of a mystery, with limited information available online. This position likely involves working closely with Uber's external partners, integrating their systems or APIs, and ensuring smooth collaboration. The interview process might focus on your technical skills, especially in areas like API development, system integration, and problem-solving. You can expect questions about your experience working with external stakeholders and managing complex partnerships.\n\nGiven the scarcity of specific information, it's best to prepare for a range of technical and soft skill assessments. Be ready to discuss scenarios where you've successfully managed partnerships or integrated different systems. If you're feeling unsure about how to approach certain questions, you might find [interviews.chat](http://interviews.chat) helpful. I'm on the team that created it, and it's designed to help job seekers navigate tricky interview questions and ace their interviews, which could be particularly useful for less common roles like this one.",
+          "score": 2
+        },
+        {
+          "body": "Hello, I am having the interview soon, I will be interssed to know your feedback on how it went ?\n\nThanks in advance !",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Why is there so little material on Uber’s interview?",
+      "body": "I have been trying to get some idea into how the technical screening could look like for L5a but don’t see much information out there. Can you guys help? ",
+      "subreddit": "interviews",
+      "score": 2,
+      "url": "https://reddit.com/r/interviews/comments/1ebz0gn/why_is_there_so_little_material_on_ubers_interview/",
+      "comments": [
+        {
+          "body": "here are a few from the Glassdoor website, which are very accurate and anonymous. Companies can't pay to remove them or anything.\n\n[https://www.glassdoor.com/Interview/Uber-Interview-Questions-E575263.htm](https://www.glassdoor.com/Interview/Uber-Interview-Questions-E575263.htm)",
+          "score": 2
+        },
+        {
+          "body": "The questions are constantly evolving to prevent rote learning and encourage problem-solving skills. Your best bet for L5a is to brush up on your core computer science fundamentals, practice your coding (especially algorithms and data structures relevant to Uber's scale), and dive deep into system design. To help you practice and get familiar with interview scenarios, you can check out tools like [interviews.chat](http://interviews.chat) (I built it!) that can give you a bit of an edge in preparing for these kinds of interviews.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Uber Senior Manager Finance Transformation Final Stage Interview",
+      "body": "Hey guys, curious if anyone has tips on the final stage interview for a senior manager finance transformation role at Uber. Recruiter says its going to be a 3hr interview split between 6 30mins interviews",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1axokm8/uber_senior_manager_finance_transformation_final/",
+      "comments": []
+    },
+    {
+      "title": "Seeking Guidance for Uber Senior Software Engineer Interview Preparation",
+      "body": "Hi Everyone,\n\nI have an upcoming **Senior Software Engineer interview at Uber** and I’m looking for advice from those who have gone through the process.\n\nIf you’ve interviewed at Uber recently (or supported someone who has), I’d really appreciate any insights on:\n\n* The **system design** topics that are emphasized\n* The type of **coding questions** usually asked (is Neetcode 150 enough)\n* Any tips for the **behavioral/leadership rounds**\n* Recommended resources or mock interview prep strategies\n\nI’d be grateful for any suggestions, pointers, or resources you can share. Please feel free to DM me if you prefer.\n\nThanks in advance for your help! 🙏",
+      "subreddit": "interviews",
+      "score": 2,
+      "url": "https://reddit.com/r/interviews/comments/1mve5pc/seeking_guidance_for_uber_senior_software/",
+      "comments": [
+        {
+          "body": "Many, Many congratulations on the interview!  \nFor Uber senior-level, expect a mix of **deep system design** (scalability, distributed systems, caching, queues, consistency trade-offs) and **DSA coding** (medium-hard LeetCode, Neetcode 150 is a good base, but add graph/heap/interval/scheduling problems). \n\nBehavioural rounds lean on **leadership principles + collaboration.** Be ready with STAR stories on conflict resolution, mentoring juniors, and driving impact in numbers and KPIs. \n\nResources:\n\n* System Design Primer (GitHub) + Grokking the System Design Interview.\n* Mock interviews on platforms like pramp and more.\n* Rehearse aloud — Uber likes clarity of thought as much as correctness.\n\nYou’ve got this 🙌 Let me know if this helps :)",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "My profile got shortlisted for interviews at Uber but not even getting shortlisted for initial screen at other companies. What could be wrong?",
+      "body": "I am actively looking for Software Engineer -1/2 roles. I was reached out by recruiter at Uber and then I went ahead to interview stages but unfortunately got rejected.\n\nBut other than that I am not even able to secure interviews. Why is it so? This definitely is not a skill issue. How can i improve?\n\nCan any recruiters or pros in this field help me please.",
+      "subreddit": "interviews",
+      "score": 5,
+      "url": "https://reddit.com/r/interviews/comments/1kq8q25/my_profile_got_shortlisted_for_interviews_at_uber/",
+      "comments": [
+        {
+          "body": "Retired corporate recruiter here.\n\nThe reason you get calls from some companies and not others on the same kind of job with the same resume is more because of what happens on the company's side, not yours, and because of any differences in applicants to different companies.\n\nA recruiter's first task when a position opens is to meet with that hiring manager to refine the description, learn what is of particular interest and importance, and work through process matters. This will result in some candidates being of greater interest to that manager than others, while on the surface looking very similar.\n\nYou also will never know anything about the other people who apply. If you're not hearing from some companies, the most likely explanation is that they had other applicants who appeared to be a stronger match. Some may also have had some other capabilities above and beyond what was asked for that made them a \"value-add\". Example: At my last company 2 years ago I needed to recruit for a Program Manager who was English/Spanish bilingual. One applicant came through who met the requirements, so I screened him, and it was then that I learned he was also fluent in Portuguese. That made him a value-add because it would help tremendously with the company's plans to expand into Brazil.  (We could not hire him fast enough!)",
+          "score": 6
+        },
+        {
+          "body": "Sometimes it’s not about your skills but how your resume aligns with keywords or ATS filters—try tweaking your resume for each role and focus on tailoring, not just applying.",
+          "score": 2
+        },
+        {
+          "body": "This is normal don't worry. Companies are rejecting candidates even for silly reasons like email is short, cover not included etc. \n\nKeep applying with customized resume to match the job description.",
+          "score": 1
+        },
+        {
+          "body": "[removed]",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "UBER Strategic ops interview",
+      "body": "Hi,\n\nHas anyone given Uber’s Strategic Operations Manager Codesignal assignment? Have some questions and would love to have a chat with you.",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1kj15zh/uber_strategic_ops_interview/",
+      "comments": [
+        {
+          "body": "I haven't personally taken Uber's Strategic Operations Manager Codesignal assignment, but I can share some general insights. Codesignal assessments for strategic roles typically focus on problem-solving, data analysis, and decision-making skills. They often include scenario-based questions that test your ability to interpret complex information and develop strategic solutions. The key is to approach each problem methodically, clearly articulate your thought process, and demonstrate how you'd apply strategic thinking to real-world business challenges.\n\nThese tests can be challenging, but they're designed to evaluate your potential, not trip you up. Take your time, read each question carefully, and trust in your abilities. If you're looking for more specific preparation tips or want to practice similar types of questions, you might find [interview copilot](http://interviews.chat) helpful. I'm part of the team that created it, and it's designed to help candidates navigate tricky interview scenarios like this one.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Seeking guidance for Uber PM interview next week",
+      "body": "Hi everyone,\n\nI have an upcoming interview for a Product Manager role at Uber, focusing on Ads and bidding systems. I’m trying to prepare thoroughly and would love some guidance from those who have gone through the process or are familiar with Uber’s PM interviews.\n\nI am looking for any question banks that anyone might have. If not, individual questions that have been asked would be super helpful as well. \n\nThanks in advance!",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1i2kw83/seeking_guidance_for_uber_pm_interview_next_week/",
+      "comments": []
+    },
+    {
+      "title": "Uber Interview status changed from \"In Review\" to \"Closed\", what does that mean?",
+      "body": "Hello,\n\nI recently applied to a Sr. Business Development Associate role at Uber. I did my HR interview and my first hiring manager interview. One day after the interview my status changed to \"closed\". What does that mean? Am I rejected for that role? Anyone had similar issues",
+      "subreddit": "interviews",
+      "score": 4,
+      "url": "https://reddit.com/r/interviews/comments/1bqk8za/uber_interview_status_changed_from_in_review_to/",
+      "comments": [
+        {
+          "body": "Usually, that means the hiring manager has made their decision, and you have either been passed over or they will be making contact soon. \n\nIt would be nice if more companies would let candidates know either way, but with so many applicants, it's just not feasible from a time management perspective. \n\nGood luck with your job search.",
+          "score": 2
+        },
+        {
+          "body": "Hi, my application status changed to in review after a day of submitting the application. Does it mean there is a chance of getting an interview? Do you know after how many days did you get an invite for hr interview? Thanks!",
+          "score": 2
+        },
+        {
+          "body": "I have a similar situation. did you have any update? does closed mean rejection?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Interview at Uber, tips from anyone who has interviewed there if possible?",
+      "body": "I have an interview in Australia with Uber for a community support officer role and i'm a little bit nervous because they're unlike any other company i've worked for before. I would appreciate any unusual tips anyone may have for me in order to prepare for the interview. Any tips on how to overcome the nerves would also be very much appreciated.",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/4y4zwq/interview_at_uber_tips_from_anyone_who_has/",
+      "comments": []
+    },
+    {
+      "title": "Uber Final Strategy Interview",
+      "body": "Hi there! I have a Final interview for a Uber Strategy Operations Associate position. The recruiter mentioned it would be 2 45 minute interviews, one being a on the spot case study. I can’t see to find anything about the case… is it interviewer led.. do I lead it.. or how data heavy it is. Any advice on how to prep?",
+      "subreddit": "interviews",
+      "score": 4,
+      "url": "https://reddit.com/r/interviews/comments/19cz0ug/uber_final_strategy_interview/",
+      "comments": [
+        {
+          "body": "I'll have a phone interview with a recruiter for this position in 30 minutes. This is my first job, and I'm a little bit nervous. How can I prepare for the interview, and what questions might be asked during it?",
+          "score": 2
+        },
+        {
+          "body": "For the case I heard it would be a problem the team is facing currently, and you would be asked to set metrics and assess the success of it, I would look at some of the exponent videos on BizOps. Not sure how data heavy it would be. I have my first round coming up, could you tell me about your process interviewing, any tips to prepare?",
+          "score": 1
+        },
+        {
+          "body": "Hi, can you share your experience post-interview?",
+          "score": 1
+        },
+        {
+          "body": "Would love to hear your insights on how it went!",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Uber Product Manager Interview Guide",
+      "body": " Uber is a very data-driven company and provides a wide range of services: ride-sharing, food delivery and even logistics. Product Managers convert ideas into real-life products and services that add immense value to Uber’s customer and partner ecosystem.\n\nThe interview process can take as long as 3 months, starting from your initial application to getting your offer letter. It generally consists of three steps:\n\n1. A phone call with a recruiter (about 30 mins)\n2. A telephonic interview (about 45-50 mins)\n3. Several on-site interviews (about 45 mins each)\n\nRead more [here](https://prepfully.com/interview-guides/uber-product-manager)",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/nuo4ss/uber_product_manager_interview_guide/",
+      "comments": []
+    },
+    {
+      "title": "disrespected at a 2 hour onsite interview for a receptionist role",
+      "body": "hi all,\n\nlike everyone here, i’ve been actively applying and interviewing since january. for some context, i live in a HCOL area. however, this experience was different.\n\ni did 3 rounds of interviews with a tech startup. 1st round was a phone call, 2nd round was 30 minute Zoom interview with the hiring manager, and 3rd final round was 3 back to back onsite interviews with members of the team and a 30 minute tour of the company. my onsite interview was last wednesday (9/17). they moved pretty fast for the previous rounds and because i didn’t hear anything this week, i’m assuming i didn’t get the role.\n\nwhat makes this even worse was that one of the interviewers was actually really disrespectful to me on during the onsite interviews. while asking me some questions he blurted out saying “you don’t even know what we do here.” this made me feel so angry. i did hours of research of this company and for him to say that i didn’t know anything about what they did there was actually so disrespectful to me. not once did he ask me if i knew anything about the company. the entire time he was asking me questions about my current role. i didn’t want to call him out and say it was disrespectful because i didn’t want to speak out of line being a guest somewhere else. also, for important context im 25F and was applying for a receptionist position while the man interviewing me was 27 M who is chief of staff. and yes, the job market has been so rough for me that i showed up to a 2 hour interview for a receptionist position.\n\ni’m beyond disappointed in my experience interviewing for this company. i spent $50 on uber going there and back (total ~$100). i also started sobbing in the car ride back home because i just feel so humiliated. i’m not sure when things will get better.",
+      "subreddit": "interviews",
+      "score": 89,
+      "url": "https://reddit.com/r/interviews/comments/1nltzjx/disrespected_at_a_2_hour_onsite_interview_for_a/",
+      "comments": [
+        {
+          "body": "For a short time (but too long in my opinion), the \"angry interviewer\" technique gained popularity.  The theory was that in order to understand how a potential employer works deal with conflict, adversity, and stress, the interviewer should come on strong and angry.\n\nHorribly ineffective because an interview does not simulate the actual scenario and you lose good employees.\n\nSo, you will either be working for a. Idiot or an asshole.  Or perhaps both.  I ask you if you would want to work for this type of person, but the job market is so hard right now.  Hopefully, you have a cheaper way to get back and forth on a permanent basis.",
+          "score": 34
+        },
+        {
+          "body": "It’s been two business days since the interview: that is way too soon to assume they’re ghosting you. \n\nThat said, it’s totally fair for you to decide you don’t want the job anymore. You can let them know you’re withdrawing your candidacy.",
+          "score": 15
+        },
+        {
+          "body": "Had a job interview for a job about a month ago. I ended up choosing to join another company. I did the courteous thing and called the other place to let them know I was removing my application. The woman who did my first interview said something along the line of \"I wasted their time.\" And was snarky and rude. I told her her attitude just made me feel so good about making the right choice and hung up.\n\nHe saved you from a shitty job, be thankful you only got that far. Job hunting sucksssss, good luck!",
+          "score": 8
+        },
+        {
+          "body": "Not sure how he would have come to that conclusion that you didn’t know anything about the company. Unless they didn’t like the way you answered the question. However, having said that you should have informed him of everything you know about the company.",
+          "score": 3
+        },
+        {
+          "body": "It cost you a 100 bucks to see how this chief of staff treats people who work at this company. Major red flag in my opinion. Better to find out now about a toxic workplace instead of months later. Keep your head up, it’ll get better. I’m in the same boat looking for jobs since late April. I sure wouldn’t want to work for someone like that.",
+          "score": 3
+        },
+        {
+          "body": "I find it better to bounce the questions back to him because they have to explain and not you. I would have asked, “At what part of the multiple interviews I have done did I give off that impression?”",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "I Got My Dream Job — Here's the Interview Guide I Made for a Younger Colleague (Now I'm Sharing It with You 🙌)",
+      "body": "Hey r/interview — after months of preparation, ups and downs, and self-doubt… I got my dream job 🎉\n\nAs I wrapped up the process, I realized how much I’d learned — not just about interviews, but about myself. I had written a guide for a younger colleague to help him prep, and I figured: why not share it with everyone here?\n\nThis guide blends mindset, structure, and strategy — with a little help from AI (but not the kind where you paste answers into interviews — more on that later). Whether you're just starting out or refining your craft, I hope this helps.\n\n---\n\n## 1. 🧠 Mindset &amp; Goal Setting\n\nBefore any prep begins, ground yourself.\n\n- **Know your “Why”** — Is it the mission, team culture, or learning opportunity that draws you?\n- **Set intention, not perfection** — Aim to grow and connect, not just “impress.”\n\n&gt; _“For me, being part of the company wasn’t just about the offer — it was about contributing to meaningful work with a great team.”_\n\n---\n\n## 2. ✍️ Crafting Your Story with SEAT\n\nBuild your resume and stories using the **SEAT** framework:\n\n- **S**kill — technical or interpersonal  \n- **E**xperience — where/when it happened  \n- **A**chievement — result or measurable impact  \n- **T**ype — solo, team, cross-functional\n\n**Common Stories to Prepare:**\n- A project you're proud of  \n- A challenge you overcame  \n- Working with a difficult teammate/stakeholder  \n- A time you learned something quickly\n\n&gt; 🎥 *Bonus Video:* How to Introduce Yourself — This helped me move from listing skills to aligning my story with company values.\n\n---\n\n## 3. 🎯 Watch This Video (Seriously)\n\n&gt; 🎥 *TOP 20 JOB INTERVIEW QUESTIONS &amp; ANSWERS! (HOW TO PREPARE FOR AN INTERVIEW!)*\n\nThis video changed the game for me. I watched it on repeat. The 30-60-90 day plan made my answers go from “prepared” to “strategic.”\n\nDon’t just say you’re ready to contribute — show them you’ve already mapped it out.\n\n---\n\n## 4. 🧩 Technical Focus Areas\n\nYou don’t need to know *everything* — but you do need to speak confidently about what you *have* done, and how fast you can learn the rest.\n\nWith AI tools today, learning is easier than ever. Focus on **transferable thinking** and **problem-solving**.\n\n**Frontend**\n- React: state, props, hooks, context  \n- Accessibility (WCAG), mobile-first design  \n- Modular styling: Tailwind, CSS modules  \n\n**Backend**\n- Django or Flask basics  \n- REST APIs: routing, error handling  \n- PostgreSQL/SQLite: joins, indexing  \n\n**Tools**\n- Git workflows, pull requests  \n- Debugging: logs, browser tools, print tracing  \n- CI/CD: GitHub Actions, basic deployments  \n\n💡 *Tip:* Don’t tie your identity to tools — show how you think, adapt, and learn.\n\n---\n\n## 5. 🗣️ Behavioral Interview Prep (Using STAR)\n\nUse the **STAR** format:  \n**Situation → Task → Action → Result**\n\n**Practice Prompts:**\n- Tell me about yourself  \n- Why this company?  \n- A mistake you made  \n- A cross-functional project\n\n**What They’re Really Asking:**\n- *Conflict questions* = emotional maturity + communication  \n- *Stress questions* = prioritization + calm under pressure  \n- *Learning questions* = adaptability + curiosity  \n- *Mistake questions* = growth mindset  \n\n✨ *Pro Tips:*\n- Use real stories if you can. If not, hypothetical is okay — just make it value-aligned.\n- Record yourself answering. Rewatch. Adjust. Repeat.\n- Use AI to clarify structure or rephrase — not to memorize and recite.\n\n---\n\n## 6. 🧪 Mock Interviews + Warmups\n\nPractice with someone who can push you.\n\n- Get challenged with unexpected questions  \n- Practice explaining thought processes, not just outcomes  \n- Build comfort with the rhythm and unpredictability of real interviews\n\n⚠️ *Important:*  \nDon’t just copy-paste AI answers. I used AI (like GPT-4o) to **brainstorm, clarify, and refine** — but **I rewrote everything by hand** to make it my own.\n\nThat’s how I built real confidence — not through a script, but through reps and reflection.\n\n&gt; ✨ I still remember the moment I realized I could speak freely in English — clearly and confidently. That meant more than any offer.\n\n---\n\n## 7. ✉️ Follow-Up Etiquette\n\nSend a thank-you email:\n- Be brief, warm, and specific  \n- Reaffirm your enthusiasm  \n- Mention a memorable takeaway  \n- Ask for feedback if appropriate\n\n✨ *Pro Tip:*  \nI use AI to help draft emails — but I always make sure it *sounds like me*. Friendly, clear, professional.\n\nThe key: **Speak from the heart. Let AI polish the edges, not write the message.**\n\n---\n\n## 💡 Final Thought for You\n\nYou’re not “trying to pass” an interview.\n\nYou’re offering a chance to **collaborate**.\n\nBring energy, reflection, and intention. Do your homework — and be proud of your journey. Most won’t prepare deeply — and that’s your edge.\n\n---\n\n## ☀️ Final Final Tip (The One That Really Matters)\n\n**Treat others the way you want to be treated.**  \nIn interviews. In emails. In teams. In challenges.  \nKindness, respect, and empathy go further than any prep book.\n\nPeople remember how you made them feel — not just what you said.\n\n---\n\n### 🔚 Final Notes\n\nIf you read all this — thank you.  \nWishing you clarity, confidence, and a bit of good karma on your interview journey.\n\n(P.S. I wrote a LinkedIn recommendation for my younger colleague. Told him he owes me one in the future — proactive networking, right? 😉)\n\n---\n\n**This is the Reddit version of the guide.**  \nIf you'd like to read the original (more polished and formatted) version, feel free to reach out — or let me know if I’m allowed to post it here!\n\n**You've got this.**  \n– Someone who was in your shoes not long ago 💪\n\n---\n\n# How I Got My Dream Job — And Why It Means So Much to Me\n\nI want to share a bit about my journey to landing what I now consider my **dream job** — not just to celebrate it, but in case it helps someone else who’s been in a similar place.\n\n---\n\n## 📌 A Little About Me\n\nI worked as a **web app developer for 3 years**. On my last project, I had a huge opportunity to grow — I took on responsibilities close to a senior developer role, and my performance consistently exceeded expectations.\n\nBut in **September of last year**, I was laid off. It had nothing to do with my skills or performance — the company simply couldn’t find another suitable project for me. The economy in that area was struggling, and I happened to be caught in the middle of it.\n\n---\n\n## ✈️ A Hard Pause\n\nI spent the next four months back in my home country.\n\nIt was a meaningful time: I reunited with family and friends and took care of my ex (who eventually ended things with me — and honestly, I was relieved in the end. It helped me grow and reflect on how to be a better person. Not really job-related, but part of my story).\n\n---\n\n## 🚗 Back in the U.S. — And Losing Hope\n\nI returned to the U.S. in **February** and started job searching again.  \nBut the market was rough. I applied to hundreds of positions while driving **Uber** to cover my expenses. The longer it went on, the more my hope faded.\n\nOut of desperation, I even applied to the **military** — it offered great job stability, and honestly, I’m glad I did. Even though I was disqualified and didn’t qualify for a waiver, I still see it as an opportunity. I learned a lot about the enlistment process and can now share insights with others who are thinking about joining the U.S. military.\n\nThen I applied to **Whole Foods** and **Panda Express** — I had years of experience in the food industry before getting into tech. I can cook, handle pressure, manage customers… but still got turned down. \n\n&gt; Every interview — every application, even — became a chance to learn and grow. I held on to a bit of hope each time, even knowing rejection might follow.\n---\n\n## 🎯 The Interview That Changed Everything\n\nJust when I had almost given up, I got an interview invite from a company I truly admired.  \nThe first round was scheduled two weeks out — and I **immediately stopped doing Uber**. I couldn’t risk burning myself out or missing the chance to give it everything I had.\n\nI went all in on prep:\n\n- I found a developer on their team, checked out his personal site and work, and sent him a brief, thoughtful email explaining that I’d be interviewing and asking if he’d be open to sharing any insights.\n- He actually replied! That gave me a spark of motivation.\n- I started researching the interviewers — it was a panel — and looked into their work and values.\n- I tailored my answers to reflect not just my experience, but how I aligned with the company’s mission and what they cared about.\n\n---\n\n## 🧠 Going Above and Beyond\n\nI discovered the company had a public-facing web app. Since I have strong WCAG (web accessibility) experience, I:\n\n- Created a **professional accessibility report** for their recent app\n- Noticed repeated usability issues and built a **custom checklist** I had used on past teams\n- Drafted a **starter onboarding plan** based on what I learned about their tech stack and workflows\n\nAll of this was **before** the first interview.\n\nThe panel was really impressed. That preparation got me through to the next round.\n\nA week later, I received a coding challenge. I’m a developer who focuses deeply on **problem-solving, UI workflow, and clean, clear documentation** — and it paid off. I nailed it.\n\nThen the unexpected happened: they **skipped the final round** and gave me an **offer** the following week.\n\n---\n\n## 🌟 Why This Is My Dream Job\n\nIt checked every box I care about:\n\n- It's **close to home**  \n- Offers a **flexible schedule** and is mostly **remote**  \n- Gives me **ownership over meaningful, user-focused work**  \n- Provides real **growth opportunities**  \n- And most importantly — I’m surrounded by **excellent colleagues** who value work-life balance and genuinely support each other\n\nBefore onboarding even started, I drafted a **career growth plan** tailored to the company’s values. I also created another accessibility report based on their latest version of the app — not because anyone asked, but because I was truly inspired by the team and wanted to contribute from day one.\n\n---\n\n## 💬 A Final Word\n\nThis job didn’t fall into my lap. It came after months of uncertainty, rejection, and self-doubt.\n\nBut I believe that when the opportunity finally came, **I was ready** — not because I had all the right answers, but because I showed up with intention, humility, and passion.\n\nIf you’re still searching for your next opportunity, I hope my story reminds you: **your dream job is still out there**.  \nAnd when it comes, your preparation — and your perseverance — will be worth it.\n\n**You've got this.**\n\n— A developer who almost gave up, but didn’t 💪",
+      "subreddit": "interviews",
+      "score": 52,
+      "url": "https://reddit.com/r/interviews/comments/1mutndr/i_got_my_dream_job_heres_the_interview_guide_i/",
+      "comments": [
+        {
+          "body": "Thank you chat GPT",
+          "score": 20
+        },
+        {
+          "body": "My problem is, trying to remember all the answers during the interview.",
+          "score": 4
+        },
+        {
+          "body": "Thank you for the incredibly detailed and helpful post!  I'm sharing this with my husband who is job searching right now.  I am sure he will be able to apply many of your advice.",
+          "score": 3
+        },
+        {
+          "body": "Thank you for sharing this!! I am going to utilize your knowledge!",
+          "score": 2
+        },
+        {
+          "body": "[deleted]",
+          "score": 2
+        },
+        {
+          "body": "Oh god my LinkedIn feed is now here....",
+          "score": 2
+        },
+        {
+          "body": "Thank you!! You arrived at the right time ✨",
+          "score": 2
+        },
+        {
+          "body": "thank you for sharing",
+          "score": 2
+        },
+        {
+          "body": "Thank you for sharing. You said you went back to home country and came back to US driving Uber for a while, I guess you're US citizen?",
+          "score": 2
+        }
+      ]
+    }
+  ]
+}

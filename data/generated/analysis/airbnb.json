@@ -1,0 +1,58 @@
+{
+  "company": "airbnb",
+  "common_questions": [
+    "Oh Mr. VP wants to interview you. But...he's traveling this week. Oh he's on vacation next week for 2 weeks. Can we schedule your 3rd interview 4 weeks from now?",
+    "What Disney movie would you say is most like your life?",
+    "What podcasts do you listen to?",
+    "What would you do with unlimited funds for a day?",
+    "If you gave a Ted Talk, what would it be on?",
+    "Ummm he's not here today, did he not call you?",
+    "during your technical interview?",
+    "explain what a BST was, implement algo to check if tree is BST, explain LRU cache, impl",
+    "explaining the brute force solution will raise red flags",
+    "explain it to someone as if they are a newcomer to the team",
+    "Explain to a non CS major**",
+    "Explain to a non CS major***",
+    "walk me through projects, and then took the concepts from the tutorial projects and altered the",
+    "explain WHY and HOW you found the solution that you did",
+    "explained that its difficult with this market and economic uncertainty"
+  ],
+  "themes": [
+    "System design emphasis",
+    "Heavy focus on coding",
+    "Behavioral interviews important",
+    "Culture fit matters",
+    "Technical deep dive",
+    "Case study format",
+    "Multiple interview rounds",
+    "Take-home assignment"
+  ],
+  "interview_tips": [
+    "it, but these are surface level material and if you regurgitate the content you will fail",
+    "it as a starting point",
+    "this structure: requirements, load estimation, API, data schema, high-level architecture, detailed component design, and scale",
+    "faking leverage, because if you were able to get one offer you can easily get another one",
+    "that tells you to play a game against the recruiter",
+    "always taking the algorithms class at your university, even if it is optional",
+    "Elements of Programming Interviews and Cracking the Coding Interview",
+    "cannot be applied overnight, and it will take a lot of self drive, but I do believe that if these steps are followed you will be making great strides",
+    "to upload all of these projects to GitHub (commits or it didn't happen)",
+    "you stick to a template (Google CS resume template) and don’t get long winded"
+  ],
+  "red_flags": [
+    "want in the beginning",
+    "failed, you’re either inexperienced, a liar, or unaware\" - somebody*",
+    "failed/had a conflict/lost an argument, you’re either inexperienced, a liar, or unaware",
+    "recommend faking leverage, because if you were able to get one offer you can easily get another one",
+    "be able to figure out, I wasn’t good at thinking outside of the box",
+    "expect your experience with known algorithms to be any help what-so-ever",
+    "had to take a coding assessment etc",
+    "really expected to happen to me this year, and I want to pass the little knowledge I have to some of you that may be struggling or losing hope right n"
+  ],
+  "process_insights": {
+    "typical_rounds": "4 rounds typical",
+    "timeline": "2-4 weeks",
+    "format": "Mix of phone screen, technical, behavioral, on-site, virtual"
+  },
+  "source_count": 54
+}

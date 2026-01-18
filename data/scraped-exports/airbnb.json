@@ -1,0 +1,1166 @@
+{
+  "company": "airbnb",
+  "post_count": 54,
+  "exported_at": "2026-01-18T17:44:53.254Z",
+  "posts": [
+    {
+      "title": "Should I get a job I'm not fully motivated on?",
+      "body": " Hi all,\n\nSo I have been applying for a job in tech for a while, specifically in the travel industry, and I have not had much luck with that. I have one year of experience in a great travel startup and have been unemployed since the pandemic. I want companies like startups, new concepts, etc. anything from Airbnb (a dream), to a Property Manager, or any startup that helps people travel, organize tours, etc. I have been rejected multiple times after the 1st, 2nd, and 3rd interviews.\n\nRecently, I got rejected from a company I really liked, good culture (what I see the most), good salary, growth, everything. It was because of my English language skills (I don't think I'm that bad, but I got so nervous and couldn't communicate properly. I still think I'm not that good at conversational English, however, I approved the B2 level of IELTS, so I am not that bad). It was an online travel agency (like Trivago or Hotels. com, but smaller), and that weekend after rejection I was kinda depressed, saying WTF I'm going to do, here I'm going to be, etc... so I started applying to anything, including traditional travel agencies in my area.\n\nI objectively consider I have a good profile in the tourism industry, graduated from an Ivy-league-kind of university in my country, actually the best college in LATAM from that area, and my skills are good. So I think I can work in any traditional agency, but I want something bigger and more challenging. Anyway, so I applied to this agency, she replied the next day for a call, we had a 15 minutes call and this Monday she called me to tell me that she wanted to hire me. It was that quick. She sent me an okay offer and I have to tell her my answer on Friday.\n\nTo be honest, I'm not fully motivated by that company. I'm thinking a lot. She offered me an ok salary, and a PC to start. It's not a bad company but the culture, product, and stuff are like okay, it's not that kind of great startup. It's in sales and I don't know what to do. My mind is like \\*AAAHHHHH\\*. From one side, I'm like who cares it's sales, start and learn, from the other I'm thinking a lot because of what I mentioned. I don't want to get a job with the idea of \"I'm gonna start looking for new jobs in 6 months, or 3\" or something like that. I don't plan to be in a company for 10 years either, but you know, I just want to feel good there every day and don't even think about when I'm going to change...\n\nWhat should I do? Please help! I am a recent grad with one year of exp, so still kinda entry-level position.\n\nThanks!",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/v858lq/should_i_get_a_job_im_not_fully_motivated_on/",
+      "comments": [
+        {
+          "body": "Hello, thank you for posting to r/Jobs!\n\nWe just wanted to let you know that we have a new [discord server, come join the chat!](https://discord.gg/TY6ErXV)\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/jobs) if you have any questions or concerns.*",
+          "score": 1
+        },
+        {
+          "body": "I would take the job, because the next offer may not be soon.  And if it would be unbearable for me at this job, then I would look for another job, while being employed",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Another data point on industry hire in the bay",
+      "body": "Hi everyone, I just went through a round of interviews and wanted to share a data point. Also, I wanted to share some interview tips that you may not have seen before. I'll answer questions in AMA style.\n\n**About me**\n\nI’m a software engineer with 5 years of experience in the bay area. Bachelor's degree in engineering at Waterloo. I don’t consider myself special talent, but I think I’m pretty good at interviewing. I've worked at a couple startups before joining G back in 2017. No specific expertise to brag about, but I have a good history of doing cross-stack work.\n\n**Offers**\n\nI interviewed at Airbnb, Facebook, Lyft, Uber, and 3 other companies. I received offers from Facebook, Lyft, Uber, and 2 other companies. First year total compensation ranged from 380k\\~500k from both public and private companies, 2nd year comp was around 400k for most of them. The offer numbers correlated with my interview performance, and from my research, it seems like some companies offer standardized offers to every candidate. Surprisingly the private companies did not beat out the public companies in equity package. Breakdown was around 180\\~210 base, 500\\~800 equity, and 0\\~100 sign-on.\n\n**Process/Scheduling**\n\n* I set a measurable goal for prep. 200 Leetcode questions, 10 system design problems, deep-dives of my past projects, and recollected my past experiences for behavioral questions. Whole process was 3 months.\n* Did mock interviews on [interviewing.io](https://interviewing.io/) throughout the process.\n* I had a buddy the entire process who was also looking to switch. He went from 85k to 300k TC (crazy). We did mock interviews everyday.\n* I did my phone screens during lunch hours, and scheduled onsites over span of 2 weeks, using all my vacation days :'(\n* Schedule the companies that you don't want in the beginning. I bombed my first interview lol.\n\n**Interviews**\n\nIt's common knowledge that you should prep for Leetcode-style questions, and system design if you're interviewing for senior positions. That's what I did 2 years ago to get into G, but the interview formats were slightly different this time around:\n\n1. **Phone screens were more difficult.** I'm not sure if it's because I was being considered for senior positions. In one phone screen I had to explain what a BST was, implement algo to check if tree is BST, explain LRU cache, implement it, then design Twitter timeline. Every step of the way I had to give the tradeoffs and time/space complexity, as well as analysis of the design and writing/analyzing some SQL queries. 2 years ago I got mostly Easy/Medium Leetcode questions.\n2. **Practical coding was heavily emphasized.** Almost every company I interviewed at had a practical coding round, where I was given a task (building a feature/scripting/debugging). You can bring your own laptop and I recommend that you do. You can also search the internet while coding. I think they look for fluency in programming, as well as how you break down problems. I say this because I got an offer despite not completing a task. I think this is a trend that will continue until proven to be ineffective.\n3. **Behavioral interview is more important than design**. Every company I interviewed did a deep-dive of my past projects and experience. Recruiters told me that this interview is more important for determining level than the design interview. I can see why. Most design interviews aren't conducted properly. Questions are often too large in scope and too much time is wasted in narrowing it down, and you only have 30\\~35 minutes when you account for the intro/closing. High-level ideas can be BS'd, and most of the interesting design decisions are lower-level. The level of depth is dependent on the interviewer's experience level, making it highly variable.\n\n**Leetcode**\n\nI've done around 300 Leetcode problems lifetime. This time around I did 200 but a lot of it was questions I've done before. Leetcode tips are all over the Internet, I'll leave some tips I haven't seen online.\n\n* Do these questions [https://www.teamblind.com/article/New-Year-Gift---Curated-List-of-Top-100-LeetCode-Questions-to-Save-Your-Time-OaM1orEU](https://www.teamblind.com/article/New-Year-Gift---Curated-List-of-Top-100-LeetCode-Questions-to-Save-Your-Time-OaM1orEU)\n* Find the brute force solution immediately, and tell the interviewer so that they know you're not an idiot. Too many candidates trip themselves up trying to find the silver bullet. Optimize the brute force solution if you can, and that will lead to a very good answer most of the time.\n* Example: [trapping rain water on leetcode](https://leetcode.com/problems/trapping-rain-water/). The brute force solution is to find the amount of water trapped at each index, by scanning for the largest values to the left and right. This is n\\^2. Then you optimize by caching the largest values to the left and right instead of scanning. Now it's linear. You know that it can’t be faster than linear because you need to look at each index.\n* Even when you’re peeking at Leetcode solutions, understand the brute force solution first and try to work your way up to the optimal solution. Jumping straight into the optimal solution without explaining the brute force solution will raise red flags. Readability is just as important as finding the very optimal solution. Solutions on Leetcode Discuss score low on readability.\n* Put trivial computations into helper methods that you tell the interviewer you will implement later. Generally they won’t ask you to implement these helper methods. For example, finding the min/max in an array, it’s so trivial that you don’t need to write out the whole method. It also shows that you are comfortable with translating ideas into code.\n\n**Design**\n\n* I used Grokking the system design interview on educative.io and system design primer on github. I recommend it, but these are surface level material and if you regurgitate the content you will fail. I recommend it as a starting point.\n* They recommend this structure: requirements, load estimation, API, data schema, high-level architecture, detailed component design, and scale. This is a good structure in my opinion.\n* The problem with these contents is they spend too much time on high-level/drawing boxes, but when they go deeper they are not going deep enough, and tend to focus on the wrong things. I personally believe the most important part of the design interview is the API.\n* Generally the interviewer will give you a problem definition and they’ll tell you the feature scope and maybe the usage characteristics (daily active users, for example). You should clarify until you understand the problem, don’t clarify for clarification sake.\n* I personally believe API is the most important part of a design interview, and no other content online will tell you this. Think about it, when you’re designing something at work, that’s the one thing everyone cares about. Implementation details are done within the team or on your own. The API is where cross functional collaboration and discussions happen. Grokking and primer don’t cover API in enough detail.\n* Write down each API and discuss the policies. For example, when designing a queue, you have enqueue/dequeue API’s. Does dequeue guarantee that the same element will be dequeued on subsequent call or not? This changes the entire system. Let’s say you’re designing a sendMessage API for a chat app, who generates the message ID? Server or client (it should always be client btw, and think about why, it changes everything).\n* From API discussions, the data schema, high-level architecture, and services should be easy to draw out. Data schema will roughly reflect the API request/responses, services will be scoped to support a set of functionally related API’s.\n\n**Behavioral/Deep-dive**\n\n*\"If you’ve never failed, you’re either inexperienced, a liar, or unaware\" - somebody*\n\n* Don’t be afraid to show your flaws. In fact this is where most candidates fail. Interviewers can tell if you’re BS-ing them. Be genuine.\n* If you’ve never failed/had a conflict/lost an argument, you’re either inexperienced, a liar, or unaware. All are bad signs. I was asked to provide a concrete example of a time I had a disagreement, and I told the interviewer about a time I disagreed with something and lost (they liked it).\n* This guy sums it up perfectly: [https://www.youtube.com/watch?v=PJKYqLP6MRE](https://www.youtube.com/watch?v=PJKYqLP6MRE)\n* Go through your past projects and try to gain a deep understanding of the entire project, beyond the scope that you were involved in. Identify the key decisions you made, the high-level architecture, because you’ll need to be able to explain it to someone as if they are a newcomer to the team.\n\n**Negotiation**\n\nI believe there are 2 fundamentals of negotiation: knowing your market value, and having leverage.\n\n1. **Know your market value.** Use [levels.fyi](https://levels.fyi/), Blind, your network to find out how much market value you have. It's strongly correlated with your level of experience and the company you're interviewing for. Do not take low-balls. Do not ask for unreasonable amounts. I've seen people get offers rescinded for over-negotiating.\n2. **Have leverage**. Competing offers, good job situation, 1 million dollars in the bank, those are all leverage. If you have no leverage, then you need to fake it. I don't recommend faking leverage, because if you were able to get one offer you can easily get another one.\n\nI didn't negotiate my offers beyond telling the recruiters what the other companies were offering me. This only worked because I interviewed companies that pay top of market earlier in the process. I also let the recruiters know how much I was expecting, and disclosed my current level/comp when asked (L4 at Google, so it would not have helped my case).\n\nI dislike most of the online advice that tells you to play a game against the recruiter. Recruiters are human. Full transparency, and being genuine with the recruiter has worked well for me. Try to not make it all about money. If all your questions/comments are around comp, it signals to the team that you're just interested in money, which certainly doesn't help your case.\n\n**Closing notes**\n\nI found that through preparing for interviews that I did become a better engineer. The process of preparing for interviews challenges your mental fortitude and time/stress management. Prepping for design interviews is not as simple as reading Grokking/design primer, you need to gain a fundamental understanding of every decision that’s being made in the design, and this requires a lot of digging through the internet for content. *A lot of hate for Leetcode style interviews on this sub.* Doing Leetcode doesn’t make you a better engineer, but it makes you a better coder. A big part of our job is translating ideas/thought into code, in a way that others can read it and understand it. Leetcode problems are challenging because they test your ability to generate the idea, and to translate ideas into code.\n\n&amp;#x200B;\n\nAMA",
+      "subreddit": "cscareerquestions",
+      "score": 1157,
+      "url": "https://reddit.com/r/cscareerquestions/comments/cdp9yz/another_data_point_on_industry_hire_in_the_bay/",
+      "comments": [
+        {
+          "body": "[deleted]",
+          "score": 201
+        },
+        {
+          "body": "I am a hiring manager at one of the FANG companies. I just want to be realistic that most people for L5 are probably in mid 300s. Getting an offer in 500 is probably in the top 1%. It does happen but just rarely. Looking at the people who report to me and based on what I have seen average base salary is actually closer to 160k all the way to 180. The rest is just stock. \n\nAlso to those saying you want to move to the Bay Area and make this kind of money. The cost of living here is a magnitude higher. A typical one bedroom goes for at least $3k. There is a lot of competition. A typical 3 bedroom with 1 bathroom is at least 1 million. You won’t be making this kind of money in other states. \n\nI can confirm that studying does help. If you have an interview study everything as other people are doing that. Interviewing is a skill that be improved!\n\nI have found that there is some hate for FANG interview style on Reddit. Thanks OP for calling this out. It’s a lot of work to keep the bar high and sometimes that means there are false negatives. And that’s ok. Most companies let you interview again in a year.",
+          "score": 106
+        },
+        {
+          "body": "[deleted]",
+          "score": 295
+        }
+      ]
+    },
+    {
+      "title": "Airbnb Interview",
+      "body": "Hello! I'm a first year student who somehow has a technical phone interview soon with Airbnb. Needless to say, I think I'm doomed. Anyone have tips on their interview? Also, what programming language should I use?",
+      "subreddit": "cscareerquestions",
+      "score": 17,
+      "url": "https://reddit.com/r/cscareerquestions/comments/5pyfww/airbnb_interview/",
+      "comments": [
+        {
+          "body": "just a warning,  even though you made it past the resume screening,  companies may still put you at a disadvantage due to you being a freshman. \n\nI'm also a freshman,  and both google interviewers made comments about me being a freshman (I haven't heard back about the results of the phone interviews). Meanwhile,  neither the Facebook phone interview nor the on-site mentioned my age, and those interviews went a lot better. ",
+          "score": 11
+        },
+        {
+          "body": "Programming interview exposed, cracking coding interview.\n\nQuestion, when did you apply for the summer position?",
+          "score": 5
+        },
+        {
+          "body": "[deleted]",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Big N Discussion - December 04, 2019",
+      "body": "Please use this thread to have discussions about the Big N and questions related to the Big N, such as which one offers the best doggy benefits, or how many companies are in the Big N *really*? Posts focusing solely on Big N created outside of this thread will probably be removed.\n\nThere is a top-level comment for each generally recognized Big N company; please post under the appropriate one. There's also an \"Other\" option for flexibility's sake, if you want to discuss a company here that you feel is sufficiently Big N-like (e.g. Uber, Airbnb, Dropbox, etc.).\n\nAbide by the rules, don't be a jerk.\n\nThis thread is posted each **Sunday and Wednesday at midnight PST**. Previous Big N Discussion threads can be found [here](https://www.reddit.com/r/cscareerquestions/search?q=Big+4+Discussion&amp;restrict_sr=on&amp;sort=new&amp;t=all).",
+      "subreddit": "cscareerquestions",
+      "score": 8,
+      "url": "https://reddit.com/r/cscareerquestions/comments/e5vhih/big_n_discussion_december_04_2019/",
+      "comments": [
+        {
+          "body": "Company - **Amazon**\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/cscareerquestions) if you have any questions or concerns.*",
+          "score": 7
+        }
+      ]
+    },
+    {
+      "title": "Anyone have experience with AirBnB software engineer intern interview?",
+      "body": "Hi everyone,\n\nI recently heard back from AirBnB saying they want to interview me for a software engineering internship role with them for next summer. I wanted to see if any of you had gone through the AirBnB internship interview process and what the entire process is like, questions asked, how to best prep, etc.\n\nGlassdoor doesn't seem to have much info, so your advice would be much appreciated!",
+      "subreddit": "cscareerquestions",
+      "score": 2,
+      "url": "https://reddit.com/r/cscareerquestions/comments/3k4qr3/anyone_have_experience_with_airbnb_software/",
+      "comments": [
+        {
+          "body": "I interviewed for a full time position. The questions were very fair but be prepared to be able to barely hear your interviewers as they consistently choose to use speakerphone in a very evidently open and loud office. Both of my interviewers had very strong accents on top of that but I think that was just coincidence.",
+          "score": 3
+        },
+        {
+          "body": "How long did it take you to hear back from them? I submitted my resume to them yesterday. Just curious. Also did you apply straight through their website?",
+          "score": 2
+        },
+        {
+          "body": "Hey! You might be me. I got an interview email today from a recruiter, and I applied the day before too.\n\nDid you get the same email format where you have to answer the three pre-interview questions?",
+          "score": 1
+        },
+        {
+          "body": "OP, how'd it go? I have interviews with them next week",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "I Have technical internship interview with Airbnb. I'm a bit worried. Can anyone shed some light on their experience?",
+      "body": "I'm feeling a little unprepared and worried. I've been studying for a while but I still feel unprepared for the interview. I've been looking at the interview reviews from glassdoor, but those are for FTE positions. So I don't think that is the best reflection for the interview process for an intern. Could anyone who has gone though Airbnb's internship process please answer the following questions.\n\n* Did you find it difficult compared to other interviews you've done with similarly ranked companies?\n\n* I've read that the I should look at the Top 10 LeetCode problems. Do you feel that the Top 10 is a decent reflection of the code question(s) you were asked during your technical interview?\n\n* Was your interviewer helpful, did they seem to care about your thought process and not put a heavy emphasis on whether your code could actually run or solve the challenge given? \n\n* Did you feel the code challenge/question seemed to be useful as it may relate to Airbnb or was it something trivial like checking whether a string is palindrome or not?\n\n* Lastly, i understand some of you might not feel comfortable telling me the exact code challenge you had to solve so just the topic of the code challenge would be great. Example: A code challenge on removing duplicates from a string would have a topic of string manipulation.\n\n",
+      "subreddit": "cscareerquestions",
+      "score": 12,
+      "url": "https://reddit.com/r/cscareerquestions/comments/5msol9/i_have_technical_internship_interview_with_airbnb/",
+      "comments": [
+        {
+          "body": "Definitely one of the harder interviews, review the Leetcode Airbnb questions and Leetcode hard questions, they definitely take culture super seriously in the behavioral interviews if you make it there.\n\nAlso your code must compile correctly by the end of the interview, w few exceptions\n\nBest of luck, just keep practicing as much Leetcode as possible before the interview",
+          "score": 8
+        },
+        {
+          "body": "[deleted]",
+          "score": 4
+        }
+      ]
+    },
+    {
+      "title": "Does anyone have experience doing a front-end/web development interview with Airbnb?",
+      "body": "There is no data on glassdoor for those specific roles. Has anyone interview for a front-end or web development or a similar role at Airbnb and would like to share their experience? Thanks!",
+      "subreddit": "cscareerquestions",
+      "score": 4,
+      "url": "https://reddit.com/r/cscareerquestions/comments/44v4ve/does_anyone_have_experience_doing_a_frontendweb/",
+      "comments": [
+        {
+          "body": "[removed]",
+          "score": -2
+        }
+      ]
+    },
+    {
+      "title": "anyone interviewed with airbnb?",
+      "body": "Airbnb is one of the companies I'm interested in interning at next summer (and if possible, working for full time) and I'm wondering if anyone here has done an interview with them. How would you describe the technical interview process, and are the interviews much harder than typical big 4 interviews or no?",
+      "subreddit": "cscareerquestions",
+      "score": 4,
+      "url": "https://reddit.com/r/cscareerquestions/comments/37cyie/anyone_interviewed_with_airbnb/",
+      "comments": []
+    },
+    {
+      "title": "Thoughts during my journey from average state school → top unicorn",
+      "body": "I’ve spent a lot of time in this subreddit, for better or worse, and I wanted to address a few common topics that I have seen over my time here. I started reading this subreddit at the beginning of freshman year, and have continued to read it since then. As I look back, I realize I have been guilty of obsessing over these topics, and I wanted to communicate the things that I have learned and the ways that I would have changed my approach and mindset. I don’t really have a way to prove that I am credible in any way, but I will say that I will be interning at a top unicorn coming from an average state school, and these are the things I learned during my journey.\n\n*****\n\n**School tier** – Your school matters and will affect, but not determine, your future. Yes, the kids from Stanford have their pick of interviews, and the kids from your local state university will not. But no, going to Stanford does not guarantee that you pass your interviews, and going to a state university will not automatically fail you. Without attempting to oversimplify a complex socioeconomic topic – the students at better schools tend to be, on average, smarter and more successful for various reasons, and for this reason, companies will recruit at these places at a much higher rate. Although the average student at these schools is almost definitely stronger than the average student elsewhere, strong students exist at every institution, and it is solely on you to build up your skills and knowledge inside or outside of the classroom.\n\n**Side projects** – Side projects will (probably) not significantly affect your internship/job search. Most recruiters are non-technical and will have no idea what your projects do, how difficult they were to create, or why you made them. The only exception is for standout projects with a good number of actual users, or a highly-starred/-forked project on GitHub, which convey, in a non-technical manner, the usefulness and impact of your project. Usually, side projects come up during or after technical interviews, at which point the company is likely to have already made up its mind on you. Now, this is not to say that you should not do side projects – many recruiters are probably told to look for this section on your resume, and you definitely gain useful skills in doing so. My point here is that, with few exceptions, the exact content or focus of your project is irrelevant to recruiters, so do not worry about the “top side projects for getting interviews,” just worry about doing interesting work that you can learn from.\n\n**Personal websites** – After going through sophomore and junior year interviews, I can safely say that almost no one will ever visit your website. I got at most ~10 views a month during peak recruiting season – most of which were probably just students snooping on me from LinkedIn. Again, this is not to say that they are useless, but they are definitely not something worth spending a lot of time on. There is however, a sort of quaint pleasantness to owning and tidying up your tiny portion of the internet, even if no one sees it. The exception to this is for designers and front-end people, who probably do need to maintain a nice online portfolio. \n\n**Getting interviews** – For a reasonably intelligent person who is willing to put in the time for interview prep, the hardest part of the recruiting process may very well be *getting* (not *passing*) interviews. So please, ignore the people here who claim that the Big 4 “interview anything with a pulse”—they probably come from target schools. Sadly, the best way to get interviews is to either come from a top school, get referred, or have experience at a similar top company. Given that the second is largely a consequence of the first, the easiest route is to just gain experience. Start interning early, and work your way to better and better companies. Sure, you probably won’t get Google your freshman Summer, but after one or two internships at easier companies, you will probably have a good-enough resume to get interviews there. Starting to intern early on, even at no-name places, is a huge advantage, especially for those not in target schools.\n\n**Leetcode and interview prep** – If you want to work a top tech company, you will need to do interview prep. This should be a mix of CTCI, EPI, and Leetcode. If you do not want to work at a top tech company, then you probably do not need to prep for data structures/algorithms questions. Do not complain about the interview prep for top companies. You signed up for this, and this is the work you need to put in to reap the benefits. Conversely, do not brag about getting a job without technical interviews. Again, you chose this. In general, the type of companies one chooses to interview with and the subsequently necessary interview prep are entirely up to the individual, and you have neither a person to blame nor inherent superiority for picking one over the other.\n\n**Interview results and waiting** – I personally struggle a lot with the wait *after* the interview, and I tend to become an anxious mess while I wait. I won’t give the generic feel-good advice here because I know it does not help. I will however say that, in my experience, some positive signs include: interviewers mentioning next steps, interviewers asking about team preference, interviewers asking follow-up questions, and recruiters *scheduling* a call with a vague message about “chatting”.\n\n**Prestige tiers and humblebragging** – I will preface this point saying I am measuring prestige as it relates to pay. With this definition, there are certainly company tiers, as pay varies throughout the industry. The top includes top finance companies (QHFs, HFTs, Prop trading), top unicorns/startups (e.g. Uber, Airbnb, Lyft), and our lovely Big 4. The middle includes generic F500 companies and BB banks, and some middling tech companies. The bottom includes everything else. As a general rule – given an offer from companies in different tiers, if one wishes to maximize earnings, pick the one in the higher tier. For decisions between companies in the same tier, where the pay is negligibly different, pick based on other factors such as location, culture, and product focus. My point here is that the “Airbnb vs. Lyft vs. Pinterest” posts are quite useless and serve as humblebrag posts; between such similar companies in compensation, the difference between them lies entirely in your *personal preferences*.\n\n**Jealousy** – Unless you happen to be the most successful person in your area (perhaps it’s time to move, if this is the case), you will likely know (or know of) people who are more successful than you are. I used to struggle a lot with this, and found that I felt hopeless after watching the success of others. However, this is the wrong mindset to have, and once I changed my perspective on this, I found I was much more successful and confident. Take a close look at your successful peers, and focus not on their accomplishments, but the choices they made and the work they did to achieve these feats. If their accomplishments are things you truly desire, then their success has given you a path that you can follow to replicate their success. So instead of feeling sad that your friend got into {generic Big-N}, be happy, because you now know of one potential path into {generic Big-N} (and a potential referral). This may seem a bit handwavy (like telling an anxious person to stop being anxious), but I personally found a lot of success and inner peace by converting my jealousy into ambition. \n\n*****\n\nSo, those were my thoughts over the years. I expect some people to disagree, and I would love to have a discussion about these points. At the end of the day, just remember that we are lucky to be such a meritocratic field, where pedigree and connections do not completely determine one’s fate. To anyone feeling down, be happy we aren’t in [investment banking]( https://www.wallstreetoasis.com/tracker) making PowerPoints.\n",
+      "subreddit": "cscareerquestions",
+      "score": 468,
+      "url": "https://reddit.com/r/cscareerquestions/comments/7cjeda/thoughts_during_my_journey_from_average_state/",
+      "comments": [
+        {
+          "body": "What you had to say about side projects is interesting. What I've read in this sub is that projects are a great was to set yourself apart and look really good on a resume. You seem to think they're not very important. ",
+          "score": 82
+        },
+        {
+          "body": "[deleted]",
+          "score": 35
+        },
+        {
+          "body": "&gt; Getting interviews – For a reasonably intelligent person who is willing to put in the time for interview prep, the hardest part of the recruiting process may very well be getting (not passing) interviews. So please, ignore the people here who claim that the Big 4 “interview anything with a pulse”—they probably come from target schools. Sadly, the best way to get interviews is to either come from a top school, get referred, or have experience at a similar top company.\n\nCan't stress this enough. The ones saying that a resume with an internship should be getting Google interviews clearly don't know what they're talking about. Have you *seen* the number of students trying to talk to Google at the career fair and info sessions? Everyone's resume has a crappy internship and side project or two these days and most of them aren't getting interviews.\n\nBtw the actual below average kids in being career driven that don't have any internships or side projects aren't going to the career fair or searching for jobs while in school. They're staying in their rooms and gaming.",
+          "score": 53
+        },
+        {
+          "body": "I bet you won't be writing this up if you didn't get into a top unicorn. You know it, we know it.",
+          "score": 135
+        },
+        {
+          "body": "I feel like this is a good combination of info from the sub FAQ, but organized nicely. Well said.",
+          "score": 12
+        },
+        {
+          "body": "Agree with most of this; I also came from a less reputable state school (with a STEM but non-CS major) and am doing fine.\n\n&gt;Side projects will (probably) not significantly affect your internship/job search.\n\nIn my experience interesting side projects can play a big part in getting your interview panel enthusiastic about hiring you. If you have a project that's genuinely interesting or useful and you can hold a conversation about it and explain why you made it and the rationale behind various choices you made, it's a huge plus.\n\nWith that said, you can't fake it and \"top side projects for getting interviews\" is bullshit. It's obvious when someone has just treated it like another box to check. If you have the same followed-a-tutorial-online project as every other grad and can't say more than a sentence about it, no one will care.\n\n&gt;So please, ignore the people here who claim that the Big 4 “interview anything with a pulse”—they probably come from target schools.\n\nOr they have a job in the same area as a top company's office. Get a job, the recruiters will show up.",
+          "score": 10
+        }
+      ]
+    },
+    {
+      "title": "Big N Discussion - September 25, 2019",
+      "body": "Please use this thread to have discussions about the Big N and questions related to the Big N, such as which one offers the best doggy benefits, or how many companies are in the Big N *really*? Posts focusing solely on Big N created outside of this thread will probably be removed.\n\nThere is a top-level comment for each generally recognized Big N company; please post under the appropriate one. There's also an \"Other\" option for flexibility's sake, if you want to discuss a company here that you feel is sufficiently Big N-like (e.g. Uber, Airbnb, Dropbox, etc.).\n\nAbide by the rules, don't be a jerk.\n\nThis thread is posted each **Sunday and Wednesday at midnight PST**. Previous Big N Discussion threads can be found [here](https://www.reddit.com/r/cscareerquestions/search?q=Big+4+Discussion&amp;restrict_sr=on&amp;sort=new&amp;t=all).",
+      "subreddit": "cscareerquestions",
+      "score": 19,
+      "url": "https://reddit.com/r/cscareerquestions/comments/d8zqum/big_n_discussion_september_25_2019/",
+      "comments": [
+        {
+          "body": "Hey all - I'm in the fortunate situation of  having to choose between two great offers, and I've already used them to leverage each other higher. Both are in the bay area.\n\nMy Google offer is for L5 with 195k base, 550k in stock, 15% target bonus, and 50k signing bonus.\n\nMy Facebook offer is for E5 with 200k base, 700k in stock, 15% bonus, and 100k signing bonus.\n\nI would rather work at Google, since I've always wanted to and it seems like they have a stronger working culture and better work life balance, and a better enginnering brand. Initially the offers were the same (G matched FB's offer), but as I was telling the FB recruiter I was going to decline, he told me that he'd get approval for their max E5 offer above.\n\nI'm flattered that Facebook is willing to pay me so much more, but is it worth it? I hear rumors about bad work life balance, the ease of getting put on a PIP and fired, plus all the privacy scandals in the news and a shaky future for FB's product and stock. I'm also a little sick of the \"move fast break things\" culture that Facebook spouts, since I've been in that environment already at past startups.\n\n What would you choose? Both offers are already 3x my current TC, so I'm already very happy with the offers. Is it worth risking my sanity for even more pay at this point?",
+          "score": 18
+        },
+        {
+          "body": "Company - **Amazon**\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/cscareerquestions) if you have any questions or concerns.*",
+          "score": 6
+        }
+      ]
+    },
+    {
+      "title": "Big N Discussion - October 20, 2019",
+      "body": "Please use this thread to have discussions about the Big N and questions related to the Big N, such as which one offers the best doggy benefits, or how many companies are in the Big N *really*? Posts focusing solely on Big N created outside of this thread will probably be removed.\n\nThere is a top-level comment for each generally recognized Big N company; please post under the appropriate one. There's also an \"Other\" option for flexibility's sake, if you want to discuss a company here that you feel is sufficiently Big N-like (e.g. Uber, Airbnb, Dropbox, etc.).\n\nAbide by the rules, don't be a jerk.\n\nThis thread is posted each **Sunday and Wednesday at midnight PST**. Previous Big N Discussion threads can be found [here](https://www.reddit.com/r/cscareerquestions/search?q=Big+N+Discussion&amp;restrict_sr=on&amp;sort=new&amp;t=all).",
+      "subreddit": "cscareerquestions",
+      "score": 12,
+      "url": "https://reddit.com/r/cscareerquestions/comments/dkgavs/big_n_discussion_october_20_2019/",
+      "comments": [
+        {
+          "body": "Company - **Amazon**\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/cscareerquestions) if you have any questions or concerns.*",
+          "score": 9
+        }
+      ]
+    },
+    {
+      "title": "Has anyone interviewed with AirBnB for a software engineering internship? How was it?",
+      "body": "Is anyone familiar with the interviews at AirBnB? How did you prepare? Was it hard? What advice do you have? ",
+      "subreddit": "cscareerquestions",
+      "score": 4,
+      "url": "https://reddit.com/r/cscareerquestions/comments/42ce9z/has_anyone_interviewed_with_airbnb_for_a_software/",
+      "comments": [
+        {
+          "body": "Good work, they're hard as hell to get. I didn't even know they were still interviewing! \n\nCTCI is likely not enough, I'd do leetcode and glassdoor problems. ",
+          "score": 3
+        },
+        {
+          "body": "Hard algorithms, get familiar with the more difficult problems on Leetcode.",
+          "score": 1
+        },
+        {
+          "body": "Hard algorithm problems, harder than my Google and Facebook interviews, easier than my Palantir one. As others said, do medium/hard level problems on Leetcode.",
+          "score": 1
+        },
+        {
+          "body": "I interviewed there, and looking at leetcode, I got two of the hard questions there. Definitely worth looking through leetcode's hard problems.",
+          "score": 1
+        },
+        {
+          "body": "I had a phone interview for full time and the question was pretty standard hard CTCI or medium LeetCode level I think. I unfortunately didn't pass to the next round... But I didn't find it significantly more difficult than peer companies, unlike the answers here suggest. YMMV?",
+          "score": 1
+        },
+        {
+          "body": "leetcode medium or hard level I would say.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Airbnb Software Engineer Intern Interview?",
+      "body": "Anyone currently in the process or have been through the process? I have an onsite soon and I was wondering the experience that others had...How were the questions? How are the onsite rounds divided up? I also have a phone talk before the onsite. If anyone also has went through this, what does this usually consist of?\n\nAnything is greatly appreciated! Please help! Thank youuu!",
+      "subreddit": "cscareerquestions",
+      "score": 4,
+      "url": "https://reddit.com/r/cscareerquestions/comments/3r0yjn/airbnb_software_engineer_intern_interview/",
+      "comments": [
+        {
+          "body": "[deleted]",
+          "score": 1
+        },
+        {
+          "body": "The questions were hard data structures and algorithm problems. Think hard Leetcode questions.",
+          "score": 1
+        },
+        {
+          "body": "The questions I had were all relatively simple questions revolving around tries. The one I remember was finding all the words on a boggle board which seems to be a popular question for technical interviews I've had recently (got it 7-8 times). ",
+          "score": 1
+        },
+        {
+          "body": "[deleted]",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Revature: A comprehensive, no BS review",
+      "body": "Hello all. From my experience, there is a lot of unclear, mixed, and odd information on Revature online, specifically on this subreddit. I am going to write this review of Revature (my experience thus far) in attempt to publicly clear some of it up. I hope this will benefit some of you. The following two paragraphs will be an introduction to what Revature does; skip them if you are already familiar.\n\n**WHAT IS REVATURE?**\n\nWhat is Revature? Revature is a sort of hybrid combination of employment agency and software engineering/coding bootcamp. It is marketed as the bridge between the infamous “2+ years experience” requirement you see on “entry level” jobs and people without said experience. Revature is not the only company that does this; there are others like them. FDM Group is one I can name off the top of my head. But Revature undoubtedly is the most well-known, likely because they have somehow managed to post job listings on nearly every job board in seemingly every city in the US. And guess what those listings are titled? Yep, “entry level software engineer. No experience needed!”\n\nThey have recruiters who guide you through easy little entry interviews to get you signed up for a training start date. These trainings usually take place on a few college campuses, I *think* mostly in the East and South US. Florida, Virginia, West Virginia, Texas.  *As of writing, all of the trainings are happening remotely due to the pandemic; mine was remote*. If you do not have much experience with coding, they will tell you that you have to do a 2-4 week online live class called Spark, and this training is completely unpaid and contract free. After you pass that, you can qualify for one of the bootcamp trainings, during which you get 10 days contract free and then are told you have to sign to continue. After training, you go to a staging phase where Revature works to find you positions with various companies and get your interviewed for them. These companies are almost entirely massive companies, a lot of Fortune 500s. Revature then pays you 45k (more if in high COL) your first year of work, and then 55k your second year of work (also more if high COL). They then will offer you a third year contract free if you want, and that’s 75k salary. You are offered a small stipend to help cover moving costs when moving to on-site training and job sites.\n\nIn short, Revature trains people (a \\~3 month bootcamp) in various techs and then contracts them out to companies to work for 2 years. And you’re paid for the entire experience. They really do this; it’s not a scam. But there are some catches and some sketchy things that I will address.\n\n**THE CONTROVERSIAL THINGS**\n\nIt mostly sounds marvelous, right? What’s the catch? The *big* one you’ve probably already heard of is the contract and how it works. The contract has all these little conditions you aren’t supposed to break, the main one being that you can’t just up and leave once you’ve signed their contract. If you do break the contract, they say you will be charged with a whopping 46k. It used to be less and they recently have increased this.\n\nAnother catch is that you are basically paid minimum wage until you actually start a job for whatever company they contract you out to. That means that during the bootcamp and the staging phase (which usually ranges anywhere between 1-3 months), you will make very little. And on top of that, your 2 year clock on the contract doesn’t start until your first day with a client. This means training and staging time does not count towards that 2 years, even though you’re still locked in at that point.\n\nPerhaps the worst catch of all is what I see as the Revature nightmare situation. This has to do with a mixture of being locked into that contract and being moved around geographically. Technically, the clients you are contracted out to are often bringing you on for big projects. Rarely, someone will reach completion of the project and the company will then say “k, we’re done with you then” and send you back to Revature, where you are placed back in the staging phase where you will again make minimum wage. That is, until they find you another company to go work for or until you’ve been in staging for \\~3 months (and they then let you go penalty-free).  You could also get sent back if the client doesn’t like you, but you have to be a big underperformer or do something bad for this to occur otherwise Revature will fight for you to keep you in your position.  But during non-pandemic times, this literally means you would have to move from your training site where you are in staging, to the job site where your client is located, and then back to the training site again when they are done with you. Yes, you can a small stipend to help cover moving costs, but Revature doesn’t give a damn if you have to break leases or eat big costs for long-term stays at Airbnbs. With Revature you have to be light on your feet, and you could be sent across the country at a week’s notice. There’s a lot of geographic unknown.  And who knows, maybe they are more reasonable with this than I’m giving them credit for.  I never personally spoke with anyone who went through this, I just know it is possible in theory.  In most cases, you go to your project and you stay there the whole time, problem free.\n\nThe pay is also, without a doubt, fairly low.  People also rage about this.  Being a software engineer getting paid 45k isn’t wonderful, but it’s just for one year, and it’s enough to live off of.  The value of Revature isn’t the salary, it’s the resume building and the increase of the future value of your salary.  Maybe you can go get a job making 60k for the next 4 years, or maybe Revature will pay you 45k for year 1, 55k for year 2, and then you go land a job making 100k afterward.  Maybe not, who knows, but you get what I’m saying here.  Be real with yourself and consider how much you’d be missing out on if you didn’t do Revature.  If you’re like me, you wouldn’t be missing out on anything.\n\nLastly, I’ll mention that you don’t usually get to pick what tech you are trained in.  I had no idea what I would be trained in until day 1 of my paid training.  Some people I spoke with mentioned that their recruiter gave them a choice.  Mine didn’t, but it worked out fine.  Revature is only training people in tech that they believe employers see as marketable, otherwise they can’t sell you to them.  This is how Revature works for you, and they’re looking out for you during that entire 2 years because they win when you win.\n\nSo that’s the bad. When you hear people badmouthing Revature, they usually stop here.  But let me tell you: for me and man others, the good far outweighs the bad. *Virtually no one gets stuck with the contract breakage fee, even people who actually break the contract*. I think it’s obvious as to why. The contract is, to a degree, a scare tactic that has to be in place for Revature’s business to be possible, otherwise people would take their paid training and then scoot off to do their own thing. But they are transparent about it, they went over the contract with us many times, and we all knew what we were getting into. Sure, in a perfect world that breakage fee wouldn’t be there, but if you just don’t break the contract, there’s never going to be any issue at all. If something does happen like they can’t find you a job, they literally will just tear your contract in two and say “you’re free to go.” They do not try to stick people with it, it’s just meant to keep people on their track for 2 years and that’s it. I know of absolutely no one who has gotten threatened or stuck with the fee.\n\nThe minimum wage thing is often blown **WAY** out of proportion too. People rage about how Revature is so awful for paying you minimum wage, but you have to remember that *you are literally being paid to learn.* Imagine if you had gotten paid to go take college CS courses, wouldn’t that be great? Instead, you had to pay out of your butt for tuition. Bootcamps are like this too, usually! You pay a massive 10k+ sum of money and just hope that what you got taught will land you a job. With Revature, not only do you not have to pay a fat sum of cash, you will actually *make* cash while learning, and it puts the incentive on them to ensure that they are teaching you stuff that will actually make YOU money and land YOU jobs, because they have to sell you. And besides, you’re only going to be paid minimum wage for a few months. That is extremely short term, and then you begin to make a living wage. The bootcamp and staging pay is just meant to allow you to not go into debt and to put food on the table until you get to the actual job.\n\n**MY PERSONAL EXPERIENCE**\n\nI do not have a computer science degree.  I majored in business and had little to no coding experience previously, just some experience with VBA when messing around with Excel and maybe like 2 hours experience with Javascript.  I had to do their initial 4 month unpaid class and that just solidified for me how much I liked doing this stuff.  I started getting into Revature right as the pandemic was getting bad so I had a few bumps concerning that, but in the end, Revature trained me in a fantastic, relevant, modern tech that I love doing.  I pretty quickly went from training to getting a real software engineering job with a real tech company, even without a CS degree.  I’m a couple months into my project/actual job now and I’m really liking it.  Coworkers are great and the job is going to look great on my resume.  And on top of all this, I now have a network of bright blooming software engineers from my training batch.  They’re going to all kinds of companies and I keep in touch with them.  Teaching myself would not have given me this.\n\nDuring training, I was working extremely hard and at most was doing like 15 hour days.  Definitely worked weekends, though they aren’t paid.  However, later in the training, my work hours plummeted and I would sometimes only be working for 4 hours a day.  Note that you’re paid for that 8 hours a day, nothing more nothing less.  The training varies based on your trainer and how he or she wants to do things.  Mine liked to lecture for around half the day and then leave the rest of the day open for us to do some self teaching and to experiment and work on projects.  I liked this approach, as our trainer was still completely open and available for questions and consultation even after releasing us.  Think of training like it is a very full college semester, except you’re getting paid for it.\n\nRevature WILL release you if you do not perform well in training, but they won’t make you pay the fee.  It’s not all hand holding either, so you really have to keep your head down and focus and work hard during that training.  The people in my batch who were already software engineers found the training to be easy overall, whereas people like myself found it to be hard.  It varies between people.  It was challenging doing it 100% remote, but you get used to it after a while and start to appreciate it too.\n\nDuring staging, you’re “supposed” to be working for 8 hours a day to practice on your own and stuff, but most everyone just slacks off and collects the 8 hours of pay while they wait for interviews.  Just how it is.\n\nAnd then after that, it’s just the job for the next 2 years!  This is when you finally get paid the living wage.  You hardly even interact with Revature at this point, they just pay you.\n\n**BOTTOM LINE**\n\nRevature is a great opportunity if you’re like me and want to get into the tech field and don’t have a CS degree and you can manage possibly having to work on the other side of the country. It has its downsides like every job does and Revature has a lot it needs to improve, but none of these cons are enough to lead me to tell you to avoid it. If you already have a CS degree, I don’t really know why you’d be trying to get into Revature. Many of my fellow trainees are not as happy with Revature as I am because they didn’t get nearly as much out of training, *because they already knew how to do most of what we were taught*. They are extremely overqualified. If you have your CS degree, pick a marketable tech and do your own projects and push them to GitHub. Apply to jobs everywhere. Otherwise, if you’re fine with making a bit less for a measly 2 years, then yes, Revature will be a fine option to get you over that entry-level job hump that we all dread.\n\nI'll be glad to speak on anything you have questions about.  Drop me a comment and I'll respond.\n\nAnd finally, *if you found this review helpful and are going to sign up for Revature,* I do have a referral link that will yield me a bonus. You don’t have to use it, and I’m not making this review to advertise it, but I’d greatly appreciate it if you did and it would be a great way to thank me. If you’ve already signed up, I’d appreciate it if you asked your recruiter if you could apply the referral link to your profile nonetheless.  I'd prefer to not leave it out here publicly though, and will provide it to you via DM if interested.\n\n&amp;#x200B;\n\nEDIT: One guy here has brought up a good point, and that's alternatives.  You can find my comment below where we discuss it, but I want to add here that Capital One's CODA program is another \"hire and train you before putting you to work\" gig that is almost certainly going to be better.  I knew about it and wanted to do it, but they were not hiring.  I was trying to find a job at the start of the pandemic and had very little confidence that they would start hiring again anytime soon.  Check that out and apply to it if you can before doing Revature.",
+      "subreddit": "cscareerquestions",
+      "score": 334,
+      "url": "https://reddit.com/r/cscareerquestions/comments/koemre/revature_a_comprehensive_no_bs_review/",
+      "comments": [
+        {
+          "body": "[removed]",
+          "score": 80
+        },
+        {
+          "body": "This post smells like astroturfing to me. Wasn't this a company that fakes their contractors' resumes?",
+          "score": 52
+        },
+        {
+          "body": "It’s hard to take this seriously when you’ve barely started your tenure with Revature and your context is minimal. \n\nHas anyone here done Revature in the past and moved on to a successful tech career? Has anyone here worked directly with Revature as a consultant? I’ve only heard things third hand, but the impression I’ve gotten was always quite negative.",
+          "score": 27
+        },
+        {
+          "body": "Why would you post a \"review\" when you still have 22 months left on your contract? Come back and post a review when you've completed the two years. Frankly, you haven't been with the company nearly long enough to know what you're talking about.\n\n45k may seem like enough to live off now, but it won't if they ask you to pay the 46k right before your contract expires. If they plan to try to collect the 46k from you, that's when it would make sense to do it.",
+          "score": 19
+        },
+        {
+          "body": "I’ll be going through the program. That’s already more than I earn and I’m hitting a wall breaking into tech on my own. \n\nBackground: \n\nWent to Epicodus in 2015 for Ruby on Rails bootcamp. \n\nApplied to 300+ companies. 9 interviews, no offers. Although I passed technical assessments at New Relic and 2 cybersecurity companies. Also tried INTERCOM to get in the door with customer support. But they asked why I don’t do a Dev gig. \n\nSo basically I was stuck. „Too technical“ for customer Support Engineering roles and „too inexperienced“ for a real dev job.  I even applied for somewhere that said you didn’t need any experience, just positive attitude, basic knowledge. But they chose more experience in the end. (With experienced people competing also for entry level roles, you already know they will choose the people they don’t need to ramp up and will to work for less pay…. ) \n\nYou have to get experience to have experience... so I'm not sure what to do. But the reason I apply for the customer support IN a tech company is so that I get in on the ground level, learn their product and then move to the development team in the same company after say, 2 years by moving within. \n\nSo what to do? \n\nAfter months of applying, I had to take any old job to live and stayed out of tech for 6 years. \n\nLast year I applied to another bootcamp to try again and got accepted to Appacademy. Tried the camp but had to drop out within the first few weeks. (Well first I postponed to another cohort to start again 2 months later trying to see if my taxes would come in.) \n\nTime frame was like this: I worked full time, applied for Appacademy and did returns in January, after acceptance I chose a bootcamp start date for April. Left my job. Was expecting taxes to come in at some point to help support my living for the next 6 months. They didn’t come by June for next start date and I was running out of savings so I dropped completely and had to go back to work with more irrelevant stuff (Tesla QA and Apple tech support filed through agencies) and that’s still like 35k - 40k a year. The first week my tesla manager was offering a full time position after I finish the temp agency placement. But like, that’s not really a position I want to do long term. The more I work in other jobs to survive, the more far away it seems development won’t be possible and I’m forgetting everything I learned. \n\nThis is a last the ditch effort to relearn and get in on an SE file. I work well at my jobs no matter what I earn, I put the full effort and I’m a rock star with customers and in my work. No doubt if I can finally get in, I’ll be able to impress and get hired on full time.  Just need people to give me a chance. Earning higher money for myself and my kiddo seems to be an elusive dream. \n\nAnyway, I have nothing to lose. I already got rid of my possessions and apartment during the pandemic and I haven’t created another lease since. I stay in temporary accommodations. I’ve been staying flexible and ready for opportunities anywhere in the USA. \n\nIn 2019 I knew of this program but I was not ready to be moving for it. This year I remembered about it and decided to go ahead after 2 more failed interviews last week with „entry level“ product support, they chose people with more experience. But at least I made it to 3rd interview lol. \n\nIt’s tough to work long hours, stress with finding a way to live, support a kid as a single parent and still have the energy to study all this stuff. I rather just focus on it full time all once and get paid while doing it and move on. \n\nRevature will be perfect for me to realize a goal that started years ago. I’m still sitting at 99% goal completion rate for everything I’ve done until now. Becoming a software engineer is the last one left. \n\nIf a company buys me out in the first few months on the file, the the 2 year thing and „lower than standard pay“ will cease to be an issue anyway and I will work my but off to make that happen. \n\nI think someone said it right. Privileged people won’t see value, but it’s valuable enough for me. I’ve only earned a lot of money when I lived abroad. Replicating the income band in the USA is tough for me. Tech is something I like and the potential of income is also there. So let’s see how it goes.",
+          "score": 17
+        },
+        {
+          "body": "It's funny I found this as I just finished training with Revature. I can agree with all these points. During a mock interview activity they required for staging, I was talking to 2 people who were in Java and they have been in staging for about 3 months (if I remember right). Granted I got stupid lucky since I got put in UiPath (if you do not know what that is it is more or less bot software). Our batch was relatively custom-built for a client so 11 out of 14 of us got picked up. We are now in what they call virtual staging (waiting around while our background check and all the paperwork is done). Doing this during a pandemic was bizarre at first but eventually I got used to it. Revature is not perfect, and COVID and the experimental nature of my batch did not do any favours, but all in all it isn't bad. It's at least really worth looking at if you want to break into tech.",
+          "score": 15
+        },
+        {
+          "body": "Context is a powerful thing. The people ITT that can't even imagine the appeal of a Revature-like gig probably come from fairly cozy lives.\n\nI work 50+ hours a week and earn a helluva lot less than 45k, which is barely under what my boss makes. In fact, a quick google search shows that most working adults in the US earn less than that (median wage in the US is 36k for fulltime workers).\n\nSure, even someone like me would get an initial pay cut by going minimum wage (with subsidized housing, I feel the need to point out) for a few months, but consider this alternative perspective: You're getting paid to train for a few months rather than taking out even more loans for 2 years (4 years for someone without an AA).\n\n\\~\\~\\~\\~\n\nThis is coming from someone who is seriously considering Revature or a company with a similar program. I thank those ITT who offered reasonable alternatives instead of just saying \"lol no run don't walk\".",
+          "score": 15
+        }
+      ]
+    },
+    {
+      "title": "I sucked at algorithms but got better, and you can too!",
+      "body": "Probably the most click baity title I've written but hopefully this helps more people out.\n\nAlright, so here’s me. I hate CS theory. I recognize it’s important and I’m standing on the shoulders of giants as a coder, and it’s incredibly humbling to learn about the theory behind modern day algorithms and how they fit into real life applications. I would absolutely recommend always taking the algorithms class at your university, even if it is optional.\n\nBut I hate it. The tone for algorithms was set when, in my algorithms book itself, the author wrote “it was a wonder how Strassen was able to develop the Strassen algorithm for matrix multiplication”. As I read that sentence it was so discouraging to see that even the publishers were bewildered at how these algorithms were developed. It seemed like everything was a bag of tricks. I was good at pattern matching, but these seemed like there were no patterns. Just clever tricks that I would never be able to figure out, I wasn’t good at thinking outside of the box. I was further discouraged by the fact that there were peers who seemed to ace these classes. They were smart and I figured naturally something just clicked for them that didn’t for me. \n\nHowever, upon further investigation, most of these people had a lot of math and competitive programming background. Meaning the key was experience. They had years of exposure to the bag of tricks and so they no longer became tricks. They became patterns.\n\nAnd so here’s the bright side. They were immensely overprepared for any interviews they got, from what I saw. So that means you need to do far less, as someone who has no algorithms experience, to get into a company with a high hiring bar. I felt that my preparation was sufficient for offers from Facebook and Google. Some of the unicorns have higher hiring bars as well as financial tech, so they may be out of scope for this level of preparation (Palantir, Airbnb, Jane Street, etc.).\n\nSo for reference, I did take an algorithms class. To be fair, I felt like I absorbed very little, but at the end of the day I still had some exposure to algorithms. That’s the starting point I’m assuming you have when reading this.\n\nA lot of people recommend Elements of Programming Interviews and Cracking the Coding Interview. They are great resources, but my main source of studying was Leetcode. I feel like kind of a shill writing this out but it was too core of my preparation to ignore. There is some merit in the argument that one should actually practice writing on a whiteboard, etc. If you have a whiteboard at home then you are in a good spot to practice whiteboard management, etc, which is another topic for another time. Ultimately though, I still didn't feel like I was screwing myself over or becoming too dependent on having a keyboard. You literally just need to write out what you would type - you're slower for sure but that's just an issue of time management and choosing a good language (cough cough, Python) for whiteboard coding.\n\nAnyways, there are two main issues I felt when doing prep on Leetcode, and that I’ve seen other people complain about too.\n\n1. In the first few weeks, everything still feels like a bag of tricks. It absolutely sucks and the only way to break through this is to power through that and just keep learning. Do not be discouraged by the fact that you weren’t able to come up with tricks for nearly all the algorithms you’ve tried. I guarantee you will run into an algorithm or problem down the line that rings a bell in your head, and once you feel that, things start to snowball as you kind of get an intuition for approaches to a problem.\n\n2. Momentum is important. I found that I was more inclined to work on Leetcode if I had gotten a problem right. Starting your day off on a hard is shitty, especially if you get stuck and just procrastinate and don’t want to look at the solution. I usually ramped up, if I was doing three questions a day it would be easy-medium-hard. Don’t waste your time on a hard one if you’re stuck past 45 minutes. Do your best to come up with a brute force solution, do not give up on it (this is a good attitude to have in your real interviews too) and implement if you can. Then read the solution and reimplement it.\n\nI feel like once you break the barrier of “fuck, algorithms are so clever and I can’t do them” to “wait a sec, this reminds me of that DP problem I did last week”, you get more confidence and doing these problems actually becomes kind of enjoyable. You just gotta stick out the first few weeks.\n\nAll in all, it took me about a month and half of prep and 100 leetcode questions, several mock interviews, a tiny dash of EPI to get to a point where I felt like I had a decent shot at the companies I was applying to. I’ve heard some people studying a lot more, and I may have just gotten lucky on my questions, but at least for personal satisfaction I felt like 100 was enough.\n\nAnd honestly, that's it. I would assume that a lot of people feel the way I did, especially if they didn't have the prior experience in competitive math or programming like me. I just wanted to emphasize that it is definitely possible to break through that and you are doing yourself a massive disservice if you convince yourself you are just \"bad\" at algorithms.\n\nTl;dr: Technical interview performance is a function of the amount of volume of problems you ingest. Do more and don’t stop.\n\n",
+      "subreddit": "cscareerquestions",
+      "score": 742,
+      "url": "https://reddit.com/r/cscareerquestions/comments/57hybf/i_sucked_at_algorithms_but_got_better_and_you_can/",
+      "comments": [
+        {
+          "body": "&gt; I feel like once you break the barrier of “fuck, algorithms are so clever and I can’t do them” to “wait a sec, this reminds me of that DP problem I did last week”,\n\nThis. Exactly This. If you do enough problems (whole heartedly), you begin to see those patterns.",
+          "score": 183
+        },
+        {
+          "body": "Good post, I think this is going to resonate and hopefully encourage a lot of folks!\n\nHowever, beware relying on pattern recognition. I thought a similar thing about exposure to patterns until I took some fourth-year math classes for my math degree, and realized quite harshly that there is a chasm between pattern recognition and actually coming up with solutions to *novel* problems. If you are fortunate enough to get paid to come up with *new* algorithms, don't expect your experience with known algorithms to be any help what-so-ever. I think real problem solving (not just finding a thing that someone else invented and applying it) is a mostly-creative effort, which cannot be done equally well by all people, and certainly can't be sped up by pressure or reward.\n\nBest of luck to you!",
+          "score": 48
+        },
+        {
+          "body": "I'm taking Data Structures and Algorithms this semester, and we just started linear and binary searches. I've nearly broken down in tears from trying to understand and hand my assignment in on time this week.\n\nYour post gives me so much hope.",
+          "score": 27
+        },
+        {
+          "body": "I'm curious if you balanced leetcode with school work, or if you did this undertaking when you were off.  Sometimes I feel that programming assignments use very similar leetcode type of questions with implementation, but other times they are completely irrelevant.",
+          "score": 14
+        },
+        {
+          "body": "Awesome! I agree so much! I'm at exactly 146 problems right now, and just now, just freaking now things are slowly but surely starting to click. At first when I approached a problem it was just spaghetti, didn't get the algorithm right, could barely code a brute-force solution 30 minutes of me smashing my head against the keyboard, but I refused to go for help for at least 45 minutes to a hour. \n\nThen I'd read pretty much read all the top-rated discussions find a implementation I could somewhat grasp in my head, without working out, then work out that one on paper, then type it out from memory, then submit it, then type it into a IDE and save it on Github, with implementation notes and from memory. \n\nNow when I see new problems it's less spaghetti. My thought process goes like this: Brute-Force Solution -&gt; What are time/space complexities -&gt; Ok with an optimal solution there is this set of techniques to solve this problem (DP, Divide-and-Conquer, Queue, Stack, BFS, Recursion, etc) -&gt; try my hand at the optimal solution -&gt; modify and tweek till I need help or it's accepted. \n\nI almost always at least get the algorithm right, even if I can't code it 100% and most of the times my code is very very close to accepted answers, enough so that I'm sure I'd clear the interview if it was a whiteboard exercise. ",
+          "score": 23
+        }
+      ]
+    },
+    {
+      "title": "Post Layoff Job Search Sucks",
+      "body": "My company had mass layoffs back in April 2024, which I was affected by. I had been at the company for a little over 2 years at that point and had purchased a house in October of the year before. The first few months, I wasn’t that worried, I had rented out the house and was also doing Airbnb to keep the mortgage payments covered. I was interviewing and hearing back, getting ghosted, getting reached out to by recruiters. My former company had a career counselor program for everyone who was laid off, but obviously it yielded no success. Winter came, airbnb bookings were low and I really started to feel the pressure. April came around again and I started to just feel like a straight up failure.\nAnytime people would talk about CS (I did computer engineering tho not that it really matters) being a dying field now or just about how horrible the job market was, I just didn’t think much of it because I figured there would always be something.\nI honestly don’t know what to do anymore. I was in a forbearance period for my mortgage but the forbearance period is over and I’ve missed 2 payments. I got a notification in the mail from my mortgage company with a pamphlet about “Tips to avoid foreclosure”. It feels like there’s a noose around my neck. I don’t know if I’m being dramatic. I don’t want to ask my parents (who I live with) for money because it seems like money is tight right now, but I know they would find the money if I did ask. I just feel so hopeless, it’s like nothing is working. I have no money. I don’t even respond to my friends anymore because I’m tired of telling them that I have no money. I’m in credit card debt too from the money I spent to furnish my airbnb. It’s like no one around me can even comprehend how much money occupies my mind. I’ve been going outside in nature a lot more recently and in those moments it feels like everything will be okay but then I get home and I remember.\nHonestly I’m kind of tired of typing so I’m gonna stop here, I guess I just wanted to vent a bit.",
+      "subreddit": "cscareerquestions",
+      "score": 73,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1mly7bn/post_layoff_job_search_sucks/",
+      "comments": [
+        {
+          "body": "Hang in there! It sucks but it will get better. \n\nPlease don't block out your friends. Find ways to spend time with them that doesn't cost money. Social time and enjoying the other parts of life are what will get you through this!",
+          "score": 23
+        },
+        {
+          "body": "Walk away from the house and the credit card debt. Extending the debt by Airbnb was not the right move, but hindsight is 20/20. The fact that you are considering asking your parents for money to fund an investment property Airbnb that is cashflow negative means you need to take a step back. Don't throw good money after bad. Sometimes you need to cut your losses. \n\nThe debt you have is not something held over your head. You can walk away. Debt collectors may try to get back some of their money, but there's is basically nothing they can do to you other than decrease your credit score. You just simply don't pay it. You are young and can easily start over.\n\nWhether or not you can get a job in CS or another industry is another story obviously. That's going to take more effort on your part than you've been putting in. So you need to either find that effort or find a new pathway to making money.",
+          "score": 15
+        },
+        {
+          "body": "Please talk to your friends and your parents. They love and care about you and don't want you to suffer.",
+          "score": 13
+        },
+        {
+          "body": "**First: buy time (today)**\n\n* Call your **loan servicer’s Loss Mitigation** line and ask about *forbearance extension*, *repayment plan*, or *loan mod*.\n* Book a **HUD-approved housing counselor** (free, virtual). They’ll help you script the call and options.\n\n**Then: get interviews (next 7 days)**\n\n* Prioritize **contract roles** (faster response): **TEKsystems, Insight Global, Motion Recruitment, Apex Systems, Robert Half**. Tell them “remote-first, open to contract-to-hire.”\n* Target titles that fit your background and stay remote: **Estimator / Precon / Project Controls / Scheduler (P6) / VDC-BIM / Implementation or Support Eng (CE)**.\n* **10-min apply loop:** pull 5–7 must-have skills → add 3–5 *verb + skill + metric* bullets → apply on employer ATS → log &amp; follow up.\n\n**Copy-paste scripts**\n\n**Recruiter DM**\n\n    Hi &lt;Name&gt; — CE background: Estimating, APM, remote consulting. \n    Available immediately for remote contract/CTH in Precon/Project Controls/VDC/Scheduling.\n    Recent wins: cut CP by 14% on DC build; bid $22M pipeline w/ 31% hit rate.\n    Can I send a 1-page and talk 10 min?\n\n**Hiring follow-up (after applying)**\n\n    Hi &lt;Name&gt;, I applied for &lt;Role #&gt;. 8 yrs commercial (APM/estimating, DC/light industrial).\n    I improved bid-hit 22%→31% and built P6 schedules across 3 projects.\n    Could we do a 10-min chat this week?",
+          "score": 5
+        },
+        {
+          "body": "okay so this feels more like a personal finance issue. are you doing any work right now (literally anything)? have a hard look at your finances. maybe it's time to sell the house if you can't keep up with the payments anymore. how big is your credit card debt? that will quickly snowball, if you don't pay it off in a timely manner. get any kind of job you have and cut all unnecessary expenses immediately.",
+          "score": 6
+        },
+        {
+          "body": "Why didn't you get non-CS job? Of course you wont have the money! You are sitting home and not working.",
+          "score": 3
+        },
+        {
+          "body": "This isn’t being dramatic, mortgage pressure, debt, and a stalled job search are a real crisis. You’ve already shown resilience by keeping payments afloat with Airbnb, but now the priority is stabilizing cash flow and cutting time to job-offer.\n\nContact your lender’s loss-mitigation department immediately the earlier you engage, the more options you’ll have for loan modification or reinstatement before foreclosure timelines lock in. In parallel, stop relying solely on online applications. Use targeted recruiter outreach, former colleague referrals, and direct hiring manager contacts to bypass the slow funnel. Your computer engineering background is still marketable, but focus on roles where you can demonstrate immediate ROI that’s what will move the needle fastest in this market.",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "title": "A Comprehensive Guide To Getting An Internship",
+      "body": "**EDIT:** I want to note that this guide is mainly for those people that are shooting for larger to big 4 type companies. There were a lot of people saying they've never had to take a coding assessment etc. etc. That's neat and fine, but there are some companies that you absolutely have to do that. I've interviewed with DropBox, Microsoft, Trip Advisor, Airbnb, Uber, etc. and they all kinda test you on the same things. At the same time I've interviewed with companies where the whole process was ranking my skills from 1-10 and answering behaviorial questions. This guide is not necessarily directed at the smaller or non CS centric job opportunities.\n\n**EDIT 2:** I also want to stress by no means should finding an internship be the majority of your college life. Enjoy yourself, have fun, stay relaxed. Just get to planning ahead before the Fall comes. All of these tips aren't by the book, it's just what has worked for myself and my friends as we've gone through this process.\n\n________________\n\nHey guys, I’ve been on this subreddit for awhile now and I really wanted to write a comprehensive guide on getting past some of the hurdles in the internship process that it seems like a lot of you all are stuck on. I’ve been where a lot of you are now. I switched to CS the end of my 2nd semester with no experience and no knowledge of any language besides html and matlab, but after summer of hard work and talking to some advisers on how to make the most of my work, I secured an internship the following semester. Now I’m here a year later and I recently landed an internship offer from Amazon (2nd internship ever) after receiving 25+ rejections since August. Getting that offer was something I would've never really expected to happen to me this year, and I want to pass the little knowledge I have to some of you that may be struggling or losing hope right now in the job search process. **I want to warn you**, my advice cannot be applied overnight, and it will take a lot of self drive, but I do believe that if these steps are followed you will be making great strides towards your dream internship. The steps are as follows:\n\n**1. Learn Data Structures &amp; Algorithms Enough to Explain to a non CS major**\n\n**2. Apply What You've Learned in the Form of Projects**\n\n**3. Use Those Projects to Build Your Resume**\n\n**4. Perfect Your Resume**\n\n**5. Practice Coding Challenges and Whiteboarding**\n\n**6. Learn About Yourself**\n\n**7. Apply Everywhere**\n\n**8. Interview**\n\n**9. Receive Offer**\n\nI'm going to do my best to break down what each step means without writing a novel per topic. That being said,   some sections are pretty lengthy so bear with me, pardon the inevitable typos, and hopefully you learn something.\n\n**Note: Everyone won't start at step 1, some will be at 1, some will be at 5, and some may have just skipped 4 and will need to go back to be completely prepared. Use this guide in the way that it applies to you**\n\n_____________________\n\n\n*  ***Learn Data Structures &amp; Algorithms Enough to Explain to a non CS major***\n\nYou won't land any respectable CS internship without knowledge of data structures and algorithms. This is where you start your journey. It's not enough to know what a HashMap is, you need to be able to illustrate what it does, when to use it, and what the costs/benefits of using it are. Learn the basic sorting algorithms and how to code them. Finally, study BigO in terms of both time complexity and space complexity. I was fortunate enough to have the opportunity take a course on these things, and I was even luckier to love the course so I was motivated to learn. Depending on your knowledge, this may take 3 months in itself, but do not move on until you’re completely comfortable with all of the basic data structures and algorithms. Every step after builds on this.\n\n\n* ***Apply What You've Learned in the Form of Projects***\n\nSo now that you know the basics, use what you've learned to do some cool projects. Independent projects/Hackathons will be what separates your application from everyone else. I've heard recruiters from Amazon, Google, Statefarm, MailChimp, you name it, say this when asking them what they look for. It shows you have initiative. The summer after I switched to CS (from Computer Engineering) I spent the entire summer at home working on projects Mon-Fri (as if I already had an internship or was taking classes). I used online resources to walk me through projects, and then took the concepts from the tutorial projects and altered them to make them my own. By the end of the summer I had about 4 or 5 android projects that I could put on my resume. If you're a college student see if you're have sites like Lynda.com available for free use. If not, there are a plethora of free online resources at your disposal. The only cost is time. I sacrificed a lot of hangouts and video games for work. I made it a rule to be working at least from 11AM- 5PM during weekdays as if I was on the clock. Often it was much more than that because I was so engrossed in my projects. These projects also helped me get familiar with project developments cycle and my language of choice (Java/Html/CSS). Make sure to upload all of these projects to GitHub (commits or it didn't happen).\n\n\n\n* ***Use Those Projects to Build Your Resume***\n\nYou now have a portfolio of projects. So (for the most part) having previous internship experience, being \"only a 2nd year\", etc, doesn't matter. Do you best to make these projects the meat of your resume (along with any relevant work experience). Extracurricular clubs are fun and show you have a life outside of coding so leave room for that, but at the end of the day you need to highlight your technical triumphs.\n\n\n* ***Perfect Your Resume***\n\nSo in terms of getting your foot in the door this is a big one. I hear a lot of people saying it’s impossible to get an internship without internship experience. That’s not true it’s a paradox. Your personal projects are enough, you just have to sell them. Your resume is often times your only opportunity to sell yourself to a recruiter. I’ve seen a lot of talented people with straight up terrible resumes. **DO NOT OVERLOOK THIS STEP.** Go online and find a template for your resume. Unless you're looking for a design position don’t overdo it (no graphics), just use a template. The goal of a resume is to highlight all of your experience and skills in a concise manner so a recruiter can scan it in 30 seconds. They don’t have time to read paragraphs about each project (or even one paragraph). Keep everything to bullet points. Highlight the technical and or team specific aspects of each project, job, or extracurriculars. Your awards are sometimes cool to add but it tells recruiters nothing about your team experience or technical knowledge. Do what you can to keep everything strictly related to CS. Also, \n**KEEP IT TO ONE PAGE**. I could make an entire post on resumes. Just make sure you stick to a template (Google CS resume template) and don’t get long winded. \n\n* ***Practice Coding Challenges and Whiteboarding***\n\nI’d argue that this step is by far the hardest to get through, partly because this step never really ends. Once you start interviewing you’ll soon realize that knowing your concepts isn’t enough. The technical interviewing process is a completely different game where you have to master tricks and critical thinking. The good news is to become good all it takes is practice. Get a copy of CTCI (Cracking The Coding Interview), make a Hackerrank and Leetcode account, buy a whiteboard off of Amazon, and just practice questions. You’ll never know what questions you’ll get in a technical interview, but once you’ve practice enough of each type (String manipulation, Linked Lists, Arrays) you’ll start to recognize what each question wants and how you need to begin working on this. **PRACTICE. PRACTICE. PRACTICE.** If you’re doing a “difficulty:easy” problem and can’t solve it within 30-40 mins, look up the solution, understand it (not memorize), move on to a different question, and come back to it in a few days and try it again. The HackerRank CTCI playlist on Youtube does an amazing job at teaching you how to approach these problems. Wait but there’s more, knowing the answer isn’t always enough. I know, it’s insane. You have to be able to accurately explain WHY and HOW you found the solution that you did. A lot of times you will  have interviewers who just want to see if you can communicate well enough to jump into a team. Talk out loud when solving problems. Be comfortable with solving on a whiteboard and in an online IDE (or google doc, disgusting). The main takeaway from this should be to never stop practicing. \n\n* ***Learn About Yourself***\n\nSo now that you’ve mastered the technical side, don’t forget about the behavioral side of interviews because a lot of people do. Act like a human. Know your projects. Know your strengths. Know your weakness (Genuine weaknesses not those BS twisted “My biggest weakness is I have no weakness” garbage). Get a list of experiences in your head where you needed to work with a group, ran into a problem, had to take a leadership role, etc. People want to work with cool people and driven, not arrogant, odd, and annoying people. Keep that in mind when going into a face to face interview. \n\n* ***Apply Everywhere***\n\n\nSomewhat self explanatory. I just want to remind you to not act like you’re better than any company that’s not a big 4 company. There’s so many opportunities out there. My internship was working with an IT focused company. I had no knowledge about or interest in IT pros, but after that internship I can say I learned a lot and had a great time. I also got a chance to gain some experience in front-end and fullstack development, which is what I really wanted all along. Apply everywhere. Make a list of everyone you’ve applied for. I’m talking at least 30+ (preferably 50+) applications need to submitted. If you’re really serious about gaining experience you need to broaden your scope of places to work. It won’t all be glorious or interesting but you can great some great experience from unexpected places.\n\n\n* ***Interview***\n\nHere it is. The day you’ve been waiting for. You’ll be feeling a lot of things. My advice is to calm down, lock in, and do your best. Sometimes when I’m taking coding challenges or solving an interview question on a whiteboard I get so nervous I freeze up and forget everything. It may happen, it’s okay. Just do your best to collect yourself and calm down. I’ve done a handful of interviews and I still get nervous to some extent every time. Sometimes you may feel you royally blew it. Sometimes you may feel you did flawless. The more you interview the more you get comfortable with the process. Just take every interview seriously and give it your all. \n\n* ***Receive Offer***\n\nPhew, after hours of thinking how to compose this we’ve reached the final step. Now let me preface this. You will receive rejections, and some will sting more than others. Don’t let that discourage you! Just learn from your mistakes and figure out what you can do better next time. When you finally receive that offer it will be awesome and you can go crazy and tell us about it. \n\n________\n\nHopefully all of this advices helps. I’m far from an expert on this. I’m not a recruiter or anything. I’ve just been working through this process and felt like I could help. If you guys have anything to add to this guide don’t don’t hesitate to comment!\n",
+      "subreddit": "cscareerquestions",
+      "score": 620,
+      "url": "https://reddit.com/r/cscareerquestions/comments/5rc9z8/a_comprehensive_guide_to_getting_an_internship/",
+      "comments": [
+        {
+          "body": "Nice guide. I think its also really important to go over an interview experience with other people. Pretty much everyone thinks they are really good at the \"behavioral\" aspect, but a person that does something weird they probably don't realize its weird. \n\nIt really hit me in the face when I was on an office tour before the interview with some other candidates, and one of the guys literally pulled his phone out and checked his social media the entire time. Fucking hell.",
+          "score": 47
+        },
+        {
+          "body": "[deleted]",
+          "score": 16
+        },
+        {
+          "body": "Really appreciate the work you put into this.  This guide is perfect for those that are seeking to get extremely involved in Computer Science and pursue their interests and aspirations within the fields.  To be able to communicate about technology and complex topics to both technical and non-technical people alike is an important attribrute that will bring you far in the interview process and in the industry.  I think a great opportunity to perfect this and to gain public speaking experience on computer science is through becoming an Undergraduate Teaching Assistant in your department.  Some introductory classes have discussion groups that TAs lead and (at least at my univeristy) all have office hours.\n\nHowever, never be complacent.  Just because you are now at your \"dream\" internship doesn't mean your learning stops there.  Explore your passions, interests, curiosities.  Keep an open mind with regard to new information.  And don't forget to have some fun on the way.",
+          "score": 14
+        },
+        {
+          "body": "Hey thanks for the guide. Right now I am currently a student taking major CS courses this semester, which includes Advanced Algorithms and Analysis, OS concepts, machine learning, and artificial intelligence. I'm only 3 weeks into the semester but I am starting to feel like I am going insane right now. There's this feeling of anxiety where I need to prove myself that I can master these courses I am taking, but at the same time I feel like it is eating away at my humanity. I was just wondering if you felt any of this kind of anxiety and if so how did you balance it between academic and social life? Because right now I feel like I don't have the time to establish meaningful relationships while I am focusing on these courses. ",
+          "score": 5
+        },
+        {
+          "body": "Awesome guide , I was just in a talk by a Current Google Software Engineer, based in Google Irvine. This is really on point.\n",
+          "score": 4
+        },
+        {
+          "body": "Literally the only thing on this list that's useful and employers will expect is perfecting the resume. I have an intern now for the next 8 months. I've jumped right into developing my own projects(myself and one other coop). - 1. I've never done coding challenges. \n2. I've never been asked about data structures or algorithms to this point. \n3. My resume wasn't great. \n\nOne thing I've noticed about this reddit community is you try way to hard to make this field seem more complicated and daunting to get into than it really is.  \n\nMy advice. Be personable and know a few languages. This is the first time I've been on this board in quite awhile because of how toxic it is. This is the first post I see. Lol nothings changed. ",
+          "score": 28
+        }
+      ]
+    },
+    {
+      "title": "Big N Discussion - October 16, 2019",
+      "body": "Please use this thread to have discussions about the Big N and questions related to the Big N, such as which one offers the best doggy benefits, or how many companies are in the Big N *really*? Posts focusing solely on Big N created outside of this thread will probably be removed.\n\nThere is a top-level comment for each generally recognized Big N company; please post under the appropriate one. There's also an \"Other\" option for flexibility's sake, if you want to discuss a company here that you feel is sufficiently Big N-like (e.g. Uber, Airbnb, Dropbox, etc.).\n\nAbide by the rules, don't be a jerk.\n\nThis thread is posted each **Sunday and Wednesday at midnight PST**. Previous Big N Discussion threads can be found [here](https://www.reddit.com/r/cscareerquestions/search?q=Big+4+Discussion&amp;restrict_sr=on&amp;sort=new&amp;t=all).",
+      "subreddit": "cscareerquestions",
+      "score": 12,
+      "url": "https://reddit.com/r/cscareerquestions/comments/dilmj7/big_n_discussion_october_16_2019/",
+      "comments": [
+        {
+          "body": "[deleted]",
+          "score": 41
+        },
+        {
+          "body": "Company - **Amazon**\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/cscareerquestions) if you have any questions or concerns.*",
+          "score": 8
+        }
+      ]
+    },
+    {
+      "title": "Should I move before getting a job?",
+      "body": "I (22F) graduated with a bachelors in May 2021 and then did a research project that ended in September 2021. Since then, I have been looking and applying to jobs while bartending. I knew it wouldn’t be instant, but only getting interviews out of 5% of applications makes me feel like I’m not enough. A majority of the time I’m ghosted. Is anyone else having trouble? \n\nOn another note, I’ve been living in an Airbnb in hopes that I can accept a job and move right away (none of the jobs I’m applying for are local). It’s getting expensive and I’m at the point where I think I might move to a good job market (like Raleigh or Austin). My thought was to have cheaper/long term rent and show employers I am willing/ ready to work. I have $4k in savings and $25k in stocks so I would have some money to live off of without a full time job. It’s not ideal, but is it a poor move?",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/rye324/should_i_move_before_getting_a_job/",
+      "comments": [
+        {
+          "body": "Hello, thank you for posting to r/Jobs! \n\nWe just wanted to let you know that we have a new [discord server, come join the chat!](https://discord.gg/TY6ErXV)\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/jobs) if you have any questions or concerns.*",
+          "score": 1
+        },
+        {
+          "body": "When I moved to Florida, not knowing one person I went on [roomates.com](https://roomates.com) (this was 2004), found a few people renting a room who looked normal, messaged them and ended up talking to a guy who seemed pretty ok.\n\nI rented basically a closet room (fit a twin bed, and had a small closet) for not that much money.  I paid 4 or 5 months upfront when I moved in.  And then all I had to worry about was making enough money to live during my job search. \n\n (this was 2004), found a few people renting a room who looked normal, messaged them, and ended up talking to a guy who seemed pretty ok.",
+          "score": 0
+        },
+        {
+          "body": "Where do you currently live? What industry are you looking for work in?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Big N Discussion - February 27, 2019",
+      "body": "Please use this thread to have discussions about the Big N and questions related to the Big N, such as which one offers the best doggy benefits, or how many companies are in the Big N *really*? Posts focusing solely on Big N created outside of this thread will probably be removed.\n\nThere is a top-level comment for each generally recognized Big N company; please post under the appropriate one. There's also an \"Other\" option for flexibility's sake, if you want to discuss a company here that you feel is sufficiently Big N-like (e.g. Uber, Airbnb, Dropbox, etc.).\n\nAbide by the rules, don't be a jerk.\n\nThis thread is posted each **Sunday and Wednesday at midnight PST**. Previous Big N Discussion threads can be found [here](https://www.reddit.com/r/cscareerquestions/search?q=Big+4+Discussion&amp;restrict_sr=on&amp;sort=new&amp;t=all).\n",
+      "subreddit": "cscareerquestions",
+      "score": 16,
+      "url": "https://reddit.com/r/cscareerquestions/comments/avaiso/big_n_discussion_february_27_2019/",
+      "comments": [
+        {
+          "body": "Company - **Facebook**\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/cscareerquestions) if you have any questions or concerns.*",
+          "score": 5
+        },
+        {
+          "body": "I'm an international student. If a company says i need to prove that i have work authorization in the States, do I have to show them that will apply for the OPT and will get it by my start date?",
+          "score": 5
+        },
+        {
+          "body": "Company - **Google**\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/cscareerquestions) if you have any questions or concerns.*",
+          "score": 7
+        }
+      ]
+    },
+    {
+      "title": "Big N Discussion - August 28, 2019",
+      "body": "Please use this thread to have discussions about the Big N and questions related to the Big N, such as which one offers the best doggy benefits, or how many companies are in the Big N *really*? Posts focusing solely on Big N created outside of this thread will probably be removed.\n\nThere is a top-level comment for each generally recognized Big N company; please post under the appropriate one. There's also an \"Other\" option for flexibility's sake, if you want to discuss a company here that you feel is sufficiently Big N-like (e.g. Uber, Airbnb, Dropbox, etc.).\n\nAbide by the rules, don't be a jerk.\n\nThis thread is posted each **Sunday and Wednesday at midnight PST**. Previous Big N Discussion threads can be found [here](https://www.reddit.com/r/cscareerquestions/search?q=Big+4+Discussion&amp;restrict_sr=on&amp;sort=new&amp;t=all).",
+      "subreddit": "cscareerquestions",
+      "score": 11,
+      "url": "https://reddit.com/r/cscareerquestions/comments/cwh8nv/big_n_discussion_august_28_2019/",
+      "comments": [
+        {
+          "body": "Company - **Google**\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/cscareerquestions) if you have any questions or concerns.*",
+          "score": 6
+        },
+        {
+          "body": "Company - **Microsoft**\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/cscareerquestions) if you have any questions or concerns.*",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "title": "Didn’t get hired after a ridiculous 3rd round interview. What’s the deal?",
+      "body": "I’m in a predicament that seems common in this sub: recent college grad with minimal experience and struggling to find a job. It’s not exactly fun, and I’m entering my 3rd month of looking with at least 400 applications sent.\n\nFor background, I have a bachelors degree in history and a bachelors degree in political science. I am trying to find a job in Human Resources, and have earned my aPHR cert as well. \n\nI’ve only had 2 second round interviews. 2. I’ve had many great looking jobs where I get a phone screen or zoom call and that’s it. \n\nOne company (cough cough Enterprise Rentals) which this post is about actually offered me a THIRD round interview which I attended. First two interviews went great so I was excited after two months of total unemployment. \n\nI came in person to the regional corporate office for the interview and was basically told I had the job. The regional VP who I was interviewing with wouldn’t stop talking about the money he was making, expensive vacations he was taking, and how he just rented two Airbnb’s in LA for $8000 which was super odd? Anyways, the interview was weirdly casual and I just let him rant uncontrollably about the company and his income. He even brought up alcohol once… at one point he acted like it was my fault the first round interviewer didn’t show me enough of the customer service side of the company (for context I was supposed to observe + interview at a retail location for an hour with an assistant store manager which I did, apparently it’s my fault no customers walked into the store I was doing my observation at). \n\nIn general the interview was SUPER off-topic and the VP was just using it to boost his ego. trust me, I came in with a notebook that had two pages of questions/info on it about the position. It wasn’t my fault the interview went like this. I was uncomfortable but let him go on because I wanted that $50,000 salary. Had to play the part you know.\n\nTurns out, even after ALL of that…. They didn’t hire me. I personally am getting so frustrated with job searching and feel like I’m doing something wrong. I have one more corporate HR first round interview coming up but even those seem impossible to land.\n\nEnterprise though, what a joke of a company. Dude yawned twice in my interview too.",
+      "subreddit": "jobs",
+      "score": 598,
+      "url": "https://reddit.com/r/jobs/comments/11detv6/didnt_get_hired_after_a_ridiculous_3rd_round/",
+      "comments": [
+        {
+          "body": "Hello, thank you for posting to r/Jobs!\n\nWe just wanted to let you know that we have a new [discord server, come join the chat!](https://discord.gg/TY6ErXV)\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/jobs) if you have any questions or concerns.*",
+          "score": 1
+        },
+        {
+          "body": "When I worked as a recruiter...I can't tell you how many times the interview process was gummed up because some VP or C-Level executive felt the needs to \"give his/her blessing\" on a hire that they would have no actual day to day interaction with. \n\n\"Oh Mr. VP wants to interview you. But...he's traveling this week. Oh he's on vacation next week for 2 weeks. Can we schedule your 3rd interview 4 weeks from now?\"\n\nI'd send a candidate they absolutely loved. \"Oh we want to interview 3 more people before deciding. Can you send us more candidates.\"\n\n\"The HR manager is out. So we can't start the onboarding process yet.\" Followed by WEEKS of radio silence.",
+          "score": 168
+        },
+        {
+          "body": "I've done 5 round interviews and got rejected a month later (3 over Zoom with 2 panels, 1 in person, and an unpaid trial task that took  7 hours to complete between round 2 and 3). Round 2, 3, and 4 were the same questions asked by different people, so that's pretty common (but sloppy and a waste of everyone's time). \n\nMy current job, I did 3 rounds of interviews, got the offer, and then had to do 2 more rounds because the right people didn't \"sign off\". \n\nI don't know what these companies think they learn from you in 3 hours vs 5 hours, or how they can expect that significant of a time commitment from an applicant, but alas.",
+          "score": 239
+        },
+        {
+          "body": "[deleted]",
+          "score": 100
+        },
+        {
+          "body": "Unfortunately this is the new norm, atleast in NYC. I’m also a recent graduate and job search took over 6 months. In my experience 3 rounds were the absolute minimum. I thought I had a job in the bag after 3 rounds. The final round being in person with the department’s vice president. Unfortunately the lady ended up asking me the same questions that were asked in the previous round and it didn’t go so well. I ended up getting a rejection email like over a month later. I was lucky to land my current job after 4 rounds (3 interview and 1 test round).",
+          "score": 114
+        },
+        {
+          "body": "I had to go through four interviews over two months for my current role and was getting very frustrated with the process. I love my job and it was worth it, but I work very closely with the recruiter and she is frustrated that we are over-interviewing people because nobody wants to be the one who says yes to someone who might not work out. I mean, isn’t that a risk you take with any hire?",
+          "score": 46
+        },
+        {
+          "body": "I have a recent BS in my field ('19), a dozen years of professional experience, and spectacular references. I completed close to 1k applications and cover letters. I've had god alone knows how many interviews. I would have *sworn* I had jobs several times. I interviewed with presidents of universities, deans of colleges, hospital administrators, sheriffs, county managers, mayors, police chiefs, and editors. I went to second, third, and even *fourth* callbacks.\n\nAfter **two years** of constantly applying for jobs (literally treating it as a full-time job—6-12 applications a day) I finally got an offer that paid enough cover my bills. And I got to move to Atlanta.\n\nDon't give up.",
+          "score": 35
+        }
+      ]
+    },
+    {
+      "title": "More than one year unemployed, I am beyond exhausted and desperately need a job",
+      "body": "Over 800 applications, around 7-8 interviews and different recruiter calls, I have applied to entry level, I have dumbed down my resume. I literally have been following all you are supposed to do. \n\nRecruiters tell me my resume is great, colleagues say it is great, heck even Reddit told me I have a great resume. I am in tech (lots of layoffs in my field and this is beyond cruel). I have applied to DoorDash and they put me on a wait list, applied to task master and they said they can’t take me cos too many people are doing that, Uber eats would only take me if I do bicycle and I get 0 requests from bicycle, I got no requests from pet setting apps. \n\nWhat I am trying to say is that I am willing to take any job to survive right now, but the only one that would take me is a $15 an hour warehouse night shift and as a woman, this is a safety concern. \n\n\nI desperately just want to work, of course I want a full time job but I am also looking for side gigs and these seem extremely hard to find too. What is going on? I am a mid senior level with over 7 years of experience. I have reached a point where applying to jobs makes me nauseous because it is high risk and no reward. My finances took a big hit and now I’m hopping from one Airbnb to another. ",
+      "subreddit": "jobs",
+      "score": 85,
+      "url": "https://reddit.com/r/jobs/comments/1is5su6/more_than_one_year_unemployed_i_am_beyond/",
+      "comments": [
+        {
+          "body": "I dunno how much better this’ll make you feel, but I’m in just about the exact same boat and know exactly how you feel; hundreds of apps, tried all the same stuff, willing to do just about any job, 10+ years in tech, two degrees, dozens of industry certs, fantastic resume, and after almost two years, all my savings gone, my best option is MAYBE a part time barback job because my roommates sister works at a restaurant that may be hiring. The job market is absolute hell, don’t let anyone tell you otherwise.",
+          "score": 23
+        },
+        {
+          "body": "And yes I have been aggressively networking too, I really reached a point where both my mental and physical health are going downwards. \n\nNo one, absolutely no one gets it unless you have been through it. I wouldn’t have believed it two years ago, but now that I am experiencing it? It is beyond brutal, I am so tired. No amount of sleep is keeping the \"tired\" away.",
+          "score": 22
+        },
+        {
+          "body": "Same boat im in, laid off a year ago. Sill unable to find a job, My degree is in economics and I have over 5 years experience in my field and 5plus as a foreman for a dock building company. \nBeen on countless interviews. I did dumb down my resume hoping to just land a warehouse gig for now and I drive for Uber to make ends meet. \nMost of my friends cant understand how I cant get a job. I explained that its difficult with this market and economic uncertainty. Explained I am not in the same boat as them, as I have no family to help, just my cat lol\nThey just dont understand how hard it is solo, no one to turn to if shit hits the fan \nNote: thier dads or family members got them careers",
+          "score": 7
+        },
+        {
+          "body": "Temp work. Temp agencies near me are ONLY hiring for FULL TIME. You get experience for your resumes, yea please use more than one resume. Be assertive, call the company you apply to and ask for interviews.",
+          "score": 7
+        },
+        {
+          "body": "Same here been unemployed for a year veen applying to jobs every day",
+          "score": 3
+        },
+        {
+          "body": "Are you me? Laid off 8 months ago from a very big tech company. I have a pretty stacked resume.  Tons of applications, a lot of interviews... and nothing. I've lowered my asking salary... still nothing. Checked out DoorDash for food delivery and it's fully booked. It's very stressful. I hope you stay strong and don't stop looking.",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Bad Manners?",
+      "body": "Is it bad to take an interview in my current employer’s office? I’m a summer intern interviewing for a fall co-op and the wifi at my airbnb sucks. Interview would be 9:30-10am on Monday, office is typically mostly empty, maybe 4-5 other people on my floor out of 50. I would reserve a small meeting room and turn on a background filter. ",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/1m4aiaq/bad_manners/",
+      "comments": [
+        {
+          "body": "As long as no one finds out, i dont think its ethically wrong. It would look bad for sure though if someone caught you.",
+          "score": 1
+        },
+        {
+          "body": "Yes",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "title": "Big N Discussion - October 23, 2019",
+      "body": "Please use this thread to have discussions about the Big N and questions related to the Big N, such as which one offers the best doggy benefits, or how many companies are in the Big N *really*? Posts focusing solely on Big N created outside of this thread will probably be removed.\n\nThere is a top-level comment for each generally recognized Big N company; please post under the appropriate one. There's also an \"Other\" option for flexibility's sake, if you want to discuss a company here that you feel is sufficiently Big N-like (e.g. Uber, Airbnb, Dropbox, etc.).\n\nAbide by the rules, don't be a jerk.\n\nThis thread is posted each **Sunday and Wednesday at midnight PST**. Previous Big N Discussion threads can be found [here](https://www.reddit.com/r/cscareerquestions/search?q=Big+4+Discussion&amp;restrict_sr=on&amp;sort=new&amp;t=all).",
+      "subreddit": "cscareerquestions",
+      "score": 9,
+      "url": "https://reddit.com/r/cscareerquestions/comments/dlvkdh/big_n_discussion_october_23_2019/",
+      "comments": [
+        {
+          "body": "Company - **Amazon**\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/cscareerquestions) if you have any questions or concerns.*",
+          "score": 11
+        }
+      ]
+    },
+    {
+      "title": "Big N Discussion - January 23, 2019",
+      "body": "Please use this thread to have discussions about the Big N and questions related to the Big N, such as which one offers the best doggy benefits, or how many companies are in the Big N *really*? Posts focusing solely on Big N created outside of this thread will probably be removed.\n\nThere is a top-level comment for each generally recognized Big N company; please post under the appropriate one. There's also an \"Other\" option for flexibility's sake, if you want to discuss a company here that you feel is sufficiently Big N-like (e.g. Uber, Airbnb, Dropbox, etc.).\n\nAbide by the rules, don't be a jerk.\n\nThis thread is posted each **Sunday and Wednesday at midnight PST**. Previous Big N Discussion threads can be found [here](https://www.reddit.com/r/cscareerquestions/search?q=Big+4+Discussion&amp;restrict_sr=on&amp;sort=new&amp;t=all).\n",
+      "subreddit": "cscareerquestions",
+      "score": 10,
+      "url": "https://reddit.com/r/cscareerquestions/comments/aix4ug/big_n_discussion_january_23_2019/",
+      "comments": [
+        {
+          "body": "Company - **Google**\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/cscareerquestions) if you have any questions or concerns.*",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "title": "Airbnb Interview",
+      "body": "Helloo, I have my first interview soon and I would like to get advice from someone who has been through their interview process.",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/12bj2b1/airbnb_interview/",
+      "comments": [
+        {
+          "body": "Hello, thank you for posting to r/Jobs!\n\nWe just wanted to let you know that we have a new [discord server, come join the chat!](https://discord.gg/TY6ErXV)\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/jobs) if you have any questions or concerns.*",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Just started a job one month ago, but received a better offer, what should I do?",
+      "body": "TLDR: Accepted a decent role in Ohio, but now have a better offer in NYC with stronger long-term potential. Torn between staying comfortable and leveling up.\n\nFor context, I was on the job hunt for six months before I finally got an offer for a company in June. I wasn't super excited about this company initially (it's a mid-size organization that has some weight and recognition in my industry, but it's definitely not an Apple/Google-tier), but it was the only job offer I had in hand so I of course took it. \n\nI haven't actively been applying to new roles, but I did wrap up several interview processes I had already been involved in before accepting the offer. Yesterday, I received an offer from a heavy hitter in my industry and am now immensley conflicted on what to do because I've somewhat grown to like the role and company I'm in since I've actually started working there. The people are nice and there’s also a part of me that would feel terrible for letting them down. \n\nJob 1: 48k + 3% 401k match and decent benefits; two days in office in Ohio (can pick which days I go in every week so lots of flexibility there), traditional M-F schedule with 9-5 hours, but some flexibility to start earlier/stay later if needed. No stock options, but a buy-out payment offer (percentage of salary) if the company is sold. Organization is mid-size, has some brand recognition, but is in a niche market within my industry and not a name brand that everyone knows about. \n\nJob 2: 55k + 6% 401 match and great benefits per Glassdoor reviews, including perks like tuition reimbursement. Based in New York, NY so would have to move relatively quickly, but I would be okay going the Airbnb route. Will start out with working M-F schedule with 3pm to 11pm hours but once I'm through the training process, will then switch to having the flexibility to work any five days (could include weekends). Top of the field in my organization (think Apple, Deloitte, CDC, Jane Street - within their respective industries). \n\nIn the short-term, it would be a lot easier to just stay with the job I currently have, but from a long-term career trajectory perspective, having a year or two at the more prominent company is going to set me up for success in my respective field. \n\nWhat would you do?",
+      "subreddit": "jobs",
+      "score": 2,
+      "url": "https://reddit.com/r/jobs/comments/1m40km8/just_started_a_job_one_month_ago_but_received_a/",
+      "comments": [
+        {
+          "body": "Isn't NY super expensive? 55k doesn't seem like enough pay to me to consider taking it but I'm not familiar with the area. \n\nI would consider cost of living before making a move.",
+          "score": 14
+        },
+        {
+          "body": "I don’t know how far 48K goes in Ohio but I know for sure 55K doesn’t go far in NYC. I suspect Job 2 would be better experience for you but I would take comp out of the decision making process.",
+          "score": 5
+        },
+        {
+          "body": "$55K in NYC seems really low to me. Have you seen the rent around there? I don't even mean in Manhattan. I mean in the surrounding areas.",
+          "score": 4
+        },
+        {
+          "body": "You will be broken and poor with 55,000 in New York",
+          "score": 2
+        },
+        {
+          "body": "Start looking for cost of apartments in the area you will be working or at least within a decent commute",
+          "score": 2
+        },
+        {
+          "body": "Don’t even think about it. Level up. Always level up when you can. Staying comfortable is for wimps. Don’t be a wimp",
+          "score": 1
+        },
+        {
+          "body": "What would I do? Life will be only be harder and harder for me, and I don't always have chance to make more money, or even the same amount of money. I would take the chance. In addition, it will open up more opportunities for me in the future. If I stay in the same job and the business fails, I would be doomed.",
+          "score": 1
+        },
+        {
+          "body": "What industry ? It ?",
+          "score": 1
+        },
+        {
+          "body": "I’d stay put the 48k going to go miles further in OH then NYC. I see personally very little benefit on going nyc for less then a 10k difference",
+          "score": 1
+        },
+        {
+          "body": "55K in NYC is absurdly low. You will be functionally broke/poor most likely. But, if you truly think it’s the better company and would give you a better foundation to build your career moving forward while giving you the big city experience, and you’re young with minimal responsibilities, i would consider it tbh.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Is maroon shirt appropriate for an interview? ",
+      "body": "I’m going to be having a zoom interview with Airbnb soon. Is this maroon/burgundy shirt appropriate for an interview? ",
+      "subreddit": "jobs",
+      "score": 20,
+      "url": "https://reddit.com/r/jobs/comments/1fz2uo0/is_maroon_shirt_appropriate_for_an_interview/",
+      "comments": [
+        {
+          "body": "Of course it is. It's a dress shirt. Why would the color matter?",
+          "score": 83
+        },
+        {
+          "body": "Obviously, you want to dress to impress. I don't know about the color per say but someone once told me to make sure I'm comfortable and confident in my clothes. Because if you're uncomfortable, it shows big time in your manerism.",
+          "score": 11
+        },
+        {
+          "body": "It's a dress shirt. You're good.",
+          "score": 8
+        },
+        {
+          "body": "I think it’s a very professional color.",
+          "score": 4
+        },
+        {
+          "body": "I love it! Yes, it's absolutely appropriate for an interview.",
+          "score": 3
+        },
+        {
+          "body": "The real question is why you're ordering from a fast fashion site like Shein.",
+          "score": 5
+        },
+        {
+          "body": "I’ve read that Red and maroon shirts can give off an air of leadership. I think you’ll be fine",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "G&amp;A role interview at Airbnb",
+      "body": "Hello you all I have my first interview with AirBnB soon and I would like to get advise from someone who has been through their interview process for a business administrative partner role.",
+      "subreddit": "interviews",
+      "score": 2,
+      "url": "https://reddit.com/r/interviews/comments/12by9tc/ga_role_interview_at_airbnb/",
+      "comments": []
+    },
+    {
+      "title": "Moving out without a job, is it as bad of an idea as I think it is?",
+      "body": "24 &amp; had to move in with family ~9 months ago for health reasons, but the living situation stressed me out a lot and made my health worse. Back on the upswing now, but I’m considering moving out before getting a job because I don’t think the situation I’m in right now is very good for me or my mental health. I want to re-enter the nonprofit field (i have a few year volunteer experience) but I’m getting more &amp; more worried that after I move out I’ll get stuck waiting to hear back and run out of money (I have $17k saved up but I’d ideally like to not lose it all). \n\nOne family member thinks that this is what I need to do to get back to working, the other thinks I’m an idiot and will fail, and has told me over &amp; over how stupid I am for considering this. I’m honestly getting too anxious over the consequences of either choice, so I’m here on Reddit to get advice &amp; anecdotes from the internet.\n\n**edit #1:** i should’ve been more clear, I’m considering get an hourly job somewhere like at target when I first move to provide proof of employment to a landlord &amp; continue applying to the field I want from there. I’m staying in an Airbnb the first month I move out so I can also view apartments as I’m moving to a different city. Also, I do have others who can co-sign for me &amp; I’m looking at getting roommates.\n\n**edit #2:** this will likely be my last edit, I’ve been thinking on some of the issues brought up in the comments, especially the possibility of running out of money, and I’ve reworked my plan a bit. I’m considering giving the attempted move 2-3 months in an airbnb, and if I really don’t hear back on anything, I’ll move back in with family &amp; reconsider my plan &amp; expectations. Also, I called another family member about the issue &amp; told them there’s a real possibility that I’ll fail, but they ended up scolding me a bit and telling me to stop doubting myself. They brought up that, while I was in college, several of my friends died, some in front of me &amp; by their own hand, and this family member reminded me that in the aftermath of those events, I still ran the clubs, the volunteer events, and the petition/rallying work while being in school full time &amp; working part time on the side. There were other obstacles as well, but they brought this up to help remind me of the type of worker I am, and even if my job is being a full time job hunter, I’m going to do everything in my power to make it work. \n\nI know this isn’t the update people wanted to hear, and I’ll try to provide another in the future letting all of you know how it turned out, but I’m going to give it a shot, even though it probably is a terrible idea. \n\nThanks to everyone who commented, they did factor in to my decision and help me think through the possible outcomes &amp; talk them over with others. Hope everyone has a good day/night, and wishing you guys all the best.",
+      "subreddit": "jobs",
+      "score": 35,
+      "url": "https://reddit.com/r/jobs/comments/xjf36t/moving_out_without_a_job_is_it_as_bad_of_an_idea/",
+      "comments": [
+        {
+          "body": "Hello, thank you for posting to r/Jobs!\n\nWe just wanted to let you know that we have a new [discord server, come join the chat!](https://discord.gg/TY6ErXV)\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/jobs) if you have any questions or concerns.*",
+          "score": 1
+        },
+        {
+          "body": "You really should get a job first. Even if it's just a temp position while you search for something permanent.",
+          "score": 58
+        },
+        {
+          "body": "ain't no body gonna rent to a 24 year old with no job and 17k in the bank.  You'd be broke within 6 months if you didn't find anything.",
+          "score": 45
+        },
+        {
+          "body": "I’m pretty sure that if you get an apartment, they need proof of your income and that you’re currently working. I had to provide current paystubs to show proof when I got my apartment.",
+          "score": 15
+        },
+        {
+          "body": "With how the job market is now… secure a job first.",
+          "score": 25
+        },
+        {
+          "body": "Get job first this shouldn’t even be a discussion in my opinion given you don’t want to lose the $17K. Which may only buy you like 3-4 months depending on your expenses.",
+          "score": 22
+        },
+        {
+          "body": "I guess that depends on what type of degree and or experience you have. I.e... if you have something in demand like a nursing degree and experience then yeah I wouldn't worry about moving out with no job, you should be able to find a good job quickly. If however your work experience is something not really in demand then I would be hesitant, days of unemployment can quickly add up to weeks to months etc.. and then you are out of money.",
+          "score": 3
+        },
+        {
+          "body": "I don't think any of us can tell you what to do EXCEPT to never listen to anyone who calls you names and puts you down. In what universe does that person have your best interest at heart? They are a broken person. \n\nGetting settled and in a positive mindset I think can be very profitable for a job search, because eventually you're going to have to come face to face to interview and if you're slogging through a bad mental state, who knows how that will affect your energy in person. Just my two cents. Good luck out there!",
+          "score": 5
+        },
+        {
+          "body": "I just think you need to do some more research before you move out. I have helped several family members get apartments and they all required proof that they make 3x or 4x the rent. So if rent is $1k, you need to be bringing in $4k/month ($48k/year or about $23/hour). If you have roommates lined up that's great, but of course the more bedrooms you have, the higher the rent and therefore the higher your combined income has to be.\n\nI'm not saying it's impossible. It definitely isn't once you have a job lined up. But you don't just need a job - you need to make enough money and have good enough credit to qualify for a place of your own.",
+          "score": 3
+        },
+        {
+          "body": "I lived in a a place I hated with a decent job. So, I moved to a new city without a job lined up. I worked at Trader Joe’s, best job ever, to not lose all my savings. Eventually i found a job in my field. It really sucks to live in a place you are not thrilled about. Things eventually work out.",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "title": "Looking for an Outside Perspective on My Girlfriend’s Career Choices",
+      "body": "Hey everyone,\n\nMy girlfriend is at a crossroads in her career, and we've been discussing her options together. However, we might be too emotionally invested to see things clearly, so I'm hoping to get some unbiased opinions from you all.\n\n**Current Situation:**\n\n* **Job:** She’s been working at a top 5 tech firm for nearly 3 years.\n* **Experience:** She has almost 10 years of experience in the tech industry, working in various countries.\n* **Recent Promotion:** She was recently promoted from Analyst to Senior Analyst with a 10% salary increase.\n* **Leadership Aspirations:** She’s had discussions with her manager and leadership about moving into a leadership role (e.g., Team Lead). Despite positive feedback, there hasn't been much action on this front.\n* **Frustration:** Last year, she applied for a Senior Analyst position internally, was ignored, and ghosted internally , was lied too but was promoted this year to the role she applied last year when she was kind of hoping for a team lead role this year. This has left her feeling undervalued.\n* **Compensation:** £45k/year with full remote work, a very good work-life balance, partial dental coverage, and some life insurance benefits.\n* **Stock Options:** She received stocks that will vest at £15k in 3 years, provided she stays with the company.\n\n**New Opportunities:**\n\n1. **Tech Startup ( 5000 employees ) , so not very new startup -Offer:**\n   * **Salary:** £60k/year.\n   * **Benefits:** Kick in after 6 months of probation.\n   * **Remote Work:** Yes.\n   * **Concerns:** The startup seems disorganized, even during the offer and onboarding process. The hiring manager admitted they have \"no clue,\" literally these words. Even I heard these during her zoom/ teams interview. He said this multiple times which is unsettling. She just accepted her offer to keep the ball rolling and door to see what else came her way. But can say she is not joining since she never gave resign at her current place.\n2. **Large Hospitality Company Offer:**\n   * **Salary:** £52k/year + £15k bonus (mostly guaranteed).\n   * **Role:** Customer Technology Manager.\n   * **Commute:** The office is 90 miles away, requiring 3 days in-office per week.\n   * **Costs:**\n      * Travel: \\~£600/month.\n      * Food: \\~£200/month.\n      * Accommodation: \\~£600/month (for budget stays like AirBNB etc).\n      * Time lost: \\~£400/month (estimated).\n   * **Concerns:** The commute would significantly increase her monthly expenses, potentially making her worse off financially. The role seems great otherwise, and she knows some people at the company, which is reassuring. We have 11 months on our tenancy joint contract , next year we can move closer so then these costs will reduce drastically\n\n**Long-Term Goals:**\n\n* She eventually wants to join me in my business and gradually start her own. However, due to her current lifestyle costs and practical considerations (e.g., what if we break up?), she can’t make that move just yet.\n\n**The Dilemma:**\n\nWhat would be the best non-emotional, financially sound decision for her at this stage? Should she stay at her current job with stability and decent benefits, take a risk with the startup for higher pay but less organization, or go for the hospitality company despite the costly commute?\n\nWould love to hear your thoughts and advice!",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/1f8ev6h/looking_for_an_outside_perspective_on_my/",
+      "comments": [
+        {
+          "body": "I would stay at current company. Sometimes, you cannot forecast when companies need new head count so your career plans should take that into account. It’s a large company so upward opportunities are still plenty. She should keep pushing for salary raises/promotions each promotion cycle. \n\nTech startups are very risky and the salary reflects that. Disorganization will sink a startup. Doesn’t sound positive.\n\nThe commute alone of the hospitality job will easily burn her out.",
+          "score": 5
+        },
+        {
+          "body": "Is there any way she can use the startup offer as leverage to get her to the desired comp/position at her current employer?  Not sure how it works in the UK, but I was able to do that recently on the US.\n\nIt’s might be at the risk of losing her current job, but sounds like she’s got alternative options lined up just in case.",
+          "score": 1
+        },
+        {
+          "body": "Hard pass on a costly commute. Thats a non-starter. \n\nStart-ups are tough, and risky... but loaded with opportunity. Your GF would almost definitely learn a lot, be given chances to lead things (LOTS of things), and even if the startup fails... She'd be poised for a good next opportunity afterwards. But the reason they are tough and risky is because they tend to ask more of you... longer hours, and therefore its harder to persevere and not burn-out.\n\nHere's where it gets TRICKY -- she accepted the offer?! You can't just accept the offer and then reject them without burning bridges. That might be fine... it's just that the work world is small, and your reputation can haunt you. Based on her already accepting the offer, I think she should follow that initiative through and join that startup.\n\nHad she NOT accepted, I would say she might be happiest staying at her current role. But a person's reputation is most important, and the tech world is very small in the end. She's gonna get paid more, and it could be a huge success! But withdrawing right now - its not worth it.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Struggling with \"cool\" companies who seem to value culture over substance.",
+      "body": "I have over ten years of high level customer service experience, a bachelors degree in Journalism, team lead/management experience and a pretty diverse skill-set and I can't seem to get hired.\n\nLet me preface by saying I am not sending out 20 resumes a day and hitting pavement hard, but I have been looking for a position with a growing company over the past year. (I currently work a part-time position in Media and freelance for the rest of my income.) \n\nI have had what I considered successful interviews at companies that are considered in the 'tech' realm, but have a heavy emphasis on Customer Service, which is ideally where I would like to head. (Interviewed at Airbnb, Squarespace and applied at a few other tech-type companies)\n\nThe interview processes seemed so heavily focused on culture that regardless of my background, my lack of \"cool points\" took precedence. \n\nQuestions like (these are all 100% real) \"What Disney movie would you say is most like your life?\" \"What podcasts do you listen to?\" \"What would you do with unlimited funds for a day?\" \"What is one skill you could teach me right now? (and then try and teach it)\" \"If you gave a Ted Talk, what would it be on?\"\n\nI get it. These questions are supposed to throw you off, make you think quickly on your feet, give you a better aspect of someone's personality. But really? This is how places are hiring now?\n\nDo I play it more casual? Do I downplay management/lead positions on my resume? Am I just not tech/startup material?  \n\nIt makes me feel like my background is moot since I don't have tattoos or play in a band (or whatever else is considered super cool these days). \n",
+      "subreddit": "jobs",
+      "score": 67,
+      "url": "https://reddit.com/r/jobs/comments/4f4stq/struggling_with_cool_companies_who_seem_to_value/",
+      "comments": [
+        {
+          "body": "Sounds like your definition of \"tech\" is high profile unicorns that attract the largest resume base.  \n\nExpand your search beyond that.",
+          "score": 51
+        },
+        {
+          "body": "They sound kinda gimmicky, what Disney movie would you say is most like your life? Really?\n\nI'd just continue on with the interview without any intent of taking the job if offered or end it in the middle, whenever possible. \n\nThose questions probably say a lot about what kind of culture fit and you don't seem to really \"fit in\", I'd just move onto finding something else if it were me",
+          "score": 14
+        },
+        {
+          "body": "This is called \"fit\" every company does it. Some companies want different kids of fit than others so that you are part of their culture. All companies want their employees to be part of their culture, but not every company's culture is the same.\n\nPepsi will be different than Blizzard Games, or Land O Lakes, or Facebook, or Visa, or GM.\n\nPersonally for me, if someone couldn't answer this softball fun questions (and those are softballs), its kinda awkward, I mean if I'm hiring an accountant, I may not give a shit and don't expect it, but if you are an ambassador for our company, I sure as hell want you to be our culture.",
+          "score": 32
+        },
+        {
+          "body": "deserve station vanish provide cows special reach dime practice insurance\n\n *This post was mass deleted and anonymized with [Redact](https://redact.dev/home)*",
+          "score": 4
+        }
+      ]
+    },
+    {
+      "title": "Does anyone have information about jobs that hire within 1-2 steps",
+      "body": "\nI have 5 interviews this week all by Tuesday before 5 pm. The thing is I’ve been interviewing for months. I had an 4 step process with a company and was ghosted. I’ve been down the two part process and was ghosted as well. I know I’m not alone. But I don’t even feel like getting 5 interviews by Tuesday is good enough. I need like 10. Desperation is so real right now. I’ve been living in airbnbs in order to avoid living with an ex abusive partner, and a hoarder unstable parent. I just need a job offer to probably even sign a lease. Has anyone had just 1 interview and was hired? I see jobs that are trying to do 2-3 steps that can’t even afford to provide insurance. I have a college degree, transferable skills and have been using my connections. I completely understand how people end up being homeless in the street. These jobs will waist your time,grill you and for no reason. I even went through a two step process just to be told I’m overqualified which was known by resume before the first step.",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/14wp05a/does_anyone_have_information_about_jobs_that_hire/",
+      "comments": [
+        {
+          "body": "trades. Decisions get made quick and your first day can be as soon as the next day",
+          "score": 3
+        },
+        {
+          "body": "Small companies. Some have no HR and that makes the process quicker as you may go through an administrative assistant, but then to the direct hire.",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Multiple job postings having the same exact job description?",
+      "body": "After lurking here for a while, I can guess that most of us very well versed on the utter shitshow that is job hunting these days. I got laid off in July and have been applying since then with only three interviews to show for it.\n\nI had never encountered scam jobs/phishing scams until now, and I've seen some weird stuff! But I want to see if any of you can enlighten me as to why there would be multiple companies posting the same exact job description with different titles? I could tell myself that they're all fake and not to give it another thought, but one of these companies is AirBnb!\n\n**These all have the same job description:**\n\nAirBnb's \"Copy Editor (contract)\": [https://www.linkedin.com/jobs/view/4173379266/](https://www.linkedin.com/jobs/view/4173379266/)\n\nRussel Tobin's \"Senior Copyeditor\": [https://www.linkedin.com/jobs/view/4174933163/](https://www.linkedin.com/jobs/view/4174933163/)\n\nRussel Tobin's \"Copyeditor\": [https://www.linkedin.com/jobs/view/4174936668/](https://www.linkedin.com/jobs/view/4174936668/)\n\nCypress HCM's \"Copyeditor\": [https://www.linkedin.com/jobs/view/4175197259/](https://www.linkedin.com/jobs/view/4175197259/)\n\nWhat's going on here?? I see that Russel Tobin and Cypress HSM are staffing agencies. If this job is actually with AirBnb, then why are they posting it too? What's in it for them? And why bother changing the title? TIA",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/1j5tvw7/multiple_job_postings_having_the_same_exact_job/",
+      "comments": [
+        {
+          "body": "Russel Tobin and Cypress HCM are staffing/recruiting agencies. They're likely contracted by Airbnb to source candidates for the Copy Editor job. It's very normal.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Need help contacting Airbnb recruitment after a No-Reply Email",
+      "body": "Hey Reddit,\n\nI recently received an email from Airbnb regarding a potential contractor opportunity. However, the message came from a \"no-reply\" address, and I'm unsure how to proceed with contacting their recruitment team to express my interest.\n\nDoes anyone know the best way to get in touch with Airbnb recruitment or how I can follow up on this opportunity? Any advice or tips would be greatly appreciated!\n\nThanks in advance!",
+      "subreddit": "jobs",
+      "score": 0,
+      "url": "https://reddit.com/r/jobs/comments/1fq4pl2/need_help_contacting_airbnb_recruitment_after_a/",
+      "comments": [
+        {
+          "body": "If you can't follow up, nobody can follow up. They'll send a new message with contact information to everyone if they actually want you to follow up.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "1 hour commute for 6 weeks, what should I do?",
+      "body": "Hey all, I'm working my first full time graduate job soon and my employer just informed me that for 6 weeks I will be temporarily located a 1-hour drive away from home, but I will be moved closer to home after these 6 weeks. I personally don't think 2 hours of daily travelling to work is great, especially since this is a 9-5 Mon-Fri. I will have to sleep and wake up super early, leaving very little time for myself when I get home.\n\nIs it worthwhile booking an AirBnB closer to the location for 6 weeks (btw I have never lived alone before, that's a whole other ordeal), or should I just tough it out? \n\nSide note, the job contract was not very specific about where I would be located during the interview. I'm from Sydney Australia and they just said I will be placed somewhere in Metropolitan Sydney, which is incredibly broad, but they would \"consider my home address\". The location of where I will be re-located after 6 weeks is still unknown.",
+      "subreddit": "jobs",
+      "score": 0,
+      "url": "https://reddit.com/r/jobs/comments/17csb6b/1_hour_commute_for_6_weeks_what_should_i_do/",
+      "comments": [
+        {
+          "body": "Just tough it out, for 6 weeks driving two hours a day won’t kill you. Treat it as your time to listen to music or podcasts. On the drive back home treat it as a way to decompress after a long day of working.",
+          "score": 5
+        },
+        {
+          "body": "Personally I would just tough it out. A previous job I was working 60+ hours and driving an hour each day and that was horrible, but when I started doing 40 hours a week it wasn't really that bad. To rent a place closer would be super expensive so I'd just buckle down for a bit.",
+          "score": 3
+        },
+        {
+          "body": "I’ve had a 1 hour commute each way to work for the past 7 years. I’m not sure what you’re complaining about. This is actually normal. The average commute to work for Americans is an hour.",
+          "score": 3
+        },
+        {
+          "body": "A 1 hr commute is average. Mine is 2.5 hrs each way ...",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Really discouraged with the job search after being told I interview great but still get passed up",
+      "body": "I was laid off from a job that I absolutely loved with a great company in January. I quickly picked up another job just so I can pay bills but it doesn’t pay nearly as much as my last job so I have been searching still. For context, I work in Operations Management in Healthcare with all my experience really being in the Medical Scribe Industry. \n\nOne job that I interviewed was exactly like my last role; word for word matched the job description. The person that interviewed me called me because she said she loved me, had great experience, and interviewed well, but I didn’t have a specific certification that they wanted (even though in the job posting they said having that certification was preferred but not required). She said that if she could hire two people, she would hire me but they went with another candidate. Essentially had no feedback and said I interviewed really well and was otherwise an amazing candidate. However, months later they are still advertising for that job and haven’t filled the position. \n\nI interviewed for another position as an Operations Manager and was in the final interview stages but was told that there was a change in plans and they were going with an internal candidate that might relocate to where they need them, but if they backed out they would follow up with me. Never heard back and they just posted the same job on LinkedIn. Again, they said they loved me and said I was a great candidate and didn’t have feedback about my interview or resume because they said I did  amazing. \n\nI have applied to over 100 jobs in the last 4 months at this point and either don’t get an interview for lacking skills and experience in that specific field, I interview but something comes up and I don’t get hired, or I interview and get offers for entry level or low level positions that don’t align with my pay expectations. \n\nI just keep thinking I’m doing something wrong and I can’t figure out what because I never get real feedback. I feel so incredibly disheartened and discouraged, and feel at such a low point in my life because I can’t find a job where I made at least even close to what I made before. I have been taking up so many side hustles like cat sitting and listing my third bedroom on Airbnb and I just want a stable income with a job I like. I miss my old job.",
+      "subreddit": "jobs",
+      "score": 11,
+      "url": "https://reddit.com/r/jobs/comments/12z79is/really_discouraged_with_the_job_search_after/",
+      "comments": [
+        {
+          "body": "I would be tempted to call them up and say you noticed they were re-advertising, and you wondered whether you were being considered?\n\nEven if you don't want to work there because of this practice, it'll be good to see what they squirm to come up with.",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Cost of living between 2 cities for work?",
+      "body": "I'm currently employed and was recently hit up by a recruiter for a really interesting full-time opportunity. It's not 100% the type of work I'm excited about, but it would be a huge promotion, great for my resume and will more than double my current salary (low 100s). I just interviewed with the VP and I'm confident my chances are high.\n\nThe only thing that I'm not super sold on is that they are firm on wanting to get people back in the office at least 3 days a week eventually and the position is based in another city about 5hr drive away. I don't want to move to that city bc it's not a very desirable place so I am considering the option of just traveling back and forth and living between 2 cities, just like how consultants regularly travel to client sites. I know it's not sustainable long term, but I don't plan on staying for that long any ways. I believe everyone is still 100% remote right now until the foreseeable future, but I'm looking ahead and want to minimize any uncertainties.\n\nFor anyone that has experienced this before, what is a realistic estimate extra cost of this lifestyle so I could factor it into my compensation / negotiation? ie, renting airbnbs/hotel, bus/planes, ubers, food, etc",
+      "subreddit": "jobs",
+      "score": 3,
+      "url": "https://reddit.com/r/jobs/comments/p3dp9g/cost_of_living_between_2_cities_for_work/",
+      "comments": [
+        {
+          "body": "Hello, thank you for posting to r/Jobs! \n\nWe just wanted to let you know that we have a new [discord server, come join the chat!](https://discord.gg/TY6ErXV)\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/jobs) if you have any questions or concerns.*",
+          "score": 1
+        },
+        {
+          "body": "Does the VP live in that city or live somewhere closer? Hour away? Asking since they may not jive with the proposal if their living situation had to change and they just live in close urban area (that’s better than there).",
+          "score": 1
+        },
+        {
+          "body": "do you have friends over there that would let you like stay there at their house?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "So I got an internship that pays... But... (Advice would be nice)",
+      "body": "I've been unemployed since March 2020 and I graduated with my MA in Film and Media Production. I am close to 1000 application submissions and have not been interviewed for a single one. I have had several professionals in the industry and multiple career advisors look over my resume, run practice interviews with me, and listen to my story. They say that I am qualified for a bunch of roles and my resume is perfect. They tell me it's the times though. It's been a weird feeling to hear that I should be working and yet not get any interviews or offers. \n\nI am overqualified for most of the jobs in my area (Retail/Fast Food) and I've been encouraged to move to the nearest big city for media production, which happens to be NYC. They told me that applying out of the area was ruining my chances so I decided to try it out. I was planning to go towards the end of August to November to try out gigs and, hopefully, land a full time job. I ended up getting a well reviewed airbnb for that time. I didn't overthink the cancellation policy because I was planning to go either way but I can't get back my initial deposit. This is my first time using airbnb, btw...\n\nBut...\n\nI am a former Disney College Program alum and I saw that they were sending out applications as things were starting back up. I decided, impulsively, to apply. I was mostly fueled by the fact that I haven't had a job in so long and I need to physically do something. It's also something I could add to my resume during this time period. I ended up getting it and I decided to accept it. It would go on till the end of January but I'm excited to go back, see old friends, and be in an area that I generally enjoy...\n\nBut...\n\nThis isn't in my field and the pay is lower than my unemployment (I would still be saving money). I was planning to quit in August and go straight to NYC to find work in gigs and possibly a video position with some sort of stability...\n\nBut...\n\nI've been struggling to land interviews in NYC and it's not a guarantee that I'll get something there. The people advising me said that getting an address in the area will help tremendously but it's still not a guarantee. I'm also going a month prior to when the benefits are suppose to end for unemployment so applications will probably skyrocket.\n\nDo I finish the internship and cancel the NYC trip or do I do the internship and leave to go to NYC? \n\nTL;DR: Was planning to go to NYC and already purchased an airbnb with a strict refund policy. Got an internship that conflicts with my plan to go to NYC. Still planning to go to NYC and I'm going to do the internship but I don't know if I should finish the internship or continue on with moving to NYC",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/nk7gb5/so_i_got_an_internship_that_pays_but_advice_would/",
+      "comments": [
+        {
+          "body": "Hello, thank you for posting to r/Jobs! \n\nWe just wanted to let you know that we have a new [discord server, come join the chat!](https://discord.gg/TY6ErXV)\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/jobs) if you have any questions or concerns.*",
+          "score": 1
+        },
+        {
+          "body": "NYC is an expensive city to live in without a stable job (I live here). Do you have connections? Alumni network? Family friends? Getting a media job without any of those is difficult.",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Interview Preparation Material for 9 Yrs experience",
+      "body": "I have 9 years of experience but have been a bit out of touch with DSA and system design lately due to work. I'm now planning to prepare for interviews over the next 2–3 months, aiming to crack companies like Google, Airbnb, etc. Could anyone please share good interview preparation materials and also suggest companies that offer remote roles with MAANG-level compensation ?\n\nCurrently, I'm focusing on applying for IC roles since my experience so far has primarily been in IC positions. In the future, I would like to transition into a managerial role. For now, I'm targeting Senior Software Engineer or Staff Engineer interviews",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1olgjc4/interview_preparation_material_for_9_yrs/",
+      "comments": []
+    },
+    {
+      "title": "Looking to take a leap and relocate without a job lined up, am I setting myself up for career failure?",
+      "body": "I graduated last May with a BA in Communications/PR. I’m from MI. I was dead set on moving out of state when I graduated. Well 250+ applications and a year later, I’m still here. Figured out the hard way no one wants to hire you if you’re out of state, even when you tell them you’re going to self relocate. Back in November, I ended up taking an “elevated sales position” at a retail job (not working cash register but still retail). I had been doing that until corona hit and am now on unemployment (though it sounds like our store will be opening next week). At this point I feel like I just need to move somewhere so I can be considered local. My boyfriend and I are looking at getting an Airbnb for 2/3 months  (so we don’t have to worry about an apartment/leases) and moving to Denver in September. \n\nIs this career suicide? I’m looking for digital marketing/content strategy type careers so I don’t know exactly what the Denver market is like for that but I’ve heard it’s a bigger up and coming city. Also I’m nervous that if we can’t seem to find jobs if we have to move back or get a retail job how that will look on our resumes. I already hate that I have to have a retail position on my resume because I feel like it looks like a step backwards after college. I don’t really know what the situation is like corona virus wise in Denver but I’m hoping it’s on the downward slope and continues through summer. Part of me considers waiting it out until corona is done but who knows when that will be and I don’t know how much longer I can take living in my parents house sitting around and doing retail. I already wanted to be out of state over a year ago so I’m ready to move now.",
+      "subreddit": "jobs",
+      "score": 2,
+      "url": "https://reddit.com/r/jobs/comments/hcondi/looking_to_take_a_leap_and_relocate_without_a_job/",
+      "comments": [
+        {
+          "body": "My wife and I just relocated across the country to Phoenix. We moved during the pandemic (stressful) but are settled in now. She had a teaching position lined up, but I had nothing as like you’ve discovered, companies don’t like to hire out of state.\n\nI started applying for jobs around June 1st. Put out about 50 applications to jobs all over the spectrum, but mainly centered around customer service. Accepted a job offer this most recent Wednesday!\n\nThis is anecdotal, of course, and I think the two of us have been extraordinarily lucky, but it’s possible.",
+          "score": 4
+        },
+        {
+          "body": "[deleted]",
+          "score": 2
+        },
+        {
+          "body": "What if you lie on your resume about your location? It’s not like anyone’s gonna check until you’re hired. And if they say it shows a different address on X document, tell them you moved very recently and it hasn’t gone through in the system or something like that. \nOr don’t include it at all if it is not required. \nIf the only reason you’re not being hired is location, that’s quite easy to solve..",
+          "score": 2
+        },
+        {
+          "body": "Do you have any marketing/content strategy experience?  Internships? Anything while in school?  You’ll probably want to look at assistant roles related to customer service at marketing agencies.  Without actual experience, either interning or otherwise it will be difficult, so you’ll have to use the customer service experience you have and make sure your resume speaks to administrative support and that you use terms like ‘client’ instead of ‘customer.’  \n\nFor the jobs you’re looking for, no one is going to hire someone out of state when they have an abundance of candidates in state/locally.  So it would be helpful to have an address there of course.  I would also start applying now and be clear on your resume you’re moving on x date and in your cover letter be clear you’re moving to x neighborhood.",
+          "score": 2
+        },
+        {
+          "body": "That’s what I was gonna say, you could try a virtual address. Many companies do this, especially startups. In terms of flying.. You could always ask for remote interview while covid-19 iw underway.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Would you move to a different state if you’re offered a job with your “dream” org/company even if the pay isn’t the best?",
+      "body": "I had an interview today for a very entry-level position with a govt. organization I have previous intern-like ties with. After many attempts and never being able to get through the USAJobs algorithm, I was *finally* referred for the position and the rest is history! I think I did well during the interview and did my best to provide real examples along with my answers. But! usually when I think I did “well” it’s when I most get hit with rejections, but that’s a different topic for another day.\n\nAnywho, I was told that there’s one more interview to go through and I’ll find out if I’m moving forward next week. Of course nothing is set in stone, but I have already begun thinking of the “what ifs” in the case I *somehow* get hired for the job. The position isn’t one I see myself sticking with forever, but it’s a way to get my foot in the door for this org which I have had a positive experience with previously.\n\nThe kicker here is that it’s in a different state… and the pay isn’t the best (38K). It’s a step down from my previous job for sure. But it has benefits like any other FT job and I’ll get to work with good people I’ve met before. I’ll probably have to live in an AirBnB while I find a place to get permanently situated in.\n\nI don’t know. I feel like this could really be my “big break” in the long run…\n\nWhat would you do? Would you move to a different state/location for a lesser paying job knowing its with your dream org/company? Any tips would be greatly appreciated! Just trying to think ahead.",
+      "subreddit": "jobs",
+      "score": 2,
+      "url": "https://reddit.com/r/jobs/comments/qxt0vz/would_you_move_to_a_different_state_if_youre/",
+      "comments": [
+        {
+          "body": "Hello, thank you for posting to r/Jobs! \n\nWe just wanted to let you know that we have a new [discord server, come join the chat!](https://discord.gg/TY6ErXV)\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/jobs) if you have any questions or concerns.*",
+          "score": 1
+        },
+        {
+          "body": "How they gonna help with relocation expenses or give you a sign on bonus? If not, I wouldn’t do it. But, do you though.",
+          "score": 1
+        },
+        {
+          "body": "Honestly, I probably wouldn’t because I don’t have any “dream orgs”. My goal is to build skills that allow me flexibility in designing the lifestyle I want, so I can work less and make more money. \n\nThe main decider for me in this situation is whether the math makes sense. Moving is expensive and taking a paycut on top of that—when inflation is over 6%—isn’t something I could stomach. The government promotion cycle is also relatively slow and I’d be worried about getting stuck at that salary range.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Company asking for address. Just moved",
+      "body": "Hello. I recently moved cities (US) - so recent that I don’t have a permanent address yet. I’ve been staying in temporary housing (Airbnb’s, hotels) while interviewing. I got an offer and now their asking for my address however the hiring manager said they’re going to email me the contract anyways. Should I give them the address of one my Airbnb’s to prove my residency? I’m probably going to be moving in a week or two but it might be after my start date. Any HR professionals know what this is for and have some advise? Thanks!",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/d9ithj/company_asking_for_address_just_moved/",
+      "comments": [
+        {
+          "body": "They aren't trying to prove your residency. Your address will be on the offer letter. Just give them the address where your mail is going and the one where you are temporarily staying. \n\nSource: I write way too many offer letters.",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "title": "Airbnb Interview",
+      "body": "Anybody recently interviewed for Airbnb. Could you please share your experience?",
+      "subreddit": "interviews",
+      "score": 3,
+      "url": "https://reddit.com/r/interviews/comments/1l692wm/airbnb_interview/",
+      "comments": [
+        {
+          "body": "Airbnb interviews are heavily focused on their core values, especially \"belonging\" and \"champion the mission.\" They'll dig deep into behavioral questions using the STAR method and expect you to demonstrate how you've created inclusive experiences or solved problems with limited resources. The technical rounds vary by role but tend to be thorough, and they really want to see that you understand their business model and can think like an owner rather than just an employee.\n\nThe process typically involves multiple rounds including a recruiter screen, hiring manager interview, cross-functional interviews, and often a presentation or case study component. They're looking for people who can handle ambiguity and scale, so expect questions about times you've had to make decisions with incomplete information or navigate complex stakeholder situations. The feedback I've heard is that preparation is absolutely crucial because they have high standards and the competition is fierce, but the interviewers are generally thoughtful and the process feels fair even when it's challenging.\n\nI'm actually part of the team behind [job interview AI](http://interviews.chat), which helps people practice these kinds of behavioral and situational questions that companies like Airbnb are famous for asking.",
+          "score": 1
+        },
+        {
+          "body": "how did it go?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Airbnb interview process for SSE",
+      "body": "I received candidate survey after 10 days of Airbnb coding round interview. Does that mean my loop is closed.",
+      "subreddit": "interviews",
+      "score": 2,
+      "url": "https://reddit.com/r/interviews/comments/1oyjuub/airbnb_interview_process_for_sse/",
+      "comments": [
+        {
+          "body": "How did you apply for the position and get a shortlist? Could you please share some insights?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Airbnb Senior data scientist interview",
+      "body": "Have an interview for senior data scientist role coming up with coding round— hacker rank  !\n\nCan anyone please recommend how to prep for it? ",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1lnyqr7/airbnb_senior_data_scientist_interview/",
+      "comments": [
+        {
+          "body": "It will likely focus on SQL, Python data manipulation, and statistical analysis rather than traditional leetcode algorithms. You'll want to get comfortable with complex SQL queries involving window functions, CTEs, and joins across multiple tables, plus Python libraries like pandas, numpy, and potentially scikit-learn for basic ML tasks. Airbnb tends to give real-world scenarios like analyzing booking patterns, pricing optimization, or user behavior metrics, so practice problems that involve cleaning messy datasets, calculating business metrics, and drawing insights from data.\n\nThe key is practicing under time pressure with actual data science problems rather than generic coding challenges. Focus on being able to explain your thought process clearly as you code, since they'll evaluate both your technical skills and communication ability. Many candidates get tripped up by the business context questions that come after the coding portion, where you need to interpret results and suggest actionable recommendations.\n\nI'm on the team behind [interviews.chat](http://interviews.chat), which helps candidates answer those tricky follow-up questions about interpreting your analysis and explaining technical concepts to non-technical stakeholders that often come up in senior data science interviews.",
+          "score": 2
+        },
+        {
+          "body": "u/Solid-Look3548 how did it go? I have the same round coming up this week, mind sharing tips?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Stood up by Hiring Manager",
+      "body": "Yesterday I dropped off my application, resume, and cover letter at a locally ran mortgage company. During this application drop off the manager told the receptionist to have me come back to his office to visit with him real quick. He looked over the things I brought in and said \"I really like you but want to set up a time soon to do an actual interview when we both have more time.\" I thanked him and we set up an interview for the next day (today) for 11am. \nToday, I show up for the interview... \nReceptionist: \"Ummm he's not here today, did he not call you?\"\nI check my phone in front  of her and say \"no, I haven't had any incoming calls today or yesterday from him or anyone from the company.\"\nShe replied \"Yeah he had to go clean his Airbnb property.\"\nI speak as of it is no bother to me and thank her for her time. \nShe said she'll right down my name and have him call me.\n\nThis is a huge red flag for me......\n\nShould I call them after the weekend on Monday if I don't hear anything? Part of me just wants to blow it off if this is how they handle business. I like the job I have now but this job pays more and 8-5 mon-fri. \nIs it normal or rare to be stood up like this?",
+      "subreddit": "jobs",
+      "score": 4,
+      "url": "https://reddit.com/r/jobs/comments/ewywjb/stood_up_by_hiring_manager/",
+      "comments": [
+        {
+          "body": "I've been stood up before, rescheduled, stood up again, came back a third time, waited two hours and it took them so long to get me in for training I got three other offers in the meantime. I'd say go for the interview but interview them too. In my experience those people don't end up treating employees well. You'll be working with that guy.",
+          "score": 3
+        },
+        {
+          "body": "No not normal at all, I would not work for someone like that.",
+          "score": 1
+        },
+        {
+          "body": "Happened to me too. It just means the person doesn't have their stuff together and doesn't know what they're doing. Not very professional at all if they don't follow through with promises, they also probably don't follow through with on-time paychecks.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "I have to start across the country two weeks after being told I'm hired. How do I do that?",
+      "body": "I live in the northeast US. A friend is able to put in a good word for a job I am well qualified for, at a good company in Utah. It would be a step up from my current job, and I've always wanted to live in the Rockies, so I don't want to pass this up. However last night I was told that if the interview went well, I would have to be ready to start in two weeks. How in the world does that happen?\n\n* I would be driving with what I could fit in my car, so first off, that means I'm only giving my current company a ~1 week notice. Which is uncomfortable if not unprofessional. \n\n* How does one secure housing in that timeframe? Airbnb until you find something? That gets expensive, fast.\n\n* So I pack, drive and unpack in a week. It's not like I can just tell my current housemate, sorry that I left all my furniture and random stuff behind!\n\n* Not to mention the cost of moving. Between travel and putting down a deposit for housing or doing Airbnb, this could get a little expensive.\n\nWhen I asked my friend whether this was her personal suggestion or the company's requirement, she said it was the company's requirement. That just seems very unreasonable. I would appreciate any advice. Maybe this isn't as hard as it seems?",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/7dcre3/i_have_to_start_across_the_country_two_weeks/",
+      "comments": [
+        {
+          "body": "Honestly, I wouldn't get ahead of myself here.  You haven't talked to anyone outside of your friend, and while they might be citing things as company requirements, such requirements aren't *really* written in stone.  If they want you and you negotiate for it, you can probably get the extra time to move as well as some degree of help with re-location costs and what-not.\n\nWith that said, if your friend's perspective on policy is indeed a hard line for them, then the answer to the question of \"How do I do that?\" is that you don't.  Companies might have such rigid policies in place regarding start dates (and likely moratoriums on re-location compensation) because indirectly, they are saying that they aren't interested in hiring anyone who isn't already local.  Like they don't have a problem with someone from the Northeast working for them, but they don't want to bear the cost and risk of bringing that person out to work in Utah, especially if things don't end up working out.  They'd rather you bear the cost and risk of coming out to work for them.  Again, that plays against the statement above though: if you are valuable enough to them, they will make it happen, but it is possible that *no one* is really that valuable enough for them to take the chance.",
+          "score": 3
+        },
+        {
+          "body": "If you get an offer, try to negotiate some relocation assistance, or push back the start date.  I'm actually looking to go west coast to east coast this winter, and have a tentative offer, but told them I could not start until Jan 8, to give me some time to get my things in order, and they were okay with that time frame.  Once I have a formal offer letter in hand, I will try to negotiate relocation assistance into it (not that I need it, but it sure does help getting my family across the country).  ",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "A Software Engineer Shared Airbnb Interview Questions. Can Someone Verify It?",
+      "body": "I'm a Software Engineer with 3-years of experience. Today, while trying to find sample interview questions for Airbnb, I found following questions which someone shared as Airbnb interview questions.\n\nCould anyone please verify if this is genuine?\n\nThe source website doesn't allow me to copy therefore, sharing a screenshot and the link of the page. Please check all the 5 questions and let me know. Thanks.\n\nhttps://preview.redd.it/51a9fy4ekxbg1.jpg?width=992&amp;format=pjpg&amp;auto=webp&amp;s=c17116cdc2746c378b90690c925b2a008938e278\n\nRemaining 3 questions: [https://www.lockedinai.com/company-details/ABNB](https://www.lockedinai.com/company-details/ABNB)",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1q6fkle/a_software_engineer_shared_airbnb_interview/",
+      "comments": [
+        {
+          "body": "Those look pretty standard for big tech honestly. The \"design a booking system\" and \"implement search with filters\" questions are super common for any marketplace company - seen similar stuff for other FAANG-adjacent places\n\n  \nCan't verify if they're exactly what Airbnb asks but they're definitely the right difficulty level and style for a mid-level SWE role there",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "title": "Does anyone work at or had job interviews with airbnb?",
+      "body": "Looking at a position at Airbnb. Does anyone have experience interviewing with them?",
+      "subreddit": "interviews",
+      "score": 3,
+      "url": "https://reddit.com/r/interviews/comments/1gv6rn2/does_anyone_work_at_or_had_job_interviews_with/",
+      "comments": [
+        {
+          "body": "They typically start with a phone screen, followed by a series of technical and behavioral interviews. Be prepared for case studies, coding challenges, and questions about your past experiences. Airbnb places a strong emphasis on cultural fit, so expect questions about their core values and how you align with them.\n\nThe company is big on creativity and problem-solving, so showcase your innovative thinking during the interviews. They often ask candidates to come up with unique solutions to real-world problems related to their business. It's a good idea to familiarize yourself with Airbnb's products, recent initiatives, and industry challenges before your interview. If you're feeling anxious about the process, you might want to check out this [interview AI](http://interviews.chat). I'm on the team that created it, and it's designed to help people navigate tricky interview questions and boost their confidence for job interviews.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Airbnb senior frontend interview",
+      "body": "Hi folks,  I have a phone screening scheduled at Airbnb in couple of days. Has anyone recently interviewed there? What are they asking nowadays? Please share your experiences. Any help will be appreciated.\n\nAnd I promise to post my entire interview experience here irrespective of the outcome.",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1n5yrpf/airbnb_senior_frontend_interview/",
+      "comments": [
+        {
+          "body": "You'll likely face questions about building scalable component libraries, handling complex state management across different property types and user flows, and optimizing for mobile web performance since so many users book on mobile. They're also known for asking about accessibility considerations and how you'd approach A/B testing frontend features. The coding portion usually involves building something interactive rather than just algorithmic problems, so expect to demonstrate your ability to think through user experience while writing clean, maintainable code.\n\nThe cultural fit portion will dig into how you handle ambiguity and cross-functional collaboration, since frontend engineers at Airbnb work closely with designers, product managers, and backend teams across different time zones. They'll want to see that you can balance moving fast with building quality experiences, especially given how critical trust and safety are to their platform. Be ready to discuss specific examples of technical decisions you've made and their impact on users. Since you're preparing for tricky technical questions and want to make sure you articulate your thoughts clearly, I'd suggest checking out [interviews.chat](http://interviews.chat) \\- I'm on the team that built it and it's designed to help you practice responding to complex interview scenarios like the system design questions Airbnb is known for.",
+          "score": 1
+        },
+        {
+          "body": "How did you get the interview? They always reject me. \n\nalso how was the interview? please do share your interview experience",
+          "score": 1
+        },
+        {
+          "body": "Got rejected in the screening itself",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Finally got a new offer after 4 months unemployed",
+      "body": "I graduated last year and landed my first full-time job as a Junior Business Analyst after 6 months of searching. Thought I was finally getting somewhere. Then in January, I got laid off, the company said they only needed senior BAs. Still don’t get why they hired me in the first place.\n\nSpent the next 4 months unemployed. Constant rejections, ghosting, and feeling like maybe I just wasn’t good enough. But finally, I got a new offer today! Hopefully this one’s more stable.\n\nTo everyone still searching, don’t give up. I hope some of my luck finds its way to you too.\n\nMany friends dm me asked how I got the offer, here’s a breakdown of what I did:\n\nFirst is the technical stuff. I practiced at least 5 SQL in Leetcode everyday until I think I'm good with logic and syntax. Then I used [DataLemur](https://www.datalemur.com/) and [StrataScratch](https://www.stratascratch.com/) to practice SQL questions that mimic real interviews. I especially liked DataLemur for the hints and explanations. Beyond that, I picked a few public datasets (like Airbnb, e-comm, or public COVID data) and practiced writing insights as if I were presenting to a stakeholder. It helped me stay sharp and build storytelling muscle.\n\nFor behavioral questions, since I had already gone through a full job hunt last year, I started by reviewing my old story bank and added a few new ones. I ended up with 10 STAR stories covering different topics. To practice, I used [AMA Interview](https://www.amainterview.ai) to simulate pressure-based interviews. It helped me internalize the details of each story so I could deliver them smoothly and confidently during real interviews. I actually came across this platform earlier this year on Rednote, and honestly, it turned out to be way more efficient than practicing on my own.\n\nFor business and product sense, I watched a lot of YouTube videos. [Angelo the BA](https://www.youtube.com/@AngeloTheBA) is super underrated, he walks through real scenarios like improving conversion rates or identifying drop-offs in funnels. I also followed product case breakdowns from channels like Product Alliance.\n\nTo brush up on A/B testing logic (which came up a few times), I took the [Udacity A/B Testing course](https://www.udacity.com/course/ab-testing--ud257), it’s free and very practical. For statistics and experiment interpretation, [StatQuest](https://www.youtube.com/c/joshstarmer) on YouTube was a lifesaver. His videos break down complex concepts in the clearest way possible.\n\nFor resume and application strategy, I used [Teal](https://www.tealhq.com/) to manage my applications and tailor resumes for each job, super handy for tracking everything in one place. Each resume was customized with keywords from the job description. I used ChatGPT to reword bullet points and make the impact clearer.\n\nBesides applying, I also started reaching out to people I’d worked with in my previous role, as well as folks in similar BA roles on LinkedIn. Networking wasn’t just about referrals, actually a few conversations helped me better understand how the role actually works in different companies, what tools are in demand, and gave me some tips I wouldn’t have found on YouTube or Reddit (like how to answer “How do you prioritize conflicting stakeholder requests?”).\n\nIt’s easy to underestimate how much you can learn from a 15 minute chat with someone who’s a few years ahead of you.\n\nIt wasn’t a perfect system, but I treated job hunting like a part-time job, 3 to 4 focused hours per day, not just mass applying but actually preparing to *convert* if I did get an interview. Hope my strategy could be helpful and fell free to ask me questions",
+      "subreddit": "interviews",
+      "score": 52,
+      "url": "https://reddit.com/r/interviews/comments/1kns56c/finally_got_a_new_offer_after_4_months_unemployed/",
+      "comments": [
+        {
+          "body": "same thing happened to me as well. got laid off back in january and only got my first offer this month. really hoping for this job to be stable",
+          "score": 5
+        },
+        {
+          "body": "Congratulations 🙌",
+          "score": 2
+        },
+        {
+          "body": "Congrats! Hope this job will be stable",
+          "score": 1
+        },
+        {
+          "body": "Getting laid off doesn't define your worth—this new offer proves you’re more than capable, and persistence really does pay off.",
+          "score": 1
+        },
+        {
+          "body": "Congrats!! That old company sucks for real. Btw, any tips on how you prepped for interviews this time around? I’m also on the hunt, or can I dm you?",
+          "score": 1
+        },
+        {
+          "body": "Congratulations!  Nice to hear people getting job offers.",
+          "score": 1
+        },
+        {
+          "body": "Congratulations!",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Flying in for interview. Ok to bring backpack?",
+      "body": "I’ll be flying in for an onsite interview and might have to bring my backpack with me since I’ll be checking out of my Airbnb before it. Is that generally fine or would it look unprofessional? Should I try to drop it off somewhere like Bounce instead?\n",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1m0rtcu/flying_in_for_interview_ok_to_bring_backpack/",
+      "comments": [
+        {
+          "body": "Assuming it is a normal, run of the mill backpack, I'm sure you'll be fine bringing it with you.",
+          "score": 3
+        },
+        {
+          "body": "No issues at all with a normal backpack or even luggage. They'll understand. If not, then there are serious issues at the company. I've had many a meeting with board members and investors who brought their luggage because they were travelling that day.",
+          "score": 3
+        }
+      ]
+    }
+  ]
+}

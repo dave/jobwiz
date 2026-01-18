@@ -1,0 +1,579 @@
+{
+  "company": "servicenow",
+  "post_count": 29,
+  "exported_at": "2026-01-18T17:44:53.303Z",
+  "posts": [
+    {
+      "title": "Is a master degree in CS ever worth it if you have a bachelors in CS? Specifically to go into AI",
+      "body": "I finally got a nice paced job where I feel like I can get comfortable for a while. Somehow this scares me and makes me think this is it.\n\nMy passion that brought me to CS was always AI and robotics. I know it’s very hard to get jobs without the right experience but how do you a get a gig at a company doing AI(computer vision) without the experience? \n\nWould a masters in AI help make that a reality?\n\nFYI: I work as a software engineer on the serviceNow platform. So it’s a very niche field. \n\nTLDR: Got a good comfortable job in my field. Worries me I’ll be stuck in my niche field. Want to go into AI (computer vision) but don’t know how to start",
+      "subreddit": "cscareerquestions",
+      "score": 22,
+      "url": "https://reddit.com/r/cscareerquestions/comments/n31gy9/is_a_master_degree_in_cs_ever_worth_it_if_you/",
+      "comments": [
+        {
+          "body": "[Oh hey, someone asked this a while ago](https://www.reddit.com/r/cscareerquestions/comments/ij71ih).\n\nI believe the sentiment remains the same personally- I wouldn't get a degree in ML simply because a general SWE career path is simpler and less saturated.",
+          "score": 20
+        },
+        {
+          "body": "Spoke with several recruiters and none of them cared if you have a BSc or Masters, only your skills matter",
+          "score": 12
+        },
+        {
+          "body": "I got a master's in swe only because my company offered to pay for it. Otherwise I wouldn't. But it does help get that initial interview",
+          "score": 9
+        },
+        {
+          "body": "I got a masters in CS focused on AI.\n\nI manage employees and build webapps now.  It’s a saturated market, and frankly, easier jobs that pay just as well are out there.\n\nPersonally, while I enjoyed my time in grad school, I don’t think it was financially beneficial.  If your job will pay for it, then do it.  If not, spending that time right after undergrad to get right to work will bump you up to about where you’d be with a grad degree in CS.\n\nBut hey, if you really want to do it just to learn, go for it. The value of an education is priceless.\n\nHonestly, if you just REALLY want to get into autonomous robotics, then an internship at a business that does exactly that will be more valuable to you, IMO.  If I look at two exact same resumes, and one has a degree in robotics and the other has actual work experience in robotics, I’m going to choose the one with the work experience (I’ve seen enough candidates who have clearly learned nothing in school to be very skeptical).\n\nAs always with career advice, YMMV.  Good luck!",
+          "score": 7
+        },
+        {
+          "body": "How else would you even get in to AI?",
+          "score": 13
+        },
+        {
+          "body": "To do real and exciting research in AI, you need to get a Ph.D.",
+          "score": 5
+        },
+        {
+          "body": "Um, \"ever worth it\"? Really, that is your question? What answer do you expect? \"Yes\"?  \"No\"?\n\nHow many software engineers are there in AI/robotics?  How many have MS? How many would say it was \"worth it\"?  Would those stats really tell you anything?\n\nIf you want to get into a specialty:\n\n1.  See if there are opportunities in your current role to incorporate those techniques\n\n2. Go work for a company that does &lt;specialty&gt; and learn\n\n3. Do projects on the side to learn &lt;specialty&gt;\n\n4. If you can't self-learn, consider a different &lt;specialty&gt; or schooling.",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "title": "HRIS - need advice",
+      "body": "Hey guys. I’m trying to break more into the HRIS space. I have experience in Workday, specifically in the Learning module. I was building, running reports, cleaning up transcripts, testing, supporting the org on servicenow with inquiries, etc. I was not running EIBs, but when the EIB would fail, I would be tasked with manually uploading what the EIB couldn’t. I have my Bachelor of Business degree. I’ve watched videos covering other modules about Workday. I have past HR experience. \n\nI’ve applied to over 150 jobs, changing and tailoring my resume, written cover letters - and still not even so much as 1 interview. My last contract has ended, I was there for 2 years, and I’m hoping to find something permanent. I’ve spoken to countless recruiters that have gotten me nowhere. I just need advice at this point. ",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/1oxpeew/hris_need_advice/",
+      "comments": []
+    },
+    {
+      "title": "Discover ServiceNow program?",
+      "body": "Hi everyone,\n\nRecently had a recruiter from ServiceNow email me asking if i was interested in the Discover Servicenow program from August 3-7. They mentioned that all expenses are paid and that I would have the chance to interview early for a Summer 2026 internship.\n\nWanted to see from people who have participated before if it's worth, I know it's free but the dates are during my summer internship and am not sure if it's worth taking time off to go to. Also for the interview, do they have you do it during the program, or later on?\n\nAny advice is helpful!",
+      "subreddit": "cscareerquestions",
+      "score": 2,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1ijm1zi/discover_servicenow_program/",
+      "comments": []
+    },
+    {
+      "title": "Interview Discussion - January 03, 2022",
+      "body": "Please use this thread to have discussions about interviews, interviewing, and interview prep. Posts focusing solely on interviews created outside of this thread will probably be removed.\n        \nAbide by the rules, don't be a jerk.\n        \nThis thread is posted each **Monday and Thursday at midnight PST**. Previous Interview Discussion threads can be found [here](https://www.reddit.com/r/cscareerquestions/search?q=Interview+Discussion&amp;restrict_sr=on&amp;sort=new&amp;t=all).",
+      "subreddit": "cscareerquestions",
+      "score": 9,
+      "url": "https://reddit.com/r/cscareerquestions/comments/ruwi3c/interview_discussion_january_03_2022/",
+      "comments": [
+        {
+          "body": "I have my first ever \"FAANG\" onsite with Google coming up in a week. I've been refreshing my knowledge on DS&amp;A and studying leetcode for ~3 months, but I still have some gaps in my knowledge so I'm pretty nervous 😅 \n\nDo ya'll think companies ever blacklist people for poor onsite performance? And how badly would you have to mess up for that to happen. \n\nI'm going into viewing it as practice since I doubt I'll make the cut this time, but I'm still pretty nervous I'm going to mess up so badly that I never get a second chance with them haha.",
+          "score": 1
+        },
+        {
+          "body": "Just completed the HackerRank OA for SWE summer internship with CrowdStrike. It was fairly doable, not too hard, consisted of 6 questions (3 multiple choice, 3 coding challenges ranging from easy to medium). I ended up completing all but the last question due to getting no passed test cases on that one. It was a question on total stops in slot machines. If I don't pass all the questions (or rather fail 1 question in this case), will I be automatically rejected?",
+          "score": 1
+        },
+        {
+          "body": "[deleted]",
+          "score": 1
+        },
+        {
+          "body": "Hey fellow nerds, I’m a nerd with a science and math background. I’ve graduated with a BS in mathematics back in 2018 and my MS in physics this past May. I’ve been job hunting since and applying to all types of jobs and developer positions are amongst them. A lot of computational physics is programming and I feel quite at home doing so.\r  \n\r  \nMy issue lies with these absurd coding interviews. I have a live coderpad interview for a huge finance company in about a week. As such I’ve been spending a decent chunk of my time solving practice problems. For quite a few of these problems however, I’m noticing that I’m not solving them the way they give answers for. Most of my solutions to these problems are just absurd amounts of math that I worked out on a sheet of paper. This often results in my actual code being super short. A method where I input 2-3 variables and it spits out the answer.\r  \n\r  \nI’ve done this with several problems like the egg dropping problem, number of sums of consecutive natural numbers that add up to a random whole number, etc.\r  \n\r  \nWould this be an issue for a live coding interview and if so, how do I fix this?\r  \n\r  \nThanks!",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "New Tech Consultant",
+      "body": "Hello! I have just got a position as a Tech Consultant and will be trained in ServiceNow and I was wondering what I should be expect day to day and as a career? \nI am very excited as this is my break into the tech industry and I am looking forward to any advice or helpful tips! Thank you!",
+      "subreddit": "cscareerquestions",
+      "score": 1,
+      "url": "https://reddit.com/r/cscareerquestions/comments/199z8qw/new_tech_consultant/",
+      "comments": [
+        {
+          "body": "I would think the job description would be your starting point. The problem with a job title like \"Tech Consultant\" is that it is extremely vague. I've seen extremely technical people with a title like that. And I've seen people who are basically business analysts use that title.\n\nYou might be doing things like customizing code in someone's ServiceNow setup, or you might be glorified Help Desk. This is something you should have asked about during your interview process. The recruiter or hiring manager should have some insight into this, but it is definitely some cause for concern you don't have a general idea of what you will be working on. \n\nAsking people at your future employer will be the best way to get answers. Good luck with the new position, though!",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "ServiceNow PM Help!!!",
+      "body": "Hi everyone,\n\nI’m scheduled for my final round 3x30 interview for the PM position at ServiceNow. I’m really nervous and could really use some help as I get ready for it.\n\nIf anyone has gone through this interview process or knows about the company, I would love to hear your tips and tricks. What kinds of questions did they ask you? Are there any specific things I should focus on while preparing?\n\n",
+      "subreddit": "cscareerquestions",
+      "score": 2,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1gadcq9/servicenow_pm_help/",
+      "comments": [
+        {
+          "body": "ServiceNow PM interviews typically focus on your problem-solving skills, product sense, and ability to work cross-functionally. They'll likely ask you about your past experiences managing products, how you prioritize features, and how you handle conflicts with stakeholders. Be prepared to discuss specific examples from your work history that showcase your leadership and decision-making abilities.\n\nOne key thing to remember is that ServiceNow values innovation and customer-centricity. Try to weave in examples of how you've driven product improvements based on user feedback or market trends. They might also throw in some technical questions, so brush up on your understanding of their platform and cloud services.\n\nNavigating those tricky questions can be tough, which is something we focused on when building this [interview copilot AI tool](http://interviews.chat). I'm part of the team that built it, and we've found it really helps people prepare for all sorts of interview questions. Good luck with your interview – you've got this!",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Justifying you're worth more than a Junior",
+      "body": "Hello everyone, I'm a ServiceNow Developer working for a mid to large company in the Financial market.\n\nMy team of devs is made up of only 2 people, and we both have the same experience with the tool - 1 year. My colleague came in with ~3-4 years of experience with another ITSM tool so he came in as a mid level dev, while I started as an Intern. After this year I was moved to a Junior position but it seems to not correspond to my real level of expertise and this is where I'm conflicted.\n\nAlthough I only have around 1 year of work experience, throughout this year I didn't have any senior or even mid level dev to train me. I was the one to manage all the projects, go to meetings, gather requirements, translate them into technical documentation, implement, do QA and deliver. I learned how to use the tool by myself and by attending some training, but most of it was rather useless as I had already learnt most of it.\n\nI've interviewed with some other companies and they were really surprised with what I accomplished this year and they all wanted me to join them as a mid level dev with prospects of going senior and managing a team in the near future (reason I didn't join them is it involved relocation which I would prefer to avoid right now).\n\nI have a bunch of responsibilities that aren't characteristic of those of a Junior dev, but my manager says a good Junior is supposed to do that. I feel it's just an excuse to not pay me well and not give me recognition. I like what I do and I do it really well, having been complimented by everyone I delivered some project to but my manager doesn't try to keep me or move me up even when I mention my discontentment, although I know they won't get someone else for the role easily where the office is and especially not for my salary if I leave.\n\nWhat's your opinion and what do you suggest?",
+      "subreddit": "cscareerquestions",
+      "score": 17,
+      "url": "https://reddit.com/r/cscareerquestions/comments/7coqay/justifying_youre_worth_more_than_a_junior/",
+      "comments": [
+        {
+          "body": "Professional development is a ***#1 very important thing*** that good managers at respectable orgs will take seriously. Without exception, it's better to advance ***exemplary*** employees within the organization than to have them leave. If you have good people, you generally want to keep them even if it means hiring a replacement for their current duties.\n\n&gt; What's your opinion and what do you suggest?\n\n\nThree potential root causes I see:\n\n* Your manager stinks\n* Your manager doesn't have the appropriate authority to take action\n* You're not as exemplary an employee as you think (*hint: the offers you've received directly contradict this notion*)\n\nMy opinion is your manager stinks. I suggest you take your talents elsewhere. ",
+          "score": 26
+        },
+        {
+          "body": "Been in your situation before. Start applying for new jobs. If your manager sucks then you have no hope. A bad manager is one who allows their key employees to leave rather than be rewarded. Don't be afraid to put pressure on them to recognize your skills (within reasonable social limits).\n\nIt's hard for me to believe that you're just bad and don't know it. A bad developer is rarely capable of managing projects, collecting requirements, technical documentation, QA, and delivery. If you can do all of that then you're already a junior developer and making a decent dent in your progress toward senior.",
+          "score": 8
+        },
+        {
+          "body": "Companies,in general, fuck over employees who try to grow internally. \n\nThey know there is an implicit inertia keeping you from jumping jobs, so current pay + monetary value of inertia= market value\n\nThey will typically try to balance it so that the difference between market value and current pay is maxized, while staying below value of inetria. Inertia goes up the more time you spend at a company",
+          "score": 4
+        },
+        {
+          "body": "[deleted]",
+          "score": 4
+        },
+        {
+          "body": "&gt;  I was the one to manage all the projects, go to meetings, gather requirements, translate them into technical documentation, implement, do QA and deliver\n\nYou're right, that's not what you'd expect from a junior engineer and your skills are best used elsewhere.  You're definitely a mid-level engineer and depending on the complexity of your projects you might be verging towards senior level.  You know what we call a \"good junior\"?  Mid-level.  And we pay them a lot more.\n\n* A junior engineer is someone who needs assistance from someone more senior in order to be able to make meaningful contributions.  They should not be managing projects or gathering requirements nor doing implementation solo on anything more than small features. \n* A mid-level engineer is someone who can mostly work independently.  They'll reach out to senior engineers for more complex things and lean on them for larger-scope product direction/design.  They may do larger features and smaller projects solo and participate in the project management/requirements process but shouldn't be driving it.\n* A senior engineer works without assistance (aside from code review) and can quite competently plan for long-term product direction.  They should be able to drive projects from the technical side and manage large projects, including helping direct/mentor mid level and junior engineers to bring the project to completion.  One sign of a senior engineer is that managers are asking them for judgement calls and will let them pick projects to put on the roadmap. \n* A principal engineer can tie together technical understanding of multiple complex product lines for a company to build the business and plan for new products.  The may also be responsible for a flagship product suite.  They should also be capable of carrying ideas through into new products.  They likely have a solid grasp of both the industry and the business ecosystem of a company.  At smaller companies a Principal Engineer could stand in for a CTO. ",
+          "score": 4
+        },
+        {
+          "body": "&gt; they all wanted me to join them as a mid level dev\n\nThen why are you still at this company?",
+          "score": 3
+        },
+        {
+          "body": "Trying to change the way other people think is almost always a losing battle.",
+          "score": 2
+        },
+        {
+          "body": "I am super impressed that you have companies recognizing your achievements and making mid level offers at this stage in your career- you are obviously branding yourself well! Kudos! Honestly, that sort of achievement recognition can be hard to come by and getting that sort of work early on is really cool- so I lean towards saying \"MOVE!\" \nBut you like where you are at- so why not have a frank discussion with your manager and lay this out: \"I am getting recruited for mid level jobs and even have offers but I genuinely like it here. I would love to work out a way in which I can have more responsibility in this job. This could look like XYZ.\" \nSo have a laid out plan for what you want before you go into that meeting. \nIt would be better for the resume to stay at a place for two years before switching. ",
+          "score": 2
+        },
+        {
+          "body": "You might be able to negotiate a mid-level title, but it will be very hard to negotiate a mid-level salary. It's very hard to move away from the salary you've started at in the same company, even if your responsibilities have grown.\n\nTbh I think the whole distinction between junior and mid-level developers is factitious bullshit. You will never know the answer to every question about a specific technology, it changes way too fast. But maybe I'm just jaded from being told I don't have enough experience :(",
+          "score": 2
+        },
+        {
+          "body": "Maybe go to your manager with an offer from another company so you can get a raise? Be careful about this, though, they may give you the raise and then fire you later out of spite because you aren't \"loyal\". If they don't see your worth by now they may never see your worth.\n\n\n\nIt may be better to jump ship in general if you get a better offer, if you aren't getting paid what you are worth then the company already probably doesn't realize what you are worth OR doesn't care to pay you what you are worth, either one of those can be a cause for concern.",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Infosys recruiter",
+      "body": "Ive been job hunting recently and an infosys recruiter contacted me (3 times) recently about a full stack role. I was interested and sent my resume until I recall that Infosys is a WITCH company so I read their reviews on glassdoor (~3 star) and its mainly a hit or miss type of company.\n\nI’ve heard that they hire developers and slowly shift them to other non-dev responsibilities which is a huge no for me along with bad management in general. I’ve also heard that it’s a laid back culture with learning opportunities. \n\nAnyway, I let the recruiter know that I wont continue with the interview process because of the reviews and general reputation. Better safe than sorry.",
+      "subreddit": "cscareerquestions",
+      "score": 6,
+      "url": "https://reddit.com/r/cscareerquestions/comments/qqy466/infosys_recruiter/",
+      "comments": [
+        {
+          "body": "Infosys was my first job out of college. Hired as a fullstack dev. Never did one day of programming or software dev. They move everyone to a support role.",
+          "score": 6
+        },
+        {
+          "body": "If it's gonna be your first job in the field, then it's actually pretty great. If it's not your first job in the field, then don't even bother.",
+          "score": 5
+        },
+        {
+          "body": "Probably saved yourself out of a 2 year contract. Good luck on your job search.",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "title": "Is it the same in all the companies?",
+      "body": "I started as a java/angular developer in a multinational company, it was good I started to work on a real-world project even if the imposter syndrome kicks from time to time  I had some wonderful teammates that helped me a lot and  answered all my questions,\n\n but the corona crisis hit the company and there weren't projects in java/angular so the manager switches me to the ServiceNow team although I have no experience, the new manager assured us this will be a test so if ServiceNow didn't click we can switch back, I spent 6 months working on it, did all tasks successfully and the new manager asked me if am motivated to keep working on ServiceNow and as a naive person I told him the truth that I'm not motivated to work on ServiceNow and I prefer to code but I'm all aware of the corona situation and I don't mind working on ServiceNow Project until the crisis is gone.\n\n a week after I found out that I'm out of ServiceNow and I have an interview in javascript, I passed the interview it was for an insurance product that had been for 40 years and used internet explorer as its browser and now Microsoft did stop supporting it, now they thinking in adding html5 to the project as well as adapting the code to other browsers and the moment of truth come when they asked me I'm motivated on working on this topic one of the interviews told if I'm motivated to jump back to the dinosaur ages and again I said the truth that I'm not motivated to work on an old product (40 years old) the interview ended.\n\nthe old manager called me that is not professional you shouldn't use motivation as an argument and we are a company we need to make money, technologies don't matter cause they change, I really didn't wanna argue with him, time passed and he adds me to this old product knowing I don't wanna do it (but we are in crisis and we need to make money) but I kept my mouth shut. \n\na new technology(40 years old) a new manager both are shitty, for the technology I can't google any problem cause it was created by the company so no one knows about it, for the manager OMG he doesn't know how to talk to the team I feel he's always right and wanna corner people to the wall and every time he speaks I hate he's voice, people say that I'm must be patient but I can't cause it's affecting my health I'm starting have severe nerve problems due to stress and anger, every month I'm with a doctor like for now il felling that my kidneys hurt like hell, and the doctor told that I just having too much stress and is starting to ruin my body, I can't quit cause I'm the one supporting my family and if I wanna change the company there aren't many opportunities in the market.\n\nwhat I wanna know is this normal in other companies or I'm just whining?",
+      "subreddit": "cscareerquestions",
+      "score": 1,
+      "url": "https://reddit.com/r/cscareerquestions/comments/mhrw80/is_it_the_same_in_all_the_companies/",
+      "comments": [
+        {
+          "body": "&gt;  the new manager asked me if am motivated to keep working on ServiceNow  and as a naive person I told him the truth that I'm not motivated to  work on ServiceNow \n\nYou get to do that once in a blue moon; you're doing it a lot.\n\n&gt;  I really didn't wanna argue with him, \n\nCould you have made any coherent argument?\n\nThis is the work they have. You either do it, or you lose the job one way or another. What else do you expect to happen?\n\nThere are situations where you get a choice between multiple opportunities, but you're clearly not in one of those situations.\n\n&gt; a new technology(40 years old) a new manager both are shitty, for the  technology I can't google any problem cause it was created by the  company so no one knows about it,  \n\nthat's literally your job as a programmer. Not everything can be found on Google or stack overflow.\n\n&gt; I hate he's voice, people say that I'm must be patient but I can't cause  it's affecting my health I'm starting have severe nerve problems due to  stress and anger, every month I'm with a doctor like for now il felling  that my kidneys hurt like hell, and the doctor told that I just having  too much stress and is starting to ruin my body, I can't quit cause I'm  the one supporting my family and if I wanna change the company there  aren't many opportunities in the market. \n\nHave you looked for one o those few opportunities?\n\n&gt; what I wanna know is this normal in other companies or I'm just whining? \n\nYou're just whining either way. It doesn't matter what is and isn't \"normal\" in life. Just because something is \"normal\" doesn't mean it's good, or that you should accept it. Likewise, something being \"not normal\" doesn't mean it's wrong, or gives you reason to object.\n\nThis is a you-problem. (Bad management excluded.) Nobody is obligated to hand you the perfect job on a silver platter. Companies do indeed exist to make money. Employees are hired - and paid - to do stuff that generates money.\n\nDon't get me wrong: Work can be enjoyable. It should be. But it's for you to find and seek out things you can enjoy, and that will not always be possible. And then it is for you to decide what to do about it.",
+          "score": 7
+        },
+        {
+          "body": "It sounds like you're working on a software integrator / contracting company. Is this correct?",
+          "score": 1
+        },
+        {
+          "body": "Those were the longest run on sentences I’ve ever seen.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Thoughts and/or experience looking for new job after only working for 3 months at current job?",
+      "body": "**DISCLAIMER**: I'm not quitting without having anything lined up.\n\nHi everyone. I know these kinds of posts get posted often, so I'll try to keep it short as possible.\n\nGraduated in 2018 and was jobless in tech industry until 3 months ago. Started first full-time job in tech 3 months ago at big company. Great pay and okay experience so far.\n\nYou might be wondering:\n\n**\"Why do you want to look for a new job if the pay is great and experience is decent so far?\"**\n\nTwo things: I got hired for and work with ServiceNow, and I have to always interview for projects. I don't like ServiceNow and don't like always having to interview for projects because it makes me feel like I don't even have a job.\n\n**\"Why did you take the job then if you don't like ServiceNow and interviewing for projects?\"**\n\nComplete and utter desperation. Being jobless for 2.5+ years after graduating college made me desperate; not Revature desperate though. I got tired of constantly applying for jobs and getting rejected with the added thought of feeling like a failure every day I didn't have a job in tech. Also, the interview was easy and the offer was damn near impossible to deny after being broke for a long time.\n\n**\"What jobs are you thinking about looking for?\"**\n\nI like front-end development and the occasional backend, but mostly front end. I don't want to get pigeon-holed into ServiceNow. ServiceNow under the hood is very outdated and monolithic IMO. It uses JS5 and has been for 7+ (?) years, so.....yeah.\n\n**\"What do you want us to tell you?\"**\n\nJust if you, or anyone you know, ever had the same experience of looking for a job after only working at your current job for a short period of time. What was your approach to looking for a new job and how hard was it?\n\nThat was longer than I intended, but.....yeah.",
+      "subreddit": "cscareerquestions",
+      "score": 1,
+      "url": "https://reddit.com/r/cscareerquestions/comments/r5eq7l/thoughts_andor_experience_looking_for_new_job/",
+      "comments": [
+        {
+          "body": "Left my previous job after 2 months. Wasn't really an issue. Expect recruiters to ask you about it. Just have a good reason.",
+          "score": 2
+        },
+        {
+          "body": "I think if you told any recruiter that you're leaving because you had to interview per project, they would completely understand lol. That sounds awful.",
+          "score": 1
+        },
+        {
+          "body": "It’s fine",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Best route for a fresh MIS graduate with no work experience?",
+      "body": "I will be graduating this month with a Bachelor's in Management Information Systems. I started out in nursing for the first two years of my degree, and then swapped to MIS for the last two years. I have no real work or internship experience as I have been taking a full 18 credit hour course load every semester while also babysitting my nephew from 9 to 5 four days a week for the last year and a half. I realize for the benefit of my own career I should have asked my brother to find someone else to care for him, but I love my nephew and enjoyed experiencing his early life in the way that I have.\n\nThe courses that I enjoyed the most were those involving programming, learning languages like Python and HTML/CSS/JavaScript. I have a minor in Application Development, in which I learned Swift and built a functional application that I'm relatively proud of. However, none of these classes ever went super in-depth due to the nature of the MIS program spreading itself thin to provide both business and IT courses.\n\nHonestly, I don't even know what I should be applying for. I've applied to a few entry level developer positions. One that seemed promising that I went through a few interview rounds for decided that I was not qualified enough as I had no specific Java experience. I wouldn't mind a role as a Business or System Analyst, but all of the positions that I have seen that are marked as \"entry level\" still require 5+ years of experience. Not sure where I would start with that, either.\n\nWhat would be the most reasonable place to start when applying for jobs with an MIS degree if I would like to be a developer? Should I try to go for a help desk position, or would that be selling myself short?\n\nI was also offered an interview for an entry level ServiceNow position. Would this be a good place to start, or should I be worried that I could get \"stuck\" learning ServiceNow while gaining no other experience? (Sorry if this sounds ignorant - I am just not sure how it all works as I have no experience in the field!)",
+      "subreddit": "cscareerquestions",
+      "score": 5,
+      "url": "https://reddit.com/r/cscareerquestions/comments/kbchac/best_route_for_a_fresh_mis_graduate_with_no_work/",
+      "comments": [
+        {
+          "body": "MIS (almost) grad here who eventually transitioned into web development.\n\n&gt;Should I try to go for a help desk position, or would that be selling myself short?\n\nA helpdesk or support engineer type position is not a bad way to get your foot in the door, but unfortunately it's easy to get stuck in that career path. I had a few friends at a previous company (SaaS marketing tech company) who were convinced they had to go from Support Engineer to Implementation Engineer before Software Engineer because that is what our company dictated.\n\nIf you do end up taking a role like that, continually work on your side projects and deepen your skillset, and start interviewing for software engineer roles no later than 6 months after you start.\n\nMy perspective going from Implementation Engineer to Software Engineer was that while there is overlap in technical knowledge, the day-to-day work and skills are completely different. I remember my manager telling me I had to \"master my current role before being considered for a transfer/promotion into a developer role\" and while I understood his perspective, it just made no sense to me because debugging random customer issues is completely different than designing and building apps to solve business problems.\n\n&amp;#x200B;\n\n&gt;Honestly, I don't even know what I should be applying for. I've applied to a few entry level developer positions. One that seemed promising that I went through a few interview rounds for decided that I was not qualified enough as I had no specific Java experience.\n\nIn my opinion, you should continue to apply for entry level developer positions. Being entry level is tough for most grads, wether they be CS, CS adjacent degrees like MIS, or bootcampers. Don't let one rejection stop you; you'll probably go through 20+ rejections before you get a job offer.\n\nMy general rule of thumb is to apply to positions that require less than three years of experience; most companies will consider new grads for those.\n\n&amp;#x200B;\n\n&gt;However, none of these classes ever went super in-depth due to the nature of the MIS program spreading itself thin to provide both business and IT courses.\n\nContinue to work on your technical skills and figure out where your gaps are. I'd try to reach out to the company that rejected you and see if they'd provide any feedback or guidance on what you could work on (odds are they wont unfortunately, but it's worth a shot). Another way to figure out what you're bad at is to take the Triplebyte quiz. I'm not a huge fan of their operation, but what's nice is that after you fail the quiz, they'll tell you what to work on to improve and give you some resources.\n\nTake that feedback into account and continue to build apps that require skills/tools that you're inexperienced with. An app you can get passionate about building is the best way to learn quickly.\n\n&amp;#x200B;\n\n&gt;I realize for the benefit of my own career I should have asked my brother to find someone else to care for him, but I love my nephew and enjoyed experiencing his early life in the way that I have.\n\nNow that you're finishing up school, you should definitely dedicate more time toward learning programming if you want to become a software engineer.\n\nThat being said, you shouldn't feel bad about not prioritizing programming 24/7. In the years ahead, you'll look back fondly at that time spent with your nephew, even if it means it takes you a few months longer to find your first job.\n\nI was in a constant state of grind for 2.5 years before I \"made it\" getting a job at a FAANG+/Big N/whatever-you-want-to-call-it company. In that time, I didn't prioritize my health or my social life enough. Once the pandemic is over, none of my free time will be spent coding, I'll be doing everything else. And since I moved back home during shelter-in-place. I'm spending a lot of time with my family, especially with my niece whom I see every week. No regrets there!\n\n&amp;#x200B;\n\nHope that helps, let me know if you have any more questions!",
+          "score": 4
+        },
+        {
+          "body": "Apply for relevant jobs and practice the things in their ads.",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Cautionary tale: ServiceNow offer rescinded after acceptance",
+      "body": "Throwaway account.\n\nThis happened about a year ago; just now talking about it because it was a painful experience. I interviewed at ServiceNow in Santa Clara for a dev position and got a great offer, which I immediately accepted. It was with a great team, and the manager and I really hit it off during the interview. During the onboarding process, they did a background search and drug test. I had been using medical marijuana for about a year (with a prescription); it didn't even cross my mind that it would be an issue since I have a prescription for it, and medical cannabis was legalized in California the year I was born. On top of that, I hadn't used in over a month. So when the drug test came back positive for THC, the HR/recruiter person called me and rescinded my offer. He followed up with an email that said:\n\n&gt; ServiceNow adheres to U.S. Federal law regarding drug testing. This means if a drug has been legalized at the state level, and not at the federal level, and an individual tests positive they will fail the drug test and be ineligible for employment at ServiceNow for at least one (1) year.\n\nIt was heartbreaking, and frustrating since I had informed all the other places I was interviewing at that I had accepted an offer at ServiceNow. It took another two months before I got another offer (this time from Salesforce). This time I was upfront with the Salesforce recruiter about my medical marijuana use; she laughed and said it's not an issue even it was recreational use. While it ended up working out ok for me (love my job at Salesforce!), I still felt terrible about this experience.\n\nThe ServiceNow recruiter cited their government contracts as the reason for the strict policy. But surely many other tech companies in the bay area that don't drug test also have government contracts, right? Salesforce certainly does; so do Google/Oracle and others, and none of them do drug tests. Is the \"government contract\" thing just an excuse for their policy? Sigh, anyway, doesn't matter now.\n\nMoral of the story: research the company's drug test policy before applying.",
+      "subreddit": "cscareerquestions",
+      "score": 6,
+      "url": "https://reddit.com/r/cscareerquestions/comments/9e0f4x/cautionary_tale_servicenow_offer_rescinded_after/",
+      "comments": [
+        {
+          "body": "They did a drug test which you knew about (they didnt snatch your hair from the interview chair, did they), you also knew you used drugs which they will detect (THC last 6 months in hair iirc), but you neither informed them of your drug use despite being tested and just waited for the result and you told other firms you had a job? and now you blame the company? lmao",
+          "score": 29
+        },
+        {
+          "body": "Probably just corporate posturing. The lesson here is that (1) just because something is legal, doesn't mean a company can't turn you away for it and (2) if they're drug testing you, there is a decent chance you're getting turned down if you test positive.",
+          "score": 15
+        },
+        {
+          "body": "&gt; This happened about a year ago; just now talking about it because it was a painful experience. I interviewed at ServiceNow in Santa Clara for a dev position and got a great offer, which I immediately accepted. It was with a great team, and the manager and I really hit it off during the interview. During the onboarding process, they did a background search and drug test. I had been using medical marijuana for about a year (with a prescription); it didn't even cross my mind that it would be an issue\n\n\nstopped right there, thought this was gonna be about the company being a dick (and I was surprised, SN has seemed pretty good) but it turns out you're just a dumbass.",
+          "score": 5
+        },
+        {
+          "body": "[removed]",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Being offered a position using ServiceNow, not sure if it's a good move...",
+      "body": "I recently graduated from a coding bootcamp and have received a couple of offers and am still in the interview process with a few other companies.  I am entertaining an offer from a company that is a ServiceNow Gold consultancy company, that wants to bring me on to train me in ServiceNow and eventually put me in a consultancy role.  I've got a few concerns, the first one mainly being that I'm unsure how limiting this will be for future job prospects.  From what it sounds like, I won't be doing as much actual developer works as will be configuring the ServiceNow platform to fit client needs.  I'm worried that if I decide to change careers I could be limited to ServiceNow roles, because my developing skills could become rusty if I'm not using them on a day to day basis.  I also just really like coding, to be fair I have really enjoyed JavaScript and React, which doesn't seem far off from what I'd be using with ServiceNow(seems like JavaScript &amp; Angular are the language and framework of choice).  But I really enjoy building something, figuring out the logic behind making a feature work properly, I'm not so sure configuring a platform would be fulfilling to me.\n\n&amp;#x200B;\n\nI'm not sure if anyone else here has been at this crossroads before, and either accepted a position on the platform or turned it down.  I guess I'm kind of just looking for any advice some of you vets could give to someone who's just starting off in this business.",
+      "subreddit": "cscareerquestions",
+      "score": 3,
+      "url": "https://reddit.com/r/cscareerquestions/comments/9z5j57/being_offered_a_position_using_servicenow_not/",
+      "comments": [
+        {
+          "body": "&gt; From what it sounds like, I won't be doing as much actual developer works as will be configuring the ServiceNow platform to fit client needs.\n\nI'd try to focus on getting an actual development position. So only take it if there's no better options. ",
+          "score": 5
+        },
+        {
+          "body": "Thank you everyone that responded.  Luckily I have another offer in mobile dev with React Native.  Safe to say I'll be heading in that direction.  Thanks!",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Career Growth Advice: ServiceNow (SDE Internship) vs Walmart Global Tech (SWE Internship)",
+      "body": "Hey guys! I got an offer for a summer internship with **ServiceNow SDE Internship and Walmart SWE Internship (Bentonville, AR)** and I need some advice deciding between the two.\n\nI'm less concerned about getting a return offer from these two companies since my plan is to get one more internship before I graduate (I'm graduating in 2022) and hopefully have a strong foundation of internships before I apply for full time. \n\nAny advice would be greatly appreciated! I've asked a handful of people and they've all been swayed by the money for ServiceNow. However, I'm trying to think and weigh out whether or not the money is worth more than the experience I get out of the internship. **It's my first SWE internship and I only have a chance at one more internship (aside from this one) before I graduate so I've got to make it count!**\n\n*My concerns:*\n\n**ServiceNow:** I'm worried ServiceNow will limit me to their platform only and I'll be branded to SAAS and only have so much space to move to other SAAS companies (Salesforce, AWS, etc.) This is a main concern because I don't particularly now what I want to \\*do\\* yet. Also, I'm worried the projects I'll be working on don't involve much coding and so I won't have many talking points during my future interviews. This is for their IT department so I'm not sure what I'd be working with. I spoke to my supervisor and he said I'd mainly work on front-end type tasks but depending on how much I can accomplish during the 2-month internship I could be set for full-stack experience. The pay is better than average and there's great benefits (bonus, housing stipend despite remote, etc.). In addition, my team has been very attentive and responsive and I really adore my recruiter.\n\n**Walmart:** Most of my concerns for this internship is based on how vague it is. I'm not sure what I'd be working on (except knowing that I'll have an individual intern project that's expected to be delivered by the end of the internship). Let's get this straight -- this isn't Walmart Labs. The Walmart Labs team is located on the west coast and my team is situated in Bentonville, Arkansas. To further clarify, Walmart Labs is a part of Walmart Global Tech. But, my position is for Walmart Global Tech (mentioning this because people assume it's for Walmart Labs). The pay is okay ($22/hr) but I haven't had the greatest experience with my recruiter. I've heard that interns work on anything from front-end dev, mobile dev, ML/AI, etc all the way to basic site maintenance. I'm not sure what I'm getting myself into except the fact that it's Walmart Global Tech and that it's located in Arkansas. But hey, they're Fortune #1 right?\n\nIf you've read this far -- thank you. I'm a bit new to this and I don't have many people to look to for advice. If we have a cool convo I'd love to connect! Hope you guys haven't been going crazy in quarantine.",
+      "subreddit": "cscareerquestions",
+      "score": 1,
+      "url": "https://reddit.com/r/cscareerquestions/comments/mfa4tq/career_growth_advice_servicenow_sde_internship_vs/",
+      "comments": [
+        {
+          "body": "If the pay difference is that large, take the higher-paying internship.  Pay correlates with expectations, mentorship quality, overall quality of the engineering team and tech stack, and how complex a project they are likely to assign you.\n\nThe pool of interns they can get for $40/hour is likely to be much more qualified than the pool of people they can get for $22/hour, so the $40/hour place will probably assign you a more challenging project.\n\nThey can say anything they want to try and sell you, but in the end, money talks.  (At least that much money.)\n\n&amp;#x200B;\n\n&gt;I'm worried ServiceNow will limit me to their platform only\n\nDon't worry about this.  At the higher tier companies, it sort of doesn't matter what tools you've worked on.  For example, Google and Facebook have entirely proprietary infrastructure, and some people from there only write code in languages that aren't used by any other companies.  But companies snap up ex-FAANG people regardless.\n\nIt sounds like ServiceNow is a \"higher tier\" job (based on pay), and that's more important than what languages you use.",
+          "score": 9
+        },
+        {
+          "body": "ServiceNow would be an amazing brand name on your resume. Go with SN",
+          "score": 6
+        },
+        {
+          "body": "Following. Hoping for some insight on Walmart as well!",
+          "score": 3
+        },
+        {
+          "body": "Things often move very slowly starting from recruitment all the way through internship projects  within lot of teams at Walmart. Don't expect to learn much from your Walmart internship unless you get an amazing manager and mentor. Your team at servicenow is excited about having you and they also pay you well Servicenow seems like a better option.  Also, recruiters at Walmart take way too much time to get things moving. I wouldn't recommend Walmart especially if you would be working for a team in Bentonville.",
+          "score": 2
+        },
+        {
+          "body": "[removed]",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Technical Consultant vs. Software Engineer vs. Leadership Development rotation (cybersecurity/software engineering track) vs. ServiceNow Developer",
+      "body": "Hey everyone,\n\nI'm finishing up my fall recruitment process, and I've landed a two offers and two final-round interviews that may possibly end in an offer. With any of these companies, I am realistically not looking to stay for more than 2 years maximum before transitioning to a better company/location. Unfortunately due to my grades/university (State university with only slightly above 3.0 GPA), those dream companies aren't really an option for me at this point. All are in medium COL areas with similar rent prices, though all different cities.\n\nHere are my options:\n\nLarger startup\n\nTechnical Implementation Consultant, focusing on GDPR and CPA compliance\n\n78K, 91k TC (but this state has income tax)\n\n&amp;#x200B;\n\nLarge Bank\n\nSoftware Engineer\n\n81K, 85K TC\n\n&amp;#x200B;\n\nLarge Bank\n\nLeadership Rotational Program with likely focus to be within Cybersecurity and Software Engineering\n\n\\~80K, \\~95k TC\n\n&amp;#x200B;\n\nMedium sized Investment Firm\n\nServiceNow Developer (IT role with possibility of moving to SWE in future)\n\nUnknown due to no salary reporting able to be found, but likely to be slightly higher than other offers. Expecting \\~100K TC\n\n&amp;#x200B;\n\nLet me know what you all think!",
+      "subreddit": "cscareerquestions",
+      "score": 2,
+      "url": "https://reddit.com/r/cscareerquestions/comments/qod1m3/technical_consultant_vs_software_engineer_vs/",
+      "comments": [
+        {
+          "body": "Technical consultant - no “consulting” is the last thing you want to do as junior developer. You won’t be consulting anyone. You will be cheap disposable staff augmentation and you don’t learn best practices or get mentoring. \n\nServiceNow - no, you don’t want to be stuck on a proprietary platform instead of true software development. \n\nI don’t have an opinion about the other two.",
+          "score": 5
+        },
+        {
+          "body": "My advice is if you're already this undecided about what you want to do, do the leadership development program. That's what I did, I was actually in a program at one company and then left for another.\n\nBut these let you meet a LOT of people, are usually endorsed by upper management so you get a lot of visibility, a lot of training, and make you part of a group, with alumni from the program you can network with. \n\nAlmost all the development programs pretty much guarantee a job at the end of the rotations with a significant pay bump. One of the companies had baked into the program at least a 20% bump at the end.b",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Should I quit full time serviceNow job for internship at big company",
+      "body": "I posted this question earlier this week but it was a weekday night so I didn't get a lot of replies so here I post it again:\n\n&amp;#x200B;\n\nExperience level: less than 1 year. Total noob.\n\nI got an 2020 summer internship offer (paid) at one of the big banks in the US last year(boa, chase, usbank....) and was told I would be offered fulltime if it goes well. During the interview i heard key words like build api, microservices, cicd...which seem to be good things to learn(?)\n\nBut I also just got an fulltime offer as a servicenow developer at a small company, now there's only less than 4mo before the bank internship starts. So I have 2 choices: quit in May and take the internship or decline the internship and continue to work on serviceNow.\n\nI'm very new to the industry and I'm afraid servicenow would be limiting in terms of future growth. I also think it would be nice to have the bank's name on my resume but if I didn't get a return offer after I would end up with no job so it's a little scary. My husband also said he personally would not quit a fulltime job for an internship but he's not in CS.\n\nWhat would you guys do if you were me? If I were to quit is there a way that I can do it so gracefully that my previous job will take me back if things didnt work out with the bank?(is it too much to ask for)\n\nTL;DR: should a noob quit fulltime servicenow dev job at small company for summer internship at big bank. Is the risk worth it?",
+      "subreddit": "cscareerquestions",
+      "score": 2,
+      "url": "https://reddit.com/r/cscareerquestions/comments/f4fn98/should_i_quit_full_time_servicenow_job_for/",
+      "comments": [
+        {
+          "body": "quit a perm job for an internship with a *probability* of it converting into permanent job?\n\ni don't think this is wise... it depends on how risk averse/risk taking you are feeling\n\nimo, you are in a better position to get a better job when you are employed, rather than unemployed.",
+          "score": 5
+        },
+        {
+          "body": "I wouldn't worry about growth. I had two internships during college as a \"regular\" software engineer and my first job out of college was as a SNOW developer and I was able to transition into a software engineer position. You apply a lot of the same abstract concepts in service now development and \"normal\" software development. Also service now developers are in demand and a lot of my SNOW developer friends make over 110k.",
+          "score": 2
+        },
+        {
+          "body": "Taking an internship over a full time job is like taking $200 worth of lottery tickets over $100 of cash. Get the real experience instead of the possible job opportunity.",
+          "score": 3
+        },
+        {
+          "body": "I would go with the internship. The fact that you are able to land a full time job now means that your qualifications are probably good enough that you would probably be able find another full time job after the internship if it doesn't work out. Also from the sound of it, you do seem to feel like the service now job may box you in and you would prefer to learn the tech stack of the internship. Especially after the internship, your resume will only look better than it is now!",
+          "score": 1
+        },
+        {
+          "body": "How about you talk to your internship recruiter and ask him/her about your chances of receiving a return offer? Let your internship recruiter know that you have a full time offer. You can also ask previous interns and stuff as in some companies receiving a return offer is almost guaranteed while other companies rarely give return offers. Additionally, you can also try contacting servicenow and asking them about the possibility of starting at a later date so you can do your internship.",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "title": "Software Engineering Internship Struggle",
+      "body": "This is a crosspost from /r/csmajors, please let me know if its not allowed here.\n\nHey all,\n\nSo like many others I've been applying to lots of internships and have been grinding out Leetcode pretty often. I've applied to over 100 companies and only got 3 replies. One of them was Amazon who ghosted me after I finished OA3 (thought I did pretty good as well) and one of them is ServiceNow who not only missed our first interview, but when I sent an email to confirm our second interview they ghosted me and I haven't had that second interview either.  I managed to get a Google Interview a year ago but even they rejected me right away this year.\n\n&amp;#x200B;\n\nMaybe its my resume? I've done an internship before and have lots of extra things on my resume. I've even won a bunch of hackathons and showcase them. What am I doing wrong?\n\n&amp;#x200B;\n\nHere's a link to my resume, maybe I'm missing something important? [https://pdfhost.io/v/Ou1cDwee\\_Anonpdf.pdf](https://pdfhost.io/v/Ou1cDwee_Anonpdf.pdf)\n\n&amp;#x200B;\n\nI'd appreciate any advice you guys have for me!",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/f6kcyh/software_engineering_internship_struggle/",
+      "comments": [
+        {
+          "body": "Your bullets has a lot of what you did, but not what the results of what you did were. Like \"I made blah changes to blah platform, causing 50% increase in blahblah\".\n\nMake sure you have your graduating year on, especially when you're a junior.",
+          "score": 4
+        },
+        {
+          "body": "Echoing the other comment, make your bullets about what you ACHIEVED, not what you did. It makes you stand out and it shows employers that you actually mean something rather than just following simple directions",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "6 YoE, Unemployed, IT, United States",
+      "body": "Hello Everyone,\n\nI need your help and assistance with my resume. I have attached my resume for your review. I have been searching for a job in the IT support field since last October, as well as in other areas such as customer service. I have applied to many jobs locally and remotely. I have applied for entry-level jobs and intermediate jobs. But I am getting rejected. I have only gotten 3 interviews. I have customized my resume multiple times based on the job description. I also got a Microsoft Azure Administrator Associate certification in May. But, not getting any job. After I fill out the application and submit my resume, before I even get an interview, I get straight rejection emails. I think one reason is the employment gap.\n\nCan you please advise me on what is wrong with my resume?\n\nThank you Everyone",
+      "subreddit": "jobs",
+      "score": 8,
+      "url": "https://reddit.com/r/jobs/comments/1le0rh0/6_yoe_unemployed_it_united_states/",
+      "comments": [
+        {
+          "body": "I doubt it’s your resume. I know people who have worked in IT for decades with no gaps in their resume who were laid off recently and haven’t been able to find a job in months. \n\nIf you are getting some interviews I doubt it’s the resume. It’s the job market. All you can do is keep applying and see if you get lucky!",
+          "score": 14
+        },
+        {
+          "body": "Find a way to reword the caregiving for 3 years. There is no empathy in this job market of what your circumstances were some might see that as indicative of being \"out of date\", \" not wanting a job\", you name it",
+          "score": 5
+        },
+        {
+          "body": "I like it! Just a few minor things:  \n\\- I'd remove the line that's under your contact info, having the two lines so close together doesn't look appealing to me.\n\n\\- Shorten the skills section to highlight the skills the job post specifically requests. Having a big wall of text like that is hard to read for someone screening your resume and probably won't read it.\n\n\\- It's probably a good idea to elaborate more about what you learned or what skills you developed during your leave. What specifically did you learn? What coursework did you do? Did you study python, volunteer somewhere, read some books about the IT field? Just some examples. Having just one vague bullet point isn't very informative.\n\n\\- I'd move the certification section to be after your education section. It is valuable to have, but it's not going to be the deciding factor, unless the employer is specifically looking for candidates that have that specific certification.\n\nOtherwise you have a good resume, as a fellow unemployed person in tech. It's easy to read (skim), you have measurable results and metrics, the formatting and spacing is consistent throughout, minimal buzzwords/cliche words or phrases.\n\nKeep in mind that IF (which is unfortunately more and more unlikely) a HR rep, hiring manager, etc. sees your resume, they give it max 6 seconds before moving on and putting it in the yes or no pile. Best of luck!",
+          "score": 3
+        },
+        {
+          "body": "Focus less on the resume and more on network. What are the types of companies that would hire you. Find out who works there. Used LinkedIn. Follow them and offer them value. What will you do or bring that other candidates won’t. You need to stand out and that comes with a connection or being bold somehow.",
+          "score": 3
+        },
+        {
+          "body": "More h1b should fix the problem! Oh way",
+          "score": 7
+        },
+        {
+          "body": "Some basic tips:\n* needs to be a single page. Maybe reduce the summary and/or streamline the formatting on your skills \n* update the caregiving section by changing the starting year to January 2022 vs Dec 2021. This way it doesn’t look like you’ve been out of work for 4 years and only looks like 3 \n* update the caregiving section to say something like “care giving/studying” and list the “labs” and coursework you did- but only list the highlights/accomplishments (special projects you completed,\nexceptional scores, etc). Again, the goal is to make it seem like you’ve been keeping your skills a sharp. \n\nLastly, would you consider going back your job from 2021? Sometimes the best hire (for a company) is a “boomerang” employee (aka, someone who worked there, then leaves, and decides to return) since you know the environment, people, etc. if yes, you should reach out to your old manager (use LinkedIn if you don’t have their info) and let them know you’re  back on the job market. If they don’t have anything, they may know someone who does.",
+          "score": 2
+        },
+        {
+          "body": "The bullet points for the system admin roles feel like they’re too vague and not technical enough for what that role actually requires. I have more technical/larger projects than that on my resume under support engineer roles. \n\nThere’s no mention of any of your Azure skills in these roles. Cloud is everything in tech and your experience is saying “I have Azure certifications but I never used them in my actual job”",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Any updates/insights on Service now hiring process?",
+      "body": "Hi everyone,\nI had an interview with ServiceNow about 4 weeks ago. The HR Recruiting Manager mentioned it was for an immediate requirement and even said the expected joining date was October 1st.\n\nI had my first phone interview with the HR manager over Zoom, and they told me I would hear back in a week. Tbh, the interview went really well. But it’s been more than 3 weeks now, and I haven’t received any updates. I even sent 2 follow-up emails, but no response so far.\n\nHas anyone here faced a similar situation with ServiceNow’s hiring process? Or is there anyone from ServiceNow who can share some insights on whether this is normal?\n\nThanks in advance.",
+      "subreddit": "jobs",
+      "score": 0,
+      "url": "https://reddit.com/r/jobs/comments/1ntekjz/any_updatesinsights_on_service_now_hiring_process/",
+      "comments": [
+        {
+          "body": "Yeah that’s normal. “Immediate requirement” in HR language can still mean months of silence. If they have not replied after two follow ups, take it as a maybe-leaning-no and keep applying elsewhere.",
+          "score": 2
+        },
+        {
+          "body": "Frankly, that’s a long stretch of silence considering you’ve sent two follow-up emails.  The recruiter has dropped the ball. It’s poor form from an HR standpoint. That should be a clear sign that you redirect and keep exploring/applying for other jobs. Don’t waste time waiting on a response.",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Roast my resume. Laid off abt 8 mnths ago, still haven't got a job...",
+      "body": "I've worked in the tech support domain for 3.5 years, was laid off on july 2024. I've applied to a ton of jobs, but havent received any response. managed to get only 2 interviews until now, but they too ghosted me after the first round. I'm not getting interview calls. desperately need a job coz of my family situation. It'd be really helpful if anyone can roast my resume and let me know what are the defects and what can be improved. Pls guys!\n\nhttps://preview.redd.it/92i6l235d1re1.png?width=725&amp;format=png&amp;auto=webp&amp;s=835a8196bd6250babe9b0f5b801afd19edb7f461\n\n",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/1jjgkoq/roast_my_resume_laid_off_abt_8_mnths_ago_still/",
+      "comments": [
+        {
+          "body": "Where's the resume?",
+          "score": 1
+        },
+        {
+          "body": "Is that the actual format?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Jobs - Notes",
+      "body": "I lurk on Reddit, browsing thru a few subs.. \n\nI see lot of candidates expressing concern on finding jobs. Here are some notes. Hope you find it useful.\n\nI work as a Senior Consultant is a fairly large IT Company. We have 50+ job opening at various levels (Technical Service Desk Agents, Developers, DevOps Engineers, Architects, Project Managers). We are unable to fill these, as we don't find qualified candidates. I am on the Interview Panel for some of these positions. In the last 2 months, I have conducted 45 tech Interviews, but rejected most of them \"not meeting the minimum job requirement\".\n\nAcross other positions, my co-workers also have rejected an equal number of candidates.\n\nMind you - these are not highly specialized skills. Majority of them are a few years' experience in skills like: Service Desk or Cloud or Developer DevOps or PM. Last week, one of our other units added 12 Serice Desk Trainees, for which they scouted for 2 months.\n\nThis post is to give an overview of how we do this and **also an encouragement to job seekers** (young and old), that from your side, you are finding \"market is tough\", \"you are not getting responses to your application\" etc., but looking at it from corporate side, we have several openings to be filled immediately, but we are not reaching or getting qualified candidates.\n\nHere are my notes:\n\n**Our Interview process** - Not extremely long. 1**) Recruiter** - receives the Resume 2**) Recruiter -** goes through your resume **3) Recruiter** - does an initial HR round 4**) Tech shortlist** - me or my colleague **5) First round Tech Interview** (30 mins to 1 hr.) 6**) Final round Tech Interview** - me or my colleague (minimum 1 hr.) **7) Final HR round** - for the offer letter, comp negotiations etc.  Notice - even for such a short process, a candidate is actually going through 7 evaluation rounds.\n\n  \nEach step is detailed below:\n\n1) **Recruiter - receives the resume** - LinkedIn, Indeed, Dice and through multiple third-party agencies (who get a commission for each candidate). Net Net: we source them from the market. Our recruiters are NOT based in offshore. They are all based in US getting paid to submit a good resume. They have targets for how effective they are in sourcing good resumes that clear the initial review. Our company has hired about 10+ recruiters (head hunters) to get resumes from the approved sources. We also have multiple referral programs for our internal employees. **My notes on this point** - If your resume is up there in the Job Portals or with any reputed recruitment agency, one of my recruiters will definitely get it. If you have friends or family, a referral will get your resume quickly to a Recruiter\n\n2) **Recruiters - goes through your resume** - The Recruiter / or the first Tech Eval person, matches the candidates resume with the Job Description / Requirements (we call it JR. Some people call it JD). Job Descriptions are NOT multiple pages. Just about 8-10 bullet points plus some paragraphs. **My notes on this point** - Read the Job Description, line by line and make sure that each point in the JR is reflected in the resume. It is ok to have on your resume first page, the JR and some annotation as to how you fit the JR perfectly. The recruiter looks at the match of your resume to Job Description and that is how the resume bubbles up, to be considered for shortlisting\n\n2a) **Resume Content / Quality / Quantity**: We don't worry about resume quality. Even spelling errors are acceptable by our recruiters or our Tech Panel. I am on the Tech Panel and never bother about spelling or grammar. Though it is good to have the discipline. As mentioned above, we first look at the JR match with resume. If the resume directly comes to me or my colleagues (who are billable at client projects), we don't match the resume with LinkedIn, but the recruiters sometimes verify the LinkedIn. So if you are posting a LinkedIn reference, match it as closely to the resume as possible (months, dates, designation, role etc.). We don;' fret if there are slight discrepancies, example you may be Project Lead, but you have mentioned as a Project Manager in LinkedIn. We get lot of AI written resumes. We have subscription for \"AI Detectors\". I don't reject AI resumes, but some of my coworkers reject all AI resumes. My suggestion, as much as possible avoid AI written resumes. You can go two steps. Get it written by AI. There are tools on the Web that convert AI resume to a human resume. Use those to make your final resume, so that the stricter evaluators don't land up rejecting the resume. What to put in your resume - We get wary with long resumes. We like to see, max a 3-page resume. Maybe half first page is - fitment to the Job description, then a half page highlight. Next 2 pages could be your work experience. Make sure that as much of the wolrk experience listed matches the Job Description. I got a resume today, for a DevOps Engineer. The resume says 2018-2020, they worked as Teaching assistant. and all the duties they have performed. while listing the duration-role is ok, no need to put the teaching highlights into this position. The last page SHOULD have your Certifications. All my colleagues look for Certifications.. I definitely look at Certifications.  In fact, for some position - example: ServiceNow Engineer or Google Kubernetes Engineer, I have cleared a few resumes like this, without even looking at the rest of the resume, because of the need for Certification for that position. More on Certifications later down. As far mentioning experience - we are mostly looking for immediate relevant experience. What the candidate has done 10-15 years ago is of minimal interest, unless it is relevant to the Job. For example - I saw for a full-stack developers, someone putting a 5 year Mainframe COBOL experience, done 15 years ago. Should be mentioned, but not in detail. Use that 3 page space effectively highlighting relevance and concurrency to the job Description. Also, what we don't need in the resume and not interested - your hobbies, your references etc.  Not at this point. Net Net: a 2- or 3-page resume with relevance and concurrency. As far as resume format - doesn't matter to us. could be Word, could be PDF\n\n3) **Recruiter does an initial discussion - called initial HR round** - if the resume gets picked up, our recruiter does an initial HR round. This is to filter the candidates, so that the overload does not come to the Tech Shortlist Team. They normally have a video conference (Team or Zoom). Nothing very specific here. Just make sure you impress the recruiter - dress well, groom well, have clear audio-video, emphasize that you are a perfect fit, if there is a self-assessment questionnaire, don't be \"too honest\". Example \"core ServiceNow experience\". If you don't have core expertise, but you know the basic, say that you are well versed. The Tech Panel will decide how deep they require that knowledge. No need to get rejected at this stage by being too honest. Try to rate yourself above 4 if they have a 5-point scale in all the tech questions. Remember they are 'Recruiters\", Not tech engineers. They are reading off a script to shortlist you. Some of the shortlisting questions I prepare and give to recruiters to score off. Also to note, if there are some facts that make you standout, it is good to mention here - example you have authored a book, no matter what book, good to mention, if you are a Google Scholar, mention that. What happens is that the Recruiters will make all such notes and these may be useful in Tech Shortlist. So any good points mention here\n\n  \n4) **Tech Shortlist** - **Assuming you cleared the HR shortlisting, then the resume come for a Tech shortlisting** - If your HR / Recruiter round went well, many candidates are elated. But it may get rejected here. The HR / Recruiter round, as I mentioned, is to reduce the overload on the Tech Shortlist. You HAVE to clear this particular this Tech shortlist before you get called for the Interview. This is the place where I enter. Or one of my colleagues enters. We are billable people working 8-10 hours with clients. We spend not more than 30 min.  (sometimes just 10 minutes) to clear the candidate. That is where all my point in item 2a come into play. So, if you resume is in alignment to points mentioned in 2a, I will definitely like it.  I or my colleagues just send a 1-line mail to the Recruiter \"approved\". That means, the Interview should happen. No specific points here, except that follow 2a guidelines. I have seen candidates coming to the interview as \"proxy candidates\" Meaning they are on video, but a friend is taking the Interview  DO NOT DO THIS. We have tools that detect this and it is an instant reject or a reject down the line\n\n5) **First Round Tech Interview** - by a Tech person, like me a Senior Consultant. Mostly 30 mins- max 1 hr. This is an independent assessment. We sometimes refer the notes from 2). But interviews like to do it their style. This is generally 30mins max to 1 hr. As stated, we all are billable people. We do 1 or max 2 of these kinds of interviews per day.   We are looking at the first 15-20 mins. That is your chance. Answer questions to the point. If you don't know something, here too, being honest is not a strategy, unless you have NO CLUE about the question. We all have targets to get the best out of the Interview. Everyone has their style. Some generic notes here - of course you should know the answers to these questions. Based on the type of the Interviewer, they could ask you simple concepts or core concepts. I personally, don't ask very basic concepts. I always assume that is the candidate has come this far, lets exploit for a \"possible select\". But I have had other colleagues who ask some basic questions. We have a \"template\" to fill after the Interview scoring the candidates. In our company, we go with the Job Description sequence and rattle off all the bullet points and questions related to the Job Description. Some Tech guys ask \"tell me something about yourself\". I don't ask those kinds of questions. I go straight to the Tech questions. But whatever you speak here, have a memorized script - especially any question related to the Job Description. Emphasize your work ex / skills related to any question. Be brief. Pause after 30 seconds - 1 minute after answering the question. The Interview may have a follow-up, or they may not have liked your answer. Pausing will give you time to recoup or move to the next question. I have several candidates ramble on and on, on a particular question, that was answered incorrectly. This distracts and derails your chances. Be confident, have a clear voice, dress well. Too well dressed is ok. Being in IT we do not reject anyone based on their dress or grooming at this stage. Your match to the Job Description, your resume, your answers are what determines your success. Also it is a good idea to view the profile of the person Interviewing you - LinkedIn, or other social media. If you have a common connection that resonates it works favorably. If you have highlights like: coming through a company referral mention here, if you have written a book mention here. Not too early in the Interview but midway or at the end probably, you  should highlight the non job part. At the end, the Interviewer may ask you - Do you have any questions?  Ask just one question. What you ask is not going matter in your eval. Just be courteous and ask 1 simple question - we are rushing to our billable job. We don't have time. So, stay brief. It is also ok if you want to ask an important question \"what is your assessment of my performance\", \"would you be able to connect with me on LinkedIn\". Sometimes the last question about LinkedIn helps, because they could give you a status update on your application. I have one colleague who works out of a remote city. That candidate created a sort of connection, having grown up in that city. It helped. So knowing the profile of the Interviewer may help, but not a guarantee. Note: sometimes the Tech Interviewer may be in Europe or offshore like India or we have a few from China. If it is their evening time, they are already tired, so take cognizance of the fact. We have 3 colleagues (peers) who take to load for this particular 50 open vacancies. So mostly it comes to us. One of them is scary. But if that person clears you, you may not even have the next round. That is the reputation of each of us. Even for me, if I clear a candidate in this round, the next round is easy, as I am known to be thorough. Just depends on who you are interviewing with.\n\n  \n**6) Final Round Tech Interview** -The Interviewer would most likely a peer or a person of higher level that 5).  If you have got selected for this round, means there are a few more validations to make. In my current company, if 5) clears you, this 6) is mostly a validation round. Unless of course you lad up with an absolute monster Developer or Architect. There is no specific tips for handling this. If you are able to get a feedback from the Interviewer in 5) above, this round helps better. If you are interviewing for Developer positions, there may be some online coding questions. Do everything that you did right in 5)\n\n**7) Final HR round** - intimation of your selection or keeping you as a \"warm\" candidate, pending some budget approvals / customer approvals, then offer letter etc. - I assume this is an area where most will know what to do. Also, at this point the target kicks in for the Organization, so they ensure that the process is standard and quick. Every offered candidate has to go through extensive 7 years BG Check (verifying employment, all the way upto verifying with the SSA records. Any discrepancy found, they may be terminated. And for specific projects, if the customer insists, we do a 7-panel drug test. **My notes on this point** - You have to be able to clear a BG Verification and a Drug Test.\n\nAs a final note - at our company we have \"recruitment metrics\" (sometimes they are called Demand Metrics). We as a Business Unit work as a team owing these metrics (from Recruiter to the final Tech Interviewer). We have to fill openings quickly or get pulled up by our leadership for slipped Metrics.  Our goal from finding a Resume to Final Selection is max 1 week from each Job Opening. I assume every company has these metrics. Keep applying and fine tune your approach again and again. Even if you have been laid off, even if you did not have a job for several months, there is definitely a success ahead. You will definitely get there. Jobs are there. We just need to FIND YOUR RESUME. ",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/1cxnn60/jobs_notes/",
+      "comments": []
+    },
+    {
+      "title": "First time switching jobs, looking for advice on offer",
+      "body": "Not sure if this is the right place for this post, but hopefully it is well received. I am relatively new to the job market and am just looking for some advice.\n\nI have recently been poking around the job market (been with current company for 2 years) and recently (9/12) a recruiter from a small ITSM consulting firm (~60 people) reached out to me about a Senior Solutions Consultant position working with the ServiceNow platform.\n\nToday, (9/16), I spoke with one interviewer over the phone at 10AM, and was extended an offer by 6PM the same day. \n\nTo provide a little more background, I am 2 years out of college, currently making 75K at a large technology consulting firm and the new offer is for 95K with similar benefits. \n\nI am getting a serious case of 'This is too good to be true' syndrome from this extremely quick turn around and generous offer from people who I have never met face to face. Has anyone encountered this situation before? The company has a legitimate website and seems to check out, I can provide further details if necessary.",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/2gmcg8/first_time_switching_jobs_looking_for_advice_on/",
+      "comments": [
+        {
+          "body": "Get the offer in writing yet? Do some background on WHY the position came up? Know anyone on linkedin who can clue you in to company culture etc?",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Servicenow interview",
+      "body": "Need suggestions and questions asked in previous servicenow ic2 interview. ",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1l4qidz/servicenow_interview/",
+      "comments": [
+        {
+          "body": "Use getstrata.ai, use URL to run a report (add specific competitors if that’s a key portion of your role). From there you can use chat to dig into their common interview formats and get likely questions by role of the interviewer. Hope this helps!",
+          "score": 1
+        },
+        {
+          "body": "You'll likely face questions about business rules versus client scripts, when to use each, and how to optimize performance. Expect deep dives into GlideRecord operations, REST API integrations, and workflow design patterns. They often ask about specific modules you've worked with, so be ready to discuss incidents, changes, service catalog, or whatever's relevant to the role. Technical scenarios are common too - like how you'd handle data imports, customize forms, or troubleshoot performance issues.\n\nThe behavioral side usually centers around how you've handled complex implementations, worked with stakeholders who didn't understand technical limitations, or managed competing priorities. They want to see that you can translate business requirements into technical solutions and communicate effectively with non-technical teams. Since ServiceNow roles often involve being the go-to expert, they'll assess your ability to mentor others and handle pressure when systems go down.\n\nI'm actually part of the team behind [interview AI](http://interviews.chat), which helps people prepare for exactly these kinds of technical interviews by providing real-time guidance on tricky platform-specific questions.",
+          "score": 1
+        },
+        {
+          "body": "I am giving software engineer role interview",
+          "score": 1
+        },
+        {
+          "body": "Hi how did the interview go? What did they ask can u please share",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "I realized I've never gotten an interview from any job application in my life. Is that normal?",
+      "body": "I was laid off a few months ago. While doing my daily networking and applications, I realized I've *never* received an interview from any job application I've done in my entire life (as far as I know).\n\nI know networking is the *main* way people get jobs, but the literally 0% success rate for applications seems weird?\n\nI graduated in 2008 and found a bunch of odd jobs during the recession. I started climbing the ranks in IT about 11 years ago with a customer service role at rent-a-center. I've had 6 jobs since then, including contract work and fulltime, most recently as a servicenow developer.\n\nWhenever I'm unemployed I apply to a dozen-ish jobs per day across various websites. However, every interview is from someone contacting me about a different job by phone, email, or direct message. I generally get a few such \"direct contacts\" per week. I do get a ton of \"we're moving on with someone else\" emails, especially when applying on company-specific websites, so I know my applications aren't disappearing into a void. I worked with recruiters and resume coaches a few times over the years, so there's *probably* not anything wrong with the applications.\n\nI keep doing applications because I figure it bumps me to the top of some \"recently active\" filter recruiters use. Plus, there's always the off-chance an application actually goes somewhere.\n\nIs this normal, or am I just a statistical outlier?",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/1hdhrhb/i_realized_ive_never_gotten_an_interview_from_any/",
+      "comments": [
+        {
+          "body": "Applying online is unfortunately the worst way to apply for a job (especially if it's through a third party).",
+          "score": 3
+        },
+        {
+          "body": "This doesn't make any sense. How have you worked in IT, let alone at all, without anyone responding to a job application?",
+          "score": 2
+        },
+        {
+          "body": "It's been the same for me, I think in my entire career I've had one job that I actually applied for and got.  These last couple of years have been very different though.\n\nNetworking is king.",
+          "score": 1
+        },
+        {
+          "body": "Two people at one of previous employers..\n\n1. Mid 50s, director level.. let us know that he hadn't updated his resume in 23 years because every job he had got was people reaching out to him.\n\n2. Mid 30s, mid management, had never applied for a job or even had a formal interview, all of her jobs came from her network.\n\nAlthough that's slightly different from physically applying and just never getting a response...",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Company review at my new job (Questionable ethics)",
+      "body": "Context first: I live in Pakistan and worked for a year at a Voip company as a NOC Engineer from 2022-2023. I left due to the grueling hours but other than that and low pay, the company was great. Fast forward to 2025 I haven't worked since, I focused on learning new skills and transitioning into devops but due to the job market here most if not all companies don't hire devops engineers unless they have at least 2 years experience. I got a little desperate and started applying for other positions. I landed a role as a trainee SE for a company that specializes in servicenow. The catch is that it was conveyed to me that for the first 2 months I would be trained in business development like bidding etc and after I would get a sense for the product then I can fully transition all the while in between company time I can do some self learning in servicnow as well but my project bidding came first. I thought it was reasonable since I'm a trainee and getting good financial incentives as well for each bid. Though after going for 2 days and researching servicenow, I realized it was not for me, I'm mainly aiming for aws etc.\n\nAll this was fine since I thought I should suck it up stay for the money until I found a proper devops role. But the final nail in the coffin for me was the company's questionable business model.\n\nThe process of bidding was as follows: \n\nThe company would hire a european/uk/US national of Pakistani origin and take ownership of his qualifications and CV and basically his identity. Our/my job was to apply for fully remote jobs in those regions as that european/uk/US national by impersonating him. Speaking to and emailing recruiters and companies for the job. We would give interviews ourselves and try to secure the job. Once done we would hand over that job to our inhouse employees and they would do the rest. The company would make good money and a piece would go to the foreign nationals as well for the duration of the project. The company would coordinate with the foreign nationals in case of SC/government/taxes/clearances and even make video calls with the hiring company to keep up the facade. There were approx 30-60 people working inhouse and the company would secure at least a gig a day approx (250-400 euro/day) pay rate. Because of the exchange rate earning in dollars is extremely lucrative.\n\nI was hesitant since leaving would leave me unemployed and since I'm a Pakistani foreign companies won't hire me with less experience and the tag Pakistani being attached. But ultimately I've resigned since my conscience won't let me work in dishonesty day in and day out. \n\nThis the reality here, I'm sure there are more companies that do this but I don't judge the employees that much since everyone needs to feed their family. ",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/1ipkdkm/company_review_at_my_new_job_questionable_ethics/",
+      "comments": []
+    },
+    {
+      "title": "After all I've done so far, I have no idea what's my job title or what kind of jobs I can look for. Advice, please?",
+      "body": "I've done so many different things at where I'm working today that I seriously have no idea what job title I should look for when looking for job openings or how can I describe myself.\n\nI started working as an IT Governance Sr. Analyst, by:\n\n&gt; Conducting meetings and interviews with process owners in order to chart their existing processes, develop and chart new processes (incident and major for example), be the focal point for internal and external audits, define action plans/internal controls, chart and analyze risks in processes, help improve the Service Desk services, facilitate the communication between all the IT departments and the IT governance, help analyse all areas' KPIs, develop new KPIs and generate graphs from it, facilitate the communication between the company's customer service department and the IT department.\n\nThen I switched areas, they sent me to the IT Service Management area (in my contract I'm still a Sr. Gov. Analyst), and aside from all the things I was doing, I started doing new things, such as:\n\n&gt; IT provider management, contract management, project management (agile and standard/pmbok), analyze incident backlog, SLAs, major incident management (whenever a major happens, I'm the one managing all the communications and making sure every responsible person is in the call/room), help develop and keep improving a major incident room/war room, adquire new softwares/services, implement a new ITSM software (we were already using ServiceNow, but it was trash, so we put it to the ground and started all over again), develop an ITSM catalog, establish a governance over all the ServiceNow modules, coordinate a team of 1 analyst, 1 junior and 1 intern, establish a solid recurring meeting schedule to discuss incidents, changes, problems, major incidents, kpis, slas, backlog... all of that.\n\nThere's more, honestly, I'm not making things up here.\n\nAnd after all of that, I have no idea what's my job title/description. What kind of jobs I can look for... could you guys help me?\n\nThis may not be the correct sub for that, if that's the case, could you please point me to the correct one?\n\nThanks!",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/as57t6/after_all_ive_done_so_far_i_have_no_idea_whats_my/",
+      "comments": [
+        {
+          "body": "It depends there’s lots of variance in titles... but looking for keywords like ‘IT services’ and so on",
+          "score": 1
+        },
+        {
+          "body": "I’m having a similar issue. Try keywords like: analyst, IT, data, software.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "ServiceNow Data Interview",
+      "body": "I have an interview for ServiceNow Data position (2+ you). My first round is with the HM. I scoured the internet to get a general idea of how the interview with the HM goes. I'd be grateful if anyone could guide me. ",
+      "subreddit": "interviews",
+      "score": 2,
+      "url": "https://reddit.com/r/interviews/comments/1n6aotv/servicenow_data_interview/",
+      "comments": [
+        {
+          "body": "The HM round will likely focus on your practical experience with the platform, your understanding of data management within ServiceNow, and how you've solved real business problems. They'll want to hear specific examples of how you've worked with ServiceNow's data architecture, reporting capabilities, and integration challenges. Expect questions about your experience with Performance Analytics, reporting dashboards, data imports, and how you've handled data quality issues. The conversation will probably center around scenarios where you've had to troubleshoot data problems or optimize system performance.\n\nSince this is a 2+ year experience role, they'll dig into your technical depth but also want to see that you understand the business impact of your work. Be ready to discuss times when you've collaborated with different teams, managed data migrations, or implemented solutions that improved operational efficiency. The hiring manager will be assessing whether you can think strategically about data while still getting your hands dirty with the technical implementation. I'm on the team that built [AI for interview practice](http://interviews.chat), and it's particularly helpful for working on responses to these kinds of technical scenario questions where you need to structure your experience stories clearly and confidently.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "INTERVIEW HELP!! ServiceNow Cloud Security Engineer",
+      "body": "Guys, wanted to check if anyone in the community had gone through Cloud Security Engineer at SNOW. Any help or leads on topics would be highly appreciated. ",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1joegir/interview_help_servicenow_cloud_security_engineer/",
+      "comments": []
+    },
+    {
+      "title": "Interview at Constellation Energy",
+      "body": "Hi guys, I have an interview coming monday at Constellation for Sr Service Analyst position - ServiceNow Developer/Administrator role. Any tips would be appreciated as am unable to find anything from jd. \n\n**Primary Purpose Of Position**Performs and/or manages activities relating to planning, designing, building, and maintaining IT services, projects, portfolios, products and processes. Creates and assigns detailed tasks to subordinates. Has budget responsibility for a small project, sub-project or process component. Expected to work under minimal supervision.**Primary Duties And Accountabilities**\n\n* Perform, manage and appropriately document work activities relating to IT service portfolios or products in support of our business partners. Lead IT activities required to manage service level agreements. Assist others in planning and prioritizing work and work schedule.\n* Assist in creation of documentation for products and services. Use best practices to improve products and services provided to business unit partners, and monitor adherence within Team/Group to standards as defined within the Management Model\n* Maintain and enhance engagement with business and IT partners and other stakeholders\n* Establish positive team environment by proactively assisting and training less experienced personnel. Provide performance and development feedback as required\n* Maintain technical knowledge and business acumen within own discipline or function\n\n**Minimum Qualifications**\n\n* Bachelors degree in Computer Science or related discipline and typically 5 to 8 years experience in Information Technology or equivalent combination of education and work experience.\n* Proficiency with data analysis in Microsoft Excel\n* Experience leading small IT projects or sub-teams and knowledge of IT project management.\n* Strong problem solving and analysis ability.\n* Excellent communications skills (written and verbal)\n* Ability to work with remote project teams",
+      "subreddit": "interviews",
+      "score": 2,
+      "url": "https://reddit.com/r/interviews/comments/1hefryv/interview_at_constellation_energy/",
+      "comments": [
+        {
+          "body": "I've been in your shoes before, and I remember how nerve-wracking it can be. One thing that helped me when I was in a similar spot is performing mock interviews in front of a mirror or with a friend. It helps you get comfortable with articulating your thoughts and experiences. Also, make sure to read through the job description carefully and prepare examples of how your skills align with the requirements.\n\nAs for ServiceNow specifically, it's a great tool, but Constellation Energy seems to be looking for more general IT service management skills in this role. Focus on highlighting your experience with project management, problem-solving, and communication. One thing that helped me when I was interviewing was using an AI tool that listens to interview questions and provides suggested responses - if you're interested, I can share it with you. Just remember to be yourself, and don't hesitate to ask questions during the interview.\n\nYou got this! It's okay to feel nervous, but try to relax and enjoy the conversation. Remember that they want to get to know you as a person, so show your passion for IT service management, and I'm sure you'll do great.",
+          "score": 1
+        },
+        {
+          "body": "For a ServiceNow Developer/Administrator role at Constellation Energy, focus on showcasing your technical skills and experience with the ServiceNow platform. Highlight any projects you've led or improvements you've implemented in previous roles. Be prepared to discuss your experience with ITIL processes, service level agreements, and how you've used ServiceNow to enhance IT service delivery.\n\nDuring the interview, emphasize your ability to work independently and lead small teams. They're looking for someone who can manage projects with minimal supervision, so share examples of times you've taken initiative or solved complex problems on your own. Don't forget to mention your experience with data analysis in Excel and your communication skills, as these are specifically mentioned in the job description. If you're worried about the interview, you might want to [interview with AI](http://interviews.chat) first. I'm on the team that created it, and it's designed to help people navigate tricky interview questions for roles like this one.",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

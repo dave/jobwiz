@@ -1,0 +1,208 @@
+{
+  "company": "cloudflare",
+  "post_count": 9,
+  "exported_at": "2026-01-18T17:44:53.267Z",
+  "posts": [
+    {
+      "title": "How is cloudflare wlb?",
+      "body": "I have an interview with CloudFlare coming up for a distributed systems position. \n\nMy last job (i got laid off last month) was in FAANG in one of the cloud services and my wlb got pretty bad where i was working 10+ hours and still felt it wasnt enough and senior and principal engineers were working late hours, weekends and even taking calls suring their vacations. I know this is team dependent but im worried of the same thing or similar happening. \n\nHow is WLB for cloudflare in general? \n\nDo they have an on-call system?",
+      "subreddit": "cscareerquestions",
+      "score": 7,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1il75z7/how_is_cloudflare_wlb/",
+      "comments": [
+        {
+          "body": "Buddy works there. Fully remote. Usually wakes up by noon and finishes by 5p. Software/Systems Engineer.",
+          "score": 9
+        },
+        {
+          "body": "Your experience may vary based on the team and the manager. Most teams have on call responsibilities for their products. I would say overall the WLB is quite reasonable. Some people are workaholics but the average engineer is not.",
+          "score": 4
+        },
+        {
+          "body": "A recruiter just contacted me for an open position there. Did you interview with them? What were the questions?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "What is the difference between Software Engineer and Systems Engineer at Cloudflare?",
+      "body": "I have 5 years of experience working as a software engineer. I got an offer for a senior systems engineer at Cloudflare. At fist I thought it was just what job title they used for software engineers because the interview was the same as any other software engineer interview: leet code rounds and a system design round. The. I saw on their jobs board that there also position with the title software engineer so I am wondering what is the difference?",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1n6t4a8/what_is_the_difference_between_software_engineer/",
+      "comments": [
+        {
+          "body": "I don't know the Cloudflare specifics, but generally software engineer = app development while systems engineer = platform/infrastructure development.",
+          "score": 1
+        },
+        {
+          "body": "Compare the job ads. If it's still unclear, ask your recruiter.",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "title": "What should i expect from Q&amp;A on first meeting ?",
+      "body": "I have an interview this week. The recruiter told me there will be 5 stages. \n\nI have the first interview today and its supposed to not be technical. The recruiter said its supposed to be more of a Q&amp;A to see if i could be a good fit. \n\nI assume they will ask about my previous role but i also worry about being asked definition questions which i feel happens in almost every SWE interview where one person wants tk ask something like “what is polymorphism?” Or things i havent learned since college 7 years ago. \n\nIts supposed to be 30 minutes and if it goes well i pass to the next stage what should i expect? The company is cloudflare and the position is for a senior distributed systems engineer if that helps but i know that speciifc to person and team as welll. ",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1inrbn8/what_should_i_expect_from_qa_on_first_meeting/",
+      "comments": [
+        {
+          "body": "When I do those first stage interviews I generally ask about previous role, experience, what they are looking for in the next role, and why us if there’s any specific reason. \n\nThen I use that to also sell us to the candidate and discuss how we can provide what they are looking for etc.  \n\nRemember it’s a two way thing so try find out anything you’re curious about with what work they do and what you might be doing etc",
+          "score": 1
+        },
+        {
+          "body": "They'll likely focus on your experience with distributed systems, your approach to problem-solving, and how you've handled challenges in previous roles. Don't stress too much about specific definition questions - they're more interested in your practical experience and how you think about complex systems.\n\nBe prepared to discuss your most significant projects, particularly those involving distributed systems. They might ask about your experience with scalability, fault tolerance, and consistency in distributed environments. By the way, I'm on the team that made [AI interview assistant](http://interviews.chat) that can help you prepare for tricky interview questions like these.",
+          "score": 1
+        },
+        {
+          "body": "They'll likely focus on your experience with distributed systems, your approach to problem-solving, and how you've handled challenges in previous roles. Don't stress too much about specific definition questions - they're more interested in your practical experience and how you think about complex systems.\n\nBe prepared to discuss your most significant projects, particularly those involving distributed systems. They might ask about your experience with scalability, fault tolerance, and consistency in distributed environments. By the way, I'm on the team that made [AI interview assistant](http://interviews.chat) that can help you prepare for tricky interview questions like these.",
+          "score": 1
+        },
+        {
+          "body": "I’ve interviewed quite a bit in my time as an Engineering Manager.\nOthers have commented good points, but a big I’ve looked out for is How they communicate their answer to me. Does it sound like someone who would fit the team by their behavior or personality? Can they clearly express their knowledge? If they don’t know something or understand my question, will they ask me questions or will they try to BS?\n(The answer to the last question is Please don’t BS. Be honest)",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Cloudflare internship making me anxious",
+      "body": "Have you guys heard from the cloudflare internship yet? I would love to accept with them and I was expecting to hear back by this time because their internship is probably starting soon. Did anyone complete the challenge and hear back yet?",
+      "subreddit": "cscareerquestions",
+      "score": 10,
+      "url": "https://reddit.com/r/cscareerquestions/comments/ga06yv/cloudflare_internship_making_me_anxious/",
+      "comments": [
+        {
+          "body": "I just got the rejection for the systems challenge",
+          "score": 5
+        },
+        {
+          "body": "Still haven't heard anything back. Have people gotten phone screens?\n\nUpdate 5/4: just got an email that I passed the first round!\n\nUpdate 5/7: just scheduled a phone screen for next week",
+          "score": 4
+        },
+        {
+          "body": "If you haven’t heard back, assume they’ve either filled their quota or you’ve been rejected. There’s nothing you can do now, just let it be.",
+          "score": 9
+        },
+        {
+          "body": "Just heard back from them via email explaining that they're still going through some applications due to the high volume of applicants. So if you haven't heard back, they probably haven't looked at your application yet.",
+          "score": 3
+        },
+        {
+          "body": "This is weird - I just got a rejection for the systems project after passing the first round (Recruiter email). Thats weird, this happen to anyone else?",
+          "score": 2
+        },
+        {
+          "body": "When did y'all submit?",
+          "score": 1
+        },
+        {
+          "body": "Submitted on the 17th for full stack. Got email for passing first round yesterday.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Anyone have experiences working/interning at Cloudflare?",
+      "body": "Cloudflare seems like an interesting company to work at. It has many positions such as SWE and SRE. However, there are not many posts regarding Cloudflare and I would like to hear your experiences with Cloudflare, from interviewing to working there.\n\n&amp;#x200B;\n\nThanks!!",
+      "subreddit": "cscareerquestions",
+      "score": 3,
+      "url": "https://reddit.com/r/cscareerquestions/comments/kpdp5t/anyone_have_experiences_workinginterning_at/",
+      "comments": [
+        {
+          "body": "Their pay is on the lower than median for sf Bay Area. They are also hiring less in sf, more in other us cities.\n\nWhile some work are interesting, it’s usually the staff/principal eng doing it.",
+          "score": 6
+        },
+        {
+          "body": "I didn't work there but close friend did. Basic gist was some of the best work if you're interested in Computer Security but has some culture problems.",
+          "score": 2
+        },
+        {
+          "body": "Check out teamblind",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Cloudflare interview",
+      "body": "",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/1p60xdj/cloudflare_interview/",
+      "comments": [
+        {
+          "body": "Surely the most appropriate thing there would be to send them to a three hour loop of 'connection not possible', then send them a note that you were emulating their product?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "where can I get a crash course for software/system design questions?",
+      "body": "Hi all, \n\nim back to applying to jobs. A few years ago when I last applied and got a job I did good by grinding on leetcode but the software design questions were definetely not my strong suit. Like one time I was asked to design a plane system and how they communicate with the tower, etc. This was during a better time for applying but now I dont want to run that risk again. I have an interview for cloudflare  and will meet iwth the hiring manager this week. I googled a bit and asked employees about what the interview is like and the consensus was that I may get a coding question or two and may get a design question. Im not too worried on the coding questions as im brushing up on leetcode and doing decent at it. But the design question does worry me a bit. Im looking online about brushing up on that but seems outside of leetcode there's not alot when it comes to system/software design interview questions. Seems most resources help you understand coding problems but most dont help when it comes to actual design. \n\nThe position is in distributed systems if that helps.\n\nDoes anybody know any good place to practice interview system/software design questons?",
+      "subreddit": "cscareerquestions",
+      "score": 2,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1imhccd/where_can_i_get_a_crash_course_for_softwaresystem/",
+      "comments": [
+        {
+          "body": "The most popularly recommended resource is [Grokking the System Design Interview](https://www.designgurus.io/course/grokking-the-system-design-interview). That site also has a few other courses about more fundamental system design if you're interested. These are all paid resources though.\n\nThere's also [Designing Data-Intensive Applications](https://dataintensive.net/) (commonly called DDIA), although this one is more about specifically *data* architecture rather than big-picture *software* architecture. \n\nIf you want something free, you can take a look at [this repo](https://github.com/donnemartin/system-design-primer). There are also a ton of links to other resources at the bottom of that one.",
+          "score": 1
+        },
+        {
+          "body": "[https://www.goodreads.com/book/show/54109255-system-design-interview-an-insider-s-guide](https://www.goodreads.com/book/show/54109255-system-design-interview-an-insider-s-guide)",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Cloudflare internship",
+      "body": "I recently got a interview with Cloudflare. I am just wondering did anybody go through the interview process at Cloudflare? What is it like? Hows the OA? And most importantly how is the internship their? Is it payed well? ",
+      "subreddit": "cscareerquestions",
+      "score": 1,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1cjimib/cloudflare_internship/",
+      "comments": [
+        {
+          "body": "[deleted]",
+          "score": 2
+        },
+        {
+          "body": "Hi which role you are getting into?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Losing Your Job is Now Fodder for Social Media",
+      "body": "https://www.wsj.com/lifestyle/careers/lost-your-job-time-for-real-talk-on-tiktok-4a926903",
+      "subreddit": "jobs",
+      "score": 255,
+      "url": "https://reddit.com/r/jobs/comments/19cvq6v/losing_your_job_is_now_fodder_for_social_media/",
+      "comments": [
+        {
+          "body": "I’d hate to be the face of this article.",
+          "score": 150
+        },
+        {
+          "body": "Sad but now she can jumpstart a social media career. A check is a check.",
+          "score": 110
+        },
+        {
+          "body": "\"Three People on TikTok is Now Enough for Boomer 'News' Outlets to Say This is Now How It is\"",
+          "score": 79
+        },
+        {
+          "body": "To be honest a lot of people were surprised that Emilie got laid off. She’s lowkey been a face for Discord for about a year and was just as popular as the duolingo social media girl. Like both were hella competitive in their views for a long time, but Emilie was actually making sponsored Discord content.",
+          "score": 62
+        },
+        {
+          "body": "This has always been a thing? LinkedIn comes to mind.",
+          "score": 12
+        },
+        {
+          "body": "Gen Z killing the 'getting fired in private' industry.",
+          "score": 26
+        }
+      ]
+    }
+  ]
+}

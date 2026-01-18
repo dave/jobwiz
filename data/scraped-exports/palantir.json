@@ -1,0 +1,635 @@
+{
+  "company": "palantir",
+  "post_count": 31,
+  "exported_at": "2026-01-18T17:44:53.297Z",
+  "posts": [
+    {
+      "title": "Palantir development strategy interview",
+      "body": "Anyone went through a sales / buizz dev interview with #pltr? \n\nWould love any insights - hard to find online \nThx 🙏 ",
+      "subreddit": "interviews",
+      "score": 3,
+      "url": "https://reddit.com/r/interviews/comments/1jqm76k/palantir_development_strategy_interview/",
+      "comments": [
+        {
+          "body": "How was your interview?!! I hope you did well",
+          "score": 1
+        },
+        {
+          "body": "how did it go? how long did it take for you to hear back after onsite?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "[Article] How I finally got job interviews at palantir and Dropbox",
+      "body": "",
+      "subreddit": "interviews",
+      "score": 2,
+      "url": "https://reddit.com/r/interviews/comments/6zopes/article_how_i_finally_got_job_interviews_at/",
+      "comments": [
+        {
+          "body": "Good bits of info here. Keep them coming!",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Senior SWE positive job hunt stats (Jan – Jun 2025)",
+      "body": "**Anecdotal Job-Hunt Stats (Jan – Jun 2025)**\n\n# 👤 About Me\n\n* **Experience:** 9 years as a software engineer (3 companies, all at sub-100-employee startups)\n* **Location:** NY Tri-State (was looking for remote or 2× hybrid only)\n* **Last Role:** Founding Engineer → Senior SWE at a fully remote startup (7 years)\n* **Tech Stack:** Full-stack (backend-focused), plus a few months building tailored AI agents with langchain.\n* **Interview Style:** Can’t leetcode for shit—did maybe 8 easy problems total; decided to lean into system-design &amp; real-world coding challenges where I do better.\n\n# 📊 The Numbers (1 Jan – 6 Jun 2025)\n\n|Category|Count|\n|:-|:-|\n|LinkedIn outreaches sent|300+|\n|My replies to outreach|26|\n|Application denials|6|\n|• “Only hiring in SF”|2|\n|• “Role already filled”|2|\n|• “Not a good match”|2|\n|First-round (technical) interviews|13|\n|• LeetCode-style questions|1–2|\n|• Real-world problems &amp; take-homes|11–12|\n|→ Virtual Onsite interviews|4|\n|→ Offers received|2 (small startups, sub 30 people)|\n|Offer packages|\\~250k cash + equity|\n\n&gt;\n\n# 🔍 Interview Breakdown\n\n1. **Technical Rounds (≈13)**\n   * Most were API-design or “build-this-system” tasks\n   * Examples:\n      * Design a banking system (withdrawals, deposits, balance checks)\n      * Build a semantic recommendation engine over a large Hugging Face dataset (take-home)\n2. **System Design Prep**\n   * Studied Hello Interview’s system-design questions\n   * Brushed up on coding syntax on the fly when I was given prep material like being told it will be in typescript around API related topics or it will be a \"mini-fullstack project\"\n   * Had 3 Final rounds that required designing a job-orchestration system (with unique twists)\n\n# 📝 Observations &amp; Takeaways\n\n* **Zero direct applications:** 100% inbound/outreach-driven—didn’t apply on any job board this cycle\n* **Recruiter interest:** In-house recruiters from Meta, Amazon, Datadog, Palantir, etc., reached out directly. Didn't apply to those, can't leet code and not interested in big big companies\n* **Leverage your profile:** Even without fresh resumes or heavy leetcode practice, your background can generate interest\n\nHope this adds some balance to the conversation. My journet could be entirely luck tbh, I'm extremely surprised I got something so quick. The wife and I budgeted 3 months of my planned unemployment after resigning. Happy to answer any questions. I didn't even know what an ATS resume checker was until I saw this subreddit. And yes I used AI to clean up my post lol. ",
+      "subreddit": "cscareerquestions",
+      "score": 237,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1la3utl/senior_swe_positive_job_hunt_stats_jan_jun_2025/",
+      "comments": [
+        {
+          "body": "You say you had budgeted for 3 months of unemployment, the timeline appears to be 6 months, but you also state you were surprised how quick you landed a job. How long did you expect to be searching?",
+          "score": 27
+        },
+        {
+          "body": "Would you mind share an example of your messages on LinkedIn? Congrats on the offers!",
+          "score": 27
+        },
+        {
+          "body": "I have \\~7 years of experience and found the job hunt similar to you. Once I dialed in my resume, it wasn't hard to get interviews. \n\nI was absolutely panicked when I was DOGE'd at my federal contracting position. Constant anxiety and dread since I'm the sole provider for my family. But I just signed an offer for 20% more than I was making, full remote, better benefits, and a big company. I vibed well with my manager and team and it's working on something I really love. Couldn't be more happy. Plus, we don't have to eat into our savings and spend the next year building it back up. \n\nOur runway was about the same. I think after 3-4 months, I'd be looking at taking low paying SWE jobs or working at Costco to get by. \n\nCongratulations on the new job! Hopefully it's everything you hope for!",
+          "score": 7
+        },
+        {
+          "body": "Curious why you're not interested in big companies. I went from a big company to a small one and I kind of miss the benefits. Especially the health benefits. Small companies can't compete with that.",
+          "score": 10
+        },
+        {
+          "body": "What the hell.\n\nI already have Meta on my resume, and almost no one is coming to me.\n\nI can barely get a message back when I do reach out.",
+          "score": 4
+        }
+      ]
+    },
+    {
+      "title": "Working at palantir?",
+      "body": "Using a throwaway because obvious job hunting reasons. I've been interviewing with Palantir and I was hoping to get the perspective of people working there currently or previously working there. I've found a few threads on here but most seem a bit outdated so I wanted to find out some more current opinions.\n\nWondering things like: is the work life balance really as bad as people say? How is the culture especially for any women who work there? Given that a lot of the clients are government do most employees need to get a security clearance? What do they look for most in an interview besides obvious technical ability? \n\nMuch thanks! ",
+      "subreddit": "cscareerquestions",
+      "score": 101,
+      "url": "https://reddit.com/r/cscareerquestions/comments/4o7hyi/working_at_palantir/",
+      "comments": [
+        {
+          "body": "I don't work there, but one of my former roommates does. In terms of work life balance, it seemed pretty bad. He'd leave for work before me and come back hours after me. He eventually ended up moving closer so it was easier for him to stay later.\n\nTake that with a grain of salt though, as it's just one second hand data point.",
+          "score": 43
+        },
+        {
+          "body": "I've been waiting a really long time for somebody to ask a question about Palantir. I currently work there and have some complex feelings about the place. Throwaway, obviously. I'm going to try and be as impartial as possible, but call me out if I don't give a good enough answer. I'll do the best I can. \n\nFirst, the obvious stuff. Palantir sucks at talking to the media. Hell, they take pride in it. This means that there's so much misinformation about the company. The salary cap doesn't exist anymore (see the BuzzFeed article about leaked emails) and they don't do intelligence work. I've talked with a lot of people in the company and nothing I've heard I would classify as sketchy. Maybe there is stuff going on and I just don't know about it. Their media relations drive me and many others crazy. \n\nQuick primer on Palantir's eng roles. Software engineers build products. Forward Deployed Engineers (FDEs) do \"whatever it takes to make a client happy\" (from careers page). That can mean integrating data, installing products, stack maintenance, building stuff, etc etc. It's a jack of all trades role in a way that no other company has. \n\nThe other thing to know about Palantir is how decentralized it is. Every team can be totally different. You can have a ton of different opportunities to do crazy stuff at Palantir, but it also means everyone's experience is very different. I know people who will never leave the company and those that barely lasted two months. \n\nAt Palantir, the work can be immensely impactful. You're doing things that sound cool to outsiders and give you the feeling that you're doing important work. It doesn't mean the work itself is interesting. Software Engineers might be working on awesome web stuff or our mess of a Java Swing core product. The core product enables a lot of great results, but I've heard it's a mess to work on. FDEs might be building a awesome web app, but they're more likely doing routine data integration scripting, looking after servers, configuring products, etc. The work may be interesting, but there's a very good chance you're sacrificing interesting work for interesting outcomes.\n\nAnother quick thing about Palantir being sketchy: we don't collect data. It's not a magical box. We take data that's already been collected and display it as a graph. That's about it. You can get a lot of insight by applying graph ideas to your data. We do other stuff to too, but it's all taking a company's data and providing visualizations that SMEs can use. No AI. No ML. No magic. The actual analysis is being done by people. \n\nThe benefits are pretty amazing. Health insurance that pays for everything. Great food. A vacation policy that could compete with Netflix. \n\nI feel like I've gone really positive. Let me veer negative for a bit. The company is very travel focused. You will travel a lot. Some people joke that they live in a hotel. You'll get treated exceptionally well when traveling. Palantir says the job is hard and doesn't build products to make it easier. There will be months that are relaxing and months that are 80 hours a week, multiple all-nighters hell. Again, very team dependent. As a FDE, you probably (key word) won't be doing too much true Dev work. Software Engineers get to do Dev work. The people are amazing, but some offices have outstanding communities (best I've ever seen, especially DC) and others are nonexistent. \n\nI'm rambling at this point. Overall, the work is just work. Take this job because you want to build the outcomes that Palantir provides. Understand that a lot of grunt work will be necessary and the job isn't glamorous. The people are amazing. I'm a FDE, pretty sure I'm gonna leave and the people are the only reason I'd consider not. \n\nAlso, compensation. As a new grad, the cash part is exceptionally competitive. The stock is in options which sucks. But, the stock keeps going up, albeit not as fast as it used to. I'm very convinced it'll continue to go upwards for quite some time. \n\nPlease ask questions!\n\nEDIT: This sounds very positive after a good reread. Too much so. My overarching point is that you have to be excessively careful with the FDE role. Some people get awesome opportunities out of it. Others get stuck as a script kiddie doing stack maintenance nonsense. ",
+          "score": 99
+        },
+        {
+          "body": "I recently left Palantir-\n\nSo \n1- it depends on the project that you're on.  I know some people who do 40/week and others who push 90.  That said- weeks of 100hrs are celebrated because they are doing something \"epic\" for someone.  If you believe in the work or it's really interesting then you're in luck.  Personally- I'm the person that LOVES work.  I'd do 70hrs easy at my last job but Palantir's work didn't interest me anywhere near as much.\n\n2- Contrary to popular belief- Palantir does not actually spy on American citizens.  Their software is good- but it's not goddamn magic.  \n\n3- They aren't as big data as you would imagine.  I know a lot of people who left because they wanted to work at scale and the scale that Palantir works at is surprisingly small.\n\n4- Culture for women- Palantir is pretty invested in women in tech.  They held this recently- https://www.eventbrite.com/e/women-in-engineering-presents-it-starts-with-girls-tickets-24235963419 and it tends to be pretty frequent.  \n I'd say the gender split is maybe 40/60 F/M? In general, I'd say the company hires socially mature people which is nice.  Everybody is a grown up.  The bullshit misogyny that you may get at other tech companies doesn't exist at Palantir- or at least I didn't see it.  The spread seemed pretty even across job roles as well.  Anywhere from FDEs to PMs, to Software Engineers etc.  It's not as lopsided as other places.  \n\n5- Downsides- people have been quitting.  The product backend is too fragmented, and there's just too many custom solutions for every customer.  It gets messy and you end up solving the same problem over and over again.  A lot of this is driven by the customer.  They all have some stupid reason for some sort of information security handling or something which makes life painful.  Also you just have lots of brilliant people who eventually think they can do better, so a lot of them strike out on their own to do their own startup. \n\n6- They're VERY organized people.  You know the kids at the head of the class in college? The ones that always looked like they had their shit together, took notes well, had neat little sticky notes in their notebooks and seemed to effortlessly do everything under the sun without a problem? It's like a goddamn army of Streetlamp LeMooses.  \n\n7- Goddamn these people love to exercise.  I went from being the thinnest most in shape guy at my old company, to being the fattest bastard at Palantir.  There's one guy who was in the fucking Olympics.  \n\n\n\n",
+          "score": 31
+        },
+        {
+          "body": "So I'm friends with a guy who works there and just spent a few days hanging around their campus.\n\nBasically they build their offices to incentivize you to be a lifer. Everything from every single meal, to haircuts on campus, great gyms, beds, you can basically live their if you want, and that is totally their intent.\n\nBut, on the other hand, my friend works as a lead, puts in his 40 hours and that's it. Some weeks he works more, big installs, traveling for work, etc, and some days he goes in at 11 and leaves at 3.\n\nSeems pretty chill personally.\n\nOn a recent visit I hung out with a female dev who works on his team. Obviously I can't make any grand remarks from meeting a woman once, but she seemed happy and her other coworkers clearly respected her work.\n\nIt seems great. I'm honestly working on upping my skills so I can have a shot working there in the future.",
+          "score": 11
+        },
+        {
+          "body": "I worked with their forward support engineers overseas. Everyone I met with the company was top notch and a pleasure to work with.",
+          "score": 8
+        }
+      ]
+    },
+    {
+      "title": "I don't know how high I want my salary compared to how much I want a job.",
+      "body": "Actually, feel free to skip all the way down to bold text about 5 paragraphs down, most of this is a huge rant about how stupid I am.\n\nI live in the United States, and I've graduated in August--yes, I had to take a class during the summer since I fell behind. I've been looking for a job during school since last year, but since I've graduated I've devoted about 10 hours per day searching for a job. My parents are *fine* with my mooching off home, but I've decided that if I don't get a job by December I'll join the military--Navy, probably. They'll help pay off my 30k college debt, not to mention it's a good excuse to mention why I have a long time between school/employment.\n\nI should also mention I graduated from Cornell University, an Ivy League, with a degree in Computer Science. I have an excellent GPA--3.4.\n\nI'm really, really having a hard time getting a job, despite by credentials, because of a variety of factors that I can/cannot control.\n\n* I suck at programming. Hint: I graduated in August, not May like everyone else. Okay, honestly, I don't think I'm too bad, but I've been having a hardass time 100% passing technical interviews. I've read the books, I know most of the problems, but if you give me a problem I haven't seen then it'll take me two hours after the interview to say \"FUCK, I KNOW THE ANSWER.\"\n\nAlso, I need APIs. Fuck me if I can't remember if it's .length() or .size in Java or Python. Some of those stupid technicals which don't allow me to use APIs I know I've failed, even if my pseudocode is beautiful. \n\nIt also doesn't help that my thought process is fucking terrifying. All of those interview books saying I should explain everything in my brain? Ha ha, no, I'm never going to do that, I jump around all over the code chaotically instead of sequentially. Obviously I do force myself to say something, but when I explain sequentially, it's...too slow. Which leads to my next point.\n\n* I suck at interviews. I've been to speech therapy in elementary and middle school because I talk way too fast. Then they gave up on me in high school because I couldn't fix it. I still can't fix it--my thoughts come out flying in my head which influences my speech. Of course I tell myself to slowdown. I practice in the shower and in the mirror before/after I brush my teeth, and before every interview. But before I know it I speed the fuck up in the middle of an interview because I've excitedly found the route to a solution for a problem or I'm really captivated by the culture of a company.\n\n* I'm an Asian male. Bullshit if that doesn't affect things, there was an article yesterday that Palantir discriminates against Asians (yes yes, of course I applied there). It doesn't help that despite English being my first and only language I talk like it's my second shitty one. And the fact that my last name is obviously Asian. And that I always put my race down when they ask for it because I have too much pride. I'm probably blowing this out of proportion, but I'm fucking sick and tired of recruiters asking me if I'm a U.S. citizen--one interviewer asked it on two separate occasions. Don't get me wrong--I understand them completely. It's a pain in the ass for companies to get a green card for an immigrant. And I wouldn't want to be hired at a place that discriminates. But it still hurts, y'know?\n\n* My resume sucks. What? A Cornell CS graduate having a shitty resume!? I fucked up here. I wish I didn't. I was so arrogant to believe that since I got an engineering degree at a top college that I wouldn't have trouble finding a job--I didnt' major in something unemployable like history or writing, my other loves. So I took a decent amount of Game Design classes. Enough to fulfill the minor, actually. It wasn't a problem at the time--the classes fulfilled CS requirements, yada yada, but looking at my resume, sweet Jesus it's filled with a bunch of these projects. Mind, these games were pretty damn good. I've been to indie conventions and shit.\n\nIt also doesn't help that one of my part-time jobs in college was to teach high school kids how to code. How to code a game, specifically. Nor the fact that I was the President of the general gaming club at a certain point--never mind the fact I've organized talks from famous game company lecturers and shit.\n\nObvious question: why don't I just apply to gaming companies? I did. All of the major ones and many minor ones. But the gaming industry is in a shit place now, after the mid 2000s boom. It's overworked, underpaid, and you literally need a Master's to get into any of the entry level jobs. I don't have the money to get a Master's.\n\nSo of course I've realized this roughly late junior/senior year and tried to remedy it. I have one whole project that's purely \"corporate\" related and an internship at a consulting company during the summer.\n\nBut damn that company has the worst name ever. The company is fine. I love the people. The pay was not bad, but it was something I've expected from an internship. The work was pretty damn easy. I just wrote SQL scripts all day or input data into an Excel spreadsheet. Easy. So easy that I almost managed to automate the process by the end of the internship. There wasn't any \"real\" programming despite what I did on my own time to automate it, but I thought it was a fine internship. I did pick up SQL after all.\n\nBut I overlooked how mediocre it'll look on my resume! The company name is horrible. Recruiters take a double look at me when I mention it, while I joke and smile and wave and say \"Yeah, ha ha, weird name right?\" They seriously do not take it seriously, and it doesn't help that my description of my duties is pretty piss poor. Virtually any freshman in CS can write SQL scripts and anyone who knows how a computer works can enter data.\n\nObvious question: why not go back to the company for a job? Well...I really, really don't want it taking more of my resume for the future, and the pay isn't spectacular.\n\n**Which leads me to my actual question.** Wow, I've ranted a lot. I didn't expect it to be this long.\n\n*Just how much pay should I be expecting?*\n\nMost of my friends from college are making mind-blowing 100k+ salaries. I guess that's what you should expect from Computer Science Ivy League graduates. The lowest of a CS buddy is making \"only\" 80k in NYC, and people are saying he should've negotiated harder. So, being the average US salary is 50k, I'm extremely biased.\n\nSo I've been having a hard time getting these jobs due to reasons above, but whatever, that's a question for another day.\n\nI'm basically a shoe-in for another job. Minor coding and SQL scripting, just one more interview to go, the offer will be next week assuming I pass the final interview. But the pay is $25 per hour for 6 months training, and then an \"over $50k\" salary after.\n\nIt was the hardest I could negotiate. Friends urged $30-$40 wage, recruiter wouldn't budge after $25 (it started at $20). At the moment I really don't any other onsite/final interviews at the time (I was recently rejected from a job after THREE FUCKING TECHNICALS in favor of a candidate with more experience, fuck me), and I doubt I can get anything else that far by next week.\n\nI know that some of you guys will kill for this job. Some people recommend that I take it and keep on searching for a better job. But fuck. There's all of these feelings and concerns that I have.\n\n* A decent amount of my friends will be making over double my wage/salary. Is that really okay? Just how ambitious and proud am I? I would be totally fine if my life's goal was to become a teacher and 50K was the most I can get--but I'm not. I have the same degree, the same education, and better grades than most of my graduates and friends . I would be so disappointed about how much of a failure I am, that I didn't live to my full potential.\n\n* But I would finally have a job, to start paying off my college debt. I would have to live at home, and commuting wouldn't be a problem--never mind that I dislike being at home, with someone asleep at every hour due to night shifts. Honestly, I just want to be happy, and to not be a disappointment in the people who supported me. My parents worked so fucking hard to put me through a top college that I feel crushed letting them down by being so, I dunno, disappointingly average.\n\n* I really, really would not want to apply for jobs after work every day. I already had a taste for how soul-sucking the workforce is at my internship, after getting up at 6 AM every day and returning at 7 PM each night, meals and chores leaving me about an hour or two of free time. Could I really summon the strength to apply to more jobs in that time? I've already applied to jobs for about a year now. The rejections/no replies are killing me slowly. I used to have an Excel sheet of all the companies I've applied to, and I threw it away after I've reached the 1000s of no replies/denials.  I don't know if I can summon the strength to apply to more after getting a job.\n\n* Career advancement. Fuck if I can't find anything about this--the company is on Glassdoor but there's no positions on there that are really software related. For some reason I think that this will be a piss easy job. Would I be able to even springboard into a truly software position, in or out of the company?\n\n* The fucking off chance I find a better job about a week or two after I get hired.\n\nSo yeah, if you've managed to read through that entire shitty ass rant, thoughts?\n",
+      "subreddit": "jobs",
+      "score": 2,
+      "url": "https://reddit.com/r/jobs/comments/54xvje/i_dont_know_how_high_i_want_my_salary_compared_to/",
+      "comments": [
+        {
+          "body": "You need to first stop caring so much about what your former classmates are making. I know it's easier said than done, but you must do it. Also, stop sharing so much of your salary business with them. It's okay to have one or two people that you go to for negotiation advice, but you don't need to get into the habit of running your mouth to everyone about how much money you make if it just makes you jealous.\n\nSecond, do you even want to be a developer? It seems like you're so frantic about it and you said you suck at it. Do you actually enjoy it?\n\nThird, where do you live? Even if you worked for some company with a weird name, the fact that you went to Cornell is helping you get interviews. You know that don't do well in them. It sounds like you are lacking in self-control. What have you really done to improve?",
+          "score": 3
+        },
+        {
+          "body": "Sorry, no help. Just posting to say I'm right there with you. I hate whiteboard coding or even answering trivia questions. If I'm left alone in front of a keyboard with problems to solve I can get things done. It exactly reminds me of walking up to an ATM and punching in my code versus someone asking me what my code is.",
+          "score": 2
+        },
+        {
+          "body": "You absolutely have to keep up with your colleagues.\n\nAbsolutely. If not make more than them.\n\nIf you don't you won't be friends with them because you are poor.\n\nSo your best bet is to keep applying to jobs and only accepting high paying ones. After you fail all of this and your parents get tired of it you can try to reunite with your colleagues by having them by you lunch and get you a job as a mail boy or receptionist at their big office. \n\nI can't go on as I'm getting frustrated. Best of luck fella. Good god. Ungrateful much?",
+          "score": 1
+        },
+        {
+          "body": "I don't really think that an engineering job paying 50k is going to be 13 hours per day. Especially when you have no rent, take the damn job and start saving. You have weekends and several hours per day to look for other jobs that satisfy you more. \n\nIt sounds like your main issues are your ability to interview and your ability to code. So work on coding on weekends, and maybe legitimately consider finding a coach/mentor to practice mock interviews. It sounds like you have an attitude that \"I suck at interviews, it's just how I am, too bad.\" That's bullshit -- I struggled from social anxiety from childhood through high school, and basically forced myself to interact socially with everyone I came across (cashiers, random people at a bus stop, waiters, etc.) until I eventually \"overcame\" it, or can at least trick everyone else into not realizing it. ",
+          "score": 1
+        },
+        {
+          "body": "OP I have a lot of the same problems as you, except I've been able to land $40/hr jobs.  By sheer luck.  My average has been $30.\n\nI've just come to accept that I'm doing the best that I can during my interviews, and if I bomb them, well I just have to keep on going. It's a numbers game. Someone will hire me.\n\nI'm confident in my coding skills. I really like solving tricky problems and creating web apps.  But I'm not the fastest coder.  I don't do well on timed tests.  \n\nI think the things that have worked in my favor are:\n\n1) Living or applying to jobs in a huge metropolitan city,\n\n2) Getting lucky and having few competing applicants, \n\n3) Personality. I try to be as friendly and easygoing as I can be.\n\nSo OP, I recommend taking this low-paying job, but then keep looking for another, higher paying job.  \n\nTry to gain as much **paid** experience as possible.  Screw working for free.",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "title": "Daily Chat Thread - September 26, 2017",
+      "body": "Please use this thread to chat, have casual discussions, and ask casual questions. Moderation will be light, but don't be a jerk.\n\nThis thread is posted **every day at midnight PST**. Previous Daily Chat Threads can be found [here](https://www.reddit.com/r/cscareerquestions/search?q=Daily+Chat+Thread&amp;restrict_sr=on&amp;sort=new&amp;t=all).\n",
+      "subreddit": "cscareerquestions",
+      "score": 4,
+      "url": "https://reddit.com/r/cscareerquestions/comments/72ipup/daily_chat_thread_september_26_2017/",
+      "comments": [
+        {
+          "body": "anyone got coursera new grad hackerrank challenge?",
+          "score": 1
+        },
+        {
+          "body": "[deleted]",
+          "score": 5
+        },
+        {
+          "body": "[deleted]",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "title": "Opinions on the interviewing process at Palantir being totally absurd?",
+      "body": "Hey folks, just wanted to get some opinions about the interviewing process at Palantir. This is my second time interviewing with them (completely different role/area of practice), you can find my write up of my first interview for a Deployment Strategist role [here](https://www.reddit.com/r/cscareerquestions/comments/q23w5j/deployment_strategist_at_palantir_interview/).\n\nThis time, I applied to an ops role and had my recruiter phone call on Monday (3/28). I was told at the end of the call that I'd be moving forward into round 2. Today (4/1), I received the same canned rejection email as last time. All kidding aside, I thought at first this was some twisted April Fool's joke since I was told on Monday I'd be moving forward, and sans my thank you email on Tuesday, I've had no contact with anyone at Palantir. Obviously, I highly doubt this is the case but I'm still baffled... Has anyone else experienced something similar? While I do plan on keeping my shares in the company, I highly - and I mean HIGHLY - doubt I'll ever try and interview there again. They're starting to seem straight up foolish to me. Last time I let this ruin my weekend, this time I know better. Practice makes perfect, I suppose. \n\nThanks in advance for any insight, and would LOVE to hear from an actual Palantirian if they're so inclined.",
+      "subreddit": "cscareerquestions",
+      "score": 4,
+      "url": "https://reddit.com/r/cscareerquestions/comments/ttvgju/opinions_on_the_interviewing_process_at_palantir/",
+      "comments": [
+        {
+          "body": "that stinks. \n\nit may be worth connecting with the recruiter as people have been known to make mistakes",
+          "score": 5
+        },
+        {
+          "body": "Sorry, your submission to /r/CSCareerQuestions has been automatically removed. Please save interview discussion, advice, and critique requests for the weekly stickied thread.\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/cscareerquestions) if you have any questions or concerns.*",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "What was your phone interview (Technical) with Palantir internship? Harder than Google/Facebook?",
+      "body": "What was your phone interview (Technical) with Palantir internship?  Harder than Google/Facebook?\n\nI have already passed the hackerrank challenge.",
+      "subreddit": "cscareerquestions",
+      "score": 4,
+      "url": "https://reddit.com/r/cscareerquestions/comments/3vo6ku/what_was_your_phone_interview_technical_with/",
+      "comments": [
+        {
+          "body": "My phone interview was somewhat challenging - 7/10. I haven't interviewed at Google or Facebook, but it was definitely harder than Amazon and Uber. There was also a lot more feedback in the interview than you'd get at other companies. I found the optimal asymptotic solution, but he pointed out a couple of places where I was slightly inefficient, and commented a lot on my design choices, which I thought was really helpful. I will say that it was much more difficult than the onsite interviews, but that's because Palantir doesn't give algorithms interviews to interns - only coding and decomposition.\n\nMy tips are focus mainly on writing clean code. They care a lot about the cleanliness and readability of your code and prefer a candidate who has a worse asymptotic solution but writes really clean code over a candidate that got the optimal solution but wrote messy code. Also practice stepping through your code and demonstrating what it's doing, because they asked me to do that in all of my interviews.",
+          "score": 2
+        },
+        {
+          "body": "It's kind of a crapshoot. My Palantir phone interview was actually fairly easy, and so were my Facebook phone interviews. I applied for google internships twice, and both times my interviews were extremely difficult. On the other hand, I have friends who got super easy questions from google, and very difficult questions from Facebook/Palantir. Even my Palantir onsite wasn't too terribly difficult, although I didn't end up getting an offer in the end. ",
+          "score": 2
+        },
+        {
+          "body": "My Palantir technical question was easier than my Facebook question. \n\nI didn't have behavioral questions in my Facebook interviews, but my Palantir interviewer asked me behavioral questions like 'why do you want to work at Palantir?'",
+          "score": 2
+        },
+        {
+          "body": "My phone interview with Google was ridiculously easy. Along the lines of counting occurrences of a parameter in a text document. Palantir was harder, a graph question, but anyone who has studied graphs would have gotten it. I was surprised because I studied DP/memoization/recursive backtracking, SSSP, etc to prepare for Palantir. It might be the case that these companies are lowering the bar in order to hire more engineers. That's a guess based on my anecdotal experience.",
+          "score": 1
+        },
+        {
+          "body": "[deleted]",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Does anyone know more about the company Palantir Technologies?",
+      "body": "I met them at a job fair the other day, and they seemed really interesting.  Sadly, some of the reviews on their interview process are a a little intimidating.  Does anyone have any insight on this company?\n",
+      "subreddit": "jobs",
+      "score": 2,
+      "url": "https://reddit.com/r/jobs/comments/qmn17/does_anyone_know_more_about_the_company_palantir/",
+      "comments": [
+        {
+          "body": "They're kind of evil from what I read: http://exiledonline.com/ron-pauls-super-pac-sugar-daddy-builds-toys-for-the-cia-spies-on-u-s-citizens-opposes-democracy-womens-suffrage/",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "title": "Long rant about drawn-out, negative interview process at Palantir. Just wanted to share.",
+      "body": "I'm posting this on glassdoor but just wanted to share this here as well, for others that may be considering applying to Palantir.\n\n**1 - Online Coding Challenge**\n\nI submitted my resume via employee referral. I was promptly sent an on online coding challenge on HackerRank which I actually thought was a bit weird-- normally I would have thought a referral would have allowed me to skip at least the very first step but it did not appear that was the case. There were two questions. The first was somewhat simple, I don't really remember it anymore. The second can be found on glassdoor, it was about flagging financial transactions as fraud.\n\n**2 - Technical Phone Screen**\n\nA couple days after I submitted the coding challenge I was invited to a technical phone screen with a forward deployed engineer. I could hardly hear the interviewer, who mumbled a lot and was very unclear about answering any questions I had about the problem. The problem was about interpreting a string of stack-based commands. Two phases: the first was simple, just parsing simple math operations (+ ,-, / ,*) with numbers. The second phase was a bit more confusing, with added commands like Goto and Label to essentially create loops. The entire thing was actually pretty confusing--I had to ask the interviewer a lot of questions and I got the sense that it was intentionally set up that way to make sure that you weren't just coding without fully understanding the requirements. Given the difficulty communicating with the interviewer, I wasn't really expecting to pass, but I was invited to on-site interviews a couple days after the phone screen.\n\n**3 - On-Site Interviews Part 1**\n\nPalantir took care of transportation, meals, and the hotel for the on site. The day was as follows:\n\n- Informal 1-on-1 chat with a current engineer, which they called the \"Palantir 1 on 1.\" They said the purpose was just to relax and get coffee, etc., so that you can settle in a bit before jumping straight into coding interviews. It served its purpose well.\n- 1st coding interview. Standard coding interview with an engineer. Mine happened to be with a team lead. We talked about a backgrounds a bit, he actually asked me to go into a fair amount of detail about my current work and I even ended up drawing a diagram on the whiteboard to explain some system design stuff I ended up talking about. Then he asked me an easy coding question about linked lists.\n- 2nd coding interview. Less talking about background, went into the coding problem fairly quickly. The interviewer was only a couple years out of college and seemed a bit inexperienced technically. The question was somewhat tricky to get in linear time but not that bad. When talking about runtimes I actually corrected the interviewer about some python API runtimes, which the interviewer seemed to appreciate and seemed to regard as a positive.\n- 3rd coding interview. This was stated to be a \"decomp\" (decomposition) interview, which is basically Palantir's version of the design interview, but was essentially no different from a regular coding interview. The question itself was technically easy and can be found here on glassdoor, but the interviewer was very interested in my thought process throughout the whole thing. Problem solving ability and communication seemed to be very important here.\n- Informal lunch chat. My host for this seemed pretty distracted and was on her phone a lot and even interrupted to take a few phone calls in the middle. Definitely did not seem interested in the lunch chat and looked like she would much rather have been doing anything else.\n- Product demo. This was 1-on-1 with an engineer rather than being a group presentation. It essentially turned into another informal 1-on-1 chat.\n\nOne thing to note is that Palantir seems to have done away with the past on-site process (documented in other glassdoor reviews) of doing 6+ interviews all in one day, then giving the decision immediately after. In the past, getting a product demo after lunch was a sign of rejection, while if you were a good candidate, you would get more interviews. For me, the recruiter told me it would be 3 interviews followed by a demo from the get go. I asked her if there would be any more interviews and she said if the feedback was positive the next step would be to have a final interview with a hiring manager the next week to determine if I'd get an offer or not. So basically they just moved the post-lunch interviews to another day entirely, rather than having them all at once.\n\n**4 - On-Site Interviews Part 2**\n\nI was invited to more on-site interviews, which wasn't a surprise. I was surprised however when the recruiter said that they wanted me to do one more coding interview (in addition to the hiring manager interview) because some of the feedback indicated that my coding was a bit slow. Fine, but I'm not sure how much faster they expect you to code if they also want you to properly explain everything you're doing. This time Palantir did not offer to cover expenses (I was semi-local). The interviews went as follows:\n\n- Another informal warmup chat to start, with a team lead engineer\n- The coding interview. Jumped straight into the question this time: balancing opening/closing brackets in a string. I thought it was cute that the interviewer attempted to dress this up as a real-life problem that they had encountered in the wild recently. I kept in mind speed while trying to maintain good communication.\n- Hiring manager interview. First half of this was going through my resume and asking about my background. I did not major in CS in college (physics instead), so they really wanted to understand my switch from physics to CS, my previous job in another field (I currently am a software engineer already), etc. They were also very focused on understanding why I wanted to join Palantir. The second half was another decomp question, this time no actual coding, but just talking about the problem on the board with rough diagrams. It was a difficult question and they clearly were not expecting a final complete solution (I looked it up later and it's kind of a famous problem). Problem solving process and communication were again key.\n\nAfter these interviews the recruiter called me a couple days later to tell me that all the feedback was \"very positive\" and that my coding, culture fit, behavioral questions, motivation for joining Palantir, etc. were all extremely positive. However, this is when stuff started to get weird for me. Instead of proceeding with an offer (which is what I had been led to believe would happen after the 2nd round of on-site interviews), the recruiter asked me if I were interested in a Forward Deployed Software Engineer role instead. This role requires lots of travel directly into client offices, and is essentially just being a consultant. I had been very clear since the very first recruiter call (right after the online coding challenge, but before the tech phone screen) that I was not interested in this position and that travel was a big no for me. At that time, they had clearly understood my desire and said that I would be proceeding with interviews in consideration for the regular Software Engineer role. So I was surprised that they seemed to be trying to do a bait-and-switch for the FDSE role instead at this late stage. I pushed back--I asked if this was a choice or if it was being forced onto me--and the recruiter backed off a bit, although she still said they would have to talk more about it. Another review here on glassdoor has said that Palantir is desperate for people to fill the FDSE role, since it doesn't seem to be very popular. I really felt this when the recruiter tried to gauge my interest for the FDSE role.\n\nA couple of days later the recruiter gets back to me and says that they would like me to do yet another interview, this time with a Team Lead Software Engineer so gauge my fit for the regular Software Engineer role. At this point I am starting to get uncomfortable flags in my head. I had already talked to two Team Lead Software Engineers in my interviews--why weren't they able to get the feedback they wanted from those guys?\n\nYou can't really say no though, so I grit my teeth and said sure. The interview process was now going well into the second month. I asked the recruiter what the primary purpose of the interview was going to be and she said that it would essentially be a \"placement\" interview to determine what team would be the best fit for me. I asked her directly if there were any flags that had come up in the feedback up to this point and if there was anything I could demonstrate or highlight better in this upcoming interview. She emphatically said no, that this was \"not an interview to mitigate any flags or anything like that,\" and that everything was extremely positive so far, and that this was again just for placement purposes. She also said that this would NOT be a technical interview, and that it would be similar to my interview with the hiring manager, i.e. understanding my background, etc.\n\n**5 - Final Skype Interview with Team Lead Engineer**\n\nI had to do this via Skype since the interviewer was in Palo Alto. We did indeed talk about my background for the first half of the interview, and then the interviewer proceeded to ask a technical decomp question, which took me by surprise since the recruiter had said the interview would not be technical. Similar to the previous interviews, the interviewer dressed the question up as something they had encountered in their work recently (it wasn't). The question was about syncing relational databases across a faulty network connection. This problem is again, famous, and a final complete solution should not be expected in 30 minutes. I talked through the problem with the interviewer and asked a lot of clarifying questions. The interviewer said my questions were very good and agreed with a lot of things I said. Toward the end the interviewer found an appropriate place to stop and left time for me to ask him questions. I ended this interview feeling good about it.\n\n**6 - Rejection**\n\nA few days later I got a 2-minute rejection call, in which the recruiter said simply that the Skype interviewer did not feel that my technical skills were good enough. I was very taken aback at the rejection, and was left with the following questions:\n\nThe Skype interview was all talk and involved no coding whatsoever--how can the interviewer gauge my technical skills with such an interview?\nI had 5 other evaluative interviews that were ALL stated to have been \"very positive,\" after multiple rounds. At each step in the process, I had also made it through the rounds of discussion and feedback, it wasn't like they were all in one day. How can one Skype interview derail all the other feedback?\nCulture fit seems to be very, very important to Palantir, and this was another aspect of my feedback that was touted as excellent. How could they throw that away?\n\nAll told, I classify this as a negative experience because of the prolonged interview process and the bizarre rejection at the end. Even if I had been given an offer I would still have considered it a negative experience because of the blatant attempt at a bait-and-switch to the FDSE role, and the seemingly never-ending rounds of interviews that went well beyond what was communicated to me in the beginning. The other glassdoor reviews aren't very clear about how many total rounds there are, but I do think that I reached the very end of the interview process. I can't imagine there being any possible further interviews beyond what I had.\n\n**7 - Final Thoughts**\n\nSome final thoughts and observations about Palantir that I got from the whole process:\n\n1. As others have stated, their employees seem very young on the whole, which is worrisome because it indicates a lack of senior engineers and leadership. Almost all of my interviewers were recently out of college.\n2. Their need for FDSEs was palpable, and from my informal chats I gathered that lots of FDSEs switch to regular software engineers within a couple years. It seems that nobody wants to do the FDSE role willingly--people go on \"rotations\" as FDSEs.\n3. The whole culture seems a bit \"off\" -- everything seems just chaotic enough (from workflows, to product management, to work/life balance) to make people a little uncomfortable, but not enough to send people leaving en masse.\n4. Their reputation for having tough interview problems is totally overrated at this point. I'm sure it used it be hard, but all the questions I got were almost laughably easy. All of the questions were related to parsing arrays or strings. I did not receive a single problem that had to do with trees/graphs, or recursion, or dynamic programming.\n5. Similar to the above, their attempts at dressing up common, easy problems as real-life problems that they had encountered in their work in the wild was cute the first time, but annoying the second and third times.\n6. All of the above just reinforced the increasingly common perception of Palantir as just a glorified data-consulting company. Long hours, traveling to client offices, selling software suites, burning out young employees, etc.\n7. Oh, and one of my informal chat interviewers straight up told me that vacation is discouraged (they have an unlimited policy).\n\nIn the end I am kind of glad I did not get an offer, although a significant portion of that feeling is just a coping mechanism. The bait-and-switch for the FDSE role was when flags started going off in my head, and that allowed me to more critically assess the negatives of working at Palantir that I saw from my other interviews. As someone else has already said, I'm not applying here again.\n\n\n",
+      "subreddit": "cscareerquestions",
+      "score": 551,
+      "url": "https://reddit.com/r/cscareerquestions/comments/50csfd/long_rant_about_drawnout_negative_interview/",
+      "comments": [
+        {
+          "body": "Had a friend interview there, on the 2nd day of onsite, hiring manager asked \"how do you feel about working 10-12 hour days.\" Friend answered he's able to but not willing to sustain for long periods of time. Interview ended there. ",
+          "score": 249
+        },
+        {
+          "body": "Thanks for posting this, it pretty much encapsulates the shit interviewing process at software companies and their complete disregard for your time. I interviewed at Amazon recently and had two 1.5 hour coding sessions on Collabedit and SEVEN interviews in a row onsite. Insane. I got rejected (with no explanation, per usual) and a month later, an Amazon recruiter emails me and asks if I'm interested in interviewing. WTF, like I'm going to waste all that time again.",
+          "score": 158
+        }
+      ]
+    },
+    {
+      "title": "Deployment Strategist at Palantir Interview Experience",
+      "body": "Hi everyone! While I'm not from an IT background, I applied to Palantir as a Deployment Strategist (\"DS\"), which is on the business development side. I understand the company may not have the best reputation on this forum, but please hear me out as this is really important to me.\n\nMy background is in management consulting and some corporate finance. The DS position to me seemed like a project management position, which I have done in the past (on some IT implementation projects), so I thought it was a great fit. During the initial phone screening, I was also asked if I were willing to relocate based on speaking another language, to which I agreed. The interviewer even told me if I were willing to relocate, it would \"boost my chances significantly\". I breezed through the rest of the phone screen, and then was invited to a zoom interview with a DS. \n\nDuring this interview (and for days before), I psyched myself out. I then gave a lukewarm answer to the question, \"If given $10 million, what product would you build and why?\". I could tell that after I more or less struggled my way through, it was game over for me. My thought process was to frame my response with respect to what I knew about Foundry, which I now think was a mistake. The other parts of the interview I thought went quite well, so I thought (hoped) I would at least have the chance to advance to the next round where I'd have to answer similar questions to three other DS, and could improve my response. This was on Wednesday last week. By Friday, I got a canned rejection email. This hit me REALLY hard because the DS position and Palantir are a dream job combo for me, and I could really see myself there. I did 20+ hours of prep including extensive research on the company website, youtube, glassdoor, Reddit, etc., and now feel extremely depressed and dejected. \n\nOver the weekend, I obsessed about my response so much that I wrote the recruiter a lengthy thank you email, and politely pointed out an alternative solution to my response, without once even hinting at the idea of getting another chance to interview. I did not want to come across as desperate, but also noticed from my research that \"Palantir values critical self-reflection\", which is the only reason I hit send on the email. I am not expecting a response anymore (it's been 2 full days), nor am I going to try and connect with anyone on LinkedIn. \n\nAt this point, I was hoping to get some feedback from some of you that may have been in a similar situation with Palantir. Perhaps I could even hear from someone who made it all the way through the interview process and received an offer. I'm not asking for a second chance, just some type of feedback, as this definitely affected me deeply. Am I now screwed forever in applying to them? What could I improve upon? All those questions are now keeping me up for the third night straight, and since I'm fairly certain I won't get any response from the recruiter, I just need someone outside my echo chamber to chime in. ",
+      "subreddit": "cscareerquestions",
+      "score": 10,
+      "url": "https://reddit.com/r/cscareerquestions/comments/q23w5j/deployment_strategist_at_palantir_interview/",
+      "comments": [
+        {
+          "body": "Anyone?",
+          "score": 1
+        },
+        {
+          "body": "[removed]",
+          "score": 1
+        },
+        {
+          "body": "[removed]",
+          "score": 1
+        },
+        {
+          "body": "Sorry, your submission to /r/CSCareerQuestions has been automatically removed. Please save interview discussion, advice, and critique requests for the weekly stickied thread.\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/cscareerquestions) if you have any questions or concerns.*",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Help getting an interview with Palantir",
+      "body": "Hey guys, just wondering if anyone has any advice on how to get an interview with Palantir.  I am soon getting my PhD in computer science with a machine learning/data mining focus and I am really interested in some of the work they are doing.   \n\nI've had good luck getting interviews with Google, Amazon and other competitive places through submitting my resume online, but with Palantir I have no luck getting any response.  \n\nAny tips on what they look for when scanning cv/s, cover letters?",
+      "subreddit": "cscareerquestions",
+      "score": 5,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1du5qb/help_getting_an_interview_with_palantir/",
+      "comments": [
+        {
+          "body": "[Track down an HR/recruiter on linkedin](http://www.linkedin.com/company/palantir-technologies) and politely ask if they are hiring. Throwing a resume into the void is tough.",
+          "score": 3
+        },
+        {
+          "body": "I always see you posting snarky comments about \"top schools\" and \"top companies.\" Yet, I rarely see any insight from you to indicate that you've actually had any real experience with either of those things. \n\nDo you even have a job? Where did you go to school? I'm willing and able to substantiate any claim I've made. How about you? \n\nTry me, son.",
+          "score": 3
+        },
+        {
+          "body": "Seconded on the LinkedIn suggestion. Their recruiters seem to be pretty active judging by how quickly they'll try to get in touch with you after you've updated your profile to fit what they are looking for (\"location\" in my case). It might also help a lot if you are currently working for one of the other big names.",
+          "score": 1
+        },
+        {
+          "body": "[deleted]",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Palantir Phone interview/hackerrank challenge?",
+      "body": "Anyone went through Palantir Phone interview or HackerRank challenge?? how was your experience?\n\nI have already taken the hackerrank challenge\n",
+      "subreddit": "cscareerquestions",
+      "score": 3,
+      "url": "https://reddit.com/r/cscareerquestions/comments/3sr8u8/palantir_phone_interviewhackerrank_challenge/",
+      "comments": [
+        {
+          "body": "Make sure you know how to answer 'why do you want work for palantir?'\n\nI failed my phone interview because I took a long time to answer that question, and my answer was BS. It's a cool company but make sure you know why or how it is cool.",
+          "score": 2
+        },
+        {
+          "body": "The usual data structures and algorithms questions for the interview.",
+          "score": 1
+        },
+        {
+          "body": "Was it open for everyone?",
+          "score": 1
+        },
+        {
+          "body": "[deleted]",
+          "score": 1
+        },
+        {
+          "body": "It depends on the role I think. I interviewed for FDE and was pleasantly surprised by how straight forward the interview was. \n\nI have friends who went for traditional Software Engineers and had a much harder interview. \n\nThat being said, YMMV. I think their interviews are really inconsistent. ",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Palantir Phone Interview",
+      "body": "Does anyone have experience with Palantir's phone screens for FDSE (or SE)? Specifically those using Hackerrank Codepair.\n\nI'm asking because I've read a crazy array of opinions on the phone screens -- ranging from harder-than-onsite to simple. I'm not finding much usable info on sites like glassdoor.\n\nThanks in advance :~)",
+      "subreddit": "cscareerquestions",
+      "score": 8,
+      "url": "https://reddit.com/r/cscareerquestions/comments/3l4jts/palantir_phone_interview/",
+      "comments": [
+        {
+          "body": "FDSE tends to have easier interviews than SE, but still challenging. \n\nThe HackerRank questions are super simple though. Shockingly simple considering Palantir's notoriety. ",
+          "score": 2
+        },
+        {
+          "body": "Went through a (successful) phone interview for SE recently. Codepair was used as a collaborative document, nothing else. Didn't compile/run my code or try any test cases during the interview, though this functionality is offered. Could have been using Google Docs or anything else, but syntax highlighting was helpful.\n\nInterview question was moderately difficult. Had to code and use a bunch of basic data structures in combination to achieve the desired result with optimal complexity. Lots of coding, and numerous edge cases to watch out for. The single question took me the full 35-40 minutes. Rest of the time was used for general resume/background questions and questions for the interviewer. \n\nCan't imagine an on-site interview question being more difficult, especially on a whiteboard. ",
+          "score": 2
+        },
+        {
+          "body": "A friend recently had an interview with Palantir for a job as FDSE. According to him, algorithms weren't as important as design patterns and knowledge about scalability. ",
+          "score": 1
+        },
+        {
+          "body": "Mine were pretty easy. Implement a class for a straightforward datastructure. YMMV.",
+          "score": 1
+        },
+        {
+          "body": "I recently had an interview with Palantir (like, Friday) for a FDSE intern position and it was pretty chill to be frank. I have done quite a few interviews recently so I was feeling quite burnt out and I still managed to get a satisfactory answer for the HackerRank question (I had already passed a previous online coding test).\n\nThough 2 of the questions I was asked did not involve coding at all for example, what does *x* mean in Computer Science and some description of how Git works. I don't use Git often so I basically turned the question into a discussion of the functionality I was asked and it seemed to go well for me.\n\nAlso note that your code not compiling is not the end of the world, I managed to mess up and my final solution didn't compile but I still got some positive feedback!\n",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Preparing for a Deployment Strategist interview at Palantir: advice on problem decomposition",
+      "body": "I have been recently invited to an onsite interview at Palantir Technologies for the position of a Deployment Strategist. I would like to know what kind of questions should I expect in such an interview and how should I prepare.\n\nIn particular, according to [Palantir's website](https://www.palantir.com/2014/10/how-to-ace-a-software-decomp-interview/), a specific type of questions asked in these interviews are *Software decomposition questions*. Are there any online (or other) resources for preparing for such questions? \n\nThanks a lot for your feedback.",
+      "subreddit": "cscareerquestions",
+      "score": 3,
+      "url": "https://reddit.com/r/cscareerquestions/comments/2qji1v/preparing_for_a_deployment_strategist_interview/",
+      "comments": [
+        {
+          "body": "I interviewed for Deployment Strategist as well (and will be starting in the coming summer). I don't think I'm allowed to give specifics of the questions, but I can tell you more about the process/hopefully fill in some of the gaps of Glassdoor, if you shoot me a PM. ",
+          "score": 1
+        },
+        {
+          "body": "[removed]",
+          "score": 1
+        },
+        {
+          "body": "[removed]",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "title": "Anyone with recent Full Stack Palantir onsite interview?",
+      "body": "I have an onsite interview with Palantir coming up for a full time full-stack software engineering position. I was wondering if anyone that has previously interviewed on-site with them could provide me with insight as to what to expect. I've been reviewing questions on their Glassdoor, but it seems as though most of those questions are for the phone interview process. I'm mostly wondering what the UI design interview is like, in addition to the coding portion (will they ask specific JS and framework questions, or are they truly code-agnostic as they say?)",
+      "subreddit": "cscareerquestions",
+      "score": 2,
+      "url": "https://reddit.com/r/cscareerquestions/comments/2x5pb0/anyone_with_recent_full_stack_palantir_onsite/",
+      "comments": [
+        {
+          "body": "I just went through this. I read through the different types of interviews they say they do ahead of time, then talked to my recruiter about it. I was told it varies by team, but to really be ready for coding/algorithms. Everything I was asked was language agnostic. ",
+          "score": 1
+        },
+        {
+          "body": "I interviewed with Palantir for their full stack position in October. It's a pretty chill process, your technical rounds (3 for FS) are done by lunch, and the rest of the day is a behavioral round with a manger, a tech demo and office tour, and then a final (maybe technical, maybe not) round with a co-founder. \n\nThere's 1 algo round, 1 coding round, and 1 UI round in the morning, not necessarily in that order. The UI/UX round is super straightforward, brush up on some basic design and usability principles and you'll be good to go. Everything really is language agnostic as they state on the site, you can basically use whatever language you want within reason.\n\nPersonally, I found palantir's onsite interview process the best organized and most interesting out of everywhere I interviewed. The founder interview especially was a very cool experience, although a bit nerve-wracking. Enjoy Palo Alto when you're there too, it's a neat little city. ",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "How should I prepare for an interview with a hiring manager at Palantir?",
+      "body": "I recently interviewed onsite for a Forward Deployed SE position at Palantir which seems to have gone all right. My recruiter said the team liked me, and asked me to return in two days for an interview with a hiring manager.\n\nPart of the feedback, though, was that I seemed a little rusty with the coding and some technical parts of my interview. And it's true, I've been away from the SE game for about two years due to other commitments.\n\nGiven that I have very little time at this point to make substantial improvements in that regard (e.g. practicing a bunch on leetcode), what should I focus on for this stage of the interview? What can I do to assuage doubts that the hiring manager might have about my skills and my ability to hit the ground running?",
+      "subreddit": "cscareerquestions",
+      "score": 2,
+      "url": "https://reddit.com/r/cscareerquestions/comments/67rc2h/how_should_i_prepare_for_an_interview_with_a/",
+      "comments": []
+    },
+    {
+      "title": "Is This Really It? (Canadian Uni Student)",
+      "body": "Hello everyone, I am a rising sophmore at T2 uni in Canada for CS.\n\nI interned at a startup after highschool (it was unpaid), but I got a ton of experience from it since I literally just coded all day (even without getting paid).\n\nI have really good connections, one is a full-time at AWS, the other is Interning at Palantir. I revamped my resume like 9 times, and the final version they said it looks very good.\n\nI have recently applied to like 100 jobs (these are for winter and summer internships 2026). I am getting rejected mostly or the Automatic OAs.\n\nRecently one of the unpaid internships I applied to told me they like my experience and they would like to have me onboard. It was for Fall sem, so and I don't have any internship lined up on Fall sem so I said yes why not.\n\nThis is going to be my 2nd unpaid internship, and the worst part of it is, the interviewer told me 300 people applied and they went through some of them manually and they liked my \"real life\" experience. This means I got the job based on mostly luck.\n\nI mean 300 people for a fucking unpaid internship. I was lowkey in disbelief.\n\nThe worst part of it is, a course I am going to take in Winter is gonna pair me up with another company and I will be having my 3rd Unpaid internship there.\n\nI just want someone upper year telling me everything is gonna be fine, I am so sick of fucking working for free, and you may say \"Well then don't apply for any\", and yes you are right, but I genuinly feel like I am staying behind when I am not working at X company and gaining at least some experience.\n\nI see people on here and other places Deciding whether to Choose google with 200k TC or Meta with 220K TC but a higher cost of living area. Like when am I gonna have such an option?\n\nThe point I am trying to make is, I am going to one of the best unis in my country (UofT) and I have chosen one of the hottest programs rn (CS), and I still can't find a job and have to rely on unpaid internships.\n\nI feel very beat, I have lost the drive to work hard, cuz it feels like even if I will graduate and accomplish something I still feel like I won't get hired. I know jobs take a while to respond back, I applied to 100 and all rejections have been instant and most \"Yes's\" come down the line but still man.\n\nI just need someone in comments to tell me everything is going to be OK and that the industry and the economy will get better (I am in Canada). (I just wish I was born 12 years earlier and graduated in 2016).\n\nThx for reading.\n\nTLDR: I feel like even if I continue to work hard, I am not gonna be employed.",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1n5dj6n/is_this_really_it_canadian_uni_student/",
+      "comments": [
+        {
+          "body": "Dude, u are lucky to even got a intership, it's pretty bleak rn",
+          "score": 18
+        },
+        {
+          "body": "I also went to UofT. It is pretty hard to get an internship after your first year of university. I worked at a unpaid startup and I got into Amazon when I graduated.\n\nThe tech market in Toronto is 10x better compared to 10 years ago. There were no well paying tech jobs other than Amazon 10 years ago. You have a lot more options now.",
+          "score": 5
+        },
+        {
+          "body": "You have a good start. You're going to a recognizable school in Canada's largest tech job market.\n\nUnfortunately, Canada is a bit stagnant rn, with economic headwinds and uncertainty over our current economic relationship with the US. Over time, things will stabilize - and if they don't, you can always go elsewhere. Life works out like that, we don't really have a choice but to make it so.",
+          "score": 4
+        },
+        {
+          "body": "&gt; I have really good connections, one is a full-time at AWS, the other is Interning at Palantir. I revamped my resume like 9 times, and the final version they said it looks very good.\n\nA) These _aren't_ really good connections. You have an intern and a full time. \n\nFor comparison, a classmates dad had &gt;dozen startup connections and this guy got his resume personally reviewed by a dozen CEOs when we were a freshman. He still got rejected because he had absolutely no way to demonstrate experience. This was in 2018, when it was a supposedly good economy\n\n&gt; I have recently applied to like 100 jobs (these are for winter and summer internships 2026). I am getting rejected mostly or the Automatic OAs.\n\nB) You should apply to like ... 500 jobs that you're a fit for? Something like that. \n\n&gt; This means I got the job based on mostly luck.\n\nC) Yes, luck always had a huge role in careers\n\n&gt; I genuinly (sic) feel like I am staying behind when I am not working at X company and gaining at least some experience.\n\nD) You need to also hang in there and keep doing the right things - making good projects, getting good grades, and doing good stuff in your internships\n\n&gt;  Like when am I gonna have such an option?\n\nE) For some people, when they graduate. For others? Maybe never. But if you give up now, things can't ever get better.\n\nCareers are non-linear, and frankly a marathon and not a sprint. Also, keep working on improving your resume / apply to a LOT more jobs. Be wiling to relocate maybe for kingston / ottawa / kitchner / montreal idk",
+          "score": 4
+        },
+        {
+          "body": "Toronto is more of an insurance hub than a tech hub. Add a stats major and get some actuarial exams, you'll get a job easily as an actuary. The Canadian tech sector is done, I'm in my last semester at UofT and I still can't find a job here. However, I am lucky that I am an international student and new grads still get jobs back home.",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "title": "Palantir learning + decomp interview",
+      "body": "Hi, any advice on the palantir learning and decomp interview for this cycle would be much appreciated. thanks",
+      "subreddit": "interviews",
+      "score": 0,
+      "url": "https://reddit.com/r/interviews/comments/1mnd8a3/palantir_learning_decomp_interview/",
+      "comments": [
+        {
+          "body": "how did it go?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "What can I expect from the final hiring manager interview at Palantir (FDSE)?",
+      "body": "I am interviewing for the full time, new grad Forward Deployed Software Engineer position.\n\nMy recruiter just let me know that I have one final interview with a hiring manager. I previously did a phone interview and three additional interviews (supposed to be on-site, but I had to do them over the phone due to other deadlines). This is supposedly the final interview, and it would cover both technical questions and more of the cultural fit/what-motivates-you-type of questions. \n\nHas anyone here done this interview, and if so, would you be able to share some of your thoughts about it? \n\n",
+      "subreddit": "cscareerquestions",
+      "score": 3,
+      "url": "https://reddit.com/r/cscareerquestions/comments/5bu4ub/what_can_i_expect_from_the_final_hiring_manager/",
+      "comments": [
+        {
+          "body": "For me it was more of a culture fit interview.  Best advice I could give is be yourself!  I honestly really enjoyed mine.",
+          "score": 4
+        },
+        {
+          "body": "lol my friend passed the onsite but didnt get past the final manager interview. pretty bs imo",
+          "score": 3
+        },
+        {
+          "body": "How did the interview go? I'm in the process of scheduling an onsite interview right now. Was it technical or mostly culture fit? What kind of culture questions do they ask?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Hiring Manager interview for Palantir Forward Deployed Software Engineer Internship?",
+      "body": "Hi guys,\n\nA bit about myself is I'm a junior as a CS major at a nontarget CS school.\n\nI'm in the recruiting process with Palantir. I had the HR screen, the two phone interviews, and the onsite interviews, and I was told yesterday that I will be having an interview with a Hiring Manager.\n\n**I was wondering if anyone on this sub has experience with going through this process, and could offer some advice on how to prepare and what to expect.**\n\nThroughout interviewing with Big 4 and Unicorns and getting some offers with them, I have yet to have a Hiring Manager interview as a step after onsite. The only interview preparation I've done thus far is technical questions, so I feel that I am unprepared.\n\nThanks!",
+      "subreddit": "cscareerquestions",
+      "score": 1,
+      "url": "https://reddit.com/r/cscareerquestions/comments/587yf9/hiring_manager_interview_for_palantir_forward/",
+      "comments": [
+        {
+          "body": "The hiring manager interview is likely going to be more behavioral than anything with the possibility of technical questions. Palantir has less than a handful of hiring managers and this is a sanity check to make sure you're a good cultural, behavioral, and technical fit. It's not going to be any different than other interviews you've done. Relax, be yourself, and best of luck.",
+          "score": 2
+        },
+        {
+          "body": "I'm done it before. PM me.",
+          "score": 1
+        },
+        {
+          "body": "Palantir employee here. I can answer more via PM.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "On site interview Palantir help. Decomposition?",
+      "body": "Hi everyone. Long time lurker here, and I've fortunate enough to have an onsite interview with Palantir in two weeks. I've been told they will involve a few coding questions a decomposition question, which I've read what it is (basically breaking down a large, broad problem and talking about tradeoffs, etc.) but have no clue how to prepare. Aslo, Do you guys have any tips about what I should focus on for the coding interview? I'm honestly not that great at Leetcode... find it hard to get the most efficient algorithms for medium. Any tips would be much appreciated, as there isn't a whole lot of time left, especially with school work.",
+      "subreddit": "cscareerquestions",
+      "score": 6,
+      "url": "https://reddit.com/r/cscareerquestions/comments/5u61kx/on_site_interview_palantir_help_decomposition/",
+      "comments": [
+        {
+          "body": "I got 2 leetcode hard level questions and 2 meds and a decomp. Definitely practice leetcode.\n\nDecomp was pretty easy, was asked how I would implement an internal tool.. was a much less stressful conversation than the whiteboarding. Read up on sys design and OOP principles.",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Palantir Hiring Manager Interview",
+      "body": "I had my on-site interviews with Palantir for their FDSE intern position recently, and have an interview in a couple of days with the hiring manager. The recruiter told me that the interview will be behavioral and technical (I was given a HackerRank code-sharing link). I was wondering, for anyone who has done this before, do they have everyone speak with the hiring manager or is it only if you've done well in the on-site interviews? Also, should I expect technical questions of the same level of difficulty as the on-site interviews questions? Any input appreciated, thanks!",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/59rbed/palantir_hiring_manager_interview/",
+      "comments": [
+        {
+          "body": "You're speaking to a hiring manager because you did well on the on-site. That's just the last step of their process. Sometimes you'll get technical questions and sometimes you won't. It depends on which manager you talk to and their mood I guess. My final interview with a manager with behavioral and verbal technical. You made it this far, just relax and do well! ",
+          "score": 2
+        },
+        {
+          "body": "Can't really comment on the type of questions but I'm quite sure you only speak to the hiring manager if you've done well. Palantir is a company which likes to cut the interview process early if they see it's not a fit.",
+          "score": 1
+        },
+        {
+          "body": "How did the interview go? What was covered? Any tips? I'm in the same situation.\n\nThanks!",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Has anyone gone through the Quality Engineer interview process at Palantir?",
+      "body": "If so, what was it like? When did you interview? Did you get an offer?",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/3vqh47/has_anyone_gone_through_the_quality_engineer/",
+      "comments": []
+    },
+    {
+      "title": "palantir exit opps? or career suicide?",
+      "body": "Interviewing for palantir right now for an internship. want to know what my exit opps look like? will working for defense startup pigeon hole me? is palantir well reputated? what is its reputation? \n\nlmk tysm ",
+      "subreddit": "cscareerquestions",
+      "score": 6,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1kutyp2/palantir_exit_opps_or_career_suicide/",
+      "comments": [
+        {
+          "body": "If you find yourself in a difficult place in your life, we urge you to reach out to friends, family, and mental health professionals. Please check out the resources over at /r/depression, /r/anxiety, and /r/suicidewatch. Feel free to [contact the /r/CSCareerQuestions mods](https://www.reddit.com/message/compose?to=%2Fr%2Fcscareerquestions&amp;subject=&amp;message=) for more information or help.\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/cscareerquestions) if you have any questions or concerns.*",
+          "score": 1
+        },
+        {
+          "body": "No internship will pigeonhole you - it’s like 3 months of basic, practical experience that any company will look favorably on. People often switch domains even after years of working in one. You’re way too early in your career, and an internship is way too short a term, to worry about being “pigeonholed.”\n\nThat said, there are ethical implications that companies won’t hold against you but that you should personally be comfortable with. Particularly what they do, and who you’d be working for (Peter Thiel). As long as you won’t lose sleep over any of that, then you’re set.",
+          "score": 135
+        },
+        {
+          "body": "It's so reputated you can't believe it.",
+          "score": 58
+        },
+        {
+          "body": "Right now, the only thing that is career suicide is not getting paid.",
+          "score": 36
+        },
+        {
+          "body": "I was an intern there a few years ago. It's decent, but I would put it slightly below FAANG in terms of resume value. It definitely won't pigeon hole you into working for defense companies.",
+          "score": 15
+        },
+        {
+          "body": "are you interviewing for SWE or FDE?  \n  \nRegardless, it's very very well reputed, and you shouldn't have any issues long term career wise. If you have moral qualms, those are perfectly valid and a totally reasonable reason not to take the job, but if your only concern is what it looks like long term you won't have any issues. I work at a company that is filled with ex-Palantir FDEs and they are unbelievably sharp and every time we hire one they come in and make an impact almost immediately.",
+          "score": 15
+        },
+        {
+          "body": "You’ll prob be fine, especially for an internship.  It’s certainly way better than being unemployed.\n\nMight be a bit of a social hit though.  You may also have to be willing to disavow their practices/philosophies in future interviews.",
+          "score": 4
+        },
+        {
+          "body": "Not a joke, if someone asked me what is the *one* company I would not want to be interviewing or pretending to associate with in any capacity, it'd be Palantir. \n\nI'll warn you in advance - it's politically-motivated reasoning, but you can have a real good guess what you might be working on if you looked them up in the news recently.",
+          "score": 52
+        },
+        {
+          "body": "Yeah you might get pigeonholed into companies which prioritize surveillance over the constitution. But if that’s something you’re passionate for, by all means",
+          "score": 13
+        }
+      ]
+    },
+    {
+      "title": "Palantir Hiring Manager Interview",
+      "body": "If I completed a hiring manager interview and then received an email saying they would call me with questions to verify security clearance eligibility, does this mean I got the offer? Why would they want to confirm my eligibility unless I would be getting one?",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1okguph/palantir_hiring_manager_interview/",
+      "comments": [
+        {
+          "body": "I'm also in the process of interviewing with a company that requires secret clearance and I've been experiencing some major delays. I'm pretty sure the government shutdown has something to do with it. I'm currently waiting for my background checks to clear before moving on to the next phase (in person at the office to meet the team). Do you need a secret clearance to start working?",
+          "score": 1
+        },
+        {
+          "body": "It can be an offer or won't. Sometimes employers do verify security clearance but does not mean you are getting an offer. Good chance yes but depends. If they pick a candidate and that candidate does not have security clearance they move on to next candidate. This is normal in a job that needs security clearance. We do this a lot and does not mean we give out an offer. Most the time it is 50/50. This is my own opinion and speculative if it is 50/50 or them giving you an offer after security clearance? We will never know.",
+          "score": 1
+        },
+        {
+          "body": "pm'd",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Palantir product design intern interview",
+      "body": "How long does it take to hear back after onsite (interaction &amp; ideation design)? What's next?",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1o9oq01/palantir_product_design_intern_interview/",
+      "comments": []
+    },
+    {
+      "title": "Palantir Interview",
+      "body": "Hello,\n\n  \nI might land an interview at Palantir for the FDSE position and I am wondering if anyone has recently interviewed at Palantir or works there has any advice or opinions on the interview process. \n\n  \nI have heard they have a very unique interview process and while I am all for that I am not sure what to expect so if anyone has any insights please share.\n\n  \nThank you.",
+      "subreddit": "interviews",
+      "score": 5,
+      "url": "https://reddit.com/r/interviews/comments/1jeix35/palantir_interview/",
+      "comments": [
+        {
+          "body": "technical side:\n\n* sql knowledge is important but not super complex\n* system design fundamentals (esp data pipelines)\n* coding usually focuses on data manipulation\n* they care more bout practical problem solving than leetcode style stuff\n\ndecomp round is crucial! theyll give u a complex problem to break down. examples:\n\n* optimizing warehouse operations\n* improving customer support efficiency\n* streamlining delivery networks\n\nkey tips for decomp:\n\n* ask lots of qs at start to understand scope\n* break problem into smaller parts\n* think bout data/metrics needed\n* consider different stakeholders\n* draw out ur approach (they like visuals!)\n\nbehavioral stuff:\n\n* have examples ready of complex problems u solved\n* focus on cross-team collaboration stories\n* be ready to talk bout data-driven decisions u made\n\nthink out loud during interviews! they rly care bout seeing ur thought process. n dont worry if u need to pause n think - better than rushing to wrong answers",
+          "score": 2
+        },
+        {
+          "body": "Expect a mix of coding challenges, system design discussions, and behavioral interviews. They often focus on your ability to think critically and solve complex problems, rather than just testing your knowledge of specific technologies.\n\nBe prepared to showcase your analytical skills and demonstrate how you approach difficult scenarios. They may present you with open-ended questions or hypothetical situations that don't have clear-cut answers. The key is to articulate your thought process clearly and show how you break down complex issues. If you're feeling unsure about tackling these types of questions, you might find [AI for job interviews](http://interviews.chat) helpful. I'm on the team that created it, and it's designed to help candidates navigate tricky interview scenarios like those you might encounter at Palantir.",
+          "score": 1
+        },
+        {
+          "body": "how did it go? how long did it take for you to hear back after onsite?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Palantir Hiring Manager Interview",
+      "body": "Has anyone gotten to the HM interview at Palantir and not gotten a technical question?\n\nI keep seeing the official answer be “sometimes you get one” which is also what the recruiter said but every post I’ve looked at the candidate said they had a technical portion (usually Leetcode type).",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1d6eujh/palantir_hiring_manager_interview/",
+      "comments": [
+        {
+          "body": "I had \"technical\" meaning substantive questions at my HM interview. That was for am attorney position though. It was weird, I felt like the HM was trying to sell me on the company the whole time. \n\nNext week I have my final interview - 15 minutes with a member of the executive team. This will be my 5th round of interviews (7th interview total, with 3 in one day).",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Palantir HM Round What to Expect?",
+      "body": "Hi everyone, I have a the final HM round for palantir for their new grad fdse role. I was wondering if anyone has gone through that process and has any tips for it. I heard they do reject a lot after the final round (which lowk makes no sense unless you actually bomb the interview, i feel like the onsite is already hard enough so um rip if i fail), I have failed hm rounds in the past so gonna really prep for this, so was wondering what type of questions they ask usually. Or any other tips that you may have would be very appreciated!",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1ovsmqg/palantir_hm_round_what_to_expect/",
+      "comments": [
+        {
+          "body": "Congrats on making it to the final round! For Palantir's HM, expect high-level behavioral questions, diving into past projects. Be prepared to explain your problem-solving approach in detail. It’s crucial to connect your experiences with Palantir’s core values and mission. Practicing the STAR method for behavioral questions and having a deep understanding of your resume helps. Good luck!",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Reading the books of the culture before getting hired?  ",
+      "body": "What is your take on doing this?  I have a friend that found out which books the company supports and read them before applying and reaching out to people directly on LinkedIn to get hired there.\n\n  \nWhat is your take on this as a pre-interview strategy? \n\n\n\nPalantir gave new hires these books on Day 1  \n  \n— Impro - Johnstone  \n— The Looming Tower - Wright\n\n— Getting Things Done - Allen  \n— Principles - Ray Dalio",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1g5v408/reading_the_books_of_the_culture_before_getting/",
+      "comments": [
+        {
+          "body": "My take is that this is moronic.",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

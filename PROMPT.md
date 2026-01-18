@@ -2,8 +2,6 @@
 
 We are rebuilding the project from scratch in this repo.
 
-At all stages of operation, append the a summary of the currently executing work to CURRENT_TASK.md. Never leave this file without updates for more than 10 seconds during execution... It needs to be constantly updated.
-
 First read activity.md to see what was recently accomplished.
 
 If needed, start the site locally. If port is taken, try another port.
@@ -18,11 +16,7 @@ Make sure all sub-issues are completed separately before starting the parent iss
 
 Ensure we have completed all tasks in one stage before moving on to the next stage. 
 
-If all issues are complete, output <promise>COMPLETE</promise>.
-
-Clear the contents of CURRENT_TASK.md, and update with a link to the issue you've selected.
-
-During implementation, append to CURRENT_TASK.md with a detailed log of implementation and testing progress. If there are any long-running processes, append the CURRENT_TASK.md file regularly during the task execution informing that the task is still running. Only append new lines to this file, never modify.
+If all issues in the repo are complete, output <promise>COMPLETE</promise>.
 
 While running the implementation or tests, watch out for infinite loops. If a series of steps repeat 5+ times, we should fail and try a different method.  
 

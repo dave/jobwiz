@@ -1,0 +1,1816 @@
+{
+  "company": "apple",
+  "post_count": 72,
+  "exported_at": "2026-01-18T17:44:53.257Z",
+  "posts": [
+    {
+      "title": "I'm 22, I haven't applied to more than 20 companies in my life, and I have 6 SWE/intern positions under my belt, and I wanted to share some tips",
+      "body": "I read a lot about people applying to 300 jobs and getting like 2 callbacks, but I had a very different experience. I wanted to share some of my tips that I've learned.\n\n1. I never applied a ton, I had connections. In college I joined a professional fraternity and 4 out of the 6 jobs I got were through people I knew who worked there. You get your resume handed right to the manager instead of through HR. I recommend making friends with people in your class, or finding somebody else with a strong network and free-loading off of theirs (and buy them lunch or something). Furthermore, people you know there can give you invaluable advice on what is going to be on the interview/what the hiring manager is like, etc.\n2. I made friends with the \"CS gods\" who were role models in my class. Then, I just ask them for their resume, for them to look at mine, for their advice, their compensation and negotiation tactics, etc. It's not like the med field where other people want the competition to fail, I rarely meet any SWE who DOESN'T want to help others get a job.\n3. Even when I cold apply, NEVER apply on the website, there's too many people that do that. Instead, I find a recruiter on Linkedin, I find their WORK EMAIL with this extension (https://connect.clearbit.com/), and I email them DIRECTLY with my resume, my interest, and a blurb showing that I've researched the company.\n4. (only applies to US citizens) This sounds shitty, but if you have an asian sounding name and you ARE a citizen, put that you're a citizen on there. Some recruiters will toss resumes JUST because they're asian and the company can't sponsor, even if you are a citizen. I literally put \"US Citizen\" next to my phone number, linkedin, and github.\n5. Interviewing is honestly all about confidence. You have to be a salesman. You can't just be good at coding and suck at talking, or vice versa. I don't really study that much the day before an interview (that's for the weeks before), I just go on walks, run, do jumping jacks, get my blood flowing so that I feel the most alive I can be before stepping in to the room.\n6. credit to u/Chewbahka72, but if you don't have experience just apply to smaller companies, instead of FB/Apple/Google/MSFT. There's a reason those companies pay so well, it's cause everybody has tons of experience, it's ok to start at smaller companies where you can get good tech experience without the cool free food benefits and the company jerking you off while you work.\n\nLet me know if you want me to take a look at your resume or anything!\n\n**EDIT: RESUME TIPS:**\n\nI got some PMs about resumes, I'll take a look at them but here are my tips for resumes:\n\n1. Don't use Arial, Calibri, Times New Roman. I know this might be an unpopular opinion, but if you want to get a job (esp. in Silicon Valley), make it unique. DO put some interest in design. I'm not saying make the whole thing in LaTeX or get Elon Musk to lick it before applying, but try some different fonts and dear God learn to right justify text on the same line. (https://fonts.google.com/) (https://fontawesome.com/?from=io - for LinkedIn, github, email, phone# icons). I use Open Sans and Raleway\n2. Use PROBLEM, SOLUTION, IMPACT. Indicate the PROBLEM you're trying to solve, then indicate how you SOLVED it (what language, framework, architecture, system, design), and then talk about IMPACT (financial - saved $42069k, operational - less people needed to do this task now, time - saved 20% time on this operation). Here's an example: \"Built a batch utility using Java, SQL, Hibernate to automate self-checking of the business's pricing processing system (SOLUTION), allowing the business to catch failed charges due to temporarily failed downstream services (PROBLEM mixed with a little bit of SOLUTION), which in one instance saved the company $2000 in revenue leak\"\n3. Split up your skills into LANGUAGES and FRAMEWORKS/TECHNOLOGIES. Languages: Java, SQL, Python. Frameworks/Technologies: React, Redux, git, AWS, Docker\n4. Bold text that is important, make text lighter or smaller for text that is not important. IMPORTANT: Company names, Job title, headers. NOT AS IMPORTANT: employment durations, project times, company locations\n5. Just find a good-looking CS resume online or from a friend and copy the formatting. MS Word is honestly enough for the vast majority of cases.\n\n**EDIT 2: Here is my anonymized resume:**\nhttps://i.imgur.com/VpPK5G3.png\nNot all my experience is on there, I put what I thought were the most valuable ones. I want to highlight that my resume doesn't have the biggest names on there in terms of company names, but I do think it is a strong one due to formatting, design, and wording.\n\n**EDIT 3:** I had 4 internships in school (1 per summer, 1 in part time) and 2 full-time positions already, sorry for the confusion",
+      "subreddit": "cscareerquestions",
+      "score": 1959,
+      "url": "https://reddit.com/r/cscareerquestions/comments/bgxgu6/im_22_i_havent_applied_to_more_than_20_companies/",
+      "comments": [
+        {
+          "body": "Thanks for the post!\n\nAbout number 5. Don't forget to not sound arrogant. I know quite a few people who are really good, but are just too full of themselves. They come into interviews and make it sound like they are the best thing out there. So, you need to sell yourself by sounding like you are the best out there for the job you are applying for, not the best out there period. If you are applying for an internship, don't make it seem like you think you could be a senior engineer, that won't pass.",
+          "score": 199
+        },
+        {
+          "body": "You might have what many people here are lacking or are dismissing as not important: \"social skills\"",
+          "score": 183
+        },
+        {
+          "body": "&gt;\tInterviewing is honestly all about confidence. \n\nBe in good shape. Dress well. Be as handsome as possible.\n\nI used to be fat and it's amazing how people suddenly started giving me the benefit of the doubt once I trimmed down, even before I gained confidence.",
+          "score": 391
+        },
+        {
+          "body": "&gt;it's ok to start at smaller companies where you can get good tech experience without the cool free food benefits and the company jerking you off while you work.\n\nlmao",
+          "score": 75
+        },
+        {
+          "body": "&gt; only applies to US citizens\n\nPermanent residents as well.  Anyone who will not require visa sponsorship.",
+          "score": 48
+        },
+        {
+          "body": "Lmao this sub. Advice from someone with good tips &amp; actual success when applying to jobs gets downvoted but posts like \"I applied to 700 places and finally got an offer! Here's my advice....\" get hundreds of upvotes. \n\nCongrats on the success /u/chinaboi!",
+          "score": 261
+        }
+      ]
+    },
+    {
+      "title": "If you left software development, what did you do next? Asking for my future self",
+      "body": "Hey everyone,\n\nI’m a software developer who’s been doing this for a while, but lately something just isn’t clicking. I’m not sure if it’s burnout or just the state of the industry, but I’ve been feeling off about this path and honestly, the current job market doesn’t help. Constant layoffs, instability, more pressure for less reward… it’s exhausting.\n\nI’ve been thinking more and more about making a change. Not something totally out there like medicine or law or anything that requires starting over from scratch but something new, something that might still use my coding or technical skills without being pure software development.\n\nThe problem is, I don’t even know where to start looking. What kinds of jobs would let me stay in tech (or close to it) without being in the trenches of code all day? What kind of roles value dev experience but let you do something different—more people-facing, strategic, or creative?\n\nHas anyone here actually made a career shift out of software dev? If so, what did you move into, and how did it go? And if you haven’t jumped yet but dream about it—what direction would you go?",
+      "subreddit": "cscareerquestions",
+      "score": 83,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1kouxei/if_you_left_software_development_what_did_you_do/",
+      "comments": [
+        {
+          "body": "Stay in tech without code? Manager and PM come to mind.\n\nOr perhaps business intelligence.",
+          "score": 49
+        },
+        {
+          "body": "Honestly, I am making up wild plans for the long run and see what sticks - i found a few hobbies and passions along the way, which may or may not be tech related.",
+          "score": 20
+        },
+        {
+          "body": "I really fancy the idea of becomming a teacher, way more meaningfull impact on society then this shit industry.",
+          "score": 57
+        },
+        {
+          "body": "Im contemplating switch to  medicine",
+          "score": 15
+        },
+        {
+          "body": "I became a data analyst. I just applied and got leveled at the same level as when I was a software engineer. It helped that I studied psychology at uni. Because of that, my stat skills are still quite strong.",
+          "score": 12
+        },
+        {
+          "body": "Mechatronics engineer is the next big thing coming soon, because of all the humanoid robotics stuff that is happening. That is the next big wave imo",
+          "score": 9
+        },
+        {
+          "body": "Goose farming",
+          "score": 8
+        },
+        {
+          "body": "Nursing",
+          "score": 7
+        }
+      ]
+    },
+    {
+      "title": "Quitting first job after a month?",
+      "body": "I recently got my first job, it's not the most flashy and I'm being paid $85,000/year. I interviewed at Apple a while back but didn't hear anything so I thought that I didn't get it. It turns out the person I was in contact with was just busy, they just got back and touch with me and now gave me an offer for $140,000.\n\nMy current employer has been super nice to me, but I feel I need to take the Apple offer. How do I go about telling my company? I feel super guilty about quitting after a month...",
+      "subreddit": "cscareerquestions",
+      "score": 1240,
+      "url": "https://reddit.com/r/cscareerquestions/comments/nrtoky/quitting_first_job_after_a_month/",
+      "comments": [
+        {
+          "body": "Get the offer from Apple in writing and sign it. Then quit your current job.",
+          "score": 2265
+        },
+        {
+          "body": "Your first job from Apple is not something you give up. Regardless of the substantial monetary benefits, a job at Apple will be a huge benefit to your career. Absolutely worth burning a bridge over.\n\nGet your offer singed and your start date confirmed, then give the required notice period.",
+          "score": 776
+        },
+        {
+          "body": "Its really kind of you to be so concerned about your current company but this is your future you're talking about, you've got to look out for you first.  Kindly explain to them how grateful you are but you need to think about your career and take the better offer.   Good luck.",
+          "score": 515
+        },
+        {
+          "body": "140K is probably 2-3x practical increase from 85. \n\nNo one, and I mean no one is going to hold it against you if you take the offer an Apple.",
+          "score": 476
+        },
+        {
+          "body": "Make sure you *accept* in writing an offer from apple first before you tell your current boss.  But honestly just be honest, they’ll be upset sure, but odds are they’ll understand you looking to take an offer at apple with such a large salary bump",
+          "score": 266
+        }
+      ]
+    },
+    {
+      "title": "Using an Indian buffet as a networking event",
+      "body": "This is not meant to be a racist post. I am indian-american myself.\n\n&amp;#x200B;\n\nI am searching for my first job or another internship. I ended up going to an indian buffet with my girlfriend for lunch. I went to a buffet and it was loaded. Naturally the majority of the individuals there were Indians, and they had their badges of the companies they represented. Paypal, HP, Apple, Amazon, McAffe, you name it , it was there. \n\nI took my chances in the buffet line looked at the badges and said oh hey you work for so and so, thats my dream company how do you like it there. I ended up walking out with 3 business cards with people willing to give me a referral.\n\n&amp;#x200B;\n\nSomething different, but best 13 bucks I spent for lunch ",
+      "subreddit": "cscareerquestions",
+      "score": 2410,
+      "url": "https://reddit.com/r/cscareerquestions/comments/9rolfi/using_an_indian_buffet_as_a_networking_event/",
+      "comments": [
+        {
+          "body": "This is some expanding brain level networking OP lol I hope you get something out of this you're amazing ",
+          "score": 1380
+        },
+        {
+          "body": "lol this is actually hilarious, but I think you would have a similar result if you did this at most places in santa clara during a weekday lunch hour.",
+          "score": 115
+        },
+        {
+          "body": "Don't go revealing your secret OP. This is the kind of shit that separates the career fair goers from the networking ninjas.",
+          "score": 405
+        },
+        {
+          "body": "That's actually very clever!",
+          "score": 76
+        },
+        {
+          "body": "This is so smart. I'm Indian-American too and my uncle has a restaurant and offered to give my resume out to his programmer customers hahaha",
+          "score": 70
+        },
+        {
+          "body": "*googles Indian Buffets in Seattle*",
+          "score": 57
+        },
+        {
+          "body": "*Need job in hurry?\nDon't worry! Head toward the Curry!*",
+          "score": 479
+        }
+      ]
+    },
+    {
+      "title": "I'm Gayle Laakmann McDowell, author of Cracking the Coding Interview &amp; CareerCup founder. AMA",
+      "body": "* Author of Cracking the Coding Interview, Cracking the PM Interview, Cracking the Tech Career\n* Founder and CEO of CareerCup\n* a former software engineer at Google, Microsoft, and Apple\n* Consultant -- interviewing training, how to hire developers, etc\n* Consultant -- coaching startups through acquisition interviews\n* blog/post/write at http://www.gayle.com, http://www.facebook.com/gayle, http://www.twitter.com/gayle, https://www.quora.com/profile/Gayle-Laakmann-McDowell\n* Speaking on technical hiring and other topics",
+      "subreddit": "cscareerquestions",
+      "score": 918,
+      "url": "https://reddit.com/r/cscareerquestions/comments/6enydz/im_gayle_laakmann_mcdowell_author_of_cracking_the/",
+      "comments": [
+        {
+          "body": "How well do interviews reflect candidates abilities to succeed at the job in your opinion?",
+          "score": 93
+        },
+        {
+          "body": "Gayle, I don't have a question, but I wanted to say that your book helped me get two programming jobs. I used to push grocery carts in the arizona summer, now I work for Google. I also, like, went to college and learned and stuff, but your book was a huge help in prepping for interviews. Thanks to you, I felt more confident and more prepared, and I was able to interview with several major tech companies without fear vomiting a single time which for me was a pretty big deal.\n\nSeriously, thank you, thank you, thank you. Your book is great, I recommend it to everyone. You are a fantastic writer and a brilliant human being. Thank you!",
+          "score": 178
+        },
+        {
+          "body": "Hi Gayle, thank you so much for doing this AMA!\n\nFor computer science in general, if you had to recommend one book (and you can't recommend your own, haha!) for any CS major to read, what would it be?\n\nAre there any tips you'd give to current CS majors, such as topics they should take the time to learn that would benefit them in the long run?\n\nEdit: one more question that comes to mind after reading some of your responses: What are your thoughts on unpaid internships? It seems they're becoming more and more prominent -- do you think students should still consider them if they have no other sources of CS-related experience? ",
+          "score": 57
+        },
+        {
+          "body": "What are your thoughts on the H1-B program?",
+          "score": 48
+        },
+        {
+          "body": "[deleted]",
+          "score": 38
+        },
+        {
+          "body": "Did you fail anytime in your life? How did you handle failures in your life? \nHow did you choose to never give up? ",
+          "score": 106
+        }
+      ]
+    },
+    {
+      "title": "What are your dream questions for code interviewers at Google, Microsoft and Apple?",
+      "body": "Heyo!\n\nCurator of [Coding for Interviews](http://codingforinterviews.com) here, the bi-weekly programming practice problem and CS topic overview newsletter (the one that uses an **[unnecessary amount of gifs](http://i.imgur.com/JBuSH.gif)**).\n\nAfter Skyping with around 40 group members who were going through code interviews for their first time, it was clear that it would be useful to have one central place to find everything you should review and know before your programming interview.\n\nNow I'm putting together a video course on preparing for your code interviews, and as part of that I am doing some **interviews of interviewers** at the Big Friggin' Tech Companies.\n\n[**What do you want to know from the employees that run code interviews at the big companies?**](https://docs.google.com/forms/d/1k4wtjPzlzg-voX0F_TyRSujFejjE0AK4wJHd-Tl0-ns/viewform)\n\nSubmit any questions here:\n\nhttps://docs.google.com/forms/d/1k4wtjPzlzg-voX0F_TyRSujFejjE0AK4wJHd-Tl0-ns/viewform\n\n*(and as a thank you I have a quick free bonus for submitters that should help with interview prep)*\n\nA lot of times I get asked questions that are better suited to be answered by interviewers at these companies, so now is a great opportunity to get your questions answered.\n\nI can post any Q&amp;A interviews[1] here early on if there's interest.\n\n*[1]: There have also been a couple of relevant AMAs on Reddit before, worth checking out: [a Microsoft employee](http://www.reddit.com/r/cscareerquestions/comments/z94la/iama_microsoft_engineer_who_interviews_candidates/),  a [recruiter and job tip author](http://www.reddit.com/r/cscareerquestions/comments/1gc4rm/im_dave_fecak_recruiter_and_authorblogger_behind/) and a [Google employee](http://www.reddit.com/r/IAmA/comments/tfwfa/as_requested_iama_google_employee_amaa/)*",
+      "subreddit": "cscareerquestions",
+      "score": 68,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1s3bl1/what_are_your_dream_questions_for_code/",
+      "comments": [
+        {
+          "body": "Why is a manhole cover round?\n\nOh, and how many marbles can you fit inside a 747?",
+          "score": 11
+        },
+        {
+          "body": "1) What sort of mistakes are permissible in a technical interview and what mistakes should applicants be sure not to make?\n\n2) Are there any tips on how an applicant can make himself seem more likable in an interview?\n\n3) What is your stance on applicants using the internet to reference questions in a technical phone interview. Would it be permissible if the applicant mentions Googling an unfamiliar keyword?",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "title": "I am Ammon Bartram and I have done 900 programming interviews and phone screens in the last 2 years. Ask me anything!",
+      "body": "As a co-founder of Triplebyte, I've personally interviewed 912 engineers over the last 2 years. I've also interviewed founders and hiring manager at 200 companies about their processes (including Apple, Facebook, Dropbox and Stripe). I like to gather data about technical hiring and blog about it: http://blog.triplebyte.com/bootcamps-vs-college. Ask me anything about hiring / interviews!\n\nProof: https://twitter.com/triple_byte/status/839245320353546240\n\nI'm heading out, folks. Thanks for all the great questions!  ",
+      "subreddit": "cscareerquestions",
+      "score": 739,
+      "url": "https://reddit.com/r/cscareerquestions/comments/5y95x6/i_am_ammon_bartram_and_i_have_done_900/",
+      "comments": [
+        {
+          "body": "What's the biggest mistake potential candidates make that can pretty much guarantee they won't get an offer.\n\nConversely, what is something a candidate can do (or a skill they possess even) in an interview to better their chances of getting an offer, aside from the obvious. ",
+          "score": 124
+        },
+        {
+          "body": "The current hiring situation in tech is a lot of companies needing engineers, and a lot of engineers looking for jobs, but not many meeting the quality expectation of those companies. What advice would you give to those engineers who have been rejected many times to get hired? What advice would you give to those companies doing the rejecting?",
+          "score": 67
+        },
+        {
+          "body": "Mod approved and verified!",
+          "score": 1
+        },
+        {
+          "body": "How many people have gone through the pipeline successfully with a non traditional CS/STEM background? How long did the average candidate prepare for their interviews?",
+          "score": 31
+        },
+        {
+          "body": "What do you dislike most about the current whiteboarding interview system and what would you do to fix it?",
+          "score": 49
+        }
+      ]
+    },
+    {
+      "title": "How do you learn to enjoy that much freedom in an office?",
+      "body": "I started working for a company last month(First job in software engineering) and they offer many benefits for the employees:\n\n* Free food(Pizza, Fruits, cake...) almost daily\n\n* You can come in whenever you want as long as you work 8 hours per day\n\n* Breaks whenever you want\n\n* Team events in different countries where the company pays for everything. Last time they all went into a fancy hotel for 3 days and the employees didn't have to pay for anything\n\n* Expensive hardware that you even can take home if you want(got a Apple MacBook Pro 15.4\", Core i7-8850H, 32GB RAM, 512GB SSD on my first day which costs around 3000 Euro in my country)\n\n* Just have to write a ticket to the IT if I want a new mouse or keyboard and they will order it for me according to my selection)\n\n* No pressure at all if you finish your work on time \n\n* Learning at work is accepted(Finished reading Clean Code while sitting at my desk) and you get an Udemy Business Account so you don't have to pay for courses.\n\nThis all feels surreal to me and I really appreciate all the benefits but however I'm kind of surprised because all of this must cost a ton of money and I've never worked in a company that's doing all that stuff for their employees. It doesn't feel like work to me which is pretty surprising because in other fields(worked in a trade before) stuff like this is not self-evident. So should I just enjoy it or should I worry because I get used to that and expect similar stuff in other companies in the future?\n\nEdit: Wow this blew up! Many people asked where I'm working so I will talk about that for a bit. \nThe company is a pretty unknown midsized company in the US because I'm based in Germany(not Berlin or Munich, a smaller city). We have around 150 employees and I'm currently doing an apprenticeship there, which is quite normal in Germany. Did an imternship there before and my apprenticeship started last week. Hiring process was also quite enjoyable. Just a normal interview where they asked questions about me and my experience with programming in general combined with some behavioral questions. Had the impression that it is more more important to them if you're a personal fit or not. So no whiteboarding for me which is quite common here, even for experienced developers.",
+      "subreddit": "cscareerquestions",
+      "score": 799,
+      "url": "https://reddit.com/r/cscareerquestions/comments/cl53nb/how_do_you_learn_to_enjoy_that_much_freedom_in_an/",
+      "comments": [
+        {
+          "body": "&gt; This all feels surreal to me and I really appreciate all the benefits but however I'm kind of surprised because all of this must cost a ton of money\n\nIt's actually pretty negligible in the grand scheme of things.\n\nWhen you consider how much your company is paying for your salary, benefits and payroll taxes (not to mention recruitment costs), paying $60 for pizza or even a couple grand for a laptop barely even registers.\n\nYou'd be surprised what a corporation can charge off as a legitimate business expense.",
+          "score": 697
+        },
+        {
+          "body": "&gt; all of this must cost a ton of money\n\nIt costs a lot more money to be paying an employee who can't type because their keyboard is broken.\n\nYou'll probably want ot read https://www.kalzumeus.com/2011/10/28/dont-call-yourself-a-programmer/\n\n---\n\n&gt; No pressure at all if you finish your work on time.\n\nThis is the only odd one. Usually there is some pressure, at the very least to communicate the complexity you've run into.",
+          "score": 334
+        },
+        {
+          "body": " \"No pressure at all if you finish your work on time \"\n\n&amp;#x200B;\n\nNot sure I believe this part - but I can guess that people finish their work on time and work hard because of the way the company treats them so the company doesn't worry about it too much.",
+          "score": 115
+        },
+        {
+          "body": "IMO, this should be how a company should run. I don't mean that every company should provide a high-end macbook to every employee or treat them to expensive hotels. Not all companies have the budget, I understand.\n\nWhat I mean is if the company takes good care of its employees, then it will produce a happy, satisfied workforce which in turn will produce good output for the company. And these happy employees would gladly stay for many years, saving the company $$$ from hiring and training cost.\n\nIf in case the employee becomes lazy or something, they can always talk to that employee (give warnings or find a better replacement if that employee didn't improve after the warning).\n\n&amp;#x200B;\n\nSome companies don't realize this and will rather focus on short term gain. They pay cheap salary, replace senior devs with new grads, provide bare minimum benefits/holidays, and cut every corner just to save more. And then they wonder why their employees are not happy and keep leaving.",
+          "score": 111
+        },
+        {
+          "body": "[removed]",
+          "score": 42
+        }
+      ]
+    },
+    {
+      "title": "Just sharing my experience in applying for Senior engineer positions",
+      "body": "I have been applying for many big techs and start-ups in Canada since Feb. I am going for higher mid to senior engineer level. I don't track how many of them (about a few hundred positions perhaps). But I have only 32 recruiter callbacks, a few did not move forward after initial calls. Out of the remaining, I passed all online coding rounds (if any) and passed &amp; failed here and there at the 1-2 phone screening rounds. Among the passes, I moved to 7 virtual on-site... and have failed 6... Among these are Meta, Apple, &amp; Stripe, and a few start-ups.\r  \n\r  \nI have gone through the process with the big ones like Meta, Apple, Google, TikTok, Zynga, Stripe, Pinterest, Dropbox, Confluent, and Ripple. About to start with Amazon, Reddit, Lyft, and Spotify.\r  \n\r  \nFrom this experience, I realize that, in this climate, companies do look for almost-perfect candidates, and it does feel like they look for ways to trip candidates up, for ways to reject them.\r  \n\r  \nI was able to solve almost all DSA/Leetcode questions in those rounds (Meta has 2 questions/coding round), but it is almost always the System Design that killed me. I have read lots of materials on this, from the familiar TinyURL or Twitter designs to more complex ones like Distributed Locks, Distributed storage, etc. In the interview, I can always draw up the basic high-level design and explain my decision.\r  \n\r  \nSome time the feedback is that I did not discuss trade-offs enough, other times when I did talk about trade-offs, they said I did not have conviction when making my design decisions (not sure what to make of this).\r  \n\r  \nIn one particular start-up, they gave me a simple React repo and asked me to implement a feature live. Note that I don't have a single YOE in FrontEnd/React, and their rationale was to assess how I could navigate a totally unfamiliar codebase. Being an experienced engineer, I was able to Google search for some stuff, while sharing the screen so they saw what I was searching. I managed to get it working at last, with some hints from the interviewers (mostly because I am not fluent in JavaScript). The feedback on that round: They think I have difficulty navigating the documentation, and I did not collaborate with the interviewers. LOL, this was a senior position and most of the daily technical problems we face, we usually just Google it ourselves. not sure what they expect. Also, about the difficulty in navigating the doc part: well, duh, they gave me a code base in a language I'm not familiar with.\r  \n\r  \nThere are a few more ridiculous things that I went through here but I have already ranted too much. A lot of the time, I think the interview is just to satisfy the ego of the interviewers and not to assess the candidate's ability.\r  \n\r  \nMy background: 6+ YOE, Backend engineer, working at a big e-commerce company in Canada, working on many user-facing features and with distributed systems.",
+      "subreddit": "cscareerquestions",
+      "score": 288,
+      "url": "https://reddit.com/r/cscareerquestions/comments/16nadcm/just_sharing_my_experience_in_applying_for_senior/",
+      "comments": [
+        {
+          "body": "Reminds me of entry/junior/new-grad interviews. Getting picked apart on the most miniscule things.",
+          "score": 227
+        },
+        {
+          "body": "Hot take:\n\nSenior+ interviews are as much about personality, communication, and how one carries themselves as they are about technical competency.  Far too many engineers over-emphasize the idea of \"If I'm technically qualified for the job, that's all that should matter!\".\n\nNow, _I'm not saying this is you_ -- I have minimal context of the actual interviews.  BUT, it's a lot easier for a recruiter to give some kind of offhand, nitpicky technical reason for rejection than it is to say \"We don't feel like the way you handled yourself is a good fit for the team\" or \"Y'know, the team really just felt like you are kind of a jackass...\".\n\nEven feedback like this:\n\n&gt;  I did not have conviction when making my design decisions\n\ncan be considered a veiled way of saying they didn't like something about your personality or the way you carried yourself without explicitly saying so.\n\n&gt;  I did not collaborate with the interviewers\n\nSame goes for this.\n\nAnd, if this is what you consider a senior position to be:\n\n&gt;  this was a senior position and most of the daily technical problems we face, we usually just Google it ourselves. not sure what they expect\n\nthen you have a poor understanding of what the expectations of a senior team member are.  Mature teams EXPECT someone that can be a force multiplier for the team, not just code monkey++.",
+          "score": 138
+        },
+        {
+          "body": "Sorry about the system design questions\n\nI've been trying to kill it at our company because its mostly a vibe check",
+          "score": 16
+        },
+        {
+          "body": "This has been my experience verbatim. Down to the interviews feeling like an opportunity for the interviewers to stroke their egos. I have been getting rejected for months over the most nonsensical, sometimes non existent “issues”.\nFeels like instead of companies looking for talent they are pretending to be looking, wasting everyone’s time.",
+          "score": 16
+        }
+      ]
+    },
+    {
+      "title": "Article: 'My experience of interviewing for a job at Apple'",
+      "body": "x-post from r/jobs:\n\nhttps://lmjabreu.com/post/700-billion/\n\nSince many here seem curious at how it feels to interview at one of the big 4.",
+      "subreddit": "cscareerquestions",
+      "score": 23,
+      "url": "https://reddit.com/r/cscareerquestions/comments/2x4pcl/article_my_experience_of_interviewing_for_a_job/",
+      "comments": [
+        {
+          "body": "This looks pretty standard to me, except for the indelicate remark about \"the dumb.\"",
+          "score": 11
+        },
+        {
+          "body": "Man. I've been seeing this article everywhere. Everything here seems really standard, with a few weird remarks (from both parties) thrown in. Am I missing something?\n\nOn a related note, I went through the interview process with several teams at Apple a few months ago. If anybody interested in the article would like to know more about the interview process there, I'm happy to answer questions (within contract-abiding reason).",
+          "score": 7
+        },
+        {
+          "body": "If you check out glassdoor you'll see hundreds of interviews like this, pretty par for course for the big 4 apparently.",
+          "score": 3
+        },
+        {
+          "body": "I haven't heard too much about Apple's interview process in terms of design positions, so this was a really interesting read. I'm sorry that it didn't work out, but thank you for sharing your experience!",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "For those that had interviews with Apple",
+      "body": "Does Apple expect/require you to have experience with Mac/iOS (i.e. building apps), and especially Objective-C/Swift to get into the interview process? Have any of you received interviews with no experience with Object-C, or building iOS/Mac apps?",
+      "subreddit": "cscareerquestions",
+      "score": 6,
+      "url": "https://reddit.com/r/cscareerquestions/comments/2z98gn/for_those_that_had_interviews_with_apple/",
+      "comments": [
+        {
+          "body": "Apple is a pretty big company and apps are a small portion of that.\n\nI can say with 100% certainty that it depends on the job you want with them.",
+          "score": 8
+        },
+        {
+          "body": "They do not require Mac/iOS/objective-c/swift experience, but all of those things help. I work for apple. ",
+          "score": 8
+        },
+        {
+          "body": "No, of course not. It all depends on what you want to work on. I interned on a back-end web services team and I'll be joining the team full-time in a few months. I have absolutely 0 experience with iOS/Mac apps or objective c/swift. And it wasn't needed, because I worked with C++/Python all summer long.",
+          "score": 5
+        },
+        {
+          "body": "This really depends on what team you're interviewing for. Clearly, if you want to work on the iPhone's native apps, you need iOS experience. I interviewed for a mix of embedded software engineering and backend roles, none of which required any of the skills you listed.",
+          "score": 3
+        },
+        {
+          "body": "I don't use their products and have never owned any. I don't code in Objective C or Swift or anything else they use. I got hired by them. I can probably pick up Objective C in a few months but I'm a really good programmer otherwise and have lots of projects in lots of language to show for it. You don't have to be good at a tool or language to be hired for it. Those skills are fairly easy to learn (especially for c like languages). What's hard is learning problem solving skills, strong engineering skills, and good work ethic.",
+          "score": 3
+        },
+        {
+          "body": "Depends on the team. I recently went to an Apple recruiting mixer and the hiring managers there didn't care about anyone who didn't have Java experience.",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Is it okay to wear jeans to an interview at Apple?",
+      "body": "Hey /r/cscareerquestions!\n\nI was invited to an onsite interview at Apple and I am wondering what I should wear. I normally wear nice jeans, leather boots, and a casual button down which puts me in the upper 5% of dressers at my current \"Big-4\" job. I feel very confident dressed like this. Is it fine to dress in those clothes for an interview at Apple? I have heard they are more \"corporate\" than some of the other big tech companies so I am wondering if I should go buy some chinos and a more formal shirt. \n\nI'd ask the recruiter but I am hoping to go shopping this weekend.\n\nThanks!",
+      "subreddit": "cscareerquestions",
+      "score": 8,
+      "url": "https://reddit.com/r/cscareerquestions/comments/4mknxw/is_it_okay_to_wear_jeans_to_an_interview_at_apple/",
+      "comments": [
+        {
+          "body": "[deleted]",
+          "score": 40
+        },
+        {
+          "body": "Yes, but you have to wear a long black shirt tucked into them.",
+          "score": 8
+        },
+        {
+          "body": "Apple is a casual dress environment when you work there. I've heard people say they feel bad for candidates who wear a suit to an interview because they stick out like a sore thumb on campus. Even the executives often go around in tshirts, and everyone's always wearing sneakers or similar. \n\nIf you want to shoot for matching their dress level, nice clean solid-colour jeans, sneakers, and somewhere between a tshirt and a dress shirt works well (I'd personally go for a button up like an oxford shirt).\n\nSounds like your normal dress style will fit in well -from what I've heard, they care about personality so go with whatever makes you feel confident. Good luck with your interview!",
+          "score": 5
+        },
+        {
+          "body": "Yep, should be fine. ",
+          "score": 4
+        },
+        {
+          "body": "https://www.youtube.com/watch?v=fwYy8R87JMA\n\nYes. It is okay to wear jeans.",
+          "score": 3
+        },
+        {
+          "body": "[deleted]",
+          "score": -4
+        }
+      ]
+    },
+    {
+      "title": "Have an interview with Apple coming up, what should I expect?",
+      "body": "I've got a technical interview coming up with Apple for a development position, and I'm really not entirely sure what to expect. I've only been a real developer for less than a year, and I was very honest on my resume so they should know that, but I'm not sure what standard I'm going to be held to. I've been told I need to prepare to talk about the following:\n\n* JavaScript Closures\n* Single-Page WebSites/Applications (SPAs)\n* MVC JavaScript\n* some basic Java programming\n\nI felt pretty confident about almost all of it until I read \"cracking the coding interview\" and now I'm extremely nervous and unsure what to expect. I'm really worried about the java programming since I'm fairly sure its going to be algorithms and general problems I need to work through, which is something I have just never done considering I don't have a CS degree.\n\nDoes anyone have any advice on what I should prepare for or what I should at least make sure I understand?",
+      "subreddit": "cscareerquestions",
+      "score": 1,
+      "url": "https://reddit.com/r/cscareerquestions/comments/444417/have_an_interview_with_apple_coming_up_what/",
+      "comments": [
+        {
+          "body": "Somebody posted here yesterday that he went to apple for an interview and he said that they gave him a number and wanted him to convert it to binary (he failed :-( ).",
+          "score": 6
+        },
+        {
+          "body": "If you don't have a really strong understanding of Data Structures using Java, then you're screwed on that part. I can't say anything else for your other skills though.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "How should I prepare for an Apple's phone interview?",
+      "body": "I am a new Computer Science graduate with one year of building iOS app experience. I applied for a job at App Engineering Department in Cupertino. The hiring manager wants to schedule a phone interview with me. What should I watch out for? What kind of material should I study before attending the interview? This is for new grad position.",
+      "subreddit": "cscareerquestions",
+      "score": 1,
+      "url": "https://reddit.com/r/cscareerquestions/comments/2xifig/how_should_i_prepare_for_an_apples_phone_interview/",
+      "comments": [
+        {
+          "body": "[deleted]",
+          "score": 3
+        },
+        {
+          "body": "Check out Apple on Glassdoor.com They have a section where people people post what interviews were like with various companies.",
+          "score": 2
+        },
+        {
+          "body": "[deleted]",
+          "score": 1
+        },
+        {
+          "body": "I remember it being just a casual chat. The manager described its team and challenges and found some common things with my job at the time. They might ask you about some big picture technical questions but think about it as a casual chat.",
+          "score": 1
+        },
+        {
+          "body": "I also have a phone interview with Apple and would like to know what to expect.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "How does one go about getting an Apple interview?",
+      "body": "I've gotten interviews with Microsoft, Google, Amazon, AT&amp;T and Intel.  Yet the one that seems to be quiet is Apple, guess they only recruit from specific schools.",
+      "subreddit": "cscareerquestions",
+      "score": 3,
+      "url": "https://reddit.com/r/cscareerquestions/comments/2kjcor/how_does_one_go_about_getting_an_apple_interview/",
+      "comments": [
+        {
+          "body": "I got an interview with Apple through my career fair. They had a booth set up and there was a massive line (which was expected). The two engineers talking were also the ones interviewing people in the end, so they just picked and chose the people they wanted to interview with based on the conversation they had with them + their resume. He just asked if I wanted to interview the next day, so there wasn't a delayed phone call or email or anything. But yeah, in general I feel as though they typically recruit from specific schools.",
+          "score": 5
+        },
+        {
+          "body": "I just applied online and they contacted me for an interview.  Are you applyin for a full-time job or an internship? \n\nAlso, I go to an ok state school.",
+          "score": 5
+        },
+        {
+          "body": "[deleted]",
+          "score": 2
+        },
+        {
+          "body": "You can also get interviews from finding the recruiters on LinkedIn and e-mailing them. ",
+          "score": 2
+        },
+        {
+          "body": "Here is something you could try:\n\n1. Sign up for linkedin if you aren't already\n2. Search for \"apple software engineer\" or \"apple [insert desired job title]\"\n3. Look through people with that title and choose 2 or 3 you'd like to talk to\n4. Either sign up for linkedin premium or do the free trial so you can see their names and send \"inmail\" (If you have to pay for it, this is basically a $20 experiment)\n5. Send the people you picked a message asking for informational interview\n6. Talk to who you can and go from there",
+          "score": 2
+        },
+        {
+          "body": "I've heard several times of people who went to career fairs and got Apple interviews immediately scheduled for the next day. ",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Apple internship interview coming up in a week and a half and I'm stressing over my qualifications",
+      "body": "I don't own a apple product of any kind because I don't have the money for one. The internship doesn't call for objective-C or Swift expertise but it's a plus and I have 0 experience with it. My knowledge on data structures is pretty shaky. I take the class officially next semester but I at least know some info about basic data structures from looking into it myself. I don't even know how I got an interview in the first place past the fact that I turned in an application. What can I do to prepare myself and possibly feel more at ease? I'm good at hiding how nervous I am externally but internally I'm a huge wreck so any help would be appreciated ",
+      "subreddit": "cscareerquestions",
+      "score": 2,
+      "url": "https://reddit.com/r/cscareerquestions/comments/3ueomk/apple_internship_interview_coming_up_in_a_week/",
+      "comments": [
+        {
+          "body": "[deleted]",
+          "score": 3
+        },
+        {
+          "body": "This is a feeling called Impostor Syndrome, and I can guarantee you every other person in this field has suffered it at some point. If Apple wants to interview you, than they clearly see you as someone worth talking to for the position. Just stay calm, read Cracking the Coding Interview if you have time, and be confident in the interview. At the end of the day, just focus on what you can control.",
+          "score": 2
+        },
+        {
+          "body": "You will get it",
+          "score": 1
+        },
+        {
+          "body": "You'll be fine.  The only Apple product I owned before starting was 2007 iPod Nano.  Never programmed in Objective C and everyone is super chill.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Asking to interview for different position at Apple?",
+      "body": "Hi all, I recently got an interview from Apple for an internship role on their IS&amp;T team. I'd initially submitted my resume with the intention of being considered for a software engineering internship position.\n\nI would still like to interview for IS&amp;T since the job description does sound compelling, but I am slightly hesitant due to the information about IS&amp;T online, since it's not the most positive. I was wondering if it'd be possible to ask to also be considered for software engineering prior to interviewing in this case, and if so, if you guys have any tips on how I could approach discussing this with the recruiter. Thanks!\n\nP.S. I just took a look at my application profile online, and saw that I actually have a cover letter I wrote back in the day for a Genius position uploaded on my profile. I'm not sure if that could've led me to be considered for IS&amp;T.",
+      "subreddit": "cscareerquestions",
+      "score": 3,
+      "url": "https://reddit.com/r/cscareerquestions/comments/3ldnii/asking_to_interview_for_different_position_at/",
+      "comments": [
+        {
+          "body": "[deleted]",
+          "score": 5
+        },
+        {
+          "body": "You can ask. I have done this. And I got a positive reponse. ",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "I have an on-site interview with Apple in Cupertino soon for a software engineer position. What should I expect?",
+      "body": "The title pretty much says it all. \n\nI know to expect whiteboarding, and of course the questions will depend on the position. This one is an internal tools team, so there's a bit of a jack of all trades element to it, but it sounds like it lives primarily in the world of Java and SQL. They also want 5+ years experience, so it's not a new grad spot or anything like that (which I have, and which I am not, respectively). \n\nBut in general, what are the sorts of things that are important to them in an interview? Such as: How important is O notation to them? How granular an understanding of APIs and data structures do they expect? Are there particular data structures Apple's really fond of (i.e. do they really like trees, or something like that)? \n\nFor reference, I have interviewed with Amazon in Seattle in the past. How does it compare to that?\n\nThanks for any advice, guys. I'm really excited for the position and want to be as prepared as possible.",
+      "subreddit": "cscareerquestions",
+      "score": 15,
+      "url": "https://reddit.com/r/cscareerquestions/comments/3ncb3v/i_have_an_onsite_interview_with_apple_in/",
+      "comments": [
+        {
+          "body": "[deleted]",
+          "score": 8
+        },
+        {
+          "body": "DSA's",
+          "score": 6
+        },
+        {
+          "body": "The Kool-Aid is excellent.  Be sure to drink lots of it.\n\n;-)",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Interviewing with Apple - some questions are coming up...",
+      "body": "I'm interviewing with Apple this week, coming far from the Bay Area, and I'm curious how the work environment is currently. I've read that a few years ago, there were long hours, decent compensation (but not quite Facebook/Google level?), and mediocre benefits. Could anyone with more recent knowledge (first- or second-hand) perhaps clue me in on this? I'd also like to know if there are any newer perks (I've heard 25% off one Apple product + three 15% discounts per year). The team develops a specific iOS app.",
+      "subreddit": "cscareerquestions",
+      "score": 7,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1jroee/interviewing_with_apple_some_questions_are_coming/",
+      "comments": [
+        {
+          "body": "Just ask the interviewers at the end. They'll be more than happy to answer your questions.",
+          "score": 1
+        },
+        {
+          "body": "Under what justification could Apple possibly avoid paying very well?  It's very well known that they just have mountains of cash.  I would think it would be very hard for them to claim they're not getting adequate value from their employees to justify the employees demanding higher salaries.  ",
+          "score": 1
+        },
+        {
+          "body": "[deleted]",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "title": "Hiring process - is this the new normal? How is this acceptable?",
+      "body": "So, I sent a CV to a company and I got an email back telling me about the hiring process, which I'll describe now:\n\nStep 1: Online code challenge.\n\nStep 2: Interview with HR.\n\nStep 3: Technical interview with technical questions and also to talk about the online code challenge.\n\nStep 4: Team technical interview, where you are interviewed by the team that you'll end up at. Technical questions again.\n\nStep 5: Build a project from scratch, with the team, to understand what is like working together.\n\nStep 6: Final Interview - to discuss offer.\n\n\nI replied and said that I won't be moving forward after reading about the hiring process.\nIt doesn't matter if it was Google/Apple/Amazon. Do they think we have no life? We don't work? That we do not have family and responsibilities.\n\nIt pisses me off.\n\nI'm a Senior with 7 years.",
+      "subreddit": "cscareerquestions",
+      "score": 479,
+      "url": "https://reddit.com/r/cscareerquestions/comments/oukeza/hiring_process_is_this_the_new_normal_how_is_this/",
+      "comments": [
+        {
+          "body": "I think they gonna add step 7: 1 year bonding camp in the middle of the jungle to ensure that relationship is good among the team.",
+          "score": 473
+        },
+        {
+          "body": "Typically I sit through the first few steps to determine if it's a company I actually want to work for. More than once I've gotten a good offer with a different company the day of, or day after one in person interview while I was still going through the ridiculous two week process of an interview much like what you outlined above. \n\nI let the recruiters know I've accepted another offer. Sometimes they ask why I didn't let them know I had an offer on the table so they could expedite the process, but I tell them it only took a few days to interview and receive an offer. \n\nEven if I don't have an offer and just don't like the company / team, I'll tell them I've accepted somewhere else to impress on them how good engineers will be snatched by companies quickly. If you need a two week process to screen good engineers, you need to reevaluate you're recruiting and interview tactics. \n\nAnyways, good on you for refusing to put up with this crap. It'll take a lot of good engineers to say no to stuff like this to change the industry.",
+          "score": 86
+        },
+        {
+          "body": "I think every step but 5 is fine given how much information is provided.",
+          "score": 251
+        },
+        {
+          "body": "[deleted]",
+          "score": 150
+        },
+        {
+          "body": "&gt;”Do they think we have no life? We don’t work? That we do not have family and responsibilities? \n\nCorrect. Current hiring practices optimize for young, single nerds who are desperate to get any job and don’t ever do anything but code.",
+          "score": 119
+        }
+      ]
+    },
+    {
+      "title": "I am about to interview for the part-time seasonal contract specialist at the Apple Store",
+      "body": "I have questions about flexibility if i get the job. It is required to work Saturdays &amp; Sundays so I have no problem with that. I'll work from open to close both day. How about Monday-Friday. Do they give me hours I must work as a part-timer or am i able to tell them what days &amp; hours Monday-Friday I want to work?",
+      "subreddit": "jobs",
+      "score": 4,
+      "url": "https://reddit.com/r/jobs/comments/1l59zrx/i_am_about_to_interview_for_the_parttime_seasonal/",
+      "comments": [
+        {
+          "body": "I’m curious about this as well",
+          "score": 2
+        },
+        {
+          "body": "have you done the first interview yet? if so, may i get to know what kind of questions they'll be asking so i can prepare myself?? thank you. it's a group interview for me",
+          "score": 2
+        },
+        {
+          "body": "[removed]",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Apple interview with referrals",
+      "body": "",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/1o0mvwl/apple_interview_with_referrals/",
+      "comments": []
+    },
+    {
+      "title": "Interned at Cisco, Interning at Amazon, Interviewing for Apple AMA",
+      "body": "AMA interviewing for full time at 3/4 big 4 plus some small well known startups. Software engineer here AMA!",
+      "subreddit": "cscareerquestions",
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/22hq7f/interned_at_cisco_interning_at_amazon/",
+      "comments": [
+        {
+          "body": "[deleted]",
+          "score": 9
+        },
+        {
+          "body": "Do you have a graduate degree or just a BS?",
+          "score": 1
+        },
+        {
+          "body": "[deleted]",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Recruiters at Apple don't respond after a phone interview?",
+      "body": "So I’ve been contacted by 4 different recruiters at Apple for different teams. Only one of them emailed me back and forth after my interviews. The other three, I haven't heard anything from them since the 2nd interview. I emailed them about 10 days after to check in. No response. I waited another week and emailed again. Still no response. I’m so frustrated right now. Why would a recruiter do this to a candidate especially if that candidate spent all their free time preparing for the interviews? Should I reach out to those with whom I've interviewed, especially the hiring managers? Thanks in advance.",
+      "subreddit": "cscareerquestions",
+      "score": 1,
+      "url": "https://reddit.com/r/cscareerquestions/comments/329rzg/recruiters_at_apple_dont_respond_after_a_phone/",
+      "comments": [
+        {
+          "body": "Silence is widely considered an acceptable way to reject someone at the initial application stage of the interview process. It's extremely unprofessional for HR to engage a candidate, put them through interviews, and then go dark. If it's been 17 days since you were contacted I would absolutely send a note to the hiring manager that you spoke to. Be polite, don't sound desperate, just inquire about the status of your application.\n\nNow for the hard truth. Chances are you did alright, but not great in your second interview (presumable a technical interview). You didn't do so bad that they wanted to reject you, but you're not a \"top candidate\". You've been put on a back burner, and if they don't find someone better they'll bring you in for final round interviews. The alternative is your application got lost.\n\nSo what happens now?\n\n* Your application got lost, emailing the hiring manager gets it unlost (you might get rejected or brought in, both are better than limbo)\n\n* You're on the back burner, you're also probably not alone. If you demonstrate a bit more interest/persistence than the other applications in your position you might be the first person they pull in for an interview. If you haven't been rejected yet they're not going to reject you for sending a follow up after 2 1/2 weeks of silence.",
+          "score": 9
+        },
+        {
+          "body": "[removed]",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "2 weeks since Apple Phase 1 interview",
+      "body": "Did my Apple Phase 1 interview on the 14th, and was told within a week I should hear back for the 2nd phase interview, but still haven’t received anything back. Is it time to give up and accept that I didn’t get accepted? Do they usually send rejection letters for the specialist role after the first interview?\n\nUPDATE: They did end up reaching out to me again for the 2nd phase interview after 19 days, so it really is just a long process sometimes. Some people will get an email back under a week, and some people could take more than 2 weeks just to keep in mind\n\nUPDATE: I got the job 8 days after Phase 2!!!",
+      "subreddit": "jobs",
+      "score": 8,
+      "url": "https://reddit.com/r/jobs/comments/1md43n4/2_weeks_since_apple_phase_1_interview/",
+      "comments": [
+        {
+          "body": "Heh... I was screening candidates for interviews in my office at the fruit company years back.  My team was so damn picky they dragged out the interviews for over 2 months for 7 candidates to fill 1 position.  So yeah, sorry it's a slog, but this isn't unheard of.",
+          "score": 1
+        },
+        {
+          "body": "Hey. Can I dm you? I have some questions.",
+          "score": 1
+        },
+        {
+          "body": "which role was it?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Apple interview tomorrow morning",
+      "body": "Hey guys! I have my first in person Apple interview tomorrow morning, I prepared basically all day today, visiting their website, watching YouTube videos, and preparing answers and taking notes. For those recently hired or who work in the Specialist role, any questions I should be ready for tomorrow? And any last minute tips, or things to be prepared for? Thanks",
+      "subreddit": "jobs",
+      "score": 0,
+      "url": "https://reddit.com/r/jobs/comments/1n800w2/apple_interview_tomorrow_morning/",
+      "comments": [
+        {
+          "body": "no clue but good luck",
+          "score": 2
+        },
+        {
+          "body": "Is this for retail?",
+          "score": 1
+        },
+        {
+          "body": "Did you do leetcode and stuff?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Anyone done Apple Phase 1 interview",
+      "body": "Has anyone gone through Phase 1 of the Apple Retail Seasonal Specialist interview? What questions were asked, and what was the experience like? I'm reapplying and wondering how flexible Apple is with part-time scheduling, especially weekends, since I'm taking online classes.",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/1m7t1sk/anyone_done_apple_phase_1_interview/",
+      "comments": [
+        {
+          "body": "It’s usually a group interview consisting of you, someone else, and the interviewer. Some of the questions they ask are “How would you define success?” “Tell me about a time when you went above and beyond for someone/something” “Tell me about a time you had to work with a diverse group of people”",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Apple Technical Interview Tips",
+      "body": "I am a computer engineering student and I recently finished my screening call with an Apple recruiter and secured a technical interview for next week. \n\nThe role is for data analytics on a mechanical R&amp;D team and I don't know what to expect for the technical interview. Will it be more mechanical or data science and machine learning&gt; Should I prepare for leetcode style questions?\n\nAlso, those who have interned or interviewed at Apple, is there any tips you could give me, how should I prepare? Anything helps.",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/1fu3vsx/apple_technical_interview_tips/",
+      "comments": []
+    },
+    {
+      "title": "I’ve been unemployed for 2y. I can’t sleep",
+      "body": "As the title says, no job for 2y+. I have a Ms in Pol Sci, worked at the Asian Development Bank, Apple, Google. Mostly PM and QA roles. I speak 4 languages. Have a CAPM, multiple specialization courses.\n\nI can’t even get an interview. All I get are automatic rejection emails. I’ve applied to hundreds of jobs and nothing. Not even for a low salary. Nothing. 0.\n\nI can’t sleep. I can’t enjoy basic things in life anymore. I don’t know what to do.\n\nAnyone else in the same situation?",
+      "subreddit": "jobs",
+      "score": 289,
+      "url": "https://reddit.com/r/jobs/comments/1nds8qg/ive_been_unemployed_for_2y_i_cant_sleep/",
+      "comments": [
+        {
+          "body": "Hi, I'm in a similar spot... Been unemployed for 14 months myself. Applied to 300+ jobs. Got 8 total interviews. It's tough out there with these endless rejections. System is broken honestly. Hang in there - your credentials are solid. Don't give up.",
+          "score": 108
+        },
+        {
+          "body": "same dude. been jobless since march 2024.\n\nno interviews, nothing. \nit’s crap, i keep thinking about how much money  could have made during this time\n\ni also have a degree, but ive been searching for basic paid jobs and still nothing",
+          "score": 65
+        },
+        {
+          "body": "At some point, you will need to find any job just to not lose your mind",
+          "score": 42
+        },
+        {
+          "body": "And this is why a lot of people with degrees end il in retail or food service. Pick up a barista job or something bro, its better than nothing.",
+          "score": 28
+        },
+        {
+          "body": "Yes but I’ve been averaging 1 interview a week. Still can’t seem to make it to the final stretch though and getting increasingly frustrated/worried. Running out of savings fast. Hope both of us can land a good job soon 👍",
+          "score": 34
+        },
+        {
+          "body": "I graduated 2 years ago and still can't find anything. My mental health has completely vanished and I don't know what to do",
+          "score": 20
+        },
+        {
+          "body": "Unemployed for a year and a half, I've been surviving with side gigs but nowadays I'm literally dry and I don't know what to do anymore.",
+          "score": 9
+        }
+      ]
+    },
+    {
+      "title": "Apple seasonal retail specialist interview (SG)",
+      "body": "Hey guys, anyone in the batch of 13, 16, 20 Sep interviews for the above? They asked me to do a background check on 21 Sep, I submitted and on 9 Oct I found out that the check was sent to Apple. Sadly no calls or emails from them since. I wonder do they send rejection emails? I heard no news is good news, and should they reject you, they would send you a rejection email, but for those under consideration or finally offered, they will be getting a phone call. Any attendees same as me as the above dates?",
+      "subreddit": "jobs",
+      "score": 3,
+      "url": "https://reddit.com/r/jobs/comments/17jzdyx/apple_seasonal_retail_specialist_interview_sg/",
+      "comments": [
+        {
+          "body": "Hey man, did you hear back? Im in the same situation",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "My dad, with 35 years experience as an engineer, just discovered the bullshit that is today's application process.",
+      "body": "Let me preface that my dad is technically a boomer, but does not have the mentality of one.  He's very liberal, caucused for Bernie twice, and is one of the smartest people I know. \n\nHe was let go last May when his project ran out of funding to continue, so he's enjoying his early retirement, but he's bored.  Salary doesn't matter.  He's in the position where he wants to make a difference and follow his passion.  His passion for the last 10 years has been climate change.  He built a house with my mom that's as eco friendly as possible: solar panels, geothermal, rain barrels, etc.  And he loves to teach others about it.  You know when someone starts talking about their passion and they light up and get excited about it?  That's my dad when I ask him about his solar panels and the data surrounding it.  \"Charlesdickens2007, check out how much power we got- and look- that's where you can see when the sun came out!\"  \n\nRecently he's been emailing me applications with a \"wtf\" in the subject line.  They want superman.  A person that can get on a roof, train the workers, be a salesman, a CDL driver, and program.  Starting salary? 40k plus commission.  He just wants to talk to people about solar, but he's a programmer, not someone to get on a roof or drive a rig.\n\nHe then told me his history with job hunting, went like this:\n\nHis internship in college finished and was transitioned into a full-time job with benefits with an aerotech company.  He was asked \"what division do you want to work in?  Here are your 5 options\"  he said, \"Flight simulation looks cool, I'll do that\" and that's how he got his first job in engineering. \n\nWhen my maternal grandpa died (1992), he sent his resume to a headhunter a few states over and told them, \"hey, find me a job that pays x that's in this state\", he turned down a couple offers and got his second job.   \n\n5 years later he was laid off, but interviewed for a new position in a different state and moved the family with very little transition time and a large salary increase.  Our next house was massive, brand new, and he saved enough to put me and my brother through college.  He worked at that company for 15 years and they put him through school again.  Twice.  He left that position due to new management, with two additional masters degrees that were paid for by the company. \n\nNow, he's asking me tips on how to build a linked-in account.  He's sending me applications asking me if it sounds like a good company.  \n\nI told him my experience and we both teared up.  We haven't been that close, but this had brought us together.  He didn't realize how hard it was on me to go through the job hunting process, and he gets it now.\n\nWhen I graduated from college with my teaching degree, 5 years of coaching experience, and glowing letters of recommendation, there were 5 teaching positions open in my field.   I applied and didn't hear from any of them. \n\nI left the teaching world and got into non-profit work.  And I am damn good at it.  But with my field, I constantly hear about people getting hired because they know someone.  I have 10+ years of data driven success and someone got a position instead of me and spent Covid funds on office furniture??  All too true these days. \n\nSo far, I have applied for 40+ positions since last January.  I have been ghosted after 4 interviews for positions paying 70k to 100k.  Including one where I did a presentation for the board of directors... 4 months later and they never returned my phone calls. \n\nAppling for a position on indeed to be asked to apply on their website is common and takes 2(ish) hours to never hear back from them. \n\nSo yeah.  I got to cry with my dad for a bit last week.  Silver lining is that we've never been closer.  But this is absolute insanity.  \n\nMy current boss, who was reminded to apply for his position the day it closed, who has no supervison experience, sent me an email yesterday asking, \"can you even read?\"  After I asked a question.  \n\nI'm tired.  I'm worn out.  And my dad, is now going through the same thing and it's making me lose hope.",
+      "subreddit": "jobs",
+      "score": 1185,
+      "url": "https://reddit.com/r/jobs/comments/lqkwgo/my_dad_with_35_years_experience_as_an_engineer/",
+      "comments": [
+        {
+          "body": "Hello, thank you for posting to r/Jobs! \n\nWe just wanted to let you know that we have a new [discord server, come join the chat!](https://discord.gg/TY6ErXV)\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/jobs) if you have any questions or concerns.*",
+          "score": 1
+        },
+        {
+          "body": "Its just so exhausting, your dads right, companies nowadays want superheroes. Like no only do they want the degree. It’s shit because now I feel ‘oh if only I started my own company when I was 10 and started programming when I was fucking 5 I’d have that standout cv that makes me worthy’. Just exhausting",
+          "score": 456
+        },
+        {
+          "body": "That 40k salary you mentioned is extra outrageous, when juxtaposed with the \\[soon to be\\] federal minimum wage of $15/hour. Which would be a salary of about $31,200.\n\nAdd to that the insane barriers to getting a job-- several rounds of hours-long interviews, projects, work samples, and then to just get ghosted.\n\nCosts of living are getting increasingly higher, but salaries aren't keeping up. Something has to give.",
+          "score": 121
+        },
+        {
+          "body": "I feel you. 20+ years experience in marketing and project management, 255 jobs applied to since last March.\n\nNOTHING. Some interviews (maybe about 15). All I even want is $40k which is nothing. STILL can't get a job.",
+          "score": 98
+        },
+        {
+          "body": "I am a 40m mech engineer.  I recently applied for a job and got an interview.  Before the interview they emailed me the full job description.  I was a little surprised, because I didn’t realize the job description I applied for wasn’t complete.  They wanted, no exaggeration: plc programing, ground-up design of electrical panels, production management including supervision of the assembly staff, and sales. There were other things in there that I don’t recall. Salary: 55k. I declined the interview.",
+          "score": 132
+        }
+      ]
+    },
+    {
+      "title": "Apple Software Engineer, Full Stack Interview",
+      "body": "Hey everyone,\n\nI have an upcoming frontend-focused interview with Apple (Full Stack Engineer role). The recruiter mentioned that the round will have pointed questions and involve ReactJs coding exercise.\n\nI’d love to hear from people who’ve actually been through Apple’s frontend rounds (or similar big tech processes):\n\n* What kind of coding challenge did you face?\n* Any particular areas they went deep on (React internals, JS fundamentals, CSS, performance, accessibility, testing)?\n* How much did they care about code quality vs. just getting it to work? Did they ask you to write tests or just component coding was sufficient?\n* What’s the breakdown between discussion and coding in the frontend round?\n* Can I expect some questions around backend concepts?\n* Do they ask technical questions (e.g. useMemo vs useCallback) or STAR format questions from past projects(e.g. conflict, difficult project)?\n* Anything you wish you had prepped differently?\n\nAny tips, experiences, or resources would mean a lot!",
+      "subreddit": "jobs",
+      "score": 0,
+      "url": "https://reddit.com/r/jobs/comments/1niwdmt/apple_software_engineer_full_stack_interview/",
+      "comments": [
+        {
+          "body": "It appears you used AI to generate this. Good job on the formatting.\n\nExpect to solve 1-2 medium-hard difficulty questions in the span of 45min to an hour.\n\nThey expect what all big tech companies expect. Collaboration on coding, walking through your thoughts process, asking how edge cases are handled, testing. It's important you implement a fully optimized (or 2nd best) solution and you understand time and space complexity.\n\nThey definitely care about code quality, so read up on coding standards, follow consistent formatting, and keep variable/function names relatively short.\n\nThey may ask 1 or 2 very brief questions but the core focus is coding. They may even come off as rude, but they are really trying to give you as much time solve it as possible + 5 minutes at the end for questions. \n\nAnd that's really the 1st interview after the initial phone screen. The final interview will probably be 4 rounds.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "I have job interviews coming up with Dominos, Culver’s, Chipolete, Olive Garden and apple bees. Assuming I land each job which one should I take?",
+      "body": "Title",
+      "subreddit": "jobs",
+      "score": 0,
+      "url": "https://reddit.com/r/jobs/comments/1kyejoq/i_have_job_interviews_coming_up_with_dominos/",
+      "comments": [
+        {
+          "body": "Whichever pays the most.",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Apple interview process questions ",
+      "body": "I received this email a few days ago and am just confused. Is this email not the interview invitation or is this just letting me know that at some point in the future I’ll get a call for an interview. I was referred by my friend who works at Apple and he said he never had to do this so I’m confused. ",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/1e1iesm/apple_interview_process_questions/",
+      "comments": [
+        {
+          "body": "Yes it looks like they are setting up group.interviews. it reads like.another email invitation is coming but check the link, I guess, and see if you have an option to schedule.\n\nMaybe this is what they do for seasonal?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Apple Interview Request Weird",
+      "body": "Hello. \n\nI got an internship interview request from apple. But everything about the way the email looked and arrived (came on a Sunday) is screaming SUSPICIOUS. \nHowever, call me naive, I can't not respond. \nSo they've replied with an interview slot for tomorrow. And that email looks even more weird. There's a WebEx invite attached as well. \nIf it's a scam, I cannot understand how it's a scam. Ofc I'm not going to send anyone any money. \nI just need to know. \n\nSo if anyone works at apple, would you mind telling me what your official apple email ID ends with. Or give me some clarity lol. \n\nThank you",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/19evwbm/apple_interview_request_weird/",
+      "comments": [
+        {
+          "body": "Employee email addresses generally end with [apple.com](https://apple.com).\n\nDid you apply for an internship? If not, that's highly suspicious. Apple doesn't have any problems getting applicants for employment, they don't generally reach out to random people hoping somebody bites.\n\nIf your gut is telling you it's a scam, it's probably a scam. I wouldn't even take the \"interview\", but if you do and the person on the other end has a heavy Indian accent, run the other way.\n\nIf you do take the interview and they end up offering you the \"job\", and then offer to send you money so that you can go and buy equipment, that is a well known recruiting scam and you need to run the other way.",
+          "score": 3
+        },
+        {
+          "body": "lol I worked at apple like 10 years ago and i remember the email looking not real and real scammy looking cause it came from a different company and didn’t really say apple anywhere. Unfortunately the only difference was my interview was in person and I googled the address to find it was at apple hq for my city, so realized it was real.",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "title": "Apple Phone Interview",
+      "body": "So I’ll be getting a call in about an hour for an apple specialist employee. I got a call back from a recruiter today (08/14/23)  I’ve applied about 6+ months ago. What can I expect moving forward.",
+      "subreddit": "jobs",
+      "score": 2,
+      "url": "https://reddit.com/r/jobs/comments/15r3xnt/apple_phone_interview/",
+      "comments": [
+        {
+          "body": "Former apple employee here, you just need to sound interested in them and have an engaging conversion. You need to be attentive. They shouldn’t ask you too much over the phone but when I got my job there in 2017 that’s how it was, they called me at 9 at night, asked very basic questions, then moved forward to an in person interview, which there were 6 of which really tested me. Just be a genuine thoughtful person.",
+          "score": 2
+        },
+        {
+          "body": "Apple specialist employee position*^",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Are interviewers different now or was it a bad apple?",
+      "body": "Like many of you I'm on the struggle bus of hunting right now. I've never had this much trouble with my experience landing a job, and it really hits you in the feels.\n\nBack to my question, though. I've been on at least 12-20 interviews the past few months. On occasion I'll have an awkward hiring manager or interviewer, but I can handle that and fill in the gaps.\n\nToday I interviewed back to back which I thought was weird. An entire hour with the hiring manager, with rather odd and rapid-fire questions. Then right after that a meeting I thought would be with either the initial team I'd be working with and / or the colleague I'd be working with. \n\nInstead, it was with two random people not associated with my team. It seemed off from the beginning like they didn't know what they were doing, and the man was very intense. He didn't seem interested in making me feel comfortable, rather, it was just rapid-fire questions I've never heard before with 5-6 parts to each question, and although I strive to be AI-level I'm not, so naturally I had a lot of clarifying questions to ask. He would get annoyed, roll his eyes a lot, and do these weird little smiles when he thought I'd slipped up. Then he asked me to rate my proficiency on MS and got extremely weird - drilling me on could I do this formula, that formula, how could I think I qualified so well? For context I'm mid-senior level so it's usually a given I am proficient in MS, at the very least.\n\nThis threw my vibe off for the entire interview. I'm no A+ interviewee but I can do pretty well in a normal situation with standard questions. I'm just wondering, is this the norm now? Along with ghosting us, are some of these interviewers just not caring at all?",
+      "subreddit": "jobs",
+      "score": 3,
+      "url": "https://reddit.com/r/jobs/comments/152lq4k/are_interviewers_different_now_or_was_it_a_bad/",
+      "comments": [
+        {
+          "body": "Sounds like a bad apple and most importantly a company that you wouldn’t want to work for. Remember interviews go both ways",
+          "score": 7
+        }
+      ]
+    },
+    {
+      "title": "Apple phone interview",
+      "body": "",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/15r46p3/apple_phone_interview/",
+      "comments": []
+    },
+    {
+      "title": "Apple final interview, waiting for recruiter to respond",
+      "body": "\nHi guys, \n2 weeks back I have completed the interview loops with Apple after which recruiter called back within 2 days and informed that the team liked me but they still have 2 more people to interview. He said he will get back in a week to discuss on expectations on his end and my end.\nBut it has been 2 weeks and he hasn’t responded. I sent out a followup email after a week. But there is no response to my follow up email. I’m not sure what the situation is and it I should even expect and call back or response from him. Or should I just assume they picked another candidate and I should move on too? ",
+      "subreddit": "interviews",
+      "score": 3,
+      "url": "https://reddit.com/r/interviews/comments/1nkngno/apple_final_interview_waiting_for_recruiter_to/",
+      "comments": [
+        {
+          "body": "I heard apple takes quite some time to respond, i am in the same situation except the recruiter replied to me, i dont know whether that is good or bad",
+          "score": 1
+        },
+        {
+          "body": "Waiting is tough, but don't lose hope yet. Sometimes these processes just take longer than expected. Keep applying elsewhere too, but follow up once more in a week if you haven't heard back.",
+          "score": 1
+        },
+        {
+          "body": "[deleted]",
+          "score": 1
+        },
+        {
+          "body": "I’ve been in process since early summer and made it through several rounds including final round with HM. Recruiter feedback has been positive post interview loop, but now I’m hearing the role is ‘still open but no longer posted’ and that the team hasn’t made a final decision yet. Honestly a bit confused — does that usually mean approvals are dragging, or that they’ve got another candidate ahead and are keeping me warm or the role is on the verge of getting canceled or already canceled?\n\nRecruiter ghosts for a week, then after repeated follow ups pops back with the same ‘still waiting for final decision, thanks for your patience’ line. Feels like months of effort just to end with ‘we picked someone else or canceled the req.\n\nCurious if others have experienced this at Apple?",
+          "score": 1
+        },
+        {
+          "body": "I am in the same situation. Waiting for the recruiter to respond. \nLast week I had heard saying that I am considered for the role but between last week to this time there has been many changes in the visa so I am not sure if I will get it or not.\nI have lost hope. 😞\nI was so difficult to interview with them and exhausting. \nI don’t know what to do\nShould I just lose hope or should I wait",
+          "score": 1
+        },
+        {
+          "body": "Did you get a response?",
+          "score": 1
+        },
+        {
+          "body": "[removed]",
+          "score": 1
+        },
+        {
+          "body": "Hi did you get any reply???",
+          "score": 1
+        },
+        {
+          "body": "Did you give the Apple Watch technical round? Needed some insights.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Interview process with apple",
+      "body": "Has anyone experienced the Apple Store interview process? What's the procedure like when reapplying for a seasonal specialist role after not passing the phone interview the previous year? Apple contacted me for another chance, so I'm curious if applicants go directly to the final stage or if they need to redo the phone interview.",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/175rv1g/interview_process_with_apple/",
+      "comments": [
+        {
+          "body": "orange's better",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "title": "I am having an Apple retail interview tomorrow!!",
+      "body": "Any thing I should know? this is the 2nd one, the 1st one was a phone interview with the recruiter, tomorrow is the 2nd one which is a 4-people video group interview, any tips? \nI know it's only a retail job, but I heard it's kinda hard? But is it really? cannot imagine how it could be hard for just a retail job?",
+      "subreddit": "jobs",
+      "score": 10,
+      "url": "https://reddit.com/r/jobs/comments/okhton/i_am_having_an_apple_retail_interview_tomorrow/",
+      "comments": [
+        {
+          "body": "Hello, thank you for posting to r/Jobs! \n\nWe just wanted to let you know that we have a new [discord server, come join the chat!](https://discord.gg/TY6ErXV)\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/jobs) if you have any questions or concerns.*",
+          "score": 1
+        },
+        {
+          "body": "Had my group interview last week wasn’t too hard just think about questions they’ll ask you and prepare for them. They asked me about my scenarios working in different situations and how I learned from them or applied myself. Gogy 3rd one next week",
+          "score": 1
+        },
+        {
+          "body": "What did you get asked in the phone interview please",
+          "score": 1
+        },
+        {
+          "body": "After the recruiter phone call, how long till you heard from Apple regarding the second interview.?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "\"Largest [revision] on record going back to 2002.\" That is gonna be vindicating to a lot of people on this sub.",
+      "body": "[https://www.cnbc.com/2025/09/09/jobs-report-revisions-september-2025-.html](https://www.cnbc.com/2025/09/09/jobs-report-revisions-september-2025-.html)",
+      "subreddit": "jobs",
+      "score": 267,
+      "url": "https://reddit.com/r/jobs/comments/1nczamd/largest_revision_on_record_going_back_to_2002/",
+      "comments": [
+        {
+          "body": "Yay, we were right! :')",
+          "score": 74
+        },
+        {
+          "body": "Not only was April 2024-March 2025 revised down almost a million jobs. During the same period between 2023 and March 2024 was revised down over 800k. \n\nSo that’s almost 2 million jobs between April 2023 and March 2025 revised DOWN from original estimates. \n\nThat is fucking insane and shows exactly what many in here have been saying for a few years now \n\nhttps://www.cnn.com/2024/08/21/economy/bls-jobs-revisions",
+          "score": 54
+        },
+        {
+          "body": "[removed]",
+          "score": 54
+        },
+        {
+          "body": "Yup! We’ve been living through recessionary conditions and the mainstream everything told us we were imagining it",
+          "score": 28
+        },
+        {
+          "body": "*hits blunt\n\nNow do 2025. \n\nprediction: revised down 1.5 mil",
+          "score": 17
+        },
+        {
+          "body": "We’ve just been getting gaslit for so long on this",
+          "score": 7
+        }
+      ]
+    },
+    {
+      "title": "Can anybody share experience as Apple Sales Specialist? Have an interview offer but not really sure what they’re day-to-day duties are",
+      "body": "I have an interview offer, and it seems very interesting opportunity. But I’d like to know what that job is like before even considering leaving mine. \n\nI can’t find as much posts about it as I have for previous jobs in the past for whatever reason 😅",
+      "subreddit": "jobs",
+      "score": 2,
+      "url": "https://reddit.com/r/jobs/comments/p35fa6/can_anybody_share_experience_as_apple_sales/",
+      "comments": [
+        {
+          "body": "Hello, thank you for posting to r/Jobs! \n\nWe just wanted to let you know that we have a new [discord server, come join the chat!](https://discord.gg/TY6ErXV)\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/jobs) if you have any questions or concerns.*",
+          "score": 1
+        },
+        {
+          "body": "How to apply for that job?",
+          "score": 1
+        },
+        {
+          "body": "I have an interview aswell but not too certain have been searching everywhere but nothing yet.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Hello /r/job community! I'm a dwarf who made a video about my experience with interviewing, getting hired by, and working for Apple. I hope this video offers inspiration to anyone dealing with a personal struggle in the working world - especially those who have to consider disabilities / handicaps!",
+      "body": "You can check it out here: [https://youtu.be/r77c0KEA4Kc](https://youtu.be/r77c0KEA4Kc)",
+      "subreddit": "jobs",
+      "score": 89,
+      "url": "https://reddit.com/r/jobs/comments/gwn8ed/hello_rjob_community_im_a_dwarf_who_made_a_video/",
+      "comments": [
+        {
+          "body": "Congratulations man! And great video!",
+          "score": 1
+        },
+        {
+          "body": "Congratulations!\n\nDo you have degree or are you self-taught?",
+          "score": 1
+        },
+        {
+          "body": "how tall are you?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Apple Interview for RTI",
+      "body": "Has anyone ever been interviewed for an RTI role? If so, what was it like…",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1pce3gy/apple_interview_for_rti/",
+      "comments": [
+        {
+          "body": "[removed]",
+          "score": 1
+        },
+        {
+          "body": "you can try past interview questions on - [www.pastinterviews.com](http://www.pastinterviews.com)",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Apple Specialist interview question: What qualities are they looking for?",
+      "body": "Hello guys, I need some advice:\n\nAbout myself:\n\nEducation: BSc Degree\n\nWork Experience: 2 yrs admin/sales work with customer service experience.\n\nLanguage: bilingual in English and Mandarin\n\nInterview: Got into the 1st round of group interview with the store manager, and found out candidates are from many different industries. Didn't get the offer. I tried the following:\n\n1) Kept smiling during the entire conversation to appear friendly;\n\n2) Emphasized my language ability because the store I was looking is located in a community mainly populated by Chinese-immigrants.\n\n3) Demonstrated my conversation skills by telling a story of how I dealt with a difficult customer through walking her through the entrie service process. \n\nI wonder what qualities are Apple recruiters looking for? Is it more of personalities or attitude? Or is it more of customer service skills? Thanks in advance!",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/znj5up/apple_specialist_interview_question_what/",
+      "comments": [
+        {
+          "body": "Hello, thank you for posting to r/Jobs!\n\nWe just wanted to let you know that we have a new [discord server, come join the chat!](https://discord.gg/TY6ErXV)\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/jobs) if you have any questions or concerns.*",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Apple Virtual Interview Confusion",
+      "body": "A couple weeks ago, I had a virtual group interview scheduled with a recruiter for a nearby Apple store. As recommended in the email, I downloaded the WebEx software the day before and tested my camera, microphone, and speakers to make sure everything worked. I attempted to join the meeting 15 minutes before the interview was scheduled and was eventually kicked out because \"The host has not yet joined the interview.\" I attempted this multiple times and made sure I was joining the correct room from the link in the email and the recruiter never showed up.\n\nI immediately emailed the recruiter and Apple recruitment explaining the situation. After contacting a customer service representative from Apple (there is no recruitment number, so I said I needed help with MacBook to get through the automated system). The representative was very helpful and I eventually received an email to have my interview rescheduled. My interview will be in 10 hours by the time this is posted, so what should I do to avoid this happening again? I already emailed Apple Recruitment asking to confirm that this is 9:30 AM EST. When I open the link, it says \"May 15th 5:05 AM - 5:05 AM,\" which makes no sense, but I don't know what to believe anymore. The interview is with the same recruiter btw. Any advice to relieve my anxiety would be greatly appreciated!\n\nTLDR; The Apple Recruiter never showed up to my first virtual group interview, so I'm worried she's not going to show up to my rescheduled one.",
+      "subreddit": "jobs",
+      "score": 4,
+      "url": "https://reddit.com/r/jobs/comments/upwxgx/apple_virtual_interview_confusion/",
+      "comments": [
+        {
+          "body": "Hello, thank you for posting to r/Jobs!\n\nWe just wanted to let you know that we have a new [discord server, come join the chat!](https://discord.gg/TY6ErXV)\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/jobs) if you have any questions or concerns.*",
+          "score": 1
+        },
+        {
+          "body": "My recommendation?  When people show you who they are, believe them.  This recruiter does not value you or your time.  Don't waste any additional time trying to impress them.",
+          "score": 7
+        },
+        {
+          "body": "You got ghosted Sorry.",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "title": "My Apple Watch went off during my interview. Am I screwed?",
+      "body": "Maybe I’m overthinking but I’d just like some insight. I had a second-round interview today in-person. \n\nI was sure to turn my phone on silent, which was in my purse, but didn’t realize that my watch was not on silent. I guess my dad didn’t know what time my interview was today and decided to call me so in the middle of the interviewer speaking to me, my watch rang. I declined the call the second I heard it, but it was a minor disruption. Then of all times, he decided to leave a voicemail, so the little “ding” went off a minute later. \n\nSince the interviewer continued speaking, I didn’t interrupt her to apologize because it didn’t seem like she missed a beat, nor did I break eye contact to look at the watch. \n\nCould this hurt my chances? \n\nAs I write my thank you email, I considered adding a brief apology for the interruption. I’m not sure if this is necessary and I don’t want to remind her that it happened if she’s already forgotten. I’m just hoping that this wasn’t a big screw up on my end.",
+      "subreddit": "jobs",
+      "score": 7,
+      "url": "https://reddit.com/r/jobs/comments/vyccsv/my_apple_watch_went_off_during_my_interview_am_i/",
+      "comments": [
+        {
+          "body": "Hello, thank you for posting to r/Jobs!\n\nWe just wanted to let you know that we have a new [discord server, come join the chat!](https://discord.gg/TY6ErXV)\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/jobs) if you have any questions or concerns.*",
+          "score": 1
+        },
+        {
+          "body": "No need to remind them of the call in the yhank you letter\n\nA ringing phone in an interview is handled well if you reject the call and keep the interview going without missing a beat\n\nA bad interview is if you pick up the call and answer \"Dad, not now!  I'll call you back\".  You handled it right",
+          "score": 9
+        },
+        {
+          "body": "If an interviewer is not kind enough to understand that such things can occasionally happen and if they don't give you the benefit of doubt, it's their loss.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Apple Job Interview",
+      "body": "I have been selected for an Apple interview for a retail person. I am extremely nervous about this since this is an opportunity I have wanted for a long time. I am not sure of how to prep for this interview and wanted to ask if there were any tips current employees could share to help me prepare.",
+      "subreddit": "jobs",
+      "score": 1,
+      "url": "https://reddit.com/r/jobs/comments/veegcn/apple_job_interview/",
+      "comments": [
+        {
+          "body": "Hello, thank you for posting to r/Jobs!\n\nWe just wanted to let you know that we have a new [discord server, come join the chat!](https://discord.gg/TY6ErXV)\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/jobs) if you have any questions or concerns.*",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Called a reference for a candidate and got some mixed reviews. Would you hire him?",
+      "body": "I'm the manager for a small team of 8 engineers working with new product development at a small company of about 100 people. I've worked a lot on soft skills the past couple of years trying to build a team that gets along and enjoy each other's company. I've had a couple of bad apples in the past that I finally weeded out and now I'm looking to hire someone new. \n\nI had a few interviews and called the references he provided. One of his references is his current manager that knows that he is looking to move on. I asked about him and he said, quite candidly:\n\n\"He is honestly the most competent and intelligent engineer I've worked with. It's rare to find someone that knows mechanics, electronics and programming all at once. However, it comes at a price. Quite frankly, he's arrogant, difficult to work with, and everybody hates him. He's a one man show and I've been forced to isolate his tasks from others. I give him something and he lets me know when it's done. There is no point in having check ups or anything like that with him.\"\n\nWe could use some seniority and competence in the team however I don't know if it's worth taking in a guy like that?\n\nWhat do you think?",
+      "subreddit": "interviews",
+      "score": 1465,
+      "url": "https://reddit.com/r/interviews/comments/1ouzdl4/called_a_reference_for_a_candidate_and_got_some/",
+      "comments": [
+        {
+          "body": "Ask the candidate to speak to it.\n\nI once applied for an internal promotion and the executive did his own references internally then called me in *with the references* and then asked them to repeat there comments to me so I could speak to them. \n\nOMG you should have seen the looks on their faces I had one nasty backslabbing reference. I got the job but was so grateful for that executive to give me a chance to talk to their comments",
+          "score": 492
+        },
+        {
+          "body": "Be very cautious with references from a current supervisor that frames the candidate as a villain and the supervisor as the hero who tried everything. Every villain is the hero or victim of the story when they tell the story in private. I think you’ve spoken to a bad manager\n\nNormally the candidate is trying at all costs for this specific person NOT to know they’re looking, let alone provide a reference. That tells me this specific relationship isn’t working. \n\nThe work is brilliant and’s best quality ever.  It’s so good that the candidate can be trusted to meet goals and deadlines with absolutely no supervision or updates necessary. I’d think that would be someone to not let go.  The work is perfection but he’s “arrogant, difficult to work with, and *’everybody’* hates him.” Not the rest of this team…*EVERYBODY* hates him. Does everyone hate him?\n\nYou haven’t shared how this single reference compares to the others you’ve called. But if those were solid and offered nothing that hints at the same concern I would toss this one out. It’s heavily biased creating the perception the supervisor is the victim of an unmanageable genius villain. \n\nPeople don’t want their supervisor to know they’re leaving if it’s a good relationship. And good current supervisors don’t get asked to give references unless they want to help get the candidate out of a bad organization or they have a transition plan to move the candidate out from a dynamic that was bad but not bad Enugu to fire them or lay them off. Current supervisors as references have always been a red flag  bc they are so wildly unorthodox 🚩",
+          "score": 144
+        },
+        {
+          "body": "If everyone hates him - you'll hear from the other references.",
+          "score": 29
+        },
+        {
+          "body": "That depends.\n\nIf your company specifically asked the applicant to use his current manager, yes, I'd ignore the reference and hire him. Your company is dumb for doing that. Current bosses have a conflict of interest, and their words mean nothing. This kind of sabotage has been reported on r/jobs with some frequency.\n\nIf your company did not ask for it, and the applicant volunteered it, I would probably not hire him. He made a severe error in judgment bringing a reference without being sure it was a good one, whether or not what the boss said is true. Plus, you know, it might be true.\n\nI would pass the physical record of what the boss said on to the applicant to see what he said, and so that he could figure out next steps including pursuing defamation charges if they were merited. If there was no physical record, I'd follow up with a questionnaire for the boss to fill out, and if it was all of a sudden void of bad things to say about the applicant, I would not believe anything they said.\n\nI would also think about it if it really seemed like the manager used his greater experience and trust to trick the applicant into supplying him as a reference so he could sabotage the application, but that kind of thing is hard to tell. That still indicates an error in judgment, but a forgivable one in my book, especially for something like engineering rather than, say, upper management or negotiation.",
+          "score": 69
+        }
+      ]
+    },
+    {
+      "title": "Painfully waiting after onsite interviews with Apple",
+      "body": "Recruiter called me next day after the onsite interviews, asking if I have other offers. It sounds like a good sign? I followed up after the day that the recruiter said the meeting was on. Can't recall what kind of meeting but, I've not heard back since then. This process has been so torturing 😭",
+      "subreddit": "interviews",
+      "score": 5,
+      "url": "https://reddit.com/r/interviews/comments/1n7l9ro/painfully_waiting_after_onsite_interviews_with/",
+      "comments": [
+        {
+          "body": "The meeting that he must be referring to is the internal team discussion with the ones who took your interview regarding your hiring decision. But the recruiter asking you if you have any other offers is definitely a good sign. I can understand the frustration during the waiting period but hopefully they're just finalising the minor details. Hopefully you get the job, good luck!",
+          "score": 4
+        },
+        {
+          "body": "Apply other positions. Thinking about the interview can make a person go crazy!",
+          "score": 1
+        },
+        {
+          "body": "Any updates",
+          "score": 1
+        },
+        {
+          "body": "[removed]",
+          "score": 1
+        },
+        {
+          "body": "[removed]",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Apple Interviews - 8 different teams",
+      "body": "I’ve interviewed with 7 teams at Apple in 2025 and 1 team in 2024. I only made it as far as the second or third round in most cases. I’ve received feedback during interviews from senior engineers and managers saying I’m “very qualified” or “a great fit” or “your CV is very impressive” for the job but then almost immediately get rejected. I always ask the recruiter for feedback but never get any - how do I know what to improve on?… I’m always friendly, direct, and respectful. IMO I ask good questions and  sometimes the interviewer goes over the allotted time due to natural conversation or the way the interview is going\n\nSide note: I’ve also had contracting agencies reach out to me about the SAME roles I interviewed for at Apple. From what I’ve learned, those contractor positions are underpaid and don’t have any health or PTO benefits, just flat hourly rate - I have turned all of these down because my current job at least has benefits and pays more than the contractor based roles.\n\nHow is it I keep getting interviews and am being told these things but am not making it further in the interview process? Has anyone else experienced this? I know people have to an extent but this is crazy lol",
+      "subreddit": "interviews",
+      "score": 7,
+      "url": "https://reddit.com/r/interviews/comments/1onnt3i/apple_interviews_8_different_teams/",
+      "comments": [
+        {
+          "body": "All these bug tech companies have open roles not because they want to hire you, its for their h1b employees. According to the law, they should show the government that nobody applied or they haven’t found qualified citizen for the job for 60-90 of the job posting. Its easier to manipulate HR data than hire an citizen.",
+          "score": 2
+        },
+        {
+          "body": "Yes, I interviewed 3 times at Apple and their interview process is flawed. No wonder they have so many job openings because they can never hire anyone. The initial screening rounds are the biggest problem, they are given to a young engineer who doesn’t know what makes a good engineer (like communication, working with teams etc). They ask a question and have an answer in mind, if you answer anything even slightly off from what’s on their mind it’s a reject.\n\nWhat this means is that only “textbook nerds” who memorize the perfect solution to a problem can get through to the next rounds. But these people don’t get selected because the next rounds are with senior people who value the right things. \n\nApple has wayyy too many rounds, if you perform badly in even one round that takes a lot of weightage.",
+          "score": 1
+        },
+        {
+          "body": "I got hired at Apple. I wrote a 50 page document on the state of the industry, potential problems they might be facing, and did some theoretical process improvement for the problems. Apple wants you to go above and beyond. They have an internal rule that if you are a 5 star prospective employee they will create a role for you if one doesn't exist. AMA\n\nI'm\nPS I lasted a year. Apple is a textbook example of a \"golden handcuffs\" company. I would never work for them again.",
+          "score": 1
+        },
+        {
+          "body": "I completed my loop 10 days back but not received any communication back? Is it ok?",
+          "score": 1
+        },
+        {
+          "body": "Same I interviewed for 4 different teams until now.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Apple Job Interview Questions",
+      "body": "Recently I had an interview and unfortunately got rejected. I thought it will be a good idea to write the interview questions because it can help you to prepare. If you faced other questions post it here so this reddit will be full of questions. \n\n1. Tell me about your performance in current or most recent role.\n\n2. Tell me about a time when you got results that far exceeded others' expectations.\n\n3. Tell me about a time you had to work with someone who had a very different approach to work than you.",
+      "subreddit": "interviews",
+      "score": 59,
+      "url": "https://reddit.com/r/interviews/comments/1lz8f74/apple_job_interview_questions/",
+      "comments": [
+        {
+          "body": "You can peruse through Glassdoor for a variety of questions. \n\nBut my strategy has always been to look at a few large companies' corporate beliefs and come up with 2 STAR format questions for each. You should end up having around 30 STAR format examples in your pocket to handle any behavioral question thrown at you. Many behavioral questions won't be worded the same way as it would be online, but would still apply to one of the 30 examples you prepared.",
+          "score": 5
+        },
+        {
+          "body": "Was this for retail or corporate?",
+          "score": 2
+        },
+        {
+          "body": "I got the same questions yesterday at my interview. I haven't heard back yet. I was also asked when to tell them about myself to answer what I was doing at my current role/ last job and my favorite apple product",
+          "score": 2
+        },
+        {
+          "body": "I was asked the EXACT same questions in interview 1… received an email for interview 2 yesterday (exactly 7 days later) and my 2nd interview is today. \n\nI did a bit of research beforehand and attended the “getting to know apple” event before hand. I didn’t over complicate my preparation. Made sure to be authentically ME… PROFESSIONAL but me. And I used the STAR method for each answer.. kept it short, 2-3 min response time. I didn’t practice questions, just made sure I understood the STAR method and how to effectively articulate it. \n\nPause… think… and the first relevant situation that came to mind I used it. Also take advantage if you’re in a group setting. I was strategic in going first for only one question that I immediately knew the answer to- the other times let someone else go while you formulate a response in your head.\n\nI plan to do the same in the next hour.",
+          "score": 2
+        },
+        {
+          "body": "How do you define success\n\nWhy Apple\n\nTell me about a time when you got results that far exceeded others expectations",
+          "score": 2
+        },
+        {
+          "body": "strong move sharing the questions—more ppl should do this\n\nif you're prepping for Apple or similar, don't just memorize answers  \nbuild a story bank  \nbulletproof 3–5 examples that hit impact, conflict, and results  \nthen remix them for any phrasing they throw\n\nand don’t sleep on *how* you say it  \nthey’re watching tone, pacing, confidence  \nnot just content\n\n[NoFluffWisdom Newsletter](https://NoFluffWisdom.com/Subscribe) has some sharp frameworks for interview prep and storytelling under pressure worth a peek",
+          "score": 1
+        },
+        {
+          "body": "This the same question I got asked at Apple",
+          "score": 1
+        },
+        {
+          "body": "I had these exact questions and didn’t get it either. I’m also a student and don’t have a lot of experience so don’t beat yourself up over it.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Hardware Engineer Interview Experience: Nvidia, Apple, and Tesla",
+      "body": "Hi folks,\n\nI’m a hardware engineer focused on board-level circuit design with \\~3 years of experience. After about 3 months of an intense and sometimes exhausting job search, I recently received an offer from NVIDIA. I interviewed with several large companies, including Apple, Nvidia, and Tesla, and wanted to share some observations that might be helpful to others going through a similar process.\n\n⸻\n\n# Tesla\n\nI had hiring manager rounds for two different positions, but both processes eventually went quiet.\n\n**Observation:**\n\nTesla interviews felt very fast-paced and intense. Interviewers often rapid-fire questions and emphasize speed and pressure in the work environment. Based on my experience, ghosting seems fairly common, so I wouldn’t expect a formal rejection email.\n\n⸻\n\n# Apple\n\nI had hiring manager rounds for six different roles. One was in Texas (which I decided not to pursue), three ended in rejection (they do send rejection emails!), and two moved forward to panel interviews. Of those, one panel resulted in rejection, and one is still in progress.\n\n**Observation:**\n\nApple’s interview flow is usually something like:\n\n* Hiring Manager → Engineer → Panel\n\nor\n\n* Hiring Manager → Panel → Upper Manager\n\nPanels are typically around six people, 45 minutes each. They’re usually conducted online and can sometimes be split across two days.\n\nApple tends to interview candidates with people from multiple teams. Even if you’re applying to Team A, panel interviewers may come from Teams B, C, D, etc. You don’t need deep expertise in every domain, but having high-level familiarity helps. Apple usually tells you who you’ll interview with and the general topics ahead of time, which makes preparation more structured.\n\n⸻\n\n# NVIDIA\n\nMy process was:\n\nHiring Manager → Onsite Panel → Upper Manager → Hire\n\n**Observation:**\n\nI only interviewed with one team, so this reflects that experience. Everyone I spoke with was extremely competent and clearly knew their domain very well. Before the panel, NVIDIA shared the interviewers’ names but not the specific topics each person would cover, so doing some LinkedIn research helped.\n\nThe panel was onsite with five interviewers. The campus and building were great, and an NVIDIA ambassador walked me from the front desk to the interview room. Several people mentioned that the workload is intense and expectations are high, so people who enjoy learning quickly and taking ownership would thrive there.\n\n⸻\n\n# Some general tips\n\n* Interviewing is a skill and takes practice. If needed, apply to roles that align with your interests (even if they’re not your top choice) to get practices.\n* After an interview, assume you didn’t get the job and keep moving. If you do get it, it’s a pleasant surprise. If not, you're already mentally prepared. This mindset helps protect your mental health during long interview cycles.\n* Learn and take notes. The amount you can learn in a short time is surprising. A few months of interviewing can significantly level up your technical knowledge and confidence compared to when you first started.\n\nHope this helps someone out there, and good luck to anyone currently in the process.",
+      "subreddit": "interviews",
+      "score": 82,
+      "url": "https://reddit.com/r/interviews/comments/1pke1b6/hardware_engineer_interview_experience_nvidia/",
+      "comments": [
+        {
+          "body": "congratulations",
+          "score": 6
+        },
+        {
+          "body": "Thanks for sharing and Congrats!",
+          "score": 2
+        },
+        {
+          "body": "Congratulations!! And thank you so much for sharing. This is very helpful and insightful.",
+          "score": 2
+        },
+        {
+          "body": "Shooting dm!!",
+          "score": 2
+        },
+        {
+          "body": "Thanks for sharing and congratulations 🥂",
+          "score": 2
+        },
+        {
+          "body": "Congrats on the NVIDIA offer! Your detailed insights into each company's process are gold. With Tesla, the rapid-fire Qs can be daunting, but a calm mind helps focus under pressure. For Apple, their multi-team panels mean getting familiar with related domains, even if not an expert, is crucial. You've nailed the prep strategy by investigating interviewers. Others will defo find this useful!",
+          "score": 2
+        },
+        {
+          "body": "Grats on the offer, but I would take competency feedback from someone with only 3 years experience with a grain of salt.",
+          "score": 1
+        },
+        {
+          "body": "you can try past interview questions on - [www.pastinterviews.com](http://www.pastinterviews.com)",
+          "score": 1
+        },
+        {
+          "body": "That's honestly some really good interview advice. We've leveraged our own network to provide Apple, NVIDIA, and Tesla interview questions on our site -&gt; [voltagelearning.com](http://voltagelearning.com) \n\nPersonally, hardware interviews are a bit tough to sort out, but I'm hoping that this can provide a method to the madness.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Weird and Rude Apple Interview",
+      "body": "I recently had an interview with Apple's CPU DV team on Friday, and it was unlike any other interview I've experienced. Here’s how it went:\n\nThe Interviewer introduced himself as a manager overseeing two teams. He looked at my resume and commented, \"You have a little over two years of work experience after your master's, so I'm considering you as a new grad. I see you have a 3.7 GPA. Tell me which subjects you didn't get an A in.\" I replied, \"It's been about 2.5 years, and I don't completely recall, but I think I got a lower grade around B in subjects A and B, if I remember correctly. I think I got better grades in almost all remaining subjects.\" He responded, \"Don't give me 'almost,' tell me exactly which subjects they are. And don't think about lying to me; I will catch it when I look at your transcripts.\"\n\nI was taken aback and couldn't think clearly, so I said, \"From what I remember, it is those two subjects which I got a lower grade, though I did improve in subject A since my work now majorly deals with those topics.\" He replied, \"So every other subject you got an A in, okay, we shall see. Well, tell me a bit about your work.\"\n\nI began to explain how I worked for a bit over two years in post-silicon, but he cut me off and asked, \"Why is that relevant to me or this job?\" I thought it was a valid question, so I tried to explain how the skill set and work ethics I gained could be helpful. However, I realized his question was more dismissive than curious. He responded, \"Sure, okay,\" and I continued to explain my 7-month internship during my master's and my work experience post-graduation, the relevant work experience I gained, which he ignored and treated me as a new college grad.\n\nHe then asked me a few questions, which I answered fine, but I slowly realized how badly the initial conversation went, and I started blanking out and lost interest in the interview. He asked me  to convert a c code he provided into an assembly language instruction code. At this point, I was about 85 percent blanked out, and I hadn't worked with assembly language in a while (just a couple of classes in school), nor was it mentioned as a skill set (maybe it is expected of everyone, but I never worked with it in my almost 3 years of work, including my internship). I tried to write it and got stuck midway, but he stopped and started asking questions about compilers, which was also never my domain, and I mentioned it, but he kept asking questions about it.\n\nA bit later, he gave me another code: Python scripting. This should have been easy for me since I did some scripting. I started explaining the logic and giving the basic algorithm of how it should be done, but I don't know what came over me, and I no longer wanted to do the interview plus I was blanking out. I apologized and said I was blanking out and couldn't answer any more questions.\n\nSince we were almost out of time, he asked if I had any questions. I asked him, \"You just mentioned that you oversee two teams and nothing else. Can you elaborate a bit more about what teams you manage?\" He replied, \"Sorry, I can't. It's Apple confidentiality policy, I can't say much, I just manage two teams.\"\n\nI asked again, \"The job role description was a bit generic, can you please elaborate about the job role and what team the position is for?\" He answered, \"Well, what can I say, we hire smart people. It's exactly what the job role is. If you're smart, we will hire you and place you in a team that we think is suitable; it is generic role\" I asked, \"Can you then tell me about the verification environment you use and what the day-to-day job role might look like?\" He said, \"I cannot say. It is Apple confidential. If a skill is listed on the job posting, it means at some point in your work, if you work here, you might end up using that skill.\"\n\nNot very helpful. I asked, \"I see, however, the recruiter informed me that in general, most teams in apple CPU DV use assembly language and not UVM, but...\" He cut me off and said, \"I don't know why the recruiters are spreading such information. I will talk with higher management and have a strong word with the recruiting team as well to not spread such information. As for your question, that is wrong and I can’t to answer. As I said, we hire smart people, and if the job role has the skill mentioned, you will use that.\"\n\nI was already super flustered because now I was imagining him indirectly calling me not smart or something. He continued, \"Anyway, Apple is generally quick in getting back with feedback. Today is Friday, so you will probably hear back by Monday. If you don’t hear back by Tuesday, I’d be worried.\"\n\nI wasn't listening carefully to whether he said, \"You understand,\" or \"Or else you have to understand,\" which again seemed rude.\n\nI gave a couple of Apple technical screening rounds for some other teams, and they were pretty standard and polite. But this was the first time I experienced something like this. Safe to say, am not interviewing for apple anymore(nor would I be allowed ?) i guess.\n",
+      "subreddit": "interviews",
+      "score": 52,
+      "url": "https://reddit.com/r/interviews/comments/1imchvg/weird_and_rude_apple_interview/",
+      "comments": [
+        {
+          "body": "Some people just use the interview process to assert dominance. It’s really sad, imagine having such an empty life that that’s what you get off on.\n\nSorry for your experience OP.",
+          "score": 55
+        },
+        {
+          "body": "I would’ve cut the interview short.\n\nSir, this interaction isn’t productive and I have enough information to decide to withdraw from the process. Have a good day. Hang up. \n\nInterviews go both ways— always remember that.",
+          "score": 29
+        },
+        {
+          "body": "That sounds miserable. But also, Apple has been slower than molasses in Antarctica for me… the place has horrible recruitment practices, and are heinous at interviewing. I’m sorry you had this experience",
+          "score": 10
+        },
+        {
+          "body": "Smart AHoles. Been there. Done that. Never again.",
+          "score": 6
+        },
+        {
+          "body": "They probably already have an internal candidate for the role. You were interviewed just to meet the process requirements so that they can say they did interview a few external candidates.",
+          "score": 6
+        },
+        {
+          "body": "Oh this sucks. Hope karma catches up to him soon!",
+          "score": 7
+        },
+        {
+          "body": "that is fked up. Even tho Apple is still on my list of places I would love to work at, but man that is a horrible experience. Im sure its specific person case.",
+          "score": 6
+        },
+        {
+          "body": "Keep us updated. I feel like I'm invested, now.",
+          "score": 4
+        },
+        {
+          "body": "Don't take it personally. Someone who is lacking in social intelligence to that degree does not possess the ability to adequately assess other people. Forget that guy. I know it sucks because looking for work in this climate is not fun, but you're better off without them. Ewwwww, that makes me not even want to buy any more Apple products! I'm a social services professional of 10 years, and so you can take it to the bank when I tell you you're dodging a bullet 🩷.",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "title": "Interviewed for Apple Corporate Role – No Response After Multiple Follow-ups",
+      "body": "Hey everyone,\n\nI had my 4th interview round for a corporate role at Apple India back in mid-August. I reached out to HR after a while, and he responded the first time. But after a couple more follow-ups, I haven’t heard back since.\n\nI’m wondering if this is typical. Does Apple HR usually send an email in such situations, or is it common to just not get a response unless there’s an update?\n\nHas anyone else experienced this at Apple for corporate roles? Would love to hear how it went for you.\n\nThanks in advance!",
+      "subreddit": "interviews",
+      "score": 3,
+      "url": "https://reddit.com/r/interviews/comments/1o6deft/interviewed_for_apple_corporate_role_no_response/",
+      "comments": [
+        {
+          "body": "You’re cooked, sadly. Totally unprofessional, but it happens in all businesses and roles.",
+          "score": 5
+        },
+        {
+          "body": "Move on",
+          "score": 3
+        },
+        {
+          "body": "My college roommate works for Apple in Cupertino. From what she's described, it sounds pretty disorganized. She's been laid off and rehired multiple times. I'd keep looking",
+          "score": 1
+        },
+        {
+          "body": "This is actually typical for Apple. They run same process close to Google. If they did not want you, they won't waste time sending you the rejection email.\n\nIf you don't hear back that means its good sign. Please do move on to apply to other jobs as Apple and Google take their time on the hiring process. Hard to tell in India but I bet it is the same.",
+          "score": 1
+        },
+        {
+          "body": "hahahahaha lol",
+          "score": 1
+        },
+        {
+          "body": "Yes- happened to me. Took them 4 months to get back. I didn’t get the job",
+          "score": 1
+        },
+        {
+          "body": "How many days it’s been since final round?",
+          "score": 1
+        },
+        {
+          "body": "Are you requiring H1B visa transfer?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Apple interview process is long",
+      "body": "I have been interviewing for apple for 2 months now, I had 1 phone screen, 6 onsite and now I have been told I have another 2 more interviews. Is this normal? Has anyone been through same? What is the scope in the final interview. HR didn’t share me any details",
+      "subreddit": "interviews",
+      "score": 25,
+      "url": "https://reddit.com/r/interviews/comments/1nw7vi6/apple_interview_process_is_long/",
+      "comments": [
+        {
+          "body": "It’s normal. My friend did 11 interviews in total across 12 months for the same team and got ghosted the end….\n\n\nApples interview process might be the worst tbh. All my recruiters said 6-8 interviews in total is about the norm",
+          "score": 11
+        },
+        {
+          "body": "I had one of my worst interviews with Apple. Unfortunately it’s normal these days now. I’m interviewing with another big company now. After phone screen, 5 rounds tech interviews and 2 panel onsite interviews, I’m still waiting…",
+          "score": 10
+        },
+        {
+          "body": "Good that you got 2 more. I got rejected after the loop. One of the interviewer said you should’ve gotten the interview structure like what round is what. \nI did not. \n\nApple is very erratic.",
+          "score": 6
+        },
+        {
+          "body": "What is the job position you are trying to interview for ?",
+          "score": 5
+        },
+        {
+          "body": "Are what kind of interviews are these? I wonder if anyone can give me a gist of the interviews?",
+          "score": 3
+        },
+        {
+          "body": "Its insane! I had a screening and an awesome 1st round 3 weeks ago, was told immediately after by the recruter that she would share next steps, timeline and feedback in the “next week or so”. Silence after two follow up emails, but i am being told this is normal? Leadership position. Turn off, but its a great position",
+          "score": 2
+        },
+        {
+          "body": "If it takes more than 3 you’re ghosted. 1 for Talent Acquisition, 2 for team 3 for leadership. If they are doing more than that they are not efficient.",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Apple interview tips",
+      "body": "I recently had 5 interviews with apple, eventually getting hired, I wanted to help anyone who’s currently going through their interview stage. Feel free to reach out to me if you need any help/tips.\n\n- UPDATE - \nThank you everyone who’s already reached out to me. I’ll try and reply to everyone as soon as I can, life’s kinda hectic at the moment.",
+      "subreddit": "interviews",
+      "score": 95,
+      "url": "https://reddit.com/r/interviews/comments/sqaul1/apple_interview_tips/",
+      "comments": [
+        {
+          "body": "What is the sauce to land interview in the first place at 🍎?",
+          "score": 5
+        },
+        {
+          "body": "Can you elaborate more on your webex interview experience?",
+          "score": 3
+        },
+        {
+          "body": "Hey sorry if this is a bother but I have a phase 1 interview for a specialist role next week. What should I expect? And how many phases are there",
+          "score": 3
+        },
+        {
+          "body": "[deleted]",
+          "score": 2
+        },
+        {
+          "body": "Mine is tomorrow! Wish me luck",
+          "score": 2
+        },
+        {
+          "body": "How long between your first phone interview to being hired?\n\nAlso, did your emails explicitly state it would be group interviews.\n\nMy phone interview said the next stage would be a group interview but then my email afterwards said my next interview would be ''a 1:1 interview experience''\nNot exactly sure what that means.",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "My hiring manager and first round interview went very well at Apple but got rejected. ",
+      "body": "I had an interview with Apple for a Data Scientist role. The first round with the hiring manager went very well and she told me that I was an excellent fit. She said my resume, communication skills and attitude were excellent. Then, I had a second round (coding) which went very well. The interviewer told me that I answered the question perfectly. She also told me that she will definitely recommend me for the next round. I must admit that it is unusual to receive such feedback during the interview. But, the recruiter reached out to me the next day saying that they are not going ahead with my candidacy. I don’t understand what happened. I have no feedback from the recruiter. This is killing me. I don’t know what else I can do. Any idea why? ",
+      "subreddit": "interviews",
+      "score": 66,
+      "url": "https://reddit.com/r/interviews/comments/1g38c8f/my_hiring_manager_and_first_round_interview_went/",
+      "comments": [
+        {
+          "body": "Sorry to hear this bud. Sometimes it's not all about your skills/experience, but who you know, especially in big cooperation. There is a very good chance Apple already have a candidate in mind, and the rest is just a dog and pony show.\n\nEither way, we'll never know sure, so just keep applying (even to Apple), good look bud!",
+          "score": 53
+        },
+        {
+          "body": "I don’t hire people at your level, but I do hire and honestly sometimes it has nothing to do with you.\n\nOne time my team made a decision to hire someone that did excellent in the interviews and right before we sent them an offer, an internal candidate applied and also was a slightly better fit so we went a different route.  There’s almost nothing that other candidate could have done, it was just bad luck on their part.",
+          "score": 15
+        },
+        {
+          "body": "If you have one position to hire for, and 6 excellent candidates who all aced that interview, then you have to reject 5 excellent candidates.\nSometimes that’s just how it works.",
+          "score": 14
+        },
+        {
+          "body": "Recruiters are really getting disrespectful these days",
+          "score": 3
+        },
+        {
+          "body": "It could be anything. We all wish the hiring process were straightforward and transparent but that's not reality, just keep trying.",
+          "score": 2
+        },
+        {
+          "body": "Seems this is a recurring trend I read on Reddit that whenever interviewers provide positive feedback to the candidate they are rejected afterwards. Should be a red flag signal to receive positive feedback.  Perhaps only to make you feel good so they can quietly reject you afterwards.",
+          "score": 2
+        },
+        {
+          "body": "The transition from student to job seeker is a harsh one.  If there are multiple students doing top tier work, they can all get a top mark.  In a recruitment, only one candidate is selected.  Usually.\n\nIt isn’t uncommon for a candidate to do very well in the process and not be selected. The most common outcome is being beaten by another well qualified candidate.  This is especially true for places who draw extremely competitive candidate pools and is currently amplified by a tough market.\n\nSometimes a candidate has been specifically recruited for a role, sometimes a candidate is internal, or sometimes a candidate has some sort of prior relationship (perhaps working for a strategic partner, perhaps a manager worked with prior to joining the company).\n\nAs an employer, you are trying to manage a risk/reward calculation.  One risk element how well you can get to know a candidate.  That is a focus of the entire process and a candidate with a known background is lower risk.\n\nAnd sometimes the position gets pulled due to budget considerations.  Or because they want to rethink the role.  Or the unit is being reorganized.  Or a reorganization in another area will create new candidates for this position.\n\nBack to the student role, the best analogy is really the admission process.",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "title": "Apple interview limbo: role closed externally but recruiter says still open",
+      "body": "I’ve been in Apple’s interview process for a while and made it through to the final round with the hiring manager. The feedback I received was positive, and afterward I was asked to complete my employment profile and confirm relocation preferences. The recruiter initially mentioned that the team’s decision would likely come within a week, but each time I’ve followed up since then I’ve only heard “no update yet.”\n\nThis week I noticed the role is no longer listed on Apple’s careers site. When I asked, the recruiter clarified that the role is “still open but no longer posted” and that the team hasn’t made a final decision.\n\nIt’s been several weeks now, and the waiting game is stressful. For those who’ve gone through Apple’s hiring process — does this usually mean approvals are just slow, or that I’m being kept as a backup while another candidate decides? Did it end up as an offer, rejection, or canceled req for you?\n\nAny insights would really help.\n\n  \nUPDATE: I received an OFFER from APPLE finally and accepted it! :)",
+      "subreddit": "interviews",
+      "score": 4,
+      "url": "https://reddit.com/r/interviews/comments/1nlgp1e/apple_interview_limbo_role_closed_externally_but/",
+      "comments": [
+        {
+          "body": "They are making offers to prospective candidates and you are a top #N candidate, but not N=1.\n\nBe patient, but keep interviewing.",
+          "score": 4
+        },
+        {
+          "body": "Did you get to meet Tim Apple?",
+          "score": 2
+        },
+        {
+          "body": "They close the job posting when they believe they can fill the opening. They don’t want any more applicants. For reference, I had 90+ applicants for a job posting recently. After my first round of interviews, I felt like I had 3 people that I could hire, so I closed the posting. I work in big tech too.",
+          "score": 2
+        },
+        {
+          "body": "Did you receive an offer letter?",
+          "score": 1
+        },
+        {
+          "body": "Any update op. A friend of mine is in the same boat. He interviewed last week and now is closed externally. No update from the recruiter.",
+          "score": 1
+        },
+        {
+          "body": "So, I had a call with Recruiter, so she first mentioned me to call me once I am available. So, I thought it was obviously good news because I didn't receive any mail. If it was a reject, I would have received an email. So, she called me up immediately and she told me that she had a chance to meet with the team. And she mentioned that three of the interviewers gave hire with a very good feedback. And the other interviewer gave a partial hire. So, but the overall decision that the hiring manager took was a hire. Later there was a clause she mentioned at the end. So, Hiring Manager has to provide a justification as to why they wanted to hire me even though one of the interviewer gave me a partial hire. And he hiring manager's manager usually doesn't take people who have a partial hire. So, right now the hiring manager and the team are writing a justification as to why they wanted to take me even though I have a partial hire from one of the interviewer. So, if the hiring manager's manager gets convinced, right, then I will be offered the position. She mentioned that she might have an update by Monday(12/22) or Tuesday(12/23) at max. So, that's it. I appreciate the recruiter being so transaparent but this is something that I have heard for the first time, I thought the outcome of the debrief meeting is something that will be communicated to the candidate. Strange. So guys can anyone guide me with what is happening with my case.\n\n1. What does these kind of cases tend to move towards..hire or no hire?\n2. what is actually happening with my case/situation here?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Apple Phase 2 Interview",
+      "body": "Hello guys, I recently had my 2nd and ‘final’ interview with Apple for the sales specialist role in which I would be applying for the part time contract that would be starting from this mid August until mid January. \n\nI had my first interview June 26 which was a group interview with multiple people getting interviewed also, I got a call back same day for the phase 2 interview and did that on June 28.\n\nI recently contacted a manager on July 2nd for an update and they said that Apple is still conducting interviews and I would hear back in a few days.\n\nIt has now been a week since my second interview (on 6/28) and I still haven’t heard back from them. Is this normal?",
+      "subreddit": "interviews",
+      "score": 9,
+      "url": "https://reddit.com/r/interviews/comments/1dw0awf/apple_phase_2_interview/",
+      "comments": [
+        {
+          "body": "I used to work at Apple. I say don’t follow up again. They’ll contact you if they’re giving you a job. Honestly when I interviewed, I did my group interview and final interview and got offered the job on the same day lol but that was back in 2019 when the economy was booming.",
+          "score": 1
+        },
+        {
+          "body": "What questions were asked during your phase 2 interview? I have mine coming up monday also I hope you got the job if they take a while to get back to you that means they are highly considering you so don’t panic. If you didn’t get the job they would’ve let you know sooner than later",
+          "score": 1
+        },
+        {
+          "body": "Give it time. I had phase 1 last week and i just did phase 2 today. They said give it a week",
+          "score": 1
+        },
+        {
+          "body": "I just had Phase 1 interview yesterday and got an email today about setting up for Phase 2. Mine is next week ah exciting",
+          "score": 1
+        },
+        {
+          "body": "Any update ? Same boat as you",
+          "score": 1
+        },
+        {
+          "body": "Just had phase 2 fingers crossed! ",
+          "score": 1
+        },
+        {
+          "body": "does anyone know if more than one of the applicants from phase 1 get moved to phase 2 with you? or is it just 1 person only?",
+          "score": 1
+        },
+        {
+          "body": "I just had my phase 2 yesterday and I totally bombed it. I was so excited to work for Apple. Bummer.",
+          "score": 1
+        },
+        {
+          "body": "How does phase 1 interview work?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Applied to Apple, Got an Interview… Then My Brain Left the Chat",
+      "body": "Just had my first-ever interview with an Apple recruiter and… y’all. Wow.\n\nAs a fresher, I expected nerves, but I didn’t expect my brain to straight-up abandon me mid-convo. The recruiter was amazing: polished, kind, and totally professional. Meanwhile, I was over here fumbling through answers like, *\"Right, Exactly, words.\"* The case studies weren’t even that hard, but my anxiety turned them into Mount Everest. By the end, I barely remembered my own name, let alone what I’d said.  \n\nZero clue how I came across her expression was unreadable but I’m pretty sure my performance didn’t match my resume. Feels like a bombed it, ngl.  \n\nSilver lining? Now I know exactly where I need to improve (hello, mock interviews and breathing exercises). Onward and upward!  \n",
+      "subreddit": "interviews",
+      "score": 71,
+      "url": "https://reddit.com/r/interviews/comments/1kcwutu/applied_to_apple_got_an_interview_then_my_brain/",
+      "comments": [
+        {
+          "body": "As someone who struggles with social anxiety.I feel your pain. ( I'm not saying you have that), but this helped me so much before a interview..I was so relaxed after dreading it for a week. \n\n[Deep Breathing ](https://youtu.be/LiUnFJ8P4gM?si=NkI5VO2ay6ApNkur)",
+          "score": 18
+        },
+        {
+          "body": "I tutor people for interviews (mostly med school applicants), and something I always tell them is that feeling nervous is completely normal — especially when it’s something that matters to you. The important thing isn’t to eliminate the nerves, but to learn how to manage them enough so you can still think clearly and express yourself.\n\nTechniques like deep breathing, brief meditation, or doing a couple of mock interviews beforehand can really help settle your system. Even just becoming familiar with the format can make a huge difference.\n\nAnd just to reassure you — being nervous doesn’t mean you did badly. If you were able to get your thoughts across and give the interviewer a real sense of who you are, chances are it went better than you think. Most of us are much harder on ourselves than anyone else is.",
+          "score": 10
+        },
+        {
+          "body": "You never know if they are going to push you to the next round. Lately its been happening for people here who bombed the first and last interviews. Some of them are getting offers who did the same thing you did.\n\nDon't beat yourself up for this. You learned where to improve now but who knows you learned this and move on to next round.",
+          "score": 5
+        },
+        {
+          "body": "I feel ya, been in the same place",
+          "score": 3
+        },
+        {
+          "body": "Don’t discount yourself just yet, OP. Remember, recruiters are trained to recognize those nerves. Breathe, reflect, and prep for the next round. You’ve got this.",
+          "score": 2
+        },
+        {
+          "body": "I’ve noticed my nerves hit and brain shut down when I prepare myself with the perspective that the person I will be talking to is above me in some way. I’ve had better luck when I pep talk myself before hand with the knowledge that I am a professional in my career and we are just two adults on the same level with a different set of knowledge. \n\nAs an interviewee don’t go in with the mindset of trying to prove yourself because if you are confident in your abilities, you have nothing to prove. Only knowledge to share in an area that they need more help with.",
+          "score": 2
+        },
+        {
+          "body": "You’ll be fine. Maybe the recruiter thought you did great. They know stuff like this is tough for people. Good luck! ",
+          "score": 1
+        },
+        {
+          "body": "You need to practice more. Use a [job interview simulator](http://www.simulatedinterview.com), find a friend to help you practice, record yourself answering interview questions and listen to your performance... There are many ways to get better at this. Good luck!",
+          "score": 1
+        },
+        {
+          "body": "I discovered a free AI tool at thefinalacademydotcom that matches your resume with a job description and generates detailed, step-by-step interview answers. It’s incredibly helpful!",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Virtual Interview Prep for Apple retail",
+      "body": "Does anyone have any tips or advice for a virtual interview for Apple retail? It's my first virtual interview, and I haven't done one where there are other candidates as well. Anything helps! (Specifically for the Specialist position\\]",
+      "subreddit": "interviews",
+      "score": 2,
+      "url": "https://reddit.com/r/interviews/comments/1lwxyj5/virtual_interview_prep_for_apple_retail/",
+      "comments": [
+        {
+          "body": "Update:\n\nQ1: Tell me about yourself and/or an interesting fact.\n\nQ2: Tell me how in your last or current job you and your team worked collaboratively on a project.\n\nQ3: Tell me about a time where you excelled beyond expectations.\n\nQ4: Tell me about a time where you worked with someone who had a different approach than you.\n\n\nThese were more or less the questions I was asked.",
+          "score": 1
+        },
+        {
+          "body": "Any update on your situation?",
+          "score": 1
+        },
+        {
+          "body": "Update: I got the position!!!",
+          "score": 1
+        },
+        {
+          "body": "you can try past interview questions on - [www.pastinterviews.com](http://www.pastinterviews.com)",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Apple response time after final interview",
+      "body": "Hi everyone,\n\nI had my final round of interview at Apple with the hiring manager one week back, still I haven’t received any response. I did follow up but no reply on that. Can someone please tell from their experience what is the ideal time when apple sends rejection or offer email.\n\nThanks #apple ",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1o760y0/apple_response_time_after_final_interview/",
+      "comments": [
+        {
+          "body": "Hi u/Fancy-Number-9061 what was the role and how many rounds you had?",
+          "score": 1
+        },
+        {
+          "body": "How were your previous rounds? I had a week between my screening and first round, a month of silence until my second round was scheduled, now TBD for next panel round. I feel like they don’t say anything until they have info unfortunately, whether its hours, days or weeks. \nGood luck!",
+          "score": 1
+        },
+        {
+          "body": "did you hear back?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Apple ML Data Scientist interview",
+      "body": "UPDATE- \nI was moved to the panel interviews (~6 rounds in a day). What should I expect? TIA!\n\nHi,   \nI'm looking for some insights into Apple's ML Data Scientist (https://jobs.apple.com/en-us/details/200609910/machine-learning-data-scientist) role. I was recently contacted by a recruiter to schedule an initial 45 min interview with a senior member of the team. I have been told that this round will have a deep dive into my background and a technical question (on coderpad). No details on the type of technical Question were given. I'd appreciate any help in guidance on the process. TIA!",
+      "subreddit": "interviews",
+      "score": 2,
+      "url": "https://reddit.com/r/interviews/comments/1m7qv3c/apple_ml_data_scientist_interview/",
+      "comments": [
+        {
+          "body": "Even I am in this process. If anyone has any insights please share. I’ll be highly grateful",
+          "score": 1
+        },
+        {
+          "body": "This will likely be a screening interview. You should expect to solve a coding problem within your area of expertise. something manageable within 45 minutes. Keep in mind that Apple interviews are typically team-specific. One common type of question involves processing streaming data.",
+          "score": 1
+        },
+        {
+          "body": "The technical question on CoderPad will likely focus on either data manipulation using Python/SQL, statistical analysis, or a machine learning algorithm implementation from scratch. They're not just looking for the right answer - they want to see your thought process, how you handle edge cases, and whether you can explain complex concepts clearly. The \"deep dive into your background\" part is equally important because Apple values people who can connect their past experiences to real business impact, so be ready to discuss specific projects where your ML work drove measurable results.\n\nThe tricky part about Apple interviews is they often ask questions that seem straightforward but have multiple layers of complexity. They might start with something like \"explain how you'd approach a recommendation system\" and then drill down into scalability, bias detection, or A/B testing methodology. The key is staying calm when they push you into areas where you might not have perfect answers - they want to see how you think through problems you haven't solved before. Since you're dealing with senior team members who know exactly what they're looking for, having a tool like [interviews.chat](http://interviews.chat) can be incredibly valuable for practicing these kinds of multi-layered technical discussions and getting comfortable with explaining your reasoning in real-time. I'm on the team that built it, and we designed it specifically to help with these high-stakes technical interviews where clear communication is just as important as getting the right answer.",
+          "score": 1
+        },
+        {
+          "body": "Can you provide more information of the first 45 mins, thanks a lot!",
+          "score": 1
+        },
+        {
+          "body": "Hi, can you provide few insights on the type of questions asked?",
+          "score": 1
+        },
+        {
+          "body": "Hi, can you please tell me what kind of questions were asked in coderpad? related to ML(pandas, data science coding) or DSA?",
+          "score": 1
+        },
+        {
+          "body": "Looking for help..  \nHi I am also having interview for Data scientist role at Apple. Does any one have any question bank or example question to discuss.",
+          "score": 1
+        },
+        {
+          "body": "Hey, can you share your interview experience",
+          "score": 1
+        },
+        {
+          "body": "Hi, Can you share sample python questions asked in your technical interview",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Panel interviewed at Apple for Embedded role in early July — still getting “you remain under consideration” — am I the backup? Any chance I’ll get an offer?",
+      "body": "I interviewed for an Embedded Software role at Apple on July 2nd and 3rd — it was a panel interview. From what I heard from hr, the process for this role is: **panel interview first, and then the final round with the manager/director for the top candidate.**\n\nSince the interview, I’ve followed up with the recruiter every week. Each time, I’ve received similar responses:\n\n**While we are in discussions with other candidates, you remain under consideration. I’ll follow up as soon as I have an update.**\n\nNow it’s August 1st — exactly one month since the panel — and still no decision. At this point, I’m starting to assume I’m not their first choice. Maybe I’m the backup — a close second?\n\nI’d really appreciate some thoughts from anyone who's been through this:\n\n* Does this kind of message usually mean I’m the runner-up?\n* Have you (or someone you know) actually gotten an offer after being in this “still under consideration” limbo?\n* Would you keep waiting in this situation, or mentally move on?\n\nThanks in advance!",
+      "subreddit": "interviews",
+      "score": 0,
+      "url": "https://reddit.com/r/interviews/comments/1mf7inl/panel_interviewed_at_apple_for_embedded_role_in/",
+      "comments": [
+        {
+          "body": "This is strange. Even if you were a backup choice, the offer deadline for the first choice candidate will definitely have passed by now.\n\n\nThere’s actually a better chance they have a funding issue or maybe lost headcount.",
+          "score": 1
+        },
+        {
+          "body": "If you are interviewing for Apple or Google, no news is good news. They are quick to reject you if they feel you are not a fit for the role. Since you are being considered for a role at Apple they are very know to take their time. I would follow up every 1-2 weeks through the next 4 weeks.\n\nIf your candidate profile says you remain under consideration then that is a good sign.",
+          "score": 1
+        },
+        {
+          "body": "You know what. I got a email from HR at August 11th that the team would like me to meet with 2 more people. Each will be for about an hour. Maybe top1 candidate give up, who knows?",
+          "score": 1
+        },
+        {
+          "body": "Did you get anything back from the recruiter? (offer?)",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Apple Pixel Design Interview",
+      "body": "Hi everyone,\n\nI have an interview with Apple for their Pixel design team.\n\nIt's an internship/co-op position. Was wondering if anyone has any experience with this team or interview and has any thoughts. Based off the email it's 30-45 min. It's a WebEx interview and there's a mix of technical and behavioral questions. I know the basics. Apple is big on communication and power optimization. But other than that was looking for some tips and what to expect.\n\nAdditionally, how to study for this would be extremely extremely helpful.\n\nThank you guys!",
+      "subreddit": "interviews",
+      "score": 3,
+      "url": "https://reddit.com/r/interviews/comments/1o7jqlv/apple_pixel_design_interview/",
+      "comments": [
+        {
+          "body": "Is this ASIC Design role?\n\nthere is a interview question posted for Team Pixel IP DMA in Apple for ASIC Design in [hardware-interview.com](http://hardware-interview.com)",
+          "score": 1
+        },
+        {
+          "body": "you can try past interview questions on - [www.pastinterviews.com](http://www.pastinterviews.com)",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Anyone recently interviewed for Apple SoC Full-Chip DV Engineer role? What was your experience like?",
+      "body": "Hey everyone,\n\nI’ve got my interview coming up for the Apple SoC Full-Chip Design Verification Engineer (New Grad) position, and I wanted to get a sense of what to expect.\n\nHas anyone here given it recently (past few months)?  \n– What kind of questions did they ask (UVM, SystemVerilog, scripting, SoC architecture, etc.)?  \n– Was there a CoderPad round or more of a conceptual/problem-solving discussion?  \n– How technical did they get — waveform/debug or testbench architecture level?\n\nWould love to hear about your experience, how tough it was, and any prep tips that helped you out. Thanks in advance! 🙏",
+      "subreddit": "interviews",
+      "score": 3,
+      "url": "https://reddit.com/r/interviews/comments/1o73e82/anyone_recently_interviewed_for_apple_soc/",
+      "comments": [
+        {
+          "body": "Depends on your YoE and location \n\nCheck hardware-interview.com \n\nTheres a bunch of apple dv interview questions posted",
+          "score": 1
+        },
+        {
+          "body": "[removed]",
+          "score": 1
+        },
+        {
+          "body": "Hey! How was your interview went?",
+          "score": 1
+        },
+        {
+          "body": "you can try past interview questions on - [www.pastinterviews.com](http://www.pastinterviews.com)",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Apple interview final loop cancelled last minute!",
+      "body": "Hey folks,\nHad a final loop schedule in Apple. But, unfortunately it got cancelled last min. \nRecruiter mentioned due to internal changes? \nWhat’s that even mean!? Can anyone help me understand? Is there a chance in future or it’s gone!",
+      "subreddit": "interviews",
+      "score": 0,
+      "url": "https://reddit.com/r/interviews/comments/1nw99wn/apple_interview_final_loop_cancelled_last_minute/",
+      "comments": [
+        {
+          "body": "Could mean a number of things, don't give up but be cautious.  Interviewer quit or got fired and they need to line up someone else to do the interview.  Restructuring or financial reasons and they decided to put the position on hold.",
+          "score": 2
+        },
+        {
+          "body": "Did the recruiter mentioned it would be rescheduled or the role was canceled overall?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Apple Internship Interview",
+      "body": "I've been told that Apple's interview process varies by location and by team. Lovely. I got an email from a recruiter in the San Diego area for an interview with Apple's Display and Color Software Team...might be a bit of a long shot, but does anyone have any information on what kind of questions they might ask? Email says it'll be a 30-60 minute webex interview with a mix of behavioral and technical questions. ",
+      "subreddit": "interviews",
+      "score": 2,
+      "url": "https://reddit.com/r/interviews/comments/1otqwz6/apple_internship_interview/",
+      "comments": [
+        {
+          "body": "They’ll likely mix a couple DS algo questions with color pipeline fundamentals for Display and Color. When I interviewed for a graphics adjacent team, I got hits on color spaces sRGB vs Display P3, gamma, simple matrix transforms, image scaling, plus C or C++ basics, arrays and strings, and a quick complexity check. Behavioral was classic ownership and debugging stories, so prep STAR answers. What helped me was building a tiny RGB to linear and back function and talking through edge cases out loud. I also did timed mocks with Beyz coding assistant using prompts from the IQB interview question bank, which kept my answers around 90 seconds. Be ready to narrate clearly on a shared doc and state tradeoffs. Good luck!",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Apple Interview role put on hold",
+      "body": "I finished four rounds of interview with Apple the week before last week, and now the recruiter contacted me saying the role has been placed on hold for now, and she will reconnect with me after it reopens. Has anyone been in this situation before? What does this recruiter mean? Is the role actually on hold or it's another way of saying I'm rejected? I am so confused and exhausted......",
+      "subreddit": "interviews",
+      "score": 1,
+      "url": "https://reddit.com/r/interviews/comments/1o5y0oe/apple_interview_role_put_on_hold/",
+      "comments": [
+        {
+          "body": "When was your interview process? I interviewed for a hardware role in September. They are currently requesting headcount for me. Apparently, Apple end fiscal year for hiring in September and the new year started in October. October is when headcount approvals are done, so these two months are usually kind messy.",
+          "score": 1
+        },
+        {
+          "body": "any update op?",
+          "score": 1
+        },
+        {
+          "body": "[removed]",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "title": "Apple cellular team interview",
+      "body": "Has anyone completed interviews with apple for the cellular team? Can you please share your interview experience? Thanks ! ",
+      "subreddit": "interviews",
+      "score": 2,
+      "url": "https://reddit.com/r/interviews/comments/1nzt0yq/apple_cellular_team_interview/",
+      "comments": [
+        {
+          "body": "Did you complete?",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}
