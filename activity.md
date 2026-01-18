@@ -2,11 +2,11 @@
 
 ## Current Status
 **Last Updated:** 2026-01-18
-**Tasks Completed:** 26
+**Tasks Completed:** 27
 **Stage 1:** COMPLETE (All 4 issues closed)
 **Stage 2:** COMPLETE (All 4 issues closed: #7, #8, #9, #10)
 **Stage 3:** COMPLETE (All 3 issues closed: #4, #5, #19)
-**Stage 4:** IN PROGRESS (Issues closed: #14, #11, #12, #13, #26, #27, #28, #29)
+**Stage 4:** IN PROGRESS (Issues closed: #14, #11, #12, #13, #26, #27, #28, #29, #15)
 **Current Task:** None
 
 ---
@@ -855,6 +855,44 @@ All Stage 3 (Data Collection) issues are now closed:
 - `npm run build` - successful production build
 - `npm test` - 657 passed, 2 todo (43 new tests)
 - `npm run sample-for-review -- --dir=scripts/quality/samples --percent=50` - works correctly
+
+### 2026-01-18 - Issue #15: Content quality control pipeline
+
+**Completed:**
+- Created unified quality control pipeline script `scripts/quality/quality-check.ts`
+- Runs all quality checks in sequence:
+  - Repetition detection (AI phrases, repeated content)
+  - Readability scoring (Flesch-Kincaid)
+  - Fact verification (claims requiring verification)
+- Returns combined pass/fail/review status
+- CLI usage: `npm run quality-check -- --input=file.json`
+- Exit codes: 0=pass, 1=fail, 2=review needed
+- Added `--verbose` flag for detailed output
+- Created 28 tests for the unified pipeline
+
+**Output Format (matches spec):**
+```
+- Repetition: PASS (0 duplicates)
+- Readability: PASS (score: 65)
+- Facts: REVIEW NEEDED (2 claims to verify)
+```
+
+**Files Created:**
+- `scripts/quality/quality-check.ts` - Unified quality pipeline
+- `scripts/quality/__tests__/quality-check.test.ts` - 28 tests
+
+**All Sub-issues Complete:**
+- #26 - Repetition detection automation
+- #27 - Readability scoring system
+- #28 - Company fact verification checklist
+- #29 - Human review sampling workflow
+
+**Verification:**
+- `npm run lint` - passes with no errors
+- `npm run type-check` - passes with no errors
+- `npm run build` - successful production build
+- `npm test` - 685 passed, 2 todo (28 new tests)
+- `npm run quality-check -- --input=output/company-google-preview.json` - works correctly
 
 ---
 

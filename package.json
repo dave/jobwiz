@@ -18,7 +18,8 @@
     "check-repetition": "ts-node scripts/quality/check-repetition.ts",
     "check-readability": "ts-node scripts/quality/check-readability.ts",
     "check-facts": "ts-node scripts/quality/check-facts.ts",
-    "sample-for-review": "ts-node scripts/quality/sample-for-review.ts"
+    "sample-for-review": "ts-node scripts/quality/sample-for-review.ts",
+    "quality-check": "ts-node scripts/quality/quality-check.ts"
   },
   "dependencies": {
     "@supabase/ssr": "^0.8.0",
