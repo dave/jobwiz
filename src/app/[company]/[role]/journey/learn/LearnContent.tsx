@@ -85,7 +85,7 @@ export function LearnContent({
             Content Coming Soon
           </h1>
           <p className="text-gray-600 mb-6">
-            We're preparing your {companyName} {roleName} interview prep content.
+            We&apos;re preparing your {companyName} {roleName} interview prep content.
           </p>
           <Link
             href={`/${companySlug}/${roleSlug}/journey`}
