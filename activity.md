@@ -2,13 +2,13 @@
 
 ## Current Status
 **Last Updated:** 2026-01-18
-**Tasks Completed:** 42
+**Tasks Completed:** 43
 **Stage 1:** COMPLETE (All 4 issues closed)
 **Stage 2:** COMPLETE (All 4 issues closed: #7, #8, #9, #10)
 **Stage 3:** COMPLETE (All 3 issues closed: #4, #5, #19)
 **Stage 4:** COMPLETE (All issues closed: #14, #11, #12, #13, #15, #16, #18)
-**Stage 5:** IN PROGRESS (#20 closed, #21 closed, #22 closed, #24 closed, #25 open, #23 open)
-**Current Task:** #24 AB test infrastructure - CLOSED
+**Stage 5:** IN PROGRESS (#20 closed, #21 closed, #22 closed, #24 closed, #25 closed, #23 open)
+**Current Task:** #25 Analytics and conversion tracking - CLOSED
 
 ---
 
@@ -2146,3 +2146,56 @@ Parent issue #24 for AB test infrastructure has been closed. All 4 sub-issues we
 - `npm run build` - successful production build
 - `npm test` - 1852 passed, 2 todo
 - AB Testing tests: 295 passed
+
+### 2026-01-18 - Issue #25: Analytics and conversion tracking
+
+**Status:** CLOSED - All code requirements already implemented in #43
+
+**Summary:**
+Issue #25 (Analytics and conversion tracking) was already fully implemented as part of Issue #43 (Conversion tracking events). All acceptance criteria from the spec were verified to be complete.
+
+**Already Implemented (from #43):**
+- PostHog JS SDK installed and configured (`posthog-js`)
+- AnalyticsProvider component initializes PostHog on app load
+- Environment variables documented in .env.example
+- All required events tracked:
+  - `page_view` - with company, role, url
+  - `journey_step_complete` - step_index, step_id, company, role
+  - `paywall_impression` - variant, company, role
+  - `paywall_cta_click` - variant, company, role
+  - `auth_started` - trigger, company, role
+  - `auth_complete` - method, company, role
+  - `checkout_started` - product, company, role, amount
+  - `purchase_completed` - product, amount, company, role, variant
+- User identification via `posthog.identify(user_id)`
+- User properties: target_company, target_role, paywall_variant
+- UTM attribution via `captureUTMParameters()` with `$set_once`
+- Privacy: No cookie consent banner (US-only launch, per spec)
+
+**Files (already created in #43):**
+- `src/lib/analytics/types.ts` - Type definitions
+- `src/lib/analytics/client.ts` - PostHog client initialization
+- `src/lib/analytics/tracking.ts` - Event tracking functions
+- `src/lib/analytics/server.ts` - Server-side event capture
+- `src/lib/analytics/paywall.ts` - PaywallGate integration
+- `src/lib/analytics/provider.tsx` - AnalyticsProvider component
+- `src/lib/analytics/index.ts` - Re-exports
+
+**Tests:**
+- 96 unit tests (all passing) covering:
+  - Type definitions and event properties
+  - PostHog client initialization
+  - Event tracking with variant injection
+  - Server-side event capture
+  - Paywall event tracking
+  - Provider lifecycle and hooks
+  - UTM parameter capture
+
+**Verification:**
+- `npm run lint` - passes with no errors
+- `npm run build` - successful production build
+- `npm test` - 1852 passed, 2 todo (analytics tests: 96 passed)
+- All acceptance criteria verified complete
+
+**Screenshot:**
+- `screenshots/25-analytics-landing-page.png` - Landing page with analytics integration
