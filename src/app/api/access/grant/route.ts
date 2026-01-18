@@ -171,22 +171,26 @@ export async function POST(
 
     // Generate magic link for auto-sign-in
     let magicLink: string | undefined;
-    const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || process.env.VERCEL_URL
-      ? `https://${process.env.VERCEL_URL}`
-      : 'http://localhost:3000';
+    const baseUrl = process.env.NEXT_PUBLIC_BASE_URL
+      || (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : 'http://localhost:3000');
     const finalRedirect = redirect_to || `/${companySlug}/${roleSlug}/journey`;
+    // Magic link should redirect through auth callback to exchange token for session
+    const callbackUrl = `${baseUrl}/auth/callback?next=${encodeURIComponent(finalRedirect)}`;
 
     try {
       const { data: linkData, error: linkError } = await supabase.auth.admin.generateLink({
         type: 'magiclink',
         email: customerEmail,
         options: {
-          redirectTo: `${baseUrl}${finalRedirect}`,
+          redirectTo: callbackUrl,
         },
       });
 
-      if (!linkError && linkData?.properties?.action_link) {
+      if (linkError) {
+        console.error('Magic link generation error:', linkError);
+      } else if (linkData?.properties?.action_link) {
         magicLink = linkData.properties.action_link;
+        console.log('Magic link generated successfully');
       }
     } catch (linkErr) {
       console.error('Failed to generate magic link:', linkErr);
