@@ -42,10 +42,12 @@ describe("sitemap", () => {
     const companyWithRoles = companies.find((c) => c.roles.length > 0);
     if (companyWithRoles) {
       const role = companyWithRoles.roles[0];
-      const roleEntry = entries.find((e) =>
-        e.url.includes(`/${companyWithRoles.slug}/${role.slug}`)
-      );
-      expect(roleEntry).toBeDefined();
+      if (role) {
+        const roleEntry = entries.find((e) =>
+          e.url.includes(`/${companyWithRoles.slug}/${role.slug}`)
+        );
+        expect(roleEntry).toBeDefined();
+      }
     }
   });
 
@@ -142,8 +144,10 @@ describe("sitemap", () => {
     const oneYearAgo = new Date(now.getTime() - 365 * 24 * 60 * 60 * 1000);
 
     for (const entry of entries) {
-      expect(entry.lastModified!.getTime()).toBeGreaterThan(oneYearAgo.getTime());
-      expect(entry.lastModified!.getTime()).toBeLessThanOrEqual(now.getTime() + 1000);
+      const lastMod = entry.lastModified;
+      const lastModTime = lastMod instanceof Date ? lastMod.getTime() : new Date(lastMod!).getTime();
+      expect(lastModTime).toBeGreaterThan(oneYearAgo.getTime());
+      expect(lastModTime).toBeLessThanOrEqual(now.getTime() + 1000);
     }
   });
 });

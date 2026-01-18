@@ -136,10 +136,10 @@ describe("generateFAQSchema", () => {
     ];
     const schema = generateFAQSchema(questions);
 
-    expect(schema.mainEntity[0]["@type"]).toBe("Question");
-    expect(schema.mainEntity[0].name).toBe("Test question?");
-    expect(schema.mainEntity[0].acceptedAnswer["@type"]).toBe("Answer");
-    expect(schema.mainEntity[0].acceptedAnswer.text).toBe("Test answer");
+    expect(schema.mainEntity[0]?.["@type"]).toBe("Question");
+    expect(schema.mainEntity[0]?.name).toBe("Test question?");
+    expect(schema.mainEntity[0]?.acceptedAnswer["@type"]).toBe("Answer");
+    expect(schema.mainEntity[0]?.acceptedAnswer.text).toBe("Test answer");
   });
 
   test("handles empty questions array", () => {
@@ -213,9 +213,9 @@ describe("generateBreadcrumbSchema", () => {
     ];
     const schema = generateBreadcrumbSchema(items);
 
-    expect(schema.itemListElement[0].position).toBe(1);
-    expect(schema.itemListElement[1].position).toBe(2);
-    expect(schema.itemListElement[2].position).toBe(3);
+    expect(schema.itemListElement[0]?.position).toBe(1);
+    expect(schema.itemListElement[1]?.position).toBe(2);
+    expect(schema.itemListElement[2]?.position).toBe(3);
   });
 
   test("includes item URL when provided", () => {
@@ -225,16 +225,16 @@ describe("generateBreadcrumbSchema", () => {
     ];
     const schema = generateBreadcrumbSchema(items);
 
-    expect(schema.itemListElement[0].item).toContain("/");
-    expect(schema.itemListElement[1].item).toBeUndefined();
+    expect(schema.itemListElement[0]?.item).toContain("/");
+    expect(schema.itemListElement[1]?.item).toBeUndefined();
   });
 
   test("formats as ListItem", () => {
     const items = [{ name: "Test" }];
     const schema = generateBreadcrumbSchema(items);
 
-    expect(schema.itemListElement[0]["@type"]).toBe("ListItem");
-    expect(schema.itemListElement[0].name).toBe("Test");
+    expect(schema.itemListElement[0]?.["@type"]).toBe("ListItem");
+    expect(schema.itemListElement[0]?.name).toBe("Test");
   });
 });
 
@@ -262,24 +262,24 @@ describe("generateCompanyRoleBreadcrumbs", () => {
   test("includes Home at position 1", () => {
     const schema = generateCompanyRoleBreadcrumbs(mockCompany, mockRole);
 
-    expect(schema.itemListElement[0].name).toBe("Home");
-    expect(schema.itemListElement[0].position).toBe(1);
+    expect(schema.itemListElement[0]?.name).toBe("Home");
+    expect(schema.itemListElement[0]?.position).toBe(1);
   });
 
   test("includes company at position 2 with URL", () => {
     const schema = generateCompanyRoleBreadcrumbs(mockCompany, mockRole);
 
-    expect(schema.itemListElement[1].name).toBe("Apple");
-    expect(schema.itemListElement[1].position).toBe(2);
-    expect(schema.itemListElement[1].item).toContain("/apple");
+    expect(schema.itemListElement[1]?.name).toBe("Apple");
+    expect(schema.itemListElement[1]?.position).toBe(2);
+    expect(schema.itemListElement[1]?.item).toContain("/apple");
   });
 
   test("includes role at position 3 without URL", () => {
     const schema = generateCompanyRoleBreadcrumbs(mockCompany, mockRole);
 
-    expect(schema.itemListElement[2].name).toBe("Data Scientist");
-    expect(schema.itemListElement[2].position).toBe(3);
-    expect(schema.itemListElement[2].item).toBeUndefined();
+    expect(schema.itemListElement[2]?.name).toBe("Data Scientist");
+    expect(schema.itemListElement[2]?.position).toBe(3);
+    expect(schema.itemListElement[2]?.item).toBeUndefined();
   });
 });
 
@@ -301,16 +301,16 @@ describe("generateCompanyBreadcrumbs", () => {
   test("includes Home at position 1", () => {
     const schema = generateCompanyBreadcrumbs(mockCompany);
 
-    expect(schema.itemListElement[0].name).toBe("Home");
-    expect(schema.itemListElement[0].position).toBe(1);
+    expect(schema.itemListElement[0]?.name).toBe("Home");
+    expect(schema.itemListElement[0]?.position).toBe(1);
   });
 
   test("includes company at position 2 without URL (current page)", () => {
     const schema = generateCompanyBreadcrumbs(mockCompany);
 
-    expect(schema.itemListElement[1].name).toBe("Microsoft");
-    expect(schema.itemListElement[1].position).toBe(2);
-    expect(schema.itemListElement[1].item).toBeUndefined();
+    expect(schema.itemListElement[1]?.name).toBe("Microsoft");
+    expect(schema.itemListElement[1]?.position).toBe(2);
+    expect(schema.itemListElement[1]?.item).toBeUndefined();
   });
 });
 

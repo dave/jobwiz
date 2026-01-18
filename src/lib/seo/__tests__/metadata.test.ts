@@ -87,7 +87,7 @@ describe("generateCompanyRoleMetadata", () => {
     expect(metadata.openGraph).toBeDefined();
     expect(metadata.openGraph?.title).toContain("Google");
     expect(metadata.openGraph?.title).toContain("Software Engineer");
-    expect(metadata.openGraph?.type).toBe("website");
+    expect((metadata.openGraph as Record<string, unknown>)?.type).toBe("website");
     expect(metadata.openGraph?.siteName).toBe("JobWiz");
   });
 
@@ -97,7 +97,7 @@ describe("generateCompanyRoleMetadata", () => {
     expect(Array.isArray(metadata.openGraph?.images)).toBe(true);
     const images = metadata.openGraph?.images as Array<{ url: string }>;
     expect(images.length).toBeGreaterThan(0);
-    expect(images[0].url).toContain("og-default.png");
+    expect(images[0]?.url).toContain("og-default.png");
   });
 
   test("includes og:url", () => {
@@ -108,7 +108,7 @@ describe("generateCompanyRoleMetadata", () => {
   test("includes Twitter card tags", () => {
     const metadata = generateCompanyRoleMetadata(mockCompany, mockRole, "/google/software-engineer");
     expect(metadata.twitter).toBeDefined();
-    expect(metadata.twitter?.card).toBe("summary_large_image");
+    expect((metadata.twitter as Record<string, unknown>)?.card).toBe("summary_large_image");
     expect(metadata.twitter?.title).toContain("Google");
     expect(metadata.twitter?.site).toBe("@jobwiz");
   });
@@ -153,7 +153,7 @@ describe("generateCompanyMetadata", () => {
   test("includes Twitter card tags", () => {
     const metadata = generateCompanyMetadata(mockCompany, "/amazon");
     expect(metadata.twitter).toBeDefined();
-    expect(metadata.twitter?.card).toBe("summary_large_image");
+    expect((metadata.twitter as Record<string, unknown>)?.card).toBe("summary_large_image");
   });
 });
 

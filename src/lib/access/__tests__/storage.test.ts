@@ -54,15 +54,17 @@ interface MockSupabaseConfig {
   updateError: Error | null;
 }
 
+type MockQueryBuilder = Record<string, unknown>;
+
 // Access grants query builder mock
-function createAccessGrantsQueryBuilder(config: MockSupabaseConfig) {
+function createAccessGrantsQueryBuilder(config: MockSupabaseConfig): MockQueryBuilder {
   let filters: Record<string, unknown> = {};
   let isNullFilters: string[] = [];
   let orderBy: string | null = null;
   let orderAsc = true;
   let gteFilters: Record<string, unknown> = {};
 
-  const builder = {
+  const builder: MockQueryBuilder = {
     insert: jest.fn((data: unknown) => {
       if (config.insertError) {
         return {
@@ -170,13 +172,13 @@ function createAccessGrantsQueryBuilder(config: MockSupabaseConfig) {
 }
 
 // Guest purchases query builder mock
-function createGuestPurchasesQueryBuilder(config: MockSupabaseConfig) {
+function createGuestPurchasesQueryBuilder(config: MockSupabaseConfig): MockQueryBuilder {
   let filters: Record<string, unknown> = {};
   let isNullFilters: string[] = [];
   let orderBy: string | null = null;
   let orderAsc = true;
 
-  const builder = {
+  const builder: MockQueryBuilder = {
     insert: jest.fn((data: unknown) => {
       if (config.insertError) {
         return {
@@ -423,7 +425,7 @@ describe('revokeAccess', () => {
     await revokeAccess(supabase, 'user-123', 'google', 'software-engineer');
 
     // The grant should be updated
-    expect(accessGrants[0].source).toBe('refund_revoke');
+    expect(accessGrants[0]?.source).toBe('refund_revoke');
   });
 });
 
@@ -456,8 +458,8 @@ describe('grantBundleAccess', () => {
     });
 
     expect(grants.length).toBe(1);
-    expect(grants[0].company_slug).toBe('google');
-    expect(grants[0].role_slug).toBe('software-engineer');
+    expect(grants[0]?.company_slug).toBe('google');
+    expect(grants[0]?.role_slug).toBe('software-engineer');
   });
 
   test('creates company bundle grant', async () => {
@@ -469,8 +471,8 @@ describe('grantBundleAccess', () => {
     });
 
     expect(grants.length).toBe(1);
-    expect(grants[0].company_slug).toBe('google');
-    expect(grants[0].role_slug).toBeNull();
+    expect(grants[0]?.company_slug).toBe('google');
+    expect(grants[0]?.role_slug).toBeNull();
   });
 
   test('creates role bundle grant', async () => {
@@ -482,8 +484,8 @@ describe('grantBundleAccess', () => {
     });
 
     expect(grants.length).toBe(1);
-    expect(grants[0].company_slug).toBeNull();
-    expect(grants[0].role_slug).toBe('software-engineer');
+    expect(grants[0]?.company_slug).toBeNull();
+    expect(grants[0]?.role_slug).toBe('software-engineer');
   });
 
   test('creates full access grant', async () => {
@@ -494,8 +496,8 @@ describe('grantBundleAccess', () => {
     });
 
     expect(grants.length).toBe(1);
-    expect(grants[0].company_slug).toBeNull();
-    expect(grants[0].role_slug).toBeNull();
+    expect(grants[0]?.company_slug).toBeNull();
+    expect(grants[0]?.role_slug).toBeNull();
   });
 
   test('throws error for single without company', async () => {
@@ -558,7 +560,7 @@ describe('revokeBundleAccess', () => {
     const supabase = createMockSupabase({ accessGrants });
 
     await revokeBundleAccess(supabase, 'user-123', 'single', 'google', 'software-engineer');
-    expect(accessGrants[0].source).toBe('refund_revoke');
+    expect(accessGrants[0]?.source).toBe('refund_revoke');
   });
 
   test('throws error for single without company', async () => {
@@ -623,7 +625,7 @@ describe('getGuestPurchasesByEmail', () => {
 
     const purchases = await getGuestPurchasesByEmail(supabase, 'test@example.com');
     expect(purchases.length).toBe(1);
-    expect(purchases[0].id).toBe('guest-1');
+    expect(purchases[0]?.id).toBe('guest-1');
   });
 });
 
@@ -647,9 +649,9 @@ describe('linkGuestPurchases', () => {
     const grants = await linkGuestPurchases(supabase, 'user-123', 'test@example.com');
 
     expect(grants.length).toBe(1);
-    expect(grants[0].user_id).toBe('user-123');
-    expect(grants[0].company_slug).toBe('google');
-    expect(grants[0].role_slug).toBe('software-engineer');
+    expect(grants[0]?.user_id).toBe('user-123');
+    expect(grants[0]?.company_slug).toBe('google');
+    expect(grants[0]?.role_slug).toBe('software-engineer');
   });
 
   test('returns empty array when no pending purchases', async () => {
