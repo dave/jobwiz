@@ -1,0 +1,79 @@
+{
+  "slug": "role-management-consultant",
+  "type": "role",
+  "title": "Management Consultant Interview Guide",
+  "description": "Master case interviews and demonstrate structured problem-solving.",
+  "role_slug": "management-consultant",
+  "is_premium": false,
+  "display_order": 20,
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Role Overview",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {"text": "Management Consulting interviews are among the most rigorous. You'll face case interviews testing structured thinking, fit interviews assessing cultural alignment, and often group exercises or presentations."}
+        },
+        {
+          "type": "text",
+          "content": {"text": "**What interviewers assess:**\n\n- Structured problem-solving (case interviews)\n- Quantitative and analytical skills\n- Communication and executive presence\n- Leadership and teamwork\n- Cultural fit and motivation"}
+        }
+      ]
+    },
+    {
+      "id": "format",
+      "title": "Common Interview Format",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {"text": "**Typical consulting interview loop:**\n\n- **First round** (2-3 interviews):\n  - Case interview + fit questions\n  - May include written case or math test\n\n- **Final round** (3-4 interviews):\n  - Partner/principal case interviews\n  - Deeper fit/behavioral discussions\n  - Sometimes group case or presentation"}
+        },
+        {
+          "type": "tip",
+          "content": {"text": "Practice 50+ cases before interviews. Case performance improves dramatically with practice—there's no substitute for reps."}
+        }
+      ]
+    },
+    {
+      "id": "competencies",
+      "title": "Key Competencies",
+      "blocks": [
+        {
+          "type": "checklist",
+          "content": {
+            "title": "Consulting Skills to Demonstrate",
+            "items": [
+              {"id": "c1", "text": "Structured problem-solving frameworks", "required": true},
+              {"id": "c2", "text": "Quantitative analysis and mental math", "required": true},
+              {"id": "c3", "text": "Hypothesis-driven thinking", "required": true},
+              {"id": "c4", "text": "Clear, concise communication", "required": true},
+              {"id": "c5", "text": "Synthesis and recommendation skills", "required": true},
+              {"id": "c6", "text": "Leadership and teamwork examples", "required": true}
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "preparation",
+      "title": "Preparation Checklist",
+      "blocks": [
+        {
+          "type": "checklist",
+          "content": {
+            "title": "Before Your Interview",
+            "items": [
+              {"id": "p1", "text": "Practice 50+ case interviews with partners", "required": true},
+              {"id": "p2", "text": "Master mental math (percentages, growth rates)", "required": true},
+              {"id": "p3", "text": "Prepare compelling fit stories (leadership, teamwork, etc.)", "required": true},
+              {"id": "p4", "text": "Research the specific firm's culture and cases", "required": true},
+              {"id": "p5", "text": "Practice 2-minute personal pitch", "required": true},
+              {"id": "p6", "text": "Review business fundamentals and current events", "required": true}
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

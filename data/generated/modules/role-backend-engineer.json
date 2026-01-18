@@ -1,0 +1,79 @@
+{
+  "slug": "role-backend-engineer",
+  "type": "role",
+  "title": "Backend Engineer Interview Guide",
+  "description": "Prepare for APIs, databases, and distributed systems interviews.",
+  "role_slug": "backend-engineer",
+  "is_premium": false,
+  "display_order": 8,
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Role Overview",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {"text": "Backend interviews focus on server-side programming, database design, API architecture, and distributed systems. You'll face coding challenges, system design questions, and deep dives into scalability."}
+        },
+        {
+          "type": "text",
+          "content": {"text": "**What interviewers assess:**\n\n- Server-side programming proficiency\n- Database design and optimization\n- API design principles\n- Distributed systems concepts\n- Performance and scalability thinking"}
+        }
+      ]
+    },
+    {
+      "id": "format",
+      "title": "Common Interview Format",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {"text": "**Typical backend interview loop:**\n\n1. **Recruiter screen** (30 min)\n2. **Technical phone screen** (45-60 min) - Coding problem\n3. **Onsite/Virtual loop** (4-5 hours):\n   - Coding rounds (algorithms, data structures)\n   - System design round\n   - API/database design round\n   - Behavioral round"}
+        },
+        {
+          "type": "tip",
+          "content": {"text": "In system design, always discuss trade-offs. There's no perfect solution—show you understand the implications of your choices."}
+        }
+      ]
+    },
+    {
+      "id": "competencies",
+      "title": "Key Competencies",
+      "blocks": [
+        {
+          "type": "checklist",
+          "content": {
+            "title": "Technical Areas to Review",
+            "items": [
+              {"id": "c1", "text": "Data structures and algorithms", "required": true},
+              {"id": "c2", "text": "SQL and database design (indexing, normalization)", "required": true},
+              {"id": "c3", "text": "REST API design principles", "required": true},
+              {"id": "c4", "text": "Caching strategies (Redis, Memcached)", "required": true},
+              {"id": "c5", "text": "Message queues and async processing", "required": true},
+              {"id": "c6", "text": "Distributed systems (CAP theorem, consistency models)", "required": true}
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "preparation",
+      "title": "Preparation Checklist",
+      "blocks": [
+        {
+          "type": "checklist",
+          "content": {
+            "title": "Before Your Interview",
+            "items": [
+              {"id": "p1", "text": "Practice LeetCode medium/hard problems", "required": true},
+              {"id": "p2", "text": "Review system design patterns (load balancing, sharding, etc.)", "required": true},
+              {"id": "p3", "text": "Brush up on SQL and database optimization", "required": true},
+              {"id": "p4", "text": "Understand caching strategies and trade-offs", "required": true},
+              {"id": "p5", "text": "Review distributed systems fundamentals", "required": true},
+              {"id": "p6", "text": "Prepare to discuss past backend projects in depth", "required": true}
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

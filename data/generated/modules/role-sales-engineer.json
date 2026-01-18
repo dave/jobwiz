@@ -1,0 +1,79 @@
+{
+  "slug": "role-sales-engineer",
+  "type": "role",
+  "title": "Sales Engineer Interview Guide",
+  "description": "Blend technical expertise with sales acumen in your interviews.",
+  "role_slug": "sales-engineer",
+  "is_premium": false,
+  "display_order": 13,
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Role Overview",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {"text": "Sales Engineer interviews evaluate your ability to bridge technical and sales worlds. You need to demo products, handle technical objections, and build credibility with technical buyers—all while supporting sales goals."}
+        },
+        {
+          "type": "text",
+          "content": {"text": "**What interviewers assess:**\n\n- Technical knowledge of the product/domain\n- Demo and presentation skills\n- Handling technical objections\n- Customer relationship building\n- Collaboration with sales teams"}
+        }
+      ]
+    },
+    {
+      "id": "format",
+      "title": "Common Interview Format",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {"text": "**Typical SE interview loop:**\n\n1. **Recruiter screen** (30 min)\n2. **Hiring manager screen** (60 min)\n3. **Onsite/Virtual loop** (4-5 hours):\n   - Technical assessment\n   - Demo/presentation to mock customer\n   - Sales scenario role play\n   - Behavioral round"}
+        },
+        {
+          "type": "tip",
+          "content": {"text": "Your demo presentation is often the most important round. Practice until it's polished, but leave room to adapt based on 'customer' questions."}
+        }
+      ]
+    },
+    {
+      "id": "competencies",
+      "title": "Key Competencies",
+      "blocks": [
+        {
+          "type": "checklist",
+          "content": {
+            "title": "Skills to Demonstrate",
+            "items": [
+              {"id": "c1", "text": "Product knowledge and demo skills", "required": true},
+              {"id": "c2", "text": "Technical problem-solving with customers", "required": true},
+              {"id": "c3", "text": "Objection handling and competitive positioning", "required": true},
+              {"id": "c4", "text": "Requirements discovery and qualification", "required": true},
+              {"id": "c5", "text": "Presentation and communication skills", "required": true},
+              {"id": "c6", "text": "Sales process and CRM familiarity", "required": true}
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "preparation",
+      "title": "Preparation Checklist",
+      "blocks": [
+        {
+          "type": "checklist",
+          "content": {
+            "title": "Before Your Interview",
+            "items": [
+              {"id": "p1", "text": "Learn the product inside and out (sign up for trial)", "required": true},
+              {"id": "p2", "text": "Prepare a compelling demo narrative", "required": true},
+              {"id": "p3", "text": "Research competitors and differentiation", "required": true},
+              {"id": "p4", "text": "Prepare for technical deep-dive questions", "required": true},
+              {"id": "p5", "text": "Practice handling common objections", "required": true},
+              {"id": "p6", "text": "Have customer success stories ready", "required": true}
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

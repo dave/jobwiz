@@ -1,0 +1,79 @@
+{
+  "slug": "role-security-engineer",
+  "type": "role",
+  "title": "Security Engineer Interview Guide",
+  "description": "Demonstrate security expertise across applications and infrastructure.",
+  "role_slug": "security-engineer",
+  "is_premium": false,
+  "display_order": 18,
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Role Overview",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {"text": "Security Engineer interviews assess your knowledge of security principles, threat modeling, and ability to secure systems across the stack. Expect technical deep dives, scenario-based questions, and discussions about security culture."}
+        },
+        {
+          "type": "text",
+          "content": {"text": "**What interviewers assess:**\n\n- Security fundamentals and best practices\n- Threat modeling and risk assessment\n- Application and infrastructure security\n- Incident response experience\n- Security tooling and automation"}
+        }
+      ]
+    },
+    {
+      "id": "format",
+      "title": "Common Interview Format",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {"text": "**Typical security interview loop:**\n\n1. **Recruiter screen** (30 min)\n2. **Technical phone screen** (60 min) - Security concepts or coding\n3. **Onsite/Virtual loop** (4-5 hours):\n   - Security architecture/design round\n   - Threat modeling exercise\n   - Coding/automation round\n   - Incident response scenario\n   - Behavioral round"}
+        },
+        {
+          "type": "tip",
+          "content": {"text": "Security interviews often include 'How would you attack X?' questions. Show you can think like an attacker while maintaining ethical boundaries."}
+        }
+      ]
+    },
+    {
+      "id": "competencies",
+      "title": "Key Competencies",
+      "blocks": [
+        {
+          "type": "checklist",
+          "content": {
+            "title": "Security Skills to Demonstrate",
+            "items": [
+              {"id": "c1", "text": "OWASP Top 10 and application security", "required": true},
+              {"id": "c2", "text": "Network security and infrastructure hardening", "required": true},
+              {"id": "c3", "text": "Authentication and authorization systems", "required": true},
+              {"id": "c4", "text": "Cryptography fundamentals", "required": true},
+              {"id": "c5", "text": "Security tooling (SIEM, vulnerability scanners)", "required": true},
+              {"id": "c6", "text": "Incident response and forensics", "required": true}
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "preparation",
+      "title": "Preparation Checklist",
+      "blocks": [
+        {
+          "type": "checklist",
+          "content": {
+            "title": "Before Your Interview",
+            "items": [
+              {"id": "p1", "text": "Review OWASP Top 10 and common vulnerabilities", "required": true},
+              {"id": "p2", "text": "Practice threat modeling frameworks (STRIDE, etc.)", "required": true},
+              {"id": "p3", "text": "Brush up on networking and cryptography", "required": true},
+              {"id": "p4", "text": "Prepare incident response stories with lessons learned", "required": true},
+              {"id": "p5", "text": "Review the company's security posture if possible", "required": true},
+              {"id": "p6", "text": "Practice secure code review exercises", "required": true}
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

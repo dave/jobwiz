@@ -1,0 +1,79 @@
+{
+  "slug": "role-qa-engineer",
+  "type": "role",
+  "title": "QA Engineer Interview Guide",
+  "description": "Demonstrate testing expertise and quality advocacy.",
+  "role_slug": "qa-engineer",
+  "is_premium": false,
+  "display_order": 17,
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Role Overview",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {"text": "QA Engineer interviews assess your testing methodology, automation skills, and ability to be a quality advocate within development teams. Modern QA roles increasingly require coding and automation expertise."}
+        },
+        {
+          "type": "text",
+          "content": {"text": "**What interviewers assess:**\n\n- Testing methodologies and strategies\n- Test automation skills\n- Bug identification and reproduction\n- Quality process improvement\n- Collaboration with developers"}
+        }
+      ]
+    },
+    {
+      "id": "format",
+      "title": "Common Interview Format",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {"text": "**Typical QA interview loop:**\n\n1. **Recruiter screen** (30 min)\n2. **Technical phone screen** (60 min) - Testing scenarios or automation\n3. **Onsite/Virtual loop** (4-5 hours):\n   - Test case design exercise\n   - Automation/coding round\n   - Bug investigation scenario\n   - Behavioral round"}
+        },
+        {
+          "type": "tip",
+          "content": {"text": "When given a feature to test, think beyond happy paths. Edge cases, error handling, security, and performance are where bugs hide."}
+        }
+      ]
+    },
+    {
+      "id": "competencies",
+      "title": "Key Competencies",
+      "blocks": [
+        {
+          "type": "checklist",
+          "content": {
+            "title": "QA Skills to Demonstrate",
+            "items": [
+              {"id": "c1", "text": "Test planning and strategy", "required": true},
+              {"id": "c2", "text": "Test automation frameworks (Selenium, Cypress, etc.)", "required": true},
+              {"id": "c3", "text": "API testing tools and techniques", "required": true},
+              {"id": "c4", "text": "Performance and load testing", "required": false},
+              {"id": "c5", "text": "CI/CD integration for testing", "required": true},
+              {"id": "c6", "text": "Bug reporting and tracking", "required": true}
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "preparation",
+      "title": "Preparation Checklist",
+      "blocks": [
+        {
+          "type": "checklist",
+          "content": {
+            "title": "Before Your Interview",
+            "items": [
+              {"id": "p1", "text": "Practice designing test cases for common scenarios", "required": true},
+              {"id": "p2", "text": "Review automation framework fundamentals", "required": true},
+              {"id": "p3", "text": "Brush up on coding skills (test automation requires it)", "required": true},
+              {"id": "p4", "text": "Prepare examples of bugs you've found and their impact", "required": true},
+              {"id": "p5", "text": "Review the company's products and find potential test areas", "required": true},
+              {"id": "p6", "text": "Prepare stories about quality improvements you've driven", "required": true}
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

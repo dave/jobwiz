@@ -1,0 +1,79 @@
+{
+  "slug": "role-product-manager",
+  "type": "role",
+  "title": "Product Manager Interview Guide",
+  "description": "Navigate product sense, execution, and leadership questions.",
+  "role_slug": "product-manager",
+  "is_premium": false,
+  "display_order": 1,
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Role Overview",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {"text": "PM interviews assess your ability to identify user problems, prioritize ruthlessly, work cross-functionally, and drive results. You'll face product design questions, metrics/analysis, strategy, and behavioral rounds."}
+        },
+        {
+          "type": "text",
+          "content": {"text": "**What interviewers assess:**\n\n- Product sense and user empathy\n- Analytical thinking and metrics intuition\n- Prioritization and trade-off decisions\n- Communication and influence without authority\n- Technical understanding (varies by company)"}
+        }
+      ]
+    },
+    {
+      "id": "format",
+      "title": "Common Interview Format",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {"text": "**Typical PM interview loop:**\n\n1. **Recruiter screen** (30 min)\n2. **Hiring manager screen** (45-60 min) - Background, role fit\n3. **Onsite/Virtual loop** (4-5 hours):\n   - Product sense/design round\n   - Analytical/metrics round\n   - Strategy/estimation round\n   - Behavioral/leadership round\n   - Technical (some companies)"}
+        },
+        {
+          "type": "tip",
+          "content": {"text": "Always start product questions by clarifying the user and their goals. Jumping to solutions without understanding the problem is a red flag."}
+        }
+      ]
+    },
+    {
+      "id": "competencies",
+      "title": "Key Competencies",
+      "blocks": [
+        {
+          "type": "checklist",
+          "content": {
+            "title": "PM Skills to Demonstrate",
+            "items": [
+              {"id": "c1", "text": "User-centric thinking - Start with user needs", "required": true},
+              {"id": "c2", "text": "Structured frameworks - Organize your thinking", "required": true},
+              {"id": "c3", "text": "Prioritization - Say no to good ideas for great ones", "required": true},
+              {"id": "c4", "text": "Metrics definition - Know how to measure success", "required": true},
+              {"id": "c5", "text": "Technical communication - Translate between business and engineering", "required": true},
+              {"id": "c6", "text": "Stakeholder management - Influence without authority", "required": true}
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "preparation",
+      "title": "Preparation Checklist",
+      "blocks": [
+        {
+          "type": "checklist",
+          "content": {
+            "title": "Before Your Interview",
+            "items": [
+              {"id": "p1", "text": "Practice product design questions (improve X, design Y for Z)", "required": true},
+              {"id": "p2", "text": "Prepare metrics for common products (social, e-commerce, etc.)", "required": true},
+              {"id": "p3", "text": "Review estimation techniques for market sizing", "required": true},
+              {"id": "p4", "text": "Prepare STAR stories showing leadership and influence", "required": true},
+              {"id": "p5", "text": "Use the company's products extensively", "required": true},
+              {"id": "p6", "text": "Read Cracking the PM Interview or Decode and Conquer", "required": false}
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

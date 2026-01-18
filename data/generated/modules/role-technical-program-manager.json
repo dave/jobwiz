@@ -1,0 +1,79 @@
+{
+  "slug": "role-technical-program-manager",
+  "type": "role",
+  "title": "Technical Program Manager Interview Guide",
+  "description": "Show your ability to drive complex technical programs across teams.",
+  "role_slug": "technical-program-manager",
+  "is_premium": false,
+  "display_order": 5,
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Role Overview",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {"text": "TPM interviews assess your ability to drive complex, cross-functional technical programs. You need to demonstrate technical depth, organizational skills, and the ability to influence without direct authority."}
+        },
+        {
+          "type": "text",
+          "content": {"text": "**What interviewers assess:**\n\n- Program management and execution\n- Technical understanding and credibility\n- Stakeholder management and communication\n- Risk identification and mitigation\n- Problem-solving under ambiguity"}
+        }
+      ]
+    },
+    {
+      "id": "format",
+      "title": "Common Interview Format",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {"text": "**Typical TPM interview loop:**\n\n1. **Recruiter screen** (30 min)\n2. **Hiring manager screen** (60 min)\n3. **Onsite/Virtual loop** (4-5 hours):\n   - Program management scenario round\n   - Technical depth round\n   - Stakeholder management round\n   - Behavioral/leadership round"}
+        },
+        {
+          "type": "tip",
+          "content": {"text": "Be ready to walk through a complex program you managed end-to-end. Include timeline, dependencies, risks, stakeholders, and how you tracked progress."}
+        }
+      ]
+    },
+    {
+      "id": "competencies",
+      "title": "Key Competencies",
+      "blocks": [
+        {
+          "type": "checklist",
+          "content": {
+            "title": "TPM Skills to Demonstrate",
+            "items": [
+              {"id": "c1", "text": "Program planning and roadmapping", "required": true},
+              {"id": "c2", "text": "Technical architecture understanding", "required": true},
+              {"id": "c3", "text": "Cross-team coordination and influence", "required": true},
+              {"id": "c4", "text": "Risk management and contingency planning", "required": true},
+              {"id": "c5", "text": "Executive communication and status reporting", "required": true},
+              {"id": "c6", "text": "Process improvement and efficiency", "required": true}
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "preparation",
+      "title": "Preparation Checklist",
+      "blocks": [
+        {
+          "type": "checklist",
+          "content": {
+            "title": "Before Your Interview",
+            "items": [
+              {"id": "p1", "text": "Prepare 2-3 detailed program case studies", "required": true},
+              {"id": "p2", "text": "Quantify program scope, timeline, and impact", "required": true},
+              {"id": "p3", "text": "Review technical concepts relevant to the team", "required": true},
+              {"id": "p4", "text": "Prepare examples of stakeholder conflict resolution", "required": true},
+              {"id": "p5", "text": "Practice explaining technical concepts simply", "required": true},
+              {"id": "p6", "text": "Have examples of programs that went wrong and how you recovered", "required": true}
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
