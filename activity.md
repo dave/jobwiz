@@ -2,13 +2,13 @@
 
 ## Current Status
 **Last Updated:** 2026-01-18
-**Tasks Completed:** 41
+**Tasks Completed:** 42
 **Stage 1:** COMPLETE (All 4 issues closed)
 **Stage 2:** COMPLETE (All 4 issues closed: #7, #8, #9, #10)
 **Stage 3:** COMPLETE (All 3 issues closed: #4, #5, #19)
 **Stage 4:** COMPLETE (All issues closed: #14, #11, #12, #13, #15, #16, #18)
-**Stage 5:** IN PROGRESS (#20 closed, #21 closed, #22 closed, #24 in progress - sub-issues #41, #42, #43, #44 complete)
-**Current Task:** #44 AB test dashboard - COMPLETE
+**Stage 5:** IN PROGRESS (#20 closed, #21 closed, #22 closed, #24 closed, #25 open, #23 open)
+**Current Task:** #24 AB test infrastructure - CLOSED
 
 ---
 
@@ -2122,3 +2122,27 @@ All Stage 1 (Foundation) issues are now closed:
 
 **Screenshot:**
 - `screenshots/44-ab-dashboard-loading.png` - AB test dashboard UI
+
+### 2026-01-18 - Issue #24: AB test infrastructure (Parent Issue)
+
+**Status:** CLOSED - All sub-issues complete
+
+**Summary:**
+Parent issue #24 for AB test infrastructure has been closed. All 4 sub-issues were previously completed:
+- #41 - User bucketing system (CLOSED)
+- #42 - Variant assignment + storage (CLOSED)
+- #43 - Conversion tracking events (CLOSED)
+- #44 - AB test dashboard (CLOSED)
+
+**Definition of Done Verified:**
+1. ✅ Users consistently bucketed (same user = same variant)
+2. ✅ PaywallGate accepts variant prop for rendering
+3. ✅ All PostHog events include variant property
+4. ✅ AB test dashboard at `/admin/ab-testing` with statistical significance
+5. ✅ All sub-issues completed
+
+**Verification:**
+- `npm run lint` - passes with no errors
+- `npm run build` - successful production build
+- `npm test` - 1852 passed, 2 todo
+- AB Testing tests: 295 passed
