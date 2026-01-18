@@ -3,6 +3,9 @@
  * Issue: #117 - Freemium model with paywall
  */
 import { NextRequest, NextResponse } from 'next/server';
+
+// Force dynamic rendering (uses request.url)
+export const dynamic = 'force-dynamic';
 import { createServerClient } from '@supabase/ssr';
 import { cookies } from 'next/headers';
 import { checkAccess } from '@/lib/access';

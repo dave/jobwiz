@@ -2,6 +2,9 @@
  * GET /api/checkout/session - Retrieve Stripe Checkout session
  */
 import { NextRequest, NextResponse } from 'next/server';
+
+// Force dynamic rendering (uses searchParams)
+export const dynamic = 'force-dynamic';
 import { getCheckoutSession } from '@/lib/stripe';
 import type { CheckoutErrorResponse, CheckoutSessionData } from '@/lib/stripe';
 
