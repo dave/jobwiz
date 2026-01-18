@@ -1,0 +1,63 @@
+{
+  "name": "{role} Interview Prep",
+  "moduleType": "role",
+  "description": "Role-specific interview preparation for {role} positions",
+  "sections": [
+    {
+      "title": "Role Overview",
+      "blockTypes": ["header", "text", "infographic"],
+      "required": true,
+      "estimatedWordCount": 300,
+      "exampleContent": "The {Role} Role\n\nA {Role} is responsible for core functions. Companies hire {Role}s for specific business value. Career path and market insights."
+    },
+    {
+      "title": "Skills & Competencies",
+      "blockTypes": ["header", "text", "checklist", "tip"],
+      "required": true,
+      "estimatedWordCount": 400,
+      "exampleContent": "What {Role}s Need\n\nInterviewers assess both hard and soft skills. Technical skills with why they matter, soft skills with how they're evaluated."
+    },
+    {
+      "title": "Common Interview Formats",
+      "blockTypes": ["header", "text", "infographic", "warning"],
+      "required": true,
+      "estimatedWordCount": 350,
+      "exampleContent": "How {Role} Interviews Work\n\nTypical interview types for this role, what happens in each, and how to prepare."
+    },
+    {
+      "title": "Role-Specific Questions",
+      "blockTypes": ["header", "text", "tip", "quiz"],
+      "required": true,
+      "estimatedWordCount": 600,
+      "exampleContent": "Questions Every {Role} Should Master\n\nRole-specific questions with psychological insight into what interviewers are really asking."
+    },
+    {
+      "title": "Technical/Domain Assessment",
+      "blockTypes": ["header", "text", "video", "checklist", "tip"],
+      "required": true,
+      "estimatedWordCount": 500,
+      "exampleContent": "Acing the {Role} Assessment\n\nWhat to expect in role-specific technical evaluations. Preparation checklist and evaluation criteria."
+    },
+    {
+      "title": "Behavioral Questions for {Role}",
+      "blockTypes": ["header", "text", "tip"],
+      "required": true,
+      "estimatedWordCount": 400,
+      "exampleContent": "Behavioral Questions with a {Role} Twist\n\nHow STAR method applies specifically to this role. Common behavioral themes and how to prepare."
+    },
+    {
+      "title": "Salary & Negotiation",
+      "blockTypes": ["header", "text", "tip", "warning"],
+      "required": false,
+      "estimatedWordCount": 300,
+      "exampleContent": "Compensation for {Role}s\n\nRole-specific compensation context by level and location. Negotiation tips."
+    },
+    {
+      "title": "Portfolio/Work Samples",
+      "blockTypes": ["header", "text", "checklist", "tip"],
+      "required": false,
+      "estimatedWordCount": 300,
+      "exampleContent": "Showcasing Your {Role} Work\n\nHow to present previous work if applicable. What to prepare and how to frame it."
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "name": "Universal Interview Prep",
+  "moduleType": "universal",
+  "description": "Core interview preparation content applicable to all positions",
+  "sections": [
+    {
+      "title": "Introduction",
+      "blockTypes": ["header", "text", "video"],
+      "required": true,
+      "estimatedWordCount": 200,
+      "exampleContent": "Welcome to Your Interview Journey\n\nCongratulations on taking this important step toward landing your dream job. Whether you're a first-time interviewer or a seasoned professional, this guide will help you present your best self.\n\nIn the next few sections, we'll cover the fundamentals that apply to every interview, regardless of company or role. These timeless principles will serve as your foundation."
+    },
+    {
+      "title": "Understanding the Interview Process",
+      "blockTypes": ["header", "text", "infographic", "tip"],
+      "required": true,
+      "estimatedWordCount": 400,
+      "exampleContent": "How Interviews Actually Work\n\nMost companies follow a similar pattern: screening call, technical or skill assessment, behavioral interviews, and final rounds. Understanding this flow helps you prepare strategically."
+    },
+    {
+      "title": "First Impressions",
+      "blockTypes": ["header", "text", "video", "checklist"],
+      "required": true,
+      "estimatedWordCount": 350,
+      "exampleContent": "The First 5 Minutes Matter Most\n\nResearch shows interviewers often form initial impressions within the first few minutes. Here's how to start strong."
+    },
+    {
+      "title": "Behavioral Questions 101",
+      "blockTypes": ["header", "text", "quote", "tip", "quiz"],
+      "required": true,
+      "estimatedWordCount": 500,
+      "exampleContent": "The STAR Method: Your Answer Framework\n\nBehavioral questions (Tell me about a time when...) are universal. The STAR method helps you structure compelling answers."
+    },
+    {
+      "title": "Common Pitfalls",
+      "blockTypes": ["header", "text", "warning", "checklist"],
+      "required": true,
+      "estimatedWordCount": 300,
+      "exampleContent": "Avoid These Interview Killers\n\nEven strong candidates fail interviews by making preventable mistakes."
+    },
+    {
+      "title": "Questions to Ask",
+      "blockTypes": ["header", "text", "tip", "checklist"],
+      "required": true,
+      "estimatedWordCount": 300,
+      "exampleContent": "Questions That Impress\n\nYour questions reveal as much about you as your answers. Ask questions that show you've done your homework."
+    },
+    {
+      "title": "Following Up",
+      "blockTypes": ["header", "text", "tip"],
+      "required": true,
+      "estimatedWordCount": 200,
+      "exampleContent": "After the Interview\n\nSend a thank-you email within 24 hours. Keep it brief, reference something specific from your conversation, and reiterate your interest."
+    },
+    {
+      "title": "Handling Rejection",
+      "blockTypes": ["header", "text", "quote"],
+      "required": false,
+      "estimatedWordCount": 150,
+      "exampleContent": "When You Don't Get the Offer\n\nRejection stings, but it's part of the process. Every no brings you closer to the right yes."
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "name": "{company} Interview Prep",
+  "moduleType": "company",
+  "description": "Company-specific interview preparation for {company}",
+  "sections": [
+    {
+      "title": "Company Overview",
+      "blockTypes": ["header", "text", "infographic"],
+      "required": true,
+      "estimatedWordCount": 300,
+      "exampleContent": "About {Company}\n\nFounded in {year} by {founders}, {Company} has grown to become a leader in their industry. Quick facts about founding, size, mission, and recent news."
+    },
+    {
+      "title": "Company Culture & Values",
+      "blockTypes": ["header", "text", "quote", "video"],
+      "required": true,
+      "estimatedWordCount": 400,
+      "exampleContent": "What {Company} Looks For\n\nThe company's core values and how they manifest in the hiring process. What this means for interview answers."
+    },
+    {
+      "title": "Interview Process",
+      "blockTypes": ["header", "text", "infographic", "tip", "checklist"],
+      "required": true,
+      "estimatedWordCount": 350,
+      "exampleContent": "{Company}'s Interview Process\n\nBased on candidate reports, here's what to expect at each stage from recruiter screen to final decision."
+    },
+    {
+      "title": "What Interviewers Really Want",
+      "blockTypes": ["header", "text", "tip", "warning"],
+      "required": true,
+      "estimatedWordCount": 400,
+      "exampleContent": "Inside the Interviewer's Mind at {Company}\n\nPsychology behind what interviewers are assessing at this company. Specific competencies they evaluate."
+    },
+    {
+      "title": "Common Questions at {Company}",
+      "blockTypes": ["header", "text", "quiz"],
+      "required": true,
+      "estimatedWordCount": 500,
+      "exampleContent": "Questions You'll Likely Face at {Company}\n\nBased on Glassdoor reports and candidate feedback, these questions come up repeatedly."
+    },
+    {
+      "title": "{Company} Trivia",
+      "blockTypes": ["header", "text", "quiz"],
+      "required": false,
+      "estimatedWordCount": 200,
+      "exampleContent": "Know Your {Company} Facts\n\nFun facts that demonstrate you've done your homework. Founder stories, interesting product facts, recent achievements."
+    },
+    {
+      "title": "Red Flags & Deal Breakers",
+      "blockTypes": ["header", "text", "warning", "checklist"],
+      "required": true,
+      "estimatedWordCount": 250,
+      "exampleContent": "What Gets You Rejected at {Company}\n\nEvery company has its pet peeves. Common rejection reasons specific to this company."
+    },
+    {
+      "title": "Insider Tips",
+      "blockTypes": ["header", "text", "tip", "quote"],
+      "required": true,
+      "estimatedWordCount": 300,
+      "exampleContent": "From Those Who've Been There\n\nAdvice from successful candidates and employees. Tactical tips that worked for others."
+    }
+  ]
+}

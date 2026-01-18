@@ -1,0 +1,70 @@
+{
+  "name": "{company} {role} Interview Prep",
+  "moduleType": "combined",
+  "description": "Specific interview preparation for {role} positions at {company}",
+  "sections": [
+    {
+      "title": "The {Role} at {Company}",
+      "blockTypes": ["header", "text", "infographic"],
+      "required": true,
+      "estimatedWordCount": 350,
+      "exampleContent": "Being a {Role} at {Company}\n\nWhat makes this specific role at this specific company unique. Team structure, scope, and impact."
+    },
+    {
+      "title": "The Interview Bar",
+      "blockTypes": ["header", "text", "warning", "tip"],
+      "required": true,
+      "estimatedWordCount": 400,
+      "exampleContent": "What {Company} Wants in a {Role}\n\nSpecific skills and traits {Company} looks for in {Role} candidates. Must-haves and differentiators."
+    },
+    {
+      "title": "The {Role} Interview Loop at {Company}",
+      "blockTypes": ["header", "text", "infographic", "checklist", "tip"],
+      "required": true,
+      "estimatedWordCount": 450,
+      "exampleContent": "Your {Company} {Role} Interview Journey\n\nStep-by-step breakdown of the interview process. Each round with interviewer, focus, and prep."
+    },
+    {
+      "title": "Technical/Skills Assessment",
+      "blockTypes": ["header", "text", "video", "tip", "warning"],
+      "required": true,
+      "estimatedWordCount": 500,
+      "exampleContent": "The {Company} {Role} Assessment\n\nExact format and expectations for skill evaluation. What they're looking for and evaluation rubric."
+    },
+    {
+      "title": "{Company}-Specific {Role} Questions",
+      "blockTypes": ["header", "text", "quiz", "tip"],
+      "required": true,
+      "estimatedWordCount": 600,
+      "exampleContent": "Questions {Company} Asks {Role}s\n\nQuestions that specifically come up for this role at this company. Psychology behind each question."
+    },
+    {
+      "title": "Behavioral Expectations",
+      "blockTypes": ["header", "text", "tip", "quote"],
+      "required": true,
+      "estimatedWordCount": 400,
+      "exampleContent": "Behavioral Questions for {Role}s at {Company}\n\nHow company values and role responsibilities intersect in interviews."
+    },
+    {
+      "title": "Salary & Leveling",
+      "blockTypes": ["header", "text", "tip", "warning"],
+      "required": false,
+      "estimatedWordCount": 350,
+      "exampleContent": "{Role} Compensation at {Company}\n\nCompensation by level including base, equity, and bonus. Negotiation context."
+    },
+    {
+      "title": "Success Stories",
+      "blockTypes": ["header", "text", "quote"],
+      "required": false,
+      "estimatedWordCount": 250,
+      "exampleContent": "How Others Got the {Role} Job at {Company}\n\nInsights from successful candidates. Common themes and advice."
+    },
+    {
+      "title": "Red Flags & Rejection Patterns",
+      "blockTypes": ["header", "text", "warning", "checklist"],
+      "required": true,
+      "estimatedWordCount": 300,
+      "exampleContent": "Why {Role} Candidates Get Rejected at {Company}\n\nSpecific reasons candidates fail and what cultural rejection means here."
+    }
+  ]
+}
