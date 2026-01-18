@@ -9,6 +9,8 @@ export interface TimelineProps {
   className?: string;
   /** Whether clicking on steps is enabled */
   interactive?: boolean;
+  /** Timeline orientation - vertical (default) or horizontal */
+  orientation?: "vertical" | "horizontal";
 }
 
 function getStepStatus(
@@ -67,7 +69,7 @@ function StatusIcon({ status }: { status: StepStatus }) {
   }
 }
 
-export function Timeline({ className, interactive = true }: TimelineProps) {
+export function Timeline({ className, interactive = true, orientation = "vertical" }: TimelineProps) {
   const {
     config,
     currentStepIndex,
@@ -76,13 +78,17 @@ export function Timeline({ className, interactive = true }: TimelineProps) {
   } = useJourney();
 
   const paywallPosition = config.paywallConfig?.position;
+  const isHorizontal = orientation === "horizontal";
 
   return (
     <nav
       className={cn("w-full", className)}
       aria-label="Journey timeline"
     >
-      <ol className="flex flex-col space-y-1">
+      <ul className={cn(
+        "flex",
+        isHorizontal ? "flex-row space-x-4 overflow-x-auto" : "flex-col space-y-1"
+      )}>
         {config.steps.map((step, index) => {
           const status = getStepStatus(
             index,
@@ -98,9 +104,15 @@ export function Timeline({ className, interactive = true }: TimelineProps) {
             (status === "completed" || index <= currentStepIndex);
 
           return (
-            <li key={step.id} className="flex items-start">
+            <li key={step.id} className={cn(
+              "flex",
+              isHorizontal ? "flex-col items-center" : "items-start"
+            )}>
               {/* Step indicator */}
-              <div className="flex flex-col items-center mr-3">
+              <div className={cn(
+                "flex items-center",
+                isHorizontal ? "flex-row" : "flex-col mr-3"
+              )}>
                 <button
                   type="button"
                   onClick={() => isClickable && goToStep(index)}
@@ -137,10 +149,10 @@ export function Timeline({ className, interactive = true }: TimelineProps) {
                 {index < config.steps.length - 1 && (
                   <div
                     className={cn(
-                      "w-0.5 h-8 mt-1",
                       completedSteps.has(step.id)
                         ? "bg-green-600"
-                        : "bg-gray-200"
+                        : "bg-gray-200",
+                      isHorizontal ? "h-0.5 w-8 ml-1" : "w-0.5 h-8 mt-1"
                     )}
                     aria-hidden="true"
                   />
@@ -148,10 +160,13 @@ export function Timeline({ className, interactive = true }: TimelineProps) {
               </div>
 
               {/* Step content */}
-              <div className="flex-1 pt-1 pb-4">
+              <div className={cn(
+                isHorizontal ? "text-center mt-2" : "flex-1 pt-1 pb-4"
+              )}>
                 <h3
                   className={cn(
                     "text-sm font-medium",
+                    isHorizontal && "truncate max-w-[80px]",
                     status === "current" && "text-blue-700",
                     status === "completed" && "text-green-700",
                     status === "upcoming" && "text-gray-600",
@@ -160,7 +175,7 @@ export function Timeline({ className, interactive = true }: TimelineProps) {
                 >
                   {step.title}
                 </h3>
-                {step.estimatedMinutes && (
+                {step.estimatedMinutes && !isHorizontal && (
                   <p className="text-xs text-gray-400 mt-0.5">
                     ~{step.estimatedMinutes} min
                   </p>
@@ -169,7 +184,7 @@ export function Timeline({ className, interactive = true }: TimelineProps) {
             </li>
           );
         })}
-      </ol>
+      </ul>
     </nav>
   );
 }
