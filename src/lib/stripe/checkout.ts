@@ -147,8 +147,13 @@ export function validateCheckoutRequest(body: unknown): { valid: true; request: 
 
   const data = body as Record<string, unknown>;
 
-  if (!data.product_id || typeof data.product_id !== 'string') {
-    return { valid: false, error: 'product_id is required and must be a string' };
+  // product_id is optional - defaults to STRIPE_SINGLE_PRODUCT_ID env var
+  const productId = typeof data.product_id === 'string'
+    ? data.product_id
+    : process.env.STRIPE_SINGLE_PRODUCT_ID;
+
+  if (!productId) {
+    return { valid: false, error: 'product_id is required (set STRIPE_SINGLE_PRODUCT_ID env var or pass in request)' };
   }
 
   if (!data.company_slug || typeof data.company_slug !== 'string') {
@@ -172,7 +177,7 @@ export function validateCheckoutRequest(body: unknown): { valid: true; request: 
   return {
     valid: true,
     request: {
-      product_id: data.product_id,
+      product_id: productId,
       company_slug: data.company_slug,
       role_slug: data.role_slug,
       success_url: typeof data.success_url === 'string' ? data.success_url : undefined,
