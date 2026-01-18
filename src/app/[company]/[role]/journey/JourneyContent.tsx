@@ -67,17 +67,25 @@ export function JourneyContent({
       });
 
       if (!res.ok) {
-        throw new Error("Failed to create checkout session");
+        const errorData = await res.json().catch(() => ({}));
+        const errorMsg = errorData.error || `Checkout failed: ${res.status}`;
+        console.error("Checkout error:", errorMsg);
+        alert(`Unable to start checkout: ${errorMsg}`);
+        return false;
       }
 
-      const { url } = await res.json();
-      if (url) {
-        window.location.href = url;
+      const data = await res.json();
+      if (data.url) {
+        window.location.href = data.url;
         return true;
       }
+
+      console.error("No checkout URL returned");
+      alert("Unable to start checkout. Please try again.");
       return false;
     } catch (error) {
       console.error("Checkout error:", error);
+      alert(`Checkout error: ${error instanceof Error ? error.message : "Unknown error"}`);
       return false;
     }
   };
