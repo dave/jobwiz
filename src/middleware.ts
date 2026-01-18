@@ -3,9 +3,10 @@
  * Issue: #57 - Protected route middleware
  *
  * Checks auth for protected routes and handles redirects:
- * - Public: /, /[company], /[company]/[role], /login, /signup
+ * - Public: /, /[company], /[company]/[role], /[company]/[role]/journey, /login, /signup
  * - Authenticated: /dashboard, /profile
- * - Purchased: /[company]/[role]/journey (premium content)
+ *
+ * Note: Journey pages are public. Premium content is gated by PaywallGate component.
  */
 
 import { type NextRequest, NextResponse } from "next/server";
@@ -15,12 +16,6 @@ import { createServerClient } from "@supabase/ssr";
  * Routes that require authentication
  */
 const AUTHENTICATED_ROUTES = ["/dashboard", "/profile"];
-
-/**
- * Routes that require a purchase (pattern-based)
- * Matches: /[company]/[role]/journey
- */
-const PURCHASED_ROUTE_PATTERN = /^\/([^\/]+)\/([^\/]+)\/journey$/;
 
 /**
  * Public routes (no auth required)
@@ -57,7 +52,13 @@ function isPublicRoute(path: string): boolean {
   }
 
   // Company/role landing page: /[company]/[role] (two segments)
-  if (segments.length === 2 && segments[1] !== "journey") {
+  if (segments.length === 2) {
+    return true;
+  }
+
+  // Journey page: /[company]/[role]/journey (three segments)
+  // Premium content is gated by PaywallGate component, not middleware
+  if (segments.length === 3 && segments[2] === "journey") {
     return true;
   }
 
@@ -69,17 +70,6 @@ function isPublicRoute(path: string): boolean {
  */
 function requiresAuth(path: string): boolean {
   return AUTHENTICATED_ROUTES.some((route) => path.startsWith(route));
-}
-
-/**
- * Check if route requires a purchase and extract company/role
- */
-function requiresPurchase(path: string): { company: string; role: string } | null {
-  const match = path.match(PURCHASED_ROUTE_PATTERN);
-  if (match && match[1] && match[2]) {
-    return { company: match[1], role: match[2] };
-  }
-  return null;
 }
 
 export async function middleware(request: NextRequest) {
@@ -133,40 +123,8 @@ export async function middleware(request: NextRequest) {
       loginUrl.searchParams.set("redirectTo", pathname);
       return NextResponse.redirect(loginUrl);
     }
-    return response;
   }
 
-  // Handle purchased routes
-  const purchaseCheck = requiresPurchase(pathname);
-  if (purchaseCheck) {
-    if (!user) {
-      // Redirect to login first
-      const loginUrl = new URL("/login", request.url);
-      loginUrl.searchParams.set("redirectTo", pathname);
-      return NextResponse.redirect(loginUrl);
-    }
-
-    // Check if user has purchased access to this content
-    const { company, role } = purchaseCheck;
-    const { data: accessGrant } = await supabase
-      .from("access_grants")
-      .select("id")
-      .eq("user_id", user.id)
-      .or(`company_slug.eq.${company},company_slug.is.null`)
-      .or(`role_slug.eq.${role},role_slug.is.null`)
-      .gte("expires_at", new Date().toISOString())
-      .maybeSingle();
-
-    if (!accessGrant) {
-      // Redirect to landing page with paywall
-      const landingUrl = new URL(`/${company}/${role}`, request.url);
-      return NextResponse.redirect(landingUrl);
-    }
-
-    return response;
-  }
-
-  // Default: allow the request
   return response;
 }
 
