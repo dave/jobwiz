@@ -2,13 +2,13 @@
 
 ## Current Status
 **Last Updated:** 2026-01-18
-**Tasks Completed:** 33
+**Tasks Completed:** 34
 **Stage 1:** COMPLETE (All 4 issues closed)
 **Stage 2:** COMPLETE (All 4 issues closed: #7, #8, #9, #10)
 **Stage 3:** COMPLETE (All 3 issues closed: #4, #5, #19)
 **Stage 4:** COMPLETE (All issues closed: #14, #11, #12, #13, #15, #16, #18)
-**Stage 5:** IN PROGRESS (#20 closed, #21 in progress - sub-issue #58 complete)
-**Current Task:** #58 User profile table schema - COMPLETE
+**Stage 5:** IN PROGRESS (#20 closed, #21 in progress - sub-issues #56, #58 complete)
+**Current Task:** #56 Auth UI components - COMPLETE
 
 ---
 
@@ -1451,6 +1451,81 @@ All Stage 4 (Content Generation) issues are now closed:
 - `npm run type-check` - profile code passes (pre-existing SEO test issues unrelated)
 - `npm run build` - successful production build
 - `npm test` - 1196 passed, 2 todo (41 new profile tests)
+
+### 2026-01-18 - Issue #56: Auth UI components
+
+**Completed:**
+- Created Auth UI components in `src/components/auth/`:
+  - `AuthForm.tsx` - Email/password form with login and signup modes
+  - `SocialLoginButtons.tsx` - Google OAuth button
+  - `MagicLinkForm.tsx` - Passwordless email sign-in
+  - `PasswordInput.tsx` - Password field with show/hide toggle
+  - `index.ts` - Re-exports
+- Created auth pages:
+  - `/login` - Login page with email/password, Google OAuth, and magic link options
+  - `/signup` - Signup page with email/password and Google OAuth
+  - `/forgot-password` - Password reset request page
+  - `/auth/callback` - OAuth redirect handler (Next.js route handler)
+- Implemented form validation:
+  - Email format validation (regex pattern)
+  - Password minimum length (8 characters)
+  - Inline error messages with role="alert"
+- Implemented UX features:
+  - Loading states during submission
+  - Show/hide password toggle
+  - Remember email checkbox
+  - Redirect to original page after login (via `redirectTo` query param)
+  - Switch between email and magic link login
+
+**Files Created:**
+- `src/components/auth/AuthForm.tsx`
+- `src/components/auth/SocialLoginButtons.tsx`
+- `src/components/auth/MagicLinkForm.tsx`
+- `src/components/auth/PasswordInput.tsx`
+- `src/components/auth/index.ts`
+- `src/app/login/page.tsx`
+- `src/app/login/LoginContent.tsx`
+- `src/app/signup/page.tsx`
+- `src/app/signup/SignupContent.tsx`
+- `src/app/forgot-password/page.tsx`
+- `src/app/forgot-password/ForgotPasswordContent.tsx`
+- `src/app/auth/callback/route.ts`
+- `src/components/auth/__tests__/AuthForm.test.tsx`
+- `src/components/auth/__tests__/SocialLoginButtons.test.tsx`
+- `src/components/auth/__tests__/MagicLinkForm.test.tsx`
+- `src/components/auth/__tests__/PasswordInput.test.tsx`
+
+**Tests:**
+- 71 unit tests covering:
+  - AuthForm (37 tests): rendering, validation, login/signup modes, loading states, error handling
+  - SocialLoginButtons (12 tests): OAuth initiation, loading states, error handling
+  - MagicLinkForm (16 tests): email validation, submission, success/error states
+  - PasswordInput (16 tests): show/hide toggle, accessibility, disabled states
+
+**Verification:**
+- `npm run lint` - passes with no errors
+- `npm run build` - successful production build
+- `npm test` - 1265 passed, 2 todo (71 new auth tests)
+- All acceptance criteria verified:
+  - /login page exists with email/password form
+  - /signup page exists with email/password form
+  - /forgot-password page exists
+  - /auth/callback handles OAuth redirect
+  - Email format validation works
+  - Password min length (8 chars) validation works
+  - Error messages displayed inline
+  - Loading states shown during submission
+  - Show/hide password toggle works
+  - Redirect to original page after login
+  - Remember email checkbox available
+  - Google OAuth button present
+
+**Screenshots:**
+- `screenshots/56-auth-ui-login.png` - Login page with all options
+- `screenshots/56-auth-ui-signup.png` - Signup page
+- `screenshots/56-auth-ui-forgot-password.png` - Password reset page
+- `screenshots/56-auth-ui-magic-link.png` - Magic link option
+- `screenshots/56-auth-ui-mobile.png` - Mobile responsive view
 
 ---
 
