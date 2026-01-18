@@ -6,6 +6,13 @@ import {
   getAllCompanySlugs,
   type CompanyData,
 } from "@/lib/routing";
+import {
+  generateCompanyMetadata,
+  generate404Metadata,
+  generateOrganizationSchema,
+  generateCompanyBreadcrumbs,
+} from "@/lib/seo";
+import { JsonLd } from "@/components/seo";
 
 interface CompanyPageProps {
   params: Promise<{
@@ -31,19 +38,11 @@ export async function generateMetadata({
   const result = validateCompanyRoute(companySlug);
 
   if (!result.isValid || !result.company) {
-    return {
-      title: "Company Not Found | JobWiz",
-    };
+    return generate404Metadata();
   }
 
-  const company = result.company;
-  return {
-    title: `${company.name} Interview Prep | JobWiz`,
-    description: `Prepare for your ${company.name} interview with role-specific guides, practice questions, and insider tips.`,
-    alternates: {
-      canonical: result.canonicalPath ?? undefined,
-    },
-  };
+  const { company, canonicalPath } = result;
+  return generateCompanyMetadata(company, canonicalPath ?? `/${company.slug}`);
 }
 
 function RoleCard({
@@ -85,54 +84,71 @@ export default async function CompanyPage({ params }: CompanyPageProps) {
 
   const company = result.company;
 
+  // Generate structured data
+  const organizationSchema = generateOrganizationSchema();
+  const breadcrumbSchema = generateCompanyBreadcrumbs(company);
+
   return (
-    <main className="min-h-screen bg-gray-50">
-      {/* Hero Section */}
-      <section className="bg-white border-b border-gray-200">
-        <div className="max-w-4xl mx-auto px-4 py-12 sm:py-16">
-          <div className="text-center">
-            <span className="inline-block px-3 py-1 text-xs font-medium text-blue-700 bg-blue-100 rounded-full mb-4">
-              {company.category}
-            </span>
-            <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
-              {company.name} Interview Prep
-            </h1>
-            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Choose your role below to get started with personalized interview
-              preparation for {company.name}.
-            </p>
+    <>
+      {/* JSON-LD Structured Data */}
+      <JsonLd data={organizationSchema} />
+      <JsonLd data={breadcrumbSchema} />
+
+      <main className="min-h-screen bg-gray-50">
+        {/* Hero Section */}
+        <section className="bg-white border-b border-gray-200">
+          <div className="max-w-4xl mx-auto px-4 py-12 sm:py-16">
+            <div className="text-center">
+              <span className="inline-block px-3 py-1 text-xs font-medium text-blue-700 bg-blue-100 rounded-full mb-4">
+                {company.category}
+              </span>
+              <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
+                {company.name} Interview Prep
+              </h1>
+              <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+                Choose your role below to get started with personalized interview
+                preparation for {company.name}.
+              </p>
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      {/* Roles Section */}
-      <section className="max-w-4xl mx-auto px-4 py-12">
-        <h2 className="text-xl font-semibold text-gray-900 mb-6">
-          Available Roles
-        </h2>
-        <div className="grid gap-4 sm:grid-cols-2">
-          {company.roles.map((role) => (
-            <RoleCard key={role.slug} company={company} role={role} />
-          ))}
-        </div>
+        {/* Roles Section */}
+        <section className="max-w-4xl mx-auto px-4 py-12">
+          <h2 className="text-xl font-semibold text-gray-900 mb-6">
+            Available Roles
+          </h2>
+          <div className="grid gap-4 sm:grid-cols-2">
+            {company.roles.map((role) => (
+              <RoleCard key={role.slug} company={company} role={role} />
+            ))}
+          </div>
 
-        {company.roles.length === 0 && (
-          <p className="text-gray-500 text-center py-8">
-            No roles available for this company yet.
-          </p>
-        )}
-      </section>
+          {company.roles.length === 0 && (
+            <p className="text-gray-500 text-center py-8">
+              No roles available for this company yet.
+            </p>
+          )}
+        </section>
 
-      {/* Back Link */}
-      <section className="max-w-4xl mx-auto px-4 pb-12">
-        <Link
-          href="/"
-          className="text-sm text-gray-500 hover:text-gray-700 transition-colors"
-        >
-          &larr; Back to home
-        </Link>
-      </section>
-    </main>
+        {/* Breadcrumb Navigation */}
+        <section className="max-w-4xl mx-auto px-4 pb-12">
+          <nav aria-label="Breadcrumb">
+            <ol className="flex items-center gap-2 text-sm text-gray-500">
+              <li>
+                <Link href="/" className="hover:text-gray-700 transition-colors">
+                  Home
+                </Link>
+              </li>
+              <li aria-hidden="true">/</li>
+              <li>
+                <span className="text-gray-900" aria-current="page">{company.name}</span>
+              </li>
+            </ol>
+          </nav>
+        </section>
+      </main>
+    </>
   );
 }
 

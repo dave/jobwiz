@@ -7,7 +7,7 @@
 **Stage 2:** COMPLETE (All 4 issues closed: #7, #8, #9, #10)
 **Stage 3:** COMPLETE (All 3 issues closed: #4, #5, #19)
 **Stage 4:** COMPLETE (All issues closed: #14, #11, #12, #13, #15, #16, #18)
-**Stage 5:** IN PROGRESS (1 of 6 parent issues, sub-issues #33 and #34 complete)
+**Stage 5:** IN PROGRESS (1 of 6 parent issues, sub-issues #33, #34, and #35 complete)
 **Current Task:** None - Ready for next Stage 5 sub-issue
 
 ---
@@ -1276,6 +1276,80 @@ All Stage 4 (Content Generation) issues are now closed:
 
 **Screenshot:**
 - `screenshots/34-content-fetching-layer.png` - Landing page with content fetching
+
+### 2026-01-18 - Issue #35: SEO/meta tag system
+
+**Completed:**
+- Created SEO utilities library `src/lib/seo/`:
+  - `types.ts` - Type definitions for meta tags and JSON-LD schemas
+  - `metadata.ts` - Metadata generation functions for Next.js
+  - `structured-data.ts` - JSON-LD structured data generators
+  - `index.ts` - Re-exports
+- Implemented comprehensive meta tags:
+  - Title: `{Company} {Role} Interview Prep | JobWiz`
+  - Meta description: Dynamic, < 160 chars
+  - Canonical URL: Set for all pages
+  - Robots: index, follow
+- Implemented Open Graph tags:
+  - og:title, og:description, og:url, og:site_name
+  - og:image with dimensions (1200x630)
+  - og:type = website
+- Implemented Twitter Card tags:
+  - twitter:card = summary_large_image
+  - twitter:site = @jobwiz
+  - twitter:title, twitter:description, twitter:image
+- Implemented JSON-LD structured data:
+  - Course schema (per company/role page)
+  - Organization schema (JobWiz)
+  - FAQPage schema (3 default questions per page)
+  - BreadcrumbList schema (Home > Company > Role)
+- Created auto-generated sitemap:
+  - `src/app/sitemap.ts` - Next.js sitemap route
+  - Includes all company and company/role pages
+  - Priority based on search volume score (0.5-1.0 range)
+  - Weekly change frequency
+- Created JsonLd component for embedding structured data
+- Updated company and company/role pages to use new SEO system
+
+**Files Created:**
+- `src/lib/seo/types.ts`
+- `src/lib/seo/metadata.ts`
+- `src/lib/seo/structured-data.ts`
+- `src/lib/seo/index.ts`
+- `src/app/sitemap.ts`
+- `src/components/seo/JsonLd.tsx`
+- `src/components/seo/index.ts`
+- `src/lib/seo/__tests__/metadata.test.ts`
+- `src/lib/seo/__tests__/structured-data.test.ts`
+- `src/app/__tests__/sitemap.test.ts`
+
+**Tests:**
+- 67 unit tests covering:
+  - Metadata generation (title, description, OG, Twitter)
+  - Structured data schemas (Course, Organization, FAQ, Breadcrumb)
+  - Sitemap generation (URLs, priorities, formatting)
+  - Description truncation
+  - 404 metadata
+
+**Verification:**
+- `npm run lint` - passes with no errors
+- `npm run type-check` - passes with no errors
+- `npm run build` - successful production build
+- `npm test` - 1044 passed, 2 todo (67 new SEO tests)
+- All acceptance criteria verified:
+  - Title includes company and role
+  - Description under 160 chars
+  - OG tags present
+  - Twitter card tags present
+  - JSON-LD Course schema present
+  - JSON-LD FAQ schema present
+  - Sitemap accessible at /sitemap.xml
+  - Sitemap includes all published pages
+  - Priority based on search volume
+
+**Screenshots:**
+- `screenshots/35-seo-company-role-page.png` - Landing page with SEO
+- `screenshots/35-sitemap-xml.png` - Auto-generated sitemap
 
 ---
 
