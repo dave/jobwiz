@@ -14,7 +14,8 @@
     "validate-prompt": "ts-node scripts/prompts/validate-prompt.ts",
     "generate-module": "ts-node scripts/prompts/generate-module.ts",
     "generate-landing": "ts-node scripts/prompts/generate-landing.ts",
-    "generate-qa": "ts-node scripts/prompts/generate-qa.ts"
+    "generate-qa": "ts-node scripts/prompts/generate-qa.ts",
+    "check-repetition": "ts-node scripts/quality/check-repetition.ts"
   },
   "dependencies": {
     "@supabase/ssr": "^0.8.0",

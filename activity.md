@@ -2,11 +2,11 @@
 
 ## Current Status
 **Last Updated:** 2026-01-18
-**Tasks Completed:** 23
+**Tasks Completed:** 24
 **Stage 1:** COMPLETE (All 4 issues closed)
 **Stage 2:** COMPLETE (All 4 issues closed: #7, #8, #9, #10)
 **Stage 3:** COMPLETE (All 3 issues closed: #4, #5, #19)
-**Stage 4:** IN PROGRESS (Issues closed: #14, #11, #12, #13)
+**Stage 4:** IN PROGRESS (Issues closed: #14, #11, #12, #13, #26)
 **Current Task:** None
 
 ---
@@ -665,6 +665,51 @@ All Stage 3 (Data Collection) issues are now closed:
 - `npm test` - 507 passed, 2 todo (30 new tests)
 - `npm run generate-qa -- --company=google --role=swe --type=behavioral --dry-run` - works
 - Sample outputs contain deep psychology explanations, answer frameworks (not scripts)
+
+### 2026-01-18 - Issue #26: Repetition detection automation
+
+**Completed:**
+- Created `scripts/quality/` directory for quality control scripts
+- Implemented repetition detection script `scripts/quality/check-repetition.ts`:
+  - Analyzes text content for repeated phrases (n-grams)
+  - Detects repetition within single modules and across multiple modules
+  - Configurable threshold (default: 3+ occurrences = flag)
+  - Returns list of repeated phrases with counts and locations
+  - Returns pass/fail status with exit codes (0=pass, 1=fail)
+- Added AI-sounding phrase detection:
+  - Flags 30+ common AI phrases ("in conclusion", "let's dive in", etc.)
+  - Handles smart quotes and various apostrophe characters
+  - Can be disabled via config
+- Created sample test files:
+  - `scripts/quality/samples/with-repetition.json` - module with AI phrases and repeated content
+  - `scripts/quality/samples/clean.json` - module with clean content
+- Added npm script: `npm run check-repetition`
+- Exports `analyzeRepetition()` function for programmatic use
+
+**Features:**
+- Configurable phrase length (min/max words, default 3-8)
+- Common word filtering (ignores "the", "and", "or", etc.)
+- Location tracking (module, section, block)
+- Graceful handling of non-module JSON files
+- Detailed CLI output with pass/fail summary
+
+**Tests Added:**
+- 31 tests covering:
+  - Phrase detection and counting
+  - Common word filtering
+  - AI phrase detection (10+ specific phrases tested)
+  - Location tracking
+  - Threshold configuration
+  - Edge cases (empty modules, special characters, mixed case)
+  - Phrase length configuration
+
+**Verification:**
+- `npm run lint` - passes with no errors
+- `npm run type-check` - passes with no errors
+- `npm run build` - successful production build
+- `npm test` - 538 passed, 2 todo (31 new tests)
+- `npm run check-repetition -- --input=samples/with-repetition.json` - fails with detailed output
+- `npm run check-repetition -- --input=samples/clean.json` - passes
 
 ---
 

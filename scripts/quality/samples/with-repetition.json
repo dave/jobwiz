@@ -1,0 +1,53 @@
+{
+  "id": "sample-with-repetition",
+  "slug": "sample-with-repetition",
+  "type": "company",
+  "title": "Sample Module with Repetition",
+  "description": "Test module containing repeated phrases",
+  "isPremium": false,
+  "order": 1,
+  "sections": [
+    {
+      "id": "section-1",
+      "title": "Introduction",
+      "blocks": [
+        {
+          "id": "block-1",
+          "type": "text",
+          "content": "In conclusion, this company values strong leadership skills above all else."
+        },
+        {
+          "id": "block-2",
+          "type": "text",
+          "content": "The company values strong leadership skills in every candidate."
+        },
+        {
+          "id": "block-3",
+          "type": "text",
+          "content": "Demonstrating values strong leadership skills is essential."
+        }
+      ]
+    },
+    {
+      "id": "section-2",
+      "title": "Interview Process",
+      "blocks": [
+        {
+          "id": "block-4",
+          "type": "text",
+          "content": "It is important to note that preparation is key for success."
+        },
+        {
+          "id": "block-5",
+          "type": "text",
+          "content": "As mentioned earlier, you should prepare thoroughly."
+        },
+        {
+          "id": "block-6",
+          "type": "text",
+          "content": "Let's dive in to the interview structure and process."
+        }
+      ]
+    }
+  ]
+}

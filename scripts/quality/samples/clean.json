@@ -1,0 +1,59 @@
+{
+  "id": "sample-clean",
+  "slug": "sample-clean",
+  "type": "company",
+  "title": "Sample Clean Module",
+  "description": "Test module without repetition or AI phrases",
+  "isPremium": false,
+  "order": 1,
+  "sections": [
+    {
+      "id": "section-1",
+      "title": "Company Overview",
+      "blocks": [
+        {
+          "id": "block-1",
+          "type": "text",
+          "content": "Founded in 2010, this company has grown to become a leader in the technology sector. Their mission focuses on empowering users through innovative solutions."
+        },
+        {
+          "id": "block-2",
+          "type": "text",
+          "content": "Candidates who succeed here demonstrate curiosity and adaptability. The culture rewards those who challenge assumptions and propose creative alternatives."
+        }
+      ]
+    },
+    {
+      "id": "section-2",
+      "title": "Interview Tips",
+      "blocks": [
+        {
+          "id": "block-3",
+          "type": "tip",
+          "content": "Research recent product launches before your interview date."
+        },
+        {
+          "id": "block-4",
+          "type": "text",
+          "content": "Technical rounds typically include coding challenges and system design discussions. Expect approximately four hours of interviews during the on-site visit."
+        }
+      ]
+    },
+    {
+      "id": "section-3",
+      "title": "Preparation Checklist",
+      "blocks": [
+        {
+          "id": "block-5",
+          "type": "checklist",
+          "title": "Pre-Interview Tasks",
+          "items": [
+            { "id": "item-1", "text": "Review the company's annual report", "required": true },
+            { "id": "item-2", "text": "Practice coding problems", "required": true },
+            { "id": "item-3", "text": "Prepare questions for interviewers", "required": false }
+          ]
+        }
+      ]
+    }
+  ]
+}
