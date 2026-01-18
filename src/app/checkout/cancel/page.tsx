@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Checkout Cancelled | JobWiz',
+  title: 'Checkout Cancelled | Ace That Interview',
   description: 'Your checkout was cancelled. No payment has been made.',
   robots: {
     index: false,

@@ -3,7 +3,7 @@ import "./globals.css";
 import { Providers } from "./providers";
 
 export const metadata: Metadata = {
-  title: "JobWiz - Interview Prep Platform",
+  title: "Ace That Interview - Interview Prep Platform",
   description: "Tailored interview prep courses for top companies",
 };
 

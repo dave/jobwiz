@@ -242,7 +242,7 @@ describe("landing-validation", () => {
   describe("MetaOutputSchema", () => {
     test("validates correct meta output", () => {
       const valid = {
-        meta_title: "Google PM Interview Prep | JobWiz",
+        meta_title: "Google PM Interview Prep | Ace That Interview",
         meta_description: "Prepare for your Google PM interview with insider strategies.",
         og_title: "Google PM Interview Guide",
         og_description: "Everything you need for your Google PM interview.",
@@ -347,7 +347,7 @@ describe("landing-validation", () => {
 
     test("validates landing-meta type", () => {
       const validMeta = {
-        meta_title: "Test Title | JobWiz",
+        meta_title: "Test Title | Ace That Interview",
         meta_description: "Test description for SEO purposes.",
         og_title: "Test OG Title",
         og_description: "Test OG description for social sharing.",

@@ -10,8 +10,8 @@ import type {
   BreadcrumbSchema,
 } from "./types";
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://jobwiz.com";
-const SITE_NAME = "JobWiz";
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://www.ace-that-interview.com";
+const SITE_NAME = "Ace That Interview";
 const LOGO_URL = `${SITE_URL}/logo.png`;
 
 /**
@@ -61,10 +61,10 @@ export function generateOrganizationSchema(): OrganizationSchema {
     url: SITE_URL,
     logo: LOGO_URL,
     description:
-      "JobWiz helps job seekers prepare for interviews at top companies with personalized prep courses, practice questions, and insider tips.",
+      "Ace That Interview helps job seekers prepare for interviews at top companies with personalized prep courses, practice questions, and insider tips.",
     sameAs: [
-      "https://twitter.com/jobwiz",
-      "https://linkedin.com/company/jobwiz",
+      "https://twitter.com/acethatinterview",
+      "https://linkedin.com/company/ace-that-interview",
     ],
   };
 }

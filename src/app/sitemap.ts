@@ -9,7 +9,7 @@ import {
   getTopCompanyRoleCombos,
 } from "@/lib/routing";
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://jobwiz.com";
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://www.ace-that-interview.com";
 
 /**
  * Calculate priority based on search volume score

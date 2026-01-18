@@ -2,8 +2,8 @@ import { Metadata } from "next";
 import { ForgotPasswordContent } from "./ForgotPasswordContent";
 
 export const metadata: Metadata = {
-  title: "Reset Password | JobWiz",
-  description: "Reset your JobWiz account password.",
+  title: "Reset Password | Ace That Interview",
+  description: "Reset your Ace That Interview account password.",
 };
 
 export default function ForgotPasswordPage() {

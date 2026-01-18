@@ -235,7 +235,7 @@ describe('getFullAccessProduct', () => {
   test('returns correct config', () => {
     const product = getFullAccessProduct(10);
 
-    expect(product.name).toBe('JobWiz Interview Prep - Full Access');
+    expect(product.name).toBe('Ace That Interview - Full Access');
     expect(product.access_type).toBe('full');
     expect(product.company_slug).toBeNull();
     expect(product.role_slug).toBeNull();

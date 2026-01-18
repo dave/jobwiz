@@ -2,8 +2,8 @@ import { Metadata } from "next";
 import { LoginContent } from "./LoginContent";
 
 export const metadata: Metadata = {
-  title: "Sign In | JobWiz",
-  description: "Sign in to your JobWiz account to continue your interview prep journey.",
+  title: "Sign In | Ace That Interview",
+  description: "Sign in to your Ace That Interview account to continue your interview prep journey.",
 };
 
 export default function LoginPage() {

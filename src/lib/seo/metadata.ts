@@ -5,10 +5,10 @@
 import type { Metadata } from "next";
 import type { CompanyData, CompanyRole } from "@/lib/routing/types";
 
-const SITE_NAME = "JobWiz";
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://jobwiz.com";
+const SITE_NAME = "Ace That Interview";
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://www.ace-that-interview.com";
 const DEFAULT_OG_IMAGE = `${SITE_URL}/og-default.png`;
-const TWITTER_HANDLE = "@jobwiz";
+const TWITTER_HANDLE = "@acethatinterview";
 
 /**
  * Truncate description to meet SEO best practices (< 160 chars)

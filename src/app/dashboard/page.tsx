@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import { DashboardContent } from "./DashboardContent";
 
 export const metadata: Metadata = {
-  title: "Dashboard | JobWiz",
+  title: "Dashboard | Ace That Interview",
   description: "Your personalized interview prep dashboard",
 };
 

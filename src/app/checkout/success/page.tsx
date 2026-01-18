@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 import { CheckoutSuccessContent } from './CheckoutSuccessContent';
 
 export const metadata: Metadata = {
-  title: 'Purchase Complete | JobWiz',
+  title: 'Purchase Complete | Ace That Interview',
   description: 'Thank you for your purchase! Your interview prep content is now unlocked.',
   robots: {
     index: false,

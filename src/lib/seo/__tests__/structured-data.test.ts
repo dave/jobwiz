@@ -44,7 +44,7 @@ describe("generateCourseSchema", () => {
 
     expect(schema.provider).toBeDefined();
     expect(schema.provider["@type"]).toBe("Organization");
-    expect(schema.provider.name).toBe("JobWiz");
+    expect(schema.provider.name).toBe("Ace That Interview");
   });
 
   test("generates courseCode from slugs", () => {
@@ -87,7 +87,7 @@ describe("generateOrganizationSchema", () => {
 
     expect(schema["@context"]).toBe("https://schema.org");
     expect(schema["@type"]).toBe("Organization");
-    expect(schema.name).toBe("JobWiz");
+    expect(schema.name).toBe("Ace That Interview");
   });
 
   test("includes URL", () => {
@@ -328,13 +328,13 @@ describe("serializeJsonLd", () => {
       "@type": "Course",
       provider: {
         "@type": "Organization",
-        name: "JobWiz",
+        name: "Ace That Interview",
       },
     };
     const result = serializeJsonLd(data);
     const parsed = JSON.parse(result);
 
-    expect(parsed.provider.name).toBe("JobWiz");
+    expect(parsed.provider.name).toBe("Ace That Interview");
   });
 
   test("handles arrays", () => {

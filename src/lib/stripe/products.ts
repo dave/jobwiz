@@ -191,7 +191,7 @@ export function getFullAccessProduct(totalPositions: number): ProductConfig {
   return {
     id: STRIPE_PRODUCTS.full.product_id,
     price_id: STRIPE_PRODUCTS.full.price_id,
-    name: 'JobWiz Interview Prep - Full Access',
+    name: 'Ace That Interview - Full Access',
     description: `Complete access to all ${totalPositions} interview preparation courses`,
     amount: bundlePrice,
     currency: 'usd',

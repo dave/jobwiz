@@ -2,8 +2,8 @@ import { Metadata } from "next";
 import { SignupContent } from "./SignupContent";
 
 export const metadata: Metadata = {
-  title: "Create Account | JobWiz",
-  description: "Create your JobWiz account to start your personalized interview prep journey.",
+  title: "Create Account | Ace That Interview",
+  description: "Create your Ace That Interview account to start your personalized interview prep journey.",
 };
 
 export default function SignupPage() {

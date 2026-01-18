@@ -14,7 +14,7 @@ const demoBlocks: ContentBlock[] = [
     id: "text-1",
     type: "text",
     content:
-      "This page demonstrates all the **content block components** for the JobWiz interview prep platform. Each block type renders *differently* and serves a specific purpose.",
+      "This page demonstrates all the **content block components** for the Ace That Interview interview prep platform. Each block type renders *differently* and serves a specific purpose.",
   },
   {
     id: "header-2",

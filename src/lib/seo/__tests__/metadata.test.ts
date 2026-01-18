@@ -63,7 +63,7 @@ describe("generateCompanyRoleMetadata", () => {
 
   test("generates correct title with company and role", () => {
     const metadata = generateCompanyRoleMetadata(mockCompany, mockRole, "/google/software-engineer");
-    expect(metadata.title).toBe("Google Software Engineer Interview Prep | JobWiz");
+    expect(metadata.title).toBe("Google Software Engineer Interview Prep | Ace That Interview");
   });
 
   test("generates description under 160 chars", () => {
@@ -88,7 +88,7 @@ describe("generateCompanyRoleMetadata", () => {
     expect(metadata.openGraph?.title).toContain("Google");
     expect(metadata.openGraph?.title).toContain("Software Engineer");
     expect((metadata.openGraph as Record<string, unknown>)?.type).toBe("website");
-    expect(metadata.openGraph?.siteName).toBe("JobWiz");
+    expect(metadata.openGraph?.siteName).toBe("Ace That Interview");
   });
 
   test("includes og:image", () => {
@@ -110,7 +110,7 @@ describe("generateCompanyRoleMetadata", () => {
     expect(metadata.twitter).toBeDefined();
     expect((metadata.twitter as Record<string, unknown>)?.card).toBe("summary_large_image");
     expect(metadata.twitter?.title).toContain("Google");
-    expect(metadata.twitter?.site).toBe("@jobwiz");
+    expect(metadata.twitter?.site).toBe("@acethatinterview");
   });
 
   test("includes twitter image", () => {
@@ -130,7 +130,7 @@ describe("generateCompanyMetadata", () => {
 
   test("generates correct title with company name", () => {
     const metadata = generateCompanyMetadata(mockCompany, "/amazon");
-    expect(metadata.title).toBe("Amazon Interview Prep | JobWiz");
+    expect(metadata.title).toBe("Amazon Interview Prep | Ace That Interview");
   });
 
   test("generates description under 160 chars", () => {
@@ -175,7 +175,7 @@ describe("utility functions", () => {
     expect(url).toMatch(/^https?:\/\//);
   });
 
-  test("getSiteName returns JobWiz", () => {
-    expect(getSiteName()).toBe("JobWiz");
+  test("getSiteName returns Ace That Interview", () => {
+    expect(getSiteName()).toBe("Ace That Interview");
   });
 });

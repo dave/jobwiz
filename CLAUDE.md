@@ -1,6 +1,6 @@
 ## Project Summary
 
-JobWiz is an interview prep platform targeting job seekers at specific companies. Users search for something like "Google PM interview prep," land on a tailored page at `jobwiz.com/google/product-manager`, and get a guided prep course. Business model TBD via AB testing: either freemium (general content free, company-specific paywalled) or direct paywall (~$200 one-time).
+Ace That Interview is an interview prep platform targeting job seekers at specific companies. Users search for something like "Google PM interview prep," land on a tailored page at `ace-that-interview.com/google/product-manager`, and get a guided prep course. Business model TBD via AB testing: either freemium (general content free, company-specific paywalled) or direct paywall (~$200 one-time).
 
 Content is modular: general interview prep → company modules (culture, values) → role modules (PM, SWE) → combined courses. A matrix maps which modules apply to each company/role combo. This lets ~20 modules cover hundreds of positions. All content is AI-generated from public data (Glassdoor, Reddit), with prompts designed to explain the psychology—what interviewers *really* want, not just sample questions.
 

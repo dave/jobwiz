@@ -33,7 +33,7 @@ class NewsFetcher:
         """Initialize with optional custom session."""
         self.session = session or requests.Session()
         self.session.headers.update({
-            "User-Agent": "JobWiz/1.0 (https://jobwiz.com; contact@jobwiz.com)"
+            "User-Agent": "AceThatInterview/1.0 (https://www.ace-that-interview.com; contact@ace-that-interview.com)"
         })
 
     def fetch_news(self, company_name: str, limit: int = 10) -> List[NewsItem]:

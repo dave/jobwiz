@@ -20,11 +20,11 @@ export async function generateMetadata({
 
   if (!company || !role) {
     return {
-      title: "Not Found | JobWiz",
+      title: "Not Found | Ace That Interview",
     };
   }
 
-  const title = `${company.name} ${role.name} Interview Journey | JobWiz`;
+  const title = `${company.name} ${role.name} Interview Journey | Ace That Interview`;
   const description = `Complete your ${company.name} ${role.name} interview preparation with our step-by-step guide.`;
 
   return {
