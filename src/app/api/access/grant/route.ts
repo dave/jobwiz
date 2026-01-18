@@ -14,6 +14,7 @@ export const dynamic = 'force-dynamic';
 interface GrantRequest {
   session_id: string;
   redirect_to?: string;
+  is_logged_in?: boolean;
 }
 
 interface GrantResponse {
@@ -23,6 +24,7 @@ interface GrantResponse {
   user_id?: string;
   email?: string;
   is_new_user?: boolean;
+  needs_signin?: boolean;
   magic_link?: string;
 }
 
@@ -50,7 +52,7 @@ export async function POST(
 ): Promise<NextResponse<GrantResponse>> {
   try {
     const body: GrantRequest = await request.json();
-    const { session_id, redirect_to } = body;
+    const { session_id, redirect_to, is_logged_in } = body;
 
     if (!session_id || !session_id.startsWith('cs_')) {
       return NextResponse.json(
@@ -169,15 +171,30 @@ export async function POST(
       );
     }
 
-    // Generate magic link for auto-sign-in
+    // If user is already logged in, no need for magic link
+    if (is_logged_in) {
+      console.log('User is logged in, skipping magic link generation');
+      return NextResponse.json({
+        success: true,
+        message: isNewUser ? 'Account created and access granted' : 'Access granted successfully',
+        access_grant_id: grant.id,
+        user_id: userId,
+        email: customerEmail,
+        is_new_user: isNewUser,
+        needs_signin: false,
+      });
+    }
+
+    // Generate magic link for auto-sign-in (only for logged-out users)
     let magicLink: string | undefined;
+    let needsSignin = false;
     const baseUrl = process.env.NEXT_PUBLIC_BASE_URL
       || (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : 'http://localhost:3000');
     const finalRedirect = redirect_to || `/${companySlug}/${roleSlug}/journey`;
     // Magic link should redirect through auth callback to exchange token for session
     const callbackUrl = `${baseUrl}/auth/callback?next=${encodeURIComponent(finalRedirect)}`;
 
-    console.log('Magic link config:', { baseUrl, finalRedirect, callbackUrl });
+    console.log('Magic link config:', { baseUrl, finalRedirect, callbackUrl, isNewUser });
 
     try {
       const { data: linkData, error: linkError } = await supabase.auth.admin.generateLink({
@@ -190,6 +207,7 @@ export async function POST(
 
       if (linkError) {
         console.error('Magic link generation error:', linkError);
+        needsSignin = true;
       } else if (linkData?.properties?.action_link) {
         magicLink = linkData.properties.action_link;
         // Log the magic link URL structure (mask the token)
@@ -199,10 +217,12 @@ export async function POST(
           pathname: linkUrl.pathname,
           redirectTo: linkUrl.searchParams.get('redirect_to'),
         });
+      } else {
+        needsSignin = true;
       }
     } catch (linkErr) {
       console.error('Failed to generate magic link:', linkErr);
-      // Continue without magic link - user can still sign in manually
+      needsSignin = true;
     }
 
     return NextResponse.json({
@@ -212,6 +232,7 @@ export async function POST(
       user_id: userId,
       email: customerEmail,
       is_new_user: isNewUser,
+      needs_signin: needsSignin,
       magic_link: magicLink,
     });
   } catch (error) {

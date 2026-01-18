@@ -1,8 +1,9 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { useSearchParams } from 'next/navigation';
+import { useSearchParams, useRouter } from 'next/navigation';
 import Link from 'next/link';
+import { useAuth } from '@/lib/auth';
 import type { CheckoutSessionData } from '@/lib/stripe';
 
 interface SessionResponse {
@@ -13,8 +14,19 @@ interface ErrorResponse {
   error: string;
 }
 
+interface GrantResponse {
+  success: boolean;
+  message: string;
+  is_new_user?: boolean;
+  needs_signin?: boolean;
+  email?: string;
+  magic_link?: string;
+}
+
 export function CheckoutSuccessContent() {
   const searchParams = useSearchParams();
+  const router = useRouter();
+  const { user, loading: authLoading } = useAuth();
   const sessionId = searchParams.get('session_id');
 
   const [session, setSession] = useState<CheckoutSessionData | null>(null);
@@ -23,8 +35,12 @@ export function CheckoutSuccessContent() {
   const [accessGranted, setAccessGranted] = useState(false);
   const [userEmail, setUserEmail] = useState<string | null>(null);
   const [isNewUser, setIsNewUser] = useState(false);
+  const [needsSignin, setNeedsSignin] = useState(false);
 
   useEffect(() => {
+    // Wait for auth to initialize before proceeding
+    if (authLoading) return;
+
     if (!sessionId) {
       setError('No session ID provided');
       setLoading(false);
@@ -45,39 +61,53 @@ export function CheckoutSuccessContent() {
         const sessionData = data as SessionResponse;
         setSession(sessionData.session);
 
-        // If payment is complete, grant access and create user if needed
+        // If payment is complete, grant access
         if (sessionData.session.payment_status === 'paid') {
-          try {
-            const redirectTo = sessionData.session.company_slug && sessionData.session.role_slug
-              ? `/${sessionData.session.company_slug}/${sessionData.session.role_slug}/journey`
-              : '/dashboard';
+          const journeyUrl = sessionData.session.company_slug && sessionData.session.role_slug
+            ? `/${sessionData.session.company_slug}/${sessionData.session.role_slug}/journey`
+            : '/dashboard';
 
+          try {
+            // Call grant API - pass whether user is logged in
             const grantResponse = await fetch('/api/access/grant', {
               method: 'POST',
               headers: { 'Content-Type': 'application/json' },
-              body: JSON.stringify({ session_id: sessionId, redirect_to: redirectTo }),
+              body: JSON.stringify({
+                session_id: sessionId,
+                redirect_to: journeyUrl,
+                is_logged_in: !!user,
+              }),
             });
-            const grantData = await grantResponse.json();
+            const grantData: GrantResponse = await grantResponse.json();
             console.log('Grant response:', grantData);
 
             if (grantData.success) {
               setAccessGranted(true);
               setUserEmail(grantData.email || null);
               setIsNewUser(grantData.is_new_user || false);
+              setNeedsSignin(grantData.needs_signin || false);
 
-              // Auto-redirect with magic link if available
+              // FLOW 1: User is already logged in - redirect directly
+              if (user) {
+                console.log('User logged in, redirecting directly to:', journeyUrl);
+                router.push(journeyUrl);
+                return;
+              }
+
+              // FLOW 2 & 3: User not logged in - try magic link
               if (grantData.magic_link) {
                 console.log('Redirecting to magic link...');
                 window.location.href = grantData.magic_link;
-                return; // Stop further processing
-              } else {
-                console.log('No magic link in response');
+                return;
               }
+
+              // Fallback: No magic link available - show sign-in prompt
+              console.log('No magic link, user needs to sign in manually');
+              setNeedsSignin(true);
             } else {
               console.error('Grant failed:', grantData.message);
             }
           } catch (grantErr) {
-            // Log but don't fail - webhook might handle it
             console.error('Failed to grant access:', grantErr);
           }
         }
@@ -89,9 +119,9 @@ export function CheckoutSuccessContent() {
     }
 
     fetchSessionAndGrantAccess();
-  }, [sessionId]);
+  }, [sessionId, user, authLoading, router]);
 
-  if (loading) {
+  if (loading || authLoading) {
     return (
       <div className="min-h-screen flex items-center justify-center bg-gray-50">
         <div className="text-center">
@@ -189,32 +219,54 @@ export function CheckoutSuccessContent() {
               </div>
             )}
 
-            {isNewUser && userEmail ? (
+            {/* Show appropriate message based on user state */}
+            {user ? (
+              // Logged in user - will be auto-redirected
+              <div className="bg-green-50 border border-green-200 rounded-lg p-4 mb-6">
+                <p className="text-sm text-green-800">
+                  Redirecting you to your content...
+                </p>
+              </div>
+            ) : needsSignin || !accessGranted ? (
+              // Needs to sign in (magic link failed or not available)
               <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 mb-6">
                 <p className="text-sm text-blue-800 mb-2">
-                  <span className="font-semibold">Account created!</span> Sign in with:
+                  {isNewUser ? (
+                    <><span className="font-semibold">Account created!</span> Sign in to access your content:</>
+                  ) : (
+                    <>Sign in to access your purchased content:</>
+                  )}
                 </p>
-                <p className="text-sm font-medium text-blue-900 mb-3">{userEmail}</p>
-                <Link
-                  href={`/login?email=${encodeURIComponent(userEmail)}&redirectTo=${encodeURIComponent(journeyUrl)}`}
-                  className="inline-block bg-blue-600 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-blue-700 transition-colors"
-                >
-                  Sign In to Access Content
-                </Link>
+                {userEmail && (
+                  <p className="text-sm font-medium text-blue-900 mb-3">{userEmail}</p>
+                )}
               </div>
-            ) : session.customer_email ? (
-              <p className="text-sm text-gray-500 mb-6">
-                A confirmation email has been sent to{' '}
-                <span className="font-medium">{session.customer_email}</span>
-              </p>
-            ) : null}
+            ) : (
+              // Magic link redirect in progress
+              <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 mb-6">
+                <p className="text-sm text-blue-800">
+                  Setting up your account...
+                </p>
+              </div>
+            )}
 
-            <Link
-              href={isNewUser ? `/login?email=${encodeURIComponent(userEmail || '')}&redirectTo=${encodeURIComponent(journeyUrl)}` : journeyUrl}
-              className="inline-block w-full bg-blue-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-blue-700 transition-colors"
-            >
-              {isNewUser ? 'Sign In to Start' : 'Start Your Interview Prep'}
-            </Link>
+            {user ? (
+              // Logged in - show direct link as backup
+              <Link
+                href={journeyUrl}
+                className="inline-block w-full bg-blue-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-blue-700 transition-colors"
+              >
+                Start Your Interview Prep
+              </Link>
+            ) : (
+              // Not logged in - show sign in button
+              <Link
+                href={`/login?email=${encodeURIComponent(userEmail || session.customer_email || '')}&redirectTo=${encodeURIComponent(journeyUrl)}`}
+                className="inline-block w-full bg-blue-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-blue-700 transition-colors"
+              >
+                Sign In to Access Content
+              </Link>
+            )}
 
             <p className="text-sm text-gray-400 mt-4">
               Order ID: {session.id.slice(-8)}

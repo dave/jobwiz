@@ -1595,7 +1595,9 @@ async function main(): Promise<void> {
     let errorCount = 0;
 
     for (let i = 0; i < pairs.length; i++) {
-      const { company, role } = pairs[i];
+      const pair = pairs[i];
+      if (!pair) continue;
+      const { company, role } = pair;
       const progress = `[${i + 1}/${pairs.length}]`;
 
       // Check if output already exists (skip if so)
