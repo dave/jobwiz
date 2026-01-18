@@ -2,13 +2,13 @@
 
 ## Current Status
 **Last Updated:** 2026-01-18
-**Tasks Completed:** 32
+**Tasks Completed:** 33
 **Stage 1:** COMPLETE (All 4 issues closed)
 **Stage 2:** COMPLETE (All 4 issues closed: #7, #8, #9, #10)
 **Stage 3:** COMPLETE (All 3 issues closed: #4, #5, #19)
 **Stage 4:** COMPLETE (All issues closed: #14, #11, #12, #13, #15, #16, #18)
-**Stage 5:** IN PROGRESS (1 of 6 parent issues, sub-issues #33, #34, #35, #36 complete - #20 ready to close)
-**Current Task:** None - Ready to close #20 and continue Stage 5
+**Stage 5:** IN PROGRESS (#20 closed, #21 in progress - sub-issue #58 complete)
+**Current Task:** #58 User profile table schema - COMPLETE
 
 ---
 
@@ -1408,6 +1408,49 @@ All Stage 4 (Content Generation) issues are now closed:
 - `screenshots/36-google-software-engineer-theme.png` - Google SWE page with theming
 - `screenshots/36-google-company-page-theme.png` - Google company page with theming
 - `screenshots/36-apple-software-engineer-theme.png` - Apple SWE page with theming
+
+### 2026-01-18 - Issue #58: User profile table schema
+
+**Completed:**
+- Created Supabase migration `20260118000006_create_user_profile_tables.sql`:
+  - `profiles` table with id (FK to auth.users), display_name, avatar_url, email, timestamps
+  - `user_preferences` table with email_notifications, target_company, target_role
+  - Auto-create profile trigger on auth.users insert
+  - Email sync trigger on auth.users update
+  - Indexes for email and user_id lookups
+- Created TypeScript storage library `src/lib/profile/`:
+  - `types.ts` - Profile, UserPreferences, ProfileWithPreferences types
+  - `storage.ts` - CRUD operations (getProfile, updateProfile, getPreferences, etc.)
+  - `index.ts` - Re-exports
+- Implemented Row-Level Security policies:
+  - Users can SELECT/UPDATE own profile
+  - Users cannot access other profiles
+  - Service role has full access
+- Display name extraction: uses full_name from metadata or email prefix fallback
+
+**Files Created:**
+- `supabase/migrations/20260118000006_create_user_profile_tables.sql`
+- `src/lib/profile/types.ts`
+- `src/lib/profile/storage.ts`
+- `src/lib/profile/index.ts`
+- `src/lib/profile/__tests__/storage.test.ts`
+
+**Tests:**
+- 41 unit tests covering:
+  - Profile CRUD operations (get, update, delete)
+  - Preferences CRUD operations (get, update, create)
+  - getOrCreatePreferences fallback logic
+  - getProfileWithPreferences combined query
+  - profileExists check
+  - Schema type verification
+  - RLS policy logic validation
+  - Trigger logic validation
+
+**Verification:**
+- `npm run lint` - passes with no errors
+- `npm run type-check` - profile code passes (pre-existing SEO test issues unrelated)
+- `npm run build` - successful production build
+- `npm test` - 1196 passed, 2 todo (41 new profile tests)
 
 ---
 
