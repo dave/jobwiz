@@ -1,10 +1,10 @@
 # Project Build - Activity Log
 
 ## Current Status
-**Last Updated:** 2026-01-18
-**Tasks Completed:** 8
+**Last Updated:** 2026-01-17
+**Tasks Completed:** 16
 **Stage 1:** COMPLETE (All 4 issues closed)
-**Stage 2:** IN PROGRESS (#7 CLOSED, #9 CLOSED, #8 and #10 remaining)
+**Stage 2:** COMPLETE (All 4 issues closed: #7, #8, #9, #10)
 **Current Task:** None
 
 ---
@@ -258,6 +258,85 @@
 **Screenshots:**
 - `screenshots/9-timeline-desktop.png` - Desktop with sidebar timeline
 - `screenshots/9-timeline-step2-progress.png` - Step 2 with checklist progress
+
+### 2026-01-17 - Issue #8: Content Block Component Library
+
+**Status:** Closed (code implementation was already complete)
+
+**Previously Implemented Components:**
+- `VideoBlock` - YouTube/Vimeo embeds with onComplete at 80%
+- `AudioBlock` - Play/pause, seek, speed control (0.5x-2x), onComplete at 90%
+- `TextBlock` - paragraph, header, quote, tip, warning with markdown support
+- `InfographicBlock` - Images with zoom modal
+- `AnimationBlock` - Lottie animations with reduced motion support
+- `QuizBlock` - Multiple choice with correct/incorrect feedback
+- `ChecklistBlock` - Persistent checkboxes with progress indicator
+- `BlockRenderer` - Dispatcher for all block types
+
+**Sub-issues Closed:**
+- #49 - Video player component
+- #50 - Audio player component
+- #51 - Text and quote blocks
+- #52 - Infographic and animation components
+- #53 - Multiple choice question component
+- #54 - Checkbox/checklist component
+
+**Verification:**
+- `npm run lint` - passes with no errors
+- `npm run type-check` - passes with no errors
+- `npm run build` - successful production build
+- `npm test` - 300 tests pass (101 block component tests)
+- All acceptance criteria verified
+
+### 2026-01-17 - Issue #10: Paywall Gate Component
+
+**Completed:**
+- Created `PaywallGate` component with AB testing variants:
+  - `src/components/paywall/PaywallGate.tsx` - main component
+  - `src/components/paywall/unlock-state.ts` - localStorage persistence
+  - `src/components/paywall/index.ts` - exports
+
+**PaywallGate Component Features:**
+- Gate variants: hard (complete block), soft (blurred preview), teaser (partial content)
+- Configurable price with currency formatting
+- Custom heading, description, and CTA text
+- Mock mode for development (no Stripe required)
+- Real purchase mode with async `onPurchase` callback
+- Analytics tracking: impressions, CTA clicks, unlock events via `onTrack`
+- Unlock state persists to localStorage per journey ID
+- Loading state during purchase flow
+- Accessible: dialog role, labeled heading, descriptive button labels
+
+**Demo Page:**
+- `src/app/paywall-demo/page.tsx` - interactive demo with variant switcher
+
+**Tests Added:**
+- `src/components/paywall/__tests__/PaywallGate.test.tsx` - 35 tests covering:
+  - Rendering (gate with CTA, price, custom text)
+  - Variants (hard, soft, teaser)
+  - Mock mode (unlock flow, localStorage persistence)
+  - Real purchase mode (onPurchase callback)
+  - Analytics tracking (impressions, CTA clicks, unlock events)
+  - Persistence (localStorage check on mount)
+  - Accessibility (button labels, dialog role, heading)
+  - unlock-state utility functions
+
+**Verification:**
+- `npm run lint` - passes with no errors
+- `npm run type-check` - passes with no errors
+- `npm run build` - successful production build
+- `npm test` - 335 tests pass (333 passed, 2 todo)
+- All acceptance criteria verified
+
+---
+
+## Stage 2 Complete
+
+All Stage 2 (Content Framework) issues are now closed:
+- #7 - Build step-based journey UI framework
+- #8 - Build content block component library
+- #9 - Build timeline/progress visualization
+- #10 - Build configurable paywall gate component
 
 ---
 

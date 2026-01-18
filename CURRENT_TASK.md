@@ -1,109 +1,122 @@
 # Current Task
 
-**Status:** Selected Issue #9
-
+**Status:** Starting Issue #10 - Paywall Gate Component
 **Time:** 2026-01-17
 
 ## Issue Selected
 
-**Issue #9 - Build timeline/progress visualization**
-https://github.com/dave/jobwiz/issues/9
+**Issue #10 - Build configurable paywall gate component**
+https://github.com/dave/jobwiz/issues/10
 
 ## Rationale
 
-- Issue #7 has all 4 sub-issues complete and should be closed (will close after #9)
-- Issue #9: Timeline/ProgressBar components already exist but need tests
-- Issue #8 has 6 sub-issues all OPEN - more work
-- Issue #10 depends on journey framework being complete
+- Stage 2 only has one issue remaining (#10)
+- Issues #7, #8, #9 are all closed
+- This is the final component needed for Stage 2
 
-## Current Analysis
+## Acceptance Criteria (from spec)
 
-Existing components:
-- `Timeline.tsx` - mostly complete, needs tests and minor fixes
-- `ProgressBar.tsx` - complete, needs tests
+### Gate Component
+- PaywallGate blocks content access
+- Shows compelling copy about premium content
+- Displays configurable price
+- "Buy Now" / "Unlock" CTA button
+- Optional preview/teaser of locked content
 
-Missing from spec:
-- Tests for Timeline and ProgressBar
-- Horizontal orientation option for desktop
-- Uses `<ol>` but spec says `<ul>` (semantic list markup)
+### Gate Variants (for AB testing)
+- Hard gate: completely blocks, must pay
+- Soft gate: shows blurred preview, then blocks
+- Teaser gate: shows first paragraph, then blocks
+- Configurable via props
 
-## Next Steps
+### Mock Mode
+- Works without real Stripe integration
+- "Buy" triggers mock success flow
+- Unlocks content in localStorage/state
 
-1. First close issue #7 since all sub-issues complete
-2. Add comprehensive tests for Timeline and ProgressBar
-3. Add horizontal orientation option for Timeline
-4. Fix list markup to use `<ul>` instead of `<ol>`
-5. Verify all acceptance criteria
+### Integration
+- Position configurable (after step X)
+- Tracks paywall impressions
+- Tracks CTA clicks
+
+### Unlock Flow
+- Content unlocks immediately after purchase
+- Persists across refresh
+
+## Implementation Plan
+
+1. Create PaywallGate component with variants
+2. Add unlock state management with localStorage
+3. Add analytics tracking callbacks
+4. Create comprehensive tests
+5. Integrate with JourneyContext
 
 Starting implementation...
+
 ## Implementation Log
 
-### Timeline Component Updated
-- Added horizontal orientation option
-- Changed <ol> to <ul> for semantic list markup
-- Connector lines adapt to orientation
-- Step content adapts to orientation
+### Creating PaywallGate component
+- Creating src/components/paywall/PaywallGate.tsx
+- Creating src/components/paywall/unlock-state.ts for localStorage persistence
+- Creating src/components/paywall/index.ts for exports
+
+### Files Created
+- src/components/paywall/unlock-state.ts - localStorage persistence ✓
+- src/components/paywall/PaywallGate.tsx - main component ✓
+- src/components/paywall/index.ts - exports ✓
 
 Running type-check...
 
-### Writing Timeline Tests
-Creating comprehensive test suite...
+### Creating PaywallGate tests
+- Created src/components/paywall/__tests__/PaywallGate.test.tsx
+- 35 tests covering:
+  - Rendering (gate with CTA, price, custom text)
+  - Variants (hard, soft, teaser)
+  - Mock mode (unlock flow, localStorage persistence)
+  - Real purchase mode (onPurchase callback)
+  - Analytics tracking (impressions, CTA clicks, unlock events)
+  - Persistence (localStorage check on mount)
+  - Accessibility (button labels, dialog role, heading)
+  - unlock-state utility functions
 
-### ProgressBar Tests Created
-
-Running tests...
-
-### Running Timeline/ProgressBar tests again...
-
-### All Timeline/ProgressBar tests passed\! (49 tests)
+### Test Results
+- All 35 paywall tests pass ✓
 
 Running full test suite...
 
-### Full test suite passed\! (300 tests)
-
-Running lint and type-check...
-
-### Type-check passed
-
-Running final verification...
-
-### Verification Complete\!
+### Full Test Suite Results
 - npm run lint: ✓ passed
 - npm run type-check: ✓ passed
-- npm test: ✓ 300 tests (298 passed, 2 todo)
+- npm test: ✓ 335 tests (333 passed, 2 todo)
 - npm run build: ✓ successful
+
+### Demo Page Created
+- src/app/paywall-demo/page.tsx - interactive demo with:
+  - Variant switcher (hard/soft/teaser)
+  - Reset unlock button
+  - Analytics event display
 
 Starting dev server for screenshots...
 
-### Screenshots Captured
-
-1. **Desktop (1440x900):** `screenshots/9-timeline-desktop.png`
-   - Sidebar with Timeline component
-   - Progress bar showing '0 of 4 complete'
-   - Current step highlighted in blue
-   - Upcoming steps with numbers
-   - Estimated time per step
-   - Vertical connector lines
-
-2. **Step Progress:** `screenshots/9-timeline-step2-progress.png`
-   - Step 2 current (blue highlight)
-   - Checklist completion
-   - Back button visible
-
 ### Acceptance Criteria Verification
 
-✅ Timeline shows all steps with titles
-✅ Step states: completed (✓), current (highlighted), upcoming, locked (🔒)
-✅ Estimated time displayed per step
-✅ Progress bar shows percentage complete
-✅ Progress bar shows 'X of Y steps' text
-✅ Progress bar animates on change (transition-all duration-300)
-✅ Click completed/upcoming step → navigates
-✅ Click locked step → no action (disabled)
-✅ Semantic list markup (<ul>)
-✅ aria-current='step' on current
-✅ Keyboard navigable (buttons with focus rings)
-✅ Horizontal orientation option added
-✅ 49 tests pass for Timeline and ProgressBar
+✅ Gate component blocks content access (hard variant hides content completely)
+✅ Shows compelling copy about premium content (customizable heading/description)
+✅ Displays price (configurable, formatted as currency)
+✅ "Buy Now" / "Unlock" CTA button (customizable text)
+✅ Hard gate: completely blocks, must pay
+✅ Soft gate: shows blurred preview, then blocks
+✅ Teaser gate: shows first paragraph, then blocks
+✅ Configurable via props (variant, price, heading, description, ctaText)
+✅ Mock mode works without real Stripe integration
+✅ Mock "Buy" triggers success flow with delay
+✅ Unlocks content in localStorage/state
+✅ Position configurable via PaywallConfig in JourneyConfig type
+✅ Tracks paywall impressions (onTrack callback)
+✅ Tracks CTA clicks (onTrack callback)
+✅ After purchase, content unlocks immediately
+✅ Unlocked state persists across page refreshes (localStorage)
+
+All acceptance criteria met!
 
 ### Ready to commit
