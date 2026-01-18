@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react';
 import { useSearchParams, useRouter } from 'next/navigation';
 import Link from 'next/link';
 import { useAuth } from '@/lib/auth';
+import { createBrowserClient } from '@/lib/supabase/client';
 import type { CheckoutSessionData } from '@/lib/stripe';
 
 interface SessionResponse {
@@ -18,9 +19,7 @@ interface GrantResponse {
   success: boolean;
   message: string;
   is_new_user?: boolean;
-  needs_signin?: boolean;
   email?: string;
-  magic_link?: string;
 }
 
 export function CheckoutSuccessContent() {
@@ -32,10 +31,8 @@ export function CheckoutSuccessContent() {
   const [session, setSession] = useState<CheckoutSessionData | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
-  const [accessGranted, setAccessGranted] = useState(false);
+  const [magicLinkSent, setMagicLinkSent] = useState(false);
   const [userEmail, setUserEmail] = useState<string | null>(null);
-  const [isNewUser, setIsNewUser] = useState(false);
-  const [needsSignin, setNeedsSignin] = useState(false);
 
   useEffect(() => {
     // Wait for auth to initialize before proceeding
@@ -67,48 +64,47 @@ export function CheckoutSuccessContent() {
             ? `/${sessionData.session.company_slug}/${sessionData.session.role_slug}/journey`
             : '/dashboard';
 
-          try {
-            // Call grant API - pass whether user is logged in
-            const grantResponse = await fetch('/api/access/grant', {
-              method: 'POST',
-              headers: { 'Content-Type': 'application/json' },
-              body: JSON.stringify({
-                session_id: sessionId,
-                redirect_to: journeyUrl,
-                is_logged_in: !!user,
-              }),
-            });
-            const grantData: GrantResponse = await grantResponse.json();
-            console.log('Grant response:', grantData);
+          // Grant access via API
+          const grantResponse = await fetch('/api/access/grant', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ session_id: sessionId }),
+          });
+          const grantData: GrantResponse = await grantResponse.json();
+          console.log('Grant response:', grantData);
 
-            if (grantData.success) {
-              setAccessGranted(true);
-              setUserEmail(grantData.email || null);
-              setIsNewUser(grantData.is_new_user || false);
-              setNeedsSignin(grantData.needs_signin || false);
+          if (!grantData.success) {
+            console.error('Grant failed:', grantData.message);
+            setLoading(false);
+            return;
+          }
 
-              // FLOW 1: User is already logged in - redirect directly
-              if (user) {
-                console.log('User logged in, redirecting directly to:', journeyUrl);
-                router.push(journeyUrl);
-                return;
-              }
+          setUserEmail(grantData.email || null);
 
-              // FLOW 2 & 3: User not logged in - try magic link
-              if (grantData.magic_link) {
-                console.log('Redirecting to magic link...');
-                window.location.href = grantData.magic_link;
-                return;
-              }
+          // If user is logged in, redirect directly to content
+          if (user) {
+            console.log('User logged in, redirecting to:', journeyUrl);
+            router.push(journeyUrl);
+            return;
+          }
 
-              // Fallback: No magic link available - show sign-in prompt
-              console.log('No magic link, user needs to sign in manually');
-              setNeedsSignin(true);
-            } else {
-              console.error('Grant failed:', grantData.message);
-            }
-          } catch (grantErr) {
-            console.error('Failed to grant access:', grantErr);
+          // User not logged in - send magic link email
+          const supabase = createBrowserClient();
+          const baseUrl = window.location.origin;
+          const callbackUrl = `${baseUrl}/auth/callback?next=${encodeURIComponent(journeyUrl)}`;
+
+          console.log('Sending magic link email to:', grantData.email);
+          const { error: otpError } = await supabase.auth.signInWithOtp({
+            email: grantData.email!,
+            options: {
+              emailRedirectTo: callbackUrl,
+            },
+          });
+
+          if (otpError) {
+            console.error('Failed to send magic link:', otpError);
+          } else {
+            setMagicLinkSent(true);
           }
         }
       } catch (err) {
@@ -222,50 +218,49 @@ export function CheckoutSuccessContent() {
             {/* Show appropriate message based on user state */}
             {user ? (
               // Logged in user - will be auto-redirected
-              <div className="bg-green-50 border border-green-200 rounded-lg p-4 mb-6">
-                <p className="text-sm text-green-800">
-                  Redirecting you to your content...
-                </p>
-              </div>
-            ) : needsSignin || !accessGranted ? (
-              // Needs to sign in (magic link failed or not available)
+              <>
+                <div className="bg-green-50 border border-green-200 rounded-lg p-4 mb-6">
+                  <p className="text-sm text-green-800">
+                    Redirecting you to your content...
+                  </p>
+                </div>
+                <Link
+                  href={journeyUrl}
+                  className="inline-block w-full bg-blue-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-blue-700 transition-colors"
+                >
+                  Start Your Interview Prep
+                </Link>
+              </>
+            ) : magicLinkSent ? (
+              // Magic link sent - tell user to check email
               <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 mb-6">
+                <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-3">
+                  <svg className="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                  </svg>
+                </div>
+                <p className="text-blue-900 font-semibold mb-2">Check your email</p>
                 <p className="text-sm text-blue-800 mb-2">
-                  {isNewUser ? (
-                    <><span className="font-semibold">Account created!</span> Sign in to access your content:</>
-                  ) : (
-                    <>Sign in to access your purchased content:</>
-                  )}
+                  We sent a sign-in link to:
                 </p>
-                {userEmail && (
-                  <p className="text-sm font-medium text-blue-900 mb-3">{userEmail}</p>
-                )}
-              </div>
-            ) : (
-              // Magic link redirect in progress
-              <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 mb-6">
-                <p className="text-sm text-blue-800">
-                  Setting up your account...
+                <p className="text-sm font-medium text-blue-900">{userEmail}</p>
+                <p className="text-xs text-blue-700 mt-3">
+                  Click the link in the email to access your content
                 </p>
               </div>
-            )}
-
-            {user ? (
-              // Logged in - show direct link as backup
-              <Link
-                href={journeyUrl}
-                className="inline-block w-full bg-blue-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-blue-700 transition-colors"
-              >
-                Start Your Interview Prep
-              </Link>
             ) : (
-              // Not logged in - show sign in button
-              <Link
-                href={`/login?email=${encodeURIComponent(userEmail || session.customer_email || '')}&redirectTo=${encodeURIComponent(journeyUrl)}`}
-                className="inline-block w-full bg-blue-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-blue-700 transition-colors"
-              >
-                Sign In to Access Content
-              </Link>
+              // Fallback - something went wrong, show manual sign in
+              <>
+                <p className="text-sm text-gray-500 mb-6">
+                  Sign in to access your content
+                </p>
+                <Link
+                  href={`/login?email=${encodeURIComponent(userEmail || session.customer_email || '')}&redirectTo=${encodeURIComponent(journeyUrl)}`}
+                  className="inline-block w-full bg-blue-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-blue-700 transition-colors"
+                >
+                  Sign In
+                </Link>
+              </>
             )}
 
             <p className="text-sm text-gray-400 mt-4">

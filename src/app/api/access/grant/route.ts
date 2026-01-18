@@ -24,8 +24,6 @@ interface GrantResponse {
   user_id?: string;
   email?: string;
   is_new_user?: boolean;
-  needs_signin?: boolean;
-  magic_link?: string;
 }
 
 /**
@@ -171,69 +169,14 @@ export async function POST(
       );
     }
 
-    // If user is already logged in, no need for magic link
-    if (is_logged_in) {
-      console.log('User is logged in, skipping magic link generation');
-      return NextResponse.json({
-        success: true,
-        message: isNewUser ? 'Account created and access granted' : 'Access granted successfully',
-        access_grant_id: grant.id,
-        user_id: userId,
-        email: customerEmail,
-        is_new_user: isNewUser,
-        needs_signin: false,
-      });
-    }
-
-    // Generate magic link for auto-sign-in (only for logged-out users)
-    let magicLink: string | undefined;
-    let needsSignin = false;
-    const baseUrl = process.env.NEXT_PUBLIC_BASE_URL
-      || (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : 'http://localhost:3000');
-    const finalRedirect = redirect_to || `/${companySlug}/${roleSlug}/journey`;
-    // Magic link should redirect through auth callback to exchange token for session
-    const callbackUrl = `${baseUrl}/auth/callback?next=${encodeURIComponent(finalRedirect)}`;
-
-    console.log('Magic link config:', { baseUrl, finalRedirect, callbackUrl, isNewUser });
-
-    try {
-      const { data: linkData, error: linkError } = await supabase.auth.admin.generateLink({
-        type: 'magiclink',
-        email: customerEmail,
-        options: {
-          redirectTo: callbackUrl,
-        },
-      });
-
-      if (linkError) {
-        console.error('Magic link generation error:', linkError);
-        needsSignin = true;
-      } else if (linkData?.properties?.action_link) {
-        magicLink = linkData.properties.action_link;
-        // Log the magic link URL structure (mask the token)
-        const linkUrl = new URL(magicLink);
-        console.log('Magic link generated:', {
-          host: linkUrl.host,
-          pathname: linkUrl.pathname,
-          redirectTo: linkUrl.searchParams.get('redirect_to'),
-        });
-      } else {
-        needsSignin = true;
-      }
-    } catch (linkErr) {
-      console.error('Failed to generate magic link:', linkErr);
-      needsSignin = true;
-    }
-
+    // Return success - client will handle sending magic link if user is not logged in
     return NextResponse.json({
       success: true,
-      message: isNewUser ? 'Account created and access granted' : 'Access granted successfully',
+      message: isNewUser ? 'Account created and access granted' : 'Access granted',
       access_grant_id: grant.id,
       user_id: userId,
       email: customerEmail,
       is_new_user: isNewUser,
-      needs_signin: needsSignin,
-      magic_link: magicLink,
     });
   } catch (error) {
     console.error('Grant access error:', error);
