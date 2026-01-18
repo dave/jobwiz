@@ -12,7 +12,8 @@
     "test:watch": "jest --watch",
     "validate-template": "ts-node scripts/validate-template.ts",
     "validate-prompt": "ts-node scripts/prompts/validate-prompt.ts",
-    "generate-module": "ts-node scripts/prompts/generate-module.ts"
+    "generate-module": "ts-node scripts/prompts/generate-module.ts",
+    "generate-landing": "ts-node scripts/prompts/generate-landing.ts"
   },
   "dependencies": {
     "@supabase/ssr": "^0.8.0",

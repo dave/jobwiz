@@ -2,11 +2,11 @@
 
 ## Current Status
 **Last Updated:** 2026-01-18
-**Tasks Completed:** 21
+**Tasks Completed:** 22
 **Stage 1:** COMPLETE (All 4 issues closed)
 **Stage 2:** COMPLETE (All 4 issues closed: #7, #8, #9, #10)
 **Stage 3:** COMPLETE (All 3 issues closed: #4, #5, #19)
-**Stage 4:** IN PROGRESS (Issues closed: #14, #11)
+**Stage 4:** IN PROGRESS (Issues closed: #14, #11, #12)
 **Current Task:** None
 
 ---
@@ -567,6 +567,53 @@ All Stage 3 (Data Collection) issues are now closed:
 - `npm test` - 414 passed, 2 todo (36 new tests)
 - `npm run generate-module -- --type=company --company=google --dry-run` - works
 - Sample outputs valid JSON matching Module schema
+
+### 2026-01-18 - Issue #12: Design prompts for marketing landing page copy
+
+**Completed:**
+- Created 4 landing page prompt templates in `prompts/landing/`:
+  - `landing-headline-prompt.md` - Headline/subheadline generation with AB test variations
+  - `landing-bullets-prompt.md` - Value proposition bullets (what you'll learn, what's included)
+  - `landing-cta-prompt.md` - CTA button text and supporting copy variations
+  - `landing-meta-prompt.md` - SEO meta title, description, and OG tags
+- Created validation library `src/lib/prompts/landing-validation.ts`:
+  - Zod schemas for all landing copy output types
+  - Validates headline angles (insider, transformation, fear, authority, specificity)
+  - Validates urgency types (none, time, value, social)
+  - Validates icon suggestions for bullets
+  - Character/word count validation for meta and headlines
+  - Company/role mention checking
+- Created CLI script `scripts/prompts/generate-landing.ts`:
+  - Usage: `npm run generate-landing -- --company=google --role=pm --dry-run`
+  - Mock generators for all landing copy components
+  - Supports 3 companies (Google, Amazon, Meta) × 2 roles (PM, SWE)
+- Generated sample outputs for 3 company/role combos:
+  - `output/landing-google-pm-preview.json`
+  - `output/landing-amazon-swe-preview.json`
+  - `output/landing-meta-pm-preview.json`
+
+**Prompt Template Features:**
+- Headlines: 5 variations with different angles for AB testing
+- Bullets: 4 learn bullets (what you'll get) + 4 included bullets (what's in the package)
+- CTAs: 3 primary CTA variations + 2 secondary CTA variations
+- Meta: SEO-optimized title (<60 chars), description (<160 chars), OG tags, 7 keywords
+
+**Tests Added:**
+- 63 new tests covering:
+  - Schema validation for all landing copy types
+  - Output generation and structure validation
+  - Word/character count constraints
+  - Angle and urgency type validation
+  - Duplicate ID detection
+  - Company/role specific content verification
+
+**Verification:**
+- `npm run lint` - passes with no errors
+- `npm run type-check` - passes with no errors
+- `npm run build` - successful production build
+- `npm test` - 477 passed, 2 todo (63 new tests)
+- `npm run generate-landing -- --company=google --role=pm --dry-run` - works
+- Sample outputs valid JSON with 5 headlines, 8 bullets, 5 CTAs, SEO meta
 
 ---
 
