@@ -2,11 +2,11 @@
 
 ## Current Status
 **Last Updated:** 2026-01-18
-**Tasks Completed:** 28
+**Tasks Completed:** 29
 **Stage 1:** COMPLETE (All 4 issues closed)
 **Stage 2:** COMPLETE (All 4 issues closed: #7, #8, #9, #10)
 **Stage 3:** COMPLETE (All 3 issues closed: #4, #5, #19)
-**Stage 4:** IN PROGRESS (Issues closed: #14, #11, #12, #13, #26, #27, #28, #29, #15, #31, #32)
+**Stage 4:** IN PROGRESS (Issues closed: #14, #11, #12, #13, #26, #27, #28, #29, #15, #31, #32, #30)
 **Current Task:** None
 
 ---
@@ -1003,6 +1003,58 @@ All Stage 3 (Data Collection) issues are now closed:
 - `npm run build` - successful production build
 - `npm test` - 786 passed, 2 todo (46 queue tests)
 - `npm run queue:add -- --company=google --roles=software-engineer --dry-run` - works correctly
+
+### 2026-01-18 - Issue #30: Content orchestration script
+
+**Completed:**
+- Created content orchestration script `scripts/orchestrate/orchestrate.ts`
+- Implemented full pipeline with 4 steps:
+  - Step 1: Generate company module content
+  - Step 2: Generate role Q&A content
+  - Step 3: Run quality control checks
+  - Step 4: Store content (files in dry-run, DB in live mode)
+- Added CLI interface with all required options:
+  - Single company: `npm run orchestrate -- --company=google --roles=swe,pm`
+  - Batch mode: `npm run orchestrate -- --batch --top=100`
+  - Dry-run mode: `--dry-run` flag
+- Implemented features:
+  - Resume capability via `.orchestration-completed.json` tracking file
+  - Error handling and retry logic (configurable via `--max-retries`, default 3)
+  - Progress logging to console with icons
+  - Rate limiting via sleep delays (skipped in test mode)
+  - Worker ID for distributed processing
+- Quality control pipeline integrated:
+  - AI phrase detection (hard fail)
+  - Readability scoring (soft fail, flagged for review)
+  - Facts extraction (always flagged for review)
+- Mock generators for 5 companies: Google, Amazon, Apple, Microsoft, Meta
+- Mock generators for 6 roles: SWE, PM, DS (with short and full slugs)
+
+**Files Created:**
+- `scripts/orchestrate/orchestrate.ts` - Main orchestration script
+- `scripts/orchestrate/__tests__/orchestrate.test.ts` - 24 unit tests
+
+**Tests:**
+- 24 unit tests covering:
+  - Configuration validation
+  - Pipeline steps execution
+  - Skip already-generated functionality
+  - Dry-run mode behavior
+  - Batch mode processing
+  - Multiple roles support
+  - Different companies and roles
+  - Worker ID support
+
+**Verification:**
+- `npm run lint` - passes with no errors
+- `npm run type-check` - passes with no errors
+- `npm run build` - successful production build
+- `npm test` - 810 passed, 2 todo (24 orchestrate tests)
+- `npm run orchestrate -- --company=google --roles=swe --dry-run` - works correctly
+- Site health check returns OK
+
+**Screenshot:**
+- `screenshots/30-orchestrate-site-working.png` - Site still working after changes
 
 ---
 
