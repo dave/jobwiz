@@ -2,11 +2,11 @@
 
 ## Current Status
 **Last Updated:** 2026-01-18
-**Tasks Completed:** 22
+**Tasks Completed:** 23
 **Stage 1:** COMPLETE (All 4 issues closed)
 **Stage 2:** COMPLETE (All 4 issues closed: #7, #8, #9, #10)
 **Stage 3:** COMPLETE (All 3 issues closed: #4, #5, #19)
-**Stage 4:** IN PROGRESS (Issues closed: #14, #11, #12)
+**Stage 4:** IN PROGRESS (Issues closed: #14, #11, #12, #13)
 **Current Task:** None
 
 ---
@@ -614,6 +614,57 @@ All Stage 3 (Data Collection) issues are now closed:
 - `npm test` - 477 passed, 2 todo (63 new tests)
 - `npm run generate-landing -- --company=google --role=pm --dry-run` - works
 - Sample outputs valid JSON with 5 headlines, 8 bullets, 5 CTAs, SEO meta
+
+### 2026-01-18 - Issue #13: Prompts for interview Q&A with psychology explanations
+
+**Completed:**
+- Created 4 Q&A prompt templates in `prompts/qa/`:
+  - `qa-behavioral-prompt.md` - Behavioral/STAR questions with leadership lens
+  - `qa-technical-prompt.md` - Role-specific technical questions
+  - `qa-culture-prompt.md` - Culture fit and values-based questions
+  - `qa-curveball-prompt.md` - Estimation, pressure, and creative questions
+- Created Q&A validation library `src/lib/prompts/qa-validation.ts`:
+  - Zod schemas for all 4 Q&A categories
+  - ID format validation (beh-, tech-, cult-, curve- prefixes)
+  - Interviewer intent length validation (50-500 chars)
+  - Answer framework structure validation
+  - Psychology depth checking
+  - AI phrase detection
+- Created CLI script `scripts/prompts/generate-qa.ts`:
+  - Usage: `npm run generate-qa -- --company=google --role=swe --type=behavioral --dry-run`
+  - Supports all, behavioral, technical, culture, curveball types
+  - Mock generators for Google, Amazon, Meta companies
+  - Mock generators for SWE, PM, DS roles
+- Generated sample outputs for 2 company/role combos:
+  - `output/qa-google-swe-all.json`
+  - `output/qa-amazon-pm-all.json`
+
+**Q&A Output Structure Per Question:**
+- `question` - The interview question
+- `interviewer_intent` - 50-100 word psychology explanation
+- `good_answer_demonstrates` - 3-5 competencies
+- `common_mistakes` - 3-4 mistakes to avoid
+- `answer_framework` - Structure/approach (not scripted answers)
+- `difficulty` - easy/medium/hard
+- `tags` - Topic categorization
+
+**Tests Added:**
+- 30 new tests covering:
+  - Schema validation for all Q&A categories
+  - ID format enforcement
+  - Interviewer intent length requirements
+  - Answer framework structure validation
+  - Duplicate ID detection
+  - AI phrase warnings
+  - Quality check functions (checkTeachesThinking, checkRoleSpecific)
+
+**Verification:**
+- `npm run lint` - passes with no errors
+- `npm run type-check` - passes with no errors
+- `npm run build` - successful production build
+- `npm test` - 507 passed, 2 todo (30 new tests)
+- `npm run generate-qa -- --company=google --role=swe --type=behavioral --dry-run` - works
+- Sample outputs contain deep psychology explanations, answer frameworks (not scripts)
 
 ---
 
