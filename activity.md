@@ -2,11 +2,11 @@
 
 ## Current Status
 **Last Updated:** 2026-01-18
-**Tasks Completed:** 20
+**Tasks Completed:** 21
 **Stage 1:** COMPLETE (All 4 issues closed)
 **Stage 2:** COMPLETE (All 4 issues closed: #7, #8, #9, #10)
 **Stage 3:** COMPLETE (All 3 issues closed: #4, #5, #19)
-**Stage 4:** IN PROGRESS
+**Stage 4:** IN PROGRESS (Issues closed: #14, #11)
 **Current Task:** None
 
 ---
@@ -521,6 +521,52 @@ All Stage 3 (Data Collection) issues are now closed:
 - `npm run build` - successful production build
 - `npm test` - 378 passed, 2 todo (45 new tests)
 - `npm run validate-template -- --all` - all 4 templates valid
+
+### 2026-01-18 - Issue #11: Prompts for company module generation
+
+**Completed:**
+- Created 4 company prompt templates in `prompts/company/`:
+  - `company-culture-prompt.md` - Culture & values section generation
+  - `company-interview-stages-prompt.md` - Interview process section generation
+  - `company-tips-prompt.md` - Insider tips and red flags sections
+  - `company-trivia-prompt.md` - Company trivia and quiz generation
+- Created shared validation library `src/lib/prompts/validation.ts`:
+  - Zod schemas for all prompt output types
+  - AI-phrase detection (warns on "In conclusion...", etc.)
+  - Unique ID validation
+  - Quiz answer validation (exactly 1 correct)
+- Created CLI scripts:
+  - `scripts/prompts/validate-prompt.ts` - Validates prompt output JSON
+  - `scripts/prompts/generate-module.ts` - Generates company modules
+- Added npm scripts: `validate-prompt`, `generate-module`
+- Generated sample outputs for 2 companies:
+  - `output/company-google-preview.json`
+  - `output/company-amazon-preview.json`
+
+**Prompt Template Features:**
+- Input format for Glassdoor/Reddit scraped data
+- Output schema matching Module type from #6
+- Handling for missing/sparse data
+- Anti-patterns list (AI phrases to avoid)
+- Example outputs for each prompt
+- Word count targets per section
+
+**Tests Added:**
+- 36 new tests covering:
+  - Schema validation for all prompt types
+  - Duplicate ID detection
+  - Quiz correct answer validation
+  - AI-phrase detection
+  - Company module generation
+  - Content quality checks
+
+**Verification:**
+- `npm run lint` - passes with no errors
+- `npm run type-check` - passes with no errors
+- `npm run build` - successful production build
+- `npm test` - 414 passed, 2 todo (36 new tests)
+- `npm run generate-module -- --type=company --company=google --dry-run` - works
+- Sample outputs valid JSON matching Module schema
 
 ---
 

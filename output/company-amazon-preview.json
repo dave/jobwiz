@@ -1,0 +1,222 @@
+{
+  "id": "company-amazon",
+  "slug": "company-amazon",
+  "type": "company",
+  "title": "Amazon Interview Prep",
+  "description": "Company-specific interview preparation for Amazon",
+  "companySlug": "amazon",
+  "isPremium": true,
+  "order": 1,
+  "sections": [
+    {
+      "id": "culture-values",
+      "title": "Company Culture & Values",
+      "blocks": [
+        {
+          "id": "culture-header",
+          "type": "header",
+          "content": "What Amazon Looks For",
+          "level": 2
+        },
+        {
+          "id": "culture-overview",
+          "type": "text",
+          "content": "Amazon evaluates candidates on multiple dimensions beyond just technical skills.\n\n**Mission-Driven:** Their mission is \"To be Earth's most customer-centric company\". Every interview answer should connect back to this broader purpose.\n\n**Technical Excellence:** Deep expertise in your domain is expected.\n\n**Collaborative Mindset:** Amazon looks for people who elevate those around them."
+        },
+        {
+          "id": "culture-tip",
+          "type": "tip",
+          "content": "When discussing experiences, connect your actions to Amazon's core values."
+        }
+      ]
+    },
+    {
+      "id": "interview-process",
+      "title": "Interview Process",
+      "blocks": [
+        {
+          "id": "process-header",
+          "type": "header",
+          "content": "Amazon's Interview Process",
+          "level": 2
+        },
+        {
+          "id": "process-overview",
+          "type": "text",
+          "content": "Based on candidate reports:\n\n**1. Recruiter Screen (30 min)**\n**2. Technical Phone Screen (45-60 min)**\n**3. On-site/Virtual Loop (4-5 hours)**\n**4. Hiring Committee Review**\n\nTimeline: 4-6 weeks."
+        },
+        {
+          "id": "process-tip",
+          "type": "tip",
+          "content": "Amazon values clear communication. Be proactive with your recruiter."
+        },
+        {
+          "id": "process-checklist",
+          "type": "checklist",
+          "title": "Pre-Interview Checklist",
+          "items": [
+            {
+              "id": "check-1",
+              "text": "Research Amazon's recent products",
+              "required": true
+            },
+            {
+              "id": "check-2",
+              "text": "Prepare 5-6 STAR format stories",
+              "required": true
+            },
+            {
+              "id": "check-3",
+              "text": "Review interviewers on LinkedIn",
+              "required": false
+            },
+            {
+              "id": "check-4",
+              "text": "Test video/audio setup",
+              "required": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "insider-tips",
+      "title": "Insider Tips",
+      "blocks": [
+        {
+          "id": "tips-header",
+          "type": "header",
+          "content": "From Those Who've Been There",
+          "level": 2
+        },
+        {
+          "id": "tips-overview",
+          "type": "text",
+          "content": "Successful Amazon candidates share common traits:\n\n**Prepared stories:** STAR format is expected.\n\n**Quantified impact:** Numbers make contributions concrete.\n\n**Thoughtful questions:** Your questions reveal your thinking."
+        },
+        {
+          "id": "tips-advice-1",
+          "type": "tip",
+          "content": "Start each story with what YOU specifically did. Amazon probes for individual contributions."
+        }
+      ]
+    },
+    {
+      "id": "red-flags",
+      "title": "Red Flags & Deal Breakers",
+      "blocks": [
+        {
+          "id": "flags-header",
+          "type": "header",
+          "content": "What Gets You Rejected at Amazon",
+          "level": 2
+        },
+        {
+          "id": "flags-overview",
+          "type": "text",
+          "content": "Common rejection reasons:\n\n**Vague answers:** No specifics suggests low contribution.\n\n**Defensiveness:** Own mistakes and explain growth.\n\n**Poor preparation:** Not knowing products signals low interest."
+        },
+        {
+          "id": "flags-warning",
+          "type": "warning",
+          "content": "Never say \"I don't have an example.\" Pivot to a related situation instead."
+        },
+        {
+          "id": "flags-checklist",
+          "type": "checklist",
+          "title": "Pre-Interview Red Flag Check",
+          "items": [
+            {
+              "id": "flag-check-1",
+              "text": "Stories start with 'I' not 'We'",
+              "required": false
+            },
+            {
+              "id": "flag-check-2",
+              "text": "Can quantify impact of each story",
+              "required": false
+            },
+            {
+              "id": "flag-check-3",
+              "text": "Have a genuine failure story with lessons",
+              "required": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "company-trivia",
+      "title": "Amazon Trivia",
+      "blocks": [
+        {
+          "id": "trivia-header",
+          "type": "header",
+          "content": "Know Your Amazon Facts",
+          "level": 2
+        },
+        {
+          "id": "trivia-facts",
+          "type": "text",
+          "content": "Quick facts:\n\n- **Founded:** 1994 by Jeff Bezos\n- **Headquarters:** Seattle, Washington\n- **CEO:** Andy Jassy\n- **Mission:** \"To be Earth's most customer-centric company\""
+        },
+        {
+          "id": "trivia-quiz-1",
+          "type": "quiz",
+          "question": "What year was Amazon founded?",
+          "options": [
+            {
+              "id": "q1-a",
+              "text": "1994",
+              "isCorrect": true
+            },
+            {
+              "id": "q1-b",
+              "text": "1995",
+              "isCorrect": false
+            },
+            {
+              "id": "q1-c",
+              "text": "2000",
+              "isCorrect": false
+            },
+            {
+              "id": "q1-d",
+              "text": "2002",
+              "isCorrect": false
+            }
+          ],
+          "explanation": "Amazon was founded in 1994."
+        },
+        {
+          "id": "trivia-quiz-2",
+          "type": "quiz",
+          "question": "Who is the current CEO of Amazon?",
+          "options": [
+            {
+              "id": "q2-a",
+              "text": "Andy Jassy",
+              "isCorrect": true
+            },
+            {
+              "id": "q2-b",
+              "text": "Tim Cook",
+              "isCorrect": false
+            },
+            {
+              "id": "q2-c",
+              "text": "Satya Nadella",
+              "isCorrect": false
+            },
+            {
+              "id": "q2-d",
+              "text": "Mark Zuckerberg",
+              "isCorrect": false
+            }
+          ],
+          "explanation": "Andy Jassy leads Amazon."
+        }
+      ]
+    }
+  ]
+}
