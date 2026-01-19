@@ -31,7 +31,7 @@ Fix content quality issues identified during manual review of interview prep mod
 ### Content Ordering (#239)
 - [x] #288 - Big Tech batch
 - [x] #289 - High-growth startups batch
-- [ ] #290 - Finance batch
+- [x] #290 - Finance batch
 - [ ] #291 - Consulting batch
 - [ ] #292 - E-commerce/Retail batch
 - [ ] #293 - Healthcare/Biotech batch
@@ -1743,5 +1743,43 @@ Block patterns found (consistent across all modules):
 
 **Acceptance Criteria:**
 - ✅ All 118 company-role modules in batch reviewed
+- ✅ Questions appear before explanations (verified - no issues found)
+- ✅ Content flow is logical (section intro → tip → quiz blocks)
+
+### 2026-01-19 - Issue #290: Fix content ordering - Company-role modules: Finance
+
+**Status:** Complete - No issues found
+
+**Modules Reviewed (106 total):**
+Reviewed all company-role modules for 14 Finance companies:
+- Goldman Sachs (9 modules), JPMorgan (9), Morgan Stanley (8), Bank of America (8), Citadel (6), Two Sigma (6), Jane Street (5), BlackRock (8), Fidelity (8), Charles Schwab (7), Visa (7), Mastercard (7), PayPal (9), Block (9)
+
+**Analysis Approach:**
+1. Created automated checker script to detect text/tip/warning blocks appearing between quiz blocks
+2. Scanned all 106 modules for ordering issues
+3. Verified block patterns across all sections
+4. Manually spot-checked sample files (Citadel DS, Visa PM, Two Sigma FA, Jane Street SWE, BlackRock BA)
+
+**Findings:**
+All 106 modules have the **correct** ordering structure:
+- Section intro text at position 0
+- Key focus areas tip/warning at position 1
+- All quiz blocks grouped together after intro content
+
+Block patterns found (consistent across all modules):
+- `text tip quiz quiz quiz quiz quiz` - 212 sections (Behavioral, Technical)
+- `text warning quiz quiz quiz quiz quiz` - 106 sections (Culture Fit)
+- `text tip quiz quiz quiz quiz` - 106 sections (Curveball - 4 quizzes)
+
+**No fixes required** - The current structure is correct. Explanations/frameworks do NOT appear before questions; they appear at the section level as introductory content, which is appropriate.
+
+**Verification:**
+- `npm run lint` - passes (warnings only for unrelated image issues)
+- `npm run type-check` - passes
+- `npm run build` - successful
+- `npm test -- --testPathPattern="modules"` - 77 tests pass
+
+**Acceptance Criteria:**
+- ✅ All 106 company-role modules in batch reviewed
 - ✅ Questions appear before explanations (verified - no issues found)
 - ✅ Content flow is logical (section intro → tip → quiz blocks)
