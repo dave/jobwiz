@@ -4669,3 +4669,48 @@ All Stage 6 (Production Content Population) issues are now closed:
   - Tone is conversational and welcoming ✓
   - Explains the course structure and value prop ✓
   - Valid JSON structure matching existing section format ✓
+
+### 2026-01-19 - Issue #208: Content review: Big Tech batch
+
+**Completed:**
+- Reviewed and cleaned 6 Big Tech company modules:
+  - company-google.json
+  - company-amazon.json
+  - company-apple.json
+  - company-meta.json
+  - company-microsoft.json
+  - company-netflix.json
+
+**Garbage Content Removed:**
+
+1. **Process sections** - Removed "Common Interview Questions" text blocks containing:
+   - Google: Blanks like "Did you tell her about _______?", nonsense like "Bubble or Revolution?"
+   - Amazon: "You need a back rub, my dude?", "in these sections?"
+   - Apple: "can you even read?", "Why is that relevant to me or this job?"
+   - Meta: "When did Blind turn into Reddit?", oil rig advice
+   - Microsoft: "will i ever make it to GOOGLE if i don't go to Stanford!?"
+   - Netflix: Blanks like "How are you doing on ____ topic?"
+
+2. **Tips sections** - Removed "Insider Tips" text blocks containing:
+   - Reddit fragments starting with lowercase/fragments
+   - Cut-off sentences and nonsense tips
+   - Email addresses and personal solicitations
+
+**Files Modified:**
+- `data/generated/modules/company-google.json` - Removed 2 garbage text blocks
+- `data/generated/modules/company-amazon.json` - Removed 2 garbage text blocks
+- `data/generated/modules/company-apple.json` - Removed 2 garbage text blocks
+- `data/generated/modules/company-meta.json` - Removed 2 garbage text blocks
+- `data/generated/modules/company-microsoft.json` - Removed 2 garbage text blocks
+- `data/generated/modules/company-netflix.json` - Removed 2 garbage text blocks
+
+**Verification:**
+- All 6 JSON files are valid (verified with python json.tool)
+- No garbage content remains (grep verification passed)
+- `npm run lint` - passes (warnings only for pre-existing img elements in tests)
+- `npm run build` - successful production build
+- `npm test -- --testPathPattern="module"` - 93 tests pass
+- All acceptance criteria verified:
+  - No "my dude", blanks, or nonsense questions remain ✓
+  - Company-specific insights preserved ✓
+  - All modules still valid JSON ✓
