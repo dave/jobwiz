@@ -32,7 +32,7 @@ Fix content quality issues identified during manual review of interview prep mod
 - [x] #288 - Big Tech batch
 - [x] #289 - High-growth startups batch
 - [x] #290 - Finance batch
-- [ ] #291 - Consulting batch
+- [x] #291 - Consulting batch
 - [ ] #292 - E-commerce/Retail batch
 - [ ] #293 - Healthcare/Biotech batch
 - [ ] #294 - Enterprise SaaS batch
@@ -1783,3 +1783,50 @@ Block patterns found (consistent across all modules):
 - ✅ All 106 company-role modules in batch reviewed
 - ✅ Questions appear before explanations (verified - no issues found)
 - ✅ Content flow is logical (section intro → tip → quiz blocks)
+### 2026-01-19 - Issue #291: Fix content ordering - Company-role modules: Consulting
+
+**Status:** Complete - No issues found
+
+**Modules Reviewed (48 total):**
+Reviewed all company-role modules for 10 Consulting companies:
+- McKinsey (5 modules): business-analyst, data-scientist, management-consultant, product-manager, software-engineer
+- BCG (5 modules): business-analyst, data-scientist, management-consultant, product-manager, software-engineer
+- Bain (4 modules): business-analyst, data-scientist, management-consultant, product-manager
+- Deloitte (5 modules): business-analyst, data-scientist, financial-analyst, management-consultant, software-engineer
+- Accenture (5 modules): business-analyst, data-scientist, management-consultant, product-manager, software-engineer
+- PwC (5 modules): business-analyst, data-scientist, financial-analyst, management-consultant, software-engineer
+- EY (5 modules): business-analyst, data-scientist, financial-analyst, management-consultant, software-engineer
+- KPMG (5 modules): business-analyst, data-scientist, financial-analyst, management-consultant, software-engineer
+- Capgemini (4 modules): business-analyst, data-scientist, management-consultant, software-engineer
+- Booz Allen (5 modules): business-analyst, data-scientist, management-consultant, security-engineer, software-engineer
+
+**Analysis Approach:**
+1. Created automated checker script to detect text/tip/warning blocks appearing between quiz blocks
+2. Scanned all 48 modules for ordering issues
+3. Verified block patterns across all sections
+4. Manually spot-checked sample files (McKinsey MC, BCG BA, Deloitte SWE, KPMG FA, Booz Allen Security)
+
+**Findings:**
+All 48 modules have the **correct** ordering structure:
+- Section intro text at position 0
+- Key focus areas tip/warning at position 1
+- All quiz blocks grouped together after intro content
+
+Block patterns found (consistent across all modules):
+- `text tip quiz quiz quiz quiz quiz` - 96 sections (Behavioral, Technical)
+- `text warning quiz quiz quiz quiz quiz` - 48 sections (Culture Fit)
+- `text tip quiz quiz quiz quiz` - 48 sections (Curveball - 4 quizzes)
+
+**No fixes required** - The current structure is correct. Explanations/frameworks do NOT appear before questions; they appear at the section level as introductory content, which is appropriate.
+
+**Verification:**
+- `npm run lint` - passes (warnings only for unrelated image issues)
+- `npm run type-check` - passes
+- `npm run build` - successful
+- `npm test -- --testPathPattern="modules"` - 77 tests pass
+
+**Acceptance Criteria:**
+- ✅ All 48 company-role modules in batch reviewed
+- ✅ Questions appear before explanations (verified - no issues found)
+- ✅ Content flow is logical (section intro → tip → quiz blocks)
+
