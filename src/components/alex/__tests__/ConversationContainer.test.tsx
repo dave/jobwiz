@@ -797,5 +797,31 @@ describe("ConversationContainer", () => {
       expect(toggle).toHaveAttribute("aria-label", "Open progress menu");
       expect(toggle).toHaveAttribute("aria-expanded", "false");
     });
+
+    it("container has application role and accessible label", () => {
+      const items = [createTestItem("text")];
+      render(<TestWrapper items={items} />);
+
+      const container = screen.getByTestId("conversation-container");
+      expect(container).toHaveAttribute("role", "application");
+      expect(container).toHaveAttribute("aria-label", "Interview preparation content");
+    });
+
+    it("has mode announcement live region", () => {
+      const items = [createTestItem("text")];
+      render(<TestWrapper items={items} />);
+
+      const announcement = screen.getByTestId("mode-announcement");
+      expect(announcement).toHaveAttribute("aria-live", "assertive");
+      expect(announcement).toHaveAttribute("aria-atomic", "true");
+    });
+
+    it("main content area has proper role", () => {
+      const items = [createTestItem("text")];
+      render(<TestWrapper items={items} />);
+
+      const mainContent = screen.getByRole("main");
+      expect(mainContent).toBeInTheDocument();
+    });
   });
 });

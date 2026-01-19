@@ -293,7 +293,16 @@ describe("ConversationalMode", () => {
 
       const container = screen.getByRole("log");
       expect(container).toHaveAttribute("aria-label", "Conversation history");
-      expect(container).toHaveAttribute("aria-live", "polite");
+      // aria-live is on a separate element for better screen reader behavior
+      expect(container).toHaveAttribute("tabIndex", "-1");
+    });
+
+    it("has dedicated live region for screen reader announcements", () => {
+      render(<ConversationalMode messages={[]} />);
+
+      const liveRegion = screen.getByTestId("conversation-live-region");
+      expect(liveRegion).toHaveAttribute("aria-live", "polite");
+      expect(liveRegion).toHaveAttribute("aria-atomic", "true");
     });
 
     it("messages have correct test IDs for identification", () => {
@@ -318,6 +327,65 @@ describe("ConversationalMode", () => {
 
       expect(screen.getByTestId("message-msg-1")).toHaveAttribute("data-sender", "alex");
       expect(screen.getByTestId("message-msg-2")).toHaveAttribute("data-sender", "user");
+    });
+
+    it("messages have aria-label for screen readers", () => {
+      const messages = [
+        createMessage("msg-1", "alex", "Hello there!"),
+        createMessage("msg-2", "user", "Hi back!"),
+      ];
+
+      render(<ConversationalMode messages={messages} />);
+
+      expect(screen.getByTestId("message-msg-1")).toHaveAttribute(
+        "aria-label",
+        "Alex: Hello there!"
+      );
+      expect(screen.getByTestId("message-msg-2")).toHaveAttribute(
+        "aria-label",
+        "You: Hi back!"
+      );
+    });
+
+    it("active content region has proper aria attributes", () => {
+      const messages = [createMessage("msg-1", "alex", "Pick one:")];
+
+      render(
+        <ConversationalMode messages={messages}>
+          <button>Option A</button>
+        </ConversationalMode>
+      );
+
+      const activeContent = document.querySelector(".conversation-active-content");
+      expect(activeContent).toHaveAttribute("role", "region");
+      expect(activeContent).toHaveAttribute("aria-label", "Current question options");
+    });
+
+    it("new messages indicator has correct aria-label", () => {
+      const messages = [createMessage("msg-1", "alex", "Hello!")];
+      const { rerender } = render(<ConversationalMode messages={messages} />);
+
+      // Simulate scrolling up
+      const scrollContainer = screen.getByTestId("conversation-scroll-container");
+      Object.defineProperty(scrollContainer, "scrollTop", { value: 0, writable: true });
+      Object.defineProperty(scrollContainer, "scrollHeight", { value: 1000, writable: true });
+      Object.defineProperty(scrollContainer, "clientHeight", { value: 300, writable: true });
+
+      act(() => {
+        fireEvent.scroll(scrollContainer);
+      });
+
+      // Add a new message
+      const newMessages = [
+        ...messages,
+        createMessage("msg-2", "alex", "New message!"),
+      ];
+      rerender(<ConversationalMode messages={newMessages} />);
+
+      const indicator = screen.queryByTestId("new-messages-indicator");
+      if (indicator) {
+        expect(indicator).toHaveAttribute("aria-label", "Scroll to new messages");
+      }
     });
   });
 

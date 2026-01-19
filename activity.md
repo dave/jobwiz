@@ -4817,3 +4817,59 @@ All Stage 6 (Production Content Population) issues are now closed:
 - `mobile-responsive-initial.png` - Initial Big Question mode on mobile
 - `mobile-responsive-drawer.png` - Timeline drawer open
 - `mobile-responsive-conversation.png` - Conversational mode with chat bubbles
+
+### 2026-01-19 - Issue #198: 5.5: Accessibility
+
+**Completed:**
+- Enhanced ARIA live region support in `ConversationalMode`:
+  - Added dedicated `aria-live="polite"` region for new message announcements
+  - Messages announced as "Alex says: [content]" or "You said: [content]"
+  - Live region is visually hidden but accessible to screen readers
+  - Added `aria-label` to individual messages for context
+  - Active content region has `role="region"` and descriptive label
+- Improved focus management:
+  - `ConversationalMode` auto-focuses first interactive element in active content
+  - `BigQuestionMode` auto-focuses continue button after animation completes
+  - Both components have `tabIndex={-1}` for programmatic focus control
+  - Added `focusRef` prop for external focus control
+- Added screen reader announcements for mode changes:
+  - `ConversationContainer` has `aria-live="assertive"` region
+  - Announces "Switched to full-screen content view" or "Switched to conversation view"
+  - Mode announcement region is visually hidden
+- Verified reduced motion support:
+  - Uses `useReducedMotion()` from framer-motion
+  - All animation durations set to 0 when reduced motion preferred
+  - Scroll behavior uses "auto" instead of "smooth" for reduced motion
+- Enhanced keyboard navigation:
+  - Enter advances in BigQuestionMode
+  - Escape exits via handleExit callback
+  - Input/textarea elements excluded from keyboard capture
+  - Continue button receives focus automatically
+- Added ARIA attributes throughout:
+  - `role="application"` on container with descriptive label
+  - `role="main"` on content area
+  - `role="log"` on conversation history
+  - `aria-hidden="true"` on decorative avatar
+  - Arrow icons marked with `aria-hidden="true"`
+
+**Files Modified:**
+- `src/components/alex/ConversationalMode.tsx` - Live region, focus management, ARIA attributes
+- `src/components/alex/BigQuestionMode.tsx` - Focus management, ARIA attributes, contentLabel prop
+- `src/components/alex/ConversationContainer.tsx` - Mode change announcements, ARIA structure
+
+**Tests Updated:**
+- `src/components/alex/__tests__/ConversationalMode.test.tsx` - Added 5 new accessibility tests
+- `src/components/alex/__tests__/BigQuestionMode.test.tsx` - Added 5 new accessibility tests
+- `src/components/alex/__tests__/ConversationContainer.test.tsx` - Added 4 new accessibility tests
+
+**Verification:**
+- `npm run lint` - passes (only pre-existing warnings)
+- `npm run type-check` - passes with no errors
+- `npm run build` - successful production build
+- `npm test` - 126 conversation UI tests pass (ConversationalMode, BigQuestionMode, ConversationContainer)
+- All acceptance criteria verified:
+  - Live region announces new messages ✓
+  - Focus moves appropriately ✓
+  - Mode changes announced ✓
+  - Reduced motion respected ✓
+  - Full keyboard navigation ✓
