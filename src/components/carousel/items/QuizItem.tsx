@@ -3,6 +3,7 @@
 import { useState, useCallback } from "react";
 import { cn } from "@/lib/utils";
 import type { QuizBlock, QuizOption } from "@/types/module";
+import { ReflectionItem } from "./ReflectionItem";
 
 export interface QuizItemProps {
   /** The quiz block to render */
@@ -11,6 +12,38 @@ export interface QuizItemProps {
   onComplete?: () => void;
   /** Custom class name */
   className?: string;
+}
+
+/**
+ * Detects if a quiz should be rendered as a reflection/guidance format.
+ *
+ * Reflection quizzes have:
+ * - A correct answer starting with "Demonstrate"
+ * - The correct answer is significantly longer than wrong answers
+ *
+ * These are "behavioral interview question" quizzes where the "correct answer"
+ * is really guidance on what to demonstrate, not a trivia answer.
+ */
+export function isReflectionQuiz(block: QuizBlock): boolean {
+  const correctOption = block.options.find((o) => o.isCorrect);
+  const wrongOptions = block.options.filter((o) => !o.isCorrect);
+
+  if (!correctOption || wrongOptions.length === 0) return false;
+
+  // Check if correct answer starts with "Demonstrate"
+  const startsWithDemonstrate = correctOption.text
+    .toLowerCase()
+    .trim()
+    .startsWith("demonstrate");
+
+  if (!startsWithDemonstrate) return false;
+
+  // Check if correct answer is significantly longer than average wrong answer
+  const avgWrongLength =
+    wrongOptions.reduce((sum, o) => sum + o.text.length, 0) / wrongOptions.length;
+  const isLonger = correctOption.text.length > avgWrongLength * 1.5;
+
+  return isLonger;
 }
 
 const CheckIcon = () => (
@@ -55,8 +88,24 @@ const XIcon = () => (
  * - Submit automatically advances to next item
  * - Clear correct/incorrect feedback
  * - Centered, minimal UI design
+ * - Automatically delegates to ReflectionItem for "Demonstrate..." style quizzes
  */
 export function QuizItem({ block, onComplete, className }: QuizItemProps) {
+  // Check if this should be rendered as a reflection quiz
+  if (isReflectionQuiz(block)) {
+    return (
+      <ReflectionItem block={block} onComplete={onComplete} className={className} />
+    );
+  }
+
+  return <QuizItemInteractive block={block} onComplete={onComplete} className={className} />;
+}
+
+/**
+ * Internal component for interactive quiz rendering.
+ * Separated to allow early return for reflection quizzes while maintaining hooks rules.
+ */
+function QuizItemInteractive({ block, onComplete, className }: QuizItemProps) {
   const { question, options, multiSelect = false, explanation } = block;
   const [selectedIds, setSelectedIds] = useState<Set<string>>(new Set());
   const [isSubmitted, setIsSubmitted] = useState(false);

@@ -13,7 +13,7 @@ Fix content quality issues identified during manual review of interview prep mod
 
 ### Quiz Format Overhaul (#234)
 - [x] #235 - Create ReflectionItem component
-- [ ] #236 - Add detection logic to QuizItem
+- [x] #236 - Add detection logic to QuizItem
 - [ ] #237 - Add tests
 - [ ] #238 - Visual QA
 
@@ -126,4 +126,39 @@ Fix content quality issues identified during manual review of interview prep mod
 - ✅ Explanation shown as tip
 - ✅ Styling matches other carousel items (Tailwind, centered, responsive)
 - ✅ Accessible (proper ARIA, keyboard nav)
+
+### 2026-01-19 - Issue #236: Add reflection mode detection to QuizItem
+
+**Completed:**
+- Added `isReflectionQuiz` detection function to QuizItem
+- Detection criteria:
+  - Correct answer starts with "Demonstrate" (case-insensitive, whitespace-trimmed)
+  - Correct answer is significantly longer than average wrong answer (1.5x threshold)
+- QuizItem now delegates to ReflectionItem when detection passes
+- Refactored QuizItem into wrapper + QuizItemInteractive to maintain React hooks rules
+
+**Files Modified:**
+- `src/components/carousel/items/QuizItem.tsx` - Added detection logic and delegation
+- `src/components/carousel/items/__tests__/QuizItem.test.tsx` - Added 12 new tests
+
+**Tests Added:**
+- 12 unit tests covering:
+  - `isReflectionQuiz` function: true for Demonstrate..., false for normal quiz
+  - Edge cases: no correct answer, no wrong answers, short Demonstrate, non-Demonstrate long
+  - Case-insensitive detection
+  - Whitespace handling
+  - QuizItem rendering: delegates to ReflectionItem, passes props
+
+**Verification:**
+- `npm run lint` - passes
+- `npm run type-check` - passes
+- `npm run build` - successful
+- `npm test -- --testPathPattern="QuizItem"` - 39 passed, 2 pre-existing failures (class name mismatches)
+- `npm test -- --testPathPattern="modules|Reflection"` - 110 tests pass
+
+**Acceptance Criteria:**
+- ✅ Detection function correctly identifies "Demonstrate..." quizzes
+- ✅ Normal quizzes still render as multiple choice
+- ✅ Reflection quizzes render via ReflectionItem
+- ✅ No breaking changes to existing quiz behavior
 

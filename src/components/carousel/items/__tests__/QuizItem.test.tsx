@@ -1,5 +1,5 @@
 import { render, screen, fireEvent } from "@testing-library/react";
-import { QuizItem } from "../QuizItem";
+import { QuizItem, isReflectionQuiz } from "../QuizItem";
 import type { QuizBlock } from "@/types/module";
 
 describe("QuizItem", () => {
@@ -328,6 +328,159 @@ describe("QuizItem", () => {
       expect(screen.getByText("Correct!")).toBeInTheDocument();
       // Should not crash and should still show continue button
       expect(screen.getByRole("button", { name: "Continue" })).toBeInTheDocument();
+    });
+  });
+
+  describe("Reflection Quiz Detection", () => {
+    const reflectionQuiz: QuizBlock = {
+      id: "reflection-1",
+      type: "quiz",
+      question: "Tell me about a time when you led a team through a difficult challenge.",
+      options: [
+        { id: "a", text: "Making the other person the villain", isCorrect: false },
+        { id: "b", text: "Escalating to management too quickly", isCorrect: false },
+        {
+          id: "c",
+          text: "Demonstrate emotional intelligence, empathy for difficult colleagues, and constructive approach to challenges",
+          isCorrect: true,
+        },
+        { id: "d", text: "No empathy for their perspective", isCorrect: false },
+      ],
+      explanation: "This tests your leadership and conflict resolution skills.",
+    };
+
+    describe("isReflectionQuiz function", () => {
+      it("returns true for quiz with Demonstrate... correct answer that is significantly longer", () => {
+        expect(isReflectionQuiz(reflectionQuiz)).toBe(true);
+      });
+
+      it("returns false for normal trivia quiz", () => {
+        expect(isReflectionQuiz(singleChoiceQuiz)).toBe(false);
+      });
+
+      it("returns false when correct answer does not start with Demonstrate", () => {
+        const nonDemonstrateQuiz: QuizBlock = {
+          id: "non-demo",
+          type: "quiz",
+          question: "Test question?",
+          options: [
+            { id: "a", text: "Short wrong", isCorrect: false },
+            { id: "b", text: "Very long correct answer that does not start with demonstrate", isCorrect: true },
+            { id: "c", text: "Another short", isCorrect: false },
+          ],
+        };
+        expect(isReflectionQuiz(nonDemonstrateQuiz)).toBe(false);
+      });
+
+      it("returns false when Demonstrate answer is not significantly longer", () => {
+        const shortDemonstrateQuiz: QuizBlock = {
+          id: "short-demo",
+          type: "quiz",
+          question: "Test question?",
+          options: [
+            { id: "a", text: "First option text here", isCorrect: false },
+            { id: "b", text: "Demonstrate skills", isCorrect: true },
+            { id: "c", text: "Third option text here", isCorrect: false },
+          ],
+        };
+        expect(isReflectionQuiz(shortDemonstrateQuiz)).toBe(false);
+      });
+
+      it("returns false when no correct answer exists", () => {
+        const noCorrectQuiz: QuizBlock = {
+          id: "no-correct",
+          type: "quiz",
+          question: "Test?",
+          options: [
+            { id: "a", text: "Demonstrate something here", isCorrect: false },
+            { id: "b", text: "Another option", isCorrect: false },
+          ],
+        };
+        expect(isReflectionQuiz(noCorrectQuiz)).toBe(false);
+      });
+
+      it("returns false when no wrong answers exist", () => {
+        const onlyCorrectQuiz: QuizBlock = {
+          id: "only-correct",
+          type: "quiz",
+          question: "Test?",
+          options: [
+            { id: "a", text: "Demonstrate something very long and detailed", isCorrect: true },
+          ],
+        };
+        expect(isReflectionQuiz(onlyCorrectQuiz)).toBe(false);
+      });
+
+      it("handles case-insensitive Demonstrate detection", () => {
+        const lowerCaseQuiz: QuizBlock = {
+          id: "lowercase-demo",
+          type: "quiz",
+          question: "Test?",
+          options: [
+            { id: "a", text: "Short", isCorrect: false },
+            { id: "b", text: "demonstrate emotional intelligence, empathy, and leadership skills", isCorrect: true },
+            { id: "c", text: "Wrong", isCorrect: false },
+          ],
+        };
+        expect(isReflectionQuiz(lowerCaseQuiz)).toBe(true);
+      });
+
+      it("handles whitespace before Demonstrate", () => {
+        const whitespaceQuiz: QuizBlock = {
+          id: "whitespace-demo",
+          type: "quiz",
+          question: "Test?",
+          options: [
+            { id: "a", text: "Short", isCorrect: false },
+            { id: "b", text: "  Demonstrate emotional intelligence, empathy, and leadership skills", isCorrect: true },
+            { id: "c", text: "Wrong", isCorrect: false },
+          ],
+        };
+        expect(isReflectionQuiz(whitespaceQuiz)).toBe(true);
+      });
+    });
+
+    describe("QuizItem rendering", () => {
+      it("renders as ReflectionItem when detected as reflection quiz", () => {
+        render(<QuizItem block={reflectionQuiz} />);
+
+        // ReflectionItem shows "Interview Question" label
+        expect(screen.getByText("Interview Question")).toBeInTheDocument();
+        // ReflectionItem shows "What to Demonstrate" label
+        expect(screen.getByText("What to Demonstrate")).toBeInTheDocument();
+        // ReflectionItem shows "Common Mistakes to Avoid" label
+        expect(screen.getByText("Common Mistakes to Avoid")).toBeInTheDocument();
+      });
+
+      it("renders as interactive quiz when not a reflection quiz", () => {
+        render(<QuizItem block={singleChoiceQuiz} />);
+
+        // Interactive quiz has "Check Answer" button
+        expect(screen.getByRole("button", { name: "Check Answer" })).toBeInTheDocument();
+        // Should NOT have ReflectionItem labels
+        expect(screen.queryByText("Interview Question")).not.toBeInTheDocument();
+        expect(screen.queryByText("What to Demonstrate")).not.toBeInTheDocument();
+      });
+
+      it("passes onComplete to ReflectionItem for reflection quizzes", () => {
+        const onComplete = jest.fn();
+        render(<QuizItem block={reflectionQuiz} onComplete={onComplete} />);
+
+        // Click Continue button in ReflectionItem
+        const continueButton = screen.getByRole("button", { name: "Continue" });
+        fireEvent.click(continueButton);
+
+        expect(onComplete).toHaveBeenCalledTimes(1);
+      });
+
+      it("passes className to ReflectionItem for reflection quizzes", () => {
+        const { container } = render(
+          <QuizItem block={reflectionQuiz} className="custom-reflection-class" />
+        );
+
+        const wrapper = container.firstChild as HTMLElement;
+        expect(wrapper).toHaveClass("custom-reflection-class");
+      });
     });
   });
 });
