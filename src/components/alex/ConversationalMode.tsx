@@ -21,6 +21,8 @@ export interface ConversationalModeProps {
   className?: string;
   /** Optional test ID */
   "data-testid"?: string;
+  /** Ref to receive focus when mode activates */
+  focusRef?: React.RefObject<HTMLDivElement>;
 }
 
 /**
@@ -40,10 +42,17 @@ export function ConversationalMode({
   children,
   className = "",
   "data-testid": testId,
+  focusRef,
 }: ConversationalModeProps) {
   const prefersReducedMotion = useReducedMotion();
   const scrollContainerRef = useRef<HTMLDivElement>(null);
   const bottomRef = useRef<HTMLDivElement>(null);
+  const containerRef = useRef<HTMLDivElement>(null);
+  const liveRegionRef = useRef<HTMLDivElement>(null);
+  const activeContentRef = useRef<HTMLDivElement>(null);
+
+  // Track last announced message to avoid duplicate announcements
+  const lastAnnouncedIdRef = useRef<string | null>(null);
 
   // Track if user has scrolled up from bottom
   const [isScrolledUp, setIsScrolledUp] = useState(false);
@@ -73,12 +82,26 @@ export function ConversationalMode({
     }
   }, []);
 
-  // Auto-scroll to bottom when new messages arrive
+  // Auto-scroll to bottom when new messages arrive and announce to screen readers
   useEffect(() => {
     const newMessageCount = messages.length;
     const hadNewMessages = newMessageCount > lastMessageCountRef.current;
 
     if (hadNewMessages) {
+      // Get the latest message for screen reader announcement
+      const latestMessage = messages[messages.length - 1];
+
+      // Announce new message to screen readers if not already announced
+      if (
+        latestMessage &&
+        liveRegionRef.current &&
+        latestMessage.id !== lastAnnouncedIdRef.current
+      ) {
+        const sender = latestMessage.sender === "alex" ? "Alex says" : "You said";
+        liveRegionRef.current.textContent = `${sender}: ${latestMessage.content}`;
+        lastAnnouncedIdRef.current = latestMessage.id;
+      }
+
       if (shouldAutoScrollRef.current) {
         // Smooth scroll to bottom
         bottomRef.current?.scrollIntoView({
@@ -92,7 +115,34 @@ export function ConversationalMode({
     }
 
     lastMessageCountRef.current = newMessageCount;
-  }, [messages.length, prefersReducedMotion]);
+  }, [messages, prefersReducedMotion]);
+
+  // Focus management - move focus to active content when available
+  useEffect(() => {
+    // If there's active content (children), we might want to focus it
+    // This allows keyboard users to interact with options/buttons immediately
+    if (children && activeContentRef.current) {
+      // Find first focusable element in active content
+      const focusable = activeContentRef.current.querySelector<HTMLElement>(
+        'button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])'
+      );
+      if (focusable) {
+        // Small delay to ensure rendering is complete
+        requestAnimationFrame(() => {
+          focusable.focus();
+        });
+      }
+    }
+  }, [children]);
+
+  // Set up ref forwarding for external focus control
+  useEffect(() => {
+    if (focusRef?.current === null && containerRef.current) {
+      // TypeScript workaround - focusRef is readonly in the props
+      // but we need to assign to it for focus management
+      Object.assign(focusRef, { current: containerRef.current });
+    }
+  }, [focusRef]);
 
   // Handle clicking "New" indicator to scroll to bottom
   const scrollToBottom = useCallback(() => {
@@ -148,13 +198,23 @@ export function ConversationalMode({
 
   return (
     <div
+      ref={containerRef}
       className={`conversational-mode ${className}`.trim()}
       style={containerStyle}
       data-testid={testId}
       role="log"
       aria-label="Conversation history"
-      aria-live="polite"
+      tabIndex={-1}
     >
+      {/* Screen reader live region for announcing new messages */}
+      <div
+        ref={liveRegionRef}
+        aria-live="polite"
+        aria-atomic="true"
+        style={srOnlyStyle}
+        data-testid="conversation-live-region"
+      />
+
       {/* Scrollable messages container */}
       <div
         ref={scrollContainerRef}
@@ -176,6 +236,7 @@ export function ConversationalMode({
                 exit="exit"
                 data-testid={`message-${message.id}`}
                 data-sender={message.sender}
+                aria-label={`${message.sender === "alex" ? "Alex" : "You"}: ${message.content}`}
               >
                 {message.sender === "alex" ? (
                   <div style={alexMessageStyle}>
@@ -198,6 +259,7 @@ export function ConversationalMode({
           {/* Active content area (options, continue button, etc.) */}
           {children && (
             <motion.div
+              ref={activeContentRef}
               className="conversation-active-content"
               style={activeContentStyle}
               initial={{ opacity: 0, y: 8 }}
@@ -209,6 +271,8 @@ export function ConversationalMode({
                   delay: prefersReducedMotion ? 0 : 0.15,
                 },
               }}
+              role="region"
+              aria-label="Current question options"
             >
               {children}
             </motion.div>
@@ -233,7 +297,7 @@ export function ConversationalMode({
             aria-label="Scroll to new messages"
             data-testid="new-messages-indicator"
           >
-            <span style={arrowStyle}>↓</span>
+            <span style={arrowStyle} aria-hidden="true">↓</span>
             <span>New</span>
           </motion.button>
         )}
@@ -361,6 +425,21 @@ const newIndicatorStyle: React.CSSProperties = {
  */
 const arrowStyle: React.CSSProperties = {
   fontSize: "var(--text-base)",
+};
+
+/**
+ * Screen reader only style - visually hidden but accessible
+ */
+const srOnlyStyle: React.CSSProperties = {
+  position: "absolute",
+  width: "1px",
+  height: "1px",
+  padding: 0,
+  margin: "-1px",
+  overflow: "hidden",
+  clip: "rect(0, 0, 0, 0)",
+  whiteSpace: "nowrap",
+  border: 0,
 };
 
 export default ConversationalMode;

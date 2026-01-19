@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useEffect, type ReactNode } from "react";
+import { useCallback, useEffect, useRef, type ReactNode } from "react";
 import { motion, useReducedMotion } from "framer-motion";
 import { Avatar } from "./Avatar";
 
@@ -21,6 +21,10 @@ export interface BigQuestionModeProps {
   className?: string;
   /** Optional test ID */
   "data-testid"?: string;
+  /** Ref to receive focus when mode activates */
+  focusRef?: React.RefObject<HTMLDivElement>;
+  /** Optional aria-label for the main content region */
+  contentLabel?: string;
 }
 
 /**
@@ -48,8 +52,31 @@ export function BigQuestionMode({
   continueDisabled = false,
   className = "",
   "data-testid": testId,
+  focusRef,
+  contentLabel = "Content display",
 }: BigQuestionModeProps) {
   const prefersReducedMotion = useReducedMotion();
+  const containerRef = useRef<HTMLDivElement>(null);
+  const buttonRef = useRef<HTMLButtonElement>(null);
+
+  // Focus the continue button when component mounts (after animation)
+  useEffect(() => {
+    // Delay focus to allow animations to complete
+    const timer = setTimeout(() => {
+      if (buttonRef.current && !continueDisabled) {
+        buttonRef.current.focus();
+      }
+    }, prefersReducedMotion ? 0 : 300);
+
+    return () => clearTimeout(timer);
+  }, [continueDisabled, prefersReducedMotion]);
+
+  // Set up ref forwarding for external focus control
+  useEffect(() => {
+    if (focusRef?.current === null && containerRef.current) {
+      Object.assign(focusRef, { current: containerRef.current });
+    }
+  }, [focusRef]);
 
   // Handle keyboard navigation
   const handleKeyDown = useCallback(
@@ -114,6 +141,7 @@ export function BigQuestionMode({
 
   return (
     <motion.div
+      ref={containerRef}
       className={`big-question-mode ${className}`.trim()}
       style={containerStyle}
       onClick={handleContainerClick}
@@ -122,13 +150,15 @@ export function BigQuestionMode({
       variants={containerVariants}
       data-testid={testId}
       role="region"
-      aria-label="Content display"
+      aria-label={contentLabel}
+      tabIndex={-1}
     >
       {/* Large Avatar at top */}
       <motion.div
         className="big-question-avatar"
         style={avatarContainerStyle}
         variants={itemVariants}
+        aria-hidden="true"
       >
         <Avatar size="large" />
       </motion.div>
@@ -138,6 +168,8 @@ export function BigQuestionMode({
         className="big-question-content"
         style={contentContainerStyle}
         variants={itemVariants}
+        role="main"
+        aria-live="polite"
       >
         {children}
       </motion.div>
@@ -149,6 +181,7 @@ export function BigQuestionMode({
         variants={itemVariants}
       >
         <button
+          ref={buttonRef}
           onClick={onContinue}
           disabled={continueDisabled}
           style={{
