@@ -38,15 +38,13 @@ DO NOT CONTINUE IF ANY TESTS FAIL OR IF THE ACCEPTANCE CRITERIA ARE NOT MET
 
 Append a dated progress entry to activity.md describing what you changed.
 
-Do not git init, do not change remotes.
-
 ONLY WORK ON A SINGLE TASK.
 
-When fully finished, make one git commit for that task only with a clear message.
+Do not git init, do not change remotes, do not push directly without making a PR.
 
-Remove the "in-progress" from the issue. 
+When fully finished, make one git commit for that task only with a clear message. Create a pull request that completes the issue, and merge the PR.
 
-Create a pull request that completes the issue, and merge the PR.
+Remove the "in-progress" from the issue.
 
 After you've finished work, just exit. Do not pick any more work to do. 
 
