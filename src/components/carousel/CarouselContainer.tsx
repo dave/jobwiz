@@ -40,6 +40,7 @@ export function CarouselContainer({
 }: CarouselContainerProps) {
   const {
     state,
+    currentItem,
     next,
     prev,
     canGoNext,
@@ -48,6 +49,7 @@ export function CarouselContainer({
     isLastItem,
     isAtPaywall,
     totalItems,
+    markComplete,
   } = useCarousel();
 
   const { currentIndex, lastDirection, paywallIndex, hasPremiumAccess } = state;
@@ -82,6 +84,10 @@ export function CarouselContainer({
         case "ArrowRight":
           if (canGoNext) {
             event.preventDefault();
+            // Mark current item complete and advance
+            if (currentItem) {
+              markComplete(currentItem.id);
+            }
             next();
           }
           break;
@@ -102,7 +108,7 @@ export function CarouselContainer({
 
     window.addEventListener("keydown", handleKeyDown);
     return () => window.removeEventListener("keydown", handleKeyDown);
-  }, [canGoNext, canGoPrev, next, prev, onExit]);
+  }, [canGoNext, canGoPrev, next, prev, onExit, currentItem, markComplete]);
 
   // Touch event handlers for swipe gestures
   const handleTouchStart = useCallback((e: TouchEvent<HTMLDivElement>) => {
@@ -137,7 +143,10 @@ export function CarouselContainer({
       // This prevents swipe navigation when scrolling
       if (Math.abs(deltaX) > Math.abs(deltaY) && Math.abs(deltaX) > swipeThreshold) {
         if (deltaX < 0 && canGoNext) {
-          // Swiped left = next
+          // Swiped left = next, mark current item complete
+          if (currentItem) {
+            markComplete(currentItem.id);
+          }
           next();
         } else if (deltaX > 0 && canGoPrev) {
           // Swiped right = prev
@@ -149,7 +158,7 @@ export function CarouselContainer({
       touchStartX.current = null;
       touchStartY.current = null;
     },
-    [isSwiping, swipeThreshold, canGoNext, canGoPrev, next, prev]
+    [isSwiping, swipeThreshold, canGoNext, canGoPrev, next, prev, currentItem, markComplete]
   );
 
   const handleTouchCancel = useCallback(() => {
@@ -165,12 +174,20 @@ export function CarouselContainer({
     }
   }, [canGoPrev, prev]);
 
+  // Mark current item as complete and advance to next
+  const markCompleteAndNext = useCallback(() => {
+    if (currentItem) {
+      markComplete(currentItem.id);
+    }
+    next();
+  }, [currentItem, markComplete, next]);
+
   // Handle next button click
   const handleNext = useCallback(() => {
     if (canGoNext) {
-      next();
+      markCompleteAndNext();
     }
-  }, [canGoNext, next]);
+  }, [canGoNext, markCompleteAndNext]);
 
   // Determine animation class based on last direction
   const animationClass =

@@ -1,17 +1,12 @@
 import { notFound, redirect } from "next/navigation";
 import Link from "next/link";
-import type { ReactNode } from "react";
 import { Metadata } from "next";
 import {
   validateCompanyRoleRoute,
   getTopCompanyRoleCombos,
 } from "@/lib/routing";
 import { createServerClient } from "@/lib/supabase/server";
-import {
-  getPreviewContent,
-  type PreviewContent,
-  REVALIDATE_INTERVAL,
-} from "@/lib/content-fetching";
+import { REVALIDATE_INTERVAL } from "@/lib/content-fetching";
 import {
   generateCompanyRoleMetadata,
   generate404Metadata,
@@ -77,27 +72,17 @@ export default async function CompanyRolePage({ params }: CompanyRolePageProps) 
 
   const { company, role, canonicalPath } = result;
 
-  // Fetch preview content and theme from Supabase
-  let previewContent: PreviewContent | null = null;
+  // Fetch theme from Supabase
+  // Note: Module content is loaded from JSON files by the carousel loader (src/lib/carousel/load-modules.ts)
   let theme: ResolvedTheme;
 
   try {
     const supabase = await createServerClient();
-    const [contentResult, themeResult] = await Promise.all([
-      getPreviewContent(supabase, company.slug, role.slug).catch(() => null),
-      getResolvedTheme(supabase, company.slug),
-    ]);
-    previewContent = contentResult;
-    theme = themeResult;
+    theme = await getResolvedTheme(supabase, company.slug);
   } catch {
     // Fallback to default theme if Supabase unavailable
-    previewContent = null;
     theme = resolveTheme(company.slug, null);
-    console.log(`No content/theme yet for ${company.slug}/${role.slug}`);
   }
-
-  // Determine if we have real content or should show placeholder
-  const hasContent = previewContent && previewContent.modules.length > 0;
 
   // Generate structured data
   const courseSchema = generateCourseSchema(company, role, canonicalPath ?? `/${company.slug}/${role.slug}`);
@@ -157,125 +142,75 @@ export default async function CompanyRolePage({ params }: CompanyRolePageProps) 
             What You&apos;ll Learn
           </h2>
 
-          {/* Show real content if available from Supabase */}
-          {hasContent && previewContent ? (
-            <div className="space-y-6">
-              {/* Module list from content fetching */}
-              <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-                {previewContent.modules.map((mod) => (
-                  <div
-                    key={mod.id}
-                    className="p-6 bg-white rounded-lg border border-gray-200 hover:border-[var(--theme-primary,#2563eb)] transition-colors"
-                  >
-                    <h3 className="font-medium text-gray-900 mb-2">
-                      {mod.title}
-                    </h3>
-                    {mod.description && (
-                      <p className="text-sm text-gray-500">{mod.description}</p>
-                    )}
-                    <p className="text-xs text-gray-400 mt-2">
-                      {mod.sections.length} section
-                      {mod.sections.length !== 1 ? "s" : ""}
-                    </p>
-                  </div>
-                ))}
+          {/* Placeholder content - modules are loaded from JSON files in the journey */}
+          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            <div className="p-6 bg-white rounded-lg border border-gray-200 hover:border-[var(--theme-primary,#2563eb)] transition-colors">
+              <div className="w-10 h-10 bg-[var(--theme-primary-light,#dbeafe)] rounded-lg flex items-center justify-center mb-4">
+                <svg
+                  className="w-5 h-5 text-[var(--theme-primary,#2563eb)]"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+                  />
+                </svg>
               </div>
-
-              {/* Premium content teaser */}
-              {previewContent.premiumModuleCount > 0 && (
-                <div className="p-4 bg-amber-50 border border-amber-200 rounded-lg">
-                  <p className="text-sm text-amber-800">
-                    <span className="font-medium">
-                      {previewContent.premiumModuleCount} premium module
-                      {previewContent.premiumModuleCount !== 1 ? "s" : ""}
-                    </span>{" "}
-                    available with full access
-                  </p>
-                </div>
-              )}
-
-              {/* Truncated sections indicator */}
-              {previewContent.truncatedSections.length > 0 && (
-                <p className="text-xs text-gray-400">
-                  {previewContent.truncatedSections.reduce(
-                    (sum, s) => sum + s.hiddenBlockCount,
-                    0
-                  )}{" "}
-                  premium content blocks available with purchase
-                </p>
-              )}
+              <h3 className="font-medium text-gray-900 mb-2">Company Culture</h3>
+              <p className="text-sm text-gray-500">
+                Learn what {company.name} looks for in candidates and how to
+                demonstrate cultural fit.
+              </p>
             </div>
-          ) : (
-            /* Placeholder content when no modules in Supabase yet */
-            <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-              <div className="p-6 bg-white rounded-lg border border-gray-200 hover:border-[var(--theme-primary,#2563eb)] transition-colors">
-                <div className="w-10 h-10 bg-[var(--theme-primary-light,#dbeafe)] rounded-lg flex items-center justify-center mb-4">
-                  <svg
-                    className="w-5 h-5 text-[var(--theme-primary,#2563eb)]"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                    />
-                  </svg>
-                </div>
-                <h3 className="font-medium text-gray-900 mb-2">Company Culture</h3>
-                <p className="text-sm text-gray-500">
-                  Learn what {company.name} looks for in candidates and how to
-                  demonstrate cultural fit.
-                </p>
+            <div className="p-6 bg-white rounded-lg border border-gray-200 hover:border-[var(--theme-primary,#2563eb)] transition-colors">
+              <div className="w-10 h-10 bg-[var(--theme-secondary-light,#f1f5f9)] rounded-lg flex items-center justify-center mb-4">
+                <svg
+                  className="w-5 h-5 text-[var(--theme-secondary,#64748b)]"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                  />
+                </svg>
               </div>
-              <div className="p-6 bg-white rounded-lg border border-gray-200 hover:border-[var(--theme-primary,#2563eb)] transition-colors">
-                <div className="w-10 h-10 bg-[var(--theme-secondary-light,#f1f5f9)] rounded-lg flex items-center justify-center mb-4">
-                  <svg
-                    className="w-5 h-5 text-[var(--theme-secondary,#64748b)]"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-                    />
-                  </svg>
-                </div>
-                <h3 className="font-medium text-gray-900 mb-2">Practice Questions</h3>
-                <p className="text-sm text-gray-500">
-                  Real interview questions from {role.name} interviews at{" "}
-                  {company.name}.
-                </p>
-              </div>
-              <div className="p-6 bg-white rounded-lg border border-gray-200 hover:border-[var(--theme-primary,#2563eb)] transition-colors">
-                <div className="w-10 h-10 bg-[var(--theme-primary-light,#dbeafe)] rounded-lg flex items-center justify-center mb-4">
-                  <svg
-                    className="w-5 h-5 text-[var(--theme-primary,#2563eb)]"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M13 10V3L4 14h7v7l9-11h-7z"
-                    />
-                  </svg>
-                </div>
-                <h3 className="font-medium text-gray-900 mb-2">Insider Tips</h3>
-                <p className="text-sm text-gray-500">
-                  Proven strategies and tips from successful {company.name}{" "}
-                  candidates.
-                </p>
-              </div>
+              <h3 className="font-medium text-gray-900 mb-2">Practice Questions</h3>
+              <p className="text-sm text-gray-500">
+                Real interview questions from {role.name} interviews at{" "}
+                {company.name}.
+              </p>
             </div>
-          )}
+            <div className="p-6 bg-white rounded-lg border border-gray-200 hover:border-[var(--theme-primary,#2563eb)] transition-colors">
+              <div className="w-10 h-10 bg-[var(--theme-primary-light,#dbeafe)] rounded-lg flex items-center justify-center mb-4">
+                <svg
+                  className="w-5 h-5 text-[var(--theme-primary,#2563eb)]"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M13 10V3L4 14h7v7l9-11h-7z"
+                  />
+                </svg>
+              </div>
+              <h3 className="font-medium text-gray-900 mb-2">Insider Tips</h3>
+              <p className="text-sm text-gray-500">
+                Proven strategies and tips from successful {company.name}{" "}
+                candidates.
+              </p>
+            </div>
+          </div>
         </section>
 
         {/* Navigation */}
