@@ -20,7 +20,7 @@ Fix content quality issues identified during manual review of interview prep mod
 ### Remove Role-Specific Content (#230)
 - [x] #279 - Big Tech batch
 - [x] #280 - High-growth startups batch
-- [ ] #281 - Finance batch
+- [x] #281 - Finance batch
 - [ ] #282 - Consulting batch
 - [ ] #283 - E-commerce/Retail batch
 - [ ] #284 - Healthcare/Biotech batch
@@ -1314,6 +1314,64 @@ Stripe, Figma, Notion, Vercel, Databricks, Snowflake, Airbnb, Uber, Lyft, DoorDa
 
 **Script Created:**
 - `scripts/cleanup/remove-role-specific-high-growth.ts` - Automated removal of role-specific content
+
+**Verification:**
+- All 14 JSON files valid (node validation passes)
+- `npm run lint` - passes (warnings only for unrelated image issues)
+- `npm run type-check` - passes
+- `npm run build` - successful
+- `npm test -- --testPathPattern="modules"` - 77 tests pass
+
+**Acceptance Criteria:**
+- ✅ All company modules in batch reviewed
+- ✅ Role-specific content removed/generalized
+- ✅ Content still valuable for all roles
+- ✅ JSON valid after edits
+- ✅ All tests pass
+
+### 2026-01-19 - Issue #281: Remove role-specific content - Company modules: Finance
+
+**Status:** Complete
+
+**Modules Modified (14 total):**
+Goldman Sachs, JPMorgan, Morgan Stanley, Bank of America, Citadel, Two Sigma, Jane Street, BlackRock, Fidelity, Charles Schwab, Visa, Mastercard, PayPal, Block
+
+**Role-specific content removed/generalized:**
+
+1. **Culture section** (Goldman Sachs, Morgan Stanley, Bank of America, Citadel, Two Sigma, Jane Street, BlackRock, Fidelity, Visa, Mastercard, PayPal):
+   - Removed: "System design emphasis", "Heavy focus on coding"
+   - Replaced with: Role-neutral cultural themes (behavioral interviews, culture fit, problem-solving, collaboration, data-driven)
+
+2. **Interviewer Mindset section** (all 14 modules):
+   - Removed: "**Technical Questions**" sub-section entirely
+   - Removed: Tips about "statistical knowledge" and "class imbalance" (role-specific data science content)
+   - Generalized: Behavioral questions tip changed from "System design emphasis, Heavy focus on coding, Behavioral interviews important" to "Behavioral interviews, culture fit assessments, and problem-solving exercises"
+
+3. **Process section** (13 modules - all except BlackRock):
+   - Changed: "**Format:** Mix of phone screen, technical, behavioral..." to "**Format:** Mix of phone screen, role-specific, behavioral..."
+
+4. **Tips section** (Citadel, Two Sigma, BlackRock):
+   - Removed: Role-specific tips about "HackerRank", "coding", "Python"
+   - Replaced with: Role-neutral tips about company research, values alignment, high-pressure situations
+
+**Files Modified:**
+- `data/generated/modules/company-goldman-sachs.json`
+- `data/generated/modules/company-jpmorgan.json`
+- `data/generated/modules/company-morgan-stanley.json`
+- `data/generated/modules/company-bank-of-america.json`
+- `data/generated/modules/company-citadel.json`
+- `data/generated/modules/company-two-sigma.json`
+- `data/generated/modules/company-jane-street.json`
+- `data/generated/modules/company-blackrock.json`
+- `data/generated/modules/company-fidelity.json`
+- `data/generated/modules/company-charles-schwab.json`
+- `data/generated/modules/company-visa.json`
+- `data/generated/modules/company-mastercard.json`
+- `data/generated/modules/company-paypal.json`
+- `data/generated/modules/company-block.json`
+
+**Script Created:**
+- `scripts/cleanup/remove-role-specific-finance.ts` - Automated removal of role-specific content
 
 **Verification:**
 - All 14 JSON files valid (node validation passes)
