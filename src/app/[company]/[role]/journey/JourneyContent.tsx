@@ -31,6 +31,8 @@ interface JourneyContentProps {
   paywallIndex: number | null;
   /** Initial access state from server (prevents flicker) */
   initialHasAccess?: boolean;
+  /** Whether user is logged in (from server, prevents button text flicker) */
+  isLoggedIn?: boolean;
 }
 
 /**
@@ -69,6 +71,7 @@ export function JourneyContent({
   totalItems,
   paywallIndex,
   initialHasAccess = false,
+  isLoggedIn = false,
 }: JourneyContentProps) {
   const { user } = useAuth();
   const [hasAccess, setHasAccess] = useState(initialHasAccess);
@@ -210,6 +213,7 @@ export function JourneyContent({
               hasPremiumAccess={hasAccess}
               progress={progress}
               progressLoading={!progressLoaded}
+              isLoggedIn={isLoggedIn}
             />
 
             {/* Premium Unlock Section (if user doesn't have access) */}

@@ -67,10 +67,12 @@ export default async function JourneyPage({ params }: JourneyPageProps) {
 
   // Check access server-side to prevent flicker
   let initialHasAccess = false;
+  let isLoggedIn = false;
   try {
     const supabase = await createServerClient();
     const { data: { user } } = await supabase.auth.getUser();
     if (user) {
+      isLoggedIn = true;
       const result = await checkAccess(supabase, user.id, companySlug, roleSlug);
       initialHasAccess = result.hasAccess;
     }
@@ -88,6 +90,7 @@ export default async function JourneyPage({ params }: JourneyPageProps) {
       totalItems={totalItems}
       paywallIndex={paywallIndex}
       initialHasAccess={initialHasAccess}
+      isLoggedIn={isLoggedIn}
     />
   );
 }

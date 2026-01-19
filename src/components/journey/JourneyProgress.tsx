@@ -73,6 +73,8 @@ export interface JourneyProgressProps {
   progress?: CarouselProgress | null;
   /** Whether progress is still loading from localStorage */
   progressLoading?: boolean;
+  /** Whether user is logged in (from server, for default button text) */
+  isLoggedIn?: boolean;
 }
 
 /** Module display info for rendering */
@@ -234,6 +236,7 @@ export function JourneyProgress({
   hasPremiumAccess,
   progress,
   progressLoading = false,
+  isLoggedIn = false,
 }: JourneyProgressProps) {
   // Extract progress values with defaults
   const currentIndex = progress?.currentIndex ?? 0;
@@ -271,11 +274,14 @@ export function JourneyProgress({
   );
 
   // Determine button text and state
-  // While loading, show "Continue" to prevent flicker (most users viewing this have progress)
+  // While loading, show appropriate text based on login state to prevent flicker
+  // Logged in users likely have progress (show "Continue"), logged out users don't (show "Start Journey")
   const hasStarted = currentIndex > 0 || completedItems.size > 0;
   const isComplete = progressPercentage === 100;
   const buttonText = progressLoading
-    ? "Continue"
+    ? isLoggedIn
+      ? "Continue"
+      : "Start Journey"
     : isComplete
       ? "Review Journey"
       : hasStarted
