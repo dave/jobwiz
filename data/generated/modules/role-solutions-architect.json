@@ -8,42 +8,6 @@
   "display_order": 12,
   "sections": [
     {
-      "id": "video-intro",
-      "title": "Video Lessons",
-      "blocks": [
-        {
-          "type": "text",
-          "content": {
-            "text": "These videos cover key techniques and real examples to help you prepare for Solutions Architect interviews."
-          }
-        },
-        {
-          "type": "video",
-          "content": {
-            "url": "placeholder://video/intro/solutions-architect-interviews",
-            "title": "Introduction: The Solutions Architect Interview Process",
-            "duration": 240
-          }
-        },
-        {
-          "type": "video",
-          "content": {
-            "url": "placeholder://video/technique/solutions-architect-approach",
-            "title": "Technique: Preparing for Solutions Architect Interviews",
-            "duration": 360
-          }
-        },
-        {
-          "type": "video",
-          "content": {
-            "url": "placeholder://video/example/solutions-architect-answer-example",
-            "title": "Example: A Strong Solutions Architect Interview Answer",
-            "duration": 300
-          }
-        }
-      ]
-    },
-    {
       "id": "overview",
       "title": "Role Overview",
       "blocks": [

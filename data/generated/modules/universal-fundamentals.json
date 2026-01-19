@@ -7,42 +7,6 @@
   "display_order": 0,
   "sections": [
     {
-      "id": "video-intro",
-      "title": "Video Lessons",
-      "blocks": [
-        {
-          "type": "text",
-          "content": {
-            "text": "Watch these short videos to build a strong foundation for your interview preparation."
-          }
-        },
-        {
-          "type": "video",
-          "content": {
-            "url": "placeholder://video/intro/interview-fundamentals",
-            "title": "Introduction: What Makes Great Interview Preparation",
-            "duration": 180
-          }
-        },
-        {
-          "type": "video",
-          "content": {
-            "url": "placeholder://video/technique/star-method-demo",
-            "title": "The STAR Method: A Complete Walkthrough",
-            "duration": 300
-          }
-        },
-        {
-          "type": "video",
-          "content": {
-            "url": "placeholder://video/example/behavioral-answer-example",
-            "title": "Example: A Strong Behavioral Answer",
-            "duration": 240
-          }
-        }
-      ]
-    },
-    {
       "id": "mindset",
       "title": "The Interview Mindset",
       "blocks": [

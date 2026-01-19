@@ -8,42 +8,6 @@
   "display_order": 8,
   "sections": [
     {
-      "id": "video-intro",
-      "title": "Video Lessons",
-      "blocks": [
-        {
-          "type": "text",
-          "content": {
-            "text": "These videos cover key techniques and real examples to help you prepare for Backend Engineer interviews."
-          }
-        },
-        {
-          "type": "video",
-          "content": {
-            "url": "placeholder://video/intro/backend-engineer-interviews",
-            "title": "Introduction: The Backend Interview Loop",
-            "duration": 240
-          }
-        },
-        {
-          "type": "video",
-          "content": {
-            "url": "placeholder://video/technique/api-design-principles",
-            "title": "Technique: API Design Interview Approach",
-            "duration": 360
-          }
-        },
-        {
-          "type": "video",
-          "content": {
-            "url": "placeholder://video/example/database-design-walkthrough",
-            "title": "Example: Database Design Question Walkthrough",
-            "duration": 420
-          }
-        }
-      ]
-    },
-    {
       "id": "overview",
       "title": "Role Overview",
       "blocks": [

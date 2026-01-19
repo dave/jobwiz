@@ -3833,3 +3833,36 @@ All Stage 6 (Production Content Population) issues are now closed:
 - #94-#101 - Theme batches
 - #102-#105 - Reddit scraper and data pipeline
 - #150-#154 - Content enhancements (quiz questions, video placeholders, interviewer mindset, common mistakes, answer frameworks)
+
+---
+
+## Stage 10 Progress
+
+### 2026-01-19 - Issue #205: Remove video sections from all modules
+
+**Completed:**
+- Created `/scripts/remove-video-sections.ts` script to remove video-intro sections
+- Script reads all JSON module files, filters out sections with `id === "video-intro"`, writes back
+- Removed video-intro sections from 23 modules:
+  - 22 role modules (role-*.json)
+  - 1 universal module (universal-fundamentals.json)
+- Total: 23 sections removed, 852 lines of placeholder video content deleted
+
+**Files Created:**
+- `scripts/remove-video-sections.ts` - Removal script with dry-run support
+
+**Files Modified:**
+- `data/generated/modules/role-*.json` (22 files) - Removed video-intro sections
+- `data/generated/modules/universal-fundamentals.json` - Removed video-intro section
+
+**Verification:**
+- `grep -r "video-intro" data/generated/modules/ | wc -l` - Returns 0 ✓
+- `npm run lint` - passes with no errors
+- `npm run type-check` - passes with no errors
+- `npm run build` - successful production build
+- `npm test` - Module tests pass (load-modules: 23 tests, flatten-modules: 29 tests)
+- Spot-checked 5 modules - all valid JSON with correct section structure
+- All acceptance criteria verified:
+  - No `video-intro` sections remain in any module ✓
+  - All modules are still valid JSON ✓
+  - Spot-check 5 random modules to verify ✓

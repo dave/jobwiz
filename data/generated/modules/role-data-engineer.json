@@ -8,42 +8,6 @@
   "display_order": 10,
   "sections": [
     {
-      "id": "video-intro",
-      "title": "Video Lessons",
-      "blocks": [
-        {
-          "type": "text",
-          "content": {
-            "text": "These videos cover key techniques and real examples to help you prepare for Data Engineer interviews."
-          }
-        },
-        {
-          "type": "video",
-          "content": {
-            "url": "placeholder://video/intro/data-engineer-interviews",
-            "title": "Introduction: The Data Engineer Interview Process",
-            "duration": 240
-          }
-        },
-        {
-          "type": "video",
-          "content": {
-            "url": "placeholder://video/technique/data-engineer-approach",
-            "title": "Technique: Preparing for Data Engineer Interviews",
-            "duration": 360
-          }
-        },
-        {
-          "type": "video",
-          "content": {
-            "url": "placeholder://video/example/data-engineer-answer-example",
-            "title": "Example: A Strong Data Engineer Interview Answer",
-            "duration": 300
-          }
-        }
-      ]
-    },
-    {
       "id": "overview",
       "title": "Role Overview",
       "blocks": [

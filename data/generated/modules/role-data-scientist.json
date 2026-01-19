@@ -8,42 +8,6 @@
   "display_order": 2,
   "sections": [
     {
-      "id": "video-intro",
-      "title": "Video Lessons",
-      "blocks": [
-        {
-          "type": "text",
-          "content": {
-            "text": "These videos cover key techniques and real examples to help you prepare for Data Scientist interviews."
-          }
-        },
-        {
-          "type": "video",
-          "content": {
-            "url": "placeholder://video/intro/data-scientist-interviews",
-            "title": "Introduction: The Data Science Interview Loop",
-            "duration": 240
-          }
-        },
-        {
-          "type": "video",
-          "content": {
-            "url": "placeholder://video/technique/ml-case-study-approach",
-            "title": "Technique: Structuring ML Case Studies",
-            "duration": 420
-          }
-        },
-        {
-          "type": "video",
-          "content": {
-            "url": "placeholder://video/example/a-b-test-analysis",
-            "title": "Example: A/B Test Analysis Walkthrough",
-            "duration": 360
-          }
-        }
-      ]
-    },
-    {
       "id": "overview",
       "title": "Role Overview",
       "blocks": [

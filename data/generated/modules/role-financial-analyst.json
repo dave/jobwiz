@@ -8,42 +8,6 @@
   "display_order": 19,
   "sections": [
     {
-      "id": "video-intro",
-      "title": "Video Lessons",
-      "blocks": [
-        {
-          "type": "text",
-          "content": {
-            "text": "These videos cover key techniques and real examples to help you prepare for Financial Analyst interviews."
-          }
-        },
-        {
-          "type": "video",
-          "content": {
-            "url": "placeholder://video/intro/financial-analyst-interviews",
-            "title": "Introduction: The Financial Analyst Interview Process",
-            "duration": 240
-          }
-        },
-        {
-          "type": "video",
-          "content": {
-            "url": "placeholder://video/technique/financial-analyst-approach",
-            "title": "Technique: Preparing for Financial Analyst Interviews",
-            "duration": 360
-          }
-        },
-        {
-          "type": "video",
-          "content": {
-            "url": "placeholder://video/example/financial-analyst-answer-example",
-            "title": "Example: A Strong Financial Analyst Interview Answer",
-            "duration": 300
-          }
-        }
-      ]
-    },
-    {
       "id": "overview",
       "title": "Role Overview",
       "blocks": [

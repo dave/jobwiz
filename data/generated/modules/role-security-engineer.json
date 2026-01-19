@@ -8,42 +8,6 @@
   "display_order": 18,
   "sections": [
     {
-      "id": "video-intro",
-      "title": "Video Lessons",
-      "blocks": [
-        {
-          "type": "text",
-          "content": {
-            "text": "These videos cover key techniques and real examples to help you prepare for Security Engineer interviews."
-          }
-        },
-        {
-          "type": "video",
-          "content": {
-            "url": "placeholder://video/intro/security-engineer-interviews",
-            "title": "Introduction: The Security Engineer Interview Process",
-            "duration": 240
-          }
-        },
-        {
-          "type": "video",
-          "content": {
-            "url": "placeholder://video/technique/security-engineer-approach",
-            "title": "Technique: Preparing for Security Engineer Interviews",
-            "duration": 360
-          }
-        },
-        {
-          "type": "video",
-          "content": {
-            "url": "placeholder://video/example/security-engineer-answer-example",
-            "title": "Example: A Strong Security Engineer Interview Answer",
-            "duration": 300
-          }
-        }
-      ]
-    },
-    {
       "id": "overview",
       "title": "Role Overview",
       "blocks": [
