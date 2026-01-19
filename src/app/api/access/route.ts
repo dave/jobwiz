@@ -6,8 +6,7 @@ import { NextRequest, NextResponse } from 'next/server';
 
 // Force dynamic rendering (uses request.url)
 export const dynamic = 'force-dynamic';
-import { createServerClient } from '@supabase/ssr';
-import { cookies } from 'next/headers';
+import { createServerClient } from '@/lib/supabase/server';
 import { checkAccess } from '@/lib/access';
 
 interface AccessResponse {
@@ -16,30 +15,6 @@ interface AccessResponse {
 
 interface ErrorResponse {
   error: string;
-}
-
-/**
- * Create a Supabase client for server-side use
- */
-async function createSupabaseServerClient() {
-  const cookieStore = await cookies();
-
-  return createServerClient(
-    process.env.NEXT_PUBLIC_SUPABASE_URL!,
-    process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
-    {
-      cookies: {
-        getAll() {
-          return cookieStore.getAll();
-        },
-        setAll(cookiesToSet) {
-          cookiesToSet.forEach(({ name, value, options }) => {
-            cookieStore.set(name, value, options);
-          });
-        },
-      },
-    }
-  );
 }
 
 export async function GET(
@@ -60,7 +35,7 @@ export async function GET(
     }
 
     // Get user from session
-    const supabase = await createSupabaseServerClient();
+    const supabase = await createServerClient();
     const { data: { user }, error: authError } = await supabase.auth.getUser();
 
     console.log('[API /access] Auth check:', {
