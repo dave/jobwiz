@@ -18,7 +18,7 @@ Fix content quality issues identified during manual review of interview prep mod
 - [x] #238 - Visual QA
 
 ### Remove Role-Specific Content (#230)
-- [ ] #279 - Big Tech batch
+- [x] #279 - Big Tech batch
 - [ ] #280 - High-growth startups batch
 - [ ] #281 - Finance batch
 - [ ] #282 - Consulting batch
@@ -65,7 +65,7 @@ Fix content quality issues identified during manual review of interview prep mod
 - [x] #275 - Company-role modules: Healthcare/Biotech
 - [x] #276 - Company-role modules: Enterprise SaaS
 - [x] #277 - Company-role modules: Media/Entertainment
-- [ ] #278 - Company-role modules: Other companies
+- [x] #278 - Company-role modules: Other companies
 
 ### Role → Company-Role Merge (#253)
 - [ ] #256 - Update load-modules.ts
@@ -1181,4 +1181,93 @@ None. Unlike the company modules which had garbled scraped content in some "Comm
 **Acceptance Criteria:**
 - ✅ All 104 company-role modules in batch reviewed
 - ✅ All grammar issues fixed (none found - content is clean)
+
+### 2026-01-19 - Issue #278: Grammar review - Company-role modules: Other companies
+
+**Status:** Complete
+
+**Modules Reviewed (20 total):**
+Reviewed all company-role modules for Other companies:
+- Asana (6 modules): backend-engineer, engineering-manager, frontend-engineer, product-designer, product-manager, software-engineer
+- Dropbox (7 modules): backend-engineer, data-scientist, engineering-manager, frontend-engineer, product-designer, product-manager, software-engineer
+- Palantir (7 modules): backend-engineer, data-engineer, data-scientist, engineering-manager, product-manager, software-engineer, solutions-architect
+
+**Approach:**
+1. Created automated grammar check script to detect:
+   - Garbled/scraped content patterns (multiple ???, informal questions, irrelevant content)
+   - Grammar errors ("1 rounds" instead of "1 round")
+   - Invalid timelines (0 weeks, >11 weeks)
+   - Incomplete sentence fragments
+   - Cut-off text mid-word
+2. Ran automated check on all 20 files
+3. Manually spot-checked sample files (Asana SWE, Dropbox PM, Palantir Data Scientist)
+
+**Issues Found:**
+None. Unlike the company modules which had garbled scraped content in some "Common Interview Questions" and "Insider Tips" sections, the company-role modules are generated with clean, professional content. All text blocks, quizzes, and explanations are well-formed.
+
+**Note:** The explanations intentionally end with "..." - this is by design to truncate long explanations, not a grammar error.
+
+**Verification:**
+- All JSON files valid
+- `npm run lint` - passes (warnings only for unrelated image issues)
+- `npm run type-check` - passes
+- `npm run build` - successful
+- `npm test -- --testPathPattern="modules"` - 77 tests pass
+
+**Acceptance Criteria:**
+- ✅ All 20 company-role modules in batch reviewed
+- ✅ All grammar issues fixed (none found - content is clean)
+
+### 2026-01-19 - Issue #279: Remove role-specific content - Company modules: Big Tech
+
+**Status:** Complete
+
+**Modules Modified (12 total):**
+Google, Meta, Amazon, Apple, Microsoft, Netflix, NVIDIA, Intel, AMD, Cisco, Tesla, Adobe
+
+**Role-specific content removed/generalized:**
+
+1. **Culture section** (Google, Meta, Amazon, Apple, Microsoft, NVIDIA):
+   - Removed: "System design emphasis", "Heavy focus on coding", "Technical deep dive"
+   - Replaced with: Role-neutral cultural themes (behavioral interviews, culture fit, problem-solving, collaboration, data-driven)
+
+2. **Interviewer Mindset section** (all 12 modules):
+   - Removed: "**Technical Questions**" sub-section entirely
+   - Removed: Tips about "statistical knowledge" and "class imbalance" (role-specific data science content)
+   - Generalized: Behavioral questions tip changed from "System design emphasis, Heavy focus on coding, Behavioral interviews important" to "Behavioral interviews, culture fit assessments, and problem-solving exercises"
+
+3. **Process section** (all 12 modules):
+   - Changed: "**Format:** Mix of phone screen, technical, behavioral..." to "**Format:** Mix of phone screen, role-specific, behavioral..."
+
+**Files Modified:**
+- `data/generated/modules/company-google.json`
+- `data/generated/modules/company-meta.json`
+- `data/generated/modules/company-amazon.json`
+- `data/generated/modules/company-apple.json`
+- `data/generated/modules/company-microsoft.json`
+- `data/generated/modules/company-netflix.json`
+- `data/generated/modules/company-nvidia.json`
+- `data/generated/modules/company-intel.json`
+- `data/generated/modules/company-amd.json`
+- `data/generated/modules/company-cisco.json`
+- `data/generated/modules/company-tesla.json`
+- `data/generated/modules/company-adobe.json`
+
+**Script Created:**
+- `scripts/cleanup/remove-role-specific-big-tech.ts` - Automated removal of role-specific content
+
+**Verification:**
+- All 12 JSON files valid (node validation passes)
+- `npm run lint` - passes (warnings only for unrelated image issues)
+- `npm run type-check` - passes
+- `npm run build` - successful
+- `npm test -- --testPathPattern="modules"` - 54 tests pass
+
+**Acceptance Criteria:**
+- ✅ Role-specific technical content removed from culture section
+- ✅ Technical Questions sub-section removed from interviewer mindset
+- ✅ Process format updated to role-neutral terminology
+- ✅ Company-specific cultural themes preserved (e.g., Netflix "Freedom and Responsibility")
+- ✅ JSON valid after edits
+- ✅ All tests pass
 
