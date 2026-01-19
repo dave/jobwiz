@@ -1,0 +1,152 @@
+[
+  {
+    "company_slug": "citadel",
+    "fact_type": "founding",
+    "format": "quiz",
+    "question": "When was Citadel founded?",
+    "answer": "1990",
+    "options": [
+      "1985",
+      "1988",
+      "1993"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Citadel_LLC",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "citadel",
+    "fact_type": "founding",
+    "format": "flashcard",
+    "question": "Who founded Citadel?",
+    "answer": "Kenneth C. Griffin",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Citadel_LLC",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "citadel",
+    "fact_type": "founding",
+    "format": "factoid",
+    "question": null,
+    "answer": "Citadel was founded in 1990 by Kenneth C. Griffin.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Citadel_LLC",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "citadel",
+    "fact_type": "hq",
+    "format": "quiz",
+    "question": "Where is Citadel's headquarters located?",
+    "answer": "Miami, Florida",
+    "options": [
+      "New York, New York",
+      "San Francisco, California",
+      "Chicago, Illinois"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Citadel_LLC",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "citadel",
+    "fact_type": "hq",
+    "format": "flashcard",
+    "question": "What city is Citadel headquartered in?",
+    "answer": "Miami, Florida",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Citadel_LLC",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "citadel",
+    "fact_type": "exec",
+    "format": "quiz",
+    "question": "Who is the current CEO of Citadel?",
+    "answer": "Kenneth C. Griffin",
+    "options": [
+      "David Solomon",
+      "Jamie Dimon",
+      "Larry Fink"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Citadel_LLC",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "citadel",
+    "fact_type": "exec",
+    "format": "flashcard",
+    "question": "Who leads Citadel as CEO?",
+    "answer": "Kenneth C. Griffin",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Citadel_LLC",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "citadel",
+    "fact_type": "mission",
+    "format": "factoid",
+    "question": null,
+    "answer": "Citadel's mission is \"To be the most successful investment firm in the world\".",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Citadel_LLC",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "citadel",
+    "fact_type": "mission",
+    "format": "flashcard",
+    "question": "What is Citadel's mission statement?",
+    "answer": "To be the most successful investment firm in the world",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Citadel_LLC",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "citadel",
+    "fact_type": "product",
+    "format": "quiz",
+    "question": "Which of these is a Citadel product or service?",
+    "answer": "Hedge Fund",
+    "options": [
+      "Fidelity Funds",
+      "Vanguard ETFs",
+      "Schwab Brokerage"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Citadel_LLC",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "citadel",
+    "fact_type": "product",
+    "format": "factoid",
+    "question": null,
+    "answer": "Key Citadel products and services include Hedge Fund, Market Making (Citadel Securities), Quantitative Trading.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Citadel_LLC",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "citadel",
+    "fact_type": "acquisition",
+    "format": "quiz",
+    "question": "Which company did Citadel acquire in 2022?",
+    "answer": "IMC Financial Markets",
+    "options": [
+      "Robinhood",
+      "Wealthfront",
+      "Betterment"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Citadel_LLC",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "citadel",
+    "fact_type": "acquisition",
+    "format": "factoid",
+    "question": null,
+    "answer": "Citadel acquired IMC Financial Markets in 2022.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Citadel_LLC",
+    "source_date": "2026-01-19"
+  }
+]

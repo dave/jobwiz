@@ -1,0 +1,162 @@
+[
+  {
+    "company_slug": "fidelity",
+    "fact_type": "founding",
+    "format": "quiz",
+    "question": "When was Fidelity Investments founded?",
+    "answer": "1946",
+    "options": [
+      "1936",
+      "1941",
+      "1954"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Fidelity_Investments",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "fidelity",
+    "fact_type": "founding",
+    "format": "flashcard",
+    "question": "Who founded Fidelity Investments?",
+    "answer": "Edward C. Johnson II",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Fidelity_Investments",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "fidelity",
+    "fact_type": "founding",
+    "format": "factoid",
+    "question": null,
+    "answer": "Fidelity Investments was founded in 1946 by Edward C. Johnson II.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Fidelity_Investments",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "fidelity",
+    "fact_type": "hq",
+    "format": "quiz",
+    "question": "Where is Fidelity Investments's headquarters located?",
+    "answer": "Boston, Massachusetts",
+    "options": [
+      "New York, New York",
+      "San Francisco, California",
+      "Chicago, Illinois"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Fidelity_Investments",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "fidelity",
+    "fact_type": "hq",
+    "format": "flashcard",
+    "question": "What city is Fidelity Investments headquartered in?",
+    "answer": "Boston, Massachusetts",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Fidelity_Investments",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "fidelity",
+    "fact_type": "exec",
+    "format": "quiz",
+    "question": "Who is the current CEO of Fidelity Investments?",
+    "answer": "Abigail Johnson",
+    "options": [
+      "Jamie Dimon",
+      "Larry Fink",
+      "Walt Bettinger"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Fidelity_Investments",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "fidelity",
+    "fact_type": "exec",
+    "format": "flashcard",
+    "question": "Who leads Fidelity Investments as CEO?",
+    "answer": "Abigail Johnson",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Fidelity_Investments",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "fidelity",
+    "fact_type": "mission",
+    "format": "factoid",
+    "question": null,
+    "answer": "Fidelity Investments's mission is \"To inspire better futures and deliver better outcomes\".",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Fidelity_Investments",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "fidelity",
+    "fact_type": "mission",
+    "format": "flashcard",
+    "question": "What is Fidelity Investments's mission statement?",
+    "answer": "To inspire better futures and deliver better outcomes",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Fidelity_Investments",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "fidelity",
+    "fact_type": "product",
+    "format": "quiz",
+    "question": "Which of these is a Fidelity Investments product or service?",
+    "answer": "Mutual Funds",
+    "options": [
+      "Fidelity Funds",
+      "Vanguard ETFs",
+      "Schwab Brokerage"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Fidelity_Investments",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "fidelity",
+    "fact_type": "product",
+    "format": "factoid",
+    "question": null,
+    "answer": "Key Fidelity Investments products and services include Mutual Funds, Brokerage Services, Retirement Services, Wealth Management, Fidelity Digital Assets.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Fidelity_Investments",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "fidelity",
+    "fact_type": "acquisition",
+    "format": "quiz",
+    "question": "Which company did Fidelity Investments acquire in 2015?",
+    "answer": "eMoney Advisor",
+    "options": [
+      "Robinhood",
+      "Wealthfront",
+      "Betterment"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Fidelity_Investments",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "fidelity",
+    "fact_type": "acquisition",
+    "format": "factoid",
+    "question": null,
+    "answer": "Fidelity Investments acquired eMoney Advisor in 2015.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Fidelity_Investments",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "fidelity",
+    "fact_type": "acquisition",
+    "format": "flashcard",
+    "question": "In what year did Fidelity Investments acquire Fidelity National Information Services (stake)?",
+    "answer": "2019",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Fidelity_Investments",
+    "source_date": "2026-01-19"
+  }
+]

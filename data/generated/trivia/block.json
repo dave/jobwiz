@@ -1,0 +1,162 @@
+[
+  {
+    "company_slug": "block",
+    "fact_type": "founding",
+    "format": "quiz",
+    "question": "When was Block (Square) founded?",
+    "answer": "2009",
+    "options": [
+      "2004",
+      "2007",
+      "2012"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Block,_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "block",
+    "fact_type": "founding",
+    "format": "flashcard",
+    "question": "Who founded Block (Square)?",
+    "answer": "Jack Dorsey and Jim McKelvey",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Block,_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "block",
+    "fact_type": "founding",
+    "format": "factoid",
+    "question": null,
+    "answer": "Block (Square) was founded in 2009 by Jack Dorsey and Jim McKelvey.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Block,_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "block",
+    "fact_type": "hq",
+    "format": "quiz",
+    "question": "Where is Block (Square)'s headquarters located?",
+    "answer": "San Francisco, California",
+    "options": [
+      "New York, New York",
+      "Chicago, Illinois",
+      "Boston, Massachusetts"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Block,_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "block",
+    "fact_type": "hq",
+    "format": "flashcard",
+    "question": "What city is Block (Square) headquartered in?",
+    "answer": "San Francisco, California",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Block,_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "block",
+    "fact_type": "exec",
+    "format": "quiz",
+    "question": "Who is the current CEO of Block (Square)?",
+    "answer": "Jack Dorsey",
+    "options": [
+      "Dan Schulman",
+      "Alex Chriss",
+      "Michael Miebach"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Block,_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "block",
+    "fact_type": "exec",
+    "format": "flashcard",
+    "question": "Who leads Block (Square) as CEO?",
+    "answer": "Jack Dorsey",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Block,_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "block",
+    "fact_type": "mission",
+    "format": "factoid",
+    "question": null,
+    "answer": "Block (Square)'s mission is \"To make commerce easy\".",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Block,_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "block",
+    "fact_type": "mission",
+    "format": "flashcard",
+    "question": "What is Block (Square)'s mission statement?",
+    "answer": "To make commerce easy",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Block,_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "block",
+    "fact_type": "product",
+    "format": "quiz",
+    "question": "Which of these is a Block (Square) product or service?",
+    "answer": "Square",
+    "options": [
+      "Fidelity Funds",
+      "Vanguard ETFs",
+      "Schwab Brokerage"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Block,_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "block",
+    "fact_type": "product",
+    "format": "factoid",
+    "question": null,
+    "answer": "Key Block (Square) products and services include Square, Cash App, Afterpay, TIDAL, TBD.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Block,_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "block",
+    "fact_type": "acquisition",
+    "format": "quiz",
+    "question": "Which company did Block (Square) acquire in 2022?",
+    "answer": "Afterpay",
+    "options": [
+      "Robinhood",
+      "Wealthfront",
+      "Betterment"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Block,_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "block",
+    "fact_type": "acquisition",
+    "format": "factoid",
+    "question": null,
+    "answer": "Block (Square) acquired Afterpay in 2022.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Block,_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "block",
+    "fact_type": "acquisition",
+    "format": "flashcard",
+    "question": "In what year did Block (Square) acquire TIDAL?",
+    "answer": "2021",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Block,_Inc.",
+    "source_date": "2026-01-19"
+  }
+]

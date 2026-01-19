@@ -1,0 +1,162 @@
+[
+  {
+    "company_slug": "bank-of-america",
+    "fact_type": "founding",
+    "format": "quiz",
+    "question": "When was Bank of America founded?",
+    "answer": "1904",
+    "options": [
+      "1894",
+      "1899",
+      "1912"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Bank_of_America",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "bank-of-america",
+    "fact_type": "founding",
+    "format": "flashcard",
+    "question": "Who founded Bank of America?",
+    "answer": "Amadeo Giannini",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Bank_of_America",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "bank-of-america",
+    "fact_type": "founding",
+    "format": "factoid",
+    "question": null,
+    "answer": "Bank of America was founded in 1904 by Amadeo Giannini.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Bank_of_America",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "bank-of-america",
+    "fact_type": "hq",
+    "format": "quiz",
+    "question": "Where is Bank of America's headquarters located?",
+    "answer": "Charlotte, North Carolina",
+    "options": [
+      "New York, New York",
+      "San Francisco, California",
+      "Chicago, Illinois"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Bank_of_America",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "bank-of-america",
+    "fact_type": "hq",
+    "format": "flashcard",
+    "question": "What city is Bank of America headquartered in?",
+    "answer": "Charlotte, North Carolina",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Bank_of_America",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "bank-of-america",
+    "fact_type": "exec",
+    "format": "quiz",
+    "question": "Who is the current CEO of Bank of America?",
+    "answer": "Brian Moynihan",
+    "options": [
+      "Jamie Dimon",
+      "David Solomon",
+      "Larry Fink"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Bank_of_America",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "bank-of-america",
+    "fact_type": "exec",
+    "format": "flashcard",
+    "question": "Who leads Bank of America as CEO?",
+    "answer": "Brian Moynihan",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Bank_of_America",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "bank-of-america",
+    "fact_type": "mission",
+    "format": "factoid",
+    "question": null,
+    "answer": "Bank of America's mission is \"To help make financial lives better through the power of every connection\".",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Bank_of_America",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "bank-of-america",
+    "fact_type": "mission",
+    "format": "flashcard",
+    "question": "What is Bank of America's mission statement?",
+    "answer": "To help make financial lives better through the power of every connection",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Bank_of_America",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "bank-of-america",
+    "fact_type": "product",
+    "format": "quiz",
+    "question": "Which of these is a Bank of America product or service?",
+    "answer": "Consumer Banking",
+    "options": [
+      "Fidelity Funds",
+      "Vanguard ETFs",
+      "Schwab Brokerage"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Bank_of_America",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "bank-of-america",
+    "fact_type": "product",
+    "format": "factoid",
+    "question": null,
+    "answer": "Key Bank of America products and services include Consumer Banking, Merrill Lynch, Global Banking, Global Markets, Wealth Management.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Bank_of_America",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "bank-of-america",
+    "fact_type": "acquisition",
+    "format": "quiz",
+    "question": "Which company did Bank of America acquire in 2009?",
+    "answer": "Merrill Lynch",
+    "options": [
+      "Robinhood",
+      "Wealthfront",
+      "Betterment"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Bank_of_America",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "bank-of-america",
+    "fact_type": "acquisition",
+    "format": "factoid",
+    "question": null,
+    "answer": "Bank of America acquired Merrill Lynch in 2009.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Bank_of_America",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "bank-of-america",
+    "fact_type": "acquisition",
+    "format": "flashcard",
+    "question": "In what year did Bank of America acquire Countrywide Financial?",
+    "answer": "2008",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Bank_of_America",
+    "source_date": "2026-01-19"
+  }
+]

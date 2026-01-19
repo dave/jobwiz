@@ -1,0 +1,162 @@
+[
+  {
+    "company_slug": "morgan-stanley",
+    "fact_type": "founding",
+    "format": "quiz",
+    "question": "When was Morgan Stanley founded?",
+    "answer": "1935",
+    "options": [
+      "1925",
+      "1930",
+      "1943"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Morgan_Stanley",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "morgan-stanley",
+    "fact_type": "founding",
+    "format": "flashcard",
+    "question": "Who founded Morgan Stanley?",
+    "answer": "Henry S. Morgan and Harold Stanley and others",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Morgan_Stanley",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "morgan-stanley",
+    "fact_type": "founding",
+    "format": "factoid",
+    "question": null,
+    "answer": "Morgan Stanley was founded in 1935 by Henry S. Morgan and Harold Stanley and others.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Morgan_Stanley",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "morgan-stanley",
+    "fact_type": "hq",
+    "format": "quiz",
+    "question": "Where is Morgan Stanley's headquarters located?",
+    "answer": "New York, New York",
+    "options": [
+      "San Francisco, California",
+      "Chicago, Illinois",
+      "Boston, Massachusetts"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Morgan_Stanley",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "morgan-stanley",
+    "fact_type": "hq",
+    "format": "flashcard",
+    "question": "What city is Morgan Stanley headquartered in?",
+    "answer": "New York, New York",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Morgan_Stanley",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "morgan-stanley",
+    "fact_type": "exec",
+    "format": "quiz",
+    "question": "Who is the current CEO of Morgan Stanley?",
+    "answer": "Ted Pick",
+    "options": [
+      "David Solomon",
+      "Jamie Dimon",
+      "Larry Fink"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Morgan_Stanley",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "morgan-stanley",
+    "fact_type": "exec",
+    "format": "flashcard",
+    "question": "Who leads Morgan Stanley as CEO?",
+    "answer": "Ted Pick",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Morgan_Stanley",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "morgan-stanley",
+    "fact_type": "mission",
+    "format": "factoid",
+    "question": null,
+    "answer": "Morgan Stanley's mission is \"To provide first-class service in a first-class way\".",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Morgan_Stanley",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "morgan-stanley",
+    "fact_type": "mission",
+    "format": "flashcard",
+    "question": "What is Morgan Stanley's mission statement?",
+    "answer": "To provide first-class service in a first-class way",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Morgan_Stanley",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "morgan-stanley",
+    "fact_type": "product",
+    "format": "quiz",
+    "question": "Which of these is a Morgan Stanley product or service?",
+    "answer": "Wealth Management",
+    "options": [
+      "Fidelity Funds",
+      "Vanguard ETFs",
+      "Schwab Brokerage"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Morgan_Stanley",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "morgan-stanley",
+    "fact_type": "product",
+    "format": "factoid",
+    "question": null,
+    "answer": "Key Morgan Stanley products and services include Wealth Management, Investment Banking, Institutional Securities, Investment Management.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Morgan_Stanley",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "morgan-stanley",
+    "fact_type": "acquisition",
+    "format": "quiz",
+    "question": "Which company did Morgan Stanley acquire in 2020?",
+    "answer": "E*TRADE",
+    "options": [
+      "Robinhood",
+      "Wealthfront",
+      "Betterment"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Morgan_Stanley",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "morgan-stanley",
+    "fact_type": "acquisition",
+    "format": "factoid",
+    "question": null,
+    "answer": "Morgan Stanley acquired E*TRADE in 2020.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Morgan_Stanley",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "morgan-stanley",
+    "fact_type": "acquisition",
+    "format": "flashcard",
+    "question": "In what year did Morgan Stanley acquire Eaton Vance?",
+    "answer": "2021",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Morgan_Stanley",
+    "source_date": "2026-01-19"
+  }
+]

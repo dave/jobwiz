@@ -1,0 +1,162 @@
+[
+  {
+    "company_slug": "blackrock",
+    "fact_type": "founding",
+    "format": "quiz",
+    "question": "When was BlackRock founded?",
+    "answer": "1988",
+    "options": [
+      "1983",
+      "1986",
+      "1991"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/BlackRock",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "blackrock",
+    "fact_type": "founding",
+    "format": "flashcard",
+    "question": "Who founded BlackRock?",
+    "answer": "Larry Fink and Robert S. Kapito and others",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/BlackRock",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "blackrock",
+    "fact_type": "founding",
+    "format": "factoid",
+    "question": null,
+    "answer": "BlackRock was founded in 1988 by Larry Fink and Robert S. Kapito and others.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/BlackRock",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "blackrock",
+    "fact_type": "hq",
+    "format": "quiz",
+    "question": "Where is BlackRock's headquarters located?",
+    "answer": "New York, New York",
+    "options": [
+      "San Francisco, California",
+      "Chicago, Illinois",
+      "Boston, Massachusetts"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/BlackRock",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "blackrock",
+    "fact_type": "hq",
+    "format": "flashcard",
+    "question": "What city is BlackRock headquartered in?",
+    "answer": "New York, New York",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/BlackRock",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "blackrock",
+    "fact_type": "exec",
+    "format": "quiz",
+    "question": "Who is the current CEO of BlackRock?",
+    "answer": "Larry Fink",
+    "options": [
+      "Jamie Dimon",
+      "David Solomon",
+      "Brian Moynihan"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/BlackRock",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "blackrock",
+    "fact_type": "exec",
+    "format": "flashcard",
+    "question": "Who leads BlackRock as CEO?",
+    "answer": "Larry Fink",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/BlackRock",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "blackrock",
+    "fact_type": "mission",
+    "format": "factoid",
+    "question": null,
+    "answer": "BlackRock's mission is \"To help more and more people experience financial well-being\".",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/BlackRock",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "blackrock",
+    "fact_type": "mission",
+    "format": "flashcard",
+    "question": "What is BlackRock's mission statement?",
+    "answer": "To help more and more people experience financial well-being",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/BlackRock",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "blackrock",
+    "fact_type": "product",
+    "format": "quiz",
+    "question": "Which of these is a BlackRock product or service?",
+    "answer": "iShares ETFs",
+    "options": [
+      "Fidelity Funds",
+      "Vanguard ETFs",
+      "Schwab Brokerage"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/BlackRock",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "blackrock",
+    "fact_type": "product",
+    "format": "factoid",
+    "question": null,
+    "answer": "Key BlackRock products and services include iShares ETFs, Aladdin Platform, Asset Management, Risk Management.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/BlackRock",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "blackrock",
+    "fact_type": "acquisition",
+    "format": "quiz",
+    "question": "Which company did BlackRock acquire in 2024?",
+    "answer": "Global Infrastructure Partners",
+    "options": [
+      "Robinhood",
+      "Wealthfront",
+      "Betterment"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/BlackRock",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "blackrock",
+    "fact_type": "acquisition",
+    "format": "factoid",
+    "question": null,
+    "answer": "BlackRock acquired Global Infrastructure Partners in 2024.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/BlackRock",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "blackrock",
+    "fact_type": "acquisition",
+    "format": "flashcard",
+    "question": "In what year did BlackRock acquire eFront?",
+    "answer": "2019",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/BlackRock",
+    "source_date": "2026-01-19"
+  }
+]

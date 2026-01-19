@@ -1,0 +1,128 @@
+[
+  {
+    "company_slug": "two-sigma",
+    "fact_type": "founding",
+    "format": "quiz",
+    "question": "When was Two Sigma founded?",
+    "answer": "2001",
+    "options": [
+      "1996",
+      "1999",
+      "2004"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Two_Sigma",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "two-sigma",
+    "fact_type": "founding",
+    "format": "flashcard",
+    "question": "Who founded Two Sigma?",
+    "answer": "David Siegel and John Overdeck",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Two_Sigma",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "two-sigma",
+    "fact_type": "founding",
+    "format": "factoid",
+    "question": null,
+    "answer": "Two Sigma was founded in 2001 by David Siegel and John Overdeck.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Two_Sigma",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "two-sigma",
+    "fact_type": "hq",
+    "format": "quiz",
+    "question": "Where is Two Sigma's headquarters located?",
+    "answer": "New York, New York",
+    "options": [
+      "San Francisco, California",
+      "Chicago, Illinois",
+      "Boston, Massachusetts"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Two_Sigma",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "two-sigma",
+    "fact_type": "hq",
+    "format": "flashcard",
+    "question": "What city is Two Sigma headquartered in?",
+    "answer": "New York, New York",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Two_Sigma",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "two-sigma",
+    "fact_type": "exec",
+    "format": "quiz",
+    "question": "Who is the current CEO of Two Sigma?",
+    "answer": "David Siegel",
+    "options": [
+      "Kenneth C. Griffin",
+      "Jamie Dimon",
+      "Larry Fink"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Two_Sigma",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "two-sigma",
+    "fact_type": "exec",
+    "format": "flashcard",
+    "question": "Who leads Two Sigma as CEO?",
+    "answer": "David Siegel",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Two_Sigma",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "two-sigma",
+    "fact_type": "mission",
+    "format": "factoid",
+    "question": null,
+    "answer": "Two Sigma's mission is \"To use data science and technology to drive better investment decisions\".",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Two_Sigma",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "two-sigma",
+    "fact_type": "mission",
+    "format": "flashcard",
+    "question": "What is Two Sigma's mission statement?",
+    "answer": "To use data science and technology to drive better investment decisions",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Two_Sigma",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "two-sigma",
+    "fact_type": "product",
+    "format": "quiz",
+    "question": "Which of these is a Two Sigma product or service?",
+    "answer": "Quantitative Hedge Fund",
+    "options": [
+      "Fidelity Funds",
+      "Vanguard ETFs",
+      "Schwab Brokerage"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Two_Sigma",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "two-sigma",
+    "fact_type": "product",
+    "format": "factoid",
+    "question": null,
+    "answer": "Key Two Sigma products and services include Quantitative Hedge Fund, Venture Capital, Private Equity.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Two_Sigma",
+    "source_date": "2026-01-19"
+  }
+]

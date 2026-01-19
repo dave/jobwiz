@@ -1,0 +1,128 @@
+[
+  {
+    "company_slug": "jane-street",
+    "fact_type": "founding",
+    "format": "quiz",
+    "question": "When was Jane Street founded?",
+    "answer": "2000",
+    "options": [
+      "1995",
+      "1998",
+      "2003"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Jane_Street_Capital",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "jane-street",
+    "fact_type": "founding",
+    "format": "flashcard",
+    "question": "Who founded Jane Street?",
+    "answer": "Tim Reynolds and Rob Granieri and others",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Jane_Street_Capital",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "jane-street",
+    "fact_type": "founding",
+    "format": "factoid",
+    "question": null,
+    "answer": "Jane Street was founded in 2000 by Tim Reynolds and Rob Granieri and others.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Jane_Street_Capital",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "jane-street",
+    "fact_type": "hq",
+    "format": "quiz",
+    "question": "Where is Jane Street's headquarters located?",
+    "answer": "New York, New York",
+    "options": [
+      "San Francisco, California",
+      "Chicago, Illinois",
+      "Boston, Massachusetts"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Jane_Street_Capital",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "jane-street",
+    "fact_type": "hq",
+    "format": "flashcard",
+    "question": "What city is Jane Street headquartered in?",
+    "answer": "New York, New York",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Jane_Street_Capital",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "jane-street",
+    "fact_type": "exec",
+    "format": "quiz",
+    "question": "Who is the current CEO of Jane Street?",
+    "answer": "No formal CEO (partnership structure)",
+    "options": [
+      "David Solomon",
+      "Jamie Dimon",
+      "Kenneth C. Griffin"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Jane_Street_Capital",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "jane-street",
+    "fact_type": "exec",
+    "format": "flashcard",
+    "question": "Who leads Jane Street as CEO?",
+    "answer": "No formal CEO (partnership structure)",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Jane_Street_Capital",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "jane-street",
+    "fact_type": "mission",
+    "format": "factoid",
+    "question": null,
+    "answer": "Jane Street's mission is \"To be the best at trading and technology\".",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Jane_Street_Capital",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "jane-street",
+    "fact_type": "mission",
+    "format": "flashcard",
+    "question": "What is Jane Street's mission statement?",
+    "answer": "To be the best at trading and technology",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Jane_Street_Capital",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "jane-street",
+    "fact_type": "product",
+    "format": "quiz",
+    "question": "Which of these is a Jane Street product or service?",
+    "answer": "Quantitative Trading",
+    "options": [
+      "Fidelity Funds",
+      "Vanguard ETFs",
+      "Schwab Brokerage"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Jane_Street_Capital",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "jane-street",
+    "fact_type": "product",
+    "format": "factoid",
+    "question": null,
+    "answer": "Key Jane Street products and services include Quantitative Trading, Market Making, ETF Trading.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Jane_Street_Capital",
+    "source_date": "2026-01-19"
+  }
+]
