@@ -70,6 +70,9 @@ const QuoteIcon = () => (
  *
  * Renders text-based content blocks (text, header, quote, tip, warning)
  * with centered layout, large typography, and minimal UI for carousel display.
+ *
+ * Note: Completion is handled by CarouselContainer when user navigates away.
+ * The onComplete prop is kept for API compatibility but not used here.
  */
 export function ContentItem({ block, className }: ContentItemProps) {
   const { type } = block;

@@ -2,17 +2,35 @@
 
 ## Current Status
 **Last Updated:** 2026-01-18
-**Tasks Completed:** 43
+**Tasks Completed:** 44
 **Stage 1:** COMPLETE (All 4 issues closed)
 **Stage 2:** COMPLETE (All 4 issues closed: #7, #8, #9, #10)
 **Stage 3:** COMPLETE (All 3 issues closed: #4, #5, #19)
 **Stage 4:** COMPLETE (All issues closed: #14, #11, #12, #13, #15, #16, #18)
 **Stage 5:** IN PROGRESS (#20 closed, #21 closed, #22 closed, #24 closed, #25 closed, #23 open)
-**Current Task:** #25 Analytics and conversion tracking - CLOSED
+**Stage 8:** IN PROGRESS (#147 closed - C5 cleanup)
+**Current Task:** #147 C5: Remove unused modules database tables - COMPLETE
 
 ---
 
 ## Session Log
+
+### 2026-01-18 - Issue #147: C5: Remove unused modules database tables and code
+
+**Completed:**
+- Created migration `20260119000002_drop_modules_tables.sql` to drop `modules`, `content_blocks`, and `generation_runs` tables
+- Removed `--modules` flag and `loadModules` function from `scripts/load-content.ts`
+- Deleted `src/lib/content/` directory (storage.ts, types.ts, index.ts, and tests)
+- Simplified `src/lib/content-fetching/` to remove DB module query functions:
+  - Removed `getModulesForPosition`, `getPreviewContent`, `getFullContent`
+  - Kept only `getCompanyBySlug`, `getRoleBySlug`, `checkUserAccess`
+- Removed deprecated `LearnContent.tsx` (replaced by `LearnCarouselContent.tsx`)
+- Updated tests to match simplified API
+
+**Verification:**
+- `npm run build` passes
+- `npm test` passes for content-fetching and carousel tests
+- Carousel still loads modules from JSON files in `data/generated/modules/`
 
 ### 2026-01-17 - Issue #3: Repo Setup, CI/CD, Hosting
 

@@ -3,11 +3,13 @@
  * Content Loader Script
  *
  * Loads generated JSON content into Supabase tables.
- * Supports modules, content_blocks, questions, and company_trivia.
+ * Supports questions and company_trivia.
+ *
+ * Note: Modules are loaded from JSON files directly by the carousel loader,
+ * not from the database. See src/lib/carousel/load-modules.ts.
  *
  * Usage:
  *   npx tsx scripts/load-content.ts --all
- *   npx tsx scripts/load-content.ts --modules
  *   npx tsx scripts/load-content.ts --questions
  *   npx tsx scripts/load-content.ts --trivia
  *   npx tsx scripts/load-content.ts --dry-run --all
@@ -37,31 +39,6 @@ const supabase = createClient(SUPABASE_URL, SUPABASE_SERVICE_KEY);
 const DATA_DIR = path.join(process.cwd(), "data", "generated");
 
 // Types for generated content
-interface GeneratedModule {
-  slug: string;
-  type: "universal" | "industry" | "role" | "company" | "company-role";
-  title: string;
-  description?: string;
-  company_slug?: string;
-  role_slug?: string;
-  industry?: string;
-  is_premium?: boolean;
-  display_order?: number;
-  sections: GeneratedSection[];
-}
-
-interface GeneratedSection {
-  id: string;
-  title: string;
-  blocks: GeneratedBlock[];
-}
-
-interface GeneratedBlock {
-  type: string;
-  content: Record<string, unknown>;
-  is_premium?: boolean;
-}
-
 interface GeneratedQuestion {
   id?: string;
   company_slug: string;
@@ -94,15 +71,11 @@ interface GeneratedTrivia {
 
 // Stats tracking
 interface LoadStats {
-  modules: { loaded: number; skipped: number; errors: number };
-  content_blocks: { loaded: number; skipped: number; errors: number };
   questions: { loaded: number; skipped: number; errors: number };
   trivia: { loaded: number; skipped: number; errors: number };
 }
 
 const stats: LoadStats = {
-  modules: { loaded: 0, skipped: 0, errors: 0 },
-  content_blocks: { loaded: 0, skipped: 0, errors: 0 },
   questions: { loaded: 0, skipped: 0, errors: 0 },
   trivia: { loaded: 0, skipped: 0, errors: 0 },
 };
@@ -140,91 +113,6 @@ function readJsonFiles<T>(dir: string, nestedKey?: string): T[] {
   }
 
   return results;
-}
-
-/**
- * Load modules and their content blocks
- */
-async function loadModules(dryRun: boolean): Promise<void> {
-  console.log("\nLoading modules...");
-  const modulesDir = path.join(DATA_DIR, "modules");
-  const modules = readJsonFiles<GeneratedModule>(modulesDir);
-
-  console.log(`  Found ${modules.length} modules`);
-
-  for (const mod of modules) {
-    if (dryRun) {
-      console.log(`  [DRY-RUN] Would load module: ${mod.slug}`);
-      stats.modules.skipped++;
-      continue;
-    }
-
-    // Upsert module
-    const { data: moduleData, error: moduleError } = await supabase
-      .from("modules")
-      .upsert(
-        {
-          slug: mod.slug,
-          type: mod.type,
-          title: mod.title,
-          description: mod.description,
-          company_slug: mod.company_slug,
-          role_slug: mod.role_slug,
-          industry: mod.industry,
-          is_premium: mod.is_premium ?? false,
-          display_order: mod.display_order ?? 0,
-          status: "draft",
-        },
-        { onConflict: "slug" }
-      )
-      .select("id")
-      .single();
-
-    if (moduleError) {
-      console.error(`  Error loading module ${mod.slug}:`, moduleError.message);
-      stats.modules.errors++;
-      continue;
-    }
-
-    stats.modules.loaded++;
-    const moduleId = moduleData.id;
-
-    // Load content blocks for this module
-    if (mod.sections && mod.sections.length > 0) {
-      // Delete existing blocks for this module (to handle updates)
-      await supabase.from("content_blocks").delete().eq("module_id", moduleId);
-
-      for (let sectionIdx = 0; sectionIdx < mod.sections.length; sectionIdx++) {
-        const section = mod.sections[sectionIdx];
-        if (!section) continue;
-
-        for (let blockIdx = 0; blockIdx < section.blocks.length; blockIdx++) {
-          const block = section.blocks[blockIdx];
-          if (!block) continue;
-
-          const { error: blockError } = await supabase
-            .from("content_blocks")
-            .insert({
-              module_id: moduleId,
-              section_id: section.id,
-              section_title: section.title,
-              block_type: block.type,
-              content: block.content,
-              section_order: sectionIdx,
-              block_order: blockIdx,
-              is_premium: block.is_premium ?? false,
-            });
-
-          if (blockError) {
-            console.error(`  Error loading block:`, blockError.message);
-            stats.content_blocks.errors++;
-          } else {
-            stats.content_blocks.loaded++;
-          }
-        }
-      }
-    }
-  }
 }
 
 /**
@@ -340,21 +228,23 @@ Usage:
   npx tsx scripts/load-content.ts [options]
 
 Options:
-  --all        Load all content types (modules, questions, trivia)
-  --modules    Load only modules and content blocks
+  --all        Load all content types (questions, trivia)
   --questions  Load only interview questions
   --trivia     Load only company trivia
   --dry-run    Preview what would be loaded without making changes
   --help       Show this help message
 
+Note: Modules are loaded from JSON files directly by the carousel loader,
+      not from the database. See src/lib/carousel/load-modules.ts.
+
 Examples:
   npx tsx scripts/load-content.ts --all
-  npx tsx scripts/load-content.ts --dry-run --modules
+  npx tsx scripts/load-content.ts --dry-run --questions
   npx tsx scripts/load-content.ts --questions --trivia
 
 Directory Structure:
   data/generated/
-  ├── modules/     # Module JSON files
+  ├── modules/     # Module JSON files (used by carousel loader)
   ├── questions/   # Question JSON files
   └── trivia/      # Trivia JSON files
 `);
@@ -367,12 +257,6 @@ function printStats(): void {
   console.log("\n" + "═".repeat(50));
   console.log("Load Statistics:");
   console.log("─".repeat(50));
-  console.log(
-    `Modules:        ${stats.modules.loaded} loaded, ${stats.modules.skipped} skipped, ${stats.modules.errors} errors`
-  );
-  console.log(
-    `Content Blocks: ${stats.content_blocks.loaded} loaded, ${stats.content_blocks.skipped} skipped, ${stats.content_blocks.errors} errors`
-  );
   console.log(
     `Questions:      ${stats.questions.loaded} loaded, ${stats.questions.skipped} skipped, ${stats.questions.errors} errors`
   );
@@ -395,12 +279,11 @@ async function main(): Promise<void> {
 
   const dryRun = args.includes("--dry-run");
   const loadAll = args.includes("--all");
-  const loadModulesFlag = args.includes("--modules") || loadAll;
   const loadQuestionsFlag = args.includes("--questions") || loadAll;
   const loadTriviaFlag = args.includes("--trivia") || loadAll;
 
-  if (!loadModulesFlag && !loadQuestionsFlag && !loadTriviaFlag) {
-    console.error("No content type specified. Use --all, --modules, --questions, or --trivia");
+  if (!loadQuestionsFlag && !loadTriviaFlag) {
+    console.error("No content type specified. Use --all, --questions, or --trivia");
     process.exit(1);
   }
 
@@ -413,13 +296,8 @@ async function main(): Promise<void> {
   if (!fs.existsSync(DATA_DIR)) {
     console.log(`\nCreating data directory: ${DATA_DIR}`);
     fs.mkdirSync(DATA_DIR, { recursive: true });
-    fs.mkdirSync(path.join(DATA_DIR, "modules"), { recursive: true });
     fs.mkdirSync(path.join(DATA_DIR, "questions"), { recursive: true });
     fs.mkdirSync(path.join(DATA_DIR, "trivia"), { recursive: true });
-  }
-
-  if (loadModulesFlag) {
-    await loadModules(dryRun);
   }
 
   if (loadQuestionsFlag) {
@@ -433,8 +311,6 @@ async function main(): Promise<void> {
   printStats();
 
   const totalErrors =
-    stats.modules.errors +
-    stats.content_blocks.errors +
     stats.questions.errors +
     stats.trivia.errors;
 
