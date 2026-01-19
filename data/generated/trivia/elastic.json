@@ -1,0 +1,162 @@
+[
+  {
+    "company_slug": "elastic",
+    "fact_type": "founding",
+    "format": "quiz",
+    "question": "When was Elastic founded?",
+    "answer": "2012",
+    "options": [
+      "2007",
+      "2010",
+      "2015"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Elastic_NV",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "elastic",
+    "fact_type": "founding",
+    "format": "flashcard",
+    "question": "Who founded Elastic?",
+    "answer": "Shay Banon",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Elastic_NV",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "elastic",
+    "fact_type": "founding",
+    "format": "factoid",
+    "question": null,
+    "answer": "Elastic was founded in 2012 by Shay Banon.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Elastic_NV",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "elastic",
+    "fact_type": "hq",
+    "format": "quiz",
+    "question": "Where is Elastic's headquarters located?",
+    "answer": "Mountain View, California",
+    "options": [
+      "San Francisco, California",
+      "New York, New York",
+      "Seattle, Washington"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Elastic_NV",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "elastic",
+    "fact_type": "hq",
+    "format": "flashcard",
+    "question": "What city is Elastic headquartered in?",
+    "answer": "Mountain View, California",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Elastic_NV",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "elastic",
+    "fact_type": "exec",
+    "format": "quiz",
+    "question": "Who is the current CEO of Elastic?",
+    "answer": "Ash Kulkarni",
+    "options": [
+      "Dev Ittycheria",
+      "Marc Benioff",
+      "Matthew Prince"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Elastic_NV",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "elastic",
+    "fact_type": "exec",
+    "format": "flashcard",
+    "question": "Who leads Elastic as CEO?",
+    "answer": "Ash Kulkarni",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Elastic_NV",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "elastic",
+    "fact_type": "mission",
+    "format": "factoid",
+    "question": null,
+    "answer": "Elastic's mission is \"To make real-time data actionable at scale\".",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Elastic_NV",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "elastic",
+    "fact_type": "mission",
+    "format": "flashcard",
+    "question": "What is Elastic's mission statement?",
+    "answer": "To make real-time data actionable at scale",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Elastic_NV",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "elastic",
+    "fact_type": "product",
+    "format": "quiz",
+    "question": "Which of these is a Elastic product or service?",
+    "answer": "Elasticsearch",
+    "options": [
+      "Microsoft Dynamics",
+      "SAP SuccessFactors",
+      "Oracle Cloud"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Elastic_NV",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "elastic",
+    "fact_type": "product",
+    "format": "factoid",
+    "question": null,
+    "answer": "Key Elastic products and services include Elasticsearch, Elastic Cloud, Kibana, Logstash, Elastic Security.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Elastic_NV",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "elastic",
+    "fact_type": "acquisition",
+    "format": "quiz",
+    "question": "Which company did Elastic acquire in 2019?",
+    "answer": "Endgame",
+    "options": [
+      "Slack",
+      "Trello",
+      "GitHub"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Elastic_NV",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "elastic",
+    "fact_type": "acquisition",
+    "format": "factoid",
+    "question": null,
+    "answer": "Elastic acquired Endgame in 2019.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Elastic_NV",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "elastic",
+    "fact_type": "acquisition",
+    "format": "flashcard",
+    "question": "In what year did Elastic acquire Swiftype?",
+    "answer": "2017",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Elastic_NV",
+    "source_date": "2026-01-19"
+  }
+]

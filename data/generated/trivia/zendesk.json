@@ -1,0 +1,162 @@
+[
+  {
+    "company_slug": "zendesk",
+    "fact_type": "founding",
+    "format": "quiz",
+    "question": "When was Zendesk founded?",
+    "answer": "2007",
+    "options": [
+      "2002",
+      "2005",
+      "2010"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Zendesk",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "zendesk",
+    "fact_type": "founding",
+    "format": "flashcard",
+    "question": "Who founded Zendesk?",
+    "answer": "Mikkel Svane and Morten Primdahl and others",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Zendesk",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "zendesk",
+    "fact_type": "founding",
+    "format": "factoid",
+    "question": null,
+    "answer": "Zendesk was founded in 2007 by Mikkel Svane and Morten Primdahl and others.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Zendesk",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "zendesk",
+    "fact_type": "hq",
+    "format": "quiz",
+    "question": "Where is Zendesk's headquarters located?",
+    "answer": "San Francisco, California",
+    "options": [
+      "New York, New York",
+      "Seattle, Washington",
+      "Austin, Texas"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Zendesk",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "zendesk",
+    "fact_type": "hq",
+    "format": "flashcard",
+    "question": "What city is Zendesk headquartered in?",
+    "answer": "San Francisco, California",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Zendesk",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "zendesk",
+    "fact_type": "exec",
+    "format": "quiz",
+    "question": "Who is the current CEO of Zendesk?",
+    "answer": "Tom Eggemeier",
+    "options": [
+      "Mikkel Svane",
+      "Marc Benioff",
+      "Jeff Lawson"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Zendesk",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "zendesk",
+    "fact_type": "exec",
+    "format": "flashcard",
+    "question": "Who leads Zendesk as CEO?",
+    "answer": "Tom Eggemeier",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Zendesk",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "zendesk",
+    "fact_type": "mission",
+    "format": "factoid",
+    "question": null,
+    "answer": "Zendesk's mission is \"To simplify the complexity of business and make it easy for companies to connect with their customers\".",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Zendesk",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "zendesk",
+    "fact_type": "mission",
+    "format": "flashcard",
+    "question": "What is Zendesk's mission statement?",
+    "answer": "To simplify the complexity of business and make it easy for companies to connect with their customers",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Zendesk",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "zendesk",
+    "fact_type": "product",
+    "format": "quiz",
+    "question": "Which of these is a Zendesk product or service?",
+    "answer": "Zendesk Support",
+    "options": [
+      "Microsoft Dynamics",
+      "SAP SuccessFactors",
+      "Oracle Cloud"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Zendesk",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "zendesk",
+    "fact_type": "product",
+    "format": "factoid",
+    "question": null,
+    "answer": "Key Zendesk products and services include Zendesk Support, Zendesk Sell, Zendesk Guide, Zendesk Chat, Zendesk Explore.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Zendesk",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "zendesk",
+    "fact_type": "acquisition",
+    "format": "quiz",
+    "question": "Which company did Zendesk acquire in 2022?",
+    "answer": "Momentive",
+    "options": [
+      "Slack",
+      "Trello",
+      "GitHub"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Zendesk",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "zendesk",
+    "fact_type": "acquisition",
+    "format": "factoid",
+    "question": null,
+    "answer": "Zendesk acquired Momentive in 2022.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Zendesk",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "zendesk",
+    "fact_type": "acquisition",
+    "format": "flashcard",
+    "question": "In what year did Zendesk acquire Cleverly?",
+    "answer": "2022",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Zendesk",
+    "source_date": "2026-01-19"
+  }
+]

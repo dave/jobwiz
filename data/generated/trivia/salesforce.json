@@ -1,0 +1,162 @@
+[
+  {
+    "company_slug": "salesforce",
+    "fact_type": "founding",
+    "format": "quiz",
+    "question": "When was Salesforce founded?",
+    "answer": "1999",
+    "options": [
+      "1994",
+      "1997",
+      "2002"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Salesforce",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "salesforce",
+    "fact_type": "founding",
+    "format": "flashcard",
+    "question": "Who founded Salesforce?",
+    "answer": "Marc Benioff and Parker Harris and others",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Salesforce",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "salesforce",
+    "fact_type": "founding",
+    "format": "factoid",
+    "question": null,
+    "answer": "Salesforce was founded in 1999 by Marc Benioff and Parker Harris and others.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Salesforce",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "salesforce",
+    "fact_type": "hq",
+    "format": "quiz",
+    "question": "Where is Salesforce's headquarters located?",
+    "answer": "San Francisco, California",
+    "options": [
+      "New York, New York",
+      "Seattle, Washington",
+      "Austin, Texas"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Salesforce",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "salesforce",
+    "fact_type": "hq",
+    "format": "flashcard",
+    "question": "What city is Salesforce headquartered in?",
+    "answer": "San Francisco, California",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Salesforce",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "salesforce",
+    "fact_type": "exec",
+    "format": "quiz",
+    "question": "Who is the current CEO of Salesforce?",
+    "answer": "Marc Benioff",
+    "options": [
+      "Satya Nadella",
+      "Larry Ellison",
+      "Safra Catz"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Salesforce",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "salesforce",
+    "fact_type": "exec",
+    "format": "flashcard",
+    "question": "Who leads Salesforce as CEO?",
+    "answer": "Marc Benioff",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Salesforce",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "salesforce",
+    "fact_type": "mission",
+    "format": "factoid",
+    "question": null,
+    "answer": "Salesforce's mission is \"To empower companies to connect with their customers in a whole new way\".",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Salesforce",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "salesforce",
+    "fact_type": "mission",
+    "format": "flashcard",
+    "question": "What is Salesforce's mission statement?",
+    "answer": "To empower companies to connect with their customers in a whole new way",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Salesforce",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "salesforce",
+    "fact_type": "product",
+    "format": "quiz",
+    "question": "Which of these is a Salesforce product or service?",
+    "answer": "Sales Cloud",
+    "options": [
+      "Microsoft Dynamics",
+      "SAP SuccessFactors",
+      "Oracle Cloud"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Salesforce",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "salesforce",
+    "fact_type": "product",
+    "format": "factoid",
+    "question": null,
+    "answer": "Key Salesforce products and services include Sales Cloud, Service Cloud, Marketing Cloud, Slack, Tableau.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Salesforce",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "salesforce",
+    "fact_type": "acquisition",
+    "format": "quiz",
+    "question": "Which company did Salesforce acquire in 2021?",
+    "answer": "Slack",
+    "options": [
+      "Trello",
+      "GitHub",
+      "LinkedIn"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Salesforce",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "salesforce",
+    "fact_type": "acquisition",
+    "format": "factoid",
+    "question": null,
+    "answer": "Salesforce acquired Slack in 2021.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Salesforce",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "salesforce",
+    "fact_type": "acquisition",
+    "format": "flashcard",
+    "question": "In what year did Salesforce acquire Tableau?",
+    "answer": "2019",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Salesforce",
+    "source_date": "2026-01-19"
+  }
+]

@@ -1,0 +1,162 @@
+[
+  {
+    "company_slug": "sap",
+    "fact_type": "founding",
+    "format": "quiz",
+    "question": "When was SAP founded?",
+    "answer": "1972",
+    "options": [
+      "1964",
+      "1968",
+      "1977"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/SAP",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "sap",
+    "fact_type": "founding",
+    "format": "flashcard",
+    "question": "Who founded SAP?",
+    "answer": "Dietmar Hopp and Hasso Plattner and others",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/SAP",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "sap",
+    "fact_type": "founding",
+    "format": "factoid",
+    "question": null,
+    "answer": "SAP was founded in 1972 by Dietmar Hopp and Hasso Plattner and others.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/SAP",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "sap",
+    "fact_type": "hq",
+    "format": "quiz",
+    "question": "Where is SAP's headquarters located?",
+    "answer": "Walldorf, Germany",
+    "options": [
+      "San Francisco, California",
+      "New York, New York",
+      "Seattle, Washington"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/SAP",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "sap",
+    "fact_type": "hq",
+    "format": "flashcard",
+    "question": "What city is SAP headquartered in?",
+    "answer": "Walldorf, Germany",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/SAP",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "sap",
+    "fact_type": "exec",
+    "format": "quiz",
+    "question": "Who is the current CEO of SAP?",
+    "answer": "Christian Klein",
+    "options": [
+      "Marc Benioff",
+      "Larry Ellison",
+      "Bill McDermott"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/SAP",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "sap",
+    "fact_type": "exec",
+    "format": "flashcard",
+    "question": "Who leads SAP as CEO?",
+    "answer": "Christian Klein",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/SAP",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "sap",
+    "fact_type": "mission",
+    "format": "factoid",
+    "question": null,
+    "answer": "SAP's mission is \"To help the world run better and improve people's lives\".",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/SAP",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "sap",
+    "fact_type": "mission",
+    "format": "flashcard",
+    "question": "What is SAP's mission statement?",
+    "answer": "To help the world run better and improve people's lives",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/SAP",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "sap",
+    "fact_type": "product",
+    "format": "quiz",
+    "question": "Which of these is a SAP product or service?",
+    "answer": "SAP S/4HANA",
+    "options": [
+      "Microsoft Dynamics",
+      "SAP SuccessFactors",
+      "Oracle Cloud"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/SAP",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "sap",
+    "fact_type": "product",
+    "format": "factoid",
+    "question": null,
+    "answer": "Key SAP products and services include SAP S/4HANA, SAP SuccessFactors, SAP Ariba, SAP Concur, SAP Business Technology Platform.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/SAP",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "sap",
+    "fact_type": "acquisition",
+    "format": "quiz",
+    "question": "Which company did SAP acquire in 2019?",
+    "answer": "Qualtrics",
+    "options": [
+      "Slack",
+      "Trello",
+      "GitHub"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/SAP",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "sap",
+    "fact_type": "acquisition",
+    "format": "factoid",
+    "question": null,
+    "answer": "SAP acquired Qualtrics in 2019.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/SAP",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "sap",
+    "fact_type": "acquisition",
+    "format": "flashcard",
+    "question": "In what year did SAP acquire Concur?",
+    "answer": "2014",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/SAP",
+    "source_date": "2026-01-19"
+  }
+]

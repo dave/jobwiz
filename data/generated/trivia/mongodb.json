@@ -1,0 +1,162 @@
+[
+  {
+    "company_slug": "mongodb",
+    "fact_type": "founding",
+    "format": "quiz",
+    "question": "When was MongoDB founded?",
+    "answer": "2007",
+    "options": [
+      "2002",
+      "2005",
+      "2010"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/MongoDB_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "mongodb",
+    "fact_type": "founding",
+    "format": "flashcard",
+    "question": "Who founded MongoDB?",
+    "answer": "Dwight Merriman and Eliot Horowitz and others",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/MongoDB_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "mongodb",
+    "fact_type": "founding",
+    "format": "factoid",
+    "question": null,
+    "answer": "MongoDB was founded in 2007 by Dwight Merriman and Eliot Horowitz and others.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/MongoDB_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "mongodb",
+    "fact_type": "hq",
+    "format": "quiz",
+    "question": "Where is MongoDB's headquarters located?",
+    "answer": "New York, New York",
+    "options": [
+      "San Francisco, California",
+      "Seattle, Washington",
+      "Austin, Texas"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/MongoDB_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "mongodb",
+    "fact_type": "hq",
+    "format": "flashcard",
+    "question": "What city is MongoDB headquartered in?",
+    "answer": "New York, New York",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/MongoDB_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "mongodb",
+    "fact_type": "exec",
+    "format": "quiz",
+    "question": "Who is the current CEO of MongoDB?",
+    "answer": "Dev Ittycheria",
+    "options": [
+      "Marc Benioff",
+      "Shay Banon",
+      "Matthew Prince"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/MongoDB_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "mongodb",
+    "fact_type": "exec",
+    "format": "flashcard",
+    "question": "Who leads MongoDB as CEO?",
+    "answer": "Dev Ittycheria",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/MongoDB_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "mongodb",
+    "fact_type": "mission",
+    "format": "factoid",
+    "question": null,
+    "answer": "MongoDB's mission is \"To empower innovators to create, transform, and disrupt industries\".",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/MongoDB_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "mongodb",
+    "fact_type": "mission",
+    "format": "flashcard",
+    "question": "What is MongoDB's mission statement?",
+    "answer": "To empower innovators to create, transform, and disrupt industries",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/MongoDB_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "mongodb",
+    "fact_type": "product",
+    "format": "quiz",
+    "question": "Which of these is a MongoDB product or service?",
+    "answer": "MongoDB Atlas",
+    "options": [
+      "Microsoft Dynamics",
+      "SAP SuccessFactors",
+      "Oracle Cloud"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/MongoDB_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "mongodb",
+    "fact_type": "product",
+    "format": "factoid",
+    "question": null,
+    "answer": "Key MongoDB products and services include MongoDB Atlas, MongoDB Enterprise, MongoDB Community, MongoDB Realm.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/MongoDB_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "mongodb",
+    "fact_type": "acquisition",
+    "format": "quiz",
+    "question": "Which company did MongoDB acquire in 2019?",
+    "answer": "Realm",
+    "options": [
+      "Slack",
+      "Trello",
+      "GitHub"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/MongoDB_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "mongodb",
+    "fact_type": "acquisition",
+    "format": "factoid",
+    "question": null,
+    "answer": "MongoDB acquired Realm in 2019.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/MongoDB_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "mongodb",
+    "fact_type": "acquisition",
+    "format": "flashcard",
+    "question": "In what year did MongoDB acquire mLab?",
+    "answer": "2018",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/MongoDB_Inc.",
+    "source_date": "2026-01-19"
+  }
+]

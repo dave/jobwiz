@@ -1,0 +1,162 @@
+[
+  {
+    "company_slug": "hubspot",
+    "fact_type": "founding",
+    "format": "quiz",
+    "question": "When was HubSpot founded?",
+    "answer": "2006",
+    "options": [
+      "2001",
+      "2004",
+      "2009"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/HubSpot",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "hubspot",
+    "fact_type": "founding",
+    "format": "flashcard",
+    "question": "Who founded HubSpot?",
+    "answer": "Brian Halligan and Dharmesh Shah",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/HubSpot",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "hubspot",
+    "fact_type": "founding",
+    "format": "factoid",
+    "question": null,
+    "answer": "HubSpot was founded in 2006 by Brian Halligan and Dharmesh Shah.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/HubSpot",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "hubspot",
+    "fact_type": "hq",
+    "format": "quiz",
+    "question": "Where is HubSpot's headquarters located?",
+    "answer": "Cambridge, Massachusetts",
+    "options": [
+      "San Francisco, California",
+      "New York, New York",
+      "Seattle, Washington"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/HubSpot",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "hubspot",
+    "fact_type": "hq",
+    "format": "flashcard",
+    "question": "What city is HubSpot headquartered in?",
+    "answer": "Cambridge, Massachusetts",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/HubSpot",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "hubspot",
+    "fact_type": "exec",
+    "format": "quiz",
+    "question": "Who is the current CEO of HubSpot?",
+    "answer": "Yamini Rangan",
+    "options": [
+      "Brian Halligan",
+      "Marc Benioff",
+      "Jeff Lawson"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/HubSpot",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "hubspot",
+    "fact_type": "exec",
+    "format": "flashcard",
+    "question": "Who leads HubSpot as CEO?",
+    "answer": "Yamini Rangan",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/HubSpot",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "hubspot",
+    "fact_type": "mission",
+    "format": "factoid",
+    "question": null,
+    "answer": "HubSpot's mission is \"To help millions of organizations grow better\".",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/HubSpot",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "hubspot",
+    "fact_type": "mission",
+    "format": "flashcard",
+    "question": "What is HubSpot's mission statement?",
+    "answer": "To help millions of organizations grow better",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/HubSpot",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "hubspot",
+    "fact_type": "product",
+    "format": "quiz",
+    "question": "Which of these is a HubSpot product or service?",
+    "answer": "Marketing Hub",
+    "options": [
+      "Microsoft Dynamics",
+      "SAP SuccessFactors",
+      "Oracle Cloud"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/HubSpot",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "hubspot",
+    "fact_type": "product",
+    "format": "factoid",
+    "question": null,
+    "answer": "Key HubSpot products and services include Marketing Hub, Sales Hub, Service Hub, CMS Hub, Operations Hub.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/HubSpot",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "hubspot",
+    "fact_type": "acquisition",
+    "format": "quiz",
+    "question": "Which company did HubSpot acquire in 2023?",
+    "answer": "Clearbit",
+    "options": [
+      "Slack",
+      "Trello",
+      "GitHub"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/HubSpot",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "hubspot",
+    "fact_type": "acquisition",
+    "format": "factoid",
+    "question": null,
+    "answer": "HubSpot acquired Clearbit in 2023.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/HubSpot",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "hubspot",
+    "fact_type": "acquisition",
+    "format": "flashcard",
+    "question": "In what year did HubSpot acquire The Hustle?",
+    "answer": "2021",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/HubSpot",
+    "source_date": "2026-01-19"
+  }
+]

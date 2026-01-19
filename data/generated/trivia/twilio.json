@@ -1,0 +1,162 @@
+[
+  {
+    "company_slug": "twilio",
+    "fact_type": "founding",
+    "format": "quiz",
+    "question": "When was Twilio founded?",
+    "answer": "2008",
+    "options": [
+      "2003",
+      "2006",
+      "2011"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Twilio",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "twilio",
+    "fact_type": "founding",
+    "format": "flashcard",
+    "question": "Who founded Twilio?",
+    "answer": "Jeff Lawson and Evan Cooke and others",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Twilio",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "twilio",
+    "fact_type": "founding",
+    "format": "factoid",
+    "question": null,
+    "answer": "Twilio was founded in 2008 by Jeff Lawson and Evan Cooke and others.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Twilio",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "twilio",
+    "fact_type": "hq",
+    "format": "quiz",
+    "question": "Where is Twilio's headquarters located?",
+    "answer": "San Francisco, California",
+    "options": [
+      "New York, New York",
+      "Seattle, Washington",
+      "Austin, Texas"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Twilio",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "twilio",
+    "fact_type": "hq",
+    "format": "flashcard",
+    "question": "What city is Twilio headquartered in?",
+    "answer": "San Francisco, California",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Twilio",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "twilio",
+    "fact_type": "exec",
+    "format": "quiz",
+    "question": "Who is the current CEO of Twilio?",
+    "answer": "Khozema Shipchandler",
+    "options": [
+      "Marc Benioff",
+      "Gary Steele",
+      "Todd McKinnon"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Twilio",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "twilio",
+    "fact_type": "exec",
+    "format": "flashcard",
+    "question": "Who leads Twilio as CEO?",
+    "answer": "Khozema Shipchandler",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Twilio",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "twilio",
+    "fact_type": "mission",
+    "format": "factoid",
+    "question": null,
+    "answer": "Twilio's mission is \"To fuel the future of communications\".",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Twilio",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "twilio",
+    "fact_type": "mission",
+    "format": "flashcard",
+    "question": "What is Twilio's mission statement?",
+    "answer": "To fuel the future of communications",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Twilio",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "twilio",
+    "fact_type": "product",
+    "format": "quiz",
+    "question": "Which of these is a Twilio product or service?",
+    "answer": "Twilio Programmable Voice",
+    "options": [
+      "Microsoft Dynamics",
+      "SAP SuccessFactors",
+      "Oracle Cloud"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Twilio",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "twilio",
+    "fact_type": "product",
+    "format": "factoid",
+    "question": null,
+    "answer": "Key Twilio products and services include Twilio Programmable Voice, Twilio SMS, Twilio Flex, Twilio SendGrid, Twilio Segment.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Twilio",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "twilio",
+    "fact_type": "acquisition",
+    "format": "quiz",
+    "question": "Which company did Twilio acquire in 2020?",
+    "answer": "Segment",
+    "options": [
+      "Slack",
+      "Trello",
+      "GitHub"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Twilio",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "twilio",
+    "fact_type": "acquisition",
+    "format": "factoid",
+    "question": null,
+    "answer": "Twilio acquired Segment in 2020.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Twilio",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "twilio",
+    "fact_type": "acquisition",
+    "format": "flashcard",
+    "question": "In what year did Twilio acquire SendGrid?",
+    "answer": "2019",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Twilio",
+    "source_date": "2026-01-19"
+  }
+]
