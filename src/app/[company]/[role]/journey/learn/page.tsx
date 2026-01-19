@@ -1,16 +1,15 @@
 /**
  * Journey Learn Page
- * Issue: #117 - Freemium model with paywall
+ * Issue: #135 - C3: Wire up learn page
  *
- * Interactive learning experience using JourneyContainer
- * Loads modules from Supabase and displays them step-by-step
+ * Carousel-based learning experience
+ * Loads modules from filesystem and displays them in carousel format
  */
 
 import { notFound } from "next/navigation";
 import { getCompanyBySlug, getRoleBySlug } from "@/lib/routing";
-import { createServerClient } from "@/lib/supabase/server";
-import { getPreviewContent } from "@/lib/content-fetching";
-import { LearnContent } from "./LearnContent";
+import { loadCarouselModules, flattenToCarouselItems } from "@/lib/carousel";
+import { LearnCarouselContent } from "./LearnCarouselContent";
 
 interface LearnPageProps {
   params: Promise<{
@@ -30,22 +29,25 @@ export default async function LearnPage({ params }: LearnPageProps) {
     notFound();
   }
 
-  // Fetch content from Supabase
-  let content = null;
+  // Load modules from filesystem and flatten for carousel
+  let flattenedResult = null;
   try {
-    const supabase = await createServerClient();
-    content = await getPreviewContent(supabase, companySlug, roleSlug);
+    const { freeModules, premiumModules } = loadCarouselModules(
+      companySlug,
+      roleSlug
+    );
+    flattenedResult = flattenToCarouselItems(freeModules, premiumModules);
   } catch (error) {
-    console.error("Error fetching content:", error);
+    console.error("Error loading carousel modules:", error);
   }
 
   return (
-    <LearnContent
+    <LearnCarouselContent
       companySlug={companySlug}
       roleSlug={roleSlug}
       companyName={company.name}
       roleName={role.name}
-      initialContent={content}
+      flattenedResult={flattenedResult}
     />
   );
 }

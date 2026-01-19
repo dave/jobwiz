@@ -2753,3 +2753,30 @@ All Stage 5 (Launch) code issues are now closed:
   - Render CarouselContainer with items ✓
   - Handle completion (redirect to journey) ✓
   - Exit button returns to journey overview ✓
+
+### 2026-01-19 - Issue #135: C3: Wire up learn page
+
+**Completed:**
+- Modified `/src/app/[company]/[role]/journey/learn/page.tsx` to use carousel
+- Switched from `LearnContent` (JourneyContainer-based) to `LearnCarouselContent`
+- Loads modules via `loadCarouselModules(companySlug, roleSlug)`
+- Flattens modules via `flattenToCarouselItems(freeModules, premiumModules)`
+- Passes pre-flattened result to client component for SSR compatibility
+- Kept `LearnContent.tsx` as potential fallback (no removal per spec)
+
+**Files Modified:**
+- `src/app/[company]/[role]/journey/learn/page.tsx`
+
+**Verification:**
+- `npm run lint` - passes with no errors
+- `npm run type-check` - passes with no errors
+- `npm run build` - successful production build
+- `npm test` - 294 carousel tests pass, 194 journey tests pass
+- All acceptance criteria verified:
+  - Learn page shows carousel UX ✓
+  - Loads modules via loadCarouselModules ✓
+  - Flattens to items via flattenToCarouselItems ✓
+  - LearnContent.tsx kept as fallback ✓
+
+**Screenshot:**
+- `screenshots/135-learn-carousel-quote.png` - Carousel showing quote block
