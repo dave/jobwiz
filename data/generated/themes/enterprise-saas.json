@@ -1,0 +1,104 @@
+{
+  "batch": "Enterprise SaaS",
+  "generated_at": "2026-01-18",
+  "themes": [
+    {
+      "company_slug": "salesforce",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Salesforce.com_logo.svg",
+      "primary_color": "#00a1e0",
+      "secondary_color": "#032d60",
+      "industry_category": "Enterprise SaaS"
+    },
+    {
+      "company_slug": "oracle",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Oracle_logo.svg",
+      "primary_color": "#f80000",
+      "secondary_color": "#312d2a",
+      "industry_category": "Enterprise SaaS"
+    },
+    {
+      "company_slug": "sap",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/5/59/SAP_2011_logo.svg",
+      "primary_color": "#0070f2",
+      "secondary_color": "#354a5f",
+      "industry_category": "Enterprise SaaS"
+    },
+    {
+      "company_slug": "workday",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Workday_logo.svg",
+      "primary_color": "#f6851f",
+      "secondary_color": "#005cb9",
+      "industry_category": "Enterprise SaaS"
+    },
+    {
+      "company_slug": "servicenow",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/5/57/ServiceNow_logo.svg",
+      "primary_color": "#81b5a1",
+      "secondary_color": "#293e40",
+      "industry_category": "Enterprise SaaS"
+    },
+    {
+      "company_slug": "atlassian",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Atlassian_Logo.svg",
+      "primary_color": "#0052cc",
+      "secondary_color": "#172b4d",
+      "industry_category": "Enterprise SaaS"
+    },
+    {
+      "company_slug": "splunk",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Splunk-Logo.svg",
+      "primary_color": "#65a637",
+      "secondary_color": "#000000",
+      "industry_category": "Enterprise SaaS"
+    },
+    {
+      "company_slug": "twilio",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Twilio-logo-red.svg",
+      "primary_color": "#f22f46",
+      "secondary_color": "#0d122b",
+      "industry_category": "Enterprise SaaS"
+    },
+    {
+      "company_slug": "hubspot",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/HubSpot_Logo.svg",
+      "primary_color": "#ff7a59",
+      "secondary_color": "#33475b",
+      "industry_category": "Enterprise SaaS"
+    },
+    {
+      "company_slug": "zendesk",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Zendesk_logo.svg",
+      "primary_color": "#03363d",
+      "secondary_color": "#78a300",
+      "industry_category": "Enterprise SaaS"
+    },
+    {
+      "company_slug": "okta",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Okta_logo.svg",
+      "primary_color": "#007dc1",
+      "secondary_color": "#1a1a1a",
+      "industry_category": "Enterprise SaaS"
+    },
+    {
+      "company_slug": "cloudflare",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Cloudflare_Logo.svg",
+      "primary_color": "#f38020",
+      "secondary_color": "#404040",
+      "industry_category": "Enterprise SaaS"
+    },
+    {
+      "company_slug": "mongodb",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/9/93/MongoDB_Logo.svg",
+      "primary_color": "#00ed64",
+      "secondary_color": "#001e2b",
+      "industry_category": "Enterprise SaaS"
+    },
+    {
+      "company_slug": "elastic",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Elasticsearch_logo.svg",
+      "primary_color": "#fed10a",
+      "secondary_color": "#343741",
+      "industry_category": "Enterprise SaaS"
+    }
+  ]
+}
