@@ -14,3 +14,9 @@ export type { BigQuestionModeProps } from "./BigQuestionMode";
 
 export { ConversationalMode } from "./ConversationalMode";
 export type { ConversationalModeProps } from "./ConversationalMode";
+
+export { SectionTimeline } from "./SectionTimeline";
+export type {
+  SectionTimelineProps,
+  TimelineSection,
+} from "./SectionTimeline";

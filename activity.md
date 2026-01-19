@@ -4161,3 +4161,69 @@ All Stage 6 (Production Content Population) issues are now closed:
   - Auto-scroll to new messages ✓
   - "↓ New" indicator when scrolled up ✓
   - Full module history visible ✓
+
+### 2026-01-19 - Issue #187: 2.3: Section timeline sidebar
+
+**Completed:**
+- Created `src/components/alex/SectionTimeline.tsx` component
+- Progress sidebar showing modules/sections with visual timeline
+
+**Desktop Layout:**
+- Fixed left sidebar (280px width)
+- Visible on lg+ screens via `hidden lg:flex` classes
+- Shows "Your Progress" header with percentage
+- Progress bar with animated fill
+- Section list with dots and connecting lines
+
+**Mobile Layout:**
+- Toggle button in top-left corner (48px touch target)
+- Hidden on lg+ screens via `lg:hidden` class
+- Slide-in drawer (AnimatePresence + framer-motion)
+- Backdrop overlay for closing
+- Close button in drawer header
+- Auto-closes after section selection
+
+**Section States:**
+- Completed = green dot with checkmark icon
+- Current = highlighted with primary color, `aria-current="step"`
+- Upcoming = gray dot, disabled (not clickable)
+
+**Features:**
+- Groups carousel items by sectionTitle or moduleSlug
+- Extracts sections from CarouselContext items
+- Skips paywall items in section grouping
+- Click completed/current sections to jump to that point
+- Keyboard support (Escape closes drawer)
+- Safe area insets for notched devices
+- Reduced motion support via framer-motion
+
+**Files Created:**
+- `src/components/alex/SectionTimeline.tsx` - Main component
+- `src/components/alex/__tests__/SectionTimeline.test.tsx` - 28 unit tests
+
+**Files Modified:**
+- `src/components/alex/index.ts` - Added SectionTimeline export
+
+**Tests:**
+- 28 unit tests covering:
+  - Rendering (4 tests)
+  - Section extraction (3 tests)
+  - Section states (3 tests)
+  - Click to jump (4 tests)
+  - Mobile drawer (6 tests)
+  - Accessibility (2 tests)
+  - Progress calculation (4 tests)
+  - Responsive behavior (2 tests)
+
+**Verification:**
+- `npm run lint` - passes (only pre-existing warnings)
+- `npm run type-check` - passes with no errors
+- `npm run build` - successful production build
+- `npm test` - 199 alex component tests pass (28 new SectionTimeline tests)
+- All acceptance criteria verified:
+  - Shows module list with dots/lines ✓
+  - Current section highlighted ✓
+  - Completed sections have checkmark ✓
+  - Click jumps to section ✓
+  - Collapses to drawer on mobile ✓
+  - Smooth open/close animation ✓
