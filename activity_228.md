@@ -21,7 +21,7 @@ Fix content quality issues identified during manual review of interview prep mod
 - [x] #279 - Big Tech batch
 - [x] #280 - High-growth startups batch
 - [x] #281 - Finance batch
-- [ ] #282 - Consulting batch
+- [x] #282 - Consulting batch
 - [ ] #283 - E-commerce/Retail batch
 - [ ] #284 - Healthcare/Biotech batch
 - [ ] #285 - Enterprise SaaS batch
@@ -1375,6 +1375,52 @@ Goldman Sachs, JPMorgan, Morgan Stanley, Bank of America, Citadel, Two Sigma, Ja
 
 **Verification:**
 - All 14 JSON files valid (node validation passes)
+- `npm run lint` - passes (warnings only for unrelated image issues)
+- `npm run type-check` - passes
+- `npm run build` - successful
+- `npm test -- --testPathPattern="modules"` - 77 tests pass
+
+**Acceptance Criteria:**
+- ✅ All company modules in batch reviewed
+- ✅ Role-specific content removed/generalized
+- ✅ Content still valuable for all roles
+- ✅ JSON valid after edits
+- ✅ All tests pass
+
+### 2026-01-19 - Issue #282: Remove role-specific content - Company modules: Consulting
+
+**Status:** Complete
+
+**Modules Modified (10 total):**
+McKinsey, BCG, Bain, Deloitte, Accenture, PwC, EY, KPMG, Capgemini, Booz Allen
+
+**Role-specific content removed/generalized:**
+
+1. **Interviewer Mindset section** (all 10 modules):
+   - Removed: "**Technical Questions**" sub-section entirely
+   - Removed: Tips about "statistical knowledge" and "class imbalance" (role-specific data science content)
+   - Generalized: Behavioral questions tip changed from "System design emphasis, Heavy focus on coding, Behavioral interviews important" to "Behavioral interviews, culture fit assessments, and problem-solving exercises"
+
+2. **Process section** (8 modules - McKinsey, BCG, Deloitte, Accenture, PwC, EY, Capgemini, Booz Allen):
+   - Changed: "**Format:** Mix of phone screen, technical, behavioral..." to "**Format:** Mix of phone screen, role-specific, behavioral..."
+
+**Files Modified:**
+- `data/generated/modules/company-mckinsey.json`
+- `data/generated/modules/company-bcg.json`
+- `data/generated/modules/company-bain.json`
+- `data/generated/modules/company-deloitte.json`
+- `data/generated/modules/company-accenture.json`
+- `data/generated/modules/company-pwc.json`
+- `data/generated/modules/company-ey.json`
+- `data/generated/modules/company-kpmg.json`
+- `data/generated/modules/company-capgemini.json`
+- `data/generated/modules/company-booz-allen.json`
+
+**Script Created:**
+- `scripts/cleanup/remove-role-specific-consulting.ts` - Automated removal of role-specific content
+
+**Verification:**
+- All 10 JSON files valid (node validation passes)
 - `npm run lint` - passes (warnings only for unrelated image issues)
 - `npm run type-check` - passes
 - `npm run build` - successful
