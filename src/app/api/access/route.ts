@@ -61,15 +61,33 @@ export async function GET(
 
     // Get user from session
     const supabase = await createSupabaseServerClient();
-    const { data: { user } } = await supabase.auth.getUser();
+    const { data: { user }, error: authError } = await supabase.auth.getUser();
+
+    console.log('[API /access] Auth check:', {
+      hasUser: !!user,
+      userId: user?.id,
+      authError: authError?.message,
+      company,
+      role,
+    });
 
     // No user = no access
     if (!user) {
+      console.log('[API /access] No user, returning hasAccess: false');
       return NextResponse.json({ hasAccess: false }, { status: 200 });
     }
 
     // Check if user has access
     const result = await checkAccess(supabase, user.id, company, role);
+
+    console.log('[API /access] Access check result:', {
+      userId: user.id,
+      company,
+      role,
+      hasAccess: result.hasAccess,
+      grantId: result.grantId,
+      source: result.source,
+    });
 
     return NextResponse.json({ hasAccess: result.hasAccess }, { status: 200 });
   } catch (error) {

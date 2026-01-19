@@ -91,11 +91,18 @@ export function JourneyContent({
         const res = await fetch(
           `/api/access?company=${companySlug}&role=${roleSlug}`
         );
+        const data = await res.json();
+        console.log('[JourneyContent] Access check response:', {
+          status: res.status,
+          ok: res.ok,
+          data,
+          userId: user?.id,
+        });
         if (res.ok) {
-          const data = await res.json();
           setHasAccess(data.hasAccess);
         }
-      } catch {
+      } catch (error) {
+        console.error('[JourneyContent] Access check error:', error);
         // Fail open - show paywall
         setHasAccess(false);
       }
