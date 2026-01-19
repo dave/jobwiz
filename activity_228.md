@@ -40,7 +40,7 @@ Fix content quality issues identified during manual review of interview prep mod
 - [ ] #296 - Other companies batch
 
 ### Missing Introductions (#244)
-- [ ] #245 - Add STAR section intro
+- [x] #245 - Add STAR section intro
 - [ ] #246 - Add Research section intro
 - [ ] #247 - Audit role modules
 - [ ] #248 - Add intros to role modules
@@ -239,4 +239,32 @@ Detection logic tests (12 tests in `src/components/carousel/items/__tests__/Quiz
 - ✅ Readable on desktop and mobile
 - ✅ Continue button works
 - ✅ Screenshots captured for documentation
+
+### 2026-01-19 - Issue #245: Add behavioral questions intro before STAR section
+
+**Completed:**
+- Added intro text block before STAR method content in `data/generated/modules/universal-fundamentals.json`
+- Intro explains what behavioral questions are
+- Includes example phrases:
+  - "Tell me about a time when..."
+  - "Describe a situation where..."
+  - "Give me an example of..."
+- Explains why interviewers use them (to understand actual behavior, not hypothetical)
+
+**Files Modified:**
+- `data/generated/modules/universal-fundamentals.json` - Added intro block before STAR content
+
+**Verification:**
+- JSON is valid
+- `npm run lint` - passes (warnings only)
+- `npm run type-check` - passes
+- `npm run build` - successful
+- `npm test -- --testPathPattern="modules"` - 77 tests pass
+
+**Acceptance Criteria:**
+- ✅ Intro block added before STAR content
+- ✅ Explains what behavioral questions are
+- ✅ Gives example phrases
+- ✅ Explains why interviewers use them
+- ✅ JSON valid after edit
 
