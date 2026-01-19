@@ -13,6 +13,53 @@ jest.mock("next/navigation", () => ({
     forward: jest.fn(),
     refresh: jest.fn(),
   }),
+  useSearchParams: () => ({
+    get: jest.fn().mockReturnValue(null),
+  }),
+}));
+
+// Mock framer-motion
+jest.mock("framer-motion", () => ({
+  motion: {
+    div: ({
+      children,
+      initial,
+      animate,
+      exit,
+      variants,
+      transition,
+      ...props
+    }: React.ComponentPropsWithRef<"div"> & {
+      initial?: unknown;
+      animate?: unknown;
+      exit?: unknown;
+      variants?: unknown;
+      transition?: unknown;
+    }) => <div {...props}>{children}</div>,
+    button: ({
+      children,
+      initial,
+      animate,
+      exit,
+      variants,
+      transition,
+      whileHover,
+      whileTap,
+      ...props
+    }: React.ComponentPropsWithRef<"button"> & {
+      initial?: unknown;
+      animate?: unknown;
+      exit?: unknown;
+      variants?: unknown;
+      transition?: unknown;
+      whileHover?: unknown;
+      whileTap?: unknown;
+    }) => <button {...props}>{children}</button>,
+  },
+  AnimatePresence: ({ children }: { children: React.ReactNode }) => (
+    <>{children}</>
+  ),
+  useReducedMotion: () => false,
 }));
 
 // Mock localStorage
@@ -38,6 +85,9 @@ const mockLocalStorage = (() => {
 Object.defineProperty(window, "localStorage", {
   value: mockLocalStorage,
 });
+
+// Mock scrollIntoView (not available in jsdom)
+Element.prototype.scrollIntoView = jest.fn();
 
 // Mock Supabase
 jest.mock("@/lib/supabase/client", () => ({
@@ -112,11 +162,11 @@ describe("LearnCarouselContent", () => {
   });
 
   describe("Rendering", () => {
-    it("renders the carousel container when items are provided", () => {
+    it("renders the conversation container when items are provided", () => {
       render(<LearnCarouselContent {...defaultProps} />);
 
-      // Should show the carousel with progress indicator
-      expect(screen.getByText("1 of 3")).toBeInTheDocument();
+      // Should show the conversation container
+      expect(screen.getByTestId("conversation-container")).toBeInTheDocument();
     });
 
     it("renders 'Content Coming Soon' when no items provided", () => {
@@ -160,68 +210,6 @@ describe("LearnCarouselContent", () => {
   });
 
   describe("Navigation", () => {
-    it("displays exit button", () => {
-      render(<LearnCarouselContent {...defaultProps} />);
-
-      const exitButton = screen.getByRole("button", {
-        name: /Exit carousel/i,
-      });
-      expect(exitButton).toBeInTheDocument();
-    });
-
-    it("navigates to journey overview on exit", () => {
-      render(<LearnCarouselContent {...defaultProps} />);
-
-      const exitButton = screen.getByRole("button", {
-        name: /Exit carousel/i,
-      });
-      fireEvent.click(exitButton);
-
-      expect(mockPush).toHaveBeenCalledWith("/google/software-engineer/journey");
-    });
-
-    it("displays Next button", () => {
-      render(<LearnCarouselContent {...defaultProps} />);
-
-      const nextButton = screen.getByRole("button", { name: /Go to next item/i });
-      expect(nextButton).toBeInTheDocument();
-    });
-
-    it("advances on Next button click", () => {
-      render(<LearnCarouselContent {...defaultProps} />);
-
-      const nextButton = screen.getByRole("button", { name: /Go to next item/i });
-      fireEvent.click(nextButton);
-
-      expect(screen.getByText("2 of 3")).toBeInTheDocument();
-    });
-
-    it("shows Back button after advancing", () => {
-      render(<LearnCarouselContent {...defaultProps} />);
-
-      // Initially no Back button on first item
-      expect(
-        screen.queryByRole("button", { name: /Go to previous item/i })
-      ).not.toBeInTheDocument();
-
-      // Advance to second item
-      const nextButton = screen.getByRole("button", { name: /Go to next item/i });
-      fireEvent.click(nextButton);
-
-      // Now Back button should appear
-      expect(
-        screen.getByRole("button", { name: /Go to previous item/i })
-      ).toBeInTheDocument();
-    });
-
-    it("supports keyboard navigation - ArrowRight to advance", () => {
-      render(<LearnCarouselContent {...defaultProps} />);
-
-      fireEvent.keyDown(window, { key: "ArrowRight" });
-
-      expect(screen.getByText("2 of 3")).toBeInTheDocument();
-    });
-
     it("supports keyboard navigation - Escape to exit", () => {
       render(<LearnCarouselContent {...defaultProps} />);
 
@@ -232,7 +220,7 @@ describe("LearnCarouselContent", () => {
   });
 
   describe("Content Rendering", () => {
-    it("renders text content items", () => {
+    it("renders text content items via ConversationalContent", () => {
       const result = createFlattenResult({
         items: [
           createCarouselItem({
@@ -249,10 +237,11 @@ describe("LearnCarouselContent", () => {
         <LearnCarouselContent {...defaultProps} flattenedResult={result} />
       );
 
-      expect(screen.getByText("This is test text content")).toBeInTheDocument();
+      // Text content shows in conversation mode (may appear multiple times in messages + content)
+      expect(screen.getAllByText("This is test text content").length).toBeGreaterThan(0);
     });
 
-    it("renders header content items", () => {
+    it("renders header content items in big-question mode", () => {
       const result = createFlattenResult({
         items: [
           createCarouselItem({
@@ -276,7 +265,7 @@ describe("LearnCarouselContent", () => {
       ).toBeInTheDocument();
     });
 
-    it("renders tip content items", () => {
+    it("renders tip content items via ConversationalContent", () => {
       const result = createFlattenResult({
         items: [
           createCarouselItem({
@@ -294,13 +283,13 @@ describe("LearnCarouselContent", () => {
         <LearnCarouselContent {...defaultProps} flattenedResult={result} />
       );
 
-      expect(screen.getByText("Pro Tip")).toBeInTheDocument();
+      expect(screen.getAllByText("Pro Tip").length).toBeGreaterThan(0);
       expect(
-        screen.getByText(/Remember to STAR your answers/)
-      ).toBeInTheDocument();
+        screen.getAllByText(/Remember to STAR your answers/).length
+      ).toBeGreaterThan(0);
     });
 
-    it("renders quiz items", () => {
+    it("renders quiz items via ConversationalQuiz", () => {
       const result = createFlattenResult({
         items: [
           createCarouselItem({
@@ -324,185 +313,119 @@ describe("LearnCarouselContent", () => {
         <LearnCarouselContent {...defaultProps} flattenedResult={result} />
       );
 
-      expect(screen.getByText("What does STAR stand for?")).toBeInTheDocument();
+      // Quiz question and options appear (may be rendered in multiple places)
+      expect(screen.getAllByText("What does STAR stand for?").length).toBeGreaterThan(0);
       expect(
-        screen.getByText("Situation, Task, Action, Result")
-      ).toBeInTheDocument();
+        screen.getAllByText("Situation, Task, Action, Result").length
+      ).toBeGreaterThan(0);
     });
   });
 
   describe("Paywall", () => {
-    it("renders paywall item at correct position", () => {
-      // Add more free items before paywall so we can navigate to it
+    it("renders paywall component when at paywall item", () => {
       const result = createFlattenResult({
         items: [
-          createCarouselItem({ id: "free-1", order: 0 }),
-          createCarouselItem({ id: "free-2", order: 1 }),
           createCarouselItem({
             id: "paywall",
             type: "paywall",
-            order: 2,
+            order: 0,
             content: createContentBlock({
               type: "text",
               content: "Unlock premium content",
             }),
           }),
-          createCarouselItem({ id: "premium-1", order: 3, isPremium: true }),
         ],
-        paywallIndex: 2,
-        totalItems: 4,
+        paywallIndex: 0,
+        totalItems: 1,
       });
 
       render(
         <LearnCarouselContent {...defaultProps} flattenedResult={result} />
       );
 
-      // Navigate to item before paywall
-      const nextButton = screen.getByRole("button", { name: /Go to next item/i });
-      fireEvent.click(nextButton);
-
-      expect(screen.getByText("2 of 4")).toBeInTheDocument();
-      // At item 2, next item is paywall so should show Unlock
-      expect(screen.getByText("Unlock")).toBeInTheDocument();
-    });
-
-    it("blocks navigation past paywall without premium access", () => {
-      // Add more free items before paywall
-      const result = createFlattenResult({
-        items: [
-          createCarouselItem({ id: "free-1", order: 0 }),
-          createCarouselItem({ id: "free-2", order: 1 }),
-          createCarouselItem({
-            id: "paywall",
-            type: "paywall",
-            order: 2,
-            content: createContentBlock({
-              type: "text",
-              content: "Unlock premium content",
-            }),
-          }),
-          createCarouselItem({ id: "premium-1", order: 3, isPremium: true }),
-        ],
-        paywallIndex: 2,
-        totalItems: 4,
-      });
-
-      render(
-        <LearnCarouselContent
-          {...defaultProps}
-          flattenedResult={result}
-          hasPremiumAccess={false}
-        />
-      );
-
-      // Navigate to item before paywall
-      const nextButton = screen.getByRole("button", { name: /Go to next item/i });
-      fireEvent.click(nextButton);
-
-      // Should show Unlock button instead of Next (because next item is paywall)
-      expect(screen.getByText("Unlock")).toBeInTheDocument();
-    });
-
-    it("allows navigation past paywall with premium access", () => {
-      const result = createFlattenResult({
-        items: [
-          createCarouselItem({ id: "free-1", order: 0 }),
-          createCarouselItem({
-            id: "paywall",
-            type: "paywall",
-            order: 1,
-            content: createContentBlock({
-              type: "text",
-              content: "Unlock premium content",
-            }),
-          }),
-          createCarouselItem({
-            id: "premium-1",
-            order: 2,
-            isPremium: true,
-            content: createContentBlock({
-              type: "text",
-              content: "Premium content here",
-            }),
-          }),
-        ],
-        paywallIndex: 1,
-      });
-
-      render(
-        <LearnCarouselContent
-          {...defaultProps}
-          flattenedResult={result}
-          hasPremiumAccess={true}
-        />
-      );
-
-      // Navigate past paywall
-      const nextButton = screen.getByRole("button", { name: /Go to next item/i });
-      fireEvent.click(nextButton);
-      fireEvent.click(nextButton);
-
-      // Should show premium content
-      expect(screen.getByText("3 of 3")).toBeInTheDocument();
-      expect(screen.getByText("Premium content here")).toBeInTheDocument();
+      // Paywall shows company-specific unlock message
+      expect(screen.getByText(/Unlock Google Software Engineer Prep/i)).toBeInTheDocument();
     });
   });
 
-  describe("Completion", () => {
-    it("shows Done button on last item", () => {
+  describe("Display Modes", () => {
+    it("uses big-question mode for video content", () => {
       const result = createFlattenResult({
         items: [
-          createCarouselItem({ id: "item-1", order: 0 }),
-          createCarouselItem({ id: "item-2", order: 1 }),
+          createCarouselItem({
+            id: "video-item",
+            content: {
+              type: "video",
+              id: "v1",
+              url: "https://www.youtube.com/watch?v=test123",
+              title: "Test Video",
+            } as ContentBlock,
+          }),
         ],
-        totalItems: 2,
       });
 
       render(
         <LearnCarouselContent {...defaultProps} flattenedResult={result} />
       );
 
-      // Navigate to last item
-      const nextButton = screen.getByRole("button", { name: /Go to next item/i });
-      fireEvent.click(nextButton);
-
-      // Should show Done instead of Next
-      expect(screen.getByRole("button", { name: /Complete/i })).toBeInTheDocument();
-      expect(screen.getByText("Done")).toBeInTheDocument();
-    });
-  });
-
-  describe("Accessibility", () => {
-    it("has accessible progress indicator", () => {
-      render(<LearnCarouselContent {...defaultProps} />);
-
-      const progressIndicator = screen.getByText("1 of 3");
-      expect(progressIndicator).toHaveAttribute("aria-live", "polite");
+      // Should be in big-question mode
+      const container = screen.getByTestId("conversation-container");
+      expect(container).toHaveAttribute("data-display-mode", "big-question");
     });
 
-    it("has accessible navigation buttons", () => {
-      render(<LearnCarouselContent {...defaultProps} />);
-
-      expect(
-        screen.getByRole("button", { name: /Exit carousel/i })
-      ).toBeInTheDocument();
-      expect(
-        screen.getByRole("button", { name: /Go to next item/i })
-      ).toBeInTheDocument();
-    });
-
-    it("marks current content region", () => {
-      render(<LearnCarouselContent {...defaultProps} />);
-
-      const contentRegion = screen.getByRole("region", {
-        name: /Item 1 of 3/i,
+    it("uses conversational mode for text content", () => {
+      const result = createFlattenResult({
+        items: [
+          createCarouselItem({
+            id: "text-item",
+            content: createContentBlock({
+              type: "text",
+              content: "Test text content",
+            }),
+          }),
+        ],
       });
-      expect(contentRegion).toHaveAttribute("aria-current", "step");
+
+      render(
+        <LearnCarouselContent {...defaultProps} flattenedResult={result} />
+      );
+
+      // Should be in conversational mode
+      const container = screen.getByTestId("conversation-container");
+      expect(container).toHaveAttribute("data-display-mode", "conversational");
+    });
+
+    it("uses conversational mode for quiz content", () => {
+      const result = createFlattenResult({
+        items: [
+          createCarouselItem({
+            id: "quiz-item",
+            type: "quiz",
+            content: {
+              type: "quiz",
+              id: "q1",
+              question: "Test question?",
+              options: [
+                { id: "a", text: "Option A", isCorrect: true },
+                { id: "b", text: "Option B", isCorrect: false },
+              ],
+            } as ContentBlock,
+          }),
+        ],
+      });
+
+      render(
+        <LearnCarouselContent {...defaultProps} flattenedResult={result} />
+      );
+
+      // Should be in conversational mode
+      const container = screen.getByTestId("conversation-container");
+      expect(container).toHaveAttribute("data-display-mode", "conversational");
     });
   });
 
   describe("Props", () => {
-    it("uses provided company and role slugs", () => {
+    it("uses provided company and role slugs for exit navigation", () => {
       render(
         <LearnCarouselContent
           {...defaultProps}
@@ -511,10 +434,8 @@ describe("LearnCarouselContent", () => {
         />
       );
 
-      const exitButton = screen.getByRole("button", {
-        name: /Exit carousel/i,
-      });
-      fireEvent.click(exitButton);
+      // Escape key triggers exit
+      fireEvent.keyDown(window, { key: "Escape" });
 
       expect(mockPush).toHaveBeenCalledWith("/amazon/product-manager/journey");
     });
@@ -532,6 +453,14 @@ describe("LearnCarouselContent", () => {
       expect(
         screen.getByText(/We're preparing your Amazon Product Manager/)
       ).toBeInTheDocument();
+    });
+  });
+
+  describe("Timeline", () => {
+    it("renders section timeline component", () => {
+      render(<LearnCarouselContent {...defaultProps} />);
+
+      expect(screen.getByTestId("conversation-timeline")).toBeInTheDocument();
     });
   });
 });
