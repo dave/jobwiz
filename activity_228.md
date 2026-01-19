@@ -64,7 +64,7 @@ Fix content quality issues identified during manual review of interview prep mod
 - [x] #274 - Company-role modules: E-commerce/Retail
 - [x] #275 - Company-role modules: Healthcare/Biotech
 - [x] #276 - Company-role modules: Enterprise SaaS
-- [ ] #277 - Company-role modules: Media/Entertainment
+- [x] #277 - Company-role modules: Media/Entertainment
 - [ ] #278 - Company-role modules: Other companies
 
 ### Role → Company-Role Merge (#253)
@@ -1135,5 +1135,50 @@ None. Unlike the company modules which had garbled scraped content in some "Comm
 
 **Acceptance Criteria:**
 - ✅ All 138 company-role modules in batch reviewed
+- ✅ All grammar issues fixed (none found - content is clean)
+
+### 2026-01-19 - Issue #277: Grammar review - Company-role modules: Media/Entertainment
+
+**Status:** Complete
+
+**Modules Reviewed (104 total):**
+Reviewed all company-role modules for Media/Entertainment companies:
+- Disney (10 modules): backend-engineer, data-engineer, data-scientist, engineering-manager, frontend-engineer, mobile-engineer, product-designer, product-manager, software-engineer
+- WBD (7 modules): backend-engineer, data-scientist, engineering-manager, frontend-engineer, product-designer, product-manager, software-engineer
+- Spotify (11 modules): backend-engineer, data-engineer, data-scientist, engineering-manager, frontend-engineer, machine-learning-engineer, mobile-engineer, product-designer, product-manager, software-engineer, ux-researcher
+- TikTok (9 modules): backend-engineer, data-scientist, engineering-manager, frontend-engineer, machine-learning-engineer, mobile-engineer, product-designer, product-manager, software-engineer
+- Snap (9 modules): backend-engineer, data-scientist, engineering-manager, frontend-engineer, machine-learning-engineer, mobile-engineer, product-designer, product-manager, software-engineer
+- Pinterest (9 modules): backend-engineer, data-scientist, engineering-manager, frontend-engineer, machine-learning-engineer, mobile-engineer, product-designer, product-manager, software-engineer
+- Reddit (9 modules): backend-engineer, data-engineer, data-scientist, engineering-manager, frontend-engineer, mobile-engineer, product-designer, product-manager, software-engineer
+- LinkedIn (10 modules): backend-engineer, data-engineer, data-scientist, engineering-manager, frontend-engineer, machine-learning-engineer, mobile-engineer, product-designer, product-manager, software-engineer
+- X (8 modules): backend-engineer, data-scientist, engineering-manager, frontend-engineer, mobile-engineer, product-designer, product-manager, software-engineer
+- EA (9 modules): backend-engineer, data-scientist, engineering-manager, frontend-engineer, mobile-engineer, product-designer, product-manager, qa-engineer, software-engineer
+- Activision Blizzard (7 modules): backend-engineer, data-scientist, engineering-manager, product-designer, product-manager, qa-engineer, software-engineer
+- Roblox (7 modules): backend-engineer, data-scientist, engineering-manager, mobile-engineer, product-designer, product-manager, software-engineer
+
+**Approach:**
+1. Created automated grammar check script to detect:
+   - Garbled/scraped content patterns (multiple ???, informal questions, irrelevant content)
+   - Grammar errors ("1 rounds" instead of "1 round")
+   - Invalid timelines (0 weeks, >11 weeks)
+   - Incomplete sentence fragments
+   - Cut-off text mid-word
+2. Ran automated check on all 104 files
+3. Manually spot-checked sample files (Disney SWE, Snap Mobile, TikTok SWE, Activision Blizzard PD, Spotify DS)
+
+**Issues Found:**
+None. Unlike the company modules which had garbled scraped content in some "Common Interview Questions" and "Insider Tips" sections, the company-role modules are generated with clean, professional content. All text blocks, quizzes, and explanations are well-formed.
+
+**Note:** The explanations intentionally end with "..." - this is by design to truncate long explanations, not a grammar error.
+
+**Verification:**
+- All JSON files valid
+- `npm run lint` - passes (warnings only for unrelated image issues)
+- `npm run type-check` - passes
+- `npm run build` - successful
+- `npm test -- --testPathPattern="modules"` - 77 tests pass
+
+**Acceptance Criteria:**
+- ✅ All 104 company-role modules in batch reviewed
 - ✅ All grammar issues fixed (none found - content is clean)
 
