@@ -308,14 +308,28 @@ export function CarouselProvider({
   const next = useCallback(() => {
     if (!canGoNext) return;
     setLastDirection("next");
-    setCurrentIndex((prev) => Math.min(prev + 1, items.length - 1));
-  }, [canGoNext, items.length]);
+    setCurrentIndex((prevIndex) => {
+      let newIndex = prevIndex + 1;
+      // Skip paywall when going forward if user has premium access
+      if (hasPremiumAccess && paywallIndex !== null && newIndex === paywallIndex) {
+        newIndex = paywallIndex + 1;
+      }
+      return Math.min(newIndex, items.length - 1);
+    });
+  }, [canGoNext, items.length, hasPremiumAccess, paywallIndex]);
 
   const prev = useCallback(() => {
     if (!canGoPrev) return;
     setLastDirection("prev");
-    setCurrentIndex((prev) => Math.max(prev - 1, 0));
-  }, [canGoPrev]);
+    setCurrentIndex((prevIndex) => {
+      let newIndex = prevIndex - 1;
+      // Skip paywall when going backward if user has premium access
+      if (hasPremiumAccess && paywallIndex !== null && newIndex === paywallIndex) {
+        newIndex = paywallIndex - 1;
+      }
+      return Math.max(newIndex, 0);
+    });
+  }, [canGoPrev, hasPremiumAccess, paywallIndex]);
 
   const goTo = useCallback(
     (index: number) => {

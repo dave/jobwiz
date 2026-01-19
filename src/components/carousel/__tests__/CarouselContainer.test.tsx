@@ -691,7 +691,7 @@ describe("CarouselContainer", () => {
       expect(unlockButton).toBeDisabled();
     });
 
-    test("can navigate past paywall with premium access", async () => {
+    test("skips paywall when navigating with premium access", async () => {
       const options = createOptions({
         paywallIndex: 1,
         initialIndex: 0,
@@ -706,12 +706,39 @@ describe("CarouselContainer", () => {
 
       expect(screen.getByText("1 of 3")).toBeInTheDocument();
 
+      // With premium access, clicking Next should skip the paywall entirely
       const nextButton = screen.getByRole("button", { name: /go to next item/i });
       await act(async () => {
         fireEvent.click(nextButton);
       });
 
-      expect(screen.getByText("2 of 3")).toBeInTheDocument();
+      // Should skip paywall at index 1 and go directly to index 2
+      expect(screen.getByText("3 of 3")).toBeInTheDocument();
+    });
+
+    test("skips paywall when navigating backward with premium access", async () => {
+      const options = createOptions({
+        paywallIndex: 1,
+        initialIndex: 2, // Start after the paywall
+        hasPremiumAccess: true,
+      });
+      renderWithProvider(
+        <CarouselContainer>
+          <div>Content</div>
+        </CarouselContainer>,
+        options
+      );
+
+      expect(screen.getByText("3 of 3")).toBeInTheDocument();
+
+      // With premium access, clicking Back should skip the paywall and go to item before it
+      const backButton = screen.getByRole("button", { name: /go to previous item/i });
+      await act(async () => {
+        fireEvent.click(backButton);
+      });
+
+      // Should skip paywall at index 1 and go directly to index 0
+      expect(screen.getByText("1 of 3")).toBeInTheDocument();
     });
 
     test("swipe blocked at paywall without access", async () => {
