@@ -47,3 +47,15 @@ export type {
   JourneyActions,
   JourneyContextValue,
 } from "./journey";
+
+// Carousel UI types
+export type {
+  CarouselItemType,
+  CarouselItem,
+  CarouselDirection,
+  CarouselState,
+  CarouselNavigation,
+  CarouselContextValue,
+  CarouselOptions,
+  CarouselProgress,
+} from "./carousel";

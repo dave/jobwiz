@@ -2335,3 +2335,27 @@ All Stage 5 (Launch) code issues are now closed:
 - `npm run type-check` - passes with no errors
 - `npm run build` - successful production build
 - `npm test` - 1840 passed (pre-existing test failures unrelated to this change)
+
+### 2026-01-18 - Issue #126: B1: Carousel types
+
+**Completed:**
+- Created `/src/types/carousel.ts` with all carousel type definitions
+- Defined `CarouselItem` interface with id, type, content, moduleSlug, isPremium
+- Defined `CarouselState` interface with currentIndex, items, isPaused, paywallIndex, hasPremiumAccess, completedItems, lastDirection
+- Defined `CarouselNavigation` interface with next, prev, goTo, pause, resume, markComplete, canGoNext, canGoPrev methods
+- Added `CarouselContextValue` interface extending CarouselNavigation
+- Added `CarouselOptions` interface for initialization
+- Added `CarouselProgress` interface for persistence
+- Exported all types from `/src/types/index.ts`
+
+**Files Created:**
+- `src/types/carousel.ts`
+
+**Files Modified:**
+- `src/types/index.ts` - Added carousel type exports
+
+**Verification:**
+- `npm run type-check` - passes with no errors
+- `npm run lint` - passes with no errors
+- `npm run build` - successful production build
+- `npm test` - 1840 passed (pre-existing test failures unrelated to this change)
