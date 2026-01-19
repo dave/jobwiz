@@ -92,7 +92,7 @@ function CarouselContentInner({
     if (type === "paywall") {
       return (
         <CarouselPaywall
-          price={20000} // $200 in cents
+          price={200} // $200 in dollars (CarouselPaywall expects dollars)
           heading={`Unlock ${companyName} ${roleName} Prep`}
           description={`Get full access to company-specific interview prep, practice questions, and insider tips for ${companyName}.`}
           benefits={[
