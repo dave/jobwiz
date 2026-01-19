@@ -3429,3 +3429,36 @@ All Stage 5 (Launch) code issues are now closed:
   - Each company has: company_slug, logo_url, primary_color, secondary_color, industry_category
   - Migration uses ON CONFLICT for upsert (updates existing themes)
 
+### 2026-01-18 - Issue #98: Expand company themes: E-commerce/Retail batch
+
+**Completed:**
+- Created Supabase migration for E-commerce/Retail company themes
+- Created JSON theme data file for content loader
+- Added brand colors and logos for 11 E-commerce/Retail companies:
+  - Shopify (#96BF48 green, #5E8E3E dark green)
+  - Etsy (#F56400 orange, #232347 dark)
+  - Wayfair (#7B189F purple, #2B1B4E dark purple)
+  - Chewy (#1C49C2 blue, #FF6D00 orange)
+  - Target (#CC0000 red, #FFFFFF white)
+  - Walmart (#0071CE blue, #FFC220 yellow)
+  - Costco (#E31837 red, #005DAA blue)
+  - Home Depot (#F96302 orange, #1A1A1A black)
+  - Best Buy (#0046BE blue, #FFE000 yellow)
+  - Nike (#000000 black, #FFFFFF white)
+  - Lululemon (#D31334 red, #1A1A1A black)
+
+**Files Created:**
+- `supabase/migrations/20260119000006_insert_ecommerce_retail_themes.sql`
+- `data/generated/themes/e-commerce-retail.json` (11 themes)
+
+**Verification:**
+- `npm run lint` - passes with no errors
+- `npm run type-check` - passes with no errors
+- `npm run build` - successful production build
+- `npm test` - theme tests pass (109 tests)
+- JSON file validated with jq (11 themes)
+- All acceptance criteria verified:
+  - Theme data for 11 E-commerce/Retail companies
+  - Each company has: company_slug, logo_url, primary_color, secondary_color, industry_category
+  - Migration uses ON CONFLICT for upsert (updates existing themes)
+
