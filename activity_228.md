@@ -60,7 +60,7 @@ Fix content quality issues identified during manual review of interview prep mod
 - [x] #270 - Company-role modules: Big Tech
 - [x] #271 - Company-role modules: High-growth startups
 - [x] #272 - Company-role modules: Finance
-- [ ] #273 - Company-role modules: Consulting
+- [x] #273 - Company-role modules: Consulting
 - [ ] #274 - Company-role modules: E-commerce/Retail
 - [ ] #275 - Company-role modules: Healthcare/Biotech
 - [ ] #276 - Company-role modules: Enterprise SaaS
@@ -954,5 +954,48 @@ None. Unlike the company modules which had garbled scraped content in some "Comm
 
 **Acceptance Criteria:**
 - ✅ All 106 company-role modules in batch reviewed
+- ✅ All grammar issues fixed (none found - content is clean)
+
+### 2026-01-19 - Issue #273: Grammar review - Company-role modules: Consulting
+
+**Status:** Complete
+
+**Modules Reviewed (48 total):**
+Reviewed all company-role modules for Consulting companies:
+- Accenture (5 modules): business-analyst, data-scientist, management-consultant, product-manager, software-engineer
+- Bain (4 modules): business-analyst, data-scientist, management-consultant, product-manager
+- BCG (5 modules): business-analyst, data-scientist, management-consultant, product-manager, software-engineer
+- Booz Allen (5 modules): business-analyst, data-scientist, management-consultant, security-engineer, software-engineer
+- Capgemini (4 modules): business-analyst, data-scientist, management-consultant, software-engineer
+- Deloitte (5 modules): business-analyst, data-scientist, financial-analyst, management-consultant, software-engineer
+- EY (5 modules): business-analyst, data-scientist, financial-analyst, management-consultant, software-engineer
+- KPMG (5 modules): business-analyst, data-scientist, financial-analyst, management-consultant, software-engineer
+- McKinsey (5 modules): business-analyst, data-scientist, management-consultant, product-manager, software-engineer
+- PwC (5 modules): business-analyst, data-scientist, financial-analyst, management-consultant, software-engineer
+
+**Approach:**
+1. Created automated grammar check script to detect:
+   - Garbled/scraped content patterns (multiple ???, informal questions, irrelevant content)
+   - Grammar errors ("1 rounds" instead of "1 round")
+   - Invalid timelines (0 weeks, >11 weeks)
+   - Incomplete sentence fragments
+   - Cut-off text mid-word
+2. Ran automated check on all 48 files
+3. Manually spot-checked sample files (McKinsey MC, BCG BA, Deloitte SWE, KPMG MC, Booz Allen Security, PwC FA)
+
+**Issues Found:**
+None. Unlike the company modules which had garbled scraped content in some "Common Interview Questions" and "Insider Tips" sections, the company-role modules are generated with clean, professional content. All text blocks, quizzes, and explanations are well-formed.
+
+**Note:** The explanations intentionally end with "..." - this is by design to truncate long explanations, not a grammar error.
+
+**Verification:**
+- All JSON files valid
+- `npm run lint` - passes (warnings only for unrelated image issues)
+- `npm run type-check` - passes
+- `npm run build` - successful
+- `npm test -- --testPathPattern="modules"` - 77 tests pass
+
+**Acceptance Criteria:**
+- ✅ All 48 company-role modules in batch reviewed
 - ✅ All grammar issues fixed (none found - content is clean)
 
