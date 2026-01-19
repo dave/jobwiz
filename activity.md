@@ -2407,3 +2407,59 @@ All Stage 5 (Launch) code issues are now closed:
 - `npm run type-check` - passes with no errors
 - `npm run build` - successful production build
 - `npm test` - 53 new carousel tests pass (1893 total passed, 12 pre-existing failures unrelated to this change)
+
+### 2026-01-18 - Issue #128: B3: CarouselContainer
+
+**Completed:**
+- Created `/src/components/carousel/CarouselContainer.tsx` with full-screen single item display
+- Implemented all required features:
+  - Full-screen single item display, no sidebar
+  - Slide animation (left/right based on lastDirection from context)
+  - Keyboard navigation: Enter/ArrowRight=next, Escape=exit, ArrowLeft=prev
+  - Mobile swipe gestures with configurable threshold
+  - Minimal chrome: Next/Back buttons, "X of Y" indicator
+- Added smart paywall handling:
+  - Detects when next item is blocked by paywall
+  - Shows "Unlock" button with amber styling when at/near paywall
+  - Shows "Done" button with green styling on last item
+- Accessibility features:
+  - ARIA labels on all buttons
+  - aria-live="polite" on progress indicator
+  - aria-current="step" on current content
+  - 44px minimum touch targets on all buttons
+- Respects reduced motion via `motion-safe:` animation classes
+- Safe area inset support for notched devices
+
+**Files Created:**
+- `src/components/carousel/CarouselContainer.tsx`
+- `src/components/carousel/__tests__/CarouselContainer.test.tsx`
+
+**Files Modified:**
+- `src/components/carousel/index.ts` - Added CarouselContainer export
+
+**Tests:**
+- 42 unit tests covering:
+  - Rendering (6 tests)
+  - Navigation buttons (4 tests)
+  - Keyboard navigation (8 tests)
+  - Swipe gestures (5 tests)
+  - Accessibility (4 tests)
+  - Touch targets (2 tests)
+  - Animations (3 tests)
+  - Layout (4 tests)
+  - Exit button (1 test)
+  - Paywall behavior (3 tests)
+  - Custom className (1 test)
+  - Empty items (1 test)
+
+**Verification:**
+- `npm run lint` - passes with no errors
+- `npm run type-check` - passes with no errors
+- `npm run build` - successful production build
+- `npm test` - 95 carousel tests pass (42 new CarouselContainer + 53 CarouselContext)
+- All acceptance criteria verified:
+  - Full-screen single item display ✓
+  - Slide animation left/right based on direction ✓
+  - Keyboard: Enter=next, Escape=exit, Arrow keys ✓
+  - Mobile swipe gestures ✓
+  - Minimal chrome: Next/Back buttons, "X of Y" indicator ✓

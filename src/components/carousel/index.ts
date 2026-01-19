@@ -4,3 +4,4 @@
  */
 
 export { CarouselProvider, useCarousel } from "./CarouselContext";
+export { CarouselContainer } from "./CarouselContainer";
