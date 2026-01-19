@@ -176,10 +176,10 @@ export function JourneyContent({
               </h1>
             </div>
             <Link
-              href="/dashboard"
+              href={user ? "/dashboard" : "/login"}
               className="text-blue-600 hover:text-blue-800 font-medium"
             >
-              Dashboard
+              {user ? "Dashboard" : "Get Started"}
             </Link>
           </div>
         </div>
