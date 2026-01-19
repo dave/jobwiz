@@ -31,3 +31,6 @@ export type {
   ConversationalContentType,
   ConversationalContentBlock,
 } from "./items/ConversationalContent";
+
+export { ConversationalChecklist } from "./items/ConversationalChecklist";
+export type { ConversationalChecklistProps } from "./items/ConversationalChecklist";

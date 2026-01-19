@@ -4360,3 +4360,72 @@ All Stage 6 (Production Content Population) issues are now closed:
   - Warning has icon + amber accent ✓
   - Typing animation works ✓
   - Reduced-motion respected ✓
+
+### 2026-01-19 - Issue #190: Checklist in conversation
+
+**Completed:**
+- Created `ConversationalChecklist` component for checklists in conversation flow
+- Component located at `src/components/alex/items/ConversationalChecklist.tsx`
+
+**Flow:**
+1. Alex introduces checklist (chat bubble with avatar)
+2. Items appear one-by-one with staggered animation (150ms apart)
+3. Checked items animate completion (scale animation)
+4. "Continue" button enabled after all required items checked
+
+**Checklist Item Features:**
+- Similar styling to quiz option cards
+- Checkbox on left with green checkmark when checked
+- Strikethrough effect on checked text
+- Optional items show "(optional)" label
+- Min-height: 48px for touch targets
+
+**Features:**
+- Integrates with ConversationContext (addMessage, recordAnswer, getAnswer)
+- State persists to localStorage + Supabase via context
+- Already-answered state restoration
+- Progress indicator shows "X of Y required items checked"
+- Completion message: "All required items complete"
+- Keyboard navigation (Enter to continue when all required checked)
+- Reduced motion support
+
+**Props:**
+- `itemId` - Unique identifier for the checklist item
+- `checklist` - ChecklistBlock from types
+- `onComplete` - Callback when all required items checked and Continue clicked
+- `className` - Optional custom class name
+
+**Files Created:**
+- `src/components/alex/items/ConversationalChecklist.tsx` - Main component
+- `src/components/alex/items/__tests__/ConversationalChecklist.test.tsx` - 34 unit tests
+
+**Files Modified:**
+- `src/components/alex/items/index.ts` - Added ConversationalChecklist export
+- `src/components/alex/index.ts` - Added ConversationalChecklist export
+
+**Tests:**
+- 34 unit tests covering:
+  - Rendering (4 tests): renders, shows intro, default title, className
+  - Items appearance (4 tests): all items render, text, optional label
+  - Checkbox interaction (4 tests): check, uncheck, multiple, strikethrough
+  - Progress indicator (4 tests): count, updates, completion, live region
+  - Continue button (4 tests): initial hidden, shows on complete, hides on uncheck, onComplete
+  - Context integration (4 tests): addMessage, recordAnswer, multiple items, uncheck
+  - Already answered state (2 tests): restore, progress
+  - Accessibility (3 tests): roles, descriptions, button label
+  - Keyboard navigation (2 tests): Enter to continue, ignores when incomplete
+  - Edge cases (3 tests): empty, all optional, default required
+
+**Verification:**
+- `npm run lint` - passes (only pre-existing warnings)
+- `npm run type-check` - passes with no errors
+- `npm run build` - successful production build
+- `npm test` - 317 alex component tests pass (34 new ConversationalChecklist tests)
+- All acceptance criteria verified:
+  - Intro shows as Alex bubble ✓
+  - Items appear sequentially ✓
+  - Checkbox interaction works ✓
+  - Check animation on complete ✓
+  - Shows required vs optional ✓
+  - Continue enabled when required done ✓
+  - State persists ✓

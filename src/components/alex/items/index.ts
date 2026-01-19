@@ -7,3 +7,6 @@ export type {
   ConversationalContentType,
   ConversationalContentBlock,
 } from "./ConversationalContent";
+
+export { ConversationalChecklist } from "./ConversationalChecklist";
+export type { ConversationalChecklistProps } from "./ConversationalChecklist";
