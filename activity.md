@@ -2977,3 +2977,59 @@ All Stage 5 (Launch) code issues are now closed:
 - Quiz items have exactly 3 wrong options
 - All items have source_url and source_date
 
+### 2026-01-19 - Issue #88: Generate company trivia: Finance batch
+
+**Completed:**
+- Created trivia generation script `/scripts/generate-trivia-finance.ts`
+- Generated trivia for 14 Finance companies:
+  - Goldman Sachs, JPMorgan Chase, Morgan Stanley, Bank of America
+  - Citadel, Two Sigma, Jane Street, BlackRock
+  - Fidelity, Charles Schwab, Visa, Mastercard
+  - PayPal, Block (Square)
+- Generated 189 trivia items total (11-14 items per company)
+- Output files in `/data/generated/trivia/{company}.json`
+
+**Trivia Types Generated:**
+- Founding (quiz, flashcard, factoid)
+- Headquarters (quiz, flashcard)
+- CEO/Executive (quiz, flashcard)
+- Mission statement (factoid, flashcard)
+- Products (quiz, factoid)
+- Acquisitions (quiz, factoid, flashcard)
+
+**Format per Item:**
+- `company_slug` - company identifier
+- `fact_type` - founding, hq, mission, product, news, exec, acquisition
+- `format` - quiz, flashcard, factoid
+- `question` - question text (null for factoids)
+- `answer` - correct answer
+- `options` - 3 wrong answers (for quiz format only)
+- `source_url` - Wikipedia source link
+- `source_date` - date of generation
+
+**Files Created:**
+- `scripts/generate-trivia-finance.ts` - trivia generation script
+- `data/generated/trivia/goldman-sachs.json` (14 items)
+- `data/generated/trivia/jpmorgan.json` (14 items)
+- `data/generated/trivia/morgan-stanley.json` (14 items)
+- `data/generated/trivia/bank-of-america.json` (14 items)
+- `data/generated/trivia/citadel.json` (13 items)
+- `data/generated/trivia/two-sigma.json` (11 items)
+- `data/generated/trivia/jane-street.json` (11 items)
+- `data/generated/trivia/blackrock.json` (14 items)
+- `data/generated/trivia/fidelity.json` (14 items)
+- `data/generated/trivia/schwab.json` (14 items)
+- `data/generated/trivia/visa.json` (14 items)
+- `data/generated/trivia/mastercard.json` (14 items)
+- `data/generated/trivia/paypal.json` (14 items)
+- `data/generated/trivia/block.json` (14 items)
+
+**Verification:**
+- `npm run lint` - passes with no errors
+- `npm run type-check` - passes with no errors
+- `npm run build` - successful production build
+- `npm test` - 2163 passed, 2 todo, 12 pre-existing failures (unrelated to this change)
+- All trivia files conform to expected schema
+- Quiz items have exactly 3 wrong options
+- All items have source_url and source_date
+

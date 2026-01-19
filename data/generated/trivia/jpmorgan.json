@@ -1,0 +1,162 @@
+[
+  {
+    "company_slug": "jpmorgan",
+    "fact_type": "founding",
+    "format": "quiz",
+    "question": "When was JPMorgan Chase founded?",
+    "answer": "1799",
+    "options": [
+      "1779",
+      "1789",
+      "1814"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/JPMorgan_Chase",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "jpmorgan",
+    "fact_type": "founding",
+    "format": "flashcard",
+    "question": "Who founded JPMorgan Chase?",
+    "answer": "Aaron Burr",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/JPMorgan_Chase",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "jpmorgan",
+    "fact_type": "founding",
+    "format": "factoid",
+    "question": null,
+    "answer": "JPMorgan Chase was founded in 1799 by Aaron Burr.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/JPMorgan_Chase",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "jpmorgan",
+    "fact_type": "hq",
+    "format": "quiz",
+    "question": "Where is JPMorgan Chase's headquarters located?",
+    "answer": "New York, New York",
+    "options": [
+      "San Francisco, California",
+      "Chicago, Illinois",
+      "Boston, Massachusetts"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/JPMorgan_Chase",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "jpmorgan",
+    "fact_type": "hq",
+    "format": "flashcard",
+    "question": "What city is JPMorgan Chase headquartered in?",
+    "answer": "New York, New York",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/JPMorgan_Chase",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "jpmorgan",
+    "fact_type": "exec",
+    "format": "quiz",
+    "question": "Who is the current CEO of JPMorgan Chase?",
+    "answer": "Jamie Dimon",
+    "options": [
+      "David Solomon",
+      "Larry Fink",
+      "Brian Moynihan"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/JPMorgan_Chase",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "jpmorgan",
+    "fact_type": "exec",
+    "format": "flashcard",
+    "question": "Who leads JPMorgan Chase as CEO?",
+    "answer": "Jamie Dimon",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/JPMorgan_Chase",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "jpmorgan",
+    "fact_type": "mission",
+    "format": "factoid",
+    "question": null,
+    "answer": "JPMorgan Chase's mission is \"To be the best financial services company in the world\".",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/JPMorgan_Chase",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "jpmorgan",
+    "fact_type": "mission",
+    "format": "flashcard",
+    "question": "What is JPMorgan Chase's mission statement?",
+    "answer": "To be the best financial services company in the world",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/JPMorgan_Chase",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "jpmorgan",
+    "fact_type": "product",
+    "format": "quiz",
+    "question": "Which of these is a JPMorgan Chase product or service?",
+    "answer": "Commercial Banking",
+    "options": [
+      "Fidelity Funds",
+      "Vanguard ETFs",
+      "Schwab Brokerage"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/JPMorgan_Chase",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "jpmorgan",
+    "fact_type": "product",
+    "format": "factoid",
+    "question": null,
+    "answer": "Key JPMorgan Chase products and services include Commercial Banking, Consumer Banking, Investment Banking, Asset Management, Chase Bank.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/JPMorgan_Chase",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "jpmorgan",
+    "fact_type": "acquisition",
+    "format": "quiz",
+    "question": "Which company did JPMorgan Chase acquire in 2023?",
+    "answer": "First Republic Bank",
+    "options": [
+      "Robinhood",
+      "Wealthfront",
+      "Betterment"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/JPMorgan_Chase",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "jpmorgan",
+    "fact_type": "acquisition",
+    "format": "factoid",
+    "question": null,
+    "answer": "JPMorgan Chase acquired First Republic Bank in 2023.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/JPMorgan_Chase",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "jpmorgan",
+    "fact_type": "acquisition",
+    "format": "flashcard",
+    "question": "In what year did JPMorgan Chase acquire Bear Stearns?",
+    "answer": "2008",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/JPMorgan_Chase",
+    "source_date": "2026-01-19"
+  }
+]

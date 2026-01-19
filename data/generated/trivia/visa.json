@@ -1,0 +1,162 @@
+[
+  {
+    "company_slug": "visa",
+    "fact_type": "founding",
+    "format": "quiz",
+    "question": "When was Visa founded?",
+    "answer": "1958",
+    "options": [
+      "1953",
+      "1956",
+      "1961"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Visa_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "visa",
+    "fact_type": "founding",
+    "format": "flashcard",
+    "question": "Who founded Visa?",
+    "answer": "Dee Hock",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Visa_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "visa",
+    "fact_type": "founding",
+    "format": "factoid",
+    "question": null,
+    "answer": "Visa was founded in 1958 by Dee Hock.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Visa_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "visa",
+    "fact_type": "hq",
+    "format": "quiz",
+    "question": "Where is Visa's headquarters located?",
+    "answer": "San Francisco, California",
+    "options": [
+      "New York, New York",
+      "Chicago, Illinois",
+      "Boston, Massachusetts"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Visa_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "visa",
+    "fact_type": "hq",
+    "format": "flashcard",
+    "question": "What city is Visa headquartered in?",
+    "answer": "San Francisco, California",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Visa_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "visa",
+    "fact_type": "exec",
+    "format": "quiz",
+    "question": "Who is the current CEO of Visa?",
+    "answer": "Ryan McInerney",
+    "options": [
+      "Jamie Dimon",
+      "Michael Miebach",
+      "Dan Schulman"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Visa_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "visa",
+    "fact_type": "exec",
+    "format": "flashcard",
+    "question": "Who leads Visa as CEO?",
+    "answer": "Ryan McInerney",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Visa_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "visa",
+    "fact_type": "mission",
+    "format": "factoid",
+    "question": null,
+    "answer": "Visa's mission is \"To connect the world through the most innovative, convenient, reliable, and secure payments network\".",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Visa_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "visa",
+    "fact_type": "mission",
+    "format": "flashcard",
+    "question": "What is Visa's mission statement?",
+    "answer": "To connect the world through the most innovative, convenient, reliable, and secure payments network",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Visa_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "visa",
+    "fact_type": "product",
+    "format": "quiz",
+    "question": "Which of these is a Visa product or service?",
+    "answer": "Credit Cards",
+    "options": [
+      "Fidelity Funds",
+      "Vanguard ETFs",
+      "Schwab Brokerage"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Visa_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "visa",
+    "fact_type": "product",
+    "format": "factoid",
+    "question": null,
+    "answer": "Key Visa products and services include Credit Cards, Debit Cards, Visa Direct, Visa B2B Connect, CyberSource.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Visa_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "visa",
+    "fact_type": "acquisition",
+    "format": "quiz",
+    "question": "Which company did Visa acquire in 2020?",
+    "answer": "Plaid (attempted)",
+    "options": [
+      "Robinhood",
+      "Wealthfront",
+      "Betterment"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Visa_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "visa",
+    "fact_type": "acquisition",
+    "format": "factoid",
+    "question": null,
+    "answer": "Visa acquired Plaid (attempted) in 2020.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Visa_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "visa",
+    "fact_type": "acquisition",
+    "format": "flashcard",
+    "question": "In what year did Visa acquire Visa Europe?",
+    "answer": "2016",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Visa_Inc.",
+    "source_date": "2026-01-19"
+  }
+]

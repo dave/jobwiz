@@ -1,0 +1,162 @@
+[
+  {
+    "company_slug": "goldman-sachs",
+    "fact_type": "founding",
+    "format": "quiz",
+    "question": "When was Goldman Sachs founded?",
+    "answer": "1869",
+    "options": [
+      "1849",
+      "1859",
+      "1884"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Goldman_Sachs",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "goldman-sachs",
+    "fact_type": "founding",
+    "format": "flashcard",
+    "question": "Who founded Goldman Sachs?",
+    "answer": "Marcus Goldman",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Goldman_Sachs",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "goldman-sachs",
+    "fact_type": "founding",
+    "format": "factoid",
+    "question": null,
+    "answer": "Goldman Sachs was founded in 1869 by Marcus Goldman.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Goldman_Sachs",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "goldman-sachs",
+    "fact_type": "hq",
+    "format": "quiz",
+    "question": "Where is Goldman Sachs's headquarters located?",
+    "answer": "New York, New York",
+    "options": [
+      "San Francisco, California",
+      "Chicago, Illinois",
+      "Boston, Massachusetts"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Goldman_Sachs",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "goldman-sachs",
+    "fact_type": "hq",
+    "format": "flashcard",
+    "question": "What city is Goldman Sachs headquartered in?",
+    "answer": "New York, New York",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Goldman_Sachs",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "goldman-sachs",
+    "fact_type": "exec",
+    "format": "quiz",
+    "question": "Who is the current CEO of Goldman Sachs?",
+    "answer": "David Solomon",
+    "options": [
+      "Jamie Dimon",
+      "Larry Fink",
+      "Brian Moynihan"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Goldman_Sachs",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "goldman-sachs",
+    "fact_type": "exec",
+    "format": "flashcard",
+    "question": "Who leads Goldman Sachs as CEO?",
+    "answer": "David Solomon",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Goldman_Sachs",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "goldman-sachs",
+    "fact_type": "mission",
+    "format": "factoid",
+    "question": null,
+    "answer": "Goldman Sachs's mission is \"To advance sustainable economic growth and financial opportunity\".",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Goldman_Sachs",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "goldman-sachs",
+    "fact_type": "mission",
+    "format": "flashcard",
+    "question": "What is Goldman Sachs's mission statement?",
+    "answer": "To advance sustainable economic growth and financial opportunity",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Goldman_Sachs",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "goldman-sachs",
+    "fact_type": "product",
+    "format": "quiz",
+    "question": "Which of these is a Goldman Sachs product or service?",
+    "answer": "Investment Banking",
+    "options": [
+      "Fidelity Funds",
+      "Vanguard ETFs",
+      "Schwab Brokerage"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Goldman_Sachs",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "goldman-sachs",
+    "fact_type": "product",
+    "format": "factoid",
+    "question": null,
+    "answer": "Key Goldman Sachs products and services include Investment Banking, Asset Management, Securities, Consumer Banking (Marcus), Wealth Management.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Goldman_Sachs",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "goldman-sachs",
+    "fact_type": "acquisition",
+    "format": "quiz",
+    "question": "Which company did Goldman Sachs acquire in 2019?",
+    "answer": "United Capital",
+    "options": [
+      "Robinhood",
+      "Wealthfront",
+      "Betterment"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Goldman_Sachs",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "goldman-sachs",
+    "fact_type": "acquisition",
+    "format": "factoid",
+    "question": null,
+    "answer": "Goldman Sachs acquired United Capital in 2019.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Goldman_Sachs",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "goldman-sachs",
+    "fact_type": "acquisition",
+    "format": "flashcard",
+    "question": "In what year did Goldman Sachs acquire GreenSky?",
+    "answer": "2022",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Goldman_Sachs",
+    "source_date": "2026-01-19"
+  }
+]

@@ -1,0 +1,162 @@
+[
+  {
+    "company_slug": "schwab",
+    "fact_type": "founding",
+    "format": "quiz",
+    "question": "When was Charles Schwab founded?",
+    "answer": "1971",
+    "options": [
+      "1966",
+      "1969",
+      "1974"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Charles_Schwab_Corporation",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "schwab",
+    "fact_type": "founding",
+    "format": "flashcard",
+    "question": "Who founded Charles Schwab?",
+    "answer": "Charles R. Schwab",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Charles_Schwab_Corporation",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "schwab",
+    "fact_type": "founding",
+    "format": "factoid",
+    "question": null,
+    "answer": "Charles Schwab was founded in 1971 by Charles R. Schwab.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Charles_Schwab_Corporation",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "schwab",
+    "fact_type": "hq",
+    "format": "quiz",
+    "question": "Where is Charles Schwab's headquarters located?",
+    "answer": "Westlake, Texas",
+    "options": [
+      "New York, New York",
+      "San Francisco, California",
+      "Chicago, Illinois"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Charles_Schwab_Corporation",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "schwab",
+    "fact_type": "hq",
+    "format": "flashcard",
+    "question": "What city is Charles Schwab headquartered in?",
+    "answer": "Westlake, Texas",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Charles_Schwab_Corporation",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "schwab",
+    "fact_type": "exec",
+    "format": "quiz",
+    "question": "Who is the current CEO of Charles Schwab?",
+    "answer": "Walt Bettinger",
+    "options": [
+      "Jamie Dimon",
+      "Larry Fink",
+      "Brian Moynihan"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Charles_Schwab_Corporation",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "schwab",
+    "fact_type": "exec",
+    "format": "flashcard",
+    "question": "Who leads Charles Schwab as CEO?",
+    "answer": "Walt Bettinger",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Charles_Schwab_Corporation",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "schwab",
+    "fact_type": "mission",
+    "format": "factoid",
+    "question": null,
+    "answer": "Charles Schwab's mission is \"To provide the most useful and ethical financial services in the world\".",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Charles_Schwab_Corporation",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "schwab",
+    "fact_type": "mission",
+    "format": "flashcard",
+    "question": "What is Charles Schwab's mission statement?",
+    "answer": "To provide the most useful and ethical financial services in the world",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Charles_Schwab_Corporation",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "schwab",
+    "fact_type": "product",
+    "format": "quiz",
+    "question": "Which of these is a Charles Schwab product or service?",
+    "answer": "Brokerage Services",
+    "options": [
+      "Fidelity Funds",
+      "Vanguard ETFs",
+      "Schwab Brokerage"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Charles_Schwab_Corporation",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "schwab",
+    "fact_type": "product",
+    "format": "factoid",
+    "question": null,
+    "answer": "Key Charles Schwab products and services include Brokerage Services, Banking, Financial Advisory, Retirement Plans.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Charles_Schwab_Corporation",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "schwab",
+    "fact_type": "acquisition",
+    "format": "quiz",
+    "question": "Which company did Charles Schwab acquire in 2020?",
+    "answer": "TD Ameritrade",
+    "options": [
+      "Robinhood",
+      "Wealthfront",
+      "Betterment"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Charles_Schwab_Corporation",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "schwab",
+    "fact_type": "acquisition",
+    "format": "factoid",
+    "question": null,
+    "answer": "Charles Schwab acquired TD Ameritrade in 2020.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Charles_Schwab_Corporation",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "schwab",
+    "fact_type": "acquisition",
+    "format": "flashcard",
+    "question": "In what year did Charles Schwab acquire USAA Investment Management Company?",
+    "answer": "2020",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Charles_Schwab_Corporation",
+    "source_date": "2026-01-19"
+  }
+]

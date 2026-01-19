@@ -1,0 +1,162 @@
+[
+  {
+    "company_slug": "mastercard",
+    "fact_type": "founding",
+    "format": "quiz",
+    "question": "When was Mastercard founded?",
+    "answer": "1966",
+    "options": [
+      "1961",
+      "1964",
+      "1969"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Mastercard",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "mastercard",
+    "fact_type": "founding",
+    "format": "flashcard",
+    "question": "Who founded Mastercard?",
+    "answer": "United California Bank and Wells Fargo and others",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Mastercard",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "mastercard",
+    "fact_type": "founding",
+    "format": "factoid",
+    "question": null,
+    "answer": "Mastercard was founded in 1966 by United California Bank and Wells Fargo and others.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Mastercard",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "mastercard",
+    "fact_type": "hq",
+    "format": "quiz",
+    "question": "Where is Mastercard's headquarters located?",
+    "answer": "Purchase, New York",
+    "options": [
+      "New York, New York",
+      "San Francisco, California",
+      "Chicago, Illinois"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Mastercard",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "mastercard",
+    "fact_type": "hq",
+    "format": "flashcard",
+    "question": "What city is Mastercard headquartered in?",
+    "answer": "Purchase, New York",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Mastercard",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "mastercard",
+    "fact_type": "exec",
+    "format": "quiz",
+    "question": "Who is the current CEO of Mastercard?",
+    "answer": "Michael Miebach",
+    "options": [
+      "Ryan McInerney",
+      "Dan Schulman",
+      "Jack Dorsey"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Mastercard",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "mastercard",
+    "fact_type": "exec",
+    "format": "flashcard",
+    "question": "Who leads Mastercard as CEO?",
+    "answer": "Michael Miebach",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Mastercard",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "mastercard",
+    "fact_type": "mission",
+    "format": "factoid",
+    "question": null,
+    "answer": "Mastercard's mission is \"To connect and power an inclusive, digital economy that benefits everyone, everywhere\".",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Mastercard",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "mastercard",
+    "fact_type": "mission",
+    "format": "flashcard",
+    "question": "What is Mastercard's mission statement?",
+    "answer": "To connect and power an inclusive, digital economy that benefits everyone, everywhere",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Mastercard",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "mastercard",
+    "fact_type": "product",
+    "format": "quiz",
+    "question": "Which of these is a Mastercard product or service?",
+    "answer": "Credit Cards",
+    "options": [
+      "Fidelity Funds",
+      "Vanguard ETFs",
+      "Schwab Brokerage"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Mastercard",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "mastercard",
+    "fact_type": "product",
+    "format": "factoid",
+    "question": null,
+    "answer": "Key Mastercard products and services include Credit Cards, Debit Cards, Mastercard Send, Mastercard Track, Vocalink.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Mastercard",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "mastercard",
+    "fact_type": "acquisition",
+    "format": "quiz",
+    "question": "Which company did Mastercard acquire in 2020?",
+    "answer": "Finicity",
+    "options": [
+      "Robinhood",
+      "Wealthfront",
+      "Betterment"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Mastercard",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "mastercard",
+    "fact_type": "acquisition",
+    "format": "factoid",
+    "question": null,
+    "answer": "Mastercard acquired Finicity in 2020.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Mastercard",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "mastercard",
+    "fact_type": "acquisition",
+    "format": "flashcard",
+    "question": "In what year did Mastercard acquire Vocalink?",
+    "answer": "2017",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Mastercard",
+    "source_date": "2026-01-19"
+  }
+]
