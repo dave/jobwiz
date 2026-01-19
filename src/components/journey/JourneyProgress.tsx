@@ -165,17 +165,28 @@ function buildModuleDisplayInfo(
     let completedItemCount = 0;
     if (!isLocked) {
       // Generate item IDs for this module and count completed ones
+      // Must match the ID generation in flatten-modules.ts
+
       // Module title: `${mod.slug}-title`
       if (completedItems.has(`${mod.slug}-title`)) {
         completedItemCount++;
       }
-      // Section blocks: `${mod.slug}-${block.id}`
+
+      // Track item index within module (starts at 1 after title)
+      let moduleItemIndex = 1;
+
+      // Section blocks: ID depends on whether block has explicit id
       for (const section of mod.sections) {
         for (const block of section.blocks) {
-          const itemId = `${mod.slug}-${block.id}`;
+          // Match flatten-modules.ts ID generation:
+          // blockId = block.id || `${mod.slug}-${section.id}-${items.length}`
+          // itemId = `${mod.slug}-${blockId}`
+          const blockId = block.id || `${mod.slug}-${section.id}-${moduleItemIndex}`;
+          const itemId = `${mod.slug}-${blockId}`;
           if (completedItems.has(itemId)) {
             completedItemCount++;
           }
+          moduleItemIndex++;
         }
       }
     }
