@@ -3361,3 +3361,39 @@ All Stage 5 (Launch) code issues are now closed:
   - Each company has: company_slug, logo_url, primary_color, secondary_color, industry_category
   - Migration uses ON CONFLICT for upsert (updates existing themes)
 
+### 2026-01-18 - Issue #96: Expand company themes: Finance batch
+
+**Completed:**
+- Created Supabase migration for Finance company themes
+- Created JSON theme data file for content loader
+- Added brand colors and logos for 14 Finance companies:
+  - Goldman Sachs (#7399C6 light blue, #0A1628 navy)
+  - JPMorgan Chase (#117ACA blue, #0D2B3E dark blue)
+  - Morgan Stanley (#00A0DF blue, #002D72 navy)
+  - Bank of America (#E31837 red, #012169 blue)
+  - Citadel (#003366 dark blue, #1A1A1A black)
+  - Two Sigma (#00A9E0 blue, #002855 dark blue)
+  - Jane Street (#007ACC blue, #1A1A1A black)
+  - BlackRock (#000000 black, #6D6E71 gray)
+  - Fidelity (#4AA564 green, #1A1A1A black)
+  - Charles Schwab (#00A0DF blue, #1A1A1A black)
+  - Visa (#1A1F71 blue, #F7B600 gold)
+  - Mastercard (#EB001B red, #F79E1B orange)
+  - PayPal (#003087 blue, #009CDE light blue)
+  - Block (#000000 black, #1DA1F2 blue)
+
+**Files Created:**
+- `supabase/migrations/20260119000004_insert_finance_themes.sql`
+- `data/generated/themes/finance.json` (14 themes)
+
+**Verification:**
+- `npm run lint` - passes with no errors
+- `npm run type-check` - passes with no errors
+- `npm run build` - successful production build
+- `npm test` - theme tests pass (109 tests)
+- JSON file validated with jq
+- All acceptance criteria verified:
+  - Theme data for 14 Finance companies
+  - Each company has: company_slug, logo_url, primary_color, secondary_color, industry_category
+  - Migration uses ON CONFLICT for upsert (updates existing themes)
+
