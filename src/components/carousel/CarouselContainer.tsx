@@ -50,9 +50,19 @@ export function CarouselContainer({
     isAtPaywall,
     totalItems,
     markComplete,
+    unlockPaywall,
   } = useCarousel();
 
   const { currentIndex, lastDirection, paywallIndex, hasPremiumAccess } = state;
+
+  // Debug: log paywall state
+  console.log('[CarouselContainer] State:', {
+    currentIndex,
+    paywallIndex,
+    hasPremiumAccess,
+    isAtPaywall,
+    canGoNext,
+  });
 
   // Detect when the next item is blocked by paywall (not at paywall yet, but can't go next)
   const isNextBlockedByPaywall =
