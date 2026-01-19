@@ -68,24 +68,6 @@
         {
           "type": "text",
           "content": {
-            "text": "**Technical Questions**"
-          }
-        },
-        {
-          "type": "tip",
-          "content": {
-            "text": "Plaid is testing both your statistical knowledge and your judgment. The textbook answer is easy - they're probing for business intuition."
-          }
-        },
-        {
-          "type": "tip",
-          "content": {
-            "text": "This question is a trap for candidates who only look at accuracy. Plaid is testing: Do you understand class imbalance?"
-          }
-        },
-        {
-          "type": "text",
-          "content": {
             "text": "**Culture Fit Questions**"
           }
         },
@@ -237,7 +219,7 @@
         {
           "type": "text",
           "content": {
-            "text": "**Insider Tips:**\n\n- Understand how Plaid connects to financial institutions - study their API documentation before interviewing\n- Be ready to discuss data security, compliance (SOC 2, PCI), and handling sensitive financial data\n- Show interest in the fintech ecosystem and how Plaid enables innovation\n- Prepare for take-home assignments that test practical coding and system design skills"
+            "text": "**Insider Tips:**\n\n- Research Plaid's recent news, product launches, and company direction\n- Prepare specific examples that demonstrate alignment with Plaid's values\n- Be ready to discuss how you've handled ambiguity and rapid change\n- Show genuine interest in Plaid's mission and the problems they're solving"
           }
         },
         {

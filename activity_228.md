@@ -19,7 +19,7 @@ Fix content quality issues identified during manual review of interview prep mod
 
 ### Remove Role-Specific Content (#230)
 - [x] #279 - Big Tech batch
-- [ ] #280 - High-growth startups batch
+- [x] #280 - High-growth startups batch
 - [ ] #281 - Finance batch
 - [ ] #282 - Consulting batch
 - [ ] #283 - E-commerce/Retail batch
@@ -1268,6 +1268,64 @@ Google, Meta, Amazon, Apple, Microsoft, Netflix, NVIDIA, Intel, AMD, Cisco, Tesl
 - ✅ Technical Questions sub-section removed from interviewer mindset
 - ✅ Process format updated to role-neutral terminology
 - ✅ Company-specific cultural themes preserved (e.g., Netflix "Freedom and Responsibility")
+- ✅ JSON valid after edits
+- ✅ All tests pass
+
+### 2026-01-19 - Issue #280: Remove role-specific content - Company modules: High-growth startups
+
+**Status:** Complete
+
+**Modules Modified (14 total):**
+Stripe, Figma, Notion, Vercel, Databricks, Snowflake, Airbnb, Uber, Lyft, DoorDash, Instacart, Coinbase, Robinhood, Plaid
+
+**Role-specific content removed/generalized:**
+
+1. **Culture section** (Stripe, Figma, Snowflake, Airbnb):
+   - Removed: "System design emphasis", "Heavy focus on coding", "Technical deep dive"
+   - Replaced with: Role-neutral cultural themes (behavioral interviews, culture fit, problem-solving, collaboration, data-driven)
+
+2. **Interviewer Mindset section** (all 14 modules):
+   - Removed: "**Technical Questions**" sub-section entirely
+   - Removed: Tips about "statistical knowledge" and "class imbalance" (role-specific data science content)
+   - Generalized: Behavioral questions tip changed from "System design emphasis, Heavy focus on coding, Behavioral interviews important" to "Behavioral interviews, culture fit assessments, and problem-solving exercises"
+
+3. **Process section** (Stripe, Notion, Vercel, Snowflake, Airbnb, Uber, Lyft, DoorDash, Instacart, Coinbase):
+   - Changed: "**Format:** Mix of phone screen, technical, behavioral..." to "**Format:** Mix of phone screen, role-specific, behavioral..."
+
+4. **Tips section** (Stripe, Airbnb, Plaid):
+   - Removed: Role-specific tips about "LeetCode", "Python", "coding", "system design"
+   - Replaced with: Role-neutral tips about company research, values alignment, handling ambiguity
+
+**Files Modified:**
+- `data/generated/modules/company-stripe.json`
+- `data/generated/modules/company-figma.json`
+- `data/generated/modules/company-notion.json`
+- `data/generated/modules/company-vercel.json`
+- `data/generated/modules/company-databricks.json`
+- `data/generated/modules/company-snowflake.json`
+- `data/generated/modules/company-airbnb.json`
+- `data/generated/modules/company-uber.json`
+- `data/generated/modules/company-lyft.json`
+- `data/generated/modules/company-doordash.json`
+- `data/generated/modules/company-instacart.json`
+- `data/generated/modules/company-coinbase.json`
+- `data/generated/modules/company-robinhood.json`
+- `data/generated/modules/company-plaid.json`
+
+**Script Created:**
+- `scripts/cleanup/remove-role-specific-high-growth.ts` - Automated removal of role-specific content
+
+**Verification:**
+- All 14 JSON files valid (node validation passes)
+- `npm run lint` - passes (warnings only for unrelated image issues)
+- `npm run type-check` - passes
+- `npm run build` - successful
+- `npm test -- --testPathPattern="modules"` - 77 tests pass
+
+**Acceptance Criteria:**
+- ✅ All company modules in batch reviewed
+- ✅ Role-specific content removed/generalized
+- ✅ Content still valuable for all roles
 - ✅ JSON valid after edits
 - ✅ All tests pass
 

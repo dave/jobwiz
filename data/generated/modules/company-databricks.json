@@ -56,31 +56,13 @@
         {
           "type": "tip",
           "content": {
-            "text": "Databricks looks for 'emergent leadership' - people who step up organically without needing titles. Based on 28 interview reports, candidates commonly face: System design emphasis, Heavy focus on coding, Behavioral interviews important."
+            "text": "Databricks looks for 'emergent leadership' - people who step up organically without needing titles. Based on 28 interview reports, candidates commonly face: Behavioral interviews, culture fit assessments, and problem-solving exercises."
           }
         },
         {
           "type": "tip",
           "content": {
             "text": "The interviewer is probing your conflict resolution style. Databricks needs people who can disagree constructively - not pushovers, but not bulldozers either."
-          }
-        },
-        {
-          "type": "text",
-          "content": {
-            "text": "**Technical Questions**"
-          }
-        },
-        {
-          "type": "tip",
-          "content": {
-            "text": "Databricks is testing both your statistical knowledge and your judgment. The textbook answer is easy - they're probing for business intuition."
-          }
-        },
-        {
-          "type": "tip",
-          "content": {
-            "text": "This question is a trap for candidates who only look at accuracy. Databricks is testing: Do you understand class imbalance?"
           }
         },
         {
