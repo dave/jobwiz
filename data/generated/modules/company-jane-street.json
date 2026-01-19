@@ -186,7 +186,7 @@
         {
           "type": "text",
           "content": {
-            "text": "**Common Interview Questions:**\n\n- \"why do you specifically need to learn C++ for the role?\"\n- \"how would you feel about an essay question?\"\n- \"describe in detail?\"\n- \"how would you prepare for those?\"\n- \"and what were they looking for?\""
+            "text": "**Common Interview Topics:**\n\n- Probability puzzles and brain teasers\n- Mental math and estimation problems\n- Programming questions (often in OCaml or functional languages)\n- Market making scenarios and trading intuition\n- Game theory and strategy problems\n- Logic puzzles and pattern recognition"
           }
         },
         {
@@ -237,7 +237,7 @@
         {
           "type": "text",
           "content": {
-            "text": "**Insider Tips:**\n\n- getting really good at mental math, probability, pattern recognition, and brain teasers\n- for Jane Street third round (QT internship)\n- or pointers for the third round or the on-site would be greatly appreciated!\n- for Jane Street phone interview?\n- becoming very good at probability and combinatorics puzzles, and be able to do math on a whiteboard"
+            "text": "**Insider Tips:**\n\n- Master probability puzzles and mental math - Jane Street interviews are heavily quantitative\n- Practice expected value calculations and combinatorics problems under time pressure\n- Be prepared to think out loud during puzzles - they want to see your reasoning process\n- Learn OCaml basics if applying for SWE roles - it's Jane Street's primary language\n- Show genuine interest in trading and market making - they look for intellectual curiosity"
           }
         },
         {
