@@ -48,7 +48,13 @@ Fix content quality issues identified during manual review of interview prep mod
 ### Grammar Fixes (#249)
 - [x] #259 - Universal + Industry modules
 - [x] #260 - Role modules
-- [ ] #261-#269 - Company modules (by category)
+- [x] #261 - Company modules: Big Tech
+- [x] #262 - Company modules: High-growth startups
+- [x] #263 - Company modules: Finance
+- [x] #264 - Company modules: Consulting
+- [x] #265 - Company modules: E-commerce/Retail
+- [x] #266 - Company modules: Healthcare/Biotech
+- [ ] #267-#269 - Company modules (remaining categories)
 - [ ] #270-#278 - Company-role modules (by category)
 
 ### Role → Company-Role Merge (#253)
@@ -644,5 +650,51 @@ All 22 role modules have correct grammar:
 **Acceptance Criteria:**
 - ✅ All 11 E-commerce/Retail company modules reviewed
 - ✅ All grammar issues fixed (2 issues found and fixed)
+- ✅ JSON valid after edits
+
+### 2026-01-19 - Issue #266: Grammar review - Company modules: Healthcare/Biotech
+
+**Status:** Complete
+
+**Modules Reviewed (10 total):**
+- epic, cerner, optum, unitedhealth, cvs-health, jnj, pfizer, moderna, illumina, genentech
+
+**Issues Found and Fixed:**
+
+1. **company-optum.json - Interview Process section (line 183):**
+   - Had "1 rounds typical" which is grammatically incorrect
+   - Fixed: Changed to "1 round typical" (singular)
+
+2. **company-optum.json - Common Interview Questions section (line 189):**
+   - Had improperly capitalized question: "tell me about your on-site interview experience?"
+   - Fixed: Replaced with relevant healthcare-focused questions (properly capitalized)
+
+3. **company-optum.json - Insider Tips section (lines 240-241):**
+   - Contained garbled scraped content like "you get your point across", "on what I can improve on"
+   - Fixed: Replaced with relevant tips about Optum's structure, value-based care, and healthcare technology
+
+4. **company-cvs-health.json - Interview Process section (line 183):**
+   - Had "1 rounds typical" which is grammatically incorrect
+   - Fixed: Changed to "1 round typical" (singular)
+
+5. **company-pfizer.json - Interview Process section (line 183):**
+   - Had incomplete sentence: "**Format:** Mix of technical" (cut off)
+   - Fixed: Changed to "**Format:** Mix of phone screen, technical, behavioral, and panel interviews"
+
+**Files Modified:**
+- `data/generated/modules/company-optum.json` - Fixed 3 issues
+- `data/generated/modules/company-cvs-health.json` - Fixed 1 issue
+- `data/generated/modules/company-pfizer.json` - Fixed 1 issue
+
+**Verification:**
+- All JSON files valid (python3 -m json.tool validation passes)
+- `npm run lint` - passes (warnings only for unrelated image issues)
+- `npm run type-check` - passes
+- `npm run build` - successful
+- `npm test -- --testPathPattern="modules"` - 77 tests pass
+
+**Acceptance Criteria:**
+- ✅ All 10 Healthcare/Biotech company modules reviewed
+- ✅ All grammar issues fixed (5 issues found and fixed)
 - ✅ JSON valid after edits
 
