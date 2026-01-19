@@ -164,6 +164,11 @@ export function CarouselProvider({
   // Track premium access as state so it can be updated when user unlocks
   const [hasPremiumAccess, setHasPremiumAccess] = useState(initialHasPremiumAccess);
 
+  // Sync premium access state when prop changes (e.g., user bought access and returned)
+  useEffect(() => {
+    setHasPremiumAccess(initialHasPremiumAccess);
+  }, [initialHasPremiumAccess]);
+
   // Track if Supabase state has been loaded
   const supabaseLoadedRef = useRef(false);
   const saveTimeoutRef = useRef<NodeJS.Timeout | null>(null);
