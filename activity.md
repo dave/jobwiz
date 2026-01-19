@@ -4227,3 +4227,70 @@ All Stage 6 (Production Content Population) issues are now closed:
   - Click jumps to section ✓
   - Collapses to drawer on mobile ✓
   - Smooth open/close animation ✓
+
+### 2026-01-19 - Issue #188: Quiz in Conversation
+
+**Completed:**
+- Created `ConversationalQuiz` component for quiz questions in conversation flow
+- Component located at `src/components/alex/items/ConversationalQuiz.tsx`
+
+**Quiz Flow:**
+1. Alex asks question (chat bubble with avatar)
+2. Options fade in staggered (50ms apart)
+3. User taps option → immediate highlight
+4. User's answer appears as pill (slides in from right)
+5. Alex feedback bubble appears (250ms delay)
+6. Auto-advance after 1.5s (or tap Continue to skip)
+
+**Option Card Spec:**
+- Min-height: 48px
+- Padding: 12px 16px
+- Border: 2px solid transparent → 2px solid var(--primary) on hover
+- Border-radius: 12px
+- Full width
+- States: default, correct (green), incorrect (red)
+
+**Features:**
+- Quiz state machine: question → answered → feedback
+- Integrates with ConversationContext (addMessage, recordAnswer)
+- Persists answers via context (localStorage + Supabase sync)
+- Auto-advance with configurable delay (default 1500ms)
+- Continue button to skip auto-advance
+- Keyboard support (Enter to continue during feedback)
+- Already-answered state restoration
+- Reduced motion support
+
+**Files Created:**
+- `src/components/alex/items/ConversationalQuiz.tsx` - Main component
+- `src/components/alex/items/index.ts` - Exports
+- `src/components/alex/items/__tests__/ConversationalQuiz.test.tsx` - 37 unit tests
+
+**Files Modified:**
+- `src/components/alex/index.ts` - Added ConversationalQuiz export
+
+**Tests:**
+- 37 unit tests covering:
+  - Rendering (5 tests): question bubble, options, role attributes
+  - Option selection (4 tests): select, disable, correct/incorrect states
+  - User answer display (1 test): pill after selection
+  - Feedback (5 tests): delay, correct/incorrect messages, continue button
+  - Context integration (5 tests): addMessage, recordAnswer calls
+  - Auto-advance (3 tests): delay, custom delay, skip on continue
+  - Already answered state (2 tests): restore from context
+  - Accessibility (7 tests): roles, aria attributes, icons
+  - Keyboard navigation (2 tests): Enter to continue
+  - Edge cases (3 tests): no explanation, rapid clicks, zero delay
+
+**Verification:**
+- `npm run lint` - passes (only pre-existing warnings)
+- `npm run type-check` - passes with no errors
+- `npm run build` - successful production build
+- `npm test` - 236 alex component tests pass (37 new ConversationalQuiz tests)
+- All acceptance criteria verified:
+  - Question shows as Alex bubble ✓
+  - Options render as cards ✓
+  - Selected option highlights ✓
+  - User answer shows as pill ✓
+  - Feedback bubble shows result ✓
+  - Answer persists to context ✓
+  - Auto-advance after delay ✓

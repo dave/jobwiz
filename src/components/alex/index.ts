@@ -20,3 +20,7 @@ export type {
   SectionTimelineProps,
   TimelineSection,
 } from "./SectionTimeline";
+
+// Content item components
+export { ConversationalQuiz } from "./items/ConversationalQuiz";
+export type { ConversationalQuizProps } from "./items/ConversationalQuiz";
