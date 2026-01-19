@@ -12,3 +12,4 @@ export { ContentItem, type ContentItemProps } from "./ContentItem";
 export { QuizItem, type QuizItemProps } from "./QuizItem";
 export { MediaItem, type MediaItemProps } from "./MediaItem";
 export { ChecklistItem, type ChecklistItemProps } from "./ChecklistItem";
+export { ReflectionItem, type ReflectionItemProps } from "./ReflectionItem";
