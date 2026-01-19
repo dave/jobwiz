@@ -104,16 +104,26 @@ export async function deleteCompanyTheme(
 }
 
 /**
+ * Get local logo URL for a company (stored in public/logos/)
+ */
+function getLocalLogoUrl(companySlug: string): string {
+  return `/logos/${companySlug}.png`;
+}
+
+/**
  * Resolve a theme with fallback to defaults
  */
 export function resolveTheme(
   companySlug: string,
   theme: CompanyTheme | null
 ): ResolvedTheme {
+  // Use Supabase logo if set, otherwise fall back to local logo
+  const logoUrl = theme?.logo_url || getLocalLogoUrl(companySlug);
+
   if (theme) {
     return {
       companySlug,
-      logoUrl: theme.logo_url,
+      logoUrl,
       primaryColor: ensureValidHex(theme.primary_color, DEFAULT_THEME.primaryColor),
       secondaryColor: ensureValidHex(theme.secondary_color, DEFAULT_THEME.secondaryColor),
       industryCategory: theme.industry_category,
@@ -121,10 +131,10 @@ export function resolveTheme(
     };
   }
 
-  // Return default theme
+  // Return default theme with local logo
   return {
     companySlug,
-    logoUrl: DEFAULT_THEME.logoUrl,
+    logoUrl,
     primaryColor: DEFAULT_THEME.primaryColor,
     secondaryColor: DEFAULT_THEME.secondaryColor,
     industryCategory: DEFAULT_THEME.industryCategory,
