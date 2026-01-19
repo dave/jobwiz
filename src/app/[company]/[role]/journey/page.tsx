@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import { cookies } from "next/headers";
 import { notFound } from "next/navigation";
 import { getCompanyBySlug, getRoleBySlug } from "@/lib/routing";
 import { loadCarouselModules } from "@/lib/carousel";
@@ -6,6 +7,31 @@ import { flattenToCarouselItems } from "@/lib/carousel/flatten-modules";
 import { JourneyContent } from "./JourneyContent";
 import { createServerClient } from "@/lib/supabase/server";
 import { checkAccess } from "@/lib/access";
+import type { CarouselProgress } from "@/types/carousel";
+
+/** Read carousel progress from cookie */
+async function getProgressFromCookie(
+  companySlug: string,
+  roleSlug: string
+): Promise<CarouselProgress | null> {
+  try {
+    const cookieStore = await cookies();
+    const cookieName = `carousel_progress_${companySlug}_${roleSlug}`;
+    const cookie = cookieStore.get(cookieName);
+    if (!cookie?.value) return null;
+
+    const data = JSON.parse(decodeURIComponent(cookie.value));
+    return {
+      companySlug,
+      roleSlug,
+      currentIndex: data.currentIndex ?? 0,
+      completedItems: data.completedItems ?? [],
+      lastUpdated: Date.now(),
+    };
+  } catch {
+    return null;
+  }
+}
 
 interface JourneyPageProps {
   params: Promise<{
@@ -80,6 +106,9 @@ export default async function JourneyPage({ params }: JourneyPageProps) {
     // Fail silently - client will re-check
   }
 
+  // Read progress from cookie for SSR (prevents flash)
+  const initialProgress = await getProgressFromCookie(companySlug, roleSlug);
+
   return (
     <JourneyContent
       companySlug={companySlug}
@@ -91,6 +120,7 @@ export default async function JourneyPage({ params }: JourneyPageProps) {
       paywallIndex={paywallIndex}
       initialHasAccess={initialHasAccess}
       isLoggedIn={isLoggedIn}
+      initialProgress={initialProgress}
     />
   );
 }

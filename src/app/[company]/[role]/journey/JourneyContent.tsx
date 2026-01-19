@@ -33,6 +33,8 @@ interface JourneyContentProps {
   initialHasAccess?: boolean;
   /** Whether user is logged in (from server, prevents button text flicker) */
   isLoggedIn?: boolean;
+  /** Initial progress from server cookie (prevents flicker) */
+  initialProgress?: CarouselProgress | null;
 }
 
 /**
@@ -72,21 +74,30 @@ export function JourneyContent({
   paywallIndex,
   initialHasAccess = false,
   isLoggedIn = false,
+  initialProgress = null,
 }: JourneyContentProps) {
   const { user } = useAuth();
   const [hasAccess, setHasAccess] = useState(initialHasAccess);
   // Only show "checking" state if user is logged in but we need to verify access
   // For logged-out users, we know they don't have access - show paywall immediately
   const [checkingAccess, setCheckingAccess] = useState(isLoggedIn && !initialHasAccess);
-  const [progress, setProgress] = useState<CarouselProgress | null>(null);
-  const [progressLoaded, setProgressLoaded] = useState(false);
+  // Initialize progress from server cookie if available
+  const [progress, setProgress] = useState<CarouselProgress | null>(initialProgress);
+  // If we have initial progress from cookie, no need to wait for localStorage load
+  const [progressLoaded, setProgressLoaded] = useState(initialProgress !== null);
 
-  // Load persisted progress from localStorage on mount
+  // Load persisted progress from localStorage on mount (may be fresher than cookie)
   useEffect(() => {
     const loadedProgress = loadPersistedProgress(companySlug, roleSlug);
-    setProgress(loadedProgress);
+    // Only update if localStorage has data (don't overwrite cookie data with null)
+    if (loadedProgress) {
+      // Use localStorage if fresher than initial cookie data
+      if (!initialProgress || loadedProgress.lastUpdated > (initialProgress.lastUpdated ?? 0)) {
+        setProgress(loadedProgress);
+      }
+    }
     setProgressLoaded(true);
-  }, [companySlug, roleSlug]);
+  }, [companySlug, roleSlug, initialProgress]);
 
   // Check if user has purchased access (skip if already have access from server)
   useEffect(() => {
