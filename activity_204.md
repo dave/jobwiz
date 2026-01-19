@@ -16,7 +16,7 @@ Clean up generated module content to remove low-quality scraped data, placeholde
   - [x] #212 - E-commerce/Retail batch
   - [x] #213 - Healthcare/Biotech batch
   - [x] #214 - Enterprise SaaS batch
-  - [ ] #215 - Media/Entertainment batch
+  - [x] #215 - Media/Entertainment batch
   - [ ] #216 - Other companies batch
 
 ---
@@ -210,6 +210,28 @@ Clean up generated module content to remove low-quality scraped data, placeholde
 
 **Verification:**
 - All 13 JSON files valid
+- `npm run lint` - passes
+- `npm run build` - passes
+
+## 2026-01-19 - Issue #215: Content review: Media/Entertainment batch
+
+**Completed:**
+- Reviewed all 5 existing Media/Entertainment company modules (Warner Bros, Sony, Take-Two, and Zynga modules do not exist in the codebase)
+- Cleaned modules with garbage Reddit scrapes and inappropriate tech-focused content:
+  - `company-disney.json` - Fixed "Key cultural themes" (removed generic tech terms), "Common Interview Questions" (removed nonsense questions), and "Insider Tips" (removed garbage scrapes)
+  - `company-netflix.json` - Fixed "Key cultural themes" (replaced generic tech terms with Netflix-specific culture: Freedom and Responsibility, candid feedback, etc.)
+  - `company-spotify.json` - Fixed "Common Interview Questions" (removed nonsense) and "Insider Tips" (replaced garbage with Squad model, music passion, etc.)
+  - `company-ea.json` - Fixed "Key cultural themes", "Common Interview Questions", and "Insider Tips" (replaced with gaming-specific content)
+  - `company-activision-blizzard.json` - Already clean, no changes needed
+
+**Files Modified:**
+- `data/generated/modules/company-disney.json`
+- `data/generated/modules/company-netflix.json`
+- `data/generated/modules/company-spotify.json`
+- `data/generated/modules/company-ea.json`
+
+**Verification:**
+- All 5 JSON files valid
 - `npm run lint` - passes
 - `npm run build` - passes
 
