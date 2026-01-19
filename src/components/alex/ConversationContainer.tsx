@@ -266,6 +266,7 @@ export function ConversationContainer(props: ConversationContainerProps) {
 
 /**
  * Container style - full viewport, flex layout for sidebar
+ * Includes overflow handling for mobile
  */
 const containerStyle: React.CSSProperties = {
   display: "flex",
@@ -274,6 +275,7 @@ const containerStyle: React.CSSProperties = {
   width: "100%",
   backgroundColor: "var(--background, #ffffff)",
   position: "relative",
+  overflowX: "hidden", // Prevent horizontal overflow on mobile
 };
 
 /**

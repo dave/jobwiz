@@ -169,6 +169,7 @@ export function BigQuestionMode({
 /**
  * Container style - full viewport with flex column layout
  * Uses 100dvh (dynamic viewport height) for mobile with fallback
+ * Includes safe area insets for notch/home indicator
  */
 const containerStyle: React.CSSProperties = {
   display: "flex",
@@ -177,8 +178,10 @@ const containerStyle: React.CSSProperties = {
   justifyContent: "space-between",
   minHeight: "100dvh", // Dynamic viewport height for mobile (fallback handled by CSS)
   padding: "var(--space-8) var(--space-4)",
+  paddingTop: "calc(var(--space-8) + env(safe-area-inset-top))",
   paddingBottom: "calc(var(--space-8) + env(safe-area-inset-bottom))",
   backgroundColor: "var(--background, #ffffff)",
+  overflowX: "hidden", // Prevent horizontal overflow
 };
 
 /**

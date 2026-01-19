@@ -4761,3 +4761,59 @@ All Stage 6 (Production Content Population) issues are now closed:
   - meta - review process/tips/culture sections ✓
   - microsoft - review process/tips/culture sections ✓
   - netflix - review process/tips/culture sections ✓
+
+### 2026-01-19 - Issue #197: 5.4: Mobile responsive
+
+**Completed:**
+- Mobile-specific optimizations for conversation UI components
+- Timeline drawer works correctly on mobile with slide-in animation
+- Safe area insets applied for notch/home indicator (top, bottom, left)
+- Touch targets verified at minimum 48×48px
+- Quiz options updated to 56px min height for better touch targets
+- Smooth scrolling on iOS with `-webkit-overflow-scrolling: touch`
+- Horizontal overflow prevented with `overflowX: hidden`
+
+**Changes Made:**
+
+**SectionTimeline.tsx:**
+- Added safe-area-inset-top to mobile toggle button position
+- Added safe-area-inset-left to mobile toggle button and drawer
+- Added `-webkit-overflow-scrolling: touch` for smooth scrolling in drawer
+
+**ConversationalMode.tsx:**
+- Added safe-area-inset-top to messages container padding
+- Increased "New" indicator button min-height to 48px for touch target
+- Already had smooth scrolling and bottom safe area padding
+
+**ConversationalQuiz.tsx:**
+- Increased quiz option min-height from 48px to 56px for better mobile touch targets
+- Increased vertical padding from 12px to 14px to match
+
+**BigQuestionMode.tsx:**
+- Added safe-area-inset-top to container padding
+- Added `overflowX: hidden` to prevent horizontal overflow
+
+**ConversationContainer.tsx:**
+- Added `overflowX: hidden` to prevent horizontal overflow on mobile
+
+**Verification:**
+- `npm run lint` - passes (only pre-existing warnings)
+- `npm run type-check` - passes with no errors
+- `npm run build` - successful production build
+- `npm test` - 180 related tests pass (SectionTimeline, ConversationalMode, ConversationalQuiz, BigQuestionMode, ConversationContainer)
+- Manual testing with 375×812 viewport (iPhone X size):
+  - Timeline drawer slides in/out correctly ✓
+  - Touch targets meet minimum size ✓
+  - No horizontal overflow ✓
+  - Smooth scrolling works ✓
+- All acceptance criteria verified:
+  - Timeline drawer works on mobile ✓
+  - Safe area padding applied ✓
+  - Touch targets meet minimum size ✓
+  - Smooth scroll on iOS ✓
+  - No horizontal overflow ✓
+
+**Screenshots:**
+- `mobile-responsive-initial.png` - Initial Big Question mode on mobile
+- `mobile-responsive-drawer.png` - Timeline drawer open
+- `mobile-responsive-conversation.png` - Conversational mode with chat bubbles

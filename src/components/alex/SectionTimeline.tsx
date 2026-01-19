@@ -438,8 +438,8 @@ const desktopSidebarStyle: React.CSSProperties = {
 
 const mobileToggleStyle: React.CSSProperties = {
   position: "fixed",
-  top: "var(--space-4)",
-  left: "var(--space-4)",
+  top: "calc(var(--space-4) + env(safe-area-inset-top))",
+  left: "calc(var(--space-4) + env(safe-area-inset-left))",
   width: "48px",
   height: "48px",
   display: "flex",
@@ -471,7 +471,9 @@ const mobileDrawerStyle: React.CSSProperties = {
   padding: "var(--space-4)",
   paddingTop: "calc(var(--space-4) + env(safe-area-inset-top))",
   paddingBottom: "calc(var(--space-4) + env(safe-area-inset-bottom))",
+  paddingLeft: "calc(var(--space-4) + env(safe-area-inset-left))",
   overflowY: "auto",
+  WebkitOverflowScrolling: "touch", // Smooth scrolling on iOS
   zIndex: 50,
 };
 
