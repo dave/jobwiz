@@ -23,6 +23,10 @@ export interface JourneyProgressRow {
   }>;
   last_updated: string;
   created_at: string;
+  // Carousel-specific fields (added in 20260119000001_carousel_progress.sql)
+  current_item_index: number | null;
+  module_slug: string | null;
+  completed_items: string[];
 }
 
 /**

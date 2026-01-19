@@ -2677,3 +2677,31 @@ All Stage 5 (Launch) code issues are now closed:
   - Insert module title item at start of each module ✓
   - Insert paywall item between free and premium ✓
   - Test: 3 modules with 10 blocks each → ~33 items (34 = 33 items + 1 paywall) ✓
+
+### 2026-01-19 - Issue #133: C1: Update progress schema
+
+**Completed:**
+- Created Supabase migration for carousel-specific progress fields
+- Added 3 new columns to `journey_progress` table:
+  - `current_item_index INTEGER` - carousel position tracking
+  - `module_slug TEXT` - current module being viewed
+  - `completed_items TEXT[]` - array of completed carousel item IDs
+- Maintains backward compatibility with existing journey progress data
+- Updated `JourneyProgressRow` TypeScript interface with new fields
+
+**Files Created:**
+- `supabase/migrations/20260119000001_carousel_progress.sql`
+
+**Files Modified:**
+- `src/lib/journey/supabase-sync.ts` - Added carousel fields to JourneyProgressRow interface
+
+**Verification:**
+- `npm run lint` - passes with no errors
+- `npm run type-check` - passes with no errors
+- `npm run build` - successful production build
+- `npm test` - 440 journey/carousel tests pass
+- All acceptance criteria verified:
+  - Migration adds `current_item_index INTEGER` ✓
+  - Migration adds `module_slug TEXT` ✓
+  - Migration adds `completed_items TEXT[]` ✓
+  - Existing data preserved (backward compatible) ✓
