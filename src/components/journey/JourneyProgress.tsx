@@ -304,9 +304,7 @@ export function JourneyProgress({
               className="text-sm text-gray-500 mt-1 h-5"
               data-testid="current-module-name"
             >
-              {progressLoading ? (
-                <span className="text-gray-400">&nbsp;</span>
-              ) : currentModule ? (
+              {currentModule ? (
                 <>
                   Current:{" "}
                   <span className="font-medium text-gray-700">
@@ -387,7 +385,6 @@ export function JourneyProgress({
               index={index}
               companySlug={companySlug}
               roleSlug={roleSlug}
-              progressLoading={progressLoading}
             />
           ))}
         </div>
@@ -402,7 +399,6 @@ interface ModuleListItemProps {
   index: number;
   companySlug: string;
   roleSlug: string;
-  progressLoading: boolean;
 }
 
 /** Individual module list item */
@@ -411,7 +407,6 @@ function ModuleListItem({
   index,
   companySlug,
   roleSlug,
-  progressLoading,
 }: ModuleListItemProps) {
   const {
     title,
@@ -425,8 +420,8 @@ function ModuleListItem({
     startIndex,
   } = moduleInfo;
 
-  // Don't show "current" styling while progress is loading to prevent flicker
-  const isCurrent = progressLoading ? false : isCurrentFromProgress;
+  // Always show current styling - even without cookie, index 0 means first module is current
+  const isCurrent = isCurrentFromProgress;
 
   // Determine if this module is clickable
   const isClickable = !isLocked;
