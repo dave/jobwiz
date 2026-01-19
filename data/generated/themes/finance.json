@@ -1,0 +1,104 @@
+{
+  "batch": "Finance",
+  "generated_at": "2026-01-18",
+  "themes": [
+    {
+      "company_slug": "goldman-sachs",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Goldman_Sachs.svg",
+      "primary_color": "#7399C6",
+      "secondary_color": "#0A1628",
+      "industry_category": "Finance"
+    },
+    {
+      "company_slug": "jpmorgan",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/a/af/J_P_Morgan_Logo_2008_1.svg",
+      "primary_color": "#117ACA",
+      "secondary_color": "#0D2B3E",
+      "industry_category": "Finance"
+    },
+    {
+      "company_slug": "morgan-stanley",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Morgan_Stanley_Logo_1.svg",
+      "primary_color": "#00A0DF",
+      "secondary_color": "#002D72",
+      "industry_category": "Finance"
+    },
+    {
+      "company_slug": "bank-of-america",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Bank_of_America_logo.svg",
+      "primary_color": "#E31837",
+      "secondary_color": "#012169",
+      "industry_category": "Finance"
+    },
+    {
+      "company_slug": "citadel",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Citadel_LLC_Logo.svg",
+      "primary_color": "#003366",
+      "secondary_color": "#1A1A1A",
+      "industry_category": "Finance"
+    },
+    {
+      "company_slug": "two-sigma",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Two_Sigma_Logo.svg",
+      "primary_color": "#00A9E0",
+      "secondary_color": "#002855",
+      "industry_category": "Finance"
+    },
+    {
+      "company_slug": "jane-street",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Jane_Street_Capital_Logo.svg",
+      "primary_color": "#007ACC",
+      "secondary_color": "#1A1A1A",
+      "industry_category": "Finance"
+    },
+    {
+      "company_slug": "blackrock",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/BlackRock_wordmark.svg",
+      "primary_color": "#000000",
+      "secondary_color": "#6D6E71",
+      "industry_category": "Finance"
+    },
+    {
+      "company_slug": "fidelity",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Fidelity_Investments_logo.svg",
+      "primary_color": "#4AA564",
+      "secondary_color": "#1A1A1A",
+      "industry_category": "Finance"
+    },
+    {
+      "company_slug": "charles-schwab",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Charles_Schwab_Corporation_logo.svg",
+      "primary_color": "#00A0DF",
+      "secondary_color": "#1A1A1A",
+      "industry_category": "Finance"
+    },
+    {
+      "company_slug": "visa",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Visa_Inc._logo.svg",
+      "primary_color": "#1A1F71",
+      "secondary_color": "#F7B600",
+      "industry_category": "Finance"
+    },
+    {
+      "company_slug": "mastercard",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Mastercard-logo.svg",
+      "primary_color": "#EB001B",
+      "secondary_color": "#F79E1B",
+      "industry_category": "Finance"
+    },
+    {
+      "company_slug": "paypal",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/PayPal.svg",
+      "primary_color": "#003087",
+      "secondary_color": "#009CDE",
+      "industry_category": "Finance"
+    },
+    {
+      "company_slug": "block",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Block%2C_Inc._logo.svg",
+      "primary_color": "#000000",
+      "secondary_color": "#1DA1F2",
+      "industry_category": "Finance"
+    }
+  ]
+}
