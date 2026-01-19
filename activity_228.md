@@ -1830,3 +1830,54 @@ Block patterns found (consistent across all modules):
 - ✅ Questions appear before explanations (verified - no issues found)
 - ✅ Content flow is logical (section intro → tip → quiz blocks)
 
+### 2026-01-19 - Issue #292: Fix content ordering - Company-role modules: E-commerce/Retail
+
+**Status:** Complete - No issues found
+
+**Modules Reviewed (82 total):**
+Reviewed all company-role modules for 11 E-commerce/Retail companies:
+- Walmart (7 modules): backend-engineer, business-analyst, data-engineer, data-scientist, engineering-manager, product-manager, software-engineer
+- Target (7 modules): backend-engineer, business-analyst, data-engineer, data-scientist, engineering-manager, product-manager, software-engineer
+- Best Buy (6 modules): backend-engineer, data-engineer, data-scientist, engineering-manager, product-manager, software-engineer
+- Chewy (7 modules): backend-engineer, data-engineer, data-scientist, engineering-manager, product-designer, product-manager, software-engineer
+- Costco (7 modules): backend-engineer, business-analyst, data-engineer, data-scientist, engineering-manager, product-manager, software-engineer
+- Etsy (8 modules): backend-engineer, data-engineer, data-scientist, engineering-manager, frontend-engineer, product-designer, product-manager, software-engineer
+- Home Depot (7 modules): backend-engineer, business-analyst, data-engineer, data-scientist, engineering-manager, product-manager, software-engineer
+- Lululemon (7 modules): backend-engineer, data-scientist, frontend-engineer, marketing-manager, product-designer, product-manager, software-engineer
+- Nike (9 modules): backend-engineer, data-scientist, engineering-manager, frontend-engineer, marketing-manager, mobile-engineer, product-designer, product-manager, software-engineer
+- Shopify (9 modules): backend-engineer, data-engineer, data-scientist, engineering-manager, frontend-engineer, product-designer, product-manager, software-engineer, ux-researcher
+- Wayfair (8 modules): backend-engineer, data-engineer, data-scientist, engineering-manager, frontend-engineer, product-designer, product-manager, software-engineer
+
+**Analysis Approach:**
+1. Created automated checker script to detect text/tip/warning blocks appearing between quiz blocks
+2. Scanned all 82 modules for ordering issues
+3. Verified block patterns across all sections
+4. Manually spot-checked sample files (Walmart SWE, Shopify FE, Etsy PM)
+
+**Findings:**
+All 82 modules have the **correct** ordering structure:
+- Section intro text at position 0
+- Key focus areas tip/warning at position 1
+- All quiz blocks grouped together after intro content
+
+Block patterns found (consistent across all modules):
+- `text tip quiz quiz quiz quiz quiz` - 164 sections (Behavioral, Technical)
+- `text warning quiz quiz quiz quiz quiz` - 82 sections (Culture Fit)
+- `text tip quiz quiz quiz quiz` - 82 sections (Curveball - 4 quizzes)
+
+**No fixes required** - The current structure is correct. Explanations/frameworks do NOT appear before questions; they appear at the section level as introductory content, which is appropriate.
+
+**Script Created:**
+- `scripts/cleanup/check-content-ordering-ecommerce.ts` - Automated ordering check for E-commerce/Retail modules
+
+**Verification:**
+- `npm run lint` - passes (warnings only for unrelated image issues)
+- `npm run type-check` - passes
+- `npm run build` - successful
+- `npm test -- --testPathPattern="modules"` - 77 tests pass
+
+**Acceptance Criteria:**
+- ✅ All 82 company-role modules in batch reviewed
+- ✅ Questions appear before explanations (verified - no issues found)
+- ✅ Content flow is logical (section intro → tip → quiz blocks)
+
