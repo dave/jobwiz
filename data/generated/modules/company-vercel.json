@@ -186,7 +186,7 @@
         {
           "type": "text",
           "content": {
-            "text": "**Common Interview Questions:**\n\n- \"Is this an in-person or virtual interview?\"\n- \"Will we be meeting via Zoom or Google Meet?\"\n- \"ensure adequate storage is available for transmitting and downloading files?\""
+            "text": "**What to Expect:**\n\nVercel interviews focus on frontend and infrastructure expertise:\n- Technical interviews with emphasis on React, Next.js, and modern web architecture\n- System design questions about edge computing, CDNs, and serverless functions\n- Deep dives into performance optimization and developer experience\n- Take-home assignments are common, showcasing your ability to build and deploy"
           }
         },
         {
@@ -237,7 +237,7 @@
         {
           "type": "text",
           "content": {
-            "text": "**Insider Tips:**\n\n- here: if you put time and effort into a project, make sure to deploy it to production (Vercel/Netlify/etc\n- I see often is to find _anyone_ at a target to provide a referral\n- sending this type of messages in LinkedIn direct messages, but this wasn't very effective in my experience\n- you're highlighting relevant skills and experiences\n- from people who’ve been in a similar position"
+            "text": "**Insider Tips:**\n\n- Deploy your projects to production using Vercel before interviewing - they want to see you use the platform\n- Understand Next.js deeply, including App Router, Server Components, and edge functions\n- Be ready to discuss web performance metrics (Core Web Vitals, Time to First Byte)\n- Show passion for developer experience and how tooling can improve productivity"
           }
         },
         {
