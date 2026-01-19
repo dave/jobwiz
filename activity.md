@@ -4714,3 +4714,50 @@ All Stage 6 (Production Content Population) issues are now closed:
   - Tone is conversational and welcoming ✓
   - Explains the course structure and value prop ✓
   - Valid JSON structure matching existing section format ✓
+
+### 2026-01-19 - Issue #208: Content review: Big Tech batch
+
+**Completed:**
+- Manually reviewed and cleaned 6 Big Tech company modules
+- Removed garbage Reddit scrapes from "Common Interview Questions" sections
+- Removed garbage Reddit fragments from "Insider Tips" sections
+- Replaced with actionable, company-specific content
+
+**Companies Cleaned:**
+- Google - Removed nonsense questions like "Did you tell her about _______?"
+- Amazon - Removed "You need a back rub, my dude?" and similar fragments
+- Apple - Removed "can you even read?" and other Reddit garbage
+- Meta - Removed "When did Blind turn into Reddit?" and fragments
+- Microsoft - Removed references to wrong companies like Google in tips
+- Netflix - Removed personal diary entries and unrelated fragments
+
+**Content Replaced With:**
+- Google: Actual interview process details (4-5 interviews, hiring committee)
+- Amazon: Leadership Principles focus, Bar Raiser process, STAR method tips
+- Apple: Design thinking emphasis, on-site format, secrecy culture
+- Meta: Coding interview format, team matching process, LeetCode focus
+- Microsoft: Growth mindset emphasis, "As Appropriate" round, collaboration values
+- Netflix: Culture Memo importance, compensation discussion timing, "stunning colleagues"
+
+**Files Modified:**
+- `data/generated/modules/company-google.json` - Cleaned process/tips sections
+- `data/generated/modules/company-amazon.json` - Cleaned process/tips sections
+- `data/generated/modules/company-apple.json` - Cleaned process/tips sections
+- `data/generated/modules/company-meta.json` - Cleaned process/tips sections
+- `data/generated/modules/company-microsoft.json` - Cleaned process/tips sections
+- `data/generated/modules/company-netflix.json` - Cleaned process/tips sections
+
+**Verification:**
+- `npm run lint` - passes (only pre-existing warnings)
+- `npm run type-check` - passes with no errors
+- `npm run build` - successful production build
+- `npm test` - load-modules: 23 tests pass, flatten-modules: 29 tests pass (52 total)
+- All 6 JSON files validated
+- `grep` for garbage patterns returns 0 matches
+- All acceptance criteria verified:
+  - google - review process/tips/culture sections ✓
+  - amazon - review process/tips/culture sections ✓
+  - apple - review process/tips/culture sections ✓
+  - meta - review process/tips/culture sections ✓
+  - microsoft - review process/tips/culture sections ✓
+  - netflix - review process/tips/culture sections ✓
