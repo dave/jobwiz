@@ -1,0 +1,76 @@
+{
+  "batch": "Consulting",
+  "generated_at": "2026-01-18",
+  "themes": [
+    {
+      "company_slug": "mckinsey",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/McKinsey_and_Company_Logo_1.svg",
+      "primary_color": "#0033A0",
+      "secondary_color": "#1A1A1A",
+      "industry_category": "Consulting"
+    },
+    {
+      "company_slug": "bcg",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Boston_Consulting_Group_2020_logo.svg",
+      "primary_color": "#00A651",
+      "secondary_color": "#1A1A1A",
+      "industry_category": "Consulting"
+    },
+    {
+      "company_slug": "bain",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Bain_%26_Company_logo.svg",
+      "primary_color": "#CC0000",
+      "secondary_color": "#1A1A1A",
+      "industry_category": "Consulting"
+    },
+    {
+      "company_slug": "deloitte",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Deloitte.svg",
+      "primary_color": "#86BC25",
+      "secondary_color": "#000000",
+      "industry_category": "Consulting"
+    },
+    {
+      "company_slug": "accenture",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Accenture.svg",
+      "primary_color": "#A100FF",
+      "secondary_color": "#1A1A1A",
+      "industry_category": "Consulting"
+    },
+    {
+      "company_slug": "pwc",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/0/05/PricewaterhouseCoopers_Logo.svg",
+      "primary_color": "#DC6900",
+      "secondary_color": "#1A1A1A",
+      "industry_category": "Consulting"
+    },
+    {
+      "company_slug": "ey",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/3/34/EY_logo_2019.svg",
+      "primary_color": "#FFE600",
+      "secondary_color": "#2E2E38",
+      "industry_category": "Consulting"
+    },
+    {
+      "company_slug": "kpmg",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/KPMG_logo.svg",
+      "primary_color": "#00338D",
+      "secondary_color": "#1A1A1A",
+      "industry_category": "Consulting"
+    },
+    {
+      "company_slug": "capgemini",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Capgemini_logo.svg",
+      "primary_color": "#0070AD",
+      "secondary_color": "#12ABDB",
+      "industry_category": "Consulting"
+    },
+    {
+      "company_slug": "booz-allen",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Booz_Allen_Hamilton_logo.svg",
+      "primary_color": "#DA291C",
+      "secondary_color": "#1A1A1A",
+      "industry_category": "Consulting"
+    }
+  ]
+}

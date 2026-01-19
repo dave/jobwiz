@@ -3397,3 +3397,35 @@ All Stage 5 (Launch) code issues are now closed:
   - Each company has: company_slug, logo_url, primary_color, secondary_color, industry_category
   - Migration uses ON CONFLICT for upsert (updates existing themes)
 
+### 2026-01-18 - Issue #97: Expand company themes: Consulting batch
+
+**Completed:**
+- Created Supabase migration for Consulting company themes
+- Created JSON theme data file for content loader
+- Added brand colors and logos for 10 Consulting companies:
+  - McKinsey & Company (#0033A0 dark blue, #1A1A1A black)
+  - Boston Consulting Group (#00A651 green, #1A1A1A black)
+  - Bain & Company (#CC0000 red, #1A1A1A black)
+  - Deloitte (#86BC25 green, #000000 black)
+  - Accenture (#A100FF purple, #1A1A1A black)
+  - PwC (#DC6900 orange, #1A1A1A black)
+  - EY (#FFE600 yellow, #2E2E38 dark)
+  - KPMG (#00338D blue, #1A1A1A black)
+  - Capgemini (#0070AD blue, #12ABDB light blue)
+  - Booz Allen Hamilton (#DA291C red, #1A1A1A black)
+
+**Files Created:**
+- `supabase/migrations/20260119000005_insert_consulting_themes.sql`
+- `data/generated/themes/consulting.json` (10 themes)
+
+**Verification:**
+- `npm run lint` - passes with no errors
+- `npm run type-check` - passes with no errors
+- `npm run build` - successful production build
+- `npm test` - theme tests pass (109 tests)
+- JSON file validated with jq
+- All acceptance criteria verified:
+  - Theme data for 10 Consulting companies
+  - Each company has: company_slug, logo_url, primary_color, secondary_color, industry_category
+  - Migration uses ON CONFLICT for upsert (updates existing themes)
+
