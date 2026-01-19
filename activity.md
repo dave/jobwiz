@@ -3185,3 +3185,56 @@ All Stage 5 (Launch) code issues are now closed:
 - Quiz items have exactly 3 wrong options
 - All items have source_url and source_date
 
+### 2026-01-19 - Issue #92: Generate company trivia: Enterprise SaaS batch
+
+**Completed:**
+- Created trivia generation script `/scripts/generate-trivia-enterprise-saas.ts`
+- Generated trivia for 14 Enterprise SaaS companies:
+  - Salesforce, Oracle, SAP, Workday, ServiceNow, Atlassian, Splunk
+  - Twilio, HubSpot, Zendesk, Okta, Cloudflare, MongoDB, Elastic
+- Generated 196 trivia items total (14 items per company)
+- Output files in `/data/generated/trivia/{company}.json`
+
+**Trivia Types Generated:**
+- Founding (quiz, flashcard, factoid)
+- Headquarters (quiz, flashcard)
+- CEO/Executive (quiz, flashcard)
+- Mission statement (factoid, flashcard)
+- Products (quiz, factoid)
+- Acquisitions (quiz, factoid, flashcard)
+
+**Format per Item:**
+- `company_slug` - company identifier
+- `fact_type` - founding, hq, mission, product, news, exec, acquisition
+- `format` - quiz, flashcard, factoid
+- `question` - question text (null for factoids)
+- `answer` - correct answer
+- `options` - 3 wrong answers (for quiz format only)
+- `source_url` - Wikipedia source link
+- `source_date` - date of generation
+
+**Files Created:**
+- `scripts/generate-trivia-enterprise-saas.ts` - trivia generation script
+- `data/generated/trivia/salesforce.json` (14 items)
+- `data/generated/trivia/oracle.json` (14 items)
+- `data/generated/trivia/sap.json` (14 items)
+- `data/generated/trivia/workday.json` (14 items)
+- `data/generated/trivia/servicenow.json` (14 items)
+- `data/generated/trivia/atlassian.json` (14 items)
+- `data/generated/trivia/splunk.json` (14 items)
+- `data/generated/trivia/twilio.json` (14 items)
+- `data/generated/trivia/hubspot.json` (14 items)
+- `data/generated/trivia/zendesk.json` (14 items)
+- `data/generated/trivia/okta.json` (14 items)
+- `data/generated/trivia/cloudflare.json` (14 items)
+- `data/generated/trivia/mongodb.json` (14 items)
+- `data/generated/trivia/elastic.json` (14 items)
+
+**Verification:**
+- `npm run lint` - passes with no errors
+- `npm run type-check` - passes with no errors
+- `npm run build` - successful production build
+- All trivia files conform to expected schema
+- Quiz items have exactly 3 wrong options
+- All items have source_url and source_date
+

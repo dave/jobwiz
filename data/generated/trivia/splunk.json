@@ -1,0 +1,162 @@
+[
+  {
+    "company_slug": "splunk",
+    "fact_type": "founding",
+    "format": "quiz",
+    "question": "When was Splunk founded?",
+    "answer": "2003",
+    "options": [
+      "1998",
+      "2001",
+      "2006"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Splunk",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "splunk",
+    "fact_type": "founding",
+    "format": "flashcard",
+    "question": "Who founded Splunk?",
+    "answer": "Michael Baum and Rob Das and others",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Splunk",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "splunk",
+    "fact_type": "founding",
+    "format": "factoid",
+    "question": null,
+    "answer": "Splunk was founded in 2003 by Michael Baum and Rob Das and others.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Splunk",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "splunk",
+    "fact_type": "hq",
+    "format": "quiz",
+    "question": "Where is Splunk's headquarters located?",
+    "answer": "San Francisco, California",
+    "options": [
+      "New York, New York",
+      "Seattle, Washington",
+      "Austin, Texas"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Splunk",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "splunk",
+    "fact_type": "hq",
+    "format": "flashcard",
+    "question": "What city is Splunk headquartered in?",
+    "answer": "San Francisco, California",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Splunk",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "splunk",
+    "fact_type": "exec",
+    "format": "quiz",
+    "question": "Who is the current CEO of Splunk?",
+    "answer": "Gary Steele",
+    "options": [
+      "Marc Benioff",
+      "Jeff Lawson",
+      "Todd McKinnon"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Splunk",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "splunk",
+    "fact_type": "exec",
+    "format": "flashcard",
+    "question": "Who leads Splunk as CEO?",
+    "answer": "Gary Steele",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Splunk",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "splunk",
+    "fact_type": "mission",
+    "format": "factoid",
+    "question": null,
+    "answer": "Splunk's mission is \"To remove the barriers between data and action\".",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Splunk",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "splunk",
+    "fact_type": "mission",
+    "format": "flashcard",
+    "question": "What is Splunk's mission statement?",
+    "answer": "To remove the barriers between data and action",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Splunk",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "splunk",
+    "fact_type": "product",
+    "format": "quiz",
+    "question": "Which of these is a Splunk product or service?",
+    "answer": "Splunk Enterprise",
+    "options": [
+      "Microsoft Dynamics",
+      "SAP SuccessFactors",
+      "Oracle Cloud"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Splunk",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "splunk",
+    "fact_type": "product",
+    "format": "factoid",
+    "question": null,
+    "answer": "Key Splunk products and services include Splunk Enterprise, Splunk Cloud, Splunk SOAR, Splunk Observability Cloud.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Splunk",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "splunk",
+    "fact_type": "acquisition",
+    "format": "quiz",
+    "question": "Which company did Splunk acquire in 2019?",
+    "answer": "SignalFx",
+    "options": [
+      "Slack",
+      "Trello",
+      "GitHub"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Splunk",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "splunk",
+    "fact_type": "acquisition",
+    "format": "factoid",
+    "question": null,
+    "answer": "Splunk acquired SignalFx in 2019.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Splunk",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "splunk",
+    "fact_type": "acquisition",
+    "format": "flashcard",
+    "question": "In what year did Splunk acquire Phantom Cyber?",
+    "answer": "2018",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Splunk",
+    "source_date": "2026-01-19"
+  }
+]

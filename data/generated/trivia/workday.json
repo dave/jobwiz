@@ -1,0 +1,162 @@
+[
+  {
+    "company_slug": "workday",
+    "fact_type": "founding",
+    "format": "quiz",
+    "question": "When was Workday founded?",
+    "answer": "2005",
+    "options": [
+      "2000",
+      "2003",
+      "2008"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Workday,_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "workday",
+    "fact_type": "founding",
+    "format": "flashcard",
+    "question": "Who founded Workday?",
+    "answer": "Dave Duffield and Aneel Bhusri",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Workday,_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "workday",
+    "fact_type": "founding",
+    "format": "factoid",
+    "question": null,
+    "answer": "Workday was founded in 2005 by Dave Duffield and Aneel Bhusri.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Workday,_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "workday",
+    "fact_type": "hq",
+    "format": "quiz",
+    "question": "Where is Workday's headquarters located?",
+    "answer": "Pleasanton, California",
+    "options": [
+      "San Francisco, California",
+      "New York, New York",
+      "Seattle, Washington"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Workday,_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "workday",
+    "fact_type": "hq",
+    "format": "flashcard",
+    "question": "What city is Workday headquartered in?",
+    "answer": "Pleasanton, California",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Workday,_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "workday",
+    "fact_type": "exec",
+    "format": "quiz",
+    "question": "Who is the current CEO of Workday?",
+    "answer": "Carl Eschenbach",
+    "options": [
+      "Marc Benioff",
+      "Aneel Bhusri",
+      "Christian Klein"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Workday,_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "workday",
+    "fact_type": "exec",
+    "format": "flashcard",
+    "question": "Who leads Workday as CEO?",
+    "answer": "Carl Eschenbach",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Workday,_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "workday",
+    "fact_type": "mission",
+    "format": "factoid",
+    "question": null,
+    "answer": "Workday's mission is \"To put people at the center of enterprise software\".",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Workday,_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "workday",
+    "fact_type": "mission",
+    "format": "flashcard",
+    "question": "What is Workday's mission statement?",
+    "answer": "To put people at the center of enterprise software",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Workday,_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "workday",
+    "fact_type": "product",
+    "format": "quiz",
+    "question": "Which of these is a Workday product or service?",
+    "answer": "Workday HCM",
+    "options": [
+      "Microsoft Dynamics",
+      "SAP SuccessFactors",
+      "Oracle Cloud"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Workday,_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "workday",
+    "fact_type": "product",
+    "format": "factoid",
+    "question": null,
+    "answer": "Key Workday products and services include Workday HCM, Workday Financial Management, Workday Adaptive Planning, Workday Prism Analytics.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Workday,_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "workday",
+    "fact_type": "acquisition",
+    "format": "quiz",
+    "question": "Which company did Workday acquire in 2021?",
+    "answer": "VNDLY",
+    "options": [
+      "Slack",
+      "Trello",
+      "GitHub"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Workday,_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "workday",
+    "fact_type": "acquisition",
+    "format": "factoid",
+    "question": null,
+    "answer": "Workday acquired VNDLY in 2021.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Workday,_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "workday",
+    "fact_type": "acquisition",
+    "format": "flashcard",
+    "question": "In what year did Workday acquire Peakon?",
+    "answer": "2021",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Workday,_Inc.",
+    "source_date": "2026-01-19"
+  }
+]

@@ -1,0 +1,162 @@
+[
+  {
+    "company_slug": "okta",
+    "fact_type": "founding",
+    "format": "quiz",
+    "question": "When was Okta founded?",
+    "answer": "2009",
+    "options": [
+      "2004",
+      "2007",
+      "2012"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Okta_(company)",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "okta",
+    "fact_type": "founding",
+    "format": "flashcard",
+    "question": "Who founded Okta?",
+    "answer": "Todd McKinnon and Frederic Kerrest",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Okta_(company)",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "okta",
+    "fact_type": "founding",
+    "format": "factoid",
+    "question": null,
+    "answer": "Okta was founded in 2009 by Todd McKinnon and Frederic Kerrest.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Okta_(company)",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "okta",
+    "fact_type": "hq",
+    "format": "quiz",
+    "question": "Where is Okta's headquarters located?",
+    "answer": "San Francisco, California",
+    "options": [
+      "New York, New York",
+      "Seattle, Washington",
+      "Austin, Texas"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Okta_(company)",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "okta",
+    "fact_type": "hq",
+    "format": "flashcard",
+    "question": "What city is Okta headquartered in?",
+    "answer": "San Francisco, California",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Okta_(company)",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "okta",
+    "fact_type": "exec",
+    "format": "quiz",
+    "question": "Who is the current CEO of Okta?",
+    "answer": "Todd McKinnon",
+    "options": [
+      "Marc Benioff",
+      "Matthew Prince",
+      "Jeff Lawson"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Okta_(company)",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "okta",
+    "fact_type": "exec",
+    "format": "flashcard",
+    "question": "Who leads Okta as CEO?",
+    "answer": "Todd McKinnon",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Okta_(company)",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "okta",
+    "fact_type": "mission",
+    "format": "factoid",
+    "question": null,
+    "answer": "Okta's mission is \"To free everyone to safely use any technology\".",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Okta_(company)",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "okta",
+    "fact_type": "mission",
+    "format": "flashcard",
+    "question": "What is Okta's mission statement?",
+    "answer": "To free everyone to safely use any technology",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Okta_(company)",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "okta",
+    "fact_type": "product",
+    "format": "quiz",
+    "question": "Which of these is a Okta product or service?",
+    "answer": "Okta Identity Cloud",
+    "options": [
+      "Microsoft Dynamics",
+      "SAP SuccessFactors",
+      "Oracle Cloud"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Okta_(company)",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "okta",
+    "fact_type": "product",
+    "format": "factoid",
+    "question": null,
+    "answer": "Key Okta products and services include Okta Identity Cloud, Okta Workforce Identity, Okta Customer Identity, Auth0.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Okta_(company)",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "okta",
+    "fact_type": "acquisition",
+    "format": "quiz",
+    "question": "Which company did Okta acquire in 2021?",
+    "answer": "Auth0",
+    "options": [
+      "Slack",
+      "Trello",
+      "GitHub"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Okta_(company)",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "okta",
+    "fact_type": "acquisition",
+    "format": "factoid",
+    "question": null,
+    "answer": "Okta acquired Auth0 in 2021.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Okta_(company)",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "okta",
+    "fact_type": "acquisition",
+    "format": "flashcard",
+    "question": "In what year did Okta acquire Azuqua?",
+    "answer": "2019",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Okta_(company)",
+    "source_date": "2026-01-19"
+  }
+]

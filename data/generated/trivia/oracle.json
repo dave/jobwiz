@@ -1,0 +1,162 @@
+[
+  {
+    "company_slug": "oracle",
+    "fact_type": "founding",
+    "format": "quiz",
+    "question": "When was Oracle founded?",
+    "answer": "1977",
+    "options": [
+      "1969",
+      "1973",
+      "1982"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Oracle_Corporation",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "oracle",
+    "fact_type": "founding",
+    "format": "flashcard",
+    "question": "Who founded Oracle?",
+    "answer": "Larry Ellison and Bob Miner and others",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Oracle_Corporation",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "oracle",
+    "fact_type": "founding",
+    "format": "factoid",
+    "question": null,
+    "answer": "Oracle was founded in 1977 by Larry Ellison and Bob Miner and others.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Oracle_Corporation",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "oracle",
+    "fact_type": "hq",
+    "format": "quiz",
+    "question": "Where is Oracle's headquarters located?",
+    "answer": "Austin, Texas",
+    "options": [
+      "San Francisco, California",
+      "New York, New York",
+      "Seattle, Washington"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Oracle_Corporation",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "oracle",
+    "fact_type": "hq",
+    "format": "flashcard",
+    "question": "What city is Oracle headquartered in?",
+    "answer": "Austin, Texas",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Oracle_Corporation",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "oracle",
+    "fact_type": "exec",
+    "format": "quiz",
+    "question": "Who is the current CEO of Oracle?",
+    "answer": "Safra Catz",
+    "options": [
+      "Marc Benioff",
+      "Bill McDermott",
+      "Satya Nadella"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Oracle_Corporation",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "oracle",
+    "fact_type": "exec",
+    "format": "flashcard",
+    "question": "Who leads Oracle as CEO?",
+    "answer": "Safra Catz",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Oracle_Corporation",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "oracle",
+    "fact_type": "mission",
+    "format": "factoid",
+    "question": null,
+    "answer": "Oracle's mission is \"To help people see data in new ways, discover insights, and unlock endless possibilities\".",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Oracle_Corporation",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "oracle",
+    "fact_type": "mission",
+    "format": "flashcard",
+    "question": "What is Oracle's mission statement?",
+    "answer": "To help people see data in new ways, discover insights, and unlock endless possibilities",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Oracle_Corporation",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "oracle",
+    "fact_type": "product",
+    "format": "quiz",
+    "question": "Which of these is a Oracle product or service?",
+    "answer": "Oracle Database",
+    "options": [
+      "Microsoft Dynamics",
+      "SAP SuccessFactors",
+      "Oracle Cloud"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Oracle_Corporation",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "oracle",
+    "fact_type": "product",
+    "format": "factoid",
+    "question": null,
+    "answer": "Key Oracle products and services include Oracle Database, Oracle Cloud, Java, MySQL, NetSuite.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Oracle_Corporation",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "oracle",
+    "fact_type": "acquisition",
+    "format": "quiz",
+    "question": "Which company did Oracle acquire in 2022?",
+    "answer": "Cerner",
+    "options": [
+      "Slack",
+      "Trello",
+      "GitHub"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Oracle_Corporation",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "oracle",
+    "fact_type": "acquisition",
+    "format": "factoid",
+    "question": null,
+    "answer": "Oracle acquired Cerner in 2022.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Oracle_Corporation",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "oracle",
+    "fact_type": "acquisition",
+    "format": "flashcard",
+    "question": "In what year did Oracle acquire NetSuite?",
+    "answer": "2016",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Oracle_Corporation",
+    "source_date": "2026-01-19"
+  }
+]

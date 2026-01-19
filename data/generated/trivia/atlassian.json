@@ -1,0 +1,162 @@
+[
+  {
+    "company_slug": "atlassian",
+    "fact_type": "founding",
+    "format": "quiz",
+    "question": "When was Atlassian founded?",
+    "answer": "2002",
+    "options": [
+      "1997",
+      "2000",
+      "2005"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Atlassian",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "atlassian",
+    "fact_type": "founding",
+    "format": "flashcard",
+    "question": "Who founded Atlassian?",
+    "answer": "Mike Cannon-Brookes and Scott Farquhar",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Atlassian",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "atlassian",
+    "fact_type": "founding",
+    "format": "factoid",
+    "question": null,
+    "answer": "Atlassian was founded in 2002 by Mike Cannon-Brookes and Scott Farquhar.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Atlassian",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "atlassian",
+    "fact_type": "hq",
+    "format": "quiz",
+    "question": "Where is Atlassian's headquarters located?",
+    "answer": "Sydney, Australia",
+    "options": [
+      "San Francisco, California",
+      "New York, New York",
+      "Seattle, Washington"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Atlassian",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "atlassian",
+    "fact_type": "hq",
+    "format": "flashcard",
+    "question": "What city is Atlassian headquartered in?",
+    "answer": "Sydney, Australia",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Atlassian",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "atlassian",
+    "fact_type": "exec",
+    "format": "quiz",
+    "question": "Who is the current CEO of Atlassian?",
+    "answer": "Mike Cannon-Brookes and Scott Farquhar (co-CEOs)",
+    "options": [
+      "Marc Benioff",
+      "Stewart Butterfield",
+      "Jeff Lawson"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Atlassian",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "atlassian",
+    "fact_type": "exec",
+    "format": "flashcard",
+    "question": "Who leads Atlassian as CEO?",
+    "answer": "Mike Cannon-Brookes and Scott Farquhar (co-CEOs)",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Atlassian",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "atlassian",
+    "fact_type": "mission",
+    "format": "factoid",
+    "question": null,
+    "answer": "Atlassian's mission is \"To unleash the potential of every team\".",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Atlassian",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "atlassian",
+    "fact_type": "mission",
+    "format": "flashcard",
+    "question": "What is Atlassian's mission statement?",
+    "answer": "To unleash the potential of every team",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Atlassian",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "atlassian",
+    "fact_type": "product",
+    "format": "quiz",
+    "question": "Which of these is a Atlassian product or service?",
+    "answer": "Jira",
+    "options": [
+      "Microsoft Dynamics",
+      "SAP SuccessFactors",
+      "Oracle Cloud"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Atlassian",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "atlassian",
+    "fact_type": "product",
+    "format": "factoid",
+    "question": null,
+    "answer": "Key Atlassian products and services include Jira, Confluence, Trello, Bitbucket, Jira Service Management.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Atlassian",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "atlassian",
+    "fact_type": "acquisition",
+    "format": "quiz",
+    "question": "Which company did Atlassian acquire in 2017?",
+    "answer": "Trello",
+    "options": [
+      "Slack",
+      "GitHub",
+      "LinkedIn"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Atlassian",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "atlassian",
+    "fact_type": "acquisition",
+    "format": "factoid",
+    "question": null,
+    "answer": "Atlassian acquired Trello in 2017.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Atlassian",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "atlassian",
+    "fact_type": "acquisition",
+    "format": "flashcard",
+    "question": "In what year did Atlassian acquire Opsgenie?",
+    "answer": "2018",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Atlassian",
+    "source_date": "2026-01-19"
+  }
+]
