@@ -586,3 +586,31 @@ All 22 role modules have correct grammar:
 - ✅ All grammar issues fixed (1 issue found and fixed)
 - ✅ JSON valid after edits
 
+### 2026-01-19 - Issue #264: Grammar review - Company modules: Consulting
+
+**Status:** Complete
+
+**Modules Reviewed (10 total):**
+- mckinsey, bcg, bain, deloitte, accenture, pwc, ey, kpmg, capgemini, booz-allen
+
+**Issues Found and Fixed:**
+
+1. **company-bain.json - Interview Process section:**
+   - Had "1 rounds typical" which is grammatically incorrect
+   - Fixed: Changed to "1 round typical" (singular)
+
+**Files Modified:**
+- `data/generated/modules/company-bain.json` - Fixed "rounds" to "round"
+
+**Verification:**
+- All JSON files valid (python3 -m json.tool validation passes)
+- `npm run lint` - passes (warnings only for unrelated image issues)
+- `npm run type-check` - passes
+- `npm run build` - successful
+- `npm test -- --testPathPattern="modules"` - 77 tests pass
+
+**Acceptance Criteria:**
+- ✅ All 10 Consulting company modules reviewed
+- ✅ All grammar issues fixed (1 issue found and fixed)
+- ✅ JSON valid after edits
+
