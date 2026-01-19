@@ -58,7 +58,7 @@ Fix content quality issues identified during manual review of interview prep mod
 - [x] #268 - Company modules: Media/Entertainment
 - [x] #269 - Company modules: Other companies
 - [x] #270 - Company-role modules: Big Tech
-- [ ] #271 - Company-role modules: High-growth startups
+- [x] #271 - Company-role modules: High-growth startups
 - [ ] #272 - Company-role modules: Finance
 - [ ] #273 - Company-role modules: Consulting
 - [ ] #274 - Company-role modules: E-commerce/Retail
@@ -860,5 +860,52 @@ None. Unlike the company modules which had garbled scraped content in some "Comm
 
 **Acceptance Criteria:**
 - ✅ All 134 company-role modules in batch reviewed
+- ✅ All grammar issues fixed (none found - content is clean)
+
+### 2026-01-19 - Issue #271: Grammar review - Company-role modules: High-growth startups
+
+**Status:** Complete
+
+**Modules Reviewed (118 total):**
+Reviewed all company-role modules for High-growth startups companies:
+- Airbnb (10 modules): backend-engineer, data-engineer, data-scientist, engineering-manager, frontend-engineer, mobile-engineer, product-designer, product-manager, software-engineer, ux-researcher
+- Coinbase (8 modules): backend-engineer, data-scientist, devops-engineer, engineering-manager, product-designer, product-manager, security-engineer, software-engineer
+- Databricks (9 modules): backend-engineer, data-engineer, data-scientist, devops-engineer, engineering-manager, machine-learning-engineer, product-manager, software-engineer, solutions-architect
+- DoorDash (9 modules): backend-engineer, data-engineer, data-scientist, engineering-manager, machine-learning-engineer, mobile-engineer, product-designer, product-manager, software-engineer
+- Figma (7 modules): backend-engineer, engineering-manager, frontend-engineer, product-designer, product-manager, software-engineer, ux-researcher
+- Instacart (8 modules): backend-engineer, data-engineer, data-scientist, engineering-manager, mobile-engineer, product-designer, product-manager, software-engineer
+- Lyft (9 modules): backend-engineer, data-engineer, data-scientist, engineering-manager, machine-learning-engineer, mobile-engineer, product-designer, product-manager, software-engineer
+- Notion (7 modules): backend-engineer, engineering-manager, frontend-engineer, product-designer, product-manager, software-engineer, ux-researcher
+- Plaid (7 modules): backend-engineer, data-scientist, devops-engineer, engineering-manager, product-manager, security-engineer, software-engineer
+- Robinhood (8 modules): backend-engineer, data-scientist, engineering-manager, mobile-engineer, product-designer, product-manager, security-engineer, software-engineer
+- Snowflake (9 modules): backend-engineer, data-engineer, data-scientist, devops-engineer, engineering-manager, product-manager, sales-engineer, software-engineer, solutions-architect
+- Stripe (10 modules): backend-engineer, data-engineer, data-scientist, devops-engineer, engineering-manager, frontend-engineer, product-designer, product-manager, security-engineer, software-engineer
+- Uber (10 modules): backend-engineer, data-engineer, data-scientist, devops-engineer, engineering-manager, machine-learning-engineer, mobile-engineer, product-designer, product-manager, software-engineer
+- Vercel (7 modules): backend-engineer, devops-engineer, engineering-manager, frontend-engineer, product-designer, product-manager, software-engineer
+
+**Approach:**
+1. Created automated grammar check script to detect:
+   - Garbled/scraped content patterns (multiple ???, informal questions, irrelevant content)
+   - Grammar errors ("1 rounds" instead of "1 round")
+   - Invalid timelines (0 weeks, >11 weeks)
+   - Incomplete sentence fragments
+   - Cut-off text mid-word
+2. Ran automated check on all 118 files
+3. Manually spot-checked sample files (Stripe SWE, Uber PM, Airbnb DS, Coinbase Security, Plaid Backend)
+
+**Issues Found:**
+None. Unlike the company modules which had garbled scraped content in some "Common Interview Questions" and "Insider Tips" sections, the company-role modules are generated with clean, professional content. All text blocks, quizzes, and explanations are well-formed.
+
+**Note:** The explanations intentionally end with "..." - this is by design to truncate long explanations, not a grammar error.
+
+**Verification:**
+- All JSON files valid
+- `npm run lint` - passes (warnings only for unrelated image issues)
+- `npm run type-check` - passes
+- `npm run build` - successful
+- `npm test -- --testPathPattern="modules"` - 77 tests pass
+
+**Acceptance Criteria:**
+- ✅ All 118 company-role modules in batch reviewed
 - ✅ All grammar issues fixed (none found - content is clean)
 
