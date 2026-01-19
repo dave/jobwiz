@@ -42,7 +42,7 @@ Fix content quality issues identified during manual review of interview prep mod
 ### Missing Introductions (#244)
 - [x] #245 - Add STAR section intro
 - [x] #246 - Add Research section intro
-- [ ] #247 - Audit role modules
+- [x] #247 - Audit role modules
 - [ ] #248 - Add intros to role modules
 
 ### Grammar Fixes (#249)
@@ -295,4 +295,60 @@ Detection logic tests (12 tests in `src/components/carousel/items/__tests__/Quiz
 - ✅ Explains why research matters
 - ✅ Lists specific benefits
 - ✅ JSON valid after edit
+
+### 2026-01-19 - Issue #247: Audit role modules for missing introductions
+
+**Completed:**
+- Audited all 22 role modules for sections lacking proper introductions
+- Modules reviewed:
+  - role-account-executive.json
+  - role-backend-engineer.json
+  - role-business-analyst.json
+  - role-data-engineer.json
+  - role-data-scientist.json
+  - role-devops-engineer.json
+  - role-engineering-manager.json
+  - role-financial-analyst.json
+  - role-frontend-engineer.json
+  - role-machine-learning-engineer.json
+  - role-management-consultant.json
+  - role-marketing-manager.json
+  - role-mobile-engineer.json
+  - role-product-designer.json
+  - role-product-manager.json
+  - role-qa-engineer.json
+  - role-sales-engineer.json
+  - role-security-engineer.json
+  - role-software-engineer.json
+  - role-solutions-architect.json
+  - role-technical-program-manager.json
+  - role-ux-researcher.json
+
+**Findings:**
+All 22 role modules share identical structure. Sections needing intros:
+
+1. **Key Competencies** (HIGH priority)
+   - Currently starts with bare checklist
+   - Missing: Explanation of what these competencies are and why they matter
+
+2. **Preparation Checklist** (MEDIUM priority)
+   - Currently starts with bare checklist
+   - Missing: Context for how/when to use the checklist
+
+**Sections with adequate introductions:**
+- ✅ Role Overview - Good intro text
+- ✅ Common Interview Format - Good intro text
+- ✅ How to Structure Your Answers - Has header + intro text
+- ✅ Mistakes to Avoid - Has header + intro text
+
+**Priority Ranking:**
+1. Key Competencies (HIGH) - Users see early; need context
+2. Preparation Checklist (MEDIUM) - At end; less critical
+
+**Total Fixes Needed:** 44 intro blocks (2 sections × 22 modules)
+
+**Acceptance Criteria:**
+- ✅ All 22 role modules reviewed
+- ✅ List of sections needing intros documented
+- ✅ Priority ranking for fixes created
 
