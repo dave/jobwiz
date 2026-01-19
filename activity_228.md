@@ -41,7 +41,7 @@ Fix content quality issues identified during manual review of interview prep mod
 
 ### Missing Introductions (#244)
 - [x] #245 - Add STAR section intro
-- [ ] #246 - Add Research section intro
+- [x] #246 - Add Research section intro
 - [ ] #247 - Audit role modules
 - [ ] #248 - Add intros to role modules
 
@@ -266,5 +266,33 @@ Detection logic tests (12 tests in `src/components/carousel/items/__tests__/Quiz
 - ✅ Explains what behavioral questions are
 - ✅ Gives example phrases
 - ✅ Explains why interviewers use them
+- ✅ JSON valid after edit
+
+### 2026-01-19 - Issue #246: Add company research intro before research section
+
+**Completed:**
+- Added intro text block before the Research section in `data/generated/modules/universal-fundamentals.json`
+- Intro explains why company research matters
+- Lists specific benefits:
+  - Ask informed questions that show genuine interest
+  - Tailor your answers to what the company values
+  - Spot red flags before accepting an offer
+  - Stand out from candidates who only read the 'About Us' page
+- Preserves existing research content as a follow-up paragraph
+
+**Files Modified:**
+- `data/generated/modules/universal-fundamentals.json` - Added intro block before research content
+
+**Verification:**
+- JSON is valid (python3 -m json.tool validation passes)
+- `npm run lint` - passes (warnings only)
+- `npm run type-check` - passes
+- `npm run build` - successful
+- `npm test -- --testPathPattern="modules"` - 77 tests pass
+
+**Acceptance Criteria:**
+- ✅ Intro block added before research content
+- ✅ Explains why research matters
+- ✅ Lists specific benefits
 - ✅ JSON valid after edit
 
