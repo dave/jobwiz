@@ -1,0 +1,162 @@
+[
+  {
+    "company_slug": "bcg",
+    "fact_type": "founding",
+    "format": "quiz",
+    "question": "When was Boston Consulting Group founded?",
+    "answer": "1963",
+    "options": [
+      "1958",
+      "1961",
+      "1966"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Boston_Consulting_Group",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "bcg",
+    "fact_type": "founding",
+    "format": "flashcard",
+    "question": "Who founded Boston Consulting Group?",
+    "answer": "Bruce Henderson",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Boston_Consulting_Group",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "bcg",
+    "fact_type": "founding",
+    "format": "factoid",
+    "question": null,
+    "answer": "Boston Consulting Group was founded in 1963 by Bruce Henderson.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Boston_Consulting_Group",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "bcg",
+    "fact_type": "hq",
+    "format": "quiz",
+    "question": "Where is Boston Consulting Group's headquarters located?",
+    "answer": "Boston, Massachusetts",
+    "options": [
+      "New York, New York",
+      "London, United Kingdom",
+      "Paris, France"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Boston_Consulting_Group",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "bcg",
+    "fact_type": "hq",
+    "format": "flashcard",
+    "question": "What city is Boston Consulting Group headquartered in?",
+    "answer": "Boston, Massachusetts",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Boston_Consulting_Group",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "bcg",
+    "fact_type": "exec",
+    "format": "quiz",
+    "question": "Who is the current CEO of Boston Consulting Group?",
+    "answer": "Christoph Schweizer",
+    "options": [
+      "Bob Sternfels",
+      "Manny Maceda",
+      "Julie Sweet"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Boston_Consulting_Group",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "bcg",
+    "fact_type": "exec",
+    "format": "flashcard",
+    "question": "Who leads Boston Consulting Group as CEO?",
+    "answer": "Christoph Schweizer",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Boston_Consulting_Group",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "bcg",
+    "fact_type": "mission",
+    "format": "factoid",
+    "question": null,
+    "answer": "Boston Consulting Group's mission is \"To unlock the potential of those who advance the world\".",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Boston_Consulting_Group",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "bcg",
+    "fact_type": "mission",
+    "format": "flashcard",
+    "question": "What is Boston Consulting Group's mission statement?",
+    "answer": "To unlock the potential of those who advance the world",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Boston_Consulting_Group",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "bcg",
+    "fact_type": "product",
+    "format": "quiz",
+    "question": "Which of these is a Boston Consulting Group practice area?",
+    "answer": "Strategy Consulting",
+    "options": [
+      "Digital Transformation",
+      "Operations Consulting",
+      "Technology Services"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Boston_Consulting_Group",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "bcg",
+    "fact_type": "product",
+    "format": "factoid",
+    "question": null,
+    "answer": "Key Boston Consulting Group practice areas include Strategy Consulting, Digital BCG, BCG X, BCG Gamma, Operations Consulting.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Boston_Consulting_Group",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "bcg",
+    "fact_type": "acquisition",
+    "format": "quiz",
+    "question": "Which company did Boston Consulting Group acquire in 2018?",
+    "answer": "Expand Research",
+    "options": [
+      "Quantum Black",
+      "Iguazio",
+      "Monitor Group"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Boston_Consulting_Group",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "bcg",
+    "fact_type": "acquisition",
+    "format": "factoid",
+    "question": null,
+    "answer": "Boston Consulting Group acquired Expand Research in 2018.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Boston_Consulting_Group",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "bcg",
+    "fact_type": "acquisition",
+    "format": "flashcard",
+    "question": "In what year did Boston Consulting Group acquire Inverto?",
+    "answer": "2016",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Boston_Consulting_Group",
+    "source_date": "2026-01-19"
+  }
+]

@@ -1,0 +1,162 @@
+[
+  {
+    "company_slug": "accenture",
+    "fact_type": "founding",
+    "format": "quiz",
+    "question": "When was Accenture founded?",
+    "answer": "1989",
+    "options": [
+      "1984",
+      "1987",
+      "1992"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Accenture",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "accenture",
+    "fact_type": "founding",
+    "format": "flashcard",
+    "question": "Who founded Accenture?",
+    "answer": "Arthur Andersen (spun off)",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Accenture",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "accenture",
+    "fact_type": "founding",
+    "format": "factoid",
+    "question": null,
+    "answer": "Accenture was founded in 1989 by Arthur Andersen (spun off).",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Accenture",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "accenture",
+    "fact_type": "hq",
+    "format": "quiz",
+    "question": "Where is Accenture's headquarters located?",
+    "answer": "Dublin, Ireland",
+    "options": [
+      "New York, New York",
+      "Boston, Massachusetts",
+      "London, United Kingdom"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Accenture",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "accenture",
+    "fact_type": "hq",
+    "format": "flashcard",
+    "question": "What city is Accenture headquartered in?",
+    "answer": "Dublin, Ireland",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Accenture",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "accenture",
+    "fact_type": "exec",
+    "format": "quiz",
+    "question": "Who is the current CEO of Accenture?",
+    "answer": "Julie Sweet",
+    "options": [
+      "Bob Sternfels",
+      "Christoph Schweizer",
+      "Joe Ucuzoglu"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Accenture",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "accenture",
+    "fact_type": "exec",
+    "format": "flashcard",
+    "question": "Who leads Accenture as CEO?",
+    "answer": "Julie Sweet",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Accenture",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "accenture",
+    "fact_type": "mission",
+    "format": "factoid",
+    "question": null,
+    "answer": "Accenture's mission is \"To deliver on the promise of technology and human ingenuity\".",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Accenture",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "accenture",
+    "fact_type": "mission",
+    "format": "flashcard",
+    "question": "What is Accenture's mission statement?",
+    "answer": "To deliver on the promise of technology and human ingenuity",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Accenture",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "accenture",
+    "fact_type": "product",
+    "format": "quiz",
+    "question": "Which of these is a Accenture practice area?",
+    "answer": "Strategy Consulting",
+    "options": [
+      "Digital Transformation",
+      "Operations Consulting",
+      "Technology Services"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Accenture",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "accenture",
+    "fact_type": "product",
+    "format": "factoid",
+    "question": null,
+    "answer": "Key Accenture practice areas include Strategy Consulting, Technology Services, Operations, Accenture Song, Accenture Industry X.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Accenture",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "accenture",
+    "fact_type": "acquisition",
+    "format": "quiz",
+    "question": "Which company did Accenture acquire in 2019?",
+    "answer": "Droga5",
+    "options": [
+      "Quantum Black",
+      "Iguazio",
+      "Monitor Group"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Accenture",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "accenture",
+    "fact_type": "acquisition",
+    "format": "factoid",
+    "question": null,
+    "answer": "Accenture acquired Droga5 in 2019.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Accenture",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "accenture",
+    "fact_type": "acquisition",
+    "format": "flashcard",
+    "question": "In what year did Accenture acquire Mackevision?",
+    "answer": "2018",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Accenture",
+    "source_date": "2026-01-19"
+  }
+]

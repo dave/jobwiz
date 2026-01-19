@@ -1,0 +1,162 @@
+[
+  {
+    "company_slug": "bain",
+    "fact_type": "founding",
+    "format": "quiz",
+    "question": "When was Bain & Company founded?",
+    "answer": "1973",
+    "options": [
+      "1968",
+      "1971",
+      "1976"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Bain_%26_Company",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "bain",
+    "fact_type": "founding",
+    "format": "flashcard",
+    "question": "Who founded Bain & Company?",
+    "answer": "Bill Bain",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Bain_%26_Company",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "bain",
+    "fact_type": "founding",
+    "format": "factoid",
+    "question": null,
+    "answer": "Bain & Company was founded in 1973 by Bill Bain.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Bain_%26_Company",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "bain",
+    "fact_type": "hq",
+    "format": "quiz",
+    "question": "Where is Bain & Company's headquarters located?",
+    "answer": "Boston, Massachusetts",
+    "options": [
+      "New York, New York",
+      "London, United Kingdom",
+      "Paris, France"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Bain_%26_Company",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "bain",
+    "fact_type": "hq",
+    "format": "flashcard",
+    "question": "What city is Bain & Company headquartered in?",
+    "answer": "Boston, Massachusetts",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Bain_%26_Company",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "bain",
+    "fact_type": "exec",
+    "format": "quiz",
+    "question": "Who is the current CEO of Bain & Company?",
+    "answer": "Manny Maceda",
+    "options": [
+      "Bob Sternfels",
+      "Christoph Schweizer",
+      "Julie Sweet"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Bain_%26_Company",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "bain",
+    "fact_type": "exec",
+    "format": "flashcard",
+    "question": "Who leads Bain & Company as CEO?",
+    "answer": "Manny Maceda",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Bain_%26_Company",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "bain",
+    "fact_type": "mission",
+    "format": "factoid",
+    "question": null,
+    "answer": "Bain & Company's mission is \"We help ambitious organizations become better versions of themselves\".",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Bain_%26_Company",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "bain",
+    "fact_type": "mission",
+    "format": "flashcard",
+    "question": "What is Bain & Company's mission statement?",
+    "answer": "We help ambitious organizations become better versions of themselves",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Bain_%26_Company",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "bain",
+    "fact_type": "product",
+    "format": "quiz",
+    "question": "Which of these is a Bain & Company practice area?",
+    "answer": "Strategy Consulting",
+    "options": [
+      "Digital Transformation",
+      "Operations Consulting",
+      "Technology Services"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Bain_%26_Company",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "bain",
+    "fact_type": "product",
+    "format": "factoid",
+    "question": null,
+    "answer": "Key Bain & Company practice areas include Strategy Consulting, Performance Improvement, Digital Innovation, Mergers & Acquisitions, Private Equity.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Bain_%26_Company",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "bain",
+    "fact_type": "acquisition",
+    "format": "quiz",
+    "question": "Which company did Bain & Company acquire in 2021?",
+    "answer": "FRWD",
+    "options": [
+      "Quantum Black",
+      "Iguazio",
+      "Monitor Group"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Bain_%26_Company",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "bain",
+    "fact_type": "acquisition",
+    "format": "factoid",
+    "question": null,
+    "answer": "Bain & Company acquired FRWD in 2021.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Bain_%26_Company",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "bain",
+    "fact_type": "acquisition",
+    "format": "flashcard",
+    "question": "In what year did Bain & Company acquire Pangea?",
+    "answer": "2019",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Bain_%26_Company",
+    "source_date": "2026-01-19"
+  }
+]

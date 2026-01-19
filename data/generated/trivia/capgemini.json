@@ -1,0 +1,162 @@
+[
+  {
+    "company_slug": "capgemini",
+    "fact_type": "founding",
+    "format": "quiz",
+    "question": "When was Capgemini founded?",
+    "answer": "1967",
+    "options": [
+      "1962",
+      "1965",
+      "1970"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Capgemini",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "capgemini",
+    "fact_type": "founding",
+    "format": "flashcard",
+    "question": "Who founded Capgemini?",
+    "answer": "Serge Kampf",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Capgemini",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "capgemini",
+    "fact_type": "founding",
+    "format": "factoid",
+    "question": null,
+    "answer": "Capgemini was founded in 1967 by Serge Kampf.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Capgemini",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "capgemini",
+    "fact_type": "hq",
+    "format": "quiz",
+    "question": "Where is Capgemini's headquarters located?",
+    "answer": "Paris, France",
+    "options": [
+      "New York, New York",
+      "Boston, Massachusetts",
+      "London, United Kingdom"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Capgemini",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "capgemini",
+    "fact_type": "hq",
+    "format": "flashcard",
+    "question": "What city is Capgemini headquartered in?",
+    "answer": "Paris, France",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Capgemini",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "capgemini",
+    "fact_type": "exec",
+    "format": "quiz",
+    "question": "Who is the current CEO of Capgemini?",
+    "answer": "Aiman Ezzat",
+    "options": [
+      "Bob Sternfels",
+      "Julie Sweet",
+      "Horacio Rozanski"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Capgemini",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "capgemini",
+    "fact_type": "exec",
+    "format": "flashcard",
+    "question": "Who leads Capgemini as CEO?",
+    "answer": "Aiman Ezzat",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Capgemini",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "capgemini",
+    "fact_type": "mission",
+    "format": "factoid",
+    "question": null,
+    "answer": "Capgemini's mission is \"To unleash human energy through technology for an inclusive and sustainable future\".",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Capgemini",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "capgemini",
+    "fact_type": "mission",
+    "format": "flashcard",
+    "question": "What is Capgemini's mission statement?",
+    "answer": "To unleash human energy through technology for an inclusive and sustainable future",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Capgemini",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "capgemini",
+    "fact_type": "product",
+    "format": "quiz",
+    "question": "Which of these is a Capgemini practice area?",
+    "answer": "Strategy & Transformation",
+    "options": [
+      "Strategy Consulting",
+      "Digital Transformation",
+      "Operations Consulting"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Capgemini",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "capgemini",
+    "fact_type": "product",
+    "format": "factoid",
+    "question": null,
+    "answer": "Key Capgemini practice areas include Strategy & Transformation, Applications & Technology, Operations & Engineering, Capgemini Invent.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Capgemini",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "capgemini",
+    "fact_type": "acquisition",
+    "format": "quiz",
+    "question": "Which company did Capgemini acquire in 2020?",
+    "answer": "Altran",
+    "options": [
+      "Quantum Black",
+      "Iguazio",
+      "Monitor Group"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Capgemini",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "capgemini",
+    "fact_type": "acquisition",
+    "format": "factoid",
+    "question": null,
+    "answer": "Capgemini acquired Altran in 2020.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Capgemini",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "capgemini",
+    "fact_type": "acquisition",
+    "format": "flashcard",
+    "question": "In what year did Capgemini acquire Igate?",
+    "answer": "2015",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Capgemini",
+    "source_date": "2026-01-19"
+  }
+]

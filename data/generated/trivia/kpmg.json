@@ -1,0 +1,162 @@
+[
+  {
+    "company_slug": "kpmg",
+    "fact_type": "founding",
+    "format": "quiz",
+    "question": "When was KPMG founded?",
+    "answer": "1987",
+    "options": [
+      "1982",
+      "1985",
+      "1990"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/KPMG",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "kpmg",
+    "fact_type": "founding",
+    "format": "flashcard",
+    "question": "Who founded KPMG?",
+    "answer": "Peat Marwick and KMG (merged)",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/KPMG",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "kpmg",
+    "fact_type": "founding",
+    "format": "factoid",
+    "question": null,
+    "answer": "KPMG was founded in 1987 by Peat Marwick and KMG (merged).",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/KPMG",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "kpmg",
+    "fact_type": "hq",
+    "format": "quiz",
+    "question": "Where is KPMG's headquarters located?",
+    "answer": "Amstelveen, Netherlands",
+    "options": [
+      "New York, New York",
+      "Boston, Massachusetts",
+      "London, United Kingdom"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/KPMG",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "kpmg",
+    "fact_type": "hq",
+    "format": "flashcard",
+    "question": "What city is KPMG headquartered in?",
+    "answer": "Amstelveen, Netherlands",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/KPMG",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "kpmg",
+    "fact_type": "exec",
+    "format": "quiz",
+    "question": "Who is the current CEO of KPMG?",
+    "answer": "Bill Thomas",
+    "options": [
+      "Bob Sternfels",
+      "Julie Sweet",
+      "Joe Ucuzoglu"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/KPMG",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "kpmg",
+    "fact_type": "exec",
+    "format": "flashcard",
+    "question": "Who leads KPMG as CEO?",
+    "answer": "Bill Thomas",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/KPMG",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "kpmg",
+    "fact_type": "mission",
+    "format": "factoid",
+    "question": null,
+    "answer": "KPMG's mission is \"To inspire confidence and empower change\".",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/KPMG",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "kpmg",
+    "fact_type": "mission",
+    "format": "flashcard",
+    "question": "What is KPMG's mission statement?",
+    "answer": "To inspire confidence and empower change",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/KPMG",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "kpmg",
+    "fact_type": "product",
+    "format": "quiz",
+    "question": "Which of these is a KPMG practice area?",
+    "answer": "Audit",
+    "options": [
+      "Strategy Consulting",
+      "Digital Transformation",
+      "Operations Consulting"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/KPMG",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "kpmg",
+    "fact_type": "product",
+    "format": "factoid",
+    "question": null,
+    "answer": "Key KPMG practice areas include Audit, Tax, Advisory, Deal Advisory, Technology & Innovation.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/KPMG",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "kpmg",
+    "fact_type": "acquisition",
+    "format": "quiz",
+    "question": "Which company did KPMG acquire in 2021?",
+    "answer": "Cynergy Systems",
+    "options": [
+      "Quantum Black",
+      "Iguazio",
+      "Monitor Group"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/KPMG",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "kpmg",
+    "fact_type": "acquisition",
+    "format": "factoid",
+    "question": null,
+    "answer": "KPMG acquired Cynergy Systems in 2021.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/KPMG",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "kpmg",
+    "fact_type": "acquisition",
+    "format": "flashcard",
+    "question": "In what year did KPMG acquire Zinnov?",
+    "answer": "2022",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/KPMG",
+    "source_date": "2026-01-19"
+  }
+]
