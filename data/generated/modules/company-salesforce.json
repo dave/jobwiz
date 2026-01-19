@@ -1,0 +1,185 @@
+{
+  "slug": "company-salesforce",
+  "type": "company",
+  "title": "Salesforce Interview Guide",
+  "description": "Prepare for your Salesforce interview with company-specific insights, culture tips, and interview strategies.",
+  "company_slug": "salesforce",
+  "is_premium": true,
+  "display_order": 0,
+  "sections": [
+    {
+      "id": "culture",
+      "title": "Salesforce Culture",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "Understanding Salesforce's culture is essential for interview success. Companies look for candidates who align with their values and can thrive in their environment."
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Key cultural themes at Salesforce:**\n\n- System design emphasis\n- Heavy focus on coding\n- Behavioral interviews important\n- Culture fit matters\n- Technical deep dive"
+          }
+        },
+        {
+          "type": "tip",
+          "content": {
+            "text": "Enterprise companies value customer success thinking and long-term relationship building. Show how you've driven adoption and retention."
+          }
+        }
+      ]
+    },
+    {
+      "id": "values",
+      "title": "Salesforce Values",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "Salesforce evaluates candidates not just on skills, but on how well they embody the company's core values. Demonstrating alignment with these values can be the difference between a good and great interview."
+          }
+        },
+        {
+          "type": "checklist",
+          "content": {
+            "title": "Values Preparation Checklist",
+            "items": [
+              {
+                "id": "v1",
+                "text": "Research Salesforce's stated mission and values",
+                "required": true
+              },
+              {
+                "id": "v2",
+                "text": "Prepare examples that demonstrate alignment with these values",
+                "required": true
+              },
+              {
+                "id": "v3",
+                "text": "Review recent company blog posts or leadership communications",
+                "required": false
+              },
+              {
+                "id": "v4",
+                "text": "Prepare examples of building long-term relationships",
+                "required": true
+              }
+            ]
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "**Avoid these pitfalls:** Interviewers notice when candidates don't demonstrate genuine alignment with company values. Be authentic in your responses."
+          }
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "title": "Salesforce Interview Process",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "**Salesforce Interview Process Overview**\n\n- **Typical rounds:** 3 rounds typical\n- **Timeline:** 2-4 weeks\n- **Format:** Mix of phone screen, technical, behavioral, on-site, virtual"
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Common Interview Questions:**\n\n- \"How much training can I expect?\"\n- \"the team has made a decision, will you be available monday?\"\n- \"If I had the solution to the subproblem, could I get the solution to the larger problem?\"\n- \"are you done yet? Are you done yet now? What about now?\"\n- \"I submitted 50-100 applications and heard NOTHING! Is the market that bad? Am I terrible? Do I deserve a job?\""
+          }
+        },
+        {
+          "type": "checklist",
+          "content": {
+            "title": "Interview Process Preparation",
+            "items": [
+              {
+                "id": "p1",
+                "text": "Research recent company news and announcements",
+                "required": true
+              },
+              {
+                "id": "p2",
+                "text": "Review the job description thoroughly",
+                "required": true
+              },
+              {
+                "id": "p3",
+                "text": "Prepare questions to ask your interviewer",
+                "required": true
+              },
+              {
+                "id": "p4",
+                "text": "Practice explaining your relevant experience",
+                "required": true
+              },
+              {
+                "id": "p5",
+                "text": "Set up your interview environment (for virtual)",
+                "required": false
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "tips",
+      "title": "Salesforce Interview Tips",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "Success in Salesforce interviews comes from preparation, authenticity, and understanding what interviewers are looking for."
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Insider Tips:**\n\n- that was given, but I love to nitpick :)\n- on how to pass your interview\n- from this sub has made all other interviews so far a breeze\n- for getting an entry-level job these days?\n- your resume is only 1 page if going for entry/Junior roles"
+          }
+        },
+        {
+          "type": "tip",
+          "content": {
+            "text": "Emphasize your understanding of the B2B sales cycle and customer success metrics. Enterprise companies value long-term thinking."
+          }
+        },
+        {
+          "type": "quiz",
+          "content": {
+            "question": "What is the most important factor in Salesforce interviews?",
+            "options": [
+              {
+                "id": "a",
+                "text": "Having perfect technical answers",
+                "isCorrect": false
+              },
+              {
+                "id": "b",
+                "text": "Demonstrating alignment with company values and culture",
+                "isCorrect": true
+              },
+              {
+                "id": "c",
+                "text": "Memorizing common interview questions",
+                "isCorrect": false
+              },
+              {
+                "id": "d",
+                "text": "Having a prestigious background",
+                "isCorrect": false
+              }
+            ],
+            "explanation": "While technical skills matter, Salesforce places significant emphasis on cultural fit and values alignment. Interviewers want to see that you'll thrive in their environment."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "slug": "company-pfizer",
+  "type": "company",
+  "title": "Pfizer Interview Guide",
+  "description": "Prepare for your Pfizer interview with company-specific insights, culture tips, and interview strategies.",
+  "company_slug": "pfizer",
+  "is_premium": true,
+  "display_order": 0,
+  "sections": [
+    {
+      "id": "culture",
+      "title": "Pfizer Culture",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "Understanding Pfizer's culture is essential for interview success. Companies look for candidates who align with their values and can thrive in their environment."
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Key cultural themes at Pfizer:**\n\n- Culture fit matters\n- Multiple interview rounds\n- Panel interviews"
+          }
+        },
+        {
+          "type": "tip",
+          "content": {
+            "text": "Healthcare companies prioritize patient impact and regulatory compliance. Demonstrate your understanding of the sensitive nature of healthcare data and decisions."
+          }
+        }
+      ]
+    },
+    {
+      "id": "values",
+      "title": "Pfizer Values",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "Pfizer evaluates candidates not just on skills, but on how well they embody the company's core values. Demonstrating alignment with these values can be the difference between a good and great interview."
+          }
+        },
+        {
+          "type": "checklist",
+          "content": {
+            "title": "Values Preparation Checklist",
+            "items": [
+              {
+                "id": "v1",
+                "text": "Research Pfizer's stated mission and values",
+                "required": true
+              },
+              {
+                "id": "v2",
+                "text": "Prepare examples that demonstrate alignment with these values",
+                "required": true
+              },
+              {
+                "id": "v3",
+                "text": "Review recent company blog posts or leadership communications",
+                "required": false
+              },
+              {
+                "id": "v4",
+                "text": "Prepare examples showing patient-first thinking",
+                "required": true
+              }
+            ]
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "**Avoid these pitfalls:** Interviewers notice when candidates don't demonstrate genuine alignment with company values. Be authentic in your responses."
+          }
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "title": "Pfizer Interview Process",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "**Pfizer Interview Process Overview**\n\n- **Typical rounds:** 3-5 rounds typical\n- **Timeline:** 2-4 weeks\n- **Format:** Mix of technical"
+          }
+        },
+        {
+          "type": "checklist",
+          "content": {
+            "title": "Interview Process Preparation",
+            "items": [
+              {
+                "id": "p1",
+                "text": "Research recent company news and announcements",
+                "required": true
+              },
+              {
+                "id": "p2",
+                "text": "Review the job description thoroughly",
+                "required": true
+              },
+              {
+                "id": "p3",
+                "text": "Prepare questions to ask your interviewer",
+                "required": true
+              },
+              {
+                "id": "p4",
+                "text": "Practice explaining your relevant experience",
+                "required": true
+              },
+              {
+                "id": "p5",
+                "text": "Set up your interview environment (for virtual)",
+                "required": false
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "tips",
+      "title": "Pfizer Interview Tips",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "Success in Pfizer interviews comes from preparation, authenticity, and understanding what interviewers are looking for."
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Insider Tips:**\n\n- to emphasize the technical skills (PCR, DNA extract, etc\n- you do your research on the recruiter/agency before you commit to anything\n- on how I could break into it? Is an unpaid internship my only option?\n- this type of position is in a lab that translates well to the biotech positions you a looking for\n- never been able to secure an interview"
+          }
+        },
+        {
+          "type": "tip",
+          "content": {
+            "text": "Understand the regulatory landscape and patient privacy requirements. Show that you can innovate responsibly within constraints."
+          }
+        },
+        {
+          "type": "quiz",
+          "content": {
+            "question": "What is the most important factor in Pfizer interviews?",
+            "options": [
+              {
+                "id": "a",
+                "text": "Having perfect technical answers",
+                "isCorrect": false
+              },
+              {
+                "id": "b",
+                "text": "Demonstrating alignment with company values and culture",
+                "isCorrect": true
+              },
+              {
+                "id": "c",
+                "text": "Memorizing common interview questions",
+                "isCorrect": false
+              },
+              {
+                "id": "d",
+                "text": "Having a prestigious background",
+                "isCorrect": false
+              }
+            ],
+            "explanation": "While technical skills matter, Pfizer places significant emphasis on cultural fit and values alignment. Interviewers want to see that you'll thrive in their environment."
+          }
+        }
+      ]
+    }
+  ]
+}

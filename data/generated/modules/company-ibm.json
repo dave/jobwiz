@@ -1,0 +1,185 @@
+{
+  "slug": "company-ibm",
+  "type": "company",
+  "title": "IBM Interview Guide",
+  "description": "Prepare for your IBM interview with company-specific insights, culture tips, and interview strategies.",
+  "company_slug": "ibm",
+  "is_premium": true,
+  "display_order": 0,
+  "sections": [
+    {
+      "id": "culture",
+      "title": "IBM Culture",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "Understanding IBM's culture is essential for interview success. Companies look for candidates who align with their values and can thrive in their environment."
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Key cultural themes at IBM:**\n\n- System design emphasis\n- Heavy focus on coding\n- Behavioral interviews important\n- Culture fit matters\n- Technical deep dive"
+          }
+        },
+        {
+          "type": "tip",
+          "content": {
+            "text": "Enterprise companies value customer success thinking and long-term relationship building. Show how you've driven adoption and retention."
+          }
+        }
+      ]
+    },
+    {
+      "id": "values",
+      "title": "IBM Values",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "IBM evaluates candidates not just on skills, but on how well they embody the company's core values. Demonstrating alignment with these values can be the difference between a good and great interview."
+          }
+        },
+        {
+          "type": "checklist",
+          "content": {
+            "title": "Values Preparation Checklist",
+            "items": [
+              {
+                "id": "v1",
+                "text": "Research IBM's stated mission and values",
+                "required": true
+              },
+              {
+                "id": "v2",
+                "text": "Prepare examples that demonstrate alignment with these values",
+                "required": true
+              },
+              {
+                "id": "v3",
+                "text": "Review recent company blog posts or leadership communications",
+                "required": false
+              },
+              {
+                "id": "v4",
+                "text": "Prepare examples of building long-term relationships",
+                "required": true
+              }
+            ]
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "**Avoid these pitfalls:** Interviewers notice when candidates don't demonstrate genuine alignment with company values. Be authentic in your responses."
+          }
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "title": "IBM Interview Process",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "**IBM Interview Process Overview**\n\n- **Typical rounds:** 5 rounds typical\n- **Timeline:** 2-4 weeks\n- **Format:** Mix of phone screen, technical, behavioral, on-site, virtual"
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Common Interview Questions:**\n\n- \"Is there a reason you're just staring at me and not responding? Is this a learned behavior?\"\n- \"something like do you still think your approach is good?\"\n- \"for this recorded video interview?\"\n- \"explain their qualifications/experience slightly better?\"\n- \"walk me through your successful interview processes?\""
+          }
+        },
+        {
+          "type": "checklist",
+          "content": {
+            "title": "Interview Process Preparation",
+            "items": [
+              {
+                "id": "p1",
+                "text": "Research recent company news and announcements",
+                "required": true
+              },
+              {
+                "id": "p2",
+                "text": "Review the job description thoroughly",
+                "required": true
+              },
+              {
+                "id": "p3",
+                "text": "Prepare questions to ask your interviewer",
+                "required": true
+              },
+              {
+                "id": "p4",
+                "text": "Practice explaining your relevant experience",
+                "required": true
+              },
+              {
+                "id": "p5",
+                "text": "Set up your interview environment (for virtual)",
+                "required": false
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "tips",
+      "title": "IBM Interview Tips",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "Success in IBM interviews comes from preparation, authenticity, and understanding what interviewers are looking for."
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Insider Tips:**\n\n- to me that, based on this limited data, the job market is more or less working properly and meritocratically\n- on the IBM Extreme Blue Interview Process\n- 1) When I get time I need to expand our self-study roadmap, but it's pretty solid as-is\n- your tale of woe is short possibly slightly humorous &amp; sweet &amp; keep them focused on YOU &amp; how perfect you are for the job\n- to Open uni students and admin tasks writing course confirmation letters"
+          }
+        },
+        {
+          "type": "tip",
+          "content": {
+            "text": "Emphasize your understanding of the B2B sales cycle and customer success metrics. Enterprise companies value long-term thinking."
+          }
+        },
+        {
+          "type": "quiz",
+          "content": {
+            "question": "What is the most important factor in IBM interviews?",
+            "options": [
+              {
+                "id": "a",
+                "text": "Having perfect technical answers",
+                "isCorrect": false
+              },
+              {
+                "id": "b",
+                "text": "Demonstrating alignment with company values and culture",
+                "isCorrect": true
+              },
+              {
+                "id": "c",
+                "text": "Memorizing common interview questions",
+                "isCorrect": false
+              },
+              {
+                "id": "d",
+                "text": "Having a prestigious background",
+                "isCorrect": false
+              }
+            ],
+            "explanation": "While technical skills matter, IBM places significant emphasis on cultural fit and values alignment. Interviewers want to see that you'll thrive in their environment."
+          }
+        }
+      ]
+    }
+  ]
+}

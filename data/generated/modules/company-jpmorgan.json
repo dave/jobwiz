@@ -1,0 +1,185 @@
+{
+  "slug": "company-jpmorgan",
+  "type": "company",
+  "title": "JPMorgan Chase Interview Guide",
+  "description": "Prepare for your JPMorgan Chase interview with company-specific insights, culture tips, and interview strategies.",
+  "company_slug": "jpmorgan",
+  "is_premium": true,
+  "display_order": 0,
+  "sections": [
+    {
+      "id": "culture",
+      "title": "JPMorgan Chase Culture",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "Understanding JPMorgan Chase's culture is essential for interview success. Companies look for candidates who align with their values and can thrive in their environment."
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Key cultural themes at JPMorgan Chase:**\n\n- Heavy focus on coding\n- Behavioral interviews important\n- Culture fit matters\n- Case study format\n- Multiple interview rounds"
+          }
+        },
+        {
+          "type": "tip",
+          "content": {
+            "text": "Financial institutions value attention to detail, risk awareness, and regulatory understanding. Demonstrate your analytical rigor and ethical judgment."
+          }
+        }
+      ]
+    },
+    {
+      "id": "values",
+      "title": "JPMorgan Chase Values",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "JPMorgan Chase evaluates candidates not just on skills, but on how well they embody the company's core values. Demonstrating alignment with these values can be the difference between a good and great interview."
+          }
+        },
+        {
+          "type": "checklist",
+          "content": {
+            "title": "Values Preparation Checklist",
+            "items": [
+              {
+                "id": "v1",
+                "text": "Research JPMorgan Chase's stated mission and values",
+                "required": true
+              },
+              {
+                "id": "v2",
+                "text": "Prepare examples that demonstrate alignment with these values",
+                "required": true
+              },
+              {
+                "id": "v3",
+                "text": "Review recent company blog posts or leadership communications",
+                "required": false
+              },
+              {
+                "id": "v4",
+                "text": "Prepare examples demonstrating attention to detail and risk awareness",
+                "required": true
+              }
+            ]
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "**Avoid these pitfalls:** Interviewers notice when candidates don't demonstrate genuine alignment with company values. Be authentic in your responses."
+          }
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "title": "JPMorgan Chase Interview Process",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "**JPMorgan Chase Interview Process Overview**\n\n- **Typical rounds:** 4 rounds typical\n- **Timeline:** 2-4 weeks\n- **Format:** Mix of phone screen, technical, behavioral, on-site, virtual"
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Common Interview Questions:**\n\n- \"what is the name of the method that is called when there is a memory warning?\"\n- \"what three methods are used to perform a change in orientation?\"\n- \"before iOS6, how does one connect to an IBOutlet?\"\n- \"what are the two views called that can accept text input?\"\n- \"what does the MVC pattern mean to you?\""
+          }
+        },
+        {
+          "type": "checklist",
+          "content": {
+            "title": "Interview Process Preparation",
+            "items": [
+              {
+                "id": "p1",
+                "text": "Research recent company news and announcements",
+                "required": true
+              },
+              {
+                "id": "p2",
+                "text": "Review the job description thoroughly",
+                "required": true
+              },
+              {
+                "id": "p3",
+                "text": "Prepare questions to ask your interviewer",
+                "required": true
+              },
+              {
+                "id": "p4",
+                "text": "Practice explaining your relevant experience",
+                "required": true
+              },
+              {
+                "id": "p5",
+                "text": "Set up your interview environment (for virtual)",
+                "required": false
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "tips",
+      "title": "JPMorgan Chase Interview Tips",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "Success in JPMorgan Chase interviews comes from preparation, authenticity, and understanding what interviewers are looking for."
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Insider Tips:**\n\n- as a student who hasnt even graduated yet, but if anyone ends up reading this and is like me (anxious, full of self doubt, self conscious about am I g\n- something like the following:\n- would you give for a first time HireVue user? Also, if anyone has had a internship interview at JPMorgan what was your experience like?\n- for preparing for the hirevue portion? I applied to JPMorgan for their intern program last year and even though I answered the coding questions easily\n- that you have a good resume and a good phone interview"
+          }
+        },
+        {
+          "type": "tip",
+          "content": {
+            "text": "Quantify your achievements wherever possible. Financial institutions appreciate candidates who can articulate impact in concrete terms."
+          }
+        },
+        {
+          "type": "quiz",
+          "content": {
+            "question": "What is the most important factor in JPMorgan Chase interviews?",
+            "options": [
+              {
+                "id": "a",
+                "text": "Having perfect technical answers",
+                "isCorrect": false
+              },
+              {
+                "id": "b",
+                "text": "Demonstrating alignment with company values and culture",
+                "isCorrect": true
+              },
+              {
+                "id": "c",
+                "text": "Memorizing common interview questions",
+                "isCorrect": false
+              },
+              {
+                "id": "d",
+                "text": "Having a prestigious background",
+                "isCorrect": false
+              }
+            ],
+            "explanation": "While technical skills matter, JPMorgan Chase places significant emphasis on cultural fit and values alignment. Interviewers want to see that you'll thrive in their environment."
+          }
+        }
+      ]
+    }
+  ]
+}

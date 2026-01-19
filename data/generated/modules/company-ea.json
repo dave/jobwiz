@@ -1,0 +1,185 @@
+{
+  "slug": "company-ea",
+  "type": "company",
+  "title": "Electronic Arts Interview Guide",
+  "description": "Prepare for your Electronic Arts interview with company-specific insights, culture tips, and interview strategies.",
+  "company_slug": "ea",
+  "is_premium": true,
+  "display_order": 0,
+  "sections": [
+    {
+      "id": "culture",
+      "title": "Electronic Arts Culture",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "Understanding Electronic Arts's culture is essential for interview success. Companies look for candidates who align with their values and can thrive in their environment."
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Key cultural themes at Electronic Arts:**\n\n- Heavy focus on coding\n- Behavioral interviews important\n- Case study format\n- Multiple interview rounds\n- Take-home assignment"
+          }
+        },
+        {
+          "type": "tip",
+          "content": {
+            "text": "Media companies look for creativity balanced with data-driven thinking. Demonstrate your ability to innovate while measuring impact."
+          }
+        }
+      ]
+    },
+    {
+      "id": "values",
+      "title": "Electronic Arts Values",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "Electronic Arts evaluates candidates not just on skills, but on how well they embody the company's core values. Demonstrating alignment with these values can be the difference between a good and great interview."
+          }
+        },
+        {
+          "type": "checklist",
+          "content": {
+            "title": "Values Preparation Checklist",
+            "items": [
+              {
+                "id": "v1",
+                "text": "Research Electronic Arts's stated mission and values",
+                "required": true
+              },
+              {
+                "id": "v2",
+                "text": "Prepare examples that demonstrate alignment with these values",
+                "required": true
+              },
+              {
+                "id": "v3",
+                "text": "Review recent company blog posts or leadership communications",
+                "required": false
+              },
+              {
+                "id": "v4",
+                "text": "Prepare examples balancing creativity and metrics",
+                "required": true
+              }
+            ]
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "**Avoid these pitfalls:** Interviewers notice when candidates don't demonstrate genuine alignment with company values. Be authentic in your responses."
+          }
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "title": "Electronic Arts Interview Process",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "**Electronic Arts Interview Process Overview**\n\n- **Typical rounds:** 4 rounds typical\n- **Timeline:** 2-4 weeks\n- **Format:** Mix of phone screen, technical, behavioral, on-site, virtual"
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Common Interview Questions:**\n\n- \"what games are you playing?\"\n- \"What's your favorite games?\"\n- \"What's a game that suffers from quality issues?\"\n- \"explain that in an interview?\"\n- \"Why do you feel you bombed the interview?\""
+          }
+        },
+        {
+          "type": "checklist",
+          "content": {
+            "title": "Interview Process Preparation",
+            "items": [
+              {
+                "id": "p1",
+                "text": "Research recent company news and announcements",
+                "required": true
+              },
+              {
+                "id": "p2",
+                "text": "Review the job description thoroughly",
+                "required": true
+              },
+              {
+                "id": "p3",
+                "text": "Prepare questions to ask your interviewer",
+                "required": true
+              },
+              {
+                "id": "p4",
+                "text": "Practice explaining your relevant experience",
+                "required": true
+              },
+              {
+                "id": "p5",
+                "text": "Set up your interview environment (for virtual)",
+                "required": false
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "tips",
+      "title": "Electronic Arts Interview Tips",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "Success in Electronic Arts interviews comes from preparation, authenticity, and understanding what interviewers are looking for."
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Insider Tips:**\n\n- he consider becoming skilled in a job that is in high demand, with a serious shortage of applicants\n- if he has a LinkedIn he also revises it to hide his age as well\n- looking for roles that may have similar responsibilities but less generic titles than the ones you named\n- about what i should research mainly oop related stuff i created myself a cheat-sheat for some of the things that he mentioned to help me learn\n- sitting right and just hoping you get through to the next round"
+          }
+        },
+        {
+          "type": "tip",
+          "content": {
+            "text": "Balance creativity with business impact. Show that you can think both artistically and analytically about content and engagement."
+          }
+        },
+        {
+          "type": "quiz",
+          "content": {
+            "question": "What is the most important factor in Electronic Arts interviews?",
+            "options": [
+              {
+                "id": "a",
+                "text": "Having perfect technical answers",
+                "isCorrect": false
+              },
+              {
+                "id": "b",
+                "text": "Demonstrating alignment with company values and culture",
+                "isCorrect": true
+              },
+              {
+                "id": "c",
+                "text": "Memorizing common interview questions",
+                "isCorrect": false
+              },
+              {
+                "id": "d",
+                "text": "Having a prestigious background",
+                "isCorrect": false
+              }
+            ],
+            "explanation": "While technical skills matter, Electronic Arts places significant emphasis on cultural fit and values alignment. Interviewers want to see that you'll thrive in their environment."
+          }
+        }
+      ]
+    }
+  ]
+}

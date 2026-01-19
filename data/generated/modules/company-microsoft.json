@@ -1,0 +1,185 @@
+{
+  "slug": "company-microsoft",
+  "type": "company",
+  "title": "Microsoft Interview Guide",
+  "description": "Prepare for your Microsoft interview with company-specific insights, culture tips, and interview strategies.",
+  "company_slug": "microsoft",
+  "is_premium": true,
+  "display_order": 0,
+  "sections": [
+    {
+      "id": "culture",
+      "title": "Microsoft Culture",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "Understanding Microsoft's culture is essential for interview success. Companies look for candidates who align with their values and can thrive in their environment."
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Key cultural themes at Microsoft:**\n\n- System design emphasis\n- Heavy focus on coding\n- Behavioral interviews important\n- Culture fit matters\n- Technical deep dive"
+          }
+        },
+        {
+          "type": "tip",
+          "content": {
+            "text": "Big Tech companies value innovation, scalability thinking, and data-driven decision making. Be prepared to discuss how you've handled ambiguity and driven impact at scale."
+          }
+        }
+      ]
+    },
+    {
+      "id": "values",
+      "title": "Microsoft Values",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "Microsoft evaluates candidates not just on skills, but on how well they embody the company's core values. Demonstrating alignment with these values can be the difference between a good and great interview."
+          }
+        },
+        {
+          "type": "checklist",
+          "content": {
+            "title": "Values Preparation Checklist",
+            "items": [
+              {
+                "id": "v1",
+                "text": "Research Microsoft's stated mission and values",
+                "required": true
+              },
+              {
+                "id": "v2",
+                "text": "Prepare examples that demonstrate alignment with these values",
+                "required": true
+              },
+              {
+                "id": "v3",
+                "text": "Review recent company blog posts or leadership communications",
+                "required": false
+              },
+              {
+                "id": "v4",
+                "text": "Prepare examples of driving impact at scale",
+                "required": true
+              }
+            ]
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "**Avoid these pitfalls:** Interviewers notice when candidates don't demonstrate genuine alignment with company values. Be authentic in your responses."
+          }
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "title": "Microsoft Interview Process",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "**Microsoft Interview Process Overview**\n\n- **Typical rounds:** 3 rounds typical\n- **Timeline:** 2 weeks\n- **Format:** Mix of phone screen, technical, behavioral, on-site, virtual"
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Common Interview Questions:**\n\n- \"will i ever make it to GOOGLE if i don't go to Stanford!?\"\n- \"I was looking at the recent announcement from [YOUR AMAZING COMPANY], how do you feel about it?\"\n- \"I saw that blog post your team did on BigQuery, what were some of the challenges you guys faced in refactoring your pipelines?\"\n- \"Do you realize this is a software interview?\"\n- \"Good, that's what we're looking for.  Now you realize if you get this position, you have to be able to program?\""
+          }
+        },
+        {
+          "type": "checklist",
+          "content": {
+            "title": "Interview Process Preparation",
+            "items": [
+              {
+                "id": "p1",
+                "text": "Research recent company news and announcements",
+                "required": true
+              },
+              {
+                "id": "p2",
+                "text": "Review the job description thoroughly",
+                "required": true
+              },
+              {
+                "id": "p3",
+                "text": "Prepare questions to ask your interviewer",
+                "required": true
+              },
+              {
+                "id": "p4",
+                "text": "Practice explaining your relevant experience",
+                "required": true
+              },
+              {
+                "id": "p5",
+                "text": "Set up your interview environment (for virtual)",
+                "required": false
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "tips",
+      "title": "Microsoft Interview Tips",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "Success in Microsoft interviews comes from preparation, authenticity, and understanding what interviewers are looking for."
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Insider Tips:**\n\n- using a dictionary is the most common way to get from a brute force approach to something more clever\n- or even coaching, you can try emailing me at suryc011 [at] gmail [dot] com\n- to schedule 4+ weeks of vacation well ahead of time\n- you get the time off ahead of time, and then schedule your vacation before paying for anything\n- that you know what you're doing"
+          }
+        },
+        {
+          "type": "tip",
+          "content": {
+            "text": "Research the specific team or product area you're interviewing for. Showing genuine interest in their work demonstrates that you've done your homework."
+          }
+        },
+        {
+          "type": "quiz",
+          "content": {
+            "question": "What is the most important factor in Microsoft interviews?",
+            "options": [
+              {
+                "id": "a",
+                "text": "Having perfect technical answers",
+                "isCorrect": false
+              },
+              {
+                "id": "b",
+                "text": "Demonstrating alignment with company values and culture",
+                "isCorrect": true
+              },
+              {
+                "id": "c",
+                "text": "Memorizing common interview questions",
+                "isCorrect": false
+              },
+              {
+                "id": "d",
+                "text": "Having a prestigious background",
+                "isCorrect": false
+              }
+            ],
+            "explanation": "While technical skills matter, Microsoft places significant emphasis on cultural fit and values alignment. Interviewers want to see that you'll thrive in their environment."
+          }
+        }
+      ]
+    }
+  ]
+}

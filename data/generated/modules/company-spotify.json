@@ -1,0 +1,185 @@
+{
+  "slug": "company-spotify",
+  "type": "company",
+  "title": "Spotify Interview Guide",
+  "description": "Prepare for your Spotify interview with company-specific insights, culture tips, and interview strategies.",
+  "company_slug": "spotify",
+  "is_premium": true,
+  "display_order": 0,
+  "sections": [
+    {
+      "id": "culture",
+      "title": "Spotify Culture",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "Understanding Spotify's culture is essential for interview success. Companies look for candidates who align with their values and can thrive in their environment."
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Key cultural themes at Spotify:**\n\n- Behavioral interviews important\n- Multiple interview rounds\n- Take-home assignment\n- Panel interviews"
+          }
+        },
+        {
+          "type": "tip",
+          "content": {
+            "text": "Media companies look for creativity balanced with data-driven thinking. Demonstrate your ability to innovate while measuring impact."
+          }
+        }
+      ]
+    },
+    {
+      "id": "values",
+      "title": "Spotify Values",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "Spotify evaluates candidates not just on skills, but on how well they embody the company's core values. Demonstrating alignment with these values can be the difference between a good and great interview."
+          }
+        },
+        {
+          "type": "checklist",
+          "content": {
+            "title": "Values Preparation Checklist",
+            "items": [
+              {
+                "id": "v1",
+                "text": "Research Spotify's stated mission and values",
+                "required": true
+              },
+              {
+                "id": "v2",
+                "text": "Prepare examples that demonstrate alignment with these values",
+                "required": true
+              },
+              {
+                "id": "v3",
+                "text": "Review recent company blog posts or leadership communications",
+                "required": false
+              },
+              {
+                "id": "v4",
+                "text": "Prepare examples balancing creativity and metrics",
+                "required": true
+              }
+            ]
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "**Avoid these pitfalls:** Interviewers notice when candidates don't demonstrate genuine alignment with company values. Be authentic in your responses."
+          }
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "title": "Spotify Interview Process",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "**Spotify Interview Process Overview**\n\n- **Typical rounds:** 4 rounds typical\n- **Timeline:** 2-4 weeks\n- **Format:** Mix of technical, behavioral, on-site, virtual"
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Common Interview Questions:**\n\n- \"what does he or she want to know?\"\n- \"What do they want to know?\"\n- \"Wits! I've seen your work. It's incredible how you translate X and Y to get J and K results. What do you need from a designer in order to make your job easier?\"\n- \"how would you handle it in a more career background way though?\"\n- \"how would you advise them to spend their time and energy?\""
+          }
+        },
+        {
+          "type": "checklist",
+          "content": {
+            "title": "Interview Process Preparation",
+            "items": [
+              {
+                "id": "p1",
+                "text": "Research recent company news and announcements",
+                "required": true
+              },
+              {
+                "id": "p2",
+                "text": "Review the job description thoroughly",
+                "required": true
+              },
+              {
+                "id": "p3",
+                "text": "Prepare questions to ask your interviewer",
+                "required": true
+              },
+              {
+                "id": "p4",
+                "text": "Practice explaining your relevant experience",
+                "required": true
+              },
+              {
+                "id": "p5",
+                "text": "Set up your interview environment (for virtual)",
+                "required": false
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "tips",
+      "title": "Spotify Interview Tips",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "Success in Spotify interviews comes from preparation, authenticity, and understanding what interviewers are looking for."
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Insider Tips:**\n\n- if they are promising any \"insider tips to ace your interview\" - because every human being is different and responds and reacts to different things\n- may be suspect because it's not systemic, it's conditional\n- is this - (and I still do it ll the time) it's very natural to be nervous during an interview and we think we need to answer questions right away to s\n- is to have confidence in whatever work you have already put in\n- that maybe, we stop adding features for 2 seconds and fix the broken mess of a code base written only half in English, or actually ask if the customer"
+          }
+        },
+        {
+          "type": "tip",
+          "content": {
+            "text": "Balance creativity with business impact. Show that you can think both artistically and analytically about content and engagement."
+          }
+        },
+        {
+          "type": "quiz",
+          "content": {
+            "question": "What is the most important factor in Spotify interviews?",
+            "options": [
+              {
+                "id": "a",
+                "text": "Having perfect technical answers",
+                "isCorrect": false
+              },
+              {
+                "id": "b",
+                "text": "Demonstrating alignment with company values and culture",
+                "isCorrect": true
+              },
+              {
+                "id": "c",
+                "text": "Memorizing common interview questions",
+                "isCorrect": false
+              },
+              {
+                "id": "d",
+                "text": "Having a prestigious background",
+                "isCorrect": false
+              }
+            ],
+            "explanation": "While technical skills matter, Spotify places significant emphasis on cultural fit and values alignment. Interviewers want to see that you'll thrive in their environment."
+          }
+        }
+      ]
+    }
+  ]
+}

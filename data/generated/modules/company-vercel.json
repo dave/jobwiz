@@ -1,0 +1,185 @@
+{
+  "slug": "company-vercel",
+  "type": "company",
+  "title": "Vercel Interview Guide",
+  "description": "Prepare for your Vercel interview with company-specific insights, culture tips, and interview strategies.",
+  "company_slug": "vercel",
+  "is_premium": true,
+  "display_order": 0,
+  "sections": [
+    {
+      "id": "culture",
+      "title": "Vercel Culture",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "Understanding Vercel's culture is essential for interview success. Companies look for candidates who align with their values and can thrive in their environment."
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Key cultural themes at Vercel:**\n\n- System design emphasis\n- Heavy focus on coding\n- Behavioral interviews important\n- Multiple interview rounds\n- Take-home assignment"
+          }
+        },
+        {
+          "type": "tip",
+          "content": {
+            "text": "Startups look for candidates who can wear multiple hats, move fast, and thrive in uncertainty. Emphasize your adaptability and ownership mentality."
+          }
+        }
+      ]
+    },
+    {
+      "id": "values",
+      "title": "Vercel Values",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "Vercel evaluates candidates not just on skills, but on how well they embody the company's core values. Demonstrating alignment with these values can be the difference between a good and great interview."
+          }
+        },
+        {
+          "type": "checklist",
+          "content": {
+            "title": "Values Preparation Checklist",
+            "items": [
+              {
+                "id": "v1",
+                "text": "Research Vercel's stated mission and values",
+                "required": true
+              },
+              {
+                "id": "v2",
+                "text": "Prepare examples that demonstrate alignment with these values",
+                "required": true
+              },
+              {
+                "id": "v3",
+                "text": "Review recent company blog posts or leadership communications",
+                "required": false
+              },
+              {
+                "id": "v4",
+                "text": "Prepare examples of working in ambiguous situations",
+                "required": true
+              }
+            ]
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "**Avoid these pitfalls:** Interviewers notice when candidates don't demonstrate genuine alignment with company values. Be authentic in your responses."
+          }
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "title": "Vercel Interview Process",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "**Vercel Interview Process Overview**\n\n- **Typical rounds:** 4 rounds typical\n- **Timeline:** 2-4 weeks\n- **Format:** Mix of phone screen, technical, behavioral, on-site, virtual"
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Common Interview Questions:**\n\n- \"Is this an in-person or virtual interview?\"\n- \"Will we be meeting via Zoom or Google Meet?\"\n- \"ensure adequate storage is available for transmitting and downloading files?\""
+          }
+        },
+        {
+          "type": "checklist",
+          "content": {
+            "title": "Interview Process Preparation",
+            "items": [
+              {
+                "id": "p1",
+                "text": "Research recent company news and announcements",
+                "required": true
+              },
+              {
+                "id": "p2",
+                "text": "Review the job description thoroughly",
+                "required": true
+              },
+              {
+                "id": "p3",
+                "text": "Prepare questions to ask your interviewer",
+                "required": true
+              },
+              {
+                "id": "p4",
+                "text": "Practice explaining your relevant experience",
+                "required": true
+              },
+              {
+                "id": "p5",
+                "text": "Set up your interview environment (for virtual)",
+                "required": false
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "tips",
+      "title": "Vercel Interview Tips",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "Success in Vercel interviews comes from preparation, authenticity, and understanding what interviewers are looking for."
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Insider Tips:**\n\n- here: if you put time and effort into a project, make sure to deploy it to production (Vercel/Netlify/etc\n- I see often is to find _anyone_ at a target to provide a referral\n- sending this type of messages in LinkedIn direct messages, but this wasn't very effective in my experience\n- you're highlighting relevant skills and experiences\n- from people who’ve been in a similar position"
+          }
+        },
+        {
+          "type": "tip",
+          "content": {
+            "text": "Be prepared to discuss how you've handled rapid change and ambiguity. Startups want to see that you can thrive without extensive structure."
+          }
+        },
+        {
+          "type": "quiz",
+          "content": {
+            "question": "What is the most important factor in Vercel interviews?",
+            "options": [
+              {
+                "id": "a",
+                "text": "Having perfect technical answers",
+                "isCorrect": false
+              },
+              {
+                "id": "b",
+                "text": "Demonstrating alignment with company values and culture",
+                "isCorrect": true
+              },
+              {
+                "id": "c",
+                "text": "Memorizing common interview questions",
+                "isCorrect": false
+              },
+              {
+                "id": "d",
+                "text": "Having a prestigious background",
+                "isCorrect": false
+              }
+            ],
+            "explanation": "While technical skills matter, Vercel places significant emphasis on cultural fit and values alignment. Interviewers want to see that you'll thrive in their environment."
+          }
+        }
+      ]
+    }
+  ]
+}

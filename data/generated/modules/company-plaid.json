@@ -1,0 +1,185 @@
+{
+  "slug": "company-plaid",
+  "type": "company",
+  "title": "Plaid Interview Guide",
+  "description": "Prepare for your Plaid interview with company-specific insights, culture tips, and interview strategies.",
+  "company_slug": "plaid",
+  "is_premium": true,
+  "display_order": 0,
+  "sections": [
+    {
+      "id": "culture",
+      "title": "Plaid Culture",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "Understanding Plaid's culture is essential for interview success. Companies look for candidates who align with their values and can thrive in their environment."
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Key cultural themes at Plaid:**\n\n- Heavy focus on coding\n- Multiple interview rounds\n- Take-home assignment\n- Virtual interviews"
+          }
+        },
+        {
+          "type": "tip",
+          "content": {
+            "text": "Startups look for candidates who can wear multiple hats, move fast, and thrive in uncertainty. Emphasize your adaptability and ownership mentality."
+          }
+        }
+      ]
+    },
+    {
+      "id": "values",
+      "title": "Plaid Values",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "Plaid evaluates candidates not just on skills, but on how well they embody the company's core values. Demonstrating alignment with these values can be the difference between a good and great interview."
+          }
+        },
+        {
+          "type": "checklist",
+          "content": {
+            "title": "Values Preparation Checklist",
+            "items": [
+              {
+                "id": "v1",
+                "text": "Research Plaid's stated mission and values",
+                "required": true
+              },
+              {
+                "id": "v2",
+                "text": "Prepare examples that demonstrate alignment with these values",
+                "required": true
+              },
+              {
+                "id": "v3",
+                "text": "Review recent company blog posts or leadership communications",
+                "required": false
+              },
+              {
+                "id": "v4",
+                "text": "Prepare examples of working in ambiguous situations",
+                "required": true
+              }
+            ]
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "**Avoid these pitfalls:** Interviewers notice when candidates don't demonstrate genuine alignment with company values. Be authentic in your responses."
+          }
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "title": "Plaid Interview Process",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "**Plaid Interview Process Overview**\n\n- **Typical rounds:** 3-5 rounds typical\n- **Timeline:** 2-4 weeks\n- **Format:** Mix of virtual"
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Common Interview Questions:**\n\n- \"I gave him my bank, routing and account numbers and why he'd need that information?\"\n- \"Are you ready for your training?\"\n- \"plastics company?\""
+          }
+        },
+        {
+          "type": "checklist",
+          "content": {
+            "title": "Interview Process Preparation",
+            "items": [
+              {
+                "id": "p1",
+                "text": "Research recent company news and announcements",
+                "required": true
+              },
+              {
+                "id": "p2",
+                "text": "Review the job description thoroughly",
+                "required": true
+              },
+              {
+                "id": "p3",
+                "text": "Prepare questions to ask your interviewer",
+                "required": true
+              },
+              {
+                "id": "p4",
+                "text": "Practice explaining your relevant experience",
+                "required": true
+              },
+              {
+                "id": "p5",
+                "text": "Set up your interview environment (for virtual)",
+                "required": false
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "tips",
+      "title": "Plaid Interview Tips",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "Success in Plaid interviews comes from preparation, authenticity, and understanding what interviewers are looking for."
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Insider Tips:**\n\n- I just graduated and I'm starting my first post-grad job at a Big 4 company in one of their satellite offices on Monday\n- on how to handle relationships with co-workers and superiors\n- thread, but it already has 90 comments and I was worried that my question would be lost in there\n- to always go with navy blue/dark blue suits for interviews\n- to get it fitted for correct size and tailored"
+          }
+        },
+        {
+          "type": "tip",
+          "content": {
+            "text": "Be prepared to discuss how you've handled rapid change and ambiguity. Startups want to see that you can thrive without extensive structure."
+          }
+        },
+        {
+          "type": "quiz",
+          "content": {
+            "question": "What is the most important factor in Plaid interviews?",
+            "options": [
+              {
+                "id": "a",
+                "text": "Having perfect technical answers",
+                "isCorrect": false
+              },
+              {
+                "id": "b",
+                "text": "Demonstrating alignment with company values and culture",
+                "isCorrect": true
+              },
+              {
+                "id": "c",
+                "text": "Memorizing common interview questions",
+                "isCorrect": false
+              },
+              {
+                "id": "d",
+                "text": "Having a prestigious background",
+                "isCorrect": false
+              }
+            ],
+            "explanation": "While technical skills matter, Plaid places significant emphasis on cultural fit and values alignment. Interviewers want to see that you'll thrive in their environment."
+          }
+        }
+      ]
+    }
+  ]
+}

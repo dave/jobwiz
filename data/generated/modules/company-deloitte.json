@@ -1,0 +1,185 @@
+{
+  "slug": "company-deloitte",
+  "type": "company",
+  "title": "Deloitte Interview Guide",
+  "description": "Prepare for your Deloitte interview with company-specific insights, culture tips, and interview strategies.",
+  "company_slug": "deloitte",
+  "is_premium": true,
+  "display_order": 0,
+  "sections": [
+    {
+      "id": "culture",
+      "title": "Deloitte Culture",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "Understanding Deloitte's culture is essential for interview success. Companies look for candidates who align with their values and can thrive in their environment."
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Key cultural themes at Deloitte:**\n\n- Heavy focus on coding\n- Behavioral interviews important\n- Culture fit matters\n- Case study format\n- Multiple interview rounds"
+          }
+        },
+        {
+          "type": "tip",
+          "content": {
+            "text": "Consulting firms assess problem-solving, communication, and client presence. Practice structuring your thoughts and presenting complex ideas clearly."
+          }
+        }
+      ]
+    },
+    {
+      "id": "values",
+      "title": "Deloitte Values",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "Deloitte evaluates candidates not just on skills, but on how well they embody the company's core values. Demonstrating alignment with these values can be the difference between a good and great interview."
+          }
+        },
+        {
+          "type": "checklist",
+          "content": {
+            "title": "Values Preparation Checklist",
+            "items": [
+              {
+                "id": "v1",
+                "text": "Research Deloitte's stated mission and values",
+                "required": true
+              },
+              {
+                "id": "v2",
+                "text": "Prepare examples that demonstrate alignment with these values",
+                "required": true
+              },
+              {
+                "id": "v3",
+                "text": "Review recent company blog posts or leadership communications",
+                "required": false
+              },
+              {
+                "id": "v4",
+                "text": "Prepare structured answers using frameworks like MECE",
+                "required": true
+              }
+            ]
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "**Avoid these pitfalls:** Interviewers notice when candidates don't demonstrate genuine alignment with company values. Be authentic in your responses."
+          }
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "title": "Deloitte Interview Process",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "**Deloitte Interview Process Overview**\n\n- **Typical rounds:** 3 rounds typical\n- **Timeline:** 2-4 weeks\n- **Format:** Mix of technical, behavioral, virtual"
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Common Interview Questions:**\n\n- \"What if he/she says this? How will I answer? Will he/she be mad if I don't know?\"\n- \"“Is It Better to Be Perfect and Late or Good and On Time?\"\n- \"Would you be willing to miss a deadline if meeting the deadline meant compromising on the quality of the finished project?\"\n- \"in my interview?\"\n- \"a question you didn't expect?\""
+          }
+        },
+        {
+          "type": "checklist",
+          "content": {
+            "title": "Interview Process Preparation",
+            "items": [
+              {
+                "id": "p1",
+                "text": "Research recent company news and announcements",
+                "required": true
+              },
+              {
+                "id": "p2",
+                "text": "Review the job description thoroughly",
+                "required": true
+              },
+              {
+                "id": "p3",
+                "text": "Prepare questions to ask your interviewer",
+                "required": true
+              },
+              {
+                "id": "p4",
+                "text": "Practice explaining your relevant experience",
+                "required": true
+              },
+              {
+                "id": "p5",
+                "text": "Set up your interview environment (for virtual)",
+                "required": false
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "tips",
+      "title": "Deloitte Interview Tips",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "Success in Deloitte interviews comes from preparation, authenticity, and understanding what interviewers are looking for."
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Insider Tips:**\n\n- to anyone that’s currently having a rough time finding a job, just don’t stop applying\n- I'm not being impulsive, and at this point I have decided I officially wanted to go to back to being a SWE\n- I wish I had when I was applying\n- for someone relatively new in their career moving to a Product Owner position? I’m in the Defense Industry and my manager asked if I wanted the positi\n- you look good in your video interview?"
+          }
+        },
+        {
+          "type": "tip",
+          "content": {
+            "text": "Practice case interviews extensively if relevant to your role. Structure and communication are often as important as the final answer."
+          }
+        },
+        {
+          "type": "quiz",
+          "content": {
+            "question": "What is the most important factor in Deloitte interviews?",
+            "options": [
+              {
+                "id": "a",
+                "text": "Having perfect technical answers",
+                "isCorrect": false
+              },
+              {
+                "id": "b",
+                "text": "Demonstrating alignment with company values and culture",
+                "isCorrect": true
+              },
+              {
+                "id": "c",
+                "text": "Memorizing common interview questions",
+                "isCorrect": false
+              },
+              {
+                "id": "d",
+                "text": "Having a prestigious background",
+                "isCorrect": false
+              }
+            ],
+            "explanation": "While technical skills matter, Deloitte places significant emphasis on cultural fit and values alignment. Interviewers want to see that you'll thrive in their environment."
+          }
+        }
+      ]
+    }
+  ]
+}
