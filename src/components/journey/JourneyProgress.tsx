@@ -319,9 +319,9 @@ export function JourneyProgress({
           <span
             className="text-2xl font-bold text-blue-600 min-w-[4ch] text-right"
             data-testid="progress-percentage"
-            aria-label={progressLoading ? "Loading progress" : `${progressPercentage}% complete`}
+            aria-label={progressLoading ? "0% complete" : `${progressPercentage}% complete`}
           >
-            {progressLoading ? "\u00A0" : `${progressPercentage}%`}
+            {progressLoading ? "0%" : `${progressPercentage}%`}
           </span>
         </div>
 
@@ -333,7 +333,7 @@ export function JourneyProgress({
             aria-valuenow={progressLoading ? 0 : progressPercentage}
             aria-valuemin={0}
             aria-valuemax={100}
-            aria-label={progressLoading ? "Loading progress" : `Journey progress: ${progressPercentage}% complete`}
+            aria-label={progressLoading ? "Journey progress: 0% complete" : `Journey progress: ${progressPercentage}% complete`}
           >
             {!progressLoading && (
               <div
@@ -343,7 +343,7 @@ export function JourneyProgress({
             )}
           </div>
           <p className="text-xs text-gray-500 mt-1 h-4">
-            {progressLoading ? "\u00A0" : `${completedItems.size} of ${totalItems} items complete`}
+            {progressLoading ? `0 of ${totalItems} items complete` : `${completedItems.size} of ${totalItems} items complete`}
           </p>
         </div>
 
