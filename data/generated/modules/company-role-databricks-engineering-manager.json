@@ -1,0 +1,490 @@
+{
+  "slug": "company-role-databricks-engineering-manager",
+  "type": "company-role",
+  "title": "Databricks Engineering Manager Interview Practice",
+  "description": "Practice for your Databricks Engineering Manager interview with real questions and interactive quizzes designed to prepare you for success.",
+  "company_slug": "databricks",
+  "role_slug": "engineering-manager",
+  "is_premium": true,
+  "display_order": 0,
+  "sections": [
+    {
+      "id": "behavioral",
+      "title": "Behavioral Questions for Engineering Manager",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "Behavioral questions at Databricks for Engineering Manager roles focus on your past experiences and how you handle real-world situations. Use the STAR method (Situation, Task, Action, Result) to structure your responses."
+          }
+        },
+        {
+          "type": "tip",
+          "content": {
+            "text": "**Key Focus Areas:** collaboration, conflict, leadership, influence. Prepare specific examples for each area."
+          }
+        },
+        {
+          "type": "quiz",
+          "content": {
+            "question": "Tell me about a time you had to lead a project without formal authority.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Describing coercion as influence",
+                "isCorrect": false
+              },
+              {
+                "id": "b",
+                "text": "Demonstrate influence without authority, stakeholder management, and self-awareness about leadership style",
+                "isCorrect": true
+              },
+              {
+                "id": "c",
+                "text": "Taking all credit",
+                "isCorrect": false
+              },
+              {
+                "id": "d",
+                "text": "Focusing on the WHAT instead of the HOW of leadership",
+                "isCorrect": false
+              }
+            ],
+            "explanation": "Databricks looks for 'emergent leadership' - people who step up organically without needing titles. Based on 28 interview reports, candidates commonly face: System design emphasis, Heavy focus on coding, Behavioral interviews important. The interviewer is assessing your influence skills: can you ..."
+          }
+        },
+        {
+          "type": "quiz",
+          "content": {
+            "question": "Describe a time you disagreed with a colleague or manager. How did you handle it?",
+            "options": [
+              {
+                "id": "a",
+                "text": "Demonstrate constructive disagreement, focus on ideas, not personalities, and active listening",
+                "isCorrect": true
+              },
+              {
+                "id": "b",
+                "text": "Framing yourself as always right",
+                "isCorrect": false
+              },
+              {
+                "id": "c",
+                "text": "No resolution or learning",
+                "isCorrect": false
+              },
+              {
+                "id": "d",
+                "text": "Making the other person look bad",
+                "isCorrect": false
+              }
+            ],
+            "explanation": "The interviewer is probing your conflict resolution style. Databricks needs people who can disagree constructively - not pushovers, but not bulldozers either. They're listening for: Did you raise the concern or stay silent? Did you attack the person or focus on the idea? Did you know when to comm..."
+          }
+        },
+        {
+          "type": "quiz",
+          "content": {
+            "question": "Tell me about your biggest professional failure and what you learned from it.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Choosing a fake failure",
+                "isCorrect": false
+              },
+              {
+                "id": "b",
+                "text": "No actual learning or change",
+                "isCorrect": false
+              },
+              {
+                "id": "c",
+                "text": "Blaming others or circumstances",
+                "isCorrect": false
+              },
+              {
+                "id": "d",
+                "text": "Demonstrate genuine self-awareness, accountability without excuses, and root cause analysis",
+                "isCorrect": true
+              }
+            ],
+            "explanation": "Databricks uses this question to assess genuine self-awareness and growth mindset. The interviewer is NOT looking for a humble-brag disguised as failure. They want to see: Can you own a real mistake? Do you understand the root cause, not just the symptoms? Have you actually changed behavior as a ..."
+          }
+        },
+        {
+          "type": "quiz",
+          "content": {
+            "question": "Tell me about a time you had to make a decision with incomplete information.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Not explaining your reasoning process",
+                "isCorrect": false
+              },
+              {
+                "id": "b",
+                "text": "No risk mitigation mentioned",
+                "isCorrect": false
+              },
+              {
+                "id": "c",
+                "text": "Demonstrate comfort with ambiguity, judgment about what information matters, and bias for action over analysis paralysis",
+                "isCorrect": true
+              },
+              {
+                "id": "d",
+                "text": "Pretending you had perfect information",
+                "isCorrect": false
+              }
+            ],
+            "explanation": "Databricks operates in uncertainty constantly. The interviewer is testing your comfort with ambiguity: Do you freeze without perfect data, or can you move forward thoughtfully? They're also watching for judgment - did you gather the RIGHT information, not just MORE information? The meta-question ..."
+          }
+        }
+      ]
+    },
+    {
+      "id": "technical",
+      "title": "Technical Questions for Engineering Manager",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "Technical interviews at Databricks for Engineering Manager positions assess your domain expertise and problem-solving abilities. Focus on demonstrating your thought process, not just the final answer."
+          }
+        },
+        {
+          "type": "tip",
+          "content": {
+            "text": "**Technical Areas to Prepare:** statistics, analytics, hypothesis-testing, fundamentals. Review fundamentals and practice explaining complex concepts clearly."
+          }
+        },
+        {
+          "type": "quiz",
+          "content": {
+            "question": "Explain the difference between Type I and Type II errors. When might you prioritize one over the other?",
+            "options": [
+              {
+                "id": "a",
+                "text": "No business context for trade-offs",
+                "isCorrect": false
+              },
+              {
+                "id": "b",
+                "text": "Confusing the two types",
+                "isCorrect": false
+              },
+              {
+                "id": "c",
+                "text": "Only textbook definition without examples",
+                "isCorrect": false
+              },
+              {
+                "id": "d",
+                "text": "Demonstrate clear understanding of type i vs. type ii, real-world examples that resonate, and business judgment about trade-offs",
+                "isCorrect": true
+              }
+            ],
+            "explanation": "Databricks is testing both your statistical knowledge and your judgment. The textbook answer is easy - they're probing for business intuition. Can you give real-world examples? Do you understand the trade-off between false positives and false negatives? The best answers connect statistics to busi..."
+          }
+        },
+        {
+          "type": "quiz",
+          "content": {
+            "question": "You've built a model with 99% accuracy on your test set. What concerns would you have before deploying it?",
+            "options": [
+              {
+                "id": "a",
+                "text": "Demonstrate immediate concern about class imbalance, understanding of metrics beyond accuracy, and awareness of train/test distribution shift",
+                "isCorrect": true
+              },
+              {
+                "id": "b",
+                "text": "Ignoring fairness and bias concerns",
+                "isCorrect": false
+              },
+              {
+                "id": "c",
+                "text": "Only considering precision/recall as alternatives",
+                "isCorrect": false
+              },
+              {
+                "id": "d",
+                "text": "Taking 99% accuracy at face value",
+                "isCorrect": false
+              }
+            ],
+            "explanation": "This question is a trap for candidates who only look at accuracy. Databricks is testing: Do you understand class imbalance? Can you think about real-world deployment issues? Do you consider fairness and edge cases? The 99% number is suspicious and the best candidates immediately ask 'What's the b..."
+          }
+        },
+        {
+          "type": "quiz",
+          "content": {
+            "question": "Design an A/B test to determine if a new checkout flow increases conversion rate.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Demonstrate hypothesis formation before testing, clear primary and secondary metrics, and sample size calculation",
+                "isCorrect": true
+              },
+              {
+                "id": "b",
+                "text": "Skipping sample size calculation",
+                "isCorrect": false
+              },
+              {
+                "id": "c",
+                "text": "Ignoring novelty effects",
+                "isCorrect": false
+              },
+              {
+                "id": "d",
+                "text": "No hypothesis formulation",
+                "isCorrect": false
+              }
+            ],
+            "explanation": "Databricks is probing your experimental design skills. They're watching for: Do you define success metrics before the experiment? Can you size the sample correctly? Do you consider confounders and novelty effects? The best answers show a rigorous process, not just 'split traffic 50/50 and check a..."
+          }
+        },
+        {
+          "type": "quiz",
+          "content": {
+            "question": "Write a SQL query to find users who have made purchases in consecutive months.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Overly complex solution when simple exists",
+                "isCorrect": false
+              },
+              {
+                "id": "b",
+                "text": "Demonstrate clear problem decomposition, window function understanding (lag/lead), and edge case handling",
+                "isCorrect": true
+              },
+              {
+                "id": "c",
+                "text": "Jumping to code without planning",
+                "isCorrect": false
+              },
+              {
+                "id": "d",
+                "text": "Missing edge cases",
+                "isCorrect": false
+              }
+            ],
+            "explanation": "This is a window functions question, but Databricks is testing more than syntax. Can you think through the logic before writing? Do you handle edge cases (first purchase, gaps)? Can you explain your approach clearly? The best candidates talk through their thinking and acknowledge when they'd want..."
+          }
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "title": "Culture Fit Questions for Engineering Manager",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "Culture fit questions at Databricks evaluate whether you'll thrive in their environment. These questions probe your values, work style, and how you interact with others."
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "**Be Authentic:** Interviewers are looking for genuine alignment with Databricks's values. Trying to give \"right\" answers that don't reflect who you are will often backfire."
+          }
+        },
+        {
+          "type": "quiz",
+          "content": {
+            "question": "Tell me about a time you took on something outside your job description because it needed to be done.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Demonstrate proactive scope expansion, comfort with ambiguity, and long-term thinking over short-term convenience",
+                "isCorrect": true
+              },
+              {
+                "id": "b",
+                "text": "Framing it as a burden you had to bear",
+                "isCorrect": false
+              },
+              {
+                "id": "c",
+                "text": "Taking on things to show off rather than because they mattered",
+                "isCorrect": false
+              },
+              {
+                "id": "d",
+                "text": "No clear impact or outcome from the extra work",
+                "isCorrect": false
+              }
+            ],
+            "explanation": "Databricks values ownership beyond your immediate role. The interviewer is testing whether you default to 'not my job' or naturally expand scope when needed. They're also probing for how you handled the ambiguity - did you wait for permission or act first? Importantly, they're watching whether yo..."
+          }
+        },
+        {
+          "type": "quiz",
+          "content": {
+            "question": "Describe a time you received critical feedback. How did you respond?",
+            "options": [
+              {
+                "id": "a",
+                "text": "Framing it as 'they misunderstood me'",
+                "isCorrect": false
+              },
+              {
+                "id": "b",
+                "text": "Demonstrate non-defensive reception of feedback, specific behavior change as a result, and gratitude toward the feedback-giver",
+                "isCorrect": true
+              },
+              {
+                "id": "c",
+                "text": "Subtly discrediting the feedback or source",
+                "isCorrect": false
+              },
+              {
+                "id": "d",
+                "text": "No actual change in behavior",
+                "isCorrect": false
+              }
+            ],
+            "explanation": "Databricks cultures feedback heavily. The interviewer is assessing your growth mindset in action - not in theory. Can you hear hard truths without getting defensive? Do you actually change, or just nod and continue? They're also watching how you describe the feedback-giver - candidates who subtly..."
+          }
+        },
+        {
+          "type": "quiz",
+          "content": {
+            "question": "Tell me about a time you advocated for the customer even when it was inconvenient for you or the team.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Story with no real tension or cost",
+                "isCorrect": false
+              },
+              {
+                "id": "b",
+                "text": "Hero narrative without team acknowledgment",
+                "isCorrect": false
+              },
+              {
+                "id": "c",
+                "text": "Ignoring legitimate business constraints",
+                "isCorrect": false
+              },
+              {
+                "id": "d",
+                "text": "Demonstrate genuine customer empathy, willingness to have difficult conversations, and creative problem-solving to serve customer and business",
+                "isCorrect": true
+              }
+            ],
+            "explanation": "Databricks tests whether you genuinely put customers first or just say you do. The interviewer is looking for situations where customer focus created tension - with timeline, with a stakeholder, with your own priorities. They're testing: Do you cave under pressure, or find ways to serve the custo..."
+          }
+        }
+      ]
+    },
+    {
+      "id": "curveball",
+      "title": "Curveball Questions",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "Curveball questions at Databricks test your ability to think on your feet, handle pressure, and approach unfamiliar problems creatively. There's often no \"right\" answer - interviewers want to see your thought process."
+          }
+        },
+        {
+          "type": "tip",
+          "content": {
+            "text": "**Approach:** Think out loud, ask clarifying questions, break down the problem into smaller parts, and don't be afraid to revise your thinking."
+          }
+        },
+        {
+          "type": "quiz",
+          "content": {
+            "question": "How many golf balls fit in a school bus?",
+            "options": [
+              {
+                "id": "a",
+                "text": "Getting defensive when pushed on assumptions",
+                "isCorrect": false
+              },
+              {
+                "id": "b",
+                "text": "Demonstrate structured decomposition of a complex problem, explicit assumption-stating, and comfort with back-of-envelope math",
+                "isCorrect": true
+              },
+              {
+                "id": "c",
+                "text": "Freezing or saying 'I don't know'",
+                "isCorrect": false
+              },
+              {
+                "id": "d",
+                "text": "Guessing a random number without showing work",
+                "isCorrect": false
+              }
+            ],
+            "explanation": "The interviewer already knows any reasonable answer is fine - this is about process, not precision. Databricks is evaluating: Can you structure chaos? Do you state assumptions or pretend to know dimensions? Are you comfortable being wrong and adjusting? Senior interviewers specifically watch for ..."
+          }
+        },
+        {
+          "type": "quiz",
+          "content": {
+            "question": "What's your biggest weakness, and don't give me a fake one.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Giving a humble-brag",
+                "isCorrect": false
+              },
+              {
+                "id": "b",
+                "text": "Demonstrate genuine self-awareness, honesty without self-sabotage, and evidence of working on the weakness",
+                "isCorrect": true
+              },
+              {
+                "id": "c",
+                "text": "No evidence of growth or mitigation",
+                "isCorrect": false
+              },
+              {
+                "id": "d",
+                "text": "Naming something that's a dealbreaker for the role",
+                "isCorrect": false
+              }
+            ],
+            "explanation": "The interviewer is testing three things at once: 1) Self-awareness - can you identify a real limitation? 2) Honesty under pressure - will you give a genuine answer when pushed? 3) Growth mindset - do you frame weaknesses as fixed traits or areas of active work? They've explicitly closed the 'I wo..."
+          }
+        },
+        {
+          "type": "quiz",
+          "content": {
+            "question": "If you could have dinner with anyone, living or dead, who would it be and why?",
+            "options": [
+              {
+                "id": "a",
+                "text": "Demonstrate authentic choice (not performative), clear articulation of why this person, and intellectual curiosity about their perspective",
+                "isCorrect": true
+              },
+              {
+                "id": "b",
+                "text": "Picking someone to sound impressive",
+                "isCorrect": false
+              },
+              {
+                "id": "c",
+                "text": "No genuine connection or reason",
+                "isCorrect": false
+              },
+              {
+                "id": "d",
+                "text": "Vague answer without depth",
+                "isCorrect": false
+              }
+            ],
+            "explanation": "This question seems casual but Databricks uses it to reveal your values and intellectual curiosity. They're not judging the person you pick - they're evaluating WHY. Do you pick someone to impress (Einstein, Mandela) or someone genuinely meaningful to you? Can you articulate what you'd want to le..."
+          }
+        }
+      ]
+    }
+  ]
+}

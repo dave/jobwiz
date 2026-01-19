@@ -2284,3 +2284,37 @@ All Stage 5 (Launch) code issues are now closed:
 - `npm run lint` - passes with no errors
 - `npm run type-check` - passes with no errors
 - Generated modules have correct structure with all required fields
+
+### 2026-01-18 - Issue #122: A2: Company-role module generator script
+
+**Completed:**
+- Created `/scripts/generate-company-role-modules.ts` script
+- Scans `/data/generated/questions/` directory for 808 company-role pairs
+- For each pair, loads questions and embeds 3-5 per category as quiz blocks
+- Generates 4 sections per module: behavioral, technical, culture, curveball
+- Outputs to `/data/generated/modules/company-role-{company}-{role}.json`
+- Sets `is_premium: true` and `type: "company-role"` for all modules
+- Supports `--dry-run`, `--company=X`, `--role=X`, and `--help` flags
+
+**Features:**
+- Quiz blocks embed question text, 4 answer options with correct/incorrect flags, and explanation
+- Correct answer derived from good_answer_traits
+- Wrong answers derived from common_mistakes
+- Explanations from interviewer_intent (truncated to 300 chars)
+- Deterministic option shuffling based on question hash
+- Key themes extracted from question tags
+
+**Files Created:**
+- `scripts/generate-company-role-modules.ts`
+- `data/generated/modules/company-role-*.json` (808 files)
+
+**Verification:**
+- `npx tsx scripts/generate-company-role-modules.ts --dry-run` - Shows 808 modules with 11,312 quiz blocks
+- `npm run lint` - passes with no errors
+- `npm run type-check` - passes with no errors
+- `npm run build` - successful production build
+- Generated modules have correct structure with all required fields:
+  - `type: "company-role"`
+  - `is_premium: true`
+  - `company_slug` and `role_slug`
+  - 4 sections with embedded quiz blocks (14 total per module)
