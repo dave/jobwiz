@@ -371,6 +371,7 @@ export function JourneyProgress({
               index={index}
               companySlug={companySlug}
               roleSlug={roleSlug}
+              progressLoading={progressLoading}
             />
           ))}
         </div>
@@ -385,6 +386,7 @@ interface ModuleListItemProps {
   index: number;
   companySlug: string;
   roleSlug: string;
+  progressLoading: boolean;
 }
 
 /** Individual module list item */
@@ -393,6 +395,7 @@ function ModuleListItem({
   index,
   companySlug,
   roleSlug,
+  progressLoading,
 }: ModuleListItemProps) {
   const {
     title,
@@ -400,11 +403,14 @@ function ModuleListItem({
     isPremium,
     isLocked,
     isCompleted,
-    isCurrent,
+    isCurrent: isCurrentFromProgress,
     itemCount,
     completedItemCount,
     startIndex,
   } = moduleInfo;
+
+  // Don't show "current" styling while progress is loading to prevent flicker
+  const isCurrent = progressLoading ? false : isCurrentFromProgress;
 
   // Determine if this module is clickable
   const isClickable = !isLocked;
