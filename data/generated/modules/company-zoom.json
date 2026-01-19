@@ -68,24 +68,6 @@
         {
           "type": "text",
           "content": {
-            "text": "**Technical Questions**"
-          }
-        },
-        {
-          "type": "tip",
-          "content": {
-            "text": "Zoom is testing both your statistical knowledge and your judgment. The textbook answer is easy - they're probing for business intuition."
-          }
-        },
-        {
-          "type": "tip",
-          "content": {
-            "text": "This question is a trap for candidates who only look at accuracy. Zoom is testing: Do you understand class imbalance?"
-          }
-        },
-        {
-          "type": "text",
-          "content": {
             "text": "**Culture Fit Questions**"
           }
         },
@@ -180,7 +162,7 @@
         {
           "type": "text",
           "content": {
-            "text": "**Zoom Interview Process Overview**\n\n- **Typical rounds:** 6 rounds typical\n- **Timeline:** 2-4 weeks\n- **Format:** Mix of phone screen, technical, behavioral, on-site, virtual"
+            "text": "**Zoom Interview Process Overview**\n\n- **Typical rounds:** 6 rounds typical\n- **Timeline:** 2-4 weeks\n- **Format:** Mix of phone screen, role-specific, behavioral, on-site, virtual"
           }
         },
         {

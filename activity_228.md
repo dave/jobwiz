@@ -24,7 +24,7 @@ Fix content quality issues identified during manual review of interview prep mod
 - [x] #282 - Consulting batch
 - [x] #283 - E-commerce/Retail batch
 - [x] #284 - Healthcare/Biotech batch
-- [ ] #285 - Enterprise SaaS batch
+- [x] #285 - Enterprise SaaS batch
 - [ ] #286 - Media/Entertainment batch
 - [ ] #287 - Other companies batch
 
@@ -1515,6 +1515,61 @@ Epic, Cerner, Optum, UnitedHealth, CVS Health, J&J, Pfizer, Moderna, Illumina, G
 
 **Verification:**
 - All 10 JSON files valid (node validation passes)
+- `npm run lint` - passes (warnings only for unrelated image issues)
+- `npm run type-check` - passes
+- `npm run build` - successful
+- `npm test -- --testPathPattern="modules"` - 77 tests pass
+
+**Acceptance Criteria:**
+- ✅ All company modules in batch reviewed
+- ✅ Role-specific content removed/generalized
+- ✅ Content still valuable for all roles
+- ✅ JSON valid after edits
+- ✅ All tests pass
+
+### 2026-01-19 - Issue #285: Remove role-specific content - Company modules: Enterprise SaaS
+
+**Status:** Complete
+
+**Modules Modified (19 total):**
+Salesforce, Oracle, SAP, Workday, ServiceNow, Atlassian, Splunk, Twilio, HubSpot, Zendesk, Okta, Cloudflare, MongoDB, Elastic, IBM, VMware, Slack, Zoom, DocuSign
+
+**Role-specific content removed/generalized:**
+
+1. **Interviewer Mindset section** (all 19 modules):
+   - Removed: "**Technical Questions**" sub-section entirely
+   - Removed: Tips about "statistical knowledge" and "class imbalance" (role-specific data science content)
+   - Generalized: Behavioral questions tip changed from "System design emphasis, Heavy focus on coding, Behavioral interviews important" to "Behavioral interviews, culture fit assessments, and problem-solving exercises"
+
+2. **Process section** (all 19 modules):
+   - Changed: "**Format:** Mix of ... technical ..." to "**Format:** Mix of ... role-specific ..."
+
+**Files Modified:**
+- `data/generated/modules/company-salesforce.json`
+- `data/generated/modules/company-oracle.json`
+- `data/generated/modules/company-sap.json`
+- `data/generated/modules/company-workday.json`
+- `data/generated/modules/company-servicenow.json`
+- `data/generated/modules/company-atlassian.json`
+- `data/generated/modules/company-splunk.json`
+- `data/generated/modules/company-twilio.json`
+- `data/generated/modules/company-hubspot.json`
+- `data/generated/modules/company-zendesk.json`
+- `data/generated/modules/company-okta.json`
+- `data/generated/modules/company-cloudflare.json`
+- `data/generated/modules/company-mongodb.json`
+- `data/generated/modules/company-elastic.json`
+- `data/generated/modules/company-ibm.json`
+- `data/generated/modules/company-vmware.json`
+- `data/generated/modules/company-slack.json`
+- `data/generated/modules/company-zoom.json`
+- `data/generated/modules/company-docusign.json`
+
+**Script Created:**
+- `scripts/cleanup/remove-role-specific-enterprise-saas.ts` - Automated removal of role-specific content
+
+**Verification:**
+- All 19 JSON files valid (python3 -m json.tool validation passes)
 - `npm run lint` - passes (warnings only for unrelated image issues)
 - `npm run type-check` - passes
 - `npm run build` - successful
