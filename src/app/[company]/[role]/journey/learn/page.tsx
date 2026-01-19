@@ -31,19 +31,7 @@ export default async function LearnPage({ params }: LearnPageProps) {
     notFound();
   }
 
-  // Load modules from filesystem and flatten for carousel
-  let flattenedResult = null;
-  try {
-    const { freeModules, premiumModules } = loadCarouselModules(
-      companySlug,
-      roleSlug
-    );
-    flattenedResult = flattenToCarouselItems(freeModules, premiumModules);
-  } catch (error) {
-    console.error("Error loading carousel modules:", error);
-  }
-
-  // Check if user has premium access
+  // Check if user has premium access first
   let hasPremiumAccess = false;
   try {
     const supabase = await createServerClient();
@@ -53,6 +41,30 @@ export default async function LearnPage({ params }: LearnPageProps) {
     }
   } catch (error) {
     console.error("Error checking access:", error);
+  }
+
+  // Load modules from filesystem and flatten for carousel
+  let flattenedResult = null;
+  try {
+    const { freeModules, premiumModules } = loadCarouselModules(
+      companySlug,
+      roleSlug
+    );
+    const fullResult = flattenToCarouselItems(freeModules, premiumModules);
+
+    // Filter out premium content if user doesn't have access
+    // Only send items up to and including the paywall to prevent data leak
+    if (!hasPremiumAccess && fullResult.paywallIndex !== null) {
+      flattenedResult = {
+        items: fullResult.items.slice(0, fullResult.paywallIndex + 1),
+        paywallIndex: fullResult.paywallIndex,
+        totalItems: fullResult.totalItems, // Keep original total for progress calculation
+      };
+    } else {
+      flattenedResult = fullResult;
+    }
+  } catch (error) {
+    console.error("Error loading carousel modules:", error);
   }
 
   return (
