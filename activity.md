@@ -4099,3 +4099,65 @@ All Stage 6 (Production Content Population) issues are now closed:
 
 **Screenshots:**
 - `screenshots/185-big-question-mode.png` - BigQuestionMode with welcome content
+
+### 2026-01-19 - Issue #186: Conversational mode
+
+**Completed:**
+- Created `src/components/alex/ConversationalMode.tsx` component
+- Implements scrolling chat interface with history for:
+  - `text`, `quote`, `tip`, `warning`, `quiz`, `checklist` content types
+
+**Layout:**
+- Messages render with small avatar (40px) for Alex
+- User answers show as pills on right (using ChatBubble variant="user")
+- Auto-scroll to latest message on new messages
+- "↓ New" indicator when user scrolls up and new messages arrive
+- Full module history visible in scrollable container
+
+**Features:**
+- Full viewport height (100dvh) with flex layout
+- Smooth auto-scroll to bottom on new messages
+- User scroll detection: when scrolled up, stops auto-scroll
+- "New" indicator button:
+  - Appears when scrolled up + new messages
+  - Click to scroll back to bottom
+  - Fixed position at bottom center
+- Reduced motion support via framer-motion
+- ARIA live region for accessibility
+
+**Props:**
+- `messages` - Array of ConversationMessage to display
+- `children` - Active content (options, continue button, etc.)
+- `className` - Custom class name
+- `data-testid` - Test ID for testing
+
+**Files Created:**
+- `src/components/alex/ConversationalMode.tsx` - Main component
+- `src/components/alex/__tests__/ConversationalMode.test.tsx` - 26 unit tests
+
+**Files Modified:**
+- `src/components/alex/index.ts` - Added ConversationalMode export
+
+**Tests:**
+- 26 unit tests covering:
+  - Rendering (7 tests)
+  - Message display (3 tests)
+  - Scrolling behavior (2 tests)
+  - New messages indicator (2 tests)
+  - Accessibility (3 tests)
+  - Children rendering (2 tests)
+  - Empty state (2 tests)
+  - Message updates (2 tests)
+  - Layout and styling (3 tests)
+
+**Verification:**
+- `npm run lint` - passes (only pre-existing warnings)
+- `npm run type-check` - passes with no errors
+- `npm run build` - successful production build
+- `npm test` - 171 alex component tests pass (26 new ConversationalMode tests)
+- All acceptance criteria verified:
+  - Messages render with small avatar ✓
+  - User answers show as pills on right ✓
+  - Auto-scroll to new messages ✓
+  - "↓ New" indicator when scrolled up ✓
+  - Full module history visible ✓
