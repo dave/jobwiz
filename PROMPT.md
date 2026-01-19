@@ -1,6 +1,6 @@
 @activity.md
 
-**ONLY CHOOSE ISSUES FROM STAGE 6**
+**ONLY CHOOSE ISSUES FROM STAGE 9**
 
 We are rebuilding the project from scratch in this repo.
 
