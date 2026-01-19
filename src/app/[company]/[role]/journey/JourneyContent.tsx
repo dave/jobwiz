@@ -75,7 +75,9 @@ export function JourneyContent({
 }: JourneyContentProps) {
   const { user } = useAuth();
   const [hasAccess, setHasAccess] = useState(initialHasAccess);
-  const [checkingAccess, setCheckingAccess] = useState(!initialHasAccess);
+  // Only show "checking" state if user is logged in but we need to verify access
+  // For logged-out users, we know they don't have access - show paywall immediately
+  const [checkingAccess, setCheckingAccess] = useState(isLoggedIn && !initialHasAccess);
   const [progress, setProgress] = useState<CarouselProgress | null>(null);
   const [progressLoaded, setProgressLoaded] = useState(false);
 
