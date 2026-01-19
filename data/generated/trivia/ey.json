@@ -1,0 +1,162 @@
+[
+  {
+    "company_slug": "ey",
+    "fact_type": "founding",
+    "format": "quiz",
+    "question": "When was EY (Ernst & Young) founded?",
+    "answer": "1989",
+    "options": [
+      "1984",
+      "1987",
+      "1992"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Ernst_%26_Young",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "ey",
+    "fact_type": "founding",
+    "format": "flashcard",
+    "question": "Who founded EY (Ernst & Young)?",
+    "answer": "Ernst & Whinney and Arthur Young (merged)",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Ernst_%26_Young",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "ey",
+    "fact_type": "founding",
+    "format": "factoid",
+    "question": null,
+    "answer": "EY (Ernst & Young) was founded in 1989 by Ernst & Whinney and Arthur Young (merged).",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Ernst_%26_Young",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "ey",
+    "fact_type": "hq",
+    "format": "quiz",
+    "question": "Where is EY (Ernst & Young)'s headquarters located?",
+    "answer": "London, United Kingdom",
+    "options": [
+      "New York, New York",
+      "Boston, Massachusetts",
+      "Paris, France"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Ernst_%26_Young",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "ey",
+    "fact_type": "hq",
+    "format": "flashcard",
+    "question": "What city is EY (Ernst & Young) headquartered in?",
+    "answer": "London, United Kingdom",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Ernst_%26_Young",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "ey",
+    "fact_type": "exec",
+    "format": "quiz",
+    "question": "Who is the current CEO of EY (Ernst & Young)?",
+    "answer": "Janet Truncale",
+    "options": [
+      "Bob Sternfels",
+      "Julie Sweet",
+      "Mohamed Kande"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Ernst_%26_Young",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "ey",
+    "fact_type": "exec",
+    "format": "flashcard",
+    "question": "Who leads EY (Ernst & Young) as CEO?",
+    "answer": "Janet Truncale",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Ernst_%26_Young",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "ey",
+    "fact_type": "mission",
+    "format": "factoid",
+    "question": null,
+    "answer": "EY (Ernst & Young)'s mission is \"Building a better working world\".",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Ernst_%26_Young",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "ey",
+    "fact_type": "mission",
+    "format": "flashcard",
+    "question": "What is EY (Ernst & Young)'s mission statement?",
+    "answer": "Building a better working world",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Ernst_%26_Young",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "ey",
+    "fact_type": "product",
+    "format": "quiz",
+    "question": "Which of these is a EY (Ernst & Young) practice area?",
+    "answer": "Assurance",
+    "options": [
+      "Strategy Consulting",
+      "Digital Transformation",
+      "Operations Consulting"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Ernst_%26_Young",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "ey",
+    "fact_type": "product",
+    "format": "factoid",
+    "question": null,
+    "answer": "Key EY (Ernst & Young) practice areas include Assurance, Consulting, Tax, Strategy and Transactions, Technology.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Ernst_%26_Young",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "ey",
+    "fact_type": "acquisition",
+    "format": "quiz",
+    "question": "Which company did EY (Ernst & Young) acquire in 2014?",
+    "answer": "Parthenon Group",
+    "options": [
+      "Quantum Black",
+      "Iguazio",
+      "Monitor Group"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Ernst_%26_Young",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "ey",
+    "fact_type": "acquisition",
+    "format": "factoid",
+    "question": null,
+    "answer": "EY (Ernst & Young) acquired Parthenon Group in 2014.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Ernst_%26_Young",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "ey",
+    "fact_type": "acquisition",
+    "format": "flashcard",
+    "question": "In what year did EY (Ernst & Young) acquire Riverview Law?",
+    "answer": "2018",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Ernst_%26_Young",
+    "source_date": "2026-01-19"
+  }
+]

@@ -1,0 +1,162 @@
+[
+  {
+    "company_slug": "deloitte",
+    "fact_type": "founding",
+    "format": "quiz",
+    "question": "When was Deloitte founded?",
+    "answer": "1845",
+    "options": [
+      "1825",
+      "1835",
+      "1860"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Deloitte",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "deloitte",
+    "fact_type": "founding",
+    "format": "flashcard",
+    "question": "Who founded Deloitte?",
+    "answer": "William Welch Deloitte",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Deloitte",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "deloitte",
+    "fact_type": "founding",
+    "format": "factoid",
+    "question": null,
+    "answer": "Deloitte was founded in 1845 by William Welch Deloitte.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Deloitte",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "deloitte",
+    "fact_type": "hq",
+    "format": "quiz",
+    "question": "Where is Deloitte's headquarters located?",
+    "answer": "London, United Kingdom",
+    "options": [
+      "New York, New York",
+      "Boston, Massachusetts",
+      "Paris, France"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Deloitte",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "deloitte",
+    "fact_type": "hq",
+    "format": "flashcard",
+    "question": "What city is Deloitte headquartered in?",
+    "answer": "London, United Kingdom",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Deloitte",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "deloitte",
+    "fact_type": "exec",
+    "format": "quiz",
+    "question": "Who is the current CEO of Deloitte?",
+    "answer": "Joe Ucuzoglu",
+    "options": [
+      "Bob Sternfels",
+      "Julie Sweet",
+      "Mohamed Kande"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Deloitte",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "deloitte",
+    "fact_type": "exec",
+    "format": "flashcard",
+    "question": "Who leads Deloitte as CEO?",
+    "answer": "Joe Ucuzoglu",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Deloitte",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "deloitte",
+    "fact_type": "mission",
+    "format": "factoid",
+    "question": null,
+    "answer": "Deloitte's mission is \"To make an impact that matters for our clients, our people, and society\".",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Deloitte",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "deloitte",
+    "fact_type": "mission",
+    "format": "flashcard",
+    "question": "What is Deloitte's mission statement?",
+    "answer": "To make an impact that matters for our clients, our people, and society",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Deloitte",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "deloitte",
+    "fact_type": "product",
+    "format": "quiz",
+    "question": "Which of these is a Deloitte practice area?",
+    "answer": "Audit & Assurance",
+    "options": [
+      "Strategy Consulting",
+      "Digital Transformation",
+      "Operations Consulting"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Deloitte",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "deloitte",
+    "fact_type": "product",
+    "format": "factoid",
+    "question": null,
+    "answer": "Key Deloitte practice areas include Audit & Assurance, Consulting, Tax & Legal, Risk Advisory, Financial Advisory.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Deloitte",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "deloitte",
+    "fact_type": "acquisition",
+    "format": "quiz",
+    "question": "Which company did Deloitte acquire in 2013?",
+    "answer": "Monitor Group",
+    "options": [
+      "Quantum Black",
+      "Iguazio",
+      "Strategy&"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Deloitte",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "deloitte",
+    "fact_type": "acquisition",
+    "format": "factoid",
+    "question": null,
+    "answer": "Deloitte acquired Monitor Group in 2013.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Deloitte",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "deloitte",
+    "fact_type": "acquisition",
+    "format": "flashcard",
+    "question": "In what year did Deloitte acquire Hashedln?",
+    "answer": "2021",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Deloitte",
+    "source_date": "2026-01-19"
+  }
+]

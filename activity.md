@@ -3033,3 +3033,54 @@ All Stage 5 (Launch) code issues are now closed:
 - Quiz items have exactly 3 wrong options
 - All items have source_url and source_date
 
+### 2026-01-18 - Issue #89: Generate company trivia: Consulting batch
+
+**Completed:**
+- Created trivia generation script `/scripts/generate-trivia-consulting.ts`
+- Generated trivia for 10 Consulting companies:
+  - McKinsey & Company, Boston Consulting Group (BCG), Bain & Company
+  - Deloitte, Accenture, PwC, EY (Ernst & Young)
+  - KPMG, Capgemini, Booz Allen Hamilton
+- Generated 140 trivia items total (14 items per company)
+- Output files in `/data/generated/trivia/{company}.json`
+
+**Trivia Types Generated:**
+- Founding (quiz, flashcard, factoid)
+- Headquarters (quiz, flashcard)
+- CEO/Executive (quiz, flashcard)
+- Mission statement (factoid, flashcard)
+- Products (quiz, factoid)
+- Acquisitions (quiz, factoid, flashcard)
+
+**Format per Item:**
+- `company_slug` - company identifier
+- `fact_type` - founding, hq, mission, product, news, exec, acquisition
+- `format` - quiz, flashcard, factoid
+- `question` - question text (null for factoids)
+- `answer` - correct answer
+- `options` - 3 wrong answers (for quiz format only)
+- `source_url` - Wikipedia source link
+- `source_date` - date of generation
+
+**Files Created:**
+- `scripts/generate-trivia-consulting.ts` - trivia generation script
+- `data/generated/trivia/mckinsey.json` (14 items)
+- `data/generated/trivia/bcg.json` (14 items)
+- `data/generated/trivia/bain.json` (14 items)
+- `data/generated/trivia/deloitte.json` (14 items)
+- `data/generated/trivia/accenture.json` (14 items)
+- `data/generated/trivia/pwc.json` (14 items)
+- `data/generated/trivia/ey.json` (14 items)
+- `data/generated/trivia/kpmg.json` (14 items)
+- `data/generated/trivia/capgemini.json` (14 items)
+- `data/generated/trivia/booz-allen.json` (14 items)
+
+**Verification:**
+- `npm run lint` - passes with no errors
+- `npm run type-check` - passes with no errors
+- `npm run build` - successful production build
+- `npm test` - 2163 passed, 2 todo, 13 pre-existing failures (unrelated to this change)
+- All trivia files conform to expected schema
+- Quiz items have exactly 3 wrong options
+- All items have source_url and source_date
+

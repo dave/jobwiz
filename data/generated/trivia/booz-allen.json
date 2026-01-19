@@ -1,0 +1,162 @@
+[
+  {
+    "company_slug": "booz-allen",
+    "fact_type": "founding",
+    "format": "quiz",
+    "question": "When was Booz Allen Hamilton founded?",
+    "answer": "1914",
+    "options": [
+      "1904",
+      "1909",
+      "1922"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Booz_Allen_Hamilton",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "booz-allen",
+    "fact_type": "founding",
+    "format": "flashcard",
+    "question": "Who founded Booz Allen Hamilton?",
+    "answer": "Edwin Booz",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Booz_Allen_Hamilton",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "booz-allen",
+    "fact_type": "founding",
+    "format": "factoid",
+    "question": null,
+    "answer": "Booz Allen Hamilton was founded in 1914 by Edwin Booz.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Booz_Allen_Hamilton",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "booz-allen",
+    "fact_type": "hq",
+    "format": "quiz",
+    "question": "Where is Booz Allen Hamilton's headquarters located?",
+    "answer": "McLean, Virginia",
+    "options": [
+      "New York, New York",
+      "Boston, Massachusetts",
+      "London, United Kingdom"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Booz_Allen_Hamilton",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "booz-allen",
+    "fact_type": "hq",
+    "format": "flashcard",
+    "question": "What city is Booz Allen Hamilton headquartered in?",
+    "answer": "McLean, Virginia",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Booz_Allen_Hamilton",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "booz-allen",
+    "fact_type": "exec",
+    "format": "quiz",
+    "question": "Who is the current CEO of Booz Allen Hamilton?",
+    "answer": "Horacio Rozanski",
+    "options": [
+      "Bob Sternfels",
+      "Julie Sweet",
+      "Aiman Ezzat"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Booz_Allen_Hamilton",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "booz-allen",
+    "fact_type": "exec",
+    "format": "flashcard",
+    "question": "Who leads Booz Allen Hamilton as CEO?",
+    "answer": "Horacio Rozanski",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Booz_Allen_Hamilton",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "booz-allen",
+    "fact_type": "mission",
+    "format": "factoid",
+    "question": null,
+    "answer": "Booz Allen Hamilton's mission is \"To empower people to change the world\".",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Booz_Allen_Hamilton",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "booz-allen",
+    "fact_type": "mission",
+    "format": "flashcard",
+    "question": "What is Booz Allen Hamilton's mission statement?",
+    "answer": "To empower people to change the world",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Booz_Allen_Hamilton",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "booz-allen",
+    "fact_type": "product",
+    "format": "quiz",
+    "question": "Which of these is a Booz Allen Hamilton practice area?",
+    "answer": "Defense Consulting",
+    "options": [
+      "Strategy Consulting",
+      "Digital Transformation",
+      "Operations Consulting"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Booz_Allen_Hamilton",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "booz-allen",
+    "fact_type": "product",
+    "format": "factoid",
+    "question": null,
+    "answer": "Key Booz Allen Hamilton practice areas include Defense Consulting, Intelligence Services, Digital Solutions, Engineering, Cyber.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Booz_Allen_Hamilton",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "booz-allen",
+    "fact_type": "acquisition",
+    "format": "quiz",
+    "question": "Which company did Booz Allen Hamilton acquire in 2021?",
+    "answer": "Liberty IT Solutions",
+    "options": [
+      "Quantum Black",
+      "Iguazio",
+      "Monitor Group"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Booz_Allen_Hamilton",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "booz-allen",
+    "fact_type": "acquisition",
+    "format": "factoid",
+    "question": null,
+    "answer": "Booz Allen Hamilton acquired Liberty IT Solutions in 2021.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Booz_Allen_Hamilton",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "booz-allen",
+    "fact_type": "acquisition",
+    "format": "flashcard",
+    "question": "In what year did Booz Allen Hamilton acquire Tracepoint?",
+    "answer": "2022",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Booz_Allen_Hamilton",
+    "source_date": "2026-01-19"
+  }
+]

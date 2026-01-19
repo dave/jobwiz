@@ -1,0 +1,162 @@
+[
+  {
+    "company_slug": "mckinsey",
+    "fact_type": "founding",
+    "format": "quiz",
+    "question": "When was McKinsey & Company founded?",
+    "answer": "1926",
+    "options": [
+      "1916",
+      "1921",
+      "1934"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/McKinsey_%26_Company",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "mckinsey",
+    "fact_type": "founding",
+    "format": "flashcard",
+    "question": "Who founded McKinsey & Company?",
+    "answer": "James O. McKinsey",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/McKinsey_%26_Company",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "mckinsey",
+    "fact_type": "founding",
+    "format": "factoid",
+    "question": null,
+    "answer": "McKinsey & Company was founded in 1926 by James O. McKinsey.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/McKinsey_%26_Company",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "mckinsey",
+    "fact_type": "hq",
+    "format": "quiz",
+    "question": "Where is McKinsey & Company's headquarters located?",
+    "answer": "New York, New York",
+    "options": [
+      "Boston, Massachusetts",
+      "London, United Kingdom",
+      "Paris, France"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/McKinsey_%26_Company",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "mckinsey",
+    "fact_type": "hq",
+    "format": "flashcard",
+    "question": "What city is McKinsey & Company headquartered in?",
+    "answer": "New York, New York",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/McKinsey_%26_Company",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "mckinsey",
+    "fact_type": "exec",
+    "format": "quiz",
+    "question": "Who is the current CEO of McKinsey & Company?",
+    "answer": "Bob Sternfels",
+    "options": [
+      "Christoph Schweizer",
+      "Manny Maceda",
+      "Julie Sweet"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/McKinsey_%26_Company",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "mckinsey",
+    "fact_type": "exec",
+    "format": "flashcard",
+    "question": "Who leads McKinsey & Company as CEO?",
+    "answer": "Bob Sternfels",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/McKinsey_%26_Company",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "mckinsey",
+    "fact_type": "mission",
+    "format": "factoid",
+    "question": null,
+    "answer": "McKinsey & Company's mission is \"To help our clients make distinctive, lasting, and substantial improvements in their performance and to build a great firm that attracts, develops, excites, and retains exceptional people\".",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/McKinsey_%26_Company",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "mckinsey",
+    "fact_type": "mission",
+    "format": "flashcard",
+    "question": "What is McKinsey & Company's mission statement?",
+    "answer": "To help our clients make distinctive, lasting, and substantial improvements in their performance and to build a great firm that attracts, develops, excites, and retains exceptional people",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/McKinsey_%26_Company",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "mckinsey",
+    "fact_type": "product",
+    "format": "quiz",
+    "question": "Which of these is a McKinsey & Company practice area?",
+    "answer": "Strategy Consulting",
+    "options": [
+      "Digital Transformation",
+      "Operations Consulting",
+      "Technology Services"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/McKinsey_%26_Company",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "mckinsey",
+    "fact_type": "product",
+    "format": "factoid",
+    "question": null,
+    "answer": "Key McKinsey & Company practice areas include Strategy Consulting, Digital Transformation, Operations Consulting, McKinsey Digital, McKinsey Analytics.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/McKinsey_%26_Company",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "mckinsey",
+    "fact_type": "acquisition",
+    "format": "quiz",
+    "question": "Which company did McKinsey & Company acquire in 2015?",
+    "answer": "Quantum Black",
+    "options": [
+      "Iguazio",
+      "Monitor Group",
+      "Strategy&"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/McKinsey_%26_Company",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "mckinsey",
+    "fact_type": "acquisition",
+    "format": "factoid",
+    "question": null,
+    "answer": "McKinsey & Company acquired Quantum Black in 2015.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/McKinsey_%26_Company",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "mckinsey",
+    "fact_type": "acquisition",
+    "format": "flashcard",
+    "question": "In what year did McKinsey & Company acquire Iguazio?",
+    "answer": "2022",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/McKinsey_%26_Company",
+    "source_date": "2026-01-19"
+  }
+]
