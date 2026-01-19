@@ -18,11 +18,13 @@ import {
   ContentItem,
   QuizItem,
   MediaItem,
+  ChecklistItem,
   useCarousel,
 } from "@/components/carousel";
 import type { CarouselItem } from "@/types/carousel";
 import type {
   QuizBlock,
+  ChecklistBlock,
   VideoBlock,
   AudioBlock,
   ImageBlock,
@@ -126,6 +128,16 @@ function CarouselContentInner({
           block={
             content as VideoBlock | AudioBlock | ImageBlock | InfographicBlock
           }
+          onComplete={handleItemComplete}
+        />
+      );
+    }
+
+    // Handle checklist items
+    if (type === "checklist" || content.type === "checklist") {
+      return (
+        <ChecklistItem
+          block={content as ChecklistBlock}
           onComplete={handleItemComplete}
         />
       );

@@ -16,7 +16,9 @@ export {
   ContentItem,
   QuizItem,
   MediaItem,
+  ChecklistItem,
   type ContentItemProps,
   type QuizItemProps,
   type MediaItemProps,
+  type ChecklistItemProps,
 } from "./items";
