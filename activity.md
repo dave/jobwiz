@@ -3325,3 +3325,39 @@ All Stage 5 (Launch) code issues are now closed:
   - Each company has: company_slug, logo_url, primary_color, secondary_color, industry_category
   - Migration uses ON CONFLICT for upsert (updates existing themes)
 
+### 2026-01-19 - Issue #95: Expand company themes: High-growth startups batch
+
+**Completed:**
+- Created Supabase migration for high-growth startup company themes
+- Created JSON theme data file for content loader
+- Added brand colors and logos for 14 high-growth startup companies:
+  - Stripe (#635BFF purple, #32325D dark)
+  - Figma (#F24E1E orange, #A259FF purple)
+  - Notion (#000000 black, #FFFFFF white)
+  - Vercel (#000000 black, #FFFFFF white)
+  - Databricks (#FF3621 red-orange, #1B3139 dark)
+  - Snowflake (#29B5E8 blue, #0052CC dark blue)
+  - Airbnb (#FF5A5F coral, #484848 dark gray)
+  - Uber (#000000 black, #FFFFFF white)
+  - Lyft (#FF00BF pink, #11111F dark)
+  - DoorDash (#FF3008 red, #191919 dark)
+  - Instacart (#0AAD05 green, #003D29 dark green)
+  - Coinbase (#0052FF blue, #0A0B0D dark)
+  - Robinhood (#00C805 green, #000000 black)
+  - Plaid (#000000 black, #109DD7 blue)
+
+**Files Created:**
+- `supabase/migrations/20260119000003_insert_startup_themes.sql`
+- `data/generated/themes/high-growth-startups.json` (14 themes)
+
+**Verification:**
+- `npm run lint` - passes with no errors
+- `npm run type-check` - passes with no errors
+- `npm run build` - successful production build
+- `npm test` - 2163 passed, 2 todo, 12 pre-existing failures (unrelated to this change)
+- JSON file validated with jq
+- All acceptance criteria verified:
+  - Theme data for 14 high-growth startup companies
+  - Each company has: company_slug, logo_url, primary_color, secondary_color, industry_category
+  - Migration uses ON CONFLICT for upsert (updates existing themes)
+
