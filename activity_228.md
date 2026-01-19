@@ -470,3 +470,50 @@ All 22 role modules have correct grammar:
 - ✅ All grammar issues fixed (none found)
 - ✅ JSON valid after edits (no edits needed)
 
+### 2026-01-19 - Issue #261: Grammar review - Company modules: Big Tech
+
+**Completed:**
+- Reviewed all 12 Big Tech company modules:
+  - `company-google.json` - No issues found
+  - `company-meta.json` - No issues found
+  - `company-amazon.json` - No issues found
+  - `company-apple.json` - No issues found
+  - `company-microsoft.json` - No issues found
+  - `company-netflix.json` - No issues found
+  - `company-nvidia.json` - 2 issues found and fixed
+  - `company-intel.json` - No issues found
+  - `company-amd.json` - No issues found
+  - `company-cisco.json` - No issues found
+  - `company-tesla.json` - No issues found
+  - `company-adobe.json` - 1 issue found and fixed
+
+**Issues Fixed:**
+
+1. **company-nvidia.json - Common Interview Questions section:**
+   - Contained garbled/incomplete scraped content like `"why not do this as a career?"` and `"the recruiter or checked out the JD in detail?"`
+   - Replaced with proper "What to Expect" section with complete sentences
+
+2. **company-nvidia.json - Insider Tips section:**
+   - Contained incomplete fragments: `"you're prepared for *system design* questions (e"` (cut off mid-word)
+   - Replaced with proper insider tips with complete sentences
+
+3. **company-adobe.json - Timeline value:**
+   - Timeline showed "0 weeks" which is incorrect
+   - Fixed to "2-4 weeks" to match other Big Tech companies
+
+**Files Modified:**
+- `data/generated/modules/company-nvidia.json` - Fixed 2 sections
+- `data/generated/modules/company-adobe.json` - Fixed timeline value
+
+**Verification:**
+- All JSON files valid (python3 -m json.tool validation passes)
+- `npm run lint` - passes (warnings only for unrelated image issues)
+- `npm run type-check` - passes
+- `npm run build` - successful
+- `npm test -- --testPathPattern="modules"` - 77 tests pass
+
+**Acceptance Criteria:**
+- ✅ All 12 Big Tech company modules reviewed
+- ✅ All grammar issues fixed (3 issues found and fixed)
+- ✅ JSON valid after edits
+

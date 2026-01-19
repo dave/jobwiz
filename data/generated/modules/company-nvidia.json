@@ -186,7 +186,7 @@
         {
           "type": "text",
           "content": {
-            "text": "**Common Interview Questions:**\n\n- \"why not do this as a career?\"\n- \"leetcode - just want to get a better idea, is there a higher chance of getting asked leetcode, or more specific fundamental stuff?\"\n- \"the recruiter or checked out the JD in detail?\"\n- \"What is your comp package?\""
+            "text": "**What to Expect:**\n\nNVIDIA interviews typically include:\n- Deep technical questions on GPU architecture and parallel computing\n- System design discussions for hardware and software roles\n- Coding interviews focusing on algorithms and optimization\n- Behavioral questions about working in fast-paced environments\n- Discussion of your experience with graphics, AI, or high-performance computing"
           }
         },
         {
@@ -237,7 +237,7 @@
         {
           "type": "text",
           "content": {
-            "text": "**Insider Tips:**\n\n- you draw from a wide variety of sources and hear others' testimonials when planning for interviews\n- you're prepared for *system design* questions (e\n- reading *Clean Code* by Robert Cecil Martin\n- trying to get into some Open Source communities, contributing and developing as a hobby\n- EPI (elements of programming interviews) if you have the spare funds / time"
+            "text": "**Insider Tips:**\n\n- Demonstrate deep knowledge of GPU architecture, CUDA, and parallel computing\n- Be prepared for system design questions focused on high-performance computing\n- Show enthusiasm for AI, machine learning, and graphics technology\n- Highlight experience with performance optimization and low-level programming\n- Research NVIDIA's latest products and their position in the AI hardware market"
           }
         },
         {
