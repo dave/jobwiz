@@ -1,0 +1,162 @@
+[
+  {
+    "company_slug": "home-depot",
+    "fact_type": "founding",
+    "format": "quiz",
+    "question": "When was The Home Depot founded?",
+    "answer": "1978",
+    "options": [
+      "1970",
+      "1974",
+      "1984"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/The_Home_Depot",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "home-depot",
+    "fact_type": "founding",
+    "format": "flashcard",
+    "question": "Who founded The Home Depot?",
+    "answer": "Bernie Marcus and Arthur Blank and others",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/The_Home_Depot",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "home-depot",
+    "fact_type": "founding",
+    "format": "factoid",
+    "question": null,
+    "answer": "The Home Depot was founded in 1978 by Bernie Marcus and Arthur Blank and others.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/The_Home_Depot",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "home-depot",
+    "fact_type": "hq",
+    "format": "quiz",
+    "question": "Where is The Home Depot's headquarters located?",
+    "answer": "Atlanta, Georgia",
+    "options": [
+      "Seattle, Washington",
+      "San Francisco, California",
+      "New York, New York"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/The_Home_Depot",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "home-depot",
+    "fact_type": "hq",
+    "format": "flashcard",
+    "question": "What city is The Home Depot headquartered in?",
+    "answer": "Atlanta, Georgia",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/The_Home_Depot",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "home-depot",
+    "fact_type": "exec",
+    "format": "quiz",
+    "question": "Who is the current CEO of The Home Depot?",
+    "answer": "Ted Decker",
+    "options": [
+      "Doug McMillon",
+      "Brian Cornell",
+      "Ron Vachris"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/The_Home_Depot",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "home-depot",
+    "fact_type": "exec",
+    "format": "flashcard",
+    "question": "Who leads The Home Depot as CEO?",
+    "answer": "Ted Decker",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/The_Home_Depot",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "home-depot",
+    "fact_type": "mission",
+    "format": "factoid",
+    "question": null,
+    "answer": "The Home Depot's mission is \"To provide the highest level of service, the broadest selection of products, and the most competitive prices\".",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/The_Home_Depot",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "home-depot",
+    "fact_type": "mission",
+    "format": "flashcard",
+    "question": "What is The Home Depot's mission statement?",
+    "answer": "To provide the highest level of service, the broadest selection of products, and the most competitive prices",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/The_Home_Depot",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "home-depot",
+    "fact_type": "product",
+    "format": "quiz",
+    "question": "Which of these is a The Home Depot product or service?",
+    "answer": "Home Improvement",
+    "options": [
+      "E-commerce Platform",
+      "Warehouse Clubs",
+      "Consumer Electronics"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/The_Home_Depot",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "home-depot",
+    "fact_type": "product",
+    "format": "factoid",
+    "question": null,
+    "answer": "The Home Depot offers Home Improvement, Pro Services, Tool Rental, Installation Services.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/The_Home_Depot",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "home-depot",
+    "fact_type": "acquisition",
+    "format": "quiz",
+    "question": "Which company did The Home Depot acquire in 2020?",
+    "answer": "HD Supply",
+    "options": [
+      "Deliverr",
+      "6 River Systems",
+      "Oberlo"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/The_Home_Depot",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "home-depot",
+    "fact_type": "acquisition",
+    "format": "factoid",
+    "question": null,
+    "answer": "The Home Depot acquired HD Supply in 2020.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/The_Home_Depot",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "home-depot",
+    "fact_type": "acquisition",
+    "format": "flashcard",
+    "question": "In what year did The Home Depot acquire Interline Brands?",
+    "answer": "2015",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/The_Home_Depot",
+    "source_date": "2026-01-19"
+  }
+]

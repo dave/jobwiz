@@ -1,0 +1,128 @@
+[
+  {
+    "company_slug": "chewy",
+    "fact_type": "founding",
+    "format": "quiz",
+    "question": "When was Chewy founded?",
+    "answer": "2011",
+    "options": [
+      "2006",
+      "2009",
+      "2014"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Chewy_(company)",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "chewy",
+    "fact_type": "founding",
+    "format": "flashcard",
+    "question": "Who founded Chewy?",
+    "answer": "Ryan Cohen and Michael Day",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Chewy_(company)",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "chewy",
+    "fact_type": "founding",
+    "format": "factoid",
+    "question": null,
+    "answer": "Chewy was founded in 2011 by Ryan Cohen and Michael Day.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Chewy_(company)",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "chewy",
+    "fact_type": "hq",
+    "format": "quiz",
+    "question": "Where is Chewy's headquarters located?",
+    "answer": "Dania Beach, Florida",
+    "options": [
+      "Seattle, Washington",
+      "San Francisco, California",
+      "New York, New York"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Chewy_(company)",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "chewy",
+    "fact_type": "hq",
+    "format": "flashcard",
+    "question": "What city is Chewy headquartered in?",
+    "answer": "Dania Beach, Florida",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Chewy_(company)",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "chewy",
+    "fact_type": "exec",
+    "format": "quiz",
+    "question": "Who is the current CEO of Chewy?",
+    "answer": "Sumit Singh",
+    "options": [
+      "Niraj Shah",
+      "Josh Silverman",
+      "Brian Cornell"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Chewy_(company)",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "chewy",
+    "fact_type": "exec",
+    "format": "flashcard",
+    "question": "Who leads Chewy as CEO?",
+    "answer": "Sumit Singh",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Chewy_(company)",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "chewy",
+    "fact_type": "mission",
+    "format": "factoid",
+    "question": null,
+    "answer": "Chewy's mission is \"To be the most trusted and convenient destination for pet parents\".",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Chewy_(company)",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "chewy",
+    "fact_type": "mission",
+    "format": "flashcard",
+    "question": "What is Chewy's mission statement?",
+    "answer": "To be the most trusted and convenient destination for pet parents",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Chewy_(company)",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "chewy",
+    "fact_type": "product",
+    "format": "quiz",
+    "question": "Which of these is a Chewy product or service?",
+    "answer": "Pet Food",
+    "options": [
+      "E-commerce Platform",
+      "Warehouse Clubs",
+      "Consumer Electronics"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Chewy_(company)",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "chewy",
+    "fact_type": "product",
+    "format": "factoid",
+    "question": null,
+    "answer": "Chewy offers Pet Food, Pet Supplies, Chewy Pharmacy, Autoship Subscriptions.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Chewy_(company)",
+    "source_date": "2026-01-19"
+  }
+]

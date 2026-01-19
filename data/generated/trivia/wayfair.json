@@ -1,0 +1,152 @@
+[
+  {
+    "company_slug": "wayfair",
+    "fact_type": "founding",
+    "format": "quiz",
+    "question": "When was Wayfair founded?",
+    "answer": "2002",
+    "options": [
+      "1997",
+      "2000",
+      "2005"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Wayfair",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "wayfair",
+    "fact_type": "founding",
+    "format": "flashcard",
+    "question": "Who founded Wayfair?",
+    "answer": "Niraj Shah and Steve Conine",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Wayfair",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "wayfair",
+    "fact_type": "founding",
+    "format": "factoid",
+    "question": null,
+    "answer": "Wayfair was founded in 2002 by Niraj Shah and Steve Conine.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Wayfair",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "wayfair",
+    "fact_type": "hq",
+    "format": "quiz",
+    "question": "Where is Wayfair's headquarters located?",
+    "answer": "Boston, Massachusetts",
+    "options": [
+      "Seattle, Washington",
+      "San Francisco, California",
+      "New York, New York"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Wayfair",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "wayfair",
+    "fact_type": "hq",
+    "format": "flashcard",
+    "question": "What city is Wayfair headquartered in?",
+    "answer": "Boston, Massachusetts",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Wayfair",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "wayfair",
+    "fact_type": "exec",
+    "format": "quiz",
+    "question": "Who is the current CEO of Wayfair?",
+    "answer": "Niraj Shah",
+    "options": [
+      "Josh Silverman",
+      "Brian Cornell",
+      "Doug McMillon"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Wayfair",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "wayfair",
+    "fact_type": "exec",
+    "format": "flashcard",
+    "question": "Who leads Wayfair as CEO?",
+    "answer": "Niraj Shah",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Wayfair",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "wayfair",
+    "fact_type": "mission",
+    "format": "factoid",
+    "question": null,
+    "answer": "Wayfair's mission is \"To help everyone, anywhere, create their feeling of home\".",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Wayfair",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "wayfair",
+    "fact_type": "mission",
+    "format": "flashcard",
+    "question": "What is Wayfair's mission statement?",
+    "answer": "To help everyone, anywhere, create their feeling of home",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Wayfair",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "wayfair",
+    "fact_type": "product",
+    "format": "quiz",
+    "question": "Which of these is a Wayfair product or service?",
+    "answer": "Wayfair",
+    "options": [
+      "E-commerce Platform",
+      "Warehouse Clubs",
+      "Consumer Electronics"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Wayfair",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "wayfair",
+    "fact_type": "product",
+    "format": "factoid",
+    "question": null,
+    "answer": "Wayfair offers Wayfair, AllModern, Birch Lane, Joss & Main.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Wayfair",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "wayfair",
+    "fact_type": "acquisition",
+    "format": "quiz",
+    "question": "Which company did Wayfair acquire in 2012?",
+    "answer": "Linen Alley",
+    "options": [
+      "Deliverr",
+      "6 River Systems",
+      "Oberlo"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Wayfair",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "wayfair",
+    "fact_type": "acquisition",
+    "format": "factoid",
+    "question": null,
+    "answer": "Wayfair acquired Linen Alley in 2012.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Wayfair",
+    "source_date": "2026-01-19"
+  }
+]

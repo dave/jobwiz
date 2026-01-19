@@ -1,0 +1,162 @@
+[
+  {
+    "company_slug": "best-buy",
+    "fact_type": "founding",
+    "format": "quiz",
+    "question": "When was Best Buy founded?",
+    "answer": "1966",
+    "options": [
+      "1958",
+      "1962",
+      "1972"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Best_Buy",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "best-buy",
+    "fact_type": "founding",
+    "format": "flashcard",
+    "question": "Who founded Best Buy?",
+    "answer": "Richard Schulze",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Best_Buy",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "best-buy",
+    "fact_type": "founding",
+    "format": "factoid",
+    "question": null,
+    "answer": "Best Buy was founded in 1966 by Richard Schulze.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Best_Buy",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "best-buy",
+    "fact_type": "hq",
+    "format": "quiz",
+    "question": "Where is Best Buy's headquarters located?",
+    "answer": "Richfield, Minnesota",
+    "options": [
+      "Seattle, Washington",
+      "San Francisco, California",
+      "New York, New York"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Best_Buy",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "best-buy",
+    "fact_type": "hq",
+    "format": "flashcard",
+    "question": "What city is Best Buy headquartered in?",
+    "answer": "Richfield, Minnesota",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Best_Buy",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "best-buy",
+    "fact_type": "exec",
+    "format": "quiz",
+    "question": "Who is the current CEO of Best Buy?",
+    "answer": "Corie Barry",
+    "options": [
+      "Doug McMillon",
+      "Brian Cornell",
+      "Ted Decker"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Best_Buy",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "best-buy",
+    "fact_type": "exec",
+    "format": "flashcard",
+    "question": "Who leads Best Buy as CEO?",
+    "answer": "Corie Barry",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Best_Buy",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "best-buy",
+    "fact_type": "mission",
+    "format": "factoid",
+    "question": null,
+    "answer": "Best Buy's mission is \"To enrich lives through technology\".",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Best_Buy",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "best-buy",
+    "fact_type": "mission",
+    "format": "flashcard",
+    "question": "What is Best Buy's mission statement?",
+    "answer": "To enrich lives through technology",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Best_Buy",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "best-buy",
+    "fact_type": "product",
+    "format": "quiz",
+    "question": "Which of these is a Best Buy product or service?",
+    "answer": "Consumer Electronics",
+    "options": [
+      "E-commerce Platform",
+      "Warehouse Clubs",
+      "Athletic Footwear"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Best_Buy",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "best-buy",
+    "fact_type": "product",
+    "format": "factoid",
+    "question": null,
+    "answer": "Best Buy offers Consumer Electronics, Geek Squad, Best Buy Business, Best Buy Health.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Best_Buy",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "best-buy",
+    "fact_type": "acquisition",
+    "format": "quiz",
+    "question": "Which company did Best Buy acquire in 2018?",
+    "answer": "GreatCall",
+    "options": [
+      "Deliverr",
+      "6 River Systems",
+      "Oberlo"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Best_Buy",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "best-buy",
+    "fact_type": "acquisition",
+    "format": "factoid",
+    "question": null,
+    "answer": "Best Buy acquired GreatCall in 2018.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Best_Buy",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "best-buy",
+    "fact_type": "acquisition",
+    "format": "flashcard",
+    "question": "In what year did Best Buy acquire Critical Signal Technologies?",
+    "answer": "2019",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Best_Buy",
+    "source_date": "2026-01-19"
+  }
+]

@@ -3084,3 +3084,55 @@ All Stage 5 (Launch) code issues are now closed:
 - Quiz items have exactly 3 wrong options
 - All items have source_url and source_date
 
+
+### 2026-01-19 - Issue #90: Generate company trivia: E-commerce/Retail batch
+
+**Completed:**
+- Created trivia generation script `/scripts/generate-trivia-ecommerce.ts`
+- Generated trivia for 11 E-commerce/Retail companies:
+  - Shopify, Etsy, Wayfair, Chewy, Target
+  - Walmart, Costco, Home Depot, Best Buy, Nike, Lululemon
+- Generated 149 trivia items total (11-14 items per company)
+- Output files in `/data/generated/trivia/{company}.json`
+
+**Trivia Types Generated:**
+- Founding (quiz, flashcard, factoid)
+- Headquarters (quiz, flashcard)
+- CEO/Executive (quiz, flashcard)
+- Mission statement (factoid, flashcard)
+- Products (quiz, factoid)
+- Acquisitions (quiz, factoid, flashcard)
+
+**Format per Item:**
+- `company_slug` - company identifier
+- `fact_type` - founding, hq, mission, product, news, exec, acquisition
+- `format` - quiz, flashcard, factoid
+- `question` - question text (null for factoids)
+- `answer` - correct answer
+- `options` - 3 wrong answers (for quiz format only)
+- `source_url` - Wikipedia source link
+- `source_date` - date of generation
+
+**Files Created:**
+- `scripts/generate-trivia-ecommerce.ts` - trivia generation script
+- `data/generated/trivia/shopify.json` (14 items)
+- `data/generated/trivia/etsy.json` (14 items)
+- `data/generated/trivia/wayfair.json` (13 items)
+- `data/generated/trivia/chewy.json` (11 items)
+- `data/generated/trivia/target.json` (14 items)
+- `data/generated/trivia/walmart.json` (14 items)
+- `data/generated/trivia/costco.json` (14 items)
+- `data/generated/trivia/home-depot.json` (14 items)
+- `data/generated/trivia/best-buy.json` (14 items)
+- `data/generated/trivia/nike.json` (14 items)
+- `data/generated/trivia/lululemon.json` (13 items)
+
+**Verification:**
+- `npm run lint` - passes with no errors
+- `npm run type-check` - passes with no errors
+- `npm run build` - successful production build
+- `npm test` - 2163 passed, 2 todo, 12 pre-existing failures (unrelated to this change)
+- All trivia files conform to expected schema
+- Quiz items have exactly 3 wrong options
+- All items have source_url and source_date
+

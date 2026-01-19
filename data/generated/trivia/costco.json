@@ -1,0 +1,162 @@
+[
+  {
+    "company_slug": "costco",
+    "fact_type": "founding",
+    "format": "quiz",
+    "question": "When was Costco founded?",
+    "answer": "1983",
+    "options": [
+      "1978",
+      "1981",
+      "1986"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Costco",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "costco",
+    "fact_type": "founding",
+    "format": "flashcard",
+    "question": "Who founded Costco?",
+    "answer": "James Sinegal and Jeffrey Brotman",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Costco",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "costco",
+    "fact_type": "founding",
+    "format": "factoid",
+    "question": null,
+    "answer": "Costco was founded in 1983 by James Sinegal and Jeffrey Brotman.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Costco",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "costco",
+    "fact_type": "hq",
+    "format": "quiz",
+    "question": "Where is Costco's headquarters located?",
+    "answer": "Issaquah, Washington",
+    "options": [
+      "Seattle, Washington",
+      "San Francisco, California",
+      "New York, New York"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Costco",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "costco",
+    "fact_type": "hq",
+    "format": "flashcard",
+    "question": "What city is Costco headquartered in?",
+    "answer": "Issaquah, Washington",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Costco",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "costco",
+    "fact_type": "exec",
+    "format": "quiz",
+    "question": "Who is the current CEO of Costco?",
+    "answer": "Ron Vachris",
+    "options": [
+      "Doug McMillon",
+      "Brian Cornell",
+      "Ted Decker"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Costco",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "costco",
+    "fact_type": "exec",
+    "format": "flashcard",
+    "question": "Who leads Costco as CEO?",
+    "answer": "Ron Vachris",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Costco",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "costco",
+    "fact_type": "mission",
+    "format": "factoid",
+    "question": null,
+    "answer": "Costco's mission is \"To continually provide our members with quality goods and services at the lowest possible prices\".",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Costco",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "costco",
+    "fact_type": "mission",
+    "format": "flashcard",
+    "question": "What is Costco's mission statement?",
+    "answer": "To continually provide our members with quality goods and services at the lowest possible prices",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Costco",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "costco",
+    "fact_type": "product",
+    "format": "quiz",
+    "question": "Which of these is a Costco product or service?",
+    "answer": "Warehouse Clubs",
+    "options": [
+      "E-commerce Platform",
+      "Consumer Electronics",
+      "Athletic Footwear"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Costco",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "costco",
+    "fact_type": "product",
+    "format": "factoid",
+    "question": null,
+    "answer": "Costco offers Warehouse Clubs, Kirkland Signature, Costco Travel, Costco Wholesale.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Costco",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "costco",
+    "fact_type": "acquisition",
+    "format": "quiz",
+    "question": "Which company did Costco acquire in 1993?",
+    "answer": "Price Club",
+    "options": [
+      "Deliverr",
+      "6 River Systems",
+      "Oberlo"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Costco",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "costco",
+    "fact_type": "acquisition",
+    "format": "factoid",
+    "question": null,
+    "answer": "Costco acquired Price Club in 1993.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Costco",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "costco",
+    "fact_type": "acquisition",
+    "format": "flashcard",
+    "question": "In what year did Costco acquire Innovel Solutions?",
+    "answer": "2020",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Costco",
+    "source_date": "2026-01-19"
+  }
+]

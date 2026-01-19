@@ -1,0 +1,162 @@
+[
+  {
+    "company_slug": "target",
+    "fact_type": "founding",
+    "format": "quiz",
+    "question": "When was Target founded?",
+    "answer": "1902",
+    "options": [
+      "1887",
+      "1894",
+      "1912"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Target_Corporation",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "target",
+    "fact_type": "founding",
+    "format": "flashcard",
+    "question": "Who founded Target?",
+    "answer": "George Dayton",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Target_Corporation",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "target",
+    "fact_type": "founding",
+    "format": "factoid",
+    "question": null,
+    "answer": "Target was founded in 1902 by George Dayton.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Target_Corporation",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "target",
+    "fact_type": "hq",
+    "format": "quiz",
+    "question": "Where is Target's headquarters located?",
+    "answer": "Minneapolis, Minnesota",
+    "options": [
+      "Seattle, Washington",
+      "San Francisco, California",
+      "New York, New York"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Target_Corporation",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "target",
+    "fact_type": "hq",
+    "format": "flashcard",
+    "question": "What city is Target headquartered in?",
+    "answer": "Minneapolis, Minnesota",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Target_Corporation",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "target",
+    "fact_type": "exec",
+    "format": "quiz",
+    "question": "Who is the current CEO of Target?",
+    "answer": "Brian Cornell",
+    "options": [
+      "Doug McMillon",
+      "Ron Vachris",
+      "Ted Decker"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Target_Corporation",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "target",
+    "fact_type": "exec",
+    "format": "flashcard",
+    "question": "Who leads Target as CEO?",
+    "answer": "Brian Cornell",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Target_Corporation",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "target",
+    "fact_type": "mission",
+    "format": "factoid",
+    "question": null,
+    "answer": "Target's mission is \"To help all families discover the joy of everyday life\".",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Target_Corporation",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "target",
+    "fact_type": "mission",
+    "format": "flashcard",
+    "question": "What is Target's mission statement?",
+    "answer": "To help all families discover the joy of everyday life",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Target_Corporation",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "target",
+    "fact_type": "product",
+    "format": "quiz",
+    "question": "Which of these is a Target product or service?",
+    "answer": "General Merchandise",
+    "options": [
+      "E-commerce Platform",
+      "Warehouse Clubs",
+      "Consumer Electronics"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Target_Corporation",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "target",
+    "fact_type": "product",
+    "format": "factoid",
+    "question": null,
+    "answer": "Target offers General Merchandise, Target Circle, Shipt Same-Day Delivery, Target RedCard.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Target_Corporation",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "target",
+    "fact_type": "acquisition",
+    "format": "quiz",
+    "question": "Which company did Target acquire in 2017?",
+    "answer": "Shipt",
+    "options": [
+      "Deliverr",
+      "6 River Systems",
+      "Oberlo"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Target_Corporation",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "target",
+    "fact_type": "acquisition",
+    "format": "factoid",
+    "question": null,
+    "answer": "Target acquired Shipt in 2017.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Target_Corporation",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "target",
+    "fact_type": "acquisition",
+    "format": "flashcard",
+    "question": "In what year did Target acquire Grand Junction?",
+    "answer": "2017",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Target_Corporation",
+    "source_date": "2026-01-19"
+  }
+]

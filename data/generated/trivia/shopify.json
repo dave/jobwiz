@@ -1,0 +1,162 @@
+[
+  {
+    "company_slug": "shopify",
+    "fact_type": "founding",
+    "format": "quiz",
+    "question": "When was Shopify founded?",
+    "answer": "2006",
+    "options": [
+      "2001",
+      "2004",
+      "2009"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Shopify",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "shopify",
+    "fact_type": "founding",
+    "format": "flashcard",
+    "question": "Who founded Shopify?",
+    "answer": "Tobias Lütke and Daniel Weinand and others",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Shopify",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "shopify",
+    "fact_type": "founding",
+    "format": "factoid",
+    "question": null,
+    "answer": "Shopify was founded in 2006 by Tobias Lütke and Daniel Weinand and others.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Shopify",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "shopify",
+    "fact_type": "hq",
+    "format": "quiz",
+    "question": "Where is Shopify's headquarters located?",
+    "answer": "Ottawa, Ontario, Canada",
+    "options": [
+      "Seattle, Washington",
+      "San Francisco, California",
+      "New York, New York"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Shopify",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "shopify",
+    "fact_type": "hq",
+    "format": "flashcard",
+    "question": "What city is Shopify headquartered in?",
+    "answer": "Ottawa, Ontario, Canada",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Shopify",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "shopify",
+    "fact_type": "exec",
+    "format": "quiz",
+    "question": "Who is the current CEO of Shopify?",
+    "answer": "Tobias Lütke",
+    "options": [
+      "Josh Silverman",
+      "Brian Cornell",
+      "Doug McMillon"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Shopify",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "shopify",
+    "fact_type": "exec",
+    "format": "flashcard",
+    "question": "Who leads Shopify as CEO?",
+    "answer": "Tobias Lütke",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Shopify",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "shopify",
+    "fact_type": "mission",
+    "format": "factoid",
+    "question": null,
+    "answer": "Shopify's mission is \"To make commerce better for everyone\".",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Shopify",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "shopify",
+    "fact_type": "mission",
+    "format": "flashcard",
+    "question": "What is Shopify's mission statement?",
+    "answer": "To make commerce better for everyone",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Shopify",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "shopify",
+    "fact_type": "product",
+    "format": "quiz",
+    "question": "Which of these is a Shopify product or service?",
+    "answer": "E-commerce Platform",
+    "options": [
+      "Warehouse Clubs",
+      "Consumer Electronics",
+      "Athletic Footwear"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Shopify",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "shopify",
+    "fact_type": "product",
+    "format": "factoid",
+    "question": null,
+    "answer": "Shopify offers E-commerce Platform, Shopify POS, Shopify Payments, Shop Pay.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Shopify",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "shopify",
+    "fact_type": "acquisition",
+    "format": "quiz",
+    "question": "Which company did Shopify acquire in 2022?",
+    "answer": "Deliverr",
+    "options": [
+      "6 River Systems",
+      "Oberlo",
+      "Depop"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Shopify",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "shopify",
+    "fact_type": "acquisition",
+    "format": "factoid",
+    "question": null,
+    "answer": "Shopify acquired Deliverr in 2022.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Shopify",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "shopify",
+    "fact_type": "acquisition",
+    "format": "flashcard",
+    "question": "In what year did Shopify acquire 6 River Systems?",
+    "answer": "2019",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Shopify",
+    "source_date": "2026-01-19"
+  }
+]

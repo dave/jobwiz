@@ -1,0 +1,152 @@
+[
+  {
+    "company_slug": "lululemon",
+    "fact_type": "founding",
+    "format": "quiz",
+    "question": "When was Lululemon founded?",
+    "answer": "1998",
+    "options": [
+      "1993",
+      "1996",
+      "2001"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Lululemon_Athletica",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "lululemon",
+    "fact_type": "founding",
+    "format": "flashcard",
+    "question": "Who founded Lululemon?",
+    "answer": "Chip Wilson",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Lululemon_Athletica",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "lululemon",
+    "fact_type": "founding",
+    "format": "factoid",
+    "question": null,
+    "answer": "Lululemon was founded in 1998 by Chip Wilson.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Lululemon_Athletica",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "lululemon",
+    "fact_type": "hq",
+    "format": "quiz",
+    "question": "Where is Lululemon's headquarters located?",
+    "answer": "Vancouver, British Columbia, Canada",
+    "options": [
+      "Seattle, Washington",
+      "San Francisco, California",
+      "New York, New York"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Lululemon_Athletica",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "lululemon",
+    "fact_type": "hq",
+    "format": "flashcard",
+    "question": "What city is Lululemon headquartered in?",
+    "answer": "Vancouver, British Columbia, Canada",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Lululemon_Athletica",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "lululemon",
+    "fact_type": "exec",
+    "format": "quiz",
+    "question": "Who is the current CEO of Lululemon?",
+    "answer": "Calvin McDonald",
+    "options": [
+      "Elliott Hill",
+      "Doug McMillon",
+      "Brian Cornell"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Lululemon_Athletica",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "lululemon",
+    "fact_type": "exec",
+    "format": "flashcard",
+    "question": "Who leads Lululemon as CEO?",
+    "answer": "Calvin McDonald",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Lululemon_Athletica",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "lululemon",
+    "fact_type": "mission",
+    "format": "factoid",
+    "question": null,
+    "answer": "Lululemon's mission is \"To elevate human potential by helping people feel their best\".",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Lululemon_Athletica",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "lululemon",
+    "fact_type": "mission",
+    "format": "flashcard",
+    "question": "What is Lululemon's mission statement?",
+    "answer": "To elevate human potential by helping people feel their best",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Lululemon_Athletica",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "lululemon",
+    "fact_type": "product",
+    "format": "quiz",
+    "question": "Which of these is a Lululemon product or service?",
+    "answer": "Athletic Apparel",
+    "options": [
+      "E-commerce Platform",
+      "Warehouse Clubs",
+      "Consumer Electronics"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Lululemon_Athletica",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "lululemon",
+    "fact_type": "product",
+    "format": "factoid",
+    "question": null,
+    "answer": "Lululemon offers Athletic Apparel, Yoga Wear, Running Gear, Accessories.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Lululemon_Athletica",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "lululemon",
+    "fact_type": "acquisition",
+    "format": "quiz",
+    "question": "Which company did Lululemon acquire in 2020?",
+    "answer": "Mirror",
+    "options": [
+      "Deliverr",
+      "6 River Systems",
+      "Oberlo"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Lululemon_Athletica",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "lululemon",
+    "fact_type": "acquisition",
+    "format": "factoid",
+    "question": null,
+    "answer": "Lululemon acquired Mirror in 2020.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Lululemon_Athletica",
+    "source_date": "2026-01-19"
+  }
+]
