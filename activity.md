@@ -3908,3 +3908,59 @@ All Stage 6 (Production Content Population) issues are now closed:
   - Spring animation on mount ✓
   - Fallback if image fails ✓
   - Respects reduced-motion ✓
+
+### 2026-01-19 - Issue #183: 1.2: Chat bubble components
+
+**Completed:**
+- Created `/src/components/alex/ChatBubble.tsx` with two variants
+- Created `/src/components/alex/TypingIndicator.tsx` with animated dots
+- Updated `/src/components/alex/index.ts` with new exports
+
+**ChatBubble Features:**
+- Two variants: alex (coach) and user (answer)
+- Alex bubble: left-aligned with tail top-left
+  - Background: `--alex-bubble-bg`
+  - Padding: 16px
+  - Border-radius: `4px 20px 20px 20px`
+  - Max-width: 320px
+  - Shadow: `0 1px 2px rgba(0,0,0,0.05)`
+- User bubble: right-aligned pill
+  - Background: `--user-bubble-bg`
+  - Padding: `12px 16px`
+  - Border-radius: 20px all corners
+  - White text, no shadow
+- Fade-in animation on mount
+- Respects reduced-motion via `useReducedMotion` hook
+
+**TypingIndicator Features:**
+- Three animated dots with staggered bouncing animation
+- Uses alex bubble styling (same background, radius, shadow)
+- Dots: 8px circles with 6px gap
+- Accessible: `role="status"`, `aria-label="Alex is typing"`
+- Individual dots are `aria-hidden`
+- Respects reduced-motion preferences
+
+**Files Created:**
+- `src/components/alex/ChatBubble.tsx`
+- `src/components/alex/TypingIndicator.tsx`
+- `src/components/alex/__tests__/ChatBubble.test.tsx`
+- `src/components/alex/__tests__/TypingIndicator.test.tsx`
+
+**Files Modified:**
+- `src/components/alex/index.ts` - Added ChatBubble and TypingIndicator exports
+
+**Tests:**
+- 51 unit tests covering:
+  - ChatBubble (27 tests): alex variant, user variant, animation, reduced motion, className, content types
+  - TypingIndicator (24 tests): rendering, styling, dot styling, accessibility, animation, reduced motion, className, layout
+
+**Verification:**
+- `npm run lint` - passes with no errors
+- `npm run type-check` - passes with no errors
+- `npm run build` - successful production build
+- `npm test` - 51 new tests pass (2163 total passed, pre-existing failures unrelated to this change)
+- All acceptance criteria verified:
+  - Alex bubble matches spec ✓
+  - User pill matches spec ✓
+  - Typing dots animate ✓
+  - Respects reduced-motion ✓
