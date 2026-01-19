@@ -3635,3 +3635,49 @@ All Stage 5 (Launch) code issues are now closed:
   - Add video placeholder blocks to role modules ✓
   - Structure for easy replacement with real video URLs later ✓
   - Categories: intro videos, technique demos, example answers ✓
+
+### 2026-01-19 - Issue #152: Create 'What interviewers look for' sections
+
+**Completed:**
+- Created `/scripts/add-interviewer-mindset.ts` script
+- Extracts `interviewer_intent` from question files for each company
+- Creates "Interviewer Mindset" section in all 105 company modules
+- Section includes:
+  - Header: "What {Company} Interviewers Really Look For"
+  - Intro text explaining the importance of understanding interviewer mindset
+  - Category-specific tips (behavioral, technical, culture, curveball)
+  - Key takeaway summary
+- Format: text + tip blocks explaining what interviewers really want
+- Content derived from scraped Reddit analysis data embedded in question files
+- Script is idempotent - won't duplicate sections on re-run
+- Supports `--dry-run`, `--company=X`, and `--help` flags
+
+**Section Structure Per Company:**
+- Header block with company-specific title
+- Introduction text explaining interviewer mindset importance
+- Per-category breakdowns (behavioral, technical, culture, curveball)
+- 2 tip blocks per category with key interviewer insights
+- Final takeaway text summarizing key points
+
+**Files Created:**
+- `scripts/add-interviewer-mindset.ts` - Interviewer mindset generation script
+
+**Files Modified:**
+- `data/generated/modules/company-*.json` (105 files) - Added "Interviewer Mindset" section (15 blocks each)
+
+**Stats:**
+- Companies processed: 105
+- Modules modified: 105
+- Total blocks added: 1575 (15 blocks × 105 companies)
+
+**Verification:**
+- `npm run lint` - passes with no errors
+- `npm run type-check` - passes with no errors
+- `npm run build` - successful production build
+- `npm test` - 2163 passed, 2 todo, 12 pre-existing failures (unrelated to this change)
+- Carousel/journey tests: 493 passed
+- All acceptance criteria verified:
+  - Extract `interviewer_intent` from question files ✓
+  - Create "Interviewer Mindset" section in company modules ✓
+  - Format as text + tip blocks explaining what interviewers really want ✓
+  - Pull from scraped Reddit data for authentic phrasing ✓ (embedded in interviewer_intent)
