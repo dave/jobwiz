@@ -4035,3 +4035,67 @@ All Stage 6 (Production Content Population) issues are now closed:
   - Integrates with CarouselContext ✓
   - Answers persist to localStorage ✓
   - Answers sync to Supabase (if logged in) ✓
+
+### 2026-01-19 - Issue #185: Big Question mode
+
+**Completed:**
+- Created `src/components/alex/BigQuestionMode.tsx` component
+- Implements full-screen dramatic display mode for:
+  - `header`, `video`, `audio`, `image`, `infographic` content types
+
+**Layout:**
+- Large avatar (72px) centered at top
+- Content centered below with flex-grow
+- Continue button at bottom (full-width, 48px height)
+- Uses CSS variables from alex-tokens.css
+
+**Features:**
+- Full viewport height (100dvh with safe area insets)
+- Tap anywhere to advance (optional `tapToAdvance` prop)
+- Keyboard navigation:
+  - Enter = continue
+  - Escape = exit (if onExit provided)
+- Reduced motion support via framer-motion
+- Staggered fade-in animations
+
+**Props:**
+- `children` - Content to display
+- `onContinue` - Called on continue button click, Enter key, or tap (if enabled)
+- `onExit` - Optional, called on Escape key
+- `tapToAdvance` - Enable tap anywhere to advance (default: false)
+- `continueText` - Button text (default: "Continue")
+- `continueDisabled` - Disable continue button
+
+**Files Created:**
+- `src/components/alex/BigQuestionMode.tsx` - Main component
+- `src/components/alex/__tests__/BigQuestionMode.test.tsx` - 40 unit tests
+
+**Files Modified:**
+- `src/components/alex/index.ts` - Added BigQuestionMode export
+
+**Tests:**
+- 40 unit tests covering:
+  - Rendering (7 tests)
+  - Layout structure (6 tests)
+  - Continue button behavior (5 tests)
+  - Tap to advance (4 tests)
+  - Keyboard navigation (6 tests)
+  - Accessibility (4 tests)
+  - Button styling (3 tests)
+  - Reduced motion (2 tests)
+  - Complex content (4 tests)
+
+**Verification:**
+- `npm run lint` - passes (2 warnings in test file for img elements, expected)
+- `npm run type-check` - passes with no errors
+- `npm run build` - successful production build
+- `npm test` - 145 alex component tests pass (40 new BigQuestionMode tests)
+- All acceptance criteria verified:
+  - Large avatar centered at top ✓
+  - Content centered below ✓
+  - Continue button at bottom ✓
+  - Tap anywhere advances (optional) ✓
+  - Keyboard nav works (Enter/Escape) ✓
+
+**Screenshots:**
+- `screenshots/185-big-question-mode.png` - BigQuestionMode with welcome content

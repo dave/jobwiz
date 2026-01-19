@@ -8,3 +8,6 @@ export { TypingIndicator } from "./TypingIndicator";
 export type { TypingIndicatorProps } from "./TypingIndicator";
 
 export { ConversationProvider, useConversation } from "./ConversationContext";
+
+export { BigQuestionMode } from "./BigQuestionMode";
+export type { BigQuestionModeProps } from "./BigQuestionMode";
