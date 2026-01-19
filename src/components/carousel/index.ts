@@ -1,10 +1,16 @@
 /**
  * Carousel components for JobWiz
- * Swipeable carousel UI for content navigation
+ * Provides state management and paywall for the conversation-based learning UI
+ *
+ * Note: CarouselContainer and most item components (ContentItem, QuizItem, ChecklistItem)
+ * have been deprecated in favor of the conversational components in @/components/alex.
+ * This module now primarily provides:
+ * - CarouselProvider/useCarousel - State management for navigation and progress
+ * - CarouselPaywall - Premium content gate
+ * - MediaItem - Video/audio content display
  */
 
 export { CarouselProvider, useCarousel } from "./CarouselContext";
-export { CarouselContainer } from "./CarouselContainer";
 export {
   CarouselPaywall,
   type CarouselPaywallProps,
@@ -12,13 +18,5 @@ export {
 } from "./CarouselPaywall";
 
 // Item components for rendering content in the carousel
-export {
-  ContentItem,
-  QuizItem,
-  MediaItem,
-  ChecklistItem,
-  type ContentItemProps,
-  type QuizItemProps,
-  type MediaItemProps,
-  type ChecklistItemProps,
-} from "./items";
+// Only MediaItem remains - other item components are deprecated
+export { MediaItem, type MediaItemProps } from "./items";
