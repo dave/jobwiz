@@ -32,6 +32,102 @@
       ]
     },
     {
+      "id": "interviewer-mindset",
+      "title": "What Interviewers Look For",
+      "blocks": [
+        {
+          "type": "header",
+          "content": {
+            "text": "What Disney Interviewers Really Look For"
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "Understanding the interviewer's mindset is crucial for interview success. Based on analysis of Disney interview experiences, here's what interviewers are actually evaluating when they ask common questions."
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Behavioral Questions**"
+          }
+        },
+        {
+          "type": "tip",
+          "content": {
+            "text": "Disney looks for 'emergent leadership' - people who step up organically without needing titles. Based on 54 interview reports, candidates commonly face: System design emphasis, Heavy focus on coding, Behavioral interviews important."
+          }
+        },
+        {
+          "type": "tip",
+          "content": {
+            "text": "The interviewer is probing your conflict resolution style. Disney needs people who can disagree constructively - not pushovers, but not bulldozers either."
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Technical Questions**"
+          }
+        },
+        {
+          "type": "tip",
+          "content": {
+            "text": "Disney is testing both your statistical knowledge and your judgment. The textbook answer is easy - they're probing for business intuition."
+          }
+        },
+        {
+          "type": "tip",
+          "content": {
+            "text": "This question is a trap for candidates who only look at accuracy. Disney is testing: Do you understand class imbalance?"
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Culture Fit Questions**"
+          }
+        },
+        {
+          "type": "tip",
+          "content": {
+            "text": "Disney values ownership beyond your immediate role. The interviewer is testing whether you default to 'not my job' or naturally expand scope when needed."
+          }
+        },
+        {
+          "type": "tip",
+          "content": {
+            "text": "Disney cultures feedback heavily. The interviewer is assessing your growth mindset in action - not in theory."
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Curveball Questions**"
+          }
+        },
+        {
+          "type": "tip",
+          "content": {
+            "text": "The interviewer already knows any reasonable answer is fine - this is about process, not precision. Disney is evaluating: Can you structure chaos?"
+          }
+        },
+        {
+          "type": "tip",
+          "content": {
+            "text": "The interviewer is testing three things at once: 1) Self-awareness - can you identify a real limitation? 2) Honesty under pressure - will you give a genuine answer when pushed?"
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Key Takeaway:** Disney interviewers focus on how you think, not just what you know. Show your reasoning process, acknowledge trade-offs, and demonstrate genuine alignment with company values."
+          }
+        }
+      ]
+    },
+    {
       "id": "values",
       "title": "Disney Values",
       "blocks": [
