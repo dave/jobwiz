@@ -1,0 +1,162 @@
+[
+  {
+    "company_slug": "netflix",
+    "fact_type": "founding",
+    "format": "quiz",
+    "question": "When was Netflix founded?",
+    "answer": "1997",
+    "options": [
+      "1992",
+      "1995",
+      "2000"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Netflix",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "netflix",
+    "fact_type": "founding",
+    "format": "flashcard",
+    "question": "Who founded Netflix?",
+    "answer": "Reed Hastings and Marc Randolph",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Netflix",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "netflix",
+    "fact_type": "founding",
+    "format": "factoid",
+    "question": null,
+    "answer": "Netflix was founded in 1997 by Reed Hastings and Marc Randolph.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Netflix",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "netflix",
+    "fact_type": "hq",
+    "format": "quiz",
+    "question": "Where is Netflix's headquarters located?",
+    "answer": "Los Gatos, California",
+    "options": [
+      "San Francisco, California",
+      "Seattle, Washington",
+      "New York, New York"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Netflix",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "netflix",
+    "fact_type": "hq",
+    "format": "flashcard",
+    "question": "What city is Netflix headquartered in?",
+    "answer": "Los Gatos, California",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Netflix",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "netflix",
+    "fact_type": "exec",
+    "format": "quiz",
+    "question": "Who is the current CEO of Netflix?",
+    "answer": "Ted Sarandos and Greg Peters",
+    "options": [
+      "Sundar Pichai",
+      "Tim Cook",
+      "Satya Nadella"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Netflix",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "netflix",
+    "fact_type": "exec",
+    "format": "flashcard",
+    "question": "Who leads Netflix as CEO?",
+    "answer": "Ted Sarandos and Greg Peters",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Netflix",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "netflix",
+    "fact_type": "mission",
+    "format": "factoid",
+    "question": null,
+    "answer": "Netflix's mission is \"To entertain the world\".",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Netflix",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "netflix",
+    "fact_type": "mission",
+    "format": "flashcard",
+    "question": "What is Netflix's mission statement?",
+    "answer": "To entertain the world",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Netflix",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "netflix",
+    "fact_type": "product",
+    "format": "quiz",
+    "question": "Which of these is a Netflix product?",
+    "answer": "Netflix streaming service",
+    "options": [
+      "Slack",
+      "Zoom",
+      "Dropbox"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Netflix",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "netflix",
+    "fact_type": "product",
+    "format": "factoid",
+    "question": null,
+    "answer": "Key Netflix products include Netflix streaming service, Netflix Originals, Netflix Games.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Netflix",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "netflix",
+    "fact_type": "acquisition",
+    "format": "quiz",
+    "question": "Which company did Netflix acquire in 2017?",
+    "answer": "Millarworld",
+    "options": [
+      "Slack",
+      "Tableau",
+      "Salesforce"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Netflix",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "netflix",
+    "fact_type": "acquisition",
+    "format": "factoid",
+    "question": null,
+    "answer": "Netflix acquired Millarworld in 2017.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Netflix",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "netflix",
+    "fact_type": "acquisition",
+    "format": "flashcard",
+    "question": "In what year did Netflix acquire Spry Fox?",
+    "answer": "2022",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Netflix",
+    "source_date": "2026-01-19"
+  }
+]

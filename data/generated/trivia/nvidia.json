@@ -1,0 +1,162 @@
+[
+  {
+    "company_slug": "nvidia",
+    "fact_type": "founding",
+    "format": "quiz",
+    "question": "When was NVIDIA founded?",
+    "answer": "1993",
+    "options": [
+      "1988",
+      "1991",
+      "1996"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Nvidia",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "nvidia",
+    "fact_type": "founding",
+    "format": "flashcard",
+    "question": "Who founded NVIDIA?",
+    "answer": "Jensen Huang and Chris Malachowsky and others",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Nvidia",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "nvidia",
+    "fact_type": "founding",
+    "format": "factoid",
+    "question": null,
+    "answer": "NVIDIA was founded in 1993 by Jensen Huang and Chris Malachowsky and others.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Nvidia",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "nvidia",
+    "fact_type": "hq",
+    "format": "quiz",
+    "question": "Where is NVIDIA's headquarters located?",
+    "answer": "Santa Clara, California",
+    "options": [
+      "San Francisco, California",
+      "Seattle, Washington",
+      "New York, New York"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Nvidia",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "nvidia",
+    "fact_type": "hq",
+    "format": "flashcard",
+    "question": "What city is NVIDIA headquartered in?",
+    "answer": "Santa Clara, California",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Nvidia",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "nvidia",
+    "fact_type": "exec",
+    "format": "quiz",
+    "question": "Who is the current CEO of NVIDIA?",
+    "answer": "Jensen Huang",
+    "options": [
+      "Sundar Pichai",
+      "Lisa Su",
+      "Pat Gelsinger"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Nvidia",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "nvidia",
+    "fact_type": "exec",
+    "format": "flashcard",
+    "question": "Who leads NVIDIA as CEO?",
+    "answer": "Jensen Huang",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Nvidia",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "nvidia",
+    "fact_type": "mission",
+    "format": "factoid",
+    "question": null,
+    "answer": "NVIDIA's mission is \"To be the world's leading visual computing company\".",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Nvidia",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "nvidia",
+    "fact_type": "mission",
+    "format": "flashcard",
+    "question": "What is NVIDIA's mission statement?",
+    "answer": "To be the world's leading visual computing company",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Nvidia",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "nvidia",
+    "fact_type": "product",
+    "format": "quiz",
+    "question": "Which of these is a NVIDIA product?",
+    "answer": "GeForce GPUs",
+    "options": [
+      "Slack",
+      "Zoom",
+      "Dropbox"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Nvidia",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "nvidia",
+    "fact_type": "product",
+    "format": "factoid",
+    "question": null,
+    "answer": "Key NVIDIA products include GeForce GPUs, NVIDIA CUDA, NVIDIA AI Enterprise, DGX systems, RTX graphics cards.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Nvidia",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "nvidia",
+    "fact_type": "acquisition",
+    "format": "quiz",
+    "question": "Which company did NVIDIA acquire in 2020?",
+    "answer": "Mellanox Technologies",
+    "options": [
+      "Slack",
+      "Tableau",
+      "Salesforce"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Nvidia",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "nvidia",
+    "fact_type": "acquisition",
+    "format": "factoid",
+    "question": null,
+    "answer": "NVIDIA acquired Mellanox Technologies in 2020.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Nvidia",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "nvidia",
+    "fact_type": "acquisition",
+    "format": "flashcard",
+    "question": "In what year did NVIDIA acquire Arm (attempted)?",
+    "answer": "2020",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Nvidia",
+    "source_date": "2026-01-19"
+  }
+]

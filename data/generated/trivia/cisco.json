@@ -1,0 +1,162 @@
+[
+  {
+    "company_slug": "cisco",
+    "fact_type": "founding",
+    "format": "quiz",
+    "question": "When was Cisco founded?",
+    "answer": "1984",
+    "options": [
+      "1979",
+      "1982",
+      "1987"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Cisco",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "cisco",
+    "fact_type": "founding",
+    "format": "flashcard",
+    "question": "Who founded Cisco?",
+    "answer": "Leonard Bosack and Sandy Lerner",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Cisco",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "cisco",
+    "fact_type": "founding",
+    "format": "factoid",
+    "question": null,
+    "answer": "Cisco was founded in 1984 by Leonard Bosack and Sandy Lerner.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Cisco",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "cisco",
+    "fact_type": "hq",
+    "format": "quiz",
+    "question": "Where is Cisco's headquarters located?",
+    "answer": "San Jose, California",
+    "options": [
+      "San Francisco, California",
+      "Seattle, Washington",
+      "New York, New York"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Cisco",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "cisco",
+    "fact_type": "hq",
+    "format": "flashcard",
+    "question": "What city is Cisco headquartered in?",
+    "answer": "San Jose, California",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Cisco",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "cisco",
+    "fact_type": "exec",
+    "format": "quiz",
+    "question": "Who is the current CEO of Cisco?",
+    "answer": "Chuck Robbins",
+    "options": [
+      "Tim Cook",
+      "Sundar Pichai",
+      "Satya Nadella"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Cisco",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "cisco",
+    "fact_type": "exec",
+    "format": "flashcard",
+    "question": "Who leads Cisco as CEO?",
+    "answer": "Chuck Robbins",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Cisco",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "cisco",
+    "fact_type": "mission",
+    "format": "factoid",
+    "question": null,
+    "answer": "Cisco's mission is \"To power an inclusive future for all\".",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Cisco",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "cisco",
+    "fact_type": "mission",
+    "format": "flashcard",
+    "question": "What is Cisco's mission statement?",
+    "answer": "To power an inclusive future for all",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Cisco",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "cisco",
+    "fact_type": "product",
+    "format": "quiz",
+    "question": "Which of these is a Cisco product?",
+    "answer": "Cisco routers",
+    "options": [
+      "Slack",
+      "Zoom",
+      "Dropbox"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Cisco",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "cisco",
+    "fact_type": "product",
+    "format": "factoid",
+    "question": null,
+    "answer": "Key Cisco products include Cisco routers, Cisco switches, WebEx, Meraki, Cisco Secure.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Cisco",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "cisco",
+    "fact_type": "acquisition",
+    "format": "quiz",
+    "question": "Which company did Cisco acquire in 2024?",
+    "answer": "Splunk",
+    "options": [
+      "Slack",
+      "Tableau",
+      "Salesforce"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Cisco",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "cisco",
+    "fact_type": "acquisition",
+    "format": "factoid",
+    "question": null,
+    "answer": "Cisco acquired Splunk in 2024.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Cisco",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "cisco",
+    "fact_type": "acquisition",
+    "format": "flashcard",
+    "question": "In what year did Cisco acquire Duo Security?",
+    "answer": "2018",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Cisco",
+    "source_date": "2026-01-19"
+  }
+]

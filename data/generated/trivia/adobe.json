@@ -1,0 +1,162 @@
+[
+  {
+    "company_slug": "adobe",
+    "fact_type": "founding",
+    "format": "quiz",
+    "question": "When was Adobe founded?",
+    "answer": "1982",
+    "options": [
+      "1977",
+      "1980",
+      "1985"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Adobe_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "adobe",
+    "fact_type": "founding",
+    "format": "flashcard",
+    "question": "Who founded Adobe?",
+    "answer": "John Warnock and Charles Geschke",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Adobe_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "adobe",
+    "fact_type": "founding",
+    "format": "factoid",
+    "question": null,
+    "answer": "Adobe was founded in 1982 by John Warnock and Charles Geschke.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Adobe_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "adobe",
+    "fact_type": "hq",
+    "format": "quiz",
+    "question": "Where is Adobe's headquarters located?",
+    "answer": "San Jose, California",
+    "options": [
+      "San Francisco, California",
+      "Seattle, Washington",
+      "New York, New York"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Adobe_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "adobe",
+    "fact_type": "hq",
+    "format": "flashcard",
+    "question": "What city is Adobe headquartered in?",
+    "answer": "San Jose, California",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Adobe_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "adobe",
+    "fact_type": "exec",
+    "format": "quiz",
+    "question": "Who is the current CEO of Adobe?",
+    "answer": "Shantanu Narayen",
+    "options": [
+      "Tim Cook",
+      "Satya Nadella",
+      "Sundar Pichai"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Adobe_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "adobe",
+    "fact_type": "exec",
+    "format": "flashcard",
+    "question": "Who leads Adobe as CEO?",
+    "answer": "Shantanu Narayen",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Adobe_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "adobe",
+    "fact_type": "mission",
+    "format": "factoid",
+    "question": null,
+    "answer": "Adobe's mission is \"To change the world through digital experiences\".",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Adobe_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "adobe",
+    "fact_type": "mission",
+    "format": "flashcard",
+    "question": "What is Adobe's mission statement?",
+    "answer": "To change the world through digital experiences",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Adobe_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "adobe",
+    "fact_type": "product",
+    "format": "quiz",
+    "question": "Which of these is a Adobe product?",
+    "answer": "Photoshop",
+    "options": [
+      "Slack",
+      "Zoom",
+      "Dropbox"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Adobe_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "adobe",
+    "fact_type": "product",
+    "format": "factoid",
+    "question": null,
+    "answer": "Key Adobe products include Photoshop, Illustrator, Premiere Pro, Acrobat, Adobe Creative Cloud.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Adobe_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "adobe",
+    "fact_type": "acquisition",
+    "format": "quiz",
+    "question": "Which company did Adobe acquire in 2022?",
+    "answer": "Figma (attempted)",
+    "options": [
+      "Slack",
+      "Tableau",
+      "Salesforce"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Adobe_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "adobe",
+    "fact_type": "acquisition",
+    "format": "factoid",
+    "question": null,
+    "answer": "Adobe acquired Figma (attempted) in 2022.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Adobe_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "adobe",
+    "fact_type": "acquisition",
+    "format": "flashcard",
+    "question": "In what year did Adobe acquire Magento?",
+    "answer": "2018",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Adobe_Inc.",
+    "source_date": "2026-01-19"
+  }
+]

@@ -1,0 +1,162 @@
+[
+  {
+    "company_slug": "intel",
+    "fact_type": "founding",
+    "format": "quiz",
+    "question": "When was Intel founded?",
+    "answer": "1968",
+    "options": [
+      "1963",
+      "1966",
+      "1971"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Intel",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "intel",
+    "fact_type": "founding",
+    "format": "flashcard",
+    "question": "Who founded Intel?",
+    "answer": "Gordon Moore and Robert Noyce",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Intel",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "intel",
+    "fact_type": "founding",
+    "format": "factoid",
+    "question": null,
+    "answer": "Intel was founded in 1968 by Gordon Moore and Robert Noyce.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Intel",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "intel",
+    "fact_type": "hq",
+    "format": "quiz",
+    "question": "Where is Intel's headquarters located?",
+    "answer": "Santa Clara, California",
+    "options": [
+      "San Francisco, California",
+      "Seattle, Washington",
+      "New York, New York"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Intel",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "intel",
+    "fact_type": "hq",
+    "format": "flashcard",
+    "question": "What city is Intel headquartered in?",
+    "answer": "Santa Clara, California",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Intel",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "intel",
+    "fact_type": "exec",
+    "format": "quiz",
+    "question": "Who is the current CEO of Intel?",
+    "answer": "Pat Gelsinger",
+    "options": [
+      "Jensen Huang",
+      "Lisa Su",
+      "Satya Nadella"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Intel",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "intel",
+    "fact_type": "exec",
+    "format": "flashcard",
+    "question": "Who leads Intel as CEO?",
+    "answer": "Pat Gelsinger",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Intel",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "intel",
+    "fact_type": "mission",
+    "format": "factoid",
+    "question": null,
+    "answer": "Intel's mission is \"To create world-changing technology that improves the life of every person on the planet\".",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Intel",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "intel",
+    "fact_type": "mission",
+    "format": "flashcard",
+    "question": "What is Intel's mission statement?",
+    "answer": "To create world-changing technology that improves the life of every person on the planet",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Intel",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "intel",
+    "fact_type": "product",
+    "format": "quiz",
+    "question": "Which of these is a Intel product?",
+    "answer": "Intel Core processors",
+    "options": [
+      "Slack",
+      "Zoom",
+      "Dropbox"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Intel",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "intel",
+    "fact_type": "product",
+    "format": "factoid",
+    "question": null,
+    "answer": "Key Intel products include Intel Core processors, Intel Xeon, Intel Arc GPUs, Intel vPro, Intel Optane.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Intel",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "intel",
+    "fact_type": "acquisition",
+    "format": "quiz",
+    "question": "Which company did Intel acquire in 2015?",
+    "answer": "Altera",
+    "options": [
+      "Slack",
+      "Tableau",
+      "Salesforce"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Intel",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "intel",
+    "fact_type": "acquisition",
+    "format": "factoid",
+    "question": null,
+    "answer": "Intel acquired Altera in 2015.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Intel",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "intel",
+    "fact_type": "acquisition",
+    "format": "flashcard",
+    "question": "In what year did Intel acquire Mobileye?",
+    "answer": "2017",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Intel",
+    "source_date": "2026-01-19"
+  }
+]

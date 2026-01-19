@@ -2869,3 +2869,55 @@ All Stage 5 (Launch) code issues are now closed:
   - Timeline has @deprecated JSDoc ✓
   - journey-demo page shows carousel ✓
   - No timeline visible in production paths ✓
+
+### 2026-01-19 - Issue #86: Generate company trivia: Big Tech batch
+
+**Completed:**
+- Created trivia generation script `/scripts/generate-trivia-big-tech.ts`
+- Generated trivia for 12 Big Tech companies:
+  - Google, Meta, Amazon, Apple, Microsoft, Netflix
+  - NVIDIA, Intel, AMD, Cisco, Tesla, Adobe
+- Generated 14 trivia items per company (168 total items)
+- Output files in `/data/generated/trivia/{company}.json`
+
+**Trivia Types Generated:**
+- Founding (quiz, flashcard, factoid)
+- Headquarters (quiz, flashcard)
+- CEO/Executive (quiz, flashcard)
+- Mission statement (factoid, flashcard)
+- Products (quiz, factoid)
+- Acquisitions (quiz, factoid, flashcard)
+
+**Format per Item:**
+- `company_slug` - company identifier
+- `fact_type` - founding, hq, mission, product, news, exec, acquisition
+- `format` - quiz, flashcard, factoid
+- `question` - question text (null for factoids)
+- `answer` - correct answer
+- `options` - 3 wrong answers (for quiz format only)
+- `source_url` - Wikipedia source link
+- `source_date` - date of generation
+
+**Files Created:**
+- `scripts/generate-trivia-big-tech.ts` - trivia generation script
+- `data/generated/trivia/google.json` (14 items)
+- `data/generated/trivia/meta.json` (14 items)
+- `data/generated/trivia/amazon.json` (14 items)
+- `data/generated/trivia/apple.json` (14 items)
+- `data/generated/trivia/microsoft.json` (14 items)
+- `data/generated/trivia/netflix.json` (14 items)
+- `data/generated/trivia/nvidia.json` (14 items)
+- `data/generated/trivia/intel.json` (14 items)
+- `data/generated/trivia/amd.json` (14 items)
+- `data/generated/trivia/cisco.json` (14 items)
+- `data/generated/trivia/tesla.json` (14 items)
+- `data/generated/trivia/adobe.json` (14 items)
+
+**Verification:**
+- `npm run lint` - passes with no errors
+- `npm run type-check` - passes with no errors
+- `npm run build` - successful production build
+- `npm test` - 2163 passed, 2 todo, 12 pre-existing failures (unrelated to this change)
+- All trivia files conform to expected schema
+- Quiz items have exactly 3 wrong options
+- All items have source_url and source_date

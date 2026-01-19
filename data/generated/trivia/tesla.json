@@ -1,0 +1,162 @@
+[
+  {
+    "company_slug": "tesla",
+    "fact_type": "founding",
+    "format": "quiz",
+    "question": "When was Tesla founded?",
+    "answer": "2003",
+    "options": [
+      "1998",
+      "2001",
+      "2006"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Tesla,_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "tesla",
+    "fact_type": "founding",
+    "format": "flashcard",
+    "question": "Who founded Tesla?",
+    "answer": "Martin Eberhard and Marc Tarpenning",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Tesla,_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "tesla",
+    "fact_type": "founding",
+    "format": "factoid",
+    "question": null,
+    "answer": "Tesla was founded in 2003 by Martin Eberhard and Marc Tarpenning.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Tesla,_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "tesla",
+    "fact_type": "hq",
+    "format": "quiz",
+    "question": "Where is Tesla's headquarters located?",
+    "answer": "Austin, Texas",
+    "options": [
+      "San Francisco, California",
+      "Seattle, Washington",
+      "New York, New York"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Tesla,_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "tesla",
+    "fact_type": "hq",
+    "format": "flashcard",
+    "question": "What city is Tesla headquartered in?",
+    "answer": "Austin, Texas",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Tesla,_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "tesla",
+    "fact_type": "exec",
+    "format": "quiz",
+    "question": "Who is the current CEO of Tesla?",
+    "answer": "Elon Musk",
+    "options": [
+      "Tim Cook",
+      "Jeff Bezos",
+      "Mark Zuckerberg"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Tesla,_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "tesla",
+    "fact_type": "exec",
+    "format": "flashcard",
+    "question": "Who leads Tesla as CEO?",
+    "answer": "Elon Musk",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Tesla,_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "tesla",
+    "fact_type": "mission",
+    "format": "factoid",
+    "question": null,
+    "answer": "Tesla's mission is \"To accelerate the world's transition to sustainable energy\".",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Tesla,_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "tesla",
+    "fact_type": "mission",
+    "format": "flashcard",
+    "question": "What is Tesla's mission statement?",
+    "answer": "To accelerate the world's transition to sustainable energy",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Tesla,_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "tesla",
+    "fact_type": "product",
+    "format": "quiz",
+    "question": "Which of these is a Tesla product?",
+    "answer": "Model S",
+    "options": [
+      "Slack",
+      "Zoom",
+      "Dropbox"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Tesla,_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "tesla",
+    "fact_type": "product",
+    "format": "factoid",
+    "question": null,
+    "answer": "Key Tesla products include Model S, Model 3, Model X, Model Y, Cybertruck.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Tesla,_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "tesla",
+    "fact_type": "acquisition",
+    "format": "quiz",
+    "question": "Which company did Tesla acquire in 2016?",
+    "answer": "SolarCity",
+    "options": [
+      "Slack",
+      "Tableau",
+      "Salesforce"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Tesla,_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "tesla",
+    "fact_type": "acquisition",
+    "format": "factoid",
+    "question": null,
+    "answer": "Tesla acquired SolarCity in 2016.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Tesla,_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "tesla",
+    "fact_type": "acquisition",
+    "format": "flashcard",
+    "question": "In what year did Tesla acquire Maxwell Technologies?",
+    "answer": "2019",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Tesla,_Inc.",
+    "source_date": "2026-01-19"
+  }
+]

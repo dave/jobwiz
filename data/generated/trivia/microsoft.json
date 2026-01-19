@@ -1,0 +1,162 @@
+[
+  {
+    "company_slug": "microsoft",
+    "fact_type": "founding",
+    "format": "quiz",
+    "question": "When was Microsoft founded?",
+    "answer": "1975",
+    "options": [
+      "1970",
+      "1973",
+      "1978"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Microsoft",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "microsoft",
+    "fact_type": "founding",
+    "format": "flashcard",
+    "question": "Who founded Microsoft?",
+    "answer": "Bill Gates and Paul Allen",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Microsoft",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "microsoft",
+    "fact_type": "founding",
+    "format": "factoid",
+    "question": null,
+    "answer": "Microsoft was founded in 1975 by Bill Gates and Paul Allen.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Microsoft",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "microsoft",
+    "fact_type": "hq",
+    "format": "quiz",
+    "question": "Where is Microsoft's headquarters located?",
+    "answer": "Redmond, Washington",
+    "options": [
+      "San Francisco, California",
+      "Seattle, Washington",
+      "New York, New York"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Microsoft",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "microsoft",
+    "fact_type": "hq",
+    "format": "flashcard",
+    "question": "What city is Microsoft headquartered in?",
+    "answer": "Redmond, Washington",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Microsoft",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "microsoft",
+    "fact_type": "exec",
+    "format": "quiz",
+    "question": "Who is the current CEO of Microsoft?",
+    "answer": "Satya Nadella",
+    "options": [
+      "Bill Gates",
+      "Sundar Pichai",
+      "Tim Cook"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Microsoft",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "microsoft",
+    "fact_type": "exec",
+    "format": "flashcard",
+    "question": "Who leads Microsoft as CEO?",
+    "answer": "Satya Nadella",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Microsoft",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "microsoft",
+    "fact_type": "mission",
+    "format": "factoid",
+    "question": null,
+    "answer": "Microsoft's mission is \"To empower every person and every organization on the planet to achieve more\".",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Microsoft",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "microsoft",
+    "fact_type": "mission",
+    "format": "flashcard",
+    "question": "What is Microsoft's mission statement?",
+    "answer": "To empower every person and every organization on the planet to achieve more",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Microsoft",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "microsoft",
+    "fact_type": "product",
+    "format": "quiz",
+    "question": "Which of these is a Microsoft product?",
+    "answer": "Windows",
+    "options": [
+      "Slack",
+      "Zoom",
+      "Dropbox"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Microsoft",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "microsoft",
+    "fact_type": "product",
+    "format": "factoid",
+    "question": null,
+    "answer": "Key Microsoft products include Windows, Microsoft 365, Azure, Xbox, LinkedIn.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Microsoft",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "microsoft",
+    "fact_type": "acquisition",
+    "format": "quiz",
+    "question": "Which company did Microsoft acquire in 2016?",
+    "answer": "LinkedIn",
+    "options": [
+      "Slack",
+      "Tableau",
+      "Salesforce"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Microsoft",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "microsoft",
+    "fact_type": "acquisition",
+    "format": "factoid",
+    "question": null,
+    "answer": "Microsoft acquired LinkedIn in 2016.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Microsoft",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "microsoft",
+    "fact_type": "acquisition",
+    "format": "flashcard",
+    "question": "In what year did Microsoft acquire GitHub?",
+    "answer": "2018",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Microsoft",
+    "source_date": "2026-01-19"
+  }
+]

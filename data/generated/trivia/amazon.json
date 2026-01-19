@@ -1,0 +1,162 @@
+[
+  {
+    "company_slug": "amazon",
+    "fact_type": "founding",
+    "format": "quiz",
+    "question": "When was Amazon founded?",
+    "answer": "1994",
+    "options": [
+      "1989",
+      "1992",
+      "1997"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Amazon_(company)",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "amazon",
+    "fact_type": "founding",
+    "format": "flashcard",
+    "question": "Who founded Amazon?",
+    "answer": "Jeff Bezos",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Amazon_(company)",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "amazon",
+    "fact_type": "founding",
+    "format": "factoid",
+    "question": null,
+    "answer": "Amazon was founded in 1994 by Jeff Bezos.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Amazon_(company)",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "amazon",
+    "fact_type": "hq",
+    "format": "quiz",
+    "question": "Where is Amazon's headquarters located?",
+    "answer": "Seattle, Washington",
+    "options": [
+      "San Francisco, California",
+      "New York, New York",
+      "Austin, Texas"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Amazon_(company)",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "amazon",
+    "fact_type": "hq",
+    "format": "flashcard",
+    "question": "What city is Amazon headquartered in?",
+    "answer": "Seattle, Washington",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Amazon_(company)",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "amazon",
+    "fact_type": "exec",
+    "format": "quiz",
+    "question": "Who is the current CEO of Amazon?",
+    "answer": "Andy Jassy",
+    "options": [
+      "Jeff Bezos",
+      "Sundar Pichai",
+      "Tim Cook"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Amazon_(company)",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "amazon",
+    "fact_type": "exec",
+    "format": "flashcard",
+    "question": "Who leads Amazon as CEO?",
+    "answer": "Andy Jassy",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Amazon_(company)",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "amazon",
+    "fact_type": "mission",
+    "format": "factoid",
+    "question": null,
+    "answer": "Amazon's mission is \"To be Earth's most customer-centric company\".",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Amazon_(company)",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "amazon",
+    "fact_type": "mission",
+    "format": "flashcard",
+    "question": "What is Amazon's mission statement?",
+    "answer": "To be Earth's most customer-centric company",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Amazon_(company)",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "amazon",
+    "fact_type": "product",
+    "format": "quiz",
+    "question": "Which of these is a Amazon product?",
+    "answer": "Amazon.com",
+    "options": [
+      "Slack",
+      "Zoom",
+      "Dropbox"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Amazon_(company)",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "amazon",
+    "fact_type": "product",
+    "format": "factoid",
+    "question": null,
+    "answer": "Key Amazon products include Amazon.com, AWS, Prime Video, Alexa, Kindle.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Amazon_(company)",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "amazon",
+    "fact_type": "acquisition",
+    "format": "quiz",
+    "question": "Which company did Amazon acquire in 2017?",
+    "answer": "Whole Foods Market",
+    "options": [
+      "Slack",
+      "Tableau",
+      "Salesforce"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Amazon_(company)",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "amazon",
+    "fact_type": "acquisition",
+    "format": "factoid",
+    "question": null,
+    "answer": "Amazon acquired Whole Foods Market in 2017.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Amazon_(company)",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "amazon",
+    "fact_type": "acquisition",
+    "format": "flashcard",
+    "question": "In what year did Amazon acquire MGM?",
+    "answer": "2022",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Amazon_(company)",
+    "source_date": "2026-01-19"
+  }
+]

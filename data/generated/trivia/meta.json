@@ -1,0 +1,162 @@
+[
+  {
+    "company_slug": "meta",
+    "fact_type": "founding",
+    "format": "quiz",
+    "question": "When was Meta founded?",
+    "answer": "2004",
+    "options": [
+      "1999",
+      "2002",
+      "2007"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Meta_Platforms",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "meta",
+    "fact_type": "founding",
+    "format": "flashcard",
+    "question": "Who founded Meta?",
+    "answer": "Mark Zuckerberg and Eduardo Saverin and others",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Meta_Platforms",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "meta",
+    "fact_type": "founding",
+    "format": "factoid",
+    "question": null,
+    "answer": "Meta was founded in 2004 by Mark Zuckerberg and Eduardo Saverin and others.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Meta_Platforms",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "meta",
+    "fact_type": "hq",
+    "format": "quiz",
+    "question": "Where is Meta's headquarters located?",
+    "answer": "Menlo Park, California",
+    "options": [
+      "San Francisco, California",
+      "Seattle, Washington",
+      "New York, New York"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Meta_Platforms",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "meta",
+    "fact_type": "hq",
+    "format": "flashcard",
+    "question": "What city is Meta headquartered in?",
+    "answer": "Menlo Park, California",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Meta_Platforms",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "meta",
+    "fact_type": "exec",
+    "format": "quiz",
+    "question": "Who is the current CEO of Meta?",
+    "answer": "Mark Zuckerberg",
+    "options": [
+      "Sundar Pichai",
+      "Tim Cook",
+      "Satya Nadella"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Meta_Platforms",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "meta",
+    "fact_type": "exec",
+    "format": "flashcard",
+    "question": "Who leads Meta as CEO?",
+    "answer": "Mark Zuckerberg",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Meta_Platforms",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "meta",
+    "fact_type": "mission",
+    "format": "factoid",
+    "question": null,
+    "answer": "Meta's mission is \"To give people the power to build community and bring the world closer together\".",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Meta_Platforms",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "meta",
+    "fact_type": "mission",
+    "format": "flashcard",
+    "question": "What is Meta's mission statement?",
+    "answer": "To give people the power to build community and bring the world closer together",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Meta_Platforms",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "meta",
+    "fact_type": "product",
+    "format": "quiz",
+    "question": "Which of these is a Meta product?",
+    "answer": "Facebook",
+    "options": [
+      "Slack",
+      "Zoom",
+      "Dropbox"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Meta_Platforms",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "meta",
+    "fact_type": "product",
+    "format": "factoid",
+    "question": null,
+    "answer": "Key Meta products include Facebook, Instagram, WhatsApp, Messenger, Meta Quest.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Meta_Platforms",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "meta",
+    "fact_type": "acquisition",
+    "format": "quiz",
+    "question": "Which company did Meta acquire in 2012?",
+    "answer": "Instagram",
+    "options": [
+      "Slack",
+      "Tableau",
+      "Salesforce"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Meta_Platforms",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "meta",
+    "fact_type": "acquisition",
+    "format": "factoid",
+    "question": null,
+    "answer": "Meta acquired Instagram in 2012.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Meta_Platforms",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "meta",
+    "fact_type": "acquisition",
+    "format": "flashcard",
+    "question": "In what year did Meta acquire WhatsApp?",
+    "answer": "2014",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Meta_Platforms",
+    "source_date": "2026-01-19"
+  }
+]

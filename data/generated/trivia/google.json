@@ -1,0 +1,162 @@
+[
+  {
+    "company_slug": "google",
+    "fact_type": "founding",
+    "format": "quiz",
+    "question": "When was Google founded?",
+    "answer": "1998",
+    "options": [
+      "1993",
+      "1996",
+      "2001"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Google",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "google",
+    "fact_type": "founding",
+    "format": "flashcard",
+    "question": "Who founded Google?",
+    "answer": "Larry Page and Sergey Brin",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Google",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "google",
+    "fact_type": "founding",
+    "format": "factoid",
+    "question": null,
+    "answer": "Google was founded in 1998 by Larry Page and Sergey Brin.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Google",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "google",
+    "fact_type": "hq",
+    "format": "quiz",
+    "question": "Where is Google's headquarters located?",
+    "answer": "Mountain View, California",
+    "options": [
+      "San Francisco, California",
+      "Seattle, Washington",
+      "New York, New York"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Google",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "google",
+    "fact_type": "hq",
+    "format": "flashcard",
+    "question": "What city is Google headquartered in?",
+    "answer": "Mountain View, California",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Google",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "google",
+    "fact_type": "exec",
+    "format": "quiz",
+    "question": "Who is the current CEO of Google?",
+    "answer": "Sundar Pichai",
+    "options": [
+      "Tim Cook",
+      "Satya Nadella",
+      "Andy Jassy"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Google",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "google",
+    "fact_type": "exec",
+    "format": "flashcard",
+    "question": "Who leads Google as CEO?",
+    "answer": "Sundar Pichai",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Google",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "google",
+    "fact_type": "mission",
+    "format": "factoid",
+    "question": null,
+    "answer": "Google's mission is \"To organize the world's information and make it universally accessible and useful\".",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Google",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "google",
+    "fact_type": "mission",
+    "format": "flashcard",
+    "question": "What is Google's mission statement?",
+    "answer": "To organize the world's information and make it universally accessible and useful",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Google",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "google",
+    "fact_type": "product",
+    "format": "quiz",
+    "question": "Which of these is a Google product?",
+    "answer": "Google Search",
+    "options": [
+      "Slack",
+      "Zoom",
+      "Dropbox"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Google",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "google",
+    "fact_type": "product",
+    "format": "factoid",
+    "question": null,
+    "answer": "Key Google products include Google Search, YouTube, Android, Google Cloud, Gmail.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Google",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "google",
+    "fact_type": "acquisition",
+    "format": "quiz",
+    "question": "Which company did Google acquire in 2006?",
+    "answer": "YouTube",
+    "options": [
+      "Slack",
+      "Tableau",
+      "Salesforce"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Google",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "google",
+    "fact_type": "acquisition",
+    "format": "factoid",
+    "question": null,
+    "answer": "Google acquired YouTube in 2006.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Google",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "google",
+    "fact_type": "acquisition",
+    "format": "flashcard",
+    "question": "In what year did Google acquire Android?",
+    "answer": "2005",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Google",
+    "source_date": "2026-01-19"
+  }
+]

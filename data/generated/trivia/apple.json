@@ -1,0 +1,162 @@
+[
+  {
+    "company_slug": "apple",
+    "fact_type": "founding",
+    "format": "quiz",
+    "question": "When was Apple founded?",
+    "answer": "1976",
+    "options": [
+      "1971",
+      "1974",
+      "1979"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Apple_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "apple",
+    "fact_type": "founding",
+    "format": "flashcard",
+    "question": "Who founded Apple?",
+    "answer": "Steve Jobs and Steve Wozniak and others",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Apple_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "apple",
+    "fact_type": "founding",
+    "format": "factoid",
+    "question": null,
+    "answer": "Apple was founded in 1976 by Steve Jobs and Steve Wozniak and others.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Apple_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "apple",
+    "fact_type": "hq",
+    "format": "quiz",
+    "question": "Where is Apple's headquarters located?",
+    "answer": "Cupertino, California",
+    "options": [
+      "San Francisco, California",
+      "Seattle, Washington",
+      "New York, New York"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Apple_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "apple",
+    "fact_type": "hq",
+    "format": "flashcard",
+    "question": "What city is Apple headquartered in?",
+    "answer": "Cupertino, California",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Apple_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "apple",
+    "fact_type": "exec",
+    "format": "quiz",
+    "question": "Who is the current CEO of Apple?",
+    "answer": "Tim Cook",
+    "options": [
+      "Steve Jobs",
+      "Sundar Pichai",
+      "Satya Nadella"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Apple_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "apple",
+    "fact_type": "exec",
+    "format": "flashcard",
+    "question": "Who leads Apple as CEO?",
+    "answer": "Tim Cook",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Apple_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "apple",
+    "fact_type": "mission",
+    "format": "factoid",
+    "question": null,
+    "answer": "Apple's mission is \"To bring the best user experience to customers through innovative hardware, software, and services\".",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Apple_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "apple",
+    "fact_type": "mission",
+    "format": "flashcard",
+    "question": "What is Apple's mission statement?",
+    "answer": "To bring the best user experience to customers through innovative hardware, software, and services",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Apple_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "apple",
+    "fact_type": "product",
+    "format": "quiz",
+    "question": "Which of these is a Apple product?",
+    "answer": "iPhone",
+    "options": [
+      "Slack",
+      "Zoom",
+      "Dropbox"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Apple_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "apple",
+    "fact_type": "product",
+    "format": "factoid",
+    "question": null,
+    "answer": "Key Apple products include iPhone, Mac, iPad, Apple Watch, AirPods.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Apple_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "apple",
+    "fact_type": "acquisition",
+    "format": "quiz",
+    "question": "Which company did Apple acquire in 2014?",
+    "answer": "Beats Electronics",
+    "options": [
+      "Slack",
+      "Tableau",
+      "Salesforce"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Apple_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "apple",
+    "fact_type": "acquisition",
+    "format": "factoid",
+    "question": null,
+    "answer": "Apple acquired Beats Electronics in 2014.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Apple_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "apple",
+    "fact_type": "acquisition",
+    "format": "flashcard",
+    "question": "In what year did Apple acquire Shazam?",
+    "answer": "2018",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Apple_Inc.",
+    "source_date": "2026-01-19"
+  }
+]

@@ -1,0 +1,162 @@
+[
+  {
+    "company_slug": "amd",
+    "fact_type": "founding",
+    "format": "quiz",
+    "question": "When was AMD founded?",
+    "answer": "1969",
+    "options": [
+      "1964",
+      "1967",
+      "1972"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/AMD",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "amd",
+    "fact_type": "founding",
+    "format": "flashcard",
+    "question": "Who founded AMD?",
+    "answer": "Jerry Sanders and Ed Turney and others",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/AMD",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "amd",
+    "fact_type": "founding",
+    "format": "factoid",
+    "question": null,
+    "answer": "AMD was founded in 1969 by Jerry Sanders and Ed Turney and others.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/AMD",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "amd",
+    "fact_type": "hq",
+    "format": "quiz",
+    "question": "Where is AMD's headquarters located?",
+    "answer": "Santa Clara, California",
+    "options": [
+      "San Francisco, California",
+      "Seattle, Washington",
+      "New York, New York"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/AMD",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "amd",
+    "fact_type": "hq",
+    "format": "flashcard",
+    "question": "What city is AMD headquartered in?",
+    "answer": "Santa Clara, California",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/AMD",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "amd",
+    "fact_type": "exec",
+    "format": "quiz",
+    "question": "Who is the current CEO of AMD?",
+    "answer": "Lisa Su",
+    "options": [
+      "Jensen Huang",
+      "Pat Gelsinger",
+      "Tim Cook"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/AMD",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "amd",
+    "fact_type": "exec",
+    "format": "flashcard",
+    "question": "Who leads AMD as CEO?",
+    "answer": "Lisa Su",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/AMD",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "amd",
+    "fact_type": "mission",
+    "format": "factoid",
+    "question": null,
+    "answer": "AMD's mission is \"To build great products that accelerate next-generation computing experiences\".",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/AMD",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "amd",
+    "fact_type": "mission",
+    "format": "flashcard",
+    "question": "What is AMD's mission statement?",
+    "answer": "To build great products that accelerate next-generation computing experiences",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/AMD",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "amd",
+    "fact_type": "product",
+    "format": "quiz",
+    "question": "Which of these is a AMD product?",
+    "answer": "Ryzen processors",
+    "options": [
+      "Slack",
+      "Zoom",
+      "Dropbox"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/AMD",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "amd",
+    "fact_type": "product",
+    "format": "factoid",
+    "question": null,
+    "answer": "Key AMD products include Ryzen processors, EPYC server processors, Radeon GPUs, Instinct accelerators.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/AMD",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "amd",
+    "fact_type": "acquisition",
+    "format": "quiz",
+    "question": "Which company did AMD acquire in 2006?",
+    "answer": "ATI Technologies",
+    "options": [
+      "Slack",
+      "Tableau",
+      "Salesforce"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/AMD",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "amd",
+    "fact_type": "acquisition",
+    "format": "factoid",
+    "question": null,
+    "answer": "AMD acquired ATI Technologies in 2006.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/AMD",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "amd",
+    "fact_type": "acquisition",
+    "format": "flashcard",
+    "question": "In what year did AMD acquire Xilinx?",
+    "answer": "2022",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/AMD",
+    "source_date": "2026-01-19"
+  }
+]
