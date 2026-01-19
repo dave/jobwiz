@@ -48,8 +48,15 @@ export default async function LearnPage({ params }: LearnPageProps) {
   try {
     const supabase = await createServerClient();
     const { data: { user } } = await supabase.auth.getUser();
+    console.log('[LearnPage] Auth check:', { hasUser: !!user, userId: user?.id });
     if (user) {
       hasPremiumAccess = await hasAccess(supabase, user.id, companySlug, roleSlug);
+      console.log('[LearnPage] Access check:', {
+        userId: user.id,
+        companySlug,
+        roleSlug,
+        hasPremiumAccess
+      });
     }
   } catch (error) {
     console.error("Error checking access:", error);
