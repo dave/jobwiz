@@ -9,6 +9,10 @@ import { DEFAULT_PRODUCT, type CheckoutSessionData, type CreateCheckoutRequest, 
  * Get base URL for redirects
  */
 function getBaseUrl(): string {
+  // In development, always use localhost
+  if (process.env.NODE_ENV === 'development') {
+    return process.env.DEV_BASE_URL || 'http://localhost:3000';
+  }
   // In production, use the NEXT_PUBLIC_BASE_URL or VERCEL_URL
   if (process.env.NEXT_PUBLIC_BASE_URL) {
     return process.env.NEXT_PUBLIC_BASE_URL;
@@ -16,7 +20,6 @@ function getBaseUrl(): string {
   if (process.env.VERCEL_URL) {
     return `https://${process.env.VERCEL_URL}`;
   }
-  // In development, use localhost
   return 'http://localhost:3000';
 }
 
@@ -25,10 +28,11 @@ function getBaseUrl(): string {
  */
 export async function createCheckoutSession(
   request: CreateCheckoutRequest,
-  userId?: string
+  userId?: string,
+  originUrl?: string
 ): Promise<CreateCheckoutResponse> {
   const stripe = getStripeClient();
-  const baseUrl = getBaseUrl();
+  const baseUrl = originUrl || getBaseUrl();
 
   const successUrl = request.success_url || `${baseUrl}/checkout/success?session_id={CHECKOUT_SESSION_ID}`;
   const cancelUrl = request.cancel_url || `${baseUrl}/${request.company_slug}/${request.role_slug}`;
