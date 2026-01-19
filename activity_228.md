@@ -43,7 +43,7 @@ Fix content quality issues identified during manual review of interview prep mod
 - [x] #245 - Add STAR section intro
 - [x] #246 - Add Research section intro
 - [x] #247 - Audit role modules
-- [ ] #248 - Add intros to role modules
+- [x] #248 - Add intros to role modules
 
 ### Grammar Fixes (#249)
 - [ ] #259 - Universal + Industry modules
@@ -351,4 +351,36 @@ All 22 role modules share identical structure. Sections needing intros:
 - ✅ All 22 role modules reviewed
 - ✅ List of sections needing intros documented
 - ✅ Priority ranking for fixes created
+
+### 2026-01-19 - Issue #248: Add missing introductions to role modules
+
+**Completed:**
+- Created `scripts/cleanup/add-role-intros.ts` script
+- Added introductions to 2 sections across all 22 role modules:
+  1. **Key Competencies** - Role-specific intro explaining what competencies are and why they matter
+  2. **Preparation Checklist** - Context-setting intro for how/when to use the checklist
+- Total: 44 intro blocks added (2 per module)
+
+**Role-specific intros added:**
+- Each role has a customized Key Competencies intro that references the specific role
+- Preparation Checklist intro mentions the role name dynamically
+
+**Files Created:**
+- `scripts/cleanup/add-role-intros.ts` - Script to add intros to role modules
+
+**Files Modified:**
+- All 22 role modules in `data/generated/modules/role-*.json`
+
+**Verification:**
+- All JSON files valid (python3 -m json.tool validation passes)
+- `npm run lint` - passes (warnings only)
+- `npm run type-check` - passes
+- `npm run build` - successful
+- `npm test -- --testPathPattern="modules"` - 77 tests pass
+
+**Acceptance Criteria:**
+- ✅ All flagged sections have intros
+- ✅ Intros explain what/why before how
+- ✅ Tone consistent with existing content
+- ✅ JSON valid after edits
 

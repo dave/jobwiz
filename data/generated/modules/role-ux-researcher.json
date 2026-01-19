@@ -326,6 +326,12 @@
       "title": "Key Competencies",
       "blocks": [
         {
+          "type": "text",
+          "content": {
+            "text": "UX Researcher interviews test your research methodology, analytical skills, and ability to translate insights into action. These are the core competencies interviewers evaluate - prepare examples from your research portfolio."
+          }
+        },
+        {
           "type": "checklist",
           "content": {
             "title": "UXR Skills to Demonstrate",
@@ -513,6 +519,12 @@
       "id": "preparation",
       "title": "Preparation Checklist",
       "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "This checklist will help you prepare systematically for your UX Researcher interview. Work through each item in the weeks leading up to your interview - don't try to cram everything at the last minute."
+          }
+        },
         {
           "type": "checklist",
           "content": {

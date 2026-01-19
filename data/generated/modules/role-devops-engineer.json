@@ -326,6 +326,12 @@
       "title": "Key Competencies",
       "blocks": [
         {
+          "type": "text",
+          "content": {
+            "text": "DevOps Engineer interviews evaluate your ability to build reliable, automated infrastructure and deployment pipelines. These are the core competencies interviewers look for - have specific examples ready for each area."
+          }
+        },
+        {
           "type": "checklist",
           "content": {
             "title": "Technical Areas to Review",
@@ -513,6 +519,12 @@
       "id": "preparation",
       "title": "Preparation Checklist",
       "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "This checklist will help you prepare systematically for your DevOps/SRE interview. Work through each item in the weeks leading up to your interview - don't try to cram everything at the last minute."
+          }
+        },
         {
           "type": "checklist",
           "content": {

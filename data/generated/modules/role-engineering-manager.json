@@ -326,6 +326,12 @@
       "title": "Key Competencies",
       "blocks": [
         {
+          "type": "text",
+          "content": {
+            "text": "Engineering Manager interviews assess your ability to lead teams, deliver projects, and grow engineers. These are the core competencies interviewers evaluate - prepare specific stories demonstrating each one."
+          }
+        },
+        {
           "type": "checklist",
           "content": {
             "title": "Leadership Areas to Prepare",
@@ -513,6 +519,12 @@
       "id": "preparation",
       "title": "Preparation Checklist",
       "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "This checklist will help you prepare systematically for your Engineering Manager interview. Work through each item in the weeks leading up to your interview - don't try to cram everything at the last minute."
+          }
+        },
         {
           "type": "checklist",
           "content": {
