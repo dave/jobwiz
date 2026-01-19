@@ -84,9 +84,14 @@ async function loadFromSupabase(
       .select("*")
       .eq("user_id", user.id)
       .eq("journey_id", journeyId)
-      .single();
+      .maybeSingle();
 
-    if (error || !data) return null;
+    // Return null if no data or any error (including missing table)
+    if (error) {
+      console.warn('[CarouselContext] Supabase load error:', error.message);
+      return null;
+    }
+    if (!data) return null;
 
     // Convert Supabase row to CarouselProgress
     // The journey_progress table stores: current_step_index, completed_steps (array)
@@ -133,7 +138,11 @@ async function saveToSupabase(progress: CarouselProgress): Promise<boolean> {
       }
     );
 
-    return !error;
+    if (error) {
+      console.warn('[CarouselContext] Supabase save error:', error.message);
+      return false;
+    }
+    return true;
   } catch {
     return false;
   }
