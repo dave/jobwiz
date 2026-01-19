@@ -5,6 +5,11 @@
 
 export { CarouselProvider, useCarousel } from "./CarouselContext";
 export { CarouselContainer } from "./CarouselContainer";
+export {
+  CarouselPaywall,
+  type CarouselPaywallProps,
+  type CarouselPaywallTrackEvent,
+} from "./CarouselPaywall";
 
 // Item components for rendering content in the carousel
 export {

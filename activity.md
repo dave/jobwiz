@@ -2524,3 +2524,58 @@ All Stage 5 (Launch) code issues are now closed:
   - MediaItem handles video, audio, image ✓
   - All items: centered, large typography, minimal UI ✓
   - Each block type renders correctly in carousel ✓
+
+### 2026-01-18 - Issue #130: B5: CarouselPaywall
+
+**Completed:**
+- Created `/src/components/carousel/CarouselPaywall.tsx` component
+- Implemented paywall as carousel item that blocks forward navigation until purchased
+- Added value proposition display with customizable heading, description, benefits list, and price
+- Implemented purchase CTA with mock mode for development and real Stripe integration support
+- Auto-advances to next item after successful purchase
+- Skips paywall for returning users who already purchased (via localStorage check)
+- Integrated analytics tracking for impressions, CTA clicks, and unlock events
+- Added comprehensive accessibility features (ARIA attributes, accessible labels, touch targets)
+
+**CarouselPaywall Features:**
+- Blocks forward navigation until purchased
+- Shows value prop: heading, description, benefits list with checkmarks
+- Shows price with currency formatting
+- Mock mode for development (no payment required)
+- Real purchase mode with async `onPurchase` callback
+- Analytics tracking: paywall_impression, paywall_cta_click, paywall_unlock
+- Persists unlock state to localStorage per journey ID
+- Auto-advances to next item on purchase or for returning users
+- Loading state during purchase flow
+- Error handling for failed purchases
+- Accessible: dialog role, labeled heading, minimum 48px touch target
+
+**Files Created:**
+- `src/components/carousel/CarouselPaywall.tsx`
+- `src/components/carousel/__tests__/CarouselPaywall.test.tsx`
+
+**Files Modified:**
+- `src/components/carousel/index.ts` - Added CarouselPaywall export
+
+**Tests:**
+- 34 unit tests covering:
+  - Rendering (9 tests): default content, custom props, price formatting
+  - Accessibility (4 tests): ARIA attributes, accessible labels, touch targets
+  - Mock mode purchase flow (3 tests): loading state, unlock, persistence
+  - Real purchase flow (3 tests): onPurchase callback, failed purchase, error handling
+  - Analytics tracking (5 tests): impressions, CTA clicks, unlock events, timestamps
+  - Already purchased behavior (3 tests): loading state, skip paywall
+  - Auto-advance behavior (2 tests): after unlock, returning users
+  - Price formats (3 tests): whole dollars, commas, zero
+  - Context integration (2 tests): slugs from context, journey ID
+
+**Verification:**
+- `npm run lint` - passes with no errors
+- `npm run type-check` - passes with no errors
+- `npm run build` - successful production build
+- `npm test` - 218 carousel tests pass (34 new CarouselPaywall + 184 existing)
+- All acceptance criteria verified:
+  - Paywall blocks forward navigation until purchased ✓
+  - Shows value prop and purchase CTA ✓
+  - On purchase, auto-advances to next item ✓
+  - Skip if user already purchased ✓
