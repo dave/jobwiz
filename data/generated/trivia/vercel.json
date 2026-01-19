@@ -1,0 +1,162 @@
+[
+  {
+    "company_slug": "vercel",
+    "fact_type": "founding",
+    "format": "quiz",
+    "question": "When was Vercel founded?",
+    "answer": "2015",
+    "options": [
+      "2012",
+      "2014",
+      "2017"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Vercel",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "vercel",
+    "fact_type": "founding",
+    "format": "flashcard",
+    "question": "Who founded Vercel?",
+    "answer": "Guillermo Rauch",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Vercel",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "vercel",
+    "fact_type": "founding",
+    "format": "factoid",
+    "question": null,
+    "answer": "Vercel was founded in 2015 by Guillermo Rauch.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Vercel",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "vercel",
+    "fact_type": "hq",
+    "format": "quiz",
+    "question": "Where is Vercel's headquarters located?",
+    "answer": "San Francisco, California",
+    "options": [
+      "Seattle, Washington",
+      "New York, New York",
+      "Austin, Texas"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Vercel",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "vercel",
+    "fact_type": "hq",
+    "format": "flashcard",
+    "question": "What city is Vercel headquartered in?",
+    "answer": "San Francisco, California",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Vercel",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "vercel",
+    "fact_type": "exec",
+    "format": "quiz",
+    "question": "Who is the current CEO of Vercel?",
+    "answer": "Guillermo Rauch",
+    "options": [
+      "Ivan Zhao",
+      "Dylan Field",
+      "Patrick Collison"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Vercel",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "vercel",
+    "fact_type": "exec",
+    "format": "flashcard",
+    "question": "Who leads Vercel as CEO?",
+    "answer": "Guillermo Rauch",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Vercel",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "vercel",
+    "fact_type": "mission",
+    "format": "factoid",
+    "question": null,
+    "answer": "Vercel's mission is \"To enable developers to build and deploy web applications with speed and ease\".",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Vercel",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "vercel",
+    "fact_type": "mission",
+    "format": "flashcard",
+    "question": "What is Vercel's mission statement?",
+    "answer": "To enable developers to build and deploy web applications with speed and ease",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Vercel",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "vercel",
+    "fact_type": "product",
+    "format": "quiz",
+    "question": "Which of these is a Vercel product?",
+    "answer": "Vercel Platform",
+    "options": [
+      "Slack",
+      "Zoom",
+      "Dropbox"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Vercel",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "vercel",
+    "fact_type": "product",
+    "format": "factoid",
+    "question": null,
+    "answer": "Key Vercel products include Vercel Platform, Next.js, Vercel AI SDK, v0, Turbo.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Vercel",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "vercel",
+    "fact_type": "acquisition",
+    "format": "quiz",
+    "question": "Which company did Vercel acquire in 2021?",
+    "answer": "Turborepo",
+    "options": [
+      "Slack",
+      "Tableau",
+      "Figma"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Vercel",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "vercel",
+    "fact_type": "acquisition",
+    "format": "factoid",
+    "question": null,
+    "answer": "Vercel acquired Turborepo in 2021.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Vercel",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "vercel",
+    "fact_type": "acquisition",
+    "format": "flashcard",
+    "question": "In what year did Vercel acquire Splitbee?",
+    "answer": "2022",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Vercel",
+    "source_date": "2026-01-19"
+  }
+]

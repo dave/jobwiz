@@ -1,0 +1,162 @@
+[
+  {
+    "company_slug": "uber",
+    "fact_type": "founding",
+    "format": "quiz",
+    "question": "When was Uber founded?",
+    "answer": "2009",
+    "options": [
+      "2006",
+      "2008",
+      "2011"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Uber",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "uber",
+    "fact_type": "founding",
+    "format": "flashcard",
+    "question": "Who founded Uber?",
+    "answer": "Travis Kalanick and Garrett Camp",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Uber",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "uber",
+    "fact_type": "founding",
+    "format": "factoid",
+    "question": null,
+    "answer": "Uber was founded in 2009 by Travis Kalanick and Garrett Camp.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Uber",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "uber",
+    "fact_type": "hq",
+    "format": "quiz",
+    "question": "Where is Uber's headquarters located?",
+    "answer": "San Francisco, California",
+    "options": [
+      "Seattle, Washington",
+      "New York, New York",
+      "Austin, Texas"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Uber",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "uber",
+    "fact_type": "hq",
+    "format": "flashcard",
+    "question": "What city is Uber headquartered in?",
+    "answer": "San Francisco, California",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Uber",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "uber",
+    "fact_type": "exec",
+    "format": "quiz",
+    "question": "Who is the current CEO of Uber?",
+    "answer": "Dara Khosrowshahi",
+    "options": [
+      "Brian Chesky",
+      "Tony Xu",
+      "Logan Green"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Uber",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "uber",
+    "fact_type": "exec",
+    "format": "flashcard",
+    "question": "Who leads Uber as CEO?",
+    "answer": "Dara Khosrowshahi",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Uber",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "uber",
+    "fact_type": "mission",
+    "format": "factoid",
+    "question": null,
+    "answer": "Uber's mission is \"To ignite opportunity by setting the world in motion\".",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Uber",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "uber",
+    "fact_type": "mission",
+    "format": "flashcard",
+    "question": "What is Uber's mission statement?",
+    "answer": "To ignite opportunity by setting the world in motion",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Uber",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "uber",
+    "fact_type": "product",
+    "format": "quiz",
+    "question": "Which of these is a Uber product?",
+    "answer": "Uber Rides",
+    "options": [
+      "Slack",
+      "Zoom",
+      "Dropbox"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Uber",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "uber",
+    "fact_type": "product",
+    "format": "factoid",
+    "question": null,
+    "answer": "Key Uber products include Uber Rides, Uber Eats, Uber Freight, Uber for Business.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Uber",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "uber",
+    "fact_type": "acquisition",
+    "format": "quiz",
+    "question": "Which company did Uber acquire in 2020?",
+    "answer": "Postmates",
+    "options": [
+      "Slack",
+      "Tableau",
+      "Figma"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Uber",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "uber",
+    "fact_type": "acquisition",
+    "format": "factoid",
+    "question": null,
+    "answer": "Uber acquired Postmates in 2020.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Uber",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "uber",
+    "fact_type": "acquisition",
+    "format": "flashcard",
+    "question": "In what year did Uber acquire Drizly?",
+    "answer": "2021",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Uber",
+    "source_date": "2026-01-19"
+  }
+]

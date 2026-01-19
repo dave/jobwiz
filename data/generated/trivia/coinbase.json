@@ -1,0 +1,162 @@
+[
+  {
+    "company_slug": "coinbase",
+    "fact_type": "founding",
+    "format": "quiz",
+    "question": "When was Coinbase founded?",
+    "answer": "2012",
+    "options": [
+      "2009",
+      "2011",
+      "2014"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Coinbase",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "coinbase",
+    "fact_type": "founding",
+    "format": "flashcard",
+    "question": "Who founded Coinbase?",
+    "answer": "Brian Armstrong and Fred Ehrsam",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Coinbase",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "coinbase",
+    "fact_type": "founding",
+    "format": "factoid",
+    "question": null,
+    "answer": "Coinbase was founded in 2012 by Brian Armstrong and Fred Ehrsam.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Coinbase",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "coinbase",
+    "fact_type": "hq",
+    "format": "quiz",
+    "question": "Where is Coinbase's headquarters located?",
+    "answer": "San Francisco, California",
+    "options": [
+      "Seattle, Washington",
+      "New York, New York",
+      "Austin, Texas"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Coinbase",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "coinbase",
+    "fact_type": "hq",
+    "format": "flashcard",
+    "question": "What city is Coinbase headquartered in?",
+    "answer": "San Francisco, California",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Coinbase",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "coinbase",
+    "fact_type": "exec",
+    "format": "quiz",
+    "question": "Who is the current CEO of Coinbase?",
+    "answer": "Brian Armstrong",
+    "options": [
+      "Vlad Tenev",
+      "Patrick Collison",
+      "Zach Perret"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Coinbase",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "coinbase",
+    "fact_type": "exec",
+    "format": "flashcard",
+    "question": "Who leads Coinbase as CEO?",
+    "answer": "Brian Armstrong",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Coinbase",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "coinbase",
+    "fact_type": "mission",
+    "format": "factoid",
+    "question": null,
+    "answer": "Coinbase's mission is \"To increase economic freedom in the world\".",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Coinbase",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "coinbase",
+    "fact_type": "mission",
+    "format": "flashcard",
+    "question": "What is Coinbase's mission statement?",
+    "answer": "To increase economic freedom in the world",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Coinbase",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "coinbase",
+    "fact_type": "product",
+    "format": "quiz",
+    "question": "Which of these is a Coinbase product?",
+    "answer": "Coinbase Exchange",
+    "options": [
+      "Slack",
+      "Zoom",
+      "Dropbox"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Coinbase",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "coinbase",
+    "fact_type": "product",
+    "format": "factoid",
+    "question": null,
+    "answer": "Key Coinbase products include Coinbase Exchange, Coinbase Wallet, Coinbase Prime, Base blockchain, Coinbase Commerce.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Coinbase",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "coinbase",
+    "fact_type": "acquisition",
+    "format": "quiz",
+    "question": "Which company did Coinbase acquire in 2019?",
+    "answer": "Neutrino",
+    "options": [
+      "Slack",
+      "Tableau",
+      "Figma"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Coinbase",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "coinbase",
+    "fact_type": "acquisition",
+    "format": "factoid",
+    "question": null,
+    "answer": "Coinbase acquired Neutrino in 2019.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Coinbase",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "coinbase",
+    "fact_type": "acquisition",
+    "format": "flashcard",
+    "question": "In what year did Coinbase acquire Bison Trails?",
+    "answer": "2021",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Coinbase",
+    "source_date": "2026-01-19"
+  }
+]

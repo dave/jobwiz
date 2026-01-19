@@ -1,0 +1,162 @@
+[
+  {
+    "company_slug": "airbnb",
+    "fact_type": "founding",
+    "format": "quiz",
+    "question": "When was Airbnb founded?",
+    "answer": "2008",
+    "options": [
+      "2005",
+      "2007",
+      "2010"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Airbnb",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "airbnb",
+    "fact_type": "founding",
+    "format": "flashcard",
+    "question": "Who founded Airbnb?",
+    "answer": "Brian Chesky and Joe Gebbia and others",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Airbnb",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "airbnb",
+    "fact_type": "founding",
+    "format": "factoid",
+    "question": null,
+    "answer": "Airbnb was founded in 2008 by Brian Chesky and Joe Gebbia and others.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Airbnb",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "airbnb",
+    "fact_type": "hq",
+    "format": "quiz",
+    "question": "Where is Airbnb's headquarters located?",
+    "answer": "San Francisco, California",
+    "options": [
+      "Seattle, Washington",
+      "New York, New York",
+      "Austin, Texas"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Airbnb",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "airbnb",
+    "fact_type": "hq",
+    "format": "flashcard",
+    "question": "What city is Airbnb headquartered in?",
+    "answer": "San Francisco, California",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Airbnb",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "airbnb",
+    "fact_type": "exec",
+    "format": "quiz",
+    "question": "Who is the current CEO of Airbnb?",
+    "answer": "Brian Chesky",
+    "options": [
+      "Dara Khosrowshahi",
+      "Tony Xu",
+      "Patrick Collison"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Airbnb",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "airbnb",
+    "fact_type": "exec",
+    "format": "flashcard",
+    "question": "Who leads Airbnb as CEO?",
+    "answer": "Brian Chesky",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Airbnb",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "airbnb",
+    "fact_type": "mission",
+    "format": "factoid",
+    "question": null,
+    "answer": "Airbnb's mission is \"To create a world where anyone can belong anywhere\".",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Airbnb",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "airbnb",
+    "fact_type": "mission",
+    "format": "flashcard",
+    "question": "What is Airbnb's mission statement?",
+    "answer": "To create a world where anyone can belong anywhere",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Airbnb",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "airbnb",
+    "fact_type": "product",
+    "format": "quiz",
+    "question": "Which of these is a Airbnb product?",
+    "answer": "Airbnb Stays",
+    "options": [
+      "Slack",
+      "Zoom",
+      "Dropbox"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Airbnb",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "airbnb",
+    "fact_type": "product",
+    "format": "factoid",
+    "question": null,
+    "answer": "Key Airbnb products include Airbnb Stays, Airbnb Experiences, Airbnb Luxe, Airbnb Plus.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Airbnb",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "airbnb",
+    "fact_type": "acquisition",
+    "format": "quiz",
+    "question": "Which company did Airbnb acquire in 2019?",
+    "answer": "HotelTonight",
+    "options": [
+      "Slack",
+      "Tableau",
+      "Figma"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Airbnb",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "airbnb",
+    "fact_type": "acquisition",
+    "format": "factoid",
+    "question": null,
+    "answer": "Airbnb acquired HotelTonight in 2019.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Airbnb",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "airbnb",
+    "fact_type": "acquisition",
+    "format": "flashcard",
+    "question": "In what year did Airbnb acquire Urbandoor?",
+    "answer": "2019",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Airbnb",
+    "source_date": "2026-01-19"
+  }
+]

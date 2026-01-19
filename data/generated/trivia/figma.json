@@ -1,0 +1,152 @@
+[
+  {
+    "company_slug": "figma",
+    "fact_type": "founding",
+    "format": "quiz",
+    "question": "When was Figma founded?",
+    "answer": "2012",
+    "options": [
+      "2009",
+      "2011",
+      "2014"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Figma",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "figma",
+    "fact_type": "founding",
+    "format": "flashcard",
+    "question": "Who founded Figma?",
+    "answer": "Dylan Field and Evan Wallace",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Figma",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "figma",
+    "fact_type": "founding",
+    "format": "factoid",
+    "question": null,
+    "answer": "Figma was founded in 2012 by Dylan Field and Evan Wallace.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Figma",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "figma",
+    "fact_type": "hq",
+    "format": "quiz",
+    "question": "Where is Figma's headquarters located?",
+    "answer": "San Francisco, California",
+    "options": [
+      "Seattle, Washington",
+      "New York, New York",
+      "Austin, Texas"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Figma",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "figma",
+    "fact_type": "hq",
+    "format": "flashcard",
+    "question": "What city is Figma headquartered in?",
+    "answer": "San Francisco, California",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Figma",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "figma",
+    "fact_type": "exec",
+    "format": "quiz",
+    "question": "Who is the current CEO of Figma?",
+    "answer": "Dylan Field",
+    "options": [
+      "Patrick Collison",
+      "Ivan Zhao",
+      "Brian Armstrong"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Figma",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "figma",
+    "fact_type": "exec",
+    "format": "flashcard",
+    "question": "Who leads Figma as CEO?",
+    "answer": "Dylan Field",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Figma",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "figma",
+    "fact_type": "mission",
+    "format": "factoid",
+    "question": null,
+    "answer": "Figma's mission is \"To make design accessible to everyone\".",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Figma",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "figma",
+    "fact_type": "mission",
+    "format": "flashcard",
+    "question": "What is Figma's mission statement?",
+    "answer": "To make design accessible to everyone",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Figma",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "figma",
+    "fact_type": "product",
+    "format": "quiz",
+    "question": "Which of these is a Figma product?",
+    "answer": "Figma Design",
+    "options": [
+      "Slack",
+      "Zoom",
+      "Dropbox"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Figma",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "figma",
+    "fact_type": "product",
+    "format": "factoid",
+    "question": null,
+    "answer": "Key Figma products include Figma Design, FigJam, Figma Dev Mode, Figma Slides.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Figma",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "figma",
+    "fact_type": "acquisition",
+    "format": "quiz",
+    "question": "Which company did Figma acquire in 2023?",
+    "answer": "Diagram",
+    "options": [
+      "Slack",
+      "Tableau",
+      "Figma"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Figma",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "figma",
+    "fact_type": "acquisition",
+    "format": "factoid",
+    "question": null,
+    "answer": "Figma acquired Diagram in 2023.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Figma",
+    "source_date": "2026-01-19"
+  }
+]
