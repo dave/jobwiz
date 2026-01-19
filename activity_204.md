@@ -14,7 +14,7 @@ Clean up generated module content to remove low-quality scraped data, placeholde
   - [x] #210 - Finance batch
   - [x] #211 - Consulting batch
   - [x] #212 - E-commerce/Retail batch
-  - [ ] #213 - Healthcare/Biotech batch
+  - [x] #213 - Healthcare/Biotech batch
   - [ ] #214 - Enterprise SaaS batch
   - [ ] #215 - Media/Entertainment batch
   - [ ] #216 - Other companies batch
@@ -133,6 +133,38 @@ Clean up generated module content to remove low-quality scraped data, placeholde
 
 **Verification:**
 - All 10 JSON files valid
+- `npm run lint` - passes
+- `npm run type-check` - passes
+- `npm run build` - passes
+- Module-related tests pass (93 tests)
+
+## 2026-01-19 - Issue #213: Content review: Healthcare/Biotech batch
+
+**Completed:**
+- Reviewed all 9 healthcare/biotech company modules
+- Cleaned modules with garbage Reddit scrapes and inappropriate tech-focused content:
+  - Several modules had "Key cultural themes" containing inappropriate tech-interview terms like "Heavy focus on coding", "System design emphasis" that don't apply to healthcare companies
+  - Several modules had garbage Reddit scrapes in "Common Interview Questions" and "Insider Tips" sections
+- Replaced with proper healthcare/biotech-specific content for:
+  - `company-jnj.json` - Already clean, no changes needed
+  - `company-pfizer.json` - Fixed garbage "Insider Tips" with pharmaceutical-specific content
+  - `company-moderna.json` - Already clean, no changes needed
+  - `company-genentech.json` - Already clean, no changes needed
+  - `company-illumina.json` - Already clean, no changes needed
+  - `company-cvs-health.json` - Fixed "Key cultural themes", "Common Interview Questions", and "Insider Tips" with retail healthcare content
+  - `company-unitedhealth.json` - Fixed "Key cultural themes", "Common Interview Questions", and "Insider Tips" with health insurance/Optum content
+  - `company-cerner.json` - Fixed "Key cultural themes" and "Insider Tips" with EHR/Oracle Health content
+  - `company-epic.json` - Fixed "Key cultural themes", "Common Interview Questions", and "Insider Tips" with Epic Systems-specific content
+
+**Files Modified:**
+- `data/generated/modules/company-pfizer.json`
+- `data/generated/modules/company-cvs-health.json`
+- `data/generated/modules/company-unitedhealth.json`
+- `data/generated/modules/company-cerner.json`
+- `data/generated/modules/company-epic.json`
+
+**Verification:**
+- All 9 JSON files valid
 - `npm run lint` - passes
 - `npm run type-check` - passes
 - `npm run build` - passes
