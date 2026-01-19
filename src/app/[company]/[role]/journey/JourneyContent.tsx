@@ -29,6 +29,8 @@ interface JourneyContentProps {
   totalItems: number;
   /** Paywall index (null if no paywall) */
   paywallIndex: number | null;
+  /** Initial access state from server (prevents flicker) */
+  initialHasAccess?: boolean;
 }
 
 /**
@@ -66,10 +68,11 @@ export function JourneyContent({
   allModules,
   totalItems,
   paywallIndex,
+  initialHasAccess = false,
 }: JourneyContentProps) {
   const { user } = useAuth();
-  const [hasAccess, setHasAccess] = useState(false);
-  const [checkingAccess, setCheckingAccess] = useState(true);
+  const [hasAccess, setHasAccess] = useState(initialHasAccess);
+  const [checkingAccess, setCheckingAccess] = useState(!initialHasAccess);
   const [progress, setProgress] = useState<CarouselProgress | null>(null);
 
   // Load persisted progress from localStorage on mount
@@ -78,9 +81,14 @@ export function JourneyContent({
     setProgress(loadedProgress);
   }, [companySlug, roleSlug]);
 
-  // Check if user has purchased access
+  // Check if user has purchased access (skip if already have access from server)
   useEffect(() => {
-    async function checkAccess() {
+    // If we already have access from server, no need to re-check
+    if (initialHasAccess) {
+      return;
+    }
+
+    async function checkAccessAsync() {
       if (!user) {
         setHasAccess(false);
         setCheckingAccess(false);
@@ -101,8 +109,8 @@ export function JourneyContent({
       }
       setCheckingAccess(false);
     }
-    checkAccess();
-  }, [user, companySlug, roleSlug]);
+    checkAccessAsync();
+  }, [user, companySlug, roleSlug, initialHasAccess]);
 
   // Handle purchase - redirect to Stripe checkout
   const handlePurchase = async (): Promise<boolean> => {
