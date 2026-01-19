@@ -22,8 +22,8 @@ Fix content quality issues identified during manual review of interview prep mod
 - [x] #280 - High-growth startups batch
 - [x] #281 - Finance batch
 - [x] #282 - Consulting batch
-- [ ] #283 - E-commerce/Retail batch
-- [ ] #284 - Healthcare/Biotech batch
+- [x] #283 - E-commerce/Retail batch
+- [x] #284 - Healthcare/Biotech batch
 - [ ] #285 - Enterprise SaaS batch
 - [ ] #286 - Media/Entertainment batch
 - [ ] #287 - Other companies batch
@@ -1469,6 +1469,52 @@ Walmart, Target, Best Buy, Chewy, Costco, Etsy, Home Depot, lululemon, Nike, Sho
 
 **Verification:**
 - All 11 JSON files valid (python3 -m json.tool validation passes)
+- `npm run lint` - passes (warnings only for unrelated image issues)
+- `npm run type-check` - passes
+- `npm run build` - successful
+- `npm test -- --testPathPattern="modules"` - 77 tests pass
+
+**Acceptance Criteria:**
+- ✅ All company modules in batch reviewed
+- ✅ Role-specific content removed/generalized
+- ✅ Content still valuable for all roles
+- ✅ JSON valid after edits
+- ✅ All tests pass
+
+### 2026-01-19 - Issue #284: Remove role-specific content - Company modules: Healthcare/Biotech
+
+**Status:** Complete
+
+**Modules Modified (10 total):**
+Epic, Cerner, Optum, UnitedHealth, CVS Health, J&J, Pfizer, Moderna, Illumina, Genentech
+
+**Role-specific content removed/generalized:**
+
+1. **Interviewer Mindset section** (all 10 modules):
+   - Removed: "**Technical Questions**" sub-section entirely
+   - Removed: Tips about "statistical knowledge" and "class imbalance" (role-specific data science content)
+   - Generalized: Behavioral questions tip changed from "System design emphasis, Heavy focus on coding, Behavioral interviews important" to "Behavioral interviews, culture fit assessments, and problem-solving exercises"
+
+2. **Process section** (6 modules - Epic, Cerner, Optum, UnitedHealth, CVS Health, Pfizer):
+   - Changed: "**Format:** Mix of phone screen, technical, behavioral..." to "**Format:** Mix of phone screen, role-specific, behavioral..."
+
+**Files Modified:**
+- `data/generated/modules/company-epic.json`
+- `data/generated/modules/company-cerner.json`
+- `data/generated/modules/company-optum.json`
+- `data/generated/modules/company-unitedhealth.json`
+- `data/generated/modules/company-cvs-health.json`
+- `data/generated/modules/company-jnj.json`
+- `data/generated/modules/company-pfizer.json`
+- `data/generated/modules/company-moderna.json`
+- `data/generated/modules/company-illumina.json`
+- `data/generated/modules/company-genentech.json`
+
+**Script Created:**
+- `scripts/cleanup/remove-role-specific-healthcare.ts` - Automated removal of role-specific content
+
+**Verification:**
+- All 10 JSON files valid (node validation passes)
 - `npm run lint` - passes (warnings only for unrelated image issues)
 - `npm run type-check` - passes
 - `npm run build` - successful
