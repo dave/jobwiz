@@ -2705,3 +2705,51 @@ All Stage 5 (Launch) code issues are now closed:
   - Migration adds `module_slug TEXT` ✓
   - Migration adds `completed_items TEXT[]` ✓
   - Existing data preserved (backward compatible) ✓
+
+### 2026-01-19 - Issue #134: C2: LearnCarouselContent component
+
+**Completed:**
+- Created `/src/app/[company]/[role]/journey/learn/LearnCarouselContent.tsx`
+- Implements carousel-based learn page content with:
+  - `CarouselProvider` for state management
+  - `CarouselContainer` for full-screen single-item display
+  - `CarouselContentInner` helper component for content rendering
+- Renders content based on item type:
+  - `ContentItem` for text, header, quote, tip, warning blocks
+  - `QuizItem` for quiz blocks
+  - `MediaItem` for video, audio, image, infographic blocks
+  - `CarouselPaywall` for paywall items with value prop and purchase CTA
+- Navigation features:
+  - Exit button returns to journey overview (`/[company]/[role]/journey`)
+  - Keyboard navigation (ArrowRight=next, ArrowLeft=prev, Escape=exit)
+  - Mobile swipe gestures
+  - Item completion auto-advances to next item
+- Handles missing content gracefully with "Content Coming Soon" fallback
+- Accepts pre-flattened `FlattenResult` from server component for SSR compatibility
+
+**Files Created:**
+- `src/app/[company]/[role]/journey/learn/LearnCarouselContent.tsx`
+- `src/app/[company]/[role]/journey/learn/__tests__/LearnCarouselContent.test.tsx`
+
+**Tests:**
+- 24 unit tests covering:
+  - Rendering (4 tests): items, empty state, null result, back link
+  - Navigation (6 tests): exit button, next button, back button, keyboard
+  - Content Rendering (4 tests): text, header, tip, quiz items
+  - Paywall (3 tests): position, blocking, premium access
+  - Completion (1 test): Done button on last item
+  - Accessibility (3 tests): progress indicator, navigation buttons, current region
+  - Props (3 tests): company/role slugs and names
+
+**Verification:**
+- `npm run lint` - passes with no errors
+- `npm run type-check` - passes with no errors
+- `npm run build` - successful production build
+- `npm test` - 2134 passed, 2 todo, 12 pre-existing failures (24 new LearnCarouselContent tests)
+- All acceptance criteria verified:
+  - Create LearnCarouselContent.tsx ✓
+  - Load modules via loadCarouselModules ✓ (accepts pre-loaded result)
+  - Flatten to items via flattenToCarouselItems ✓ (accepts pre-flattened result)
+  - Render CarouselContainer with items ✓
+  - Handle completion (redirect to journey) ✓
+  - Exit button returns to journey overview ✓
