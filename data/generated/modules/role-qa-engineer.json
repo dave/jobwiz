@@ -8,16 +8,56 @@
   "display_order": 17,
   "sections": [
     {
+      "id": "video-intro",
+      "title": "Video Lessons",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "These videos cover key techniques and real examples to help you prepare for QA Engineer interviews."
+          }
+        },
+        {
+          "type": "video",
+          "content": {
+            "url": "placeholder://video/intro/qa-engineer-interviews",
+            "title": "Introduction: The QA Engineer Interview Process",
+            "duration": 240
+          }
+        },
+        {
+          "type": "video",
+          "content": {
+            "url": "placeholder://video/technique/qa-engineer-approach",
+            "title": "Technique: Preparing for QA Engineer Interviews",
+            "duration": 360
+          }
+        },
+        {
+          "type": "video",
+          "content": {
+            "url": "placeholder://video/example/qa-engineer-answer-example",
+            "title": "Example: A Strong QA Engineer Interview Answer",
+            "duration": 300
+          }
+        }
+      ]
+    },
+    {
       "id": "overview",
       "title": "Role Overview",
       "blocks": [
         {
           "type": "text",
-          "content": {"text": "QA Engineer interviews assess your testing methodology, automation skills, and ability to be a quality advocate within development teams. Modern QA roles increasingly require coding and automation expertise."}
+          "content": {
+            "text": "QA Engineer interviews assess your testing methodology, automation skills, and ability to be a quality advocate within development teams. Modern QA roles increasingly require coding and automation expertise."
+          }
         },
         {
           "type": "text",
-          "content": {"text": "**What interviewers assess:**\n\n- Testing methodologies and strategies\n- Test automation skills\n- Bug identification and reproduction\n- Quality process improvement\n- Collaboration with developers"}
+          "content": {
+            "text": "**What interviewers assess:**\n\n- Testing methodologies and strategies\n- Test automation skills\n- Bug identification and reproduction\n- Quality process improvement\n- Collaboration with developers"
+          }
         }
       ]
     },
@@ -27,11 +67,15 @@
       "blocks": [
         {
           "type": "text",
-          "content": {"text": "**Typical QA interview loop:**\n\n1. **Recruiter screen** (30 min)\n2. **Technical phone screen** (60 min) - Testing scenarios or automation\n3. **Onsite/Virtual loop** (4-5 hours):\n   - Test case design exercise\n   - Automation/coding round\n   - Bug investigation scenario\n   - Behavioral round"}
+          "content": {
+            "text": "**Typical QA interview loop:**\n\n1. **Recruiter screen** (30 min)\n2. **Technical phone screen** (60 min) - Testing scenarios or automation\n3. **Onsite/Virtual loop** (4-5 hours):\n   - Test case design exercise\n   - Automation/coding round\n   - Bug investigation scenario\n   - Behavioral round"
+          }
         },
         {
           "type": "tip",
-          "content": {"text": "When given a feature to test, think beyond happy paths. Edge cases, error handling, security, and performance are where bugs hide."}
+          "content": {
+            "text": "When given a feature to test, think beyond happy paths. Edge cases, error handling, security, and performance are where bugs hide."
+          }
         }
       ]
     },
@@ -44,12 +88,36 @@
           "content": {
             "title": "QA Skills to Demonstrate",
             "items": [
-              {"id": "c1", "text": "Test planning and strategy", "required": true},
-              {"id": "c2", "text": "Test automation frameworks (Selenium, Cypress, etc.)", "required": true},
-              {"id": "c3", "text": "API testing tools and techniques", "required": true},
-              {"id": "c4", "text": "Performance and load testing", "required": false},
-              {"id": "c5", "text": "CI/CD integration for testing", "required": true},
-              {"id": "c6", "text": "Bug reporting and tracking", "required": true}
+              {
+                "id": "c1",
+                "text": "Test planning and strategy",
+                "required": true
+              },
+              {
+                "id": "c2",
+                "text": "Test automation frameworks (Selenium, Cypress, etc.)",
+                "required": true
+              },
+              {
+                "id": "c3",
+                "text": "API testing tools and techniques",
+                "required": true
+              },
+              {
+                "id": "c4",
+                "text": "Performance and load testing",
+                "required": false
+              },
+              {
+                "id": "c5",
+                "text": "CI/CD integration for testing",
+                "required": true
+              },
+              {
+                "id": "c6",
+                "text": "Bug reporting and tracking",
+                "required": true
+              }
             ]
           }
         }
@@ -64,12 +132,36 @@
           "content": {
             "title": "Before Your Interview",
             "items": [
-              {"id": "p1", "text": "Practice designing test cases for common scenarios", "required": true},
-              {"id": "p2", "text": "Review automation framework fundamentals", "required": true},
-              {"id": "p3", "text": "Brush up on coding skills (test automation requires it)", "required": true},
-              {"id": "p4", "text": "Prepare examples of bugs you've found and their impact", "required": true},
-              {"id": "p5", "text": "Review the company's products and find potential test areas", "required": true},
-              {"id": "p6", "text": "Prepare stories about quality improvements you've driven", "required": true}
+              {
+                "id": "p1",
+                "text": "Practice designing test cases for common scenarios",
+                "required": true
+              },
+              {
+                "id": "p2",
+                "text": "Review automation framework fundamentals",
+                "required": true
+              },
+              {
+                "id": "p3",
+                "text": "Brush up on coding skills (test automation requires it)",
+                "required": true
+              },
+              {
+                "id": "p4",
+                "text": "Prepare examples of bugs you've found and their impact",
+                "required": true
+              },
+              {
+                "id": "p5",
+                "text": "Review the company's products and find potential test areas",
+                "required": true
+              },
+              {
+                "id": "p6",
+                "text": "Prepare stories about quality improvements you've driven",
+                "required": true
+              }
             ]
           }
         }

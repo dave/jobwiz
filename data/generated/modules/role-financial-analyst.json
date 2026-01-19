@@ -8,16 +8,56 @@
   "display_order": 19,
   "sections": [
     {
+      "id": "video-intro",
+      "title": "Video Lessons",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "These videos cover key techniques and real examples to help you prepare for Financial Analyst interviews."
+          }
+        },
+        {
+          "type": "video",
+          "content": {
+            "url": "placeholder://video/intro/financial-analyst-interviews",
+            "title": "Introduction: The Financial Analyst Interview Process",
+            "duration": 240
+          }
+        },
+        {
+          "type": "video",
+          "content": {
+            "url": "placeholder://video/technique/financial-analyst-approach",
+            "title": "Technique: Preparing for Financial Analyst Interviews",
+            "duration": 360
+          }
+        },
+        {
+          "type": "video",
+          "content": {
+            "url": "placeholder://video/example/financial-analyst-answer-example",
+            "title": "Example: A Strong Financial Analyst Interview Answer",
+            "duration": 300
+          }
+        }
+      ]
+    },
+    {
       "id": "overview",
       "title": "Role Overview",
       "blocks": [
         {
           "type": "text",
-          "content": {"text": "Financial Analyst interviews assess your financial modeling skills, analytical capabilities, and business acumen. Expect technical questions on accounting, valuation, and scenario-based case studies."}
+          "content": {
+            "text": "Financial Analyst interviews assess your financial modeling skills, analytical capabilities, and business acumen. Expect technical questions on accounting, valuation, and scenario-based case studies."
+          }
         },
         {
           "type": "text",
-          "content": {"text": "**What interviewers assess:**\n\n- Financial statement analysis\n- Modeling and forecasting skills\n- Valuation methodologies\n- Business and industry knowledge\n- Excel and analytical tool proficiency"}
+          "content": {
+            "text": "**What interviewers assess:**\n\n- Financial statement analysis\n- Modeling and forecasting skills\n- Valuation methodologies\n- Business and industry knowledge\n- Excel and analytical tool proficiency"
+          }
         }
       ]
     },
@@ -27,11 +67,15 @@
       "blocks": [
         {
           "type": "text",
-          "content": {"text": "**Typical FA interview loop:**\n\n1. **Recruiter screen** (30 min)\n2. **Hiring manager screen** (60 min)\n3. **Onsite/Virtual loop** (3-5 hours):\n   - Technical accounting/finance round\n   - Modeling exercise or case study\n   - Business case presentation\n   - Behavioral round"}
+          "content": {
+            "text": "**Typical FA interview loop:**\n\n1. **Recruiter screen** (30 min)\n2. **Hiring manager screen** (60 min)\n3. **Onsite/Virtual loop** (3-5 hours):\n   - Technical accounting/finance round\n   - Modeling exercise or case study\n   - Business case presentation\n   - Behavioral round"
+          }
         },
         {
           "type": "tip",
-          "content": {"text": "Be ready for Excel-based modeling tests. Know shortcuts, can build models from scratch, and explain your assumptions clearly."}
+          "content": {
+            "text": "Be ready for Excel-based modeling tests. Know shortcuts, can build models from scratch, and explain your assumptions clearly."
+          }
         }
       ]
     },
@@ -44,12 +88,36 @@
           "content": {
             "title": "Financial Skills to Demonstrate",
             "items": [
-              {"id": "c1", "text": "Financial statement analysis (3 statements)", "required": true},
-              {"id": "c2", "text": "Financial modeling and forecasting", "required": true},
-              {"id": "c3", "text": "Valuation methods (DCF, comparables)", "required": true},
-              {"id": "c4", "text": "Budgeting and variance analysis", "required": true},
-              {"id": "c5", "text": "Excel proficiency (advanced)", "required": true},
-              {"id": "c6", "text": "Data visualization and presentation", "required": true}
+              {
+                "id": "c1",
+                "text": "Financial statement analysis (3 statements)",
+                "required": true
+              },
+              {
+                "id": "c2",
+                "text": "Financial modeling and forecasting",
+                "required": true
+              },
+              {
+                "id": "c3",
+                "text": "Valuation methods (DCF, comparables)",
+                "required": true
+              },
+              {
+                "id": "c4",
+                "text": "Budgeting and variance analysis",
+                "required": true
+              },
+              {
+                "id": "c5",
+                "text": "Excel proficiency (advanced)",
+                "required": true
+              },
+              {
+                "id": "c6",
+                "text": "Data visualization and presentation",
+                "required": true
+              }
             ]
           }
         }
@@ -64,12 +132,36 @@
           "content": {
             "title": "Before Your Interview",
             "items": [
-              {"id": "p1", "text": "Review accounting fundamentals and 3-statement modeling", "required": true},
-              {"id": "p2", "text": "Practice DCF and comparable company analysis", "required": true},
-              {"id": "p3", "text": "Brush up on Excel shortcuts and formulas", "required": true},
-              {"id": "p4", "text": "Research the company's financials (if public)", "required": true},
-              {"id": "p5", "text": "Prepare examples of analysis that drove decisions", "required": true},
-              {"id": "p6", "text": "Review industry trends and key metrics", "required": true}
+              {
+                "id": "p1",
+                "text": "Review accounting fundamentals and 3-statement modeling",
+                "required": true
+              },
+              {
+                "id": "p2",
+                "text": "Practice DCF and comparable company analysis",
+                "required": true
+              },
+              {
+                "id": "p3",
+                "text": "Brush up on Excel shortcuts and formulas",
+                "required": true
+              },
+              {
+                "id": "p4",
+                "text": "Research the company's financials (if public)",
+                "required": true
+              },
+              {
+                "id": "p5",
+                "text": "Prepare examples of analysis that drove decisions",
+                "required": true
+              },
+              {
+                "id": "p6",
+                "text": "Review industry trends and key metrics",
+                "required": true
+              }
             ]
           }
         }

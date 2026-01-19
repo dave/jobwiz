@@ -8,16 +8,56 @@
   "display_order": 12,
   "sections": [
     {
+      "id": "video-intro",
+      "title": "Video Lessons",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "These videos cover key techniques and real examples to help you prepare for Solutions Architect interviews."
+          }
+        },
+        {
+          "type": "video",
+          "content": {
+            "url": "placeholder://video/intro/solutions-architect-interviews",
+            "title": "Introduction: The Solutions Architect Interview Process",
+            "duration": 240
+          }
+        },
+        {
+          "type": "video",
+          "content": {
+            "url": "placeholder://video/technique/solutions-architect-approach",
+            "title": "Technique: Preparing for Solutions Architect Interviews",
+            "duration": 360
+          }
+        },
+        {
+          "type": "video",
+          "content": {
+            "url": "placeholder://video/example/solutions-architect-answer-example",
+            "title": "Example: A Strong Solutions Architect Interview Answer",
+            "duration": 300
+          }
+        }
+      ]
+    },
+    {
       "id": "overview",
       "title": "Role Overview",
       "blocks": [
         {
           "type": "text",
-          "content": {"text": "Solutions Architect interviews assess your ability to design technical solutions for customers while communicating effectively with both technical and business stakeholders."}
+          "content": {
+            "text": "Solutions Architect interviews assess your ability to design technical solutions for customers while communicating effectively with both technical and business stakeholders."
+          }
         },
         {
           "type": "text",
-          "content": {"text": "**What interviewers assess:**\n\n- Technical breadth across cloud/infrastructure\n- Architecture design skills\n- Customer communication and requirements gathering\n- Ability to translate business needs to technical solutions\n- Pre-sales and technical advisory experience"}
+          "content": {
+            "text": "**What interviewers assess:**\n\n- Technical breadth across cloud/infrastructure\n- Architecture design skills\n- Customer communication and requirements gathering\n- Ability to translate business needs to technical solutions\n- Pre-sales and technical advisory experience"
+          }
         }
       ]
     },
@@ -27,11 +67,15 @@
       "blocks": [
         {
           "type": "text",
-          "content": {"text": "**Typical SA interview loop:**\n\n1. **Recruiter screen** (30 min)\n2. **Hiring manager screen** (60 min)\n3. **Onsite/Virtual loop** (4-5 hours):\n   - Technical deep dive/architecture design\n   - Customer scenario role play\n   - Whiteboard architecture session\n   - Behavioral/leadership round"}
+          "content": {
+            "text": "**Typical SA interview loop:**\n\n1. **Recruiter screen** (30 min)\n2. **Hiring manager screen** (60 min)\n3. **Onsite/Virtual loop** (4-5 hours):\n   - Technical deep dive/architecture design\n   - Customer scenario role play\n   - Whiteboard architecture session\n   - Behavioral/leadership round"
+          }
         },
         {
           "type": "tip",
-          "content": {"text": "Practice presenting technical architectures to non-technical audiences. The ability to simplify without losing accuracy is crucial."}
+          "content": {
+            "text": "Practice presenting technical architectures to non-technical audiences. The ability to simplify without losing accuracy is crucial."
+          }
         }
       ]
     },
@@ -44,12 +88,36 @@
           "content": {
             "title": "Skills to Demonstrate",
             "items": [
-              {"id": "c1", "text": "Cloud architecture (AWS, GCP, Azure)", "required": true},
-              {"id": "c2", "text": "System design and scalability patterns", "required": true},
-              {"id": "c3", "text": "Security and compliance considerations", "required": true},
-              {"id": "c4", "text": "Cost optimization and TCO analysis", "required": true},
-              {"id": "c5", "text": "Customer requirements gathering", "required": true},
-              {"id": "c6", "text": "Technical presentation and whiteboarding", "required": true}
+              {
+                "id": "c1",
+                "text": "Cloud architecture (AWS, GCP, Azure)",
+                "required": true
+              },
+              {
+                "id": "c2",
+                "text": "System design and scalability patterns",
+                "required": true
+              },
+              {
+                "id": "c3",
+                "text": "Security and compliance considerations",
+                "required": true
+              },
+              {
+                "id": "c4",
+                "text": "Cost optimization and TCO analysis",
+                "required": true
+              },
+              {
+                "id": "c5",
+                "text": "Customer requirements gathering",
+                "required": true
+              },
+              {
+                "id": "c6",
+                "text": "Technical presentation and whiteboarding",
+                "required": true
+              }
             ]
           }
         }
@@ -64,12 +132,36 @@
           "content": {
             "title": "Before Your Interview",
             "items": [
-              {"id": "p1", "text": "Review cloud architecture patterns and best practices", "required": true},
-              {"id": "p2", "text": "Prepare customer success stories with technical details", "required": true},
-              {"id": "p3", "text": "Practice whiteboard architecture sessions", "required": true},
-              {"id": "p4", "text": "Review the company's products and typical use cases", "required": true},
-              {"id": "p5", "text": "Prepare for role-play scenarios with difficult customers", "required": true},
-              {"id": "p6", "text": "Brush up on relevant certifications content", "required": false}
+              {
+                "id": "p1",
+                "text": "Review cloud architecture patterns and best practices",
+                "required": true
+              },
+              {
+                "id": "p2",
+                "text": "Prepare customer success stories with technical details",
+                "required": true
+              },
+              {
+                "id": "p3",
+                "text": "Practice whiteboard architecture sessions",
+                "required": true
+              },
+              {
+                "id": "p4",
+                "text": "Review the company's products and typical use cases",
+                "required": true
+              },
+              {
+                "id": "p5",
+                "text": "Prepare for role-play scenarios with difficult customers",
+                "required": true
+              },
+              {
+                "id": "p6",
+                "text": "Brush up on relevant certifications content",
+                "required": false
+              }
             ]
           }
         }

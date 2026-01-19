@@ -8,16 +8,56 @@
   "display_order": 2,
   "sections": [
     {
+      "id": "video-intro",
+      "title": "Video Lessons",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "These videos cover key techniques and real examples to help you prepare for Data Scientist interviews."
+          }
+        },
+        {
+          "type": "video",
+          "content": {
+            "url": "placeholder://video/intro/data-scientist-interviews",
+            "title": "Introduction: The Data Science Interview Loop",
+            "duration": 240
+          }
+        },
+        {
+          "type": "video",
+          "content": {
+            "url": "placeholder://video/technique/ml-case-study-approach",
+            "title": "Technique: Structuring ML Case Studies",
+            "duration": 420
+          }
+        },
+        {
+          "type": "video",
+          "content": {
+            "url": "placeholder://video/example/a-b-test-analysis",
+            "title": "Example: A/B Test Analysis Walkthrough",
+            "duration": 360
+          }
+        }
+      ]
+    },
+    {
       "id": "overview",
       "title": "Role Overview",
       "blocks": [
         {
           "type": "text",
-          "content": {"text": "Data Science interviews blend statistics, machine learning, coding, and business acumen. Expect to demonstrate both technical depth and the ability to translate data insights into business impact."}
+          "content": {
+            "text": "Data Science interviews blend statistics, machine learning, coding, and business acumen. Expect to demonstrate both technical depth and the ability to translate data insights into business impact."
+          }
         },
         {
           "type": "text",
-          "content": {"text": "**What interviewers assess:**\n\n- Statistical reasoning and experimental design\n- Machine learning fundamentals and intuition\n- SQL and Python/R coding proficiency\n- Business problem framing\n- Communication of technical concepts"}
+          "content": {
+            "text": "**What interviewers assess:**\n\n- Statistical reasoning and experimental design\n- Machine learning fundamentals and intuition\n- SQL and Python/R coding proficiency\n- Business problem framing\n- Communication of technical concepts"
+          }
         }
       ]
     },
@@ -27,11 +67,15 @@
       "blocks": [
         {
           "type": "text",
-          "content": {"text": "**Typical DS interview loop:**\n\n1. **Recruiter screen** (30 min)\n2. **Technical phone screen** (45-60 min) - SQL, stats, or coding\n3. **Onsite/Virtual loop** (4-5 hours):\n   - Statistics/probability round\n   - Machine learning round\n   - SQL/coding round\n   - Product/business case round\n   - Behavioral round"}
+          "content": {
+            "text": "**Typical DS interview loop:**\n\n1. **Recruiter screen** (30 min)\n2. **Technical phone screen** (45-60 min) - SQL, stats, or coding\n3. **Onsite/Virtual loop** (4-5 hours):\n   - Statistics/probability round\n   - Machine learning round\n   - SQL/coding round\n   - Product/business case round\n   - Behavioral round"
+          }
         },
         {
           "type": "tip",
-          "content": {"text": "When asked about ML models, don't just name algorithms. Explain trade-offs, assumptions, and when you'd choose one over another."}
+          "content": {
+            "text": "When asked about ML models, don't just name algorithms. Explain trade-offs, assumptions, and when you'd choose one over another."
+          }
         }
       ]
     },
@@ -44,12 +88,36 @@
           "content": {
             "title": "Technical Areas to Review",
             "items": [
-              {"id": "c1", "text": "Probability and statistics fundamentals", "required": true},
-              {"id": "c2", "text": "A/B testing and experimental design", "required": true},
-              {"id": "c3", "text": "Regression, classification, clustering algorithms", "required": true},
-              {"id": "c4", "text": "SQL (window functions, CTEs, complex joins)", "required": true},
-              {"id": "c5", "text": "Python/R for data manipulation and modeling", "required": true},
-              {"id": "c6", "text": "Feature engineering and model evaluation", "required": true}
+              {
+                "id": "c1",
+                "text": "Probability and statistics fundamentals",
+                "required": true
+              },
+              {
+                "id": "c2",
+                "text": "A/B testing and experimental design",
+                "required": true
+              },
+              {
+                "id": "c3",
+                "text": "Regression, classification, clustering algorithms",
+                "required": true
+              },
+              {
+                "id": "c4",
+                "text": "SQL (window functions, CTEs, complex joins)",
+                "required": true
+              },
+              {
+                "id": "c5",
+                "text": "Python/R for data manipulation and modeling",
+                "required": true
+              },
+              {
+                "id": "c6",
+                "text": "Feature engineering and model evaluation",
+                "required": true
+              }
             ]
           }
         }
@@ -64,12 +132,36 @@
           "content": {
             "title": "Before Your Interview",
             "items": [
-              {"id": "p1", "text": "Review hypothesis testing, p-values, confidence intervals", "required": true},
-              {"id": "p2", "text": "Practice SQL on LeetCode or StrataScratch", "required": true},
-              {"id": "p3", "text": "Brush up on ML algorithms and their assumptions", "required": true},
-              {"id": "p4", "text": "Prepare to discuss past projects in depth", "required": true},
-              {"id": "p5", "text": "Practice product/metric sense questions", "required": true},
-              {"id": "p6", "text": "Review A/B test design and common pitfalls", "required": true}
+              {
+                "id": "p1",
+                "text": "Review hypothesis testing, p-values, confidence intervals",
+                "required": true
+              },
+              {
+                "id": "p2",
+                "text": "Practice SQL on LeetCode or StrataScratch",
+                "required": true
+              },
+              {
+                "id": "p3",
+                "text": "Brush up on ML algorithms and their assumptions",
+                "required": true
+              },
+              {
+                "id": "p4",
+                "text": "Prepare to discuss past projects in depth",
+                "required": true
+              },
+              {
+                "id": "p5",
+                "text": "Practice product/metric sense questions",
+                "required": true
+              },
+              {
+                "id": "p6",
+                "text": "Review A/B test design and common pitfalls",
+                "required": true
+              }
             ]
           }
         }

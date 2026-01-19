@@ -8,16 +8,56 @@
   "display_order": 10,
   "sections": [
     {
+      "id": "video-intro",
+      "title": "Video Lessons",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "These videos cover key techniques and real examples to help you prepare for Data Engineer interviews."
+          }
+        },
+        {
+          "type": "video",
+          "content": {
+            "url": "placeholder://video/intro/data-engineer-interviews",
+            "title": "Introduction: The Data Engineer Interview Process",
+            "duration": 240
+          }
+        },
+        {
+          "type": "video",
+          "content": {
+            "url": "placeholder://video/technique/data-engineer-approach",
+            "title": "Technique: Preparing for Data Engineer Interviews",
+            "duration": 360
+          }
+        },
+        {
+          "type": "video",
+          "content": {
+            "url": "placeholder://video/example/data-engineer-answer-example",
+            "title": "Example: A Strong Data Engineer Interview Answer",
+            "duration": 300
+          }
+        }
+      ]
+    },
+    {
       "id": "overview",
       "title": "Role Overview",
       "blocks": [
         {
           "type": "text",
-          "content": {"text": "Data Engineering interviews focus on building and maintaining data infrastructure—pipelines, warehouses, and processing systems. Expect SQL deep dives, system design for data, and coding challenges."}
+          "content": {
+            "text": "Data Engineering interviews focus on building and maintaining data infrastructure—pipelines, warehouses, and processing systems. Expect SQL deep dives, system design for data, and coding challenges."
+          }
         },
         {
           "type": "text",
-          "content": {"text": "**What interviewers assess:**\n\n- SQL expertise (complex queries, optimization)\n- Data pipeline design and orchestration\n- Data modeling and warehouse design\n- Big data technologies (Spark, Kafka, etc.)\n- Programming skills (Python, Scala)"}
+          "content": {
+            "text": "**What interviewers assess:**\n\n- SQL expertise (complex queries, optimization)\n- Data pipeline design and orchestration\n- Data modeling and warehouse design\n- Big data technologies (Spark, Kafka, etc.)\n- Programming skills (Python, Scala)"
+          }
         }
       ]
     },
@@ -27,11 +67,15 @@
       "blocks": [
         {
           "type": "text",
-          "content": {"text": "**Typical data engineering interview loop:**\n\n1. **Recruiter screen** (30 min)\n2. **Technical phone screen** (60 min) - SQL or coding\n3. **Onsite/Virtual loop** (4-5 hours):\n   - SQL deep dive round\n   - Data pipeline design\n   - Coding round\n   - Behavioral round"}
+          "content": {
+            "text": "**Typical data engineering interview loop:**\n\n1. **Recruiter screen** (30 min)\n2. **Technical phone screen** (60 min) - SQL or coding\n3. **Onsite/Virtual loop** (4-5 hours):\n   - SQL deep dive round\n   - Data pipeline design\n   - Coding round\n   - Behavioral round"
+          }
         },
         {
           "type": "tip",
-          "content": {"text": "Be ready to discuss data quality, testing strategies, and how you handle schema evolution and backward compatibility."}
+          "content": {
+            "text": "Be ready to discuss data quality, testing strategies, and how you handle schema evolution and backward compatibility."
+          }
         }
       ]
     },
@@ -44,12 +88,36 @@
           "content": {
             "title": "Technical Areas to Review",
             "items": [
-              {"id": "c1", "text": "Advanced SQL (window functions, CTEs, query optimization)", "required": true},
-              {"id": "c2", "text": "Data modeling (star schema, slowly changing dimensions)", "required": true},
-              {"id": "c3", "text": "ETL/ELT pipeline design", "required": true},
-              {"id": "c4", "text": "Orchestration tools (Airflow, Dagster, Prefect)", "required": true},
-              {"id": "c5", "text": "Big data processing (Spark, distributed systems)", "required": true},
-              {"id": "c6", "text": "Streaming vs batch processing trade-offs", "required": true}
+              {
+                "id": "c1",
+                "text": "Advanced SQL (window functions, CTEs, query optimization)",
+                "required": true
+              },
+              {
+                "id": "c2",
+                "text": "Data modeling (star schema, slowly changing dimensions)",
+                "required": true
+              },
+              {
+                "id": "c3",
+                "text": "ETL/ELT pipeline design",
+                "required": true
+              },
+              {
+                "id": "c4",
+                "text": "Orchestration tools (Airflow, Dagster, Prefect)",
+                "required": true
+              },
+              {
+                "id": "c5",
+                "text": "Big data processing (Spark, distributed systems)",
+                "required": true
+              },
+              {
+                "id": "c6",
+                "text": "Streaming vs batch processing trade-offs",
+                "required": true
+              }
             ]
           }
         }
@@ -64,12 +132,36 @@
           "content": {
             "title": "Before Your Interview",
             "items": [
-              {"id": "p1", "text": "Practice complex SQL on StrataScratch or LeetCode", "required": true},
-              {"id": "p2", "text": "Review data warehouse design principles", "required": true},
-              {"id": "p3", "text": "Prepare to design a data pipeline end-to-end", "required": true},
-              {"id": "p4", "text": "Brush up on Python and data processing libraries", "required": true},
-              {"id": "p5", "text": "Understand the company's data stack if possible", "required": true},
-              {"id": "p6", "text": "Prepare examples of data quality issues you've solved", "required": true}
+              {
+                "id": "p1",
+                "text": "Practice complex SQL on StrataScratch or LeetCode",
+                "required": true
+              },
+              {
+                "id": "p2",
+                "text": "Review data warehouse design principles",
+                "required": true
+              },
+              {
+                "id": "p3",
+                "text": "Prepare to design a data pipeline end-to-end",
+                "required": true
+              },
+              {
+                "id": "p4",
+                "text": "Brush up on Python and data processing libraries",
+                "required": true
+              },
+              {
+                "id": "p5",
+                "text": "Understand the company's data stack if possible",
+                "required": true
+              },
+              {
+                "id": "p6",
+                "text": "Prepare examples of data quality issues you've solved",
+                "required": true
+              }
             ]
           }
         }

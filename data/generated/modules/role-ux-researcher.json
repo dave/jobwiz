@@ -8,16 +8,56 @@
   "display_order": 16,
   "sections": [
     {
+      "id": "video-intro",
+      "title": "Video Lessons",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "These videos cover key techniques and real examples to help you prepare for UX Researcher interviews."
+          }
+        },
+        {
+          "type": "video",
+          "content": {
+            "url": "placeholder://video/intro/ux-researcher-interviews",
+            "title": "Introduction: The UX Researcher Interview Process",
+            "duration": 240
+          }
+        },
+        {
+          "type": "video",
+          "content": {
+            "url": "placeholder://video/technique/ux-researcher-approach",
+            "title": "Technique: Preparing for UX Researcher Interviews",
+            "duration": 360
+          }
+        },
+        {
+          "type": "video",
+          "content": {
+            "url": "placeholder://video/example/ux-researcher-answer-example",
+            "title": "Example: A Strong UX Researcher Interview Answer",
+            "duration": 300
+          }
+        }
+      ]
+    },
+    {
       "id": "overview",
       "title": "Role Overview",
       "blocks": [
         {
           "type": "text",
-          "content": {"text": "UX Research interviews evaluate your research methodology expertise, ability to generate actionable insights, and how you influence product decisions through user understanding."}
+          "content": {
+            "text": "UX Research interviews evaluate your research methodology expertise, ability to generate actionable insights, and how you influence product decisions through user understanding."
+          }
         },
         {
           "type": "text",
-          "content": {"text": "**What interviewers assess:**\n\n- Research methodology expertise\n- Study design and execution\n- Analysis and insight synthesis\n- Stakeholder communication and influence\n- Portfolio of impactful research"}
+          "content": {
+            "text": "**What interviewers assess:**\n\n- Research methodology expertise\n- Study design and execution\n- Analysis and insight synthesis\n- Stakeholder communication and influence\n- Portfolio of impactful research"
+          }
         }
       ]
     },
@@ -27,11 +67,15 @@
       "blocks": [
         {
           "type": "text",
-          "content": {"text": "**Typical UXR interview loop:**\n\n1. **Recruiter screen** (30 min)\n2. **Hiring manager screen** (60 min) - Portfolio discussion\n3. **Onsite/Virtual loop** (4-5 hours):\n   - Research portfolio deep dive\n   - Research design exercise\n   - Cross-functional collaboration round\n   - Behavioral round"}
+          "content": {
+            "text": "**Typical UXR interview loop:**\n\n1. **Recruiter screen** (30 min)\n2. **Hiring manager screen** (60 min) - Portfolio discussion\n3. **Onsite/Virtual loop** (4-5 hours):\n   - Research portfolio deep dive\n   - Research design exercise\n   - Cross-functional collaboration round\n   - Behavioral round"
+          }
         },
         {
           "type": "tip",
-          "content": {"text": "Focus on impact in your portfolio stories. What decisions changed because of your research? How did you measure success?"}
+          "content": {
+            "text": "Focus on impact in your portfolio stories. What decisions changed because of your research? How did you measure success?"
+          }
         }
       ]
     },
@@ -44,12 +88,36 @@
           "content": {
             "title": "UXR Skills to Demonstrate",
             "items": [
-              {"id": "c1", "text": "Qualitative methods (interviews, usability testing)", "required": true},
-              {"id": "c2", "text": "Quantitative methods (surveys, analytics)", "required": true},
-              {"id": "c3", "text": "Study design and participant recruitment", "required": true},
-              {"id": "c4", "text": "Analysis and insight synthesis", "required": true},
-              {"id": "c5", "text": "Research communication and storytelling", "required": true},
-              {"id": "c6", "text": "Stakeholder influence and research advocacy", "required": true}
+              {
+                "id": "c1",
+                "text": "Qualitative methods (interviews, usability testing)",
+                "required": true
+              },
+              {
+                "id": "c2",
+                "text": "Quantitative methods (surveys, analytics)",
+                "required": true
+              },
+              {
+                "id": "c3",
+                "text": "Study design and participant recruitment",
+                "required": true
+              },
+              {
+                "id": "c4",
+                "text": "Analysis and insight synthesis",
+                "required": true
+              },
+              {
+                "id": "c5",
+                "text": "Research communication and storytelling",
+                "required": true
+              },
+              {
+                "id": "c6",
+                "text": "Stakeholder influence and research advocacy",
+                "required": true
+              }
             ]
           }
         }
@@ -64,12 +132,36 @@
           "content": {
             "title": "Before Your Interview",
             "items": [
-              {"id": "p1", "text": "Prepare 3-4 research case studies with clear impact", "required": true},
-              {"id": "p2", "text": "Practice explaining methodology choices", "required": true},
-              {"id": "p3", "text": "Prepare for research design exercises", "required": true},
-              {"id": "p4", "text": "Review the company's products from a UX perspective", "required": true},
-              {"id": "p5", "text": "Prepare stories about influencing skeptical stakeholders", "required": true},
-              {"id": "p6", "text": "Be ready to discuss research ethics and best practices", "required": true}
+              {
+                "id": "p1",
+                "text": "Prepare 3-4 research case studies with clear impact",
+                "required": true
+              },
+              {
+                "id": "p2",
+                "text": "Practice explaining methodology choices",
+                "required": true
+              },
+              {
+                "id": "p3",
+                "text": "Prepare for research design exercises",
+                "required": true
+              },
+              {
+                "id": "p4",
+                "text": "Review the company's products from a UX perspective",
+                "required": true
+              },
+              {
+                "id": "p5",
+                "text": "Prepare stories about influencing skeptical stakeholders",
+                "required": true
+              },
+              {
+                "id": "p6",
+                "text": "Be ready to discuss research ethics and best practices",
+                "required": true
+              }
             ]
           }
         }

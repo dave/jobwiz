@@ -8,16 +8,56 @@
   "display_order": 7,
   "sections": [
     {
+      "id": "video-intro",
+      "title": "Video Lessons",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "These videos cover key techniques and real examples to help you prepare for Frontend Engineer interviews."
+          }
+        },
+        {
+          "type": "video",
+          "content": {
+            "url": "placeholder://video/intro/frontend-engineer-interviews",
+            "title": "Introduction: The Frontend Interview Process",
+            "duration": 240
+          }
+        },
+        {
+          "type": "video",
+          "content": {
+            "url": "placeholder://video/technique/ui-coding-approach",
+            "title": "Technique: UI Coding Interview Approach",
+            "duration": 360
+          }
+        },
+        {
+          "type": "video",
+          "content": {
+            "url": "placeholder://video/example/react-component-walkthrough",
+            "title": "Example: Building a React Component Live",
+            "duration": 480
+          }
+        }
+      ]
+    },
+    {
       "id": "overview",
       "title": "Role Overview",
       "blocks": [
         {
           "type": "text",
-          "content": {"text": "Frontend interviews focus on JavaScript proficiency, framework knowledge, and building performant, accessible user interfaces. Expect coding challenges, system design for UI, and discussions about web fundamentals."}
+          "content": {
+            "text": "Frontend interviews focus on JavaScript proficiency, framework knowledge, and building performant, accessible user interfaces. Expect coding challenges, system design for UI, and discussions about web fundamentals."
+          }
         },
         {
           "type": "text",
-          "content": {"text": "**What interviewers assess:**\n\n- JavaScript/TypeScript fundamentals\n- Framework expertise (React, Vue, Angular)\n- CSS and responsive design\n- Performance optimization\n- Accessibility and web standards"}
+          "content": {
+            "text": "**What interviewers assess:**\n\n- JavaScript/TypeScript fundamentals\n- Framework expertise (React, Vue, Angular)\n- CSS and responsive design\n- Performance optimization\n- Accessibility and web standards"
+          }
         }
       ]
     },
@@ -27,11 +67,15 @@
       "blocks": [
         {
           "type": "text",
-          "content": {"text": "**Typical frontend interview loop:**\n\n1. **Recruiter screen** (30 min)\n2. **Technical phone screen** (45-60 min) - JavaScript/DOM coding\n3. **Onsite/Virtual loop** (4-5 hours):\n   - JavaScript deep-dive round\n   - UI coding challenge (build a component)\n   - Frontend system design\n   - Behavioral round"}
+          "content": {
+            "text": "**Typical frontend interview loop:**\n\n1. **Recruiter screen** (30 min)\n2. **Technical phone screen** (45-60 min) - JavaScript/DOM coding\n3. **Onsite/Virtual loop** (4-5 hours):\n   - JavaScript deep-dive round\n   - UI coding challenge (build a component)\n   - Frontend system design\n   - Behavioral round"
+          }
         },
         {
           "type": "tip",
-          "content": {"text": "Practice building components from scratch without relying on libraries. Interviewers want to see you understand the fundamentals, not just framework APIs."}
+          "content": {
+            "text": "Practice building components from scratch without relying on libraries. Interviewers want to see you understand the fundamentals, not just framework APIs."
+          }
         }
       ]
     },
@@ -44,12 +88,36 @@
           "content": {
             "title": "Technical Areas to Review",
             "items": [
-              {"id": "c1", "text": "JavaScript fundamentals (closures, promises, event loop)", "required": true},
-              {"id": "c2", "text": "DOM manipulation and browser APIs", "required": true},
-              {"id": "c3", "text": "React (hooks, state management, lifecycle)", "required": true},
-              {"id": "c4", "text": "CSS (flexbox, grid, responsive design)", "required": true},
-              {"id": "c5", "text": "Performance (lazy loading, code splitting, Core Web Vitals)", "required": true},
-              {"id": "c6", "text": "Accessibility (ARIA, semantic HTML, keyboard nav)", "required": true}
+              {
+                "id": "c1",
+                "text": "JavaScript fundamentals (closures, promises, event loop)",
+                "required": true
+              },
+              {
+                "id": "c2",
+                "text": "DOM manipulation and browser APIs",
+                "required": true
+              },
+              {
+                "id": "c3",
+                "text": "React (hooks, state management, lifecycle)",
+                "required": true
+              },
+              {
+                "id": "c4",
+                "text": "CSS (flexbox, grid, responsive design)",
+                "required": true
+              },
+              {
+                "id": "c5",
+                "text": "Performance (lazy loading, code splitting, Core Web Vitals)",
+                "required": true
+              },
+              {
+                "id": "c6",
+                "text": "Accessibility (ARIA, semantic HTML, keyboard nav)",
+                "required": true
+              }
             ]
           }
         }
@@ -64,12 +132,36 @@
           "content": {
             "title": "Before Your Interview",
             "items": [
-              {"id": "p1", "text": "Practice JS problems on LeetCode/Frontend Masters", "required": true},
-              {"id": "p2", "text": "Build components without frameworks to understand fundamentals", "required": true},
-              {"id": "p3", "text": "Review browser rendering and performance optimization", "required": true},
-              {"id": "p4", "text": "Prepare to discuss past UI projects and trade-offs", "required": true},
-              {"id": "p5", "text": "Practice explaining your component architecture decisions", "required": true},
-              {"id": "p6", "text": "Review accessibility best practices", "required": true}
+              {
+                "id": "p1",
+                "text": "Practice JS problems on LeetCode/Frontend Masters",
+                "required": true
+              },
+              {
+                "id": "p2",
+                "text": "Build components without frameworks to understand fundamentals",
+                "required": true
+              },
+              {
+                "id": "p3",
+                "text": "Review browser rendering and performance optimization",
+                "required": true
+              },
+              {
+                "id": "p4",
+                "text": "Prepare to discuss past UI projects and trade-offs",
+                "required": true
+              },
+              {
+                "id": "p5",
+                "text": "Practice explaining your component architecture decisions",
+                "required": true
+              },
+              {
+                "id": "p6",
+                "text": "Review accessibility best practices",
+                "required": true
+              }
             ]
           }
         }

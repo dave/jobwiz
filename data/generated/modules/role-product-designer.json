@@ -8,16 +8,56 @@
   "display_order": 3,
   "sections": [
     {
+      "id": "video-intro",
+      "title": "Video Lessons",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "These videos cover key techniques and real examples to help you prepare for Product Designer interviews."
+          }
+        },
+        {
+          "type": "video",
+          "content": {
+            "url": "placeholder://video/intro/product-designer-interviews",
+            "title": "Introduction: The Product Designer Interview Process",
+            "duration": 240
+          }
+        },
+        {
+          "type": "video",
+          "content": {
+            "url": "placeholder://video/technique/product-designer-approach",
+            "title": "Technique: Preparing for Product Designer Interviews",
+            "duration": 360
+          }
+        },
+        {
+          "type": "video",
+          "content": {
+            "url": "placeholder://video/example/product-designer-answer-example",
+            "title": "Example: A Strong Product Designer Interview Answer",
+            "duration": 300
+          }
+        }
+      ]
+    },
+    {
       "id": "overview",
       "title": "Role Overview",
       "blocks": [
         {
           "type": "text",
-          "content": {"text": "Product Design interviews evaluate your design process, problem-solving approach, and ability to advocate for users while balancing business constraints. Your portfolio is central, but whiteboard challenges and critique sessions are equally important."}
+          "content": {
+            "text": "Product Design interviews evaluate your design process, problem-solving approach, and ability to advocate for users while balancing business constraints. Your portfolio is central, but whiteboard challenges and critique sessions are equally important."
+          }
         },
         {
           "type": "text",
-          "content": {"text": "**What interviewers assess:**\n\n- Design thinking and process\n- User empathy and research skills\n- Visual and interaction design craft\n- Collaboration with engineers and PMs\n- Ability to receive and give critique"}
+          "content": {
+            "text": "**What interviewers assess:**\n\n- Design thinking and process\n- User empathy and research skills\n- Visual and interaction design craft\n- Collaboration with engineers and PMs\n- Ability to receive and give critique"
+          }
         }
       ]
     },
@@ -27,11 +67,15 @@
       "blocks": [
         {
           "type": "text",
-          "content": {"text": "**Typical design interview loop:**\n\n1. **Recruiter screen** (30 min)\n2. **Portfolio review** (45-60 min) - Deep dive into 2-3 projects\n3. **Onsite/Virtual loop** (4-6 hours):\n   - Whiteboard/app critique challenge\n   - Design exercise (take-home or live)\n   - Cross-functional collaboration round\n   - Behavioral/values round"}
+          "content": {
+            "text": "**Typical design interview loop:**\n\n1. **Recruiter screen** (30 min)\n2. **Portfolio review** (45-60 min) - Deep dive into 2-3 projects\n3. **Onsite/Virtual loop** (4-6 hours):\n   - Whiteboard/app critique challenge\n   - Design exercise (take-home or live)\n   - Cross-functional collaboration round\n   - Behavioral/values round"
+          }
         },
         {
           "type": "tip",
-          "content": {"text": "In portfolio reviews, focus on the WHY behind design decisions, not just the final UI. Process matters more than polish."}
+          "content": {
+            "text": "In portfolio reviews, focus on the WHY behind design decisions, not just the final UI. Process matters more than polish."
+          }
         }
       ]
     },
@@ -44,12 +88,36 @@
           "content": {
             "title": "Design Skills to Demonstrate",
             "items": [
-              {"id": "c1", "text": "Problem framing and user research", "required": true},
-              {"id": "c2", "text": "Information architecture and user flows", "required": true},
-              {"id": "c3", "text": "Wireframing and prototyping", "required": true},
-              {"id": "c4", "text": "Visual design and design systems", "required": true},
-              {"id": "c5", "text": "Usability testing and iteration", "required": true},
-              {"id": "c6", "text": "Design tool proficiency (Figma, etc.)", "required": true}
+              {
+                "id": "c1",
+                "text": "Problem framing and user research",
+                "required": true
+              },
+              {
+                "id": "c2",
+                "text": "Information architecture and user flows",
+                "required": true
+              },
+              {
+                "id": "c3",
+                "text": "Wireframing and prototyping",
+                "required": true
+              },
+              {
+                "id": "c4",
+                "text": "Visual design and design systems",
+                "required": true
+              },
+              {
+                "id": "c5",
+                "text": "Usability testing and iteration",
+                "required": true
+              },
+              {
+                "id": "c6",
+                "text": "Design tool proficiency (Figma, etc.)",
+                "required": true
+              }
             ]
           }
         }
@@ -64,12 +132,36 @@
           "content": {
             "title": "Before Your Interview",
             "items": [
-              {"id": "p1", "text": "Curate portfolio with 3-4 strong case studies", "required": true},
-              {"id": "p2", "text": "Practice presenting projects in 10-15 minutes", "required": true},
-              {"id": "p3", "text": "Prepare to discuss constraints and trade-offs", "required": true},
-              {"id": "p4", "text": "Practice whiteboard design exercises", "required": true},
-              {"id": "p5", "text": "Use the company's products and note UX opportunities", "required": true},
-              {"id": "p6", "text": "Prepare questions about design culture and process", "required": true}
+              {
+                "id": "p1",
+                "text": "Curate portfolio with 3-4 strong case studies",
+                "required": true
+              },
+              {
+                "id": "p2",
+                "text": "Practice presenting projects in 10-15 minutes",
+                "required": true
+              },
+              {
+                "id": "p3",
+                "text": "Prepare to discuss constraints and trade-offs",
+                "required": true
+              },
+              {
+                "id": "p4",
+                "text": "Practice whiteboard design exercises",
+                "required": true
+              },
+              {
+                "id": "p5",
+                "text": "Use the company's products and note UX opportunities",
+                "required": true
+              },
+              {
+                "id": "p6",
+                "text": "Prepare questions about design culture and process",
+                "required": true
+              }
             ]
           }
         }

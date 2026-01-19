@@ -8,16 +8,56 @@
   "display_order": 14,
   "sections": [
     {
+      "id": "video-intro",
+      "title": "Video Lessons",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "These videos cover key techniques and real examples to help you prepare for Marketing Manager interviews."
+          }
+        },
+        {
+          "type": "video",
+          "content": {
+            "url": "placeholder://video/intro/marketing-manager-interviews",
+            "title": "Introduction: The Marketing Manager Interview Process",
+            "duration": 240
+          }
+        },
+        {
+          "type": "video",
+          "content": {
+            "url": "placeholder://video/technique/marketing-manager-approach",
+            "title": "Technique: Preparing for Marketing Manager Interviews",
+            "duration": 360
+          }
+        },
+        {
+          "type": "video",
+          "content": {
+            "url": "placeholder://video/example/marketing-manager-answer-example",
+            "title": "Example: A Strong Marketing Manager Interview Answer",
+            "duration": 300
+          }
+        }
+      ]
+    },
+    {
       "id": "overview",
       "title": "Role Overview",
       "blocks": [
         {
           "type": "text",
-          "content": {"text": "Marketing Manager interviews assess your strategic thinking, campaign execution abilities, and data-driven approach. Expect case studies, portfolio discussions, and questions about metrics and ROI."}
+          "content": {
+            "text": "Marketing Manager interviews assess your strategic thinking, campaign execution abilities, and data-driven approach. Expect case studies, portfolio discussions, and questions about metrics and ROI."
+          }
         },
         {
           "type": "text",
-          "content": {"text": "**What interviewers assess:**\n\n- Strategic marketing thinking\n- Campaign planning and execution\n- Analytics and ROI measurement\n- Cross-functional collaboration\n- Brand and messaging expertise"}
+          "content": {
+            "text": "**What interviewers assess:**\n\n- Strategic marketing thinking\n- Campaign planning and execution\n- Analytics and ROI measurement\n- Cross-functional collaboration\n- Brand and messaging expertise"
+          }
         }
       ]
     },
@@ -27,11 +67,15 @@
       "blocks": [
         {
           "type": "text",
-          "content": {"text": "**Typical marketing interview loop:**\n\n1. **Recruiter screen** (30 min)\n2. **Hiring manager screen** (60 min)\n3. **Onsite/Virtual loop** (4-5 hours):\n   - Marketing case study/presentation\n   - Campaign deep dive (past work)\n   - Cross-functional round (sales, product)\n   - Behavioral/culture round"}
+          "content": {
+            "text": "**Typical marketing interview loop:**\n\n1. **Recruiter screen** (30 min)\n2. **Hiring manager screen** (60 min)\n3. **Onsite/Virtual loop** (4-5 hours):\n   - Marketing case study/presentation\n   - Campaign deep dive (past work)\n   - Cross-functional round (sales, product)\n   - Behavioral/culture round"
+          }
         },
         {
           "type": "tip",
-          "content": {"text": "Come with specific metrics: CAC, conversion rates, attribution models, and ROI. Marketing is increasingly data-driven—show you measure what matters."}
+          "content": {
+            "text": "Come with specific metrics: CAC, conversion rates, attribution models, and ROI. Marketing is increasingly data-driven—show you measure what matters."
+          }
         }
       ]
     },
@@ -44,12 +88,36 @@
           "content": {
             "title": "Marketing Skills to Demonstrate",
             "items": [
-              {"id": "c1", "text": "Campaign strategy and planning", "required": true},
-              {"id": "c2", "text": "Channel expertise (paid, organic, email, etc.)", "required": true},
-              {"id": "c3", "text": "Analytics and attribution", "required": true},
-              {"id": "c4", "text": "Budget management and ROI optimization", "required": true},
-              {"id": "c5", "text": "Brand positioning and messaging", "required": true},
-              {"id": "c6", "text": "Marketing technology stack knowledge", "required": true}
+              {
+                "id": "c1",
+                "text": "Campaign strategy and planning",
+                "required": true
+              },
+              {
+                "id": "c2",
+                "text": "Channel expertise (paid, organic, email, etc.)",
+                "required": true
+              },
+              {
+                "id": "c3",
+                "text": "Analytics and attribution",
+                "required": true
+              },
+              {
+                "id": "c4",
+                "text": "Budget management and ROI optimization",
+                "required": true
+              },
+              {
+                "id": "c5",
+                "text": "Brand positioning and messaging",
+                "required": true
+              },
+              {
+                "id": "c6",
+                "text": "Marketing technology stack knowledge",
+                "required": true
+              }
             ]
           }
         }
@@ -64,12 +132,36 @@
           "content": {
             "title": "Before Your Interview",
             "items": [
-              {"id": "p1", "text": "Prepare 2-3 detailed campaign case studies with metrics", "required": true},
-              {"id": "p2", "text": "Research the company's current marketing and positioning", "required": true},
-              {"id": "p3", "text": "Prepare ideas for how you'd improve their marketing", "required": true},
-              {"id": "p4", "text": "Review marketing analytics and attribution approaches", "required": true},
-              {"id": "p5", "text": "Be ready to discuss marketing technology you've used", "required": true},
-              {"id": "p6", "text": "Prepare for budget allocation and prioritization questions", "required": true}
+              {
+                "id": "p1",
+                "text": "Prepare 2-3 detailed campaign case studies with metrics",
+                "required": true
+              },
+              {
+                "id": "p2",
+                "text": "Research the company's current marketing and positioning",
+                "required": true
+              },
+              {
+                "id": "p3",
+                "text": "Prepare ideas for how you'd improve their marketing",
+                "required": true
+              },
+              {
+                "id": "p4",
+                "text": "Review marketing analytics and attribution approaches",
+                "required": true
+              },
+              {
+                "id": "p5",
+                "text": "Be ready to discuss marketing technology you've used",
+                "required": true
+              },
+              {
+                "id": "p6",
+                "text": "Prepare for budget allocation and prioritization questions",
+                "required": true
+              }
             ]
           }
         }

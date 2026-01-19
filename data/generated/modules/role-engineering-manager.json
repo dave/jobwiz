@@ -8,16 +8,56 @@
   "display_order": 4,
   "sections": [
     {
+      "id": "video-intro",
+      "title": "Video Lessons",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "These videos cover key techniques and real examples to help you prepare for Engineering Manager interviews."
+          }
+        },
+        {
+          "type": "video",
+          "content": {
+            "url": "placeholder://video/intro/engineering-manager-interviews",
+            "title": "Introduction: The Engineering Manager Interview",
+            "duration": 240
+          }
+        },
+        {
+          "type": "video",
+          "content": {
+            "url": "placeholder://video/technique/leadership-scenarios",
+            "title": "Technique: Navigating Leadership Scenarios",
+            "duration": 420
+          }
+        },
+        {
+          "type": "video",
+          "content": {
+            "url": "placeholder://video/example/conflict-resolution-answer",
+            "title": "Example: Team Conflict Resolution Answer",
+            "duration": 360
+          }
+        }
+      ]
+    },
+    {
       "id": "overview",
       "title": "Role Overview",
       "blocks": [
         {
           "type": "text",
-          "content": {"text": "Engineering Manager interviews assess your ability to lead teams, deliver results, grow engineers, and maintain technical credibility. Expect a mix of leadership scenarios, technical discussions, and system design."}
+          "content": {
+            "text": "Engineering Manager interviews assess your ability to lead teams, deliver results, grow engineers, and maintain technical credibility. Expect a mix of leadership scenarios, technical discussions, and system design."
+          }
         },
         {
           "type": "text",
-          "content": {"text": "**What interviewers assess:**\n\n- People management and team building\n- Technical judgment and architecture skills\n- Delivery and execution track record\n- Handling conflict and difficult situations\n- Hiring, coaching, and growing engineers"}
+          "content": {
+            "text": "**What interviewers assess:**\n\n- People management and team building\n- Technical judgment and architecture skills\n- Delivery and execution track record\n- Handling conflict and difficult situations\n- Hiring, coaching, and growing engineers"
+          }
         }
       ]
     },
@@ -27,11 +67,15 @@
       "blocks": [
         {
           "type": "text",
-          "content": {"text": "**Typical EM interview loop:**\n\n1. **Recruiter screen** (30 min)\n2. **Hiring manager screen** (60 min) - Leadership philosophy, background\n3. **Onsite/Virtual loop** (5-6 hours):\n   - Leadership/people management round\n   - Technical/system design round\n   - Cross-functional collaboration round\n   - Execution/delivery round\n   - Bar raiser/culture fit round"}
+          "content": {
+            "text": "**Typical EM interview loop:**\n\n1. **Recruiter screen** (30 min)\n2. **Hiring manager screen** (60 min) - Leadership philosophy, background\n3. **Onsite/Virtual loop** (5-6 hours):\n   - Leadership/people management round\n   - Technical/system design round\n   - Cross-functional collaboration round\n   - Execution/delivery round\n   - Bar raiser/culture fit round"
+          }
         },
         {
           "type": "tip",
-          "content": {"text": "Have specific examples ready for: firing someone, handling underperformers, resolving team conflict, and making difficult prioritization calls."}
+          "content": {
+            "text": "Have specific examples ready for: firing someone, handling underperformers, resolving team conflict, and making difficult prioritization calls."
+          }
         }
       ]
     },
@@ -44,12 +88,36 @@
           "content": {
             "title": "Leadership Areas to Prepare",
             "items": [
-              {"id": "c1", "text": "Team building and hiring", "required": true},
-              {"id": "c2", "text": "Performance management and feedback", "required": true},
-              {"id": "c3", "text": "Technical strategy and roadmap planning", "required": true},
-              {"id": "c4", "text": "Cross-functional partnership", "required": true},
-              {"id": "c5", "text": "Conflict resolution and difficult conversations", "required": true},
-              {"id": "c6", "text": "Project delivery and risk management", "required": true}
+              {
+                "id": "c1",
+                "text": "Team building and hiring",
+                "required": true
+              },
+              {
+                "id": "c2",
+                "text": "Performance management and feedback",
+                "required": true
+              },
+              {
+                "id": "c3",
+                "text": "Technical strategy and roadmap planning",
+                "required": true
+              },
+              {
+                "id": "c4",
+                "text": "Cross-functional partnership",
+                "required": true
+              },
+              {
+                "id": "c5",
+                "text": "Conflict resolution and difficult conversations",
+                "required": true
+              },
+              {
+                "id": "c6",
+                "text": "Project delivery and risk management",
+                "required": true
+              }
             ]
           }
         }
@@ -64,12 +132,36 @@
           "content": {
             "title": "Before Your Interview",
             "items": [
-              {"id": "p1", "text": "Prepare stories for each leadership competency", "required": true},
-              {"id": "p2", "text": "Quantify team impact (headcount, delivery, metrics)", "required": true},
-              {"id": "p3", "text": "Review system design fundamentals", "required": true},
-              {"id": "p4", "text": "Prepare your management philosophy and style", "required": true},
-              {"id": "p5", "text": "Have examples of engineers you've grown and promoted", "required": true},
-              {"id": "p6", "text": "Research the team's current challenges and tech stack", "required": true}
+              {
+                "id": "p1",
+                "text": "Prepare stories for each leadership competency",
+                "required": true
+              },
+              {
+                "id": "p2",
+                "text": "Quantify team impact (headcount, delivery, metrics)",
+                "required": true
+              },
+              {
+                "id": "p3",
+                "text": "Review system design fundamentals",
+                "required": true
+              },
+              {
+                "id": "p4",
+                "text": "Prepare your management philosophy and style",
+                "required": true
+              },
+              {
+                "id": "p5",
+                "text": "Have examples of engineers you've grown and promoted",
+                "required": true
+              },
+              {
+                "id": "p6",
+                "text": "Research the team's current challenges and tech stack",
+                "required": true
+              }
             ]
           }
         }

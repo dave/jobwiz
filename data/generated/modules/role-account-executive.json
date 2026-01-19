@@ -8,16 +8,56 @@
   "display_order": 21,
   "sections": [
     {
+      "id": "video-intro",
+      "title": "Video Lessons",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "These videos cover key techniques and real examples to help you prepare for Account Executive interviews."
+          }
+        },
+        {
+          "type": "video",
+          "content": {
+            "url": "placeholder://video/intro/account-executive-interviews",
+            "title": "Introduction: The Account Executive Interview Process",
+            "duration": 240
+          }
+        },
+        {
+          "type": "video",
+          "content": {
+            "url": "placeholder://video/technique/account-executive-approach",
+            "title": "Technique: Preparing for Account Executive Interviews",
+            "duration": 360
+          }
+        },
+        {
+          "type": "video",
+          "content": {
+            "url": "placeholder://video/example/account-executive-answer-example",
+            "title": "Example: A Strong Account Executive Interview Answer",
+            "duration": 300
+          }
+        }
+      ]
+    },
+    {
       "id": "overview",
       "title": "Role Overview",
       "blocks": [
         {
           "type": "text",
-          "content": {"text": "Account Executive interviews assess your sales methodology, track record, and ability to close deals. Expect role plays, pipeline discussions, and deep dives into your numbers and approach."}
+          "content": {
+            "text": "Account Executive interviews assess your sales methodology, track record, and ability to close deals. Expect role plays, pipeline discussions, and deep dives into your numbers and approach."
+          }
         },
         {
           "type": "text",
-          "content": {"text": "**What interviewers assess:**\n\n- Sales track record and quota attainment\n- Sales methodology and process\n- Discovery and qualification skills\n- Objection handling and closing\n- Territory and pipeline management"}
+          "content": {
+            "text": "**What interviewers assess:**\n\n- Sales track record and quota attainment\n- Sales methodology and process\n- Discovery and qualification skills\n- Objection handling and closing\n- Territory and pipeline management"
+          }
         }
       ]
     },
@@ -27,11 +67,15 @@
       "blocks": [
         {
           "type": "text",
-          "content": {"text": "**Typical AE interview loop:**\n\n1. **Recruiter screen** (30 min) - Background, compensation expectations\n2. **Hiring manager screen** (60 min) - Track record, methodology\n3. **Onsite/Virtual loop** (4-5 hours):\n   - Discovery call role play\n   - Pipeline/deal review\n   - Presentation or demo\n   - Cross-functional rounds (SE, CS)\n   - VP/leadership round"}
+          "content": {
+            "text": "**Typical AE interview loop:**\n\n1. **Recruiter screen** (30 min) - Background, compensation expectations\n2. **Hiring manager screen** (60 min) - Track record, methodology\n3. **Onsite/Virtual loop** (4-5 hours):\n   - Discovery call role play\n   - Pipeline/deal review\n   - Presentation or demo\n   - Cross-functional rounds (SE, CS)\n   - VP/leadership round"
+          }
         },
         {
           "type": "tip",
-          "content": {"text": "Know your numbers cold: quota attainment, average deal size, win rate, sales cycle length. Vague answers about performance are red flags."}
+          "content": {
+            "text": "Know your numbers cold: quota attainment, average deal size, win rate, sales cycle length. Vague answers about performance are red flags."
+          }
         }
       ]
     },
@@ -44,12 +88,36 @@
           "content": {
             "title": "Sales Skills to Demonstrate",
             "items": [
-              {"id": "c1", "text": "Prospecting and pipeline generation", "required": true},
-              {"id": "c2", "text": "Discovery and needs analysis", "required": true},
-              {"id": "c3", "text": "Solution selling and value articulation", "required": true},
-              {"id": "c4", "text": "Negotiation and closing", "required": true},
-              {"id": "c5", "text": "CRM hygiene and forecasting accuracy", "required": true},
-              {"id": "c6", "text": "Territory and account planning", "required": true}
+              {
+                "id": "c1",
+                "text": "Prospecting and pipeline generation",
+                "required": true
+              },
+              {
+                "id": "c2",
+                "text": "Discovery and needs analysis",
+                "required": true
+              },
+              {
+                "id": "c3",
+                "text": "Solution selling and value articulation",
+                "required": true
+              },
+              {
+                "id": "c4",
+                "text": "Negotiation and closing",
+                "required": true
+              },
+              {
+                "id": "c5",
+                "text": "CRM hygiene and forecasting accuracy",
+                "required": true
+              },
+              {
+                "id": "c6",
+                "text": "Territory and account planning",
+                "required": true
+              }
             ]
           }
         }
@@ -64,12 +132,36 @@
           "content": {
             "title": "Before Your Interview",
             "items": [
-              {"id": "p1", "text": "Prepare detailed metrics from past roles", "required": true},
-              {"id": "p2", "text": "Practice discovery and demo role plays", "required": true},
-              {"id": "p3", "text": "Research the company's product and ICP", "required": true},
-              {"id": "p4", "text": "Prepare deal stories (wins and losses with learnings)", "required": true},
-              {"id": "p5", "text": "Understand the company's sales methodology", "required": true},
-              {"id": "p6", "text": "Prepare thoughtful questions about territory and ramp", "required": true}
+              {
+                "id": "p1",
+                "text": "Prepare detailed metrics from past roles",
+                "required": true
+              },
+              {
+                "id": "p2",
+                "text": "Practice discovery and demo role plays",
+                "required": true
+              },
+              {
+                "id": "p3",
+                "text": "Research the company's product and ICP",
+                "required": true
+              },
+              {
+                "id": "p4",
+                "text": "Prepare deal stories (wins and losses with learnings)",
+                "required": true
+              },
+              {
+                "id": "p5",
+                "text": "Understand the company's sales methodology",
+                "required": true
+              },
+              {
+                "id": "p6",
+                "text": "Prepare thoughtful questions about territory and ramp",
+                "required": true
+              }
             ]
           }
         }

@@ -8,16 +8,56 @@
   "display_order": 18,
   "sections": [
     {
+      "id": "video-intro",
+      "title": "Video Lessons",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "These videos cover key techniques and real examples to help you prepare for Security Engineer interviews."
+          }
+        },
+        {
+          "type": "video",
+          "content": {
+            "url": "placeholder://video/intro/security-engineer-interviews",
+            "title": "Introduction: The Security Engineer Interview Process",
+            "duration": 240
+          }
+        },
+        {
+          "type": "video",
+          "content": {
+            "url": "placeholder://video/technique/security-engineer-approach",
+            "title": "Technique: Preparing for Security Engineer Interviews",
+            "duration": 360
+          }
+        },
+        {
+          "type": "video",
+          "content": {
+            "url": "placeholder://video/example/security-engineer-answer-example",
+            "title": "Example: A Strong Security Engineer Interview Answer",
+            "duration": 300
+          }
+        }
+      ]
+    },
+    {
       "id": "overview",
       "title": "Role Overview",
       "blocks": [
         {
           "type": "text",
-          "content": {"text": "Security Engineer interviews assess your knowledge of security principles, threat modeling, and ability to secure systems across the stack. Expect technical deep dives, scenario-based questions, and discussions about security culture."}
+          "content": {
+            "text": "Security Engineer interviews assess your knowledge of security principles, threat modeling, and ability to secure systems across the stack. Expect technical deep dives, scenario-based questions, and discussions about security culture."
+          }
         },
         {
           "type": "text",
-          "content": {"text": "**What interviewers assess:**\n\n- Security fundamentals and best practices\n- Threat modeling and risk assessment\n- Application and infrastructure security\n- Incident response experience\n- Security tooling and automation"}
+          "content": {
+            "text": "**What interviewers assess:**\n\n- Security fundamentals and best practices\n- Threat modeling and risk assessment\n- Application and infrastructure security\n- Incident response experience\n- Security tooling and automation"
+          }
         }
       ]
     },
@@ -27,11 +67,15 @@
       "blocks": [
         {
           "type": "text",
-          "content": {"text": "**Typical security interview loop:**\n\n1. **Recruiter screen** (30 min)\n2. **Technical phone screen** (60 min) - Security concepts or coding\n3. **Onsite/Virtual loop** (4-5 hours):\n   - Security architecture/design round\n   - Threat modeling exercise\n   - Coding/automation round\n   - Incident response scenario\n   - Behavioral round"}
+          "content": {
+            "text": "**Typical security interview loop:**\n\n1. **Recruiter screen** (30 min)\n2. **Technical phone screen** (60 min) - Security concepts or coding\n3. **Onsite/Virtual loop** (4-5 hours):\n   - Security architecture/design round\n   - Threat modeling exercise\n   - Coding/automation round\n   - Incident response scenario\n   - Behavioral round"
+          }
         },
         {
           "type": "tip",
-          "content": {"text": "Security interviews often include 'How would you attack X?' questions. Show you can think like an attacker while maintaining ethical boundaries."}
+          "content": {
+            "text": "Security interviews often include 'How would you attack X?' questions. Show you can think like an attacker while maintaining ethical boundaries."
+          }
         }
       ]
     },
@@ -44,12 +88,36 @@
           "content": {
             "title": "Security Skills to Demonstrate",
             "items": [
-              {"id": "c1", "text": "OWASP Top 10 and application security", "required": true},
-              {"id": "c2", "text": "Network security and infrastructure hardening", "required": true},
-              {"id": "c3", "text": "Authentication and authorization systems", "required": true},
-              {"id": "c4", "text": "Cryptography fundamentals", "required": true},
-              {"id": "c5", "text": "Security tooling (SIEM, vulnerability scanners)", "required": true},
-              {"id": "c6", "text": "Incident response and forensics", "required": true}
+              {
+                "id": "c1",
+                "text": "OWASP Top 10 and application security",
+                "required": true
+              },
+              {
+                "id": "c2",
+                "text": "Network security and infrastructure hardening",
+                "required": true
+              },
+              {
+                "id": "c3",
+                "text": "Authentication and authorization systems",
+                "required": true
+              },
+              {
+                "id": "c4",
+                "text": "Cryptography fundamentals",
+                "required": true
+              },
+              {
+                "id": "c5",
+                "text": "Security tooling (SIEM, vulnerability scanners)",
+                "required": true
+              },
+              {
+                "id": "c6",
+                "text": "Incident response and forensics",
+                "required": true
+              }
             ]
           }
         }
@@ -64,12 +132,36 @@
           "content": {
             "title": "Before Your Interview",
             "items": [
-              {"id": "p1", "text": "Review OWASP Top 10 and common vulnerabilities", "required": true},
-              {"id": "p2", "text": "Practice threat modeling frameworks (STRIDE, etc.)", "required": true},
-              {"id": "p3", "text": "Brush up on networking and cryptography", "required": true},
-              {"id": "p4", "text": "Prepare incident response stories with lessons learned", "required": true},
-              {"id": "p5", "text": "Review the company's security posture if possible", "required": true},
-              {"id": "p6", "text": "Practice secure code review exercises", "required": true}
+              {
+                "id": "p1",
+                "text": "Review OWASP Top 10 and common vulnerabilities",
+                "required": true
+              },
+              {
+                "id": "p2",
+                "text": "Practice threat modeling frameworks (STRIDE, etc.)",
+                "required": true
+              },
+              {
+                "id": "p3",
+                "text": "Brush up on networking and cryptography",
+                "required": true
+              },
+              {
+                "id": "p4",
+                "text": "Prepare incident response stories with lessons learned",
+                "required": true
+              },
+              {
+                "id": "p5",
+                "text": "Review the company's security posture if possible",
+                "required": true
+              },
+              {
+                "id": "p6",
+                "text": "Practice secure code review exercises",
+                "required": true
+              }
             ]
           }
         }

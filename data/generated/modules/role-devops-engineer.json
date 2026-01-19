@@ -8,16 +8,56 @@
   "display_order": 6,
   "sections": [
     {
+      "id": "video-intro",
+      "title": "Video Lessons",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "These videos cover key techniques and real examples to help you prepare for DevOps/SRE interviews."
+          }
+        },
+        {
+          "type": "video",
+          "content": {
+            "url": "placeholder://video/intro/devops-engineer-interviews",
+            "title": "Introduction: The DevOps/SRE Interview Process",
+            "duration": 240
+          }
+        },
+        {
+          "type": "video",
+          "content": {
+            "url": "placeholder://video/technique/devops-engineer-approach",
+            "title": "Technique: Preparing for DevOps/SRE Interviews",
+            "duration": 360
+          }
+        },
+        {
+          "type": "video",
+          "content": {
+            "url": "placeholder://video/example/devops-engineer-answer-example",
+            "title": "Example: A Strong DevOps/SRE Interview Answer",
+            "duration": 300
+          }
+        }
+      ]
+    },
+    {
       "id": "overview",
       "title": "Role Overview",
       "blocks": [
         {
           "type": "text",
-          "content": {"text": "DevOps/SRE interviews test your infrastructure knowledge, automation skills, and ability to build reliable, scalable systems. Expect hands-on troubleshooting scenarios and system design questions."}
+          "content": {
+            "text": "DevOps/SRE interviews test your infrastructure knowledge, automation skills, and ability to build reliable, scalable systems. Expect hands-on troubleshooting scenarios and system design questions."
+          }
         },
         {
           "type": "text",
-          "content": {"text": "**What interviewers assess:**\n\n- Linux/Unix systems knowledge\n- Cloud platforms (AWS, GCP, Azure)\n- CI/CD and automation\n- Monitoring, alerting, and incident response\n- Infrastructure as Code (Terraform, etc.)"}
+          "content": {
+            "text": "**What interviewers assess:**\n\n- Linux/Unix systems knowledge\n- Cloud platforms (AWS, GCP, Azure)\n- CI/CD and automation\n- Monitoring, alerting, and incident response\n- Infrastructure as Code (Terraform, etc.)"
+          }
         }
       ]
     },
@@ -27,11 +67,15 @@
       "blocks": [
         {
           "type": "text",
-          "content": {"text": "**Typical DevOps/SRE interview loop:**\n\n1. **Recruiter screen** (30 min)\n2. **Technical phone screen** (60 min) - Troubleshooting or coding\n3. **Onsite/Virtual loop** (4-5 hours):\n   - System design/architecture round\n   - Troubleshooting/debugging scenario\n   - Coding/automation round\n   - Behavioral round"}
+          "content": {
+            "text": "**Typical DevOps/SRE interview loop:**\n\n1. **Recruiter screen** (30 min)\n2. **Technical phone screen** (60 min) - Troubleshooting or coding\n3. **Onsite/Virtual loop** (4-5 hours):\n   - System design/architecture round\n   - Troubleshooting/debugging scenario\n   - Coding/automation round\n   - Behavioral round"
+          }
         },
         {
           "type": "tip",
-          "content": {"text": "For troubleshooting scenarios, explain your methodology: how you'd gather information, form hypotheses, and systematically narrow down the issue."}
+          "content": {
+            "text": "For troubleshooting scenarios, explain your methodology: how you'd gather information, form hypotheses, and systematically narrow down the issue."
+          }
         }
       ]
     },
@@ -44,12 +88,36 @@
           "content": {
             "title": "Technical Areas to Review",
             "items": [
-              {"id": "c1", "text": "Linux fundamentals (processes, networking, filesystems)", "required": true},
-              {"id": "c2", "text": "Cloud services (compute, storage, networking)", "required": true},
-              {"id": "c3", "text": "Containerization (Docker, Kubernetes)", "required": true},
-              {"id": "c4", "text": "CI/CD pipelines and automation", "required": true},
-              {"id": "c5", "text": "Monitoring and observability (metrics, logs, traces)", "required": true},
-              {"id": "c6", "text": "Infrastructure as Code (Terraform, CloudFormation)", "required": true}
+              {
+                "id": "c1",
+                "text": "Linux fundamentals (processes, networking, filesystems)",
+                "required": true
+              },
+              {
+                "id": "c2",
+                "text": "Cloud services (compute, storage, networking)",
+                "required": true
+              },
+              {
+                "id": "c3",
+                "text": "Containerization (Docker, Kubernetes)",
+                "required": true
+              },
+              {
+                "id": "c4",
+                "text": "CI/CD pipelines and automation",
+                "required": true
+              },
+              {
+                "id": "c5",
+                "text": "Monitoring and observability (metrics, logs, traces)",
+                "required": true
+              },
+              {
+                "id": "c6",
+                "text": "Infrastructure as Code (Terraform, CloudFormation)",
+                "required": true
+              }
             ]
           }
         }
@@ -64,12 +132,36 @@
           "content": {
             "title": "Before Your Interview",
             "items": [
-              {"id": "p1", "text": "Review Linux commands and troubleshooting", "required": true},
-              {"id": "p2", "text": "Practice system design for scalable infrastructure", "required": true},
-              {"id": "p3", "text": "Brush up on networking (DNS, TCP/IP, load balancing)", "required": true},
-              {"id": "p4", "text": "Prepare incident response stories with postmortem insights", "required": true},
-              {"id": "p5", "text": "Review Kubernetes concepts if relevant", "required": false},
-              {"id": "p6", "text": "Practice scripting in Python or Bash", "required": true}
+              {
+                "id": "p1",
+                "text": "Review Linux commands and troubleshooting",
+                "required": true
+              },
+              {
+                "id": "p2",
+                "text": "Practice system design for scalable infrastructure",
+                "required": true
+              },
+              {
+                "id": "p3",
+                "text": "Brush up on networking (DNS, TCP/IP, load balancing)",
+                "required": true
+              },
+              {
+                "id": "p4",
+                "text": "Prepare incident response stories with postmortem insights",
+                "required": true
+              },
+              {
+                "id": "p5",
+                "text": "Review Kubernetes concepts if relevant",
+                "required": false
+              },
+              {
+                "id": "p6",
+                "text": "Practice scripting in Python or Bash",
+                "required": true
+              }
             ]
           }
         }

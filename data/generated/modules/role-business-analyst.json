@@ -8,16 +8,56 @@
   "display_order": 15,
   "sections": [
     {
+      "id": "video-intro",
+      "title": "Video Lessons",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "These videos cover key techniques and real examples to help you prepare for Business Analyst interviews."
+          }
+        },
+        {
+          "type": "video",
+          "content": {
+            "url": "placeholder://video/intro/business-analyst-interviews",
+            "title": "Introduction: The Business Analyst Interview Process",
+            "duration": 240
+          }
+        },
+        {
+          "type": "video",
+          "content": {
+            "url": "placeholder://video/technique/business-analyst-approach",
+            "title": "Technique: Preparing for Business Analyst Interviews",
+            "duration": 360
+          }
+        },
+        {
+          "type": "video",
+          "content": {
+            "url": "placeholder://video/example/business-analyst-answer-example",
+            "title": "Example: A Strong Business Analyst Interview Answer",
+            "duration": 300
+          }
+        }
+      ]
+    },
+    {
       "id": "overview",
       "title": "Role Overview",
       "blocks": [
         {
           "type": "text",
-          "content": {"text": "Business Analyst interviews assess your ability to translate business needs into actionable requirements, analyze data for insights, and communicate effectively across stakeholders."}
+          "content": {
+            "text": "Business Analyst interviews assess your ability to translate business needs into actionable requirements, analyze data for insights, and communicate effectively across stakeholders."
+          }
         },
         {
           "type": "text",
-          "content": {"text": "**What interviewers assess:**\n\n- Requirements gathering and documentation\n- Data analysis and SQL skills\n- Problem-solving and critical thinking\n- Stakeholder communication\n- Process improvement abilities"}
+          "content": {
+            "text": "**What interviewers assess:**\n\n- Requirements gathering and documentation\n- Data analysis and SQL skills\n- Problem-solving and critical thinking\n- Stakeholder communication\n- Process improvement abilities"
+          }
         }
       ]
     },
@@ -27,11 +67,15 @@
       "blocks": [
         {
           "type": "text",
-          "content": {"text": "**Typical BA interview loop:**\n\n1. **Recruiter screen** (30 min)\n2. **Hiring manager screen** (60 min)\n3. **Onsite/Virtual loop** (3-4 hours):\n   - Case study/analytical exercise\n   - SQL or data analysis round\n   - Stakeholder scenario round\n   - Behavioral round"}
+          "content": {
+            "text": "**Typical BA interview loop:**\n\n1. **Recruiter screen** (30 min)\n2. **Hiring manager screen** (60 min)\n3. **Onsite/Virtual loop** (3-4 hours):\n   - Case study/analytical exercise\n   - SQL or data analysis round\n   - Stakeholder scenario round\n   - Behavioral round"
+          }
         },
         {
           "type": "tip",
-          "content": {"text": "Practice structuring ambiguous problems. BAs often get vague requests—show you can ask the right questions to clarify scope."}
+          "content": {
+            "text": "Practice structuring ambiguous problems. BAs often get vague requests—show you can ask the right questions to clarify scope."
+          }
         }
       ]
     },
@@ -44,12 +88,36 @@
           "content": {
             "title": "BA Skills to Demonstrate",
             "items": [
-              {"id": "c1", "text": "Requirements elicitation and documentation", "required": true},
-              {"id": "c2", "text": "SQL and data analysis", "required": true},
-              {"id": "c3", "text": "Process mapping and improvement", "required": true},
-              {"id": "c4", "text": "Stakeholder management", "required": true},
-              {"id": "c5", "text": "User story writing and acceptance criteria", "required": true},
-              {"id": "c6", "text": "Tools (Jira, Confluence, Excel, BI tools)", "required": true}
+              {
+                "id": "c1",
+                "text": "Requirements elicitation and documentation",
+                "required": true
+              },
+              {
+                "id": "c2",
+                "text": "SQL and data analysis",
+                "required": true
+              },
+              {
+                "id": "c3",
+                "text": "Process mapping and improvement",
+                "required": true
+              },
+              {
+                "id": "c4",
+                "text": "Stakeholder management",
+                "required": true
+              },
+              {
+                "id": "c5",
+                "text": "User story writing and acceptance criteria",
+                "required": true
+              },
+              {
+                "id": "c6",
+                "text": "Tools (Jira, Confluence, Excel, BI tools)",
+                "required": true
+              }
             ]
           }
         }
@@ -64,12 +132,36 @@
           "content": {
             "title": "Before Your Interview",
             "items": [
-              {"id": "p1", "text": "Practice SQL (joins, aggregations, window functions)", "required": true},
-              {"id": "p2", "text": "Prepare examples of requirements documents you've created", "required": true},
-              {"id": "p3", "text": "Review process improvement methodologies", "required": true},
-              {"id": "p4", "text": "Prepare stakeholder conflict resolution stories", "required": true},
-              {"id": "p5", "text": "Practice case study/analytical exercises", "required": true},
-              {"id": "p6", "text": "Research the company's industry and business model", "required": true}
+              {
+                "id": "p1",
+                "text": "Practice SQL (joins, aggregations, window functions)",
+                "required": true
+              },
+              {
+                "id": "p2",
+                "text": "Prepare examples of requirements documents you've created",
+                "required": true
+              },
+              {
+                "id": "p3",
+                "text": "Review process improvement methodologies",
+                "required": true
+              },
+              {
+                "id": "p4",
+                "text": "Prepare stakeholder conflict resolution stories",
+                "required": true
+              },
+              {
+                "id": "p5",
+                "text": "Practice case study/analytical exercises",
+                "required": true
+              },
+              {
+                "id": "p6",
+                "text": "Research the company's industry and business model",
+                "required": true
+              }
             ]
           }
         }

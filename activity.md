@@ -3600,3 +3600,38 @@ All Stage 5 (Launch) code issues are now closed:
   - Add additional quizzes to company-role modules (aim for 20+ per module) ✓ (19 per module)
   - Include questions from all categories (behavioral, technical, culture, curveball) ✓
   - Update `generate-company-role-modules.ts` script ✓
+
+### 2026-01-18 - Issue #151: Add video content placeholders to modules
+
+**Completed:**
+- Created `/scripts/add-video-placeholders.ts` script to add video placeholder blocks
+- Added video section to universal module (3 videos: intro, technique demo, example answer)
+- Added video section to all 22 role modules (3 videos each)
+- Role-specific video content for: software-engineer, product-manager, data-scientist, engineering-manager, frontend-engineer, backend-engineer
+- Default video templates for other roles
+- Placeholder URLs use format `placeholder://video/{category}/{slug}` for easy replacement
+- Video durations specified (180-600 seconds)
+- Script is idempotent - won't duplicate videos on re-run
+
+**Video Categories Added:**
+- Introduction videos: Explain the interview process for each module type
+- Technique demonstration videos: Show key methods (STAR method, coding approaches, etc.)
+- Example answer walkthroughs: Demonstrate strong responses
+
+**Files Created:**
+- `scripts/add-video-placeholders.ts` - Video placeholder generation script
+
+**Files Modified:**
+- `data/generated/modules/universal-fundamentals.json` - Added 3 video placeholders
+- `data/generated/modules/role-*.json` (22 files) - Added 3 video placeholders each
+
+**Verification:**
+- `npm run lint` - passes with no errors
+- `npm run type-check` - passes with no errors
+- `npm run build` - successful production build
+- `npm test` - 2163 passed, 2 todo, 12 pre-existing failures (unrelated to this change)
+- All acceptance criteria verified:
+  - Add video placeholder blocks to universal module ✓
+  - Add video placeholder blocks to role modules ✓
+  - Structure for easy replacement with real video URLs later ✓
+  - Categories: intro videos, technique demos, example answers ✓

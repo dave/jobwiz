@@ -8,16 +8,56 @@
   "display_order": 11,
   "sections": [
     {
+      "id": "video-intro",
+      "title": "Video Lessons",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "These videos cover key techniques and real examples to help you prepare for Machine Learning Engineer interviews."
+          }
+        },
+        {
+          "type": "video",
+          "content": {
+            "url": "placeholder://video/intro/machine-learning-engineer-interviews",
+            "title": "Introduction: The Machine Learning Engineer Interview Process",
+            "duration": 240
+          }
+        },
+        {
+          "type": "video",
+          "content": {
+            "url": "placeholder://video/technique/machine-learning-engineer-approach",
+            "title": "Technique: Preparing for Machine Learning Engineer Interviews",
+            "duration": 360
+          }
+        },
+        {
+          "type": "video",
+          "content": {
+            "url": "placeholder://video/example/machine-learning-engineer-answer-example",
+            "title": "Example: A Strong Machine Learning Engineer Interview Answer",
+            "duration": 300
+          }
+        }
+      ]
+    },
+    {
       "id": "overview",
       "title": "Role Overview",
       "blocks": [
         {
           "type": "text",
-          "content": {"text": "MLE interviews assess your ability to build and deploy ML systems at scale. Expect ML theory, coding, system design for ML, and discussions about production challenges like monitoring and retraining."}
+          "content": {
+            "text": "MLE interviews assess your ability to build and deploy ML systems at scale. Expect ML theory, coding, system design for ML, and discussions about production challenges like monitoring and retraining."
+          }
         },
         {
           "type": "text",
-          "content": {"text": "**What interviewers assess:**\n\n- ML fundamentals and algorithm knowledge\n- Production ML systems experience\n- Software engineering skills\n- Problem framing and feature engineering\n- MLOps and model lifecycle management"}
+          "content": {
+            "text": "**What interviewers assess:**\n\n- ML fundamentals and algorithm knowledge\n- Production ML systems experience\n- Software engineering skills\n- Problem framing and feature engineering\n- MLOps and model lifecycle management"
+          }
         }
       ]
     },
@@ -27,11 +67,15 @@
       "blocks": [
         {
           "type": "text",
-          "content": {"text": "**Typical MLE interview loop:**\n\n1. **Recruiter screen** (30 min)\n2. **Technical phone screen** (60 min) - ML concepts or coding\n3. **Onsite/Virtual loop** (5-6 hours):\n   - ML theory/breadth round\n   - ML system design\n   - Coding round\n   - Applied ML case study\n   - Behavioral round"}
+          "content": {
+            "text": "**Typical MLE interview loop:**\n\n1. **Recruiter screen** (30 min)\n2. **Technical phone screen** (60 min) - ML concepts or coding\n3. **Onsite/Virtual loop** (5-6 hours):\n   - ML theory/breadth round\n   - ML system design\n   - Coding round\n   - Applied ML case study\n   - Behavioral round"
+          }
         },
         {
           "type": "tip",
-          "content": {"text": "For ML system design, don't jump to model architecture. Start with problem definition, success metrics, data requirements, and how you'd iterate."}
+          "content": {
+            "text": "For ML system design, don't jump to model architecture. Start with problem definition, success metrics, data requirements, and how you'd iterate."
+          }
         }
       ]
     },
@@ -44,12 +88,36 @@
           "content": {
             "title": "Technical Areas to Review",
             "items": [
-              {"id": "c1", "text": "ML fundamentals (bias-variance, regularization, optimization)", "required": true},
-              {"id": "c2", "text": "Classical ML algorithms and when to use them", "required": true},
-              {"id": "c3", "text": "Deep learning basics (architectures, training)", "required": true},
-              {"id": "c4", "text": "Feature engineering and data preprocessing", "required": true},
-              {"id": "c5", "text": "Model evaluation and metrics", "required": true},
-              {"id": "c6", "text": "Production ML (serving, monitoring, retraining)", "required": true}
+              {
+                "id": "c1",
+                "text": "ML fundamentals (bias-variance, regularization, optimization)",
+                "required": true
+              },
+              {
+                "id": "c2",
+                "text": "Classical ML algorithms and when to use them",
+                "required": true
+              },
+              {
+                "id": "c3",
+                "text": "Deep learning basics (architectures, training)",
+                "required": true
+              },
+              {
+                "id": "c4",
+                "text": "Feature engineering and data preprocessing",
+                "required": true
+              },
+              {
+                "id": "c5",
+                "text": "Model evaluation and metrics",
+                "required": true
+              },
+              {
+                "id": "c6",
+                "text": "Production ML (serving, monitoring, retraining)",
+                "required": true
+              }
             ]
           }
         }
@@ -64,12 +132,36 @@
           "content": {
             "title": "Before Your Interview",
             "items": [
-              {"id": "p1", "text": "Review ML algorithms and their trade-offs", "required": true},
-              {"id": "p2", "text": "Practice ML system design questions", "required": true},
-              {"id": "p3", "text": "Brush up on Python and ML libraries (sklearn, PyTorch)", "required": true},
-              {"id": "p4", "text": "Prepare to discuss past ML projects end-to-end", "required": true},
-              {"id": "p5", "text": "Understand model serving and monitoring strategies", "required": true},
-              {"id": "p6", "text": "Review A/B testing for ML models", "required": true}
+              {
+                "id": "p1",
+                "text": "Review ML algorithms and their trade-offs",
+                "required": true
+              },
+              {
+                "id": "p2",
+                "text": "Practice ML system design questions",
+                "required": true
+              },
+              {
+                "id": "p3",
+                "text": "Brush up on Python and ML libraries (sklearn, PyTorch)",
+                "required": true
+              },
+              {
+                "id": "p4",
+                "text": "Prepare to discuss past ML projects end-to-end",
+                "required": true
+              },
+              {
+                "id": "p5",
+                "text": "Understand model serving and monitoring strategies",
+                "required": true
+              },
+              {
+                "id": "p6",
+                "text": "Review A/B testing for ML models",
+                "required": true
+              }
             ]
           }
         }

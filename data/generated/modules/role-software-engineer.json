@@ -8,16 +8,56 @@
   "display_order": 0,
   "sections": [
     {
+      "id": "video-intro",
+      "title": "Video Lessons",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "These videos cover key techniques and real examples to help you prepare for Software Engineer interviews."
+          }
+        },
+        {
+          "type": "video",
+          "content": {
+            "url": "placeholder://video/intro/software-engineer-interviews",
+            "title": "Introduction: The Software Engineer Interview Loop",
+            "duration": 240
+          }
+        },
+        {
+          "type": "video",
+          "content": {
+            "url": "placeholder://video/technique/coding-interview-approach",
+            "title": "Technique: How to Approach Coding Problems",
+            "duration": 360
+          }
+        },
+        {
+          "type": "video",
+          "content": {
+            "url": "placeholder://video/example/system-design-walkthrough",
+            "title": "Example: System Design Question Walkthrough",
+            "duration": 600
+          }
+        }
+      ]
+    },
+    {
       "id": "overview",
       "title": "Role Overview",
       "blocks": [
         {
           "type": "text",
-          "content": {"text": "Software Engineer interviews test your ability to write clean, efficient code, design scalable systems, and collaborate effectively. Most loops include coding rounds, system design (for senior roles), and behavioral interviews."}
+          "content": {
+            "text": "Software Engineer interviews test your ability to write clean, efficient code, design scalable systems, and collaborate effectively. Most loops include coding rounds, system design (for senior roles), and behavioral interviews."
+          }
         },
         {
           "type": "text",
-          "content": {"text": "**What interviewers assess:**\n\n- Problem-solving approach and thought process\n- Code quality, readability, and testing mindset\n- Data structure and algorithm knowledge\n- System design skills (senior+)\n- Communication and collaboration"}
+          "content": {
+            "text": "**What interviewers assess:**\n\n- Problem-solving approach and thought process\n- Code quality, readability, and testing mindset\n- Data structure and algorithm knowledge\n- System design skills (senior+)\n- Communication and collaboration"
+          }
         }
       ]
     },
@@ -27,11 +67,15 @@
       "blocks": [
         {
           "type": "text",
-          "content": {"text": "**Typical SWE interview loop:**\n\n1. **Recruiter screen** (30 min) - Background, expectations, logistics\n2. **Technical phone screen** (45-60 min) - 1-2 coding problems\n3. **Onsite/Virtual loop** (4-6 hours):\n   - 2-3 coding rounds\n   - 1 system design (senior+)\n   - 1-2 behavioral rounds\n4. **Team matching** (some companies)"}
+          "content": {
+            "text": "**Typical SWE interview loop:**\n\n1. **Recruiter screen** (30 min) - Background, expectations, logistics\n2. **Technical phone screen** (45-60 min) - 1-2 coding problems\n3. **Onsite/Virtual loop** (4-6 hours):\n   - 2-3 coding rounds\n   - 1 system design (senior+)\n   - 1-2 behavioral rounds\n4. **Team matching** (some companies)"
+          }
         },
         {
           "type": "tip",
-          "content": {"text": "Think out loud during coding interviews. Interviewers can't read your mind—they need to hear your reasoning to give you credit for your approach."}
+          "content": {
+            "text": "Think out loud during coding interviews. Interviewers can't read your mind—they need to hear your reasoning to give you credit for your approach."
+          }
         }
       ]
     },
@@ -44,18 +88,44 @@
           "content": {
             "title": "Technical Skills to Prepare",
             "items": [
-              {"id": "c1", "text": "Arrays, strings, hash maps, sets", "required": true},
-              {"id": "c2", "text": "Trees, graphs, BFS/DFS", "required": true},
-              {"id": "c3", "text": "Dynamic programming basics", "required": true},
-              {"id": "c4", "text": "Sorting and searching algorithms", "required": true},
-              {"id": "c5", "text": "Time/space complexity analysis", "required": true},
-              {"id": "c6", "text": "System design fundamentals (senior+)", "required": false}
+              {
+                "id": "c1",
+                "text": "Arrays, strings, hash maps, sets",
+                "required": true
+              },
+              {
+                "id": "c2",
+                "text": "Trees, graphs, BFS/DFS",
+                "required": true
+              },
+              {
+                "id": "c3",
+                "text": "Dynamic programming basics",
+                "required": true
+              },
+              {
+                "id": "c4",
+                "text": "Sorting and searching algorithms",
+                "required": true
+              },
+              {
+                "id": "c5",
+                "text": "Time/space complexity analysis",
+                "required": true
+              },
+              {
+                "id": "c6",
+                "text": "System design fundamentals (senior+)",
+                "required": false
+              }
             ]
           }
         },
         {
           "type": "warning",
-          "content": {"text": "Don't just memorize solutions. Interviewers ask follow-ups and variations. Understand WHY each approach works."}
+          "content": {
+            "text": "Don't just memorize solutions. Interviewers ask follow-ups and variations. Understand WHY each approach works."
+          }
         }
       ]
     },
@@ -68,12 +138,36 @@
           "content": {
             "title": "Before Your Interview",
             "items": [
-              {"id": "p1", "text": "Practice 50-100 LeetCode problems (focus on medium)", "required": true},
-              {"id": "p2", "text": "Review core data structures and their trade-offs", "required": true},
-              {"id": "p3", "text": "Practice explaining your thought process out loud", "required": true},
-              {"id": "p4", "text": "Prepare 3-5 STAR stories for behavioral questions", "required": true},
-              {"id": "p5", "text": "Review your past projects to discuss in detail", "required": true},
-              {"id": "p6", "text": "Study system design (Grokking, YouTube, etc.)", "required": false}
+              {
+                "id": "p1",
+                "text": "Practice 50-100 LeetCode problems (focus on medium)",
+                "required": true
+              },
+              {
+                "id": "p2",
+                "text": "Review core data structures and their trade-offs",
+                "required": true
+              },
+              {
+                "id": "p3",
+                "text": "Practice explaining your thought process out loud",
+                "required": true
+              },
+              {
+                "id": "p4",
+                "text": "Prepare 3-5 STAR stories for behavioral questions",
+                "required": true
+              },
+              {
+                "id": "p5",
+                "text": "Review your past projects to discuss in detail",
+                "required": true
+              },
+              {
+                "id": "p6",
+                "text": "Study system design (Grokking, YouTube, etc.)",
+                "required": false
+              }
             ]
           }
         }

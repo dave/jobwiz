@@ -7,20 +7,63 @@
   "display_order": 0,
   "sections": [
     {
+      "id": "video-intro",
+      "title": "Video Lessons",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "Watch these short videos to build a strong foundation for your interview preparation."
+          }
+        },
+        {
+          "type": "video",
+          "content": {
+            "url": "placeholder://video/intro/interview-fundamentals",
+            "title": "Introduction: What Makes Great Interview Preparation",
+            "duration": 180
+          }
+        },
+        {
+          "type": "video",
+          "content": {
+            "url": "placeholder://video/technique/star-method-demo",
+            "title": "The STAR Method: A Complete Walkthrough",
+            "duration": 300
+          }
+        },
+        {
+          "type": "video",
+          "content": {
+            "url": "placeholder://video/example/behavioral-answer-example",
+            "title": "Example: A Strong Behavioral Answer",
+            "duration": 240
+          }
+        }
+      ]
+    },
+    {
       "id": "mindset",
       "title": "The Interview Mindset",
       "blocks": [
         {
           "type": "text",
-          "content": {"text": "Before diving into specific techniques, let's establish the right mental framework. An interview isn't an interrogation—it's a conversation where both sides are evaluating fit. The interviewer wants you to succeed; an empty role costs the company time and money."}
+          "content": {
+            "text": "Before diving into specific techniques, let's establish the right mental framework. An interview isn't an interrogation—it's a conversation where both sides are evaluating fit. The interviewer wants you to succeed; an empty role costs the company time and money."
+          }
         },
         {
           "type": "quote",
-          "content": {"text": "The goal isn't to be perfect. It's to be memorable, authentic, and demonstrate you can solve their problems.", "author": "Former Google Recruiter"}
+          "content": {
+            "text": "The goal isn't to be perfect. It's to be memorable, authentic, and demonstrate you can solve their problems.",
+            "author": "Former Google Recruiter"
+          }
         },
         {
           "type": "tip",
-          "content": {"text": "Reframe nervousness as excitement. The physiological responses are identical—your brain just interprets them differently. Tell yourself 'I'm excited' before walking in."}
+          "content": {
+            "text": "Reframe nervousness as excitement. The physiological responses are identical—your brain just interprets them differently. Tell yourself 'I'm excited' before walking in."
+          }
         }
       ]
     },
@@ -30,33 +73,69 @@
       "blocks": [
         {
           "type": "text",
-          "content": {"text": "STAR is the gold standard for answering behavioral questions. It stands for Situation, Task, Action, Result. This structure ensures your answers are concrete, specific, and demonstrate real impact."}
+          "content": {
+            "text": "STAR is the gold standard for answering behavioral questions. It stands for Situation, Task, Action, Result. This structure ensures your answers are concrete, specific, and demonstrate real impact."
+          }
         },
         {
           "type": "checklist",
           "content": {
             "title": "STAR Checklist",
             "items": [
-              {"id": "s1", "text": "Situation: Set the context (brief, 1-2 sentences)", "required": true},
-              {"id": "s2", "text": "Task: What was YOUR specific responsibility?", "required": true},
-              {"id": "s3", "text": "Action: What did YOU do? (Use 'I', not 'we')", "required": true},
-              {"id": "s4", "text": "Result: Quantify the outcome whenever possible", "required": true}
+              {
+                "id": "s1",
+                "text": "Situation: Set the context (brief, 1-2 sentences)",
+                "required": true
+              },
+              {
+                "id": "s2",
+                "text": "Task: What was YOUR specific responsibility?",
+                "required": true
+              },
+              {
+                "id": "s3",
+                "text": "Action: What did YOU do? (Use 'I', not 'we')",
+                "required": true
+              },
+              {
+                "id": "s4",
+                "text": "Result: Quantify the outcome whenever possible",
+                "required": true
+              }
             ]
           }
         },
         {
           "type": "warning",
-          "content": {"text": "Avoid the 'we' trap. Interviewers want to know what YOU did, not your team. It's okay to acknowledge teamwork, but focus 80% on your individual contributions."}
+          "content": {
+            "text": "Avoid the 'we' trap. Interviewers want to know what YOU did, not your team. It's okay to acknowledge teamwork, but focus 80% on your individual contributions."
+          }
         },
         {
           "type": "quiz",
           "content": {
             "question": "Which part of the STAR method should take the most time in your answer?",
             "options": [
-              {"id": "a", "text": "Situation - Setting detailed context", "isCorrect": false},
-              {"id": "b", "text": "Task - Explaining the challenge", "isCorrect": false},
-              {"id": "c", "text": "Action - Describing what you did", "isCorrect": true},
-              {"id": "d", "text": "Result - Sharing the outcome", "isCorrect": false}
+              {
+                "id": "a",
+                "text": "Situation - Setting detailed context",
+                "isCorrect": false
+              },
+              {
+                "id": "b",
+                "text": "Task - Explaining the challenge",
+                "isCorrect": false
+              },
+              {
+                "id": "c",
+                "text": "Action - Describing what you did",
+                "isCorrect": true
+              },
+              {
+                "id": "d",
+                "text": "Result - Sharing the outcome",
+                "isCorrect": false
+              }
             ],
             "explanation": "Action should be 50-60% of your answer. This is where you demonstrate your skills, decision-making, and problem-solving approach."
           }
@@ -69,26 +148,58 @@
       "blocks": [
         {
           "type": "text",
-          "content": {"text": "Generic research won't set you apart. Everyone reads the 'About Us' page. Go deeper to find insights that show genuine interest and preparation."}
+          "content": {
+            "text": "Generic research won't set you apart. Everyone reads the 'About Us' page. Go deeper to find insights that show genuine interest and preparation."
+          }
         },
         {
           "type": "checklist",
           "content": {
             "title": "Research Checklist",
             "items": [
-              {"id": "r1", "text": "Recent news and press releases (last 3 months)", "required": true},
-              {"id": "r2", "text": "Latest earnings call or investor updates (if public)", "required": false},
-              {"id": "r3", "text": "Key products/services and recent launches", "required": true},
-              {"id": "r4", "text": "Company values and how they're demonstrated", "required": true},
-              {"id": "r5", "text": "Interviewer's LinkedIn profile and background", "required": true},
-              {"id": "r6", "text": "Glassdoor reviews for interview process insights", "required": false},
-              {"id": "r7", "text": "Industry challenges and how this company addresses them", "required": false}
+              {
+                "id": "r1",
+                "text": "Recent news and press releases (last 3 months)",
+                "required": true
+              },
+              {
+                "id": "r2",
+                "text": "Latest earnings call or investor updates (if public)",
+                "required": false
+              },
+              {
+                "id": "r3",
+                "text": "Key products/services and recent launches",
+                "required": true
+              },
+              {
+                "id": "r4",
+                "text": "Company values and how they're demonstrated",
+                "required": true
+              },
+              {
+                "id": "r5",
+                "text": "Interviewer's LinkedIn profile and background",
+                "required": true
+              },
+              {
+                "id": "r6",
+                "text": "Glassdoor reviews for interview process insights",
+                "required": false
+              },
+              {
+                "id": "r7",
+                "text": "Industry challenges and how this company addresses them",
+                "required": false
+              }
             ]
           }
         },
         {
           "type": "tip",
-          "content": {"text": "Find one specific thing to mention that shows you've done homework beyond the basics. A recent product launch, a quote from the CEO, or a company initiative that resonates with you."}
+          "content": {
+            "text": "Find one specific thing to mention that shows you've done homework beyond the basics. A recent product launch, a quote from the CEO, or a company initiative that resonates with you."
+          }
         }
       ]
     },
@@ -98,15 +209,21 @@
       "blocks": [
         {
           "type": "text",
-          "content": {"text": "The questions you ask reveal as much about you as your answers. Great questions demonstrate strategic thinking, genuine curiosity, and help you evaluate if this role is right for you."}
+          "content": {
+            "text": "The questions you ask reveal as much about you as your answers. Great questions demonstrate strategic thinking, genuine curiosity, and help you evaluate if this role is right for you."
+          }
         },
         {
           "type": "text",
-          "content": {"text": "**Strong questions to consider:**\n\n- What does success look like in this role in the first 90 days?\n- What's the biggest challenge the team is facing right now?\n- How would you describe the team's working style?\n- What do you enjoy most about working here?\n- How does this role contribute to the company's larger goals?"}
+          "content": {
+            "text": "**Strong questions to consider:**\n\n- What does success look like in this role in the first 90 days?\n- What's the biggest challenge the team is facing right now?\n- How would you describe the team's working style?\n- What do you enjoy most about working here?\n- How does this role contribute to the company's larger goals?"
+          }
         },
         {
           "type": "warning",
-          "content": {"text": "Avoid questions easily answered by Google, questions about salary/benefits in early rounds, or questions that suggest you haven't researched the company."}
+          "content": {
+            "text": "Avoid questions easily answered by Google, questions about salary/benefits in early rounds, or questions that suggest you haven't researched the company."
+          }
         }
       ]
     },
@@ -116,24 +233,48 @@
       "blocks": [
         {
           "type": "text",
-          "content": {"text": "What you do after the interview matters. A thoughtful follow-up reinforces your interest and keeps you top of mind."}
+          "content": {
+            "text": "What you do after the interview matters. A thoughtful follow-up reinforces your interest and keeps you top of mind."
+          }
         },
         {
           "type": "checklist",
           "content": {
             "title": "Follow-up Checklist",
             "items": [
-              {"id": "f1", "text": "Send thank-you email within 24 hours", "required": true},
-              {"id": "f2", "text": "Reference something specific from the conversation", "required": true},
-              {"id": "f3", "text": "Reiterate your interest and fit for the role", "required": true},
-              {"id": "f4", "text": "Keep it brief (3-4 sentences max)", "required": true},
-              {"id": "f5", "text": "Proofread carefully for typos", "required": true}
+              {
+                "id": "f1",
+                "text": "Send thank-you email within 24 hours",
+                "required": true
+              },
+              {
+                "id": "f2",
+                "text": "Reference something specific from the conversation",
+                "required": true
+              },
+              {
+                "id": "f3",
+                "text": "Reiterate your interest and fit for the role",
+                "required": true
+              },
+              {
+                "id": "f4",
+                "text": "Keep it brief (3-4 sentences max)",
+                "required": true
+              },
+              {
+                "id": "f5",
+                "text": "Proofread carefully for typos",
+                "required": true
+              }
             ]
           }
         },
         {
           "type": "tip",
-          "content": {"text": "If you interviewed with multiple people, send personalized emails to each. Reference specific topics you discussed with that person."}
+          "content": {
+            "text": "If you interviewed with multiple people, send personalized emails to each. Reference specific topics you discussed with that person."
+          }
         }
       ]
     }
