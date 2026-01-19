@@ -186,7 +186,7 @@
         {
           "type": "text",
           "content": {
-            "text": "**Common Interview Questions:**\n\n- \"in the interviews?\""
+            "text": "**What to Expect:**\n\nDatabricks interviews focus heavily on data engineering and distributed systems:\n- Expect Spark-related questions and data pipeline design\n- System design with emphasis on scalability and data architecture\n- Coding problems often involve data manipulation and SQL\n- Take-home assignments are common for some roles"
           }
         },
         {
@@ -237,7 +237,7 @@
         {
           "type": "text",
           "content": {
-            "text": "**Insider Tips:**\n\n- a robust data architecture to facilitate unified near-real-time analytics for a diverse and growing group of data stakeholders\n- on which decision to make\n- people give is just to get your resume reviewed, but this can totally backfire\n- is just to talk to people in class, or at least reach out to them digitally\n- you have stuff to put on your resume"
+            "text": "**Insider Tips:**\n\n- Brush up on Apache Spark internals - understanding partitioning, shuffles, and catalyst optimizer helps\n- Be ready to discuss real-time vs batch processing trade-offs\n- Show passion for data infrastructure and the \"data lakehouse\" concept that Databricks pioneered\n- Demonstrate experience with or interest in unified analytics platforms"
           }
         },
         {

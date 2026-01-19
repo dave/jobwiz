@@ -186,7 +186,7 @@
         {
           "type": "text",
           "content": {
-            "text": "**Common Interview Questions:**\n\n- \"tailored to Stripe’s values?\""
+            "text": "**What to Expect:**\n\nStripe is known for rigorous technical interviews. Expect:\n- Systems design questions, especially around payment processing and API design\n- Coding interviews with a focus on clean, production-quality code\n- Behavioral questions exploring how you've handled complexity and ambiguity\n- Deep technical discussions about your past projects"
           }
         },
         {
@@ -237,7 +237,7 @@
         {
           "type": "text",
           "content": {
-            "text": "**Insider Tips:**\n\n- but do have some thoughts to add from a slightly more experienced perspective\n- on using \"I will sign right now if you can make $X happen\" at the end is another great tip\n- or even coaching, you can try emailing me at suryc011 [at] gmail [dot] com\n- going on Leetcode and searching for \"Design\" questions which will ask you to program things like a Snake game or a Hit Counter\n- actually, I've always LC'd in Python as you have access to all data structures and types without spending 10min (which is actually a lot) of your codi"
+            "text": "**Insider Tips:**\n\n- Practice LeetCode \"Design\" problems - Stripe values clean object-oriented design and API thinking\n- Python is a solid choice for coding interviews due to its expressiveness and built-in data structures\n- Be prepared to discuss trade-offs in your solutions, not just the optimal answer\n- Stripe values intellectual curiosity - show genuine interest in how payments infrastructure works"
           }
         },
         {

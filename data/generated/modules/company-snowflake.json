@@ -186,7 +186,7 @@
         {
           "type": "text",
           "content": {
-            "text": "**Common Interview Questions:**\n\n- \"she didn't do this at all.. wut?\"\n- \"why did you even apply?\"\n- \"What's your availability?\"\n- \"Do you have another job now?\"\n- \"I couldn't work that job and do school?\""
+            "text": "**What to Expect:**\n\nSnowflake interviews focus heavily on cloud data architecture:\n- System design for cloud data warehousing at scale\n- SQL and data modeling deep dives\n- Questions about distributed systems and query optimization\n- Behavioral questions about working in a high-growth environment"
           }
         },
         {
@@ -237,7 +237,7 @@
         {
           "type": "text",
           "content": {
-            "text": "**Insider Tips:**\n\n- going through the design/video to understand it, pretty great problem\n- you run out of stock a day before the ship arrives\n- that inventory arrival flow and a determined rate\n- i’m well prepared and fortunately i’ve been able to interview with super cool companies like msft, coinbase, meta, snowflake, and a few smaller startu\n- you get some referrals if you can, those really speed up the process"
+            "text": "**Insider Tips:**\n\n- Understand Snowflake's architecture - their separation of compute and storage is fundamental to their value proposition\n- Brush up on cloud concepts (AWS, Azure, GCP) as Snowflake runs across all major cloud providers\n- Be ready to discuss data governance, security, and compliance in enterprise contexts\n- Referrals can help speed up the process - consider reaching out to employees on LinkedIn"
           }
         },
         {
