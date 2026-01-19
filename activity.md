@@ -2463,3 +2463,64 @@ All Stage 5 (Launch) code issues are now closed:
   - Keyboard: Enter=next, Escape=exit, Arrow keys ✓
   - Mobile swipe gestures ✓
   - Minimal chrome: Next/Back buttons, "X of Y" indicator ✓
+
+### 2026-01-18 - Issue #129: B4: Content item components
+
+**Completed:**
+- Created `/src/components/carousel/items/ContentItem.tsx` - text, header, quote, tip, warning
+- Created `/src/components/carousel/items/QuizItem.tsx` - clean Q+A with submit=next
+- Created `/src/components/carousel/items/MediaItem.tsx` - video, audio, image, infographic
+- Created `/src/components/carousel/items/index.ts` - exports all components
+
+**ContentItem Features:**
+- Renders text, header, quote, tip, warning block types
+- Centered layout with large typography
+- Minimal UI chrome for carousel display
+- Responsive styling (sm/md breakpoints)
+- Markdown support for text content
+- Semantic HTML with proper ARIA roles
+
+**QuizItem Features:**
+- Clean question display with lettered options (A, B, C, D)
+- Single-select and multi-select support
+- Check Answer button followed by Continue button
+- Correct/incorrect feedback with green/red styling
+- Explanation display after submission
+- Submit=next pattern (onComplete called on Continue)
+
+**MediaItem Features:**
+- Video: YouTube and Vimeo embed support
+- Audio: Play/pause, seek, playback speed (0.5x-2x)
+- Image/Infographic: Zoom modal with Escape key support
+- Completion tracking (80% video, 90% audio)
+- Large centered media display
+
+**Files Created:**
+- `src/components/carousel/items/ContentItem.tsx`
+- `src/components/carousel/items/QuizItem.tsx`
+- `src/components/carousel/items/MediaItem.tsx`
+- `src/components/carousel/items/index.ts`
+- `src/components/carousel/items/__tests__/ContentItem.test.tsx`
+- `src/components/carousel/items/__tests__/QuizItem.test.tsx`
+- `src/components/carousel/items/__tests__/MediaItem.test.tsx`
+
+**Files Modified:**
+- `src/components/carousel/index.ts` - Added item component exports
+
+**Tests:**
+- 89 unit tests covering:
+  - ContentItem (27 tests): text, header, quote, tip, warning rendering
+  - QuizItem (37 tests): selection, submission, feedback, accessibility
+  - MediaItem (25 tests): video, audio, image, zoom, error handling
+
+**Verification:**
+- `npm run lint` - passes with no errors
+- `npm run type-check` - passes with no errors
+- `npm run build` - successful production build
+- `npm test` - 184 carousel tests pass (89 new item tests + 95 existing)
+- All acceptance criteria verified:
+  - ContentItem renders text, header, quote, tip ✓
+  - QuizItem has clean Q+A with submit=next ✓
+  - MediaItem handles video, audio, image ✓
+  - All items: centered, large typography, minimal UI ✓
+  - Each block type renders correctly in carousel ✓

@@ -5,3 +5,13 @@
 
 export { CarouselProvider, useCarousel } from "./CarouselContext";
 export { CarouselContainer } from "./CarouselContainer";
+
+// Item components for rendering content in the carousel
+export {
+  ContentItem,
+  QuizItem,
+  MediaItem,
+  type ContentItemProps,
+  type QuizItemProps,
+  type MediaItemProps,
+} from "./items";
