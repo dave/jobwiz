@@ -137,19 +137,20 @@ export function DashboardContent() {
       </header>
 
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        {/* Welcome Card */}
-        <div className="bg-white shadow rounded-lg p-6 mb-6">
-          <h2 className="text-lg font-semibold text-gray-900 mb-2">
-            Welcome back!
-          </h2>
-          <p className="text-gray-600">
-            Your interview prep journey starts here. Explore companies and roles
-            to find the perfect preparation materials.
-          </p>
-        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          {/* Welcome Card */}
+          <div className="bg-white shadow rounded-lg p-6">
+            <h2 className="text-lg font-semibold text-gray-900 mb-2">
+              Welcome back!
+            </h2>
+            <p className="text-gray-600">
+              Your interview prep journey starts here. Explore companies and roles
+              to find the perfect preparation materials.
+            </p>
+          </div>
 
-        {/* Purchased Content */}
-        <div className="bg-white shadow rounded-lg p-6">
+          {/* Purchased Content */}
+          <div className="bg-white shadow rounded-lg p-6">
             <h3 className="text-md font-semibold text-gray-900 mb-3">
               Your Purchases
             </h3>
@@ -186,6 +187,7 @@ export function DashboardContent() {
               </ul>
             )}
           </div>
+        </div>
       </main>
     </div>
   );
