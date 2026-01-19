@@ -116,12 +116,11 @@ export default async function CompanyRolePage({ params }: CompanyRolePageProps) 
               <CompanyLogo
                 logoUrl={theme.logoUrl}
                 companyName={company.name}
-                size="medium"
-                className="!w-12 !h-12"
+                size="large"
               />
             </div>
 
-            <h1 className="text-4xl sm:text-5xl font-semibold text-gray-900 tracking-tight leading-[1.1] mb-6">
+            <h1 className="text-4xl sm:text-5xl font-semibold text-gray-900 tracking-tight leading-tight mb-6">
               How{" "}
               <span className="text-[var(--theme-primary,#2563eb)]">
                 {company.name}

@@ -20,9 +20,9 @@ interface CompanyLogoProps {
 }
 
 const sizeMap = {
-  small: { width: 32, height: 32, className: "w-8 h-8" },
-  medium: { width: 48, height: 48, className: "w-12 h-12" },
-  large: { width: 64, height: 64, className: "w-16 h-16" },
+  small: { width: 40, height: 40, className: "w-10 h-10" },
+  medium: { width: 64, height: 64, className: "w-16 h-16" },
+  large: { width: 100, height: 100, className: "w-[100px] h-[100px]" },
 };
 
 /**
@@ -59,7 +59,8 @@ export function CompanyLogo({
           alt={`${companyName} logo`}
           fill
           className="object-contain"
-          sizes={`${dimensions.width}px`}
+          sizes={`${dimensions.width * 2}px`}
+          quality={100}
         />
       </div>
     );

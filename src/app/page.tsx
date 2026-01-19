@@ -1,10 +1,24 @@
+import { getAllCompanies } from "@/lib/routing";
+import { InterviewSelector } from "@/components/home/InterviewSelector";
+
 export default function Home() {
+  const companies = getAllCompanies();
+
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center p-24">
-      <h1 className="text-4xl font-bold mb-4">Ace That Interview</h1>
-      <p className="text-lg text-gray-600">
-        Interview prep tailored to your target company
-      </p>
+    <main className="min-h-screen bg-white">
+      <section className="px-6 pt-16 pb-20 sm:pt-24 sm:pb-28">
+        <div className="max-w-2xl mx-auto text-center">
+          <h1 className="text-4xl sm:text-5xl font-semibold text-gray-900 tracking-tight leading-[1.1] mb-6">
+            Ace That Interview
+          </h1>
+
+          <p className="text-xl text-gray-600 leading-relaxed mb-10 mx-auto max-w-xl">
+            Interview prep tailored to your target company and role
+          </p>
+
+          <InterviewSelector companies={companies} />
+        </div>
+      </section>
     </main>
   );
 }

@@ -104,9 +104,10 @@ export async function deleteCompanyTheme(
 }
 
 /**
- * Get local logo URL for a company (stored in public/logos/)
+ * Get logo URL for a company (stored in public/logos/)
+ * Logos should be at least 200x200px for crisp 100px display
  */
-function getLocalLogoUrl(companySlug: string): string {
+function getLogoUrl(companySlug: string): string {
   return `/logos/${companySlug}.png`;
 }
 
@@ -117,8 +118,8 @@ export function resolveTheme(
   companySlug: string,
   theme: CompanyTheme | null
 ): ResolvedTheme {
-  // Use Supabase logo if set, otherwise fall back to local logo
-  const logoUrl = theme?.logo_url || getLocalLogoUrl(companySlug);
+  // Use Clearbit for high-quality logos
+  const logoUrl = getLogoUrl(companySlug);
 
   if (theme) {
     return {
