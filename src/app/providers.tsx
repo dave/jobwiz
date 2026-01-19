@@ -8,14 +8,16 @@
 import { AuthProvider } from "@/lib/auth";
 import { AnalyticsProvider } from "@/lib/analytics";
 import { Suspense, type ReactNode } from "react";
+import type { Session } from "@supabase/supabase-js";
 
 interface ProvidersProps {
   children: ReactNode;
+  initialSession?: Session | null;
 }
 
-export function Providers({ children }: ProvidersProps) {
+export function Providers({ children, initialSession }: ProvidersProps) {
   return (
-    <AuthProvider>
+    <AuthProvider initialSession={initialSession}>
       <Suspense fallback={null}>
         <AnalyticsProvider>{children}</AnalyticsProvider>
       </Suspense>

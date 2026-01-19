@@ -71,6 +71,8 @@ export interface JourneyProgressProps {
   hasPremiumAccess: boolean;
   /** Persisted progress (if any) */
   progress?: CarouselProgress | null;
+  /** Whether progress is still loading from localStorage */
+  progressLoading?: boolean;
 }
 
 /** Module display info for rendering */
@@ -210,6 +212,7 @@ export function JourneyProgress({
   paywallIndex,
   hasPremiumAccess,
   progress,
+  progressLoading = false,
 }: JourneyProgressProps) {
   // Extract progress values with defaults
   const currentIndex = progress?.currentIndex ?? 0;
@@ -247,13 +250,16 @@ export function JourneyProgress({
   );
 
   // Determine button text and state
+  // While loading, show "Continue" to prevent flicker (most users viewing this have progress)
   const hasStarted = currentIndex > 0 || completedItems.size > 0;
   const isComplete = progressPercentage === 100;
-  const buttonText = isComplete
-    ? "Review Journey"
-    : hasStarted
-      ? "Continue"
-      : "Start Journey";
+  const buttonText = progressLoading
+    ? "Continue"
+    : isComplete
+      ? "Review Journey"
+      : hasStarted
+        ? "Continue"
+        : "Start Journey";
 
   return (
     <div className="space-y-6">

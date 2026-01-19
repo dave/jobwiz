@@ -36,3 +36,13 @@ export async function createServerClient() {
     }
   );
 }
+
+/**
+ * Gets the current session from the server
+ * Used to pass initial session to client-side AuthProvider to prevent flicker
+ */
+export async function getServerSession() {
+  const supabase = await createServerClient();
+  const { data: { session } } = await supabase.auth.getSession();
+  return session;
+}

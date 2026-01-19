@@ -29,6 +29,8 @@ interface JourneyContentProps {
   totalItems: number;
   /** Paywall index (null if no paywall) */
   paywallIndex: number | null;
+  /** Initial access state from server (prevents flicker) */
+  initialHasAccess?: boolean;
 }
 
 /**
@@ -66,21 +68,29 @@ export function JourneyContent({
   allModules,
   totalItems,
   paywallIndex,
+  initialHasAccess = false,
 }: JourneyContentProps) {
   const { user } = useAuth();
-  const [hasAccess, setHasAccess] = useState(false);
-  const [checkingAccess, setCheckingAccess] = useState(true);
+  const [hasAccess, setHasAccess] = useState(initialHasAccess);
+  const [checkingAccess, setCheckingAccess] = useState(!initialHasAccess);
   const [progress, setProgress] = useState<CarouselProgress | null>(null);
+  const [progressLoaded, setProgressLoaded] = useState(false);
 
   // Load persisted progress from localStorage on mount
   useEffect(() => {
     const loadedProgress = loadPersistedProgress(companySlug, roleSlug);
     setProgress(loadedProgress);
+    setProgressLoaded(true);
   }, [companySlug, roleSlug]);
 
-  // Check if user has purchased access
+  // Check if user has purchased access (skip if already have access from server)
   useEffect(() => {
-    async function checkAccess() {
+    // If we already have access from server, no need to re-check
+    if (initialHasAccess) {
+      return;
+    }
+
+    async function checkAccessAsync() {
       if (!user) {
         setHasAccess(false);
         setCheckingAccess(false);
@@ -101,8 +111,8 @@ export function JourneyContent({
       }
       setCheckingAccess(false);
     }
-    checkAccess();
-  }, [user, companySlug, roleSlug]);
+    checkAccessAsync();
+  }, [user, companySlug, roleSlug, initialHasAccess]);
 
   // Handle purchase - redirect to Stripe checkout
   const handlePurchase = async (): Promise<boolean> => {
@@ -176,10 +186,10 @@ export function JourneyContent({
               </h1>
             </div>
             <Link
-              href="/dashboard"
+              href={user ? "/dashboard" : "/login"}
               className="text-blue-600 hover:text-blue-800 font-medium"
             >
-              Dashboard
+              {user ? "Dashboard" : "Get Started"}
             </Link>
           </div>
         </div>
@@ -199,6 +209,7 @@ export function JourneyContent({
               paywallIndex={paywallIndex}
               hasPremiumAccess={hasAccess}
               progress={progress}
+              progressLoading={!progressLoaded}
             />
 
             {/* Premium Unlock Section (if user doesn't have access) */}
