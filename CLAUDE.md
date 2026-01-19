@@ -11,11 +11,14 @@ UX is story-based progressive disclosure (like Lemonade insurance signup): one s
 See GitHub issue #2 for the full plan: Research/Infrastructure → Content Framework → AI Content Pipeline → Data Collection → Launch.
 
 ## Plan Mode
-
 - Make the plan extremely concise. Sacrifice grammar for the sake of concision.
-- At the end of each plan, give me a list of unresolved questions to answer, if any.
+- During the planning process, give me a list of unresolved questions to answer, if any.
 - Make sure each stage of the plan is separated, so we can run them stage by stage in separate contexts.
-- When the plan is accepted, make a GitHub issue with the plan so we can load it later when we need to run stages. 
+- Split the plan into tasks and sub-tasks where necessary. 
+- Each task / subtask should be a small enough piece of work that is can be done in one go, unattended.
+- Think hard about acceptance criteria and testing. If there's too much acceptance criteria / testing information to go in the issue, create an extra file in docs/specs with the information, and link to it in the issue.  
+- When the plan is accepted, create GitHub issues / sub-issues for all tasks.
+- Add them all to the index issue (#2). Where necessary, add a new stage to the index to arrange the tasks logically.
 
 ## Implementation
 
