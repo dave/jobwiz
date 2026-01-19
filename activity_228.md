@@ -54,7 +54,8 @@ Fix content quality issues identified during manual review of interview prep mod
 - [x] #264 - Company modules: Consulting
 - [x] #265 - Company modules: E-commerce/Retail
 - [x] #266 - Company modules: Healthcare/Biotech
-- [ ] #267-#269 - Company modules (remaining categories)
+- [x] #267 - Company modules: Enterprise SaaS
+- [ ] #268-#269 - Company modules (remaining categories)
 - [ ] #270-#278 - Company-role modules (by category)
 
 ### Role → Company-Role Merge (#253)
@@ -696,5 +697,42 @@ All 22 role modules have correct grammar:
 **Acceptance Criteria:**
 - ✅ All 10 Healthcare/Biotech company modules reviewed
 - ✅ All grammar issues fixed (5 issues found and fixed)
+- ✅ JSON valid after edits
+
+### 2026-01-19 - Issue #267: Grammar review - Company modules: Enterprise SaaS
+
+**Status:** Complete
+
+**Modules Reviewed (19 total):**
+- salesforce, oracle, sap, workday, servicenow, atlassian, splunk, twilio, hubspot, zendesk, okta, cloudflare, mongodb, elastic, ibm, vmware, slack, zoom, docusign
+
+**Issues Found and Fixed:**
+
+1. **company-mongodb.json - Common Interview Questions section (lines 186-190):**
+   - Contained garbled scraped content: incomplete fragments, personal anecdotes about interviews
+   - Fixed: Replaced with relevant MongoDB-focused questions about document databases, schema design, and data modeling
+
+2. **company-mongodb.json - Insider Tips section (lines 238-241):**
+   - Contained irrelevant general career advice not MongoDB-specific
+   - Fixed: Replaced with relevant tips about MongoDB Atlas, competitive landscape, and data platform vision
+
+3. **company-slack.json - Interview Process section (line 183):**
+   - Had "1 rounds typical" which is grammatically incorrect
+   - Fixed: Changed to "1 round typical" (singular)
+
+**Files Modified:**
+- `data/generated/modules/company-mongodb.json` - Fixed 2 sections
+- `data/generated/modules/company-slack.json` - Fixed 1 grammar issue
+
+**Verification:**
+- All JSON files valid (node validation passes)
+- `npm run lint` - passes (warnings only for unrelated image issues)
+- `npm run type-check` - passes
+- `npm run build` - successful
+- `npm test -- --testPathPattern="modules"` - tests pass
+
+**Acceptance Criteria:**
+- ✅ All 19 Enterprise SaaS company modules reviewed
+- ✅ All grammar issues fixed (3 issues found and fixed)
 - ✅ JSON valid after edits
 

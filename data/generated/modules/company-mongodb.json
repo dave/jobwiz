@@ -186,7 +186,7 @@
         {
           "type": "text",
           "content": {
-            "text": "**Common Interview Questions:**\n\n- \"do you have any questions?\"\n- \"that either impressed the interviewer or revealed a red flag? For me, the low point will always be the time I ended an interview with: “So what exactly does this caree in this company do?\"\n- \"to come up with a solution to a problem with code?\"\n- \"at this stage? What kind of topics would you suggest I brush up on before the interview?\"\n- \"explain the concept of locking (Did not explain this one well but understand it now)?\""
+            "text": "**Common Interview Questions:**\n\n- \"Tell me about your experience with document databases and when you would choose them over relational databases.\"\n- \"How would you design a schema for a specific use case in MongoDB?\"\n- \"Describe a time you optimized database performance at scale.\"\n- \"How do you approach data modeling for different access patterns?\"\n- \"What are the trade-offs between embedding and referencing documents?\""
           }
         },
         {
@@ -237,7 +237,7 @@
         {
           "type": "text",
           "content": {
-            "text": "**Insider Tips:**\n\n- that you have multiple versions of your resume and you tailor it for each job you apply for\n- Airbnb! Nice, smart people, pre-IPO, beautiful office\n- Work on your portfolio if you haven't at least like 10 different webapps that you are proud of\n- to feel better about my situation\n- for getting that first internship/co-op position"
+            "text": "**Insider Tips:**\n\n- Understand both MongoDB Atlas (cloud) and self-managed deployments - Atlas is their growth engine\n- Know the competitive landscape: PostgreSQL with JSONB, DynamoDB, Couchbase - understand MongoDB's developer experience advantages\n- Be prepared to discuss the shift toward document databases and when MongoDB is the right choice\n- The company has a strong developer community focus - show you understand developer relations and advocacy\n- Understand MongoDB's data platform vision beyond just the database: Charts, Realm, Atlas Search"
           }
         },
         {
