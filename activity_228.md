@@ -736,3 +736,39 @@ All 22 role modules have correct grammar:
 - ✅ All grammar issues fixed (3 issues found and fixed)
 - ✅ JSON valid after edits
 
+### 2026-01-19 - Issue #268: Grammar review - Company modules: Media/Entertainment
+
+**Status:** Complete
+
+**Modules Reviewed (12 total):**
+- disney, wbd, spotify, tiktok, snap, pinterest, reddit, linkedin, x, ea, activision-blizzard, roblox
+
+**Issues Found and Fixed:**
+
+1. **company-tiktok.json - Common Interview Questions section (line 189):**
+   - Contained irrelevant scraped content: "should I use LinkedIn???", "So do you know what we do at our company XYZ?", etc.
+   - Fixed: Replaced with relevant TikTok-focused questions about recommendation algorithms, content moderation, and creator economy
+
+2. **company-tiktok.json - Insider Tips section (line 240):**
+   - Contained incomplete sentence fragments: "over a mistake they made", "on any other platform like TikTok or IG..."
+   - Fixed: Replaced with relevant tips about being a TikTok user, ByteDance ecosystem, creator economy, and content moderation
+
+3. **company-linkedin.json - Interview Process section (line 183):**
+   - Timeline showed "12 weeks" which is unrealistic for interview processes
+   - Fixed: Changed to "2-4 weeks" to match other companies
+
+**Files Modified:**
+- `data/generated/modules/company-tiktok.json` - Fixed 2 sections
+- `data/generated/modules/company-linkedin.json` - Fixed timeline value
+
+**Verification:**
+- All JSON files valid (python3 -m json.tool validation passes)
+- `npm run lint` - passes (warnings only for unrelated image issues)
+- `npm run build` - successful
+- `npm test -- --testPathPattern="modules"` - 77 tests pass
+
+**Acceptance Criteria:**
+- ✅ All 12 Media/Entertainment company modules reviewed
+- ✅ All grammar issues fixed (3 issues found and fixed)
+- ✅ JSON valid after edits
+
