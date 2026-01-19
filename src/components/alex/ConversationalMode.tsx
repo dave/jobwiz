@@ -266,10 +266,11 @@ const scrollContainerStyle: React.CSSProperties = {
 };
 
 /**
- * Inner container for messages - adds padding
+ * Inner container for messages - adds padding with safe area insets
  */
 const messagesInnerStyle: React.CSSProperties = {
   padding: "var(--space-4)",
+  paddingTop: "calc(var(--space-4) + env(safe-area-inset-top))",
   paddingBottom: "calc(var(--space-8) + env(safe-area-inset-bottom))",
   display: "flex",
   flexDirection: "column",
@@ -331,7 +332,7 @@ const activeContentStyle: React.CSSProperties = {
 };
 
 /**
- * "New" indicator button style
+ * "New" indicator button style - 48px min touch target
  */
 const newIndicatorStyle: React.CSSProperties = {
   position: "fixed",
@@ -341,7 +342,7 @@ const newIndicatorStyle: React.CSSProperties = {
   display: "flex",
   alignItems: "center",
   gap: "var(--space-2)",
-  padding: "var(--space-2) var(--space-4)",
+  padding: "var(--space-3) var(--space-4)",
   backgroundColor: "var(--primary)",
   color: "white",
   borderRadius: "9999px",
@@ -351,7 +352,7 @@ const newIndicatorStyle: React.CSSProperties = {
   fontWeight: 600,
   cursor: "pointer",
   zIndex: 50,
-  minHeight: "40px",
+  minHeight: "48px", // Touch target minimum
   minWidth: "80px",
 };
 
