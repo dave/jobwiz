@@ -10,7 +10,9 @@ Analyze all the GitHub issues that are listed on the {ISSUE} parent issue. When 
 
 Pick the issue that you determine has the highest priority and isn't blocked by other unfinished work. Only pick from issues that are ready to go, and listed on the {ISSUE} parent issue. 
 
-If all issues inside the {ISSUE} parent issue complete (or none are ready to go), output <promise>COMPLETE</promise>.
+If all issues inside the {ISSUE} parent issue complete (or none are ready to go), output <promise>COMPLETE</promise>. 
+
+**ONLY RETURN COMPLETE IF YOU HAVE CHECKED THAT ALL ISSUES AND SUB-ISSUES UNDER THE PARENT {ISSUE} ARE COMPLETE, OR NONE ARE READY TO GO**
 
 Add the "in-progress" tag to the chosen issue.
 
