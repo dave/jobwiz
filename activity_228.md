@@ -15,7 +15,7 @@ Fix content quality issues identified during manual review of interview prep mod
 - [x] #235 - Create ReflectionItem component
 - [x] #236 - Add detection logic to QuizItem
 - [x] #237 - Add tests
-- [ ] #238 - Visual QA
+- [x] #238 - Visual QA
 
 ### Remove Role-Specific Content (#230)
 - [ ] #279 - Big Tech batch
@@ -203,4 +203,40 @@ Detection logic tests (12 tests in `src/components/carousel/items/__tests__/Quiz
 - ✅ Detection logic tests pass
 - ✅ Coverage for edge cases
 - ✅ Relevant tests for #237 pass (pre-existing failures in other test files are unrelated)
+
+### 2026-01-19 - Issue #238: Visual QA for reflection mode across modules
+
+**Completed:**
+- Manually tested reflection mode across 4 journeys:
+  - Google Software Engineer - 19 reflection quizzes found, rendering correctly
+  - Google Product Manager - 19 reflection quizzes found, rendering correctly
+  - Amazon Software Engineer - 19 reflection quizzes found, rendering correctly
+  - McKinsey Management Consultant - 19 reflection quizzes found, rendering correctly
+- Verified all "Demonstrate..." quizzes render as ReflectionItem (not multiple choice)
+- Verified normal quizzes still render as interactive multiple choice
+- Verified Continue button works and advances to next item
+- Tested mobile viewport (375x667) - responsive layout confirmed
+- Captured screenshots for documentation
+
+**Screenshots Captured:**
+- `screenshots/238-reflection-item-desktop.png` - Desktop view of reflection item
+- `screenshots/238-reflection-item-full.png` - Full page view showing all 4 sections
+- `screenshots/238-reflection-item-mobile.png` - Mobile responsive view
+- `screenshots/238-reflection-google-pm.png` - Google PM journey
+- `screenshots/238-reflection-amazon-swe.png` - Amazon SWE journey
+- `screenshots/238-reflection-mckinsey-mc.png` - McKinsey MC journey
+- `screenshots/238-normal-quiz-multiple-choice.png` - Normal quiz still renders as multiple choice
+
+**Verification:**
+- `npm run lint` - passes (warnings only)
+- `npm run type-check` - passes
+- `npm run build` - successful
+- `npm test -- --testPathPattern="Reflection|QuizItem"` - 72 passed, 2 pre-existing failures
+
+**Acceptance Criteria:**
+- ✅ All "Demonstrate..." quizzes render as reflection format
+- ✅ No broken layouts
+- ✅ Readable on desktop and mobile
+- ✅ Continue button works
+- ✅ Screenshots captured for documentation
 
