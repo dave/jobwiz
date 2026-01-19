@@ -2359,3 +2359,51 @@ All Stage 5 (Launch) code issues are now closed:
 - `npm run lint` - passes with no errors
 - `npm run build` - successful production build
 - `npm test` - 1840 passed (pre-existing test failures unrelated to this change)
+
+### 2026-01-18 - Issue #127: B2: CarouselContext
+
+**Completed:**
+- Created `/src/components/carousel/CarouselContext.tsx` with full state management
+- Implemented `CarouselProvider` component with:
+  - State tracking: currentIndex, items array, completedItems, isPaused, lastDirection
+  - Navigation methods: next(), prev(), goTo(), pause(), resume(), markComplete()
+  - Derived values: currentItem, progress, totalItems, completedCount, isFirstItem, isLastItem, isAtPaywall
+  - Paywall support: canGoNext/canGoPrev respect paywallIndex and hasPremiumAccess
+- Implemented localStorage persistence:
+  - Key format: `carousel-{companySlug}-{roleSlug}`
+  - Saves on every state change
+  - Loads saved position on mount
+- Implemented Supabase sync:
+  - Uses existing `journey_progress` table with journeyId format `carousel-{company}-{role}`
+  - Debounced save (1 second) for performance
+  - Loads from Supabase on mount if remote state is newer
+  - Configurable via `enableSupabaseSync` prop (default: true)
+- Created `useCarousel()` hook for consuming context
+- Created index.ts for exports
+
+**Files Created:**
+- `src/components/carousel/CarouselContext.tsx`
+- `src/components/carousel/index.ts`
+- `src/components/carousel/__tests__/CarouselContext.test.tsx`
+
+**Tests:**
+- 53 unit tests covering:
+  - Initialization (7 tests)
+  - Navigation next/prev/goTo (11 tests)
+  - markComplete (3 tests)
+  - pause/resume (2 tests)
+  - progress calculation (2 tests)
+  - canGoNext/canGoPrev (4 tests)
+  - Paywall behavior (8 tests)
+  - localStorage persistence (4 tests)
+  - useCarousel outside provider (1 test)
+  - Rendering (2 tests)
+  - Supabase sync integration (3 tests)
+  - isFirstItem/isLastItem (4 tests)
+  - Empty items handling (2 tests)
+
+**Verification:**
+- `npm run lint` - passes with no errors
+- `npm run type-check` - passes with no errors
+- `npm run build` - successful production build
+- `npm test` - 53 new carousel tests pass (1893 total passed, 12 pre-existing failures unrelated to this change)
