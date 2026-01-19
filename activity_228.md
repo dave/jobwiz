@@ -33,8 +33,8 @@ Fix content quality issues identified during manual review of interview prep mod
 - [x] #289 - High-growth startups batch
 - [x] #290 - Finance batch
 - [x] #291 - Consulting batch
-- [ ] #292 - E-commerce/Retail batch
-- [ ] #293 - Healthcare/Biotech batch
+- [x] #292 - E-commerce/Retail batch
+- [x] #293 - Healthcare/Biotech batch
 - [ ] #294 - Enterprise SaaS batch
 - [ ] #295 - Media/Entertainment batch
 - [ ] #296 - Other companies batch
@@ -1878,6 +1878,56 @@ Block patterns found (consistent across all modules):
 
 **Acceptance Criteria:**
 - ✅ All 82 company-role modules in batch reviewed
+- ✅ Questions appear before explanations (verified - no issues found)
+- ✅ Content flow is logical (section intro → tip → quiz blocks)
+
+### 2026-01-19 - Issue #293: Fix content ordering - Company-role modules: Healthcare/Biotech
+
+**Status:** Complete - No issues found
+
+**Modules Reviewed (58 total):**
+Reviewed all company-role modules for 10 Healthcare/Biotech companies:
+- Epic (5 modules): engineering-manager, product-manager, qa-engineer, software-engineer, technical-program-manager
+- Cerner (5 modules): engineering-manager, product-manager, qa-engineer, software-engineer, technical-program-manager
+- Optum (7 modules): backend-engineer, business-analyst, data-engineer, data-scientist, engineering-manager, product-manager, software-engineer
+- UnitedHealth (7 modules): backend-engineer, business-analyst, data-engineer, data-scientist, engineering-manager, product-manager, software-engineer
+- CVS Health (7 modules): backend-engineer, business-analyst, data-engineer, data-scientist, engineering-manager, product-manager, software-engineer
+- J&J (6 modules): business-analyst, data-engineer, data-scientist, engineering-manager, product-manager, software-engineer
+- Pfizer (6 modules): data-engineer, data-scientist, engineering-manager, machine-learning-engineer, product-manager, software-engineer
+- Moderna (5 modules): data-engineer, data-scientist, engineering-manager, machine-learning-engineer, software-engineer
+- Illumina (5 modules): data-engineer, data-scientist, engineering-manager, machine-learning-engineer, software-engineer
+- Genentech (5 modules): data-engineer, data-scientist, engineering-manager, machine-learning-engineer, software-engineer
+
+**Analysis Approach:**
+1. Created automated checker script to detect text/tip/warning blocks appearing between quiz blocks
+2. Scanned all 58 modules for ordering issues
+3. Verified block patterns across all sections
+4. Manually spot-checked sample files (Epic SWE, Pfizer DS, Moderna MLE, Genentech SWE)
+
+**Findings:**
+All 58 modules have the **correct** ordering structure:
+- Section intro text at position 0
+- Key focus areas tip/warning at position 1
+- All quiz blocks grouped together after intro content
+
+Block patterns found (consistent across all modules):
+- `text tip quiz quiz quiz quiz quiz` - 116 sections (Behavioral, Technical)
+- `text warning quiz quiz quiz quiz quiz` - 58 sections (Culture Fit)
+- `text tip quiz quiz quiz quiz` - 58 sections (Curveball - 4 quizzes)
+
+**No fixes required** - The current structure is correct. Explanations/frameworks do NOT appear before questions; they appear at the section level as introductory content, which is appropriate.
+
+**Script Created:**
+- `scripts/cleanup/check-content-ordering-healthcare.ts` - Automated ordering check for Healthcare/Biotech modules
+
+**Verification:**
+- `npm run lint` - passes (warnings only for unrelated image issues)
+- `npm run type-check` - passes
+- `npm run build` - successful
+- `npm test -- --testPathPattern="modules"` - 77 tests pass
+
+**Acceptance Criteria:**
+- ✅ All 58 company-role modules in batch reviewed
 - ✅ Questions appear before explanations (verified - no issues found)
 - ✅ Content flow is logical (section intro → tip → quiz blocks)
 
