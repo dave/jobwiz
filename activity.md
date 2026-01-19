@@ -3462,3 +3462,34 @@ All Stage 5 (Launch) code issues are now closed:
   - Each company has: company_slug, logo_url, primary_color, secondary_color, industry_category
   - Migration uses ON CONFLICT for upsert (updates existing themes)
 
+### 2026-01-19 - Issue #99: Expand company themes: Healthcare/Biotech batch
+
+**Completed:**
+- Created Supabase migration for Healthcare/Biotech company themes
+- Created JSON theme data file for content loader
+- Added brand colors and logos for 10 Healthcare/Biotech companies:
+  - Epic Systems (#E35205 orange, #1A1A1A black)
+  - Cerner (#005DAA blue, #1A1A1A black)
+  - Optum (#FF6200 orange, #002677 blue)
+  - UnitedHealth Group (#002677 blue, #FF6200 orange)
+  - CVS Health (#CC0000 red, #1A1A1A black)
+  - Johnson & Johnson (#D51900 red, #1A1A1A black)
+  - Pfizer (#0093D0 blue, #003B6F dark blue)
+  - Moderna (#007DC5 blue, #00B5E2 cyan)
+  - Illumina (#6CB33F green, #1A1A1A black)
+  - Genentech (#0066B3 blue, #00A9E0 light blue)
+
+**Files Created:**
+- `supabase/migrations/20260119000007_insert_healthcare_biotech_themes.sql`
+- `data/generated/themes/healthcare-biotech.json` (10 themes)
+
+**Verification:**
+- `npm run lint` - passes with no errors
+- `npm run type-check` - passes with no errors
+- `npm run build` - successful production build
+- `npm test` - theme tests pass (109 tests)
+- JSON file validated with jq (10 themes)
+- All acceptance criteria verified:
+  - Theme data for 10 Healthcare/Biotech companies
+  - Each company has: company_slug, logo_url, primary_color, secondary_color, industry_category
+  - Migration uses ON CONFLICT for upsert (updates existing themes)
