@@ -1,0 +1,90 @@
+{
+  "batch": "Media/Entertainment",
+  "generated_at": "2026-01-19",
+  "themes": [
+    {
+      "company_slug": "disney",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Disney%2B_logo.svg",
+      "primary_color": "#113ccf",
+      "secondary_color": "#0063e5",
+      "industry_category": "Media/Entertainment"
+    },
+    {
+      "company_slug": "wbd",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Warner_Bros._Discovery_wordmark.svg",
+      "primary_color": "#0047bb",
+      "secondary_color": "#1a1a1a",
+      "industry_category": "Media/Entertainment"
+    },
+    {
+      "company_slug": "spotify",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Spotify_icon.svg",
+      "primary_color": "#1db954",
+      "secondary_color": "#191414",
+      "industry_category": "Media/Entertainment"
+    },
+    {
+      "company_slug": "tiktok",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/en/a/a9/TikTok_logo.svg",
+      "primary_color": "#fe2c55",
+      "secondary_color": "#25f4ee",
+      "industry_category": "Media/Entertainment"
+    },
+    {
+      "company_slug": "snap",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/en/a/ad/Snap_Inc._logo.svg",
+      "primary_color": "#fffc00",
+      "secondary_color": "#000000",
+      "industry_category": "Media/Entertainment"
+    },
+    {
+      "company_slug": "pinterest",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Pinterest-logo.png",
+      "primary_color": "#e60023",
+      "secondary_color": "#efefef",
+      "industry_category": "Media/Entertainment"
+    },
+    {
+      "company_slug": "reddit",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Reddit_logo.svg",
+      "primary_color": "#ff4500",
+      "secondary_color": "#1a1a1b",
+      "industry_category": "Media/Entertainment"
+    },
+    {
+      "company_slug": "linkedin",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png",
+      "primary_color": "#0a66c2",
+      "secondary_color": "#000000",
+      "industry_category": "Media/Entertainment"
+    },
+    {
+      "company_slug": "x",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/X_icon_2.svg",
+      "primary_color": "#000000",
+      "secondary_color": "#ffffff",
+      "industry_category": "Media/Entertainment"
+    },
+    {
+      "company_slug": "ea",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Electronic-Arts-Logo.svg",
+      "primary_color": "#ff4747",
+      "secondary_color": "#000000",
+      "industry_category": "Media/Entertainment"
+    },
+    {
+      "company_slug": "activision-blizzard",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Activision_Blizzard_wordmark.svg",
+      "primary_color": "#3c3c3c",
+      "secondary_color": "#00aeff",
+      "industry_category": "Media/Entertainment"
+    },
+    {
+      "company_slug": "roblox",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Roblox_player_icon_black.svg",
+      "primary_color": "#e1061b",
+      "secondary_color": "#000000",
+      "industry_category": "Media/Entertainment"
+    }
+  ]
+}

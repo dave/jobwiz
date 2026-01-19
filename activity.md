@@ -3529,3 +3529,37 @@ All Stage 5 (Launch) code issues are now closed:
   - Theme data for 14 Enterprise SaaS companies
   - Each company has: company_slug, logo_url, primary_color, secondary_color, industry_category
   - Migration uses ON CONFLICT for upsert (updates existing themes)
+
+### 2026-01-18 - Issue #101: Expand company themes: Media/Entertainment batch
+
+**Completed:**
+- Created Supabase migration for Media/Entertainment company themes
+- Created JSON theme data file for content loader
+- Added brand colors and logos for 12 Media/Entertainment companies:
+  - Disney (#113ccf blue, #0063e5 blue)
+  - Warner Bros Discovery (#0047bb blue, #1a1a1a black)
+  - Spotify (#1db954 green, #191414 dark)
+  - TikTok (#fe2c55 red, #25f4ee cyan)
+  - Snap (#fffc00 yellow, #000000 black)
+  - Pinterest (#e60023 red, #efefef gray)
+  - Reddit (#ff4500 orange, #1a1a1b dark)
+  - LinkedIn (#0a66c2 blue, #000000 black)
+  - X (#000000 black, #ffffff white)
+  - Electronic Arts (#ff4747 red, #000000 black)
+  - Activision Blizzard (#3c3c3c gray, #00aeff blue)
+  - Roblox (#e1061b red, #000000 black)
+
+**Files Created:**
+- `supabase/migrations/20260119000009_insert_media_entertainment_themes.sql`
+- `data/generated/themes/media-entertainment.json` (12 themes)
+
+**Verification:**
+- `npm run lint` - passes with no errors
+- `npm run type-check` - passes with no errors
+- `npm run build` - successful production build
+- `npm test` - theme tests pass (109 tests)
+- JSON file validated with jq (12 themes)
+- All acceptance criteria verified:
+  - Theme data for 12 Media/Entertainment companies
+  - Each company has: company_slug, logo_url, primary_color, secondary_color, industry_category
+  - Migration uses ON CONFLICT for upsert (updates existing themes)
