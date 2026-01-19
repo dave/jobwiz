@@ -1,0 +1,162 @@
+[
+  {
+    "company_slug": "walmart",
+    "fact_type": "founding",
+    "format": "quiz",
+    "question": "When was Walmart founded?",
+    "answer": "1962",
+    "options": [
+      "1954",
+      "1958",
+      "1968"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Walmart",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "walmart",
+    "fact_type": "founding",
+    "format": "flashcard",
+    "question": "Who founded Walmart?",
+    "answer": "Sam Walton",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Walmart",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "walmart",
+    "fact_type": "founding",
+    "format": "factoid",
+    "question": null,
+    "answer": "Walmart was founded in 1962 by Sam Walton.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Walmart",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "walmart",
+    "fact_type": "hq",
+    "format": "quiz",
+    "question": "Where is Walmart's headquarters located?",
+    "answer": "Bentonville, Arkansas",
+    "options": [
+      "Seattle, Washington",
+      "San Francisco, California",
+      "New York, New York"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Walmart",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "walmart",
+    "fact_type": "hq",
+    "format": "flashcard",
+    "question": "What city is Walmart headquartered in?",
+    "answer": "Bentonville, Arkansas",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Walmart",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "walmart",
+    "fact_type": "exec",
+    "format": "quiz",
+    "question": "Who is the current CEO of Walmart?",
+    "answer": "Doug McMillon",
+    "options": [
+      "Brian Cornell",
+      "Ron Vachris",
+      "Ted Decker"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Walmart",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "walmart",
+    "fact_type": "exec",
+    "format": "flashcard",
+    "question": "Who leads Walmart as CEO?",
+    "answer": "Doug McMillon",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Walmart",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "walmart",
+    "fact_type": "mission",
+    "format": "factoid",
+    "question": null,
+    "answer": "Walmart's mission is \"To save people money so they can live better\".",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Walmart",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "walmart",
+    "fact_type": "mission",
+    "format": "flashcard",
+    "question": "What is Walmart's mission statement?",
+    "answer": "To save people money so they can live better",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Walmart",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "walmart",
+    "fact_type": "product",
+    "format": "quiz",
+    "question": "Which of these is a Walmart product or service?",
+    "answer": "Walmart Stores",
+    "options": [
+      "E-commerce Platform",
+      "Warehouse Clubs",
+      "Consumer Electronics"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Walmart",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "walmart",
+    "fact_type": "product",
+    "format": "factoid",
+    "question": null,
+    "answer": "Walmart offers Walmart Stores, Walmart.com, Sam's Club, Walmart+.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Walmart",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "walmart",
+    "fact_type": "acquisition",
+    "format": "quiz",
+    "question": "Which company did Walmart acquire in 2018?",
+    "answer": "Flipkart",
+    "options": [
+      "Deliverr",
+      "6 River Systems",
+      "Oberlo"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Walmart",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "walmart",
+    "fact_type": "acquisition",
+    "format": "factoid",
+    "question": null,
+    "answer": "Walmart acquired Flipkart in 2018.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Walmart",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "walmart",
+    "fact_type": "acquisition",
+    "format": "flashcard",
+    "question": "In what year did Walmart acquire Jet.com?",
+    "answer": "2016",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Walmart",
+    "source_date": "2026-01-19"
+  }
+]

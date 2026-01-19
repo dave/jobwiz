@@ -1,0 +1,162 @@
+[
+  {
+    "company_slug": "nike",
+    "fact_type": "founding",
+    "format": "quiz",
+    "question": "When was Nike founded?",
+    "answer": "1964",
+    "options": [
+      "1956",
+      "1960",
+      "1970"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Nike,_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "nike",
+    "fact_type": "founding",
+    "format": "flashcard",
+    "question": "Who founded Nike?",
+    "answer": "Bill Bowerman and Phil Knight",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Nike,_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "nike",
+    "fact_type": "founding",
+    "format": "factoid",
+    "question": null,
+    "answer": "Nike was founded in 1964 by Bill Bowerman and Phil Knight.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Nike,_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "nike",
+    "fact_type": "hq",
+    "format": "quiz",
+    "question": "Where is Nike's headquarters located?",
+    "answer": "Beaverton, Oregon",
+    "options": [
+      "Seattle, Washington",
+      "San Francisco, California",
+      "New York, New York"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Nike,_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "nike",
+    "fact_type": "hq",
+    "format": "flashcard",
+    "question": "What city is Nike headquartered in?",
+    "answer": "Beaverton, Oregon",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Nike,_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "nike",
+    "fact_type": "exec",
+    "format": "quiz",
+    "question": "Who is the current CEO of Nike?",
+    "answer": "Elliott Hill",
+    "options": [
+      "Doug McMillon",
+      "Calvin McDonald",
+      "Brian Cornell"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Nike,_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "nike",
+    "fact_type": "exec",
+    "format": "flashcard",
+    "question": "Who leads Nike as CEO?",
+    "answer": "Elliott Hill",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Nike,_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "nike",
+    "fact_type": "mission",
+    "format": "factoid",
+    "question": null,
+    "answer": "Nike's mission is \"To bring inspiration and innovation to every athlete in the world\".",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Nike,_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "nike",
+    "fact_type": "mission",
+    "format": "flashcard",
+    "question": "What is Nike's mission statement?",
+    "answer": "To bring inspiration and innovation to every athlete in the world",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Nike,_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "nike",
+    "fact_type": "product",
+    "format": "quiz",
+    "question": "Which of these is a Nike product or service?",
+    "answer": "Athletic Footwear",
+    "options": [
+      "E-commerce Platform",
+      "Warehouse Clubs",
+      "Consumer Electronics"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Nike,_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "nike",
+    "fact_type": "product",
+    "format": "factoid",
+    "question": null,
+    "answer": "Nike offers Athletic Footwear, Athletic Apparel, Nike+, Air Jordan.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Nike,_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "nike",
+    "fact_type": "acquisition",
+    "format": "quiz",
+    "question": "Which company did Nike acquire in 2003?",
+    "answer": "Converse",
+    "options": [
+      "Deliverr",
+      "6 River Systems",
+      "Oberlo"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Nike,_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "nike",
+    "fact_type": "acquisition",
+    "format": "factoid",
+    "question": null,
+    "answer": "Nike acquired Converse in 2003.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Nike,_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "nike",
+    "fact_type": "acquisition",
+    "format": "flashcard",
+    "question": "In what year did Nike acquire Zodiac?",
+    "answer": "2018",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Nike,_Inc.",
+    "source_date": "2026-01-19"
+  }
+]

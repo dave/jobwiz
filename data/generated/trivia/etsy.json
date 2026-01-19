@@ -1,0 +1,162 @@
+[
+  {
+    "company_slug": "etsy",
+    "fact_type": "founding",
+    "format": "quiz",
+    "question": "When was Etsy founded?",
+    "answer": "2005",
+    "options": [
+      "2000",
+      "2003",
+      "2008"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Etsy",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "etsy",
+    "fact_type": "founding",
+    "format": "flashcard",
+    "question": "Who founded Etsy?",
+    "answer": "Rob Kalin and Chris Maguire and others",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Etsy",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "etsy",
+    "fact_type": "founding",
+    "format": "factoid",
+    "question": null,
+    "answer": "Etsy was founded in 2005 by Rob Kalin and Chris Maguire and others.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Etsy",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "etsy",
+    "fact_type": "hq",
+    "format": "quiz",
+    "question": "Where is Etsy's headquarters located?",
+    "answer": "Brooklyn, New York",
+    "options": [
+      "Seattle, Washington",
+      "San Francisco, California",
+      "New York, New York"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Etsy",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "etsy",
+    "fact_type": "hq",
+    "format": "flashcard",
+    "question": "What city is Etsy headquartered in?",
+    "answer": "Brooklyn, New York",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Etsy",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "etsy",
+    "fact_type": "exec",
+    "format": "quiz",
+    "question": "Who is the current CEO of Etsy?",
+    "answer": "Josh Silverman",
+    "options": [
+      "Tobias Lütke",
+      "Brian Cornell",
+      "Doug McMillon"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Etsy",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "etsy",
+    "fact_type": "exec",
+    "format": "flashcard",
+    "question": "Who leads Etsy as CEO?",
+    "answer": "Josh Silverman",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Etsy",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "etsy",
+    "fact_type": "mission",
+    "format": "factoid",
+    "question": null,
+    "answer": "Etsy's mission is \"To keep commerce human\".",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Etsy",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "etsy",
+    "fact_type": "mission",
+    "format": "flashcard",
+    "question": "What is Etsy's mission statement?",
+    "answer": "To keep commerce human",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Etsy",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "etsy",
+    "fact_type": "product",
+    "format": "quiz",
+    "question": "Which of these is a Etsy product or service?",
+    "answer": "Etsy Marketplace",
+    "options": [
+      "E-commerce Platform",
+      "Warehouse Clubs",
+      "Consumer Electronics"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Etsy",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "etsy",
+    "fact_type": "product",
+    "format": "factoid",
+    "question": null,
+    "answer": "Etsy offers Etsy Marketplace, Etsy Payments, Etsy Ads, Pattern.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Etsy",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "etsy",
+    "fact_type": "acquisition",
+    "format": "quiz",
+    "question": "Which company did Etsy acquire in 2021?",
+    "answer": "Depop",
+    "options": [
+      "Deliverr",
+      "6 River Systems",
+      "Oberlo"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Etsy",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "etsy",
+    "fact_type": "acquisition",
+    "format": "factoid",
+    "question": null,
+    "answer": "Etsy acquired Depop in 2021.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Etsy",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "etsy",
+    "fact_type": "acquisition",
+    "format": "flashcard",
+    "question": "In what year did Etsy acquire Elo7?",
+    "answer": "2021",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Etsy",
+    "source_date": "2026-01-19"
+  }
+]
