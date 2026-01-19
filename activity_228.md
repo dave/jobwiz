@@ -12,7 +12,7 @@ Fix content quality issues identified during manual review of interview prep mod
 - [x] #229 - Remove em-dashes from all modules
 
 ### Quiz Format Overhaul (#234)
-- [ ] #235 - Create ReflectionItem component
+- [x] #235 - Create ReflectionItem component
 - [ ] #236 - Add detection logic to QuizItem
 - [ ] #237 - Add tests
 - [ ] #238 - Visual QA
@@ -84,4 +84,46 @@ Fix content quality issues identified during manual review of interview prep mod
 - `npm run type-check` - passes
 - `npm run build` - successful
 - `npm test -- --testPathPattern="modules"` - 77 tests pass
+
+### 2026-01-19 - Issue #235: Create ReflectionItem component
+
+**Completed:**
+- Created `src/components/carousel/items/ReflectionItem.tsx` component
+- Component displays "Demonstrate..." quizzes as reflection/guidance format
+- Layout sections:
+  - 💭 Interview Question (blue) - prominent question display with quotes
+  - ✓ What to Demonstrate (green) - correct answer shown as guidance
+  - ⚠ Common Mistakes to Avoid (amber) - incorrect answers as bullet list
+  - 💡 Tip (purple) - explanation text
+- Continue button calls `onComplete` callback
+- Exported from `src/components/carousel/items/index.ts`
+
+**Files Created:**
+- `src/components/carousel/items/ReflectionItem.tsx`
+- `src/components/carousel/items/__tests__/ReflectionItem.test.tsx`
+
+**Tests:**
+- 33 unit tests covering:
+  - Rendering (question, sections, labels, buttons)
+  - Without explanation (no Tip section)
+  - Without correct answer (no What to Demonstrate section)
+  - onComplete callback
+  - Accessibility (ARIA labels on all regions)
+  - Styling (correct color backgrounds)
+  - Layout (min-height, centered, max-width)
+  - Edge cases (single incorrect, only correct, empty options, long text, special chars)
+
+**Verification:**
+- `npm run lint` - passes
+- `npm run type-check` - passes
+- `npm run build` - successful
+- `npm test -- --testPathPattern="ReflectionItem"` - 33 tests pass
+
+**Acceptance Criteria:**
+- ✅ Component renders question prominently
+- ✅ Correct answer shown as "What to demonstrate"
+- ✅ Wrong answers shown as "Common mistakes" bullets
+- ✅ Explanation shown as tip
+- ✅ Styling matches other carousel items (Tailwind, centered, responsive)
+- ✅ Accessible (proper ARIA, keyboard nav)
 
