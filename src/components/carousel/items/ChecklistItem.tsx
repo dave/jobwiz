@@ -32,7 +32,7 @@ const CheckIcon = () => (
 
 const ClipboardIcon = () => (
   <svg
-    className="h-8 w-8 shrink-0"
+    className="h-5 w-5 sm:h-7 sm:w-7 shrink-0"
     fill="none"
     stroke="currentColor"
     viewBox="0 0 24 24"
@@ -78,8 +78,8 @@ export function ChecklistItem({ block, onComplete, className }: ChecklistItemPro
   return (
     <div
       className={cn(
-        "flex flex-col items-center justify-center min-h-[50vh]",
-        "px-4 py-8",
+        "flex flex-col items-center justify-center min-h-[40vh] sm:min-h-[50vh]",
+        "px-3 sm:px-4 py-6 sm:py-8",
         className
       )}
     >
@@ -87,28 +87,28 @@ export function ChecklistItem({ block, onComplete, className }: ChecklistItemPro
         className={cn(
           "w-full max-w-2xl",
           "bg-blue-50 border-2 border-blue-200 rounded-2xl",
-          "p-8 sm:p-10"
+          "p-5 sm:p-8"
         )}
         role="group"
         aria-label={block.title || "Checklist"}
       >
-        <div className="flex items-start gap-4 sm:gap-6">
-          <div className="flex items-center justify-center w-14 h-14 rounded-full bg-blue-100 text-blue-600">
+        <div className="flex items-start gap-3 sm:gap-4">
+          <div className="flex items-center justify-center w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-blue-100 text-blue-600 shrink-0">
             <ClipboardIcon />
           </div>
-          <div className="flex-1">
+          <div className="flex-1 min-w-0">
             {block.title && (
-              <h3 className="text-lg font-semibold text-blue-900 mb-4">
+              <h3 className="text-base sm:text-lg font-semibold text-blue-900 mb-3 sm:mb-4">
                 {block.title}
               </h3>
             )}
-            <ul className="space-y-3">
+            <ul className="space-y-2 sm:space-y-3">
               {block.items.map((item) => (
                 <li key={item.id}>
                   <label
                     className={cn(
-                      "flex items-start gap-3 cursor-pointer group",
-                      "p-3 rounded-lg transition-colors",
+                      "flex items-start gap-2.5 sm:gap-3 cursor-pointer group",
+                      "p-2 sm:p-3 rounded-lg transition-colors",
                       checkedItems.has(item.id)
                         ? "bg-blue-100"
                         : "hover:bg-blue-100/50"
@@ -116,7 +116,7 @@ export function ChecklistItem({ block, onComplete, className }: ChecklistItemPro
                   >
                     <div
                       className={cn(
-                        "flex-shrink-0 w-6 h-6 mt-0.5 rounded border-2 transition-colors",
+                        "flex-shrink-0 w-5 h-5 sm:w-6 sm:h-6 mt-0.5 rounded border-2 transition-colors",
                         "flex items-center justify-center",
                         checkedItems.has(item.id)
                           ? "bg-blue-600 border-blue-600 text-white"
@@ -135,13 +135,13 @@ export function ChecklistItem({ block, onComplete, className }: ChecklistItemPro
                     <span
                       id={`item-${item.id}-text`}
                       className={cn(
-                        "text-lg text-blue-900 leading-relaxed",
+                        "text-base sm:text-lg text-blue-900 leading-relaxed",
                         checkedItems.has(item.id) && "line-through opacity-70"
                       )}
                     >
                       {item.text}
                       {item.required === false && (
-                        <span className="ml-2 text-sm text-blue-500 font-medium">
+                        <span className="ml-1.5 sm:ml-2 text-xs sm:text-sm text-blue-500 font-medium">
                           (optional)
                         </span>
                       )}
@@ -151,8 +151,8 @@ export function ChecklistItem({ block, onComplete, className }: ChecklistItemPro
               ))}
             </ul>
             {requiredItems.length > 0 && (
-              <div className="mt-4 pt-4 border-t border-blue-200">
-                <p className="text-sm text-blue-700">
+              <div className="mt-3 sm:mt-4 pt-3 sm:pt-4 border-t border-blue-200">
+                <p className="text-xs sm:text-sm text-blue-700">
                   {allRequiredChecked ? (
                     <span className="flex items-center gap-2">
                       <CheckIcon />
