@@ -148,8 +148,18 @@ function buildModuleDisplayInfo(
 ): ModuleDisplayInfo[] {
   const result: ModuleDisplayInfo[] = [];
   let cumulativeIndex = 0;
+  let hasSeenPremium = false;
+
+  // Check if there are any premium modules (which means there's a paywall)
+  const hasPremiumModules = modules.some((m) => m.isPremium);
 
   for (const mod of modules) {
+    // Account for paywall item when transitioning from free to premium modules
+    if (hasPremiumModules && mod.isPremium && !hasSeenPremium) {
+      hasSeenPremium = true;
+      cumulativeIndex += 1; // Add 1 for the paywall item
+    }
+
     const moduleItemCount = getModuleItemCount(mod);
     const moduleStartIndex = cumulativeIndex;
     const moduleEndIndex = cumulativeIndex + moduleItemCount;

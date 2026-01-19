@@ -209,8 +209,14 @@ export function CarouselProvider({
   }, [companySlug, roleSlug, currentIndex, completedItems]);
 
   // Supabase sync: Load from Supabase on mount (once)
+  // Skip if initialIndex was explicitly provided (e.g., from URL ?start= param)
   useEffect(() => {
     if (!enableSupabaseSync || supabaseLoadedRef.current) return;
+    if (initialIndex !== undefined) {
+      // Don't override explicit starting position
+      supabaseLoadedRef.current = true;
+      return;
+    }
     supabaseLoadedRef.current = true;
 
     const localProgress = loadPersistedProgress(companySlug, roleSlug);
@@ -223,7 +229,7 @@ export function CarouselProvider({
         setCompletedItems(new Set(remoteProgress.completedItems));
       }
     });
-  }, [companySlug, roleSlug, enableSupabaseSync]);
+  }, [companySlug, roleSlug, enableSupabaseSync, initialIndex]);
 
   // Supabase sync: Save to Supabase on state changes (debounced 1 second)
   useEffect(() => {
