@@ -3290,3 +3290,38 @@ All Stage 5 (Launch) code issues are now closed:
 - Quiz items have exactly 3 wrong options
 - All items have source_url and source_date
 
+
+### 2026-01-18 - Issue #94: Expand company themes: Big Tech batch
+
+**Completed:**
+- Created Supabase migration for Big Tech company themes
+- Created JSON theme data file for content loader
+- Added brand colors and logos for 12 Big Tech companies:
+  - Google (#4285f4 blue, #34a853 green)
+  - Meta (#0866ff blue, #1877f2 dark blue)
+  - Amazon (#ff9900 orange, #232f3e dark)
+  - Apple (#000000 black, #86868b gray)
+  - Microsoft (#00a4ef blue, #737373 gray)
+  - Netflix (#e50914 red, #221f1f dark)
+  - NVIDIA (#76b900 green, #000000 black)
+  - Intel (#0071c5 blue, #00c7fd light blue)
+  - AMD (#ed1c24 red, #1a1a1d dark)
+  - Cisco (#049fd9 blue, #005073 navy)
+  - Tesla (#e82127 red, #000000 black)
+  - Adobe (#ff0000 red, #fa0f00 dark red)
+
+**Files Created:**
+- `supabase/migrations/20260119000002_insert_big_tech_themes.sql`
+- `data/generated/themes/big-tech.json` (12 themes)
+
+**Verification:**
+- `npm run lint` - passes with no errors
+- `npm run type-check` - passes with no errors
+- `npm run build` - successful production build
+- `npm test` - theme tests pass (109 tests)
+- JSON file validated with jq
+- All acceptance criteria verified:
+  - Theme data for 12 Big Tech companies
+  - Each company has: company_slug, logo_url, primary_color, secondary_color, industry_category
+  - Migration uses ON CONFLICT for upsert (updates existing themes)
+

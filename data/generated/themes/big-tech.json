@@ -1,0 +1,90 @@
+{
+  "batch": "Big Tech",
+  "generated_at": "2026-01-18",
+  "themes": [
+    {
+      "company_slug": "google",
+      "logo_url": "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png",
+      "primary_color": "#4285f4",
+      "secondary_color": "#34a853",
+      "industry_category": "Big Tech"
+    },
+    {
+      "company_slug": "meta",
+      "logo_url": "https://about.meta.com/brand/resources/facebookapp/logo/",
+      "primary_color": "#0866ff",
+      "secondary_color": "#1877f2",
+      "industry_category": "Big Tech"
+    },
+    {
+      "company_slug": "amazon",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg",
+      "primary_color": "#ff9900",
+      "secondary_color": "#232f3e",
+      "industry_category": "Big Tech"
+    },
+    {
+      "company_slug": "apple",
+      "logo_url": "https://www.apple.com/ac/globalnav/7/en_US/images/be15095f-5a20-57d0-ad14-cf4c638e223a/globalnav_apple_image__b5er5ngrzxqq_large.svg",
+      "primary_color": "#000000",
+      "secondary_color": "#86868b",
+      "industry_category": "Big Tech"
+    },
+    {
+      "company_slug": "microsoft",
+      "logo_url": "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b",
+      "primary_color": "#00a4ef",
+      "secondary_color": "#737373",
+      "industry_category": "Big Tech"
+    },
+    {
+      "company_slug": "netflix",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg",
+      "primary_color": "#e50914",
+      "secondary_color": "#221f1f",
+      "industry_category": "Big Tech"
+    },
+    {
+      "company_slug": "nvidia",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Nvidia_logo.svg",
+      "primary_color": "#76b900",
+      "secondary_color": "#000000",
+      "industry_category": "Big Tech"
+    },
+    {
+      "company_slug": "intel",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Intel-logo.svg",
+      "primary_color": "#0071c5",
+      "secondary_color": "#00c7fd",
+      "industry_category": "Big Tech"
+    },
+    {
+      "company_slug": "amd",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/AMD_Logo.svg",
+      "primary_color": "#ed1c24",
+      "secondary_color": "#1a1a1d",
+      "industry_category": "Big Tech"
+    },
+    {
+      "company_slug": "cisco",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Cisco_logo.svg",
+      "primary_color": "#049fd9",
+      "secondary_color": "#005073",
+      "industry_category": "Big Tech"
+    },
+    {
+      "company_slug": "tesla",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Tesla_T_symbol.svg",
+      "primary_color": "#e82127",
+      "secondary_color": "#000000",
+      "industry_category": "Big Tech"
+    },
+    {
+      "company_slug": "adobe",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Adobe_Corporate_Logo.svg",
+      "primary_color": "#ff0000",
+      "secondary_color": "#fa0f00",
+      "industry_category": "Big Tech"
+    }
+  ]
+}
