@@ -17,7 +17,7 @@ Clean up generated module content to remove low-quality scraped data, placeholde
   - [x] #213 - Healthcare/Biotech batch
   - [x] #214 - Enterprise SaaS batch
   - [x] #215 - Media/Entertainment batch
-  - [ ] #216 - Other companies batch
+  - [x] #216 - Other companies batch
 
 ---
 
@@ -232,6 +232,60 @@ Clean up generated module content to remove low-quality scraped data, placeholde
 
 **Verification:**
 - All 5 JSON files valid
+- `npm run lint` - passes
+- `npm run build` - passes
+
+## 2026-01-19 - Issue #216: Content review: Final batch (remaining companies)
+
+**Completed:**
+- Reviewed all 20 remaining company modules not covered by previous batches
+- Cleaned modules with garbage Reddit scrapes and inappropriate tech-focused content:
+  - Most modules had "Key cultural themes" containing generic tech-interview terms like "System design emphasis", "Heavy focus on coding" instead of actual company culture
+  - Most modules had garbage Reddit scrapes in "Common Interview Questions" and "Insider Tips" sections
+- Replaced with proper company-specific content for:
+  - `company-adobe.json` - Culture focused on "Genuine, exceptional, innovative, involved" values, creativity and design
+  - `company-amd.json` - Culture focused on semiconductor engineering excellence, competition with Intel/NVIDIA
+  - `company-block.json` - Culture focused on economic empowerment, fintech, serving underserved communities
+  - `company-cisco.json` - Culture focused on networking infrastructure, certifications (CCNA/CCNP), security
+  - `company-dropbox.json` - Culture focused on Virtual First remote work, distributed file storage
+  - `company-ibm.json` - Culture focused on enterprise AI, hybrid cloud transformation, Watson
+  - `company-intel.json` - Culture focused on constructive confrontation, Moore's Law heritage, chip design
+  - `company-linkedin.json` - Culture focused on economic opportunity mission, members-first approach
+  - `company-nike.json` - Culture focused on "Just Do It" mentality, sports passion, Nike Maxims
+  - `company-oracle.json` - Culture focused on database heritage, OCI cloud, enterprise software
+  - `company-palantir.json` - Already clean, no changes needed
+  - `company-pinterest.json` - Culture focused on inspiration mission, visual discovery, curation
+  - `company-reddit.json` - Culture focused on "Remember the Human", community-first, open culture
+  - `company-sap.json` - Culture focused on "Help the world run better", ERP systems, S/4HANA
+  - `company-snap.json` - Culture focused on camera company identity, AR features, Gen Z
+  - `company-tesla.json` - Culture focused on sustainable energy mission, first principles, demanding environment
+  - `company-vmware.json` - Culture focused on virtualization pioneer, Broadcom acquisition, containers/Kubernetes
+  - `company-wbd.json` - Already clean (minimal content but no garbage)
+  - `company-x.json` - Culture focused on Twitter transformation, real-time systems, fast-paced environment
+  - `company-zendesk.json` - Culture focused on customer service excellence, Humblident values
+
+**Files Modified:**
+- `data/generated/modules/company-adobe.json`
+- `data/generated/modules/company-amd.json`
+- `data/generated/modules/company-block.json`
+- `data/generated/modules/company-cisco.json`
+- `data/generated/modules/company-dropbox.json`
+- `data/generated/modules/company-ibm.json`
+- `data/generated/modules/company-intel.json`
+- `data/generated/modules/company-linkedin.json`
+- `data/generated/modules/company-nike.json`
+- `data/generated/modules/company-oracle.json`
+- `data/generated/modules/company-pinterest.json`
+- `data/generated/modules/company-reddit.json`
+- `data/generated/modules/company-sap.json`
+- `data/generated/modules/company-snap.json`
+- `data/generated/modules/company-tesla.json`
+- `data/generated/modules/company-vmware.json`
+- `data/generated/modules/company-x.json`
+- `data/generated/modules/company-zendesk.json`
+
+**Verification:**
+- All 20 JSON files valid
 - `npm run lint` - passes
 - `npm run build` - passes
 
