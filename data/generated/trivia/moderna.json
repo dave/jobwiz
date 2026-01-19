@@ -1,0 +1,128 @@
+[
+  {
+    "company_slug": "moderna",
+    "fact_type": "founding",
+    "format": "quiz",
+    "question": "When was Moderna founded?",
+    "answer": "2010",
+    "options": [
+      "2005",
+      "2008",
+      "2013"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Moderna",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "moderna",
+    "fact_type": "founding",
+    "format": "flashcard",
+    "question": "Who founded Moderna?",
+    "answer": "Derrick Rossi and Timothy Springer and others",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Moderna",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "moderna",
+    "fact_type": "founding",
+    "format": "factoid",
+    "question": null,
+    "answer": "Moderna was founded in 2010 by Derrick Rossi and Timothy Springer and others.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Moderna",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "moderna",
+    "fact_type": "hq",
+    "format": "quiz",
+    "question": "Where is Moderna's headquarters located?",
+    "answer": "Cambridge, Massachusetts",
+    "options": [
+      "New York City, New York",
+      "San Francisco, California",
+      "Boston, Massachusetts"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Moderna",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "moderna",
+    "fact_type": "hq",
+    "format": "flashcard",
+    "question": "What city is Moderna headquartered in?",
+    "answer": "Cambridge, Massachusetts",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Moderna",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "moderna",
+    "fact_type": "exec",
+    "format": "quiz",
+    "question": "Who is the current CEO of Moderna?",
+    "answer": "Stephane Bancel",
+    "options": [
+      "Albert Bourla",
+      "Joaquin Duato",
+      "David Feinberg"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Moderna",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "moderna",
+    "fact_type": "exec",
+    "format": "flashcard",
+    "question": "Who leads Moderna as CEO?",
+    "answer": "Stephane Bancel",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Moderna",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "moderna",
+    "fact_type": "mission",
+    "format": "factoid",
+    "question": null,
+    "answer": "Moderna's mission is \"To deliver on the promise of mRNA science to create a new generation of transformative medicines for patients\".",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Moderna",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "moderna",
+    "fact_type": "mission",
+    "format": "flashcard",
+    "question": "What is Moderna's mission statement?",
+    "answer": "To deliver on the promise of mRNA science to create a new generation of transformative medicines for patients",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Moderna",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "moderna",
+    "fact_type": "product",
+    "format": "quiz",
+    "question": "Which of these is a Moderna product or service?",
+    "answer": "Spikevax (COVID-19 vaccine)",
+    "options": [
+      "EpicCare",
+      "MyChart",
+      "PowerChart"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Moderna",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "moderna",
+    "fact_type": "product",
+    "format": "factoid",
+    "question": null,
+    "answer": "Moderna offers Spikevax (COVID-19 vaccine), mRNA-1273, mRNA Flu Vaccine, RSV Vaccine.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Moderna",
+    "source_date": "2026-01-19"
+  }
+]

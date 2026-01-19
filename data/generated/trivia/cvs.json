@@ -1,0 +1,162 @@
+[
+  {
+    "company_slug": "cvs",
+    "fact_type": "founding",
+    "format": "quiz",
+    "question": "When was CVS Health founded?",
+    "answer": "1963",
+    "options": [
+      "1955",
+      "1959",
+      "1969"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/CVS_Health",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "cvs",
+    "fact_type": "founding",
+    "format": "flashcard",
+    "question": "Who founded CVS Health?",
+    "answer": "Stanley Goldstein and Sidney Goldstein and others",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/CVS_Health",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "cvs",
+    "fact_type": "founding",
+    "format": "factoid",
+    "question": null,
+    "answer": "CVS Health was founded in 1963 by Stanley Goldstein and Sidney Goldstein and others.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/CVS_Health",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "cvs",
+    "fact_type": "hq",
+    "format": "quiz",
+    "question": "Where is CVS Health's headquarters located?",
+    "answer": "Woonsocket, Rhode Island",
+    "options": [
+      "New York City, New York",
+      "San Francisco, California",
+      "Boston, Massachusetts"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/CVS_Health",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "cvs",
+    "fact_type": "hq",
+    "format": "flashcard",
+    "question": "What city is CVS Health headquartered in?",
+    "answer": "Woonsocket, Rhode Island",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/CVS_Health",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "cvs",
+    "fact_type": "exec",
+    "format": "quiz",
+    "question": "Who is the current CEO of CVS Health?",
+    "answer": "Karen Lynch",
+    "options": [
+      "Andrew Witty",
+      "Albert Bourla",
+      "Joaquin Duato"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/CVS_Health",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "cvs",
+    "fact_type": "exec",
+    "format": "flashcard",
+    "question": "Who leads CVS Health as CEO?",
+    "answer": "Karen Lynch",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/CVS_Health",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "cvs",
+    "fact_type": "mission",
+    "format": "factoid",
+    "question": null,
+    "answer": "CVS Health's mission is \"To help people on their path to better health\".",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/CVS_Health",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "cvs",
+    "fact_type": "mission",
+    "format": "flashcard",
+    "question": "What is CVS Health's mission statement?",
+    "answer": "To help people on their path to better health",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/CVS_Health",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "cvs",
+    "fact_type": "product",
+    "format": "quiz",
+    "question": "Which of these is a CVS Health product or service?",
+    "answer": "CVS Pharmacy",
+    "options": [
+      "EpicCare",
+      "MyChart",
+      "PowerChart"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/CVS_Health",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "cvs",
+    "fact_type": "product",
+    "format": "factoid",
+    "question": null,
+    "answer": "CVS Health offers CVS Pharmacy, CVS Caremark, Aetna, MinuteClinic.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/CVS_Health",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "cvs",
+    "fact_type": "acquisition",
+    "format": "quiz",
+    "question": "Which company did CVS Health acquire in 2018?",
+    "answer": "Aetna",
+    "options": [
+      "Caremark",
+      "Signify Health",
+      "Actelion"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/CVS_Health",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "cvs",
+    "fact_type": "acquisition",
+    "format": "factoid",
+    "question": null,
+    "answer": "CVS Health acquired Aetna in 2018.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/CVS_Health",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "cvs",
+    "fact_type": "acquisition",
+    "format": "flashcard",
+    "question": "In what year did CVS Health acquire Caremark?",
+    "answer": "2007",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/CVS_Health",
+    "source_date": "2026-01-19"
+  }
+]

@@ -3136,3 +3136,52 @@ All Stage 5 (Launch) code issues are now closed:
 - Quiz items have exactly 3 wrong options
 - All items have source_url and source_date
 
+### 2026-01-19 - Issue #91: Generate company trivia: Healthcare/Biotech batch
+
+**Completed:**
+- Created trivia generation script `/scripts/generate-trivia-healthcare.ts`
+- Generated trivia for 10 Healthcare/Biotech companies:
+  - Epic Systems, Cerner, Optum, UnitedHealth Group, CVS Health
+  - Johnson & Johnson, Pfizer, Moderna, Illumina, Genentech
+- Generated 131 trivia items total (11-14 items per company)
+- Output files in `/data/generated/trivia/{company}.json`
+
+**Trivia Types Generated:**
+- Founding (quiz, flashcard, factoid)
+- Headquarters (quiz, flashcard)
+- CEO/Executive (quiz, flashcard)
+- Mission statement (factoid, flashcard)
+- Products (quiz, factoid)
+- Acquisitions (quiz, factoid, flashcard)
+
+**Format per Item:**
+- `company_slug` - company identifier
+- `fact_type` - founding, hq, mission, product, news, exec, acquisition
+- `format` - quiz, flashcard, factoid
+- `question` - question text (null for factoids)
+- `answer` - correct answer
+- `options` - 3 wrong answers (for quiz format only)
+- `source_url` - Wikipedia source link
+- `source_date` - date of generation
+
+**Files Created:**
+- `scripts/generate-trivia-healthcare.ts` - trivia generation script
+- `data/generated/trivia/epic.json` (11 items)
+- `data/generated/trivia/cerner.json` (14 items)
+- `data/generated/trivia/optum.json` (14 items)
+- `data/generated/trivia/unitedhealth.json` (14 items)
+- `data/generated/trivia/cvs.json` (14 items)
+- `data/generated/trivia/johnson-johnson.json` (14 items)
+- `data/generated/trivia/pfizer.json` (14 items)
+- `data/generated/trivia/moderna.json` (11 items)
+- `data/generated/trivia/illumina.json` (14 items)
+- `data/generated/trivia/genentech.json` (11 items)
+
+**Verification:**
+- `npm run lint` - passes with no errors
+- `npm run type-check` - passes with no errors
+- `npm run build` - successful production build
+- All trivia files conform to expected schema
+- Quiz items have exactly 3 wrong options
+- All items have source_url and source_date
+

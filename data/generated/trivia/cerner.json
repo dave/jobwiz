@@ -1,0 +1,162 @@
+[
+  {
+    "company_slug": "cerner",
+    "fact_type": "founding",
+    "format": "quiz",
+    "question": "When was Cerner founded?",
+    "answer": "1979",
+    "options": [
+      "1971",
+      "1975",
+      "1985"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Cerner",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "cerner",
+    "fact_type": "founding",
+    "format": "flashcard",
+    "question": "Who founded Cerner?",
+    "answer": "Neal Patterson and Paul Gorup and others",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Cerner",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "cerner",
+    "fact_type": "founding",
+    "format": "factoid",
+    "question": null,
+    "answer": "Cerner was founded in 1979 by Neal Patterson and Paul Gorup and others.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Cerner",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "cerner",
+    "fact_type": "hq",
+    "format": "quiz",
+    "question": "Where is Cerner's headquarters located?",
+    "answer": "North Kansas City, Missouri",
+    "options": [
+      "New York City, New York",
+      "San Francisco, California",
+      "Boston, Massachusetts"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Cerner",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "cerner",
+    "fact_type": "hq",
+    "format": "flashcard",
+    "question": "What city is Cerner headquartered in?",
+    "answer": "North Kansas City, Missouri",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Cerner",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "cerner",
+    "fact_type": "exec",
+    "format": "quiz",
+    "question": "Who is the current CEO of Cerner?",
+    "answer": "David Feinberg",
+    "options": [
+      "Judith Faulkner",
+      "Karen Lynch",
+      "Albert Bourla"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Cerner",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "cerner",
+    "fact_type": "exec",
+    "format": "flashcard",
+    "question": "Who leads Cerner as CEO?",
+    "answer": "David Feinberg",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Cerner",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "cerner",
+    "fact_type": "mission",
+    "format": "factoid",
+    "question": null,
+    "answer": "Cerner's mission is \"To connect every person at every step of their health journey\".",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Cerner",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "cerner",
+    "fact_type": "mission",
+    "format": "flashcard",
+    "question": "What is Cerner's mission statement?",
+    "answer": "To connect every person at every step of their health journey",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Cerner",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "cerner",
+    "fact_type": "product",
+    "format": "quiz",
+    "question": "Which of these is a Cerner product or service?",
+    "answer": "PowerChart",
+    "options": [
+      "EpicCare",
+      "MyChart",
+      "OptumRx"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Cerner",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "cerner",
+    "fact_type": "product",
+    "format": "factoid",
+    "question": null,
+    "answer": "Cerner offers PowerChart, HealtheIntent, CommunityWorks, Revenue Cycle Management.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Cerner",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "cerner",
+    "fact_type": "acquisition",
+    "format": "quiz",
+    "question": "Which company did Cerner acquire in 2015?",
+    "answer": "Siemens Health Services",
+    "options": [
+      "Aetna",
+      "Caremark",
+      "Signify Health"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Cerner",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "cerner",
+    "fact_type": "acquisition",
+    "format": "factoid",
+    "question": null,
+    "answer": "Cerner acquired Siemens Health Services in 2015.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Cerner",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "cerner",
+    "fact_type": "acquisition",
+    "format": "flashcard",
+    "question": "In what year did Cerner acquire Health Catalyst?",
+    "answer": "2019",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Cerner",
+    "source_date": "2026-01-19"
+  }
+]
