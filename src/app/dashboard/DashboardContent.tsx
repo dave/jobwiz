@@ -13,13 +13,46 @@ import { useRequireAuth, useAuthContext } from "@/lib/auth";
 import Link from "next/link";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
-import { useState } from "react";
+import { useState, useEffect } from "react";
+
+interface Purchase {
+  id: string;
+  companySlug: string | null;
+  roleSlug: string | null;
+  companyName: string;
+  roleName: string;
+  grantedAt: string;
+  expiresAt: string;
+}
 
 export function DashboardContent() {
   const { user, loading, error } = useRequireAuth();
   const { signOut } = useAuthContext();
   const router = useRouter();
   const [signingOut, setSigningOut] = useState(false);
+  const [purchases, setPurchases] = useState<Purchase[]>([]);
+  const [purchasesLoading, setPurchasesLoading] = useState(true);
+
+  // Fetch purchases
+  useEffect(() => {
+    async function fetchPurchases() {
+      try {
+        const res = await fetch("/api/purchases");
+        if (res.ok) {
+          const data = await res.json();
+          setPurchases(data.purchases ?? []);
+        }
+      } catch {
+        // Fail silently
+      } finally {
+        setPurchasesLoading(false);
+      }
+    }
+
+    if (user) {
+      fetchPurchases();
+    }
+  }, [user]);
 
   async function handleSignOut() {
     try {
@@ -115,7 +148,7 @@ export function DashboardContent() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {/* Quick Actions */}
           <div className="bg-white shadow rounded-lg p-6">
             <h3 className="text-md font-semibold text-gray-900 mb-3">
@@ -149,26 +182,43 @@ export function DashboardContent() {
             </ul>
           </div>
 
-          {/* Recent Activity */}
-          <div className="bg-white shadow rounded-lg p-6">
-            <h3 className="text-md font-semibold text-gray-900 mb-3">
-              Recent Activity
-            </h3>
-            <p className="text-gray-500 text-sm">No recent activity yet.</p>
-            <p className="text-gray-400 text-sm mt-2">
-              Start exploring interview prep materials to track your progress.
-            </p>
-          </div>
-
           {/* Purchased Content */}
           <div className="bg-white shadow rounded-lg p-6">
             <h3 className="text-md font-semibold text-gray-900 mb-3">
               Your Purchases
             </h3>
-            <p className="text-gray-500 text-sm">No purchases yet.</p>
-            <p className="text-gray-400 text-sm mt-2">
-              Purchase premium content to unlock full interview preparation guides.
-            </p>
+            {purchasesLoading ? (
+              <p className="text-gray-500 text-sm">Loading purchases...</p>
+            ) : purchases.length === 0 ? (
+              <>
+                <p className="text-gray-500 text-sm">No purchases yet.</p>
+                <p className="text-gray-400 text-sm mt-2">
+                  Purchase premium content to unlock full interview preparation guides.
+                </p>
+              </>
+            ) : (
+              <ul className="space-y-3">
+                {purchases.map((purchase) => (
+                  <li key={purchase.id}>
+                    <Link
+                      href={
+                        purchase.companySlug && purchase.roleSlug
+                          ? `/${purchase.companySlug}/${purchase.roleSlug}/journey`
+                          : "/"
+                      }
+                      className="block p-3 rounded-lg border border-gray-200 hover:border-blue-300 hover:bg-blue-50 transition-colors"
+                    >
+                      <div className="font-medium text-gray-900">
+                        {purchase.companyName} {purchase.roleName}
+                      </div>
+                      <div className="text-xs text-gray-500 mt-1">
+                        Purchased {new Date(purchase.grantedAt).toLocaleDateString()}
+                      </div>
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            )}
           </div>
         </div>
       </main>
