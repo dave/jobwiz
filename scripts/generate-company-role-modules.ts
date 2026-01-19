@@ -318,19 +318,17 @@ function generateBehavioralSection(
     },
   });
 
-  // Select 3-5 questions for quizzes
-  const selectedQuestions = questions.slice(0, 5);
-
-  if (selectedQuestions.length > 0) {
+  // Use ALL questions from this category
+  if (questions.length > 0) {
     blocks.push({
       type: "tip",
       content: {
-        text: `**Key Focus Areas:** ${extractKeyThemes(selectedQuestions).join(", ")}. Prepare specific examples for each area.`,
+        text: `**Key Focus Areas:** ${extractKeyThemes(questions).join(", ")}. Prepare specific examples for each area.`,
       },
     });
 
-    // Add quiz blocks
-    for (const q of selectedQuestions.slice(0, 4)) {
+    // Add quiz blocks for ALL questions in category
+    for (const q of questions) {
       blocks.push(createQuizBlock(q));
     }
   }
@@ -360,19 +358,18 @@ function generateTechnicalSection(
     },
   });
 
-  const selectedQuestions = questions.slice(0, 5);
-
-  if (selectedQuestions.length > 0) {
+  // Use ALL questions from this category
+  if (questions.length > 0) {
     // Add a tip about technical preparation
     blocks.push({
       type: "tip",
       content: {
-        text: `**Technical Areas to Prepare:** ${extractKeyThemes(selectedQuestions).join(", ")}. Review fundamentals and practice explaining complex concepts clearly.`,
+        text: `**Technical Areas to Prepare:** ${extractKeyThemes(questions).join(", ")}. Review fundamentals and practice explaining complex concepts clearly.`,
       },
     });
 
-    // Add quiz blocks
-    for (const q of selectedQuestions.slice(0, 4)) {
+    // Add quiz blocks for ALL questions in category
+    for (const q of questions) {
       blocks.push(createQuizBlock(q));
     }
   } else {
@@ -409,9 +406,8 @@ function generateCultureSection(
     },
   });
 
-  const selectedQuestions = questions.slice(0, 5);
-
-  if (selectedQuestions.length > 0) {
+  // Use ALL questions from this category
+  if (questions.length > 0) {
     blocks.push({
       type: "warning",
       content: {
@@ -419,8 +415,8 @@ function generateCultureSection(
       },
     });
 
-    // Add quiz blocks
-    for (const q of selectedQuestions.slice(0, 3)) {
+    // Add quiz blocks for ALL questions in category
+    for (const q of questions) {
       blocks.push(createQuizBlock(q));
     }
   }
@@ -450,9 +446,8 @@ function generateCurveballSection(
     },
   });
 
-  const selectedQuestions = questions.slice(0, 4);
-
-  if (selectedQuestions.length > 0) {
+  // Use ALL questions from this category
+  if (questions.length > 0) {
     blocks.push({
       type: "tip",
       content: {
@@ -460,8 +455,8 @@ function generateCurveballSection(
       },
     });
 
-    // Add quiz blocks
-    for (const q of selectedQuestions.slice(0, 3)) {
+    // Add quiz blocks for ALL questions in category
+    for (const q of questions) {
       blocks.push(createQuizBlock(q));
     }
   }

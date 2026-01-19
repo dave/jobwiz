@@ -139,6 +139,35 @@
             ],
             "explanation": "Asana operates in uncertainty constantly. The interviewer is testing your comfort with ambiguity: Do you freeze without perfect data, or can you move forward thoughtfully? They're also watching for judgment - did you gather the RIGHT information, not just MORE information? The meta-question is: d..."
           }
+        },
+        {
+          "type": "quiz",
+          "content": {
+            "question": "Give me an example of a time you had to work with someone difficult. How did you handle it?",
+            "options": [
+              {
+                "id": "a",
+                "text": "Making the other person the villain",
+                "isCorrect": false
+              },
+              {
+                "id": "b",
+                "text": "Escalating to management too quickly",
+                "isCorrect": false
+              },
+              {
+                "id": "c",
+                "text": "Demonstrate emotional intelligence, empathy for difficult colleagues, and constructive approach to challenges",
+                "isCorrect": true
+              },
+              {
+                "id": "d",
+                "text": "No empathy for their perspective",
+                "isCorrect": false
+              }
+            ],
+            "explanation": "The interviewer is probing your interpersonal skills and emotional intelligence. Asana values collaboration, but they know not everyone is easy to work with. They're watching for: Do you dismiss difficult people or try to understand them? Can you separate the person from the behavior? Do you take..."
+          }
         }
       ]
     },
@@ -273,6 +302,35 @@
             ],
             "explanation": "This is a classic data structure problem that tests whether you can combine multiple concepts. Asana is evaluating: Do you understand WHY this requires a hash map + doubly-linked list? Can you implement clean code under time pressure? Do you handle edge cases like capacity limits and key updates?..."
           }
+        },
+        {
+          "type": "quiz",
+          "content": {
+            "question": "Design an API for a todo list application. What endpoints would you create?",
+            "options": [
+              {
+                "id": "a",
+                "text": "Demonstrate rest convention understanding, resource-oriented thinking, and error handling consideration",
+                "isCorrect": true
+              },
+              {
+                "id": "b",
+                "text": "Non-RESTful design",
+                "isCorrect": false
+              },
+              {
+                "id": "c",
+                "text": "Only happy path endpoints",
+                "isCorrect": false
+              },
+              {
+                "id": "d",
+                "text": "Ignoring pagination for list endpoints",
+                "isCorrect": false
+              }
+            ],
+            "explanation": "This seems simple, but Asana uses it to probe your API design principles. They're evaluating: Do you use REST conventions correctly? Do you think about error handling and edge cases? Can you discuss versioning, pagination, and authentication? The real test is whether you ask clarifying questions ..."
+          }
         }
       ]
     },
@@ -378,6 +436,64 @@
             ],
             "explanation": "Asana tests whether you genuinely put customers first or just say you do. The interviewer is looking for situations where customer focus created tension - with timeline, with a stakeholder, with your own priorities. They're testing: Do you cave under pressure, or find ways to serve the customer A..."
           }
+        },
+        {
+          "type": "quiz",
+          "content": {
+            "question": "Describe your ideal work environment. What kind of culture brings out your best work?",
+            "options": [
+              {
+                "id": "a",
+                "text": "Demonstrate genuine self-awareness about preferences, specific examples that illustrate the ideal, and acknowledgment of trade-offs in any culture",
+                "isCorrect": true
+              },
+              {
+                "id": "b",
+                "text": "No acknowledgment of trade-offs",
+                "isCorrect": false
+              },
+              {
+                "id": "c",
+                "text": "Being too vague",
+                "isCorrect": false
+              },
+              {
+                "id": "d",
+                "text": "Saying what you think they want to hear",
+                "isCorrect": false
+              }
+            ],
+            "explanation": "This seems open-ended, but Asana is probing for authentic fit. They're watching for: Does your described ideal actually match their culture? Are you self-aware about what you need? The risk is saying what you think they want to hear - experienced interviewers spot this. It's better to be honest a..."
+          }
+        },
+        {
+          "type": "quiz",
+          "content": {
+            "question": "Tell me about a time you changed your mind on something you believed strongly.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Demonstrate genuine belief change (not trivial), evidence-based updating, and willingness to admit you were wrong",
+                "isCorrect": true
+              },
+              {
+                "id": "b",
+                "text": "No explanation of what convinced you",
+                "isCorrect": false
+              },
+              {
+                "id": "c",
+                "text": "Framing it as 'I was partly right'",
+                "isCorrect": false
+              },
+              {
+                "id": "d",
+                "text": "Choosing something trivial",
+                "isCorrect": false
+              }
+            ],
+            "explanation": "Asana values intellectual humility - the ability to update beliefs based on evidence. The interviewer is testing: Can you hold strong opinions loosely? Do you actually change, or just pretend to? They're watching for the quality of the new evidence and whether you sought it out or resisted it. Ca..."
+          }
         }
       ]
     },
@@ -482,6 +598,35 @@
               }
             ],
             "explanation": "This question seems casual but Asana uses it to reveal your values and intellectual curiosity. They're not judging the person you pick - they're evaluating WHY. Do you pick someone to impress (Einstein, Mandela) or someone genuinely meaningful to you? Can you articulate what you'd want to learn? ..."
+          }
+        },
+        {
+          "type": "quiz",
+          "content": {
+            "question": "Design a product for blind people to use a smartphone more easily.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Assuming what blind users want without considering diversity",
+                "isCorrect": false
+              },
+              {
+                "id": "b",
+                "text": "Demonstrate user empathy for a different lived experience, research instinct (what already exists?), and problem definition before solution",
+                "isCorrect": true
+              },
+              {
+                "id": "c",
+                "text": "Jumping to solutions without understanding the problem",
+                "isCorrect": false
+              },
+              {
+                "id": "d",
+                "text": "Ignoring existing accessibility features",
+                "isCorrect": false
+              }
+            ],
+            "explanation": "Asana is testing user empathy and structured creativity under time pressure. Can you quickly empathize with a user group you may not belong to? Do you ask clarifying questions or make assumptions? They're watching for: Do you consider existing solutions first? Can you identify the real problem be..."
           }
         }
       ]

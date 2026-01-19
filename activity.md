@@ -3563,3 +3563,40 @@ All Stage 5 (Launch) code issues are now closed:
   - Theme data for 12 Media/Entertainment companies
   - Each company has: company_slug, logo_url, primary_color, secondary_color, industry_category
   - Migration uses ON CONFLICT for upsert (updates existing themes)
+
+### 2026-01-19 - Issue #150: Expand company-role modules with more quiz questions
+
+**Completed:**
+- Updated `scripts/generate-company-role-modules.ts` to include ALL questions from each category
+- Previously: modules used 14 quizzes (4 behavioral + 4 technical + 3 culture + 3 curveball)
+- Now: modules use ~19 quizzes (all questions from each category)
+- Regenerated all 808 company-role modules with expanded quiz content
+
+**Changes Made:**
+- Removed `.slice()` limits in all section generators:
+  - `generateBehavioralSection()` - now uses all 5 behavioral questions
+  - `generateTechnicalSection()` - now uses all 5 technical questions
+  - `generateCultureSection()` - now uses all 5 culture questions
+  - `generateCurveballSection()` - now uses all 4 curveball questions
+
+**Results:**
+- Before: 11,312 total quiz blocks across 808 modules (~14 per module)
+- After: 15,352 total quiz blocks across 808 modules (~19 per module)
+- Increase: 35% more quiz content
+
+**Files Modified:**
+- `scripts/generate-company-role-modules.ts`
+- `data/generated/modules/company-role-*.json` (808 files regenerated)
+
+**Verification:**
+- `npm run lint` - passes with no errors
+- `npm run type-check` - passes with no errors
+- `npm run build` - successful production build
+- `npm test` - 2163 passed, 2 todo, 12 pre-existing failures (unrelated to this change)
+- Module loader tests pass (23 tests)
+- Flatten-modules tests pass (29 tests)
+- All acceptance criteria verified:
+  - Read existing `questions-{company}-{role}.json` files ✓
+  - Add additional quizzes to company-role modules (aim for 20+ per module) ✓ (19 per module)
+  - Include questions from all categories (behavioral, technical, culture, curveball) ✓
+  - Update `generate-company-role-modules.ts` script ✓
