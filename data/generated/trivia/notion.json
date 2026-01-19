@@ -1,0 +1,162 @@
+[
+  {
+    "company_slug": "notion",
+    "fact_type": "founding",
+    "format": "quiz",
+    "question": "When was Notion founded?",
+    "answer": "2013",
+    "options": [
+      "2010",
+      "2012",
+      "2015"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Notion_(productivity_software)",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "notion",
+    "fact_type": "founding",
+    "format": "flashcard",
+    "question": "Who founded Notion?",
+    "answer": "Ivan Zhao and Simon Last",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Notion_(productivity_software)",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "notion",
+    "fact_type": "founding",
+    "format": "factoid",
+    "question": null,
+    "answer": "Notion was founded in 2013 by Ivan Zhao and Simon Last.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Notion_(productivity_software)",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "notion",
+    "fact_type": "hq",
+    "format": "quiz",
+    "question": "Where is Notion's headquarters located?",
+    "answer": "San Francisco, California",
+    "options": [
+      "Seattle, Washington",
+      "New York, New York",
+      "Austin, Texas"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Notion_(productivity_software)",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "notion",
+    "fact_type": "hq",
+    "format": "flashcard",
+    "question": "What city is Notion headquartered in?",
+    "answer": "San Francisco, California",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Notion_(productivity_software)",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "notion",
+    "fact_type": "exec",
+    "format": "quiz",
+    "question": "Who is the current CEO of Notion?",
+    "answer": "Ivan Zhao",
+    "options": [
+      "Dylan Field",
+      "Patrick Collison",
+      "Vlad Tenev"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Notion_(productivity_software)",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "notion",
+    "fact_type": "exec",
+    "format": "flashcard",
+    "question": "Who leads Notion as CEO?",
+    "answer": "Ivan Zhao",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Notion_(productivity_software)",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "notion",
+    "fact_type": "mission",
+    "format": "factoid",
+    "question": null,
+    "answer": "Notion's mission is \"To make it possible for everyone to tailor the software they use every day to their exact needs\".",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Notion_(productivity_software)",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "notion",
+    "fact_type": "mission",
+    "format": "flashcard",
+    "question": "What is Notion's mission statement?",
+    "answer": "To make it possible for everyone to tailor the software they use every day to their exact needs",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Notion_(productivity_software)",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "notion",
+    "fact_type": "product",
+    "format": "quiz",
+    "question": "Which of these is a Notion product?",
+    "answer": "Notion Workspace",
+    "options": [
+      "Slack",
+      "Zoom",
+      "Dropbox"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Notion_(productivity_software)",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "notion",
+    "fact_type": "product",
+    "format": "factoid",
+    "question": null,
+    "answer": "Key Notion products include Notion Workspace, Notion AI, Notion Calendar, Notion Projects.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Notion_(productivity_software)",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "notion",
+    "fact_type": "acquisition",
+    "format": "quiz",
+    "question": "Which company did Notion acquire in 2021?",
+    "answer": "Automate.io",
+    "options": [
+      "Slack",
+      "Tableau",
+      "Figma"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Notion_(productivity_software)",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "notion",
+    "fact_type": "acquisition",
+    "format": "factoid",
+    "question": null,
+    "answer": "Notion acquired Automate.io in 2021.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Notion_(productivity_software)",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "notion",
+    "fact_type": "acquisition",
+    "format": "flashcard",
+    "question": "In what year did Notion acquire Cron?",
+    "answer": "2022",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Notion_(productivity_software)",
+    "source_date": "2026-01-19"
+  }
+]

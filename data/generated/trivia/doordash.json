@@ -1,0 +1,162 @@
+[
+  {
+    "company_slug": "doordash",
+    "fact_type": "founding",
+    "format": "quiz",
+    "question": "When was DoorDash founded?",
+    "answer": "2013",
+    "options": [
+      "2010",
+      "2012",
+      "2015"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/DoorDash",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "doordash",
+    "fact_type": "founding",
+    "format": "flashcard",
+    "question": "Who founded DoorDash?",
+    "answer": "Tony Xu and Andy Fang and others",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/DoorDash",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "doordash",
+    "fact_type": "founding",
+    "format": "factoid",
+    "question": null,
+    "answer": "DoorDash was founded in 2013 by Tony Xu and Andy Fang and others.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/DoorDash",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "doordash",
+    "fact_type": "hq",
+    "format": "quiz",
+    "question": "Where is DoorDash's headquarters located?",
+    "answer": "San Francisco, California",
+    "options": [
+      "Seattle, Washington",
+      "New York, New York",
+      "Austin, Texas"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/DoorDash",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "doordash",
+    "fact_type": "hq",
+    "format": "flashcard",
+    "question": "What city is DoorDash headquartered in?",
+    "answer": "San Francisco, California",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/DoorDash",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "doordash",
+    "fact_type": "exec",
+    "format": "quiz",
+    "question": "Who is the current CEO of DoorDash?",
+    "answer": "Tony Xu",
+    "options": [
+      "Dara Khosrowshahi",
+      "Brian Chesky",
+      "Logan Green"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/DoorDash",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "doordash",
+    "fact_type": "exec",
+    "format": "flashcard",
+    "question": "Who leads DoorDash as CEO?",
+    "answer": "Tony Xu",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/DoorDash",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "doordash",
+    "fact_type": "mission",
+    "format": "factoid",
+    "question": null,
+    "answer": "DoorDash's mission is \"To empower local economies around the world\".",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/DoorDash",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "doordash",
+    "fact_type": "mission",
+    "format": "flashcard",
+    "question": "What is DoorDash's mission statement?",
+    "answer": "To empower local economies around the world",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/DoorDash",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "doordash",
+    "fact_type": "product",
+    "format": "quiz",
+    "question": "Which of these is a DoorDash product?",
+    "answer": "DoorDash",
+    "options": [
+      "Slack",
+      "Zoom",
+      "Dropbox"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/DoorDash",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "doordash",
+    "fact_type": "product",
+    "format": "factoid",
+    "question": null,
+    "answer": "Key DoorDash products include DoorDash, DashPass, DoorDash Drive, DoorDash for Work.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/DoorDash",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "doordash",
+    "fact_type": "acquisition",
+    "format": "quiz",
+    "question": "Which company did DoorDash acquire in 2022?",
+    "answer": "Wolt",
+    "options": [
+      "Slack",
+      "Tableau",
+      "Figma"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/DoorDash",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "doordash",
+    "fact_type": "acquisition",
+    "format": "factoid",
+    "question": null,
+    "answer": "DoorDash acquired Wolt in 2022.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/DoorDash",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "doordash",
+    "fact_type": "acquisition",
+    "format": "flashcard",
+    "question": "In what year did DoorDash acquire Caviar?",
+    "answer": "2019",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/DoorDash",
+    "source_date": "2026-01-19"
+  }
+]

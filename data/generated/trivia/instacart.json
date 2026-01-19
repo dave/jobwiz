@@ -1,0 +1,162 @@
+[
+  {
+    "company_slug": "instacart",
+    "fact_type": "founding",
+    "format": "quiz",
+    "question": "When was Instacart founded?",
+    "answer": "2012",
+    "options": [
+      "2009",
+      "2011",
+      "2014"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Instacart",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "instacart",
+    "fact_type": "founding",
+    "format": "flashcard",
+    "question": "Who founded Instacart?",
+    "answer": "Apoorva Mehta and Max Mullen and others",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Instacart",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "instacart",
+    "fact_type": "founding",
+    "format": "factoid",
+    "question": null,
+    "answer": "Instacart was founded in 2012 by Apoorva Mehta and Max Mullen and others.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Instacart",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "instacart",
+    "fact_type": "hq",
+    "format": "quiz",
+    "question": "Where is Instacart's headquarters located?",
+    "answer": "San Francisco, California",
+    "options": [
+      "Seattle, Washington",
+      "New York, New York",
+      "Austin, Texas"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Instacart",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "instacart",
+    "fact_type": "hq",
+    "format": "flashcard",
+    "question": "What city is Instacart headquartered in?",
+    "answer": "San Francisco, California",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Instacart",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "instacart",
+    "fact_type": "exec",
+    "format": "quiz",
+    "question": "Who is the current CEO of Instacart?",
+    "answer": "Fidji Simo",
+    "options": [
+      "Tony Xu",
+      "Apoorva Mehta",
+      "Dara Khosrowshahi"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Instacart",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "instacart",
+    "fact_type": "exec",
+    "format": "flashcard",
+    "question": "Who leads Instacart as CEO?",
+    "answer": "Fidji Simo",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Instacart",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "instacart",
+    "fact_type": "mission",
+    "format": "factoid",
+    "question": null,
+    "answer": "Instacart's mission is \"To create a world where everyone has access to the food they love and more time to enjoy it together\".",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Instacart",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "instacart",
+    "fact_type": "mission",
+    "format": "flashcard",
+    "question": "What is Instacart's mission statement?",
+    "answer": "To create a world where everyone has access to the food they love and more time to enjoy it together",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Instacart",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "instacart",
+    "fact_type": "product",
+    "format": "quiz",
+    "question": "Which of these is a Instacart product?",
+    "answer": "Instacart Delivery",
+    "options": [
+      "Slack",
+      "Zoom",
+      "Dropbox"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Instacart",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "instacart",
+    "fact_type": "product",
+    "format": "factoid",
+    "question": null,
+    "answer": "Key Instacart products include Instacart Delivery, Instacart+ membership, Instacart Platform, Caper Carts.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Instacart",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "instacart",
+    "fact_type": "acquisition",
+    "format": "quiz",
+    "question": "Which company did Instacart acquire in 2021?",
+    "answer": "Caper AI",
+    "options": [
+      "Slack",
+      "Tableau",
+      "Figma"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Instacart",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "instacart",
+    "fact_type": "acquisition",
+    "format": "factoid",
+    "question": null,
+    "answer": "Instacart acquired Caper AI in 2021.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Instacart",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "instacart",
+    "fact_type": "acquisition",
+    "format": "flashcard",
+    "question": "In what year did Instacart acquire FoodStorm?",
+    "answer": "2020",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Instacart",
+    "source_date": "2026-01-19"
+  }
+]

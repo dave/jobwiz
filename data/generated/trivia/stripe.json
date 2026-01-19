@@ -1,0 +1,162 @@
+[
+  {
+    "company_slug": "stripe",
+    "fact_type": "founding",
+    "format": "quiz",
+    "question": "When was Stripe founded?",
+    "answer": "2010",
+    "options": [
+      "2007",
+      "2009",
+      "2012"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Stripe_(company)",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "stripe",
+    "fact_type": "founding",
+    "format": "flashcard",
+    "question": "Who founded Stripe?",
+    "answer": "Patrick Collison and John Collison",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Stripe_(company)",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "stripe",
+    "fact_type": "founding",
+    "format": "factoid",
+    "question": null,
+    "answer": "Stripe was founded in 2010 by Patrick Collison and John Collison.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Stripe_(company)",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "stripe",
+    "fact_type": "hq",
+    "format": "quiz",
+    "question": "Where is Stripe's headquarters located?",
+    "answer": "San Francisco, California",
+    "options": [
+      "Seattle, Washington",
+      "New York, New York",
+      "Austin, Texas"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Stripe_(company)",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "stripe",
+    "fact_type": "hq",
+    "format": "flashcard",
+    "question": "What city is Stripe headquartered in?",
+    "answer": "San Francisco, California",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Stripe_(company)",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "stripe",
+    "fact_type": "exec",
+    "format": "quiz",
+    "question": "Who is the current CEO of Stripe?",
+    "answer": "Patrick Collison",
+    "options": [
+      "Dylan Field",
+      "Brian Chesky",
+      "Dara Khosrowshahi"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Stripe_(company)",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "stripe",
+    "fact_type": "exec",
+    "format": "flashcard",
+    "question": "Who leads Stripe as CEO?",
+    "answer": "Patrick Collison",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Stripe_(company)",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "stripe",
+    "fact_type": "mission",
+    "format": "factoid",
+    "question": null,
+    "answer": "Stripe's mission is \"To increase the GDP of the internet\".",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Stripe_(company)",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "stripe",
+    "fact_type": "mission",
+    "format": "flashcard",
+    "question": "What is Stripe's mission statement?",
+    "answer": "To increase the GDP of the internet",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Stripe_(company)",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "stripe",
+    "fact_type": "product",
+    "format": "quiz",
+    "question": "Which of these is a Stripe product?",
+    "answer": "Stripe Payments",
+    "options": [
+      "Slack",
+      "Zoom",
+      "Dropbox"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Stripe_(company)",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "stripe",
+    "fact_type": "product",
+    "format": "factoid",
+    "question": null,
+    "answer": "Key Stripe products include Stripe Payments, Stripe Connect, Stripe Atlas, Stripe Radar, Stripe Terminal.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Stripe_(company)",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "stripe",
+    "fact_type": "acquisition",
+    "format": "quiz",
+    "question": "Which company did Stripe acquire in 2020?",
+    "answer": "Paystack",
+    "options": [
+      "Slack",
+      "Tableau",
+      "Figma"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Stripe_(company)",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "stripe",
+    "fact_type": "acquisition",
+    "format": "factoid",
+    "question": null,
+    "answer": "Stripe acquired Paystack in 2020.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Stripe_(company)",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "stripe",
+    "fact_type": "acquisition",
+    "format": "flashcard",
+    "question": "In what year did Stripe acquire TaxJar?",
+    "answer": "2021",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Stripe_(company)",
+    "source_date": "2026-01-19"
+  }
+]

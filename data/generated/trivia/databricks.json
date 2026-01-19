@@ -1,0 +1,162 @@
+[
+  {
+    "company_slug": "databricks",
+    "fact_type": "founding",
+    "format": "quiz",
+    "question": "When was Databricks founded?",
+    "answer": "2013",
+    "options": [
+      "2010",
+      "2012",
+      "2015"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Databricks",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "databricks",
+    "fact_type": "founding",
+    "format": "flashcard",
+    "question": "Who founded Databricks?",
+    "answer": "Ali Ghodsi and Matei Zaharia and others",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Databricks",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "databricks",
+    "fact_type": "founding",
+    "format": "factoid",
+    "question": null,
+    "answer": "Databricks was founded in 2013 by Ali Ghodsi and Matei Zaharia and others.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Databricks",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "databricks",
+    "fact_type": "hq",
+    "format": "quiz",
+    "question": "Where is Databricks's headquarters located?",
+    "answer": "San Francisco, California",
+    "options": [
+      "Seattle, Washington",
+      "New York, New York",
+      "Austin, Texas"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Databricks",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "databricks",
+    "fact_type": "hq",
+    "format": "flashcard",
+    "question": "What city is Databricks headquartered in?",
+    "answer": "San Francisco, California",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Databricks",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "databricks",
+    "fact_type": "exec",
+    "format": "quiz",
+    "question": "Who is the current CEO of Databricks?",
+    "answer": "Ali Ghodsi",
+    "options": [
+      "Patrick Collison",
+      "Brian Armstrong",
+      "Ivan Zhao"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Databricks",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "databricks",
+    "fact_type": "exec",
+    "format": "flashcard",
+    "question": "Who leads Databricks as CEO?",
+    "answer": "Ali Ghodsi",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Databricks",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "databricks",
+    "fact_type": "mission",
+    "format": "factoid",
+    "question": null,
+    "answer": "Databricks's mission is \"To help data teams solve the world's toughest problems\".",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Databricks",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "databricks",
+    "fact_type": "mission",
+    "format": "flashcard",
+    "question": "What is Databricks's mission statement?",
+    "answer": "To help data teams solve the world's toughest problems",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Databricks",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "databricks",
+    "fact_type": "product",
+    "format": "quiz",
+    "question": "Which of these is a Databricks product?",
+    "answer": "Databricks Lakehouse Platform",
+    "options": [
+      "Slack",
+      "Zoom",
+      "Dropbox"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Databricks",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "databricks",
+    "fact_type": "product",
+    "format": "factoid",
+    "question": null,
+    "answer": "Key Databricks products include Databricks Lakehouse Platform, Delta Lake, MLflow, Apache Spark, Unity Catalog.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Databricks",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "databricks",
+    "fact_type": "acquisition",
+    "format": "quiz",
+    "question": "Which company did Databricks acquire in 2023?",
+    "answer": "MosaicML",
+    "options": [
+      "Slack",
+      "Tableau",
+      "Figma"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Databricks",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "databricks",
+    "fact_type": "acquisition",
+    "format": "factoid",
+    "question": null,
+    "answer": "Databricks acquired MosaicML in 2023.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Databricks",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "databricks",
+    "fact_type": "acquisition",
+    "format": "flashcard",
+    "question": "In what year did Databricks acquire Einblick?",
+    "answer": "2023",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Databricks",
+    "source_date": "2026-01-19"
+  }
+]

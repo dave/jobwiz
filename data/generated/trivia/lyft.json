@@ -1,0 +1,162 @@
+[
+  {
+    "company_slug": "lyft",
+    "fact_type": "founding",
+    "format": "quiz",
+    "question": "When was Lyft founded?",
+    "answer": "2012",
+    "options": [
+      "2009",
+      "2011",
+      "2014"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Lyft",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "lyft",
+    "fact_type": "founding",
+    "format": "flashcard",
+    "question": "Who founded Lyft?",
+    "answer": "Logan Green and John Zimmer",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Lyft",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "lyft",
+    "fact_type": "founding",
+    "format": "factoid",
+    "question": null,
+    "answer": "Lyft was founded in 2012 by Logan Green and John Zimmer.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Lyft",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "lyft",
+    "fact_type": "hq",
+    "format": "quiz",
+    "question": "Where is Lyft's headquarters located?",
+    "answer": "San Francisco, California",
+    "options": [
+      "Seattle, Washington",
+      "New York, New York",
+      "Austin, Texas"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Lyft",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "lyft",
+    "fact_type": "hq",
+    "format": "flashcard",
+    "question": "What city is Lyft headquartered in?",
+    "answer": "San Francisco, California",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Lyft",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "lyft",
+    "fact_type": "exec",
+    "format": "quiz",
+    "question": "Who is the current CEO of Lyft?",
+    "answer": "David Risher",
+    "options": [
+      "Dara Khosrowshahi",
+      "Tony Xu",
+      "Brian Chesky"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Lyft",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "lyft",
+    "fact_type": "exec",
+    "format": "flashcard",
+    "question": "Who leads Lyft as CEO?",
+    "answer": "David Risher",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Lyft",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "lyft",
+    "fact_type": "mission",
+    "format": "factoid",
+    "question": null,
+    "answer": "Lyft's mission is \"To improve people's lives with the world's best transportation\".",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Lyft",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "lyft",
+    "fact_type": "mission",
+    "format": "flashcard",
+    "question": "What is Lyft's mission statement?",
+    "answer": "To improve people's lives with the world's best transportation",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Lyft",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "lyft",
+    "fact_type": "product",
+    "format": "quiz",
+    "question": "Which of these is a Lyft product?",
+    "answer": "Lyft Rides",
+    "options": [
+      "Slack",
+      "Zoom",
+      "Dropbox"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Lyft",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "lyft",
+    "fact_type": "product",
+    "format": "factoid",
+    "question": null,
+    "answer": "Key Lyft products include Lyft Rides, Lyft Pink, Lyft Business, Lyft Bikes and Scooters.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Lyft",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "lyft",
+    "fact_type": "acquisition",
+    "format": "quiz",
+    "question": "Which company did Lyft acquire in 2018?",
+    "answer": "Motivate",
+    "options": [
+      "Slack",
+      "Tableau",
+      "Figma"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Lyft",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "lyft",
+    "fact_type": "acquisition",
+    "format": "factoid",
+    "question": null,
+    "answer": "Lyft acquired Motivate in 2018.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Lyft",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "lyft",
+    "fact_type": "acquisition",
+    "format": "flashcard",
+    "question": "In what year did Lyft acquire PBSC Urban Solutions?",
+    "answer": "2022",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Lyft",
+    "source_date": "2026-01-19"
+  }
+]

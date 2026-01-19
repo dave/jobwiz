@@ -2921,3 +2921,59 @@ All Stage 5 (Launch) code issues are now closed:
 - All trivia files conform to expected schema
 - Quiz items have exactly 3 wrong options
 - All items have source_url and source_date
+
+### 2026-01-19 - Issue #87: Generate company trivia: High-growth startups batch
+
+**Completed:**
+- Created trivia generation script `/scripts/generate-trivia-startups.ts`
+- Generated trivia for 14 high-growth startup companies:
+  - Stripe, Figma, Notion, Vercel, Databricks, Snowflake
+  - Airbnb, Uber, Lyft, DoorDash, Instacart
+  - Coinbase, Robinhood, Plaid
+- Generated 195 trivia items total (13-14 items per company)
+- Output files in `/data/generated/trivia/{company}.json`
+
+**Trivia Types Generated:**
+- Founding (quiz, flashcard, factoid)
+- Headquarters (quiz, flashcard)
+- CEO/Executive (quiz, flashcard)
+- Mission statement (factoid, flashcard)
+- Products (quiz, factoid)
+- Acquisitions (quiz, factoid, flashcard)
+
+**Format per Item:**
+- `company_slug` - company identifier
+- `fact_type` - founding, hq, mission, product, news, exec, acquisition
+- `format` - quiz, flashcard, factoid
+- `question` - question text (null for factoids)
+- `answer` - correct answer
+- `options` - 3 wrong answers (for quiz format only)
+- `source_url` - Wikipedia source link
+- `source_date` - date of generation
+
+**Files Created:**
+- `scripts/generate-trivia-startups.ts` - trivia generation script
+- `data/generated/trivia/stripe.json` (14 items)
+- `data/generated/trivia/figma.json` (13 items)
+- `data/generated/trivia/notion.json` (14 items)
+- `data/generated/trivia/vercel.json` (14 items)
+- `data/generated/trivia/databricks.json` (14 items)
+- `data/generated/trivia/snowflake.json` (14 items)
+- `data/generated/trivia/airbnb.json` (14 items)
+- `data/generated/trivia/uber.json` (14 items)
+- `data/generated/trivia/lyft.json` (14 items)
+- `data/generated/trivia/doordash.json` (14 items)
+- `data/generated/trivia/instacart.json` (14 items)
+- `data/generated/trivia/coinbase.json` (14 items)
+- `data/generated/trivia/robinhood.json` (14 items)
+- `data/generated/trivia/plaid.json` (14 items)
+
+**Verification:**
+- `npm run lint` - passes with no errors
+- `npm run type-check` - passes with no errors
+- `npm run build` - successful production build
+- `npm test` - 2163 passed, 2 todo, 12 pre-existing failures (unrelated to this change)
+- All trivia files conform to expected schema
+- Quiz items have exactly 3 wrong options
+- All items have source_url and source_date
+

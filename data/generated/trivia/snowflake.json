@@ -1,0 +1,162 @@
+[
+  {
+    "company_slug": "snowflake",
+    "fact_type": "founding",
+    "format": "quiz",
+    "question": "When was Snowflake founded?",
+    "answer": "2012",
+    "options": [
+      "2009",
+      "2011",
+      "2014"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Snowflake_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "snowflake",
+    "fact_type": "founding",
+    "format": "flashcard",
+    "question": "Who founded Snowflake?",
+    "answer": "Benoit Dageville and Thierry Cruanes and others",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Snowflake_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "snowflake",
+    "fact_type": "founding",
+    "format": "factoid",
+    "question": null,
+    "answer": "Snowflake was founded in 2012 by Benoit Dageville and Thierry Cruanes and others.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Snowflake_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "snowflake",
+    "fact_type": "hq",
+    "format": "quiz",
+    "question": "Where is Snowflake's headquarters located?",
+    "answer": "Bozeman, Montana",
+    "options": [
+      "San Francisco, California",
+      "Seattle, Washington",
+      "New York, New York"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Snowflake_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "snowflake",
+    "fact_type": "hq",
+    "format": "flashcard",
+    "question": "What city is Snowflake headquartered in?",
+    "answer": "Bozeman, Montana",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Snowflake_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "snowflake",
+    "fact_type": "exec",
+    "format": "quiz",
+    "question": "Who is the current CEO of Snowflake?",
+    "answer": "Sridhar Ramaswamy",
+    "options": [
+      "Ali Ghodsi",
+      "Brian Chesky",
+      "Patrick Collison"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Snowflake_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "snowflake",
+    "fact_type": "exec",
+    "format": "flashcard",
+    "question": "Who leads Snowflake as CEO?",
+    "answer": "Sridhar Ramaswamy",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Snowflake_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "snowflake",
+    "fact_type": "mission",
+    "format": "factoid",
+    "question": null,
+    "answer": "Snowflake's mission is \"To mobilize the world's data by enabling customers to consolidate data into a single source of truth\".",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Snowflake_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "snowflake",
+    "fact_type": "mission",
+    "format": "flashcard",
+    "question": "What is Snowflake's mission statement?",
+    "answer": "To mobilize the world's data by enabling customers to consolidate data into a single source of truth",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Snowflake_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "snowflake",
+    "fact_type": "product",
+    "format": "quiz",
+    "question": "Which of these is a Snowflake product?",
+    "answer": "Snowflake Data Cloud",
+    "options": [
+      "Slack",
+      "Zoom",
+      "Dropbox"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Snowflake_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "snowflake",
+    "fact_type": "product",
+    "format": "factoid",
+    "question": null,
+    "answer": "Key Snowflake products include Snowflake Data Cloud, Snowpark, Streamlit, Snowflake Cortex.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Snowflake_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "snowflake",
+    "fact_type": "acquisition",
+    "format": "quiz",
+    "question": "Which company did Snowflake acquire in 2022?",
+    "answer": "Streamlit",
+    "options": [
+      "Slack",
+      "Tableau",
+      "Figma"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Snowflake_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "snowflake",
+    "fact_type": "acquisition",
+    "format": "factoid",
+    "question": null,
+    "answer": "Snowflake acquired Streamlit in 2022.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Snowflake_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "snowflake",
+    "fact_type": "acquisition",
+    "format": "flashcard",
+    "question": "In what year did Snowflake acquire Neeva?",
+    "answer": "2023",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Snowflake_Inc.",
+    "source_date": "2026-01-19"
+  }
+]

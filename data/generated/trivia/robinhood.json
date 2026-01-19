@@ -1,0 +1,162 @@
+[
+  {
+    "company_slug": "robinhood",
+    "fact_type": "founding",
+    "format": "quiz",
+    "question": "When was Robinhood founded?",
+    "answer": "2013",
+    "options": [
+      "2010",
+      "2012",
+      "2015"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Robinhood_(company)",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "robinhood",
+    "fact_type": "founding",
+    "format": "flashcard",
+    "question": "Who founded Robinhood?",
+    "answer": "Vlad Tenev and Baiju Bhatt",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Robinhood_(company)",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "robinhood",
+    "fact_type": "founding",
+    "format": "factoid",
+    "question": null,
+    "answer": "Robinhood was founded in 2013 by Vlad Tenev and Baiju Bhatt.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Robinhood_(company)",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "robinhood",
+    "fact_type": "hq",
+    "format": "quiz",
+    "question": "Where is Robinhood's headquarters located?",
+    "answer": "Menlo Park, California",
+    "options": [
+      "San Francisco, California",
+      "Seattle, Washington",
+      "New York, New York"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Robinhood_(company)",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "robinhood",
+    "fact_type": "hq",
+    "format": "flashcard",
+    "question": "What city is Robinhood headquartered in?",
+    "answer": "Menlo Park, California",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Robinhood_(company)",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "robinhood",
+    "fact_type": "exec",
+    "format": "quiz",
+    "question": "Who is the current CEO of Robinhood?",
+    "answer": "Vlad Tenev",
+    "options": [
+      "Brian Armstrong",
+      "Patrick Collison",
+      "Zach Perret"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Robinhood_(company)",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "robinhood",
+    "fact_type": "exec",
+    "format": "flashcard",
+    "question": "Who leads Robinhood as CEO?",
+    "answer": "Vlad Tenev",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Robinhood_(company)",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "robinhood",
+    "fact_type": "mission",
+    "format": "factoid",
+    "question": null,
+    "answer": "Robinhood's mission is \"To democratize finance for all\".",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Robinhood_(company)",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "robinhood",
+    "fact_type": "mission",
+    "format": "flashcard",
+    "question": "What is Robinhood's mission statement?",
+    "answer": "To democratize finance for all",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Robinhood_(company)",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "robinhood",
+    "fact_type": "product",
+    "format": "quiz",
+    "question": "Which of these is a Robinhood product?",
+    "answer": "Robinhood App",
+    "options": [
+      "Slack",
+      "Zoom",
+      "Dropbox"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Robinhood_(company)",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "robinhood",
+    "fact_type": "product",
+    "format": "factoid",
+    "question": null,
+    "answer": "Key Robinhood products include Robinhood App, Robinhood Gold, Robinhood Cash Card, Robinhood Crypto.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Robinhood_(company)",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "robinhood",
+    "fact_type": "acquisition",
+    "format": "quiz",
+    "question": "Which company did Robinhood acquire in 2019?",
+    "answer": "MarketSnacks",
+    "options": [
+      "Slack",
+      "Tableau",
+      "Figma"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Robinhood_(company)",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "robinhood",
+    "fact_type": "acquisition",
+    "format": "factoid",
+    "question": null,
+    "answer": "Robinhood acquired MarketSnacks in 2019.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Robinhood_(company)",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "robinhood",
+    "fact_type": "acquisition",
+    "format": "flashcard",
+    "question": "In what year did Robinhood acquire Say Technologies?",
+    "answer": "2021",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Robinhood_(company)",
+    "source_date": "2026-01-19"
+  }
+]

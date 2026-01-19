@@ -1,0 +1,162 @@
+[
+  {
+    "company_slug": "plaid",
+    "fact_type": "founding",
+    "format": "quiz",
+    "question": "When was Plaid founded?",
+    "answer": "2013",
+    "options": [
+      "2010",
+      "2012",
+      "2015"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Plaid_(company)",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "plaid",
+    "fact_type": "founding",
+    "format": "flashcard",
+    "question": "Who founded Plaid?",
+    "answer": "Zach Perret and William Hockey",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Plaid_(company)",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "plaid",
+    "fact_type": "founding",
+    "format": "factoid",
+    "question": null,
+    "answer": "Plaid was founded in 2013 by Zach Perret and William Hockey.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Plaid_(company)",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "plaid",
+    "fact_type": "hq",
+    "format": "quiz",
+    "question": "Where is Plaid's headquarters located?",
+    "answer": "San Francisco, California",
+    "options": [
+      "Seattle, Washington",
+      "New York, New York",
+      "Austin, Texas"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Plaid_(company)",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "plaid",
+    "fact_type": "hq",
+    "format": "flashcard",
+    "question": "What city is Plaid headquartered in?",
+    "answer": "San Francisco, California",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Plaid_(company)",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "plaid",
+    "fact_type": "exec",
+    "format": "quiz",
+    "question": "Who is the current CEO of Plaid?",
+    "answer": "Zach Perret",
+    "options": [
+      "Vlad Tenev",
+      "Brian Armstrong",
+      "Patrick Collison"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Plaid_(company)",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "plaid",
+    "fact_type": "exec",
+    "format": "flashcard",
+    "question": "Who leads Plaid as CEO?",
+    "answer": "Zach Perret",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Plaid_(company)",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "plaid",
+    "fact_type": "mission",
+    "format": "factoid",
+    "question": null,
+    "answer": "Plaid's mission is \"To unlock financial freedom for everyone\".",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Plaid_(company)",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "plaid",
+    "fact_type": "mission",
+    "format": "flashcard",
+    "question": "What is Plaid's mission statement?",
+    "answer": "To unlock financial freedom for everyone",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Plaid_(company)",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "plaid",
+    "fact_type": "product",
+    "format": "quiz",
+    "question": "Which of these is a Plaid product?",
+    "answer": "Plaid Link",
+    "options": [
+      "Slack",
+      "Zoom",
+      "Dropbox"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Plaid_(company)",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "plaid",
+    "fact_type": "product",
+    "format": "factoid",
+    "question": null,
+    "answer": "Key Plaid products include Plaid Link, Plaid Auth, Plaid Identity, Plaid Balance, Plaid Transactions.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Plaid_(company)",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "plaid",
+    "fact_type": "acquisition",
+    "format": "quiz",
+    "question": "Which company did Plaid acquire in 2019?",
+    "answer": "Quovo",
+    "options": [
+      "Slack",
+      "Tableau",
+      "Figma"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Plaid_(company)",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "plaid",
+    "fact_type": "acquisition",
+    "format": "factoid",
+    "question": null,
+    "answer": "Plaid acquired Quovo in 2019.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Plaid_(company)",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "plaid",
+    "fact_type": "acquisition",
+    "format": "flashcard",
+    "question": "In what year did Plaid acquire Cognito?",
+    "answer": "2022",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Plaid_(company)",
+    "source_date": "2026-01-19"
+  }
+]
