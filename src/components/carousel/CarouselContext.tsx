@@ -46,7 +46,12 @@ function loadPersistedProgress(
   }
 }
 
-/** Save carousel progress to localStorage */
+/** Cookie name for carousel progress */
+function getCookieKey(companySlug: string, roleSlug: string): string {
+  return `carousel_progress_${companySlug}_${roleSlug}`;
+}
+
+/** Save carousel progress to localStorage and cookie */
 function persistProgress(progress: CarouselProgress): void {
   if (typeof window === "undefined") return;
 
@@ -57,6 +62,18 @@ function persistProgress(progress: CarouselProgress): void {
     );
   } catch {
     // Ignore storage errors (quota exceeded, etc.)
+  }
+
+  // Also save to cookie for SSR access
+  try {
+    const cookieValue = JSON.stringify({
+      currentIndex: progress.currentIndex,
+      completedItems: progress.completedItems,
+    });
+    // Set cookie with 1 year expiry, SameSite=Lax for security
+    document.cookie = `${getCookieKey(progress.companySlug, progress.roleSlug)}=${encodeURIComponent(cookieValue)}; path=/; max-age=31536000; SameSite=Lax`;
+  } catch {
+    // Ignore cookie errors
   }
 }
 
