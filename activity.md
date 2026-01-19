@@ -4552,3 +4552,58 @@ All Stage 6 (Production Content Population) issues are now closed:
   - Keyboard navigation works ✓
   - Touch gestures work ✓
   - Exit button returns to journey page ✓
+
+### 2026-01-19 - Issue #194: 5.1: Animations
+
+**Completed:**
+- Added animation keyframes to `tailwind.config.ts` for conversation UI
+
+**Keyframes Added:**
+- `messageIn`: fade + slide up for new messages
+  - 0%: opacity 0, translateY(12px)
+  - 100%: opacity 1, translateY(0)
+  - Duration: 0.3s ease-out
+
+- `pillIn`: scale bounce for user answers
+  - 0%: opacity 0, scale(0.8)
+  - 50%: scale(1.05)
+  - 100%: opacity 1, scale(1)
+  - Duration: 0.4s with cubic-bezier bounce
+
+- `avatarPulse`: subtle pulse on Alex while typing
+  - 0%, 100%: opacity 1, scale(1)
+  - 50%: opacity 0.7, scale(0.95)
+  - Duration: 2s ease-in-out infinite
+
+**Animation Classes Added:**
+- `animate-message-in` - For new chat messages appearing
+- `animate-pill-in` - For user answer pills bouncing in
+- `animate-avatar-pulse` - For typing indicator on avatar
+
+**Reduced Motion Support:**
+- Already handled by existing `prefers-reduced-motion` media query in globals.css
+- Sets animation-duration to 0.01ms for instant transitions
+
+**Files Modified:**
+- `tailwind.config.ts` - Added 3 new keyframes and 3 animation classes
+
+**Files Created:**
+- `src/__tests__/animations.test.tsx` - 14 unit tests
+
+**Tests:**
+- 14 unit tests covering:
+  - animate-message-in (3 tests): class application, combining with other classes, conditional
+  - animate-pill-in (3 tests): class application, inline elements, answer pills
+  - animate-avatar-pulse (4 tests): class application, circular avatars, typing indicator toggle
+  - motion-safe variant (2 tests): prefixed classes, motion-reduce alternative
+  - animation combinations (2 tests): different elements, conversation flow
+
+**Verification:**
+- `npm run lint` - passes (only pre-existing warnings)
+- `npm run type-check` - passes with no errors
+- `npm run build` - successful production build
+- `npm test -- --testPathPattern="animations.test"` - 14 tests pass
+- All acceptance criteria verified:
+  - Keyframes defined ✓
+  - Animation classes work ✓
+  - Reduced motion fallback (instant) ✓
