@@ -1,11 +1,11 @@
 "use client";
 
 /**
- * Learn Carousel Content - Client component for conversation-based learning
- * Issue: #193 - 4.2: Learn page integration
+ * Learn Carousel Content - Client component for carousel-based learning
+ * Issue: #134 - C2: LearnCarouselContent component
  *
- * Loads modules, flattens to carousel items, and renders ConversationContainer
- * with Lemonade-style conversational UI.
+ * Loads modules, flattens to carousel items, and renders CarouselContainer
+ * with proper content rendering based on item type.
  */
 
 import { useMemo, useCallback } from "react";
@@ -13,16 +13,14 @@ import { useRouter, useSearchParams } from "next/navigation";
 import Link from "next/link";
 import {
   CarouselProvider,
+  CarouselContainer,
   CarouselPaywall,
+  ContentItem,
+  QuizItem,
   MediaItem,
+  ChecklistItem,
   useCarousel,
 } from "@/components/carousel";
-import {
-  ConversationContainer,
-  ConversationalQuiz,
-  ConversationalContent,
-  ConversationalChecklist,
-} from "@/components/alex";
 import type { CarouselItem } from "@/types/carousel";
 import type {
   QuizBlock,
@@ -31,11 +29,6 @@ import type {
   AudioBlock,
   ImageBlock,
   InfographicBlock,
-  TextBlock,
-  QuoteBlock,
-  TipBlock,
-  WarningBlock,
-  HeaderBlock,
 } from "@/types/module";
 import type { FlattenResult } from "@/lib/carousel";
 
@@ -51,9 +44,9 @@ export interface LearnCarouselContentProps {
 }
 
 /**
- * Inner content that renders within CarouselProvider and ConversationContainer
+ * Inner carousel content that renders within CarouselProvider
  */
-function ConversationContentInner({
+function CarouselContentInner({
   companySlug,
   roleSlug,
   companyName,
@@ -65,7 +58,7 @@ function ConversationContentInner({
   roleName: string;
 }) {
   const router = useRouter();
-  const { currentItem, markComplete, next, isLastItem, isAtPaywall } = useCarousel();
+  const { currentItem, markComplete, next, isLastItem } = useCarousel();
 
   // Handle exit - return to journey overview
   const handleExit = useCallback(() => {
@@ -76,12 +69,12 @@ function ConversationContentInner({
   const handleItemComplete = useCallback(() => {
     if (currentItem) {
       markComplete(currentItem.id);
-      // Automatically advance if not at last item and not at paywall
-      if (!isLastItem && !isAtPaywall) {
+      // Automatically advance if not at last item
+      if (!isLastItem) {
         next();
       }
     }
-  }, [currentItem, markComplete, next, isLastItem, isAtPaywall]);
+  }, [currentItem, markComplete, next, isLastItem]);
 
   // Render the current item based on its type
   const renderCurrentItem = useCallback(() => {
@@ -93,13 +86,13 @@ function ConversationContentInner({
       );
     }
 
-    const { id, type, content } = currentItem;
+    const { type, content } = currentItem;
 
     // Handle paywall items
     if (type === "paywall") {
       return (
         <CarouselPaywall
-          price={200} // $200 in dollars (CarouselPaywall expects dollars)
+          price={20000} // $200 in cents
           heading={`Unlock ${companyName} ${roleName} Prep`}
           description={`Get full access to company-specific interview prep, practice questions, and insider tips for ${companyName}.`}
           benefits={[
@@ -113,29 +106,17 @@ function ConversationContentInner({
       );
     }
 
-    // Handle quiz items - use ConversationalQuiz
+    // Handle quiz items
     if (type === "quiz" || content.type === "quiz") {
       return (
-        <ConversationalQuiz
-          itemId={id}
-          quiz={content as QuizBlock}
+        <QuizItem
+          block={content as QuizBlock}
           onComplete={handleItemComplete}
         />
       );
     }
 
-    // Handle checklist items - use ConversationalChecklist
-    if (type === "checklist" || content.type === "checklist") {
-      return (
-        <ConversationalChecklist
-          itemId={id}
-          checklist={content as ChecklistBlock}
-          onComplete={handleItemComplete}
-        />
-      );
-    }
-
-    // Handle media items (video, audio, image, infographic) - use MediaItem with big-question variant
+    // Handle media items (video, audio, image, infographic)
     if (
       content.type === "video" ||
       content.type === "audio" ||
@@ -148,44 +129,23 @@ function ConversationContentInner({
             content as VideoBlock | AudioBlock | ImageBlock | InfographicBlock
           }
           onComplete={handleItemComplete}
-          variant="big-question"
         />
       );
     }
 
-    // Handle header blocks - use MediaItem with big-question variant for dramatic display
-    if (content.type === "header") {
-      const headerBlock = content as HeaderBlock;
+    // Handle checklist items
+    if (type === "checklist" || content.type === "checklist") {
       return (
-        <div className="flex flex-col items-center justify-center min-h-[40vh] text-center px-6">
-          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
-            {headerBlock.content}
-          </h1>
-        </div>
-      );
-    }
-
-    // Handle text-based content (text, quote, tip, warning) - use ConversationalContent
-    if (
-      content.type === "text" ||
-      content.type === "quote" ||
-      content.type === "tip" ||
-      content.type === "warning"
-    ) {
-      return (
-        <ConversationalContent
-          itemId={id}
-          content={content as TextBlock | QuoteBlock | TipBlock | WarningBlock}
+        <ChecklistItem
+          block={content as ChecklistBlock}
           onComplete={handleItemComplete}
         />
       );
     }
 
-    // Default fallback for unknown content types
+    // Default to content items (text, header, quote, tip, warning)
     return (
-      <div className="flex items-center justify-center min-h-[50vh] text-gray-500">
-        Unsupported content type: {content.type}
-      </div>
+      <ContentItem block={content} onComplete={handleItemComplete} />
     );
   }, [
     currentItem,
@@ -195,9 +155,9 @@ function ConversationContentInner({
   ]);
 
   return (
-    <ConversationContainer onExit={handleExit} data-testid="conversation-container">
+    <CarouselContainer onExit={handleExit}>
       {renderCurrentItem()}
-    </ConversationContainer>
+    </CarouselContainer>
   );
 }
 
@@ -209,24 +169,20 @@ export function LearnCarouselContent({
   flattenedResult,
   hasPremiumAccess = false,
 }: LearnCarouselContentProps) {
+  const router = useRouter();
   const searchParams = useSearchParams();
 
   // Get start index from query param (for jumping to specific module)
-  // Clamp to paywall index if user doesn't have premium access
   const startIndex = useMemo(() => {
     const start = searchParams.get("start");
     if (start) {
       const parsed = parseInt(start, 10);
       if (!isNaN(parsed) && parsed >= 0) {
-        // Don't allow jumping past paywall without premium access
-        if (!hasPremiumAccess && flattenedResult?.paywallIndex !== null && flattenedResult?.paywallIndex !== undefined) {
-          return Math.min(parsed, flattenedResult.paywallIndex);
-        }
         return parsed;
       }
     }
     return undefined;
-  }, [searchParams, hasPremiumAccess, flattenedResult?.paywallIndex]);
+  }, [searchParams]);
 
   // Extract items and paywall index from flattened result
   const { items, paywallIndex } = useMemo(() => {
@@ -273,7 +229,7 @@ export function LearnCarouselContent({
         initialIndex: startIndex,
       }}
     >
-      <ConversationContentInner
+      <CarouselContentInner
         companySlug={companySlug}
         roleSlug={roleSlug}
         companyName={companyName}
