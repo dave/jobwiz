@@ -13,7 +13,7 @@ import { useRequireAuth, useAuthContext } from "@/lib/auth";
 import Link from "next/link";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 interface Purchase {
   id: string;
@@ -25,34 +25,17 @@ interface Purchase {
   expiresAt: string;
 }
 
-export function DashboardContent() {
+interface DashboardContentProps {
+  initialPurchases?: Purchase[];
+}
+
+export function DashboardContent({ initialPurchases = [] }: DashboardContentProps) {
   const { user, loading, error } = useRequireAuth();
   const { signOut } = useAuthContext();
   const router = useRouter();
   const [signingOut, setSigningOut] = useState(false);
-  const [purchases, setPurchases] = useState<Purchase[]>([]);
-  const [purchasesLoading, setPurchasesLoading] = useState(true);
-
-  // Fetch purchases
-  useEffect(() => {
-    async function fetchPurchases() {
-      try {
-        const res = await fetch("/api/purchases");
-        if (res.ok) {
-          const data = await res.json();
-          setPurchases(data.purchases ?? []);
-        }
-      } catch {
-        // Fail silently
-      } finally {
-        setPurchasesLoading(false);
-      }
-    }
-
-    if (user) {
-      fetchPurchases();
-    }
-  }, [user]);
+  // Use initial purchases from server - no need to re-fetch
+  const purchases = initialPurchases;
 
   async function handleSignOut() {
     try {
@@ -154,9 +137,7 @@ export function DashboardContent() {
             <h3 className="text-md font-semibold text-gray-900 mb-3">
               Your Purchases
             </h3>
-            {purchasesLoading ? (
-              <p className="text-gray-500 text-sm">Loading purchases...</p>
-            ) : purchases.length === 0 ? (
+            {purchases.length === 0 ? (
               <>
                 <p className="text-gray-500 text-sm">No purchases yet.</p>
                 <p className="text-gray-400 text-sm mt-2">
