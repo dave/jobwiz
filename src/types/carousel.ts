@@ -65,6 +65,8 @@ export interface CarouselNavigation {
   resume: () => void;
   /** Mark current item as complete */
   markComplete: (itemId: string) => void;
+  /** Unlock paywall and advance to next item */
+  unlockPaywall: () => void;
   /** Check if can navigate to next */
   canGoNext: boolean;
   /** Check if can navigate to previous */

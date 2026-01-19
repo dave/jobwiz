@@ -128,26 +128,27 @@ export function CarouselPaywall({
   className,
   alreadyPurchased = false,
 }: CarouselPaywallProps) {
-  const { companySlug, roleSlug, next } = useCarousel();
+  const { companySlug, roleSlug, next, unlockPaywall, state } = useCarousel();
+  const { hasPremiumAccess } = state;
 
   // Generate journey ID for unlock state persistence
   const journeyId = `carousel-${companySlug}-${roleSlug}`;
 
-  // Check if already unlocked via localStorage or prop
+  // Check if already unlocked via localStorage, prop, or context (database access)
   const [isContentUnlocked, setIsContentUnlocked] = useState(() => {
-    if (alreadyPurchased) return true;
+    if (alreadyPurchased || hasPremiumAccess) return true;
     return isUnlocked(journeyId);
   });
   const [isLoading, setIsLoading] = useState(false);
   const hasTrackedImpression = useRef(false);
   const hasAutoAdvanced = useRef(false);
 
-  // Re-check unlock status on mount
+  // Re-check unlock status on mount or when hasPremiumAccess changes
   useEffect(() => {
-    if (alreadyPurchased || isUnlocked(journeyId)) {
+    if (alreadyPurchased || hasPremiumAccess || isUnlocked(journeyId)) {
       setIsContentUnlocked(true);
     }
-  }, [journeyId, alreadyPurchased]);
+  }, [journeyId, alreadyPurchased, hasPremiumAccess]);
 
   // Track impression once when paywall is shown (and not already unlocked)
   useEffect(() => {
@@ -216,8 +217,8 @@ export function CarouselPaywall({
         // Call onUnlock callback
         onUnlock?.();
 
-        // Auto-advance to next item
-        next();
+        // Unlock and advance to next item
+        unlockPaywall();
       }
     } catch {
       // Purchase failed - just reset loading state
@@ -225,7 +226,7 @@ export function CarouselPaywall({
     } finally {
       setIsLoading(false);
     }
-  }, [journeyId, companySlug, roleSlug, price, mockMode, onTrack, onPurchase, onUnlock, next]);
+  }, [journeyId, companySlug, roleSlug, price, mockMode, onTrack, onPurchase, onUnlock, unlockPaywall]);
 
   // Format price
   const formattedPrice = new Intl.NumberFormat("en-US", {

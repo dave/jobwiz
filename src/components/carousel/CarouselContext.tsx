@@ -156,10 +156,13 @@ export function CarouselProvider({
     roleSlug,
     items,
     paywallIndex = null,
-    hasPremiumAccess = false,
+    hasPremiumAccess: initialHasPremiumAccess = false,
     initialIndex,
     initialCompletedItems,
   } = options;
+
+  // Track premium access as state so it can be updated when user unlocks
+  const [hasPremiumAccess, setHasPremiumAccess] = useState(initialHasPremiumAccess);
 
   // Track if Supabase state has been loaded
   const supabaseLoadedRef = useRef(false);
@@ -347,6 +350,14 @@ export function CarouselProvider({
     });
   }, []);
 
+  // Unlock paywall and advance to next item
+  const unlockPaywall = useCallback(() => {
+    setHasPremiumAccess(true);
+    // Advance to next item after unlocking
+    setLastDirection("next");
+    setCurrentIndex((prev) => Math.min(prev + 1, items.length - 1));
+  }, [items.length]);
+
   // Build state object
   const state: CarouselState = useMemo(
     () => ({
@@ -388,6 +399,7 @@ export function CarouselProvider({
       pause,
       resume,
       markComplete,
+      unlockPaywall,
       canGoNext,
       canGoPrev,
     }),
@@ -408,6 +420,7 @@ export function CarouselProvider({
       pause,
       resume,
       markComplete,
+      unlockPaywall,
       canGoNext,
       canGoPrev,
     ]
