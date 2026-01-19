@@ -113,12 +113,13 @@ export function meetsWCAGAAA(
 
 /**
  * Get the best text color (black or white) for a given background
- * Based on contrast ratio
+ * Based on contrast ratio. Uses higher threshold (0.4) so mid-tone colors
+ * like Google Blue (#4285f4) get white text which is more visually appealing.
  */
 export function getTextColorForBackground(backgroundColor: string): string {
   const luminance = getRelativeLuminance(backgroundColor);
-  // Use white text for dark backgrounds, black for light
-  return luminance > 0.179 ? "#000000" : "#ffffff";
+  // Use white text for dark/medium backgrounds, black for light
+  return luminance > 0.4 ? "#000000" : "#ffffff";
 }
 
 /**
