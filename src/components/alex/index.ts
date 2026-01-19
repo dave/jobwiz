@@ -6,3 +6,5 @@ export type { ChatBubbleProps, ChatBubbleVariant } from "./ChatBubble";
 
 export { TypingIndicator } from "./TypingIndicator";
 export type { TypingIndicatorProps } from "./TypingIndicator";
+
+export { ConversationProvider, useConversation } from "./ConversationContext";

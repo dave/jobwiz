@@ -3964,3 +3964,74 @@ All Stage 6 (Production Content Population) issues are now closed:
   - User pill matches spec ✓
   - Typing dots animate ✓
   - Respects reduced-motion ✓
+
+### 2026-01-19 - Issue #184: 1.3: Conversation context
+
+**Completed:**
+- Created `src/components/alex/ConversationContext.tsx` with full state management
+- Added conversation types to `src/types/carousel.ts`:
+  - `ConversationDisplayMode` - 'big-question' | 'conversational'
+  - `ConversationAnswer` - { selectedIds, isCorrect?, timestamp }
+  - `ConversationMessage` - { id, sender, content, itemId, timestamp }
+  - `ConversationState` - { messages, answers, displayMode }
+  - `ConversationActions` - addMessage, recordAnswer, setDisplayMode, etc.
+  - `ConversationContextValue` - combined state + actions
+- Implemented `ConversationProvider` component:
+  - Manages messages array (session only, not persisted)
+  - Manages answers Record (persisted to localStorage + Supabase)
+  - Manages displayMode state
+  - Integrates with CarouselContext (uses companySlug, roleSlug)
+- Implemented actions:
+  - `addMessage(sender, content, itemId)` - adds message, returns ID
+  - `recordAnswer(itemId, selectedIds, isCorrect?)` - records quiz answer
+  - `setDisplayMode(mode)` - switches between big-question and conversational
+  - `clearMessages()` - clears messages (for reset)
+  - `getAnswer(itemId)` - retrieves answer for item
+  - `hasAnswer(itemId)` - checks if item has answer
+- Created `useConversation()` hook for consuming context
+- Implemented localStorage persistence:
+  - Key format: `conversation-{companySlug}-{roleSlug}`
+  - Persists answers only (messages are session-only)
+  - Loads saved answers on mount
+- Implemented Supabase sync:
+  - Uses existing `journey_progress` table with journeyId format `conversation-{company}-{role}`
+  - Debounced save (1 second) for performance
+  - Loads from Supabase on mount if remote state is newer
+  - Configurable via `enableSupabaseSync` prop (default: true)
+- Updated exports in `src/components/alex/index.ts`
+- Updated type exports in `src/types/index.ts`
+
+**Files Created:**
+- `src/components/alex/ConversationContext.tsx`
+- `src/components/alex/__tests__/ConversationContext.test.tsx`
+
+**Files Modified:**
+- `src/types/carousel.ts` - Added conversation types
+- `src/types/index.ts` - Added conversation type exports
+- `src/components/alex/index.ts` - Added ConversationProvider and useConversation exports
+
+**Tests:**
+- 31 unit tests covering:
+  - Initialization (4 tests)
+  - addMessage (5 tests)
+  - recordAnswer (4 tests)
+  - getAnswer (2 tests)
+  - hasAnswer (2 tests)
+  - setDisplayMode (2 tests)
+  - clearMessages (2 tests)
+  - localStorage persistence (3 tests)
+  - Supabase sync (3 tests)
+  - useConversation hook error (1 test)
+  - Integration with CarouselContext (2 tests)
+  - Rendering (1 test)
+
+**Verification:**
+- `npm run lint` - passes with no errors
+- `npm run type-check` - passes with no errors
+- `npm run build` - successful production build
+- `npm test` - 31 new ConversationContext tests pass (105 total alex tests pass)
+- All acceptance criteria verified:
+  - Context provides state + actions ✓
+  - Integrates with CarouselContext ✓
+  - Answers persist to localStorage ✓
+  - Answers sync to Supabase (if logged in) ✓
