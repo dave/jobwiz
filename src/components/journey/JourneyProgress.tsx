@@ -282,7 +282,7 @@ export function JourneyProgress({
             <h2 className="text-lg font-semibold text-gray-900">
               Your Progress
             </h2>
-            {currentModule && (
+            {!progressLoading && currentModule && (
               <p
                 className="text-sm text-gray-500 mt-1"
                 data-testid="current-module-name"
@@ -297,9 +297,9 @@ export function JourneyProgress({
           <span
             className="text-2xl font-bold text-blue-600"
             data-testid="progress-percentage"
-            aria-label={`${progressPercentage}% complete`}
+            aria-label={progressLoading ? "Loading progress" : `${progressPercentage}% complete`}
           >
-            {progressPercentage}%
+            {progressLoading ? "-" : `${progressPercentage}%`}
           </span>
         </div>
 
@@ -308,18 +308,20 @@ export function JourneyProgress({
           <div
             className="w-full bg-gray-200 rounded-full h-3"
             role="progressbar"
-            aria-valuenow={progressPercentage}
+            aria-valuenow={progressLoading ? 0 : progressPercentage}
             aria-valuemin={0}
             aria-valuemax={100}
-            aria-label={`Journey progress: ${progressPercentage}% complete`}
+            aria-label={progressLoading ? "Loading progress" : `Journey progress: ${progressPercentage}% complete`}
           >
-            <div
-              className="bg-blue-600 h-3 rounded-full transition-all duration-300"
-              style={{ width: `${progressPercentage}%` }}
-            />
+            {!progressLoading && (
+              <div
+                className="bg-blue-600 h-3 rounded-full transition-all duration-300"
+                style={{ width: `${progressPercentage}%` }}
+              />
+            )}
           </div>
           <p className="text-xs text-gray-500 mt-1">
-            {completedItems.size} of {totalItems} items complete
+            {progressLoading ? "Loading..." : `${completedItems.size} of ${totalItems} items complete`}
           </p>
         </div>
 
