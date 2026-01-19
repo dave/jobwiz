@@ -307,6 +307,17 @@ export function CarouselProvider({
   // Navigation actions
   const next = useCallback(() => {
     if (!canGoNext) return;
+
+    // Mark current item as complete when navigating forward
+    const currentItem = items[currentIndex];
+    if (currentItem && currentItem.type !== "paywall") {
+      setCompletedItems((prev) => {
+        const next = new Set(prev);
+        next.add(currentItem.id);
+        return next;
+      });
+    }
+
     setLastDirection("next");
     setCurrentIndex((prevIndex) => {
       let newIndex = prevIndex + 1;
@@ -316,7 +327,7 @@ export function CarouselProvider({
       }
       return Math.min(newIndex, items.length - 1);
     });
-  }, [canGoNext, items.length, hasPremiumAccess, paywallIndex]);
+  }, [canGoNext, items, currentIndex, hasPremiumAccess, paywallIndex]);
 
   const prev = useCallback(() => {
     if (!canGoPrev) return;
