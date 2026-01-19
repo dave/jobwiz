@@ -2579,3 +2579,46 @@ All Stage 5 (Launch) code issues are now closed:
   - Shows value prop and purchase CTA ✓
   - On purchase, auto-advances to next item ✓
   - Skip if user already purchased ✓
+
+### 2026-01-18 - Issue #131: B6: Module loader for carousel
+
+**Completed:**
+- Created `/src/lib/carousel/load-modules.ts` with module loading functionality
+- Implemented `loadCarouselModules(company, role)` that returns ordered modules
+- Module order: universal → company → role → company-role (industry skipped per spec)
+- Returns `{ freeModules, premiumModules, allModules }` split at paywall boundary
+- Free modules = universal only, Premium modules = company + role + company-role
+- Created helper functions: `hasCompanyRoleModule()`, `getModuleOrderIndex()`
+- Created `/src/lib/carousel/index.ts` for exports
+
+**Features:**
+- Loads modules from `/data/generated/modules/` directory
+- Parses JSON module files and maps to Module interface
+- Handles missing modules gracefully (returns empty arrays)
+- Correctly filters out industry modules
+- Sorts universal modules by display_order
+
+**Files Created:**
+- `src/lib/carousel/load-modules.ts`
+- `src/lib/carousel/index.ts`
+- `src/lib/carousel/__tests__/load-modules.test.ts`
+
+**Tests:**
+- 23 unit tests covering:
+  - Module ordering for google/software-engineer
+  - Module ordering for amazon/product-manager
+  - Free/premium module split
+  - Non-existent company/role handling
+  - Module structure validation
+  - hasCompanyRoleModule utility
+  - getModuleOrderIndex utility
+
+**Verification:**
+- `npm run lint` - passes with no errors
+- `npm run type-check` - passes with no errors
+- `npm run build` - successful production build
+- `npm test` - 23 new carousel loader tests pass (2081 total passed, 12 pre-existing failures unrelated to this change)
+- All acceptance criteria verified:
+  - Returns correct modules in correct order for google/software-engineer ✓
+  - Order: universal → company → role → company-role ✓
+  - Returns { freeModules, premiumModules } split at paywall ✓
