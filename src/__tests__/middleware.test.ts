@@ -11,7 +11,7 @@
 
 describe("route patterns", () => {
   const PUBLIC_ROUTES = ["/", "/login", "/signup", "/forgot-password", "/auth/callback"];
-  const AUTHENTICATED_ROUTES = ["/dashboard", "/profile"];
+  const AUTHENTICATED_ROUTES = ["/dashboard"];
   const PURCHASED_ROUTE_PATTERN = /^\/([^\/]+)\/([^\/]+)\/journey$/;
 
   describe("public routes", () => {
@@ -39,12 +39,6 @@ describe("route patterns", () => {
   describe("authenticated routes", () => {
     it("identifies /dashboard as authenticated route", () => {
       expect(AUTHENTICATED_ROUTES.some((route) => "/dashboard".startsWith(route))).toBe(
-        true
-      );
-    });
-
-    it("identifies /profile as authenticated route", () => {
-      expect(AUTHENTICATED_ROUTES.some((route) => "/profile".startsWith(route))).toBe(
         true
       );
     });
@@ -140,7 +134,7 @@ describe("route protection levels", () => {
       "/forgot-password",
       "/auth/callback",
     ];
-    const AUTHENTICATED_ROUTES = ["/dashboard", "/profile"];
+    const AUTHENTICATED_ROUTES = ["/dashboard"];
     const PURCHASED_ROUTE_PATTERN = /^\/([^\/]+)\/([^\/]+)\/journey$/;
 
     if (PUBLIC_ROUTES.includes(path)) return "public";
@@ -182,10 +176,6 @@ describe("route protection levels", () => {
 
   it("classifies dashboard as authenticated", () => {
     expect(getRouteLevel("/dashboard")).toBe("authenticated");
-  });
-
-  it("classifies profile as authenticated", () => {
-    expect(getRouteLevel("/profile")).toBe("authenticated");
   });
 
   it("classifies journey page as purchased", () => {
