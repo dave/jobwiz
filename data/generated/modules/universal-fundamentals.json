@@ -7,6 +7,81 @@
   "display_order": 0,
   "sections": [
     {
+      "id": "intro",
+      "title": "Welcome to Your Interview Prep",
+      "blocks": [
+        {
+          "type": "header",
+          "content": {
+            "text": "Hey, let's get you ready for this.",
+            "level": 2
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "You're about to go through something different from the usual interview prep. No endless lists of 'Top 100 Questions' to memorize. No generic advice like 'be confident' or 'research the company.' You've probably tried that already."
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "What we've built here comes from real data—thousands of interview experiences from Reddit, Glassdoor, and people who've actually been through the process at your target company. We've distilled it into what actually matters."
+          }
+        },
+        {
+          "type": "quote",
+          "content": {
+            "text": "The key insight: interviewers aren't looking for perfect answers. They're looking for how you think.",
+            "author": null
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "That's why we focus on the psychology behind interview questions. When you understand what an interviewer is really trying to learn about you, you stop trying to guess the 'right' answer and start having a genuine conversation. That's when you stand out."
+          }
+        },
+        {
+          "type": "tip",
+          "content": {
+            "text": "Think of this as understanding the game, not memorizing plays. Once you see what's really being evaluated, you'll know how to show up authentically—and that's what actually lands offers."
+          }
+        },
+        {
+          "type": "header",
+          "content": {
+            "text": "How this works",
+            "level": 3
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "You'll move through three layers:\n\n**1. Fundamentals (you're here)** — Core interview skills that work everywhere. The STAR method, how to research effectively, what questions to ask. Master these once, use them forever.\n\n**2. Company-specific** — What makes interviewing at your target company different. Their values, their process, what their interviewers care about. The stuff that separates 'prepared' from 'really prepared.'\n\n**3. Role-specific** — Technical depth for your particular role. The questions you'll actually face and how to structure your answers."
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "Each section builds on the last. By the end, you won't just know what to say—you'll understand why certain approaches work and be able to adapt in the moment."
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "Fair warning: this isn't about memorizing scripts. If you're looking for word-for-word answers to copy, this isn't that. What you'll get is a framework for thinking through any question they throw at you."
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "Ready? Let's start with the fundamentals."
+          }
+        }
+      ]
+    },
+    {
       "id": "mindset",
       "title": "The Interview Mindset",
       "blocks": [
