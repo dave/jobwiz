@@ -6,13 +6,32 @@
  *
  * Client component that displays the user's dashboard
  * Protected by middleware - requires authentication
+ * Now includes profile section (merged from /profile)
  */
 
-import { useRequireAuth } from "@/lib/auth";
+import { useRequireAuth, useAuthContext } from "@/lib/auth";
 import Link from "next/link";
+import Image from "next/image";
+import { useRouter } from "next/navigation";
+import { useState } from "react";
 
 export function DashboardContent() {
   const { user, loading, error } = useRequireAuth();
+  const { signOut } = useAuthContext();
+  const router = useRouter();
+  const [signingOut, setSigningOut] = useState(false);
+
+  async function handleSignOut() {
+    try {
+      setSigningOut(true);
+      await signOut();
+      router.push("/");
+    } catch {
+      // Error is handled by the context
+    } finally {
+      setSigningOut(false);
+    }
+  }
 
   if (loading) {
     return (
@@ -46,24 +65,49 @@ export function DashboardContent() {
 
   return (
     <div className="min-h-screen bg-gray-50">
-      <header className="bg-white shadow-sm">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+      {/* Profile Header */}
+      <header className="bg-gradient-to-r from-blue-500 to-blue-600 shadow-sm">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <div className="flex items-center justify-between">
-            <h1 className="text-2xl font-bold text-gray-900">Dashboard</h1>
-            <Link
-              href="/profile"
-              className="text-blue-600 hover:text-blue-800 font-medium"
+            <div className="flex items-center">
+              {user.avatarUrl ? (
+                <Image
+                  src={user.avatarUrl}
+                  alt="Profile"
+                  width={56}
+                  height={56}
+                  className="h-14 w-14 rounded-full border-2 border-white"
+                />
+              ) : (
+                <div className="h-14 w-14 rounded-full border-2 border-white bg-white flex items-center justify-center">
+                  <span className="text-xl font-bold text-blue-600">
+                    {(user.displayName ?? user.email ?? "U").charAt(0).toUpperCase()}
+                  </span>
+                </div>
+              )}
+              <div className="ml-4">
+                <h1 className="text-xl font-bold text-white">
+                  {user.displayName ?? "User"}
+                </h1>
+                <p className="text-blue-100 text-sm">{user.email}</p>
+              </div>
+            </div>
+            <button
+              onClick={handleSignOut}
+              disabled={signingOut}
+              className="px-4 py-2 bg-white/20 text-white font-medium rounded-md hover:bg-white/30 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-blue-600 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
             >
-              View Profile
-            </Link>
+              {signingOut ? "Signing out..." : "Sign Out"}
+            </button>
           </div>
         </div>
       </header>
 
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        {/* Welcome Card */}
         <div className="bg-white shadow rounded-lg p-6 mb-6">
-          <h2 className="text-lg font-semibold text-gray-900 mb-4">
-            Welcome back, {user.displayName ?? user.email ?? "User"}!
+          <h2 className="text-lg font-semibold text-gray-900 mb-2">
+            Welcome back!
           </h2>
           <p className="text-gray-600">
             Your interview prep journey starts here. Explore companies and roles

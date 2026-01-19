@@ -4,7 +4,7 @@
  *
  * Checks auth for protected routes and handles redirects:
  * - Public: /, /[company], /[company]/[role], /[company]/[role]/journey, /login, /signup
- * - Authenticated: /dashboard, /profile
+ * - Authenticated: /dashboard
  *
  * Note: Journey pages are public. Premium content is gated by PaywallGate component.
  */
@@ -15,7 +15,7 @@ import { createServerClient } from "@supabase/ssr";
 /**
  * Routes that require authentication
  */
-const AUTHENTICATED_ROUTES = ["/dashboard", "/profile"];
+const AUTHENTICATED_ROUTES = ["/dashboard"];
 
 /**
  * Public routes (no auth required)
