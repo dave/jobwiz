@@ -21,6 +21,12 @@ export type {
   TimelineSection,
 } from "./SectionTimeline";
 
+export {
+  ConversationContainer,
+  getDisplayModeForType,
+} from "./ConversationContainer";
+export type { ConversationContainerProps } from "./ConversationContainer";
+
 // Content item components
 export { ConversationalQuiz } from "./items/ConversationalQuiz";
 export type { ConversationalQuizProps } from "./items/ConversationalQuiz";

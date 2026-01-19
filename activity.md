@@ -4490,3 +4490,65 @@ All Stage 6 (Production Content Population) issues are now closed:
   - Larger controls on video/audio ✓
   - Image/infographic fills available space ✓
   - Existing default variant unchanged ✓
+
+### 2026-01-19 - Issue #192: Conversation container
+
+**Completed:**
+- Created `ConversationContainer` component for orchestrating conversation UI
+- Component located at `src/components/alex/ConversationContainer.tsx`
+
+**Responsibilities:**
+- Wraps ConversationContext + CarouselContext
+- Determines display mode per item type using `getDisplayModeForType()`:
+  - `header`, `video`, `audio`, `image`, `infographic` → Big Question mode
+  - `text`, `quote`, `tip`, `warning`, `quiz`, `checklist` → Conversational mode
+- Renders SectionTimeline (responsive: desktop sidebar, mobile drawer)
+- Switches between BigQuestionMode / ConversationalMode with transitions
+- Keyboard navigation: Escape = exit (Enter handled by child modes)
+- Touch: tap to continue in big-question mode (avoids buttons/links/inputs)
+
+**Features:**
+- AnimatePresence for smooth mode transitions
+- Direction-aware transitions (fade for conversational→big, slide-up for big→conversational)
+- Reduced motion support
+- Prevents keyboard shortcuts in input/textarea fields
+- Touch targets exclude interactive elements
+
+**Props:**
+- `children` - Content to render in current mode
+- `onExit` - Callback when user exits (Escape key)
+- `className` - Optional custom class name
+- `data-testid` - Optional test ID
+
+**Files Created:**
+- `src/components/alex/ConversationContainer.tsx` - Main container component
+- `src/components/alex/__tests__/ConversationContainer.test.tsx` - 44 unit tests
+
+**Files Modified:**
+- `src/components/alex/index.ts` - Added ConversationContainer and getDisplayModeForType exports
+
+**Tests:**
+- 44 unit tests covering:
+  - getDisplayModeForType (12 tests): all content type mappings
+  - Rendering (4 tests): container, children, timeline, className
+  - Display Mode Determination (11 tests): big-question and conversational modes
+  - Mode Switching (2 tests): BigQuestionMode and ConversationalMode rendering
+  - Keyboard Navigation (3 tests): Escape key, input/textarea handling
+  - Touch Gestures (3 tests): button, link, conversational mode exclusions
+  - Timeline Integration (2 tests): section rendering, progress
+  - Exit Functionality (2 tests): onExit callback, missing handler
+  - Edge Cases (3 tests): empty items, malformed content, rapid changes
+  - Accessibility (2 tests): timeline aria-label, mobile toggle attributes
+
+**Verification:**
+- `npm run lint` - passes (only pre-existing warnings)
+- `npm run type-check` - passes with no errors
+- `npm run build` - successful production build
+- `npm test` - 361 alex component tests pass (44 new ConversationContainer tests)
+- All acceptance criteria verified:
+  - Correctly determines mode per content type ✓
+  - Switches modes with transition animation ✓
+  - Timeline renders (desktop sidebar, mobile drawer) ✓
+  - Keyboard navigation works ✓
+  - Touch gestures work ✓
+  - Exit button returns to journey page ✓
