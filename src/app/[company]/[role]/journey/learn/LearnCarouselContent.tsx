@@ -9,7 +9,7 @@
  */
 
 import { useMemo, useCallback } from "react";
-import { useRouter } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 import Link from "next/link";
 import {
   CarouselProvider,
@@ -170,6 +170,19 @@ export function LearnCarouselContent({
   hasPremiumAccess = false,
 }: LearnCarouselContentProps) {
   const router = useRouter();
+  const searchParams = useSearchParams();
+
+  // Get start index from query param (for jumping to specific module)
+  const startIndex = useMemo(() => {
+    const start = searchParams.get("start");
+    if (start) {
+      const parsed = parseInt(start, 10);
+      if (!isNaN(parsed) && parsed >= 0) {
+        return parsed;
+      }
+    }
+    return undefined;
+  }, [searchParams]);
 
   // Extract items and paywall index from flattened result
   const { items, paywallIndex } = useMemo(() => {
@@ -213,6 +226,7 @@ export function LearnCarouselContent({
         items,
         paywallIndex,
         hasPremiumAccess,
+        initialIndex: startIndex,
       }}
     >
       <CarouselContentInner

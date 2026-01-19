@@ -86,6 +86,7 @@ interface ModuleDisplayInfo {
   isCurrent: boolean;
   itemCount: number;
   completedItemCount: number;
+  startIndex: number;
 }
 
 /**
@@ -203,6 +204,7 @@ function buildModuleDisplayInfo(
       isCurrent,
       itemCount: moduleItemCount,
       completedItemCount,
+      startIndex: moduleStartIndex,
     });
 
     cumulativeIndex = moduleEndIndex;
@@ -401,7 +403,11 @@ function ModuleListItem({
     isCurrent,
     itemCount,
     completedItemCount,
+    startIndex,
   } = moduleInfo;
+
+  // Determine if this module is clickable
+  const isClickable = !isLocked;
 
   // Determine item styling based on state
   let containerClasses =
@@ -416,11 +422,16 @@ function ModuleListItem({
     containerClasses += " bg-blue-50 border-blue-200";
     iconContainerClasses += " bg-blue-600 text-white";
   } else if (isLocked) {
-    containerClasses += " bg-gray-50 border-gray-100 opacity-75";
+    containerClasses += " bg-gray-50 border-gray-100 opacity-75 cursor-not-allowed";
     iconContainerClasses += " bg-gray-300 text-gray-500";
   } else {
     containerClasses += " bg-gray-50 border-gray-200";
     iconContainerClasses += " bg-gray-300 text-gray-600";
+  }
+
+  // Add hover styles for clickable items
+  if (isClickable) {
+    containerClasses += " cursor-pointer hover:border-blue-300 hover:shadow-sm";
   }
 
   // Module type badge styling
@@ -462,8 +473,8 @@ function ModuleListItem({
       ? "Complete"
       : `${completedItemCount}/${itemCount}`;
 
-  return (
-    <div className={containerClasses} data-testid={`module-item-${index}`}>
+  const content = (
+    <>
       {/* Icon */}
       <div className={iconContainerClasses}>
         {isCompleted ? (
@@ -508,6 +519,24 @@ function ModuleListItem({
           Current
         </span>
       )}
+    </>
+  );
+
+  if (isClickable) {
+    return (
+      <Link
+        href={`/${companySlug}/${roleSlug}/journey/learn?start=${startIndex}`}
+        className={containerClasses}
+        data-testid={`module-item-${index}`}
+      >
+        {content}
+      </Link>
+    );
+  }
+
+  return (
+    <div className={containerClasses} data-testid={`module-item-${index}`}>
+      {content}
     </div>
   );
 }
