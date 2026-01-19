@@ -38,9 +38,11 @@ DROP POLICY IF EXISTS generation_runs_admin ON generation_runs;
 -- =============================================================================
 
 -- Drop tables in correct order (content_blocks depends on modules)
-DROP TABLE IF EXISTS content_blocks;
-DROP TABLE IF EXISTS generation_runs;
-DROP TABLE IF EXISTS modules;
+-- Use CASCADE to handle any remaining foreign key dependencies
+DROP TABLE IF EXISTS content_blocks CASCADE;
+DROP TABLE IF EXISTS generation_runs CASCADE;
+DROP TABLE IF EXISTS generation_queue CASCADE;
+DROP TABLE IF EXISTS modules CASCADE;
 
 -- =============================================================================
 -- DOCUMENTATION

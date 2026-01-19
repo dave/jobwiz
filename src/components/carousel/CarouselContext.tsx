@@ -151,14 +151,14 @@ async function saveToSupabase(progress: CarouselProgress): Promise<boolean> {
 interface CarouselProviderProps {
   options: CarouselOptions;
   children: ReactNode;
-  /** Enable Supabase sync for logged-in users (default: false until migrations are applied) */
+  /** Enable Supabase sync for logged-in users (default: true) */
   enableSupabaseSync?: boolean;
 }
 
 export function CarouselProvider({
   options,
   children,
-  enableSupabaseSync = false,
+  enableSupabaseSync = true,
 }: CarouselProviderProps) {
   const {
     companySlug,
