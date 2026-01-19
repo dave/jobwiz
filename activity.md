@@ -3721,3 +3721,53 @@ All Stage 5 (Launch) code issues are now closed:
   - Create "Mistakes to Avoid" section in each role module ✓
   - Format as warning blocks with explanations ✓
   - Group by category (behavioral, technical, culture, curveball) ✓
+
+### 2026-01-19 - Issue #154: Add answer frameworks to modules
+
+**Completed:**
+- Created `/scripts/add-answer-frameworks.ts` script
+- Extracts `answer_framework` data from question files per role
+- Creates "How to Structure Your Answers" section in each of 22 role modules
+- Handles different framework formats by category:
+  - Behavioral: `structure`, `key_elements`, `time_allocation`
+  - Technical: `approach`, `key_elements`, `follow_up_prep`
+  - Culture: `authenticity_check`, `key_elements`, `red_flags_to_avoid`
+  - Curveball: `approach`, `composure_tip`, `key_elements`
+- Each section includes:
+  - Framework name per category
+  - Checklist of key elements to cover (6 items per category)
+  - Category-specific tips (time allocation, follow-ups, red flags, composure)
+  - Example question per category
+- Script is idempotent - won't duplicate sections on re-run
+- Supports `--dry-run`, `--role=X`, and `--help` flags
+
+**Section Structure Per Role:**
+- Header: "How to Structure Your Answers"
+- Introduction text with pro tip
+- Per-category breakdowns (behavioral, technical, culture, curveball)
+- Framework name and checklist per category
+- Additional tips per category type
+- Example question quotes
+- Final summary text
+
+**Files Created:**
+- `scripts/add-answer-frameworks.ts` - Answer frameworks extraction script
+
+**Files Modified:**
+- `data/generated/modules/role-*.json` (22 files) - Added "How to Structure Your Answers" section (24 blocks each)
+
+**Stats:**
+- Roles processed: 22
+- Modules modified: 22
+- Total blocks added: 528 (24 blocks × 22 roles)
+
+**Verification:**
+- `npm run lint` - passes with no errors
+- `npm run type-check` - passes with no errors
+- `npm run build` - successful production build
+- `npm test` - 2163 passed, 2 todo, 12 pre-existing failures (unrelated to this change)
+- All acceptance criteria verified:
+  - Extract answer frameworks from question files ✓
+  - Create "How to Structure Your Answers" section in role modules ✓
+  - Include STAR breakdowns, time allocation tips ✓
+  - Add example frameworks for different question types ✓
