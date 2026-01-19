@@ -1,0 +1,104 @@
+{
+  "batch": "High-growth Startups",
+  "generated_at": "2026-01-19",
+  "themes": [
+    {
+      "company_slug": "stripe",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Stripe_Logo%2C_revised_2016.svg",
+      "primary_color": "#635BFF",
+      "secondary_color": "#32325D",
+      "industry_category": "High-growth Startups"
+    },
+    {
+      "company_slug": "figma",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg",
+      "primary_color": "#F24E1E",
+      "secondary_color": "#A259FF",
+      "industry_category": "High-growth Startups"
+    },
+    {
+      "company_slug": "notion",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Notion_app_logo.png",
+      "primary_color": "#000000",
+      "secondary_color": "#FFFFFF",
+      "industry_category": "High-growth Startups"
+    },
+    {
+      "company_slug": "vercel",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Vercel_logo_black.svg",
+      "primary_color": "#000000",
+      "secondary_color": "#FFFFFF",
+      "industry_category": "High-growth Startups"
+    },
+    {
+      "company_slug": "databricks",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Databricks_Logo.png",
+      "primary_color": "#FF3621",
+      "secondary_color": "#1B3139",
+      "industry_category": "High-growth Startups"
+    },
+    {
+      "company_slug": "snowflake",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Snowflake_Logo.svg",
+      "primary_color": "#29B5E8",
+      "secondary_color": "#0052CC",
+      "industry_category": "High-growth Startups"
+    },
+    {
+      "company_slug": "airbnb",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Airbnb_Logo_B%C3%A9lo.svg",
+      "primary_color": "#FF5A5F",
+      "secondary_color": "#484848",
+      "industry_category": "High-growth Startups"
+    },
+    {
+      "company_slug": "uber",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Uber_logo_2018.png",
+      "primary_color": "#000000",
+      "secondary_color": "#FFFFFF",
+      "industry_category": "High-growth Startups"
+    },
+    {
+      "company_slug": "lyft",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Lyft_logo.svg",
+      "primary_color": "#FF00BF",
+      "secondary_color": "#11111F",
+      "industry_category": "High-growth Startups"
+    },
+    {
+      "company_slug": "doordash",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/DoorDash_logo.png",
+      "primary_color": "#FF3008",
+      "secondary_color": "#191919",
+      "industry_category": "High-growth Startups"
+    },
+    {
+      "company_slug": "instacart",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Instacart_logo_and_wordmark.svg",
+      "primary_color": "#0AAD05",
+      "secondary_color": "#003D29",
+      "industry_category": "High-growth Startups"
+    },
+    {
+      "company_slug": "coinbase",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Coinbase.svg",
+      "primary_color": "#0052FF",
+      "secondary_color": "#0A0B0D",
+      "industry_category": "High-growth Startups"
+    },
+    {
+      "company_slug": "robinhood",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Robinhood_wordmark.png",
+      "primary_color": "#00C805",
+      "secondary_color": "#000000",
+      "industry_category": "High-growth Startups"
+    },
+    {
+      "company_slug": "plaid",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Plaid_logo.svg",
+      "primary_color": "#000000",
+      "secondary_color": "#109DD7",
+      "industry_category": "High-growth Startups"
+    }
+  ]
+}
