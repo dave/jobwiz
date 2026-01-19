@@ -74,11 +74,13 @@ export function JourneyContent({
   const [hasAccess, setHasAccess] = useState(initialHasAccess);
   const [checkingAccess, setCheckingAccess] = useState(!initialHasAccess);
   const [progress, setProgress] = useState<CarouselProgress | null>(null);
+  const [progressLoaded, setProgressLoaded] = useState(false);
 
   // Load persisted progress from localStorage on mount
   useEffect(() => {
     const loadedProgress = loadPersistedProgress(companySlug, roleSlug);
     setProgress(loadedProgress);
+    setProgressLoaded(true);
   }, [companySlug, roleSlug]);
 
   // Check if user has purchased access (skip if already have access from server)
@@ -207,6 +209,7 @@ export function JourneyContent({
               paywallIndex={paywallIndex}
               hasPremiumAccess={hasAccess}
               progress={progress}
+              progressLoading={!progressLoaded}
             />
 
             {/* Premium Unlock Section (if user doesn't have access) */}
