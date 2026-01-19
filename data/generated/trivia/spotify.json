@@ -1,0 +1,162 @@
+[
+  {
+    "company_slug": "spotify",
+    "fact_type": "founding",
+    "format": "quiz",
+    "question": "When was Spotify founded?",
+    "answer": "2006",
+    "options": [
+      "2001",
+      "2004",
+      "2009"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Spotify",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "spotify",
+    "fact_type": "founding",
+    "format": "flashcard",
+    "question": "Who founded Spotify?",
+    "answer": "Daniel Ek and Martin Lorentzon",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Spotify",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "spotify",
+    "fact_type": "founding",
+    "format": "factoid",
+    "question": null,
+    "answer": "Spotify was founded in 2006 by Daniel Ek and Martin Lorentzon.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Spotify",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "spotify",
+    "fact_type": "hq",
+    "format": "quiz",
+    "question": "Where is Spotify's headquarters located?",
+    "answer": "Stockholm, Sweden",
+    "options": [
+      "San Francisco, California",
+      "New York, New York",
+      "Los Angeles, California"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Spotify",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "spotify",
+    "fact_type": "hq",
+    "format": "flashcard",
+    "question": "What city is Spotify headquartered in?",
+    "answer": "Stockholm, Sweden",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Spotify",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "spotify",
+    "fact_type": "exec",
+    "format": "quiz",
+    "question": "Who is the current CEO of Spotify?",
+    "answer": "Daniel Ek",
+    "options": [
+      "Reed Hastings",
+      "Evan Spiegel",
+      "Mark Zuckerberg"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Spotify",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "spotify",
+    "fact_type": "exec",
+    "format": "flashcard",
+    "question": "Who leads Spotify as CEO?",
+    "answer": "Daniel Ek",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Spotify",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "spotify",
+    "fact_type": "mission",
+    "format": "factoid",
+    "question": null,
+    "answer": "Spotify's mission is \"To unlock the potential of human creativity by giving a million creative artists the opportunity to live off their art\".",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Spotify",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "spotify",
+    "fact_type": "mission",
+    "format": "flashcard",
+    "question": "What is Spotify's mission statement?",
+    "answer": "To unlock the potential of human creativity by giving a million creative artists the opportunity to live off their art",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Spotify",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "spotify",
+    "fact_type": "product",
+    "format": "quiz",
+    "question": "Which of these is a Spotify product or service?",
+    "answer": "Spotify Free",
+    "options": [
+      "Netflix",
+      "Hulu",
+      "Amazon Prime Video"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Spotify",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "spotify",
+    "fact_type": "product",
+    "format": "factoid",
+    "question": null,
+    "answer": "Key Spotify products and services include Spotify Free, Spotify Premium, Spotify for Artists, Spotify for Podcasters, Spotify Wrapped.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Spotify",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "spotify",
+    "fact_type": "acquisition",
+    "format": "quiz",
+    "question": "Which company did Spotify acquire in 2019?",
+    "answer": "Anchor",
+    "options": [
+      "Lucasfilm",
+      "Marvel",
+      "Pixar"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Spotify",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "spotify",
+    "fact_type": "acquisition",
+    "format": "factoid",
+    "question": null,
+    "answer": "Spotify acquired Anchor in 2019.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Spotify",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "spotify",
+    "fact_type": "acquisition",
+    "format": "flashcard",
+    "question": "In what year did Spotify acquire Gimlet Media?",
+    "answer": "2019",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Spotify",
+    "source_date": "2026-01-19"
+  }
+]

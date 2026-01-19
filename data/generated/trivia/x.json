@@ -1,0 +1,162 @@
+[
+  {
+    "company_slug": "x",
+    "fact_type": "founding",
+    "format": "quiz",
+    "question": "When was X (formerly Twitter) founded?",
+    "answer": "2006",
+    "options": [
+      "2001",
+      "2004",
+      "2009"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/X_(social_network)",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "x",
+    "fact_type": "founding",
+    "format": "flashcard",
+    "question": "Who founded X (formerly Twitter)?",
+    "answer": "Jack Dorsey and Noah Glass and others",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/X_(social_network)",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "x",
+    "fact_type": "founding",
+    "format": "factoid",
+    "question": null,
+    "answer": "X (formerly Twitter) was founded in 2006 by Jack Dorsey and Noah Glass and others.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/X_(social_network)",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "x",
+    "fact_type": "hq",
+    "format": "quiz",
+    "question": "Where is X (formerly Twitter)'s headquarters located?",
+    "answer": "San Francisco, California",
+    "options": [
+      "New York, New York",
+      "Los Angeles, California",
+      "Seattle, Washington"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/X_(social_network)",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "x",
+    "fact_type": "hq",
+    "format": "flashcard",
+    "question": "What city is X (formerly Twitter) headquartered in?",
+    "answer": "San Francisco, California",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/X_(social_network)",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "x",
+    "fact_type": "exec",
+    "format": "quiz",
+    "question": "Who is the current CEO of X (formerly Twitter)?",
+    "answer": "Linda Yaccarino",
+    "options": [
+      "Elon Musk",
+      "Jack Dorsey",
+      "Mark Zuckerberg"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/X_(social_network)",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "x",
+    "fact_type": "exec",
+    "format": "flashcard",
+    "question": "Who leads X (formerly Twitter) as CEO?",
+    "answer": "Linda Yaccarino",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/X_(social_network)",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "x",
+    "fact_type": "mission",
+    "format": "factoid",
+    "question": null,
+    "answer": "X (formerly Twitter)'s mission is \"To give everyone the power to create and share ideas and information instantly, without barriers\".",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/X_(social_network)",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "x",
+    "fact_type": "mission",
+    "format": "flashcard",
+    "question": "What is X (formerly Twitter)'s mission statement?",
+    "answer": "To give everyone the power to create and share ideas and information instantly, without barriers",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/X_(social_network)",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "x",
+    "fact_type": "product",
+    "format": "quiz",
+    "question": "Which of these is a X (formerly Twitter) product or service?",
+    "answer": "X (Twitter)",
+    "options": [
+      "Netflix",
+      "Hulu",
+      "Amazon Prime Video"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/X_(social_network)",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "x",
+    "fact_type": "product",
+    "format": "factoid",
+    "question": null,
+    "answer": "Key X (formerly Twitter) products and services include X (Twitter), X Premium, X Spaces, X Communities, X Blue.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/X_(social_network)",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "x",
+    "fact_type": "acquisition",
+    "format": "quiz",
+    "question": "Which company did X (formerly Twitter) acquire in 2015?",
+    "answer": "Periscope",
+    "options": [
+      "Lucasfilm",
+      "Marvel",
+      "Pixar"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/X_(social_network)",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "x",
+    "fact_type": "acquisition",
+    "format": "factoid",
+    "question": null,
+    "answer": "X (formerly Twitter) acquired Periscope in 2015.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/X_(social_network)",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "x",
+    "fact_type": "acquisition",
+    "format": "flashcard",
+    "question": "In what year did X (formerly Twitter) acquire Vine?",
+    "answer": "2012",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/X_(social_network)",
+    "source_date": "2026-01-19"
+  }
+]
