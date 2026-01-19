@@ -10,6 +10,9 @@ import type {
   InfographicBlock,
 } from "@/types/module";
 
+/** MediaItem display variant */
+export type MediaItemVariant = "default" | "big-question";
+
 export interface MediaItemProps {
   /** The media block to render */
   block: ContentBlock;
@@ -17,6 +20,8 @@ export interface MediaItemProps {
   onComplete?: () => void;
   /** Custom class name */
   className?: string;
+  /** Display variant (default: "default") */
+  variant?: MediaItemVariant;
 }
 
 // Video provider types
@@ -112,10 +117,12 @@ function VideoItem({
   block,
   onComplete,
   className,
+  variant = "default",
 }: {
   block: VideoBlock;
   onComplete?: () => void;
   className?: string;
+  variant?: MediaItemVariant;
 }) {
   const { url, title } = block;
   const [error, setError] = useState<string | null>(null);
@@ -193,16 +200,22 @@ function VideoItem({
     return () => iframe.removeEventListener("load", initPlayer);
   }, [parsed.provider, parsed.id]);
 
+  const isBigQuestion = variant === "big-question";
+
   if (error || parsed.provider === "unknown" || !parsed.id) {
     return (
       <div
         className={cn(
-          "flex items-center justify-center min-h-[50vh]",
+          "flex items-center justify-center",
+          isBigQuestion ? "min-h-[60vh]" : "min-h-[50vh]",
           "px-4",
           className
         )}
       >
-        <div className="w-full max-w-4xl aspect-video bg-gray-100 rounded-2xl flex items-center justify-center text-gray-500 text-lg">
+        <div className={cn(
+          "w-full aspect-video bg-gray-100 rounded-2xl flex items-center justify-center text-gray-500",
+          isBigQuestion ? "max-w-5xl text-xl" : "max-w-4xl text-lg"
+        )}>
           <p>{error || "Unable to load video"}</p>
         </div>
       </div>
@@ -215,18 +228,28 @@ function VideoItem({
   return (
     <div
       className={cn(
-        "flex flex-col items-center justify-center min-h-[50vh]",
-        "px-4 py-8",
+        "flex flex-col items-center justify-center",
+        isBigQuestion ? "min-h-[60vh] px-6 py-12" : "min-h-[50vh] px-4 py-8",
         className
       )}
+      data-variant={variant}
     >
-      <div className="w-full max-w-4xl space-y-4">
+      <div className={cn(
+        "w-full space-y-4",
+        isBigQuestion ? "max-w-5xl space-y-6" : "max-w-4xl"
+      )}>
         {title && (
-          <h2 className="text-xl sm:text-2xl font-semibold text-gray-900 text-center">
+          <h2 className={cn(
+            "font-semibold text-gray-900 text-center",
+            isBigQuestion ? "text-2xl sm:text-3xl lg:text-4xl" : "text-xl sm:text-2xl"
+          )}>
             {title}
           </h2>
         )}
-        <div className="relative aspect-video rounded-2xl overflow-hidden bg-black shadow-2xl">
+        <div className={cn(
+          "relative aspect-video overflow-hidden bg-black",
+          isBigQuestion ? "rounded-3xl shadow-2xl" : "rounded-2xl shadow-2xl"
+        )}>
           <iframe
             ref={iframeRef}
             src={embedUrl}
@@ -248,10 +271,12 @@ function AudioItem({
   block,
   onComplete,
   className,
+  variant = "default",
 }: {
   block: AudioBlock;
   onComplete?: () => void;
   className?: string;
+  variant?: MediaItemVariant;
 }) {
   const { url, title } = block;
   const audioRef = useRef<HTMLAudioElement>(null);
@@ -332,16 +357,22 @@ function AudioItem({
     };
   }, [onComplete]);
 
+  const isBigQuestion = variant === "big-question";
+
   if (error) {
     return (
       <div
         className={cn(
-          "flex items-center justify-center min-h-[50vh]",
+          "flex items-center justify-center",
+          isBigQuestion ? "min-h-[60vh]" : "min-h-[50vh]",
           "px-4",
           className
         )}
       >
-        <div className="w-full max-w-2xl bg-gray-100 rounded-2xl p-8 text-center text-gray-500 text-lg">
+        <div className={cn(
+          "w-full bg-gray-100 rounded-2xl p-8 text-center text-gray-500",
+          isBigQuestion ? "max-w-3xl text-xl" : "max-w-2xl text-lg"
+        )}>
           <p>{error}</p>
         </div>
       </div>
@@ -353,16 +384,23 @@ function AudioItem({
   return (
     <div
       className={cn(
-        "flex flex-col items-center justify-center min-h-[50vh]",
-        "px-4 py-8",
+        "flex flex-col items-center justify-center",
+        isBigQuestion ? "min-h-[60vh] px-6 py-12" : "min-h-[50vh] px-4 py-8",
         className
       )}
+      data-variant={variant}
     >
       <audio ref={audioRef} src={url} preload="metadata" />
 
-      <div className="w-full max-w-2xl space-y-8">
+      <div className={cn(
+        "w-full",
+        isBigQuestion ? "max-w-3xl space-y-12" : "max-w-2xl space-y-8"
+      )}>
         {title && (
-          <h2 className="text-2xl sm:text-3xl font-semibold text-gray-900 text-center">
+          <h2 className={cn(
+            "font-semibold text-gray-900 text-center",
+            isBigQuestion ? "text-3xl sm:text-4xl lg:text-5xl" : "text-2xl sm:text-3xl"
+          )}>
             {title}
           </h2>
         )}
@@ -373,23 +411,38 @@ function AudioItem({
             type="button"
             onClick={handlePlayPause}
             className={cn(
-              "flex items-center justify-center w-20 h-20 rounded-full",
+              "flex items-center justify-center rounded-full",
               "bg-blue-600 text-white hover:bg-blue-700",
               "focus:outline-none focus:ring-4 focus:ring-blue-300",
               "transition-all duration-200 shadow-lg hover:shadow-xl",
-              "transform hover:scale-105"
+              "transform hover:scale-105",
+              isBigQuestion ? "w-28 h-28" : "w-20 h-20"
             )}
             aria-label={isPlaying ? "Pause" : "Play"}
           >
-            {isPlaying ? <PauseIcon /> : <PlayIcon />}
+            {isPlaying ? (
+              <svg className={cn(isBigQuestion ? "h-12 w-12" : "h-8 w-8")} fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z" />
+              </svg>
+            ) : (
+              <svg className={cn(isBigQuestion ? "h-12 w-12" : "h-8 w-8")} fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M8 5v14l11-7z" />
+              </svg>
+            )}
           </button>
         </div>
 
         {/* Progress and controls */}
-        <div className="bg-gray-50 border border-gray-200 rounded-2xl p-6 space-y-4">
+        <div className={cn(
+          "bg-gray-50 border border-gray-200 rounded-2xl space-y-4",
+          isBigQuestion ? "p-8" : "p-6"
+        )}>
           {/* Seek Bar */}
-          <div className="flex items-center gap-4">
-            <span className="text-base text-gray-600 w-14 text-right tabular-nums font-medium">
+          <div className={cn("flex items-center", isBigQuestion ? "gap-6" : "gap-4")}>
+            <span className={cn(
+              "text-gray-600 text-right tabular-nums font-medium",
+              isBigQuestion ? "text-lg w-16" : "text-base w-14"
+            )}>
               {formatTime(currentTime)}
             </span>
             <input
@@ -398,13 +451,19 @@ function AudioItem({
               max={duration || 100}
               value={currentTime}
               onChange={handleSeek}
-              className="flex-1 h-3 bg-gray-200 rounded-full appearance-none cursor-pointer accent-blue-600"
+              className={cn(
+                "flex-1 bg-gray-200 rounded-full appearance-none cursor-pointer accent-blue-600",
+                isBigQuestion ? "h-4" : "h-3"
+              )}
               aria-label="Seek audio"
               style={{
                 background: `linear-gradient(to right, #2563eb ${progress}%, #e5e7eb ${progress}%)`,
               }}
             />
-            <span className="text-base text-gray-600 w-14 tabular-nums font-medium">
+            <span className={cn(
+              "text-gray-600 tabular-nums font-medium",
+              isBigQuestion ? "text-lg w-16" : "text-base w-14"
+            )}>
               {formatTime(duration)}
             </span>
           </div>
@@ -415,10 +474,11 @@ function AudioItem({
               type="button"
               onClick={handleSpeedChange}
               className={cn(
-                "px-4 py-2 text-base font-semibold rounded-lg",
+                "font-semibold rounded-lg",
                 "bg-gray-200 text-gray-700 hover:bg-gray-300",
                 "focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-offset-2",
-                "transition-colors min-w-[4rem]"
+                "transition-colors",
+                isBigQuestion ? "px-6 py-3 text-lg min-w-[5rem]" : "px-4 py-2 text-base min-w-[4rem]"
               )}
               aria-label={`Playback speed: ${playbackSpeed}x. Click to change.`}
             >
@@ -438,10 +498,12 @@ function ImageItem({
   block,
   onComplete,
   className,
+  variant = "default",
 }: {
   block: ImageBlock | InfographicBlock;
   onComplete?: () => void;
   className?: string;
+  variant?: MediaItemVariant;
 }) {
   const { url, alt, caption } = block;
   const [isZoomed, setIsZoomed] = useState(false);
@@ -483,16 +545,22 @@ function ImageItem({
     };
   }, [isZoomed, closeZoom]);
 
+  const isBigQuestion = variant === "big-question";
+
   if (error) {
     return (
       <div
         className={cn(
-          "flex items-center justify-center min-h-[50vh]",
+          "flex items-center justify-center",
+          isBigQuestion ? "min-h-[60vh]" : "min-h-[50vh]",
           "px-4",
           className
         )}
       >
-        <div className="w-full max-w-4xl bg-gray-100 rounded-2xl p-12 text-center text-gray-500 text-lg">
+        <div className={cn(
+          "w-full bg-gray-100 rounded-2xl p-12 text-center text-gray-500",
+          isBigQuestion ? "max-w-5xl text-xl" : "max-w-4xl text-lg"
+        )}>
           <p>Unable to load image</p>
         </div>
       </div>
@@ -503,20 +571,27 @@ function ImageItem({
     <>
       <div
         className={cn(
-          "flex flex-col items-center justify-center min-h-[50vh]",
-          "px-4 py-8",
+          "flex flex-col items-center justify-center",
+          isBigQuestion ? "min-h-[60vh] px-6 py-12" : "min-h-[50vh] px-4 py-8",
           className
         )}
+        data-variant={variant}
       >
-        <figure className="w-full max-w-4xl">
+        <figure className={cn(
+          "w-full",
+          isBigQuestion ? "max-w-5xl" : "max-w-4xl"
+        )}>
           <button
             type="button"
             onClick={openZoom}
             className={cn(
-              "relative w-full rounded-2xl overflow-hidden",
+              "relative w-full overflow-hidden",
               "focus:outline-none focus:ring-4 focus:ring-blue-300",
               "cursor-zoom-in group",
-              "shadow-lg hover:shadow-xl transition-shadow duration-200"
+              "transition-shadow duration-200",
+              isBigQuestion
+                ? "rounded-3xl shadow-2xl hover:shadow-[0_25px_50px_-12px_rgb(0,0,0,0.25)]"
+                : "rounded-2xl shadow-lg hover:shadow-xl"
             )}
             aria-label={`View ${alt} in full size`}
           >
@@ -524,7 +599,10 @@ function ImageItem({
             <img
               src={url}
               alt={alt}
-              className="w-full h-auto object-contain"
+              className={cn(
+                "w-full h-auto object-contain",
+                isBigQuestion && "max-h-[60vh]"
+              )}
               onError={() => setError(true)}
             />
             {/* Zoom overlay indicator */}
@@ -537,18 +615,28 @@ function ImageItem({
             >
               <span
                 className={cn(
-                  "p-3 rounded-full bg-white/90 text-gray-700",
+                  "rounded-full bg-white/90 text-gray-700",
                   "opacity-0 group-hover:opacity-100",
-                  "transition-opacity duration-200 shadow-lg"
+                  "transition-opacity duration-200 shadow-lg",
+                  isBigQuestion ? "p-4" : "p-3"
                 )}
               >
-                <ZoomIcon />
+                {isBigQuestion ? (
+                  <svg className="h-8 w-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7" />
+                  </svg>
+                ) : (
+                  <ZoomIcon />
+                )}
               </span>
             </div>
           </button>
 
           {caption && (
-            <figcaption className="mt-4 text-lg text-gray-600 text-center">
+            <figcaption className={cn(
+              "text-gray-600 text-center",
+              isBigQuestion ? "mt-6 text-xl" : "mt-4 text-lg"
+            )}>
               {caption}
             </figcaption>
           )}
@@ -601,9 +689,14 @@ function ImageItem({
  *
  * Renders media content blocks (video, audio, image, infographic)
  * with centered layout, large display, and minimal UI for carousel display.
+ *
+ * Supports two display variants:
+ * - "default": Standard carousel layout with medium controls
+ * - "big-question": Full-screen dramatic layout with larger controls and more spacing
  */
-export function MediaItem({ block, onComplete, className }: MediaItemProps) {
+export function MediaItem({ block, onComplete, className, variant = "default" }: MediaItemProps) {
   const { type } = block;
+  const isBigQuestion = variant === "big-question";
 
   if (type === "video") {
     return (
@@ -611,6 +704,7 @@ export function MediaItem({ block, onComplete, className }: MediaItemProps) {
         block={block as VideoBlock}
         onComplete={onComplete}
         className={className}
+        variant={variant}
       />
     );
   }
@@ -621,6 +715,7 @@ export function MediaItem({ block, onComplete, className }: MediaItemProps) {
         block={block as AudioBlock}
         onComplete={onComplete}
         className={className}
+        variant={variant}
       />
     );
   }
@@ -631,6 +726,7 @@ export function MediaItem({ block, onComplete, className }: MediaItemProps) {
         block={block as ImageBlock | InfographicBlock}
         onComplete={onComplete}
         className={className}
+        variant={variant}
       />
     );
   }
@@ -639,12 +735,16 @@ export function MediaItem({ block, onComplete, className }: MediaItemProps) {
   return (
     <div
       className={cn(
-        "flex items-center justify-center min-h-[50vh]",
+        "flex items-center justify-center",
+        isBigQuestion ? "min-h-[60vh]" : "min-h-[50vh]",
         "px-4",
         className
       )}
     >
-      <div className="w-full max-w-2xl bg-gray-100 rounded-2xl p-8 text-center text-gray-500 text-lg">
+      <div className={cn(
+        "w-full bg-gray-100 rounded-2xl p-8 text-center text-gray-500",
+        isBigQuestion ? "max-w-3xl text-xl" : "max-w-2xl text-lg"
+      )}>
         <p>Unsupported media type: {type}</p>
       </div>
     </div>

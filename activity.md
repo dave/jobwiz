@@ -4429,3 +4429,64 @@ All Stage 6 (Production Content Population) issues are now closed:
   - Shows required vs optional ✓
   - Continue enabled when required done ✓
   - State persists ✓
+
+### 2026-01-19 - Issue #191: Media big-question variant
+
+**Completed:**
+- Added `variant="big-question"` prop to `MediaItem` component
+- Component located at `src/components/carousel/items/MediaItem.tsx`
+
+**Changes:**
+- Added `MediaItemVariant` type: `"default" | "big-question"`
+- Added `variant` prop to `MediaItemProps` interface (default: "default")
+- Updated `VideoItem`, `AudioItem`, and `ImageItem` internal components to accept variant
+
+**Big-Question Variant Features:**
+- Larger minimum height: `min-h-[60vh]` (vs default `min-h-[50vh]`)
+- Larger max-width: `max-w-5xl` (vs `max-w-4xl`) for video/image
+- More dramatic spacing: `px-6 py-12` (vs `px-4 py-8`)
+- Larger border radius: `rounded-3xl` (vs `rounded-2xl`)
+- Data attribute: `data-variant="big-question"` for debugging/styling
+
+**Video Big-Question:**
+- Larger title text: `lg:text-4xl` (vs `sm:text-2xl`)
+- Larger container width
+- Enhanced shadow on video container
+
+**Audio Big-Question:**
+- Larger play button: `w-28 h-28` (vs `w-20 h-20`)
+- Larger title text: `lg:text-5xl`
+- Thicker seek bar: `h-4` (vs `h-3`)
+- Larger playback speed button: `px-6 py-3 text-lg`
+- Larger time display text
+
+**Image/Infographic Big-Question:**
+- Constrains image height: `max-h-[60vh]`
+- Larger zoom icon
+- Larger caption text: `text-xl`
+- Enhanced shadow effect
+
+**Files Modified:**
+- `src/components/carousel/items/MediaItem.tsx` - Added variant prop and big-question styles
+- `src/components/carousel/items/__tests__/MediaItem.test.tsx` - Added 27 new tests
+
+**Tests:**
+- 61 total tests (34 original + 27 new):
+  - Video big-question (6 tests): data-variant, min-height, max-width, title, border-radius, iframe
+  - Audio big-question (7 tests): data-variant, min-height, play button, title, seek bar, speed button, audio
+  - Image big-question (8 tests): data-variant, min-height, max-width, border-radius, zoom icon, caption, image height, zoom modal
+  - Infographic big-question (2 tests): styles, max-width
+  - Unsupported big-question (1 test): error state
+  - Default variant unchanged (3 tests): verifies original behavior preserved
+
+**Verification:**
+- `npm run lint` - passes (only pre-existing warnings)
+- `npm run type-check` - passes with no errors
+- `npm run build` - successful production build
+- `npm test -- --testPathPattern="MediaItem"` - 61 tests pass
+- All acceptance criteria verified:
+  - Variant prop added ✓
+  - Big-question layout centered ✓
+  - Larger controls on video/audio ✓
+  - Image/infographic fills available space ✓
+  - Existing default variant unchanged ✓

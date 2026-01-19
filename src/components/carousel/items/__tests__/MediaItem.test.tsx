@@ -1,5 +1,5 @@
 import { render, screen, fireEvent, act } from "@testing-library/react";
-import { MediaItem } from "../MediaItem";
+import { MediaItem, type MediaItemVariant } from "../MediaItem";
 import type { VideoBlock, AudioBlock, ImageBlock, InfographicBlock, TextBlock } from "@/types/module";
 
 // Mock window.postMessage for video APIs
@@ -347,6 +347,264 @@ describe("MediaItem", () => {
       fireEvent.error(img);
 
       expect(screen.getByText("Unable to load image")).toBeInTheDocument();
+    });
+  });
+
+  describe("Big Question Variant", () => {
+    describe("Video - big-question", () => {
+      const youtubeVideo: VideoBlock = {
+        id: "video-bq-1",
+        type: "video",
+        url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        title: "Big Question Video",
+      };
+
+      it("adds data-variant attribute", () => {
+        const { container } = render(
+          <MediaItem block={youtubeVideo} variant="big-question" />
+        );
+        const wrapper = container.querySelector('[data-variant="big-question"]');
+        expect(wrapper).toBeInTheDocument();
+      });
+
+      it("uses larger minimum height", () => {
+        const { container } = render(
+          <MediaItem block={youtubeVideo} variant="big-question" />
+        );
+        const wrapper = container.firstChild as HTMLElement;
+        expect(wrapper).toHaveClass("min-h-[60vh]");
+      });
+
+      it("uses larger max-width", () => {
+        const { container } = render(
+          <MediaItem block={youtubeVideo} variant="big-question" />
+        );
+        const innerWrapper = container.querySelector(".max-w-5xl");
+        expect(innerWrapper).toBeInTheDocument();
+      });
+
+      it("has larger title text", () => {
+        render(<MediaItem block={youtubeVideo} variant="big-question" />);
+        const title = screen.getByText("Big Question Video");
+        expect(title).toHaveClass("lg:text-4xl");
+      });
+
+      it("has larger border radius", () => {
+        const { container } = render(
+          <MediaItem block={youtubeVideo} variant="big-question" />
+        );
+        const videoContainer = container.querySelector(".rounded-3xl");
+        expect(videoContainer).toBeInTheDocument();
+      });
+
+      it("still renders iframe correctly", () => {
+        render(<MediaItem block={youtubeVideo} variant="big-question" />);
+        const iframe = document.querySelector("iframe");
+        expect(iframe).toBeInTheDocument();
+        expect(iframe).toHaveAttribute(
+          "src",
+          "https://www.youtube.com/embed/dQw4w9WgXcQ?enablejsapi=1"
+        );
+      });
+    });
+
+    describe("Audio - big-question", () => {
+      const audioBlock: AudioBlock = {
+        id: "audio-bq-1",
+        type: "audio",
+        url: "https://example.com/audio.mp3",
+        title: "Big Question Audio",
+      };
+
+      it("adds data-variant attribute", () => {
+        const { container } = render(
+          <MediaItem block={audioBlock} variant="big-question" />
+        );
+        const wrapper = container.querySelector('[data-variant="big-question"]');
+        expect(wrapper).toBeInTheDocument();
+      });
+
+      it("uses larger minimum height", () => {
+        const { container } = render(
+          <MediaItem block={audioBlock} variant="big-question" />
+        );
+        const wrapper = container.firstChild as HTMLElement;
+        expect(wrapper).toHaveClass("min-h-[60vh]");
+      });
+
+      it("has larger play button", () => {
+        render(<MediaItem block={audioBlock} variant="big-question" />);
+        const playButton = screen.getByRole("button", { name: "Play" });
+        expect(playButton).toHaveClass("w-28", "h-28");
+      });
+
+      it("has larger title text", () => {
+        render(<MediaItem block={audioBlock} variant="big-question" />);
+        const title = screen.getByText("Big Question Audio");
+        expect(title).toHaveClass("lg:text-5xl");
+      });
+
+      it("has thicker seek bar", () => {
+        const { container } = render(
+          <MediaItem block={audioBlock} variant="big-question" />
+        );
+        const seekBar = screen.getByRole("slider", { name: "Seek audio" });
+        expect(seekBar).toHaveClass("h-4");
+      });
+
+      it("has larger playback speed button", () => {
+        render(<MediaItem block={audioBlock} variant="big-question" />);
+        const speedButton = screen.getByRole("button", { name: /Playback speed: 1x/i });
+        expect(speedButton).toHaveClass("px-6", "py-3", "text-lg");
+      });
+
+      it("still plays audio correctly", () => {
+        render(<MediaItem block={audioBlock} variant="big-question" />);
+        const audio = document.querySelector("audio");
+        expect(audio).toBeInTheDocument();
+        expect(audio).toHaveAttribute("src", "https://example.com/audio.mp3");
+      });
+    });
+
+    describe("Image - big-question", () => {
+      const imageBlock: ImageBlock = {
+        id: "image-bq-1",
+        type: "image",
+        url: "https://example.com/image.jpg",
+        alt: "Big Question Image",
+        caption: "A dramatic image",
+      };
+
+      it("adds data-variant attribute", () => {
+        const { container } = render(
+          <MediaItem block={imageBlock} variant="big-question" />
+        );
+        const wrapper = container.querySelector('[data-variant="big-question"]');
+        expect(wrapper).toBeInTheDocument();
+      });
+
+      it("uses larger minimum height", () => {
+        const { container } = render(
+          <MediaItem block={imageBlock} variant="big-question" />
+        );
+        const wrapper = container.firstChild as HTMLElement;
+        expect(wrapper).toHaveClass("min-h-[60vh]");
+      });
+
+      it("uses larger max-width", () => {
+        const { container } = render(
+          <MediaItem block={imageBlock} variant="big-question" />
+        );
+        const figure = container.querySelector(".max-w-5xl");
+        expect(figure).toBeInTheDocument();
+      });
+
+      it("has larger border radius", () => {
+        const { container } = render(
+          <MediaItem block={imageBlock} variant="big-question" />
+        );
+        const imageButton = container.querySelector(".rounded-3xl");
+        expect(imageButton).toBeInTheDocument();
+      });
+
+      it("has larger zoom icon", () => {
+        const { container } = render(
+          <MediaItem block={imageBlock} variant="big-question" />
+        );
+        const zoomIcon = container.querySelector(".h-8.w-8");
+        expect(zoomIcon).toBeInTheDocument();
+      });
+
+      it("has larger caption text", () => {
+        render(<MediaItem block={imageBlock} variant="big-question" />);
+        const caption = screen.getByText("A dramatic image");
+        expect(caption).toHaveClass("text-xl");
+      });
+
+      it("constrains image height", () => {
+        render(<MediaItem block={imageBlock} variant="big-question" />);
+        const img = screen.getByRole("img");
+        expect(img).toHaveClass("max-h-[60vh]");
+      });
+
+      it("still opens zoom modal on click", () => {
+        render(<MediaItem block={imageBlock} variant="big-question" />);
+        const zoomButton = screen.getByRole("button", {
+          name: "View Big Question Image in full size",
+        });
+        fireEvent.click(zoomButton);
+
+        expect(screen.getByRole("dialog")).toBeInTheDocument();
+      });
+    });
+
+    describe("Infographic - big-question", () => {
+      const infographicBlock: InfographicBlock = {
+        id: "infographic-bq-1",
+        type: "infographic",
+        url: "https://example.com/infographic.png",
+        alt: "Big Question Infographic",
+        caption: "Process diagram",
+      };
+
+      it("applies big-question styles like image", () => {
+        const { container } = render(
+          <MediaItem block={infographicBlock} variant="big-question" />
+        );
+        const wrapper = container.querySelector('[data-variant="big-question"]');
+        expect(wrapper).toBeInTheDocument();
+      });
+
+      it("uses larger max-width", () => {
+        const { container } = render(
+          <MediaItem block={infographicBlock} variant="big-question" />
+        );
+        const figure = container.querySelector(".max-w-5xl");
+        expect(figure).toBeInTheDocument();
+      });
+    });
+
+    describe("Unsupported - big-question", () => {
+      it("applies big-question styles to error state", () => {
+        const unsupportedBlock: TextBlock = {
+          id: "unsupported-bq-1",
+          type: "text",
+          content: "This is text",
+        };
+        const { container } = render(
+          <MediaItem block={unsupportedBlock as unknown as VideoBlock} variant="big-question" />
+        );
+        const wrapper = container.firstChild as HTMLElement;
+        expect(wrapper).toHaveClass("min-h-[60vh]");
+      });
+    });
+
+    describe("Default variant unchanged", () => {
+      const videoBlock: VideoBlock = {
+        id: "video-default-1",
+        type: "video",
+        url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      };
+
+      it("uses default min-height without variant", () => {
+        const { container } = render(<MediaItem block={videoBlock} />);
+        const wrapper = container.firstChild as HTMLElement;
+        expect(wrapper).toHaveClass("min-h-[50vh]");
+      });
+
+      it("uses default max-width without variant", () => {
+        const { container } = render(<MediaItem block={videoBlock} />);
+        const innerWrapper = container.querySelector(".max-w-4xl");
+        expect(innerWrapper).toBeInTheDocument();
+      });
+
+      it("uses default min-height with explicit default variant", () => {
+        const { container } = render(
+          <MediaItem block={videoBlock} variant="default" />
+        );
+        const wrapper = container.firstChild as HTMLElement;
+        expect(wrapper).toHaveClass("min-h-[50vh]");
+      });
     });
   });
 });
