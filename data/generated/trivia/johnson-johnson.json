@@ -1,0 +1,162 @@
+[
+  {
+    "company_slug": "johnson-johnson",
+    "fact_type": "founding",
+    "format": "quiz",
+    "question": "When was Johnson & Johnson founded?",
+    "answer": "1886",
+    "options": [
+      "1866",
+      "1876",
+      "1901"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Johnson_%26_Johnson",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "johnson-johnson",
+    "fact_type": "founding",
+    "format": "flashcard",
+    "question": "Who founded Johnson & Johnson?",
+    "answer": "Robert Wood Johnson I and James Wood Johnson and others",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Johnson_%26_Johnson",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "johnson-johnson",
+    "fact_type": "founding",
+    "format": "factoid",
+    "question": null,
+    "answer": "Johnson & Johnson was founded in 1886 by Robert Wood Johnson I and James Wood Johnson and others.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Johnson_%26_Johnson",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "johnson-johnson",
+    "fact_type": "hq",
+    "format": "quiz",
+    "question": "Where is Johnson & Johnson's headquarters located?",
+    "answer": "New Brunswick, New Jersey",
+    "options": [
+      "New York City, New York",
+      "San Francisco, California",
+      "Boston, Massachusetts"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Johnson_%26_Johnson",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "johnson-johnson",
+    "fact_type": "hq",
+    "format": "flashcard",
+    "question": "What city is Johnson & Johnson headquartered in?",
+    "answer": "New Brunswick, New Jersey",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Johnson_%26_Johnson",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "johnson-johnson",
+    "fact_type": "exec",
+    "format": "quiz",
+    "question": "Who is the current CEO of Johnson & Johnson?",
+    "answer": "Joaquin Duato",
+    "options": [
+      "Albert Bourla",
+      "Karen Lynch",
+      "Andrew Witty"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Johnson_%26_Johnson",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "johnson-johnson",
+    "fact_type": "exec",
+    "format": "flashcard",
+    "question": "Who leads Johnson & Johnson as CEO?",
+    "answer": "Joaquin Duato",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Johnson_%26_Johnson",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "johnson-johnson",
+    "fact_type": "mission",
+    "format": "factoid",
+    "question": null,
+    "answer": "Johnson & Johnson's mission is \"To profoundly change the trajectory of health for humanity\".",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Johnson_%26_Johnson",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "johnson-johnson",
+    "fact_type": "mission",
+    "format": "flashcard",
+    "question": "What is Johnson & Johnson's mission statement?",
+    "answer": "To profoundly change the trajectory of health for humanity",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Johnson_%26_Johnson",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "johnson-johnson",
+    "fact_type": "product",
+    "format": "quiz",
+    "question": "Which of these is a Johnson & Johnson product or service?",
+    "answer": "Tylenol",
+    "options": [
+      "EpicCare",
+      "MyChart",
+      "PowerChart"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Johnson_%26_Johnson",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "johnson-johnson",
+    "fact_type": "product",
+    "format": "factoid",
+    "question": null,
+    "answer": "Johnson & Johnson offers Tylenol, Band-Aid, Neutrogena, Janssen Pharmaceuticals.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Johnson_%26_Johnson",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "johnson-johnson",
+    "fact_type": "acquisition",
+    "format": "quiz",
+    "question": "Which company did Johnson & Johnson acquire in 2017?",
+    "answer": "Actelion",
+    "options": [
+      "Aetna",
+      "Caremark",
+      "Signify Health"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Johnson_%26_Johnson",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "johnson-johnson",
+    "fact_type": "acquisition",
+    "format": "factoid",
+    "question": null,
+    "answer": "Johnson & Johnson acquired Actelion in 2017.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Johnson_%26_Johnson",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "johnson-johnson",
+    "fact_type": "acquisition",
+    "format": "flashcard",
+    "question": "In what year did Johnson & Johnson acquire Momenta Pharmaceuticals?",
+    "answer": "2020",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Johnson_%26_Johnson",
+    "source_date": "2026-01-19"
+  }
+]

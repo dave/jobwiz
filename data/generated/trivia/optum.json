@@ -1,0 +1,162 @@
+[
+  {
+    "company_slug": "optum",
+    "fact_type": "founding",
+    "format": "quiz",
+    "question": "When was Optum founded?",
+    "answer": "2011",
+    "options": [
+      "2006",
+      "2009",
+      "2014"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Optum",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "optum",
+    "fact_type": "founding",
+    "format": "flashcard",
+    "question": "Who founded Optum?",
+    "answer": "UnitedHealth Group",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Optum",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "optum",
+    "fact_type": "founding",
+    "format": "factoid",
+    "question": null,
+    "answer": "Optum was founded in 2011 by UnitedHealth Group.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Optum",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "optum",
+    "fact_type": "hq",
+    "format": "quiz",
+    "question": "Where is Optum's headquarters located?",
+    "answer": "Eden Prairie, Minnesota",
+    "options": [
+      "New York City, New York",
+      "San Francisco, California",
+      "Boston, Massachusetts"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Optum",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "optum",
+    "fact_type": "hq",
+    "format": "flashcard",
+    "question": "What city is Optum headquartered in?",
+    "answer": "Eden Prairie, Minnesota",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Optum",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "optum",
+    "fact_type": "exec",
+    "format": "quiz",
+    "question": "Who is the current CEO of Optum?",
+    "answer": "Amar Desai",
+    "options": [
+      "David Feinberg",
+      "Karen Lynch",
+      "Andrew Witty"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Optum",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "optum",
+    "fact_type": "exec",
+    "format": "flashcard",
+    "question": "Who leads Optum as CEO?",
+    "answer": "Amar Desai",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Optum",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "optum",
+    "fact_type": "mission",
+    "format": "factoid",
+    "question": null,
+    "answer": "Optum's mission is \"To help make the health system work better for everyone\".",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Optum",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "optum",
+    "fact_type": "mission",
+    "format": "flashcard",
+    "question": "What is Optum's mission statement?",
+    "answer": "To help make the health system work better for everyone",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Optum",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "optum",
+    "fact_type": "product",
+    "format": "quiz",
+    "question": "Which of these is a Optum product or service?",
+    "answer": "OptumRx",
+    "options": [
+      "EpicCare",
+      "MyChart",
+      "PowerChart"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Optum",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "optum",
+    "fact_type": "product",
+    "format": "factoid",
+    "question": null,
+    "answer": "Optum offers OptumRx, OptumHealth, OptumInsight, OptumServe.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Optum",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "optum",
+    "fact_type": "acquisition",
+    "format": "quiz",
+    "question": "Which company did Optum acquire in 2022?",
+    "answer": "Change Healthcare",
+    "options": [
+      "Aetna",
+      "Caremark",
+      "Signify Health"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Optum",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "optum",
+    "fact_type": "acquisition",
+    "format": "factoid",
+    "question": null,
+    "answer": "Optum acquired Change Healthcare in 2022.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Optum",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "optum",
+    "fact_type": "acquisition",
+    "format": "flashcard",
+    "question": "In what year did Optum acquire DaVita Medical Group?",
+    "answer": "2019",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Optum",
+    "source_date": "2026-01-19"
+  }
+]

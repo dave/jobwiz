@@ -1,0 +1,162 @@
+[
+  {
+    "company_slug": "pfizer",
+    "fact_type": "founding",
+    "format": "quiz",
+    "question": "When was Pfizer founded?",
+    "answer": "1849",
+    "options": [
+      "1829",
+      "1839",
+      "1864"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Pfizer",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "pfizer",
+    "fact_type": "founding",
+    "format": "flashcard",
+    "question": "Who founded Pfizer?",
+    "answer": "Charles Pfizer and Charles Erhart",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Pfizer",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "pfizer",
+    "fact_type": "founding",
+    "format": "factoid",
+    "question": null,
+    "answer": "Pfizer was founded in 1849 by Charles Pfizer and Charles Erhart.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Pfizer",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "pfizer",
+    "fact_type": "hq",
+    "format": "quiz",
+    "question": "Where is Pfizer's headquarters located?",
+    "answer": "New York City, New York",
+    "options": [
+      "San Francisco, California",
+      "Boston, Massachusetts",
+      "Cambridge, Massachusetts"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Pfizer",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "pfizer",
+    "fact_type": "hq",
+    "format": "flashcard",
+    "question": "What city is Pfizer headquartered in?",
+    "answer": "New York City, New York",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Pfizer",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "pfizer",
+    "fact_type": "exec",
+    "format": "quiz",
+    "question": "Who is the current CEO of Pfizer?",
+    "answer": "Albert Bourla",
+    "options": [
+      "Joaquin Duato",
+      "Stephane Bancel",
+      "Karen Lynch"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Pfizer",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "pfizer",
+    "fact_type": "exec",
+    "format": "flashcard",
+    "question": "Who leads Pfizer as CEO?",
+    "answer": "Albert Bourla",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Pfizer",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "pfizer",
+    "fact_type": "mission",
+    "format": "factoid",
+    "question": null,
+    "answer": "Pfizer's mission is \"To be the premier innovative biopharmaceutical company\".",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Pfizer",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "pfizer",
+    "fact_type": "mission",
+    "format": "flashcard",
+    "question": "What is Pfizer's mission statement?",
+    "answer": "To be the premier innovative biopharmaceutical company",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Pfizer",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "pfizer",
+    "fact_type": "product",
+    "format": "quiz",
+    "question": "Which of these is a Pfizer product or service?",
+    "answer": "Comirnaty (COVID-19 vaccine)",
+    "options": [
+      "EpicCare",
+      "MyChart",
+      "PowerChart"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Pfizer",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "pfizer",
+    "fact_type": "product",
+    "format": "factoid",
+    "question": null,
+    "answer": "Pfizer offers Comirnaty (COVID-19 vaccine), Lipitor, Viagra, Xanax.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Pfizer",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "pfizer",
+    "fact_type": "acquisition",
+    "format": "quiz",
+    "question": "Which company did Pfizer acquire in 2009?",
+    "answer": "Wyeth",
+    "options": [
+      "Aetna",
+      "Caremark",
+      "Signify Health"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Pfizer",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "pfizer",
+    "fact_type": "acquisition",
+    "format": "factoid",
+    "question": null,
+    "answer": "Pfizer acquired Wyeth in 2009.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Pfizer",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "pfizer",
+    "fact_type": "acquisition",
+    "format": "flashcard",
+    "question": "In what year did Pfizer acquire Hospira?",
+    "answer": "2015",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Pfizer",
+    "source_date": "2026-01-19"
+  }
+]

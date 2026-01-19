@@ -1,0 +1,162 @@
+[
+  {
+    "company_slug": "unitedhealth",
+    "fact_type": "founding",
+    "format": "quiz",
+    "question": "When was UnitedHealth Group founded?",
+    "answer": "1977",
+    "options": [
+      "1969",
+      "1973",
+      "1983"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/UnitedHealth_Group",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "unitedhealth",
+    "fact_type": "founding",
+    "format": "flashcard",
+    "question": "Who founded UnitedHealth Group?",
+    "answer": "Richard Burke",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/UnitedHealth_Group",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "unitedhealth",
+    "fact_type": "founding",
+    "format": "factoid",
+    "question": null,
+    "answer": "UnitedHealth Group was founded in 1977 by Richard Burke.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/UnitedHealth_Group",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "unitedhealth",
+    "fact_type": "hq",
+    "format": "quiz",
+    "question": "Where is UnitedHealth Group's headquarters located?",
+    "answer": "Minnetonka, Minnesota",
+    "options": [
+      "New York City, New York",
+      "San Francisco, California",
+      "Boston, Massachusetts"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/UnitedHealth_Group",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "unitedhealth",
+    "fact_type": "hq",
+    "format": "flashcard",
+    "question": "What city is UnitedHealth Group headquartered in?",
+    "answer": "Minnetonka, Minnesota",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/UnitedHealth_Group",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "unitedhealth",
+    "fact_type": "exec",
+    "format": "quiz",
+    "question": "Who is the current CEO of UnitedHealth Group?",
+    "answer": "Andrew Witty",
+    "options": [
+      "Amar Desai",
+      "Karen Lynch",
+      "Albert Bourla"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/UnitedHealth_Group",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "unitedhealth",
+    "fact_type": "exec",
+    "format": "flashcard",
+    "question": "Who leads UnitedHealth Group as CEO?",
+    "answer": "Andrew Witty",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/UnitedHealth_Group",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "unitedhealth",
+    "fact_type": "mission",
+    "format": "factoid",
+    "question": null,
+    "answer": "UnitedHealth Group's mission is \"To help people live healthier lives and to help make the health system work better for everyone\".",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/UnitedHealth_Group",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "unitedhealth",
+    "fact_type": "mission",
+    "format": "flashcard",
+    "question": "What is UnitedHealth Group's mission statement?",
+    "answer": "To help people live healthier lives and to help make the health system work better for everyone",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/UnitedHealth_Group",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "unitedhealth",
+    "fact_type": "product",
+    "format": "quiz",
+    "question": "Which of these is a UnitedHealth Group product or service?",
+    "answer": "UnitedHealthcare",
+    "options": [
+      "EpicCare",
+      "MyChart",
+      "PowerChart"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/UnitedHealth_Group",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "unitedhealth",
+    "fact_type": "product",
+    "format": "factoid",
+    "question": null,
+    "answer": "UnitedHealth Group offers UnitedHealthcare, Optum, UMR, Golden Rule Insurance.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/UnitedHealth_Group",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "unitedhealth",
+    "fact_type": "acquisition",
+    "format": "quiz",
+    "question": "Which company did UnitedHealth Group acquire in 2012?",
+    "answer": "Amil Participacoes",
+    "options": [
+      "Aetna",
+      "Caremark",
+      "Signify Health"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/UnitedHealth_Group",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "unitedhealth",
+    "fact_type": "acquisition",
+    "format": "factoid",
+    "question": null,
+    "answer": "UnitedHealth Group acquired Amil Participacoes in 2012.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/UnitedHealth_Group",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "unitedhealth",
+    "fact_type": "acquisition",
+    "format": "flashcard",
+    "question": "In what year did UnitedHealth Group acquire Catamaran?",
+    "answer": "2015",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/UnitedHealth_Group",
+    "source_date": "2026-01-19"
+  }
+]

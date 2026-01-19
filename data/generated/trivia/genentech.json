@@ -1,0 +1,128 @@
+[
+  {
+    "company_slug": "genentech",
+    "fact_type": "founding",
+    "format": "quiz",
+    "question": "When was Genentech founded?",
+    "answer": "1976",
+    "options": [
+      "1968",
+      "1972",
+      "1982"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Genentech",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "genentech",
+    "fact_type": "founding",
+    "format": "flashcard",
+    "question": "Who founded Genentech?",
+    "answer": "Herbert Boyer and Robert Swanson",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Genentech",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "genentech",
+    "fact_type": "founding",
+    "format": "factoid",
+    "question": null,
+    "answer": "Genentech was founded in 1976 by Herbert Boyer and Robert Swanson.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Genentech",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "genentech",
+    "fact_type": "hq",
+    "format": "quiz",
+    "question": "Where is Genentech's headquarters located?",
+    "answer": "South San Francisco, California",
+    "options": [
+      "New York City, New York",
+      "San Francisco, California",
+      "Boston, Massachusetts"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Genentech",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "genentech",
+    "fact_type": "hq",
+    "format": "flashcard",
+    "question": "What city is Genentech headquartered in?",
+    "answer": "South San Francisco, California",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Genentech",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "genentech",
+    "fact_type": "exec",
+    "format": "quiz",
+    "question": "Who is the current CEO of Genentech?",
+    "answer": "Alexander Hardy",
+    "options": [
+      "Jacob Thaysen",
+      "Stephane Bancel",
+      "Albert Bourla"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Genentech",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "genentech",
+    "fact_type": "exec",
+    "format": "flashcard",
+    "question": "Who leads Genentech as CEO?",
+    "answer": "Alexander Hardy",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Genentech",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "genentech",
+    "fact_type": "mission",
+    "format": "factoid",
+    "question": null,
+    "answer": "Genentech's mission is \"To develop medicines for serious diseases\".",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Genentech",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "genentech",
+    "fact_type": "mission",
+    "format": "flashcard",
+    "question": "What is Genentech's mission statement?",
+    "answer": "To develop medicines for serious diseases",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Genentech",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "genentech",
+    "fact_type": "product",
+    "format": "quiz",
+    "question": "Which of these is a Genentech product or service?",
+    "answer": "Herceptin",
+    "options": [
+      "EpicCare",
+      "MyChart",
+      "PowerChart"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Genentech",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "genentech",
+    "fact_type": "product",
+    "format": "factoid",
+    "question": null,
+    "answer": "Genentech offers Herceptin, Avastin, Rituxan, Ocrevus.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Genentech",
+    "source_date": "2026-01-19"
+  }
+]

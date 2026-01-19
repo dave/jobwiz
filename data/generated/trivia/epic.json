@@ -1,0 +1,128 @@
+[
+  {
+    "company_slug": "epic",
+    "fact_type": "founding",
+    "format": "quiz",
+    "question": "When was Epic Systems founded?",
+    "answer": "1979",
+    "options": [
+      "1971",
+      "1975",
+      "1985"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Epic_Systems",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "epic",
+    "fact_type": "founding",
+    "format": "flashcard",
+    "question": "Who founded Epic Systems?",
+    "answer": "Judith Faulkner",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Epic_Systems",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "epic",
+    "fact_type": "founding",
+    "format": "factoid",
+    "question": null,
+    "answer": "Epic Systems was founded in 1979 by Judith Faulkner.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Epic_Systems",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "epic",
+    "fact_type": "hq",
+    "format": "quiz",
+    "question": "Where is Epic Systems's headquarters located?",
+    "answer": "Verona, Wisconsin",
+    "options": [
+      "New York City, New York",
+      "San Francisco, California",
+      "Boston, Massachusetts"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Epic_Systems",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "epic",
+    "fact_type": "hq",
+    "format": "flashcard",
+    "question": "What city is Epic Systems headquartered in?",
+    "answer": "Verona, Wisconsin",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Epic_Systems",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "epic",
+    "fact_type": "exec",
+    "format": "quiz",
+    "question": "Who is the current CEO of Epic Systems?",
+    "answer": "Judith Faulkner",
+    "options": [
+      "David Feinberg",
+      "Karen Lynch",
+      "Albert Bourla"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Epic_Systems",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "epic",
+    "fact_type": "exec",
+    "format": "flashcard",
+    "question": "Who leads Epic Systems as CEO?",
+    "answer": "Judith Faulkner",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Epic_Systems",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "epic",
+    "fact_type": "mission",
+    "format": "factoid",
+    "question": null,
+    "answer": "Epic Systems's mission is \"To help people get well and to help people stay well\".",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Epic_Systems",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "epic",
+    "fact_type": "mission",
+    "format": "flashcard",
+    "question": "What is Epic Systems's mission statement?",
+    "answer": "To help people get well and to help people stay well",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Epic_Systems",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "epic",
+    "fact_type": "product",
+    "format": "quiz",
+    "question": "Which of these is a Epic Systems product or service?",
+    "answer": "EpicCare",
+    "options": [
+      "MyChart",
+      "PowerChart",
+      "OptumRx"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Epic_Systems",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "epic",
+    "fact_type": "product",
+    "format": "factoid",
+    "question": null,
+    "answer": "Epic Systems offers EpicCare, MyChart, Caboodle, Healthy Planet.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Epic_Systems",
+    "source_date": "2026-01-19"
+  }
+]
