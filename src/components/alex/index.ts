@@ -24,3 +24,10 @@ export type {
 // Content item components
 export { ConversationalQuiz } from "./items/ConversationalQuiz";
 export type { ConversationalQuizProps } from "./items/ConversationalQuiz";
+
+export { ConversationalContent } from "./items/ConversationalContent";
+export type {
+  ConversationalContentProps,
+  ConversationalContentType,
+  ConversationalContentBlock,
+} from "./items/ConversationalContent";

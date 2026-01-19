@@ -4294,3 +4294,69 @@ All Stage 6 (Production Content Population) issues are now closed:
   - Feedback bubble shows result ✓
   - Answer persists to context ✓
   - Auto-advance after delay ✓
+
+### 2026-01-19 - Issue #189: Text/tip/quote in conversation
+
+**Completed:**
+- Created `ConversationalContent` component for text content in conversation flow
+- Component located at `src/components/alex/items/ConversationalContent.tsx`
+
+**Content Types:**
+- `text` → Alex bubble with plain text styling
+- `quote` → Alex bubble with blockquote, curly quotes, optional author attribution
+- `tip` → Alex bubble with 💡 icon, green background, "Pro Tip" label
+- `warning` → Alex bubble with ⚠️ icon, amber background, "Watch Out" label
+
+**Features:**
+- Typing animation for long content (>50 chars threshold, configurable)
+- Reduced motion support (skips typing animation)
+- Auto-advance after delay (configurable, default 2000ms)
+- Continue button for manual advancement
+- Keyboard navigation (Enter/Space to continue)
+- Integrates with ConversationContext (adds message on mount)
+
+**Props:**
+- `itemId` - Unique identifier for the content item
+- `content` - TextBlock, QuoteBlock, TipBlock, or WarningBlock
+- `onComplete` - Callback when content is completed
+- `autoAdvance` - Enable auto-advance (default: true)
+- `autoAdvanceDelay` - Delay before auto-advance in ms (default: 2000)
+- `typingThreshold` - Char count to trigger typing animation (default: 50)
+- `className` - Optional custom class name
+
+**Files Created:**
+- `src/components/alex/items/ConversationalContent.tsx` - Main component
+- `src/components/alex/items/__tests__/ConversationalContent.test.tsx` - 47 unit tests
+
+**Files Modified:**
+- `src/components/alex/items/index.ts` - Added ConversationalContent export
+- `src/components/alex/index.ts` - Added ConversationalContent export
+
+**Tests:**
+- 47 unit tests covering:
+  - Rendering (4 tests)
+  - Text content (2 tests)
+  - Quote content (5 tests): styling, author, blockquote
+  - Tip content (3 tests): icon, label, styling
+  - Warning content (3 tests): icon, label, styling
+  - Typing animation (6 tests): threshold, duration, reduced motion
+  - Reduced motion (2 tests)
+  - Auto-advance (5 tests): delay, custom delay, disabled
+  - Continue button (4 tests): click, cancel auto-advance
+  - Keyboard navigation (4 tests): Enter, Space, other keys
+  - Context integration (2 tests): addMessage
+  - Accessibility (4 tests): aria-labelledby, icons hidden
+  - Edge cases (5 tests): empty, long, special chars, multiline, zero delay
+
+**Verification:**
+- `npm run lint` - passes (only pre-existing warnings)
+- `npm run type-check` - passes with no errors
+- `npm run build` - successful production build
+- `npm test` - 283 alex component tests pass (47 new ConversationalContent tests)
+- All acceptance criteria verified:
+  - Text renders as bubble ✓
+  - Quote has special styling ✓
+  - Tip has icon + green accent ✓
+  - Warning has icon + amber accent ✓
+  - Typing animation works ✓
+  - Reduced-motion respected ✓
