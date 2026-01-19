@@ -1,24 +1,34 @@
 #!/bin/bash
-if [ -z "$1" ]; then
-  echo "Usage: $0 <iterations>"
+if [ -z "$1" ] || [ -z "$2" ]; then
+  echo "Usage: $0 <issue_number> <iterations> [branch]"
   exit 1
 fi
+
+ISSUE="$1"
+ITERATIONS="$2"
+BRANCH="${3:-main}"
 
 TMPFILE=$(mktemp)
 TOOLQUEUE=$(mktemp)
 trap "rm -f $TMPFILE $TOOLQUEUE" EXIT
 
-for ((i=1; i<=$1; i++)); do
+for ((i=1; i<=$ITERATIONS; i++)); do
   echo ""
   echo "╔════════════════════════════════════════╗"
-  echo "║  Iteration $i"
+  echo "║  Issue #$ISSUE - Iteration $i ($BRANCH)"
   echo "╚════════════════════════════════════════╝"
   echo ""
 
   # Clear tool queue
   > "$TOOLQUEUE"
 
-  claude --dangerously-skip-permissions -p "$(cat PROMPT.md)" --output-format stream-json --verbose 2>&1 | tee "$TMPFILE" | while IFS= read -r line; do
+  # Prepend issue number and branch to the prompt
+  FULL_PROMPT="PARENT_ISSUE: $ISSUE
+BRANCH: $BRANCH
+
+$(cat PROMPT.md)"
+
+  claude --dangerously-skip-permissions -p "$FULL_PROMPT" --output-format stream-json --verbose 2>&1 | tee "$TMPFILE" | while IFS= read -r line; do
     type=$(echo "$line" | jq -r '.type // empty' 2>/dev/null)
 
     case "$type" in
@@ -82,7 +92,7 @@ for ((i=1; i<=$1; i++)); do
 
   if grep -q "<promise>COMPLETE</promise>" "$TMPFILE"; then
     echo ""
-    echo "✅ All tasks complete after $i iterations."
+    echo "✅ Issue #$ISSUE complete after $i iterations."
     exit 0
   fi
 
@@ -91,5 +101,5 @@ for ((i=1; i<=$1; i++)); do
 done
 
 echo ""
-echo "⚠️  Reached max iterations ($1)"
+echo "⚠️  Issue #$ISSUE: Reached max iterations ($ITERATIONS)"
 exit 1
