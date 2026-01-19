@@ -1,11 +1,11 @@
 "use client";
 
 /**
- * Learn Carousel Content - Client component for carousel-based learning
- * Issue: #134 - C2: LearnCarouselContent component
+ * Learn Carousel Content - Client component for conversation-based learning
+ * Issue: #193 - 4.2: Learn page integration
  *
- * Loads modules, flattens to carousel items, and renders CarouselContainer
- * with proper content rendering based on item type.
+ * Loads modules, flattens to carousel items, and renders ConversationContainer
+ * with Lemonade-style conversational UI.
  */
 
 import { useMemo, useCallback } from "react";
@@ -13,14 +13,16 @@ import { useRouter, useSearchParams } from "next/navigation";
 import Link from "next/link";
 import {
   CarouselProvider,
-  CarouselContainer,
   CarouselPaywall,
-  ContentItem,
-  QuizItem,
   MediaItem,
-  ChecklistItem,
   useCarousel,
 } from "@/components/carousel";
+import {
+  ConversationContainer,
+  ConversationalQuiz,
+  ConversationalContent,
+  ConversationalChecklist,
+} from "@/components/alex";
 import type { CarouselItem } from "@/types/carousel";
 import type {
   QuizBlock,
@@ -29,6 +31,11 @@ import type {
   AudioBlock,
   ImageBlock,
   InfographicBlock,
+  TextBlock,
+  QuoteBlock,
+  TipBlock,
+  WarningBlock,
+  HeaderBlock,
 } from "@/types/module";
 import type { FlattenResult } from "@/lib/carousel";
 
@@ -44,9 +51,9 @@ export interface LearnCarouselContentProps {
 }
 
 /**
- * Inner carousel content that renders within CarouselProvider
+ * Inner content that renders within CarouselProvider and ConversationContainer
  */
-function CarouselContentInner({
+function ConversationContentInner({
   companySlug,
   roleSlug,
   companyName,
@@ -58,7 +65,7 @@ function CarouselContentInner({
   roleName: string;
 }) {
   const router = useRouter();
-  const { currentItem, markComplete, next, isLastItem } = useCarousel();
+  const { currentItem, markComplete, next, isLastItem, isAtPaywall } = useCarousel();
 
   // Handle exit - return to journey overview
   const handleExit = useCallback(() => {
@@ -69,12 +76,12 @@ function CarouselContentInner({
   const handleItemComplete = useCallback(() => {
     if (currentItem) {
       markComplete(currentItem.id);
-      // Automatically advance if not at last item
-      if (!isLastItem) {
+      // Automatically advance if not at last item and not at paywall
+      if (!isLastItem && !isAtPaywall) {
         next();
       }
     }
-  }, [currentItem, markComplete, next, isLastItem]);
+  }, [currentItem, markComplete, next, isLastItem, isAtPaywall]);
 
   // Render the current item based on its type
   const renderCurrentItem = useCallback(() => {
@@ -86,7 +93,7 @@ function CarouselContentInner({
       );
     }
 
-    const { type, content } = currentItem;
+    const { id, type, content } = currentItem;
 
     // Handle paywall items
     if (type === "paywall") {
@@ -106,17 +113,29 @@ function CarouselContentInner({
       );
     }
 
-    // Handle quiz items
+    // Handle quiz items - use ConversationalQuiz
     if (type === "quiz" || content.type === "quiz") {
       return (
-        <QuizItem
-          block={content as QuizBlock}
+        <ConversationalQuiz
+          itemId={id}
+          quiz={content as QuizBlock}
           onComplete={handleItemComplete}
         />
       );
     }
 
-    // Handle media items (video, audio, image, infographic)
+    // Handle checklist items - use ConversationalChecklist
+    if (type === "checklist" || content.type === "checklist") {
+      return (
+        <ConversationalChecklist
+          itemId={id}
+          checklist={content as ChecklistBlock}
+          onComplete={handleItemComplete}
+        />
+      );
+    }
+
+    // Handle media items (video, audio, image, infographic) - use MediaItem with big-question variant
     if (
       content.type === "video" ||
       content.type === "audio" ||
@@ -129,23 +148,44 @@ function CarouselContentInner({
             content as VideoBlock | AudioBlock | ImageBlock | InfographicBlock
           }
           onComplete={handleItemComplete}
+          variant="big-question"
         />
       );
     }
 
-    // Handle checklist items
-    if (type === "checklist" || content.type === "checklist") {
+    // Handle header blocks - use MediaItem with big-question variant for dramatic display
+    if (content.type === "header") {
+      const headerBlock = content as HeaderBlock;
       return (
-        <ChecklistItem
-          block={content as ChecklistBlock}
+        <div className="flex flex-col items-center justify-center min-h-[40vh] text-center px-6">
+          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
+            {headerBlock.content}
+          </h1>
+        </div>
+      );
+    }
+
+    // Handle text-based content (text, quote, tip, warning) - use ConversationalContent
+    if (
+      content.type === "text" ||
+      content.type === "quote" ||
+      content.type === "tip" ||
+      content.type === "warning"
+    ) {
+      return (
+        <ConversationalContent
+          itemId={id}
+          content={content as TextBlock | QuoteBlock | TipBlock | WarningBlock}
           onComplete={handleItemComplete}
         />
       );
     }
 
-    // Default to content items (text, header, quote, tip, warning)
+    // Default fallback for unknown content types
     return (
-      <ContentItem block={content} onComplete={handleItemComplete} />
+      <div className="flex items-center justify-center min-h-[50vh] text-gray-500">
+        Unsupported content type: {content.type}
+      </div>
     );
   }, [
     currentItem,
@@ -155,9 +195,9 @@ function CarouselContentInner({
   ]);
 
   return (
-    <CarouselContainer onExit={handleExit}>
+    <ConversationContainer onExit={handleExit} data-testid="conversation-container">
       {renderCurrentItem()}
-    </CarouselContainer>
+    </ConversationContainer>
   );
 }
 
@@ -169,7 +209,6 @@ export function LearnCarouselContent({
   flattenedResult,
   hasPremiumAccess = false,
 }: LearnCarouselContentProps) {
-  const router = useRouter();
   const searchParams = useSearchParams();
 
   // Get start index from query param (for jumping to specific module)
@@ -234,7 +273,7 @@ export function LearnCarouselContent({
         initialIndex: startIndex,
       }}
     >
-      <CarouselContentInner
+      <ConversationContentInner
         companySlug={companySlug}
         roleSlug={roleSlug}
         companyName={companyName}

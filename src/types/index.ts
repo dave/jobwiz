@@ -58,4 +58,11 @@ export type {
   CarouselContextValue,
   CarouselOptions,
   CarouselProgress,
+  // Conversation types for Lemonade UI
+  ConversationDisplayMode,
+  ConversationAnswer,
+  ConversationMessage,
+  ConversationState,
+  ConversationActions,
+  ConversationContextValue,
 } from "./carousel";

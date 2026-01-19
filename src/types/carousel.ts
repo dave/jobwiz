@@ -128,3 +128,69 @@ export interface CarouselProgress {
   /** Last updated timestamp */
   lastUpdated: number;
 }
+
+/** Display mode for conversation UI */
+export type ConversationDisplayMode = "big-question" | "conversational";
+
+/** Answer to a quiz question in conversation */
+export interface ConversationAnswer {
+  /** IDs of selected answer options */
+  selectedIds: string[];
+  /** Whether the answer was correct (for quizzes) */
+  isCorrect?: boolean;
+  /** When the answer was submitted */
+  timestamp: number;
+}
+
+/** A message in the conversation */
+export interface ConversationMessage {
+  /** Unique message identifier */
+  id: string;
+  /** Who sent the message */
+  sender: "alex" | "user";
+  /** The message content (text or JSX) */
+  content: string;
+  /** ID of the carousel item this message relates to */
+  itemId: string;
+  /** When the message was sent */
+  timestamp: number;
+}
+
+/** State for conversation context */
+export interface ConversationState {
+  /** All messages in the conversation */
+  messages: ConversationMessage[];
+  /** User answers keyed by item ID */
+  answers: Record<string, ConversationAnswer>;
+  /** Current display mode */
+  displayMode: ConversationDisplayMode;
+}
+
+/** Actions available through useConversation hook */
+export interface ConversationActions {
+  /** Add a message to the conversation */
+  addMessage: (
+    sender: "alex" | "user",
+    content: string,
+    itemId: string
+  ) => string;
+  /** Record an answer for an item */
+  recordAnswer: (
+    itemId: string,
+    selectedIds: string[],
+    isCorrect?: boolean
+  ) => void;
+  /** Set display mode */
+  setDisplayMode: (mode: ConversationDisplayMode) => void;
+  /** Clear all messages (for reset) */
+  clearMessages: () => void;
+  /** Get answer for a specific item */
+  getAnswer: (itemId: string) => ConversationAnswer | undefined;
+  /** Check if item has been answered */
+  hasAnswer: (itemId: string) => boolean;
+}
+
+/** Context value provided by ConversationProvider */
+export interface ConversationContextValue
+  extends ConversationState,
+    ConversationActions {}

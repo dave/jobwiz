@@ -3836,6 +3836,780 @@ All Stage 6 (Production Content Population) issues are now closed:
 
 ---
 
+## Stage 9 Progress
+
+### 2026-01-19 - Issue #181: 1.0: Design tokens file
+
+**Completed:**
+- Created `/src/styles/alex-tokens.css` with CSS custom properties for Lemonade Conversation UI
+- Imported tokens in `globals.css` for global availability
+
+**Tokens Defined:**
+- Spacing (4px grid): `--space-1` through `--space-12`
+- Dimensions: `--avatar-sm`, `--avatar-lg`, `--bubble-max-w`, `--bubble-radius`, `--button-h`, `--timeline-dot`, `--timeline-line`
+- Colors: `--alex-bubble-bg`, `--user-bubble-bg`, `--success-soft`, `--warning-soft`
+- Animation: `--ease-out`, `--duration-fast`, `--duration-normal`, `--duration-slow`, `--typing-delay`
+
+**Files Created:**
+- `src/styles/alex-tokens.css`
+
+**Files Modified:**
+- `src/app/globals.css` - Added import for alex-tokens.css
+
+**Verification:**
+- `npm run lint` - passes with no errors
+- `npm run type-check` - passes with no errors
+- `npm run build` - successful production build
+- All acceptance criteria verified:
+  - All tokens defined ✓
+  - Imported in globals.css ✓
+  - No build errors ✓
+
+### 2026-01-19 - Issue #182: 1.1: Avatar component
+
+**Completed:**
+- Created `/src/components/alex/Avatar.tsx` with two size variants
+- Created `/src/components/alex/index.ts` for exports
+- Added `public/alex-avatar.jpg` placeholder image
+
+**Avatar Features:**
+- Two sizes: small (40px) for conversation mode, large (72px) for big question mode
+- Uses CSS variables from design tokens: `--avatar-sm`, `--avatar-lg`
+- Spring animation on mount using framer-motion
+- Fallback to "A" initial in blue circle when image fails to load
+- Respects reduced-motion preferences via `useReducedMotion` hook
+- Shadow: `0 2px 8px rgba(0, 0, 0, 0.1)`
+- Perfect circle crop via `overflow-hidden rounded-full`
+- Decorative (aria-hidden="true")
+- Large size has priority loading for LCP optimization
+
+**Files Created:**
+- `src/components/alex/Avatar.tsx`
+- `src/components/alex/index.ts`
+- `src/components/alex/__tests__/Avatar.test.tsx`
+- `public/alex-avatar.jpg`
+
+**Tests:**
+- 23 unit tests covering:
+  - Rendering at both sizes (10 tests)
+  - Image fallback (5 tests)
+  - Image priority loading (2 tests)
+  - Animation/motion div (2 tests)
+  - Reduced motion support (2 tests)
+  - Size dimension verification (2 tests)
+
+**Verification:**
+- `npm run lint` - passes with no errors
+- `npm run type-check` - passes with no errors
+- `npm run build` - successful production build
+- `npm test` - 23 Avatar tests pass (2112 total passed, pre-existing failures unrelated to this change)
+- All acceptance criteria verified:
+  - Renders at both sizes ✓
+  - Spring animation on mount ✓
+  - Fallback if image fails ✓
+  - Respects reduced-motion ✓
+
+### 2026-01-19 - Issue #183: 1.2: Chat bubble components
+
+**Completed:**
+- Created `/src/components/alex/ChatBubble.tsx` with two variants
+- Created `/src/components/alex/TypingIndicator.tsx` with animated dots
+- Updated `/src/components/alex/index.ts` with new exports
+
+**ChatBubble Features:**
+- Two variants: alex (coach) and user (answer)
+- Alex bubble: left-aligned with tail top-left
+  - Background: `--alex-bubble-bg`
+  - Padding: 16px
+  - Border-radius: `4px 20px 20px 20px`
+  - Max-width: 320px
+  - Shadow: `0 1px 2px rgba(0,0,0,0.05)`
+- User bubble: right-aligned pill
+  - Background: `--user-bubble-bg`
+  - Padding: `12px 16px`
+  - Border-radius: 20px all corners
+  - White text, no shadow
+- Fade-in animation on mount
+- Respects reduced-motion via `useReducedMotion` hook
+
+**TypingIndicator Features:**
+- Three animated dots with staggered bouncing animation
+- Uses alex bubble styling (same background, radius, shadow)
+- Dots: 8px circles with 6px gap
+- Accessible: `role="status"`, `aria-label="Alex is typing"`
+- Individual dots are `aria-hidden`
+- Respects reduced-motion preferences
+
+**Files Created:**
+- `src/components/alex/ChatBubble.tsx`
+- `src/components/alex/TypingIndicator.tsx`
+- `src/components/alex/__tests__/ChatBubble.test.tsx`
+- `src/components/alex/__tests__/TypingIndicator.test.tsx`
+
+**Files Modified:**
+- `src/components/alex/index.ts` - Added ChatBubble and TypingIndicator exports
+
+**Tests:**
+- 51 unit tests covering:
+  - ChatBubble (27 tests): alex variant, user variant, animation, reduced motion, className, content types
+  - TypingIndicator (24 tests): rendering, styling, dot styling, accessibility, animation, reduced motion, className, layout
+
+**Verification:**
+- `npm run lint` - passes with no errors
+- `npm run type-check` - passes with no errors
+- `npm run build` - successful production build
+- `npm test` - 51 new tests pass (2163 total passed, pre-existing failures unrelated to this change)
+- All acceptance criteria verified:
+  - Alex bubble matches spec ✓
+  - User pill matches spec ✓
+  - Typing dots animate ✓
+  - Respects reduced-motion ✓
+
+### 2026-01-19 - Issue #184: 1.3: Conversation context
+
+**Completed:**
+- Created `src/components/alex/ConversationContext.tsx` with full state management
+- Added conversation types to `src/types/carousel.ts`:
+  - `ConversationDisplayMode` - 'big-question' | 'conversational'
+  - `ConversationAnswer` - { selectedIds, isCorrect?, timestamp }
+  - `ConversationMessage` - { id, sender, content, itemId, timestamp }
+  - `ConversationState` - { messages, answers, displayMode }
+  - `ConversationActions` - addMessage, recordAnswer, setDisplayMode, etc.
+  - `ConversationContextValue` - combined state + actions
+- Implemented `ConversationProvider` component:
+  - Manages messages array (session only, not persisted)
+  - Manages answers Record (persisted to localStorage + Supabase)
+  - Manages displayMode state
+  - Integrates with CarouselContext (uses companySlug, roleSlug)
+- Implemented actions:
+  - `addMessage(sender, content, itemId)` - adds message, returns ID
+  - `recordAnswer(itemId, selectedIds, isCorrect?)` - records quiz answer
+  - `setDisplayMode(mode)` - switches between big-question and conversational
+  - `clearMessages()` - clears messages (for reset)
+  - `getAnswer(itemId)` - retrieves answer for item
+  - `hasAnswer(itemId)` - checks if item has answer
+- Created `useConversation()` hook for consuming context
+- Implemented localStorage persistence:
+  - Key format: `conversation-{companySlug}-{roleSlug}`
+  - Persists answers only (messages are session-only)
+  - Loads saved answers on mount
+- Implemented Supabase sync:
+  - Uses existing `journey_progress` table with journeyId format `conversation-{company}-{role}`
+  - Debounced save (1 second) for performance
+  - Loads from Supabase on mount if remote state is newer
+  - Configurable via `enableSupabaseSync` prop (default: true)
+- Updated exports in `src/components/alex/index.ts`
+- Updated type exports in `src/types/index.ts`
+
+**Files Created:**
+- `src/components/alex/ConversationContext.tsx`
+- `src/components/alex/__tests__/ConversationContext.test.tsx`
+
+**Files Modified:**
+- `src/types/carousel.ts` - Added conversation types
+- `src/types/index.ts` - Added conversation type exports
+- `src/components/alex/index.ts` - Added ConversationProvider and useConversation exports
+
+**Tests:**
+- 31 unit tests covering:
+  - Initialization (4 tests)
+  - addMessage (5 tests)
+  - recordAnswer (4 tests)
+  - getAnswer (2 tests)
+  - hasAnswer (2 tests)
+  - setDisplayMode (2 tests)
+  - clearMessages (2 tests)
+  - localStorage persistence (3 tests)
+  - Supabase sync (3 tests)
+  - useConversation hook error (1 test)
+  - Integration with CarouselContext (2 tests)
+  - Rendering (1 test)
+
+**Verification:**
+- `npm run lint` - passes with no errors
+- `npm run type-check` - passes with no errors
+- `npm run build` - successful production build
+- `npm test` - 31 new ConversationContext tests pass (105 total alex tests pass)
+- All acceptance criteria verified:
+  - Context provides state + actions ✓
+  - Integrates with CarouselContext ✓
+  - Answers persist to localStorage ✓
+  - Answers sync to Supabase (if logged in) ✓
+
+### 2026-01-19 - Issue #185: Big Question mode
+
+**Completed:**
+- Created `src/components/alex/BigQuestionMode.tsx` component
+- Implements full-screen dramatic display mode for:
+  - `header`, `video`, `audio`, `image`, `infographic` content types
+
+**Layout:**
+- Large avatar (72px) centered at top
+- Content centered below with flex-grow
+- Continue button at bottom (full-width, 48px height)
+- Uses CSS variables from alex-tokens.css
+
+**Features:**
+- Full viewport height (100dvh with safe area insets)
+- Tap anywhere to advance (optional `tapToAdvance` prop)
+- Keyboard navigation:
+  - Enter = continue
+  - Escape = exit (if onExit provided)
+- Reduced motion support via framer-motion
+- Staggered fade-in animations
+
+**Props:**
+- `children` - Content to display
+- `onContinue` - Called on continue button click, Enter key, or tap (if enabled)
+- `onExit` - Optional, called on Escape key
+- `tapToAdvance` - Enable tap anywhere to advance (default: false)
+- `continueText` - Button text (default: "Continue")
+- `continueDisabled` - Disable continue button
+
+**Files Created:**
+- `src/components/alex/BigQuestionMode.tsx` - Main component
+- `src/components/alex/__tests__/BigQuestionMode.test.tsx` - 40 unit tests
+
+**Files Modified:**
+- `src/components/alex/index.ts` - Added BigQuestionMode export
+
+**Tests:**
+- 40 unit tests covering:
+  - Rendering (7 tests)
+  - Layout structure (6 tests)
+  - Continue button behavior (5 tests)
+  - Tap to advance (4 tests)
+  - Keyboard navigation (6 tests)
+  - Accessibility (4 tests)
+  - Button styling (3 tests)
+  - Reduced motion (2 tests)
+  - Complex content (4 tests)
+
+**Verification:**
+- `npm run lint` - passes (2 warnings in test file for img elements, expected)
+- `npm run type-check` - passes with no errors
+- `npm run build` - successful production build
+- `npm test` - 145 alex component tests pass (40 new BigQuestionMode tests)
+- All acceptance criteria verified:
+  - Large avatar centered at top ✓
+  - Content centered below ✓
+  - Continue button at bottom ✓
+  - Tap anywhere advances (optional) ✓
+  - Keyboard nav works (Enter/Escape) ✓
+
+**Screenshots:**
+- `screenshots/185-big-question-mode.png` - BigQuestionMode with welcome content
+
+### 2026-01-19 - Issue #186: Conversational mode
+
+**Completed:**
+- Created `src/components/alex/ConversationalMode.tsx` component
+- Implements scrolling chat interface with history for:
+  - `text`, `quote`, `tip`, `warning`, `quiz`, `checklist` content types
+
+**Layout:**
+- Messages render with small avatar (40px) for Alex
+- User answers show as pills on right (using ChatBubble variant="user")
+- Auto-scroll to latest message on new messages
+- "↓ New" indicator when user scrolls up and new messages arrive
+- Full module history visible in scrollable container
+
+**Features:**
+- Full viewport height (100dvh) with flex layout
+- Smooth auto-scroll to bottom on new messages
+- User scroll detection: when scrolled up, stops auto-scroll
+- "New" indicator button:
+  - Appears when scrolled up + new messages
+  - Click to scroll back to bottom
+  - Fixed position at bottom center
+- Reduced motion support via framer-motion
+- ARIA live region for accessibility
+
+**Props:**
+- `messages` - Array of ConversationMessage to display
+- `children` - Active content (options, continue button, etc.)
+- `className` - Custom class name
+- `data-testid` - Test ID for testing
+
+**Files Created:**
+- `src/components/alex/ConversationalMode.tsx` - Main component
+- `src/components/alex/__tests__/ConversationalMode.test.tsx` - 26 unit tests
+
+**Files Modified:**
+- `src/components/alex/index.ts` - Added ConversationalMode export
+
+**Tests:**
+- 26 unit tests covering:
+  - Rendering (7 tests)
+  - Message display (3 tests)
+  - Scrolling behavior (2 tests)
+  - New messages indicator (2 tests)
+  - Accessibility (3 tests)
+  - Children rendering (2 tests)
+  - Empty state (2 tests)
+  - Message updates (2 tests)
+  - Layout and styling (3 tests)
+
+**Verification:**
+- `npm run lint` - passes (only pre-existing warnings)
+- `npm run type-check` - passes with no errors
+- `npm run build` - successful production build
+- `npm test` - 171 alex component tests pass (26 new ConversationalMode tests)
+- All acceptance criteria verified:
+  - Messages render with small avatar ✓
+  - User answers show as pills on right ✓
+  - Auto-scroll to new messages ✓
+  - "↓ New" indicator when scrolled up ✓
+  - Full module history visible ✓
+
+### 2026-01-19 - Issue #187: 2.3: Section timeline sidebar
+
+**Completed:**
+- Created `src/components/alex/SectionTimeline.tsx` component
+- Progress sidebar showing modules/sections with visual timeline
+
+**Desktop Layout:**
+- Fixed left sidebar (280px width)
+- Visible on lg+ screens via `hidden lg:flex` classes
+- Shows "Your Progress" header with percentage
+- Progress bar with animated fill
+- Section list with dots and connecting lines
+
+**Mobile Layout:**
+- Toggle button in top-left corner (48px touch target)
+- Hidden on lg+ screens via `lg:hidden` class
+- Slide-in drawer (AnimatePresence + framer-motion)
+- Backdrop overlay for closing
+- Close button in drawer header
+- Auto-closes after section selection
+
+**Section States:**
+- Completed = green dot with checkmark icon
+- Current = highlighted with primary color, `aria-current="step"`
+- Upcoming = gray dot, disabled (not clickable)
+
+**Features:**
+- Groups carousel items by sectionTitle or moduleSlug
+- Extracts sections from CarouselContext items
+- Skips paywall items in section grouping
+- Click completed/current sections to jump to that point
+- Keyboard support (Escape closes drawer)
+- Safe area insets for notched devices
+- Reduced motion support via framer-motion
+
+**Files Created:**
+- `src/components/alex/SectionTimeline.tsx` - Main component
+- `src/components/alex/__tests__/SectionTimeline.test.tsx` - 28 unit tests
+
+**Files Modified:**
+- `src/components/alex/index.ts` - Added SectionTimeline export
+
+**Tests:**
+- 28 unit tests covering:
+  - Rendering (4 tests)
+  - Section extraction (3 tests)
+  - Section states (3 tests)
+  - Click to jump (4 tests)
+  - Mobile drawer (6 tests)
+  - Accessibility (2 tests)
+  - Progress calculation (4 tests)
+  - Responsive behavior (2 tests)
+
+**Verification:**
+- `npm run lint` - passes (only pre-existing warnings)
+- `npm run type-check` - passes with no errors
+- `npm run build` - successful production build
+- `npm test` - 199 alex component tests pass (28 new SectionTimeline tests)
+- All acceptance criteria verified:
+  - Shows module list with dots/lines ✓
+  - Current section highlighted ✓
+  - Completed sections have checkmark ✓
+  - Click jumps to section ✓
+  - Collapses to drawer on mobile ✓
+  - Smooth open/close animation ✓
+
+### 2026-01-19 - Issue #188: Quiz in Conversation
+
+**Completed:**
+- Created `ConversationalQuiz` component for quiz questions in conversation flow
+- Component located at `src/components/alex/items/ConversationalQuiz.tsx`
+
+**Quiz Flow:**
+1. Alex asks question (chat bubble with avatar)
+2. Options fade in staggered (50ms apart)
+3. User taps option → immediate highlight
+4. User's answer appears as pill (slides in from right)
+5. Alex feedback bubble appears (250ms delay)
+6. Auto-advance after 1.5s (or tap Continue to skip)
+
+**Option Card Spec:**
+- Min-height: 48px
+- Padding: 12px 16px
+- Border: 2px solid transparent → 2px solid var(--primary) on hover
+- Border-radius: 12px
+- Full width
+- States: default, correct (green), incorrect (red)
+
+**Features:**
+- Quiz state machine: question → answered → feedback
+- Integrates with ConversationContext (addMessage, recordAnswer)
+- Persists answers via context (localStorage + Supabase sync)
+- Auto-advance with configurable delay (default 1500ms)
+- Continue button to skip auto-advance
+- Keyboard support (Enter to continue during feedback)
+- Already-answered state restoration
+- Reduced motion support
+
+**Files Created:**
+- `src/components/alex/items/ConversationalQuiz.tsx` - Main component
+- `src/components/alex/items/index.ts` - Exports
+- `src/components/alex/items/__tests__/ConversationalQuiz.test.tsx` - 37 unit tests
+
+**Files Modified:**
+- `src/components/alex/index.ts` - Added ConversationalQuiz export
+
+**Tests:**
+- 37 unit tests covering:
+  - Rendering (5 tests): question bubble, options, role attributes
+  - Option selection (4 tests): select, disable, correct/incorrect states
+  - User answer display (1 test): pill after selection
+  - Feedback (5 tests): delay, correct/incorrect messages, continue button
+  - Context integration (5 tests): addMessage, recordAnswer calls
+  - Auto-advance (3 tests): delay, custom delay, skip on continue
+  - Already answered state (2 tests): restore from context
+  - Accessibility (7 tests): roles, aria attributes, icons
+  - Keyboard navigation (2 tests): Enter to continue
+  - Edge cases (3 tests): no explanation, rapid clicks, zero delay
+
+**Verification:**
+- `npm run lint` - passes (only pre-existing warnings)
+- `npm run type-check` - passes with no errors
+- `npm run build` - successful production build
+- `npm test` - 236 alex component tests pass (37 new ConversationalQuiz tests)
+- All acceptance criteria verified:
+  - Question shows as Alex bubble ✓
+  - Options render as cards ✓
+  - Selected option highlights ✓
+  - User answer shows as pill ✓
+  - Feedback bubble shows result ✓
+  - Answer persists to context ✓
+  - Auto-advance after delay ✓
+
+### 2026-01-19 - Issue #189: Text/tip/quote in conversation
+
+**Completed:**
+- Created `ConversationalContent` component for text content in conversation flow
+- Component located at `src/components/alex/items/ConversationalContent.tsx`
+
+**Content Types:**
+- `text` → Alex bubble with plain text styling
+- `quote` → Alex bubble with blockquote, curly quotes, optional author attribution
+- `tip` → Alex bubble with 💡 icon, green background, "Pro Tip" label
+- `warning` → Alex bubble with ⚠️ icon, amber background, "Watch Out" label
+
+**Features:**
+- Typing animation for long content (>50 chars threshold, configurable)
+- Reduced motion support (skips typing animation)
+- Auto-advance after delay (configurable, default 2000ms)
+- Continue button for manual advancement
+- Keyboard navigation (Enter/Space to continue)
+- Integrates with ConversationContext (adds message on mount)
+
+**Props:**
+- `itemId` - Unique identifier for the content item
+- `content` - TextBlock, QuoteBlock, TipBlock, or WarningBlock
+- `onComplete` - Callback when content is completed
+- `autoAdvance` - Enable auto-advance (default: true)
+- `autoAdvanceDelay` - Delay before auto-advance in ms (default: 2000)
+- `typingThreshold` - Char count to trigger typing animation (default: 50)
+- `className` - Optional custom class name
+
+**Files Created:**
+- `src/components/alex/items/ConversationalContent.tsx` - Main component
+- `src/components/alex/items/__tests__/ConversationalContent.test.tsx` - 47 unit tests
+
+**Files Modified:**
+- `src/components/alex/items/index.ts` - Added ConversationalContent export
+- `src/components/alex/index.ts` - Added ConversationalContent export
+
+**Tests:**
+- 47 unit tests covering:
+  - Rendering (4 tests)
+  - Text content (2 tests)
+  - Quote content (5 tests): styling, author, blockquote
+  - Tip content (3 tests): icon, label, styling
+  - Warning content (3 tests): icon, label, styling
+  - Typing animation (6 tests): threshold, duration, reduced motion
+  - Reduced motion (2 tests)
+  - Auto-advance (5 tests): delay, custom delay, disabled
+  - Continue button (4 tests): click, cancel auto-advance
+  - Keyboard navigation (4 tests): Enter, Space, other keys
+  - Context integration (2 tests): addMessage
+  - Accessibility (4 tests): aria-labelledby, icons hidden
+  - Edge cases (5 tests): empty, long, special chars, multiline, zero delay
+
+**Verification:**
+- `npm run lint` - passes (only pre-existing warnings)
+- `npm run type-check` - passes with no errors
+- `npm run build` - successful production build
+- `npm test` - 283 alex component tests pass (47 new ConversationalContent tests)
+- All acceptance criteria verified:
+  - Text renders as bubble ✓
+  - Quote has special styling ✓
+  - Tip has icon + green accent ✓
+  - Warning has icon + amber accent ✓
+  - Typing animation works ✓
+  - Reduced-motion respected ✓
+
+### 2026-01-19 - Issue #190: Checklist in conversation
+
+**Completed:**
+- Created `ConversationalChecklist` component for checklists in conversation flow
+- Component located at `src/components/alex/items/ConversationalChecklist.tsx`
+
+**Flow:**
+1. Alex introduces checklist (chat bubble with avatar)
+2. Items appear one-by-one with staggered animation (150ms apart)
+3. Checked items animate completion (scale animation)
+4. "Continue" button enabled after all required items checked
+
+**Checklist Item Features:**
+- Similar styling to quiz option cards
+- Checkbox on left with green checkmark when checked
+- Strikethrough effect on checked text
+- Optional items show "(optional)" label
+- Min-height: 48px for touch targets
+
+**Features:**
+- Integrates with ConversationContext (addMessage, recordAnswer, getAnswer)
+- State persists to localStorage + Supabase via context
+- Already-answered state restoration
+- Progress indicator shows "X of Y required items checked"
+- Completion message: "All required items complete"
+- Keyboard navigation (Enter to continue when all required checked)
+- Reduced motion support
+
+**Props:**
+- `itemId` - Unique identifier for the checklist item
+- `checklist` - ChecklistBlock from types
+- `onComplete` - Callback when all required items checked and Continue clicked
+- `className` - Optional custom class name
+
+**Files Created:**
+- `src/components/alex/items/ConversationalChecklist.tsx` - Main component
+- `src/components/alex/items/__tests__/ConversationalChecklist.test.tsx` - 34 unit tests
+
+**Files Modified:**
+- `src/components/alex/items/index.ts` - Added ConversationalChecklist export
+- `src/components/alex/index.ts` - Added ConversationalChecklist export
+
+**Tests:**
+- 34 unit tests covering:
+  - Rendering (4 tests): renders, shows intro, default title, className
+  - Items appearance (4 tests): all items render, text, optional label
+  - Checkbox interaction (4 tests): check, uncheck, multiple, strikethrough
+  - Progress indicator (4 tests): count, updates, completion, live region
+  - Continue button (4 tests): initial hidden, shows on complete, hides on uncheck, onComplete
+  - Context integration (4 tests): addMessage, recordAnswer, multiple items, uncheck
+  - Already answered state (2 tests): restore, progress
+  - Accessibility (3 tests): roles, descriptions, button label
+  - Keyboard navigation (2 tests): Enter to continue, ignores when incomplete
+  - Edge cases (3 tests): empty, all optional, default required
+
+**Verification:**
+- `npm run lint` - passes (only pre-existing warnings)
+- `npm run type-check` - passes with no errors
+- `npm run build` - successful production build
+- `npm test` - 317 alex component tests pass (34 new ConversationalChecklist tests)
+- All acceptance criteria verified:
+  - Intro shows as Alex bubble ✓
+  - Items appear sequentially ✓
+  - Checkbox interaction works ✓
+  - Check animation on complete ✓
+  - Shows required vs optional ✓
+  - Continue enabled when required done ✓
+  - State persists ✓
+
+### 2026-01-19 - Issue #191: Media big-question variant
+
+**Completed:**
+- Added `variant="big-question"` prop to `MediaItem` component
+- Component located at `src/components/carousel/items/MediaItem.tsx`
+
+**Changes:**
+- Added `MediaItemVariant` type: `"default" | "big-question"`
+- Added `variant` prop to `MediaItemProps` interface (default: "default")
+- Updated `VideoItem`, `AudioItem`, and `ImageItem` internal components to accept variant
+
+**Big-Question Variant Features:**
+- Larger minimum height: `min-h-[60vh]` (vs default `min-h-[50vh]`)
+- Larger max-width: `max-w-5xl` (vs `max-w-4xl`) for video/image
+- More dramatic spacing: `px-6 py-12` (vs `px-4 py-8`)
+- Larger border radius: `rounded-3xl` (vs `rounded-2xl`)
+- Data attribute: `data-variant="big-question"` for debugging/styling
+
+**Video Big-Question:**
+- Larger title text: `lg:text-4xl` (vs `sm:text-2xl`)
+- Larger container width
+- Enhanced shadow on video container
+
+**Audio Big-Question:**
+- Larger play button: `w-28 h-28` (vs `w-20 h-20`)
+- Larger title text: `lg:text-5xl`
+- Thicker seek bar: `h-4` (vs `h-3`)
+- Larger playback speed button: `px-6 py-3 text-lg`
+- Larger time display text
+
+**Image/Infographic Big-Question:**
+- Constrains image height: `max-h-[60vh]`
+- Larger zoom icon
+- Larger caption text: `text-xl`
+- Enhanced shadow effect
+
+**Files Modified:**
+- `src/components/carousel/items/MediaItem.tsx` - Added variant prop and big-question styles
+- `src/components/carousel/items/__tests__/MediaItem.test.tsx` - Added 27 new tests
+
+**Tests:**
+- 61 total tests (34 original + 27 new):
+  - Video big-question (6 tests): data-variant, min-height, max-width, title, border-radius, iframe
+  - Audio big-question (7 tests): data-variant, min-height, play button, title, seek bar, speed button, audio
+  - Image big-question (8 tests): data-variant, min-height, max-width, border-radius, zoom icon, caption, image height, zoom modal
+  - Infographic big-question (2 tests): styles, max-width
+  - Unsupported big-question (1 test): error state
+  - Default variant unchanged (3 tests): verifies original behavior preserved
+
+**Verification:**
+- `npm run lint` - passes (only pre-existing warnings)
+- `npm run type-check` - passes with no errors
+- `npm run build` - successful production build
+- `npm test -- --testPathPattern="MediaItem"` - 61 tests pass
+- All acceptance criteria verified:
+  - Variant prop added ✓
+  - Big-question layout centered ✓
+  - Larger controls on video/audio ✓
+  - Image/infographic fills available space ✓
+  - Existing default variant unchanged ✓
+
+### 2026-01-19 - Issue #192: Conversation container
+
+**Completed:**
+- Created `ConversationContainer` component for orchestrating conversation UI
+- Component located at `src/components/alex/ConversationContainer.tsx`
+
+**Responsibilities:**
+- Wraps ConversationContext + CarouselContext
+- Determines display mode per item type using `getDisplayModeForType()`:
+  - `header`, `video`, `audio`, `image`, `infographic` → Big Question mode
+  - `text`, `quote`, `tip`, `warning`, `quiz`, `checklist` → Conversational mode
+- Renders SectionTimeline (responsive: desktop sidebar, mobile drawer)
+- Switches between BigQuestionMode / ConversationalMode with transitions
+- Keyboard navigation: Escape = exit (Enter handled by child modes)
+- Touch: tap to continue in big-question mode (avoids buttons/links/inputs)
+
+**Features:**
+- AnimatePresence for smooth mode transitions
+- Direction-aware transitions (fade for conversational→big, slide-up for big→conversational)
+- Reduced motion support
+- Prevents keyboard shortcuts in input/textarea fields
+- Touch targets exclude interactive elements
+
+**Props:**
+- `children` - Content to render in current mode
+- `onExit` - Callback when user exits (Escape key)
+- `className` - Optional custom class name
+- `data-testid` - Optional test ID
+
+**Files Created:**
+- `src/components/alex/ConversationContainer.tsx` - Main container component
+- `src/components/alex/__tests__/ConversationContainer.test.tsx` - 44 unit tests
+
+**Files Modified:**
+- `src/components/alex/index.ts` - Added ConversationContainer and getDisplayModeForType exports
+
+**Tests:**
+- 44 unit tests covering:
+  - getDisplayModeForType (12 tests): all content type mappings
+  - Rendering (4 tests): container, children, timeline, className
+  - Display Mode Determination (11 tests): big-question and conversational modes
+  - Mode Switching (2 tests): BigQuestionMode and ConversationalMode rendering
+  - Keyboard Navigation (3 tests): Escape key, input/textarea handling
+  - Touch Gestures (3 tests): button, link, conversational mode exclusions
+  - Timeline Integration (2 tests): section rendering, progress
+  - Exit Functionality (2 tests): onExit callback, missing handler
+  - Edge Cases (3 tests): empty items, malformed content, rapid changes
+  - Accessibility (2 tests): timeline aria-label, mobile toggle attributes
+
+**Verification:**
+- `npm run lint` - passes (only pre-existing warnings)
+- `npm run type-check` - passes with no errors
+- `npm run build` - successful production build
+- `npm test` - 361 alex component tests pass (44 new ConversationContainer tests)
+- All acceptance criteria verified:
+  - Correctly determines mode per content type ✓
+  - Switches modes with transition animation ✓
+  - Timeline renders (desktop sidebar, mobile drawer) ✓
+  - Keyboard navigation works ✓
+  - Touch gestures work ✓
+  - Exit button returns to journey page ✓
+
+### 2026-01-19 - Issue #194: 5.1: Animations
+
+**Completed:**
+- Added animation keyframes to `tailwind.config.ts` for conversation UI
+
+**Keyframes Added:**
+- `messageIn`: fade + slide up for new messages
+  - 0%: opacity 0, translateY(12px)
+  - 100%: opacity 1, translateY(0)
+  - Duration: 0.3s ease-out
+
+- `pillIn`: scale bounce for user answers
+  - 0%: opacity 0, scale(0.8)
+  - 50%: scale(1.05)
+  - 100%: opacity 1, scale(1)
+  - Duration: 0.4s with cubic-bezier bounce
+
+- `avatarPulse`: subtle pulse on Alex while typing
+  - 0%, 100%: opacity 1, scale(1)
+  - 50%: opacity 0.7, scale(0.95)
+  - Duration: 2s ease-in-out infinite
+
+**Animation Classes Added:**
+- `animate-message-in` - For new chat messages appearing
+- `animate-pill-in` - For user answer pills bouncing in
+- `animate-avatar-pulse` - For typing indicator on avatar
+
+**Reduced Motion Support:**
+- Already handled by existing `prefers-reduced-motion` media query in globals.css
+- Sets animation-duration to 0.01ms for instant transitions
+
+**Files Modified:**
+- `tailwind.config.ts` - Added 3 new keyframes and 3 animation classes
+
+**Files Created:**
+- `src/__tests__/animations.test.tsx` - 14 unit tests
+
+**Tests:**
+- 14 unit tests covering:
+  - animate-message-in (3 tests): class application, combining with other classes, conditional
+  - animate-pill-in (3 tests): class application, inline elements, answer pills
+  - animate-avatar-pulse (4 tests): class application, circular avatars, typing indicator toggle
+  - motion-safe variant (2 tests): prefixed classes, motion-reduce alternative
+  - animation combinations (2 tests): different elements, conversation flow
+
+**Verification:**
+- `npm run lint` - passes (only pre-existing warnings)
+- `npm run type-check` - passes with no errors
+- `npm run build` - successful production build
+- `npm test -- --testPathPattern="animations.test"` - 14 tests pass
+- All acceptance criteria verified:
+  - Keyframes defined ✓
+  - Animation classes work ✓
+  - Reduced motion fallback (instant) ✓
+
+---
+
 ## Stage 10 Progress
 
 ### 2026-01-19 - Issue #205: Remove video sections from all modules
