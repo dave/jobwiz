@@ -11,3 +11,6 @@ export { ConversationProvider, useConversation } from "./ConversationContext";
 
 export { BigQuestionMode } from "./BigQuestionMode";
 export type { BigQuestionModeProps } from "./BigQuestionMode";
+
+export { ConversationalMode } from "./ConversationalMode";
+export type { ConversationalModeProps } from "./ConversationalMode";
