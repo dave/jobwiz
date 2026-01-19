@@ -4,6 +4,8 @@ import { getCompanyBySlug, getRoleBySlug } from "@/lib/routing";
 import { loadCarouselModules } from "@/lib/carousel";
 import { flattenToCarouselItems } from "@/lib/carousel/flatten-modules";
 import { JourneyContent } from "./JourneyContent";
+import { createServerClient } from "@/lib/supabase/server";
+import { checkAccess } from "@/lib/access";
 
 interface JourneyPageProps {
   params: Promise<{
@@ -63,6 +65,19 @@ export default async function JourneyPage({ params }: JourneyPageProps) {
     premiumModules
   );
 
+  // Check access server-side to prevent flicker
+  let initialHasAccess = false;
+  try {
+    const supabase = await createServerClient();
+    const { data: { user } } = await supabase.auth.getUser();
+    if (user) {
+      const result = await checkAccess(supabase, user.id, companySlug, roleSlug);
+      initialHasAccess = result.hasAccess;
+    }
+  } catch {
+    // Fail silently - client will re-check
+  }
+
   return (
     <JourneyContent
       companySlug={companySlug}
@@ -72,6 +87,7 @@ export default async function JourneyPage({ params }: JourneyPageProps) {
       allModules={allModules}
       totalItems={totalItems}
       paywallIndex={paywallIndex}
+      initialHasAccess={initialHasAccess}
     />
   );
 }

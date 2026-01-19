@@ -85,11 +85,6 @@ export async function middleware(request: NextRequest) {
     },
   });
 
-  // Skip public routes
-  if (isPublicRoute(pathname)) {
-    return response;
-  }
-
   // Create Supabase client for middleware
   const supabase = createServerClient(
     process.env.NEXT_PUBLIC_SUPABASE_URL!,
@@ -114,20 +109,17 @@ export async function middleware(request: NextRequest) {
     }
   );
 
-  // Refresh session if expired
+  // IMPORTANT: Always refresh session to keep cookies fresh
+  // This must run for ALL routes so server components get valid session
   const {
     data: { user },
-    error,
   } = await supabase.auth.getUser();
 
-  // Handle authenticated routes
-  if (requiresAuth(pathname)) {
-    if (!user) {
-      // Redirect to login with return URL
-      const loginUrl = new URL("/login", request.url);
-      loginUrl.searchParams.set("redirectTo", pathname);
-      return NextResponse.redirect(loginUrl);
-    }
+  // Handle authenticated routes - redirect to login if no user
+  if (requiresAuth(pathname) && !user) {
+    const loginUrl = new URL("/login", request.url);
+    loginUrl.searchParams.set("redirectTo", pathname);
+    return NextResponse.redirect(loginUrl);
   }
 
   return response;

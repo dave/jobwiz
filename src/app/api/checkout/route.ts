@@ -54,8 +54,11 @@ export async function POST(
       // User not authenticated - continue without user ID
     }
 
+    // Get base URL from request origin for redirects
+    const origin = request.headers.get('origin') || request.headers.get('referer')?.split('/').slice(0, 3).join('/');
+
     // Create checkout session
-    const result = await createCheckoutSession(validation.request, userId);
+    const result = await createCheckoutSession(validation.request, userId, origin || undefined);
 
     return NextResponse.json(result, { status: 200 });
   } catch (error) {
