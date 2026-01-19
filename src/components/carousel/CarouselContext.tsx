@@ -212,7 +212,7 @@ export function CarouselProvider({
     null
   );
 
-  // Persist state to localStorage whenever it changes
+  // Persist state to localStorage and cookie whenever it changes
   useEffect(() => {
     const progress: CarouselProgress = {
       companySlug,

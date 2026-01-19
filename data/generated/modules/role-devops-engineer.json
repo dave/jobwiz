@@ -8,42 +8,6 @@
   "display_order": 6,
   "sections": [
     {
-      "id": "video-intro",
-      "title": "Video Lessons",
-      "blocks": [
-        {
-          "type": "text",
-          "content": {
-            "text": "These videos cover key techniques and real examples to help you prepare for DevOps/SRE interviews."
-          }
-        },
-        {
-          "type": "video",
-          "content": {
-            "url": "placeholder://video/intro/devops-engineer-interviews",
-            "title": "Introduction: The DevOps/SRE Interview Process",
-            "duration": 240
-          }
-        },
-        {
-          "type": "video",
-          "content": {
-            "url": "placeholder://video/technique/devops-engineer-approach",
-            "title": "Technique: Preparing for DevOps/SRE Interviews",
-            "duration": 360
-          }
-        },
-        {
-          "type": "video",
-          "content": {
-            "url": "placeholder://video/example/devops-engineer-answer-example",
-            "title": "Example: A Strong DevOps/SRE Interview Answer",
-            "duration": 300
-          }
-        }
-      ]
-    },
-    {
       "id": "overview",
       "title": "Role Overview",
       "blocks": [

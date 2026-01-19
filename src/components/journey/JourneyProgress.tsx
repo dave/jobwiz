@@ -304,9 +304,7 @@ export function JourneyProgress({
               className="text-sm text-gray-500 mt-1 h-5"
               data-testid="current-module-name"
             >
-              {progressLoading ? (
-                <span className="text-gray-400">&nbsp;</span>
-              ) : currentModule ? (
+              {currentModule ? (
                 <>
                   Current:{" "}
                   <span className="font-medium text-gray-700">
@@ -387,7 +385,6 @@ export function JourneyProgress({
               index={index}
               companySlug={companySlug}
               roleSlug={roleSlug}
-              progressLoading={progressLoading}
             />
           ))}
         </div>
@@ -402,7 +399,6 @@ interface ModuleListItemProps {
   index: number;
   companySlug: string;
   roleSlug: string;
-  progressLoading: boolean;
 }
 
 /** Individual module list item */
@@ -411,7 +407,6 @@ function ModuleListItem({
   index,
   companySlug,
   roleSlug,
-  progressLoading,
 }: ModuleListItemProps) {
   const {
     title,
@@ -425,35 +420,28 @@ function ModuleListItem({
     startIndex,
   } = moduleInfo;
 
-  // Don't show "current" styling while progress is loading to prevent flicker
-  const isCurrent = progressLoading ? false : isCurrentFromProgress;
+  // Always show current styling - even without cookie, index 0 means first module is current
+  const isCurrent = isCurrentFromProgress;
 
-  // Determine if this module is clickable
-  const isClickable = !isLocked;
-
+  // All modules are clickable - locked ones go to checkout
   // Determine item styling based on state
   let containerClasses =
-    "flex items-center p-3 rounded-lg border transition-colors";
+    "flex items-center p-3 rounded-lg border transition-colors cursor-pointer";
   let iconContainerClasses =
     "flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center mr-3";
 
   if (isCompleted) {
-    containerClasses += " bg-green-50 border-green-200";
+    containerClasses += " bg-green-50 border-green-200 hover:border-green-300 hover:shadow-sm";
     iconContainerClasses += " bg-green-600 text-white";
   } else if (isCurrent) {
-    containerClasses += " bg-blue-50 border-blue-200";
+    containerClasses += " bg-blue-50 border-blue-200 hover:border-blue-300 hover:shadow-sm";
     iconContainerClasses += " bg-blue-600 text-white";
   } else if (isLocked) {
-    containerClasses += " bg-gray-50 border-gray-100 opacity-75 cursor-not-allowed";
+    containerClasses += " bg-gray-50 border-gray-100 opacity-75 hover:border-indigo-300 hover:opacity-100 hover:shadow-sm";
     iconContainerClasses += " bg-gray-300 text-gray-500";
   } else {
-    containerClasses += " bg-gray-50 border-gray-200";
+    containerClasses += " bg-gray-50 border-gray-200 hover:border-blue-300 hover:shadow-sm";
     iconContainerClasses += " bg-gray-300 text-gray-600";
-  }
-
-  // Add hover styles for clickable items
-  if (isClickable) {
-    containerClasses += " cursor-pointer hover:border-blue-300 hover:shadow-sm";
   }
 
   // Module type badge styling
@@ -544,22 +532,19 @@ function ModuleListItem({
     </>
   );
 
-  if (isClickable) {
-    return (
-      <Link
-        href={`/${companySlug}/${roleSlug}/journey/learn?start=${startIndex}`}
-        className={containerClasses}
-        data-testid={`module-item-${index}`}
-      >
-        {content}
-      </Link>
-    );
-  }
+  // Locked modules link to checkout, unlocked ones link to learn
+  const href = isLocked
+    ? `/${companySlug}/${roleSlug}/checkout`
+    : `/${companySlug}/${roleSlug}/journey/learn?start=${startIndex}`;
 
   return (
-    <div className={containerClasses} data-testid={`module-item-${index}`}>
+    <Link
+      href={href}
+      className={containerClasses}
+      data-testid={`module-item-${index}`}
+    >
       {content}
-    </div>
+    </Link>
   );
 }
 

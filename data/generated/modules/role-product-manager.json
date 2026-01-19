@@ -8,42 +8,6 @@
   "display_order": 1,
   "sections": [
     {
-      "id": "video-intro",
-      "title": "Video Lessons",
-      "blocks": [
-        {
-          "type": "text",
-          "content": {
-            "text": "These videos cover key techniques and real examples to help you prepare for Product Manager interviews."
-          }
-        },
-        {
-          "type": "video",
-          "content": {
-            "url": "placeholder://video/intro/product-manager-interviews",
-            "title": "Introduction: The PM Interview Process",
-            "duration": 240
-          }
-        },
-        {
-          "type": "video",
-          "content": {
-            "url": "placeholder://video/technique/product-sense-framework",
-            "title": "Technique: Product Sense Question Framework",
-            "duration": 420
-          }
-        },
-        {
-          "type": "video",
-          "content": {
-            "url": "placeholder://video/example/product-design-walkthrough",
-            "title": "Example: Product Design Question Walkthrough",
-            "duration": 480
-          }
-        }
-      ]
-    },
-    {
       "id": "overview",
       "title": "Role Overview",
       "blocks": [

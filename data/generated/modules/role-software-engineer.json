@@ -8,42 +8,6 @@
   "display_order": 0,
   "sections": [
     {
-      "id": "video-intro",
-      "title": "Video Lessons",
-      "blocks": [
-        {
-          "type": "text",
-          "content": {
-            "text": "These videos cover key techniques and real examples to help you prepare for Software Engineer interviews."
-          }
-        },
-        {
-          "type": "video",
-          "content": {
-            "url": "placeholder://video/intro/software-engineer-interviews",
-            "title": "Introduction: The Software Engineer Interview Loop",
-            "duration": 240
-          }
-        },
-        {
-          "type": "video",
-          "content": {
-            "url": "placeholder://video/technique/coding-interview-approach",
-            "title": "Technique: How to Approach Coding Problems",
-            "duration": 360
-          }
-        },
-        {
-          "type": "video",
-          "content": {
-            "url": "placeholder://video/example/system-design-walkthrough",
-            "title": "Example: System Design Question Walkthrough",
-            "duration": 600
-          }
-        }
-      ]
-    },
-    {
       "id": "overview",
       "title": "Role Overview",
       "blocks": [

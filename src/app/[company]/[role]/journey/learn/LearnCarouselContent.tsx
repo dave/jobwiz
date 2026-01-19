@@ -99,7 +99,7 @@ function ConversationContentInner({
     if (type === "paywall") {
       return (
         <CarouselPaywall
-          price={20000} // $200 in cents
+          price={200} // $200 in dollars (CarouselPaywall expects dollars)
           heading={`Unlock ${companyName} ${roleName} Prep`}
           description={`Get full access to company-specific interview prep, practice questions, and insider tips for ${companyName}.`}
           benefits={[
@@ -212,16 +212,21 @@ export function LearnCarouselContent({
   const searchParams = useSearchParams();
 
   // Get start index from query param (for jumping to specific module)
+  // Clamp to paywall index if user doesn't have premium access
   const startIndex = useMemo(() => {
     const start = searchParams.get("start");
     if (start) {
       const parsed = parseInt(start, 10);
       if (!isNaN(parsed) && parsed >= 0) {
+        // Don't allow jumping past paywall without premium access
+        if (!hasPremiumAccess && flattenedResult?.paywallIndex !== null && flattenedResult?.paywallIndex !== undefined) {
+          return Math.min(parsed, flattenedResult.paywallIndex);
+        }
         return parsed;
       }
     }
     return undefined;
-  }, [searchParams]);
+  }, [searchParams, hasPremiumAccess, flattenedResult?.paywallIndex]);
 
   // Extract items and paywall index from flattened result
   const { items, paywallIndex } = useMemo(() => {
