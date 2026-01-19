@@ -25,7 +25,7 @@ Fix content quality issues identified during manual review of interview prep mod
 - [x] #283 - E-commerce/Retail batch
 - [x] #284 - Healthcare/Biotech batch
 - [x] #285 - Enterprise SaaS batch
-- [ ] #286 - Media/Entertainment batch
+- [x] #286 - Media/Entertainment batch
 - [ ] #287 - Other companies batch
 
 ### Content Ordering (#239)
@@ -1570,6 +1570,54 @@ Salesforce, Oracle, SAP, Workday, ServiceNow, Atlassian, Splunk, Twilio, HubSpot
 
 **Verification:**
 - All 19 JSON files valid (python3 -m json.tool validation passes)
+- `npm run lint` - passes (warnings only for unrelated image issues)
+- `npm run type-check` - passes
+- `npm run build` - successful
+- `npm test -- --testPathPattern="modules"` - 77 tests pass
+
+**Acceptance Criteria:**
+- ✅ All company modules in batch reviewed
+- ✅ Role-specific content removed/generalized
+- ✅ Content still valuable for all roles
+- ✅ JSON valid after edits
+- ✅ All tests pass
+
+### 2026-01-19 - Issue #286: Remove role-specific content - Company modules: Media/Entertainment
+
+**Status:** Complete
+
+**Modules Modified (12 total):**
+Disney, WBD, Spotify, TikTok, Snap, Pinterest, Reddit, LinkedIn, X, EA, Activision Blizzard, Roblox
+
+**Role-specific content removed/generalized:**
+
+1. **Interviewer Mindset section** (all 12 modules):
+   - Removed: "**Technical Questions**" sub-section entirely
+   - Removed: Tips about "statistical knowledge" and "class imbalance" (role-specific data science content)
+   - Generalized: Behavioral questions tip changed from "System design emphasis, Heavy focus on coding, Behavioral interviews important" to "Behavioral interviews, culture fit assessments, and problem-solving exercises"
+
+2. **Process section** (10 modules - Disney, Spotify, TikTok, Snap, Pinterest, Reddit, LinkedIn, X, EA, Roblox):
+   - Changed: "**Format:** Mix of ... technical ..." to "**Format:** Mix of ... role-specific ..."
+
+**Files Modified:**
+- `data/generated/modules/company-disney.json`
+- `data/generated/modules/company-wbd.json`
+- `data/generated/modules/company-spotify.json`
+- `data/generated/modules/company-tiktok.json`
+- `data/generated/modules/company-snap.json`
+- `data/generated/modules/company-pinterest.json`
+- `data/generated/modules/company-reddit.json`
+- `data/generated/modules/company-linkedin.json`
+- `data/generated/modules/company-x.json`
+- `data/generated/modules/company-ea.json`
+- `data/generated/modules/company-activision-blizzard.json`
+- `data/generated/modules/company-roblox.json`
+
+**Script Created:**
+- `scripts/cleanup/remove-role-specific-media-entertainment.ts` - Automated removal of role-specific content
+
+**Verification:**
+- All 12 JSON files valid (node validation passes)
 - `npm run lint` - passes (warnings only for unrelated image issues)
 - `npm run type-check` - passes
 - `npm run build` - successful
