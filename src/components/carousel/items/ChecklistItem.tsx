@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useCallback } from "react";
+import { useState, useCallback } from "react";
 import { cn } from "@/lib/utils";
 import type { ChecklistBlock, ChecklistItem as ChecklistItemType } from "@/types/module";
 
@@ -73,12 +73,7 @@ export function ChecklistItem({ block, onComplete, className }: ChecklistItemPro
     });
   }, []);
 
-  // Call onComplete when all required items are checked
-  useEffect(() => {
-    if (allRequiredChecked && onComplete) {
-      onComplete();
-    }
-  }, [allRequiredChecked, onComplete]);
+  // Note: Checklists don't auto-advance - user must click Next manually
 
   return (
     <div
