@@ -326,6 +326,12 @@
       "title": "Key Competencies",
       "blocks": [
         {
+          "type": "text",
+          "content": {
+            "text": "Marketing Manager interviews evaluate your ability to drive growth, manage campaigns, and understand customer behavior. These are the core competencies interviewers assess - prepare specific examples for each."
+          }
+        },
+        {
           "type": "checklist",
           "content": {
             "title": "Marketing Skills to Demonstrate",
@@ -513,6 +519,12 @@
       "id": "preparation",
       "title": "Preparation Checklist",
       "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "This checklist will help you prepare systematically for your Marketing Manager interview. Work through each item in the weeks leading up to your interview - don't try to cram everything at the last minute."
+          }
+        },
         {
           "type": "checklist",
           "content": {

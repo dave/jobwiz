@@ -326,6 +326,12 @@
       "title": "Key Competencies",
       "blocks": [
         {
+          "type": "text",
+          "content": {
+            "text": "QA Engineer interviews assess your testing methodology, automation skills, and quality mindset. These are the core competencies interviewers evaluate - be ready to discuss how you've applied each."
+          }
+        },
+        {
           "type": "checklist",
           "content": {
             "title": "QA Skills to Demonstrate",
@@ -513,6 +519,12 @@
       "id": "preparation",
       "title": "Preparation Checklist",
       "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "This checklist will help you prepare systematically for your QA Engineer interview. Work through each item in the weeks leading up to your interview - don't try to cram everything at the last minute."
+          }
+        },
         {
           "type": "checklist",
           "content": {

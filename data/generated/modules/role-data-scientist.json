@@ -326,6 +326,12 @@
       "title": "Key Competencies",
       "blocks": [
         {
+          "type": "text",
+          "content": {
+            "text": "Data Scientist interviews assess your ability to extract insights from data and build predictive models. These are the core competencies you'll be evaluated on - prepare examples showing how you've applied each in real-world scenarios."
+          }
+        },
+        {
           "type": "checklist",
           "content": {
             "title": "Technical Areas to Review",
@@ -513,6 +519,12 @@
       "id": "preparation",
       "title": "Preparation Checklist",
       "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "This checklist will help you prepare systematically for your Data Scientist interview. Work through each item in the weeks leading up to your interview - don't try to cram everything at the last minute."
+          }
+        },
         {
           "type": "checklist",
           "content": {

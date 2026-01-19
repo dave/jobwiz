@@ -326,6 +326,12 @@
       "title": "Key Competencies",
       "blocks": [
         {
+          "type": "text",
+          "content": {
+            "text": "Sales Engineer interviews evaluate your technical depth combined with customer-facing skills. These are the core competencies interviewers assess - prepare examples showing how you've demonstrated each."
+          }
+        },
+        {
           "type": "checklist",
           "content": {
             "title": "Skills to Demonstrate",
@@ -513,6 +519,12 @@
       "id": "preparation",
       "title": "Preparation Checklist",
       "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "This checklist will help you prepare systematically for your Sales Engineer interview. Work through each item in the weeks leading up to your interview - don't try to cram everything at the last minute."
+          }
+        },
         {
           "type": "checklist",
           "content": {

@@ -326,6 +326,12 @@
       "title": "Key Competencies",
       "blocks": [
         {
+          "type": "text",
+          "content": {
+            "text": "Successful Account Executive interviews evaluate your ability to build relationships, manage complex sales cycles, and drive revenue growth. These are the core competencies interviewers will assess - make sure you have specific examples ready for each."
+          }
+        },
+        {
           "type": "checklist",
           "content": {
             "title": "Sales Skills to Demonstrate",
@@ -513,6 +519,12 @@
       "id": "preparation",
       "title": "Preparation Checklist",
       "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "This checklist will help you prepare systematically for your Account Executive interview. Work through each item in the weeks leading up to your interview - don't try to cram everything at the last minute."
+          }
+        },
         {
           "type": "checklist",
           "content": {

@@ -326,6 +326,12 @@
       "title": "Key Competencies",
       "blocks": [
         {
+          "type": "text",
+          "content": {
+            "text": "Software Engineer interviews evaluate both your technical skills and how you approach problems. These are the core competencies interviewers assess - make sure you can demonstrate depth in each area with specific examples."
+          }
+        },
+        {
           "type": "checklist",
           "content": {
             "title": "Technical Skills to Prepare",
@@ -519,6 +525,12 @@
       "id": "preparation",
       "title": "Preparation Checklist",
       "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "This checklist will help you prepare systematically for your Software Engineer interview. Work through each item in the weeks leading up to your interview - don't try to cram everything at the last minute."
+          }
+        },
         {
           "type": "checklist",
           "content": {
