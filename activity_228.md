@@ -55,7 +55,8 @@ Fix content quality issues identified during manual review of interview prep mod
 - [x] #265 - Company modules: E-commerce/Retail
 - [x] #266 - Company modules: Healthcare/Biotech
 - [x] #267 - Company modules: Enterprise SaaS
-- [ ] #268-#269 - Company modules (remaining categories)
+- [x] #268 - Company modules: Media/Entertainment
+- [x] #269 - Company modules: Other companies
 - [ ] #270-#278 - Company-role modules (by category)
 
 ### Role → Company-Role Merge (#253)
@@ -770,5 +771,41 @@ All 22 role modules have correct grammar:
 **Acceptance Criteria:**
 - ✅ All 12 Media/Entertainment company modules reviewed
 - ✅ All grammar issues fixed (3 issues found and fixed)
+- ✅ JSON valid after edits
+
+### 2026-01-19 - Issue #269: Grammar review - Company modules: Other companies
+
+**Status:** Complete
+
+**Modules Reviewed (3 total):**
+- asana, dropbox, palantir
+
+**Issues Found and Fixed:**
+
+1. **company-asana.json - Common Interview Questions section (line 189):**
+   - Contained garbled, improperly capitalized questions: "How would you guys approach this given a weeks time?", "tell me about your experience?", "should i expect in the interview?"
+   - Fixed: Replaced with relevant "What to Expect" section covering coding interviews, system design, behavioral interviews, and product sense questions
+
+2. **company-asana.json - Insider Tips section (line 240):**
+   - Contained garbled scraped content: "or wisdom or related rants from people...", "looking at non-tech (finance, health tech, etc" (cut off), "on two sigma phone screen?"
+   - Fixed: Replaced with relevant tips about using Asana's product, understanding their mission, and demonstrating collaboration skills
+
+**Files Modified:**
+- `data/generated/modules/company-asana.json` - Fixed 2 sections
+
+**Files with No Issues:**
+- `data/generated/modules/company-dropbox.json` - Clean, no grammar issues
+- `data/generated/modules/company-palantir.json` - Clean, no grammar issues
+
+**Verification:**
+- All JSON files valid (python3 -m json.tool validation passes)
+- `npm run lint` - passes (warnings only for unrelated image issues)
+- `npm run type-check` - passes
+- `npm run build` - successful
+- `npm test -- --testPathPattern="modules"` - 77 tests pass
+
+**Acceptance Criteria:**
+- ✅ All 3 Other company modules reviewed
+- ✅ All grammar issues fixed (2 issues found and fixed in asana)
 - ✅ JSON valid after edits
 
