@@ -4873,3 +4873,45 @@ All Stage 6 (Production Content Population) issues are now closed:
   - Mode changes announced ✓
   - Reduced motion respected ✓
   - Full keyboard navigation ✓
+
+### 2026-01-19 - Issue #199: 5.6: Cleanup old code
+
+**Completed:**
+- Removed deprecated carousel components replaced by new conversation UI:
+  - Deleted `src/components/carousel/CarouselContainer.tsx`
+  - Deleted `src/components/carousel/items/ContentItem.tsx`
+  - Deleted `src/components/carousel/items/QuizItem.tsx`
+  - Deleted `src/components/carousel/items/ChecklistItem.tsx`
+- Removed test files for deleted components:
+  - Deleted `src/components/carousel/__tests__/CarouselContainer.test.tsx`
+  - Deleted `src/components/carousel/items/__tests__/ContentItem.test.tsx`
+  - Deleted `src/components/carousel/items/__tests__/QuizItem.test.tsx`
+- Updated carousel index exports:
+  - `src/components/carousel/index.ts` - removed exports for deleted components
+  - `src/components/carousel/items/index.ts` - now only exports MediaItem
+  - Added deprecation comments explaining migration to conversation UI
+- Updated `journey-demo` page to use new conversation UI:
+  - Replaced `CarouselContainer` with `ConversationContainer`
+  - Replaced `ContentItem` with `ConversationalContent`
+  - Replaced `QuizItem` with `ConversationalQuiz`
+  - Page now demonstrates Lemonade-style conversational UX
+
+**Components Kept (still in use):**
+- `CarouselContext.tsx` - `CarouselProvider` and `useCarousel` still used by conversation UI
+- `CarouselPaywall.tsx` - Still used for premium content gating in LearnCarouselContent
+- `items/MediaItem.tsx` - Still used for video/audio content in LearnCarouselContent
+
+**Verification:**
+- `npm run lint` - passes with no errors
+- `npm run type-check` - passes with no errors
+- `npm run build` - successful production build
+- `npm test` - 216 carousel-related tests pass
+- Journey-demo page loads successfully with new conversation UI
+- No console errors
+
+**Acceptance Criteria Met:**
+- [x] Old container removed
+- [x] No dead code remaining
+- [x] Build succeeds
+- [x] Tests pass
+- [x] No console errors
