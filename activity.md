@@ -3493,3 +3493,39 @@ All Stage 5 (Launch) code issues are now closed:
   - Theme data for 10 Healthcare/Biotech companies
   - Each company has: company_slug, logo_url, primary_color, secondary_color, industry_category
   - Migration uses ON CONFLICT for upsert (updates existing themes)
+
+### 2026-01-18 - Issue #100: Expand company themes: Enterprise SaaS batch
+
+**Completed:**
+- Created Supabase migration for Enterprise SaaS company themes
+- Created JSON theme data file for content loader
+- Added brand colors and logos for 14 Enterprise SaaS companies:
+  - Salesforce (#00a1e0 blue, #032d60 dark blue)
+  - Oracle (#f80000 red, #312d2a dark)
+  - SAP (#0070f2 blue, #354a5f dark)
+  - Workday (#f6851f orange, #005cb9 blue)
+  - ServiceNow (#81b5a1 green, #293e40 dark)
+  - Atlassian (#0052cc blue, #172b4d dark)
+  - Splunk (#65a637 green, #000000 black)
+  - Twilio (#f22f46 red, #0d122b dark)
+  - HubSpot (#ff7a59 orange, #33475b dark)
+  - Zendesk (#03363d dark, #78a300 green)
+  - Okta (#007dc1 blue, #1a1a1a black)
+  - Cloudflare (#f38020 orange, #404040 gray)
+  - MongoDB (#00ed64 green, #001e2b dark)
+  - Elastic (#fed10a yellow, #343741 dark)
+
+**Files Created:**
+- `supabase/migrations/20260119000008_insert_enterprise_saas_themes.sql`
+- `data/generated/themes/enterprise-saas.json` (14 themes)
+
+**Verification:**
+- `npm run lint` - passes with no errors
+- `npm run type-check` - passes with no errors
+- `npm run build` - successful production build
+- `npm test` - theme tests pass (109 tests)
+- JSON file validated with jq (14 themes)
+- All acceptance criteria verified:
+  - Theme data for 14 Enterprise SaaS companies
+  - Each company has: company_slug, logo_url, primary_color, secondary_color, industry_category
+  - Migration uses ON CONFLICT for upsert (updates existing themes)
