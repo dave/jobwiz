@@ -15,7 +15,7 @@ export interface QuizItemProps {
 
 const CheckIcon = () => (
   <svg
-    className="h-6 w-6"
+    className="h-5 w-5 sm:h-6 sm:w-6"
     fill="none"
     stroke="currentColor"
     viewBox="0 0 24 24"
@@ -32,7 +32,7 @@ const CheckIcon = () => (
 
 const XIcon = () => (
   <svg
-    className="h-6 w-6"
+    className="h-5 w-5 sm:h-6 sm:w-6"
     fill="none"
     stroke="currentColor"
     viewBox="0 0 24 24"
@@ -121,10 +121,10 @@ export function QuizItem({ block, onComplete, className }: QuizItemProps) {
 
   const getOptionClasses = (state: string) => {
     const base = cn(
-      "w-full p-5 sm:p-6 rounded-xl border-2 text-left",
+      "w-full p-4 sm:p-5 rounded-xl border-2 text-left",
       "transition-all duration-200",
       "focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500",
-      "min-h-[64px]"
+      "min-h-[56px] sm:min-h-[64px]"
     );
 
     switch (state) {
@@ -159,19 +159,19 @@ export function QuizItem({ block, onComplete, className }: QuizItemProps) {
   return (
     <div
       className={cn(
-        "flex flex-col items-center justify-center min-h-[50vh]",
-        "px-4 py-8",
+        "flex flex-col items-center justify-center min-h-[40vh] sm:min-h-[50vh]",
+        "px-3 sm:px-4 py-6 sm:py-8",
         className
       )}
     >
-      <div className="w-full max-w-2xl space-y-8">
+      <div className="w-full max-w-2xl space-y-5 sm:space-y-8">
         {/* Question */}
-        <h2 className="text-2xl sm:text-3xl font-semibold text-gray-900 text-center leading-relaxed">
+        <h2 className="text-xl sm:text-2xl font-semibold text-gray-900 text-center leading-relaxed">
           {question}
         </h2>
 
         {/* Options */}
-        <div className="space-y-3" role="group" aria-label="Quiz options">
+        <div className="space-y-2.5 sm:space-y-3" role="group" aria-label="Quiz options">
           {options.map((option, index) => {
             const state = getOptionState(option);
             const isSelected = selectedIds.has(option.id);
@@ -188,12 +188,12 @@ export function QuizItem({ block, onComplete, className }: QuizItemProps) {
                 aria-checked={isSelected}
                 aria-disabled={isSubmitted}
               >
-                <div className="flex items-center gap-4">
+                <div className="flex items-center gap-3 sm:gap-4">
                   {/* Letter indicator */}
                   <span
                     className={cn(
                       "flex items-center justify-center shrink-0",
-                      "w-10 h-10 rounded-lg font-semibold text-lg",
+                      "w-8 h-8 sm:w-10 sm:h-10 rounded-lg font-semibold text-base sm:text-lg",
                       state === "selected" &&
                         "bg-blue-500 text-white",
                       state === "correct" &&
@@ -214,7 +214,7 @@ export function QuizItem({ block, onComplete, className }: QuizItemProps) {
                   </span>
 
                   {/* Option text */}
-                  <span className="flex-1 text-lg sm:text-xl">{option.text}</span>
+                  <span className="flex-1 text-base sm:text-lg">{option.text}</span>
                 </div>
               </button>
             );
@@ -228,10 +228,10 @@ export function QuizItem({ block, onComplete, className }: QuizItemProps) {
             onClick={handleSubmit}
             disabled={selectedIds.size === 0}
             className={cn(
-              "w-full py-4 px-6 rounded-xl font-semibold text-lg",
+              "w-full py-3 sm:py-4 px-5 sm:px-6 rounded-xl font-semibold text-base sm:text-lg",
               "transition-all duration-200",
               "focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2",
-              "min-h-[56px]",
+              "min-h-[48px] sm:min-h-[56px]",
               selectedIds.size === 0
                 ? "bg-gray-100 text-gray-400 cursor-not-allowed"
                 : "bg-blue-600 text-white hover:bg-blue-700 shadow-lg hover:shadow-xl"
@@ -240,11 +240,11 @@ export function QuizItem({ block, onComplete, className }: QuizItemProps) {
             Check Answer
           </button>
         ) : (
-          <div className="space-y-4">
+          <div className="space-y-3 sm:space-y-4">
             {/* Result feedback */}
             <div
               className={cn(
-                "p-6 rounded-xl text-center",
+                "p-4 sm:p-6 rounded-xl text-center",
                 isCorrect
                   ? "bg-green-50 border-2 border-green-200"
                   : "bg-red-50 border-2 border-red-200"
@@ -252,10 +252,10 @@ export function QuizItem({ block, onComplete, className }: QuizItemProps) {
               role="status"
               aria-live="polite"
             >
-              <div className="flex items-center justify-center gap-3 mb-3">
+              <div className="flex items-center justify-center gap-2 sm:gap-3 mb-2 sm:mb-3">
                 <span
                   className={cn(
-                    "flex items-center justify-center w-10 h-10 rounded-full",
+                    "flex items-center justify-center w-8 h-8 sm:w-10 sm:h-10 rounded-full",
                     isCorrect ? "bg-green-500 text-white" : "bg-red-500 text-white"
                   )}
                 >
@@ -263,7 +263,7 @@ export function QuizItem({ block, onComplete, className }: QuizItemProps) {
                 </span>
                 <span
                   className={cn(
-                    "text-xl font-semibold",
+                    "text-lg sm:text-xl font-semibold",
                     isCorrect ? "text-green-800" : "text-red-800"
                   )}
                 >
@@ -275,7 +275,7 @@ export function QuizItem({ block, onComplete, className }: QuizItemProps) {
               {explanation && (
                 <p
                   className={cn(
-                    "text-lg leading-relaxed",
+                    "text-base sm:text-lg leading-relaxed",
                     isCorrect ? "text-green-700" : "text-red-700"
                   )}
                 >
@@ -289,10 +289,10 @@ export function QuizItem({ block, onComplete, className }: QuizItemProps) {
               type="button"
               onClick={handleContinue}
               className={cn(
-                "w-full py-4 px-6 rounded-xl font-semibold text-lg",
+                "w-full py-3 sm:py-4 px-5 sm:px-6 rounded-xl font-semibold text-base sm:text-lg",
                 "transition-all duration-200",
                 "focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2",
-                "min-h-[56px]",
+                "min-h-[48px] sm:min-h-[56px]",
                 "bg-blue-600 text-white hover:bg-blue-700 shadow-lg hover:shadow-xl"
               )}
             >

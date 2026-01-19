@@ -22,7 +22,7 @@ export interface ContentItemProps {
 
 const LightbulbIcon = () => (
   <svg
-    className="h-8 w-8 shrink-0"
+    className="h-5 w-5 sm:h-7 sm:w-7 shrink-0"
     fill="none"
     stroke="currentColor"
     viewBox="0 0 24 24"
@@ -39,7 +39,7 @@ const LightbulbIcon = () => (
 
 const WarningIcon = () => (
   <svg
-    className="h-8 w-8 shrink-0"
+    className="h-5 w-5 sm:h-7 sm:w-7 shrink-0"
     fill="none"
     stroke="currentColor"
     viewBox="0 0 24 24"
@@ -56,7 +56,7 @@ const WarningIcon = () => (
 
 const QuoteIcon = () => (
   <svg
-    className="h-12 w-12 text-gray-300"
+    className="h-8 w-8 sm:h-12 sm:w-12 text-gray-300"
     fill="currentColor"
     viewBox="0 0 24 24"
     aria-hidden="true"
@@ -78,15 +78,15 @@ export function ContentItem({ block, className }: ContentItemProps) {
   if (type === "header") {
     const headerBlock = block as HeaderBlock;
     const headingStyles = {
-      1: "text-4xl sm:text-5xl font-bold",
-      2: "text-3xl sm:text-4xl font-semibold",
-      3: "text-2xl sm:text-3xl font-medium",
+      1: "text-2xl sm:text-4xl font-bold",
+      2: "text-xl sm:text-3xl font-semibold",
+      3: "text-lg sm:text-2xl font-medium",
     };
 
     return (
       <div
         className={cn(
-          "flex items-center justify-center min-h-[50vh]",
+          "flex items-center justify-center min-h-[40vh] sm:min-h-[50vh]",
           "text-center px-4",
           className
         )}
@@ -104,18 +104,18 @@ export function ContentItem({ block, className }: ContentItemProps) {
     return (
       <div
         className={cn(
-          "flex flex-col items-center justify-center min-h-[50vh]",
-          "text-center px-4 py-8",
+          "flex flex-col items-center justify-center min-h-[40vh] sm:min-h-[50vh]",
+          "text-center px-4 py-6 sm:py-8",
           className
         )}
       >
         <QuoteIcon />
-        <blockquote className="mt-4 max-w-2xl">
-          <p className="text-2xl sm:text-3xl font-light text-gray-800 leading-relaxed italic">
+        <blockquote className="mt-3 sm:mt-4 max-w-2xl">
+          <p className="text-lg sm:text-2xl font-light text-gray-800 leading-relaxed italic">
             {quoteBlock.content}
           </p>
           {quoteBlock.author && (
-            <footer className="mt-6 text-lg text-gray-500 font-medium not-italic">
+            <footer className="mt-4 sm:mt-6 text-base sm:text-lg text-gray-500 font-medium not-italic">
               — {quoteBlock.author}
             </footer>
           )}
@@ -130,8 +130,8 @@ export function ContentItem({ block, className }: ContentItemProps) {
     return (
       <div
         className={cn(
-          "flex flex-col items-center justify-center min-h-[50vh]",
-          "px-4 py-8",
+          "flex flex-col items-center justify-center min-h-[40vh] sm:min-h-[50vh]",
+          "px-3 sm:px-4 py-6 sm:py-8",
           className
         )}
       >
@@ -139,20 +139,20 @@ export function ContentItem({ block, className }: ContentItemProps) {
           className={cn(
             "w-full max-w-2xl",
             "bg-green-50 border-2 border-green-200 rounded-2xl",
-            "p-8 sm:p-10"
+            "p-5 sm:p-8"
           )}
           role="note"
           aria-label="Tip"
         >
-          <div className="flex items-start gap-4 sm:gap-6">
-            <div className="flex items-center justify-center w-14 h-14 rounded-full bg-green-100 text-green-600">
+          <div className="flex items-start gap-3 sm:gap-4">
+            <div className="flex items-center justify-center w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-green-100 text-green-600 shrink-0">
               <LightbulbIcon />
             </div>
-            <div className="flex-1">
-              <span className="text-sm font-semibold text-green-700 uppercase tracking-wide">
+            <div className="flex-1 min-w-0">
+              <span className="text-xs sm:text-sm font-semibold text-green-700 uppercase tracking-wide">
                 Pro Tip
               </span>
-              <div className="mt-2 text-xl sm:text-2xl text-green-900 leading-relaxed prose prose-green prose-lg">
+              <div className="mt-1.5 sm:mt-2 text-base sm:text-xl text-green-900 leading-relaxed prose prose-green prose-sm sm:prose-lg max-w-none">
                 <ReactMarkdown>{tipBlock.content}</ReactMarkdown>
               </div>
             </div>
@@ -168,8 +168,8 @@ export function ContentItem({ block, className }: ContentItemProps) {
     return (
       <div
         className={cn(
-          "flex flex-col items-center justify-center min-h-[50vh]",
-          "px-4 py-8",
+          "flex flex-col items-center justify-center min-h-[40vh] sm:min-h-[50vh]",
+          "px-3 sm:px-4 py-6 sm:py-8",
           className
         )}
       >
@@ -177,19 +177,19 @@ export function ContentItem({ block, className }: ContentItemProps) {
           className={cn(
             "w-full max-w-2xl",
             "bg-amber-50 border-2 border-amber-200 rounded-2xl",
-            "p-8 sm:p-10"
+            "p-5 sm:p-8"
           )}
           role="alert"
         >
-          <div className="flex items-start gap-4 sm:gap-6">
-            <div className="flex items-center justify-center w-14 h-14 rounded-full bg-amber-100 text-amber-600">
+          <div className="flex items-start gap-3 sm:gap-4">
+            <div className="flex items-center justify-center w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-amber-100 text-amber-600 shrink-0">
               <WarningIcon />
             </div>
-            <div className="flex-1">
-              <span className="text-sm font-semibold text-amber-700 uppercase tracking-wide">
+            <div className="flex-1 min-w-0">
+              <span className="text-xs sm:text-sm font-semibold text-amber-700 uppercase tracking-wide">
                 Watch Out
               </span>
-              <div className="mt-2 text-xl sm:text-2xl text-amber-900 leading-relaxed prose prose-amber prose-lg">
+              <div className="mt-1.5 sm:mt-2 text-base sm:text-xl text-amber-900 leading-relaxed prose prose-amber prose-sm sm:prose-lg max-w-none">
                 <ReactMarkdown>{warningBlock.content}</ReactMarkdown>
               </div>
             </div>
@@ -204,13 +204,13 @@ export function ContentItem({ block, className }: ContentItemProps) {
   return (
     <div
       className={cn(
-        "flex items-center justify-center min-h-[50vh]",
-        "px-4 py-8",
+        "flex items-center justify-center min-h-[40vh] sm:min-h-[50vh]",
+        "px-3 sm:px-4 py-6 sm:py-8",
         className
       )}
     >
       <div className="w-full max-w-2xl">
-        <div className="text-xl sm:text-2xl text-gray-800 leading-relaxed prose prose-gray prose-lg max-w-none">
+        <div className="text-base sm:text-xl text-gray-800 leading-relaxed prose prose-gray prose-sm sm:prose-lg max-w-none">
           <ReactMarkdown>{textBlock.content}</ReactMarkdown>
         </div>
       </div>
