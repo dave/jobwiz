@@ -81,7 +81,6 @@ export interface JourneyProgressProps {
 interface ModuleDisplayInfo {
   slug: string;
   title: string;
-  type: Module["type"];
   isPremium: boolean;
   isLocked: boolean;
   isCompleted: boolean;
@@ -209,7 +208,6 @@ function buildModuleDisplayInfo(
     result.push({
       slug: mod.slug,
       title: mod.title,
-      type: mod.type,
       isPremium: mod.isPremium,
       isLocked,
       isCompleted,
@@ -288,106 +286,99 @@ export function JourneyProgress({
         ? "Continue"
         : "Start Journey";
 
+  // Calculate circumference for progress ring (radius = 40)
+  const circumference = 2 * Math.PI * 40;
+  const strokeDashoffset = circumference - (progressPercentage / 100) * circumference;
+
   return (
-    <div className="space-y-6">
-      {/* Progress Overview Card */}
-      <div
-        className="bg-white shadow rounded-lg p-6"
-        data-testid="journey-progress-card"
-      >
-        <div className="flex items-center justify-between mb-4">
-          <div>
-            <h2 className="text-lg font-semibold text-gray-900">
-              Your Progress
-            </h2>
-            <p
-              className="text-sm text-gray-500 mt-1 h-5"
-              data-testid="current-module-name"
-            >
-              {currentModule ? (
-                <>
-                  Current:{" "}
-                  <span className="font-medium text-gray-700">
-                    {currentModule.title}
-                  </span>
-                </>
-              ) : null}
-            </p>
-          </div>
-          <span
-            className="text-2xl font-bold text-blue-600 min-w-[4ch] text-right"
-            data-testid="progress-percentage"
-            aria-label={progressLoading ? "0% complete" : `${progressPercentage}% complete`}
-          >
-            {progressLoading ? "0%" : `${progressPercentage}%`}
-          </span>
-        </div>
-
-        {/* Progress bar */}
-        <div className="mb-4">
-          <div
-            className="w-full bg-gray-200 rounded-full h-3"
-            role="progressbar"
-            aria-valuenow={progressLoading ? 0 : progressPercentage}
-            aria-valuemin={0}
-            aria-valuemax={100}
-            aria-label={progressLoading ? "Journey progress: 0% complete" : `Journey progress: ${progressPercentage}% complete`}
-          >
-            {!progressLoading && (
-              <div
-                className="bg-blue-600 h-3 rounded-full transition-all duration-300"
-                style={{ width: `${progressPercentage}%` }}
-              />
-            )}
-          </div>
-          <p className="text-xs text-gray-500 mt-1 h-4">
-            {progressLoading ? `0 of ${totalItems} items complete` : `${completedItems.size} of ${totalItems} items complete`}
-          </p>
-        </div>
-
-        {/* Continue button */}
-        <Link
-          href={`/${companySlug}/${roleSlug}/journey/learn`}
-          className="inline-flex items-center justify-center w-full sm:w-auto px-6 py-3 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-colors"
-          data-testid="continue-button"
-        >
-          {buttonText}
-          <svg
-            className="ml-2 w-4 h-4"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-            aria-hidden="true"
-          >
-            <path
+    <div data-testid="journey-progress-card">
+      {/* Compact header with progress ring */}
+      <div className="flex items-center gap-6 mb-8 p-6 bg-white rounded-2xl shadow-sm">
+        {/* Progress ring */}
+        <div className="relative flex-shrink-0">
+          <svg className="w-20 h-20 -rotate-90" viewBox="0 0 100 100">
+            <circle
+              cx="50"
+              cy="50"
+              r="40"
+              fill="none"
+              stroke="#e5e7eb"
+              strokeWidth="8"
+            />
+            <circle
+              cx="50"
+              cy="50"
+              r="40"
+              fill="none"
+              stroke="#2563eb"
+              strokeWidth="8"
               strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={2}
-              d="M9 5l7 7-7 7"
+              strokeDasharray={circumference}
+              strokeDashoffset={progressLoading ? circumference : strokeDashoffset}
+              className="transition-all duration-500"
             />
           </svg>
-        </Link>
+          <div className="absolute inset-0 flex items-center justify-center">
+            <span
+              className="text-lg font-bold text-gray-900"
+              data-testid="progress-percentage"
+              aria-label={progressLoading ? "0% complete" : `${progressPercentage}% complete`}
+            >
+              {progressLoading ? "0" : progressPercentage}%
+            </span>
+          </div>
+        </div>
+
+        {/* Text and CTA */}
+        <div className="flex-grow">
+          <p
+            className="text-gray-900 font-medium mb-1"
+            data-testid="current-module-name"
+          >
+            {currentModule?.title || "Your Journey"}
+          </p>
+          <p className="text-gray-500 text-sm mb-3">
+            {progressLoading
+              ? "Loading..."
+              : completedItems.size === 0
+                ? "Ready when you are"
+                : `${completedItems.size} of ${totalItems} complete`}
+          </p>
+          <Link
+            href={`/${companySlug}/${roleSlug}/journey/learn`}
+            className="inline-flex items-center text-blue-600 font-medium text-sm hover:text-blue-700 transition-colors"
+            data-testid="continue-button"
+          >
+            {buttonText}
+            <svg
+              className="ml-1 w-4 h-4"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              aria-hidden="true"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M9 5l7 7-7 7"
+              />
+            </svg>
+          </Link>
+        </div>
       </div>
 
-      {/* Module List */}
-      <div
-        className="bg-white shadow rounded-lg p-6"
-        data-testid="module-list"
-      >
-        <h2 className="text-lg font-semibold text-gray-900 mb-4">
-          Journey Modules
-        </h2>
-        <div className="space-y-3">
-          {moduleDisplayInfo.map((moduleInfo, index) => (
-            <ModuleListItem
-              key={moduleInfo.slug}
-              moduleInfo={moduleInfo}
-              index={index}
-              companySlug={companySlug}
-              roleSlug={roleSlug}
-            />
-          ))}
-        </div>
+      {/* Module cards */}
+      <div className="grid gap-3" data-testid="module-list">
+        {moduleDisplayInfo.map((moduleInfo, index) => (
+          <ModuleListItem
+            key={moduleInfo.slug}
+            moduleInfo={moduleInfo}
+            index={index}
+            companySlug={companySlug}
+            roleSlug={roleSlug}
+          />
+        ))}
       </div>
     </div>
   );
@@ -401,7 +392,7 @@ interface ModuleListItemProps {
   roleSlug: string;
 }
 
-/** Individual module list item */
+/** Individual module card */
 function ModuleListItem({
   moduleInfo,
   index,
@@ -410,7 +401,6 @@ function ModuleListItem({
 }: ModuleListItemProps) {
   const {
     title,
-    type,
     isPremium,
     isLocked,
     isCompleted,
@@ -420,119 +410,9 @@ function ModuleListItem({
     startIndex,
   } = moduleInfo;
 
-  // Always show current styling - even without cookie, index 0 means first module is current
   const isCurrent = isCurrentFromProgress;
+  const moduleProgress = itemCount > 0 ? Math.round((completedItemCount / itemCount) * 100) : 0;
 
-  // All modules are clickable - locked ones go to checkout
-  // Determine item styling based on state
-  let containerClasses =
-    "flex items-center p-3 rounded-lg border transition-colors cursor-pointer";
-  let iconContainerClasses =
-    "flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center mr-3";
-
-  if (isCompleted) {
-    containerClasses += " bg-green-50 border-green-200 hover:border-green-300 hover:shadow-sm";
-    iconContainerClasses += " bg-green-600 text-white";
-  } else if (isCurrent) {
-    containerClasses += " bg-blue-50 border-blue-200 hover:border-blue-300 hover:shadow-sm";
-    iconContainerClasses += " bg-blue-600 text-white";
-  } else if (isLocked) {
-    containerClasses += " bg-gray-50 border-gray-100 opacity-75 hover:border-indigo-300 hover:opacity-100 hover:shadow-sm";
-    iconContainerClasses += " bg-gray-300 text-gray-500";
-  } else {
-    containerClasses += " bg-gray-50 border-gray-200 hover:border-blue-300 hover:shadow-sm";
-    iconContainerClasses += " bg-gray-300 text-gray-600";
-  }
-
-  // Module type badge styling
-  const getTypeBadge = () => {
-    switch (type) {
-      case "universal":
-        return (
-          <span className="px-2 py-0.5 text-xs font-medium rounded bg-green-100 text-green-800">
-            FREE
-          </span>
-        );
-      case "company":
-        return (
-          <span className="px-2 py-0.5 text-xs font-medium rounded bg-purple-100 text-purple-800">
-            COMPANY
-          </span>
-        );
-      case "role":
-        return (
-          <span className="px-2 py-0.5 text-xs font-medium rounded bg-orange-100 text-orange-800">
-            ROLE
-          </span>
-        );
-      case "company-role":
-        return (
-          <span className="px-2 py-0.5 text-xs font-medium rounded bg-blue-100 text-blue-800">
-            TARGETED
-          </span>
-        );
-      default:
-        return null;
-    }
-  };
-
-  // Progress text
-  const progressText = isLocked
-    ? "Locked"
-    : isCompleted
-      ? "Complete"
-      : `${completedItemCount}/${itemCount}`;
-
-  const content = (
-    <>
-      {/* Icon */}
-      <div className={iconContainerClasses}>
-        {isCompleted ? (
-          <CheckIcon className="w-5 h-5" />
-        ) : isLocked ? (
-          <LockIcon className="w-4 h-4" data-testid={`lock-icon-${index}`} />
-        ) : (
-          <span className="text-sm font-medium">{index + 1}</span>
-        )}
-      </div>
-
-      {/* Content */}
-      <div className="flex-grow min-w-0">
-        <div className="flex items-center gap-2">
-          <h3
-            className={`text-sm font-medium truncate ${isLocked ? "text-gray-400" : "text-gray-900"}`}
-          >
-            {title}
-          </h3>
-          {isPremium && (
-            <span
-              className="text-xs text-gray-400"
-              aria-label="Premium content"
-            >
-              <LockIcon className="w-3 h-3 inline" />
-            </span>
-          )}
-        </div>
-        <div className="flex items-center gap-2 mt-1">
-          {getTypeBadge()}
-          <span
-            className={`text-xs ${isLocked ? "text-gray-400" : "text-gray-500"}`}
-          >
-            {progressText}
-          </span>
-        </div>
-      </div>
-
-      {/* Current indicator */}
-      {isCurrent && !isCompleted && (
-        <span className="flex-shrink-0 px-2 py-1 text-xs font-medium rounded-full bg-blue-600 text-white">
-          Current
-        </span>
-      )}
-    </>
-  );
-
-  // Locked modules link to checkout, unlocked ones link to learn
   const href = isLocked
     ? `/${companySlug}/${roleSlug}/checkout`
     : `/${companySlug}/${roleSlug}/journey/learn?start=${startIndex}`;
@@ -540,10 +420,89 @@ function ModuleListItem({
   return (
     <Link
       href={href}
-      className={containerClasses}
+      className={`group flex items-center gap-4 p-4 bg-white rounded-xl transition-all ${
+        isCompleted
+          ? "ring-1 ring-green-200 hover:ring-green-300"
+          : isCurrent
+            ? "ring-2 ring-blue-500 shadow-sm"
+            : isLocked
+              ? "opacity-60 hover:opacity-100"
+              : "hover:shadow-md"
+      }`}
       data-testid={`module-item-${index}`}
     >
-      {content}
+      {/* Status icon */}
+      <div
+        className={`flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center ${
+          isCompleted
+            ? "bg-green-100 text-green-600"
+            : isCurrent
+              ? "bg-blue-100 text-blue-600"
+              : isLocked
+                ? "bg-gray-100 text-gray-400"
+                : "bg-gray-100 text-gray-500 group-hover:bg-blue-50 group-hover:text-blue-500"
+        }`}
+      >
+        {isCompleted ? (
+          <CheckIcon className="w-5 h-5" />
+        ) : isLocked ? (
+          <LockIcon className="w-4 h-4" data-testid={`lock-icon-${index}`} />
+        ) : (
+          <span className="text-sm font-semibold">{index + 1}</span>
+        )}
+      </div>
+
+      {/* Content */}
+      <div className="flex-grow min-w-0">
+        <h3
+          className={`font-medium truncate ${
+            isCompleted
+              ? "text-green-700"
+              : isCurrent
+                ? "text-gray-900"
+                : isLocked
+                  ? "text-gray-400"
+                  : "text-gray-700"
+          }`}
+        >
+          {title}
+        </h3>
+
+        {/* Progress indicator */}
+        {!isLocked && (
+          <div className="flex items-center gap-2 mt-1">
+            <div className="flex-grow max-w-24 h-1.5 bg-gray-100 rounded-full overflow-hidden">
+              <div
+                className={`h-full rounded-full transition-all ${
+                  isCompleted ? "bg-green-500" : "bg-blue-500"
+                }`}
+                style={{ width: `${isCompleted ? 100 : moduleProgress}%` }}
+              />
+            </div>
+            <span className="text-xs text-gray-400">
+              {completedItemCount}/{itemCount}
+            </span>
+          </div>
+        )}
+      </div>
+
+      {/* Arrow / action hint */}
+      <div className="flex-shrink-0">
+        {isLocked ? (
+          <span className="text-xs font-medium text-blue-600 group-hover:text-blue-700">
+            Unlock
+          </span>
+        ) : (
+          <svg
+            className="w-5 h-5 text-gray-300 group-hover:text-gray-400 transition-transform group-hover:translate-x-0.5"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+          </svg>
+        )}
+      </div>
     </Link>
   );
 }
