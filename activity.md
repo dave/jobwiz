@@ -3681,3 +3681,43 @@ All Stage 5 (Launch) code issues are now closed:
   - Create "Interviewer Mindset" section in company modules ✓
   - Format as text + tip blocks explaining what interviewers really want ✓
   - Pull from scraped Reddit data for authentic phrasing ✓ (embedded in interviewer_intent)
+### 2026-01-18 - Issue #153: Add common mistakes sections to role modules
+
+**Completed:**
+- Created `/scripts/add-common-mistakes.ts` script
+- Extracts `common_mistakes` from question files per role
+- Creates "Mistakes to Avoid" section in each of 22 role modules
+- Formats as warning blocks grouped by category (behavioral, technical, culture, curveball)
+- Script is idempotent - won't duplicate sections on re-run
+- Supports `--dry-run`, `--role=X`, and `--help` flags
+
+**Section Structure Per Role:**
+- Header block with title
+- Introduction text explaining importance of avoiding mistakes
+- Per-category subheaders (behavioral, technical, culture, curveball)
+- 4 warning blocks per category (16 total warnings)
+- Summary tip about self-awareness
+
+**Files Created:**
+- `scripts/add-common-mistakes.ts` - Common mistakes extraction script
+
+**Files Modified:**
+- `data/generated/modules/role-*.json` (22 files) - Added "Mistakes to Avoid" section (23 blocks each)
+
+**Stats:**
+- Roles processed: 22
+- Modules modified: 22
+- Total blocks added: 506 (23 blocks × 22 roles)
+
+**Verification:**
+- `npm run lint` - passes with no errors
+- `npm run type-check` - passes with no errors
+- `npm run build` - successful production build
+- `npm test` - 2163 passed, 2 todo, 12 pre-existing failures (unrelated to this change)
+- Carousel tests: 294 passed
+- Journey tests: 223 passed
+- All acceptance criteria verified:
+  - Extract `common_mistakes` from question files per role ✓
+  - Create "Mistakes to Avoid" section in each role module ✓
+  - Format as warning blocks with explanations ✓
+  - Group by category (behavioral, technical, culture, curveball) ✓
