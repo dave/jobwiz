@@ -2318,3 +2318,20 @@ All Stage 5 (Launch) code issues are now closed:
   - `is_premium: true`
   - `company_slug` and `role_slug`
   - 4 sections with embedded quiz blocks (14 total per module)
+
+### 2026-01-18 - Issue #125: A5: Update role modules to premium
+
+**Completed:**
+- Updated all 22 role module JSON files
+- Changed `is_premium: false` to `is_premium: true` for all role modules
+
+**Files Modified:**
+- `data/generated/modules/role-*.json` (22 files)
+
+**Verification:**
+- `grep -l '"is_premium": false' data/generated/modules/role-*.json | wc -l` - 0 (none remaining)
+- `grep -l '"is_premium": true' data/generated/modules/role-*.json | wc -l` - 22 (all updated)
+- `npm run lint` - passes with no errors
+- `npm run type-check` - passes with no errors
+- `npm run build` - successful production build
+- `npm test` - 1840 passed (pre-existing test failures unrelated to this change)

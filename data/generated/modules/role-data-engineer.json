@@ -4,7 +4,7 @@
   "title": "Data Engineer Interview Guide",
   "description": "Prepare for data pipelines, warehousing, and infrastructure interviews.",
   "role_slug": "data-engineer",
-  "is_premium": false,
+  "is_premium": true,
   "display_order": 10,
   "sections": [
     {
