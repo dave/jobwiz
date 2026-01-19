@@ -3833,3 +3833,78 @@ All Stage 6 (Production Content Population) issues are now closed:
 - #94-#101 - Theme batches
 - #102-#105 - Reddit scraper and data pipeline
 - #150-#154 - Content enhancements (quiz questions, video placeholders, interviewer mindset, common mistakes, answer frameworks)
+
+---
+
+## Stage 9 Progress
+
+### 2026-01-19 - Issue #181: 1.0: Design tokens file
+
+**Completed:**
+- Created `/src/styles/alex-tokens.css` with CSS custom properties for Lemonade Conversation UI
+- Imported tokens in `globals.css` for global availability
+
+**Tokens Defined:**
+- Spacing (4px grid): `--space-1` through `--space-12`
+- Dimensions: `--avatar-sm`, `--avatar-lg`, `--bubble-max-w`, `--bubble-radius`, `--button-h`, `--timeline-dot`, `--timeline-line`
+- Colors: `--alex-bubble-bg`, `--user-bubble-bg`, `--success-soft`, `--warning-soft`
+- Animation: `--ease-out`, `--duration-fast`, `--duration-normal`, `--duration-slow`, `--typing-delay`
+
+**Files Created:**
+- `src/styles/alex-tokens.css`
+
+**Files Modified:**
+- `src/app/globals.css` - Added import for alex-tokens.css
+
+**Verification:**
+- `npm run lint` - passes with no errors
+- `npm run type-check` - passes with no errors
+- `npm run build` - successful production build
+- All acceptance criteria verified:
+  - All tokens defined ✓
+  - Imported in globals.css ✓
+  - No build errors ✓
+
+### 2026-01-19 - Issue #182: 1.1: Avatar component
+
+**Completed:**
+- Created `/src/components/alex/Avatar.tsx` with two size variants
+- Created `/src/components/alex/index.ts` for exports
+- Added `public/alex-avatar.jpg` placeholder image
+
+**Avatar Features:**
+- Two sizes: small (40px) for conversation mode, large (72px) for big question mode
+- Uses CSS variables from design tokens: `--avatar-sm`, `--avatar-lg`
+- Spring animation on mount using framer-motion
+- Fallback to "A" initial in blue circle when image fails to load
+- Respects reduced-motion preferences via `useReducedMotion` hook
+- Shadow: `0 2px 8px rgba(0, 0, 0, 0.1)`
+- Perfect circle crop via `overflow-hidden rounded-full`
+- Decorative (aria-hidden="true")
+- Large size has priority loading for LCP optimization
+
+**Files Created:**
+- `src/components/alex/Avatar.tsx`
+- `src/components/alex/index.ts`
+- `src/components/alex/__tests__/Avatar.test.tsx`
+- `public/alex-avatar.jpg`
+
+**Tests:**
+- 23 unit tests covering:
+  - Rendering at both sizes (10 tests)
+  - Image fallback (5 tests)
+  - Image priority loading (2 tests)
+  - Animation/motion div (2 tests)
+  - Reduced motion support (2 tests)
+  - Size dimension verification (2 tests)
+
+**Verification:**
+- `npm run lint` - passes with no errors
+- `npm run type-check` - passes with no errors
+- `npm run build` - successful production build
+- `npm test` - 23 Avatar tests pass (2112 total passed, pre-existing failures unrelated to this change)
+- All acceptance criteria verified:
+  - Renders at both sizes ✓
+  - Spring animation on mount ✓
+  - Fallback if image fails ✓
+  - Respects reduced-motion ✓
