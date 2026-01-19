@@ -8,3 +8,10 @@ export {
   getModuleOrderIndex,
   type CarouselModulesResult,
 } from "./load-modules";
+
+export {
+  flattenToCarouselItems,
+  getModuleBlockCount,
+  getModuleItemCount,
+  type FlattenResult,
+} from "./flatten-modules";

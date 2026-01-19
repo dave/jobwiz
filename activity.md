@@ -2622,3 +2622,58 @@ All Stage 5 (Launch) code issues are now closed:
   - Returns correct modules in correct order for google/software-engineer ✓
   - Order: universal → company → role → company-role ✓
   - Returns { freeModules, premiumModules } split at paywall ✓
+
+### 2026-01-18 - Issue #132: B7: Flatten modules to items
+
+**Completed:**
+- Created `/src/lib/carousel/flatten-modules.ts` with module flattening functionality
+- Implemented `flattenToCarouselItems(freeModules, premiumModules)` that converts modules to flat CarouselItem array
+- Each content block becomes one CarouselItem with proper type mapping:
+  - Quiz blocks → `quiz` carousel type
+  - Checklist blocks → `checklist` carousel type
+  - All other blocks → `content` carousel type
+- Module title item inserted at start of each module (header block with level 1)
+- Paywall item inserted between free and premium modules (only if premium modules exist)
+- Created helper functions: `getModuleBlockCount()`, `getModuleItemCount()`
+- Content normalization handles both flat and nested content formats (from JSON modules)
+- Updated `/src/lib/carousel/index.ts` to export new functions
+
+**Features:**
+- Preserves section titles on each item for progress display
+- Unique IDs for all items: `{moduleSlug}-{blockId}`
+- Order field for each item (0-indexed)
+- isPremium flag derived from parent module
+- Handles edge cases: empty modules, empty sections, blocks without ID
+
+**Files Created:**
+- `src/lib/carousel/flatten-modules.ts`
+- `src/lib/carousel/__tests__/flatten-modules.test.ts`
+
+**Files Modified:**
+- `src/lib/carousel/index.ts` - Added new exports
+
+**Tests:**
+- 29 unit tests covering:
+  - Basic flattening (4 tests)
+  - Block type mapping (3 tests)
+  - Paywall insertion (3 tests)
+  - Premium content handling (2 tests)
+  - Multiple modules (1 test)
+  - Acceptance criteria: 3 modules with 10 blocks each → ~33 items (1 test)
+  - Content normalization (4 tests)
+  - Edge cases (6 tests)
+  - Unique item IDs (1 test)
+  - getModuleBlockCount (2 tests)
+  - getModuleItemCount (2 tests)
+
+**Verification:**
+- `npm run lint` - passes with no errors
+- `npm run type-check` - passes with no errors
+- `npm run build` - successful production build
+- `npm test` - 29 new flatten-modules tests pass (2110 total passed, 12 pre-existing failures unrelated to this change)
+- All acceptance criteria verified:
+  - `flattenToCarouselItems(modules)` - sections → items ✓
+  - Each block becomes one CarouselItem ✓
+  - Insert module title item at start of each module ✓
+  - Insert paywall item between free and premium ✓
+  - Test: 3 modules with 10 blocks each → ~33 items (34 = 33 items + 1 paywall) ✓
