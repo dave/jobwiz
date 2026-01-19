@@ -117,7 +117,8 @@ export default async function CompanyPage({ params }: CompanyPageProps) {
                 <CompanyLogo
                   logoUrl={theme.logoUrl}
                   companyName={company.name}
-                  size="large"
+                  size="medium"
+                  className="!w-12 !h-12"
                 />
               </div>
 
