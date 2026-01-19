@@ -20,7 +20,7 @@
         {
           "type": "text",
           "content": {
-            "text": "**Key cultural themes at Splunk:**\n\n- System design emphasis\n- Heavy focus on coding\n- Behavioral interviews important\n- Culture fit matters\n- Multiple interview rounds"
+            "text": "**Key cultural themes at Splunk:**\n\n- Data to everything - turning machine data into insights and action\n- Innovation and curiosity - exploring new ways to unlock data value\n- Customer obsession - solving real security and observability challenges\n- Diverse and inclusive - different perspectives lead to better solutions\n- Now part of Cisco - integrating while maintaining Splunk's innovative culture"
           }
         },
         {
@@ -186,7 +186,7 @@
         {
           "type": "text",
           "content": {
-            "text": "**Common Interview Questions:**\n\n- \"Before we proceed, mind telling me what the salary range is for this role?\"\n- \"What are the expectations? Am I meeting them?\"\n- \"describe myself and my role for those?\"\n- \"describe this in Resume/CV?\"\n- \"do they like? I've found about Dropbox and Google Drive, but there is probably more\""
+            "text": "**Common Interview Questions:**\n\n- \"Tell me about a time you used data to identify and solve a problem.\"\n- \"How do you approach building systems that need to process high volumes of log data?\"\n- \"Describe your experience with security monitoring, SIEM, or observability tools.\"\n- \"How do you balance building new features with maintaining platform reliability?\"\n- \"What excites you about the future of security and observability?\""
           }
         },
         {
@@ -237,7 +237,7 @@
         {
           "type": "text",
           "content": {
-            "text": "**Insider Tips:**\n\n- and encouragements from this reddit as I pushed forward\n- of lots on this sub, I took the job because I thought it would be a good experience and better than sitting on my ass at home\n- for getting a job at a good company\n- for Amazon but not really for the other companies in the acronym\n- on resolving the issue, but I am in essentially an identical position"
+            "text": "**Insider Tips:**\n\n- Understand SPL (Splunk Processing Language) basics before your interview - it's central to the product\n- Splunk was recently acquired by Cisco - be ready to discuss how the acquisition affects the roadmap and culture\n- Know the SIEM and observability competitive landscape: Elastic, Datadog, Sumo Logic - understand Splunk's enterprise focus\n- Security use cases (SIEM, SOAR) are major growth areas - showing security domain knowledge is valuable\n- The shift from on-prem to cloud (Splunk Cloud) is a key strategic initiative - understand this transition"
           }
         },
         {

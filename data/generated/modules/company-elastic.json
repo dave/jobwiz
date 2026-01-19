@@ -20,7 +20,7 @@
         {
           "type": "text",
           "content": {
-            "text": "**Key cultural themes at Elastic:**\n\n- System design emphasis\n- Heavy focus on coding\n- Culture fit matters\n- Technical deep dive\n- Multiple interview rounds"
+            "text": "**Key cultural themes at Elastic:**\n\n- Source Available/Open roots - community and transparency are foundational\n- Distributed by design - remote-first culture with employees worldwide\n- Search for solutions - applying search technology to solve real problems\n- Ownership and impact - small teams with big responsibilities\n- Continuous learning - technology evolves fast and so should you"
           }
         },
         {
@@ -186,7 +186,7 @@
         {
           "type": "text",
           "content": {
-            "text": "**Common Interview Questions:**\n\n- \"can you come in for an interview tomorrow?\"\n- \"Hmm, what else is this guy lying about?\"\n- \"what particularly challenges have you had with ES?\"\n- \"why am I earning so much compared to my neighbors?\"\n- \"How would you design an eCommerce store?\""
+            "text": "**Common Interview Questions:**\n\n- \"Tell me about a time you used search or observability to solve a complex problem.\"\n- \"How do you approach working effectively in a distributed, remote team?\"\n- \"Describe your experience with open source communities or contributions.\"\n- \"How do you balance technical depth with shipping quickly?\"\n- \"What challenges have you faced with Elasticsearch or similar search technologies?\""
           }
         },
         {
@@ -237,7 +237,7 @@
         {
           "type": "text",
           "content": {
-            "text": "**Insider Tips:**\n\n- you have everything locked down with the new company like background checks\n- you can pay it all back right away\n- start with basic thymeleaf first\n- on how to land jobs across the country? Know any Seattle based companies willing to hiring non-local applicants (especially if the applicant pays his\n- will be greatly appreciated!**"
+            "text": "**Insider Tips:**\n\n- Understand the Elastic Stack (Elasticsearch, Kibana, Logstash, Beats) - hands-on experience makes a strong impression\n- Elastic is a distributed company by design - show you can communicate asynchronously and work independently\n- Know the observability market: Splunk, Datadog, New Relic - understand Elastic's positioning\n- The shift from open source to source available was significant - be aware of this history\n- SIEM and security observability are growth areas - understanding these use cases is valuable"
           }
         },
         {

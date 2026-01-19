@@ -20,7 +20,7 @@
         {
           "type": "text",
           "content": {
-            "text": "**Key cultural themes at Cloudflare:**\n\n- System design emphasis\n- Heavy focus on coding\n- Multiple interview rounds"
+            "text": "**Key cultural themes at Cloudflare:**\n\n- Help build a better internet - mission-driven focus on security and performance\n- Intellectual curiosity - love of learning and technical depth\n- Speed and iteration - ship fast, learn fast, improve fast\n- Transparency in operations - public blog posts about incidents and decisions\n- Global impact - infrastructure that serves millions of websites worldwide"
           }
         },
         {
@@ -186,7 +186,7 @@
         {
           "type": "text",
           "content": {
-            "text": "**Common Interview Questions:**\n\n- \"definition questions which i feel happens in almost every SWE interview where one person wants tk ask something like “what is polymorphism?\""
+            "text": "**Common Interview Questions:**\n\n- \"Tell me about a time you optimized something for performance at scale.\"\n- \"How would you approach building a system that needs to handle millions of requests per second?\"\n- \"Describe your experience with CDNs, DNS, or edge computing.\"\n- \"How do you balance security with performance in your work?\"\n- \"What excites you about building infrastructure for the internet?\""
           }
         },
         {
@@ -237,7 +237,7 @@
         {
           "type": "text",
           "content": {
-            "text": "**Insider Tips:**\n\n- I would love to accept with them and I was expecting to hear back by this time because their internship is\n- I would say overall the WLB is quite reasonable\n- I would like to hear your experiences with Cloudflare, from interviewing to working there"
+            "text": "**Insider Tips:**\n\n- Read the Cloudflare blog before your interview - they publish detailed technical posts about their infrastructure and incidents\n- Understand Workers, R2, and the edge computing platform - Cloudflare is building the programmable cloud\n- Know the competitive landscape: Akamai, Fastly, AWS CloudFront - understand Cloudflare's developer-friendly approach\n- The company is transparent about outages and issues - show you appreciate this culture of openness\n- Networking fundamentals (BGP, DNS, TLS) are valuable knowledge for many roles"
           }
         },
         {

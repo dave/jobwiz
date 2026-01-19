@@ -20,7 +20,7 @@
         {
           "type": "text",
           "content": {
-            "text": "**Key cultural themes at Twilio:**\n\n- System design emphasis\n- Heavy focus on coding\n- Behavioral interviews important\n- Multiple interview rounds\n- Virtual interviews"
+            "text": "**Key cultural themes at Twilio:**\n\n- Developer-first mindset - every decision considers the developer experience\n- \"Draw the owl\" - figure things out, be resourceful and scrappy\n- Be an owner - act like the company is yours\n- Write it down - documentation and knowledge sharing are valued\n- Wear the customer's shoes - deep empathy for developers building with Twilio"
           }
         },
         {
@@ -186,7 +186,7 @@
         {
           "type": "text",
           "content": {
-            "text": "**Common Interview Questions:**\n\n- \"in technical screening? Is it SQL tech questions along with my technical background? Or some thing else?\"\n- \"and data structures/algorithms, like big 4/unicorn companies?\""
+            "text": "**Common Interview Questions:**\n\n- \"Tell me about a time you built something developers loved using.\"\n- \"How do you approach writing documentation for technical products?\"\n- \"Describe a situation where you had to 'draw the owl' - figure something out with limited guidance.\"\n- \"How do you balance building for scale with shipping quickly?\"\n- \"What does developer experience mean to you and how would you improve ours?\""
           }
         },
         {
@@ -237,7 +237,7 @@
         {
           "type": "text",
           "content": {
-            "text": "**Insider Tips:**\n\n- from you is greatly appreciated\n- at all to help prepare more than I already have so far? I feel like i'm trying anything that even sounds remotely like its something they would be con\n- and please exclude my ignorance\n- you should absolutely stick around 5 years\n- I wouldn't say it was easy exactly, just easier than others I've done"
+            "text": "**Insider Tips:**\n\n- 'Draw the owl' is a famous Twilio value - be ready to discuss times you figured things out with minimal direction\n- Use Twilio's APIs before your interview - having hands-on experience with SMS, Voice, or Flex shows genuine interest\n- Twilio is now part of the communications platform market - understand CPaaS and how Twilio competes with Vonage, MessageBird, and Sinch\n- The company has strong developer relations roots - showing you care about developer experience is crucial\n- Be prepared to discuss the Segment acquisition and how customer data platforms fit with communications"
           }
         },
         {

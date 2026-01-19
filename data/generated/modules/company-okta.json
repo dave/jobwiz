@@ -20,7 +20,7 @@
         {
           "type": "text",
           "content": {
-            "text": "**Key cultural themes at Okta:**\n\n- Behavioral interviews important\n- Case study format\n- Multiple interview rounds\n- Take-home assignment"
+            "text": "**Key cultural themes at Okta:**\n\n- Identity matters - enabling everyone to safely use any technology\n- Customer first - security that doesn't compromise user experience\n- Transparency and integrity - trust is the foundation of identity\n- Inclusion and belonging - diverse perspectives strengthen security solutions\n- Innovation with responsibility - advancing technology while protecting privacy"
           }
         },
         {
@@ -186,7 +186,7 @@
         {
           "type": "text",
           "content": {
-            "text": "**Common Interview Questions:**\n\n- \"explain the career jump during interviews?\""
+            "text": "**Common Interview Questions:**\n\n- \"Tell me about a time you designed a system with security as a primary concern.\"\n- \"How do you balance security requirements with user experience?\"\n- \"Describe your experience with identity management, SSO, or authentication systems.\"\n- \"How do you stay current with evolving security threats and best practices?\"\n- \"What does 'zero trust' mean to you and how would you implement it?\""
           }
         },
         {
@@ -237,7 +237,7 @@
         {
           "type": "text",
           "content": {
-            "text": "**Insider Tips:**\n\n- to highlight any relevant experience you have with enterprise software or B2B products\n- to transition away from IT to SE\n- would you give to help me move into a software engineering role in the next 6 months? How should I explain the career jump during interviews?  Would i\n- on switching from IT to SE\n- would be appreciated, I wanna be prepared"
+            "text": "**Insider Tips:**\n\n- Understand SAML, OAuth 2.0, OpenID Connect, and SCIM - these are core to Okta's business\n- The Auth0 acquisition expanded Okta's developer focus - understand both enterprise IAM and developer auth use cases\n- Know the competitive landscape: Azure AD, Ping Identity, ForgeRock - understand Okta's cloud-native advantages\n- Zero trust architecture is increasingly important - be ready to discuss how identity fits into security posture\n- Okta has had security incidents - showing you understand how they handled these transparently demonstrates cultural fit"
           }
         },
         {
