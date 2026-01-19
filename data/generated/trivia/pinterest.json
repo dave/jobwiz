@@ -1,0 +1,162 @@
+[
+  {
+    "company_slug": "pinterest",
+    "fact_type": "founding",
+    "format": "quiz",
+    "question": "When was Pinterest founded?",
+    "answer": "2010",
+    "options": [
+      "2005",
+      "2008",
+      "2013"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Pinterest",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "pinterest",
+    "fact_type": "founding",
+    "format": "flashcard",
+    "question": "Who founded Pinterest?",
+    "answer": "Ben Silbermann and Paul Sciarra and others",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Pinterest",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "pinterest",
+    "fact_type": "founding",
+    "format": "factoid",
+    "question": null,
+    "answer": "Pinterest was founded in 2010 by Ben Silbermann and Paul Sciarra and others.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Pinterest",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "pinterest",
+    "fact_type": "hq",
+    "format": "quiz",
+    "question": "Where is Pinterest's headquarters located?",
+    "answer": "San Francisco, California",
+    "options": [
+      "New York, New York",
+      "Los Angeles, California",
+      "Seattle, Washington"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Pinterest",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "pinterest",
+    "fact_type": "hq",
+    "format": "flashcard",
+    "question": "What city is Pinterest headquartered in?",
+    "answer": "San Francisco, California",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Pinterest",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "pinterest",
+    "fact_type": "exec",
+    "format": "quiz",
+    "question": "Who is the current CEO of Pinterest?",
+    "answer": "Bill Ready",
+    "options": [
+      "Evan Spiegel",
+      "Steve Huffman",
+      "Mark Zuckerberg"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Pinterest",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "pinterest",
+    "fact_type": "exec",
+    "format": "flashcard",
+    "question": "Who leads Pinterest as CEO?",
+    "answer": "Bill Ready",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Pinterest",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "pinterest",
+    "fact_type": "mission",
+    "format": "factoid",
+    "question": null,
+    "answer": "Pinterest's mission is \"To bring everyone the inspiration to create a life they love\".",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Pinterest",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "pinterest",
+    "fact_type": "mission",
+    "format": "flashcard",
+    "question": "What is Pinterest's mission statement?",
+    "answer": "To bring everyone the inspiration to create a life they love",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Pinterest",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "pinterest",
+    "fact_type": "product",
+    "format": "quiz",
+    "question": "Which of these is a Pinterest product or service?",
+    "answer": "Pinterest",
+    "options": [
+      "Netflix",
+      "Hulu",
+      "Amazon Prime Video"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Pinterest",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "pinterest",
+    "fact_type": "product",
+    "format": "factoid",
+    "question": null,
+    "answer": "Key Pinterest products and services include Pinterest, Pinterest Lens, Pinterest Shopping, Idea Pins, Pinterest TV.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Pinterest",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "pinterest",
+    "fact_type": "acquisition",
+    "format": "quiz",
+    "question": "Which company did Pinterest acquire in 2022?",
+    "answer": "THE YES",
+    "options": [
+      "Lucasfilm",
+      "Marvel",
+      "Pixar"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Pinterest",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "pinterest",
+    "fact_type": "acquisition",
+    "format": "factoid",
+    "question": null,
+    "answer": "Pinterest acquired THE YES in 2022.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Pinterest",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "pinterest",
+    "fact_type": "acquisition",
+    "format": "flashcard",
+    "question": "In what year did Pinterest acquire Vochi?",
+    "answer": "2021",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Pinterest",
+    "source_date": "2026-01-19"
+  }
+]

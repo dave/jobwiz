@@ -1,0 +1,162 @@
+[
+  {
+    "company_slug": "reddit",
+    "fact_type": "founding",
+    "format": "quiz",
+    "question": "When was Reddit founded?",
+    "answer": "2005",
+    "options": [
+      "2000",
+      "2003",
+      "2008"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Reddit",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "reddit",
+    "fact_type": "founding",
+    "format": "flashcard",
+    "question": "Who founded Reddit?",
+    "answer": "Steve Huffman and Alexis Ohanian",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Reddit",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "reddit",
+    "fact_type": "founding",
+    "format": "factoid",
+    "question": null,
+    "answer": "Reddit was founded in 2005 by Steve Huffman and Alexis Ohanian.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Reddit",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "reddit",
+    "fact_type": "hq",
+    "format": "quiz",
+    "question": "Where is Reddit's headquarters located?",
+    "answer": "San Francisco, California",
+    "options": [
+      "New York, New York",
+      "Los Angeles, California",
+      "Seattle, Washington"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Reddit",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "reddit",
+    "fact_type": "hq",
+    "format": "flashcard",
+    "question": "What city is Reddit headquartered in?",
+    "answer": "San Francisco, California",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Reddit",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "reddit",
+    "fact_type": "exec",
+    "format": "quiz",
+    "question": "Who is the current CEO of Reddit?",
+    "answer": "Steve Huffman",
+    "options": [
+      "Ben Silbermann",
+      "Evan Spiegel",
+      "Jack Dorsey"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Reddit",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "reddit",
+    "fact_type": "exec",
+    "format": "flashcard",
+    "question": "Who leads Reddit as CEO?",
+    "answer": "Steve Huffman",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Reddit",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "reddit",
+    "fact_type": "mission",
+    "format": "factoid",
+    "question": null,
+    "answer": "Reddit's mission is \"To bring community, belonging, and empowerment to everyone in the world\".",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Reddit",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "reddit",
+    "fact_type": "mission",
+    "format": "flashcard",
+    "question": "What is Reddit's mission statement?",
+    "answer": "To bring community, belonging, and empowerment to everyone in the world",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Reddit",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "reddit",
+    "fact_type": "product",
+    "format": "quiz",
+    "question": "Which of these is a Reddit product or service?",
+    "answer": "Reddit",
+    "options": [
+      "Netflix",
+      "Hulu",
+      "Amazon Prime Video"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Reddit",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "reddit",
+    "fact_type": "product",
+    "format": "factoid",
+    "question": null,
+    "answer": "Key Reddit products and services include Reddit, Reddit Premium, Reddit Coins, Reddit Awards, Reddit Chat.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Reddit",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "reddit",
+    "fact_type": "acquisition",
+    "format": "quiz",
+    "question": "Which company did Reddit acquire in 2020?",
+    "answer": "Dubsmash",
+    "options": [
+      "Lucasfilm",
+      "Marvel",
+      "Pixar"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Reddit",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "reddit",
+    "fact_type": "acquisition",
+    "format": "factoid",
+    "question": null,
+    "answer": "Reddit acquired Dubsmash in 2020.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Reddit",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "reddit",
+    "fact_type": "acquisition",
+    "format": "flashcard",
+    "question": "In what year did Reddit acquire Spiketrap?",
+    "answer": "2022",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Reddit",
+    "source_date": "2026-01-19"
+  }
+]

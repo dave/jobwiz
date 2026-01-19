@@ -3238,3 +3238,55 @@ All Stage 5 (Launch) code issues are now closed:
 - Quiz items have exactly 3 wrong options
 - All items have source_url and source_date
 
+### 2026-01-19 - Issue #93: Generate company trivia: Media/Entertainment batch
+
+**Completed:**
+- Created trivia generation script `/scripts/generate-trivia-media-entertainment.ts`
+- Generated trivia for 11 Media/Entertainment companies:
+  - Disney, Warner Bros. Discovery, Spotify, ByteDance (TikTok)
+  - Snap, Pinterest, Reddit, LinkedIn
+  - X (formerly Twitter), Electronic Arts (EA), Activision Blizzard
+- Generated 154 trivia items total (14 items per company)
+- Output files in `/data/generated/trivia/{company}.json`
+
+**Trivia Types Generated:**
+- Founding (quiz, flashcard, factoid)
+- Headquarters (quiz, flashcard)
+- CEO/Executive (quiz, flashcard)
+- Mission statement (factoid, flashcard)
+- Products (quiz, factoid)
+- Acquisitions (quiz, factoid, flashcard)
+
+**Format per Item:**
+- `company_slug` - company identifier
+- `fact_type` - founding, hq, mission, product, news, exec, acquisition
+- `format` - quiz, flashcard, factoid
+- `question` - question text (null for factoids)
+- `answer` - correct answer
+- `options` - 3 wrong answers (for quiz format only)
+- `source_url` - Wikipedia source link
+- `source_date` - date of generation
+
+**Files Created:**
+- `scripts/generate-trivia-media-entertainment.ts` - trivia generation script
+- `data/generated/trivia/disney.json` (14 items)
+- `data/generated/trivia/warner-bros-discovery.json` (14 items)
+- `data/generated/trivia/spotify.json` (14 items)
+- `data/generated/trivia/bytedance.json` (14 items)
+- `data/generated/trivia/snap.json` (14 items)
+- `data/generated/trivia/pinterest.json` (14 items)
+- `data/generated/trivia/reddit.json` (14 items)
+- `data/generated/trivia/linkedin.json` (14 items)
+- `data/generated/trivia/x.json` (14 items)
+- `data/generated/trivia/ea.json` (14 items)
+- `data/generated/trivia/activision-blizzard.json` (14 items)
+
+**Verification:**
+- `npm run lint` - passes with no errors
+- `npm run type-check` - passes with no errors
+- `npm run build` - successful production build
+- `npm test` - 2163 passed, 2 todo, 12 pre-existing failures (unrelated to this change)
+- All trivia files conform to expected schema
+- Quiz items have exactly 3 wrong options
+- All items have source_url and source_date
+

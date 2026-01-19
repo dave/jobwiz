@@ -1,0 +1,162 @@
+[
+  {
+    "company_slug": "disney",
+    "fact_type": "founding",
+    "format": "quiz",
+    "question": "When was Disney founded?",
+    "answer": "1923",
+    "options": [
+      "1915",
+      "1919",
+      "1928"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/The_Walt_Disney_Company",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "disney",
+    "fact_type": "founding",
+    "format": "flashcard",
+    "question": "Who founded Disney?",
+    "answer": "Walt Disney and Roy O. Disney",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/The_Walt_Disney_Company",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "disney",
+    "fact_type": "founding",
+    "format": "factoid",
+    "question": null,
+    "answer": "Disney was founded in 1923 by Walt Disney and Roy O. Disney.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/The_Walt_Disney_Company",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "disney",
+    "fact_type": "hq",
+    "format": "quiz",
+    "question": "Where is Disney's headquarters located?",
+    "answer": "Burbank, California",
+    "options": [
+      "San Francisco, California",
+      "New York, New York",
+      "Los Angeles, California"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/The_Walt_Disney_Company",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "disney",
+    "fact_type": "hq",
+    "format": "flashcard",
+    "question": "What city is Disney headquartered in?",
+    "answer": "Burbank, California",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/The_Walt_Disney_Company",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "disney",
+    "fact_type": "exec",
+    "format": "quiz",
+    "question": "Who is the current CEO of Disney?",
+    "answer": "Bob Iger",
+    "options": [
+      "David Zaslav",
+      "Reed Hastings",
+      "Tim Cook"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/The_Walt_Disney_Company",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "disney",
+    "fact_type": "exec",
+    "format": "flashcard",
+    "question": "Who leads Disney as CEO?",
+    "answer": "Bob Iger",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/The_Walt_Disney_Company",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "disney",
+    "fact_type": "mission",
+    "format": "factoid",
+    "question": null,
+    "answer": "Disney's mission is \"To entertain, inform and inspire people around the globe through the power of unparalleled storytelling\".",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/The_Walt_Disney_Company",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "disney",
+    "fact_type": "mission",
+    "format": "flashcard",
+    "question": "What is Disney's mission statement?",
+    "answer": "To entertain, inform and inspire people around the globe through the power of unparalleled storytelling",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/The_Walt_Disney_Company",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "disney",
+    "fact_type": "product",
+    "format": "quiz",
+    "question": "Which of these is a Disney product or service?",
+    "answer": "Disney+",
+    "options": [
+      "Netflix",
+      "Hulu",
+      "Amazon Prime Video"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/The_Walt_Disney_Company",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "disney",
+    "fact_type": "product",
+    "format": "factoid",
+    "question": null,
+    "answer": "Key Disney products and services include Disney+, Walt Disney Studios, Pixar, Marvel Studios, Lucasfilm.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/The_Walt_Disney_Company",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "disney",
+    "fact_type": "acquisition",
+    "format": "quiz",
+    "question": "Which company did Disney acquire in 2019?",
+    "answer": "21st Century Fox",
+    "options": [
+      "Lucasfilm",
+      "Marvel",
+      "Pixar"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/The_Walt_Disney_Company",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "disney",
+    "fact_type": "acquisition",
+    "format": "factoid",
+    "question": null,
+    "answer": "Disney acquired 21st Century Fox in 2019.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/The_Walt_Disney_Company",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "disney",
+    "fact_type": "acquisition",
+    "format": "flashcard",
+    "question": "In what year did Disney acquire Lucasfilm?",
+    "answer": "2012",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/The_Walt_Disney_Company",
+    "source_date": "2026-01-19"
+  }
+]

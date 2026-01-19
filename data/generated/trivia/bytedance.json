@@ -1,0 +1,162 @@
+[
+  {
+    "company_slug": "bytedance",
+    "fact_type": "founding",
+    "format": "quiz",
+    "question": "When was ByteDance founded?",
+    "answer": "2012",
+    "options": [
+      "2007",
+      "2010",
+      "2015"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/ByteDance",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "bytedance",
+    "fact_type": "founding",
+    "format": "flashcard",
+    "question": "Who founded ByteDance?",
+    "answer": "Zhang Yiming",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/ByteDance",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "bytedance",
+    "fact_type": "founding",
+    "format": "factoid",
+    "question": null,
+    "answer": "ByteDance was founded in 2012 by Zhang Yiming.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/ByteDance",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "bytedance",
+    "fact_type": "hq",
+    "format": "quiz",
+    "question": "Where is ByteDance's headquarters located?",
+    "answer": "Beijing, China",
+    "options": [
+      "San Francisco, California",
+      "New York, New York",
+      "Los Angeles, California"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/ByteDance",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "bytedance",
+    "fact_type": "hq",
+    "format": "flashcard",
+    "question": "What city is ByteDance headquartered in?",
+    "answer": "Beijing, China",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/ByteDance",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "bytedance",
+    "fact_type": "exec",
+    "format": "quiz",
+    "question": "Who is the current CEO of ByteDance?",
+    "answer": "Liang Rubo",
+    "options": [
+      "Daniel Ek",
+      "Mark Zuckerberg",
+      "Evan Spiegel"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/ByteDance",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "bytedance",
+    "fact_type": "exec",
+    "format": "flashcard",
+    "question": "Who leads ByteDance as CEO?",
+    "answer": "Liang Rubo",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/ByteDance",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "bytedance",
+    "fact_type": "mission",
+    "format": "factoid",
+    "question": null,
+    "answer": "ByteDance's mission is \"To inspire creativity and bring joy\".",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/ByteDance",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "bytedance",
+    "fact_type": "mission",
+    "format": "flashcard",
+    "question": "What is ByteDance's mission statement?",
+    "answer": "To inspire creativity and bring joy",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/ByteDance",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "bytedance",
+    "fact_type": "product",
+    "format": "quiz",
+    "question": "Which of these is a ByteDance product or service?",
+    "answer": "TikTok",
+    "options": [
+      "Netflix",
+      "Hulu",
+      "Amazon Prime Video"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/ByteDance",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "bytedance",
+    "fact_type": "product",
+    "format": "factoid",
+    "question": null,
+    "answer": "Key ByteDance products and services include TikTok, Douyin, Toutiao, CapCut, Lark.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/ByteDance",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "bytedance",
+    "fact_type": "acquisition",
+    "format": "quiz",
+    "question": "Which company did ByteDance acquire in 2017?",
+    "answer": "Musical.ly",
+    "options": [
+      "Lucasfilm",
+      "Marvel",
+      "Pixar"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/ByteDance",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "bytedance",
+    "fact_type": "acquisition",
+    "format": "factoid",
+    "question": null,
+    "answer": "ByteDance acquired Musical.ly in 2017.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/ByteDance",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "bytedance",
+    "fact_type": "acquisition",
+    "format": "flashcard",
+    "question": "In what year did ByteDance acquire Pico?",
+    "answer": "2021",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/ByteDance",
+    "source_date": "2026-01-19"
+  }
+]

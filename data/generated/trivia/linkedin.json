@@ -1,0 +1,162 @@
+[
+  {
+    "company_slug": "linkedin",
+    "fact_type": "founding",
+    "format": "quiz",
+    "question": "When was LinkedIn founded?",
+    "answer": "2002",
+    "options": [
+      "1997",
+      "2000",
+      "2005"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/LinkedIn",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "linkedin",
+    "fact_type": "founding",
+    "format": "flashcard",
+    "question": "Who founded LinkedIn?",
+    "answer": "Reid Hoffman and Allen Blue and others",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/LinkedIn",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "linkedin",
+    "fact_type": "founding",
+    "format": "factoid",
+    "question": null,
+    "answer": "LinkedIn was founded in 2002 by Reid Hoffman and Allen Blue and others.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/LinkedIn",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "linkedin",
+    "fact_type": "hq",
+    "format": "quiz",
+    "question": "Where is LinkedIn's headquarters located?",
+    "answer": "Sunnyvale, California",
+    "options": [
+      "San Francisco, California",
+      "New York, New York",
+      "Los Angeles, California"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/LinkedIn",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "linkedin",
+    "fact_type": "hq",
+    "format": "flashcard",
+    "question": "What city is LinkedIn headquartered in?",
+    "answer": "Sunnyvale, California",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/LinkedIn",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "linkedin",
+    "fact_type": "exec",
+    "format": "quiz",
+    "question": "Who is the current CEO of LinkedIn?",
+    "answer": "Ryan Roslansky",
+    "options": [
+      "Mark Zuckerberg",
+      "Steve Huffman",
+      "Jeff Weiner"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/LinkedIn",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "linkedin",
+    "fact_type": "exec",
+    "format": "flashcard",
+    "question": "Who leads LinkedIn as CEO?",
+    "answer": "Ryan Roslansky",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/LinkedIn",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "linkedin",
+    "fact_type": "mission",
+    "format": "factoid",
+    "question": null,
+    "answer": "LinkedIn's mission is \"To connect the world's professionals to make them more productive and successful\".",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/LinkedIn",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "linkedin",
+    "fact_type": "mission",
+    "format": "flashcard",
+    "question": "What is LinkedIn's mission statement?",
+    "answer": "To connect the world's professionals to make them more productive and successful",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/LinkedIn",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "linkedin",
+    "fact_type": "product",
+    "format": "quiz",
+    "question": "Which of these is a LinkedIn product or service?",
+    "answer": "LinkedIn",
+    "options": [
+      "Netflix",
+      "Hulu",
+      "Amazon Prime Video"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/LinkedIn",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "linkedin",
+    "fact_type": "product",
+    "format": "factoid",
+    "question": null,
+    "answer": "Key LinkedIn products and services include LinkedIn, LinkedIn Learning, LinkedIn Premium, LinkedIn Recruiter, LinkedIn Sales Navigator.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/LinkedIn",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "linkedin",
+    "fact_type": "acquisition",
+    "format": "quiz",
+    "question": "Which company did LinkedIn acquire in 2015?",
+    "answer": "Lynda.com",
+    "options": [
+      "Lucasfilm",
+      "Marvel",
+      "Pixar"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/LinkedIn",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "linkedin",
+    "fact_type": "acquisition",
+    "format": "factoid",
+    "question": null,
+    "answer": "LinkedIn acquired Lynda.com in 2015.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/LinkedIn",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "linkedin",
+    "fact_type": "acquisition",
+    "format": "flashcard",
+    "question": "In what year did LinkedIn acquire SlideShare?",
+    "answer": "2012",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/LinkedIn",
+    "source_date": "2026-01-19"
+  }
+]

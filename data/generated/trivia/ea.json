@@ -1,0 +1,162 @@
+[
+  {
+    "company_slug": "ea",
+    "fact_type": "founding",
+    "format": "quiz",
+    "question": "When was Electronic Arts (EA) founded?",
+    "answer": "1982",
+    "options": [
+      "1974",
+      "1978",
+      "1987"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Electronic_Arts",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "ea",
+    "fact_type": "founding",
+    "format": "flashcard",
+    "question": "Who founded Electronic Arts (EA)?",
+    "answer": "Trip Hawkins",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Electronic_Arts",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "ea",
+    "fact_type": "founding",
+    "format": "factoid",
+    "question": null,
+    "answer": "Electronic Arts (EA) was founded in 1982 by Trip Hawkins.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Electronic_Arts",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "ea",
+    "fact_type": "hq",
+    "format": "quiz",
+    "question": "Where is Electronic Arts (EA)'s headquarters located?",
+    "answer": "Redwood City, California",
+    "options": [
+      "San Francisco, California",
+      "New York, New York",
+      "Los Angeles, California"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Electronic_Arts",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "ea",
+    "fact_type": "hq",
+    "format": "flashcard",
+    "question": "What city is Electronic Arts (EA) headquartered in?",
+    "answer": "Redwood City, California",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Electronic_Arts",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "ea",
+    "fact_type": "exec",
+    "format": "quiz",
+    "question": "Who is the current CEO of Electronic Arts (EA)?",
+    "answer": "Andrew Wilson",
+    "options": [
+      "Bobby Kotick",
+      "Phil Spencer",
+      "Satya Nadella"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Electronic_Arts",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "ea",
+    "fact_type": "exec",
+    "format": "flashcard",
+    "question": "Who leads Electronic Arts (EA) as CEO?",
+    "answer": "Andrew Wilson",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Electronic_Arts",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "ea",
+    "fact_type": "mission",
+    "format": "factoid",
+    "question": null,
+    "answer": "Electronic Arts (EA)'s mission is \"To inspire the world to play\".",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Electronic_Arts",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "ea",
+    "fact_type": "mission",
+    "format": "flashcard",
+    "question": "What is Electronic Arts (EA)'s mission statement?",
+    "answer": "To inspire the world to play",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Electronic_Arts",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "ea",
+    "fact_type": "product",
+    "format": "quiz",
+    "question": "Which of these is a Electronic Arts (EA) product or service?",
+    "answer": "EA Sports FC",
+    "options": [
+      "Netflix",
+      "Hulu",
+      "Amazon Prime Video"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Electronic_Arts",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "ea",
+    "fact_type": "product",
+    "format": "factoid",
+    "question": null,
+    "answer": "Key Electronic Arts (EA) products and services include EA Sports FC, Madden NFL, The Sims, Apex Legends, Battlefield.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Electronic_Arts",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "ea",
+    "fact_type": "acquisition",
+    "format": "quiz",
+    "question": "Which company did Electronic Arts (EA) acquire in 2017?",
+    "answer": "Respawn Entertainment",
+    "options": [
+      "Lucasfilm",
+      "Marvel",
+      "Pixar"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Electronic_Arts",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "ea",
+    "fact_type": "acquisition",
+    "format": "factoid",
+    "question": null,
+    "answer": "Electronic Arts (EA) acquired Respawn Entertainment in 2017.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Electronic_Arts",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "ea",
+    "fact_type": "acquisition",
+    "format": "flashcard",
+    "question": "In what year did Electronic Arts (EA) acquire Codemasters?",
+    "answer": "2021",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Electronic_Arts",
+    "source_date": "2026-01-19"
+  }
+]

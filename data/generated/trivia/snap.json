@@ -1,0 +1,162 @@
+[
+  {
+    "company_slug": "snap",
+    "fact_type": "founding",
+    "format": "quiz",
+    "question": "When was Snap Inc. founded?",
+    "answer": "2011",
+    "options": [
+      "2006",
+      "2009",
+      "2014"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Snap_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "snap",
+    "fact_type": "founding",
+    "format": "flashcard",
+    "question": "Who founded Snap Inc.?",
+    "answer": "Evan Spiegel and Bobby Murphy and others",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Snap_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "snap",
+    "fact_type": "founding",
+    "format": "factoid",
+    "question": null,
+    "answer": "Snap Inc. was founded in 2011 by Evan Spiegel and Bobby Murphy and others.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Snap_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "snap",
+    "fact_type": "hq",
+    "format": "quiz",
+    "question": "Where is Snap Inc.'s headquarters located?",
+    "answer": "Santa Monica, California",
+    "options": [
+      "San Francisco, California",
+      "New York, New York",
+      "Los Angeles, California"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Snap_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "snap",
+    "fact_type": "hq",
+    "format": "flashcard",
+    "question": "What city is Snap Inc. headquartered in?",
+    "answer": "Santa Monica, California",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Snap_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "snap",
+    "fact_type": "exec",
+    "format": "quiz",
+    "question": "Who is the current CEO of Snap Inc.?",
+    "answer": "Evan Spiegel",
+    "options": [
+      "Mark Zuckerberg",
+      "Ben Silbermann",
+      "Steve Huffman"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Snap_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "snap",
+    "fact_type": "exec",
+    "format": "flashcard",
+    "question": "Who leads Snap Inc. as CEO?",
+    "answer": "Evan Spiegel",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Snap_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "snap",
+    "fact_type": "mission",
+    "format": "factoid",
+    "question": null,
+    "answer": "Snap Inc.'s mission is \"To empower people to express themselves, live in the moment, learn about the world, and have fun together\".",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Snap_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "snap",
+    "fact_type": "mission",
+    "format": "flashcard",
+    "question": "What is Snap Inc.'s mission statement?",
+    "answer": "To empower people to express themselves, live in the moment, learn about the world, and have fun together",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Snap_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "snap",
+    "fact_type": "product",
+    "format": "quiz",
+    "question": "Which of these is a Snap Inc. product or service?",
+    "answer": "Snapchat",
+    "options": [
+      "Netflix",
+      "Hulu",
+      "Amazon Prime Video"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Snap_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "snap",
+    "fact_type": "product",
+    "format": "factoid",
+    "question": null,
+    "answer": "Key Snap Inc. products and services include Snapchat, Snap Map, Snap Spectacles, Bitmoji, Snap Camera.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Snap_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "snap",
+    "fact_type": "acquisition",
+    "format": "quiz",
+    "question": "Which company did Snap Inc. acquire in 2016?",
+    "answer": "Bitmoji",
+    "options": [
+      "Lucasfilm",
+      "Marvel",
+      "Pixar"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Snap_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "snap",
+    "fact_type": "acquisition",
+    "format": "factoid",
+    "question": null,
+    "answer": "Snap Inc. acquired Bitmoji in 2016.",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Snap_Inc.",
+    "source_date": "2026-01-19"
+  },
+  {
+    "company_slug": "snap",
+    "fact_type": "acquisition",
+    "format": "flashcard",
+    "question": "In what year did Snap Inc. acquire Zenly?",
+    "answer": "2017",
+    "options": null,
+    "source_url": "https://en.wikipedia.org/wiki/Snap_Inc.",
+    "source_date": "2026-01-19"
+  }
+]
