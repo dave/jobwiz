@@ -1,0 +1,185 @@
+{
+  "slug": "company-bain",
+  "type": "company",
+  "title": "Bain & Company Interview Guide",
+  "description": "Prepare for your Bain & Company interview with company-specific insights, culture tips, and interview strategies.",
+  "company_slug": "bain",
+  "is_premium": true,
+  "display_order": 0,
+  "sections": [
+    {
+      "id": "culture",
+      "title": "Bain & Company Culture",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "Understanding Bain & Company's culture is essential for interview success. Companies look for candidates who align with their values and can thrive in their environment."
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Key cultural themes at Bain & Company:**\n\n- System design emphasis\n- Technical deep dive\n- Case study format"
+          }
+        },
+        {
+          "type": "tip",
+          "content": {
+            "text": "Consulting firms assess problem-solving, communication, and client presence. Practice structuring your thoughts and presenting complex ideas clearly."
+          }
+        }
+      ]
+    },
+    {
+      "id": "values",
+      "title": "Bain & Company Values",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "Bain & Company evaluates candidates not just on skills, but on how well they embody the company's core values. Demonstrating alignment with these values can be the difference between a good and great interview."
+          }
+        },
+        {
+          "type": "checklist",
+          "content": {
+            "title": "Values Preparation Checklist",
+            "items": [
+              {
+                "id": "v1",
+                "text": "Research Bain & Company's stated mission and values",
+                "required": true
+              },
+              {
+                "id": "v2",
+                "text": "Prepare examples that demonstrate alignment with these values",
+                "required": true
+              },
+              {
+                "id": "v3",
+                "text": "Review recent company blog posts or leadership communications",
+                "required": false
+              },
+              {
+                "id": "v4",
+                "text": "Prepare structured answers using frameworks like MECE",
+                "required": true
+              }
+            ]
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "**Avoid these pitfalls:** Interviewers notice when candidates don't demonstrate genuine alignment with company values. Be authentic in your responses."
+          }
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "title": "Bain & Company Interview Process",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "**Bain & Company Interview Process Overview**\n\n- **Typical rounds:** 1 rounds typical\n- **Timeline:** 2-4 weeks\n- **Format:** Mix of technical"
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Common Interview Questions:**\n\n- \"Argh I don't know why I went for an art degree, what was I thinking!?\""
+          }
+        },
+        {
+          "type": "checklist",
+          "content": {
+            "title": "Interview Process Preparation",
+            "items": [
+              {
+                "id": "p1",
+                "text": "Research recent company news and announcements",
+                "required": true
+              },
+              {
+                "id": "p2",
+                "text": "Review the job description thoroughly",
+                "required": true
+              },
+              {
+                "id": "p3",
+                "text": "Prepare questions to ask your interviewer",
+                "required": true
+              },
+              {
+                "id": "p4",
+                "text": "Practice explaining your relevant experience",
+                "required": true
+              },
+              {
+                "id": "p5",
+                "text": "Set up your interview environment (for virtual)",
+                "required": false
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "tips",
+      "title": "Bain & Company Interview Tips",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "Success in Bain & Company interviews comes from preparation, authenticity, and understanding what interviewers are looking for."
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Insider Tips:**\n\n- if you think you don't have a marketable degree, don't fret! All that matters is how you present yourself and if you can convince your recruiters/inte\n- would be greatly appreciated\n- I would alienate potential employers)\n- always feel that way about everything and I always view everything with skepticism\n- never going to perform harder on a project than they are for advocating for themselves when it comes to s"
+          }
+        },
+        {
+          "type": "tip",
+          "content": {
+            "text": "Practice case interviews extensively if relevant to your role. Structure and communication are often as important as the final answer."
+          }
+        },
+        {
+          "type": "quiz",
+          "content": {
+            "question": "What is the most important factor in Bain & Company interviews?",
+            "options": [
+              {
+                "id": "a",
+                "text": "Having perfect technical answers",
+                "isCorrect": false
+              },
+              {
+                "id": "b",
+                "text": "Demonstrating alignment with company values and culture",
+                "isCorrect": true
+              },
+              {
+                "id": "c",
+                "text": "Memorizing common interview questions",
+                "isCorrect": false
+              },
+              {
+                "id": "d",
+                "text": "Having a prestigious background",
+                "isCorrect": false
+              }
+            ],
+            "explanation": "While technical skills matter, Bain & Company places significant emphasis on cultural fit and values alignment. Interviewers want to see that you'll thrive in their environment."
+          }
+        }
+      ]
+    }
+  ]
+}

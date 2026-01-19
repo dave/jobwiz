@@ -1,0 +1,185 @@
+{
+  "slug": "company-atlassian",
+  "type": "company",
+  "title": "Atlassian Interview Guide",
+  "description": "Prepare for your Atlassian interview with company-specific insights, culture tips, and interview strategies.",
+  "company_slug": "atlassian",
+  "is_premium": true,
+  "display_order": 0,
+  "sections": [
+    {
+      "id": "culture",
+      "title": "Atlassian Culture",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "Understanding Atlassian's culture is essential for interview success. Companies look for candidates who align with their values and can thrive in their environment."
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Key cultural themes at Atlassian:**\n\n- System design emphasis\n- Heavy focus on coding\n- Behavioral interviews important\n- Culture fit matters\n- Multiple interview rounds"
+          }
+        },
+        {
+          "type": "tip",
+          "content": {
+            "text": "Enterprise companies value customer success thinking and long-term relationship building. Show how you've driven adoption and retention."
+          }
+        }
+      ]
+    },
+    {
+      "id": "values",
+      "title": "Atlassian Values",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "Atlassian evaluates candidates not just on skills, but on how well they embody the company's core values. Demonstrating alignment with these values can be the difference between a good and great interview."
+          }
+        },
+        {
+          "type": "checklist",
+          "content": {
+            "title": "Values Preparation Checklist",
+            "items": [
+              {
+                "id": "v1",
+                "text": "Research Atlassian's stated mission and values",
+                "required": true
+              },
+              {
+                "id": "v2",
+                "text": "Prepare examples that demonstrate alignment with these values",
+                "required": true
+              },
+              {
+                "id": "v3",
+                "text": "Review recent company blog posts or leadership communications",
+                "required": false
+              },
+              {
+                "id": "v4",
+                "text": "Prepare examples of building long-term relationships",
+                "required": true
+              }
+            ]
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "**Avoid these pitfalls:** Interviewers notice when candidates don't demonstrate genuine alignment with company values. Be authentic in your responses."
+          }
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "title": "Atlassian Interview Process",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "**Atlassian Interview Process Overview**\n\n- **Typical rounds:** 3 rounds typical\n- **Timeline:** 2-4 weeks\n- **Format:** Mix of phone screen, technical, behavioral, on-site, virtual"
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Common Interview Questions:**\n\n- \"What's your biggest weakness?\"\n- \"Why can't this happen to me?\"\n- \"and how many? Also, do you have any recommended sources for preparation?\"\n- \"Describe distributed systems and microservice architecture and have you worked with them?\"\n- \"how would you get access keys and secret keys?\""
+          }
+        },
+        {
+          "type": "checklist",
+          "content": {
+            "title": "Interview Process Preparation",
+            "items": [
+              {
+                "id": "p1",
+                "text": "Research recent company news and announcements",
+                "required": true
+              },
+              {
+                "id": "p2",
+                "text": "Review the job description thoroughly",
+                "required": true
+              },
+              {
+                "id": "p3",
+                "text": "Prepare questions to ask your interviewer",
+                "required": true
+              },
+              {
+                "id": "p4",
+                "text": "Practice explaining your relevant experience",
+                "required": true
+              },
+              {
+                "id": "p5",
+                "text": "Set up your interview environment (for virtual)",
+                "required": false
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "tips",
+      "title": "Atlassian Interview Tips",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "Success in Atlassian interviews comes from preparation, authenticity, and understanding what interviewers are looking for."
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Insider Tips:**\n\n- your results may vary\n- making this a priority since it's something under your control and you can use it to your advantage\n- you ask the recruiter about this\n- ahead: Know how to **effectively** talk about your weaknesses and past failures\n- trying to talk about your weaknesses as personal concerns about the company and how you see yourself performing there"
+          }
+        },
+        {
+          "type": "tip",
+          "content": {
+            "text": "Emphasize your understanding of the B2B sales cycle and customer success metrics. Enterprise companies value long-term thinking."
+          }
+        },
+        {
+          "type": "quiz",
+          "content": {
+            "question": "What is the most important factor in Atlassian interviews?",
+            "options": [
+              {
+                "id": "a",
+                "text": "Having perfect technical answers",
+                "isCorrect": false
+              },
+              {
+                "id": "b",
+                "text": "Demonstrating alignment with company values and culture",
+                "isCorrect": true
+              },
+              {
+                "id": "c",
+                "text": "Memorizing common interview questions",
+                "isCorrect": false
+              },
+              {
+                "id": "d",
+                "text": "Having a prestigious background",
+                "isCorrect": false
+              }
+            ],
+            "explanation": "While technical skills matter, Atlassian places significant emphasis on cultural fit and values alignment. Interviewers want to see that you'll thrive in their environment."
+          }
+        }
+      ]
+    }
+  ]
+}

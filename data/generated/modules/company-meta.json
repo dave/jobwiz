@@ -1,0 +1,185 @@
+{
+  "slug": "company-meta",
+  "type": "company",
+  "title": "Meta Interview Guide",
+  "description": "Prepare for your Meta interview with company-specific insights, culture tips, and interview strategies.",
+  "company_slug": "meta",
+  "is_premium": true,
+  "display_order": 0,
+  "sections": [
+    {
+      "id": "culture",
+      "title": "Meta Culture",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "Understanding Meta's culture is essential for interview success. Companies look for candidates who align with their values and can thrive in their environment."
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Key cultural themes at Meta:**\n\n- System design emphasis\n- Heavy focus on coding\n- Behavioral interviews important\n- Culture fit matters\n- Technical deep dive"
+          }
+        },
+        {
+          "type": "tip",
+          "content": {
+            "text": "Big Tech companies value innovation, scalability thinking, and data-driven decision making. Be prepared to discuss how you've handled ambiguity and driven impact at scale."
+          }
+        }
+      ]
+    },
+    {
+      "id": "values",
+      "title": "Meta Values",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "Meta evaluates candidates not just on skills, but on how well they embody the company's core values. Demonstrating alignment with these values can be the difference between a good and great interview."
+          }
+        },
+        {
+          "type": "checklist",
+          "content": {
+            "title": "Values Preparation Checklist",
+            "items": [
+              {
+                "id": "v1",
+                "text": "Research Meta's stated mission and values",
+                "required": true
+              },
+              {
+                "id": "v2",
+                "text": "Prepare examples that demonstrate alignment with these values",
+                "required": true
+              },
+              {
+                "id": "v3",
+                "text": "Review recent company blog posts or leadership communications",
+                "required": false
+              },
+              {
+                "id": "v4",
+                "text": "Prepare examples of driving impact at scale",
+                "required": true
+              }
+            ]
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "**Avoid these pitfalls:** Interviewers notice when candidates don't demonstrate genuine alignment with company values. Be authentic in your responses."
+          }
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "title": "Meta Interview Process",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "**Meta Interview Process Overview**\n\n- **Typical rounds:** 4 rounds typical\n- **Timeline:** 2-4 weeks\n- **Format:** Mix of phone screen, technical, behavioral, on-site, virtual"
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Common Interview Questions:**\n\n- \"When did Blind turn into Reddit?\"\n- \"you need to gain some skills before you can get a living wage. Have you tried moving out into   the farthest end of North Dakota and working on an oil rig for two years?\"\n- \"What does a Creative Writer at Meta even mean?\"\n- \"I'm waiting for the interview. When will you call me? Or is there a link?\"\n- \"how would you solve the same problem without parent pointers but with the root node instead?\""
+          }
+        },
+        {
+          "type": "checklist",
+          "content": {
+            "title": "Interview Process Preparation",
+            "items": [
+              {
+                "id": "p1",
+                "text": "Research recent company news and announcements",
+                "required": true
+              },
+              {
+                "id": "p2",
+                "text": "Review the job description thoroughly",
+                "required": true
+              },
+              {
+                "id": "p3",
+                "text": "Prepare questions to ask your interviewer",
+                "required": true
+              },
+              {
+                "id": "p4",
+                "text": "Practice explaining your relevant experience",
+                "required": true
+              },
+              {
+                "id": "p5",
+                "text": "Set up your interview environment (for virtual)",
+                "required": false
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "tips",
+      "title": "Meta Interview Tips",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "Success in Meta interviews comes from preparation, authenticity, and understanding what interviewers are looking for."
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Insider Tips:**\n\n- I could give for the sake of mental health it is this\n- this sequence of processing coding problems as it really helped me:\n- or a structured set of expectations for what interviewers expect you to be able to accomplish? I just don't know where to start\n- interviewer agrees with your approach before coding\n- is don’t try to get pushed up too soon"
+          }
+        },
+        {
+          "type": "tip",
+          "content": {
+            "text": "Research the specific team or product area you're interviewing for. Showing genuine interest in their work demonstrates that you've done your homework."
+          }
+        },
+        {
+          "type": "quiz",
+          "content": {
+            "question": "What is the most important factor in Meta interviews?",
+            "options": [
+              {
+                "id": "a",
+                "text": "Having perfect technical answers",
+                "isCorrect": false
+              },
+              {
+                "id": "b",
+                "text": "Demonstrating alignment with company values and culture",
+                "isCorrect": true
+              },
+              {
+                "id": "c",
+                "text": "Memorizing common interview questions",
+                "isCorrect": false
+              },
+              {
+                "id": "d",
+                "text": "Having a prestigious background",
+                "isCorrect": false
+              }
+            ],
+            "explanation": "While technical skills matter, Meta places significant emphasis on cultural fit and values alignment. Interviewers want to see that you'll thrive in their environment."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "slug": "company-best-buy",
+  "type": "company",
+  "title": "Best Buy Interview Guide",
+  "description": "Prepare for your Best Buy interview with company-specific insights, culture tips, and interview strategies.",
+  "company_slug": "best-buy",
+  "is_premium": true,
+  "display_order": 0,
+  "sections": [
+    {
+      "id": "culture",
+      "title": "Best Buy Culture",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "Understanding Best Buy's culture is essential for interview success. Companies look for candidates who align with their values and can thrive in their environment."
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Key cultural themes at Best Buy:**\n\n- System design emphasis\n- Heavy focus on coding\n- Behavioral interviews important\n- Culture fit matters\n- Technical deep dive"
+          }
+        },
+        {
+          "type": "tip",
+          "content": {
+            "text": "Retail and e-commerce companies focus on customer obsession and operational excellence. Show how you've improved customer experiences or optimized processes."
+          }
+        }
+      ]
+    },
+    {
+      "id": "values",
+      "title": "Best Buy Values",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "Best Buy evaluates candidates not just on skills, but on how well they embody the company's core values. Demonstrating alignment with these values can be the difference between a good and great interview."
+          }
+        },
+        {
+          "type": "checklist",
+          "content": {
+            "title": "Values Preparation Checklist",
+            "items": [
+              {
+                "id": "v1",
+                "text": "Research Best Buy's stated mission and values",
+                "required": true
+              },
+              {
+                "id": "v2",
+                "text": "Prepare examples that demonstrate alignment with these values",
+                "required": true
+              },
+              {
+                "id": "v3",
+                "text": "Review recent company blog posts or leadership communications",
+                "required": false
+              },
+              {
+                "id": "v4",
+                "text": "Prepare examples of customer-focused decisions",
+                "required": true
+              }
+            ]
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "**Avoid these pitfalls:** Interviewers notice when candidates don't demonstrate genuine alignment with company values. Be authentic in your responses."
+          }
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "title": "Best Buy Interview Process",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "**Best Buy Interview Process Overview**\n\n- **Typical rounds:** 3 rounds typical\n- **Timeline:** 8 weeks\n- **Format:** Mix of phone screen, technical, behavioral, on-site, virtual"
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Common Interview Questions:**\n\n- \"have you signed up for LinkedIn?\"\n- \"fake it till you make it?\"\n- \"what are your pain points?\"\n- \"can I give you more challenging tasks here, so that you'll get good?\"\n- \"how can I come up with this solution?\""
+          }
+        },
+        {
+          "type": "checklist",
+          "content": {
+            "title": "Interview Process Preparation",
+            "items": [
+              {
+                "id": "p1",
+                "text": "Research recent company news and announcements",
+                "required": true
+              },
+              {
+                "id": "p2",
+                "text": "Review the job description thoroughly",
+                "required": true
+              },
+              {
+                "id": "p3",
+                "text": "Prepare questions to ask your interviewer",
+                "required": true
+              },
+              {
+                "id": "p4",
+                "text": "Practice explaining your relevant experience",
+                "required": true
+              },
+              {
+                "id": "p5",
+                "text": "Set up your interview environment (for virtual)",
+                "required": false
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "tips",
+      "title": "Best Buy Interview Tips",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "Success in Best Buy interviews comes from preparation, authenticity, and understanding what interviewers are looking for."
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Insider Tips:**\n\n- about being a 3D person, in particular the hobbies\n- you mention core skills utilized/learned\n- for people who are \"worried\"\n- for the people going through the following stressful situations/tragedies -\n- and story! I can really tell you put your heart and soul into trying to help the rest of us and avoid the pitfalls of life"
+          }
+        },
+        {
+          "type": "tip",
+          "content": {
+            "text": "Think about the customer experience at every step. Bring examples of how you've improved user satisfaction or conversion rates."
+          }
+        },
+        {
+          "type": "quiz",
+          "content": {
+            "question": "What is the most important factor in Best Buy interviews?",
+            "options": [
+              {
+                "id": "a",
+                "text": "Having perfect technical answers",
+                "isCorrect": false
+              },
+              {
+                "id": "b",
+                "text": "Demonstrating alignment with company values and culture",
+                "isCorrect": true
+              },
+              {
+                "id": "c",
+                "text": "Memorizing common interview questions",
+                "isCorrect": false
+              },
+              {
+                "id": "d",
+                "text": "Having a prestigious background",
+                "isCorrect": false
+              }
+            ],
+            "explanation": "While technical skills matter, Best Buy places significant emphasis on cultural fit and values alignment. Interviewers want to see that you'll thrive in their environment."
+          }
+        }
+      ]
+    }
+  ]
+}

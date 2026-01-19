@@ -1,0 +1,185 @@
+{
+  "slug": "company-cvs-health",
+  "type": "company",
+  "title": "CVS Health Interview Guide",
+  "description": "Prepare for your CVS Health interview with company-specific insights, culture tips, and interview strategies.",
+  "company_slug": "cvs-health",
+  "is_premium": true,
+  "display_order": 0,
+  "sections": [
+    {
+      "id": "culture",
+      "title": "CVS Health Culture",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "Understanding CVS Health's culture is essential for interview success. Companies look for candidates who align with their values and can thrive in their environment."
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Key cultural themes at CVS Health:**\n\n- Behavioral interviews important\n- Case study format\n- Multiple interview rounds"
+          }
+        },
+        {
+          "type": "tip",
+          "content": {
+            "text": "Healthcare companies prioritize patient impact and regulatory compliance. Demonstrate your understanding of the sensitive nature of healthcare data and decisions."
+          }
+        }
+      ]
+    },
+    {
+      "id": "values",
+      "title": "CVS Health Values",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "CVS Health evaluates candidates not just on skills, but on how well they embody the company's core values. Demonstrating alignment with these values can be the difference between a good and great interview."
+          }
+        },
+        {
+          "type": "checklist",
+          "content": {
+            "title": "Values Preparation Checklist",
+            "items": [
+              {
+                "id": "v1",
+                "text": "Research CVS Health's stated mission and values",
+                "required": true
+              },
+              {
+                "id": "v2",
+                "text": "Prepare examples that demonstrate alignment with these values",
+                "required": true
+              },
+              {
+                "id": "v3",
+                "text": "Review recent company blog posts or leadership communications",
+                "required": false
+              },
+              {
+                "id": "v4",
+                "text": "Prepare examples showing patient-first thinking",
+                "required": true
+              }
+            ]
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "**Avoid these pitfalls:** Interviewers notice when candidates don't demonstrate genuine alignment with company values. Be authentic in your responses."
+          }
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "title": "CVS Health Interview Process",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "**CVS Health Interview Process Overview**\n\n- **Typical rounds:** 1 rounds typical\n- **Timeline:** 2-4 weeks\n- **Format:** Mix of technical, behavioral, virtual"
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Common Interview Questions:**\n\n- \"I see you work at CVS, what do you currently make and what would it take for you leave?\"\n- \"What is your degree in?\""
+          }
+        },
+        {
+          "type": "checklist",
+          "content": {
+            "title": "Interview Process Preparation",
+            "items": [
+              {
+                "id": "p1",
+                "text": "Research recent company news and announcements",
+                "required": true
+              },
+              {
+                "id": "p2",
+                "text": "Review the job description thoroughly",
+                "required": true
+              },
+              {
+                "id": "p3",
+                "text": "Prepare questions to ask your interviewer",
+                "required": true
+              },
+              {
+                "id": "p4",
+                "text": "Practice explaining your relevant experience",
+                "required": true
+              },
+              {
+                "id": "p5",
+                "text": "Set up your interview environment (for virtual)",
+                "required": false
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "tips",
+      "title": "CVS Health Interview Tips",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "Success in CVS Health interviews comes from preparation, authenticity, and understanding what interviewers are looking for."
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Insider Tips:**\n\n- trying to talk it out first\n- that you let the other job know once you have made a final, for-sure decision so that they can move on and hire the next person in line\n- your LinkedIn profile is to update\n- always comes around again and then bad again, so on and so forth until the end of time\n- never finish because I feel guilty"
+          }
+        },
+        {
+          "type": "tip",
+          "content": {
+            "text": "Understand the regulatory landscape and patient privacy requirements. Show that you can innovate responsibly within constraints."
+          }
+        },
+        {
+          "type": "quiz",
+          "content": {
+            "question": "What is the most important factor in CVS Health interviews?",
+            "options": [
+              {
+                "id": "a",
+                "text": "Having perfect technical answers",
+                "isCorrect": false
+              },
+              {
+                "id": "b",
+                "text": "Demonstrating alignment with company values and culture",
+                "isCorrect": true
+              },
+              {
+                "id": "c",
+                "text": "Memorizing common interview questions",
+                "isCorrect": false
+              },
+              {
+                "id": "d",
+                "text": "Having a prestigious background",
+                "isCorrect": false
+              }
+            ],
+            "explanation": "While technical skills matter, CVS Health places significant emphasis on cultural fit and values alignment. Interviewers want to see that you'll thrive in their environment."
+          }
+        }
+      ]
+    }
+  ]
+}

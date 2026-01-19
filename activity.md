@@ -2251,3 +2251,36 @@ All Stage 5 (Launch) code issues are now closed:
 - `npm run type-check` - passes with no errors
 - `npm run build` - successful production build
 - `npm test` - 1852 passed, 2 todo
+
+---
+
+## Stage 8 Progress
+
+### 2026-01-18 - Issue #121: A1: Company module generator script
+
+**Completed:**
+- Created `/scripts/generate-company-modules.ts` script
+- Reads 105 companies from `/data/search_volume.json`
+- Pulls analysis data from `/data/generated/analysis/{company}.json` when available
+- Generates 4 sections per module: culture, values, process, tips
+- Outputs to `/data/generated/modules/company-{slug}.json`
+- Sets `is_premium: true` and `type: "company"` for all modules
+- Generates minimal content when no analysis data exists
+- Supports `--dry-run`, `--company=X`, and `--help` flags
+
+**Features:**
+- Category-specific insights (Big Tech, Startups, Finance, Consulting, etc.)
+- Extracts themes, common questions, and tips from analysis data
+- Generates checklists for values and process preparation
+- Includes quiz block in tips section
+- 99 companies have analysis data, 6 without
+
+**Files Created:**
+- `scripts/generate-company-modules.ts`
+- `data/generated/modules/company-*.json` (105 files)
+
+**Verification:**
+- `npx tsx scripts/generate-company-modules.ts --dry-run` - Shows 105 modules
+- `npm run lint` - passes with no errors
+- `npm run type-check` - passes with no errors
+- Generated modules have correct structure with all required fields

@@ -1,0 +1,185 @@
+{
+  "slug": "company-tiktok",
+  "type": "company",
+  "title": "TikTok Interview Guide",
+  "description": "Prepare for your TikTok interview with company-specific insights, culture tips, and interview strategies.",
+  "company_slug": "tiktok",
+  "is_premium": true,
+  "display_order": 0,
+  "sections": [
+    {
+      "id": "culture",
+      "title": "TikTok Culture",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "Understanding TikTok's culture is essential for interview success. Companies look for candidates who align with their values and can thrive in their environment."
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Key cultural themes at TikTok:**\n\n- System design emphasis\n- Heavy focus on coding\n- Behavioral interviews important\n- Culture fit matters\n- Technical deep dive"
+          }
+        },
+        {
+          "type": "tip",
+          "content": {
+            "text": "Media companies look for creativity balanced with data-driven thinking. Demonstrate your ability to innovate while measuring impact."
+          }
+        }
+      ]
+    },
+    {
+      "id": "values",
+      "title": "TikTok Values",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "TikTok evaluates candidates not just on skills, but on how well they embody the company's core values. Demonstrating alignment with these values can be the difference between a good and great interview."
+          }
+        },
+        {
+          "type": "checklist",
+          "content": {
+            "title": "Values Preparation Checklist",
+            "items": [
+              {
+                "id": "v1",
+                "text": "Research TikTok's stated mission and values",
+                "required": true
+              },
+              {
+                "id": "v2",
+                "text": "Prepare examples that demonstrate alignment with these values",
+                "required": true
+              },
+              {
+                "id": "v3",
+                "text": "Review recent company blog posts or leadership communications",
+                "required": false
+              },
+              {
+                "id": "v4",
+                "text": "Prepare examples balancing creativity and metrics",
+                "required": true
+              }
+            ]
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "**Avoid these pitfalls:** Interviewers notice when candidates don't demonstrate genuine alignment with company values. Be authentic in your responses."
+          }
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "title": "TikTok Interview Process",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "**TikTok Interview Process Overview**\n\n- **Typical rounds:** 3 rounds typical\n- **Timeline:** 6 weeks\n- **Format:** Mix of phone screen, technical, behavioral, on-site, virtual"
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Common Interview Questions:**\n\n- \"should I use LinkedIn???\"\n- \"So do you know what we do at our company XYZ?\"\n- \"Can you multitask?\"\n- \"How do you handle stress/challenges?\"\n- \"What's your biggest weakness?\""
+          }
+        },
+        {
+          "type": "checklist",
+          "content": {
+            "title": "Interview Process Preparation",
+            "items": [
+              {
+                "id": "p1",
+                "text": "Research recent company news and announcements",
+                "required": true
+              },
+              {
+                "id": "p2",
+                "text": "Review the job description thoroughly",
+                "required": true
+              },
+              {
+                "id": "p3",
+                "text": "Prepare questions to ask your interviewer",
+                "required": true
+              },
+              {
+                "id": "p4",
+                "text": "Practice explaining your relevant experience",
+                "required": true
+              },
+              {
+                "id": "p5",
+                "text": "Set up your interview environment (for virtual)",
+                "required": false
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "tips",
+      "title": "TikTok Interview Tips",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "Success in TikTok interviews comes from preparation, authenticity, and understanding what interviewers are looking for."
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Insider Tips:**\n\n- over a mistake they made\n- on any other platform like TikTok or IG, I think people don’t know how to practice\n- to cover things like: Where you started your professional career, what you've learned along the way, and why this role makes sense for you now\n- they can trust that you won't make the same mistake again\n- you can make progress towards and successfully meet objectives"
+          }
+        },
+        {
+          "type": "tip",
+          "content": {
+            "text": "Balance creativity with business impact. Show that you can think both artistically and analytically about content and engagement."
+          }
+        },
+        {
+          "type": "quiz",
+          "content": {
+            "question": "What is the most important factor in TikTok interviews?",
+            "options": [
+              {
+                "id": "a",
+                "text": "Having perfect technical answers",
+                "isCorrect": false
+              },
+              {
+                "id": "b",
+                "text": "Demonstrating alignment with company values and culture",
+                "isCorrect": true
+              },
+              {
+                "id": "c",
+                "text": "Memorizing common interview questions",
+                "isCorrect": false
+              },
+              {
+                "id": "d",
+                "text": "Having a prestigious background",
+                "isCorrect": false
+              }
+            ],
+            "explanation": "While technical skills matter, TikTok places significant emphasis on cultural fit and values alignment. Interviewers want to see that you'll thrive in their environment."
+          }
+        }
+      ]
+    }
+  ]
+}

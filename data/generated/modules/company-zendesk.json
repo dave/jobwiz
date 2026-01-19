@@ -1,0 +1,179 @@
+{
+  "slug": "company-zendesk",
+  "type": "company",
+  "title": "Zendesk Interview Guide",
+  "description": "Prepare for your Zendesk interview with company-specific insights, culture tips, and interview strategies.",
+  "company_slug": "zendesk",
+  "is_premium": true,
+  "display_order": 0,
+  "sections": [
+    {
+      "id": "culture",
+      "title": "Zendesk Culture",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "Understanding Zendesk's culture is essential for interview success. Companies look for candidates who align with their values and can thrive in their environment."
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Key cultural themes at Zendesk:**\n\n- Behavioral interviews important\n- Virtual interviews"
+          }
+        },
+        {
+          "type": "tip",
+          "content": {
+            "text": "Enterprise companies value customer success thinking and long-term relationship building. Show how you've driven adoption and retention."
+          }
+        }
+      ]
+    },
+    {
+      "id": "values",
+      "title": "Zendesk Values",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "Zendesk evaluates candidates not just on skills, but on how well they embody the company's core values. Demonstrating alignment with these values can be the difference between a good and great interview."
+          }
+        },
+        {
+          "type": "checklist",
+          "content": {
+            "title": "Values Preparation Checklist",
+            "items": [
+              {
+                "id": "v1",
+                "text": "Research Zendesk's stated mission and values",
+                "required": true
+              },
+              {
+                "id": "v2",
+                "text": "Prepare examples that demonstrate alignment with these values",
+                "required": true
+              },
+              {
+                "id": "v3",
+                "text": "Review recent company blog posts or leadership communications",
+                "required": false
+              },
+              {
+                "id": "v4",
+                "text": "Prepare examples of building long-term relationships",
+                "required": true
+              }
+            ]
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "**Avoid these pitfalls:** Interviewers notice when candidates don't demonstrate genuine alignment with company values. Be authentic in your responses."
+          }
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "title": "Zendesk Interview Process",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "**Zendesk Interview Process Overview**\n\n- **Typical rounds:** 3-5 rounds typical\n- **Timeline:** 2-4 weeks\n- **Format:** Mix of technical, behavioral, virtual"
+          }
+        },
+        {
+          "type": "checklist",
+          "content": {
+            "title": "Interview Process Preparation",
+            "items": [
+              {
+                "id": "p1",
+                "text": "Research recent company news and announcements",
+                "required": true
+              },
+              {
+                "id": "p2",
+                "text": "Review the job description thoroughly",
+                "required": true
+              },
+              {
+                "id": "p3",
+                "text": "Prepare questions to ask your interviewer",
+                "required": true
+              },
+              {
+                "id": "p4",
+                "text": "Practice explaining your relevant experience",
+                "required": true
+              },
+              {
+                "id": "p5",
+                "text": "Set up your interview environment (for virtual)",
+                "required": false
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "tips",
+      "title": "Zendesk Interview Tips",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "Success in Zendesk interviews comes from preparation, authenticity, and understanding what interviewers are looking for."
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Insider Tips:**\n\n- to get your AWS certs\n- never been in an interview like this before\n- always understood me just fine\n- always create a sock account under a different name\n- never really interviewed for it"
+          }
+        },
+        {
+          "type": "tip",
+          "content": {
+            "text": "Emphasize your understanding of the B2B sales cycle and customer success metrics. Enterprise companies value long-term thinking."
+          }
+        },
+        {
+          "type": "quiz",
+          "content": {
+            "question": "What is the most important factor in Zendesk interviews?",
+            "options": [
+              {
+                "id": "a",
+                "text": "Having perfect technical answers",
+                "isCorrect": false
+              },
+              {
+                "id": "b",
+                "text": "Demonstrating alignment with company values and culture",
+                "isCorrect": true
+              },
+              {
+                "id": "c",
+                "text": "Memorizing common interview questions",
+                "isCorrect": false
+              },
+              {
+                "id": "d",
+                "text": "Having a prestigious background",
+                "isCorrect": false
+              }
+            ],
+            "explanation": "While technical skills matter, Zendesk places significant emphasis on cultural fit and values alignment. Interviewers want to see that you'll thrive in their environment."
+          }
+        }
+      ]
+    }
+  ]
+}

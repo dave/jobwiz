@@ -1,0 +1,173 @@
+{
+  "slug": "company-lululemon",
+  "type": "company",
+  "title": "Lululemon Interview Guide",
+  "description": "Prepare for your Lululemon interview with company-specific insights, culture tips, and interview strategies.",
+  "company_slug": "lululemon",
+  "is_premium": true,
+  "display_order": 0,
+  "sections": [
+    {
+      "id": "culture",
+      "title": "Lululemon Culture",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "Understanding Lululemon's culture is essential for interview success. Companies look for candidates who align with their values and can thrive in their environment."
+          }
+        },
+        {
+          "type": "tip",
+          "content": {
+            "text": "Retail and e-commerce companies focus on customer obsession and operational excellence. Show how you've improved customer experiences or optimized processes."
+          }
+        }
+      ]
+    },
+    {
+      "id": "values",
+      "title": "Lululemon Values",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "Lululemon evaluates candidates not just on skills, but on how well they embody the company's core values. Demonstrating alignment with these values can be the difference between a good and great interview."
+          }
+        },
+        {
+          "type": "checklist",
+          "content": {
+            "title": "Values Preparation Checklist",
+            "items": [
+              {
+                "id": "v1",
+                "text": "Research Lululemon's stated mission and values",
+                "required": true
+              },
+              {
+                "id": "v2",
+                "text": "Prepare examples that demonstrate alignment with these values",
+                "required": true
+              },
+              {
+                "id": "v3",
+                "text": "Review recent company blog posts or leadership communications",
+                "required": false
+              },
+              {
+                "id": "v4",
+                "text": "Prepare examples of customer-focused decisions",
+                "required": true
+              }
+            ]
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "**Avoid these pitfalls:** Interviewers notice when candidates don't demonstrate genuine alignment with company values. Be authentic in your responses."
+          }
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "title": "Lululemon Interview Process",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "**Lululemon Interview Process Overview**\n\n- **Typical rounds:** 3-5 rounds typical\n- **Timeline:** 2-4 weeks\n- **Format:** Mix of technical"
+          }
+        },
+        {
+          "type": "checklist",
+          "content": {
+            "title": "Interview Process Preparation",
+            "items": [
+              {
+                "id": "p1",
+                "text": "Research recent company news and announcements",
+                "required": true
+              },
+              {
+                "id": "p2",
+                "text": "Review the job description thoroughly",
+                "required": true
+              },
+              {
+                "id": "p3",
+                "text": "Prepare questions to ask your interviewer",
+                "required": true
+              },
+              {
+                "id": "p4",
+                "text": "Practice explaining your relevant experience",
+                "required": true
+              },
+              {
+                "id": "p5",
+                "text": "Set up your interview environment (for virtual)",
+                "required": false
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "tips",
+      "title": "Lululemon Interview Tips",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "Success in Lululemon interviews comes from preparation, authenticity, and understanding what interviewers are looking for."
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Insider Tips:**\n\n- trying to find junior level designers in your area at companies you’re targeting on LinkedIn and look at their portfolios to gauge what you need to do\n- is to tailor your portfolio\n- on what to wear, questions they asked, etc?\n- u have one Lululemon item on\n- it would be so appreicaited"
+          }
+        },
+        {
+          "type": "tip",
+          "content": {
+            "text": "Think about the customer experience at every step. Bring examples of how you've improved user satisfaction or conversion rates."
+          }
+        },
+        {
+          "type": "quiz",
+          "content": {
+            "question": "What is the most important factor in Lululemon interviews?",
+            "options": [
+              {
+                "id": "a",
+                "text": "Having perfect technical answers",
+                "isCorrect": false
+              },
+              {
+                "id": "b",
+                "text": "Demonstrating alignment with company values and culture",
+                "isCorrect": true
+              },
+              {
+                "id": "c",
+                "text": "Memorizing common interview questions",
+                "isCorrect": false
+              },
+              {
+                "id": "d",
+                "text": "Having a prestigious background",
+                "isCorrect": false
+              }
+            ],
+            "explanation": "While technical skills matter, Lululemon places significant emphasis on cultural fit and values alignment. Interviewers want to see that you'll thrive in their environment."
+          }
+        }
+      ]
+    }
+  ]
+}

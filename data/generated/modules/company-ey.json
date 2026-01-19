@@ -1,0 +1,185 @@
+{
+  "slug": "company-ey",
+  "type": "company",
+  "title": "EY Interview Guide",
+  "description": "Prepare for your EY interview with company-specific insights, culture tips, and interview strategies.",
+  "company_slug": "ey",
+  "is_premium": true,
+  "display_order": 0,
+  "sections": [
+    {
+      "id": "culture",
+      "title": "EY Culture",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "Understanding EY's culture is essential for interview success. Companies look for candidates who align with their values and can thrive in their environment."
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Key cultural themes at EY:**\n\n- System design emphasis\n- Heavy focus on coding\n- Behavioral interviews important\n- Culture fit matters\n- Case study format"
+          }
+        },
+        {
+          "type": "tip",
+          "content": {
+            "text": "Consulting firms assess problem-solving, communication, and client presence. Practice structuring your thoughts and presenting complex ideas clearly."
+          }
+        }
+      ]
+    },
+    {
+      "id": "values",
+      "title": "EY Values",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "EY evaluates candidates not just on skills, but on how well they embody the company's core values. Demonstrating alignment with these values can be the difference between a good and great interview."
+          }
+        },
+        {
+          "type": "checklist",
+          "content": {
+            "title": "Values Preparation Checklist",
+            "items": [
+              {
+                "id": "v1",
+                "text": "Research EY's stated mission and values",
+                "required": true
+              },
+              {
+                "id": "v2",
+                "text": "Prepare examples that demonstrate alignment with these values",
+                "required": true
+              },
+              {
+                "id": "v3",
+                "text": "Review recent company blog posts or leadership communications",
+                "required": false
+              },
+              {
+                "id": "v4",
+                "text": "Prepare structured answers using frameworks like MECE",
+                "required": true
+              }
+            ]
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "**Avoid these pitfalls:** Interviewers notice when candidates don't demonstrate genuine alignment with company values. Be authentic in your responses."
+          }
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "title": "EY Interview Process",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "**EY Interview Process Overview**\n\n- **Typical rounds:** 5 rounds typical\n- **Timeline:** 2-4 weeks\n- **Format:** Mix of technical, behavioral, on-site, virtual"
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Common Interview Questions:**\n\n- \"Tell us about your work experience for this job?\"\n- \"Tell me about yourself?\"\n- \"if I was reading from somewhere 😳 – anyone else faced this?\"\n- \"me, “Are you reading your answers from somewhere?\"\n- \"if you're reading or copying from somewhere in an interview?\""
+          }
+        },
+        {
+          "type": "checklist",
+          "content": {
+            "title": "Interview Process Preparation",
+            "items": [
+              {
+                "id": "p1",
+                "text": "Research recent company news and announcements",
+                "required": true
+              },
+              {
+                "id": "p2",
+                "text": "Review the job description thoroughly",
+                "required": true
+              },
+              {
+                "id": "p3",
+                "text": "Prepare questions to ask your interviewer",
+                "required": true
+              },
+              {
+                "id": "p4",
+                "text": "Practice explaining your relevant experience",
+                "required": true
+              },
+              {
+                "id": "p5",
+                "text": "Set up your interview environment (for virtual)",
+                "required": false
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "tips",
+      "title": "EY Interview Tips",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "Success in EY interviews comes from preparation, authenticity, and understanding what interviewers are looking for."
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Insider Tips:**\n\n- continue to interview and even field offers until you’ve passed the companies probation period\n- they get the right candidate than rush to fill positions that don’t ultimately work out, which could lead to layoffs\n- Can’t say much about the first two but I interned at Snap this past summer\n- will be much appreciated\n- on the process would be much appreciated!"
+          }
+        },
+        {
+          "type": "tip",
+          "content": {
+            "text": "Practice case interviews extensively if relevant to your role. Structure and communication are often as important as the final answer."
+          }
+        },
+        {
+          "type": "quiz",
+          "content": {
+            "question": "What is the most important factor in EY interviews?",
+            "options": [
+              {
+                "id": "a",
+                "text": "Having perfect technical answers",
+                "isCorrect": false
+              },
+              {
+                "id": "b",
+                "text": "Demonstrating alignment with company values and culture",
+                "isCorrect": true
+              },
+              {
+                "id": "c",
+                "text": "Memorizing common interview questions",
+                "isCorrect": false
+              },
+              {
+                "id": "d",
+                "text": "Having a prestigious background",
+                "isCorrect": false
+              }
+            ],
+            "explanation": "While technical skills matter, EY places significant emphasis on cultural fit and values alignment. Interviewers want to see that you'll thrive in their environment."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "slug": "company-apple",
+  "type": "company",
+  "title": "Apple Interview Guide",
+  "description": "Prepare for your Apple interview with company-specific insights, culture tips, and interview strategies.",
+  "company_slug": "apple",
+  "is_premium": true,
+  "display_order": 0,
+  "sections": [
+    {
+      "id": "culture",
+      "title": "Apple Culture",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "Understanding Apple's culture is essential for interview success. Companies look for candidates who align with their values and can thrive in their environment."
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Key cultural themes at Apple:**\n\n- System design emphasis\n- Heavy focus on coding\n- Behavioral interviews important\n- Culture fit matters\n- Technical deep dive"
+          }
+        },
+        {
+          "type": "tip",
+          "content": {
+            "text": "Big Tech companies value innovation, scalability thinking, and data-driven decision making. Be prepared to discuss how you've handled ambiguity and driven impact at scale."
+          }
+        }
+      ]
+    },
+    {
+      "id": "values",
+      "title": "Apple Values",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "Apple evaluates candidates not just on skills, but on how well they embody the company's core values. Demonstrating alignment with these values can be the difference between a good and great interview."
+          }
+        },
+        {
+          "type": "checklist",
+          "content": {
+            "title": "Values Preparation Checklist",
+            "items": [
+              {
+                "id": "v1",
+                "text": "Research Apple's stated mission and values",
+                "required": true
+              },
+              {
+                "id": "v2",
+                "text": "Prepare examples that demonstrate alignment with these values",
+                "required": true
+              },
+              {
+                "id": "v3",
+                "text": "Review recent company blog posts or leadership communications",
+                "required": false
+              },
+              {
+                "id": "v4",
+                "text": "Prepare examples of driving impact at scale",
+                "required": true
+              }
+            ]
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "**Avoid these pitfalls:** Interviewers notice when candidates don't demonstrate genuine alignment with company values. Be authentic in your responses."
+          }
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "title": "Apple Interview Process",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "**Apple Interview Process Overview**\n\n- **Typical rounds:** 3 rounds typical\n- **Timeline:** 2-4 weeks\n- **Format:** Mix of phone screen, technical, behavioral, on-site, virtual"
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Common Interview Questions:**\n\n- \"can you even read?\"\n- \"Why is that relevant to me or this job?\"\n- \"You just mentioned that you oversee two teams and nothing else. Can you elaborate a bit more about what teams you manage?\"\n- \"The job role description was a bit generic, can you please elaborate about the job role and what team the position is for?\"\n- \"Can you then tell me about the verification environment you use and what the day-to-day job role might look like?\""
+          }
+        },
+        {
+          "type": "checklist",
+          "content": {
+            "title": "Interview Process Preparation",
+            "items": [
+              {
+                "id": "p1",
+                "text": "Research recent company news and announcements",
+                "required": true
+              },
+              {
+                "id": "p2",
+                "text": "Review the job description thoroughly",
+                "required": true
+              },
+              {
+                "id": "p3",
+                "text": "Prepare questions to ask your interviewer",
+                "required": true
+              },
+              {
+                "id": "p4",
+                "text": "Practice explaining your relevant experience",
+                "required": true
+              },
+              {
+                "id": "p5",
+                "text": "Set up your interview environment (for virtual)",
+                "required": false
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "tips",
+      "title": "Apple Interview Tips",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "Success in Apple interviews comes from preparation, authenticity, and understanding what interviewers are looking for."
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Insider Tips:**\n\n- making friends with people in your class, or finding somebody else with a strong network and free-loading off of theirs (and buy them lunch or somethi\n- on what is going to be on the interview/what the hiring manager is like, etc\n- from someone with good tips &amp; actual success when applying to jobs gets downvoted but posts like \"I applied to 700 places and finally got an offer\n- to not sound arrogant\n- you *accept* in writing an offer from apple first before you tell your current boss"
+          }
+        },
+        {
+          "type": "tip",
+          "content": {
+            "text": "Research the specific team or product area you're interviewing for. Showing genuine interest in their work demonstrates that you've done your homework."
+          }
+        },
+        {
+          "type": "quiz",
+          "content": {
+            "question": "What is the most important factor in Apple interviews?",
+            "options": [
+              {
+                "id": "a",
+                "text": "Having perfect technical answers",
+                "isCorrect": false
+              },
+              {
+                "id": "b",
+                "text": "Demonstrating alignment with company values and culture",
+                "isCorrect": true
+              },
+              {
+                "id": "c",
+                "text": "Memorizing common interview questions",
+                "isCorrect": false
+              },
+              {
+                "id": "d",
+                "text": "Having a prestigious background",
+                "isCorrect": false
+              }
+            ],
+            "explanation": "While technical skills matter, Apple places significant emphasis on cultural fit and values alignment. Interviewers want to see that you'll thrive in their environment."
+          }
+        }
+      ]
+    }
+  ]
+}

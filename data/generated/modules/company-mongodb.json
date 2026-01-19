@@ -1,0 +1,185 @@
+{
+  "slug": "company-mongodb",
+  "type": "company",
+  "title": "MongoDB Interview Guide",
+  "description": "Prepare for your MongoDB interview with company-specific insights, culture tips, and interview strategies.",
+  "company_slug": "mongodb",
+  "is_premium": true,
+  "display_order": 0,
+  "sections": [
+    {
+      "id": "culture",
+      "title": "MongoDB Culture",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "Understanding MongoDB's culture is essential for interview success. Companies look for candidates who align with their values and can thrive in their environment."
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Key cultural themes at MongoDB:**\n\n- System design emphasis\n- Heavy focus on coding\n- Behavioral interviews important\n- Culture fit matters\n- Multiple interview rounds"
+          }
+        },
+        {
+          "type": "tip",
+          "content": {
+            "text": "Enterprise companies value customer success thinking and long-term relationship building. Show how you've driven adoption and retention."
+          }
+        }
+      ]
+    },
+    {
+      "id": "values",
+      "title": "MongoDB Values",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "MongoDB evaluates candidates not just on skills, but on how well they embody the company's core values. Demonstrating alignment with these values can be the difference between a good and great interview."
+          }
+        },
+        {
+          "type": "checklist",
+          "content": {
+            "title": "Values Preparation Checklist",
+            "items": [
+              {
+                "id": "v1",
+                "text": "Research MongoDB's stated mission and values",
+                "required": true
+              },
+              {
+                "id": "v2",
+                "text": "Prepare examples that demonstrate alignment with these values",
+                "required": true
+              },
+              {
+                "id": "v3",
+                "text": "Review recent company blog posts or leadership communications",
+                "required": false
+              },
+              {
+                "id": "v4",
+                "text": "Prepare examples of building long-term relationships",
+                "required": true
+              }
+            ]
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "**Avoid these pitfalls:** Interviewers notice when candidates don't demonstrate genuine alignment with company values. Be authentic in your responses."
+          }
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "title": "MongoDB Interview Process",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "**MongoDB Interview Process Overview**\n\n- **Typical rounds:** 3 rounds typical\n- **Timeline:** 2-4 weeks\n- **Format:** Mix of phone screen, technical, behavioral, virtual"
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Common Interview Questions:**\n\n- \"do you have any questions?\"\n- \"that either impressed the interviewer or revealed a red flag? For me, the low point will always be the time I ended an interview with: “So what exactly does this caree in this company do?\"\n- \"to come up with a solution to a problem with code?\"\n- \"at this stage? What kind of topics would you suggest I brush up on before the interview?\"\n- \"explain the concept of locking (Did not explain this one well but understand it now)?\""
+          }
+        },
+        {
+          "type": "checklist",
+          "content": {
+            "title": "Interview Process Preparation",
+            "items": [
+              {
+                "id": "p1",
+                "text": "Research recent company news and announcements",
+                "required": true
+              },
+              {
+                "id": "p2",
+                "text": "Review the job description thoroughly",
+                "required": true
+              },
+              {
+                "id": "p3",
+                "text": "Prepare questions to ask your interviewer",
+                "required": true
+              },
+              {
+                "id": "p4",
+                "text": "Practice explaining your relevant experience",
+                "required": true
+              },
+              {
+                "id": "p5",
+                "text": "Set up your interview environment (for virtual)",
+                "required": false
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "tips",
+      "title": "MongoDB Interview Tips",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "Success in MongoDB interviews comes from preparation, authenticity, and understanding what interviewers are looking for."
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Insider Tips:**\n\n- that you have multiple versions of your resume and you tailor it for each job you apply for\n- Airbnb! Nice, smart people, pre-IPO, beautiful office\n- Work on your portfolio if you haven't at least like 10 different webapps that you are proud of\n- to feel better about my situation\n- for getting that first internship/co-op position"
+          }
+        },
+        {
+          "type": "tip",
+          "content": {
+            "text": "Emphasize your understanding of the B2B sales cycle and customer success metrics. Enterprise companies value long-term thinking."
+          }
+        },
+        {
+          "type": "quiz",
+          "content": {
+            "question": "What is the most important factor in MongoDB interviews?",
+            "options": [
+              {
+                "id": "a",
+                "text": "Having perfect technical answers",
+                "isCorrect": false
+              },
+              {
+                "id": "b",
+                "text": "Demonstrating alignment with company values and culture",
+                "isCorrect": true
+              },
+              {
+                "id": "c",
+                "text": "Memorizing common interview questions",
+                "isCorrect": false
+              },
+              {
+                "id": "d",
+                "text": "Having a prestigious background",
+                "isCorrect": false
+              }
+            ],
+            "explanation": "While technical skills matter, MongoDB places significant emphasis on cultural fit and values alignment. Interviewers want to see that you'll thrive in their environment."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "slug": "company-dropbox",
+  "type": "company",
+  "title": "Dropbox Interview Guide",
+  "description": "Prepare for your Dropbox interview with company-specific insights, culture tips, and interview strategies.",
+  "company_slug": "dropbox",
+  "is_premium": true,
+  "display_order": 0,
+  "sections": [
+    {
+      "id": "culture",
+      "title": "Dropbox Culture",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "Understanding Dropbox's culture is essential for interview success. Companies look for candidates who align with their values and can thrive in their environment."
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Key cultural themes at Dropbox:**\n\n- System design emphasis\n- Heavy focus on coding\n- Multiple interview rounds\n- Take-home assignment\n- Virtual interviews"
+          }
+        },
+        {
+          "type": "tip",
+          "content": {
+            "text": "Startups look for candidates who can wear multiple hats, move fast, and thrive in uncertainty. Emphasize your adaptability and ownership mentality."
+          }
+        }
+      ]
+    },
+    {
+      "id": "values",
+      "title": "Dropbox Values",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "Dropbox evaluates candidates not just on skills, but on how well they embody the company's core values. Demonstrating alignment with these values can be the difference between a good and great interview."
+          }
+        },
+        {
+          "type": "checklist",
+          "content": {
+            "title": "Values Preparation Checklist",
+            "items": [
+              {
+                "id": "v1",
+                "text": "Research Dropbox's stated mission and values",
+                "required": true
+              },
+              {
+                "id": "v2",
+                "text": "Prepare examples that demonstrate alignment with these values",
+                "required": true
+              },
+              {
+                "id": "v3",
+                "text": "Review recent company blog posts or leadership communications",
+                "required": false
+              },
+              {
+                "id": "v4",
+                "text": "Prepare examples of working in ambiguous situations",
+                "required": true
+              }
+            ]
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "**Avoid these pitfalls:** Interviewers notice when candidates don't demonstrate genuine alignment with company values. Be authentic in your responses."
+          }
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "title": "Dropbox Interview Process",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "**Dropbox Interview Process Overview**\n\n- **Typical rounds:** 3 rounds typical\n- **Timeline:** 2-4 weeks\n- **Format:** Mix of technical, on-site, virtual"
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Common Interview Questions:**\n\n- \"what's with the degree in X?\"\n- \"how do you feel a degree in X helps you in this line of work?\"\n- \"you've only been working for a couple of years?\"\n- \"Why do you keep going back to contract jobs?\""
+          }
+        },
+        {
+          "type": "checklist",
+          "content": {
+            "title": "Interview Process Preparation",
+            "items": [
+              {
+                "id": "p1",
+                "text": "Research recent company news and announcements",
+                "required": true
+              },
+              {
+                "id": "p2",
+                "text": "Review the job description thoroughly",
+                "required": true
+              },
+              {
+                "id": "p3",
+                "text": "Prepare questions to ask your interviewer",
+                "required": true
+              },
+              {
+                "id": "p4",
+                "text": "Practice explaining your relevant experience",
+                "required": true
+              },
+              {
+                "id": "p5",
+                "text": "Set up your interview environment (for virtual)",
+                "required": false
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "tips",
+      "title": "Dropbox Interview Tips",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "Success in Dropbox interviews comes from preparation, authenticity, and understanding what interviewers are looking for."
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Insider Tips:**\n\n- about their applications and job search *(engineers, nurses, pharmacists, business admin, and various entry level positions\n- within a reasonable time period (all under 6 months, within a labour market with an average 7\n- you check off as many of those as you can – not having them will not impede your ability to do the job, but having them will tell the employer that yo\n- that you have the minimum qualifications\n- that your resume’s layout is appropriate: clear font, legible, appropriate for the job"
+          }
+        },
+        {
+          "type": "tip",
+          "content": {
+            "text": "Be prepared to discuss how you've handled rapid change and ambiguity. Startups want to see that you can thrive without extensive structure."
+          }
+        },
+        {
+          "type": "quiz",
+          "content": {
+            "question": "What is the most important factor in Dropbox interviews?",
+            "options": [
+              {
+                "id": "a",
+                "text": "Having perfect technical answers",
+                "isCorrect": false
+              },
+              {
+                "id": "b",
+                "text": "Demonstrating alignment with company values and culture",
+                "isCorrect": true
+              },
+              {
+                "id": "c",
+                "text": "Memorizing common interview questions",
+                "isCorrect": false
+              },
+              {
+                "id": "d",
+                "text": "Having a prestigious background",
+                "isCorrect": false
+              }
+            ],
+            "explanation": "While technical skills matter, Dropbox places significant emphasis on cultural fit and values alignment. Interviewers want to see that you'll thrive in their environment."
+          }
+        }
+      ]
+    }
+  ]
+}

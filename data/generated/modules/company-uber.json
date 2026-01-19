@@ -1,0 +1,185 @@
+{
+  "slug": "company-uber",
+  "type": "company",
+  "title": "Uber Interview Guide",
+  "description": "Prepare for your Uber interview with company-specific insights, culture tips, and interview strategies.",
+  "company_slug": "uber",
+  "is_premium": true,
+  "display_order": 0,
+  "sections": [
+    {
+      "id": "culture",
+      "title": "Uber Culture",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "Understanding Uber's culture is essential for interview success. Companies look for candidates who align with their values and can thrive in their environment."
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Key cultural themes at Uber:**\n\n- System design emphasis\n- Heavy focus on coding\n- Behavioral interviews important\n- Culture fit matters\n- Case study format"
+          }
+        },
+        {
+          "type": "tip",
+          "content": {
+            "text": "Startups look for candidates who can wear multiple hats, move fast, and thrive in uncertainty. Emphasize your adaptability and ownership mentality."
+          }
+        }
+      ]
+    },
+    {
+      "id": "values",
+      "title": "Uber Values",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "Uber evaluates candidates not just on skills, but on how well they embody the company's core values. Demonstrating alignment with these values can be the difference between a good and great interview."
+          }
+        },
+        {
+          "type": "checklist",
+          "content": {
+            "title": "Values Preparation Checklist",
+            "items": [
+              {
+                "id": "v1",
+                "text": "Research Uber's stated mission and values",
+                "required": true
+              },
+              {
+                "id": "v2",
+                "text": "Prepare examples that demonstrate alignment with these values",
+                "required": true
+              },
+              {
+                "id": "v3",
+                "text": "Review recent company blog posts or leadership communications",
+                "required": false
+              },
+              {
+                "id": "v4",
+                "text": "Prepare examples of working in ambiguous situations",
+                "required": true
+              }
+            ]
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "**Avoid these pitfalls:** Interviewers notice when candidates don't demonstrate genuine alignment with company values. Be authentic in your responses."
+          }
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "title": "Uber Interview Process",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "**Uber Interview Process Overview**\n\n- **Typical rounds:** 4 rounds typical\n- **Timeline:** 2-4 weeks\n- **Format:** Mix of phone screen, technical, behavioral, on-site, virtual"
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Common Interview Questions:**\n\n- \"how do I get past interviews at companies like FAANG?\"\n- \"how much is the starting salary for someone with {my skillset}?\"\n- \"do you have reliable transportation?\"\n- \"the shop if they have a loaner available?\"\n- \"What is your availability?\""
+          }
+        },
+        {
+          "type": "checklist",
+          "content": {
+            "title": "Interview Process Preparation",
+            "items": [
+              {
+                "id": "p1",
+                "text": "Research recent company news and announcements",
+                "required": true
+              },
+              {
+                "id": "p2",
+                "text": "Review the job description thoroughly",
+                "required": true
+              },
+              {
+                "id": "p3",
+                "text": "Prepare questions to ask your interviewer",
+                "required": true
+              },
+              {
+                "id": "p4",
+                "text": "Practice explaining your relevant experience",
+                "required": true
+              },
+              {
+                "id": "p5",
+                "text": "Set up your interview environment (for virtual)",
+                "required": false
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "tips",
+      "title": "Uber Interview Tips",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "Success in Uber interviews comes from preparation, authenticity, and understanding what interviewers are looking for."
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Insider Tips:**\n\n- you immediately pivot over to that topic even though you really want to continue discussing that security issue\n- you get good coverage in this section\n- I have good coverage on these two parts\n- as good projects or resources to understand these topics a little more?\n- someone doesn't give me hints"
+          }
+        },
+        {
+          "type": "tip",
+          "content": {
+            "text": "Be prepared to discuss how you've handled rapid change and ambiguity. Startups want to see that you can thrive without extensive structure."
+          }
+        },
+        {
+          "type": "quiz",
+          "content": {
+            "question": "What is the most important factor in Uber interviews?",
+            "options": [
+              {
+                "id": "a",
+                "text": "Having perfect technical answers",
+                "isCorrect": false
+              },
+              {
+                "id": "b",
+                "text": "Demonstrating alignment with company values and culture",
+                "isCorrect": true
+              },
+              {
+                "id": "c",
+                "text": "Memorizing common interview questions",
+                "isCorrect": false
+              },
+              {
+                "id": "d",
+                "text": "Having a prestigious background",
+                "isCorrect": false
+              }
+            ],
+            "explanation": "While technical skills matter, Uber places significant emphasis on cultural fit and values alignment. Interviewers want to see that you'll thrive in their environment."
+          }
+        }
+      ]
+    }
+  ]
+}
