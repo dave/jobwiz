@@ -15,6 +15,7 @@ import Link from "next/link";
 import { PaywallGate } from "@/components/paywall";
 import { JourneyProgress } from "@/components/journey";
 import { useAuth } from "@/lib/auth";
+import { setProgressCookie, type ProgressCookieData } from "@/lib/progress-cookie";
 import type { Module } from "@/types/module";
 import type { CarouselProgress } from "@/types/carousel";
 
@@ -33,6 +34,8 @@ interface JourneyContentProps {
   initialHasAccess?: boolean;
   /** Whether user is logged in (from server, prevents button text flicker) */
   isLoggedIn?: boolean;
+  /** Initial progress from cookie (from server, prevents flicker) */
+  initialProgress?: ProgressCookieData | null;
 }
 
 /**
@@ -72,6 +75,7 @@ export function JourneyContent({
   paywallIndex,
   initialHasAccess = false,
   isLoggedIn = false,
+  initialProgress = null,
 }: JourneyContentProps) {
   const { user } = useAuth();
   const [hasAccess, setHasAccess] = useState(initialHasAccess);
@@ -79,12 +83,41 @@ export function JourneyContent({
   const [progress, setProgress] = useState<CarouselProgress | null>(null);
   const [progressLoaded, setProgressLoaded] = useState(false);
 
-  // Load persisted progress from localStorage on mount
+  // Load persisted progress from localStorage on mount and sync to cookie
   useEffect(() => {
     const loadedProgress = loadPersistedProgress(companySlug, roleSlug);
     setProgress(loadedProgress);
     setProgressLoaded(true);
-  }, [companySlug, roleSlug]);
+
+    // Sync to cookie for SSR hydration
+    const currentIndex = loadedProgress?.currentIndex ?? 0;
+    const completedCount = loadedProgress?.completedItems?.length ?? 0;
+    const hasProgress = currentIndex > 0 || completedCount > 0;
+    const percent = totalItems > 0 ? Math.round((completedCount / totalItems) * 100) : 0;
+
+    // Calculate which module index the currentIndex belongs to
+    let moduleIdx = 0;
+    let cumulativeIndex = 0;
+    const hasPremiumModules = allModules.some((m) => m.isPremium);
+    let hasSeenPremium = false;
+
+    for (let i = 0; i < allModules.length; i++) {
+      const mod = allModules[i];
+      // Account for paywall item when transitioning from free to premium
+      if (hasPremiumModules && mod.isPremium && !hasSeenPremium) {
+        hasSeenPremium = true;
+        cumulativeIndex += 1;
+      }
+      const moduleItemCount = mod.sections.reduce((t, s) => t + s.blocks.length, 0) + 1;
+      if (currentIndex < cumulativeIndex + moduleItemCount) {
+        moduleIdx = i;
+        break;
+      }
+      cumulativeIndex += moduleItemCount;
+    }
+
+    setProgressCookie(companySlug, roleSlug, { hasProgress, percent, moduleIdx });
+  }, [companySlug, roleSlug, totalItems, allModules]);
 
   // Check if user has purchased access (skip if already have access from server)
   useEffect(() => {
@@ -214,6 +247,7 @@ export function JourneyContent({
               progress={progress}
               progressLoading={!progressLoaded}
               isLoggedIn={isLoggedIn}
+              initialProgress={initialProgress}
             />
 
             {/* Premium Unlock Section (if user doesn't have access) */}

@@ -15,6 +15,7 @@ import { useMemo } from "react";
 import Link from "next/link";
 import type { Module } from "@/types/module";
 import type { CarouselProgress } from "@/types/carousel";
+import type { ProgressCookieData } from "@/lib/progress-cookie";
 
 /** Lock icon SVG component */
 function LockIcon({ className = "w-4 h-4" }: { className?: string }) {
@@ -75,6 +76,8 @@ export interface JourneyProgressProps {
   progressLoading?: boolean;
   /** Whether user is logged in (from server, for default button text) */
   isLoggedIn?: boolean;
+  /** Initial progress from cookie (from server, prevents flicker) */
+  initialProgress?: ProgressCookieData | null;
 }
 
 /** Module display info for rendering */
@@ -237,6 +240,7 @@ export function JourneyProgress({
   progress,
   progressLoading = false,
   isLoggedIn = false,
+  initialProgress = null,
 }: JourneyProgressProps) {
   // Extract progress values with defaults
   const currentIndex = progress?.currentIndex ?? 0;
@@ -273,20 +277,24 @@ export function JourneyProgress({
     [allModules, completedItems, currentIndex, hasPremiumAccess]
   );
 
+  // Determine display values - use initialProgress from cookie when loading
+  const displayPercent = progressLoading
+    ? (initialProgress?.percent ?? 0)
+    : progressPercentage;
+  const displayHasProgress = progressLoading
+    ? (initialProgress?.hasProgress ?? false)
+    : (currentIndex > 0 || completedItems.size > 0);
+  const displayModuleIdx = progressLoading
+    ? (initialProgress?.moduleIdx ?? 0)
+    : null; // null means calculate from actual data
+
   // Determine button text and state
-  // While loading, show appropriate text based on login state to prevent flicker
-  // Logged in users likely have progress (show "Continue"), logged out users don't (show "Start Journey")
-  const hasStarted = currentIndex > 0 || completedItems.size > 0;
-  const isComplete = progressPercentage === 100;
-  const buttonText = progressLoading
-    ? isLoggedIn
+  const isComplete = displayPercent === 100;
+  const buttonText = isComplete
+    ? "Review Journey"
+    : displayHasProgress
       ? "Continue"
-      : "Start Journey"
-    : isComplete
-      ? "Review Journey"
-      : hasStarted
-        ? "Continue"
-        : "Start Journey";
+      : "Start Journey";
 
   return (
     <div className="space-y-6">
@@ -305,7 +313,17 @@ export function JourneyProgress({
               data-testid="current-module-name"
             >
               {progressLoading ? (
-                <span className="text-gray-400">&nbsp;</span>
+                // Use initialProgress.moduleIdx to show module name from cookie
+                initialProgress?.hasProgress && allModules[initialProgress.moduleIdx] ? (
+                  <>
+                    Current:{" "}
+                    <span className="font-medium text-gray-700">
+                      {allModules[initialProgress.moduleIdx].title}
+                    </span>
+                  </>
+                ) : (
+                  <span className="text-gray-400">&nbsp;</span>
+                )
               ) : currentModule ? (
                 <>
                   Current:{" "}
@@ -319,9 +337,9 @@ export function JourneyProgress({
           <span
             className="text-2xl font-bold text-blue-600 min-w-[4ch] text-right"
             data-testid="progress-percentage"
-            aria-label={progressLoading ? "Loading progress" : `${progressPercentage}% complete`}
+            aria-label={`${displayPercent}% complete`}
           >
-            {progressLoading ? "\u00A0" : `${progressPercentage}%`}
+            {`${displayPercent}%`}
           </span>
         </div>
 
@@ -330,17 +348,15 @@ export function JourneyProgress({
           <div
             className="w-full bg-gray-200 rounded-full h-3"
             role="progressbar"
-            aria-valuenow={progressLoading ? 0 : progressPercentage}
+            aria-valuenow={displayPercent}
             aria-valuemin={0}
             aria-valuemax={100}
-            aria-label={progressLoading ? "Loading progress" : `Journey progress: ${progressPercentage}% complete`}
+            aria-label={`Journey progress: ${displayPercent}% complete`}
           >
-            {!progressLoading && (
-              <div
-                className="bg-blue-600 h-3 rounded-full transition-all duration-300"
-                style={{ width: `${progressPercentage}%` }}
-              />
-            )}
+            <div
+              className="bg-blue-600 h-3 rounded-full transition-all duration-300"
+              style={{ width: `${displayPercent}%` }}
+            />
           </div>
           <p className="text-xs text-gray-500 mt-1 h-4">
             {progressLoading ? "\u00A0" : `${completedItems.size} of ${totalItems} items complete`}
@@ -388,6 +404,7 @@ export function JourneyProgress({
               companySlug={companySlug}
               roleSlug={roleSlug}
               progressLoading={progressLoading}
+              displayModuleIdx={displayModuleIdx}
             />
           ))}
         </div>
@@ -403,6 +420,8 @@ interface ModuleListItemProps {
   companySlug: string;
   roleSlug: string;
   progressLoading: boolean;
+  /** Module index from cookie for SSR (null means use calculated value) */
+  displayModuleIdx: number | null;
 }
 
 /** Individual module list item */
@@ -412,6 +431,7 @@ function ModuleListItem({
   companySlug,
   roleSlug,
   progressLoading,
+  displayModuleIdx,
 }: ModuleListItemProps) {
   const {
     title,
@@ -425,8 +445,10 @@ function ModuleListItem({
     startIndex,
   } = moduleInfo;
 
-  // Don't show "current" styling while progress is loading to prevent flicker
-  const isCurrent = progressLoading ? false : isCurrentFromProgress;
+  // Use cookie module index during loading, then actual progress data
+  const isCurrent = progressLoading
+    ? index === displayModuleIdx
+    : isCurrentFromProgress;
 
   // Determine if this module is clickable
   const isClickable = !isLocked;

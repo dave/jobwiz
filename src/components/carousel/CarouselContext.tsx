@@ -19,6 +19,7 @@ import type {
   CarouselDirection,
 } from "@/types";
 import { createBrowserClient } from "@/lib/supabase/client";
+import { setProgressCookie } from "@/lib/progress-cookie";
 
 const CarouselContext = createContext<CarouselContextValue | null>(null);
 
@@ -195,7 +196,7 @@ export function CarouselProvider({
     null
   );
 
-  // Persist state to localStorage whenever it changes
+  // Persist state to localStorage and cookie whenever it changes
   useEffect(() => {
     const progress: CarouselProgress = {
       companySlug,
@@ -206,7 +207,16 @@ export function CarouselProvider({
     };
 
     persistProgress(progress);
-  }, [companySlug, roleSlug, currentIndex, completedItems]);
+
+    // Also sync to cookie for SSR hydration
+    const hasProgress = currentIndex > 0 || completedItems.size > 0;
+    const percent = items.length > 0 ? Math.round((completedItems.size / items.length) * 100) : 0;
+    setProgressCookie(companySlug, roleSlug, {
+      hasProgress,
+      percent,
+      moduleIdx: 0, // Module index calculated separately in JourneyContent
+    });
+  }, [companySlug, roleSlug, currentIndex, completedItems, items.length]);
 
   // Supabase sync: Load from Supabase on mount (once)
   // Skip if initialIndex was explicitly provided (e.g., from URL ?start= param)
