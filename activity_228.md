@@ -26,7 +26,7 @@ Fix content quality issues identified during manual review of interview prep mod
 - [x] #284 - Healthcare/Biotech batch
 - [x] #285 - Enterprise SaaS batch
 - [x] #286 - Media/Entertainment batch
-- [ ] #287 - Other companies batch
+- [x] #287 - Other companies batch
 
 ### Content Ordering (#239)
 - [ ] #288 - Big Tech batch
@@ -1618,6 +1618,49 @@ Disney, WBD, Spotify, TikTok, Snap, Pinterest, Reddit, LinkedIn, X, EA, Activisi
 
 **Verification:**
 - All 12 JSON files valid (node validation passes)
+- `npm run lint` - passes (warnings only for unrelated image issues)
+- `npm run type-check` - passes
+- `npm run build` - successful
+- `npm test -- --testPathPattern="modules"` - 77 tests pass
+
+**Acceptance Criteria:**
+- ✅ All company modules in batch reviewed
+- ✅ Role-specific content removed/generalized
+- ✅ Content still valuable for all roles
+- ✅ JSON valid after edits
+- ✅ All tests pass
+
+### 2026-01-19 - Issue #287: Remove role-specific content - Company modules: Other companies
+
+**Status:** Complete
+
+**Modules Modified (3 total):**
+Asana, Dropbox, Palantir
+
+**Role-specific content removed/generalized:**
+
+1. **Culture section** (Asana, Palantir):
+   - Removed: "System design emphasis", "Heavy focus on coding", "Technical deep dive"
+   - Replaced with: Role-neutral cultural themes (behavioral interviews, culture fit, problem-solving, collaboration, data-driven)
+
+2. **Interviewer Mindset section** (all 3 modules):
+   - Removed: "**Technical Questions**" sub-section entirely
+   - Removed: Tips about "statistical knowledge" and "class imbalance" (role-specific data science content)
+   - Generalized: Behavioral questions tip changed from "System design emphasis, Heavy focus on coding, Behavioral interviews important" to "Behavioral interviews, culture fit assessments, and problem-solving exercises"
+
+3. **Process section** (all 3 modules):
+   - Changed: "**Format:** Mix of ... technical ..." to "**Format:** Mix of ... role-specific ..."
+
+**Files Modified:**
+- `data/generated/modules/company-asana.json`
+- `data/generated/modules/company-dropbox.json`
+- `data/generated/modules/company-palantir.json`
+
+**Script Created:**
+- `scripts/cleanup/remove-role-specific-other.ts` - Automated removal of role-specific content
+
+**Verification:**
+- All 3 JSON files valid (python3 -m json.tool validation passes)
 - `npm run lint` - passes (warnings only for unrelated image issues)
 - `npm run type-check` - passes
 - `npm run build` - successful
