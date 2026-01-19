@@ -6,9 +6,10 @@
  * - Large typography
  * - Minimal UI chrome
  * - Touch-friendly interactions
+ *
+ * Note: ContentItem, QuizItem, and ChecklistItem have been deprecated
+ * in favor of the conversational components in @/components/alex.
+ * Only MediaItem remains as it's still used for video/audio content.
  */
 
-export { ContentItem, type ContentItemProps } from "./ContentItem";
-export { QuizItem, type QuizItemProps } from "./QuizItem";
 export { MediaItem, type MediaItemProps } from "./MediaItem";
-export { ChecklistItem, type ChecklistItemProps } from "./ChecklistItem";

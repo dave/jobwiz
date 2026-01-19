@@ -96,6 +96,19 @@ function createTestItem(
   };
 }
 
+// Helper to create paywall item
+function createPaywallItem(order = 0): CarouselItem {
+  return {
+    id: "paywall",
+    type: "paywall",
+    content: { id: "paywall", type: "text", content: "Unlock premium content" },
+    moduleSlug: "paywall",
+    isPremium: false,
+    sectionTitle: "Premium Content",
+    order,
+  };
+}
+
 function createContentBlock(type: ContentBlockType, id: string): ContentBlock {
   switch (type) {
     case "text":
@@ -533,6 +546,179 @@ describe("ConversationContainer", () => {
     });
   });
 
+  describe("Paywall Integration", () => {
+    it("sets big-question mode for paywall item", () => {
+      const items: CarouselItem[] = [
+        createTestItem("text", "text-1"),
+        createPaywallItem(1),
+      ];
+      render(
+        <CarouselProvider
+          options={{
+            companySlug: "test",
+            roleSlug: "test",
+            items,
+            paywallIndex: 1,
+            initialIndex: 1, // Start at paywall
+          }}
+          enableSupabaseSync={false}
+        >
+          <ConversationContainer data-testid="conversation-container">
+            Content
+          </ConversationContainer>
+        </CarouselProvider>
+      );
+
+      const container = screen.getByTestId("conversation-container");
+      expect(container).toHaveAttribute("data-display-mode", "big-question");
+    });
+
+    it("renders BigQuestionMode when at paywall", () => {
+      const items: CarouselItem[] = [
+        createTestItem("text", "text-1"),
+        createPaywallItem(1),
+      ];
+      render(
+        <CarouselProvider
+          options={{
+            companySlug: "test",
+            roleSlug: "test",
+            items,
+            paywallIndex: 1,
+            initialIndex: 1, // Start at paywall
+          }}
+          enableSupabaseSync={false}
+        >
+          <ConversationContainer data-testid="conversation-container">
+            Content
+          </ConversationContainer>
+        </CarouselProvider>
+      );
+
+      expect(screen.getByTestId("big-question-mode")).toBeInTheDocument();
+    });
+
+    it("does not trigger tap-to-continue at paywall", () => {
+      const items: CarouselItem[] = [
+        createTestItem("text", "text-1"),
+        createPaywallItem(1),
+        createTestItem("text", "text-2"),
+      ];
+      render(
+        <CarouselProvider
+          options={{
+            companySlug: "test",
+            roleSlug: "test",
+            items,
+            paywallIndex: 1,
+            initialIndex: 1, // Start at paywall
+          }}
+          enableSupabaseSync={false}
+        >
+          <ConversationContainer data-testid="conversation-container">
+            <div data-testid="content-area">Content Area</div>
+          </ConversationContainer>
+        </CarouselProvider>
+      );
+
+      // Tap on the container (not on a button)
+      const container = screen.getByTestId("conversation-container");
+      fireEvent.click(container);
+
+      // Should still be at paywall (big-question mode)
+      expect(container).toHaveAttribute("data-display-mode", "big-question");
+    });
+
+    it("uses correct display mode based on item type at initialization", () => {
+      // Test with paywall as first item
+      const itemsWithPaywallFirst: CarouselItem[] = [
+        createPaywallItem(0),
+        createTestItem("text", "text-1"),
+      ];
+      const { unmount } = render(
+        <CarouselProvider
+          options={{
+            companySlug: "test",
+            roleSlug: "test",
+            items: itemsWithPaywallFirst,
+            paywallIndex: 0,
+            initialIndex: 0, // Start at paywall
+          }}
+          enableSupabaseSync={false}
+        >
+          <ConversationContainer data-testid="conversation-container">
+            Content
+          </ConversationContainer>
+        </CarouselProvider>
+      );
+
+      // At paywall - big-question mode
+      let container = screen.getByTestId("conversation-container");
+      expect(container).toHaveAttribute("data-display-mode", "big-question");
+
+      // Clean up and test with text as first item
+      unmount();
+
+      const itemsWithTextFirst: CarouselItem[] = [
+        createTestItem("text", "text-1"),
+        createPaywallItem(1),
+      ];
+      render(
+        <CarouselProvider
+          options={{
+            companySlug: "test",
+            roleSlug: "test",
+            items: itemsWithTextFirst,
+            paywallIndex: 1,
+            initialIndex: 0, // Start at text
+          }}
+          enableSupabaseSync={false}
+        >
+          <ConversationContainer data-testid="conversation-container">
+            Content
+          </ConversationContainer>
+        </CarouselProvider>
+      );
+
+      // At text - conversational mode
+      container = screen.getByTestId("conversation-container");
+      expect(container).toHaveAttribute("data-display-mode", "conversational");
+    });
+
+    it("paywall blocks forward navigation via tap", () => {
+      const items: CarouselItem[] = [
+        createPaywallItem(0),
+        createTestItem("text", "text-1"),
+      ];
+      render(
+        <CarouselProvider
+          options={{
+            companySlug: "test",
+            roleSlug: "test",
+            items,
+            paywallIndex: 0,
+            initialIndex: 0,
+          }}
+          enableSupabaseSync={false}
+        >
+          <ConversationContainer data-testid="conversation-container">
+            Content
+          </ConversationContainer>
+        </CarouselProvider>
+      );
+
+      const container = screen.getByTestId("conversation-container");
+
+      // Tap multiple times - should not advance past paywall
+      fireEvent.click(container);
+      fireEvent.click(container);
+      fireEvent.click(container);
+
+      // Still in big-question mode at paywall
+      expect(container).toHaveAttribute("data-display-mode", "big-question");
+    });
+  });
+
   describe("Edge Cases", () => {
     it("handles empty items array", () => {
       render(
@@ -610,6 +796,32 @@ describe("ConversationContainer", () => {
       const toggle = screen.getByTestId("timeline-toggle");
       expect(toggle).toHaveAttribute("aria-label", "Open progress menu");
       expect(toggle).toHaveAttribute("aria-expanded", "false");
+    });
+
+    it("container has application role and accessible label", () => {
+      const items = [createTestItem("text")];
+      render(<TestWrapper items={items} />);
+
+      const container = screen.getByTestId("conversation-container");
+      expect(container).toHaveAttribute("role", "application");
+      expect(container).toHaveAttribute("aria-label", "Interview preparation content");
+    });
+
+    it("has mode announcement live region", () => {
+      const items = [createTestItem("text")];
+      render(<TestWrapper items={items} />);
+
+      const announcement = screen.getByTestId("mode-announcement");
+      expect(announcement).toHaveAttribute("aria-live", "assertive");
+      expect(announcement).toHaveAttribute("aria-atomic", "true");
+    });
+
+    it("main content area has proper role", () => {
+      const items = [createTestItem("text")];
+      render(<TestWrapper items={items} />);
+
+      const mainContent = screen.getByRole("main");
+      expect(mainContent).toBeInTheDocument();
     });
   });
 });

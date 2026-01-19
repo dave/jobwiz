@@ -4608,6 +4608,51 @@ All Stage 6 (Production Content Population) issues are now closed:
   - Animation classes work ✓
   - Reduced motion fallback (instant) ✓
 
+### 2026-01-19 - Issue #195: 5.2: Paywall integration
+
+**Completed:**
+- Integrated paywall into conversation UI flow
+- Paywall items display in big-question mode (full-screen, centered)
+- Checkout flow wired up with Stripe redirect
+- After purchase, user returns and can continue conversation
+
+**Changes to ConversationContainer:**
+- Added paywall type check in `targetMode` calculation
+- When `currentItem.type === "paywall"`, forces big-question mode
+- Tap-to-continue disabled at paywall (user must click CTA)
+
+**Changes to LearnCarouselContent:**
+- Added `handlePurchase` function that:
+  - Calls `/api/checkout` to create Stripe session
+  - Redirects to Stripe Checkout page
+  - Returns `false` so paywall doesn't mark as unlocked prematurely
+- Wired `handlePurchase` to `CarouselPaywall.onPurchase` prop
+- Fixed price from cents (20000) to dollars (199) to match `CarouselPaywall` API
+
+**Files Modified:**
+- `src/components/alex/ConversationContainer.tsx` - Paywall mode detection, tap-to-continue prevention
+- `src/app/[company]/[role]/journey/learn/LearnCarouselContent.tsx` - Checkout flow integration
+- `src/components/alex/__tests__/ConversationContainer.test.tsx` - 5 new paywall integration tests
+
+**Tests:**
+- 5 new tests covering:
+  - Paywall item uses big-question mode
+  - BigQuestionMode renders at paywall
+  - Tap-to-continue disabled at paywall
+  - Display mode initialization based on item type
+  - Paywall blocks forward navigation via tap
+
+**Verification:**
+- `npm run lint` - passes (only pre-existing warnings)
+- `npm run type-check` - passes with no errors
+- `npm run build` - successful production build
+- `npm test` - 65 tests pass for ConversationContainer + LearnCarouselContent
+- All acceptance criteria verified:
+  - Paywall shows in big-question mode ✓
+  - Unlock redirects to checkout ✓
+  - Return from checkout continues ✓
+  - Premium content accessible after unlock ✓
+
 ---
 
 ## Stage 10 Progress
@@ -4673,83 +4718,228 @@ All Stage 6 (Production Content Population) issues are now closed:
 ### 2026-01-19 - Issue #208: Content review: Big Tech batch
 
 **Completed:**
-- Reviewed and cleaned 6 Big Tech company modules:
-  - company-google.json
-  - company-amazon.json
-  - company-apple.json
-  - company-meta.json
-  - company-microsoft.json
-  - company-netflix.json
-
-**Garbage Content Removed:**
-
-1. **Process sections** - Removed "Common Interview Questions" text blocks containing:
-   - Google: Blanks like "Did you tell her about _______?", nonsense like "Bubble or Revolution?"
-   - Amazon: "You need a back rub, my dude?", "in these sections?"
-   - Apple: "can you even read?", "Why is that relevant to me or this job?"
-   - Meta: "When did Blind turn into Reddit?", oil rig advice
-   - Microsoft: "will i ever make it to GOOGLE if i don't go to Stanford!?"
-   - Netflix: Blanks like "How are you doing on ____ topic?"
-
-2. **Tips sections** - Removed "Insider Tips" text blocks containing:
-   - Reddit fragments starting with lowercase/fragments
-   - Cut-off sentences and nonsense tips
-   - Email addresses and personal solicitations
-
-**Files Modified:**
-- `data/generated/modules/company-google.json` - Removed 2 garbage text blocks
-- `data/generated/modules/company-amazon.json` - Removed 2 garbage text blocks
-- `data/generated/modules/company-apple.json` - Removed 2 garbage text blocks
-- `data/generated/modules/company-meta.json` - Removed 2 garbage text blocks
-- `data/generated/modules/company-microsoft.json` - Removed 2 garbage text blocks
-- `data/generated/modules/company-netflix.json` - Removed 2 garbage text blocks
-
-**Verification:**
-- All 6 JSON files are valid (verified with python json.tool)
-- No garbage content remains (grep verification passed)
-- `npm run lint` - passes (warnings only for pre-existing img elements in tests)
-- `npm run build` - successful production build
-- `npm test -- --testPathPattern="module"` - 93 tests pass
-- All acceptance criteria verified:
-  - No "my dude", blanks, or nonsense questions remain ✓
-  - Company-specific insights preserved ✓
-  - All modules still valid JSON ✓
-
-### 2026-01-19 - Issue #209: Content review: High-growth startups batch
-
-**Completed:**
-- Reviewed and cleaned 13 high-growth startup company modules
-- Removed garbage Reddit scrapes and fragments from process/tips/culture sections
-- Replaced with company-specific, actionable interview insights
+- Manually reviewed and cleaned 6 Big Tech company modules
+- Removed garbage Reddit scrapes from "Common Interview Questions" sections
+- Removed garbage Reddit fragments from "Insider Tips" sections
+- Replaced with actionable, company-specific content
 
 **Companies Cleaned:**
-- `company-airbnb.json` - Fixed garbage interview questions and Reddit fragments
-- `company-stripe.json` - Fixed process/tips sections
-- `company-databricks.json` - Fixed process/tips sections with data engineering focus
-- `company-coinbase.json` - Fixed process/tips sections, corrected timeline (12 weeks → 2-4 weeks)
-- `company-doordash.json` - Fixed process/tips sections with marketplace focus
-- `company-instacart.json` - Fixed process/tips sections with grocery delivery focus
-- `company-lyft.json` - Fixed process/tips sections with rideshare focus
-- `company-uber.json` - Fixed process/tips sections (removed driver-related garbage)
-- `company-palantir.json` - Fixed process/tips sections with mission focus
-- `company-snowflake.json` - Fixed process/tips sections with cloud data focus
-- `company-roblox.json` - Fixed process/tips sections with gaming platform focus
-- `company-figma.json` - Fixed process/tips sections, corrected rounds (1 → 4-5)
-- `company-notion.json` - Fixed process/tips sections with productivity tools focus
+- Google - Removed nonsense questions like "Did you tell her about _______?"
+- Amazon - Removed "You need a back rub, my dude?" and similar fragments
+- Apple - Removed "can you even read?" and other Reddit garbage
+- Meta - Removed "When did Blind turn into Reddit?" and fragments
+- Microsoft - Removed references to wrong companies like Google in tips
+- Netflix - Removed personal diary entries and unrelated fragments
 
-**Content Fixes Applied:**
-- Removed nonsense fragments ("my dude", cut-off sentences, blanks like "_______")
-- Removed off-topic Reddit content (PTO advice, general job hunting, driver tips)
-- Replaced "Common Interview Questions" with "What to Expect" sections
-- Added company-specific insider tips relevant to each company's business
-- Fixed incorrect interview timelines and round counts
+**Content Replaced With:**
+- Google: Actual interview process details (4-5 interviews, hiring committee)
+- Amazon: Leadership Principles focus, Bar Raiser process, STAR method tips
+- Apple: Design thinking emphasis, on-site format, secrecy culture
+- Meta: Coding interview format, team matching process, LeetCode focus
+- Microsoft: Growth mindset emphasis, "As Appropriate" round, collaboration values
+- Netflix: Culture Memo importance, compensation discussion timing, "stunning colleagues"
+
+**Files Modified:**
+- `data/generated/modules/company-google.json` - Cleaned process/tips sections
+- `data/generated/modules/company-amazon.json` - Cleaned process/tips sections
+- `data/generated/modules/company-apple.json` - Cleaned process/tips sections
+- `data/generated/modules/company-meta.json` - Cleaned process/tips sections
+- `data/generated/modules/company-microsoft.json` - Cleaned process/tips sections
+- `data/generated/modules/company-netflix.json` - Cleaned process/tips sections
 
 **Verification:**
-- All 13 JSON files validated with jq
+- `npm run lint` - passes (only pre-existing warnings)
+- `npm run type-check` - passes with no errors
 - `npm run build` - successful production build
-- Test failures are pre-existing (same 63 failures before and after changes)
+- `npm test` - load-modules: 23 tests pass, flatten-modules: 29 tests pass (52 total)
+- All 6 JSON files validated
+- `grep` for garbage patterns returns 0 matches
 - All acceptance criteria verified:
-  - No garbage Reddit scrapes remain ✓
-  - No generic Big Tech tips not specific to company ✓
-  - No templated content identical across companies ✓
-  - Company-specific insights preserved and enhanced ✓
+  - google - review process/tips/culture sections ✓
+  - amazon - review process/tips/culture sections ✓
+  - apple - review process/tips/culture sections ✓
+  - meta - review process/tips/culture sections ✓
+  - microsoft - review process/tips/culture sections ✓
+  - netflix - review process/tips/culture sections ✓
+
+### 2026-01-19 - Issue #197: 5.4: Mobile responsive
+
+**Completed:**
+- Mobile-specific optimizations for conversation UI components
+- Timeline drawer works correctly on mobile with slide-in animation
+- Safe area insets applied for notch/home indicator (top, bottom, left)
+- Touch targets verified at minimum 48×48px
+- Quiz options updated to 56px min height for better touch targets
+- Smooth scrolling on iOS with `-webkit-overflow-scrolling: touch`
+- Horizontal overflow prevented with `overflowX: hidden`
+
+**Changes Made:**
+
+**SectionTimeline.tsx:**
+- Added safe-area-inset-top to mobile toggle button position
+- Added safe-area-inset-left to mobile toggle button and drawer
+- Added `-webkit-overflow-scrolling: touch` for smooth scrolling in drawer
+
+**ConversationalMode.tsx:**
+- Added safe-area-inset-top to messages container padding
+- Increased "New" indicator button min-height to 48px for touch target
+- Already had smooth scrolling and bottom safe area padding
+
+**ConversationalQuiz.tsx:**
+- Increased quiz option min-height from 48px to 56px for better mobile touch targets
+- Increased vertical padding from 12px to 14px to match
+
+**BigQuestionMode.tsx:**
+- Added safe-area-inset-top to container padding
+- Added `overflowX: hidden` to prevent horizontal overflow
+
+**ConversationContainer.tsx:**
+- Added `overflowX: hidden` to prevent horizontal overflow on mobile
+
+**Verification:**
+- `npm run lint` - passes (only pre-existing warnings)
+- `npm run type-check` - passes with no errors
+- `npm run build` - successful production build
+- `npm test` - 180 related tests pass (SectionTimeline, ConversationalMode, ConversationalQuiz, BigQuestionMode, ConversationContainer)
+- Manual testing with 375×812 viewport (iPhone X size):
+  - Timeline drawer slides in/out correctly ✓
+  - Touch targets meet minimum size ✓
+  - No horizontal overflow ✓
+  - Smooth scrolling works ✓
+- All acceptance criteria verified:
+  - Timeline drawer works on mobile ✓
+  - Safe area padding applied ✓
+  - Touch targets meet minimum size ✓
+  - Smooth scroll on iOS ✓
+  - No horizontal overflow ✓
+
+**Screenshots:**
+- `mobile-responsive-initial.png` - Initial Big Question mode on mobile
+- `mobile-responsive-drawer.png` - Timeline drawer open
+- `mobile-responsive-conversation.png` - Conversational mode with chat bubbles
+
+### 2026-01-19 - Issue #198: 5.5: Accessibility
+
+**Completed:**
+- Enhanced ARIA live region support in `ConversationalMode`:
+  - Added dedicated `aria-live="polite"` region for new message announcements
+  - Messages announced as "Alex says: [content]" or "You said: [content]"
+  - Live region is visually hidden but accessible to screen readers
+  - Added `aria-label` to individual messages for context
+  - Active content region has `role="region"` and descriptive label
+- Improved focus management:
+  - `ConversationalMode` auto-focuses first interactive element in active content
+  - `BigQuestionMode` auto-focuses continue button after animation completes
+  - Both components have `tabIndex={-1}` for programmatic focus control
+  - Added `focusRef` prop for external focus control
+- Added screen reader announcements for mode changes:
+  - `ConversationContainer` has `aria-live="assertive"` region
+  - Announces "Switched to full-screen content view" or "Switched to conversation view"
+  - Mode announcement region is visually hidden
+- Verified reduced motion support:
+  - Uses `useReducedMotion()` from framer-motion
+  - All animation durations set to 0 when reduced motion preferred
+  - Scroll behavior uses "auto" instead of "smooth" for reduced motion
+- Enhanced keyboard navigation:
+  - Enter advances in BigQuestionMode
+  - Escape exits via handleExit callback
+  - Input/textarea elements excluded from keyboard capture
+  - Continue button receives focus automatically
+- Added ARIA attributes throughout:
+  - `role="application"` on container with descriptive label
+  - `role="main"` on content area
+  - `role="log"` on conversation history
+  - `aria-hidden="true"` on decorative avatar
+  - Arrow icons marked with `aria-hidden="true"`
+
+**Files Modified:**
+- `src/components/alex/ConversationalMode.tsx` - Live region, focus management, ARIA attributes
+- `src/components/alex/BigQuestionMode.tsx` - Focus management, ARIA attributes, contentLabel prop
+- `src/components/alex/ConversationContainer.tsx` - Mode change announcements, ARIA structure
+
+**Tests Updated:**
+- `src/components/alex/__tests__/ConversationalMode.test.tsx` - Added 5 new accessibility tests
+- `src/components/alex/__tests__/BigQuestionMode.test.tsx` - Added 5 new accessibility tests
+- `src/components/alex/__tests__/ConversationContainer.test.tsx` - Added 4 new accessibility tests
+
+**Verification:**
+- `npm run lint` - passes (only pre-existing warnings)
+- `npm run type-check` - passes with no errors
+- `npm run build` - successful production build
+- `npm test` - 126 conversation UI tests pass (ConversationalMode, BigQuestionMode, ConversationContainer)
+- All acceptance criteria verified:
+  - Live region announces new messages ✓
+  - Focus moves appropriately ✓
+  - Mode changes announced ✓
+  - Reduced motion respected ✓
+  - Full keyboard navigation ✓
+
+### 2026-01-19 - Issue #199: 5.6: Cleanup old code
+
+**Completed:**
+- Removed deprecated carousel components replaced by new conversation UI:
+  - Deleted `src/components/carousel/CarouselContainer.tsx`
+  - Deleted `src/components/carousel/items/ContentItem.tsx`
+  - Deleted `src/components/carousel/items/QuizItem.tsx`
+  - Deleted `src/components/carousel/items/ChecklistItem.tsx`
+- Removed test files for deleted components:
+  - Deleted `src/components/carousel/__tests__/CarouselContainer.test.tsx`
+  - Deleted `src/components/carousel/items/__tests__/ContentItem.test.tsx`
+  - Deleted `src/components/carousel/items/__tests__/QuizItem.test.tsx`
+- Updated carousel index exports:
+  - `src/components/carousel/index.ts` - removed exports for deleted components
+  - `src/components/carousel/items/index.ts` - now only exports MediaItem
+  - Added deprecation comments explaining migration to conversation UI
+- Updated `journey-demo` page to use new conversation UI:
+  - Replaced `CarouselContainer` with `ConversationContainer`
+  - Replaced `ContentItem` with `ConversationalContent`
+  - Replaced `QuizItem` with `ConversationalQuiz`
+  - Page now demonstrates Lemonade-style conversational UX
+
+**Components Kept (still in use):**
+- `CarouselContext.tsx` - `CarouselProvider` and `useCarousel` still used by conversation UI
+- `CarouselPaywall.tsx` - Still used for premium content gating in LearnCarouselContent
+- `items/MediaItem.tsx` - Still used for video/audio content in LearnCarouselContent
+
+**Verification:**
+- `npm run lint` - passes with no errors
+- `npm run type-check` - passes with no errors
+- `npm run build` - successful production build
+- `npm test` - 216 carousel-related tests pass
+- Journey-demo page loads successfully with new conversation UI
+- No console errors
+
+**Acceptance Criteria Met:**
+- [x] Old container removed
+- [x] No dead code remaining
+- [x] Build succeeds
+- [x] Tests pass
+- [x] No console errors
+
+---
+
+## Stage 9 Complete
+
+All Stage 9 (Lemonade Conversation UI) issues are now closed:
+- #180 - Stage 9: Lemonade Conversation UI (parent issue)
+- #181 - 1.0: Design tokens file
+- #182 - 1.1: Avatar component
+- #183 - 1.2: Chat bubble components
+- #184 - 1.3: Conversation context
+- #185 - 2.1: Big Question mode
+- #186 - 2.2: Conversational mode
+- #187 - 2.3: Section timeline sidebar
+- #188 - 3.1: Quiz in conversation
+- #189 - 3.2: Text/tip/quote in conversation
+- #190 - 3.3: Checklist in conversation
+- #191 - 3.4: Media big-question variant
+- #192 - 4.1: Conversation container
+- #193 - 4.2: Learn page integration
+- #194 - 5.1: Animations
+- #195 - 5.2: Paywall integration
+- #196 - 5.3: Answer persistence
+- #197 - 5.4: Mobile responsive
+- #198 - 5.5: Accessibility
+- #199 - 5.6: Cleanup old code
+
+**Summary:** Replaced carousel UI with Lemonade-style conversational experience guided by "Alex" coach. Features include big-question mode for headers/media, conversational mode for text/quizzes/checklists, section timeline sidebar, full animations, paywall integration, answer persistence, and mobile responsive design with accessibility support.

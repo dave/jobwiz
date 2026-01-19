@@ -372,8 +372,8 @@ const optionButtonStyle: React.CSSProperties = {
   display: "flex",
   alignItems: "center",
   justifyContent: "space-between",
-  minHeight: "48px",
-  padding: "12px 16px",
+  minHeight: "56px", // 56px for mobile touch targets
+  padding: "14px 16px",
   border: "2px solid transparent",
   borderRadius: "12px",
   backgroundColor: "var(--surface-elevated)",

@@ -184,6 +184,12 @@
           }
         },
         {
+          "type": "text",
+          "content": {
+            "text": "**What to Expect:**\n\n- Initial recruiter screen followed by technical phone screen\n- On-site loop typically includes 2 coding rounds plus system design\n- Behavioral round focuses on 'Move Fast' and collaboration\n- Coding interviews emphasize optimal solutions and clean code\n- Team matching happens after passing the loop"
+          }
+        },
+        {
           "type": "checklist",
           "content": {
             "title": "Interview Process Preparation",
@@ -226,6 +232,12 @@
           "type": "text",
           "content": {
             "text": "Success in Meta interviews comes from preparation, authenticity, and understanding what interviewers are looking for."
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Insider Tips:**\n\n- Practice LeetCode medium/hard problems extensively before the interview\n- Communicate your approach before coding - get interviewer buy-in\n- Meta values speed and iteration - show you can move fast\n- Prepare examples of impact at scale for behavioral questions\n- Research the product area you're interested in joining"
           }
         },
         {

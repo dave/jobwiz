@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useEffect, useMemo, useState, type ReactNode } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState, type ReactNode } from "react";
 import { motion, AnimatePresence, useReducedMotion } from "framer-motion";
 import { useCarousel } from "@/components/carousel";
 import { useConversation, ConversationProvider } from "./ConversationContext";
@@ -74,9 +74,20 @@ function ConversationContainerInner({
   // Track the previous display mode for transition animation
   const [prevMode, setPrevMode] = useState<ConversationDisplayMode>(displayMode);
 
-  // Determine the correct display mode based on current item's content type
+  // Refs for focus management and screen reader announcements
+  const modeAnnouncementRef = useRef<HTMLDivElement>(null);
+  const bigQuestionFocusRef = useRef<HTMLDivElement>(null);
+  const conversationalFocusRef = useRef<HTMLDivElement>(null);
+
+  // Determine the correct display mode based on current item's type
+  // Paywall items always use big-question mode (full-screen, centered)
   const targetMode = useMemo<ConversationDisplayMode>(() => {
     if (!currentItem) return "big-question";
+
+    // Paywall items always display in big-question mode
+    if (currentItem.type === "paywall") {
+      return "big-question";
+    }
 
     const contentType = currentItem.content?.type;
     if (!contentType) return "big-question";
@@ -89,6 +100,15 @@ function ConversationContainerInner({
     if (targetMode !== displayMode) {
       setPrevMode(displayMode);
       setDisplayMode(targetMode);
+
+      // Announce mode change to screen readers
+      if (modeAnnouncementRef.current) {
+        const modeDescription =
+          targetMode === "big-question"
+            ? "Switched to full-screen content view"
+            : "Switched to conversation view";
+        modeAnnouncementRef.current.textContent = modeDescription;
+      }
     }
   }, [targetMode, displayMode, setDisplayMode]);
 
@@ -132,6 +152,9 @@ function ConversationContainerInner({
       // Only in big-question mode and not on buttons/interactive elements
       if (displayMode !== "big-question") return;
 
+      // Don't allow tap-to-continue on paywall - user must click CTA
+      if (isAtPaywall) return;
+
       const target = event.target as HTMLElement;
       // Don't trigger on buttons, links, or other interactive elements
       if (
@@ -147,7 +170,7 @@ function ConversationContainerInner({
 
       handleContinue();
     },
-    [displayMode, handleContinue]
+    [displayMode, handleContinue, isAtPaywall]
   );
 
   // Determine transition direction
@@ -189,7 +212,18 @@ function ConversationContainerInner({
       onClick={handleContainerClick}
       data-testid={testId}
       data-display-mode={displayMode}
+      role="application"
+      aria-label="Interview preparation content"
     >
+      {/* Screen reader announcements for mode changes */}
+      <div
+        ref={modeAnnouncementRef}
+        aria-live="assertive"
+        aria-atomic="true"
+        style={srOnlyStyle}
+        data-testid="mode-announcement"
+      />
+
       {/* Desktop: Timeline sidebar (visible on lg+) */}
       <SectionTimeline
         className="z-10"
@@ -197,7 +231,7 @@ function ConversationContainerInner({
       />
 
       {/* Main content area */}
-      <div style={mainContentStyle}>
+      <div style={mainContentStyle} role="main">
         <AnimatePresence mode="wait">
           <motion.div
             key={displayMode}
@@ -216,6 +250,16 @@ function ConversationContainerInner({
                 onExit={handleExit}
                 tapToAdvance={false} // We handle tap at container level
                 data-testid="big-question-mode"
+                focusRef={bigQuestionFocusRef}
+                contentLabel={
+                  currentItem?.content?.type === "header"
+                    ? "Section introduction"
+                    : currentItem?.content?.type === "video"
+                    ? "Video content"
+                    : currentItem?.content?.type === "audio"
+                    ? "Audio content"
+                    : "Content display"
+                }
               >
                 {children}
               </BigQuestionMode>
@@ -223,6 +267,7 @@ function ConversationContainerInner({
               <ConversationalMode
                 messages={messages}
                 data-testid="conversational-mode"
+                focusRef={conversationalFocusRef}
               >
                 {children}
               </ConversationalMode>
@@ -257,6 +302,7 @@ export function ConversationContainer(props: ConversationContainerProps) {
 
 /**
  * Container style - full viewport, flex layout for sidebar
+ * Includes overflow handling for mobile
  */
 const containerStyle: React.CSSProperties = {
   display: "flex",
@@ -265,6 +311,7 @@ const containerStyle: React.CSSProperties = {
   width: "100%",
   backgroundColor: "var(--background, #ffffff)",
   position: "relative",
+  overflowX: "hidden", // Prevent horizontal overflow on mobile
 };
 
 /**
@@ -275,6 +322,21 @@ const mainContentStyle: React.CSSProperties = {
   minWidth: 0, // Allow shrinking below content size
   display: "flex",
   flexDirection: "column",
+};
+
+/**
+ * Screen reader only style - visually hidden but accessible
+ */
+const srOnlyStyle: React.CSSProperties = {
+  position: "absolute",
+  width: "1px",
+  height: "1px",
+  padding: 0,
+  margin: "-1px",
+  overflow: "hidden",
+  clip: "rect(0, 0, 0, 0)",
+  whiteSpace: "nowrap",
+  border: 0,
 };
 
 export default ConversationContainer;

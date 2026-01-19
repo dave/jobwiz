@@ -376,11 +376,29 @@ describe("BigQuestionMode", () => {
       expect(region).toBeInTheDocument();
     });
 
-    test("container has aria-label", () => {
+    test("container has default aria-label", () => {
       render(<BigQuestionMode {...defaultProps} />);
 
       const region = screen.getByRole("region");
       expect(region).toHaveAttribute("aria-label", "Content display");
+    });
+
+    test("container accepts custom contentLabel for aria-label", () => {
+      render(
+        <BigQuestionMode {...defaultProps} contentLabel="Video content">
+          Content
+        </BigQuestionMode>
+      );
+
+      const region = screen.getByRole("region");
+      expect(region).toHaveAttribute("aria-label", "Video content");
+    });
+
+    test("container is programmatically focusable", () => {
+      render(<BigQuestionMode {...defaultProps} />);
+
+      const region = screen.getByRole("region");
+      expect(region).toHaveAttribute("tabIndex", "-1");
     });
 
     test("continue button is focusable", () => {
@@ -397,6 +415,20 @@ describe("BigQuestionMode", () => {
       expect(button).toHaveStyle({
         minHeight: "48px",
       });
+    });
+
+    test("avatar container is hidden from screen readers", () => {
+      render(<BigQuestionMode {...defaultProps} />);
+
+      const avatarContainer = document.querySelector(".big-question-avatar");
+      expect(avatarContainer).toHaveAttribute("aria-hidden", "true");
+    });
+
+    test("content container has live region for dynamic content", () => {
+      render(<BigQuestionMode {...defaultProps} />);
+
+      const contentContainer = document.querySelector(".big-question-content");
+      expect(contentContainer).toHaveAttribute("aria-live", "polite");
     });
   });
 

@@ -184,6 +184,12 @@
           }
         },
         {
+          "type": "text",
+          "content": {
+            "text": "**What to Expect:**\n\n- Phone screen with recruiter followed by technical screen\n- On-site typically includes 4-5 interviews\n- Mix of coding, system design, and behavioral questions\n- Hiring committee reviews all feedback before decision\n- Process can take 4-8 weeks from application to offer"
+          }
+        },
+        {
           "type": "checklist",
           "content": {
             "title": "Interview Process Preparation",
@@ -226,6 +232,12 @@
           "type": "text",
           "content": {
             "text": "Success in Google interviews comes from preparation, authenticity, and understanding what interviewers are looking for."
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Insider Tips:**\n\n- Practice explaining your thought process out loud during coding\n- Use the STAR method for behavioral questions with specific metrics\n- Research your interviewers on LinkedIn beforehand if possible\n- Prepare thoughtful questions about the team and product\n- Ask about day-to-day work and team dynamics"
           }
         },
         {
