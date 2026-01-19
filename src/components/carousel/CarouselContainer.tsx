@@ -8,6 +8,7 @@ import {
   type ReactNode,
   type TouchEvent,
 } from "react";
+import { useRouter } from "next/navigation";
 import { cn } from "@/lib/utils";
 import { useCarousel } from "./CarouselContext";
 
@@ -48,8 +49,11 @@ export function CarouselContainer({
     isLastItem,
     isAtPaywall,
     totalItems,
+    companySlug,
+    roleSlug,
   } = useCarousel();
 
+  const router = useRouter();
   const { currentIndex, lastDirection, paywallIndex, hasPremiumAccess } = state;
 
   // Detect when the next item is blocked by paywall (not at paywall yet, but can't go next)
@@ -167,10 +171,13 @@ export function CarouselContainer({
 
   // Handle next button click
   const handleNext = useCallback(() => {
-    if (canGoNext) {
+    if (isAtPaywall || isNextBlockedByPaywall) {
+      // Navigate to checkout page for premium upsell
+      router.push(`/${companySlug}/${roleSlug}/checkout`);
+    } else if (canGoNext) {
       next();
     }
-  }, [canGoNext, next]);
+  }, [canGoNext, next, isAtPaywall, isNextBlockedByPaywall, router, companySlug, roleSlug]);
 
   // Determine animation class based on last direction
   const animationClass =
@@ -315,7 +322,7 @@ export function CarouselContainer({
           <button
             type="button"
             onClick={handleNext}
-            disabled={!canGoNext && !isLastItem}
+            disabled={!canGoNext && !isLastItem && !isAtPaywall && !isNextBlockedByPaywall}
             className={cn(
               "min-h-[44px] min-w-[44px] px-6 py-3",
               "rounded-lg",
