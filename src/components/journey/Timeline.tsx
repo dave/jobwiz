@@ -4,6 +4,13 @@ import { cn } from "@/lib/utils";
 import { useJourney } from "./JourneyContext";
 import type { StepStatus } from "@/types";
 
+/**
+ * @deprecated The Timeline component is no longer used in production.
+ * The carousel UX (CarouselContainer, CarouselProvider) has replaced the
+ * timeline-based journey UI. Use the carousel components for new features.
+ * @see CarouselContainer
+ * @see CarouselProvider
+ */
 export interface TimelineProps {
   /** Custom class name */
   className?: string;
@@ -69,6 +76,13 @@ function StatusIcon({ status }: { status: StepStatus }) {
   }
 }
 
+/**
+ * @deprecated The Timeline component is no longer used in production.
+ * The carousel UX (CarouselContainer, CarouselProvider) has replaced the
+ * timeline-based journey UI. Use the carousel components for new features.
+ * @see CarouselContainer
+ * @see CarouselProvider
+ */
 export function Timeline({ className, interactive = true, orientation = "vertical" }: TimelineProps) {
   const {
     config,

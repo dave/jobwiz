@@ -2835,3 +2835,37 @@ All Stage 5 (Launch) code issues are now closed:
 **Screenshot:**
 - `screenshots/136-journey-progress-display.png` - Journey page with progress
 - `screenshots/136-journey-progress-full-page.png` - Full page with lock icons
+
+### 2026-01-19 - Issue #138: C6: Deprecate timeline components
+
+**Completed:**
+- Added `@deprecated` JSDoc to `JourneyContainer` component
+- Added `@deprecated` JSDoc to `Timeline` component
+- Updated `/src/app/journey-demo/page.tsx` to use carousel UX:
+  - Replaced `JourneyContainer` with `CarouselProvider` and `CarouselContainer`
+  - Demo content now displays in carousel format (one item at a time)
+  - Supports quiz items, content items (header, text, tip, quote, warning)
+- Verified no timeline visible in production paths:
+  - Learn page uses `LearnCarouselContent` (carousel)
+  - `LearnContent.tsx` kept as fallback but not used in production
+  - Timeline only rendered inside deprecated `JourneyContainer`
+
+**Files Modified:**
+- `src/components/journey/JourneyContainer.tsx` - Added @deprecated JSDoc
+- `src/components/journey/Timeline.tsx` - Added @deprecated JSDoc
+- `src/app/journey-demo/page.tsx` - Converted from JourneyContainer to carousel
+
+**Verification:**
+- `npm run lint` - passes with no errors
+- `npm run type-check` - passes with no errors
+- `npm run build` - successful production build
+- `npm test` - 493 carousel/journey tests pass
+- Manual verification:
+  - `/journey-demo` shows carousel (10 items) instead of timeline
+  - `/google/software-engineer/journey/learn` shows carousel (63 items)
+  - No timeline component visible in production paths
+- All acceptance criteria verified:
+  - JourneyContainer has @deprecated JSDoc ✓
+  - Timeline has @deprecated JSDoc ✓
+  - journey-demo page shows carousel ✓
+  - No timeline visible in production paths ✓

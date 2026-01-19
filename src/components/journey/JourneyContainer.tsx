@@ -9,6 +9,13 @@ import { Timeline } from "./Timeline";
 import { useJourney } from "./JourneyContext";
 import type { JourneyConfig } from "@/types";
 
+/**
+ * @deprecated Use CarouselContainer and CarouselProvider from @/components/carousel instead.
+ * This component uses the old timeline-based journey UI. The carousel UX provides
+ * a better full-screen, one-item-at-a-time experience.
+ * @see CarouselContainer
+ * @see CarouselProvider
+ */
 export interface JourneyContainerProps {
   config: JourneyConfig;
   /** Render function for step content */
@@ -181,6 +188,13 @@ function JourneyContainerInner({
   );
 }
 
+/**
+ * @deprecated Use CarouselContainer and CarouselProvider from @/components/carousel instead.
+ * This component uses the old timeline-based journey UI. The carousel UX provides
+ * a better full-screen, one-item-at-a-time experience.
+ * @see CarouselContainer
+ * @see CarouselProvider
+ */
 export function JourneyContainer({
   config,
   children,
