@@ -303,7 +303,7 @@ export function JourneyProgress({
             data-testid="progress-percentage"
             aria-label={progressLoading ? "Loading progress" : `${progressPercentage}% complete`}
           >
-            {progressLoading ? "-" : `${progressPercentage}%`}
+            {progressLoading ? "\u00A0" : `${progressPercentage}%`}
           </span>
         </div>
 
