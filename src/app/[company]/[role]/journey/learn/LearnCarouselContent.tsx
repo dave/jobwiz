@@ -72,6 +72,41 @@ function ConversationContentInner({
     router.push(`/${companySlug}/${roleSlug}/journey`);
   }, [router, companySlug, roleSlug]);
 
+  // Handle purchase - redirect to Stripe checkout
+  const handlePurchase = useCallback(async (): Promise<boolean> => {
+    try {
+      const res = await fetch("/api/checkout", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          company_slug: companySlug,
+          role_slug: roleSlug,
+        }),
+      });
+
+      if (!res.ok) {
+        const errorData = await res.json().catch(() => ({}));
+        const errorMsg = errorData.error || `Checkout failed: ${res.status}`;
+        console.error("Checkout error:", errorMsg);
+        return false;
+      }
+
+      const data = await res.json();
+      if (data.url) {
+        // Redirect to Stripe - return false so paywall doesn't mark as unlocked
+        // The actual unlock happens on checkout success page after payment completes
+        window.location.href = data.url;
+        return false;
+      }
+
+      console.error("No checkout URL returned");
+      return false;
+    } catch (error) {
+      console.error("Checkout error:", error);
+      return false;
+    }
+  }, [companySlug, roleSlug]);
+
   // Handle item completion - mark as complete and advance
   const handleItemComplete = useCallback(() => {
     if (currentItem) {
@@ -99,7 +134,7 @@ function ConversationContentInner({
     if (type === "paywall") {
       return (
         <CarouselPaywall
-          price={200} // $200 in dollars (CarouselPaywall expects dollars)
+          price={199} // $199 in dollars
           heading={`Unlock ${companyName} ${roleName} Prep`}
           description={`Get full access to company-specific interview prep, practice questions, and insider tips for ${companyName}.`}
           benefits={[
@@ -109,6 +144,7 @@ function ConversationContentInner({
             "Insider tips from successful candidates",
           ]}
           mockMode={process.env.NODE_ENV === "development"}
+          onPurchase={handlePurchase}
         />
       );
     }
@@ -192,6 +228,7 @@ function ConversationContentInner({
     companyName,
     roleName,
     handleItemComplete,
+    handlePurchase,
   ]);
 
   return (

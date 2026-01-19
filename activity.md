@@ -4608,6 +4608,51 @@ All Stage 6 (Production Content Population) issues are now closed:
   - Animation classes work ✓
   - Reduced motion fallback (instant) ✓
 
+### 2026-01-19 - Issue #195: 5.2: Paywall integration
+
+**Completed:**
+- Integrated paywall into conversation UI flow
+- Paywall items display in big-question mode (full-screen, centered)
+- Checkout flow wired up with Stripe redirect
+- After purchase, user returns and can continue conversation
+
+**Changes to ConversationContainer:**
+- Added paywall type check in `targetMode` calculation
+- When `currentItem.type === "paywall"`, forces big-question mode
+- Tap-to-continue disabled at paywall (user must click CTA)
+
+**Changes to LearnCarouselContent:**
+- Added `handlePurchase` function that:
+  - Calls `/api/checkout` to create Stripe session
+  - Redirects to Stripe Checkout page
+  - Returns `false` so paywall doesn't mark as unlocked prematurely
+- Wired `handlePurchase` to `CarouselPaywall.onPurchase` prop
+- Fixed price from cents (20000) to dollars (199) to match `CarouselPaywall` API
+
+**Files Modified:**
+- `src/components/alex/ConversationContainer.tsx` - Paywall mode detection, tap-to-continue prevention
+- `src/app/[company]/[role]/journey/learn/LearnCarouselContent.tsx` - Checkout flow integration
+- `src/components/alex/__tests__/ConversationContainer.test.tsx` - 5 new paywall integration tests
+
+**Tests:**
+- 5 new tests covering:
+  - Paywall item uses big-question mode
+  - BigQuestionMode renders at paywall
+  - Tap-to-continue disabled at paywall
+  - Display mode initialization based on item type
+  - Paywall blocks forward navigation via tap
+
+**Verification:**
+- `npm run lint` - passes (only pre-existing warnings)
+- `npm run type-check` - passes with no errors
+- `npm run build` - successful production build
+- `npm test` - 65 tests pass for ConversationContainer + LearnCarouselContent
+- All acceptance criteria verified:
+  - Paywall shows in big-question mode ✓
+  - Unlock redirects to checkout ✓
+  - Return from checkout continues ✓
+  - Premium content accessible after unlock ✓
+
 ---
 
 ## Stage 10 Progress

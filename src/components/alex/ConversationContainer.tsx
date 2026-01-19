@@ -74,9 +74,15 @@ function ConversationContainerInner({
   // Track the previous display mode for transition animation
   const [prevMode, setPrevMode] = useState<ConversationDisplayMode>(displayMode);
 
-  // Determine the correct display mode based on current item's content type
+  // Determine the correct display mode based on current item's type
+  // Paywall items always use big-question mode (full-screen, centered)
   const targetMode = useMemo<ConversationDisplayMode>(() => {
     if (!currentItem) return "big-question";
+
+    // Paywall items always display in big-question mode
+    if (currentItem.type === "paywall") {
+      return "big-question";
+    }
 
     const contentType = currentItem.content?.type;
     if (!contentType) return "big-question";
@@ -132,6 +138,9 @@ function ConversationContainerInner({
       // Only in big-question mode and not on buttons/interactive elements
       if (displayMode !== "big-question") return;
 
+      // Don't allow tap-to-continue on paywall - user must click CTA
+      if (isAtPaywall) return;
+
       const target = event.target as HTMLElement;
       // Don't trigger on buttons, links, or other interactive elements
       if (
@@ -147,7 +156,7 @@ function ConversationContainerInner({
 
       handleContinue();
     },
-    [displayMode, handleContinue]
+    [displayMode, handleContinue, isAtPaywall]
   );
 
   // Determine transition direction
