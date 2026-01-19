@@ -614,3 +614,35 @@ All 22 role modules have correct grammar:
 - ✅ All grammar issues fixed (1 issue found and fixed)
 - ✅ JSON valid after edits
 
+### 2026-01-19 - Issue #265: Grammar review - Company modules: E-commerce/Retail
+
+**Status:** Complete
+
+**Modules Reviewed (11 total):**
+- walmart, target, best-buy, chewy, costco, etsy, home-depot, lululemon, nike, shopify, wayfair
+
+**Issues Found and Fixed:**
+
+1. **company-lululemon.json - Behavioral Questions section (line 59):**
+   - Had incomplete sentence: "Based on 5 interview reports, candidates commonly face: ."
+   - Fixed: Changed to "Candidates commonly face behavioral interviews focused on culture fit and personal wellness values."
+
+2. **company-lululemon.json - Interview Process section (line 183):**
+   - Had incomplete sentence: "**Format:** Mix of technical" (cut off)
+   - Fixed: Changed to "**Format:** Mix of phone screen, behavioral, and culture fit interviews"
+
+**Files Modified:**
+- `data/generated/modules/company-lululemon.json` - Fixed 2 incomplete sentences
+
+**Verification:**
+- All JSON files valid (python3 -m json.tool validation passes)
+- `npm run lint` - passes (warnings only for unrelated image issues)
+- `npm run type-check` - passes
+- `npm run build` - successful
+- `npm test -- --testPathPattern="modules"` - 77 tests pass
+
+**Acceptance Criteria:**
+- ✅ All 11 E-commerce/Retail company modules reviewed
+- ✅ All grammar issues fixed (2 issues found and fixed)
+- ✅ JSON valid after edits
+
