@@ -14,7 +14,7 @@ Fix content quality issues identified during manual review of interview prep mod
 ### Quiz Format Overhaul (#234)
 - [x] #235 - Create ReflectionItem component
 - [x] #236 - Add detection logic to QuizItem
-- [ ] #237 - Add tests
+- [x] #237 - Add tests
 - [ ] #238 - Visual QA
 
 ### Remove Role-Specific Content (#230)
@@ -161,4 +161,46 @@ Fix content quality issues identified during manual review of interview prep mod
 - ✅ Normal quizzes still render as multiple choice
 - ✅ Reflection quizzes render via ReflectionItem
 - ✅ No breaking changes to existing quiz behavior
+
+### 2026-01-19 - Issue #237: Add tests for ReflectionItem and detection logic
+
+**Status:** Already complete - tests were added as part of #235 and #236
+
+**Tests Already Implemented:**
+
+ReflectionItem tests (33 tests in `src/components/carousel/items/__tests__/ReflectionItem.test.tsx`):
+- Rendering (question, sections, labels, buttons)
+- Without explanation (no Tip section)
+- Without correct answer (no What to Demonstrate section)
+- onComplete callback
+- Accessibility (ARIA labels on all regions)
+- Styling (correct color backgrounds)
+- Layout (min-height, centered, max-width)
+- Edge cases (single incorrect, only correct, empty options, long text, special chars)
+
+Detection logic tests (12 tests in `src/components/carousel/items/__tests__/QuizItem.test.tsx`):
+- `isReflectionQuiz` function tests:
+  - Returns true for quiz with Demonstrate... that is significantly longer
+  - Returns false for normal trivia quiz
+  - Returns false when correct doesn't start with Demonstrate
+  - Returns false when Demonstrate answer isn't significantly longer
+  - Returns false when no correct answer exists
+  - Returns false when no wrong answers exist
+  - Handles case-insensitive Demonstrate detection
+  - Handles whitespace before Demonstrate
+- QuizItem rendering tests:
+  - Renders as ReflectionItem when detected as reflection quiz
+  - Renders as interactive quiz when not a reflection quiz
+  - Passes onComplete to ReflectionItem
+  - Passes className to ReflectionItem
+
+**Verification:**
+- `npm test -- --testPathPattern="ReflectionItem"` - 33 tests pass
+- `npm test -- --testPathPattern="QuizItem" --testNamePattern="Reflection|isReflectionQuiz"` - 12 tests pass
+
+**Acceptance Criteria:**
+- ✅ ReflectionItem tests pass
+- ✅ Detection logic tests pass
+- ✅ Coverage for edge cases
+- ✅ Relevant tests for #237 pass (pre-existing failures in other test files are unrelated)
 
