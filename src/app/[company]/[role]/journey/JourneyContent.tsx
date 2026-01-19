@@ -3,21 +3,59 @@
 /**
  * Journey Content
  * Issue: #117 - Freemium model with paywall
+ * Issue: #136 - Journey progress display
  *
  * Client component that displays the interview prep journey
  * Free modules shown to all, premium modules behind paywall
+ * Now includes carousel-based progress tracking
  */
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useMemo } from "react";
 import Link from "next/link";
 import { PaywallGate } from "@/components/paywall";
+import { JourneyProgress } from "@/components/journey";
 import { useAuth } from "@/lib/auth";
+import type { Module } from "@/types/module";
+import type { CarouselProgress } from "@/types/carousel";
 
 interface JourneyContentProps {
   companySlug: string;
   roleSlug: string;
   companyName: string;
   roleName: string;
+  /** All modules in order */
+  allModules: Module[];
+  /** Total number of carousel items */
+  totalItems: number;
+  /** Paywall index (null if no paywall) */
+  paywallIndex: number | null;
+}
+
+/**
+ * Get localStorage key for carousel progress
+ */
+function getStorageKey(companySlug: string, roleSlug: string): string {
+  return `carousel-${companySlug}-${roleSlug}`;
+}
+
+/**
+ * Load carousel progress from localStorage
+ */
+function loadPersistedProgress(
+  companySlug: string,
+  roleSlug: string
+): CarouselProgress | null {
+  if (typeof window === "undefined") return null;
+
+  try {
+    const stored = localStorage.getItem(getStorageKey(companySlug, roleSlug));
+    if (!stored) return null;
+
+    const progress = JSON.parse(stored) as CarouselProgress;
+    return progress;
+  } catch {
+    return null;
+  }
 }
 
 export function JourneyContent({
@@ -25,10 +63,20 @@ export function JourneyContent({
   roleSlug,
   companyName,
   roleName,
+  allModules,
+  totalItems,
+  paywallIndex,
 }: JourneyContentProps) {
   const { user } = useAuth();
   const [hasAccess, setHasAccess] = useState(false);
   const [checkingAccess, setCheckingAccess] = useState(true);
+  const [progress, setProgress] = useState<CarouselProgress | null>(null);
+
+  // Load persisted progress from localStorage on mount
+  useEffect(() => {
+    const loadedProgress = loadPersistedProgress(companySlug, roleSlug);
+    setProgress(loadedProgress);
+  }, [companySlug, roleSlug]);
 
   // Check if user has purchased access
   useEffect(() => {
@@ -40,7 +88,9 @@ export function JourneyContent({
       }
 
       try {
-        const res = await fetch(`/api/access?company=${companySlug}&role=${roleSlug}`);
+        const res = await fetch(
+          `/api/access?company=${companySlug}&role=${roleSlug}`
+        );
         if (res.ok) {
           const data = await res.json();
           setHasAccess(data.hasAccess);
@@ -87,10 +137,15 @@ export function JourneyContent({
       return false;
     } catch (error) {
       console.error("Checkout error:", error);
-      alert(`Checkout error: ${error instanceof Error ? error.message : "Unknown error"}`);
+      alert(
+        `Checkout error: ${error instanceof Error ? error.message : "Unknown error"}`
+      );
       return false;
     }
   };
+
+  // Determine if there are any modules to display
+  const hasModules = allModules.length > 0;
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -131,143 +186,191 @@ export function JourneyContent({
       </header>
 
       <main className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        {/* Journey Progress */}
-        <div className="bg-white shadow rounded-lg p-6 mb-6">
-          <div className="flex items-center justify-between mb-4">
-            <h2 className="text-lg font-semibold text-gray-900">Your Progress</h2>
-            <span className="text-sm text-gray-500">0% Complete</span>
-          </div>
-          <div className="w-full bg-gray-200 rounded-full h-2">
-            <div
-              className="bg-blue-600 h-2 rounded-full"
-              style={{ width: "0%" }}
+        {hasModules ? (
+          <>
+            {/* Journey Progress Component */}
+            <JourneyProgress
+              companySlug={companySlug}
+              roleSlug={roleSlug}
+              companyName={companyName}
+              roleName={roleName}
+              allModules={allModules}
+              totalItems={totalItems}
+              paywallIndex={paywallIndex}
+              hasPremiumAccess={hasAccess}
+              progress={progress}
             />
-          </div>
-        </div>
 
-        {/* Free Content Section */}
-        <div className="bg-white shadow rounded-lg p-6 mb-6">
-          <div className="flex items-center gap-2 mb-6">
-            <h2 className="text-lg font-semibold text-gray-900">
-              Getting Started
-            </h2>
-            <span className="px-2 py-0.5 bg-green-100 text-green-800 text-xs font-medium rounded">
-              FREE
-            </span>
-          </div>
-
-          <div className="space-y-4">
-            <JourneyStep
-              number={1}
-              title="Interview Fundamentals"
-              description="Learn the core principles that apply to any interview, including STAR method and communication tips."
-              status="current"
-            />
-            <JourneyStep
-              number={2}
-              title="Industry Overview"
-              description={`Understand the ${companyName} industry landscape and what companies look for.`}
-              status="upcoming"
-            />
-          </div>
-
-          <div className="mt-6">
-            <Link
-              href={`/${companySlug}/${roleSlug}/journey/learn`}
-              className="inline-block bg-blue-600 text-white px-6 py-2 rounded-lg font-medium hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
-            >
-              Start Free Content
-            </Link>
-          </div>
-        </div>
-
-        {/* Premium Content Section - Behind Paywall (unless user has access) */}
-        {hasAccess ? (
-          // User has purchased - show premium content directly
-          <div className="bg-white shadow rounded-lg p-6">
-            <div className="flex items-center gap-2 mb-6">
-              <h2 className="text-lg font-semibold text-gray-900">
-                {companyName}-Specific Preparation
-              </h2>
-              <span className="px-2 py-0.5 bg-green-100 text-green-800 text-xs font-medium rounded">
-                UNLOCKED
-              </span>
-            </div>
-
-            <div className="space-y-4">
-              <JourneyStep
-                number={3}
-                title={`${companyName} Culture & Values`}
-                description={`Deep dive into ${companyName}'s leadership principles, culture, and what they truly value.`}
-                status="upcoming"
-              />
-              <JourneyStep
-                number={4}
-                title={`${roleName} Interview Questions`}
-                description={`Practice real interview questions specific to ${roleName} roles at ${companyName}.`}
-                status="upcoming"
-              />
-              <JourneyStep
-                number={5}
-                title="Mock Interview & Final Prep"
-                description={`Put it all together with a simulated ${companyName} interview experience.`}
-                status="upcoming"
-              />
-            </div>
-
-            <div className="mt-6">
-              <Link
-                href={`/${companySlug}/${roleSlug}/journey/learn`}
-                className="inline-block bg-blue-600 text-white px-6 py-2 rounded-lg font-medium hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
-              >
-                Continue to Premium Content
-              </Link>
-            </div>
-          </div>
+            {/* Premium Unlock Section (if user doesn't have access) */}
+            {!hasAccess && !checkingAccess && (
+              <div className="mt-6">
+                <PaywallGate
+                  journeyId={`${companySlug}-${roleSlug}`}
+                  price={199}
+                  variant="soft"
+                  mockMode={false}
+                  onPurchase={handlePurchase}
+                  heading={`Unlock Premium Content`}
+                  description={`Get full access to ${companyName}-specific strategies, insider tips, and practice questions tailored for ${roleName} interviews.`}
+                  ctaText="Get Full Access"
+                >
+                  <div className="p-6 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-100">
+                    <h3 className="text-lg font-semibold text-gray-900 mb-2">
+                      Premium modules are locked
+                    </h3>
+                    <p className="text-gray-600 text-sm">
+                      Unlock company-specific preparation, role-targeted
+                      questions, and insider tips to ace your interview.
+                    </p>
+                  </div>
+                </PaywallGate>
+              </div>
+            )}
+          </>
         ) : (
-          // User hasn't purchased - show paywall
-          <PaywallGate
-            journeyId={`${companySlug}-${roleSlug}`}
-            price={199}
-            variant="hard"
-            mockMode={false}
-            onPurchase={handlePurchase}
-            heading={`Unlock ${companyName} ${roleName} Prep`}
-            description={`Get full access to company-specific strategies, insider tips, and practice questions tailored for ${companyName} ${roleName} interviews.`}
-            ctaText="Get Full Access"
-          >
-            <div className="bg-white shadow rounded-lg p-6">
+          /* Fallback when no modules are loaded - show legacy content */
+          <>
+            {/* Journey Progress (legacy) */}
+            <div className="bg-white shadow rounded-lg p-6 mb-6">
+              <div className="flex items-center justify-between mb-4">
+                <h2 className="text-lg font-semibold text-gray-900">
+                  Your Progress
+                </h2>
+                <span className="text-sm text-gray-500">0% Complete</span>
+              </div>
+              <div className="w-full bg-gray-200 rounded-full h-2">
+                <div
+                  className="bg-blue-600 h-2 rounded-full"
+                  style={{ width: "0%" }}
+                />
+              </div>
+            </div>
+
+            {/* Free Content Section */}
+            <div className="bg-white shadow rounded-lg p-6 mb-6">
               <div className="flex items-center gap-2 mb-6">
                 <h2 className="text-lg font-semibold text-gray-900">
-                  {companyName}-Specific Preparation
+                  Getting Started
                 </h2>
-                <span className="px-2 py-0.5 bg-blue-100 text-blue-800 text-xs font-medium rounded">
-                  PREMIUM
+                <span className="px-2 py-0.5 bg-green-100 text-green-800 text-xs font-medium rounded">
+                  FREE
                 </span>
               </div>
 
               <div className="space-y-4">
                 <JourneyStep
-                  number={3}
-                  title={`${companyName} Culture & Values`}
-                  description={`Deep dive into ${companyName}'s leadership principles, culture, and what they truly value.`}
-                  status="locked"
+                  number={1}
+                  title="Interview Fundamentals"
+                  description="Learn the core principles that apply to any interview, including STAR method and communication tips."
+                  status="current"
                 />
                 <JourneyStep
-                  number={4}
-                  title={`${roleName} Interview Questions`}
-                  description={`Practice real interview questions specific to ${roleName} roles at ${companyName}.`}
-                  status="locked"
-                />
-                <JourneyStep
-                  number={5}
-                  title="Mock Interview & Final Prep"
-                  description={`Put it all together with a simulated ${companyName} interview experience.`}
-                  status="locked"
+                  number={2}
+                  title="Industry Overview"
+                  description={`Understand the ${companyName} industry landscape and what companies look for.`}
+                  status="upcoming"
                 />
               </div>
+
+              <div className="mt-6">
+                <Link
+                  href={`/${companySlug}/${roleSlug}/journey/learn`}
+                  className="inline-block bg-blue-600 text-white px-6 py-2 rounded-lg font-medium hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+                >
+                  Start Free Content
+                </Link>
+              </div>
             </div>
-          </PaywallGate>
+
+            {/* Premium Content Section - Behind Paywall (unless user has access) */}
+            {hasAccess ? (
+              // User has purchased - show premium content directly
+              <div className="bg-white shadow rounded-lg p-6">
+                <div className="flex items-center gap-2 mb-6">
+                  <h2 className="text-lg font-semibold text-gray-900">
+                    {companyName}-Specific Preparation
+                  </h2>
+                  <span className="px-2 py-0.5 bg-green-100 text-green-800 text-xs font-medium rounded">
+                    UNLOCKED
+                  </span>
+                </div>
+
+                <div className="space-y-4">
+                  <JourneyStep
+                    number={3}
+                    title={`${companyName} Culture & Values`}
+                    description={`Deep dive into ${companyName}'s leadership principles, culture, and what they truly value.`}
+                    status="upcoming"
+                  />
+                  <JourneyStep
+                    number={4}
+                    title={`${roleName} Interview Questions`}
+                    description={`Practice real interview questions specific to ${roleName} roles at ${companyName}.`}
+                    status="upcoming"
+                  />
+                  <JourneyStep
+                    number={5}
+                    title="Mock Interview & Final Prep"
+                    description={`Put it all together with a simulated ${companyName} interview experience.`}
+                    status="upcoming"
+                  />
+                </div>
+
+                <div className="mt-6">
+                  <Link
+                    href={`/${companySlug}/${roleSlug}/journey/learn`}
+                    className="inline-block bg-blue-600 text-white px-6 py-2 rounded-lg font-medium hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+                  >
+                    Continue to Premium Content
+                  </Link>
+                </div>
+              </div>
+            ) : (
+              // User hasn't purchased - show paywall
+              <PaywallGate
+                journeyId={`${companySlug}-${roleSlug}`}
+                price={199}
+                variant="hard"
+                mockMode={false}
+                onPurchase={handlePurchase}
+                heading={`Unlock ${companyName} ${roleName} Prep`}
+                description={`Get full access to company-specific strategies, insider tips, and practice questions tailored for ${companyName} ${roleName} interviews.`}
+                ctaText="Get Full Access"
+              >
+                <div className="bg-white shadow rounded-lg p-6">
+                  <div className="flex items-center gap-2 mb-6">
+                    <h2 className="text-lg font-semibold text-gray-900">
+                      {companyName}-Specific Preparation
+                    </h2>
+                    <span className="px-2 py-0.5 bg-blue-100 text-blue-800 text-xs font-medium rounded">
+                      PREMIUM
+                    </span>
+                  </div>
+
+                  <div className="space-y-4">
+                    <JourneyStep
+                      number={3}
+                      title={`${companyName} Culture & Values`}
+                      description={`Deep dive into ${companyName}'s leadership principles, culture, and what they truly value.`}
+                      status="locked"
+                    />
+                    <JourneyStep
+                      number={4}
+                      title={`${roleName} Interview Questions`}
+                      description={`Practice real interview questions specific to ${roleName} roles at ${companyName}.`}
+                      status="locked"
+                    />
+                    <JourneyStep
+                      number={5}
+                      title="Mock Interview & Final Prep"
+                      description={`Put it all together with a simulated ${companyName} interview experience.`}
+                      status="locked"
+                    />
+                  </div>
+                </div>
+              </PaywallGate>
+            )}
+          </>
         )}
       </main>
     </div>

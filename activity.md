@@ -2780,3 +2780,58 @@ All Stage 5 (Launch) code issues are now closed:
 
 **Screenshot:**
 - `screenshots/135-learn-carousel-quote.png` - Carousel showing quote block
+
+### 2026-01-19 - Issue #136: C4: Journey progress display
+
+**Completed:**
+- Created `JourneyProgress` component (`/src/components/journey/JourneyProgress.tsx`)
+- Features:
+  - Overall % complete display (large, prominent)
+  - Current module name shown beneath "Your Progress" heading
+  - "Continue" button (or "Start Journey" / "Review Journey") linking to learn page
+  - Module list showing all modules with type badges (FREE, COMPANY, ROLE, TARGETED)
+  - Lock icons for unpurchased premium modules with "Locked" text
+  - Progress bar with item count (e.g., "0 of 63 items complete")
+  - Accessible progress indicators (aria-labels, progressbar role)
+- Integrated into journey overview page (`/[company]/[role]/journey`)
+- Loads carousel modules server-side and passes to client component
+- Reads persisted progress from localStorage
+- Shows paywall section for users without premium access
+
+**Files Created:**
+- `src/components/journey/JourneyProgress.tsx`
+- `src/components/journey/__tests__/JourneyProgress.test.tsx`
+
+**Files Modified:**
+- `src/components/journey/index.ts` - Added JourneyProgress export
+- `src/app/[company]/[role]/journey/page.tsx` - Load carousel modules
+- `src/app/[company]/[role]/journey/JourneyContent.tsx` - Integrate JourneyProgress
+
+**Tests:**
+- 29 unit tests covering:
+  - Rendering (progress card, module list, all module items)
+  - Progress percentage (0%, calculated, 100%)
+  - Current module display
+  - Continue button states (Start/Continue/Review)
+  - Lock icons for premium modules
+  - Module badges (FREE, COMPANY, ROLE, TARGETED)
+  - Module list item states (locked/unlocked)
+  - Progress bar with aria attributes
+  - Item count display
+  - Accessibility
+  - Edge cases (empty modules, null progress, zero items)
+
+**Verification:**
+- `npm run lint` - passes with no errors
+- `npm run type-check` - passes with no errors
+- `npm run build` - successful production build
+- `npm test` - 29 JourneyProgress tests pass, all journey tests pass
+- All acceptance criteria verified:
+  - Dashboard shows progress % ✓
+  - Shows current module name ✓
+  - Continue button resumes correctly ✓
+  - Lock icons for unpurchased premium modules ✓
+
+**Screenshot:**
+- `screenshots/136-journey-progress-display.png` - Journey page with progress
+- `screenshots/136-journey-progress-full-page.png` - Full page with lock icons

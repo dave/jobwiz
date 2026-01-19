@@ -1,6 +1,8 @@
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getCompanyBySlug, getRoleBySlug } from "@/lib/routing";
+import { loadCarouselModules } from "@/lib/carousel";
+import { flattenToCarouselItems } from "@/lib/carousel/flatten-modules";
 import { JourneyContent } from "./JourneyContent";
 
 interface JourneyPageProps {
@@ -49,12 +51,27 @@ export default async function JourneyPage({ params }: JourneyPageProps) {
     notFound();
   }
 
+  // Load carousel modules for this company/role
+  const { freeModules, premiumModules, allModules } = loadCarouselModules(
+    companySlug,
+    roleSlug
+  );
+
+  // Flatten modules to get item counts
+  const { totalItems, paywallIndex } = flattenToCarouselItems(
+    freeModules,
+    premiumModules
+  );
+
   return (
     <JourneyContent
       companySlug={companySlug}
       roleSlug={roleSlug}
       companyName={company.name}
       roleName={role.name}
+      allModules={allModules}
+      totalItems={totalItems}
+      paywallIndex={paywallIndex}
     />
   );
 }

@@ -8,3 +8,4 @@ export { JourneyContainer, type JourneyContainerProps } from "./JourneyContainer
 export { StepNavigation, type StepNavigationProps } from "./StepNavigation";
 export { ProgressBar, type ProgressBarProps } from "./ProgressBar";
 export { Timeline, type TimelineProps } from "./Timeline";
+export { JourneyProgress, type JourneyProgressProps } from "./JourneyProgress";
