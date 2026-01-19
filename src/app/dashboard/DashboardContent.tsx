@@ -148,42 +148,8 @@ export function DashboardContent() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          {/* Quick Actions */}
-          <div className="bg-white shadow rounded-lg p-6">
-            <h3 className="text-md font-semibold text-gray-900 mb-3">
-              Quick Actions
-            </h3>
-            <ul className="space-y-2">
-              <li>
-                <Link
-                  href="/google/software-engineer"
-                  className="text-blue-600 hover:underline"
-                >
-                  Google Software Engineer
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/amazon/product-manager"
-                  className="text-blue-600 hover:underline"
-                >
-                  Amazon Product Manager
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/meta/data-scientist"
-                  className="text-blue-600 hover:underline"
-                >
-                  Meta Data Scientist
-                </Link>
-              </li>
-            </ul>
-          </div>
-
-          {/* Purchased Content */}
-          <div className="bg-white shadow rounded-lg p-6">
+        {/* Purchased Content */}
+        <div className="bg-white shadow rounded-lg p-6">
             <h3 className="text-md font-semibold text-gray-900 mb-3">
               Your Purchases
             </h3>
@@ -220,7 +186,6 @@ export function DashboardContent() {
               </ul>
             )}
           </div>
-        </div>
       </main>
     </div>
   );
