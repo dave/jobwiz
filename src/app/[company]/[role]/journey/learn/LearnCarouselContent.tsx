@@ -41,6 +41,8 @@ export interface LearnCarouselContentProps {
   flattenedResult: FlattenResult | null;
   /** Whether user has premium access */
   hasPremiumAccess?: boolean;
+  /** Optional starting index (for jumping to a specific module) */
+  startAtIndex?: number;
 }
 
 /**
@@ -168,6 +170,7 @@ export function LearnCarouselContent({
   roleName,
   flattenedResult,
   hasPremiumAccess = false,
+  startAtIndex,
 }: LearnCarouselContentProps) {
   const router = useRouter();
 
@@ -213,6 +216,7 @@ export function LearnCarouselContent({
         items,
         paywallIndex,
         hasPremiumAccess,
+        initialIndex: startAtIndex,
       }}
     >
       <CarouselContentInner

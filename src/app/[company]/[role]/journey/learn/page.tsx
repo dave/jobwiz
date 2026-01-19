@@ -18,10 +18,15 @@ interface LearnPageProps {
     company: string;
     role: string;
   }>;
+  searchParams: Promise<{
+    startAt?: string;
+  }>;
 }
 
-export default async function LearnPage({ params }: LearnPageProps) {
+export default async function LearnPage({ params, searchParams }: LearnPageProps) {
   const { company: companySlug, role: roleSlug } = await params;
+  const { startAt } = await searchParams;
+  const startAtIndex = startAt ? parseInt(startAt, 10) : undefined;
 
   // Validate company and role exist
   const company = getCompanyBySlug(companySlug);
@@ -63,6 +68,7 @@ export default async function LearnPage({ params }: LearnPageProps) {
       roleName={role.name}
       flattenedResult={flattenedResult}
       hasPremiumAccess={hasPremiumAccess}
+      startAtIndex={startAtIndex}
     />
   );
 }

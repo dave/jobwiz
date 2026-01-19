@@ -84,6 +84,7 @@ interface ModuleDisplayInfo {
   isCurrent: boolean;
   itemCount: number;
   completedItemCount: number;
+  startIndex: number;
 }
 
 /**
@@ -190,6 +191,7 @@ function buildModuleDisplayInfo(
       isCurrent,
       itemCount: moduleItemCount,
       completedItemCount,
+      startIndex: moduleStartIndex,
     });
 
     cumulativeIndex = moduleEndIndex;
@@ -378,6 +380,7 @@ function ModuleListItem({
     isCurrent,
     itemCount,
     completedItemCount,
+    startIndex,
   } = moduleInfo;
 
   // Determine item styling based on state
@@ -386,17 +389,25 @@ function ModuleListItem({
   let iconContainerClasses =
     "flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center mr-3";
 
+  // Add hover styles for clickable (non-locked) items
+  if (!isLocked) {
+    containerClasses += " cursor-pointer hover:shadow-md";
+  }
+
   if (isCompleted) {
     containerClasses += " bg-green-50 border-green-200";
+    if (!isLocked) containerClasses += " hover:bg-green-100";
     iconContainerClasses += " bg-green-600 text-white";
   } else if (isCurrent) {
     containerClasses += " bg-blue-50 border-blue-200";
+    if (!isLocked) containerClasses += " hover:bg-blue-100";
     iconContainerClasses += " bg-blue-600 text-white";
   } else if (isLocked) {
     containerClasses += " bg-gray-50 border-gray-100 opacity-75";
     iconContainerClasses += " bg-gray-300 text-gray-500";
   } else {
     containerClasses += " bg-gray-50 border-gray-200";
+    containerClasses += " hover:bg-gray-100";
     iconContainerClasses += " bg-gray-300 text-gray-600";
   }
 
@@ -439,8 +450,11 @@ function ModuleListItem({
       ? "Complete"
       : `${completedItemCount}/${itemCount}`;
 
-  return (
-    <div className={containerClasses} data-testid={`module-item-${index}`}>
+  // URL for non-locked modules
+  const moduleUrl = `/${companySlug}/${roleSlug}/journey/learn?startAt=${startIndex}`;
+
+  const content = (
+    <>
       {/* Icon */}
       <div className={iconContainerClasses}>
         {isCompleted ? (
@@ -485,7 +499,26 @@ function ModuleListItem({
           Current
         </span>
       )}
-    </div>
+    </>
+  );
+
+  // Render as Link for accessible modules, div for locked ones
+  if (isLocked) {
+    return (
+      <div className={containerClasses} data-testid={`module-item-${index}`}>
+        {content}
+      </div>
+    );
+  }
+
+  return (
+    <Link
+      href={moduleUrl}
+      className={containerClasses}
+      data-testid={`module-item-${index}`}
+    >
+      {content}
+    </Link>
   );
 }
 
