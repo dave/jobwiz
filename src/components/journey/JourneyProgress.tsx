@@ -282,20 +282,24 @@ export function JourneyProgress({
             <h2 className="text-lg font-semibold text-gray-900">
               Your Progress
             </h2>
-            {!progressLoading && currentModule && (
-              <p
-                className="text-sm text-gray-500 mt-1"
-                data-testid="current-module-name"
-              >
-                Current:{" "}
-                <span className="font-medium text-gray-700">
-                  {currentModule.title}
-                </span>
-              </p>
-            )}
+            <p
+              className="text-sm text-gray-500 mt-1 h-5"
+              data-testid="current-module-name"
+            >
+              {progressLoading ? (
+                <span className="text-gray-400">&nbsp;</span>
+              ) : currentModule ? (
+                <>
+                  Current:{" "}
+                  <span className="font-medium text-gray-700">
+                    {currentModule.title}
+                  </span>
+                </>
+              ) : null}
+            </p>
           </div>
           <span
-            className="text-2xl font-bold text-blue-600"
+            className="text-2xl font-bold text-blue-600 min-w-[4ch] text-right"
             data-testid="progress-percentage"
             aria-label={progressLoading ? "Loading progress" : `${progressPercentage}% complete`}
           >
@@ -320,8 +324,8 @@ export function JourneyProgress({
               />
             )}
           </div>
-          <p className="text-xs text-gray-500 mt-1">
-            {progressLoading ? "Loading..." : `${completedItems.size} of ${totalItems} items complete`}
+          <p className="text-xs text-gray-500 mt-1 h-4">
+            {progressLoading ? "\u00A0" : `${completedItems.size} of ${totalItems} items complete`}
           </p>
         </div>
 
