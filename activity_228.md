@@ -62,7 +62,7 @@ Fix content quality issues identified during manual review of interview prep mod
 - [x] #272 - Company-role modules: Finance
 - [x] #273 - Company-role modules: Consulting
 - [x] #274 - Company-role modules: E-commerce/Retail
-- [ ] #275 - Company-role modules: Healthcare/Biotech
+- [x] #275 - Company-role modules: Healthcare/Biotech
 - [ ] #276 - Company-role modules: Enterprise SaaS
 - [ ] #277 - Company-role modules: Media/Entertainment
 - [ ] #278 - Company-role modules: Other companies
@@ -1040,5 +1040,48 @@ None. Unlike the company modules which had garbled scraped content in some "Comm
 
 **Acceptance Criteria:**
 - ✅ All 81 company-role modules in batch reviewed
+- ✅ All grammar issues fixed (none found - content is clean)
+
+### 2026-01-19 - Issue #275: Grammar review - Company-role modules: Healthcare/Biotech
+
+**Status:** Complete
+
+**Modules Reviewed (57 total):**
+Reviewed all company-role modules for Healthcare/Biotech companies:
+- Cerner (5 modules): engineering-manager, product-manager, qa-engineer, software-engineer, technical-program-manager
+- CVS Health (7 modules): backend-engineer, business-analyst, data-engineer, data-scientist, engineering-manager, product-manager, software-engineer
+- Epic (5 modules): engineering-manager, product-manager, qa-engineer, software-engineer, technical-program-manager
+- Genentech (5 modules): data-engineer, data-scientist, engineering-manager, machine-learning-engineer, software-engineer
+- Illumina (5 modules): data-engineer, data-scientist, engineering-manager, machine-learning-engineer, software-engineer
+- J&J (6 modules): business-analyst, data-engineer, data-scientist, engineering-manager, product-manager, software-engineer
+- Moderna (5 modules): data-engineer, data-scientist, engineering-manager, machine-learning-engineer, software-engineer
+- Optum (7 modules): backend-engineer, business-analyst, data-engineer, data-scientist, engineering-manager, product-manager, software-engineer
+- Pfizer (6 modules): data-engineer, data-scientist, engineering-manager, machine-learning-engineer, product-manager, software-engineer
+- UnitedHealth (7 modules): backend-engineer, business-analyst, data-engineer, data-scientist, engineering-manager, product-manager, software-engineer
+
+**Approach:**
+1. Created automated grammar check script to detect:
+   - Garbled/scraped content patterns (multiple ???, informal questions, irrelevant content)
+   - Grammar errors ("1 rounds" instead of "1 round")
+   - Invalid timelines (0 weeks, >11 weeks)
+   - Incomplete sentence fragments
+   - Cut-off text mid-word
+2. Ran automated check on all 57 files
+3. Manually spot-checked sample files (Epic SWE, Pfizer DS, Moderna MLE, Illumina DE, UnitedHealth PM)
+
+**Issues Found:**
+None. Unlike the company modules which had garbled scraped content in some "Common Interview Questions" and "Insider Tips" sections, the company-role modules are generated with clean, professional content. All text blocks, quizzes, and explanations are well-formed.
+
+**Note:** The explanations intentionally end with "..." - this is by design to truncate long explanations, not a grammar error.
+
+**Verification:**
+- All JSON files valid
+- `npm run lint` - passes (warnings only for unrelated image issues)
+- `npm run type-check` - passes
+- `npm run build` - successful
+- `npm test -- --testPathPattern="modules"` - 77 tests pass
+
+**Acceptance Criteria:**
+- ✅ All 57 company-role modules in batch reviewed
 - ✅ All grammar issues fixed (none found - content is clean)
 
