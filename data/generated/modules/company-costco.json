@@ -68,24 +68,6 @@
         {
           "type": "text",
           "content": {
-            "text": "**Technical Questions**"
-          }
-        },
-        {
-          "type": "tip",
-          "content": {
-            "text": "Costco is testing both your statistical knowledge and your judgment. The textbook answer is easy - they're probing for business intuition."
-          }
-        },
-        {
-          "type": "tip",
-          "content": {
-            "text": "This question is a trap for candidates who only look at accuracy. Costco is testing: Do you understand class imbalance?"
-          }
-        },
-        {
-          "type": "text",
-          "content": {
             "text": "**Culture Fit Questions**"
           }
         },
@@ -180,7 +162,7 @@
         {
           "type": "text",
           "content": {
-            "text": "**Costco Interview Process Overview**\n\n- **Typical rounds:** 5 rounds typical\n- **Timeline:** 14 weeks\n- **Format:** Mix of technical, behavioral, on-site, virtual"
+            "text": "**Costco Interview Process Overview**\n\n- **Typical rounds:** 5 rounds typical\n- **Timeline:** 14 weeks\n- **Format:** Mix of role-specific, behavioral, on-site, virtual"
           }
         },
         {

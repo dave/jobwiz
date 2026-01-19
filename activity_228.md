@@ -1433,3 +1433,50 @@ McKinsey, BCG, Bain, Deloitte, Accenture, PwC, EY, KPMG, Capgemini, Booz Allen
 - ✅ JSON valid after edits
 - ✅ All tests pass
 
+
+### 2026-01-19 - Issue #283: Remove role-specific content - Company modules: E-commerce/Retail
+
+**Status:** Complete
+
+**Modules Modified (11 total):**
+Walmart, Target, Best Buy, Chewy, Costco, Etsy, Home Depot, lululemon, Nike, Shopify, Wayfair
+
+**Role-specific content removed/generalized:**
+
+1. **Interviewer Mindset section** (all 11 modules):
+   - Removed: "**Technical Questions**" sub-section entirely
+   - Removed: Tips about "statistical knowledge" and "class imbalance" (role-specific data science content)
+   - Generalized: Behavioral questions tip changed from "System design emphasis, Heavy focus on coding, Behavioral interviews important" to "Behavioral interviews, culture fit assessments, and problem-solving exercises"
+
+2. **Process section** (10 modules - all except lululemon which already had role-neutral format):
+   - Changed: "**Format:** Mix of phone screen, technical, behavioral..." to "**Format:** Mix of phone screen, role-specific, behavioral..."
+
+**Files Modified:**
+- `data/generated/modules/company-walmart.json`
+- `data/generated/modules/company-target.json`
+- `data/generated/modules/company-best-buy.json`
+- `data/generated/modules/company-chewy.json`
+- `data/generated/modules/company-costco.json`
+- `data/generated/modules/company-etsy.json`
+- `data/generated/modules/company-home-depot.json`
+- `data/generated/modules/company-lululemon.json`
+- `data/generated/modules/company-nike.json`
+- `data/generated/modules/company-shopify.json`
+- `data/generated/modules/company-wayfair.json`
+
+**Script Created:**
+- `scripts/cleanup/remove-role-specific-ecommerce.ts` - Automated removal of role-specific content
+
+**Verification:**
+- All 11 JSON files valid (python3 -m json.tool validation passes)
+- `npm run lint` - passes (warnings only for unrelated image issues)
+- `npm run type-check` - passes
+- `npm run build` - successful
+- `npm test -- --testPathPattern="modules"` - 77 tests pass
+
+**Acceptance Criteria:**
+- ✅ All company modules in batch reviewed
+- ✅ Role-specific content removed/generalized
+- ✅ Content still valuable for all roles
+- ✅ JSON valid after edits
+- ✅ All tests pass
