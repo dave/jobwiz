@@ -68,7 +68,7 @@ Fix content quality issues identified during manual review of interview prep mod
 - [x] #278 - Company-role modules: Other companies
 
 ### Role → Company-Role Merge (#253)
-- [ ] #256 - Update load-modules.ts
+- [x] #256 - Update load-modules.ts
 - [ ] #257 - Test fallback behavior
 - [ ] #258 - Manual review
 - [ ] #297-#305 - Batch merges by category
@@ -2110,3 +2110,48 @@ All company-role modules for 6 Big Tech companies:
 - ✅ Role content merged into each module
 - ✅ No duplicate sections
 - ✅ Content flow is logical (role guidance → company-specific questions)
+
+### 2026-01-19 - Issue #256: Update load-modules.ts for conditional role loading
+
+**Completed:**
+- Modified `src/lib/carousel/load-modules.ts` to skip role modules when company-role exists
+- Logic: Check for company-role FIRST, then only load role module if no company-role found
+- This prevents duplicate content since role content has been merged into company-role modules
+
+**Code Change:**
+```typescript
+// Before: Always loaded role module
+const roleModule = loadRoleModule(modulesDir, roleSlug);
+if (roleModule) allModules.push(roleModule);
+
+// After: Only load as fallback
+const companyRoleModule = loadCompanyRoleModule(modulesDir, companySlug, roleSlug);
+if (!companyRoleModule) {
+  const roleModule = loadRoleModule(modulesDir, roleSlug);
+  if (roleModule) allModules.push(roleModule);
+}
+if (companyRoleModule) allModules.push(companyRoleModule);
+```
+
+**Tests Updated:**
+- Updated 4 existing tests to reflect new behavior (role skipped when company-role exists)
+- Added 2 new tests for fallback behavior (accenture/account-executive - no company-role)
+- Total: 25 tests pass
+
+**Test Cases:**
+1. google/software-engineer (company-role exists) → role skipped ✓
+2. amazon/product-manager (company-role exists) → role skipped ✓
+3. accenture/account-executive (no company-role) → role loaded as fallback ✓
+4. nonexistent-company/nonexistent-role → no modules loaded ✓
+
+**Verification:**
+- `npm run lint` - passes (warnings only for unrelated image issues)
+- `npm run type-check` - passes
+- `npm run build` - successful
+- `npm test -- --testPathPattern="load-modules"` - 25 tests pass
+
+**Acceptance Criteria:**
+- ✅ Role module skipped when company-role exists
+- ✅ Role module loaded when no company-role (fallback)
+- ✅ Tests updated/added
+- ✅ No breaking changes to existing journeys

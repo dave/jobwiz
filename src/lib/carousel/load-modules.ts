@@ -177,18 +177,23 @@ export function loadCarouselModules(
     allModules.push(companyModule);
   }
 
-  // 3. Load role module (PREMIUM)
-  const roleModule = loadRoleModule(modulesDir, roleSlug);
-  if (roleModule) {
-    allModules.push(roleModule);
-  }
-
-  // 4. Load company-role module (PREMIUM)
+  // 3. Load company-role module (PREMIUM) - check BEFORE role module
   const companyRoleModule = loadCompanyRoleModule(
     modulesDir,
     companySlug,
     roleSlug
   );
+
+  // 4. Load role module (PREMIUM) - only as fallback when no company-role exists
+  // When company-role exists, role content has been merged into it to avoid duplication
+  if (!companyRoleModule) {
+    const roleModule = loadRoleModule(modulesDir, roleSlug);
+    if (roleModule) {
+      allModules.push(roleModule);
+    }
+  }
+
+  // 5. Add company-role module if it exists
   if (companyRoleModule) {
     allModules.push(companyRoleModule);
   }

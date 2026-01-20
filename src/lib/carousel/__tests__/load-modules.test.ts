@@ -10,14 +10,15 @@ import {
 
 describe("loadCarouselModules", () => {
   describe("for google/software-engineer", () => {
-    it("returns modules in correct order: universal → company → role → company-role", () => {
+    it("returns modules in correct order: universal → company → company-role (no role when company-role exists)", () => {
       const result = loadCarouselModules("google", "software-engineer");
 
       expect(result.allModules.length).toBeGreaterThan(0);
 
       // Check module types are in order
       const types = result.allModules.map((m) => m.type);
-      const typeOrder = ["universal", "company", "role", "company-role"];
+      // Role module should NOT be present when company-role exists
+      const typeOrder = ["universal", "company", "company-role"];
 
       let lastIndex = -1;
       for (const type of types) {
@@ -36,12 +37,13 @@ describe("loadCarouselModules", () => {
       }
     });
 
-    it("returns company, role, and company-role modules as premiumModules", () => {
+    it("returns company and company-role modules as premiumModules (role skipped when company-role exists)", () => {
       const result = loadCarouselModules("google", "software-engineer");
 
       expect(result.premiumModules.length).toBeGreaterThan(0);
       for (const mod of result.premiumModules) {
-        expect(["company", "role", "company-role"]).toContain(mod.type);
+        // Role module should NOT be present when company-role exists
+        expect(["company", "company-role"]).toContain(mod.type);
       }
     });
 
@@ -55,14 +57,14 @@ describe("loadCarouselModules", () => {
       expect(companyModule?.slug).toBe("company-google");
     });
 
-    it("includes software-engineer role module", () => {
+    it("does NOT include role module when company-role exists (role content merged into company-role)", () => {
       const result = loadCarouselModules("google", "software-engineer");
 
+      // Role module should NOT be present - its content was merged into company-role
       const roleModule = result.allModules.find(
         (m) => m.type === "role" && m.roleSlug === "software-engineer"
       );
-      expect(roleModule).toBeDefined();
-      expect(roleModule?.slug).toBe("role-software-engineer");
+      expect(roleModule).toBeUndefined();
     });
 
     it("includes google-software-engineer company-role module", () => {
@@ -115,19 +117,64 @@ describe("loadCarouselModules", () => {
     });
   });
 
-  describe("for amazon/product-manager", () => {
-    it("returns correct modules for different company/role", () => {
+  describe("for amazon/product-manager (company-role exists)", () => {
+    it("returns correct modules: company and company-role, but NOT role", () => {
       const result = loadCarouselModules("amazon", "product-manager");
 
       expect(result.allModules.length).toBeGreaterThan(0);
 
+      // Company module should be present
       const companyModule = result.allModules.find(
         (m) => m.type === "company" && m.companySlug === "amazon"
       );
       expect(companyModule).toBeDefined();
 
+      // Company-role module should be present
+      const companyRoleModule = result.allModules.find(
+        (m) => m.type === "company-role"
+      );
+      expect(companyRoleModule).toBeDefined();
+
+      // Role module should NOT be present when company-role exists
       const roleModule = result.allModules.find(
         (m) => m.type === "role" && m.roleSlug === "product-manager"
+      );
+      expect(roleModule).toBeUndefined();
+    });
+  });
+
+  describe("for accenture/account-executive (no company-role exists - fallback)", () => {
+    it("includes role module as fallback when no company-role exists", () => {
+      const result = loadCarouselModules("accenture", "account-executive");
+
+      expect(result.allModules.length).toBeGreaterThan(0);
+
+      // Company module should be present
+      const companyModule = result.allModules.find(
+        (m) => m.type === "company" && m.companySlug === "accenture"
+      );
+      expect(companyModule).toBeDefined();
+
+      // Role module SHOULD be present as fallback (no company-role exists)
+      const roleModule = result.allModules.find(
+        (m) => m.type === "role" && m.roleSlug === "account-executive"
+      );
+      expect(roleModule).toBeDefined();
+      expect(roleModule?.slug).toBe("role-account-executive");
+
+      // Company-role module should NOT be present (doesn't exist)
+      const companyRoleModule = result.allModules.find(
+        (m) => m.type === "company-role"
+      );
+      expect(companyRoleModule).toBeUndefined();
+    });
+
+    it("returns role module in premiumModules when no company-role exists", () => {
+      const result = loadCarouselModules("accenture", "account-executive");
+
+      // Should have role in premium modules
+      const roleModule = result.premiumModules.find(
+        (m) => m.type === "role"
       );
       expect(roleModule).toBeDefined();
     });
