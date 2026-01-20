@@ -20,9 +20,9 @@ interface CompanyLogoProps {
 }
 
 const sizeMap = {
-  small: { width: 40, height: 40, className: "w-10 h-10" },
-  medium: { width: 64, height: 64, className: "w-16 h-16" },
-  large: { width: 100, height: 100, className: "w-[100px] h-[100px]" },
+  small: { height: 32, maxWidth: 120, className: "h-8" },
+  medium: { height: 48, maxWidth: 180, className: "h-12" },
+  large: { height: 64, maxWidth: 240, className: "h-16" },
 };
 
 /**
@@ -39,6 +39,7 @@ function getInitials(name: string): string {
 
 /**
  * Displays company logo with fallback to initials placeholder
+ * Uses fixed height with auto width to maintain aspect ratio
  */
 export function CompanyLogo({
   logoUrl,
@@ -49,29 +50,48 @@ export function CompanyLogo({
   const dimensions = sizeMap[size];
 
   if (logoUrl) {
+    const isSvg = logoUrl.endsWith(".svg");
+
     return (
       <div
-        className={`relative overflow-hidden ${dimensions.className} ${className}`}
-        style={{ aspectRatio: "1 / 1" }}
+        className={`flex items-center justify-center ${dimensions.className} ${className}`}
+        style={{
+          minHeight: dimensions.height,
+          maxWidth: dimensions.maxWidth,
+        }}
       >
-        <Image
-          src={logoUrl}
-          alt={`${companyName} logo`}
-          fill
-          className="object-contain"
-          sizes={`${dimensions.width * 2}px`}
-          quality={100}
-        />
+        {isSvg ? (
+          // SVG: use img tag for proper scaling without fixed dimensions
+          // eslint-disable-next-line @next/next/no-img-element
+          <img
+            src={logoUrl}
+            alt={`${companyName} logo`}
+            className="h-full w-auto max-w-full object-contain"
+            style={{ maxHeight: dimensions.height }}
+          />
+        ) : (
+          // PNG/other: use Next.js Image with explicit dimensions
+          <Image
+            src={logoUrl}
+            alt={`${companyName} logo`}
+            width={dimensions.height}
+            height={dimensions.height}
+            className="h-full w-auto max-w-full object-contain"
+            priority
+          />
+        )}
       </div>
     );
   }
 
   // Fallback placeholder with initials
   const initials = getInitials(companyName);
+  const placeholderSize = dimensions.height;
 
   return (
     <div
-      className={`flex items-center justify-center rounded-lg bg-[var(--theme-primary-light,#dbeafe)] text-[var(--theme-primary,#2563eb)] font-bold ${dimensions.className} ${className}`}
+      className={`flex items-center justify-center rounded-lg bg-[var(--theme-primary-light,#dbeafe)] text-[var(--theme-primary,#2563eb)] font-bold ${className}`}
+      style={{ width: placeholderSize, height: placeholderSize }}
       aria-label={`${companyName} logo placeholder`}
     >
       {initials}

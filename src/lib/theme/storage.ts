@@ -104,11 +104,17 @@ export async function deleteCompanyTheme(
 }
 
 /**
+ * Companies that only have PNG logos (no SVG available)
+ */
+const PNG_ONLY_COMPANIES = new Set(["cerner", "zoom"]);
+
+/**
  * Get logo URL for a company (stored in public/logos/)
- * Logos should be at least 200x200px for crisp 100px display
+ * Prefers SVG for crisp scaling, falls back to PNG for companies without SVG
  */
 function getLogoUrl(companySlug: string): string {
-  return `/logos/${companySlug}.png`;
+  const extension = PNG_ONLY_COMPANIES.has(companySlug) ? "png" : "svg";
+  return `/logos/${companySlug}.${extension}`;
 }
 
 /**

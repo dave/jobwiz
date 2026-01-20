@@ -118,7 +118,6 @@ export default async function CompanyPage({ params }: CompanyPageProps) {
                   logoUrl={theme.logoUrl}
                   companyName={company.name}
                   size="medium"
-                  className="!w-12 !h-12"
                 />
               </div>
 

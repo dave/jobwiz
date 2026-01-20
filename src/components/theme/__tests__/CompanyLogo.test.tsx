@@ -28,7 +28,7 @@ describe("CompanyLogo", () => {
           size="small"
         />
       );
-      expect(small.querySelector(".w-8")).toBeInTheDocument();
+      expect(small.querySelector(".h-8")).toBeInTheDocument();
 
       const { container: medium } = render(
         <CompanyLogo
@@ -37,7 +37,7 @@ describe("CompanyLogo", () => {
           size="medium"
         />
       );
-      expect(medium.querySelector(".w-12")).toBeInTheDocument();
+      expect(medium.querySelector(".h-12")).toBeInTheDocument();
 
       const { container: large } = render(
         <CompanyLogo
@@ -46,7 +46,7 @@ describe("CompanyLogo", () => {
           size="large"
         />
       );
-      expect(large.querySelector(".w-16")).toBeInTheDocument();
+      expect(large.querySelector(".h-16")).toBeInTheDocument();
     });
 
     test("defaults to medium size", () => {
@@ -57,7 +57,7 @@ describe("CompanyLogo", () => {
         />
       );
 
-      expect(container.querySelector(".w-12")).toBeInTheDocument();
+      expect(container.querySelector(".h-12")).toBeInTheDocument();
     });
 
     test("applies custom className", () => {
@@ -122,11 +122,13 @@ describe("CompanyLogo", () => {
     });
 
     test("applies correct size for placeholder", () => {
-      const { container: large } = render(
+      const { container } = render(
         <CompanyLogo logoUrl={null} companyName="Google" size="large" />
       );
 
-      expect(large.querySelector(".w-16")).toBeInTheDocument();
+      // Placeholder uses inline style for dimensions
+      const placeholder = container.querySelector("[aria-label]");
+      expect(placeholder).toHaveStyle({ width: "64px", height: "64px" });
     });
   });
 });
