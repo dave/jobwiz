@@ -1,6 +1,16 @@
+"use client";
+
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 export function Footer() {
+  const pathname = usePathname();
+
+  // Hide footer on learn pages to let users focus
+  if (pathname?.includes("/journey/learn")) {
+    return null;
+  }
+
   return (
     <footer className="border-t border-gray-100 bg-white">
       <div className="max-w-6xl mx-auto px-6 py-8">
