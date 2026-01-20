@@ -354,8 +354,8 @@ export function JourneyProgress({
         </div>
       </div>
 
-      {/* Module cards */}
-      <div className="grid gap-3 overflow-hidden" data-testid="module-list">
+      {/* Module cards - p-0.5 gives ring space to render without clipping */}
+      <div className="grid gap-3 p-0.5 -m-0.5" data-testid="module-list">
         {moduleDisplayInfo.map((moduleInfo, index) => (
           <ModuleListItem
             key={moduleInfo.slug}
