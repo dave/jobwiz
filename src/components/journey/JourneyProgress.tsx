@@ -279,7 +279,7 @@ export function JourneyProgress({
   const strokeDashoffset = circumference - (progressPercentage / 100) * circumference;
 
   return (
-    <div data-testid="journey-progress-card" className="overflow-hidden">
+    <div data-testid="journey-progress-card">
       {/* Compact header with progress ring */}
       <div className="flex items-center gap-4 sm:gap-6 mb-8 p-4 sm:p-6 bg-white rounded-2xl shadow-sm">
         {/* Progress ring */}
