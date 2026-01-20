@@ -9,6 +9,564 @@
   "display_order": 0,
   "sections": [
     {
+      "id": "overview",
+      "title": "Role Overview",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "PM interviews assess your ability to identify user problems, prioritize ruthlessly, work cross-functionally, and drive results. You'll face product design questions, metrics/analysis, strategy, and behavioral rounds."
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**What interviewers assess:**\n\n- Product sense and user empathy\n- Analytical thinking and metrics intuition\n- Prioritization and trade-off decisions\n- Communication and influence without authority\n- Technical understanding (varies by company)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "format",
+      "title": "Common Interview Format",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "**Typical PM interview loop:**\n\n1. **Recruiter screen** (30 min)\n2. **Hiring manager screen** (45-60 min) - Background, role fit\n3. **Onsite/Virtual loop** (4-5 hours):\n   - Product sense/design round\n   - Analytical/metrics round\n   - Strategy/estimation round\n   - Behavioral/leadership round\n   - Technical (some companies)"
+          }
+        },
+        {
+          "type": "tip",
+          "content": {
+            "text": "Always start product questions by clarifying the user and their goals. Jumping to solutions without understanding the problem is a red flag."
+          }
+        }
+      ]
+    },
+    {
+      "id": "answer-frameworks",
+      "title": "How to Structure Your Answers",
+      "blocks": [
+        {
+          "type": "header",
+          "content": {
+            "text": "How to Structure Your Answers"
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "Great Product Manager interview answers follow proven structures. These frameworks help you give complete, compelling responses that cover everything interviewers want to hear."
+          }
+        },
+        {
+          "type": "tip",
+          "content": {
+            "text": "**Pro tip:** Don't memorize scripts. Learn these frameworks so you can adapt them to any question. Interviewers can tell when answers are rehearsed word-for-word."
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Behavioral Questions**"
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "Use the **STAR with leadership lens** framework:"
+          }
+        },
+        {
+          "type": "checklist",
+          "content": {
+            "title": "Key Elements to Cover",
+            "items": [
+              {
+                "id": "plaid-behavioral-elem-0",
+                "text": "Why you stepped up (not because you had to)",
+                "required": true
+              },
+              {
+                "id": "plaid-behavioral-elem-1",
+                "text": "How you built alignment without authority",
+                "required": true
+              },
+              {
+                "id": "plaid-behavioral-elem-2",
+                "text": "Specific influence tactics used",
+                "required": true
+              },
+              {
+                "id": "plaid-behavioral-elem-3",
+                "text": "How you handled resistance",
+                "required": false
+              },
+              {
+                "id": "plaid-behavioral-elem-4",
+                "text": "Measurable outcome",
+                "required": false
+              },
+              {
+                "id": "plaid-behavioral-elem-5",
+                "text": "What you'd do differently",
+                "required": false
+              }
+            ]
+          }
+        },
+        {
+          "type": "tip",
+          "content": {
+            "text": "**Time allocation:** Situation: 15%, Task: 10%, Action: 55%, Result: 20%"
+          }
+        },
+        {
+          "type": "quote",
+          "content": {
+            "text": "Example: \"Tell me about a time you had to lead a project without formal authority.\""
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Technical Questions**"
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "Use the **Goal -> North Star -> Leading indicators -> Counter-metrics -> Trade-offs** framework:"
+          }
+        },
+        {
+          "type": "checklist",
+          "content": {
+            "title": "Key Elements to Cover",
+            "items": [
+              {
+                "id": "plaid-technical-elem-0",
+                "text": "Clarify the goal (engagement? creator acquisition? revenue?)",
+                "required": true
+              },
+              {
+                "id": "plaid-technical-elem-1",
+                "text": "Define North Star metric (e.g., weekly active creators posting Shorts)",
+                "required": true
+              },
+              {
+                "id": "plaid-technical-elem-2",
+                "text": "Leading indicators (views, completion rate)",
+                "required": true
+              },
+              {
+                "id": "plaid-technical-elem-3",
+                "text": "Counter-metrics (long-form watch time, creator burnout)",
+                "required": false
+              },
+              {
+                "id": "plaid-technical-elem-4",
+                "text": "Trade-offs and how to balance",
+                "required": false
+              },
+              {
+                "id": "plaid-technical-elem-5",
+                "text": "How you'd review these metrics",
+                "required": false
+              }
+            ]
+          }
+        },
+        {
+          "type": "tip",
+          "content": {
+            "text": "**Be ready for follow-ups:** Expect: 'What if Shorts cannibalizes long-form?' or 'How do you prioritize between creator and viewer metrics?' or 'Walk me through the dashboard you'd build.'"
+          }
+        },
+        {
+          "type": "quote",
+          "content": {
+            "text": "Example: \"You're the PM for YouTube. How would you measure success for a new 'Shorts' feature?\""
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Culture Fit Questions**"
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "Use the **Authenticity-First** framework:"
+          }
+        },
+        {
+          "type": "checklist",
+          "content": {
+            "title": "Key Elements to Cover",
+            "items": [
+              {
+                "id": "plaid-culture-elem-0",
+                "text": "Why you noticed the gap (shows awareness)",
+                "required": true
+              },
+              {
+                "id": "plaid-culture-elem-1",
+                "text": "Why you chose to act vs. escalate (judgment)",
+                "required": true
+              },
+              {
+                "id": "plaid-culture-elem-2",
+                "text": "How you balanced this with your actual responsibilities",
+                "required": true
+              },
+              {
+                "id": "plaid-culture-elem-3",
+                "text": "The outcome and what you learned",
+                "required": false
+              },
+              {
+                "id": "plaid-culture-elem-4",
+                "text": "Whether you'd approach it differently now",
+                "required": false
+              },
+              {
+                "id": "plaid-culture-elem-5",
+                "text": "How it shaped your view of ownership",
+                "required": false
+              }
+            ]
+          }
+        },
+        {
+          "type": "tip",
+          "content": {
+            "text": "**Authenticity check:** Before answering, ask yourself: Would I do this again? If you genuinely wouldn't, pick a different example where you felt energized by the ownership."
+          }
+        },
+        {
+          "type": "quote",
+          "content": {
+            "text": "Example: \"Tell me about a time you took on something outside your job description because it needed to be done.\""
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Curveball & Estimation Questions**"
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "Use the **Estimate container volume -> Estimate object volume -> Divide -> Sanity check** framework:"
+          }
+        },
+        {
+          "type": "checklist",
+          "content": {
+            "title": "Key Elements to Cover",
+            "items": [
+              {
+                "id": "plaid-curveball-elem-0",
+                "text": "Estimate bus dimensions (state as assumption)",
+                "required": true
+              },
+              {
+                "id": "plaid-curveball-elem-1",
+                "text": "Calculate bus volume in cubic feet",
+                "required": true
+              },
+              {
+                "id": "plaid-curveball-elem-2",
+                "text": "Estimate golf ball diameter and volume",
+                "required": true
+              },
+              {
+                "id": "plaid-curveball-elem-3",
+                "text": "Account for packing efficiency (~60-70%)",
+                "required": false
+              },
+              {
+                "id": "plaid-curveball-elem-4",
+                "text": "Do the division",
+                "required": false
+              },
+              {
+                "id": "plaid-curveball-elem-5",
+                "text": "Sanity check: 'Does this feel reasonable?'",
+                "required": false
+              }
+            ]
+          }
+        },
+        {
+          "type": "tip",
+          "content": {
+            "text": "**Stay composed:** Say: 'I'll estimate this step by step and state my assumptions as I go.' This signals you know what they're looking for and buys you thinking time."
+          }
+        },
+        {
+          "type": "quote",
+          "content": {
+            "text": "Example: \"How many golf balls fit in a school bus?\""
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Remember:** The best answers are specific, structured, and show self-awareness. Use these frameworks as guides, but adapt them to your actual experiences."
+          }
+        }
+      ]
+    },
+    {
+      "id": "competencies",
+      "title": "Key Competencies",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "Product Manager interviews test your ability to define strategy, prioritize ruthlessly, and ship products. These are the core competencies interviewers evaluate - prepare specific stories demonstrating each one."
+          }
+        },
+        {
+          "type": "checklist",
+          "content": {
+            "title": "PM Skills to Demonstrate",
+            "items": [
+              {
+                "id": "plaid-c1",
+                "text": "User-centric thinking - Start with user needs",
+                "required": true
+              },
+              {
+                "id": "plaid-c2",
+                "text": "Structured frameworks - Organize your thinking",
+                "required": true
+              },
+              {
+                "id": "plaid-c3",
+                "text": "Prioritization - Say no to good ideas for great ones",
+                "required": true
+              },
+              {
+                "id": "plaid-c4",
+                "text": "Metrics definition - Know how to measure success",
+                "required": true
+              },
+              {
+                "id": "plaid-c5",
+                "text": "Technical communication - Translate between business and engineering",
+                "required": true
+              },
+              {
+                "id": "plaid-c6",
+                "text": "Stakeholder management - Influence without authority",
+                "required": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "mistakes-to-avoid",
+      "title": "Mistakes to Avoid",
+      "blocks": [
+        {
+          "type": "header",
+          "content": {
+            "text": "Common Interview Mistakes to Avoid"
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "Even strong Product Manager candidates make these mistakes in interviews. Knowing what to avoid is just as important as knowing what to do."
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Behavioral Question Mistakes**"
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "Taking all credit (saying 'I' too much, never 'we')"
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "Focusing on the WHAT instead of the HOW of leadership"
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "Describing coercion as influence"
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "Skipping the outcome or metrics"
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Technical Question Mistakes**"
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "Listing metrics without connecting to goals"
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "Only short-term engagement metrics"
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "Ignoring cannibalization of long-form video"
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "No counter-metrics to prevent gaming"
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Culture Fit Mistakes**"
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "Framing it as a burden you had to bear"
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "Taking on things to show off rather than because they mattered"
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "No clear impact or outcome from the extra work"
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "Implying you only do this when asked or incentivized"
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Curveball Question Mistakes**"
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "Freezing or saying 'I don't know'"
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "Guessing a random number without showing work"
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "Getting defensive when pushed on assumptions"
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "Over-engineering the calculation"
+          }
+        },
+        {
+          "type": "tip",
+          "content": {
+            "text": "**Remember:** Interviewers notice patterns. If you catch yourself heading toward one of these mistakes, pause, acknowledge it, and redirect. Self-awareness goes a long way."
+          }
+        }
+      ]
+    },
+    {
+      "id": "preparation",
+      "title": "Preparation Checklist",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "This checklist will help you prepare systematically for your Product Manager interview. Work through each item in the weeks leading up to your interview - don't try to cram everything at the last minute."
+          }
+        },
+        {
+          "type": "checklist",
+          "content": {
+            "title": "Before Your Interview",
+            "items": [
+              {
+                "id": "plaid-p1",
+                "text": "Practice product design questions (improve X, design Y for Z)",
+                "required": true
+              },
+              {
+                "id": "plaid-p2",
+                "text": "Prepare metrics for common products (social, e-commerce, etc.)",
+                "required": true
+              },
+              {
+                "id": "plaid-p3",
+                "text": "Review estimation techniques for market sizing",
+                "required": true
+              },
+              {
+                "id": "plaid-p4",
+                "text": "Prepare STAR stories showing leadership and influence",
+                "required": true
+              },
+              {
+                "id": "plaid-p5",
+                "text": "Use the company's products extensively",
+                "required": true
+              },
+              {
+                "id": "plaid-p6",
+                "text": "Read Cracking the PM Interview or Decode and Conquer",
+                "required": false
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
       "id": "behavioral",
       "title": "Behavioral Questions for Product Manager",
       "blocks": [

@@ -9,6 +9,564 @@
   "display_order": 0,
   "sections": [
     {
+      "id": "overview",
+      "title": "Role Overview",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "DevOps/SRE interviews test your infrastructure knowledge, automation skills, and ability to build reliable, scalable systems. Expect hands-on troubleshooting scenarios and system design questions."
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**What interviewers assess:**\n\n- Linux/Unix systems knowledge\n- Cloud platforms (AWS, GCP, Azure)\n- CI/CD and automation\n- Monitoring, alerting, and incident response\n- Infrastructure as Code (Terraform, etc.)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "format",
+      "title": "Common Interview Format",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "**Typical DevOps/SRE interview loop:**\n\n1. **Recruiter screen** (30 min)\n2. **Technical phone screen** (60 min) - Troubleshooting or coding\n3. **Onsite/Virtual loop** (4-5 hours):\n   - System design/architecture round\n   - Troubleshooting/debugging scenario\n   - Coding/automation round\n   - Behavioral round"
+          }
+        },
+        {
+          "type": "tip",
+          "content": {
+            "text": "For troubleshooting scenarios, explain your methodology: how you'd gather information, form hypotheses, and systematically narrow down the issue."
+          }
+        }
+      ]
+    },
+    {
+      "id": "answer-frameworks",
+      "title": "How to Structure Your Answers",
+      "blocks": [
+        {
+          "type": "header",
+          "content": {
+            "text": "How to Structure Your Answers"
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "Great DevOps Engineer interview answers follow proven structures. These frameworks help you give complete, compelling responses that cover everything interviewers want to hear."
+          }
+        },
+        {
+          "type": "tip",
+          "content": {
+            "text": "**Pro tip:** Don't memorize scripts. Learn these frameworks so you can adapt them to any question. Interviewers can tell when answers are rehearsed word-for-word."
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Behavioral Questions**"
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "Use the **STAR with leadership lens** framework:"
+          }
+        },
+        {
+          "type": "checklist",
+          "content": {
+            "title": "Key Elements to Cover",
+            "items": [
+              {
+                "id": "uber-behavioral-elem-0",
+                "text": "Why you stepped up (not because you had to)",
+                "required": true
+              },
+              {
+                "id": "uber-behavioral-elem-1",
+                "text": "How you built alignment without authority",
+                "required": true
+              },
+              {
+                "id": "uber-behavioral-elem-2",
+                "text": "Specific influence tactics used",
+                "required": true
+              },
+              {
+                "id": "uber-behavioral-elem-3",
+                "text": "How you handled resistance",
+                "required": false
+              },
+              {
+                "id": "uber-behavioral-elem-4",
+                "text": "Measurable outcome",
+                "required": false
+              },
+              {
+                "id": "uber-behavioral-elem-5",
+                "text": "What you'd do differently",
+                "required": false
+              }
+            ]
+          }
+        },
+        {
+          "type": "tip",
+          "content": {
+            "text": "**Time allocation:** Situation: 15%, Task: 10%, Action: 55%, Result: 20%"
+          }
+        },
+        {
+          "type": "quote",
+          "content": {
+            "text": "Example: \"Tell me about a time you had to lead a project without formal authority.\""
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Technical Questions**"
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "Use the **Define -> Examples -> Trade-offs -> Business context** framework:"
+          }
+        },
+        {
+          "type": "checklist",
+          "content": {
+            "title": "Key Elements to Cover",
+            "items": [
+              {
+                "id": "uber-technical-elem-0",
+                "text": "Clear definition of both types",
+                "required": true
+              },
+              {
+                "id": "uber-technical-elem-1",
+                "text": "Real-world example (spam filter, medical diagnosis)",
+                "required": true
+              },
+              {
+                "id": "uber-technical-elem-2",
+                "text": "When to prioritize Type I (false positive) avoidance",
+                "required": true
+              },
+              {
+                "id": "uber-technical-elem-3",
+                "text": "When to prioritize Type II (false negative) avoidance",
+                "required": false
+              },
+              {
+                "id": "uber-technical-elem-4",
+                "text": "How sample size affects both",
+                "required": false
+              },
+              {
+                "id": "uber-technical-elem-5",
+                "text": "How to explain to product managers",
+                "required": false
+              }
+            ]
+          }
+        },
+        {
+          "type": "tip",
+          "content": {
+            "text": "**Be ready for follow-ups:** Expect: 'How do you set alpha level for an experiment?' or 'What's the relationship to statistical power?' or 'Give me an example from a project.'"
+          }
+        },
+        {
+          "type": "quote",
+          "content": {
+            "text": "Example: \"Explain the difference between Type I and Type II errors. When might you prioritize one over the other?\""
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Culture Fit Questions**"
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "Use the **Authenticity-First** framework:"
+          }
+        },
+        {
+          "type": "checklist",
+          "content": {
+            "title": "Key Elements to Cover",
+            "items": [
+              {
+                "id": "uber-culture-elem-0",
+                "text": "Why you noticed the gap (shows awareness)",
+                "required": true
+              },
+              {
+                "id": "uber-culture-elem-1",
+                "text": "Why you chose to act vs. escalate (judgment)",
+                "required": true
+              },
+              {
+                "id": "uber-culture-elem-2",
+                "text": "How you balanced this with your actual responsibilities",
+                "required": true
+              },
+              {
+                "id": "uber-culture-elem-3",
+                "text": "The outcome and what you learned",
+                "required": false
+              },
+              {
+                "id": "uber-culture-elem-4",
+                "text": "Whether you'd approach it differently now",
+                "required": false
+              },
+              {
+                "id": "uber-culture-elem-5",
+                "text": "How it shaped your view of ownership",
+                "required": false
+              }
+            ]
+          }
+        },
+        {
+          "type": "tip",
+          "content": {
+            "text": "**Authenticity check:** Before answering, ask yourself: Would I do this again? If you genuinely wouldn't, pick a different example where you felt energized by the ownership."
+          }
+        },
+        {
+          "type": "quote",
+          "content": {
+            "text": "Example: \"Tell me about a time you took on something outside your job description because it needed to be done.\""
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Curveball & Estimation Questions**"
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "Use the **Estimate container volume -> Estimate object volume -> Divide -> Sanity check** framework:"
+          }
+        },
+        {
+          "type": "checklist",
+          "content": {
+            "title": "Key Elements to Cover",
+            "items": [
+              {
+                "id": "uber-curveball-elem-0",
+                "text": "Estimate bus dimensions (state as assumption)",
+                "required": true
+              },
+              {
+                "id": "uber-curveball-elem-1",
+                "text": "Calculate bus volume in cubic feet",
+                "required": true
+              },
+              {
+                "id": "uber-curveball-elem-2",
+                "text": "Estimate golf ball diameter and volume",
+                "required": true
+              },
+              {
+                "id": "uber-curveball-elem-3",
+                "text": "Account for packing efficiency (~60-70%)",
+                "required": false
+              },
+              {
+                "id": "uber-curveball-elem-4",
+                "text": "Do the division",
+                "required": false
+              },
+              {
+                "id": "uber-curveball-elem-5",
+                "text": "Sanity check: 'Does this feel reasonable?'",
+                "required": false
+              }
+            ]
+          }
+        },
+        {
+          "type": "tip",
+          "content": {
+            "text": "**Stay composed:** Say: 'I'll estimate this step by step and state my assumptions as I go.' This signals you know what they're looking for and buys you thinking time."
+          }
+        },
+        {
+          "type": "quote",
+          "content": {
+            "text": "Example: \"How many golf balls fit in a school bus?\""
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Remember:** The best answers are specific, structured, and show self-awareness. Use these frameworks as guides, but adapt them to your actual experiences."
+          }
+        }
+      ]
+    },
+    {
+      "id": "competencies",
+      "title": "Key Competencies",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "DevOps Engineer interviews evaluate your ability to build reliable, automated infrastructure and deployment pipelines. These are the core competencies interviewers look for - have specific examples ready for each area."
+          }
+        },
+        {
+          "type": "checklist",
+          "content": {
+            "title": "Technical Areas to Review",
+            "items": [
+              {
+                "id": "uber-c1",
+                "text": "Linux fundamentals (processes, networking, filesystems)",
+                "required": true
+              },
+              {
+                "id": "uber-c2",
+                "text": "Cloud services (compute, storage, networking)",
+                "required": true
+              },
+              {
+                "id": "uber-c3",
+                "text": "Containerization (Docker, Kubernetes)",
+                "required": true
+              },
+              {
+                "id": "uber-c4",
+                "text": "CI/CD pipelines and automation",
+                "required": true
+              },
+              {
+                "id": "uber-c5",
+                "text": "Monitoring and observability (metrics, logs, traces)",
+                "required": true
+              },
+              {
+                "id": "uber-c6",
+                "text": "Infrastructure as Code (Terraform, CloudFormation)",
+                "required": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "mistakes-to-avoid",
+      "title": "Mistakes to Avoid",
+      "blocks": [
+        {
+          "type": "header",
+          "content": {
+            "text": "Common Interview Mistakes to Avoid"
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "Even strong DevOps Engineer candidates make these mistakes in interviews. Knowing what to avoid is just as important as knowing what to do."
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Behavioral Question Mistakes**"
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "Taking all credit (saying 'I' too much, never 'we')"
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "Focusing on the WHAT instead of the HOW of leadership"
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "Describing coercion as influence"
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "Skipping the outcome or metrics"
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Technical Question Mistakes**"
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "Only textbook definition without examples"
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "No business context for trade-offs"
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "Confusing the two types"
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "Over-complicating the explanation"
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Culture Fit Mistakes**"
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "Framing it as a burden you had to bear"
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "Taking on things to show off rather than because they mattered"
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "No clear impact or outcome from the extra work"
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "Implying you only do this when asked or incentivized"
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Curveball Question Mistakes**"
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "Freezing or saying 'I don't know'"
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "Guessing a random number without showing work"
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "Getting defensive when pushed on assumptions"
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "Over-engineering the calculation"
+          }
+        },
+        {
+          "type": "tip",
+          "content": {
+            "text": "**Remember:** Interviewers notice patterns. If you catch yourself heading toward one of these mistakes, pause, acknowledge it, and redirect. Self-awareness goes a long way."
+          }
+        }
+      ]
+    },
+    {
+      "id": "preparation",
+      "title": "Preparation Checklist",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "This checklist will help you prepare systematically for your DevOps/SRE interview. Work through each item in the weeks leading up to your interview - don't try to cram everything at the last minute."
+          }
+        },
+        {
+          "type": "checklist",
+          "content": {
+            "title": "Before Your Interview",
+            "items": [
+              {
+                "id": "uber-p1",
+                "text": "Review Linux commands and troubleshooting",
+                "required": true
+              },
+              {
+                "id": "uber-p2",
+                "text": "Practice system design for scalable infrastructure",
+                "required": true
+              },
+              {
+                "id": "uber-p3",
+                "text": "Brush up on networking (DNS, TCP/IP, load balancing)",
+                "required": true
+              },
+              {
+                "id": "uber-p4",
+                "text": "Prepare incident response stories with postmortem insights",
+                "required": true
+              },
+              {
+                "id": "uber-p5",
+                "text": "Review Kubernetes concepts if relevant",
+                "required": false
+              },
+              {
+                "id": "uber-p6",
+                "text": "Practice scripting in Python or Bash",
+                "required": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
       "id": "behavioral",
       "title": "Behavioral Questions for DevOps Engineer",
       "blocks": [

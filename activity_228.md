@@ -71,7 +71,15 @@ Fix content quality issues identified during manual review of interview prep mod
 - [x] #256 - Update load-modules.ts
 - [x] #257 - Test fallback behavior
 - [ ] #258 - Manual review
-- [ ] #297-#305 - Batch merges by category
+- [x] #297 - Big Tech batch
+- [x] #298 - High-growth startups batch
+- [ ] #299 - Finance batch
+- [ ] #300 - Consulting batch
+- [ ] #301 - E-commerce/Retail batch
+- [ ] #302 - Healthcare/Biotech batch
+- [ ] #303 - Enterprise SaaS batch
+- [ ] #304 - Media/Entertainment batch
+- [ ] #305 - Other companies batch
 
 ---
 
@@ -2184,3 +2192,67 @@ if (companyRoleModule) allModules.push(companyRoleModule);
 - `npm run type-check` - passes
 - `npm run build` - successful
 - `npm test -- --testPathPattern="load-modules"` - 31 tests pass
+
+### 2026-01-19 - Issue #298: Merge role content - High-growth startups company-role modules
+
+**Status:** Complete
+
+**Modules Updated (118 total):**
+All company-role modules for 14 High-growth startups companies:
+- Airbnb (10 modules)
+- Coinbase (8 modules)
+- Databricks (9 modules)
+- DoorDash (9 modules)
+- Figma (7 modules)
+- Instacart (8 modules)
+- Lyft (9 modules)
+- Notion (7 modules)
+- Plaid (7 modules)
+- Robinhood (8 modules)
+- Snowflake (9 modules)
+- Stripe (10 modules)
+- Uber (10 modules)
+- Vercel (7 modules)
+
+**Merge Process:**
+1. Created automated merge script: `scripts/cleanup/merge-role-content-high-growth.ts`
+2. For each company-role module, loaded the corresponding role module
+3. Prepended 6 role sections before company-specific interview sections:
+   - Role Overview
+   - Common Interview Format
+   - How to Structure Your Answers
+   - Key Competencies
+   - Mistakes to Avoid
+   - Preparation Checklist
+4. Generated unique IDs for checklist items to avoid collisions
+5. Preserved all company-specific content (Behavioral, Technical, Culture Fit, Curveball questions)
+
+**Result Structure (example: Stripe Software Engineer):**
+```
+1. Role Overview (from role module)
+2. Common Interview Format (from role module)
+3. How to Structure Your Answers (from role module)
+4. Key Competencies (from role module)
+5. Mistakes to Avoid (from role module)
+6. Preparation Checklist (from role module)
+7. Behavioral Questions for Software Engineer (company-specific)
+8. Technical Questions for Software Engineer (company-specific)
+9. Culture Fit Questions for Software Engineer (company-specific)
+10. Curveball Questions (company-specific)
+```
+
+**Script Created:**
+- `scripts/cleanup/merge-role-content-high-growth.ts` - Automated merge for High-growth startups modules
+
+**Verification:**
+- `npm run lint` - passes (warnings only for unrelated image issues)
+- `npm run type-check` - passes
+- `npm run build` - successful
+- `npm test -- --testPathPattern="(load-modules|flatten-modules|matrix|samples)"` - 85 tests pass
+- All 118 JSON files validated successfully
+
+**Acceptance Criteria:**
+- ✅ All 118 High-growth startups company-role modules reviewed
+- ✅ Role content merged into each module
+- ✅ No duplicate sections
+- ✅ Content flow is logical (role guidance → company-specific questions)
