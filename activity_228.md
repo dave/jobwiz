@@ -74,7 +74,7 @@ Fix content quality issues identified during manual review of interview prep mod
 - [x] #297 - Big Tech batch
 - [x] #298 - High-growth startups batch
 - [x] #299 - Finance batch
-- [ ] #300 - Consulting batch
+- [x] #300 - Consulting batch
 - [ ] #301 - E-commerce/Retail batch
 - [ ] #302 - Healthcare/Biotech batch
 - [ ] #303 - Enterprise SaaS batch
@@ -2319,6 +2319,67 @@ All company-role modules for 14 Finance companies:
 
 **Acceptance Criteria:**
 - ✅ All 106 Finance company-role modules reviewed
+- ✅ Role content merged into each module
+- ✅ No duplicate sections
+- ✅ Content flow is logical (role guidance → company-specific questions)
+
+### 2026-01-19 - Issue #300: Merge role content into Consulting company-role modules
+
+**Completed:**
+- Created `scripts/cleanup/merge-role-content-consulting.ts` script
+- Merged role content into 48 Consulting company-role modules across 10 companies:
+  - McKinsey (5 modules)
+  - BCG (5 modules)
+  - Bain (4 modules)
+  - Deloitte (5 modules)
+  - Accenture (5 modules)
+  - PwC (5 modules)
+  - EY (5 modules)
+  - KPMG (5 modules)
+  - Capgemini (4 modules)
+  - Booz Allen (5 modules)
+
+**Merge Process:**
+1. Created automated merge script: `scripts/cleanup/merge-role-content-consulting.ts`
+2. For each company-role module, loaded the corresponding role module
+3. Prepended 6 role sections before company-specific interview sections:
+   - Role Overview
+   - Common Interview Format
+   - How to Structure Your Answers
+   - Key Competencies
+   - Mistakes to Avoid
+   - Preparation Checklist
+4. Generated unique IDs for checklist items to avoid collisions
+5. Preserved all company-specific content (Behavioral, Technical, Culture Fit, Curveball questions)
+
+**Result Structure (example: McKinsey Management Consultant):**
+```
+1. Role Overview (from role module)
+2. Common Interview Format (from role module)
+3. How to Structure Your Answers (from role module)
+4. Key Competencies (from role module)
+5. Mistakes to Avoid (from role module)
+6. Preparation Checklist (from role module)
+7. Behavioral Questions for Management Consultant (company-specific)
+8. Technical Questions for Management Consultant (company-specific)
+9. Culture Fit Questions for Management Consultant (company-specific)
+10. Curveball Questions (company-specific)
+```
+
+**Script Created:**
+- `scripts/cleanup/merge-role-content-consulting.ts` - Automated merge for Consulting modules
+
+**Verification:**
+- `npm run lint` - passes (warnings only for unrelated image issues)
+- `npm run type-check` - passes
+- `npm run build` - successful
+- `npm test -- --testPathPattern="load-modules|module"` - 101 tests pass
+- All 48 JSON files validated successfully
+- No duplicate sections in any module
+- All role sections present in each module
+
+**Acceptance Criteria:**
+- ✅ All 48 Consulting company-role modules reviewed
 - ✅ Role content merged into each module
 - ✅ No duplicate sections
 - ✅ Content flow is logical (role guidance → company-specific questions)
