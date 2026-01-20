@@ -78,7 +78,7 @@ Fix content quality issues identified during manual review of interview prep mod
 - [x] #301 - E-commerce/Retail batch
 - [x] #302 - Healthcare/Biotech batch
 - [x] #303 - Enterprise SaaS batch
-- [ ] #304 - Media/Entertainment batch
+- [x] #304 - Media/Entertainment batch
 - [ ] #305 - Other companies batch
 
 ---
@@ -2576,3 +2576,66 @@ All company-role modules for 14 Finance companies:
 - ✅ Role content merged into each module
 - ✅ No duplicate sections
 - ✅ Content flow is logical (role guidance → company-specific questions)
+### 2026-01-19 - Issue #304: Merge role content into Media/Entertainment company-role modules
+
+**Completed:**
+- Created `scripts/cleanup/merge-role-content-media-entertainment.ts` script
+- Merged role content into 104 Media/Entertainment company-role modules across 12 companies:
+  - Disney (9 modules)
+  - WBD (7 modules)
+  - Spotify (11 modules)
+  - TikTok (9 modules)
+  - Snap (9 modules)
+  - Pinterest (9 modules)
+  - Reddit (9 modules)
+  - LinkedIn (10 modules)
+  - X (8 modules)
+  - EA (9 modules)
+  - Activision Blizzard (7 modules)
+  - Roblox (7 modules)
+
+**Merge Process:**
+1. Created automated merge script: `scripts/cleanup/merge-role-content-media-entertainment.ts`
+2. For each company-role module, loaded the corresponding role module
+3. Prepended 6 role sections before company-specific interview sections:
+   - Role Overview
+   - Common Interview Format
+   - How to Structure Your Answers
+   - Key Competencies
+   - Mistakes to Avoid
+   - Preparation Checklist
+4. Generated unique IDs for checklist items to avoid collisions
+5. Preserved all company-specific content (Behavioral, Technical, Culture Fit, Curveball questions)
+
+**Result Structure (example: Disney Software Engineer):**
+```
+1. Role Overview (from role module)
+2. Common Interview Format (from role module)
+3. How to Structure Your Answers (from role module)
+4. Key Competencies (from role module)
+5. Mistakes to Avoid (from role module)
+6. Preparation Checklist (from role module)
+7. Behavioral Questions for Software Engineer (company-specific)
+8. Technical Questions for Software Engineer (company-specific)
+9. Culture Fit Questions for Software Engineer (company-specific)
+10. Curveball Questions (company-specific)
+```
+
+**Script Created:**
+- `scripts/cleanup/merge-role-content-media-entertainment.ts` - Automated merge for Media/Entertainment modules
+
+**Verification:**
+- `npm run lint` - passes (warnings only for unrelated image issues)
+- `npm run type-check` - passes
+- `npm run build` - successful
+- `npm test -- --testPathPattern="(load-modules|flatten-modules|matrix|samples)"` - 85 tests pass
+- All 104 JSON files validated successfully
+- No duplicate sections in any module
+- All role sections present in each module
+
+**Acceptance Criteria:**
+- ✅ All 104 Media/Entertainment company-role modules reviewed
+- ✅ Role content merged into each module
+- ✅ No duplicate sections
+- ✅ Content flow is logical (role guidance → company-specific questions)
+
