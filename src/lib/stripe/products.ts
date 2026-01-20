@@ -11,7 +11,7 @@ import type { AccessType, ProductConfig, ProductMetadata } from './types';
 /**
  * Default pricing for single company/role access (in cents)
  */
-export const DEFAULT_SINGLE_PRICE = 20000; // $200.00
+export const DEFAULT_SINGLE_PRICE = 19900; // $199.00
 
 /**
  * Test mode pricing (lower prices for testing)

@@ -168,7 +168,7 @@ export const DEFAULT_PRODUCT: Omit<ProductConfig, 'company_slug' | 'role_slug'> 
   price_id: 'price_single_access',
   name: 'Interview Prep Course',
   description: 'Full access to company and role-specific interview preparation content',
-  amount: 20000, // $200.00 in cents
+  amount: 19900, // $199.00 in cents
   currency: 'usd',
   access_type: 'single',
 };
