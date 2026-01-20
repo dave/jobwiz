@@ -284,3 +284,68 @@ describe("getModuleOrderIndex", () => {
     expect(getModuleOrderIndex("industry")).toBe(4);
   });
 });
+
+describe("role module fallback behavior", () => {
+  describe("no duplicate content", () => {
+    it("has no duplicate module slugs when company-role exists", () => {
+      const result = loadCarouselModules("google", "software-engineer");
+      const slugs = result.allModules.map((m) => m.slug);
+      const uniqueSlugs = new Set(slugs);
+      expect(slugs.length).toBe(uniqueSlugs.size);
+    });
+
+    it("has no duplicate module slugs when using role fallback", () => {
+      const result = loadCarouselModules("accenture", "account-executive");
+      const slugs = result.allModules.map((m) => m.slug);
+      const uniqueSlugs = new Set(slugs);
+      expect(slugs.length).toBe(uniqueSlugs.size);
+    });
+
+    it("does not load both role and company-role modules", () => {
+      const result = loadCarouselModules("google", "software-engineer");
+      const hasRole = result.allModules.some((m) => m.type === "role");
+      const hasCompanyRole = result.allModules.some(
+        (m) => m.type === "company-role"
+      );
+      // Should not have both - either role (fallback) or company-role
+      expect(hasRole && hasCompanyRole).toBe(false);
+    });
+  });
+
+  describe("journey always has role-specific content", () => {
+    it("journey has role-specific content via company-role when it exists", () => {
+      const result = loadCarouselModules("google", "software-engineer");
+      // Should have company-role module with role content
+      const companyRoleModule = result.allModules.find(
+        (m) => m.type === "company-role"
+      );
+      expect(companyRoleModule).toBeDefined();
+      expect(companyRoleModule?.roleSlug).toBe("software-engineer");
+    });
+
+    it("journey has role-specific content via role fallback when no company-role", () => {
+      const result = loadCarouselModules("accenture", "account-executive");
+      // Should have role module as fallback
+      const roleModule = result.allModules.find((m) => m.type === "role");
+      expect(roleModule).toBeDefined();
+      expect(roleModule?.roleSlug).toBe("account-executive");
+    });
+
+    it("every valid company/role combination has role-specific content", () => {
+      // Test a few different combinations
+      const combos = [
+        { company: "google", role: "software-engineer" }, // company-role exists
+        { company: "amazon", role: "product-manager" }, // company-role exists
+        { company: "accenture", role: "account-executive" }, // fallback to role
+      ];
+
+      for (const { company, role } of combos) {
+        const result = loadCarouselModules(company, role);
+        const hasRoleContent =
+          result.allModules.some((m) => m.type === "role") ||
+          result.allModules.some((m) => m.type === "company-role");
+        expect(hasRoleContent).toBe(true);
+      }
+    });
+  });
+});

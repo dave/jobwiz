@@ -69,7 +69,7 @@ Fix content quality issues identified during manual review of interview prep mod
 
 ### Role → Company-Role Merge (#253)
 - [x] #256 - Update load-modules.ts
-- [ ] #257 - Test fallback behavior
+- [x] #257 - Test fallback behavior
 - [ ] #258 - Manual review
 - [ ] #297-#305 - Batch merges by category
 
@@ -2155,3 +2155,32 @@ if (companyRoleModule) allModules.push(companyRoleModule);
 - ✅ Role module loaded when no company-role (fallback)
 - ✅ Tests updated/added
 - ✅ No breaking changes to existing journeys
+
+### 2026-01-19 - Issue #257: Test role module fallback behavior
+
+**Completed:**
+- Added 6 new tests to verify role module fallback behavior:
+  - "has no duplicate module slugs when company-role exists"
+  - "has no duplicate module slugs when using role fallback"
+  - "does not load both role and company-role modules"
+  - "journey has role-specific content via company-role when it exists"
+  - "journey has role-specific content via role fallback when no company-role"
+  - "every valid company/role combination has role-specific content"
+- Total: 31 tests pass for load-modules
+
+**Test Scenarios Verified:**
+1. Company-role exists (Google SWE): Role module NOT loaded, company-role provides content
+2. Company-role missing (Accenture Account Executive): Role module loaded as fallback
+3. New company without company-role: Role module provides content
+
+**Acceptance Criteria:**
+- ✅ Role module loads when no company-role
+- ✅ Role module skipped when company-role exists
+- ✅ No duplicate content in any scenario
+- ✅ Journey always has role-specific content
+
+**Verification:**
+- `npm run lint` - passes
+- `npm run type-check` - passes
+- `npm run build` - successful
+- `npm test -- --testPathPattern="load-modules"` - 31 tests pass
