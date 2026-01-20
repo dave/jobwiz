@@ -77,7 +77,7 @@ Fix content quality issues identified during manual review of interview prep mod
 - [x] #300 - Consulting batch
 - [x] #301 - E-commerce/Retail batch
 - [x] #302 - Healthcare/Biotech batch
-- [ ] #303 - Enterprise SaaS batch
+- [x] #303 - Enterprise SaaS batch
 - [ ] #304 - Media/Entertainment batch
 - [ ] #305 - Other companies batch
 
@@ -2503,6 +2503,76 @@ All company-role modules for 14 Finance companies:
 
 **Acceptance Criteria:**
 - ✅ All 58 Healthcare/Biotech company-role modules reviewed
+- ✅ Role content merged into each module
+- ✅ No duplicate sections
+- ✅ Content flow is logical (role guidance → company-specific questions)
+
+### 2026-01-19 - Issue #303: Merge role content into Enterprise SaaS company-role modules
+
+**Completed:**
+- Created `scripts/cleanup/merge-role-content-enterprise-saas.ts` script
+- Merged role content into 138 Enterprise SaaS company-role modules across 19 companies:
+  - Salesforce (11 modules)
+  - Oracle (9 modules)
+  - SAP (7 modules)
+  - Workday (7 modules)
+  - ServiceNow (8 modules)
+  - Atlassian (8 modules)
+  - Splunk (8 modules)
+  - Twilio (7 modules)
+  - HubSpot (9 modules)
+  - Zendesk (6 modules)
+  - Okta (7 modules)
+  - Cloudflare (7 modules)
+  - MongoDB (7 modules)
+  - Elastic (6 modules)
+  - IBM (7 modules)
+  - VMware (6 modules)
+  - Slack (7 modules)
+  - Zoom (6 modules)
+  - DocuSign (5 modules)
+
+**Merge Process:**
+1. Created automated merge script: `scripts/cleanup/merge-role-content-enterprise-saas.ts`
+2. For each company-role module, loaded the corresponding role module
+3. Prepended 6 role sections before company-specific interview sections:
+   - Role Overview
+   - Common Interview Format
+   - How to Structure Your Answers
+   - Key Competencies
+   - Mistakes to Avoid
+   - Preparation Checklist
+4. Generated unique IDs for checklist items to avoid collisions
+5. Preserved all company-specific content (Behavioral, Technical, Culture Fit, Curveball questions)
+
+**Result Structure (example: Salesforce Software Engineer):**
+```
+1. Role Overview (from role module)
+2. Common Interview Format (from role module)
+3. How to Structure Your Answers (from role module)
+4. Key Competencies (from role module)
+5. Mistakes to Avoid (from role module)
+6. Preparation Checklist (from role module)
+7. Behavioral Questions for Software Engineer (company-specific)
+8. Technical Questions for Software Engineer (company-specific)
+9. Culture Fit Questions for Software Engineer (company-specific)
+10. Curveball Questions (company-specific)
+```
+
+**Script Created:**
+- `scripts/cleanup/merge-role-content-enterprise-saas.ts` - Automated merge for Enterprise SaaS modules
+
+**Verification:**
+- `npm run lint` - passes (warnings only for unrelated image issues)
+- `npm run type-check` - passes
+- `npm run build` - successful
+- `npm test -- --testPathPattern="(load-modules|flatten-modules|matrix|samples)"` - 85 tests pass
+- All 138 JSON files validated successfully
+- No duplicate sections in any module
+- All role sections present in each module
+
+**Acceptance Criteria:**
+- ✅ All 138 Enterprise SaaS company-role modules reviewed
 - ✅ Role content merged into each module
 - ✅ No duplicate sections
 - ✅ Content flow is logical (role guidance → company-specific questions)
