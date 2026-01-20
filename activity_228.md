@@ -79,7 +79,7 @@ Fix content quality issues identified during manual review of interview prep mod
 - [x] #302 - Healthcare/Biotech batch
 - [x] #303 - Enterprise SaaS batch
 - [x] #304 - Media/Entertainment batch
-- [ ] #305 - Other companies batch
+- [x] #305 - Other companies batch
 
 ---
 
@@ -2639,3 +2639,57 @@ All company-role modules for 14 Finance companies:
 - ✅ No duplicate sections
 - ✅ Content flow is logical (role guidance → company-specific questions)
 
+
+### 2026-01-19 - Issue #305: Merge role content into Other companies company-role modules
+
+**Completed:**
+- Created `scripts/cleanup/merge-role-content-other.ts` script
+- Merged role content into 20 Other companies company-role modules across 3 companies:
+  - Asana (6 modules): backend-engineer, engineering-manager, frontend-engineer, product-designer, product-manager, software-engineer
+  - Dropbox (7 modules): backend-engineer, data-scientist, engineering-manager, frontend-engineer, product-designer, product-manager, software-engineer
+  - Palantir (7 modules): backend-engineer, data-engineer, data-scientist, engineering-manager, product-manager, software-engineer, solutions-architect
+
+**Merge Process:**
+1. Created automated merge script: `scripts/cleanup/merge-role-content-other.ts`
+2. For each company-role module, loaded the corresponding role module
+3. Prepended 6 role sections before company-specific interview sections:
+   - Role Overview
+   - Common Interview Format
+   - How to Structure Your Answers
+   - Key Competencies
+   - Mistakes to Avoid
+   - Preparation Checklist
+4. Generated unique IDs for checklist items to avoid collisions
+5. Preserved all company-specific content (Behavioral, Technical, Culture Fit, Curveball questions)
+
+**Result Structure (example: Asana Software Engineer):**
+```
+1. Role Overview (from role module)
+2. Common Interview Format (from role module)
+3. How to Structure Your Answers (from role module)
+4. Key Competencies (from role module)
+5. Mistakes to Avoid (from role module)
+6. Preparation Checklist (from role module)
+7. Behavioral Questions for Software Engineer (company-specific)
+8. Technical Questions for Software Engineer (company-specific)
+9. Culture Fit Questions for Software Engineer (company-specific)
+10. Curveball Questions (company-specific)
+```
+
+**Script Created:**
+- `scripts/cleanup/merge-role-content-other.ts` - Automated merge for Other companies modules
+
+**Verification:**
+- `npm run lint` - passes (warnings only for unrelated image issues)
+- `npm run type-check` - passes
+- `npm run build` - successful
+- `npm test -- --testPathPattern="(load-modules|flatten-modules|matrix|samples)"` - 85 tests pass
+- All 20 JSON files validated successfully
+- No duplicate sections in any module
+- All role sections present in each module
+
+**Acceptance Criteria:**
+- ✅ All 20 Other companies company-role modules reviewed
+- ✅ Role content merged into each module
+- ✅ No duplicate sections
+- ✅ Content flow is logical (role guidance → company-specific questions)
