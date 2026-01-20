@@ -185,6 +185,8 @@ export function CarouselProvider({
   const supabaseLoadedRef = useRef(false);
   const saveTimeoutRef = useRef<NodeJS.Timeout | null>(null);
   const lastSavedRef = useRef<string>("");
+  // Track if user has navigated - prevents async Supabase load from overwriting
+  const hasNavigatedRef = useRef(false);
 
   // Load persisted state or use defaults
   const [currentIndex, setCurrentIndex] = useState(() => {
@@ -240,6 +242,9 @@ export function CarouselProvider({
     const localTimestamp = localProgress?.lastUpdated ?? 0;
 
     loadFromSupabase(companySlug, roleSlug).then((remoteProgress) => {
+      // Don't override if user has already navigated
+      if (hasNavigatedRef.current) return;
+
       if (remoteProgress && remoteProgress.lastUpdated > localTimestamp) {
         // Remote state is newer, apply it
         setCurrentIndex(remoteProgress.currentIndex);
@@ -247,6 +252,18 @@ export function CarouselProvider({
       }
     });
   }, [companySlug, roleSlug, enableSupabaseSync, initialIndex]);
+
+  // Ref to hold latest index for marking items complete (avoids stale closure)
+  const currentIndexRef = useRef(currentIndex);
+  useEffect(() => {
+    currentIndexRef.current = currentIndex;
+  }, [currentIndex]);
+
+  // Ref to hold latest state for debounced save (avoids stale closure)
+  const latestStateRef = useRef({ currentIndex, completedItems });
+  useEffect(() => {
+    latestStateRef.current = { currentIndex, completedItems };
+  }, [currentIndex, completedItems]);
 
   // Supabase sync: Save to Supabase on state changes (debounced 1 second)
   useEffect(() => {
@@ -267,17 +284,24 @@ export function CarouselProvider({
 
     // Debounce save by 1 second
     saveTimeoutRef.current = setTimeout(() => {
+      // Use ref to get latest values, not stale closure values
+      const latest = latestStateRef.current;
       const progress: CarouselProgress = {
         companySlug,
         roleSlug,
-        currentIndex,
-        completedItems: Array.from(completedItems),
+        currentIndex: latest.currentIndex,
+        completedItems: Array.from(latest.completedItems),
         lastUpdated: Date.now(),
       };
 
+      const latestStateKey = JSON.stringify({
+        currentIndex: latest.currentIndex,
+        completedItems: Array.from(latest.completedItems),
+      });
+
       saveToSupabase(progress).then((success) => {
         if (success) {
-          lastSavedRef.current = stateKey;
+          lastSavedRef.current = latestStateKey;
         }
       });
     }, 1000);
@@ -331,8 +355,13 @@ export function CarouselProvider({
   const next = useCallback(() => {
     if (!canGoNext) return;
 
+    // Mark that user has navigated (prevents async Supabase load from overwriting)
+    hasNavigatedRef.current = true;
+
     // Mark current item as complete when navigating forward
-    const currentItem = items[currentIndex];
+    // Use ref to get latest index, avoiding stale closure issues
+    const idx = currentIndexRef.current;
+    const currentItem = items[idx];
     if (currentItem && currentItem.type !== "paywall") {
       setCompletedItems((prev) => {
         const next = new Set(prev);
@@ -350,10 +379,14 @@ export function CarouselProvider({
       }
       return Math.min(newIndex, items.length - 1);
     });
-  }, [canGoNext, items, currentIndex, hasPremiumAccess, paywallIndex]);
+  }, [canGoNext, items, hasPremiumAccess, paywallIndex]);
 
   const prev = useCallback(() => {
     if (!canGoPrev) return;
+
+    // Mark that user has navigated (prevents async Supabase load from overwriting)
+    hasNavigatedRef.current = true;
+
     setLastDirection("prev");
     setCurrentIndex((prevIndex) => {
       let newIndex = prevIndex - 1;
@@ -374,6 +407,9 @@ export function CarouselProvider({
         // Can't navigate to premium items without access
         return;
       }
+
+      // Mark that user has navigated (prevents async Supabase load from overwriting)
+      hasNavigatedRef.current = true;
 
       // Set direction based on whether we're going forward or backward
       setLastDirection(index > currentIndex ? "next" : "prev");
@@ -397,6 +433,27 @@ export function CarouselProvider({
       return next;
     });
   }, []);
+
+  // Synchronously save progress - use before navigation to ensure data is persisted
+  // Optional itemIdToInclude adds an item that was just marked complete but hasn't hit state yet
+  const saveProgressNow = useCallback((itemIdToInclude?: string) => {
+    const currentCompleted = latestStateRef.current.completedItems;
+    const completedArray = Array.from(currentCompleted);
+    // Include the item if provided and not already in the set
+    if (itemIdToInclude && !currentCompleted.has(itemIdToInclude)) {
+      completedArray.push(itemIdToInclude);
+    }
+    const progress: CarouselProgress = {
+      companySlug,
+      roleSlug,
+      currentIndex: currentIndexRef.current,
+      completedItems: completedArray,
+      lastUpdated: Date.now(),
+    };
+    persistProgress(progress);
+    // Also trigger async Supabase save
+    saveToSupabase(progress);
+  }, [companySlug, roleSlug]);
 
   // Unlock paywall and advance to next item
   const unlockPaywall = useCallback(() => {
@@ -448,6 +505,7 @@ export function CarouselProvider({
       resume,
       markComplete,
       unlockPaywall,
+      saveProgressNow,
       canGoNext,
       canGoPrev,
     }),
@@ -469,6 +527,7 @@ export function CarouselProvider({
       resume,
       markComplete,
       unlockPaywall,
+      saveProgressNow,
       canGoNext,
       canGoPrev,
     ]

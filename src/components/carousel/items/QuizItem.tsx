@@ -145,12 +145,10 @@ function QuizItemInteractive({ block, onComplete, className }: QuizItemProps) {
   const handleSubmit = useCallback(() => {
     if (selectedIds.size === 0 || isSubmitted) return;
     setIsSubmitted(true);
-  }, [selectedIds.size, isSubmitted]);
-
-  // Handle continue after submission - this triggers onComplete to advance
-  const handleContinue = useCallback(() => {
+    // Mark as complete when answer is submitted
     onComplete?.();
-  }, [onComplete]);
+  }, [selectedIds.size, isSubmitted, onComplete]);
+
 
   const getOptionState = (option: QuizOption) => {
     if (!isSubmitted) {
@@ -289,64 +287,47 @@ function QuizItemInteractive({ block, onComplete, className }: QuizItemProps) {
             Check Answer
           </button>
         ) : (
-          <div className="space-y-3 sm:space-y-4">
-            {/* Result feedback */}
-            <div
-              className={cn(
-                "p-4 sm:p-6 rounded-xl text-center",
-                isCorrect
-                  ? "bg-green-50 border-2 border-green-200"
-                  : "bg-red-50 border-2 border-red-200"
-              )}
-              role="status"
-              aria-live="polite"
-            >
-              <div className="flex items-center justify-center gap-2 sm:gap-3 mb-2 sm:mb-3">
-                <span
-                  className={cn(
-                    "flex items-center justify-center w-8 h-8 sm:w-10 sm:h-10 rounded-full",
-                    isCorrect ? "bg-green-500 text-white" : "bg-red-500 text-white"
-                  )}
-                >
-                  {isCorrect ? <CheckIcon /> : <XIcon />}
-                </span>
-                <span
-                  className={cn(
-                    "text-lg sm:text-xl font-semibold",
-                    isCorrect ? "text-green-800" : "text-red-800"
-                  )}
-                >
-                  {isCorrect ? "Correct!" : "Not quite"}
-                </span>
-              </div>
-
-              {/* Explanation */}
-              {explanation && (
-                <p
-                  className={cn(
-                    "text-base sm:text-lg leading-relaxed",
-                    isCorrect ? "text-green-700" : "text-red-700"
-                  )}
-                >
-                  {explanation}
-                </p>
-              )}
+          /* Result feedback */
+          <div
+            className={cn(
+              "p-4 sm:p-6 rounded-xl text-center",
+              isCorrect
+                ? "bg-green-50 border-2 border-green-200"
+                : "bg-red-50 border-2 border-red-200"
+            )}
+            role="status"
+            aria-live="polite"
+          >
+            <div className="flex items-center justify-center gap-2 sm:gap-3 mb-2 sm:mb-3">
+              <span
+                className={cn(
+                  "flex items-center justify-center w-8 h-8 sm:w-10 sm:h-10 rounded-full",
+                  isCorrect ? "bg-green-500 text-white" : "bg-red-500 text-white"
+                )}
+              >
+                {isCorrect ? <CheckIcon /> : <XIcon />}
+              </span>
+              <span
+                className={cn(
+                  "text-lg sm:text-xl font-semibold",
+                  isCorrect ? "text-green-800" : "text-red-800"
+                )}
+              >
+                {isCorrect ? "Correct!" : "Not quite"}
+              </span>
             </div>
 
-            {/* Continue button */}
-            <button
-              type="button"
-              onClick={handleContinue}
-              className={cn(
-                "w-full py-3 sm:py-4 px-5 sm:px-6 rounded-xl font-semibold text-base sm:text-lg",
-                "transition-all duration-200",
-                "focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2",
-                "min-h-[48px] sm:min-h-[56px]",
-                "bg-blue-600 text-white hover:bg-blue-700 shadow-lg hover:shadow-xl"
-              )}
-            >
-              Continue
-            </button>
+            {/* Explanation */}
+            {explanation && (
+              <p
+                className={cn(
+                  "text-base sm:text-lg leading-relaxed",
+                  isCorrect ? "text-green-700" : "text-red-700"
+                )}
+              >
+                {explanation}
+              </p>
+            )}
           </div>
         )}
       </div>

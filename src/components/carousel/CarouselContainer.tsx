@@ -51,6 +51,9 @@ export function CarouselContainer({
     totalItems,
     companySlug,
     roleSlug,
+    currentItem,
+    markComplete,
+    saveProgressNow,
   } = useCarousel();
 
   const router = useRouter();
@@ -174,10 +177,21 @@ export function CarouselContainer({
     if (isAtPaywall || isNextBlockedByPaywall) {
       // Navigate to checkout page for premium upsell
       router.push(`/${companySlug}/${roleSlug}/checkout`);
+    } else if (isLastItem) {
+      // Mark last item complete and save progress before navigating away
+      if (currentItem) {
+        markComplete(currentItem.id);
+        // Pass item ID to include since state update hasn't happened yet
+        saveProgressNow(currentItem.id);
+      } else {
+        saveProgressNow();
+      }
+      // Navigate back to journey page when done
+      router.push(`/${companySlug}/${roleSlug}/journey`);
     } else if (canGoNext) {
       next();
     }
-  }, [canGoNext, next, isAtPaywall, isNextBlockedByPaywall, router, companySlug, roleSlug]);
+  }, [canGoNext, next, isAtPaywall, isNextBlockedByPaywall, isLastItem, router, companySlug, roleSlug, currentItem, markComplete, saveProgressNow]);
 
   // Determine animation class based on last direction
   const animationClass =

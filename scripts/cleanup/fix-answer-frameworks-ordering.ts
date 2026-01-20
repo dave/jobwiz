@@ -69,6 +69,10 @@ function fixAnswerFrameworksSection(section: Section): { fixed: boolean; details
 
   while (i < blocks.length) {
     const block = blocks[i];
+    if (!block) {
+      i++;
+      continue;
+    }
 
     // If this is a subsection header (e.g., **Behavioral Questions**)
     if (isSubsectionHeader(block)) {
@@ -76,8 +80,10 @@ function fixAnswerFrameworksSection(section: Section): { fixed: boolean; details
       const subsectionBlocks: ContentBlock[] = [block];
       i++;
 
-      while (i < blocks.length && !isSubsectionHeader(blocks[i])) {
-        subsectionBlocks.push(blocks[i]);
+      while (i < blocks.length) {
+        const nextBlock = blocks[i];
+        if (!nextBlock || isSubsectionHeader(nextBlock)) break;
+        subsectionBlocks.push(nextBlock);
         i++;
       }
 
@@ -87,10 +93,12 @@ function fixAnswerFrameworksSection(section: Section): { fixed: boolean; details
       if (quoteIndex > 1) {
         // Quote exists and is not already in position 1
         const [quote] = subsectionBlocks.splice(quoteIndex, 1);
-        subsectionBlocks.splice(1, 0, quote);
-        fixed = true;
-        const headerText = (block.content.text as string).replace(/\*\*/g, '');
-        details.push(`Moved quote after "${headerText}"`);
+        if (quote) {
+          subsectionBlocks.splice(1, 0, quote);
+          fixed = true;
+          const headerText = (block.content.text as string).replace(/\*\*/g, '');
+          details.push(`Moved quote after "${headerText}"`);
+        }
       }
 
       newBlocks.push(...subsectionBlocks);

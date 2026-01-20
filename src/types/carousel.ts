@@ -95,6 +95,8 @@ export interface CarouselContextValue extends CarouselNavigation {
   companySlug: string;
   /** Role slug for this carousel */
   roleSlug: string;
+  /** Save progress immediately (before navigation). Optional itemId adds an item just marked complete. */
+  saveProgressNow: (itemIdToInclude?: string) => void;
 }
 
 /** Options for initializing a carousel */

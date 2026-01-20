@@ -58,23 +58,20 @@ function CarouselContentInner({
   roleName: string;
 }) {
   const router = useRouter();
-  const { currentItem, markComplete, next, isLastItem } = useCarousel();
+  const { currentItem, markComplete } = useCarousel();
 
   // Handle exit - return to journey overview
   const handleExit = useCallback(() => {
     router.push(`/${companySlug}/${roleSlug}/journey`);
   }, [router, companySlug, roleSlug]);
 
-  // Handle item completion - mark as complete and advance
+  // Handle item completion - just mark as complete, don't auto-advance
+  // User navigates with swipe/buttons
   const handleItemComplete = useCallback(() => {
     if (currentItem) {
       markComplete(currentItem.id);
-      // Automatically advance if not at last item
-      if (!isLastItem) {
-        next();
-      }
     }
-  }, [currentItem, markComplete, next, isLastItem]);
+  }, [currentItem, markComplete]);
 
   // Render the current item based on its type
   const renderCurrentItem = useCallback(() => {

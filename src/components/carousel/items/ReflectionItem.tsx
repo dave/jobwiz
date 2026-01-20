@@ -6,7 +6,7 @@ import type { QuizBlock } from "@/types/module";
 export interface ReflectionItemProps {
   /** The quiz block to render as reflection */
   block: QuizBlock;
-  /** Called when user clicks Continue */
+  /** Called when item is viewed (marks as complete) */
   onComplete?: () => void;
   /** Custom class name */
   className?: string;
@@ -216,21 +216,6 @@ export function ReflectionItem({
             </div>
           </div>
         )}
-
-        {/* Continue Button */}
-        <button
-          type="button"
-          onClick={onComplete}
-          className={cn(
-            "w-full py-3 sm:py-4 px-5 sm:px-6 rounded-xl font-semibold text-base sm:text-lg",
-            "transition-all duration-200",
-            "focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2",
-            "min-h-[48px] sm:min-h-[56px]",
-            "bg-blue-600 text-white hover:bg-blue-700 shadow-lg hover:shadow-xl"
-          )}
-        >
-          Continue
-        </button>
       </div>
     </div>
   );
