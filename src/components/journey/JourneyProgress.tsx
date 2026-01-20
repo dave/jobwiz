@@ -279,9 +279,9 @@ export function JourneyProgress({
   const strokeDashoffset = circumference - (progressPercentage / 100) * circumference;
 
   return (
-    <div data-testid="journey-progress-card">
+    <div data-testid="journey-progress-card" className="overflow-hidden">
       {/* Compact header with progress ring */}
-      <div className="flex items-center gap-6 mb-8 p-6 bg-white rounded-2xl shadow-sm">
+      <div className="flex items-center gap-4 sm:gap-6 mb-8 p-4 sm:p-6 bg-white rounded-2xl shadow-sm">
         {/* Progress ring */}
         <div className="relative flex-shrink-0">
           <svg className="w-20 h-20 -rotate-90" viewBox="0 0 100 100">
@@ -355,7 +355,7 @@ export function JourneyProgress({
       </div>
 
       {/* Module cards */}
-      <div className="grid gap-3" data-testid="module-list">
+      <div className="grid gap-3 overflow-hidden" data-testid="module-list">
         {moduleDisplayInfo.map((moduleInfo, index) => (
           <ModuleListItem
             key={moduleInfo.slug}
@@ -406,7 +406,7 @@ function ModuleListItem({
   return (
     <Link
       href={href}
-      className={`group flex items-center gap-4 p-4 bg-white rounded-xl transition-all ${
+      className={`group flex items-center gap-3 sm:gap-4 p-3 sm:p-4 bg-white rounded-xl transition-all overflow-hidden ${
         isCompleted
           ? "ring-1 ring-green-200 hover:ring-green-300"
           : isCurrent
