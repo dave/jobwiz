@@ -175,8 +175,8 @@ export function JourneyContent({
   const hasModules = allModules.length > 0;
 
   return (
-    <div className="bg-gray-50">
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <div className="bg-gray-50 overflow-x-hidden">
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8 overflow-hidden">
         {hasModules ? (
           <>
             {/* Journey Progress Component */}
