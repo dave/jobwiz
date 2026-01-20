@@ -73,6 +73,12 @@
           }
         },
         {
+          "type": "quote",
+          "content": {
+            "text": "Example: \"Tell me about a time you had to lead a project without formal authority.\""
+          }
+        },
+        {
           "type": "text",
           "content": {
             "text": "Use the **STAR with leadership lens** framework:"
@@ -123,15 +129,15 @@
           }
         },
         {
-          "type": "quote",
-          "content": {
-            "text": "Example: \"Tell me about a time you had to lead a project without formal authority.\""
-          }
-        },
-        {
           "type": "text",
           "content": {
             "text": "**Technical Questions**"
+          }
+        },
+        {
+          "type": "quote",
+          "content": {
+            "text": "Example: \"You're the PM for YouTube. How would you measure success for a new 'Shorts' feature?\""
           }
         },
         {
@@ -185,15 +191,15 @@
           }
         },
         {
-          "type": "quote",
-          "content": {
-            "text": "Example: \"You're the PM for YouTube. How would you measure success for a new 'Shorts' feature?\""
-          }
-        },
-        {
           "type": "text",
           "content": {
             "text": "**Culture Fit Questions**"
+          }
+        },
+        {
+          "type": "quote",
+          "content": {
+            "text": "Example: \"Tell me about a time you took on something outside your job description because it needed to be done.\""
           }
         },
         {
@@ -247,15 +253,15 @@
           }
         },
         {
-          "type": "quote",
-          "content": {
-            "text": "Example: \"Tell me about a time you took on something outside your job description because it needed to be done.\""
-          }
-        },
-        {
           "type": "text",
           "content": {
             "text": "**Curveball & Estimation Questions**"
+          }
+        },
+        {
+          "type": "quote",
+          "content": {
+            "text": "Example: \"How many golf balls fit in a school bus?\""
           }
         },
         {
@@ -306,12 +312,6 @@
           "type": "tip",
           "content": {
             "text": "**Stay composed:** Say: 'I'll estimate this step by step and state my assumptions as I go.' This signals you know what they're looking for and buys you thinking time."
-          }
-        },
-        {
-          "type": "quote",
-          "content": {
-            "text": "Example: \"How many golf balls fit in a school bus?\""
           }
         },
         {
