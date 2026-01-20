@@ -2693,3 +2693,52 @@ All company-role modules for 14 Finance companies:
 - ✅ Role content merged into each module
 - ✅ No duplicate sections
 - ✅ Content flow is logical (role guidance → company-specific questions)
+
+
+### 2026-01-19 - Issue #258: Manual review of merged company-role modules
+
+**Completed:**
+- Manually reviewed 5 diverse company-role modules to verify merge quality:
+  1. **Google Software Engineer** - ✅ All 10 sections present (6 role + 4 company-specific)
+  2. **Amazon Product Manager** - ✅ All 10 sections present (6 role + 4 company-specific)
+  3. **Goldman Sachs Data Scientist** - ✅ All 10 sections present (6 role + 4 company-specific)
+  4. **McKinsey Management Consultant** - ✅ All 10 sections present (6 role + 4 company-specific)
+  5. **Meta Frontend Engineer** - ✅ All 10 sections present (6 role + 4 company-specific)
+
+**Module Structure Verified:**
+Each module contains the correct merged structure:
+1. Role Overview (from role module)
+2. Common Interview Format (from role module)
+3. How to Structure Your Answers (from role module)
+4. Key Competencies (from role module)
+5. Mistakes to Avoid (from role module)
+6. Preparation Checklist (from role module)
+7. Behavioral Questions for [Role] (company-specific)
+8. Technical Questions for [Role] (company-specific)
+9. Culture Fit Questions for [Role] (company-specific)
+10. Curveball Questions (company-specific)
+
+**Visual QA:**
+- Walked through journey for each module
+- Verified all journeys start at step 1 with "Interview Fundamentals" (universal module)
+- Verified paywall appears after free content (31 total steps with paywall)
+- No duplicate content visible
+- Content flow is logical
+
+**Loading Logic Verified:**
+- `load-modules.ts` correctly skips role module when company-role exists
+- Role content has been properly merged into company-role modules
+- Universal module loads first (free), followed by company module, then company-role module (premium)
+
+**Verification:**
+- `npm run lint` - passes (warnings only for unrelated image issues)
+- `npm run type-check` - passes
+- `npm run build` - successful
+- `npm test -- --testPathPattern="(load-modules|flatten-modules|matrix|samples)"` - 85 tests pass
+
+**Acceptance Criteria:**
+- ✅ 5 modules reviewed
+- ✅ Merged content present and correct
+- ✅ No duplicates
+- ✅ Content flow logical
+- ✅ No issues found (nothing to fix)
