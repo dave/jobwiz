@@ -35,8 +35,8 @@ Fix content quality issues identified during manual review of interview prep mod
 - [x] #291 - Consulting batch
 - [x] #292 - E-commerce/Retail batch
 - [x] #293 - Healthcare/Biotech batch
-- [ ] #294 - Enterprise SaaS batch
-- [ ] #295 - Media/Entertainment batch
+- [x] #294 - Enterprise SaaS batch
+- [x] #295 - Media/Entertainment batch
 - [ ] #296 - Other companies batch
 
 ### Missing Introductions (#244)
@@ -1969,6 +1969,47 @@ Block patterns found (consistent across all modules):
 
 **Acceptance Criteria:**
 - ✅ All 138 company-role modules in batch reviewed
+- ✅ Questions appear before explanations (verified - no issues found)
+- ✅ Content flow is logical (section intro → tip → quiz blocks)
+
+### 2026-01-19 - Issue #295: Fix content ordering - Company-role modules: Media/Entertainment
+
+**Status:** Complete - No issues found
+
+**Modules Reviewed (104 total):**
+Reviewed all company-role modules for 12 Media/Entertainment companies:
+- Disney (9 modules), WBD (7), Spotify (11), TikTok (9), Snap (9), Pinterest (9), Reddit (9), LinkedIn (10), X (8), EA (9), Activision Blizzard (7), Roblox (7)
+
+**Analysis Approach:**
+1. Created automated checker script to detect text/tip/warning blocks appearing between quiz blocks
+2. Scanned all 104 modules for ordering issues
+3. Verified block patterns across all sections
+4. Manually spot-checked sample files (Disney SWE, Spotify DS, TikTok Mobile)
+
+**Findings:**
+All 104 modules have the **correct** ordering structure:
+- Section intro text at position 0
+- Key focus areas tip/warning at position 1
+- All quiz blocks grouped together after intro content
+
+Block patterns found (consistent across all modules):
+- `text tip quiz quiz quiz quiz quiz` - 208 sections (Behavioral, Technical)
+- `text warning quiz quiz quiz quiz quiz` - 104 sections (Culture Fit)
+- `text tip quiz quiz quiz quiz` - 104 sections (Curveball - 4 quizzes)
+
+**No fixes required** - The current structure is correct. Explanations/frameworks do NOT appear before questions; they appear at the section level as introductory content, which is appropriate.
+
+**Script Created:**
+- `scripts/cleanup/check-content-ordering-media-entertainment.ts` - Automated ordering check for Media/Entertainment modules
+
+**Verification:**
+- `npm run lint` - passes (warnings only for unrelated image issues)
+- `npm run type-check` - passes
+- `npm run build` - successful
+- `npm test -- --testPathPattern="modules"` - 77 tests pass
+
+**Acceptance Criteria:**
+- ✅ All 104 company-role modules in batch reviewed
 - ✅ Questions appear before explanations (verified - no issues found)
 - ✅ Content flow is logical (section intro → tip → quiz blocks)
 
