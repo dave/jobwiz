@@ -2054,3 +2054,59 @@ Block patterns found (consistent across all modules):
 - ✅ All 20 company-role modules in batch reviewed
 - ✅ Questions appear before explanations (verified - no issues found)
 - ✅ Content flow is logical (section intro → tip → quiz blocks)
+
+### 2026-01-19 - Issue #297: Merge role content - Big Tech company-role modules
+
+**Status:** Complete
+
+**Modules Updated (79 total):**
+All company-role modules for 6 Big Tech companies:
+- Google (15 modules)
+- Meta (14 modules)
+- Microsoft (13 modules)
+- Amazon (14 modules)
+- Apple (13 modules)
+- Nvidia (10 modules)
+
+**Merge Process:**
+1. Created automated merge script: `scripts/cleanup/merge-role-content-big-tech.ts`
+2. For each company-role module, loaded the corresponding role module
+3. Prepended 6 role sections before company-specific interview sections:
+   - Role Overview
+   - Common Interview Format
+   - How to Structure Your Answers
+   - Key Competencies
+   - Mistakes to Avoid
+   - Preparation Checklist
+4. Generated unique IDs for checklist items to avoid collisions
+5. Preserved all company-specific content (Behavioral, Technical, Culture Fit, Curveball questions)
+
+**Result Structure (example: Google Software Engineer):**
+```
+1. Role Overview (from role module)
+2. Common Interview Format (from role module)
+3. How to Structure Your Answers (from role module)
+4. Key Competencies (from role module)
+5. Mistakes to Avoid (from role module)
+6. Preparation Checklist (from role module)
+7. Behavioral Questions for Software Engineer (company-specific)
+8. Technical Questions for Software Engineer (company-specific)
+9. Culture Fit Questions for Software Engineer (company-specific)
+10. Curveball Questions (company-specific)
+```
+
+**Script Created:**
+- `scripts/cleanup/merge-role-content-big-tech.ts` - Automated merge for Big Tech modules
+
+**Verification:**
+- `npm run lint` - passes (warnings only for unrelated image issues)
+- `npm run type-check` - passes
+- `npm run build` - successful
+- `npm test -- --testPathPattern="(load-modules|flatten-modules|matrix|samples)"` - 77 tests pass
+- All 79 JSON files validated successfully
+
+**Acceptance Criteria:**
+- ✅ All 79 Big Tech company-role modules reviewed
+- ✅ Role content merged into each module
+- ✅ No duplicate sections
+- ✅ Content flow is logical (role guidance → company-specific questions)

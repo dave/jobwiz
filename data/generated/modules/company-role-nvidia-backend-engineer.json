@@ -9,6 +9,564 @@
   "display_order": 0,
   "sections": [
     {
+      "id": "overview",
+      "title": "Role Overview",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "Backend interviews focus on server-side programming, database design, API architecture, and distributed systems. You'll face coding challenges, system design questions, and deep dives into scalability."
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**What interviewers assess:**\n\n- Server-side programming proficiency\n- Database design and optimization\n- API design principles\n- Distributed systems concepts\n- Performance and scalability thinking"
+          }
+        }
+      ]
+    },
+    {
+      "id": "format",
+      "title": "Common Interview Format",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "**Typical backend interview loop:**\n\n1. **Recruiter screen** (30 min)\n2. **Technical phone screen** (45-60 min) - Coding problem\n3. **Onsite/Virtual loop** (4-5 hours):\n   - Coding rounds (algorithms, data structures)\n   - System design round\n   - API/database design round\n   - Behavioral round"
+          }
+        },
+        {
+          "type": "tip",
+          "content": {
+            "text": "In system design, always discuss trade-offs. There's no perfect solution - show you understand the implications of your choices."
+          }
+        }
+      ]
+    },
+    {
+      "id": "answer-frameworks",
+      "title": "How to Structure Your Answers",
+      "blocks": [
+        {
+          "type": "header",
+          "content": {
+            "text": "How to Structure Your Answers"
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "Great Backend Engineer interview answers follow proven structures. These frameworks help you give complete, compelling responses that cover everything interviewers want to hear."
+          }
+        },
+        {
+          "type": "tip",
+          "content": {
+            "text": "**Pro tip:** Don't memorize scripts. Learn these frameworks so you can adapt them to any question. Interviewers can tell when answers are rehearsed word-for-word."
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Behavioral Questions**"
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "Use the **STAR with leadership lens** framework:"
+          }
+        },
+        {
+          "type": "checklist",
+          "content": {
+            "title": "Key Elements to Cover",
+            "items": [
+              {
+                "id": "nvidia-behavioral-elem-0",
+                "text": "Why you stepped up (not because you had to)",
+                "required": true
+              },
+              {
+                "id": "nvidia-behavioral-elem-1",
+                "text": "How you built alignment without authority",
+                "required": true
+              },
+              {
+                "id": "nvidia-behavioral-elem-2",
+                "text": "Specific influence tactics used",
+                "required": true
+              },
+              {
+                "id": "nvidia-behavioral-elem-3",
+                "text": "How you handled resistance",
+                "required": false
+              },
+              {
+                "id": "nvidia-behavioral-elem-4",
+                "text": "Measurable outcome",
+                "required": false
+              },
+              {
+                "id": "nvidia-behavioral-elem-5",
+                "text": "What you'd do differently",
+                "required": false
+              }
+            ]
+          }
+        },
+        {
+          "type": "tip",
+          "content": {
+            "text": "**Time allocation:** Situation: 15%, Task: 10%, Action: 55%, Result: 20%"
+          }
+        },
+        {
+          "type": "quote",
+          "content": {
+            "text": "Example: \"Tell me about a time you had to lead a project without formal authority.\""
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Technical Questions**"
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "Use the **Define -> Examples -> Trade-offs -> Business context** framework:"
+          }
+        },
+        {
+          "type": "checklist",
+          "content": {
+            "title": "Key Elements to Cover",
+            "items": [
+              {
+                "id": "nvidia-technical-elem-0",
+                "text": "Clear definition of both types",
+                "required": true
+              },
+              {
+                "id": "nvidia-technical-elem-1",
+                "text": "Real-world example (spam filter, medical diagnosis)",
+                "required": true
+              },
+              {
+                "id": "nvidia-technical-elem-2",
+                "text": "When to prioritize Type I (false positive) avoidance",
+                "required": true
+              },
+              {
+                "id": "nvidia-technical-elem-3",
+                "text": "When to prioritize Type II (false negative) avoidance",
+                "required": false
+              },
+              {
+                "id": "nvidia-technical-elem-4",
+                "text": "How sample size affects both",
+                "required": false
+              },
+              {
+                "id": "nvidia-technical-elem-5",
+                "text": "How to explain to product managers",
+                "required": false
+              }
+            ]
+          }
+        },
+        {
+          "type": "tip",
+          "content": {
+            "text": "**Be ready for follow-ups:** Expect: 'How do you set alpha level for an experiment?' or 'What's the relationship to statistical power?' or 'Give me an example from a project.'"
+          }
+        },
+        {
+          "type": "quote",
+          "content": {
+            "text": "Example: \"Explain the difference between Type I and Type II errors. When might you prioritize one over the other?\""
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Culture Fit Questions**"
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "Use the **Authenticity-First** framework:"
+          }
+        },
+        {
+          "type": "checklist",
+          "content": {
+            "title": "Key Elements to Cover",
+            "items": [
+              {
+                "id": "nvidia-culture-elem-0",
+                "text": "Why you noticed the gap (shows awareness)",
+                "required": true
+              },
+              {
+                "id": "nvidia-culture-elem-1",
+                "text": "Why you chose to act vs. escalate (judgment)",
+                "required": true
+              },
+              {
+                "id": "nvidia-culture-elem-2",
+                "text": "How you balanced this with your actual responsibilities",
+                "required": true
+              },
+              {
+                "id": "nvidia-culture-elem-3",
+                "text": "The outcome and what you learned",
+                "required": false
+              },
+              {
+                "id": "nvidia-culture-elem-4",
+                "text": "Whether you'd approach it differently now",
+                "required": false
+              },
+              {
+                "id": "nvidia-culture-elem-5",
+                "text": "How it shaped your view of ownership",
+                "required": false
+              }
+            ]
+          }
+        },
+        {
+          "type": "tip",
+          "content": {
+            "text": "**Authenticity check:** Before answering, ask yourself: Would I do this again? If you genuinely wouldn't, pick a different example where you felt energized by the ownership."
+          }
+        },
+        {
+          "type": "quote",
+          "content": {
+            "text": "Example: \"Tell me about a time you took on something outside your job description because it needed to be done.\""
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Curveball & Estimation Questions**"
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "Use the **Estimate container volume -> Estimate object volume -> Divide -> Sanity check** framework:"
+          }
+        },
+        {
+          "type": "checklist",
+          "content": {
+            "title": "Key Elements to Cover",
+            "items": [
+              {
+                "id": "nvidia-curveball-elem-0",
+                "text": "Estimate bus dimensions (state as assumption)",
+                "required": true
+              },
+              {
+                "id": "nvidia-curveball-elem-1",
+                "text": "Calculate bus volume in cubic feet",
+                "required": true
+              },
+              {
+                "id": "nvidia-curveball-elem-2",
+                "text": "Estimate golf ball diameter and volume",
+                "required": true
+              },
+              {
+                "id": "nvidia-curveball-elem-3",
+                "text": "Account for packing efficiency (~60-70%)",
+                "required": false
+              },
+              {
+                "id": "nvidia-curveball-elem-4",
+                "text": "Do the division",
+                "required": false
+              },
+              {
+                "id": "nvidia-curveball-elem-5",
+                "text": "Sanity check: 'Does this feel reasonable?'",
+                "required": false
+              }
+            ]
+          }
+        },
+        {
+          "type": "tip",
+          "content": {
+            "text": "**Stay composed:** Say: 'I'll estimate this step by step and state my assumptions as I go.' This signals you know what they're looking for and buys you thinking time."
+          }
+        },
+        {
+          "type": "quote",
+          "content": {
+            "text": "Example: \"How many golf balls fit in a school bus?\""
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Remember:** The best answers are specific, structured, and show self-awareness. Use these frameworks as guides, but adapt them to your actual experiences."
+          }
+        }
+      ]
+    },
+    {
+      "id": "competencies",
+      "title": "Key Competencies",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "Backend Engineer interviews assess your ability to build robust, scalable server-side systems. These are the core competencies interviewers will evaluate - make sure you can demonstrate depth in each area with specific examples from your experience."
+          }
+        },
+        {
+          "type": "checklist",
+          "content": {
+            "title": "Technical Areas to Review",
+            "items": [
+              {
+                "id": "nvidia-c1",
+                "text": "Data structures and algorithms",
+                "required": true
+              },
+              {
+                "id": "nvidia-c2",
+                "text": "SQL and database design (indexing, normalization)",
+                "required": true
+              },
+              {
+                "id": "nvidia-c3",
+                "text": "REST API design principles",
+                "required": true
+              },
+              {
+                "id": "nvidia-c4",
+                "text": "Caching strategies (Redis, Memcached)",
+                "required": true
+              },
+              {
+                "id": "nvidia-c5",
+                "text": "Message queues and async processing",
+                "required": true
+              },
+              {
+                "id": "nvidia-c6",
+                "text": "Distributed systems (CAP theorem, consistency models)",
+                "required": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "mistakes-to-avoid",
+      "title": "Mistakes to Avoid",
+      "blocks": [
+        {
+          "type": "header",
+          "content": {
+            "text": "Common Interview Mistakes to Avoid"
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "Even strong Backend Engineer candidates make these mistakes in interviews. Knowing what to avoid is just as important as knowing what to do."
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Behavioral Question Mistakes**"
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "Taking all credit (saying 'I' too much, never 'we')"
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "Focusing on the WHAT instead of the HOW of leadership"
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "Describing coercion as influence"
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "Skipping the outcome or metrics"
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Technical Question Mistakes**"
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "Only textbook definition without examples"
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "No business context for trade-offs"
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "Confusing the two types"
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "Over-complicating the explanation"
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Culture Fit Mistakes**"
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "Framing it as a burden you had to bear"
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "Taking on things to show off rather than because they mattered"
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "No clear impact or outcome from the extra work"
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "Implying you only do this when asked or incentivized"
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Curveball Question Mistakes**"
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "Freezing or saying 'I don't know'"
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "Guessing a random number without showing work"
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "Getting defensive when pushed on assumptions"
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "Over-engineering the calculation"
+          }
+        },
+        {
+          "type": "tip",
+          "content": {
+            "text": "**Remember:** Interviewers notice patterns. If you catch yourself heading toward one of these mistakes, pause, acknowledge it, and redirect. Self-awareness goes a long way."
+          }
+        }
+      ]
+    },
+    {
+      "id": "preparation",
+      "title": "Preparation Checklist",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "This checklist will help you prepare systematically for your Backend Engineer interview. Work through each item in the weeks leading up to your interview - don't try to cram everything at the last minute."
+          }
+        },
+        {
+          "type": "checklist",
+          "content": {
+            "title": "Before Your Interview",
+            "items": [
+              {
+                "id": "nvidia-p1",
+                "text": "Practice LeetCode medium/hard problems",
+                "required": true
+              },
+              {
+                "id": "nvidia-p2",
+                "text": "Review system design patterns (load balancing, sharding, etc.)",
+                "required": true
+              },
+              {
+                "id": "nvidia-p3",
+                "text": "Brush up on SQL and database optimization",
+                "required": true
+              },
+              {
+                "id": "nvidia-p4",
+                "text": "Understand caching strategies and trade-offs",
+                "required": true
+              },
+              {
+                "id": "nvidia-p5",
+                "text": "Review distributed systems fundamentals",
+                "required": true
+              },
+              {
+                "id": "nvidia-p6",
+                "text": "Prepare to discuss past backend projects in depth",
+                "required": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
       "id": "behavioral",
       "title": "Behavioral Questions for Backend Engineer",
       "blocks": [
