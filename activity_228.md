@@ -73,7 +73,7 @@ Fix content quality issues identified during manual review of interview prep mod
 - [ ] #258 - Manual review
 - [x] #297 - Big Tech batch
 - [x] #298 - High-growth startups batch
-- [ ] #299 - Finance batch
+- [x] #299 - Finance batch
 - [ ] #300 - Consulting batch
 - [ ] #301 - E-commerce/Retail batch
 - [ ] #302 - Healthcare/Biotech batch
@@ -2253,6 +2253,72 @@ All company-role modules for 14 High-growth startups companies:
 
 **Acceptance Criteria:**
 - ✅ All 118 High-growth startups company-role modules reviewed
+- ✅ Role content merged into each module
+- ✅ No duplicate sections
+- ✅ Content flow is logical (role guidance → company-specific questions)
+
+### 2026-01-19 - Issue #299: Merge role content - Finance company-role modules
+
+**Status:** Complete
+
+**Modules Updated (106 total):**
+All company-role modules for 14 Finance companies:
+- Goldman Sachs (9 modules)
+- JPMorgan (9 modules)
+- Morgan Stanley (8 modules)
+- Bank of America (8 modules)
+- Citadel (6 modules)
+- Two Sigma (6 modules)
+- Jane Street (5 modules)
+- BlackRock (8 modules)
+- Fidelity (8 modules)
+- Charles Schwab (7 modules)
+- Visa (7 modules)
+- Mastercard (7 modules)
+- PayPal (9 modules)
+- Block (9 modules)
+
+**Merge Process:**
+1. Created automated merge script: `scripts/cleanup/merge-role-content-finance.ts`
+2. For each company-role module, loaded the corresponding role module
+3. Prepended 6 role sections before company-specific interview sections:
+   - Role Overview
+   - Common Interview Format
+   - How to Structure Your Answers
+   - Key Competencies
+   - Mistakes to Avoid
+   - Preparation Checklist
+4. Generated unique IDs for checklist items to avoid collisions
+5. Preserved all company-specific content (Behavioral, Technical, Culture Fit, Curveball questions)
+
+**Result Structure (example: Goldman Sachs Software Engineer):**
+```
+1. Role Overview (from role module)
+2. Common Interview Format (from role module)
+3. How to Structure Your Answers (from role module)
+4. Key Competencies (from role module)
+5. Mistakes to Avoid (from role module)
+6. Preparation Checklist (from role module)
+7. Behavioral Questions for Software Engineer (company-specific)
+8. Technical Questions for Software Engineer (company-specific)
+9. Culture Fit Questions for Software Engineer (company-specific)
+10. Curveball Questions (company-specific)
+```
+
+**Script Created:**
+- `scripts/cleanup/merge-role-content-finance.ts` - Automated merge for Finance modules
+
+**Verification:**
+- `npm run lint` - passes (warnings only for unrelated image issues)
+- `npm run type-check` - passes
+- `npm run build` - successful
+- `npm test -- --testPathPattern="(load-modules|flatten-modules|matrix|samples)"` - 85 tests pass
+- All 106 JSON files validated successfully
+- No duplicate sections in any module
+- All role sections present in each module
+
+**Acceptance Criteria:**
+- ✅ All 106 Finance company-role modules reviewed
 - ✅ Role content merged into each module
 - ✅ No duplicate sections
 - ✅ Content flow is logical (role guidance → company-specific questions)

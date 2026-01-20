@@ -9,6 +9,570 @@
   "display_order": 0,
   "sections": [
     {
+      "id": "overview",
+      "title": "Role Overview",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "Software Engineer interviews test your ability to write clean, efficient code, design scalable systems, and collaborate effectively. Most loops include coding rounds, system design (for senior roles), and behavioral interviews."
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**What interviewers assess:**\n\n- Problem-solving approach and thought process\n- Code quality, readability, and testing mindset\n- Data structure and algorithm knowledge\n- System design skills (senior+)\n- Communication and collaboration"
+          }
+        }
+      ]
+    },
+    {
+      "id": "format",
+      "title": "Common Interview Format",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "**Typical SWE interview loop:**\n\n1. **Recruiter screen** (30 min) - Background, expectations, logistics\n2. **Technical phone screen** (45-60 min) - 1-2 coding problems\n3. **Onsite/Virtual loop** (4-6 hours):\n   - 2-3 coding rounds\n   - 1 system design (senior+)\n   - 1-2 behavioral rounds\n4. **Team matching** (some companies)"
+          }
+        },
+        {
+          "type": "tip",
+          "content": {
+            "text": "Think out loud during coding interviews. Interviewers can't read your mind - they need to hear your reasoning to give you credit for your approach."
+          }
+        }
+      ]
+    },
+    {
+      "id": "answer-frameworks",
+      "title": "How to Structure Your Answers",
+      "blocks": [
+        {
+          "type": "header",
+          "content": {
+            "text": "How to Structure Your Answers"
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "Great Software Engineer interview answers follow proven structures. These frameworks help you give complete, compelling responses that cover everything interviewers want to hear."
+          }
+        },
+        {
+          "type": "tip",
+          "content": {
+            "text": "**Pro tip:** Don't memorize scripts. Learn these frameworks so you can adapt them to any question. Interviewers can tell when answers are rehearsed word-for-word."
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Behavioral Questions**"
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "Use the **STAR with leadership lens** framework:"
+          }
+        },
+        {
+          "type": "checklist",
+          "content": {
+            "title": "Key Elements to Cover",
+            "items": [
+              {
+                "id": "jane-street-behavioral-elem-0",
+                "text": "Why you stepped up (not because you had to)",
+                "required": true
+              },
+              {
+                "id": "jane-street-behavioral-elem-1",
+                "text": "How you built alignment without authority",
+                "required": true
+              },
+              {
+                "id": "jane-street-behavioral-elem-2",
+                "text": "Specific influence tactics used",
+                "required": true
+              },
+              {
+                "id": "jane-street-behavioral-elem-3",
+                "text": "How you handled resistance",
+                "required": false
+              },
+              {
+                "id": "jane-street-behavioral-elem-4",
+                "text": "Measurable outcome",
+                "required": false
+              },
+              {
+                "id": "jane-street-behavioral-elem-5",
+                "text": "What you'd do differently",
+                "required": false
+              }
+            ]
+          }
+        },
+        {
+          "type": "tip",
+          "content": {
+            "text": "**Time allocation:** Situation: 15%, Task: 10%, Action: 55%, Result: 20%"
+          }
+        },
+        {
+          "type": "quote",
+          "content": {
+            "text": "Example: \"Tell me about a time you had to lead a project without formal authority.\""
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Technical Questions**"
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "Use the **Clarify -> Brute force -> Optimize -> Code -> Test** framework:"
+          }
+        },
+        {
+          "type": "checklist",
+          "content": {
+            "title": "Key Elements to Cover",
+            "items": [
+              {
+                "id": "jane-street-technical-elem-0",
+                "text": "Clarify: Can there be duplicates? Negative numbers?",
+                "required": true
+              },
+              {
+                "id": "jane-street-technical-elem-1",
+                "text": "Brute force: O(n^2) nested loops",
+                "required": true
+              },
+              {
+                "id": "jane-street-technical-elem-2",
+                "text": "Optimize: Hash map for O(n)",
+                "required": true
+              },
+              {
+                "id": "jane-street-technical-elem-3",
+                "text": "Code with clear variable names",
+                "required": false
+              },
+              {
+                "id": "jane-street-technical-elem-4",
+                "text": "Test with edge cases",
+                "required": false
+              },
+              {
+                "id": "jane-street-technical-elem-5",
+                "text": "Discuss space/time trade-offs",
+                "required": false
+              }
+            ]
+          }
+        },
+        {
+          "type": "tip",
+          "content": {
+            "text": "**Be ready for follow-ups:** Expect: 'What if the array is sorted?' or 'Find all pairs' or 'Handle duplicates differently'"
+          }
+        },
+        {
+          "type": "quote",
+          "content": {
+            "text": "Example: \"Given an array of integers, find two numbers that sum to a target value.\""
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Culture Fit Questions**"
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "Use the **Authenticity-First** framework:"
+          }
+        },
+        {
+          "type": "checklist",
+          "content": {
+            "title": "Key Elements to Cover",
+            "items": [
+              {
+                "id": "jane-street-culture-elem-0",
+                "text": "Why you noticed the gap (shows awareness)",
+                "required": true
+              },
+              {
+                "id": "jane-street-culture-elem-1",
+                "text": "Why you chose to act vs. escalate (judgment)",
+                "required": true
+              },
+              {
+                "id": "jane-street-culture-elem-2",
+                "text": "How you balanced this with your actual responsibilities",
+                "required": true
+              },
+              {
+                "id": "jane-street-culture-elem-3",
+                "text": "The outcome and what you learned",
+                "required": false
+              },
+              {
+                "id": "jane-street-culture-elem-4",
+                "text": "Whether you'd approach it differently now",
+                "required": false
+              },
+              {
+                "id": "jane-street-culture-elem-5",
+                "text": "How it shaped your view of ownership",
+                "required": false
+              }
+            ]
+          }
+        },
+        {
+          "type": "tip",
+          "content": {
+            "text": "**Authenticity check:** Before answering, ask yourself: Would I do this again? If you genuinely wouldn't, pick a different example where you felt energized by the ownership."
+          }
+        },
+        {
+          "type": "quote",
+          "content": {
+            "text": "Example: \"Tell me about a time you took on something outside your job description because it needed to be done.\""
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Curveball & Estimation Questions**"
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "Use the **Estimate container volume -> Estimate object volume -> Divide -> Sanity check** framework:"
+          }
+        },
+        {
+          "type": "checklist",
+          "content": {
+            "title": "Key Elements to Cover",
+            "items": [
+              {
+                "id": "jane-street-curveball-elem-0",
+                "text": "Estimate bus dimensions (state as assumption)",
+                "required": true
+              },
+              {
+                "id": "jane-street-curveball-elem-1",
+                "text": "Calculate bus volume in cubic feet",
+                "required": true
+              },
+              {
+                "id": "jane-street-curveball-elem-2",
+                "text": "Estimate golf ball diameter and volume",
+                "required": true
+              },
+              {
+                "id": "jane-street-curveball-elem-3",
+                "text": "Account for packing efficiency (~60-70%)",
+                "required": false
+              },
+              {
+                "id": "jane-street-curveball-elem-4",
+                "text": "Do the division",
+                "required": false
+              },
+              {
+                "id": "jane-street-curveball-elem-5",
+                "text": "Sanity check: 'Does this feel reasonable?'",
+                "required": false
+              }
+            ]
+          }
+        },
+        {
+          "type": "tip",
+          "content": {
+            "text": "**Stay composed:** Say: 'I'll estimate this step by step and state my assumptions as I go.' This signals you know what they're looking for and buys you thinking time."
+          }
+        },
+        {
+          "type": "quote",
+          "content": {
+            "text": "Example: \"How many golf balls fit in a school bus?\""
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Remember:** The best answers are specific, structured, and show self-awareness. Use these frameworks as guides, but adapt them to your actual experiences."
+          }
+        }
+      ]
+    },
+    {
+      "id": "competencies",
+      "title": "Key Competencies",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "Software Engineer interviews evaluate both your technical skills and how you approach problems. These are the core competencies interviewers assess - make sure you can demonstrate depth in each area with specific examples."
+          }
+        },
+        {
+          "type": "checklist",
+          "content": {
+            "title": "Technical Skills to Prepare",
+            "items": [
+              {
+                "id": "jane-street-c1",
+                "text": "Arrays, strings, hash maps, sets",
+                "required": true
+              },
+              {
+                "id": "jane-street-c2",
+                "text": "Trees, graphs, BFS/DFS",
+                "required": true
+              },
+              {
+                "id": "jane-street-c3",
+                "text": "Dynamic programming basics",
+                "required": true
+              },
+              {
+                "id": "jane-street-c4",
+                "text": "Sorting and searching algorithms",
+                "required": true
+              },
+              {
+                "id": "jane-street-c5",
+                "text": "Time/space complexity analysis",
+                "required": true
+              },
+              {
+                "id": "jane-street-c6",
+                "text": "System design fundamentals (senior+)",
+                "required": false
+              }
+            ]
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "Don't just memorize solutions. Interviewers ask follow-ups and variations. Understand WHY each approach works."
+          }
+        }
+      ]
+    },
+    {
+      "id": "mistakes-to-avoid",
+      "title": "Mistakes to Avoid",
+      "blocks": [
+        {
+          "type": "header",
+          "content": {
+            "text": "Common Interview Mistakes to Avoid"
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "Even strong Software Engineer candidates make these mistakes in interviews. Knowing what to avoid is just as important as knowing what to do."
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Behavioral Question Mistakes**"
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "Taking all credit (saying 'I' too much, never 'we')"
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "Focusing on the WHAT instead of the HOW of leadership"
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "Describing coercion as influence"
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "Skipping the outcome or metrics"
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Technical Question Mistakes**"
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "Jumping to code without clarifying"
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "Only knowing the optimal solution (not showing process)"
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "Ignoring edge cases (empty array, duplicates)"
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "Silent coding without explanation"
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Culture Fit Mistakes**"
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "Framing it as a burden you had to bear"
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "Taking on things to show off rather than because they mattered"
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "No clear impact or outcome from the extra work"
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "Implying you only do this when asked or incentivized"
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Curveball Question Mistakes**"
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "Freezing or saying 'I don't know'"
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "Guessing a random number without showing work"
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "Getting defensive when pushed on assumptions"
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "Over-engineering the calculation"
+          }
+        },
+        {
+          "type": "tip",
+          "content": {
+            "text": "**Remember:** Interviewers notice patterns. If you catch yourself heading toward one of these mistakes, pause, acknowledge it, and redirect. Self-awareness goes a long way."
+          }
+        }
+      ]
+    },
+    {
+      "id": "preparation",
+      "title": "Preparation Checklist",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "This checklist will help you prepare systematically for your Software Engineer interview. Work through each item in the weeks leading up to your interview - don't try to cram everything at the last minute."
+          }
+        },
+        {
+          "type": "checklist",
+          "content": {
+            "title": "Before Your Interview",
+            "items": [
+              {
+                "id": "jane-street-p1",
+                "text": "Practice 50-100 LeetCode problems (focus on medium)",
+                "required": true
+              },
+              {
+                "id": "jane-street-p2",
+                "text": "Review core data structures and their trade-offs",
+                "required": true
+              },
+              {
+                "id": "jane-street-p3",
+                "text": "Practice explaining your thought process out loud",
+                "required": true
+              },
+              {
+                "id": "jane-street-p4",
+                "text": "Prepare 3-5 STAR stories for behavioral questions",
+                "required": true
+              },
+              {
+                "id": "jane-street-p5",
+                "text": "Review your past projects to discuss in detail",
+                "required": true
+              },
+              {
+                "id": "jane-street-p6",
+                "text": "Study system design (Grokking, YouTube, etc.)",
+                "required": false
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
       "id": "behavioral",
       "title": "Behavioral Questions for Software Engineer",
       "blocks": [
