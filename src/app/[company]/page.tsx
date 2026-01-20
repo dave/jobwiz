@@ -121,11 +121,6 @@ export default async function CompanyPage({ params }: CompanyPageProps) {
                 />
               </div>
 
-              {/* Category badge - uses theme colors */}
-              <span className="inline-block px-3 py-1 text-xs font-medium text-[var(--theme-primary,#2563eb)] bg-[var(--theme-primary-light,#dbeafe)] rounded-full mb-4">
-                {company.category}
-              </span>
-
               <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
                 {company.name} Interview Prep
               </h1>
