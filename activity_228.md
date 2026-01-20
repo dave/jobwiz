@@ -76,7 +76,7 @@ Fix content quality issues identified during manual review of interview prep mod
 - [x] #299 - Finance batch
 - [x] #300 - Consulting batch
 - [x] #301 - E-commerce/Retail batch
-- [ ] #302 - Healthcare/Biotech batch
+- [x] #302 - Healthcare/Biotech batch
 - [ ] #303 - Enterprise SaaS batch
 - [ ] #304 - Media/Entertainment batch
 - [ ] #305 - Other companies batch
@@ -2442,6 +2442,67 @@ All company-role modules for 14 Finance companies:
 
 **Acceptance Criteria:**
 - ✅ All 82 E-commerce/Retail company-role modules reviewed
+- ✅ Role content merged into each module
+- ✅ No duplicate sections
+- ✅ Content flow is logical (role guidance → company-specific questions)
+
+### 2026-01-19 - Issue #302: Merge role content into Healthcare/Biotech company-role modules
+
+**Completed:**
+- Created `scripts/cleanup/merge-role-content-healthcare.ts` script
+- Merged role content into 58 Healthcare/Biotech company-role modules across 10 companies:
+  - Cerner (5 modules): engineering-manager, product-manager, qa-engineer, software-engineer, technical-program-manager
+  - CVS Health (7 modules): backend-engineer, business-analyst, data-engineer, data-scientist, engineering-manager, product-manager, software-engineer
+  - Epic (5 modules): engineering-manager, product-manager, qa-engineer, software-engineer, technical-program-manager
+  - Genentech (5 modules): data-engineer, data-scientist, engineering-manager, machine-learning-engineer, software-engineer
+  - Illumina (5 modules): data-engineer, data-scientist, engineering-manager, machine-learning-engineer, software-engineer
+  - J&J (6 modules): business-analyst, data-engineer, data-scientist, engineering-manager, product-manager, software-engineer
+  - Moderna (5 modules): data-engineer, data-scientist, engineering-manager, machine-learning-engineer, software-engineer
+  - Optum (7 modules): backend-engineer, business-analyst, data-engineer, data-scientist, engineering-manager, product-manager, software-engineer
+  - Pfizer (6 modules): data-engineer, data-scientist, engineering-manager, machine-learning-engineer, product-manager, software-engineer
+  - UnitedHealth (7 modules): backend-engineer, business-analyst, data-engineer, data-scientist, engineering-manager, product-manager, software-engineer
+
+**Merge Process:**
+1. Created automated merge script: `scripts/cleanup/merge-role-content-healthcare.ts`
+2. For each company-role module, loaded the corresponding role module
+3. Prepended 6 role sections before company-specific interview sections:
+   - Role Overview
+   - Common Interview Format
+   - How to Structure Your Answers
+   - Key Competencies
+   - Mistakes to Avoid
+   - Preparation Checklist
+4. Generated unique IDs for checklist items to avoid collisions
+5. Preserved all company-specific content (Behavioral, Technical, Culture Fit, Curveball questions)
+
+**Result Structure (example: Pfizer Software Engineer):**
+```
+1. Role Overview (from role module)
+2. Common Interview Format (from role module)
+3. How to Structure Your Answers (from role module)
+4. Key Competencies (from role module)
+5. Mistakes to Avoid (from role module)
+6. Preparation Checklist (from role module)
+7. Behavioral Questions for Software Engineer (company-specific)
+8. Technical Questions for Software Engineer (company-specific)
+9. Culture Fit Questions for Software Engineer (company-specific)
+10. Curveball Questions (company-specific)
+```
+
+**Script Created:**
+- `scripts/cleanup/merge-role-content-healthcare.ts` - Automated merge for Healthcare/Biotech modules
+
+**Verification:**
+- `npm run lint` - passes (warnings only for unrelated image issues)
+- `npm run type-check` - passes
+- `npm run build` - successful
+- `npm test -- --testPathPattern="(load-modules|flatten-modules|matrix|samples)"` - 85 tests pass
+- All 58 JSON files validated successfully
+- No duplicate sections in any module
+- All role sections present in each module
+
+**Acceptance Criteria:**
+- ✅ All 58 Healthcare/Biotech company-role modules reviewed
 - ✅ Role content merged into each module
 - ✅ No duplicate sections
 - ✅ Content flow is logical (role guidance → company-specific questions)
