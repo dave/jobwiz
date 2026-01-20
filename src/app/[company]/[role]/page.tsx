@@ -120,7 +120,10 @@ export default async function CompanyRolePage({ params }: CompanyRolePageProps) 
               />
             </div>
 
-            <h1 className="text-4xl sm:text-5xl font-semibold text-gray-900 tracking-tight leading-tight mb-6">
+            <h1
+              className="text-4xl sm:text-5xl font-semibold text-gray-900 tracking-tight mb-6"
+              style={{ lineHeight: 1.15 }}
+            >
               How{" "}
               <span className="text-[var(--theme-primary,#2563eb)]">
                 {company.name}
@@ -146,6 +149,18 @@ export default async function CompanyRolePage({ params }: CompanyRolePageProps) 
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
               </svg>
             </Link>
+
+            {/* Scroll indicator */}
+            <div className="mt-16 flex justify-center">
+              <svg
+                className="w-6 h-6 text-gray-300 animate-bounce"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 9l-7 7-7-7" />
+              </svg>
+            </div>
           </div>
         </section>
 
@@ -260,33 +275,6 @@ export default async function CompanyRolePage({ params }: CompanyRolePageProps) 
           </div>
         </section>
 
-        {/* Breadcrumb nav */}
-        <section className="px-6 py-8 border-t border-gray-100">
-          <div className="max-w-2xl mx-auto">
-            <nav aria-label="Breadcrumb">
-              <ol className="flex items-center gap-2 text-sm text-gray-400">
-                <li>
-                  <Link href="/" className="hover:text-gray-600 transition-colors">
-                    Home
-                  </Link>
-                </li>
-                <li aria-hidden="true">/</li>
-                <li>
-                  <Link
-                    href={`/${company.slug}`}
-                    className="hover:text-gray-600 transition-colors"
-                  >
-                    {company.name}
-                  </Link>
-                </li>
-                <li aria-hidden="true">/</li>
-                <li>
-                  <span className="text-gray-600" aria-current="page">{role.name}</span>
-                </li>
-              </ol>
-            </nav>
-          </div>
-        </section>
       </main>
     </ThemeProvider>
   );

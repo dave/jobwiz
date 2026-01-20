@@ -13,11 +13,17 @@ export function InterviewSelector({ companies }: InterviewSelectorProps) {
   const [selectedCompany, setSelectedCompany] = useState<string>("");
   const [selectedRole, setSelectedRole] = useState<string>("");
 
-  // Get available roles for selected company
+  // Sort companies alphabetically
+  const sortedCompanies = useMemo(() => {
+    return [...companies].sort((a, b) => a.name.localeCompare(b.name));
+  }, [companies]);
+
+  // Get available roles for selected company, sorted alphabetically
   const availableRoles = useMemo(() => {
     if (!selectedCompany) return [];
     const company = companies.find((c) => c.slug === selectedCompany);
-    return company?.roles ?? [];
+    const roles = company?.roles ?? [];
+    return [...roles].sort((a, b) => a.name.localeCompare(b.name));
   }, [selectedCompany, companies]);
 
   // Reset role when company changes
@@ -57,7 +63,7 @@ export function InterviewSelector({ companies }: InterviewSelectorProps) {
           }}
         >
           <option value="">Select a company...</option>
-          {companies.map((company) => (
+          {sortedCompanies.map((company) => (
             <option key={company.slug} value={company.slug}>
               {company.name}
             </option>

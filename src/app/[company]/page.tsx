@@ -150,22 +150,6 @@ export default async function CompanyPage({ params }: CompanyPageProps) {
           )}
         </section>
 
-        {/* Breadcrumb Navigation */}
-        <section className="max-w-4xl mx-auto px-4 pb-12">
-          <nav aria-label="Breadcrumb">
-            <ol className="flex items-center gap-2 text-sm text-gray-500">
-              <li>
-                <Link href="/" className="hover:text-[var(--theme-primary,#2563eb)] transition-colors">
-                  Home
-                </Link>
-              </li>
-              <li aria-hidden="true">/</li>
-              <li>
-                <span className="text-gray-900" aria-current="page">{company.name}</span>
-              </li>
-            </ol>
-          </nav>
-        </section>
       </main>
     </ThemeProvider>
   );
