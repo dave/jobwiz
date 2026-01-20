@@ -71,10 +71,6 @@ export interface JourneyProgressProps {
   hasPremiumAccess: boolean;
   /** Persisted progress (if any) */
   progress?: CarouselProgress | null;
-  /** Whether progress is still loading from localStorage */
-  progressLoading?: boolean;
-  /** Whether user is logged in (from server, for default button text) */
-  isLoggedIn?: boolean;
 }
 
 /** Module display info for rendering */
@@ -233,8 +229,6 @@ export function JourneyProgress({
   paywallIndex,
   hasPremiumAccess,
   progress,
-  progressLoading = false,
-  isLoggedIn = false,
 }: JourneyProgressProps) {
   // Extract progress values with defaults
   const currentIndex = progress?.currentIndex ?? 0;
@@ -271,20 +265,14 @@ export function JourneyProgress({
     [allModules, completedItems, currentIndex, hasPremiumAccess]
   );
 
-  // Determine button text and state
-  // While loading, show appropriate text based on login state to prevent flicker
-  // Logged in users likely have progress (show "Continue"), logged out users don't (show "Start Journey")
+  // Determine button text and state based on progress
   const hasStarted = currentIndex > 0 || completedItems.size > 0;
   const isComplete = progressPercentage === 100;
-  const buttonText = progressLoading
-    ? isLoggedIn
+  const buttonText = isComplete
+    ? "Review Journey"
+    : hasStarted
       ? "Continue"
-      : "Start Journey"
-    : isComplete
-      ? "Review Journey"
-      : hasStarted
-        ? "Continue"
-        : "Start Journey";
+      : "Start Journey";
 
   // Calculate circumference for progress ring (radius = 40)
   const circumference = 2 * Math.PI * 40;
@@ -314,7 +302,7 @@ export function JourneyProgress({
               strokeWidth="8"
               strokeLinecap="round"
               strokeDasharray={circumference}
-              strokeDashoffset={progressLoading ? circumference : strokeDashoffset}
+              strokeDashoffset={strokeDashoffset}
               className="transition-all duration-500"
             />
           </svg>
@@ -322,9 +310,9 @@ export function JourneyProgress({
             <span
               className="text-lg font-bold text-gray-900"
               data-testid="progress-percentage"
-              aria-label={progressLoading ? "0% complete" : `${progressPercentage}% complete`}
+              aria-label={`${progressPercentage}% complete`}
             >
-              {progressLoading ? "0" : progressPercentage}%
+              {progressPercentage}%
             </span>
           </div>
         </div>
@@ -338,11 +326,9 @@ export function JourneyProgress({
             {currentModule?.title || "Your Journey"}
           </p>
           <p className="text-gray-500 text-sm mb-3">
-            {progressLoading
-              ? "Loading..."
-              : completedItems.size === 0
-                ? "Ready when you are"
-                : `${completedItems.size} of ${totalItems} complete`}
+            {completedItems.size === 0
+              ? "Ready when you are"
+              : `${completedItems.size} of ${totalItems} complete`}
           </p>
           <Link
             href={`/${companySlug}/${roleSlug}/journey/learn`}

@@ -78,41 +78,41 @@ export function JourneyContent({
 }: JourneyContentProps) {
   const { user } = useAuth();
   const [hasAccess, setHasAccess] = useState(initialHasAccess);
-  // Only show "checking" state if user is logged in but we need to verify access
-  // For logged-out users, we know they don't have access - show paywall immediately
-  const [checkingAccess, setCheckingAccess] = useState(isLoggedIn && !initialHasAccess);
+  // Trust server-side access check - don't show "checking" state on initial render
+  // This prevents flicker where paywall appears after hydration
+  const [checkingAccess, setCheckingAccess] = useState(false);
+  // Track if we need to re-check access (when user logs in after initial render)
+  const [needsAccessRecheck, setNeedsAccessRecheck] = useState(false);
   // Initialize progress from server cookie if available
   const [progress, setProgress] = useState<CarouselProgress | null>(initialProgress);
-  // If we have initial progress from cookie, no need to wait for localStorage load
-  const [progressLoaded, setProgressLoaded] = useState(initialProgress !== null);
 
   // Load persisted progress from localStorage on mount (may be fresher than cookie)
   useEffect(() => {
     const loadedProgress = loadPersistedProgress(companySlug, roleSlug);
-    // Only update if localStorage has data (don't overwrite cookie data with null)
+    // Only update if localStorage has data and is fresher than cookie data
     if (loadedProgress) {
-      // Use localStorage if fresher than initial cookie data
       if (!initialProgress || loadedProgress.lastUpdated > (initialProgress.lastUpdated ?? 0)) {
         setProgress(loadedProgress);
       }
     }
-    setProgressLoaded(true);
   }, [companySlug, roleSlug, initialProgress]);
 
-  // Check if user has purchased access (skip if already have access from server)
+  // Detect when user logs in after initial render (need to re-check access)
   useEffect(() => {
-    // If we already have access from server, no need to re-check
-    if (initialHasAccess) {
+    // If user just appeared and we didn't have them on initial render, re-check access
+    if (user && !isLoggedIn && !initialHasAccess) {
+      setNeedsAccessRecheck(true);
+    }
+  }, [user, isLoggedIn, initialHasAccess]);
+
+  // Re-check access only when user logs in after page load
+  useEffect(() => {
+    if (!needsAccessRecheck || !user) {
       return;
     }
 
     async function checkAccessAsync() {
-      if (!user) {
-        setHasAccess(false);
-        setCheckingAccess(false);
-        return;
-      }
-
+      setCheckingAccess(true);
       try {
         const res = await fetch(
           `/api/access?company=${companySlug}&role=${roleSlug}`
@@ -126,9 +126,10 @@ export function JourneyContent({
         setHasAccess(false);
       }
       setCheckingAccess(false);
+      setNeedsAccessRecheck(false);
     }
     checkAccessAsync();
-  }, [user, companySlug, roleSlug, initialHasAccess]);
+  }, [needsAccessRecheck, user, companySlug, roleSlug]);
 
   // Handle purchase - redirect to Stripe checkout
   const handlePurchase = async (): Promise<boolean> => {
@@ -189,8 +190,6 @@ export function JourneyContent({
               paywallIndex={paywallIndex}
               hasPremiumAccess={hasAccess}
               progress={progress}
-              progressLoading={!progressLoaded}
-              isLoggedIn={isLoggedIn}
             />
 
             {/* Premium Unlock Section (if user doesn't have access) */}

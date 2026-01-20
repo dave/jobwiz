@@ -4,9 +4,18 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useAuthContext } from "@/lib/auth/context";
 
-export function Header() {
+interface HeaderProps {
+  /** Initial logged-in state from server to prevent hydration flicker */
+  initialIsLoggedIn?: boolean;
+}
+
+export function Header({ initialIsLoggedIn }: HeaderProps) {
   const { user, loading, signOut } = useAuthContext();
   const pathname = usePathname();
+
+  // Use server-provided state for initial render to prevent flicker
+  // Once auth context loads, it takes over
+  const isLoggedIn = loading ? initialIsLoggedIn : !!user;
 
   // Hide header on learn pages to let users focus
   if (pathname?.includes("/journey/learn")) {
@@ -21,9 +30,10 @@ export function Header() {
         </Link>
 
         <nav className="flex items-center gap-4">
-          {loading ? (
+          {/* Only show loading skeleton if we don't have initial state from server */}
+          {loading && initialIsLoggedIn === undefined ? (
             <div className="h-9 w-20 bg-gray-100 rounded animate-pulse" />
-          ) : user ? (
+          ) : isLoggedIn ? (
             <>
               <Link
                 href="/dashboard"

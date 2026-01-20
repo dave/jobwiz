@@ -9,11 +9,8 @@
  * Now includes profile section (merged from /profile)
  */
 
-import { useRequireAuth, useAuthContext } from "@/lib/auth";
+import { useRequireAuth } from "@/lib/auth";
 import Link from "next/link";
-import Image from "next/image";
-import { useRouter } from "next/navigation";
-import { useState } from "react";
 
 interface Purchase {
   id: string;
@@ -31,23 +28,8 @@ interface DashboardContentProps {
 
 export function DashboardContent({ initialPurchases = [] }: DashboardContentProps) {
   const { user, loading, error } = useRequireAuth();
-  const { signOut } = useAuthContext();
-  const router = useRouter();
-  const [signingOut, setSigningOut] = useState(false);
   // Use initial purchases from server - no need to re-fetch
   const purchases = initialPurchases;
-
-  async function handleSignOut() {
-    try {
-      setSigningOut(true);
-      await signOut();
-      router.push("/");
-    } catch {
-      // Error is handled by the context
-    } finally {
-      setSigningOut(false);
-    }
-  }
 
   if (loading) {
     return (
@@ -81,44 +63,6 @@ export function DashboardContent({ initialPurchases = [] }: DashboardContentProp
 
   return (
     <div className="min-h-screen bg-gray-50">
-      {/* Profile Header */}
-      <header className="bg-gradient-to-r from-blue-500 to-blue-600 shadow-sm">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
-          <div className="flex items-center justify-between">
-            <div className="flex items-center">
-              {user.avatarUrl ? (
-                <Image
-                  src={user.avatarUrl}
-                  alt="Profile"
-                  width={56}
-                  height={56}
-                  className="h-14 w-14 rounded-full border-2 border-white"
-                />
-              ) : (
-                <div className="h-14 w-14 rounded-full border-2 border-white bg-white flex items-center justify-center">
-                  <span className="text-xl font-bold text-blue-600">
-                    {(user.displayName ?? user.email ?? "U").charAt(0).toUpperCase()}
-                  </span>
-                </div>
-              )}
-              <div className="ml-4">
-                <h1 className="text-xl font-bold text-white">
-                  {user.displayName ?? "User"}
-                </h1>
-                <p className="text-blue-100 text-sm">{user.email}</p>
-              </div>
-            </div>
-            <button
-              onClick={handleSignOut}
-              disabled={signingOut}
-              className="px-4 py-2 bg-white/20 text-white font-medium rounded-md hover:bg-white/30 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-blue-600 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
-            >
-              {signingOut ? "Signing out..." : "Sign Out"}
-            </button>
-          </div>
-        </div>
-      </header>
-
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {/* Welcome Card */}

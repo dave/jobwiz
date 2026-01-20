@@ -28,7 +28,7 @@ export default async function RootLayout({
       <body className={poppins.className}>
         <Providers initialSession={session}>
           <div className="min-h-screen flex flex-col">
-            <Header />
+            <Header initialIsLoggedIn={!!session} />
             <main className="flex-1">{children}</main>
             <Footer />
           </div>
