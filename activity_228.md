@@ -37,7 +37,7 @@ Fix content quality issues identified during manual review of interview prep mod
 - [x] #293 - Healthcare/Biotech batch
 - [x] #294 - Enterprise SaaS batch
 - [x] #295 - Media/Entertainment batch
-- [ ] #296 - Other companies batch
+- [x] #296 - Other companies batch
 
 ### Missing Introductions (#244)
 - [x] #245 - Add STAR section intro
@@ -2013,3 +2013,44 @@ Block patterns found (consistent across all modules):
 - ✅ Questions appear before explanations (verified - no issues found)
 - ✅ Content flow is logical (section intro → tip → quiz blocks)
 
+
+### 2026-01-19 - Issue #296: Fix content ordering - Company-role modules: Other companies
+
+**Status:** Complete - No issues found
+
+**Modules Reviewed (20 total):**
+Reviewed all company-role modules for 3 Other companies:
+- Asana (6 modules), Dropbox (7), Palantir (7)
+
+**Analysis Approach:**
+1. Created automated checker script to detect text/tip/warning blocks appearing between quiz blocks
+2. Scanned all 20 modules for ordering issues
+3. Verified block patterns across all sections (80 total)
+4. Manually spot-checked sample files (Asana SWE, Dropbox PM, Palantir Data Scientist)
+
+**Findings:**
+All 20 modules have the **correct** ordering structure:
+- Section intro text at position 0
+- Key focus areas tip/warning at position 1
+- All quiz blocks grouped together after intro content
+
+Block patterns found (consistent across all modules):
+- `text tip quiz quiz quiz quiz quiz` - 40 sections (Behavioral, Technical)
+- `text warning quiz quiz quiz quiz quiz` - 20 sections (Culture Fit)
+- `text tip quiz quiz quiz quiz` - 20 sections (Curveball - 4 quizzes)
+
+**No fixes required** - The current structure is correct. Explanations/frameworks do NOT appear before questions; they appear at the section level as introductory content, which is appropriate.
+
+**Script Created:**
+- `scripts/cleanup/check-content-ordering-other.ts` - Automated ordering check for Other companies modules
+
+**Verification:**
+- `npm run lint` - passes (warnings only for unrelated image issues)
+- `npm run type-check` - passes
+- `npm run build` - successful
+- `npm test -- --testPathPattern="modules"` - 77 tests pass
+
+**Acceptance Criteria:**
+- ✅ All 20 company-role modules in batch reviewed
+- ✅ Questions appear before explanations (verified - no issues found)
+- ✅ Content flow is logical (section intro → tip → quiz blocks)
