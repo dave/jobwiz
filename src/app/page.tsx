@@ -5,7 +5,7 @@ export default function Home() {
   const companies = getAllCompanies();
 
   return (
-    <main className="min-h-screen bg-white">
+    <div className="bg-white">
       <section className="px-6 pt-16 pb-20 sm:pt-24 sm:pb-28">
         <div className="max-w-2xl mx-auto text-center">
           <h1 className="text-4xl sm:text-5xl font-semibold text-gray-900 tracking-tight leading-[1.1] mb-6">
@@ -19,6 +19,6 @@ export default function Home() {
           <InterviewSelector companies={companies} />
         </div>
       </section>
-    </main>
+    </div>
   );
 }
