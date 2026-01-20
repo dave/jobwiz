@@ -11,7 +11,7 @@ interface CheckoutContentProps {
   roleName: string;
 }
 
-const PRICE = 200; // $200
+const PRICE = 199; // $199
 
 const BENEFITS = [
   "Company-specific interview questions and answers",
