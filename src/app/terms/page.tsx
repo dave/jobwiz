@@ -44,7 +44,7 @@ export default function TermsPage() {
               Purchases and Refunds
             </h2>
             <p className="text-gray-600 mb-4">
-              When you purchase access to premium content, you receive immediate access to the materials. All purchases are final, but we offer a 7-day satisfaction guarantee. If you&apos;re not satisfied with your purchase, contact us within 7 days for a full refund.
+              When you purchase access to premium content, you receive immediate access to the materials. All purchases are final.
             </p>
             <p className="text-gray-600">
               Prices are subject to change, but any price changes will not affect purchases you have already made.
@@ -86,7 +86,7 @@ export default function TermsPage() {
               Contact Us
             </h2>
             <p className="text-gray-600">
-              If you have questions about these terms, please contact us at support@acethatinterview.com.
+              If you have questions about these terms, please contact us at john@johnbrophy.net.
             </p>
           </section>
         </div>

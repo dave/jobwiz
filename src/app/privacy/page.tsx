@@ -56,7 +56,7 @@ export default function PrivacyPage() {
               Your Rights
             </h2>
             <p className="text-gray-600">
-              You can access, update, or delete your personal information at any time through your account settings. If you have questions about your data or wish to exercise your privacy rights, contact us at privacy@acethatinterview.com.
+              You can access, update, or delete your personal information at any time through your account settings. If you have questions about your data or wish to exercise your privacy rights, contact us at john@johnbrophy.net.
             </p>
           </section>
 
