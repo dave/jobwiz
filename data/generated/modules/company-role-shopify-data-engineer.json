@@ -9,6 +9,564 @@
   "display_order": 0,
   "sections": [
     {
+      "id": "overview",
+      "title": "Role Overview",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "Data Engineering interviews focus on building and maintaining data infrastructure - pipelines, warehouses, and processing systems. Expect SQL deep dives, system design for data, and coding challenges."
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**What interviewers assess:**\n\n- SQL expertise (complex queries, optimization)\n- Data pipeline design and orchestration\n- Data modeling and warehouse design\n- Big data technologies (Spark, Kafka, etc.)\n- Programming skills (Python, Scala)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "format",
+      "title": "Common Interview Format",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "**Typical data engineering interview loop:**\n\n1. **Recruiter screen** (30 min)\n2. **Technical phone screen** (60 min) - SQL or coding\n3. **Onsite/Virtual loop** (4-5 hours):\n   - SQL deep dive round\n   - Data pipeline design\n   - Coding round\n   - Behavioral round"
+          }
+        },
+        {
+          "type": "tip",
+          "content": {
+            "text": "Be ready to discuss data quality, testing strategies, and how you handle schema evolution and backward compatibility."
+          }
+        }
+      ]
+    },
+    {
+      "id": "answer-frameworks",
+      "title": "How to Structure Your Answers",
+      "blocks": [
+        {
+          "type": "header",
+          "content": {
+            "text": "How to Structure Your Answers"
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "Great Data Engineer interview answers follow proven structures. These frameworks help you give complete, compelling responses that cover everything interviewers want to hear."
+          }
+        },
+        {
+          "type": "tip",
+          "content": {
+            "text": "**Pro tip:** Don't memorize scripts. Learn these frameworks so you can adapt them to any question. Interviewers can tell when answers are rehearsed word-for-word."
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Behavioral Questions**"
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "Use the **STAR with leadership lens** framework:"
+          }
+        },
+        {
+          "type": "checklist",
+          "content": {
+            "title": "Key Elements to Cover",
+            "items": [
+              {
+                "id": "shopify-behavioral-elem-0",
+                "text": "Why you stepped up (not because you had to)",
+                "required": true
+              },
+              {
+                "id": "shopify-behavioral-elem-1",
+                "text": "How you built alignment without authority",
+                "required": true
+              },
+              {
+                "id": "shopify-behavioral-elem-2",
+                "text": "Specific influence tactics used",
+                "required": true
+              },
+              {
+                "id": "shopify-behavioral-elem-3",
+                "text": "How you handled resistance",
+                "required": false
+              },
+              {
+                "id": "shopify-behavioral-elem-4",
+                "text": "Measurable outcome",
+                "required": false
+              },
+              {
+                "id": "shopify-behavioral-elem-5",
+                "text": "What you'd do differently",
+                "required": false
+              }
+            ]
+          }
+        },
+        {
+          "type": "tip",
+          "content": {
+            "text": "**Time allocation:** Situation: 15%, Task: 10%, Action: 55%, Result: 20%"
+          }
+        },
+        {
+          "type": "quote",
+          "content": {
+            "text": "Example: \"Tell me about a time you had to lead a project without formal authority.\""
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Technical Questions**"
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "Use the **Define -> Examples -> Trade-offs -> Business context** framework:"
+          }
+        },
+        {
+          "type": "checklist",
+          "content": {
+            "title": "Key Elements to Cover",
+            "items": [
+              {
+                "id": "shopify-technical-elem-0",
+                "text": "Clear definition of both types",
+                "required": true
+              },
+              {
+                "id": "shopify-technical-elem-1",
+                "text": "Real-world example (spam filter, medical diagnosis)",
+                "required": true
+              },
+              {
+                "id": "shopify-technical-elem-2",
+                "text": "When to prioritize Type I (false positive) avoidance",
+                "required": true
+              },
+              {
+                "id": "shopify-technical-elem-3",
+                "text": "When to prioritize Type II (false negative) avoidance",
+                "required": false
+              },
+              {
+                "id": "shopify-technical-elem-4",
+                "text": "How sample size affects both",
+                "required": false
+              },
+              {
+                "id": "shopify-technical-elem-5",
+                "text": "How to explain to product managers",
+                "required": false
+              }
+            ]
+          }
+        },
+        {
+          "type": "tip",
+          "content": {
+            "text": "**Be ready for follow-ups:** Expect: 'How do you set alpha level for an experiment?' or 'What's the relationship to statistical power?' or 'Give me an example from a project.'"
+          }
+        },
+        {
+          "type": "quote",
+          "content": {
+            "text": "Example: \"Explain the difference between Type I and Type II errors. When might you prioritize one over the other?\""
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Culture Fit Questions**"
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "Use the **Authenticity-First** framework:"
+          }
+        },
+        {
+          "type": "checklist",
+          "content": {
+            "title": "Key Elements to Cover",
+            "items": [
+              {
+                "id": "shopify-culture-elem-0",
+                "text": "Why you noticed the gap (shows awareness)",
+                "required": true
+              },
+              {
+                "id": "shopify-culture-elem-1",
+                "text": "Why you chose to act vs. escalate (judgment)",
+                "required": true
+              },
+              {
+                "id": "shopify-culture-elem-2",
+                "text": "How you balanced this with your actual responsibilities",
+                "required": true
+              },
+              {
+                "id": "shopify-culture-elem-3",
+                "text": "The outcome and what you learned",
+                "required": false
+              },
+              {
+                "id": "shopify-culture-elem-4",
+                "text": "Whether you'd approach it differently now",
+                "required": false
+              },
+              {
+                "id": "shopify-culture-elem-5",
+                "text": "How it shaped your view of ownership",
+                "required": false
+              }
+            ]
+          }
+        },
+        {
+          "type": "tip",
+          "content": {
+            "text": "**Authenticity check:** Before answering, ask yourself: Would I do this again? If you genuinely wouldn't, pick a different example where you felt energized by the ownership."
+          }
+        },
+        {
+          "type": "quote",
+          "content": {
+            "text": "Example: \"Tell me about a time you took on something outside your job description because it needed to be done.\""
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Curveball & Estimation Questions**"
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "Use the **Estimate container volume -> Estimate object volume -> Divide -> Sanity check** framework:"
+          }
+        },
+        {
+          "type": "checklist",
+          "content": {
+            "title": "Key Elements to Cover",
+            "items": [
+              {
+                "id": "shopify-curveball-elem-0",
+                "text": "Estimate bus dimensions (state as assumption)",
+                "required": true
+              },
+              {
+                "id": "shopify-curveball-elem-1",
+                "text": "Calculate bus volume in cubic feet",
+                "required": true
+              },
+              {
+                "id": "shopify-curveball-elem-2",
+                "text": "Estimate golf ball diameter and volume",
+                "required": true
+              },
+              {
+                "id": "shopify-curveball-elem-3",
+                "text": "Account for packing efficiency (~60-70%)",
+                "required": false
+              },
+              {
+                "id": "shopify-curveball-elem-4",
+                "text": "Do the division",
+                "required": false
+              },
+              {
+                "id": "shopify-curveball-elem-5",
+                "text": "Sanity check: 'Does this feel reasonable?'",
+                "required": false
+              }
+            ]
+          }
+        },
+        {
+          "type": "tip",
+          "content": {
+            "text": "**Stay composed:** Say: 'I'll estimate this step by step and state my assumptions as I go.' This signals you know what they're looking for and buys you thinking time."
+          }
+        },
+        {
+          "type": "quote",
+          "content": {
+            "text": "Example: \"How many golf balls fit in a school bus?\""
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Remember:** The best answers are specific, structured, and show self-awareness. Use these frameworks as guides, but adapt them to your actual experiences."
+          }
+        }
+      ]
+    },
+    {
+      "id": "competencies",
+      "title": "Key Competencies",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "Data Engineer interviews focus on your ability to design and maintain data infrastructure at scale. These are the core competencies interviewers evaluate - be ready to discuss specific projects where you've demonstrated each skill."
+          }
+        },
+        {
+          "type": "checklist",
+          "content": {
+            "title": "Technical Areas to Review",
+            "items": [
+              {
+                "id": "shopify-c1",
+                "text": "Advanced SQL (window functions, CTEs, query optimization)",
+                "required": true
+              },
+              {
+                "id": "shopify-c2",
+                "text": "Data modeling (star schema, slowly changing dimensions)",
+                "required": true
+              },
+              {
+                "id": "shopify-c3",
+                "text": "ETL/ELT pipeline design",
+                "required": true
+              },
+              {
+                "id": "shopify-c4",
+                "text": "Orchestration tools (Airflow, Dagster, Prefect)",
+                "required": true
+              },
+              {
+                "id": "shopify-c5",
+                "text": "Big data processing (Spark, distributed systems)",
+                "required": true
+              },
+              {
+                "id": "shopify-c6",
+                "text": "Streaming vs batch processing trade-offs",
+                "required": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "mistakes-to-avoid",
+      "title": "Mistakes to Avoid",
+      "blocks": [
+        {
+          "type": "header",
+          "content": {
+            "text": "Common Interview Mistakes to Avoid"
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "Even strong Data Engineer candidates make these mistakes in interviews. Knowing what to avoid is just as important as knowing what to do."
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Behavioral Question Mistakes**"
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "Taking all credit (saying 'I' too much, never 'we')"
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "Focusing on the WHAT instead of the HOW of leadership"
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "Describing coercion as influence"
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "Skipping the outcome or metrics"
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Technical Question Mistakes**"
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "Only textbook definition without examples"
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "No business context for trade-offs"
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "Confusing the two types"
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "Over-complicating the explanation"
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Culture Fit Mistakes**"
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "Framing it as a burden you had to bear"
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "Taking on things to show off rather than because they mattered"
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "No clear impact or outcome from the extra work"
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "Implying you only do this when asked or incentivized"
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "text": "**Curveball Question Mistakes**"
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "Freezing or saying 'I don't know'"
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "Guessing a random number without showing work"
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "Getting defensive when pushed on assumptions"
+          }
+        },
+        {
+          "type": "warning",
+          "content": {
+            "text": "Over-engineering the calculation"
+          }
+        },
+        {
+          "type": "tip",
+          "content": {
+            "text": "**Remember:** Interviewers notice patterns. If you catch yourself heading toward one of these mistakes, pause, acknowledge it, and redirect. Self-awareness goes a long way."
+          }
+        }
+      ]
+    },
+    {
+      "id": "preparation",
+      "title": "Preparation Checklist",
+      "blocks": [
+        {
+          "type": "text",
+          "content": {
+            "text": "This checklist will help you prepare systematically for your Data Engineer interview. Work through each item in the weeks leading up to your interview - don't try to cram everything at the last minute."
+          }
+        },
+        {
+          "type": "checklist",
+          "content": {
+            "title": "Before Your Interview",
+            "items": [
+              {
+                "id": "shopify-p1",
+                "text": "Practice complex SQL on StrataScratch or LeetCode",
+                "required": true
+              },
+              {
+                "id": "shopify-p2",
+                "text": "Review data warehouse design principles",
+                "required": true
+              },
+              {
+                "id": "shopify-p3",
+                "text": "Prepare to design a data pipeline end-to-end",
+                "required": true
+              },
+              {
+                "id": "shopify-p4",
+                "text": "Brush up on Python and data processing libraries",
+                "required": true
+              },
+              {
+                "id": "shopify-p5",
+                "text": "Understand the company's data stack if possible",
+                "required": true
+              },
+              {
+                "id": "shopify-p6",
+                "text": "Prepare examples of data quality issues you've solved",
+                "required": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
       "id": "behavioral",
       "title": "Behavioral Questions for Data Engineer",
       "blocks": [
