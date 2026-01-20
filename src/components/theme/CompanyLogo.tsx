@@ -20,9 +20,9 @@ interface CompanyLogoProps {
 }
 
 const sizeMap = {
-  small: { height: 32, maxWidth: 120, className: "h-8" },
-  medium: { height: 48, maxWidth: 180, className: "h-12" },
-  large: { height: 64, maxWidth: 240, className: "h-16" },
+  small: { height: 32, maxWidth: 200, className: "h-8" },
+  medium: { height: 48, maxWidth: 300, className: "h-12" },
+  large: { height: 64, maxWidth: 400, className: "h-16" },
 };
 
 /**
