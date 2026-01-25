@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useAuthContext } from "@/lib/auth/context";
@@ -25,8 +26,14 @@ export function Header({ initialIsLoggedIn }: HeaderProps) {
   return (
     <header className="border-b border-gray-100 bg-white">
       <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
-        <Link href="/" className="text-lg font-semibold text-gray-900">
-          Ace That Interview
+        <Link href="/" className="flex items-center">
+          <Image
+            src="/ACEonly 120x120.png"
+            alt="Ace That Interview"
+            width={40}
+            height={40}
+            priority
+          />
         </Link>
 
         <nav className="flex items-center gap-4">
