@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { getAllCompanies } from "@/lib/routing";
 import { InterviewSelector } from "@/components/home/InterviewSelector";
 
@@ -8,9 +9,15 @@ export default function Home() {
     <div className="bg-white">
       <section className="px-6 pt-16 pb-20 sm:pt-24 sm:pb-28">
         <div className="max-w-2xl mx-auto text-center">
-          <h1 className="text-4xl sm:text-5xl font-semibold text-gray-900 tracking-tight leading-[1.1] mb-6">
-            Ace That Interview
-          </h1>
+          <h1 className="sr-only">Ace That Interview</h1>
+          <Image
+            src="/ACE+text 120x120.png"
+            alt="Ace That Interview"
+            width={120}
+            height={120}
+            priority
+            className="mx-auto mb-6"
+          />
 
           <p className="text-xl text-gray-600 leading-relaxed mb-10 mx-auto max-w-xl">
             Interview prep tailored to your target company and role
