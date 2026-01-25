@@ -28,7 +28,7 @@ export function Header({ initialIsLoggedIn }: HeaderProps) {
       <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
         <Link href="/" className="flex items-center">
           <Image
-            src="/ACEonly 120x120.png"
+            src="/ace-logo.png"
             alt="Ace That Interview"
             width={40}
             height={40}
