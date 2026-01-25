@@ -11,7 +11,7 @@ export default function Home() {
         <div className="max-w-2xl mx-auto text-center">
           <h1 className="sr-only">Ace That Interview</h1>
           <Image
-            src="/ACE+text 120x120.png"
+            src="/ace-logo-full.png"
             alt="Ace That Interview"
             width={120}
             height={120}
